@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-twenty-two-autosomes-and-one-x-chromosom",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-twenty-two-autosomes-and-one-x-chromosom'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "dev",
+    "module_subject": "SCU-FBS102 > Genetics > Gametogenesis > Oogenesis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-TWENTY-TWO-AUTOSOMES-AND-ONE-X-CHROMOSOM",
+      "key": "genetics-twenty-two-autosomes-and-one-x-chromosom",
+      "title": "A mature ovum carries 22 autosomes and one X chromosome",
+      "subject": "dev",
+      "module_subject": "SCU-FBS102 > Genetics > Gametogenesis > Oogenesis",
+      "question": "How many chromosomes, and of what type, are normally present in a mature human ovum?",
+      "options": {
+        "A": "22 autosomes and one Y chromosome",
+        "B": "44 autosomes and two X chromosomes",
+        "C": "22 autosomes and one X chromosome",
+        "D": "23 autosomes and one X chromosome"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A mature ovum can never carry a Y chromosome, because oogenesis begins from an XX primary oocyte, which has no Y chromosome to segregate into any of its meiotic products.",
+        "B": "Incorrect. 44 autosomes and two X chromosomes describes the full diploid complement of a primary oocyte before meiosis, not the haploid complement of the mature ovum after both meiotic divisions.",
+        "C": "Correct. Meiosis halves the diploid chromosome number of 46 (44 autosomes plus the XX pair) to the haploid number of 23; since only an X chromosome is available to segregate, a mature ovum's normal complement is 22 autosomes plus one X chromosome (22,X). This is why the sperm's sex chromosome, not the egg's, ultimately determines the chromosomal sex of the resulting zygote.",
+        "D": "Incorrect. This double-counts the sex chromosome contribution to the autosome total — the haploid set is 22 autosomes plus 1 sex chromosome (23 chromosomes total), not 23 autosomes plus a separate X chromosome (which would total 24)."
+      },
+      "topic": "Genetics",
+      "subtopic": "Gametogenesis",
+      "main_concept": "CON-DEV-6EC970E9533BDA",
+      "concept_ids": [
+        "CON-DEV-6EC970E9533BDA"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-GAMETOGENESIS-CHROMOSOME-NUMBER"
+      ],
+      "learning_objective": "State that a mature human ovum normally carries 22 autosomes and exactly one X chromosome (never a Y), and explain that the fertilizing sperm therefore determines offspring sex.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOM Foundation 1 2026 Q12",
+      "author_notes": ""
+    }
+  ]
+}

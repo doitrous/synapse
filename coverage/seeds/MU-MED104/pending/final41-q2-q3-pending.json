@@ -1,0 +1,79 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-final41-eoy-msk2",
+  "header": "MU-MED104 pending-live · '00 Module-wide/07 EOY Exams/Final 41.pdf' Q9-Q10, lower-limb Anatomy, on existing Alexandria AU-MED-105 concept ids (found via find-existing.mjs, not live yet). Grey-highlight key, read directly from the rendered page image (the 'Make Watermark' phone-photo scan, LANE-CARD §7). Apply after docs/Alexandria-Source-Imports/concept/AU-MED-105-anatomy-concepts.md + article/AU-MED-105-anatomy-articles.md are live.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "subject": "msk",
+    "module_subject": "MU-MED104 > 00 Module-wide > 07 EOY Exams > Final 41 > Anatomy",
+    "setting": "Clinical",
+    "estimated_seconds": 50,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-final41-eoy-msk2-q02",
+      "id": "QST-MUMED104-FINAL41-Q09",
+      "title": "Muscle spared by a greater trochanter fracture",
+      "question": "A 70 year old woman admitted to hospital with a history of fell at home. Examination revealed fracture of the greater trochanter of her femur. Which of the following muscles would continue to function normally?",
+      "options": { "A": "Piriformis", "B": "Obturator internus", "C": "Gluteus medius", "D": "Gluteus maximus", "E": "Gluteus minimus" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Piriformis inserts onto the upper border of the greater trochanter itself, so a fracture through the greater trochanter directly disrupts its insertion and its ability to act on the hip, unlike gluteus maximus which inserts well away from the fracture site.",
+        "B": "Incorrect. Obturator internus also inserts onto the greater trochanter (the medial surface of its upper border, via the trochanteric fossa region), so a fracture there disrupts its attachment and lateral-rotator action just as it does piriformis, and it would not continue to function normally.",
+        "C": "Incorrect. Gluteus medius inserts onto the lateral surface of the greater trochanter, making it one of the muscles most directly disrupted by a fracture through the greater trochanter itself, with loss of its abductor function (a Trendelenburg-type deficit) rather than preserved function.",
+        "D": "Correct. Gluteus maximus, unlike the short lateral rotators and gluteus medius/minimus, inserts mostly into the iliotibial tract, with only a minority of its fibres reaching the gluteal tuberosity of the femur — a site well below and separate from the greater trochanter. Because a greater trochanter fracture does not involve the iliotibial tract insertion, gluteus maximus's hip-extensor action is preserved even though several neighbouring muscles that do insert on the trochanter are disrupted.",
+        "E": "Incorrect. Gluteus minimus inserts onto the anterior surface of the greater trochanter, so it is directly disrupted by a fracture through the greater trochanter, with loss of its contribution to hip abduction and medial rotation, unlike gluteus maximus whose insertion lies elsewhere."
+      },
+      "main_concept": "CON-MSK-F12505C48037BB",
+      "concept_ids": ["CON-MSK-F12505C48037BB"],
+      "contextual_concept_ids": [],
+      "topic": "Lower limb",
+      "subtopic": "Gluteal region",
+      "difficulty": "Hard",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise that gluteus maximus's iliotibial-tract insertion, unlike the trochanteric insertions of piriformis, obturator internus, gluteus medius and gluteus minimus, spares it from a greater trochanter fracture.",
+      "media_recommendations": "",
+      "library_ids": ["ART-MSK-AU105-GLUTEAL-HIP-JOINT"],
+      "source_citation": "00 Module-wide/07 EOY Exams/Final 41.pdf, Q9 (Menoufia MED104 EOY exam, Anatomy section, lower limb)",
+      "field_notes": { "keySource": "grey-highlight, read from rendered page image, Final 41.pdf p1, Q9", "mu": "Final 41.pdf, Q9, Anatomy section — the 'Make Watermark' phone-photo scan that defeats default OCR (coverage/MU-MED104-triage.md)" },
+      "author_notes": ""
+    },
+    {
+      "key": "med104-final41-eoy-msk2-q03",
+      "id": "QST-MUMED104-FINAL41-Q10",
+      "title": "Muscle affected by loss of plantarflexion and inversion",
+      "question": "A 36 years old worker is hit on the leg. On examination he was found unable to plantar flex and invert his foot. Which of the following muscles is most likely affected?",
+      "options": { "A": "Tibialis anterior", "B": "Tibialis posterior", "C": "Peroneus longus", "D": "Peroneus brevis", "E": "Peroneus tertius" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Tibialis anterior is a muscle of the anterior compartment (supplied by the deep peroneal nerve) that dorsiflexes and inverts the foot — it opposes, rather than produces, plantarflexion, so weakness of it would cause foot drop, not the combined loss of plantarflexion and inversion described here.",
+        "B": "Correct. Tibialis posterior belongs to the deep group of the posterior compartment of the leg (with flexor digitorum longus, flexor hallucis longus and popliteus), all supplied by the tibial nerve, and this deep group's actions together produce plantarflexion and inversion of the foot. An injury affecting tibialis posterior therefore matches exactly the combined loss of plantarflexion and inversion the worker presents with.",
+        "C": "Incorrect. Peroneus longus lies in the lateral compartment (superficial peroneal nerve) and produces plantarflexion together with eversion, not inversion, of the foot — its action is opposite in the frontal-plane component to the deficit described, so it does not match the presentation.",
+        "D": "Incorrect. Peroneus brevis, also in the lateral compartment (superficial peroneal nerve), plantarflexes and everts the foot, the same eversion (not inversion) pairing as peroneus longus, so it does not account for the inversion loss described in the stem.",
+        "E": "Incorrect. Peroneus tertius is an anterior-compartment muscle (deep peroneal nerve) that dorsiflexes and everts the foot — both actions are the opposite of the plantarflexion-and-inversion loss described, so it is not the muscle affected here."
+      },
+      "main_concept": "CON-MSK-9180242FA01B58",
+      "concept_ids": ["CON-MSK-9180242FA01B58"],
+      "contextual_concept_ids": [],
+      "topic": "Lower limb",
+      "subtopic": "Posterior compartment of the leg",
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise combined loss of plantarflexion and inversion as deep posterior compartment (tibial nerve) territory, and name tibialis posterior as its representative muscle.",
+      "media_recommendations": "",
+      "library_ids": ["ART-MSK-AU105-LEG-NERVES-CUTANEOUS"],
+      "source_citation": "00 Module-wide/07 EOY Exams/Final 41.pdf, Q10 (Menoufia MED104 EOY exam, Anatomy section, lower limb)",
+      "field_notes": { "keySource": "grey-highlight, read from rendered page image, Final 41.pdf p1, Q10", "mu": "Final 41.pdf, Q10, Anatomy section — the 'Make Watermark' phone-photo scan that defeats default OCR (coverage/MU-MED104-triage.md)" },
+      "author_notes": ""
+    }
+  ]
+}

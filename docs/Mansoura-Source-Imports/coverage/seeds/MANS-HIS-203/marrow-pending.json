@@ -1,0 +1,126 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "marrow-pending",
+  "header": "MANS-HIS-203 · Histology — Red vs yellow bone marrow, authored from the His Continuous Berlin Book 2026 (Histology Lecture 1&2, p.18, plus the دفعة 63 past-exam block, p.37), printed keys. Main concept is a pending Kasr hit — apply after pending-live/MANS-HIS-203-concepts.md and its Kasr target are live.",
+  "defaults": {
+    "subject": "haem",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "module_subject": "MANS-HIS-203 > Histology > Blood > Haemopoiesis",
+    "exam_weight_by_year": { "MANS_Y1": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-101-HIS-HAEMOPOIESIS"],
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q11",
+      "page": 18,
+      "title": "Where red bone marrow is found",
+      "question": "Red bone marrow is present in which of the following?",
+      "options": {
+        "A": "In most of the bones of the fetus",
+        "B": "In shafts of long bones in adults",
+        "C": "Intervertebral discs",
+        "D": "Mucoid connective tissue",
+        "E": "Tendons of muscles"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In the fetus, red (active) marrow fills most of the bones. It is only later in life, as the child grows, that the marrow of the long bone shafts progressively converts to inactive yellow marrow, leaving red marrow confined to the flat, short and irregular bones in the adult.",
+        "B": "Incorrect. In the adult, the shafts of long bones are filled with inactive yellow marrow, not red marrow — the two-way conversion runs the opposite direction from what this option states.",
+        "C": "Incorrect. Intervertebral discs are fibrocartilaginous structures between vertebral bodies; they contain no marrow of either kind.",
+        "D": "Incorrect. Mucoid connective tissue (such as Wharton's jelly) is a distinct embryonic connective tissue type; it is not a site of bone marrow.",
+        "E": "Incorrect. Tendons are dense regular connective tissue attaching muscle to bone; they contain no marrow."
+      },
+      "main_concept": "CON-HEM-AEB2E6C6E8A423",
+      "concept_ids": ["CON-HEM-AEB2E6C6E8A423"],
+      "contextual_concept_ids": [],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Bone marrow",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that red marrow fills most fetal bones and that it is confined to specific adult sites once the long bone shafts convert to yellow marrow.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.18" },
+      "author_notes": ""
+    },
+    {
+      "key": "q12",
+      "page": 18,
+      "title": "Site of yellow (inactive) bone marrow",
+      "question": "What is the site of yellow (inactive) bone marrow?",
+      "options": {
+        "A": "Bones of fetus",
+        "B": "Clavicle",
+        "C": "Sternum",
+        "D": "Ribs and vertebrae",
+        "E": "Shafts of long bones"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Fetal bones are filled with active red marrow, not the inactive yellow marrow this question asks about.",
+        "B": "Incorrect. The clavicle, like the other flat and short bones, retains red (active) marrow in the adult, not yellow marrow.",
+        "C": "Incorrect. The sternum is one of the classic sites of red marrow biopsy in the adult precisely because it remains active, not because it holds yellow marrow.",
+        "D": "Incorrect. Ribs and vertebrae, like the sternum, remain red-marrow-active flat and irregular bones in the adult.",
+        "E": "Correct. Yellow (inactive, fat-laden) marrow occupies the shafts of the long bones in the adult. It is not dead tissue but a fat reserve that can convert back to active red marrow when the body's demand for blood cells rises."
+      },
+      "main_concept": "CON-HEM-AEB2E6C6E8A423",
+      "concept_ids": ["CON-HEM-AEB2E6C6E8A423"],
+      "contextual_concept_ids": [],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Bone marrow",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the shafts of the long bones as the adult site of inactive yellow marrow, as distinct from the flat/irregular bones that stay red-marrow-active.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.18" },
+      "author_notes": ""
+    },
+    {
+      "key": "d63a-2",
+      "page": 37,
+      "title": "Site of adult hemopoiesis (past-exam block, دفعة 63)",
+      "question": "Where does hemopoiesis take place in adults?",
+      "options": {
+        "A": "Lungs",
+        "B": "Liver",
+        "C": "Bone marrow",
+        "D": "Pancreas",
+        "E": "Spleen"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The lungs have no haemopoietic function at any stage of life.",
+        "B": "Incorrect. The liver is a major site of fetal haemopoiesis but is not the site in the adult, whose haemopoietic function has by then shifted to bone marrow.",
+        "C": "Correct. Bone marrow is where haemopoiesis takes place in the adult. More specifically, it is the red (active) marrow of the flat, short and irregular bones that does the work, since the long bone shafts have converted to inactive yellow marrow by then. This marrow takes over from the fetal liver and spleen well before birth.",
+        "D": "Incorrect. The pancreas is an exocrine and endocrine digestive gland; it has no role in blood cell formation.",
+        "E": "Incorrect. The spleen is a site of fetal haemopoiesis and remains a store and filter for blood cells in the adult, but it is not the adult's main site of active production, which is bone marrow."
+      },
+      "main_concept": "CON-HEM-AEB2E6C6E8A423",
+      "concept_ids": ["CON-HEM-AEB2E6C6E8A423"],
+      "contextual_concept_ids": [],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Bone marrow",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that bone marrow is the adult site of haemopoiesis, having taken over from the fetal liver and spleen.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.37 (دفعة 63 past-exam block, printed item 7)" },
+      "author_notes": ""
+    }
+  ]
+}

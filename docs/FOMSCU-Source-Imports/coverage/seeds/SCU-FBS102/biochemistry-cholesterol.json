@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-cholesterol",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'biochemistry-cholesterol'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Lipids of Biological Importance"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-cholesterol",
+      "id": "QST-SCUFBS102-S2-PENDING-BIOCHEMISTRY-CHOLESTEROL",
+      "title": "Cholesterol's lipid classification",
+      "question": "Which of the following lipid classes is scientifically classified as derived lipids?",
+      "options": {
+        "A": "Simple neutral waxes",
+        "B": "Membrane phospholipids",
+        "C": "Cholesterol",
+        "D": "Long chain fatty acids"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Waxes — esters of a fatty acid with a long-chain monohydroxy alcohol — are a subgroup of simple lipids, not derived lipids.",
+        "B": "Incorrect. Phospholipids contain a fatty acid, an alcohol and an additional phosphate-linked group, which is exactly the definition of a compound lipid, not a derived one.",
+        "C": "Correct. Lipids are classified by composition into simple lipids (fatty acid + alcohol only), compound lipids (fatty acid + alcohol + another group), and derived lipids — hydrolysis products of the other two groups, or substances associated with lipids in nature, a heading that covers free fatty acids and steroids. Cholesterol is a steroid, so it is a derived lipid by this classification, even though cholesteryl esters (cholesterol esterified with a fatty acid) are separately classed as a wax, a simple lipid.",
+        "D": "Incorrect. A free long-chain fatty acid on its own (not esterified to an alcohol) is itself an example of a derived lipid, but the question asks which whole class cholesterol specifically belongs to, and fatty acids and steroids are named as two separate examples within that same derived-lipid heading — cholesterol is the steroid example, not the fatty-acid one."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Lipids: classification by composition",
+      "main_concept": "CON-FND-30D2E317144DDF",
+      "concept_ids": ["CON-FND-30D2E317144DDF"],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "cognitive_effort_score": 0.25,
+      "reasoning_level": 2,
+      "inferred_difficulty": 55,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.3,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE"],
+      "learning_objective": "Classify cholesterol as a derived lipid (a steroid), distinct from simple lipids (waxes) and compound lipids (phospholipids).",
+      "source_citation": "FOMSCU Foundation 1, Formative and Past Exams 2021 Q45 (also 2022 Q25)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative and Past Exams 2021 Q45 (also 2022 Q25); source-JSON extraction.",
+        "reclassification": "The triage's automated pass called this a 'live' hit on the bare word 'cholesterol', which the lane's manual QA pass reclassified as a false positive (homonym/adjacent, not verified). find-existing.mjs's multi-word query 'cholesterol derived lipid' returned no existing record — the exact phrase is not present verbatim. A direct grep for 'derived lipid' inside docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md found CON-FND-30D2E317144DDF, whose own definition explicitly names steroids (cholesterol's class) as a derived-lipid example. Overlaid rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md."
+      }
+    }
+  ]
+}

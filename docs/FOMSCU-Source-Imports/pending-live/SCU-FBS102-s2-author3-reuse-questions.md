@@ -1,0 +1,423 @@
+<!--
+  SCU-FBS102 S2 minting pass, third author lane (scu-fbs103-author3). 3 questions reusing an existing concept (all pending in other lanes' unimported batches). Keys and stems read from the FOMSCU own-source quiz-app JSON; explanations rewritten in house voice, never pasted from the source JSON's own (FOMNINU-sourced) Arabic explanation field. Continues the cluster 'fbs102d' numbering from the sibling fbs102d-mints.json (q01-q06) at q07. Apply after docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md (BATCH 4, appended by this lane) and docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-overlay-concepts.md (cloacal membrane row extended by this lane) and, for the pending-concept rows, after their named source files are live — see the overlay files' own headers for the exact gate command.
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-SCUFBS102-FBS102D-EMBRYOLOGY-AMNIOTIC-CAVITY-1
+
+## title
+The amniotic cavity and the epiblast
+
+## question
+Which of the following cavities is directly covered and roofed by the epiblast layer during early embryonic development?
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The primitive yolk sac cavity
+
+## explanation_a
+Incorrect. The primitive yolk sac cavity is bounded by the hypoblast, not the epiblast.
+
+## answer_b
+Amniotic cavity
+
+## explanation_b
+Correct. On the eighth day, the embryoblast splits into epiblast and hypoblast, and a cavity opens within the remainder of the inner cell mass — the amniotic cavity. The epiblast forms the floor of this cavity, while the amnioblast (flat cells in contact with the cytotrophoblast) forms its roof. The amniotic cavity is therefore the cavity the epiblast bounds during early embryonic development.
+
+## answer_c
+The extraembryonic chorionic cavity
+
+## explanation_c
+Incorrect. The extraembryonic chorionic cavity forms later, around day 13, from spaces in the extraembryonic mesoderm, and is not bounded by the epiblast.
+
+## answer_d
+The expanding blastocyst cavity
+
+## explanation_d
+Incorrect. The blastocyst cavity (blastocele) is the fluid-filled cavity of the earlier blastocyst stage, bounded by trophoblast and hypoblast, not specifically by the epiblast.
+
+## topic
+Embryology
+
+## subtopic
+Second week: the bilaminar disc and amniotic cavity
+
+## main_concept
+CON-DEV-59DB99C028C33F
+
+## concept_ids
+CON-DEV-59DB99C028C33F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+4
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Embryology > Second Week
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-IMPLANTATION
+
+## resource_ids
+
+## learning_objective
+Identify the amniotic cavity as the cavity the epiblast forms the floor of during the second week.
+
+## source_citation
+FOMSCU Foundation 1, Formative and Past Exams 2021, Q1
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer, FOMSCU Foundation 1 QBank
+fomscu: Formative and Past Exams 2021 Q1 (repeated verbatim in 2023 Q1); source-JSON extraction. This stem's own "covered and roofed by the epiblast" wording is loose (the concept's own definition states the epiblast is the cavity's FLOOR, and amnioblast its roof); the explanation above states the accurate floor/roof assignment rather than repeat that imprecise phrasing, while still honouring the printed answer (Amniotic cavity), which is correct under either phrasing.
+reuse: find-existing.mjs "amniotic cavity epiblast" surfaced CON-DEV-59DB99C028C33F in docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md, whose own definition states the epiblast forms the amniotic cavity's floor and the amnioblast its roof — the same fact this stem tests. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-FBS102D-EMBRYOLOGY-AMNIOTIC-CAVITY-2
+
+## title
+The epiblast as the floor of the amniotic cavity
+
+## question
+During early embryonic development the epiblast layer directly covers and forms the floor of which fluid filled cavity?
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The primary primitive yolk sac cavity
+
+## explanation_a
+Incorrect. The primitive yolk sac cavity is bounded by the hypoblast, not the epiblast.
+
+## answer_b
+Amniotic cavity
+
+## explanation_b
+Correct. The embryoblast splits into epiblast and hypoblast on the eighth day, and the cavity that opens above the epiblast — the amniotic cavity — is roofed by the amnioblast while the epiblast itself forms its floor. This precise floor/roof assignment is the standard teaching point tested by this stem.
+
+## answer_c
+The large expanding blastocyst cavity
+
+## explanation_c
+Incorrect. The blastocyst cavity (blastocele) is the fluid-filled cavity of the earlier blastocyst stage, bounded by trophoblast and hypoblast, not specifically formed with the epiblast as its floor.
+
+## answer_d
+The extraembryonic supporting chorionic cavity
+
+## explanation_d
+Incorrect. The extraembryonic chorionic cavity forms later, around day 13, from spaces in the extraembryonic mesoderm, and is not the cavity the epiblast forms the floor of.
+
+## topic
+Embryology
+
+## subtopic
+Second week: the bilaminar disc and amniotic cavity
+
+## main_concept
+CON-DEV-59DB99C028C33F
+
+## concept_ids
+CON-DEV-59DB99C028C33F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+4
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Embryology > Second Week
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-IMPLANTATION
+
+## resource_ids
+
+## learning_objective
+State that the epiblast forms the floor of the amniotic cavity.
+
+## source_citation
+FOMSCU Foundation 1, Formative and Past Exams 2021, Q34
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer, FOMSCU Foundation 1 QBank
+fomscu: Formative and Past Exams 2021 Q34 (repeated verbatim in 2022 Q14); source-JSON extraction.
+reuse: Same concept and target as the sibling question above (q07 in this file); this stem's own "epiblast... forms the floor" phrasing matches CON-DEV-59DB99C028C33F's own definition exactly. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-FBS102D-EMBRYOLOGY-CLOACAL-MEMBRANE
+
+## title
+The cloacal membrane closes the distal hindgut
+
+## question
+During embryonic folding the distal end of the developing hind gut is effectively closed by which specific structure?
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+The protective chorionic membrane
+
+## explanation_a
+Incorrect. The chorionic membrane is part of the extraembryonic membranes surrounding the developing embryo, not the structure closing the distal hindgut.
+
+## answer_b
+Heuser's primary membrane
+
+## explanation_b
+Incorrect. Heuser's membrane is a temporary layer from the hypoblast that forms the wall of the primary yolk sac early in the second week, not the structure closing the distal hindgut.
+
+## answer_c
+Cloacal membrane
+
+## explanation_c
+Correct. The cloacal membrane is a bilaminar (ectoderm+endoderm, no intervening mesoderm) membrane at the caudal end of the embryonic disc. During embryonic folding, it closes off the distal end of the developing hindgut (the cloaca) until it later ruptures to establish the definitive anal and urogenital openings.
+
+## answer_d
+The extraembryonic mesodermal membrane
+
+## explanation_d
+Incorrect. The extraembryonic mesodermal covering is a supporting layer of the extraembryonic membranes, not the specific bilaminar structure closing the distal hindgut.
+
+## topic
+Embryology
+
+## subtopic
+Embryonic folding: the cloacal membrane
+
+## main_concept
+CON-DEV-1AAC12ECDA6AE2
+
+## concept_ids
+CON-DEV-1AAC12ECDA6AE2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+4
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Embryology > Embryonic Folding
+
+## question_only_for
+
+## library_ids
+ART-DEV-AUN-PMS102-GERM-LAYERS-FOLDING
+
+## resource_ids
+
+## learning_objective
+Identify the cloacal membrane as the structure that closes the distal end of the developing hindgut during folding.
+
+## source_citation
+FOMSCU Foundation 1, Formative and Past Exams 2021, Q62
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer, FOMSCU Foundation 1 QBank
+fomscu: Formative and Past Exams 2021 Q62 (repeated verbatim in 2022 Q42); source-JSON extraction. This source's original distractor wording is unusually padded (e.g. "The completely protective outer thick structural chorionic membrane"); the 2022 paper's own cleaner phrasing for the same three distractors is used here instead, preserving the identical semantic content and the printed correct answer.
+reuse: CON-DEV-1AAC12ECDA6AE2 (docs/Assiut-Source-Imports/concept/AUN-PMS-102-concepts.md) is already reused by this lane's own SCU-FBS103 pass (docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-s2-author2-reuse-questions.md) for the same concept's bilaminar-composition angle; this FBS102 stem tests a different angle (functional/positional: what closes the hindgut) of the same underlying fact. Extends the existing +scu overlay row in docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-overlay-concepts.md with the +SCU-FBS102 module tag rather than duplicating it. Apply after docs/Assiut-Source-Imports/concept/AUN-PMS-102-concepts.md.

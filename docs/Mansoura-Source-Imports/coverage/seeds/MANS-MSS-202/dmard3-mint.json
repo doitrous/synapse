@@ -1,0 +1,313 @@
+{
+  "lane": "MANS-MSS-202",
+  "cluster": "dmard3-mint",
+  "header": "MANS-MSS-202 lane 3 · DMARD/biologic pharmacology authored from Most important MCQ (continuous).pdf pp.40-48, the items lanes 1-2's pharma-mint cluster left unauthored on the same pages (confirmed by direct page re-read: pharma-mint authored only methotrexate-hepatotoxicity, leucovorin, leflunomide, sulfasalazine and rituximab from pp.46-48). Six new concepts mint (cyclosporine, etanercept, tofacitinib, corticosteroid bridging, chloroquine, hydroxychloroquine-retinopathy); the seventh question reuses the module's own existing celecoxib concept (CON-PHM-E9A6B384F1C275) for a different clinical fact (MI history) about the same drug.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "mans"
+    ],
+    "years": [
+      "MANS_Y1"
+    ],
+    "module": "MANS-MSS-202",
+    "resource_ids": [
+      "src_9fa49f3f0021440fcce7"
+    ],
+    "source_citation": "Most important MCQ (continuous).pdf",
+    "setting": "Clinical",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "dmard3-q01",
+      "page": 45,
+      "title": "Cyclosporine's immunosuppressant mechanism",
+      "question": "Which of the following most accurately describes the immunosuppressant action of cyclosporine?",
+      "options": {
+        "A": "Activation of NK cells",
+        "B": "Blockade of tissue responses to inflammatory mediators",
+        "C": "Increased catabolism of IgG antibodies",
+        "D": "Inhibition of calcineurin mediated gene transcription of interleukins",
+        "E": "Interference with MHC II-peptide activation of T cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Cyclosporine suppresses, rather than activates, immune cell function; activating NK cells would work against, not produce, an immunosuppressant effect.",
+        "B": "Incorrect. Cyclosporine does not act by blocking tissue responses to already-released inflammatory mediators; its action is upstream, preventing the T cell from producing those mediators (interleukins) in the first place.",
+        "C": "Incorrect. Increased IgG catabolism is not cyclosporine's mechanism; that description does not match calcineurin inhibition or any recognised cyclosporine action.",
+        "D": "Correct. Cyclosporine binds cyclophilin, and this complex inhibits calcineurin, a phosphatase required to activate the transcription factor NFAT. Without active NFAT, T lymphocytes cannot transcribe the interleukin-2 gene and other cytokine genes. This blocks T-cell activation and proliferation, the basis of its immunosuppressant effect.",
+        "E": "Incorrect. Cyclosporine does not interfere with MHC class II-peptide presentation to T cells; its target is intracellular, downstream of antigen recognition, at the calcineurin-NFAT signalling step within the T cell."
+      },
+      "main_concept": "CON-PHM-D7E8F9A0B1C2D3",
+      "concept_ids": [
+        "CON-PHM-D7E8F9A0B1C2D3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Hard",
+      "question_type": "Straight recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that cyclosporine inhibits calcineurin-mediated gene transcription of interleukins in T lymphocytes.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.45"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-CYCLOSPORINE-CALCINEURIN"
+      ]
+    },
+    {
+      "key": "dmard3-q02",
+      "page": 40,
+      "title": "Drug blocking soluble receptors of TNF-alpha",
+      "question": "Which of the following drugs acts by blocking soluble receptors of TNF-α?",
+      "options": {
+        "A": "Anakinra",
+        "B": "Sulfasalazine",
+        "C": "Gold salts",
+        "D": "Methotrexate",
+        "E": "Etanercept"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Anakinra is an IL-1 receptor antagonist, blocking interleukin-1 signalling, not a TNF-alpha soluble receptor construct.",
+        "B": "Incorrect. Sulfasalazine is a non-biologic prodrug DMARD cleaved by gut bacteria into 5-aminosalicylic acid and sulphapyridine; it has no TNF-receptor-blocking mechanism.",
+        "C": "Incorrect. Gold salts are an older conventional DMARD with a mechanism unrelated to TNF-alpha receptor blockade.",
+        "D": "Incorrect. Methotrexate is a dihydrofolate reductase inhibitor with broad antiproliferative and anti-inflammatory effects, not a TNF-alpha soluble receptor blocker.",
+        "E": "Correct. Etanercept is a fusion protein built from the extracellular domain of the TNF receptor joined to an antibody Fc region. It acts as a soluble decoy receptor that binds circulating TNF-alpha. This blocks TNF-alpha from reaching its true cell-surface receptors, dampening the inflammatory cascade."
+      },
+      "main_concept": "CON-PHM-E8F9A0B1C2D3E4",
+      "concept_ids": [
+        "CON-PHM-E8F9A0B1C2D3E4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify etanercept as the soluble TNF-alpha receptor fusion protein among these DMARDs.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.40"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-ETANERCEPT-SOLUBLE-RECEPTOR"
+      ]
+    },
+    {
+      "key": "dmard3-q03",
+      "page": 42,
+      "title": "Tofacitinib's mechanism of action",
+      "question": "Which statement is the mechanism of action of tofacitinib that used for treatment of rheumatoid arthritis?",
+      "options": {
+        "A": "Inhibitor of TNFa",
+        "B": "New JAK inhibitor",
+        "C": "Inhibitor of IL-6",
+        "D": "Inhibitor of IL-1",
+        "E": "CD80/86 inhibitor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. TNF-alpha inhibition describes drugs such as etanercept, infliximab or adalimumab, which act extracellularly on TNF-alpha or its receptor, not tofacitinib's intracellular mechanism.",
+        "B": "Correct. Tofacitinib is an oral small-molecule Janus kinase (JAK) inhibitor. It blocks intracellular JAK enzymes, interrupting the JAK-STAT pathway that carries cytokine receptor signals to the nucleus. This intracellular, downstream action distinguishes it from the extracellular biologic DMARDs.",
+        "C": "Incorrect. IL-6 receptor inhibition describes tocilizumab, not tofacitinib, which works one step further downstream, inside the cell, rather than blocking a specific cytokine receptor.",
+        "D": "Incorrect. IL-1 inhibition describes anakinra, not tofacitinib; tofacitinib's target is intracellular JAK signalling common to multiple cytokine receptors, not one specific interleukin's receptor.",
+        "E": "Incorrect. CD80/86 inhibition (blocking T-cell costimulation) describes abatacept's mechanism, not tofacitinib's intracellular JAK-STAT-blocking action."
+      },
+      "main_concept": "CON-PHM-F9A0B1C2D3E4F5",
+      "concept_ids": [
+        "CON-PHM-F9A0B1C2D3E4F5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that tofacitinib works as an oral JAK inhibitor, blocking intracellular JAK-STAT cytokine signalling.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.42"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-TOFACITINIB-JAK-INHIBITOR"
+      ]
+    },
+    {
+      "key": "dmard3-q04",
+      "page": 47,
+      "title": "Drug used as bridging therapy in arthritis",
+      "question": "Which of the following drug is used in bridging therapy in patient with arthritis?",
+      "options": {
+        "A": "Leflunomide",
+        "B": "Corticosteroids",
+        "C": "Sulfasalazine",
+        "D": "Celecoxib",
+        "E": "Anakinra"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Leflunomide is itself a conventional DMARD with its own delayed onset of action; it is not the fast-acting agent used to bridge the gap while a DMARD takes effect.",
+        "B": "Correct. Corticosteroids provide rapid symptomatic relief and inflammation control. A slower-onset DMARD, such as methotrexate, takes weeks to months to reach its full disease-modifying effect. The steroid is then tapered once the DMARD has taken hold, the defining bridging-therapy role.",
+        "C": "Incorrect. Sulfasalazine is a conventional DMARD, itself slow-onset, not the rapid bridging agent used alongside it.",
+        "D": "Incorrect. Celecoxib provides symptomatic NSAID-type relief but is not specifically the bridging agent used to cover a DMARD's delayed onset in the way corticosteroids are.",
+        "E": "Incorrect. Anakinra is a biologic DMARD (IL-1 receptor antagonist), not the short-term bridging agent used while a conventional DMARD's effect is awaited."
+      },
+      "main_concept": "CON-PHM-A0B1C2D3E4F5A6",
+      "concept_ids": [
+        "CON-PHM-A0B1C2D3E4F5A6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify corticosteroids as the bridging therapy used for rapid relief while a slower-onset DMARD takes effect.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.47"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-CORTICOSTEROID-BRIDGING"
+      ]
+    },
+    {
+      "key": "dmard3-q05",
+      "page": 47,
+      "title": "Reason to avoid celecoxib in a rheumatoid arthritis patient",
+      "question": "Which of the following patient characteristics is the most compelling reason for avoiding celecoxib in the treatment of rheumatoid arthritis?",
+      "options": {
+        "A": "History of alcohol abuse",
+        "B": "History of gout",
+        "C": "History of myocardial infarction",
+        "D": "History of osteoporosis",
+        "E": "History of peptic ulcer disease"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A history of alcohol abuse is not the specific, compelling contraindication being tested for celecoxib; celecoxib's most concerning risk relates to cardiovascular events, not hepatic effects from alcohol history.",
+        "B": "Incorrect. A history of gout is not a contraindication to celecoxib; NSAIDs including COX-2 selective agents can be used in gout management, so this history does not argue against celecoxib specifically.",
+        "C": "Correct. Selective COX-2 inhibitors like celecoxib carry an increased cardiovascular (thrombotic) risk. This comes from sparing platelet thromboxane while still inhibiting vascular prostacyclin, tilting the balance toward clotting. A history of myocardial infarction makes this cardiovascular risk the most compelling reason to avoid celecoxib.",
+        "D": "Incorrect. Osteoporosis history is not a specific contraindication to celecoxib; it is unrelated to celecoxib's known risk profile.",
+        "E": "Incorrect. Peptic ulcer disease history would actually favour celecoxib over non-selective NSAIDs, since celecoxib's COX-1-sparing profile reduces gastric ulcer risk; this option describes a reason to prefer, not avoid, celecoxib."
+      },
+      "main_concept": "CON-PHM-E9A6B384F1C275",
+      "concept_ids": [
+        "CON-PHM-E9A6B384F1C275"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Hard",
+      "question_type": "Clinical vignette",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify a history of myocardial infarction as the compelling reason to avoid celecoxib, given selective COX-2 inhibitors' cardiovascular risk.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.47"
+      },
+      "author_notes": "Reuses the module's own existing celecoxib concept (CON-PHM-E9A6B384F1C275, minted by lane 1/2 for the GI-sparing fact) rather than minting a new one, since it is the same drug's safety profile tested from the opposite (cardiovascular) angle.",
+      "library_ids": [
+        "ART-MANS-MSS-CELECOXIB-COX2-SELECTIVE"
+      ]
+    },
+    {
+      "key": "dmard3-q06",
+      "page": 47,
+      "title": "Drug inhibiting phagocytic function and stabilising lysosomes",
+      "question": "Which of the following inhibit phagocytic function and stabilize lysosomes:",
+      "options": {
+        "A": "Abatacept",
+        "B": "Anakinra",
+        "C": "Leflunomide",
+        "D": "Chloroquine",
+        "E": "Methotrexate"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Abatacept blocks T-cell costimulation by binding CD80/86, an entirely different mechanism from lysosomal stabilisation or phagocyte inhibition.",
+        "B": "Incorrect. Anakinra is an IL-1 receptor antagonist, working extracellularly on cytokine receptor binding, not through lysosomal membrane effects.",
+        "C": "Incorrect. Leflunomide inhibits dihydroorotate dehydrogenase, blocking pyrimidine synthesis, a metabolic mechanism unrelated to lysosomal stabilisation or phagocyte function.",
+        "D": "Correct. Chloroquine raises lysosomal pH and stabilises lysosomal membranes. This inhibits phagocytic cell function and interferes with antigen processing and presentation. That interference is the mechanism behind its antirheumatic action.",
+        "E": "Incorrect. Methotrexate inhibits dihydrofolate reductase, a folate-antagonist mechanism affecting cell proliferation, not a lysosome-stabilising or phagocyte-inhibiting one."
+      },
+      "main_concept": "CON-PHM-B1C2D3E4F5A6B7",
+      "concept_ids": [
+        "CON-PHM-B1C2D3E4F5A6B7"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify chloroquine as the DMARD that inhibits phagocytic function and stabilises lysosomal membranes.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.47"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-CHLOROQUINE-LYSOSOME"
+      ]
+    },
+    {
+      "key": "dmard3-q07",
+      "page": 48,
+      "title": "DMARD responsible for retinopathy",
+      "question": "Which of the following DMARDs is responsible for retinopathy?",
+      "options": {
+        "A": "Sulfasalazine",
+        "B": "Leflunomide",
+        "C": "Hydroxychloroquine",
+        "D": "Cyclosporine",
+        "E": "Etanercept"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Sulfasalazine's characteristic risks are gastrointestinal and haematological (such as agranulocytosis), not retinopathy.",
+        "B": "Incorrect. Leflunomide's characteristic risks are hepatotoxicity and teratogenicity, not an ocular retinal toxicity.",
+        "C": "Correct. Hydroxychloroquine accumulates in the retinal pigment epithelium over years of use. This accumulation can cause irreversible retinopathy if unrecognised. That risk is why long-term users require baseline and periodic ophthalmologic screening.",
+        "D": "Incorrect. Cyclosporine's characteristic risk is nephrotoxicity (along with hypertension and tremor), not retinopathy.",
+        "E": "Incorrect. Etanercept's characteristic risks relate to immunosuppression, chiefly infection and malignancy risk, not a retinal toxicity."
+      },
+      "main_concept": "CON-PHM-C2D3E4F5A6B7C8",
+      "concept_ids": [
+        "CON-PHM-C2D3E4F5A6B7C8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify hydroxychloroquine as the DMARD whose defining adverse effect is retinopathy, requiring ophthalmologic screening.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.48"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-HYDROXYCHLOROQUINE-RETINOPATHY"
+      ]
+    }
+  ]
+}

@@ -31,6 +31,28 @@ export const LEAF: McqLeafSeed = {
       type: "mechanism",
       aliases: ["Phasic coronary flow", "Subendocardial vulnerability to ischaemia"],
     },
+    // run44 — a leaf-mismatch reroute: bank-tagged "Basic Mechanisms of
+    // Circulatory Control" (its ledger leaf tag is known unreliable, see
+    // that module's own coverage/104-CPS-LEDGER.md note), but the fact it
+    // tests — coronary vessels' dual α1/β1 innervation and net sympathetic
+    // effect — belongs to this leaf's own pinned article, not the
+    // chemoreceptor-control article the bank tag would imply. Grounded
+    // directly against the department book p.94 (src_a11a7faed67c95e2d636).
+    // find-existing.mjs "coronary sympathetic beta blocker" — 0 hits, fresh
+    // mint.
+    {
+      key: "coronary-circulation.sympathetic-regulation-and-beta-blockade",
+      label: "Coronary vessels carry both α1 (vasoconstrictor) and β1 (vasodilator) adrenergic receptors, and sympathetic stimulation's net effect is vasodilation because the rise in heart rate and contractility it also produces releases vasodilator metabolites that reinforce the direct β1 effect",
+      definition: "Coronary vessels contain both α and β adrenergic receptors: α1 receptor stimulation causes vasoconstriction, while β1 receptor stimulation causes vasodilation. Sympathetic stimulation of the heart also raises heart rate and contractility, which raises myocardial metabolic rate and so releases vasodilator metabolites (adenosine, CO2, H+, prostaglandins) — the dominant, metabolic-autoregulation route to coronary vasodilation this leaf's own phasic-flow concept already establishes. Because that indirect metabolic vasodilator effect reinforces the direct β1 vasodilator effect, the overall, net effect of sympathetic stimulation on coronary vessels is vasodilation and increased coronary blood flow, even though a direct α1 vasoconstrictor pathway also exists. Parasympathetic stimulation, by contrast, produces only slight direct coronary vasodilation via cholinergic receptors, but net coronary vasoconstriction indirectly, because vagally-driven bradycardia lowers cardiac metabolism and so removes the metabolic vasodilator drive.",
+      objective: "State that coronary vessels carry both α1 (constrictor) and β1 (dilator) receptors, and that the net effect of intact sympathetic stimulation is vasodilation because the β1-driven rise in myocardial metabolism reinforces direct β1 vasodilation through the dominant metabolic-autoregulation pathway.",
+      pitfall: "Assuming sympathetic stimulation of the heart must net vasoconstrict the coronaries because α1 receptors are present. The book's own account is that the net effect is vasodilation, since the metabolic drive from increased heart rate/contractility (via β1) dominates; removing β1 (as with a β-blocker) removes both the direct β1 vasodilator effect and this metabolic reinforcement, leaving the direct α1 constrictor effect roughly balanced by an unchanged metabolic demand — a subtly different question from intact, unblocked sympathetic stimulation.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Special Circulation",
+      type: "mechanism",
+      aliases: ["Coronary adrenergic receptors", "Sympathetic effect on coronary flow"],
+    },
   ],
 
   questions: [
@@ -67,6 +89,44 @@ export const LEAF: McqLeafSeed = {
         D: "Since statement B is false, the combination 'B and C' cannot be the correct comprehensive answer.",
         E: "Both A and C are independently true — the heart is diastole-supplied overall, and the subendocardium is disproportionately compressed during systole specifically — making 'A and C' the correct, complete answer.",
       },
+    },
+    // run44 — leaf-mismatch reroute onto this leaf's own newly-mounted
+    // sympathetic-regulation concept above (bank-tagged "Basic Mechanisms
+    // of Circulatory Control", but the fact it tests belongs here — see
+    // that concept's own comment). Excluded rather than authored: only 3
+    // options survive extraction (A, B, C — no D), below the platform's
+    // 4-to-5-option import contract; not padded with an invented fourth
+    // option.
+    {
+      key: "it-the-noradrenergic-nerves-to-the-heart-are-stimulated-afte-65f9cb1e",
+      conceptKey: "coronary-circulation.sympathetic-regulation-and-beta-blockade",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 options survive extraction (A, B, C — no D), below the platform's 4-to-5-option import contract. The examiner's answer (C, 'No change') is physiologically well-grounded — metabolic autoregulation dominates coronary flow, and blocking β1 removes both the direct β1 vasodilator effect and the indirect vasodilator-metabolite pathway, leaving flow essentially unchanged — but a genuine fourth distractor is not attested anywhere in the source and inventing one would be padding, which the platform's import contract and this lane's own rules forbid.",
+    },
+    // kasr-104-author-run46: this leaf's own remaining bank row (ledger's
+    // second Special Circulation batch, leaf=null in the raw bank so
+    // missed by a naive per-leaf scan). Sparse reuse of this file's own
+    // phasic-flow-and-autoregulation concept — no printed key
+    // (answerConfidence: external-solved-book-recovered), verified against
+    // this leaf's own concept text before authoring.
+    {
+      key: "the-coronary-blood-flow-0e0b7a15",
+      conceptKey: "coronary-circulation.phasic-flow-and-autoregulation",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "State that coronary blood flow is autoregulated primarily by local metabolic factors, and that it falls (not rises) in the subendocardium during systole and is decreased, not increased, by adenosine.",
+      explanations: {
+        A: "Correct. This leaf's own concept states coronary flow is regulated primarily by metabolic autoregulation (vasodilator metabolites such as adenosine, CO2, H+ and prostaglandins), not primarily by neural control — the flow is autoregulated to match myocardial O2 demand.",
+        B: "Reversed. Ventricular contraction compresses the intramural coronary vessels, driving flow to a MINIMUM during systole — hardest on the subendocardium specifically, which is exactly why it is most vulnerable to ischaemia — not an increase.",
+        C: "Reversed. Adenosine is one of the vasodilator metabolites this leaf's own concept names as driving metabolic autoregulation — it INCREASES coronary flow by dilating coronary vessels as myocardial metabolism rises, not decreases it.",
+        D: "Reversed, same error as B applied to the left ventricle specifically: coronary flow to the left ventricle falls, not rises, during systole, because ventricular contraction compresses the intramural vessels supplying it.",
+      },
+      answerOverride: "A",
+      answerOverrideReason: "No printed key exists (answerConfidence: external-solved-book-recovered, sourced from a different solved question book rather than this bank's own printed answer). Re-verified directly against this leaf's own sourced concept (coronary-circulation.phasic-flow-and-autoregulation): flow is regulated primarily by metabolic autoregulation, falls to a minimum during systole (hardest on the subendocardium), and adenosine is a vasodilator metabolite that raises, not lowers, flow — confirming A and ruling out B, C and D independently.",
     },
   ],
 }

@@ -70,6 +70,27 @@ export const LEAF: McqLeafSeed = {
       type: "mechanism",
       aliases: ["Hering-Breuer inflation reflex", "Pulmonary stretch reflex"],
     },
+    // run44 — this leaf's own 10-row "what's left" recompute
+    // (docs/Kasr-Source-Imports/coverage/104-CPS-LEDGER.md). find-
+    // existing.mjs "brainstem transection breathing levels" — 0 hits,
+    // fresh mint. This article's own evidence_gaps previously said
+    // brainstem-transection evidence "was not reached", but it sits on
+    // p.142 of the department book, squarely inside the article's already-
+    // cited 136-147 page range — re-checked directly and read cleanly (see
+    // the article's own updated evidence_basis note).
+    {
+      key: "brainstem-transection.effect-on-breathing-by-level",
+      label: "Transecting the brainstem at four successively lower levels shows breathing is unaffected until the pontine centres are progressively removed (irregular by level 3), and stops completely only when level 4 disconnects the medulla from the spinal respiratory motor neurons entirely",
+      definition: "Level 1 (upper border of the pons, above both pontine centres): respiration is unaffected, since every respiratory centre below the cut is intact; adding bilateral vagotomy at this level makes breathing slower and deeper, showing vagal (Hering-Breuer) afferents normally help set tidal volume and rate. Level 2 (mid-pons, between the pneumotaxic and apneustic centres): breathing becomes slightly slower and deeper, confirming the pneumotaxic centre's role in adjusting rate and depth; adding bilateral vagotomy at this level removes the apneustic centre's only remaining source of inhibition, and breathing stops in full inspiration — apneusis. Level 3 (between pons and medulla, removing both pontine centres): respiration continues, but irregularly, on the DRG's own crude intrinsic rhythm alone. Level 4 (between medulla and the upper border of the spinal cord): respiration stops completely, leading to death, because the DRG/VRG are entirely disconnected from the phrenic and intercostal motor neurons that actually drive breathing — clinically equivalent to a high cervical cord or brainstem injury above the phrenic outflow (C3-C5), unlike a lower injury (e.g. below C7) which spares diaphragmatic breathing.",
+      objective: "State what each of the four brainstem transection levels does to breathing, with and without added vagotomy, and identify level 4 as the only one that stops breathing completely.",
+      pitfall: "Assuming any brainstem transection stops breathing, or that vagotomy or a mid-pontine cut alone (rather than both together) produces apneusis. Only level 4 (medulla-to-spinal-cord) stops breathing outright; apneusis at level 2 needs BOTH the pneumotaxic-centre cut AND vagotomy, since either one alone still leaves an inhibitory input reaching the apneustic centre.",
+      subject: "resp",
+      primary: "DIS-PHY-T03",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Respiratory System > Control of Respiration",
+      type: "mechanism",
+      aliases: ["Brainstem transection levels", "Apneusis experiment", "Level 4 transection", "Spinal cord transection and breathing"],
+    },
   ],
 
   questions: [
@@ -212,6 +233,144 @@ export const LEAF: McqLeafSeed = {
         B: "The dorsal respiratory group generates the basic inspiratory drive itself; it is the rhythm being switched off, not the mechanism that switches it off.",
         C: "Correct. The Hering-Breuer (inflation) reflex is triggered when lung inflation stretches receptors in the walls of the bronchi and bronchioles; the resulting afferent signal travels through the vagus nerve to inhibit the dorsal respiratory group and the apneustic centre, stopping inspiration and allowing expiration to begin. It acts as an 'off-switch' for inspiration, alongside the pneumotaxic centre's own off-switch role. In adults at rest it stays largely silent and only engages once tidal volume rises to more than about three times normal, as in exercise, though it shapes every breath in the newborn.",
         D: "The Cushing reflex is a cardiovascular pressor response to rising intracranial pressure and cerebral ischaemia — a rise in systemic blood pressure with reflex bradycardia — and plays no part in the normal inspiration-to-expiration transition.",
+      },
+    },
+
+    // --- run44: brainstem transection levels (p.142) ---
+
+    {
+      key: "transection-between-medulla-oblongata-and-upper-border-of-sp-d728ec2a",
+      conceptKey: "brainstem-transection.effect-on-breathing-by-level",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "State that transection between the medulla and the upper border of the spinal cord (level 4) causes complete stoppage of breathing and death.",
+      explanations: {
+        A: "This is the correct answer. The department book's own level 4 transection — between the medulla and the upper border of the spinal cord — completely disconnects the DRG/VRG from the phrenic and intercostal motor neurons that actually drive breathing, so respiration stops entirely, leading to death, unlike levels 1-3, which all leave some form of breathing going.",
+        B: "Irregular respiration is what level 3 (between pons and medulla) produces, not level 4 — at level 4 breathing stops completely rather than merely becoming irregular.",
+        C: "Slower and deeper respiration is what level 1 (top of the pons) plus vagotomy produces; level 4 stops breathing entirely rather than slowing and deepening it.",
+        D: "Rapid shallow respiration is not a pattern any of the four classic transection levels produces; level 4 specifically abolishes breathing rather than making it rapid and shallow.",
+      },
+    },
+    {
+      key: "immediate-stoppage-of-respiration-can-be-caused-by-transecti-82f47191",
+      conceptKey: "brainstem-transection.effect-on-breathing-by-level",
+      difficulty: "Moderate",
+      questionType: "Applied recall",
+      learningObjective: "Identify a transection above the second cervical vertebra as equivalent to level 4 brainstem transection, disconnecting the respiratory centres from the phrenic outflow entirely.",
+      explanations: {
+        A: "A transection between pons and medulla (level 3) leaves respiration continuing, only irregularly, on the DRG's own intrinsic rhythm — not an immediate stoppage.",
+        B: "Cutting both vagi alone does not stop breathing; it only removes the Hering-Breuer reflex's contribution to tidal volume and rate, leaving the DRG's own rhythm intact.",
+        C: "A transection below the 7th cervical vertebra sits below the phrenic nerve's spinal origin (C3-C5), so diaphragmatic breathing driven by the phrenic nerve continues even though thoracic outflow below the cut is lost.",
+        D: "This is the correct answer. A transection above the 2nd cervical vertebra severs every descending pathway from the medullary respiratory centres to the phrenic (C3-C5) and intercostal motor neurons — functionally the same disconnection as the department book's own level 4 (medulla-to-spinal-cord) transection — so breathing stops immediately.",
+      },
+    },
+    {
+      key: "spontaneous-respiration-ceases-after-7ab1a72f",
+      conceptKey: "brainstem-transection.effect-on-breathing-by-level",
+      difficulty: "Hard",
+      questionType: "Applied mechanism",
+      learningObjective: "State that combining bilateral vagotomy with a pontine transection that removes pneumotaxic input abolishes normal rhythmic breathing and replaces it with apneusis.",
+      explanations: {
+        A: "Bilateral vagotomy alone does not abolish normal rhythmic breathing — the department book's own level 1 experiment shows vagotomy alone only makes breathing slower and deeper, since the pneumotaxic centre still supplies its own independent inhibitory input to the apneustic centre and DRG.",
+        B: "This is the correct answer. The department book's own level 2 transection (removing pneumotaxic input to the apneustic centre and DRG) combined with bilateral vagotomy removes the apneustic centre's only two sources of inhibition at once, so it fires unopposed — normal rhythmic breathing ceases and is replaced by apneusis, breathing held in full inspiration.",
+        C: "Transection of the spinal cord at the first thoracic segment leaves the phrenic nerve (C3-C5) and its brainstem connections intact, so normal rhythmic diaphragmatic breathing continues; it does not by itself abolish spontaneous respiration.",
+        D: "'Trachea' names an airway structure, not a transection level or manoeuvre that could abolish the brainstem's own respiratory rhythm.",
+      },
+    },
+
+    // --- run44: existing-concept reuses (non-chemical afferents,
+    // chemoreceptor drive, DRG spontaneous rhythmicity) ---
+
+    {
+      key: "medullary-inspiratory-neurons-are-stimulated-by-370da678",
+      conceptKey: "non-chemical-nervous-regulation-of-respiration.afferent-sources",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Identify proprioceptive afferents as a genuine stimulatory input to the medullary inspiratory neurons, unlike vagal stretch afferents, arterial H+ or baroreceptor afferents, which do not directly stimulate them.",
+      explanations: {
+        A: "This is the correct answer. Afferent impulses from proprioceptors are one of this leaf's own non-chemical afferent sources, driving the ventilation rise of exercise by stimulating the medullary inspiratory neurons.",
+        B: "Vagal afferents from lung stretch receptors are inhibitory, not stimulatory, to the medullary inspiratory neurons — this is the Hering-Breuer reflex, which switches inspiration off, the opposite direction from stimulation.",
+        C: "Arterial (plasma) H+ does not directly stimulate the medullary inspiratory neurons — the central chemoreceptors respond to CSF H+, which plasma H+ cannot reach because of the blood-brain barrier.",
+        D: "Afferent impulses from arterial baroreceptors inhibit, not stimulate, the respiratory centre — a rise in arterial pressure raising baroreceptor discharge reflexly inhibits respiration.",
+      },
+    },
+    {
+      key: "in-normal-individual-respiration-is-regulated-by-all-except-7e8ddaae",
+      conceptKey: "chemoreceptors-respiratory.central-and-peripheral-drive-contributions",
+      difficulty: "Moderate",
+      questionType: "True/false-except",
+      learningObjective: "Identify that central chemoreceptors respond to CSF H+/PCO2, not directly to PO2, which the peripheral chemoreceptors alone sense.",
+      explanations: {
+        A: "The exception, and the answer. Central chemoreceptors do not respond to changes in PO2 at all — they are protected from arterial blood by the blood-brain barrier and respond only to CSF H+, generated indirectly when CO2 crosses that barrier. Sensing PO2 directly is a peripheral, not central, chemoreceptor function.",
+        B: "True, so not the exception. Peripheral chemoreceptors do respond to changes in PCO2, contributing roughly 20-30% of the overall CO2 ventilatory response alongside the dominant central route.",
+        C: "True, so not the exception. Peripheral chemoreceptors are the ones that sense PO2 directly, thanks to their exceptionally high blood flow per gram of tissue.",
+        D: "True, so not the exception. Central chemoreceptors respond to changes in PCO2, indirectly, via the CSF acidification CO2 produces once it crosses the blood-brain barrier.",
+      },
+    },
+    {
+      key: "the-carotid-and-aortic-bodies-increase-their-rate-of-dischar-32d0556f",
+      conceptKey: "chemoreceptors-respiratory.central-and-peripheral-drive-contributions",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "State that the carotid and aortic bodies (peripheral chemoreceptors) increase their discharge in response to a decreased partial pressure of blood oxygen, not decreased H+, O2 content, or CSF dissolved oxygen.",
+      explanations: {
+        A: "A decrease in blood H+ concentration means more alkaline blood, which would reduce, not increase, chemoreceptor discharge — the opposite direction.",
+        B: "The peripheral chemoreceptors' very high blood flow per gram of tissue lets them sense dissolved PO2 directly rather than total O2 content, so a fall in O2 content alone (as in anaemia, with normal PO2) does not markedly raise their discharge.",
+        C: "This is the correct answer. The carotid and aortic bodies sense dissolved arterial PO2 directly, and increase their rate of discharge as PO2 falls, becoming markedly more active once PO2 drops below about 60 mmHg.",
+        D: "The peripheral chemoreceptors are stimulated by arterial blood, not CSF, and their location (carotid bifurcation, aortic arch) and blood supply have nothing to do with dissolved oxygen in CSF, which is instead what the (unaffected-by-O2) central chemoreceptors are bathed in.",
+      },
+    },
+    {
+      key: "which-of-the-following-discharge-spontaneously-during-quiet-b30226e7",
+      conceptKey: "respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "Identify the dorsal respiratory group, not stretch receptors, respiratory motor neurons, or the ventral respiratory group, as the structure that discharges spontaneously during quiet breathing.",
+      explanations: {
+        A: "Stretch receptors in the lung do not discharge spontaneously — they fire in response to lung inflation, driving the Hering-Breuer reflex, not generating rhythm on their own.",
+        B: "Motor neurons of the respiratory muscles fire in response to the DRG's own descending drive; they do not spontaneously generate the rhythm themselves.",
+        C: "This is the correct answer. The dorsal respiratory group has its own slow, irregular inherent rhythmicity and fires spontaneously during quiet breathing, generating the basic inspiratory drive that the pontine centres only tune.",
+        D: "The ventral respiratory group is totally inactive during quiet breathing, activating only for forced breathing — the opposite of discharging spontaneously at rest.",
+      },
+    },
+    {
+      key: "which-of-the-following-discharge-spontaneously-during-quist-89974900",
+      conceptKey: "respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "Identify the dorsal respiratory group, not stretch receptors, respiratory motor neurons, or the ventral respiratory group, as the structure that discharges spontaneously during quiet breathing.",
+      explanations: {
+        A: "Stretch receptors in the lung fire in response to lung inflation (the Hering-Breuer reflex); they do not spontaneously generate rhythm on their own.",
+        B: "Motor neurons of the respiratory muscles fire in response to the DRG's own descending drive rather than generating the rhythm themselves.",
+        C: "This is the correct answer. The dorsal respiratory group has its own slow, irregular inherent rhythmicity and fires spontaneously during quiet breathing.",
+        D: "The ventral respiratory group is totally inactive during quiet breathing, activating only for forced breathing.",
+      },
+    },
+    {
+      key: "which-of-the-following-discharges-spontaneously-during-quiet-20ea9248",
+      conceptKey: "respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "Identify the dorsal respiratory group, not stretch receptors, respiratory motor neurons, or the ventral respiratory group, as the structure that discharges spontaneously during quiet breathing.",
+      explanations: {
+        A: "Stretch receptors in the lung fire in response to lung inflation (the Hering-Breuer reflex); they do not spontaneously generate rhythm on their own.",
+        B: "Motor neurons of the respiratory muscles fire in response to the DRG's own descending drive rather than generating the rhythm themselves.",
+        C: "This is the correct answer. The dorsal respiratory group has its own slow, irregular inherent rhythmicity and fires spontaneously during quiet breathing.",
+        D: "The ventral respiratory group is totally inactive during quiet breathing, activating only for forced breathing.",
+      },
+    },
+    {
+      key: "which-of-the-following-conditions-causes-hypoventilation-6ee07624",
+      conceptKey: "chemoreceptors-respiratory.central-and-peripheral-drive-contributions",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Identify COPD, not strenuous exercise, high-altitude ascent, anaemia or diabetic ketoacidosis, as a cause of hypoventilation, via the chronic CO2-retention drive-shift mechanism.",
+      explanations: {
+        A: "Strenuous exercise raises ventilation to match the sharp rise in CO2 production and O2 consumption — hyperventilation relative to rest, not hypoventilation.",
+        B: "Ascent to high altitude lowers arterial PO2, stimulating the peripheral chemoreceptors and driving hyperventilation, not hypoventilation.",
+        C: "Anaemia lowers O2 content but leaves PO2 normal, so it does not stimulate or depress the chemoreceptor drive to ventilation; it is not a cause of hypoventilation.",
+        D: "Diabetic ketoacidosis produces a metabolic acidosis that drives compensatory hyperventilation (Kussmaul breathing) via the peripheral and central chemoreceptors, not hypoventilation.",
+        E: "This is the correct answer. In chronic lung disease such as COPD, longstanding CO2 retention lets the central chemoreceptors tolerate higher CO2 levels than normal, shifting these patients onto hypoxic (peripheral chemoreceptor) drive as their main stimulus to breathe — the underlying mechanism is chronic hypoventilation relative to CO2 production, with the central chemoreceptor response blunted.",
       },
     },
 

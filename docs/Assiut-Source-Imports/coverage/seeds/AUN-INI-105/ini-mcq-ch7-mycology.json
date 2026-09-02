@@ -1,0 +1,557 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch7",
+  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 7 \"General Mycology\" (pp.78-82, 33 items, plain-text ANSWES table p82 -- a typo for ANSWERS; coverage/AUN-INI-105-triage.md's chapter map). This batch authors the 19 of 33 questions whose tested idea rides on a newly-minted AUN-INI-105 concept (concept/AUN-INI-105-ch7-concepts.md, article/AUN-INI-105-ch7-article.md). The remaining 7 authored questions reuse eight pending Ain-Shams ASU-INF-microbiology-concepts.md mycology concepts, one pending MUST FHB-102-2-microbiology-introduction concept, two live flucytosine concepts, and the Mycoplasma-vs-L-forms concept already overlaid for AUN-INI-105 by chapter 1 -- authored separately in pending-live/. Seven items are held: Q3 (duplicate option text, A and B both print \"Budding\"), Q13 (printed key A \"Pathogenicity\" conflicts with the expected textbook answer, Virulence, for \"the MEASURED ability to cause disease\"), Q14 (printed key C conflicts with the expected EXCEPT answer, D \"peptidoglycan cell wall\" -- fungal walls are chitin, not peptidoglycan), Q22 (duplicate-of Q19, aflatoxin), Q26 (duplicate-of Q16, tinea versicolor), Q27 (blank option D, only 3 usable options), Q31 (exact duplicate-of Q1, yeasts reproduce by budding).",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-INI-105",
+    "module_subject": "AUN-INI-105 > General Mycology",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-INF-AUN-INI105-MYCOLOGY-CH7"],
+    "resource_ids": ["src_6f2f4188bb0cbf848733"],
+    "source_citation": "INI MCQ .pdf, General Mycology, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "topic": "General Mycology",
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch7-q001",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q001",
+      "page": 78,
+      "title": "Yeasts reproduce by budding",
+      "question": "Yeasts reproduce by?",
+      "options": {
+        "A": "None of the above",
+        "B": "Spore formation",
+        "C": "Binary fission",
+        "D": "Budding"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Budding is a specific, well-defined mechanism (see D), so \"none of the above\" is wrong.",
+        "B": "Incorrect. Spore formation is a fungal reproductive/dispersal structure, but it is not the routine way an individual yeast cell multiplies -- that is budding.",
+        "C": "Incorrect. Binary fission is the bacterial (prokaryotic) reproductive mechanism -- a single cell splitting symmetrically into two -- not a fungal one.",
+        "D": "Correct. Yeasts, being unicellular fungi, multiply asexually by budding: a small outgrowth forms on the parent cell, enlarges, and eventually separates as a new, genetically identical daughter cell. This is distinct from mold propagation, which instead occurs by fragmentation of the mycelium."
+      },
+      "main_concept": "CON-INF-43F32A0EF63DCB",
+      "concept_ids": ["CON-INF-43F32A0EF63DCB"],
+      "contextual_concept_ids": [],
+      "subtopic": "Fungal reproduction",
+      "learning_objective": "Identify budding as the reproductive mechanism of yeasts.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": "Q31 (\"Yeasts reproduce by?\", identical stem/options/key) is an exact duplicate of this item -- held, not authored a second time."
+    },
+    {
+      "key": "ini-mcq-ch7-q004",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q004",
+      "page": 78,
+      "title": "Fungi are eukaryotes with nucleus and chromosomes",
+      "question": "Which statement regarding fungi is correct?",
+      "options": {
+        "A": "All fungi are able to grow as yeast and mold",
+        "B": "Although fungi are eukaryotes, they lack mitochondria",
+        "C": "Fungi are photosynthetic",
+        "D": "Fungi have nucleus and chromosomes",
+        "E": "Few fungi possess cell membranes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Only dimorphic fungi grow as both yeast and mold depending on conditions; many fungi are fixed as either yeasts or molds throughout their life cycle.",
+        "B": "Incorrect. Fungi are eukaryotes and, like other eukaryotic cells, possess mitochondria for aerobic respiration -- this is part of what makes them eukaryotic in the first place.",
+        "C": "Incorrect. Fungi are not photosynthetic; they lack chloroplasts and obtain nutrition heterotrophically, by absorption of organic material from their environment.",
+        "D": "Correct. Fungi are eukaryotic organisms: each cell has a true, membrane-bound nucleus containing chromosomes. This is unlike prokaryotic bacteria, whose single circular chromosome lies free in the cytoplasm with no nuclear membrane at all. The nucleus, together with membrane-bound organelles such as mitochondria, is what places fungi in the eukaryotic domain alongside animal and plant cells rather than with bacteria.",
+        "E": "Incorrect. All fungal cells, like all living cells, possess a cytoplasmic (cell) membrane -- this is not a rare or optional feature."
+      },
+      "main_concept": "CON-INF-505C59BEC4EE16",
+      "concept_ids": ["CON-INF-505C59BEC4EE16"],
+      "contextual_concept_ids": [],
+      "subtopic": "Fungal cell biology",
+      "learning_objective": "State that fungi are eukaryotes possessing a true nucleus and chromosomes.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q005",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q005",
+      "page": 78,
+      "title": "Mold hyphae may or may not be septate",
+      "question": "Which statement regarding fungal growth and morphology is correct?",
+      "options": {
+        "A": "Pseudohyphae are produced by all yeasts",
+        "B": "Molds produce hyphae that may or may not be partitioned with cross wall or septa",
+        "C": "Conidia are produced by sexual reproduction",
+        "D": "Most yeasts reproduce by budding and lack cell wall",
+        "E": "Most pathogenic dimorphic include produce hyphae in the host and yeasts at 30 C"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Pseudohyphae (chains of elongated, budding cells) are characteristic of some yeasts, such as Candida when it invades tissue, but not a universal feature of every yeast.",
+        "B": "Correct. Mold hyphae may be septate, cross-walled into individual compartments by regularly spaced septa. Or they may be non-septate/coenocytic, a continuous, multinucleate cytoplasmic mass with no cross-walls at all, as in the lower fungi such as Mucor. This variability is itself the medically testable distinction, not a fixed property of \"molds\" as a whole.",
+        "C": "Incorrect. Conidia are asexual spores, produced by asexual reproduction, not sexual reproduction.",
+        "D": "Incorrect. Yeasts do reproduce mainly by budding, but they do have a cell wall -- lacking a cell wall is not a feature of ordinary yeast cells.",
+        "E": "Incorrect. This reverses the standard dimorphism pattern: pathogenic dimorphic fungi typically produce hyphae (mold form) in the environment at room temperature and convert to yeasts in the host at body temperature (37 C), not the other way round."
+      },
+      "main_concept": "CON-INF-2E6D8EB18E496A",
+      "concept_ids": ["CON-INF-2E6D8EB18E496A"],
+      "contextual_concept_ids": [],
+      "subtopic": "Fungal morphology",
+      "learning_objective": "State that mold hyphae may be either septate or non-septate depending on the species.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q007",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q007",
+      "page": 78,
+      "title": "Selective toxicity of antifungal drugs and ergosterol",
+      "question": "Selective toxicity of antifungal drugs is based on presence of?",
+      "options": {
+        "A": "30S ribosome subunit",
+        "B": "Dihydrofolate reductase",
+        "C": "DNA gyrase",
+        "D": "Ergosterol",
+        "E": "Mycolic acid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The 30S ribosomal subunit is a bacterial target (for example, of aminoglycosides and tetracyclines) -- fungi are eukaryotes with 80S ribosomes, so this is not the fungal-selectivity target.",
+        "B": "Incorrect. Dihydrofolate reductase is targeted by antifolate drugs (such as trimethoprim, or pyrimethamine against protozoa) -- it is not the basis of antifungal selective toxicity.",
+        "C": "Incorrect. DNA gyrase is the bacterial target of fluoroquinolone antibiotics, not an antifungal target.",
+        "D": "Correct. The fungal cytoplasmic membrane contains ergosterol as its characteristic sterol, in place of the cholesterol used by human cell membranes. Because ergosterol is a fungus-specific target absent from human cells, most major antifungal drug classes are built around it, giving them selective toxicity against fungi while sparing the human host.",
+        "E": "Incorrect. Mycolic acid is a component of the mycobacterial cell wall (targeted by isoniazid), not a fungal structure."
+      },
+      "main_concept": "CON-INF-58787FB8935B8F",
+      "concept_ids": ["CON-INF-58787FB8935B8F"],
+      "contextual_concept_ids": [],
+      "subtopic": "Antifungal drug targets",
+      "learning_objective": "State that ergosterol is the fungus-specific target underlying the selective toxicity of most antifungal drugs.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q009",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q009",
+      "page": 79,
+      "title": "Sterol in cytoplasmic membrane of fungi",
+      "question": "Sterol is a component of cytoplasmic membrane in?",
+      "options": {
+        "A": "Viruses",
+        "B": "Fungi",
+        "C": "Chlamydia",
+        "D": "All of these"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Viruses have no cytoplasmic membrane of their own metabolic making -- an enveloped virus's envelope is host-cell-derived during budding, not an independently synthesised, sterol-containing membrane.",
+        "B": "Correct. Fungi have a sterol, ergosterol, as a normal component of their cytoplasmic membrane. This distinguishes them from viruses, which have no independently synthesised membrane of their own, and from Chlamydia, whose atypical bacterial envelope lacks sterol entirely. Ergosterol's presence is precisely what most antifungal drugs exploit for selective toxicity.",
+        "C": "Incorrect. Chlamydia, though bacterial, has an atypical cell envelope and does not synthesise its own membrane sterol.",
+        "D": "Incorrect. Since only fungi among the three groups normally have a sterol-containing cytoplasmic membrane, \"all of these\" is wrong."
+      },
+      "main_concept": "CON-INF-6736BEB7DF6330",
+      "concept_ids": ["CON-INF-6736BEB7DF6330"],
+      "contextual_concept_ids": [],
+      "subtopic": "Fungal cell membrane",
+      "learning_objective": "Identify fungi as the group, among fungi/viruses/Chlamydia, with a sterol-containing cytoplasmic membrane.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q012",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q012",
+      "page": 79,
+      "title": "Flucytosine inhibits fungal DNA synthesis",
+      "question": "Which of the following is an antifungal drug that acts by inhibiting fungal DNA synthesis?",
+      "options": {
+        "A": "Ketoconazole",
+        "B": "Flucytosine",
+        "C": "Griseofulvin",
+        "D": "Terbinafine",
+        "E": "Amphotericin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ketoconazole is an azole that inhibits ergosterol synthesis, acting on the fungal cell membrane, not DNA synthesis.",
+        "B": "Correct. Flucytosine (5-FC) is taken up by fungal cells and converted to 5-fluorouracil. The active metabolites of 5-fluorouracil then inhibit fungal DNA and RNA synthesis, halting replication. This mechanism is unique among the standard antifungal classes, none of which target nucleic acid synthesis directly.",
+        "C": "Incorrect. Griseofulvin acts by disrupting fungal microtubule function (mitotic spindle), not DNA synthesis.",
+        "D": "Incorrect. Terbinafine inhibits squalene epoxidase, blocking ergosterol synthesis at an earlier step than the azoles -- again a membrane-synthesis target, not DNA.",
+        "E": "Incorrect. Amphotericin B is a polyene that binds ergosterol and forms membrane pores, not a DNA-synthesis inhibitor."
+      },
+      "main_concept": "CON-INF-EA7790A02A4D5F",
+      "concept_ids": ["CON-INF-EA7790A02A4D5F"],
+      "contextual_concept_ids": [],
+      "subtopic": "Antifungal drug mechanisms",
+      "learning_objective": "Identify flucytosine as the antifungal drug that acts by inhibiting fungal DNA and RNA synthesis.",
+      "media_recommendations": "",
+      "library_ids": ["ART-INF-TOP-D002F3C5B5"],
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82", "liveConcept": "CON-INF-EA7790A02A4D5F is already live, article ART-INF-TOP-D002F3C5B5." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q016",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q016",
+      "page": 80,
+      "title": "Tinea versicolor is a superficial mycosis",
+      "question": "Tinea versicolor is example of?",
+      "options": {
+        "A": "Cutaneous mycosis",
+        "B": "Superficial mycosis",
+        "C": "Systemic mycosis",
+        "D": "Subcutaneous mycosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cutaneous mycoses (dermatophytoses) invade the living keratinized skin, hair and nails and provoke inflammation -- tinea versicolor does not.",
+        "B": "Correct. Tinea versicolor, caused by Malassezia, affects only the outermost, non-living keratin layer of skin. It provokes essentially no host inflammatory response, unlike a dermatophyte infection of living keratinized tissue. This pattern -- superficial, non-inflammatory involvement -- is the defining feature of a superficial mycosis.",
+        "C": "Incorrect. Systemic mycoses involve deep organs, typically via inhalation -- tinea versicolor is confined to the skin surface.",
+        "D": "Incorrect. Subcutaneous mycoses involve the dermis and subcutaneous tissue, typically following traumatic inoculation -- tinea versicolor does not go below the outermost keratin layer."
+      },
+      "main_concept": "CON-INF-2DFAF97280931A",
+      "concept_ids": ["CON-INF-2DFAF97280931A"],
+      "contextual_concept_ids": [],
+      "subtopic": "Classification of mycoses",
+      "learning_objective": "Classify tinea versicolor as a superficial mycosis.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": "Q26 (\"Tinea versicolor is?\") near-restates this question with shuffled option order/lettering -- held as duplicate-of Q16, not authored a second time."
+    },
+    {
+      "key": "ini-mcq-ch7-q017",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q017",
+      "page": 80,
+      "title": "Candida albicans recognized by yeasts and pseudohyphae",
+      "question": "C.albicans is recognized in microscopic examination of infected tissues by the presence of which of the following?",
+      "options": {
+        "A": "Spherules containing endospores",
+        "B": "Metachromatic granules",
+        "C": "Yeasts and pseudohyphae",
+        "D": "Asci containing 2-8 ascospores",
+        "E": "Abundance of septate rhizoids"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Spherules containing endospores are characteristic of Coccidioides, not Candida.",
+        "B": "Incorrect. Metachromatic granules are a bacterial feature (classically Corynebacterium diphtheriae), not a fungal one.",
+        "C": "Correct. Candida albicans is recognized in infected tissue by the co-occurrence of budding yeast cells and pseudohyphae. Pseudohyphae are chains of elongated, still-attached budding cells that mimic true hyphae without the continuous, branching structure of a real mold hypha. This dual yeast-plus-pseudohyphae picture is the characteristic microscopic signature of tissue-invading Candida.",
+        "D": "Incorrect. Asci containing ascospores are a sexual fungal reproductive structure not associated with Candida tissue invasion.",
+        "E": "Incorrect. Rhizoids are root-like hyphal structures of molds such as Rhizopus, not a Candida feature."
+      },
+      "main_concept": "CON-INF-A22576F1C4B8AF",
+      "concept_ids": ["CON-INF-A22576F1C4B8AF"],
+      "contextual_concept_ids": [],
+      "subtopic": "Candida albicans",
+      "learning_objective": "State that Candida albicans is recognized in tissue by yeasts together with pseudohyphae.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q018",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q018",
+      "page": 80,
+      "title": "Cryptococcus neoformans does not produce mycotoxins",
+      "question": "All the following is true regarding Cryptococcus neoformans EXCEPT?",
+      "options": {
+        "A": "It is an opportunistic fungus",
+        "B": "It is a capsulated yeast cells",
+        "C": "Transmitted by inhalation",
+        "D": "It causes pneumonia and meningitis",
+        "E": "It produces mycotoxins"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect (true statement, not the EXCEPT). Cryptococcus neoformans is an opportunistic pathogen, causing severe disease particularly in the immunocompromised.",
+        "B": "Incorrect (true statement, not the EXCEPT). It is a capsulated yeast, and its polysaccharide capsule is a major antiphagocytic virulence factor.",
+        "C": "Incorrect (true statement, not the EXCEPT). It is acquired by inhalation, typically from soil contaminated with bird droppings.",
+        "D": "Incorrect (true statement, not the EXCEPT). It causes pneumonia at the site of inhalation and, after hematogenous spread, meningitis.",
+        "E": "Correct. This is the false statement, so it is the EXCEPT answer. Cryptococcus neoformans does not produce mycotoxins -- mycotoxin production (such as aflatoxin) is a feature of certain other fungi, notably Aspergillus flavus, not of Cryptococcus, whose virulence instead rests on its antiphagocytic capsule."
+      },
+      "main_concept": "CON-INF-A0CA5CB06D2A61",
+      "concept_ids": ["CON-INF-A0CA5CB06D2A61"],
+      "contextual_concept_ids": [],
+      "subtopic": "Cryptococcus neoformans",
+      "learning_objective": "Correctly exclude mycotoxin production from the features of Cryptococcus neoformans.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q019",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q019",
+      "page": 80,
+      "title": "Aspergillus flavus produces aflatoxin",
+      "question": "Which of the following fungi produce mycotoxin called aflatoxin and causing mycotoxicosis?",
+      "options": {
+        "A": "Candida albicans",
+        "B": "Mucor",
+        "C": "Aspergillus flavus",
+        "D": "Rhizopus",
+        "E": "Dermatophytes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Candida albicans does not produce aflatoxin; its pathogenesis is via tissue invasion (pseudohyphae), not mycotoxin production.",
+        "B": "Incorrect. Mucor is a cause of mucormycosis (an angioinvasive infection), not an aflatoxin producer.",
+        "C": "Correct. Aspergillus flavus is the fungus that produces the mycotoxin aflatoxin, a poisonous secondary metabolite. Aflatoxin is typically ingested via mold-contaminated grain, nuts or stored crops. This ingestion causes mycotoxicosis, a toxic illness distinct from actual fungal infection since it results from a chemical poison rather than tissue invasion.",
+        "D": "Incorrect. Rhizopus is a cause of mucormycosis, not an aflatoxin producer.",
+        "E": "Incorrect. Dermatophytes cause superficial keratin infections and do not produce aflatoxin."
+      },
+      "main_concept": "CON-INF-3716C5C29C8B30",
+      "concept_ids": ["CON-INF-3716C5C29C8B30"],
+      "contextual_concept_ids": [],
+      "subtopic": "Mycotoxin-producing fungi",
+      "learning_objective": "Identify Aspergillus flavus as the fungus that produces the mycotoxin aflatoxin, causing mycotoxicosis.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": "Q22 near-restates this stem/options/key -- held as duplicate-of Q19, not authored a second time."
+    },
+    {
+      "key": "ini-mcq-ch7-q020",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q020",
+      "page": 80,
+      "title": "Zoospores are motile, not non-motile",
+      "question": "Zoospores have the following characters EXCEPT?",
+      "options": {
+        "A": "They have flagella",
+        "B": "They are non-motile",
+        "C": "Produced inside structures called zoosporangia",
+        "D": "Do not have a cell wall",
+        "E": "Produced in lower fungi such as water molds"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (true statement, not the EXCEPT). Zoospores possess flagella, which is what gives them motility.",
+        "B": "Correct. This is the false statement, so it is the EXCEPT answer. Zoospores are, unlike most fungal spores, motile -- their flagella let them swim through water toward a suitable substrate, so \"non-motile\" is the opposite of their defining feature.",
+        "C": "Incorrect (true statement, not the EXCEPT). Zoospores are produced inside specialized structures called zoosporangia.",
+        "D": "Incorrect (true statement, not the EXCEPT). Zoospores, like other fungal cells at this stage, are described without a rigid cell wall in the standard teaching of this spore type.",
+        "E": "Incorrect (true statement, not the EXCEPT). This motile-spore reproductive strategy is characteristic of the lower fungi, such as the water molds."
+      },
+      "main_concept": "CON-INF-539FD0190A4B69",
+      "concept_ids": ["CON-INF-539FD0190A4B69"],
+      "contextual_concept_ids": [],
+      "subtopic": "Fungal spore types",
+      "learning_objective": "Correctly exclude \"non-motile\" as a false character of zoospores, which are flagellated and motile.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q021",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q021",
+      "page": 80,
+      "title": "Candida albicans transmission is not primarily respiratory",
+      "question": "Each of the following statements concerning Candida albicans is correct EXCEPT?",
+      "options": {
+        "A": "C.albicans is a budding yeast that forms psuedohyphae when it invades tissue",
+        "B": "C. Albicans causes thrush",
+        "C": "C.albicans is transmitted primarily by respiratory aerosol",
+        "D": "Impaired cell mediated immunity is an important predisposing factor to disease"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (true statement, not the EXCEPT). Candida albicans is a budding yeast that forms pseudohyphae when it invades tissue.",
+        "B": "Incorrect (true statement, not the EXCEPT). Candida albicans causes thrush, a classic mucosal presentation.",
+        "C": "Correct. This is the false statement, so it is the EXCEPT answer. Candida albicans is not primarily transmitted by respiratory aerosol -- it is normally already present as endogenous mucosal flora, and disease typically arises from opportunistic overgrowth of this endogenous organism rather than new acquisition by inhalation.",
+        "D": "Incorrect (true statement, not the EXCEPT). Impaired cell-mediated immunity (as in HIV/AIDS or immunosuppression) is an important predisposing factor to Candida disease, since T-cell-mediated immunity is central to controlling it at mucosal surfaces."
+      },
+      "main_concept": "CON-INF-49D38EA6AC7FE2",
+      "concept_ids": ["CON-INF-49D38EA6AC7FE2"],
+      "contextual_concept_ids": ["CON-INF-A22576F1C4B8AF"],
+      "subtopic": "Candida albicans",
+      "learning_objective": "Correctly exclude respiratory-aerosol transmission as a feature of Candida albicans, which is instead endogenous/mucosal.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q023",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q023",
+      "page": 81,
+      "title": "Cryptococcus neoformans causes meningitis",
+      "question": "Cryptococcus neoformans causes?",
+      "options": {
+        "A": "Meningitis",
+        "B": "Typhoid",
+        "C": "Bone infection",
+        "D": "Food poisoning"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cryptococcus neoformans is acquired by inhalation, typically from soil contaminated with bird droppings, and initially causes pneumonia. From the lung it can spread hematogenously to the central nervous system. This produces cryptococcal meningitis, a well-known and often severe complication, particularly in immunocompromised patients such as those with HIV/AIDS.",
+        "B": "Incorrect. Typhoid is caused by Salmonella Typhi, a bacterium, not a fungus.",
+        "C": "Incorrect. Bone infection (osteomyelitis) is not a classic presentation of Cryptococcus neoformans.",
+        "D": "Incorrect. Food poisoning is a bacterial/toxin-mediated gastrointestinal illness, not associated with this inhalation-acquired fungal pathogen."
+      },
+      "main_concept": "CON-INF-A0CA5CB06D2A61",
+      "concept_ids": ["CON-INF-A0CA5CB06D2A61"],
+      "contextual_concept_ids": [],
+      "subtopic": "Cryptococcus neoformans",
+      "learning_objective": "State that Cryptococcus neoformans causes meningitis.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q024",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q024",
+      "page": 81,
+      "title": "Dermatophytes live in superficial keratinized tissue",
+      "question": "Dermatophytes are fungus which?",
+      "options": {
+        "A": "Invade the sub cutaneous tissue",
+        "B": "Cause in apparent systemic infections",
+        "C": "Live in superficial keratinized area of the body, the skin, hair and nail",
+        "D": "Are yeast fungi"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Dermatophytes are confined to keratinized tissue and do not invade subcutaneous tissue -- that pattern instead describes subcutaneous mycoses caused by other fungal groups.",
+        "B": "Incorrect. Dermatophytes cause cutaneous, not systemic, disease -- their reliance on keratin as a nutrient source confines them to the skin/hair/nail.",
+        "C": "Correct. Dermatophytes (Trichophyton, Microsporum, Epidermophyton) are keratinophilic fungi. They live specifically in the superficial keratinized areas of the body -- skin, hair and nail -- rather than deeper tissue. This tropism follows from their reliance on keratin, digested by keratinase enzymes, as a nutrient source.",
+        "D": "Incorrect. Dermatophytes are filamentous (mold) fungi, not yeasts."
+      },
+      "main_concept": "CON-INF-3A1C583685AC01",
+      "concept_ids": ["CON-INF-3A1C583685AC01"],
+      "contextual_concept_ids": [],
+      "subtopic": "Dermatophytes",
+      "learning_objective": "State that dermatophytes live in the superficial keratinized areas of the body.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q025",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q025",
+      "page": 81,
+      "title": "Pseudohyphae seen in Candida",
+      "question": "Pseudohyphae are seen in?",
+      "options": {
+        "A": "Aspergillus",
+        "B": "Cryptococcus",
+        "C": "Candida",
+        "D": "Dermatophytes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Aspergillus forms true, septate hyphae, not pseudohyphae.",
+        "B": "Incorrect. Cryptococcus is a pure encapsulated yeast; it does not form pseudohyphae.",
+        "C": "Correct. Candida forms pseudohyphae when it invades tissue. Pseudohyphae are chains of elongated, still-attached budding yeast cells, distinct from the true, continuously branching hyphae of a mold. This structure is the one most closely associated with Candida among the fungi commonly tested at this level.",
+        "D": "Incorrect. Dermatophytes grow as true, septate hyphae in keratinized tissue, not pseudohyphae."
+      },
+      "main_concept": "CON-INF-A22576F1C4B8AF",
+      "concept_ids": ["CON-INF-A22576F1C4B8AF"],
+      "contextual_concept_ids": [],
+      "subtopic": "Candida albicans",
+      "learning_objective": "Identify Candida as the fungus in which pseudohyphae are seen.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q030",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q030",
+      "page": 82,
+      "title": "Fragmentation regrows mycelium",
+      "question": "Process of breakdown of mycelium, in which each broken fragment give rise to a new mycelium is?",
+      "options": {
+        "A": "Fragmentation",
+        "B": "Budding",
+        "C": "Conjugation",
+        "D": "Binary fission"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Molds propagate their mycelium by fragmentation: mechanical or physiological breakage produces fragments. Each broken fragment is capable of growing into a whole new mycelium. This is possible because fungal hyphae retain the capacity for apical growth from almost any point, unlike a bacterial or yeast cell fragment.",
+        "B": "Incorrect. Budding is the yeast reproductive mechanism (an outgrowth pinching off a parent cell), not a mold mycelial-breakdown process.",
+        "C": "Incorrect. Conjugation is a mechanism of genetic exchange (in bacteria, or sexual reproduction in some fungi), not mycelial breakdown/regrowth.",
+        "D": "Incorrect. Binary fission is the bacterial reproductive mechanism, unrelated to fungal mycelial fragmentation."
+      },
+      "main_concept": "CON-INF-43F32A0EF63DCB",
+      "concept_ids": ["CON-INF-43F32A0EF63DCB"],
+      "contextual_concept_ids": [],
+      "subtopic": "Fungal reproduction",
+      "learning_objective": "State that fragmentation of the mycelium, with each fragment regrowing into a new mycelium, is a mold propagation mechanism.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": "Q27 (\"Process of breaking down mycelium of fungi for replication?\") tests the same fact but prints a blank option D -- held, below the 4-option floor, not authored."
+    },
+    {
+      "key": "ini-mcq-ch7-q032",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q032",
+      "page": 82,
+      "title": "Fungal cell membrane contains ergosterol",
+      "question": "Fungal cell membrane contains?",
+      "options": {
+        "A": "Lipopolysaccharides",
+        "B": "Ergosterol",
+        "C": "Chitin",
+        "D": "Cholesterol"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Lipopolysaccharide is a Gram-negative bacterial outer-membrane component, not a fungal membrane component.",
+        "B": "Correct. The fungal cytoplasmic membrane contains ergosterol as its characteristic sterol. This is in place of the cholesterol used by human cell membranes. The difference is both a compositional fact about fungal membranes and the basis for the selective toxicity of most antifungal drugs.",
+        "C": "Incorrect. Chitin is a fungal cell WALL component, not a membrane component.",
+        "D": "Incorrect. Cholesterol is the sterol of human (and other mammalian) cell membranes, not the fungal membrane -- fungi use ergosterol instead."
+      },
+      "main_concept": "CON-INF-58787FB8935B8F",
+      "concept_ids": ["CON-INF-58787FB8935B8F"],
+      "contextual_concept_ids": [],
+      "subtopic": "Antifungal drug targets",
+      "learning_objective": "State that the fungal cell membrane contains ergosterol.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch7-q033",
+      "id": "QST-AUNINI105-INI-MCQ-CH7-Q033",
+      "page": 82,
+      "title": "Opportunistic fungal infection risk factors",
+      "question": "Factors contributing to the initiation of opportunistic fungal infections include each of the following EXCEPT?",
+      "options": {
+        "A": "Defective cell-mediated immunity",
+        "B": "Prolonged use of antibiotics",
+        "C": "Chemotherapy",
+        "D": "Anaerobic wound conditions"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (true statement, not the EXCEPT). Defective cell-mediated immunity (T-cell dysfunction) is a recognized risk factor for opportunistic fungal infection.",
+        "B": "Incorrect (true statement, not the EXCEPT). Prolonged antibiotic use disrupts protective bacterial normal flora, allowing fungal overgrowth.",
+        "C": "Incorrect (true statement, not the EXCEPT). Chemotherapy causes both immunosuppression and neutropenia, predisposing to opportunistic fungal infection.",
+        "D": "Correct. This is the false statement, so it is the EXCEPT answer. Anaerobic wound conditions are a classic risk factor for opportunistic anaerobic bacterial infection (for example gas gangrene), not for opportunistic fungal infection, whose opportunism is instead driven by immune or normal-flora disruption."
+      },
+      "main_concept": "CON-INF-F4D5A38C5F8093",
+      "concept_ids": ["CON-INF-F4D5A38C5F8093"],
+      "contextual_concept_ids": [],
+      "subtopic": "Opportunistic fungal infection",
+      "learning_objective": "Correctly exclude anaerobic wound conditions from the risk factors for opportunistic fungal infection.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWES table, chapter 7, p82" },
+      "author_notes": ""
+    },
+    { "key": "ini-mcq-ch7-q003", "hold": "options A and B both print \"Budding\" verbatim -- source-side duplicate-option defect, ambiguous which was intended as distinct from C/D distractors" },
+    { "key": "ini-mcq-ch7-q013", "hold": "printed key (A, Pathogenicity) conflicts with the expected textbook answer (Virulence, C) for \"the MEASURED ability of an organism to cause a disease\" -- virulence is textbook-defined as the quantitative/measured degree of pathogenicity" },
+    { "key": "ini-mcq-ch7-q014", "hold": "printed key (C) conflicts with the expected EXCEPT answer (D, \"both yeasts and moulds have a cell wall made of peptidoglycan\" is false -- fungal walls are chitin, not peptidoglycan); option C as printed is actually a true statement (thermal dimorphism definition)" },
+    { "key": "ini-mcq-ch7-q022", "hold": "duplicate-of ini-mcq-ch7-q019 -- near-verbatim restatement of \"fungi producing mycotoxin called aflatoxin\" (Aspergillus flavus), same key" },
+    { "key": "ini-mcq-ch7-q026", "hold": "duplicate-of ini-mcq-ch7-q016 -- near-verbatim restatement of \"tinea versicolor is\" (superficial mycosis), shuffled option order/lettering" },
+    { "key": "ini-mcq-ch7-q027", "hold": "source prints a blank option D (\"D-\" with no text), leaving only 3 usable options, short of the seed schema 4-option floor" },
+    { "key": "ini-mcq-ch7-q031", "hold": "exact duplicate-of ini-mcq-ch7-q001 -- identical stem, options and key (\"Yeasts reproduce by?\", Budding)" }
+  ]
+}

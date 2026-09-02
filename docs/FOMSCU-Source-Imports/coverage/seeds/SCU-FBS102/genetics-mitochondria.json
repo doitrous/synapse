@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-mitochondria",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-mitochondria'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Genetics > Molecular Genetics > Mitochondrial DNA"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-MITOCHONDRIA",
+      "key": "genetics-mitochondria",
+      "title": "Mitochondria contain their own DNA",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Genetics > Molecular Genetics > Mitochondrial DNA",
+      "question": "Which of the following cellular organelles contains its own DNA?",
+      "options": {
+        "A": "Rough endoplasmic reticulum",
+        "B": "Smooth endoplasmic reticulum",
+        "C": "Golgi complex",
+        "D": "Mitochondria"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The rough endoplasmic reticulum is part of the endomembrane system and has no genome of its own; its ribosome-studded membrane synthesizes proteins encoded by nuclear, not organellar, DNA.",
+        "B": "Incorrect. The smooth endoplasmic reticulum likewise carries no DNA; it is continuous with the endomembrane system and depends entirely on nuclear-encoded proteins.",
+        "C": "Incorrect. The Golgi complex is a processing and sorting organelle of the endomembrane system and, like the ER, has no genome of its own.",
+        "D": "Correct. Mitochondria possess their own small, circular, double-stranded DNA genome, distinct from and inherited separately (maternally) from nuclear DNA, encoding a subset of the proteins and RNAs needed for oxidative phosphorylation — strong evidence for their endosymbiotic bacterial origin. This independent genome is one of the strongest lines of evidence for the endosymbiotic origin of mitochondria from free-living bacteria."
+      },
+      "topic": "Genetics",
+      "subtopic": "Mitochondrial genetics",
+      "main_concept": "CON-FND-B29858BF9E902A",
+      "concept_ids": [
+        "CON-FND-B29858BF9E902A"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MOLECULAR-BIOLOGY-MITOCHONDRIAL"
+      ],
+      "learning_objective": "State that mitochondria are the cytoplasmic organelle with their own DNA genome, and that this genome is maternally inherited and distinct from nuclear DNA.",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOY Foundation 1 2026 Q37",
+      "author_notes": ""
+    }
+  ]
+}

@@ -49,3 +49,480 @@ B-Q8  key=printed  Malignant hypertension: definition (>280/180), features, kidn
 "secondary hypertension" -> 4 hits, pending (import-ready/article/SYS-CVS-ARTICLE-T07.md, concept/SYS-CVS-CONCEPT-T07.md)
 
 Tally: pending=11 (edema and smooth-muscle-histology counted pending but flagged borderline/needs S2 re-verify), new=6, live=0, total distinct=17
+
+MUST-CVS-201 tranche-2 triage keys (Histology, full triage + authoring)
+Source C = Histology/06 EOM Exams/EOM MCQs - Histology CVS201 Questions (Final).pdf (14 pages, 50 MCQ, single author Absalam101, src_0511bc2ebb43a689a4c6)
+
+--- Source C (50/50 keyed, printed answer table p.14) ---
+C-Q01 key=printed C  Endothelium is in the tunica intima
+C-Q02 key=printed A  IEL separates tunica intima and tunica media
+C-Q03 key=printed C  Elastic artery: 40-60 concentric elastic laminae in media
+C-Q04 key=printed D  Valves present in veins to prevent backflow
+C-Q05 key=printed C  Continuous capillary: tight junctions, skeletal muscle
+C-Q06 key=printed B  Internal elastic lamina prevents complete occlusion in arteries
+C-Q07 key=printed C  Vasa vasorum in tunica adventitia
+C-Q08 key=printed B  Enlarged tortuous superficial leg veins = varicose veins
+C-Q09 key=printed B  Basilar artery: well-developed IEL, no EEL
+C-Q10 key=printed B  Sinusoidal capillaries in liver
+C-Q11 key=printed B  Pre-capillary sphincter in metarterioles
+C-Q12 key=printed B  Fenestrated capillary, pores without diaphragms, kidney glomeruli
+C-Q13 key=printed B  Large veins: longitudinal smooth muscle in adventitia
+C-Q14 key=printed B  Arterioles: gradual disappearance of IEL
+C-Q15 key=printed B  Orcein stain visualises elastic laminae
+C-Q16 key=printed B  AV shunts: temperature regulation
+C-Q17 key=printed C  Nervi vasorum in tunica adventitia
+C-Q18 key=printed C  NOT a muscular-artery feature: abundant vasa vasorum
+C-Q19 key=printed B  Pericyte role: contractility and repair
+C-Q20 key=printed A  DVT risk factor after bed rest: varicose veins
+C-Q21 key=printed C  Thickest adventitia relative to other layers: vein
+C-Q22 key=printed B  AV shunts commonly found: fingertips
+C-Q23 key=printed C  Aorta: tunica media rich in elastic laminae
+C-Q24 key=printed B  Subendothelium: loose connective tissue
+C-Q25 key=printed C  Largest lumen relative to wall thickness: vein
+C-Q26 key=printed B  Metarteriole = direct connection artery-vein
+C-Q27 key=printed B  Coronary arteries: longitudinal smooth muscle in intima
+C-Q28 key=printed B  Valves unique to veins, aid blood return
+C-Q29 key=printed C  Gas/nutrient exchange primarily in capillaries
+C-Q30 key=printed C  Muscular-artery media: mainly smooth muscle fibres
+C-Q31 key=printed D  Most permeable capillary, bone marrow: sinusoidal
+C-Q32 key=printed B  External elastic lamina separates media from adventitia
+C-Q33 key=printed B  Elastic artery: indistinct IEL due to elastic-rich media
+C-Q34 key=printed B  Diaphragmed fenestrated capillaries: kidney glomeruli (per key, see C-Q12 for the diaphragm-free exception)
+C-Q35 key=printed C  Arterioles: primarily responsible for peripheral resistance
+C-Q36 key=printed B  Vasa vasorum: nourishment of large vessel walls
+C-Q37 key=printed B  Large-vein adventitia: longitudinal smooth muscle
+C-Q38 key=printed B  Metarteriole = "vascular shunt"
+C-Q39 key=printed C  EEL may be indistinct in small muscular arteries
+C-Q40 key=printed C  Sinusoidal capillaries in bone marrow
+C-Q41 key=printed B  Primary artery-vs-vein difference: tunica media thickness
+C-Q42 key=printed A  AV shunts in digestion: constriction diverts blood to GIT
+C-Q43 key=printed B  Continuous capillaries in skin
+C-Q44 key=printed B  Sinusoidal capillaries lack a continuous basement membrane
+C-Q45 key=printed A  IEL prevents complete occlusion of arteries
+C-Q46 key=printed B  Clotted, inflamed deep leg vein = thrombophlebitis
+C-Q47 key=printed D  Arteriole: all three tunics, very reduced form
+C-Q48 key=printed B  Capillary wall: endothelium + pericytes only
+C-Q49 key=printed B  Basilar artery lacks vasa vasorum
+C-Q50 key=printed B  Macrophages in sinusoid walls, phagocytosis
+
+--- find-existing.mjs / live-snapshot query log (12 distinct concept candidates) ---
+"blood vessel wall layers" -> no hit (tool query too broad; targeted terms below found it)
+"capillary types" -> 2 hits, pending (Kasr 104-CPS-histology.md article + 104-CPS-mcq-authored.md question, "capillary types and A-V connections")
+"varicose veins" -> 1 hit, pending (import-ready/article/SYS-CVS-ARTICLE-T07.md, alias only, Year-3 clinical depth) -> judged different/coarser, confirmed NEW
+grep of docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md by label -> 6 direct concept matches (three-tunic plan CON-CVS-30053920BDC07F, artery classification CON-CVS-712BA581C8AF88, metarteriole CON-CVS-E6F658EEC11072, vein classification CON-CVS-B29610035B568D, medium-artery-vs-vein CON-CVS-3C04F2DED454C9, fenestrated capillary CON-CVS-132A76916FEC05) -> all checked against server/data/medical-library-v1.json, none live -> PENDING, sparse overlay
+grep of docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md for "shunt" -> arteriovenous anastomosis CON-CVS-4BE9D0F74D4377 -> checked against live snapshot, not live -> PENDING, sparse overlay
+grep of docs/Kasr-Source-Imports/concept/104-CPS-concepts.md for continuous-vs-sinusoidal -> CON-CVS-9585A65D9EDA4D -> a sibling Kasr file's own field_notes called this id "live", contradicted by a direct server/data/medical-library-v1.json check (0 hits) -> PENDING, sparse overlay (stale in-file note, not trusted over the live snapshot)
+pericyte function -> CON-CVS-CC810A201244F0 / CON-CVS-5D4C49C48AA325, both confirmed LIVE in server/data/medical-library-v1.json (10 and 11 hits respectively) -> CC810A201244F0 chosen (label closer match: "Pericyte regulation of capillary flow"), cited directly, no local overlay row (no local file carries its verbatim label)
+"elastic lamina stain" / "Orcein" -> no hit -> NEW
+"deep vein thrombosis" / "thrombophlebitis" -> hit only the Year-3 SYS-CVS-ARTICLE-T07.md clinical-depth article (epidemiology/burden, not the basic risk-factor/diagnosis facts tested here) -> judged different/coarser, confirmed NEW
+
+Tally: pending=8 (sparse overlay), live-direct=1, new=3, total distinct=12
+
+MUST-CVS-201 tranche-3 triage keys (Anatomy, full triage + partial authoring)
+Source D = Anatomy/06 EOM Exams/EOM MCQs - Anatomy CVS201 Questions (Final).pdf (32 pages, 100 MCQ + 6 essay, by Absalam101 & Shahd, src_ac0704bd16ff99889463)
+Each section has its own printed key page (not one combined key); [A] marks a question authored this pass (49 total).
+
+--- Blood Supply of the Heart (20/20 keyed, key p.7) ---
+BS-Q01 key=C Anterior interventricular branch (LAD) in the ant. IV groove [A]
+BS-Q02 key=C Great cardiac vein accompanies the anterior IV artery [A]
+BS-Q03 key=C RCA arises from the anterior aortic sinus [A]
+BS-Q04 key=B Left marginal branch runs the rounded left margin [A]
+BS-Q05 key=B Posterior interventricular branch is a branch of RCA
+BS-Q06 key=C RCA gives a marginal branch along the right border [A]
+BS-Q07 key=B Middle cardiac vein drains post. IV groove into coronary sinus
+BS-Q08 key=C Coronary sinus opens into the right atrium
+BS-Q09 key=C Anterior cardiac veins open directly into the right atrium [A]
+BS-Q10 key=D Great cardiac vein receives the left marginal vein
+BS-Q11 key=B Oblique vein of left atrium = remnant of left common cardinal vein
+BS-Q12 key=D Circumflex, ant. IV and left marginal are all LCA branches
+BS-Q13 key=C LCA does NOT supply the posterior 1/3 of the IV septum [A]
+BS-Q14 key=C Anterior cardiac veins are NOT a coronary-sinus tributary
+BS-Q15 key=B Left conus artery supplies the conus arteriosus (left side)
+BS-Q16 key=B Venae cordis minimi drain directly into both atria
+BS-Q17 key=B Circumflex artery is a continuation of the LCA [A]
+BS-Q18 key=A Coronary sinus lies between lower LA and upper LV borders
+BS-Q19 key=B Inter-coronary anastomosis overcomes gradual obstruction [A]
+BS-Q20 key=C LCA's ant. IV branch supplies ant. walls of both ventricles [A]
+
+--- Conducting System of the Heart (10/10 keyed, key p.10) ---
+CS-Q01 key=C SA node is the pacemaker [A]
+CS-Q02 key=B SA node site = upper part of sulcus terminalis
+CS-Q03 key=B AVN supplied by RCA in 80% of cases [A]
+CS-Q04 key=A AV bundle descends along membranous IVS posterior margin [A]
+CS-Q05 key=B Right bundle branch runs through the septomarginal/moderator band [A]
+CS-Q06 key=C Purkinje fibres = terminal branches of the bundle branches
+CS-Q07 key=A SAN/AVN are conductive (specialised cardiac) muscle fibres
+CS-Q08 key=B AV node lies above the coronary sinus orifice [A]
+CS-Q09 key=B Left bundle branch mainly supplied by LCA
+CS-Q10 key=B RCA obstruction more likely to cause heart block [A]
+
+--- Arch of Aorta & Descending Thoracic Aorta (30/30 keyed, key p.18) ---
+AO-Q01 key=B Arch begins at sternal end of right 2nd costal cartilage [A]
+AO-Q02 key=B Arch typically ends at T4
+AO-Q03 key=C Left recurrent laryngeal nerve passes inferior to the arch's concavity
+AO-Q04 key=C Ligamentum arteriosum connects left pulmonary artery to the aortic arch [A]
+AO-Q05 key=B Left phrenic nerve passes close to the aortic arch
+AO-Q06 key=C Left innominate vein lies above the aortic arch
+AO-Q07 key=B Brachiocephalic artery -> right common carotid + right subclavian [A]
+AO-Q08 key=C Brachiocephalic artery = first branch of the arch [A]
+AO-Q09 key=C Left vagus + left phrenic nerves lie between left common carotid and left subclavian
+AO-Q10 key=D Esophagus crosses the DTA's anterior surface [A]
+AO-Q11 key=C DTA passes through the diaphragm at T12 [A]
+AO-Q12 key=C Esophagus crosses anterior to the DTA at T7
+AO-Q13 key=B Posterior intercostal arteries arise from the DTA's posterior surface [A]
+AO-Q14 key=C Bronchial arteries = visceral branch of the DTA [A]
+AO-Q15 key=B Esophagus compressed by aortic aneurysm at T7
+AO-Q16 key=B Azygos vein on the right of the lower DTA
+AO-Q17 key=B Thoracic duct runs between the aorta and the azygos vein [A]
+AO-Q18 key=D DTA terminates at T12 [A]
+AO-Q19 key=B Right bronchial artery usually arises from the 3rd right post. intercostal artery
+AO-Q20 key=B Highest point of the arch marks to the left 2nd intercostal space
+AO-Q21 key=D Trachea is NOT an anterior relation of the DTA
+AO-Q22 key=A Esophagus is related anteriorly to the DTA
+AO-Q23 key=C Hemiazygos vein lies posterior to the DTA
+AO-Q24 key=C Left brachiocephalic vein crosses in front of the arch's branches
+AO-Q25 key=B Left recurrent laryngeal nerve related posteriorly to the arch [A]
+AO-Q26 key=B Ligamentum arteriosum attaches to the arch's inferior surface
+AO-Q27 key=D Bifurcation of the pulmonary trunk lies inferior to the arch
+AO-Q28 key=A Left innominate vein lies superior to the arch [A]
+AO-Q29 key=B Trachea is a deep relation on the arch's right side
+AO-Q30 key=B DTA is NOT to the left of the vertebral column for its entire course
+
+--- Esophagus (20/20 keyed, key p.24) ---
+ESO-Q01 key=D Left main bronchus crosses the esophagus's anterior surface [A]
+ESO-Q02 key=C Left principal bronchus causes the 15-inch endoscopic narrowing [A]
+ESO-Q03 key=B Trachea lies anterior to the esophagus at the sternal angle level
+ESO-Q04 key=C Anatomical constriction where crossed by the right main bronchus
+ESO-Q05 key=B Esophageal plexus affected in impaired thoracic peristalsis
+ESO-Q06 key=C Thoracic duct lies posterior to the esophagus [A]
+ESO-Q07 key=C Cervical esophagus drains venously into the brachiocephalic veins [A]
+ESO-Q08 key=B Esophagus crosses in front of the DTA at T7 [A]
+ESO-Q09 key=C Descending aorta is NOT an anterior relation of the esophagus [A]
+ESO-Q10 key=C Left principal bronchus (with aortic arch) indents the esophagus anteriorly
+ESO-Q11 key=C Esophagus enters the abdomen via the right crus (esophageal hiatus) [A]
+ESO-Q12 key=C Azygos vein drains the thoracic esophagus before the SVC
+ESO-Q13 key=B Left principal bronchus constricts the esophagus at 12 inches
+ESO-Q14 key=B Thoracic duct on the left of the esophagus in the superior mediastinum [A]
+ESO-Q15 key=C Abdominal esophagus supplied by the left gastric artery
+ESO-Q16 key=B Thoracic duct crosses right to left behind the esophagus at T5
+ESO-Q17 key=B Esophagus visible in the retrocardiac space on lateral CXR
+ESO-Q18 key=B Esophagus begins at C6 [A]
+ESO-Q19 key=B Azygos vein forms part of the esophagus's posterior relations
+ESO-Q20 key=B Nerve supply = sympathetic trunks and vagi [A]
+
+--- Heart Development & Fetal Circulation (20/20 keyed, key p.30) ---
+HD-Q01 key=C Endocardial cushions divide the AV canal into tricuspid/mitral orifices
+HD-Q02 key=B Complete absence of interatrial septum = tri-locular heart [A]
+HD-Q03 key=C Oxygenated placental blood enters the RA via the IVC [A]
+HD-Q04 key=C Septum primum forms the floor of the fossa ovalis [A]
+HD-Q05 key=C Premature FO closure -> intrauterine death
+HD-Q06 key=C Ductus arteriosus becomes the ligamentum arteriosum [A]
+HD-Q07 key=B Tetralogy of Fallot: pulm. stenosis + overriding aorta + VSD + RVH [A]
+HD-Q08 key=C IVS = muscular + membranous parts [A]
+HD-Q09 key=B Lungs bypassed via ductus arteriosus + foramen ovale [A]
+HD-Q10 key=A Small atrial opening = atrial septal defect [A]
+HD-Q11 key=B Right atrium derived mainly from the sinus venosus [A]
+HD-Q12 key=A Septum primum/secundum fusion failure -> patent foramen ovale [A]
+HD-Q13 key=B Truncus arteriosus -> ascending aorta + pulmonary trunk [A]
+HD-Q14 key=A Left umbilical vein becomes the ligamentum teres
+HD-Q15 key=B Wide ostium secundum -> persistent foramen ovale
+HD-Q16 key=D Ligamentum arteriosum is NOT a fetal-circulation adaptation itself (postnatal remnant)
+HD-Q17 key=A Dextrocardia + mirror-image abdominal viscera = situs inversus
+HD-Q18 key=A Foramen ovale lies between septum primum and septum secundum
+HD-Q19 key=B ASD + pulmonary hypertension = Eisenmenger's complex components
+HD-Q20 key=C Descending aorta carries mixed blood to the fetal lower body
+
+--- Essay (6/6 keyed, model answers p.32; not authored this pass) ---
+ESSAY-Q1 key=printed Interatrial septum abnormalities: complete absence, PFO, premature FO closure, AV-orifice stenosis
+ESSAY-Q2 key=printed Fetal-circulation changes after birth: umbilical vein->ligamentum teres, umbilical artery->medial umbilical ligament, ductus venosus->ligamentum venosum, ductus arteriosus->ligamentum arteriosum, foramen ovale->fossa ovalis
+ESSAY-Q3 key=printed Aortic arch branches: brachiocephalic, left common carotid, left subclavian
+ESSAY-Q4 key=printed Aortic arch relations: above/below/right/left, each listed
+ESSAY-Q5 key=printed Esophagus relations: anterior/posterior/left/right, each listed
+ESSAY-Q6 key=printed Coronary artery branches: LCA and RCA branch lists
+
+--- find-existing.mjs / direct-grep / live-snapshot query log (21 distinct concept ids used) ---
+grep of docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md by label for coronary arteries, cardiac veins, aortic sinuses, conducting system, arch of aorta, pulmonary trunk, descending thoracic aorta, vagus/recurrent laryngeal nerves, oesophagus, thoracic duct, diaphragm, superior mediastinum, and the 6 embryology (CON-DEV-) concepts -> 20 direct concept matches (CON-CVS-1F1AB4B70AB06D, CON-CVS-929D9DDCB95482, CON-CVS-D02DE9B56C97B7, CON-CVS-2A21F1B4F30B61, CON-CVS-6799821893D6D2, CON-CVS-9C60987F3CB5A1, CON-CVS-A723ADE6F4E726, CON-CVS-EEA29FB47CBB71, CON-CVS-E9BA4A6C0E8392, CON-CVS-E9CF510CBD01BC, CON-GIT-4E4EC465826CF2, CON-HEM-9123D4493320A7, CON-RES-80C9B9E43B459B, CON-RES-F360EFDEA84D58, CON-DEV-67A96150DDAFD9, CON-DEV-B33D9F68392311, CON-DEV-87CC6D0D2EF658, CON-DEV-13EE046ACBE541, CON-DEV-FFBA6FA260E484, CON-DEV-3A610A0FB2823C) -> all 20 checked directly against server/data/medical-library-v1.json, none live -> PENDING, sparse overlay
+"tetralogy of fallot" -> 5 hits (pending import-ready/article/SYS-CVS-ARTICLE-T08.md, import-ready/concept/SYS-CVS-CONCEPT-T08.md label "Tetralogy of Fallot is four features arising from one malformation", Kasr glossary) -> CON-CVS-AF9212C18AAF03 checked directly against live snapshot, not live -> PENDING, sparse overlay
+"conducting system" -> confirms same label duplicated with likely-different salted ids across 104-CPS-anatomy-concepts.md, 104-CPS-concepts.md and 104-CPS-mcq-concepts.md (Kasr's own pipeline salts ids per module, 00-START-HERE.md sec.3) -> targeted the anatomy-concepts.md instance specifically, same file tranche 1/2 already overlay onto, consistent with the Histology tranche's own convention (subject-matching Kasr file over a sibling file with the same wording)
+"descending thoracic aorta" -> same duplication pattern confirmed; anatomy-concepts.md instance used
+"azygos vein", "left gastric artery" (abdominal esophagus, Q15), "moderator band" (name only, concept content already covers it under conducting-system), "eisenmenger", "situs inversus", "patent ductus arteriosus" (as a named diagnosis rather than the ductus-arteriosus-becomes-ligamentum fact already covered) -> not searched/not mapped to a concept this pass; their questions (AO-Q16, ESO-Q15, HD-Q15/16/17/19) were left un-authored rather than force-mapped or new-minted, queued for the next pass
+
+Tally: 106 questions triaged (100 MCQ + 6 essay), 106/106 keyed, 21 distinct concepts used by the 49 authored questions (20 pending in 104-CPS-anatomy-concepts.md, 1 pending in SYS-CVS-CONCEPT-T08.md), 0 live, 0 new mints, 49 authored / 57 remaining (51 MCQ + 6 essay)
+
+
+--- Microbiology tranche (2026-09-02, lane 5, branch must-cvs201-author5) ---
+
+Two sibling Microbiology CVS201 EOM Final papers, both 30 MCQ + 5 essay (essay
+out of scope for this lane). Triage keys below use single-segment "micro1"/
+"micro2" cluster prefixes per the dispatch; the seed/question-record keys
+this tranche actually emitted use the equivalent short form "m1-qNN" /
+"m2-qNN" (same paper mapping: micro1 = m1 = Mucize Doctors, micro2 = m2 =
+Absalam101 & Rehab) -- documented here so the two naming schemes are not
+mistaken for different papers.
+
+Source A (micro1) = Microbiology/06 EOM Exams/EOM MCQs - CVS Final Microbiology Questions_Mucize Doctors.pdf (8 pages, by Youssef BenAhmed & Hamza Elmeadawy, src_89011691408ee232b5ff)
+Source B (micro2) = Microbiology/06 EOM Exams/EOM MCQs - Microbiology CVS201 Questions (Final).pdf (10 pages, by Absalam101 & Rehab, src_79f275c14b581a4187c2)
+
+--- Source A / micro1 (30/30 MCQ keyed, 5/5 essay keyed, key p.7, essay answers p.8) ---
+micro1-q01 key=B  Acute IE in IVDU -> Staphylococcus aureus [AUTHORED m1-q01]
+micro1-q02 key=C  Subacute IE after dental extraction, prior rheumatic valve disease -> Viridans streptococci [AUTHORED m1-q02, pending]
+micro1-q03 key=B  Viridans virulence: dextran (biofilm) synthesis from glucose [AUTHORED m1-q03]
+micro1-q04 key=B  Prosthetic valve, non-hemolytic/catalase+/coagulase-/novobiocin-sensitive -> S. epidermidis [AUTHORED m1-q04, pending]
+micro1-q05 key=C  Best initial IE test -> serial blood cultures before antibiotics [AUTHORED m1-q05]
+micro1-q06 key=A  Micro-embolic palm/sole lesion in acute IE -> Janeway lesions [AUTHORED m1-q06]
+micro1-q07 key=D  Empiric IE coverage EXCEPT -> Coxsackievirus B (not covered, viral) [AUTHORED m1-q07]
+micro1-q08 key=B  Prosthetic valve dental-extraction prophylaxis -> oral amoxicillin [AUTHORED m1-q08]
+micro1-q09 key=B  S. epidermidis prosthetic-valve pathogenesis -> glycocalyx formation on biomedical devices [AUTHORED m1-q09]
+micro1-q10 key=B  Most common viral cause of myocarditis -> Coxsackievirus [AUTHORED m1-q10]
+micro1-q11 key=A  Myocarditis diagnostic features -> elevated cardiac enzymes + HF presentation [AUTHORED m1-q11]
+micro1-q12 key=D  Cardiac manifestations 2-4wk post-pharyngitis, cross-reaction + serology -> Streptococcus pyogenes [AUTHORED m1-q12, live sparse update]
+micro1-q13 key=B  Chest pain worse w/ inspiration/cough post-pneumonia -> pericarditis [AUTHORED m1-q13]
+micro1-q14 key=A  Purulent (infective) pericarditis pathogen -> Streptococcus pneumoniae [AUTHORED m1-q14]
+micro1-q15 key=b  Teen w/ myocarditis signs, enterovirus isolated from stool -> Coxsackievirus B [AUTHORED m1-q15]
+micro1-q16 key=B  Cardiac mechanism post-pharyngitis w/ migratory polyarthritis -> immune cross-reactivity (molecular mimicry) [AUTHORED m1-q16, live CON-INF-311E67B2C55A90 already MUST-CVS-201-tagged by tranche 1]
+micro1-q17 key=d  Wisdom-tooth extraction + congenital heart disease, alpha-hemolytic/catalase- -> Streptococcus viridans [AUTHORED m1-q17, pending]
+micro1-q18 key=A  Specific test for past strep infection in suspected RF -> ASO titer >200 IU/mL [AUTHORED m1-q18]
+micro1-q19 key=b  Best statement describing RF -> lesions may involve heart/joints/subcut tissue/CNS [AUTHORED m1-q19, live sparse update]
+micro1-q20 key=A  RF recurrence prevention -> monthly long-acting penicillin injections [AUTHORED m1-q20, pending]
+micro1-q21 key=A  Viridans vs S. pneumoniae lab clue -> optochin resistant + bile insoluble [AUTHORED m1-q21]
+micro1-q22 key=B  Staph sepsis -> acute valve destruction + emboli brain/spleen -> acute IE due to S. aureus [AUTHORED m1-q22]
+micro1-q23 key=B  Myocarditis management -> most causes no specific cure, supportive care [AUTHORED m1-q23]
+micro1-q24 key=a  GPC clusters catalase+/coagulase+, tricuspid murmur -> S. aureus [AUTHORED m1-q24]
+micro1-q25 key=B  ASO testing valid statement -> specific for past GAS, >200 diagnostic RF [HELD duplicate-of micro1-q18 -- same fact restated within the same paper]
+micro1-q26 key=b  Chemo patient, prosthetic valve, catalase+/coag-/mannitol-neg/novobiocin-inhibited -> S. epidermidis [HELD duplicate-of micro1-q04 -- same novobiocin-sensitivity fact restated within the same paper]
+micro1-q27 key=D  NOT part of Jones major criteria -> painless macular hemorrhages on palms (Janeway-lesion distractor) [AUTHORED m1-q27, live sparse update]
+micro1-q28 key=B  Lab report alpha-hemolytic/bile-insoluble/optochin-resistant subacute IE organism -> Viridans streptococci [HELD duplicate-of micro1-q21 -- same optochin/bile-insolubility fact restated within the same paper]
+micro1-q29 key=B  Penicillin given after RF onset -> no benefit reversing established carditis [AUTHORED m1-q29]
+micro1-q30 key=B  RF hx + penicillin allergy -> oral erythromycin secondary prophylaxis [AUTHORED m1-q30, pending]
+--- Source A essay (5/5 keyed, model answers p.8; not authored, out of scope) ---
+micro1-essay1 key=printed  Pathogenesis of Acute Rheumatic Fever
+micro1-essay2 key=printed  Pathogenesis of Coxsackie-B viral myocarditis
+micro1-essay3 key=printed  Treatment of MRSA endocarditis
+micro1-essay4 key=printed  Pathogenesis of subacute endocarditis caused by S. Viridans
+micro1-essay5 key=printed  Modes of transmission in pericarditis
+
+--- Source B / micro2 (30/30 MCQ keyed, 5/5 essay keyed, key p.9, essay answers p.10) ---
+micro2-q01 key=D  Most common cause of subacute IE -> Viridans streptococci [HELD duplicate-of micro1-q02 -- same "most common cause of subacute IE" fact]
+micro2-q02 key=A  Coxsackie B in suckling mice -> focal myositis and encephalitis [AUTHORED m2-q02]
+micro2-q03 key=C  Poor dental hygiene + rheumatic heart disease, alpha-hemolytic/bile-insoluble/optochin-resistant -> Viridans streptococci [AUTHORED m2-q03, pending]
+micro2-q04 key=C  Most common cause of acute IE in IVDU -> Staphylococcus aureus [HELD duplicate-of micro1-q01 -- same "acute IE in IVDU" fact]
+micro2-q05 key=B  Viridans virulence in subacute IE -> dextran synthesis [HELD duplicate-of micro1-q03 -- same dextran-biofilm fact]
+micro2-q06 key=C  NOT a typical pericarditis transmission mode -> inhalation of contaminated air [AUTHORED m2-q06]
+micro2-q07 key=B  Migratory polyarthritis + fever + recent pharyngitis + raised ASO -> rheumatic fever [AUTHORED m2-q07, live sparse update]
+micro2-q08 key=B  Coxsackie transmission -> fecal-oral route [AUTHORED m2-q08]
+micro2-q09 key=C  Coxsackie B most closely associated with -> myocarditis [HELD duplicate-of micro1-q10 -- same coxsackie-B-causes-myocarditis fact, inverse framing]
+micro2-q10 key=C  Coxsackie primary multiplication site -> lymphoid tissue of the GIT [AUTHORED m2-q10]
+micro2-q11 key=C  RF chemoprophylaxis in penicillin allergy -> erythromycin [HELD duplicate-of micro1-q30 -- same allergy-alternative-prophylaxis fact]
+micro2-q12 key=D  Diseases caused by Coxsackie B -> pleurodynia + myocarditis + diabetes mellitus (all) [AUTHORED m2-q12]
+micro2-q13 key=D  NOT a common pericarditis causative agent -> Streptococcus pyogenes [AUTHORED m2-q13]
+micro2-q14 key=C  Prosthetic valve, coagulase-neg/novobiocin-sensitive staph -> S. epidermidis [HELD duplicate-of micro1-q04 -- same novobiocin-sensitivity fact]
+micro2-q15 key=B  Test specific for RF diagnosis -> ASO [HELD duplicate-of micro1-q18 -- same ASO-specificity fact]
+micro2-q16 key=A  NOT typical subacute IE feature -> high spiking fever with rigors [AUTHORED m2-q16]
+micro2-q17 key=B  Coxsackie virus family -> Picornaviridae [AUTHORED m2-q17]
+micro2-q18 key=D  Pericarditis clinical picture -> chest pain with inspiration or coughing [HELD duplicate-of micro1-q13 -- same pleuritic-chest-pain fact]
+micro2-q19 key=D  Non-specific RF test(s) -> ESR + CRP (B&C) [AUTHORED m2-q19]
+micro2-q20 key=A  Corynebacterium diphtheriae complication -> myocarditis [AUTHORED m2-q20]
+micro2-q21 key=A  Most common cause of pericarditis -> S. aureus + M. tuberculosis [AUTHORED m2-q21]
+micro2-q22 key=C  Virus most commonly associated with myocarditis -> Coxsackie virus [HELD duplicate-of micro1-q10 -- same fact]
+micro2-q23 key=D  Viridans vs S. pneumoniae lab distinction -> bile insoluble [HELD duplicate-of micro1-q21 -- same optochin/bile fact]
+micro2-q24 key=A  Endocarditis treatment -> penicillin + aminoglycosides [AUTHORED m2-q24]
+micro2-q25 key=B  Damaged valve, dental extraction prophylaxis -> amoxicillin [HELD duplicate-of micro1-q08 -- same amoxicillin-prophylaxis fact]
+micro2-q26 key=B  Coxsackie B feature in infants -> generalized disease affecting heart/liver/brain [AUTHORED m2-q26]
+micro2-q27 key=B  RF pathogenesis best described as -> Type II hypersensitivity [HELD duplicate-of micro1-q16 -- same molecular-mimicry/type-II-hypersensitivity mechanism fact]
+micro2-q28 key=A  Myocarditis cause in immunocompromised patients -> Candida albicans [AUTHORED m2-q28]
+micro2-q29 key=C  Normal flora of human oropharynx -> Viridans Streptococci [AUTHORED m2-q29, pending]
+micro2-q30 key=D  NOT typical acute IE symptom -> migratory polyarthritis (that is RF, not IE) [AUTHORED m2-q30]
+--- Source B essay (5/5 keyed, model answers p.10; not authored, out of scope) ---
+micro2-essay1 key=printed  Pathogenesis of subacute endocarditis
+micro2-essay2 key=printed  Virulence factor of S. epidermidis & S. Viridans
+micro2-essay3 key=printed  Treatment of endocarditis and prevention
+micro2-essay4 key=printed  Pathogenesis + clinical picture + diagnosis of myocarditis
+micro2-essay5 key=printed  Pathogenesis of rheumatic fever
+
+--- find-existing.mjs / direct-grep query log (Microbiology tranche) ---
+"infective endocarditis" -> 8 hits, including live claim/citation CLM/CIT-INF-311E67B2C55A90 and pending docs/import-ready/concept/ASU-INF-microbiology-concepts.md "Streptococcus viridans, part of normal oral flora, causes infective endocarditis after dental procedures" (CON-INF-2E4D9F498F4B12) -> reused via sparse pending-live overlay for micro1-q02/q17, micro2-q03/q29
+"rheumatic fever" -> 17 hits, 3 live concepts (CON-INF-2B28DE9528D471, CON-INF-C8230A1A39D4A9, CON-INF-311E67B2C55A90 -- the last already MUST-CVS-201-tagged by tranche 1) plus pending docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md "Benzathine penicillin prevents recurrent rheumatic fever" (CON-INF-D5C29272FC4BC9) -> all four reused (2 live sparse updates, 1 already-tagged direct reuse, 1 pending sparse overlay)
+"novobiocin" -> pending docs/import-ready/concept/ASU-INF-microbiology-concepts.md "Staphylococcus saprophyticus is differentiated from other coagulase-negative staphylococci by novobiocin resistance" (CON-INF-C0123F8DDE0DAA), definition already names S. epidermidis by contrast -> extended (not duplicated) for micro1-q04
+"myocarditis" -> 10 hits, none matching this tranche's specific facts (SYS-CVS-CONCEPT-T04's own myocarditis concept is "mimics ACS", a different fact) -> all myocarditis facts this tranche tests are new mints
+"coxsackie", "janeway lesions", "antistreptolysin", "jones criteria", "dextran biofilm", "picornaviridae", "prosthetic valve", "blood culture endocarditis", "corynebacterium diphtheriae" (for the myocarditis-complication fact specifically), "normal flora oropharynx", "glycocalyx medical device", "acute bacterial endocarditis", "empiric antibiotic coverage endocarditis" -> no hit on any of these specific facts -> new mints (31 of the 32 total; the 32nd, embolic-pattern S. aureus endocarditis, was minted alongside the IVDU-risk-factor S. aureus concept as a distinct facet)
+
+Tally: 60 MCQs triaged across both papers (30+30), 60/60 keyed, 45 authored (27 micro1 + 18 micro2), 15 held (3 intra-paper micro1 duplicates + 12 cross-paper duplicates, each with duplicate-of and a one-line reason), 10 essay questions triaged and logged out of scope (not authored). 38 concepts used by the 45 authored questions: 32 new mints, 4 live (2 pre-existing sparse updates this tranche wrote, 1 already MUST-CVS-201-tagged by tranche 1, all CON-INF-* rheumatic-fever family), 2 pending sparse-overlay reuses (Viridans/dental-IE and novobiocin/epidermidis, both ASU-INF), 1 more pending sparse-overlay reuse (penicillin RF prophylaxis, MUST's own FHB-102-2).
+
+--- Pathology CVS201 Questions (Final), tranche 6 (2026-09-02, lane 6, branch must-cvs201-author6) ---
+`Pathology/06 EOM Exams/EOM MCQs - Pathology CVS201 Questions (Final).pdf`, by Absalam101 & Shahd, src_67efbd148b42c6593611. Native-text (`pagetext.mjs status`: no garbled pages, no OCR needed). 19 actual pages (`mdls`/`pagetext.mjs status` both agree), not the 23 the tranche-2 inventory line estimated -- a source page-count discrepancy noted, not corrected. Intro page states "70 Questions (60 MCQs + 10 Essay Questions)"; confirmed exact: 60 MCQ on pp.1-16 with a single combined answer key printed on p.16 itself (not a separate key page), 10 essay questions on p.17 with model answers on pp.18-19. 60/60 MCQ keyed, 10/10 essay keyed. One source typo: Q23's options C and D are both printed "180 mmHg" (a duplication, not a real fourth distractor); the printed key (C) stands per LANE-CARD.md rule 2, noted in that question's author_notes rather than silently corrected.
+
+patho-q01 key=C  Massive asymmetrical LV/septal hypertrophy without dilatation -> hypertrophic cardiomyopathy [AUTHORED patho-q01, pending]
+patho-q02 key=C  Most common type of cardiomyopathy -> dilated [AUTHORED patho-q02, pending]
+patho-q03 key=C  Rigid/stiff myocardium, impaired diastolic filling -> restrictive cardiomyopathy [AUTHORED patho-q03, pending]
+patho-q04 key=B  Dilated cardiomyopathy microscopy -> myocyte thinning, interstitial fibrosis [AUTHORED patho-q04, pending]
+patho-q05 key=C  Restrictive cardiomyopathy causes EXCEPT -> viral infection (not a cause) [AUTHORED patho-q05, pending]
+patho-q06 key=B  Pericardial effusion from lymphatic-drainage obstruction -> transudative [AUTHORED patho-q06]
+patho-q07 key=B  Cardiac tamponade most commonly caused by -> malignant tumors [AUTHORED patho-q07, pending]
+patho-q08 key=B  "Bread and butter" pericarditis appearance -> fibrinous [AUTHORED patho-q08]
+patho-q09 key=C  TB pericarditis exudate is likely -> fibrinous and hemorrhagic [AUTHORED patho-q09]
+patho-q10 key=B  Constrictive pericarditis (Pick's disease) is a complication of -> suppurative pericarditis [AUTHORED patho-q10, pending]
+patho-q11 key=B  Hemopericardium causes death most likely via -> cardiac tamponade [AUTHORED patho-q11, pending]
+patho-q12 key=C  First grossly visible lesion in atherosclerosis -> fatty streak [AUTHORED patho-q12]
+patho-q13 key=C  Fatty streaks most commonly found in -> aortic valve and thoracic aorta [AUTHORED patho-q13]
+patho-q14 key=B  Basic lesion of atherosclerosis -> fibrous atheromatous plaque [AUTHORED patho-q14]
+patho-q15 key=B  Zone of the plaque with foam cells and cholesterol -> lipid zone [AUTHORED patho-q15]
+patho-q16 key=C  Complications of atherosclerosis EXCEPT -> hypertrophic cardiomyopathy (not a complication) [AUTHORED patho-q16]
+patho-q17 key=C  Limb claudication primarily due to atherosclerosis of -> popliteal artery [AUTHORED patho-q17]
+patho-q18 key=C  Hypertension defined as sustained BP above -> 140/90 mmHg [AUTHORED patho-q18, pending]
+patho-q19 key=C  Most common type of hypertension -> essential [AUTHORED patho-q19, pending]
+patho-q20 key=B  Cause of secondary hypertension -> Conn's syndrome [AUTHORED patho-q20, pending]
+patho-q21 key=B  Benign hypertension characterized by BP below -> 200/110 mmHg [AUTHORED patho-q21]
+patho-q22 key=B  Kidney in benign hypertension may show -> hyaline arteriolosclerosis [AUTHORED patho-q22]
+patho-q23 key=C  Malignant hypertension diastolic pressure above -> 180 mmHg (source prints "180 mmHg" for both C and D; key selects C) [AUTHORED patho-q23]
+patho-q24 key=C  Most common cause of death in benign hypertension -> congestive heart failure [AUTHORED patho-q24]
+patho-q25 key=B  Fibrinoid necrosis of arterioles characteristic of -> malignant hypertension [AUTHORED patho-q25]
+patho-q26 key=B  True aneurysm wall composed of -> complete vessel wall layers [AUTHORED patho-q26]
+patho-q27 key=B  Fusiform aneurysm involves -> entire circumference [AUTHORED patho-q27]
+patho-q28 key=B  Most common site for atherosclerotic aneurysm -> abdominal aorta [AUTHORED patho-q28]
+patho-q29 key=C  Dissecting aneurysm most associated with -> Marfan syndrome [AUTHORED patho-q29]
+patho-q30 key=B  Rasmussen aneurysm affects -> pulmonary artery in TB [AUTHORED patho-q30]
+patho-q31 key=A  Atherosclerosis occurs in which layer -> tunica intima [AUTHORED patho-q31]
+patho-q32 key=B  Complications of aneurysms EXCEPT -> improved blood flow (not a complication) [AUTHORED patho-q32]
+patho-q33 key=B  Takayasu arteritis typically affects -> women of childbearing age [AUTHORED patho-q33]
+patho-q34 key=C  Polyarteritis nodosa most commonly involves arteries of -> GIT [AUTHORED patho-q34]
+patho-q35 key=A  Hyperplastic arteriolosclerosis typically seen in -> malignant hypertension [AUTHORED patho-q35]
+patho-q36 key=A  Hyaline arteriolosclerosis characteristic of -> benign hypertension [AUTHORED patho-q36]
+patho-q37 key=B  Vignette, smoker+HTN+calf claudication -> atherosclerosis of popliteal artery [AUTHORED patho-q37]
+patho-q38 key=B  Vignette, 210/180 + retinal hemorrhages + renal impairment -> malignant hypertension [AUTHORED patho-q38]
+patho-q39 key=B  Vignette, TB history + distended neck veins + small quiet heart -> constrictive pericarditis [AUTHORED patho-q39, pending]
+patho-q40 key=C  Vignette, atherosclerosis + tearing back pain + hypotension -> dissecting aortic aneurysm [AUTHORED patho-q40]
+patho-q41 key=B  Vignette, fever + murmur + pulsating groin mass + Staph+ -> mycotic aneurysm [AUTHORED patho-q41]
+patho-q42 key=D  Order of death causes, benign hypertension -> CHF -> coronary infarction -> cerebral hemorrhage -> renal failure [AUTHORED patho-q42]
+patho-q43 key=A  Order of death causes, malignant hypertension -> renal failure -> heart failure -> coronary heart disease -> cerebral hemorrhage [AUTHORED patho-q43, pending]
+patho-q44 key=A  Lipid zone contains all EXCEPT -> collagen (not a lipid-zone component) [AUTHORED patho-q44]
+patho-q45 key=A  NOT a risk factor for atherosclerosis -> young age [AUTHORED patho-q45]
+patho-q46 key=D  Pre-eclampsia is associated with -> all of the above (first pregnancy, old age, diabetes) [AUTHORED patho-q46]
+patho-q47 key=D  Sleep apnea is a risk factor for -> all of the above (hypertension, stroke, heart attack) [AUTHORED patho-q47]
+patho-q48 key=C  Hyaline changes in arterioles due to deposition of -> abnormal protein [AUTHORED patho-q48]
+patho-q49 key=B  Pericarditis most likely to follow a penetrating chest wound -> suppurative [AUTHORED patho-q49]
+patho-q50 key=A  Constrictive pericarditis would NOT typically show -> cardiac hypertrophy [AUTHORED patho-q50, pending]
+patho-q51 key=B  Dystrophic calcification in atherosclerotic plaques leads to -> hardening of vessels [AUTHORED patho-q51]
+patho-q52 key=C  Atherosclerotic renal artery stenosis can lead to -> both hypertension and renal infarction [AUTHORED patho-q52]
+patho-q53 key=C  Feature of suppurative pericarditis -> purulent exudate [AUTHORED patho-q53]
+patho-q54 key=D  Malignant hypertension retinal findings include -> all of the above (hemorrhages, exudates, papilledema) [AUTHORED patho-q54]
+patho-q55 key=D  Hyaline arteriolosclerosis is seen in -> all of the above (malignant HTN, diabetes, elderly normotensives) [AUTHORED patho-q55]
+patho-q56 key=B  Saccular aneurysm involves -> part of circumference [AUTHORED patho-q56]
+patho-q57 key=C  Mycotic aneurysms most associated with -> infective endocarditis [AUTHORED patho-q57]
+patho-q58 key=B  Takayasu arteritis affects -> aorta and main branches [AUTHORED patho-q58]
+patho-q59 key=B  Descending aortic aneurysm bone erosion may cause -> back pain [AUTHORED patho-q59]
+patho-q60 key=A  NOT a typical microscopic feature of dilated cardiomyopathy -> myocyte hypertrophy (DCM shows thinning, not hypertrophy) [AUTHORED patho-q60, pending]
+--- Essay (10/10 keyed, model answers pp.18-19; not authored, out of scope) ---
+patho-essay1 key=printed  Define cardiomyopathy and list its three main types
+patho-essay2 key=printed  DCM gross/microscopic findings and functional impairment
+patho-essay3 key=printed  Cardiac tamponade definition and three causes
+patho-essay4 key=printed  Six types of pericarditis and one cause each
+patho-essay5 key=printed  Fatty streak vs fibrous atheromatous plaque, one site each
+patho-essay6 key=printed  Four complications of an atherosclerotic plaque
+patho-essay7 key=printed  Benign vs malignant hypertension, renal arteriolar change
+patho-essay8 key=printed  True aneurysm definition; fusiform vs saccular
+patho-essay9 key=printed  Three pathological zones of a fibrous atheromatous plaque
+patho-essay10 key=printed  Risk factors for atherosclerosis
+
+--- find-existing.mjs / direct-grep query log (Pathology tranche) ---
+"hypertrophic cardiomyopathy" -> pending docs/import-ready/concept/SYS-CVS-CONCEPT-T04.md (CON-CVS-D65416DBAEAA0E) -> reused, new pending-live overlay row
+"dilated cardiomyopathy" -> pending docs/MUST-Source-Imports/pending-live/MUST-CVS-201-concepts-overlay.md (CON-CVS-C531A645354244, already MUST-CVS-201-tagged by tranche 1) -> reused, no new overlay row, question only
+"restrictive cardiomyopathy", "restriction is a muscle problem" -> pending docs/import-ready/concept/SYS-CVS-CONCEPT-T04.md (CON-CVS-4A41D59159ED61) -> reused, new pending-live overlay row
+"cardiac tamponade" -> pending docs/MUST-Source-Imports/pending-live/MUST-CVS-201-concepts-overlay.md (CON-CVS-ABE9CE4B64FEF8, already MUST-CVS-201-tagged by tranche 1) -> reused, no new overlay row
+"constrictive pericarditis" -> pending docs/import-ready/concept/SYS-CVS-CONCEPT-T06.md, "Tuberculosis is a leading cause of constrictive pericarditis where it is endemic" (CON-CVS-E1FE73100F1688, aliases include "Constrictive pericarditis aetiology") -> extended (not duplicated) to cover Pick's-disease naming, the suppurative-pericarditis complication route and the small-quiet-heart/no-hypertrophy physiology; new pending-live overlay row
+"benign hypertension" -> no hit; "malignant hypertension" -> live docs/MUST-Source-Imports/concept/MUST-CVS-201-concepts.md (CON-CVS-8BFFDE83CC4617, already carries fibrinoid necrosis, onion-skin/hyperplastic change and the death-order fact) -> reused directly, no new record
+"atherosclerosis" bare, "atheromatous plaque", "hyaline arteriolosclerosis", "dissecting aneurysm", "mycotic aneurysm", "takayasu" (hit only the unrelated Year-3 SYS-CVS-CONCEPT-T08 record, a different disease), "polyarteritis nodosa" (hit only a Helwan BMS-102 pending-live triage gloss row, not a real concept record) -> no usable hit on any of these specific facts -> new mints
+"fatty streak", "atherosclerosis risk factors" (this same wording) -> live docs/MUST-Source-Imports/concept/MUST-CVS-201-concepts.md (CON-CVS-E87E4CDC5DE594, CON-CVS-F44EBF69D14F3B) -> reused directly, no new record
+"hypertension" bare (definition/secondary causes) -> pending docs/MUST-Source-Imports/pending-live/MUST-CVS-201-concepts-overlay.md (CON-CVS-F4BBA78E076D30, already MUST-CVS-201-tagged by tranche 1) -> reused, no new overlay row
+
+Tally: 70 items triaged (60 MCQ + 10 essay), 70/70 keyed. All 60 MCQs authored, 0 held -- this is the module's only Pathology MCQ source (the sibling Pathology paper, Dr. Maria's, is a short-answer/written compilation tranche 1 already authored; overlapping facts here are dual-sourced against the same concept, not held as duplicate-of, same call tranche 5's own precedent for an already-tagged concept makes). 10 essay questions triaged and keyed, not authored (out of scope). 24 concepts serve the 60 authored questions: 14 new mints, 6 pending reuses (3 already MUST-CVS-201-tagged by tranche 1 needing no new overlay row: DCM, tamponade, hypertension-definition; 3 needing a first MUST-CVS-201 pending-live overlay row this tranche: HCM, restrictive cardiomyopathy, constrictive pericarditis/SYS-CVS-CONCEPT-T06), 4 live-in-lane direct reuses (fibrinous pericarditis, fatty streak, atherosclerosis risk factors, malignant hypertension -- all already committed to concept/MUST-CVS-201-concepts.md by tranche 1, no pending-live dependency at all).
+
+--- Physiology tranche 8 (author8) -- Arterial BP remaining 11 items ---
+abp-q08 key=printed  Typical BP for a 4-year-old child: B) 100/65 mmHg
+abp-q09 key=printed  BP rise in females after 45: B) Hormonal changes
+abp-q10 key=printed  Factor elevating BP especially systolic: B) Strong emotions
+abp-q11 key=printed  Exercise BP change: C) Systolic increases, diastolic decreases
+abp-q12 key=printed  Hydrostatic effect per cm below heart: B) Increases by 0.77 mmHg
+abp-q26 key=printed  Atrial receptor stimulation by high CVP: C) Vasodilation and tachycardia (Bainbridge reflex)
+abp-q28 key=printed  Cutaneous pain receptor stimulation: C) Hypertension and tachycardia
+abp-q29 key=printed  Alam-Smirk reflex trigger: C) Proprioceptors
+abp-q30 key=printed  Brain centre for emotion/temperature BP rise: D) Hypothalamus
+abp-q32 key=printed  Capillary fluid shift on ABP drop: B) Fluid shifts tissues to capillaries
+abp-q38 key=printed  Excitatory receptor: A) Peripheral chemoreceptors
+
+--- Physiology tranche 8 (author8) -- Capillary Circulation & Oedema (20, full) ---
+cap-q01 key=printed  Generalised oedema, low plasma albumin: C) Decreased plasma colloidal osmotic pressure
+cap-q02 key=printed  Cirrhosis + positive fragility test, likely cause: B) Vitamin C deficiency
+cap-q03 key=printed  Precapillary sphincter relaxation trigger: B) Accumulation of metabolites
+cap-q04 key=printed  Edema can be caused by: A) Increased capillary hydrostatic pressure
+cap-q05 key=printed  Laplace law, capillary wall withstands pressure due to: C) Very small diameter
+cap-q06 key=printed  Spreading flare mechanism: C) Dilatation of arterioles via local axon reflex
+cap-q07 key=printed  Force absorbing fluid at venous end: C) Colloidal osmotic pressure of plasma proteins
+cap-q08 key=printed  DVT pitting oedema mechanism: C) Increased capillary hydrostatic pressure
+cap-q09 key=printed  Filtration at arterial end mainly due to: A) Hydrostatic pressure in capillaries
+cap-q10 key=printed  Factor decreasing capillary filtration rate: D) Decreased capillary water permeability
+cap-q11 key=printed  Mechanism most important for electrolyte exchange: A) Diffusion
+cap-q12 key=printed  White-line reaction mechanism: B) Constriction of precapillary sphincters
+cap-q13 key=printed  Nephrotic syndrome oedema mechanism: C) Decreased plasma colloidal osmotic pressure
+cap-q14 key=printed  Vesicular transport moves: C) Large molecules like proteins
+cap-q15 key=printed  Fate of unabsorbed arterial-end filtrate in health: B) Absorbed by lymphatic vessels
+cap-q16 key=printed  Elephantiasis pathophysiology: C) Lymphatic obstruction
+cap-q17 key=printed  Force decreasing 35->15 mmHg arterial to venous end: C) Hydrostatic capillary pressure
+cap-q18 key=printed  Bee-sting triple response wheal mediator: C) Histamine
+cap-q19 key=printed  Oedema cause via increased capillary hydrostatic pressure: B) Right-sided heart failure
+cap-q20 key=printed  Positive capillary fragility test causes: D) All of the above (purpura/scurvy/allergy)
+
+--- Physiology tranche 8 (author8) -- Shock (30, triaged only, not authored) ---
+shock-q01 key=printed  MVA, weak pulse, cold pale skin, low BP: C) Hypovolemic shock
+shock-q02 key=printed  Definition of circulatory shock: B) Inadequate tissue perfusion due to inadequate cardiac output
+shock-q03 key=printed  Rash, wheezing, sudden severe BP drop after bee sting: C) Anaphylactic shock
+shock-q04 key=printed  Rapid nervous compensatory mechanism in haemorrhagic shock: B) Stimulation of the vasoconstrictor centre
+shock-q05 key=printed  Oliguria in shock, primary reason: B) Vasoconstriction of renal vessels
+shock-q06 key=printed  Humoral factor from renal ischaemia, vasoconstriction + thirst: C) Angiotensin II
+shock-q07 key=printed  Discharge decreasing in haemorrhagic shock: D) A & B (arterial baroreceptors & atrial volume receptors)
+shock-q08 key=printed  Refractory shock, key splanchnic problem: B) Marked dilatation of capillaries
+shock-q09 key=printed  Normal blood volume, decreased peripheral resistance: B) Low Resistance Shock
+shock-q10 key=printed  Massive MI causing shock, mechanism: C) Impaired myocardial pumping action
+shock-q11 key=printed  NOT typical of haemorrhagic shock: A) Warm, flushed skin
+shock-q12 key=printed  Aldosterone compensation in shock: C) Promoting sodium retention
+shock-q13 key=printed  Cerebral blood flow maintained in compensatory shock because: B) Cerebral vessels are not constricted
+shock-q14 key=printed  Septic shock hypotension primarily due to: B) Bacterial endotoxins
+shock-q15 key=printed  RBC mass restoration after haemorrhagic shock takes: C) 4-8 weeks
+shock-q16 key=printed  Recommended general treatment for shock: B) Restoration of blood volume with fluids/blood products
+shock-q17 key=printed  Vasopressin increases BP in acute haemorrhage by: A) Acting on V1 receptors to cause vasoconstriction
+shock-q18 key=printed  Cardiac tamponade risk, shock type: C) Obstructive
+shock-q19 key=printed  Primary cause of acidosis in advanced shock: B) Tissue hypoxia
+shock-q20 key=printed  Neurogenic shock, severe emotions lead to: B) Vasodilation in skeletal muscle and bradycardia
+shock-q21 key=printed  Compensatory mechanism for tissue fluid shift restoring plasma volume: A) Increased capillary hydrostatic pressure forcing fluid into vessels [printed key as read; note: mechanism direction as printed, not independently re-derived]
+shock-q22 key=printed  Why give glucocorticoids in shock: B) To decrease capillary permeability
+shock-q23 key=printed  Irreversible shock positive feedback "deadly" because: B) Progressive self-perpetuating decrease in cardiac output and BP
+shock-q24 key=printed  Restless/apprehensive in shock due to: A) Action of catecholamines on the brain
+shock-q25 key=printed  Vessel type dilated in compensatory phase for O2 demand: C) Coronary vessels
+shock-q26 key=printed  Initial rapid correction of plasma proteins after shock: B) Addition of pre-formed albumin to the blood
+shock-q27 key=printed  Massive PE causing obstructive shock because: B) Right ventricle's output is obstructed
+shock-q28 key=printed  Direct effect of Angiotensin II: B) Arteriolar vasoconstriction
+shock-q29 key=printed  Shock type with high death percentage: A) Refractory shock
+shock-q30 key=printed  Supine position with elevated legs purpose: B) To help venous return to the heart
+
+--- find-existing.mjs / direct-grep query log (Physiology tranche 8) ---
+"physiological variation blood pressure age" -> no hit -> new mint
+"blood pressure menopause" -> no hit (hits were reproductive/gynaecology menopause records, different scope) -> new mint
+"strong emotions blood pressure" -> no hit -> new mint
+"exercise effect on blood pressure" -> no hit -> new mint
+"hydrostatic effect on arterial pressure" -> no hit; bare "hydrostatic" grep hits are all Starling-forces/oedema/lung-fluid records, none about the vertical-distance BP correction -> new mint
+"Bainbridge reflex" -> pending docs/Menoufia-Source-Imports/concept/MU-MED105-concepts.md (CON-CVS-5419DA4CEFDBB6) -> reused, new overlay row
+"cutaneous pain receptor pressor reflex" -> no hit -> new mint
+"Alam-Smirk reflex" -> no hit -> new mint
+"hypothalamus emotion temperature blood pressure center" -> no hit -> new mint
+"capillary fluid shift blood pressure drop" -> no hit -> new mint
+"chemoreceptors excitatory baroreceptors inhibitory" -> no hit -> new mint
+"hypoproteinemia edema decreased plasma colloidal osmotic pressure" -> no hit; grep "edema causes classification" -> pending docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md (CON-CVS-6D8E2D62A9F51E, already MUST-CVS-201-tagged by tranche 1) -> reused, extended existing overlay row (covers cap-q01/q04/q08/q13/q16/q19)
+"capillary fragility test vitamin C scurvy" -> no hit -> new mint
+"precapillary sphincter metabolites relaxation" -> no hit; grep "precapillary sphincter" -> pending docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md (CON-CVS-56A68328FD03C7, local blood-flow autoregulation, already MUST-CVS-201-tagged by tranche 7) -> reused, extended existing overlay row (covers cap-q03)
+"Laplace law capillary wall pressure" -> no hit; grep "laplace" -> only alveolar-surface-tension and aneurysm-expansion records, different application of the same law -> new mint
+"electrolyte diffusion capillary exchange mechanism" / "vesicular transport capillary large molecules" -> pending docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md (CON-CVS-D3D1AF25EFA406) -> reused, new overlay row (covers cap-q11, cap-q14)
+"white-line reaction stroking skin" -> no hit -> new mint
+"skin flare reaction axon reflex" -> no hit by that exact phrase; "triple response" alias hit docs/MUST-Source-Imports/concept/MUST-CVS-201-concepts.md (CON-CVS-7F05227FE0970F, own lane, tranche 7) -> reused directly, definition extended to add the wheal/histamine fact (covers cap-q06, cap-q18)
+"excess filtered fluid returns via lymphatics" -> no hit -> new mint
+Starling-forces venous/arterial-end absorption/filtration query ("force absorbing fluid venous end", "filtration arterial end capillary") -> pending docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md (CON-CVS-98657F1E7D300D) -> reused, new overlay row (covers cap-q07, cap-q09, cap-q10, cap-q17)
+
+Tally: 91 items triaged this tranche (11 ABP + 20 Capillary + 30 Shock triage-only + 30 Coronary/Pulmonary NOT triaged), 91/91 keyed where triaged. 31 authored (11 ABP + 20 Capillary), 0 held. 30 Shock keyed but not authored (queued next pass). 18 concepts serve the 31 authored questions: 12 new mints, 3 first-tag pending overlay rows (Bainbridge, Starling forces, diffusion/vesicular), 2 extended-existing pending overlay rows (oedema-determinants from tranche 1, local autoregulation from tranche 7), 1 extended own-lane live concept (skin flare/triple response from tranche 7, now covering both flare and wheal).

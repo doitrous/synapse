@@ -133,3 +133,104 @@ Live-hit rate (6/36 = 17%) and pending-hit rate (18/36 = 50%) together account f
 material -- consistent with the expectation that Year-1 body-structure/function
 ideas mostly overlap what other universities' Year 1 lanes have already triaged or
 authored.
+
+## `BOS final exam 20-21 (o6u bot).PDF` -- triaged, verdict: NO PRINTED KEY (held, do not author)
+
+29 pages, 0 native words (fully garbled scan) -- OCR'd in full (`pagetext.mjs ocr --pages
+1-29`, dpi 300, psm 6, all 29 pages readable, no page needed a render for text recovery).
+One page (p1) was rendered to verify the OCR reading of the answer-marker glyph
+(`/tmp/o6u-final-render/5c0d2bbd-p1.png`, discarded after verification, not committed).
+
+**Verdict**: this file is a Microsoft-Forms PDF export of **one specific respondent's own
+completed exam attempt** ("Hi Ahmed, when you submit this form, the owner will be able to
+see your name and email address," printed once per page as MS Forms' standard per-respondent
+privacy notice), not an official/graded answer key. Every MCQ and True/False item shows
+exactly one filled radio button -- OCR renders it as `©`/`@)` (filled) against `O` (empty) --
+and the free-text SAQ section (pages 13-14) carries the same respondent's own typed answers.
+Render of page 1 confirmed the OCR reading is accurate: the filled button next to "The bond
+holds primary protein structure is hydrophobic bond" is **true**, which is a plain error
+(primary structure is held by peptide/covalent bonds, not hydrophobic bonds).
+
+At least three of the respondent's marked answers are demonstrably wrong against
+undergraduate-level fact, found without rendering every page (this is not an exhaustive
+error audit -- the true error rate could be higher, since it was not searched for):
+
+1. **p1 Q2** -- "The bond holds primary protein structure is hydrophobic bond" -- marked
+   **true**. Primary structure is held by peptide (covalent) bonds; hydrophobic bonds
+   stabilise tertiary structure. Render-verified (see above).
+2. **p11** (case) -- "...diagnosed as anaphylactic shock. mast cell is suspected to be
+   responsible for this condition" -- marked **false**. Mast cells (IgE-mediated histamine
+   release) are the textbook cause of anaphylaxis; this should be true. The same respondent
+   repeats the error in the matching free-text SAQ on **p14** ("Can you suspect the cell
+   responsible for this condition?" answered "Pericites" [sic] instead of mast cells).
+3. **p28** -- "Engulfment of solid material by cell membrane is called Facilitated diffusion"
+   -- marked **true**. Engulfment of solid material is phagocytosis; facilitated diffusion is
+   passive transport of small solutes down a gradient via a carrier protein. Should be false.
+
+A fourth item is questionable but not certain: **p23**, a Fehling/Benedict's-type reducing-
+sugar test marked "negative with **Mannose**" -- mannose is a reducing sugar (should test
+positive); sucrose (a non-reducing disaccharide, also an option on the same page) is the
+textbook "negative" answer, but the image this OSPE item depends on was not rendered to
+confirm which specific test/options applied, so this is flagged, not asserted, as a fourth
+error.
+
+Per chief-of-staff ruling (2026-09-02): "the marked radio buttons are one respondent's
+answers, not a printed key, so `BOS final exam 20-21` is an UNKEYED source. Do not author
+from it and do not invent editorial keys." **No concepts minted, no articles written, no
+questions authored from this file.** Nothing in `coverage/seeds/O6U-IBS-IBF/` cites it.
+
+### Full question inventory (for the next author who might reopen this file)
+
+Paper structure, all on Moodle/MS-Forms single-best-answer or true/false format unless
+noted: **I-MCQ** 25 items (1 point each, pp1-9) · **II-Cases** 5 clinical-vignette items (2
+points each, pp9-11, image-free) · one MRI/joint-type item pair (p11-12, image-dependent) ·
+**III-SAQ** 4 free-text items (3 points each, pp13-14, not MCQ-shaped, no options to key) ·
+**IV-OSPE** ~25 image-dependent single-best-answer items (1 point each, pp14-24, histology
+slides/bone specimens/biochemical test photos -- none of the underlying images were rendered,
+since the no-key verdict was already reached from the text-only items) · **V-Oral** ~15
+true/false items (pp25-29).
+
+| # | Section | Stem (short) | Respondent's marked answer | Assessment |
+|--:|---|---|---|---|
+| 1 | I-MCQ | Ventral ramus contains which fibers | Mixed | matches fact |
+| 2 | I-MCQ | Bond holding primary protein structure is hydrophobic (T/F) | True | **wrong** (peptide bond) |
+| 3 | I-MCQ | Adipose cell is the most common CT cell (T/F) | False | matches fact |
+| 4 | I-MCQ | Junction preventing passage of material between cells | Tight junction | matches fact |
+| 5 | I-MCQ | In pronation, palm not facing posterior (T/F) | False | matches fact |
+| 6 | I-MCQ | Amphoteric = carry equal opposite charges (T/F) | True | matches fact |
+| 7 | I-MCQ | Right lymphatic duct does not drain | Left upper limb | matches fact |
+| 8 | I-MCQ | Correct statement on membrane transport | Active transport needed against gradient | matches fact |
+| 9 | I-MCQ | Ganglia acting only for parasympathetic | Terminal | matches fact (OCR also flagged "paravertebral", read as noise) |
+| 10 | I-MCQ | Articular surface of long bone covered by | Hyaline cartilage | matches fact |
+| 11 | I-MCQ | Responsible for healing of bones | Periosteum | plausible |
+| 12 | I-MCQ | A fixed connective tissue cell | Fibroblasts | matches fact |
+| 13 | I-MCQ | Is not an end artery | Uterine | matches fact |
+| 14 | I-MCQ | Muscarinic receptors stimulated by | Neostigmine | matches fact (indirect agonist) |
+| 15 | I-MCQ | Paramedian plane divides body into equal halves (T/F) | False | matches fact |
+| 16 | I-MCQ | Simple cuboidal epithelium present in trachea (T/F) | False | matches fact |
+| 17 | I-MCQ | A type of connective tissue proper | Adipose tissue | matches fact |
+| 18 | I-MCQ | Site of noradrenaline release | Postganglionic sympathetic nerve endings to heart | matches fact |
+| 19 | I-MCQ | Left cervical sympathetic lesion causes | Miosis on the left side | matches fact (Horner's; OCR also flagged "pale skin left", read as noise) |
+| 20 | I-MCQ | Glands are rich in lymph vessels (T/F) | True | plausible |
+| 21 | I-MCQ | Does not receive parasympathetic supply via vagus | Rectum | matches fact |
+| 22 | I-MCQ | Histidine is not a branched ketogenic amino acid (T/F) | True | matches fact |
+| 23 | I-MCQ | Rootlets of cilium contain | 9 microtubules | plausible (textbook-dependent phrasing) |
+| 24 | I-MCQ | Simple squamous epithelium present in lung bronchioles (T/F) | False | matches fact |
+| 25 | I-MCQ | Melanin is chromometalloprotein (T/F) | True | contested/ambiguous (OCR flagged both true and false) |
+| 26 | II-Case | Celiac disease damages which part of lining epithelium | Microvilli | matches fact (same fact as live `CON-GIT-9D697B22B63080`, already authored by lane 1) |
+| 27 | II-Case | Cigarette smoking damages which part of lining epithelium | Cilia | matches fact |
+| 28 | II-Case | Drug to relieve bronchoconstriction | Sympathomimetic drug | matches fact |
+| 29 | II-Case | Mast cell responsible for anaphylactic shock (T/F) | False | **wrong** (mast cells cause anaphylaxis) |
+| 30 | II-Case | MRI slipped-disc joint type | Secondary cartilaginous | plausible (intervertebral disc) |
+| 31-32 | II-Case | Two further joint-type T/F items, image-dependent | true/false (illegible OCR on option labels) | not assessed -- image not rendered |
+| 33-36 | III-SAQ | Free-text: non-essential AA, primary amine, simple protein, AA rich in glutamic acid, semi-essential AA | (typed list, several plausible) | not MCQ-shaped, no key to recover |
+| 37-39 | III-SAQ | Free-text: vagus action on respiratory/heart/stomach, adrenergic receptor types | (typed list) | not MCQ-shaped |
+| 40 | III-SAQ | Free-text: types of bones + example each | (typed list) | not MCQ-shaped |
+| 41-43 | III-SAQ | Free-text: cell responsible for anaphylaxis + substances + mechanism | "Pericites" / "Muscrine or Pilocarpine or Metacholine" / "parasympathetic stimulants" | **wrong** on item 1 (mast cells, not "Pericites"); items 2-3 also do not match textbook mast-cell mediators (histamine, not muscarinic agonists) |
+| 44-~70 | IV-OSPE | ~25 image-dependent items: anatomical planes, bones/joints, muscle types, Golgi position/stain, tissue fibers/stains, epithelium type/location, organelle ID, biochemical spot tests (Fehling/iodine/Molisch/Seliwanoff), osmotic fragility | various | not assessed -- every item depends on an unrendered image; one (test "negative with Mannose", see above) flagged as likely wrong |
+| ~71-85 | V-Oral | ~15 true/false items: adrenaline receptor selectivity, parasympathetic dominance at rest, sympathomimetics for asthma, beta-receptor action, lingual artery tortuosity, thoracic duct drainage side, brainstem/cerebellum relationship, shoulder labrum, phagocytosis-vs-facilitated-diffusion, lysosome/heterolysosome terminology, mother cell of CT cells, blood-cell staining, leucine/helix, calcitonin/protein, glycine/aromaticity | mostly matches fact | 1 confirmed wrong (facilitated diffusion, see above); "mother cell of CT cells is Macrophages" marked false correctly (fibroblast is the true mother cell); "heterolysosome" and "supravital stain" items are terminology calls, not assessed |
+
+Net: even excluding the unassessed image-dependent OSPE block, at least 3 of ~46 text-only
+items carry a demonstrably wrong marked answer (~6.5%), consistent with a diligent but
+imperfect individual respondent rather than a graded/verified key. This closes triage on
+this file; no further work on it without a new ruling.

@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-monosaccharides",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'biochemistry-monosaccharides'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Carbohydrates"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-monosaccharides",
+      "id": "QST-SCUFBS102-S2-BIOCHEMISTRY-ABO-SUGARS-B",
+      "title": "The sugar type that determines ABO antigen specificity",
+      "question": "What is the primary type of carbohydrate molecules that determine the ABO blood group antigens on the red blood cell surface?",
+      "options": {
+        "A": "The complex disaccharides",
+        "B": "Monosaccharides",
+        "C": "The branched polysaccharides",
+        "D": "Large stored glycogen molecules"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Disaccharides (two linked sugar units, like lactose or sucrose) are not what determines ABO antigen specificity.",
+        "B": "Correct. While the ABO antigen as a whole is a branched oligosaccharide chain, blood-group specificity is set by which single further monosaccharide a person's own glycosyltransferase adds onto the shared H-antigen core: an extra N-acetylgalactosamine gives the A antigen, an extra galactose gives the B antigen, and no further addition leaves the O phenotype. So the primary carbohydrate TYPE that determines specificity — the one differing residue a transferase enzyme adds — is a monosaccharide.",
+        "C": "Incorrect. Polysaccharides are long chains of many repeating monosaccharide units (like glycogen or starch), a different scale of molecule from the single terminal sugar that sets ABO specificity.",
+        "D": "Incorrect. Glycogen is the body's storage polysaccharide of glucose, unrelated to red-cell surface antigen specificity."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Carbohydrate biochemistry",
+      "main_concept": "CON-FND-8AE0C43FCB08FC",
+      "concept_ids": [
+        "CON-FND-8AE0C43FCB08FC"
+      ],
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.4,
+      "reasoning_level": 2,
+      "inferred_difficulty": 35,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.4,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-BIOCHEM-MOLECULAR-BASICS"
+      ],
+      "learning_objective": "State that a single terminal monosaccharide determines ABO antigen specificity.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q3 (also Formative 2023 Q3)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q3 / 2023 Q3; source-JSON extraction. Lane 2's deferred candidate: the only candidate concept found (CON-FND-4128FE1AD6819C) calls the ABO antigens oligosaccharides, which reads as contradicting this printed key at face value. A correctly-scoped concept (CON-FND-8AE0C43FCB08FC) was minted instead of overlaying the mismatched one, stating both facts together (see that concept's own conflicts field) and shared with the biochemistry-five-sugars question above, which tests the same underlying fact from a different angle."
+      }
+    }
+  ]
+}

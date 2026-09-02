@@ -182,3 +182,120 @@ Q88, Q89, Q90) place by mechanism/organ per the same section's placement rules.
   Arabic-titled pathology MCQ bank) are queued as the next MPT triage sources --
   none of these needed OCR, so they are cheaper to triage than this final exam was.
   Not started this pass (budget went to key recovery + first authoring batch).
+
+## S3b -- `All Quizzes MPT 2022.pdf` triage (second author lane)
+
+Second AUN-MPT-104 author lane's scope, per its dispatch: do not spend more
+budget on the final's 45 still-unmarked rows above; instead triage and author
+from the fully text-native quiz bank. Source: `Year 1/MPT/_Telegram 64
+Newer/All Quizzes MPT 2022.pdf`, confirmed 0 garbled / 212p / 26,705 words
+(`pagetext.mjs status`) and 0 visually-marked keys (`pagetext.mjs keys`,
+correctly reports 0 -- this file needs no circle/highlight reading at all).
+
+**What this file actually is:** a Moodle "quiz attempt review" export, one
+printed page range per quiz, each ending every option block with a literal
+`The correct answer is: <option text>` line -- the review copy prints the
+right answer as plain text on every single question, no visual key-reading
+needed. `pagetext.mjs grep "<pdf>" "The correct answer is"` returns exactly
+441 hits across all 212 pages; `pagetext.mjs grep "<pdf>" "^ *Question \d+"`
+also returns 441, one-to-one. **441/441 questions carry a printed, unambiguous
+key (100%).**
+
+**Structure:** 52 separate quizzes, one per lecture, `Lecture N: <topic>
+Quiz N` as the page-1 header of each section (`pagetext.mjs grep "<pdf>"
+"^Lecture \d+|^Home" --ignore-case` recovers all 52 -- 19 headers keep the
+lecture name on the grep-matched physical line, the other 33 wrap the name
+onto the next physical line, caught separately by the `^Lecture \d+` pattern).
+Question numbering restarts at 1 within each quiz (not global) -- quiz
+boundaries were segmented programmatically off that reset, then cross-checked
+against the 52 header pages; both methods agree exactly (52 quizzes, 441
+questions, page starts identical). The lecture list alternates Pathology and
+Pharmacology one-for-one for all 52 lectures (odd lecture number = Pathology,
+even = Pharmacology) -- this is the MPT-104 "Mechanisms and Principles of
+Disease and Therapy" combined-track curriculum, not a triage artefact. Full
+52-row lecture/quiz/page/key-range map: `coverage/AUN-MPT-104-triage-keys.txt`
+(machine-readable, one key per line) plus the summary table below.
+
+| quiz | track | lecture topic | start page | Qs | global keys |
+|--:|---|---|--:|--:|---|
+| 1 | Pathology | Introduction of pathology | 1 | 7 | q001-q007 |
+| 2 | Pharmacology | Introduction to Pharmacology | 5 | 9 | q008-q016 |
+| 3 | Pathology | Cell injury its mechanism | 10 | 5 | q017-q021 |
+| 4 | Pharmacology | Drug receptors, signaling mechanisms and drug action | 13 | 15 | q022-q036 |
+| 5 | Pathology | Necrosis and apoptosis | 20 | 10 | q037-q046 |
+| 6 | Pharmacology | Receptor Regulation and Variation in Drug Responsiveness | 25 | 9 | q047-q055 |
+| 7 | Pathology | Cellular accumulations: cloudy swelling, hydropic degeneration and fatty changes | 30 | 5 | q056-q060 |
+| 8 | Pharmacology | Adverse drug reaction | 33 | 12 | q061-q072 |
+| 9 | Pathology | Cellular accumulations: Amyloidosis, hyalinosis and pathological calcification | 39 | 5 | q073-q077 |
+| 10 | Pharmacology | Pharmacokinetics 1 (Absorption & distribution) | 41 | 14 | q078-q091 |
+| 11 | Pathology | Cellular adaptation 1 | 46 | 3 | q092-q094 |
+| 12 | Pharmacology | Pharmacokinetics 2 (Metabolism & excretion) | 48 | 12 | q095-q106 |
+| 13 | Pathology | Cellular adaptation 2 | 53 | 2 | q107-q108 |
+| 14 | Pharmacology | Pharmacokinetics variables 1 | 54 | 10 | q109-q118 |
+| 15 | Pathology | Inflammation: definition and causes | 58 | 5 | q119-q123 |
+| 16 | Pharmacology | Pharmacokinetics variables 2 | 60 | 11 | q124-q134 |
+| 17 | Pathology | Acute inflammation: mechanisms and formation of fluid exudate | 64 | 3 | q135-q137 |
+| 18 | Pharmacology | Introduction to Autonomic Nervous System | 66 | 13 | q138-q150 |
+| 19 | Pathology | Acute suppurative inflammation | 71 | 6 | q151-q156 |
+| 20 | Pharmacology | Parasympathetic nervous system (Agonists) 1 | 74 | 12 | q157-q168 |
+| 21 | Pathology | Acute non suppurative inflammation | 79 | 2 | q169-q170 |
+| 22 | Pharmacology | Parasympathetic nervous system (Agonists) 2 | 80 | 12 | q171-q182 |
+| 23 | Pathology | Chronic inflammation definition and types | 85 | 3 | q183-q185 |
+| 24 | Pharmacology | Parasympathetic nervous system (Antagonists) | 87 | 12 | q186-q197 |
+| 25 | Pathology | Granuloma: types and mechanisms | 92 | 9 | q198-q206 |
+| 26 | Pharmacology | Sympathetic nervous system (agonists) 1 | 97 | 7 | q207-q213 |
+| 27 | Pathology | Tissue repair: types and mechanisms | 101 | 8 | q214-q221 |
+| 28 | Pharmacology | Sympathetic nervous system (agonists) 2 | 106 | 7 | q222-q228 |
+| 29 | Pathology | Tissue repair: Factors affecting and complications | 110 | 5 | q229-q233 |
+| 30 | Pharmacology | Sympathetic nervous system (antagonists) 1 | 114 | 11 | q234-q244 |
+| 31 | Pathology | Heamodynamic disorders: Hyperemia, congestion and thrombosis | 119 | 8 | q245-q252 |
+| 32 | Pharmacology | Sympathetic nervous system (antagonists) 2 | 124 | 5 | q253-q257 |
+| 33 | Pathology | Heamodynamic disorders: Embolism, ischemia and infarction | 128 | 20 | q258-q277 |
+| 34 | Pharmacology | Autacoids 1 | 136 | 6 | q278-q283 |
+| 35 | Pathology | Heamodynamic disorders: Gangrene, heamorhage and edema | 140 | 21 | q284-q304 |
+| 36 | Pharmacology | Autacoids 2 | 149 | 6 | q305-q310 |
+| 37 | Pathology | Neoplasia: definition and classification | 153 | 6 | q311-q316 |
+| 38 | Pharmacology | Autacoids 3 | 157 | 6 | q317-q322 |
+| 39 | Pathology | Neoplasia: characters of benign and malignant | 161 | 6 | q323-q328 |
+| 40 | Pharmacology | Introduction to Antimicrobial therapy | 165 | 7 | q329-q335 |
+| 41 | Pathology | Neoplasia: Mechanisms of spread of malignant tumors | 169 | 9 | q336-q344 |
+| 42 | Pharmacology | Antimicrobial therapy 1 | 172 | 8 | q345-q352 |
+| 43 | Pathology | Neoplasia: Routes of spread of malignant tumors | 175 | 6 | q353-q358 |
+| 44 | Pharmacology | Antimicrobial therapy 2 | 178 | 5 | q359-q363 |
+| 45 | Pathology | Etiology of cancers and laboratory diagnosis | 180 | 19 | q364-q382 |
+| 46 | Pharmacology | Commonly used Antiviral / antihelmintics / antiprotozoal 1 | 186 | 7 | q383-q389 |
+| 47 | Pathology | Benign epithelial tumors classification and examples | 189 | 9 | q390-q398 |
+| 48 | Pharmacology | Commonly used Antiviral / antihelmintics / antiprotozoal 2 | 192 | 7 | q399-q405 |
+| 49 | Pathology | Malignant epithelial tumors classification and examples | 195 | 9 | q406-q414 |
+| 50 | Pharmacology | Anticancer & Immunomodulator 1 | 199 | 5 | q415-q419 |
+| 51 | Pathology | Mesenchymal tumors: benign, malignant and developmental tumors | 202 | 17 | q420-q436 |
+| 52 | Pharmacology | Anticancer & Immunomodulator 2 | 210 | 5 | q437-q441 |
+
+**Keys file:** `coverage/AUN-MPT-104-triage-keys.txt` lists all 441 rows as
+`quizzes-2022-q<NNN>  # Lec<i>.Q<n> p<page> [<track>] <lecture topic> --
+<stem excerpt>`. The `quizzes-2022-q<NNN>` token (before the `#` comment) is
+the literal seed `key` used in `coverage/seeds/AUN-MPT-104/quizzes-2022.json`
+-- `ledger.mjs` strips everything from `#` onward before comparing, so
+authored/held/remaining reconciles exactly against this file (unlike the
+final-2022 triage keys above, which are free text and never string-match a
+seed's short `key`, so that ledger table's "remaining" column is not a
+reliable count -- noted here so a future lane does not repeat it).
+
+**Renders: 0.** No page in this file needed `render` or `ocr` -- fully
+native text throughout, no visually-marked keys, only literal "correct
+answer is" text.
+
+**First authoring batch (this lane, S3b):** quizzes 1-4 (q001-q036, Lectures
+1-4: Introduction of pathology / Introduction to Pharmacology / Cell injury
+its mechanism / Drug receptors & drug action) -- see
+`coverage/seeds/AUN-MPT-104/quizzes-2022.json`. Remaining 405 questions
+(quizzes 5-52) are triaged (keyed, page-mapped, concept-searchable) but not
+yet authored -- queued for the next batch/lane, in `quizzes-2022-q037`
+onward per the keys file.
+
+## `INI MCQ .pdf` -- out of scope for this module
+
+`Year 1/INI/INI MCQ .pdf` (132p, 25,488 words, 0 garbled) is listed under
+`AUN-INI-105`, not `AUN-MPT-104`, in `coverage/AUN-Y1-priority-sources.md`'s
+per-module source tables ("second-largest clean INI source"). Confirmed not
+triaged or authored here; left for an `AUN-INI-105` lane.

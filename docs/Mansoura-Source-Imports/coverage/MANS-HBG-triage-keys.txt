@@ -1,0 +1,62 @@
+# MANS-HBG — recovered answer keys, Phase-0 sample
+# Format: <source sourceId> :: <internal question #> :: <key> :: <one-line stem>
+# Method: "render" = full-page render of a scanned bank (no embedded text layer at
+#           all, so pagetext.mjs keys/OCR cannot recover the printed key column —
+#           confirmed by direct visual read of a right-hand answer-letter column).
+#           Reliable — same page image both gives the stem/options (cross-checked
+#           against the OCR text) and the printed key.
+
+## src_168d0f3dc020c263b89d (Histo Previous MCQ Exams Final.pdf) — "دفعة 63 Exams" block, p.2-9, printed key column, render
+Q1  :: E :: succinic dehydrogenase enzyme marker = mitochondria
+Q2  :: E :: organelle causing basophilia of cytoplasm = ribosomes
+Q3  :: A :: Ca release/reuptake in muscle cells = smooth ER
+Q4  :: D :: organelle for initial glycosylation of protein = RER
+Q5  :: A :: cleavage furrow during cell division formed by actin
+Q6  :: A :: sperm tail structure = 9 peripheral doublets + 2 singlets of microtubules
+Q7  :: C :: endogenous pigment = hemoglobin
+Q8  :: B :: synapsis occurs at zygotene stage of meiosis
+Q9  :: B :: chromosome number in G1 of interphase = 46-s
+Q10 :: B :: terminal end of chromatid = telomere
+Q11 :: C :: female with one X chromosome = Turner's syndrome
+Q12 :: D :: site of simple columnar ciliated epithelium = uterus
+Q13 :: E :: endocrine gland among list = pituitary gland
+Q14 :: E :: direct ion passage between osteocytes = gap junctions
+Q15 :: D :: CT cell stained vitally by trypan blue = macrophages
+Q16 :: A :: autosome pairs in human buccal epithelial cell = 22 pairs
+Q17 :: D :: organelle identified by acid phosphatase activity = lysosomes
+Q18 :: A :: organelle responsible for cholesterol metabolism = smooth ER
+Q19 :: E :: daughter cell of 1st meiosis contains 23-d chromosomes
+Q20 :: B :: most common chromosomal abnormality in human = Down's syndrome
+
+## src_168d0f3dc020c263b89d — "دفعة 63 Exams" block continued, p.6-9, printed key column, render
+Q21 :: D :: male Cri-du-chat karyotype = 46,XY,5p-
+Q22 :: A :: character of epithelium = highly innervated
+Q23 :: B :: cells originating from blood monocytes = macrophages
+Q24 :: D :: CT proper in sclera of eye = irregular white fibrous
+Q25 :: E :: site of multipolar neurons = sympathetic ganglia
+Q26 :: A :: astrocytes — true statement = important for nutrition of neurons
+Q27 :: E :: skin barrier layer = granular layer
+Q28 :: D :: part responsible for hair growth = hair matrix
+Q29 :: C :: merocrine sweat glands — true statement = open on skin surface
+Q30 :: E :: powerhouse of the cell = mitochondria
+Q31 :: A :: origin of primary lysosomes = Golgi apparatus
+Q32 :: B :: protein forming thick filaments = myosin
+Q33 :: B :: crossing over occurs at pachytene stage of prophase 1
+Q34 :: A :: structural chromosomal aberration = Cri-du-chat
+Q35 :: D :: simple cubical epithelium — true statement = shows central rounded nuclei
+Q36 :: D :: stain special for elastic fibers = Verhoeff's
+Q37 :: C :: CT cell that secretes antibodies = plasma cells
+Q38 :: A :: bipolar nerve cell processes = one dendrite and one axon
+Q39 :: D :: function of oligodendrocytes = myelin production in CNS
+Q40 :: A :: epidermis layer showing mitotic figures = basal cell layer
+
+## Not yet triaged this pass (flagged, not silently skipped)
+# src_168d0f3dc020c263b89d p.10-38 (Q41 onward, further "دفعة" exam blocks — the
+#   header on p.20 shows a second block, "دفعة 61 Exams", starting mid-file) —
+#   OCR'd (words=128-210/page, all readable) and spot-shown via `pagetext.mjs show`
+#   for p.20-22 and p.36-38 to confirm the pattern holds (same 5-option format,
+#   same right-hand key-column layout, no True/False or diagram items seen), but
+#   not individually rendered/keyed this pass.
+# src_75e3a10915ca69686e11 (Histo MCQ Formatives + Exams Final.pdf) — status-checked
+#   (36/36 pages fully scanned, no text layer) but not OCR'd/rendered this pass;
+#   file-level triage only (see MANS-HBG-triage.md).

@@ -1,0 +1,204 @@
+urs303-gur-q0001	no-options-inline-answer	Anatomy	Nerve supply to kidney: celiac plexus
+urs303-gur-q0002	no-options-inline-answer	Anatomy	Left gonadal: in Left renal vein
+urs303-gur-q0003	no-options-inline-answer	Anatomy	Anterior relation to uterus: superior surface of urinary bladder
+urs303-gur-q0004	no-options-inline-answer	Anatomy	Ovarian fossa is in lateral wall
+urs303-gur-q0005	no-options-inline-answer	Anatomy	Deep perineal pouch in female contain: external urethral sphincter
+urs303-gur-q0006	no-options-inline-answer	Anatomy	Urachal cyst case
+urs303-gur-q0007	no-options-inline-answer	Anatomy	Branch of lumbar plexus: Genitofemoral
+urs303-gur-q0008	no-options-inline-answer	Anatomy	Anterior branch of internal iliac artery: Superior vesical
+urs303-gur-q0009	no-options-inline-answer	Anatomy	Branch of sacral plexus: superior gluteal
+urs303-gur-q0010	no-options-inline-answer	Anatomy	Anterior relation of right kidney: descending duodenum
+urs303-gur-q0011	no-options-inline-answer	Anatomy	Posterior angle of perineum is: tip of coccyx
+urs303-gur-q0012	no-options-inline-answer	Anatomy	Inferior rectal is in: ischiorectal fossa
+urs303-gur-q0013	no-options-inline-answer	Anatomy	Pudendal canal is in: the fascia of obturator internus
+urs303-gur-q0014	no-options-inline-answer	Anatomy	Psoas major nerve supply: L1-L3
+urs303-gur-q0015	no-options-inline-answer	Anatomy	Ileococcygeal is attached to a part of tendinous arch
+urs303-gur-q0016	no-options-inline-answer	Anatomy	Lymphatic drainage of the ovaries: Para-aortic nodes
+urs303-gur-q0017	no-options-inline-answer	Anatomy	Base of UB is related to: seminal vesicles
+urs303-gur-q0018	no-options-inline-answer	Anatomy	Mesonephric tubules in female: paroophoron
+urs303-gur-q0019	no-options-inline-answer	Anatomy	Definitive kidney: metanephric tissue
+urs303-gur-q0020	no-options-inline-answer	Anatomy	Primordial germ cells: yolk sac endo
+urs303-gur-q0021	no-options-inline-answer	Anatomy	Breast Lymph drainage: ipsilateral & contralateral parasternal
+urs303-gur-q0022	no-options-inline-answer	Anatomy	Prostate: posterior lobe has glandular tissue
+urs303-gur-q0023	no-options-inline-answer	Anatomy	Prostatic urethra: is the most wide & dilated
+urs303-gur-q0024	no-options-inline-answer	Anatomy	Vas deferens is lateral to: inferior epigastric
+urs303-gur-q0025	no-options-inline-answer	Anatomy	Testis is surrounded by: tunica albuginia
+urs303-gur-q0026	no-options-inline-answer	Physio	When glucose in plasma increase ore than Tm: increased excretion
+urs303-gur-q0027	no-options-inline-answer	Physio	renal threshold: 180
+urs303-gur-q0028	no-options-inline-answer	Physio	Net filtration pressure: 10
+urs303-gur-q0029	no-options-inline-answer	Physio	GFR= 120 / RPF= 25
+urs303-gur-q0030	no-options-inline-answer	Physio	When k increase: increased secretion in DCT
+urs303-gur-q0031	no-options-inline-answer	Physio	Leydig: testosterone
+urs303-gur-q0032	no-options-inline-answer	Physio	Acrosomal cap
+urs303-gur-q0033	no-options-inline-answer	Physio	Water and urea reabsorption: PCT
+urs303-gur-q0034	no-options-inline-answer	Physio	Dilution in Thick ascending limb d2 permeability to salt and impermeability to water
+urs303-gur-q0035	no-options-inline-answer	Physio	Na/K/2Cl out of lumen
+urs303-gur-q0036	no-options-inline-answer	Physio	Increased RPF & GFR by: afferent diatation
+urs303-gur-q0037	no-options-inline-answer	Physio	Which is absorbed totally: protein
+urs303-gur-q0038	no-options-inline-answer	Physio	What substance indicate renal problem: glucose
+urs303-gur-q0039	no-options-inline-answer	Physio	Epo def: earthy look
+urs303-gur-q0040	no-options-inline-answer	Physio	Filtration then absorption then secretion
+urs303-gur-q0041	no-options-inline-answer	Physio	Macula densa secrete vasoactive substances
+urs303-gur-q0042	no-options-inline-answer	Physio	Where do ADH work DCT & CD
+urs303-gur-q0043	no-options-inline-answer	Histo	Seminal vesicles: secretory granules
+urs303-gur-q0044	no-options-inline-answer	Histo	Myometrium: interwoven muscle fibers figure 8 + large arteries
+urs303-gur-q0045	no-options-inline-answer	Histo	Menstrual phase thickness: 0.5 mm
+urs303-gur-q0046	no-options-inline-answer	Histo	Spermatid: non dividable
+urs303-gur-q0047	no-options-inline-answer	Histo	Spermatogenesis: spermatogonia to spermatid
+urs303-gur-q0048	no-options-inline-answer	Histo	Cervical neoplasia: transformation zone
+urs303-gur-q0049	no-options-inline-answer	Histo	Prostate cancer: main acini
+urs303-gur-q0050	no-options-inline-answer	Histo	Renin granules are found in: modified sooth muscles "Juxtaglomerular granular cells"
+urs303-gur-q0051	no-options-inline-answer	Histo	Sertoli function: nutrition
+urs303-gur-q0052	no-options-inline-answer	Histo	Membranous urethra: stratified columnar
+urs303-gur-q0053	no-options-inline-answer	Histo	Capacitation start in: epididymis
+urs303-gur-q0054	no-options-inline-answer	Histo	Superficial functional layer is supplied by: Spiral arteries
+urs303-gur-q0055	no-options-inline-answer	Histo	Vaginal acidity is due to: Glycogen metabolism
+urs303-gur-q0056	no-options-inline-answer	Histo	2ry oocyte found in: mature graafian follicle
+urs303-gur-q0057	no-options-inline-answer	Histo	Tubuli recti has: Straight tubules + Sertoli cells
+urs303-gur-q0058	no-options-inline-answer	Histo	Breast in resting state is: small ducts and inactive
+urs303-gur-q0059	no-options-inline-answer	Bio	ADA deficiency case
+urs303-gur-q0060	no-options-inline-answer	Bio	Allopurinol & methotrexate MOA
+urs303-gur-q0061	no-options-inline-answer	Bio	HGPRT def: Lesh neyhan
+urs303-gur-q0062	no-options-inline-answer	Bio	Uric acid is the final product
+urs303-gur-q0063	no-options-inline-answer	Bio	Ribonucleate reductase cofactor: NADPH
+urs303-gur-q0064	no-options-inline-answer	Bio	Glycine: 2C & 1N
+urs303-gur-q0065	no-options-inline-answer	Micro	Gonno case: IgA protease is a virulence factor
+urs303-gur-q0066	no-options-inline-answer	Micro	Gonnococci repeated infection: Superficial nature of infection so IgG has little protective action.
+urs303-gur-q0067	no-options-inline-answer	Micro	Germ tube formation: candida
+urs303-gur-q0068	no-options-inline-answer	Micro	CMV: owl eye
+urs303-gur-q0069	no-options-inline-answer	Micro	Atypical pneumonia: Chlamydophila pneumoniae
+urs303-gur-q0070	no-options-inline-answer	Micro	Mycoplasma: resistant to cell wall inhibitors
+urs303-gur-q0071	no-options-inline-answer	Micro	Anaerobes cause endogenous infection
+urs303-gur-q0072	no-options-inline-answer	Micro	20% of Hospital acquired infections: pseudomonas
+urs303-gur-q0073	no-options-inline-answer	Micro	Variation between E.coli: lactose
+urs303-gur-q0074	no-options-inline-answer	Micro	Sacral ganglia latency of: HSV 2
+urs303-gur-q0075	no-options-inline-answer	Micro	Heterophil Ab +ve: EBV
+urs303-gur-q0076	no-options-inline-answer	Micro	Non-treponemal antigen tests: RPR
+urs303-gur-q0077	no-options-inline-answer	Micro	Elementary body: enter cells
+urs303-gur-q0078	no-options-inline-answer	Micro	AMSELS criteria: Gardnerella vaginalis "bacterial vaginosis"
+urs303-gur-q0079	no-options-inline-answer	Micro	If a man has zoster infects a boy the boy will have: Chicken pox
+urs303-gur-q0080	no-options-inline-answer	Micro	EHEC: verotoxin
+urs303-gur-q0081	no-options-inline-answer	Pharma	Na/Cl channel: Thiazide
+urs303-gur-q0082	no-options-inline-answer	Pharma	Glucoma: Acetazole
+urs303-gur-q0083	no-options-inline-answer	Pharma	Gynecomastia: Spironolactone
+urs303-gur-q0084	no-options-inline-answer	Pharma	Mild to moderate HTN: thiazide
+urs303-gur-q0085	no-options-inline-answer	Pharma	Loop diuretics chronic use cause: Ototoxicity
+urs303-gur-q0086	no-options-inline-answer	Pharma	Trimetrene works in absence of aldosterone
+urs303-gur-q0087	no-options-inline-answer	Pharma	Amiloride can't be used in people on K supplements All came from the CBL except
+urs303-gur-q0088	no-options-inline-answer	Patho	Case about mastitis in lactating female
+urs303-gur-q0089	no-options-inline-answer	Patho	Case about invasive ductal carcinoma in 55y old female
+urs303-gur-q0090	no-options-inline-answer	Patho	Case about Childhood PKD: autosomal recessive
+urs303-gur-q0091	no-options-inline-answer	Patho	Case TURP: relief BPH Other cases from Our year CBL Urinary
+urs303-gur-q0092	no-options-inline-answer	Patho	Case 15
+urs303-gur-q0093	no-options-inline-answer	Patho	Case 19: but asking about diagnosis “staghorn”
+urs303-gur-q0094	no-options-inline-answer	Patho	Case 25: but asking about diagnosis “urothelial carcinoma” Male
+urs303-gur-q0095	no-options-inline-answer	Patho	Case 3 Female
+urs303-gur-q0096	no-options-inline-answer	Patho	Case 1
+urs303-gur-q0097	no-options-inline-answer	Patho	Case 18: but asking about diagnosis “PCOS”
+urs303-gur-q0098	no-options-inline-answer	Patho	Case 20 and mentioned 69xxy: so answer was partial hydatiform
+urs303-gur-q0099	no-options-inline-answer	Patho	Case 21: asking about diagnosis “ectopic pregnancy”
+urs303-phase-q0001	no-options-inline-answer	Anatomy	Content of epidural space in spinal cord? internal venous plexus
+urs303-phase-q0002	no-options-inline-answer	Anatomy	Anterior cruciate ligament ascends posteriorly.
+urs303-phase-q0003	no-options-inline-answer	Anatomy	Surface anatomy of aortic valve? 3rd space
+urs303-phase-q0004	no-options-inline-answer	Anatomy	Which of the following is from the tributaries of inferior mesenteric vein: superior rectal vein
+urs303-phase-q0005	no-options-inline-answer	Anatomy	Cavernous sinus is connected to internal jugular vein by: inferior petrosal plexus
+urs303-phase-q0006	no-options-inline-answer	Anatomy	Axilla: anterior surface is made of the lateral part of pectoralis major
+urs303-phase-q0007	no-options-inline-answer	Anatomy	Uterus anterior relation is the superior surface of urinary bladder
+urs303-phase-q0008	no-options-inline-answer	Anatomy	Which of the following is matched correctly: SMA in mesentery proper
+urs303-phase-q0009	no-options-inline-answer	Anatomy	Kidney post relation is psoas major
+urs303-phase-q0010	no-options-inline-answer	Anatomy	Superior thyroid artery is a branch of? External carotid
+urs303-phase-q0011	no-options-inline-answer	Anatomy	Ovarian vein drain in left renal vein
+urs303-phase-q0012	no-options-inline-answer	Anatomy	Tibialis anterior nerve supply? Deep fibular
+urs303-phase-q0013	no-options-inline-answer	Anatomy	Which of the following hold the neck of UB in place? Pubovesical ligament
+urs303-phase-q0014	no-options-inline-answer	Anatomy	Which of the following is true about lungs? Both are supplied by bronchial arteries
+urs303-phase-q0015	no-options-inline-answer	Anatomy	Which of the following is the first branch of the aortic arch? Brachiocephalic truck
+urs303-phase-q0016	no-options-inline-answer	Anatomy	Primary auditory area is located in? Superior temporal gyrus
+urs303-phase-q0017	no-options-inline-answer	Anatomy	Posterior cord of brachial plexus give? Radial n.
+urs303-phase-q0018	no-options-inline-answer	Anatomy	Pituitary gland: posterior lobe is called neurohypophysis
+urs303-phase-q0019	no-options-inline-answer	Anatomy	Maternal part? Decidua basalis
+urs303-phase-q0020	no-options-inline-answer	Physio	Insulin resistance is: hyperglycemia despite insulin secretion
+urs303-phase-q0021	no-options-inline-answer	Physio	K channel blocking drug cause B cell depolarization due to shifting of RMP away from K equilibrium
+urs303-phase-q0022	no-options-inline-answer	Physio	Insulin deficiency- K extracellular shift
+urs303-phase-q0023	no-options-inline-answer	Physio	Back injury - loss of motor in lt leg leads to: loss of temp/vibr/pinprick of rt - negative Babinski’s and normal patellar reflex in rt - hyperreflexia and positive Babin
+urs303-phase-q0024	no-options-inline-answer	Physio	Tetany - inc IC Ca
+urs303-phase-q0025	no-options-inline-answer	Physio	Smallest bronchi not greatest airway resistance cuz parallel arrangement leads to dec total resistance
+urs303-phase-q0026	no-options-inline-answer	Physio	Steps of excitation contraction coupling: Action potential then t tubules then ca release
+urs303-phase-q0027	no-options-inline-answer	Physio	Cross-bridge detachment by: binding of ATP to myosin
+urs303-phase-q0028	no-options-inline-answer	Physio	Intracellular signaling for actin binding site activation: inc IC Ca
+urs303-phase-q0029	no-options-inline-answer	Physio	Man came from car injury losing a lot of blood what is the expected CVS response (vasoconstriction and increase TPR, dec COP, dec contractility w a fourth wrong answer)
+urs303-phase-q0030	no-options-inline-answer	Physio	Man with htns and hypercholesterolemia - dec in pulse pressure, dec COP ,‫غالبا دي‬dec TPR, dec serum NA levels
+urs303-phase-q0031	no-options-inline-answer	Physio	E.F. “ 0.6
+urs303-phase-q0032	no-options-inline-answer	Physio	Cycle duration 0.8
+urs303-phase-q0033	no-options-inline-answer	Physio	COPD fev1/fvc = 65-75%
+urs303-phase-q0034	no-options-inline-answer	Physio	Calculation of stroke volume with COP 5000ml and HR 100 (SV=50)
+urs303-phase-q0035	no-options-inline-answer	Physio	SMC and SkM share: inc in IC Ca for excitation contraction coupling
+urs303-phase-q0036	no-options-inline-answer	Physio	Physiological jaundice in neonates is due to immature liver enzymes not being able to process uroblinogen
+urs303-phase-q0037	no-options-inline-answer	Physio	Pursed lips to inc airway pressure and prevent reversal of transmural pressure to prevent airway collapse
+urs303-phase-q0038	no-options-inline-answer	Physio	Blood type that causes hydrops fetalis ( jaundice….etc) Rh- mother and rh+ baby
+urs303-phase-q0039	no-options-inline-answer	Bio	What type of jaundice is characterized by increased bile salts in serum: obstructive jaundice
+urs303-phase-q0040	no-options-inline-answer	Bio	What type of jaundice is characterized by clay stool and dark urine: post-hepatic jaundice.
+urs303-phase-q0041	no-options-inline-answer	Bio	What type of jaundice is characterized by increases AST and ALT: hepatic jaundice
+urs303-phase-q0042	no-options-inline-answer	Bio	what type of jaundice is characterized by increased urobilinogen: hemolytic jaundice
+urs303-phase-q0043	no-options-inline-answer	Bio	Cigler Najjar syndrome is characterized by the affection of which enzyme; UDP' glucouronosyl transferase
+urs303-phase-q0044	no-options-inline-answer	Bio	The cause of hypertriglyceridemia in diabetic ketoacidosis: lipoprotein lipase deficiency
+urs303-phase-q0045	no-options-inline-answer	Bio	Physiological jaundice
+urs303-phase-q0046	no-options-inline-answer	Bio	The pathway that give the substrate needed for metabolic acidosis: beta oxidation of fatty acids
+urs303-phase-q0047	no-options-inline-answer	Bio	Action of statin: inhibition of the rare liming enzyme in cholesterol metabolism
+urs303-phase-q0048	no-options-inline-answer	Bio	The action of Ezetimibe: inhibition of cholesterol absorption.
+urs303-phase-q0049	no-options-inline-answer	Bio	The defective enzyme in MODY: glucokinase
+urs303-phase-q0050	no-options-inline-answer	Bio	A test of diabetes mellitus for the preceding weeks: HBA1C
+urs303-phase-q0051	no-options-inline-answer	Bio	Which of the following is an indicator of diabetes mellites: fasting blood glucose > 126
+urs303-phase-q0052	no-options-inline-answer	Bio	Which of the following anti insulin hormones work in dka: glucagon
+urs303-phase-q0053	no-options-inline-answer	Histo	The lining epithelium of trachea: pseudostratified columnar epithelium.
+urs303-phase-q0054	no-options-inline-answer	Histo	The name of the collection of lymphatic nodules in the lamina propria: payer's patches
+urs303-phase-q0055	no-options-inline-answer	Histo	The lining epithelium of the duodenum: simple columnar epithelium with goblet cells
+urs303-phase-q0056	no-options-inline-answer	Histo	Invagination of the cell membrane enclosing extracellular fluid: pinocytosis.
+urs303-phase-q0057	no-options-inline-answer	Histo	Which of the following is true concerning the cell membrane: it contains 2 layers of phospholipids.
+urs303-phase-q0058	no-options-inline-answer	Histo	Which of the following is true about cell coat: composed of glycoproteins and glycolipids
+urs303-phase-q0059	no-options-inline-answer	Histo	Which of the following act as receptors: integral proteins.
+urs303-phase-q0060	no-options-inline-answer	Histo	Which of the following is multilobed: neutrophils
+urs303-phase-q0061	no-options-inline-answer	Histo	What is true concerning osteoclast: found in howships lacunae
+urs303-phase-q0062	no-options-inline-answer	Histo	Which one carry nerve impulses to the cell body: dendrites
+urs303-phase-q0063	no-options-inline-answer	Family	Rheumatic fever major criteria: migratory arthritis of several joints
+urs303-phase-q0064	no-options-inline-answer	Family	Mild elevation in bilirubin: reassurances
+urs303-phase-q0065	no-options-inline-answer	Family	Meningitis: brudzinski's
+urs303-phase-q0066	no-options-inline-answer	Family	Rheumatoid arthritis case
+urs303-phase-q0067	no-options-inline-answer	Family	infantile jaundice (physiological >24h)
+urs303-phase-q0068	no-options-inline-answer	Micro	Transmitted by fecooral route and causes High mortality in pregnant women: HEV
+urs303-phase-q0069	no-options-inline-answer	Micro	An indicator of high infectivity of the patient and if he is highly contagious: HBeAg
+urs303-phase-q0070	no-options-inline-answer	Micro	Which of the following has a vaccine: HBV ( other choices were HCV,HEV,HGV)
+urs303-phase-q0071	no-options-inline-answer	Micro	A person with poliomyelitis. What is the mode of transmission: fecooral.
+urs303-phase-q0072	no-options-inline-answer	Micro	Which of the following is a characteristics of Hemophilus influenza: invasive diseases are highly associated with capsulated Strains
+urs303-phase-q0073	no-options-inline-answer	Micro	The CSF of a meningitic patient: high protein content
+urs303-phase-q0074	no-options-inline-answer	Micro	A man had an accident, and his eye lens entered the circulation what will happen?: endophthalmitis due to autoimmune reactions.
+urs303-phase-q0075	no-options-inline-answer	Micro	Which of the following is a systemic mechanism of tissue damage in autoimmune diseases: rheumatoid arthritis.
+urs303-phase-q0076	no-options-inline-answer	Para	Pathogenesis of giardia: fat soluble vitamin deficiency.
+urs303-phase-q0077	no-options-inline-answer	Para	Complications of entamoeba histolytica: liver abscess.
+urs303-phase-q0078	no-options-inline-answer	Para	Early complication of Schistosoma: urinary tract infection.
+urs303-phase-q0079	no-options-inline-answer	Para	Cause of recrudescence in plasmodium falciparum: presence of low grade parasitemia with lowered immunity.
+urs303-phase-q0080	no-options-inline-answer	Para	Best diagnosis for toxoplasma: serological diagnosis
+urs303-phase-q0081	no-options-inline-answer	Patho	Cushing ulcer
+urs303-phase-q0082	no-options-inline-answer	Patho	Case about ulcerative colitis
+urs303-phase-q0083	no-options-inline-answer	Patho	Diabetic microangiopathy (Arteriosclerosis)
+urs303-phase-q0084	no-options-inline-answer	Patho	Case about chronic bronchitis
+urs303-phase-q0085	no-options-inline-answer	Patho	Case about small cell carcinoma
+urs303-phase-q0086	no-options-inline-answer	Patho	Case about mitral stenosis and asking for the cause rheumatic endocarditis
+urs303-phase-q0087	no-options-inline-answer	Patho	Case about mi: troponin I
+urs303-phase-q0088	no-options-inline-answer	Patho	Case about rheumatoid arthritis
+urs303-phase-q0089	no-options-inline-answer	Patho	Case about minimal change
+urs303-phase-q0090	no-options-inline-answer	Patho	Case about the most common malignant tumor and multiple in the brain: metastatic
+urs303-phase-q0091	no-options-inline-answer	Pharma	Drug antidiarrheal: Diphenoxylate.
+urs303-phase-q0092	no-options-inline-answer	Pharma	Drug causes macrocytic anemia: Metformin
+urs303-phase-q0093	no-options-inline-answer	Pharma	Sulfonylureas is augmented by? Sulphonamide
+urs303-phase-q0094	no-options-inline-answer	Pharma	Inhibition of insulin release? Verapamil
+urs303-phase-q0095	no-options-inline-answer	Pharma	Side effect of insulin (Hypokalemia)
+urs303-phase-q0096	no-options-inline-answer	Pharma	Which drug family does rosiglitazone belong to? thiazolidines
+urs303-phase-q0097	no-options-inline-answer	Pharma	Which is a gLP1 analogue ? exenatide
+urs303-phase-q0098	no-options-inline-answer	Pharma	One of the main effects of insulin ? inhibition of gluconeogenesis
+urs303-phase-q0099	no-options-inline-answer	Pharma	DKA give? Regular insulin
+urs303-phase-q0100	no-options-inline-answer	Pharma	We use insulin temporarily in: NIDDM with stress such as infection
+urs303-final-p02	ocr-sample-no-key	Anatomy	Round ligament of uterus / bladder venous plexus / vas deferens item (see HU-URS-303-triage.md; no answer key exists in file)
+urs303-final-p03	ocr-sample-no-key	Anatomy	16 numbered pelvic-anatomy recollection items (ureter/ovary/perineum/testis); no options confirmed complete, no key
+urs303-final-p05	ocr-sample-no-key	Anatomy	4 items (testicular artery origin, ureter crossing, kidney relations, prostatic sinus) plus Arabic-shorthand fragment; no key
+urs303-final-p06	ocr-sample-no-key	Histology	~16 mixed English/Arabizi recall items (urothelium, spermiogenesis, placenta, ovary); no key
+urs303-final-remainder	untriaged	all	pages 1,4,7,10,14,15,17,18,20-24 not OCR'd this pass (render-cap budget reserved; see triage.md walls); p25 is source links, not an answer key

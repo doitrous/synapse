@@ -1,0 +1,73 @@
+{
+  "lane": "ASU-HCB",
+  "cluster": "cell",
+  "header": "ASU-HCB · Cell biology — all 46 questions of the ASU HCB Dr. Hegazy cell-biology MCQ bank (\"Cell MCQ set2\", sourceId src_6c35f6fae7691b0bdcc8), native text, keys read from the printed answer key table at the foot of PDF page 8. 43 of the 46 questions reuse existing pending Kasr 101-ISK (or 108-INT) cytology/pathology concepts via a sparse overlay (pending-live/ASU-HCB-cell-mcq-overlay-concepts.md) after a per-concept find-existing.mjs search; the remaining 3 (constitutive/regulated secretion, tubular mitochondrial cristae, phase-contrast microscopy) had no existing match and are minted fresh in concept/ASU-HCB-cell-mcq-concepts.md with a matching new article. See coverage/ASU-HCB-triage.md block A for the source triage.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-HCB",
+    "module_subject": "ASU-HCB > Histology > Questions > Cell biology",
+    "exam_weight_by_year": {
+      "ASU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-101-HIS-THE-CELL"
+    ],
+    "resource_ids": [
+      "src_6c35f6fae7691b0bdcc8"
+    ],
+    "source_citation": "Cell MCQ set2 (Dr. Hegazy), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "cell-q41",
+      "page": 7,
+      "title": "How the outer membrane leaflet differs from the inner",
+      "question": "Outer aspect cell membrane differs from inner aspect in the presence of….",
+      "options": {
+        "A": "peripheral proteins.",
+        "B": "cholesterol molecules.",
+        "C": "integral membrane proteins.",
+        "D": "receptors. (glyco-calyx = cell coat)",
+        "E": "phospholipids."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Peripheral proteins are found on both faces of the membrane (commonly on the inner/cytoplasmic side attaching cytoskeletal elements), not a feature unique to the outer leaflet.",
+        "B": "Incorrect. Cholesterol is distributed within the lipid bilayer generally, not a feature that specifically distinguishes the outer aspect from the inner.",
+        "C": "Incorrect. Integral membrane proteins span the whole bilayer and are shared by both leaflets, not exclusive to the outer aspect.",
+        "D": "Correct. The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid on the external surface of the plasma membrane and on that surface only — it is what carries the cell's specific receptors (for drugs, hormones, bacteria and viruses) and mediates adhesion, recognition and immunity. Because the carbohydrate side chains that form the glycocalyx and its receptors are added only to the outer leaflet's proteins and lipids, the outer aspect of the membrane specifically differs from the inner aspect in carrying these receptors. This outer-only glycocalyx/receptor asymmetry is the specific structural fact this question is testing.",
+        "E": "Incorrect. Phospholipids form both leaflets of the bilayer (with only a difference in the specific phospholipid species between leaflets, not their presence), so \"phospholipids\" alone is not the outer-versus-inner distinguishing feature being tested."
+      },
+      "main_concept": "CON-FND-F2237ED98E88F3",
+      "concept_ids": [
+        "CON-FND-F2237ED98E88F3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell membrane",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the outer membrane leaflet, unlike the inner, carries the glycocalyx and its receptors.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-THE-CELL"
+      ]
+    }
+  ]
+}

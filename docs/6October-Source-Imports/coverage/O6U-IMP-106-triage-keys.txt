@@ -1,0 +1,42 @@
+# O6U-IMP-106 -- MIP final exam + Micro q bank T/F page, triage keys
+# Format: <key> # <short description> (per ledger.mjs comment-stripping lesson -- only the bare key must survive)
+
+mip-mixed-q01 # Defective virus needs a helper virus for productive multiplication
+mip-mixed-q02 # Taenia solium is cosmopolitan wherever pork is eaten
+mip-mixed-q03 # Normal flora antagonize other bacteria via bacteriocin
+mip-mixed-q04 # Continuous cell culture nature: immortalized tumour cell lines
+mip-mixed-q05 # Dealing with a patient under droplet precaution: mask in close contact
+mip-mixed-q06 # Snail control prevents schistosomiasis
+mip-mixed-q07 # Light microscopy is not used for direct viral examination
+mip-mixed-q08 # Phlebotomus (sandfly) transmits leishmaniasis
+mip-mixed-q09 # Thermometer Spaulding classification: semi-critical item
+mip-mixed-q10 # Taenia saginata diagnostic stage: egg and gravid segment
+mip-mixed-q11 # Taenia saginata mode of infection: undercooked beef
+mip-mixed-q12 # Fleas are vectors of plague
+mip-mixed-q13 # Fungal cell wall component: chitin
+mip-mixed-q14 # Entamoeba histolytica infective stage: mature cyst
+mip-mixed-q15 # Correct pathogenesis step order: exposure, adhesion, invasion, infection
+mip-mixed-q16 # Entamoeba histolytica prevention: avoiding barefoot walking is not relevant
+mip-mixed-q17 # Giardia lamblia infective stage: mature cyst
+mip-mixed-q18 # Housefly (Musca domestica) mechanically transmits amoebiasis
+mip-mixed-q19 # Egg in urine is diagnostic of Schistosoma haematobium
+mip-mixed-q20 # Cryptosporidium parvum infective stage: oocyst
+mip-mixed-q21 # Cercaria is the infective stage of Schistosoma haematobium
+mip-mixed-q22 # Probiotics definition: confer a beneficial health effect
+mip-mixed-q23 # Dimorphic fungi: mould at room temperature, yeast at body temperature
+mip-mixed-q24 # Convalescent carrier definition
+mip-mixed-q25 # Trichinosis is prevented by proper cooking of pork
+mip-mixed-q26 # Superinfection definition
+mip-mixed-q27 # Hands should always be washed with antiseptic soap in hospital
+mip-mixed-q28 # TB spreads by sharing air for prolonged periods with an infectious person
+mip-mixed-q29 # Wearing gloves does not eliminate the need to wash hands
+mip-mixed-q30 # Hospital GI-pathogen transmission via catering faults e.g. poultry defrosting
+
+# Held (see coverage/O6U-IMP-106-triage.md) -- kept in -qNN form so ledger.mjs groups
+# them into the mip-mixed cluster instead of minting one fake cluster per hold.
+mip-mixed-q31 # DNA virus usual shape -- marked "helical", contradicts fact (icosahedral)
+mip-mixed-q32 # Helical nucleocapsid found "primarily in DNA viruses" -- contradicts fact (RNA viruses)
+mip-mixed-q33 # Parasite not needing soil -- marked "Ascaris lumbricoides", contradicts fact (Enterobius vermicularis)
+mip-mixed-q34 # Vignette: small whitish worm-like in stool, eggs negative -- marked "Myiasis", alternative option OCR-illegible, key unrecoverable
+mip-mixed-q35 # Abscess formation virulence factor -- marked "collagenase" both times seen, coagulase at least as textbook-standard, not independently settled
+mip-mixed-q36 # Schistosomiasis-prevention vignette stem split across a page break, unrecoverable; same fact covered by mip-mixed-q06 instead

@@ -1,0 +1,1634 @@
+{
+  "lane": "MANS-AEP",
+  "cluster": "anatomy-terms-and-osteology-basics",
+  "header": "MANS-AEP · Anatomy — anatomical terminology (Lecture 1) and osteology basics (Lecture 2), authored from AEP Full Exams (VIP).pdf, the compiled Anatomy question bank (p.4-13), printed answer-column keys.",
+  "defaults": {
+    "subject": "msk",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "mans"
+    ],
+    "years": [
+      "MANS_Y1"
+    ],
+    "module": "MANS-AEP",
+    "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Anatomical terminology",
+    "exam_weight_by_year": {
+      "MANS_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_68a72cf039eada5508f3"
+    ],
+    "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (1) \"Terms\"/\"Anatomy Terminology\", p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q01",
+      "page": 4,
+      "title": "Direction of the palm in the anatomical position",
+      "question": "In the normal anatomical position, what is the direction of the palm of the hand?",
+      "options": {
+        "A": "Medial",
+        "B": "Posterior",
+        "C": "Anterior",
+        "D": "Superior",
+        "E": "Lateral"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Medial describes nearness to the median plane, not the direction a surface faces, so it does not answer what direction the palm points in.",
+        "B": "Incorrect. Posterior is the opposite of the actual answer — in the anatomical position the palm faces the front of the body, not the back.",
+        "C": "Correct. The anatomical position is defined with the upper limbs hanging by the sides and the palms facing forwards, which is the anterior direction. This deliberate rotation of the forearm into full supination is the one part of the position that is not simply how a person naturally stands, which is exactly why examiners test it. Every other term of position in the body is then stated as though the body were fixed in this reference posture.",
+        "D": "Incorrect. Superior means towards the head, a direction along the long axis of the body, not the direction the palm surface faces.",
+        "E": "Incorrect. Lateral means away from the median plane; in the anatomical position it is the thumb, not the palm, that is described as pointing laterally."
+      },
+      "main_concept": "CON-MSK-D193498AB94D21",
+      "concept_ids": [
+        "CON-MSK-D193498AB94D21"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the anatomical position has the palms facing anteriorly (forwards).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.4"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q02",
+      "page": 5,
+      "title": "Term meaning towards the head",
+      "question": "Which of the following anatomical terms means towards the head of the body?",
+      "options": {
+        "A": "Caudal",
+        "B": "Cranial",
+        "C": "Deep",
+        "D": "Superficial",
+        "E": "Anterior"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Caudal is the opposite pairing — it means towards the tail end, i.e. towards the feet, not the head.",
+        "B": "Correct. Cranial is a synonym for superior and means towards the head end of the body. It is used interchangeably with superior along the long axis of the trunk, and is the standard alternative wording examiners use for the same relation. Its opposite, caudal, means towards the feet.",
+        "C": "Incorrect. Deep means further from the skin surface, an inward relation, not a relation along the head-to-foot axis.",
+        "D": "Incorrect. Superficial means nearer the skin surface, also unrelated to the head-to-foot axis.",
+        "E": "Incorrect. Anterior means towards the front of the body, a front-to-back relation, not a head-to-foot one."
+      },
+      "main_concept": "CON-MSK-A0C1F50FABDC0F",
+      "concept_ids": [
+        "CON-MSK-A0C1F50FABDC0F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify cranial as the term meaning towards the head, synonymous with superior.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.5"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q03",
+      "page": 5,
+      "title": "Plane dividing the body into unequal right and left parts",
+      "question": "Which anatomical plane divides the body into two unequal parts: right and left?",
+      "options": {
+        "A": "Coronal plane.",
+        "B": "Midsagittal plane.",
+        "C": "Parasagittal plane.",
+        "D": "Transverse plane.",
+        "E": "Oblique plane."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The coronal plane is vertical but divides the body into anterior and posterior parts, not right and left.",
+        "B": "Incorrect. The midsagittal (median) plane also runs right-to-left, but it passes exactly through the midline, so the two halves it leaves are equal, not unequal.",
+        "C": "Correct. A parasagittal plane is any plane parallel to the median plane but offset from the midline. Because it is off-centre it still divides the body into a right and a left part, but the two parts are unequal in size. This is exactly what distinguishes it from the true midsagittal plane, which gives equal halves.",
+        "D": "Incorrect. The transverse (horizontal) plane divides the body into superior and inferior parts, not right and left.",
+        "E": "Incorrect. An oblique plane runs at an angle to the three standard planes and is not one of the three named anatomical planes tested here."
+      },
+      "main_concept": "CON-MSK-EE7CDEF8ACA587",
+      "concept_ids": [
+        "CON-MSK-EE7CDEF8ACA587"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Distinguish the parasagittal plane (unequal right/left halves) from the midsagittal plane (equal halves).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.5"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q04",
+      "page": 5,
+      "title": "Elbow position relative to the wrist",
+      "question": "In the upper limb, the elbow is …… to the wrist.",
+      "options": {
+        "A": "Proximal",
+        "B": "Distal",
+        "C": "Superficial",
+        "D": "Anterior",
+        "E": "Posterior"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Proximal and distal are measured from the root of the limb, where it attaches to the trunk. The elbow lies nearer that root than the wrist does, so the elbow is proximal to the wrist. The wrist, being further from the root of the limb, is distal to the elbow.",
+        "B": "Incorrect. Distal means further from the root of the limb; the wrist, not the elbow, is distal relative to this pair.",
+        "C": "Incorrect. Superficial describes nearness to the skin, not position along the limb's length.",
+        "D": "Incorrect. Anterior describes a front-to-back relation and does not describe the elbow's relation to the wrist along the limb.",
+        "E": "Incorrect. Posterior likewise describes a front-to-back relation, not position along the length of the limb."
+      },
+      "main_concept": "CON-MSK-A0C1F50FABDC0F",
+      "concept_ids": [
+        "CON-MSK-A0C1F50FABDC0F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Apply proximal/distal, measured from the root of the limb, to the elbow-wrist relation.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.5"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q05",
+      "page": 5,
+      "title": "Term for movement away from the median plane",
+      "question": "Which term describes movement of the limb away from the median plane?",
+      "options": {
+        "A": "Abduction.",
+        "B": "Adduction.",
+        "C": "Medial rotation.",
+        "D": "Lateral rotation.",
+        "E": "Inversion."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Abduction is the movement of a part of the body away from the median plane of the body. For a limb as a whole this reference is the body's midline; the same word is used for the fingers and toes, where the reference axis is instead the middle finger or second toe. Its opposite, adduction, brings the part back towards that reference line.",
+        "B": "Incorrect. Adduction is the opposite movement — bringing a part towards the median plane, not away from it.",
+        "C": "Incorrect. Medial rotation turns the front of a limb to face medially; it is a rotation about the limb's long axis, not a movement towards or away from the midline.",
+        "D": "Incorrect. Lateral rotation is the opposite rotation, turning the front of the limb to face laterally, again a rotation rather than an abduction/adduction movement.",
+        "E": "Incorrect. Inversion is a foot-specific movement that tilts the sole to face medially; it is not the general term for moving a limb away from the median plane."
+      },
+      "main_concept": "CON-MSK-4A43892E6FE5B4",
+      "concept_ids": [
+        "CON-MSK-4A43892E6FE5B4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define abduction as movement away from the median plane, and distinguish it from rotation.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.5"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-AEP-ABDUCTION-ADDUCTION"
+      ]
+    },
+    {
+      "key": "q06",
+      "page": 5,
+      "title": "Plane dividing the body into superior and inferior parts",
+      "question": "The anatomical plane which divides the body into superior and inferior parts",
+      "options": {
+        "A": "Coronal",
+        "B": "Parasagittal",
+        "C": "Transverse",
+        "D": "Frontal",
+        "E": "Midsagittal"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The coronal plane is vertical and divides the body into anterior and posterior, not superior and inferior.",
+        "B": "Incorrect. The parasagittal plane divides the body into unequal right and left parts, not superior and inferior.",
+        "C": "Correct. The transverse (horizontal) plane runs at right angles to the long axis of the body, cutting it into an upper (superior) part and a lower (inferior) part. It is the only one of the three standard planes oriented horizontally rather than vertically.",
+        "D": "Incorrect. Frontal is another name for the coronal plane, so it likewise divides the body into anterior and posterior, not superior and inferior.",
+        "E": "Incorrect. The midsagittal plane divides the body into equal right and left halves, not superior and inferior."
+      },
+      "main_concept": "CON-MSK-EE7CDEF8ACA587",
+      "concept_ids": [
+        "CON-MSK-EE7CDEF8ACA587"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the transverse (horizontal) plane as the one dividing the body into superior and inferior parts.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.5"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q07",
+      "page": 5,
+      "title": "Why veins are described as more superficial",
+      "question": "Veins are usually closer to the skin than arteries. This makes veins more………",
+      "options": {
+        "A": "Superior",
+        "B": "Inferior",
+        "C": "Contralateral",
+        "D": "Superficial",
+        "E": "Deep"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Superior describes a head-to-foot relation, not nearness to the skin.",
+        "B": "Incorrect. Inferior is likewise a head-to-foot relation and does not describe distance from the skin surface.",
+        "C": "Incorrect. Contralateral describes being on the opposite side of the body from a reference structure, not nearness to the skin.",
+        "D": "Correct. Superficial means nearer to the skin surface. Since veins characteristically run closer to the skin than the arteries that accompany them, veins are described as being more superficial. This is also why veins are often visible or palpable under the skin while the deeper-running arteries are not.",
+        "E": "Incorrect. Deep means further from the skin, the opposite of what the question describes for veins relative to arteries."
+      },
+      "main_concept": "CON-MSK-A0C1F50FABDC0F",
+      "concept_ids": [
+        "CON-MSK-A0C1F50FABDC0F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Application",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Apply superficial/deep to the relative positions of veins and arteries.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.5"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q08",
+      "page": 5,
+      "title": "Plane dividing the body into equal right and left halves",
+      "question": "The anatomical plane that divides the body into right and left equal halves is called….",
+      "options": {
+        "A": "Coronal",
+        "B": "Parasagittal",
+        "C": "Transverse",
+        "D": "Frontal",
+        "E": "Midsagittal"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The coronal plane divides the body into anterior and posterior parts, not right and left.",
+        "B": "Incorrect. A parasagittal plane divides the body into right and left parts, but because it is offset from the midline the two parts are unequal, not equal.",
+        "C": "Incorrect. The transverse plane divides the body into superior and inferior parts, not right and left.",
+        "D": "Incorrect. Frontal is a synonym for coronal, and so likewise divides the body into anterior and posterior, not right and left.",
+        "E": "Correct. The midsagittal (median) plane passes vertically through the exact midline of the body, dividing it into a right half and a left half that are equal in size. Any plane parallel to it but not passing through the midline is called parasagittal instead, and gives unequal halves. The midsagittal plane is therefore the one specific plane that gives equal right and left parts."
+      },
+      "main_concept": "CON-MSK-EE7CDEF8ACA587",
+      "concept_ids": [
+        "CON-MSK-EE7CDEF8ACA587"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the midsagittal plane as the one dividing the body into equal right and left halves.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.5"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q09",
+      "page": 5,
+      "title": "Forearm position for the palm to face forward",
+      "question": "To make the palm face forward in the anatomical position, the forearm should be…",
+      "options": {
+        "A": "Supinated",
+        "B": "Pronated",
+        "C": "Flexed",
+        "D": "Extended",
+        "E": "Abducted"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Supination is the rotation of the forearm at the radioulnar joints that turns the palm to face forwards (or, with the elbow flexed, upwards). The anatomical position is specifically defined with the forearm fully supinated, which is exactly why the palm faces forward in that reference position. Pronation, the opposite rotation, turns the palm to face backwards or downwards instead.",
+        "B": "Incorrect. Pronation is the opposite rotation and turns the palm to face backwards, not forwards.",
+        "C": "Incorrect. Flexion decreases the angle at the elbow joint; it changes how bent the arm is, not which way the palm faces.",
+        "D": "Incorrect. Extension increases the angle at the elbow joint and likewise does not by itself determine which way the palm faces.",
+        "E": "Incorrect. Abduction moves the whole upper limb away from the body's midline; it does not rotate the forearm to change which way the palm faces."
+      },
+      "main_concept": "CON-MSK-25C23DDC02366D",
+      "concept_ids": [
+        "CON-MSK-25C23DDC02366D"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-D193498AB94D21"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Explain that a fully supinated forearm is what turns the palm to face forwards in the anatomical position.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.5"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-AEP-SUPINATION-PRONATION"
+      ]
+    },
+    {
+      "key": "q10",
+      "page": 5,
+      "title": "Movement that allows standing on tiptoe",
+      "question": "What movement allows the person to stand on tiptoe (move the sole of the foot downwards)?",
+      "options": {
+        "A": "Dorsiflexion",
+        "B": "Plantarflexion",
+        "C": "Inversion",
+        "D": "Eversion",
+        "E": "Protraction"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Dorsiflexion is the opposite movement, lifting the foot up towards the shin, which is the movement used in walking on the heels, not the toes.",
+        "B": "Correct. Plantarflexion points the foot downwards at the ankle, away from the shin, as in pressing a pedal or rising onto the toes. Standing on tiptoe requires exactly this movement at the ankle joint to lower the sole and heel. It is the direct opposite of dorsiflexion, which lifts the foot up instead.",
+        "C": "Incorrect. Inversion tilts the sole of the foot to face medially; it does not by itself lower the heel to allow standing on tiptoe.",
+        "D": "Incorrect. Eversion tilts the sole to face laterally, again a tilting movement rather than the up-down movement needed to rise onto the toes.",
+        "E": "Incorrect. Protraction is a forward-gliding movement (as of the mandible or scapula) and is not a term used for ankle movement."
+      },
+      "main_concept": "CON-MSK-44BD6F3315F786",
+      "concept_ids": [
+        "CON-MSK-44BD6F3315F786"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Application",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify plantarflexion as the ankle movement that lowers the sole, as when standing on tiptoe.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.5"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-AEP-DORSIFLEXION-PLANTARFLEXION"
+      ]
+    },
+    {
+      "key": "q11",
+      "page": 6,
+      "title": "Plane dividing the body into anterior and posterior parts",
+      "question": "Which of the following planes divides the body into anterior and posterior parts?",
+      "options": {
+        "A": "Coronal",
+        "B": "Parasagittal",
+        "C": "Transverse",
+        "D": "Frontal",
+        "E": "Midsagittal"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The coronal plane is a vertical plane running from side to side, cutting the body into an anterior part towards the front and a posterior part towards the back. It is the only one of the three standard planes oriented this way, as opposed to sagittal planes (front-to-back) and the transverse plane (horizontal).",
+        "B": "Incorrect. The parasagittal plane divides the body into unequal right and left parts, not anterior and posterior.",
+        "C": "Incorrect. The transverse plane divides the body into superior and inferior parts, not anterior and posterior.",
+        "D": "Incorrect. Frontal is a valid alternative name for the coronal plane, but as a distractor here it names a different option than the printed key, so it is marked incorrect for this item.",
+        "E": "Incorrect. The midsagittal plane divides the body into equal right and left halves, not anterior and posterior."
+      },
+      "main_concept": "CON-MSK-EE7CDEF8ACA587",
+      "concept_ids": [
+        "CON-MSK-EE7CDEF8ACA587"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the coronal plane as the one dividing the body into anterior and posterior parts.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.6"
+      },
+      "author_notes": "Option D (Frontal) is a genuine synonym for coronal in most textbooks; the printed key names A (Coronal) as correct. Authored as printed; both terms teach the same fact.",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q12",
+      "page": 6,
+      "title": "Hand position relative to the arm",
+      "question": "The hand in relation to the arm, the hand is …….",
+      "options": {
+        "A": "Medial",
+        "B": "Distal",
+        "C": "Proximal",
+        "D": "Lateral",
+        "E": "Caudal"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Medial describes nearness to the median plane, not position along the length of the limb.",
+        "B": "Correct. Proximal and distal are measured along a limb from its root, where it joins the trunk. The hand lies at the far end of the upper limb, further from that root than the arm (the region between shoulder and elbow), so the hand is distal to the arm.",
+        "C": "Incorrect. Proximal describes the arm's position relative to the hand, not the hand's position relative to the arm — this is the reverse relation.",
+        "D": "Incorrect. Lateral describes distance from the median plane, not position along the limb.",
+        "E": "Incorrect. Caudal describes a head-to-foot relation of the whole body and is not the term used for position along a limb."
+      },
+      "main_concept": "CON-MSK-A0C1F50FABDC0F",
+      "concept_ids": [
+        "CON-MSK-A0C1F50FABDC0F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Apply proximal/distal, measured from the root of the limb, to the arm-hand relation.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.6"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q13",
+      "page": 6,
+      "title": "Breast position relative to the arm",
+      "question": "The breast in relation to the arm, the breast is…..",
+      "options": {
+        "A": "Medial",
+        "B": "Distal",
+        "C": "Proximal",
+        "D": "Lateral",
+        "E": "Caudal"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Medial and lateral are measured from the median plane of the body: medial means nearer to it, lateral means further from it. The breast lies closer to the midline of the chest than the arm, which hangs further out to the side, so the breast is medial to the arm.",
+        "B": "Incorrect. Distal describes position along a limb measured from its root, which does not apply to comparing the breast (on the trunk) with the arm in this way.",
+        "C": "Incorrect. Proximal is likewise a limb-length term, not the relation being tested here.",
+        "D": "Incorrect. Lateral is the opposite of the correct answer — the arm, not the breast, is the more lateral structure in this pair.",
+        "E": "Incorrect. Caudal describes a head-to-foot relation and does not describe how close a structure is to the midline."
+      },
+      "main_concept": "CON-MSK-A0C1F50FABDC0F",
+      "concept_ids": [
+        "CON-MSK-A0C1F50FABDC0F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Apply medial/lateral, measured from the median plane, to the breast-arm relation.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.6"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q14",
+      "page": 6,
+      "title": "Term for rotating the palm to face backwards",
+      "question": "Rotation of the ventral aspect of the forearm, so the palm faces backwards, is known as……",
+      "options": {
+        "A": "Adduction",
+        "B": "Abduction",
+        "C": "Supination",
+        "D": "Pronation",
+        "E": "Flexion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Adduction moves a part towards the median plane of the body; it does not rotate the forearm to change which way the palm faces.",
+        "B": "Incorrect. Abduction moves a part away from the median plane, again not a rotation of the forearm.",
+        "C": "Incorrect. Supination is the opposite rotation — it turns the palm to face forwards, not backwards.",
+        "D": "Correct. Pronation is the rotation of the forearm at the radioulnar joints that turns the ventral (palm) surface to face backwards or, with the elbow flexed, downwards. It is the direct opposite of supination, which turns the palm to face forwards.",
+        "E": "Incorrect. Flexion decreases the angle at a joint, such as the elbow; it changes how bent the limb is, not which way the palm faces."
+      },
+      "main_concept": "CON-MSK-25C23DDC02366D",
+      "concept_ids": [
+        "CON-MSK-25C23DDC02366D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 1,
+      "learning_objective": "Identify pronation as the forearm rotation that turns the palm to face backwards.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.6"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-AEP-SUPINATION-PRONATION"
+      ]
+    },
+    {
+      "key": "q15",
+      "page": 6,
+      "title": "Term for increasing the angle between thigh and leg",
+      "question": "Increasing the angle between the thigh and the leg is known as…..",
+      "options": {
+        "A": "Flexion",
+        "B": "Extension",
+        "C": "Adduction",
+        "D": "Abduction",
+        "E": "Rotation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Flexion is the opposite movement — it decreases the angle at a joint rather than increasing it.",
+        "B": "Correct. Extension is the movement at a joint that increases the angle between the two bones on either side of it, typically moving the joint back towards, or past, the neutral anatomical position. Increasing the angle between the thigh and the leg at the knee is therefore extension. Flexion, its opposite, is the movement that decreases that angle instead.",
+        "C": "Incorrect. Adduction moves a limb towards the median plane; it does not describe a change in the angle at a single joint like the knee.",
+        "D": "Incorrect. Abduction moves a limb away from the median plane, again not the angular change described here.",
+        "E": "Incorrect. Rotation turns a part around its long axis; it does not by itself describe an increase in the angle between thigh and leg."
+      },
+      "main_concept": "CON-MSK-CE112D092D2F49",
+      "concept_ids": [
+        "CON-MSK-CE112D092D2F49"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define extension as the movement that increases the angle at a joint, as opposed to flexion.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.6"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-AEP-FLEXION-EXTENSION"
+      ]
+    },
+    {
+      "key": "q16",
+      "page": 6,
+      "title": "Meaning of the term inferior",
+      "question": "The term inferior means………...",
+      "options": {
+        "A": "Close to the lateral side.",
+        "B": "Near to the surface",
+        "C": "Close to the foot.",
+        "D": "Close to the head.",
+        "E": "Near to the center."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Nearness to the lateral side is described by the term lateral, not inferior.",
+        "B": "Incorrect. Nearness to the surface is described by superficial, not inferior.",
+        "C": "Correct. Inferior (or caudal) means lower, towards the foot end of the body, along its long axis. It is the direct opposite of superior (cranial), which means towards the head.",
+        "D": "Incorrect. Close to the head describes superior (cranial), the opposite term to inferior.",
+        "E": "Incorrect. Nearness to the centre or midline is described by medial, not inferior."
+      },
+      "main_concept": "CON-MSK-A0C1F50FABDC0F",
+      "concept_ids": [
+        "CON-MSK-A0C1F50FABDC0F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define inferior as meaning towards the foot end of the body.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.6"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q17",
+      "page": 6,
+      "title": "Description of the inversion action",
+      "question": "Which of the following sentences describe the inversion action?",
+      "options": {
+        "A": "Sole is directed outward.",
+        "B": "Palm is directed outward.",
+        "C": "Sole is directed inward.",
+        "D": "Palm is directed inward.",
+        "E": "Palm is directed forward."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The sole facing outward describes eversion, the opposite movement to inversion.",
+        "B": "Incorrect. Inversion and eversion are foot movements; the palm is not involved, and this option also names the wrong direction.",
+        "C": "Correct. Inversion tilts the foot at the subtalar joint so that the sole turns to face medially, that is, inward towards the other foot. Eversion is the opposite movement, turning the sole to face laterally, outward. Inversion and eversion are distinct from dorsiflexion and plantarflexion, which move the whole foot up or down rather than tilting the sole.",
+        "D": "Incorrect. This option again wrongly involves the palm rather than the sole of the foot.",
+        "E": "Incorrect. The palm facing forward describes the forearm position in the anatomical position (supination), not a foot movement."
+      },
+      "main_concept": "CON-MSK-249A92F2E96ACB",
+      "concept_ids": [
+        "CON-MSK-249A92F2E96ACB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Describe inversion as turning the sole of the foot to face medially (inward).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.6"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-AEP-INVERSION-EVERSION"
+      ]
+    },
+    {
+      "key": "q18",
+      "page": 6,
+      "title": "Meaning of ipsilateral",
+      "question": "Ipsilateral means……",
+      "options": {
+        "A": "Away from the surface of the body.",
+        "B": "Near to the surface of the body.",
+        "C": "At the same side of the body.",
+        "D": "Opposite side of the body.",
+        "E": "Towards the center of the body."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Distance from the body surface is described by deep, not ipsilateral.",
+        "B": "Incorrect. Nearness to the body surface is described by superficial, not ipsilateral.",
+        "C": "Correct. Ipsilateral means on the same side of the body as a stated reference structure or lesion. It is a comparative term, always used to relate one structure's side to another's, most often in describing which side of the body a sign or finding is found on relative to a lesion.",
+        "D": "Incorrect. The opposite side of the body is described by contralateral, the direct opposite of ipsilateral.",
+        "E": "Incorrect. Movement or position towards the midline of the body is described by medial, not ipsilateral."
+      },
+      "main_concept": "CON-MSK-2D981B9AA2CF65",
+      "concept_ids": [
+        "CON-MSK-2D981B9AA2CF65"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define ipsilateral as meaning on the same side of the body, opposite to contralateral.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.6"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-AEP-IPSILATERAL-CONTRALATERAL"
+      ]
+    },
+    {
+      "key": "q19",
+      "page": 7,
+      "title": "Term describing the back region of the body",
+      "question": "The best anatomical term to describe the back region of the body would be ……..",
+      "options": {
+        "A": "Ventral.",
+        "B": "Dorsal.",
+        "C": "Gluteal.",
+        "D": "Deep",
+        "E": "Superficial"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ventral is the opposite term, an alternative name for anterior, describing the front of the body.",
+        "B": "Correct. Dorsal is an alternative name for posterior, meaning towards the back of the body. It is paired with ventral (anterior), just as cranial is paired with caudal and medial with lateral, as one of the standard alternative wordings for the basic anterior-posterior axis.",
+        "C": "Incorrect. Gluteal names a specific region (the buttock), not the general term for the back of the body as a whole.",
+        "D": "Incorrect. Deep describes distance from the skin surface, not front-to-back position.",
+        "E": "Incorrect. Superficial describes nearness to the skin surface, again not a front-to-back relation."
+      },
+      "main_concept": "CON-MSK-A0C1F50FABDC0F",
+      "concept_ids": [
+        "CON-MSK-A0C1F50FABDC0F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify dorsal as the alternative term for posterior, describing the back of the body.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-INTRODUCTION"
+      ]
+    },
+    {
+      "key": "q20",
+      "page": 8,
+      "title": "Term for movement towards the midline",
+      "question": "Which one of the following terms means movement towards the midline?",
+      "options": {
+        "A": "Adduction",
+        "B": "Depression",
+        "C": "Elevation",
+        "D": "Extension",
+        "E": "Flexion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Adduction is the movement of a part of the body towards the median plane, or, at the fingers and toes, towards the reference axis of the middle finger or second toe. It is the direct opposite of abduction, which moves the part away from that same reference line.",
+        "B": "Incorrect. Depression is a downward gliding movement, as of the shoulder girdle or mandible, not a movement towards the midline.",
+        "C": "Incorrect. Elevation is the opposite gliding movement, upward, and likewise does not describe movement towards the midline.",
+        "D": "Incorrect. Extension increases the angle at a joint; it does not describe movement towards or away from the median plane.",
+        "E": "Incorrect. Flexion decreases the angle at a joint, again a different kind of movement from adduction."
+      },
+      "main_concept": "CON-MSK-4A43892E6FE5B4",
+      "concept_ids": [
+        "CON-MSK-4A43892E6FE5B4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Basis of Anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define adduction as movement towards the median plane, opposite to abduction.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.8"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-AEP-ABDUCTION-ADDUCTION"
+      ]
+    },
+    {
+      "key": "q21",
+      "page": 10,
+      "title": "Bone belonging to the appendicular skeleton",
+      "question": "Which of the following bones belongs to the appendicular skeleton?",
+      "options": {
+        "A": "Sternum.",
+        "B": "Ribs.",
+        "C": "Lumbar vertebrae.",
+        "D": "Skull.",
+        "E": "Fibula."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The sternum is part of the axial skeleton, the central bony axis of the trunk.",
+        "B": "Incorrect. The ribs are likewise part of the axial skeleton, not the appendicular skeleton.",
+        "C": "Incorrect. The vertebral column, including the lumbar vertebrae, is part of the axial skeleton.",
+        "D": "Incorrect. The skull is part of the axial skeleton.",
+        "E": "Correct. The appendicular skeleton is the bones of the upper and lower limbs together with their girdles. The fibula is a bone of the lower limb (the leg), so it belongs to the appendicular skeleton, unlike the sternum, ribs, vertebrae and skull, which all belong to the axial skeleton."
+      },
+      "main_concept": "CON-MSK-9A22BB8909AF29",
+      "concept_ids": [
+        "CON-MSK-9A22BB8909AF29"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Bones\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify the fibula as part of the appendicular, not axial, skeleton.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.10"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q22",
+      "page": 10,
+      "title": "Bone shape class with an epiphysis and a diaphysis",
+      "question": "The bone having epiphysis & diaphysis is ......",
+      "options": {
+        "A": "Sesamoid",
+        "B": "Short",
+        "C": "Flat",
+        "D": "Irregular",
+        "E": "Long"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. A sesamoid bone is a small nodule embedded in a tendon; it does not have the epiphysis-diaphysis structure of a long bone.",
+        "B": "Incorrect. A short bone is spongy bone under a thin shell of compact bone, without a separate shaft and expanded ends.",
+        "C": "Incorrect. A flat bone is two thin plates of compact bone with a spongy layer between them, again without an epiphysis-diaphysis arrangement.",
+        "D": "Incorrect. An irregular bone, such as a vertebra, is built like a short bone and has no epiphysis or diaphysis.",
+        "E": "Correct. A long bone is defined by having expanded ends, the epiphyses, joined by a shaft, the diaphysis, with a metaphysis where the two meet. This structure is unique to long bones among the shape classes, and is what allows a long bone to grow in length at a cartilage plate between epiphysis and diaphysis."
+      },
+      "main_concept": "CON-MSK-EFD497A9922A4D",
+      "concept_ids": [
+        "CON-MSK-EFD497A9922A4D"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-00B4A0D32A6420"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Bones\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a long bone is the shape class with an epiphysis at each end and a diaphysis between them.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.10"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q23",
+      "page": 10,
+      "title": "Example of a long bone",
+      "question": "Which bone does belong to the long bone?",
+      "options": {
+        "A": "sternum",
+        "B": "costal bone",
+        "C": "humerus",
+        "D": "parietal bone",
+        "E": "scalp"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The sternum is a flat bone, two compact plates with spongy bone between them, not a long bone.",
+        "B": "Incorrect. A costal (rib) bone is also classified as a flat bone, not a long bone.",
+        "C": "Correct. The humerus, the bone of the arm, has two expanded ends (epiphyses) joined by a shaft (diaphysis), which is exactly the structure that defines a long bone. Other long bones of the limbs include the femur, tibia, fibula, radius and ulna.",
+        "D": "Incorrect. The parietal bone is one of the flat bones of the skull cap, not a long bone.",
+        "E": "Incorrect. The scalp is soft tissue covering the skull, not a bone at all, and so cannot belong to any bone shape class."
+      },
+      "main_concept": "CON-MSK-00B4A0D32A6420",
+      "concept_ids": [
+        "CON-MSK-00B4A0D32A6420"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Bones\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the humerus as an example of a long bone.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.10"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q24",
+      "page": 10,
+      "title": "Site of blood cell formation",
+      "question": "Formation of the blood cells occurs in......",
+      "options": {
+        "A": "yellow marrow",
+        "B": "spongy bone",
+        "C": "periosteum",
+        "D": "red marrow",
+        "E": "compact bone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Yellow marrow is the inactive, fatty replacement of red marrow and does not form blood cells.",
+        "B": "Incorrect. Spongy bone is the tissue that houses marrow within its spaces, but it is the marrow itself, not the bone tissue, that forms blood cells.",
+        "C": "Incorrect. The periosteum is the fibrous membrane covering the outside of a bone; it is involved in bone growth and repair, not blood cell formation.",
+        "D": "Correct. Red bone marrow is the active haemopoietic tissue where blood cells are formed. Yellow marrow, by contrast, is its inactive, fat-filled replacement and does not produce blood cells under normal conditions.",
+        "E": "Incorrect. Compact bone is the dense outer tissue of a bone; it does not contain the marrow spaces where blood cell formation occurs."
+      },
+      "main_concept": "CON-HEM-AEB2E6C6E8A423",
+      "concept_ids": [
+        "CON-HEM-AEB2E6C6E8A423"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Bones\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that red bone marrow is the site of blood cell formation, unlike inactive yellow marrow.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.10"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-HIS-HAEMOPOIESIS"
+      ]
+    },
+    {
+      "key": "q25",
+      "page": 10,
+      "title": "Bone structure that is part of the axial skeleton",
+      "question": "Which of the following bone structures is part of the axial skeleton?",
+      "options": {
+        "A": "Lower limbs",
+        "B": "Inner limbs",
+        "C": "Rib cage",
+        "D": "Pectoral girdle",
+        "E": "Pelvis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The lower limbs are part of the appendicular skeleton, not the axial skeleton.",
+        "B": "Incorrect. There is no standard \"inner limb\" division of the skeleton; the limbs as a whole belong to the appendicular skeleton.",
+        "C": "Correct. The rib cage (the ribs together with the sternum) forms part of the central bony axis of the trunk, and so belongs to the axial skeleton. The axial skeleton also includes the skull, the hyoid bone and the vertebral column, whereas the limbs and their girdles make up the separate appendicular skeleton.",
+        "D": "Incorrect. The pectoral girdle (clavicle and scapula) is the means by which the upper limb attaches to the trunk, and is classified with the appendicular skeleton, not the axial skeleton.",
+        "E": "Incorrect. The pelvis (hip bones) is the girdle of the lower limb and likewise belongs to the appendicular skeleton, not the axial skeleton."
+      },
+      "main_concept": "CON-MSK-9A22BB8909AF29",
+      "concept_ids": [
+        "CON-MSK-9A22BB8909AF29"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Bones\", p.{page}",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Classify the rib cage as axial and the limb girdles as appendicular.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.10"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q26",
+      "page": 10,
+      "title": "Site whose fracture interrupts longitudinal bone growth",
+      "question": "Longitudinal growth of bones may be interrupted if there's a fracture in:",
+      "options": {
+        "A": "Metaphysis",
+        "B": "Diaphysis",
+        "C": "Epiphyseal cartilage",
+        "D": "Epiphysis",
+        "E": "periosteum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The metaphysis is the active zone of bone just beneath the growth plate, but it is the cartilage of the plate itself that generates new length, not the metaphysis.",
+        "B": "Incorrect. A fracture of the diaphysis (the shaft) affects the bone's continuity but does not by itself remove the cartilage responsible for lengthening.",
+        "C": "Correct. A long bone lengthens by proliferation of cartilage cells at the epiphyseal (growth) plate. A fracture through this cartilage can damage or destroy the growth plate, which stops or disturbs further longitudinal growth of that bone.",
+        "D": "Incorrect. A fracture of the epiphysis itself affects the articular end of the bone but is not what removes the growth mechanism located at the adjacent cartilage plate.",
+        "E": "Incorrect. The periosteum is responsible for growth in width, from its inner layer of osteoblasts, not for growth in length."
+      },
+      "main_concept": "CON-MSK-C30E73A5353ABB",
+      "concept_ids": [
+        "CON-MSK-C30E73A5353ABB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Bones\", p.{page}",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Explain that damage to the epiphyseal cartilage, not the metaphysis or diaphysis, interrupts longitudinal bone growth.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.10"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q27",
+      "page": 10,
+      "title": "Where compact bone mainly exists",
+      "question": "Compact bone exists mainly in:",
+      "options": {
+        "A": "Epiphysis of long bones",
+        "B": "Central part of flat bones of skull",
+        "C": "Shaft of long bones",
+        "D": "Bodies of vertebrae",
+        "E": "Young embryonic bone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The epiphysis of a long bone is chiefly cancellous (spongy) bone, wrapped in only a thin shell of compact bone, not compact bone mainly.",
+        "B": "Incorrect. The central part of a flat bone of the skull is the spongy diploe, sandwiched between the outer and inner compact tables, not compact bone itself.",
+        "C": "Correct. The diaphysis, the shaft of a long bone, is built as a thick tube of compact bone surrounding the central medullary cavity. This is where compact bone is most abundant, in contrast to the epiphyses and other bone types, which are predominantly spongy bone with only a thin compact shell.",
+        "D": "Incorrect. Vertebral bodies are predominantly spongy (cancellous) bone, again with only a thin compact shell, not mainly compact bone.",
+        "E": "Incorrect. Young embryonic bone is immature woven bone, which is not organised into the mature compact bone pattern at all."
+      },
+      "main_concept": "CON-MSK-EFD497A9922A4D",
+      "concept_ids": [
+        "CON-MSK-EFD497A9922A4D"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-0B0BA79E056E2E"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Bones\", p.{page}",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that compact bone forms mainly the shaft (diaphysis) of a long bone.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.10"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q28",
+      "page": 11,
+      "title": "A function of the skeleton besides support and protection",
+      "question": "Besides support and protection, the skeleton serves other important functions, including",
+      "options": {
+        "A": "Reproduction",
+        "B": "Respiration",
+        "C": "Locomotion",
+        "D": "Hemostasis",
+        "E": "Circulation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Reproduction is not a function of the skeletal system; it belongs to the reproductive organs.",
+        "B": "Incorrect. Respiration is carried out by the respiratory system; the rib cage assists breathing mechanically, but respiration itself is not a general skeletal function.",
+        "C": "Correct. Alongside support and protection, bone acts as a system of levers that muscles pull against, producing movement and locomotion. Bone also serves the further functions of mineral storage and blood cell formation, making locomotion one of several functions the skeleton contributes beyond simply holding the body up and shielding organs.",
+        "D": "Incorrect. Hemostasis (stopping bleeding) is a function of platelets and the coagulation system, not of the skeleton as a whole.",
+        "E": "Incorrect. Circulation is driven by the cardiovascular system; bone marrow makes blood cells, but circulating them is not a skeletal function."
+      },
+      "main_concept": "CON-MSK-88ABD88C19073F",
+      "concept_ids": [
+        "CON-MSK-88ABD88C19073F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Bones\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name locomotion (via bone acting as a lever for muscles) as a function of the skeleton beyond support and protection.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.11"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MSK-BONE-FUNCTIONS-PROPERTIES"
+      ]
+    },
+    {
+      "key": "q29",
+      "page": 12,
+      "title": "Shape classification of the sternum",
+      "question": "Sternum is an example of which type of bone according to shape?",
+      "options": {
+        "A": "Irregular",
+        "B": "Long",
+        "C": "Pneumatic",
+        "D": "Short",
+        "E": "Flat"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. An irregular bone, such as a vertebra, has projecting processes and is built like a short bone; the sternum does not fit this pattern.",
+        "B": "Incorrect. A long bone has an epiphysis at each end joined by a diaphysis; the sternum has no such shaft-and-ends structure.",
+        "C": "Incorrect. A pneumatic bone contains air cavities, chiefly the skull bones around the nose; the sternum contains no air cavities.",
+        "D": "Incorrect. A short bone is spongy bone under a thin compact shell, roughly as wide as it is long, unlike the sternum's flattened shape.",
+        "E": "Correct. The sternum is a flat bone: two thin plates of compact bone with a layer of spongy bone between them. Other examples of flat bones include the skull cap, the scapula and the ribs."
+      },
+      "main_concept": "CON-MSK-00B4A0D32A6420",
+      "concept_ids": [
+        "CON-MSK-00B4A0D32A6420"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Skeletal system\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify the sternum as a flat bone.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.12"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q30",
+      "page": 12,
+      "title": "Shape classification of the patella",
+      "question": "What type of bone is the patella?",
+      "options": {
+        "A": "Long",
+        "B": "Short",
+        "C": "Flat",
+        "D": "Sesamoid",
+        "E": "Pneumatic"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A long bone has expanded ends joined by a shaft; the patella has no such structure.",
+        "B": "Incorrect. A short bone, like a carpal or tarsal bone, is a small block of spongy bone under a thin compact shell, not embedded in a tendon.",
+        "C": "Incorrect. A flat bone is made of two compact plates with spongy bone between them; the patella is not built this way.",
+        "D": "Correct. A sesamoid bone is a small nodule of bone embedded within a muscle tendon. The patella, embedded in the tendon of quadriceps femoris, is the largest sesamoid bone in the body, which is exactly why it is the standard worked example of this bone shape class.",
+        "E": "Incorrect. A pneumatic bone contains air cavities, chiefly the skull bones around the nose; the patella contains no air cavities."
+      },
+      "main_concept": "CON-MSK-00B4A0D32A6420",
+      "concept_ids": [
+        "CON-MSK-00B4A0D32A6420"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Skeletal system\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify the patella as a sesamoid bone, the largest in the body.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.12"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q31",
+      "page": 12,
+      "title": "Shape classification of the femur",
+      "question": "What type of bone is the femur?",
+      "options": {
+        "A": "Long",
+        "B": "Short",
+        "C": "Flat",
+        "D": "Sesamoid",
+        "E": "Pneumatic"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The femur, the thigh bone, has two expanded ends (epiphyses) joined by a shaft (diaphysis), the defining structure of a long bone. It is in fact the longest and strongest bone in the body, alongside other limb long bones such as the humerus, tibia, fibula, radius and ulna.",
+        "B": "Incorrect. A short bone, such as a carpal or tarsal bone, is a small block of spongy bone under a thin compact shell, quite unlike the elongated femur.",
+        "C": "Incorrect. A flat bone is two compact plates with spongy bone between them; the femur is not built this way.",
+        "D": "Incorrect. A sesamoid bone is a small nodule embedded in a tendon; the femur is a large weight-bearing bone, not a sesamoid.",
+        "E": "Incorrect. A pneumatic bone contains air cavities; the femur contains marrow, not air spaces."
+      },
+      "main_concept": "CON-MSK-00B4A0D32A6420",
+      "concept_ids": [
+        "CON-MSK-00B4A0D32A6420"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Skeletal system\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify the femur as a long bone.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.12"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q32",
+      "page": 12,
+      "title": "Shape classification of the facial bones",
+      "question": "What type of bone is the facial bones?",
+      "options": {
+        "A": "Long",
+        "B": "Short",
+        "C": "Flat",
+        "D": "Sesamoid",
+        "E": "Pneumatic"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. A long bone has an epiphysis at each end and a diaphysis between; the facial bones are not built this way.",
+        "B": "Incorrect. A short bone is a small block of spongy bone under a thin compact shell, unlike the facial bones.",
+        "C": "Incorrect. A flat bone is two compact plates with spongy bone between; several facial bones instead contain air-filled cavities, which is a different class.",
+        "D": "Incorrect. A sesamoid bone is a small nodule embedded in a tendon, not a description that applies to the facial skeleton.",
+        "E": "Correct. A pneumatic bone contains air-filled cavities, and this class is found chiefly among the skull bones around the nose. Several facial bones, such as the maxilla, contain paranasal air sinuses, which is what places them in the pneumatic bone class rather than the flat bone class that describes the rest of the skull cap."
+      },
+      "main_concept": "CON-MSK-00B4A0D32A6420",
+      "concept_ids": [
+        "CON-MSK-00B4A0D32A6420"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Skeletal system\", p.{page}",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Classify the (air-sinus-bearing) facial bones as pneumatic bone.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.12"
+      },
+      "author_notes": "Printed key names Pneumatic (E); most facial bones proper are flat/irregular and only some (e.g. maxilla) are pneumatic via their paranasal sinus, so the generalisation is broader than strictly accurate — authored as printed, doubt noted here.",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q33",
+      "page": 12,
+      "title": "Bones forming the pelvic girdle",
+      "question": "Which of the following bones share in the formation of the pelvic girdle?",
+      "options": {
+        "A": "Femur.",
+        "B": "Hip bone.",
+        "C": "Tibia.",
+        "D": "Radius.",
+        "E": "Ulna."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The femur is the free bone of the lower limb that articulates with the pelvic girdle at the hip joint, but it is not itself part of the girdle.",
+        "B": "Correct. The appendicular skeleton includes the girdles by which the limbs attach to the axial skeleton. The pectoral girdle, formed by the clavicle and scapula, serves the upper limb, and the pelvic girdle, formed by the hip bone, serves the lower limb in the same way.",
+        "C": "Incorrect. The tibia is a long bone of the leg, a free lower-limb bone, not part of the girdle.",
+        "D": "Incorrect. The radius is a forearm bone of the upper limb, unrelated to the pelvic girdle.",
+        "E": "Incorrect. The ulna is likewise a forearm bone of the upper limb, not part of the pelvic girdle."
+      },
+      "main_concept": "CON-MSK-9A22BB8909AF29",
+      "concept_ids": [
+        "CON-MSK-9A22BB8909AF29"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Skeletal system\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the hip bone as the bone forming the pelvic girdle of the appendicular skeleton.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.12"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q34",
+      "page": 13,
+      "title": "Structure responsible for growth of a long bone in length",
+      "question": "The part of the long bone responsible for its growth in length is the …",
+      "options": {
+        "A": "Metaphysis",
+        "B": "Epiphyseal cartilage",
+        "C": "Periosteum",
+        "D": "Endosteum",
+        "E": "Diaphysis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The metaphysis is the region of the shaft next to the growth plate; it is active bone tissue but it is not itself the site of new cartilage growth.",
+        "B": "Correct. A long bone increases in length by proliferation of the cartilage cells of the epiphyseal (growth) plate, situated between the epiphysis and the diaphysis in a growing bone. Growth in width, by contrast, comes from the periosteum, not from this cartilage.",
+        "C": "Incorrect. The periosteum is responsible for growth in width, adding new bone from its inner osteoblast layer, not for growth in length.",
+        "D": "Incorrect. The endosteum lines the medullary cavity and inner bone surfaces; it is not the structure responsible for longitudinal growth.",
+        "E": "Incorrect. The diaphysis is the shaft itself, the bone that is lengthened by the growth plate, rather than the structure that does the lengthening."
+      },
+      "main_concept": "CON-MSK-C30E73A5353ABB",
+      "concept_ids": [
+        "CON-MSK-C30E73A5353ABB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Skeletal system\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the epiphyseal cartilage is responsible for a long bone's growth in length.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.13"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q35",
+      "page": 12,
+      "title": "Naming the end of a long bone",
+      "question": "The end of the long bone is the …………….",
+      "options": {
+        "A": "Metaphysis",
+        "B": "Epiphysis",
+        "C": "Periosteum",
+        "D": "Endosteum",
+        "E": "Diaphysis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The metaphysis is the narrow zone of the shaft just beneath the growth plate, not the expanded end itself.",
+        "B": "Correct. The epiphyses are the expanded upper and lower ends of a long bone. They carry the articular surfaces of the bone and are covered with hyaline cartilage where they take part in a joint.",
+        "C": "Incorrect. The periosteum is the fibrous membrane covering the outer surface of the whole bone, not specifically its end.",
+        "D": "Incorrect. The endosteum lines the inner medullary cavity, not the expanded end of the bone.",
+        "E": "Incorrect. The diaphysis is the shaft between the two ends, not an end itself."
+      },
+      "main_concept": "CON-MSK-EFD497A9922A4D",
+      "concept_ids": [
+        "CON-MSK-EFD497A9922A4D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Skeletal system\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name the epiphysis as the expanded end of a long bone.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.12"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q36",
+      "page": 13,
+      "title": "Structure responsible for growth in width",
+      "question": "Growth of the long bone in width is the function of ………..",
+      "options": {
+        "A": "Metaphysis",
+        "B": "Epiphysis",
+        "C": "Periosteum",
+        "D": "Endosteum",
+        "E": "Diaphysis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The metaphysis is the active zone near the growth plate concerned with longitudinal growth, not the structure that widens the bone.",
+        "B": "Incorrect. The epiphysis is the expanded end of the bone; it is not the tissue responsible for increasing the shaft's width.",
+        "C": "Correct. A long bone increases in width from the osteoblasts of the inner layer of the periosteum, the fibrous membrane covering its outer surface. This is distinct from growth in length, which instead comes from the epiphyseal cartilage.",
+        "D": "Incorrect. The endosteum lines the medullary cavity from the inside and is involved in internal remodelling, not outward growth in width.",
+        "E": "Incorrect. The diaphysis is the shaft that is widened by the periosteum, not the structure doing the widening."
+      },
+      "main_concept": "CON-MSK-C30E73A5353ABB",
+      "concept_ids": [
+        "CON-MSK-C30E73A5353ABB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Skeletal system\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the periosteum is responsible for a long bone's growth in width.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.13"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q37",
+      "page": 13,
+      "title": "Lining of the medullary cavity",
+      "question": "The medullary cavity of the long bone is lined by the ………..",
+      "options": {
+        "A": "Metaphysis",
+        "B": "Epiphysis",
+        "C": "Periosteum",
+        "D": "Endosteum",
+        "E": "Diaphysis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The metaphysis is a region of the shaft near the growth plate, not a lining membrane.",
+        "B": "Incorrect. The epiphysis is the expanded end of the bone, not the lining of the internal cavity.",
+        "C": "Incorrect. The periosteum covers the outer surface of the bone; the internal cavity has its own, different lining membrane.",
+        "D": "Correct. The endosteum is the membrane that lines the medullary cavity and the internal (endosteal) surfaces of a long bone. The medullary cavity itself, within the diaphysis, is filled with bone marrow.",
+        "E": "Incorrect. The diaphysis is the shaft that contains the medullary cavity, not the membrane lining it."
+      },
+      "main_concept": "CON-MSK-EFD497A9922A4D",
+      "concept_ids": [
+        "CON-MSK-EFD497A9922A4D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Skeletal system\", p.{page}",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name the endosteum as the membrane lining the medullary cavity of a long bone.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.13"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-101-ANA-SKELETAL-SYSTEM"
+      ]
+    },
+    {
+      "key": "q38",
+      "page": 13,
+      "title": "Bone tissue composing the epiphysis",
+      "question": "Epiphysis of the long bone is formed of…….. bone",
+      "options": {
+        "A": "Long",
+        "B": "Short",
+        "C": "Flat",
+        "D": "Compact",
+        "E": "Cancellous"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Long is a whole-bone shape class, not a type of bone tissue that could compose one region of a bone.",
+        "B": "Incorrect. Short is likewise a whole-bone shape class, not a bone tissue type.",
+        "C": "Incorrect. Flat is again a whole-bone shape class, not the tissue composing the epiphysis.",
+        "D": "Incorrect. Compact bone forms the tube of the diaphysis (the shaft) and only a thin outer shell of the epiphysis; it is not what the bulk of the epiphysis is made of.",
+        "E": "Correct. The interior of the epiphysis, the expanded end of a long bone, is built of cancellous (spongy) bone, wrapped in only a thin shell of compact bone. This distribution is the reverse of the diaphysis, which is mainly a thick tube of compact bone around a hollow medullary cavity."
+      },
+      "main_concept": "CON-MSK-0B0BA79E056E2E",
+      "concept_ids": [
+        "CON-MSK-0B0BA79E056E2E"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-EFD497A9922A4D"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system",
+      "module_subject": "MANS-AEP > Anatomy > Basis of Anatomy > Skeletal system",
+      "source_citation": "AEP Full Exams (VIP).pdf, Anatomy Lecture (2) \"Skeletal system\", p.{page}",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the epiphysis is composed mainly of cancellous (spongy) bone under a thin compact shell.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer letter beside option, p.13"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-AEP-COMPACT-SPONGY-BONE"
+      ]
+    }
+  ]
+}

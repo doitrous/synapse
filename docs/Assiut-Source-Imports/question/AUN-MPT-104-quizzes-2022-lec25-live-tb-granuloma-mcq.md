@@ -1,0 +1,149 @@
+<!--
+  AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank question (Lecture 25: Granuloma: types and mechanisms Q8, the caseating-granuloma-with-Langhans-giant-cells clinical vignette) reusing a LIVE KAU concept (CON-INF-8658F6CDBBB685, canonical_key teaching.pathobook.tb.granuloma-formation, 'Epithelioid macrophage and giant-cell granuloma formation in tuberculosis'), confirmed by find-existing.mjs and an exact grain match. Overlay applied immediately in concept/AUN-MPT-104-overlay-concepts.md (the target concept is already live, no apply-after wait needed) -- this question rides in the regular question/ directory, not pending-live/.
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-AUNMPT104-QUIZZES2022-Q205
+
+## title
+Caseating granuloma with Langhans giant cells indicates tuberculosis
+
+## question
+The appearance of granulomas with Langhans giant cells and caseation in the lung from a 54 year old male with fever, night sweats, weight loss, and cough for several months suggests that infection with which of the following is the probable diagnosis:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Influenza A virus
+
+## explanation_a
+Incorrect. Influenza A is a viral respiratory infection producing an acute inflammatory response, not the epithelioid-macrophage granuloma with Langhans giant cells and caseation described here.
+
+## answer_b
+Mycobacterium tuberculosis
+
+## explanation_b
+Correct. Granulomas with Langhans giant cells (formed by fusion of activated epithelioid macrophages) and central caseous necrosis are the classic tuberculous histological picture. The chronic constitutional symptoms -- fever, night sweats, weight loss and a cough of several months -- are the typical clinical course of pulmonary tuberculosis. Together, the histology and the clinical picture make Mycobacterium tuberculosis the probable diagnosis.
+
+## answer_c
+Streptococcus pneumoniae
+
+## explanation_c
+Incorrect. Streptococcus pneumoniae causes acute lobar pneumonia with a neutrophilic, suppurative response, not a chronic caseating granuloma.
+
+## answer_d
+Bilharziasis
+
+## explanation_d
+Incorrect. Bilharziasis produces its own granulomatous reaction around Schistosoma ova, but not the specific caseating, Langhans-giant-cell picture in the lung described in this vignette, and its clinical course does not match this pulmonary presentation.
+
+## answer_e
+Cytomegalovirus
+
+## explanation_e
+Incorrect. Cytomegalovirus causes a viral infection typically with a different histological and clinical picture, not the caseating granulomatous pattern that specifically points to tuberculosis.
+
+## topic
+Granuloma: types and mechanisms
+
+## subtopic
+Tuberculosis worked examples
+
+## main_concept
+CON-INF-8658F6CDBBB685
+
+## concept_ids
+CON-INF-8658F6CDBBB685
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=high
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-MPT-104
+
+## module_subject
+AUN-MPT-104 > Pathology > Granuloma: types and mechanisms
+
+## question_only_for
+
+## library_ids
+ART-INF-TOP-31F0CCAB30
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## learning_objective
+Recognise the caseating granuloma with Langhans giant cells as the histological picture of tuberculosis, matched to its clinical presentation.
+
+## source_citation
+All Quizzes MPT 2022.pdf, 94
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Mycobacterium tuberculosis"
+Reuses live KAU concept CON-INF-8658F6CDBBB685 (canonical_key teaching.pathobook.tb.granuloma-formation), tagged +aun/+1/+AUN-MPT-104 in concept/AUN-MPT-104-overlay-concepts.md; its own definition is title-only, so this explanation is written from the department pathology teaching tradition (Langhans giant cells = fused epithelioid macrophages; caseation = TB-specific necrosis) rather than quoting the concept's definition.

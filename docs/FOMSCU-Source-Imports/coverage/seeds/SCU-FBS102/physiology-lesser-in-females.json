@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-lesser-in-females",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-lesser-in-females'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Body Fluids > Total Body Water"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-LESSER-IN-FEMALES",
+      "key": "physiology-lesser-in-females",
+      "title": "Total body water is lower in adult females than males",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Body Fluids > Total Body Water",
+      "question": "Which of the following statements correctly compares total body water, as a percentage of body weight, between average adult males and females?",
+      "options": {
+        "A": "It is exactly equal in both sexes",
+        "B": "It is generally greater in adult females",
+        "C": "It is generally lower in adult females",
+        "D": "It depends entirely on daily fluid intake, not sex"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Total body water differs consistently between the sexes on average; it is not equal, because body composition (fat versus lean tissue) differs between average adult males and females.",
+        "B": "Incorrect. This reverses the true relationship — total body water as a fraction of weight is lower, not greater, in adult females, because adipose tissue contains little water.",
+        "C": "Correct. Adult females carry a proportionally higher percentage of body fat, and adipose tissue holds very little water compared with lean tissue, so total body water as a fraction of body weight (about 50%) is lower than in adult males (about 60%). The same logic explains why total body water, as a fraction of weight, falls with rising adiposity in either sex, not only when comparing the sexes.",
+        "D": "Incorrect. While hydration status can shift body water short-term, the average sex difference reflects underlying body composition (fat versus lean mass), not day-to-day fluid intake."
+      },
+      "topic": "Physiology",
+      "subtopic": "Body fluid compartments",
+      "main_concept": "CON-FND-4B53B516BB9F34",
+      "concept_ids": [
+        "CON-FND-4B53B516BB9F34"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-CELL-MEMBRANE-AND-FLUID-BASICS"
+      ],
+      "learning_objective": "State that total body water as a percentage of body weight is lower in adult females than adult males, and attribute the difference to higher average body fat, not to fluid intake or renal handling.",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q17, Formative and Past Exams 2023 Q17",
+      "author_notes": ""
+    }
+  ]
+}

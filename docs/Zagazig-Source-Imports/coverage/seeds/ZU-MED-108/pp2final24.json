@@ -1,0 +1,1225 @@
+{
+  "lane": "ZU-MED-108",
+  "cluster": "pp2final24",
+  "header": "ZU-MED-108 · Professional Practice II (basic clinical skills 1) — authored from Fakous P.P2 Final 2024.pdf (Zagazig's Fakous campus, Faculty of Medicine, provenance ruled usable — LANE-CARD.md §7), keys read from hand-drawn ink marks (circled option or diagonal stroke through the option letter) render-confirmed on all 4 pages.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "zu"
+    ],
+    "years": [
+      "ZU_Y1"
+    ],
+    "module": "ZU-MED-108",
+    "module_subject": "ZU-MED-108 > Professional Practice II > Basic clinical skills 1",
+    "exam_weight_by_year": {
+      "ZU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "source_citation": "Fakous P.P2 Final 2024.pdf, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Application",
+    "cognitive_effort": "Moderate",
+    "reasoning_level": 2
+  },
+  "questions": [
+    {
+      "key": "pp2final24-q01",
+      "page": 1,
+      "title": "Manoeuvre contraindicated in cervical spine injury",
+      "question": "A rescuer opens an unconscious patient's airway using the manoeuvre shown, lifting the angle of the jaw so it moves upward and forward. As regard to this manoeuvre, all the following statements are true EXCEPT:",
+      "options": {
+        "A": "It is a jaw thrust manoeuvre.",
+        "B": "It is considered a basic airway manoeuvre.",
+        "C": "It is contraindicated in suspected cervical spine injury.",
+        "D": "During the manoeuvre, the jaw is moved upward and forward."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this statement is true, so it is not the answer to an EXCEPT question). The manoeuvre pictured, lifting the mandible without extending the neck, is exactly the jaw thrust.",
+        "B": "Incorrect (this statement is true). Jaw thrust, alongside head tilt-chin lift, is one of the two basic, non-instrumental airway-opening manoeuvres taught for relieving obstruction caused by the tongue.",
+        "C": "Correct. Jaw thrust is in fact the preferred, not the contraindicated, basic airway manoeuvre when cervical spine injury is suspected, precisely because it opens the airway by lifting the jaw rather than by extending or rotating the neck. Head tilt-chin lift, which does require neck extension, is the manoeuvre avoided in this situation instead. This makes the statement in option C false, which is what an EXCEPT question is asking for.",
+        "D": "Incorrect (this statement is true). The jaw thrust does move the mandible, and with it the tongue base attached to it, upward and forward, which is the mechanism by which it clears the airway."
+      },
+      "main_concept": "CON-FND-0CDA671CAE0778",
+      "concept_ids": [
+        "CON-FND-0CDA671CAE0778"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Basic life support and airway management",
+      "subtopic": "Airway-opening manoeuvres",
+      "learning_objective": "State that jaw thrust opens the airway without neck extension and is therefore the preferred, not contraindicated, basic manoeuvre in suspected cervical spine injury.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Airway-opening manoeuvres",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled + margin \"c\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-AIRWAY-MANOEUVRES"
+      ]
+    },
+    {
+      "key": "pp2final24-q02",
+      "page": 1,
+      "title": "Definition of fainting (syncope)",
+      "question": "About fainting, which statement is true?",
+      "options": {
+        "A": "Loss of consciousness when blood supply to the brain is momentarily interrupted.",
+        "B": "The victim can respond to shake and shout.",
+        "C": "You can put the victim in the sitting position.",
+        "D": "There is loss of consciousness, no pulse and no breathing."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Fainting (syncope) is a transient loss of consciousness caused by a momentary, global interruption of cerebral blood flow, with rapid onset, short duration and complete spontaneous recovery once perfusion is restored. This distinguishes it from a seizure or hypoglycaemic episode, which interrupt consciousness by a different mechanism, and from cardiac arrest, from which recovery is not spontaneous. Because the underlying problem is a brief circulatory interruption, not cardiac or respiratory arrest, management (lying the patient flat, raising the legs) is aimed at restoring cerebral perfusion.",
+        "B": "Incorrect. By definition, a fainting patient is unconscious during the episode and so cannot respond to shake and shout; responsiveness to shake and shout would mean the patient had already recovered or was never truly unconscious.",
+        "C": "Incorrect. The correct first-aid position for a fainting (or about-to-faint) patient is lying flat with the legs raised, to restore blood flow to the brain, not sitting, which does not improve cerebral perfusion in the same way.",
+        "D": "Incorrect. No pulse and no breathing describes cardiac arrest, not fainting; a fainting patient retains a pulse and breathing throughout the brief episode, which is why recovery is spontaneous."
+      },
+      "main_concept": "CON-CVS-D3ED0A0E795D72",
+      "concept_ids": [
+        "CON-CVS-D3ED0A0E795D72"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Basic life support and airway management",
+      "subtopic": "Fainting and syncope",
+      "learning_objective": "Define syncope as a transient loss of consciousness from momentary global cerebral hypoperfusion with spontaneous full recovery.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Fainting and syncope",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled + margin \"A\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "main_concept is a reused pending concept (CON-CVS-D3ED0A0E795D72, another lane's unimported batch) — see pending-live/ZU-MED-108-pp2final24-pending-overlays.md.",
+      "library_ids": [
+        "ART-CVS-SYNCOPE"
+      ]
+    },
+    {
+      "key": "pp2final24-q03",
+      "page": 1,
+      "title": "Signs of airway obstruction",
+      "question": "Signs of airway obstruction include:",
+      "options": {
+        "A": "Gurgling.",
+        "B": "Stridor.",
+        "C": "Chest wheezes.",
+        "D": "Snoring.",
+        "E": "All of the above."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect alone. Gurgling is a recognised sign of airway obstruction, but it is only one of several such signs, so it is not the single best answer when a more complete option is available.",
+        "B": "Incorrect alone. Stridor, a harsh high-pitched inspiratory sound suggesting laryngeal or upper-tracheal narrowing, is a recognised sign of obstruction, but again only one among several.",
+        "C": "Incorrect alone. Chest wheezes, an expiratory sound suggesting lower-airway narrowing, are a recognised sign of obstruction, but not the only one listed.",
+        "D": "Incorrect alone. Snoring, suggesting partial obstruction by the tongue or soft palate, is a recognised sign of obstruction, but not the only one listed.",
+        "E": "Correct. Gurgling, stridor, chest wheezes and snoring are all recognised signs of airway obstruction, each pointing to a different level or cause (fluid, laryngeal/tracheal narrowing, lower-airway narrowing, and tongue/soft-palate obstruction respectively). Recognising the full range of obstruction sounds, not just one, is what lets a rescuer identify obstruction regardless of its cause."
+      },
+      "main_concept": "CON-FND-5196DA553EC951",
+      "concept_ids": [
+        "CON-FND-5196DA553EC951"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Basic life support and airway management",
+      "subtopic": "Recognising airway obstruction",
+      "learning_objective": "Recognise gurgling, stridor, wheeze and snoring as signs of airway obstruction.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Airway-opening manoeuvres",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled + margin \"E\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "Printed paper listed 6 options (a-f, including \"None of the above\" as f); trimmed to 5 per LANE-CARD.md's \">5 options trimmed and documented\" rule, dropping the non-informative \"None of the above\" distractor since the correct answer is \"All of the above,\" not \"none.\"",
+      "library_ids": [
+        "ART-FND-ZU108-AIRWAY-MANOEUVRES"
+      ]
+    },
+    {
+      "key": "pp2final24-q04",
+      "page": 1,
+      "title": "Checking responsiveness in the BLS sequence",
+      "question": "To check for a patient's response during the BLS (Basic Life Support) sequence, you can do:",
+      "options": {
+        "A": "Head tilt-chin lift.",
+        "B": "Look, listen and feel.",
+        "C": "Shake and shout.",
+        "D": "Jaw thrust."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Head tilt-chin lift is an airway-opening manoeuvre performed after unresponsiveness has already been confirmed, not the step used to check responsiveness itself.",
+        "B": "Incorrect. Look, listen and feel is the method used to assess breathing once the airway has been opened, a later step in the sequence than checking responsiveness.",
+        "C": "Correct. The first assessment step in the BLS sequence, once the scene is confirmed safe, is to check responsiveness by gently shaking the patient's shoulders while shouting loudly, such as \"Are you alright?\" A response means the patient is not in cardiac arrest and can be managed conservatively, while no response triggers the rest of the BLS sequence. This is a distinct, earlier step from checking breathing or the pulse.",
+        "D": "Incorrect. Jaw thrust is an airway-opening manoeuvre, used after unresponsiveness is confirmed and especially when cervical spine injury is suspected, not the responsiveness check itself."
+      },
+      "main_concept": "CON-FND-312D57AD95BA95",
+      "concept_ids": [
+        "CON-FND-312D57AD95BA95"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Basic life support and airway management",
+      "subtopic": "BLS assessment sequence",
+      "learning_objective": "State that shaking the shoulders and shouting is the method used to check responsiveness at the start of the BLS sequence.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > BLS sequence and CPR",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled + margin \"C\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-BLS-CARDIAC-ARREST"
+      ]
+    },
+    {
+      "key": "pp2final24-q05",
+      "page": 1,
+      "title": "Contraindication of the airway device shown (nasopharyngeal airway)",
+      "question": "The airway device shown in the figure above is contraindicated in:",
+      "options": {
+        "A": "Semiconscious patient.",
+        "B": "Fracture base of the skull.",
+        "C": "Trismus.",
+        "D": "Clenched jaw.",
+        "E": "Deeply comatose patient."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A semiconscious patient with an intact gag reflex is in fact a typical indication for the nasopharyngeal airway, since it is better tolerated than an oral device in this situation, not a contraindication.",
+        "B": "Correct. The nasopharyngeal airway is contraindicated when a fracture of the base of the skull is suspected — suggested clinically by CSF rhinorrhoea/otorrhoea, panda-eye bruising or Battle's sign — because the tube, passed through the nose, can travel through a fracture defect in the skull base and enter the cranial cavity. This is a serious, specific risk unique to the nasal route, which is why it does not apply to the oropharyngeal airway.",
+        "C": "Incorrect. Trismus (inability to open the mouth) is actually a reason to prefer the nasopharyngeal airway over the oropharyngeal airway, which requires mouth opening for insertion, not a contraindication to the nasal device.",
+        "D": "Incorrect. Similarly, a clenched jaw prevents oral airway insertion but does not prevent the nasal route, so it is not a contraindication to the nasopharyngeal airway.",
+        "E": "Incorrect. A deeply comatose patient without a gag reflex is generally managed with an oropharyngeal airway, but this does not make the nasopharyngeal airway contraindicated by itself; the specific, named contraindication tested here is skull base fracture."
+      },
+      "main_concept": "CON-FND-9E4CA47345DE35",
+      "concept_ids": [
+        "CON-FND-9E4CA47345DE35"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-0975E320373370"
+      ],
+      "topic": "Basic life support and airway management",
+      "subtopic": "Airway adjuncts",
+      "learning_objective": "State that the nasopharyngeal airway is contraindicated in suspected skull base fracture, and explain the mechanism.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Airway-opening manoeuvres",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled, margin \"B\" and handwritten note \"Skull base Fracture\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-AIRWAY-MANOEUVRES"
+      ]
+    },
+    {
+      "key": "pp2final24-q06",
+      "page": 2,
+      "title": "Sizing the airway device shown (nasopharyngeal airway)",
+      "question": "How is the suitable size of the airway device in the figure above chosen?",
+      "options": {
+        "A": "Diameter of the patient's little finger.",
+        "B": "Distance between the lobule of the ear and the angle of the mouth.",
+        "C": "Size of the patient's anterior nares.",
+        "D": "Distance between the patient's incisor and the angle of the eye."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The nasopharyngeal airway's diameter is estimated at the bedside by matching it to the diameter of the patient's own little finger, which approximates the internal calibre of the nasal passage. A tube too wide for this estimate risks nasal trauma or failure to pass through the nostril, while one too narrow will not adequately bypass the obstruction it is meant to relieve. This bedside estimate is separate from the tube's length, which is judged instead from nostril to the tragus of the ear or the angle of the jaw.",
+        "B": "Incorrect. This is the sizing rule for the oropharyngeal airway's length, not the nasopharyngeal airway's diameter; the two devices use different landmarks for different dimensions.",
+        "C": "Incorrect. The size of the anterior nares is not the standard sizing landmark taught for the nasopharyngeal airway, which uses the little finger for diameter instead.",
+        "D": "Incorrect. This distractor landmark is not the recognised sizing method for either standard airway adjunct."
+      },
+      "main_concept": "CON-FND-0975E320373370",
+      "concept_ids": [
+        "CON-FND-0975E320373370"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-9E4CA47345DE35",
+        "CON-FND-B60751FCB593CB"
+      ],
+      "topic": "Basic life support and airway management",
+      "subtopic": "Airway adjuncts",
+      "learning_objective": "State that the nasopharyngeal airway's diameter is estimated using the patient's little finger.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Airway-opening manoeuvres",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + margin \"A\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-AIRWAY-MANOEUVRES"
+      ]
+    },
+    {
+      "key": "pp2final24-q07",
+      "page": 2,
+      "title": "Sizing an oropharyngeal airway",
+      "question": "How is the suitable size of an oropharyngeal airway chosen for any patient?",
+      "options": {
+        "A": "Diameter of the patient's middle finger.",
+        "B": "Distance between the patient's incisor and the angle of the eye.",
+        "C": "Size of the patient's anterior nares.",
+        "D": "Distance between the lobule of the ear and the angle of the mouth."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Finger diameter is the sizing landmark used for the nasopharyngeal airway (little finger), not for the oropharyngeal airway, which is sized by a facial length measurement instead.",
+        "B": "Incorrect. Incisor-to-eye distance is not the recognised sizing landmark for the oropharyngeal airway.",
+        "C": "Incorrect. Anterior nares size is a nasal landmark and is not used to size an oral device such as the oropharyngeal airway.",
+        "D": "Correct. The oropharyngeal airway's length is estimated by measuring from the angle of the patient's mouth to the lobule of the ear. Choosing this landmark matters because a device too short fails to reach past the tongue base, while one too long can push the epiglottis down and worsen obstruction instead of relieving it. An alternative landmark sometimes taught uses the incisors to the angle of the jaw, but the mouth-angle-to-ear-lobule measurement is the one this paper's marked key selects."
+      },
+      "main_concept": "CON-FND-B60751FCB593CB",
+      "concept_ids": [
+        "CON-FND-B60751FCB593CB"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-0975E320373370"
+      ],
+      "topic": "Basic life support and airway management",
+      "subtopic": "Airway adjuncts",
+      "learning_objective": "State that the oropharyngeal airway's length is estimated from the angle of the mouth to the ear lobule.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Airway-opening manoeuvres",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + margin \"D\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-AIRWAY-MANOEUVRES"
+      ]
+    },
+    {
+      "key": "pp2final24-q08",
+      "page": 2,
+      "title": "Indication for abdominal thrusts",
+      "question": "The abdominal-thrust (Heimlich) manoeuvre is indicated in:",
+      "options": {
+        "A": "Fully conscious, effectively coughing choking patients.",
+        "B": "Fully conscious choking patients who cannot cough or speak.",
+        "C": "Collapsed cyanosed choking patients.",
+        "D": "All of the above.",
+        "E": "None of the above."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A patient who is still coughing effectively has only a partial obstruction and should be encouraged to keep coughing, since effective coughing generates higher airway pressures than any manual manoeuvre can; abdominal thrusts are not indicated here.",
+        "B": "Correct. Once a conscious choking patient can no longer cough, speak or breathe effectively, the obstruction has become complete and must be cleared mechanically rather than left to resolve on its own. Abdominal thrusts (the Heimlich manoeuvre) are delivered from behind, with an inward-and-upward thrust below the xiphoid, and are indicated specifically in this situation. They are alternated with back blows in current first-aid teaching until the obstruction clears or the patient becomes unresponsive, at which point CPR is started instead.",
+        "C": "Incorrect. A collapsed, cyanosed patient has progressed beyond simple choking management; in an unresponsive patient the correct response is to start CPR, not to continue with abdominal thrusts.",
+        "D": "Incorrect. Since abdominal thrusts are not indicated for an effectively coughing patient or for a collapsed unresponsive patient, \"all of the above\" is false.",
+        "E": "Incorrect. Abdominal thrusts genuinely are indicated in the conscious, cannot-cough-or-speak patient described in option B, so \"none of the above\" is false."
+      },
+      "main_concept": "CON-FND-0AA1F928825ABF",
+      "concept_ids": [
+        "CON-FND-0AA1F928825ABF"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-5C4297B73F7F48"
+      ],
+      "topic": "Choking management",
+      "subtopic": "Abdominal thrust technique",
+      "learning_objective": "State that abdominal thrusts are indicated once a conscious choking patient can no longer cough or speak.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Choking",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled + margin \"B\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-CHOKING"
+      ]
+    },
+    {
+      "key": "pp2final24-q09",
+      "page": 2,
+      "title": "First step for laboured, noisy breathing in an unconscious patient",
+      "question": "When managing an unconscious patient who is making laboured and noisy respirations, the physician must first:",
+      "options": {
+        "A": "Commence positive pressure ventilation with a bag-mask device immediately.",
+        "B": "Immediately perform endotracheal intubation.",
+        "C": "Perform a \"finger sweep\" to clear the oropharynx of foreign material.",
+        "D": "Perform a simple manoeuvre such as a head tilt-chin lift to open the airway."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Starting bag-mask ventilation before opening the airway is ineffective, since laboured, noisy breathing is most often caused by a simple, reversible mechanical obstruction (the tongue) that a basic manoeuvre resolves first.",
+        "B": "Incorrect. Immediate endotracheal intubation is a more invasive step than is needed as a first response, and skips the simple manoeuvre that resolves most tongue-related obstruction.",
+        "C": "Incorrect. A blind finger sweep risks pushing an unseen foreign body further into the airway and is reserved for a directly visualised object, not used as the first step for laboured breathing in general.",
+        "D": "Correct. The correct first action is a simple airway-opening manoeuvre — head tilt-chin lift, or jaw thrust if cervical spine injury is suspected. Laboured, noisy respiration in an unconscious patient is most often caused by the tongue partially obstructing the pharynx, a problem this simple step usually resolves. Only if breathing remains inadequate after this simple step is more invasive intervention, such as ventilation or intubation, considered."
+      },
+      "main_concept": "CON-FND-2CFE5FE0919554",
+      "concept_ids": [
+        "CON-FND-2CFE5FE0919554"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-0CDA671CAE0778"
+      ],
+      "topic": "Basic life support and airway management",
+      "subtopic": "Airway-opening manoeuvres",
+      "learning_objective": "State that a simple airway-opening manoeuvre is the first action for an unconscious patient with laboured, noisy breathing.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Airway-opening manoeuvres",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled, render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-AIRWAY-MANOEUVRES"
+      ]
+    },
+    {
+      "key": "pp2final24-q10",
+      "page": 2,
+      "title": "Defining signs of cardiac arrest",
+      "question": "In cardiac arrest there is:",
+      "options": {
+        "A": "Normal breathing pattern.",
+        "B": "Accepted pulse volume.",
+        "C": "Loss of consciousness, no pulse and no breathing.",
+        "D": "Normal heart function."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cardiac arrest is defined in part by the absence of normal breathing (agonal gasps may occur but do not count as normal breathing), not its presence.",
+        "B": "Incorrect. In cardiac arrest there is no palpable central pulse at all, not merely a reduced or \"accepted\" pulse volume.",
+        "C": "Correct. Cardiac arrest is recognised clinically by the combination of three findings together: the patient is unconscious, has no palpable central pulse, and is not breathing normally. This clinical triad, not any single sign alone, is what should trigger immediate CPR without waiting for further confirmation.",
+        "D": "Incorrect. Cardiac arrest is, by definition, the sudden loss of effective cardiac function, the opposite of normal heart function."
+      },
+      "main_concept": "CON-FND-6FC7C6BF76B1AB",
+      "concept_ids": [
+        "CON-FND-6FC7C6BF76B1AB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Basic life support and airway management",
+      "subtopic": "Cardiac arrest recognition",
+      "learning_objective": "State that cardiac arrest is recognised by the combination of loss of consciousness, absent pulse and absent breathing.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > BLS sequence and CPR",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled + margin \"C\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-BLS-CARDIAC-ARREST"
+      ]
+    },
+    {
+      "key": "pp2final24-q11",
+      "page": 2,
+      "title": "Signs and symptoms of choking",
+      "question": "Signs and symptoms of choking include:",
+      "options": {
+        "A": "Difficulty in breathing and/or speaking.",
+        "B": "Coughing.",
+        "C": "Pointing to the throat or grasping the neck.",
+        "D": "Cyanosis if breathing is not restored.",
+        "E": "All of the above."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect alone. Difficulty breathing and/or speaking is a genuine sign of choking, but it is only one of several recognised signs listed here.",
+        "B": "Incorrect alone. Coughing, occurring while the obstruction remains partial, is a genuine sign of choking, but not the only one.",
+        "C": "Incorrect alone. Pointing to the throat or grasping the neck is the classic \"universal choking sign,\" a genuine sign, but again only one among several.",
+        "D": "Incorrect alone. Cyanosis appearing if breathing is not restored is a genuine, if late, sign of ongoing obstruction, but not the only one.",
+        "E": "Correct. Difficulty breathing/speaking, coughing, the throat-clutching universal choking sign, and cyanosis if breathing is not restored are all recognised signs and symptoms of choking, occurring roughly in that order as obstruction persists. Recognising the earlier signs, rather than waiting for cyanosis, allows the fastest appropriate response."
+      },
+      "main_concept": "CON-FND-5C4297B73F7F48",
+      "concept_ids": [
+        "CON-FND-5C4297B73F7F48"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-0AA1F928825ABF"
+      ],
+      "topic": "Choking management",
+      "subtopic": "Recognising choking",
+      "learning_objective": "List the recognised signs and symptoms of choking, including the universal choking sign and cyanosis.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Choking",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled, render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "Printed paper listed 6 options (a-f, including \"None of the above\" as f); trimmed to 5 per LANE-CARD.md's \">5 options trimmed and documented\" rule, dropping the non-informative \"None of the above\" distractor since the correct answer is \"All of the above,\" not \"none.\"",
+      "library_ids": [
+        "ART-FND-ZU108-CHOKING"
+      ]
+    },
+    {
+      "key": "pp2final24-q12",
+      "page": 2,
+      "title": "BLS flow chart sequence",
+      "question": "The BLS (Basic Life Support) flow chart includes all the following EXCEPT:",
+      "options": {
+        "A": "R: check for response.",
+        "B": "D: check for danger/risks/hazards.",
+        "C": "C: start CPR (Cardio-Pulmonary Resuscitation).",
+        "D": "D: check for patient's disability."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this is a true BLS step, so not the answer to an EXCEPT question). R (checking response) is the first step of the BLS flow chart.",
+        "B": "Incorrect (this is a true BLS step). D (checking for danger/risks/hazards to rescuer and patient) is a genuine, early step of the BLS flow chart.",
+        "C": "Incorrect (this is a true BLS step). Starting CPR is a genuine step of the BLS sequence once cardiac arrest is confirmed.",
+        "D": "Correct. \"Disability\" is the D of the hospital-based trauma ABCDE primary survey, not a step of the lay/first-responder BLS flow chart, which instead uses D for danger/hazards. Listing a second \"D\" for disability in the BLS flow chart is therefore the item that does not belong, making this the correct answer to an EXCEPT question."
+      },
+      "main_concept": "CON-FND-90C70F6D1E42F0",
+      "concept_ids": [
+        "CON-FND-90C70F6D1E42F0"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-312D57AD95BA95"
+      ],
+      "topic": "Basic life support and airway management",
+      "subtopic": "BLS assessment sequence",
+      "learning_objective": "State the correct BLS flow-chart sequence and distinguish it from the trauma ABCDE primary survey.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > BLS sequence and CPR",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + margin \"D\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-BLS-CARDIAC-ARREST"
+      ]
+    },
+    {
+      "key": "pp2final24-q13",
+      "page": 2,
+      "title": "Correct CPR compression body mechanics",
+      "question": "When an operator is performing CPR (Cardio-Pulmonary Resuscitation):",
+      "options": {
+        "A": "Movement comes from the shoulder joint.",
+        "B": "The operator kneels beside the patient's legs.",
+        "C": "The operator's body is not perpendicular to the patient's chest.",
+        "D": "Movement comes from the hip joint."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Powering compressions from the shoulder joint (or elbow) leads to rapid rescuer fatigue and inconsistent depth; correct technique uses the hip joint instead.",
+        "B": "Incorrect. The operator kneels beside the patient's chest, not the legs, so that the shoulders sit directly over the hands for effective compressions.",
+        "C": "Incorrect. Correct technique keeps the operator's shoulders directly over the hands, with the body perpendicular (not off-angle) to the patient's chest, so that body weight is transmitted straight down through straight arms.",
+        "D": "Correct. Effective chest compressions are delivered with straight arms and shoulders positioned directly over the hands, with the compression movement driven by rocking from the hip joint rather than flexing the shoulder or elbow. This hip-driven technique lets the rescuer sustain the required compression depth and rate without the rapid fatigue that shoulder- or elbow-powered compressions cause."
+      },
+      "main_concept": "CON-FND-A422370E6710B7",
+      "concept_ids": [
+        "CON-FND-A422370E6710B7"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Basic life support and airway management",
+      "subtopic": "CPR technique",
+      "learning_objective": "Describe correct CPR compressor positioning and mechanics, with movement driven from the hip joint.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > BLS sequence and CPR",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, diagonal stroke through option letter \"d\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-BLS-CARDIAC-ARREST"
+      ]
+    },
+    {
+      "key": "pp2final24-q14",
+      "page": 3,
+      "title": "Correct AED pad placement",
+      "question": "Regarding the AED device (Automated External Defibrillator), it can be used as follows:",
+      "options": {
+        "A": "Over wet skin and over the patient's clothes.",
+        "B": "Pads are attached to the bare and dry patient's chest.",
+        "C": "Pads are attached to the patient's abdomen.",
+        "D": "Anyone can touch the patient during shock delivery."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Applying pads over wet skin or clothing compromises adhesion and can conduct current across the skin surface rather than through the heart, and poses a shock hazard, so wet skin must be dried and clothing removed first.",
+        "B": "Correct. For an AED to deliver an effective, safely conducted shock, its pads must be applied directly to bare skin on a dry chest. Clothing at the pad site blocks adhesion, and moisture (sweat, water, rain) risks conducting current across the skin surface instead of through the heart. Wet skin should be quickly wiped dry, and any transdermal patches or jewellery removed from the pad sites, before the pads are attached.",
+        "C": "Incorrect. AED pads are placed in the standard anterolateral (or anteroposterior) chest positions, not on the abdomen.",
+        "D": "Incorrect. Nobody should be touching the patient when an AED shock is delivered, both for rescuer safety and to avoid interfering with the shock."
+      },
+      "main_concept": "CON-FND-B2C795580499C8",
+      "concept_ids": [
+        "CON-FND-B2C795580499C8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Basic life support and airway management",
+      "subtopic": "Automated external defibrillation",
+      "learning_objective": "State that AED pads are applied to bare, dry skin, and explain why clothing or moisture at the pad site compromises the shock.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > BLS sequence and CPR",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"b\", margin \"B\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-BLS-CARDIAC-ARREST"
+      ]
+    },
+    {
+      "key": "pp2final24-q15",
+      "page": 3,
+      "title": "Purpose of the recovery position",
+      "question": "Regarding the position shown in the image above, which statement is true?",
+      "options": {
+        "A": "It can maintain a patent airway in an unconscious, normally breathing victim.",
+        "B": "It can be used for a victim with loss of consciousness, no pulse and no breathing.",
+        "C": "It can be used safely for a victim with spine or limb fracture.",
+        "D": "It can't prevent airway obstruction by the tongue."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The recovery position keeps the airway open in an unconscious patient who is breathing normally, by letting the tongue fall forward rather than back into the pharynx. It also lets vomit or secretions drain out of the mouth rather than pool in the airway, reducing aspiration risk while help arrives. It is reserved for a patient who is breathing normally, since a patient in cardiac arrest or with a suspected spinal injury needs different management instead.",
+        "B": "Incorrect. A patient with no pulse and no breathing is in cardiac arrest and needs immediate CPR, not the recovery position, which is reserved for a patient who is breathing normally.",
+        "C": "Incorrect. The recovery position is not used, or is used only with great caution and modification, for a victim with a suspected spine or limb fracture, since moving the patient into this position risks worsening such an injury.",
+        "D": "Incorrect. The recovery position specifically does prevent airway obstruction by the tongue, which is exactly its mechanism of action (letting the tongue fall forward rather than back)."
+      },
+      "main_concept": "CON-FND-F4D9CB6A4A3FF0",
+      "concept_ids": [
+        "CON-FND-F4D9CB6A4A3FF0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Patient safety and transfer",
+      "subtopic": "Recovery position",
+      "learning_objective": "State that the recovery position maintains a patent airway and reduces aspiration risk in an unconscious, normally breathing patient.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Recovery position and transfer",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled + diagonal stroke through \"a\", margin \"A\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-RECOVERY-TRANSFER"
+      ]
+    },
+    {
+      "key": "pp2final24-q16",
+      "page": 3,
+      "title": "Safe method of patient transfer",
+      "question": "We can use the following to transfer a patient safely:",
+      "options": {
+        "A": "Truck.",
+        "B": "Electric train.",
+        "C": "Ambulance.",
+        "D": "Airplane."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. An ordinary truck has no equipment or trained staff to monitor and treat a patient en route, so it is not an appropriate way to transfer a sick or injured patient.",
+        "B": "Incorrect. An electric train similarly offers no patient monitoring, airway management or treatment capability, and is not designed or staffed for patient transfer.",
+        "C": "Correct. An ambulance is purpose-built and staffed to monitor the patient, maintain the airway, continue treatment such as oxygen or IV fluids, and manage deterioration en route. This equipped, trained-staff capability is what makes it the appropriate vehicle for safe patient transfer, rather than ordinary road, rail or air transport. Choosing an ambulance over other transport is therefore a basic patient-safety decision, not merely a matter of convenience or speed.",
+        "D": "Incorrect. A commercial airplane, like a truck or train, is not equipped or staffed for the ongoing monitoring and treatment a transferred patient may need."
+      },
+      "main_concept": "CON-FND-7FF29A40E6491E",
+      "concept_ids": [
+        "CON-FND-7FF29A40E6491E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Patient safety and transfer",
+      "subtopic": "Safe transfer methods",
+      "learning_objective": "State that an ambulance, equipped and staffed to monitor and treat a patient, is the appropriate means of safe patient transfer.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Recovery position and transfer",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + margin \"C\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-RECOVERY-TRANSFER"
+      ]
+    },
+    {
+      "key": "pp2final24-q17",
+      "page": 3,
+      "title": "Section of a general history that records name, age and sex",
+      "question": "Name, age and sex of the patient are considered:",
+      "options": {
+        "A": "Family history.",
+        "B": "Past history.",
+        "C": "Personal history.",
+        "D": "History of present illness."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Family history records the health of the patient's relatives, not the patient's own identifying data.",
+        "B": "Incorrect. Past history records the patient's own prior illnesses, admissions, operations and similar background, not basic identifying data such as name, age and sex.",
+        "C": "Correct. The general medical history is structured into named sections, and personal history is the one that records the patient's identifying and demographic data. This includes name, age, sex, occupation, marital status, residence and similar items. It is recorded first, before the presenting complaint and history of present illness, since it identifies who the patient is rather than what has brought them to the clinician.",
+        "D": "Incorrect. History of present illness is the structured account of the current complaint (site, onset, course, character and so on), not basic identifying data."
+      },
+      "main_concept": "CON-FND-0074397AC5A742",
+      "concept_ids": [
+        "CON-FND-0074397AC5A742"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "General medical history",
+      "subtopic": "Personal history",
+      "learning_objective": "State that name, age and sex are recorded under the personal-history section of a general medical history.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > History and consciousness",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"c\", margin \"C\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-HISTORY-CONSCIOUSNESS"
+      ]
+    },
+    {
+      "key": "pp2final24-q18",
+      "page": 3,
+      "title": "Preferred injection route for chronic disease medications",
+      "question": "Medications for dehydration, malnutrition, cancer and autoimmune disorders are best given through which route of injection?",
+      "options": {
+        "A": "Intramuscular.",
+        "B": "Intravenous.",
+        "C": "Subcutaneous.",
+        "D": "Intradermal."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Intramuscular injection has slower, less complete absorption than intravenous delivery and is not the preferred route for the large fluid volumes or precisely dosed agents needed in these conditions.",
+        "B": "Correct. Dehydration, malnutrition, cancer and autoimmune disease often require large fluid volumes, precise dosing, or agents (chemotherapy, biologic immunosuppressants) that are poorly or unpredictably absorbed by other routes. The intravenous route delivers medication or fluid directly into the circulation, giving complete bioavailability and rapid, controllable effect, which is why it is preferred for rehydration, nutritional support and these disease-modifying therapies.",
+        "C": "Incorrect. Subcutaneous injection is used for smaller volumes needing steady, gradual absorption (such as insulin), not for the large-volume or rapid, complete delivery needed here.",
+        "D": "Incorrect. Intradermal injection delivers only very small volumes for local diagnostic or therapeutic purposes and is not suitable for systemic fluid or medication administration."
+      },
+      "main_concept": "CON-FND-85DEA78ECC1776",
+      "concept_ids": [
+        "CON-FND-85DEA78ECC1776"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-EAFA22EE99DD34"
+      ],
+      "topic": "Injection techniques and routes",
+      "subtopic": "Intravenous route",
+      "learning_objective": "State that the intravenous route is preferred for the fluids and medications used in dehydration, malnutrition, cancer and autoimmune disease.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Injection techniques",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"b\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-INJECTIONS"
+      ]
+    },
+    {
+      "key": "pp2final24-q19",
+      "page": 3,
+      "title": "Level of consciousness with no response to any stimulus",
+      "question": "In general examination, if the patient is completely unconscious with no response to pain or any external or internal stimuli, we can say that the patient is:",
+      "options": {
+        "A": "Lethargic.",
+        "B": "Obtunded.",
+        "C": "Comatosed.",
+        "D": "Alert."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Lethargic (somnolent) describes a patient who is drowsy but can still be aroused to name when called in a normal voice, which is a much greater degree of responsiveness than \"no response to any stimulus.\"",
+        "B": "Incorrect. Obtunded describes a patient arousable only by loud or repeated stimulation, who still shows some response, unlike the complete unresponsiveness described here.",
+        "C": "Correct. Level of consciousness is described along a graded ladder from alert down through lethargic, obtunded and stupor/semi-coma (which still responds to vigorous pain) to coma, defined by complete unresponsiveness with no reaction to pain or to any external or internal stimulus. A patient with no response at all to pain or any stimulus therefore sits at this bottom rung and is called comatose.",
+        "D": "Incorrect. Alert describes full awareness and appropriate responsiveness, the opposite end of the consciousness ladder from the patient described."
+      },
+      "main_concept": "CON-FND-4832D8CFE5BB0C",
+      "concept_ids": [
+        "CON-FND-4832D8CFE5BB0C"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Consciousness assessment",
+      "subtopic": "Levels of consciousness",
+      "learning_objective": "Place complete unresponsiveness to pain and stimuli correctly at the comatose end of the levels-of-consciousness ladder.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > History and consciousness",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"c\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-HISTORY-CONSCIOUSNESS"
+      ]
+    },
+    {
+      "key": "pp2final24-q20",
+      "page": 3,
+      "title": "Uses of the intradermal route (insulin exception)",
+      "question": "The uses of the intradermal injection route include all of the following EXCEPT:",
+      "options": {
+        "A": "TB screening.",
+        "B": "Allergy testing.",
+        "C": "Local anaesthesia.",
+        "D": "Insulin administration."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this is a genuine intradermal use, so not the answer). The Mantoux tuberculin skin test is a classic intradermal-route use, exploiting the visible local wheal and reaction it produces.",
+        "B": "Incorrect (this is a genuine intradermal use). Allergy skin testing similarly relies on observing a local reaction at an intradermal injection site.",
+        "C": "Incorrect (this is a genuine intradermal use). Local anaesthesia for minor procedures is another recognised intradermal-route use.",
+        "D": "Correct. Insulin needs steady, predictable systemic absorption rather than a visible local reaction. It is therefore given subcutaneously, not intradermally, unlike TB screening, allergy testing and local anaesthesia. This makes insulin administration the exception among this list of otherwise-genuine intradermal-route uses."
+      },
+      "main_concept": "CON-FND-4F08B75975DA41",
+      "concept_ids": [
+        "CON-FND-4F08B75975DA41"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-B471BB5E784E3D",
+        "CON-FND-5363BC64153A27"
+      ],
+      "topic": "Injection techniques and routes",
+      "subtopic": "Intradermal route",
+      "learning_objective": "List TB screening, allergy testing and local anaesthesia as intradermal-route uses, and state that insulin is given subcutaneously instead.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Injection techniques",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"d\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-INJECTIONS"
+      ]
+    },
+    {
+      "key": "pp2final24-q21",
+      "page": 4,
+      "title": "Components of vital signs",
+      "question": "Vital signs include all of the following EXCEPT:",
+      "options": {
+        "A": "Pulse.",
+        "B": "Abdominal examination.",
+        "C": "Temperature.",
+        "D": "Blood pressure."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this is a genuine vital sign, so not the answer). Pulse (heart rate) is one of the four basic physiological measurements that make up the vital signs.",
+        "B": "Correct. Vital signs are pulse, blood pressure, temperature and respiratory rate — the small set of basic physiological measurements taken to gauge essential bodily function. Abdominal examination is a component of physical examination, not a vital sign; it is a focused clinical assessment, not one of the four basic measurements recorded routinely on every patient.",
+        "C": "Incorrect (this is a genuine vital sign). Temperature is one of the four basic vital-sign measurements.",
+        "D": "Incorrect (this is a genuine vital sign). Blood pressure is one of the four basic vital-sign measurements."
+      },
+      "main_concept": "CON-FND-B25D06E896B012",
+      "concept_ids": [
+        "CON-FND-B25D06E896B012"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Vital signs measurement",
+      "subtopic": "Vital signs overview",
+      "learning_objective": "List pulse, blood pressure, temperature and respiratory rate as the vital signs, distinct from physical-examination components.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Vital signs",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"b\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-VITAL-SIGNS"
+      ]
+    },
+    {
+      "key": "pp2final24-q22",
+      "page": 4,
+      "title": "Difference between peripheral and apical pulse rates",
+      "question": "The difference between the rate of the peripheral and apical pulse is called:",
+      "options": {
+        "A": "Pulse deficit.",
+        "B": "Pulse volume.",
+        "C": "Pulsus bigeminy.",
+        "D": "Pulsus alternans."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In some arrhythmias, classically atrial fibrillation, not every ventricular contraction generates a palpable peripheral pulse wave even though it is audible as a heartbeat at the apex. Counting the apical heart rate and the peripheral (radial) pulse rate simultaneously and subtracting the smaller from the larger gives the pulse deficit, the number of beats per minute reaching the heart but failing to reach the periphery.",
+        "B": "Incorrect. Pulse volume describes the strength or amplitude of a single pulse, not a rate difference between two simultaneously counted sites.",
+        "C": "Incorrect. Pulsus bigeminy describes an every-other-beat rhythm pattern (alternating strong and weak or skipped beats in pairs), not a rate difference between apical and peripheral counts.",
+        "D": "Incorrect. Pulsus alternans describes alternating strong and weak pulse beats of otherwise regular rhythm, again a different phenomenon from a rate difference between two counting sites."
+      },
+      "main_concept": "CON-FND-8F82032ECCCA21",
+      "concept_ids": [
+        "CON-FND-8F82032ECCCA21"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-4F410EC4B72356"
+      ],
+      "topic": "Vital signs measurement",
+      "subtopic": "Pulse assessment",
+      "learning_objective": "Define pulse deficit as the difference between apical and peripheral pulse rates, distinct from pulse volume, bigeminy and alternans.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Vital signs",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"A\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-VITAL-SIGNS"
+      ]
+    },
+    {
+      "key": "pp2final24-q23",
+      "page": 4,
+      "title": "Angle of intradermal injection",
+      "question": "The angle of administration for an intradermal injection is:",
+      "options": {
+        "A": "5 to 15 degrees.",
+        "B": "70 to 90 degrees.",
+        "C": "45 degrees.",
+        "D": "90 degrees."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. An intradermal injection must deposit its volume in the dermis itself, just beneath the epidermis, rather than in the deeper subcutaneous fat. To achieve this, the needle (bevel up) is inserted almost parallel to the skin surface, at about a 5 to 15 degree angle. This is the shallowest of the standard injection angles, markedly shallower than the roughly 45 degrees used for subcutaneous injection or the 70-90 degrees used for intramuscular injection.",
+        "B": "Incorrect. 70 to 90 degrees is the angle used for intramuscular injection, which must reach through the subcutaneous fat into muscle, not the shallow intradermal route.",
+        "C": "Incorrect. 45 degrees is the angle typically used for subcutaneous injection, deeper than the near-parallel intradermal angle.",
+        "D": "Incorrect. 90 degrees is a steep angle used for some intramuscular or subcutaneous techniques, not for the intradermal route, which requires a shallow angle to stay within the dermis."
+      },
+      "main_concept": "CON-FND-B471BB5E784E3D",
+      "concept_ids": [
+        "CON-FND-B471BB5E784E3D"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-4F08B75975DA41"
+      ],
+      "topic": "Injection techniques and routes",
+      "subtopic": "Intradermal route",
+      "learning_objective": "State that the intradermal injection angle is about 5-15 degrees, the shallowest of the standard injection angles.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Injection techniques",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed, question number circled, render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-INJECTIONS"
+      ]
+    },
+    {
+      "key": "pp2final24-q24",
+      "page": 4,
+      "title": "Audible phases of Korotkoff sounds",
+      "question": "How many phases of Korotkoff sounds are heard during blood pressure measurement?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Two phases substantially undercounts the recognised Korotkoff sequence, which passes through a tapping, a murmurish, a banging and a muffled sound quality before disappearing.",
+        "B": "Incorrect. Three phases also undercounts the recognised sequence of distinct sound qualities heard during cuff deflation.",
+        "C": "Correct. As cuff pressure falls, the sounds heard over the brachial artery pass through five named phases (I-V): a first tapping sound (I), a softer murmurish quality (II), a louder banging quality (III), abrupt muffling (IV), and disappearance of sound (V). Because phase V is defined by the disappearance — the absence — of sound, only phases I through IV actually produce an audible sound, so 4 of the 5 named phases are genuinely \"heard,\" which is what this question tests.",
+        "D": "Incorrect. Five is the total count of named Korotkoff phases (I-V), but phase V is silence, not a sound that is heard, so 5 overcounts the phases with an audible sound specifically."
+      },
+      "main_concept": "CON-CVS-20A1EC258BFF30",
+      "concept_ids": [
+        "CON-CVS-20A1EC258BFF30"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Vital signs measurement",
+      "subtopic": "Blood pressure measurement",
+      "learning_objective": "State that 4 of the 5 named Korotkoff phases produce an audible sound, since phase V is defined by silence.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Vital signs",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option circled, render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "main_concept is a reused pending concept (CON-CVS-20A1EC258BFF30, another lane's unimported batch, names all 5 phases including silence at phase V) — see pending-live/ZU-MED-108-pp2final24-pending-overlays.md. The printed key of \"4\" is kept as printed and read as \"phases with an audible sound\" (I-IV), distinct from the total of 5 named phases; not held, since only one option is marked and it is medically defensible on this reading.",
+      "library_ids": [
+        "ART-CVS-BP-PULSE-AUSCULTATION"
+      ]
+    },
+    {
+      "key": "pp2final24-q25",
+      "page": 4,
+      "title": "Injection route using the Z-track technique",
+      "question": "The Z-track technique is used for which route of injection?",
+      "options": {
+        "A": "Intravenous.",
+        "B": "Intramuscular.",
+        "C": "Subcutaneous.",
+        "D": "Intradermal."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The Z-track technique involves displacing skin over muscle before injection, a manoeuvre with no meaning for an intravenous injection, which does not pass through skin/muscle layers to reach its target.",
+        "B": "Correct. The Z-track technique displaces the skin and subcutaneous tissue sideways before needle insertion, injects into the muscle, and only then releases the tissue, so the needle track seals into a \"Z\" shape as the layers slide back into place. It is used for intramuscular injections, particularly of drugs that are irritant or that stain the skin if they leak back along a straight needle track, such as iron dextran. This prevents the drug leaking into the subcutaneous tissue once the needle is withdrawn.",
+        "C": "Incorrect. Subcutaneous injection targets the fat layer directly beneath the injection site and does not use the Z-track's muscle-sealing displacement technique.",
+        "D": "Incorrect. Intradermal injection is a very shallow, small-volume technique into the dermis and has no use for the Z-track method, which is specifically for sealing drug inside muscle."
+      },
+      "main_concept": "CON-FND-E440819B4C4F8B",
+      "concept_ids": [
+        "CON-FND-E440819B4C4F8B"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-17252465B54E65"
+      ],
+      "topic": "Injection techniques and routes",
+      "subtopic": "Intramuscular route",
+      "learning_objective": "State that the Z-track technique is an intramuscular injection method used to prevent an irritant drug leaking back along the needle track.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Injection techniques",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"b\", question number circled, render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-INJECTIONS"
+      ]
+    },
+    {
+      "key": "pp2final24-q26",
+      "page": 4,
+      "title": "Diagnostic threshold for postural hypotension",
+      "question": "In postural hypotension, systolic blood pressure decreases after a patient has been standing for 2 minutes by:",
+      "options": {
+        "A": "≥ 20 mmHg.",
+        "B": "≥ 3 mmHg.",
+        "C": "≥ 5 mmHg.",
+        "D": "≥ 7 mmHg."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When a healthy person stands, reflex vasoconstriction and a modest heart-rate rise normally compensate for gravitational pooling of blood in the legs, so blood pressure changes only slightly and stabilises within about 1 to 2 minutes. Postural hypotension is diagnosed when this compensation fails and systolic blood pressure falls by 20 mmHg or more within 2 minutes of standing, distinguishing a pathological drop from the small physiological fluctuation seen in everyone.",
+        "B": "Incorrect. A fall of only 3 mmHg is well within the normal physiological range seen in healthy people on standing and does not meet the diagnostic threshold for postural hypotension.",
+        "C": "Incorrect. A fall of 5 mmHg is still within the range of normal postural adjustment and is too small to meet the recognised diagnostic threshold.",
+        "D": "Incorrect. A fall of 7 mmHg remains below the recognised diagnostic threshold of 20 mmHg used to define postural hypotension."
+      },
+      "main_concept": "CON-FND-046F32E1F778EF",
+      "concept_ids": [
+        "CON-FND-046F32E1F778EF"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Vital signs measurement",
+      "subtopic": "Blood pressure measurement pitfalls",
+      "learning_objective": "State the diagnostic threshold for postural hypotension (systolic BP fall of 20 mmHg or more within 2 minutes of standing).",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Vital signs",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"a\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-VITAL-SIGNS"
+      ]
+    },
+    {
+      "key": "pp2final24-q27",
+      "page": 4,
+      "title": "Injection into the fatty layer beneath the dermis",
+      "question": "An injection into the fatty layer that lies beneath the dermis is called:",
+      "options": {
+        "A": "Intravenous.",
+        "B": "Intramuscular.",
+        "C": "Subcutaneous.",
+        "D": "Intradermal."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Intravenous injection delivers medication directly into a blood vessel, not into a tissue layer such as fat.",
+        "B": "Incorrect. Intramuscular injection passes through the fat layer to reach the muscle beneath it, a deeper target than the fatty layer itself.",
+        "C": "Correct. The skin is layered as epidermis, then dermis, then a fatty subcutaneous layer above muscle. Subcutaneous injection is defined by delivering medication into this fat layer immediately beneath the dermis, reached at roughly a 45-degree needle angle. This places it between the two other routes by depth: shallower than intramuscular injection, which passes through the fat into muscle, and deeper than intradermal injection, which stays within the dermis itself.",
+        "D": "Incorrect. Intradermal injection stays within the dermis itself, shallower than the fatty layer beneath it that this question describes."
+      },
+      "main_concept": "CON-FND-5363BC64153A27",
+      "concept_ids": [
+        "CON-FND-5363BC64153A27"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-4F08B75975DA41"
+      ],
+      "topic": "Injection techniques and routes",
+      "subtopic": "Subcutaneous route",
+      "learning_objective": "Define subcutaneous injection as delivery into the fatty layer beneath the dermis, between the intradermal and intramuscular routes by depth.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Injection techniques",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"C\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-INJECTIONS"
+      ]
+    },
+    {
+      "key": "pp2final24-q28",
+      "page": 4,
+      "title": "Systolic minus diastolic blood pressure",
+      "question": "Systolic blood pressure minus (-) diastolic blood pressure equals:",
+      "options": {
+        "A": "Rate.",
+        "B": "Pulse pressure.",
+        "C": "Rhythm.",
+        "D": "Pulse deficit."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Rate refers to how often the heart beats per minute, not to a pressure difference calculation.",
+        "B": "Correct. Pulse pressure is defined as the difference between systolic and diastolic blood pressure, normally about 30-50 mmHg. It widens when arterial compliance falls, for example in atherosclerosis, because the arteries cannot distend enough to accommodate the stroke volume (raising systolic pressure) and recoil less in diastole (lowering diastolic pressure). This is distinct from mean arterial pressure, which is diastolic pressure plus one-third of the pulse pressure, not a simple arithmetic mean.",
+        "C": "Incorrect. Rhythm describes the regularity of the heartbeat, not a calculated pressure difference.",
+        "D": "Incorrect. Pulse deficit is the difference between apical and peripheral pulse rates, a different calculation from the systolic-minus-diastolic pressure difference this question asks about."
+      },
+      "main_concept": "CON-CVS-A0579343614BCD",
+      "concept_ids": [
+        "CON-CVS-A0579343614BCD"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-8F82032ECCCA21"
+      ],
+      "topic": "Vital signs measurement",
+      "subtopic": "Blood pressure measurement",
+      "learning_objective": "State that pulse pressure is the difference between systolic and diastolic blood pressure.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Vital signs",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"B\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "main_concept is a reused pending concept (CON-CVS-A0579343614BCD, another lane's unimported batch, covers systolic/diastolic/MAP/pulse pressure together) — see pending-live/ZU-MED-108-pp2final24-pending-overlays.md.",
+      "library_ids": [
+        "ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"
+      ]
+    },
+    {
+      "key": "pp2final24-q29",
+      "page": 4,
+      "title": "Complications of intramuscular injection",
+      "question": "Complications of intramuscular injection include:",
+      "options": {
+        "A": "Muscle fibrosis and contracture.",
+        "B": "Abscess at the injection site.",
+        "C": "Nerve injury.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Muscle fibrosis and contracture, from repeated injection into the same site, is a genuine complication of intramuscular injection, but not the only one listed.",
+        "B": "Incorrect alone. Abscess at the injection site, from local infection or an irritant drug, is a genuine complication, but not the only one listed.",
+        "C": "Incorrect alone. Nerve injury (classically the sciatic nerve in a misplaced gluteal injection, or the femoral nerve in a misplaced vastus lateralis injection) is a genuine complication, but not the only one listed.",
+        "D": "Correct. Intramuscular injection carries all three of these recognised local complications: muscle fibrosis and contracture from repeated injection into the same site, abscess formation from local infection or an irritant drug, and nerve injury. The nerve at risk is classically the sciatic nerve if a gluteal injection is placed too medially or inferiorly, or the femoral nerve with a misplaced vastus lateralis injection. This is why correct site selection, such as the ventrogluteal or vastus lateralis site, and rotating injection sites are taught alongside the technique itself."
+      },
+      "main_concept": "CON-FND-17252465B54E65",
+      "concept_ids": [
+        "CON-FND-17252465B54E65"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-E440819B4C4F8B"
+      ],
+      "topic": "Injection techniques and routes",
+      "subtopic": "Intramuscular route",
+      "learning_objective": "List muscle fibrosis/contracture, abscess and nerve injury as recognised complications of intramuscular injection.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Injection techniques",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"D\", margin \"D\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-INJECTIONS"
+      ]
+    },
+    {
+      "key": "pp2final24-q30",
+      "page": 4,
+      "title": "Location of the brachial pulse",
+      "question": "Which pulsation is felt at the medial side of the antecubital fossa, just medial to the tendinous insertion of the biceps?",
+      "options": {
+        "A": "Radial pulse.",
+        "B": "Carotid pulse.",
+        "C": "Brachial pulse.",
+        "D": "Femoral pulse."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The radial pulse is felt at the lateral wrist, not at the antecubital fossa.",
+        "B": "Incorrect. The carotid pulse is felt in the neck, lateral to the larynx, not at the antecubital fossa.",
+        "C": "Correct. The brachial artery runs down the medial arm and crosses the antecubital fossa before dividing into the radial and ulnar arteries. At the fossa it lies just medial to the biceps brachii tendon, which is why the tendon is used as the landmark to find the pulse. This same location is why the brachial artery, not the radial, is auscultated with a stethoscope during blood pressure measurement.",
+        "D": "Incorrect. The femoral pulse is felt in the groin, at the midpoint of the inguinal ligament, not at the antecubital fossa."
+      },
+      "main_concept": "CON-FND-4F410EC4B72356",
+      "concept_ids": [
+        "CON-FND-4F410EC4B72356"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-8F82032ECCCA21"
+      ],
+      "topic": "Vital signs measurement",
+      "subtopic": "Pulse assessment",
+      "learning_objective": "State that the brachial pulse is palpated medial to the biceps tendon in the antecubital fossa.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Vital signs",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"C\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-VITAL-SIGNS"
+      ]
+    },
+    {
+      "key": "pp2final24-q31",
+      "page": 4,
+      "title": "Fastest injection route",
+      "question": "The fastest way to inject a medication is:",
+      "options": {
+        "A": "Intravenous.",
+        "B": "Intramuscular.",
+        "C": "Subcutaneous.",
+        "D": "Intradermal."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Intravenous injection delivers medication directly into the bloodstream, bypassing tissue absorption entirely. This gives it complete bioavailability and the fastest possible onset of action among the standard injection routes. It is chosen whenever the fastest possible drug effect is required, such as in emergencies, precisely because no absorption step delays the drug reaching the circulation.",
+        "B": "Incorrect. Intramuscular injection is faster than subcutaneous or intradermal injection but still requires absorption from muscle tissue into the bloodstream, which is inherently slower than direct intravenous delivery.",
+        "C": "Incorrect. Subcutaneous injection is absorbed even more slowly than intramuscular injection, since fat is less vascular than muscle, making it slower still than the intravenous route.",
+        "D": "Incorrect. Intradermal injection is absorbed the most slowly of the standard routes, since the dermis is the least vascular of the tissue layers used for injection, so it is the furthest from the fastest, intravenous, route."
+      },
+      "main_concept": "CON-FND-EAFA22EE99DD34",
+      "concept_ids": [
+        "CON-FND-EAFA22EE99DD34"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-85DEA78ECC1776"
+      ],
+      "topic": "Injection techniques and routes",
+      "subtopic": "Comparing injection routes",
+      "learning_objective": "State that the intravenous route has the fastest onset of action among the standard injection routes.",
+      "media_recommendations": "",
+      "module_subject": "ZU-MED-108 > Professional Practice II > Injection techniques",
+      "field_notes": {
+        "keySource": "hand-drawn ink key, option boxed + diagonal stroke through \"A\", render-confirmed",
+        "sourceProvenance": "Fakous campus (Zagazig's second Faculty of Medicine) — LANE-CARD.md §7"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-FND-ZU108-INJECTIONS"
+      ]
+    }
+  ]
+}

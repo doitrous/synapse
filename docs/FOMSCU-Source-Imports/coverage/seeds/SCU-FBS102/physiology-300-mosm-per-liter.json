@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-300-mosm-per-liter",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-300-mosm-per-liter'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Body Fluids > Osmolarity"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-300-MOSM-PER-LITER",
+      "key": "physiology-300-mosm-per-liter",
+      "title": "Normal extracellular fluid osmolarity",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Body Fluids > Osmolarity",
+      "question": "What is the normal physiological value of osmolarity in the extracellular fluid of the human body?",
+      "options": {
+        "A": "300 mg per deciliter",
+        "B": "300 Osm per liter",
+        "C": "300 mOsm per liter",
+        "D": "300 mg per liter"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Milligrams per deciliter is a mass-concentration unit used for substances such as glucose, not the unit for osmolarity, which counts osmotically active particles.",
+        "B": "Incorrect. This is off by a factor of one thousand — 300 whole osmoles per liter would represent an enormously, physiologically impossible solute concentration; the correct value is expressed in milliosmoles, not osmoles.",
+        "C": "Correct. Normal extracellular fluid osmolarity is approximately 300 milliosmoles per liter (mOsm/L), tightly regulated by osmoreceptor-driven thirst and ADH secretion, and because water equilibrates freely across most cell membranes, intracellular fluid osmolarity matches this same value. Getting the unit right matters as much as the number, since milligrams per deciliter or whole osmoles per liter describe entirely different, and here incorrect, quantities.",
+        "D": "Incorrect. Milligrams per liter is again a mass-concentration unit, not the milliosmole-per-liter unit that osmolarity is properly expressed in."
+      },
+      "topic": "Physiology",
+      "subtopic": "Body fluid compartments",
+      "main_concept": "CON-FND-10FF6A7CC0F85D",
+      "concept_ids": [
+        "CON-FND-10FF6A7CC0F85D"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-CELL-MEMBRANE-AND-FLUID-BASICS"
+      ],
+      "learning_objective": "State that normal extracellular fluid osmolarity is approximately 300 mOsm/L, and that this value is expressed in milliosmoles, not milligrams or osmoles, per liter.",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOY Foundation 1 2026 Q55",
+      "author_notes": ""
+    }
+  ]
+}

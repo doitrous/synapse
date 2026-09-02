@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-delayed-potassium-closure",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-delayed-potassium-closure'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "neuro",
+    "module_subject": "SCU-FBS102 > Physiology > Nerve and Muscle Physiology > Action Potential"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-DELAYED-POTASSIUM-CLOSURE",
+      "key": "physiology-delayed-potassium-closure",
+      "title": "Afterhyperpolarization follows delayed potassium channel closure",
+      "subject": "neuro",
+      "module_subject": "SCU-FBS102 > Physiology > Nerve and Muscle Physiology > Action Potential",
+      "question": "The occurrence of afterhyperpolarization (the undershoot) following an action potential is primarily due to which of the following ionic mechanisms?",
+      "options": {
+        "A": "Persistent inward flow of sodium into the cell",
+        "B": "Significantly delayed closure of inward calcium channels",
+        "C": "Delayed closure of the voltage-gated potassium channels that produced repolarization",
+        "D": "Sudden, rapid opening of chloride channels"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Persistent sodium influx would keep the membrane depolarized, not drive it below resting potential; sodium channels are inactivated, not persistently open, by this point in the cycle.",
+        "B": "Incorrect. Delayed calcium channel closure is not the mechanism responsible for the afterhyperpolarization in a typical neuronal action potential; the relevant channels are potassium, not calcium.",
+        "C": "Correct. The same voltage-gated potassium channels that drove repolarization close more slowly than they opened, so they remain open briefly after the membrane has already reached resting potential, letting extra K+ leave and driving the membrane transiently past rest, toward the potassium equilibrium potential. This afterhyperpolarization briefly makes the neuron harder to re-excite, contributing to the relative refractory period that follows.",
+        "D": "Incorrect. Chloride channels are not the primary driver of the afterhyperpolarization; the phenomenon is explained by the lingering open state of the repolarizing potassium channels."
+      },
+      "topic": "Physiology",
+      "subtopic": "Nerve physiology: the action potential",
+      "main_concept": "CON-NEU-5F2CC7790C106F",
+      "concept_ids": [
+        "CON-NEU-5F2CC7790C106F"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-ACTION-POTENTIAL-IONIC-BASIS"
+      ],
+      "learning_objective": "State that the afterhyperpolarization following an action potential is caused by the delayed closure of the same voltage-gated potassium channels that produced repolarization.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q53, Formative and Past Exams 2022 Q33",
+      "author_notes": ""
+    }
+  ]
+}

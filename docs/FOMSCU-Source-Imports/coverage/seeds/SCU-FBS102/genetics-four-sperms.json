@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-four-sperms",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-four-sperms'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "dev",
+    "module_subject": "SCU-FBS102 > Genetics > Gametogenesis > Spermatogenesis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-FOUR-SPERMS",
+      "key": "genetics-four-sperms",
+      "title": "One primary spermatocyte yields four sperm",
+      "subject": "dev",
+      "module_subject": "SCU-FBS102 > Genetics > Gametogenesis > Spermatogenesis",
+      "question": "A single primary spermatocyte cell undergoes complete meiosis to produce how many individual sperm cells?",
+      "options": {
+        "A": "One sperm",
+        "B": "Two sperm",
+        "C": "Four sperm",
+        "D": "Eight sperm"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. One sperm would be the outcome only if meiosis discarded most of its products, as in oogenesis; spermatogenesis is symmetric at every division and produces more than a single sperm.",
+        "B": "Incorrect. Two sperm would describe the yield of only the first meiotic division (two secondary spermatocytes); each of those two must still complete a second meiotic division, doubling the final yield.",
+        "C": "Correct. The first meiotic division of one primary spermatocyte yields two secondary spermatocytes, and each of those completes the second meiotic division to yield two spermatids apiece, for four spermatids (and ultimately four mature sperm) in total, since spermatogenesis discards no products at either division. Each of the four spermatids is genetically distinct, shuffled by crossing-over and independent assortment, before maturing into a functional sperm.",
+        "D": "Incorrect. Eight sperm would require a third division; spermatogenesis involves exactly two meiotic divisions from each primary spermatocyte, yielding four, not eight, products."
+      },
+      "topic": "Genetics",
+      "subtopic": "Spermatogenesis",
+      "main_concept": "CON-DEV-B8D22B244F1E15",
+      "concept_ids": [
+        "CON-DEV-B8D22B244F1E15"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MEIOSIS-SPERMATOGENESIS"
+      ],
+      "learning_objective": "State that a single primary spermatocyte produces four spermatids/sperm after completing both meiotic divisions, because both divisions in spermatogenesis are equal (no polar bodies are discarded, unlike oogenesis).",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q29, Formative and Past Exams 2022 Q9",
+      "author_notes": ""
+    }
+  ]
+}

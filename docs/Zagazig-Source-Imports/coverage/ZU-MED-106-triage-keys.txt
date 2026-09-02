@@ -52,3 +52,21 @@ cps-splenic-sinusoid-endothelium  # new · key: b) Elongated endothelial cells
 cps-basilar-artery-characteristics  # new · key: c) Wide lumen and thin wall
 cps-nervous-tissue-capillaries  # new · key: a) Contain pinocytic vesicles that permit transport
 cps-terminal-bronchiole-histology  # live (partial — different fact than live concept) · key: b) Lamina propria has no glands
+# --- author2 pass: 3 remaining Priority-4 Cardiopulmonary sources (coverage/ZU-MED-106-triage.md
+# "The other 3 Priority-4 Cardiopulmonary sources") — keys use <source-slug>-qNN this time, not a
+# descriptive slug (ledger.mjs's clusterForKey() needs the -qNN suffix to bucket a key correctly). ---
+# `Cardio-Pulmonary Module Final (4).pdf` (244pp lecture/study-guide book, not an exam paper — see
+# triage.md). 0 keyed. `pagetext.mjs keys`'s 19 keyed / 29 ambiguous hits are false positives
+# (render-checked, all ordinary numbered lecture lists); the only 2 real MCQ-format items found by
+# full-text search carry no printed/marked key at all.
+cps-final4-q01  # held-no-printed-key · p144 Gaucher disease case study, item 1: "an accumulation of sphingolipids in liver cells, as a consequence of a deficit of which of the following?" A) cytosol enzyme B) hormone sensetive lipase C) Lysosomal enzyme D) Peroxisomal enzyme — no colour/bold/underline/highlight/hand-mark on any option
+cps-final4-q02  # held-no-printed-key · p144 Gaucher disease case study, item 2: "Gaucher disease is due to a defect of which of the following enzyme?" A) Sphingomyelinase B) Galactocerebrosidase C) Glucocerebroside D) Heexosaminidase — no colour/bold/underline/highlight/hand-mark on any option
+# `Cardio-Pulmonary Module Final ---Part 2-1.pdf` (125pp, same lecture-book series, "Part 2":
+# Respiratory anatomy/histology/physiology). 0 keyed, 0 questions found at all — full-text search for
+# question-shaped phrasing returned 0 hits in 125 pages; `keys`'s 9 keyed / 24 ambiguous hits are the
+# same false-positive pattern as Final (4).pdf, not held individually (no question exists to hold).
+# `all Previous Years ospe Cardiopulmonary  (1).pdf` (135pp genuine OSPE exam, ~19+ image-
+# identification stations — "Identify structure A/B" on a radiograph/specimen/model, answered by
+# naming the structure). Out of scope by format: no letter options exist to key, so nothing here is
+# "held" — image-based OSPE content needs a different authoring format than this lane's text MCQs.
+# Not itemised station-by-station this pass; see triage.md for station-number locations found.

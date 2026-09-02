@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-mitosis",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-mitosis'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Genetics > Cell Cycle > Mitosis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-MITOSIS",
+      "key": "genetics-mitosis",
+      "title": "Mitosis occurs in somatic cells",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Genetics > Cell Cycle > Mitosis",
+      "question": "Which type of cellular division typically occurs in somatic cells?",
+      "options": {
+        "A": "Mitosis",
+        "B": "Meiosis",
+        "C": "Binary fission",
+        "D": "Budding"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Somatic (body) cells divide by mitosis, producing two genetically identical diploid daughter cells for growth, tissue turnover and repair, without any change in chromosome number or genetic content. This distinguishes mitosis sharply from meiosis, which is restricted to germ cells and produces four genetically varied haploid gametes instead.",
+        "B": "Incorrect. Meiosis is restricted to germ cells during gametogenesis, producing genetically varied haploid gametes; it is not the division type used by ordinary somatic cells.",
+        "C": "Incorrect. Binary fission is the division mechanism of prokaryotic cells such as bacteria, not of eukaryotic somatic cells, which divide by mitosis.",
+        "D": "Incorrect. Budding is an asymmetric division seen in some unicellular eukaryotes such as yeast, not the mechanism by which human somatic cells divide."
+      },
+      "topic": "Genetics",
+      "subtopic": "Cell division",
+      "main_concept": "CON-FND-66DEAA34E40EEA",
+      "concept_ids": [
+        "CON-FND-66DEAA34E40EEA"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-CELL-CYCLE-BASICS"
+      ],
+      "learning_objective": "State that mitosis produces two genetically identical, diploid daughter cells from one diploid parent cell, and contrast this with meiosis, which produces four genetically distinct haploid cells.",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOM Foundation 1 2026 Q6",
+      "author_notes": ""
+    }
+  ]
+}

@@ -174,9 +174,46 @@ export const LEAF: McqLeafSeed = {
       type: "mechanism",
       aliases: ["Cushing reflex", "Raised intracranial pressure and blood pressure"],
     },
+    // Sparse reuse, not a fresh mint: this leaf's own bank row about
+    // vasodilator metabolites is the exact fact this module's already-
+    // pinned local-blood-flow-regulation concept teaches (CON-CVS-
+    // 56A68328FD03C7, docs/Kasr-Source-Imports/concept/104-CPS-physiology-
+    // concepts.md, pinned to ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL, this
+    // exact leaf's module_subject) — CO2, H+ and adenosine are its named
+    // examples; p.57 of the department book separately names potassium
+    // ions among the metabolites driving vasomotion, and endothelin-1 is
+    // this leaf's own newly-mounted concept's named vasoconstrictor, never
+    // a vasodilator metabolite. No new search needed — same concept.
+    {
+      key: "local-blood-flow-regulation.myogenic-and-metabolic-autoregulation",
+      label: "Active hyperaemia is the rise in blood flow that accompanies a rise in tissue metabolic activity, produced by arteriolar and precapillary-sphincter dilation from local hypoxia, vasodilator metabolites (CO2, H+, adenosine) and local heat.",
+      definition: "Restated here only to satisfy the seed type; the pinned record's own wording (CON-CVS-56A68328FD03C7) governs. Vasodilator metabolites (CO2, H+, adenosine, and — per the department book's vasomotion section — potassium ions) are what active hyperaemia and reactive hyperaemia both work through; endothelin-1 is a vasoconstrictor peptide, not a vasodilator metabolite.",
+      objective: "Identify CO2, H+, adenosine and potassium ions as vasodilator metabolites, and endothelin-1 as a vasoconstrictor rather than a vasodilator metabolite.",
+      pitfall: "Mistaking endothelin-1 for a vasodilator because it is secreted by the endothelium alongside NO and prostacyclin — endothelin-1 is described as the most potent vasoconstrictor known, the opposite direction from the true vasodilator metabolites.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      type: "mechanism",
+      aliases: ["Vasodilator metabolites", "Active hyperaemia metabolites"],
+    },
   ],
 
   questions: [
+    // run44 — sparse reuse question, paired with the reuse concept above.
+    {
+      key: "which-of-the-following-is-not-a-vasodilator-metabolite-8da91769",
+      conceptKey: "local-blood-flow-regulation.myogenic-and-metabolic-autoregulation",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Identify endothelin-1, not adenosine, potassium ions or hydrogen ions, as the option that is not a vasodilator metabolite.",
+      explanations: {
+        A: "Adenosine is a vasodilator metabolite — a breakdown product of ATP that is especially important in cardiac muscle, one of the department book's own named examples.",
+        B: "Potassium ions are a vasodilator metabolite — the department book's vasomotion section names potassium ions, alongside O2 lack, CO2 excess and lactic acid, among the metabolites that relax metarterioles and precapillary sphincters.",
+        C: "Hydrogen ions (low pH from acidic metabolites such as lactic acid) are a vasodilator metabolite, one of the department book's own named examples of active hyperaemia's vasodilator metabolites.",
+        D: "This is the correct answer. Endothelin-1 is not a vasodilator metabolite — it is described as the most potent vasoconstrictor yet known, secreted by the endothelium itself, the opposite direction from adenosine, potassium ions and hydrogen ions.",
+      },
+    },
     {
       key: "asa-rapid-compensatory-reaction-to-hemorrhagic-shock-the-sec-e85732b4",
       conceptKey: "hemorrhagic-shock.rapid-compensatory-hormone-response",
@@ -386,6 +423,79 @@ export const LEAF: McqLeafSeed = {
       // Bank-tagged leaf: "Vascular Function" — genuinely this leaf's own
       // baroreceptor-reflex content (bank leaf tags are unreliable
       // throughout this branch), routed onto the concept above.
+      // kasr-104-author-run45: Arteries cluster (bank-tagged "Arteries",
+      // genuinely this leaf's own baroreceptor-reflex content). A rise in
+      // arterial pressure raises baroreceptor discharge, which this leaf's
+      // own sourced concept states inhibits the vasomotor area and excites
+      // the cardiac inhibitory area — vasodilatation and bradycardia, not
+      // vasoconstriction.
+      key: "stimulation-of-arterial-baroreceptors-causes-all-except-aafa1ea1",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that a rise in baroreceptor discharge causes vasodilatation, not vasoconstriction of arterioles, against three genuine effects of the same reflex.",
+      explanations: {
+        A: "The exception, and the answer. A rise in arterial pressure raises baroreceptor discharge, which inhibits the vasomotor area, lowering sympathetic drive to the vessels and producing vasodilatation of arterioles — the opposite of constriction. A common trap: answering with the atrial volume receptors, whose reflex is about volume, not arterial pressure.",
+        B: "True, so not the exception. Increased baroreceptor discharge excites the cardiac inhibitory area, raising vagal tone and producing bradycardia.",
+        C: "True, so not the exception. The combined fall in heart rate, stroke volume, cardiac output and vascular resistance that increased baroreceptor discharge produces is what lowers arterial blood pressure back towards normal.",
+        D: "True, so not the exception. Increased baroreceptor discharge inhibits the vasomotor area, lowering sympathetic (vasomotor) tone to the vessels.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Arteries cluster (bank-tagged "Arteries",
+      // genuinely this leaf's own atrial-receptor content). Options B, C
+      // and D are each the direct logical reverse of a fact this leaf's own
+      // sourced concepts already establish for atrial stretch: decreased
+      // (not increased) atrial receptor discharge is what raises
+      // vasopressin/ADH; sustained atrial stretch raises (not lowers) ANP;
+      // and rising atrial filling produces the Bainbridge reflex's
+      // tachycardia, not bradycardia. By elimination, A is the surviving,
+      // uncontradicted option, consistent with the same reduction in
+      // sympathetic outflow that reflex tachycardia and ADH suppression
+      // both already imply.
+      key: "stimulation-of-atrial-stretch-receptors-produce-ecf90d1b",
+      conceptKey: "atria.functions-beyond-pumping",
+      difficulty: "Hard",
+      questionType: "Mechanism",
+      learningObjective: "Eliminate three options that each reverse an established atrial-receptor fact (ADH, ANP, heart rate direction) to identify reflex vasodilatation and a fall in arterial pressure as the remaining, consistent answer.",
+      explanations: {
+        A: "By elimination, once B, C and D are each ruled out against this leaf's own sourced facts, vasodilatation of arterioles and a fall in arterial blood pressure is the surviving option — consistent with the same withdrawal of sympathetic outflow that this reflex's tachycardia and ADH suppression both already reflect.",
+        B: "Reversed. This leaf's own hemorrhagic-shock concept states vasopressin (ADH) rises from DECREASED discharge of the atrial low-pressure receptors — so stimulating (increasing the discharge of) those same receptors would lower, not raise, ADH secretion.",
+        C: "Reversed. Atrial natriuretic peptide is secreted when atrial stretch rises with an expanded extracellular fluid volume, per this leaf's own sourced concept — stimulating the atrial stretch receptors raises, not lowers, ANP secretion.",
+        D: "Reversed. This leaf's own sourced concept credits the atria's stretch receptors with triggering the Bainbridge reflex — reflex tachycardia when atrial filling rises — the opposite direction to a decreased heart rate.",
+      },
+    },
+    {
+      // kasr-104-author-run46: revisited AND CORRECTED. Run 45 excluded
+      // this for "no PDF or cached page-text access" — false. My own first
+      // re-check this run used shell-escaped "\|" alternations in the grep
+      // pattern, which this tool's regex does not parse as alternation —
+      // that produced a false "0 hits" for "permeability" I initially
+      // trusted. Re-checked properly: the book's own refractory-shock
+      // section (p89) names granulocyte-mediated free-radical damage to
+      // capillary walls as a mechanism, and its treatment section (p90)
+      // credits glucocorticoids with protecting capillary endothelium
+      // "thus maintaining normal capillary permeability" — implying
+      // permeability rises abnormally without that protection, i.e. as
+      // shock progresses. This is inference from the book's own language
+      // rather than a verbatim statement, disclosed honestly below; what
+      // makes this row safely authorable is that the other three options
+      // are each DIRECTLY and explicitly contradicted by the book.
+      key: "in-progressive-hemorrhagic-shock-which-of-the-following-occu-649d7c04",
+      conceptKey: "hemorrhagic-shock.rapid-compensatory-hormone-response",
+      difficulty: "Hard",
+      questionType: "Single best answer",
+      learningObjective: "State that progressive hemorrhagic shock is associated with increased capillary permeability, as opposed to the three directly book-contradicted alternatives (venous dilation, tissue alkalosis, increased urine output).",
+      explanations: {
+        A: "Correct by direct elimination against the book's own explicit statements on the other three options (below), and consistent with the book's own refractory-shock mechanisms (p89: granulocyte-mediated free-radical capillary-wall damage) and its own treatment rationale (p90: glucocorticoids protect capillary endothelium 'thus maintaining normal capillary permeability', implying permeability rises abnormally without that protection as shock continues).",
+        B: "Reversed. The department book states the compensatory response to hemorrhage is VASOCONSTRICTION of veins (p87, p91) — 'limit pooling of blood in lower body veins and push blood upwards to the heart' — not dilation.",
+        C: "Reversed. The department book lists 'Acidosis (due to tissue hypoxia that leads to anaerobic glycolysis and production of excess lactic acid)' (p86) among hemorrhagic shock's own manifestations — not alkalosis.",
+        D: "Reversed. The department book lists 'Reduced urine formation (oliguria) (due to decreased renal blood flow)' (p86-87) among hemorrhagic shock's own manifestations — not increased urine output.",
+      },
+      answerOverride: "A",
+      answerOverrideReason: "No printed key exists (answerConfidence: editorial-no-printed-key). Options B, C and D are each directly and explicitly contradicted by the department physiology book's own statements on hemorrhagic shock (venoconstriction not dilation, p87/p91; acidosis not alkalosis, p86; oliguria not increased urine output, p86-87), leaving A correct by elimination and consistent with the book's own refractory-shock/glucocorticoid-treatment language on capillary permeability (p89-90).",
+    },
+    {
       key: "baroreceptors-060d2015",
       conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
       difficulty: "Easy",
@@ -751,6 +861,28 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: "Only 3 options survive extraction (A, B, D — no C), below the platform's 4-to-5-option import contract; the stem itself also carries a stray corrupted fragment ('tePret'). Independently of the missing option, this row's own content is the same mean-systemic-filling-pressure/venous-capacitance fact already flagged as a genuine conflict against this pipeline's own sourced veins.capacitance-compliance-and-blood-volume-reservoir concept (see mean-systemic-filling-pressure-is-decreased-by-d3f1a38e, left unclaimed above, run36) — not authored either way.",
+    },
+    // run44 — endothelium/RAS/NO content, the other 12 remaining rows this
+    // leaf's own coverage/104-CPS-LEDGER.md recompute surfaced, is authored
+    // in its own file (physiology-endothelium-and-vasoactive-hormones.ts)
+    // against ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL (extended with new
+    // sections, not this file's own pinned articleId
+    // ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL, which does not teach
+    // that content — a fresh-mint concept is tagged with its own leaf's
+    // articleId by build-batches.ts, so routing it here would have wrongly
+    // credited this file's chemoreceptor article with teaching endothelium/
+    // RAS/NO). `mean-systemic-filling-pressure-is-decreased-by-d3f1a38e` is
+    // left unclaimed unchanged (a genuine content conflict needing an Omar
+    // ruling, run36/41's own escalation, not re-litigated here).
+    {
+      key: "it-is-correct-to-say-8f7e9d38",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Extraction yields only 4 lettered options — A, B, C, E, with no D — the same missing-option corruption pattern already excluded twice elsewhere in this file. The printed/external answer E ('B & C are correct') is also internally inconsistent with this pipeline's own already-authored, sourced concepts on this same leaf: option B ('stimulation of baroreceptors leads to a pressor response') directly contradicts the arterial-baroreceptor-reflex concept above, whose sourced mechanism is that a RISE in baroreceptor discharge inhibits the vasomotor area and produces a DEPRESSOR (pressure-lowering) response, not a pressor one — option A, not B, is what that concept supports. Crediting a combination that includes a statement contradicting this leaf's own sourced physiology, with a option letter missing from the extraction, is not authored either way.",
     },
   ],
 }

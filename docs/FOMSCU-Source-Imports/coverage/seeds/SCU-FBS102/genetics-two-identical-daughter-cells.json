@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-two-identical-daughter-cells",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-two-identical-daughter-cells'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Genetics > Cell Cycle > Mitosis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-TWO-IDENTICAL-DAUGHTER-CELLS",
+      "key": "genetics-two-identical-daughter-cells",
+      "title": "Mitosis exclusively produces two identical daughter cells",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Genetics > Cell Cycle > Mitosis",
+      "question": "Both mitosis and meiosis are forms of cell division. Which of the following occurs exclusively in mitotic division?",
+      "options": {
+        "A": "Two rounds of cell division",
+        "B": "Recombination",
+        "C": "Four cells with differing genetic material",
+        "D": "Two genetically identical daughter cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Two rounds of division (meiosis I and meiosis II) is a feature specific to meiosis, not mitosis, which involves a single division.",
+        "B": "Incorrect. Recombination (crossing-over) is specific to meiosis I's prophase, made possible by homologous chromosome pairing, a step that has no equivalent in mitosis.",
+        "C": "Incorrect. Four genetically distinct cells is the meiotic outcome, produced by two successive divisions with recombination and independent assortment; this does not occur in mitosis.",
+        "D": "Correct. Mitosis, uniquely among the two division types, produces exactly two daughter cells that are genetically identical to each other and to the parent cell, because it involves a single division with no crossing-over or independent assortment of homologues. Meiosis, by contrast, involves two successive divisions and, through crossing-over and independent assortment, produces four genetically distinct haploid cells."
+      },
+      "topic": "Genetics",
+      "subtopic": "Cell division",
+      "main_concept": "CON-FND-66DEAA34E40EEA",
+      "concept_ids": [
+        "CON-FND-66DEAA34E40EEA"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-CELL-CYCLE-BASICS"
+      ],
+      "learning_objective": "State that mitosis produces two genetically identical, diploid daughter cells from one diploid parent cell, and contrast this with meiosis, which produces four genetically distinct haploid cells.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOY Foundation 1 2026 Q40",
+      "author_notes": ""
+    }
+  ]
+}

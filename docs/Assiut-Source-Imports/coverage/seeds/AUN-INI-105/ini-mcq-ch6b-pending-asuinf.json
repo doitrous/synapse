@@ -1,0 +1,303 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch6",
+  "header": "AUN-INI-105 -- pending-live overlay questions from the INI MCQ .pdf, Chapter 6 \"General virology\" triage (pp.63-77), 7 of lane 8's 39 authored Q59-102 questions whose tested idea reuses six already-pending concepts: four from ASU-INF-microbiology-concepts.md already overlaid by lane 6 (latent infection, viroid, envelope lipoprotein, capsid universal component), one more from the same ASU-INF batch newly overlaid this pass (cell tropism), one more from ASU-INF newly overlaid this pass (Negri bodies/rabies), and one from MUST's own FHB-102-2-microbiology-introduction-concepts.md (opportunistic pathogen definition, not yet promoted to docs/import-ready) newly overlaid this pass. Omar applies this batch only after, in order: 1) docs/import-ready/concept/ASU-INF-microbiology-concepts.md, 2) docs/import-ready/article/ASU-INF-microbiology-articles.md, 3) MUST's own docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md, 4) MUST's own docs/MUST-Source-Imports/article/FHB-102-2-microbiology-introduction-articles.md, 5) the updated pending-live/AUN-INI-105-ch6-asuinf-overlay-concepts.md (lane 6's file, now with three more rows appended by lane 8), 6) this file. Steps 1-2 and 3-4 are independent of each other and may run in either pair-order, but each pair's own concept-then-article order must hold; verified end to end via `gate.mjs simulate` over exactly this six-file chain (errors=0). Import: Admin > Bulk import -> concept / article / question as appropriate.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "aun"
+    ],
+    "years": [
+      "AUN_Y1"
+    ],
+    "module": "AUN-INI-105",
+    "module_subject": "AUN-INI-105 > General virology",
+    "exam_weight_by_year": {
+      "AUN_Y1": "high"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_6f2f4188bb0cbf848733"
+    ],
+    "source_citation": "INI MCQ .pdf, General virology, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "topic": "General virology",
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch6-q070",
+      "id": "QST-AUNINI105-INI-MCQ-CH6-Q070",
+      "page": 72,
+      "title": "Latent viral infection: occult, non-replicating, reactivating",
+      "question": "Latent virus infection characterized by?",
+      "options": {
+        "A": "Viral nucleic acid is present in the cell but not replicating with periodic reactivation",
+        "B": "The virus is continuously replicating",
+        "C": "Acute viral infection with complete recovery",
+        "D": "No progeny viruses produced and infection is aborted completely"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A latent viral infection is one in which the virus persists in an occult (hidden, non-productive) form inside the infected cell after the initial infection -- viral nucleic acid is present but not actively replicating -- later reactivating periodically to produce symptoms again, classic examples being herpes simplex and varicella-zoster virus reactivation. This occult, reactivating pattern is distinct from a chronic infection (ongoing, detectable low-level replication throughout, with no true dormancy) or a slow infection (long incubation, progressive disease with no dormant phase).",
+        "B": "Incorrect. Continuous, ongoing replication describes a chronic infection, not a latent one, which by definition is characterized by NON-replicating persistence between reactivation episodes.",
+        "C": "Incorrect. \"Acute infection with complete recovery\" describes the opposite of latency -- an acute infection resolves and clears, while a latent infection persists indefinitely with intervening dormancy.",
+        "D": "Incorrect. \"No progeny produced, infection aborted completely\" describes an abortive infection, not a latent one, which characteristically DOES eventually produce progeny again upon reactivation."
+      },
+      "main_concept": "CON-INF-4EC402ABB55946",
+      "concept_ids": [
+        "CON-INF-4EC402ABB55946"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Viral infection patterns",
+      "learning_objective": "State that latent viral infection is characterized by occult, non-replicating persistence of viral nucleic acid with periodic reactivation.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-VIRAL-INFECTION-PATTERNS-INCLUSION-BODIES"
+      ],
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 6, p77",
+        "pendingConcept": "CON-INF-4EC402ABB55946 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md, canonical_key virus.infection-patterns.latent -- already overlaid for aun/AUN-INI-105 by lane 6's pending-live/AUN-INI-105-ch6-asuinf-overlay-concepts.md; this question and its lane-8 sibling questions apply only after Omar imports that Ain-Shams batch and the (already-existing) overlay file."
+      },
+      "author_notes": "",
+      "source_citation": "INI MCQ .pdf, General virology, p72"
+    },
+    {
+      "key": "ini-mcq-ch6-q071",
+      "id": "QST-AUNINI105-INI-MCQ-CH6-Q071",
+      "page": 72,
+      "title": "Cell tropism is determined by receptor affinity",
+      "question": "Most viruses infect only a particular host's cell. This specific targeting (cell tropism) is primarily because?",
+      "options": {
+        "A": "Viruses that are helical enter into a host cell",
+        "B": "RNA viruses may use ribozyme to enter a cell",
+        "C": "Capsomeres become enzymatic and digest cell membranes and walls",
+        "D": "Affinity of virus surface proteins for complementary receptors on the surface of the host cells",
+        "E": "None of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Capsid symmetry (helical vs icosahedral vs complex) is a structural classification feature, not the mechanism that determines which specific cell types a virus can infect.",
+        "B": "Incorrect. Ribozymes (catalytic RNA) are not the general mechanism of viral cell entry or tropism.",
+        "C": "Incorrect. Capsomeres are structural capsid subunits; they do not become enzymatic and digest host membranes or walls as an entry mechanism.",
+        "D": "Correct. Cell tropism -- why a virus infects some cell types/tissues and not others -- is determined by the affinity of specific virus surface proteins for complementary receptors on the host cell surface, together with other factors such as availability of a proteolytic enzyme the virus requires and favorable local temperature/pH; a cell lacking the required receptor simply cannot be productively infected, regardless of other conditions. This receptor-affinity basis is why tropism is considered a property of the virus-cell interaction itself, not of local immune status.",
+        "E": "Incorrect. Option D correctly identifies the primary basis of cell tropism, so \"none of the above\" is wrong."
+      },
+      "main_concept": "CON-INF-CE64E7CD7B4393",
+      "concept_ids": [
+        "CON-INF-CE64E7CD7B4393"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Viral replication cycle",
+      "learning_objective": "State that viral cell tropism is primarily determined by the affinity of viral surface proteins for complementary host cell receptors.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-VIRAL-ONCOGENESIS-TROPISM-RETROVIRAL-INTEGRATION"
+      ],
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 6, p77",
+        "pendingConcept": "CON-INF-CE64E7CD7B4393 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md, canonical_key virus.cell-tropism.determinants -- newly overlaid for aun/AUN-INI-105 by this lane's append to pending-live/AUN-INI-105-ch6-asuinf-overlay-concepts.md; applies only after Omar imports that Ain-Shams batch and the (updated) overlay file."
+      },
+      "author_notes": "",
+      "source_citation": "INI MCQ .pdf, General virology, p72"
+    },
+    {
+      "key": "ini-mcq-ch6-q076",
+      "id": "QST-AUNINI105-INI-MCQ-CH6-Q076",
+      "page": 73,
+      "title": "Opportunistic pathogens exploit immunocompromise",
+      "question": "Pathogens that can cause serious infections in immunocompromised patients are called?",
+      "options": {
+        "A": "Infectious pathogens",
+        "B": "Lethal pathogens",
+        "C": "Virulent pathogens",
+        "D": "Opportunistic pathogens"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. \"Infectious pathogens\" is a generic term for any organism capable of causing infection; it does not specifically name the condition-dependent behavior described here.",
+        "B": "Incorrect. \"Lethal pathogens\" describes organisms capable of causing death, a severity descriptor, not the condition-dependent (immunocompromise-exploiting) behavior this question asks about.",
+        "C": "Incorrect. \"Virulent pathogens\" describes organisms with an inherently high capacity to cause disease in a normal host, the opposite framing from an organism that is normally harmless but becomes dangerous only under permissive (immunocompromised) conditions.",
+        "D": "Correct. An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken, as in an immunocompromised patient, or when its normal habitat changes. This is exactly the immunocompromised-patient scenario this stem describes. It also distinguishes an opportunistic pathogen from one that is inherently virulent even in a healthy host, since the opportunistic pathogen's danger is condition-dependent rather than intrinsic."
+      },
+      "main_concept": "CON-INF-17893AA3303251",
+      "concept_ids": [
+        "CON-INF-17893AA3303251"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "General viral properties",
+      "learning_objective": "Define an opportunistic pathogen as a normally harmless organism that causes disease when host defenses are compromised.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE"
+      ],
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 6, p77",
+        "pendingConcept": "CON-INF-17893AA3303251 is pending in docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md (Menoufia MUST FHB-102-2 lane, not yet promoted to docs/import-ready), canonical_key microbiology.opportunism.opportunistic-pathogen-definition -- newly overlaid for aun/AUN-INI-105 by this lane's append to pending-live/AUN-INI-105-ch6-asuinf-overlay-concepts.md; applies only after Omar imports MUST's own FHB-102-2 batch and the (updated) overlay file."
+      },
+      "author_notes": "",
+      "source_citation": "INI MCQ .pdf, General virology, p73"
+    },
+    {
+      "key": "ini-mcq-ch6-q081",
+      "id": "QST-AUNINI105-INI-MCQ-CH6-Q081",
+      "page": 74,
+      "title": "Viroids are naked, low-molecular-weight infective RNA",
+      "question": "Viroids?",
+      "options": {
+        "A": "Need helper viruses",
+        "B": "Have protein coat",
+        "C": "Don't have DNA & RNA",
+        "D": "Naked nucleic acid molecule"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Needing a helper virus to replicate describes a defective virus (or a satellite virus), not a viroid, which is not a virus at all and does not depend on a helper virus in this sense.",
+        "B": "Incorrect. A viroid, by definition, has NO protein coat at all -- that is precisely what distinguishes it from a true virus.",
+        "C": "Incorrect. A viroid does have nucleic acid -- specifically, a small circular RNA molecule; it simply lacks protein and envelope, not nucleic acid altogether.",
+        "D": "Correct. A viroid is a small, circular RNA molecule -- a naked nucleic acid, with no protein coat (capsid) and no envelope surrounding it -- distinguishing it from a satellite virus (which needs a helper virus to replicate) and from a prion (an infectious protein with no nucleic acid at all, the opposite composition). Viroids are classically associated with plant diseases, not human infection."
+      },
+      "main_concept": "CON-INF-6EE705523FD61C",
+      "concept_ids": [
+        "CON-INF-6EE705523FD61C"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Virus classification and structure",
+      "learning_objective": "Define a viroid as a naked (protein-coat-free), circular RNA molecule.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID"
+      ],
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 6, p77",
+        "pendingConcept": "CON-INF-6EE705523FD61C is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md, canonical_key virus.viroid.definition -- already overlaid for aun/AUN-INI-105 by lane 6's pending-live/AUN-INI-105-ch6-asuinf-overlay-concepts.md; this question applies only after Omar imports that Ain-Shams batch and the (already-existing) overlay file."
+      },
+      "author_notes": "",
+      "source_citation": "INI MCQ .pdf, General virology, p74"
+    },
+    {
+      "key": "ini-mcq-ch6-q087",
+      "id": "QST-AUNINI105-INI-MCQ-CH6-Q087",
+      "page": 74,
+      "title": "Enveloped vs non-enveloped differ by presence of lipid",
+      "question": "Differentiation of enveloped and non-enveloped viruses are related to the presence or absence of?",
+      "options": {
+        "A": "Nucleic acid",
+        "B": "lipids",
+        "C": "Proteins",
+        "D": "Enzymes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Both enveloped and non-enveloped viruses contain nucleic acid (DNA or RNA); its presence does not distinguish the two structural classes.",
+        "B": "Correct. The viral envelope is lipoprotein in nature -- its lipid portion is acquired from the host cell's plasma or nuclear membrane during budding, while its protein portion is virus-encoded. An enveloped virus has this lipid-containing outer layer; a non-enveloped (naked) virus does not, making presence or absence of lipid the defining structural difference between the two classes.",
+        "C": "Incorrect. Both enveloped and non-enveloped viruses contain protein (at minimum, a capsid); protein presence does not distinguish them, since it is universal to all viruses.",
+        "D": "Incorrect. Enzyme content varies by individual virus family (whether it packages a polymerase, for instance) and is not the defining structural feature separating enveloped from non-enveloped viruses."
+      },
+      "main_concept": "CON-INF-7952070C4BD8AF",
+      "concept_ids": [
+        "CON-INF-7952070C4BD8AF"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Capsid and envelope structure",
+      "learning_objective": "State that presence or absence of lipid is what distinguishes enveloped from non-enveloped (naked) viruses.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID"
+      ],
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 6, p77",
+        "pendingConcept": "CON-INF-7952070C4BD8AF is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md, canonical_key virus.envelope.origin-and-composition -- already overlaid for aun/AUN-INI-105 by lane 6's pending-live/AUN-INI-105-ch6-asuinf-overlay-concepts.md; this question applies only after Omar imports that Ain-Shams batch and the (already-existing) overlay file."
+      },
+      "author_notes": "",
+      "source_citation": "INI MCQ .pdf, General virology, p74"
+    },
+    {
+      "key": "ini-mcq-ch6-q090",
+      "id": "QST-AUNINI105-INI-MCQ-CH6-Q090",
+      "page": 75,
+      "title": "Negri inclusion bodies are characteristic of rabies",
+      "question": "The presence of Negri inclusion bodies in host cells is characteristic of?",
+      "options": {
+        "A": "Mumps",
+        "B": "Infectious mononucleosis",
+        "C": "Congenital rubella",
+        "D": "Aseptic meningitis",
+        "E": "Rabies"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Mumps virus is not the cause specifically associated with Negri bodies.",
+        "B": "Incorrect. Infectious mononucleosis (Epstein-Barr virus) is not associated with Negri bodies; it produces a different set of cellular changes (atypical lymphocytes).",
+        "C": "Incorrect. Congenital rubella is not associated with Negri bodies.",
+        "D": "Incorrect. Aseptic meningitis (caused by various viruses) is not specifically associated with Negri bodies.",
+        "E": "Correct. Among viral causes of inclusion bodies, rabies virus is the one specifically associated with \"Negri\" inclusion bodies -- cytoplasmic inclusions found in infected neurons, classically in the hippocampal pyramidal cells, distinct from the inclusion bodies associated with measles, herpes, or pox viruses. Negri bodies are visible by routine light microscopy with appropriate staining and remain a classic (though not universally sensitive) pathological clue to rabies infection."
+      },
+      "main_concept": "CON-INF-8989679385BD3C",
+      "concept_ids": [
+        "CON-INF-8989679385BD3C"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Viral infection patterns",
+      "learning_objective": "Identify rabies virus as the cause of Negri inclusion bodies.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-VIRAL-INFECTION-PATTERNS-INCLUSION-BODIES"
+      ],
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 6, p77",
+        "pendingConcept": "CON-INF-8989679385BD3C is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md, canonical_key rabies-virus.negri-bodies -- newly overlaid for aun/AUN-INI-105 by this lane's append to pending-live/AUN-INI-105-ch6-asuinf-overlay-concepts.md; applies only after Omar imports that Ain-Shams batch and the (updated) overlay file."
+      },
+      "author_notes": "",
+      "source_citation": "INI MCQ .pdf, General virology, p75"
+    },
+    {
+      "key": "ini-mcq-ch6-q092",
+      "id": "QST-AUNINI105-INI-MCQ-CH6-Q092",
+      "page": 75,
+      "title": "Not all viruses have both a protein capsid and an envelope",
+      "question": "Which of the following is not true regarding viruses?",
+      "options": {
+        "A": "May be DNA, RNA, Single, or Double- stranded",
+        "B": "All are obligate intracellular parasites",
+        "C": "All have a protein capsid and envelope",
+        "D": "Release virions during cell lysis or budding",
+        "E": "All are true"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect as the NOT-true answer -- viral genomes genuinely can be DNA or RNA, single- or double-stranded, so this statement is true.",
+        "B": "Incorrect as the NOT-true answer -- every virus genuinely IS an obligate intracellular parasite, so this statement is true.",
+        "C": "Correct (this is the NOT-true statement). The capsid (nucleocapsid) is the structural component found in all viruses, enveloped or not, but the envelope is present only in SOME viruses -- naked (non-enveloped) viruses exist and lack an envelope entirely. Claiming \"all\" viruses have both a capsid AND an envelope is therefore false, since capsid is universal but envelope is not.",
+        "D": "Incorrect as the NOT-true answer -- viruses genuinely do release progeny virions either via cell lysis (naked/lytic route) or via budding (enveloped route), so this statement is true.",
+        "E": "Incorrect. Since option C is false (not all viruses have an envelope), \"all are true\" cannot be correct."
+      },
+      "main_concept": "CON-INF-5544B0DB9FAF82",
+      "concept_ids": [
+        "CON-INF-5544B0DB9FAF82"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-7952070C4BD8AF"
+      ],
+      "subtopic": "Capsid and envelope structure",
+      "learning_objective": "State that the capsid, unlike the envelope, is found in every virus -- not all viruses are enveloped.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID"
+      ],
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 6, p77",
+        "pendingConcept": "CON-INF-5544B0DB9FAF82 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md, canonical_key virus.structure.capsid-universal-component -- already overlaid for aun/AUN-INI-105 by lane 6's pending-live/AUN-INI-105-ch6-asuinf-overlay-concepts.md; this question applies only after Omar imports that Ain-Shams batch and the (already-existing) overlay file."
+      },
+      "author_notes": "",
+      "source_citation": "INI MCQ .pdf, General virology, p75"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-conduction",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-conduction'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Thermoregulation"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-CONDUCTION",
+      "key": "physiology-conduction",
+      "title": "Conduction: heat loss through wet clothing in cold weather",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Thermoregulation",
+      "question": "What is the main mechanism of heat loss in a person wearing wet clothes in cold weather?",
+      "options": {
+        "A": "Radiation from the body surface",
+        "B": "Convection by moving air currents",
+        "C": "Evaporation of sweat",
+        "D": "Conduction to the surrounding cold, wet fabric"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Radiation is heat loss as infrared energy with no contact required; it is not the dominant mechanism when wet clothing is in direct contact with the skin.",
+        "B": "Incorrect. Convection requires a moving current of air or water carrying heat away; wet clothing lying against the skin is a contact (conduction), not a moving-current, phenomenon.",
+        "C": "Incorrect. Evaporation is heat loss as sweat or water changes phase to vapour; this is not the main mechanism when clothing is already saturated with water rather than evaporating from the skin.",
+        "D": "Correct. Conduction is heat loss by direct transfer to a cooler object or medium in physical contact with the skin, and because water conducts heat far more efficiently than air, wet clothing in cold weather causes rapid conductive heat loss compared with dry clothing at the same ambient temperature. Convection, evaporation and radiation are the other three heat-loss routes, but none of them requires the direct physical contact that defines conduction."
+      },
+      "topic": "Physiology",
+      "subtopic": "Thermoregulation and fever",
+      "main_concept": "CON-FND-B977031D7C0C26",
+      "concept_ids": [
+        "CON-FND-B977031D7C0C26"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-THERMOREGULATION-FEVER"
+      ],
+      "learning_objective": "Define conduction as heat loss by direct transfer to a cooler medium in physical contact with the skin, and state why wet clothing in cold weather accelerates it (water's high thermal conductivity).",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOM Foundation 1 2026 Q9",
+      "author_notes": ""
+    }
+  ]
+}

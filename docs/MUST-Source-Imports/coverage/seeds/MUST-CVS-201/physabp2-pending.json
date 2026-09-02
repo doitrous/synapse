@@ -1,0 +1,66 @@
+{
+  "lane": "MUST-CVS201",
+  "cluster": "physabp2-pending",
+  "header": "MUST-CVS-201 - Physiology tranche (author8) - Arterial Blood Pressure remaining MCQs (main_concept pending in another lane's unimported batch) - from the Physiology CVS201 EOM Final paper, keys read from the paper's own printed Arterial Blood Pressure answer key (p.20).",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "must"
+    ],
+    "years": [
+      "MUST_Y2"
+    ],
+    "module": "MUST-CVS-201",
+    "exam_weight_by_year": {
+      "MUST_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "topic": "Physiology",
+    "subtopic": "Arterial Blood Pressure Regulation",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "resource_ids": [
+      "src_165188e079f0f475e54d"
+    ],
+    "source_citation": "Physiology CVS201 Questions (Final), Arterial Blood Pressure section, key p.20."
+  },
+  "questions": [
+    {
+      "key": "physabp2-q06",
+      "id": "QST-MUSTCVS201-PHYSABP2-Q06",
+      "page": 16,
+      "title": "Atrial receptor stimulation by high venous pressure (Bainbridge reflex)",
+      "question": "Stimulation of atrial receptors (volume receptors) by high central venous pressure leads to:",
+      "options": {
+        "A": "Vasoconstriction and bradycardia",
+        "B": "Vasoconstriction and tachycardia",
+        "C": "Vasodilation and tachycardia",
+        "D": "Vasodilation and bradycardia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Vasoconstriction and bradycardia describe roughly the opposite of the atrial-receptor response to a high venous pressure.",
+        "B": "Incorrect. Vasoconstriction is not the response of this reflex; the atrial-stretch reflex is a vasodilator, heart-rate-raising response.",
+        "C": "Correct. When high central venous pressure distends the right atrium, stretch of receptors in its wall (including the Bainbridge reflex acting on the SA node) raises heart rate and produces vasodilation, together increasing cardiac output to help the heart cope with the extra venous inflow rather than let blood dam up behind it. This is a distinct, atrial-stretch-specific mechanism, not an extension of the pressure-lowering arterial baroreceptor reflex. The higher heart rate paired with the extra venous return also raises stroke volume.",
+        "D": "Incorrect. Bradycardia is the opposite of what atrial stretch produces; the Bainbridge reflex raises, not lowers, heart rate."
+      },
+      "main_concept": "CON-CVS-5419DA4CEFDBB6",
+      "concept_ids": [
+        "CON-CVS-5419DA4CEFDBB6"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-CVS-MU105-AUTOMATICITY-CONDUCTION"
+      ],
+      "learning_objective": "State that atrial (volume) receptor stimulation by high central venous pressure produces vasodilation and tachycardia (the Bainbridge reflex).",
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Reflex Control of Arterial Blood Pressure"
+    }
+  ]
+}

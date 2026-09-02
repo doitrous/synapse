@@ -1,0 +1,157 @@
+# ZU-MED-105 (Professional Practice I) triage keys — one per line, # comments allowed.
+# S3 first-pass triage, three tier-1 sources (see coverage/ZU-MED-105-triage.md).
+# Slug = kebab-case of the tested idea; status is find-existing.mjs result (new for
+# all — see triage's concept-search-sample, 0 hits for every professionalism/ethics
+# query tried); comment carries the recovered key and source id.
+# --- pp1-zag24 (Zag P.P1 Final 2024.pdf, 12 SBA, printed key line, native text) ---
+pp1-zag24-q01-checklist-tool-student-satisfaction  # new · key: D) Student satisfaction
+pp1-zag24-q02-physician-patient-trust-communication  # new · key: B) Trust and communication
+pp1-zag24-q03-accountability-model-base-ability  # new · key: C) Ability
+pp1-zag24-q04-storming-stage-team-development  # new · key: C) Storming
+pp1-zag24-q05-justice-fair-distribution-healthcare  # new · key: C) Justice
+pp1-zag24-q06-self-assessment-constructive-feedback  # new · key: C) Self-assessment and constructive feedback
+pp1-zag24-q07-compassion-empathy-patients  # new · key: B) Showing empathy and care towards patients
+pp1-zag24-q08-early-professionalism-education-purpose  # new · key: A) Prevent disciplinary actions
+pp1-zag24-q09-emergency-consent-exception-lifesaving  # new · key: A) Lifesaving operations
+pp1-zag24-q10-conflict-resolution-compromising  # new · key: C) Compromising
+pp1-zag24-q11-professionalism-public-trust  # new · key: C) Support the trust the public has in doctors
+pp1-zag24-q12-self-assessment-best-method-reflective  # new · key: A) Reflective practices
+# --- pp1-fakous24 (Fakous P.P1 Final 2024.pdf, 7 SBA, light-blue highlight, OCR p1 + render-confirmed both pages) ---
+pp1-fakous24-q01-physician-patient-relationship-onset  # new · key: d) Selects the physician
+pp1-fakous24-q02-vertical-equity-definition  # new · key: c) Vertical equity
+pp1-fakous24-q03-justice-organ-transplant-allocation  # new · key: d) Justice
+pp1-fakous24-q04-mental-capacity-consent-proxy-physician  # new · key: b) His physician
+pp1-fakous24-q05-checklist-tool-student-satisfaction  # new · key: c) Student satisfaction (duplicate-of pp1-zag24-q01, same fact, different paper)
+pp1-fakous24-q06-leadership-negotiation-conflicting-interests  # new · key: c) Negotiation
+pp1-fakous24-q07-storming-stage-team-development  # new · key: d) Storming (duplicate-of pp1-zag24-q04, same fact, different paper)
+# --- pp1-past (امتحانات سابقه.pdf, Q1-Q29 authored this pass, gray-fill key, ad hoc PyMuPDF detection + 3 render spot-checks) ---
+pp1-past-q01-self-awareness-decision-quality  # new · key: B) To increase her level of self-awareness
+pp1-past-q02-self-awareness-goal-setting-outcome  # new · key: D) Setting appropriate life and career goals
+pp1-past-q03-self-awareness-sources-behavior-perception  # new · key: E) Self-awareness is affected by behavior and perception (source prints option letter as "E" in an A/B/E/C order — a labeling slip in the source itself, not a key ambiguity; see seed field_notes)
+pp1-past-q04-emotional-intelligence-definition  # new · key: C) Emotional intelligence
+pp1-past-q05-goal-setting-definition  # new · key: B) Goal setting
+pp1-past-q11-time-management-definition  # new · key: B) Spend the time available to you much more effectively
+pp1-past-q12-time-management-prioritization  # new · key: A) You need to decide what is really important and what can wait to effectively manage your time
+pp1-past-q13-stress-definition-expectation-reality-gap  # new · key: B) Stress is the gap between our expectations and reality, it is a normal part of life
+pp1-past-q15-self-awareness-lack-consequence  # new · key: A) Wrong decisions that lead to negative consequences (duplicate-of pp1-past-q28, identical stem/options, same paper)
+pp1-past-q16-todo-list-prioritization-tool  # new · key: B) To do list
+pp1-past-q17-time-management-productive-use  # new · key: C) Spend the time available to you much more productively (duplicate-of pp1-past-q11, near-identical stem, same paper — this copy says "productively" not "effectively")
+pp1-past-q19-democratic-leadership-style  # new · key: B) Encourages others to volunteer for responsibilities and confirms commitments
+pp1-past-q20-leadership-definition-mobilize-influence  # new · key: D) Leadership
+pp1-past-q21-core-team-definition  # new · key: C) Formed of members who are directly involved in caring for patients
+pp1-past-q22-goal-setting-definition-2  # new · key: C) Goal setting (duplicate-of pp1-past-q05, identical stem/options, same paper)
+pp1-past-q23-student-patient-contact-conduct  # new · key: D) All of the above
+pp1-past-q25-confidentiality-breach-justified-exception  # new · key: C) For present the physician's knowledge and skills
+pp1-past-q26-physician-duty-to-colleagues  # new · key: B) Educate his colleagues and transfer recent skills and knowledge to them
+pp1-past-q27-self-awareness-decision-quality-2  # new · key: C) To increase his level of self-awareness (duplicate-of pp1-past-q01, identical fact/options, gender-swapped stem, same paper)
+pp1-past-q28-self-awareness-lack-consequence-2  # new · key: A) Wrong decisions that lead to negative consequences (duplicate-of pp1-past-q15, identical stem/options, same paper)
+pp1-past-q29-self-awareness-sources-self-analysis  # new · key: B) Self-analysis is an important source of self-awareness
+# --- held (not authored) ---
+pp1-past-q14-team-development-stages-exception  # held-indefensible-key · two gray-fill marks disagree (C "Adjuring" and D "Co-coordination" both marked, render-confirmed p2); Adjuring is a real Tuckman stage so C is not itself defensible as "not a stage", but the rule is two-marks-disagree = hold, not pick-the-more-defensible-one
+pp1-past-q24-equity-definition  # held-malformed-source · only 2 options (A/B) printed in source, C/D missing
+pp1-past-q31-unmarked  # held-no-printed-key (page 5, not authored — beyond this pass's Q1-29 scope, logged for next pass)
+pp1-past-q33-unmarked  # held-no-printed-key (page 5, not authored — beyond this pass's scope)
+
+# === pp1-cluster2 (امتحانات سابقه.pdf pages 5-13, Q30-76, second pass) ===
+# Gray fill-rectangle key, ad hoc PyMuPDF detection (x-overlap fixed for two-column
+# layout on Q75), render-confirmed pages 8, 9, 10, 11, 13 (5 renders, 0 mismatches).
+pp1-past-q39-leadership-style-selection-factors  # new · key: D) All of the above
+pp1-past-q40-group-dynamics-definition  # new · key: C) It is the interactions between people who are talking together in a group setting
+pp1-past-q41-self-awareness-definition  # new · key: C) Self-awareness
+pp1-past-q45-patient-confidentiality-exam-privacy  # new · key: A) Patient confidentiality
+pp1-past-q46-informal-communication-substance-impairment  # new · key: C) Informal communication (uncertainty flagged — 'Student health' is the more conventional fit)
+pp1-past-q47-interested-learner-stage  # new · key: B) Interested learner
+pp1-past-q48-learning-needs-definition  # new · key: C) Learning needs
+pp1-past-q49-genital-exam-student-presence-conduct  # new · key: C) In the presence of another medical student (uncertainty flagged — incomplete/ambiguous stem)
+pp1-past-q50-double-effect-beneficence-nonmaleficence  # new · key: D) Beneficence and Non maleficence
+pp1-past-q51-ethics-definition-public-trust  # new · key: A) Ethics (uncertainty flagged — 'Professionalism' is the more conventional fit)
+pp1-past-q52-altruism-related-ethic  # new · key: A) Autonomy (uncertainty flagged — 'Beneficence' is the more conventional fit)
+pp1-past-q53-self-awareness-professionalism-attribute  # new · key: C) Self-awareness (shares concept with pp1-past-q55, professional-development wording)
+pp1-past-q54-non-maleficence-street-wound-scenario  # new · key: C) Non-maleficence
+pp1-past-q55-self-awareness-professionalism-attribute-2  # new · key: B) Self-Awareness (shares concept with pp1-past-q53, emotional-intelligence wording, same paper)
+pp1-past-q56-interpersonal-skills-conflict-of-interest  # new · key: A) Interpersonal skills (uncertainty flagged — 'Altruism' is the more conventional fit)
+pp1-past-q57-competence-definition  # new · key: B) Competence
+pp1-past-q58-seek-permission-first-step-patient-contact  # new · key: B) Seek permission for those responsible for the care of the patent
+pp1-past-q59-dress-professionally-name-badge  # new · key: A) Dress professionally and wear a name/identity badge
+pp1-past-q60-competent-patient-final-say-exception  # new · key: B) Competent (option C prints as 'Minot', likely typo for 'Minor')
+pp1-past-q62-implied-consent-must-be-signed  # new · key: C) Implied consent must be signed by the patient (uncertainty flagged — conflicts with standard consent doctrine)
+pp1-past-q63-team-characteristics-except-same-personnel  # new · key: C) Same personnel characters of all team members
+pp1-past-q64-genetic-factors-non-modifiable-determinant  # new · key: A) Genetic factors
+# --- held: duplicates of pp1-cluster1's 40 (named twin, not re-authored) ---
+pp1-past-q30-time-management-productive-duplicate  # held-duplicate · dup of pp1-past-q17 (identical stem/options)
+pp1-past-q32-self-awareness-remedy-duplicate  # held-duplicate · dup of pp1-past-q01/pp1-past-q27
+pp1-past-q34-self-awareness-sources-duplicate  # held-duplicate · dup of pp1-past-q29
+pp1-past-q37-leadership-definition-duplicate  # held-duplicate · dup of pp1-past-q20 (options reordered, same fact)
+pp1-past-q38-democratic-leadership-duplicate  # held-duplicate · dup of pp1-past-q19 (identical stem/options)
+pp1-past-q42-self-awareness-sources-duplicate-2  # held-duplicate · dup of pp1-past-q29 (third copy)
+pp1-past-q61-vertical-equity-duplicate  # held-duplicate · dup of pp1-fakous24-q02
+pp1-past-q69-vertical-equity-duplicate-2  # held-duplicate · dup of pp1-fakous24-q02 (second copy)
+pp1-past-q70-justice-organ-transplant-duplicate  # held-duplicate · dup of pp1-fakous24-q03 (identical stem/options)
+pp1-past-q71-mental-capacity-conflicting-key  # held-duplicate-conflicting-key · dup of pp1-fakous24-q04 (identical stem/options) but this bank marks C 'Legally authority' vs Fakous Final's B 'His physician' — cross-source key disagreement
+pp1-past-q72-checklist-tool-duplicate  # held-duplicate · third copy of pp1-zag24-q01/pp1-fakous24-q05
+pp1-past-q74-negotiation-duplicate  # held-duplicate · dup of pp1-fakous24-q06 (identical stem/options)
+pp1-past-q75-storming-duplicate  # held-duplicate · dup of pp1-fakous24-q07 (identical stem/options, two-column layout)
+# --- held: unmarked (held-no-printed-key) ---
+pp1-past-q36-time-management-unmarked  # held-no-printed-key (also dup of pp1-past-q17/Q30 in stem/options)
+pp1-past-q43-unmarked  # held-no-printed-key (also dup of pp1-past-q01/q27/Q32 in stem/options)
+pp1-past-q44-unmarked  # held-no-printed-key (also dup of pp1-past-q15/q28 in stem/options)
+pp1-past-q68-unmarked  # held-no-printed-key (also literal dup of pp1-fakous24-q01 in stem/options)
+pp1-past-q73-unmarked  # held-no-printed-key (also dup of Q72/pp1-zag24-q01/pp1-fakous24-q05 in stem/options)
+# --- held: malformed source ---
+pp1-past-q35-sources-of-self-awareness-malformed  # held-malformed-source · only 3 options (A/B/C) printed, no D; also unmarked
+# --- out of scope: not SBA format (definitions/enumerate/fill-in-the-blank), not held, not counted ---
+pp1-past-q65-define-terms  # not-sba-format (define human dignity / stigmatization)
+pp1-past-q66-list-items  # not-sba-format (list four examples / three importance)
+pp1-past-q67-spectrum-of-health-enumerate  # not-sba-format (enumerate first three aspects)
+pp1-past-q76-complete-statements  # not-sba-format (fill-in-the-blank)
+# === pp1-cluster3 (mcq شامل.pdf, Self-Directed-Learning section pp.2-11, third pass) ===
+# Yellow fill-rectangle key behind the correct option's text, ad hoc PyMuPDF
+# detection (match fill's vertical centre to the option-line bounding box it falls
+# inside); render-confirmed pages 2 and 26 (2 renders, 0 mismatches, including a
+# genuinely unmarked pair of questions on page 26 — see coverage/ZU-MED-105-triage.md).
+# Keys quoted below use this source's own lettering (a/b/c/d/e as printed); the
+# authored question file may re-letter where trimmed (see pp1shamel-q05).
+pp1shamel-q01-learning-definition  # new · key: B) Learning
+pp1shamel-q02-self-directed-learning-definition  # new · key: A) Self-directed learning (SDL)
+pp1shamel-q03-learning-materials-definition  # new · key: D) A and C.
+pp1shamel-q04-types-of-learning-resources  # new · key: D) ALL the above
+pp1shamel-q05-learning-resources-functions-except  # new · key: F) Increase the hope (source printed 6 options; trimmed to 5, re-lettered E — see field_notes.optionsTrimmed)
+pp1shamel-q06-sdl-benefits  # new · key: D) All of the above
+pp1shamel-q07-sdl-methods-two-subdivisions  # new · key: D) A and b
+pp1shamel-q08-self-paced-learning-definition  # new · key: B) Self-paced learning
+pp1shamel-q09-steps-implement-sdl-except  # new · key: D) Adjust and adapt to suit doctor needs (the false, out-of-place option)
+pp1shamel-q10-steps-implement-sdl-goals  # new · key: B) Set goals for learning
+pp1shamel-q11-steps-implement-sdl-adapt-student  # new · key: D) Adjust and adapt to suit student needs (source Q12; source Q11 held, see below)
+pp1shamel-q12-evaluate-effectiveness-of-learning  # new · key: E) All of the above
+pp1shamel-q13-sdl-competencies-except  # new · key: D) Evaluating the professionalism
+pp1shamel-q14-sdl-process-assess-monitor  # new · key: D) All of the above
+pp1shamel-q15-sdl-process-belief-intelligence  # new · key: A) Student's belief about intelligence and learning
+pp1shamel-q16-sdl-stages-count  # new · key: C) The 4 stages of the Student SDL
+pp1shamel-q17-sdl-stage4-self-directed-learner  # new · key: C) The students attain the level of Self-directed learner (source Q19; source Q18's stages-list held as duplicate of pp1-cluster2's interested-learner concept, see below)
+pp1shamel-q18-sdl-assessment-methods-except  # new · key: E) co-operation (source Q20)
+pp1shamel-q19-learning-plan-definition  # new · key: D) a and b (source prints "a an b")
+pp1shamel-q20-learning-plan-aims  # new · key: E) all of the above
+pp1shamel-q21-learning-plan-development-cyclical  # new · key: E) A and b
+pp1shamel-q22-uncover-knowledge-gaps-methods  # new · key: D) A and b
+pp1shamel-q23-learning-needs-assessment-methods-list  # new · key: D) All of the above
+pp1shamel-q24-practice-reviews-definition  # new · key: B) practice reviews (source Q28)
+pp1shamel-q25-prioritize-learning-needs-steps  # new · key: E) All of the above (source Q31)
+pp1shamel-q26-assess-the-situation-step  # new · key: A) Assess the situation (source Q32)
+pp1shamel-q27-learning-needs-tools-frameworks  # new · key: D) all of the above (source Q33)
+pp1shamel-q28-prioritize-basis  # new · key: D) All of the above (source Q34)
+pp1shamel-q29-prioritize-final-step-communicate  # new · key: D) Communicate the results (source Q35)
+pp1shamel-q30-learning-plan-next-step-goals  # new · key: A) Identification of learning goals (source Q36; "Learning needs are..." source Q30 held as duplicate of pp1-past-q48, see below)
+pp1shamel-q31-learning-resources-identification-includes  # new · key: D) all of the above (source Q37)
+pp1shamel-q32-evidence-of-learning-forms  # new · key: C) Identification of forms of evidence of learning (source Q38)
+# --- held: pp1-cluster3 (mcq شامل.pdf SDL section, 6 items — see coverage/ZU-MED-105-LEDGER.md for full detail) ---
+pp1shamel-held-src-q11-engage-students-uncertain-fit  # held-question-quality · "Helping students understand how they learn most effectively" keyed "Engage students in the process" reads as a closer fit to the readiness/self-awareness step
+pp1shamel-held-src-q18-sdl-stages-list  # held-duplicate-concept · "ascendency of SDL competencies... include" restates ground covered by pp1-cluster2's interestedlearner (Grow's model) concept
+pp1shamel-held-src-q24-develop-plan-steps-ambiguous  # held-indefensible-key · three yellow-fill marks disagree (e/f/g all marked), genuine multi-mark conflict
+pp1shamel-held-src-q27-uncover-gaps-diary-method  # held-question-quality · "keeping a diary of learning needs" keyed "Self-assessment" reads as a closer fit to a logbook/reflective-diary method
+pp1shamel-held-src-q29-colleagues-observe-feedback  # held-question-quality · "ask colleagues to observe... feedback" keyed "Observation" reads as a closer fit to 360-degree appraisal
+pp1shamel-held-src-q30-learning-needs-definition-dup  # held-duplicate · "Learning needs are..." restates pp1-cluster2's pp1-past-q48-learning-needs-definition in reverse MCQ orientation
+# mcq شامل.pdf pages 12-40 (bioethics principles, consent/confidentiality/vulnerability,
+# leadership/team-dynamics, health determinants) — triaged (~94% keyed overall across
+# the full 44-page bank), method validated, not opened for individual key transcription
+# this pass; real remaining scope for a follow-up pass, see coverage/ZU-MED-105-triage.md
+# for the page-range breakdown and each section's specific duplicate-risk notes.

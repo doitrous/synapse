@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-effector",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-effector'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "neuro",
+    "module_subject": "SCU-FBS102 > Physiology > Nerve and Muscle Physiology > Reflex Arc"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-EFFECTOR",
+      "key": "physiology-effector",
+      "title": "The effector in the withdrawal reflex arc",
+      "subject": "neuro",
+      "module_subject": "SCU-FBS102 > Physiology > Nerve and Muscle Physiology > Reflex Arc",
+      "question": "When a person touches a hot stove and reflexively withdraws their hand, what role do the muscles of the arm serve in the reflex arc?",
+      "options": {
+        "A": "Receptor",
+        "B": "Integration center (central nervous system)",
+        "C": "Effector",
+        "D": "Control system"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The receptor is the structure that detects the stimulus — here, the skin thermoreceptors sensing the hot surface — not the muscles that carry out the resulting movement.",
+        "B": "Incorrect. The integration center, typically the spinal cord in a withdrawal reflex, is where the incoming signal is processed and an outgoing motor command generated; the muscles are downstream of this, not the integration center itself.",
+        "C": "Correct. The effector is the muscle or gland that carries out the reflex's response; here, the arm's flexor muscles contract to pull the hand away from the hot stove, converting the nervous signal into the observable physiological action. The receptor, by contrast, sits at the opposite end of the same reflex arc, detecting the stimulus rather than acting on it.",
+        "D": "Incorrect. 'Control system' is not a standard reflex-arc component in this context; the muscles specifically fill the effector role, executing rather than controlling the response."
+      },
+      "topic": "Physiology",
+      "subtopic": "The reflex arc",
+      "main_concept": "CON-NEU-81A4A74CEEA72B",
+      "concept_ids": [
+        "CON-NEU-81A4A74CEEA72B"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-ACTION-POTENTIAL-IONIC-BASIS"
+      ],
+      "learning_objective": "Identify the effector as the muscle or gland at the end of a reflex arc that executes the motor response, and distinguish it from the receptor, afferent/efferent pathways and integration center.",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOM Foundation 1 2026 Q19",
+      "author_notes": ""
+    }
+  ]
+}

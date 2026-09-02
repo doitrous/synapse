@@ -45,6 +45,26 @@ export const LEAF: McqLeafSeed = {
       type: "comparison",
       aliases: ["Extrapulmonary versus intrapulmonary bronchus", "Bronchus versus bronchiole", "Clara cells"],
     },
+    {
+      // kasr-104-author-run46: fresh mint. find-existing.mjs "trachea wall
+      // layers fibro-elastic ligament" / "trachea histology" both returned
+      // "safe to create" — no pinned or live record states this leaf's own
+      // trachea-specific wall-layer detail. Grounded directly in this
+      // file's own articleId (ART-104-HIS-LARYNX-TRACHEA-BRONCHI), whose
+      // Definition section already states this exact fact — no article gap
+      // to disclose.
+      key: "trachea.wall-layers-and-cartilage-gap-bridging-structures",
+      label: "The trachea's four wall layers run mucosa, submucosa, fibrocartilaginous coat and adventitia, with the C-shaped cartilage rings' posterior gap bridged by a fibro-elastic ligament (preventing overdistension) and the trachealis muscle (constricting the lumen)",
+      definition: "The trachea, about 12 cm long, runs from the larynx to its bifurcation into the two primary bronchi. Its wall has four layers: a mucosa of respiratory epithelium over a lamina propria of loose connective tissue with elastic fibres and an elastic membrane; a submucosa of loose connective tissue with lymphoid nodules and mucous and serous glands; a fibrocartilaginous coat of about twenty C-shaped incomplete hyaline cartilage rings that keep the trachea open, whose posterior gap (facing the oesophagus) is bridged by a fibro-elastic ligament, which prevents overdistension, and by smooth trachealis muscle bundles, which constrict the lumen and increase the force of airflow during coughing and forced expiration; and an outer adventitia of loose connective tissue.",
+      objective: "List the trachea's four wall layers in order, and name the two distinct structures bridging the cartilage rings' posterior gap along with each one's own function (fibro-elastic ligament against overdistension, trachealis muscle for forced expiration).",
+      pitfall: "Crediting the trachealis muscle, rather than the fibro-elastic ligament, with preventing overdistension. The book assigns each gap-bridging structure a distinct job: the ligament resists overdistension, while the muscle actively constricts the lumen during coughing and forced expiration.",
+      subject: "resp",
+      primary: "DIS-HIS-T03",
+      secondary: ["SYS-RES-T01-S01-M01"],
+      modulePath: "104 CPS > Histology > Respiratory System > Conducting Portion",
+      type: "structural_description",
+      aliases: ["Trachea wall layers", "Fibro-elastic ligament", "Trachealis muscle"],
+    },
   ],
 
   questions: [
@@ -517,6 +537,153 @@ export const LEAF: McqLeafSeed = {
       // via `answerOverride`), so even with the source fact clear
       // (concept text implies A -- "many goblet cells" -- is the false/
       // except statement) this row cannot be imported as extracted.
+      // kasr-104-author-run45: Conducting Portion cluster. Extrapulmonary
+      // bronchi are structurally identical to the trachea per this leaf's
+      // own sourced concept: wide, less-folded lumen; incomplete C-shaped
+      // hyaline cartilage rings; mucoserous glands in the submucosa. The
+      // spiral, whole-lumen-encircling smooth muscle it also states is
+      // the intrapulmonary bronchus's own feature, not the extrapulmonary
+      // bronchus's — its smooth muscle instead lies posteriorly, at the
+      // ends of the cartilage.
+      key: "all-characters-of-extra-pulmonary-bronchi-except-5edbbc7f",
+      conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that spirally arranged smooth muscle encircling the whole lumen is the intrapulmonary bronchus's own feature, not the extrapulmonary bronchus's, against three true statements.",
+      explanations: {
+        A: "True of the extrapulmonary bronchus, so not the exception — this leaf's own concept describes it as structurally identical to the trachea, with a wide, less-folded lumen.",
+        B: "True, so not the exception. Incomplete C-shaped rings of hyaline cartilage are exactly what the extrapulmonary bronchus keeps from the trachea.",
+        C: "The exception, and the answer. Spirally arranged smooth muscle encircling the whole lumen is the intrapulmonary bronchus's own feature — the extrapulmonary bronchus instead keeps its smooth muscle lying posteriorly, at the ends of the cartilage, the same limited arrangement as the trachea.",
+        D: "True, so not the exception. Mucoserous glands in the submucosa are part of the extrapulmonary bronchus's true submucosa, the same layer the trachea itself carries.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Conducting Portion cluster (bank-tagged
+      // "Veins", genuinely this leaf's own bronchus/bronchiole
+      // structural-progression content). The concept's own text places
+      // the trachea's smooth muscle only posteriorly, at the cartilage
+      // ends — the least developed point on the same progression whose
+      // more developed, spiral arrangement appears at the intrapulmonary
+      // bronchus and whose most developed, circular arrangement appears
+      // at the bronchiole.
+      key: "less-developed-spirally-arranged-smooth-muscles-are-a-featur-adbb9056",
+      conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
+      difficulty: "Moderate",
+      questionType: "Comparison",
+      learningObjective: "Place the trachea at the least-developed end of the airway's smooth-muscle progression, against the intrapulmonary bronchus and bronchiole's more developed spiral/circular arrangements.",
+      explanations: {
+        A: "The intrapulmonary bronchus's smooth muscle is already more developed than the trachea's, arranged spirally around the whole lumen rather than confined posteriorly — not the less-developed end of this progression.",
+        B: "The bronchiole carries the most developed, circularly arranged smooth muscle of the whole progression, controlling airflow to the gas-exchange sites directly — the opposite extreme from 'less developed'.",
+        C: "Alveolar sacs carry only minimal, unorganised smooth muscle rather than a spiral arrangement at any stage of development, so this progression's 'less developed spiral muscle' description does not apply to them.",
+        D: "The trachea's smooth muscle lies only posteriorly, at the ends of the cartilage rings — the least developed point on the same progression that becomes spirally arranged around the whole lumen at the intrapulmonary bronchus and most developed, circularly arranged at the bronchiole.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Conducting Portion cluster (bank-tagged
+      // "Arteries", genuinely trachea structure). This leaf's own concept
+      // states the extrapulmonary bronchus keeps "a true submucosa
+      // carrying mucoserous glands and lymphatic nodules", and states it
+      // is "structurally identical to the trachea" — so the trachea's own
+      // glandular epithelium sits in the same layer, the submucosa.
+      key: "the-glandular-epithelium-of-the-trachea-exists-in-08025378",
+      conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "Locate the trachea's glandular epithelium in the submucosa, the same layer this leaf's own concept credits with mucoserous glands in the structurally identical extrapulmonary bronchus.",
+      explanations: {
+        A: "The mucosa is the epithelial lining and its immediate lamina propria; the glands themselves sit deeper, in the submucosa proper.",
+        B: "Connective tissue corium is not a named layer of the tracheal wall in this leaf's own three-layer (mucosa/submucosa/adventitia) account.",
+        C: "The trachea's glandular epithelium sits in the submucosa — the same layer this leaf's own concept credits with mucoserous glands in the extrapulmonary bronchus, which it describes as structurally identical to the trachea.",
+        D: "The adventitia is the tracheal wall's outermost connective-tissue coat, not the layer carrying its mucoserous glands.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Conducting Portion cluster (bank-tagged
+      // "Conducting Portion"). Leaf-mismatch routing: the false statement
+      // (gap facing the oesophagus anteriorly) is established by this
+      // module's own gross-anatomy concept (trachea.structure-relations-
+      // and-constrictions, anatomy-trachea-bronchi-oesophagus.ts), which
+      // states the C-shaped rings' open BACKS are joined by the trachealis
+      // muscle and that the oesophagus lies immediately BEHIND (posterior
+      // to) the trachea — the gap therefore faces the oesophagus
+      // posteriorly, not anteriorly. The remaining three statements match
+      // this leaf's own histology concept (incomplete C-shaped hyaline
+      // rings; smooth muscle bundle in loose connective tissue at the
+      // cartilage ends).
+      key: "trachea-is-characterized-by-all-except-529d75ca",
+      conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that the tracheal cartilage rings' gap faces the oesophagus posteriorly, not anteriorly, cross-referencing this module's own gross-anatomy account of the trachealis muscle and the oesophagus's position behind the trachea.",
+      explanations: {
+        A: "True of the trachea, so not the exception — it is held patent by incomplete, C-shaped rings of hyaline cartilage, sixteen to twenty of them along its length.",
+        B: "The exception, and the answer. This module's own gross-anatomy account places the oesophagus immediately BEHIND (posterior to) the trachea, and the cartilage rings' open backs — bridged by the trachealis muscle — face that same posterior direction, not anteriorly; the gap and the oesophagus are on the trachea's posterior aspect together.",
+        C: "True, so not the exception. The trachealis muscle bridges the open backs of the C-shaped rings, exactly the structure this module's own gross-anatomy concept names for that role.",
+        D: "True, so not the exception. A smooth muscle bundle within loose connective tissue, at the ends of the cartilage rings, is this leaf's own described location for the trachea's (and extrapulmonary bronchus's) smooth muscle.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Conducting Portion cluster, excluded. The
+      // stem asks what the tracheal epithelium is (a naming question), but
+      // the surviving options describe unrelated laryngeal FUNCTIONS
+      // (voice production, airway patency, preventing food entry) — an
+      // evident cross-contamination between two different bank rows at
+      // extraction. No coherent single question survives pairing this stem
+      // with these options.
+      key: "epithelium-of-trachea-lined-by-9cded545",
+      conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The stem asks what the tracheal epithelium IS (a naming question expecting an epithelium type as the answer), but every surviving option describes an unrelated laryngeal FUNCTION instead (voice production, maintaining an open airway, preventing food from entering the larynx) — an evident cross-contamination between two different bank rows at extraction, not a coherent single question about tracheal histology.",
+    },
+    {
+      // kasr-104-author-run45: Conducting Portion cluster, excluded.
+      // Extraction recovered only 3 options (B, C, D — no A), below the
+      // platform's 4-to-5-option import contract, and the underlying fact
+      // (intrapulmonary bronchus's spirally arranged smooth muscle) is
+      // already taught cleanly this same run via less-developed-spirally-
+      // arranged-smooth-muscles-are-a-featur-adbb9056's own distractor A,
+      // and via this leaf's own bronchi-and-bronchioles concept text.
+      key: "intrapulmonary-bronchus-has-tepret-epithelial-lining-with-no-a0257a5b",
+      conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 lettered options survived extraction (B, C, D — option A's text is missing entirely), below the platform's 4-to-5-option import contract. The credited fact (intrapulmonary bronchus's smooth muscle is spirally arranged, more developed than the trachea's own posteriorly confined muscle) is already taught cleanly this same run via less-developed-spirally-arranged-smooth-muscles-are-a-featur-adbb9056's own distractor A, and via this leaf's own sourced concept text — no unique teaching content is lost.",
+    },
+    {
+      // kasr-104-author-run46: revisited AND CORRECTED. Run 45 excluded this
+      // for "no PDF or cached page-text access" — false. My own first
+      // re-check this run used a shell-escaped "\|" alternation in the grep
+      // pattern, which this tool's regex does not support the way a shell
+      // pipe does — that produced a false "0 hits" I initially trusted and
+      // nearly re-excluded on. Re-running with a plain "|" alternation
+      // found it immediately: histology dept book p32 states, verbatim,
+      // "Gaps between free ends of the rings face esophagus posteriorly and
+      // are bridged by fibro-elastic ligament (prevents overdistension) and
+      // by smooth trachialis muscle bundles" — an exact match for this
+      // row's own printed answer. The live article ART-104-HIS-LARYNX-
+      // TRACHEA-BRONCHI already states the same fact in its own Definition
+      // section, so this mints against that existing article rather than
+      // needing a new one.
+      key: "prevent-over-distension-in-trachea-3478dfd1",
+      conceptKey: "trachea.wall-layers-and-cartilage-gap-bridging-structures",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "Name the fibro-elastic ligament, not the trachealis muscle, elastic membrane or epithelium, as the structure the department book credits with preventing tracheal overdistension.",
+      explanations: {
+        A: "The trachealis smooth muscle also bridges the C-shaped rings' posterior gap, but the department book credits it with constricting the lumen and increasing airflow force during coughing/forced expiration — a different function from preventing overdistension.",
+        B: "Correct. The department book states directly that the fibro-elastic ligament bridging the tracheal rings' posterior gap 'prevents overdistension' (p.22 of the histology book) — the one structure this exact function is credited to, distinct from the trachealis muscle that shares the same gap.",
+        C: "The elastic membrane is a condensation of elastic fibres within the tracheal mucosa's lamina propria, a different layer entirely from the fibrocartilaginous coat's posterior gap this question turns on.",
+        D: "Respiratory epithelium lines the tracheal mucosa's free surface; it plays no structural role in bridging the cartilage rings' posterior gap or resisting overdistension.",
+      },
+    },
+    {
       key: "intra-pulmonary-bronchi-is-characterized-by-all-except-a-pse-f23160d8",
       conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
       difficulty: "Moderate",

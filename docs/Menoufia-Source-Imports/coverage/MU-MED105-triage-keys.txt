@@ -1,0 +1,143 @@
+# MU-MED105 triage keys — format med105-<paper-slug>-q<NN>, one per question.
+# S3 tier-1 triage, 2026-09-02. Only 4 tier-1 files exist for this module (no
+# midterm/EOY/resit — 07 EOY Exams and 08 Resit and Baqoon are both empty
+# folders for MED105, confirmed by direct find). Key convention: yellow
+# highlight on the correct option, confirmed by rendering p1 of all three
+# "Answered"/full files (pagetext.mjs keys does not detect this convention —
+# see coverage/MU-MED105-triage.md's critical finding). Full render budget (3)
+# spent confirming the convention, not extracting keys page-by-page — every
+# item below except the explicitly rendered ones is listed as a raw stem
+# count, not yet individually keyed; S2 authoring renders and keys them
+# incrementally, same approach as MED104.
+
+## med105-end43-cvs — CVS End Module 43.pdf (mu_9ac9f79f9ed25404b19b; 74q, continuous Q1-74, pure MCQ, subjects round-robin Histo/Anatomy/Physio/Pharma/Path, 0 garbled pages) — key convention: yellow highlight, confirmed p1 (q01=b, q02=b, q03=d, q04=c); p16 additionally carries a second, inconsistent red-text marking on q71/q72/q73 (E/D/E) not yet reconciled with the primary convention
+med105-end43-cvs-q01
+med105-end43-cvs-q02
+med105-end43-cvs-q03
+med105-end43-cvs-q04
+med105-end43-cvs-q05
+med105-end43-cvs-q06
+med105-end43-cvs-q07
+med105-end43-cvs-q08
+med105-end43-cvs-q09
+med105-end43-cvs-q10
+med105-end43-cvs-q11
+med105-end43-cvs-q12
+med105-end43-cvs-q13
+med105-end43-cvs-q14
+med105-end43-cvs-q15
+med105-end43-cvs-q16
+med105-end43-cvs-q17
+med105-end43-cvs-q18
+med105-end43-cvs-q19
+med105-end43-cvs-q20
+med105-end43-cvs-q21
+med105-end43-cvs-q22
+med105-end43-cvs-q23
+med105-end43-cvs-q24
+med105-end43-cvs-q25
+med105-end43-cvs-q26
+med105-end43-cvs-q27
+med105-end43-cvs-q28
+med105-end43-cvs-q29
+med105-end43-cvs-q30
+med105-end43-cvs-q31
+med105-end43-cvs-q32
+med105-end43-cvs-q33
+med105-end43-cvs-q34
+med105-end43-cvs-q35
+med105-end43-cvs-q36
+med105-end43-cvs-q37
+med105-end43-cvs-q38
+med105-end43-cvs-q39
+med105-end43-cvs-q40
+med105-end43-cvs-q41
+med105-end43-cvs-q42
+med105-end43-cvs-q43
+med105-end43-cvs-q44
+med105-end43-cvs-q45
+med105-end43-cvs-q46
+med105-end43-cvs-q47
+med105-end43-cvs-q48
+med105-end43-cvs-q49
+med105-end43-cvs-q50
+med105-end43-cvs-q51
+med105-end43-cvs-q52
+med105-end43-cvs-q53
+med105-end43-cvs-q54
+med105-end43-cvs-q55
+med105-end43-cvs-q56
+med105-end43-cvs-q57
+med105-end43-cvs-q58
+med105-end43-cvs-q59
+med105-end43-cvs-q60
+med105-end43-cvs-q61
+med105-end43-cvs-q62
+med105-end43-cvs-q63
+med105-end43-cvs-q64
+med105-end43-cvs-q65
+med105-end43-cvs-q66
+med105-end43-cvs-q67
+med105-end43-cvs-q68
+med105-end43-cvs-q69
+med105-end43-cvs-q70
+# q70: "structure marked by (A)" — image-dependent, hand-drawn heart diagram — held under rule 3/9 (lane-2, 2026-09-02)
+med105-end43-cvs-q71
+med105-end43-cvs-q72
+med105-end43-cvs-q73
+# q71-q73: this triage's own note flagged a "second, inconsistent red-text marking" (E/D/E) on p16, unreconciled with the primary yellow-highlight convention. Lane-2's fresh p16 render (2026-09-02) found no such thing — p16 keys cleanly by the same yellow-highlight convention as every other page (q71=d, q72=a, q73=b, q74=a). The red-text guess was a tool misread; resolved, all three authored.
+med105-end43-cvs-q74
+
+## med105-final43-p1 — CVS Final 43 - Paper 1 Answered.pdf / CVS Final 43 - Paper 1 Unanswered.pdf (mu_b2fc082f072c18432ad3 / mu_a3aa1fdea67779294c75; twin pair — Unanswered is stems-only, not double-counted; 51 raw numbered-stem hits, ~37 true continuous MCQ (q01-q37) + a second short MCQ block on p12 (q01-q08, own local numbering, not yet reconciled into this running list) + an essay/short-answer tail from p13 on — out of MCQ scope) — key convention: yellow highlight, confirmed p1 (q01=b, q02=c, q03=b). Lane-3 (2026-09-02): rendered p1-p11 (11 renders) to key q01-q37 in full. The triage's own "red-text" tool guesses were checked against the render and found WRONG on q18 (guessed E, actual highlight D) and q29 (guessed E, actual highlight B) — highlight is authoritative, matching lane-2's own p16 finding; q37's red text (plain, no highlight) was correct. 30 authored, 7 held: q05/q11/q19 image-dependent (q11's X-ray-with-circled-fracture stem is a new find beyond this note's original keyword-scan count), q27 double-marked (both A and C highlighted), q06/q10/q13 duplicate already-authored end43-cvs facts (see coverage/MU-MED105-LEDGER.md's Held section for full reasons).
+med105-final43-p1-q01
+med105-final43-p1-q02
+med105-final43-p1-q03
+med105-final43-p1-q04
+# q05: "structure marked by arrow" — image-dependent, rule 3/9 hold
+# q06: duplicate of already-authored QST-MUMED105-END43-Q01 (cardiac muscle fibre character) — held, not authored
+med105-final43-p1-q07
+med105-final43-p1-q08
+med105-final43-p1-q09
+# q10: duplicate of already-authored QST-MUMED105-END43-Q10 (SA node at SVC/RA junction) — held, not authored
+med105-final43-p1-q11
+# q11: "X-ray reveals a fracture...indicated by the black circle" — image-dependent, rule 3/9 hold (new find, not in this note's original keyword scan)
+med105-final43-p1-q12
+# q13: duplicate of already-authored QST-MUMED105-END43-Q71 (gluteal arteries from internal iliac) — held, not authored
+med105-final43-p1-q14
+med105-final43-p1-q15
+med105-final43-p1-q16
+med105-final43-p1-q17
+med105-final43-p1-q18
+med105-final43-p1-q19
+# q19: "arrowed artery" (vertebral-level stem) — image-dependent, rule 3/9 hold
+med105-final43-p1-q20
+med105-final43-p1-q21
+med105-final43-p1-q22
+med105-final43-p1-q23
+med105-final43-p1-q24
+med105-final43-p1-q25
+med105-final43-p1-q26
+med105-final43-p1-q27
+med105-final43-p1-q28
+med105-final43-p1-q29
+med105-final43-p1-q30
+med105-final43-p1-q31
+med105-final43-p1-q32
+med105-final43-p1-q33
+med105-final43-p1-q34
+med105-final43-p1-q35
+med105-final43-p1-q36
+med105-final43-p1-q37
+# p12's second MCQ block (local q01-q08, pathology) and the p13+ essay/short-answer tail
+# (arrowed-artery labelling, venous diagram, atherosclerosis 5-features essay) are not
+# reconciled into this q-number sequence yet — S2 needs a full read to renumber before
+# minting; the essay tail is out of MCQ scope regardless of renumbering.
+
+## med105-final43-p2 — CVS Final 43 - Paper 2 Answered.pdf (mu_70ab592bf2e6b55aefa3; no Unanswered twin exists; 59 raw numbered-stem hits across several subject sub-blocks that each restart at Q1 — Pharma mcq section first, then multiple Physiology sub-topics — not yet deduped into one running count) — key convention: yellow highlight, confirmed p1 Pharma-mcq block (q01=e, q02=c, q03=c); 0 image-dependency keyword hits (figure/arrow/diagram/shown/labeled) anywhere in this file — reads clean of rule 3/9 holds
+med105-final43-p2-q01
+med105-final43-p2-q02
+med105-final43-p2-q03
+# q04 onward: Pharma block continues then resets into Physiology sub-blocks (cardiac
+# cycle, action-potential phases, etc.) with their own local Q1 numbering — S2 needs a
+# full read to renumber into one running sequence before minting; not attempted here
+# per LANE-CARD's "read text" scope (triage samples, S2 authors).

@@ -376,7 +376,7 @@
     },
     {
       "key": "enz-q53",
-      "hold": "printed key (53=a) selects the option reading 'lower Ki and faster Vmax' -- 'Ki' is almost certainly a typo for 'Km' and 'faster Vmax' is not supportable from the half-maximal-velocity data given (no Vmax information is stated); forcing this key would require an unjustified explanation, so held for a page-render check rather than authored on a guess"
+      "hold": "Re-read directly (pagetext.mjs show, p.12 stem + p.14 printed answer table -- a clean printed list, not a highlight/OCR mark, so the LETTER is unambiguous: '53. a'). The letter mechanism is certain; the content is not. Stem: enzyme A reaches half-max velocity at 0.05 mM substrate, enzyme B at 5 mM -- this establishes only that enzyme A has the lower Km (higher affinity); it gives no Vmax data at all, so no option's Vmax clause is derivable from the stem. Two of the four options (a: 'lower Ki and faster Vmax', b: 'lower Kim and slower Vmax' -- 'Ki'/'Kim' both read as a typo for 'Km') are the only ones directionally correct on Km; they differ solely in an equally unsupportable Vmax claim (c and d are eliminated outright, both getting the Km direction backwards). The print picked (a), but nothing in the stem corroborates 'faster' over 'slower' Vmax for enzyme A over (b) -- this is a genuine defect in the bank's own question (it asserts a comparison its own data cannot support), not a convention clash or an OCR ambiguity, so held rather than editorial-keyed. Exact ambiguity for the ledger: options A and B are the two the print's Km-direction reasoning supports; neither Vmax clause is derivable, so the choice between them is unresolvable from the source."
     },
     {
       "key": "enz-q11",

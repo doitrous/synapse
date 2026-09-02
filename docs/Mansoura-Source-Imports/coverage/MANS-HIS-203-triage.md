@@ -87,12 +87,132 @@ both a narrow and a broadened query before being called pending/live.
 | Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
 |---|--:|--:|--:|--:|--:|--:|---|
 | MANS-HIS-203 (Phase-0 sample, not exhaustive) | 66 | 52 (+1 low-confidence) | 19 (17 searched, 2 not yet searched) | 6 | 10 | 1 | `imm` — Gell-Coombs hypersensitivity classification |
+| MANS-HIS-203 (author3 pass, Physiology p.110-130 + Biochemistry p.139-143 + Pharmacology p.146-148) | 141 raw items (Q36-140, BI2-Q6-31, PH2-Q5-12) | 141, all printed keys | 19 new mints + 6 reuses (2 live: chemotaxis, opsonins; 4 pending: intrinsic factor, sickle cell/hemoglobinopathies, vitamin-K-dependent factors ×2 questions) | 2 | 4 | 19 | see §Author3 addendum below |
+| MANS-HIS-203 (author4 pass, Pharmacology p.149-159 anaemia-treatment continuation + "MCQ Lecture 2" p.160-163 anticoagulants) | 70 raw items (PH3-Q13-62, PH4-Q1-20) | 70, all printed keys (2 flagged doubts: PH3-Q24, PH4-Q20) | 35 new mints + 5 reuses (4 live Kasr 102-INT physiology concepts, 1 reuse question of a 2nd live concept, 1 pending intrinsic-factor reuse) | 5 | 1 | 35 | see §Author4 addendum below |
+
+### Author3 addendum (2026-09-02) — Physiology p.110-130, Biochemistry p.139-143, Pharmacology p.146-148
+
+Physiology p.110-130 (footer numbers; PDF p.120-140) turned out to hold no blood-group
+content despite the task brief's expectation — the actual content across `Q36-Q140` is
+erythropoiesis extras, WBC/leukocyte/innate-immunity function (first-line defence,
+chemotaxis, diapedesis, myeloperoxidase, agranulocytosis, leukaemia, tissue-macrophage
+nomenclature, opsonins, leukocyte lifespan), hemostasis/coagulation (extrinsic pathway,
+factor Xa, hemophilia, thromboxane/von Willebrand factor, hemostasis sequence, clot
+retraction, vitamin-K-dependent factors), and plasma proteins (albumin, transferrin,
+transcobalamin, alpha-1-antitrypsin, C-reactive protein). Biochemistry p.139-143 (footer;
+PDF p.151-155) was almost entirely a literal duplicate of already-triaged BI-N/BI-N2/
+BI-Q/PH-Q facts from author2's pass — only 5 distinct new facts surfaced (porphyrin
+methylene bridges, methemoglobinemia/O2-binding-site bundle, hemoglobin-as-conjugated-
+protein, hepatocellular jaundice's mixed bilirubin pattern) plus a richer restatement of
+the sickle-cell mutation (codon 6, glutamate-to-valine) worth authoring in place of the
+plainer physiology-section version. Pharmacology p.146-148 (footer; PDF p.159-161) picks
+up immediately after author2's `pharmacology-iron-b12.json` (p.145) with a rich USMLE-
+style anemia-treatment vignette section — 7 of 8 distinct facts authored (iron toxicity/
+desferrioxamine, hydroxocobalamin/cyanide, methotrexate/folate, B12 neuro vignette with
+subacute combined degeneration, pernicious anaemia/atrophic gastritis), 2 held as complex
+multi-part clinical vignettes with no matching concept found this pass. Pharmacology
+p.149-176 (28 further pages) is untouched — flagged as the next pass's starting point.
+
+Full per-question detail is in `MANS-HIS-203-triage-keys.txt`'s author3 sections. 19 new
+concepts minted (10 `imm`/innate-immunity, 9 `haem`/`pharm` physiology-biochemistry-
+pharmacology), each with its own article (two-sided coverage). 4 pending concepts reused
+via sparse overlay in `pending-live/MANS-HIS-203-concepts.md` (intrinsic factor, sickle
+cell/hemoglobinopathies, vitamin-K-dependent factors); 2 live concepts (chemotaxis,
+opsonins) reused directly with no overlay needed, per the precedent that this file's own
+existing rows never overlay a live target. One data-integrity gap found in author2's own
+prior work, not fixed here: `biochemistry-heme.json`'s `hemolytic-jaundice-urobilinogen`
+question mints `CON-HEM-22375197AEE80D` as its `main_concept`, but no standalone concept
+record for that id exists anywhere in this lane's `concept/` file — `gate.mjs batch`
+rejects any new question that names it as a `contextual_concept_ids` reference (confirmed
+twice, on the hepatocellular-jaundice and obstructive-jaundice-hemorrhagic-tendency
+questions, both fixed by dropping the reference rather than fixing the gap). Flagged for
+whichever session next touches `biochemistry-heme.json`.
+
+**RESOLVED 2026-09-02 by MANS-HIS-203-author4** (10-minute integrity check at the start of
+this pass): `grep -n "CON-HEM-22375197AEE80D" concept/MANS-HIS-203-concepts.md` at line
+~3545 was only a `related_concept_ids` mention inside the *hepatocellular*-jaundice record
+(`CON-HEM-364A4A59515E8A`) — no standalone Item existed for the id itself, confirming
+author3's finding. Added the missing record (label: "In haemolytic jaundice, excess red
+cell breakdown delivers more bilirubin to the gut than normal, so both urine and faecal
+urobilinogen rise together"; `canonical_key`
+`haemolytic-jaundice-urobilinogen-pattern`; same `DIS-BIO-T07` node, same `haem` subject
+as its differential neighbour) plus a matching article,
+`ART-MANS-HIS-HEMOLYTIC-JAUNDICE-UROBILINOGEN-PATTERN`, both keyed off the id already in
+circulation (no re-mint). `find-existing.mjs "haemolytic jaundice urobilinogen"` still
+returned "safe to create one" before authoring; a broader `"urobilinogen"` query surfaced
+only this id's own existing downstream uses, not a rival record. Verified two ways: (1)
+`node scripts/validate-content-batch.mjs pending-live/MANS-HIS-203-questions-author2-biochem-pharm.md
+--with concept/MANS-HIS-203-concepts.md --with article/MANS-HIS-203-articles.md --with
+resource/MANS-HIS-203-resources.md --with Kasr-Source-Imports/article/103-BMS-mcq-heme.md
+--with Kasr-Source-Imports/concept/103-BMS-mcq-heme-concepts.md --with
+Kasr-Source-Imports/concept/102-INT-mcq-concepts.md --with
+Kasr-Source-Imports/concept/102-INT-physiology-concepts.md --with
+Alexandria-Source-Imports/concept/AU-MED-102-biochem-nitrogen-blood-concepts.md --with
+Alexandria-Source-Imports/concept/AU-MED-103-physiology-concepts.md` (the direct validator,
+run to sidestep `gate.mjs`'s known errors=0-on-crash bug) returned `"errors": []` for all 9
+items in that overlay file, including
+`QST-MANSHIS203-BIOCHEMISTRY-HEME-HEMOLYTIC-JAUNDICE-UROBILINOGEN`, which now shows the
+same "main concept has not passed the evidence gate (needs_evidence)" note as its 5
+siblings — no longer a special-case failure. (2) `gate.mjs simulate` over the full
+10-file dependency chain (those same concept/article/resource files plus the questions
+overlay, apply order) returned `batches=10 created=260 updated=61 rejected=0 skipped=0
+errors=0`. The id was never re-minted — the fix only fills the record that was already
+being referenced.
 
 `Keys recovered` = 40 (Continuous Book, Histology Lecture 1&2 + past-exam blocks) + 5
 (Continuous Book, Histology Lecture 3&4) + 5 (Continuous Book, Microbiology) + 2 solid
 (`HIS 1- MCQ-scan.pdf`) = 52, against 66 distinct questions triaged. The 13 unrecovered
 are all in `HIS 1- MCQ-scan.pdf`, whose OCR lost the answer highlight entirely for those
 items (1 further item recovered at low confidence, flagged, not counted in the 52).
+
+### Author4 addendum (2026-09-02) — Pharmacology p.149-159 (anaemia continuation) + "MCQ Lecture 2" p.160-163 (anticoagulants)
+
+Started with a 10-minute integrity check (see the top of this file): `CON-HEM-22375197AEE80D`,
+minted by author2's `biochemistry-heme.json` as a question's `main_concept` and referenced
+by `CON-HEM-364A4A59515E8A`'s own `related_concept_ids`, had no standalone concept record
+anywhere in this module — confirmed, fixed (concept + article added, same id, no re-mint),
+and verified clean with `validate-content-batch.mjs` (errors=[]) and `gate.mjs simulate`
+(rejected=0 errors=0) before authoring began.
+
+Pharmacology p.149-159 (footer; PDF p.162-172) continues directly after author3's
+`pharmacology-anemia-vignettes.json` stopped at PH2-Q12 (footer p.148) — `Q13-Q62`, 50
+raw items, entirely anaemia-treatment pharmacology (folate/B12 mechanisms and deficiency
+causes, iron pharmacology, erythropoietin). This range is unusually duplicate-heavy: the
+"EPO indicated for anaemia of chronic renal failure" fact is printed 6 times (Q20, Q29,
+Q30, Q36, Q54, Q61) and "folinic acid for methotrexate-induced anaemia" 4 times (Q23, Q28,
+Q49, Q58, the last three literal duplicates of author3's already-authored fact) — both
+held after the first genuinely new angle. 27 distinct facts authored (26 new concept
+mints + reusing one of those mints — the EPO concept — for a second, differentiating-
+among-growth-factors question); 23 held (literal/near duplicates, one reference-value
+numeric-recall item at Q22). Two printed keys carried a doubt, noted in `author_notes`
+rather than silently corrected: Q24 ("homocysteine to methionine requires B12 but not
+folate" — the reaction is, strictly, jointly B12-and-folate dependent) and generally
+this section's habit of testing the same fact from many angles.
+
+The book's own printed heading changes from "Lecture 1&2" to "MCQ Lecture 2" exactly at
+PDF p.173 (footer p.160), moving to a fresh topic — anticoagulants (heparin, warfarin,
+LMWH) — not touched by any earlier pass. `find-existing.mjs` runs for this sub-section
+surfaced four **live** Kasr `102-INT` physiology concepts covering heparin's mechanism,
+heparin's dosing-and-antidote profile, warfarin's mechanism, and warfarin's dosing-and-
+antidote profile — reused directly as `main_concept` for 5 of the 15 authored questions
+(one concept, `CON-HEM-532BFAEE98CC39`, reused for two questions testing different facets
+— protamine antidote and injection route — of the same multi-fact live record), no overlay
+needed per this file's established live-target precedent. 10 new concepts minted for facts
+genuinely absent from the live/pending corpus (dose-dependent pathway selectivity, HIT/
+hirudin, LMWH's anti-Xa selectivity, placental non-crossing, rebound thrombosis on
+withdrawal, contraindications, drug interactions). Lecture 2 ends at Q20 (PDF p.176),
+exactly the end of this lane's assigned p.149-176 range. 15 distinct facts authored; 5
+held (2 literal duplicates — Q9 repeats Q2 verbatim — and 3 near-duplicates covered by a
+richer sibling question). One printed key (Q20, enoxaparin's advantage over heparin =
+"unlikely to cause bleeding") conflicts with the more standard pharmacology teaching
+(predictable dosing and lower HIT/osteoporosis risk are the usually-cited advantages,
+not reduced bleeding specifically) — printed key followed per the lane's rule, doubt
+flagged in `author_notes`.
+
+42 questions authored across the two clusters (27 + 15), inside the task's ~40-50 target
+without needing the plasma-protein-notes fallback, which remains untriaged and flagged
+below for a future pass. Full per-question detail (all 70 raw items, authored and held,
+with reasons) is in `MANS-HIS-203-triage-keys.txt`'s two new author4 source blocks.
 
 ## Hit-rate validates the task brief's prediction
 
@@ -105,12 +225,20 @@ from the disease-specific hypersensitivity concepts already live/pending.
 
 ## Needs Omar / needs a second pass (not blockers, logged so they aren't lost)
 
-- `HIS 1- MCQ-scan.pdf`: 13 of 16 sampled questions have no recoverable key from this
-  OCR pass (highlight lost). Worth a second OCR attempt at a different `psm`, or a
-  direct visual read of the source PDF, before this file is used to author questions.
+- `HIS 1- MCQ-scan.pdf`: RESOLVED 2026-09-02 by MANS-HIS-203-author1 — a one-time full-page
+  render of p.2-4 showed a printed answer-letter column (not a highlight), recovering all
+  16/16 keys; see the updated `coverage/MANS-HIS-203-triage-keys.txt`. 5 of the 16 matched
+  an existing live concept and were authored; the other 11 (numeric reference-range facts —
+  packed cell volume, RBC count, Hb content — and haemoglobin/globin structure facts) have
+  no matching live or pending concept and are held pending a dedicated concept-mapping or
+  minting pass.
 - Parasitology, Physiology, Biochemistry, Pharmacology sections of the Continuous Book
   (pages ~55-176 per its own table of contents) and ~100 remaining per-lecture HIS files
   are catalogued (manifest) but not yet triaged — next pass for this module once triage
   resumes past Phase-0.
-- Concepts #13 (B/T lymphocyte function) and #17 (Hb chain structure) were identified as
-  tested but not yet searched against live/pending state.
+- Concept #13 (B/T lymphocyte function) RESOLVED 2026-09-02: matches AU-authored pending
+  concept `CON-HEM-FDAC2D5F64032E` (`lymphocyte-types-t-b-and-nk-and-the-immunity-each-
+  mediates`, in `Alexandria-Source-Imports/concept/AU-MED-103-histology-concepts.md`) —
+  authored via `pending-live/MANS-HIS-203-questions.md`. Concept #17 (Hb chain structure)
+  is still not matched to any live/pending concept; the two HIS-1-MCQ-scan questions that
+  test it (globin chain composition, fetal Hb composition) are held above.

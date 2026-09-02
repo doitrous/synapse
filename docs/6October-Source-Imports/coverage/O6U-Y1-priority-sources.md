@@ -19,14 +19,14 @@ pool sitting behind these files on Desktop.
 |--:|---|---|
 | 1 | `mid module BOS 101 module 1 october.pdf` | 9p / 1106 words, 0 garbled -- **fully native, fully keyed**: Moodle quiz-export format states "`<pct>`% of respondents (`<n>` of `<total>`) answered this question correctly" per question, and one answer option's printed vote count equals `<n>` -- see `coverage/O6U-IBS-IBF-triage.md`. 25 questions, all recoverable. |
 | 1 | `mid module BOS 101 module 2.pdf` | 9p / 1142 words, 0 garbled -- same Moodle-export format, 25 questions (largely the same question pool re-sat by a different cohort; one printed-key conflict at Q6, see triage doc). |
-| 1 | `BOS final exam 20-21 (o6u bot).PDF` | 29p, fully garbled (0 words) -- needs OCR, not yet triaged. |
+| 1 | `BOS final exam 20-21 (o6u bot).PDF` | 29p, fully garbled (0 words) -- OCR'd in full, triaged 2026-09-02: **no printed key**. It is one respondent's ("Ahmed's") own completed MS-Forms exam attempt, not a graded/official key -- at least 3 of the respondent's own marked answers are demonstrably wrong (primary-structure bond, mast-cell/anaphylaxis, phagocytosis-vs-facilitated-diffusion). Chief-of-staff ruling: do not author from it, do not invent editorial keys. Full inventory: `coverage/O6U-IBS-IBF-triage.md` §"BOS final exam". |
 | 1 | `mid module BOS 4.pdf` | 5p, fully garbled (0 words) -- needs OCR, not yet triaged. |
 
 ## O6U-IPA-107 (`GMD` folder)
 
 | Tier | Source | Readability |
 |--:|---|---|
-| 3 | `Pathology Q Bank.pdf` | 401p / 13,301 words, 0 garbled -- the single largest fully-native source in the whole corpus. Printed keys exist only in its "True or False" sections at the end of each of its 6 chapters (pages 246-248, 279-280, 299, 399-401 -- 9 of 401 pages); the much larger MCQ ("choose the correct answer") portion in between carries no printed/inferable key in plain-text extraction. Not yet triaged beyond the sample read for source selection. |
+| 3 | `Pathology Q Bank.pdf` | 401p / 13,301 words, 0 garbled -- the single largest fully-native source in the whole corpus. Triaged and authored 2026-09-02: printed keys exist only in its 6 chapter-ending "True or False" sections (pages 246-248, 279-280, 299, 399-401 -- 9 of 401 pages, ~90 statements), each printing its own inline `( true )`/`( false )` answer, all independently cross-checked against fact. 40/~90 authored as single-best-answer questions (seed contract requires 4-5 options, so each T/F statement was recast with 3 author-constructed distractors around the one printed-key fact); 24 new concepts + 6 new articles minted, only 1 genuine reuse hit found (Kasr `208-INT` anaplasia, cross-year) despite the coordinator's steer toward `104-CPS`/`108-INT`/ASU-INF overlaps. The 392-page "choose the correct answer" MCQ portion between chapters remains unkeyed and unauthored. See `coverage/O6U-IPA-107-triage.md`. |
 | 2 | `Practical & Oral patho (O6U bot).pdf` | 20p, fully garbled -- needs OCR. |
 | 4 | `haemodynamic- رباب.pdf` | 7p, fully garbled -- needs OCR. |
 | 4 | `neoplasia- رباب.pdf` | 9p, fully garbled -- needs OCR. |
@@ -55,7 +55,7 @@ pool sitting behind these files on Desktop.
 |--:|---|---|
 | 4 | `5- Blood. Dr.Ahmad.Alarabi. 2016-2017 .pdf` | 42p / 8,925 words, 0 garbled -- department-staff physiology notes, not a keyed question set. |
 | 3 | `HID Physiology MCQ #Diaa (O6U Med Bot).pdf` | 16p, fully garbled -- needs OCR. |
-| 3 | `Histology MCQ HID.pdf` | 7p / 573 words, 0 garbled -- small, clean, not yet triaged. |
+| 3 | `Histology MCQ HID.pdf` | 7p / 573 words, 0 garbled -- triaged and authored 2026-09-02: page 7 prints a plain "Key answer" table for all 22 questions, cross-checked with no contradictions found (`pagetext.mjs keys`' 6 "red-text" hits on this file were a false positive from a page-footer-attribution bug in `pdf_visual_keys.py`, unrelated to the real key). 22/22 authored, 0 held. See `coverage/O6U-IHI-103-triage.md`. |
 | 1 | `HID Quiz & Mid Module 2019(O6U Med Bot).docx` | Not covered by the PDF readability indexer (`.docx`); not yet opened. |
 
 ## O6U-IMB-104 (`IMI-MBI` folder)

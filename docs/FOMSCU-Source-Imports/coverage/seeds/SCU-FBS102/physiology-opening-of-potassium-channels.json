@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-opening-of-potassium-channels",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-opening-of-potassium-channels'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "neuro",
+    "module_subject": "SCU-FBS102 > Physiology > Nerve and Muscle Physiology > Action Potential"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-OPENING-OF-POTASSIUM-CHANNELS",
+      "key": "physiology-opening-of-potassium-channels",
+      "title": "Potassium channel opening drives action-potential repolarization",
+      "subject": "neuro",
+      "module_subject": "SCU-FBS102 > Physiology > Nerve and Muscle Physiology > Action Potential",
+      "question": "Which of the following ion channel events is primarily responsible for the repolarization phase of a neuronal action potential?",
+      "options": {
+        "A": "Rapid opening of voltage-gated sodium channels",
+        "B": "Delayed closing of voltage-gated calcium channels",
+        "C": "Opening of voltage-gated potassium channels",
+        "D": "Sudden closing of voltage-gated chloride channels"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Rapid sodium channel opening is what produces the rising, depolarization phase of the action potential, not the falling, repolarization phase.",
+        "B": "Incorrect. Voltage-gated calcium channels are important at synaptic terminals and in cardiac/smooth muscle action potentials, but they are not the ion channel responsible for repolarizing a typical neuronal action potential.",
+        "C": "Correct. Voltage-gated potassium channels open with a delay relative to sodium channels, and the resulting outward flow of K+ down its electrochemical gradient drives the membrane potential back toward the resting potential, producing repolarization. This delayed potassium efflux, not any change in sodium channel state, is the specific event examiners look for when a question asks about repolarization.",
+        "D": "Incorrect. Chloride channels are not the primary drivers of the repolarization phase; the dominant event is potassium efflux through voltage-gated potassium channels, not chloride channel closure."
+      },
+      "topic": "Physiology",
+      "subtopic": "Nerve physiology: the action potential",
+      "main_concept": "CON-NEU-59E4FF70ED6A9F",
+      "concept_ids": [
+        "CON-NEU-59E4FF70ED6A9F"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-ACTION-POTENTIAL-IONIC-BASIS"
+      ],
+      "learning_objective": "State that the repolarization phase of an action potential is produced by the opening of voltage-gated potassium channels, not by sodium channel activity.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q8, Formative and Past Exams 2023 Q8",
+      "author_notes": ""
+    }
+  ]
+}

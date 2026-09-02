@@ -1,0 +1,380 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch11",
+  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 11 \"Nematoda\" (pp.112-130). Sibling seed file to ini-mcq-ch11-part1.json (same lane, same Q1-56 window -- see that file's header for the full triage summary). This batch authors 13 of the 56 questions whose tested idea rides on one of 11 newly-minted AUN-INI-105 concepts (concept/AUN-INI-105-ch11-concepts-2.md, article/AUN-INI-105-ch11-article.md item 2, \"Nematoda II -- hookworms, Strongyloides, Trichostrongylus and related contrasts\").",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-INI-105",
+    "module_subject": "AUN-INI-105 > Nematoda",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-INF-AUN-INI105-NEMATODA-2"],
+    "resource_ids": ["src_6f2f4188bb0cbf848733"],
+    "source_citation": "INI MCQ .pdf, Nematoda, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "topic": "Nematoda",
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch11-q017",
+      "page": 113,
+      "title": "Trichostrongylus does not enter through the skin",
+      "question": "The portal of entry for the following parasites is the skin EXCEPT?",
+      "options": {
+        "A": "Ancylostoma duodenale",
+        "B": "Strongyloides stercoralis",
+        "C": "Schistosoma mansoni",
+        "D": "Trichostrongylus colubriformis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Ancylostoma duodenale's infective filariform larva penetrates human skin directly, so its portal of entry is the skin.",
+        "B": "Incorrect. Strongyloides stercoralis's infective filariform larva penetrates human skin directly, so its portal of entry is the skin.",
+        "C": "Incorrect. Schistosoma mansoni's infective cercaria penetrates human skin directly on contact with infested water, so its portal of entry is the skin.",
+        "D": "Correct. Trichostrongylus colubriformis infects the human host when its infective filariform larva, present on contaminated vegetation, is ingested -- not by skin penetration. This makes it the exception among Ancylostoma duodenale, Strongyloides stercoralis and Schistosoma mansoni, all three of which enter through the skin directly. Recognising Trichostrongylus's oral route is the recurring exam trap in a 'portal of entry is skin' list."
+      },
+      "main_concept": "CON-INF-873793A1A9183E",
+      "concept_ids": ["CON-INF-873793A1A9183E"],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichostrongylus colubriformis",
+      "learning_objective": "Identify Trichostrongylus colubriformis as the exception whose portal of entry is oral (ingestion), not skin.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q018",
+      "page": 114,
+      "title": "Ancylostoma duodenale inhabits the small intestine",
+      "question": "Ancylostoma duodenale inhabits?",
+      "options": {
+        "A": "Duodenum",
+        "B": "Gall bladder",
+        "C": "Small intestine",
+        "D": "Large Intestine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Despite its species name, the bank's own answer key names the small intestine broadly, not the duodenum alone, as the correct habitat.",
+        "B": "Incorrect. Ancylostoma duodenale is an intestinal, not a biliary, parasite; it does not inhabit the gall bladder.",
+        "C": "Correct. Ancylostoma duodenale, despite its species name suggesting the duodenum specifically, inhabits the small intestine broadly -- attaching by its buccal capsule to the mucosa, most heavily in the jejunum and upper ileum as well as the duodenum. This is a standard identification point distinguishing hookworm habitat from the narrower 'duodenum-only' reading its name might suggest.",
+        "D": "Incorrect. Ancylostoma duodenale inhabits the small intestine, not the large intestine, which is instead the habitat of Trichuris trichiura and Enterobius vermicularis."
+      },
+      "main_concept": "CON-INF-FB0E1CD576F02D",
+      "concept_ids": ["CON-INF-FB0E1CD576F02D"],
+      "contextual_concept_ids": [],
+      "subtopic": "Ancylostoma duodenale",
+      "learning_objective": "State that Ancylostoma duodenale inhabits the small intestine.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q019",
+      "page": 114,
+      "title": "Ancylostoma filariform larva is sheathed",
+      "question": "The filariform larva of Ancylostoma?",
+      "options": {
+        "A": "Sheathed",
+        "B": "Non sheathed",
+        "C": "Has positive geotropism",
+        "D": "Has negative histotropism"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The filariform (third-stage, infective) larva of Ancylostoma duodenale is sheathed -- it retains the cuticle of the preceding (second-stage) moult as a loose outer sheath. It also shows positive thermotropism and negative geotropism (moving toward warmth and away from gravity, upward on moist soil or vegetation), the behaviour that brings it into contact with skin for penetration. Its sheathed state contrasts directly with the unsheathed filariform larva of Strongyloides stercoralis, a distinguishing pair tested elsewhere in this chapter.",
+        "B": "Incorrect. Unsheathed describes the Strongyloides stercoralis filariform larva, not that of Ancylostoma duodenale, which retains its sheath.",
+        "C": "Incorrect. The Ancylostoma filariform larva shows negative geotropism (moving away from gravity, upward), not positive geotropism.",
+        "D": "Incorrect. 'Negative histotropism' is not a standard descriptor used for this larva; its recognised directional behaviours are positive thermotropism and negative geotropism."
+      },
+      "main_concept": "CON-INF-2FA64AEF6E2AE3",
+      "concept_ids": ["CON-INF-2FA64AEF6E2AE3"],
+      "contextual_concept_ids": [],
+      "subtopic": "Ancylostoma duodenale",
+      "learning_objective": "State that the filariform larva of Ancylostoma duodenale is sheathed.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q028",
+      "page": 115,
+      "title": "Ancylostoma vs Necator differ in geographical distribution",
+      "question": "Ancylostoma duodenale differs from Necator americanus in?",
+      "options": {
+        "A": "Habitat",
+        "B": "Life cycle",
+        "C": "Treatment",
+        "D": "Geographical distribution"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Both species share essentially the same habitat, the small intestine, so habitat is not the distinguishing point tested here.",
+        "B": "Incorrect. Both species share essentially the same general life cycle (soil-egg maturation, skin-penetrating filariform larva, pulmonary migration, small-intestinal adult), so life cycle is not the distinguishing point.",
+        "C": "Incorrect. Both species are treated with the same standard antihelminthic drugs, so treatment is not the distinguishing point.",
+        "D": "Correct. Ancylostoma duodenale (the 'Old World' hookworm) and Necator americanus (the 'New World' hookworm) differ chiefly in geographical distribution: A. duodenale predominates in the Mediterranean, Middle East, North Africa and parts of Asia, while N. americanus predominates in the Americas, sub-Saharan Africa and parts of Asia. Their habitat, general life cycle and treatment are essentially the same, so distribution is the standard distinguishing point tested between the two species."
+      },
+      "main_concept": "CON-INF-95D7B62FDD7E23",
+      "concept_ids": ["CON-INF-95D7B62FDD7E23"],
+      "contextual_concept_ids": [],
+      "subtopic": "Hookworms",
+      "learning_objective": "State that Ancylostoma duodenale and Necator americanus differ chiefly in geographical distribution.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q029",
+      "page": 115,
+      "title": "Ancylostoma eggs pass immature in faeces",
+      "question": "Ancylostoma duodenale?",
+      "options": {
+        "A": "Inhabits the large intestine",
+        "B": "Infection by Ingestion of eggs",
+        "C": "Each female gives 200.000 eggs/day",
+        "D": "Immature eggs pass in faeces"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Ancylostoma duodenale inhabits the small intestine, not the large intestine.",
+        "B": "Incorrect. The standard route of infection is skin penetration by the infective filariform larva, not ingestion of eggs.",
+        "C": "Incorrect. This figure overstates the standard teaching estimate for daily egg output per female worm and is not the fact the bank keys as correct here.",
+        "D": "Correct. Ancylostoma duodenale infects man by skin penetration of its filariform larva, and its adult female lays eggs that pass out with faeces in an immature (unsegmented, unembryonated) state -- not already infective. Further development to the infective filariform larval stage occurs afterward in soil, not before or at the time the egg is passed. This immature-at-passage fact parallels the same principle already tested for Ascaris eggs elsewhere in this chapter."
+      },
+      "main_concept": "CON-INF-08359F3D33946C",
+      "concept_ids": ["CON-INF-08359F3D33946C"],
+      "contextual_concept_ids": [],
+      "subtopic": "Ancylostoma duodenale",
+      "learning_objective": "State that Ancylostoma duodenale eggs pass in faeces in an immature state.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q030",
+      "page": 115,
+      "title": "Ancylostoma egg is thin-shelled, translucent and immature",
+      "question": "Egg of Ancyclostoma?",
+      "options": {
+        "A": "Thin shelled",
+        "B": "Translucent",
+        "C": "Immature ovum",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. It is true the Ancylostoma egg is thin-shelled, but this is only one of three jointly true descriptors offered.",
+        "B": "Incorrect alone. It is true the Ancylostoma egg is translucent (colourless), but this is only one of three jointly true descriptors offered.",
+        "C": "Incorrect alone. It is true the Ancylostoma egg is an immature (unembryonated) ovum when passed, but this is only one of three jointly true descriptors offered.",
+        "D": "Correct. The Ancylostoma duodenale egg is thin-shelled, translucent (colourless), and immature (unembryonated) when passed in faeces. These three descriptive features form a standard triad tested together as an 'all of the above' item. This description distinguishes the hookworm egg from the thicker-shelled, mamillated, bile-stained Ascaris egg."
+      },
+      "main_concept": "CON-INF-08359F3D33946C",
+      "concept_ids": ["CON-INF-08359F3D33946C"],
+      "contextual_concept_ids": [],
+      "subtopic": "Ancylostoma duodenale",
+      "learning_objective": "State that the Ancylostoma duodenale egg is thin-shelled, translucent and immature.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q032",
+      "page": 115,
+      "title": "Hymenolepis nana larvae are not found in sputum",
+      "question": "The larvae of the following parasites may be recovered from the sputum EXCEPT?",
+      "options": {
+        "A": "Hymenolepis nana",
+        "B": "Ascaris lumbricoides",
+        "C": "Ancylostoma duodenale",
+        "D": "Strongyloides stercoralis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hymenolepis nana, a cestode with a direct life cycle confined entirely to the intestine (no obligatory tissue or pulmonary migratory phase), is the exception -- its larvae are never found in sputum. Ascaris lumbricoides, Ancylostoma duodenale and Strongyloides stercoralis larvae, by contrast, all migrate through the lungs as part of their normal life cycle, so their larvae can occasionally be recovered from sputum during heavy or acute infection (part of the Loeffler's syndrome picture). This absence of a pulmonary phase is what sets Hymenolepis nana apart in this list.",
+        "B": "Incorrect. Ascaris lumbricoides larvae migrate through the lungs as part of their normal life cycle and can be recovered from sputum, so it is not the exception.",
+        "C": "Incorrect. Ancylostoma duodenale larvae migrate through the lungs as part of their normal life cycle and can be recovered from sputum, so it is not the exception.",
+        "D": "Incorrect. Strongyloides stercoralis larvae migrate through the lungs as part of their normal life cycle and can be recovered from sputum, so it is not the exception."
+      },
+      "main_concept": "CON-INF-1181AF6306AA07",
+      "concept_ids": ["CON-INF-1181AF6306AA07"],
+      "contextual_concept_ids": [],
+      "subtopic": "Comparative larval migration",
+      "learning_objective": "Identify Hymenolepis nana as the exception whose larvae are not recovered from sputum.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q033",
+      "page": 115,
+      "title": "Visceral larva migrans is due to Toxocara",
+      "question": "Visceral larva migrans is due to?",
+      "options": {
+        "A": "Ingestion of eggs of human Ascaris",
+        "B": "Ingestion of eggs of Trichuris trichiura",
+        "C": "Ingestion of eggs of Ascaris of dog and cat",
+        "D": "Ingestion of eggs of Enterobius vermicularis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ingesting embryonated eggs of the human-specific Ascaris lumbricoides causes ordinary human ascariasis, not visceral larva migrans.",
+        "B": "Incorrect. Ingesting Trichuris trichiura eggs causes trichuriasis, an intestinal infection, not visceral larva migrans.",
+        "C": "Correct. Visceral larva migrans (VLM) follows ingestion of embryonated eggs of Toxocara canis or Toxocara cati -- the ascarid roundworms of dogs and cats. Because man is an accidental, aberrant host for Toxocara, the hatched larvae cannot complete their normal cycle and instead wander through the viscera (liver, lung, eye, CNS), producing eosinophilic granulomatous inflammation wherever they lodge. This zoonotic dog/cat-ascarid transmission route distinguishes VLM from ordinary human ascariasis, which involves the human-specific Ascaris lumbricoides instead.",
+        "D": "Incorrect. Ingesting Enterobius vermicularis eggs causes enterobiasis, an intestinal infection confined to the human-specific pin-worm, not visceral larva migrans."
+      },
+      "main_concept": "CON-INF-7543DA897716B5",
+      "concept_ids": ["CON-INF-7543DA897716B5"],
+      "contextual_concept_ids": [],
+      "subtopic": "Zoonotic larva migrans syndromes",
+      "learning_objective": "State that visceral larva migrans follows ingestion of Toxocara (dog/cat ascarid) eggs.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q034",
+      "page": 115,
+      "title": "Strongyloides stercoralis is the dwarf thread worm",
+      "question": "Strongyloides stercoralis is named?",
+      "options": {
+        "A": "Pin worm",
+        "B": "Dwarf thread warm",
+        "C": "Giant intestinal nematode",
+        "D": "whip worm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Pin worm is the common name for Enterobius vermicularis, not Strongyloides stercoralis.",
+        "B": "Correct. Strongyloides stercoralis is named the dwarf (thread) worm, reflecting the adult female's small, slender size (about 2 mm) compared with other intestinal nematodes. This distinguishes it by name from Enterobius vermicularis (pin worm), Ascaris lumbricoides (giant intestinal nematode) and Trichuris trichiura (whip worm), each named for a different distinguishing feature of its own morphology.",
+        "C": "Incorrect. Giant intestinal nematode is the common name for Ascaris lumbricoides, the largest intestinal roundworm, not Strongyloides stercoralis.",
+        "D": "Incorrect. Whip worm is the common name for Trichuris trichiura, not Strongyloides stercoralis."
+      },
+      "main_concept": "CON-INF-7120EFE349690C",
+      "concept_ids": ["CON-INF-7120EFE349690C"],
+      "contextual_concept_ids": [],
+      "subtopic": "Strongyloides stercoralis",
+      "learning_objective": "State that Strongyloides stercoralis is named the dwarf thread worm.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q035",
+      "page": 116,
+      "title": "Strongyloides differs from Ancylostoma in several ways",
+      "question": "Strongyloides stercoralis differs from Ancylostoma duodenale in?",
+      "options": {
+        "A": "Autoinfection",
+        "B": "Rhabditiform larvae in stool",
+        "C": "Free living forms",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. It is true that Strongyloides alone is capable of autoinfection, but this is only one of three jointly true differences offered.",
+        "B": "Incorrect alone. It is true that Strongyloides sheds rhabditiform (not filariform) larvae in fresh stool, but this is only one of three jointly true differences offered.",
+        "C": "Incorrect alone. It is true that Strongyloides alone has a free-living generation, but this is only one of three jointly true differences offered.",
+        "D": "Correct. Strongyloides stercoralis differs from Ancylostoma duodenale in three linked ways, combined here into one 'all of the above' item: it alone is capable of autoinfection (its own rhabditiform larvae can moult to the infective filariform stage within the host's bowel or perianal skin, re-penetrating without ever leaving the body); its diagnostic larval stage recovered in fresh stool is the rhabditiform larva; and it alone has a free-living (indirect) generation capable of completing an entire life cycle in soil, independent of a human host. None of these three features applies to Ancylostoma duodenale."
+      },
+      "main_concept": "CON-INF-A15A4D2A82ECD0",
+      "concept_ids": ["CON-INF-A15A4D2A82ECD0"],
+      "contextual_concept_ids": [],
+      "subtopic": "Strongyloides stercoralis",
+      "learning_objective": "State that Strongyloides stercoralis differs from Ancylostoma duodenale in autoinfection capacity, rhabditiform larvae in stool, and a free-living generation.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q038",
+      "page": 116,
+      "title": "Trichostrongylus infects by ingestion of filariform larva",
+      "question": "Infection with Trichostrongylus colubriformis is through?",
+      "options": {
+        "A": "Ingestion of egg",
+        "B": "Ingestion of filariform larva",
+        "C": "Ingestion of encysted metacercaria",
+        "D": "Ingestion of rhabditiform larva"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Trichostrongylus infection is not caused by egg ingestion; the infective stage is the filariform larva.",
+        "B": "Correct. Trichostrongylus colubriformis infects the human host when the infective filariform (third-stage) larva, present on contaminated vegetation, is ingested. This oral route is unlike Ancylostoma duodenale and Strongyloides stercoralis, whose portal of entry is instead the skin, penetrated directly by their own infective larvae -- the same distinction tested from the opposite direction elsewhere in this chapter.",
+        "C": "Incorrect. Ingestion of an encysted metacercaria is the infective route for trematodes such as Fasciola or Heterophyes, not for the nematode Trichostrongylus colubriformis.",
+        "D": "Incorrect. The rhabditiform larva is a non-infective, developmental larval stage; it is the filariform (infective, third-stage) larva that is ingested."
+      },
+      "main_concept": "CON-INF-873793A1A9183E",
+      "concept_ids": ["CON-INF-873793A1A9183E"],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichostrongylus colubriformis",
+      "learning_objective": "State that Trichostrongylus colubriformis infects man by ingestion of the filariform larva.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q039",
+      "page": 116,
+      "title": "Trichostrongylus egg has a morula stage",
+      "question": "Egg of Trichostrongylus colubriformis differs from Ancylostoma egg in?",
+      "options": {
+        "A": "Having a morula stage",
+        "B": "Translucent",
+        "C": "Oval and thin shelled",
+        "D": "Immature"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The egg of Trichostrongylus colubriformis is larger than, but otherwise resembles, the egg of Ancylostoma duodenale (both are oval, thin-shelled and immature when passed) -- the key distinguishing feature tested here is that the Trichostrongylus egg already contains a morula (an early cluster of several dividing blastomeres) at the time it is passed, whereas the Ancylostoma egg is still at an earlier, less-developed cleavage stage. This morula-stage difference is the specific point the bank keys as the distinguisher, not the shared oval/thin-shelled/immature features.",
+        "B": "Incorrect. Both the Trichostrongylus and Ancylostoma eggs are translucent, so this is a shared feature, not the distinguishing one.",
+        "C": "Incorrect. Both eggs are oval and thin-shelled, so this is a shared feature, not the distinguishing one.",
+        "D": "Incorrect. Both eggs are still developmentally immature relative to a fully infective larva when passed, so this shared feature is not the specific difference tested."
+      },
+      "main_concept": "CON-INF-153B228FF1FBFC",
+      "concept_ids": ["CON-INF-153B228FF1FBFC"],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichostrongylus colubriformis",
+      "learning_objective": "State that the Trichostrongylus colubriformis egg differs from the Ancylostoma egg by showing a morula stage when passed.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q040",
+      "page": 116,
+      "title": "Strongyloides filariform larva differs from Ancylostoma's",
+      "question": "Filariform larvae of Strongyloides stercoralis differ from that of Ancylostoma in?",
+      "options": {
+        "A": "No sheath",
+        "B": "Notched tail",
+        "C": "About 1/2 mm in length",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. It is true the Strongyloides filariform larva is unsheathed, unlike Ancylostoma's sheathed larva, but this is only one of three jointly true differences offered.",
+        "B": "Incorrect alone. It is true the Strongyloides filariform larva has a notched (forked) tail, but this is only one of three jointly true differences offered.",
+        "C": "Incorrect alone. It is true the Strongyloides filariform larva is shorter, roughly 1/2 mm (500-600 micrometres), but this is only one of three jointly true differences offered.",
+        "D": "Correct. The filariform larva of Strongyloides stercoralis differs from that of Ancylostoma duodenale in three linked morphological features, combined here into one 'all of the above' item. It is unsheathed, having shed the second-stage cuticle, unlike Ancylostoma's retained sheath, and it has a distinctively notched (forked) tail tip. It is also shorter overall, at roughly 1/2 mm, compared with Ancylostoma's longer filariform larva."
+      },
+      "main_concept": "CON-INF-4C9AAC2302D8B4",
+      "concept_ids": ["CON-INF-4C9AAC2302D8B4"],
+      "contextual_concept_ids": [],
+      "subtopic": "Strongyloides stercoralis",
+      "learning_objective": "State that the Strongyloides stercoralis filariform larva differs from Ancylostoma's by being unsheathed, notch-tailed and shorter.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    }
+  ]
+}

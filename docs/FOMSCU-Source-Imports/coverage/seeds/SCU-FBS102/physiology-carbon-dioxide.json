@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-carbon-dioxide",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-carbon-dioxide'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Cell Physiology > Membrane Transport"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-CARBON-DIOXIDE",
+      "key": "physiology-carbon-dioxide",
+      "title": "Carbon dioxide crosses the membrane by simple diffusion",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Cell Physiology > Membrane Transport",
+      "question": "Which of the following molecules can most easily cross the lipid bilayer of the cell membrane by simple diffusion?",
+      "options": {
+        "A": "Glucose",
+        "B": "Essential amino acids",
+        "C": "Carbon dioxide",
+        "D": "Large plasma proteins"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Glucose is a relatively large, polar molecule that cannot cross the hydrophobic lipid bilayer directly; it requires specific facilitated-diffusion carrier proteins such as GLUT transporters.",
+        "B": "Incorrect. Amino acids are polar and often charged at physiological pH, so they cannot diffuse directly through the lipid bilayer and instead require dedicated membrane transporters.",
+        "C": "Correct. Carbon dioxide is a small, nonpolar, uncharged gas that dissolves readily in the hydrophobic interior of the lipid bilayer, allowing it to diffuse directly across the membrane down its partial-pressure gradient with no transporter needed. Polar or charged solutes such as glucose and amino acids, by contrast, cannot cross the bilayer unassisted and require a specific membrane transporter.",
+        "D": "Incorrect. Large plasma proteins are far too big and hydrophilic to cross the lipid bilayer by simple diffusion under any circumstance; their movement across membranes, when it occurs, requires vesicular transport."
+      },
+      "topic": "Physiology",
+      "subtopic": "Cell membrane transport",
+      "main_concept": "CON-FND-E4107B60CD0342",
+      "concept_ids": [
+        "CON-FND-E4107B60CD0342"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-CELL-MEMBRANE-AND-FLUID-BASICS"
+      ],
+      "learning_objective": "State that carbon dioxide crosses the plasma membrane by simple diffusion through the lipid bilayer because it is small, nonpolar and lipid soluble.",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q43, Formative and Past Exams 2022 Q23",
+      "author_notes": ""
+    }
+  ]
+}

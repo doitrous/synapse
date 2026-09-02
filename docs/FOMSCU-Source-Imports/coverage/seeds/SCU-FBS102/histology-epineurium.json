@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-epineurium",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'histology-epineurium'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Nervous Tissue"
+  },
+  "questions": [
+    {
+      "key": "histology-epineurium",
+      "id": "QST-SCUFBS102-S2-PENDING-HISTOLOGY-EPINEURIUM",
+      "title": "The covering of an entire peripheral nerve trunk",
+      "question": "Which of the following connective tissue sheaths specifically surrounds an entire peripheral nerve trunk?",
+      "options": {
+        "A": "Perineurium",
+        "B": "The highly delicate endoneurium",
+        "C": "Epineurium",
+        "D": "The thick muscular epimysium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The perineurium surrounds each individual FASCICLE (bundle of nerve fibres) within the nerve, not the whole trunk, and is the layer whose tight junctions form the blood-nerve barrier.",
+        "B": "Incorrect. The endoneurium is the finest layer, surrounding each individual nerve FIBRE within a fascicle — the smallest scale of the three coverings, not the whole trunk.",
+        "C": "Correct. A peripheral nerve trunk is wrapped, from outside in, by the epineurium (dense connective tissue around the whole trunk), the perineurium (around each individual fascicle), and the endoneurium (around each individual nerve fibre within a fascicle). The epineurium is the outermost covering, specifically the one surrounding the entire trunk.",
+        "D": "Incorrect. Epimysium is the connective tissue sheath of a MUSCLE, not a nerve — an unrelated structure named as a distractor by analogy."
+      },
+      "topic": "Histology",
+      "subtopic": "Nervous tissue histology",
+      "main_concept": "CON-NEU-7C20A38BB4B865",
+      "concept_ids": [
+        "CON-NEU-7C20A38BB4B865"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 55,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.25,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-NEU-AU105-NEUROGLIA-NERVE-INJURY-HISTOLOGY"
+      ],
+      "learning_objective": "Name the epineurium as the connective tissue sheath surrounding an entire peripheral nerve trunk.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q22 (also 2022 Q2)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q22 / 2022 Q2; source-JSON extraction. Re-verification note: originally triaged 'new'; a grep pass found CON-NEU-7C20A38BB4B865 (Alexandria AU-MED-105-histology-concepts.md / docs/import-ready), whose own explicit_objective is 'name the three connective-tissue coverings of a peripheral nerve and identify which one forms the blood-nerve barrier' — directly covers this fact. Overlaid here rather than minted twin. Apply after docs/Alexandria-Source-Imports/concept/AU-MED-105-histology-concepts.md."
+      }
+    }
+  ]
+}

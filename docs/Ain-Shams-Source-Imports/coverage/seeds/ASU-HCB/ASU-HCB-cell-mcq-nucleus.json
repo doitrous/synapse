@@ -1,0 +1,378 @@
+{
+  "lane": "ASU-HCB",
+  "cluster": "cell",
+  "header": "ASU-HCB · Cell biology — all 46 questions of the ASU HCB Dr. Hegazy cell-biology MCQ bank (\"Cell MCQ set2\", sourceId src_6c35f6fae7691b0bdcc8), native text, keys read from the printed answer key table at the foot of PDF page 8. 43 of the 46 questions reuse existing pending Kasr 101-ISK (or 108-INT) cytology/pathology concepts via a sparse overlay (pending-live/ASU-HCB-cell-mcq-overlay-concepts.md) after a per-concept find-existing.mjs search; the remaining 3 (constitutive/regulated secretion, tubular mitochondrial cristae, phase-contrast microscopy) had no existing match and are minted fresh in concept/ASU-HCB-cell-mcq-concepts.md with a matching new article. See coverage/ASU-HCB-triage.md block A for the source triage.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-HCB",
+    "module_subject": "ASU-HCB > Histology > Questions > Cell biology",
+    "exam_weight_by_year": {
+      "ASU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-101-HIS-NUCLEUS"
+    ],
+    "resource_ids": [
+      "src_6c35f6fae7691b0bdcc8"
+    ],
+    "source_citation": "Cell MCQ set2 (Dr. Hegazy), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "cell-q29",
+      "page": 5,
+      "title": "Protein anchoring chromatin to the nuclear membrane",
+      "question": "Which of the following proteins anchors chromatin to the nuclear membrane during inter phase of the cell cycle?",
+      "options": {
+        "A": "Keratin",
+        "B": "Desmine",
+        "C": "Vimentin",
+        "D": "Lamins"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Keratin (cytokeratin) is the intermediate filament of epithelial cells' cytoplasm, unrelated to anchoring chromatin at the nuclear envelope.",
+        "B": "Incorrect. Desmin is the intermediate filament protein of muscle cytoplasm, not of the nuclear envelope.",
+        "C": "Incorrect. Vimentin is the intermediate filament of connective tissue/muscle cytoplasm, not the protein anchoring chromatin at the nuclear membrane.",
+        "D": "Correct. The inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and to the nuclear lamina, which is made mainly of lamins lying against the inner membrane. During interphase this lamin-based lamina is exactly what tethers peripheral chromatin to the nuclear envelope, giving the nucleus its interphase organisation. This lamin-chromatin anchoring role is the specific fact this question is testing."
+      },
+      "main_concept": "CON-FND-C5C16B3F123155",
+      "concept_ids": [
+        "CON-FND-C5C16B3F123155",
+        "CON-FND-6268E97A4A9F26"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that lamins anchor peripheral chromatin to the nuclear envelope during interphase.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-NUCLEUS"
+      ]
+    },
+    {
+      "key": "cell-q30",
+      "page": 6,
+      "title": "Continuity of the outer nuclear envelope",
+      "question": "The outer nuclear envelope is continuous with...........",
+      "options": {
+        "A": "sER.",
+        "B": "rER.",
+        "C": "centerioles.",
+        "D": "lysosomes",
+        "E": "Golgi apparatus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. It is the rough, not the smooth, endoplasmic reticulum that the outer nuclear membrane is continuous with, matching its own ribosome-studded, rough character.",
+        "B": "Correct. The outer nuclear membrane is rough — granular, studded with polyribosomes — and is directly continuous with the cisternae of the rough endoplasmic reticulum, making the perinuclear space and the rER lumen effectively one continuous compartment. This continuity explains why the outer nuclear membrane looks and behaves like an extension of the rER rather than a separate structure. It is a specific, frequently tested ultrastructural fact about the nuclear envelope.",
+        "C": "Incorrect. Centrioles are cytoskeletal structures near the Golgi/centrosome, structurally unrelated and not continuous with the nuclear envelope's membranes.",
+        "D": "Incorrect. Lysosomes are separate membrane-bound organelles that are not continuous with the nuclear envelope.",
+        "E": "Incorrect. The Golgi apparatus is a separate stack of saccules that receives transfer vesicles from the rER; it is not itself continuous with the outer nuclear membrane."
+      },
+      "main_concept": "CON-FND-C5C16B3F123155",
+      "concept_ids": [
+        "CON-FND-C5C16B3F123155"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the outer nuclear membrane is continuous with the rough endoplasmic reticulum.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-NUCLEUS"
+      ]
+    },
+    {
+      "key": "cell-q31",
+      "page": 6,
+      "title": "Structures passing through the nuclear pore complex",
+      "question": "Which of the following structures can be seen passing through nuclear pore complex?",
+      "options": {
+        "A": "Ribosomal subunits.",
+        "B": "Microtubules.",
+        "C": "Endoplasmic reticulum.",
+        "D": "Ribosomal RNA genes",
+        "E": "DNA loops."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The nuclear pore complex imports protein into the nucleus and exports RNA and ribosomal subunits out of it, through a central transporter within the roughly thirty-nucleoporin-protein assembly that fills each nuclear pore. Ribosomal subunits, assembled in the nucleolus from rRNA and imported ribosomal proteins, must pass out through these pores to reach the cytoplasm where translation occurs. This bidirectional macromolecule traffic through the pore complex is the specific transport function being tested.",
+        "B": "Incorrect. Microtubules are cytoplasmic structures far too large and structurally unsuited to pass through a nuclear pore.",
+        "C": "Incorrect. The endoplasmic reticulum is a membrane system continuous with the outer nuclear membrane itself, not a structure that passes through the pore complex.",
+        "D": "Incorrect. Ribosomal RNA genes are part of the fixed chromosomal DNA located at the nucleolar organizer region; genes themselves do not pass through nuclear pores (their RNA transcript and assembled subunits do).",
+        "E": "Incorrect. Chromosomal DNA stays within the nucleus and does not pass out through the nuclear pore complex."
+      },
+      "main_concept": "CON-FND-C5C16B3F123155",
+      "concept_ids": [
+        "CON-FND-C5C16B3F123155"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that ribosomal subunits (and other RNA/protein cargo) pass through the nuclear pore complex.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-NUCLEUS"
+      ]
+    },
+    {
+      "key": "cell-q32",
+      "page": 6,
+      "title": "False statement about the nuclear envelope",
+      "question": "Each of the following statement concerning the nuclear envelop is true EXCEPT;",
+      "options": {
+        "A": "It consists of two symmetrical unit membrane",
+        "B": "It contains nuclear pores.",
+        "C": "It is a boundary between the nucleus and cytoplasm.",
+        "D": "It disappear beginning of division."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct — this is the false statement. The two membranes of the nuclear envelope are not symmetrical: the outer membrane is rough, studded with polyribosomes and continuous with the rER, while the inner membrane is fibrillar, carrying peripheral chromatin and the nuclear lamina against it. Because the two membranes differ in structure and association, describing them as \"two symmetrical\" membranes is the statement that does not fit the envelope's real, asymmetric architecture.",
+        "B": "Incorrect (i.e. a true statement). The nuclear envelope is genuinely interrupted at intervals by nuclear pores, which is one of its defining features.",
+        "C": "Incorrect (i.e. a true statement). The nuclear envelope is exactly the boundary separating the nucleus from the cytoplasm, its basic defining role.",
+        "D": "Incorrect (i.e. a true statement). The nuclear envelope does disappear at the beginning of mitotic division, part of the reorganisation that allows the mitotic spindle to access the chromosomes."
+      },
+      "main_concept": "CON-FND-C5C16B3F123155",
+      "concept_ids": [
+        "CON-FND-C5C16B3F123155"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the nuclear envelope's outer and inner membranes are structurally asymmetric, not symmetrical.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-NUCLEUS"
+      ]
+    },
+    {
+      "key": "cell-q33",
+      "page": 6,
+      "title": "False statement about the nucleolus",
+      "question": "Each of the following statements concerning the nucleoleus is true EXCEPT;",
+      "options": {
+        "A": "It has a homogenous granular appearance on EM.",
+        "B": "Its nuclear organizer contains DNA.",
+        "C": "It is responsible for formation of r RNA.",
+        "D": "The nucleus may contain more than one nucleoleus."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct — this is the false statement. On electron microscopy the nucleolus is not homogeneous; it is spongy, with distinct dark areas (the pars amorpha/nucleolar organizer carrying the rDNA genes, the pars fibrosa of newly synthesised rRNA, and the pars granulosa of mature rRNA) set against lighter nucleolar sap, so describing its EM appearance as simply \"homogenous granular\" misses this structured, three-part organisation. This three-part fibrosa/granulosa/amorpha organisation, not a uniform granularity, is exactly what electron microscopy reveals about the nucleolus.",
+        "B": "Incorrect (i.e. a true statement). The nucleolar organizer region is genuinely the part of the chromosome carrying the DNA that encodes ribosomal RNA.",
+        "C": "Incorrect (i.e. a true statement). The nucleolus is indeed responsible for forming ribosomal RNA and assembling ribosomal subunits.",
+        "D": "Incorrect (i.e. a true statement). A nucleus may genuinely contain more than one nucleolus, usually one or two."
+      },
+      "main_concept": "CON-FND-30573B6D0A9AFD",
+      "concept_ids": [
+        "CON-FND-30573B6D0A9AFD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the nucleolus has a structured, non-homogeneous EM appearance (pars amorpha, fibrosa, granulosa), not a simple homogeneous granular one.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-NUCLEUS"
+      ]
+    },
+    {
+      "key": "cell-q34",
+      "page": 6,
+      "title": "True statement about the nucleolus",
+      "question": "Which of the following statements is TRUE concerning the nucleolus?",
+      "options": {
+        "A": "It is a membranous organelle.",
+        "B": "It is prominent in protein secreting cells.",
+        "C": "Its pars fibrosa contains mature form of ribosomal subunits.",
+        "D": "Ribosomal RNA genes are present in its pars granulosa.",
+        "E": "It disappear after cell division"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The nucleolus is not bounded by any membrane; it is an unbounded, deeply basophilic mass within the nucleus.",
+        "B": "Correct. A large, prominent nucleolus indicates a cell that is making a great deal of protein, because more ribosomal RNA and ribosomal subunit production is needed to support that translation workload — so the nucleolus is characteristically prominent in protein-secreting cells (and, for the same reason, in rapidly growing malignant cells). This link between nucleolar size and protein-synthetic activity is a frequently tested cell-biology correlation.",
+        "C": "Incorrect. It is the pars granulosa, not the pars fibrosa, that contains the mature form of the ribosomal subunits; the pars fibrosa instead holds newly synthesised rRNA strands.",
+        "D": "Incorrect. The rRNA genes lie in the pars amorpha/nucleolar organizer region, not in the pars granulosa, which instead holds mature ribosomal-subunit granules.",
+        "E": "Incorrect. The nucleolus reforms after division as the nucleolar organizer regions become active again; it disappears transiently during division rather than being permanently lost."
+      },
+      "main_concept": "CON-FND-30573B6D0A9AFD",
+      "concept_ids": [
+        "CON-FND-30573B6D0A9AFD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a prominent nucleolus marks a cell with high protein-synthetic (secretory) activity.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-NUCLEUS"
+      ]
+    },
+    {
+      "key": "cell-q35",
+      "page": 6,
+      "title": "Site of ribosomal RNA synthesis",
+      "question": "Ribosomal RNA is synthesized by:",
+      "options": {
+        "A": "Smooth endoplasmic reticulum.",
+        "B": "Rough endoplasmic reticulum.",
+        "C": "Golgi complex.",
+        "D": "Nucleolus.",
+        "E": "Secretory vesicles"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Smooth endoplasmic reticulum handles lipid synthesis and detoxification, not RNA synthesis.",
+        "B": "Incorrect. Rough endoplasmic reticulum translates mRNA into protein at its attached ribosomes; it does not itself synthesise ribosomal RNA.",
+        "C": "Incorrect. The Golgi complex modifies and packages protein; it plays no role in ribosomal RNA synthesis.",
+        "D": "Correct. The nucleolus is the site where ribosomal RNA is synthesised: its nucleolar organizer region carries the rDNA genes that are transcribed into rRNA (seen as the pars fibrosa), which then matures into ribosomal subunit granules (the pars granulosa) before export through the nuclear pores. This transcription-to-assembly sequence within the nucleolus is precisely why a large nucleolus signals high ribosome-production activity.",
+        "E": "Incorrect. Secretory vesicles carry a finished export product to the plasma membrane; they have no role in RNA synthesis."
+      },
+      "main_concept": "CON-FND-30573B6D0A9AFD",
+      "concept_ids": [
+        "CON-FND-30573B6D0A9AFD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that ribosomal RNA is synthesised in the nucleolus.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-NUCLEUS"
+      ]
+    },
+    {
+      "key": "cell-q36",
+      "page": 6,
+      "title": "EM appearance of the nucleolus",
+      "question": "By using E/M, the nucleolus ....",
+      "options": {
+        "A": "is seen as one or more basophilic masses.",
+        "B": "is surrounded by two unit membranes.",
+        "C": "Shows maturing ribosomal subunits in its pars fibrosa",
+        "D": "shows rRNA strands in pars fibrosa"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. \"Basophilic mass\" describes the nucleolus's light-microscopy appearance with a basic dye, not a statement specific to electron microscopy, and the question is asking for the EM-specific finding.",
+        "B": "Incorrect. The nucleolus is not surrounded by any membrane at all — unlike the nucleus itself, it has no bounding envelope, so it cannot be surrounded by two unit membranes.",
+        "C": "Incorrect. It is the pars granulosa, not the pars fibrosa, that shows the maturing/mature form of ribosomal subunits on EM.",
+        "D": "Correct. On electron microscopy the nucleolus shows newly synthesised ribosomal RNA as strands in its pars fibrosa, one of the two dark, RNA-rich zones (alongside the pars granulosa of maturing ribosomal subunit granules) that make up its spongy ultrastructure. This pars-fibrosa-holds-rRNA-strands detail is the specific EM finding this question is testing, distinguishing it from the pars granulosa's mature-subunit content."
+      },
+      "main_concept": "CON-FND-30573B6D0A9AFD",
+      "concept_ids": [
+        "CON-FND-30573B6D0A9AFD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the nucleolus's pars fibrosa shows newly synthesised rRNA strands on electron microscopy.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-NUCLEUS"
+      ]
+    },
+    {
+      "key": "cell-q37",
+      "page": 7,
+      "title": "Content of the nucleolar organizer region",
+      "question": "Nucleolar organizer region contains which of the following?",
+      "options": {
+        "A": "Nuclear lamina",
+        "B": "Newly formed ribosomes",
+        "C": "RNA",
+        "D": "DNA – genes for rRNA",
+        "E": "Mature ribosomal subunits"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The nuclear lamina is the lamin meshwork against the inner nuclear membrane, unrelated to the nucleolar organizer region.",
+        "B": "Incorrect. Newly formed (assembling) ribosomal subunits are found in the pars granulosa, not the nucleolar organizer region itself.",
+        "C": "Incorrect. Newly synthesised rRNA strands are found in the pars fibrosa; the organizer region itself is defined by its DNA content, not by RNA.",
+        "D": "Correct. The nucleolar organizer region (the pars amorpha) is the part of the chromosome that physically carries the DNA encoding ribosomal RNA — the rDNA genes — which are then transcribed to produce the rRNA seen in the pars fibrosa and matured in the pars granulosa. Naming DNA/rDNA genes as the organizer region's content, rather than RNA or ribosomal subunits, is exactly the distinction this question is testing.",
+        "E": "Incorrect. Mature ribosomal subunits are found in the pars granulosa, a different nucleolar zone from the organizer region."
+      },
+      "main_concept": "CON-FND-30573B6D0A9AFD",
+      "concept_ids": [
+        "CON-FND-30573B6D0A9AFD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the nucleolar organizer region contains the rDNA genes encoding ribosomal RNA.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-NUCLEUS"
+      ]
+    }
+  ]
+}

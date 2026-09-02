@@ -1,0 +1,57 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank question (Lecture 11) riding on the newly-minted AUN-MPT-104 concept CON-FND-8E5F8C2923A89F (concept/AUN-MPT-104-concepts.md, article/AUN-MPT-104-articles.md ART-FND-AUN-MPT104-CELLULAR-ADAPTATION-GAPS), confirmed new by find-existing.mjs -- agenesis is not one of the department's own four adaptive responses covered by the pending Kasr 108-INT cell-adaptation concept reused elsewhere in this quiz.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "module_subject": "AUN-MPT-104 > Pathology > Cellular adaptation 1",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-FND-AUN-MPT104-CELLULAR-ADAPTATION-GAPS"],
+    "resource_ids": ["src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q092",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q092",
+      "page": 46,
+      "title": "Definition of agenesis",
+      "question": "Complete absence of an organ is called",
+      "options": {
+        "A": "Dysplasia",
+        "B": "Anaplasia",
+        "C": "Agenesis",
+        "D": "Hyperplasia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Dysplasia is disordered growth with loss of uniformity of individual cells and their architectural orientation, a pattern seen within a tissue that still exists -- not the complete failure of an organ to form.",
+        "B": "Incorrect. Anaplasia is loss of cellular differentiation, a feature of malignant tumour cells reverting to a more primitive state -- it describes a cell's degree of differentiation, not the complete absence of an organ.",
+        "C": "Correct. Agenesis is the complete congenital failure of an organ to form during development, so the organ is entirely absent at birth. It is a developmental anomaly, distinct from the four adaptive cellular responses (hypertrophy, hyperplasia, atrophy, metaplasia) that an already-formed tissue can undergo.",
+        "D": "Incorrect. Hyperplasia is an increase in the number of cells of an organ that has already formed -- the opposite situation from an organ that never formed at all."
+      },
+      "main_concept": "CON-FND-8E5F8C2923A89F",
+      "concept_ids": ["CON-FND-8E5F8C2923A89F"],
+      "contextual_concept_ids": [],
+      "topic": "Cellular adaptation 1",
+      "subtopic": "Developmental anomalies of organ formation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define agenesis as the complete congenital absence of an organ, distinguishing it from dysplasia, anaplasia and hyperplasia.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: Agenesis\"", "sourceCandidateIds": "find-existing.mjs run for \"agenesis\" -- 0 true hits, safe to create" },
+      "author_notes": ""
+    }
+  ]
+}

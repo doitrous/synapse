@@ -69,6 +69,34 @@ export const LEAF: McqLeafSeed = {
       type: 'structural_description',
       aliases: ['Functional syncytium', 'Intercalated discs', 'Gap junctions'],
     },
+    // run44 — sparse reuse, genuine cross-leaf borrow: CON-CVS-7A8A04F61D44D1,
+    // canonical_key 'cardiac-sarcolemma.ionic-pumps-exchangers.resting-
+    // gradient-maintenance', already pinned in docs/Kasr-Source-Imports/
+    // concept/104-CPS-mcq-concepts.md, already article-linked to THIS
+    // leaf's own ART-104-PHY-CARDIAC-MECHANICS (and to ART-104-PHY-
+    // PACEMAKER-ELECTROPHYSIOLOGY). Its own label already states the exact
+    // fact this leaf's own two remaining bank rows test: the three ionic
+    // pumps/exchangers (Na-K ATPase, Ca-ATPase, Na-Ca exchanger) maintain
+    // ionic gradients, and the exchanger reverses direction. find-
+    // existing.mjs "cardiac sarcolemma ionic pumps exchangers" returned no
+    // hit (its live snapshot is 10 days stale per LANE-CARD, and this
+    // record lives in the pending-import mcq-concepts.md batch, not yet
+    // live) — found instead by grepping 104-CPS-mcq-concepts.md directly
+    // for 'canonical_key' near 'ionic'/'pump'/'exchanger', per this lane's
+    // own heightened-dedup convention.
+    {
+      key: 'cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance',
+      label: 'The Na+-K+ ATPase, the Ca++-ATPase and the Na+-Ca++ exchanger maintain cardiac myocyte ionic gradients, and the exchanger can reverse direction',
+      definition: "Cardiac myocyte sarcolemma carries three ionic pumps/exchangers that counteract the continuous ion leaks (K+ out, Na+ in at rest, plus Na+ in/K+ out/Ca++ in with every action potential) that would otherwise disturb the resting membrane potential over time: the electrogenic Na+-K+ ATPase (pumps 3 Na+ out for every 2 K+ in), the ATP-dependent Ca++-ATPase (pumps Ca++ out), and the Na+-Ca++ exchanger (exchanges 3 Na+ for 1 Ca++). The Na+-Ca++ exchanger is bidirectional, operating in whichever direction the membrane potential and the ionic concentration gradients favour at that moment: when intracellular Ca++ is high it moves Ca++ out and brings Na+ in (its usual, forward direction); when intracellular Na+ is high instead — as with digitalis inhibiting the Na+-K+ ATPase — it reverses, moving Na+ out and bringing Ca++ in.",
+      objective: 'Name the three ionic pumps/exchangers (Na-K ATPase, Ca-ATPase, Na-Ca exchanger) that maintain cardiac myocyte ionic gradients, and state that the Na-Ca exchanger is bidirectional, reversing direction depending on membrane potential and ionic gradients.',
+      pitfall: 'Assuming the Na+-Ca++ exchanger only ever extrudes calcium. It is bidirectional — raised intracellular Na+ (e.g. from digitalis-inhibited Na+-K+ ATPase) reverses it to bring Ca++ INTO the myocyte instead, which is exactly how digitalis raises contractility.',
+      subject: 'cvs',
+      primary: 'DIS-PHY-T02',
+      secondary: ['SYS-CVS-T01-S01'],
+      modulePath: '104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle',
+      type: 'mechanism',
+      aliases: ['Na-Ca exchanger', 'Cardiac ionic pumps', 'Na-K ATPase (cardiac)', 'Ca-ATPase (cardiac)'],
+    },
   ],
 
   questions: [
@@ -149,6 +177,118 @@ export const LEAF: McqLeafSeed = {
         C: 'Muscarinic (M2) receptor activation with decreased cAMP is the classic negative (parasympathetic) inotropic pathway, the functional opposite of a positive inotropic mechanism.',
         D: 'Correct. Protein Kinase A activation, downstream of beta-adrenergic stimulation and raised cAMP, phosphorylates the L-type Ca++ channel and ryanodine receptor to increase cytoplasmic Ca++ available during systole — the classic positive inotropic pathway.',
       },
+    },
+
+    // --- run44: this leaf's own 8-row "what's left" recompute ---
+
+    {
+      key: 'the-low-resistance-pathways-between-myocardial-cells-that-al-a0d4998c',
+      conceptKey: 'cardiac-muscle.functional-syncytium-and-intercalated-discs',
+      difficulty: 'Easy',
+      questionType: 'Recall',
+      learningObjective: 'Identify gap junctions, not T tubules, sarcoplasmic reticulum, or intercalated discs generally, as the specific low-resistance pathway that lets an action potential spread between myocardial cells.',
+      explanations: {
+        A: 'This is the correct answer. Gap junctions are the specific low-resistance channels, clustered within the intercalated discs, whose very low electrical resistance lets an action potential spread rapidly from cell to cell — the structural basis of cardiac muscle\'s functional-syncytium behaviour.',
+        B: 'T tubules are invaginations of the sarcolemma that carry the action potential into the cell\'s interior to trigger calcium release; they are not the low-resistance pathway between separate myocardial cells.',
+        C: 'The sarcoplasmic reticulum is an intracellular calcium store within a single myocyte; it plays no part in conducting current between separate cells.',
+        D: 'The intercalated disc is the structure that houses the gap junctions (along with desmosomes and fascia adherens for mechanical attachment), but it is the gap junctions specifically, not the disc as a whole, that form the actual low-resistance electrical pathway.',
+      },
+    },
+    {
+      key: 'which-of-the-following-events-of-cardiac-myocyte-action-pote-3a3be2b8',
+      conceptKey: 'cardiac-action-potential.plateau-phase2.calcium-potassium-balance',
+      difficulty: 'Hard',
+      questionType: 'Discrimination among near-miss options',
+      learningObjective: 'Identify that delayed rectifier K+ channels become maximally activated during phase 3 (repolarization) of the working cardiac myocyte action potential, as opposed to misdescribing phases 0, 1 or 2.',
+      explanations: {
+        A: 'Phase 0 shows a DECREASE, not an increase, in K+ conductance through inwardly rectifying K+ channels — their inactivation, alongside fast Na+ channel activation, is what permits the rapid upstroke.',
+        B: 'The sustained inward Ca++ current of phase 2 (the plateau) flows through L-type ("long-lasting"), not T-type, Ca++ channels — this leaf\'s own plateau concept names the L-type channel specifically.',
+        C: 'Fast Na+ channels are ACTIVATED, not inactivated, during phase 0 — they drive the rapid upstroke itself; they inactivate afterward, during phase 1, not during phase 0.',
+        D: 'This is the correct answer. During phase 3 (repolarization), the outward K+ current continues and delayed rectifier K+ channels become maximally activated, while the L-type Ca++ channels that sustained the plateau close — once that inward current stops, the now-dominant outward K+ current repolarizes the membrane back toward its resting value, exactly the mechanism this leaf\'s own plateau concept describes for the phase 2-to-3 transition.',
+      },
+    },
+    {
+      key: 'which-of-the-following-is-correct-as-regards-na-ca-exchanger-e0bfc7af',
+      conceptKey: 'cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that the Na+-Ca++ exchanger can operate in both directions, not that it sits in the sarcoplasm, consumes large amounts of ATP, or is the funny current.',
+      explanations: {
+        A: 'The Na+-Ca++ exchanger is a sarcolemmal (membrane) transporter, not a sarcoplasmic (cytoplasmic) one — it sits in the cell membrane, exchanging ions across it.',
+        B: 'The Na+-Ca++ exchanger is not itself ATP-dependent; it is a secondary active transporter that uses the Na+ electrochemical gradient (built up by the separate, ATP-dependent Na+-K+ ATPase) rather than consuming ATP directly.',
+        C: 'This is the correct answer. The Na+-Ca++ exchanger can operate in both directions depending on the membrane potential and the ionic concentration gradients: normally it moves Ca++ out and Na+ in, but when intracellular Na+ rises (e.g. Na+-K+ ATPase inhibition by digitalis) it reverses, moving Na+ out and Ca++ in.',
+        D: 'The "funny current" (If) is carried by HCN (funny) channels in pacemaker cells, a completely separate current from the Na+-Ca++ exchanger.',
+      },
+    },
+    {
+      key: 'which-of-the-following-maintain-the-ionic-concentrations-acr-20b74fb5',
+      conceptKey: 'cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance',
+      difficulty: 'Easy',
+      questionType: 'Recall',
+      learningObjective: 'State that the Na-Ca exchanger, the Na-K pump and the Ca ATPase pump together maintain the ionic concentrations across the cardiac sarcolemma.',
+      explanations: {
+        A: 'True, but incomplete on its own — the Na+-Ca++ exchanger is one of three transporters that together maintain ionic concentrations across the sarcolemma, alongside the Na+-K+ pump and the Ca++ ATPase pump.',
+        B: 'True, but incomplete on its own — the Na+-K+ pump (Na+-K+ ATPase) is one of three transporters, alongside the Na+-Ca++ exchanger and the Ca++ ATPase pump.',
+        C: 'True, but incomplete on its own — the Ca++ ATPase pump is one of three transporters, alongside the Na+-K+ pump and the Na+-Ca++ exchanger.',
+        D: 'This is the correct answer. All three — the Na+-Ca++ exchanger, the Na+-K+ pump, and the Ca++ ATPase pump — sit in the cardiac sarcolemma and together maintain the myocyte\'s resting ionic concentration gradients against the continuous ion leaks that would otherwise disturb them.',
+      },
+    },
+
+    // --- run44: excluded — not grounded in this module's own department
+    // books. The physiology department book (src_a11a7faed67c95e2d636) has
+    // no Poiseuille's-law formula or bladder/smooth-muscle-plasticity
+    // section (checked directly: 0 hits for "poiseuille", "plasticity",
+    // "bladder" across its full 160 pages), and the histology department
+    // book (src_18d3a953df4ca83c4e74) has no cardiac-sarcoplasm-characters
+    // or lipofuscin/brown-atrophy content (checked directly: its only
+    // cardiac-muscle mention, p.5, is a two-sentence structural overview;
+    // 0 hits for "lipofuscin", "diad", "atrial natriuretic", "myofibril",
+    // "mitochondri" restricted to cardiac muscle). Both facts read as
+    // general-histology/general-physiology curriculum content likely
+    // taught from a different module's own book (e.g. 103 BMS's general
+    // histology text) — out of this lane's own module-book scope to
+    // ground, and the rule is a definition not in the cached page text is
+    // left blank/excluded, never filled from model knowledge. ---
+
+    {
+      key: 'all-characters-of-cardiac-sarcoplasm-except-xxx-73ce223b',
+      conceptKey: 'cardiac-muscle.functional-syncytium-and-intercalated-discs',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No grounding in this module\'s own histology department book (src_18d3a953df4ca83c4e74) — checked directly, its only cardiac-muscle content is a two-sentence structural overview (p.5), with 0 hits for the specific terms this question turns on ("diad", "atrial natriuretic" granules, "myofibril" density versus skeletal muscle, "mitochondri[a]" count). This detailed cardiac-sarcoplasm-ultrastructure content reads as general-histology curriculum material likely taught from a different module\'s own book. The book is the source; a definition not in the cached page text is left blank, never filled from model knowledge.',
+    },
+    {
+      key: 'increase-with-age-forming-brown-atrophy-of-heart-xxx-dc8cd7ee',
+      conceptKey: 'cardiac-muscle.functional-syncytium-and-intercalated-discs',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No grounding in this module\'s own histology department book (src_18d3a953df4ca83c4e74) — checked directly for "lipofuscin" and "brown atrophy", 0 hits (the one "lipofuscin" hit in the whole book is about olfactory mucosa, an unrelated system). Cardiac lipofuscin/brown atrophy is classic general-histology aging content, likely taught from a different module\'s own book, not this one. Left unclaimed rather than filled from model knowledge.',
+    },
+    {
+      key: 'the-plasticity-of-the-urinary-bladder-is-explained-by-8bf89a19',
+      conceptKey: 'cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No grounding in this module\'s own physiology department book (src_a11a7faed67c95e2d636) — checked directly for "plasticity" and "bladder", 0 hits across all 160 pages. Smooth-muscle plasticity (stress-relaxation of hollow organs such as the bladder, explained by the Starling/length-tension relationship in smooth muscle) reads as general-physiology curriculum content taught from a different module\'s own book, not this cardiopulmonary one, and it is also off-topic for this leaf (cardiac, not smooth, muscle mechanics) despite the bank\'s own leaf tag. Left unclaimed rather than filled from model knowledge.',
+    },
+    {
+      key: 'the-poiseuille-law-is-concerned-with-which-of-the-following-501dd5db',
+      conceptKey: 'cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No grounding in this module\'s own physiology department book (src_a11a7faed67c95e2d636) — checked directly for "poiseuille", "viscosity" and "radius" in a resistance-formula context, 0 hits for Poiseuille\'s law by name or formula across all 160 pages (the book states vascular-resistance VALUES and the general flow=pressure/resistance relationship, but never derives resistance from radius/viscosity/length). Left unclaimed rather than filled from model knowledge.',
     },
   ],
 }

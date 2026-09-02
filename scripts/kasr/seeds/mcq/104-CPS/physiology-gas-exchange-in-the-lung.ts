@@ -65,6 +65,53 @@ export const LEAF: McqLeafSeed = {
         "The covering article (ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING) already teaches diffusion impairment and V/Q-mismatch/shunt as hypoxaemia mechanisms in its Clinical Significance section, but its prose does not yet explicitly enumerate hypoventilation or altitude as causes, contrast right-to-left against left-to-right shunt, or state that anaemia/CO poisoning/histotoxic hypoxia leave PaO2 unchanged. Disclosed two-sided coverage gap, not silently assumed taught — see PROGRESS.md.",
       ],
     },
+    // Sparse reuse, not a fresh mint: canonical_key already pinned in
+    // 104-CPS-physiology-concepts.md as CON-RES-317D54C114B246, this exact
+    // leaf's own module_subject — the same id this file's own header comment
+    // (above) already named as a pinned sibling when the hypoxaemia concept
+    // was minted. Not previously claimed by any 104-CPS MCQ seed (grepped
+    // before use). Five bank rows below test this one fact from different
+    // angles (V/Q value itself, capillary PCO2, alveolar radii, blood-flow
+    // distribution) — kept as five separate questions on the same concept,
+    // the same "one relation, several source occurrences" pattern this
+    // branch's own PROGRESS.md documents repeatedly.
+    {
+      key: "ventilation-perfusion-ratio.regional-variation-in-the-lung",
+      label: "The ventilation-perfusion ratio is about 3.0 at the lung apex and 0.6 at the base, because gravity drops perfusion faster than ventilation moving up the upright lung",
+      definition: "The ventilation-perfusion ratio (VA/Q) — alveolar ventilation (about 4 L/min) divided by pulmonary perfusion (about 5 L/min, the right ventricular cardiac output) — averages 0.8-1.2 for the lung as a whole, but both ventilation and perfusion fall from base to apex in the upright lung, and perfusion falls faster than ventilation does. The lung's own weight makes the intrapleural space more negative at the apex (about -10 cmH2O) than the base (about -2.5 cmH2O), so apical alveoli sit more expanded at rest and change volume less on inspiration than the less-inflated basal alveoli do, making ventilation highest at the base. Gravity acts even more strongly on the low-pressure pulmonary circulation: apical capillaries, under low arterial pressure, nearly collapse (poor perfusion, 'zone 1'); mid-lung pressures are balanced (moderate perfusion, 'zone 2'); basal capillaries, under the highest hydrostatic pressure — the largest difference between arterial and venous pressure — stay fully open (highest perfusion, 'zone 3'). The net result is a high VA/Q of about 3.0 at the apex (poorly perfused relative to ventilated) and a low VA/Q of about 0.6 at the base (poorly ventilated relative to perfused), so basal capillary blood runs relatively richer in CO2 and poorer in O2 than apical blood.",
+      objective: "State how alveolar ventilation and perfusion each vary from apex to base of the upright lung, explain the gravitational mechanism behind each, give the approximate VA/Q value at the apex and at the base, and state the consequence for capillary PCO2/PO2 and alveolar radii at each extreme.",
+      pitfall: "Assuming ventilation and perfusion vary together, keeping VA/Q constant throughout the lung. Both fall from base to apex, but perfusion falls faster, so VA/Q rises going up the lung — it is not a uniform 0.8-1.2 everywhere, only on average for the whole lung.",
+      subject: "resp",
+      primary: "DIS-PHY-T03",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Respiratory System > Gas exchange in the lung",
+      type: "mechanism",
+      aliases: ["V/Q ratio apex versus base", "West zones of the lung", "Regional ventilation-perfusion gradient"],
+    },
+    // Fresh mint. find-existing.mjs "ventilation perfusion extremes" / "V/Q
+    // shunt dead space" -> no pinned 104-CPS record distinct from the
+    // regional-variation concept above (which covers the normal apex-to-
+    // base gradient, not the V/Q=0 and V/Q=infinity extremes a vascular or
+    // airway obstruction produces). Grounded in the bank's own editorial
+    // explanation for the two rows below (standard, undisputed respiratory
+    // physiology), disclosed as a gap since no 104-CPS article currently
+    // names these two extremes explicitly.
+    {
+      key: "ventilation-perfusion-ratio.extremes-of-shunt-and-dead-space",
+      label: "A V/Q of zero (shunt: perfused but unventilated alveoli) and an infinite V/Q (alveolar dead space: ventilated but unperfused alveoli, as after a pulmonary embolism) are the two extremes of ventilation-perfusion mismatch, pulling alveolar gas toward mixed venous and inspired-air composition respectively",
+      definition: "The ventilation-perfusion ratio has two extremes. A V/Q of zero describes a shunt: alveoli that are perfused but not ventilated, so the blood leaving them is never oxygenated and (where alveolar gas exists at all in that unit) its composition is pulled toward mixed venous blood. A V/Q of infinity describes alveolar dead space: alveoli that are ventilated but not perfused — the classic case is a pulmonary embolism completely blocking blood flow to a lung or lobe — so with no blood exchanging gas with that fresh air, the alveolar gas composition in the affected region equilibrates toward that of inspired (tracheal) air instead, and the unaffected, now-receiving-the-whole-cardiac-output lung shifts its own V/Q toward the opposite, low extreme. Vascular obstruction (a pulmonary embolus blocking a pulmonary artery) raises V/Q toward the dead-space extreme in the affected region; airway obstruction (as in obstructive lung disease) instead lowers V/Q toward the shunt-like extreme, since ventilation to the affected alveoli falls while their perfusion continues.",
+      objective: "State that V/Q = 0 is a shunt (alveolar gas approaches mixed venous composition) and V/Q = infinity is alveolar dead space (alveolar gas approaches inspired-air composition), and that blocking a pulmonary artery raises V/Q while obstructing an airway lowers it.",
+      pitfall: "Assuming a V/Q of zero means alveolar gas composition simply matches inspired air. It is the opposite pole from dead space: with perfusion continuing but ventilation absent, gas composition is instead pulled toward mixed venous blood, not toward fresh inspired air.",
+      subject: "resp",
+      primary: "DIS-PHY-T03",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Respiratory System > Gas exchange in the lung",
+      type: "mechanism",
+      aliases: ["V/Q = 0 (shunt)", "V/Q = infinity (alveolar dead space)", "Pulmonary embolism and V/Q"],
+      gaps: [
+        "No 104-CPS article currently names the V/Q=0 (shunt) and V/Q=infinity (dead space) extremes explicitly, though the covering article's Clinical Significance section does discuss shunt as a hypoxaemia mechanism in general terms. Standard, undisputed respiratory physiology, grounded in the bank's own editorial explanation for the two rows this concept covers; flagged for the article-authoring lane.",
+      ],
+    },
   ],
 
   questions: [
@@ -142,6 +189,172 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: "The bank's own correct answer, option C, is corrupted at the OCR/extraction stage in a way that makes it genuinely ambiguous, not merely cosmetic: 'The partial pressure of ‏و00‎ in tissue fluid is 4S5mmHg i' substitutes an Arabic letter for part of the gas name and 'S' for a digit in the number. Standard values (tissue-fluid PCO2 ~45 mmHg, PO2 ~40 mmHg) make either O2-at-40 or CO2-at-45 plausible reconstructions, and sibling options B and D use clean 'CO,'/'CO' text while this one alone is corrupted, so which gas and which exact number the option originally named cannot be confidently rendered by eye. Per the law of priority (a garbled key is rendered by eye or left unkeyed, never guessed from context), and because this is the marked CORRECT answer's own text rather than a distractor's, left unauthored rather than guessing.",
+    },
+    {
+      key: "a-49-year-old-man-has-a-pulmonary-embolism-that-completely-b-5ba07ffa",
+      conceptKey: "ventilation-perfusion-ratio.extremes-of-shunt-and-dead-space",
+      difficulty: "Hard",
+      questionType: "Application",
+      learningObjective: "Predict that a completely unperfused but still-ventilated left lung equilibrates its alveolar gas toward inspired-air composition (alveolar dead space), against three distractors misreading the same scenario.",
+      explanations: {
+        A: "A V/Q ratio of zero describes a shunt (perfusion without ventilation) — the opposite extreme from this scenario, where perfusion is absent but ventilation continues, which instead drives V/Q toward infinity.",
+        B: "The left lung's V/Q ratio here is far HIGHER than the right lung's (approaching infinity, since ventilation continues with no perfusion at all), not lower.",
+        C: "Correct. With perfusion to the left lung completely blocked, ventilation continues without any blood to exchange gas with, so the left lung's alveolar gas composition progressively equilibrates toward that of inspired (tracheal) air rather than being modified by gas exchange with blood — the classic alveolar dead space pattern.",
+        D: "The right lung, now receiving the entire cardiac output with roughly unchanged total ventilation, develops a comparatively LOW V/Q ratio, and its alveolar PO2 shifts toward — but does not become fully equal to — mixed venous levels; 'approximately equal to venous blood' overstates this shift.",
+      },
+    },
+    {
+      key: "all-about-diffusion-of-o2-across-a-membrane-is-correct-excep-e804fcae",
+      conceptKey: "alveolar-capillary-diffusion.factors-determining-rate",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify that a lower, not higher, diffusion coefficient predicts a lower flow of a gas across the respiratory membrane, as the exception among true statements about O2 diffusion.",
+      explanations: {
+        A: "True of O2 diffusion across the membrane, so not the exception — increasing membrane thickness lengthens the diffusion path and decreases flow.",
+        B: "True, so not the exception — increasing the membrane's surface area increases the total flow of O2 across it.",
+        C: "True, so not the exception — raising alveolar O2 concentration raises the pressure gradient driving diffusion, increasing total O2 flow.",
+        D: "The exception, and the answer. A gas's diffusion coefficient (set mainly by its solubility) is directly, not inversely, related to its diffusion rate — a LOWER diffusion coefficient means a LOWER, not higher, flow across the membrane.",
+      },
+    },
+    {
+      key: "compared-with-the-apex-of-the-lung-the-base-of-the-lung-has-bcf708af",
+      conceptKey: "ventilation-perfusion-ratio.regional-variation-in-the-lung",
+      difficulty: "Moderate",
+      questionType: "Comparison",
+      learningObjective: "State that the base of the lung has a higher pulmonary capillary PCO2 than the apex, as a direct consequence of its lower ventilation-perfusion ratio.",
+      explanations: {
+        A: "Not the credited comparison this row tests; extracted incompletely, and in any case a higher pulmonary capillary PO2 at the base (rather than PCO2) would be the wrong direction — the base's lower V/Q ratio means relatively less, not more, oxygenation of its capillary blood compared with the apex.",
+        B: "Correct. The base has a lower ventilation-perfusion ratio than the apex (perfusion rises faster than ventilation moving down the upright lung), so basal capillary blood spends relatively more of its exchange 'diluted' toward mixed venous gas composition — a higher pulmonary capillary PCO2 (and lower PO2) than at the apex.",
+        C: "The base has a LOWER, not higher, V/Q ratio than the apex, since perfusion rises faster than ventilation going down the lung.",
+        D: "The V/Q ratio changes substantially from apex to base in the upright lung (about 3.0 to 0.6); it is not the same at both locations.",
+      },
+    },
+    {
+      key: "compared-with-the-base-of-the-lung-in-a-person-who-is-standi-ccaa8882",
+      conceptKey: "ventilation-perfusion-ratio.regional-variation-in-the-lung",
+      difficulty: "Moderate",
+      questionType: "Comparison",
+      learningObjective: "State that the apex has a higher ventilation-perfusion ratio than the base, against distractors that reverse the ventilation, perfusion and capillary-PO2 comparisons.",
+      explanations: {
+        A: "The apex has a LOWER ventilation rate than the base, not higher — basal alveoli, being less pre-expanded at rest, change volume more on each inspiration.",
+        B: "The apex has a much LOWER perfusion rate than the base, not higher — gravity leaves apical capillaries under low arterial pressure and poorly perfused.",
+        C: "Correct. The apex has a higher ventilation-perfusion ratio (about 3.0) than the base (about 0.6), because perfusion falls faster than ventilation moving up the upright lung.",
+        D: "The apex has a HIGHER, not lower, pulmonary capillary PO2 than the base, precisely because its high V/Q ratio pulls its alveolar and capillary gas composition closer to that of inspired air.",
+      },
+    },
+    {
+      key: "concerning-distribution-of-ventilation-and-perfusion-cf1c1193",
+      conceptKey: "ventilation-perfusion-ratio.regional-variation-in-the-lung",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "State that the ventilation-perfusion ratio is greater at the apex than at the base of the upright lung, against three distractors that misstate the ventilation and perfusion gradients.",
+      explanations: {
+        A: "The gradient of change going up the lung is greater for perfusion than for ventilation, not the reverse — this is exactly why V/Q rises toward the apex.",
+        B: "Ventilation decreases, not increases, as we go up the lung, since apical alveoli are already more expanded at rest and change volume less on inspiration.",
+        C: "Perfusion decreases, not increases, as we go up the lung — gravity leaves apical capillaries poorly perfused under low arterial pressure.",
+        D: "Correct. The ventilation-perfusion ratio is greater at the apex than at the base, because perfusion falls faster than ventilation moving up the upright lung.",
+      },
+    },
+    {
+      key: "lung-emphysema-decreases-the-pulmonary-diffusing-capacity-fo-ead15150",
+      conceptKey: "alveolar-capillary-diffusion.factors-determining-rate",
+      difficulty: "Moderate",
+      questionType: "Mechanism",
+      learningObjective: "Attribute emphysema's reduced pulmonary diffusing capacity to decreased respiratory membrane surface area, distinct from the membrane-thickening mechanism of interstitial lung disease.",
+      explanations: {
+        A: "Correct. Emphysema destroys alveolar walls and septa, merging many small alveoli into fewer, larger air spaces and directly reducing the total surface area of the respiratory membrane available for diffusion — and diffusing capacity is directly proportional to that surface area.",
+        B: "Increased membrane thickness is the mechanism behind reduced diffusing capacity in interstitial lung diseases like pulmonary fibrosis or oedema, not emphysema, which instead destroys tissue and reduces surface area.",
+        C: "Emphysema is characterised by decreased, not increased, elastic recoil of lung tissue, from elastase-mediated destruction of elastin fibres.",
+        D: "Gas solubility is an intrinsic physicochemical property of the gas and the diffusion medium; it is not altered by emphysema.",
+      },
+    },
+    {
+      key: "the-alveoli-at-the-top-of-the-lungs-differ-from-those-at-the-1a0a9d30",
+      conceptKey: "ventilation-perfusion-ratio.regional-variation-in-the-lung",
+      difficulty: "Moderate",
+      questionType: "Comparison",
+      learningObjective: "State that alveoli at the top of the lungs have larger radii than those at the bottom, because apical alveoli sit more expanded at rest.",
+      explanations: {
+        A: "Apical alveoli, already more expanded at rest, sit on the flatter, less compliant part of the lung's pressure-volume curve and so show smaller, not greater, dynamic compliance (volume change per breath) than basal alveoli.",
+        B: "Apical alveoli have a HIGHER, not lower, ventilation-perfusion ratio than basal alveoli, since perfusion falls faster than ventilation moving up the lung.",
+        C: "Correct. The more negative intrapleural pressure at the apex (from the lung's own weight) leaves apical alveoli more expanded at rest, so they have larger resting radii than the less-inflated basal alveoli.",
+        D: "Apical alveoli receive a much SMALLER, not greater, percentage of pulmonary blood flow, since gravity leaves apical capillaries poorly perfused under low arterial pressure.",
+      },
+    },
+    {
+      key: "ventilation-perfusion-v4-q-ratio-a45d5f6c",
+      conceptKey: "ventilation-perfusion-ratio.extremes-of-shunt-and-dead-space",
+      difficulty: "Hard",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that the ventilation-perfusion ratio is expected to increase — toward the alveolar dead space extreme — following blockage of a major pulmonary artery.",
+      explanations: {
+        A: "The V/Q ratio is HIGHER, not lower, at the apex than at the base in the upright position, since perfusion falls faster than ventilation moving up the lung.",
+        B: "Obstructive lung disease lowers, not raises, V/Q in the affected units: airway obstruction reduces ventilation to those alveoli while their perfusion continues, pulling V/Q toward the shunt-like extreme.",
+        C: "V/Q genuinely may be determined from respiratory minute volume (ventilation) and pulmonary blood flow (perfusion) — it is, by definition, their ratio — so this statement is true, not the exception.",
+        D: "Correct. Blocking a major pulmonary artery abolishes perfusion to the alveoli downstream while ventilation continues, driving V/Q toward its infinite, alveolar-dead-space extreme — exactly the pulmonary embolism scenario tested elsewhere in this same concept.",
+      },
+    },
+    {
+      key: "when-a-person-is-standing-blood-flow-in-the-lungs-is-d559a19e",
+      conceptKey: "ventilation-perfusion-ratio.regional-variation-in-the-lung",
+      difficulty: "Moderate",
+      questionType: "Mechanism",
+      learningObjective: "State that pulmonary blood flow is highest at the base of the upright lung, because that is where the arterial-venous pressure difference driving flow is greatest.",
+      explanations: {
+        A: "Blood flow is not equal at the apex and the base — gravity creates a substantial perfusion gradient between them in the upright lung.",
+        B: "The apex is the poorest-, not the best-, perfused region: low pulmonary arterial pressure there lets apical capillaries nearly collapse under gravity's effect.",
+        C: "Correct. At the base, the highest hydrostatic pressure gives the greatest difference between pulmonary arterial and venous pressure, keeping basal capillaries fully open and driving the greatest blood flow.",
+        D: "The base is the BEST-, not the worst-, perfused region; alveolar pressure exceeding arterial pressure (the 'zone 1' pattern) instead characterises the poorly perfused apex, not the base.",
+      },
+    },
+    {
+      key: "which-of-following-conditions-would-limit-the-diffusion-of-o-63690754",
+      conceptKey: "alveolar-capillary-diffusion.factors-determining-rate",
+      difficulty: "Moderate",
+      questionType: "Application",
+      learningObjective: "Identify pulmonary oedema, rather than hyperbaric O2, increased ventilator rate, or COPD, as the condition that limits O2 diffusion from alveoli to pulmonary capillary blood by thickening the respiratory membrane.",
+      explanations: {
+        A: "Breathing a hyperbaric gas mixture raises, rather than limits, the alveolar-to-capillary O2 pressure gradient, increasing diffusion rather than limiting it.",
+        B: "Chronic obstructive lung disease impairs gas exchange mainly through airway obstruction and ventilation-perfusion mismatch, not primarily by thickening the respiratory membrane itself.",
+        C: "An increased ventilator (ventilation) rate would tend to raise, not limit, alveolar O2 delivery and the diffusion gradient.",
+        D: "Correct. Pulmonary oedema fills the interstitium and alveoli with fluid, thickening the respiratory membrane and lengthening the path O2 must diffuse across — directly limiting O2 diffusion from alveoli to pulmonary capillary blood.",
+      },
+    },
+    {
+      key: "which-of-the-following-conditions-would-limit-the-diffusion-199d5c2b",
+      conceptKey: "alveolar-capillary-diffusion.factors-determining-rate",
+      difficulty: "Moderate",
+      questionType: "Application",
+      learningObjective: "Confirm, against a second, independently-extracted source occurrence, that pulmonary oedema limits O2 diffusion by thickening the respiratory membrane.",
+      explanations: {
+        A: "Breathing a hyperbaric gas mixture raises, rather than limits, the alveolar-to-capillary O2 pressure gradient, increasing rather than limiting diffusion.",
+        B: "Chronic obstructive lung disease impairs gas exchange mainly through airway obstruction and ventilation-perfusion mismatch, not primarily by thickening the respiratory membrane.",
+        C: "An increased ventilator (ventilation) rate would tend to raise, not limit, alveolar O2 delivery and the diffusion gradient.",
+        D: "Correct. Pulmonary oedema fills the interstitium and alveoli with fluid, thickening the respiratory membrane and directly limiting O2 diffusion from alveoli to pulmonary capillary blood.",
+      },
+    },
+    {
+      key: "which-person-would-be-expected-to-have-the-largest-alveolar-7d341e19",
+      conceptKey: "alveolar-capillary-diffusion.factors-determining-rate",
+      difficulty: "Hard",
+      questionType: "Comparison",
+      learningObjective: "Identify pulmonary fibrosis, rather than altitude or a raised inspired O2 fraction, as producing the largest alveolar-arterial PO2 gradient, since only fibrosis represents a genuine diffusion abnormality.",
+      explanations: {
+        A: "Correct. Pulmonary fibrosis thickens the respiratory membrane, a genuine diffusion barrier that widens the alveolar-arterial PO2 gradient — unlike the other listed conditions, none of which impairs diffusion across an otherwise normal membrane.",
+        C: "High altitude lowers both alveolar and arterial PO2 together (by lowering inspired PO2), without impairing diffusion across the membrane itself, so it does not widen the alveolar-arterial gradient the way a genuine diffusion abnormality does.",
+        D: "Breathing 50% O2 with otherwise normal lungs raises both alveolar and arterial PO2 together without introducing a true diffusion barrier, so it does not produce the widened gradient a diffusion abnormality like fibrosis does.",
+        E: "Breathing 100% O2 with otherwise normal lungs raises both alveolar and arterial PO2 together without introducing a true diffusion barrier, so it does not produce the widened gradient a diffusion abnormality like fibrosis does.",
+      },
+    },
+    {
+      key: "all-about-ventilation-and-perfusion-of-different-regions-of-be381b3b",
+      conceptKey: "ventilation-perfusion-ratio.regional-variation-in-the-lung",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The bank's own correct answer, option D — the exception among true statements this 'except' question tests — is truncated at the OCR/extraction stage: 'Regional variation in ventilation-perfusion is more efficient for oxygenating blood than is' breaks off mid-sentence with no object for the comparison. The likely completion (uniform ventilation and perfusion) would follow standard teaching, but per the law of priority a garbled key is rendered by eye or left unkeyed, never completed from what a textbook probably says — and because this is the marked CORRECT answer's own text rather than a distractor's, left unauthored rather than guessing, the same reasoning already applied to this leaf's sibling exclusion (with-respect-to-gas-exchange-across-the-alyeolar-membrane-ea528c00) above. The three true (non-exception) options are already covered cleanly by this leaf's own regional-variation and diffusion concepts.",
     },
   ],
 }

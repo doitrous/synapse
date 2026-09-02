@@ -1,0 +1,2809 @@
+<!--
+  ASU-CNS-3 · EOM - CNS FINAL PAPER 1 2024.pdf (cluster 3, second source) — page-1 embedded-answer MCQ block (items 5-27 of 27; items 1-4 are biochemistry, out of this lane's neuro subject scope, not seeded here) plus 10 short-answer facts converted to MCQ from the p2-3 essay block. Keys read as printed / stated; distractors authored by this lane.
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q06
+
+## title
+Which ligament of the temporomandibular joint prevents posterior dislocation of the mandibular condyle?
+
+## question
+Which ligament of the temporomandibular joint is chiefly responsible for preventing posterior dislocation of the mandibular condyle?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The lateral (temporomandibular) ligament
+
+## explanation_a
+Correct. The lateral (temporomandibular) ligament runs obliquely downward and backward from the articular tubercle to the neck of the mandibular condyle, on the lateral aspect of the joint capsule. By checking excessive posterior and lateral movement of the condyle, it is the principal structure preventing posterior dislocation. This protects the external acoustic meatus, which lies immediately behind the joint.
+
+## answer_b
+The sphenomandibular ligament
+
+## explanation_b
+Incorrect. The sphenomandibular ligament is an accessory ligament that helps suspend the mandible; it does not primarily resist posterior displacement of the condyle.
+
+## answer_c
+The stylomandibular ligament
+
+## explanation_c
+Incorrect. The stylomandibular ligament limits excessive protrusion of the mandible, not posterior dislocation.
+
+## answer_d
+The articular disc alone
+
+## explanation_d
+Incorrect. The articular disc cushions and guides condylar movement during normal function but is not the structure that mechanically prevents posterior dislocation.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Temporomandibular joint
+
+## main_concept
+CON-NEU-54875A0284C08C
+
+## concept_ids
+CON-NEU-54875A0284C08C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Temporomandibular joint
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-LATERAL-TEMPOROMANDIBULAR-LIGAMENT-OF-THE-TMJ-PREVENTS
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Identify the lateral (temporomandibular) ligament as the structure preventing posterior dislocation of the mandibular condyle.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer/topic stated before the stem, item 6
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, item 6 ("Temporomandibular ligament - prevent posterior dislocation")
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q10
+
+## title
+Which thalamic nuclei relay the paleospinothalamic (slow, diffuse) pain pathway?
+
+## question
+Slow, poorly-localised, aching pain carried by the paleospinothalamic tract relays mainly through which thalamic nuclei?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The intralaminar nuclei
+
+## explanation_a
+Correct. The paleospinothalamic tract carries slow, dull, poorly-localised pain via small unmyelinated C fibres, relaying polysynaptically through the reticular formation before terminating diffusely in the intralaminar nuclei of the thalamus. The intralaminar nuclei then project widely to the cortex and limbic structures, which accounts for the affect-laden, poorly localised quality of this pain. This differs from the neospinothalamic tract, which relays fast, sharp pain directly to a more discrete thalamic nucleus.
+
+## answer_b
+The ventral posterolateral nucleus
+
+## explanation_b
+Incorrect. The ventral posterolateral nucleus is the discrete relay for the neospinothalamic (fast pain) tract and the dorsal column-medial lemniscus pathway, not the diffuse paleospinothalamic system.
+
+## answer_c
+The lateral geniculate nucleus
+
+## explanation_c
+Incorrect. The lateral geniculate nucleus is the thalamic relay for the visual pathway, unrelated to pain.
+
+## answer_d
+The ventral anterior nucleus
+
+## explanation_d
+Incorrect. The ventral anterior nucleus relays motor (basal ganglia/cerebellar) output to the cortex, not pain sensation.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Pain pathways
+
+## main_concept
+CON-NEU-CA7EB9421346C7
+
+## concept_ids
+CON-NEU-CA7EB9421346C7
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Pain pathways
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-INTRALAMINAR-THALAMIC-NUCLEI-ARE-THE-PRINCIPAL-THALAMIC
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Attribute the paleospinothalamic (slow pain) pathway's thalamic relay to the intralaminar nuclei.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer/topic stated before the stem, item 10
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, item 10 ("Intralaminar- paleospinothalamic")
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q11
+
+## title
+Reflex rigidity of the overlying abdominal wall in chronic gastritis is best explained by what mechanism?
+
+## question
+A patient with chronic gastritis develops involuntary reflex rigidity of the overlying abdominal wall muscles on examination. Which mechanism best explains this?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+A viscerosomatic reflex from convergent visceral and somatic afferent input at the same spinal segment
+
+## explanation_a
+Correct. Visceral and somatic afferents from structures that developed from the same embryonic segment converge on shared second-order neurons in the spinal cord dorsal horn. Sustained noxious input from the inflamed stomach can spread reflexively via this convergence to somatic efferents supplying the overlying abdominal wall, producing involuntary reflex rigidity (guarding). This viscerosomatic reflex is a protective response and a classic sign used to localise visceral pathology.
+
+## answer_b
+Direct bacterial invasion of the abdominal wall musculature
+
+## explanation_b
+Incorrect. The rigidity is a neural reflex phenomenon arising from visceral disease, not a direct infective process in the abdominal wall muscle itself.
+
+## answer_c
+A voluntary guarding response under full conscious control
+
+## explanation_c
+Incorrect. Reflex guarding is an involuntary reflex response, not a consciously willed contraction, though a patient may also voluntarily tense the abdomen from anticipated pain.
+
+## answer_d
+Referred pain perceived as arising from the skin, with no muscular component
+
+## explanation_d
+Incorrect. Referred pain (a sensory phenomenon) and reflex rigidity (a motor phenomenon) are related but distinct consequences of the same afferent convergence — this vignette specifically describes the motor (rigidity) response, which does have a muscular component.
+
+## topic
+Neurophysiology
+
+## subtopic
+Pain pathways
+
+## main_concept
+CON-NEU-03C7AC01585098
+
+## concept_ids
+CON-NEU-03C7AC01585098
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Reasoning
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Physiology > Pain pathways
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-VISCERAL-PAIN-FROM-AN-INFLAMED-ORGAN-SUCH-AS-THE-STOMACH
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Attribute reflex rigidity of the overlying abdominal wall in visceral disease to a viscerosomatic reflex from convergent afferent input.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer/topic stated before the stem, item 11
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, item 11 ("Rigidity of overlying of muscles- chronic gastritis")
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q13
+
+## title
+Which motor nucleus lies most medially in the medulla?
+
+## question
+Of the medulla's somatic and visceral motor nuclei, which lies most medially?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The hypoglossal nucleus
+
+## explanation_a
+Correct. The medulla's motor nuclei are arranged in a mediolateral column reflecting their embryological cell-column origin, with the general somatic efferent (GSE) column lying most medially. The hypoglossal nucleus, a GSE nucleus supplying the tongue, lies closest to the midline of any motor nucleus in the medulla, underlying the hypoglossal trigone of the fourth ventricle floor. It is medial to the more laterally placed special and general visceral efferent columns.
+
+## answer_b
+The nucleus ambiguus
+
+## explanation_b
+Incorrect. The nucleus ambiguus, a special visceral efferent (SVE) nucleus, lies lateral to the GSE (hypoglossal) column, not most medially.
+
+## answer_c
+The dorsal motor nucleus of the vagus
+
+## explanation_c
+Incorrect. The dorsal motor nucleus of the vagus, a general visceral efferent (GVE) nucleus, lies lateral to the hypoglossal nucleus, though medial to the SVE column.
+
+## answer_d
+The inferior salivatory nucleus
+
+## explanation_d
+Incorrect. The inferior salivatory nucleus, also a GVE nucleus, similarly lies lateral to the medullary GSE (hypoglossal) column.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Brainstem cranial nerve nuclei
+
+## main_concept
+CON-NEU-CA3B11E36976A1
+
+## concept_ids
+CON-NEU-CA3B11E36976A1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Brainstem cranial nerve nuclei
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-HYPOGLOSSAL-NUCLEUS-IS-THE-MOST-MEDIAL-OF-THE-MOTOR
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Localise the hypoglossal nucleus as the most medial motor nucleus in the medulla.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer/topic stated before the stem, item 13
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, item 13 ("Most Medial is hypoglossal- in medulla")
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q15
+
+## title
+Which drug is used to help prevent relapse in opioid and alcohol addiction, by opioid receptor antagonism?
+
+## question
+Which drug is used as maintenance therapy to help prevent relapse in opioid and alcohol addiction by acting as a competitive opioid receptor antagonist?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Naltrexone
+
+## explanation_a
+Correct. Naltrexone is a competitive antagonist at opioid receptors, chiefly the mu receptor. By blocking these receptors, it prevents exogenous opioids from producing their reinforcing (euphoric) effect and, via the same pathway, reduces alcohol's reward. It is given as maintenance therapy (oral or long-acting injectable) once the patient is opioid-free, to help prevent relapse in both opioid and alcohol use disorder.
+
+## answer_b
+Methadone
+
+## explanation_b
+Incorrect. Methadone is a long-acting opioid agonist used for substitution/maintenance therapy, not an antagonist that blocks opioid receptors.
+
+## answer_c
+Buprenorphine
+
+## explanation_c
+Incorrect. Buprenorphine is a partial opioid agonist used for substitution therapy, not a pure antagonist.
+
+## answer_d
+Naloxone
+
+## explanation_d
+Incorrect. Naloxone is a short-acting opioid antagonist used for acute overdose reversal, not for longer-term relapse-prevention maintenance therapy like naltrexone.
+
+## topic
+Neurophysiology
+
+## subtopic
+Pain pathways
+
+## main_concept
+CON-NEU-3DF546A3530F63
+
+## concept_ids
+CON-NEU-3DF546A3530F63
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Physiology > Pain pathways
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-NALTREXONE-AN-OPIOID-RECEPTOR-ANTAGONIST-IS-USED-TO-HELP
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Attribute naltrexone's relapse-prevention effect in opioid and alcohol addiction to competitive opioid receptor antagonism.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer/topic stated before the stem, item 15
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, item 15 ("Naltrexon - prevent relapse of addict")
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q16
+
+## title
+Why does co-administering carbidopa reduce the dose of L-dopa needed in Parkinson disease?
+
+## question
+Co-administering carbidopa with L-dopa in Parkinson disease treatment allows a much lower total dose of L-dopa to be used. Why?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Carbidopa inhibits peripheral dopa-decarboxylase, sparing L-dopa from premature conversion so more crosses into the brain
+
+## explanation_a
+Correct. Carbidopa inhibits aromatic L-amino acid (dopa) decarboxylase in peripheral tissues but, because it does not cross the blood-brain barrier, spares the same enzyme within the brain. This prevents peripheral conversion of L-dopa to dopamine (which would otherwise cause side effects without benefiting the brain), so a much larger proportion of an oral L-dopa dose survives to reach the brain and be converted centrally. The total L-dopa dose needed for benefit is therefore markedly reduced.
+
+## answer_b
+Carbidopa itself is converted to dopamine in the brain, adding to L-dopa's effect
+
+## explanation_b
+Incorrect. Carbidopa itself has no antiparkinsonian action; its benefit is entirely indirect, via sparing L-dopa peripherally.
+
+## answer_c
+Carbidopa increases the permeability of the blood-brain barrier to dopamine
+
+## explanation_c
+Incorrect. Carbidopa's mechanism is enzyme inhibition, not an effect on blood-brain barrier permeability, and dopamine itself does not cross the barrier regardless.
+
+## answer_d
+Carbidopa inhibits central dopa-decarboxylase, boosting dopamine synthesis within the brain
+
+## explanation_d
+Incorrect. Carbidopa specifically does NOT cross the blood-brain barrier and so does not inhibit the central (brain) dopa-decarboxylase enzyme — this selectivity for the peripheral enzyme is exactly why it spares, rather than blocks, central dopamine synthesis from L-dopa.
+
+## topic
+Neurophysiology
+
+## subtopic
+Movement disorders
+
+## main_concept
+CON-NEU-24679C278E7E0B
+
+## concept_ids
+CON-NEU-24679C278E7E0B
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Reasoning
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Physiology > Movement disorders
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-CARBIDOPA-A-PERIPHERAL-DOPA-DECARBOXYLASE-INHIBITOR-REDUCES
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Attribute carbidopa's L-dopa-dose-sparing effect to peripheral (not central) dopa-decarboxylase inhibition.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer/topic stated before the stem, item 16
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, item 16 ("Carpidopa - what decrease dose needed for L-dopa", read as carbidopa)
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q19
+
+## title
+The trigeminal (V) and abducens (VI) nerve nuclei are located in which part of the brainstem?
+
+## question
+The trigeminal (V) and abducens (VI) cranial nerve nuclei are both located in which part of the brainstem?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The pons
+
+## explanation_a
+Correct. The pons houses the nuclei of cranial nerves V through VIII: the trigeminal (V) motor and main sensory nuclei lie in the mid/upper pons, and the abducens (VI) nucleus lies in the lower pons beneath the facial colliculus of the fourth ventricle floor. Both nuclei are therefore pontine structures. This distinguishes them from the midbrain's oculomotor (III) and trochlear (IV) nuclei and the medulla's lower cranial nerve nuclei (IX-XII).
+
+## answer_b
+The midbrain
+
+## explanation_b
+Incorrect. The midbrain houses the oculomotor (III) and trochlear (IV) nuclei, not the trigeminal or abducens nuclei.
+
+## answer_c
+The medulla
+
+## explanation_c
+Incorrect. The medulla houses the glossopharyngeal (IX), vagal (X), accessory (XI), and hypoglossal (XII) nuclei, not the trigeminal or abducens nuclei.
+
+## answer_d
+The trigeminal nucleus is in the pons but the abducens nucleus is in the midbrain
+
+## explanation_d
+Incorrect. Both nuclei are pontine — the abducens nucleus is specifically NOT in the midbrain, unlike its fellow 'eye movement' nerve nuclei, the oculomotor and trochlear.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Brainstem cranial nerve nuclei
+
+## main_concept
+CON-NEU-861901A985B77C
+
+## concept_ids
+CON-NEU-861901A985B77C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Brainstem cranial nerve nuclei
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-PONS-CONTAINS-THE-NUCLEI-OF-THE-TRIGEMINAL-V-AND
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Localise the trigeminal (V) and abducens (VI) nerve nuclei to the pons.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer/topic stated before the stem, item 19
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, item 19 ("Pons: trigeminal and abducent")
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q20
+
+## title
+The primary somatosensory cortex (S1) represents which side of the face and body?
+
+## question
+The primary somatosensory cortex (S1) represents the face and body of which side, relative to the hemisphere?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The contralateral (opposite) side
+
+## explanation_a
+Correct. S1 (postcentral gyrus) receives thalamocortical input from the ventral posterolateral and ventral posteromedial nuclei, which relay sensory pathways (dorsal column-medial lemniscus and spinothalamic) that have already crossed the midline. As a result, each S1 hemisphere represents touch, proprioception, and pain/temperature sensation from the contralateral side of the face and body. This mirrors the contralateral organisation of the adjacent primary motor cortex.
+
+## answer_b
+The ipsilateral (same) side
+
+## explanation_b
+Incorrect. Ipsilateral representation would require the ascending sensory pathways to remain uncrossed all the way to the cortex, which is not the case — both major somatosensory pathways decussate before reaching the thalamus.
+
+## answer_c
+Both sides equally, bilaterally
+
+## explanation_c
+Incorrect. S1 is predominantly a contralateral map, not a bilaterally symmetric one, although a small proportion of facial/oral sensation carries limited bilateral representation.
+
+## answer_d
+Only the trunk, bilaterally, with limbs represented ipsilaterally
+
+## explanation_d
+Incorrect. S1's contralateral rule applies across the represented body, not selectively to the trunk versus the limbs.
+
+## topic
+Neurophysiology
+
+## subtopic
+Sensory pathways
+
+## main_concept
+CON-NEU-0C29EEB18BFD48
+
+## concept_ids
+CON-NEU-0C29EEB18BFD48
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Physiology > Sensory pathways
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-PRIMARY-SOMATOSENSORY-CORTEX-S1-REPRESENTS-THE-FACE-AND
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+State that the primary somatosensory cortex (S1) represents the contralateral face and body.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer/topic stated before the stem, item 20
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, item 20 ("Contralateral face and body representation- S1")
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q22
+
+## title
+Which cortical motor area contributes most to bilateral (bimanual) hand coordination?
+
+## question
+Which cortical motor area is particularly involved in coordinating movement of the two hands together (bimanual/bilateral coordination)?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The supplementary motor area (SMA)
+
+## explanation_a
+Correct. The supplementary motor area, on the medial frontal gyrus anterior to the primary motor leg area, is particularly involved in planning and coordinating complex, self-initiated movement sequences, including bimanual tasks. Unlike the primary motor cortex, whose representation is predominantly unilateral/contralateral, the SMA has substantial bilateral connectivity. A lesion of the SMA characteristically impairs coordinated bilateral hand movement even when strength in each hand individually is preserved.
+
+## answer_b
+The primary motor cortex
+
+## explanation_b
+Incorrect. The primary motor cortex's output is predominantly unilateral (contralateral) in its execution of movement, not specialised for bilateral coordination.
+
+## answer_c
+The primary somatosensory cortex
+
+## explanation_c
+Incorrect. The primary somatosensory cortex processes incoming sensory information, not motor planning or bimanual coordination.
+
+## answer_d
+The posterior parietal cortex
+
+## explanation_d
+Incorrect. The posterior parietal cortex integrates sensory information for spatial awareness and movement guidance, but the SMA is the area specifically implicated in bilateral motor coordination.
+
+## topic
+Neurophysiology
+
+## subtopic
+Motor cortex function
+
+## main_concept
+CON-NEU-97670BC04D2404
+
+## concept_ids
+CON-NEU-97670BC04D2404
+
+## contextual_concept_ids
+CON-NEU-168E2C67CB6BA7
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Physiology > Motor cortex function
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-SUPPLEMENTARY-MOTOR-AREA-SMA-IS-INVOLVED-IN-THE
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+State that the supplementary motor area contributes to bilateral (bimanual) coordination of hand movement.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer/topic stated before the stem, item 22
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, item 22 ("SMA- bilateral hands")
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q24
+
+## title
+The Edinger-Westphal nucleus belongs to which brainstem functional cell column?
+
+## question
+The Edinger-Westphal nucleus, the parasympathetic component of the oculomotor nuclear complex, belongs to which functional cell column?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+General visceral efferent (GVE)
+
+## explanation_a
+Correct. The Edinger-Westphal nucleus is the parasympathetic (preganglionic) component of the oculomotor complex, supplying the constrictor pupillae and ciliary muscle via the ciliary ganglion. It belongs to the general visceral efferent (GVE) column, the same functional column as other cranial parasympathetic nuclei (superior/inferior salivatory nuclei, dorsal motor nucleus of the vagus). This distinguishes it from the adjacent main oculomotor nucleus, which supplies the extraocular muscles directly.
+
+## answer_b
+General somatic efferent (GSE)
+
+## explanation_b
+Incorrect. The GSE column supplies somatic (skeletal) muscle directly, such as the main oculomotor nucleus's supply to the extraocular muscles — not the Edinger-Westphal nucleus's parasympathetic, visceral output.
+
+## answer_c
+Special visceral efferent (SVE)
+
+## explanation_c
+Incorrect. The SVE column supplies muscle derived from pharyngeal arch mesoderm (e.g. muscles of mastication, facial expression), not the Edinger-Westphal nucleus's smooth muscle/gland targets.
+
+## answer_d
+General somatic afferent (GSA)
+
+## explanation_d
+Incorrect. GSA is a sensory (afferent), not a motor (efferent), column, and the Edinger-Westphal nucleus is a motor nucleus.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Brainstem cranial nerve nuclei
+
+## main_concept
+CON-NEU-3A8BA48F064748
+
+## concept_ids
+CON-NEU-3A8BA48F064748
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Brainstem cranial nerve nuclei
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-EDINGER-WESTPHAL-NUCLEUS-IS-A-GENERAL-VISCERAL-EFFERENT
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Classify the Edinger-Westphal nucleus as a general visceral efferent (GVE) column nucleus.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 1.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer/topic stated before the stem, item 24
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, item 24 ("EWN- GVE")
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q28
+
+## title
+The carotid branch of the glossopharyngeal nerve carries afferents from which structures?
+
+## question
+The carotid branch (nerve of Hering) of the glossopharyngeal nerve carries afferent fibres from which paired structures?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The carotid sinus (baroreceptor) and carotid body (chemoreceptor)
+
+## explanation_a
+Correct. The glossopharyngeal nerve's carotid branch descends to the carotid bifurcation, carrying visceral afferents from the carotid sinus (a baroreceptor sensing arterial blood pressure) and the carotid body (a chemoreceptor sensing arterial oxygen tension, and to a lesser extent CO2 and pH). These afferents relay to the nucleus of the tractus solitarius. They form the afferent limb of the baroreceptor and chemoreceptor reflexes regulating blood pressure and respiratory drive.
+
+## answer_b
+The pharyngeal plexus, supplying general sensation to the pharynx
+
+## explanation_b
+Incorrect. General pharyngeal sensation is carried by the glossopharyngeal nerve's separate pharyngeal branch (to the pharyngeal plexus), not the carotid branch.
+
+## answer_c
+The palatine tonsil and soft palate
+
+## explanation_c
+Incorrect. The tonsil and soft palate are supplied by the glossopharyngeal nerve's tonsillar branch, a different branch from the carotid branch.
+
+## answer_d
+The posterior one-third of the tongue (taste and general sensation)
+
+## explanation_d
+Incorrect. Posterior one-third tongue taste and general sensation are carried by the glossopharyngeal nerve's lingual branch, not the carotid branch.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Cranial nerve sensory territories
+
+## main_concept
+CON-NEU-2255FCAED040D2
+
+## concept_ids
+CON-NEU-2255FCAED040D2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Cranial nerve sensory territories
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-CAROTID-BRANCH-OF-THE-GLOSSOPHARYNGEAL-NERVE-CARRIES
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Identify the carotid branch of the glossopharyngeal nerve as the afferent pathway for carotid sinus baroreceptor and carotid body chemoreceptor signals.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 2.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: essay short-answer fact, no printed options
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, p2, essay item 1 (glossopharyngeal branches and distribution, carotid branch)
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q29
+
+## title
+In the internal capsule, where do the upper-limb and lower-limb corticospinal fibres run relative to each other?
+
+## question
+In the internal capsule, corticospinal fibres for the lower limb run in which position relative to those for the upper limb?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+More posteriorly, in the posterior part of the posterior limb (upper limb runs anteriorly in the posterior limb)
+
+## explanation_a
+Correct. Corticospinal/corticobulbar fibres pass through the internal capsule in a somatotopic arrangement: corticobulbar (face) fibres occupy the genu, upper-limb fibres run in the anterior part of the posterior limb, and lower-limb fibres run more posteriorly, still within the posterior limb. This somatotopy explains why a small, discrete internal capsule lesion can selectively affect the face, arm, or leg depending on exactly where it falls. All three groups later converge and travel together through the cerebral peduncle.
+
+## answer_b
+More anteriorly, in the anterior limb (upper limb runs in the posterior limb)
+
+## explanation_b
+Incorrect. The anterior limb of the internal capsule carries fronto-pontine fibres, not the lower-limb corticospinal fibres, which run in the posterior limb (posterior part).
+
+## answer_c
+At the genu, with the face (upper limb runs in the posterior limb)
+
+## explanation_c
+Incorrect. The face is represented at the genu, not the lower limb; the lower limb lies in the posterior part of the posterior limb.
+
+## answer_d
+Upper and lower limb fibres run together, undifferentiated, throughout the internal capsule
+
+## explanation_d
+Incorrect. The internal capsule's corticospinal fibres are somatotopically organised, not an undifferentiated mixture — this organisation is exactly what allows small lesions to produce selective face/arm/leg deficits.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Descending motor tracts
+
+## main_concept
+CON-NEU-CDA59B3C9BDBBE
+
+## concept_ids
+CON-NEU-CDA59B3C9BDBBE
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Descending motor tracts
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-IN-THE-INTERNAL-CAPSULE-CORTICOSPINAL-FIBRES-FOR-THE-UPPER
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Sequence the internal capsule's motor somatotopy: face at the genu, upper limb anterior in the posterior limb, lower limb posterior in the posterior limb.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 2.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: essay short-answer fact, no printed options
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, p2, essay item 2 (lamination of the pyramidal tract, internal capsule somatotopy)
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q30
+
+## title
+Besides the deep facial vein, which other structures does the pterygoid venous plexus communicate with, and how does it drain?
+
+## question
+Besides its connection to the anterior facial vein via the deep facial vein, which other structures does the pterygoid venous plexus communicate with, and via which vein does it ultimately drain?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The cavernous sinus and the inferior ophthalmic vein; drains via the maxillary vein
+
+## explanation_a
+Correct. The pterygoid venous plexus, surrounding the lateral pterygoid muscle, communicates with the cavernous sinus (via emissary veins and the deep facial vein) and with the inferior ophthalmic vein, in addition to its anterior facial vein connection. Posteriorly, the plexus is drained by the maxillary vein, which unites with the superficial temporal vein to form the retromandibular vein. This rich, valveless communication with the cavernous sinus is why a dental or facial infection in the plexus's territory can spread intracranially to cause cavernous sinus thrombosis.
+
+## answer_b
+The superior sagittal sinus only; drains via the ophthalmic artery
+
+## explanation_b
+Incorrect. The pterygoid plexus does not communicate directly with the superior sagittal sinus, and drainage is venous, not arterial (the ophthalmic artery is not a venous drainage route).
+
+## answer_c
+The internal jugular vein directly, with no other communications; drains via the external jugular vein
+
+## explanation_c
+Incorrect. The plexus does not drain directly into the internal jugular vein; it drains via the maxillary vein, and it does have other communications (cavernous sinus, inferior ophthalmic vein, deep facial vein).
+
+## answer_d
+The straight sinus and confluence of sinuses; drains via the superficial temporal vein alone
+
+## explanation_d
+Incorrect. The plexus's clinically important intracranial communication is with the cavernous sinus, not the straight sinus/confluence of sinuses, and its drainage is via the maxillary vein (which then joins the superficial temporal vein), not the superficial temporal vein alone.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Venous drainage of the head and neck
+
+## main_concept
+CON-NEU-BD477E0C43EBD7
+
+## concept_ids
+CON-NEU-BD477E0C43EBD7
+
+## contextual_concept_ids
+CON-NEU-CD12E6B6C6C018
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Venous drainage of the head and neck
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-PTERYGOID-VENOUS-PLEXUS-COMMUNICATES-WITH-THE-CAVERNOUS
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Trace the pterygoid venous plexus's communications (cavernous sinus, inferior ophthalmic vein) and its drainage via the maxillary vein.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 2.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: essay short-answer fact, no printed options
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, p2, essay item 3 (pterygoid venous plexus site, communications, drainage)
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q31
+
+## title
+The convergence-projection theory explains referred pain by which mechanism?
+
+## question
+According to the convergence-projection theory, referred pain (e.g. gallbladder pain felt at the right scapular tip) occurs by which mechanism?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Visceral and somatic afferents from the same embryonic segment converge on a shared spinal neuron, and pain is misprojected to the somatic (skin) source
+
+## explanation_a
+Correct. The convergence-projection theory holds that visceral and somatic afferents arising from structures of the same embryonic segment converge on the same second-order spinal neuron. Because the brain has learned to interpret activity in that shared neuron as arising from the much more common somatic source, pain that actually originates in the viscus is misprojected and perceived as arising from the corresponding skin area. This is the basis of classic referred-pain patterns such as gallbladder pain at the scapular tip.
+
+## answer_b
+Subthreshold somatic afferents are facilitated by concurrent visceral input, lowering the somatic pain threshold
+
+## explanation_b
+Incorrect. This describes the related but distinct convergence-facilitation theory, in which visceral input sensitises (facilitates) somatic afferents rather than pain being outright misattributed to the somatic source.
+
+## answer_c
+The viscus itself contains cutaneous-type nociceptors that directly signal the referred site
+
+## explanation_c
+Incorrect. The viscus does not contain cutaneous-type nociceptors signalling the distant skin site directly; the illusion arises centrally, from shared spinal neuron convergence.
+
+## answer_d
+Referred pain results from direct compression of the somatic dermatome by the diseased viscus
+
+## explanation_d
+Incorrect. Referred pain is a neural (afferent convergence) phenomenon, not the result of mechanical compression of a distant dermatome by the diseased organ.
+
+## topic
+Neurophysiology
+
+## subtopic
+Pain pathways
+
+## main_concept
+CON-NEU-DA1BFA55883358
+
+## concept_ids
+CON-NEU-DA1BFA55883358
+
+## contextual_concept_ids
+CON-NEU-FA973556EF3230
+
+## difficulty
+Hard
+
+## question_type
+Reasoning
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Physiology > Pain pathways
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-CONVERGENCE-PROJECTION-THEORY-EXPLAINS-REFERRED-PAIN-BY
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+State the convergence-projection theory of referred pain: shared same-segment afferent convergence, with pain misattributed to the somatic source.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: essay short-answer fact, no printed options
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, p3, essay item 5 (headache case, mechanism of referred pain: convergence-projection theory)
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q33
+
+## title
+The speech and gait difficulty in Parkinson disease is best explained by which mechanism?
+
+## question
+A patient with Parkinson disease has hypophonic, monotone speech and a slow, shuffling gait. Which mechanism best explains these features?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Rigidity and severe hypertonia of the affected musculature, an extrapyramidal (basal ganglia) mechanism
+
+## explanation_a
+Correct. Parkinson disease's cardinal motor features arise from dopaminergic degeneration in the substantia nigra pars compacta and consequent basal ganglia circuit dysfunction, not from any weakness of the corticospinal system. The difficulty of speech (hypophonic, monotone dysarthria) and gait (shuffling, reduced arm swing) is attributable to rigidity — increased resistance to passive movement throughout range — and severe hypertonia, together with bradykinesia. Muscle strength itself is typically normal on formal testing.
+
+## answer_b
+Weakness of the corticospinal (pyramidal) system supplying speech and gait musculature
+
+## explanation_b
+Incorrect. Parkinson disease is not a pyramidal (corticospinal) weakness disorder; strength is preserved, and the deficit is one of movement initiation, speed, and rigidity, not power.
+
+## answer_c
+A lower motor neuron lesion affecting the relevant cranial and spinal nerves
+
+## explanation_c
+Incorrect. Parkinson disease is a central, extrapyramidal basal ganglia disorder, not a lower motor neuron (peripheral nerve/anterior horn cell) disease.
+
+## answer_d
+Cerebellar ataxia from loss of the spinocerebellar damping function
+
+## explanation_d
+Incorrect. Cerebellar ataxia produces incoordination and intention tremor from loss of the cerebellum's real-time movement correction, a different clinical picture from Parkinsonian rigidity and bradykinesia, and Parkinson disease is not primarily a cerebellar disorder.
+
+## topic
+Neurophysiology
+
+## subtopic
+Movement disorders
+
+## main_concept
+CON-NEU-39CE02FF73FCF5
+
+## concept_ids
+CON-NEU-39CE02FF73FCF5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Physiology > Movement disorders
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-DIFFICULTY-OF-SPEECH-AND-GAIT-IN-PARKINSON-DISEASE
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Attribute the speech and gait difficulty of Parkinson disease to rigidity and hypertonia, not pyramidal weakness.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: essay short-answer fact, no printed options
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, p3, essay item 6 (Parkinson disease case, difficulty of speech and walking: rigidity and severe hypertonia)
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q34
+
+## title
+How do nuclear bag and nuclear chain intrafusal fibres differ in morphology and number?
+
+## question
+Within a muscle spindle, how do nuclear bag and nuclear chain intrafusal fibres differ in morphology and typical number?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Nuclear bag fibres are thick, short, and few (1-3); nuclear chain fibres are thin, long, and more numerous (3-9)
+
+## explanation_a
+Correct. Nuclear bag fibres are thick and relatively short, typically one to three per spindle, with their nuclei clustered in a central bag-like dilation; they are innervated predominantly by group Ia afferents, making them especially sensitive to the dynamic (rate-of-change) phase of stretch. Nuclear chain fibres are thinner and longer, typically three to nine per spindle, with nuclei arranged in a single-file chain; they are innervated by both Ia and group II afferents, contributing more to signalling static, steady-state length.
+
+## answer_b
+Nuclear bag fibres are thin, long, and more numerous; nuclear chain fibres are thick, short, and few
+
+## explanation_b
+Incorrect. This reverses the two fibre types' morphology — nuclear bag fibres are the thick, short, few ones, and nuclear chain fibres are the thin, long, more numerous ones.
+
+## answer_c
+Both fibre types are morphologically identical, differing only in their innervation
+
+## explanation_c
+Incorrect. The two intrafusal fibre types differ in morphology (thickness, length, nuclear arrangement, number per spindle) as well as in their afferent innervation pattern, not innervation alone.
+
+## answer_d
+Nuclear bag fibres are found only in flexor muscles; nuclear chain fibres only in extensors
+
+## explanation_d
+Incorrect. Both fibre types coexist within the same muscle spindle, regardless of whether that muscle is a flexor or extensor; they are not segregated by muscle action type.
+
+## topic
+Neurophysiology
+
+## subtopic
+Muscle and reflex physiology
+
+## main_concept
+CON-NEU-FB1C8ABD346220
+
+## concept_ids
+CON-NEU-FB1C8ABD346220
+
+## contextual_concept_ids
+CON-NEU-77981F7CA5F5D7
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Physiology > Muscle and reflex physiology
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-NUCLEAR-BAG-INTRAFUSAL-FIBRES-ARE-THICK-SHORT-AND-FEW-WHILE
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Compare nuclear bag fibres (thick, short, few, dynamic stretch) with nuclear chain fibres (thin, long, more numerous, static length) within the muscle spindle.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: essay short-answer fact, no printed options
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, p3, essay item 7 (intrafusal fibre comparison: nuclear chain vs nuclear bag)
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q35
+
+## title
+The rubrospinal tract decussates at which site?
+
+## question
+Fibres of the rubrospinal tract, arising from the red nucleus, decussate at which site?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The ventral tegmental decussation (of Forel), in the midbrain, immediately after leaving the red nucleus
+
+## explanation_a
+Correct. Rubrospinal fibres arise from the red nucleus in the midbrain tegmentum and cross the midline almost immediately, at the ventral tegmental decussation (the decussation of Forel), before descending in the lateral funiculus of the spinal cord alongside the lateral corticospinal tract. This immediate, low decussation means the rubrospinal tract's influence on limb flexor motor neurons is, like the corticospinal tract's, functionally a contralateral one. The crossing itself occurs at the midbrain, not lower down.
+
+## answer_b
+The medullary pyramids, alongside the corticospinal tract
+
+## explanation_b
+Incorrect. The medullary pyramids are where the corticospinal tract decussates, not the rubrospinal tract, which crosses much higher, in the midbrain.
+
+## answer_c
+The dorsal tegmental decussation, at the level of the superior colliculus
+
+## explanation_c
+Incorrect. The dorsal tegmental decussation, at the superior colliculus, is where the tectospinal tract crosses, not the rubrospinal tract (which crosses ventrally).
+
+## answer_d
+The rubrospinal tract does not decussate; it remains ipsilateral throughout its course
+
+## explanation_d
+Incorrect. The rubrospinal tract does decussate, and does so almost immediately after arising from the red nucleus, at the ventral tegmental decussation.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Descending motor tracts
+
+## main_concept
+CON-NEU-67D6D7DB47A03D
+
+## concept_ids
+CON-NEU-67D6D7DB47A03D
+
+## contextual_concept_ids
+CON-NEU-10F91883DBD2E8
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Descending motor tracts
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-RUBROSPINAL-TRACT-DECUSSATES-AT-THE-VENTRAL-TEGMENTAL
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Localise the rubrospinal tract's decussation to the ventral tegmental decussation (of Forel) in the midbrain.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: essay short-answer fact, no printed options
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, p3, essay item 8 (midbrain decussation: superior level ventral tegmentum = rubrospinal). The same essay item's dorsal-tegmentum/tectospinal fact duplicates this lane's own cluster 1 anatomy concept and is not re-authored here
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q36
+
+## title
+The trochlear nerve and the superior cerebellar peduncle decussate at which level of the midbrain?
+
+## question
+Both the trochlear (IV) nerve and the superior cerebellar peduncle decussate at which level of the midbrain?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The inferior (inferior collicular) level
+
+## explanation_a
+Correct. At the inferior (inferior collicular) level of the midbrain, the trochlear (IV) nerve's fibres decussate within the superior medullary velum before emerging dorsally — the only cranial nerve to exit the brainstem on its dorsal surface. The superior cerebellar peduncle's fibres also decussate in this same region, en route from the deep cerebellar nuclei to the contralateral red nucleus and thalamus. Both decussations therefore occur at this same inferior midbrain level.
+
+## answer_b
+The superior (superior collicular) level
+
+## explanation_b
+Incorrect. The superior (superior collicular) level is instead where the rubrospinal tract (ventrally) and tectospinal tract (dorsally) decussate, not the trochlear nerve or superior cerebellar peduncle.
+
+## answer_c
+They decussate at different levels, the trochlear nerve superiorly and the peduncle inferiorly
+
+## explanation_c
+Incorrect. Both structures decussate together at the same (inferior) level, not at different levels.
+
+## answer_d
+Neither structure decussates within the midbrain
+
+## explanation_d
+Incorrect. Both structures do decussate within the midbrain, specifically at its inferior (inferior collicular) level.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Midbrain surface anatomy
+
+## main_concept
+CON-NEU-44845BF496BE5F
+
+## concept_ids
+CON-NEU-44845BF496BE5F
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Midbrain surface anatomy
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-TROCHLEAR-NERVE-AND-THE-SUPERIOR-CEREBELLAR-PEDUNCLE
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Pair the trochlear nerve and the superior cerebellar peduncle as the two structures decussating at the inferior midbrain level.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: essay short-answer fact, no printed options
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, p3, essay item 8 (midbrain decussation: inferior level = trochlear nerve and superior cerebellar peduncle)
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q37
+
+## title
+A cerebellar lesion causing overshoot of an intended target is called what, and what is undershoot called?
+
+## question
+In cerebellar disease, impaired judgment of the distance needed to reach a target can present as overshoot or undershoot. What are these two patterns called?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Hypermetria (overshoot) and hypometria (undershoot), both forms of dysmetria
+
+## explanation_a
+Correct. Dysmetria is impaired ability to judge the distance, speed, and force needed to reach an intended target, a sign of cerebellar (particularly spinocerebellar) disease reflecting loss of real-time error correction. Hypermetria is the overshoot pattern, in which the limb passes beyond the intended endpoint (classically demonstrated as past-pointing). Hypometria is the opposite, undershoot pattern, in which the limb falls short — both are manifestations of the same underlying dysmetria, just in opposite directions.
+
+## answer_b
+Hypermetria (undershoot) and hypometria (overshoot), both forms of dysdiadochokinesia
+
+## explanation_b
+Incorrect. This reverses the definitions — hypermetria is overshoot, hypometria is undershoot, and both are forms of dysmetria, not dysdiadochokinesia (which is a different sign, impaired rapid alternating movement).
+
+## answer_c
+Dysdiadochokinesia (overshoot) and dysmetria (undershoot), two separate signs
+
+## explanation_c
+Incorrect. Dysdiadochokinesia (impaired rapid alternating movement) and dysmetria (impaired target-distance judgment) are two distinct cerebellar signs; hypermetria and hypometria are the two forms dysmetria itself takes, not separate signs from dysdiadochokinesia.
+
+## answer_d
+Intention tremor (overshoot) and ataxia (undershoot), two separate signs
+
+## explanation_d
+Incorrect. Intention tremor and ataxia are other, separate cerebellar signs, not the specific names for the overshoot/undershoot pattern of dysmetria.
+
+## topic
+Neurophysiology
+
+## subtopic
+Cerebellar physiology
+
+## main_concept
+CON-NEU-EFBA8E4AAF60E7
+
+## concept_ids
+CON-NEU-EFBA8E4AAF60E7
+
+## contextual_concept_ids
+CON-NEU-A816CD0556E461
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Physiology > Cerebellar physiology
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-DYSMETRIA-A-CEREBELLAR-SIGN-INCLUDES-BOTH-HYPERMETRIA
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Define dysmetria as impaired distance/force judgment in cerebellar disease, encompassing both hypermetria (overshoot) and hypometria (undershoot).
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: essay short-answer fact, no printed options
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, p3, essay item 9 (left cerebellar lesion case, dysmetria: hypermetria/hypometria)
+
+---
+
+# Item
+
+## id
+QST-ASUCNS3-FINAL24-Q38
+
+## title
+The cerebellar cortex glomerulus, in the granular layer, is formed by which three components?
+
+## question
+The cerebellar glomerulus, a synaptic complex in the granular layer of the cerebellar cortex, is formed by which three components?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+A mossy fibre terminal, granule cell dendrites, and Golgi type II cell axons
+
+## explanation_a
+Correct. The granular layer, the innermost layer of the cerebellar cortex, is densely packed with granule cells and is the site of the cerebellar glomerulus. This synaptic complex is formed by the rosette-like terminal of an incoming mossy fibre, the dendrites of surrounding granule cells, and the inhibitory axon terminals of Golgi type II cells, all enclosed within a glial sheath. Granule cells then send their own axons up into the molecular layer as parallel fibres, relaying this input onward to Purkinje cells.
+
+## answer_b
+A climbing fibre terminal, Purkinje cell dendrites, and basket cell axons
+
+## explanation_b
+Incorrect. Climbing fibres synapse directly on Purkinje cell dendrites in the molecular layer, not within a granular-layer glomerulus, and basket cells are molecular-layer interneurons, not part of the glomerulus.
+
+## answer_c
+A mossy fibre terminal, Purkinje cell dendrites, and stellate cell axons
+
+## explanation_c
+Incorrect. The glomerulus is formed around a mossy fibre terminal and granule cell dendrites, not Purkinje cell dendrites, which instead receive parallel fibre and climbing fibre input in the molecular layer.
+
+## answer_d
+A parallel fibre, Purkinje cell dendrites, and Golgi type II cell axons
+
+## explanation_d
+Incorrect. The parallel fibre is the axon of the granule cell that carries mossy fibre input onward to Purkinje cells in the molecular layer — it is downstream of the glomerulus, not one of the glomerulus's own three components.
+
+## topic
+Neuroanatomy
+
+## subtopic
+Cerebellum and cerebellar peduncles
+
+## main_concept
+CON-NEU-3AED135A75832A
+
+## concept_ids
+CON-NEU-3AED135A75832A
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y3=moderate
+
+## years
+ASU_Y3
+
+## universities
+asu
+
+## module
+ASU-CNS-3
+
+## module_subject
+ASU-CNS-3 > Anatomy > Cerebellum and cerebellar peduncles
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-THE-GRANULAR-LAYER-OF-THE-CEREBELLAR-CORTEX-CONTAINS-MOSSY
+
+## resource_ids
+src_a5a15b69f093397250ab
+
+## learning_objective
+Name the three components of the cerebellar cortex's granular-layer glomerulus: mossy fibre terminals, granule cell dendrites, and Golgi type II cell axons.
+
+## source_citation
+Ain Shams Year 3 CNS EOM Final Paper 1 2024 ("EOM - CNS FINAL PAPER 1 2024.pdf"), item 3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: essay short-answer fact, no printed options
+asu: EOM - CNS FINAL PAPER 1 2024.pdf, p3, essay item 9 (left cerebellar lesion case, granular layer components: mossy fibres, granule cell dendrites, Golgi type 2 axons)

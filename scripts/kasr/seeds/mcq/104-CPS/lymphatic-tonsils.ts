@@ -281,5 +281,59 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "Already authored as QM-104-5D6AC044C4D9 ('Why lingual tonsils are rarely inflamed') in docs/Kasr-Source-Imports/question/104-CPS-mcq-authored.md, which names this exact bank key in its author_notes ('Bank key the-lingual-tonsils-are-not-commonly-inflamed-because-84653f3a'). Re-authoring it here would duplicate that live question.",
     },
+    // kasr-104-author-run46: Tonsils cluster, this leaf's own 3 remaining
+    // bank rows. Answer confidence "none" (no printed key) for all three —
+    // checked directly against the department histology book
+    // (src_18d3a953df4ca83c4e74) before authoring or excluding any of them.
+    {
+      key: "the-palatine-tonsil-is-characterized-by-c790a1a2",
+      conceptKey: "tonsil.palatine-epithelium-crypts-and-deep-capsule",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "State that the palatine tonsil's mucous-gland ducts open on the free surface, not into the crypt bases — the opposite of the lingual tonsil's arrangement — and identify this as why palatine tonsillitis is common.",
+      explanations: {
+        A: "Reversed: the department book states the palatine tonsil's free surface is covered by non-keratinized stratified squamous epithelium (p.22), the pharyngeal tonsil's own site (nasopharynx) that carries pseudostratified columnar epithelium instead.",
+        B: "Wrong tonsil: hypertrophy producing adenoids is specifically a PHARYNGEAL-tonsil finding, stated by this leaf's own pharyngeal-tonsil concept — the palatine tonsil's own clinical correlate is tonsillitis and tonsillectomy, not adenoids.",
+        C: "Reversed: the department book states the palatine tonsil has an incomplete connective-tissue capsule deep to its lymphatic tissue (p.22, also shown in the book's own labelled diagram) — it is the LINGUAL tonsil that has no capsule at all.",
+        D: "Correct. The department book states plainly (p.22): 'Mucous glands are present in the C.T., their ducts open on the surface and not in the base of tonsillar crypts, so inflammation of crypts is common' — the opposite of the lingual tonsil's crypt-flushing arrangement, and exactly why the palatine tonsil is the one that inflames often.",
+      },
+      answerOverride: "D",
+      answerOverrideReason: "No printed key exists in the bank (answerConfidence: none). Re-verified directly against the department histology book (src_18d3a953df4ca83c4e74, p.22, 'Histological Structure of palatine tonsil', point 4): 'Mucous glands are present in the C.T., their ducts open on the surface and not in the base of tonsillar crypts' — matching option D verbatim. The other three options are each independently contradicted by the same page and this leaf's own sourced concepts (A: wrong epithelium type, that of the pharyngeal tonsil; B: wrong tonsil for adenoids; C: the palatine tonsil does have an incomplete capsule, unlike the lingual tonsil). All four options resolve cleanly against the book with no ambiguity.",
+    },
+    {
+      key: "blood-film-from-this-patient-may-present-eosinophilia-853347f0",
+      conceptKey: "tonsil.clinical-tonsillitis-and-regional-lymphadenitis",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "A clinical-vignette fragment, not a standalone question: the surviving stem ('Blood film from this patient may present eosinophilia') presupposes a patient case never extracted, option D is itself a bled-in alternate stem ('...may present basophilia'), and option A is a bare three-way organ list ('Lymph node b-spleen c- Palatine tonsil') rather than a genuine answer choice. No printed key exists (answerConfidence: none), and none of this leaf's own sourced tonsil concepts covers haematology/blood-film findings at all — leaf-tagged Tonsils in the bank, bookkept here since it is unanswerable regardless of its true topic.",
+    },
+    {
+      key: "divide-the-spleen-into-regular-compartments-lymphatic-system-61263f5a",
+      conceptKey: "tonsil.clinical-tonsillitis-and-regional-lymphadenitis",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "A two-question bleed: the stem itself is a stray fragment of a DIFFERENT, already-elsewhere-excluded splenic-trabeculae question ('Divide the spleen into regular compartments'), run on directly into an unrelated numbered item ('22. Regarding Hassall's corpuscles...') whose own 4 options survive. No printed key exists (answerConfidence: none), and the genuine content (Hassall's corpuscles) is thymus histology, not tonsil content at all — leaf-tagged Tonsils in the bank, bookkept here since the stem itself cannot be shown to a student regardless of its true topic. The underlying Hassall's-corpuscle fact (concentric layers of epithelial reticular cells, located in the thymic medulla, not cortex) is already taught cleanly by this module's own thymus.hassalls-corpuscles-cortex-medulla-contrast-and-reticular-cell-functions concept, so no unique teaching content is lost.",
+    },
+    {
+      // kasr-104-author-run46: this leaf's own last remaining bank row
+      // (ledger's second Tonsils batch, leaf=null in the raw bank).
+      // Well-grounded (this is the department book's own verbatim
+      // definition of the palatine tonsil), but a genuine option-merge
+      // contract violation independent of grounding.
+      key: "is-aggregation-of-lymph-tissue-with-incomplete-capsule-498c1c81",
+      conceptKey: "tonsil.palatine-epithelium-crypts-and-deep-capsule",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option C has absorbed a separate option D into one merged cell ('spleen d) thymus'), leaving only 3 distinguishable choices (A, B, merged-C/D) for what should be a 4-option item. The underlying claim is well-grounded — the department histology book's own opening definition of the palatine tonsil is 'aggregation of lymphatic tissue, incompletely encapsulated' (p.21), confirming option A — but the missing standalone option D means this cannot be authored as a clean 4-option item per the platform's import contract. Excluded for the contract violation, not for lack of grounding; the same fact is already taught cleanly by this leaf's own tonsil.palatine-epithelium-crypts-and-deep-capsule questions.",
+    },
   ],
 }

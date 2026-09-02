@@ -1,0 +1,514 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch11",
+  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 11 \"Nematoda\" (pp.112-130, 164 items, plain-text ANSWERS table wraps pp.131-132; coverage/AUN-INI-105-triage.md's chapter map). Lane author13 read and keyed Q111-164 of 164 -- the chapter's final window, after lanes 10 (Q1-56) and 12 (Q56-110). This batch authors the intestinal-nematode diagnosis/habitat/life-cycle cluster (article NEMATODA-4): 13 new AUN-INI-105 concepts plus 2 questions (Q124, Q133) that reuse lane 10's own already-minted concepts directly, since Q111-164 heavily re-asks the same organisms from Q1-110 under new stems.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "aun"
+    ],
+    "years": [
+      "AUN_Y1"
+    ],
+    "module": "AUN-INI-105",
+    "module_subject": "AUN-INI-105 > Nematoda",
+    "exam_weight_by_year": {
+      "AUN_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-INF-AUN-INI105-NEMATODA-4"
+    ],
+    "resource_ids": [
+      "src_6f2f4188bb0cbf848733"
+    ],
+    "source_citation": "INI MCQ .pdf, Nematoda, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "topic": "Nematoda",
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch11-q124",
+      "page": 126,
+      "title": "Trichinella spiralis is larviparous",
+      "question": "Which of the following parasite is larviparous ?",
+      "options": {
+        "A": "Ancylostoma duodenale",
+        "B": "Fasciola gigantica",
+        "C": "Trichinella spiralis",
+        "D": "Taenia solium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ancylostoma duodenale is oviparous, releasing eggs that pass out in the faeces, not live larvae.",
+        "B": "Incorrect. Fasciola gigantica is oviparous, releasing eggs that pass out in the bile and faeces, not live larvae.",
+        "C": "Correct. Trichinella spiralis is larviparous: the fertilized adult female releases live first-stage larvae directly into the intestinal mucosa, rather than laying eggs, and these larvae then migrate via the bloodstream to encyst in skeletal muscle. This viviparous (larviparous) reproductive strategy sets Trichinella apart from most other intestinal nematodes tested in this bank, which are oviparous and instead pass eggs. Ancylostoma duodenale, Fasciola gigantica and Taenia solium are all oviparous, releasing eggs rather than live larvae.",
+        "D": "Incorrect. Taenia solium is oviparous (its gravid proglottids release eggs), not larviparous."
+      },
+      "main_concept": "CON-INF-AB7240400CE546",
+      "concept_ids": [
+        "CON-INF-AB7240400CE546"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichinella spiralis reproduction",
+      "learning_objective": "Identify Trichinella spiralis as larviparous, reusing lane 10's oviparous/viviparous concept from a fourth-organism comparison.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132 -- reuses lane 10's ini-mcq-ch11-q005/q006 concept CON-INF-AB7240400CE546 (same underlying fact, different comparison set)"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-NEMATODA-1"
+      ]
+    },
+    {
+      "key": "ini-mcq-ch11-q125",
+      "page": 125,
+      "title": "Enterobius vermicularis is best diagnosed with the perianal cellophane tape technique",
+      "question": "The Enterobius vermicularis is best detected by ?",
+      "options": {
+        "A": "Applying the sticky surface of cellophane tape to the peri anal area. Applying the tape as microscopic slide, and viewing",
+        "B": "Collection of stool in the morning and preparing a wet mount for examination",
+        "C": "Microscopic examination of the sediment from centrifuged urine",
+        "D": "Examination of skin biopsy from mucosal lesion",
+        "E": "None is correct"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Enterobius vermicularis is best diagnosed with the perianal cellophane (Scotch) tape technique: the sticky surface of a strip of tape is pressed against the perianal skin early in the morning, before the patient bathes or defecates, then applied to a microscope slide and examined directly for the characteristic flattened, asymmetric eggs. This works because the gravid female Enterobius migrates out through the anus at night to lay her eggs on the perianal skin rather than releasing them into the intestinal lumen, so almost no eggs reach the stool. A standard stool examination therefore has a low sensitivity for pinworm and is not the preferred diagnostic method.",
+        "B": "Incorrect. A morning stool wet mount is the standard diagnostic method for most other intestinal helminths, whose eggs are passed in the faeces, but it has a low yield for Enterobius vermicularis because so few of its eggs are found in stool.",
+        "C": "Incorrect. Centrifuged urine sediment is used to look for eggs of Schistosoma haematobium, not Enterobius vermicularis, which does not shed eggs into urine.",
+        "D": "Incorrect. Skin biopsy is not used to diagnose Enterobius vermicularis; muscle biopsy, not skin biopsy, is instead the diagnostic method for Trichinella spiralis.",
+        "E": "Incorrect. A correct method (the cellophane tape technique) does exist and is listed as option A, so 'none is correct' is wrong."
+      },
+      "main_concept": "CON-INF-356702409B30E8",
+      "concept_ids": [
+        "CON-INF-356702409B30E8"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Enterobius vermicularis diagnosis",
+      "learning_objective": "Identify the perianal cellophane tape technique as the preferred diagnostic method for Enterobius vermicularis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q126",
+      "page": 126,
+      "title": "Diagnostic stages of ascariasis are found in faeces and sputum",
+      "question": "Diagnostie stages of ascariasis is present in ?",
+      "options": {
+        "A": "Faeces and sputum",
+        "B": "Blood and faeces",
+        "C": "Blood and urine",
+        "D": "Faeces and urine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Ascariasis can be diagnosed from two different specimens at two different points in the life cycle: the characteristic fertilized, bile-stained, mamillated egg is recovered from the faeces of a patient harbouring adult worms, while during the obligatory pulmonary migratory phase the larvae passing through the alveoli and airways can be coughed up and recovered in the sputum, sometimes together with eosinophils in Loeffler's syndrome. No blood or urine stage of Ascaris lumbricoides exists, since the parasite never enters the bloodstream as a diagnosable free stage nor is excreted in urine. Faeces and sputum are therefore the two correct specimens to examine.",
+        "B": "Incorrect. Ascaris lumbricoides eggs are not diagnosed from blood; blood films are used for blood-dwelling parasites such as microfilariae, not for Ascaris.",
+        "C": "Incorrect. Neither blood nor urine carries a diagnostic stage of Ascaris lumbricoides.",
+        "D": "Incorrect. Ascaris is not excreted in urine, so urine is not a correct diagnostic specimen for ascariasis."
+      },
+      "main_concept": "CON-INF-E54A1F96C21C98",
+      "concept_ids": [
+        "CON-INF-E54A1F96C21C98"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Ascaris lumbricoides diagnosis",
+      "learning_objective": "Identify faeces and sputum as the two specimens carrying a diagnostic stage of ascariasis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q132",
+      "page": 127,
+      "title": "Ancylostoma duodenale's infective stage is the ensheathed filariform larva",
+      "question": "The infective stage of Ancylostoma duodenale is ?",
+      "options": {
+        "A": "Ensheathed filariform larvae",
+        "B": "Microfilaria",
+        "C": "Mature eggs",
+        "D": "Forked cercaria"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The infective stage of Ancylostoma duodenale is the ensheathed, third-stage filariform larva, which develops from the egg after it hatches in warm, moist soil and moults twice from the rhabditiform larval stage. This filariform larva is actively motile and exhibits positive skin-penetrating (histotropic) behaviour, allowing it to invade intact human skin, usually of the bare foot, and enter the bloodstream to begin its migratory cycle. Unlike the mature (embryonated) egg that is infective for Ascaris and Trichuris, or the microfilaria that is transmitted by mosquitoes for filarial worms, hookworm is transmitted by this skin-penetrating larval stage.",
+        "B": "Incorrect. Microfilaria is the transmissible blood stage of filarial worms such as Wuchereria bancrofti, not of Ancylostoma duodenale.",
+        "C": "Incorrect. A mature (embryonated) egg is the infective stage for Ascaris lumbricoides and Trichuris trichiura, which are infective by ingestion, not for the skin-penetrating hookworm.",
+        "D": "Incorrect. A forked (furcocercous) cercaria is the infective stage of blood flukes such as Schistosoma, not of Ancylostoma duodenale."
+      },
+      "main_concept": "CON-INF-8392D9222C06FB",
+      "concept_ids": [
+        "CON-INF-8392D9222C06FB"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Ancylostoma duodenale life cycle",
+      "learning_objective": "Identify the ensheathed filariform larva as the infective stage of Ancylostoma duodenale.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132 -- same fact as ch11's unauthored Q81 (lane 12 territory) -- no existing authored anchor to duplicate-of at author time; minted fresh"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q133",
+      "page": 127,
+      "title": "The diagnostic egg of Ancylostoma is immature and translucent",
+      "question": "Diagnostic stage of Ancylostoma is ?",
+      "options": {
+        "A": "Immature translucent egg",
+        "B": "Mature translucent egg",
+        "C": "Larvae",
+        "D": "Microfilaria"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The diagnostic stage of Ancylostoma duodenale recovered in stool is the immature (unembryonated) translucent egg: the thin-shelled, oval, colourless egg is typically passed while still in an early cleavage stage, containing only a few blastomeres rather than a fully formed larva. If a stool sample is left standing at ambient temperature for more than about 24 hours, the egg can continue developing and hatch into a rhabditiform larva before the sample is examined, which is why fresh stool examination is preferred. This immature-egg appearance is the standard diagnostic feature used to identify hookworm infection on stool microscopy.",
+        "B": "Incorrect. The egg of Ancylostoma duodenale is passed immature (in an early cleavage stage), not fully mature, at the time of defecation.",
+        "C": "Incorrect. Larvae are not the diagnostic stage found on routine stool microscopy for Ancylostoma; the egg is, unless the stool sample has been left standing long enough for larvae to hatch.",
+        "D": "Incorrect. Microfilaria is the diagnostic blood stage of filarial worms such as Wuchereria bancrofti, not of the intestinal nematode Ancylostoma duodenale."
+      },
+      "main_concept": "CON-INF-08359F3D33946C",
+      "concept_ids": [
+        "CON-INF-08359F3D33946C"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Ancylostoma duodenale diagnosis",
+      "learning_objective": "Identify the immature translucent egg as the diagnostic stage of Ancylostoma, reusing lane 10's already-established egg-description concept.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132 -- reuses lane 10's ini-mcq-ch11-q030 concept CON-INF-08359F3D33946C (\"Egg of Ancyclostoma: thin shelled, translucent, immature -- all of the above\"); this instance's printed key A (Immature) is consistent with that already-authored fact, unlike the chapter's own earlier unauthored Q82 which prints key B (Mature) for the identical stem/options -- a source-side inconsistency noted for the record but not a hold, since MY printed key matches the established fact"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-NEMATODA-2"
+      ]
+    },
+    {
+      "key": "ini-mcq-ch11-q134",
+      "page": 125,
+      "title": "Enterobius vermicularis's infective stage is the mature egg",
+      "question": "Enterobius vermicularis infective stage is ?",
+      "options": {
+        "A": "Larva",
+        "B": "Sporozoites",
+        "C": "Oocyst",
+        "D": "Mature egg"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Larva is the infective stage for skin-penetrating nematodes such as hookworm and Strongyloides, not for Enterobius vermicularis, which infects by ingestion of the egg.",
+        "B": "Incorrect. Sporozoites are the infective stage of sporozoan protozoa such as Plasmodium and Toxoplasma, not of a nematode like Enterobius vermicularis.",
+        "C": "Incorrect. Oocyst is the environmentally resistant stage of coccidian protozoa such as Cryptosporidium and Isospora belli, not of Enterobius vermicularis.",
+        "D": "Correct. The infective stage of Enterobius vermicularis is the mature (fully embryonated) egg. Because the gravid female deposits her eggs on the perianal skin rather than into the gut lumen, these eggs embryonate and become infective within just a few hours in the warm, moist perianal environment, allowing rapid autoinfection by hand-to-mouth transfer or transmission to close contacts through contaminated bedding, clothing or dust. This short maturation time, with no obligatory period of development in soil, is what makes Enterobius vermicularis unusually easy to transmit within households and institutions."
+      },
+      "main_concept": "CON-INF-ACD4CFF937A846",
+      "concept_ids": [
+        "CON-INF-ACD4CFF937A846"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Enterobius vermicularis life cycle",
+      "learning_objective": "Identify the mature (embryonated) egg as the infective stage of Enterobius vermicularis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q135",
+      "page": 127,
+      "title": "Ascaris lumbricoides inhabits the small intestine",
+      "question": "The habitat of Ascaris lumbercoide is ?",
+      "options": {
+        "A": "Small Intestine",
+        "B": "Illocaecal region",
+        "C": "Sigmoid colon",
+        "D": "Liver"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The adult Ascaris lumbricoides worm inhabits the lumen of the small intestine, where it lives free (not attached to the mucosa) and feeds on the partly digested contents of the gut. Large numbers of adult worms in the small intestine can cause intestinal obstruction, particularly in children, and adult worms are occasionally passed spontaneously in the stool or vomited. The small intestine is therefore both the site where the adult worm matures and the site from which its complications, such as obstruction or migration into the bile or pancreatic ducts, arise.",
+        "B": "Incorrect. The ileocaecal region is more characteristically associated with Trichuris trichiura and Enterobius vermicularis, which favour the caecum and adjacent large-bowel segments, not with adult Ascaris lumbricoides.",
+        "C": "Incorrect. The sigmoid colon is not the habitat of Ascaris lumbricoides.",
+        "D": "Incorrect. The liver is not the adult habitat of Ascaris lumbricoides, although migrating larvae do pass transiently through the liver during their obligatory hepato-pulmonary migratory phase."
+      },
+      "main_concept": "CON-INF-7C79AF826F79E0",
+      "concept_ids": [
+        "CON-INF-7C79AF826F79E0"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Ascaris lumbricoides habitat",
+      "learning_objective": "Identify the small intestine as the habitat of the adult Ascaris lumbricoides worm.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q136",
+      "page": 127,
+      "title": "Nematodes are defined as round worms",
+      "question": "The Nematodes are ?",
+      "options": {
+        "A": "Leaf-shaped worms",
+        "B": "Segmented worms",
+        "C": "Round worms",
+        "D": "Tape worms"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Leaf-shaped, flattened worms describes the trematodes (flukes), such as Fasciola hepatica and Schistosoma, not the nematodes.",
+        "B": "Incorrect. Segmented worms describes the cestodes (tapeworms), whose body is divided into repeating proglottid segments, not the nematodes, which are unsegmented.",
+        "C": "Correct. Nematodes (roundworms) are elongated, cylindrical, unsegmented worms possessing a complete tubular digestive tract running from mouth to anus, and, unlike the cestodes, have separate sexes (males and females are distinct individuals). This cylindrical, round-in-cross-section body shape is the feature that gives the group its common name and distinguishes it at a glance from the other major helminth groups. Ascaris lumbricoides, Enterobius vermicularis, Trichuris trichiura, hookworms and the filarial worms are all classic examples of nematodes.",
+        "D": "Incorrect. Tapeworms are the cestodes, a wholly separate helminth class from the nematodes."
+      },
+      "main_concept": "CON-INF-13D403F8A0555C",
+      "concept_ids": [
+        "CON-INF-13D403F8A0555C"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Nematoda classification",
+      "learning_objective": "Define nematodes as round worms, distinguishing the class from trematodes and cestodes.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q137",
+      "page": 128,
+      "title": "Of these nematodes, only Enterobius inhabits the large intestine",
+      "question": "Which one of the following nematodes inhibits the large intestine ?",
+      "options": {
+        "A": "Trichinella spiralis",
+        "B": "Enterobius vermicularis",
+        "C": "Ascaris lumbricoides",
+        "D": "Strongyloid stercoralis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Trichinella spiralis larvae encyst in skeletal (striated) muscle, not in the large intestine, although the brief adult stage does live transiently in the small intestine.",
+        "B": "Correct. Enterobius vermicularis is the only one of these four nematodes whose adult worms characteristically inhabit the large intestine, living in the caecum, appendix and adjoining colon before the gravid female migrates out through the anus at night to lay her eggs on the perianal skin. This large-bowel habitat distinguishes Enterobius from the other three organisms listed, all of which are found elsewhere in the body. Enterobius's caecal habitat is also why appendiceal Enterobius infestation is an occasional incidental finding at appendicectomy.",
+        "C": "Incorrect. Ascaris lumbricoides adults inhabit the small intestine, not the large intestine.",
+        "D": "Incorrect. Strongyloides stercoralis adults inhabit the small intestine (burrowed in the mucosa), not the large intestine."
+      },
+      "main_concept": "CON-INF-4AA7DF14D530B1",
+      "concept_ids": [
+        "CON-INF-4AA7DF14D530B1"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Enterobius vermicularis habitat",
+      "learning_objective": "Identify Enterobius vermicularis as the large-intestine dweller among Trichinella, Ascaris and Strongyloides.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q138",
+      "page": 128,
+      "title": "Enterobius vermicularis has no lung migratory phase",
+      "question": "Which one of the following has no migratory phase to the lung ?",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Enterobius vermicularis",
+        "C": "Ancylostoma duodenale",
+        "D": "Strongyloid stercoralis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ascaris lumbricoides larvae undergo an obligatory hepato-pulmonary migratory phase (gut wall to liver to lungs to trachea) before returning to the small intestine.",
+        "B": "Correct. Enterobius vermicularis has an unusually short and direct life cycle: after an infective egg is swallowed, the larva hatches in the duodenum and travels directly to the caecum to mature, with no obligatory migration through the liver and lungs. This is in clear contrast to Ascaris lumbricoides, Ancylostoma duodenale and Strongyloides stercoralis, whose larvae must all pass through the bloodstream, liver and lungs, be coughed up and swallowed again, before completing development in the small intestine. Enterobius's lack of a pulmonary phase is also why it does not cause the eosinophilic pneumonitis (Loeffler's syndrome) associated with the other three.",
+        "C": "Incorrect. Ancylostoma duodenale larvae, after penetrating the skin, migrate through the bloodstream to the lungs before being coughed up and swallowed to reach the small intestine.",
+        "D": "Incorrect. Strongyloides stercoralis larvae also migrate through the lungs on their way to the small intestine, whether the initial infection was by skin penetration or by internal autoinfection."
+      },
+      "main_concept": "CON-INF-42909E86B97AB6",
+      "concept_ids": [
+        "CON-INF-42909E86B97AB6"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Enterobius vermicularis life cycle",
+      "learning_objective": "Identify Enterobius vermicularis as the nematode with no pulmonary larval migratory phase.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q139",
+      "page": 128,
+      "title": "Strongyloides stercoralis can live both a parasitic and free-living life",
+      "question": "Which one of the following can live both parasitic or free living life ?",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Enterobius vermicularis",
+        "C": "Strongyloid stercoralis",
+        "D": "Trichinella spiralis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ascaris lumbricoides is an obligate parasite with no free-living adult stage; its eggs mature in soil, but there is no free-living adult generation.",
+        "B": "Incorrect. Enterobius vermicularis is an obligate parasite with a direct life cycle and has no free-living stage.",
+        "C": "Correct. Strongyloides stercoralis is unusual among human intestinal nematodes in possessing both a parasitic cycle, within the human host, and a free-living cycle, in which rhabditiform larvae passed in the stool can develop into free-living adult males and females that mate and reproduce in the soil for one or more generations. Under favourable soil conditions this free-living cycle can continue indefinitely, while under unfavourable conditions the rhabditiform larvae instead moult directly into infective filariform larvae. Ascaris lumbricoides, Enterobius vermicularis and Trichinella spiralis all lack this facultative free-living option and are obligate parasites throughout their life cycle.",
+        "D": "Incorrect. Trichinella spiralis is an obligate parasite that completes its entire life cycle within a mammalian host and has no free-living stage."
+      },
+      "main_concept": "CON-INF-24720B9C612814",
+      "concept_ids": [
+        "CON-INF-24720B9C612814"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Strongyloides stercoralis life cycle",
+      "learning_objective": "Identify Strongyloides stercoralis as uniquely capable of both a parasitic and a free-living life cycle.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q141",
+      "page": 129,
+      "title": "Trichinella spiralis is diagnosed by muscle biopsy",
+      "question": "Muscle biopsy is used to diagnose ?",
+      "options": {
+        "A": "Trichinella spiralis",
+        "B": "Enterobius vermicularis",
+        "C": "Ascaris lumbricoides",
+        "D": "Strongyloid stercoralis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Trichinella spiralis is diagnosed by muscle biopsy, most often of a heavily used muscle such as the deltoid or gastrocnemius, which demonstrates the coiled larva encysted within a nurse cell inside a striated muscle fibre. This is possible because the larvae released by the female worm in the small intestine migrate through the bloodstream specifically to skeletal muscle, where they encyst and can persist for years. Muscle biopsy is a definitive, though invasive, confirmatory test that is usually reserved for cases where serology and the clinical picture (myalgia, periorbital oedema, eosinophilia) leave the diagnosis in doubt.",
+        "B": "Incorrect. Enterobius vermicularis is diagnosed by the perianal cellophane tape technique, not by muscle biopsy, since it does not have a muscle-encysting larval stage.",
+        "C": "Incorrect. Ascaris lumbricoides is diagnosed by finding eggs (or occasionally larvae in sputum), not by muscle biopsy, since it has no muscle-encysting stage.",
+        "D": "Incorrect. Strongyloides stercoralis is diagnosed by finding rhabditiform larvae in the stool (or duodenal aspirate), not by muscle biopsy."
+      },
+      "main_concept": "CON-INF-2E08D8909E7468",
+      "concept_ids": [
+        "CON-INF-2E08D8909E7468"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichinella spiralis diagnosis",
+      "learning_objective": "Identify muscle biopsy as the confirmatory diagnostic method for Trichinella spiralis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q142",
+      "page": 129,
+      "title": "Enterobius vermicularis causes perianal itching",
+      "question": "Which one of the following nematodes can cause perianal itchin ?",
+      "options": {
+        "A": "Trichinella spiralis",
+        "B": "Enterobius vermicularis",
+        "C": "Ascaris lumbricoides",
+        "D": "Strongyloid stercoralis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Trichinella spiralis causes myalgia, periorbital oedema and fever from muscle invasion, not perianal itching.",
+        "B": "Correct. Enterobius vermicularis is the classic cause of perianal itching (pruritus ani). The gravid female worm migrates out of the anus at night to deposit her eggs on the perianal skin, and the mechanical and possibly irritant/allergic effect of this migration produces intense itching that is characteristically worse at night and can disturb sleep. Scratching the itchy area contaminates the fingers and nails with infective eggs, which promotes both autoinfection (re-ingestion by the same patient) and spread to other household members.",
+        "C": "Incorrect. Ascaris lumbricoides does not characteristically cause perianal itching; its manifestations relate instead to pulmonary migration and intestinal bulk effects.",
+        "D": "Incorrect. Strongyloides stercoralis can cause a migratory, serpiginous cutaneous rash (larva currens), but perianal pruritus specifically is the classic feature of Enterobius, not Strongyloides."
+      },
+      "main_concept": "CON-INF-2830C439C0D01B",
+      "concept_ids": [
+        "CON-INF-2830C439C0D01B"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Enterobius vermicularis clinical features",
+      "learning_objective": "Identify Enterobius vermicularis as the classic cause of perianal itching (pruritus ani).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q144",
+      "page": 128,
+      "title": "Trichinella spiralis infects man by ingestion of infected food",
+      "question": "Which one of the following parasites enter the host through ingestion of infected food ?",
+      "options": {
+        "A": "Strongyloid stercoralis",
+        "B": "Schistosoma mansoni",
+        "C": "Necator americans",
+        "D": "Trichinella spiralis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Strongyloides stercoralis classically infects by skin penetration of the filariform larva, not by ingestion of infected food.",
+        "B": "Incorrect. Schistosoma mansoni infects by skin penetration of the cercaria released from an infected freshwater snail, not by ingestion of infected food.",
+        "C": "Incorrect. Necator americanus, like other hookworms, infects by skin penetration of the filariform larva, not by ingestion.",
+        "D": "Correct. Trichinella spiralis is transmitted to man by ingestion of infected food, specifically undercooked or raw meat, classically pork, that contains encysted infective larvae within the muscle tissue. Once ingested, the larvae are released from their cysts by gastric digestion, mature into adults in the small intestine, and the resulting new generation of larvae then migrates to skeletal muscle to encyst again. This oral, food-borne route sharply distinguishes Trichinella from the other three organisms listed, all of which infect by skin penetration rather than ingestion."
+      },
+      "main_concept": "CON-INF-5EA3F5B60B18E8",
+      "concept_ids": [
+        "CON-INF-5EA3F5B60B18E8"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichinella spiralis transmission",
+      "learning_objective": "Identify Trichinella spiralis as transmitted by ingestion of infected meat, unlike the skin-penetrating organisms listed.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q145",
+      "page": 128,
+      "title": "Embryonated egg is the infective stage of both Ascaris and Trichuris",
+      "question": "Embryonated egg is the infective stage for the following nematode ?",
+      "options": {
+        "A": "Enterobius vermicularis",
+        "B": "Trichocephalus trichuris",
+        "C": "Ascaris lumbricoides",
+        "D": "Hookworms",
+        "E": "Both b&c"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Enterobius vermicularis eggs embryonate rapidly on the perianal skin, not after an obligatory period of maturation in soil like Ascaris and Trichuris.",
+        "B": "Incorrect. Trichuris trichiura alone is only half of the correct pairing; Ascaris lumbricoides shares the same embryonated-egg infective stage and must be included.",
+        "C": "Incorrect. Ascaris lumbricoides alone is only half of the correct pairing; Trichuris trichiura shares the same embryonated-egg infective stage and must be included.",
+        "D": "Incorrect. Hookworms are infective as a skin-penetrating filariform larva, not as an ingested egg at all.",
+        "E": "Correct. The embryonated (mature) egg is the infective stage shared by both Trichuris trichiura (Trichocephalus trichuris) and Ascaris lumbricoides. Both species pass an unembryonated egg in the faeces that must then mature in warm, moist soil for roughly two to four weeks before becoming infective, at which point ingestion of the embryonated egg (via contaminated soil, food or hands) establishes infection. Enterobius vermicularis eggs, by contrast, embryonate within hours directly on the perianal skin rather than requiring a soil phase, and hookworms are not infective as an egg at all, since man is instead infected by a skin-penetrating filariform larva, so 'both b&c' is the only answer that groups the two true soil-maturing, egg-ingestion nematodes correctly."
+      },
+      "main_concept": "CON-INF-96B6E2144001F5",
+      "concept_ids": [
+        "CON-INF-96B6E2144001F5"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Soil-transmitted nematode infective stages",
+      "learning_objective": "Identify Ascaris lumbricoides and Trichuris trichiura together as sharing the embryonated-egg infective stage.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132"
+      },
+      "author_notes": ""
+    }
+  ]
+}

@@ -2585,3 +2585,78 @@ no
 ## qualifiers
 concept: The anterior interosseous nerve, a branch of the median nerve given off just below the elbow, supplies flexor pollicis longus, the lateral half of flexor digitorum profundus, and pronator quadratus, and its isolated injury causes a pinch weakness with no sensory loss
 curriculum: AU-MED-105 > Anatomy > Upper Limb > Forearm
+
+
+---
+
+<!--
+  Added during the AU-MED-105 anatomy verify-and-stage pass (2026-09-02):
+  ART-MSK-AU105-CARPAL-BONES and CON-MSK-77C8DFCB26299F both already declared
+  claim_ids CLM-A6E0F27C9B4D / CLM-2F9C8E1B5A03 (concept's own
+  atomic_claim_ids field too), but neither claim was ever written into this
+  file — a dangling-reference bug caught by medical:audit, same class as the
+  ASU-MBG gene-therapy gap the manual documents. Hand-authored from the
+  concept's own definition (verbatim content, no new medicine); the ids
+  below match what the concept and article already reference, so neither
+  needed editing.
+-->
+
+# Item
+## id
+CLM-A6E0F27C9B4D
+## concept_id
+CON-MSK-77C8DFCB26299F
+## subject
+The scaphoid
+## predicate
+is
+## object
+the most commonly fractured carpal bone, typically injured by a fall onto an outstretched, dorsiflexed hand that loads the bone against the radius, and because its blood supply enters mainly through its distal pole, a fracture through the waist or proximal third risks avascular necrosis and non-union of the proximal fragment
+## display_text
+The scaphoid is the most commonly fractured carpal bone, typically injured by a fall onto an outstretched, dorsiflexed hand that loads the bone against the radius, and because its blood supply enters mainly through its distal pole, a fracture through the waist or proximal third risks avascular necrosis and non-union of the proximal fragment.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Of the eight carpal bones, the scaphoid is by far the most frequently fractured, typically from a fall onto an outstretched, dorsiflexed hand (FOOSH injury) that loads the bone against the radius
+curriculum: AU-MED-105 > Anatomy > Upper Limb > Wrist and Hand
+
+---
+
+# Item
+## id
+CLM-2F9C8E1B5A03
+## concept_id
+CON-MSK-77C8DFCB26299F
+## subject
+The pisiform
+## predicate
+is
+## object
+the wrist's one sesamoid bone, developing within the tendon of flexor carpi ulnaris rather than as one of the seven bones that ossify in the carpal row proper, and forming the medial attachment of the flexor retinaculum
+## display_text
+The pisiform is the wrist's one sesamoid bone, developing within the tendon of flexor carpi ulnaris rather than as one of the seven bones that ossify in the carpal row proper, and forming the medial attachment of the flexor retinaculum.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The pisiform is a separate carpal identification point: it is the one sesamoid bone of the wrist, developing within the tendon of flexor carpi ulnaris rather than as one of the seven bones that ossify in the carpal row proper, and it forms the medial attachment of the flexor retinaculum
+curriculum: AU-MED-105 > Anatomy > Upper Limb > Wrist and Hand

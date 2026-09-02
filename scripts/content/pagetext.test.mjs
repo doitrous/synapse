@@ -9,6 +9,8 @@ import path from 'node:path';
 const PDF = 'scripts/content/fixtures/pagetext/two-pages.pdf';
 const SCAN_PDF = 'scripts/content/fixtures/pagetext/scanned-page.pdf';
 const KEYS_PDF = 'scripts/content/fixtures/pagetext/visual-keys.pdf';
+const FOOTER_PDF = 'scripts/content/fixtures/pagetext/footer-furniture.pdf';
+const FOOTER_1P_PDF = 'scripts/content/fixtures/pagetext/footer-single-page.pdf';
 const cacheDir = mkdtempSync(path.join(tmpdir(), 'pagetext-'));
 const run = (...args) => spawnSync('node', ['scripts/content/pagetext.mjs', ...args], { encoding: 'utf8', env: { ...process.env, NISHANY_PAGETEXT_CACHE: cacheDir } });
 
@@ -67,6 +69,59 @@ p.insert_text((72, y), "B) Two", fontsize=12); y += 20
 p.insert_text((72, y), "C) Three", fontsize=12); y += 20
 p.insert_text((72, y), "D) Four", fontsize=12)
 d.save(${JSON.stringify(KEYS_PDF)})`;
+    const r = spawnSync('python3', ['-c', py], { encoding: 'utf8' });
+    assert.equal(r.status, 0, r.stderr);
+  }
+  if (!existsSync(FOOTER_PDF)) {
+    // Word-export shape: a gray "N | Page" footer + signature line on EVERY
+    // page, all question/option text pure black. Page 1 leaves the usual big
+    // gap above the footer and wraps option D onto a red continuation line
+    // (a real mark, which must survive). Page 2 is dense — the last option
+    // sits ~4pt above the footer — so only cross-page repetition can tell the
+    // footer apart from a wrapped continuation of option D.
+    const py = `import pymupdf as fitz, os
+os.makedirs(${JSON.stringify(path.dirname(FOOTER_PDF))}, exist_ok=True)
+GRAY = (0.5, 0.5, 0.5)
+def furniture(p, n):
+    p.insert_text((72, 740), f"{n} | Page", fontsize=12, color=GRAY)
+    p.insert_text((72, 760), "Signature: ________________", fontsize=12, color=GRAY)
+d = fitz.open()
+p = d.new_page()
+y = 72
+p.insert_text((72, y), "1- Which cell has mainly acidophilic cytoplasm?", fontsize=12); y += 20
+p.insert_text((72, y), "a- Proerythroblast", fontsize=12); y += 20
+p.insert_text((72, y), "b- Erythroblast", fontsize=12); y += 20
+p.insert_text((72, y), "c- Orthochromatophilic erythroblast", fontsize=12); y += 20
+p.insert_text((72, y), "d- Basophilic erythroblast, the", fontsize=12); y += 14
+p.insert_text((90, y), "earliest recognisable precursor", fontsize=12, color=(1, 0, 0))
+furniture(p, 1)
+p = d.new_page()
+y = 642
+p.insert_text((72, y), "2- Specific granules with a crystalline core belong to:", fontsize=12); y += 20
+p.insert_text((72, y), "a- Neutrophils", fontsize=12); y += 20
+p.insert_text((72, y), "b- Eosinophils", fontsize=12); y += 20
+p.insert_text((72, y), "c- Basophils", fontsize=12); y += 20
+p.insert_text((72, y), "d- Monocytes", fontsize=12)
+furniture(p, 2)
+d.save(${JSON.stringify(FOOTER_PDF)})`;
+    const r = spawnSync('python3', ['-c', py], { encoding: 'utf8' });
+    assert.equal(r.status, 0, r.stderr);
+  }
+  if (!existsSync(FOOTER_1P_PDF)) {
+    // Single page, so no repetition to lean on: the gray footer is only
+    // separable from option D by the large vertical gap above it.
+    const py = `import pymupdf as fitz, os
+os.makedirs(${JSON.stringify(path.dirname(FOOTER_1P_PDF))}, exist_ok=True)
+d = fitz.open()
+p = d.new_page()
+y = 72
+p.insert_text((72, y), "1- The life span of an erythrocyte is:", fontsize=12); y += 20
+p.insert_text((72, y), "a- 20 days", fontsize=12); y += 20
+p.insert_text((72, y), "b- 1 year", fontsize=12); y += 20
+p.insert_text((72, y), "c- 5 weeks", fontsize=12); y += 20
+p.insert_text((72, y), "d- 4 months", fontsize=12)
+p.insert_text((72, 740), "1 | Page", fontsize=12, color=(0.5, 0.5, 0.5))
+d.save(${JSON.stringify(FOOTER_1P_PDF)})`;
     const r = spawnSync('python3', ['-c', py], { encoding: 'utf8' });
     assert.equal(r.status, 0, r.stderr);
   }
@@ -186,4 +241,21 @@ test('keys on a page with no text layer reports it and skips it from the summary
   assert.equal(r.status, 0, r.stderr);
   assert.match(r.stdout, /^p1: no text layer — keys need ocr\+render$/m);
   assert.match(r.stdout, /^0 keyed \/ 0 ambiguous \/ 0 unmarked across 0 page\(s\)$/m);
+});
+
+test('keys never attributes repeated page furniture (gray footer/signature) to the last option, even when it sits right under it', () => {
+  const r = run('keys', FOOTER_PDF);
+  assert.equal(r.status, 0, r.stderr);
+  // p1: the red wrapped continuation of option d is a real mark and must survive
+  assert.match(r.stdout, /^p1 Q1: D {2}\(red-text\)$/m);
+  // p2: dense page — footer 4pt under option d; must NOT be read as a red-text key
+  assert.match(r.stdout, /^p2 Q2: \? {2}\(0 marked\)$/m);
+  assert.match(r.stdout, /^1 keyed \/ 0 ambiguous \/ 1 unmarked across 2 page\(s\)$/m);
+});
+
+test('keys closes the last option at a large vertical gap so a single-page footer is not a key', () => {
+  const r = run('keys', FOOTER_1P_PDF);
+  assert.equal(r.status, 0, r.stderr);
+  assert.match(r.stdout, /^p1 Q1: \? {2}\(0 marked\)$/m);
+  assert.match(r.stdout, /^0 keyed \/ 0 ambiguous \/ 1 unmarked across 1 page\(s\)$/m);
 });

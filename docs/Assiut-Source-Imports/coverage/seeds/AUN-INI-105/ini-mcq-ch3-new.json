@@ -1,0 +1,275 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch3",
+  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 3 \"Bacteriophage\" (Q1-Q24, answer table p41), lane 4 (coverage/AUN-INI-105-triage.md). Authors the 6 questions whose tested idea rides on a newly-minted AUN-INI-105 concept. The remaining 15 authored Ch3 questions reuse pending concepts from Ain-Shams and Helwan and are authored separately in pending-live/ with an apply-after header. Held: Q13 (only 3 printed options, also a near-literal duplicate of Q4), Q15 (True/False, 2 printed options), Q16 (only 3 printed options).",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "aun"
+    ],
+    "years": [
+      "AUN_Y1"
+    ],
+    "module": "AUN-INI-105",
+    "exam_weight_by_year": {
+      "AUN_Y1": "high"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_6f2f4188bb0cbf848733"
+    ],
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch3-q001",
+      "page": 38,
+      "title": "Temperate phage infection: chromosome integration",
+      "question": "When a temperate bacteriophage infects a bacterial cell?",
+      "options": {
+        "A": "Most viral genes are expressed",
+        "B": "The bacterial cell is lysed",
+        "C": "Many new viruses are produced",
+        "D": "Most normal bacterial functions are turned off",
+        "E": "The virus become integrated into bacterial chromosome"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Broad expression of most viral genes is characteristic of the productive, lytic pathway, not of a temperate phage settling into lysogeny, where most phage genes are instead kept repressed.",
+        "B": "Incorrect. Cell lysis is the outcome of the lytic cycle (a virulent phage, or a temperate phage that has switched out of lysogeny); a temperate phage establishing lysogeny does not lyse the cell it infects.",
+        "C": "Incorrect. Producing many new virus particles is the hallmark of the lytic cycle; a temperate phage entering lysogeny instead integrates quietly rather than replicating into progeny virions.",
+        "D": "Incorrect. Lysogeny is compatible with the bacterium continuing most of its normal functions -- it is not a shutdown of the host cell, unlike the more disruptive lytic pathway.",
+        "E": "Correct. A temperate bacteriophage is defined by its ability to enter the lysogenic cycle: rather than immediately directing lysis, its genome becomes integrated into the bacterial chromosome as a prophage. The integrated prophage is then replicated passively along with the host chromosome at every subsequent bacterial division, and most normal bacterial functions continue undisturbed. This chromosome-integration event is the single feature that most sharply distinguishes a temperate phage's behaviour from a virulent phage's lytic destruction of the host cell."
+      },
+      "main_concept": "CON-INF-E53A4B008CA559",
+      "concept_ids": [
+        "CON-INF-E53A4B008CA559"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Lysogenic cycle",
+      "learning_objective": "State that a temperate phage's genome integrates into the bacterial chromosome (lysogeny) on infection, rather than lysing the cell.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p38",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q003",
+      "page": 38,
+      "title": "Bacteriophage: definition",
+      "question": "Bacteriophage is?",
+      "options": {
+        "A": "Bacterium that infects viruses",
+        "B": "Virus that infects bacteria",
+        "C": "Viral antibody that lyses bacteria",
+        "D": "Virus that infects human"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. This reverses the relationship -- a bacteriophage is not a bacterium at all, and bacteria do not \"infect\" viruses; a virus is the infecting agent here, not the host.",
+        "B": "Correct. A bacteriophage (\"phage\") is, by definition, a virus whose host is bacteria -- it attaches to and infects bacterial cells, hijacking their machinery to replicate, exactly as other viruses do with their own specific host cells. This bacterial host range is the single defining feature of the term \"bacteriophage,\" distinguishing it from every other category of virus by the type of cell it can infect.",
+        "C": "Incorrect. A bacteriophage is a virus, not an antibody; antibodies are host immune proteins that bind antigens, an entirely different class of molecule from a replicating virus particle.",
+        "D": "Incorrect. A bacteriophage's host range is bacteria specifically, not human cells -- a virus that infects human cells (such as influenza virus or HIV) is not a bacteriophage."
+      },
+      "main_concept": "CON-INF-3340EF16DD5022",
+      "concept_ids": [
+        "CON-INF-3340EF16DD5022"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Bacteriophage fundamentals",
+      "learning_objective": "Define a bacteriophage as a virus that infects bacteria, not a bacterium, antibody, or human-infecting virus.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p38",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q004",
+      "page": 38,
+      "title": "Which phage type is responsible for the lysogenic cycle",
+      "question": "Bacteriophage responsible for lysogenic cycle is called?",
+      "options": {
+        "A": "Temperate phage",
+        "B": "Virulent phage",
+        "C": "Lytic phage",
+        "D": "None of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A temperate phage is, by definition, the type of bacteriophage responsible for the lysogenic cycle -- on infecting a bacterial cell it integrates its genome into the bacterial chromosome as a prophage rather than immediately lysing the cell. This lysogeny-capable behaviour is exactly what separates a temperate phage from the other phage categories listed, which are defined by their commitment to the opposite, lytic pathway.",
+        "B": "Incorrect. A virulent phage is defined by the opposite behaviour -- it commits to the lytic cycle, destroying the host cell rather than integrating into its chromosome.",
+        "C": "Incorrect. \"Lytic phage\" names a phage undergoing the lytic (destructive) cycle, the direct opposite of the lysogenic cycle this question asks about.",
+        "D": "Incorrect. \"Temperate phage\" is a genuine, correctly listed answer, so \"none of the above\" does not apply here."
+      },
+      "main_concept": "CON-INF-E53A4B008CA559",
+      "concept_ids": [
+        "CON-INF-E53A4B008CA559"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Lysogenic cycle",
+      "learning_objective": "Name \"temperate phage\" as the phage type responsible for the lysogenic cycle.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p38",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41"
+      },
+      "author_notes": "Near-literal repeat of this same fact recurs at Ch3 Q13 (\"Bacteriophage which undergoes a lysogenic cycle?\"), held as a duplicate of this question rather than authored twice."
+    },
+    {
+      "key": "ini-mcq-ch3-q018",
+      "page": 40,
+      "title": "Properties of the lytic cycle",
+      "question": "The lytic cycle?",
+      "options": {
+        "A": "The phage is said to be virulent",
+        "B": "The phage is known as temperate phage",
+        "C": "The phage DNA is inserted into the bacterial chromosome",
+        "D": "Ends by bacterial cell replication"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A phage undergoing the lytic cycle is, by definition, called virulent -- it commits to destroying the host cell's DNA and producing new virions rather than integrating into the chromosome. This naming (\"virulent phage\" for the lytic pathway) is the source of the term used throughout this chapter to distinguish lytic-cycle phages from lysogeny-capable temperate phages.",
+        "B": "Incorrect. \"Temperate phage\" names the phage type capable of the opposite pathway, lysogeny, not the lytic cycle described here.",
+        "C": "Incorrect. Insertion of phage DNA into the bacterial chromosome is the defining event of lysogeny (a temperate phage becoming a prophage), not of the lytic cycle, which instead destroys the host's own DNA.",
+        "D": "Incorrect. The lytic cycle ends by lysis of the host bacterial cell (releasing new phage particles), not by the bacterial cell successfully completing its own replication."
+      },
+      "main_concept": "CON-INF-CA72F76C9CEA85",
+      "concept_ids": [
+        "CON-INF-CA72F76C9CEA85"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-E53A4B008CA559"
+      ],
+      "topic": "Bacteriophage",
+      "subtopic": "Lytic cycle",
+      "learning_objective": "State that the lytic cycle is called \"virulent,\" and that it does not involve chromosome insertion or ending by bacterial replication.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p40",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q019",
+      "page": 40,
+      "title": "Virulent phages: destroying host DNA and causing lysis",
+      "question": "Phages that destroy host cell DNA, direct synthesis of phage particles, and cause lysis of the host cells are known as?",
+      "options": {
+        "A": "Temperate phages",
+        "B": "Prophages",
+        "C": "Virulent phages",
+        "D": "Lysogenic phages",
+        "E": "Macrophages"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Temperate phages are capable of the opposite, lysogenic pathway -- integrating into the chromosome rather than destroying host DNA and lysing the cell.",
+        "B": "Incorrect. A prophage is the integrated genome of a temperate phage within a lysogenized bacterial chromosome, not a phage actively destroying host DNA and lysing the cell.",
+        "C": "Correct. Virulent phages are exactly the phage type described here: on infection they destroy the host bacterial cell's own DNA, redirect the cell's machinery to synthesize new phage particles, and end the cycle by lysing the host cell to release progeny virions. This trio of features -- host DNA destruction, particle synthesis, and lysis -- is the standard definition of the lytic cycle, and \"virulent phage\" is the term for the phage type committed to it.",
+        "D": "Incorrect. \"Lysogenic phage\" is not standard terminology for this destructive behaviour; lysogeny describes the opposite, chromosome-integrating pathway of a temperate phage.",
+        "E": "Incorrect. A macrophage is a human/animal immune cell, an entirely different biological entity from a bacteriophage; it is included here only as an implausible distractor."
+      },
+      "main_concept": "CON-INF-CA72F76C9CEA85",
+      "concept_ids": [
+        "CON-INF-CA72F76C9CEA85"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Lytic cycle",
+      "learning_objective": "Identify \"virulent phages\" as the phage type that destroys host DNA, synthesizes new phage particles, and causes host-cell lysis.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p40",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q022",
+      "page": 40,
+      "title": "What determines a phage's host specificity",
+      "question": "Host specificity of the phage is usually determined by?",
+      "options": {
+        "A": "Type of enzymes that a phage has",
+        "B": "Type of nucleic acid in the head",
+        "C": "Shape of the capsid",
+        "D": "The tail",
+        "E": "Contractile sheath"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The enzymes a phage carries are involved in steps such as nucleic acid injection or host-cell lysis, not in the initial receptor-recognition step that determines which host the phage can attach to.",
+        "B": "Incorrect. Whether a phage's genome is DNA or RNA affects its own replication strategy inside a cell it has already infected; it is not the structure responsible for recognising and binding a specific host in the first place.",
+        "C": "Incorrect. The capsid's shape protects and packages the phage genome; it is not the structure that makes first contact with, and recognises, the bacterial host surface.",
+        "D": "Correct. A bacteriophage's host specificity is usually determined by its tail: the tail fibers at the tip of the tail recognise and bind specific receptor molecules on the bacterial cell surface, and only a matching receptor allows attachment and subsequent infection. This tail-mediated receptor recognition is why phages are often highly specific for particular bacterial species or even strains, and it is the basis of the bacterial-typing applications that exploit differential phage susceptibility.",
+        "E": "Incorrect. The contractile sheath (part of the tail apparatus in some phages) helps drive genome injection into the host once attachment has already occurred; the tail's fibers, not the sheath specifically, are what determine which host can be recognised in the first place."
+      },
+      "main_concept": "CON-INF-6433BF30617CF3",
+      "concept_ids": [
+        "CON-INF-6433BF30617CF3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Phage structure and host recognition",
+      "learning_objective": "State that a phage's tail (via its tail fibers) usually determines host specificity, not the head's nucleic acid, capsid shape, or contractile sheath alone.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p40",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q013",
+      "hold": "source prints only 3 options (Virulent phage/Prophage/Temperate phage), short of the seed schema's 4-option floor; also a near-literal duplicate of ini-mcq-ch3-q004 (\"Bacteriophage responsible for lysogenic cycle is called? -> Temperate phage\" vs \"Bacteriophage which undergoes a lysogenic cycle? -> Temperate phage\") -- held on both grounds"
+    },
+    {
+      "key": "ini-mcq-ch3-q016",
+      "hold": "source prints only 3 options (Virulent phage/Temperate phage/Prophage), short of the seed schema's 4-option floor"
+    },
+    {
+      "key": "ini-mcq-ch3-q015",
+      "hold": "True/False item (2 printed options: True/False), short of the seed schema's 4-option floor"
+    }
+  ]
+}

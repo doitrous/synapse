@@ -1,0 +1,118 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-inferior-orbital-fissure",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-inferior-orbital-fissure'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "msk",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Osteology of the Skull"
+  },
+  "questions": [
+    {
+      "key": "anatomy-inferior-orbital-fissure",
+      "id": "QST-SCUFBS102-S2-ANATOMY-INFERIOR-ORBITAL-FISSURE-A",
+      "title": "The bony opening from the infratemporal fossa to the orbit",
+      "question": "Through which of the following bony openings is the infratemporal fossa directly connected to the orbit?",
+      "options": {
+        "A": "The superior orbital fissure",
+        "B": "Inferior orbital fissure",
+        "C": "The narrow optic canal opening",
+        "D": "The wide pterygomaxillary fissure"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The superior orbital fissure connects the orbit to the middle cranial fossa, not to the infratemporal fossa.",
+        "B": "Correct. The inferior orbital fissure lies between the greater wing of the sphenoid and the maxilla, at the junction of the floor and lateral wall of the orbit. It is the direct bony connection between the orbit and the infratemporal fossa, continuing posteriorly to the pterygopalatine fossa. It transmits the infraorbital and zygomatic nerves and vessels along this route.",
+        "C": "Incorrect. The optic canal connects the orbit to the middle cranial fossa, carrying only the optic nerve and ophthalmic artery — a different route from the infratemporal connection asked about.",
+        "D": "Incorrect. The pterygomaxillary fissure connects the pterygopalatine fossa to the infratemporal fossa, not the orbit directly to the infratemporal fossa."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system: skull",
+      "main_concept": "CON-MSK-0515C12ACB2EAB",
+      "concept_ids": [
+        "CON-MSK-0515C12ACB2EAB"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.25,
+      "reasoning_level": 1,
+      "inferred_difficulty": 50,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.25,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-SKULL-OSTEOLOGY"
+      ],
+      "learning_objective": "Name the inferior orbital fissure as the opening connecting the orbit to the infratemporal fossa.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q4",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q4; source-JSON extraction."
+      }
+    },
+    {
+      "key": "anatomy-inferior-orbital-fissure-2",
+      "id": "QST-SCUFBS102-S2-ANATOMY-INFERIOR-ORBITAL-FISSURE-B",
+      "title": "The infratemporal fossa's connection to the orbit, restated",
+      "question": "Through which of the following openings is the infratemporal fossa directly connected to the orbit?",
+      "options": {
+        "A": "Superior orbital fissure",
+        "B": "Inferior orbital fissure",
+        "C": "Optic canal opening",
+        "D": "Pterygomaxillary fissure"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The superior orbital fissure opens the orbit into the middle cranial fossa, a different destination from the infratemporal fossa.",
+        "B": "Correct. The inferior orbital fissure sits between the greater wing of the sphenoid and the maxilla. It is the direct route between the orbit and the infratemporal fossa. It transmits the infraorbital and zygomatic neurovascular bundles along its length.",
+        "C": "Incorrect. The optic canal carries only the optic nerve and ophthalmic artery into the middle cranial fossa, not into the infratemporal fossa.",
+        "D": "Incorrect. The pterygomaxillary fissure connects the infratemporal fossa to the pterygopalatine fossa, not directly to the orbit."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system: skull",
+      "main_concept": "CON-MSK-0515C12ACB2EAB",
+      "concept_ids": [
+        "CON-MSK-0515C12ACB2EAB"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.25,
+      "reasoning_level": 1,
+      "inferred_difficulty": 50,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.25,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-SKULL-OSTEOLOGY"
+      ],
+      "learning_objective": "Name the inferior orbital fissure as the opening connecting the orbit to the infratemporal fossa (restated phrasing).",
+      "source_citation": "FOMSCU Foundation 1 Formative Exam 2023, Q4",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2023 Q4 (paraphrase of Formative 2021 Q4); source-JSON extraction."
+      }
+    }
+  ]
+}

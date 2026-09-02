@@ -83,6 +83,23 @@ export const LEAF: McqLeafSeed = {
       type: "mechanism",
       aliases: ["Nervous regulation of respiration", "Non-chemical control of breathing"],
     },
+    // Sparse reuse, not a fresh mint: canonical_key already pinned in
+    // 104-CPS-physiology-concepts.md as CON-RES-228D7C6B6FDE80, this exact
+    // leaf's own module_subject. Not previously claimed by any 104-CPS MCQ
+    // seed (grepped before use).
+    {
+      key: "oxygen-transport.content-capacity-and-p50",
+      label: "About 98% of blood oxygen is carried bound to haemoglobin rather than dissolved, and P50 — the PO2 at which haemoglobin is 50% saturated, normally 27 mmHg — is the single number that marks where the dissociation curve sits",
+      definition: "Oxygen is carried in blood in two forms: physically dissolved (about 0.3 ml O2/100 ml arterial blood, which sets the blood PO2 and so the direction of diffusion) and bound to haemoglobin (about 19.5 ml O2/100 ml arterial blood, about 98% of the total, the main supply for tissue needs). O2 content is the volume of O2 actually combined with haemoglobin per 100 ml blood, and varies with the amount of haemoglobin present; O2 capacity is the maximum volume haemoglobin could carry if fully saturated (1.34 ml O2 per gram of Hb, giving about 20.1 ml O2/100 ml at a normal 15 g Hb/100 ml) — percentage saturation itself does not fall in anaemia, because content and capacity fall together. P50 is the PO2 at which haemoglobin is 50% saturated, normally 27 mmHg, and is the single value used to describe where the dissociation curve sits: a lower P50 means higher O2 affinity (curve shifted left), a higher P50 means lower affinity (curve shifted right).",
+      objective: "Distinguish O2 content from O2 capacity, calculate O2 capacity from haemoglobin concentration (about 20 ml O2/100 ml blood at a normal 15 g Hb/100 ml), and define P50.",
+      pitfall: "Assuming percentage O2 saturation falls in anaemia the way O2 content does. Saturation is a ratio of content to capacity, and anaemia lowers both together, leaving percentage saturation normal even though the blood carries less O2 in absolute terms.",
+      subject: "resp",
+      primary: "DIS-PHY-T03",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Respiratory System > Gas Transport by the Blood",
+      type: "definition",
+      aliases: ["O2 content versus O2 capacity", "O2 capacity of haemoglobin", "P50"],
+    },
   ],
 
   questions: [
@@ -260,6 +277,43 @@ export const LEAF: McqLeafSeed = {
         D: "Skeletal muscle vasculature, like most systemic vascular beds, vasodilates in local hypoxia as part of active hyperaemia driven by falling ATP/O2 and rising vasodilator metabolites — the opposite of the pulmonary response.",
       },
     },
+    // kasr-104-author-run46: bank-tagged "Special Circulation" (leaf-
+    // mismatch reroute onto this file's own pulmonary-circulation concept
+    // — the ledger's earlier "0 hits for pulmonary vascular resistance"
+    // grep result was a false negative: this leaf's own sourced concept,
+    // pinned from CON-CVS-76412894FAD01C and evidenced against the same
+    // department physiology book (src_a11a7faed67c95e2d636), already states
+    // both facts this question turns on).
+    {
+      key: "all-of-the-following-cause-pulmonary-vasoconstriction-except-44323c47",
+      conceptKey: "pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that low alveolar PO2 and high alveolar PCO2 both cause pulmonary vasoconstriction, while nitric oxide, an endothelial vasodilator, is the exception.",
+      explanations: {
+        A: "True, so not the exception. This leaf's own sourced concept states pulmonary arterioles constrict in response to local alveolar hypoxia — low alveolar PO2 is exactly that trigger.",
+        B: "True, so not the exception. This leaf's own sourced concept names high alveolar PCO2 alongside hypoxia as a trigger for pulmonary vasoconstriction.",
+        C: "True, so not the exception. Histamine is a pulmonary vasoconstrictor — the reverse of its systemic vasodilator action, one of the pulmonary bed's several exceptions to the usual rules.",
+        D: "The exception, and the answer. Nitric oxide is an endothelial vasoDILATOR everywhere in this module's own vascular-endothelium content, not a constrictor — the opposite direction from what this EXCEPT-question asks for.",
+      },
+      answerOverride: "D",
+      answerOverrideReason: "No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept: hypoxia and high alveolar PCO2 are both explicitly named as pulmonary vasoconstriction triggers, while nitric oxide is this module's own consistently-cited endothelial vasodilator (physiology-endothelium-and-vasoactive-hormones.ts), confirming D as the exception.",
+    },
+    {
+      key: "pulmonary-vascular-resistance-f5ca3914",
+      conceptKey: "pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "State that pulmonary vascular resistance rises toward total lung capacity (not falls), and that high alveolar PCO2 raises, rather than lowers, PVR by causing vasoconstriction.",
+      explanations: {
+        A: "Correct. This leaf's own sourced concept states PVR is lowest at functional residual capacity and rises toward both total lung capacity and residual volume — confirming that PVR increases as lung volume rises toward TLC.",
+        B: "Reversed. This leaf's own sourced concept states pulmonary arterioles constrict — raising, not lowering, resistance — in response to high alveolar PCO2, the same trigger as hypoxia.",
+        C: "Overstated. Pulmonary vascular resistance is influenced by more than the arterioles alone — this leaf's own concept ties PVR to lung-volume-dependent compression of both alveolar and extra-alveolar vessels, not arteriolar tone in isolation.",
+        D: "This leaf's own sibling concept (hemodynamics.flow-pressure-resistance-relationship) states the pulmonary circulation's own resistance works out to about 1.4 mmHg/L/min, not 18 — 18 mmHg/L/min is instead the SYSTEMIC circulation's resistance, a classic pulmonary/systemic figure swap.",
+      },
+      answerOverride: "A",
+      answerOverrideReason: "The bank's own recovered answer (B, from a different solved question book, answerConfidence: external-solved-book-recovered — not a same-file printed key) directly contradicts this leaf's own sourced concept, which states pulmonary vasoconstriction (raised resistance) follows high alveolar PCO2, not a fall in resistance. Re-verified against the same concept's own PVR-by-lung-volume curve (lowest at FRC, rising toward both TLC and RV): option A is the concept's own directly-stated relationship. Overridden to A.",
+    },
 
     // --- Non-chemical (nervous) respiratory drive: shared with Control of Respiration ---
     {
@@ -316,6 +370,178 @@ export const LEAF: McqLeafSeed = {
         B: "The opposite is true: haemoglobin's affinity for carbon monoxide is roughly 200 times GREATER than its affinity for oxygen, not lower — this single fact is why even a small inspired CO concentration can tie up a large fraction of the body's haemoglobin.",
         C: "Almost all carbon monoxide in the blood is carried bound to haemoglobin, not dissolved in plasma water — a 97%-dissolved figure instead describes roughly the physically-dissolved fraction of a gas like O2, not CO's own overwhelmingly Hb-bound transport.",
         D: "This is the correct answer. Because haemoglobin's affinity for carbon monoxide is about 200 times greater than for oxygen, a given percentage saturation with CO is reached at a far lower partial pressure than the same saturation with O2 — so the CO-Hb dissociation curve sits well to the left of the O2-Hb curve. This is the same superaffinity that lets bound CO also resist the release of any oxygen molecules still attached to the same haemoglobin tetramer, shifting the O2 curve itself to the left as well.",
+      },
+    },
+    // Leaf-mismatch routing (bank-tagged "Gas exchange in the lung" — the
+    // stem's own "gas exchange across the alveolar membrane" wording pulled
+    // it into that leaf tag, but the credited option is an O2-carrying-
+    // capacity fact and the distractors are Bohr-effect facts, both this
+    // leaf's own concepts, not diffusion mechanics).
+    {
+      key: "with-respect-to-gas-exchange-across-the-alveolar-membrane-e168f662",
+      conceptKey: "oxygen-transport.content-capacity-and-p50",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "State that 100 ml of blood's haemoglobin can combine with about 20 ml of oxygen (O2 capacity), against three false statements about venous saturation and the Bohr effect.",
+      explanations: {
+        A: "Mixed venous blood's oxygen SATURATION is about 75%, not 40% — 40 mmHg is instead the approximate mixed venous PO2 (partial pressure), a different quantity from percentage saturation that this option conflates with it.",
+        B: "Correct. Haemoglobin's O2 capacity — the maximum volume of oxygen 100 ml of blood can carry when fully saturated — works out to about 20 ml O2/100 ml blood, from 1.34 ml O2 per gram of a normal 15 g Hb/100 ml.",
+        C: "The reverse is true: acidosis (a fall in pH) shifts the oxygen-haemoglobin dissociation curve to the RIGHT, not the left — part of the Bohr effect, which favours O2 release into acidic, actively metabolising tissue.",
+        D: "The reverse is true: a decreased CO2 concentration shifts the oxygen-haemoglobin dissociation curve to the LEFT, not the right — falling CO2 (like falling H+) raises, rather than lowers, haemoglobin's affinity for O2.",
+      },
+    },
+    // Leaf-mismatch routing (bank-tagged "Vascular Function" — a chloride-
+    // shift question, genuinely this file's own gas-transport content).
+    {
+      key: "as-the-blood-passes-along-the-tissues-332a11e2",
+      conceptKey: "gas-transport.co2-forms-and-chloride-shift",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "State that bicarbonate is formed inside red blood cells, not that chloride falls or that RBC osmolarity/volume decreases, as blood passes through the tissues.",
+      explanations: {
+        A: "Correct. As blood passes along the tissues, CO2 diffuses into red blood cells and carbonic anhydrase rapidly hydrates it to carbonic acid, which dissociates into bicarbonate and H+ — bicarbonate is formed inside the red blood cell, the majority form of CO2 transport.",
+        B: "Chloride RISES, not falls, inside red blood cells at the tissue level: as the newly formed bicarbonate diffuses out to plasma, chloride moves in to replace the negative charge it takes with it — the chloride shift.",
+        C: "Osmolarity of red blood cells INCREASES, not decreases, as chloride (and bicarbonate before it leaves) accumulate inside the cell, drawing water in by osmosis.",
+        D: "RBC volume INCREASES, not decreases, at the tissue level: the osmotic water influx that follows the chloride shift makes venous red blood cells swell slightly, raising venous haematocrit above arterial haematocrit.",
+      },
+    },
+
+    // --- run43: 9 of the Gas Transport by the Blood cluster's 11 remaining ---
+    {
+      key: "about-70-of-the-carbon-dioxide-is-transported-to-the-lungs-1-5ecaaa90",
+      conceptKey: "gas-transport.co2-forms-and-chloride-shift",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "State that the majority of transported CO2 travels as bicarbonate ions, not carbonic acid, carbaminohaemoglobin or bound to albumin.",
+      explanations: {
+        A: "Correct. About 42 of the 48 ml/100 ml of arterial blood's total CO2 — the clear majority, roughly 70% — travels as bicarbonate ions (HCO3-), formed inside red blood cells via carbonic anhydrase and exported to plasma by the chloride shift.",
+        B: "Carbonic acid (H2CO3) is only a fleeting intermediate in the reaction CO2 + H2O -> H2CO3 -> H+ + HCO3-, not a form CO2 is actually carried or stored as in any meaningful quantity.",
+        C: "Carbaminohaemoglobin carries only about 3 of the 48 ml/100 ml of arterial blood's total CO2 — a small minority, not the majority form.",
+        D: "Albumin is not a significant CO2-carrying protein; the haemoglobin inside red blood cells, not plasma albumin, forms the carbamino compounds that carry the (small) protein-bound share of CO2.",
+      },
+    },
+    {
+      key: "all-about-hemoglobin-is-rue-except-d59e6077",
+      conceptKey: "gas-transport.hb-o2-dissociation-curve-shifts",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that an increase in 2,3-DPG shifts the O2 dissociation curve to the right, not the left, identifying this as the false statement.",
+      explanations: {
+        A: "True of P50, so not the exception. A higher-than-normal P50 means haemoglobin requires a higher PO2 to reach 50% saturation, indicating weaker (less tight) O2 binding.",
+        B: "The exception, and the answer. An increase in 2,3-DPG shifts the O2 dissociation curve to the RIGHT, not the left — 2,3-DPG binds deoxygenated Hb and lowers its O2 affinity, favouring O2 release, the same direction as a rise in temperature, PCO2 or a fall in pH.",
+        C: "True, so not the exception. An increase in PCO2 causes a rightward shift of the O2 dissociation curve via the Bohr effect, lowering Hb's O2 affinity.",
+        D: "True, so not the exception. A decrease in pH (more acidic conditions) increases P50, consistent with the same rightward-shifting Bohr effect.",
+      },
+    },
+    {
+      key: "during-the-release-of-carbon-dioxide-in-the-lungs-ba73316c",
+      conceptKey: "gas-transport.co2-forms-and-chloride-shift",
+      difficulty: "Hard",
+      questionType: "Recall of a comprehensive true statement",
+      learningObjective: "State that O2 binding to Hb displaces CO2, releases H+ from oxyhaemoglobin, and lets that H+ combine with bicarbonate to regenerate carbonic acid, all together as the lungs reverse the chloride shift.",
+      explanations: {
+        A: "True, but incomplete alone. At the lungs, O2 binding to haemoglobin does displace CO2 (via the Haldane effect, since oxygenated Hb carries less CO2 than reduced Hb) — but this happens together with the other two listed changes, not instead of them.",
+        B: "True, but incomplete alone. O2 binding to haemoglobin does release H+ from what was buffered on reduced Hb (oxyhaemoglobin is a poorer buffer) — but again, together with the other two listed changes, not alone.",
+        C: "True, but incomplete alone. The released H+ does combine with bicarbonate to re-form carbonic acid, reversing the tissue-level reaction and regenerating CO2 for exhalation — but this is one part of a single coordinated sequence, not an isolated fact.",
+        D: "Correct. At the lungs, the whole tissue-level sequence reverses in one coordinated process: O2 binding to haemoglobin displaces CO2 and releases H+ from oxyhaemoglobin (a poorer buffer than reduced Hb), and that H+ combines with HCO3- to regenerate carbonic acid (and so CO2) for exhalation — all three listed changes are genuine, interconnected parts of this reversal, so the comprehensive option is correct.",
+      },
+    },
+    {
+      key: "how-much-oxygen-is-normally-carried-in-the-blood-a1f343e8",
+      conceptKey: "oxygen-transport.content-capacity-and-p50",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "State that normal arterial blood carries approximately 20 ml of oxygen per 100 ml, combining dissolved and haemoglobin-bound O2.",
+      explanations: {
+        A: "2 ml oxygen/100 ml blood substantially understates the normal arterial oxygen content.",
+        B: "5 ml oxygen/100 ml blood substantially understates the normal arterial oxygen content.",
+        C: "10 ml oxygen/100 ml blood understates the normal arterial oxygen content, being roughly half the accepted normal value.",
+        D: "Correct. Normal arterial blood carries approximately 20 ml of oxygen per 100 ml of blood, combining the small amount dissolved directly in plasma (about 0.3 ml/100 ml) with the much larger amount bound to haemoglobin (about 19.5-20.1 ml/100 ml at a normal 15 g Hb/100 ml), which accounts for roughly 98% of the total.",
+      },
+    },
+    {
+      key: "in-the-transport-of-co2-from-the-tissues-to-the-lungs-which-b9c9fd6b",
+      conceptKey: "gas-transport.co2-forms-and-chloride-shift",
+      difficulty: "Hard",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that venous blood carries the conversion of CO2 and water to H+ and bicarbonate inside red blood cells, as opposed to buffering by oxyhaemoglobin, HCO3- entering (rather than leaving) the RBC, or RBC alkalinisation.",
+      explanations: {
+        A: "Correct. In venous blood, CO2 diffuses into red blood cells where carbonic anhydrase rapidly converts it (with water) into H+ and bicarbonate (HCO3-) — the first step of the tissue-level chloride-shift sequence.",
+        B: "Deoxyhaemoglobin, not oxyhaemoglobin, is the better buffer for the H+ released by this reaction — venous blood is largely deoxygenated, so oxyhaemoglobin is not the buffer actually doing this work.",
+        C: "Bicarbonate moves OUT of the red blood cell into plasma (in exchange for chloride moving IN), the reverse direction from what this option states — the chloride shift exports newly formed HCO3-, it does not import it.",
+        D: "The red blood cell becomes very slightly more acidic, not alkaline, at the tissue level, since some of the H+ released escapes buffering by deoxyhaemoglobin and lowers pH slightly (about 7.4 to 7.37 in venous blood).",
+      },
+    },
+    {
+      key: "ph-of-venous-blood-is-only-slightly-more-acidic-than-ph-of-a-93c10913",
+      conceptKey: "gas-transport.co2-forms-and-chloride-shift",
+      difficulty: "Hard",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that deoxyhaemoglobin's superior buffering of H+, timed with tissue-level CO2 uptake, is why venous blood pH falls only slightly.",
+      explanations: {
+        A: "Carbonic anhydrase is present within red blood cells in both arterial and venous blood; its presence does not differ between the two, so this cannot explain the small pH difference.",
+        B: "Bicarbonate buffering does play some role, but it is not the specific, classically emphasised mechanism for this minimal pH change — that role belongs to deoxyhaemoglobin's buffering, timed exactly with tissue-level CO2 uptake.",
+        C: "Correct. As blood becomes venous, haemoglobin releases its bound O2 and becomes deoxyhaemoglobin, a substantially better buffer for H+ than oxyhaemoglobin — precisely timed with the moment CO2 (converted to H+ and bicarbonate) is being picked up from the tissues, so venous blood absorbs a large amount of H+ with only a minimal drop in pH.",
+        D: "This reverses the correct relationship: deoxyhaemoglobin, not oxyhaemoglobin, is the better buffer for hydrogen ions.",
+      },
+    },
+    {
+      key: "select-the-correct-statement-about-o-transport-in-the-blood-c34350a2",
+      conceptKey: "oxygen-transport.content-capacity-and-p50",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Two of the four options are truncated mid-sentence at extraction, including the credited answer: option A cuts off at '...contains one molecule of' (of what — O2, out of Hb's normal four binding sites? — the claim this option makes cannot be evaluated without the missing noun), and the credited option C cuts off at '...might indicate a higher activity' (level of what, exactly, is left unstated). This source (DPT BOOK Physio MCQ [104][2022].pdf) is not in the pagetext cache to render by eye. Per the law of priority, a truncated correct-answer option is never completed from what a textbook probably says — the same reasoning already applied to this branch's other truncated-key exclusions this run.",
+    },
+    {
+      key: "the-largest-amount-of-co-is-transported-by-the-blood-as-691eba1c",
+      conceptKey: "gas-transport.co2-forms-and-chloride-shift",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 options survived extraction (A, B, D — no C, and B and D read as near-duplicate 'HCO3 in plasma' / 'HCO3 ion in plasma' labels, suggesting a genuine option was lost to a merge or repeat rather than four distinct choices) — below the platform's 4-to-5-option import contract. The same fact (bicarbonate is the largest fraction of transported CO2) is already fully tested, with a complete 4-option set, by this leaf's own most-co-is-transported-in-the-blood-in-the-form-of-9dc7cf8c and about-70-of-the-carbon-dioxide-is-transported-to-the-lungs-1-5ecaaa90 questions, so no teaching content is lost.",
+    },
+    {
+      key: "the-oxygen-hemoglobin-dissociation-curve-will-shift-to-the-r-6cda5909",
+      conceptKey: "gas-transport.hb-o2-dissociation-curve-shifts",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Identify exercise as the condition that shifts the O2-Hb dissociation curve to the right, as opposed to alkalosis, a fall in PCO2 or a fall in temperature.",
+      explanations: {
+        A: "Acute alkalosis (a rise in pH) shifts the curve to the LEFT, not the right, raising Hb's O2 affinity — the opposite of what this option claims.",
+        B: "A decrease in PCO2 shifts the curve to the LEFT, not the right, since falling CO2 (like falling H+) raises rather than lowers Hb's O2 affinity.",
+        C: "A decrease in temperature shifts the curve to the LEFT, not the right, raising Hb's O2 affinity — the opposite of what this option claims.",
+        D: "Correct. Exercise raises PCO2, H+ (falling pH), temperature and 2,3-DPG together in active muscle, all four of which shift the O2-Hb dissociation curve to the right, lowering Hb's O2 affinity and favouring O2 release exactly where the exercising tissue needs it.",
+      },
+    },
+    {
+      key: "the-oxyhemoglobin-dissociation-curve-fa89718b",
+      conceptKey: "gas-transport.hb-o2-dissociation-curve-shifts",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that the normal P50 for human haemoglobin is approximately 27 mmHg, as opposed to false claims about the curve's shape, acidosis shifting it left, or higher affinity at exercising tissue.",
+      explanations: {
+        A: "The oxyhaemoglobin dissociation curve is sigmoid (S-shaped), not a rectangular hyperbola, reflecting haemoglobin's cooperative O2 binding across its four subunits — a rectangular hyperbola instead describes myoglobin's single-subunit binding curve.",
+        B: "Acidosis shifts the curve to the RIGHT, via the Bohr effect, decreasing O2 affinity — not to the left as this option claims.",
+        C: "Haemoglobin's O2 affinity DECREASES, not increases, at exercising tissue — the raised CO2, H+, temperature and 2,3-DPG there all shift the curve right, facilitating O2 release exactly where increased metabolic demand needs it.",
+        D: "Correct. The normal P50 for human haemoglobin — the PO2 at which it is 50% saturated — is a well-established standard reference value of approximately 27 mmHg under normal physiological conditions.",
+      },
+    },
+    {
+      key: "which-statement-about-hemoglobin-is-incorrect-e6822bc0",
+      conceptKey: "gas-transport.hb-o2-dissociation-curve-shifts",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that an increase in 2,3-DPG shifts the O2 dissociation curve to the right, not the left, identifying this as the incorrect statement — the same fact tested from a second, independent source occurrence.",
+      explanations: {
+        A: "True of P50, so not the answer. A higher-than-normal P50 does indicate that O2 binds less tightly to haemoglobin (a rightward-shifted curve with lower affinity).",
+        B: "Correct — the incorrect statement, and the answer. An increase in 2,3-DPG decreases haemoglobin's affinity for O2, shifting the dissociation curve to the RIGHT (facilitating O2 unloading to tissues), not to the left as this option claims.",
+        C: "True, so not the answer. An increase in PCO2 does cause a rightward shift of the curve via the Bohr effect, decreasing O2 affinity.",
+        D: "True, so not the answer. A decrease in pH (increased acidity) does increase P50, consistent with the same rightward-shifting Bohr effect.",
       },
     },
   ],

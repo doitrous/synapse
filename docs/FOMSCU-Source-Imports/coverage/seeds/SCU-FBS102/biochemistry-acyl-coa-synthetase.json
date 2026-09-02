@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-acyl-coa-synthetase",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'biochemistry-acyl-coa-synthetase'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Lipid Metabolism"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-acyl-coa-synthetase",
+      "id": "QST-SCUFBS102-S2-PENDING-BIOCHEMISTRY-ACYL-COA-SYNTHETASE",
+      "title": "The enzyme that activates fatty acids for beta oxidation",
+      "question": "In the beta oxidation process the initial activation of fatty acids takes place by the action of which specific enzyme?",
+      "options": {
+        "A": "The highly specific initial acyl CoA dehydrogenase enzyme",
+        "B": "The primary active carnitine acyltransferase one",
+        "C": "Acyl CoA synthetase",
+        "D": "The secondary specialized carnitine acyltransferase two"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Acyl-CoA dehydrogenase acts later, inside the mitochondrion, catalysing the first oxidation step of the beta-oxidation spiral itself — not the initial activation step in the cytosol.",
+        "B": "Incorrect. Carnitine palmitoyltransferase I (CPT-I) acts after activation, exchanging CoA for carnitine on the outer mitochondrial membrane to begin transport, not activation itself.",
+        "C": "Correct. Before a fatty acid can be oxidised it must be activated: acyl-CoA synthetase (thiokinase) joins it to coenzyme A in the cytosol, spending one ATP (converted to AMP and pyrophosphate) so that two high-energy bonds are consumed. Only after this activation step can the carnitine shuttle carry the resulting acyl-CoA into the mitochondrion for beta oxidation.",
+        "D": "Incorrect. Carnitine palmitoyltransferase II (CPT-II) acts even later, regenerating acyl-CoA inside the mitochondrial matrix once the carnitine shuttle has finished transport — not the initial cytosolic activation step."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Lipid metabolism",
+      "main_concept": "CON-FND-177A829022AC8F",
+      "concept_ids": [
+        "CON-FND-177A829022AC8F"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.3,
+      "reasoning_level": 2,
+      "inferred_difficulty": 50,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.3,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-103-BIO-FATTY-ACID-OXIDATION"
+      ],
+      "learning_objective": "Name acyl-CoA synthetase as the enzyme that activates fatty acids in the cytosol before beta oxidation.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q55 (also 2022 Q35)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q55 / 2022 Q35; source-JSON extraction. Re-verification note: this candidate was originally triaged 'new', but a grep pass past find-existing.mjs's first-line-only pending-batch scan found the answer stated in CON-FND-177A829022AC8F's own definition (Kasr 103-BMS-mcq-lipid-concepts.md / docs/import-ready) — overlaid here rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md."
+      }
+    }
+  ]
+}

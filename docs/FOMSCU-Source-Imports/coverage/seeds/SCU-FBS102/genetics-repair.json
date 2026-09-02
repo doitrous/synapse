@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-repair",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-repair'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Genetics > Cell Cycle > Mitosis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-REPAIR",
+      "key": "genetics-repair",
+      "title": "Mitosis serves tissue repair in multicellular organisms",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Genetics > Cell Cycle > Mitosis",
+      "question": "Multicellular organisms perform mitotic division primarily for which of the following reasons?",
+      "options": {
+        "A": "Apoptosis",
+        "B": "Reproduction (gamete formation)",
+        "C": "Repair (growth and replacement of cells)",
+        "D": "Gametogenesis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Apoptosis is programmed cell death, a process that removes cells, not a form of division; mitosis and apoptosis serve opposite ends of cell number regulation.",
+        "B": "Incorrect. Sexual reproduction depends on gametes produced by meiosis, not mitosis; mitosis is not the division type responsible for gamete formation.",
+        "C": "Correct. Mitotic division in multicellular organisms serves growth and the repair and renewal of tissues, replacing cells lost to normal turnover, injury or disease with genetically identical new cells — the everyday workhorse division of the body, distinct from meiosis's specialized reproductive role. This is distinct from meiosis, which is reserved exclusively for gametogenesis and plays no role in ordinary tissue maintenance.",
+        "D": "Incorrect. Gametogenesis (production of sperm and eggs) depends on meiosis, not mitosis, so it is not the reason multicellular organisms undergo mitotic division."
+      },
+      "topic": "Genetics",
+      "subtopic": "Cell division",
+      "main_concept": "CON-FND-5EF93A5D978C89",
+      "concept_ids": [
+        "CON-FND-5EF93A5D978C89"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-CELL-CYCLE-BASICS"
+      ],
+      "learning_objective": "State that mitotic division in multicellular organisms functions in growth and repair/replacement of cells, in contrast to meiosis, whose function is limited to gamete production.",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOY Foundation 1 2026 Q38",
+      "author_notes": ""
+    }
+  ]
+}

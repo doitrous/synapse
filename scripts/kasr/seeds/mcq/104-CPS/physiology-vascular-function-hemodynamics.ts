@@ -113,6 +113,60 @@ export const LEAF: McqLeafSeed = {
         'No 104-CPS article names critical closing pressure; standard, undisputed vascular physiology (the behaviour of a collapsible tube with active wall tension), flagged for the article-authoring lane rather than invented without any source at all.',
       ],
     },
+    {
+      // Sparse reuse, not a fresh mint: canonical_key already pinned in
+      // 104-CPS-physiology-concepts.md as CON-CVS-78E74CAC3AE5E5, this
+      // exact leaf's own module_subject. Not previously claimed by any
+      // 104-CPS MCQ seed (grepped before use). Two leaf-mismatch rows below
+      // (bank-tagged "Pulmonary Compliance", genuinely about arterial and
+      // venous vessel compliance, not lung compliance) are routed here
+      // rather than authored under the pulmonary-compliance leaf, the same
+      // "route to the seed that owns the concept" pattern used elsewhere in
+      // this branch (e.g. the arteriovenous-anastomosis concept in
+      // cardiovascular-av-connections-histology.ts).
+      key: 'vascular-tree.pressure-and-compliance-distribution',
+      label: 'Vascular compliance is higher at lower distending volumes and falls as the vessel stiffens at higher volumes, and venous compliance is about 24 times arterial compliance, making veins the circulation\'s blood reservoir',
+      definition: 'Vascular compliance is the ratio of change in blood volume to change in pressure in a vessel, and it is not fixed: compliance is higher at lower volumes and falls (the vessel stiffens) at higher volumes, because the vessel wall\'s more easily stretched elastic (elastin) component dominates the initial, more compliant part of its pressure-volume behaviour, while its stiffer, less distensible collagen component is progressively recruited and dominates at higher distension. Arterial compliance converts the intermittent flow from the aorta into continuous flow in peripheral vessels, minimises the rise of systolic and the fall of diastolic pressure, and reduces the work the heart must do for a given cardiac output. Venous compliance is about 24 times arterial compliance, so veins can accommodate far more blood than arteries for the same change in pressure, which is why veins are described as reservoir vessels; venous compliance is itself set mainly by venous tone, higher tone giving lower compliance.',
+      objective: 'Define vascular compliance as delta volume / delta pressure, state that it falls as a vessel is stretched toward higher volumes because collagen recruitment progressively stiffens the wall, and explain why the much higher compliance of veins relative to arteries makes them the circulation\'s blood reservoir.',
+      pitfall: 'Assuming a vessel\'s compliance is a single fixed number. It is a slope that itself changes with distension — high (elastin-dominated) at low volumes, low (collagen-dominated) at high volumes — which is exactly what produces the initial, more linear part and the later, steeper part of a vessel\'s own pressure-volume curve.',
+      subject: 'cvs',
+      primary: 'DIS-PHY-T02',
+      secondary: [],
+      modulePath: '104 CPS > Physiology > Cardiovascular System > Vascular Function',
+      type: 'mechanism',
+      aliases: ['Vascular compliance', 'Arterial versus venous compliance', 'Vessel wall elastin and collagen recruitment', 'Veins as capacitance vessels'],
+      gaps: [
+        'The pinned record states that compliance is higher at lower volumes and falls (stiffens) at higher volumes, and separately (in this module\'s own histology concept, arteriovenous-anastomosis\'s sibling capillary-type concepts) that elastin and collagen are the vessel wall\'s two distensible components — but no single 104-CPS record explicitly names elastin-then-collagen sequential recruitment as the mechanism behind the shape of the pressure-volume curve, or the specific factors (sympathetic tone, oestrogen, ageing, atherosclerosis) that raise or lower vascular compliance. Both are standard, undisputed vascular physiology consistent with the pinned record\'s own compliance-falls-at-higher-volume fact, not contradicted by it; disclosed rather than silently assumed taught.',
+      ],
+    },
+    {
+      // Fresh mint, run43. find-existing.mjs "renin angiotensin aldosterone
+      // ACE atrial natriuretic peptide" -> no matching record. Grepped
+      // 104-CPS-physiology-concepts.md and every seed file for "renin",
+      // "aldosterone" and "natriuretic": only passing mentions turned up (a
+      // postural-hypotension concept naming "renin-angiotensin-aldosterone
+      // secretion" as one item in a reflex list, and physiology-circulatory-
+      // control-hemorrhagic-shock.ts's own hemorrhagic-shock.rapid-
+      // compensatory-hormone-response concept, which states ANP does NOT
+      // rise during hemorrhage specifically because hypovolaemia removes
+      // its atrial-stretch trigger) — neither states the RAAS mechanism
+      // itself or ANP's own stimulus/action as a standalone fact the way
+      // this concept does, so minted fresh rather than reused.
+      key: 'raas-vs-anp.opposing-blood-pressure-and-sodium-hormones',
+      label: 'The renin-angiotensin-aldosterone system raises blood pressure and retains sodium (triggered by low renal perfusion), while atrial natriuretic peptide lowers blood pressure and excretes sodium (triggered by atrial stretch from a rising central blood volume) — physiological opposites',
+      definition: "The renin-angiotensin-aldosterone system (RAAS) and atrial natriuretic peptide (ANP) are a matched pair of opposing hormonal systems for blood pressure and sodium balance. RAAS begins when reduced renal perfusion pressure (or reduced NaCl delivery to the macula densa, or increased renal sympathetic activity) raises renin secretion; renin cleaves angiotensinogen to angiotensin I, angiotensin-converting enzyme (ACE, secreted by pulmonary vascular endothelium among other sites) converts this to angiotensin II, which directly vasoconstricts (raising total peripheral resistance and arterial pressure) and stimulates adrenal cortex aldosterone secretion, which in turn raises renal sodium (and secondarily water) reabsorption. Inhibiting ACE therefore lowers angiotensin II and aldosterone, lowering peripheral resistance and sodium reabsorption — but because angiotensin II normally suppresses renin secretion by negative feedback, removing angiotensin II removes that brake, so renin secretion itself RISES with ACE inhibition, not falls. Atrial natriuretic peptide runs in the opposite direction on both fronts: it is secreted by atrial myocytes when a rising central (extracellular fluid) blood volume stretches the atrial wall — as in water immersion up to the neck, which shifts peripheral venous blood centrally — and it lowers blood pressure by promoting vasodilation and increasing renal sodium excretion (natriuresis), the physiological opposite of what RAAS does on both the vascular and renal fronts.",
+      objective: "Contrast RAAS (low renal perfusion -> renin -> angiotensin II -> vasoconstriction + aldosterone -> sodium retention -> raised blood pressure) with ANP (atrial stretch from rising central blood volume, e.g. water immersion -> vasodilation + natriuresis -> lowered blood pressure), and state that ACE inhibition raises, not lowers, renin secretion by removing angiotensin II's negative feedback on it.",
+      pitfall: "Assuming every step of the renin-angiotensin-aldosterone cascade moves in the same direction when the cascade is blocked. ACE inhibition lowers angiotensin II and aldosterone, but renin secretion itself RISES, because angiotensin II's own negative feedback on renin release is what falls away — the one step in the cascade that reverses direction rather than following the others down.",
+      subject: 'cvs',
+      primary: 'DIS-PHY-T02',
+      secondary: [],
+      modulePath: '104 CPS > Physiology > Cardiovascular System > Vascular Function',
+      type: 'mechanism',
+      aliases: ['RAAS', 'Renin-angiotensin-aldosterone system', 'ACE inhibition', 'Atrial natriuretic peptide', 'ANP stimulus and action'],
+      conflicts: [
+        "No conflicting record found; find-existing.mjs returned no match, and the only related pinned content (a postural-hypotension concept naming RAAS as one item in a reflex list, and the hemorrhagic-shock concept covering why ANP does NOT rise in hemorrhage) states neither this concept's RAAS cascade mechanism nor ANP's own stimulus/action as a standalone fact.",
+      ],
+    },
   ],
 
   questions: [
@@ -254,6 +308,25 @@ export const LEAF: McqLeafSeed = {
         D: 'Central venous pressure is set by venous return and right heart function, not directly by blood viscosity.',
       },
     },
+    // kasr-104-author-run46: bank-tagged "Special Circulation" (leaf-
+    // mismatch reroute — applies this leaf's own general flow/pressure/
+    // resistance relationship specifically to coronary flow, sharing the
+    // sourced concept rather than needing a fresh mint).
+    {
+      key: 'which-one-of-the-following-is-the-correct-statement-regardin-c5bde64a',
+      conceptKey: 'hemodynamics.flow-pressure-resistance-relationship',
+      difficulty: 'Moderate',
+      questionType: 'Single best answer',
+      learningObjective: 'Apply F = deltaP / R to coronary flow: flow is directly related to perfusion pressure and inversely related to resistance.',
+      explanations: {
+        A: "Correct. This leaf's own concept states flow, pressure and resistance are related by F = deltaP / R for any vascular bed, coronary included — flow rises directly with perfusion pressure and falls directly with resistance (rises inversely as resistance falls).",
+        B: 'Reversed on the pressure term. Coronary flow is DIRECTLY, not inversely, related to perfusion pressure — a higher driving pressure increases flow, all else equal.',
+        C: 'Reversed on the resistance term. Coronary flow is INVERSELY, not directly, related to resistance — a higher resistance decreases flow, all else equal, exactly as F = deltaP / R states.',
+        D: 'Reversed on both terms at once. Coronary flow is directly related to pressure and inversely related to resistance, not the reverse of both as this option states.',
+      },
+      answerOverride: 'A',
+      answerOverrideReason: "No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept (F = deltaP / R, applied identically to any vascular bed's flow), confirming A as the only option that states the relationship in the correct direction on both terms.",
+    },
     {
       key: 'quantitatively-the-most-important-means-for-increasing-blood-ee55525a',
       conceptKey: 'local-blood-flow-regulation.myogenic-and-metabolic-autoregulation',
@@ -352,6 +425,140 @@ export const LEAF: McqLeafSeed = {
         C: 'Correct. Critical closing pressure is the specific transmural pressure below which a blood vessel with active vascular smooth-muscle tone collapses completely, so that flow abruptly ceases rather than tapering off gradually.',
         D: 'Perfusion pressure is the pressure gradient actually driving flow through an organ, not the specific threshold pressure at which a vessel collapses.',
       },
+    },
+
+    // --- Leaf-mismatch routing (bank-tagged "Pulmonary Compliance", genuinely
+    // about vessel-wall compliance, not lung compliance) ---
+    {
+      key: 'concerning-compliance-of-large-arterial-blood-vessels-one-is-9eea479c',
+      conceptKey: 'vascular-tree.pressure-and-compliance-distribution',
+      difficulty: 'Moderate',
+      questionType: 'Mechanism',
+      learningObjective: 'Attribute the initial, more linear (compliant) part of a large artery\'s pressure-volume curve to stretching of its elastic (elastin) fibres, as opposed to its collagen fibres.',
+      explanations: {
+        A: 'Correct. At lower distending pressures, an artery\'s more easily stretched elastin fibres dominate its wall behaviour, producing the initial, more linear (compliant) portion of the pressure-volume curve.',
+        B: 'The steeper, less compliant part of the curve, reached at higher pressures, is due to recruitment of the stiffer collagen fibres, not the elastic fibres, which already dominate the earlier, more compliant portion.',
+        D: 'Stretching the collagen fibres makes the vessel wall progressively stiffer, lowering (not raising) compliance, since collagen is far less distensible than elastin — the opposite of what this option claims.',
+        C: 'Not a true/false statement about the mechanism this question tests; the credited answer names elastin fibre stretching as the basis of the artery\'s initial compliant behaviour.',
+      },
+    },
+    {
+      key: 'which-one-can-increase-the-compliance-of-blood-vessels-3a01102d',
+      conceptKey: 'vascular-tree.pressure-and-compliance-distribution',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'Identify oestrogen, among sympathetic activation, ageing and atherosclerosis, as the one factor that raises rather than lowers vascular compliance.',
+      explanations: {
+        A: 'Sympathetic activation contracts vascular smooth muscle (vasoconstriction), which stiffens the vessel wall and lowers, not raises, its compliance.',
+        B: 'Correct. Oestrogen relaxes and dilates the vascular wall, and is associated with genuinely higher vascular compliance — part of why pre-menopausal women typically have more compliant vessels and lower cardiovascular risk than men or post-menopausal women.',
+        C: 'Ageing is classically associated with progressive arterial stiffening (falling elastin, rising collagen content), lowering, not raising, compliance.',
+        D: 'Atherosclerosis stiffens the vessel wall with plaque deposition, lowering, not raising, compliance.',
+      },
+    },
+
+    // --- run43: 7 kept + 1 excluded of the Vascular Function cluster's 12 remaining ---
+    {
+      key: 'concerning-laminar-blood-flow-one-is-incorrect-eb00a7cf',
+      conceptKey: 'turbulent-blood-flow.reynolds-number-determinants',
+      difficulty: 'Moderate',
+      questionType: 'Recall of a false statement',
+      learningObjective: 'State that laminar flow is maintained up to a Reynolds number of roughly 2000, not as low as 400, identifying the understated threshold as the false statement.',
+      explanations: {
+        A: 'True of laminar flow, so not the exception. Laminar flow genuinely occurs as concentric, parallel layers (laminae) of fluid moving smoothly together.',
+        B: 'True of laminar flow, so not the exception. Laminar flow is characteristically silent, unlike the audible turbulent flow that produces murmurs and bruits.',
+        C: 'The exception, and the answer. Laminar flow is maintained up to a Reynolds number of roughly 2000, not as low as 400 — stating 400 as the threshold badly understates how far the Reynolds number must rise before flow tips into turbulence.',
+        D: 'True, so not the exception. A Reynolds number above roughly 2000 does mark the standard threshold for the transition toward turbulent flow.',
+      },
+    },
+    {
+      key: 'turbulence-is-almost-always-present-when-reynolds-number-is-afc8cefe',
+      conceptKey: 'turbulent-blood-flow.reynolds-number-determinants',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that turbulent flow is almost always present once the Reynolds number rises above approximately 2000.',
+      explanations: {
+        A: 'Correct. Standard cardiovascular physiology teaching states that once the Reynolds number rises above approximately 2000, turbulent flow will usually (almost always) occur, even in an otherwise straight, smooth vessel — the standard, most commonly cited figure for this threshold.',
+        B: '2500 is not the standard, most commonly cited threshold figure for this specific teaching point.',
+        C: '3000 is not the standard, most commonly cited threshold figure for this specific teaching point.',
+        D: '3500 is not the standard, most commonly cited threshold figure for this specific teaching point.',
+      },
+    },
+    {
+      key: 'which-of-the-following-describes-the-pulse-pressure-212b2ae7',
+      conceptKey: 'arterial-blood-pressure.systolic-diastolic-map-and-pulse-pressure',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that pulse pressure is determined by stroke volume (for a given arterial compliance), not by arterial resistance or by naming the highest or lowest arterial pressure directly.',
+      explanations: {
+        A: "Correct. Pulse pressure -- the difference between systolic and diastolic arterial pressure -- is directly determined by stroke volume for a given arterial compliance: a larger stroke volume ejects more blood into the arterial tree per beat, producing a larger swing in pressure between systole and diastole.",
+        B: 'Pulse pressure is most directly governed by stroke volume and arterial compliance; peripheral arterial resistance primarily determines mean arterial pressure rather than being the main driver of pulse pressure changes.',
+        C: 'The highest pressure measured in the arteries is the systolic pressure itself, not the pulse pressure, which is instead the difference between systolic and diastolic pressure.',
+        D: 'The lowest pressure measured in the arteries is the diastolic pressure itself, not the pulse pressure.',
+      },
+    },
+    {
+      key: 'atrial-natriuretic-peptide-6fd6b3d3',
+      conceptKey: 'raas-vs-anp.opposing-blood-pressure-and-sodium-hormones',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: "State that ANP secretion is increased by atrial stretch from a rising central blood volume, such as during water immersion up to the neck.",
+      explanations: {
+        A: 'A decreased, not increased, ECF volume removes the atrial-stretch stimulus for ANP secretion — the opposite of the direction that triggers its release.',
+        B: 'Correct. Immersion in water up to the neck shifts peripheral venous blood centrally, raising central blood volume and stretching the atrial wall — exactly the stimulus that raises ANP secretion.',
+        C: 'ANP promotes vasodilation, not contraction, of vascular smooth muscle — part of how it lowers, rather than raises, blood pressure.',
+        D: 'ANP lowers, not raises, arterial blood pressure, via vasodilation and increased renal sodium excretion — the physiological opposite of what this option states.',
+      },
+    },
+    {
+      key: 'which-of-the-following-changes-would-not-occur-following-inh-ff65be24',
+      conceptKey: 'raas-vs-anp.opposing-blood-pressure-and-sodium-hormones',
+      difficulty: 'Hard',
+      questionType: 'Discrimination among near-miss options',
+      learningObjective: "State that ACE inhibition raises, rather than lowers, renin secretion, by removing angiotensin II's own negative feedback on renin release.",
+      explanations: {
+        A: "Correct, and the exception the question asks for: renin secretion would NOT fall following ACE inhibition -- it would RISE, because angiotensin II normally suppresses renin secretion by negative feedback, and removing angiotensin II (by blocking the enzyme that makes it) removes that brake.",
+        B: 'Aldosterone level genuinely would fall following ACE inhibition, since aldosterone secretion depends on angiotensin II, which ACE inhibition lowers — this change would occur, so it is not the exception.',
+        C: 'Proximal tubular sodium reabsorption genuinely would decrease following ACE inhibition, since it is partly driven by angiotensin II and the aldosterone it stimulates, both of which fall — this change would occur, so it is not the exception.',
+        D: 'Peripheral resistance genuinely would decrease following ACE inhibition, since angiotensin II is a direct vasoconstrictor and ACE inhibition lowers angiotensin II — this change would occur, so it is not the exception.',
+      },
+    },
+    {
+      // kasr-104-author-run46: revisited AND CORRECTED. Run 45 excluded this
+      // for "no PDF or cached page-text access" — false. My own first
+      // re-check this run used a shell-escaped "cross-sectional\|cross
+      // sectional" grep pattern, which this tool's regex does not parse as
+      // alternation the way a shell pipe would — that produced a false "0
+      // hits" I initially trusted. Re-running with a plain "|" alternation
+      // found the department physiology book's own Table (4-2) on p.45:
+      // Aorta cross-sectional area 2.5 cm^2 vs Capillaries 2500 cm^2 — a
+      // direct, numeric confirmation of the printed answer (capillaries
+      // have by far the greatest total cross-sectional area).
+      key: 'greatest-total-cross-sectional-area-a-aorta-1242be79',
+      conceptKey: 'hemodynamics.flow-pressure-resistance-relationship',
+      difficulty: 'Moderate',
+      questionType: 'Single best answer',
+      learningObjective: "State that capillaries, not the aorta, small arteries or venules, have the body's greatest total vascular cross-sectional area, and that this is why capillary blood velocity is so much lower than aortic velocity.",
+      explanations: {
+        A: "Reversed. The department book's own Table (4-2) gives the aorta a cross-sectional area of only 2.5 cm^2 — the smallest of the vessel types compared, not the greatest.",
+        B: "Not named in the book's own comparison table, which sets the aorta directly against capillaries (2.5 cm^2 vs 2500 cm^2) as the two poles of the cross-sectional-area range; small arteries sit between these two extremes, nowhere near the greatest.",
+        C: "Correct. The department book's own Table (4-2) gives capillaries a total cross-sectional area of 2500 cm^2 against the aorta's 2.5 cm^2 — a thousand-fold greater total bore, which the book directly ties to the correspondingly thousand-fold lower capillary blood velocity (0.5 mm/sec vs 0.5 m/sec in the aorta).",
+        D: "Venules are not named in the book's own aorta-vs-capillary comparison table; the book's own point is specifically that capillaries, not any other vessel type, carry the greatest total cross-sectional area.",
+      },
+      answerOverride: "C",
+      answerOverrideReason: "No printed key exists in the bank for this row (answerConfidence: external-solved-book-recovered, from a different solved question book rather than this bank's own printed answer, and the option set itself was repaired from a partial 2-option extraction). Re-verified directly against the department physiology book (p.45, Table 4-2, 'Cross sectional area'): Aorta 2.5 cm^2, Capillaries 2500 cm^2 — a direct numeric confirmation of option C, and of the book's own stated inverse relationship between cross-sectional area and blood velocity.",
+    },
+    {
+      // Bank-tagged leaf: "Vascular Function"; genuinely this file's own
+      // local-blood-flow-regulation content, but excluded rather than kept
+      // — see excludeReason.
+      key: 'which-combination-of-the-following-local-factors-leads-to-ar-c8779f94',
+      conceptKey: 'local-blood-flow-regulation.myogenic-and-metabolic-autoregulation',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "The extracted option set is internally inconsistent and shows clear OCR corruption (option A reads 'increase in Oz' — a garbled '2' — and the credited option C reads 'Decrease in CO', almost certainly a mis-scan of 'O2' given the question's own topic), and the credited answer's third clause, 'decrease in K+', contradicts standard local-vasodilator-factor teaching (active tissue accumulates, not loses, extracellular K+, and a local RISE in K+ is the textbook vasodilator factor, not a fall). This source (DPT BOOK Physio MCQ [104][2022].pdf) is not in the pagetext cache to render by eye and check which word the corruption altered. Rather than teach a physiologically backwards claim on the strength of a low meanOptionRatio (0.827) fuzzy-OCR match, this row is left unauthored per the law of priority; the correct, uncorrupted version of this fact (decreased O2, increased CO2/H+/lactate/K+/adenosine/osmolarity all cause local vasodilation) is not otherwise untaught in this leaf.",
     },
   ],
 }

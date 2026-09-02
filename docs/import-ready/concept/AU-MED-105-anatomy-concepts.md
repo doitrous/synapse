@@ -4972,3 +4972,1463 @@ lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
 atomicClaimIds: Set after the build-evidence pass; see evidence/AU-MED-105-anatomy-claims.md.
 relationships: Cross-linked to the pronator-teres concept (the nerve's origin point) and the live median-nerve-injury-level concept (AIN syndrome is a distinguishing lesion level).
+---
+
+# Item
+
+## id
+CON-MSK-9180242FA01B58
+
+## label
+The posterior compartment of the leg has a superficial group (gastrocnemius, soleus, plantaris) and a deep group (tibialis posterior, flexor digitorum longus, flexor hallucis longus, popliteus), all supplied by the tibial nerve, and together they plantarflex and invert the foot
+
+## canonical_key
+leg.posterior-compartment-tibial-nerve
+
+## aliases
+Posterior compartment of the leg
+Superficial and deep calf muscles
+Tibial nerve motor supply of the leg
+Plantarflexor-invertor group
+
+## arabic_label
+الحجرة الخلفية للساق والعصب الظنبوبي
+
+## arabic_aliases
+
+
+## definition
+The posterior compartment of the leg is divided by a deep transverse fascial septum into a superficial group — gastrocnemius, soleus and plantaris, which converge on the tendo calcaneus (Achilles tendon) to insert on the calcaneus — and a deep group — tibialis posterior, flexor digitorum longus and flexor hallucis longus, which pass behind the medial malleolus into the sole, plus popliteus at the compartment's proximal limit. Every muscle in both groups is supplied by the tibial nerve (the medial popliteal nerve of older terminology), which enters the compartment between the two heads of gastrocnemius and descends deep to soleus, accompanying the posterior tibial vessels. Acting together, the compartment plantarflexes the ankle (gastrocnemius and soleus, the "triceps surae", are the prime movers) and inverts the foot (tibialis posterior is the strongest invertor); flexor digitorum longus and flexor hallucis longus additionally flex the lateral four toes and the great toe respectively. Tibialis posterior is also the chief dynamic support of the medial longitudinal arch, and gastrocnemius is biarticular, acting on both the knee (weak flexor) and the ankle.
+
+## explicit_objective
+List the superficial and deep muscles of the posterior leg compartment, state that all of them are supplied by the tibial nerve, and explain why a tibial nerve lesion weakens both plantarflexion and inversion together rather than either alone.
+
+## pitfalls
+Confusing tibial nerve territory (posterior compartment: plantarflexion and inversion) with common peroneal territory (anterior and lateral compartments: dorsiflexion and eversion) — a students' most common leg-nerve error. Assuming every "long flexor" of the leg is tibial-supplied without checking: peroneus longus (a flexor in the everter sense) is lateral-compartment and superficial-peroneal-supplied, not tibial. Forgetting that gastrocnemius crosses two joints and so contributes weakly to knee flexion as well as strongly to plantarflexion.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M04
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## microtopic
+Posterior compartment and the tibial nerve
+
+## nanotopic
+
+
+## modules
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Leg > Posterior compartment
+
+## article_ids
+ART-MSK-AU105-LEG-NERVES-CUTANEOUS
+
+## related_article_ids
+ART-MSK-AU105-LEG-ANKLE-FOOT
+
+
+
+## related_concept_ids
+CON-MSK-79E3831EA7CB4F | CON-MSK-AB5318A9255811 | CON-MSK-583524B3AE47F7
+
+## resource_ids
+src_78b66af9c28aa239cdb7
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AU_Y1=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+All muscles of the superficial posterior compartment of the leg insert into: / All of the following muscles supplied by tibial (medial popliteal) nerve EXCEPT / Which of the following muscles most related to medial malleolus?
+
+## exam_signal
+src_78b66af9c28aa239cdb7 | bank | | p1-p3 | AU-MED-105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` carries free text instead.
+nanotopicId: No finer printed subdivision in the source bank.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the Lower Limb MCQ bank (part 2, Leg); no corpus extraction record.
+sourceCandidateIds: Searched find-existing.mjs for "tibial nerve leg" (no hit) and confirmed the anterior-compartment concept (CON-MSK-79E3831EA7CB4F) and the Kasr common-peroneal-injury concept (CON-MSK-AB5318A9255811, pending) cover the complementary nerve but not this one; no duplicate found.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: Set after the build-evidence pass against this module's bank sources.
+conflicts: None found between the bank questions and standard gross anatomy.
+uncertainty: None beyond ordinary textbook variation in calling the tibial nerve the "medial popliteal nerve" (the bank's own term).
+relationships: Complements the anterior-compartment concept (deep peroneal nerve) and the cutaneous-territories concept minted alongside it from the same bank.
+
+---
+
+# Item
+
+## id
+CON-MSK-583524B3AE47F7
+
+## label
+The skin of the leg and foot is parcelled among the saphenous nerve (medial leg to the medial malleolus), the superficial peroneal nerve (anterolateral leg and most of the dorsum of the foot), the sural nerve (lower posterolateral leg and the lateral foot to the little toe), the deep peroneal nerve (only the first web space), and the tibial nerve's plantar branches (the whole sole)
+
+## canonical_key
+leg.cutaneous-nerve-territories-leg-foot
+
+## aliases
+Cutaneous nerve territories of the leg and foot
+Saphenous nerve distribution
+Sural nerve distribution
+Superficial peroneal nerve cutaneous field
+Dermatomes of the leg and foot (nerve, not root, sense)
+
+## arabic_label
+التوزيع الجلدي لأعصاب الساق والقدم
+
+## arabic_aliases
+
+
+## definition
+Five nerves divide the skin of the leg and foot between them, and distinguishing their territories is the commonest single reasoning task in this bank. The saphenous nerve (the sensory continuation of the femoral nerve) supplies the medial side of the leg from the knee down to, but not behind, the medial malleolus, and does not reach the foot proper. The superficial peroneal nerve supplies the anterolateral leg's lower two-thirds and almost the entire dorsum of the foot and toes, except the first web space. The deep peroneal nerve, despite driving the whole anterior compartment motor-wise, is reduced on the sensory side to the tiny wedge of skin in the first (great-toe/second-toe) web space. The sural nerve (formed from tibial and common peroneal contributions in the popliteal fossa and calf) supplies the lower posterolateral leg, passes behind the lateral malleolus with the small saphenous vein, and continues along the lateral border of the foot to the little toe. The sole of the foot belongs to the tibial nerve's two terminal branches, the medial and lateral plantar nerves. A sciatic nerve injury spares the medial leg and the medial-malleolus region because that territory is saphenous (femoral-derived), not sciatic.
+
+## explicit_objective
+Assign any patch of skin on the leg or foot to the correct nerve — saphenous, superficial peroneal, deep peroneal, sural, or tibial plantar branches — and use that assignment to localise a nerve injury from its sensory-loss pattern.
+
+## pitfalls
+Assuming the deep peroneal nerve's motor dominance of the anterior compartment means it also dominates cutaneous supply there — it does not; the superficial peroneal nerve carries almost all of that skin, leaving the deep peroneal only the first web space. Forgetting that sciatic nerve injury spares the medial leg (saphenous/femoral territory) and treating "loss of sensation in the leg" as uniform. Confusing which nerve passes behind which malleolus: the saphenous nerve runs in front of the medial malleolus with the great saphenous vein; the sural nerve runs behind the lateral malleolus with the small saphenous vein.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M04
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## microtopic
+Cutaneous nerve territories of the leg and foot
+
+## nanotopic
+
+
+## modules
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Leg > Cutaneous nerves
+
+## article_ids
+ART-MSK-AU105-LEG-NERVES-CUTANEOUS
+
+## related_article_ids
+ART-MSK-AU105-LEG-ANKLE-FOOT
+
+
+
+## related_concept_ids
+CON-MSK-9180242FA01B58 | CON-MSK-F27D4743014242 | CON-MSK-AB5318A9255811
+
+## resource_ids
+src_78b66af9c28aa239cdb7 | src_a2ec24de7b5561128fed
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.65
+
+## exam_weight_by_year
+AU_Y1=0.65
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Skin on the lateral border of foot up to tip of little toe is supplied by ... / Cutaneous supply of anteromedial side of leg is provided by ... / Cutaneous innervation of the plantar surface of the 3.5 medial toes is provided by which nerve?
+
+## exam_signal
+src_78b66af9c28aa239cdb7 | bank | | p5,p7-p8 | AU-MED-105
+src_a2ec24de7b5561128fed | bank | | p4 | AU-MED-105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` carries free text instead.
+nanotopicId: No finer printed subdivision in the source bank.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the Lower Limb MCQ bank (parts 2 and 3); no corpus extraction record.
+sourceCandidateIds: Searched find-existing.mjs for "sural nerve" and "cutaneous nerve foot" (no hit); the live plantar-cutaneous-territory concepts (CON-DER-ABE5E8004B7E22, CON-DER-337EE48D1D8BDA) cover only the sole, not the leg/dorsum, so this concept was minted to cover the dorsal and leg territory instead of merging.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: Set after the build-evidence pass against this module's bank sources.
+conflicts: None found between the bank questions and standard gross anatomy.
+uncertainty: None beyond ordinary textbook variation in the sural nerve's exact root contributions.
+relationships: Complements the posterior-compartment/tibial-nerve concept and the live sole-cutaneous-territory concepts (medial/lateral plantar) minted for a different region of skin.
+
+---
+
+# Item
+
+## id
+CON-MSK-3F2004E89BDB84
+
+## label
+The sole of the foot has four muscle layers, the medial plantar nerve supplies only abductor hallucis, flexor digitorum brevis, flexor hallucis brevis and the first lumbrical, and the lateral plantar nerve supplies every other intrinsic muscle, including quadratus plantae (flexor digitorum accessorius) and adductor hallucis
+
+## canonical_key
+sole.muscle-layers-plantar-nerves
+
+## aliases
+Layers of the sole of the foot
+Medial plantar nerve distribution
+Lateral plantar nerve distribution
+Quadratus plantae
+Plantar interossei action
+
+## arabic_label
+طبقات باطن القدم والعصبان الأخمصيان
+
+## arabic_aliases
+
+
+## definition
+The intrinsic muscles of the sole are arranged in four layers from superficial to deep. Layer 1 (most superficial) holds abductor hallucis, flexor digitorum brevis and abductor digiti minimi. Layer 2 holds the tendons of flexor digitorum longus and flexor hallucis longus, plus quadratus plantae (flexor digitorum accessorius, which corrects the oblique pull of flexor digitorum longus) and the four lumbricals. Layer 3 holds flexor hallucis brevis, adductor hallucis and flexor digiti minimi brevis. Layer 4 (deepest) holds the plantar and dorsal interossei plus the tendons of tibialis posterior and peroneus longus crossing the sole. Nerve supply follows a hand-like split of the sole's own two nerves rather than the layers: the medial plantar nerve (the larger terminal branch of the tibial nerve, analogous to the median nerve in the hand) supplies only abductor hallucis, flexor digitorum brevis, flexor hallucis brevis and the first lumbrical — "one and a half" muscles' worth by the classic count. The lateral plantar nerve supplies everything else, including quadratus plantae, adductor hallucis, the interossei, the lateral three lumbricals, abductor digiti minimi and flexor digiti minimi brevis. The plantar interossei adduct the lateral three toes toward the second toe's axis (PAD), while the dorsal interossei and abductor digiti minimi abduct.
+
+## explicit_objective
+State which of the sole's four layers a named muscle belongs to, and assign any sole muscle to the medial or lateral plantar nerve using the "one and a half muscles are medial, the rest are lateral" rule.
+
+## pitfalls
+Assuming quadratus plantae (flexor digitorum accessorius) is medial-plantar-supplied because it is closely tied to the long flexor tendons — it is lateral-plantar-supplied, the classic exception. Assuming abductor hallucis, being medial in position, is joined by adductor hallucis under the same nerve — adductor hallucis is lateral-plantar-supplied despite the shared name pattern. Confusing the sole's four-layer scheme with the hand's simpler thenar/hypothenar/central grouping.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M04
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## microtopic
+Sole muscle layers and plantar nerve distribution
+
+## nanotopic
+
+
+## modules
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot > Sole
+
+## article_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS
+
+## related_article_ids
+ART-MSK-AU105-LEG-ANKLE-FOOT
+
+
+
+## related_concept_ids
+CON-MSK-0CC053D55B268C | CON-DER-ABE5E8004B7E22 | CON-DER-337EE48D1D8BDA
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.65
+
+## exam_weight_by_year
+AU_Y1=0.65
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The lateral plantar nerve supplies the following muscles, EXCEPT / All are supplied by medial plantar nerve except / The medial plantar nerve supplies all of the following muscles EXCEPT / The 1st layer of the sole contains ONE of the following muscles / Action of plantar interossei muscles
+
+## exam_signal
+src_a2ec24de7b5561128fed | bank | | p2-p3 | AU-MED-105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` carries free text instead.
+nanotopicId: No finer printed subdivision in the source bank.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the Lower Limb MCQ bank (part 3, Foot); no corpus extraction record.
+sourceCandidateIds: Searched find-existing.mjs for "plantar nerve" and "quadratus plantae" — the only hits are the live cutaneous-territory concepts (CON-DER-ABE5E8004B7E22, CON-DER-337EE48D1D8BDA), which cover skin sensation, not intrinsic-muscle motor supply or the four-layer scheme; recorded as related, not merged, since the objectives differ (skin territory vs muscle layer/nerve).
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: Set after the build-evidence pass against this module's bank sources.
+conflicts: None found between the bank questions and standard gross anatomy.
+uncertainty: None beyond ordinary textbook variation in numbering the four layers.
+relationships: Complements the live plantar cutaneous-territory concepts (sensory) and the extensor-digitorum-brevis concept (the sole's dorsal-side counterpart).
+
+---
+
+# Item
+
+## id
+CON-MSK-96555E54E55FB1
+
+## label
+The anterior and posterior cruciate ligaments and both menisci lie inside the fibrous capsule of the knee but outside its synovial cavity, the medial meniscus is fused to the medial collateral ligament while the lateral meniscus is separated from the lateral collateral ligament by popliteus, and the suprapatellar bursa (unlike the popliteal bursa) communicates with the joint cavity
+
+## canonical_key
+knee.cruciate-ligaments-menisci-bursae
+
+## aliases
+Knee joint intracapsular structures
+Anterior and posterior cruciate ligaments
+Menisci of the knee
+Bursae around the knee
+
+## arabic_label
+الأربطة الصليبية والغضاريف الهلالية والأجربة المحيطة بمفصل الركبة
+
+## arabic_aliases
+
+
+## definition
+The knee joint's cruciate ligaments (anterior, preventing anterior tibial translation and hyperextension; posterior, preventing posterior tibial translation) and its two menisci (fibrocartilaginous, deepening the tibial condyles and absorbing load) all lie within the fibrous capsule of the joint but are extrasynovial — outside the synovial membrane's true cavity, which reflects around them. The medial collateral ligament is firmly fused to the medial meniscus, so a valgus-and-rotation injury classically tears both together (with the anterior cruciate ligament, the "unhappy triad"); the lateral collateral ligament, by contrast, is separated from the lateral meniscus by the tendon of popliteus, so the lateral meniscus is more mobile and less often torn with lateral ligament injury. Several bursae surround the knee: anteriorly, the suprapatellar bursa lies deep to quadriceps femoris and communicates directly with the joint's synovial cavity (so it distends with any knee effusion), while the prepatellar and infrapatellar bursae are separate, subcutaneous. Posteriorly, the popliteal (semimembranosus) bursa lies between semimembranosus and the medial head of gastrocnemius and does not open anteriorly.
+
+## explicit_objective
+State which knee structures are intracapsular-but-extrasynovial (both cruciates, both menisci), which meniscus is fused to its collateral ligament and which is separated by popliteus, and which bursa communicates with the joint cavity.
+
+## pitfalls
+Calling the cruciate ligaments "intra-synovial" rather than "intracapsular but extrasynovial" — the synovial membrane wraps around them, it does not cover them. Assuming both menisci relate to their collateral ligaments the same way — only the medial meniscus is fused to its ligament; the lateral is free, separated by popliteus, and more mobile. Assuming any anterior bursa communicates with the joint — only the suprapatellar bursa does; the prepatellar and infrapatellar bursae do not.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M04
+
+## topic
+Lower limb
+
+## subtopic
+The Knee
+
+## microtopic
+Cruciate ligaments, menisci and bursae of the knee joint
+
+## nanotopic
+
+
+## modules
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Joints > Knee
+
+## article_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS
+
+## related_article_ids
+ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE
+
+
+
+## related_concept_ids
+CON-MSK-231FAF0D3F1A84 | CON-MSK-EE79F590CED373 | CON-MSK-1D267DB068BB13
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.65
+
+## exam_weight_by_year
+AU_Y1=0.65
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Bursae related to the knee joint anteriorly are all the following EXCEPT / Which ONE of the following prevents hyperextension of the knee joint? / About knee joint, which is false? / All of the following structures are present inside the knee joint EXCEPT / Regarding the knee joint, which is true?
+
+## exam_signal
+src_a2ec24de7b5561128fed | bank | | p9-p11 | AU-MED-105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` carries free text instead.
+nanotopicId: No finer printed subdivision in the source bank.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the Lower Limb MCQ bank (part 3, Joints); no corpus extraction record.
+sourceCandidateIds: Searched find-existing.mjs for "knee joint cruciate" and "meniscus" (no hit); the existing popliteus/locking concept (CON-MSK-231FAF0D3F1A84) covers the screw-home mechanism, not the ligament/meniscus/bursa anatomy, so this was minted rather than merged.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: Set after the build-evidence pass against this module's bank sources.
+conflicts: None found between the bank questions and standard gross anatomy.
+uncertainty: None beyond ordinary textbook variation in naming the popliteal bursa vs "semimembranosus bursa" (the same structure).
+relationships: Complements the popliteus locking/unlocking concept and the pes anserinus concept, both already minted for this module's knee content.
+
+---
+
+# Item
+
+## id
+CON-MSK-0415214C935D2D
+
+## label
+The anterior tibial artery becomes the dorsalis pedis artery in front of the ankle midway between the malleoli and ends by diving into the sole to complete the deep plantar arch, while the posterior tibial artery — the tibial nerve's arterial companion — gives the peroneal artery (the leg's main supply and the fibula's nutrient artery) and terminates behind the medial malleolus by dividing into the medial and lateral plantar arteries
+
+## canonical_key
+leg.dorsalis-pedis-posterior-tibial-arteries
+
+## aliases
+Dorsalis pedis artery
+Posterior tibial artery branches
+Peroneal artery
+Nutrient artery of the fibula
+Deep plantar arch origin
+
+## arabic_label
+الشريان الظهري للقدم والشريان الظنبوبي الخلفي
+
+## arabic_aliases
+
+
+## definition
+The anterior tibial artery, having pierced the interosseous membrane near the fibular neck to enter the anterior compartment, runs down with the deep peroneal nerve (lying medial to it) and becomes the dorsalis pedis artery in front of the ankle, midway between the malleoli, deep to the extensor retinacula. Dorsalis pedis crosses the talar neck, navicular and intermediate cuneiform, gives the first dorsal metatarsal artery directly, and ends by passing between the two heads of the first dorsal interosseous muscle to dive into the sole and complete the deep plantar arch — so most of its course is dorsal, but it ends in the sole. The posterior tibial artery, the larger terminal branch of the popliteal artery, descends with the tibial nerve deep to soleus, gives the peroneal artery (its largest branch, the main arterial supply of the leg's posterior and lateral compartments and the source of the fibula's nutrient artery), and passes behind the medial malleolus to terminate by dividing into the medial and lateral plantar arteries, which complete the plantar arch from the medial side.
+
+## explicit_objective
+Trace the anterior tibial artery to dorsalis pedis and describe where it ends, and trace the posterior tibial artery through its peroneal branch to its plantar termination, naming which artery supplies the fibula's nutrient vessel.
+
+## pitfalls
+Assuming dorsalis pedis is the continuation of the posterior tibial artery — it is the anterior tibial artery's continuation; the posterior tibial artery instead terminates as the plantar arteries behind the medial malleolus. Assuming most of dorsalis pedis's course lies in the sole — it lies mostly on the dorsum and only dives into the sole at its very end. Forgetting that the nutrient artery of the fibula branches from the peroneal artery, not directly from the posterior tibial artery.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M04
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## microtopic
+Dorsalis pedis and posterior tibial arteries
+
+## nanotopic
+
+
+## modules
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Vessels > Leg and foot arteries
+
+## article_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS
+
+## related_article_ids
+ART-MSK-AU105-LL-VESSELS-LYMPHATICS
+
+
+
+## related_concept_ids
+CON-MSK-B85AD5D0E8E692 | CON-MSK-F656F96F575FFB | CON-MSK-71EEF2E5A3E88A
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AU_Y1=0.6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Regarding the dorsalis pedis artery: ... / Which dorsal metatarsal artery is a direct branch from dorsalis pedis artery? / Regarding the posterior tibial artery, the following statements are correct EXCEPT / The nutrient artery of the fibula is a branch from ONE of the following
+
+## exam_signal
+src_a2ec24de7b5561128fed | bank | | p5,p7-p8 | AU-MED-105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` carries free text instead.
+nanotopicId: No finer printed subdivision in the source bank.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the Lower Limb MCQ bank (part 3, Vessels); no corpus extraction record.
+sourceCandidateIds: Searched find-existing.mjs for "dorsalis pedis" and "posterior tibial artery" — the only hits are two narrow live concepts (CON-MSK-F656F96F575FFB, the anterior-tibial-to-dorsalis-pedis transition point, and CON-MSK-71EEF2E5A3E88A, dorsalis pedis's bony bed) which state isolated facts, not the full course/branches/termination this bank tests; recorded as related, not merged.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: Set after the build-evidence pass against this module's bank sources.
+conflicts: None found between the bank questions and standard gross anatomy.
+uncertainty: None beyond ordinary textbook variation in how many named branches the posterior tibial artery gives (5-7 depending on the source).
+relationships: Complements the live dorsalis-pedis-transition and popliteal-artery concepts, and the great/small saphenous vein concept already minted for this module.
+
+---
+
+# Item
+
+## id
+CON-MSK-5428C841EE2214
+
+## label
+Adductor longus separates the femoral artery from profunda femoris in the thigh, the medial circumflex femoral artery usually branches from profunda femoris, and the femoral vein — lying medial to the femoral artery at the base of the femoral triangle — receives the profunda femoris, lateral circumflex femoral and deep external pudendal veins as tributaries, not the small saphenous vein, which drains into the popliteal vein instead
+
+## canonical_key
+thigh.femoral-profunda-vein-relations
+
+## aliases
+Femoral vein tributaries
+Medial circumflex femoral artery origin
+Muscle separating femoral and profunda femoris arteries
+Femoral vein and artery relations in the femoral triangle
+
+## arabic_label
+علاقات الوريد الفخذي والشريان العميق الفخذي
+
+## arabic_aliases
+
+
+## definition
+Within the femoral triangle, the femoral vein lies medial to the femoral artery at the triangle's base (the reverse of their relation lower down, where the vein comes to lie posterior to the artery in the adductor canal), and receives the great saphenous vein plus several deep tributaries — profunda femoris vein, the medial and lateral circumflex femoral veins, and the deep external pudendal vein. The small (short) saphenous vein is not one of them: it drains into the popliteal vein instead, behind the knee. Profunda femoris, the femoral artery's largest branch, arises just below the inguinal ligament and gives the medial and lateral circumflex femoral arteries (which, though textbooks occasionally show either arising directly from the femoral artery, usually branch from profunda femoris in this bank's convention) before continuing as three or four perforating arteries. As profunda femoris runs posteriorly to reach the back of the thigh, adductor longus crosses in front of it, so the belly of adductor longus is the muscle that separates the femoral artery (which continues anteriorly into the adductor canal) from profunda femoris (which passes deep to adductor longus toward the perforating branches).
+
+## explicit_objective
+State which vein the femoral vein's deep tributaries are (and that the small saphenous vein is not one of them), name the usual origin of the medial circumflex femoral artery, and name the muscle that separates the femoral artery from profunda femoris.
+
+## pitfalls
+Assuming the small saphenous vein drains into the femoral vein by analogy with the great saphenous vein — it drains into the popliteal vein instead. Assuming the femoral artery and profunda femoris run parallel and separate for their whole course without a specific muscle marking the split — adductor longus is the answer this bank wants. Forgetting that the femoral vein's medial position relative to the artery is specific to the base of the femoral triangle, not a fixed relation throughout the thigh.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M02
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## microtopic
+Femoral vein tributaries and the femoral/profunda femoris relation
+
+## nanotopic
+
+
+## modules
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Vessels > Thigh veins and profunda femoris
+
+## article_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS
+
+## related_article_ids
+ART-MSK-AU105-LL-VESSELS-LYMPHATICS
+ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+
+
+## related_concept_ids
+CON-MSK-7D8177F46809E6 | CON-MSK-104D395A23E1DF | CON-MSK-1928774A98F5F2
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AU_Y1=0.55
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.3
+
+## confidence
+0.65
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+All of the followings are tributaries to the femoral vein EXCEPT / Medial circumflex femoral artery is direct branch from: / Which muscle separates femoral artery from profunda femoris artery? / In the lower part of popliteal fossa: ...
+
+## exam_signal
+src_a2ec24de7b5561128fed | bank | | p5,p8 | AU-MED-105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` carries free text instead.
+nanotopicId: No finer printed subdivision in the source bank.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the Lower Limb MCQ bank (part 3, Vessels); no corpus extraction record.
+sourceCandidateIds: Searched find-existing.mjs for "femoral vein" and "profunda femoris" — the existing profunda-femoris concept (CON-MSK-7D8177F46809E6) covers the artery's own branches, not the vein tributaries or the femoral/profunda separating muscle, so this was minted rather than merged.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: Set after the build-evidence pass against this module's bank sources.
+conflicts: None found between the bank questions and standard gross anatomy.
+uncertainty: Some texts show the medial circumflex femoral artery arising directly from the femoral artery in a minority of individuals; the bank's printed key treats profunda femoris as the standard origin, which this record follows.
+relationships: Complements the existing profunda-femoris and femoral-sheath concepts minted for this module's thigh content.
+
+---
+
+# Item
+
+## id
+CON-MSK-8E4BB62A579068
+
+## label
+The clavicle is the first bone to begin ossifying and articulates only with the sternum and acromion (not the coracoid process); its named surfaces carry set muscle and ligament attachments, the coracoid process gives attachment to pectoralis minor, and the scapular spine continues laterally as the acromion
+
+## canonical_key
+shoulder.pectoral-girdle-osteology-landmarks
+
+## aliases
+Clavicle attachments
+Clavicle ossification order
+Coracoid process attachments
+Spine of scapula and acromion
+Medial border of the scapula attachments
+Pectoral girdle osteology
+
+## arabic_label
+تشريح عظمتي الترقوة ولوح الكتف
+
+## arabic_aliases
+
+
+## definition
+The clavicle is the earliest bone in the body to begin ossifying (intramembranous, in the sixth embryonic week) even though its medial epiphysis is the last to fuse, in the mid-20s. It articulates with the manubrium sterni medially and the acromion laterally — it does not articulate with the coracoid process, which is connected to it only indirectly via the coracoclavicular ligament. Trapezius attaches to the posterior border of its lateral one-third (not the medial two-thirds); pectoralis major attaches along the anterior border and superior surface of roughly its medial half. On the lateral one-third, deltoid takes the anterior border and superior surface while the coracoclavicular ligament (conoid tubercle and trapezoid line) takes the inferior surface; subclavius occupies the subclavian groove on the inferior surface of the middle third, and the costoclavicular ligament attaches to the costal tuberosity on the inferior surface of the medial end — so of these, only deltoid attaches to a surface other than the inferior surface. On the scapula, the medial (vertebral) border gives attachment to levator scapulae, both rhomboids and serratus anterior, while teres minor and teres major attach instead to the lateral (axillary) border — so among muscles said to attach to the medial border, teres minor is the exception. Pectoralis major attaches to the clavicle, sternum and upper costal cartilages, not to the scapula at all, unlike deltoid, trapezius and serratus anterior, which all do attach to the scapula. The coracoid process gives attachment to pectoralis minor (its tip), and to coracobrachialis and the short head of biceps together (its apex, the conjoint tendon) — not to the long head of biceps (supraglenoid tubercle) or the long head of triceps (infraglenoid tubercle). The scapular spine, running across the posterior surface, is continuous laterally with the acromion process, the point where deltoid and trapezius both attach.
+
+## explicit_objective
+State that the clavicle is the first bone to start ossifying and articulates only with the sternum and acromion, list which named clavicular surface each muscle or ligament attaches to (and which is the odd one out), name the coracoid process's own muscle attachments, and state that the scapular spine continues laterally as the acromion.
+
+## pitfalls
+Assuming the clavicle articulates with the coracoid process because the coracoclavicular ligament connects them so firmly — the ligament is not a joint, and the clavicle's only two articulations are the sternoclavicular and acromioclavicular joints. Assuming trapezius attaches to the clavicle's medial two-thirds by analogy with pectoralis major's own medial-half attachment on the opposite border — trapezius in fact takes the lateral one-third. Assuming the long head of biceps shares the coracoid process with pectoralis minor and coracobrachialis; it arises instead from the supraglenoid tubercle, above the glenoid rim.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T02
+
+## secondary_node_ids
+SYS-MSK-T01-S01-M01
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder
+
+## microtopic
+Clavicle, scapula and coracoid process osteology
+
+## nanotopic
+
+
+## modules
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Pectoral region and shoulder girdle
+
+## article_ids
+ART-MSK-AU105-SHOULDER-GIRDLE-NERVES
+
+## related_article_ids
+ART-MSK-AU105-FOREARM-NERVES
+
+## related_concept_ids
+CON-MSK-7F73A394EF5B30 | CON-MSK-59453A6F6ACC2E
+
+## resource_ids
+src_c86f47635016c192bd42
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Regarding the clavicle, which is true? / Which structure is attached to the lateral 1/3 of the clavicle? / The inferior surface of the clavicle gives attachment to all of the following except / The earliest bone to ossify / One of the following is not attached to the medial border of the scapula / The coracoid process gives attachment to ... muscle / All of the following are attached to the scapula except / The spine of the scapula is continuous laterally as the
+
+## exam_signal
+src_c86f47635016c192bd42 | bank | | p2-p3 | AU-MED-105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` carries the department lecture's own heading as free text instead.
+arabicAliases: No standard second Arabic alias beyond the label is in wide undergraduate use.
+nanotopicId: No further printed subdivision in the source lecture.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the Upper Limb MCQ bank (section A, Q1-Q3, Q4, Q5-Q8); no corpus extraction record.
+sourceCandidateIds: Searched "coracoid process", "clavicle attachments", "medial border of the scapula" and "spine of scapula" against live state and every pending batch. Live state returns only an unrelated coracoid bursa concept (CON-MSK-058A0E02F0CAF8); the pending 101-ISK batch has no concept stating the clavicle's own surface-by-surface attachment table, its ossification order, or the coracoid process's own attachment list — treated as a genuine gap for this specific osteology-table objective, distinct from the already-minted clavicle-fracture concept.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: Set after the build-evidence pass; see evidence/AU-MED-105-anatomy-claims.md.
+relationships: Cross-linked to the clavicle-fracture-displacement concept (same bone) and to the medial-border-of-the-scapula concept CON-MSK-59453A6F6ACC2E (pending, cited for the teres-minor exception).
+
+---
+
+# Item
+
+## id
+CON-MSK-77C8DFCB26299F
+
+## label
+The scaphoid is the most commonly fractured carpal bone (classically after a fall on the outstretched hand, with its distal-entering blood supply putting the proximal fragment at risk of avascular necrosis), and the pisiform is the carpal sesamoid bone, embedded in the tendon of flexor carpi ulnaris
+
+## canonical_key
+wrist.carpal-bones-scaphoid-fracture-and-pisiform-sesamoid
+
+## aliases
+Scaphoid fracture
+Most fractured carpal bone
+Fall on the outstretched hand
+Pisiform sesamoid bone
+Carpal bone identification
+
+## arabic_label
+كسر العظم الزورقي والعظم الحمصي كعظم سمسماني
+
+## arabic_aliases
+
+
+## definition
+Of the eight carpal bones, the scaphoid is by far the most frequently fractured, typically from a fall onto an outstretched, dorsiflexed hand (FOOSH injury) that loads the bone against the radius. Its blood supply enters mainly through its distal pole, so a fracture through the waist or proximal third can cut off the proximal fragment's supply and lead to avascular necrosis and non-union — a fracture that may not even show on an initial X-ray, so a patient with snuff-box tenderness after a fall is splinted and re-imaged even with a "normal" film. The pisiform is a separate carpal identification point: it is the one sesamoid bone of the wrist, developing within the tendon of flexor carpi ulnaris rather than as one of the seven bones that ossify in the carpal row proper, and it forms the medial attachment of the flexor retinaculum.
+
+## explicit_objective
+Name the scaphoid as the most commonly fractured carpal bone and explain why its fracture risks avascular necrosis, and identify the pisiform as the carpal sesamoid bone.
+
+## pitfalls
+Confusing the scaphoid's fracture risk with a different carpal bone, or missing that the risk of avascular necrosis follows specifically from the blood supply entering distally rather than proximally — a proximal-pole fracture is the dangerous one, not a distal-pole fracture.
+
+## concept_type
+factual_recall
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T02
+
+## secondary_node_ids
+SYS-MSK-T01-S01-M04
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Wrist and Hand
+
+## article_ids
+ART-MSK-AU105-CARPAL-BONES
+
+## related_article_ids
+ART-MSK-AU105-FOREARM-NERVES: the same upper-limb region one joint proximal, taught in the same lecture set
+
+
+
+## related_concept_ids
+CON-MSK-1424177E093253
+
+## resource_ids
+src_c86f47635016c192bd42
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-A6E0F27C9B4D
+CLM-2F9C8E1B5A03
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The most carpal bone to be fractured is: (a) Pisiform (b) Hamate (c) Triquetral (d) Scaphoid / Which of the following bone is considered a sesamoid bone (embedded within a muscle)? (a) Pisiform (b) Hamate (c) Triquetral (d) Scaphoid
+
+## exam_signal
+src_c86f47635016c192bd42 | bank | | p27,p37 | AU-MED-105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` carries the department lecture's own heading as free text instead.
+arabicAliases: No standard second Arabic alias beyond the label is in wide undergraduate use.
+nanotopicId: No further printed subdivision in the source lecture.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the Upper Limb MCQ bank (section C, Forearm/Hand, Q2-Q3) and the same bank's Q51 scaphoid-fracture vignette; no corpus extraction record.
+sourceCandidateIds: Searched "scaphoid", "pisiform" and "carpal bone" against live state and every pending batch. The only hit is the live anatomical-snuff-box concept (CON-MSK-1424177E093253), which mentions the scaphoid as the snuff box's floor but states nothing about fracture frequency, avascular necrosis risk, or the pisiform's sesamoid status — treated as a genuine gap and cross-linked rather than duplicated.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: Set after the build-evidence pass; see evidence/AU-MED-105-anatomy-claims.md.
+relationships: Cross-linked to the live anatomical-snuff-box concept (the radial artery crosses the snuff box floored by the scaphoid, the vessel put at risk by a scaphoid fracture).

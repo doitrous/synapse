@@ -52,9 +52,9 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: "pulmonary-compliance.rises-in-emphysema-falls-in-fibrosis-oedema-and-surfactant-deficiency",
-      label: "Pulmonary compliance rises when the lung's elastic recoil is lost, as in emphysema, and falls whenever the lung is stiffened by fibrosis, pulmonary oedema or a surfactant deficiency",
-      definition: "Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch. It rises whenever the lung's elastic recoil is reduced: in emphysema, destruction of the alveolar walls and their elastin and collagen fibres leaves the lung with less tissue resisting expansion, producing the classic abnormally compliant, 'floppy' lung of that disease. Compliance falls, by contrast, whenever something stiffens the lung: pulmonary fibrosis lays down excess fibrous tissue; acute pulmonary oedema fills the interstitium and alveoli with fluid; and a surfactant deficiency leaves alveolar surface tension abnormally high. All three of these opposite-direction conditions raise, rather than lower, the elastic resistance the respiratory muscles must overcome, and so make the lung harder — not easier — to inflate.",
-      objective: "State that pulmonary compliance is increased in emphysema (lost elastic recoil) and decreased in pulmonary fibrosis, acute pulmonary oedema and surfactant deficiency (all of which stiffen the lung), and explain the mechanism behind each direction of change.",
+      label: "Pulmonary compliance rises when the lung's elastic recoil is lost, as in emphysema, and falls whenever the lung is stiffened by fibrosis, pulmonary oedema or a surfactant deficiency; its normal value is about 200 ml/cmH2O",
+      definition: "Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range. It rises whenever the lung's elastic recoil is reduced: in emphysema, destruction of the alveolar walls and their elastin and collagen fibres leaves the lung with less tissue resisting expansion, producing the classic abnormally compliant, 'floppy' lung of that disease. Compliance falls, by contrast, whenever something stiffens the lung: pulmonary fibrosis lays down excess fibrous tissue; acute pulmonary oedema fills the interstitium and alveoli with fluid; and a surfactant deficiency leaves alveolar surface tension abnormally high. All three of these opposite-direction conditions raise, rather than lower, the elastic resistance the respiratory muscles must overcome, and so make the lung harder — not easier — to inflate.",
+      objective: "State the normal value of pulmonary compliance (about 200 ml/cmH2O), and that it is increased in emphysema (lost elastic recoil) and decreased in pulmonary fibrosis, acute pulmonary oedema and surfactant deficiency (all of which stiffen the lung), and explain the mechanism behind each direction of change.",
       pitfall: "Assuming any lung disease affects compliance the same way. Emphysema is the one common condition that increases compliance, by destroying elastic tissue; fibrosis, oedema and surfactant deficiency all decrease it, by stiffening the lung through three different mechanisms (excess fibrous tissue, fluid-filled airspaces, and raised surface tension respectively).",
       subject: "resp",
       primary: "DIS-PHY-T03",
@@ -62,6 +62,47 @@ export const LEAF: McqLeafSeed = {
       modulePath: "104 CPS > Physiology > Respiratory System > Pulmonary Compliance",
       type: "mechanism",
       aliases: ["Lung compliance in emphysema", "Compliance in restrictive lung disease", "Floppy lung of emphysema"],
+    },
+    // Sparse reuse, not a fresh mint: canonical_key already pinned in
+    // 104-CPS-physiology-concepts.md as CON-RES-97B778DE471E7E, this
+    // module's own respiratory-mechanics ground (also cited by
+    // ART-104-PHY-DEADSPACE-AND-TRANSPULMONARY-PRESSURE, "104-CPS-
+    // physiology.md"). Not previously claimed by any 104-CPS MCQ seed
+    // (grepped before use).
+    {
+      key: "transpulmonary-pressure.definition-and-intrapleural-pressure-extremes",
+      label: "Transpulmonary pressure — intra-alveolar minus intrapleural pressure — is the force expanding the lungs, and intrapleural pressure swings from about -30 to -40 cmH2O in a maximal forced inspiration against a closed glottis to about +50 cmH2O in a forced expiration against one",
+      definition: "Transpulmonary (transmural) pressure equals intra-alveolar pressure minus intrapleural pressure, and is the force that expands the lungs against their elastic recoil: at the end of normal expiration it is about 3 cmH2O (0 - (-3)), and at the end of normal inspiration about 6 cmH2O (0 - (-6)). Intrapleural pressure itself is about -3 cmH2O at the end of normal expiration and ranges -6 to -8 cmH2O at the end of normal inspiration; in Muller's experiment (forced inspiration against a closed glottis) it can fall to -30 to -40 cmH2O, and in Valsalva's experiment (forced expiration against a closed glottis) it can rise to about +50 cmH2O, becoming positive. In diseases that destroy elastic fibres, such as emphysema, reduced lung recoil makes the intrapleural pressure less negative than normal at any given lung volume. Transpulmonary pressure is a genuinely different pressure from intrapleural pressure itself, which is the pressure within the (potential) space between the two layers of the pleural membrane, not the difference across the lung.",
+      objective: "Define transpulmonary pressure and calculate it from the book's own end-expiratory and end-inspiratory intrapleural pressure values, state the intrapleural pressure extremes reached in Muller's and Valsalva's experiments, and distinguish transpulmonary pressure (intra-alveolar minus intrapleural) from intrapleural pressure itself (the pressure between the two pleural layers).",
+      pitfall: "Confusing transpulmonary pressure (the difference between intra-alveolar and intrapleural pressure, the force expanding the lung) with intrapleural pressure itself (the pressure within the pleural space between the two pleural layers) — the two are related but distinct quantities, and only the first is what actually distends the lung.",
+      subject: "resp",
+      primary: "DIS-PHY-T03",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Respiratory System > Pulmonary Compliance",
+      type: "definition",
+      aliases: ["Transpulmonary pressure", "Intrapleural pressure extremes", "Muller's and Valsalva's experiments"],
+    },
+    // Fresh mint. Searched first (find-existing.mjs "chest wall compliance",
+    // grep "chest.wall.compliance" across docs/Kasr-Source-Imports/concept/
+    // 104-CPS-*.md) — no pinned record. Standard, undisputed respiratory
+    // physiology (the restrictive-disorder grouping the bank's own row
+    // tests), disclosed as a gap; no 104-CPS article currently teaches
+    // chest wall (as opposed to lung parenchymal) compliance.
+    {
+      key: "chest-wall-compliance.reduced-by-skeletal-and-neuromuscular-restriction",
+      label: "Chest wall compliance is reduced by disorders that mechanically stiffen or deform the thoracic cage — scoliosis, rib fractures — or that prevent its normal active expansion — paralysis of the respiratory muscles",
+      definition: "Chest wall compliance describes how easily the thoracic cage itself expands, distinct from lung parenchymal compliance (set by lung tissue elastic recoil and surfactant). Scoliosis and rib fractures reduce effective chest wall compliance by directly deforming or mechanically restricting the thoracic cage; paralysis of the respiratory muscles reduces it functionally by preventing the normal active expansion that keeps the chest wall operating over its most compliant range. These three disorders are classically grouped together in respiratory physiology teaching as causes of a restrictive breathing pattern with reduced chest wall compliance, contrasted with obstructive lung diseases such as emphysema, which instead increase lung (not chest wall) compliance.",
+      objective: "Group scoliosis, rib fractures and respiratory muscle paralysis together as causes of decreased chest wall compliance, and distinguish chest wall compliance from lung parenchymal compliance.",
+      pitfall: "Treating chest wall compliance and lung compliance as the same quantity. They are mechanically distinct: lung compliance is set by lung tissue elastic recoil and surfactant, while chest wall compliance is set by the thoracic cage's own structural integrity and the respiratory muscles' ability to expand it.",
+      subject: "resp",
+      primary: "DIS-PHY-T03",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Respiratory System > Pulmonary Compliance",
+      type: "classification",
+      aliases: ["Chest wall compliance", "Restrictive chest wall disorders"],
+      gaps: [
+        "No 104-CPS article currently teaches chest wall (as opposed to lung parenchymal) compliance specifically; standard, undisputed respiratory physiology (the restrictive-disorder grouping this bank row itself tests), flagged for the article-authoring lane rather than invented without any source at all.",
+      ],
     },
   ],
 
@@ -114,6 +155,211 @@ export const LEAF: McqLeafSeed = {
         C: "Surfactant deficiency raises alveolar surface tension, stiffening the lung and decreasing — not increasing — compliance.",
         D: "Acute pulmonary oedema fills the interstitium and alveoli with fluid, stiffening the lung and decreasing — not increasing — compliance.",
       },
+    },
+    {
+      key: "among-the-functions-of-surfactant-c9e14838",
+      conceptKey: "surfactant.reduces-surface-tension-and-increases-compliance",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Identify facilitation of lung expansion as surfactant's credited function, against a similar-sounding but wrongly-timed distractor about preventing alveolar collapse.",
+      explanations: {
+        A: "Correct. Surfactant lowers alveolar surface tension, and because surface tension is the larger of the two forces resisting lung expansion, lowering it makes the lung easier to inflate — surfactant facilitates lung expansion.",
+        B: "Surfactant does the opposite of facilitating lung collapse: by lowering surface tension it helps keep alveoli, particularly the smallest ones, from collapsing.",
+        C: "Surfactant's protection against alveolar collapse operates mainly at low lung volumes, near the end of expiration, when small alveoli are most at risk under high surface tension — not specifically 'during inspiration', when alveoli are actively expanding rather than at risk of closing.",
+        D: "Surfactant, by lowering alveolar surface tension, reduces rather than favours the tendency for fluid to be drawn from the pulmonary capillaries into the alveoli — a high, unopposed surface tension would pull fluid inward, the opposite of surfactant's actual effect.",
+      },
+    },
+    {
+      key: "an-infant-born-prematurely-in-gestational-week-25-has-neonat-f5ecfb0b",
+      conceptKey: "surfactant.reduces-surface-tension-and-increases-compliance",
+      difficulty: "Moderate",
+      questionType: "Application",
+      learningObjective: "Predict collapse of the small alveoli, rather than a normal arterial PO2, increased compliance, or a raised L:S ratio, in a 25-week premature infant with neonatal respiratory distress syndrome.",
+      explanations: {
+        A: "Arterial PO2 falls, rather than reaching a normal value such as 100 mmHg, since collapsed, poorly ventilated alveoli fail to oxygenate blood adequately in surfactant-deficient respiratory distress syndrome.",
+        B: "Correct. Without adequate surfactant, alveolar surface tension is markedly increased, and the smallest alveoli — whose surface-tension effect is proportionally greatest, by Laplace's law — collapse first: the defining lesion of respiratory distress syndrome of prematurity.",
+        C: "Lung compliance falls, not rises, when surfactant is deficient, since the raised alveolar surface tension stiffens the lung.",
+        D: "A lecithin:sphingomyelin ratio below, not above, 2:1 in amniotic fluid is what predicts surfactant deficiency and a high risk of respiratory distress syndrome this early in gestation.",
+      },
+    },
+    {
+      key: "if-the-lungs-experimentally-filled-completely-with-saline-so-4d4a1047",
+      conceptKey: "surfactant.reduces-surface-tension-and-increases-compliance",
+      difficulty: "Hard",
+      questionType: "Mechanism",
+      learningObjective: "State that filling the lungs completely with saline abolishes the air-liquid interface and its surface tension, sharply increasing lung compliance.",
+      explanations: {
+        A: "Surface tension is essentially eliminated, not merely 'increased slightly', once the air-liquid interface is removed entirely by filling the alveoli with saline.",
+        C: "Compliance changes dramatically (rises), rather than remaining constant, once the air-liquid interface and its surface tension are removed by saline filling.",
+        D: "Correct. Filling the lungs completely with saline abolishes the air-liquid interface altogether — both surfaces of the alveolar lining fluid become liquid-liquid — so surface tension's contribution to the lung's elastic recoil is essentially lost, and with that resistance removed, lung compliance rises sharply. This classic experiment is the proof that surfactant's own job is specifically to lower surface tension at that same air-liquid interface, since removing the interface itself reproduces the same easy-inflation effect surfactant partially achieves.",
+      },
+    },
+    {
+      key: "normal-value-of-lung-compliance-is-about-b1eb2ab0",
+      conceptKey: "pulmonary-compliance.rises-in-emphysema-falls-in-fibrosis-oedema-and-surfactant-deficiency",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "State that normal pulmonary compliance is about 200 ml/cmH2O, an order of magnitude different from the three other listed values.",
+      explanations: {
+        A: "Correct. Normal pulmonary compliance is about 200 ml/cmH2O — about 200 ml of additional volume enters the lungs for each 1 cmH2O rise in transpulmonary pressure near the normal operating range.",
+        B: "2 L/cmH2O is ten times too high for normal lung compliance and would represent an implausibly floppy lung.",
+        C: "0.02 L/cmH2O (20 ml/cmH2O) is ten times too low for normal lung compliance and would represent an implausibly stiff lung.",
+        D: "A compliance of zero would mean the lung cannot be inflated at all by any pressure change, which is not physiologically meaningful for a functioning lung.",
+      },
+    },
+    {
+      key: "regarding-transpulmonary-pressure-all-is-correct-except-eb323f99",
+      conceptKey: "transpulmonary-pressure.definition-and-intrapleural-pressure-extremes",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify that transpulmonary pressure is the difference between intra-alveolar and intrapleural pressures — not the pressure between the two pleural layers, which is intrapleural pressure itself — as the exception.",
+      explanations: {
+        A: "True of transpulmonary pressure, so not the exception — it is, by definition, the difference between intra-alveolar and intrapleural pressures.",
+        B: "True, so not the exception — transpulmonary pressure is positive (about +3 to +6 cmH2O relative to atmospheric) throughout normal breathing, including on inspiration, so it is higher than atmospheric pressure.",
+        C: "True, so not the exception — transpulmonary pressure is specifically the force that expands the lungs against their own elastic recoil.",
+        D: "The exception, and the answer. The pressure between the two layers of the pleural membrane is intrapleural pressure itself, a different quantity from transpulmonary pressure, which is instead the difference between intra-alveolar and intrapleural pressure.",
+      },
+    },
+    {
+      key: "the-recoil-tendency-of-the-lungs-b4d2cfea",
+      conceptKey: "pulmonary-compliance.rises-in-emphysema-falls-in-fibrosis-oedema-and-surfactant-deficiency",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Attribute the lung's elastic recoil tendency mainly to alveolar surface tension, and state that recoil falls (not rises) in emphysema and rises (not falls) in lung fibrosis.",
+      explanations: {
+        A: "The lung's recoil tendency is the opposite of a tendency to expand — it is the lung's tendency to collapse inward, pulling away from the chest wall, which surfactant's surface-tension-lowering effect partly offsets.",
+        B: "Correct. The dominant source of the lung's elastic recoil is the surface tension of the fluid lining the alveoli, with the elastic fibres of the lung tissue itself contributing the remainder.",
+        C: "Recoil falls, not rises, in emphysema: destruction of the lung's elastin and collagen fibres reduces tissue's own contribution to recoil, producing the classic floppy, low-recoil lung of that disease.",
+        D: "Recoil rises, not falls, in lung fibrosis: excess fibrous tissue stiffens the lung and increases, rather than decreases, its tendency to recoil inward.",
+      },
+    },
+    {
+      key: "the-resistance-of-the-lungs-to-inflation-is-increase-by-ee943cea",
+      conceptKey: "pulmonary-compliance.rises-in-emphysema-falls-in-fibrosis-oedema-and-surfactant-deficiency",
+      difficulty: "Moderate",
+      questionType: "Mechanism",
+      learningObjective: "Link increased elastic (recoil) forces in the lung tissue to increased resistance to inflation (reduced compliance), against three factors that instead ease inflation.",
+      explanations: {
+        A: "Correct. Resistance to lung inflation rises when the lung tissue's own elastic (recoil) forces increase, since a stiffer lung needs a larger pressure change to achieve the same rise in volume — the definition of reduced compliance, i.e. increased resistance to inflation.",
+        B: "Decreasing alveolar surface tension makes the lung easier, not harder, to inflate, lowering resistance to inflation.",
+        C: "Increasing surfactant concentration lowers surface tension and increases compliance, again easing inflation rather than increasing resistance to it.",
+        D: "Decreasing collagen and elastic fibres makes lung tissue floppier (as in emphysema), increasing compliance and decreasing, not increasing, resistance to inflation.",
+      },
+    },
+    {
+      key: "which-disease-increase-lung-compliance-a-emphysema-572250fc",
+      conceptKey: "pulmonary-compliance.rises-in-emphysema-falls-in-fibrosis-oedema-and-surfactant-deficiency",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "Identify emphysema as the disease that increases lung compliance, against two conditions that instead decrease it.",
+      explanations: {
+        A: "Correct. Emphysema destroys alveolar walls and the elastin fibres within them, reducing the lung's elastic recoil and making it abnormally easy to inflate — the classic 'floppy lung' of increased compliance.",
+        B: "Lung fibrosis stiffens the lung with excess collagenous tissue, decreasing compliance — the opposite effect from emphysema.",
+        C: "Lung congestion and pulmonary oedema stiffen the lung by filling it with excess blood or fluid, decreasing rather than increasing compliance.",
+      },
+    },
+    {
+      key: "which-disorder-decreases-the-chest-compliance-a178c097",
+      conceptKey: "chest-wall-compliance.reduced-by-skeletal-and-neuromuscular-restriction",
+      difficulty: "Moderate",
+      questionType: "Classification",
+      learningObjective: "Group scoliosis, rib fractures and paralysis of the respiratory muscles together as disorders that all reduce chest wall compliance.",
+      explanations: {
+        A: "Scoliosis alone genuinely reduces chest wall compliance by structurally deforming the thoracic cage, but it is not the sole correct answer, since the other two disorders are also classically grouped with it.",
+        B: "Rib fractures alone genuinely reduce effective chest wall compliance, but again not the sole correct answer given the grouped framing of this question.",
+        C: "Paralysis of the respiratory muscles alone is classically grouped with the other two disorders as a cause of a restrictive breathing pattern, but again not the sole correct answer here.",
+        D: "Correct. Scoliosis and rib fractures mechanically stiffen and deform the thoracic cage directly, while paralysis prevents the normal active expansion that keeps the chest wall operating over its most compliant range — all three are classically grouped together as causes of decreased chest wall compliance.",
+      },
+    },
+    {
+      key: "which-of-the-following-is-correct-regarding-type-il-pneumocy-1e2dfdfa",
+      conceptKey: "surfactant.reduces-surface-tension-and-increases-compliance",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "State that type II pneumocytes secrete surfactant, against distractors describing type I pneumocytes and the blood-air barrier instead.",
+      explanations: {
+        A: "Correct. Type II pneumocytes are the alveolar cells that secrete pulmonary surfactant.",
+        B: "Preventing leakage of tissue fluid into the alveoli is a property of the thin blood-air barrier formed by type I pneumocytes and the capillary endothelium together, not a function credited specifically to type II pneumocytes.",
+        C: "Type I pneumocytes, not type II, are the flat, squamous cells forming the thin gas-exchange surface of the alveolar wall; type II pneumocytes are cuboidal, surfactant-secreting cells.",
+      },
+    },
+    {
+      key: "which-of-the-following-is-not-true-concerning-respiratory-di-1e77d3bd",
+      conceptKey: "surfactant.reduces-surface-tension-and-increases-compliance",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify that alveoli in surfactant-deficient respiratory distress syndrome tend to collapse, not over-expand and burst, as the exception among true statements about the disease.",
+      explanations: {
+        A: "True of respiratory distress syndrome in premature infants, so not the exception — their type II pneumocytes' ability to synthesise dipalmitoyl lecithin (a major surfactant phospholipid) is limited by immaturity.",
+        B: "True, so not the exception — the raised surface tension from surfactant deficiency stiffens the lung, so higher pressures are required to ventilate it.",
+        C: "True, so not the exception — surfactant deficiency raises alveolar surface tension and so lowers, not raises, lung compliance.",
+        D: "The exception, and the answer. Surfactant-deficient alveoli, especially the smallest ones, tend to collapse at the end of expiration under their raised surface tension, rather than over-expand and burst at the end of inspiration.",
+      },
+    },
+    {
+      key: "which-of-the-following-is-not-true-concerning-respiratory-di-95a783aa",
+      conceptKey: "surfactant.reduces-surface-tension-and-increases-compliance",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify, against a second, independently-extracted occurrence of the same stem, that surfactant-deficient alveoli collapse rather than over-expand and burst.",
+      explanations: {
+        A: "True of respiratory distress syndrome in premature infants, so not the exception — limited dipalmitoyl lecithin synthesis by immature type II pneumocytes is the underlying surfactant deficiency.",
+        B: "True, so not the exception — the raised surface tension from surfactant deficiency stiffens the lung, requiring higher pressures to ventilate it.",
+        C: "True, so not the exception — surfactant deficiency raises surface tension and lowers lung compliance, not the reverse.",
+        D: "The exception, and the answer. Surfactant-deficient alveoli tend to collapse under raised surface tension, particularly at the end of expiration, rather than over-expand and burst at the end of inspiration.",
+      },
+    },
+    {
+      key: "which-of-the-following-is-not-true-concerning-respiratory-di-a84e357a",
+      conceptKey: "surfactant.reduces-surface-tension-and-increases-compliance",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Confirm, against a third source occurrence of the same stem, that surfactant-deficient alveoli collapse rather than over-expand and burst.",
+      explanations: {
+        A: "True of respiratory distress syndrome in premature infants, so not the exception — the immature lung's limited dipalmitoyl lecithin synthesis is the underlying surfactant deficiency.",
+        B: "True, so not the exception — surfactant deficiency's raised surface tension stiffens the lung, requiring higher ventilating pressures.",
+        C: "True, so not the exception — lung compliance is low (not high) when surfactant is deficient, since raised surface tension stiffens the lung.",
+        D: "The exception, and the answer. Alveoli in surfactant deficiency tend to collapse under the raised surface tension, especially toward the end of expiration, rather than over-expand and burst at the end of inspiration.",
+      },
+    },
+    {
+      key: "which-of-the-following-represents-the-pressure-difference-th-3a447d91",
+      conceptKey: "transpulmonary-pressure.definition-and-intrapleural-pressure-extremes",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "Identify transpulmonary pressure, rather than alveolar, airway opening or transthoracic pressure, as the pressure difference that distends the lungs.",
+      explanations: {
+        A: "Alveolar pressure alone is a single pressure, not a pressure difference, and it is not by itself what distends the lungs.",
+        B: "Airway opening pressure is the pressure at the mouth or nose, not the pressure difference across the lung that expands it.",
+        C: "Transthoracic pressure is the pressure difference across the whole chest wall and lung together, a broader quantity than the one specifically expanding the lung itself.",
+        D: "Correct. Transpulmonary pressure — intra-alveolar pressure minus intrapleural pressure — is specifically the pressure difference that acts to distend the lungs against their own elastic recoil.",
+      },
+    },
+    {
+      key: "which-of-tne-following-represents-the-pressure-difference-th-8e096a02",
+      conceptKey: "transpulmonary-pressure.definition-and-intrapleural-pressure-extremes",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "Confirm, against a second, independently-extracted source occurrence, that transpulmonary pressure is the pressure difference that distends the lungs.",
+      explanations: {
+        A: "Alveolar pressure alone is a single pressure, not a pressure difference, and is not by itself what distends the lungs.",
+        B: "Airway opening pressure is the pressure at the mouth or nose, not the pressure difference across the lung that expands it.",
+        C: "Transthoracic pressure is the pressure difference across the whole chest wall and lung together, a broader quantity than the one specifically expanding the lung itself.",
+        D: "Correct. Transpulmonary pressure — intra-alveolar pressure minus intrapleural pressure — is specifically the pressure difference that acts to distend the lungs against their own elastic recoil.",
+      },
+    },
+
+    // --- Excluded: out of this module's scope ---
+
+    {
+      key: "concerning-compliance-of-the-stomach-one-is-true-ec247c63",
+      conceptKey: "surfactant.reduces-surface-tension-and-increases-compliance",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank-tagged 'Pulmonary Compliance' by the stem's own use of the word 'compliance', but the content is gastric smooth-muscle plasticity and the vagal receptive-relaxation reflex — gastrointestinal physiology with no home anywhere in the 104 CPS module (cardiovascular, pulmonary, cytogenetic and lymphatic content only across every 104-CPS seed file; no GI leaf, concept or article exists to route it to). Not a corruption — the row is clean and answerable (editorial answer B, gastric smooth muscle plasticity) — but genuinely out of this module's scope, the same class of exclusion as the ledger's own 'out-of-module' category.",
     },
   ],
 }

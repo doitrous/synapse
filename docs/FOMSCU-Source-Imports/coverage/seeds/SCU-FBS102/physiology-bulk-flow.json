@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-bulk-flow",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-bulk-flow'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "cvs",
+    "module_subject": "SCU-FBS102 > Physiology > Cardiovascular Physiology > Capillary Exchange"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-BULK-FLOW",
+      "key": "physiology-bulk-flow",
+      "title": "Capillary hydrostatic pressure drives bulk flow",
+      "subject": "cvs",
+      "module_subject": "SCU-FBS102 > Physiology > Cardiovascular Physiology > Capillary Exchange",
+      "question": "The hydrostatic pressure gradient established across the capillary wall predominantly drives which of the following physical processes?",
+      "options": {
+        "A": "Rapid diffusion of water-soluble drugs",
+        "B": "Simple diffusion of lipid-soluble gases",
+        "C": "Bulk flow of fluid through capillary pores",
+        "D": "Slow active transport of large water-soluble proteins"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Water-soluble drug movement across the capillary wall, where it occurs through pores, is itself governed by the same bulk-flow (and diffusion) principles, but the hydrostatic gradient specifically drives bulk flow, not a distinct 'rapid diffusion' process for drugs.",
+        "B": "Incorrect. Lipid-soluble gases cross the capillary wall by simple diffusion through the endothelial cell membranes themselves, a process driven by their own concentration (partial pressure) gradient, not by capillary hydrostatic pressure.",
+        "C": "Correct. The hydrostatic pressure gradient between the capillary lumen and the interstitium is the Starling force that drives bulk flow — the mass movement of fluid and its small dissolved solutes together through the capillary wall's pores — producing filtration where hydrostatic pressure dominates. This distinguishes bulk flow from simple diffusion, which moves individual solute molecules down their own concentration gradient rather than fluid in mass.",
+        "D": "Incorrect. Large plasma proteins do not normally cross an intact capillary wall in appreciable amounts by any active transport process; their near-impermeability is what generates the opposing oncotic pressure in the first place."
+      },
+      "topic": "Physiology",
+      "subtopic": "Capillary dynamics",
+      "main_concept": "CON-CVS-779450D64D0D1D",
+      "concept_ids": [
+        "CON-CVS-779450D64D0D1D"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-CVS-EXERCISE-AND-CAPILLARY-DYNAMICS"
+      ],
+      "learning_objective": "State that bulk flow across the capillary wall is driven predominantly by the hydrostatic pressure gradient, and distinguish it from diffusion of individual solutes.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q60, Formative and Past Exams 2022 Q40",
+      "author_notes": ""
+    }
+  ]
+}

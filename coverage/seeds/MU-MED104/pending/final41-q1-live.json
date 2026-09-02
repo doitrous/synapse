@@ -1,0 +1,49 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-final41-eoy-msk2",
+  "header": "MU-MED104 · '00 Module-wide/07 EOY Exams/Final 41.pdf' (the phone-photo 'Make Watermark' scan that defeats default OCR but renders cleanly, LANE-CARD §7), Q8, lower-limb Anatomy. Question on an existing LIVE concept id (CON-MSK-594BD65D8C0D7A) — sparse +mu/+MU_Y1/+MU-MED104 overlay for this id is in concept/MU-MED104-concepts.md, not pending-live, since the concept is already live. Grey-highlight key, read directly from the rendered page image. Apply after concept/MU-MED104-concepts.md lands.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "subject": "msk",
+    "module_subject": "MU-MED104 > 00 Module-wide > 07 EOY Exams > Final 41 > Anatomy",
+    "setting": "Clinical",
+    "estimated_seconds": 50,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-final41-eoy-msk2-q01",
+      "id": "QST-MUMED104-FINAL41-Q08",
+      "title": "Structure spared by an adductor canal infection",
+      "question": "Following surgery, a female patient had an infection in the adductor canal, damaging the enclosed structures. Which of the following structures remains intact?",
+      "options": { "A": "Femoral artery", "B": "Femoral vein", "C": "Saphenous nerve", "D": "Great saphenous vein", "E": "Nerve to the vastus medialis" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The femoral artery (continuing as the popliteal artery beyond the canal) is one of the principal structures the adductor canal encloses along its whole length, running deep to the sartorius/roof and posterior to adductor longus and adductor magnus, so an infection damaging the canal's contents would directly threaten it, not spare it.",
+        "B": "Incorrect. The femoral vein travels alongside the femoral artery within the adductor canal (initially lateral to it, crossing to lie posterior and then medial toward the canal's lower end), so it too is an enclosed structure at risk from an infection inside the canal, not a structure that would be spared.",
+        "C": "Incorrect. The saphenous nerve runs within the adductor canal alongside the femoral vessels before piercing the roof to become superficial near the knee, so for most of its course it is one of the canal's own contents and would be exposed to an infection damaging those enclosed structures.",
+        "D": "Correct. The great saphenous vein is a superficial vein that runs in the subcutaneous tissue of the thigh, outside the adductor canal altogether — it is not one of the canal's contents (which are the femoral artery, femoral vein, saphenous nerve and the nerve to vastus medialis). Because an infection confined to the canal damages only the structures enclosed within it, the great saphenous vein, lying superficial to and separate from the canal, is the one structure that would remain intact.",
+        "E": "Incorrect. The nerve to vastus medialis travels within the adductor canal together with the femoral vessels and the saphenous nerve before it leaves to supply the muscle, so it is one of the canal's enclosed contents and would be at risk from an infection there, not spared by it."
+      },
+      "main_concept": "CON-MSK-594BD65D8C0D7A",
+      "concept_ids": ["CON-MSK-594BD65D8C0D7A"],
+      "contextual_concept_ids": [],
+      "topic": "Lower limb",
+      "subtopic": "Adductor canal contents",
+      "difficulty": "Hard",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Name the femoral artery, femoral vein, saphenous nerve and nerve to vastus medialis as the adductor canal's contents, and recognise the great saphenous vein as a superficial structure outside the canal.",
+      "media_recommendations": "",
+      "library_ids": ["ART-MSK-TOP-BD3D529647"],
+      "source_citation": "00 Module-wide/07 EOY Exams/Final 41.pdf, Q8 (Menoufia MED104 EOY exam, Anatomy section, lower limb)",
+      "field_notes": { "keySource": "grey-highlight, read from rendered page image, Final 41.pdf p1, Q8", "mu": "Final 41.pdf, Q8, Anatomy section — the 'Make Watermark' phone-photo scan that defeats default OCR (coverage/MU-MED104-triage.md)" },
+      "author_notes": ""
+    }
+  ]
+}

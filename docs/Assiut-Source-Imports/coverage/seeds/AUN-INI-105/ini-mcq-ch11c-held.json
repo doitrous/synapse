@@ -1,0 +1,116 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch11",
+  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 11 \"Nematoda\", lane author13's Q111-164 window. This file carries only the 27 held/duplicate keys of that window (no emitted questions) so ledger.mjs reconciles them as Held with reasons rather than Remaining. See docs/Assiut-Source-Imports/coverage/seeds/AUN-INI-105/ini-mcq-ch11c-part1.json and -part2.json for the 27 authored questions of the same window.",
+  "defaults": {},
+  "questions": [
+    {
+      "key": "ini-mcq-ch11-q111",
+      "hold": "duplicate-of ini-mcq-ch11-q016 -- identical stem/options (Ancylostoma duodenale infection = skin penetration by larva)"
+    },
+    {
+      "key": "ini-mcq-ch11-q112",
+      "hold": "duplicate-of ini-mcq-ch11-q018 -- identical stem/options (Ancylostoma duodenale inhabits the small intestine)"
+    },
+    {
+      "key": "ini-mcq-ch11-q113",
+      "hold": "duplicate-of ini-mcq-ch11-q023 -- identical stem/options (Enterobius vermicularis is called the pin worm)"
+    },
+    {
+      "key": "ini-mcq-ch11-q114",
+      "hold": "duplicate-of ini-mcq-ch11-q026 -- identical stem/options (Enterobius does not lay eggs in the intestine)"
+    },
+    {
+      "key": "ini-mcq-ch11-q115",
+      "hold": "duplicate-of ini-mcq-ch11-q032 -- identical stem/options (Hymenolepis nana larvae not recovered from sputum)"
+    },
+    {
+      "key": "ini-mcq-ch11-q116",
+      "hold": "duplicate-of ini-mcq-ch11-q035 -- identical stem/options (Strongyloides differs from Ancylostoma)"
+    },
+    {
+      "key": "ini-mcq-ch11-q117",
+      "hold": "duplicate-of ini-mcq-ch11-q036 -- identical stem/options (Strongyloides infects man through skin penetration)"
+    },
+    {
+      "key": "ini-mcq-ch11-q118",
+      "hold": "duplicate-of ini-mcq-ch11-q037 -- identical stem/options (Strongyloides larva to adult when soil favourable)"
+    },
+    {
+      "key": "ini-mcq-ch11-q119",
+      "hold": "duplicate-of ini-mcq-ch11-q042 -- identical stem/options (Trichinella acquired from undercooked pork)"
+    },
+    {
+      "key": "ini-mcq-ch11-q120",
+      "hold": "duplicate-of ini-mcq-ch11-q043 -- identical stem/options (Trichinella infective stage = encysted larva)"
+    },
+    {
+      "key": "ini-mcq-ch11-q121",
+      "hold": "duplicate-of ini-mcq-ch11-q044 -- identical stem/options (Trichinella larvae carried to striated muscle)"
+    },
+    {
+      "key": "ini-mcq-ch11-q122",
+      "hold": "duplicate-of ini-mcq-ch11-q047 -- identical stem/options (Dracunculus medinensis habitat = subcutaneous tissue)"
+    },
+    {
+      "key": "ini-mcq-ch11-q123",
+      "hold": "duplicate-of ini-mcq-ch11-q048 -- identical stem/options (Cyclops = intermediate host of Dracunculus)"
+    },
+    {
+      "key": "ini-mcq-ch11-q128",
+      "hold": "duplicate-of ini-mcq-ch11-q016 -- identical stem/options (same repeated fact as q111, Ancylostoma infection = skin penetration by larva)"
+    },
+    {
+      "key": "ini-mcq-ch11-q129",
+      "hold": "source prints only 3 usable options (Small intestine/Large intestine/Lymphatic system; option D is blank), short of the seed schema's 4-option floor"
+    },
+    {
+      "key": "ini-mcq-ch11-q130",
+      "hold": "duplicate-of ini-mcq-ch11-q021 -- identical stem/options (Ascaris lumbricoides general biology, \"all of the above\")"
+    },
+    {
+      "key": "ini-mcq-ch11-q131",
+      "hold": "duplicate-of ini-mcq-ch11-q023 -- identical stem/options (same repeated fact as q113, Enterobius = pin worm)"
+    },
+    {
+      "key": "ini-mcq-ch11-q140",
+      "hold": "printed key (C, Enterobius vermicularis) conflicts with this chapter's own unauthored Q89 (identical stem/options, key D = Strongyloides stercoralis) -- Strongyloides is the textbook example of internal autoinfection (rhabditiform larvae maturing to filariform within the gut before re-penetrating), distinct from Enterobius's external retrofection; held per the rule that a printed key contradicting the expected fact is held with the doubt written out"
+    },
+    {
+      "key": "ini-mcq-ch11-q143",
+      "hold": "printed key (A, Trichinella spiralis) conflicts with this chapter's own unauthored Q92 (identical stem/options, key B = Strongyloides stercoralis) -- genuinely ambiguous besides, since both Trichinella spiralis and Strongyloides stercoralis are truly larviparous (lay live larvae rather than eggs), so neither printed key can be confirmed correct without further source clarification"
+    },
+    {
+      "key": "ini-mcq-ch11-q148",
+      "hold": "duplicate-of ini-mcq-ch11-q031 -- identical stem/options (cutaneous larva migrans caused by Ancylostoma caninum)"
+    },
+    {
+      "key": "ini-mcq-ch11-q149",
+      "hold": "duplicate-of ini-mcq-ch11-q033 -- identical stem/options (visceral larva migrans caused by ingestion of dog/cat Ascaris eggs)"
+    },
+    {
+      "key": "ini-mcq-ch11-q150",
+      "hold": "printed key (A, filariform larva in thoracic muscles of mosquito) conflicts with this chapter's own ini-mcq-ch11-q050 (identical stem/options, key B = filariform larva in labium of mosquito) -- the labium/proboscis, not the thoracic flight muscles where larval development merely occurs, is the textbook-correct location of the stage actually transmitted to man"
+    },
+    {
+      "key": "ini-mcq-ch11-q151",
+      "hold": "duplicate-of ini-mcq-ch11-q051 -- identical stem/options (vector of Wuchereria bancrofti = culicine mosquito)"
+    },
+    {
+      "key": "ini-mcq-ch11-q152",
+      "hold": "duplicate-of ini-mcq-ch11-q052 -- identical stem/options (Wuchereria bancrofti microfilaria is sheathed)"
+    },
+    {
+      "key": "ini-mcq-ch11-q153",
+      "hold": "duplicate-of ini-mcq-ch11-q053 -- identical stem/options (Wuchereria bancrofti microfilaria differs from Loa loa's)"
+    },
+    {
+      "key": "ini-mcq-ch11-q154",
+      "hold": "duplicate-of ini-mcq-ch11-q055 -- identical stem/options (adult Wuchereria bancrofti worms found in lymph nodes)"
+    },
+    {
+      "key": "ini-mcq-ch11-q156",
+      "hold": "printed key (A, Blood) conflicts with this chapter's own unauthored Q58 (identical stem/options, key C = Subcutaneous) -- Onchocerca volvulus microfilariae are classically skin/subcutaneous-dwelling (recovered by skin snip), not found circulating in peripheral blood like most other filarial worms"
+    }
+  ]
+}

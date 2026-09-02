@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-foramen-rotundum-ovale-and-spinosum",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-foramen-rotundum-ovale-and-spinosum'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "msk",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Osteology of the Skull"
+  },
+  "questions": [
+    {
+      "key": "anatomy-foramen-rotundum-ovale-and-spinosum",
+      "id": "QST-SCUFBS102-S2-ANATOMY-FORAMEN-ROVS",
+      "title": "The sphenoid bone's own foramina",
+      "question": "Which of the following foramina exist within the sphenoid bone structure?",
+      "options": {
+        "A": "Foramen rotundum only",
+        "B": "Foramen rotundum and ovale",
+        "C": "Foramen rotundum, ovale and spinosum",
+        "D": "Foramen rotundum, ovale, spinosum and lacerum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Foramen rotundum is one of the sphenoid's own foramina, but it is not the only one — ovale and spinosum are also sited within the sphenoid's greater wing.",
+        "B": "Incorrect. This omits foramen spinosum, which transmits the middle meningeal vessels and is the third of the sphenoid's own three named foramina.",
+        "C": "Correct. The greater wing of the sphenoid bone is pierced by three named foramina: foramen rotundum (maxillary nerve, CN V2), foramen ovale (mandibular nerve, CN V3) and foramen spinosum (middle meningeal vessels). Foramen lacerum is not a true foramen within the sphenoid itself — it forms at the junction of the sphenoid, temporal and occipital bones and is largely filled with cartilage in life.",
+        "D": "Incorrect. This wrongly includes foramen lacerum, which forms at a suture between three separate bones rather than being sited within the sphenoid bone alone."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system: skull",
+      "main_concept": "CON-MSK-C71615E94A4BB1",
+      "concept_ids": [
+        "CON-MSK-C71615E94A4BB1"
+      ],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.4,
+      "reasoning_level": 2,
+      "inferred_difficulty": 40,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.25,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-SKULL-OSTEOLOGY"
+      ],
+      "learning_objective": "Name the three foramina genuinely sited within the sphenoid bone and exclude foramen lacerum.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q20",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q20; source-JSON extraction."
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+# MANS-PPPM — recovered answer keys, Pharmacology section p.1-6 (Q1-30 of 218 in the full bank)
+# Source: PPPM Exam Bank ( 61, 60, 59, 58).pdf (src_111bbd078054dc30d3af), Pharmacology section (p.1-16 of 44)
+# Format: <seed key> — matches this pass's seed file keys exactly (pppmbank-qNN),
+#         one per line, so ledger.mjs's authored/held/remaining counts are accurate
+#         for this pass rather than polluted by free-text stem descriptions.
+# Method: printed red-text bold key in a right-margin key column, one column per
+#         5-question page block — NOT aligned line-by-line with the option text.
+#         pagetext.mjs keys mis-attributed several keys on this layout (confirmed
+#         by comparing its output against a full-page render of p.1-2); every key
+#         used below was verified by rendering p.1-6 and reading the key column
+#         directly, not by trusting pagetext.mjs keys' output. See
+#         MANS-PPPM-triage.md for the full trap writeup.
+
+pppmbank-q01
+pppmbank-q02
+pppmbank-q03
+pppmbank-q04
+pppmbank-q05
+pppmbank-q06
+pppmbank-q07
+pppmbank-q08
+pppmbank-q09
+pppmbank-q10
+pppmbank-q11
+pppmbank-q12
+pppmbank-q13
+pppmbank-q14
+pppmbank-q15
+pppmbank-q16
+pppmbank-q17
+pppmbank-q18
+pppmbank-q19
+pppmbank-q20
+pppmbank-q21
+pppmbank-q22
+pppmbank-q23
+pppmbank-q24
+pppmbank-q25
+pppmbank-q26
+pppmbank-q27
+pppmbank-q28
+pppmbank-q29
+pppmbank-q30
+
+# --- lane mans-pppm-author2 (cluster pppmbank2) ---
+# MANS-PPPM — recovered answer keys, Pharmacology p.7-16 (Q31-80 of the section)
+# plus Pathology p.17 (Q1-5), of the same PPPM Exam Bank ( 61, 60, 59, 58).pdf
+# (src_111bbd078054dc30d3af). 48 authored below (7 held cohort-repeats of
+# lane 1's p.1-6 items are in the seed's own "hold" list, not repeated here,
+# per this file's own authored-keys-only convention above).
+# Method: same right-margin key-column layout as p.1-6 (see lane 1's header
+# above); pagetext.mjs keys confirmed unreliable again on this file's layout,
+# so every key below was verified by rendering the page and reading the key
+# column directly. 11 renders (p.7-17), under the lane's 14-render cap.
+
+pppmbank2-q02
+pppmbank2-q03
+pppmbank2-q04
+pppmbank2-q05
+pppmbank2-q06
+pppmbank2-q07
+pppmbank2-q08
+pppmbank2-q09
+pppmbank2-q10
+pppmbank2-q11
+pppmbank2-q12
+pppmbank2-q13
+pppmbank2-q14
+pppmbank2-q15
+pppmbank2-q16
+pppmbank2-q19
+pppmbank2-q20
+pppmbank2-q21
+pppmbank2-q22
+pppmbank2-q23
+pppmbank2-q24
+pppmbank2-q26
+pppmbank2-q28
+pppmbank2-q30
+pppmbank2-q31
+pppmbank2-q32
+pppmbank2-q33
+pppmbank2-q34
+pppmbank2-q35
+pppmbank2-q37
+pppmbank2-q38
+pppmbank2-q39
+pppmbank2-q40
+pppmbank2-q41
+pppmbank2-q42
+pppmbank2-q43
+pppmbank2-q44
+pppmbank2-q45
+pppmbank2-q46
+pppmbank2-q47
+pppmbank2-q48
+pppmbank2-q49
+pppmbank2-q50
+pppmbank2-q51
+pppmbank2-q52
+pppmbank2-q53
+pppmbank2-q54
+pppmbank2-q55

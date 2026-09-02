@@ -24,3 +24,22 @@ teaching.bio2.five-fu.thymidylate-synthase
 
 ## modules
 +AUN-MPT-104
+
+---
+
+# Item
+
+## id
+CON-INF-8658F6CDBBB685
+
+## canonical_key
+teaching.pathobook.tb.granuloma-formation
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-MPT-104

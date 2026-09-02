@@ -57,6 +57,14 @@ open-question ambiguity like ASU-IBM's biochemistry-of-metabolism cluster had in
 - Y2's `asu-y2-coverage.md`/`asu-y3-coverage.md` (built by the older `scripts/asu/build-foundation.mjs`,
   pre-dating the shared `pagetext.mjs` toolchain) already name every blocked/no-text-layer file
   per module — read those before re-discovering the same blockers via `pagetext.mjs status`.
+- **`DIS-ANA`/`DIS-PHY` secondary_node_ids: topic-level only, no `-S0N` facet suffix** (e.g. `DIS-PHY-T07`
+  Neurophysiology) — facet nodes get filtered as redundant; place on the topic node only.
+- **`difficulty` enum is exactly `Easy`/`Moderate`/`Hard`/`Challenging`** — any other spelling imports
+  silently as `Moderate`, no error.
+- **No emit tool exists for concept/article records** (only MCQs have one, `00-START-HERE.md` §0.5.3)
+  — cluster 1 hand-typed them. `177ad476` touches only `LEDGER.md`/a seed rename, **no generator
+  script exists anywhere in this repo** — an earlier draft of this note was wrong. Cluster 2 wrote its
+  own throwaway generator (uncommitted) to move faster; a committed, reusable one is still a gap.
 
 ## 5. Readability
 

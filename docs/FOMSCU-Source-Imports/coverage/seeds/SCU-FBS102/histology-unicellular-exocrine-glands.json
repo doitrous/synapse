@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-unicellular-exocrine-glands",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'histology-unicellular-exocrine-glands'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Glandular Epithelium"
+  },
+  "questions": [
+    {
+      "key": "histology-unicellular-exocrine-glands",
+      "id": "QST-SCUFBS102-S2-PENDING-HISTOLOGY-UNICELLULAR-EXOCRINE",
+      "title": "The flask-shaped unicellular exocrine gland cell",
+      "question": "Which cells are scattered among epithelial cells flask shaped with basal organelles and apical secretory granules?",
+      "options": {
+        "A": "Unicellular exocrine glands",
+        "B": "Multicellular endocrine glands",
+        "C": "Simple branched alveolar glands",
+        "D": "Compound tubular exocrine glands"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. By number of cells, an exocrine gland is unicellular (a single secretory cell) or multicellular. The goblet cell is the unicellular example: a single flask-shaped cell that secretes mucus onto a free surface, with its organelles concentrated basally and secretory granules apically, scattered within the epithelium of the respiratory tract and intestine. It needs no duct because it already sits on the free surface.",
+        "B": "Incorrect. Endocrine glands secrete internally into the bloodstream via ductless multicellular arrangements (like follicles or cords), not scattered single flask-shaped surface cells.",
+        "C": "Incorrect. A simple branched alveolar gland describes a multicellular gland shape classified by duct branching and secretory-unit shape, not a single scattered flask-shaped cell.",
+        "D": "Incorrect. A compound tubular gland is a multicellular gland with a branched duct system, the opposite structural scale from a single scattered unicellular gland cell."
+      },
+      "topic": "Histology",
+      "subtopic": "Glandular epithelium",
+      "main_concept": "CON-FND-B22A5E7A56EC8F",
+      "concept_ids": [
+        "CON-FND-B22A5E7A56EC8F"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 55,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-101-HIS-GLANDULAR-EPITHELIUM"
+      ],
+      "learning_objective": "Name the goblet cell as the unicellular exocrine gland example, flask-shaped with basal organelles and apical granules.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q28",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q28; source-JSON extraction. Re-verification note: originally triaged 'new'; a grep pass found CON-FND-B22A5E7A56EC8F ('the goblet cell is a unicellular exocrine gland: one flask-shaped mucous-secreting cell', Kasr 101-ISK-mcq-concepts.md / docs/import-ready) states this exact fact — overlaid here rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md."
+      }
+    }
+  ]
+}

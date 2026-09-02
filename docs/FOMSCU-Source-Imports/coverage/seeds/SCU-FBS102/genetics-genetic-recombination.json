@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-genetic-recombination",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-genetic-recombination'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "dev",
+    "module_subject": "SCU-FBS102 > Genetics > Cell Division > Meiosis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-GENETIC-RECOMBINATION",
+      "key": "genetics-genetic-recombination",
+      "title": "Homologous chromosome pairing enables genetic recombination",
+      "subject": "dev",
+      "module_subject": "SCU-FBS102 > Genetics > Cell Division > Meiosis",
+      "question": "Homologous chromosome pairing is a critically important event in meiosis because it is strictly necessary for which process?",
+      "options": {
+        "A": "Inheritable genetic predisposition in general",
+        "B": "Genetic recombination (crossing-over)",
+        "C": "The cell's rapid DNA replication",
+        "D": "Targeted cellular DNA repair"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. General inheritance of traits does not itself require homologous pairing as a mechanism; homologous pairing's specific structural role is to enable the exchange of DNA segments between chromatids.",
+        "B": "Correct. During prophase of meiosis I, homologous chromosomes physically pair (synapsis) along their length via the synaptonemal complex, and only while aligned in this way can non-sister chromatids exchange corresponding DNA segments at chiasmata — genetic recombination — producing new combinations of maternal and paternal alleles. Without this length-wise pairing, non-sister chromatids could never align closely enough to exchange DNA segments in the first place.",
+        "C": "Incorrect. DNA replication occurs earlier, during the S phase preceding meiosis, and does not require homologous chromosome pairing; pairing is a prophase I event, well after replication is complete.",
+        "D": "Incorrect. Targeted DNA repair is a distinct cellular process from meiotic recombination and does not depend on homologous chromosome pairing in the meiotic sense described here."
+      },
+      "topic": "Genetics",
+      "subtopic": "Meiosis",
+      "main_concept": "CON-DEV-38EEEE71FB6A48",
+      "concept_ids": [
+        "CON-DEV-38EEEE71FB6A48"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MEIOSIS-SPERMATOGENESIS"
+      ],
+      "learning_objective": "State that pairing (synapsis) of homologous chromosomes during meiosis I is the structural requirement that permits crossing-over and thus genetic recombination between maternal and paternal chromatids.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q68, Formative and Past Exams 2022 Q48",
+      "author_notes": ""
+    }
+  ]
+}

@@ -10,7 +10,7 @@
     The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
     The Intercostal Muscles — 4 questions, 1 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
-    The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
+    The Brachiocephalic Veins, SVC and Azygos System — 10 questions, 5 concepts
     Anatomy Respiratory System — Lungs, Gross Anatomy — 21 questions, 10 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
@@ -20,58 +20,59 @@
     The Trachea, Bronchi and Thoracic Oesophagus — 10 questions, 3 concepts
     The Typical Intercostal Nerve — 6 questions, 1 concepts
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
+    Histology Cardiovascular System — Artery Classification — 39 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
-    Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
-    Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
+    Histology Cardiovascular System — A-V Connections — 36 questions, 5 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 9 questions, 3 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Physiology Cardiovascular System — Pacemaker Electrophysiology — 17 questions, 4 concepts
-    Histology Cardiovascular System — Veins — 19 questions, 2 concepts
+    Histology Cardiovascular System — Veins — 20 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
     Physiology Cardiovascular System — Working Myocyte Action Potential — 8 questions, 2 concepts
-    Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
+    Cytogenetics — Aneuploidy Mechanisms and General Causes — 9 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
-    Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
-    Cytogenetics — Cell Renewal Classification — 3 questions, 1 concepts
+    Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 7 questions, 1 concepts
+    Cytogenetics — Cell Renewal Classification — 7 questions, 1 concepts
     Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 26 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
-    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 21 questions, 3 concepts
-    Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
-    Macrophage system — 5 questions, 1 concepts
-    Lymphatic and Macrophage System — Lymph Node — 20 questions, 8 concepts
-    Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
-    Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
-    Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
+    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 28 questions, 3 concepts
+    Cytogenetics — Structural Aberrations — 18 questions, 1 concepts
+    Macrophage system — 7 questions, 1 concepts
+    Lymphatic and Macrophage System — Lymph Node — 29 questions, 8 concepts
+    Lymphatic and Macrophage System — Spleen — 26 questions, 6 concepts
+    Lymphatic and Macrophage System — Thymus — 19 questions, 3 concepts
+    Lymphatic and Macrophage System — Tonsils — 18 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
+    Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 41 questions, 10 concepts
-    Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
-    Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 14 questions, 4 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 46 questions, 11 concepts
+    Physiology Respiratory System — Non-Chemical Control of Respiration — 26 questions, 5 concepts
+    Physiology Cardiovascular System — Special Circulation (Coronary) — 4 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
-    Physiology Respiratory System — Gas Exchange in the Lung — 6 questions, 2 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 17 questions, 4 concepts
+    Physiology Cardiovascular System — Endothelium and Vasoactive Hormones — 14 questions, 7 concepts
+    Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 32 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
-    Pulmonary Compliance — 20 questions, 3 concepts
+    Pulmonary Compliance — 29 questions, 3 concepts
     Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
-    Pulmonary Compliance — 4 questions, 2 concepts
-    Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 18 questions, 5 concepts
+    Pulmonary Compliance — 20 questions, 4 concepts
+    Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 7 questions, 1 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 28 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
-    Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
-    Respiratory System — Respiratory Portion Pneumocytes — 49 questions, 6 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 43 questions, 6 concepts
+    Respiratory System — Larynx and Airway Wall — 43 questions, 4 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 53 questions, 7 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -83,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  178 questions were excluded and 0 held back for having no
+  221 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4935,6 +4936,99 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8EEA7DC33FAA
+## title
+Regarding brachiocephalic veins, one of the following statements is incorrect: ١
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding brachiocephalic veins, one of the following statements is incorrect: ١
+## answer_a
+They drain both upper limbs and head and neck
+## explanation_a
+True, so not the incorrect statement — each brachiocephalic vein drains its own side's upper limb and head and neck, via the subclavian and internal jugular veins respectively.
+## answer_b
+They drain lymph from whole body. 0
+## explanation_b
+The incorrect statement, and the answer. This leaf's own concept states only the LEFT brachiocephalic vein receives the thoracic duct, as one tributary alongside the left internal thoracic, first posterior intercostal and superior intercostal veins — a single one-sided tributary relationship, not a general claim that the brachiocephalic veins 'drain lymph from the whole body'.
+
+Why this is right:
+- The right and left brachiocephalic veins drain the upper limbs, head and neck, the anterior thoracic wall, the upper posterior thoracic wall, and lymph from the whole body, ending by uniting behind the lower border of the first right costal cartilage to form the superior vena cava.
+- The right vein descends nearly vertically from the medial end of the right clavicle, receiving the right internal thoracic vein, the right first posterior intercostal vein and the right lymphatic duct.
+## answer_c
+It receives the thoracic duct as a tributary
+## explanation_c
+True, so not the incorrect statement — the left brachiocephalic vein does receive the thoracic duct as a tributary, exactly as this leaf's own concept states.
+## answer_d
+It descends obliquely downwards and to the right. ;
+## explanation_d
+True, so not the incorrect statement — the left brachiocephalic vein runs obliquely down and to the right, behind the upper half of the manubrium and along the aortic arch, before uniting with the right to form the SVC.
+## correct_answer
+B
+## main_concept
+CON-CVS-9CDFD3C60A2550
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+Anatomy
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the brachiocephalic veins do not 'drain lymph from the whole body' — only the left one receives the thoracic duct as one of several tributaries — against three genuine statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p24 q22. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
@@ -14236,6 +14330,190 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-6476C3FB1B47
+## title
+All characters of Coronary artery except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of Coronary artery except
+## answer_a
+thickened by smooth muscle fiber increase with age
+## explanation_a
+Not established as the exception here — the coronary artery's tunica media, like any muscular artery's, is dominated by circularly arranged smooth muscle, consistent with the general muscular-artery pattern this leaf's own classification concept describes.
+## answer_b
+has clear EEL
+## explanation_b
+True of a muscular artery, so not the exception — coronary arteries, like muscular arteries generally, may carry a recognisable external elastic lamina at the media-adventitia boundary.
+## answer_c
+has no IEL
+## explanation_c
+The exception, and the answer. As a medium-sized muscular artery, the coronary artery carries a prominent, well-defined internal elastic lamina separating intima from media — that prominent IEL is exactly what identifies a muscular artery on a slide, the opposite of having none. A common trap: using the presence of an internal elastic lamina alone to separate arterial classes, rather than checking how prominent it is.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_d
+thin T-adventitia
+## explanation_d
+True of a muscular artery's adventitia, so not the exception — a thin, loose connective-tissue coat relative to the thick, muscle-dominated media is exactly the muscular-artery pattern this leaf's own concept states.
+## correct_answer
+C
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a coronary artery, as a muscular artery, carries a prominent internal elastic lamina rather than none, against three statements consistent with the general muscular-artery pattern.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q34. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-5C88AC3C48D9
+## title
+Specialized types of medium sized artery include the following:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Specialized types of medium sized artery include the following:
+## answer_a
+Coronary artery
+## explanation_a
+The coronary artery is one of the medium-sized muscular arteries' own named, specialized examples — a muscle-dominated-media vessel supplying an organ (the heart), matching this leaf's own classification of the medium/muscular class.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_b
+Vasa vasora
+## explanation_b
+Vasa vasorum are small nutrient vessels within a large vessel's own wall, not a type of artery in this three-way classification at all.
+## answer_c
+Muscular artery
+## explanation_c
+'Muscular artery' is the generic category name for the medium-sized class itself, not a specialized type within it — the stem asks for a named specialized example, which the coronary artery supplies.
+## answer_d
+Aorta
+## explanation_d
+The aorta is the archetypal large elastic artery, the opposite class from the medium-sized muscular arteries this question asks about.
+## correct_answer
+A
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the coronary artery as a specialized, named example of the medium-sized muscular-artery class, against the generic category name, a vessel-wall accessory structure and the elastic-artery class.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p1 q11; Histo MCQ by Dr.Kandeel [104].pdf p18 q11; DPT HISTO MCQ [Cardiovascular].pdf p2 q41. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9, src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-B2F31594BC7A
 ## title
 Regarding the metarterioles, the following are correct:
@@ -19296,6 +19574,190 @@ Extraction confidence low; the answer came from no source and was supplied by th
 
 # Item
 ## id
+QM-104-A1A40A1569B7
+## title
+Av shunt include the following except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Av shunt include the following except
+## answer_a
+Present in tips of finger, toes, placenta
+## explanation_a
+True of an arteriovenous anastomosis, so not the exception — it is characteristically present in exposed sites such as the fingertips, toes and the placenta.
+## answer_b
+intermediate segment has thick smooth muscle to form sphincter
+## explanation_b
+True, so not the exception — the intermediate segment carries a relatively thick smooth-muscle sphincter under sympathetic control.
+## answer_c
+when it close, large amount of blood pass through it
+## explanation_c
+The exception, and the answer. A large volume of blood passes through an arteriovenous anastomosis when its sphincter opens, not when it closes — closing the sphincter is what sends blood through the capillary bed as usual, while opening it lets blood bypass the capillary bed through the short, low-resistance shunt.
+
+Why this is right:
+- An arteriovenous anastomosis (shunt) is a direct connection between an arteriole and a venule that bypasses the capillary bed entirely.
+## answer_d
+enclosed in C.T capsule, richly innervated
+## explanation_d
+True, so not the exception — the shunt is enclosed in a connective-tissue capsule and is richly innervated, by sympathetic fibres that open and close it.
+## correct_answer
+C
+## main_concept
+CON-CVS-4BE9D0F74D4377
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that a large volume of blood passes through an arteriovenous anastomosis when its sphincter opens, not when it closes, as the exception among true statements about the shunt.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q49. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-00EF6881D330
+## title
+is non-membranous Cartwheel-like, derived from glycocalyx
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+is non-membranous Cartwheel-like, derived from glycocalyx
+## answer_a
+basal lamina
+## explanation_a
+The basal lamina is a distinct extracellular-matrix layer underlying the endothelium, not the non-membranous, cartwheel-like structure that specifically covers a fenestra — and a fenestrated capillary's basal lamina stays continuous, unlike the diaphragm covering its pores.
+## answer_b
+macrophage
+## explanation_b
+A macrophage is a phagocytic cell type, not a non-membranous structural covering derived from the glycocalyx — an unrelated category of answer.
+## answer_c
+diaphragm
+## explanation_c
+Correct. The diaphragm is a non-membranous, cartwheel-like structure with a central thickening and fourteen wedge-shaped gaps, derived from the glycocalyx, that covers the pores (fenestrae) of a fenestrated capillary's endothelium.
+
+Why this is right:
+- The fenestrated, or visceral, capillary is the second of the three capillary types, between the continuous (somatic) capillary and the sinusoidal capillary.
+## answer_d
+pericyte
+## explanation_d
+A pericyte is a contractile cell wrapped around the outside of small vessels, not a non-membranous structure covering an endothelial pore — an unrelated category of answer.
+## correct_answer
+C
+## main_concept
+CON-CVS-132A76916FEC05
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify the diaphragm as the non-membranous, cartwheel-like structure derived from the glycocalyx that covers a fenestrated capillary's pores.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q47. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-8BAE61B1B783
 ## title
 Regarding the blood vessels: 1 |
@@ -19842,6 +20304,190 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
+
+
+---
+
+# Item
+## id
+QM-104-399EF983CDD5
+## title
+The capillaries which are present in the nervous tissue are:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The capillaries which are present in the nervous tissue are:
+## answer_a
+Non fenestrated with diaphragm
+## explanation_a
+"Non-fenestrated with diaphragm" does not describe any of the three standard capillary types; a capillary either has fenestrae (covered by a diaphragm, or open in a sinusoid) or, like the continuous type, has no fenestrae at all.
+## answer_b
+Fenestrated with diaphragm
+## explanation_b
+Fenestrated capillaries with diaphragmed pores are sited in tissues built for fast fluid/solute exchange, such as the intestine and endocrine glands — not nervous tissue, whose capillaries must instead tightly restrict what crosses, forming the blood-brain barrier.
+## answer_c
+Continuous
+## explanation_c
+Correct. Nervous tissue is supplied by continuous capillaries, the least permeable of the three types, with a tightly joined, unbroken endothelium that lets nothing cross except by transport through the cell itself — the structural basis of the blood-brain barrier.
+
+Why this is right:
+- Capillary permeability increases across the sequence continuous capillaries (lowest permeability), fenestrated capillaries, and discontinuous capillaries (highest permeability).
+## answer_d
+Fenestrated without diaphragm
+## explanation_d
+Fenestrated capillaries without a diaphragm (fenestrae with no covering diaphragm at all) are the pattern seen in the renal glomerulus, not nervous tissue.
+## correct_answer
+C
+## main_concept
+CON-CVS-D3D1AF25EFA406
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Histology-general
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify continuous capillaries as the type present in nervous tissue, consistent with the blood-brain barrier's low permeability.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p15 q4. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-57F657BD068F
+## title
+All of the following help drainage of lymph Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following help drainage of lymph Except:
+## answer_a
+Positive intrathoracic pressure
+## explanation_a
+The exception, and the answer. The department book credits NEGATIVE intra-thoracic pressure with sucking lymph upward toward the great veins (p.60) — positive intrathoracic pressure would oppose that flow, not help it, making this the false statement among otherwise genuine mechanisms.
+
+Why this is right:
+- Normal lymph flow is about 2-4 L/day, driven by the peristaltic contraction of valved collecting lymphatics, the surrounding skeletal muscle pump, and negative intra-thoracic pressure.
+## answer_b
+Contraction of skeletal muscles surrounding the lymphatics
+## explanation_b
+True, so not the exception. Contraction of the skeletal muscles surrounding the lymphatics squeezes lymph centrally, one of the book's own three named drainage mechanisms.
+## answer_c
+Peristaltic contraction of collecting lymphatics
+## explanation_c
+True, so not the exception. The peristaltic contraction of the collecting lymphatics is the book's own stated main factor pushing lymph centrally.
+## answer_d
+Valves in lymphatics wall allow lymph to move centrally
+## explanation_d
+True, so not the exception. Valves in the lymphatic wall allow lymph to flow in only one direction (centrally) and prevent it flowing backwards, exactly as the book states.
+## correct_answer
+A
+## main_concept
+CON-CVS-2C65CCE1C08853
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that POSITIVE intrathoracic pressure does not help lymph drainage — the book credits NEGATIVE intrathoracic pressure with sucking lymph upward — as the exception among the genuine lymph-drainage mechanisms.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p10 q72. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists in the bank (answerConfidence: editorial-no-printed-key). Re-verified directly against the department physiology book (p.60, 'Mechanisms that help drainage of lymph'): the book names peristaltic contraction of collecting lymphatics, contraction of surrounding skeletal muscles, and NEGATIVE intra-thoracic pressure as the three genuine mechanisms — 'positive intrathoracic pressure' is the reverse of what the book actually credits, confirming option A as the exception.
 
 
 ---
@@ -30199,6 +30845,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-28A334F66413
+## title
+Apoptosis is characterized by the following:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Apoptosis is characterized by the following:
+## answer_a
+It is only pathological condition
+## explanation_a
+Reversed. Apoptosis is not exclusively pathological — this leaf's own concept states it 'may also be pathological or physiological', occurring normally at the end of a cell's lifespan; being purely pathological is instead true of necrosis.
+## answer_b
+Is an active programmed cell death
+## explanation_b
+Apoptosis is an active, programmed cell death, occurring normally at the end of a cell's lifespan and, unlike necrosis, may be entirely physiological rather than always pathological.
+
+Why this is right:
+- Two forms of cell death are recognised.
+## answer_c
+Cells and organelles are swell & burst
+## explanation_c
+Reversed. Cells and organelles swelling and bursting is this leaf's own description of necrosis; apoptotic cells instead decrease in size rather than swell.
+## answer_d
+Results from anoxia or exposure to toxins
+## explanation_d
+Reversed. Anoxia, mechanical injury and toxin exposure are this leaf's own stated causes of necrosis, not of apoptosis, which is an internally programmed process rather than one triggered by external injury.
+## correct_answer
+B
+## main_concept
+CON-FND-E44369E755E9F7
+## library_ids
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+## topic
+Cytogenetics — Cell Death (Necrosis vs Apoptosis)
+## subtopic
+Cytogenetics — Cell Death (Necrosis vs Apoptosis)
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Comparison
+## learning_objective
+State that apoptosis is an active, programmed cell death, against three statements that instead describe necrosis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q107. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-1ACB014DB89A
 ## title
 nuclei become small, dark
@@ -30751,6 +31489,282 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-ABE296408706
+## title
+Cannot divide but replaced from stem cell such as blood cells
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cannot divide but replaced from stem cell such as blood cells
+## answer_a
+non renewing cell
+## explanation_a
+Non-renewing cells are never replaced once lost at all; blood cells, by contrast, are continually replaced throughout life from stem cells.
+## answer_b
+potentially renewable cells
+## explanation_b
+A potentially renewable cell can itself re-enter the cycle and divide when needed; the stem describes an end cell that cannot divide at all, which is not this class.
+## answer_c
+continuously renewing cell
+## explanation_c
+Continuously renewing cells are end cells that cannot themselves divide but are replaced from stem cells — blood cells are this leaf's own concept's named example. A common trap: reading 'continuously renewing' as continuously dividing, when it is the stem cell behind the end cell that divides, not the end cell itself.
+
+Why this is right:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells.
+## answer_d
+None of the above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+C
+## main_concept
+CON-FND-A2E40256517389
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Cell Renewal Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name continuously renewing cells as end cells that cannot themselves divide but are replaced from stem cells, the class blood cells belong to.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q11. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-91544DBE9EE5
+## title
+Non renewing cells are characterized by All the following except
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Non renewing cells are characterized by All the following except
+## answer_a
+leave cycle, go to G0
+## explanation_a
+True of non-renewing cells, so not the exception — this leaf's own concept states they leave the cycle in G1 for G0 permanently.
+## answer_b
+Permanent exit that never divide again
+## explanation_b
+True, so not the exception. A non-renewing cell's exit is permanent — it never divides again once it has left the cycle.
+## answer_c
+return to continue cycle on need for replacement
+## explanation_c
+The exception, and the answer. Returning to continue the cycle when replacement is needed describes a potentially renewable cell (this leaf's own liver-cell example), not a non-renewing one, which by definition is not replaced when lost. A common trap: reading 'continuously renewing' as continuously dividing.
+
+Why this is right:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells.
+## answer_d
+heart, nerve cells are examples for that type
+## explanation_d
+True, so not the exception. Cardiac muscle and nerve cells are this leaf's own concept's named examples of non-renewing cells.
+## correct_answer
+C
+## main_concept
+CON-FND-A2E40256517389
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Cell Renewal Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that returning to the cycle when replacement is needed describes a potentially renewable cell, not a non-renewing one, against three genuine non-renewing-cell characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q10. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-637E4879346B
+## title
+One of the following is a potentially renewable cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a potentially renewable cell:
+## answer_a
+Liver cell
+## explanation_a
+The liver cell is this leaf's own named example of a potentially renewable cell — it enters G0 after destruction or partial removal but can re-enter the cycle and divide when replacement is needed.
+
+Why this is right:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells.
+## answer_b
+Skin epidermal cell
+## explanation_b
+Skin epidermal cells are continuously renewing, not potentially renewable — this leaf's own sibling question (one-of-the-following-is-a-non-renewing-cell-bbe76c3a) already establishes they are replaced throughout life from the epidermis's basal stem cells, the opposite class from a cell that itself re-enters the cycle.
+## answer_c
+Plasma cell
+## explanation_c
+Plasma cells are not this leaf's own potentially-renewable, liver-cell example — they are terminally differentiated antibody-secreting cells, not a working cell type this leaf's concept classes as able to re-enter the cycle.
+## answer_d
+Macrophages
+## explanation_d
+Macrophages are not this leaf's own potentially-renewable, liver-cell example — they are differentiated phagocytic cells, not a working cell type this leaf's concept classes as able to re-enter the cycle.
+## correct_answer
+A
+## main_concept
+CON-FND-A2E40256517389
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Cell Renewal Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the liver cell as this leaf's own potentially-renewable example, against skin epidermal cells (continuously renewing) and two undifferentiated distractors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q3. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-104-A3699DBF5329
 ## title
 One of the following is a non-renewing cell:
@@ -30835,6 +31849,98 @@ Claude
 Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p1 q4; Histo MCQ by Dr.Kandeel [104].pdf p40 q4; DPT HISTO MCQ [Cytogenetics].pdf p1 q4. Manifest src_79af3b3857ba47239529, src_9cf32ada2b25fa54f0e9, src_be181ad1f0be0dab13c9.
 ## author_notes
 Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-8E135CE576C9
+## title
+liver cells is example for
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+liver cells is example for
+## answer_a
+non renewing cell
+## explanation_a
+Non-renewing cells never divide again once lost, the department book's example being cardiac muscle and nerve cells; the liver cell is the book's own example of the opposite class.
+## answer_b
+potentially renewable cells
+## explanation_b
+Correct. This leaf's own sourced concept names liver cells directly as the example of a potentially renewable cell: they leave the cycle for G0 but can re-enter it and divide when replacement is needed after destruction or partial removal.
+
+Why this is right:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells.
+## answer_c
+continuously renewing cell
+## explanation_c
+Continuously renewing cells are end cells that cannot themselves divide at all, replaced instead from a separate stem-cell population (blood cells, sperm); the liver cell itself is capable of dividing directly, which rules out this class.
+## answer_d
+None of the above
+## explanation_d
+The liver cell does fit one of the three named classes (potentially renewable), so 'none of the above' is incorrect.
+## correct_answer
+B
+## main_concept
+CON-FND-A2E40256517389
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Cell Renewal Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise the liver cell as this leaf's own example of a potentially renewable cell — one that leaves the cell cycle but can re-enter it when the liver needs to replace lost tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q12. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -36739,6 +37845,650 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-F877EF8D83D4
+## title
+A swab from the buccal mucosa of a newly born infant showed more | than one Barr bodies…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+A swab from the buccal mucosa of a newly born infant showed more | than one Barr bodies in the nuclei of nearly all epithelial cells. This condition may be diagnosed as:
+## answer_a
+Multiple X syndrome
+## explanation_a
+Correct. The number of Barr bodies always equals the total number of X chromosomes minus one. More than one Barr body in nearly every cell means three or more X chromosomes are present (47,XXX or higher) — multiple X (triple X) syndrome.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_b
+Klinefelter syndrome :
+## explanation_b
+Klinefelter syndrome (47,XXY) has only two X chromosomes, giving exactly one Barr body, not more than one.
+## answer_c
+Normal female
+## explanation_c
+A normal female (46,XX) shows exactly one Barr body, not more than one.
+## answer_d
+Turner syndrome i
+## explanation_d
+Turner syndrome (45,X) has only a single X chromosome and shows NO Barr bodies at all, not more than one.
+## correct_answer
+A
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Application
+## learning_objective
+Deduce multiple X syndrome from more than one Barr body in nearly every epithelial cell, using the Barr-body-count-equals-X-count-minus-one rule.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p2 q3. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-A999213C5E1B
+## title
+Achild presented with mental retardation, muscular hypotonia, cardiac abnormalities, sm…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Achild presented with mental retardation, muscular hypotonia, cardiac abnormalities, small genital organs. You have to think about:
+## answer_a
+Klinefelter’s syndrome
+## explanation_a
+Klinefelter's syndrome typically presents at or after puberty with tall stature and small testes, not in infancy with hypotonia and cardiac defects.
+## answer_b
+Down syndrome
+## explanation_b
+Correct. This combination — mental retardation, muscular hypotonia (a classically prominent early feature), cardiac abnormalities and small genital organs — is a well-recognised presentation of Down syndrome (trisomy 21).
+
+Why this is right:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_c
+Monosomy of chromosome 21. : |
+## explanation_c
+Monosomy of chromosome 21 is not a recognised, viable clinical entity presenting this way; it is generally incompatible with survival to term.
+## answer_d
+Turner syndrome
+## explanation_d
+Turner syndrome does not typically cause mental retardation (intelligence is usually normal) and presents with short stature and gonadal dysgenesis, not this cardiac/hypotonia/mental-retardation cluster.
+## correct_answer
+B
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+Recognise mental retardation, muscular hypotonia, cardiac abnormalities and small genital organs as a classic Down syndrome presentation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics].pdf p3 q5. Manifest src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-44E1AD3BF988
+## title
+All characters of trisomy except
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of trisomy except
+## answer_a
+addition of extra chromosome
+## explanation_a
+True of trisomy, so not the exception — trisomy is defined by the addition of an extra chromosome.
+## answer_b
+turner syndrome with 47 chromosome
+## explanation_b
+The exception, and the answer. Turner syndrome is a monosomy (45 chromosomes, one X chromosome missing), not a trisomy with 47 chromosomes — it is the opposite numerical direction from trisomy.
+
+Why this is right:
+- Numerical aberrations are anomalies of chromosome number, occurring in germ or somatic cells, and are of two kinds.
+## answer_c
+Down syndrome with trisomy 21
+## explanation_c
+True, so not the exception — Down syndrome, trisomy 21, is a genuine example of trisomy.
+## answer_d
+three copies of chromosome instead of two
+## explanation_d
+True, so not the exception — trisomy is, by definition, three copies of one chromosome instead of the normal two.
+## correct_answer
+B
+## main_concept
+CON-DEV-451A64C9445CAB
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that Turner syndrome (45 chromosomes, a monosomy) is not an example of trisomy, as the exception among true statements about trisomy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q53. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-61229719D9EF
+## title
+Down syndrome (mongolism) is characterized by: ‏ظ‎ ‎| a. It is a form of triploid chrom…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Down syndrome (mongolism) is characterized by: ‏ظ‎ ‎| a. It is a form of triploid chromosomal aberration
+## answer_a
+It is a form of triploid chromosomal aberration.
+## explanation_a
+Triploidy refers to an extra complete haploid set of all chromosomes (69 total), a distinct and generally non-viable condition, not what causes Down syndrome.
+## answer_b
+Cells of the mongol child contain 45 chromosomes.
+## explanation_b
+Down syndrome cells contain 47 chromosomes (one extra), not 45, which would instead represent a monosomy, the opposite numerical abnormality.
+## answer_c
+It is an aberration in sex chromosomes.
+## explanation_c
+Chromosome 21 is an autosome, not a sex chromosome, so Down syndrome is not a sex-chromosome aberration.
+## answer_d
+Trisomy 21.
+## explanation_d
+Correct. Down syndrome is trisomy 21 — three copies, rather than the normal two, of chromosome 21, giving 47 total chromosomes.
+
+Why this is right:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## correct_answer
+D
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that Down syndrome is trisomy 21, distinct from triploidy, monosomy and a sex-chromosome aberration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p15 q10. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-466AA2EFD2FF
+## title
+Ifa parent is a carrier of a chromosome 21 translocation, he might have a child with:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Ifa parent is a carrier of a chromosome 21 translocation, he might have a child with:
+## answer_a
+Turner’s syndrome
+## explanation_a
+Turner's syndrome results from monosomy of the X chromosome, unrelated to a chromosome 21 translocation.
+## answer_b
+Down syndrome. :
+## explanation_b
+Correct. A parent who is a balanced carrier of a translocation between chromosome 21 and 14 is phenotypically normal but can pass on an unbalanced combination at meiosis, giving the child effectively three copies of chromosome-21 material — translocation Down syndrome, the route accounting for 3 to 4% of Down syndrome cases.
+
+Why this is right:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_c
+Klinefelter’s syndrome
+## explanation_c
+Klinefelter's syndrome results from an extra X chromosome (47,XXY), unrelated to a chromosome 21 translocation.
+## answer_d
+Chronic myeloid leukaemia
+## explanation_d
+Chronic myeloid leukaemia results from a reciprocal translocation between chromosomes 9 and 22 (the Philadelphia chromosome), an entirely different translocation from one involving chromosome 21.
+## correct_answer
+B
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Application
+## learning_objective
+State that a parent carrying a chromosome 21 translocation risks having a child with Down syndrome, the translocation route accounting for a minority of cases.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p3 q6. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-FBB5A074EEA8
+## title
+Monosomy of sex chromosome is: |
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Monosomy of sex chromosome is: |
+## answer_a
+Turner's syndrome
+## explanation_a
+Correct. Turner syndrome, karyotype 45,X, results from monosomy of a sex chromosome — the complete absence of one of the two sex chromosomes — and is the only human sex-chromosome monosomy generally compatible with live birth.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_b
+Klinefelter’s syndrome. i
+## explanation_b
+Klinefelter's syndrome (47,XXY) is a sex-chromosome TRISOMY (an extra chromosome), not a monosomy.
+## answer_c
+Robertsonian translocation
+## explanation_c
+A Robertsonian translocation is a structural rearrangement between two acrocentric chromosomes, not a numerical monosomy of a sex chromosome.
+## answer_d
+Mongolism
+## explanation_d
+Mongolism (Down syndrome) is caused by trisomy of an autosome (chromosome 21), unrelated to sex-chromosome count.
+## correct_answer
+A
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name Turner syndrome (45,X) as the sex-chromosome monosomy, against Klinefelter (a trisomy), Robertsonian translocation, and Down syndrome distractors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p2 q17. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-6D951967B93D
+## title
+Trisomy of chromosome X is:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Trisomy of chromosome X is:
+## answer_a
+Turner's syndrome
+## explanation_a
+Turner's syndrome is a monosomy (45,X, one X chromosome missing), not a trisomy.
+## answer_b
+Klinefelter's syndrome
+## explanation_b
+Klinefelter's syndrome (47,XXY) is a trisomy that includes a Y chromosome, not a pure trisomy of the X chromosome alone.
+## answer_c
+Down's syndrome
+## explanation_c
+Down's syndrome is trisomy of an autosome (chromosome 21), not a sex-chromosome trisomy.
+## answer_d
+Multiple X syndrome
+## explanation_d
+Correct. Multiple X (triple X) syndrome, karyotype 47,XXX, is trisomy of the X chromosome — three X chromosomes instead of the normal two.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## correct_answer
+D
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name multiple X syndrome as trisomy of the X chromosome, against Turner (a monosomy), Klinefelter (a Y-bearing trisomy), and Down syndrome (an autosomal trisomy) distractors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q16; DPT HISTO MCQ [Cytogenetics].pdf p2 q16. Manifest src_9cf32ada2b25fa54f0e9, src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-A3B79217AA06
 ## title
 break occurs in either side of Chromosome then rejoined in inverted form
@@ -37935,6 +39685,466 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-78ABD26CCB30
+## title
+A patient was diagnosed as having chronic myeloid leukemia. His | condition might be du…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient was diagnosed as having chronic myeloid leukemia. His | condition might be due to:
+## answer_a
+Reciprocal translocation between chromosome 22 and 9. ١ |
+## explanation_a
+Correct. Chronic myeloid leukaemia is classically caused by a reciprocal translocation between chromosomes 9 and 22, which creates the Philadelphia chromosome and fuses the BCR gene (chromosome 22) with the ABL1 gene (chromosome 9), producing a constitutively active BCR-ABL tyrosine kinase that drives uncontrolled myeloid proliferation.
+
+Why this is right:
+- Structural aberrations are abnormalities in chromosome structure.
+## answer_b
+Deletion of short arm of chromosome 4. 0 |
+## explanation_b
+Deletion of the short arm of chromosome 4 causes Wolf-Hirschhorn syndrome, an unrelated congenital disorder, not chronic myeloid leukaemia.
+## answer_c
+Deletion of short arm of chromosome 5
+## explanation_c
+Deletion of the short arm of chromosome 5 causes Cri-du-chat syndrome, an unrelated congenital disorder, not chronic myeloid leukaemia.
+## answer_d
+Centric fusion of chromosomes 14 and 21
+## explanation_d
+Centric (Robertsonian) fusion of chromosomes 14 and 21 is associated with familial translocation Down syndrome, not chronic myeloid leukaemia.
+## correct_answer
+A
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Identify a reciprocal translocation between chromosomes 22 and 9 (the Philadelphia chromosome) as the cause of chronic myeloid leukaemia, against deletion and centric-fusion distractors naming unrelated syndromes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics].pdf p4 q8. Manifest src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-AEA38E4E1753
+## title
+It is absent in Klinefelter syndrome | 9- Addition of a fragmented segment of one chrom…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+It is absent in Klinefelter syndrome | 9- Addition of a fragmented segment of one chromosome to the homologous chromosome is known as:
+## answer_a
+Duplication
+## explanation_a
+Correct. Duplication is the structural aberration in which a fragmented segment of one chromosome becomes added onto its homologous chromosome, so that segment is present in an extra copy.
+
+Why this is right:
+- Structural aberrations are abnormalities in chromosome structure.
+## answer_b
+lsochromosome
+## explanation_b
+An isochromosome results from abnormal transverse (rather than longitudinal) division of the centromere, producing a chromosome with two identical arms — an unrelated mechanism to segment addition between homologues.
+## answer_c
+Translocation
+## explanation_c
+Translocation moves a segment to a non-homologous chromosome, not addition of a segment to its own homologous chromosome.
+## answer_d
+Inversion
+## explanation_d
+Inversion reverses a segment's orientation within the same chromosome, not addition of material from elsewhere.
+## correct_answer
+A
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Cytogenetics — Structural Aberrations
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name duplication as the structural aberration in which a fragmented segment of one chromosome is added to its homologous chromosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p31 q0; EOY 104 exams Not answerd (1) (1).pdf p68 q0. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-FF10B822813C
+## title
+May be due to 47 chromosomes (XXY). 15, Structural aberrations include:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+May be due to 47 chromosomes (XXY). 15, Structural aberrations include:
+## answer_a
+Aneuploidy
+## explanation_a
+Aneuploidy is a numerical chromosomal aberration (an abnormal chromosome count), not a structural one.
+## answer_b
+Deletion. i
+## explanation_b
+Correct. Deletion — the loss of a chromosomal segment — is a classic structural chromosomal aberration, changing chromosome architecture rather than chromosome count.
+
+Why this is right:
+- Structural aberrations are abnormalities in chromosome structure.
+## answer_c
+Turner's syndrome
+## explanation_c
+Turner's syndrome is a clinical condition resulting from a numerical aberration (monosomy X), not itself a category of structural aberration.
+## answer_d
+Klinefelter’s syndrome. , i
+## explanation_d
+Klinefelter's syndrome is a clinical condition resulting from a numerical aberration (an extra X chromosome), not itself a category of structural aberration.
+## correct_answer
+B
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify deletion, rather than aneuploidy or a clinical syndrome, as a category of structural chromosomal aberration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p2 q0. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9FC1BA5A8240
+## title
+Philadelphia chromosome:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Philadelphia chromosome:
+## answer_a
+Translocation between chromosomes 22 & 9. |
+## explanation_a
+Correct. The Philadelphia chromosome arises from a reciprocal translocation between chromosomes 9 and 22, fusing the BCR (chromosome 22) and ABL1 (chromosome 9) genes and driving the constitutively active tyrosine kinase seen in chronic myeloid leukaemia.
+
+Why this is right:
+- Structural aberrations are abnormalities in chromosome structure.
+## answer_b
+Duplication of chromosome 22
+## explanation_b
+The Philadelphia chromosome results from a translocation — an exchange of material between chromosomes 9 and 22 — not a duplication of chromosome 22.
+## answer_c
+Terminal deletion of chromosome 9. |
+## explanation_c
+The Philadelphia chromosome results from a reciprocal translocation, not a terminal deletion.
+## answer_d
+Inversion affecting chromosome 9. ١
+## explanation_d
+The Philadelphia chromosome results from a translocation between two different chromosomes, not an inversion within a single chromosome.
+## correct_answer
+A
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Confirm, against a second, independently-extracted source occurrence, that the Philadelphia chromosome is a reciprocal translocation between chromosomes 22 and 9.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics].pdf p2 q13. Manifest src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-444EACC61FFF
+## title
+Structural aberrations include:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Structural aberrations include:
+## answer_a
+Aneuploidy
+## explanation_a
+Aneuploidy is a numerical, not structural, chromosomal aberration.
+## answer_b
+Deletion.. |
+## explanation_b
+Correct. Deletion — the loss of a chromosomal segment — is a classic structural chromosomal aberration, involving altered chromosome architecture rather than altered chromosome count.
+
+Why this is right:
+- Structural aberrations are abnormalities in chromosome structure.
+## answer_c
+Turners syndrome
+## explanation_c
+Turner's syndrome results from a numerical aberration (monosomy X), not a structural aberration category.
+## answer_d
+Klinefelter’s syndrome. ٠
+## explanation_d
+Klinefelter's syndrome results from a numerical aberration (an extra X chromosome), not a structural aberration category.
+## correct_answer
+B
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Confirm, against a second, independently-extracted source occurrence, that deletion is a structural (not numerical) chromosomal aberration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics].pdf p2 q15. Manifest src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-104-67394125BEB6
 ## title
 Regarding the mononuclear phagocytic system:
@@ -38296,6 +40506,190 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-032CE8D9B11C
+## title
+monocyte in ………., while macrophage in ……………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+monocyte in ………., while macrophage in ……………
+## answer_a
+liver, skin
+## explanation_a
+The liver houses the system's von Kupffer cell and the skin houses its Langerhans cell — a different pair of this system's site-specific names, not the monocyte/macrophage pair this row asks for.
+## answer_b
+blood, C.T
+## explanation_b
+Correct. This leaf's own sourced concept names monocytes as the system's circulating form in blood, and macrophages (histiocytes) as its resident form in loose connective tissue — the two most general of the system's eight named site/name pairs.
+
+Why this is right:
+- The macrophage system, or mononuclear phagocytic system, is a group of highly phagocytic cells widely distributed in the body, constituting an important defence mechanism.
+## answer_c
+CNS, lung alveoli
+## explanation_c
+The CNS houses microglia and the lung alveoli house dust cells/heart-failure cells — a different pair of this system's site-specific names, not the monocyte/macrophage pair this row asks for.
+## answer_d
+spleen, bone
+## explanation_d
+The spleen and bone marrow sinusoids house littoral cells, and bone's Howship's lacunae house osteoclasts — a different pair of this system's site-specific names, not the monocyte/macrophage pair this row asks for.
+## correct_answer
+B
+## main_concept
+CON-HEM-D1628423BE0844
+## library_ids
+ART-104-HIS-MACROPHAGE-SYSTEM
+## topic
+Histology-general
+## subtopic
+Macrophage system
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Macrophage System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Fill in the blank
+## learning_objective
+Name blood as the monocyte's own site and connective tissue as the macrophage's (histiocyte's) own site, the system's two most general named locations.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q30. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E565E1E607AB
+## title
+Vonkupffer cell in ………………., while langerhan's Cell in ……………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Vonkupffer cell in ………………., while langerhan's Cell in ……………
+## answer_a
+liver, skin
+## explanation_a
+Correct. This leaf's own sourced concept names von Kupffer cells as the system's name for macrophages in the liver's blood sinusoids, and Langerhans cells as its name for macrophages in the skin.
+
+Why this is right:
+- The macrophage system, or mononuclear phagocytic system, is a group of highly phagocytic cells widely distributed in the body, constituting an important defence mechanism.
+## answer_b
+blood, C.T
+## explanation_b
+Blood houses the system's own circulating monocyte, and loose connective tissue houses the macrophage (histiocyte) — a different pair of this system's site-specific names, not the Kupffer/Langerhans pair this row asks for.
+## answer_c
+CNS, lung alveoli
+## explanation_c
+The CNS houses microglia and the lung alveoli house dust cells/heart-failure cells — a different pair of this system's site-specific names, not the Kupffer/Langerhans pair this row asks for.
+## answer_d
+spleen, bone
+## explanation_d
+The spleen and bone marrow sinusoids house littoral cells, and bone's Howship's lacunae house osteoclasts — a different pair of this system's site-specific names, not the Kupffer/Langerhans pair this row asks for.
+## correct_answer
+A
+## main_concept
+CON-HEM-D1628423BE0844
+## library_ids
+ART-104-HIS-MACROPHAGE-SYSTEM
+## topic
+Histology-general
+## subtopic
+Macrophage system
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Macrophage System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Fill in the blank
+## learning_objective
+Name the liver's blood sinusoids as the von Kupffer cell's own site and the skin as the Langerhans cell's own site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q31. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
 
 
 
@@ -40136,6 +42530,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphat
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-819BC7B765CE
+## title
+All secondary lymphatic ergons except
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+All secondary lymphatic ergons except
+## answer_a
+lymph node
+## explanation_a
+True, so not the exception. The lymph node is one of this module's own three named secondary (peripheral) lymphatic organs.
+## answer_b
+tonsil
+## explanation_b
+True, so not the exception. The tonsil is one of this module's own three named secondary (peripheral) lymphatic organs.
+## answer_c
+thymus
+## explanation_c
+The exception, and the answer. The thymus is a PRIMARY (central) lymphatic organ, alongside bone marrow — the site where T-lymphocytes are produced and mature, not a secondary organ where already-produced lymphocytes mount immune responses.
+
+Why this is right:
+- Lymphatic tissue is organised into primary (central) and secondary (peripheral) lymphatic organs.
+## answer_d
+spleen
+## explanation_d
+True, so not the exception. The spleen is one of this module's own three named secondary (peripheral) lymphatic organs.
+## correct_answer
+C
+## main_concept
+CON-HEM-CF6A9A48ADA3AC
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a false statement
+## learning_objective
+Identify the thymus as a PRIMARY (not secondary) lymphatic organ, the exception among lymph node, tonsil and spleen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q1. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
 
 
@@ -41987,6 +44473,466 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-433545BB543F
+## title
+Concerning thymus gland, the nursing cells are:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning thymus gland, the nursing cells are:
+## answer_a
+T-Lymphocytes
+## explanation_a
+T-lymphocytes are the developing cells being nursed, not the nursing cells themselves.
+## answer_b
+Lymphoblasts in the outer cortex
+## explanation_b
+Lymphoblasts in the outer cortex are, likewise, developing lymphocytes under the epithelial reticular cells' care, not the nursing cells doing the caring.
+## answer_c
+Macrophages in cortex and medulla
+## explanation_c
+Macrophages sit within the cortex, intercepting blood-borne antigen as part of the blood-thymic barrier, but nursing the developing lymphocytes is this leaf's own concept's named epithelial-reticular-cell function, not a macrophage one.
+## answer_d
+Epithelial reticular cells in cortex and medulla
+## explanation_d
+Epithelial reticular cells, present in both cortex and medulla, act as nursing cells for the developing lymphocytes — one of the three functions this leaf's own concept credits them with, alongside secreting thymic hormones and sheathing the septa and blood vessels.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## correct_answer
+D
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the epithelial reticular cell, in both cortex and medulla, as the thymus's nursing cell for its developing lymphocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p3 q3. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7B39D8F6DCB5
+## title
+outer part of thymus cortex Contain - - - - while inner part contain
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+outer part of thymus cortex Contain - - - - while inner part contain
+## answer_a
+lymphoblast, T-lymph
+## explanation_a
+This leaf's own concept states the cortex is densely populated with lymphocytes — lymphoblasts in its outer part, thymocytes in its inner part — exactly this progression from less to more mature T-lineage cells as they move inward toward the medulla.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## answer_b
+T-lymph, lymphoblast
+## explanation_b
+Reversed — this leaf's own concept places lymphoblasts outward and thymocytes inward, not the other way round.
+## answer_c
+lymphoblast, B-lymph
+## explanation_c
+The thymus has no B-lymphocytes at all, in either cortex zone — its lymphocyte population is entirely T-lineage, so a B-lymphocyte-based pairing does not describe the cortex's own outer-to-inner progression.
+## answer_d
+B-lymph, lymphoblast
+## explanation_d
+The thymus has no B-lymphocytes at all, so this pairing is doubly wrong — B-lymph does not belong in the inner cortex, and lymphoblast-to-B-lymph is not this leaf's own stated outer-to-inner progression.
+## correct_answer
+A
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the thymic cortex holds lymphoblasts in its outer part and thymocytes (T-lineage cells) in its inner part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q23. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-BC9FA8724982
+## title
+Regarding thymus gland, It is: i
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding thymus gland, It is: i
+## answer_a
+The site of antibody production. i
+## explanation_a
+Antibody production is a secondary (peripheral) lymphoid organ function, carried out by plasma cells — and this leaf's own concept states the thymus has no plasma cells at all.
+## answer_b
+A major site of red blood cell degradation and bilirubin recycling. i
+## explanation_b
+Red blood cell degradation and bilirubin recycling is a spleen function, not a function of the thymus, a primary lymphoid organ that produces and matures T-lymphocytes rather than processing blood cells.
+## answer_c
+Having both afferent & efferent lymphatic vessels. i
+## explanation_c
+Reversed. This leaf's own concept states the thymus has no afferent lymphatic vessels at all — only efferent ones, carrying mature cells onward — the opposite of 'having both'.
+## answer_d
+The site of production of T- cells
+## explanation_d
+The thymus is a primary (central) lymphoid organ whose cortex and medulla complete T-lymphocyte production and maturation before these cells seed the secondary organs — exactly the classification concept's own stated thymic role.
+
+Why this is right:
+- Restated here only to satisfy the seed type; the pinned record's own wording (declared in lymphatic-lymph-node.ts) governs.
+## correct_answer
+D
+## main_concept
+CON-HEM-CF6A9A48ADA3AC
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the thymus is the site of T-cell production, against antibody production (a secondary-organ function), a spleen function, and this leaf's own no-afferent-lymphatics fact.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p2 q18. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-59337AB40D49
+## title
+Where do T-lymphocytes acquire their immunocompetence?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Where do T-lymphocytes acquire their immunocompetence?
+## answer_a
+Thymus
+## explanation_a
+The thymus is where T-lymphocytes acquire their immunocompetence — its epithelial reticular cells secrete thymic hormones that promote T-lymphocyte differentiation and maturation before these cells seed the peripheral (secondary) lymphoid organs.
+
+Why this is right:
+- The thymus is a primary lymphoid organ with an endocrine function, and unlike the lymph node and spleen it has a double origin: its lymphocytes (the thymocytes) are mesodermal, while its epithelial reticular cells are endodermal.
+## answer_b
+Thyrcid
+## explanation_b
+The thyroid is an endocrine gland producing thyroid hormones; it plays no part in lymphocyte maturation.
+## answer_c
+Bone marrow
+## explanation_c
+Bone marrow is the other primary lymphoid organ, and the source of T-lymphocyte precursors, but the classification concept's own thymus-specific role is what completes their maturation into immunocompetent T-cells — T-lymphocyte precursors still require the thymic environment to finish that process.
+## answer_d
+Lymph node
+## explanation_d
+The lymph node is a secondary (peripheral) lymphoid organ, where already-mature lymphocytes encounter antigen — not where T-lymphocytes acquire their immunocompetence in the first place.
+## correct_answer
+A
+## main_concept
+CON-HEM-817D336693039E
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the thymus as the site where T-lymphocytes complete their maturation into immunocompetent cells, against the thyroid, bone marrow and lymph node.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic System].pdf p2 q8. Manifest src_b0c5c0d32e396511ae20.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-995F4DAFAF18
+## title
+Which of the following is considered a central lymphatic organ:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is considered a central lymphatic organ:
+## answer_a
+Thymus
+## explanation_a
+The thymus is, with bone marrow, one of the two primary (central) lymphatic organs — the classification concept's own stated pairing.
+
+Why this is right:
+- Restated here only to satisfy the seed type; the pinned record's own wording (declared in lymphatic-lymph-node.ts) governs.
+## answer_b
+Lymph nodes
+## explanation_b
+Lymph nodes are a secondary (peripheral) lymphatic organ, where already-produced lymphocytes mount immune responses, not a central one.
+## answer_c
+Spleen
+## explanation_c
+The spleen is likewise a secondary (peripheral) lymphatic organ, filtering blood and mounting immune responses rather than producing lymphocytes.
+## answer_d
+tonsils
+## explanation_d
+Tonsils are a secondary (peripheral) lymphatic organ too, protecting the digestive and respiratory systems' entry points rather than producing lymphocytes centrally.
+## correct_answer
+A
+## main_concept
+CON-HEM-CF6A9A48ADA3AC
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the thymus as a central (primary) lymphatic organ, against the peripheral (secondary) lymph node, spleen and tonsils.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p1 q4; Histo MCQ by Dr.Kandeel [104].pdf p7 q5. Manifest src_2b531af1f3f6eace5974, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-104-50D2ADF2FDE4
 ## title
 origin of epithelial reticular cell
@@ -43822,6 +46768,98 @@ Asked 1 time across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-6FBE35E3DC52
+## title
+The palatine tonsil is characterized by:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The palatine tonsil is characterized by:
+## answer_a
+Covered by pseudostratified columnar epithelium
+## explanation_a
+Reversed: the department book states the palatine tonsil's free surface is covered by non-keratinized stratified squamous epithelium (p.22), the pharyngeal tonsil's own site (nasopharynx) that carries pseudostratified columnar epithelium instead.
+## answer_b
+Hypertrophy results in adenoids
+## explanation_b
+Wrong tonsil: hypertrophy producing adenoids is specifically a PHARYNGEAL-tonsil finding, stated by this leaf's own pharyngeal-tonsil concept — the palatine tonsil's own clinical correlate is tonsillitis and tonsillectomy, not adenoids.
+## answer_c
+Having no C.T. capsule
+## explanation_c
+Reversed: the department book states the palatine tonsil has an incomplete connective-tissue capsule deep to its lymphatic tissue (p.22, also shown in the book's own labelled diagram) — it is the LINGUAL tonsil that has no capsule at all.
+## answer_d
+Ducts of mucus glands open on the surface
+## explanation_d
+Correct. The department book states plainly (p.22): 'Mucous glands are present in the C.T., their ducts open on the surface and not in the base of tonsillar crypts, so inflammation of crypts is common' — the opposite of the lingual tonsil's crypt-flushing arrangement, and exactly why the palatine tonsil is the one that inflames often.
+
+Why this is right:
+- The palatine tonsil is covered on its free surface by non-keratinized stratified squamous epithelium dipping down as tonsillar crypts, with lymphatic nodules arranged around the crypts and diffuse lymphatic tissue between them, and dense connective tissue deep to the lymphatic tissue forming an incomplete capsule; its mucous gland ducts open on the surface rather than at the base of the crypts, so inflammation of the crypts is common.
+## correct_answer
+D
+## main_concept
+CON-HEM-093013026B640A
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Tonsils
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that the palatine tonsil's mucous-gland ducts open on the free surface, not into the crypt bases — the opposite of the lingual tonsil's arrangement — and identify this as why palatine tonsillitis is common.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q104. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists in the bank (answerConfidence: none). Re-verified directly against the department histology book (src_18d3a953df4ca83c4e74, p.22, 'Histological Structure of palatine tonsil', point 4): 'Mucous glands are present in the C.T., their ducts open on the surface and not in the base of tonsillar crypts' — matching option D verbatim. The other three options are each independently contradicted by the same page and this leaf's own sourced concepts (A: wrong epithelium type, that of the pharyngeal tonsil; B: wrong tonsil for adenoids; C: the palatine tonsil does have an incomplete capsule, unlike the lingual tonsil). All four options resolve cleanly against the book with no ambiguity.
+
 
 ---
 
@@ -46863,6 +49901,374 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-BA7570FD3983
+## title
+Diacrotic notch is due to: |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Diacrotic notch is due to: |
+## answer_a
+sudden closure of AV valves
+## explanation_a
+Closure of the AV valves produces the first heart sound at the start of ventricular systole, an entirely different event from the dicrotic notch, which sits on the aortic pressure curve at the end of systole.
+## answer_b
+sudden closure of aortic valve
+## explanation_b
+Correct. The dicrotic notch is the sharp drop on the descending (catacrotic) limb of the aortic pressure curve caused by the sudden closure of the aortic valve at the end of ejection, once ventricular pressure has fallen below aortic pressure.
+
+Why this is right:
+- On the aortic pressure curve, the dicrotic notch is a sharp drop in pressure caused by closure of the aortic valve at the end of systole, and is followed by the dicrotic wave, a small rise caused by backwardly moving blood bouncing against the closed elastic aortic valve during isovolumetric relaxation.
+## answer_c
+sudden decrease in aortic pressure. ‏ظ‎
+## explanation_c
+A decrease in aortic pressure is what is observed around the notch, but the direct mechanical cause of the notch itself is the aortic valve slamming shut, not the pressure fall in isolation.
+## answer_d
+marked decrease in ventricular pressure.
+## explanation_d
+A marked decrease in ventricular pressure is a related, concurrent event on the other side of the now-closed aortic valve, but the dicrotic notch is specifically a feature of the aortic pressure trace, directly caused by aortic valve closure.
+## correct_answer
+B
+## main_concept
+CON-CVS-F8BD2261B8CBDA
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the dicrotic notch is caused by sudden closure of the aortic valve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q52. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7545D7AA89B9
+## title
+During the reduced ejection phase, which one of the following is true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During the reduced ejection phase, which one of the following is true:
+## answer_a
+left atrial pressure is falling.
+## explanation_a
+Left atrial pressure is rising, not falling, during reduced ejection: the AV valves are shut, so venous blood returning to the atrium accumulates there with nowhere else to go, building the v wave of the atrial pressure curve.
+## answer_b
+aortic pressure is falling below left ventricular pressure.
+## explanation_b
+Aortic pressure has not yet fallen below left ventricular pressure during reduced ejection — the two remain close, with a small forward pressure gradient still driving the tail of ejection; aortic pressure only clearly overtakes ventricular pressure at the transition into isovolumetric relaxation, ending ejection.
+## answer_c
+the A-V valves are closed.
+## explanation_c
+Correct. The AV valves are held shut throughout both ejection phases (rapid and reduced), since ventricular pressure remains above atrial pressure the whole time — they only reopen once ventricular pressure falls below atrial pressure during rapid filling.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_d
+left ventricular pressure is constant.
+## explanation_d
+Left ventricular pressure is not constant during reduced ejection; it has already passed its peak (reached during rapid ejection) and is beginning to fall as the rate of ejection slows.
+## correct_answer
+C
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the AV valves stay closed throughout the reduced ejection phase, along with the rest of ventricular systole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q75. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-03D1A49A48C7
+## title
+The atrial component of ventricular filling is
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The atrial component of ventricular filling is
+## answer_a
+10% ,
+## explanation_a
+10% understates the atrial contribution; atrial systole normally tops up roughly 30% of end-diastolic volume, not a tenth of it.
+## answer_b
+30%
+## explanation_b
+Correct. Atrial systole is an active top-up of ventricular filling that normally contributes roughly the last 30% of end-diastolic volume, on top of the passive filling (rapid and reduced filling phases) that fills the rest.
+
+Why this is right:
+- The atria have three functions beyond acting as a simple entry chamber.
+## answer_c
+50%
+## explanation_c
+50% overstates the atrial contribution; the larger share of ventricular filling happens passively, before atrial systole ever begins, chiefly during the rapid filling phase.
+## answer_d
+80% |
+## explanation_d
+80% overstates the atrial contribution even further; passive filling, not atrial systole, is responsible for most of ventricular filling.
+## correct_answer
+B
+## main_concept
+CON-CVS-60749EA9A6B0A5
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that atrial systole normally contributes roughly 30% of ventricular filling.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q49. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F4498627A7D3
+## title
+C wave in jugular venous pulse occurs in:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+C wave in jugular venous pulse occurs in:
+## answer_a
+isometric contraction phase.
+## explanation_a
+Correct. The c wave is caused by the closed AV valve bulging backward into the atrium as ventricular pressure rises sharply at the start of isovolumetric (isometric) ventricular contraction, immediately after atrial systole has ended.
+
+Why this is right:
+- The atrial pressure curve traces right (or left) atrial pressure across one cardiac cycle and shows three positive waves.
+## answer_b
+isometric relaxation phase.
+## explanation_b
+Isovolumetric relaxation is instead when the closed semilunar valve produces the second heart sound; the atrial pressure curve is quiet at this point, between the v wave's peak and the AV valves reopening for filling.
+## answer_c
+maximum ejection phase,
+## explanation_c
+The maximum ejection phase is well after the c wave, which occurs at the very start of ventricular systole, not during its main ejection period.
+## answer_d
+atrial systole phase. ١
+## explanation_d
+Atrial systole itself produces the larger a wave, which peaks and is already falling by the time the AV valves shut to start isovolumetric contraction and produce the c wave — the c wave is a ventricular event that follows atrial systole, not part of it.
+## correct_answer
+A
+## main_concept
+CON-CVS-B8AFC98120E132
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the c wave of the atrial (jugular venous) pressure curve occurs at the start of isovolumetric ventricular contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p9 q64. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-F175091CC11D
 ## title
 Digitalis has positive inotropic effect through the following mechanism:
@@ -47874,6 +51280,374 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-CC2400E4F9E9
+## title
+The low-resistance pathways between myocardial cells that allow for the spread of AP are
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The low-resistance pathways between myocardial cells that allow for the spread of AP are
+## answer_a
+gap junctions
+## explanation_a
+This is the correct answer. Gap junctions are the specific low-resistance channels, clustered within the intercalated discs, whose very low electrical resistance lets an action potential spread rapidly from cell to cell — the structural basis of cardiac muscle's functional-syncytium behaviour.
+
+Why this is right:
+- Cardiac muscle fibres are individual, striated cells, each with its own nucleus, separated from their neighbours by intercalated discs — unlike skeletal muscle's true syncytium of fused, multinucleated fibres.
+## answer_b
+T tubules
+## explanation_b
+T tubules are invaginations of the sarcolemma that carry the action potential into the cell's interior to trigger calcium release; they are not the low-resistance pathway between separate myocardial cells.
+## answer_c
+sarcoplasmic reticulum (SR)
+## explanation_c
+The sarcoplasmic reticulum is an intracellular calcium store within a single myocyte; it plays no part in conducting current between separate cells.
+## answer_d
+intercalated disks sisi cc a ents asada 1010# ee EE tise,
+## explanation_d
+The intercalated disc is the structure that houses the gap junctions (along with desmosomes and fascia adherens for mechanical attachment), but it is the gap junctions specifically, not the disc as a whole, that form the actual low-resistance electrical pathway.
+## correct_answer
+A
+## main_concept
+CON-CVS-7FC4E8F3FBEFFE
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify gap junctions, not T tubules, sarcoplasmic reticulum, or intercalated discs generally, as the specific low-resistance pathway that lets an action potential spread between myocardial cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p4 q31. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A2ABD91EBB89
+## title
+Which of the following events of cardiac myocyte action potential is correctly describe…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following events of cardiac myocyte action potential is correctly described? . : : 1
+## answer_a
+Phase [0] shows increased K* conductance through inward rectifying
+## explanation_a
+Phase 0 shows a DECREASE, not an increase, in K+ conductance through inwardly rectifying K+ channels — their inactivation, alongside fast Na+ channel activation, is what permits the rapid upstroke.
+## answer_b
+In phase [2] the Ca?" influx through T- type channels is balanced by the
+## explanation_b
+The sustained inward Ca++ current of phase 2 (the plateau) flows through L-type ("long-lasting"), not T-type, Ca++ channels — this leaf's own plateau concept names the L-type channel specifically.
+## answer_c
+During phase [0] fast sodium channels are inactivated
+## explanation_c
+Fast Na+ channels are ACTIVATED, not inactivated, during phase 0 — they drive the rapid upstroke itself; they inactivate afterward, during phase 1, not during phase 0.
+## answer_d
+During phase [3] delayed rectifier Ky channels are maximally activated
+## explanation_d
+This is the correct answer. During phase 3 (repolarization), the outward K+ current continues and delayed rectifier K+ channels become maximally activated, while the L-type Ca++ channels that sustained the plateau close — once that inward current stops, the now-dominant outward K+ current repolarizes the membrane back toward its resting value, exactly the mechanism this leaf's own plateau concept describes for the phase 2-to-3 transition.
+
+Why this is right:
+- The plateau (phase 2) of a working myocyte's action potential is held near 0 mV by a near-balance between a sustained inward Ca++ current, carried by voltage-gated L-type ('long-lasting') Ca++ channels that open during the upstroke and inactivate slowly (over roughly 200-300 ms), and an outward K+ current.
+## correct_answer
+D
+## main_concept
+CON-CVS-D0CD4A234205EF
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that delayed rectifier K+ channels become maximally activated during phase 3 (repolarization) of the working cardiac myocyte action potential, as opposed to misdescribing phases 0, 1 or 2.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p3 q1. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B94B91F24FF4
+## title
+Which of the following is correct as regards Na+ - Ca++ exchanger?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is correct as regards Na+ - Ca++ exchanger?
+## answer_a
+Presents in the sarcoplasm of cardiac myocytes
+## explanation_a
+The Na+-Ca++ exchanger is a sarcolemmal (membrane) transporter, not a sarcoplasmic (cytoplasmic) one — it sits in the cell membrane, exchanging ions across it.
+## answer_b
+Consumes high amount of ATP
+## explanation_b
+The Na+-Ca++ exchanger is not itself ATP-dependent; it is a secondary active transporter that uses the Na+ electrochemical gradient (built up by the separate, ATP-dependent Na+-K+ ATPase) rather than consuming ATP directly.
+## answer_c
+Can operate in both directions
+## explanation_c
+This is the correct answer. The Na+-Ca++ exchanger can operate in both directions depending on the membrane potential and the ionic concentration gradients: normally it moves Ca++ out and Na+ in, but when intracellular Na+ rises (e.g. Na+-K+ ATPase inhibition by digitalis) it reverses, moving Na+ out and Ca++ in.
+
+Why this is right:
+- The Na+-K+ ATPase (3 Na+ out for 2 K+ in, electrogenic), a Ca++-ATPase, and the Na+-Ca++ exchanger (normally 3 Na+ in for 1 Ca++ out) together maintain the cardiac myocyte's resting ionic gradients, and the exchanger reverses direction — moving Na+ out and Ca++ in — whenever intracellular Na+ rises, as when digitalis inhibits the Na+-K+ ATPase.
+## answer_d
+It is called funny current
+## explanation_d
+The "funny current" (If) is carried by HCN (funny) channels in pacemaker cells, a completely separate current from the Na+-Ca++ exchanger.
+## correct_answer
+C
+## main_concept
+CON-CVS-7A8A04F61D44D1
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the Na+-Ca++ exchanger can operate in both directions, not that it sits in the sarcoplasm, consumes large amounts of ATP, or is the funny current.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p5 q37. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3676384A6F3B
+## title
+Which of the following maintain the ionic concentrations across the sarcolemma of cardi…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following maintain the ionic concentrations across the sarcolemma of cardiac myocytes?
+## answer_a
+Na+ - Ca++ exchanger
+## explanation_a
+True, but incomplete on its own — the Na+-Ca++ exchanger is one of three transporters that together maintain ionic concentrations across the sarcolemma, alongside the Na+-K+ pump and the Ca++ ATPase pump.
+## answer_b
+Na+ - K+ pump
+## explanation_b
+True, but incomplete on its own — the Na+-K+ pump (Na+-K+ ATPase) is one of three transporters, alongside the Na+-Ca++ exchanger and the Ca++ ATPase pump.
+## answer_c
+Ca++ ATPase pump
+## explanation_c
+True, but incomplete on its own — the Ca++ ATPase pump is one of three transporters, alongside the Na+-K+ pump and the Na+-Ca++ exchanger.
+## answer_d
+All of the above are correct
+## explanation_d
+This is the correct answer. All three — the Na+-Ca++ exchanger, the Na+-K+ pump, and the Ca++ ATPase pump — sit in the cardiac sarcolemma and together maintain the myocyte's resting ionic concentration gradients against the continuous ion leaks that would otherwise disturb them.
+
+Why this is right:
+- The Na+-K+ ATPase (3 Na+ out for 2 K+ in, electrogenic), a Ca++-ATPase, and the Na+-Ca++ exchanger (normally 3 Na+ in for 1 Ca++ out) together maintain the cardiac myocyte's resting ionic gradients, and the exchanger reverses direction — moving Na+ out and Ca++ in — whenever intracellular Na+ rises, as when digitalis inhibits the Na+-K+ ATPase.
+## correct_answer
+D
+## main_concept
+CON-CVS-7A8A04F61D44D1
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the Na-Ca exchanger, the Na-K pump and the Ca ATPase pump together maintain the ionic concentrations across the cardiac sarcolemma.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p5 q35. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
 
 ---
 
@@ -49167,6 +52941,466 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-368C003B2FAC
+## title
+Cardiac output is: |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Cardiac output is: |
+## answer_a
+Amount of blood moving into the aorta each minute
+## explanation_a
+Blood moving into the aorta each minute is close to the concept of cardiac output but does not itself state the formula the question is testing (stroke volume x beats per minute); it also describes left-ventricular output alone, not "the amount of blood ejected from a ventricle" generically.
+## answer_b
+Amount of blood ejected from a ventricle in each systole times beats per minute
+## explanation_b
+Correct. Cardiac output is the amount of blood ejected from a ventricle in each systole (stroke volume) multiplied by the number of beats per minute (heart rate): CO = SV x HR.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_c
+Amount of blood ejected from both ventricles in each systole. °
+## explanation_c
+The amount of blood ejected from BOTH ventricles in one systole double-counts what a single ventricle ejects (the two ventricles in series eject essentially equal stroke volumes) and, like the other wrong options, omits the per-minute (heart-rate) component entirely.
+## answer_d
+Amount of blood ejected from the left ventricle in each systole
+## explanation_d
+The amount of blood ejected from the left ventricle in one systole is stroke volume, a per-beat quantity — cardiac output additionally requires multiplying by heart rate to reach a per-minute quantity.
+## correct_answer
+B
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State the formula CO = stroke volume x heart rate as the correct definition of cardiac output.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p14 q104. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C2026C9525AC
+## title
+What's the correct definition of cardiac output?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+What's the correct definition of cardiac output?
+## answer_a
+Amount of blood delivered through both vena cava per minute
+## explanation_a
+The amount of blood delivered through both venae cavae per minute describes venous return, which equals cardiac output only at haemodynamic steady state — it is not the definition of cardiac output itself.
+## answer_b
+Amount of blood ejected from a ventricle in each systole times beats per
+## explanation_b
+Correct. Cardiac output is the amount of blood ejected from a ventricle in each systole (stroke volume) multiplied by the number of beats per minute (heart rate): CO = SV x HR.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_c
+Amount of blood ejected from both ventricles in each systole
+## explanation_c
+The amount of blood ejected from both ventricles in one systole describes a single beat's total output, missing the essential "per minute" (heart-rate) component of the true definition.
+## answer_d
+Amount of blood ejected frorn the left ventricle in each systole
+## explanation_d
+The amount of blood ejected from the left ventricle in one systole is stroke volume, a per-beat quantity, not cardiac output's per-minute quantity.
+## correct_answer
+B
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State the formula CO = stroke volume x heart rate as the correct definition of cardiac output.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p7 q23. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D5E30C293D12
+## title
+The left ventricle has a thicker wall than the right ventricle because a, itis richer i…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The left ventricle has a thicker wall than the right ventricle because a, itis richer in blood supply
+## answer_a
+itis richer in blood supply
+## explanation_a
+A richer blood supply is not the reason for a thicker wall; a thicker, harder-working muscle needs more perfusion as a consequence of its greater workload, not as the cause of that thickness.
+## answer_b
+it ejects blood through a narrower orifice
+## explanation_b
+The left ventricle does not eject through a narrower orifice than the right; aortic and pulmonary valve orifices are comparable in size, so orifice narrowing is not what drives the wall-thickness difference.
+## answer_c
+it ejects a greater cardiac output .
+## explanation_c
+The left and right ventricles eject essentially equal stroke volumes in series at steady state, so a greater cardiac output is not the left ventricle's distinguishing feature or the reason for its thicker wall.
+## answer_d
+it ejects blood against a higher pressure
+## explanation_d
+Correct. The left ventricle ejects against systemic arterial pressure (~120-130 mmHg), roughly five to six times the right ventricle's pulmonary afterload (~25 mmHg); this higher afterload is the causal driver of greater workload, and the thicker wall is the structural (hypertrophic) adaptation to that chronic extra work.
+
+Why this is right:
+- The right and left ventricles eject the same stroke volume in series, but against very different loads.
+## correct_answer
+D
+## main_concept
+CON-CVS-CFB335FDD7B477
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the left ventricle's thicker wall is caused by it ejecting against a higher pressure (afterload) than the right ventricle, not by blood supply, orifice size or output volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p1 q7. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-67F59B84EBC8
+## title
+The systolic pressure in the left ventricle is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The systolic pressure in the left ventricle is:
+## answer_a
+130 mmHg
+## explanation_a
+Correct. Normal left ventricular systolic pressure is approximately 120-130 mmHg, matching the systemic arterial systolic pressure it must generate to eject blood into the aorta — roughly five to six times the right ventricle's pulmonary systolic pressure.
+
+Why this is right:
+- The right and left ventricles eject the same stroke volume in series, but against very different loads.
+## answer_b
+110 mmHg
+## explanation_b
+110 mmHg understates normal left ventricular systolic pressure, which needs to at least match systemic arterial systolic pressure for the aortic valve to open and ejection to occur.
+## answer_c
+150 mmHg
+## explanation_c
+150 mmHg overstates normal resting left ventricular systolic pressure; a value this high would suggest hypertension rather than a normal resting figure.
+## answer_d
+80 mmHg
+## explanation_d
+80 mmHg is close to normal systemic diastolic pressure, not left ventricular systolic pressure — the ventricle must exceed aortic diastolic pressure substantially before the aortic valve opens at all.
+## correct_answer
+A
+## main_concept
+CON-CVS-CFB335FDD7B477
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that normal left ventricular systolic pressure is approximately 120-130 mmHg, matching systemic arterial systolic pressure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q79. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-209B833933A4
+## title
+The work performed by left ventricle is greater than that performed by right ventricle …
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The work performed by left ventricle is greater than that performed by right ventricle because a, The wall is thicker
+## answer_a
+The wall is thicker
+## explanation_a
+Wall thickness is a structural adaptation resulting from the left ventricle's greater workload over time, not the cause of that greater work — reasoning from wall thickness reverses cause and effect.
+## answer_b
+The stroke volume is greater
+## explanation_b
+In series circulation, right and left ventricular stroke volumes are essentially equal at steady state, so a greater stroke volume does not explain the work difference between the two ventricles.
+## answer_c
+The preload is greater
+## explanation_c
+Preload (end-diastolic volume, filling) is similar for both ventricles in a normal series circulation and is not the source of the work disparity between them.
+## answer_d
+The afterload is greater
+## explanation_d
+Correct. Cardiac work per beat is proportional to afterload (the pressure the ventricle must generate) multiplied by the volume ejected; since stroke volumes are essentially equal, the left ventricle's far higher afterload — systemic arterial pressure, roughly five to six times the right ventricle's pulmonary arterial pressure — is what makes its work per beat greater.
+
+Why this is right:
+- The right and left ventricles eject the same stroke volume in series, but against very different loads.
+## correct_answer
+D
+## main_concept
+CON-CVS-CFB335FDD7B477
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the left ventricle's greater work, relative to the right ventricle's, is caused by its greater afterload, not by wall thickness, stroke volume or preload.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q123. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-30851052ECE6
 ## title
 All about cardiac preload is true, EXCEPT:
@@ -50087,6 +54321,282 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-30EDE96DF248
+## title
+If the EDV is increased (within limits):
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+If the EDV is increased (within limits):
+## answer_a
+COP would be decreased 1
+## explanation_a
+By Frank-Starling's law, a higher end-diastolic volume raises stroke volume, and cardiac output (CO = SV x HR) would rise with it at an unchanged heart rate, not decrease.
+## answer_b
+The force of cardiac contraction would be decreased
+## explanation_b
+Frank-Starling's law states the opposite: a greater stretch (higher preload) increases, not decreases, the force of cardiac contraction.
+## answer_c
+The output of the right ventricle would exceed the output of the left ventricle
+## explanation_c
+The right and left ventricles operate in series and eject essentially equal outputs at steady state; a rising end-diastolic volume does not make one ventricle's output exceed the other's.
+## answer_d
+The stroke volume would be increased
+## explanation_d
+Correct. By Frank-Starling's law, a higher end-diastolic volume stretches the ventricle further before contraction, raising the degree of shortening and so the stroke volume it ejects.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## correct_answer
+D
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a higher end-diastolic volume (preload) raises stroke volume, by Frank-Starling's law.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p15 q111. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7A05FE5019D4
+## title
+If the EDV is increased (within limits), which of the following will occur?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+If the EDV is increased (within limits), which of the following will occur?
+## answer_a
+COP would be decreased
+## explanation_a
+By Frank-Starling's law, a higher end-diastolic volume raises stroke volume, and cardiac output (CO = SV x HR) would rise with it at an unchanged heart rate, not decrease.
+## answer_b
+The force of cardiac contraction would be decreased
+## explanation_b
+Frank-Starling's law states the opposite: a greater stretch (higher preload) increases, not decreases, the force of cardiac contraction.
+## answer_c
+The output of the right ventricle would exceed the output of the left
+## explanation_c
+The right and left ventricles operate in series and eject essentially equal outputs at steady state; a rising end-diastolic volume does not make one ventricle's output exceed the other's.
+## answer_d
+The stroke volume would be increased
+## explanation_d
+Correct. By Frank-Starling's law, a higher end-diastolic volume stretches the ventricle further before contraction, raising the degree of shortening and so the stroke volume it ejects — the same fact this file's own if-the-edv-is-increased-within-limits-1a718833 question tests from a second, independent source occurrence.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## correct_answer
+D
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a higher end-diastolic volume (preload) raises stroke volume, by Frank-Starling's law.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p8 q31. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-215AD165EE1B
+## title
+Which of the following is not a vasodilator metabolite?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is not a vasodilator metabolite?
+## answer_a
+Adenosine
+## explanation_a
+Adenosine is a vasodilator metabolite — a breakdown product of ATP that is especially important in cardiac muscle, one of the department book's own named examples.
+## answer_b
+Potassium ions
+## explanation_b
+Potassium ions are a vasodilator metabolite — the department book's vasomotion section names potassium ions, alongside O2 lack, CO2 excess and lactic acid, among the metabolites that relax metarterioles and precapillary sphincters.
+## answer_c
+Hydrogen ions
+## explanation_c
+Hydrogen ions (low pH from acidic metabolites such as lactic acid) are a vasodilator metabolite, one of the department book's own named examples of active hyperaemia's vasodilator metabolites.
+## answer_d
+Endothelin-1
+## explanation_d
+This is the correct answer. Endothelin-1 is not a vasodilator metabolite — it is described as the most potent vasoconstrictor yet known, secreted by the endothelium itself, the opposite direction from adenosine, potassium ions and hydrogen ions.
+
+Why this is right:
+- In the myogenic mechanism of autoregulation, arteriolar stretch from a pressure rise stimulates calcium entry into smooth muscle fibres, which contract with greater force, producing vasoconstriction.
+## correct_answer
+D
+## main_concept
+CON-CVS-56A68328FD03C7
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify endothelin-1, not adenosine, potassium ions or hydrogen ions, as the option that is not a vasodilator metabolite.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p9 q67. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-40ACDB21FA56
 ## title
 Asa rapid compensatory reaction to hemorrhagic shock, the secretion of the following ho…
@@ -50727,6 +55237,283 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
+
+
+---
+
+# Item
+## id
+QM-104-07C4EB6D7B5A
+## title
+Stimulation of arterial baroreceptors causes all, Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stimulation of arterial baroreceptors causes all, Except:
+## answer_a
+Vasoconstriction of arterioles
+## explanation_a
+The exception, and the answer. A rise in arterial pressure raises baroreceptor discharge, which inhibits the vasomotor area, lowering sympathetic drive to the vessels and producing vasodilatation of arterioles — the opposite of constriction. A common trap: answering with the atrial volume receptors, whose reflex is about volume, not arterial pressure.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## answer_b
+Bradycardia
+## explanation_b
+True, so not the exception. Increased baroreceptor discharge excites the cardiac inhibitory area, raising vagal tone and producing bradycardia.
+## answer_c
+Decrease in ABP
+## explanation_c
+True, so not the exception. The combined fall in heart rate, stroke volume, cardiac output and vascular resistance that increased baroreceptor discharge produces is what lowers arterial blood pressure back towards normal.
+## answer_d
+Inhibition of vasomotor tone
+## explanation_d
+True, so not the exception. Increased baroreceptor discharge inhibits the vasomotor area, lowering sympathetic (vasomotor) tone to the vessels.
+## correct_answer
+A
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that a rise in baroreceptor discharge causes vasodilatation, not vasoconstriction of arterioles, against three genuine effects of the same reflex.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p11 q77. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-EC47F0F52580
+## title
+Stimulation of atrial stretch receptors produce
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stimulation of atrial stretch receptors produce
+## answer_a
+Vasodilation of arterioles and fall in arterial blood pressure
+## explanation_a
+By elimination, once B, C and D are each ruled out against this leaf's own sourced facts, vasodilatation of arterioles and a fall in arterial blood pressure is the surviving option — consistent with the same withdrawal of sympathetic outflow that this reflex's tachycardia and ADH suppression both already reflect.
+
+Why this is right:
+- The atria have three functions beyond acting as a simple entry chamber.
+## answer_b
+Increased secretion of ADH from hypothalamus
+## explanation_b
+Reversed. This leaf's own hemorrhagic-shock concept states vasopressin (ADH) rises from DECREASED discharge of the atrial low-pressure receptors — so stimulating (increasing the discharge of) those same receptors would lower, not raise, ADH secretion.
+## answer_c
+Decreased secretion of atrial natriuretic peptide ANP
+## explanation_c
+Reversed. Atrial natriuretic peptide is secreted when atrial stretch rises with an expanded extracellular fluid volume, per this leaf's own sourced concept — stimulating the atrial stretch receptors raises, not lowers, ANP secretion.
+## answer_d
+Decreased heart rate
+## explanation_d
+Reversed. This leaf's own sourced concept credits the atria's stretch receptors with triggering the Bainbridge reflex — reflex tachycardia when atrial filling rises — the opposite direction to a decreased heart rate.
+## correct_answer
+A
+## main_concept
+CON-CVS-60749EA9A6B0A5
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+Eliminate three options that each reverse an established atrial-receptor fact (ADH, ANP, heart rate direction) to identify reflex vasodilatation and a fall in arterial pressure as the remaining, consistent answer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p5 q32. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-53F1D6962893
+## title
+In progressive hemorrhagic shock, which of the following occurs? ~~’
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In progressive hemorrhagic shock, which of the following occurs? ~~’
+## answer_a
+Increased capillary permeability
+## explanation_a
+Correct by direct elimination against the book's own explicit statements on the other three options (below), and consistent with the book's own refractory-shock mechanisms (p89: granulocyte-mediated free-radical capillary-wall damage) and its own treatment rationale (p90: glucocorticoids protect capillary endothelium 'thus maintaining normal capillary permeability', implying permeability rises abnormally without that protection as shock continues).
+
+Why this is right:
+- Hemorrhage lowers arterial blood pressure and stimulates rapid neural and humoral compensatory mechanisms.
+## answer_b
+Dilation of veins
+## explanation_b
+Reversed. The department book states the compensatory response to hemorrhage is VASOCONSTRICTION of veins (p87, p91) — 'limit pooling of blood in lower body veins and push blood upwards to the heart' — not dilation.
+## answer_c
+Tissue alkalosis 03
+## explanation_c
+Reversed. The department book lists 'Acidosis (due to tissue hypoxia that leads to anaerobic glycolysis and production of excess lactic acid)' (p86) among hemorrhagic shock's own manifestations — not alkalosis.
+## answer_d
+Increased urine output
+## explanation_d
+Reversed. The department book lists 'Reduced urine formation (oliguria) (due to decreased renal blood flow)' (p86-87) among hemorrhagic shock's own manifestations — not increased urine output.
+## correct_answer
+A
+## main_concept
+CON-CVS-419F030679CA1F
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Single best answer
+## learning_objective
+State that progressive hemorrhagic shock is associated with increased capillary permeability, as opposed to the three directly book-contradicted alternatives (venous dilation, tissue alkalosis, increased urine output).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p10 q42. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Options B, C and D are each directly and explicitly contradicted by the department physiology book's own statements on hemorrhagic shock (venoconstriction not dilation, p87/p91; acidosis not alkalosis, p86; oliguria not increased urine output, p86-87), leaving A correct by elimination and consistent with the book's own refractory-shock/glucocorticoid-treatment language on capillary permeability (p89-90).
 
 
 ---
@@ -53413,6 +58200,933 @@ Extraction confidence high; the answer came from no source and was supplied by t
 
 # Item
 ## id
+QM-104-646C691142F9
+## title
+Transection between medulla oblongata and upper border of spinal cord causes:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Transection between medulla oblongata and upper border of spinal cord causes:
+## answer_a
+Stoppage of breathing and death
+## explanation_a
+This is the correct answer. The department book's own level 4 transection — between the medulla and the upper border of the spinal cord — completely disconnects the DRG/VRG from the phrenic and intercostal motor neurons that actually drive breathing, so respiration stops entirely, leading to death, unlike levels 1-3, which all leave some form of breathing going.
+
+Why this is right:
+- Level 1 (upper border of the pons, above both pontine centres): respiration is unaffected, since every respiratory centre below the cut is intact; adding bilateral vagotomy at this level makes breathing slower and deeper, showing vagal (Hering-Breuer) afferents normally help set tidal volume and rate.
+## answer_b
+Irregular respiration
+## explanation_b
+Irregular respiration is what level 3 (between pons and medulla) produces, not level 4 — at level 4 breathing stops completely rather than merely becoming irregular.
+## answer_c
+Slower and deeper respiration
+## explanation_c
+Slower and deeper respiration is what level 1 (top of the pons) plus vagotomy produces; level 4 stops breathing entirely rather than slowing and deepening it.
+## answer_d
+Rapid shallow respiration
+## explanation_d
+Rapid shallow respiration is not a pattern any of the four classic transection levels produces; level 4 specifically abolishes breathing rather than making it rapid and shallow.
+## correct_answer
+A
+## main_concept
+CON-RES-59CCF474F362ED
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that transection between the medulla and the upper border of the spinal cord (level 4) causes complete stoppage of breathing and death.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p13 q93. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AE7E8675729E
+## title
+Immediate stoppage of respiration can be caused by transection:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Immediate stoppage of respiration can be caused by transection:
+## answer_a
+between pons and medulla,
+## explanation_a
+A transection between pons and medulla (level 3) leaves respiration continuing, only irregularly, on the DRG's own intrinsic rhythm — not an immediate stoppage.
+## answer_b
+of both vagi
+## explanation_b
+Cutting both vagi alone does not stop breathing; it only removes the Hering-Breuer reflex's contribution to tidal volume and rate, leaving the DRG's own rhythm intact.
+## answer_c
+below 7" cervical vertebra
+## explanation_c
+A transection below the 7th cervical vertebra sits below the phrenic nerve's spinal origin (C3-C5), so diaphragmatic breathing driven by the phrenic nerve continues even though thoracic outflow below the cut is lost.
+## answer_d
+Above 2™ cervical vertebra
+## explanation_d
+This is the correct answer. A transection above the 2nd cervical vertebra severs every descending pathway from the medullary respiratory centres to the phrenic (C3-C5) and intercostal motor neurons — functionally the same disconnection as the department book's own level 4 (medulla-to-spinal-cord) transection — so breathing stops immediately.
+
+Why this is right:
+- Level 1 (upper border of the pons, above both pontine centres): respiration is unaffected, since every respiratory centre below the cut is intact; adding bilateral vagotomy at this level makes breathing slower and deeper, showing vagal (Hering-Breuer) afferents normally help set tidal volume and rate.
+## correct_answer
+D
+## main_concept
+CON-RES-59CCF474F362ED
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Applied recall
+## learning_objective
+Identify a transection above the second cervical vertebra as equivalent to level 4 brainstem transection, disconnecting the respiratory centres from the phrenic outflow entirely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p44 q146. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-266761AAB21F
+## title
+Spontaneous respiration ceases after:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Spontaneous respiration ceases after:
+## answer_a
+bilateral vagotomy
+## explanation_a
+Bilateral vagotomy alone does not abolish normal rhythmic breathing — the department book's own level 1 experiment shows vagotomy alone only makes breathing slower and deeper, since the pneumotaxic centre still supplies its own independent inhibitory input to the apneustic centre and DRG.
+## answer_b
+bilateral vagotomy combined with transection of brain stem at the superior border of the pons
+## explanation_b
+This is the correct answer. The department book's own level 2 transection (removing pneumotaxic input to the apneustic centre and DRG) combined with bilateral vagotomy removes the apneustic centre's only two sources of inhibition at once, so it fires unopposed — normal rhythmic breathing ceases and is replaced by apneusis, breathing held in full inspiration.
+
+Why this is right:
+- Level 1 (upper border of the pons, above both pontine centres): respiration is unaffected, since every respiratory centre below the cut is intact; adding bilateral vagotomy at this level makes breathing slower and deeper, showing vagal (Hering-Breuer) afferents normally help set tidal volume and rate.
+## answer_c
+Trachea
+## explanation_c
+Transection of the spinal cord at the first thoracic segment leaves the phrenic nerve (C3-C5) and its brainstem connections intact, so normal rhythmic diaphragmatic breathing continues; it does not by itself abolish spontaneous respiration.
+## answer_d
+transection of the spinal cord at the level of the first thoracic segment
+## explanation_d
+'Trachea' names an airway structure, not a transection level or manoeuvre that could abolish the brainstem's own respiratory rhythm.
+## correct_answer
+B
+## main_concept
+CON-RES-59CCF474F362ED
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Applied mechanism
+## learning_objective
+State that combining bilateral vagotomy with a pontine transection that removes pneumotaxic input abolishes normal rhythmic breathing and replaces it with apneusis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p9 q63. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-D89CF708FA94
+## title
+Medullary inspiratory neurons are stimulated by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Medullary inspiratory neurons are stimulated by:
+## answer_a
+Afferent impulses from proprioceptors
+## explanation_a
+This is the correct answer. Afferent impulses from proprioceptors are one of this leaf's own non-chemical afferent sources, driving the ventilation rise of exercise by stimulating the medullary inspiratory neurons.
+
+Why this is right:
+- Alongside the chemical control of breathing by PCO2, pH and PO2, the respiratory centre is regulated by nervous reflexes that are independent of blood gases.
+## answer_b
+Vagal afferent from lung stretch receptors
+## explanation_b
+Vagal afferents from lung stretch receptors are inhibitory, not stimulatory, to the medullary inspiratory neurons — this is the Hering-Breuer reflex, which switches inspiration off, the opposite direction from stimulation.
+## answer_c
+Increased hydrogen ion concentration in arterial blood
+## explanation_c
+Arterial (plasma) H+ does not directly stimulate the medullary inspiratory neurons — the central chemoreceptors respond to CSF H+, which plasma H+ cannot reach because of the blood-brain barrier.
+## answer_d
+Afferent impulses from arterial baroreceptors
+## explanation_d
+Afferent impulses from arterial baroreceptors inhibit, not stimulate, the respiratory centre — a rise in arterial pressure raising baroreceptor discharge reflexly inhibits respiration.
+## correct_answer
+A
+## main_concept
+CON-RES-3A3D4A2919FA80
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify proprioceptive afferents as a genuine stimulatory input to the medullary inspiratory neurons, unlike vagal stretch afferents, arterial H+ or baroreceptor afferents, which do not directly stimulate them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p22 q44. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-704FE84A89C1
+## title
+In normal individual respiration is regulated by all except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In normal individual respiration is regulated by all except:
+## answer_a
+central chemorecptors responding to changes in PO,
+## explanation_a
+The exception, and the answer. Central chemoreceptors do not respond to changes in PO2 at all — they are protected from arterial blood by the blood-brain barrier and respond only to CSF H+, generated indirectly when CO2 crosses that barrier. Sensing PO2 directly is a peripheral, not central, chemoreceptor function.
+
+Why this is right:
+- Central chemoreceptors are responsible for 75-80% of respiratory drive at rest.
+- Peripheral chemoreceptors are almost insensitive to changes of PO2 from 100 down to 60 mmHg; below 60 mmHg there is a steep increase in the rate of impulse discharge to the respiratory centres.
+## answer_b
+Peripheral chemorecptors responding to changes in PCO,
+## explanation_b
+True, so not the exception. Peripheral chemoreceptors do respond to changes in PCO2, contributing roughly 20-30% of the overall CO2 ventilatory response alongside the dominant central route.
+## answer_c
+Peripheral chemorecptors responding to changes in PO2
+## explanation_c
+True, so not the exception. Peripheral chemoreceptors are the ones that sense PO2 directly, thanks to their exceptionally high blood flow per gram of tissue.
+## answer_d
+Central chemorecptors responding to changes in PCO
+## explanation_d
+True, so not the exception. Central chemoreceptors respond to changes in PCO2, indirectly, via the CSF acidification CO2 produces once it crosses the blood-brain barrier.
+## correct_answer
+A
+## main_concept
+CON-RES-C6F65BAAC06FAA
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify that central chemoreceptors respond to CSF H+/PCO2, not directly to PO2, which the peripheral chemoreceptors alone sense.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p42 q127. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-62D9F6168033
+## title
+The carotid and aortic bodies increase their rate of discharge in response to:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The carotid and aortic bodies increase their rate of discharge in response to:
+## answer_a
+Decreased blood H" concentration
+## explanation_a
+A decrease in blood H+ concentration means more alkaline blood, which would reduce, not increase, chemoreceptor discharge — the opposite direction.
+## answer_b
+Decreased blood O} content
+## explanation_b
+The peripheral chemoreceptors' very high blood flow per gram of tissue lets them sense dissolved PO2 directly rather than total O2 content, so a fall in O2 content alone (as in anaemia, with normal PO2) does not markedly raise their discharge.
+## answer_c
+Decreased partial pressure of blood oxygen
+## explanation_c
+This is the correct answer. The carotid and aortic bodies sense dissolved arterial PO2 directly, and increase their rate of discharge as PO2 falls, becoming markedly more active once PO2 drops below about 60 mmHg.
+
+Why this is right:
+- Central chemoreceptors are responsible for 75-80% of respiratory drive at rest.
+- Peripheral chemoreceptors are almost insensitive to changes of PO2 from 100 down to 60 mmHg; below 60 mmHg there is a steep increase in the rate of impulse discharge to the respiratory centres.
+## answer_d
+Decreased dissolved oxygen in CSF
+## explanation_d
+The peripheral chemoreceptors are stimulated by arterial blood, not CSF, and their location (carotid bifurcation, aortic arch) and blood supply have nothing to do with dissolved oxygen in CSF, which is instead what the (unaffected-by-O2) central chemoreceptors are bathed in.
+## correct_answer
+C
+## main_concept
+CON-RES-C6F65BAAC06FAA
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the carotid and aortic bodies (peripheral chemoreceptors) increase their discharge in response to a decreased partial pressure of blood oxygen, not decreased H+, O2 content, or CSF dissolved oxygen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q61. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-49E776F227C5
+## title
+Which of the following discharge spontaneously during quiet breathing? ‏ا‎ ‎a- Stretch …
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following discharge spontaneously during quiet breathing? ‏ا‎ ‎a- Stretch receptors ‏ا 18 ا‎
+## answer_a
+Stretch receptors ‏ا 18 ا‎
+## explanation_a
+Stretch receptors in the lung do not discharge spontaneously — they fire in response to lung inflation, driving the Hering-Breuer reflex, not generating rhythm on their own.
+## answer_b
+Motor neurons of respiratory muscles
+## explanation_b
+Motor neurons of the respiratory muscles fire in response to the DRG's own descending drive; they do not spontaneously generate the rhythm themselves.
+## answer_c
+Dorsal respiratory group of neurons
+## explanation_c
+This is the correct answer. The dorsal respiratory group has its own slow, irregular inherent rhythmicity and fires spontaneously during quiet breathing, generating the basic inspiratory drive that the pontine centres only tune.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_d
+Ventral respiratory group of neurons
+## explanation_d
+The ventral respiratory group is totally inactive during quiet breathing, activating only for forced breathing — the opposite of discharging spontaneously at rest.
+## correct_answer
+C
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify the dorsal respiratory group, not stretch receptors, respiratory motor neurons, or the ventral respiratory group, as the structure that discharges spontaneously during quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p41 q119. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B008BA88E263
+## title
+Which of the following discharge spontaneously during quist breathing?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following discharge spontaneously during quist breathing?
+## answer_a
+Stretch receptors in lung
+## explanation_a
+Stretch receptors in the lung fire in response to lung inflation (the Hering-Breuer reflex); they do not spontaneously generate rhythm on their own.
+## answer_b
+Motor neurons of respiratory muscles
+## explanation_b
+Motor neurons of the respiratory muscles fire in response to the DRG's own descending drive rather than generating the rhythm themselves.
+## answer_c
+Dorsal respiratory group of neurons
+## explanation_c
+This is the correct answer. The dorsal respiratory group has its own slow, irregular inherent rhythmicity and fires spontaneously during quiet breathing.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_d
+Ventral respiratory group of neurons
+## explanation_d
+The ventral respiratory group is totally inactive during quiet breathing, activating only for forced breathing.
+## correct_answer
+C
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify the dorsal respiratory group, not stretch receptors, respiratory motor neurons, or the ventral respiratory group, as the structure that discharges spontaneously during quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p21 q34. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DED675DF91C2
+## title
+Which of the following discharges spontaneously during quiet breathing?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following discharges spontaneously during quiet breathing?
+## answer_a
+Stretch receptors in lung
+## explanation_a
+Stretch receptors in the lung fire in response to lung inflation (the Hering-Breuer reflex); they do not spontaneously generate rhythm on their own.
+## answer_b
+Motor neurons of respiratory muscles
+## explanation_b
+Motor neurons of the respiratory muscles fire in response to the DRG's own descending drive rather than generating the rhythm themselves.
+## answer_c
+Dorsal respiratory group of neurons
+## explanation_c
+This is the correct answer. The dorsal respiratory group has its own slow, irregular inherent rhythmicity and fires spontaneously during quiet breathing.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_d
+Ventral respiratory group of neurons
+## explanation_d
+The ventral respiratory group is totally inactive during quiet breathing, activating only for forced breathing.
+## correct_answer
+C
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify the dorsal respiratory group, not stretch receptors, respiratory motor neurons, or the ventral respiratory group, as the structure that discharges spontaneously during quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p13 q91. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3A62B8EA371C
+## title
+Which of the following conditions causes hypoventilation?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following conditions causes hypoventilation?
+## answer_a
+Strenuous exercise
+## explanation_a
+Strenuous exercise raises ventilation to match the sharp rise in CO2 production and O2 consumption — hyperventilation relative to rest, not hypoventilation.
+## answer_b
+Ascent to high altitude
+## explanation_b
+Ascent to high altitude lowers arterial PO2, stimulating the peripheral chemoreceptors and driving hyperventilation, not hypoventilation.
+## answer_c
+Anemia
+## explanation_c
+Anaemia lowers O2 content but leaves PO2 normal, so it does not stimulate or depress the chemoreceptor drive to ventilation; it is not a cause of hypoventilation.
+## answer_d
+Diabetic ketoacidosis
+## explanation_d
+Diabetic ketoacidosis produces a metabolic acidosis that drives compensatory hyperventilation (Kussmaul breathing) via the peripheral and central chemoreceptors, not hypoventilation.
+## answer_e
+Chronic obstructive pulmonary disease (COPD)
+## explanation_e
+This is the correct answer. In chronic lung disease such as COPD, longstanding CO2 retention lets the central chemoreceptors tolerate higher CO2 levels than normal, shifting these patients onto hypoxic (peripheral chemoreceptor) drive as their main stimulus to breathe — the underlying mechanism is chronic hypoventilation relative to CO2 production, with the central chemoreceptor response blunted.
+
+Why this is right:
+- Central chemoreceptors are responsible for 75-80% of respiratory drive at rest.
+- Peripheral chemoreceptors are almost insensitive to changes of PO2 from 100 down to 60 mmHg; below 60 mmHg there is a steep increase in the rate of impulse discharge to the respiratory centres.
+## correct_answer
+E
+## main_concept
+CON-RES-C6F65BAAC06FAA
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify COPD, not strenuous exercise, high-altitude ascent, anaemia or diabetic ketoacidosis, as a cause of hypoventilation, via the chronic CO2-retention drive-shift mechanism.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p45 q152. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-7E96991DC251
 ## title
 The left coronary flow:
@@ -53595,6 +59309,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
+
+
+---
+
+# Item
+## id
+QM-104-940FA9A20FD9
+## title
+The coronary blood flow:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The coronary blood flow:
+## answer_a
+Is autoregulated
+## explanation_a
+Correct. This leaf's own concept states coronary flow is regulated primarily by metabolic autoregulation (vasodilator metabolites such as adenosine, CO2, H+ and prostaglandins), not primarily by neural control — the flow is autoregulated to match myocardial O2 demand.
+
+Why this is right:
+- Contraction of the myocardium during systole compresses the coronary vessels within the ventricular wall, increasing their resistance and decreasing coronary flow to a minimum.
+## answer_b
+Increases in the endocardium during systole
+## explanation_b
+Reversed. Ventricular contraction compresses the intramural coronary vessels, driving flow to a MINIMUM during systole — hardest on the subendocardium specifically, which is exactly why it is most vulnerable to ischaemia — not an increase.
+## answer_c
+Decreases by adenosine
+## explanation_c
+Reversed. Adenosine is one of the vasodilator metabolites this leaf's own concept names as driving metabolic autoregulation — it INCREASES coronary flow by dilating coronary vessels as myocardial metabolism rises, not decreases it.
+## answer_d
+Of left ventricle, increases in systole
+## explanation_d
+Reversed, same error as B applied to the left ventricle specifically: coronary flow to the left ventricle falls, not rises, during systole, because ventricular contraction compresses the intramural vessels supplying it.
+## correct_answer
+A
+## main_concept
+CON-CVS-B29600F656A34B
+## library_ids
+ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Special Circulation (Coronary)
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Special Circulation
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that coronary blood flow is autoregulated primarily by local metabolic factors, and that it falls (not rises) in the subendocardium during systole and is decreased, not increased, by adenosine.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p25 q185. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: external-solved-book-recovered, sourced from a different solved question book rather than this bank's own printed answer). Re-verified directly against this leaf's own sourced concept (coronary-circulation.phasic-flow-and-autoregulation): flow is regulated primarily by metabolic autoregulation, falls to a minimum during systole (hardest on the subendocardium), and adenosine is a vasodilator metabolite that raises, not lowers, flow — confirming A and ruling out B, C and D independently.
 
 
 ---
@@ -54061,6 +59867,1294 @@ Extraction confidence high; the answer came from no source and was supplied by t
 
 # Item
 ## id
+QM-104-49BFC6813B9D
+## title
+Concerning nitric oxide NO, the following are true, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning nitric oxide NO, the following are true, except
+## answer_a
+Formed from L-arginine by the action of NO synthase
+## explanation_a
+True, so not the exception. NO is formed from L-arginine by the action of endothelial NO synthase (eNOS).
+## answer_b
+Causes vascular smooth muscle relaxation by activating guanyl cyclase
+## explanation_b
+True, so not the exception. NO causes vascular smooth muscle relaxation by activating guanylate cyclase, which raises cGMP.
+## answer_c
+Synthesis is stimulated by adrenaline
+## explanation_c
+The exception, and the answer. The book's own list of stimuli that activate eNOS and raise NO production is shear stress, acetylcholine, and bradykinin/histamine — adrenaline is not among them; some vasoconstrictors including angiotensin II do raise NO release, but that is a separate point from adrenaline specifically stimulating synthesis.
+
+Why this is right:
+- Nitric oxide (NO) is produced continuously by endothelial cells, via the action of endothelial nitric oxide synthase (eNOS) on the amino acid L-arginine.
+## answer_d
+Acetylcholine and shear stress increase the activity of NO synthase |
+## explanation_d
+True, so not the exception. Acetylcholine (released by endothelial cells in response to shear stress) and shear stress itself both increase NO synthase activity.
+## correct_answer
+C
+## main_concept
+CON-CVS-73B5BC1B2AB1FD
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify that NO synthase is stimulated by shear stress and acetylcholine, not by adrenaline, alongside its L-arginine substrate and cGMP-mediated mechanism.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p20 q153. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-48E6AE3F1B52
+## title
+Nitric oxide
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Nitric oxide
+## answer_a
+Is synthesized in vascular endothelium from amino acid leucine
+## explanation_a
+NO is synthesised in vascular endothelium from the amino acid L-arginine, not leucine.
+## answer_b
+Produces vascular smooth muscle relaxation via cAMP 1
+## explanation_b
+NO produces vascular smooth muscle relaxation via cGMP (through guanylate cyclase), not cAMP.
+## answer_c
+Released from vascular smooth muscle during stress
+## explanation_c
+NO is released from vascular endothelial cells, not from vascular smooth muscle itself.
+## answer_d
+Failure of its synthesis leads to development of hypertension
+## explanation_d
+This is the correct answer. Chronic hypertension and atherosclerosis can damage the endothelium and impair NO synthesis, and a primary deficiency of NO synthesis itself can cause hypertension — animals lacking the eNOS enzyme become hypertensive, since a vasodilator tone the vasculature depends on is lost.
+
+Why this is right:
+- Nitric oxide (NO) is produced continuously by endothelial cells, via the action of endothelial nitric oxide synthase (eNOS) on the amino acid L-arginine.
+## correct_answer
+D
+## main_concept
+CON-CVS-73B5BC1B2AB1FD
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that a failure of NO synthesis contributes to the development of hypertension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q155. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6DC15C606C23
+## title
+The following are true, regarding NO, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following are true, regarding NO, except
+## answer_a
+Produced by the action of NO synthase on L-arginine in endothelial cells
+## explanation_a
+True, so not the exception. NO is produced by the action of NO synthase on L-arginine in endothelial cells.
+## answer_b
+Acetylcholine activate the NO synthase enzyme
+## explanation_b
+True, so not the exception. Acetylcholine activates the NO synthase enzyme (via shear-stress-triggered endothelial acetylcholine release).
+## answer_c
+NO induces VD of blood vessels by increasing c-AMP
+## explanation_c
+The exception, and the answer. NO induces vasodilation of blood vessels by activating guanylate cyclase and raising cGMP, not cAMP — the same substitution this leaf's own nitric-oxide concept flags as a common distractor.
+
+Why this is right:
+- Nitric oxide (NO) is produced continuously by endothelial cells, via the action of endothelial nitric oxide synthase (eNOS) on the amino acid L-arginine.
+## answer_d
+Shear stress increases the NO production
+## explanation_d
+True, so not the exception. Shear stress increases NO production (flow-induced vasodilatation).
+## correct_answer
+C
+## main_concept
+CON-CVS-73B5BC1B2AB1FD
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify that NO induces vasodilation by raising cGMP, not cAMP, alongside its production pathway and its acetylcholine/shear-stress stimuli.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q154. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3A52D35EA3E5
+## title
+A decrease in which would cause chronic hypertension
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+A decrease in which would cause chronic hypertension
+## answer_a
+Renal sympathetic nerve activity
+## explanation_a
+A decrease in renal sympathetic nerve activity would lower, not raise, sympathetically driven vasoconstriction and renin release — it would tend to lower arterial pressure, not cause hypertension.
+## answer_b
+Aldosterone
+## explanation_b
+A decrease in aldosterone would increase renal Na+ and water loss, lowering blood volume and arterial pressure — the opposite of causing hypertension.
+## answer_c
+Angiotensin II
+## explanation_c
+A decrease in angiotensin II would remove a vasoconstrictor and reduce aldosterone-driven Na+/water retention, lowering arterial pressure rather than raising it.
+## answer_d
+Nitric oxide
+## explanation_d
+This is the correct answer. Nitric oxide is a vasodilator; a decrease in its synthesis removes that vasodilator tone, permitting excessive vasoconstriction. The department book states this directly: deficiency of NO can cause hypertension, and animals lacking the eNOS enzyme become hypertensive.
+
+Why this is right:
+- Nitric oxide (NO) is produced continuously by endothelial cells, via the action of endothelial nitric oxide synthase (eNOS) on the amino acid L-arginine.
+## correct_answer
+D
+## main_concept
+CON-CVS-73B5BC1B2AB1FD
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify that a decrease in nitric oxide, unlike a decrease in renal sympathetic activity, aldosterone or angiotensin II, causes chronic hypertension because it removes a vasodilator tone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p4 q22. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-31BB3C571FDC
+## title
+About mediators and vasoactive substances, all of the following are true Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+About mediators and vasoactive substances, all of the following are true Except:
+## answer_a
+Norepinephrine is a hormone for arteriolar vasoconstriction
+## explanation_a
+True, so not the exception. Norepinephrine is one of the book's own listed circulating vasoconstrictor hormones.
+## answer_b
+Kinins are hormones for arteriolar vasoconstriction
+## explanation_b
+The exception, and the answer. Kinins are listed among the vasodilator hormones, not the vasoconstrictors — the opposite of this statement.
+
+Why this is right:
+- Beyond the local (metabolic) and nervous mechanisms controlling arteriolar diameter, a systemic humoral mechanism uses circulating hormones with opposite vascular actions.
+## answer_c
+Angiotensin II produces arteriolar vasoconstriction
+## explanation_c
+True, so not the exception. Angiotensin II is one of the listed circulating vasoconstrictor hormones.
+## answer_d
+Catecholamines and vasopressin are circulating vasoconstrictor substances
+## explanation_d
+True, so not the exception. Catecholamines (epinephrine, norepinephrine) and vasopressin are all listed as circulating vasoconstrictor substances.
+## correct_answer
+B
+## main_concept
+CON-CVS-2BE3EA659D177B
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Sort norepinephrine, angiotensin II and vasopressin as circulating vasoconstrictors and kinins as a vasodilator, not a vasoconstrictor.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p11 q78. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A96C5D9F228C
+## title
+Systemic arteriolar constriction may result from an increase in local concentration of:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Systemic arteriolar constriction may result from an increase in local concentration of:
+## answer_a
+Nitric oxide
+## explanation_a
+Nitric oxide is a vasodilator, produced locally by the endothelium — a rise in its local concentration causes vasodilation, not constriction.
+## answer_b
+Angiotensin II
+## explanation_b
+This is the correct answer. Angiotensin II is one of the book's own listed circulating vasoconstrictor hormones, producing peripheral vasoconstriction of arterioles and veins via AT1 receptors.
+
+Why this is right:
+- Beyond the local (metabolic) and nervous mechanisms controlling arteriolar diameter, a systemic humoral mechanism uses circulating hormones with opposite vascular actions.
+## answer_c
+Atrial natriuretic peptide
+## explanation_c
+Atrial natriuretic peptide is one of the listed vasodilator hormones — a rise in its concentration lowers, not raises, vascular resistance.
+## answer_d
+Hydrogen ions
+## explanation_d
+Hydrogen ions are a vasodilator metabolite of active tissue (part of active hyperaemia), not a vasoconstrictor — a local rise dilates, rather than constricts, the arterioles.
+## correct_answer
+B
+## main_concept
+CON-CVS-2BE3EA659D177B
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify angiotensin II, not nitric oxide, atrial natriuretic peptide or hydrogen ions, as a substance whose rise causes systemic arteriolar constriction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p22 q162. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C278650B3660
+## title
+All about renin-angiotensin system is correct, except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All about renin-angiotensin system is correct, except:
+## answer_a
+Is stimulated following blood loss
+## explanation_a
+True, so not the exception. The RAS is stimulated following blood loss, since hypovolaemia and hypotension raise renin secretion.
+## answer_b
+Depends on angiotensinogen secretion from the juxtaglomerular apparatus
+## explanation_b
+The exception, and the answer. Angiotensinogen is secreted by the liver, not the juxtaglomerular apparatus — the juxtaglomerular apparatus secretes renin, the enzyme that then acts on hepatic angiotensinogen.
+
+Why this is right:
+- Renin is secreted by the juxtaglomerular apparatus of the kidney, a proteolytic enzyme that acts on angiotensinogen (secreted by the liver, not the juxtaglomerular apparatus itself) to form the decapeptide angiotensin I; angiotensin-converting enzyme (ACE), found in vascular endothelial cells especially of the lung, then converts angiotensin I to the octapeptide angiotensin II.
+## answer_c
+Promotes aldosterone secretion from the adrenal cortex
+## explanation_c
+True, so not the exception. Angiotensin II promotes aldosterone secretion from the adrenal cortex via AT1 receptors.
+## answer_d
+Can stimulate vasoconstriction
+## explanation_d
+True, so not the exception. Angiotensin II can stimulate vasoconstriction via AT1 receptors.
+## correct_answer
+B
+## main_concept
+CON-CVS-F7ACE802080250
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify that angiotensinogen is secreted by the liver, not the juxtaglomerular apparatus, which instead secretes renin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q160. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-76A1CA9B087A
+## title
+Renhin is released in the following conditions, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Renhin is released in the following conditions, except
+## answer_a
+Salt restriction ,
+## explanation_a
+True, so not the exception. Salt restriction lowers Na+ delivery to the distal tubule, one of the book's own listed triggers that raises renin secretion.
+## answer_b
+Dehydration
+## explanation_b
+True, so not the exception. Dehydration causes hypovolaemia and hypotension, one of the book's own listed triggers that raises renin secretion.
+## answer_c
+Sympathetic stimulation
+## explanation_c
+True, so not the exception. Sympathetic stimulation raises renin secretion via β1 adrenoceptors, as the book states directly.
+## answer_d
+Hypertension
+## explanation_d
+The exception, and the answer. Hypertension is not one of the book's listed renin-raising triggers — a raised, not lowered, arterial pressure and renal perfusion instead suppresses renin secretion through the same feedback logic in reverse.
+
+Why this is right:
+- Renin is secreted by the juxtaglomerular apparatus of the kidney, a proteolytic enzyme that acts on angiotensinogen (secreted by the liver, not the juxtaglomerular apparatus itself) to form the decapeptide angiotensin I; angiotensin-converting enzyme (ACE), found in vascular endothelial cells especially of the lung, then converts angiotensin I to the octapeptide angiotensin II.
+## correct_answer
+D
+## main_concept
+CON-CVS-F7ACE802080250
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify hypertension, not salt restriction, dehydration or sympathetic stimulation, as the condition that does not raise renin secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q159. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F9880720D9EB
+## title
+Long term regulation of arterial blood pressure is done by
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Long term regulation of arterial blood pressure is done by
+## answer_a
+Baroreceptors
+## explanation_a
+Baroreceptors are a rapid, second-to-second reflex mechanism, not a long-term one — their discharge itself resets (adapts) over one to two days of a sustained pressure change, so they are not the book's own long-term regulator.
+## answer_b
+Chemoreceptors
+## explanation_b
+Chemoreceptors, like baroreceptors, are a rapid reflex mechanism engaging within seconds, not a long-term regulator of arterial pressure.
+## answer_c
+Rennin-angiotensin system
+## explanation_c
+This is the correct answer. The department book states directly that angiotensin II has an important role in long-term regulation of arterial blood pressure, acting by decreasing renal Na+/water excretion and increasing aldosterone secretion — effects that build and persist over minutes to days, unlike the immediate baroreceptor and chemoreceptor reflexes.
+
+Why this is right:
+- Renin is secreted by the juxtaglomerular apparatus of the kidney, a proteolytic enzyme that acts on angiotensinogen (secreted by the liver, not the juxtaglomerular apparatus itself) to form the decapeptide angiotensin I; angiotensin-converting enzyme (ACE), found in vascular endothelial cells especially of the lung, then converts angiotensin I to the octapeptide angiotensin II.
+## answer_d
+All of the above
+## explanation_d
+Not correct, since baroreceptors and chemoreceptors are rapid reflexes, not long-term regulators — only the renin-angiotensin system among the three options fits the book's own long-term classification.
+## correct_answer
+C
+## main_concept
+CON-CVS-F7ACE802080250
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify the renin-angiotensin system, not the baroreceptor or chemoreceptor reflexes, as the mechanism responsible for long-term arterial pressure regulation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p23 q175. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8734594B1AC8
+## title
+Stimalation of angiotensin II receptors AT1 produce all, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stimalation of angiotensin II receptors AT1 produce all, except
+## answer_a
+Vasoconstriction
+## explanation_a
+True, so not the exception. AT1 receptor stimulation causes peripheral vasoconstriction of arterioles and veins.
+## answer_b
+Renal Na and water reabsorption
+## explanation_b
+True, so not the exception. AT1 receptor stimulation stimulates renal tubular Na+ and water reabsorption directly.
+## answer_c
+Aldosterone secretion
+## explanation_c
+True, so not the exception. AT1 receptor stimulation causes aldosterone secretion from the adrenal cortex.
+## answer_d
+Diuresis and natriuresis
+## explanation_d
+The exception, and the answer. Diuresis and natriuresis are AT2 receptor actions, which counterbalance AT1 — AT1 stimulation instead promotes Na+/water retention, the opposite direction.
+
+Why this is right:
+- Angiotensin II acts through two receptor types.
+## correct_answer
+D
+## main_concept
+CON-CVS-C2245AA65D468B
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify diuresis and natriuresis as AT2, not AT1, receptor actions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q157. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-407521726690
+## title
+Stimulation of angiotensin II receptors AT-2 produce:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stimulation of angiotensin II receptors AT-2 produce:
+## answer_a
+Vasoconstriction
+## explanation_a
+Vasoconstriction is an AT1, not AT2, receptor action — AT2 stimulation instead produces vasodilatation.
+## answer_b
+Renal Na and water reabsorption
+## explanation_b
+Renal Na+ and water reabsorption is an AT1, not AT2, receptor action — AT2 stimulation instead produces diuresis, the opposite direction.
+## answer_c
+Aldosterone secretion
+## explanation_c
+Aldosterone secretion is an AT1, not AT2, receptor action.
+## answer_d
+Diuresis and natriuresis
+## explanation_d
+This is the correct answer. AT2 receptor stimulation produces diuresis (increased renal water excretion) and natriuresis (increased renal Na+ excretion), counterbalancing AT1's vasoconstrictor, Na+/water-retaining profile.
+
+Why this is right:
+- Angiotensin II acts through two receptor types.
+## correct_answer
+D
+## main_concept
+CON-CVS-C2245AA65D468B
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that AT2 receptor stimulation produces diuresis and natriuresis, the actions that counterbalance AT1.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p5 q30. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7501F8E026D8
+## title
+As regard carotid sinus syndrome all of the following is correct except;
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+As regard carotid sinus syndrome all of the following is correct except;
+## answer_a
+It occurs in normal subject especially young adults
+## explanation_a
+The exception, and the answer. Carotid sinus syndrome is not a normal finding especially in young adults — it is an acquired hypersensitivity of the carotid sinus baroreceptors, treated in the book as an abnormal condition.
+
+Why this is right:
+- In carotid sinus syndrome, the carotid sinus baroreceptors are abnormally sensitive, so external pressure that would be trivial in a normal person — a tight collar, or the pressure of shaving — activates the baroreceptor reflex strongly enough to produce marked bradycardia and a fall in arterial pressure, which can cause cerebral ischaemia and fainting.
+## answer_b
+Slight pressure on carotid sinus leads to a bradycardia, hypotension andloss of consciousness
+## explanation_b
+True, so not the exception. Slight pressure on the hypersensitive carotid sinus (e.g. a tight collar or shaving) leads to marked bradycardia, hypotension and can cause loss of consciousness through cerebral ischaemia.
+## answer_c
+Dennervation of the hypersensitive carotid sinus cure the condition
+## explanation_c
+True, so not the exception. Denervation of the hypersensitive carotid sinus is one of the treatments the book names for severe or recurrent cases.
+## answer_d
+The carotid sinus is abnormally sensitive
+## explanation_d
+True, so not the exception. The defining feature of the syndrome is that the carotid sinus is abnormally sensitive to pressure.
+## correct_answer
+A
+## main_concept
+CON-CVS-A1E3D54120275D
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+True/false-except
+## learning_objective
+Identify that carotid sinus syndrome is an acquired hypersensitivity, not a normal finding especially in young adults.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q121. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EEE3092D4F3A
+## title
+During anaphylactic shock, release of which substance causes vasodilation and increased…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During anaphylactic shock, release of which substance causes vasodilation and increased capillary permeability?
+## answer_a
+Histamine
+## explanation_a
+This is the correct answer. Anaphylactic shock follows an excessive allergic reaction that releases histamine — a strong vasodilator — producing marked vasodilation; histamine is also well known to raise capillary permeability, the combination that drives anaphylaxis's characteristic hypotension and tissue swelling.
+
+Why this is right:
+- Circulatory shock is inadequate tissue perfusion, and its causes fall into distinct mechanistic groups.
+## answer_b
+Bradykinin
+## explanation_b
+Bradykinin is a vasodilator kinin involved in inflammation and in raising NO secretion from the endothelium, but it is histamine, not bradykinin, that the department book names specifically as the mediator released in anaphylactic shock.
+## answer_c
+Nitric oxide
+## explanation_c
+Nitric oxide is a vasodilator secreted continuously by the endothelium and raised further by shear stress, acetylcholine, bradykinin and histamine — it is a downstream/parallel mediator of vasodilation, not itself the substance whose release defines anaphylactic shock.
+## answer_d
+Atrial natriuretic peptide
+## explanation_d
+Atrial natriuretic peptide is a vasodilator hormone secreted in response to atrial stretch (raised blood volume), an entirely different trigger from the allergic reaction that defines anaphylactic shock.
+## correct_answer
+A
+## main_concept
+CON-CVS-007F7F1E3CCF7F
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that histamine, not bradykinin, nitric oxide or atrial natriuretic peptide, is the substance released in anaphylactic shock that causes vasodilation and increased capillary permeability.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p9 q38. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C2014B4B1C99
+## title
+Which of the following is characteristic of progressive (refractory) hemorrhagic shock?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is characteristic of progressive (refractory) hemorrhagic shock?
+## answer_a
+Increased cardiac contractility
+## explanation_a
+The opposite happens: cardiac output stays low in refractory shock (myocardial ischaemia from the persistently low arterial pressure impairs, rather than increases, cardiac contractility), part of why the state is self-worsening and resistant to treatment.
+## answer_b
+Endotoxin release
+## explanation_b
+The opposite happens: granulocytes adhering to injured capillary walls release free oxygen radicals that cause tissue damage, which tends to raise, not decrease, capillary permeability, compounding fluid loss from the vasculature.
+
+Why this is right:
+- Some patients with severe haemorrhage progress to refractory (irreversible) shock: the shock state persists for hours, becomes resistant to treatment, and death eventually follows even if blood volume is fully restored to normal, because cardiac output stays low regardless.
+## answer_c
+Decreased capillary permeability
+## explanation_c
+This is the correct answer. Bacteria are able to enter the blood through injured vessels in refractory shock, and the bacterial toxins released are themselves strong vasodilators — endotoxin release is one of the department book's own named mechanisms driving the state's characteristic resistance to treatment and persistently low cardiac output.
+## answer_d
+Increased cell membrane active transport of sodium 1
+## explanation_d
+The opposite happens: ischaemia from the low-flow state impairs ATP-dependent active transport (such as the Na+-K+ ATPase) rather than increasing it, since the ATP needed to drive these pumps is itself in short supply during ischaemia.
+## correct_answer
+B
+## main_concept
+CON-CVS-5043E4CA4BF614
+## library_ids
+ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Endothelium and Vasoactive Hormones
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Identify endotoxin (bacterial toxin) release as a genuine mechanism of progressive/refractory hemorrhagic shock, as opposed to increased contractility, decreased permeability, or increased active transport, all of which move the wrong direction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p24 q178. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-FCCD9BFC5D26
 ## title
 The following factors affect the rate of gas diffusion through respiratory membrane:
@@ -54419,6 +61513,1110 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p38 q96. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D04F8E414FA4
+## title
+A 49-year-old man has a pulmonary embolism that completely blocks blood flow to his lef…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+A 49-year-old man has a pulmonary embolism that completely blocks blood flow to his left lung. As a result, which of the following will occur?
+## answer_a
+Ventilation/perfusion (V/Q) ratio in the left lung will be zero
+## explanation_a
+A V/Q ratio of zero describes a shunt (perfusion without ventilation) — the opposite extreme from this scenario, where perfusion is absent but ventilation continues, which instead drives V/Q toward infinity.
+## answer_b
+V/Q ratio in the left lung will be lower than in the right lung
+## explanation_b
+The left lung's V/Q ratio here is far HIGHER than the right lung's (approaching infinity, since ventilation continues with no perfusion at all), not lower.
+## answer_c
+Alveolar 202 in the left lung will be approximately equal to. the PO2 in inspired air
+## explanation_c
+Correct. With perfusion to the left lung completely blocked, ventilation continues without any blood to exchange gas with, so the left lung's alveolar gas composition progressively equilibrates toward that of inspired (tracheal) air rather than being modified by gas exchange with blood — the classic alveolar dead space pattern.
+
+Why this is right:
+- The ventilation-perfusion ratio has two extremes.
+## answer_d
+Alveolar PO2 in the right lung will be approximately equal to the PO2 in venous blood
+## explanation_d
+The right lung, now receiving the entire cardiac output with roughly unchanged total ventilation, develops a comparatively LOW V/Q ratio, and its alveolar PO2 shifts toward — but does not become fully equal to — mixed venous levels; 'approximately equal to venous blood' overstates this shift.
+## correct_answer
+C
+## main_concept
+CON-RES-D987B2C6C2FF07
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Application
+## learning_objective
+Predict that a completely unperfused but still-ventilated left lung equilibrates its alveolar gas toward inspired-air composition (alveolar dead space), against three distractors misreading the same scenario.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p37 q91. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B4F5CAC85ED0
+## title
+All about diffusion of O2 across a membrane is correct, except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All about diffusion of O2 across a membrane is correct, except:
+## answer_a
+Increasing the thickness of the membrane would decrease flow of ‏و0‎
+## explanation_a
+True of O2 diffusion across the membrane, so not the exception — increasing membrane thickness lengthens the diffusion path and decreases flow.
+## answer_b
+Increasing the area of the membrane would increase the flow of Op.
+## explanation_b
+True, so not the exception — increasing the membrane's surface area increases the total flow of O2 across it.
+## answer_c
+If you increased the alveolar concentration of O2, you would increase the total flow of ‏و0‎ across the alveolar membrane.
+## explanation_c
+True, so not the exception — raising alveolar O2 concentration raises the pressure gradient driving diffusion, increasing total O2 flow.
+## answer_d
+The lower the diffusion coefficient, the higher the flow.
+## explanation_d
+The exception, and the answer. A gas's diffusion coefficient (set mainly by its solubility) is directly, not inversely, related to its diffusion rate — a LOWER diffusion coefficient means a LOWER, not higher, flow across the membrane.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## correct_answer
+D
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that a lower, not higher, diffusion coefficient predicts a lower flow of a gas across the respiratory membrane, as the exception among true statements about O2 diffusion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p40 q114. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A687982921A8
+## title
+Compared with the apex of the lung, the base of the lung has 3
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Compared with the apex of the lung, the base of the lung has 3
+## answer_a
+ahigher pulmonary capillary
+## explanation_a
+Not the credited comparison this row tests; extracted incompletely, and in any case a higher pulmonary capillary PO2 at the base (rather than PCO2) would be the wrong direction — the base's lower V/Q ratio means relatively less, not more, oxygenation of its capillary blood compared with the apex.
+## answer_b
+ahigher pulmonary capillary PCO2
+## explanation_b
+Correct. The base has a lower ventilation-perfusion ratio than the apex (perfusion rises faster than ventilation moving down the upright lung), so basal capillary blood spends relatively more of its exchange 'diluted' toward mixed venous gas composition — a higher pulmonary capillary PCO2 (and lower PO2) than at the apex.
+
+Why this is right:
+- The ventilation-perfusion ratio is about 3.0 at the lung apex, where blood flow is relatively poor compared to ventilation, and about 0.6 at the lung base, where blood flow is relatively high compared to ventilation.
+## answer_c
+ahigher ventilation/perfusion (V/Q) ratio
+## explanation_c
+The base has a LOWER, not higher, V/Q ratio than the apex, since perfusion rises faster than ventilation going down the lung.
+## answer_d
+the same V/Q ratio
+## explanation_d
+The V/Q ratio changes substantially from apex to base in the upright lung (about 3.0 to 0.6); it is not the same at both locations.
+## correct_answer
+B
+## main_concept
+CON-RES-317D54C114B246
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+State that the base of the lung has a higher pulmonary capillary PCO2 than the apex, as a direct consequence of its lower ventilation-perfusion ratio.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p36 q86. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-66D466EB6244
+## title
+Compared with the base of the lung, in a person who is standing, the apex of the lung h…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Compared with the base of the lung, in a person who is standing, the apex of the lung has: a, a higher ventilation rate
+## answer_a
+a higher ventilation rate
+## explanation_a
+The apex has a LOWER ventilation rate than the base, not higher — basal alveoli, being less pre-expanded at rest, change volume more on each inspiration.
+## answer_b
+a higher perfusion rate
+## explanation_b
+The apex has a much LOWER perfusion rate than the base, not higher — gravity leaves apical capillaries under low arterial pressure and poorly perfused.
+## answer_c
+ahigher ventilation/perfusion (V/Q) ratio
+## explanation_c
+Correct. The apex has a higher ventilation-perfusion ratio (about 3.0) than the base (about 0.6), because perfusion falls faster than ventilation moving up the upright lung.
+
+Why this is right:
+- The ventilation-perfusion ratio is about 3.0 at the lung apex, where blood flow is relatively poor compared to ventilation, and about 0.6 at the lung base, where blood flow is relatively high compared to ventilation.
+## answer_d
+alower pulmonary capillary PO2 :
+## explanation_d
+The apex has a HIGHER, not lower, pulmonary capillary PO2 than the base, precisely because its high V/Q ratio pulls its alveolar and capillary gas composition closer to that of inspired air.
+## correct_answer
+C
+## main_concept
+CON-RES-317D54C114B246
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+State that the apex has a higher ventilation-perfusion ratio than the base, against distractors that reverse the ventilation, perfusion and capillary-PO2 comparisons.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p37 q93. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9AEAE451BF5F
+## title
+Concerning distribution of ventilation and perfusion:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning distribution of ventilation and perfusion:
+## answer_a
+Gradient of change in ventilation is greater than that for perfusion
+## explanation_a
+The gradient of change going up the lung is greater for perfusion than for ventilation, not the reverse — this is exactly why V/Q rises toward the apex.
+## answer_b
+Ventilation increases as we go up the lung
+## explanation_b
+Ventilation decreases, not increases, as we go up the lung, since apical alveoli are already more expanded at rest and change volume less on inspiration.
+## answer_c
+Perfusion increases as we go up the lung
+## explanation_c
+Perfusion decreases, not increases, as we go up the lung — gravity leaves apical capillaries poorly perfused under low arterial pressure.
+## answer_d
+V,/Q ratio at apex is greater than at base
+## explanation_d
+Correct. The ventilation-perfusion ratio is greater at the apex than at the base, because perfusion falls faster than ventilation moving up the upright lung.
+
+Why this is right:
+- The ventilation-perfusion ratio is about 3.0 at the lung apex, where blood flow is relatively poor compared to ventilation, and about 0.6 at the lung base, where blood flow is relatively high compared to ventilation.
+## correct_answer
+D
+## main_concept
+CON-RES-317D54C114B246
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the ventilation-perfusion ratio is greater at the apex than at the base of the upright lung, against three distractors that misstate the ventilation and perfusion gradients.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p36 q85. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B09405AF81D0
+## title
+Lung emphysema decreases the pulmonary diffusing capacity for gases due to:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Lung emphysema decreases the pulmonary diffusing capacity for gases due to:
+## answer_a
+Decreased the surface area of respiratory membrane
+## explanation_a
+Correct. Emphysema destroys alveolar walls and septa, merging many small alveoli into fewer, larger air spaces and directly reducing the total surface area of the respiratory membrane available for diffusion — and diffusing capacity is directly proportional to that surface area.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## answer_b
+Increased thickness of respiratory membrane
+## explanation_b
+Increased membrane thickness is the mechanism behind reduced diffusing capacity in interstitial lung diseases like pulmonary fibrosis or oedema, not emphysema, which instead destroys tissue and reduces surface area.
+## answer_c
+Increased elasticity of lung tissue
+## explanation_c
+Emphysema is characterised by decreased, not increased, elastic recoil of lung tissue, from elastase-mediated destruction of elastin fibres.
+## answer_d
+Increased solubility of gases
+## explanation_d
+Gas solubility is an intrinsic physicochemical property of the gas and the diffusion medium; it is not altered by emphysema.
+## correct_answer
+A
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology Respiratory System — Gas Exchange in the Lung
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Attribute emphysema's reduced pulmonary diffusing capacity to decreased respiratory membrane surface area, distinct from the membrane-thickening mechanism of interstitial lung disease.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p12 q83. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-371F7064A680
+## title
+The alveoli at the top of the lungs differ from those at the bottom in:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The alveoli at the top of the lungs differ from those at the bottom in:
+## answer_a
+Exhibit greater compliance ;
+## explanation_a
+Apical alveoli, already more expanded at rest, sit on the flatter, less compliant part of the lung's pressure-volume curve and so show smaller, not greater, dynamic compliance (volume change per breath) than basal alveoli.
+## answer_b
+Have a lower V/Q ratio 1
+## explanation_b
+Apical alveoli have a HIGHER, not lower, ventilation-perfusion ratio than basal alveoli, since perfusion falls faster than ventilation moving up the lung.
+## answer_c
+Have larger radii 1
+## explanation_c
+Correct. The more negative intrapleural pressure at the apex (from the lung's own weight) leaves apical alveoli more expanded at rest, so they have larger resting radii than the less-inflated basal alveoli.
+
+Why this is right:
+- The ventilation-perfusion ratio is about 3.0 at the lung apex, where blood flow is relatively poor compared to ventilation, and about 0.6 at the lung base, where blood flow is relatively high compared to ventilation.
+## answer_d
+Receive a greater percentage of pulmonary blood flow
+## explanation_d
+Apical alveoli receive a much SMALLER, not greater, percentage of pulmonary blood flow, since gravity leaves apical capillaries poorly perfused under low arterial pressure.
+## correct_answer
+C
+## main_concept
+CON-RES-317D54C114B246
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+State that alveoli at the top of the lungs have larger radii than those at the bottom, because apical alveoli sit more expanded at rest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p41 q121. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-703EBEABB09E
+## title
+Ventilation/perfusion (V4/Q) ratio: : :
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Ventilation/perfusion (V4/Q) ratio: : :
+## answer_a
+Is lower at the apices of the lungs than at the bases in the upright position /
+## explanation_a
+The V/Q ratio is HIGHER, not lower, at the apex than at the base in the upright position, since perfusion falls faster than ventilation moving up the lung.
+## answer_b
+Is expected to increase in obstructive lung disease ‏ا‎
+## explanation_b
+Obstructive lung disease lowers, not raises, V/Q in the affected units: airway obstruction reduces ventilation to those alveoli while their perfusion continues, pulling V/Q toward the shunt-like extreme.
+## answer_c
+May be determined from the respiratory minute volume and the pulmonary blood flow
+## explanation_c
+V/Q genuinely may be determined from respiratory minute volume (ventilation) and pulmonary blood flow (perfusion) — it is, by definition, their ratio — so this statement is true, not the exception.
+## answer_d
+Is expected to increase following blockage of a major pulmonary artery ْ
+## explanation_d
+Correct. Blocking a major pulmonary artery abolishes perfusion to the alveoli downstream while ventilation continues, driving V/Q toward its infinite, alveolar-dead-space extreme — exactly the pulmonary embolism scenario tested elsewhere in this same concept.
+
+Why this is right:
+- The ventilation-perfusion ratio has two extremes.
+## correct_answer
+D
+## main_concept
+CON-RES-D987B2C6C2FF07
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that the ventilation-perfusion ratio is expected to increase — toward the alveolar dead space extreme — following blockage of a major pulmonary artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p37 q89. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2AA0B80E4973
+## title
+When a person is standing, blood flow in the lungs is
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+When a person is standing, blood flow in the lungs is
+## answer_a
+equal at the apex and the base
+## explanation_a
+Blood flow is not equal at the apex and the base — gravity creates a substantial perfusion gradient between them in the upright lung.
+## answer_b
+highest at the apex owing to the effects of gravity on arterial pressure
+## explanation_b
+The apex is the poorest-, not the best-, perfused region: low pulmonary arterial pressure there lets apical capillaries nearly collapse under gravity's effect.
+## answer_c
+highest at the base because that is where the difference between arterial and venous pressure
+## explanation_c
+Correct. At the base, the highest hydrostatic pressure gives the greatest difference between pulmonary arterial and venous pressure, keeping basal capillaries fully open and driving the greatest blood flow.
+
+Why this is right:
+- The ventilation-perfusion ratio is about 3.0 at the lung apex, where blood flow is relatively poor compared to ventilation, and about 0.6 at the lung base, where blood flow is relatively high compared to ventilation.
+## answer_d
+lowest at the base because that is where alveolar pressure is greater than arterial pressure
+## explanation_d
+The base is the BEST-, not the worst-, perfused region; alveolar pressure exceeding arterial pressure (the 'zone 1' pattern) instead characterises the poorly perfused apex, not the base.
+## correct_answer
+C
+## main_concept
+CON-RES-317D54C114B246
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that pulmonary blood flow is highest at the base of the upright lung, because that is where the arterial-venous pressure difference driving flow is greatest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p37 q92. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DD1EF5EA0BF4
+## title
+Which of following conditions would limit the diffusion of O; from alveoli to pulmonary…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of following conditions would limit the diffusion of O; from alveoli to pulmonary capillary blood?
+## answer_a
+Breathing hyperbaric gas mixture
+## explanation_a
+Breathing a hyperbaric gas mixture raises, rather than limits, the alveolar-to-capillary O2 pressure gradient, increasing diffusion rather than limiting it.
+## answer_b
+Chronic obstructive lung disease
+## explanation_b
+Chronic obstructive lung disease impairs gas exchange mainly through airway obstruction and ventilation-perfusion mismatch, not primarily by thickening the respiratory membrane itself.
+## answer_c
+Increased ventilator rate
+## explanation_c
+An increased ventilator (ventilation) rate would tend to raise, not limit, alveolar O2 delivery and the diffusion gradient.
+## answer_d
+Pulmonary edema
+## explanation_d
+Correct. Pulmonary oedema fills the interstitium and alveoli with fluid, thickening the respiratory membrane and lengthening the path O2 must diffuse across — directly limiting O2 diffusion from alveoli to pulmonary capillary blood.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## correct_answer
+D
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology Respiratory System — Gas Exchange in the Lung
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Application
+## learning_objective
+Identify pulmonary oedema, rather than hyperbaric O2, increased ventilator rate, or COPD, as the condition that limits O2 diffusion from alveoli to pulmonary capillary blood by thickening the respiratory membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q57. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A4084436F7A8
+## title
+Which of the following conditions would limit the diffusion of O, from alveoli to pulmo…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following conditions would limit the diffusion of O, from alveoli to pulmonary capillary blood?
+## answer_a
+Breathing hyperbaric gas mixture
+## explanation_a
+Breathing a hyperbaric gas mixture raises, rather than limits, the alveolar-to-capillary O2 pressure gradient, increasing rather than limiting diffusion.
+## answer_b
+Chronic obstructive lung disease
+## explanation_b
+Chronic obstructive lung disease impairs gas exchange mainly through airway obstruction and ventilation-perfusion mismatch, not primarily by thickening the respiratory membrane.
+## answer_c
+Increased ventilator rate
+## explanation_c
+An increased ventilator (ventilation) rate would tend to raise, not limit, alveolar O2 delivery and the diffusion gradient.
+## answer_d
+Pulmonary edema
+## explanation_d
+Correct. Pulmonary oedema fills the interstitium and alveoli with fluid, thickening the respiratory membrane and directly limiting O2 diffusion from alveoli to pulmonary capillary blood.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## correct_answer
+D
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Application
+## learning_objective
+Confirm, against a second, independently-extracted source occurrence, that pulmonary oedema limits O2 diffusion by thickening the respiratory membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p40 q110. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D1E87FD399B3
+## title
+Which person would be expected to have the largest Alveolar PO2-arterial PO2 gradient?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which person would be expected to have the largest Alveolar PO2-arterial PO2 gradient?
+## answer_a
+Person with pulmonary fibrosis
+## explanation_a
+Correct. Pulmonary fibrosis thickens the respiratory membrane, a genuine diffusion barrier that widens the alveolar-arterial PO2 gradient — unlike the other listed conditions, none of which impairs diffusion across an otherwise normal membrane.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## answer_c
+Person at 12,000 feet above sea level
+## explanation_c
+High altitude lowers both alveolar and arterial PO2 together (by lowering inspired PO2), without impairing diffusion across the membrane itself, so it does not widen the alveolar-arterial gradient the way a genuine diffusion abnormality does.
+## answer_d
+Person with normal lungs breathing 50% 2
+## explanation_d
+Breathing 50% O2 with otherwise normal lungs raises both alveolar and arterial PO2 together without introducing a true diffusion barrier, so it does not produce the widened gradient a diffusion abnormality like fibrosis does.
+## answer_e
+Person with normal lungs breathing 100% 2
+## explanation_e
+Breathing 100% O2 with otherwise normal lungs raises both alveolar and arterial PO2 together without introducing a true diffusion barrier, so it does not produce the widened gradient a diffusion abnormality like fibrosis does.
+## correct_answer
+A
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Comparison
+## learning_objective
+Identify pulmonary fibrosis, rather than altitude or a raised inspired O2 fraction, as producing the largest alveolar-arterial PO2 gradient, since only fibrosis represents a genuine diffusion abnormality.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p38 q95. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -55617,6 +63815,190 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-B2297F1A46BE
+## title
+All of the following cause pulmonary vasoconstriction Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following cause pulmonary vasoconstriction Except:
+## answer_a
+Low alveolar PO2
+## explanation_a
+True, so not the exception. This leaf's own sourced concept states pulmonary arterioles constrict in response to local alveolar hypoxia — low alveolar PO2 is exactly that trigger.
+## answer_b
+High alveolar PCO2
+## explanation_b
+True, so not the exception. This leaf's own sourced concept names high alveolar PCO2 alongside hypoxia as a trigger for pulmonary vasoconstriction.
+## answer_c
+Histamine
+## explanation_c
+True, so not the exception. Histamine is a pulmonary vasoconstrictor — the reverse of its systemic vasodilator action, one of the pulmonary bed's several exceptions to the usual rules.
+## answer_d
+Nitric Oxide
+## explanation_d
+The exception, and the answer. Nitric oxide is an endothelial vasoDILATOR everywhere in this module's own vascular-endothelium content, not a constrictor — the opposite direction from what this EXCEPT-question asks for.
+
+Why this is right:
+- Unlike systemic vessels, pulmonary arterioles constrict in response to low PO2.
+## correct_answer
+D
+## main_concept
+CON-CVS-76412894FAD01C
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that low alveolar PO2 and high alveolar PCO2 both cause pulmonary vasoconstriction, while nitric oxide, an endothelial vasodilator, is the exception.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p10 q76. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept: hypoxia and high alveolar PCO2 are both explicitly named as pulmonary vasoconstriction triggers, while nitric oxide is this module's own consistently-cited endothelial vasodilator (physiology-endothelium-and-vasoactive-hormones.ts), confirming D as the exception.
+
+
+---
+
+# Item
+## id
+QM-104-C4A8718FC88E
+## title
+Pulmonary vascular resistance
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Pulmonary vascular resistance
+## answer_a
+Increases when the lung volume increases towards total lung capacity
+## explanation_a
+Correct. This leaf's own sourced concept states PVR is lowest at functional residual capacity and rises toward both total lung capacity and residual volume — confirming that PVR increases as lung volume rises toward TLC.
+
+Why this is right:
+- Unlike systemic vessels, pulmonary arterioles constrict in response to low PO2.
+## answer_b
+Decreases when alveolar PCO is high
+## explanation_b
+Reversed. This leaf's own sourced concept states pulmonary arterioles constrict — raising, not lowering, resistance — in response to high alveolar PCO2, the same trigger as hypoxia.
+## answer_c
+Is determined by the arterioles
+## explanation_c
+Overstated. Pulmonary vascular resistance is influenced by more than the arterioles alone — this leaf's own concept ties PVR to lung-volume-dependent compression of both alveolar and extra-alveolar vessels, not arteriolar tone in isolation.
+## answer_d
+Is about 18mmH¢/L/min
+## explanation_d
+This leaf's own sibling concept (hemodynamics.flow-pressure-resistance-relationship) states the pulmonary circulation's own resistance works out to about 1.4 mmHg/L/min, not 18 — 18 mmHg/L/min is instead the SYSTEMIC circulation's resistance, a classic pulmonary/systemic figure swap.
+## correct_answer
+A
+## main_concept
+CON-CVS-76412894FAD01C
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that pulmonary vascular resistance rises toward total lung capacity (not falls), and that high alveolar PCO2 raises, rather than lowers, PVR by causing vasoconstriction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p24 q182. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The bank's own recovered answer (B, from a different solved question book, answerConfidence: external-solved-book-recovered — not a same-file printed key) directly contradicts this leaf's own sourced concept, which states pulmonary vasoconstriction (raised resistance) follows high alveolar PCO2, not a fall in resistance. Re-verified against the same concept's own PVR-by-lung-volume curve (lowest at FRC, rising toward both TLC and RV): option A is the concept's own directly-stated relationship. Overridden to A.
+
+
+---
+
+# Item
+## id
 QM-104-6BE99EDDF641
 ## title
 Non-chemical influence on respiration inclucle all of the following, EXCEPT:
@@ -55975,6 +64357,1018 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q102. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-866DC210F9B3
+## title
+With respect to gas exchange across the alveolar membrane:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+With respect to gas exchange across the alveolar membrane:
+## answer_a
+The oxygen saturation in venous blood is 40%
+## explanation_a
+Mixed venous blood's oxygen SATURATION is about 75%, not 40% — 40 mmHg is instead the approximate mixed venous PO2 (partial pressure), a different quantity from percentage saturation that this option conflates with it.
+## answer_b
+On average, the haemoglobin in 100ml of blood can combine with 20ml of oxygen
+## explanation_b
+Correct. Haemoglobin's O2 capacity — the maximum volume of oxygen 100 ml of blood can carry when fully saturated — works out to about 20 ml O2/100 ml blood, from 1.34 ml O2 per gram of a normal 15 g Hb/100 ml.
+
+Why this is right:
+- P50 is the PO2 at which haemoglobin is 50% saturated with oxygen; the normal P50 for human blood is 27 mmHg.
+## answer_c
+Acidosis causes the oxygen — Hb dissociation curve to shift to the left 0
+## explanation_c
+The reverse is true: acidosis (a fall in pH) shifts the oxygen-haemoglobin dissociation curve to the RIGHT, not the left — part of the Bohr effect, which favours O2 release into acidic, actively metabolising tissue.
+## answer_d
+Decreased CO, concentration causes the oxygen - Hb dissociation curve to shift to the right
+## explanation_d
+The reverse is true: a decreased CO2 concentration shifts the oxygen-haemoglobin dissociation curve to the LEFT, not the right — falling CO2 (like falling H+) raises, rather than lowers, haemoglobin's affinity for O2.
+## correct_answer
+B
+## main_concept
+CON-RES-228D7C6B6FDE80
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that 100 ml of blood's haemoglobin can combine with about 20 ml of oxygen (O2 capacity), against three false statements about venous saturation and the Bohr effect.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p38 q97. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-8A5F6B7319E7
+## title
+As the blood passes along the tissues:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+As the blood passes along the tissues:
+## answer_a
+HCO; ions is formed inside RBCs
+## explanation_a
+Correct. As blood passes along the tissues, CO2 diffuses into red blood cells and carbonic anhydrase rapidly hydrates it to carbonic acid, which dissociates into bicarbonate and H+ — bicarbonate is formed inside the red blood cell, the majority form of CO2 transport.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+CTI ions falls inside RBCs
+## explanation_b
+Chloride RISES, not falls, inside red blood cells at the tissue level: as the newly formed bicarbonate diffuses out to plasma, chloride moves in to replace the negative charge it takes with it — the chloride shift.
+## answer_c
+decreased osmolarity of RBCs
+## explanation_c
+Osmolarity of red blood cells INCREASES, not decreases, as chloride (and bicarbonate before it leaves) accumulate inside the cell, drawing water in by osmosis.
+## answer_d
+decreased RBC volume. 1
+## explanation_d
+RBC volume INCREASES, not decreases, at the tissue level: the osmotic water influx that follows the chloride shift makes venous red blood cells swell slightly, raising venous haematocrit above arterial haematocrit.
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that bicarbonate is formed inside red blood cells, not that chloride falls or that RBC osmolarity/volume decreases, as blood passes through the tissues.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p43 q136. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0710F9E5E0BC
+## title
+About 70% of the carbon dioxide is transported to the lungs: 1 ‏ا‎
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+About 70% of the carbon dioxide is transported to the lungs: 1 ‏ا‎
+## answer_a
+In the form of bicarbonate ions i
+## explanation_a
+Correct. About 42 of the 48 ml/100 ml of arterial blood's total CO2 — the clear majority, roughly 70% — travels as bicarbonate ions (HCO3-), formed inside red blood cells via carbonic anhydrase and exported to plasma by the chloride shift.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+In the form of carbonic acid ‏ا‎
+## explanation_b
+Carbonic acid (H2CO3) is only a fleeting intermediate in the reaction CO2 + H2O -> H2CO3 -> H+ + HCO3-, not a form CO2 is actually carried or stored as in any meaningful quantity.
+## answer_c
+In the form of carbaminohemoglobin :
+## explanation_c
+Carbaminohaemoglobin carries only about 3 of the 48 ml/100 ml of arterial blood's total CO2 — a small minority, not the majority form.
+## answer_d
+In chemical combination with albumin ‏ا‎
+## explanation_d
+Albumin is not a significant CO2-carrying protein; the haemoglobin inside red blood cells, not plasma albumin, forms the carbamino compounds that carry the (small) protein-bound share of CO2.
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the majority of transported CO2 travels as bicarbonate ions, not carbonic acid, carbaminohaemoglobin or bound to albumin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q101. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7132292A4652
+## title
+All about hemoglobin is (rue, except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All about hemoglobin is (rue, except:
+## answer_a
+A higher P50 than normal means that the O2 binds less tightly to Hb
+## explanation_a
+True of P50, so not the exception. A higher-than-normal P50 means haemoglobin requires a higher PO2 to reach 50% saturation, indicating weaker (less tight) O2 binding.
+## answer_b
+An increase in 2, 3-DPG shifts the 02 dissociation curve to the left
+## explanation_b
+The exception, and the answer. An increase in 2,3-DPG shifts the O2 dissociation curve to the RIGHT, not the left — 2,3-DPG binds deoxygenated Hb and lowers its O2 affinity, favouring O2 release, the same direction as a rise in temperature, PCO2 or a fall in pH.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## answer_c
+An increase in PCO) causes a right shift of the O dissociation curve,
+## explanation_c
+True, so not the exception. An increase in PCO2 causes a rightward shift of the O2 dissociation curve via the Bohr effect, lowering Hb's O2 affinity.
+## answer_d
+A decrease in pH increases P50
+## explanation_d
+True, so not the exception. A decrease in pH (more acidic conditions) increases P50, consistent with the same rightward-shifting Bohr effect.
+## correct_answer
+B
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that an increase in 2,3-DPG shifts the O2 dissociation curve to the right, not the left, identifying this as the false statement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p38 q99. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8D56E102DFC1
+## title
+During the release of carbon dioxide in the lungs:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+During the release of carbon dioxide in the lungs:
+## answer_a
+The binding of oxygen to haemoglobin displaces carbon dioxide from blood
+## explanation_a
+True, but incomplete alone. At the lungs, O2 binding to haemoglobin does displace CO2 (via the Haldane effect, since oxygenated Hb carries less CO2 than reduced Hb) — but this happens together with the other two listed changes, not instead of them.
+## answer_b
+The binding of oxygen to haemoglobin causes the release of hydrogen ions
+## explanation_b
+True, but incomplete alone. O2 binding to haemoglobin does release H+ from what was buffered on reduced Hb (oxyhaemoglobin is a poorer buffer) — but again, together with the other two listed changes, not alone.
+## answer_c
+Hydrogen ions combine with bicarbonate to form carbonic acid
+## explanation_c
+True, but incomplete alone. The released H+ does combine with bicarbonate to re-form carbonic acid, reversing the tissue-level reaction and regenerating CO2 for exhalation — but this is one part of a single coordinated sequence, not an isolated fact.
+## answer_d
+All of the above
+## explanation_d
+Correct. At the lungs, the whole tissue-level sequence reverses in one coordinated process: O2 binding to haemoglobin displaces CO2 and releases H+ from oxyhaemoglobin (a poorer buffer than reduced Hb), and that H+ combines with HCO3- to regenerate carbonic acid (and so CO2) for exhalation — all three listed changes are genuine, interconnected parts of this reversal, so the comprehensive option is correct.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## correct_answer
+D
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a comprehensive true statement
+## learning_objective
+State that O2 binding to Hb displaces CO2, releases H+ from oxyhaemoglobin, and lets that H+ combine with bicarbonate to regenerate carbonic acid, all together as the lungs reverse the chloride shift.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q106. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8256886CDA26
+## title
+How much oxygen is normally carried in the blood?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+How much oxygen is normally carried in the blood?
+## answer_a
+2 ml oxygen/100 ml blood
+## explanation_a
+2 ml oxygen/100 ml blood substantially understates the normal arterial oxygen content.
+## answer_b
+5 ml oxygen/100m! blood
+## explanation_b
+5 ml oxygen/100 ml blood substantially understates the normal arterial oxygen content.
+## answer_c
+10 ml oxygen/100mI blood
+## explanation_c
+10 ml oxygen/100 ml blood understates the normal arterial oxygen content, being roughly half the accepted normal value.
+## answer_d
+20 mi oxygen/100mI bload
+## explanation_d
+Correct. Normal arterial blood carries approximately 20 ml of oxygen per 100 ml of blood, combining the small amount dissolved directly in plasma (about 0.3 ml/100 ml) with the much larger amount bound to haemoglobin (about 19.5-20.1 ml/100 ml at a normal 15 g Hb/100 ml), which accounts for roughly 98% of the total.
+
+Why this is right:
+- P50 is the PO2 at which haemoglobin is 50% saturated with oxygen; the normal P50 for human blood is 27 mmHg.
+## correct_answer
+D
+## main_concept
+CON-RES-228D7C6B6FDE80
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that normal arterial blood carries approximately 20 ml of oxygen per 100 ml, combining dissolved and haemoglobin-bound O2.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p19 q28. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-DC691DD48694
+## title
+In the transport of CO2 from the tissues to the lungs, which of the following occurs in…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In the transport of CO2 from the tissues to the lungs, which of the following occurs in ‏ا‎ venous blood? ||
+## answer_a
+Conversion of CO2 and 1120 to H+ and HCO3- in the red blood cells (RBCs) /
+## explanation_a
+Correct. In venous blood, CO2 diffuses into red blood cells where carbonic anhydrase rapidly converts it (with water) into H+ and bicarbonate (HCO3-) — the first step of the tissue-level chloride-shift sequence.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+. Buffering of H+ by oxyhemoglobin /
+## explanation_b
+Deoxyhaemoglobin, not oxyhaemoglobin, is the better buffer for the H+ released by this reaction — venous blood is largely deoxygenated, so oxyhaemoglobin is not the buffer actually doing this work.
+## answer_c
+Shifting of HCO3~ into the RBCs from plasma in exchange for Cl- /
+## explanation_c
+Bicarbonate moves OUT of the red blood cell into plasma (in exchange for chloride moving IN), the reverse direction from what this option states — the chloride shift exports newly formed HCO3-, it does not import it.
+## answer_d
+Alkalinization of the RBCs
+## explanation_d
+The red blood cell becomes very slightly more acidic, not alkaline, at the tissue level, since some of the H+ released escapes buffering by deoxyhaemoglobin and lowers pH slightly (about 7.4 to 7.37 in venous blood).
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that venous blood carries the conversion of CO2 and water to H+ and bicarbonate inside red blood cells, as opposed to buffering by oxyhaemoglobin, HCO3- entering (rather than leaving) the RBC, or RBC alkalinisation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q103. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AE4747899777
+## title
+pH of venous blood is only slightly more acidic than pH of arterial blood because:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+pH of venous blood is only slightly more acidic than pH of arterial blood because:
+## answer_a
+there is no carbonic anhydrase in venous blood
+## explanation_a
+Carbonic anhydrase is present within red blood cells in both arterial and venous blood; its presence does not differ between the two, so this cannot explain the small pH difference.
+## answer_b
+the H+ generated from CO2 and 1120 is buffered by HCO3 in venous blood
+## explanation_b
+Bicarbonate buffering does play some role, but it is not the specific, classically emphasised mechanism for this minimal pH change — that role belongs to deoxyhaemoglobin's buffering, timed exactly with tissue-level CO2 uptake.
+## answer_c
+the H+ generated from 002 and H20 is buffered by deoxyhemoglobin in venous blood
+## explanation_c
+Correct. As blood becomes venous, haemoglobin releases its bound O2 and becomes deoxyhaemoglobin, a substantially better buffer for H+ than oxyhaemoglobin — precisely timed with the moment CO2 (converted to H+ and bicarbonate) is being picked up from the tissues, so venous blood absorbs a large amount of H+ with only a minimal drop in pH.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_d
+oxyhemoglobin is a better buffer for H+ than is deoxyhemoglobin
+## explanation_d
+This reverses the correct relationship: deoxyhaemoglobin, not oxyhaemoglobin, is the better buffer for hydrogen ions.
+## correct_answer
+C
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that deoxyhaemoglobin's superior buffering of H+, timed with tissue-level CO2 uptake, is why venous blood pH falls only slightly.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q104. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-357B7966285F
+## title
+The oxygen-hemoglobin dissociation curve will shift to the right with:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The oxygen-hemoglobin dissociation curve will shift to the right with:
+## answer_a
+Acute alkalosis
+## explanation_a
+Acute alkalosis (a rise in pH) shifts the curve to the LEFT, not the right, raising Hb's O2 affinity — the opposite of what this option claims.
+## answer_b
+Decrease in Pco2
+## explanation_b
+A decrease in PCO2 shifts the curve to the LEFT, not the right, since falling CO2 (like falling H+) raises rather than lowers Hb's O2 affinity.
+## answer_c
+Decrease in temperature 0
+## explanation_c
+A decrease in temperature shifts the curve to the LEFT, not the right, raising Hb's O2 affinity — the opposite of what this option claims.
+## answer_d
+Exercise
+## explanation_d
+Correct. Exercise raises PCO2, H+ (falling pH), temperature and 2,3-DPG together in active muscle, all four of which shift the O2-Hb dissociation curve to the right, lowering Hb's O2 affinity and favouring O2 release exactly where the exercising tissue needs it.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## correct_answer
+D
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify exercise as the condition that shifts the O2-Hb dissociation curve to the right, as opposed to alkalosis, a fall in PCO2 or a fall in temperature.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p40 q112. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-8EE4092D1EEB
+## title
+The oxyhemoglobin dissociation curve:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The oxyhemoglobin dissociation curve:
+## answer_a
+Is rectangular hyperpola in shape
+## explanation_a
+The oxyhaemoglobin dissociation curve is sigmoid (S-shaped), not a rectangular hyperbola, reflecting haemoglobin's cooperative O2 binding across its four subunits — a rectangular hyperbola instead describes myoglobin's single-subunit binding curve.
+## answer_b
+Is shifted to the left by acidosis
+## explanation_b
+Acidosis shifts the curve to the RIGHT, via the Bohr effect, decreasing O2 affinity — not to the left as this option claims.
+## answer_c
+Shows higher affinity of hemoglobin at the exercising tissue
+## explanation_c
+Haemoglobin's O2 affinity DECREASES, not increases, at exercising tissue — the raised CO2, H+, temperature and 2,3-DPG there all shift the curve right, facilitating O2 release exactly where increased metabolic demand needs it.
+## answer_d
+The normal P50 for human is 27mmHg
+## explanation_d
+Correct. The normal P50 for human haemoglobin — the PO2 at which it is 50% saturated — is a well-established standard reference value of approximately 27 mmHg under normal physiological conditions.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## correct_answer
+D
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the normal P50 for human haemoglobin is approximately 27 mmHg, as opposed to false claims about the curve's shape, acidosis shifting it left, or higher affinity at exercising tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p12 q85. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-CF9CC8245315
+## title
+Which statement about hemoglobin is Incorrect?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which statement about hemoglobin is Incorrect?
+## answer_a
+A higher P50 than normal means that the O; binds less tightly to Hb
+## explanation_a
+True of P50, so not the answer. A higher-than-normal P50 does indicate that O2 binds less tightly to haemoglobin (a rightward-shifted curve with lower affinity).
+## answer_b
+An increase in 2, 3-DPG shifts the 02 dissociation curve 6 the left
+## explanation_b
+Correct — the incorrect statement, and the answer. An increase in 2,3-DPG decreases haemoglobin's affinity for O2, shifting the dissociation curve to the RIGHT (facilitating O2 unloading to tissues), not to the left as this option claims.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## answer_c
+An increase in PCO; causes a right shift of the Oz dissociation curve
+## explanation_c
+True, so not the answer. An increase in PCO2 does cause a rightward shift of the curve via the Bohr effect, decreasing O2 affinity.
+## answer_d
+A decrease in pH increases P50
+## explanation_d
+True, so not the answer. A decrease in pH (increased acidity) does increase P50, consistent with the same rightward-shifting Bohr effect.
+## correct_answer
+B
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that an increase in 2,3-DPG shifts the O2 dissociation curve to the right, not the left, identifying this as the incorrect statement — the same fact tested from a second, independent source occurrence.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q55. Manifest src_d3160d222c8c55775511.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -58745,6 +68139,558 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-C3404E394048
+## title
+The residual volume: :
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The residual volume: :
+## answer_a
+Cannot be measured directly with a spirometer
+## explanation_a
+Correct. Residual volume is the air remaining in the lungs after a maximal forced expiration, and because it can never be exhaled, a spirometer — which measures only volumes of air actually moved in and out — cannot record it directly; it must instead be inferred indirectly, for example by helium dilution, nitrogen washout or body plethysmography.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_b
+Is part of vital capacity
+## explanation_b
+Residual volume is specifically excluded from vital capacity: VC = IRV + TV + ERV deliberately leaves RV out, since RV is by definition the air that no maximal expiratory effort can remove.
+## answer_c
+Is part of the expiratory reserve volume
+## explanation_c
+Residual volume is not part of expiratory reserve volume; the two are separate, non-overlapping volumes that together make up functional residual capacity (FRC = ERV + RV), with RV lying beyond the point ERV can reach.
+## answer_d
+Is the volume at which the lungs tend to recoil outwards
+## explanation_d
+The lung's own elastic tissue always recoils inward, tending to collapse it, at every lung volume from TLC down to RV; residual volume is reached only because further expiration is limited by the chest wall's growing outward recoil and the limits of expiratory muscle strength, not because the lung itself starts recoiling outward.
+## correct_answer
+A
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State that residual volume cannot be measured directly by spirometry and is excluded from vital capacity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p34 q70. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4095DBBDC86C
+## title
+Tidal volume is air:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Tidal volume is air:
+## answer_a
+Remaining in the lungs after forced expiration ‏ا‎
+## explanation_a
+Air remaining in the lungs after a forced expiration describes residual volume, not tidal volume — tidal volume is the air actually moved during a breath, not what is left behind afterward.
+## answer_b
+Exchanged during normal breathing ْ
+## explanation_b
+Correct. Tidal volume is the volume of air moved into and out of the lungs during one normal, quiet breathing cycle — the air genuinely exchanged in ordinary resting breathing, before any reserve volume is called on.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_c
+Inhaled after quiet inspiration 1 ‏ا‎
+## explanation_c
+Air inhaled beyond a normal quiet inspiration describes inspiratory reserve volume, the extra volume available above tidal volume, not tidal volume itself.
+## answer_d
+Forcibly expelled after normal expiration
+## explanation_d
+Air forcibly expelled after a normal expiration describes expiratory reserve volume, not tidal volume; tidal volume is exchanged passively during quiet breathing, not by an additional forced effort.
+## correct_answer
+B
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define tidal volume as the air exchanged during normal quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q56. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BAB76EF84990
+## title
+Vital capacity is reduced by all except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Vital capacity is reduced by all except:
+## answer_a
+Lung fibrosis
+## explanation_a
+Reduces vital capacity — not the exception. Lung fibrosis stiffens the lung, lowering its compliance, and this restrictive pattern reduces all lung volumes together, including vital capacity.
+## answer_b
+Kyphosis
+## explanation_b
+Reduces vital capacity — not the exception. A deformed, stiffened chest wall lowers overall thoracic compliance by the same restrictive mechanism as lung fibrosis, shrinking vital capacity along with the other lung volumes.
+## answer_c
+Atheletes
+## explanation_c
+Correct. Athletes typically have a normal or even increased vital capacity, reflecting greater respiratory muscle strength and often larger lung and thoracic volumes from training, rather than any process that stiffens the lung or chest wall — the exception, and the answer.
+
+Why this is right:
+- Obstructive disease (e.g.
+## answer_d
+Decreased secretion of surfactant
+## explanation_d
+Reduces vital capacity — not the exception. Less surfactant raises alveolar surface tension, stiffening the lung and lowering its compliance, the same restrictive mechanism by which fibrosis and chest-wall deformity shrink vital capacity.
+## correct_answer
+C
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify normal athletic training, rather than a restrictive process, as not reducing vital capacity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q59. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-250EBCA54ADF
+## title
+Which of the following concerning average lung volumes and capacities of a person at re…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following concerning average lung volumes and capacities of a person at rest is correct?
+## answer_a
+TLC>VC>TV>FRC
+## explanation_a
+TLC > VC > TV > FRC is not correct: functional residual capacity (about 2300 mL, ERV + RV) is larger than tidal volume (about 500 mL) in a resting adult, so this ordering places FRC too low relative to TV.
+## answer_b
+TLC>FRC>VC>TV
+## explanation_b
+TLC > FRC > VC > TV is not correct: vital capacity (about 4600 mL) is larger than functional residual capacity (about 2300 mL) — VC sums IRV, TV and ERV, while FRC is only ERV + RV, so VC must exceed FRC, not the reverse.
+## answer_c
+TLC>VC>FRC>TV
+## explanation_c
+Correct. Using typical resting adult values, total lung capacity (about 6000 mL) exceeds vital capacity (about 4600 mL), which exceeds functional residual capacity (about 2300 mL), which exceeds tidal volume (about 500 mL): TLC > VC > FRC > TV.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_d
+TLC>FRC>TV>VC
+## explanation_d
+TLC > FRC > TV > VC reverses the relationship between vital capacity and both functional residual capacity and tidal volume: vital capacity (about 4600 mL) is by far the largest of the three, not the smallest.
+## correct_answer
+C
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Rank total lung capacity, vital capacity, functional residual capacity and tidal volume by typical resting size.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p35 q77. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7EFAB11B5A67
+## title
+Which one of the following components of a pulmonary function test will be normal or in…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following components of a pulmonary function test will be normal or increased in a patient with restrictive lung disease?
+## answer_a
+FEV1
+## explanation_a
+FEV1 falls in restrictive lung disease, since the stiffened lung has an overall smaller volume to expire from in the first second, even though it empties that smaller volume quickly.
+## answer_b
+FVC
+## explanation_b
+FVC falls in restrictive lung disease: a stiffened lung or chest wall reduces all lung volumes together, including the maximum volume that can be forcibly exhaled.
+## answer_c
+TLC
+## explanation_c
+TLC falls in restrictive lung disease, since reduced compliance shrinks all the lung volumes and capacities that sum into it — unlike in obstructive disease, and especially emphysema, where TLC is preserved or increased.
+## answer_d
+FEV 1/FVC
+## explanation_d
+Correct. In restrictive lung disease the stiffened lung still empties quickly relative to its now-smaller volume, so the FEV1/FVC ratio is preserved or even increased, the opposite of obstructive disease, where airway narrowing lowers the ratio.
+
+Why this is right:
+- Obstructive disease (e.g.
+## correct_answer
+D
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify a preserved or increased FEV1/FVC ratio as the defining PFT signature of restrictive lung disease.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q55. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-33B1DB12E27B
+## title
+Which volume remains in the lungs after a maximal expiration?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which volume remains in the lungs after a maximal expiration?
+## answer_a
+Tidal volume (VT)
+## explanation_a
+Tidal volume is the air moved during a normal quiet breath, not what remains after a maximal forced expiration.
+## answer_b
+Vital capacity (VC)
+## explanation_b
+Vital capacity is the volume that CAN be expired by a maximal effort, not what is left behind afterward — the two describe opposite ends of the same manoeuvre.
+## answer_c
+Expiratory reserve volume (ERV) :
+## explanation_c
+Expiratory reserve volume is the extra air that can still be forcibly expired beyond a normal tidal expiration; by definition it has already been expelled once expiration is maximal, so it is not what remains afterward.
+## answer_d
+Residual volume (RV)
+## explanation_d
+Correct. Residual volume is the air that remains in the lungs after even a maximal forced expiration — it can never be exhaled by any voluntary effort, which is also why it cannot be measured directly by spirometry.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## correct_answer
+D
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Identify residual volume as what remains in the lungs after a maximal forced expiration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p34 q64. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-E8BD7E9ADE80
 ## title
 A healthy, 45-year-old man is reading the newspaper. Which of the following muscles are…
@@ -60974,7 +70920,7 @@ Pulmonary emphysema
 Correct. Emphysema destroys alveolar walls and the elastin and collagen fibres within them, reducing the lung's elastic recoil and making it abnormally easy to inflate — the classic 'floppy lung' of increased compliance.
 
 Why this is right:
-- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch.
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range.
 ## answer_b
 Pulmonary fibrosis
 ## explanation_b
@@ -61039,6 +70985,1374 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p49 q21. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DA8D5EFC9D2C
+## title
+Among the functions of surfactant:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Among the functions of surfactant:
+## answer_a
+Facilitation of lung expansion
+## explanation_a
+Correct. Surfactant lowers alveolar surface tension, and because surface tension is the larger of the two forces resisting lung expansion, lowering it makes the lung easier to inflate — surfactant facilitates lung expansion.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_b
+Facilitation of lung collapse
+## explanation_b
+Surfactant does the opposite of facilitating lung collapse: by lowering surface tension it helps keep alveoli, particularly the smallest ones, from collapsing.
+## answer_c
+Prevention of alveolar collapse during inspiration
+## explanation_c
+Surfactant's protection against alveolar collapse operates mainly at low lung volumes, near the end of expiration, when small alveoli are most at risk under high surface tension — not specifically 'during inspiration', when alveoli are actively expanding rather than at risk of closing.
+## answer_d
+Favors filtration of fluids from pulmonary capillaries into alveoli
+## explanation_d
+Surfactant, by lowering alveolar surface tension, reduces rather than favours the tendency for fluid to be drawn from the pulmonary capillaries into the alveoli — a high, unopposed surface tension would pull fluid inward, the opposite of surfactant's actual effect.
+## correct_answer
+A
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify facilitation of lung expansion as surfactant's credited function, against a similar-sounding but wrongly-timed distractor about preventing alveolar collapse.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p29 q30. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-37F894BB4634
+## title
+An infant born prematurely in gestational week 25 has neonatal respiratory linc; syndro…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+An infant born prematurely in gestational week 25 has neonatal respiratory linc; syndrome. Which of the following would be expected in this infant?
+## answer_a
+Arterial PO2 of 100 mm Hg
+## explanation_a
+Arterial PO2 falls, rather than reaching a normal value such as 100 mmHg, since collapsed, poorly ventilated alveoli fail to oxygenate blood adequately in surfactant-deficient respiratory distress syndrome.
+## answer_b
+Collapse of the small alveoli
+## explanation_b
+Correct. Without adequate surfactant, alveolar surface tension is markedly increased, and the smallest alveoli — whose surface-tension effect is proportionally greatest, by Laplace's law — collapse first: the defining lesion of respiratory distress syndrome of prematurity.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_c
+Increased lung compliance
+## explanation_c
+Lung compliance falls, not rises, when surfactant is deficient, since the raised alveolar surface tension stiffens the lung.
+## answer_d
+Lecithin:sphingomyelin ratio of greater than 2:1 in amniotic fluid ,
+## explanation_d
+A lecithin:sphingomyelin ratio below, not above, 2:1 in amniotic fluid is what predicts surfactant deficiency and a high risk of respiratory distress syndrome this early in gestation.
+## correct_answer
+B
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Application
+## learning_objective
+Predict collapse of the small alveoli, rather than a normal arterial PO2, increased compliance, or a raised L:S ratio, in a 25-week premature infant with neonatal respiratory distress syndrome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p30 q35. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-ED9BDBB889DF
+## title
+If the lungs experimentally filled completely with saline, so the surface tension of fl…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+If the lungs experimentally filled completely with saline, so the surface tension of fluid lining alveoli is:
+## answer_a
+Increased slightly with increase lung compliance
+## explanation_a
+Surface tension is essentially eliminated, not merely 'increased slightly', once the air-liquid interface is removed entirely by filling the alveoli with saline.
+## answer_c
+Remains constant with no change in lung compliance
+## explanation_c
+Compliance changes dramatically (rises), rather than remaining constant, once the air-liquid interface and its surface tension are removed by saline filling.
+## answer_d
+Completely lost with increase in lung compliance
+## explanation_d
+Correct. Filling the lungs completely with saline abolishes the air-liquid interface altogether — both surfaces of the alveolar lining fluid become liquid-liquid — so surface tension's contribution to the lung's elastic recoil is essentially lost, and with that resistance removed, lung compliance rises sharply. This classic experiment is the proof that surfactant's own job is specifically to lower surface tension at that same air-liquid interface, since removing the interface itself reproduces the same easy-inflation effect surfactant partially achieves.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+State that filling the lungs completely with saline abolishes the air-liquid interface and its surface tension, sharply increasing lung compliance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p47 q7. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BB316E4FF0D3
+## title
+Normal value of lung‘ compliance is about....:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Normal value of lung‘ compliance is about....:
+## answer_a
+200 ml/cmH20
+## explanation_a
+Correct. Normal pulmonary compliance is about 200 ml/cmH2O — about 200 ml of additional volume enters the lungs for each 1 cmH2O rise in transpulmonary pressure near the normal operating range.
+
+Why this is right:
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range.
+## answer_b
+2 L/emH20
+## explanation_b
+2 L/cmH2O is ten times too high for normal lung compliance and would represent an implausibly floppy lung.
+## answer_c
+0.02 L/cemH2,0
+## explanation_c
+0.02 L/cmH2O (20 ml/cmH2O) is ten times too low for normal lung compliance and would represent an implausibly stiff lung.
+## answer_d
+0 ml/ cmH,O
+## explanation_d
+A compliance of zero would mean the lung cannot be inflated at all by any pressure change, which is not physiologically meaningful for a functioning lung.
+## correct_answer
+A
+## main_concept
+CON-RES-AA4C2193995295
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that normal pulmonary compliance is about 200 ml/cmH2O, an order of magnitude different from the three other listed values.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p47 q5. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B3B5514FBE63
+## title
+Regarding transpulmonary pressure all is correct, except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding transpulmonary pressure all is correct, except:
+## answer_a
+It is the difference between intra-alveolar and intrapleural pressures
+## explanation_a
+True of transpulmonary pressure, so not the exception — it is, by definition, the difference between intra-alveolar and intrapleural pressures.
+## answer_b
+On inspiration, it is higher than atmospheric pressure
+## explanation_b
+True, so not the exception — transpulmonary pressure is positive (about +3 to +6 cmH2O relative to atmospheric) throughout normal breathing, including on inspiration, so it is higher than atmospheric pressure.
+## answer_c
+It is the pressure which expands the lungs
+## explanation_c
+True, so not the exception — transpulmonary pressure is specifically the force that expands the lungs against their own elastic recoil.
+## answer_d
+It is the pressure between the two layers of the pleural membrane
+## explanation_d
+The exception, and the answer. The pressure between the two layers of the pleural membrane is intrapleural pressure itself, a different quantity from transpulmonary pressure, which is instead the difference between intra-alveolar and intrapleural pressure.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## correct_answer
+D
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that transpulmonary pressure is the difference between intra-alveolar and intrapleural pressures — not the pressure between the two pleural layers, which is intrapleural pressure itself — as the exception.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p28 q21. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B5A8CD30A74C
+## title
+The recoil tendency of the lungs:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The recoil tendency of the lungs:
+## answer_a
+results from tendency of the lung to expand
+## explanation_a
+The lung's recoil tendency is the opposite of a tendency to expand — it is the lung's tendency to collapse inward, pulling away from the chest wall, which surfactant's surface-tension-lowering effect partly offsets.
+## answer_b
+is due to surface tension of the fluid lining the alveoli
+## explanation_b
+Correct. The dominant source of the lung's elastic recoil is the surface tension of the fluid lining the alveoli, with the elastic fibres of the lung tissue itself contributing the remainder.
+
+Why this is right:
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range.
+## answer_c
+increases during emphysema
+## explanation_c
+Recoil falls, not rises, in emphysema: destruction of the lung's elastin and collagen fibres reduces tissue's own contribution to recoil, producing the classic floppy, low-recoil lung of that disease.
+## answer_d
+decreases in lung fibrosis
+## explanation_d
+Recoil rises, not falls, in lung fibrosis: excess fibrous tissue stiffens the lung and increases, rather than decreases, its tendency to recoil inward.
+## correct_answer
+B
+## main_concept
+CON-RES-AA4C2193995295
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Attribute the lung's elastic recoil tendency mainly to alveolar surface tension, and state that recoil falls (not rises) in emphysema and rises (not falls) in lung fibrosis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p16 q10. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-D8731C1AC20C
+## title
+The resistance of the lungs to inflation is increase by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The resistance of the lungs to inflation is increase by:
+## answer_a
+Increase the elastic forces of the lung tissues
+## explanation_a
+Correct. Resistance to lung inflation rises when the lung tissue's own elastic (recoil) forces increase, since a stiffer lung needs a larger pressure change to achieve the same rise in volume — the definition of reduced compliance, i.e. increased resistance to inflation.
+
+Why this is right:
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range.
+## answer_b
+Decrease the surface tension of the fluid lining the alveoli
+## explanation_b
+Decreasing alveolar surface tension makes the lung easier, not harder, to inflate, lowering resistance to inflation.
+## answer_c
+Increase surfactant concentration
+## explanation_c
+Increasing surfactant concentration lowers surface tension and increases compliance, again easing inflation rather than increasing resistance to it.
+## answer_d
+Decrease collagen and elastic fibers
+## explanation_d
+Decreasing collagen and elastic fibres makes lung tissue floppier (as in emphysema), increasing compliance and decreasing, not increasing, resistance to inflation.
+## correct_answer
+A
+## main_concept
+CON-RES-AA4C2193995295
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Link increased elastic (recoil) forces in the lung tissue to increased resistance to inflation (reduced compliance), against three factors that instead ease inflation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p47 q6. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F2CCBC198E09
+## title
+Which disease increase lung compliance: ‏ظ‎ ‎a- Emphysema
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which disease increase lung compliance: ‏ظ‎ ‎a- Emphysema
+## answer_a
+Emphysema
+## explanation_a
+Correct. Emphysema destroys alveolar walls and the elastin fibres within them, reducing the lung's elastic recoil and making it abnormally easy to inflate — the classic 'floppy lung' of increased compliance.
+
+Why this is right:
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range.
+## answer_b
+Lung fibrosis
+## explanation_b
+Lung fibrosis stiffens the lung with excess collagenous tissue, decreasing compliance — the opposite effect from emphysema.
+## answer_c
+Lung congestion : ١ ‏حل‎ Pulmonary edema
+## explanation_c
+Lung congestion and pulmonary oedema stiffen the lung by filling it with excess blood or fluid, decreasing rather than increasing compliance.
+## correct_answer
+A
+## main_concept
+CON-RES-AA4C2193995295
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify emphysema as the disease that increases lung compliance, against two conditions that instead decrease it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q8. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9D94AFA7A0C7
+## title
+Which disorder decreases the chest compliance:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which disorder decreases the chest compliance:
+## answer_a
+Scoliosis
+## explanation_a
+Scoliosis alone genuinely reduces chest wall compliance by structurally deforming the thoracic cage, but it is not the sole correct answer, since the other two disorders are also classically grouped with it.
+## answer_b
+Fracture ribs
+## explanation_b
+Rib fractures alone genuinely reduce effective chest wall compliance, but again not the sole correct answer given the grouped framing of this question.
+## answer_c
+Paralysis of respiratory muscles
+## explanation_c
+Paralysis of the respiratory muscles alone is classically grouped with the other two disorders as a cause of a restrictive breathing pattern, but again not the sole correct answer here.
+## answer_d
+All are true
+## explanation_d
+Correct. Scoliosis and rib fractures mechanically stiffen and deform the thoracic cage directly, while paralysis prevents the normal active expansion that keeps the chest wall operating over its most compliant range — all three are classically grouped together as causes of decreased chest wall compliance.
+
+Why this is right:
+- Chest wall compliance describes how easily the thoracic cage itself expands, distinct from lung parenchymal compliance (set by lung tissue elastic recoil and surfactant).
+## correct_answer
+D
+## main_concept
+CON-RES-482D1271B64BE0
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Group scoliosis, rib fractures and paralysis of the respiratory muscles together as disorders that all reduce chest wall compliance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q9. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-789F82FE252A
+## title
+Which of the following is correct regarding type Il pneumocytes?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is correct regarding type Il pneumocytes?
+## answer_a
+Secrete surtactant
+## explanation_a
+Correct. Type II pneumocytes are the alveolar cells that secrete pulmonary surfactant.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_b
+Prevent leakage of tissue fluids
+## explanation_b
+Preventing leakage of tissue fluid into the alveoli is a property of the thin blood-air barrier formed by type I pneumocytes and the capillary endothelium together, not a function credited specifically to type II pneumocytes.
+## answer_c
+Flat squamous cells
+## explanation_c
+Type I pneumocytes, not type II, are the flat, squamous cells forming the thin gas-exchange surface of the alveolar wall; type II pneumocytes are cuboidal, surfactant-secreting cells.
+## correct_answer
+A
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Pulmonary Compliance
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that type II pneumocytes secrete surfactant, against distractors describing type I pneumocytes and the blood-air barrier instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p15 q120. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E08210988B0B
+## title
+Which of the following is NOT true concerning respiratory distress syndrome in prematur…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT true concerning respiratory distress syndrome in premature infants?
+## answer_a
+Their ability to synthesize dipalmitoyl lecithin is limited
+## explanation_a
+True of respiratory distress syndrome in premature infants, so not the exception — their type II pneumocytes' ability to synthesise dipalmitoyl lecithin (a major surfactant phospholipid) is limited by immaturity.
+## answer_b
+Higher pressures are required to ventilate the lungs
+## explanation_b
+True, so not the exception — the raised surface tension from surfactant deficiency stiffens the lung, so higher pressures are required to ventilate it.
+## answer_c
+Lung compliance is low. me
+## explanation_c
+True, so not the exception — surfactant deficiency raises alveolar surface tension and so lowers, not raises, lung compliance.
+## answer_d
+Alveoli tend to over expand and sometimes burst-at the end of inspiration
+## explanation_d
+The exception, and the answer. Surfactant-deficient alveoli, especially the smallest ones, tend to collapse at the end of expiration under their raised surface tension, rather than over-expand and burst at the end of inspiration.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that alveoli in surfactant-deficient respiratory distress syndrome tend to collapse, not over-expand and burst, as the exception among true statements about the disease.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p30 q32. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A35AF3932BDA
+## title
+Which of the following is NOT true concerning respiratory distress sy ndrome in prematu…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT true concerning respiratory distress sy ndrome in premature infants?
+## answer_a
+Their ability to synthesize dipalmitoy! lecithin is limited
+## explanation_a
+True of respiratory distress syndrome in premature infants, so not the exception — limited dipalmitoyl lecithin synthesis by immature type II pneumocytes is the underlying surfactant deficiency.
+## answer_b
+Higher pressures are required to ventilate the lungs,
+## explanation_b
+True, so not the exception — the raised surface tension from surfactant deficiency stiffens the lung, requiring higher pressures to ventilate it.
+## answer_c
+Lung compliance 5 8 000
+## explanation_c
+True, so not the exception — surfactant deficiency raises surface tension and lowers lung compliance, not the reverse.
+## answer_d
+areal tend to over expand and sometimes burst at the end of inspiration. =
+## explanation_d
+The exception, and the answer. Surfactant-deficient alveoli tend to collapse under raised surface tension, particularly at the end of expiration, rather than over-expand and burst at the end of inspiration.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Pulmonary Compliance
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify, against a second, independently-extracted occurrence of the same stem, that surfactant-deficient alveoli collapse rather than over-expand and burst.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p6 q43. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B464D8D4E463
+## title
+Which of the following is NOT true concerning respiratory distress = syndrome in premat…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT true concerning respiratory distress = syndrome in premature infants? 03
+## answer_a
+Their ability to synthesize dipalmitoyl lecithin is limited.
+## explanation_a
+True of respiratory distress syndrome in premature infants, so not the exception — the immature lung's limited dipalmitoyl lecithin synthesis is the underlying surfactant deficiency.
+## answer_b
+Higher pressures are required to ventilate the lungs. ‏سيد‎
+## explanation_b
+True, so not the exception — surfactant deficiency's raised surface tension stiffens the lung, requiring higher ventilating pressures.
+## answer_c
+Lung compliance is low.
+## explanation_c
+True, so not the exception — lung compliance is low (not high) when surfactant is deficient, since raised surface tension stiffens the lung.
+## answer_d
+Alveoli tend to over expand and sometimes burst at the end of inspiration.
+## explanation_d
+The exception, and the answer. Alveoli in surfactant deficiency tend to collapse under the raised surface tension, especially toward the end of expiration, rather than over-expand and burst at the end of inspiration.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Confirm, against a third source occurrence of the same stem, that surfactant-deficient alveoli collapse rather than over-expand and burst.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p18 q19. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3419A3CD311C
+## title
+Which of the following represents the pressure difference that acts to distend the lungs?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following represents the pressure difference that acts to distend the lungs?
+## answer_a
+Alveolar pressure
+## explanation_a
+Alveolar pressure alone is a single pressure, not a pressure difference, and it is not by itself what distends the lungs.
+## answer_b
+Airway opening pressure
+## explanation_b
+Airway opening pressure is the pressure at the mouth or nose, not the pressure difference across the lung that expands it.
+## answer_c
+Transthoracic pressure
+## explanation_c
+Transthoracic pressure is the pressure difference across the whole chest wall and lung together, a broader quantity than the one specifically expanding the lung itself.
+## answer_d
+Transpulmonary pressure
+## explanation_d
+Correct. Transpulmonary pressure — intra-alveolar pressure minus intrapleural pressure — is specifically the pressure difference that acts to distend the lungs against their own elastic recoil.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## correct_answer
+D
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify transpulmonary pressure, rather than alveolar, airway opening or transthoracic pressure, as the pressure difference that distends the lungs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p28 q22. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-FE09B7CE6D81
+## title
+Which of tne following represents the pressure difference that acts to distend the lungs?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of tne following represents the pressure difference that acts to distend the lungs?
+## answer_a
+Alveolar pressure
+## explanation_a
+Alveolar pressure alone is a single pressure, not a pressure difference, and is not by itself what distends the lungs.
+## answer_b
+Airway opening pressure
+## explanation_b
+Airway opening pressure is the pressure at the mouth or nose, not the pressure difference across the lung that expands it.
+## answer_c
+Transthoracic pressure
+## explanation_c
+Transthoracic pressure is the pressure difference across the whole chest wall and lung together, a broader quantity than the one specifically expanding the lung itself.
+## answer_d
+Transpulmonary pressure
+## explanation_d
+Correct. Transpulmonary pressure — intra-alveolar pressure minus intrapleural pressure — is specifically the pressure difference that acts to distend the lungs against their own elastic recoil.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## correct_answer
+D
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Confirm, against a second, independently-extracted source occurrence, that transpulmonary pressure is the pressure difference that distends the lungs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p17 q14. Manifest src_ab84e963639b236e0951.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -62065,6 +73379,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-28A486EDC697
+## title
+Which one of the following is the correct statement regarding coronary food flow?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following is the correct statement regarding coronary food flow?
+## answer_a
+Coronary blood flow is directly related to perfusion pressure and inversely related to resistance
+## explanation_a
+Correct. This leaf's own concept states flow, pressure and resistance are related by F = deltaP / R for any vascular bed, coronary included — flow rises directly with perfusion pressure and falls directly with resistance (rises inversely as resistance falls).
+
+Why this is right:
+- Applying flow = pressure gradient / resistance to the whole circulation, total peripheral resistance of the systemic circulation is about 18 mmHg/L/min, while pulmonary vascular resistance is only about 1.4 mmHg/L/min for the same cardiac output.
+## answer_b
+Coronary blood flow is inversely related to perfusion pressure and inversely related to resistance
+## explanation_b
+Reversed on the pressure term. Coronary flow is DIRECTLY, not inversely, related to perfusion pressure — a higher driving pressure increases flow, all else equal.
+## answer_c
+Coronary blood flow is directly related to perfusion pressure and also to resistance
+## explanation_c
+Reversed on the resistance term. Coronary flow is INVERSELY, not directly, related to resistance — a higher resistance decreases flow, all else equal, exactly as F = deltaP / R states.
+## answer_d
+Coronary blood flow is inversely related to both pressure and resistance
+## explanation_d
+Reversed on both terms at once. Coronary flow is directly related to pressure and inversely related to resistance, not the reverse of both as this option states.
+## correct_answer
+A
+## main_concept
+CON-CVS-FA5FB57963DDF7
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+Apply F = deltaP / R to coronary flow: flow is directly related to perfusion pressure and inversely related to resistance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p10 q75. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept (F = deltaP / R, applied identically to any vascular bed's flow), confirming A as the only option that states the relationship in the correct direction on both terms.
+
+
+---
+
+# Item
+## id
 QM-104-3B5DE99E918F
 ## title
 Quantitatively, the most important means for increasing blood flow to an actively metab…
@@ -62427,6 +73833,742 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
+
+
+---
+
+# Item
+## id
+QM-104-D0016516F017
+## title
+Concerning compliance of large arterial blood vessels, one is true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning compliance of large arterial blood vessels, one is true:
+## answer_a
+The initial linear relationship between volume and pressure is due to stretching of the 1
+## explanation_a
+Correct. At lower distending pressures, an artery's more easily stretched elastin fibres dominate its wall behaviour, producing the initial, more linear (compliant) portion of the pressure-volume curve.
+
+Why this is right:
+- Venous compliance is about 24 times arterial compliance, so veins can accommodate far more blood than arteries for the same change in pressure, which is why veins are described as reservoir vessels.
+## answer_b
+The steeper part of the pressure-volume curve is due to stretching of the elastic fibers in
+## explanation_b
+The steeper, less compliant part of the curve, reached at higher pressures, is due to recruitment of the stiffer collagen fibres, not the elastic fibres, which already dominate the earlier, more compliant portion.
+## answer_c
+40 times
+## explanation_c
+Not a true/false statement about the mechanism this question tests; the credited answer names elastin fibre stretching as the basis of the artery's initial compliant behaviour.
+## answer_d
+The compliance becomes higher by stretching the collagen fibers
+## explanation_d
+Stretching the collagen fibres makes the vessel wall progressively stiffer, lowering (not raising) compliance, since collagen is far less distensible than elastin — the opposite of what this option claims.
+## correct_answer
+A
+## main_concept
+CON-CVS-78E74CAC3AE5E5
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Attribute the initial, more linear (compliant) part of a large artery's pressure-volume curve to stretching of its elastic (elastin) fibres, as opposed to its collagen fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q11. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E19740E61658
+## title
+Which one can increase the compliance of blood vessels
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one can increase the compliance of blood vessels
+## answer_a
+Activation of sympathetic nervous input
+## explanation_a
+Sympathetic activation contracts vascular smooth muscle (vasoconstriction), which stiffens the vessel wall and lowers, not raises, its compliance.
+## answer_b
+Estrogen hormone
+## explanation_b
+Correct. Oestrogen relaxes and dilates the vascular wall, and is associated with genuinely higher vascular compliance — part of why pre-menopausal women typically have more compliant vessels and lower cardiovascular risk than men or post-menopausal women.
+
+Why this is right:
+- Venous compliance is about 24 times arterial compliance, so veins can accommodate far more blood than arteries for the same change in pressure, which is why veins are described as reservoir vessels.
+## answer_c
+Aging
+## explanation_c
+Ageing is classically associated with progressive arterial stiffening (falling elastin, rising collagen content), lowering, not raising, compliance.
+## answer_d
+Atherosclerosis 1
+## explanation_d
+Atherosclerosis stiffens the vessel wall with plaque deposition, lowering, not raising, compliance.
+## correct_answer
+B
+## main_concept
+CON-CVS-78E74CAC3AE5E5
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify oestrogen, among sympathetic activation, ageing and atherosclerosis, as the one factor that raises rather than lowers vascular compliance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q14. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0B6E64F38EEE
+## title
+Concerning laminar blood flow, one is incorrect:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning laminar blood flow, one is incorrect:
+## answer_a
+Blood flow occurs in layers |
+## explanation_a
+True of laminar flow, so not the exception. Laminar flow genuinely occurs as concentric, parallel layers (laminae) of fluid moving smoothly together.
+## answer_b
+Blood flow is silent
+## explanation_b
+True of laminar flow, so not the exception. Laminar flow is characteristically silent, unlike the audible turbulent flow that produces murmurs and bruits.
+## answer_c
+Re below 400
+## explanation_c
+The exception, and the answer. Laminar flow is maintained up to a Reynolds number of roughly 2000, not as low as 400 — stating 400 as the threshold badly understates how far the Reynolds number must rise before flow tips into turbulence.
+
+Why this is right:
+- Whether blood flow is smooth (laminar) or turbulent is predicted by the Reynolds number, which rises with blood velocity, vessel diameter and blood density, and falls as blood viscosity rises.
+## answer_d
+Re above 2000
+## explanation_d
+True, so not the exception. A Reynolds number above roughly 2000 does mark the standard threshold for the transition toward turbulent flow.
+## correct_answer
+C
+## main_concept
+CON-CVS-BE644093FBBA69
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that laminar flow is maintained up to a Reynolds number of roughly 2000, not as low as 400, identifying the understated threshold as the false statement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p49 q23. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BD64EC3327BE
+## title
+Turbulence is almost always present when Reynolds number is more than:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Turbulence is almost always present when Reynolds number is more than:
+## answer_a
+2000
+## explanation_a
+Correct. Standard cardiovascular physiology teaching states that once the Reynolds number rises above approximately 2000, turbulent flow will usually (almost always) occur, even in an otherwise straight, smooth vessel — the standard, most commonly cited figure for this threshold.
+
+Why this is right:
+- Whether blood flow is smooth (laminar) or turbulent is predicted by the Reynolds number, which rises with blood velocity, vessel diameter and blood density, and falls as blood viscosity rises.
+## answer_b
+2500
+## explanation_b
+2500 is not the standard, most commonly cited threshold figure for this specific teaching point.
+## answer_c
+3000
+## explanation_c
+3000 is not the standard, most commonly cited threshold figure for this specific teaching point.
+## answer_d
+3500
+## explanation_d
+3500 is not the standard, most commonly cited threshold figure for this specific teaching point.
+## correct_answer
+A
+## main_concept
+CON-CVS-BE644093FBBA69
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that turbulent flow is almost always present once the Reynolds number rises above approximately 2000.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p49 q20. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-910396F80F4A
+## title
+Which of the following describes the pulse pressure?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following describes the pulse pressure?
+## answer_a
+It’s determined by the stroke volume ١
+## explanation_a
+Correct. Pulse pressure -- the difference between systolic and diastolic arterial pressure -- is directly determined by stroke volume for a given arterial compliance: a larger stroke volume ejects more blood into the arterial tree per beat, producing a larger swing in pressure between systole and diastole.
+
+Why this is right:
+- Mean arterial pressure approximately equals diastolic pressure plus one-third of the pulse pressure, not the arithmetic mean of systolic and diastolic pressure, because systole is shorter than diastole.
+## answer_b
+It's decreased when arterial resistance decreases
+## explanation_b
+Pulse pressure is most directly governed by stroke volume and arterial compliance; peripheral arterial resistance primarily determines mean arterial pressure rather than being the main driver of pulse pressure changes.
+## answer_c
+It’s the highest pressure measured in the arteries
+## explanation_c
+The highest pressure measured in the arteries is the systolic pressure itself, not the pulse pressure, which is instead the difference between systolic and diastolic pressure.
+## answer_d
+It’s the lowest pressure measured in the arteries
+## explanation_d
+The lowest pressure measured in the arteries is the diastolic pressure itself, not the pulse pressure.
+## correct_answer
+A
+## main_concept
+CON-CVS-A0579343614BCD
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that pulse pressure is determined by stroke volume (for a given arterial compliance), not by arterial resistance or by naming the highest or lowest arterial pressure directly.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p8 q32. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-78844D4F6AC6
+## title
+Atrial natriuretic peptide
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Atrial natriuretic peptide
+## answer_a
+Secretion is increased when the ECF volume is decreased
+## explanation_a
+A decreased, not increased, ECF volume removes the atrial-stretch stimulus for ANP secretion — the opposite of the direction that triggers its release.
+## answer_b
+Secretion is increased during immersion in water up to the neck
+## explanation_b
+Correct. Immersion in water up to the neck shifts peripheral venous blood centrally, raising central blood volume and stretching the atrial wall — exactly the stimulus that raises ANP secretion.
+
+Why this is right:
+- The renin-angiotensin-aldosterone system (RAAS) and atrial natriuretic peptide (ANP) are a matched pair of opposing hormonal systems for blood pressure and sodium balance.
+## answer_c
+Causes contraction of the vascular smooth muscle cells
+## explanation_c
+ANP promotes vasodilation, not contraction, of vascular smooth muscle — part of how it lowers, rather than raises, blood pressure.
+## answer_d
+Causes rise of the arterial blood pressure
+## explanation_d
+ANP lowers, not raises, arterial blood pressure, via vasodilation and increased renal sodium excretion — the physiological opposite of what this option states.
+## correct_answer
+B
+## main_concept
+CON-CVS-D1F75A76748E54
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that ANP secretion is increased by atrial stretch from a rising central blood volume, such as during water immersion up to the neck.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p5 q31; DPT BOOK Physio MCQ [104][2022].pdf p21 q161. Manifest src_d3160d222c8c55775511, src_e569449acf8dc2af471e.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-248C1FA1CBC8
+## title
+Which of the following changes would not occur following inhibition of angiotensin conv…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following changes would not occur following inhibition of angiotensin converting enzyme?
+## answer_a
+Rennin secretion will fall
+## explanation_a
+Correct, and the exception the question asks for: renin secretion would NOT fall following ACE inhibition -- it would RISE, because angiotensin II normally suppresses renin secretion by negative feedback, and removing angiotensin II (by blocking the enzyme that makes it) removes that brake.
+
+Why this is right:
+- The renin-angiotensin-aldosterone system (RAAS) and atrial natriuretic peptide (ANP) are a matched pair of opposing hormonal systems for blood pressure and sodium balance.
+## answer_b
+Aldosterone level in plasma will fall
+## explanation_b
+Aldosterone level genuinely would fall following ACE inhibition, since aldosterone secretion depends on angiotensin II, which ACE inhibition lowers — this change would occur, so it is not the exception.
+## answer_c
+Proximal tubular sodium reabsorption will decrease
+## explanation_c
+Proximal tubular sodium reabsorption genuinely would decrease following ACE inhibition, since it is partly driven by angiotensin II and the aldosterone it stimulates, both of which fall — this change would occur, so it is not the exception.
+## answer_d
+Peripheral resistance will decrease
+## explanation_d
+Peripheral resistance genuinely would decrease following ACE inhibition, since angiotensin II is a direct vasoconstrictor and ACE inhibition lowers angiotensin II — this change would occur, so it is not the exception.
+## correct_answer
+A
+## main_concept
+CON-CVS-D1F75A76748E54
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that ACE inhibition raises, rather than lowers, renin secretion, by removing angiotensin II's own negative feedback on renin release.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q158. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B54BCC87E86B
+## title
+Greatest total cross sectional area | a, Aorta |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Greatest total cross sectional area | a, Aorta |
+## answer_a
+Aorta
+## explanation_a
+Reversed. The department book's own Table (4-2) gives the aorta a cross-sectional area of only 2.5 cm^2 — the smallest of the vessel types compared, not the greatest.
+## answer_b
+Small arteries ‏ظ‎
+## explanation_b
+Not named in the book's own comparison table, which sets the aorta directly against capillaries (2.5 cm^2 vs 2500 cm^2) as the two poles of the cross-sectional-area range; small arteries sit between these two extremes, nowhere near the greatest.
+## answer_c
+Capillaries
+## explanation_c
+Correct. The department book's own Table (4-2) gives capillaries a total cross-sectional area of 2500 cm^2 against the aorta's 2.5 cm^2 — a thousand-fold greater total bore, which the book directly ties to the correspondingly thousand-fold lower capillary blood velocity (0.5 mm/sec vs 0.5 m/sec in the aorta).
+
+Why this is right:
+- Applying flow = pressure gradient / resistance to the whole circulation, total peripheral resistance of the systemic circulation is about 18 mmHg/L/min, while pulmonary vascular resistance is only about 1.4 mmHg/L/min for the same cardiac output.
+## answer_d
+Venules
+## explanation_d
+Venules are not named in the book's own aorta-vs-capillary comparison table; the book's own point is specifically that capillaries, not any other vessel type, carry the greatest total cross-sectional area.
+## correct_answer
+C
+## main_concept
+CON-CVS-FA5FB57963DDF7
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that capillaries, not the aorta, small arteries or venules, have the body's greatest total vascular cross-sectional area, and that this is why capillary blood velocity is so much lower than aortic velocity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p17 q126. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists in the bank for this row (answerConfidence: external-solved-book-recovered, from a different solved question book rather than this bank's own printed answer, and the option set itself was repaired from a partial 2-option extraction). Re-verified directly against the department physiology book (p.45, Table 4-2, 'Cross sectional area'): Aorta 2.5 cm^2, Capillaries 2500 cm^2 — a direct numeric confirmation of option C, and of the book's own stated inverse relationship between cross-sectional area and blood velocity.
 
 
 ---
@@ -65837,6 +77979,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-B82B6A495FBA
+## title
+venous plexuses (swell bodies) is present in
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+venous plexuses (swell bodies) is present in
+## answer_a
+Vestibule
+## explanation_a
+The vestibule is the nasal cavity's anterior, hair-lined entrance, defined by its keratinized epithelium and vibrissae, not by venous plexuses.
+## answer_b
+trachea
+## explanation_b
+The trachea's lamina propria carries tracheal glands, not the venous plexuses (swell bodies) this leaf's own concept places specifically in the conchae.
+## answer_c
+C.T of concha
+## explanation_c
+The connective tissue of the conchae carries large venous plexuses (swell bodies), part of the same lamina propria whose glands and vascular supply help condition inspired air — this leaf's own concept text names this structure directly.
+
+Why this is right:
+- The nasal cavity is the external vestibule and the internal nasal fossae.
+## answer_d
+All the above
+## explanation_d
+'All the above' overstates it: the venous plexuses (swell bodies) are this leaf's own concept's named feature of the conchae specifically, not a feature shared equally by the vestibule and trachea too.
+## correct_answer
+C
+## main_concept
+CON-RES-1FF74892D5B943
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Locate venous plexuses (swell bodies) in the conchae's connective-tissue lamina propria, against the vestibule, trachea and nasal cartilage generally.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q10. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-A903E968EC80
 ## title
 Para nasal sinus is lined by
@@ -65923,6 +78157,282 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-104-AE1DF969B64D
+## title
+Concerning the olfactory epithelium:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the olfactory epithelium:
+## answer_a
+Supporting cells show numerous cilia
+## explanation_a
+Reversed. This leaf's own sourced concept credits the sustentacular (supporting) cells with apical microvilli in a fluid layer, not numerous cilia — it is the olfactory neuron that carries the few, long, non-motile cilia.
+## answer_b
+Olfactory neurons are unipolar cells
+## explanation_b
+Reversed. This leaf's own sourced concept states olfactory neurons are bipolar nerve cells, not unipolar.
+## answer_c
+Basal cells act as receptors
+## explanation_c
+Reversed. This leaf's own sourced concept describes basal cells as small pyramidal stem cells for the sensory and supporting cells, not as the sensory receptors themselves — that role belongs to the olfactory neurons.
+## answer_d
+Is a neuro-epithelium responsible for smell sensation
+## explanation_d
+Correct. The department book states directly that olfactory epithelium 'is the neuro-epithelium responsible for smell sensation' (p.29), the epithelium's own general definition, true regardless of which specific cell-type detail the three other options get wrong.
+
+Why this is right:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## correct_answer
+D
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that olfactory epithelium is the neuro-epithelium responsible for smell, against three commonly-confused cell-type details: supporting cells carry microvilli (not numerous cilia), olfactory neurons are bipolar (not unipolar), and basal cells are stem cells (not the sensory receptors).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p15 q117. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified directly against this leaf's own sourced concept, itself grounded in the department histology book (p.29): D restates the book's own definition verbatim, while A, B and C each reverse a specific cell-type detail the same concept states in the opposite direction.
+
+
+---
+
+# Item
+## id
+QM-104-86E1EED14F32
+## title
+Bronchoconstriction is produced by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Bronchoconstriction is produced by:
+## answer_a
+Histamine
+## explanation_a
+Correct. This leaf's own sourced concept states histamine, released from mast cells during allergic reactions, is one of the chemical substances that cause bronchoconstriction and raise airway resistance.
+
+Why this is right:
+- Airway resistance is regulated by nervous and chemical factors, alongside the passive lateral traction alveolar expansion exerts on small-airway walls during inspiration.
+## answer_b
+Epinephrine
+## explanation_b
+Reversed. Epinephrine, like the sympathetic (β2 receptor) stimulation this leaf's own concept names, causes bronchodilation, not bronchoconstriction.
+## answer_c
+Vasopressin
+## explanation_c
+Vasopressin is not named among this leaf's own sourced concept's chemical or nervous factors regulating airway resistance at all — it is a renal water-retention hormone, not an airway-smooth-muscle regulator in this book's own account.
+## answer_d
+Noradrenaline
+## explanation_d
+Noradrenaline, like epinephrine, is a sympathomimetic; this leaf's own concept credits sympathetic (β2 receptor) stimulation with bronchodilation, the opposite of bronchoconstriction.
+## correct_answer
+A
+## main_concept
+CON-RES-42CB3060B8374C
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+Name histamine, not epinephrine, vasopressin or noradrenaline, as the chemical factor the department book credits with producing bronchoconstriction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p7 q45. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified directly against the department physiology book (p.116, 'Chemical Factors' under airway resistance): 'Many chemical substances cause bronchoconstriction... Histamine: released from mast cells during allergic reactions' — a direct match for option A. The same page's own 'Nervous Factors' section credits sympathetic (β2) stimulation with bronchodilation, ruling out B and D by the same mechanism family; vasopressin is not named anywhere in this section, ruling out C.
+
+
+---
+
+# Item
+## id
+QM-104-3651F2F95433
+## title
+Which of the following are functions of components of the respiratory system?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following are functions of components of the respiratory system?
+## answer_a
+Warming and moistening of inhaled air
+## explanation_a
+True, so not the complete answer on its own. The department book names humidification and warming of inspired air among the conducting zone's three functions.
+## answer_b
+Delivering oxygen to and removing carbon dioxide from the blood
+## explanation_b
+True, so not the complete answer on its own. Gas exchange — delivering O2 to and removing CO2 from the blood — is the respiratory system's primary function, occurring at the alveoli.
+## answer_c
+Assisting in the maintenance of blood pH
+## explanation_c
+True, so not the complete answer on its own. The department book lists regulation of acid-base balance in blood as the first of the respiratory system's own named non-respiratory functions.
+## answer_d
+All of the above
+## explanation_d
+Correct. All three of the above are genuine functions the department book credits to the respiratory system's own components: humidification/warming (conducting zone, p.99), gas exchange (the primary respiratory function throughout the book), and acid-base regulation (its own first-listed non-respiratory function, p.98).
+
+Why this is right:
+- External respiration comprises four major functional events: pulmonary ventilation, gas exchange between alveoli and blood, transport of O2 and CO2 in the blood, and gas exchange between blood and tissues.
+## correct_answer
+D
+## main_concept
+CON-RES-77C80472558840
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Physiology
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Comprehensive true statement
+## learning_objective
+State that warming/moistening inspired air, gas exchange, and blood-pH regulation are all genuine functions the respiratory system's components carry out.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p28 q18. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: external-solved-book-recovered, from a different solved question book). Re-verified directly against the department physiology book: p.98's own 'Non-Respiratory Functions of the Respiratory System' section (under the heading 'Organization of the Respiratory System') names 'Regulation of acid-base balance in blood' as item 1 of 9; p.99's own Conducting Zone section separately names 'Humidification and warming of inspired air' among its 3 functions; gas exchange is the book's central topic throughout. All three confirmed true, so D is the complete, correct answer.
 
 
 ---
@@ -68767,6 +81277,466 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q3. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-976BD83C469A
+## title
+All characters of extra pulmonary bronchi except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of extra pulmonary bronchi except:
+## answer_a
+wide lumen, less folded
+## explanation_a
+True of the extrapulmonary bronchus, so not the exception — this leaf's own concept describes it as structurally identical to the trachea, with a wide, less-folded lumen.
+## answer_b
+C-shaped in complete ringe of hyaline
+## explanation_b
+True, so not the exception. Incomplete C-shaped rings of hyaline cartilage are exactly what the extrapulmonary bronchus keeps from the trachea.
+## answer_c
+Spirally, smooth muscle encircling whole lumen
+## explanation_c
+The exception, and the answer. Spirally arranged smooth muscle encircling the whole lumen is the intrapulmonary bronchus's own feature — the extrapulmonary bronchus instead keeps its smooth muscle lying posteriorly, at the ends of the cartilage, the same limited arrangement as the trachea.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_d
+muco-Serous gland in sub mucosa
+## explanation_d
+True, so not the exception. Mucoserous glands in the submucosa are part of the extrapulmonary bronchus's true submucosa, the same layer the trachea itself carries.
+## correct_answer
+C
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that spirally arranged smooth muscle encircling the whole lumen is the intrapulmonary bronchus's own feature, not the extrapulmonary bronchus's, against three true statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q39. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6D8E4C3D3B2E
+## title
+Less developed spirally arranged smooth muscles are a feature of:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Less developed spirally arranged smooth muscles are a feature of:
+## answer_a
+Intrapulmonary bronchus
+## explanation_a
+The intrapulmonary bronchus's smooth muscle is already more developed than the trachea's, arranged spirally around the whole lumen rather than confined posteriorly — not the less-developed end of this progression.
+## answer_b
+Bronchiole
+## explanation_b
+The bronchiole carries the most developed, circularly arranged smooth muscle of the whole progression, controlling airflow to the gas-exchange sites directly — the opposite extreme from 'less developed'.
+## answer_c
+Alveolar sac
+## explanation_c
+Alveolar sacs carry only minimal, unorganised smooth muscle rather than a spiral arrangement at any stage of development, so this progression's 'less developed spiral muscle' description does not apply to them.
+## answer_d
+Trachea
+## explanation_d
+The trachea's smooth muscle lies only posteriorly, at the ends of the cartilage rings — the least developed point on the same progression that becomes spirally arranged around the whole lumen at the intrapulmonary bronchus and most developed, circularly arranged at the bronchiole.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## correct_answer
+D
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory System — Larynx and Airway Wall
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Place the trachea at the least-developed end of the airway's smooth-muscle progression, against the intrapulmonary bronchus and bronchiole's more developed spiral/circular arrangements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p13 q14. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-198ED3D0BA97
+## title
+The glandular epithelium of the trachea exists in:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The glandular epithelium of the trachea exists in:
+## answer_a
+Mucosa
+## explanation_a
+The mucosa is the epithelial lining and its immediate lamina propria; the glands themselves sit deeper, in the submucosa proper.
+## answer_b
+Connective tissue corium
+## explanation_b
+Connective tissue corium is not a named layer of the tracheal wall in this leaf's own three-layer (mucosa/submucosa/adventitia) account.
+## answer_c
+Submucosa
+## explanation_c
+The trachea's glandular epithelium sits in the submucosa — the same layer this leaf's own concept credits with mucoserous glands in the extrapulmonary bronchus, which it describes as structurally identical to the trachea.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_d
+Adventitia
+## explanation_d
+The adventitia is the tracheal wall's outermost connective-tissue coat, not the layer carrying its mucoserous glands.
+## correct_answer
+C
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Locate the trachea's glandular epithelium in the submucosa, the same layer this leaf's own concept credits with mucoserous glands in the structurally identical extrapulmonary bronchus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p30 q17; DPT HISTO MCQ [Respiratory].pdf p2 q17. Manifest src_9cf32ada2b25fa54f0e9, src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-873084CFB2DF
+## title
+trachea is characterized by All except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+trachea is characterized by All except
+## answer_a
+20 C-shaped in complete ring of hyaline
+## explanation_a
+True of the trachea, so not the exception — it is held patent by incomplete, C-shaped rings of hyaline cartilage, sixteen to twenty of them along its length.
+## answer_b
+gap between ends of ring face oesophagus anteriorly
+## explanation_b
+The exception, and the answer. This module's own gross-anatomy account places the oesophagus immediately BEHIND (posterior to) the trachea, and the cartilage rings' open backs — bridged by the trachealis muscle — face that same posterior direction, not anteriorly; the gap and the oesophagus are on the trachea's posterior aspect together.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_c
+bridged by fibro elastic ligament
+## explanation_c
+True, so not the exception. The trachealis muscle bridges the open backs of the C-shaped rings, exactly the structure this module's own gross-anatomy concept names for that role.
+## answer_d
+Contain smooth muscle bundle, loose CT
+## explanation_d
+True, so not the exception. A smooth muscle bundle within loose connective tissue, at the ends of the cartilage rings, is this leaf's own described location for the trachea's (and extrapulmonary bronchus's) smooth muscle.
+## correct_answer
+B
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the tracheal cartilage rings' gap faces the oesophagus posteriorly, not anteriorly, cross-referencing this module's own gross-anatomy account of the trachealis muscle and the oesophagus's position behind the trachea.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q37. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-D626B5F850FD
+## title
+prevent over distension in trachea
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+prevent over distension in trachea
+## answer_a
+smooth trachialis muscle
+## explanation_a
+The trachealis smooth muscle also bridges the C-shaped rings' posterior gap, but the department book credits it with constricting the lumen and increasing airflow force during coughing/forced expiration — a different function from preventing overdistension.
+## answer_b
+fibro elastic ligament
+## explanation_b
+Correct. The department book states directly that the fibro-elastic ligament bridging the tracheal rings' posterior gap 'prevents overdistension' (p.22 of the histology book) — the one structure this exact function is credited to, distinct from the trachealis muscle that shares the same gap.
+
+Why this is right:
+- The trachea, about 12 cm long, runs from the larynx to its bifurcation into the two primary bronchi.
+## answer_c
+Elastic membrane of mucosa
+## explanation_c
+The elastic membrane is a condensation of elastic fibres within the tracheal mucosa's lamina propria, a different layer entirely from the fibrocartilaginous coat's posterior gap this question turns on.
+## answer_d
+respiratory epithelium
+## explanation_d
+Respiratory epithelium lines the tracheal mucosa's free surface; it plays no structural role in bridging the cartilage rings' posterior gap or resisting overdistension.
+## correct_answer
+B
+## main_concept
+CON-RES-AA521B50D2ACAD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+Name the fibro-elastic ligament, not the trachealis muscle, elastic membrane or epithelium, as the structure the department book credits with preventing tracheal overdistension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q38. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -72819,4 +85789,372 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respira
 Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-104-811DABBDD80B
+## title
+What type of tissue forms the alveoli in the lung?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+What type of tissue forms the alveoli in the lung?
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Correct. This leaf's own sourced concept states type I pneumocytes are squamous alveolar cells covering about 97% of the alveolar surface — the dominant epithelial tissue forming the alveolar wall.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## answer_b
+Simple cuboidal epithelium
+## explanation_b
+Simple cuboidal epithelium describes type II pneumocytes' own shape, but they cover only about 3% of the alveolar surface — the minority, not the tissue that principally 'forms the alveoli'.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Simple columnar epithelium describes neither pneumocyte type; this leaf's own sourced concept names only squamous (type I) and cuboidal (type II) shapes among the alveolar epithelium's two cell types.
+## answer_d
+Pseudostratified. epithelium
+## explanation_d
+Pseudostratified epithelium lines the conducting portion (trachea, bronchi), not the alveoli — a different region of the respiratory tract entirely.
+## correct_answer
+A
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that simple squamous epithelium (type I pneumocytes) forms the alveolar wall, covering 97% of its surface.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q13. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept, itself grounded in the department histology book (p.36): type I pneumocytes, described there as squamous alveolar cells, cover 97% of the alveolar surface — confirming A as the tissue that principally forms the alveolar wall.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-A1F9FAB8C215
+## title
+support lung tissue, prevent over-expansion
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+support lung tissue, prevent over-expansion
+## answer_a
+capillary network, elastic fiber
+## explanation_a
+Merges two components with different jobs: the capillary network is the septum's dense vascular bed (gas exchange), and elastic fibres ALLOW lung expansion during inspiration — neither is credited with preventing over-expansion.
+## answer_b
+reticular fiber
+## explanation_b
+Correct. This leaf's own sourced concept states reticular fibres 'support lung tissue and prevent overexpansion from injuring the capillaries' — the department book's own words for exactly this function.
+
+Why this is right:
+- The interalveolar septum is the delicate connective-tissue partition separating adjacent alveoli.
+## answer_c
+Extra leucocyte especially neutrophils
+## explanation_c
+This leaf's own sourced concept names extravasated MONOCYTES (which become alveolar phagocytes), not neutrophils, among the septum's own components — and their role is phagocytic, not structural support.
+## answer_d
+alveolar phagocyte
+## explanation_d
+Alveolar phagocytes are the differentiated descendants of the septum's own extravasated monocytes; they do not themselves support lung tissue or resist over-expansion, a structural role reticular fibres alone carry.
+## correct_answer
+B
+## main_concept
+CON-RES-4903189C8DA93C
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+Name reticular fibres, not the capillary network, elastic fibres or extravasated leucocytes, as the interalveolar septum's own component that supports lung tissue and prevents over-expansion injuring the capillaries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q60. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: No printed key exists (answerConfidence: external-solved-book-recovered, from a different solved question book). Re-verified directly against this leaf's own sourced concept, itself grounded in the department histology book (p.36): 'Reticular fibers to support lung tissue and prevent over-expansion that may injure the delicate blood capillaries' — a verbatim match for option B.
+
+
+---
+
+# Item
+## id
+QM-104-0DE2D595FB73
+## title
+fetal lung is characterized by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+fetal lung is characterized by:
+## answer_a
+its lobe, lobule not clear due to thin c- septa
+## explanation_a
+Reversed. The department book states the fetal lung's lobes and lobules ARE clear, due to the presence of THICK connective-tissue septa — not unclear due to thin septa.
+## answer_b
+its bronchi, bronchiole not folded
+## explanation_b
+Reversed. The department book states the fetal lung's bronchi and bronchioles ARE folded, not unfolded.
+## answer_c
+whole lung Sink in water, has medico-legal importance
+## explanation_c
+Correct. The department book states directly that the whole fetal lung sinks in water, a finding with medico-legal importance — the basis of the forensic test distinguishing a stillborn (lung never aerated, sinks) from a liveborn infant who breathed (lung aerated, floats).
+
+Why this is right:
+- The fetal lung has no respiratory function and so remains collapsed throughout intrauterine life.
+## answer_d
+branches of bronchiole are similar to acini
+## explanation_d
+Reversed at the wrong level. The department book states the fetal lung's ALVEOLI (not its bronchioles) are similar to a gland's acini — its bronchiolar tree is instead similar to a gland's ducts.
+## correct_answer
+C
+## main_concept
+CON-RES-20906FBD38031D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that the whole fetal lung sinks in water, a finding with medico-legal importance (the basis of the forensic lung-flotation test), against three reversed distractors about its lobulation, bronchiolar folding and bronchiole-to-acinus comparison.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p26 q67. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: No printed key exists (answerConfidence: same-file, but re-verified directly against the department book rather than assumed). The department histology book (p.38, 'Fetal Lung') states each of the four options' true content directly: lobes/lobules clear from thick septa (not A), bronchi/bronchioles folded (not B), 'the whole lung sinks in water & this has a medico-legal importance' (verbatim match for C), and alveoli — not bronchioles — resemble acini (not D as stated).
+
+
+---
+
+# Item
+## id
+QM-104-35F6125E5E6E
+## title
+fetal lung is similar to gland in
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+fetal lung is similar to gland in
+## answer_a
+bronchiole are similar to acini
+## explanation_a
+Reversed. The department book credits the ALVEOLI, not the bronchioles, with resembling a gland's acini — the bronchiolar tree itself is instead compared to a gland's ducts.
+## answer_b
+Cartilage plate around bronchi
+## explanation_b
+The book credits cartilage plates around the bronchi with being exactly what DIFFERENTIATES the fetal lung FROM a gland (glands have no cartilage) — the opposite of a similarity.
+## answer_c
+alveoli are similar to acini
+## explanation_c
+Correct. The department book states directly that the fetal lung is 'similar to a gland where branches of bronchiolar tree are similar to ducts and the alveoli are similar to acini' — alveoli are the acinus-equivalent structure.
+
+Why this is right:
+- The fetal lung has no respiratory function and so remains collapsed throughout intrauterine life.
+## answer_d
+alveoli are similar to duct
+## explanation_d
+Reversed at the wrong level. The book compares alveoli to acini, not to ducts — it is the bronchiolar tree, a different structure, that is compared to ducts.
+## correct_answer
+C
+## main_concept
+CON-RES-20906FBD38031D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that the fetal lung's alveoli, not its bronchioles, are what resemble a gland's acini — the bronchiolar tree instead resembles a gland's ducts.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p26 q68. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: No printed key exists (answerConfidence: same-file, but re-verified directly against the department book rather than assumed). The department histology book (p.38, 'Fetal Lung', point 1) states verbatim: 'Similar to a gland where branches of bronchiolar tree are similar to ducts and the alveoli are similar to acini' — a direct match for option C, with A, B and D each reversing or misattributing a different detail from the same passage.
 

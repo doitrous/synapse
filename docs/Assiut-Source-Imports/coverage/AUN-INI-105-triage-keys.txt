@@ -1,0 +1,908 @@
+# AUN-INI-105 -- Chapter 1 "Bacterial cell structure" triage keys (source: INI MCQ .pdf)
+# One question per line. Q1-Q50 window from lane 1; Q51-Q100 window from
+# lane 2 (coverage/AUN-INI-105-triage.md).
+# Key format is chapter-1-scoped (`ini-mcq-qNNN` = chapter 1's own Q-number) --
+# every other chapter also restarts numbering at 1, so a later lane touching
+# chapter 2 onward must use a disambiguated prefix (e.g. ini-mcq-ch2-qNNN).
+# ledger.mjs strips everything from "#" onward before comparing against a seed's
+# short `key`, so these tokens reconcile exactly against the four seed files.
+
+ini-mcq-q001  # -- plasmid: accessory extrachromosomal DNA -- live (CON-DEV-FE47A8F9B0768E)
+ini-mcq-q002  # -- clone: population from a single parent cell -- new
+ini-mcq-q003  # -- rod-shaped bacteria = bacilli -- HELD, printed key (Cocci) conflicts with expected answer (Bacilli)
+ini-mcq-q004  # -- gram-negative bacteria stain pink -- new
+ini-mcq-q005  # -- spherical bacteria = cocci -- HELD, printed key (Bacilli) conflicts with expected answer (Cocci)
+ini-mcq-q006  # -- gram-positive bacteria stain violet -- new
+ini-mcq-q007  # -- eukaryote/prokaryote differences, false claim is "no genetic material" -- new
+ini-mcq-q008  # -- prokaryote: single circular DNA chromosome -- new
+ini-mcq-q009  # -- prokaryote characterized by all listed features jointly -- new
+ini-mcq-q010  # -- capsule protects from phagocytosis -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q011  # -- peritrichous flagellar arrangement -- new
+ini-mcq-q012  # -- cell wall does NOT protect from phagocytosis -- pending (ASU-INF CON-INF-3FBC905C4F778F)
+ini-mcq-q013  # -- gram-negative wall thinner than gram-positive -- HELD, source prints only 2 options (short of schema's 4-option floor)
+ini-mcq-q014  # -- flagella and pili made of protein -- pending (ASU-INF CON-INF-83707B09F53803)
+ini-mcq-q015  # -- gram-negative wall (LPS) contains polysaccharide -- pending (ASU-INF CON-INF-0DD46C0FD80938)
+ini-mcq-q016  # -- gram-negative = less peptidoglycan -- HELD, source prints only 2 options (short of schema's 4-option floor)
+ini-mcq-q017  # -- bacterial pili mainly contain protein -- pending (ASU-INF CON-INF-83707B09F53803)
+ini-mcq-q018  # -- mesosomes part of the plasma membrane -- pending (ASU-INF CON-INF-E4012E20B5A13D)
+ini-mcq-q019  # -- teichoic acid found in gram-positive bacteria -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q020  # -- mesosomes are sites of respiratory enzymes -- pending (ASU-INF CON-INF-E4012E20B5A13D)
+ini-mcq-q021  # -- capsule composed of polysaccharide or polypeptide -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q022  # -- cell wall (peptidoglycan) maintains bacterial shape -- pending (ASU-INF CON-INF-3FBC905C4F778F)
+ini-mcq-q023  # -- gram+/- differences reside in the cell wall -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q024  # -- bacterial locomotion = flagella -- pending (ASU-INF CON-INF-83707B09F53803)
+ini-mcq-q025  # -- teichoic acid found in gram-positive walls -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q026  # -- monotrichous: one flagellum, one pole -- new
+ini-mcq-q027  # -- capsule protects from phagocytosis and helps adherence -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q028  # -- bacterium lacks a true nucleus -- new
+ini-mcq-q029  # -- false about gram-negative wall: contains teichoic acid -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q030  # -- pili functions EXCEPT movement -- pending (ASU-INF CON-INF-BC446C9816D9CE)
+ini-mcq-q031  # -- only gram-negative cells have LPS layer -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q032  # -- plasma membrane = selective barrier -- new
+ini-mcq-q033  # -- genetic information stored in the nucleus -- new
+ini-mcq-q034  # -- plasma membrane regulates traffic into/out of cell -- new
+ini-mcq-q035  # -- structures containing protein EXCEPT -- HELD, ambiguous (Cell membrane vs Plasmids both arguable)
+ini-mcq-q036  # -- endotoxin present in lipopolysaccharide -- pending (ASU-INF CON-INF-0DD46C0FD80938)
+ini-mcq-q037  # -- exotoxins are heat labile -- pending (ASU-INF CON-INF-C87DF729E2ADDF)
+ini-mcq-q038  # -- flagella are the organ of motility -- pending (ASU-INF CON-INF-83707B09F53803)
+ini-mcq-q039  # -- lophotrichous: tuft of flagella at one pole -- new
+ini-mcq-q040  # -- NOT exotoxin character: prepared by organism disintegration -- pending (ASU-INF CON-INF-C87DF729E2ADDF)
+ini-mcq-q041  # -- NOT endotoxin character: converted to formol toxoid -- pending (ASU-INF CON-INF-C87DF729E2ADDF)
+ini-mcq-q042  # -- virulence factors EXCEPT inclusion granules -- new
+ini-mcq-q043  # -- exotoxin correct statement: strong antigenic -- pending (ASU-INF CON-INF-C87DF729E2ADDF)
+ini-mcq-q044  # -- endotoxin association = lipopolysaccharide -- pending (ASU-INF CON-INF-0DD46C0FD80938)
+ini-mcq-q045  # -- amphitrichous: one flagellum at each of two poles -- new
+ini-mcq-q046  # -- exotoxin best character: they are strong -- pending (ASU-INF CON-INF-C87DF729E2ADDF)
+ini-mcq-q047  # -- bacterial spores: false is "metabolically active" -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q048  # -- pili occur in motile and non-motile strains -- pending (ASU-INF CON-INF-BC446C9816D9CE)
+ini-mcq-q049  # -- lipopolysaccharide responsible for endotoxin activity -- pending (ASU-INF CON-INF-0DD46C0FD80938)
+ini-mcq-q050  # -- NOT exotoxin property: coded by chromosome -- pending (ASU-INF CON-INF-C87DF729E2ADDF)
+
+ini-mcq-q051  # -- lophotrichous: multiple polar flagella -- HELD, near-verbatim duplicate of q039
+ini-mcq-q052  # -- pilus mediates adherence to mucous membranes -- pending (ASU-INF CON-INF-BC446C9816D9CE)
+ini-mcq-q053  # -- thick vs thin peptidoglycan is the gram+/- wall difference -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q054  # -- bacterial spores: metabolically inactive, survive years -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q055  # -- flagella ARE antigenic (H antigen), unrelated to human structures -- new (mint) + pending contextual
+ini-mcq-q056  # -- peptidoglycan thicker in gram-positive, not thinner -- pending (ASU-INF CON-INF-3FBC905C4F778F)
+ini-mcq-q057  # -- bacterial spores EXCEPT (metabolic activity) -- HELD, near-verbatim duplicate of q047
+ini-mcq-q058  # -- mycoplasma membrane contains sterol -- pending (ASU-INF CON-INF-7CCB09F434AF06)
+ini-mcq-q059  # -- bacterial respiratory enzymes in cytoplasmic membrane/mesosome -- pending (ASU-INF CON-INF-E4012E20B5A13D)
+ini-mcq-q060  # -- peptidoglycan maintains rigidity and shape -- pending (ASU-INF CON-INF-3FBC905C4F778F)
+ini-mcq-q061  # -- Lipid A is the toxic moiety of endotoxin -- pending (ASU-INF CON-INF-C87DF729E2ADDF)
+ini-mcq-q062  # -- plasmids play no role in cell division -- live (CON-DEV-FE47A8F9B0768E)
+ini-mcq-q063  # -- cell wall responsible for staining affinity -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q064  # -- mycoplasma naturally resistant to penicillin (no wall) -- pending (ASU-INF CON-INF-271E9930B4B73A)
+ini-mcq-q065  # -- protoplast = gram-positive + lysozyme -- new (mint)
+ini-mcq-q066  # -- Corynebacterium diphtheriae stores metachromatic granules -- live (CON-INF-398B4BA280679E)
+ini-mcq-q067  # -- capsule not exclusively formed outside the host -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q068  # -- bacterial spores INCORRECT (metabolic activity) -- HELD, near-verbatim duplicate of q047
+ini-mcq-q069  # -- Bacillus anthracis capsule is polypeptide, not polysaccharide -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q070  # -- spore formation: adverse conditions + nucleoprotein concentration -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q071  # -- nuclear membrane absent from prokaryotic cell -- new (AUN mint, lane 1 concept)
+ini-mcq-q072  # -- bacterial chromosome double-stranded and circular -- new (AUN mint, lane 1 concept)
+ini-mcq-q073  # -- Vibrio cholerae is monotrichous -- new (AUN mint, lane 1 concept)
+ini-mcq-q074  # -- lophotrichous: tuft of flagella at one pole -- HELD, near-verbatim duplicate of q039
+ini-mcq-q075  # -- bacterial ribosomes found in polysomes -- pending (ASU-INF CON-INF-29351FD540E214)
+ini-mcq-q076  # -- lysozyme causes irregular shape -- pending (ASU-INF CON-INF-3FBC905C4F778F)
+ini-mcq-q077  # -- membrane-active antimicrobials alter selective permeability -- new (AUN mint, lane 1 concept)
+ini-mcq-q078  # -- taxonomy = naming/classifying organisms -- new (mint)
+ini-mcq-q079  # -- bacterial spores resistant to boiling, not sensitive -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q080  # -- bacterial locomotion = flagella -- HELD, near-verbatim duplicate of q024
+ini-mcq-q081  # -- outer membrane absent from gram-positive bacteria -- pending (ASU-INF CON-INF-7E3B831D71A008)
+ini-mcq-q082  # -- spheroplast = gram-negative + lysozyme -- new (mint)
+ini-mcq-q083  # -- cytoplasmic membrane present in prokaryotes -- pending (ASU-INF CON-INF-29351FD540E214 contextual)
+ini-mcq-q084  # -- cell wall plays no role in respiration -- pending (ASU-INF CON-INF-3FBC905C4F778F)
+ini-mcq-q085  # -- peritrichous: flagella distributed over entire cell -- HELD, near-verbatim duplicate of q011
+ini-mcq-q086  # -- bacterial chromosome circular, not linear -- new (AUN mint, lane 1 concept)
+ini-mcq-q087  # -- penicillin can induce bacterial L-forms -- pending (ASU-INF CON-INF-271E9930B4B73A)
+ini-mcq-q088  # -- capsule helps type (serotype) bacterial species -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q089  # -- endotoxin is a component of the gram-negative cell wall -- pending (ASU-INF CON-INF-0DD46C0FD80938)
+ini-mcq-q090  # -- pili: conjugation (sex pili) and adherence (ordinary pili) -- pending (ASU-INF CON-INF-BC446C9816D9CE)
+ini-mcq-q091  # -- bacterial flagella are protein in nature -- pending (ASU-INF CON-INF-83707B09F53803)
+ini-mcq-q092  # -- bacterial spores destroyed by autoclaving 121C ~20min -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q093  # -- endospores formed outside the host, inside the bacterium -- live (CON-INF-3E6590C8AC2166)
+ini-mcq-q094  # -- viruses are not true cells (acellular) -- new (mint)
+ini-mcq-q095  # -- fungi and human cells are eukaryotes -- new (mint)
+ini-mcq-q096  # -- bacterial cell has one circular chromosome, no histones -- new (AUN mint, lane 1 concept)
+ini-mcq-q097  # -- capsule associated with virulence -- pending (ASU-INF CON-INF-25846A77987558)
+ini-mcq-q098  # -- prokaryotic cells have no true nucleus -- new (AUN mint, lane 1 concept)
+ini-mcq-q099  # -- bacteria are prokaryotes -- new (AUN mint, lane 1 concept)
+ini-mcq-q100  # -- normal flora best called commensals -- pending (ASU-INF CON-INF-0B4BAFFD525FDF)
+
+# AUN-INI-105 -- Chapter 2 "Bacterial growth" triage keys (source: INI MCQ .pdf,
+# pp.28-37, 60 items, answer table p37). Key format ini-mcq-ch2-qNNN (chapter-2-scoped,
+# per the ch1 triage's own note that a later chapter must disambiguate its Q-numbers).
+
+ini-mcq-ch2-q001  # -- growth = orderly increase in protoplasm -- new
+ini-mcq-ch2-q002  # -- bacterial multiplication usually by binary fission -- new
+ini-mcq-ch2-q003  # -- bacteria multiply by simple binary fission -- new
+ini-mcq-ch2-q004  # -- facultative anaerobic: ordinarily aerobe, can grow without O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q005  # -- metabolic peak during logarithmic phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q006  # -- new cells balance declining cells: stationary phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q007  # -- microaerophilic: small amount of O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q008  # -- convalescence corresponds to decline phase -- new
+ini-mcq-ch2-q009  # -- division at maximum rate: log phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q010  # -- obligate anaerobe: grow/multiply in complete absence of O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q011  # -- lag phase correlates with incubation period -- new
+ini-mcq-ch2-q012  # -- facultative anaerobe: most pathogenic bacteria belong to it -- pending (ASU-INF CON-INF-3528D1EAF3F9B4)
+ini-mcq-ch2-q013  # -- only true statement: stationary phase accompanied by bacterial death -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q014  # -- stationary phase correlates with symptoms & signs -- new
+ini-mcq-ch2-q015  # -- facultative anaerobe: equal facility with/without O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q016  # -- only molecular O2 as final acceptor: obligate aerobes -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q017  # -- growth rate during stationary phase: zero -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q018  # -- lack peroxidase: obligate anaerobes -- pending (ASU-INF CON-INF-2E9D6F833A7D5E)
+ini-mcq-ch2-q019  # -- division max & constant rate: exponential phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q020  # -- HELD, figure-dependent (growth-curve diagram phases A-D not extractable as text)
+ini-mcq-ch2-q021  # -- obligate anaerobes lack SOD and catalase -- pending (ASU-INF CON-INF-2E9D6F833A7D5E)
+ini-mcq-ch2-q022  # -- binary fission enabled by single chromosome -- new
+ini-mcq-ch2-q023  # -- mesosome initiates DNA replication -- pending (ASU-INF CON-INF-E4012E20B5A13D, already overlaid ch1)
+ini-mcq-ch2-q024  # -- zero growth rate: lag phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q025  # -- susceptible to antimicrobials: exponential/log phase -- pending (ASU-INF CON-INF-2E629B81136A05)
+ini-mcq-ch2-q026  # -- invasion period corresponds to logarithmic phase -- new
+ini-mcq-ch2-q027  # -- H. pylori: microaerophilic -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q028  # -- HELD, duplicate-of ini-mcq-ch2-q016
+ini-mcq-ch2-q029  # -- recovery corresponds to decline phase -- new
+ini-mcq-ch2-q030  # -- generation time calculated in exponential phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q031  # -- HELD, duplicate-of ini-mcq-ch2-q008
+ini-mcq-ch2-q032  # -- hydrogen peroxide: byproduct of aerobic respiration -- pending (ASU-INF CON-INF-2E9D6F833A7D5E)
+ini-mcq-ch2-q033  # -- size & number increase: exponential phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q034  # -- 50-55C: thermophilic -- pending (ASU-INF CON-INF-3D845DC6B07880)
+ini-mcq-ch2-q035  # -- obligate anaerobes grow in absence of O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q036  # -- not killed by O2 exposure: aerotolerant anaerobes -- new
+ini-mcq-ch2-q037  # -- HELD, duplicate-of ini-mcq-ch2-q017
+ini-mcq-ch2-q038  # -- net increase zero: lag and stationary phases -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q039  # -- bacterial cell multiplies by binary fission -- new
+ini-mcq-ch2-q040  # -- facultative anaerobes: presence or absence of O2 -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q041  # -- autotrophic: only inorganic salts, water, CO2 -- pending (ASU-INF CON-INF-841FAB7F11BA18)
+ini-mcq-ch2-q042  # -- HELD, printed key (C, Pathogenic) conflicts with expected answer (D, All of the above) for heterotrophic bacteria
+ini-mcq-ch2-q043  # -- grow best in traces of O2: microaerophilic -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q044  # -- grow only in absence of O2: obligate anaerobes -- pending (ASU-INF CON-INF-D31966C6CEF85C)
+ini-mcq-ch2-q045  # -- synthesize organic from inorganic: autotrophs -- pending (ASU-INF CON-INF-841FAB7F11BA18)
+ini-mcq-ch2-q046  # -- most pathogenic bacteria: mesophilic -- pending (ASU-INF CON-INF-3528D1EAF3F9B4)
+ini-mcq-ch2-q047  # -- most pathogenic bacteria grow in: neutral pH -- pending (ASU-INF CON-INF-3528D1EAF3F9B4)
+ini-mcq-ch2-q048  # -- lacking SOD/catalase: obligate anaerobes -- pending (ASU-INF CON-INF-2E9D6F833A7D5E)
+ini-mcq-ch2-q049  # -- lag phase: enzymes accumulating for multiplication -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q050  # -- exponential phase: viable bacteria increase by time -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q051  # -- growth of bacteria: increase in size and number -- new
+ini-mcq-ch2-q052  # -- lag phase length depends EXCEPT morphology -- pending (ASU-INF CON-INF-73C7354E3479CD)
+ini-mcq-ch2-q053  # -- cell death balanced by new cells: stationary phase -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q054  # -- grows above 50C: thermophilic -- pending (ASU-INF CON-INF-3D845DC6B07880)
+ini-mcq-ch2-q055  # -- log phase due to regular division at maximal rate -- pending (ASU-INF CON-INF-6D56F46B5F1EF4)
+ini-mcq-ch2-q056  # -- HELD, duplicate-of ini-mcq-ch2-q029
+ini-mcq-ch2-q057  # -- capnophilic: high CO2 -- pending (ASU-INF CON-INF-3D845DC6B07880)
+ini-mcq-ch2-q058  # -- HELD, duplicate-of ini-mcq-ch2-q025
+ini-mcq-ch2-q059  # -- depends on organic sources for energy: heterotrophs -- pending (ASU-INF CON-INF-841FAB7F11BA18)
+ini-mcq-ch2-q060  # -- HELD, duplicate-of ini-mcq-ch2-q005
+
+
+# AUN-INI-105 -- Chapter 3 "Bacteriophage" (Q1-Q24, answer table p41), lane 4.
+# Key format ini-mcq-ch3-qNNN per the chapter-1 triage's own disambiguation note.
+ini-mcq-ch3-q001  # -- temperate phage integrates into bacterial chromosome -- new (CON-INF-E53A4B008CA559)
+ini-mcq-ch3-q002  # -- transduction: phage containing host DNA -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q003  # -- bacteriophage definition -- new (CON-INF-3340EF16DD5022)
+ini-mcq-ch3-q004  # -- temperate phage responsible for lysogenic cycle -- new (CON-INF-E53A4B008CA559)
+ini-mcq-ch3-q005  # -- lysogenic conversion via prophage genes -- pending (ASU-INF CON-INF-BFFA74CFBB0B25)
+ini-mcq-ch3-q006  # -- NOT true about bacteriophage (does not infect humans) -- pending (Helwan CON-INF-E463F81B9370AE)
+ini-mcq-ch3-q007  # -- transformation: uptake of free naked DNA -- pending (ASU-INF CON-INF-42D77BF4AB3ADD)
+ini-mcq-ch3-q008  # -- transduction: DNA transfer with help of bacteriophage -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q009  # -- sex pilus role in conjugation -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch3-q010  # -- bacteriophage's role in transduction -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q011  # -- conjugation: transfer after cell-to-cell contact -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch3-q012  # -- transfer of specific DNA w/ temperate phage: none of above (specialized transduction not offered) -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q013  # -- HELD, only 3 printed options; also near-literal duplicate of ini-mcq-ch3-q004
+ini-mcq-ch3-q014  # -- prophage: integrated at specific site -- pending (Helwan CON-INF-C4B589DE952DCF)
+ini-mcq-ch3-q015  # -- HELD, True/False item, 2 printed options
+ini-mcq-ch3-q016  # -- HELD, only 3 printed options
+ini-mcq-ch3-q017  # -- generalized transduction via virulent phage -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q018  # -- lytic cycle properties -- new (CON-INF-CA72F76C9CEA85)
+ini-mcq-ch3-q019  # -- virulent phages destroy host DNA and cause lysis -- new (CON-INF-CA72F76C9CEA85)
+ini-mcq-ch3-q020  # -- transduction: donor DNA introduced by bacterial virus -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q021  # -- prophage: integrated viral genome -- pending (Helwan CON-INF-C4B589DE952DCF)
+ini-mcq-ch3-q022  # -- phage host specificity determined by tail -- new (CON-INF-6433BF30617CF3)
+ini-mcq-ch3-q023  # -- generalized transduction: random DNA segment transfer -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch3-q024  # -- lysogenized cell contains prophage -- pending (Helwan CON-INF-C4B589DE952DCF)
+
+# AUN-INI-105 -- Chapter 4 "Bacterial Genetics" (Q1-Q58, answer table p50), lane 4.
+ini-mcq-ch4-q001  # -- transposons: mobile DNA, can carry toxin genes -- pending (ASU-INF CON-INF-D6A264E108B348)
+ini-mcq-ch4-q002  # -- transposons EXCEPT: do not autonomously replicate -- pending (ASU-INF CON-INF-D6A264E108B348)
+ini-mcq-ch4-q003  # -- genetic info essential for bacterial life = chromosome -- new (CON-INF-52E3C48A1A2AAA, ch1)
+ini-mcq-ch4-q004  # -- essential bacterial structure: nuclear body -- new (CON-INF-52E3C48A1A2AAA, ch1)
+ini-mcq-ch4-q005  # -- non-essential bacterial structure: fimbriae -- new (CON-INF-52E3C48A1A2AAA, ch1)
+ini-mcq-ch4-q006  # -- gene: DNA segment with specific info -- new (CON-INF-C6573B784395D3)
+ini-mcq-ch4-q007  # -- genotype: set of genetic determinants -- new (CON-INF-C6573B784395D3)
+ini-mcq-ch4-q008  # -- genome: entire DNA collection -- new (CON-INF-C6573B784395D3)
+ini-mcq-ch4-q009  # -- bacteria haploid, 1 chromosome -- new (CON-INF-52E3C48A1A2AAA, ch1)
+ini-mcq-ch4-q010  # -- HELD, True/False item, 2 printed options
+ini-mcq-ch4-q011  # -- plasmid: extrachromosomal DNA replicating independently -- live (CON-DEV-FE47A8F9B0768E)
+ini-mcq-ch4-q012  # -- episome: plasmid integrating into host chromosome -- new (CON-INF-AF43B8E4E6393F)
+ini-mcq-ch4-q013  # -- HELD, True/False item, 2 printed options
+ini-mcq-ch4-q014  # -- R plasmids carry antibiotic resistance genes -- pending (ASU-INF CON-INF-134BE2C9B827D5)
+ini-mcq-ch4-q015  # -- HELD, only 3 printed options; also debatable key (Bacteriocins vs Bacitracin)
+ini-mcq-ch4-q016  # -- F plasmids carry sex pilus genes -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q017  # -- fertility factor mediates conjugation -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q018  # -- transposons: mobile gene sequences -- pending (ASU-INF CON-INF-D6A264E108B348)
+ini-mcq-ch4-q019  # -- pathogenicity islands carry virulence genes -- new (CON-INF-8245DB82E97E24)
+ini-mcq-ch4-q020  # -- HELD, only 2 printed options
+ini-mcq-ch4-q021  # -- A-T base pairing = 2 hydrogen bonds -- new (CON-INF-CAFCB77C9BBC61)
+ini-mcq-ch4-q022  # -- helicase breaks hydrogen bonds -- pending (102-INT CON-FND-81A17C5BF7ED85)
+ini-mcq-ch4-q023  # -- leading strand: continuous synthesis -- new (CON-INF-3683FD40DA5ED3)
+ini-mcq-ch4-q024  # -- lagging strand: intermittent synthesis -- new (CON-INF-3683FD40DA5ED3)
+ini-mcq-ch4-q025  # -- HELD, only 2 printed options
+ini-mcq-ch4-q026  # -- temperate phage infection: transcription first -- new (CON-INF-D773C7197FDF24)
+ini-mcq-ch4-q027  # -- codon: 3 nucleotides in mRNA reading frame -- pending (102-INT CON-FND-FB99DCB7F61A0E)
+ini-mcq-ch4-q028  # -- gene regulation purposes (all of above) -- new (CON-INF-3EC0F3064F1B14)
+ini-mcq-ch4-q029  # -- mutation: permanent DNA sequence change -- new (CON-INF-CABCEC2A6B9ADB)
+ini-mcq-ch4-q030  # -- mutagenic factors EXCEPT disinfectants -- new (CON-INF-B50FDC7B6557EB)
+ini-mcq-ch4-q031  # -- parasexuality: unilateral gene transfer -- new (CON-INF-9DD9CA8F8A5C5B)
+ini-mcq-ch4-q032  # -- conjugative plasmid characters (none of above is exception) -- new (CON-INF-29B8D844843328)
+ini-mcq-ch4-q033  # -- restriction endonuclease: recognize + cleave -- pending (ASU-MBG CON-FND-C444D428BE3E1D)
+ini-mcq-ch4-q034  # -- gene therapy: replace mutated gene -- live (CON-OBS-594403B7D8C57E)
+ini-mcq-ch4-q035  # -- DNA probe: labeled seq from sought organism -- new (CON-INF-D86F25EF8192D8)
+ini-mcq-ch4-q036  # -- PCR steps in order -- new (CON-INF-1A4C8B42D0FA6E)
+ini-mcq-ch4-q037  # -- nucleic acid probe applications EXCEPT amplification -- new (CON-INF-D86F25EF8192D8)
+ini-mcq-ch4-q038  # -- gene cassette: free or in integron -- new (CON-INF-B3CE952425C925)
+ini-mcq-ch4-q039  # -- plasmid classification: genetic factor -- live (CON-DEV-FE47A8F9B0768E)
+ini-mcq-ch4-q040  # -- HELD, near-literal duplicate of ini-mcq-ch4-q035
+ini-mcq-ch4-q041  # -- HELD, near-literal duplicate of ini-mcq-ch4-q033
+ini-mcq-ch4-q042  # -- specialized transduction: transfer of specific bacterial DNA -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch4-q043  # -- conjugative plasmid EXCEPT: needs no cell contact (false) -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q044  # -- HELD, near-literal duplicate of ini-mcq-ch4-q022
+ini-mcq-ch4-q045  # -- F factor mediates conjugation -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q046  # -- process involving sex pilus: conjugation -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q047  # -- transformation susceptible to nuclease -- pending (ASU-INF CON-INF-42D77BF4AB3ADD)
+ini-mcq-ch4-q048  # -- mating pair formation requires sex pilus -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q049  # -- plasmid transmitted via conjugation -- pending (ASU-INF CON-INF-B7F47EC7A8F7FA)
+ini-mcq-ch4-q050  # -- transformation: naked DNA taken by recipient -- pending (ASU-INF CON-INF-42D77BF4AB3ADD)
+ini-mcq-ch4-q051  # -- R factor: main determinant of drug resistance -- pending (ASU-INF CON-INF-134BE2C9B827D5)
+ini-mcq-ch4-q052  # -- HELD, near-literal duplicate of ini-mcq-ch4-q003
+ini-mcq-ch4-q053  # -- plasmid governs EXCEPT endotoxin production -- pending (ASU-INF CON-INF-EB5758CBC71F57)
+ini-mcq-ch4-q054  # -- mutation: heritable change in genome -- new (CON-INF-CABCEC2A6B9ADB)
+ini-mcq-ch4-q055  # -- transformation involves taking up DNA from environment -- pending (ASU-INF CON-INF-42D77BF4AB3ADD)
+ini-mcq-ch4-q056  # -- transduction: DNA portion transfer via bacteriophage -- pending (ASU-INF CON-INF-E9C14F5981ACE5)
+ini-mcq-ch4-q057  # -- E. coli most used in genetic engineering -- new (CON-INF-E8E46BFEBB25EE)
+ini-mcq-ch4-q058  # -- HELD, literal duplicate of chapter 1's ini-mcq-q001
+
+# AUN-INI-105 -- Chapter 5 "Antimicrobial chemotherapy & Pathogenesis of
+# bacterial infections" triage keys (source: INI MCQ .pdf, pp.51-62, 74 MCQ +
+# 10 True/False, answer table p62). Key format ini-mcq-ch5-qNNN
+# (chapter-5-scoped). The True/False block (source Q75-84, 10 items) is a
+# different question shape (2-valued, no lettered options) and is out of
+# format for this seed schema per the lane dispatch -- logged here, never
+# authored, and deliberately NOT listed as triage keys below (a bare key line
+# would show as permanently "remaining" in ledger.mjs's reconciliation for a
+# question type this schema cannot represent).
+
+ini-mcq-ch5-q001  # -- bactericidal kills leading to cell lysis -- live (CON-INF-1249475C90F47B)
+ini-mcq-ch5-q002  # -- tetracyclines identical mechanism to aminoglycosides (30S) -- new
+ini-mcq-ch5-q003  # -- L forms resistance to penicillin: absence of cell wall -- pending (ASU-INF CON-INF-DCD82D2A1D396C)
+ini-mcq-ch5-q004  # -- cell wall synthesis inhibitors most selective (unique bacterial structure) -- new
+ini-mcq-ch5-q005  # -- aminoglycoside mechanism: bind 30S ribosomal subunit -- new
+ini-mcq-ch5-q006  # -- toxoid: toxin lost toxicity but still antigenic -- pending (ASU-INF CON-INF-F6DC0E99178186)
+ini-mcq-ch5-q007  # -- vertical transmission: mother to child during pregnancy -- new
+ini-mcq-ch5-q008  # -- phage therapy alternative: virulent phages -- new
+ini-mcq-ch5-q009  # -- virulence reduced by attenuation -- new
+ini-mcq-ch5-q010  # -- viable bacteria in blood stream: bacteraemia -- new
+ini-mcq-ch5-q011  # -- bacterial disease diagnosis: finding bacteria and culture isolation -- new
+ini-mcq-ch5-q012  # -- common airborne epidemic disease: influenza -- new
+ini-mcq-ch5-q013  # -- HELD, duplicate-of ini-mcq-ch5-q002
+ini-mcq-ch5-q014  # -- resistance mechanism: mutation and R plasmid acquisition -- new
+ini-mcq-ch5-q015  # -- bacterial flora mainly affected by broad spectrum antibiotics -- new
+ini-mcq-ch5-q016  # -- sulfonamides act by competitive antagonism -- new
+ini-mcq-ch5-q017  # -- gentamycin acts by inhibition of protein synthesis -- new
+ini-mcq-ch5-q018  # -- sulfonamide synergistic with trimethoprim -- new
+ini-mcq-ch5-q019  # -- main side effect of penicillin: anaphylactic shock -- new
+ini-mcq-ch5-q020  # -- antibiotic-associated pseudomembranous colitis: C. difficile -- new
+ini-mcq-ch5-q021  # -- beta lactamase production: example of drug inactivation -- new
+ini-mcq-ch5-q022  # -- aminoglycosides function by inhibiting protein synthesis (30S) -- new
+ini-mcq-ch5-q023  # -- bacteria absorbing exogenous folic acid resistant to sulfamethoxazole -- new
+ini-mcq-ch5-q024  # -- tetracycline considered bacteriostatic agent -- new
+ini-mcq-ch5-q025  # -- chloramphenicol functions by inhibition of protein synthesis (marrow failure) -- new
+ini-mcq-ch5-q026  # -- multiple drug resistance spreads between bacteria by conjugation -- new
+ini-mcq-ch5-q027  # -- aminoglycosides inhibit protein synthesis (class identification) -- new
+ini-mcq-ch5-q028  # -- ability to inhibit/kill without harming host: selective toxicity -- new
+ini-mcq-ch5-q029  # -- rifampicin functions through inhibition of RNA polymerase -- new
+ini-mcq-ch5-q030  # -- HELD, duplicate-of ini-mcq-ch5-q006
+ini-mcq-ch5-q031  # -- exotoxins usually thermolabile -- pending (ASU-INF CON-INF-C87DF729E2ADDF, already overlaid ch1)
+ini-mcq-ch5-q032  # -- endotoxin: LPS-protein complex, heat and formalin stable -- pending (ASU-INF CON-INF-C87DF729E2ADDF, already overlaid ch1)
+ini-mcq-ch5-q033  # -- endotoxin characters EXCEPT enzymatic action -- pending (ASU-INF CON-INF-C87DF729E2ADDF, already overlaid ch1)
+ini-mcq-ch5-q034  # -- exotoxin characters EXCEPT polysaccharide lipid nature -- pending (ASU-INF CON-INF-C87DF729E2ADDF, already overlaid ch1)
+ini-mcq-ch5-q035  # -- HELD, printed double answer B,D (Glycocalyx and Ordinary pili mediate adherence)
+ini-mcq-ch5-q036  # -- carriers are apparently healthy -- new
+ini-mcq-ch5-q037  # -- quantitative measure for pathogenicity: virulence -- new
+ini-mcq-ch5-q038  # -- microbe persists for years, minimal disease, can reactivate: latent infection -- new
+ini-mcq-ch5-q039  # -- opportunistic pathogens EXCEPT frequently infect healthy subjects -- new
+ini-mcq-ch5-q040  # -- virulence genes EXCEPT cannot be transmitted between bacteria -- new
+ini-mcq-ch5-q041  # -- invasiveness facilitated by collagenase enzyme -- new
+ini-mcq-ch5-q042  # -- antibiotic resistance frequently mediated by R factor plasmid -- new
+ini-mcq-ch5-q043  # -- selective toxicity: toxic to microorganism but not host -- new
+ini-mcq-ch5-q044  # -- quinolones inhibit DNA synthesis in bacteria -- new
+ini-mcq-ch5-q045  # -- rifampicin inhibits RNA polymerase -- new
+ini-mcq-ch5-q046  # -- quinolone inhibits DNA gyrase -- new
+ini-mcq-ch5-q047  # -- Candida treated by Nystatin -- new
+ini-mcq-ch5-q048  # -- bacterial enzyme inactivating penicillin: beta lactamase -- new
+ini-mcq-ch5-q049  # -- vancomycin acts on cell wall -- new
+ini-mcq-ch5-q050  # -- penicillin non-toxic because target site unique in bacteria -- new
+ini-mcq-ch5-q051  # -- resistance to beta lactams mediated by plasmid -- new
+ini-mcq-ch5-q052  # -- HELD, only 3 printed options (short of 4-option floor)
+ini-mcq-ch5-q053  # -- aminoglycosides act on protein synthesis -- new
+ini-mcq-ch5-q054  # -- does not interfere with protein synthesis: cephalosporins -- new
+ini-mcq-ch5-q055  # -- resistance mechanisms: enzyme/altered receptor/permeability (all of above) -- new
+ini-mcq-ch5-q056  # -- inhibits bacterial cell membrane function: Polymyxin -- new
+ini-mcq-ch5-q057  # -- HELD, only 3 printed options (short of 4-option floor)
+ini-mcq-ch5-q058  # -- gentamycin maximal bactericidal effect in log phase -- pending (ASU-INF CON-INF-2E629B81136A05, already overlaid ch2)
+ini-mcq-ch5-q059  # -- surgical antimicrobial prophylaxis indicated for catastrophic infection risk -- new
+ini-mcq-ch5-q060  # -- Nystatin inhibits cell membrane function -- new
+ini-mcq-ch5-q061  # -- HELD, duplicate-of ini-mcq-ch5-q003
+ini-mcq-ch5-q062  # -- penicillin + gentamycin for enterococcal endocarditis: synergism -- new
+ini-mcq-ch5-q063  # -- penicillin + tetracycline for pneumococcal pneumonia: antagonism -- new
+ini-mcq-ch5-q064  # -- HELD, printed key conflicts with expected answer (renal impairment / gentamycin)
+ini-mcq-ch5-q065  # -- resistance to sulfonamides mediated by pre-formed folic acid use -- new
+ini-mcq-ch5-q066  # -- HELD, ambiguous EXCEPT (Cyclosporine/Cycloserine)
+ini-mcq-ch5-q067  # -- HELD, only 3 printed options (short of 4-option floor)
+ini-mcq-ch5-q068  # -- antimicrobial agent acting upon cell wall: penicillin -- new
+ini-mcq-ch5-q069  # -- mechanism of action of penicillin: inhibition of cell wall synthesis -- new
+ini-mcq-ch5-q070  # -- synthetic substance that can kill bacteria: chemotherapeutic agent -- new
+ini-mcq-ch5-q071  # -- narrow spectrum antibiotics EXCEPT Levofloxacin -- new
+ini-mcq-ch5-q072  # -- drugs inhibiting cell wall synthesis: Monobactams -- new
+ini-mcq-ch5-q073  # -- chloramphenicol destroys bacteria by binding 50S ribosomal subunit -- new
+ini-mcq-ch5-q074  # -- most serious disadvantage of chloramphenicol: bone marrow suppression -- new
+# --- Chapter 7 "General Mycology" (pp.78-82, 33 items, answer table p82
+# headed "ANSWES" -- a typo) -- lane 7. All 33 items read and keyed.
+ini-mcq-ch7-q001  # -- yeasts reproduce by budding -- new
+ini-mcq-ch7-q002  # -- mycoplasma resistant to penicillin (no cell wall) -- pending (ASU-INF CON-INF-271E9930B4B73A, already overlaid by chapter 1)
+ini-mcq-ch7-q003  # -- HELD, options A and B both print "Budding" verbatim -- source-side duplicate-option defect
+ini-mcq-ch7-q004  # -- fungi are eukaryotes with nucleus and chromosomes -- new
+ini-mcq-ch7-q005  # -- mold hyphae may or may not be septate -- new
+ini-mcq-ch7-q006  # -- fungal cell wall major components chitin/glucan/mannan -- pending (ASU-INF CON-INF-37160A7BC0B002 + CON-INF-5711F66EFF586F)
+ini-mcq-ch7-q007  # -- selective toxicity of antifungals based on ergosterol -- new
+ini-mcq-ch7-q008  # -- chitin is a component of fungal cell wall -- pending (ASU-INF CON-INF-5711F66EFF586F)
+ini-mcq-ch7-q009  # -- sterol in cytoplasmic membrane of fungi -- new
+ini-mcq-ch7-q010  # -- fungi with true mycelium = filamentous fungi -- pending (ASU-INF CON-INF-8D2EDDBECE528D)
+ini-mcq-ch7-q011  # -- dimorphic fungi show yeast and filamentous forms -- pending (ASU-INF CON-INF-44400FF4328CA8)
+ini-mcq-ch7-q012  # -- flucytosine inhibits fungal DNA synthesis -- live (CON-INF-EA7790A02A4D5F)
+ini-mcq-ch7-q013  # -- HELD, printed key A (Pathogenicity) conflicts with expected answer (Virulence, C) for "the MEASURED ability to cause disease"
+ini-mcq-ch7-q014  # -- HELD, printed key C conflicts with expected EXCEPT answer (D, "peptidoglycan cell wall" is false for fungi)
+ini-mcq-ch7-q015  # -- mycelium = collection of intertwined hyphae -- pending (ASU-INF CON-INF-7213E96DAD38D1)
+ini-mcq-ch7-q016  # -- tinea versicolor = superficial mycosis -- new
+ini-mcq-ch7-q017  # -- Candida albicans recognized by yeasts + pseudohyphae -- new
+ini-mcq-ch7-q018  # -- Cryptococcus neoformans EXCEPT mycotoxins -- new
+ini-mcq-ch7-q019  # -- Aspergillus flavus produces aflatoxin -- new
+ini-mcq-ch7-q020  # -- zoospores EXCEPT non-motile (they are motile) -- new
+ini-mcq-ch7-q021  # -- Candida albicans EXCEPT respiratory-aerosol transmission -- new
+ini-mcq-ch7-q022  # -- HELD, duplicate-of ini-mcq-ch7-q019 (aflatoxin)
+ini-mcq-ch7-q023  # -- Cryptococcus neoformans causes meningitis -- new (same concept as Q18)
+ini-mcq-ch7-q024  # -- dermatophytes live in superficial keratinized tissue -- new
+ini-mcq-ch7-q025  # -- pseudohyphae seen in Candida -- new (same concept as Q17)
+ini-mcq-ch7-q026  # -- HELD, duplicate-of ini-mcq-ch7-q016 (tinea versicolor)
+ini-mcq-ch7-q027  # -- HELD, blank option D in source, only 3 usable options
+ini-mcq-ch7-q028  # -- fungal cell wall composed of chitin -- pending (ASU-INF CON-INF-5711F66EFF586F, same as Q8)
+ini-mcq-ch7-q029  # -- morphological classification of Candida = yeast -- pending (MUST CON-INF-3CCC561E727F2C)
+ini-mcq-ch7-q030  # -- fragmentation regrows mycelium -- new (same concept as Q1)
+ini-mcq-ch7-q031  # -- HELD, exact duplicate-of ini-mcq-ch7-q001 (yeasts reproduce by budding)
+ini-mcq-ch7-q032  # -- fungal cell membrane contains ergosterol -- new (same concept as Q7)
+ini-mcq-ch7-q033  # -- opportunistic fungal infection risk factors EXCEPT anaerobic wound conditions -- new
+
+# --- Chapter 8 "Introduction to parasitology" (pp.84-85, 16 items, answer
+# table p86; a parasitology-only contents page sits on p83) -- lane 7. All
+# 16 items read and keyed; none held.
+ini-mcq-ch8-q001  # -- facultative parasite: either free-living or parasitic -- pending (MUST CON-INF-F82C6307A7B7E3)
+ini-mcq-ch8-q002  # -- pseudoparasite mistaken for a parasite during exam -- new
+ini-mcq-ch8-q003  # -- obligate parasite can't live outside host -- pending (MUST CON-INF-6E41B8C3F902AD)
+ini-mcq-ch8-q004  # -- incidental parasite in a host not its ordinary one -- new
+ini-mcq-ch8-q005  # -- coprozoic: foreign species passes through gut undigested -- new (same concept as Q2)
+ini-mcq-ch8-q006  # -- erratic parasite: another site than normal within the host -- new (same concept as Q4)
+ini-mcq-ch8-q007  # -- vector may act as intermediate/definitive/transfer host -- pending (MUST CON-INF-8C35F4B1A206DE)
+ini-mcq-ch8-q008  # -- definitive host harbours adult/sexual stage -- new
+ini-mcq-ch8-q009  # -- intermediate host: all larval stages -- new (same concept as Q8)
+ini-mcq-ch8-q010  # -- reservoir host: another animal harbouring same parasite -- new (same concept as Q8)
+ini-mcq-ch8-q011  # -- paratenic host: arrested state of development -- new (same concept as Q8)
+ini-mcq-ch8-q012  # -- transfer host propagates parasite place to place -- new (same concept as Q8)
+ini-mcq-ch8-q013  # -- vector: arthropod sharing actively in life cycle -- pending (MUST CON-INF-8C35F4B1A206DE, same as Q7)
+ini-mcq-ch8-q014  # -- opportunistic parasite: disease in immunocompromised -- pending (MUST CON-INF-C79E84EB999C31)
+ini-mcq-ch8-q015  # -- parasitism: one benefits, other harmed -- pending (ASU-INF CON-INF-0B4BAFFD525FDF, already overlaid by chapter 1)
+ini-mcq-ch8-q016  # -- commensalism: one benefits, other unaffected -- pending (ASU-INF CON-INF-0B4BAFFD525FDF, same as Q15)
+
+# --- Chapter 9 "Trematodes" (pp.87-100, 98 items, answer table wraps
+# pp.99-100) -- lane 7. This pass reads/keys only Q1-21 of 98 -- the window
+# needed to bring this lane's total authored count to ~55 across chapters
+# 7-9. Q22-98 remain unread at per-question level; keys for the full 1-98
+# range were incidentally captured while reading the p99-100 answer table
+# but only Q1-21 stems/options were read, so only Q1-21 are logged here.
+# STOP POINT for this lane: chapter 9 Q21 (page 89). A later lane resumes
+# at chapter 9 Q22 (page 89-90), with 77 items remaining in this chapter
+# plus chapters 10 ("Cestode", 86 items) and 11 ("Nematoda", 164 items)
+# entirely unread.
+ini-mcq-ch9-q001  # -- symbiosis: essential association, both benefit -- pending (ASU-INF CON-INF-0B4BAFFD525FDF, already overlaid)
+ini-mcq-ch9-q002  # -- facultative parasites: either free-living or parasitic -- pending (MUST CON-INF-F82C6307A7B7E3, already overlaid)
+ini-mcq-ch9-q003  # -- obligatory parasite: completely dependent on host -- pending (MUST CON-INF-6E41B8C3F902AD, already overlaid)
+ini-mcq-ch9-q004  # -- spurious parasite = coprozoic parasite (this bank's own key) -- new (ch8 concept CON-INF-66A57CFB78A21F)
+ini-mcq-ch9-q005  # -- opportunistic parasite: disease in immunocompromised host -- pending (MUST CON-INF-C79E84EB999C31, already overlaid)
+ini-mcq-ch9-q006  # -- definitive host harbours sexual stages -- new (ch8 concept CON-INF-2541991F249506)
+ini-mcq-ch9-q007  # -- reservoir host: all of the above -- new (ch8 concept CON-INF-2541991F249506)
+ini-mcq-ch9-q008  # -- mode of parasitic infection: all of the above -- new
+ini-mcq-ch9-q009  # -- HELD, printed key D (Fasciola hepatica) conflicts with expected answer (B, Fasciolopsis buski is the largest human trematode)
+ini-mcq-ch9-q010  # -- Diphyllobothrium latum needs two intermediate hosts (EXCEPT) -- new
+ini-mcq-ch9-q011  # -- Heterophyes heterophyes: salt-water fish 2nd intermediate host -- new
+ini-mcq-ch9-q012  # -- Schistosoma mansoni eggs non-operculate (EXCEPT) -- new
+ini-mcq-ch9-q013  # -- Taenia solium needs one intermediate host (EXCEPT) -- new (same concept as Q10)
+ini-mcq-ch9-q014  # -- eggs are main pathology agent in schistosomiasis -- new
+ini-mcq-ch9-q015  # -- HELD, printed key A (Bile ducts) conflicts with expected answer (C, Intestines -- Fasciolopsis buski is the giant intestinal fluke)
+ini-mcq-ch9-q016  # -- Fasciolopsis buski infection via ingestion of metacercariae -- new
+ini-mcq-ch9-q017  # -- HELD, printed key A (Lymnaea cailliaudi) conflicts with expected answer (D, species of Segmentina -- Fasciolopsis buski's actual snail host)
+ini-mcq-ch9-q018  # -- schistosomulum = cercaria without tail -- new
+ini-mcq-ch9-q019  # -- HELD, printed key B (systemic circulation) conflicts with expected answer (C, portal circulation -- standard teaching for schistosomulum maturation)
+ini-mcq-ch9-q020  # -- trematodes require snail as intermediate host -- new
+ini-mcq-ch9-q021  # -- HELD, options A and B both print "Both benefit" verbatim -- source-side duplicate-option defect
+
+# AUN-INI-105 -- Chapter 10 "Cestode" (Q1-Q55 of 86, answer table p111), lane 9.
+# This lane triaged the chapter at per-question level for the first time (only
+# structurally mapped before -- see coverage/AUN-INI-105-triage.md's chapter table)
+# and authored Q1-Q55 in order, 51 authored + 4 held (Q2, Q23 -- printed-key vs.
+# expected-fact conflicts/doubts; Q28, Q29 -- near-duplicates of Q11/Q9). Q56-86
+# (31 items) remain unread at per-question level; Q56-77 is largely a near-verbatim
+# restatement of Q5-Q22 (confirmed while reading ahead for duplicate-checking), so a
+# later lane should expect a high duplicate rate there. STOP POINT for this lane:
+# chapter 10 Q55 (page 107). A later lane resumes at chapter 10 Q56 (page 107-108),
+# with 31 items remaining in this chapter plus chapter 11 ("Nematoda", 164 items)
+# entirely unread.
+ini-mcq-ch10-q001  # -- platyhelminths needing 2 IH EXCEPT T. solium (1 IH only) -- new (CON-INF-75A2A7934657F3)
+ini-mcq-ch10-q002  # -- HELD, printed key (Coenurus cerebralis) conflicts with expected fact (Cysticercus bovis is the larva not present in man, since man is never T. saginata's IH)
+ini-mcq-ch10-q003  # -- dog definitive host for Toxocara canis/Echinococcus granulosus/Multiceps multiceps -- new (CON-INF-D706DE723AB63D)
+ini-mcq-ch10-q004  # -- herbivore IH EXCEPT Metagonimus yokogawai (snail/fish IH) -- new (CON-INF-75A2A7934657F3)
+ini-mcq-ch10-q005  # -- T. saginata: order Cyclophyllidae -- new (CON-INF-DA646E39A54407)
+ini-mcq-ch10-q006  # -- H. nana commonest cestode: autoinfection -- pending (Helwan CON-GIT-2FCF45AE17574F)
+ini-mcq-ch10-q007  # -- T. saginata scolex EXCEPT hooks (unarmed) -- new (CON-INF-DA646E39A54407)
+ini-mcq-ch10-q008  # -- egg is infective stage of H. nana -- pending (Helwan CON-GIT-2FCF45AE17574F)
+ini-mcq-ch10-q009  # -- cysticercus bovis = infective stage of T. saginata -- pending (Helwan CON-GIT-1A541E03119F0D)
+ini-mcq-ch10-q010  # -- cysticercoid = infective stage of Dipylidium caninum -- new (CON-INF-BAF8F514F8DF0E)
+ini-mcq-ch10-q011  # -- cysticercus cellulosae = infective stage of T. solium -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q012  # -- ingesting T. saginata eggs -> none of above (man not IH) -- new (CON-INF-DA646E39A54407)
+ini-mcq-ch10-q013  # -- ingesting T. solium eggs -> cysticercosis -- pending (Helwan CON-GIT-D1B1B1D6039555)
+ini-mcq-ch10-q014  # -- only operculated cestode egg = D. latum -- pending (Helwan CON-GIT-0A70FDA5910497)
+ini-mcq-ch10-q015  # -- D. latum infection via salmon fish -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q016  # -- autoinfection occurs in T. solium -- pending (Helwan CON-GIT-D1B1B1D6039555)
+ini-mcq-ch10-q017  # -- intestinal cestodes of man EXCEPT E. granulosus -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q018  # -- most common IH for E. granulosus = sheep -- pending (Helwan CON-GIT-B48F10E9444B70)
+ini-mcq-ch10-q019  # -- D. latum 2nd IH = fresh-water fish -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q020  # -- T. saginata vs T. solium gravid proglottid: lateral uterine branches -- pending (Helwan CON-GIT-C276709D1B1A64)
+ini-mcq-ch10-q021  # -- human tapeworm site: ileum/jejunum -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q022  # -- all intestinal cestodes inhabit small intestine -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q023  # -- HELD, printed key (D. latum) doubtful against stem's own "only" larval host wording -- D. latum needs 2 IH (Cyclops+fish), Dracunculus medinensis (C) is the true single-IH parasite
+ini-mcq-ch10-q024  # -- Cyclops IH of Dracunculus/D. latum/D. mansoni -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q025  # -- pig source of infection EXCEPT T. saginata (cattle) -- new (CON-INF-75A2A7934657F3)
+ini-mcq-ch10-q026  # -- pseudophyllidean cestode = D. latum -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q027  # -- hydatid cyst most frequent in liver -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q028  # -- HELD, duplicate-of ini-mcq-ch10-q011 (cysticercus cellulosae = T. solium infective stage)
+ini-mcq-ch10-q029  # -- HELD, duplicate-of ini-mcq-ch10-q009 (cysticercus bovis = T. saginata infective stage)
+ini-mcq-ch10-q030  # -- cysticercosis via ingestion of T. solium eggs -- pending (Helwan CON-GIT-D1B1B1D6039555)
+ini-mcq-ch10-q031  # -- T. saginata transmission: beef + cysticercus bovis -- pending (Helwan CON-GIT-1A541E03119F0D)
+ini-mcq-ch10-q032  # -- head of tapeworm = scolex -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q033  # -- hydatid disease caused by E. granulosus -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q034  # -- cestodes are segmented worms -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q035  # -- fish-eating mammals (dogs) reservoir host of D. latum -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q036  # -- man acts as IH in T. solium & H. nana (both a&c) -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q037  # -- E. granulosus definitive host = dog -- pending (Helwan CON-GIT-B48F10E9444B70)
+ini-mcq-ch10-q038  # -- T. saginata IH = cattle -- new (CON-INF-DA646E39A54407)
+ini-mcq-ch10-q039  # -- T. solium IH = pig -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q040  # -- T. saginata infective stage = cysticercus bovis -- pending (Helwan CON-GIT-1A541E03119F0D)
+ini-mcq-ch10-q041  # -- T. solium infective stage = cysticercus cellulosae -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q042  # -- T. solium transmission: pork + cysticercus cellulosae -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q043  # -- smallest intestinal cestode = H. nana -- pending (Helwan CON-GIT-57162B053DCECE)
+ini-mcq-ch10-q044  # -- cestode infection common in children = H. nana -- pending (Helwan CON-GIT-57162B053DCECE)
+ini-mcq-ch10-q045  # -- Cyclops = 1st IH of D. latum -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q046  # -- man acts as IH in tissue cestode -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q047  # -- D. latum egg hatches -> coracidium larva -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q048  # -- undercooked fish + plerocercoid = D. latum -- pending (Helwan CON-GIT-654FD5B81C47FB)
+ini-mcq-ch10-q049  # -- hydatid cyst infection via egg ingestion -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q050  # -- man acts as IH & DH in T. solium -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q051  # -- man acts as blind IH in E. granulosus -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q052  # -- T. solium infection via raw pork -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q053  # -- sparganosis = D. mansoni plerocercoid tissue infection -- new (CON-INF-77A8EED2BAE029)
+ini-mcq-ch10-q054  # -- taeniasis solium via cysticercus cellulosae -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q055  # -- cestode not needing IH = H. nana -- pending (Helwan CON-GIT-2FCF45AE17574F)
+ini-mcq-ch10-q056  # -- HELD, duplicate-of ini-mcq-ch10-q052 (T. solium raw pork infection, identical stem/options/key)
+ini-mcq-ch10-q057  # -- HELD, duplicate-of ini-mcq-ch10-q049, key conflict (both print A "eating cyst in raw meat" against the textbook-correct, already-authored B "egg ingestion")
+ini-mcq-ch10-q058  # -- platyhelminths needing 1 IH EXCEPT D. latum (needs 2) -- new (CON-INF-75A2A7934657F3)
+ini-mcq-ch10-q059  # -- HELD, printed key (D. latum, salt-water fish) conflicts with this module's own authored Q19 fact (D. latum's 2nd IH is fresh-water fish)
+ini-mcq-ch10-q060  # -- HELD, duplicate-of ini-mcq-ch10-q005 (Taenia saginata Cyclophyllidae, identical stem/options/key)
+ini-mcq-ch10-q061  # -- HELD, duplicate-of ini-mcq-ch10-q006 (Helwan pending), H. nana commonest cestode = autoinfection
+ini-mcq-ch10-q062  # -- HELD, duplicate-of ini-mcq-ch10-q007 (T. saginata scolex except hooks, identical stem/options/key)
+ini-mcq-ch10-q063  # -- HELD, duplicate-of ini-mcq-ch10-q008 (Helwan pending), egg infective stage of H. nana
+ini-mcq-ch10-q064  # -- HELD, duplicate-of ini-mcq-ch10-q009 (Helwan pending), cysticercus bovis = T. saginata infective stage
+ini-mcq-ch10-q065  # -- HELD, duplicate-of ini-mcq-ch10-q010, key conflict (this occurrence prints D "None of the above" vs Q10's correct C "Dipylidium caninum")
+ini-mcq-ch10-q066  # -- HELD, duplicate-of ini-mcq-ch10-q011 (cysticercus cellulosae = T. solium, identical stem/options/key)
+ini-mcq-ch10-q067  # -- HELD, duplicate-of ini-mcq-ch10-q012, key conflict (this occurrence prints A "infection with adult worm" vs Q12's correct D "none of the above")
+ini-mcq-ch10-q068  # -- HELD, duplicate-of ini-mcq-ch10-q013 (Helwan pending), ingesting T. solium eggs -> cysticercosis
+ini-mcq-ch10-q069  # -- HELD, duplicate-of ini-mcq-ch10-q014 (Helwan pending), only operculated cestode egg = D. latum
+ini-mcq-ch10-q070  # -- HELD, duplicate-of ini-mcq-ch10-q015 (D. latum infection via salmon fish, identical stem/options/key)
+ini-mcq-ch10-q071  # -- HELD, duplicate-of ini-mcq-ch10-q016 (Helwan pending), autoinfection occurs in T. solium
+ini-mcq-ch10-q072  # -- HELD, duplicate-of ini-mcq-ch10-q017 (intestinal cestodes except E. granulosus, identical stem/options/key)
+ini-mcq-ch10-q073  # -- HELD, duplicate-of ini-mcq-ch10-q022 (all intestinal cestodes inhabit small intestine, identical stem/options/key)
+ini-mcq-ch10-q074  # -- cestodes not transmitted by insects EXCEPT D. latum (fish, no arthropod) -- new (CON-INF-BAF8F514F8DF0E)
+ini-mcq-ch10-q075  # -- HELD, duplicate-of ini-mcq-ch10-q055 (Helwan pending), cestode not needing IH = H. nana
+ini-mcq-ch10-q076  # -- HELD, printed key (B, Trichinella spiralis) conflicts with the fact that Trichinella IS meat-borne; H. nana (D) is the genuine non-meat exception
+ini-mcq-ch10-q077  # -- suckers = organs of fixation in trematodes and some cestodes -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q078  # -- cysticercosis EXCEPT pork+cysticercus cellulosae (causes taeniasis, not cysticercosis) -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q079  # -- HELD, source prints only 3 options (Procercoid/Plerocercoid/Mature egg), short of 4-option floor
+ini-mcq-ch10-q080  # -- HELD, source prints only 3 options (T. solium/D. latum/H. diminuta), short of 4-option floor
+ini-mcq-ch10-q081  # -- HELD, source prints only 3 options (Dog flea/Rat flea/Soft tick), short of 4-option floor
+ini-mcq-ch10-q082  # -- HELD, printed key (B, Muscles) doubtful against stem's own "MOST IMPORTANT site" wording (standard teaching: muscle = most common, CNS = most important)
+ini-mcq-ch10-q083  # -- HELD, source prints only 3 options (Rodents/Canines/Sheep), short of 4-option floor; also near-dup of ini-mcq-ch10-q037 (Helwan pending)
+ini-mcq-ch10-q084  # -- cestodes characterized by hermaphroditism -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q085  # -- HELD, source prints only 3 options (Cysticercus/Plerocercoid/Cysticercoid), short of 4-option floor
+ini-mcq-ch10-q086  # -- HELD, duplicate-of ini-mcq-ch10-q053 (sparganosis = D. mansoni plerocercoid, near-verbatim restatement)
+# AUN-INI-105 -- Chapter 6 "General virology" triage keys (source: INI MCQ .pdf,
+# pp.63-77, 102 items, answer table p.77). Key format ini-mcq-ch6-qNNN (chapter-6-scoped).
+# This lane (author6) authored Q1-58 of 102, a self-contained "virus structure,
+# classification and genetics" run ending at Q58's exaltation item -- Q59 pivots
+# into retrovirus-replication-cycle specifics (penetration, uncoating, viral-DNA
+# replication site, antibody-mediated virus neutralization), the natural hand-off
+# point for the next lane (author7). STOP POINT FOR NEXT LANE: resume at Q59
+# ("Regarding the replication cycle of retrovirus, which sentence is wrong?"),
+# p.71. Q60-102 (44 more items) remain untriaged at per-question level; the
+# chapter's 100%-keyable-by-printed-table status (coverage/AUN-INI-105-triage.md)
+# holds for the whole chapter, confirmed by this lane's own read through the p.77
+# answer table.
+ini-mcq-ch6-q001  # -- antigenic drift caused by mutation -- new (mint)
+ini-mcq-ch6-q002  # -- naked virus = nucleocapsid only, no envelope -- new (mint)
+ini-mcq-ch6-q003  # -- Parvoviridae is the ssDNA exception among dsDNA families -- new (mint)
+ini-mcq-ch6-q004  # -- DNA viruses replicate in nucleus, RNA viruses in cytoplasm -- new (mint)
+ini-mcq-ch6-q005  # -- enveloped virus exit = budding or exocytosis -- pending (ASU-INF CON-INF-7952070C4BD8AF)
+ini-mcq-ch6-q006  # -- fungal cell membrane contains ergosterol -- new (mint)
+ini-mcq-ch6-q007  # -- opportunistic fungal infection risk factors EXCEPT anaerobic wound -- new (mint)
+ini-mcq-ch6-q008  # -- latent viral infection: occult, reactivating form -- pending (ASU-INF CON-INF-4EC402ABB55946)
+ini-mcq-ch6-q009  # -- first line of defense = type I interferon -- pending (ASU-IMM CON-IMM-E92EE28916590A)
+ini-mcq-ch6-q010  # -- protein particles which infect = prions -- new (mint)
+ini-mcq-ch6-q011  # -- herpesvirus: icosahedral, enveloped, dsDNA -- new (mint)
+ini-mcq-ch6-q012  # -- bacteriophage = virus parasitizing bacteria -- new (mint)
+ini-mcq-ch6-q013  # -- virus contains DNA or RNA -- new (mint)
+ini-mcq-ch6-q014  # -- poxvirus = largest virus -- new (mint)
+ini-mcq-ch6-q015  # -- parvovirus = smallest virus -- new (mint)
+ini-mcq-ch6-q016  # -- virion = extracellular infectious particle -- live (CON-INF-BBB25C0749A8D4)
+ini-mcq-ch6-q017  # -- virus in bloodstream = viraemia -- pending (ASU-INF CON-INF-46988C6D071F21)
+ini-mcq-ch6-q018  # -- HIV belongs to Retroviridae -- new (mint)
+ini-mcq-ch6-q019  # -- retrovirus special feature = reverse transcriptase = RNA-directed DNA polymerase -- new (mint)
+ini-mcq-ch6-q020  # -- AIDS virus = retrovirus -- new (mint)
+ini-mcq-ch6-q021  # -- HIV blood marker = reverse transcriptase -- new (mint)
+ini-mcq-ch6-q022  # -- Paramyxovirus is the RNA exception among DNA viruses -- new (mint)
+ini-mcq-ch6-q023  # -- plaque assay quantitates infectious virus titer -- new (mint)
+ini-mcq-ch6-q024  # -- viral surface proteins protect genome from nucleases -- new (mint)
+ini-mcq-ch6-q025  # -- prion contains no detectable nucleic acid -- new (mint)
+ini-mcq-ch6-q026  # -- virus size range 20-300 nm -- new (mint)
+ini-mcq-ch6-q027  # -- viral replication requires host cell macromolecules -- new (mint)
+ini-mcq-ch6-q028  # -- capsid = protein coat surrounding nucleic acid -- pending (ASU-INF CON-INF-5544B0DB9FAF82)
+ini-mcq-ch6-q029  # -- smallpox capsid symmetry = complex -- new (mint)
+ini-mcq-ch6-q030  # -- viruses do NOT multiply by binary fission -- new (mint)
+ini-mcq-ch6-q031  # -- envelope not made of "small protein subunits" (that is capsomeres) -- new (mint)
+ini-mcq-ch6-q032  # -- HELD, only 2 printed options (Need host cell / Reproduce by binary fission)
+ini-mcq-ch6-q033  # -- viroid = circular RNA, no protein or envelope -- pending (ASU-INF CON-INF-6EE705523FD61C)
+ini-mcq-ch6-q034  # -- capsomere = individual unit of capsid -- live (CON-INF-80960EC6FD48EC)
+ini-mcq-ch6-q035  # -- capsid does NOT absorb nutrients by active transport -- new (mint)
+ini-mcq-ch6-q036  # -- enveloped-virus serotypes vary by envelope protein, not capsid protein -- new (mint)
+ini-mcq-ch6-q037  # -- prions cannot "multiply" the way viruses do -- new (mint)
+ini-mcq-ch6-q038  # -- HELD, only 2 printed options (Culture dish / Host cell)
+ini-mcq-ch6-q039  # -- capsid composed of capsomers -- live (CON-INF-80960EC6FD48EC)
+ini-mcq-ch6-q040  # -- enveloped viruses obtain envelope by budding -- pending (ASU-INF CON-INF-7952070C4BD8AF)
+ini-mcq-ch6-q041  # -- virus multiplies in living tissue -- new (mint)
+ini-mcq-ch6-q042  # -- viruses use HOST tRNA/ribosomes, not viral -- new (mint)
+ini-mcq-ch6-q043  # -- naked viruses = non-enveloped -- new (AUN mint, same concept as q002)
+ini-mcq-ch6-q044  # -- prions = protein infectious particles, no nucleic acid -- new (mint)
+ini-mcq-ch6-q045  # -- envelope structures = lipoproteins -- pending (ASU-INF CON-INF-7952070C4BD8AF)
+ini-mcq-ch6-q046  # -- genetic material in virus = DNA or RNA -- new (AUN mint, same concept as q013)
+ini-mcq-ch6-q047  # -- poxvirus has complex symmetry -- new (AUN mint, same concept as q029)
+ini-mcq-ch6-q048  # -- capsid found in all viruses -- pending (ASU-INF CON-INF-5544B0DB9FAF82)
+ini-mcq-ch6-q049  # -- prions = infectious protein particles without nucleic acid -- new (AUN mint, same concept as q010)
+ini-mcq-ch6-q050  # -- defective viruses need helper virus to replicate -- new (mint)
+ini-mcq-ch6-q051  # -- virus made of protein coat and nucleic acid -- live (CON-INF-BBB25C0749A8D4)
+ini-mcq-ch6-q052  # -- HELD, duplicate-of ini-mcq-ch6-q034
+ini-mcq-ch6-q053  # -- genetic reassortment requires segmented genome -- new (mint)
+ini-mcq-ch6-q054  # -- phenotypic masking: genome packaged in another virus's capsid -- new (mint)
+ini-mcq-ch6-q055  # -- complementation allows defective viruses to replicate -- new (AUN mint, same concept as q050)
+ini-mcq-ch6-q056  # -- conditional-lethal mutants: permissive vs restrictive conditions -- new (mint)
+ini-mcq-ch6-q057  # -- plaque-size mutants alter lysis-zone diameter -- new (AUN mint, same concept as q056)
+ini-mcq-ch6-q058  # -- exaltation: one virus enhances another's growth -- new (mint)
+
+# Lane 8 (author8) resumes chapter 6 exactly at the stop point above and closes
+# the chapter: Q59-102 (44 items, pp.71-77), keyed against the same p.77 answer
+# table lane 6 already located and read. 39 authored, 5 held (Q74/Q75/Q78 are
+# near-verbatim duplicates of Q1/Q2/Q5 -- the chapter's own recycling, flagged
+# in advance by lane 6's triage; Q97 is a near-verbatim duplicate of Q48; Q86 is
+# held for a printed-key conflict on interference/vaccines, compounded by a
+# source-side duplicate option -- options B and C both print "Recombinant
+# vaccines"). Chapter 6 ("General virology") is now fully triaged and authored
+# end to end (102/102 items keyed, 94 authored, 8 held). Chapter 6 CLOSED.
+ini-mcq-ch6-q059  # -- retrovirus RT is cytoplasmic, not nuclear -- new (mint)
+ini-mcq-ch6-q060  # -- enveloped virus penetration = fusion -- new (mint)
+ini-mcq-ch6-q061  # -- viral DNA replicates in nucleus -- reuse (own mint CON-INF-2E497D2AC72D73)
+ini-mcq-ch6-q062  # -- +ssRNA translated directly as mRNA -- new (mint)
+ini-mcq-ch6-q063  # -- antibody mechanisms EXCEPT MHC-I upregulation -- new (mint)
+ini-mcq-ch6-q064  # -- reverse transcriptase makes DNA from RNA -- reuse (own mint CON-INF-95D8FD3C7D470C)
+ini-mcq-ch6-q065  # -- enveloped virus penetration/uncoating = fusion -- new (mint, same concept as q060)
+ini-mcq-ch6-q066  # -- RNA virus assembly occurs in cytoplasm -- new (mint)
+ini-mcq-ch6-q067  # -- adsorption uses specific receptors -- new (mint)
+ini-mcq-ch6-q068  # -- genome integration leads to persistent infection -- new (mint)
+ini-mcq-ch6-q069  # -- lytic infection = host cell death + progeny release -- new (mint)
+ini-mcq-ch6-q070  # -- latent infection = occult, reactivating -- pending (ASU-INF CON-INF-4EC402ABB55946, already overlaid by lane 6)
+ini-mcq-ch6-q071  # -- cell tropism = receptor affinity -- pending (ASU-INF CON-INF-CE64E7CD7B4393, newly overlaid)
+ini-mcq-ch6-q072  # -- persistent infection excludes acute -- new (mint, same concept as q068)
+ini-mcq-ch6-q073  # -- persistence mechanisms: all of the above -- new (mint, same concept as q068)
+ini-mcq-ch6-q074  # -- HELD, duplicate-of ini-mcq-ch6-q001 (antigenic drift, identical stem/options)
+ini-mcq-ch6-q075  # -- HELD, duplicate-of ini-mcq-ch6-q002 (naked virus, identical stem/options)
+ini-mcq-ch6-q076  # -- opportunistic pathogen definition -- pending (MUST FHB-102-2 CON-INF-17893AA3303251, newly overlaid)
+ini-mcq-ch6-q077  # -- interferon is host-species-specific -- new (mint)
+ini-mcq-ch6-q078  # -- HELD, duplicate-of ini-mcq-ch6-q005 (enveloped virus exit, identical stem/options)
+ini-mcq-ch6-q079  # -- viruses may contain enzymes for replication -- new (mint)
+ini-mcq-ch6-q080  # -- virion = infective virus -- live (CON-INF-BBB25C0749A8D4)
+ini-mcq-ch6-q081  # -- viroid = naked nucleic acid molecule -- pending (ASU-INF CON-INF-6EE705523FD61C, already overlaid by lane 6)
+ini-mcq-ch6-q082  # -- negative-sense RNA uses RNA-dependent RNA polymerase -- new (mint)
+ini-mcq-ch6-q083  # -- interferons inhibit viral mRNA translation -- new (mint)
+ini-mcq-ch6-q084  # -- mRNA synthesis common to all viral infections -- new (mint)
+ini-mcq-ch6-q085  # -- eclipse period = adsorption to assembly -- new (mint)
+ini-mcq-ch6-q086  # -- HELD, printed key (D, subunit vaccines) conflicts with the fact that interference needs a live/replicating virus; source also prints options B and C both as "Recombinant vaccines"
+ini-mcq-ch6-q087  # -- envelope/non-envelope differ by lipid presence -- pending (ASU-INF CON-INF-7952070C4BD8AF, already overlaid by lane 6)
+ini-mcq-ch6-q088  # -- UV radiation targets the viral genome -- new (mint)
+ini-mcq-ch6-q089  # -- interferon mechanism = inhibits translation/transcription -- new (mint, same concept as q083)
+ini-mcq-ch6-q090  # -- Negri inclusion bodies = rabies -- pending (ASU-INF CON-INF-8989679385BD3C, newly overlaid)
+ini-mcq-ch6-q091  # -- interferon production induced by viruses -- new (mint)
+ini-mcq-ch6-q092  # -- not all viruses have an envelope (capsid is universal) -- pending (ASU-INF CON-INF-5544B0DB9FAF82, already overlaid by lane 6)
+ini-mcq-ch6-q093  # -- cell-mediated immunity clears established viral infection -- new (mint)
+ini-mcq-ch6-q094  # -- virus vs bacteria: no binary fission, smaller, obligate intracellular -- new (mint)
+ini-mcq-ch6-q095  # -- adsorption does not require ATP -- new (mint, same concept as q067)
+ini-mcq-ch6-q096  # -- negative-sense RNA virus needs +sense conversion first -- new (mint, same concept as q082)
+ini-mcq-ch6-q097  # -- HELD, duplicate-of ini-mcq-ch6-q048 (capsid universal component, near-identical stem/options)
+ini-mcq-ch6-q098  # -- protein is the universal chemical component -- new (mint)
+ini-mcq-ch6-q099  # -- defective virus lacks genes for replication -- reuse (own mint CON-INF-10B88E390F1161)
+ini-mcq-ch6-q100  # -- protein universal chemical component -- new (mint, same concept as q098)
+ini-mcq-ch6-q101  # -- viruses cannot replicate in non-living media -- reuse (own mint CON-INF-99427A317A9586)
+ini-mcq-ch6-q102  # -- transcription forms mRNA, not protein -- new (mint)
+ini-mcq-ch11-q111  # -- HELD, duplicate-of ini-mcq-ch11-q016 (Ancylostoma infection = skin penetration by larva, identical stem/options)
+ini-mcq-ch11-q112  # -- HELD, duplicate-of ini-mcq-ch11-q018 (Ancylostoma inhabits small intestine, identical stem/options)
+ini-mcq-ch11-q113  # -- HELD, duplicate-of ini-mcq-ch11-q023 (Enterobius called pin worm, identical stem/options)
+ini-mcq-ch11-q114  # -- HELD, duplicate-of ini-mcq-ch11-q026 (Enterobius does not lay eggs in intestine, identical stem/options)
+ini-mcq-ch11-q115  # -- HELD, duplicate-of ini-mcq-ch11-q032 (Hymenolepis nana larvae not in sputum, identical stem/options)
+ini-mcq-ch11-q116  # -- HELD, duplicate-of ini-mcq-ch11-q035 (Strongyloides differs from Ancylostoma, identical stem/options)
+ini-mcq-ch11-q117  # -- HELD, duplicate-of ini-mcq-ch11-q036 (Strongyloides infects by skin penetration, identical stem/options)
+ini-mcq-ch11-q118  # -- HELD, duplicate-of ini-mcq-ch11-q037 (Strongyloides larva to adult when soil favourable, identical stem/options)
+ini-mcq-ch11-q119  # -- HELD, duplicate-of ini-mcq-ch11-q042 (Trichinella from undercooked pork, identical stem/options)
+ini-mcq-ch11-q120  # -- HELD, duplicate-of ini-mcq-ch11-q043 (Trichinella infective stage = encysted larva, identical stem/options)
+ini-mcq-ch11-q121  # -- HELD, duplicate-of ini-mcq-ch11-q044 (Trichinella larvae carried to striated muscle, identical stem/options)
+ini-mcq-ch11-q122  # -- HELD, duplicate-of ini-mcq-ch11-q047 (Dracunculus habitat = subcutaneous tissue, identical stem/options)
+ini-mcq-ch11-q123  # -- HELD, duplicate-of ini-mcq-ch11-q048 (Cyclops = IH of Dracunculus, identical stem/options)
+ini-mcq-ch11-q124  # -- Trichinella is larviparous (vs Ancylostoma/Fasciola gigantica/Taenia solium, all oviparous) -- new (mint, same concept as ini-mcq-ch11-q005/q006 CON-INF-AB7240400CE546)
+ini-mcq-ch11-q125  # -- Enterobius best diagnosed by perianal cellophane tape technique -- new (CON-INF-356702409B30E8)
+ini-mcq-ch11-q126  # -- ascariasis diagnostic stages present in faeces AND sputum -- new (CON-INF-E54A1F96C21C98)
+ini-mcq-ch11-q127  # -- lymphatics = habitat of Brugia malayi -- new (CON-INF-5CD70211896361)
+ini-mcq-ch11-q128  # -- HELD, duplicate-of ini-mcq-ch11-q016 (same fact as q111/q075, Ancylostoma infection = skin penetration)
+ini-mcq-ch11-q129  # -- HELD, source prints only 3 options (Small intestine/Large intestine/Lymphatic system, D blank), short of the seed schema 4-option floor
+ini-mcq-ch11-q130  # -- HELD, duplicate-of ini-mcq-ch11-q021 (Ascaris general biology "all of the above", identical stem/options)
+ini-mcq-ch11-q131  # -- HELD, duplicate-of ini-mcq-ch11-q023 (same fact as q113, Enterobius = pin worm)
+ini-mcq-ch11-q132  # -- Ancylostoma infective stage = ensheathed filariform larva -- new (CON-INF-8392D9222C06FB; same fact as this chapter's own unauthored Q81 in lanes 10/12's Q1-110 window -- no authored anchor existed at author time, minted fresh)
+ini-mcq-ch11-q133  # -- diagnostic egg of Ancylostoma is immature/translucent -- reuse (own concept CON-INF-08359F3D33946C, same as ini-mcq-ch11-q030); NOTE: this chapter's own unauthored Q82 prints a conflicting key (Mature) for the identical stem/options -- my printed key (Immature) matches q030's already-established fact, so authored, not held
+ini-mcq-ch11-q134  # -- Enterobius infective stage = mature egg -- new (CON-INF-ACD4CFF937A846; same fact as unauthored Q83)
+ini-mcq-ch11-q135  # -- Ascaris habitat = small intestine -- new (CON-INF-7C79AF826F79E0; same fact as unauthored Q84)
+ini-mcq-ch11-q136  # -- Nematodes = round worms (class definition) -- new (CON-INF-13D403F8A0555C; same fact as unauthored Q85)
+ini-mcq-ch11-q137  # -- Enterobius = large-intestine dweller among Trichinella/Ascaris/Strongyloides -- new (CON-INF-4AA7DF14D530B1; same fact as unauthored Q86)
+ini-mcq-ch11-q138  # -- Enterobius has no lung migratory phase -- new (CON-INF-42909E86B97AB6; same fact as unauthored Q87)
+ini-mcq-ch11-q139  # -- Strongyloides = parasitic AND free-living life cycle -- new (CON-INF-24720B9C612814; same fact as unauthored Q88)
+ini-mcq-ch11-q140  # -- HELD, printed key (C, Enterobius) conflicts with this chapter's own unauthored Q89 (identical stem/options, key D=Strongyloides -- the textbook-correct answer for "internal autoinfection")
+ini-mcq-ch11-q141  # -- Trichinella diagnosed by muscle biopsy -- new (CON-INF-2E08D8909E7468; same fact as unauthored Q90)
+ini-mcq-ch11-q142  # -- Enterobius causes perianal itching -- new (CON-INF-2830C439C0D01B; same fact as unauthored Q91)
+ini-mcq-ch11-q143  # -- HELD, printed key (A, Trichinella) conflicts with this chapter's own unauthored Q92 (identical stem/options, key B=Strongyloides); genuinely ambiguous besides, since both Trichinella and Strongyloides are truly larviparous
+ini-mcq-ch11-q144  # -- Trichinella infects by ingestion of infected meat -- new (CON-INF-5EA3F5B60B18E8; same fact as unauthored Q93)
+ini-mcq-ch11-q145  # -- embryonated egg = infective stage of Ascaris AND Trichuris (both b&c) -- new (CON-INF-96B6E2144001F5)
+ini-mcq-ch11-q146  # -- Simulium = vector of Onchocerca volvulus -- new (CON-INF-12F2DCAF74A25D)
+ini-mcq-ch11-q147  # -- Cyclops = IH of Diphyllobothrium/Dracunculus, EXCEPT Trichinella (food-borne) -- new (CON-INF-96D49B675BE976)
+ini-mcq-ch11-q148  # -- HELD, duplicate-of ini-mcq-ch11-q031 (cutaneous larva migrans = Ancylostoma caninum, identical stem/options)
+ini-mcq-ch11-q149  # -- HELD, duplicate-of ini-mcq-ch11-q033 (visceral larva migrans = dog/cat Ascaris eggs, identical stem/options)
+ini-mcq-ch11-q150  # -- HELD, printed key (A, thoracic muscles) conflicts with this chapter's own ini-mcq-ch11-q050 (identical stem/options, key B=labium -- the textbook-correct location of the transmitted infective larva)
+ini-mcq-ch11-q151  # -- HELD, duplicate-of ini-mcq-ch11-q051 (vector of W. bancrofti = culicine mosquito, identical stem/options)
+ini-mcq-ch11-q152  # -- HELD, duplicate-of ini-mcq-ch11-q052 (W. bancrofti microfilaria is sheathed, identical stem/options)
+ini-mcq-ch11-q153  # -- HELD, duplicate-of ini-mcq-ch11-q053 (W. bancrofti microfilaria differs from Loa loa, identical stem/options)
+ini-mcq-ch11-q154  # -- HELD, duplicate-of ini-mcq-ch11-q055 (adult W. bancrofti worms in lymph nodes, identical stem/options)
+ini-mcq-ch11-q155  # -- Onchocerca volvulus called "blinding worm" -- new (CON-INF-6F777752D8D501; same fact as unauthored Q57)
+ini-mcq-ch11-q156  # -- HELD, printed key (A, Blood) conflicts with this chapter's own unauthored Q58 (identical stem/options, key C=Subcutaneous -- the textbook-correct site of Onchocerca microfilariae)
+ini-mcq-ch11-q157  # -- Onchocerca volvulus transmitted by Simulium -- new (mint, same concept as ini-mcq-ch11-q146 CON-INF-12F2DCAF74A25D; reversed framing of same fact as unauthored Q59)
+ini-mcq-ch11-q158  # -- river blindness = Onchocerca volvulus -- new (CON-INF-B8F6E7D671C911; same fact as unauthored Q60)
+ini-mcq-ch11-q159  # -- elephantiasis = Wuchereria bancrofti -- new (CON-INF-23EA01CFB4D6C1; different option set from this chapter's own unauthored Q99, no conflict)
+ini-mcq-ch11-q160  # -- Loa loa = African eye worm -- new (CON-INF-716ECD215F32FB; same fact as unauthored Q64)
+ini-mcq-ch11-q161  # -- creeping eruption = non-human hookworm larvae -- reuse (Ain-Shams pending concept CON-INF-C5B97ED116A7D4, already overlaid by lane 10 for its own ini-mcq-ch11-q031)
+ini-mcq-ch11-q162  # -- bare-footed soil infection EXCEPT Schistosoma (water-transmitted) -- new (CON-INF-164C9D4030DB90; same fact as unauthored Q97)
+ini-mcq-ch11-q163  # -- elephantiasis diagnosed by microfilaria in blood -- new (CON-INF-070AC9CFD60DE2; same fact as unauthored Q100)
+ini-mcq-ch11-q164  # -- Loa loa vector = Chrysops/mango fly -- new (CON-INF-145E1F440A3814; same fact as unauthored Q101)
+
+# --- Chapter 9 "Trematodes" continued, Q22-98 of 98 (lane 11; Q1-21 keys
+# are listed in the Chapter 9 block above) ---
+ini-mcq-ch9-q022  # -- HELD, duplicate-of ini-mcq-ch9-q001 (mutualism = symbiosis, both benefit)
+ini-mcq-ch9-q023  # -- HELD, duplicate-of ini-mcq-ch9-q005 (opportunistic parasite)
+ini-mcq-ch9-q024  # -- HELD, duplicate-of ini-mcq-ch9-q004 (spurious = coprozoic)
+ini-mcq-ch9-q025  # -- HELD, duplicate-of ini-mcq-ch9-q006 (definitive host = adult stage)
+ini-mcq-ch9-q026  # -- HELD, duplicate-of ini-mcq-ch9-q007 (reservoir host)
+ini-mcq-ch9-q027  # -- Schistosoma has separate sexes -- new (mint)
+ini-mcq-ch9-q028  # -- Fasciola inhabits large bile ducts -- new (mint)
+ini-mcq-ch9-q029  # -- Fasciola transmission = ingestion of metacercaria on plants -- new (mint)
+ini-mcq-ch9-q030  # -- Heterophyes heterophyes = smallest human trematode -- new (mint)
+ini-mcq-ch9-q031  # -- HELD, duplicate-of ini-mcq-ch9-q014 (main pathology agent = eggs)
+ini-mcq-ch9-q032  # -- Biomphalaria = S. mansoni snail host -- new (mint)
+ini-mcq-ch9-q033  # -- Bulinus = S. haematobium snail host -- new (mint)
+ini-mcq-ch9-q034  # -- Lymnaea = Fasciola snail host -- new (mint)
+ini-mcq-ch9-q035  # -- S. mansoni egg has lateral spine -- new (mint)
+ini-mcq-ch9-q036  # -- trematodes = leaf-shaped worms -- new (mint)
+ini-mcq-ch9-q037  # -- Heterophyes heterophyes inhabits small intestine -- new (mint)
+ini-mcq-ch9-q038  # -- Schistosoma transmission = skin penetration by furcocercous cercaria -- new (mint)
+ini-mcq-ch9-q039  # -- HELD, printed key contradicts near-identical Q38's own correct key (transmission route)
+ini-mcq-ch9-q040  # -- Pirenella conica = Heterophyes heterophyes host -- new (mint)
+ini-mcq-ch9-q041  # -- HELD, printed key (furcocercous) contradicts this bank's own Q48/Q73 and a pending Helwan concept (Fasciola's cercaria is leptocercous)
+ini-mcq-ch9-q042  # -- HELD, 3-option floor (egg spine, otherwise consistent with Q35)
+ini-mcq-ch9-q043  # -- HELD, 3-option floor (egg spine, otherwise consistent with Q35)
+ini-mcq-ch9-q044  # -- HELD, 3-option floor (Schistosoma has no redia stage)
+ini-mcq-ch9-q045  # -- diagnostic stage of S. haematobium = egg -- new (mint)
+ini-mcq-ch9-q046  # -- Fasciola infective stage = encysted metacercaria -- new (mint)
+ini-mcq-ch9-q047  # -- heteroxenous parasite = needs >1 host -- new (mint)
+ini-mcq-ch9-q048  # -- leptocercous = simple-tailed cercaria -- new (mint)
+ini-mcq-ch9-q049  # -- HELD, duplicate-of ini-mcq-ch8-q011 (paratenic host)
+ini-mcq-ch9-q050  # -- miracidium infective for the snail -- new (mint)
+ini-mcq-ch9-q051  # -- opportunistic parasite, fuller definition -- pending (MUST CON-INF-C79E84EB999C31, already overlaid)
+ini-mcq-ch9-q052  # -- Trematoda needs mollusc intermediate host -- new (mint)
+ini-mcq-ch9-q053  # -- Fasciola gigantica habitat = large bile ducts -- reuse (own mint, same concept as q028)
+ini-mcq-ch9-q054  # -- Heterophyes heterophyes has a genital sucker -- new (mint)
+ini-mcq-ch9-q055  # -- S. haematobium lacks significant reservoir hosts -- new (mint)
+ini-mcq-ch9-q056  # -- HELD, duplicate-of ini-mcq-ch8-q006 (erratic parasite)
+ini-mcq-ch9-q057  # -- HELD, 3-option floor (Schistosoma cercaria infective)
+ini-mcq-ch9-q058  # -- HELD, 3-option floor + duplicate-of ini-mcq-ch9-q046 (Fasciola infective stage)
+ini-mcq-ch9-q059  # -- HELD, 3-option floor + duplicate-of ini-mcq-ch9-q045 (diagnostic stage)
+ini-mcq-ch9-q060  # -- Schistosoma = hermaphroditism EXCEPT -- reuse (own mint, same concept as q027)
+ini-mcq-ch9-q061  # -- HELD, duplicate-of ini-mcq-ch9-q006 (definitive host = adult stage)
+ini-mcq-ch9-q062  # -- monoxenous parasite = needs 1 host -- new (mint)
+ini-mcq-ch9-q063  # -- HELD, duplicate-of ini-mcq-ch9-q014 (main pathology agent = eggs)
+ini-mcq-ch9-q064  # -- HELD, duplicate-of ini-mcq-ch9-q033 (Bulinus = S. haematobium host); blank option E
+ini-mcq-ch9-q065  # -- HELD, duplicate-of ini-mcq-ch9-q012 (operculate eggs EXCEPT Schistosoma)
+ini-mcq-ch9-q066  # -- HELD, duplicate-of ini-mcq-ch9-q050 (miracidium); garbled option A
+ini-mcq-ch9-q067  # -- mature eggs drive schistosomiasis pathology -- new (mint)
+ini-mcq-ch9-q068  # -- HELD, duplicate-of ini-mcq-ch9-q053 (Fasciola gigantica habitat)
+ini-mcq-ch9-q069  # -- HELD, duplicate-of ini-mcq-ch9-q060 (hermaphroditism EXCEPT)
+ini-mcq-ch9-q070  # -- HELD, source-side option-text defect (species name split across A/B)
+ini-mcq-ch9-q071  # -- Fasciola gigantica = small-intestine EXCEPT -- reuse (own mint, same concept as q028)
+ini-mcq-ch9-q072  # -- Heterophyes reservoir hosts = fish-eating animals -- new (mint)
+ini-mcq-ch9-q073  # -- Schistosoma infective stage = furcocercous cercaria -- reuse (own mint, same concept as q038)
+ini-mcq-ch9-q074  # -- S. haematobium habitat = urinary bladder venules -- new (mint)
+ini-mcq-ch9-q075  # -- HELD, duplicate-of ini-mcq-ch9-q046 (Fasciola infective stage) + 3-option floor
+ini-mcq-ch9-q076  # -- HELD, 3-option floor (Lymnaea cailliaudi snail host)
+ini-mcq-ch9-q077  # -- trematode attachment organs = suckers -- new (mint)
+ini-mcq-ch9-q078  # -- HELD, duplicate-of ini-mcq-ch9-q027 (Schistosoma separate sexes)
+ini-mcq-ch9-q079  # -- HELD, source-side incomplete/truncated stem
+ini-mcq-ch9-q080  # -- HELD, duplicate-of ini-mcq-ch9-q029 (Fasciola transmission)
+ini-mcq-ch9-q081  # -- HELD, duplicate-of ini-mcq-ch9-q030 (smallest trematode)
+ini-mcq-ch9-q082  # -- HELD, duplicate-of ini-mcq-ch9-q014 (main pathology agent = eggs)
+ini-mcq-ch9-q083  # -- HELD, duplicate-of ini-mcq-ch9-q032 (Biomphalaria host)
+ini-mcq-ch9-q084  # -- HELD, duplicate-of ini-mcq-ch9-q033 (Bulinus host)
+ini-mcq-ch9-q085  # -- HELD, duplicate-of ini-mcq-ch9-q034 (Lymnaea host)
+ini-mcq-ch9-q086  # -- HELD, duplicate-of ini-mcq-ch9-q036 (leaf-shaped worms)
+ini-mcq-ch9-q087  # -- HELD, duplicate-of ini-mcq-ch9-q037 (Heterophyes small intestine)
+ini-mcq-ch9-q088  # -- HELD, duplicate-of ini-mcq-ch9-q040 (Pirenella host)
+ini-mcq-ch9-q089  # -- HELD, duplicate-of ini-mcq-ch9-q044 (no redia stage) + 3-option floor
+ini-mcq-ch9-q090  # -- HELD, duplicate-of ini-mcq-ch9-q045 (diagnostic stage)
+ini-mcq-ch9-q091  # -- HELD, duplicate-of ini-mcq-ch9-q046 (infective stage)
+ini-mcq-ch9-q092  # -- Schistosoma inhabits portal vein -- new (mint)
+ini-mcq-ch9-q093  # -- HELD, duplicate-of ini-mcq-ch9-q034 (Lymnaea host)
+ini-mcq-ch9-q094  # -- HELD, printed key contradicts this pass's own correctly-keyed Q32 (S. mansoni snail host)
+ini-mcq-ch9-q095  # -- HELD, printed key contradicts this pass's own correctly-keyed Q33 (S. haematobium snail host)
+ini-mcq-ch9-q096  # -- HELD, duplicate-of ini-mcq-ch9-q050 (miracidium)
+ini-mcq-ch9-q097  # -- S. mansoni deposits eggs in large-intestinal venules -- new (mint)
+ini-mcq-ch9-q098  # -- S. haematobium deposits eggs in bladder venules -- reuse (own mint, same concept as q074)
+
+# Chapter 11 "Nematoda" (pp.112-130, 164 items, answer table wraps
+# pp.131-132; lane author10). Q1-Q56 window read and keyed against the
+# printed table; 0 held (no printed-key conflicts, no ambiguous EXCEPT, no
+# schema-floor holds, no near-verbatim duplicates in this window). STOP
+# POINT for the next lane: resume at Q57 (Onchocerca volvulus cluster
+# begins -- "Onchocerca volvulus is called?").
+ini-mcq-ch11-q001  # -- adult Ascaris sometimes found in faeces -- pending (Helwan CON-GIT-A2A06601B4D8A4)
+ini-mcq-ch11-q002  # -- Heterophyes heterophyes distribution restricted, not cosmopolitan -- new
+ini-mcq-ch11-q003  # -- Enterobius causes nocturnal enuresis -- pending (Helwan CON-GIT-45DA03F58B4D64)
+ini-mcq-ch11-q004  # -- hydatid disease not characteristically a childhood parasite -- new
+ini-mcq-ch11-q005  # -- Trichinella spiralis viviparous exception -- new
+ini-mcq-ch11-q006  # -- Oxyuris (Enterobius) oviparous exception -- new
+ini-mcq-ch11-q007  # -- Ascaris/hookworm/Strongyloides migrate through lung -- pending (Helwan CON-GIT-C4679409F59219)
+ini-mcq-ch11-q008  # -- Trichuris does not inhabit small intestine -- pending (Helwan CON-GIT-4E44AA38D16CB4)
+ini-mcq-ch11-q009  # -- guinea worm does not inhabit caecum -- new
+ini-mcq-ch11-q010  # -- trichuriasis complicated by rectal prolapse -- pending (Helwan CON-GIT-5DEAC87AB891C0)
+ini-mcq-ch11-q011  # -- Enterobius eggs hatch in duodenum -- new
+ini-mcq-ch11-q012  # -- Enterobius has no cycle outside the body -- new
+ini-mcq-ch11-q013  # -- Ascaris eggs hatch in small intestine -- new
+ini-mcq-ch11-q014  # -- Trichuris trichiura belongs to Nematoda -- new
+ini-mcq-ch11-q015  # -- Dipylidium caninum is not a nematode (cestode) -- new
+ini-mcq-ch11-q016  # -- Ancylostoma infects by skin penetration -- pending (Helwan CON-GIT-BF9B52E4E0D9D6)
+ini-mcq-ch11-q017  # -- Trichostrongylus does not enter through skin -- new
+ini-mcq-ch11-q018  # -- Ancylostoma duodenale inhabits small intestine -- new
+ini-mcq-ch11-q019  # -- Ancylostoma filariform larva is sheathed -- new
+ini-mcq-ch11-q020  # -- Ascaris pneumonitis: dyspnea/cough/eosinophilia -- pending (Helwan CON-GIT-C4679409F59219, 2nd use)
+ini-mcq-ch11-q021  # -- Ascaris lumbricoides general biology (egg maturation/giant/migratory) -- new
+ini-mcq-ch11-q022  # -- fertilized Ascaris egg immature when passed -- new
+ini-mcq-ch11-q023  # -- Enterobius vermicularis is called pin worm -- new
+ini-mcq-ch11-q024  # -- Trichuris trichiura inhabits caecum -- pending (Helwan CON-GIT-652CB5E7405E53)
+ini-mcq-ch11-q025  # -- Trichuris egg barrel-shaped/brownish/immature -- new
+ini-mcq-ch11-q026  # -- Enterobius does not lay eggs in the intestine -- new
+ini-mcq-ch11-q027  # -- Necator americanus belongs to Nematoda -- new
+ini-mcq-ch11-q028  # -- Ancylostoma vs Necator differ in geographical distribution -- new
+ini-mcq-ch11-q029  # -- Ancylostoma eggs pass immature in faeces -- new
+ini-mcq-ch11-q030  # -- Ancylostoma egg thin-shelled/translucent/immature -- new
+ini-mcq-ch11-q031  # -- cutaneous larva migrans caused by Ancylostoma caninum -- pending (Ain-Shams CON-INF-C5B97ED116A7D4)
+ini-mcq-ch11-q032  # -- Hymenolepis nana larvae not found in sputum -- new
+ini-mcq-ch11-q033  # -- visceral larva migrans due to Toxocara (dog/cat ascarid) -- new
+ini-mcq-ch11-q034  # -- Strongyloides stercoralis named dwarf thread worm -- new
+ini-mcq-ch11-q035  # -- Strongyloides differs from Ancylostoma (autoinfection/rhabditiform/free-living) -- new
+ini-mcq-ch11-q036  # -- Strongyloides infects by skin penetration (filariform larva) -- pending (Helwan CON-GIT-5D42E39D871090)
+ini-mcq-ch11-q037  # -- Strongyloides larva to adult under favourable soil conditions -- pending (Helwan CON-GIT-C963D99A43B1D0)
+ini-mcq-ch11-q038  # -- Trichostrongylus infects by ingestion of filariform larva -- new
+ini-mcq-ch11-q039  # -- Trichostrongylus egg differs from Ancylostoma by morula stage -- new
+ini-mcq-ch11-q040  # -- Strongyloides filariform larva differs from Ancylostoma's (unsheathed/notched/shorter) -- new
+ini-mcq-ch11-q041  # -- Strongyloides alone migrates outside the human body -- pending (Helwan CON-GIT-C963D99A43B1D0, 2nd use)
+ini-mcq-ch11-q042  # -- Trichinella spiralis acquired from undercooked pork -- new
+ini-mcq-ch11-q043  # -- Trichinella infective stage is the encysted larva -- new
+ini-mcq-ch11-q044  # -- Trichinella larvae carried to striated muscle -- new
+ini-mcq-ch11-q045  # -- Capillaria philippinensis acquired from undercooked fish -- pending (Helwan CON-GIT-663BF173017BE0)
+ini-mcq-ch11-q046  # -- Capillaria philippinensis egg peanut-shaped/immature -- new
+ini-mcq-ch11-q047  # -- Dracunculus medinensis habitat is subcutaneous tissue -- new
+ini-mcq-ch11-q048  # -- Cyclops is intermediate host of Dracunculus -- new
+ini-mcq-ch11-q049  # -- niclosamide not used for Dracunculus (anticestode drug) -- new
+ini-mcq-ch11-q050  # -- W. bancrofti infective stage: filariform larva in mosquito labium -- new
+ini-mcq-ch11-q051  # -- Culex is vector of Wuchereria bancrofti -- pending (Mansoura CON-INF-3DEFB880DFF98F)
+ini-mcq-ch11-q052  # -- W. bancrofti microfilaria sheathed/nucleus-free tip/periodic/Culex -- new
+ini-mcq-ch11-q053  # -- W. bancrofti microfilaria differs from Loa loa's -- new
+ini-mcq-ch11-q054  # -- Onchocerca volvulus microfilariae show no periodicity -- new
+ini-mcq-ch11-q055  # -- adult W. bancrofti worms live in lymph nodes -- pending (Mansoura CON-INF-3DEFB880DFF98F, 2nd use)
+ini-mcq-ch11-q056  # -- Culex transmits W. bancrofti cyclodevelopmentally -- pending (MUST CON-INF-476CFE4CB1DE34)
+ini-mcq-ch11-q057  # -- HELD, duplicate-of ini-mcq-ch11-q155 (Onchocerca volvulus is called blinding worm, identical stem/options)
+ini-mcq-ch11-q058  # -- Onchocerca volvulus microfilariae are subcutaneous -- new (reuses CON-INF-1CE00268409419)
+ini-mcq-ch11-q059  # -- HELD, duplicate-of ini-mcq-ch11-q157 (Onchocerca volvulus transmitted by Simulium, same fact)
+ini-mcq-ch11-q060  # -- HELD, duplicate-of ini-mcq-ch11-q158 (river blindness due to Onchocerca volvulus, identical stem/options)
+ini-mcq-ch11-q061  # -- adult Loa loa inhabits subcutaneous tissue -- new
+ini-mcq-ch11-q062  # -- Calabar swelling is transient, unlike Onchocerca nodule -- new
+ini-mcq-ch11-q063  # -- Ancylostoma is exception to infection by ingestion of larva -- new
+ini-mcq-ch11-q064  # -- HELD, duplicate-of ini-mcq-ch11-q160 (Loa loa is the African eye worm, identical stem/options)
+ini-mcq-ch11-q065  # -- Strongyloides diagnosed by larvae not eggs -- new (reuses CON-INF-A15A4D2A82ECD0)
+ini-mcq-ch11-q066  # -- Trichostrongylus does not invade the lung -- new (reuses CON-INF-873793A1A9183E)
+ini-mcq-ch11-q067  # -- hookworm control = wearing shoes -- new
+ini-mcq-ch11-q068  # -- W. bancrofti infects via larva in mosquito's proboscis -- new (reuses CON-INF-3C9F720722D14E)
+ini-mcq-ch11-q069  # -- Baermann's technique detects Ancylostoma larvae in soil -- new
+ini-mcq-ch11-q070  # -- HELD, duplicate-of ini-mcq-ch11-q054 (Onchocerca microfilariae not detectable in blood, same fact)
+ini-mcq-ch11-q071  # -- HELD, duplicate-of ini-mcq-ch10-q050 (man both intermediate+definitive host = Taenia solium, same fact, cross-chapter)
+ini-mcq-ch11-q072  # -- Strongyloides patients pass larvae in stool -- new (reuses CON-INF-A15A4D2A82ECD0, 2nd use)
+ini-mcq-ch11-q073  # -- nematode attachment organs are teeth or plates -- new
+ini-mcq-ch11-q074  # -- tissue nematode females are larviparous -- new (reuses CON-INF-AB7240400CE546)
+ini-mcq-ch11-q075  # -- HELD, duplicate-of ini-mcq-ch11-q016 (Ancylostoma infection = skin penetration by larva, identical stem/options)
+ini-mcq-ch11-q076  # -- HELD, duplicate-of ini-mcq-ch11-q018 (Ancylostoma inhabits small intestine, same fact)
+ini-mcq-ch11-q077  # -- HELD, duplicate-of ini-mcq-ch11-q021 (Ascaris lumbricoides general biology, all of the above)
+ini-mcq-ch11-q078  # -- HELD, duplicate-of ini-mcq-ch11-q023 (Enterobius called pin worm, identical stem/options)
+ini-mcq-ch11-q079  # -- HELD, duplicate-of ini-mcq-ch11-q142 (Enterobius causes perianal pruritus/nocturnal pruritus ani, same fact)
+ini-mcq-ch11-q080  # -- Enterobius never transmitted by skin penetration -- new
+ini-mcq-ch11-q081  # -- HELD, duplicate-of ini-mcq-ch11-q132 (infective stage of Ancylostoma = ensheathed filariform larva, identical stem/options)
+ini-mcq-ch11-q082  # -- HELD, printed key conflicts with sibling ini-mcq-ch11-q133 (Ancylostoma diagnostic egg immature vs mature, identical stem/options)
+ini-mcq-ch11-q083  # -- HELD, duplicate-of ini-mcq-ch11-q134 (Enterobius infective stage = mature egg, identical stem/options)
+ini-mcq-ch11-q084  # -- HELD, duplicate-of ini-mcq-ch11-q135 (habitat of Ascaris = small intestine, identical stem/options)
+ini-mcq-ch11-q085  # -- HELD, duplicate-of ini-mcq-ch11-q136 (Nematodes are round worms, identical stem/options)
+ini-mcq-ch11-q086  # -- HELD, duplicate-of ini-mcq-ch11-q137 (Enterobius inhabits the large intestine, identical stem/options)
+ini-mcq-ch11-q087  # -- HELD, duplicate-of ini-mcq-ch11-q138 (Enterobius has no migratory phase to the lung, identical stem/options)
+ini-mcq-ch11-q088  # -- HELD, duplicate-of ini-mcq-ch11-q139 (Strongyloides lives both parasitic and free-living life, identical stem/options)
+ini-mcq-ch11-q089  # -- HELD, printed key conflicts with sibling ini-mcq-ch11-q140 (internal autoinfection = Strongyloides vs Enterobius, identical stem/options)
+ini-mcq-ch11-q090  # -- HELD, duplicate-of ini-mcq-ch11-q141 (muscle biopsy diagnoses Trichinella spiralis, identical stem/options)
+ini-mcq-ch11-q091  # -- HELD, duplicate-of ini-mcq-ch11-q142 (Enterobius causes perianal itching, identical stem/options)
+ini-mcq-ch11-q092  # -- HELD, printed key conflicts with sibling ini-mcq-ch11-q143 (lay live larva = Strongyloides vs Trichinella, identical stem/options, also genuinely ambiguous)
+ini-mcq-ch11-q093  # -- HELD, duplicate-of ini-mcq-ch11-q144 (Trichinella enters host by ingestion of infected food, identical stem/options)
+ini-mcq-ch11-q094  # -- HELD, duplicate-of ini-mcq-ch11-q158 (river blindness = Onchocerca volvulus, same fact, 3rd occurrence)
+ini-mcq-ch11-q095  # -- HELD, duplicate-of ini-mcq-ch11-q146 (Simulium is vector of Onchocerca volvulus, same fact, 4th occurrence)
+ini-mcq-ch11-q096  # -- HELD, duplicate-of ini-mcq-ch11-q028 (Ancylostoma differs from Necator in geographical distribution, identical stem/options)
+ini-mcq-ch11-q097  # -- HELD, duplicate-of ini-mcq-ch11-q162 (man infected walking bare footed EXCEPT Schistosoma, identical stem/options)
+ini-mcq-ch11-q098  # -- W. bancrofti overview: vector/infective stage/clinical picture/diagnosis -- new
+ini-mcq-ch11-q099  # -- HELD, duplicate-of ini-mcq-ch11-q159 (elephantiasis caused by W. bancrofti, same fact)
+ini-mcq-ch11-q100  # -- HELD, duplicate-of ini-mcq-ch11-q163 (elephantiasis diagnosed by microfilaria in blood, same fact plus one distractor)
+ini-mcq-ch11-q101  # -- HELD, duplicate-of ini-mcq-ch11-q164 (arthropod vector of Loa loa = mango fly, identical stem/options)
+ini-mcq-ch11-q102  # -- retrofection (Enterobius) vs internal autoinfection (Strongyloides) -- new
+ini-mcq-ch11-q103  # -- man is also a blind host in trichiniasis -- new (reuses ch10's CON-INF-C5335C8176B1C6)
+ini-mcq-ch11-q104  # -- rats are definitive host for H. nana, H. diminuta and Trichinella -- new
+ini-mcq-ch11-q105  # -- HELD, printed 'ONLY larval host' key doubtful (same wording trap as ini-mcq-ch10-q023)
+ini-mcq-ch11-q106  # -- Taenia saginata eggs not infective to man -- new
+ini-mcq-ch11-q107  # -- HELD, duplicate-of ini-mcq-ch11-q003 (Enterobius causes nocturnal enuresis, identical stem/options)
+ini-mcq-ch11-q108  # -- HELD, duplicate-of ini-mcq-ch11-q005 (parasites oviparous EXCEPT Trichinella, identical stem/options)
+ini-mcq-ch11-q109  # -- HELD, duplicate-of ini-mcq-ch11-q008 (nematodes inhabit small intestine EXCEPT Trichuris, identical stem/options)
+ini-mcq-ch11-q110  # -- Cyclops is intermediate host for Dracunculus and both Diphyllobothrium species -- new (reuses ch11c's CON-INF-96D49B675BE976)

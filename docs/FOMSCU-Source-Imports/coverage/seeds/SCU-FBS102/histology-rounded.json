@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-rounded",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'histology-rounded'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": ["ART-SCU-FBS102-HIS-SMOOTH-MUSCLE-CYTOLOGY"],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Muscle Tissue > Smooth Muscle"
+  },
+  "questions": [
+    {
+      "key": "histology-rounded",
+      "id": "QST-SCUFBS102-S2-HISTOLOGY-ROUNDED",
+      "title": "Smooth muscle nucleus shape in transverse section",
+      "question": "What is the exact typical shape of the nucleus when viewing a transverse section of a smooth muscle fiber?",
+      "options": {
+        "A": "An irregular, jagged shape",
+        "B": "A true oval shape, unchanged from the fibre's own outline",
+        "C": "A flattened, compressed shape",
+        "D": "Rounded"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A smooth muscle fibre's nucleus is a single, smoothly-contoured, cigar-shaped structure — it has no irregular or jagged outline in either plane of section.",
+        "B": "Incorrect. The nucleus's true, oval-to-elongated outline is seen in a longitudinal section, which runs along the fibre's long axis. A transverse section cuts across that same axis instead, so the outline seen there is not the fibre's (or nucleus's) true longitudinal shape.",
+        "C": "Incorrect. Flattening is not how a transverse cut through a spindle-shaped cell and its central nucleus appears; a cross-cut through a round-in-cross-section fibre and its central nucleus produces a round profile, not a flattened one.",
+        "D": "Correct. A smooth muscle fibre is spindle-shaped with one central, cigar-shaped nucleus. Because the fibre is narrow, a transverse (cross) section cuts straight across it and catches the nucleus end-on, so both the fibre's outline and the nucleus appear rounded — the same central nucleus that looks elongated in a longitudinal section, seen from the other direction."
+      },
+      "topic": "Histology",
+      "subtopic": "Muscle tissue: smooth muscle",
+      "main_concept": "CON-FND-056E29C05028D2",
+      "concept_ids": ["CON-FND-056E29C05028D2"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "cognitive_effort_score": 0.3,
+      "reasoning_level": 2,
+      "inferred_difficulty": 55,
+      "exam_relevance": 3,
+      "clinical_relevance": 0.15,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-SCU-FBS102-HIS-SMOOTH-MUSCLE-CYTOLOGY"],
+      "learning_objective": "State that a smooth muscle fibre's central nucleus appears rounded in transverse section and elongated in longitudinal section.",
+      "source_citation": "FOMSCU Foundation 1, Formative and Past Exams 2021 Q78 (also 2022 Q57)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative and Past Exams 2021 Q78 (also 2022 Q57); source-JSON extraction.",
+        "reclassification": "find-existing.mjs's multi-word query 'smooth muscle fiber nucleus shape transverse section' returned no existing record. A related but non-matching concept (CON-MSK-B080975D6171CF, docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md) describes the nucleus generally as 'single oval central' without the transverse-section-specific 'rounded' teaching point, so this is minted new rather than overlaid — see the sibling concept file's own field_notes."
+      }
+    }
+  ]
+}

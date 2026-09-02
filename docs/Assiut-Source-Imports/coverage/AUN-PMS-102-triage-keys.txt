@@ -1,0 +1,533 @@
+# AUN-PMS-102 -- All quizzes PMS.pdf (Moodle attempt-review export), pp.34-64
+# embryology cluster. Keys read from each question's own printed
+# "The correct answer is: <text>" line (present even when the respondent's
+# own answer was wrong -- confirmed a real key, not one respondent's marks).
+# One tested idea per line. pms-quiz-qNNN is the seed `key` used for the
+# 34-question batch authored this pass (coverage/AUN-PMS-102-triage.md).
+# Held items (key conflict / corrupted stem / duplicate options / illogical
+# except-logic / Klinefelter numeral ambiguity) and True/False items are
+# listed separately below, not as pms-quiz-qNNN (not authored).
+
+pms-quiz-q001 p34 key=C  endoderm derivative: epithelial lining of the respiratory tract -- new CON-DEV-10A1C9D550EE53
+pms-quiz-q002 p34 key=B  endoderm derivatives EXCEPT: mammary gland (ectodermal) -- new CON-DEV-10A1C9D550EE53
+pms-quiz-q003 p41 key=A  endoderm derivatives INCLUDES: parenchyma of the thyroid gland -- new CON-DEV-10A1C9D550EE53
+pms-quiz-q004 p35 key=A  head folding: notochord does NOT turn ventral -- new CON-DEV-C84C4C680EF005
+pms-quiz-q005 p35 key=B  cloacal membrane derived from both ectoderm and endoderm -- new CON-DEV-1AAC12ECDA6AE2
+pms-quiz-q006 p39 key=D  folding of the embryo occurs during the fourth week -- new CON-DEV-377B4B783E3C64
+pms-quiz-q007 p40 key=A  midgut communicates with yolk sac via the vitelline duct -- new CON-DEV-ACAFA620AE1F4B
+pms-quiz-q008 p40 key=C  primordial germ cell formation takes place in the yolk sac -- new CON-DEV-28D099E61F4987
+pms-quiz-q009 p43 key=B  CRL 5-8mm -> approximate age = 5 weeks -- new CON-DEV-DBEF1D148AC818
+pms-quiz-q010 p44 key=A  age expressed in somites during the first month -- new CON-DEV-DBEF1D148AC818
+pms-quiz-q011 p44 key=D  limb buds start to appear during the second month -- new CON-DEV-22D59FC21AC990
+pms-quiz-q012 p44 key=D  end of 4th week main external features = somites and pharyngeal arches -- new CON-DEV-22D59FC21AC990
+pms-quiz-q013 p46 key=C  fetal period = beginning of 9th week to birth -- new CON-DEV-301A217B7D1EE1
+pms-quiz-q014 p46 key=D  fetal length indicated as crown rump length -- new CON-DEV-301A217B7D1EE1
+pms-quiz-q015 p47 key=A  beginning of 3rd month, head = half of CRL -- new CON-DEV-F40CAA89DEB932
+pms-quiz-q016 p47 key=A  face becomes more human-looking during the third month -- new CON-DEV-F40CAA89DEB932
+pms-quiz-q017 p47 key=C  fetal movements felt by mother (quickening) during the fifth month -- new CON-DEV-A7557C544AB2D2
+pms-quiz-q018 p48 key=A  good chance of survival if born during/after the 7th month -- new CON-DEV-A7048F9E24C413
+pms-quiz-q019 p50 key=C  portion of placenta contributed by embryo = chorion -- new CON-DEV-2B0DB1FCC7CFB7
+pms-quiz-q020 p50 key=C  human placenta classified as haemochorial -- new CON-DEV-2B0DB1FCC7CFB7
+pms-quiz-q021 p51 key=E  incorrect statement re placenta = fetal/maternal vessels attach directly (mixing) -- new CON-DEV-7F7F621593B7ED
+pms-quiz-q022 p52 key=E  hormone maintaining corpus luteum = hCG -- new CON-DEV-C6FF6D46FE030D
+pms-quiz-q023 p53 key=C  amnion characterized by all EXCEPT derived from the endoderm -- new CON-DEV-E40CA81B70CD27
+pms-quiz-q024 p53 key=A  yolk sac disappears by the 5th month of pregnancy -- new CON-DEV-8646E4D9D5FACD
+pms-quiz-q025 p54 key=C  allantois shares in formation of the urinary bladder -- new CON-DEV-F20D8A8E49540E
+pms-quiz-q026 p54 key=B  umbilical cord contains all EXCEPT 2 umbilical veins (only 1 vein normal) -- new CON-DEV-7E2AFFEDE63022
+pms-quiz-q027 p54 key=A  placenta developed from chorion frondosum and decidua basalis -- new CON-DEV-7B275BA12CE3D9
+pms-quiz-q028 p55 key=A  blood vessels characteristic of tertiary villi -- new CON-DEV-A2E6A6AB3CDEED
+pms-quiz-q029 p55 key=A  full term placenta features EXCEPT attached at lower uterine segment (previa) -- new CON-DEV-7E4070852CA8D3
+pms-quiz-q030 p56 key=C  placenta accreta = deeply penetrating into the uterine wall -- new CON-DEV-782538AF00F48E
+pms-quiz-q031 p60 key=D  twins joined at the head = craniopagus -- new CON-DEV-F65BCDF4CBAD5D
+pms-quiz-q032 p61 key=C  teratogenic viruses = rubella, varicella, CMV (all of the above) -- new CON-DEV-DF6237EB0D4E49
+pms-quiz-q033 p62 key=B  cri du chat syndrome = partial deletion of chromosome 5 -- new CON-DEV-140D5FF96E07A2
+pms-quiz-q034 p62 key=C  prenatal diagnosis of birth defects = amniocentesis -- new CON-DEV-B988E7933351E1
+
+# HELD (key conflict / corrupted / illogical / duplicate options) -- not authored
+# p51 Quiz54-57 Q3: "4 cellular layers separating maternal/fetal blood" -- printed
+#   key (D, 3 layers) conflicts with the real 4-layer fact (option B, matches live
+#   CON-OBS-7C3A7E3650A747) -- held.
+# p55-59 Quiz54-57 Q16/Q26: "placental barrier layers EXCEPT" -- options A and C
+#   both printed as "endothelial lining of the fetal vessels" (duplicate, <4
+#   distinct options) -- held.
+# p53/p56 Quiz54-57 Q9/Q19: "amniotic fluid formation EXCEPT" -- same stem/options,
+#   two different printed correct answers (Amnioblasts vs wall of the yolk sac) --
+#   held.
+# p56 Quiz54-57 Q18: stem truncated ("contains pale watery fluid", no subject),
+#   3 options, key doesn't logically answer the stem -- held as corrupted.
+# p61/p63 Quiz58-60 Q1/Q6: "causes of birth defects EXCEPT" -- key marks "all of
+#   the above" as the exception, illogical for an EXCEPT question -- held.
+# p62-63 Quiz58-60 Q3/Q8: Klinefelter karyotype printed as "44-XXY" (standard
+#   notation is 47,XXY) -- numeral ambiguity, held pending a second source copy.
+
+# LOGGED ONLY (True/False, not SBA -- not authored)
+# p52 Quiz54-57 Q6: decidual reaction = trophoblast invasion response -- True.
+# p52 Quiz54-57 Q7: stem villi are the main-exchange region in intervillous
+#   spaces -- False (describes terminal/tertiary villi, not stem villi).
+
+# ============================================================================
+# pp.65-107 cluster (lane 2): nervous system (QUIZ21&22), general histology
+# (Quiz23, Quiz24, Quiz26, Quiz27), cardiovascular/lymphatic (QUIZ 25),
+# urinary system (Quiz28 + one on-topic item from the mixed "Quiz for organ
+# systems" interlude), genital system (Quiz29, second occurrence p104-107).
+# Same key-reading method as above. General histology (Quiz23/24/26/27)
+# reuses existing docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md
+# concepts via docs/Assiut-Source-Imports/pending-live/AUN-PMS-102-histology-
+# overlay.md (search-before-mint: general histology is saturated) rather than
+# minting new concepts. Stop point: p107 (end of Quiz29's second occurrence),
+# a clean topic boundary immediately before Quiz30 (Chromosome Theory of
+# Inheritance, p108-169) -- queued for the next AUN-PMS-102 lane.
+# ============================================================================
+
+pms-quiz-q035 p65 key=A  spinal nerve count = 31 pairs -- new CON-NEU-E98BD7E9D4CC9A
+pms-quiz-q036 p65 key=A  structural/functional unit of nervous system = neurons -- new CON-NEU-4027FFDDA9C52F
+pms-quiz-q037 p66 key=C  CNS subdivided into brain and spinal cord -- new CON-NEU-64ECDE7104294C
+pms-quiz-q038 p66 key=B  gray matter = bodies of nerve cells embedded in neuroglia -- new CON-NEU-CDF7D84493E7AA
+pms-quiz-q039 p66 key=C  nerves carrying impulses brain->body = efferent -- new CON-NEU-412B68B5906A03
+
+pms-quiz-q040 p68 key=C  epithelial cells rest on a basement membrane -- reuse CON-FND-49350AB867CB5A (101-ISK)
+pms-quiz-q041 p69 key=B  epithelial tissues have closely aggregated cells -- reuse CON-FND-49350AB867CB5A (101-ISK)
+pms-quiz-q042 p69 key=A  basement membrane function = molecular filtering -- reuse CON-FND-47743DDD3ED7A0 (101-ISK)
+pms-quiz-q043 p69 key=A  basement membrane serves = all of the above (support+attachment+barrier) -- reuse CON-FND-47743DDD3ED7A0 (101-ISK)
+pms-quiz-q044 p70 key=A  basement membrane stained with PAS reaction -- reuse CON-FND-05C930A781CE55 (101-ISK)
+# Quiz23 Q6-17 (p70-73): fill-in-the-blank, no options -- logged only, not authored.
+
+pms-quiz-q045 p75 key=D  strong intercellular adhesion needs desmosomes -- reuse CON-FND-59E3FDA20F54AD (101-ISK)
+pms-quiz-q046 p75 key=D  intercellular ionic exchange = gap junction -- reuse CON-FND-ACB35745EC9A5D (101-ISK)
+# Quiz24 Q4 (p76): "Intercellular ionic exchange is achieved by" key=D "Nexus" --
+#   duplicate-of pms-quiz-q046 (same stem/fact, synonym answer), not authored twice.
+pms-quiz-q047 p76 key=C  intercellular sealing = zonula occludens -- reuse CON-FND-2EAD7BC676C215 (101-ISK)
+# Quiz24 Q5 (p76): "Intercellular ionic exchange is achieved by" key=D "Tight
+#   junction" -- CONTRADICTS Q2 and Q4's printed key (Gap junction / Nexus) for
+#   the identical stem, and contradicts the real fact (gap junctions, not tight
+#   junctions, mediate ionic exchange). Held per the standing rule that a
+#   printed-key conflict is held, not resolved by inference.
+# Quiz24 Q6-15 (p77-79): fill-in-the-blank, no options -- logged only. (Q13
+#   duplicates Q12 verbatim.)
+
+pms-quiz-q048 p81 key=C  base of the heart formed mainly by left atrium -- new CON-CVS-686BD8735B1B39
+pms-quiz-q049 p82 key=C  arterioles = final distributing vessels, deliver oxygenated blood to capillaries -- new CON-CVS-B8931C7FD43608
+pms-quiz-q050 p82 key=B  pulmonary artery = example of anatomic end artery -- new CON-CVS-4FCE28FE696AD7
+pms-quiz-q051 p82 key=A  veins do not pulsate/spurt blood when severed -- new CON-CVS-47E2C76B40E318
+# QUIZ 25 Q5 (p83): restates Q4's stem/answer with a different option order --
+#   duplicate-of pms-quiz-q051, not authored twice.
+pms-quiz-q052 p83 key=D  lymph vessels have a beaded appearance -- new CON-CVS-A456DDC4FE9E77
+
+pms-quiz-q053 p85 key=D  simple squamous epithelium provides smooth surfaces -- reuse CON-FND-E51851DAB2DD13 (101-ISK)
+pms-quiz-q054 p85 key=C  absorptive membranes lined by columnar cells with microvilli -- reuse CON-FND-5114283D5309E5 (101-ISK)
+# Quiz26 Q3 (p86): restates Q2's stem/options/answer verbatim -- duplicate-of
+#   pms-quiz-q054, not authored twice.
+pms-quiz-q055 p86 key=C  stratified squamous epithelium: superficial layer flattened -- reuse CON-FND-8FEBD5195DCED2 (101-ISK)
+pms-quiz-q056 p86 key=A  pleura lined with simple squamous epithelium -- reuse CON-FND-E51851DAB2DD13 (101-ISK)
+# Quiz26 Q6-8 (p87): fill-in-the-blank, no options -- logged only.
+
+pms-quiz-q057 p89 key=C  simple tubular gland example = intestinal glands -- reuse CON-FND-677595D34287F6 (101-ISK)
+pms-quiz-q058 p89 key=B  glandular epithelium secreting into blood = endocrine -- reuse CON-FND-0A988681FF1ABF (101-ISK)
+pms-quiz-q059 p90 key=B  merocrine glands discharge secretion by exocytosis -- reuse CON-FND-D9E83D81037173 (101-ISK)
+pms-quiz-q060 p90 key=E  myoepithelial cell function = contractility -- reuse CON-FND-38ABCC4E4E4E68 (101-ISK)
+pms-quiz-q061 p90 key=E  epithelium naming criterion = number of cell layers -- reuse CON-FND-28D12B544C3BA3 (101-ISK)
+pms-quiz-q062 p91 key=E  release of sebum = holocrine -- reuse CON-FND-D9E83D81037173 (101-ISK)
+# Quiz27 Q7-9 (p91): fill-in-the-blank, no options -- logged only. (Q8=Q9 dup.)
+
+pms-quiz-q063 p93 key=B  kidneys extend from T12 to L3 -- new CON-REN-B1523793F26852
+pms-quiz-q064 p93 key=D  narrowest part of male urethra = membranous -- new CON-REN-50D97BAC2FE0D6
+pms-quiz-q065 p94 key=A  anterior relation of right kidney = liver -- new CON-REN-2B7CC1982D4B1E
+pms-quiz-q066 p94 key=D  urethral part surrounded by internal urethral sphincter = intramural -- new CON-REN-3995B4987178E0
+pms-quiz-q067 p94 key=A  ureters continuous superiorly with renal pelvis -- new CON-REN-C5A7E3203D2EA4
+
+# p96-98 Quiz29 (first occurrence, genital): Q1 (match/drag-drop diagram) --
+#   image-dependent, no printed options, not authored. Q2 (match testicles/
+#   epididymis/prostate/scrotum to function) -- matching format, no discrete
+#   options to select from, not authored (format-dependent, same class as
+#   lane 1's "Label the diagram" exclusions). Q3-5 -- fill-in-the-blank, no
+#   options, logged only.
+
+# p100-102 "Quiz for organ systems" (mixed-topic interlude, mislabeled under
+#   "Lecture 29: Genital system" but actually spans GI/urinary/skeletal/
+#   respiratory topics, not genital): Q1 (oesophagus), Q4 (bone ossification),
+#   Q5-6 (trachea) fall outside this dispatch's nervous/histology/urogenital/
+#   chromosome cluster -- not authored, flagged for the lane covering those
+#   systems. Q3 (kidney anatomy, on-topic) is authored below.
+pms-quiz-q068 p101 key=B  kidney anatomy: pyramids lie in the renal cortex is the INCORRECT statement (pyramids are medullary) -- new CON-REN-F9CC30F9279CD6
+
+# p104-107 Quiz29 (second occurrence, genital): Q1 duplicate-option defect --
+#   options A and D are both printed as "The infundibulum" (only 3 distinct
+#   options) -- held per LANE-CARD S2's floor rule.
+pms-quiz-q069 p105 key=B  ovary suspended by suspensory ligament of the ovary from the pelvic wall -- new CON-GYN-B9B8FC632784DB
+pms-quiz-q070 p105 key=A  testis: posterior border of tunica albuginea thickened = mediastinum testis -- new CON-AND-484A544CA03AE9
+pms-quiz-q071 p105 key=D  normal position of uterus = anteverted and anteflexed -- new CON-GYN-D6C92DF7A6CD5E
+pms-quiz-q072 p106 key=A  length of the vas deferens = 45 cm -- new CON-AND-BF59EEBCE1D05B
+
+# HELD (pp.65-107 cluster)
+# p76 Quiz24 Q5: "Intercellular ionic exchange is achieved by" key="Tight
+#   junction" -- contradicts Q2/Q4's own printed key ("Gap junction"/"Nexus")
+#   for the identical stem, and contradicts the real fact. Held (key conflict
+#   within the same source, MPT Q47 / Quiz54-57 Q9-Q19 precedent).
+# p104 Quiz29 [2nd] Q1: "The widest part of the uterine tube" -- options A and
+#   D both printed as "The infundibulum" (duplicate option, <4 distinct
+#   options). Held per LANE-CARD S2's floor rule (Quiz54-57 Q16/Q26
+#   precedent), independent of the fact itself being correct (ampulla is
+#   genuinely the widest part).
+
+# LOGGED ONLY -- pp.65-107 (fill-in-the-blank / matching / image-dependent /
+# duplicate / out-of-cluster, not authored)
+# Quiz23 Q6-17 (12 items, fill-in-the-blank).
+# Quiz24 Q4 (duplicate-of q046), Q5 (held above), Q6-15 (10 items, fill-in-
+#   the-blank, Q13 duplicates Q12).
+# QUIZ 25 Q5 (duplicate-of q051).
+# Quiz26 Q3 (duplicate-of q054), Q6-8 (3 items, fill-in-the-blank).
+# Quiz27 Q7-9 (3 items, fill-in-the-blank, Q8=Q9 duplicate).
+# Quiz29 [1st occurrence, p96-98] Q1 (image-dependent match), Q2 (matching,
+#   no discrete options), Q3-5 (fill-in-the-blank).
+# "Quiz for organ systems" [p100-102] Q1 (oesophagus), Q4 (bone ossification),
+#   Q5-6 (trachea) -- out of this dispatch's cluster, not authored.
+# Quiz29 [2nd occurrence, p104-107] Q1 (held above, duplicate options).
+
+# ============================================================================
+# pp.108-169 cluster (lane 3): briefed as "Quiz 30, Chromosome Theory of
+# Inheritance" but actually a run of ten per-lecture quizzes -- Quiz 30 itself
+# (p108-112, only 13 items), Quiz 41-42 (implantation/2nd week, p114-125),
+# Quiz 43 (cartilage, p126-129), Quiz 44-45 (bone, p130-137), Quiz 46
+# (gastrulation/notochord, p138-143), Quiz 47 (duplicate trophoblast material,
+# p144-147, wholly excluded), Quiz 48 (embryonic period/neurulation,
+# p148-154), Quiz 49 (ectodermal derivatives/neural crest, p155-160) and
+# Quiz 50 (mesodermal derivatives, p161-169). One cluster key, `pmsquiz30`,
+# with pure-numeric suffixes (pmsquiz30-q01..q50), per this lane's dispatch
+# instruction -- see coverage/AUN-PMS-102-triage.md for the full corrected
+# page map, per-quiz item tables, held-item reasoning and concept search log.
+# Cartilage/bone reuse docs/Kasr-Source-Imports/concept/103-BMS-histology-
+# concepts.md; gastrulation/neurulation/neural-crest/somite facts reuse
+# docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md; both via
+# pending-live/AUN-PMS-102-quiz30-overlay.md. Ectopic pregnancy and placenta
+# previa reuse existing LIVE concepts. Folding-4th-week and vitelline-duct
+# reuse this same module's own lane-1 concepts.
+# ============================================================================
+
+pmsquiz30-q01 # p110 key=C  primordial germ cells contain 46 single-strand chromosomes -- new CON-DEV-2DD11749B30811
+pmsquiz30-q02 # p111 key=C  synapsis/crossing over occur in prophase of the first meiotic division -- new CON-DEV-C480AF6C596002
+pmsquiz30-q03 # p111 key=C  ploidy = number of chromosomes in each cell -- new CON-DEV-7D289CE1CADBC4
+pmsquiz30-q04 # p112 key=A  gametes contain a haploid number of chromosomes -- new CON-DEV-0B6BDC498E15FC
+pmsquiz30-q05 # p114 key=B  fertilized ovum implants at the blastocyst stage -- new CON-DEV-033AEEC489096D
+pmsquiz30-q06 # p115 key=D  implantation requirements EXCEPT zona pellucida -- new CON-DEV-6B6F35FF432C00
+pmsquiz30-q07 # p115 key=D  vignette: ectopic tubal pregnancy -- reuse live CON-OBS-F3B46C8C137FA1
+pmsquiz30-q08 # p116 key=A  vignette: placenta previa -- reuse live CON-OBS-359BB7C45CB7F8
+pmsquiz30-q09 # p116 key=D  inner cell mass gives rise to the embryo -- new CON-DEV-E58D1D5C25DB69
+pmsquiz30-q10 # p117 key=D  amniotic cavity first appears day 8 between trophoblast and embryoblast -- new CON-DEV-B783AFECFFD32A
+pmsquiz30-q11 # p118 key=D  chorion formed by somatopleuric extraembryonic mesoderm + trophoblast -- new CON-DEV-DB4682BB1AB3CC
+pmsquiz30-q12 # p119 key=E  pregnancy tests detect hCG -- new CON-DEV-857BDB55798E03
+pmsquiz30-q13 # p126 key=B  perichondrium surrounds cartilage -- reuse CON-MSK-FB07A439E2B324 (103-BMS)
+pmsquiz30-q14 # p126 key=B  hyaline cartilage forms tracheal rings -- reuse CON-MSK-0EA979EBF9D434 (103-BMS)
+pmsquiz30-q15 # p127 key=C  elastic cartilage in the external ear -- reuse CON-MSK-0F4870E557FAF4 (103-BMS)
+pmsquiz30-q16 # p127 key=D  fibrocartilage forms the symphysis pubis -- reuse CON-MSK-0F4870E557FAF4 (103-BMS)
+pmsquiz30-q17 # p129 key=D  vignette: articular cartilage = hyaline without perichondrium -- reuse CON-MSK-FB07A439E2B324 (103-BMS)
+pmsquiz30-q18 # p129 key=B  interstitial growth replaces worn articular cartilage -- reuse CON-MSK-CB0E0F665E200B (103-BMS)
+pmsquiz30-q19 # p130 key=A  osteoblast = initial secretion/calcification of bone matrix -- reuse CON-MSK-D137ADEEC56243 (103-BMS)
+pmsquiz30-q20 # p131 key=B  osteoclast = bone resorption -- reuse CON-MSK-76CE11C6DCDC37 (103-BMS)
+pmsquiz30-q21 # p131 key=C  cancellous bone = spongy bone -- reuse CON-MSK-0403FC429F118B (103-BMS)
+pmsquiz30-q22 # p131 key=B  Howship's lacunae contain osteoclasts -- reuse CON-MSK-76CE11C6DCDC37 (103-BMS)
+pmsquiz30-q23 # p132 key=A  Haversian system = osteon -- reuse CON-MSK-A67054CAEEE89E (103-BMS)
+pmsquiz30-q24 # p138 key=D  gastrulation first indicated by the primitive streak -- reuse CON-DEV-215BD7E9E58872 (101-ISK)
+pmsquiz30-q25 # p138 key=C  embryo trilaminar except at the cloacal membrane -- reuse CON-DEV-215BD7E9E58872 (101-ISK)
+pmsquiz30-q26 # p141 key=B  notochord: mesodermal, under neural tube, flanked by somites -- new CON-DEV-7BE5A62AC3D0D1
+pmsquiz30-q27 # p141 key=E  embryo bilaminar at buccopharyngeal + cloacal membrane -- reuse CON-DEV-215BD7E9E58872 (101-ISK)
+pmsquiz30-q28 # p140 key=C  outer cytotrophoblastic shell attaches chorion to endometrium -- new CON-DEV-ADC571EE1F47C0
+pmsquiz30-q29 # p142 key=A  secondary chorionic villi = mesodermal core develops -- new CON-DEV-ACDC0FE22BE06F
+pmsquiz30-q30 # p149 key=B  nervous system derived from ectoderm -- reuse CON-DEV-4BC4233153C3DC (101-ISK)
+pmsquiz30-q31 # p149 key=C  neurulation = process forming the neural tube -- reuse CON-DEV-4BC4233153C3DC (101-ISK)
+pmsquiz30-q32 # p150 key=B  neural folds: all of the above (notochord induction, fusion into tube, 3rd week) -- reuse CON-DEV-4BC4233153C3DC (101-ISK)
+pmsquiz30-q33 # p151 key=D  organogenesis occurs 3rd-8th weeks -- reuse CON-DEV-E273F775E9CB77 (101-ISK)
+pmsquiz30-q34 # p151 key=A  cranial neuropore closure ~day 25 -- new CON-DEV-9FB8E4B0015C2B
+pmsquiz30-q35 # p152 key=B  spina bifida = failure of closure of the caudal neuropore -- new CON-DEV-B74E7BE5E77918
+pmsquiz30-q36 # p152 key=B  major external body features recognizable end of 2nd month -- new CON-DEV-62093248BCEC81
+pmsquiz30-q37 # p156 key=A  ectoderm except kidneys (mesoderm) -- new CON-DEV-4FBEBAB88ED8A2
+pmsquiz30-q38 # p157 key=B  neural crest except bones of the hand -- reuse CON-DEV-785CE84F7C03DB (101-ISK)
+pmsquiz30-q39 # p157 key=B  neural crest cells derived from ectoderm -- reuse CON-DEV-785CE84F7C03DB (101-ISK)
+pmsquiz30-q40 # p157 key=B  neural crest except dura mater -- reuse CON-DEV-785CE84F7C03DB (101-ISK)
+pmsquiz30-q41 # p158 key=A  neural crest gives rise to the adrenal medulla -- reuse CON-DEV-785CE84F7C03DB (101-ISK)
+pmsquiz30-q42 # p158 key=A  ectoderm except upper anal canal (endoderm) -- new CON-DEV-F2328E44A9B7F8
+pmsquiz30-q43 # p163 key=C  intermediate mesoderm -> kidneys and gonads -- new CON-DEV-AD4B6CDA269ED5
+pmsquiz30-q44 # p163 key=B  somites except epidermis of skin -- reuse CON-DEV-5E63C211DEEE00 (101-ISK)
+pmsquiz30-q45 # p163 key=C  somites: all of the above (sclerotome/myotome/paraxial origin) -- reuse CON-DEV-5E63C211DEEE00 (101-ISK)
+pmsquiz30-q46 # p164 key=A  mesoderm except suprarenal medulla (neural crest) -- new CON-DEV-5751F8C42B2EAC
+pmsquiz30-q47 # p164 key=A  total somites = 42-44 pairs -- new CON-DEV-AAFD50C9B1AD15
+pmsquiz30-q48 # p166 key=C  vertebral column from sclerotomes -- reuse CON-DEV-5E63C211DEEE00 (101-ISK)
+pmsquiz30-q49 # p167 key=A  folding of the embryo during the fourth week -- reuse CON-DEV-377B4B783E3C64 (own module, lane 1)
+pmsquiz30-q50 # p168 key=D  midgut communicates with yolk sac via the vitelline duct -- reuse CON-DEV-ACAFA620AE1F4B (own module, lane 1)
+
+# HELD (key conflict / corrupted / illogical / duplicate options) -- not authored
+# p111 Quiz30 Q11: "Chromosomal pattern of Down syndrome" -- printed key marks
+#   "45 - XY" correct, which is neither a real Down syndrome karyotype (the
+#   correct answer, 47,XY/47,XX trisomy 21, does not appear among the
+#   options) nor a coherent answer to the stem -- held as corrupted/incorrect
+#   printed key, same numeral-corruption pattern as the MPT-104/embryology-
+#   cluster Klinefelter "44-XXY" precedent.
+# p118/p125 Quiz41-42 Q9/Q29: "regarding uteroplacental circulation is
+#   CORRECT" -- identical stem and options printed twice with two different
+#   marked answers ("established during the second week" vs "hydrolytic
+#   enzymes... degrade the endothelium of embryonic capillaries") -- a direct
+#   printed-key conflict within one source. Held (MPT Q47 / embryology-
+#   cluster Quiz54-57 Q9/Q19 precedent).
+# p164 Quiz50 Q12: "Vertebral column is derived from" -- options B and C are
+#   both printed as "dermomyotomes" (duplicate, <4 distinct options). Held
+#   per LANE-CARD S2's floor rule; the same fact is authored cleanly instead
+#   from Q17's later, non-defective restatement (pmsquiz30-q48).
+
+# LOGGED ONLY -- pp.108-169 (fill-in-the-blank / True-False / image-dependent
+# / exact-duplicate / out-of-cluster, not authored)
+# Quiz 30 Q1-8 (p108-110): fill-in-the-blank, no options.
+# Quiz 41-42 Q11-15 (p119-120): True/False items (zona pellucida breakdown,
+#   hCG source, day-12 embedding, implantation site, yolk sac lining).
+# Quiz 41-42 Q16-21 (p120-122): fill-in-the-blank, no options.
+# Quiz 41-42 Q22 (p122): "Label the diagram" -- image-dependent.
+# Quiz 41-42 Q25-28, Q30 (p123-125): exact/near-exact duplicates of Q1-Q4/Q10
+#   (same stem, same key) -- duplicate-of, not authored twice.
+# Quiz 43 Q6-10 (p128): fill-in-the-blank, no options.
+# Quiz 44-45 Q7-9, Q11, Q13-17, Q22, Q24 (p132-137): fill-in-the-blank, no
+#   options.
+# Quiz 44-45 Q18, Q20, Q23: exact/near-exact duplicates of Q2/Q19/Q1 --
+#   duplicate-of, not authored twice.
+# Quiz 46 Q3-4 (p139): fill-in-the-blank, no options.
+# Quiz 46 Q5 (p139): True/False (intraembryonic mesoderm at buccopharyngeal
+#   but not cloacal membrane -- printed False).
+# Quiz 46 Q6 (p140): "Label the diagram" -- image-dependent.
+# Quiz 46 Q7, Q12-13, Q15-16 (p140-143): exact/near-exact duplicates of
+#   Q1/Q8/Q10/Q11 -- duplicate-of, not authored twice.
+# Quiz 46 Q14 (p143): "At gastrulation, the embryo is bilaminar at: ...Both B
+#   & C" (buccopharyngeal membrane and neural folds) -- conflicts with the
+#   same quiz's own Q9 (buccopharyngeal + cloacal membrane) on which second
+#   site the embryo stays bilaminar at. Held per the standing printed-key-
+#   conflict rule.
+# Quiz 47 (p144-147), all 11 items: fill-in-the-blank or exact duplicates of
+#   Quiz 46 material -- wholly excluded, 0 new items.
+# Quiz 48 Q1-3 (p148-149): True/False items (cranial/caudal neuropore timing,
+#   neural fold fusion site).
+# Quiz 48 Q7-8 (p150-151): fill-in-the-blank, no options.
+# Quiz 48 Q14-18 (p152-154): exact/near-exact duplicates of Q9-13 --
+#   duplicate-of, not authored twice.
+# Quiz 49 Q1 (p155): True/False (parasympathetic ganglia from neural crest).
+# Quiz 49 Q2-4 (p155-156): fill-in-the-blank, no options.
+# Quiz 49 Q11 (p158): duplicate content already covered by mouth-cavity fact
+#   tested at Q16 -- not separately authored to avoid a near-duplicate
+#   concept; logged only.
+# Quiz 49 Q12-16 (p159-160): exact/near-exact duplicates of Q7-11 --
+#   duplicate-of, not authored twice.
+# Quiz 50 Q1-3 (p161-162): True/False items (total somite count, somite
+#   appearance rate, lateral plate mesoderm/visceral layer).
+# Quiz 50 Q4-6 (p162): fill-in-the-blank, no options.
+# Quiz 50 Q12 (p164): held above (duplicate options).
+# Quiz 50 Q16, Q18-20 (p166-167): exact/near-exact duplicates of Q11/Q13-15 --
+#   duplicate-of, not authored twice.
+# Quiz 50 Q23-25 (p168-169): endoderm-derivatives and PGC-formation facts
+#   that exactly restate concepts already minted and authored in lane 1's
+#   pp.34-64 pass (CON-DEV-10A1C9D550EE53, CON-DEV-28D099E61F4987) --
+#   not re-authored a third time within this same source; logged as
+#   duplicate-of-lane-1, not held or excluded for any content defect.
+
+# ============================================================================
+# pp.1-33 cluster (lane 4, "pmsfront"): the garbled front range, OCR'd in full
+# per LANE-CARD.md's dispatch instruction (pagetext.mjs ocr --pages 1-33,
+# foreground; 15-162 words/page recovered, "The correct answer is:" lines
+# survived OCR cleanly on every page -- same Moodle attempt-review format as
+# the clean pp.34-169 range). Ten per-lecture quizzes: Quiz 1 (microscopy/
+# histology methods, p1-5), Quiz 2 (cytology/plasma membrane, p6-11), Quiz
+# 6&7 (membranous organelles, p12-19), Quiz 9 (anatomical planes/terms,
+# joints, bones, muscles, p20-28), Quiz 10 (non-membranous organelles,
+# p30-33). Scope note: this range's content is gross anatomy (planes, bone
+# classification, joints, muscle types) as well as cytology, both squarely
+# "macroscopic and macroscopic structures" per this module's own full name
+# and the source PDF's own Moodle breadcrumb ("Lectures and quizzes of
+# Principles of microscopic and macroscopic structures") -- broader than
+# lanes 1-3's histology/embryology/genetics framing, which was this module's
+# de facto scope only because their own dispatched page ranges happened to
+# be embryology/genetics content, not because gross anatomy is out of scope.
+# Cytology (microscopy, plasma membrane, cytoplasmic organelles) reuses
+# existing docs/Kasr-Source-Imports/concept/101-ISK-concepts.md,
+# 101-ISK-mcq-concepts.md and 101-ISK-practical-concepts.md concepts via
+# docs/Assiut-Source-Imports/pending-live/AUN-PMS-102-pmsfront-overlay.md;
+# bone classification and shoulder circumduction reuse existing LIVE
+# concepts directly (CON-MSK-12504AAE2403E8, CON-MSK-9E9BBA40F75CE3). All
+# other facts mint new concepts (concept/AUN-PMS-102-pmsfront-concepts.md).
+# 26 questions authored (of 44 usable candidates found in pp.1-30 reading
+# order; pp.23-30's remaining 18 usable joint/bone/fascia/muscle/centrosome
+# items are logged below as top-up candidates, not authored this pass to
+# balance authoring effort against the pmstail cluster).
+# ============================================================================
+
+pmsfront-q01 # p3 key=C  plastic sections used for E.M. examination -- new CON-FND-57D59518A84D98
+pmsfront-q02 # p4 key=A  electron microscope based on passage of electron beams -- new CON-FND-168FA6F0EC6DE9
+pmsfront-q03 # p8 key=C  bulk movement of macromolecules into cell by vesicles = endocytosis -- reuse CON-FND-E66C68C0B80D16 (101-ISK)
+pmsfront-q04 # p8 key=B  peripheral protein bound to one membrane surface, cytoplasmic side -- reuse CON-FND-85CC08A33D0A88 (101-ISK)
+pmsfront-q05 # p8 key=C  phospholipids organized into the membrane bilayer -- reuse CON-FND-85CC08A33D0A88 (101-ISK)
+pmsfront-q06 # p9 key=B  integral protein directly incorporated within phospholipid bilayer -- reuse CON-FND-85CC08A33D0A88 (101-ISK)
+pmsfront-q07 # p14 key=A  mitochondria = power house of the cell -- new CON-FND-F1914E2CE56EBF
+pmsfront-q08 # p15 key=D  Golgi bodies composed of array of cisternae and vesicles -- new CON-FND-405BB5EA3C359E
+pmsfront-q09 # p15 key=D  Smooth ER makes lipids and inactivates toxins -- new CON-FND-7AE930E2CF1EEC
+pmsfront-q10 # p15 key=D  mitochondria rod shaped with many inner folds -- reuse CON-FND-F1914E2CE56EBF (own module, this pass)
+pmsfront-q11 # p16 key=A  Golgi Body modifies proteins -- reuse CON-FND-405BB5EA3C359E (own module, this pass)
+pmsfront-q12 # p16 key=D  mitochondria surrounded by two membranes, outer smooth inner folded -- reuse CON-FND-F1914E2CE56EBF (own module, this pass)
+pmsfront-q13 # p16 key=B  secretory granules originate as condensing vesicles from Golgi -- reuse CON-FND-405BB5EA3C359E (own module, this pass)
+pmsfront-q14 # p17 key=B  microbodies (peroxisomes) contain catalase -- new CON-FND-195407DF67047D
+pmsfront-q15 # p17 key=B  cristae = membranous infoldings of inner mitochondrial membrane -- reuse CON-FND-F1914E2CE56EBF (own module, this pass)
+pmsfront-q16 # p17 key=A  Janus green stain visualizes mitochondria -- new CON-FND-ED156BF8FBFD46
+pmsfront-q17 # p18 key=C  ER transport pathway: Rough ER -> Golgi -> Lysosome -- new CON-FND-76B1C62683E19E
+pmsfront-q18 # p20 key=D  coronal plane divides body into anterior/posterior -- new CON-FND-2455B1AD8756D1
+pmsfront-q19 # p20 key=C  transverse plane divides body into upper/lower -- reuse CON-FND-2455B1AD8756D1 (own module, this pass)
+pmsfront-q20 # p21 key=A  medial = nearer the median plane -- new CON-FND-12AD3F343E72FD
+pmsfront-q21 # p21 key=B  patella = knee cap, a sesamoid bone -- new CON-MSK-87E511BF640862
+pmsfront-q22 # p21 key=A  humerus is a long bone -- reuse live CON-MSK-12504AAE2403E8
+pmsfront-q23 # p22 key=B  vertebra is an irregular bone -- reuse live CON-MSK-12504AAE2403E8
+pmsfront-q24 # p22 key=C  circumduction = flexion+extension+abduction+adduction -- reuse live CON-MSK-9E9BBA40F75CE3
+pmsfront-q25 # p22 key=D  smooth muscle = muscular portion of visceral organs -- new CON-MSK-229AAD0C8626CF
+pmsfront-q26 # p23 key=A  bipennate muscle: two rows of fibres, central tendon, like a feather -- new CON-MSK-888467E7C45479
+
+# LOGGED ONLY -- pp.1-33 (fill-in-the-blank, no options, or image-dependent --
+# not authored; every fill-in item's key was still read and is recoverable,
+# just excluded per the fill-in-the-blank precedent from lanes 1-3)
+# Quiz 1 Q1-9 (p1-3, except the SBA Q10 authored above): fill-in-the-blank.
+# Quiz 2 Q1-6 (p6-7, except the SBA Q7-10 authored above): fill-in-the-blank.
+# Quiz 2 Q11 (p10): image-dependent ("In the diagram of plasma membrane, 'A'
+#   points to" -- refers to an unlabelled figure).
+# Quiz 6&7 Q1-8 (p12-14, except the SBA Q9 authored above): fill-in-the-blank.
+# Quiz 10 Q2-9 (p30-32, except the SBA Q1 not authored this pass -- see
+#   remaining list below): fill-in-the-blank.
+
+# REMAINING -- pp.1-33 usable SBA items not authored this pass (candidates
+# for a future top-up lane; page range p23-30, joints/bones/fascia/muscles)
+# pmsfront-q10 (Suture = Fibrous joint, p23), (Interosseous membrane
+#   radius/ulna = Fibrous joint, p23), (elbow joint = Hinge synovial, p24),
+#   (hip joint = Ball and socket synovial, p24), (Hematopoiesis = Red bone
+#   marrow, p24), (Pneumatic bones = Skull, p25), (Sesamoid bones develop in
+#   tendon, p25), (Shaft = central part of long bone, p25), (Ribs/sternum =
+#   Axial skeleton, p26), (epidermis = outer layer of skin, p26), (second
+#   envelope of body = Superficial fascia, p26), (third envelope of body =
+#   Deep fascia, p27), (rotation at shoulder joint = Medial rotation, p27),
+#   (Biceps = Fusiform muscle, p27), (muscle opposing prime mover =
+#   Antagonist, p28), (deep fascia around kidney = Capsule, p28, printed
+#   twice as Q25/Q26 -- duplicate), (organizing center of microtubules =
+#   Centrosome, p30). 18 raw items (Q25/Q26 duplicate-collapsed to 17
+#   distinct facts) logged only, not triaged into individual keys this pass.
+
+# ============================================================================
+# pp.170-217 cluster (lane 4, "pmstail"): the garbled tail range, OCR'd in
+# full per LANE-CARD.md's dispatch instruction (pagetext.mjs ocr --pages
+# 170-217, foreground; 14-336 words/page recovered, "The correct answer is:"
+# lines survived OCR cleanly pp.170-198). Per-lecture quizzes: QUIZ11&12
+# (skeletal system, p170-173), Quiz13 (cell inclusions, p174-176), QUIZ14&15
+# (digestive system, p178-179), Quiz16&17 (chromosome/karyotyping, p181-188),
+# QUIZ18 (respiratory system, p190-192), Quiz19 (cell cycle, p194-196),
+# Quiz20 (cell death/stem cells, p197-199). pp.201-217 (Quiz 31-32
+# spermatogenesis, Quiz 33/34 connective tissue, Quiz 35 blood, Quiz 36-37
+# oogenesis, Quiz 38-41 fertilization/corpus luteum, Quiz 40) print full
+# "correct answer is" keys throughout but many question STEMS render blank
+# in the plain-text OCR extraction on that section's own two-column
+# collapsed-review layout (confirmed by rendering p202: the full stem and
+# options ARE present and legible in the rendered image, e.g. "Spermatid
+# contains:" for Q2 -- an OCR text-extraction gap on this specific layout,
+# not a missing/corrupted source). Several of those stem-blank items
+# duplicate a later, fully-legible restatement in the same or a sibling
+# quiz (e.g. Quiz 31-32 Q1-5 duplicate Q11-15's full "Select one:" restate;
+# Quiz 36-37's stem-blank items partly duplicate Quiz 38-41's Q12 and
+# Quiz 40's fully-legible restatement) -- not chased further this pass
+# since pp.170-198 alone already cleared the ~50-question combined
+# authoring target with pmsfront; logged as a render-recoverable candidate
+# below for a future top-up lane. Nucleus/chromosome structure reuses
+# existing docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md
+# concepts via docs/Assiut-Source-Imports/pending-live/AUN-PMS-102-pmstail-
+# overlay.md. All other facts mint new concepts (concept/AUN-PMS-102-
+# pmstail-concepts.md) with three new articles (article/AUN-PMS-102-
+# pmstail-articles.md: digestive system, respiratory system, cell cycle).
+# 23 questions authored.
+# ============================================================================
+
+pmstail-q01 # p178 key=C  mouth divided into vestibule and mouth proper -- new CON-GIT-42FD9C81E44B7E
+pmstail-q02 # p178 key=D  third permanent molar (wisdom tooth) erupts ~18 years -- new CON-GIT-10F226F16C73B0
+pmstail-q03 # p179 key=D  oesophagus extends from pharynx to stomach -- new CON-GIT-06BB8F476657C9
+pmstail-q04 # p179 key=D  greater curvature = longer left convex border of stomach -- new CON-GIT-D02BBF1DED7547
+pmstail-q05 # p181 key=A  inactive portions of chromosome = heterochromatin -- reuse CON-FND-6C5ABFD844D630 (101-ISK)
+pmstail-q06 # p182 key=A  nucleus contains network of subdivisions = chromatin network -- new CON-FND-C9A6DCF95BCCAE
+pmstail-q07 # p182 key=D  nucleus contains all EXCEPT endosomes -- new CON-FND-35F79538B8B3FD
+pmstail-q08 # p182 key=B  protein formation enabled through nucleoli -- new CON-FND-0C0ED6723C4AFC
+pmstail-q09 # p185 key=D  chromosomes made up of special protein material = chromatin -- reuse CON-FND-C9A6DCF95BCCAE (own module, this pass)
+pmstail-q10 # p185 key=B  chromatid fusion occurs at the centromeres -- new CON-FND-63339C49F839CA
+pmstail-q11 # p185 key=A  diploid = normal body cell, haploid = germ cells -- new CON-FND-4508E8755FC9F8
+pmstail-q12 # p186 key=D  drug used in karyotyping = colchicine -- new CON-FND-149030F7327A1F
+pmstail-q13 # p186 key=A  Barr body = one of the X chromosomes -- reuse CON-FND-69671A492023B8 (101-ISK)
+pmstail-q14 # p190 key=B  one of the respiratory portion is the lung -- new CON-RES-FE13133BB3613E
+pmstail-q15 # p191 key=B  air-filled extensions of nasal cavity into cranial bones = paranasal sinuses -- new CON-RES-6DB999BDFE40C1
+pmstail-q16 # p191 key=B  area on medial lung surface where structures enter/leave = hilum -- new CON-RES-2AFDB545F11A5D
+pmstail-q17 # p191 key=A  right lung is larger and heavier than left -- new CON-RES-027CA93BB6E5AA
+pmstail-q18 # p192 key=B  trachea bifurcates into right/left bronchi at sternal angle -- new CON-RES-A8A4E8BAE9F45B
+pmstail-q19 # p194 key=C  centrioles = cytoplasmic structures involved in cell division -- new CON-FND-3F5F6642669144
+pmstail-q20 # p194 key=C  DNA doubles during S phase of cell cycle -- new CON-FND-C4B5CA182CD0A1
+pmstail-q21 # p195 key=D  cell death = irreversible cessation of vital activities -- new CON-FND-789CD6C831AD7A
+pmstail-q22 # p197 key=A  stem cells divide asymmetrically, one daughter self-renews -- new CON-FND-7A6E70792E71C1
+pmstail-q23 # p198 key=C  progenitor cells divide frequently (the false EXCEPT statement was "infrequently") -- new CON-FND-A3E76ED56670BF
+
+# HELD (key conflict / corrupted or illogical option list) -- not authored
+# p179 Quiz14&15 Q5: "Salivary glands include the followings except" -- printed
+#   key marks "Parotid gland" as the exception, but the parotid genuinely is a
+#   major salivary gland (contradicts the real fact); also, "Submaxillary
+#   gland" is an old synonym for "Submandibular gland" (also listed), so two
+#   of the four printed options name the same real gland. Held per the
+#   standing printed-key-conflict rule (MPT Q47 precedent), independent of the
+#   duplicate-naming defect.
+# p181 Quiz16&17 Q2: "Which of the following parts of the nucleus makes
+#   ribosomes and RNA" -- options (Nuclear envelop / Nucleus / Nucleoplasm /
+#   Chromatin pores) do not include "Nucleolus" (the real answer, confirmed
+#   independently by this same quiz's own Q5 "protein formation... Nucleoli"
+#   and Q13 "Ribosomal subunits synthesized in... nucleolus"), and the printed
+#   key marks "Nucleus" itself -- incoherent as an answer to "which PART OF
+#   THE NUCLEUS", since the nucleus is not a part of itself. Held as
+#   corrupted/illogical, likely an OCR or print substitution of "Nucleolus"
+#   for "Nucleus" in the option list itself (not a plain OCR misread of this
+#   pass's own extraction, since the same misprint pattern would need to
+#   originate in the source rather than this pass's OCR run).
+
+# LOGGED ONLY -- pp.170-198 (fill-in-the-blank / True-False / matching-format
+# -- not authored)
+# Quiz13 Q1-6 (p174-176): fill-in-the-blank, no options (Haemosiderin pigment,
+#   glycogen storage, glycogen PAS stain, glycogen in liver, lipid steroid
+#   synthesis, fat storage in liver cells).
+# Quiz13 Q7-9 (p176): fill-in-the-blank (oil red O fat stain, melanin skin
+#   pigment, lipofuscin from residual bodies).
+# Quiz16&17 Q6-13 (p183-184): fill-in-the-blank, no options (outer nuclear
+#   membrane continuous with rER, euchromatin, Turner syndrome XO, pars
+#   fibrosa, perinuclear space, Barr body naming -- duplicate-of pmstail-q13
+#   fact, heterochromatin -- duplicate-of pmstail-q05 fact, ribosomal
+#   subunits in nucleolus -- duplicate-of pmstail-q08 fact).
+# Quiz16&17 Q20-24 (p187-188): fill-in-the-blank (telocentric chromosomes,
+#   histones in nucleosomes, DNA as coiled nucleoprotein, homologous
+#   chromosome pairs, centromere/primary constriction -- duplicate-of
+#   pmstail-q10 fact).
+# Quiz20 Q3-4 (p198): fill-in-the-blank (asymmetric division = stem cells --
+#   duplicate-of pmstail-q22 fact; progenitor cells = rapidly dividing
+#   progeny).
+# Quiz20 Q5 (p199): matching format, no discrete options (renewal rate of
+#   skin/CT/nervous-cardiac cell types).
+
+# REMAINING -- pp.201-217 render-recoverable candidates (stems blank in
+# plain-text OCR, confirmed recoverable by rendering p202; not pursued this
+# pass -- see cluster header note above). Keys already legible from the OCR
+# text alone, pending stem recovery via render:
+# Quiz 31-32 (spermatogenesis, p202-204): Q6 (no semen = azoospermia fact),
+#   Q7 (fertility begins after puberty), Q8 ("all above" -- unclear which
+#   fact), Q9 (capacitation occurs in the female genital tract -- duplicate-
+#   of Quiz 38-41/Quiz 40's own clearer capacitation item), Q10 ("all
+#   above" -- unclear which fact).
+# Quiz 33 (connective tissue cells, p205): Q1 (Myosin), Q2 (Dense regular
+#   connective tissue), Q3 (Loose connective tissue), Q4 (Orcein stain), Q5
+#   (Hyaluronic acid) -- all 5 stems blank.
+# Quiz 34 (connective tissue fibres, p207): Q1 (Fibroblast), Q2 (Mast
+#   cells), Q3 (Fibroblasts -- likely duplicate of Q1), Q4 (adipocytes) --
+#   4 stems blank.
+# Quiz 35 (blood, p209): Q1 (basophils), Q2 (RBC transport O2/CO2), Q4
+#   (heparin/histamine secretion, likely basophils) -- stems blank; Q3
+#   (multilobed) and Q5 (biconcave) likely duplicate fully-legible Q8
+#   (neutrophil nucleus multilobed) and the RBC-shape items at p210.
+# Quiz 36-37 (oogenesis, p211-212): Q1 (oogonia formation, early
+#   intrauterine life), Q2 (second meiotic division completes after
+#   fertilization), Q6 (unclear, "14 days"), Q7 (ovulation caused by LH --
+#   duplicate-of Quiz 38-41 Q12's fully-legible restatement) -- stems blank.
+# Quiz 38-41 (fertilization/corpus luteum, p214-215): Q1 (fertilization site
+#   = ampulla of oviduct), Q2 (sperm viable ~3 days), Q3 (oocyte arrested at
+#   metaphase of meiosis II) -- stems blank.

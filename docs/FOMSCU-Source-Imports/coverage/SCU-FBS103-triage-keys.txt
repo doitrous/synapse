@@ -1,0 +1,118 @@
+# SCU-FBS103 triage keys — one per line, # comments allowed.
+# Foundation 2 (SCU-FBS103), S3 first-module triage. Generated from 105 distinct
+# questions (138 raw, exact-text deduped) across 4 own-source keyed MCQ papers.
+# --- Anatomy ---
+# anatomy-buccal-branch-of-the-mandibular-nerve  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: An emergency physician used local anesthesia for surgery to drain an a
+# anatomy-external-occipital-protuberance  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: Which of the following bony landmarks lies midway between the lambda a
+# anatomy-facial-vein  # authored-in SCU-FBS103-questions.md (was: live)  · Q: The primary venous drainage of the superficial structures of the face 
+# anatomy-frontalis  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: pending; automated hit re-verified as false positive, minted fresh)  · Q: Which of the following muscles is responsible for elevating the eyebro
+# anatomy-glabella  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: What is the name of the bony elevation located between the two superci
+# anatomy-lateral-pterygoid  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: pending)  · Q: Which of the following muscles of mastication is primarily responsible
+# anatomy-lateral-surface-of-the-ramus-and-angle  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: The masseter muscle primarily inserts into which part of the mandible?
+# anatomy-mandibular-nerve  # authored-in SCU-FBS103-fbs103c-mcq.md (was: pending)  · Q: The muscles of mastication receive their motor innervation from which 
+# anatomy-medial-surface-of-the-mandible  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: The submandibular gland is located in the submandibular fossa, which i
+# anatomy-medial-surface-of-the-mandibular-angle  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: What is the insertion site of the medial pterygoid muscle?
+# anatomy-primary-cartilaginous-joint  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: pending)  · Q: What kind of joint is typically seen in the epiphyseal growth plate of
+# anatomy-sartorius-muscle  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: Which of the following muscles is anatomically classified as a strap-l
+# anatomy-supraorbital-artery  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: Which of the following arteries is a direct branch of the ophthalmic a
+# anatomy-temporalis-muscle  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: Which of the following muscles of mastication is responsible for the r
+# anatomy-trigeminal-nerve  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: Which of the following nerves provides sensory innervation primarily t
+# --- Biochemistry ---
+# biochemistry-20  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: live; automated hit re-verified as false positive against unrelated cardiac/renal-percentage records, minted fresh)  · Q: If a double-stranded DNA molecule contains 30% thymine, what is the am
+# biochemistry-5-to-3-polymerase-and-3-to-5-exonuclease-acti  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: DNA polymerase III holoenzyme possesses which of the following activit
+# biochemistry-a-nitrogenous-base-a-pentose-sugar-and-a-phos  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: A nucleotide is structurally composed of:
+# biochemistry-aminoacyl-trna-synthetase  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: Which of the following enzymes is directly involved in aminoacyl-tRNA
+# biochemistry-dna-ligase  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: Which of the following enzymes is responsible for joining the phosphod
+# biochemistry-many-origins-of-replication  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: Eukaryotic DNA replication differs from prokaryotic replication in tha
+# biochemistry-the-open-reading-frame-is-interrupted-by-intr  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: Which of the following exists in eukaryotic genes but NOT in prokaryot
+# biochemistry-vitamin-k  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: live; automated hit re-verified as false positive against a coagulation-factor-deficiency record, minted fresh)  · Q: Which of the following vitamins is primarily synthesized by the normal
+# --- Embryology ---
+# embryology-28-to-30-pairs  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: By the end of the fourth week of embryonic development, approximately
+# embryology-40-sperm-cells  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-DEV-B8D22B244F1E15 from this lane's own SCU-FBS102 pass)  · Q: How many mature sperm cells will eventually form from 10 primary sperm
+# embryology-4th-day  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: Following fertilization, the morula typically reaches the uterine cavi
+# embryology-blastocyst-formation  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: Which of the following major events characterizes the first week of hu
+# embryology-blastomeres  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: pending; automated hit not confirmed on re-check, minted fresh)  · Q: Which of the following cells are formed immediately by the mitotic div
+# embryology-cloacal-membrane  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: live; actual reuse target is CON-DEV-1AAC12ECDA6AE2, pending in Assiut's AUN-PMS-102-concepts.md)  · Q: The bilaminar area located at the most caudal part of the embryonic di
+# embryology-cytotrophoblast-and-syncytiotrophoblast  # authored-in SCU-FBS103-questions.md (was: live)  · Q: On the 8th day of development, the trophoblast differentiates into two
+# embryology-day-25  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: During embryonic development, the cranial neuropore typically closes a
+# embryology-differentiation-of-the-embryoblast-into-the-e  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: The second week of human embryonic development is specifically charact
+# embryology-endoderm-and-splanchnic-mesoderm  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: Which layers of the trilaminar germ disc are involved in the formation
+# embryology-extraembryonic-coelom-chorionic-cavity  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: The formation and joining of cavities within the extraembryonic mesode
+# embryology-gastrulation  # authored-in SCU-FBS103-questions.md (was: pending; extends SCU-FBS102's own +scu overlay row)  · Q: What is the main developmental event that occurs during the third week
+# embryology-intermediate-mesoderm  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: The urogenital ridge, which gives rise to the urinary and genital syst
+# embryology-ligamentum-teres-hepatis  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: Which of the following structures represents the fate of the umbilical
+# embryology-pericardial-cavity  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: pending; automated hit re-verified as false positive against unrelated head-folding/pericardiocentesis records, minted fresh)  · Q: The intraembryonic coelom located completely cranial to the oropharyng
+# embryology-primary-yolk-sac  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: During embryonic development, the blastocyst cavity (blastocele) event
+# embryology-the-intraembryonic-coelom  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: live; reuses CON-DEV-65C2AEF8C5DB47)  · Q: After differentiation, the lateral plate mesoderm splits to enclose wh
+# --- Histology ---
+# histology-abundant-cytoplasm-and-short-thick-branched-p  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: Protoplasmic astrocytes differ from fibrous astrocytes primarily in ha
+# histology-central-and-oval  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: Which of the following best describes the appearance and position of t
+# histology-dorsal-root-spinal-ganglion  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-FND-14D80DE53DE835)  · Q: Where could the pseudounipolar nerve cells be typically found in the n
+# histology-eccentric  # authored-in SCU-FBS103-fbs103c-mcq.md (was: pending)  · Q: What is the typical position of the nucleus in a macrophage?
+# histology-epineurium  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: The dense connective tissue sheath that surrounds and covers the entir
+# histology-epithelial-tissue  # authored-in SCU-FBS103-fbs103c-mcq.md (was: pending)  · Q: Which of the following is considered one of the four basic tissues in
+# histology-fibrous-astrocytes-have-long-thin-unbranched  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: What is the main morphological difference between fibrous and protopla
+# histology-golgi-apparatus  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: pending; reuses CON-FND-405BB5EA3C359E, already +scu overlaid for FBS102, extended with +SCU-FBS103)  · Q: Which of the following organelles is primarily responsible for the pac
+# histology-mesenchymal-cell  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: live; actual reuse target CON-FND-9EA7F8E2898EB7 is pending, already +scu overlaid for FBS102, extended with +SCU-FBS103)  · Q: Which of the following cells is considered the main mother cell that d
+# histology-multipolar-neurons  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-FND-14D80DE53DE835, extending its worked-example set to autonomic ganglia)  · Q: The neurons that make up the autonomic sympathetic ganglia are classif
+# histology-one  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: live; automated hit re-verified as false positive against ECG-lead records; actual reuse target CON-FND-14D80DE53DE835 found via a fuller-context re-query)  · Q: How many axons does a typical multipolar neuron possess?
+# histology-phagocytic-cells  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: pending; reuses CON-NEU-93CD087BDE3F7B)  · Q: Microglial cells in the central nervous system are primarily recognize
+# histology-pseudounipolar-neurons  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-FND-14D80DE53DE835)  · Q: Which specific type of neurons is characteristically found in the dors
+# histology-pseudounipolar-neurons  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-FND-14D80DE53DE835, second of 2 questions sharing this generated key)  · Q: Which of the following neurons are composing the dorsal root ganglia?
+# histology-they-act-as-phagocytic-cells-to-remove-cellul  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-NEU-93CD087BDE3F7B)  · Q: Which of the following statements best describes the function of micro
+# histology-troponin-c  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: During skeletal muscle contraction, calcium ions released from the sar
+# histology-walls-of-the-blood-vessels  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: Which of the following structures is primarily composed of smooth musc
+# --- Medical Ethics ---
+medical-ethics-breach-of-confidentiality  # new · Q: A doctor discussing a patient's case with another doctor who is not in
+# --- Microbiology ---
+# microbiology-a-protein-coat-and-nucleic-acid  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: The basic structure of a virus primarily consists of:
+# microbiology-aspergillus-species  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: new; reuses CON-FND-D1D48A5564E978)  · Q: Aflatoxin acts as a potent mycotoxin that is primarily produced by whi
+# microbiology-binary-fission  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: What is the primary method by which bacteria replicate?
+# microbiology-cell-wall  # authored-in SCU-FBS103-fbs103c-mcq.md (was: pending)  · Q: Which structural component of Gram-positive bacteria contains a thick 
+# microbiology-continuous-cell-line  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: A type of cell culture that can reproduce for an extended number of ge
+# microbiology-either-dna-or-rna  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: The genome of a virus is exclusively composed of:
+# microbiology-exoenzymes-invasion-factors  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: new; reuses CON-INF-1EAFF70A6FC769)  · Q: The enzymes produced by some bacteria to break down tissue barriers an
+# microbiology-heterotrophs  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: pending; reuses CON-INF-841FAB7F11BA18)  · Q: The bacteria that require preformed organic compounds as a carbon sour
+# microbiology-mycelium  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: A mass of hyphae forming the vegetative portion of a fungus is called:
+# microbiology-obligate-anaerobes  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: Bacteria that can live only in the complete absence of oxygen and die 
+# microbiology-outer-membrane  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: pending; reuses CON-INF-BF26D7E563FB78)  · Q: Which of the following structures is characteristically present in the
+# --- Parasitology ---
+# parasitology-diagnostic-stage  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The specific stage of a parasite that is detected in laboratory specim
+# parasitology-direct-life-cycle  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: What is the life cycle of a parasite that needs only one host?
+# parasitology-eating-undercooked-infected-fish  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-GIT-E20B95815074E4 from Helwan's HU-GIT-301-parasitology-concepts.md)  · Q: Heterophyes heterophyes is transmitted to humans by:
+# parasitology-golden-brown  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: What is the characteristic color of Heterophyes heterophyes eggs?
+# parasitology-molluscs-and-snails  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: In the context of parasitology, the term malacology refers to the scie
+# parasitology-parasite  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: A living organism that depends temporarily or permanently upon another
+# parasitology-rhabditiform-larvae  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: What is the diagnostic stage for some nematodes like Strongyloides ste
+# parasitology-sarcodina  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: According to its old taxonomic classification, which group of protozoa
+# parasitology-scolex  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The head of a tapeworm is called:
+# parasitology-skin-penetration-by-larva  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-GIT-2FCF45AE17574F, same Helwan file as above)  · Q: In the direct life cycle of Hymenolepis nana, which of the following r
+# parasitology-their-site-of-living-in-the-host  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: The distinction between a parasitic infection and an infestation is pr
+# --- Pathology ---
+# pathology-activation-of-caspases  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: Which of the following is considered a characteristic sign of apoptosi
+# pathology-hypertrophy  # authored-in SCU-FBS103-questions.md (was: live)  · Q: When skeletal muscles increase in size following weightlifting exercis
+# pathology-it-is-only-a-pathological-process  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: Which of the following statements is true regarding necrosis?
+# pathology-necrosis  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: Upon microscopic examination of a hepatocyte from a female patient wit
+# pathology-pathogenesis  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: The sequence of events in the response of cells or tissues to an etiol
+# pathology-the-expected-further-outcome-of-a-disease  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The definition of prognosis in pathology refers to:
+# --- Pharmacology ---
+# pharmacology-acetylsalicylic-acid  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: Aspirin is the brand or common name for which of the following chemica
+# pharmacology-cross-tolerance  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: What term is used to describe the development of tolerance to a specif
+# pharmacology-full-agonist  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: A drug that binds to a receptor and produces maximum activation with h
+# pharmacology-full-agonist  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: pending; second of 2 questions sharing this generated key, reuses CON-FND-4388E0D8A75FD4, same id/overlay row as BATCH 1's own full-agonist question)  · Q: Which of the following represents the effect of a drug that produces m
+# pharmacology-microorganisms  # authored-in SCU-FBS103-questions.md (was: live)  · Q: Natural penicillin is primarily obtained from which of the following s
+# pharmacology-nicotinic-receptors  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: pending; automated hit not confirmed on re-check, minted fresh)  · Q: Which type of cholinergic receptors is predominantly located in the ga
+# pharmacology-partial-agonist  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: pending; reuses CON-FND-4388E0D8A75FD4, same id/overlay row as full-agonist above)  · Q: Which of the following drugs binds to a receptor and produces a submax
+# pharmacology-plant-source  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: What is the natural source from which morphine is primarily derived?
+# pharmacology-the-elimination-half-life-of-the-drug-is-cons  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: new; reuses CON-FND-955AD7B6FE6F03)  · Q: Ampicillin is metabolized by first-order kinetics. Which of the follow
+# pharmacology-the-study-of-absorption-distribution-metaboli  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: new; reuses CON-FND-6BB35F11EBD54B)  · Q: Which of the following statements correctly represents the concept of
+# pharmacology-type-b-bizarre  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: Which of the following types of adverse drug reactions is best describ
+# pharmacology-type-e-end-of-dose-adverse-effect  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: The withdrawal manifestations experienced by an addicted patient upon
+# --- Physiology ---
+# physiology-70-mv  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: The resting membrane potential of a typical neuron is approximately:
+# physiology-beta-2-receptors  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: Which type of sympathetic autonomic nervous system receptors is predom
+# physiology-exhaustion-of-the-neurotransmitter-storage  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: What is the primary cause of synaptic fatigue during prolonged and int
+# physiology-inward-movement-of-chloride-ions  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: An inhibitory postsynaptic potential (IPSP) is primarily generated by 
+# physiology-k-leaves-the-neuron-causing-hyperpolarization  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: What happens when voltage-gated potassium (K+) channels open in a rest
+# physiology-ligand-gated-potassium-channels  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: Inhibitory postsynaptic potentials (IPSPs) are most likely caused by t
+# physiology-peripheral-nervous-system-pns  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The nervous system division that links the Central Nervous System with

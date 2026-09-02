@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-hypothalamic-set-point-decreased",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-hypothalamic-set-point-decreased'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Thermoregulation"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-HYPOTHALAMIC-SET-POINT-DECREASED",
+      "key": "physiology-hypothalamic-set-point-decreased",
+      "title": "A fever breaking: the set point resets down",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Thermoregulation",
+      "question": "When a patient's fever breaks and they begin sweating with a flushed face, what has happened physiologically?",
+      "options": {
+        "A": "Heat conservation mechanisms have started",
+        "B": "Passive cooling mechanisms have stopped",
+        "C": "The hypothalamic set point has decreased back toward normal",
+        "D": "The hypothalamic set point has been further elevated"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Heat conservation (vasoconstriction, shivering) is what happens at fever onset, not when a fever breaks; breaking involves heat-loss mechanisms starting, the opposite pattern.",
+        "B": "Incorrect. Passive cooling mechanisms are actively starting, not stopping, at this point — sweating and vasodilation are precisely the active heat-loss responses being switched on.",
+        "C": "Correct. Once the pyrogenic stimulus subsides, the hypothalamic set point resets back down toward its normal value; because core temperature is briefly higher than this newly lowered set point, the hypothalamus switches on sweating and cutaneous vasodilation (the flushed appearance) until temperature falls to match the restored set point. This abrupt transition from fever to normal is traditionally called the crisis, distinguishing it from the more gradual return to baseline seen with lysis.",
+        "D": "Incorrect. This is the opposite of what is happening — a further-elevated set point would produce more shivering and vasoconstriction (rising temperature), not the sweating and flushing described, which reflect the set point falling."
+      },
+      "topic": "Physiology",
+      "subtopic": "Thermoregulation and fever",
+      "main_concept": "CON-FND-BF9E14504963C4",
+      "concept_ids": [
+        "CON-FND-BF9E14504963C4"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-THERMOREGULATION-FEVER"
+      ],
+      "learning_objective": "Explain that when a fever breaks, the hypothalamic set point resets down to normal, and that the resulting sweating and cutaneous vasodilation are the response to a core temperature that is now above the (now-lower) set point.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOM Foundation 1 2026 Q13",
+      "author_notes": ""
+    }
+  ]
+}

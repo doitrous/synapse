@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-cristae",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'histology-cristae'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Cytoplasmic Organelles"
+  },
+  "questions": [
+    {
+      "key": "histology-cristae",
+      "id": "QST-SCUFBS102-S2-PENDING-HISTOLOGY-CRISTAE",
+      "title": "The folded inner mitochondrial membrane",
+      "question": "What is the folded inner surface membrane of the mitochondria called?",
+      "options": {
+        "A": "Cisternae",
+        "B": "Cristae",
+        "C": "Matrix",
+        "D": "Tubules"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cisternae are the flattened, membrane-bound sacs of the endoplasmic reticulum and Golgi apparatus, not a feature of the mitochondrion's own membranes.",
+        "B": "Correct. A mitochondrion is bounded by two unit membranes: a smooth outer membrane carrying porins, and a selectively permeable inner membrane thrown into folds called cristae. The cristae greatly increase the inner membrane's surface area and carry the elementary particles (ATP synthase) that generate ATP by oxidative phosphorylation.",
+        "C": "Incorrect. The matrix is the space enclosed within the inner membrane, holding the citric acid cycle enzymes and mitochondrial DNA — it is a compartment, not the folded membrane itself.",
+        "D": "Incorrect. Tubules are not a standard term for mitochondrial membrane architecture; the inner membrane's folds are specifically called cristae, not tubules."
+      },
+      "topic": "Histology",
+      "subtopic": "Cytoplasmic organelles: mitochondrion",
+      "main_concept": "CON-FND-29AD7E837E1E1E",
+      "concept_ids": ["CON-FND-29AD7E837E1E1E"],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.15,
+      "reasoning_level": 1,
+      "inferred_difficulty": 78,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.15,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-101-HIS-CYTOPLASMIC-ORGANELLES"],
+      "learning_objective": "Name cristae as the folded inner mitochondrial membrane, distinct from the matrix it encloses.",
+      "source_citation": "FOMSCU Foundation 1, EOY Final 2026 Q22",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q22; source-JSON extraction.",
+        "reclassification": "find-existing.mjs's multi-word query 'mitochondrial cristae' returned no existing record (its own live hit for bare 'cristae' is the unrelated vestibular-canal cristae homonym the triage's manual QA pass already flagged). A direct grep for 'cristae' inside docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md found CON-FND-29AD7E837E1E1E, whose own definition states the inner membrane 'is thrown into folds — the cristae'. Overlaid rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md."
+      }
+    }
+  ]
+}

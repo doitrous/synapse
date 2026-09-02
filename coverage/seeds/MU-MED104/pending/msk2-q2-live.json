@@ -1,0 +1,49 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-msk2-2019-g1",
+  "header": "MU-MED104 · 'MSK2 endmodule exam group 1- model answer.pdf' Q2, Physiology, on an existing LIVE concept id (CON-END-1DE2C490ABBA64) — sparse +mu/+MU_Y1/+MU-MED104 overlay for this id is in concept/MU-MED104-concepts.md, not pending-live, since the concept is already live. Underline key, read directly from cached native text. Apply after concept/MU-MED104-concepts.md lands.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "subject": "endo",
+    "module_subject": "MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK2 Endmodule Group 1 > Physiology",
+    "setting": "Clinical",
+    "estimated_seconds": 50,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-msk2-2019-g1-q02",
+      "id": "QST-MUMED104-MSK2G1-Q02",
+      "title": "Enzyme defect behind vitamin D deficiency in chronic renal disease",
+      "question": "Vitamin D deficiency is seen in patients with chronic renal disease due to defect in which one of the following:",
+      "options": { "A": "Alkaline phosphatase enzyme", "B": "Alpha 1 hydroxylase enzyme", "C": "Creatine kinase enzyme", "D": "Elastase enzyme", "E": "25 hydroxylase enzyme" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Alkaline phosphatase is a marker of osteoblastic bone activity (and rises in conditions of increased bone turnover), not the renal enzyme that activates vitamin D; a defect in it is not what chronic kidney disease produces, and it plays no part in the 25-hydroxyvitamin D to 1,25-dihydroxyvitamin D conversion this question concerns.",
+        "B": "Correct. The kidney performs the second, rate-limiting activation step of vitamin D: renal 1-alpha-hydroxylase converts 25-hydroxyvitamin D3 (calcidiol, made in the liver) to the biologically active 1,25-dihydroxyvitamin D3 (calcitriol), a reaction that parathyroid hormone stimulates and that also responds to falling serum phosphate. In chronic renal disease, loss of functioning renal tissue impairs this 1-alpha-hydroxylase step specifically, so calcitriol production falls even when the liver's earlier 25-hydroxylation step is intact, producing the vitamin D deficiency (and downstream secondary hyperparathyroidism and renal osteodystrophy) seen in these patients.",
+        "C": "Incorrect. Creatine kinase is a muscle enzyme used to detect muscle injury (for example in myocardial infarction or rhabdomyolysis), with no role in vitamin D activation; its levels are not what links chronic kidney disease to vitamin D deficiency.",
+        "D": "Incorrect. Elastase is a proteolytic enzyme (for example released by neutrophils, or produced by the exocrine pancreas) with no role in the vitamin D activation pathway; a defect in it does not explain vitamin D deficiency in renal disease.",
+        "E": "Incorrect. 25-hydroxylase performs the first activation step, converting cholecalciferol to 25-hydroxyvitamin D3 in the liver, not the kidney — this step is a hepatic, not a renal, enzyme, so it is not the one impaired by chronic kidney disease, which instead affects the kidney's own second-step enzyme, 1-alpha-hydroxylase."
+      },
+      "main_concept": "CON-END-1DE2C490ABBA64",
+      "concept_ids": ["CON-END-1DE2C490ABBA64"],
+      "contextual_concept_ids": [],
+      "topic": "Calcium and vitamin D physiology",
+      "subtopic": "Renal activation of vitamin D",
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain vitamin D deficiency in chronic renal disease as a defect of renal 1-alpha-hydroxylase, the enzyme that activates 25-hydroxyvitamin D3 to calcitriol.",
+      "media_recommendations": "",
+      "library_ids": ["ART-END-TOP-F922FFBF75"],
+      "source_citation": "MSK2 endmodule exam group 1 - model answer.pdf, Q2 (Menoufia MED104 MSK2 end-module exam, Physiology section)",
+      "field_notes": { "keySource": "underline, read from cached native text, MSK2 endmodule exam group 1- model answer.pdf p1, Q2", "mu": "MSK2 endmodule exam group 1- model answer.pdf, Q2, Physiology section" },
+      "author_notes": ""
+    }
+  ]
+}

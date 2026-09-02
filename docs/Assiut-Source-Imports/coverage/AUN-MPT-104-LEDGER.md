@@ -48,9 +48,29 @@
 | final-2022-q10-irreversible-antagonist | 1 | 0 | 0 | 1 |
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
+| final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
+| quizzes-2022 | 316 | 19 | 106 | 441 |
 
 ## Held
-(none)
+- quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q204 — Printed key names neutrophils as the cell whose fusion forms Langhans' giant cells (Quiz 25 Q7: 'Langhans' giant cells result from fusion of: ... The correct answer is: neutrophils'), but this is pathologically wrong -- Langhans giant cells form from the fusion of activated epithelioid macrophages, not neutrophils, a fact this same lecture's own Q3/Q5 rows (macrophage as the key granuloma cell; epithelioid cells as modified macrophages) directly contradict. Held per the printed-key-vs-pathology-fact conflict rule (same handling as Q19, Q25, Q47, Q166 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q224 — Printed key names Norepinephrine as least likely to cause tachycardia in a recent heart-transplant patient (Quiz 28 Q3: 'Which one of the following drugs is least likely to cause tachycardia in this patient? ... The correct answer is: Norepinephrine'). This is a printed-key/pharmacology conflict: in a normally innervated patient, norepinephrine's alpha1-mediated pressor effect triggers baroreceptor-mediated reflex (vagal) bradycardia that partially offsets its own direct beta1 chronotropic effect, making its net heart-rate effect comparatively small -- but the standard teaching point about a denervated transplanted heart is that this vagal reflex arc to the heart is severed and does not return, so the compensatory bradycardia cannot occur and norepinephrine's direct chronotropic effect would be unopposed, if anything producing MORE tachycardia in a transplant patient than in a normally innervated one, not less. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47, Q166, Q204 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q238 — Printed key names Benign prostatic hypertrophy as the least likely clinical use of alpha1-adrenoceptor antagonists (Quiz 30 Q5: 'Which of the following is the least likely clinical use for alpha-adrenoceptor antagonists? ... The correct answer is: Benign prostatic hypertrophy'), but this contradicts standard pharmacology and this same quiz's own teaching: alpha1 blockers are a mainstay of BPH treatment by relaxing prostatic/bladder-neck smooth muscle. Q3 of this same quiz (q236) names tamsulosin's alpha1A selectivity as specifically suited to BPH, and Q11 (q244) states as a FALSE statement that prazosin 'is not beneficial in patients with BPH' -- confirming prazosin IS beneficial in BPH. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47, Q166, Q204, Q224 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q251 — Printed key names 'clot' for a soft mass of blood constituents forming 'in stagnant blood inside the vessel during life' (Quiz 31 Q7: 'Soft mass of blood constituents in a stagnant blood inside the vessel during life called: ... The correct answer is: clot'). This contradicts the standard pathological distinction: a thrombus is defined as a solid mass forming from blood constituents within a vessel DURING LIFE, while a clot is coagulated blood forming after death (postmortem) or outside the vasculature -- the stem's own wording ('during life') is the textbook definition of thrombus, not clot. This is directly contradicted by this same quiz's own rows: Q2/Q5 (q246/q249) use 'thrombus'/'phlebothrombosis' for exactly this in-vessel-during-life process, Q6 (q250) describes Lines of Zahn as a feature of an antemortem (during-life) thrombus, and Q8 (q252) confirms Virchow's triad concerns 'thrombus' formation. Held per the printed-key-vs-pathology-vocabulary conflict rule (same handling as Q19, Q25, Q47, Q166, Q204, Q224, Q238 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q273 — True/False-formatted question (Quiz 33 Q16, p133: 'A thrombus in leg veins can be complicated by pulmonary embolism' -- printed answer 'True'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed (same reasoning as the q046 match-type hold in an earlier cluster). The underlying fact is already covered by this same lecture's authored Q1 (q258, DVT after fracture complicating to pulmonary thromboembolism) and Q15 (q272, leg veins as the source of pulmonary embolism) -- not a coverage gap.
+- quizzes-2022-q274 — True/False-formatted question (Quiz 33 Q17, p134: 'Fat embolism is the most common type of emboli' -- printed answer 'False'). Held as format-incompatible, same reasoning as q273. The underlying fact (fat embolism is NOT the most frequent embolism type) is already covered by this same lecture's authored Q13 (q270, detached thrombi/thromboembolism confirmed as the most frequent type) -- not a coverage gap.
+- quizzes-2022-q275 — True/False-formatted question (Quiz 33 Q18, p134: 'Pale infarct occurs in highly vascular organs' -- printed answer 'False'). Held as format-incompatible, same reasoning as q273. The underlying fact (pale infarcts occur in single-blood-supply solid organs, not highly vascular/dual-supply ones) is already covered by this same lecture's authored Q5 (q262, red infarct in the dual-supply lung) and Q9 (q266, pale infarct in the single-supply kidney/heart) -- not a coverage gap.
+- quizzes-2022-q276 — True/False-formatted question (Quiz 33 Q19, p134: 'Embolism means circulation of an embolus in a blood vessel.' -- printed answer 'False', since the standard definition of embolism requires the embolus to lodge/obstruct at a distant site, not merely circulate). Held as format-incompatible, same reasoning as q273. This is a genuinely new idea not duplicated elsewhere in this lane's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong definitions the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q277 — True/False-formatted question (Quiz 33 Q20, p134: 'Septic thrombophlebitis plays an important role in the pathogenesis of pyaemic abscesses' -- printed answer 'True'). Held as format-incompatible, same reasoning as q273. This is a genuinely new idea not duplicated elsewhere in this lane's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong mechanisms the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q278 — Printed key names Meclizine as the indicated allergy drug for a 43-year-old ship's captain with seasonal allergies (Quiz 34 Q1: 'Which one of the following would be indicated? ... The correct answer is: Miclizine' [Meclizine]). This is a printed-key/pharmacology conflict: meclizine is a first-generation, sedating antihistamine primarily indicated for motion sickness/vertigo, not first-line for seasonal allergic rhinitis, and its sedating property is specifically unsuited to a ship's captain, who must remain alert while operating a vessel -- the same reasoning that makes a sedating antihistamine a poor choice for a driver (Q19, Q25 in this lane's earlier clusters; and this same Quiz 34's own Q6/q283, which correctly identifies a sedating first-generation antihistamine, diphenhydramine, as the one that impairs a driver's ability). The obviously intended answer given the stem's own logic is Fexofenadine (option D), a non-sedating second-generation antihistamine, but the printed key does not mark it. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47, Q166, Q204, Q224, Q238, Q7/q251 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q298 — True/False-formatted question (Quiz 35 Q15, p145: 'Frequent loss of small amount of blood for long period has no effect' -- printed answer 'False'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed (same reasoning as the q046 match-type hold and the Quiz 33 True/False block). The underlying fact (chronic small blood loss DOES have an effect -- it causes anemia) is already covered by this same lecture's authored Q7 (q290) -- not a coverage gap.
+- quizzes-2022-q299 — True/False-formatted question (Quiz 35 Q16, p145: 'The prognosis of wet gangrene is worse than that of dry gangrene' -- printed answer 'True'). Held as format-incompatible, same reasoning as q298. This prognosis-comparison fact is not itself restated by another authored row in this lecture (q292's reused concept covers moist gangrene's lack of a line of demarcation, a related but distinct fact), so it is a genuinely new idea, but converting it to a real 4-5-option MCQ would require inventing three additional wrong prognosis comparisons the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q300 — True/False-formatted question (Quiz 35 Q17, p145: 'Gangrene means necrosis with putrefaction' -- printed answer 'True'). Held as format-incompatible, same reasoning as q298. This definitional fact is related to, but not restated by, this same lecture's authored Q11 (q294, hydrogen sulphide as gangrene's odour-producing putrefaction product); converting it to a real MCQ would require inventing three wrong definitions the source never tested.
+- quizzes-2022-q301 — True/False-formatted question (Quiz 35 Q18, p146: 'Cardiac oedema is a localised type of oedema' -- printed answer 'False'). Held as format-incompatible, same reasoning as q298. The underlying fact (cardiac oedema is generalized, not localised) is already covered by this same lecture's authored Q4 (q287, lymphatic obstruction as the example of local oedema, implicitly excluding cardiac) and Q10 (q293, malnutrition as a generalized-oedema cause) -- not a coverage gap.
+- quizzes-2022-q302 — True/False-formatted question (Quiz 35 Q19, p146: 'Gangrene of the lower limbs is of the dry type due to evaporation of fluid' -- printed answer 'True'). Held as format-incompatible, same reasoning as q298. This dry-gangrene-mechanism fact is not restated by another authored row in this lecture (this lecture's own authored Q14/q297 covers the opposite case, moist gangrene from volvulus), so it is a genuinely new idea, but converting it to a real MCQ would require inventing three wrong mechanisms the source never tested.
+- quizzes-2022-q303 — Match-type question (Quiz 35 Q20, p146: match Moist gangrene / Dry gangrene / Haemorrhage / Fat embolism to intussusception / atheroma / aneurysm / bone fracture respectively). Held as format-incompatible: not translatable to this platform's single-answer 4-5-option MCQ format without inventing wrong pairings the source never tested, the same reasoning as the q046 match-type hold in an earlier cluster. The four underlying facts are scattered examples (intussusception causing moist gangrene, atheroma causing dry gangrene, aneurysm causing haemorrhage, bone fracture causing fat embolism), none of which duplicate this lecture's own authored rows.
+- quizzes-2022-q304 — Match-type question (Quiz 35 Q21, p147: match Thrombus / Haemorrhage / Venous congestion / Edema to infarction / melena / varices / ascites respectively). Held as format-incompatible, same reasoning as q303. The four underlying facts are scattered examples (thrombus causing infarction, haemorrhage presenting as melena, venous congestion causing varices, oedema causing ascites); the ascites/oedema pairing is related to, but not identical to, this lecture's authored Q1/Q8 (q284/q291, hepatic and cardiac oedema and ascites), so this is not a coverage gap for that specific fact, but the other three pairings are genuinely new and equally untranslatable without fabricating a distractor set.
+- quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
 - Q1  IV route for emergency antidote administration -- new
@@ -98,3 +118,109 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
+- quizzes-2022-q336
+- quizzes-2022-q337
+- quizzes-2022-q338
+- quizzes-2022-q339
+- quizzes-2022-q340
+- quizzes-2022-q341
+- quizzes-2022-q342
+- quizzes-2022-q343
+- quizzes-2022-q344
+- quizzes-2022-q345
+- quizzes-2022-q346
+- quizzes-2022-q347
+- quizzes-2022-q348
+- quizzes-2022-q349
+- quizzes-2022-q350
+- quizzes-2022-q351
+- quizzes-2022-q352
+- quizzes-2022-q353
+- quizzes-2022-q354
+- quizzes-2022-q355
+- quizzes-2022-q356
+- quizzes-2022-q357
+- quizzes-2022-q358
+- quizzes-2022-q359
+- quizzes-2022-q360
+- quizzes-2022-q361
+- quizzes-2022-q362
+- quizzes-2022-q363
+- quizzes-2022-q364
+- quizzes-2022-q365
+- quizzes-2022-q366
+- quizzes-2022-q367
+- quizzes-2022-q368
+- quizzes-2022-q369
+- quizzes-2022-q370
+- quizzes-2022-q371
+- quizzes-2022-q372
+- quizzes-2022-q373
+- quizzes-2022-q374
+- quizzes-2022-q375
+- quizzes-2022-q376
+- quizzes-2022-q377
+- quizzes-2022-q378
+- quizzes-2022-q379
+- quizzes-2022-q380
+- quizzes-2022-q381
+- quizzes-2022-q382
+- quizzes-2022-q383
+- quizzes-2022-q384
+- quizzes-2022-q385
+- quizzes-2022-q386
+- quizzes-2022-q387
+- quizzes-2022-q388
+- quizzes-2022-q389
+- quizzes-2022-q390
+- quizzes-2022-q391
+- quizzes-2022-q392
+- quizzes-2022-q393
+- quizzes-2022-q394
+- quizzes-2022-q395
+- quizzes-2022-q396
+- quizzes-2022-q397
+- quizzes-2022-q398
+- quizzes-2022-q399
+- quizzes-2022-q400
+- quizzes-2022-q401
+- quizzes-2022-q402
+- quizzes-2022-q403
+- quizzes-2022-q404
+- quizzes-2022-q405
+- quizzes-2022-q406
+- quizzes-2022-q407
+- quizzes-2022-q408
+- quizzes-2022-q409
+- quizzes-2022-q410
+- quizzes-2022-q411
+- quizzes-2022-q412
+- quizzes-2022-q413
+- quizzes-2022-q414
+- quizzes-2022-q415
+- quizzes-2022-q416
+- quizzes-2022-q417
+- quizzes-2022-q418
+- quizzes-2022-q419
+- quizzes-2022-q420
+- quizzes-2022-q421
+- quizzes-2022-q422
+- quizzes-2022-q423
+- quizzes-2022-q424
+- quizzes-2022-q425
+- quizzes-2022-q426
+- quizzes-2022-q427
+- quizzes-2022-q428
+- quizzes-2022-q429
+- quizzes-2022-q430
+- quizzes-2022-q431
+- quizzes-2022-q432
+- quizzes-2022-q433
+- quizzes-2022-q434
+- quizzes-2022-q435
+- quizzes-2022-q436
+- quizzes-2022-q437
+- quizzes-2022-q438
+- quizzes-2022-q439
+- quizzes-2022-q440
+- quizzes-2022-q441

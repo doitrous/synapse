@@ -629,7 +629,7 @@ Adenylate cyclase synthesises cAMP from ATP, and phosphodiesterase degrades cAMP
 SCU-FBS102 > Biochemistry > Enzymes and Cell Signalling
 
 ## field_notes
-scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q12 — tests ATP as cAMP's precursor. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md.
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q12 (also 2023 Q12) — one concept covers ATP as cAMP's precursor, asked from both exam years with "directly derived"/"directly synthesized" phrasing; lane 4 (scu-fbs102-author4) adds the second question citing this row. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md.
 
 ---
 
@@ -704,7 +704,7 @@ Glycine is the one amino acid with no asymmetric carbon, making it optically ina
 SCU-FBS102 > Biochemistry > Amino Acids and Proteins
 
 ## field_notes
-scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q5 — tests glycine as optically inactive. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md.
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q5 (also 2023 Q5) — one concept covers glycine as optically inactive, asked from both exam years with "chiral carbon center"/"chiral center" phrasing; lane 4 (scu-fbs102-author4) adds the second question citing this row. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md.
 
 ---
 
@@ -754,7 +754,7 @@ Irreversible inhibitors permanently disable an enzyme, either by blocking its co
 SCU-FBS102 > Biochemistry > Enzymes
 
 ## field_notes
-scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q14 — tests irreversible (covalent) enzyme inhibition. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q14 (also 2023 Q14) — one concept covers irreversible (covalent) enzyme inhibition, asked from both exam years with "forming strong bonds"/"forming strong covalent bonds" phrasing; lane 4 (scu-fbs102-author4) adds the second question citing this row. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
 
 ---
 
@@ -780,6 +780,7 @@ SCU-FBS102 > Histology > Cytology > Cell Membrane
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q30 (also 2022 Q10) — tests phospholipids as the membrane-forming component. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+scu2: (lane 3, scu-fbs102-author3) EOY Final 2026 Q53 — same concept, different question: tests the membrane's full phospholipid/protein/glycolipid/glycoprotein composition, stated in this concept's own definition.
 
 ---
 
@@ -898,13 +899,14 @@ Gastrulation makes the trilaminar disc in the third week, and all three of its l
 +1
 
 ## modules
-+SCU-FBS102
++SCU-FBS102 | +SCU-FBS103
 
 ## module_subject
 SCU-FBS102 > Embryology > Gastrulation
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q33 (also 2022 Q13) — tests the epiblast origin of the trilaminar disc. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+scu-fbs103 (scu-fbs103-author1): a second FOMSCU printing of the same fact, FOMSCU Foundation 2 EOM MID 2026 Q29 — same epiblast-origin trilaminar-disc claim. Per LANE-CARD.md §7's standing rule, this extends the existing row's `modules`/field_notes rather than creating a new overlay row. Question lives in docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-questions.md. Same apply-after target.
 
 ---
 
@@ -999,12 +1001,15 @@ The Golgi is a stack of flat saccules with an entry and an exit face, and everyt
 
 ## modules
 +SCU-FBS102
++SCU-FBS103
 
 ## module_subject
 SCU-FBS102 > Histology > Cytology > Cytoplasmic Organelles
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, EOM 2026 Q10 and EOY 2026 Q23 — same Golgi packaging/modification function, asked from two source papers. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+scu2: (lane 3, scu-fbs102-author3) EOM Mid 2026 Q15 — same concept, different question: tests the Golgi's stacked-saccule EM structure directly, rather than its packaging function.
+scu3: (lane 3, scu-fbs103-author3, cluster 'fbs103c') FOMSCU Foundation 2 QBank, Formative 2025 Q2 — same Golgi packaging-of-proteins fact, tested from a Foundation 2 (not Foundation 1) paper against RER/SER/peroxisome distractors. Same apply-after target as above; the SCU-FBS103 module tag is the only genuine addition.
 
 ---
 
@@ -1055,6 +1060,7 @@ SCU-FBS102 > Histology > Nervous Tissue > Peripheral Nerve Coverings
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q46 (also 2022 Q26) — tests the perineurium as the per-fascicle covering. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-105-histology-concepts.md.
+scu2: (lane 3, scu-fbs102-author3) Formative and Past Exams 2021 Q22 (also 2022 Q2) — same concept, different question: tests the epineurium as the whole-trunk covering, the other of the three coverings this concept's own explicit_objective names.
 
 ---
 
@@ -1130,3 +1136,492 @@ SCU-FBS102 > Physiology > Cell Physiology > Membrane Transport
 
 ## field_notes
 scu: FOMSCU Foundation 1 QBank, EOY 2026 Q57 — tests receptor-mediated endocytosis as the route lipoproteins take into cells. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---------------------------------------------------------------------------
+BATCH 3 (third author lane, scu-fbs102-author3) — the S2 minting pass's own
+9 pending-reuse rows. These 9 concepts started this lane's "new" bucket
+(from the Anatomy/Histology/Biochemistry triage clusters), but a closer
+find-existing.mjs + grep pass found each one already stated in another
+module's own pending concept batch — a gap in find-existing.mjs itself
+(its pending-batch scanner reads only a `##` heading's first line; a fact
+sitting past line 1 of a multi-line `aliases` or `definition` block is
+invisible to it). Sparse SCU tags only, never a full record, so this can
+never evict another university's data. 10 FOMSCU questions cover these 9
+concepts (alpha-glucose and glucose-alpha-linkages share one concept, the
+starch/glycogen record) — see docs/FOMSCU-Source-Imports/pending-live/
+SCU-FBS102-s2-pending-reuse-questions.md.
+
+Gate batch 3's questions together with each row's own source file (named in
+its field_notes) plus this overlay file:
+node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-s2-pending-reuse-questions.md \
+  --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md \
+  --with docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md \
+  --with docs/Kasr-Source-Imports/article/103-BMS-mcq-lipid.md \
+  --with docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md \
+  --with docs/Alexandria-Source-Imports/article/AU-MED-102-biochem-structural-articles.md \
+  --with docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md \
+  --with docs/Kasr-Source-Imports/article/102-INT-coverage.md \
+  --with docs/Kasr-Source-Imports/article/102-INT-biochemistry.md \
+  --with docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md \
+  --with docs/Kasr-Source-Imports/article/101-ISK-histology.md \
+  --with docs/Kasr-Source-Imports/article/101-ISK-histology-2.md \
+  --with docs/Kasr-Source-Imports/article/101-ISK-histology-3.md \
+  --with docs/Alexandria-Source-Imports/concept/AU-MED-105-histology-concepts.md \
+  --with docs/Alexandria-Source-Imports/article/AU-MED-105-histology-articles.md
+
+---
+
+# Item
+
+## id
+CON-FND-177A829022AC8F
+
+## label
+A fatty acid is activated to acyl-CoA in the cytosol, and only carnitine can carry it across the inner mitochondrial membrane
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Lipid Metabolism
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q55 (also 2022 Q35) — tests acyl-CoA synthetase as the fatty-acid-activating enzyme, stated in this concept's own definition. Target — apply after docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-BCF22EBBACF9E8
+
+## label
+The induced-fit model describes an enzyme's active site as flexible, reshaping around the substrate as it binds -- lipase is a textbook example of this flexible catalytic-site behaviour, contrasted with the older, rigid lock-and-key model
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Enzymes
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q70 (also 2022 Q49) — tests Fischer's lock-and-key model, stated in this concept's own pitfalls field as the contrasted rigid model. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-4706C1246E4B76
+
+## label
+Starch is the storage polysaccharide of chlorophyll-containing plants and glycogen the storage polysaccharide of animals, both branched or unbranched polymers of D-glucose linked by alpha1,4 (and, where branched, alpha1,6) glucosidic bonds
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Carbohydrates
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q25 and Q59 (also 2022 Q5 and Q39) — two FOMSCU questions on this one concept: starch's alpha-glucose composition, and amylose's alpha-1,4 linkage specifically. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-028C50A610B2A2
+
+## label
+Km is the substrate concentration that gives half the maximal velocity, and a smaller Km means higher enzyme-substrate affinity
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Enzymes
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q50 — tests the Michaelis constant's definition directly. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-B22A5E7A56EC8F
+
+## label
+The goblet cell is a unicellular exocrine gland: one flask-shaped mucous-secreting cell sitting within a surface epithelium
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Glandular Epithelium
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q28 — tests the goblet cell as the unicellular exocrine gland example directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-0E38E21957DB05
+
+## label
+Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytoplasmic Organelles
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q25 — tests rough ER's role in synthesising protein for export directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---------------------------------------------------------------------------
+BATCH 3 (fourth author lane, scu-fbs102-author4) — histology + biochemistry
+cluster. Nine new sparse SCU-tag overlay rows below, for the nine of this
+lane's sixteen authored questions that reuse an existing concept found only
+after a closer grep pass (find-existing.mjs's multi-word phrase queries
+returned "no existing record" for all nine — the exact substring the tool
+requires was never present — but a direct grep for each candidate's most
+distinctive single term inside `docs/*-Source-Imports/concept/` found a
+genuine match; every hit was read in full before treating it as one). All
+nine ids are checked directly against server/data/medical-library-v1.json's
+concept graph: none of the nine are live, all nine are PENDING against
+Kasr's own unimported batches (apply-after file named per row below). The
+other seven of this lane's sixteen questions are either newly minted
+(sibling concept/SCU-FBS102-s2-author4-mint-concepts.md, four concepts) or a
+second FOMSCU-exam-year citation on a concept already tagged `+scu` above
+(the three field_notes edits just above this divider — ATP, glycine,
+irreversible-inhibition).
+
+Same rule as batches 1 and 2: this file only adds SCU's own tags onto an id
+that already exists elsewhere, never a full record, so it can never evict
+another university's data.
+
+Gate batch 3 together with every file named in this batch's field_notes:
+node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-s2-author4-questions.md \
+  --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md \
+  --with docs/FOMSCU-Source-Imports/concept/SCU-FBS102-s2-author4-mint-concepts.md \
+  --with docs/FOMSCU-Source-Imports/article/SCU-FBS102-s2-author4-mint-articles.md \
+  --with docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md \
+  --with docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md \
+  --with docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md \
+  --with docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md \
+  --with docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md
+---------------------------------------------------------------------------
+
+# Item
+
+## id
+CON-FND-29AD7E837E1E1E
+
+## label
+A mitochondrion is two membranes — a smooth outer one with porins and an inner one folded into cristae — around a matrix that holds its own DNA
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytoplasmic Organelles
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q22 — tests cristae as the mitochondrion's folded inner membrane directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-38ABCC4E4E4E68
+
+## label
+Myo-epithelial cells lie between the base of the secretory cells and the basement membrane, and contract to squeeze secretion into the duct
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Glandular Epithelium
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q30 — tests myoepithelial cells as found around exocrine-gland acini (salivary, mammary, sweat) directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-9EA7F8E2898EB7
+
+## label
+The active fibroblast comes from the mesenchymal cell and is built to synthesise protein
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
++SCU-FBS103
+
+## module_subject
+SCU-FBS102 > Histology > Connective Tissue > Cells of Connective Tissue
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q33 — tests the fibroblast as the cell that forms ground substance. The Kasr concept's own evidence_gaps note names ground substance as one of the products its definition should be widened to list explicitly (not yet done); this overlay cites the concept as the correct home for the fact rather than minting a rival fibroblast key, per that note's own instruction. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+scu2: (lane 3, scu-fbs103-author3, cluster 'fbs103c') FOMSCU Foundation 2 QBank, Formative 2025 Q12 — same mesenchymal-cell-differentiates-into-fibroblast origin fact, tested from a Foundation 2 (not Foundation 1) paper. Same apply-after target as above; the SCU-FBS103 module tag is the only genuine addition. Note: this concept's own id is CON-FND-9EA7F8E2898EB7, referenced under docs/Kasr-Source-Imports/concept/101-ISK-concepts.md (not the -mcq- file).
+
+---
+
+# Item
+
+## id
+CON-FND-2560DB7970AF40
+
+## label
+Organelles are living and essential, inclusions are not, and organelles divide into membranous and non-membranous
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytoplasmic Organelles
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOM 2026 Q11 — tests filaments (cytoskeleton) as a non-membranous organelle, among lysosome/mitochondria/peroxisome as membranous distractors. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-1ACE68A9080772
+
+## label
+A lysosome is a single-membrane bag of hydrolytic enzymes made in the rER, packed by the Golgi, and shown only by histochemistry
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytoplasmic Organelles
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOM 2026 Q10-area (asked as "which organelle is formed by the Golgi apparatus") — tests that the lysosome's enzymes are packed and released by the Golgi. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-CE178A6B5707B1
+
+## label
+Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q21 — tests silver stain as the stain that demonstrates reticular fibres directly. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-MSK-B080975D6171CF
+
+## label
+Skeletal, cardiac and smooth muscle differ across site, size, fibre composition, shape, branching, sarcolemma, striation, nuclei, sarcomeres, tubular system, cell junctions, regeneration, action and innervation
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Muscle Tissue > Smooth Muscle
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q56 (also 2022 Q36) — tests smooth muscle as the involuntary, non-striated muscle type, drawn from this comparison table's striation and action rows. Target — apply after docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-2EAD7BC676C215
+
+## label
+The zonula occludens fuses adjacent membranes at points, encircles the apex of the cell, and seals the space between cells
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Epithelial Tissue
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY Final 2026 Q31 — tests the tight junction (zonula occludens) as the diffusion barrier between adjacent cells, a generic-epithelium question, distinct from AU-MED-105's Sertoli-cell-specific tight-junction concept the triage's automated pass originally (falsely) matched. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-30D2E317144DDF
+
+## label
+Lipids are classified by composition into simple lipids (fatty acid + alcohol only, e.g. triacylglycerol), compound lipids (fatty acid + alcohol + another group), and derived lipids (hydrolysis products such as free fatty acids and steroids, or substances associated with lipids in nature)
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Lipids of Biological Importance
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q45 (also 2022 Q25) — tests cholesterol as a derived lipid (steroids are this concept's own named derived-lipid example). Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+<!--
+  BATCH 4 (fifth author lane, scu-fbs103-author3 — FBS102 leftovers pass,
+  cluster 'fbs102d'). Covers 2 of the 3 reuse questions in the sibling
+  pending-live/SCU-FBS102-s2-author3-reuse-questions.md (the third,
+  cloacal membrane, extends CON-DEV-1AAC12ECDA6AE2's existing +scu row in
+  docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-overlay-concepts.md
+  instead of appearing here). This lane's other 6 FBS102 questions mint
+  fresh concepts instead.
+
+  ONE (1) — pending (exists only in another lane's own unimported batch;
+  checked directly against the live JSON: not in it):
+
+    A. docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md (amniotic cavity: epiblast forms its floor, amnioblast its roof)
+
+  Both reuse questions below cite the same concept (two different FOMSCU
+  papers asking the same fact from opposite phrasing — "roofed by epiblast"
+  vs "epiblast forms the floor" — the second phrasing matches this concept's
+  own definition precisely; the first is honoured as printed since the
+  answer, Amniotic cavity, is correct either way).
+
+  Gate together with:
+  node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-s2-author3-reuse-questions.md \
+    --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md
+-->
+
+# Item
+
+## id
+CON-DEV-59DB99C028C33F
+
+## label
+The embryoblast splits into epiblast and hypoblast, and the cavity that opens above the epiblast is roofed by amnioblast
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q1 and Q34 (also repeated in 2022 Q14 and 2023 Q1) — two phrasings of the same fact, which cavity the epiblast bounds. Q1's "roofed by the epiblast" phrasing is loose; Q34's "epiblast... forms the floor" phrasing matches this concept's own definition exactly (amnioblast is the roof, epiblast the floor). The printed answer, Amniotic cavity, is correct under either phrasing, so both questions are authored and both keep the printed key; the explanation for each is written to state the accurate floor/roof assignment rather than repeat Q1's imprecise "roofed by" wording. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.

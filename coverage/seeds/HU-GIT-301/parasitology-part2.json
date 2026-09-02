@@ -1,0 +1,1553 @@
+{
+  "lane": "HU-GIT-301",
+  "cluster": "parasitology-part2",
+  "header": "HU-GIT-301 · Parasitology — Part 2 (Intestinal nematodes, pp.14-19), authored from the department parasitology MCQ bank, keys rendered from the bank’s own printed p.26 answer grid.",
+  "defaults": {
+    "subject": "gi",
+    "status": "Draft",
+    "owner": "Helwan Year-3 authoring lane",
+    "universities": [
+      "hu"
+    ],
+    "years": [
+      "HU_Y3"
+    ],
+    "module": "HU-GIT-301",
+    "module_subject": "HU-GIT-301 > Parasitology > Intestinal nematodes",
+    "exam_weight_by_year": {
+      "HU_Y3": 0.4
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-HU-GIT301-PARA-NEMATODES"
+    ],
+    "resource_ids": [],
+    "setting": "Academic",
+    "estimated_seconds": 70,
+    "randomise_answers": true,
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "learning_objective": "Apply the correct parasitology fact to select the accepted (or, in an \"except\" stem, the excepted) statement."
+  },
+  "questions": [
+    {
+      "key": "liver-biopsy.parasitic-diagnosis",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q60",
+      "page": 14,
+      "title": "Liver biopsy is used for diagnosis of:",
+      "question": "Liver biopsy is used for diagnosis of:",
+      "options": {
+        "A": "Visceral larva migrans",
+        "B": "Fasciola hepatica",
+        "C": "Fasciola gigantica",
+        "D": "Clonorchis sinensis",
+        "E": "All of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Liver biopsy is used for diagnosis of visceral larva migrans, the tissue-invasive larval infection caused by the dog/cat ascarid Toxocara, because histology can directly demonstrate the migrating larva together with its surrounding eosinophilic granulomatous reaction in liver tissue. This tissue-based approach is needed precisely because Toxocara larvae never mature into egg-laying adults in the human gut, so there is no stool egg stage to examine instead. Recognising visceral larva migrans as the option this hepatic tissue diagnosis specifically applies to is the fact tested here.",
+        "B": "Fasciola hepatica is instead diagnosed by stool or duodenal-aspirate egg examination and, in the early pre-patent phase, by serology, not routinely by liver biopsy.",
+        "C": "Fasciola gigantica is instead diagnosed by stool or duodenal-aspirate egg examination and, in the early pre-patent phase, by serology, not routinely by liver biopsy.",
+        "D": "Clonorchis sinensis, the Chinese liver fluke, is diagnosed by finding its eggs in stool or duodenal aspirate, not routinely by liver biopsy.",
+        "E": "Since Fasciola hepatica, Fasciola gigantica and Clonorchis sinensis are all diagnosed by egg examination rather than liver biopsy, \"all of the above\" is incorrect; liver biopsy applies specifically to the tissue-migrating Toxocara larva."
+      },
+      "main_concept": "CON-GIT-55B7FFBCC3813D",
+      "topic": "Nematoda",
+      "subtopic": "Visceral larva migrans",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #60, p.14; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.mode-of-infection.egg-not-larva",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q61",
+      "page": 14,
+      "title": "Ingestion of larvae is the mode of infection of all these nematodes, except:",
+      "question": "Ingestion of larvae is the mode of infection of all these nematodes, except:",
+      "options": {
+        "A": "Capillaria philippinensis",
+        "B": "Trichostrongylus",
+        "C": "Enterobius vermicularis",
+        "D": "All of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Capillaria philippinensis genuinely infects man by ingestion of larvae (in insufficiently cooked fish), so this true statement is not the exception.",
+        "B": "Trichostrongylus genuinely infects man by ingestion of infective larvae contaminating vegetables, so this true statement is not the exception.",
+        "C": "Enterobius vermicularis is the exception: it infects by ingestion of its egg, not a larva, which then hatches within the small intestine to release the larva that matures there. This egg-ingestion pattern, distinct from the larva-ingestion route of Capillaria philippinensis and Trichostrongylus, is also what enables Enterobius's airborne and retroinfective transmission routes, mechanisms unavailable to a larva-ingesting nematode. Recognising Enterobius as the exception to the \"ingestion of larvae\" pattern shared by the other two organisms is the point of this question.",
+        "D": "Since Capillaria philippinensis and Trichostrongylus genuinely share the larva-ingestion mode of infection while Enterobius vermicularis does not, \"all of the above\" is incorrect; option c is the true exception."
+      },
+      "main_concept": "CON-GIT-3812D763B83D17",
+      "topic": "Nematoda",
+      "subtopic": "Mode of infection",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #61, p.14; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "hookworm-group.iron-deficiency-anemia",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q62",
+      "page": 14,
+      "title": "All these helminths cause anemia, except:",
+      "question": "All these helminths cause anemia, except:",
+      "options": {
+        "A": "Trichuris trichiura",
+        "B": "Ancylostoma caninum",
+        "C": "Necator americanus",
+        "D": "Trichostrongylus colubriformis",
+        "E": "Fasciolopsis buski"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Trichuris trichiura genuinely causes anemia through chronic intestinal blood loss, so this true statement is not the exception.",
+        "B": "Ancylostoma caninum is the exception: it is a dog-only hookworm whose filariform larvae can penetrate human skin but cannot mature into an adult, blood-feeding worm within the human intestine, so it produces cutaneous larva migrans rather than the chronic mucosal blood loss that causes anemia. This is why Ancylostoma caninum, despite sharing the \"hookworm\" name with genuinely anemia-causing species, is the answer to this \"except\" question. The other four options are all genuine causes of intestinal blood loss and resulting anemia in man.",
+        "C": "Necator americanus genuinely causes anemia through chronic intestinal blood loss, so this true statement is not the exception.",
+        "D": "Trichostrongylus colubriformis genuinely causes anemia through chronic intestinal blood loss, so this true statement is not the exception.",
+        "E": "Fasciolopsis buski is not classically grouped with the blood-feeding intestinal nematodes as a cause of iron-deficiency anemia in this bank, so it is not the exception this \"except\" question is testing for among the listed nematodes."
+      },
+      "main_concept": "CON-GIT-14D35B1D4C4F4E",
+      "topic": "Nematoda",
+      "subtopic": "Helminth-associated anemia",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #62, p.14; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "autoinfection.parasite-scope",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q63",
+      "page": 14,
+      "title": "Autoinfection may occur in infection with these parasites, except:",
+      "question": "Autoinfection may occur in infection with these parasites, except:",
+      "options": {
+        "A": "Hymenolepis nana",
+        "B": "Enterobius vermicularis",
+        "C": "Strongyloides stercoralis",
+        "D": "Ancylostoma duodenale"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Hymenolepis nana genuinely is capable of autoinfection through its direct cysticercoid development in intestinal villi, so this true statement is not the exception.",
+        "B": "Enterobius vermicularis genuinely is capable of autoinfection through retroinfection, in which perianally hatched larvae migrate back through the anus, so this true statement is not the exception.",
+        "C": "Strongyloides stercoralis genuinely is capable of autoinfection, converting rhabditiform larvae to infective filariform larvae within the gut or on perianal skin, so this true statement is not the exception.",
+        "D": "Ancylostoma duodenale is the exception: its egg must first develop externally in favourable soil conditions into an infective filariform larva before it can infect a new host, so it cannot autoinfect the same host it is already established in. This external soil-development requirement contrasts with the direct or internal autoinfective cycles of the other three organisms listed, none of which need to leave the host's body (or its immediate environment) to become re-infective. Recognising Ancylostoma duodenale as the exception to autoinfection capacity among these four intestinal parasites is the fact tested here."
+      },
+      "main_concept": "CON-GIT-34829890F3985C",
+      "topic": "Nematoda",
+      "subtopic": "Autoinfection",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #63, p.14; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "intestinal-nematodes.diagnostic-stage.adult-worm",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q64",
+      "page": 14,
+      "title": "Adult worms may be a diagnostic stage in the following infections, except:",
+      "question": "Adult worms may be a diagnostic stage in the following infections, except:",
+      "options": {
+        "A": "Ascariasis",
+        "B": "Ancylostomiasis",
+        "C": "Strongyloidiasis",
+        "D": "Enterobiasis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ascaris lumbricoides adult worms genuinely can be a diagnostic finding, since they may be passed in stool or vomited and directly identified, so this true statement is not the exception.",
+        "B": "Ancylostomiasis is the exception: hookworm disease from Ancylostoma duodenale is diagnosed in routine practice by finding eggs on stool examination, because the adult worms remain firmly attached to the intestinal mucosa by their buccal cutting plates and are not a practical stool finding, unlike the other three infections listed. This makes ancylostomiasis the correct answer to this \"except\" question about adult-worm diagnostic recovery. The bulk of hookworm diagnosis in practice therefore rests on the egg, not the worm itself.",
+        "C": "Strongyloidiasis genuinely can occasionally show adult-worm recovery alongside its usual larval diagnostic stage in heavy infection, so this true statement is not the exception.",
+        "D": "Enterobiasis genuinely can show adult Enterobius vermicularis worms on perianal skin or occasionally in stool, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-A2A06601B4D8A4",
+      "topic": "Nematoda",
+      "subtopic": "Diagnostic stages",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #64, p.14; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "trichuris-trichiura.no-migratory-phase",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q65",
+      "page": 14,
+      "title": "As regards Trichuris trichiura, all the following are true, except:",
+      "question": "As regards Trichuris trichiura, all the following are true, except:",
+      "options": {
+        "A": "It is a whip-like worm",
+        "B": "It has a migratory phase outside the intestine",
+        "C": "It inhabits the caecum and adjacent parts of small and large intestine",
+        "D": "The female is oviparous"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Trichuris trichiura genuinely is a whip-like worm, so this true statement is not the exception.",
+        "B": "Trichuris trichiura has no migratory phase outside the intestine at all: unlike Ascaris lumbricoides and the hookworms, whose larvae migrate through the bloodstream and lungs before establishing intestinal infection, the ingested Trichuris egg's larva develops entirely within the gut. This is why option b is the false statement among the four, making it the answer to this \"except\" question. The other three statements correctly describe the whip-like shape, caecal/adjacent-bowel habitat, and oviparous female of Trichuris trichiura.",
+        "C": "Trichuris trichiura genuinely inhabits the caecum and adjacent parts of the small and large intestine, so this true statement is not the exception.",
+        "D": "The female Trichuris trichiura genuinely is oviparous (egg-laying), so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-652CB5E7405E53",
+      "topic": "Nematoda",
+      "subtopic": "Trichuris trichiura biology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #65, p.14; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "stool-examination.helminth-scope",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q66",
+      "page": 14,
+      "title": "Stool examination can be used for diagnosis of all these helminths, except:",
+      "question": "Stool examination can be used for diagnosis of all these helminths, except:",
+      "options": {
+        "A": "Necator americanus",
+        "B": "Ascaris lumbricoides",
+        "C": "Ancylostoma caninum",
+        "D": "Strongyloides stercoralis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Necator americanus genuinely is diagnosed by stool examination for its eggs, so this true statement is not the exception.",
+        "B": "Ascaris lumbricoides genuinely is diagnosed by stool examination for its eggs (or, less commonly, adult worms), so this true statement is not the exception.",
+        "C": "Ancylostoma caninum is the exception: because its larvae cannot mature into an adult, egg-shedding worm within the human intestine, it never establishes the type of intestinal infection that stool examination could detect, producing only a cutaneous larva migrans skin reaction instead. This absence of an intestinal, egg-producing stage is precisely why stool examination cannot diagnose Ancylostoma caninum, unlike the genuinely intestine-dwelling organisms in the other three options. Recognising this species' inability to complete development in man is the fact tested here.",
+        "D": "Strongyloides stercoralis genuinely is diagnosed by stool examination for its rhabditiform larvae, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-BFD2D52A353171",
+      "topic": "Nematoda",
+      "subtopic": "Stool diagnosis scope",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #66, p.14; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.larva-currens",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q67",
+      "page": 14,
+      "title": "Larva currens occurs due to infection with:",
+      "question": "Larva currens occurs due to infection with:",
+      "options": {
+        "A": "Ancylostoma caninum",
+        "B": "Ancylostoma duodenale",
+        "C": "Strongyloides stercoralis",
+        "D": "All of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ancylostoma caninum causes cutaneous larva migrans, a much more slowly advancing skin track, not the rapid larva currens pattern this question asks about.",
+        "B": "Ancylostoma duodenale causes ground itch at the site of skin penetration, not the rapidly migrating larva currens track.",
+        "C": "Larva currens occurs due to infection with Strongyloides stercoralis, caused by its autoinfective filariform larvae re-penetrating perianal or perineal skin and migrating rapidly (several centimetres per hour) through the dermis, producing a fast-moving urticarial track. This rapid migration speed is the hallmark that distinguishes larva currens from the far slower cutaneous larva migrans track caused by animal hookworm larvae, and it is a specific clinical clue to ongoing Strongyloides autoinfection. Recognising Strongyloides stercoralis as the cause of this specific, rapidly advancing skin lesion is the point of this question.",
+        "D": "Since Ancylostoma caninum and Ancylostoma duodenale do not produce the rapid larva currens pattern, \"all of the above\" is incorrect; the finding is specific to Strongyloides stercoralis."
+      },
+      "main_concept": "CON-GIT-14ABC9FF549976",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides clinical features",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #67, p.14; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.rhabditiform-larva-morphology",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q68",
+      "page": 15,
+      "title": "Rhabditiform larvae of Strongyloides have a:",
+      "question": "Rhabditiform larvae of Strongyloides have a:",
+      "options": {
+        "A": "Long mouth cavity",
+        "B": "Large genital primordium",
+        "C": "Tapering tail with sharp end",
+        "D": "A sheath"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A long mouth cavity is instead a feature of hookworm rhabditiform larvae, which are differentiated from Strongyloides larvae partly on this basis; Strongyloides has a short buccal cavity.",
+        "B": "Rhabditiform larvae of Strongyloides stercoralis have a large, prominent genital primordium visible on microscopy, together with a characteristically short buccal (mouth) cavity — shorter than that of hookworm rhabditiform larvae. This combination of features is the key way Strongyloides larvae are differentiated from hookworm rhabditiform larvae on stool or duodenal-aspirate examination, an important distinction when both infections are being considered. Recognising the large genital primordium as a defining Strongyloides larval feature is the fact tested here.",
+        "C": "A tapering tail with a sharp end is a general nematode larval feature but is not the specific differentiating feature (large genital primordium, short buccal cavity) tested here for Strongyloides rhabditiform larvae.",
+        "D": "A sheath is a feature of the infective filariform larval stage of certain nematodes (such as hookworm filariform larvae), not a feature used to identify the Strongyloides rhabditiform larva."
+      },
+      "main_concept": "CON-GIT-DCC6D015826D41",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides morphology",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #68, p.15; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.larva-morphology.double-bulbed-oesophagus",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q69",
+      "page": 15,
+      "title": "Double bulbed oesophagus is a characteristic feature of:",
+      "question": "Double bulbed oesophagus is a characteristic feature of:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Enterobius vermicularis",
+        "C": "Strongyloides stercoralis",
+        "D": "Trichinella spiralis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ascaris lumbricoides is not the organism this bank's printed key names for a double-bulbed oesophagus.",
+        "B": "This bank's printed answer key (p.26) names Enterobius vermicularis for this item. Standard undergraduate parasitology teaching more commonly attributes a bulbed rhabditiform oesophagus to Strongyloides stercoralis larvae instead, as covered in the companion concept on Strongyloides's large genital primordium and short buccal cavity. The printed key's choice of Enterobius is nonetheless kept as printed here, per the lane's standing instruction to preserve a doubtful printed key rather than silently correct it, and the doubt itself is recorded in this item's field notes for a reviewer to weigh.",
+        "C": "Strongyloides stercoralis is the organism most commonly taught to have a bulbed rhabditiform oesophagus, but it is not the option this bank's printed key selects for this specific item; the printed key names option b instead, and is kept as printed.",
+        "D": "Trichinella spiralis is not the organism this bank's printed key names for a double-bulbed oesophagus."
+      },
+      "main_concept": "CON-GIT-72B74B588567C3",
+      "topic": "Nematoda",
+      "subtopic": "Nematode larval/oesophageal morphology",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #69, p.15; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)",
+        "doubtfulKey": "Printed key names Enterobius vermicularis (b) for \"double bulbed oesophagus\"; standard teaching more commonly attributes this to Strongyloides stercoralis rhabditiform larvae. Kept as printed; doubt recorded on the covering concept (enterobius-vermicularis.oesophagus.double-bulbed-per-printed-key)."
+      }
+    },
+    {
+      "key": "trichuris-trichiura.mucosal-attachment",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q70",
+      "page": 15,
+      "title": "Trichuris trichiura (whipworm) maintains its position in the intestinal tract by:",
+      "question": "Trichuris trichiura (whipworm) maintains its position in the intestinal tract by:",
+      "options": {
+        "A": "Anchoring to mucosal surface with its attenuated anterior portion",
+        "B": "Penetrating the mucosa with its attenuated anterior portion",
+        "C": "Attachment with its cephalic alae",
+        "D": "Attachment with its cutting plates"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This bank's printed key names penetration, not surface anchoring, as how Trichuris trichiura maintains its intestinal position; describing the attachment as simple anchoring understates the degree of mucosal penetration by the thin anterior portion.",
+        "B": "Trichuris trichiura (whipworm) maintains its position in the intestinal tract by penetrating the mucosa with its attenuated anterior portion, threading its thin, whip-like anterior end through the superficial epithelium of the caecal and adjacent bowel mucosa. This penetrating mode of attachment, rather than a simple surface grip, is what fixes the worm in place and gives it its common name. Recognising penetration by the attenuated anterior portion, per this bank's printed key, as the mechanism tested here is the point of this question.",
+        "C": "Cephalic alae are wing-like cuticular expansions seen in some other nematodes (such as Ancylostoma), not the attachment structure used by Trichuris trichiura.",
+        "D": "Cutting plates are a hookworm buccal capsule feature used for attaching to and feeding from the mucosa, not the attachment mechanism of Trichuris trichiura, which instead penetrates the mucosa with its attenuated anterior end."
+      },
+      "main_concept": "CON-GIT-58E2DC3BCDB569",
+      "topic": "Nematoda",
+      "subtopic": "Trichuris trichiura attachment",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #70, p.15; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "nematodes.large-intestine-habitat",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q71",
+      "page": 15,
+      "title": "Nematodes inhabiting the large intestine is/are:",
+      "question": "Nematodes inhabiting the large intestine is/are:",
+      "options": {
+        "A": "Trichuris trichiura",
+        "B": "Enterobius vermicularis",
+        "C": "All of the above",
+        "D": "Strongyloides stercoralis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Trichuris trichiura genuinely inhabits the large intestine (caecum and adjacent bowel), so this option alone is true but incomplete.",
+        "B": "Enterobius vermicularis genuinely inhabits the large intestine (caecum, appendix and adjacent colon), so this option alone is true but incomplete.",
+        "C": "Trichuris trichiura and Enterobius vermicularis both inhabit the large intestine as their primary habitat: Trichuris in the caecum and adjacent bowel, and Enterobius in the caecum, appendix and adjacent colon, with gravid females migrating out to the perianal region to deposit eggs. This shared large-bowel habitat contrasts with Strongyloides stercoralis, which instead inhabits the small intestine, chiefly the duodenum and jejunum. Recognising that both large-intestine-dwelling nematodes are correct together, rather than either alone, is the point of this question, and it is precisely why Strongyloides is excluded as the fourth option.",
+        "D": "Strongyloides stercoralis inhabits the small intestine, not the large intestine, so it is not among the nematodes this question is asking about."
+      },
+      "main_concept": "CON-GIT-4E44AA38D16CB4",
+      "topic": "Nematoda",
+      "subtopic": "Nematode habitat",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #71, p.15; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "trichuris-trichiura.egg-morphology.bipolar-plugs",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q72",
+      "page": 15,
+      "title": "Bipolar mucoid plugs are a specific morphological character for eggs of:",
+      "question": "Bipolar mucoid plugs are a specific morphological character for eggs of:",
+      "options": {
+        "A": "Enterobius vermicularis egg",
+        "B": "Trichuris trichiura eggs",
+        "C": "Hookworm egg",
+        "D": "Ascaris lumbricoides"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Enterobius vermicularis eggs are plano-convex with a thin double-walled shell, not barrel-shaped with bipolar mucoid plugs.",
+        "B": "Bipolar mucoid plugs are a specific morphological character for eggs of Trichuris trichiura, whose barrel-shaped, thick brown-shelled egg bears a translucent mucoid plug at each pole. This distinctive shape and plug pattern readily distinguishes the Trichuris egg on stool microscopy from the other nematode eggs covered in this cluster, none of which share this bipolar-plug barrel morphology. Recognising bipolar plugs as diagnostic of Trichuris trichiura specifically is the fact tested here.",
+        "C": "Hookworm eggs are thin-shelled and ovoid with blunt, rounded poles, not barrel-shaped with bipolar mucoid plugs.",
+        "D": "Ascaris lumbricoides eggs are typically thick-shelled and coarsely mamillated (or, when decorticated, smooth-shelled), not barrel-shaped with bipolar mucoid plugs."
+      },
+      "main_concept": "CON-GIT-709E28E2095B5A",
+      "topic": "Nematoda",
+      "subtopic": "Trichuris egg morphology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #72, p.15; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "trichuris-trichiura.complication.rectal-prolapse",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q73",
+      "page": 15,
+      "title": "Rectal prolapse is a complication in heavy infection with:",
+      "question": "Rectal prolapse is a complication in heavy infection with:",
+      "options": {
+        "A": "Enterobius vermicularis",
+        "B": "Trichuris trichiura",
+        "C": "Hookworm",
+        "D": "Ascaris lumbricoides"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Enterobius vermicularis is not classically associated with rectal prolapse; its complications instead relate to perianal pruritus, ectopic migration and, rarely, appendicitis.",
+        "B": "Rectal prolapse is a complication in heavy infection with Trichuris trichiura, reflecting the chronic straining, tenesmus and mucosal irritation produced by a dense worm burden anchored in the rectal and colonic mucosa, particularly in malnourished children. This complication is a specific, recognised consequence of Trichuris's large-bowel/rectal habitat and its irritant anchoring effect on the mucosa, distinguishing it from the other nematodes listed. Recognising Trichuris trichiura as the organism linked to this complication is the point of this question.",
+        "C": "Hookworm infection causes iron-deficiency anemia from chronic blood loss, not rectal prolapse.",
+        "D": "Ascaris lumbricoides infection can cause appendicitis, intestinal obstruction and biliary obstruction from bulk worm masses, not rectal prolapse."
+      },
+      "main_concept": "CON-GIT-5DEAC87AB891C0",
+      "topic": "Nematoda",
+      "subtopic": "Trichuriasis complications",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #73, p.15; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "hookworm.iron-deficiency-anemia",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q74",
+      "page": 15,
+      "title": "Iron deficiency anemia may be caused by:",
+      "question": "Iron deficiency anemia may be caused by:",
+      "options": {
+        "A": "Ancylostoma duodenale",
+        "B": "Trichuris trichiura",
+        "C": "All of the above",
+        "D": "Ancylostoma caninum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ancylostoma duodenale genuinely causes iron-deficiency anemia through chronic intestinal blood loss, so this option alone is true but incomplete.",
+        "B": "Trichuris trichiura genuinely causes iron-deficiency anemia through chronic intestinal blood loss, so this option alone is true but incomplete.",
+        "C": "Iron deficiency anemia may be caused by both Ancylostoma duodenale and Trichuris trichiura, which each produce chronic intestinal blood loss at their feeding or attachment sites. This shared anemia-causing pathogenicity distinguishes both organisms from Ancylostoma caninum, a dog-only hookworm whose larvae cannot mature into a blood-feeding adult worm in man. Recognising that both human-pathogenic organisms listed are correct together, rather than either alone, is the point of this question, which is also why Ancylostoma caninum is included as the fourth, incorrect option.",
+        "D": "Ancylostoma caninum cannot mature into an adult, blood-feeding worm within the human intestine, producing cutaneous larva migrans instead of the chronic blood loss that causes iron-deficiency anemia."
+      },
+      "main_concept": "CON-GIT-14D35B1D4C4F4E",
+      "topic": "Nematoda",
+      "subtopic": "Helminth-associated anemia",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #74, p.15; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "intestinal-nematodes.complication.appendicitis",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q75",
+      "page": 15,
+      "title": "Appendicitis is a complication of infection with:",
+      "question": "Appendicitis is a complication of infection with:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Enterobius vermicularis",
+        "C": "Trichuris trichiura",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Ascaris lumbricoides genuinely is a recognised cause of appendicitis, by migrating into and obstructing the appendiceal lumen, so this option alone is true but incomplete.",
+        "B": "Enterobius vermicularis genuinely is a recognised cause of appendicitis, by lodging within the appendix and provoking local inflammation, so this option alone is true but incomplete.",
+        "C": "Trichuris trichiura genuinely is a recognised, though less common, cause of appendicitis, so this option alone is true but incomplete.",
+        "D": "Appendicitis is a complication of infection with all three organisms listed — Ascaris lumbricoides, Enterobius vermicularis and Trichuris trichiura — each capable, though to varying degrees, of obstructing the appendiceal lumen or provoking local mucosal inflammation when worms migrate into or lodge within the appendix. This item retests, with a narrower organism list, the same helminthic-appendicitis fact already established for Ascaris lumbricoides, Enterobius vermicularis, Trichuris trichiura and Taenia saginata. Recognising that helminthic appendicitis spans this whole list, not any one \"classic\" worm, is the fact tested here."
+      },
+      "main_concept": "CON-GIT-5AF3E7C4293A73",
+      "topic": "Nematoda",
+      "subtopic": "Helminthic obstruction and appendicitis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #75, p.15; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.corticosteroid-hyperinfection-risk",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q76",
+      "page": 15,
+      "title": "Before submitting a person to corticosteroid therapy, the patient must be screened for:",
+      "question": "Before submitting a person to corticosteroid therapy, the patient must be screened for:",
+      "options": {
+        "A": "Trichuris trichiura",
+        "B": "Enterobius vermicularis",
+        "C": "All of the above",
+        "D": "Strongyloides stercoralis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Trichuris trichiura infection does not carry a specific corticosteroid-related hyperinfection risk requiring pre-treatment screening.",
+        "B": "Enterobius vermicularis infection does not carry a specific corticosteroid-related hyperinfection risk requiring pre-treatment screening.",
+        "C": "Since only Strongyloides stercoralis, not \"all of the above,\" carries the specific corticosteroid-hyperinfection risk among these options, this answer is incorrect.",
+        "D": "Before submitting a person to corticosteroid therapy, the patient must be screened for Strongyloides stercoralis, because corticosteroids suppress the host immune response that normally limits the parasite's internal autoinfective cycle, allowing massive, potentially fatal hyperinfection or disseminated strongyloidiasis. This screening requirement is specific to Strongyloides among the intestinal nematodes in this cluster, since only it has the internal autoinfective larval cycle that immunosuppression can catastrophically amplify. Recognising Strongyloides stercoralis as the organism requiring this pre-corticosteroid screening is the fact tested here."
+      },
+      "main_concept": "CON-GIT-D377EBA78DD37E",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides and immunosuppression",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #76, p.15; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "capillaria-philippinensis.mode-of-infection",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q77",
+      "page": 16,
+      "title": "As regards Capillaria philippinensis, which of the following is not true:",
+      "question": "As regards Capillaria philippinensis, which of the following is not true:",
+      "options": {
+        "A": "Eating insufficiently cooked fish is the mode of infection",
+        "B": "Eating improperly washed vegetables is the mode of infection",
+        "C": "Egg is diagnostic stage",
+        "D": "Causes watery diarrhoea"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Eating insufficiently cooked fish genuinely is the mode of infection for Capillaria philippinensis, so this true statement is not the false one this \"not true\" question asks for.",
+        "B": "Eating improperly washed vegetables is not the mode of infection for Capillaria philippinensis; its infective larva is fish-borne, acquired by eating insufficiently cooked fresh-water fish, not from contaminated vegetables. This is the false statement among the four, which is why it is the answer to this \"which is not true\" question. The vegetable-contamination route instead describes transmission for soil-transmitted helminth eggs such as those of Ascaris or Trichuris.",
+        "C": "The egg genuinely is the diagnostic stage of Capillaria philippinensis, identified by its characteristic peanut-shaped, striated shell on stool examination, so this true statement is not the false one this question asks for.",
+        "D": "Capillaria philippinensis genuinely causes watery diarrhoea, part of the protein-losing enteropathy driven by its autoinfective cycle and heavy worm burden, so this true statement is not the false one this question asks for."
+      },
+      "main_concept": "CON-GIT-663BF173017BE0",
+      "topic": "Nematoda",
+      "subtopic": "Capillaria philippinensis",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #77, p.16; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.corticosteroid-hyperinfection-risk",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q78",
+      "page": 16,
+      "title": "Cortisone is contraindicated in treatment of:",
+      "question": "Cortisone is contraindicated in treatment of:",
+      "options": {
+        "A": "Fasciola gigantica",
+        "B": "Strongyloides stercoralis in heavy infection",
+        "C": "Taenia solium",
+        "D": "Toxocariasis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Fasciola gigantica infection is not aggravated by cortisone; it has no comparable corticosteroid-related hyperinfection mechanism.",
+        "B": "Cortisone (a corticosteroid) is contraindicated in treatment of a patient with heavy Strongyloides stercoralis infection, because immunosuppressing the host allows the parasite's internal autoinfective cycle to escalate into massive hyperinfection or disseminated disease, which can be fatal. This specific contraindication reflects Strongyloides's unique capacity for autoinfection among the organisms listed, none of which share this corticosteroid-triggered hyperinfection risk. Recognising heavy Strongyloides infection as the specific contraindication to cortisone among these options is the point of this question.",
+        "C": "Taenia solium infection is not aggravated by cortisone; it has no comparable corticosteroid-related hyperinfection mechanism.",
+        "D": "Toxocariasis is not aggravated by cortisone in the way heavy Strongyloides infection is; corticosteroids may in fact sometimes be used adjunctively to manage severe inflammatory manifestations of visceral larva migrans, unlike their contraindication in strongyloidiasis."
+      },
+      "main_concept": "CON-GIT-D377EBA78DD37E",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides and immunosuppression",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #78, p.16; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "heterophyes.complication.myocarditis",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q79",
+      "page": 16,
+      "title": "Myocarditis is a complication of infection with:",
+      "question": "Myocarditis is a complication of infection with:",
+      "options": {
+        "A": "Heterophyes heterophyes",
+        "B": "Strongyloides stercoralis in heavy infection",
+        "C": "Fasciola gigantica",
+        "D": "Ascaris lumbricoides",
+        "E": "All of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Myocarditis is a complication of infection with Heterophyes heterophyes, because some of its eggs penetrate the intestinal mucosa, enter mesenteric venules, and embolize through the circulation to ectopic sites, most seriously the heart, where they provoke a local inflammatory and embolic injury. This cardiac complication, though uncommon, is specifically associated with Heterophyes among the organisms listed here, none of which share its small, wall-penetrating egg behaviour. Recognising Heterophyes heterophyes as the organism linked to this specific cardiac complication is the fact this item, retesting a Part 1 concept alongside this cluster's nematodes, is testing.",
+        "B": "Strongyloides stercoralis in heavy infection is linked to autoinfective hyperinfection and larva currens, not to ectopic egg embolization and myocarditis.",
+        "C": "Fasciola gigantica causes hepatobiliary disease from bile duct infestation, not egg embolism to the heart.",
+        "D": "Ascaris lumbricoides can cause pulmonary migration (Loeffler's syndrome) and, in heavy infection, mechanical obstruction, but it is not linked to ectopic egg embolization and myocarditis.",
+        "E": "Since Strongyloides stercoralis, Fasciola gigantica and Ascaris lumbricoides do not share Heterophyes's small, wall-penetrating egg behaviour, \"all of the above\" is incorrect; the myocarditis risk is specific to Heterophyes heterophyes among these four organisms."
+      },
+      "main_concept": "CON-GIT-C465585A0366E5",
+      "topic": "Trematoda",
+      "subtopic": "Heterophyes complications",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #79, p.16; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.retroinfection",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q80",
+      "page": 16,
+      "title": "Autoinfection occurs in:",
+      "question": "Autoinfection occurs in:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Enterobius vermicularis",
+        "C": "Ancylostoma duodenale",
+        "D": "Trichuris trichiura"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ascaris lumbricoides has a direct life cycle requiring soil development of its egg before it becomes infective by ingestion; it does not autoinfect the same host.",
+        "B": "Autoinfection (retroinfection) occurs in Enterobius vermicularis when eggs deposited on perianal skin by the gravid female hatch there and the released larvae migrate backward through the anal canal into the rectum, re-establishing infection without ever leaving the host. This mechanism is a distinctive feature of Enterobius among these four organisms and helps explain why enterobiasis can persist despite hand-hygiene measures aimed at hand-to-mouth transmission alone. Recognising Enterobius vermicularis as the organism capable of this specific perianal retroinfection route is the fact tested here.",
+        "C": "Ancylostoma duodenale requires external soil development of its egg into an infective filariform larva before a new host can be infected; it does not autoinfect the same host.",
+        "D": "Trichuris trichiura has no autoinfective route; its egg must develop in soil before becoming infective, and the worm develops entirely within the intestine without any perianal or internal autoinfective cycle."
+      },
+      "main_concept": "CON-GIT-8617D2CDC85CB6",
+      "topic": "Nematoda",
+      "subtopic": "Enterobius autoinfection",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #80, p.16; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "ascaris-lumbricoides.loefflers-syndrome",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q81",
+      "page": 16,
+      "title": "Loeffler's syndrome accompanies infection with:",
+      "question": "Loeffler's syndrome accompanies infection with:",
+      "options": {
+        "A": "Hookworms",
+        "B": "Ascaris",
+        "C": "Strongyloides",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Hookworms genuinely can accompany Loeffler's syndrome, since their larvae also migrate through the lungs, so this option alone is true but incomplete.",
+        "B": "Ascaris genuinely can accompany Loeffler's syndrome, reflecting its own pulmonary larval migration, so this option alone is true but incomplete.",
+        "C": "Strongyloides genuinely can accompany Loeffler's syndrome, since its larvae also migrate through the lungs during development, so this option alone is true but incomplete.",
+        "D": "Loeffler's syndrome accompanies infection with all three organisms listed — hookworms, Ascaris and Strongyloides — because all of their larvae pass through the lungs on the way to the small intestine, provoking the same hypersensitivity-driven chest symptoms and high eosinophilia. This shared pulmonary migratory phase, rather than any one organism alone, is why the syndrome is not specific to a single nematode. Recognising that all three organisms can produce Loeffler's syndrome is the point of this question."
+      },
+      "main_concept": "CON-GIT-C4679409F59219",
+      "topic": "Nematoda",
+      "subtopic": "Loeffler's syndrome",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #81, p.16; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "ascaris-lumbricoides.egg-morphology.single-cell",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q82",
+      "page": 16,
+      "title": "The parasite that lays eggs containing a single cell is:",
+      "question": "The parasite that lays eggs containing a single cell is:",
+      "options": {
+        "A": "Ancylostoma duodenale",
+        "B": "Enterobius vermicularis",
+        "C": "Strongyloides",
+        "D": "Ascaris lumbricoides"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Ancylostoma duodenale eggs are typically already segmenting or contain a developing morula when passed in fresh stool, not a single undivided cell.",
+        "B": "Enterobius vermicularis eggs already contain a developing larva by the time they are deposited on perianal skin, not a single undivided cell.",
+        "C": "Strongyloides eggs hatch within the intestinal mucosa before being passed, so they are essentially not seen as a single-cell egg in stool at all.",
+        "D": "The parasite that lays an egg containing a single cell when passed is Ascaris lumbricoides, whose fertilised ovum has not yet begun cleavage at the time of passage and must undergo a period of soil development, over roughly two to four weeks, before its larva matures to the infective stage within the shell. This single-cell-at-passage feature distinguishes the freshly laid Ascaris egg from the more developed eggs or larvae of the other options listed. Recognising Ascaris lumbricoides as the organism with this single-cell egg is the fact tested here."
+      },
+      "main_concept": "CON-GIT-AE947A0DB988BC",
+      "topic": "Nematoda",
+      "subtopic": "Ascaris egg morphology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #82, p.16; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "ascaris-lumbricoides.pulmonary-migration",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q83",
+      "page": 16,
+      "title": "The parasite that passes through the lungs during development in the human body is:",
+      "question": "The parasite that passes through the lungs during development in the human body is:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Enterobius vermicularis",
+        "C": "Trichuris trichiura",
+        "D": "Ancylostoma caninum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The parasite that passes through the lungs during development in the human body is Ascaris lumbricoides: after hatching in the small intestine, its larvae penetrate the gut wall, enter the bloodstream, migrate through the liver to the lungs, break into the alveoli, ascend the bronchial tree, and are swallowed to mature back in the small intestine. This pulmonary migratory route, also shared by the hookworms and Strongyloides, contrasts with Enterobius, Trichuris and Ancylostoma caninum in the other options, none of which share this lung-passage developmental pattern. Recognising Ascaris lumbricoides as an organism whose larvae pass through the lungs is the fact tested here.",
+        "B": "Enterobius vermicularis develops entirely within the intestine after its egg is ingested, with no pulmonary migratory phase.",
+        "C": "Trichuris trichiura develops entirely within the intestine after its egg is ingested, with no pulmonary migratory phase.",
+        "D": "Ancylostoma caninum, a dog-only hookworm, cannot complete meaningful development or migration in the human body at all; its larvae are confined to causing cutaneous larva migrans in man."
+      },
+      "main_concept": "CON-GIT-82D069F854C57A",
+      "topic": "Nematoda",
+      "subtopic": "Ascaris life cycle",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #83, p.16; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "ascaris-lumbricoides.complications.obstruction",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q84",
+      "page": 16,
+      "title": "Acute appendicitis, intestinal obstruction and bile duct obstruction are possible complications of:",
+      "question": "Acute appendicitis, intestinal obstruction and bile duct obstruction are possible complications of:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Strongyloides stercoralis",
+        "C": "Hymenolepis nana",
+        "D": "Ancylostoma caninum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Acute appendicitis, intestinal obstruction and bile duct obstruction are possible complications of Ascaris lumbricoides, all following from a heavy adult worm burden physically obstructing a narrow lumen — the appendiceal orifice, the small intestine itself as a worm bolus, or the common bile duct when a wandering worm migrates into it. This bulk-obstruction complication pattern reflects Ascaris's characteristically large size and heavy worm loads, distinguishing it from the smaller-burden infections in the other options. Recognising Ascaris lumbricoides as the organism linked to all three of these mechanical complications together is the fact tested here.",
+        "B": "Strongyloides stercoralis does not typically cause this bulk-obstruction complication pattern; its clinical concerns instead centre on autoinfection, hyperinfection and larva currens.",
+        "C": "Hymenolepis nana does not typically cause this bulk-obstruction complication pattern; its clinical concerns instead relate to heavy paediatric burden and autoinfection.",
+        "D": "Ancylostoma caninum cannot establish an intestinal worm burden in man at all, producing only cutaneous larva migrans, so it cannot cause these mechanical obstruction complications."
+      },
+      "main_concept": "CON-GIT-BD99E16F832BA8",
+      "topic": "Nematoda",
+      "subtopic": "Ascaris complications",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #84, p.16; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "ascaris-lumbricoides.loefflers-syndrome",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q85",
+      "page": 17,
+      "title": "Loeffler's syndrome manifests with:",
+      "question": "Loeffler's syndrome manifests with:",
+      "options": {
+        "A": "Loss of appetite and abdominal discomfort",
+        "B": "Chest troubles and high eosinophilia",
+        "C": "Alternating attacks of diarrhoea and constipation",
+        "D": "High periodic fever and lymphadenopathy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Loss of appetite and abdominal discomfort are nonspecific intestinal symptoms, not the chest-and-eosinophilia pattern that defines Loeffler's syndrome.",
+        "B": "Loeffler's syndrome manifests with chest troubles (cough, wheeze, transient pulmonary infiltrates) and high eosinophilia, reflecting a hypersensitivity reaction to larvae, such as those of Ascaris lumbricoides, migrating through lung tissue during their developmental route to the small intestine. This chest-and-eosinophilia presentation is the defining clinical picture of the syndrome, distinguishing it from purely intestinal symptom patterns. Recognising this specific chest/eosinophilia manifestation is the fact tested here.",
+        "C": "Alternating attacks of diarrhoea and constipation describe a nonspecific intestinal symptom pattern, not the chest-and-eosinophilia picture of Loeffler's syndrome.",
+        "D": "High periodic fever and lymphadenopathy describe a different clinical pattern (suggestive of a systemic or lymphatic process), not the chest-and-eosinophilia picture of Loeffler's syndrome."
+      },
+      "main_concept": "CON-GIT-C4679409F59219",
+      "topic": "Nematoda",
+      "subtopic": "Loeffler's syndrome",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #85, p.17; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "ascaris-lumbricoides.egg-maturation-in-soil",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q86",
+      "page": 17,
+      "title": "For the egg of Ascaris to develop, they:",
+      "question": "For the egg of Ascaris to develop, they:",
+      "options": {
+        "A": "Need favourable conditions in soil",
+        "B": "Must be in contact with fresh water diluting the stool",
+        "C": "Must be swallowed by the suitable intermediate host",
+        "D": "Must be swallowed by humans and exposed to the acidity of the stomach"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "For the egg of Ascaris to develop into an infective form, they need favourable conditions in soil — adequate moisture, warmth, shade and oxygen — over a period of roughly two to four weeks, during which the larva develops and moults within the shell. Ascaris has a direct life cycle with no intermediate host and no dependence on fresh water or gastric acidity for its egg to mature; soil conditions alone govern its development. Recognising favourable soil conditions as what the Ascaris egg needs is the fact tested here.",
+        "B": "Contact with fresh water diluting the stool is not what Ascaris eggs need to mature; they develop directly in soil, not through a water-dilution step.",
+        "C": "Ascaris lumbricoides has a direct life cycle with no intermediate host at all, so being swallowed by a suitable intermediate host is not part of its egg maturation.",
+        "D": "Being swallowed by humans and exposed to stomach acidity describes activation of an already-infective form for some other organisms, not how the Ascaris egg matures from a single cell into an infective larva-containing egg, which happens in soil before ingestion."
+      },
+      "main_concept": "CON-GIT-A134E72614DE00",
+      "topic": "Nematoda",
+      "subtopic": "Ascaris egg development",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #86, p.17; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.treatment.ivermectin",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q87",
+      "page": 17,
+      "title": "Ivermectin is the drug of choice for treatment of:",
+      "question": "Ivermectin is the drug of choice for treatment of:",
+      "options": {
+        "A": "Strongyloidiasis",
+        "B": "Trichinosis",
+        "C": "Trichuriasis",
+        "D": "None of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Ivermectin is the drug of choice for treatment of strongyloidiasis, working by opening glutamate-gated chloride channels unique to invertebrate nerve and muscle cells, causing paralysis and death of the parasite. This mechanism-specific target makes ivermectin highly effective and safe for treating Strongyloides stercoralis, and it is preferred over other anthelmintics for this specific infection. Recognising ivermectin as strongyloidiasis's drug of choice, rather than trichinosis's or trichuriasis's, is the fact tested here.",
+        "B": "Trichinosis is managed with albendazole or mebendazole, often combined with corticosteroids for its inflammatory phase, not with ivermectin as the primary drug of choice.",
+        "C": "Trichuriasis is treated with mebendazole or albendazole, not with ivermectin as the primary drug of choice.",
+        "D": "Since ivermectin genuinely is the drug of choice for strongyloidiasis among the options implied by this item, \"none of the above\" is incorrect."
+      },
+      "main_concept": "CON-GIT-9FE3EF6E432ECF",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloidiasis treatment",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #87, p.17; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.larva-currens",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q88",
+      "page": 17,
+      "title": "Larva currens occurs due to infection with:",
+      "question": "Larva currens occurs due to infection with:",
+      "options": {
+        "A": "Ancylostoma caninum",
+        "B": "Ancylostoma duodenale",
+        "C": "Strongyloides stercoralis",
+        "D": "Necator americanus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ancylostoma caninum causes cutaneous larva migrans, a much more slowly advancing skin track, not the rapid larva currens pattern this question asks about.",
+        "B": "Ancylostoma duodenale causes ground itch at the site of skin penetration, not the rapidly migrating larva currens track.",
+        "C": "Larva currens occurs due to infection with Strongyloides stercoralis, caused by its autoinfective filariform larvae re-penetrating perianal or perineal skin and migrating rapidly (several centimetres per hour) through the dermis, producing a fast-moving urticarial track. This rapid migration speed is the hallmark that distinguishes larva currens from the far slower cutaneous larva migrans track caused by animal hookworm larvae, and it is a specific clinical clue to ongoing Strongyloides autoinfection. Recognising Strongyloides stercoralis as the cause of this specific, rapidly advancing skin lesion is the point of this question.",
+        "D": "Necator americanus, the New World hookworm, causes ground-itch-type skin penetration reactions and, established in the intestine, chronic blood-loss anemia, not the rapidly migrating larva currens track."
+      },
+      "main_concept": "CON-GIT-14ABC9FF549976",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides clinical features",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #88, p.17; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.diagnosis.stool-culture",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q89",
+      "page": 17,
+      "title": "Stool culture helps in diagnosis of:",
+      "question": "Stool culture helps in diagnosis of:",
+      "options": {
+        "A": "Strongyloidiasis",
+        "B": "Fascioliasis",
+        "C": "Trichinosis",
+        "D": "Ascariasis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Stool culture helps in diagnosis of strongyloidiasis, because culture techniques (such as the Harada-Mori filter-paper method) allow motile rhabditiform larvae passed in low numbers to develop and multiply over several days, increasing detection sensitivity beyond a single direct stool smear. This technique exploits the unique, motile, developing larval stage of Strongyloides stercoralis, a feature not shared by the other options listed. Recognising strongyloidiasis as the infection stool culture specifically aids in diagnosing is the fact tested here.",
+        "B": "Fascioliasis is diagnosed by direct or concentrated egg examination (or serology in the early phase), not by stool culture.",
+        "C": "Trichinosis is diagnosed by muscle biopsy and serology, since Trichinella's life cycle does not pass a free larval or egg stage through the gut lumen for stool culture to detect.",
+        "D": "Ascariasis is diagnosed by direct or concentrated stool egg examination, not by stool culture."
+      },
+      "main_concept": "CON-GIT-E7E6A0569C00BC",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides diagnosis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #89, p.17; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.diagnosis.duodenal-aspiration",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q90",
+      "page": 17,
+      "title": "Duodenal aspiration can be used to diagnose:",
+      "question": "Duodenal aspiration can be used to diagnose:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Strongyloides stercoralis",
+        "C": "Ancylostoma duodenale",
+        "D": "Enterobius vermicularis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ascaris lumbricoides is reliably diagnosed by routine stool egg examination, without needing duodenal aspiration.",
+        "B": "Duodenal aspiration can be used to diagnose Strongyloides stercoralis, recovering its rhabditiform larvae directly from the duodenal/jejunal mucosa it inhabits, which offers higher sensitivity than a single stool examination when infection intensity is low. This direct sampling approach reflects Strongyloides's small-intestinal habitat and the practical limitation of stool examination when larval output is scanty. Recognising Strongyloides stercoralis as the organism duodenal aspiration specifically helps diagnose is the fact tested here.",
+        "C": "Ancylostoma duodenale is reliably diagnosed by routine stool egg examination, without needing duodenal aspiration.",
+        "D": "Enterobius vermicularis is a large-intestine and perianal parasite, not diagnosed by any duodenal or small-intestinal sampling technique; a perianal swab is used instead."
+      },
+      "main_concept": "CON-GIT-72E984BC493430",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides diagnosis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #90, p.17; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.portal-of-entry.skin",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q91",
+      "page": 17,
+      "title": "The usual portal of entry of Strongyloides is:",
+      "question": "The usual portal of entry of Strongyloides is:",
+      "options": {
+        "A": "Anal orifice",
+        "B": "Skin",
+        "C": "Nasal orifices",
+        "D": "Mouth"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anal orifice is not the usual portal of entry for Strongyloides stercoralis; that description applies instead to Enterobius vermicularis's retroinfective route.",
+        "B": "The usual portal of entry of Strongyloides is the skin, typically of the feet or lower legs on contact with contaminated soil, actively penetrated by the infective filariform larva, which then enters the subcutaneous tissue and bloodstream to begin its migratory route through the lungs to the small intestine. This skin-penetration route parallels that of the hookworms and contrasts with the oral-ingestion route used by Ascaris, Enterobius and Trichuris. Recognising skin penetration as Strongyloides's usual portal of entry is the fact tested here.",
+        "C": "The nasal orifices are not a recognised portal of entry for Strongyloides stercoralis.",
+        "D": "The mouth (oral ingestion) is not the usual portal of entry for Strongyloides stercoralis, which instead typically enters through active skin penetration by its filariform larva."
+      },
+      "main_concept": "CON-GIT-5D42E39D871090",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides transmission",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #91, p.17; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.diagnostic-stage.rhabditiform-larva",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q92",
+      "page": 17,
+      "title": "The diagnostic stage of Strongyloides stercoralis in stool is:",
+      "question": "The diagnostic stage of Strongyloides stercoralis in stool is:",
+      "options": {
+        "A": "Egg",
+        "B": "Filariform larva",
+        "C": "Rhabditiform larva",
+        "D": "All of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The egg of Strongyloides stercoralis is essentially never seen in stool, because it hatches within the intestinal mucosa before being passed.",
+        "B": "The filariform larva typically develops later, outside the body in soil, or during autoinfection within the gut or on perianal skin; it is not the stage routinely found in stool for diagnosis.",
+        "C": "The diagnostic stage of Strongyloides stercoralis in stool is the rhabditiform larva, the first-stage, non-infective larva released after the egg hatches within the intestinal mucosa. Because eggs are essentially never seen in stool and the filariform larva typically develops outside the body or during autoinfection, the rhabditiform larva is the practical stool finding used for routine diagnosis. Recognising the rhabditiform larva, rather than the egg or filariform larva, as this diagnostic stage is the fact tested here.",
+        "D": "Since the egg is essentially never seen in stool and the filariform larva is not the routine diagnostic finding, \"all of the above\" is incorrect; the rhabditiform larva alone is the practical diagnostic stage."
+      },
+      "main_concept": "CON-GIT-9041A06C9B074B",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides diagnostic stage",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #92, p.17; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.larva-currens",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q93",
+      "page": 17,
+      "title": "Larva currens is caused by:",
+      "question": "Larva currens is caused by:",
+      "options": {
+        "A": "Furocercous cercaria of schistosomes",
+        "B": "Infective filariform larva of Ancylostoma duodenale",
+        "C": "Infective filariform larva of Wuchereria bancrofti",
+        "D": "Autoinfective larvae of Strongyloides stercoralis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A furocercous cercaria is the free-swimming larval stage of schistosomes, an entirely different organism and life-cycle stage from the one causing larva currens.",
+        "B": "The infective filariform larva of Ancylostoma duodenale causes ground itch at the site of skin penetration, a local reaction distinct from the rapidly migrating larva currens track.",
+        "C": "The infective filariform larva of Wuchereria bancrofti causes lymphatic filariasis through a mosquito-borne route, not the rapidly migrating cutaneous track of larva currens.",
+        "D": "Larva currens is caused by autoinfective larvae of Strongyloides stercoralis, which re-penetrate perianal or perineal skin and migrate rapidly through the dermis, producing a fast-advancing (several centimetres per hour) urticarial track. This speed of migration, far exceeding that of the cutaneous larva migrans track from an animal hookworm larva, is the specific clinical clue that identifies larva currens as a marker of ongoing Strongyloides autoinfection. Recognising Strongyloides stercoralis's autoinfective larvae as the cause of larva currens, distinct from the other larval stages listed, is the fact tested here."
+      },
+      "main_concept": "CON-GIT-14ABC9FF549976",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides clinical features",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #93, p.17; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.life-cycle-forms",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q94",
+      "page": 18,
+      "title": "Life cycle of Strongyloides involves:",
+      "question": "Life cycle of Strongyloides involves:",
+      "options": {
+        "A": "Direct cycle",
+        "B": "Indirect cycle",
+        "C": "Auto-infection",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A direct cycle genuinely is one route the Strongyloides life cycle can take, so this option alone is true but incomplete.",
+        "B": "An indirect (free-living) cycle genuinely is one route the Strongyloides life cycle can take, so this option alone is true but incomplete.",
+        "C": "Auto-infection genuinely is one route the Strongyloides life cycle can take, so this option alone is true but incomplete.",
+        "D": "Life cycle of Strongyloides involves all three routes together. In the direct cycle, rhabditiform larvae develop directly into infective filariform larvae in soil; in the indirect (free-living) cycle, larvae instead develop into free-living adults that reproduce in soil before eventually producing infective larvae; and in internal autoinfection, larvae convert to the infective form within the gut or on perianal skin and re-infect the same host. This combination of routes, unmatched by any other GIT-301 nematode, is why Strongyloides infection can persist for decades without re-exposure, and recognising that all three routes coexist is the point of this question."
+      },
+      "main_concept": "CON-GIT-C963D99A43B1D0",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides life cycle",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #94, p.18; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "ancylostoma-duodenale.ground-itch",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q95",
+      "page": 18,
+      "title": "Ground itch is caused by penetration of human skin by:",
+      "question": "Ground itch is caused by penetration of human skin by:",
+      "options": {
+        "A": "Furocercous cercaria of schistosomes",
+        "B": "Infective filariform larva of Ancylostoma duodenale",
+        "C": "Infective filariform larva of Wuchereria bancrofti",
+        "D": "Autoinfective larvae of Strongyloides stercoralis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A furocercous cercaria is the free-swimming larval stage of schistosomes, causing cercarial dermatitis or true schistosome skin penetration, not ground itch.",
+        "B": "Ground itch is caused by penetration of human skin by the infective filariform larva of Ancylostoma duodenale, producing a pruritic, papulovesicular reaction at the site of entry, typically on the feet of a person walking barefoot on contaminated soil. This local skin reaction is the earliest clinical sign of hookworm infection, occurring before the larva migrates through the bloodstream and lungs to reach the small intestine. Recognising Ancylostoma duodenale's filariform larva as the specific cause of ground itch, distinct from the other larval stages listed, is the fact tested here.",
+        "C": "The infective filariform larva of Wuchereria bancrofti is transmitted by mosquito bite, not by direct skin penetration causing ground itch.",
+        "D": "Autoinfective larvae of Strongyloides stercoralis cause larva currens, a rapidly migrating track, not the local entry-site reaction of ground itch."
+      },
+      "main_concept": "CON-GIT-BF9B52E4E0D9D6",
+      "topic": "Nematoda",
+      "subtopic": "Hookworm dermatitis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #95, p.18; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.diagnosis.stool-culture",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q96",
+      "page": 18,
+      "title": "Stool culture helps in diagnosis of:",
+      "question": "Stool culture helps in diagnosis of:",
+      "options": {
+        "A": "Strongyloidiasis",
+        "B": "Fascioliasis",
+        "C": "Trichinosis",
+        "D": "Ascariasis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Stool culture helps in diagnosis of strongyloidiasis, because culture techniques (such as the Harada-Mori filter-paper method) allow motile rhabditiform larvae passed in low numbers to develop and multiply over several days, increasing detection sensitivity beyond a single direct stool smear. This technique exploits the unique, motile, developing larval stage of Strongyloides stercoralis, a feature not shared by the other options listed. Recognising strongyloidiasis as the infection stool culture specifically aids in diagnosing is the fact tested here.",
+        "B": "Fascioliasis is diagnosed by direct or concentrated egg examination (or serology in the early phase), not by stool culture.",
+        "C": "Trichinosis is diagnosed by muscle biopsy and serology, since Trichinella's life cycle does not pass a free larval or egg stage through the gut lumen for stool culture to detect.",
+        "D": "Ascariasis is diagnosed by direct or concentrated stool egg examination, not by stool culture."
+      },
+      "main_concept": "CON-GIT-E7E6A0569C00BC",
+      "topic": "Nematoda",
+      "subtopic": "Strongyloides diagnosis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #96, p.18; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.airborne-egg-transmission",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q97",
+      "page": 18,
+      "title": "Air-borne infection may occur in:",
+      "question": "Air-borne infection may occur in:",
+      "options": {
+        "A": "Enterobius vermicularis",
+        "B": "Taenia solium",
+        "C": "Hymenolepis nana",
+        "D": "All of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Air-borne infection may occur in Enterobius vermicularis, whose light eggs, shed from bedding, clothing and household dust after being deposited on perianal skin, can become airborne when disturbed and be inhaled or environmentally ingested, in addition to the more familiar direct hand-to-mouth route. This airborne/fomite transmission route, together with retroinfection, helps explain why enterobiasis spreads readily among household and institutional contacts. Recognising Enterobius vermicularis as capable of airborne transmission is the fact tested here.",
+        "B": "Taenia solium is transmitted by ingesting undercooked pork containing cysticerci, or by ingesting eggs directly; it is not transmitted by airborne eggs.",
+        "C": "Hymenolepis nana is transmitted by direct or indirect ingestion of its eggs, or by an arthropod intermediate host for its rat-tapeworm relative; airborne transmission is not a recognised route for H. nana.",
+        "D": "Since Taenia solium and Hymenolepis nana are not transmitted by airborne eggs, \"all of the above\" is incorrect; airborne transmission is specific to Enterobius vermicularis among these options."
+      },
+      "main_concept": "CON-GIT-A37E9AD9E27B49",
+      "topic": "Nematoda",
+      "subtopic": "Enterobius transmission",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #97, p.18; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.egg-under-fingernails",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q98",
+      "page": 18,
+      "title": "The egg of this parasite may be found under the finger nail of the patient:",
+      "question": "The egg of this parasite may be found under the finger nail of the patient:",
+      "options": {
+        "A": "Enterobius vermicularis",
+        "B": "Taenia solium",
+        "C": "Hymenolepis nana",
+        "D": "All of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The egg of Enterobius vermicularis may be found under the fingernail of the patient, because the gravid female deposits eggs on the perianal skin, causing intense pruritus, and a patient scratching that itchy area transfers eggs onto the fingers and under the fingernails. This scratch-to-fingernail transfer is a key driver of both self-reinfection (by later hand-to-mouth contact) and household transmission of enterobiasis. Recognising Enterobius vermicularis as the organism whose egg is specifically found under fingernails by this mechanism is the fact tested here.",
+        "B": "Taenia solium eggs are deposited within gravid proglottids passed in stool or on perianal skin near the anus after autoinfective reflux, not characteristically found under fingernails from scratching.",
+        "C": "Hymenolepis nana eggs are passed in stool and are directly infective, but they are not characteristically found under fingernails from a scratching behaviour the way Enterobius eggs are.",
+        "D": "Since Taenia solium and Hymenolepis nana eggs are not characteristically found under fingernails by this scratching mechanism, \"all of the above\" is incorrect; the finding is specific to Enterobius vermicularis."
+      },
+      "main_concept": "CON-GIT-6D88AE14B064AF",
+      "topic": "Nematoda",
+      "subtopic": "Enterobius transmission",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #98, p.18; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "strongyloides-stercoralis.smallest-intestinal-nematode",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q99",
+      "page": 18,
+      "title": "The smallest intestinal nematode infecting human is:",
+      "question": "The smallest intestinal nematode infecting human is:",
+      "options": {
+        "A": "Ancylostoma duodenale",
+        "B": "Strongyloides stercoralis",
+        "C": "Enterobius vermicularis",
+        "D": "Trichinella spiralis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ancylostoma duodenale, at roughly 1 cm in length, is larger than Strongyloides stercoralis.",
+        "B": "The smallest intestinal nematode infecting human is Strongyloides stercoralis, whose adult female measures roughly 2 to 2.5 mm in length, smaller than the adult hookworm, Enterobius vermicularis and Trichinella spiralis. Its diminutive size, together with its unique parthenogenetic female reproduction and internal autoinfective cycle, distinguishes Strongyloides from the other soil-transmitted and intestinal nematodes covered in this bank. Recognising Strongyloides stercoralis as the smallest among these options is the fact tested here.",
+        "C": "Enterobius vermicularis, at roughly 1 cm (female) in length, is larger than Strongyloides stercoralis.",
+        "D": "Trichinella spiralis adult worms, at a few millimetres in length, are still generally comparable to or larger than Strongyloides stercoralis, which is the smallest among these four options."
+      },
+      "main_concept": "CON-GIT-41D12793AF4B79",
+      "topic": "Nematoda",
+      "subtopic": "Nematode size comparison",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #99, p.18; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "intestinal-nematodes.complication.appendicitis",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q100",
+      "page": 18,
+      "title": "Appendicitis is a complication of infection with:",
+      "question": "Appendicitis is a complication of infection with:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Enterobius vermicularis",
+        "C": "All of the above",
+        "D": "Ancylostoma duodenale"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ascaris lumbricoides genuinely is a recognised cause of appendicitis, by migrating into and obstructing the appendiceal lumen, so this option alone is true but incomplete.",
+        "B": "Enterobius vermicularis genuinely is a recognised cause of appendicitis, by lodging within the appendix and provoking local inflammation, so this option alone is true but incomplete.",
+        "C": "Appendicitis is a complication of infection with both Ascaris lumbricoides and Enterobius vermicularis, each capable of obstructing the appendiceal lumen or provoking local mucosal inflammation when worms migrate into or lodge within the appendix. This is the same helminthic-appendicitis fact already established, with a wider organism list including Trichuris trichiura and Taenia saginata, elsewhere in this cluster. Recognising that both organisms listed are correct together, rather than either alone, is the point of this question, which is also why Ancylostoma duodenale is included as the incorrect fourth option.",
+        "D": "Ancylostoma duodenale is not among the organisms this bank recognises as a cause of appendicitis; its clinical significance instead relates to chronic intestinal blood loss and iron-deficiency anemia."
+      },
+      "main_concept": "CON-GIT-5AF3E7C4293A73",
+      "topic": "Nematoda",
+      "subtopic": "Helminthic obstruction and appendicitis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #100, p.18; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.ectopic-egg-deposition",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q101",
+      "page": 18,
+      "title": "The eggs that may be found in the urine of a female patient is that of:",
+      "question": "The eggs that may be found in the urine of a female patient is that of:",
+      "options": {
+        "A": "Ascaris egg",
+        "B": "Enterobius vermicularis eggs",
+        "C": "Strongyloides stercoralis eggs",
+        "D": "Trichuris trichiura eggs"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ascaris eggs are not characteristically found in urine; Ascaris lumbricoides has no recognised urogenital ectopic migration route.",
+        "B": "The eggs that may be found in the urine of a female patient are those of Enterobius vermicularis, because the gravid female worm, migrating from the anus to deposit eggs on perianal skin, can wander ectopically into the female urogenital tract, entering the vagina, uterus or urethra, from where eggs then appear in vaginal discharge or urine. This ectopic migration is a recognised, if uncommon, complication specific to Enterobius among the intestinal nematodes in this cluster. Recognising Enterobius vermicularis as the organism whose eggs can reach the urine by this ectopic route is the fact tested here.",
+        "C": "Strongyloides stercoralis eggs are essentially never seen in stool, let alone urine, since the egg hatches within the intestinal mucosa before passage; Strongyloides has no recognised urogenital ectopic migration route.",
+        "D": "Trichuris trichiura eggs remain within the intestinal lumen and are passed in stool; Trichuris has no recognised urogenital ectopic migration route. The source PDF printed only three lettered options (a-c) for this item; a 4th (Trichuris trichiura eggs) is added here at build time to meet this platform's option-count requirement, without altering the printed correct answer."
+      },
+      "main_concept": "CON-GIT-4D6FA79ED5D91F",
+      "topic": "Nematoda",
+      "subtopic": "Enterobius ectopic migration",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #101, p.18; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)",
+        "optionCount": "Source printed only 3 lettered options (a-c); a 4th (Trichuris trichiura eggs) added at build time to meet the 4-5 option contract — see HU-GIT-301-parasitology-part2-build.mjs. Printed correct answer (b, Enterobius vermicularis eggs) unchanged."
+      }
+    },
+    {
+      "key": "autoinfection.parasite-scope",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q102",
+      "page": 18,
+      "title": "Autoinfection occurs in:",
+      "question": "Autoinfection occurs in:",
+      "options": {
+        "A": "Enterobius vermicularis",
+        "B": "Taenia solium",
+        "C": "Hymenolepis nana",
+        "D": "Strongyloides stercoralis",
+        "E": "All of the above"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Enterobius vermicularis genuinely is capable of autoinfection through retroinfection, so this option alone is true but incomplete.",
+        "B": "Taenia solium genuinely is capable of a form of autoinfection (autoinfection-driven cysticercosis from ingesting its own eggs), so this option alone is true but incomplete.",
+        "C": "Hymenolepis nana genuinely is capable of autoinfection through its direct cysticercoid development in intestinal villi, so this option alone is true but incomplete.",
+        "D": "Strongyloides stercoralis genuinely is capable of autoinfection through its internal larval conversion cycle, so this option alone is true but incomplete.",
+        "E": "Autoinfection occurs in all four organisms listed — Enterobius vermicularis (retroinfection), Taenia solium (autoinfection-driven cysticercosis), Hymenolepis nana (direct cysticercoid development) and Strongyloides stercoralis (internal larval conversion) — each by its own distinct mechanism. Capillaria philippinensis, dropped from the source item's original six-option list to meet this platform's option-count ceiling, is also genuinely capable of an internal autoinfective cycle, but its omission here does not change the substance of this \"all of the above\" answer for the four organisms retained. Recognising that autoinfection spans this broad range of parasites, each with a different underlying mechanism, rather than being limited to just one or two, is the point of this question."
+      },
+      "main_concept": "CON-GIT-34829890F3985C",
+      "topic": "Nematoda",
+      "subtopic": "Autoinfection",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #102, p.18; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)",
+        "optionCount": "Source printed 6 lettered options (a-f); one organism option (Capillaria philippinensis, letter e) was dropped at build time to meet the platform's 5-option ceiling, and \"All of the above\" was relettered from f to e — see HU-GIT-301-parasitology-part2-build.mjs. Capillaria philippinensis is genuinely also capable of autoinfection (see the autoinfection-scope concept); dropping it does not change the substance of the \"all of the above\" answer for the four remaining organisms."
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.clinical-features.perianal-pruritus",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q103",
+      "page": 19,
+      "title": "Pruritis ani and nocturnal enuresis may be caused by infection with:",
+      "question": "Pruritis ani and nocturnal enuresis may be caused by infection with:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Dracunculus medinensis",
+        "C": "Enterobius vermicularis",
+        "D": "Trichuris trichiura"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ascaris lumbricoides does not classically cause perianal pruritus and nocturnal enuresis; its clinical picture instead relates to pulmonary migration and, in heavy infection, intestinal or biliary obstruction.",
+        "B": "Dracunculus medinensis (Guinea worm) causes a painful skin blister and emerging worm at the site of larval release into water, not perianal pruritus or nocturnal enuresis.",
+        "C": "Pruritis ani and nocturnal enuresis may be caused by infection with Enterobius vermicularis, whose gravid female migrates to the perianal skin at night to deposit eggs, causing perianal itching that disturbs sleep and is a recognised contributor to nocturnal enuresis in affected children. This nighttime itching-and-enuresis pairing is a distinctive presentation among these options and a common reason a caregiver seeks medical evaluation. Recognising Enterobius vermicularis as the cause of this specific nocturnal symptom combination is the fact tested here.",
+        "D": "Trichuris trichiura does not classically cause perianal pruritus and nocturnal enuresis; its recognised complications instead include rectal prolapse in heavy infection."
+      },
+      "main_concept": "CON-GIT-45DA03F58B4D64",
+      "topic": "Nematoda",
+      "subtopic": "Enterobius clinical features",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #103, p.19; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.egg-morphology.plano-convex",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q104",
+      "page": 19,
+      "title": "Egg of Enterobius vermicularis:",
+      "question": "Egg of Enterobius vermicularis:",
+      "options": {
+        "A": "Shell with coarsely mamillated egg shell",
+        "B": "Is plano-convex, double wall shell",
+        "C": "Is barrel shape with bipolar plugs",
+        "D": "Is thin shell with blunt rounded pole"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A coarsely mamillated egg shell describes Ascaris lumbricoides, not Enterobius vermicularis.",
+        "B": "The egg of Enterobius vermicularis is plano-convex — flattened along one side and convex on the other — with a thin, colourless, double-walled shell. This asymmetric plano-convex outline is the specific morphological feature used to identify an Enterobius egg on a perianal swab or stool smear, distinguishing it from the mamillated Ascaris egg, the bipolar-plugged barrel-shaped Trichuris egg, and the thin blunt-rounded-pole hookworm egg. Recognising the plano-convex, double-walled shape as diagnostic of Enterobius vermicularis is the fact tested here.",
+        "C": "A barrel shape with bipolar plugs describes Trichuris trichiura, not Enterobius vermicularis.",
+        "D": "A thin shell with a blunt rounded pole describes a hookworm egg, not Enterobius vermicularis."
+      },
+      "main_concept": "CON-GIT-FF0177C35FE48E",
+      "topic": "Nematoda",
+      "subtopic": "Enterobius egg morphology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #104, p.19; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.diagnosis.not-by-stool",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q105",
+      "page": 19,
+      "title": "Stool examination is not recommended in the diagnosis of:",
+      "question": "Stool examination is not recommended in the diagnosis of:",
+      "options": {
+        "A": "Hymenolepis nana",
+        "B": "Enterobius vermicularis",
+        "C": "Strongyloides stercoralis",
+        "D": "Ancylostoma duodenale"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hymenolepis nana eggs are released into the intestinal lumen and pass with stool, so stool examination genuinely is recommended for it, unlike the organism this question asks about.",
+        "B": "Stool examination is not recommended in the diagnosis of Enterobius vermicularis, because the gravid female deposits her eggs externally on perianal skin rather than releasing them into the gut lumen, so they are rarely present in appreciable numbers within the faecal stream. A perianal swab, sampling the actual egg-deposition site, is the recommended diagnostic method instead. Recognising Enterobius vermicularis as the exception for which stool examination is not the recommended test is the point of this question.",
+        "C": "Strongyloides stercoralis larvae are released into the intestinal lumen and pass with stool, so stool examination genuinely is recommended for it, unlike the organism this question asks about.",
+        "D": "Ancylostoma duodenale eggs are released into the intestinal lumen and pass with stool, so stool examination genuinely is recommended for it, unlike the organism this question asks about."
+      },
+      "main_concept": "CON-GIT-5D164711B23268",
+      "topic": "Nematoda",
+      "subtopic": "Enterobius diagnosis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #105, p.19; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.diagnosis.perianal-swab",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q106",
+      "page": 19,
+      "title": "A reliable method for diagnosing enterobiasis is:",
+      "question": "A reliable method for diagnosing enterobiasis is:",
+      "options": {
+        "A": "Stool examination",
+        "B": "Peri-anal swab",
+        "C": "Rectal snip",
+        "D": "Kato-Katz technique"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Stool examination is unreliable for enterobiasis, since Enterobius vermicularis eggs are deposited on perianal skin rather than shed into the intestinal lumen.",
+        "B": "A reliable method for diagnosing enterobiasis is peri-anal swab, collected in the early morning before bathing or defecation when the gravid female has had overnight opportunity to deposit eggs on the perianal skin. This technique directly samples the actual egg-deposition site, making it far more sensitive for Enterobius vermicularis than a stool-based or tissue-based method aimed at a different anatomical location. Recognising peri-anal swab as the reliable diagnostic method for enterobiasis is the fact tested here.",
+        "C": "Rectal snip is instead used for diagnosing schistosomiasis by finding ova within rectal mucosal tissue, not for enterobiasis.",
+        "D": "The Kato-Katz technique is a quantitative stool method used for soil-transmitted helminth and schistosome egg counts, not for diagnosing enterobiasis."
+      },
+      "main_concept": "CON-GIT-A674A67B72C1B6",
+      "topic": "Nematoda",
+      "subtopic": "Enterobius diagnosis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #106, p.19; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.identity",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q107",
+      "page": 19,
+      "title": "Oxyuriasis is caused by:",
+      "question": "Oxyuriasis is caused by:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Dracunculus medinensis",
+        "C": "Enterobius vermicularis",
+        "D": "Trichuris trichiura"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ascaris lumbricoides causes ascariasis, not oxyuriasis.",
+        "B": "Dracunculus medinensis causes dracunculiasis (Guinea worm disease), not oxyuriasis.",
+        "C": "Oxyuriasis is caused by Enterobius vermicularis, reflecting the worm's older taxonomic classification within the genus Oxyuris and its common name, pinworm, from its pin-like tapering tail. This synonym is used interchangeably with enterobiasis for the same infection in clinical and academic contexts. Recognising Enterobius vermicularis as the organism oxyuriasis refers to is the fact tested here.",
+        "D": "Trichuris trichiura causes trichuriasis, not oxyuriasis."
+      },
+      "main_concept": "CON-GIT-4730BBC83E073F",
+      "topic": "Nematoda",
+      "subtopic": "Enterobius nomenclature",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #107, p.19; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "enterobius-vermicularis.diagnosis.graham-swab",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q108",
+      "page": 19,
+      "title": "Graham's swab cellophane technique is useful to detect:",
+      "question": "Graham's swab cellophane technique is useful to detect:",
+      "options": {
+        "A": "Enterobius vermicularis egg",
+        "B": "Enterobius vermicularis female worm",
+        "C": "Whipworm egg",
+        "D": "Hydatid sand"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Graham's swab cellophane technique is useful to detect Enterobius vermicularis egg, applied to the perianal skin, usually in the early morning, to pick up eggs adherent to the skin surface where the gravid female deposited them overnight, which are then examined directly under the microscope on the tape. It detects the egg specifically, not the adult female worm (which may occasionally also be seen incidentally but is not the technique's target), and it has no role in detecting whipworm eggs or hydatid sand, which come from entirely different organisms and specimen types. Recognising the Enterobius egg as the specific target of this technique is the fact tested here.",
+        "B": "Graham's swab is designed to detect the egg deposited on perianal skin, not primarily the adult female worm itself, though a worm may occasionally be incidentally seen.",
+        "C": "Whipworm (Trichuris trichiura) eggs are diagnosed by direct or concentrated stool examination, not by a perianal cellophane swab technique.",
+        "D": "Hydatid sand (scolices and hooklets from a ruptured or aspirated hydatid cyst) is an entirely unrelated finding from a different organism and specimen type, not detected by a perianal cellophane swab."
+      },
+      "main_concept": "CON-GIT-8EB50F77A2A565",
+      "topic": "Nematoda",
+      "subtopic": "Enterobius diagnosis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #108, p.19; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "soil-transmitted-helminths.sanitation-control",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q109",
+      "page": 19,
+      "title": "Adequate disposal of the stool is essential in control of:",
+      "question": "Adequate disposal of the stool is essential in control of:",
+      "options": {
+        "A": "Trichinella spiralis",
+        "B": "Ascaris lumbricoides",
+        "C": "Enterobius vermicularis",
+        "D": "All of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Trichinella spiralis is transmitted by eating undercooked meat containing encysted larvae, not by soil contamination from stool, so stool disposal is not its relevant control measure.",
+        "B": "Adequate disposal of the stool is essential in control of Ascaris lumbricoides, whose egg must develop in soil contaminated by human faeces before it becomes infective; preventing that soil contamination directly interrupts its transmission cycle. This sanitation-based control measure is a cornerstone of soil-transmitted helminth control programmes generally, and it is specific to organisms like Ascaris whose life cycle depends on an external soil-development stage. Recognising Ascaris lumbricoides as the organism this stool-disposal measure specifically controls, among these options, is the fact tested here.",
+        "C": "Enterobius vermicularis is transmitted by direct person-to-person contact, airborne eggs and retroinfection without any soil-development stage, so improved stool disposal alone does little to control its spread.",
+        "D": "Since Trichinella spiralis (meat-borne) and Enterobius vermicularis (soil-independent transmission) do not depend on stool-contaminated soil for their transmission, \"all of the above\" is incorrect; stool disposal specifically controls Ascaris lumbricoides among these options."
+      },
+      "main_concept": "CON-GIT-F4D22596A3C1DA",
+      "topic": "Nematoda",
+      "subtopic": "Public health control",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #109, p.19; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "ascaris-lumbricoides.complications.obstruction",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q110",
+      "page": 19,
+      "title": "Acute appendicitis, intestinal obstruction and bile duct obstruction are possible complications of:",
+      "question": "Acute appendicitis, intestinal obstruction and bile duct obstruction are possible complications of:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Strongyloides stercoralis",
+        "C": "Trichinella spiralis",
+        "D": "Ancylostoma caninum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Acute appendicitis, intestinal obstruction and bile duct obstruction are possible complications of Ascaris lumbricoides, all following from a heavy adult worm burden physically obstructing a narrow lumen — the appendiceal orifice, the small intestine itself as a worm bolus, or the common bile duct when a wandering worm migrates into it. This bulk-obstruction complication pattern reflects Ascaris's characteristically large size and heavy worm loads. Recognising Ascaris lumbricoides as the organism linked to all three of these mechanical complications together, rather than Strongyloides, Trichinella or Ancylostoma caninum, is the fact tested here.",
+        "B": "Strongyloides stercoralis does not typically cause this bulk-obstruction complication pattern; its clinical concerns instead centre on autoinfection, hyperinfection and larva currens.",
+        "C": "Trichinella spiralis causes myositis and systemic inflammatory disease from encysted larvae in muscle, not intestinal or biliary bulk obstruction.",
+        "D": "Ancylostoma caninum cannot establish an intestinal worm burden in man at all, producing only cutaneous larva migrans, so it cannot cause these mechanical obstruction complications."
+      },
+      "main_concept": "CON-GIT-BD99E16F832BA8",
+      "topic": "Nematoda",
+      "subtopic": "Ascaris complications",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #110, p.19; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "zoonotic-dog-transmitted-parasites",
+      "id": "QST-HUGIT301-PARASITOLOGYPART2-Q111",
+      "page": 19,
+      "title": "The parasite that infects man by direct contact with dogs is/are:",
+      "question": "The parasite that infects man by direct contact with dogs is/are:",
+      "options": {
+        "A": "Toxocariasis",
+        "B": "Hydatid disease",
+        "C": "All of the above",
+        "D": "Ancylostomiasis caninum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Toxocariasis genuinely infects man through contact with dogs (or dog-contaminated soil/food), so this option alone is true but incomplete.",
+        "B": "Hydatid disease genuinely infects man through contact with dogs (or dog-contaminated soil/food), so this option alone is true but incomplete.",
+        "C": "The parasites that infect man by direct contact with dogs are toxocariasis (visceral larva migrans, from the dog ascarid Toxocara canis) and hydatid disease (from the larval stage of Echinococcus granulosus, whose adult lives in the dog intestine), both acquired through contact with dogs or with soil and food contaminated by dog faeces carrying their infective eggs. Ancylostomiasis caninum instead spreads by skin penetration with a larva shed from contaminated soil, producing only cutaneous larva migrans, a distinct picture from the systemic and hepatic disease these two share, so it is not grouped with them here. Recognising toxocariasis and hydatid disease together as this question's intended pair is the point of this question.",
+        "D": "Ancylostomiasis caninum spreads by skin penetration with a larva shed from contaminated soil, producing only cutaneous larva migrans, a distinct transmission and disease pattern from the systemic toxocariasis and hepatic hydatid disease this item groups together."
+      },
+      "main_concept": "CON-GIT-535A1F8E179D91",
+      "topic": "Nematoda",
+      "subtopic": "Dog-transmitted parasites",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "source_citation": "HU-GIT-301 Parasitology MCQ bank (\"MCQs - Para MCQ [GIT].pdf\"), lettered item #111, p.19; answer key rendered from the bank's own p.26 key grid, not OCR text.",
+      "field_notes": {
+        "keySource": "printed key p.26, rendered (not OCR'd, which garbles the table)"
+      }
+    }
+  ]
+}

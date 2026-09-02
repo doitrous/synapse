@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-active-site-fits",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'biochemistry-active-site-fits'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Enzymes"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-active-site-fits",
+      "id": "QST-SCUFBS102-S2-PENDING-BIOCHEMISTRY-ACTIVE-SITE-FITS",
+      "title": "Fischer's lock and key model of enzyme action",
+      "question": "What does Fischers classic lock and key model of the specific enzyme action scientifically imply?",
+      "options": {
+        "A": "Substrates radically and totally change conformation prior to active site interaction",
+        "B": "Active site fits",
+        "C": "The active site is fully complementary in shape only absolutely after interaction",
+        "D": "The active site is completely entirely flexible and adjusts perfectly to substrate"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A substrate changing conformation before binding describes neither the lock-and-key nor the induced-fit model; in the induced-fit model it is the ENZYME's active site, not the substrate, that adapts, and it does so DURING binding.",
+        "B": "Correct. The lock-and-key model, Fischer's original proposal, holds that the enzyme's active site has a fixed shape that is already complementary to its substrate, fitting together the way a specific key fits a specific lock, with no conformational change required on binding. This contrasts with the newer induced-fit model, in which the active site's shape changes as the substrate binds.",
+        "C": "Incorrect. Saying the site becomes complementary only AFTER interaction describes an induced-fit-style adaptation, the opposite of the lock-and-key model's fixed, pre-existing complementarity.",
+        "D": "Incorrect. Describing the active site as flexible and adjusting to the substrate is the induced-fit model, not lock-and-key, which assumes a rigid, unchanging site shape."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Enzyme kinetics",
+      "main_concept": "CON-FND-BCF22EBBACF9E8",
+      "concept_ids": [
+        "CON-FND-BCF22EBBACF9E8"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.3,
+      "reasoning_level": 2,
+      "inferred_difficulty": 50,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-FND-AU-MED-102-ENZYMOLOGY"
+      ],
+      "learning_objective": "State that the lock-and-key model holds the active site's shape is fixed and pre-complementary to the substrate, contrasted with induced fit.",
+      "source_citation": "FOMSCU Foundation 1 Formative and Past Exams 2021, Q70 (also 2022 Q49)",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative 2021 Q70 / 2022 Q49; source-JSON extraction. Re-verification note: originally triaged 'new'; a grep pass found CON-FND-BCF22EBBACF9E8 (Alexandria AU-MED-102-biochem-structural-concepts.md / docs/import-ready) explicitly contrasts lock-and-key with induced-fit in both its explicit_objective and pitfalls fields — overlaid here rather than minted twin. Apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md."
+      }
+    }
+  ]
+}

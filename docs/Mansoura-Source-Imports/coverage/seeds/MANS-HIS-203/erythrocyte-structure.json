@@ -1,0 +1,160 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "erythrocyte-structure",
+  "header": "MANS-HIS-203 · Histology — RBC structure and fate, authored from the His Continuous Berlin Book 2026 (Histology Lecture 1&2, p.17, plus the دفعة 62/63 past-exam blocks, p.36/38), printed keys.",
+  "defaults": {
+    "subject": "haem",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "module_subject": "MANS-HIS-203 > Histology > Blood > Erythrocyte structure and fate",
+    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-HEM-TOP-D3C13B01E3", "ART-HEM-TOP-B5E227FF02"],
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q8",
+      "page": 17,
+      "title": "Mature erythrocyte life span",
+      "question": "Which of the following about mature erythrocytes is correct?",
+      "options": {
+        "A": "Their life span is about 4 months",
+        "B": "Have a diameter of about 12 picometer",
+        "C": "Have nuclei and cell organoids",
+        "D": "Are rounded shaped cells",
+        "E": "Have segmented nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A mature erythrocyte's average circulating life span is about 120 days, which is roughly four months. It survives that long by relying on anaerobic glycolysis for energy, since it has no mitochondria, and by folding through capillaries narrower than its own diameter because of its flexible biconcave shape. Only once it becomes too fragile to survive that repeated mechanical stress is it removed, mainly by the spleen.",
+        "B": "Incorrect. A picometre is a thousand times smaller than a micrometre; the erythrocyte's true diameter is about 7-7.5 micrometres, not picometres, so this option is off by three orders of magnitude as well as citing the wrong unit's typical value.",
+        "C": "Incorrect. The defining feature of a mature erythrocyte is the opposite: it extrudes its nucleus and loses its other organelles (mitochondria, ribosomes) during maturation, becoming a nucleus-free, organelle-free cell built purely to carry haemoglobin.",
+        "D": "Incorrect. The mature erythrocyte is specifically a biconcave disc, not simply rounded; the biconcavity is what gives it its large surface-area-to-volume ratio and its flexibility through narrow capillaries.",
+        "E": "Incorrect. A segmented nucleus describes the neutrophil, not the erythrocyte; the mature erythrocyte has no nucleus at all."
+      },
+      "main_concept": "CON-HEM-60C24B6F5C0EC2",
+      "concept_ids": ["CON-HEM-60C24B6F5C0EC2"],
+      "contextual_concept_ids": ["CON-HEM-DC720AB51077EE"],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Erythrocyte structure and fate",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State the mature erythrocyte's average life span (about 120 days, roughly 4 months) and its anucleate, organelle-free structure.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.17" },
+      "author_notes": ""
+    },
+    {
+      "key": "q9",
+      "page": 17,
+      "title": "RBC adaptability to function — the exception",
+      "question": "All of the following are adaptations of the RBC to its function EXCEPT:",
+      "options": {
+        "A": "Cell membrane is highly selective",
+        "B": "Absence of nucleus and organoids",
+        "C": "Biconcave surface of RBC",
+        "D": "Cytoplasm contains large amount of granules",
+        "E": "Elasticity of cell membrane"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the exception. A highly selective membrane genuinely is one of the erythrocyte's adaptations, controlling what crosses into and out of the cell, so it belongs with the other true adaptations, not against them.",
+        "B": "Incorrect as the exception. Losing the nucleus and organelles during maturation is a genuine adaptation: it frees up internal volume for haemoglobin and removes machinery a short-lived, function-specific cell no longer needs.",
+        "C": "Incorrect as the exception. The biconcave surface genuinely is an adaptation — it increases the surface-area-to-volume ratio for gas exchange and lets the cell fold through narrow capillaries — so it belongs with the true adaptations.",
+        "D": "Correct — this is the exception. The mature erythrocyte's cytoplasm contains no granules at all; it is a clear, homogeneous cytoplasm packed with haemoglobin, not granular contents. A cytoplasm full of granules describes cells such as the neutrophil or eosinophil, not the erythrocyte, which is exactly why this statement is the false one among the five.",
+        "E": "Incorrect as the exception. Membrane elasticity genuinely is an adaptation, letting the erythrocyte deform reversibly as it squeezes through capillaries narrower than its own resting diameter."
+      },
+      "main_concept": "CON-HEM-DC720AB51077EE",
+      "concept_ids": ["CON-HEM-DC720AB51077EE"],
+      "contextual_concept_ids": ["CON-HEM-22EA160E4CADF3", "CON-HEM-23E454BD997B29"],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Erythrocyte structure and fate",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify which listed feature is NOT a real erythrocyte adaptation, distinguishing the anucleate, granule-free, biconcave, elastic cell from a granule-bearing leukocyte.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.17" },
+      "author_notes": ""
+    },
+    {
+      "key": "d62-1",
+      "page": 36,
+      "title": "Biconcave disc shape by cell type (past-exam block, دفعة 62)",
+      "question": "Which of the blood cells has the shape of a biconcave disc?",
+      "options": {
+        "A": "Lymphocytes",
+        "B": "Platelets",
+        "C": "Red blood cells",
+        "D": "Neutrophils",
+        "E": "Eosinophils"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Lymphocytes are small, round, mostly nucleus-filled cells; they are not biconcave discs.",
+        "B": "Incorrect. Platelets are oval, non-nucleated fragments, not biconcave discs; their shape is a separate distractor commonly paired with the erythrocyte's in this bank.",
+        "C": "Correct. The red blood cell (erythrocyte) is the biconcave disc among the formed elements of blood. Its two concave faces increase its surface-area-to-volume ratio for gas exchange and let it deform to pass through capillaries narrower than its own diameter.",
+        "D": "Incorrect. Neutrophils are round leukocytes with a multilobed nucleus; they are not shaped as discs.",
+        "E": "Incorrect. Eosinophils are round leukocytes with a bilobed nucleus and prominent granules; they are not biconcave discs either."
+      },
+      "main_concept": "CON-HEM-DC720AB51077EE",
+      "concept_ids": ["CON-HEM-DC720AB51077EE"],
+      "contextual_concept_ids": [],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Erythrocyte structure and fate",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the erythrocyte as the biconcave-disc-shaped blood cell, as distinct from platelets and leukocytes.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.36 (دفعة 62 past-exam block)" },
+      "author_notes": ""
+    },
+    {
+      "key": "d63b-2",
+      "page": 38,
+      "title": "RBC life span (past-exam block, دفعة 63)",
+      "question": "Which of the following is the approximate life span of RBCs?",
+      "options": {
+        "A": "4 weeks",
+        "B": "5 days",
+        "C": "120 days",
+        "D": "1 year",
+        "E": "20 days"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. 4 weeks (about 28 days) is far shorter than the erythrocyte's true circulating life span.",
+        "B": "Incorrect. 5 days is close to a granulocyte's short circulating time, not the much longer-lived erythrocyte.",
+        "C": "Correct. The average circulating erythrocyte survives about 120 days before it is removed, mainly by the spleen, once accumulated mechanical stress makes it too fragile to keep deforming through the microcirculation. This roughly four-month life span is far longer than the platelet's 7-10 days or a granulocyte's few days in circulation.",
+        "D": "Incorrect. 1 year substantially overstates the erythrocyte's life span; no normal circulating blood cell in this bank has a lifespan that long.",
+        "E": "Incorrect. 20 days is well short of the true 120-day figure."
+      },
+      "main_concept": "CON-HEM-60C24B6F5C0EC2",
+      "concept_ids": ["CON-HEM-60C24B6F5C0EC2"],
+      "contextual_concept_ids": [],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Erythrocyte structure and fate",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State the erythrocyte's average circulating life span (about 120 days).",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.38 (دفعة 63 past-exam block, printed item 2)" },
+      "author_notes": ""
+    }
+  ]
+}

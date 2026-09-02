@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-glycine",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'biochemistry-glycine'. Second FOMSCU exam-year citation on a concept already tagged +scu by an earlier lane (CON-FND-3FF9CA93465562) — same fact, reworded between the 2021 and 2023 papers ('chiral carbon center' vs 'chiral center').",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Amino Acids and Proteins"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-glycine",
+      "id": "QST-SCUFBS102-S2-PENDING-BIOCHEMISTRY-GLYCINE-2023",
+      "title": "Amino acid with no chiral centre (2023 printing)",
+      "question": "Which of the following amino acids is considered optically inactive because it lacks a chiral center?",
+      "options": {
+        "A": "Valine",
+        "B": "Alanine",
+        "C": "Glycine",
+        "D": "Leucine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Valine's alpha carbon carries a branched side chain along with an amino group, a carboxyl group and a hydrogen — four different groups — so it is chiral and optically active.",
+        "B": "Incorrect. Alanine's alpha carbon carries a methyl side chain plus the amino group, carboxyl group and hydrogen, again four distinct substituents, so it too has a chiral centre.",
+        "C": "Correct. Glycine's side chain is a single hydrogen atom, so its alpha carbon is bonded to two identical hydrogen atoms along with the amino and carboxyl groups — only three distinct groups, not four. This makes glycine the one amino acid with no chiral centre, and therefore the only one that is optically inactive.",
+        "D": "Incorrect. Leucine has a bulky branched side chain distinct from the other three groups on its alpha carbon, giving it a chiral centre like the other eighteen standard amino acids besides glycine."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Amino acids: stereochemistry",
+      "main_concept": "CON-FND-3FF9CA93465562",
+      "concept_ids": ["CON-FND-3FF9CA93465562"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 60,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.15,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-FND-AU-MED-102-PROTEIN-CHEMISTRY"],
+      "learning_objective": "Name glycine as the one amino acid with no chiral centre and therefore no D/L form.",
+      "source_citation": "FOMSCU Foundation 1, Formative and Past Exams 2023 Q5",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "Formative and Past Exams 2023 Q5 (2021 Q5's near-duplicate, already covered by pending-live-reuse-batch2's biochemistry-glycine question). Same concept (CON-FND-3FF9CA93465562, already tagged +scu in pending-live/SCU-FBS102-overlay-concepts.md) answers both exam years' printing of this question, per the field_notes edit made alongside this seed. Apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md."
+      }
+    }
+  ]
+}

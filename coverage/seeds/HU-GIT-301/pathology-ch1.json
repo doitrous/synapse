@@ -1,0 +1,1397 @@
+{
+  "lane": "HU-GIT-301",
+  "cluster": "pathology-ch1",
+  "header": "HU-GIT-301 · Pathology — Chapter 1 (Diseases of the Oral Cavity and the Gastrointestinal Tract), authored from the department pathology MCQ bank, keys rendered from the bank’s own printed pp.21-22.",
+  "defaults": {
+    "subject": "gi",
+    "status": "Draft",
+    "owner": "Helwan Year-3 authoring lane",
+    "universities": [
+      "hu"
+    ],
+    "years": [
+      "HU_Y3"
+    ],
+    "module": "HU-GIT-301",
+    "module_subject": "HU-GIT-301 > Pathology > Diseases of the Oral Cavity and the Gastrointestinal Tract",
+    "exam_weight_by_year": {
+      "HU_Y3": 0.4
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-HU-GIT301-PATH-ORAL-GI"
+    ],
+    "resource_ids": [],
+    "setting": "Academic",
+    "estimated_seconds": 75,
+    "randomise_answers": true,
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "learning_objective": "Apply the correct pathology fact to select the accepted (or, in an \"except\" stem, the excepted) statement."
+  },
+  "questions": [
+    {
+      "key": "leukoplakia.malignant-transformation-is-to-scc-not-adenocarcinoma",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q01",
+      "page": 2,
+      "title": "All of the following are true about oral leukoplakia except:",
+      "question": "All of the following are true about oral leukoplakia except:",
+      "options": {
+        "A": "It appears as whitish mucosal patch",
+        "B": "It occurs due to chronic irritation",
+        "C": "Common sites are lips, tongue and cheek",
+        "D": "Malignant transformation into adenocarcinoma is a major complication"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This is a true description of leukoplakia — it does present as a whitish mucosal patch — so it is not the exception the question asks for.",
+        "B": "Chronic irritation is a genuine cause of leukoplakia, so this true statement is not the exception.",
+        "C": "Lips, tongue and cheek are genuinely common leukoplakia sites, so this true statement is not the exception.",
+        "D": "Oral leukoplakia's malignant transformation is to squamous cell carcinoma, not adenocarcinoma, because leukoplakia arises from the stratified squamous epithelium lining the oral mucosa, and malignant change follows the cell of origin. Adenocarcinoma would require a glandular epithelial origin, which leukoplakia does not have. This is the one false statement among the four, which is exactly why it is the answer to an 'except' question about oral leukoplakia."
+      },
+      "main_concept": "CON-GIT-EE732A9F73DFD6",
+      "topic": "Oral cavity pathology",
+      "subtopic": "Leukoplakia",
+      "difficulty": "Easy",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #1, p.2; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "tongue-squamous-carcinoma.predisposing-factors",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q02",
+      "page": 2,
+      "title": "Predisposing factors of squamous cell carcinoma of the tongue include all of the following except:",
+      "question": "Predisposing factors of squamous cell carcinoma of the tongue include all of the following except:",
+      "options": {
+        "A": "HPV 16 & 18",
+        "B": "TB ulcer",
+        "C": "Tertiary syphilis (gumma)",
+        "D": "Tobacco chewing"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "HPV 16 and 18 are genuine oncogenic predisposing factors for tongue carcinoma, so this true statement is not the exception.",
+        "B": "A tuberculous ulcer of the tongue is not a recognised predisposing lesion for squamous cell carcinoma of the tongue, which is why it is the exception among these options. The genuine predisposing factors are tobacco use, oncogenic HPV types 16 and 18, and the chronic mucosal scarring of tertiary syphilitic gumma. Confusing any chronic tongue ulcer with a premalignant one overstates the risk of a tuberculous lesion, which does not carry it.",
+        "C": "Tertiary syphilitic gumma is a genuine predisposing factor through its chronic scarring, so this true statement is not the exception.",
+        "D": "Tobacco chewing is a well-established predisposing factor for tongue carcinoma, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-FBE8B0B86714B0",
+      "topic": "Oral cavity pathology",
+      "subtopic": "Tongue carcinoma",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #2, p.2; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "sialadenitis.sjogren-syndrome-aetiology",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q03",
+      "page": 2,
+      "title": "The aetiology of sialadenitis in Sjogren's syndrome is:",
+      "question": "The aetiology of sialadenitis in Sjogren's syndrome is:",
+      "options": {
+        "A": "Autoimmune",
+        "B": "Traumatic",
+        "C": "Viral infection",
+        "D": "Bacterial infection"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Sjögren syndrome causes sialadenitis through an autoimmune mechanism, in which lymphocytes infiltrate and progressively destroy the salivary and lacrimal glands, producing dry mouth and dry eyes. This chronic lymphocytic sialadenitis is driven by the patient's own immune system attacking glandular tissue, not by an external pathogen or physical injury. Recognising the autoimmune basis is what separates Sjögren-related sialadenitis from the infective causes of salivary gland inflammation.",
+        "B": "Trauma is not the mechanism in Sjögren syndrome; the gland is damaged by the patient's own immune response, not by physical injury.",
+        "C": "Viral infection describes a different cause of sialadenitis, such as mumps, not the autoimmune process of Sjögren syndrome.",
+        "D": "Bacterial infection is a separate, usually acute and unilateral, cause of sialadenitis, not the chronic autoimmune process seen in Sjögren syndrome."
+      },
+      "main_concept": "CON-GIT-2E895A7DEB5E05",
+      "topic": "Oral cavity pathology",
+      "subtopic": "Sialadenitis",
+      "difficulty": "Easy",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #3, p.2; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "sialadenitis.viral-aetiology.mumps",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q04",
+      "page": 2,
+      "title": "The most common virus causing sialadenitis is:",
+      "question": "The most common virus causing sialadenitis is:",
+      "options": {
+        "A": "CMV",
+        "B": "EBV",
+        "C": "Mumps",
+        "D": "HSV"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cytomegalovirus can cause salivary gland disease in immunocompromised patients, but it is not the commonest viral cause of sialadenitis overall.",
+        "B": "Epstein-Barr virus is not the leading viral cause of sialadenitis; it is better known for infectious mononucleosis and its lymphoproliferative associations.",
+        "C": "Mumps virus is the most common viral cause of sialadenitis, classically producing acute, often bilateral, painful swelling of the parotid glands. It spreads by respiratory droplets and mainly affects children, though adults can also be infected and are more likely to develop complications such as orchitis or pancreatitis. Recognising mumps parotitis by its bilateral parotid swelling distinguishes it from the unilateral, usually bacterial, acute suppurative sialadenitis seen in dehydrated or postoperative patients.",
+        "D": "Herpes simplex virus typically causes oral mucosal and labial lesions rather than being the leading cause of viral sialadenitis."
+      },
+      "main_concept": "CON-GIT-2E895A7DEB5E05",
+      "topic": "Oral cavity pathology",
+      "subtopic": "Sialadenitis",
+      "difficulty": "Easy",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #4, p.2; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "salivary-gland-tumours.site.parotid",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q05",
+      "page": 2,
+      "title": "Most salivary gland tumors occur in:",
+      "question": "Most salivary gland tumors occur in:",
+      "options": {
+        "A": "Parotid glands",
+        "B": "Submandibular glands",
+        "C": "Sublingual glands",
+        "D": "Minor salivary glands"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Most salivary gland tumours, both benign and malignant, arise in the parotid gland, which is by far the largest of the major salivary glands and accounts for roughly eight in ten salivary tumours overall. Even though the parotid harbours the most tumours in absolute numbers, a smaller gland such as the sublingual gland carries a higher proportion of malignant tumours among the few it does develop. Knowing the parotid's dominance in raw tumour numbers is the fact this question tests.",
+        "B": "Submandibular glands develop far fewer tumours overall than the parotid, even though a larger fraction of their tumours are malignant.",
+        "C": "Sublingual glands are the least common site for salivary gland tumours in absolute numbers, despite carrying a high proportion of malignancy among the few that occur.",
+        "D": "Minor salivary glands, scattered through the oral mucosa, develop tumours less often overall than the parotid, even though a relatively higher share of their tumours are malignant."
+      },
+      "main_concept": "CON-GIT-9E860A1C3F801B",
+      "topic": "Oral cavity pathology",
+      "subtopic": "Salivary gland tumours",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #5, p.2; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "salivary-gland-tumours.commonest-malignant.mucoepidermoid",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q06",
+      "page": 2,
+      "title": "The most common primary malignant salivary gland tumor is:",
+      "question": "The most common primary malignant salivary gland tumor is:",
+      "options": {
+        "A": "Adenoid cystic carcinoma",
+        "B": "Adenolymphoma",
+        "C": "Adenocarcinoma",
+        "D": "Mucoepidermoid carcinoma"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Adenoid cystic carcinoma is a recognised salivary malignancy, often notable for perineural invasion, but it is not the commonest one overall.",
+        "B": "Adenolymphoma (Warthin tumour) is a benign salivary tumour, not a malignant one, so it cannot be the commonest malignant salivary tumour.",
+        "C": "Adenocarcinoma of salivary origin occurs but is less common than mucoepidermoid carcinoma as a cause of salivary malignancy.",
+        "D": "Mucoepidermoid carcinoma is the most common primary malignant tumour of the salivary glands, composed of a mixture of mucus-secreting and squamous (epidermoid) cells. It most often arises in the parotid gland, and its clinical behaviour ranges from low-grade, slow-growing tumours to high-grade, aggressive ones depending on histological grade. Recognising it as the commonest malignant subtype, rather than adenoid cystic carcinoma or adenocarcinoma, is the key fact tested here."
+      },
+      "main_concept": "CON-GIT-9E860A1C3F801B",
+      "topic": "Oral cavity pathology",
+      "subtopic": "Salivary gland tumours",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #6, p.2; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "achalasia.definition",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q07",
+      "page": 2,
+      "title": "Achalasia means:",
+      "question": "Achalasia means:",
+      "options": {
+        "A": "Failure of canalisation of the oesophagus",
+        "B": "An outpouching of part of the wall of the oesophagus",
+        "C": "Loss of the contractility of the oesophagus and failure of relaxation of the lower oesophageal sphincter",
+        "D": "Protrusion of the upper part of the oesophagus into the neck"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Failure of canalisation of the oesophagus describes a congenital oesophageal atresia, not the acquired motor disorder of achalasia.",
+        "B": "An outpouching of the oesophageal wall describes a diverticulum, a structural lesion, not the functional motor failure that defines achalasia.",
+        "C": "Achalasia is defined by loss of the normal peristaltic contractility of the oesophageal body together with failure of the lower oesophageal sphincter to relax during swallowing. Both defects stem from degeneration of the myenteric (Auerbach) plexus, which normally coordinates peristalsis and sphincter relaxation. Food and liquid accumulate above the non-relaxing sphincter, and the oesophagus dilates proximally over time, producing dysphagia for both solids and liquids from the outset.",
+        "D": "Protrusion of the upper oesophagus into the neck describes a pharyngeal (Zenker) diverticulum, an anatomically distinct condition from achalasia."
+      },
+      "main_concept": "CON-GIT-1AA0ABE5D5B3FD",
+      "topic": "Oesophageal pathology",
+      "subtopic": "Achalasia",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #7, p.2; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "hiatus-hernia.pathogenesis",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q08",
+      "page": 3,
+      "title": "All of the following are true about hiatus hernia except:",
+      "question": "All of the following are true about hiatus hernia except:",
+      "options": {
+        "A": "Protrusion of the upper part of the stomach into the thorax",
+        "B": "Predisposing factors include obesity, lifting heavy loads and frequent coughing fits",
+        "C": "It is due to increased intrathoracic pressure and increased diaphragmatic tone",
+        "D": "It results in regurgitation of gastric contents and GERD"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This is a true description of hiatus hernia — protrusion of the upper stomach into the thorax — so it is not the exception.",
+        "B": "Obesity, heavy lifting and chronic coughing are genuine predisposing factors, all raising intra-abdominal pressure, so this true statement is not the exception.",
+        "C": "Hiatus hernia is not caused by increased diaphragmatic tone; it results from the opposite — a lax, weakened oesophageal hiatus — combined with raised intra-abdominal, not intrathoracic, pressure pushing the stomach upward through that weak point. Predisposing factors such as obesity, heavy lifting and chronic coughing all act by raising intra-abdominal pressure against this weakened hiatus. This is the false statement among the four, which is why it is the exception the question asks for.",
+        "D": "Hiatus hernia genuinely predisposes to reflux of gastric contents and GERD by disrupting the normal antireflux barrier at the gastro-oesophageal junction, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-3EE0A8254EBCA1",
+      "topic": "Oesophageal pathology",
+      "subtopic": "Hiatus hernia",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #8, p.3; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "acute-oesophagitis.infective-causes",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q10",
+      "page": 3,
+      "title": "Common causes of acute oesophagitis include all of the following except:",
+      "question": "Common causes of acute oesophagitis include all of the following except:",
+      "options": {
+        "A": "HSV1",
+        "B": "CMV",
+        "C": "Candida albicans",
+        "D": "HPV"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "HSV1 is a genuine cause of acute infective oesophagitis, typically producing punched-out ulcers, so this true statement is not the exception.",
+        "B": "CMV is a genuine cause of acute infective oesophagitis in immunocompromised patients, typically producing large, shallow ulcers, so this true statement is not the exception.",
+        "C": "Candida albicans is the commonest cause of acute infective oesophagitis, producing white plaques, so this true statement is not the exception.",
+        "D": "HPV is not a cause of acute infective oesophagitis; its oesophageal association is instead the benign squamous papilloma, a structural growth rather than an infective inflammatory process. The genuine infective causes of acute oesophagitis in immunocompromised patients are herpes simplex virus, cytomegalovirus and Candida albicans. This is the false statement among the four, which is why it is the exception the question asks for."
+      },
+      "main_concept": "CON-GIT-232A7D67810C8F",
+      "topic": "Oesophageal pathology",
+      "subtopic": "Infective oesophagitis",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #10, p.3; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "oesophageal-squamous-papilloma.hpv-association",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q12",
+      "page": 3,
+      "title": "The benign oesophageal tumour which may be linked to HPV infection is:",
+      "question": "The benign oesophageal tumour which may be linked to HPV infection is:",
+      "options": {
+        "A": "Haemangioma",
+        "B": "Squamous cell papilloma",
+        "C": "Leiomyoma",
+        "D": "Lipoma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Haemangioma is a vascular malformation with no HPV association, not the benign HPV-linked oesophageal tumour.",
+        "B": "The benign oesophageal tumour linked to HPV infection is the squamous cell papilloma, an exophytic epithelial growth of the oesophageal mucosa. It is a benign lesion, not a premalignant one, and is distinct from the infective and dysplastic conditions of the oesophagus. Recognising HPV's association with this specific benign growth, rather than with a vascular or smooth-muscle lesion, is the fact tested here.",
+        "C": "Leiomyoma is a benign smooth-muscle tumour with no HPV association, not the benign HPV-linked oesophageal tumour.",
+        "D": "Lipoma is a benign fatty tumour with no HPV association, not the benign HPV-linked oesophageal tumour."
+      },
+      "main_concept": "CON-GIT-53C1092231A560",
+      "topic": "Oesophageal pathology",
+      "subtopic": "Benign oesophageal tumours",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #12, p.3; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "acute-gastritis.causes",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q13",
+      "page": 3,
+      "title": "Common causes of acute gastritis include all of the following except:",
+      "question": "Common causes of acute gastritis include all of the following except:",
+      "options": {
+        "A": "Alcohol",
+        "B": "Aspirin and NSAIDs",
+        "C": "Autoimmune",
+        "D": "Cortisone and cytotoxic drugs"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alcohol is a genuine, common cause of acute gastritis through direct mucosal injury, so this true statement is not the exception.",
+        "B": "Aspirin and other NSAIDs are classic causes of acute gastritis by inhibiting protective prostaglandin synthesis, so this true statement is not the exception.",
+        "C": "Autoimmune destruction of parietal cells is the mechanism of chronic autoimmune (type A) gastritis, not of acute gastritis, which is why it is the false statement among these causes. Acute gastritis is instead caused by direct mucosal irritants and injurious agents — alcohol, aspirin and other NSAIDs, and corticosteroid or cytotoxic drugs — that damage the epithelium and impair its defences over a short time course. Separating the acute, drug- and toxin-driven pattern from the chronic, autoimmune pattern is exactly what this question tests.",
+        "D": "Corticosteroids and cytotoxic drugs are recognised causes of acute gastritis through impaired mucosal defence, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-C72D467FEA5947",
+      "topic": "Gastric pathology",
+      "subtopic": "Acute gastritis",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #13, p.3; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "acute-gastritis.pathogenesis",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q14",
+      "page": 3,
+      "title": "Pathogenesis of acute gastritis includes all of the following except:",
+      "question": "Pathogenesis of acute gastritis includes all of the following except:",
+      "options": {
+        "A": "Damage of epithelial cells",
+        "B": "Diminished secretion of mucous",
+        "C": "Parietal cell destruction leading to diminished acid secretion",
+        "D": "Inhibition of prostaglandin secretion by mucosal cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Direct damage of epithelial cells is a genuine mechanism in acute gastritis, so this true statement is not the exception.",
+        "B": "Diminished mucous secretion is a genuine mechanism weakening the mucosal barrier in acute gastritis, so this true statement is not the exception.",
+        "C": "Parietal cell destruction with diminished acid secretion is not a feature of acute gastritis's pathogenesis; that pattern belongs to chronic autoimmune gastritis, a separate, antibody-mediated disease. Acute gastritis instead damages the surface epithelium directly, reduces protective mucus secretion, and inhibits the prostaglandin synthesis that normally maintains mucosal blood flow and bicarbonate output. This is the false statement among the four, which is why it is the exception the question asks for.",
+        "D": "Inhibition of mucosal prostaglandin secretion, which normally protects the mucosa, is a genuine mechanism in acute gastritis (notably with NSAIDs), so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-C72D467FEA5947",
+      "topic": "Gastric pathology",
+      "subtopic": "Acute gastritis",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #14, p.3; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "acute-gastritis.commonest-cause",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q15",
+      "page": 4,
+      "title": "The most common cause of acute gastritis is:",
+      "question": "The most common cause of acute gastritis is:",
+      "options": {
+        "A": "Alcohol",
+        "B": "Autoimmune gastritis",
+        "C": "H. pylori infection",
+        "D": "NSAIDs"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alcohol is a common and classic cause of acute erosive gastritis, but it is not the single commonest cause of gastritis when H. pylori's overall prevalence is considered.",
+        "B": "Autoimmune gastritis is a much rarer, antibody-mediated cause of chronic gastritis, far less common than H. pylori infection.",
+        "C": "Helicobacter pylori infection is regarded as the single commonest identifiable cause of gastritis overall, more prevalent as a trigger than alcohol, NSAIDs or the rarer autoimmune pattern. It colonises the gastric mucus layer and drives a chronic active inflammatory response that can also underlie acute exacerbations. While alcohol and NSAIDs are the classic causes taught for the acute erosive pattern specifically, H. pylori's overall prevalence as a cause of gastritis makes it the single commonest cause when the whole spectrum of gastritis is considered.",
+        "D": "NSAIDs are a classic and common cause of acute erosive gastritis, but H. pylori's overall prevalence as a cause of gastritis is considered greater."
+      },
+      "main_concept": "CON-GIT-C72D467FEA5947",
+      "topic": "Gastric pathology",
+      "subtopic": "Acute gastritis",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #15, p.4; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "h-pylori-gastritis.pathogenesis",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q16",
+      "page": 4,
+      "title": "Pathogenesis of H. pylori gastritis includes all of the following except:",
+      "question": "Pathogenesis of H. pylori gastritis includes all of the following except:",
+      "options": {
+        "A": "The organism is found in the mucous layer of gastric epithelium",
+        "B": "High acid production occurs in almost all cases",
+        "C": "The acute inflammatory response is mediated by complement",
+        "D": "Neutrophils release proteases and ROS"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "H. pylori genuinely resides within the mucous layer overlying the gastric epithelium, so this true statement is not the exception.",
+        "B": "High acid production is not seen in almost all cases of H. pylori gastritis; the acid response instead depends on which pattern of gastritis develops, with antral-predominant disease favouring increased acid and pangastritis favouring reduced acid as the body of the stomach becomes involved. This variability is why the statement 'high acid production occurs in almost all cases' is false. The organism itself resides in the mucous layer overlying the epithelium and triggers a complement- and neutrophil-mediated inflammatory response regardless of which acid pattern results.",
+        "C": "Complement activation genuinely mediates part of the acute inflammatory response to H. pylori, so this true statement is not the exception.",
+        "D": "Neutrophils genuinely release proteases and reactive oxygen species that damage the H. pylori-infected mucosa, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-4DF1F9ED9C6093",
+      "topic": "Gastric pathology",
+      "subtopic": "Helicobacter pylori gastritis",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #16, p.4; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "acute-gastric-ulceration.causes",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q18",
+      "page": 4,
+      "title": "Causes of acute gastric ulceration include all of the following except:",
+      "question": "Causes of acute gastric ulceration include all of the following except:",
+      "options": {
+        "A": "Stress ulcers",
+        "B": "Zollinger-Ellison syndrome",
+        "C": "Curling ulcers",
+        "D": "Cushing ulcers"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Stress ulcers are themselves the entity being described, so listing 'stress ulcers' as a cause of acute gastric ulceration is a true, if circular, statement and not the exception.",
+        "B": "Zollinger-Ellison syndrome causes chronic peptic ulceration through gastrin-driven acid hypersecretion from a gastrinoma, a fundamentally different mechanism from the acute stress ulcer. Acute (stress) gastric ulceration instead follows severe physiological insults such as extensive burns (Curling ulcer), sepsis or shock, and raised intracranial pressure (Cushing ulcer), acting through mucosal ischaemia rather than gastrin excess. Grouping Zollinger-Ellison syndrome with these acute stress causes is the false statement the question is testing.",
+        "C": "Curling ulcers, following severe burns, are a genuine cause of acute stress ulceration, so this true statement is not the exception.",
+        "D": "Cushing ulcers, following raised intracranial pressure, are a genuine cause of acute stress ulceration, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-60A5908E52E370",
+      "topic": "Gastric pathology",
+      "subtopic": "Acute gastric ulceration",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #18, p.4; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "peptic-ulcer-disease.gross-site",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q19",
+      "page": 4,
+      "title": "One of the gross features of peptic ulcer disease is:",
+      "question": "One of the gross features of peptic ulcer disease is:",
+      "options": {
+        "A": "Peptic ulcers are more common in the stomach than the duodenum",
+        "B": "Duodenal ulcers occur in the first few centimetres of the duodenum on the anterior wall",
+        "C": "Gastric ulcers are predominantly located at the junction between the fundus and the body, more on the greater curvature",
+        "D": "Peptic ulcers are usually multiple"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Peptic ulcers are actually more common in the duodenum than the stomach, the reverse of what this option claims.",
+        "B": "Duodenal ulcers characteristically occur within the first few centimetres of the duodenum, on its anterior wall, making this the correct gross feature of peptic ulcer disease among the options given. Duodenal ulcers are in fact more common than gastric ulcers overall, and gastric ulcers themselves are typically single lesions found on the lesser curvature nearer the antrum than the fundus. Knowing the precise site and wall of the duodenal ulcer is what this question is testing.",
+        "C": "Gastric ulcers are typically located on the lesser curvature closer to the antrum, not at the fundus-body junction or on the greater curvature.",
+        "D": "Peptic ulcers are typically solitary lesions; multiplicity is unusual and should raise suspicion of a hypersecretory state such as Zollinger-Ellison syndrome."
+      },
+      "main_concept": "CON-GIT-9A4A83CB4DFE73",
+      "topic": "Gastric and duodenal pathology",
+      "subtopic": "Peptic ulcer disease",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #19, p.4; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "gastric-tumours.benign-mesenchymal-vs-epithelial",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q20",
+      "page": 4,
+      "title": "All of the following are benign mesenchymal gastric tumours except:",
+      "question": "All of the following are benign mesenchymal gastric tumours except:",
+      "options": {
+        "A": "Adenomatous polyp",
+        "B": "GIST",
+        "C": "Leiomyoma",
+        "D": "Schwannoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The adenomatous polyp is an epithelial neoplasm, not a mesenchymal one, arising from the glandular lining of the stomach rather than its connective or smooth-muscle tissue. Leiomyoma, GIST and schwannoma are all genuine benign mesenchymal gastric tumours, arising respectively from smooth muscle, the interstitial cells of Cajal, and Schwann cells of the enteric nerves. This makes the adenomatous polyp the exception among these options.",
+        "B": "GIST is a genuine mesenchymal gastric tumour arising from the interstitial cells of Cajal, so this true statement is not the exception.",
+        "C": "Leiomyoma is a genuine benign mesenchymal gastric tumour of smooth-muscle origin, so this true statement is not the exception.",
+        "D": "Schwannoma is a genuine benign mesenchymal gastric tumour of neural (Schwann cell) origin, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-6C107678A81A8A",
+      "topic": "Gastric pathology",
+      "subtopic": "Gastric tumours",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #20, p.4; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "gastric-polyps.malignant-potential.adenomatous",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q21",
+      "page": 4,
+      "title": "Risk of development of adenocarcinoma is high with:",
+      "question": "Risk of development of adenocarcinoma is high with:",
+      "options": {
+        "A": "Inflammatory polyp",
+        "B": "Hyperplastic polyp",
+        "C": "Adenomatous polyp",
+        "D": "Fundic polyp"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Inflammatory polyps are reactive lesions with negligible malignant potential, not the polyp type with high adenocarcinoma risk.",
+        "B": "Hyperplastic polyps carry negligible malignant potential and are not the polyp type with high adenocarcinoma risk.",
+        "C": "The adenomatous gastric polyp carries the highest risk of progression to adenocarcinoma among gastric polyp types, because it is a true neoplasm rather than a reactive or hamartomatous growth, and its risk rises further with increasing polyp size. Hyperplastic, fundic and inflammatory polyps, by contrast, carry negligible malignant potential and are managed far less aggressively. Recognising the adenomatous polyp as the one that genuinely needs oncological surveillance is the point of this question.",
+        "D": "Fundic gland polyps are typically benign, sporadic lesions with negligible malignant potential in the absence of a polyposis syndrome."
+      },
+      "main_concept": "CON-GIT-51E3EF48F50E6D",
+      "topic": "Gastric pathology",
+      "subtopic": "Gastric polyps",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #21, p.4; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "gastric-carcinoma.risk-factors",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q22",
+      "page": 5,
+      "title": "One of the predisposing factors of gastric carcinoma is:",
+      "question": "One of the predisposing factors of gastric carcinoma is:",
+      "options": {
+        "A": "Hyperchlorhydria favours the growth of bacteria that catalyse the formation of nitrosamines",
+        "B": "Autoimmune gastritis type A",
+        "C": "Increased expression of E-cadherin in diffuse gastric cancer",
+        "D": "Blood group O"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hyperchlorhydria is not the mechanism; it is hypochlorhydria that favours the bacterial overgrowth able to catalyse nitrosamine formation from dietary nitrates.",
+        "B": "Autoimmune (type A) chronic atrophic gastritis is a genuine predisposing factor for gastric carcinoma, because the resulting achlorhydria and pernicious anaemia create a mucosal environment favourable to intestinal metaplasia and, over time, malignant transformation. This mechanism operates through hypochlorhydria and bacterial overgrowth, not hyperacidity. The other options each state the opposite of the true relationship, which is what makes autoimmune gastritis the correct predisposing factor among them.",
+        "C": "Diffuse-type gastric cancer characteristically shows loss (not increased expression) of E-cadherin, which is why cells fail to adhere and infiltrate individually rather than forming glands.",
+        "D": "Blood group A, not blood group O, carries the recognised association with gastric carcinoma risk."
+      },
+      "main_concept": "CON-GIT-57E54E91538DBB",
+      "topic": "Gastric pathology",
+      "subtopic": "Gastric carcinoma",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #22, p.5; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "gist.commonest-abdominal-mesenchymal-tumour",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q23",
+      "page": 5,
+      "title": "The most common mesenchymal tumour of the abdomen is:",
+      "question": "The most common mesenchymal tumour of the abdomen is:",
+      "options": {
+        "A": "GIST",
+        "B": "Fibroma",
+        "C": "Lipoma",
+        "D": "Leiomyoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Gastrointestinal stromal tumour is the commonest mesenchymal tumour of the abdomen, arising from the interstitial cells of Cajal that normally pace gut peristalsis. Most GISTs occur in the stomach, though they can arise anywhere along the GI tract, and they typically carry an activating mutation in the c-KIT tyrosine kinase receptor. Recognising GIST's dominance among abdominal mesenchymal tumours, ahead of fibroma, lipoma and leiomyoma, is the fact tested here.",
+        "B": "Fibroma is a rare, non-specific connective tissue tumour, far less common in the abdomen than GIST.",
+        "C": "Lipoma occurs in the abdomen but is not the commonest mesenchymal tumour there; GIST outnumbers it.",
+        "D": "Leiomyoma occurs in the GI tract but has become a less common diagnosis than GIST since c-KIT immunohistochemistry allowed GISTs to be correctly reclassified out of the leiomyoma/leiomyosarcoma category."
+      },
+      "main_concept": "CON-GIT-79CEDAEC0BFA28",
+      "topic": "Gastric pathology",
+      "subtopic": "GIST",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #23, p.5; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "gist.c-kit-mutation",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q24",
+      "page": 5,
+      "title": "GIST is frequently associated with:",
+      "question": "GIST is frequently associated with:",
+      "options": {
+        "A": "Bcl2 mutation",
+        "B": "P53 mutation",
+        "C": "Her2Neu mutation",
+        "D": "c-KIT mutation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Bcl2 mutation is associated with follicular lymphoma's antiapoptotic translocation, not with GIST.",
+        "B": "P53 mutation is a very broadly distributed tumour suppressor mutation across many cancers, but it is not the characteristic driver mutation of GIST.",
+        "C": "Her2/neu amplification is characteristic of a subset of breast and gastric adenocarcinomas, not of GIST.",
+        "D": "GIST is frequently associated with an activating mutation in the c-KIT gene, which encodes a tyrosine kinase receptor (CD117) that drives uncontrolled proliferation of the interstitial cells of Cajal from which the tumour arises. Immunohistochemical positivity for c-KIT (CD117) is the key diagnostic marker that distinguishes GIST from other mesenchymal gut tumours such as leiomyoma. This mutation is also the molecular target of imatinib, a tyrosine kinase inhibitor used to treat GIST."
+      },
+      "main_concept": "CON-GIT-79CEDAEC0BFA28",
+      "topic": "Gastric pathology",
+      "subtopic": "GIST",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #24, p.5; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "gastric-lymphoma.h-pylori-association",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q25",
+      "page": 5,
+      "title": "Regarding gastric lymphoma, its risk significantly increases with:",
+      "question": "Regarding gastric lymphoma, its risk significantly increases with:",
+      "options": {
+        "A": "Peptic ulcer",
+        "B": "H. pylori gastritis",
+        "C": "Adenomatous polyp",
+        "D": "Autoimmune gastritis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Peptic ulcer is itself often a consequence of H. pylori infection, but it is the infection, not the ulcer, that carries the lymphoma risk.",
+        "B": "H. pylori gastritis significantly raises the risk of gastric lymphoma, specifically the B-cell MALT lymphoma that arises from the chronic lymphoid infiltration the infection provokes in the gastric mucosa. This association is clinically important because eradicating H. pylori can induce regression of early-stage MALT lymphoma without chemotherapy. None of the other listed gastric conditions carries this same causal relationship to lymphoma development.",
+        "C": "Adenomatous polyp is a precursor of adenocarcinoma through a different, dysplastic pathway, not a risk factor for lymphoma.",
+        "D": "Autoimmune gastritis predisposes to gastric carcinoma and neuroendocrine tumours through achlorhydria and hypergastrinaemia, not specifically to lymphoma the way H. pylori does."
+      },
+      "main_concept": "CON-GIT-B53400D67C5F25",
+      "topic": "Gastric pathology",
+      "subtopic": "Gastric lymphoma",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #25, p.5; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "meckels-diverticulum.antimesenteric-border",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q28",
+      "page": 5,
+      "title": "The following feature is not true about Meckel's diverticulum:",
+      "question": "The following feature is not true about Meckel's diverticulum:",
+      "options": {
+        "A": "It is a remnant of the vitello-intestinal duct",
+        "B": "It is a blind pouch present on the mesenteric border of the small intestine",
+        "C": "Located 2-3 feet from the ileocaecal junction",
+        "D": "May get inflamed and present as acute abdomen"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Meckel's diverticulum genuinely is a remnant of the vitello-intestinal (vitelline) duct, so this true statement is not the exception.",
+        "B": "Meckel's diverticulum is a blind pouch on the antimesenteric border of the ileum, not the mesenteric border, which is exactly what makes this statement false. Its antimesenteric position, together with being a true diverticulum containing all layers of the bowel wall, is what marks it out from acquired colonic diverticula, which are pulsion herniations through the wall at points where vessels penetrate on the mesenteric side. This positional detail is the fact the question is testing.",
+        "C": "Meckel's diverticulum is genuinely located about 2 to 3 feet from the ileocaecal junction, so this true statement is not the exception.",
+        "D": "Meckel's diverticulum genuinely may become inflamed and present as an acute abdomen mimicking appendicitis, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-CC7E1C086E7EB4",
+      "topic": "Intestinal pathology",
+      "subtopic": "Meckel's diverticulum",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #28, p.5; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "hirschsprung-disease.clinical-features",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q29",
+      "page": 5,
+      "title": "Features of Hirschsprung disease include all of the following except:",
+      "question": "Features of Hirschsprung disease include all of the following except:",
+      "options": {
+        "A": "It is a disease of children less than one year",
+        "B": "Due to congenital absence of the ganglionic cells in the mesenteric plexus",
+        "C": "Manifested by severe diarrhoea and abdominal distension",
+        "D": "The aganglionic segment is narrow and the segment proximal to it is markedly dilated"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Hirschsprung disease genuinely presents in children under one year of age, so this true statement is not the exception.",
+        "B": "Congenital absence of ganglion cells in the mesenteric (myenteric) plexus is genuinely the cause of Hirschsprung disease, so this true statement is not the exception.",
+        "C": "Hirschsprung disease presents with failure to pass meconium, constipation and progressive abdominal distension, not severe diarrhoea, because the aganglionic distal segment cannot relax and obstructs the passage of stool. The bowel proximal to the narrow aganglionic segment becomes markedly dilated as it works against this functional obstruction. This is the false statement among the four, which is why it is the exception the question asks for.",
+        "D": "The aganglionic segment genuinely stays narrow while the normal bowel proximal to it dilates, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-62307C4E025A0C",
+      "topic": "Intestinal pathology",
+      "subtopic": "Hirschsprung disease",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #29, p.5; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "acute-intestinal-obstruction.functional-vs-mechanical",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q30",
+      "page": 6,
+      "title": "One of the functional causes of acute intestinal obstruction is:",
+      "question": "One of the functional causes of acute intestinal obstruction is:",
+      "options": {
+        "A": "Adhesions",
+        "B": "Strangulated hernia",
+        "C": "Paralytic ileus",
+        "D": "Thrombosis or embolism of mesenteric artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Adhesions are a mechanical cause of obstruction, physically kinking or compressing the bowel, not a functional cause.",
+        "B": "A strangulated hernia is a mechanical cause of obstruction, with a physical defect trapping and compromising a loop of bowel, not a functional cause.",
+        "C": "Paralytic ileus is the functional cause of acute intestinal obstruction among these options, because it results from failure of coordinated peristaltic activity itself rather than from any physical lesion blocking the lumen. It typically follows abdominal surgery, peritonitis, or severe electrolyte disturbance, and the bowel is patent throughout even though transit has stopped. This contrasts with the other options, which all involve an actual mechanical or vascular lesion producing the obstruction.",
+        "D": "Thrombosis or embolism of the mesenteric artery causes ischaemic, mechanically obstructing bowel injury, not the failure-of-peristalsis mechanism of a functional cause."
+      },
+      "main_concept": "CON-GIT-413DACAE7F1BFE",
+      "topic": "Intestinal pathology",
+      "subtopic": "Intestinal obstruction",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #30, p.6; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "chronic-intestinal-obstruction.causes",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q31",
+      "page": 6,
+      "title": "All of the following are causes of chronic intestinal obstruction except:",
+      "question": "All of the following are causes of chronic intestinal obstruction except:",
+      "options": {
+        "A": "Fibrous stricture following Crohn's disease",
+        "B": "Annular stricture carcinoma",
+        "C": "Hirschsprung disease",
+        "D": "Strangulated hernia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A fibrous stricture following Crohn's disease genuinely narrows the bowel gradually and is a recognised cause of chronic obstruction, so this true statement is not the exception.",
+        "B": "An annular carcinoma stricture genuinely narrows the bowel gradually as it grows circumferentially, and is a recognised cause of chronic obstruction, so this true statement is not the exception.",
+        "C": "Hirschsprung disease genuinely produces a chronic functional obstruction from birth, so this true statement is not the exception.",
+        "D": "A strangulated hernia causes acute, often rapidly progressive, obstruction with compromised blood supply, not the slow, gradually compensated pattern of chronic intestinal obstruction. Chronic intestinal obstruction instead develops from causes that narrow the lumen gradually — a fibrous stricture following Crohn's disease, an annular carcinoma stricture, or the functional narrowing of Hirschsprung disease. This is why strangulated hernia is the exception among these chronic-obstruction causes."
+      },
+      "main_concept": "CON-GIT-986D4D3841306C",
+      "topic": "Intestinal pathology",
+      "subtopic": "Chronic intestinal obstruction",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #31, p.6; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "chronic-intestinal-obstruction.pathology",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q32",
+      "page": 6,
+      "title": "Pathological features of chronic intestinal obstruction include:",
+      "question": "Pathological features of chronic intestinal obstruction include:",
+      "options": {
+        "A": "There is collapse of the proximal segment",
+        "B": "The distal segment is dilated",
+        "C": "The lumen contains liquefied food and gases by the action of bacteria",
+        "D": "Hypertrophy and thickening of the wall of the proximal segment"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "It is the distal segment, beyond the obstruction, that tends to collapse; the proximal segment dilates rather than collapsing.",
+        "B": "It is the proximal segment, not the distal segment, that dilates in chronic intestinal obstruction, since it is working against the block.",
+        "C": "In chronic intestinal obstruction, the lumen of the distended proximal bowel comes to contain liquefied food and gas produced by bacterial action on stagnant luminal content, since normal onward transit has stopped. The proximal segment dilates and its wall hypertrophies as it works against the obstruction, while the distal segment, receiving nothing, tends to collapse rather than dilate. Recognising which segment dilates and what its stagnant contents look like is the point of this question.",
+        "D": "Proximal wall hypertrophy is also a genuine feature of chronic obstruction, but the specific luminal finding of bacterially liquefied content is the more direct answer this question is testing."
+      },
+      "main_concept": "CON-GIT-986D4D3841306C",
+      "topic": "Intestinal pathology",
+      "subtopic": "Chronic intestinal obstruction",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #32, p.6; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "bacillary-dysentery.causative-organism",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q33",
+      "page": 6,
+      "title": "Bacillary dysentery is caused by:",
+      "question": "Bacillary dysentery is caused by:",
+      "options": {
+        "A": "Salmonella organism",
+        "B": "Shigella organism",
+        "C": "Clostridium difficile",
+        "D": "Treponema pallidum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Salmonella causes typhoid fever and non-typhoidal gastroenteritis, not the specific entity of bacillary dysentery.",
+        "B": "Bacillary dysentery is caused by Shigella species, which invade the colonic mucosal epithelium and provoke an acute inflammatory colitis with mucosal ulceration and a mucopurulent, often bloody, exudate. This bacterial invasion and the resulting exudative colonic inflammation are what distinguish bacillary dysentery clinically and pathologically from amoebic dysentery. Naming Shigella as the causative organism is the fact tested here.",
+        "C": "Clostridium difficile causes antibiotic-associated pseudomembranous colitis through toxin production, a different disease from Shigella-driven bacillary dysentery.",
+        "D": "Treponema pallidum causes syphilis, unrelated to bacillary dysentery."
+      },
+      "main_concept": "CON-GIT-8F1DCDB86B26DD",
+      "topic": "Intestinal pathology",
+      "subtopic": "Bacillary dysentery",
+      "difficulty": "Easy",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #33, p.6; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "bacillary-dysentery.inflammation-type",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q34",
+      "page": 6,
+      "title": "Bacillary dysentery is:",
+      "question": "Bacillary dysentery is:",
+      "options": {
+        "A": "Acute suppurative inflammation",
+        "B": "Acute fibrinous inflammation",
+        "C": "Acute pseudomembranous inflammation",
+        "D": "Acute necrotising inflammation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Acute suppurative inflammation describes a pus-forming process such as an abscess, not the pseudomembranous pattern of bacillary dysentery.",
+        "B": "Acute fibrinous inflammation alone, without the purulent membrane component, understates the pattern actually seen in bacillary dysentery.",
+        "C": "Bacillary dysentery produces an acute pseudomembranous inflammation of the colon, in which a fibrinopurulent membrane forms over the ulcerated, invaded mucosa in response to Shigella's mucosal invasion. This pattern is distinct from a purely suppurative, purely fibrinous, or necrotising process, and it helps distinguish bacillary dysentery's diffuse inflammatory pattern from the discrete flask-shaped ulcers of amoebic dysentery. Naming the inflammatory pattern correctly is what this question tests.",
+        "D": "Acute necrotising inflammation describes frank tissue death, a more severe and less specific pattern than the pseudomembranous inflammation typical of bacillary dysentery."
+      },
+      "main_concept": "CON-GIT-8F1DCDB86B26DD",
+      "topic": "Intestinal pathology",
+      "subtopic": "Bacillary dysentery",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #34, p.6; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "inflammatory-bowel-disease.crohns-site",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q38",
+      "page": 7,
+      "title": "One of the following features is not true about inflammatory bowel disease:",
+      "question": "One of the following features is not true about inflammatory bowel disease:",
+      "options": {
+        "A": "It is a chronic condition resulting from abnormal mucosal immune responses",
+        "B": "It embraces 2 conditions: Crohn's disease and ulcerative colitis",
+        "C": "Crohn's disease commonly affects the large intestine",
+        "D": "Ulcerative colitis commonly affects the rectosigmoid region"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Inflammatory bowel disease genuinely results from an abnormal mucosal immune response, so this true statement is not the exception.",
+        "B": "Inflammatory bowel disease genuinely comprises Crohn's disease and ulcerative colitis as its two conditions, so this true statement is not the exception.",
+        "C": "Crohn's disease classically favours the terminal ileum, not the large intestine, which is exactly what makes 'Crohn's disease commonly affects the large intestine' the false statement among these options. This site preference is one of the classic features separating Crohn's disease from ulcerative colitis, which characteristically involves the rectosigmoid region of the large intestine instead. Both conditions share a chronic course driven by an abnormal mucosal immune response, but their favoured bowel segments differ.",
+        "D": "Ulcerative colitis genuinely and characteristically involves the rectosigmoid region, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-5ED7DCE4F1C709",
+      "topic": "Intestinal pathology",
+      "subtopic": "Inflammatory bowel disease",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #38, p.7; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "amoebic-dysentery.flask-shaped-ulcers",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q39",
+      "page": 7,
+      "title": "Multiple small flask-shaped ulcers in the intestine is a feature of:",
+      "question": "Multiple small flask-shaped ulcers in the intestine is a feature of:",
+      "options": {
+        "A": "Amoebic dysentery",
+        "B": "Bacillary dysentery",
+        "C": "Bilharzial ulcers",
+        "D": "Typhoid fever"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Multiple small flask-shaped ulcers are the classic pathological feature of amoebic dysentery, caused by Entamoeba histolytica trophozoites that penetrate the mucosa and then burrow laterally through the submucosa, producing a narrow surface neck over a wider submucosal cavity — the flask shape. This appearance is distinct from the diffuse mucosal inflammation of bacillary dysentery and from the mucosal granulomas of bilharzial ulceration. Recognising the flask-shaped ulcer as specifically amoebic is the point of this question.",
+        "B": "Bacillary dysentery produces diffuse pseudomembranous inflammation with mucosal ulceration, not the discrete flask-shaped ulcer pattern.",
+        "C": "Bilharzial (schistosomal) intestinal disease produces granulomatous inflammation around deposited eggs, not the flask-shaped ulcer pattern.",
+        "D": "Typhoid fever produces oval ulcers over Peyer's patches in the ileum, not the flask-shaped ulcer pattern of amoebic dysentery."
+      },
+      "main_concept": "CON-GIT-BBBD1800EE9070",
+      "topic": "Intestinal pathology",
+      "subtopic": "Amoebic dysentery",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #39, p.7; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "diverticular-disease-colon.epidemiology",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q41",
+      "page": 7,
+      "title": "All of the following are true about diverticular disease of the colon except:",
+      "question": "All of the following are true about diverticular disease of the colon except:",
+      "options": {
+        "A": "It is a disease of young infants",
+        "B": "It occurs due to weakness in the intestinal wall",
+        "C": "Chronic constipation may be a cause",
+        "D": "The condition remains silent until inflammation develops"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Colonic diverticular disease is a disease of older adults, not young infants, and this age misattribution is what makes the statement false. It develops over years as chronic constipation and a low-fibre diet raise intraluminal pressure against a colonic wall that weakens with age at the points where blood vessels penetrate it. The other listed features — a wall-weakness mechanism, a constipation-related cause, and a silent course until inflammation develops — are all genuinely true of the disease.",
+        "B": "Weakness in the intestinal wall genuinely underlies diverticulum formation, so this true statement is not the exception.",
+        "C": "Chronic constipation genuinely is a recognised cause, raising intraluminal pressure against the weakened wall, so this true statement is not the exception.",
+        "D": "Diverticular disease genuinely remains silent until diverticulitis or bleeding develops, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-C5E66210C672BB",
+      "topic": "Intestinal pathology",
+      "subtopic": "Diverticular disease",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #41, p.7; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "diverticular-disease-colon.site",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q42",
+      "page": 7,
+      "title": "Diverticular disease of the colon commonly affects:",
+      "question": "Diverticular disease of the colon commonly affects:",
+      "options": {
+        "A": "Rectum",
+        "B": "Sigmoid colon",
+        "C": "Transverse colon",
+        "D": "Ascending colon"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The rectum is not the commonest site for diverticular disease; its wall has an additional longitudinal muscle layer that resists diverticulum formation.",
+        "B": "The sigmoid colon is the commonest site for colonic diverticular disease, because it is the narrowest segment of colon and generates the highest intraluminal pressures during peristalsis, concentrating the wall-weakening effect where vessels penetrate the muscle layer. The rectum, transverse colon and ascending colon can all be affected but far less often than the sigmoid colon. Knowing the sigmoid colon as the dominant site is the fact tested here.",
+        "C": "The transverse colon is affected far less often than the sigmoid colon by diverticular disease.",
+        "D": "The ascending colon is affected far less often than the sigmoid colon by diverticular disease in most populations."
+      },
+      "main_concept": "CON-GIT-C5E66210C672BB",
+      "topic": "Intestinal pathology",
+      "subtopic": "Diverticular disease",
+      "difficulty": "Easy",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #42, p.7; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "diverticular-disease-colon.pathology",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q43",
+      "page": 8,
+      "title": "One of the pathological features of diverticular disease of the colon:",
+      "question": "One of the pathological features of diverticular disease of the colon:",
+      "options": {
+        "A": "It is most common in the rectum",
+        "B": "Commonly occurs as a single lesion",
+        "C": "The pouch is formed of mucosa and submucosa only",
+        "D": "The pouch protrudes on the mesenteric border"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Diverticular disease is commonest in the sigmoid colon, not the rectum.",
+        "B": "Diverticular disease characteristically occurs as multiple lesions (diverticulosis), not as a single isolated lesion.",
+        "C": "A colonic diverticulum is formed of mucosa and submucosa alone, herniating outward through a weak point in the muscularis where a nutrient blood vessel penetrates the wall — this is why it is classed as a false (pulsion) diverticulum rather than a true, full-thickness one. It is not confined to the rectum, typically occurs as multiple lesions rather than a single one, and characteristically protrudes at the mesenteric border where the penetrating vessels create the weak point, not the antimesenteric border. Knowing which wall layers are involved is the pathological feature this question tests.",
+        "D": "Colonic diverticula protrude at the mesenteric border, where the penetrating vessels create the point of weakness, not the antimesenteric border."
+      },
+      "main_concept": "CON-GIT-C5E66210C672BB",
+      "topic": "Intestinal pathology",
+      "subtopic": "Diverticular disease",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #43, p.8; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "colonic-polyps.non-neoplastic-vs-neoplastic",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q44",
+      "page": 8,
+      "title": "All of the following are types of non-neoplastic colonic polyps except:",
+      "question": "All of the following are types of non-neoplastic colonic polyps except:",
+      "options": {
+        "A": "Bilharzial polyp",
+        "B": "Hyperplastic polyp",
+        "C": "Adenomatous polyp",
+        "D": "Hamartomatous polyp"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The bilharzial (inflammatory) polyp is a genuine non-neoplastic polyp type, so this true statement is not the exception.",
+        "B": "The hyperplastic polyp is a genuine non-neoplastic polyp type, so this true statement is not the exception.",
+        "C": "The adenomatous polyp is a neoplastic lesion, not a non-neoplastic one, which is why it is the exception among these polyp types. Bilharzial, hyperplastic and hamartomatous polyps are all genuinely non-neoplastic, carrying little to no malignant potential of their own. The adenomatous polyp, by contrast, is a true precursor lesion for colorectal carcinoma and is managed with excision and surveillance rather than reassurance.",
+        "D": "The hamartomatous polyp is a genuine non-neoplastic polyp type, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-4BADBFFFAE5012",
+      "topic": "Intestinal pathology",
+      "subtopic": "Colonic polyps",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #44, p.8; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "juvenile-polyp.features",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q45",
+      "page": 8,
+      "title": "Features of juvenile polyps include all of the following except:",
+      "question": "Features of juvenile polyps include all of the following except:",
+      "options": {
+        "A": "They are a type of hamartomatous polyp",
+        "B": "The most common type in children",
+        "C": "Consist of cystically dilated hyperplastic mucosal glands filled with secretions",
+        "D": "Commonly associated with intestinal and extraintestinal manifestations"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The juvenile polyp genuinely is a type of hamartomatous polyp, so this true statement is not the exception.",
+        "B": "The juvenile polyp genuinely is the commonest colonic polyp type in children, so this true statement is not the exception.",
+        "C": "The juvenile polyp genuinely consists of cystically dilated, mucus-filled hyperplastic glands, so this true statement is not the exception.",
+        "D": "A solitary juvenile polyp is not commonly associated with intestinal or extraintestinal manifestations; that syndromic pattern belongs to juvenile polyposis syndrome, a different, familial entity from the common sporadic solitary polyp. The solitary juvenile polyp is simply a hamartomatous lesion of childhood with no wider disease association. This is the false statement among the four, which is why it is the exception the question asks for."
+      },
+      "main_concept": "CON-GIT-BF75EB40448DB1",
+      "topic": "Intestinal pathology",
+      "subtopic": "Juvenile polyp",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #45, p.8; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "colonic-adenoma.malignant-potential",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q46",
+      "page": 8,
+      "title": "The following statement is not true about adenomas:",
+      "question": "The following statement is not true about adenomas:",
+      "options": {
+        "A": "Their incidence increases with age",
+        "B": "They are probably the precursor of most colorectal cancers",
+        "C": "Most adenomas progress to cancer",
+        "D": "Risk of malignancy is related to size"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Adenoma incidence genuinely does increase with age, so this true statement is not the exception.",
+        "B": "Adenomas genuinely are considered the probable precursor of most colorectal cancers, so this true statement is not the exception.",
+        "C": "Only a minority of individual colonic adenomas ever progress to cancer, even though adenomas collectively are the precursor of most colorectal cancers — these are two different claims, and the statement that 'most adenomas progress to cancer' overstates any individual polyp's risk. The likelihood of a given adenoma progressing rises with its size, villous architecture and degree of dysplasia, not simply with the passage of time. This distinction between the population-level statement and the individual-polyp-level statement is exactly what the question is testing.",
+        "D": "Malignancy risk genuinely does relate to adenoma size, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-DCDC871CDC954C",
+      "topic": "Intestinal pathology",
+      "subtopic": "Colonic adenoma",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #46, p.8; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "carcinoid-tumour.commonest-site.appendix",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q47",
+      "page": 8,
+      "title": "The commonest site of carcinoid tumour:",
+      "question": "The commonest site of carcinoid tumour:",
+      "options": {
+        "A": "Stomach",
+        "B": "Small intestine",
+        "C": "Appendix",
+        "D": "Caecum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The stomach can harbour carcinoid tumours, particularly in the setting of chronic atrophic gastritis, but it is not the commonest overall GI site.",
+        "B": "The small intestine is a recognised site for carcinoid tumours and carries a higher risk of metastasis than an appendiceal carcinoid, but it is not the single commonest site.",
+        "C": "The appendix is the commonest site for a carcinoid tumour within the gastrointestinal tract, where it typically presents as an incidental finding at appendicectomy rather than with the classic carcinoid syndrome, because appendiceal carcinoids rarely metastasise before removal. Carcinoid tumours arise from neuroendocrine cells and can secrete serotonin, which is metabolised to 5-HIAA; when hepatic metastasis allows serotonin to bypass first-pass liver metabolism, the classic flushing and diarrhoea syndrome can appear. Knowing the appendix as the leading GI site, ahead of the small intestine, stomach and caecum, is the fact tested here.",
+        "D": "The caecum can be involved by a carcinoid tumour, but it is not the single commonest site — that is the appendix."
+      },
+      "main_concept": "CON-GIT-4952149F99782D",
+      "topic": "Intestinal pathology",
+      "subtopic": "Carcinoid tumour",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #47, p.8; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "git-lymphoma.commonest-site",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q48",
+      "page": 8,
+      "title": "Regarding the lymphomas of the GIT, which of the following is incorrect:",
+      "question": "Regarding the lymphomas of the GIT, which of the following is incorrect:",
+      "options": {
+        "A": "More common in colon than the small intestine",
+        "B": "Commonly B-cell lymphoma",
+        "C": "May occur as multiple lesions",
+        "D": "May cause intestinal obstruction"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Gastrointestinal lymphoma is in fact more common in the small intestine than in the colon, which is the reverse of what this statement claims, making it the incorrect statement among the options. This site distribution differs from that of colorectal adenocarcinoma, which favours the colon, so the two GI malignancies should not be assumed to share a common pattern. Recognising lymphoma's own site preference is the point of this question.",
+        "B": "GI lymphoma is genuinely commonly of B-cell type, so this true statement is not the incorrect one.",
+        "C": "GI lymphoma genuinely may occur as multiple synchronous lesions, so this true statement is not the incorrect one.",
+        "D": "GI lymphoma genuinely may cause bowel obstruction through mural infiltration, so this true statement is not the incorrect one."
+      },
+      "main_concept": "CON-GIT-73CBA8343A2A04",
+      "topic": "Intestinal pathology",
+      "subtopic": "GI lymphoma",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #48, p.8; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "acute-appendicitis.predisposing-factors",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q49",
+      "page": 8,
+      "title": "The following are known predisposing factors of acute appendicitis except:",
+      "question": "The following are known predisposing factors of acute appendicitis except:",
+      "options": {
+        "A": "Faecolith",
+        "B": "Food residues",
+        "C": "Senility",
+        "D": "Lymphoid hyperplasia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A faecolith is a genuine, common predisposing cause of luminal obstruction in acute appendicitis, so this true statement is not the exception.",
+        "B": "Impacted food residues are a genuine, recognised predisposing cause of luminal obstruction in acute appendicitis, so this true statement is not the exception.",
+        "C": "Senility (old age) is not a recognised predisposing factor for acute appendicitis; the disease is instead predisposed to by luminal obstruction, and it occurs chiefly in children and young adults, when the appendix wall contains the most lymphoid tissue available to hyperplasia. This is why senility, rather than the genuine obstructing causes, is the exception among these options. Faecoliths, impacted food residues and lymphoid hyperplasia all raise intraluminal pressure and predispose to appendiceal obstruction and inflammation.",
+        "D": "Lymphoid hyperplasia is a genuine, common predisposing cause of luminal obstruction in acute appendicitis, especially in children, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-4B34C7F484DBB2",
+      "topic": "Intestinal pathology",
+      "subtopic": "Acute appendicitis",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #49, p.8; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "fap.apc-gene-mutation",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q50",
+      "page": 8,
+      "title": "Familial adenomatous polyposis (FAP) is an autosomal dominant disease caused by mutation of:",
+      "question": "Familial adenomatous polyposis (FAP) is an autosomal dominant disease caused by mutation of:",
+      "options": {
+        "A": "Beta-catenin gene",
+        "B": "E-cadherin gene",
+        "C": "APC gene",
+        "D": "Bcl2 gene"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Beta-catenin acts downstream of APC in the Wnt pathway and can itself be mutated in some sporadic colorectal cancers, but it is not the gene mutated in FAP.",
+        "B": "E-cadherin loss is characteristic of diffuse-type gastric cancer and of lobular breast carcinoma, not of FAP.",
+        "C": "Familial adenomatous polyposis is an autosomal dominant disease caused by mutation of the APC gene, whose normal product regulates the Wnt signalling pathway and restrains colonic epithelial proliferation. Loss of functional APC allows uncontrolled epithelial growth, producing the hundreds to thousands of colorectal adenomatous polyps that define the classic syndrome. Knowing APC, rather than beta-catenin, E-cadherin or Bcl2, as the mutated gene in FAP is the fact tested here.",
+        "D": "Bcl2 is an antiapoptotic gene implicated in follicular lymphoma, not the gene mutated in FAP."
+      },
+      "main_concept": "CON-GIT-BA1483A0234CCD",
+      "topic": "Intestinal pathology",
+      "subtopic": "Familial adenomatous polyposis",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #50, p.8; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "fap.apc-tumour-suppressor-gene",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q51",
+      "page": 9,
+      "title": "The affected gene in FAP is a member of:",
+      "question": "The affected gene in FAP is a member of:",
+      "options": {
+        "A": "Oncogenes",
+        "B": "Tumour suppressor genes",
+        "C": "Genes involved in DNA repair",
+        "D": "Genes controlling apoptosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Oncogenes typically act through a single activating mutation (a 'gain of function'), the opposite pattern from APC's loss-of-function tumour suppressor behaviour in FAP.",
+        "B": "The APC gene affected in FAP is a tumour suppressor gene, meaning both copies must be lost or inactivated before its restraining effect on epithelial proliferation is removed, in keeping with the two-hit model of tumour suppressor gene inactivation. This classification, rather than oncogene, DNA-repair gene, or apoptosis-control gene, explains why FAP follows autosomal dominant inheritance of one inactivated allele with loss of the second allele occurring somatically in colonic epithelium. Recognising APC's category is what links its genetics to the disease's inheritance pattern.",
+        "C": "DNA repair genes, such as the mismatch repair genes, underlie hereditary non-polyposis colorectal cancer (Lynch syndrome), a different hereditary colorectal cancer syndrome from FAP.",
+        "D": "Genes controlling apoptosis, such as Bcl2, are not the class APC belongs to; APC instead restrains proliferation through the Wnt pathway."
+      },
+      "main_concept": "CON-GIT-BA1483A0234CCD",
+      "topic": "Intestinal pathology",
+      "subtopic": "Familial adenomatous polyposis",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #51, p.9; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "colorectal-carcinoma.modified-dukes-staging",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q52",
+      "page": 9,
+      "title": "What is the suspected modified Dukes stage of a case of colonic carcinoma extending into the muscularis propria with positive metastatic lymph node?",
+      "question": "What is the suspected modified Dukes stage of a case of colonic carcinoma extending into the muscularis propria with positive metastatic lymph node?",
+      "options": {
+        "A": "B1",
+        "B": "B2",
+        "C": "C1",
+        "D": "C2"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Stage B1 describes this depth of invasion but with negative lymph nodes; this tumour has a positive node, which moves it into the C category.",
+        "B": "Stage B2 requires invasion through the full thickness of the muscularis propria, which this tumour, extending only into it, has not done.",
+        "C": "A colonic carcinoma extending into the muscularis propria with a positive metastatic lymph node is staged modified Dukes C1, because C1 applies the same depth-of-invasion criterion as stage B1 — invasion into but not through the muscularis propria — together with positive regional lymph nodes. Stage B2 and its nodal counterpart C2 both require invasion through the full thickness of the muscularis propria, which this tumour has not done. Matching the described depth to the B1/C1 pair, rather than the B2/C2 pair, is exactly what the question tests.",
+        "D": "Stage C2 requires the deeper B2 pattern of invasion through the muscularis propria, which this tumour, extending only into it, has not done."
+      },
+      "main_concept": "CON-GIT-6D0E5537229F48",
+      "topic": "Intestinal pathology",
+      "subtopic": "Colorectal carcinoma staging",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #52, p.9; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "peptic-ulcer-disease.pathogenesis-gastric-vs-duodenal",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q57",
+      "page": 10,
+      "title": "Which of the following is not true about pathogenesis of peptic ulcer disease?",
+      "question": "Which of the following is not true about pathogenesis of peptic ulcer disease?",
+      "options": {
+        "A": "A mucous-bicarbonate barrier is one of the defensive mechanisms",
+        "B": "Prostaglandin E increases blood flow and increases mucosal regeneration",
+        "C": "High dose corticosteroids suppress prostaglandin synthesis",
+        "D": "In peptic ulcer of the stomach, hyperacidity is more important than breakdown of mucosal defence"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The mucous-bicarbonate barrier genuinely is one of the mucosa's defensive mechanisms, so this true statement is not the exception.",
+        "B": "Prostaglandin E genuinely increases mucosal blood flow and supports regeneration, so this true statement is not the exception.",
+        "C": "High-dose corticosteroids genuinely suppress prostaglandin synthesis and thereby impair mucosal defence, so this true statement is not the exception.",
+        "D": "In gastric peptic ulcer, breakdown of mucosal defence matters more than acid hypersecretion, the reverse of what this statement claims — gastric ulcers typically occur with normal or even reduced acid output against a weakened protective barrier. Duodenal ulcers, by contrast, are more strongly driven by increased acid secretion. This is the false statement among the four, which is why it is the exception the question asks for."
+      },
+      "main_concept": "CON-GIT-9A4A83CB4DFE73",
+      "topic": "Gastric and duodenal pathology",
+      "subtopic": "Peptic ulcer disease",
+      "difficulty": "Hard",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #57, p.10; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "peptic-ulcer-disease.common-sites",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q58",
+      "page": 10,
+      "title": "Common sites of peptic ulcer disease include all of the following except:",
+      "question": "Common sites of peptic ulcer disease include all of the following except:",
+      "options": {
+        "A": "First part of the duodenum",
+        "B": "Pyloric antrum of the stomach",
+        "C": "Ileocaecal valve",
+        "D": "Meckel's diverticulum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The first part of the duodenum genuinely is a common peptic ulcer site, so this true statement is not the exception.",
+        "B": "The pyloric antrum genuinely is a common peptic ulcer site, so this true statement is not the exception.",
+        "C": "The ileocaecal valve is not a common site for peptic ulcer disease, because peptic ulceration requires exposure to acid and pepsin, which the ileocaecal region does not normally receive. The genuine common sites are the first part of the duodenum, the pyloric antrum of the stomach, and — where ectopic gastric mucosa is present — a Meckel's diverticulum. This is the false statement among the four, which is why it is the exception the question asks for.",
+        "D": "A Meckel's diverticulum containing ectopic gastric mucosa genuinely can develop a peptic ulcer, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-9A4A83CB4DFE73",
+      "topic": "Gastric and duodenal pathology",
+      "subtopic": "Peptic ulcer disease",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #58, p.10; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "duodenal-peptic-ulcer.gastrinoma-association",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q64",
+      "page": 11,
+      "title": "Which of the following statements is true about duodenal peptic ulcer?",
+      "question": "Which of the following statements is true about duodenal peptic ulcer?",
+      "options": {
+        "A": "It is precancerous",
+        "B": "It has undermined edges",
+        "C": "It is more common in females",
+        "D": "It may be related to gastrinoma"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Duodenal ulcer is not a precancerous lesion; malignant transformation is essentially confined to some chronic gastric ulcers, not duodenal ones.",
+        "B": "Duodenal ulcers characteristically have punched-out edges, not undermined ones, which is a feature more suggestive of malignancy in a gastric ulcer.",
+        "C": "Duodenal peptic ulcer is in fact more common in men than in women, the reverse of what this option claims.",
+        "D": "Duodenal peptic ulcer may be related to an underlying gastrinoma, since a gastrin-secreting tumour (as in Zollinger-Ellison syndrome) drives acid hypersecretion that produces multiple or unusually located and often refractory duodenal ulcers. This association is why atypical, multiple, or treatment-resistant duodenal ulcers should prompt investigation for a gastrinoma. None of the other statements about duodenal ulcer is accurate."
+      },
+      "main_concept": "CON-GIT-C763A605E67109",
+      "topic": "Gastric and duodenal pathology",
+      "subtopic": "Duodenal ulcer",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #64, p.11; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    },
+    {
+      "key": "melena.causes-vs-haematochezia",
+      "id": "QST-HUGIT301-PATHOLOGYCH1-Q65",
+      "page": 11,
+      "title": "All of the following conditions may be associated with melena except:",
+      "question": "All of the following conditions may be associated with melena except:",
+      "options": {
+        "A": "Piles",
+        "B": "Duodenal peptic ulcer",
+        "C": "Oesophageal varices",
+        "D": "Gastric carcinoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Haemorrhoidal (piles) bleeding arises from the low anorectal venous plexus and produces fresh red blood, haematochezia, rather than the black, altered blood of melena, because the blood does not travel far enough through the gut to be digested and darkened. Melena instead reflects an upper gastrointestinal source such as a duodenal peptic ulcer, oesophageal varices, or gastric carcinoma, where blood is altered by gastric acid and bacterial digestion during its transit. This is the false association among the four, which is why it is the exception the question asks for.",
+        "B": "Duodenal peptic ulcer genuinely is an upper GI source that can present with melena, so this true statement is not the exception.",
+        "C": "Oesophageal varices genuinely are an upper GI source that can present with melena, so this true statement is not the exception.",
+        "D": "Gastric carcinoma genuinely is an upper GI source that can present with melena, so this true statement is not the exception."
+      },
+      "main_concept": "CON-GIT-06A8A96D6933A1",
+      "topic": "Intestinal pathology",
+      "subtopic": "Gastrointestinal bleeding",
+      "difficulty": "Moderate",
+      "question_type": "Pathophysiology",
+      "source_citation": "HU-GIT-301 Pathology MCQ bank, \"Diseases of the Oral Cavity and the Gastrointestinal Tract\" chapter, item #65, p.11; answer key rendered from the bank's own pp.21-22 (chapter 1 key table), not OCR text.",
+      "field_notes": {
+        "keySource": "printed key table pp.21-22, rendered (not OCR'd, which garbles the table)"
+      }
+    }
+  ]
+}

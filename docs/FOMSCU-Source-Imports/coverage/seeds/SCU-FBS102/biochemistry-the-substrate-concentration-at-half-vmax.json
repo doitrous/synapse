@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-the-substrate-concentration-at-half-vmax",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'biochemistry-the-substrate-concentration-at-half-vmax'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Enzymes"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-the-substrate-concentration-at-half-vmax",
+      "id": "QST-SCUFBS102-S2-PENDING-BIOCHEMISTRY-KM-DEFINITION",
+      "title": "Defining the Michaelis constant",
+      "question": "Which of the following descriptions best defines the Michaelis Menten constant?",
+      "options": {
+        "A": "The substrate concentration at half Vmax",
+        "B": "The maximum velocity of the chemical reaction",
+        "C": "The minimum energy required for the reaction",
+        "D": "The inhibitor concentration exactly at the Vmax"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. As substrate concentration increases, reaction velocity rises toward a maximum, Vmax, at which the enzyme is saturated. The substrate concentration that produces half of that maximal velocity is termed the Michaelis constant, Km — a smaller Km reflects higher enzyme-substrate affinity, and Km is used to compare the catalytic efficiency of different enzymes for their substrates.",
+        "B": "Incorrect. Vmax itself is the maximum reaction velocity, a separate quantity from Km, which is a substrate concentration, not a velocity.",
+        "C": "Incorrect. Activation energy is the minimum energy needed for a reaction to proceed, an unrelated quantity to Km.",
+        "D": "Incorrect. Km is defined for the uninhibited reaction; an inhibitor concentration at some reference velocity is not what the Michaelis constant measures, even though a competitive inhibitor does raise the APPARENT Km."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Enzyme kinetics",
+      "main_concept": "CON-FND-028C50A610B2A2",
+      "concept_ids": [
+        "CON-FND-028C50A610B2A2"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Definition",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 60,
+      "exam_relevance": 5,
+      "clinical_relevance": 0.3,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "high"
+      },
+      "library_ids": [
+        "ART-102-BIO-ENZYMES"
+      ],
+      "learning_objective": "Define Km as the substrate concentration producing half of Vmax.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q50",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q50; source-JSON extraction. Re-verification note: originally triaged 'new'; a grep pass found CON-FND-028C50A610B2A2 ('michaelis-constant-km-definition-and-affinity-meaning', Kasr 102-INT-mcq-concepts.md / docs/import-ready) states this exact definition — overlaid here rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md."
+      }
+    }
+  ]
+}

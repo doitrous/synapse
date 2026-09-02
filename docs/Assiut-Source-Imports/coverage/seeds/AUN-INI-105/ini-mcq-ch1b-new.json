@@ -1,0 +1,754 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch1b",
+  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 1 \"Bacterial cell structure\" (coverage/AUN-INI-105-triage.md, S3), closing the chapter. This pass (lane 14) reads and keys Q101-Q161, the chapter's final 61 items, against the plain-text ANSWERS table on pp.26-27 (cross-checked two ways: pagetext.mjs show and a direct pdftotext -layout extraction, both agreeing on all 61 keys, including Q133's printed double answer \"D,E\"). This batch authors 25 of the 47 authored questions whose tested idea rides on a concept already live, already minted by this lane's own earlier chapters (own-tree cross-chapter reuse, chapters 1/2/8), or newly minted this pass (concept/AUN-INI-105-ch1b-concepts.md, article/AUN-INI-105-ch1b-article.md). Q101 was originally drafted here reusing this lane's own chapter-5 mint CON-INF-8B02B0EFEE96F5 (opportunistic pathogen), but a concurrent chief-of-staff repair pass (pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md) deleted that AUN twin in favour of its pending MUST sibling CON-INF-17893AA3303251, discovered when this pass rebased over main -- Q101 is therefore authored in pending-live/AUN-INI-105-ch1b-must-questions.md instead (see that file's own header), not here. The remaining 22 authored questions reuse pending Ain-Shams ASU-INF and Menoufia MUST concepts and are authored separately in pending-live/ with an apply-after header. 14 of the 61 read items are held: 5 on the seed schema's 4-option floor (Q105, Q107, Q124, Q140, Q143, each printing only 2-3 options), 1 on a printed double answer (Q133, \"D,E\"), and 8 as near-duplicates of already-authored INI-105 items -- Q110/Q111 restate the chapter's own already-authored peritrichous/amphitrichous facts (Q11/Q45), Q129 restates the chapter's own \"role in cell division EXCEPT\" template (Q62) with a swapped option set, Q131 restates the chapter's own \"structure responsible for staining\" fact (Q63) at cell-wall-vs-peptidoglycan granularity, Q149 restates this same pass's own Q120 (near-identical Spores/Capsule/Cell wall/Flagella option set), and Q152/Q154/Q155 restate the chapter's own Q36/Q17/Q18 -- all three flagged in advance by lane 1's own triage note as later recurrences within this chapter. Q160's printed key (\"Parasites\") is doubtful against the standard teaching that the majority of bacteria are saprophytic, but the bank shows no internal inconsistency about it, so it is authored with the key as printed and the doubt noted in author_notes, per the lane's standing rule.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-INI-105",
+    "module_subject": "AUN-INI-105 > Bacterial cell structure",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_6f2f4188bb0cbf848733"],
+    "source_citation": "INI MCQ .pdf, Bacterial cell structure, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "topic": "Bacterial cell structure",
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch1b-q102",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q102",
+      "page": 18,
+      "title": "Bacteria have no mitochondria",
+      "question": "Bacterial cell does not contain?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Mitochondria",
+        "C": "70s ribosomes",
+        "D": "Mesosomes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Bacteria (with rare exceptions such as Mycoplasma) do have a cell wall, the structure giving the cell its shape and rigidity.",
+        "B": "Correct. Bacteria are prokaryotes and lack membrane-bound organelles entirely, including mitochondria. Where a eukaryotic cell houses its respiratory-chain enzymes in mitochondria, a bacterial cell instead carries out respiration at its cytoplasmic membrane, classically at membrane invaginations called mesosomes. This absence of mitochondria is a defining structural difference between prokaryotic and eukaryotic cells.",
+        "C": "Incorrect. Bacteria do contain 70S ribosomes, the smaller ribosome size characteristic of prokaryotes, distinct from the 80S ribosomes of eukaryotic cells.",
+        "D": "Incorrect. Mesosomes are cytoplasmic membrane invaginations found in bacteria, classically described as housing respiratory enzymes and coordinating chromosome segregation."
+      },
+      "main_concept": "CON-INF-52E3C48A1A2AAA",
+      "concept_ids": ["CON-INF-52E3C48A1A2AAA"],
+      "contextual_concept_ids": [],
+      "subtopic": "Prokaryote architecture",
+      "learning_objective": "State that bacteria lack mitochondria, while correctly possessing a cell wall, 70S ribosomes and mesosomes.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "reuse": "CON-INF-52E3C48A1A2AAA is this lane's own chapter-1 mint (lane 1), already imported earlier in this lane's own sequence -- no overlay needed." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q108",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q108",
+      "page": 19,
+      "title": "Spore coat and cortex confer resistance to drying and heat",
+      "question": "Resistance of spores to drying and heat is due to?",
+      "options": {
+        "A": "Higher water content",
+        "B": "Presence of cortex and coat",
+        "C": "Highly metabolic activity",
+        "D": "Ability to multiply",
+        "E": "Low content of calcium dipicolinate"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Spores are characteristically dehydrated, with a markedly lower water content than a vegetative cell, not a higher one -- this dehydration itself is part of what confers resistance, the reverse of this option's claim.",
+        "B": "Correct. The spore's dense, multilayered coat and underlying cortex form a highly impermeable barrier around the dehydrated core, physically restricting the penetration of water, heat and chemical disinfectants. This structural barrier, together with the core's own dehydration and its calcium-dipicolinate-stabilised DNA, is a standard, testable explanation for a spore's exceptional resistance to drying and heat.",
+        "C": "Incorrect. A spore is metabolically dormant, not highly active -- this near-total metabolic shutdown is itself part of the survival strategy, not a source of heat resistance.",
+        "D": "Incorrect. A spore does not multiply at all; it is a dormant, non-replicating survival stage that must first germinate back into a vegetative cell before any multiplication can resume.",
+        "E": "Incorrect. Spore resistance is associated with a high, not low, content of calcium dipicolinate, which complexes with core DNA and helps stabilise it against heat damage -- this option reverses the actual relationship."
+      },
+      "main_concept": "CON-INF-3E6590C8AC2166",
+      "concept_ids": ["CON-INF-3E6590C8AC2166"],
+      "contextual_concept_ids": [],
+      "subtopic": "Bacterial endospores",
+      "learning_objective": "State that the spore coat and cortex confer resistance to drying and heat, while rejecting higher water content, metabolic activity, multiplication and low calcium dipicolinate as the mechanism.",
+      "library_ids": ["ART-INF-TOP-1181606D78"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "reuse": "CON-INF-3E6590C8AC2166 is already live, already reused repeatedly earlier in this lane's own sequence -- no overlay needed." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q112",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q112",
+      "page": 19,
+      "title": "Bacteriocin production is plasmid-encoded",
+      "question": "Genetic information about bacteriocin production in bacteria is a function of?",
+      "options": {
+        "A": "Ribosomes",
+        "B": "Plasmid",
+        "C": "Mesosomes",
+        "D": "Chromosome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ribosomes carry out protein synthesis; they do not carry the genetic information determining which proteins, such as bacteriocins, a cell is capable of producing.",
+        "B": "Correct. Bacteriocin production -- the ability of a bacterium to synthesise a protein toxin that kills competing bacterial strains -- is a classic example of a plasmid-encoded, accessory trait. As with antibiotic resistance and virulence genes, the genetic information for bacteriocin production is typically carried on a plasmid rather than the core chromosome, making it a dispensable, transmissible property.",
+        "C": "Incorrect. Mesosomes are cytoplasmic membrane invaginations with a structural and respiratory role, not a genetic-information-carrying structure.",
+        "D": "Incorrect. The chromosome carries the genes essential for the bacterium's core, universal cellular life, not typically the accessory, strain-variable trait of bacteriocin production."
+      },
+      "main_concept": "CON-DEV-FE47A8F9B0768E",
+      "concept_ids": ["CON-DEV-FE47A8F9B0768E"],
+      "contextual_concept_ids": [],
+      "subtopic": "Extrachromosomal DNA",
+      "learning_objective": "State that bacteriocin production is genetically encoded on a plasmid, not the ribosomes, mesosomes or chromosome.",
+      "library_ids": ["ART-DEV-TOP-39535C6C81"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "reuse": "CON-DEV-FE47A8F9B0768E is already live, already reused repeatedly earlier in this lane's own sequence -- no overlay needed." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q114",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q114",
+      "page": 20,
+      "title": "Plasmids are dispensable, not essential, genetic elements",
+      "question": "Plasmids are?",
+      "options": {
+        "A": "Cytoplasmic storage granules",
+        "B": "RNA molecules",
+        "C": "Chromosomal DNA",
+        "D": "Carry genetic material essential for bacterial life",
+        "E": "Dispensable"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Cytoplasmic storage (inclusion) granules are reserve-nutrient structures such as volutin or glycogen granules, a wholly different structure from a plasmid.",
+        "B": "Incorrect. A plasmid is a DNA molecule, not RNA -- it is a small, circular, double-stranded DNA element separate from the chromosome.",
+        "C": "Incorrect. A plasmid is extrachromosomal DNA by definition, distinct from the bacterium's own chromosomal DNA.",
+        "D": "Incorrect. It is specifically the chromosome that carries the genetic material essential for the bacterium's core life processes -- a plasmid instead carries accessory, non-essential genes.",
+        "E": "Correct. A plasmid typically carries accessory genes, such as antibiotic-resistance or virulence genes, that are advantageous but not required for the cell's basic survival. Because these genes are not essential, plasmids are properly described as dispensable genetic elements: a bacterium can lose a plasmid and still survive, unlike loss of its chromosome."
+      },
+      "main_concept": "CON-DEV-FE47A8F9B0768E",
+      "concept_ids": ["CON-DEV-FE47A8F9B0768E"],
+      "contextual_concept_ids": [],
+      "subtopic": "Extrachromosomal DNA",
+      "learning_objective": "State that plasmids are dispensable, non-essential DNA elements, rejecting storage-granule, RNA, chromosomal-DNA and essential-gene descriptions.",
+      "library_ids": ["ART-DEV-TOP-39535C6C81"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "reuse": "CON-DEV-FE47A8F9B0768E is already live -- no overlay needed." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q115",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q115",
+      "page": 20,
+      "title": "Spores protect bacteria against unfavourable conditions",
+      "question": "Protect bacteria from unfavorable environmental conditions?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Capsule",
+        "C": "Spore",
+        "D": "Flagella"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The cell wall gives the bacterium its shape and rigidity and is a site of action for some antibiotics; it is not the structure formed specifically as a survival response to adverse conditions.",
+        "B": "Incorrect. The capsule's defining role is antiphagocytic protection and organism identification, not survival of drying, heat or nutrient depletion.",
+        "C": "Correct. Certain Gram-positive genera, classically Bacillus and Clostridium, form a highly resistant, metabolically dormant endospore in response to nutrient limitation and other unfavourable environmental conditions. This spore can survive drying, heat and disinfectants far better than the ordinary vegetative cell, then germinate back into an active cell once conditions become favourable again.",
+        "D": "Incorrect. The flagellum is the organelle of motility, propelling the cell through liquid; it plays no role in surviving unfavourable environmental conditions."
+      },
+      "main_concept": "CON-INF-3E6590C8AC2166",
+      "concept_ids": ["CON-INF-3E6590C8AC2166"],
+      "contextual_concept_ids": [],
+      "subtopic": "Bacterial endospores",
+      "learning_objective": "Identify the spore as the structure protecting bacteria from unfavourable environmental conditions, distinct from the cell wall, capsule and flagella.",
+      "library_ids": ["ART-INF-TOP-1181606D78"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q116",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q116",
+      "page": 20,
+      "title": "Spores can vegetate again once conditions favour germination",
+      "question": "Which of the following statement regarding bacterial spores is false?",
+      "options": {
+        "A": "Metabolically inactive",
+        "B": "Don't multiply",
+        "C": "Unable to vegetate again",
+        "D": "Resistant to disinfection and boiling"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (true statement, not the false one). A spore is genuinely metabolically dormant, its enzymatic and biosynthetic activity almost entirely shut down until germination.",
+        "B": "Incorrect (true statement, not the false one). A dormant spore does not multiply; only after it germinates back into a vegetative cell can replication resume.",
+        "C": "Correct. This is the false statement. A spore is not permanently locked in its dormant form -- once environmental conditions become favourable again (moisture, nutrients, warmth), it germinates, re-hydrates and returns to an actively growing, dividing vegetative cell. \"Unable to vegetate again\" misstates this defining, reversible feature of the spore life cycle.",
+        "D": "Incorrect (true statement, not the false one). Spores are markedly resistant to disinfectants and to boiling, a resistance that ordinary vegetative cells lack."
+      },
+      "main_concept": "CON-INF-3E6590C8AC2166",
+      "concept_ids": ["CON-INF-3E6590C8AC2166"],
+      "contextual_concept_ids": [],
+      "subtopic": "Bacterial endospores",
+      "learning_objective": "Identify that a spore's inability to vegetate again is the false statement, since spores do germinate back into vegetative cells under favourable conditions.",
+      "library_ids": ["ART-INF-TOP-1181606D78"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26" },
+      "author_notes": "Related to this same lane's already-authored Q47 (\"which statement about spores is false\", metabolic activity) but tests a distinct property -- germination/vegetation capability, not metabolic activity -- with an entirely different option set, so authored rather than held, per the chapter's own precedent for same-topic, different-fact spore questions (e.g. Q47/Q116/Q150 each test a different false claim)."
+    },
+    {
+      "key": "ini-mcq-ch1b-q118",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q118",
+      "page": 21,
+      "title": "Volutin granules store polyphosphate",
+      "question": "Volutin granules are?",
+      "options": {
+        "A": "Carbohydrates",
+        "B": "Protein",
+        "C": "Polyphosphate",
+        "D": "None of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Volutin granules are not a carbohydrate storage form -- glycogen is the classic bacterial carbohydrate storage granule, a distinct structure.",
+        "B": "Incorrect. Volutin granules are not composed of protein; they are a phosphate-storage structure, not a protein-storage one.",
+        "C": "Correct. Volutin granules, also called metachromatic or Babes-Ernst granules, are cytoplasmic inclusion (storage) granules composed largely of stored polyphosphate. They stain a different colour from the surrounding cytoplasm with certain dyes, such as methylene blue -- a long-standing microscopic aid to organism identification, classically demonstrated in Corynebacterium diphtheriae.",
+        "D": "Incorrect. Since polyphosphate correctly describes volutin granules, \"none of the above\" is wrong."
+      },
+      "main_concept": "CON-INF-398B4BA280679E",
+      "concept_ids": ["CON-INF-398B4BA280679E"],
+      "contextual_concept_ids": [],
+      "subtopic": "Bacterial inclusion (storage) granules",
+      "learning_objective": "Identify volutin (metachromatic) granules as a polyphosphate storage structure, rejecting carbohydrate and protein descriptions.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE-2"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "reuse": "find-existing.mjs run for \"volutin\" returned 0 hits; \"metachromatic granule\" turned up this lane's own already-live CON-INF-398B4BA280679E (Corynebacterium diphtheriae's metachromatic granules, question/AUN-INI-105-ch1-mcq-part2.md) -- volutin granules and metachromatic granules name the same polyphosphate storage structure, so reused rather than minting a twin." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q119",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q119",
+      "page": 20,
+      "title": "The cytoplasmic membrane is not polysaccharide in nature",
+      "question": "The following statement are true regarding cytoplasmic membrane EXCEPT?",
+      "options": {
+        "A": "Present underneath cell wall",
+        "B": "Polysaccharide in nature",
+        "C": "Osmotically sensitive",
+        "D": "Play a role in toxins excretion",
+        "E": "Play a role in respiration"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (true statement, not the EXCEPT). The cytoplasmic membrane lies immediately beneath the cell wall, external to it in the layered bacterial envelope.",
+        "B": "Correct. This is the false statement, so it is the EXCEPT answer. The cytoplasmic membrane is a phospholipid bilayer, not a polysaccharide structure -- polysaccharide is instead characteristic of capsular material or the LPS component of a Gram-negative outer membrane, not the cytoplasmic membrane itself.",
+        "C": "Incorrect (true statement, not the EXCEPT). The cytoplasmic membrane, once stripped of the protective cell wall, is genuinely osmotically sensitive and can rupture under osmotic stress (as demonstrated by protoplast/spheroplast fragility).",
+        "D": "Incorrect (true statement, not the EXCEPT). The cytoplasmic membrane, alongside the periplasmic space in Gram-negative bacteria, is involved in the excretion of toxins and other extracellular enzymes.",
+        "E": "Incorrect (true statement, not the EXCEPT). The cytoplasmic membrane houses the respiratory-chain enzymes that substitute for the mitochondrion a bacterium lacks, classically at membrane invaginations called mesosomes."
+      },
+      "main_concept": "CON-INF-A1043E023CD6FB",
+      "concept_ids": ["CON-INF-A1043E023CD6FB"],
+      "contextual_concept_ids": [],
+      "subtopic": "Cytoplasmic membrane",
+      "learning_objective": "Identify that the cytoplasmic membrane is not polysaccharide in nature, while correctly locating it beneath the cell wall and recognising its roles in osmotic sensitivity, toxin excretion and respiration.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "reuse": "CON-INF-A1043E023CD6FB is this lane's own chapter-1 mint (lane 1), already imported earlier -- no overlay needed." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q122",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q122",
+      "page": 21,
+      "title": "The cytoplasmic membrane is a phospholipid bilayer",
+      "question": "Phospholipid bilayer?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Cytoplasmic membrane",
+        "C": "Capsule",
+        "D": "Spore"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The cell wall's structural mesh is peptidoglycan (plus, in Gram-negative bacteria, an outer LPS-containing membrane) -- a phospholipid bilayer describes the membrane beneath it, not the wall itself.",
+        "B": "Correct. The bacterial cytoplasmic (plasma) membrane is a phospholipid bilayer, the same basic lipid-bilayer architecture found in eukaryotic cell membranes. It sits immediately beneath the cell wall and forms the selectively permeable barrier controlling what enters and leaves the cell.",
+        "C": "Incorrect. The capsule is a polysaccharide (or, in Bacillus anthracis, polypeptide) outer layer, not a phospholipid bilayer.",
+        "D": "Incorrect. A spore is a dormant, dehydrated survival structure with a dense protective coat and cortex, not defined by a phospholipid bilayer architecture."
+      },
+      "main_concept": "CON-INF-A1043E023CD6FB",
+      "concept_ids": ["CON-INF-A1043E023CD6FB"],
+      "contextual_concept_ids": [],
+      "subtopic": "Cytoplasmic membrane",
+      "learning_objective": "Identify the cytoplasmic membrane as the phospholipid bilayer structure, distinct from the cell wall, capsule and spore.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q125",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q125",
+      "page": 21,
+      "title": "Plasmids do not control basic cell multiplication",
+      "question": "Plasmids control the following processes in bacteria EXCEPT?",
+      "options": {
+        "A": "Multiplication",
+        "B": "Antibiotic resistance",
+        "C": "Virulence",
+        "D": "Toxin production"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This is the false statement, so it is the EXCEPT answer. Basic cell multiplication (binary fission) is a core, chromosome-directed process the cell performs regardless of which plasmids it carries -- a plasmid can be replicated and partitioned alongside cell division, but it does not itself control whether or how the cell multiplies.",
+        "B": "Incorrect (true statement, not the EXCEPT). Antibiotic-resistance genes are a classic example of plasmid-encoded, accessory traits.",
+        "C": "Incorrect (true statement, not the EXCEPT). Virulence genes, such as those encoding adhesins or invasion factors, are frequently plasmid-encoded.",
+        "D": "Incorrect (true statement, not the EXCEPT). Many bacterial exotoxins, such as diphtheria toxin (phage-encoded) and several enterotoxins, are encoded on plasmids or other mobile genetic elements rather than the core chromosome."
+      },
+      "main_concept": "CON-DEV-FE47A8F9B0768E",
+      "concept_ids": ["CON-DEV-FE47A8F9B0768E"],
+      "contextual_concept_ids": [],
+      "subtopic": "Extrachromosomal DNA",
+      "learning_objective": "Identify that basic cell multiplication, not antibiotic resistance, virulence or toxin production, is the process a plasmid does not control.",
+      "library_ids": ["ART-DEV-TOP-39535C6C81"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q126",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q126",
+      "page": 21,
+      "title": "Selective permeability is a cytoplasmic membrane function",
+      "question": "Selective permeability is a function of?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Cytoplasmic membrane",
+        "C": "Capsule",
+        "D": "Spores"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The cell wall gives the bacterium its shape and rigidity and is generally freely permeable to small solutes, not the selectively permeable barrier controlling molecular traffic.",
+        "B": "Correct. The cytoplasmic membrane is the cell's selectively permeable barrier, regulating which materials pass into and out of the cell. This is a direct consequence of its phospholipid bilayer architecture, which restricts free diffusion of most molecules and requires transport proteins for controlled passage.",
+        "C": "Incorrect. The capsule's defining role is antiphagocytic protection and organism identification, not regulating molecular traffic into and out of the cell.",
+        "D": "Incorrect. A spore is a dormant survival structure with a dense, impermeable coat designed to exclude water and chemicals almost entirely, not to provide the cell's ordinary selective-permeability function."
+      },
+      "main_concept": "CON-INF-A1043E023CD6FB",
+      "concept_ids": ["CON-INF-A1043E023CD6FB"],
+      "contextual_concept_ids": [],
+      "subtopic": "Cytoplasmic membrane",
+      "learning_objective": "Identify the cytoplasmic membrane as the structure responsible for selective permeability, distinct from the cell wall, capsule and spore.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q136",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q136",
+      "page": 23,
+      "title": "Inclusion granules are reserved nutrients",
+      "question": "Inclusion granules?",
+      "options": {
+        "A": "Permanent bacterial structure",
+        "B": "Present only in gram negative bacilli",
+        "C": "Reserved nutrients",
+        "D": "Protein in nature"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Inclusion granules appear and disappear depending on nutrient availability; they are not a fixed, permanent structure present in every cell at all times.",
+        "B": "Incorrect. Inclusion granules occur across a range of bacteria, not restricted to Gram-negative bacilli -- Corynebacterium diphtheriae, a Gram-positive rod, is a classic example bearing prominent inclusion granules.",
+        "C": "Correct. Inclusion (storage) granules -- such as volutin/metachromatic (polyphosphate), glycogen (carbohydrate) or poly-beta-hydroxybutyrate (lipid) granules -- are cytoplasmic reserves of nutrients. The cell accumulates them when a given nutrient is abundant and draws on them when conditions later become limiting. This storage-and-mobilisation pattern is what \"reserved nutrients\" describes.",
+        "D": "Incorrect. Inclusion granules are typically composed of polyphosphate, carbohydrate or lipid, not protein."
+      },
+      "main_concept": "CON-INF-398B4BA280679E",
+      "concept_ids": ["CON-INF-398B4BA280679E"],
+      "contextual_concept_ids": [],
+      "subtopic": "Bacterial inclusion (storage) granules",
+      "learning_objective": "State that inclusion granules are reserved-nutrient storage structures, not permanent, Gram-negative-restricted or protein in nature.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE-2"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q138",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q138",
+      "page": 23,
+      "title": "Capsule, pili, exotoxins and Lipid A are all virulence factors",
+      "question": "Bacterial structure that may be associated with pathogenicity are the following?",
+      "options": {
+        "A": "Capsule",
+        "B": "Pili",
+        "C": "Exotoxins",
+        "D": "Lipid A",
+        "E": "All of the above"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect (true statement, but incomplete). The capsule is genuinely a virulence factor, chiefly through its antiphagocytic action, but it is only one of several listed here.",
+        "B": "Incorrect (true statement, but incomplete). Pili contribute to pathogenicity through adherence to host cells, but this too is only part of the full picture.",
+        "C": "Incorrect (true statement, but incomplete). Exotoxins are secreted virulence factors that directly damage host cells or disrupt their function, again only one of several correct options here.",
+        "D": "Incorrect (true statement, but incomplete). Lipid A, the toxic component of Gram-negative lipopolysaccharide (endotoxin), triggers inflammatory and septic effects, but this alone does not capture the full list.",
+        "E": "Correct. Capsule, pili, exotoxins and Lipid A are all genuine, well-established bacterial virulence factors, each contributing to pathogenicity through a different mechanism -- antiphagocytic protection, adherence, direct cell damage and endotoxic activity respectively. Since all four are correct, \"all of the above\" is the accurate answer."
+      },
+      "main_concept": "CON-INF-B775994AC7062B",
+      "concept_ids": ["CON-INF-B775994AC7062B"],
+      "contextual_concept_ids": [],
+      "subtopic": "Bacterial virulence factors",
+      "learning_objective": "State that the capsule, pili, exotoxins and Lipid A are all bacterial structures/products associated with pathogenicity.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "reuse": "CON-INF-B775994AC7062B is this lane's own chapter-1 mint (lane 1, \"virulence factors include the capsule, pili, extracellular enzymes and endotoxin\"), already imported earlier -- no overlay needed." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q139",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q139",
+      "page": 23,
+      "title": "Both penicillin and lysozyme can produce protoplasts",
+      "question": "Protoplasts are developed due to effect of?",
+      "options": {
+        "A": "Penicillin",
+        "B": "Lysozyme",
+        "C": "Polyenes",
+        "D": "Polymyxins",
+        "E": "A&B"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect (true statement, but incomplete). Penicillin, by inhibiting peptidoglycan cross-linking during wall synthesis, can lead to a wall-deficient protoplast in a Gram-positive cell, but it is not the only agent capable of this.",
+        "B": "Incorrect (true statement, but incomplete). Lysozyme, by directly hydrolysing existing peptidoglycan, can likewise strip a Gram-positive cell of its wall to leave a protoplast, but again this is not the sole correct option.",
+        "C": "Incorrect. Polyenes (such as amphotericin B) act on ergosterol in fungal cell membranes; they are not the classic agents used to produce a bacterial protoplast.",
+        "D": "Incorrect. Polymyxins disrupt the bacterial outer/cytoplasmic membrane directly; they are not the classic wall-removing agents that generate a protoplast.",
+        "E": "Correct. A Gram-positive bacterium's protoplast is a cell stripped entirely of its peptidoglycan wall. Either penicillin, which blocks new wall synthesis, or lysozyme, which hydrolyses existing wall material, can produce it, since both routes remove the peptidoglycan a Gram-positive cell relies on. What remains after either treatment is only the fragile, osmotically sensitive cytoplasmic membrane."
+      },
+      "main_concept": "CON-INF-BD1B74226AE7B2",
+      "concept_ids": ["CON-INF-BD1B74226AE7B2"],
+      "contextual_concept_ids": [],
+      "subtopic": "Protoplasts and spheroplasts",
+      "learning_objective": "State that both penicillin and lysozyme can each produce a protoplast from a Gram-positive bacterium.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE-2"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "reuse": "CON-INF-BD1B74226AE7B2 is this lane's own chapter-1 mint (lane 2, protoplast vs spheroplast), already imported earlier -- no overlay needed." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q142",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q142",
+      "page": 23,
+      "title": "Antibiotic-destroying enzymes are excreted at the cytoplasmic membrane",
+      "question": "The following is site of excretion of enzymes that destroy antibiotics?",
+      "options": {
+        "A": "Capsule",
+        "B": "Cell wall",
+        "C": "Spores",
+        "D": "Cytoplasmic membrane"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The capsule's role is antiphagocytic protection, not the site through which antibiotic-inactivating enzymes leave the cell.",
+        "B": "Incorrect. The cell wall (specifically its peptidoglycan) is itself a common antibiotic target, not the excretion route for the enzymes that inactivate antibiotics.",
+        "C": "Incorrect. Spores are dormant survival structures, unrelated to enzyme excretion or antibiotic resistance mechanisms of an actively growing cell.",
+        "D": "Correct. Bacteria that inactivate antibiotics enzymatically -- classically beta-lactamases hydrolysing the beta-lactam ring of penicillins and cephalosporins -- excrete these enzymes at or through the cytoplasmic membrane. In a Gram-negative cell this means release into the periplasmic space; in a Gram-positive cell it means release directly into the surrounding medium. Either way, the cytoplasmic membrane is the shared excretion route."
+      },
+      "main_concept": "CON-INF-7A1F92BC450E31",
+      "concept_ids": ["CON-INF-7A1F92BC450E31"],
+      "contextual_concept_ids": ["CON-DEV-FE47A8F9B0768E"],
+      "subtopic": "Antibiotic resistance mechanisms",
+      "learning_objective": "State that antibiotic-inactivating enzymes are excreted at the cytoplasmic membrane, not the capsule, cell wall or spore.",
+      "library_ids": ["ART-INF-AUN-INI105-CH1B-EXTRAS"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "mint": "CON-INF-7A1F92BC450E31 cleared by find-existing.mjs (\"beta-lactamase\", 0 grain-matching hits) -- see concept/AUN-INI-105-ch1b-concepts.md field_notes." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q144",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q144",
+      "page": 24,
+      "title": "Curved rod-shaped bacteria are vibrios",
+      "question": "Bacteria shaped like curved rods?",
+      "options": {
+        "A": "Cocci",
+        "B": "Bacilli",
+        "C": "Vibrios",
+        "D": "Spirochaetes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cocci are spherical bacteria, not curved rods.",
+        "B": "Incorrect. Bacilli are straight rod-shaped bacteria; a curved rod is a distinct morphological category from a straight one.",
+        "C": "Correct. Bacteria shaped like curved or comma-shaped rods are classified as vibrios. Vibrio cholerae, the cause of cholera, is the classic example of this morphology, its single polar flagellum driving a characteristic rapid, darting motility.",
+        "D": "Incorrect. Spirochaetes are long, thin, flexible, helically coiled organisms, a more extensively coiled shape than a vibrio's simple curve."
+      },
+      "main_concept": "CON-INF-91DA24F607B3C8",
+      "concept_ids": ["CON-INF-91DA24F607B3C8"],
+      "contextual_concept_ids": ["CON-INF-E4E8831D2BE517"],
+      "subtopic": "Bacterial morphology",
+      "learning_objective": "Identify vibrios as the curved, comma-shaped rod bacterial morphology, distinguishing it from cocci, bacilli and spirochaetes.",
+      "library_ids": ["ART-INF-AUN-INI105-CH1B-EXTRAS"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "mint": "CON-INF-91DA24F607B3C8 cleared by find-existing.mjs (\"vibrio\", 1 hit -- this lane's own CON-INF-E4E8831D2BE517, a different grain, flagellar arrangement not general morphology -- reused as contextual, not merged)." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q145",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q145",
+      "page": 24,
+      "title": "The bacterial chromosome controls cell properties and behaviour",
+      "question": "Function of bacterial chromosome is?",
+      "options": {
+        "A": "Control bacterial properties and behavior",
+        "B": "Protein synthesis",
+        "C": "Site of respiratory enzymes",
+        "D": "Used as vector for gene cloning",
+        "E": "All of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The bacterial chromosome -- a single, circular, double-stranded DNA molecule held free in the cytoplasm's nucleoid region -- carries the genetic information that controls the cell's inherited properties and behaviour: its structural features, metabolic capabilities and environmental responses. This genome-level control function is the chromosome's defining role.",
+        "B": "Incorrect. Protein synthesis is physically carried out by ribosomes reading messenger RNA, not by the chromosome itself.",
+        "C": "Incorrect. Respiratory enzymes are housed at the cytoplasmic membrane, classically at mesosomes, not on the chromosome.",
+        "D": "Incorrect. Small, easily manipulated plasmids -- not the much larger chromosome -- are the classic vectors used in gene cloning.",
+        "E": "Incorrect. Since protein synthesis, respiration and cloning-vector use are each carried out by other cell components (ribosomes, the membrane, plasmids), \"all of the above\" incorrectly attributes them to the chromosome as well."
+      },
+      "main_concept": "CON-INF-C830461FA92E7D",
+      "concept_ids": ["CON-INF-C830461FA92E7D"],
+      "contextual_concept_ids": ["CON-INF-52E3C48A1A2AAA"],
+      "subtopic": "Bacterial chromosome",
+      "learning_objective": "State that the bacterial chromosome's function is to control the cell's genetically determined properties and behaviour, rejecting protein synthesis, respiration and cloning-vector use.",
+      "library_ids": ["ART-INF-AUN-INI105-CH1B-EXTRAS"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "mint": "CON-INF-C830461FA92E7D cleared by find-existing.mjs (\"bacterial chromosome function\", 0 hits) -- see concept/AUN-INI-105-ch1b-concepts.md field_notes." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q146",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q146",
+      "page": 24,
+      "title": "Failure to retain crystal violet after decolorization defines Gram-negative bacteria",
+      "question": "Bacteria whose cell can't retain methyl violet after decolorization with alcohol are?",
+      "options": {
+        "A": "Acid fast",
+        "B": "Gram negative",
+        "C": "Gram positive",
+        "D": "Anaerobes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Acid-fastness is a separate staining property (resistance to acid-alcohol decolorization after carbol fuchsin, classically in Mycobacterium), not the Gram stain's own decolorization behaviour.",
+        "B": "Correct. Gram-negative bacteria have only a thin peptidoglycan layer, which the alcohol decolourising step readily disrupts, washing out the crystal violet-iodine complex (loosely termed \"methyl violet\" here). Because the primary stain is lost at decolorization, the cell instead takes up the safranin counterstain and appears pink, the defining Gram-negative result.",
+        "C": "Incorrect. Gram-positive bacteria have a thick peptidoglycan wall that retains the crystal violet-iodine complex through the decolourising step -- the opposite of the behaviour this question describes.",
+        "D": "Incorrect. Anaerobic/aerobic growth requirement is an unrelated property to Gram-stain decolorization behaviour."
+      },
+      "main_concept": "CON-INF-16E0B6ECB647D3",
+      "concept_ids": ["CON-INF-16E0B6ECB647D3"],
+      "contextual_concept_ids": [],
+      "subtopic": "Gram stain reaction",
+      "learning_objective": "State that failure to retain the primary Gram stain after alcohol decolorization defines Gram-negative bacteria.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "reuse": "CON-INF-16E0B6ECB647D3 is this lane's own chapter-1 mint (lane 1, Gram stain reaction), already imported earlier -- no overlay needed." },
+      "author_notes": "Source prints \"methyl violet\"; the standard Gram-stain primary dye is crystal violet -- read as the same intended reagent, per standard teaching, since the decolorization/counterstain mechanism described is unambiguously the Gram stain procedure."
+    },
+    {
+      "key": "ini-mcq-ch1b-q147",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q147",
+      "page": 24,
+      "title": "Restriction enzymes are not required for chromosomal replication",
+      "question": "Which of the following is incorrect regarding bacterial cell division?",
+      "options": {
+        "A": "Bacteria multiply by binary fission",
+        "B": "Restriction enzymes is required for chromosomal replication",
+        "C": "Mesosomes play a role in cell division",
+        "D": "The cell divided into two daughter identical cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (true statement, not the incorrect one). Bacteria do multiply by binary fission, the simple splitting of one cell into two.",
+        "B": "Correct. This is the incorrect statement being asked for. Restriction endonucleases recognise a specific DNA sequence and cleave it, classically as part of a phage-defence system, but they play no role in the routine replication of the bacterium's own chromosome -- so they are not required for chromosomal replication, contrary to this statement.",
+        "C": "Incorrect (true statement, not the incorrect one). Mesosomes have classically been described as anchoring the bacterial chromosome and coordinating its segregation during cell division.",
+        "D": "Incorrect (true statement, not the incorrect one). Binary fission produces two genetically identical daughter cells, the standard outcome of bacterial cell division."
+      },
+      "main_concept": "CON-INF-05E9B7D2318CFA",
+      "concept_ids": ["CON-INF-05E9B7D2318CFA"],
+      "contextual_concept_ids": [],
+      "subtopic": "Bacterial cell division",
+      "learning_objective": "Identify that restriction enzymes are not required for chromosomal replication, while correctly recognising binary fission, mesosome involvement and identical daughter cells as true statements about bacterial cell division.",
+      "library_ids": ["ART-INF-AUN-INI105-CH1B-EXTRAS"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "mint": "CON-INF-05E9B7D2318CFA cleared by find-existing.mjs (\"restriction endonuclease\", only a differently-framed pending Ain-Shams ASU-MBG record on the enzyme's own origin/definition, already overlaid for this module's chapter 4 -- not reused, to avoid pulling that cross-subject/cross-chapter dependency chain into a single item; see concept/AUN-INI-105-ch1b-concepts.md field_notes)." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q150",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q150",
+      "page": 24,
+      "title": "Spores form in Gram-positive, not Gram-negative, cells",
+      "question": "All the following statements refer to bacterial spores EXCEPT?",
+      "options": {
+        "A": "They are formed within certain gram-negative cells",
+        "B": "They do not take ordinary stains",
+        "C": "They are unusually dehydrated",
+        "D": "They are more resistant than vegetative cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This is the false statement, so it is the EXCEPT answer. Endospore formation (sporulation) is classically a Gram-positive property, seen in genera such as Bacillus and Clostridium -- not a Gram-negative one, contrary to this statement.",
+        "B": "Incorrect (true statement, not the EXCEPT). The dense, resistant spore coat does not take up ordinary stains, appearing as unstained, clear/refractile areas on a routine smear.",
+        "C": "Incorrect (true statement, not the EXCEPT). Spores are genuinely dehydrated, with markedly lower water content than a vegetative cell.",
+        "D": "Incorrect (true statement, not the EXCEPT). Spores are far more resistant to heat, drying and disinfectants than the vegetative cells that form them."
+      },
+      "main_concept": "CON-INF-3E6590C8AC2166",
+      "concept_ids": ["CON-INF-3E6590C8AC2166"],
+      "contextual_concept_ids": [],
+      "subtopic": "Bacterial endospores",
+      "learning_objective": "Identify that spore formation is a Gram-positive, not a Gram-negative, property, while correctly recognising staining, dehydration and resistance features.",
+      "library_ids": ["ART-INF-TOP-1181606D78"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26" },
+      "author_notes": "Distinct false claim (Gram-negative sporulation) from this same pass's own Q116 (germination capability) and this lane's earlier Q47 (metabolic activity) -- each a different specific spore misconception, authored separately per the chapter's established precedent."
+    },
+    {
+      "key": "ini-mcq-ch1b-q151",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q151",
+      "page": 25,
+      "title": "The nucleoid lacks a nuclear membrane",
+      "question": "Bacterial nucleoid differs from eukaryotic nucleus in being?",
+      "options": {
+        "A": "Contains histones",
+        "B": "Contains ribosomes",
+        "C": "Contains multiple chromosome",
+        "D": "Lack nuclear membrane"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Bacterial DNA is not organised around histone proteins the way eukaryotic chromatin is -- the nucleoid lacks true histones, so this is not a feature distinguishing it from a eukaryotic nucleus in the direction implied here.",
+        "B": "Incorrect. Ribosomes are found free in the cytoplasm surrounding the nucleoid, not inside it, in both prokaryotic and eukaryotic cells' respective compartments; this is not the defining structural difference asked for.",
+        "C": "Incorrect. The bacterial nucleoid typically holds a single circular chromosome, not multiple ones -- multiple linear chromosomes are the eukaryotic pattern, the reverse of this option's claim.",
+        "D": "Correct. The bacterial nucleoid is an unbound region of cytoplasm holding the cell's DNA, with no membrane enclosing it -- unlike the eukaryotic nucleus, whose DNA is enclosed within a double nuclear membrane. This absence of a nuclear membrane is the defining structural distinction between the two."
+      },
+      "main_concept": "CON-INF-52E3C48A1A2AAA",
+      "concept_ids": ["CON-INF-52E3C48A1A2AAA"],
+      "contextual_concept_ids": [],
+      "subtopic": "Prokaryote architecture",
+      "learning_objective": "State that the bacterial nucleoid, unlike the eukaryotic nucleus, lacks a nuclear membrane.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q153",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q153",
+      "page": 25,
+      "title": "Crystal violet stains Gram-positive bacteria",
+      "question": "Staining material of gram-positive bacterium is?",
+      "options": {
+        "A": "Fast green",
+        "B": "Hematoxylin",
+        "C": "Crystal violet",
+        "D": "Safranin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Fast green is a histology counterstain used in some tissue-staining protocols, not the Gram stain's primary reagent.",
+        "B": "Incorrect. Hematoxylin is a histology nuclear stain (as in H&E staining), not a Gram stain reagent.",
+        "C": "Correct. Crystal violet is the Gram stain's primary dye. A Gram-positive bacterium's thick peptidoglycan wall retains the crystal violet-iodine complex through the alcohol decolourising step. This retention is what produces the characteristic violet/purple appearance defining a Gram-positive result.",
+        "D": "Incorrect. Safranin is the Gram stain's counterstain, taken up specifically by Gram-negative cells after they lose the primary crystal violet stain -- it is not what a Gram-positive cell retains."
+      },
+      "main_concept": "CON-INF-16E0B6ECB647D3",
+      "concept_ids": ["CON-INF-16E0B6ECB647D3"],
+      "contextual_concept_ids": [],
+      "subtopic": "Gram stain reaction",
+      "learning_objective": "Identify crystal violet as the dye retained by, and defining, a Gram-positive bacterium on Gram stain.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q157",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q157",
+      "page": 25,
+      "title": "Lysozyme hydrolyzes the bacterial cell wall",
+      "question": "Enzyme hydrolyzing bacterial cell wall?",
+      "options": {
+        "A": "Lysosome",
+        "B": "Reductase",
+        "C": "Protease",
+        "D": "Lysozyme"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A lysosome is a eukaryotic membrane-bound organelle containing digestive enzymes, not itself an enzyme, and not a bacterial structure at all.",
+        "B": "Incorrect. A reductase catalyses reduction reactions in metabolic pathways; it does not hydrolyse peptidoglycan.",
+        "C": "Incorrect. A protease breaks down proteins; peptidoglycan is a sugar-peptide polymer whose glycosidic bonds are not a protease's substrate.",
+        "D": "Correct. Lysozyme hydrolyses the beta-1,4 glycosidic bond between the alternating sugar units of peptidoglycan, breaking down the bacterial cell wall. Applied to a Gram-positive cell, this can strip the wall away entirely, leaving a wall-deficient protoplast."
+      },
+      "main_concept": "CON-INF-BD1B74226AE7B2",
+      "concept_ids": ["CON-INF-BD1B74226AE7B2"],
+      "contextual_concept_ids": [],
+      "subtopic": "Protoplasts and spheroplasts",
+      "learning_objective": "Identify lysozyme as the enzyme that hydrolyses the bacterial cell wall.",
+      "library_ids": ["ART-INF-AUN-INI105-BACTERIAL-CELL-STRUCTURE-2"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q158",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q158",
+      "page": 25,
+      "title": "Corynebacterium diphtheriae causes diphtheria",
+      "question": "Diphtheria is caused by?",
+      "options": {
+        "A": "Corynebacterium",
+        "B": "Staphylococcus",
+        "C": "Streptococcus",
+        "D": "None of these"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Diphtheria, an upper-respiratory-tract infection classically marked by a grey pseudomembrane and toxin-mediated complications such as myocarditis, is caused by Corynebacterium diphtheriae, a Gram-positive, club-shaped rod. The same organism is also classically recognised microscopically by its prominent cytoplasmic metachromatic (Babes-Ernst) storage granules.",
+        "B": "Incorrect. Staphylococcus species cause a different spectrum of disease (skin/soft-tissue infections, toxic shock, food poisoning), not diphtheria.",
+        "C": "Incorrect. Streptococcus species cause a different spectrum of disease (pharyngitis, rheumatic fever, necrotising fasciitis among others), not diphtheria.",
+        "D": "Incorrect. Since Corynebacterium correctly names diphtheria's causative organism, \"none of these\" is wrong."
+      },
+      "main_concept": "CON-INF-3B7614EDA290F5",
+      "concept_ids": ["CON-INF-3B7614EDA290F5"],
+      "contextual_concept_ids": ["CON-INF-398B4BA280679E"],
+      "subtopic": "Clinically relevant organisms",
+      "learning_objective": "Identify Corynebacterium diphtheriae as the causative organism of diphtheria, distinguishing it from Staphylococcus and Streptococcus.",
+      "library_ids": ["ART-INF-AUN-INI105-CH1B-EXTRAS"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "mint": "CON-INF-3B7614EDA290F5 cleared by find-existing.mjs (\"diphtheria\", \"corynebacterium diphtheriae\") -- no hit tests this item's own etiologic-agent fact (hits were a toxoid-conversion concept, an unrelated printed-key concept, a myocarditis-complication concept, and this lane's own metachromatic-granules concept, reused here as contextual); see concept/AUN-INI-105-ch1b-concepts.md field_notes." },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch1b-q161",
+      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q161",
+      "page": 26,
+      "title": "Treponema pallidum is the classic spirochete",
+      "question": "Spirochete is?",
+      "options": {
+        "A": "Gonococci",
+        "B": "Staphylococci",
+        "C": "Treponema pallidum",
+        "D": "Streptococci"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Gonococci (Neisseria gonorrhoeae) are Gram-negative diplococci, a spherical, paired morphology, not a spirochete.",
+        "B": "Incorrect. Staphylococci are Gram-positive cocci arranged in clusters, not a spirochete.",
+        "C": "Correct. Treponema pallidum, the cause of syphilis, is the classic clinically relevant spirochete. It is a long, thin, flexible, helically coiled organism, motile by internal axial filaments rather than external flagella. This shape and motility pattern is distinct from the spherical cocci listed among the other options.",
+        "D": "Incorrect. Streptococci are Gram-positive cocci arranged in chains, not a spirochete."
+      },
+      "main_concept": "CON-INF-C4A08E2F91B673",
+      "concept_ids": ["CON-INF-C4A08E2F91B673"],
+      "contextual_concept_ids": [],
+      "subtopic": "Bacterial morphology",
+      "learning_objective": "Identify Treponema pallidum as the classic spirochete, distinguishing it from the coccal genera Neisseria, Staphylococcus and Streptococcus.",
+      "library_ids": ["ART-INF-AUN-INI105-CH1B-EXTRAS"],
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "mint": "CON-INF-C4A08E2F91B673 cleared by find-existing.mjs (\"spirochete\", \"treponema pallidum\", 0 hits both)." },
+      "author_notes": ""
+    },
+    { "key": "ini-mcq-ch1b-q105", "hold": "source prints only 3 options (A-Lipid A, B-Teichoic acid, C-Peptidoglycan) for \"Cell wall of gram-positive bacteria contain the following EXCEPT?\", short of the seed schema's 4-option floor" },
+    { "key": "ini-mcq-ch1b-q107", "hold": "source prints only 3 options (A-A gene within the bacterial chromosome, B-Extra-chromosomal DNA, C-Bacteriophage gene) for \"Plasmid is?\", short of the seed schema's 4-option floor" },
+    { "key": "ini-mcq-ch1b-q110", "hold": "duplicate-of ini-mcq-q011 -- near-verbatim restatement of \"Bacteria with flagella around the cell is? Peritrichate\" (Q11's already-authored peritrichous fact), differing only in option order/wording" },
+    { "key": "ini-mcq-ch1b-q111", "hold": "duplicate-of ini-mcq-q045 -- near-verbatim restatement of \"Bacterium with flagellum at each end? Amphitrichate\" (Q45's already-authored amphitrichous fact), differing only in option order/wording" },
+    { "key": "ini-mcq-ch1b-q124", "hold": "source prints only 3 options (A-Nutrient uptake and storage, B-Locomotion and nutrient uptake, C-Conjugation and adherence) for \"Pili have 2 functions?\", short of the seed schema's 4-option floor" },
+    { "key": "ini-mcq-ch1b-q129", "hold": "near-verbatim duplicate template of ini-mcq-q062 -- \"The following play role in cell division EXCEPT?\" restates Q62's own \"The following bacterial structures play a role in cell division EXCEPT?\" almost word for word; this instance's printed exception (Ribosomes) differs from Q62's (Plasmids) only because the option set was swapped, the chapter's own recycled-EXCEPT-template pattern (already flagged for the cell-division template and others by this chapter's earlier lanes)" },
+    { "key": "ini-mcq-ch1b-q131", "hold": "duplicate-of ini-mcq-ch1-q063 -- near-verbatim restatement of \"The bacterial structure responsible for staining affinity is?\" (Q63's already-authored cell-wall fact), tested here at the more specific peptidoglycan-vs-cell-wall granularity with a different distractor set" },
+    { "key": "ini-mcq-ch1b-q133", "hold": "printed double answer \"D,E\" (Outside host tissues and In response to depletion of nutrients) for \"Bacterial endospore is formed in the following condition?\" -- the seed schema's correct field accepts exactly one option letter, so a genuinely multi-correct printed key cannot be represented without arbitrarily discarding one of the two correct answers" },
+    { "key": "ini-mcq-ch1b-q140", "hold": "source prints only 3 options (A-Found in gram +ve, B-Found in gram -ve, C-Provide receptor for bacteriophage) for \"Teichoic acid?\", short of the seed schema's 4-option floor" },
+    { "key": "ini-mcq-ch1b-q143", "hold": "source prints only 3 options (A-Play a role in cell division, B-Site of respirator enzymes, C-Play a role in protein synthesis) for \"Functions of mesosomes are the following EXCEPT?\", short of the seed schema's 4-option floor" },
+    { "key": "ini-mcq-ch1b-q149", "hold": "duplicate-of ini-mcq-ch1b-q120 -- near-identical option set (Spores/Capsule/Cell wall/Flagella, reordered) to this same pass's own Q120 (\"Protect the organism from phagocytosis?\"), testing the identical anti-phagocytic-structure fact against the same four structures" },
+    { "key": "ini-mcq-ch1b-q152", "hold": "duplicate-of ini-mcq-q036 -- near-verbatim restatement of \"Endotoxin produced by gram-negative bacteria is present in? Lipopolysaccharide\" (Q36's already-authored fact), flagged in advance by this chapter's own S3 triage note (coverage/AUN-INI-105-triage.md) as a later recurrence" },
+    { "key": "ini-mcq-ch1b-q154", "hold": "duplicate-of ini-mcq-q017 -- near-verbatim restatement of \"The bacterial pili mainly contain? Proteins\" (Q17's already-authored fact), flagged in advance by this chapter's own S3 triage note as a later recurrence" },
+    { "key": "ini-mcq-ch1b-q155", "hold": "duplicate-of ini-mcq-q018 -- near-verbatim restatement of \"Mesosomes are the part of? Plasma membrane\" (Q18's already-authored fact), flagged in advance by this chapter's own S3 triage note as a later recurrence" }
+  ]
+}

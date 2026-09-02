@@ -1,0 +1,154 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "leishmania-mint",
+  "header": "MANS-HIS-203 · Parasitology — visceral leishmaniasis facts against a newly minted concept, authored from the His Continuous Berlin Book 2026 (Parasitology-HIS Lecture 2 and references block, p.67-70), printed keys.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "module_subject": "MANS-HIS-203 > Parasitology > Leishmania",
+    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-MANS-HIS-LEISHMANIA-VISCERAL-BASICS"],
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, Parasitology-HIS, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "leish-vector",
+      "page": 67,
+      "title": "Vector of Leishmania",
+      "question": "The vector of Leishmania is:",
+      "options": {
+        "A": "Female Anopheles",
+        "B": "Flea",
+        "C": "Female sand fly",
+        "D": "Musca domestica",
+        "E": "Soft ticks"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The female Anopheles mosquito is malaria's vector, not Leishmania's; confusing the two vectors is a common exam trap across this department's parasitology bank.",
+        "B": "Incorrect. Fleas transmit organisms such as Yersinia pestis (plague) and some rickettsiae, not Leishmania.",
+        "C": "Correct. The female sand fly (genus Phlebotomus in the Old World, including Egypt) is the vector of Leishmania. It injects the promastigote form while feeding, which is then taken up by human macrophages and transforms into the amastigote, the form responsible for the disease.",
+        "D": "Incorrect. Musca domestica (the housefly) is a mechanical vector for some enteric pathogens; it plays no role in Leishmania transmission.",
+        "E": "Incorrect. Soft ticks transmit organisms such as relapsing-fever Borrelia, not Leishmania."
+      },
+      "main_concept": "CON-INF-8E5A379127842E",
+      "concept_ids": ["CON-INF-8E5A379127842E"],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Leishmaniasis",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the female sand fly as the vector of Leishmania, as distinct from other arthropod vectors.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.67 (L2 PARA questions, FORMATIVE + LECTURE MCQ, Q2)" },
+      "author_notes": ""
+    },
+    {
+      "key": "leish-diagnostic-stage",
+      "page": 68,
+      "title": "Diagnostic stage of Leishmania in tissue smears",
+      "question": "What is the diagnostic stage of Leishmania in tissue smears?",
+      "options": {
+        "A": "Promastigote",
+        "B": "Epimastigote",
+        "C": "Amastigote",
+        "D": "Trypomastigote"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The promastigote (flagellated) is the form found in the sand fly vector and in culture (NNN medium), not the form a tissue smear from a human patient is examined for.",
+        "B": "Incorrect. The epimastigote is a form seen in the life cycle of trypanosomes, not Leishmania.",
+        "C": "Correct. The amastigote — non-flagellated and obligate intracellular within human macrophages — is the diagnostic stage seen on a Leishman- or Giemsa-stained tissue smear (bone marrow, spleen or liver aspirate). Finding amastigotes within macrophages on such a smear confirms the diagnosis of visceral leishmaniasis.",
+        "D": "Incorrect. The trypomastigote is the bloodstream form of Trypanosoma species, not a form Leishmania passes through."
+      },
+      "main_concept": "CON-INF-8E5A379127842E",
+      "concept_ids": ["CON-INF-8E5A379127842E"],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Leishmaniasis",
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the amastigote as the diagnostic stage of Leishmania on a tissue smear, as distinct from the promastigote (vector/culture form).",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.68 (Parasitology-HIS references block, Q3)" },
+      "author_notes": ""
+    },
+    {
+      "key": "leish-skin-test",
+      "page": 68,
+      "title": "Leishmanin (Montenegro) skin test",
+      "question": "Which of the following diagnostic methods involves injecting killed promastigotes intradermally?",
+      "options": {
+        "A": "ELISA test",
+        "B": "IFA test",
+        "C": "Leishmanin skin test",
+        "D": "DAT test"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. ELISA detects circulating anti-leishmanial antibodies in a blood sample; it does not involve injecting anything into the skin.",
+        "B": "Incorrect. The indirect fluorescent antibody (IFA) test is also a serological blood test for antibodies, not a skin test.",
+        "C": "Correct. The Leishmanin (Montenegro) skin test injects killed promastigotes intradermally and reads a delayed-hypersensitivity response (induration and erythema) 48-72 hours later. A positive result indicates past infection with Leishmania, becoming positive only 6-8 weeks after cure, and is typically negative during active visceral leishmaniasis because of the marked depression of cell-mediated immunity the active disease itself causes.",
+        "D": "Incorrect. The direct agglutination test (DAT) is a serological test performed on a blood sample, not a skin test."
+      },
+      "main_concept": "CON-INF-8E5A379127842E",
+      "concept_ids": ["CON-INF-8E5A379127842E"],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Leishmaniasis",
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the Leishmanin (Montenegro) skin test as the intradermal killed-promastigote test for past Leishmania infection, and that it is negative during active disease.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.68 (Parasitology-HIS references block, Q9)" },
+      "author_notes": ""
+    },
+    {
+      "key": "leish-black-fever-sign",
+      "page": 68,
+      "title": "Why visceral leishmaniasis is called \"black fever\"",
+      "question": "Which clinical sign gives visceral leishmaniasis the name 'black fever' (kala-azar)?",
+      "options": {
+        "A": "Severe diarrhoea",
+        "B": "Dark pigmentation of the skin",
+        "C": "Enlarged spleen",
+        "D": "Nodular lesions"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Diarrhoea or dysentery can occur in visceral leishmaniasis, from parasite invasion of Peyer's patches, but it is not what gives the disease its \"black fever\" name.",
+        "B": "Correct. \"Kala-azar\" is Hindi for \"black fever,\" reflecting the early hyperpigmentation of the skin (classically circumoral, around the face) that visceral leishmaniasis produces, alongside its systemic fever. This pigmentation is distinct from post-kala-azar dermal leishmaniasis (PKDL), the depigmented nodular lesions that can appear after apparent cure.",
+        "C": "Incorrect. Splenomegaly is a prominent feature of visceral leishmaniasis (with hepatomegaly and lymphadenopathy), but it is the skin pigmentation, not the enlarged spleen, that gives the disease its \"black\" name.",
+        "D": "Incorrect. Nodular skin lesions describe post-kala-azar dermal leishmaniasis (PKDL), a depigmented, not dark, presentation that occurs after recovery, not the sign the disease is named for."
+      },
+      "main_concept": "CON-INF-8E5A379127842E",
+      "concept_ids": ["CON-INF-8E5A379127842E"],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Leishmaniasis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain why visceral leishmaniasis is called \"black fever,\" and distinguish its skin hyperpigmentation from PKDL's depigmented nodules.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.68 (Parasitology-HIS references block, Q17)" },
+      "author_notes": ""
+    }
+  ]
+}

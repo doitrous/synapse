@@ -1,0 +1,477 @@
+{
+  "lane": "MANS-MSS-202",
+  "cluster": "physio2-mint",
+  "header": "MANS-MSS-202 · Physiology of the Neuromuscular Junction, authored from Most important MCQ (continuous).pdf pp.7-14 (bold key), reusing Kasr 103-BMS's comprehensive live/pending neuromuscular-transmission concepts for nine of eleven items (found only after a broadened corpus grep -- narrow find-existing.mjs phrase queries under-hit every one of them) and minting two new concepts (alpha motor neuron fibre type; Lambert-Eaton syndrome) after a genuine search-before-mint found no matching record for either.",
+  "defaults": {
+    "subject": "msk",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "mans"
+    ],
+    "years": [
+      "MANS_Y1"
+    ],
+    "module": "MANS-MSS-202",
+    "resource_ids": [
+      "src_9fa49f3f0021440fcce7"
+    ],
+    "source_citation": "Most important MCQ (continuous).pdf",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "nmj-q01",
+      "page": 7,
+      "title": "Location of the NMJ's junctional folds",
+      "question": "Junctional folds of NMJ (neuro-muscular junction):",
+      "options": {
+        "A": "Are present at the axonal terminal",
+        "B": "Are present at motor end plate",
+        "C": "Contains vesicles of acetylcholine",
+        "D": "Contain catechol-o-methyl transferase (COMT) enzyme",
+        "E": "Decrease the surface area of postsynaptic membrane"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The axonal terminal (presynaptic side) holds the acetylcholine vesicles, not the junctional folds, which are a postsynaptic membrane feature.",
+        "B": "Correct. The postsynaptic muscle membrane at the neuromuscular junction is thickened and thrown into junctional folds, forming the motor end plate, which is rich in acetylcholine receptors. This structural feature is what allows the small motor end plate area to hold enough acetylcholine receptors to reliably trigger a muscle action potential.",
+        "C": "Incorrect. Acetylcholine vesicles are held in the presynaptic axon terminal, not in the junctional folds themselves.",
+        "D": "Incorrect. Acetylcholine is broken down by acetylcholinesterase in the synaptic cleft, not by COMT, which degrades catecholamines elsewhere in the body.",
+        "E": "Incorrect. Junctional folds increase, not decrease, the postsynaptic surface area, packing in more acetylcholine receptors than a flat membrane could hold."
+      },
+      "main_concept": "CON-NEU-273E2C22C11A97",
+      "concept_ids": [
+        "CON-NEU-273E2C22C11A97"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the junctional folds are a postsynaptic motor end plate feature that increases receptor-holding surface area.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.7, \"MCQ on physio 2\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-103-PHY-NMT"
+      ]
+    },
+    {
+      "key": "nmj-q02",
+      "page": 7,
+      "title": "Definition of a motor unit",
+      "question": "The motor unit consists of.",
+      "options": {
+        "A": "Single muscle fibers",
+        "B": "All motor nerve fibers supplying a skeletal muscle",
+        "C": "Single nerve fiber and muscle fibers supplied by it",
+        "D": "All skeletal muscle fibers",
+        "E": "All motor neurons arising from AHCs supplying several muscles"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A single muscle fibre alone is not a motor unit; the unit must include the nerve fibre that supplies it.",
+        "B": "Incorrect. All the motor nerve fibres supplying a whole muscle make up many motor units together, not one motor unit.",
+        "C": "Correct. A motor unit is one spinal (alpha) motor neuron together with all the muscle fibres its branching axon supplies — small units of a few fibres for fine, precise movements, large units of many fibres for gross movements. The size of a motor unit, from a handful of fibres for fine eye movements to hundreds for gross limb movements, follows directly from this basic definition.",
+        "D": "Incorrect. All the fibres of a whole skeletal muscle are supplied by many separate motor units, not by one.",
+        "E": "Incorrect. This describes an entire pool of motor neurons across several muscles, far broader than the definition of a single motor unit."
+      },
+      "main_concept": "CON-MSK-C14F65CD68F720",
+      "concept_ids": [
+        "CON-MSK-C14F65CD68F720"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define a motor unit as one motor neuron plus all the muscle fibres its axon supplies.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.7, \"MCQ on physio 2\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-103-PHY-GRADING-LENGTH-LOAD"
+      ]
+    },
+    {
+      "key": "nmj-q03",
+      "page": 7,
+      "title": "Nerve fibre type supplying skeletal muscle",
+      "question": "What is the type of nerve fibers supplying skeletal muscle?",
+      "options": {
+        "A": "A alpha",
+        "B": "A beta",
+        "C": "A delta",
+        "D": "B",
+        "E": "C"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Skeletal muscle is supplied by A-alpha fibres, the largest, most heavily myelinated and fastest-conducting class of peripheral nerve fibre, carrying the efferent output of alpha motor neurons to extrafusal muscle fibres. This large-diameter, fast-conducting design ensures that all the muscle fibres of a motor unit are activated together, essentially simultaneously.",
+        "B": "Incorrect. A-beta fibres are smaller than A-alpha and mainly carry touch/pressure sensory information, not motor output to skeletal muscle.",
+        "C": "Incorrect. A-delta fibres are thinly myelinated and carry fast (sharp) pain and temperature sensation, not motor output.",
+        "D": "Incorrect. B fibres are lightly myelinated preganglionic autonomic fibres, unrelated to skeletal muscle motor supply.",
+        "E": "Incorrect. C fibres are unmyelinated, the slowest class, carrying dull/burning pain and postganglionic autonomic signals, not skeletal muscle motor output."
+      },
+      "main_concept": "CON-MSK-9064E723E75A6D",
+      "concept_ids": [
+        "CON-MSK-9064E723E75A6D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify A-alpha as the nerve fibre type supplying skeletal muscle.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.7, \"MCQ on physio 2\""
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-ALPHA-MOTOR-NEURON-FIBER"
+      ]
+    },
+    {
+      "key": "nmj-q04",
+      "page": 13,
+      "title": "Antibody in a paraneoplastic myasthenic vignette with SCLC",
+      "question": "A 30-year-old woman presents with muscle weakness that improves with exercise. Electromyography shows increased compound muscle action potential (CMAP) amplitude with repetitive stimulation. She has a history of small cell lung cancer. Which antibody is most likely involved?",
+      "options": {
+        "A": "Anti-acetylcholine receptor antibody",
+        "B": "Anti-voltage-gated calcium channel antibody",
+        "C": "Anti-MuSK antibody",
+        "D": "Anti-LRP4 antibody",
+        "E": "Anti-voltage-gated potassium channel antibody"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Anti-acetylcholine receptor antibody causes myasthenia gravis, which worsens (not improves) with exercise and gives a decremental, not incremental, CMAP on repetitive stimulation.",
+        "B": "Correct. This is the classic vignette for Lambert-Eaton myasthenic syndrome: an autoantibody against presynaptic voltage-gated calcium channels, most often paraneoplastic to small cell lung cancer, which reduces acetylcholine release but shows transient improvement and an incremental CMAP with repeated use as residual calcium accumulates in the terminal. The improvement with exercise and the incremental CMAP are both direct consequences of residual presynaptic calcium overcoming the antibody's blocking effect with repeated stimulation.",
+        "C": "Incorrect. Anti-MuSK antibody causes a variant of myasthenia gravis (postsynaptic), not this presynaptic, exercise-improving, SCLC-associated picture.",
+        "D": "Incorrect. Anti-LRP4 antibody is another postsynaptic myasthenia gravis variant, not the presynaptic mechanism this vignette describes.",
+        "E": "Incorrect. Anti-voltage-gated potassium channel antibody causes neuromyotonia or limbic encephalitis, not this myasthenic-with-SCLC picture."
+      },
+      "main_concept": "CON-MSK-A3A8D2C7306987",
+      "concept_ids": [
+        "CON-MSK-A3A8D2C7306987"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Hard",
+      "question_type": "Clinical vignette",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise the small-cell-lung-cancer, exercise-improving, incremental-CMAP vignette as Lambert-Eaton myasthenic syndrome, caused by anti-voltage-gated-calcium-channel antibody.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.13"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-LAMBERT-EATON-SYNDROME"
+      ]
+    },
+    {
+      "key": "nmj-q05",
+      "page": 8,
+      "title": "Mechanism of synaptic delay at the NMJ",
+      "question": "Synaptic delay is caused by:",
+      "options": {
+        "A": "Formation of Ach",
+        "B": "Packing of Ach into vesicles.",
+        "C": "Breakdown of Ach",
+        "D": "Ach diffusion across the synaptic cleft.",
+        "E": "Reuptake of choli"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Acetylcholine is already synthesised and stored in vesicles well before the nerve impulse arrives; its formation is not the rate-limiting step causing the delay.",
+        "B": "Incorrect. Packing acetylcholine into vesicles also happens continuously beforehand, not as the impulse-triggered step that produces the measured delay.",
+        "C": "Incorrect. Breakdown of acetylcholine by acetylcholinesterase happens after transmission, terminating the signal, not causing the initial delay.",
+        "D": "Correct. The synaptic delay is the time needed for the sequence of release and diffusion: calcium-triggered vesicle rupture, acetylcholine diffusion across the synaptic cleft, and receptor binding — with diffusion across the cleft being the physically rate-limiting step in this brief sequence. Because this whole sequence takes only a fraction of a millisecond, the synaptic delay at a chemical synapse like this one is still far longer than the near-instantaneous conduction along a nerve fibre.",
+        "E": "Incorrect. Reuptake of choline (after acetylcholinesterase breaks acetylcholine down) is a recycling step following transmission, not the cause of the initial delay."
+      },
+      "main_concept": "CON-NEU-64B329335E9489",
+      "concept_ids": [
+        "CON-NEU-64B329335E9489"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain synaptic delay as the time needed for vesicle release and acetylcholine diffusion across the synaptic cleft.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.8"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-103-PHY-NMT"
+      ]
+    },
+    {
+      "key": "nmj-q06",
+      "page": 9,
+      "title": "Channel mediating presynaptic calcium influx",
+      "question": "At the nerve terminal which channel mediates Ca Influx in the axon terminals:",
+      "options": {
+        "A": "ligand gated ion channels",
+        "B": "mechanically activated ion channel",
+        "C": "leak ion channel",
+        "D": "voltage gated ion channel",
+        "E": "Ca penetrates the cell membrane directly"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Ligand-gated channels open in response to a bound chemical messenger (like acetylcholine on the postsynaptic side), not to the presynaptic terminal's own depolarisation.",
+        "B": "Incorrect. Mechanically activated channels open in response to physical deformation (as in touch receptors), not to the nerve terminal's depolarisation.",
+        "C": "Incorrect. Leak channels are always open at a low level, independent of the arriving action potential, and do not mediate the impulse-triggered calcium surge.",
+        "D": "Correct. The arriving nerve impulse depolarises the presynaptic terminal, opening voltage-gated calcium channels; the resulting calcium influx triggers acetylcholine vesicle rupture and exocytosis into the synaptic cleft. This calcium-triggered exocytosis is the presynaptic half of the neuromuscular transmission sequence, immediately followed by acetylcholine diffusing across the cleft to the postsynaptic receptors.",
+        "E": "Incorrect. Calcium does not cross the lipid membrane directly; it requires a specific channel protein, which here is voltage-gated."
+      },
+      "main_concept": "CON-MSK-77D955AAB4D0FA",
+      "concept_ids": [
+        "CON-MSK-77D955AAB4D0FA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify voltage-gated calcium channels as the route of presynaptic calcium influx that triggers acetylcholine release.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.9"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-103-PHY-NEUROMUSCULAR-TRANSMISSION"
+      ]
+    },
+    {
+      "key": "nmj-q07",
+      "page": 9,
+      "title": "Enzyme present at the motor end plate",
+      "question": "Which of the followings is present in the motor end plate of skeletal muscles?",
+      "options": {
+        "A": "choline acetyl transferase enzyme that synthesizes acetylcholine",
+        "B": "cholinergic muscarinic receptors for Acetylcholine",
+        "C": "cholinesterase enzyme that breakdown Acetylcholine",
+        "D": "few numbers of junctional folds",
+        "E": "the vesicles of acetylcholine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Choline acetyltransferase, which synthesises acetylcholine, is located in the presynaptic nerve terminal, not at the postsynaptic motor end plate.",
+        "B": "Incorrect. The motor end plate carries nicotinic, not muscarinic, acetylcholine receptors; muscarinic receptors are found at autonomic (parasympathetic) targets instead.",
+        "C": "Correct. Acetylcholinesterase is bound to the basal lamina in the synaptic cleft at the motor end plate, where it rapidly hydrolyses acetylcholine after it has acted, preventing one impulse from causing repeated contractions. Placing the enzyme in the cleft, rather than in the nerve terminal or muscle cytoplasm, lets it act on acetylcholine exactly where and when the transmitter needs to be cleared.",
+        "D": "Incorrect. The motor end plate has numerous, not few, junctional folds, which increase the postsynaptic surface area available for acetylcholine receptors.",
+        "E": "Incorrect. Acetylcholine vesicles are held in the presynaptic terminal, not at the postsynaptic motor end plate itself."
+      },
+      "main_concept": "CON-MSK-77D955AAB4D0FA",
+      "concept_ids": [
+        "CON-MSK-77D955AAB4D0FA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify acetylcholinesterase, bound to the basal lamina in the synaptic cleft, as present at the motor end plate to terminate transmission.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.9"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-103-PHY-NEUROMUSCULAR-TRANSMISSION"
+      ]
+    },
+    {
+      "key": "nmj-q08",
+      "page": 9,
+      "title": "Cause of synaptic fatigue at the NMJ",
+      "question": "Which of the followings causes synaptic fatigue of neuromuscular transmission?",
+      "options": {
+        "A": "Depletion of acetylcholine",
+        "B": "Depletion of Ca+2 ions",
+        "C": "Depletion of choline acetyl transferase enzyme",
+        "D": "Depletion of cholinergic receptors",
+        "E": "Depletion of cholinesterase enzyme"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Neuromuscular transmission fatigues easily with repeated, rapid stimulation because the readily-releasable pool of acetylcholine-filled vesicles is exhausted faster than it can be replenished, reducing the amount of transmitter released with each successive impulse. This is why very rapid, sustained repetitive nerve stimulation in an experimental or clinical setting can produce a progressively weaker muscle response.",
+        "B": "Incorrect. Extracellular calcium is not depleted by repeated stimulation under normal conditions; it is the vesicle/transmitter supply that runs down, not the calcium available to trigger release.",
+        "C": "Incorrect. Choline acetyltransferase is an enzyme, present in a catalytic (not consumed) role; its depletion is not the mechanism of synaptic fatigue.",
+        "D": "Incorrect. Postsynaptic receptors are not consumed or depleted by ordinary repeated transmission; the limiting factor is presynaptic transmitter supply.",
+        "E": "Incorrect. Depleting the enzyme that breaks acetylcholine down would prolong, not fatigue, transmission, by letting acetylcholine accumulate."
+      },
+      "main_concept": "CON-NEU-64B329335E9489",
+      "concept_ids": [
+        "CON-NEU-64B329335E9489"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain synaptic fatigue at the NMJ as exhaustion of the readily-releasable acetylcholine vesicle pool with repeated stimulation.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.9"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-103-PHY-NMT"
+      ]
+    },
+    {
+      "key": "nmj-q09",
+      "page": 13,
+      "title": "Duration of the synaptic delay at the NMJ",
+      "question": "The synaptic delay at the neuromuscular junction is approximately:",
+      "options": {
+        "A": "0.05 msec",
+        "B": "0.5 msec",
+        "C": "5 msec",
+        "D": "50 msec",
+        "E": "500 msec"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. 0.05 msec is too short for the multi-step sequence of vesicle rupture, diffusion and receptor binding that the synaptic delay covers.",
+        "B": "Correct. The synaptic delay at the neuromuscular junction is approximately 0.5 msec, the time needed for calcium-triggered acetylcholine release, diffusion across the cleft, receptor binding and the resulting change in membrane permeability. This brief delay is one reason a reflex arc through a single synapse is measurably faster than a pathway that must cross several synapses in series.",
+        "C": "Incorrect. 5 msec is an order of magnitude too long for this brief chemical-synapse delay.",
+        "D": "Incorrect. 50 msec is far too long; this magnitude would noticeably slow motor reaction time.",
+        "E": "Incorrect. 500 msec (half a second) is wildly too long for a single synaptic transmission step."
+      },
+      "main_concept": "CON-NEU-64B329335E9489",
+      "concept_ids": [
+        "CON-NEU-64B329335E9489"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the synaptic delay at the neuromuscular junction is approximately 0.5 msec.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.13"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-103-PHY-NMT"
+      ]
+    },
+    {
+      "key": "nmj-q10",
+      "page": 14,
+      "title": "Diagnosis in a vignette of autonomic symptoms with reflexes returning after exercise",
+      "question": "A 50-year-old man presents with dry mouth, constipation, blurred vision, and proximal muscle weakness. His deep tendon reflexes are absent but return briefly after exercise. He has a 40-pack-year smoking history. The most likely diagnosis is:",
+      "options": {
+        "A": "Myasthenia gravis",
+        "B": "Lambert-Eaton syndrome",
+        "C": "Botulism",
+        "D": "Polymyositis",
+        "E": "Guillain-Barré syndrome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Myasthenia gravis causes fatiguable weakness that worsens with exercise, without the autonomic features (dry mouth, constipation, blurred vision) or the post-exercise reflex facilitation described here.",
+        "B": "Correct. Autonomic symptoms plus proximal weakness plus depressed reflexes that transiently return after exercise, in a heavy smoker (small cell lung cancer risk), is the classic Lambert-Eaton myasthenic syndrome picture — autoantibodies against presynaptic voltage-gated calcium channels reduce acetylcholine release, but a brief burst of activity lets residual presynaptic calcium accumulate and transiently improve transmission and reflexes. The autonomic features here (dry mouth, constipation, blurred vision) are what point specifically toward Lambert-Eaton rather than toward myasthenia gravis, which does not typically produce autonomic symptoms.",
+        "C": "Incorrect. Botulism causes descending paralysis with prominent bulbar/autonomic signs from toxin-mediated blockade of acetylcholine release, but it is an acute toxin exposure, not a chronic smoking-associated paraneoplastic picture with post-exercise reflex facilitation.",
+        "D": "Incorrect. Polymyositis is a primary inflammatory muscle disease causing proximal weakness, but it does not produce autonomic symptoms or the post-exercise reflex-facilitation pattern.",
+        "E": "Incorrect. Guillain-Barré syndrome is an acute ascending demyelinating polyneuropathy, not associated with smoking, malignancy, or reflexes that transiently improve with exercise."
+      },
+      "main_concept": "CON-MSK-A3A8D2C7306987",
+      "concept_ids": [
+        "CON-MSK-A3A8D2C7306987"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Hard",
+      "question_type": "Clinical vignette",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise the combination of autonomic symptoms, proximal weakness and exercise-facilitated reflexes in a smoker as Lambert-Eaton myasthenic syndrome.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.14"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-LAMBERT-EATON-SYNDROME"
+      ]
+    },
+    {
+      "key": "nmj-q11",
+      "page": 14,
+      "title": "Cause of miniature end-plate potentials",
+      "question": "Miniature end plate potentials (MEPPs) are caused by:",
+      "options": {
+        "A": "Spontaneous action potentials in the motor nerve",
+        "B": "Release of a single quantum (vesicle) of acetylcholine",
+        "C": "Large release of ACh during normal transmission",
+        "D": "Activation of voltage-gated sodium channels",
+        "E": "Influx of calcium into the muscle fiber"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. MEPPs occur at rest, without any nerve impulse or action potential arriving at all; that is exactly what makes them \"miniature\" and spontaneous.",
+        "B": "Correct. At rest, a few acetylcholine-containing vesicles rupture spontaneously and release their contents even without a nerve impulse, producing a minute depolarisation at the motor end plate — the same quantal event that, multiplied many times over by an arriving action potential, produces the full end-plate potential. MEPPs are far too small to trigger a muscle action potential on their own, but they demonstrate that neurotransmitter release is fundamentally quantal, one vesicle at a time.",
+        "C": "Incorrect. A large, impulse-triggered release of acetylcholine produces the full end-plate potential, not the miniature one, which reflects only a single spontaneous vesicle.",
+        "D": "Incorrect. Voltage-gated sodium channel activation belongs to action potential propagation along the muscle fibre, a later step than the MEPP, which is a purely local, subthreshold event.",
+        "E": "Incorrect. Calcium influx into the presynaptic terminal (not the muscle fibre) triggers impulse-evoked release; the spontaneous single-vesicle rupture behind a MEPP does not require this triggered calcium entry."
+      },
+      "main_concept": "CON-NEU-B1F2748F1E9357",
+      "concept_ids": [
+        "CON-NEU-B1F2748F1E9357"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Define a miniature end-plate potential as the spontaneous depolarisation from a single acetylcholine vesicle rupturing at rest.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "bold key letter, auto-detected by pagetext.mjs keys (bold-flag), p.14"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-103-PHY-NMT"
+      ]
+    }
+  ]
+}

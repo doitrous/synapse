@@ -1,0 +1,565 @@
+{
+  "lane": "AUN-CBF-103",
+  "cluster": "cbf-bank-pending-103bms-2",
+  "header": "AUN-CBF-103 -- CBF question bank.pdf, Q31-80 batch (author2 lane). Q31,32,34,35,36,37,41,42,50 reuse two pending Kasr 103-BMS-mcq-vitamins-nerve concepts already partly overlaid by lane1 (CON-NEU-77596C8A899A7E excitability factors) plus one newly-identified-for-reuse concept from the same file (CON-NEU-DD9033DCA3AAF1 repolarisation), Q36/37/41 reuse a third concept from that same file (CON-NEU-1E66BE533E894C Na+-K+ pump), Q43 reuses a fourth (CON-NEU-5664D7AB68AD8D myelination), and Q55/57/58 extend lane1's own CON-NEU-A0C8307D2825A6 (saltatory conduction) overlay, Q68 extends lane1's own CON-NEU-7E784A50D2BBAF (local response) overlay -- all from docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/import-ready/concept/103-BMS-mcq-vitamins-nerve-concepts.md. Omar applies this batch only after: 1) the Kasr 103-BMS-mcq-vitamins-nerve concept batch, 2) AUN-CBF-103-cbf-bank-pending-103bms-concept.md AND AUN-CBF-103-cbf-bank-pending-103bms-2-concept.md (the sparse +aun overlays, extending lane1's three-id overlay with three more ids from the same source file). Import order: 1 then 2 then this file, each via Admin > Bulk import -> question.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "aun"
+    ],
+    "years": [
+      "AUN_Y1"
+    ],
+    "module": "AUN-CBF-103",
+    "module_subject": "AUN-CBF-103 > Physiology > Nerve Excitability",
+    "exam_weight_by_year": {
+      "AUN_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-103-PHY-NERVE-FIBRE-AND-CONDUCTION",
+      "ART-103-PHY-NERVE-ACTION-POTENTIAL"
+    ],
+    "resource_ids": [
+      "src_76eae135453cd8432f14"
+    ],
+    "source_citation": "CBF question bank.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Nerve Excitability"
+  },
+  "questions": [
+    {
+      "key": "cbf-bank-q031",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q031",
+      "page": 4,
+      "title": "Hypokalemia hyperpolarizes the cell and raises the threshold",
+      "question": "Hypokalemia reduces excitability of the nerve and muscle cells because decreased extracellular K+:",
+      "options": {
+        "A": "increases activity of Na+-K+ ATPase which hyperpolarizes the cell.",
+        "B": "hyperpolarizes the cell, which increases the action potential threshold.",
+        "C": "decreases the number of Na+ channels.",
+        "D": "depolarizes the cell, thus inactivating voltage-gated Na+ channels."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. It is the fall in extracellular K+ itself, acting directly on the K+ diffusion potential across the resting membrane, that hyperpolarizes the cell -- not a separate, indirect rise in Na+-K+ ATPase activity.",
+        "B": "Correct. Extracellular potassium concentration is a major determinant of the resting membrane potential. A decrease in ECF K+ hyperpolarizes the membrane, moving the resting potential further from threshold, so a stronger depolarizing stimulus is now needed to reach threshold -- excitability falls.",
+        "C": "Incorrect. Hypokalemia does not reduce the number of Na+ channels present in the membrane; it changes the resting potential's relationship to threshold, not the channel population itself.",
+        "D": "Incorrect. This describes a depolarizing block, the opposite of hypokalemia's usual, milder effect -- hyperpolarization, not depolarization, is the standard mechanism by which a fall in ECF K+ decreases excitability."
+      },
+      "main_concept": "CON-NEU-77596C8A899A7E",
+      "concept_ids": [
+        "CON-NEU-77596C8A899A7E"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Factors affecting excitability",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Explain that hypokalemia decreases excitability by hyperpolarizing the membrane, moving it further from threshold.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"31- b\"",
+        "authorDoubt": "coverage/AUN-CBF-103-triage-keys.txt's own one-line paraphrase for this key ('depolarizing the cell, inactivating Na+ channels') does not match option b's actual text ('hyperpolarizes ... increases threshold'); the p.18 table itself is unambiguous ('31- b') and option b is the textbook-consistent answer, so this is treated as a stale paraphrase in that working note, not a printed-source conflict -- not held.",
+        "pendingConcept": "CON-NEU-77596C8A899A7E is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/import-ready/concept/103-BMS-mcq-vitamins-nerve-concepts.md, canonical_key nerve.excitability.factors -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q032",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q032",
+      "page": 4,
+      "title": "Action potential smaller if extracellular Na+ is reduced",
+      "question": "The action potential:",
+      "options": {
+        "A": "can be increased in size if the stimulus strength is increased.",
+        "B": "is smaller in size if the extracellular Na+ concentration is reduced.",
+        "C": "has a depolarization phase which corresponds to increased K+ influx.",
+        "D": "is of shorter duration in skeletal muscle than in nerve fiber."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The action potential obeys the all-or-none law: once threshold is reached, its size does not increase with a stronger stimulus -- a larger stimulus only makes the fibre fire sooner or more frequently, not with a bigger spike.",
+        "B": "Correct. A fall in extracellular Na+ concentration reduces the electrochemical driving force for Na+ influx during depolarization, with little effect on the resting potential itself. Because the size of the depolarization tracks the size of the Na+ influx it produces, a lower extracellular Na+ concentration shrinks the resulting action potential.",
+        "C": "Incorrect. The depolarization phase corresponds to increased Na+ influx, not K+ influx; K+ moves outward (efflux), not inward, and this efflux drives repolarization rather than depolarization.",
+        "D": "Incorrect. Skeletal muscle's own action potential more closely resembles the nerve's in overall shape than this option implies, and duration comparisons of this kind are not the standard teaching point tested by the extracellular-sodium relationship this question is built around."
+      },
+      "main_concept": "CON-NEU-77596C8A899A7E",
+      "concept_ids": [
+        "CON-NEU-77596C8A899A7E"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Action potential ionic basis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that lowering extracellular Na+ concentration shrinks the action potential's amplitude, with little effect on the resting potential.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"32- b\"",
+        "pendingConcept": "CON-NEU-77596C8A899A7E, same pending Kasr 103-BMS concept as Q031 above -- applies only after that batch is live"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q034",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q034",
+      "page": "4-5",
+      "title": "Descending limb of action potential due to increased K+ efflux",
+      "question": "Concerning the nerve fibre:",
+      "options": {
+        "A": "at rest, the inside of the nerve is positive to the outside.",
+        "B": "the resting potential becomes more negative if the Na+ permeability of the membrane rises.",
+        "C": "during the rising phase of the action potential, there is an increase in efflux of K+ ions.",
+        "D": "the descending limb of the action potential is largely due to increased K+ efflux."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. At rest, the inside of the nerve is negative relative to the outside, not positive -- that is the defining feature of the polarised resting state.",
+        "B": "Incorrect. A rise in Na+ permeability depolarizes the membrane, moving the potential toward a less negative (and eventually positive) value, not a more negative one.",
+        "C": "Incorrect. The rising phase (depolarization) is driven by increased influx of Na+, not efflux of K+; K+ efflux is the mechanism of the phase that follows, not the rising phase itself.",
+        "D": "Correct. Two events together end the spike: inactivation of the voltage-gated Na+ channels stops the depolarizing Na+ influx, while the more slowly opening voltage-gated K+ channels carry K+ out of the cell and complete the return toward the resting level. This K+ efflux is what largely produces the descending limb of the action potential."
+      },
+      "main_concept": "CON-NEU-DD9033DCA3AAF1",
+      "concept_ids": [
+        "CON-NEU-DD9033DCA3AAF1"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Action potential ionic basis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the descending limb of the action potential is largely due to increased K+ efflux, following Na+ channel inactivation.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"34- d\"",
+        "pendingConcept": "CON-NEU-DD9033DCA3AAF1 is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/import-ready/concept/103-BMS-mcq-vitamins-nerve-concepts.md, canonical_key nerve.repolarisation.potassium-efflux -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q035",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q035",
+      "page": 5,
+      "title": "Action potential is terminated by efflux of K+",
+      "question": "The action potential of a neuron:",
+      "options": {
+        "A": "is initiated by efflux of Na+.",
+        "B": "is terminated by efflux of K+.",
+        "C": "decreases in amplitude as it moves along the axon.",
+        "D": "results in a transient reversal of concentration gradient of Na+ across the cell membrane"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The action potential is initiated by influx, not efflux, of Na+ -- sodium moves into the cell down its electrochemical gradient once voltage-gated channels open.",
+        "B": "Correct. Inactivation of the voltage-gated Na+ channels stops the depolarizing Na+ influx, and the more slowly opening voltage-gated K+ channels then carry K+ out of the cell, completing the return to the resting level. This K+ efflux is what terminates the spike.",
+        "C": "Incorrect. The action potential obeys the all-or-none law and is regenerated at full size at each point (or node) along the axon; it does not decrease in amplitude as it propagates.",
+        "D": "Incorrect. The action potential reverses the membrane potential (voltage), not the underlying Na+ concentration gradient itself -- the concentration gradient for Na+ (higher outside than inside) is barely dented by a single action potential and is restored afterward by the Na+-K+ pump, not reversed by the spike."
+      },
+      "main_concept": "CON-NEU-DD9033DCA3AAF1",
+      "concept_ids": [
+        "CON-NEU-DD9033DCA3AAF1"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Action potential ionic basis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the action potential is terminated by K+ efflux, once Na+ channels have inactivated.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"35- b\"",
+        "pendingConcept": "CON-NEU-DD9033DCA3AAF1, same pending Kasr 103-BMS concept as Q034 above -- applies only after that batch is live"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q036",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q036",
+      "page": 5,
+      "title": "Na+ is actively transported out of the neuron",
+      "question": "Which of the following ions is actively transported out of the neuron?",
+      "options": {
+        "A": "Na+.",
+        "B": "K+.",
+        "C": "Cl-.",
+        "D": "HCO3."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Na+-K+ pump is the standard example of primary active transport in the neuron: it moves three sodium ions out of the cell for every two potassium ions it moves in, both against their electrochemical gradients, using energy from ATP hydrolysis. Because it moves more positive charge out than in, the pump is itself electrogenic, contributing directly to the resting membrane potential.",
+        "B": "Incorrect. Potassium is actively transported into, not out of, the neuron by the same Na+-K+ pump -- the pump's two directions are opposite for the two ions.",
+        "C": "Incorrect. Chloride is not the ion this pump moves; chloride distribution across the neuronal membrane is generally governed by passive forces (its own electrochemical gradient) rather than by primary active transport out of the cell.",
+        "D": "Incorrect. Bicarbonate is not actively extruded from the neuron by this or any comparably prominent neuronal pump; it is not the ion this classic active-transport fact concerns."
+      },
+      "main_concept": "CON-NEU-1E66BE533E894C",
+      "concept_ids": [
+        "CON-NEU-1E66BE533E894C"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Sodium-potassium pump",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that sodium is the ion actively transported out of the neuron by the Na+-K+ pump.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"36- a\"",
+        "pendingConcept": "CON-NEU-1E66BE533E894C is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/import-ready/concept/103-BMS-mcq-vitamins-nerve-concepts.md, canonical_key membrane.sodium-potassium-pump.electrogenic -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q037",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q037",
+      "page": 5,
+      "title": "Na+-K+ pump requires energy from ATP",
+      "question": "Na+-K+ pump of neuron:",
+      "options": {
+        "A": "it is the main cause of the resting membrane potential.",
+        "B": "it couples extrusion of Na+ out of the cell in exchange with K+ into the cell at a ratio of 2:1.",
+        "C": "it requires energy derived from ATP.",
+        "D": "activity is increased during descending limb of the spike potential."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Selective ion permeability (the resting membrane's much greater permeability to K+ than Na+) accounts for the great majority of the resting potential; the pump's own direct, electrogenic contribution is a smaller additional part, not the main cause.",
+        "B": "Incorrect. The pump's ratio is reversed here: it moves three sodium ions out for every two potassium ions in (3:2), not two sodium ions out for every one potassium ion in (2:1).",
+        "C": "Correct. The Na+-K+ pump is the classic example of primary active transport: its ATPase subunit splits ATP into ADP and phosphate, and the energy released drives sodium out of and potassium into the cell against their electrochemical gradients. This continuous, ATP-fuelled cycling is what restores the Na+ and K+ gradients that repeated action potentials run down.",
+        "D": "Incorrect. The pump's activity is not specifically driven up during the descending limb; rather, it runs continuously to restore the Na+ and K+ gradients run down by repeated action potentials, a separate, ongoing job from the moment-to-moment phases of any single spike."
+      },
+      "main_concept": "CON-NEU-1E66BE533E894C",
+      "concept_ids": [
+        "CON-NEU-1E66BE533E894C"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Sodium-potassium pump",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the Na+-K+ pump requires energy derived from ATP, and identify its correct 3:2 sodium-to-potassium exchange ratio.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"37- c\"",
+        "pendingConcept": "CON-NEU-1E66BE533E894C, same pending Kasr 103-BMS concept as Q036 above -- applies only after that batch is live"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q041",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q041",
+      "page": 6,
+      "title": "Na+-K+ pump activity increases with intracellular Na+",
+      "question": "Na+- K+ pump:",
+      "options": {
+        "A": "is the main cause for creation of RMP.",
+        "B": "is essential for spike formation.",
+        "C": "activity increases in proportion to intracellular Na+ concentration.",
+        "D": "couples Na+ and K+ pump with a ratio 1:1."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Selective ion permeability, chiefly the resting membrane's much greater permeability to K+ than Na+, accounts for the great majority of the RMP; the pump adds only a smaller, additional electrogenic contribution, not the main cause.",
+        "B": "Incorrect. A single spike is generated by passive ionic current flow through voltage-gated channels, not directly by the pump; the pump's job is restoring the ionic gradients afterward, a separate process from generating the spike itself.",
+        "C": "Correct. The Na+-K+ pump's rate of turnover rises as intracellular Na+ concentration rises, since more intracellular Na+ occupies more of the pump's inner-facing binding sites -- this Na+-dependence is what lets the pump keep pace with however much Na+ has entered during recent activity. A fibre that has just fired repeatedly, and so accumulated more intracellular Na+, therefore drives its own pump harder to restore the resting gradients.",
+        "D": "Incorrect. The pump's coupling ratio is three sodium ions out for every two potassium ions in (3:2), not a 1:1 ratio."
+      },
+      "main_concept": "CON-NEU-1E66BE533E894C",
+      "concept_ids": [
+        "CON-NEU-1E66BE533E894C"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Sodium-potassium pump",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that Na+-K+ pump activity increases in proportion to intracellular Na+ concentration.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"41- c\"",
+        "pendingConcept": "CON-NEU-1E66BE533E894C, same pending Kasr 103-BMS concept as Q036/Q037 above -- applies only after that batch is live"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q042",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q042",
+      "page": 6,
+      "title": "AP caused by transient Na+ rise then prolonged K+ rise",
+      "question": "Action potential:",
+      "options": {
+        "A": "has magnitude dependent on the stimulus intensity.",
+        "B": "is accompanied by increasing nerve excitability.",
+        "C": "velocity is decreased with myelination.",
+        "D": "is caused by transient increase in Na+ permeability followed by a prolonged increase in K+ permeability."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The action potential obeys the all-or-none law -- once threshold is reached, its magnitude is fixed and does not vary with how strong the triggering stimulus was.",
+        "B": "Incorrect. Across most of the action potential's course the fibre is refractory (reduced or zero excitability), not increasingly excitable; only the brief initial rise toward the firing level is associated with increased excitability.",
+        "C": "Incorrect. Myelination increases, not decreases, conduction velocity, since saltatory conduction lets the impulse jump between the sparse nodes of Ranvier instead of regenerating continuously along the whole membrane.",
+        "D": "Correct. Inactivation of the voltage-gated Na+ channels stops the depolarizing Na+ influx, while the potassium channels -- which open shortly after the sodium ones, more slowly and for longer -- carry potassium out and complete the return to the resting level. The action potential is therefore caused by this transient rise in Na+ permeability followed by a prolonged rise in K+ permeability."
+      },
+      "main_concept": "CON-NEU-DD9033DCA3AAF1",
+      "concept_ids": [
+        "CON-NEU-DD9033DCA3AAF1"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Action potential ionic basis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the action potential is caused by a transient rise in Na+ permeability followed by a prolonged rise in K+ permeability.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"42- d\"",
+        "pendingConcept": "CON-NEU-DD9033DCA3AAF1, same pending Kasr 103-BMS concept as Q034/Q035 above -- applies only after that batch is live"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q043",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q043",
+      "page": 6,
+      "title": "Myelin sheath, EXCEPT: it does not itself transmit nerve impulses",
+      "question": "All of the following are true for myelin sheath EXCEPT:",
+      "options": {
+        "A": "it provides insulation.",
+        "B": "it gives protection.",
+        "C": "it is a lipoprotein material.",
+        "D": "it transmits nerve impulses.",
+        "E": "it is present in the myelinated nerve fibers."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the exception -- this statement is true. Myelin, secreted by Schwann cells, is an excellent insulator that decreases ion flow across the membrane wherever it wraps the axon.",
+        "B": "Incorrect as the exception -- this statement is true. The compacted, insulating myelin wrapping also gives the axon a measure of physical protection along the internodal segments.",
+        "C": "Incorrect as the exception -- this statement is true. Myelin is a lipoprotein material, formed of compacted layers of Schwann-cell membrane.",
+        "D": "Correct -- this is the exception (the false statement). Myelin does not itself carry or transmit the nerve impulse -- it is precisely an insulator that decreases ion flow, so the impulse instead regenerates only at the nodes of Ranvier, where the sheath is interrupted and the membrane is exposed. Myelin's job is purely insulating, not conducting.",
+        "E": "Incorrect as the exception -- this statement is true. Myelin is present, by definition, only in myelinated nerve fibres, wrapped around the axon by Schwann cells."
+      },
+      "main_concept": "CON-NEU-5664D7AB68AD8D",
+      "concept_ids": [
+        "CON-NEU-5664D7AB68AD8D"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Nerve fibre structure",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that the myelin sheath does not itself transmit nerve impulses -- it insulates the internode so the impulse regenerates only at the nodes of Ranvier.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"43- d\"",
+        "pendingConcept": "CON-NEU-5664D7AB68AD8D is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/import-ready/concept/103-BMS-mcq-vitamins-nerve-concepts.md, canonical_key nerve.myelination.schwann-cells -- this question and its +aun overlay apply only after Omar imports that Kasr batch. Already related_concept_id on lane1's own CON-NEU-49F059364BC13B mint (Q19) but not previously used as a main_concept."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q050",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q050",
+      "page": 7,
+      "title": "Descending limb of the spike represents repolarization",
+      "question": "Descending limb of the spike potential in the nerve:",
+      "options": {
+        "A": "represents depolarization.",
+        "B": "is caused by potassium inflow.",
+        "C": "is caused by sodium inflow.",
+        "D": "represents Repolarization.",
+        "E": "is caused by calcium inflow."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Depolarization is represented by the ascending, not the descending, limb of the spike.",
+        "B": "Incorrect. Potassium moves outward (efflux), not inward, during this phase -- the descending limb is produced by K+ leaving the cell, not entering it.",
+        "C": "Incorrect. Sodium inflow drives the ascending limb (depolarization); by the time of the descending limb, the Na+ channels have already inactivated and stopped contributing further inflow.",
+        "D": "Correct. Inactivation of the voltage-gated Na+ channels stops the depolarizing Na+ influx, while the more slowly opening voltage-gated K+ channels carry potassium out and complete the return to the resting level -- this K+ efflux is what the descending limb represents: repolarization. The ascending limb, by contrast, is depolarization, driven by the earlier Na+ influx.",
+        "E": "Incorrect. Calcium inflow is not the ion movement that produces the descending limb of the nerve action potential."
+      },
+      "main_concept": "CON-NEU-DD9033DCA3AAF1",
+      "concept_ids": [
+        "CON-NEU-DD9033DCA3AAF1"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Action potential ionic basis",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the descending limb of the spike represents repolarization, driven by K+ efflux once Na+ channels have inactivated.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"50- d\"",
+        "pendingConcept": "CON-NEU-DD9033DCA3AAF1, same pending Kasr 103-BMS concept as Q034/Q035/Q042 above -- applies only after that batch is live"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q055",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q055",
+      "page": 7,
+      "title": "Saltatory conduction is fast",
+      "question": "Saltatory conduction of action potential:",
+      "options": {
+        "A": "occurs in the unmyelinated nerves.",
+        "B": "is slow.",
+        "C": "occurs in the sarcolemma.",
+        "D": "needs more energy than point to point conduction.",
+        "E": "is fast."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Saltatory conduction occurs specifically in myelinated, not unmyelinated, nerve fibres, since it depends on the impulse jumping between nodes of Ranvier, a feature only myelination creates.",
+        "B": "Incorrect. Saltatory conduction is fast, not slow -- letting the impulse jump between nodes instead of regenerating continuously along the whole membrane is exactly what speeds conduction up.",
+        "C": "Incorrect. Saltatory conduction is a nerve fibre phenomenon involving nodes of Ranvier in myelinated axons; the sarcolemma is skeletal muscle fibre membrane, not the structure this mechanism concerns.",
+        "D": "Incorrect. Saltatory conduction, by regenerating the impulse only at the sparse nodes rather than continuously, buys economy as well as speed -- it needs less, not more, energy than the continuous, point-to-point conduction of an unmyelinated fibre.",
+        "E": "Correct. Saltatory conduction regenerates the impulse only at the nodes of Ranvier, where it jumps from node to node rather than regenerating continuously along the whole membrane. This gives myelinated fibres a markedly faster conduction velocity than unmyelinated fibres of similar diameter -- both speed and economy from the same mechanism."
+      },
+      "main_concept": "CON-NEU-A0C8307D2825A6",
+      "concept_ids": [
+        "CON-NEU-A0C8307D2825A6"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Saltatory conduction",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that saltatory conduction is fast, since regenerating the impulse only at the nodes buys both speed and economy.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"55- e\"",
+        "pendingConcept": "CON-NEU-A0C8307D2825A6 is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/import-ready/concept/103-BMS-mcq-vitamins-nerve-concepts.md, canonical_key nerve.saltatory-conduction.velocity -- already overlaid by lane1's AUN-CBF-103-cbf-bank-pending-103bms-concept.md for Q30; this question extends its reuse, no new overlay row needed."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q057",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q057",
+      "page": 7,
+      "title": "Saltatory conduction: impulse passes from node to node",
+      "question": "In saltatory conduction, the nerve impulse:",
+      "options": {
+        "A": "passes from one node to another node.",
+        "B": "shows continuous conduction.",
+        "C": "velocity is slower than that of the unmyelinated nerve fiber.",
+        "D": "none of the above."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Saltatory conduction regenerates the impulse only at the nodes of Ranvier, where the myelin sheath is interrupted and voltage-gated Na+ channels are exposed, so the impulse effectively jumps from one node to the next rather than regenerating continuously along the whole fibre. This node-to-node jumping is what gives saltatory conduction its speed advantage over the continuous conduction of an unmyelinated fibre.",
+        "B": "Incorrect. Continuous, point-to-point conduction is the pattern seen in unmyelinated fibres; saltatory conduction is defined precisely by its opposite, node-to-node pattern.",
+        "C": "Incorrect. Saltatory conduction is markedly faster, not slower, than conduction in an unmyelinated fibre of similar diameter -- jumping between nodes is what buys the speed advantage.",
+        "D": "Incorrect, since option A correctly describes saltatory conduction."
+      },
+      "main_concept": "CON-NEU-A0C8307D2825A6",
+      "concept_ids": [
+        "CON-NEU-A0C8307D2825A6"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Saltatory conduction",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that in saltatory conduction the impulse passes from one node of Ranvier to the next.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"57- a\"",
+        "pendingConcept": "CON-NEU-A0C8307D2825A6, same pending Kasr concept as Q055 above -- extends lane1's existing overlay, no new overlay row needed."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q058",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q058",
+      "page": 8,
+      "title": "Propagation of AP in myelinated fibre is saltatory",
+      "question": "Propagation of action potential in myelinated nerve fiber is:",
+      "options": {
+        "A": "slow.",
+        "B": "point to point.",
+        "C": "saltatory.",
+        "D": "passive.",
+        "E": "similar to that of unmyelinated fibers."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Propagation in a myelinated fibre is fast, not slow, precisely because it is saltatory -- the impulse jumps between the sparse nodes rather than regenerating continuously.",
+        "B": "Incorrect. Point-to-point (continuous) propagation describes conduction in an unmyelinated fibre, not a myelinated one.",
+        "C": "Correct. In a myelinated fibre, the impulse regenerates only at the exposed nodes of Ranvier and jumps from node to node -- saltatory conduction -- rather than regenerating continuously along the internodal, insulated membrane. This saltatory pattern is what makes myelinated conduction markedly faster than the continuous conduction of an unmyelinated fibre.",
+        "D": "Incorrect. Propagation is an active, regenerative process at each node (driven by voltage-gated Na+ channel opening), not a passive one -- only the current spread between nodes is passive, not the whole propagation process.",
+        "E": "Incorrect. Myelinated and unmyelinated fibres propagate the impulse by different mechanisms (saltatory versus continuous local-circuit conduction), which is exactly why myelinated fibres conduct faster."
+      },
+      "main_concept": "CON-NEU-A0C8307D2825A6",
+      "concept_ids": [
+        "CON-NEU-A0C8307D2825A6"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Saltatory conduction",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that propagation of the action potential in a myelinated nerve fibre is saltatory.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"58- c\"",
+        "pendingConcept": "CON-NEU-A0C8307D2825A6, same pending Kasr concept as Q055/Q057 above -- extends lane1's existing overlay, no new overlay row needed."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q068",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMS2-Q068",
+      "page": 9,
+      "title": "Local response: none of the listed options is correct",
+      "question": "The local response:",
+      "options": {
+        "A": "is characterized by depressed excitability.",
+        "B": "can not be summated.",
+        "C": "obeys the all or none law.",
+        "D": "is followed by an absolute refractory period.",
+        "E": "none of the above."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The local response is characterised by increased, not depressed, excitability -- the partial depolarization it produces moves the membrane closer to the firing level, so a further stimulus is more likely to trigger a full action potential.",
+        "B": "Incorrect. The local response can be summated: rapid subthreshold stimuli can add together, since each produces a graded local response that fades slowly enough to combine with the next, and enough summation can push the membrane to threshold.",
+        "C": "Incorrect. The local response specifically does NOT obey the all-or-none law -- it is graded, varying continuously in size with the strength of the subthreshold stimulus, unlike the fixed, all-or-none action potential.",
+        "D": "Incorrect. The local response has no refractory period of its own; it is a small, non-propagated, graded event, not one followed by the channel-inactivation-based refractoriness that follows a true, threshold-crossing action potential.",
+        "E": "Correct. Each of the other four statements about the local response is false: it raises rather than depresses excitability, it can be summated, it does not obey the all-or-none law, and it is not followed by a refractory period -- so none of the listed options is correct. Each of these four common misconceptions describes the opposite of the local response's actual behaviour."
+      },
+      "main_concept": "CON-NEU-7E784A50D2BBAF",
+      "concept_ids": [
+        "CON-NEU-7E784A50D2BBAF"
+      ],
+      "contextual_concept_ids": [],
+      "subtopic": "Local response",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise, across four false statements about the local response (depressed excitability, no summation, all-or-none, followed by a refractory period), that none of them is correct.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"68- e\"",
+        "pendingConcept": "CON-NEU-7E784A50D2BBAF is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/import-ready/concept/103-BMS-mcq-vitamins-nerve-concepts.md, canonical_key nerve.local-response.graded-summation -- already overlaid by lane1's AUN-CBF-103-cbf-bank-pending-103bms-concept.md for Q22/Q26; this question extends its reuse, no new overlay row needed."
+      },
+      "author_notes": ""
+    }
+  ]
+}

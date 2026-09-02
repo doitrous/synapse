@@ -1,0 +1,92 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank questions (Lecture 36: Autacoids 2, Quiz 36 Q1-Q2, q305-q306) whose tested ideas -- fosinopril causing angioedema, lisinopril causing dry cough -- are both exact sub-facts of a pending Kasr 208-INT concept (CON-FND-F63798C7FE1A68, canonical_key ace-inhibitors.adverse-effects-except-hypokalemia, which already itemises hyperkalemia, dry cough, teratogenicity, first-dose hypotension AND angioedema as ACE inhibitor adverse effects), reused per the standing rule rather than re-minted. Omar applies this batch only after: 1) docs/Kasr-Source-Imports/concept/208-INT-concepts.md, 2) quizzes-2022-lec36-pending-208int-concept.json's emitted overlay (the sparse +aun overlay on CON-FND-F63798C7FE1A68), then this question file.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q305",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q305",
+      "page": 149,
+      "title": "Fosinopril can cause angioedema",
+      "question": "Which antihypertensive medication can cause the rare side effect of angioedema?",
+      "options": {
+        "A": "Prazosin",
+        "B": "Fosinopril",
+        "C": "Propranolol",
+        "D": "Amlodipine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Prazosin, an alpha1-blocker, is not associated with ACE-mediated bradykinin accumulation and does not cause angioedema by this mechanism.",
+        "B": "Correct. ACE inhibitors such as fosinopril decrease bradykinin degradation as well as reducing angiotensin II formation. The resulting bradykinin accumulation is why ACE inhibitors, unlike other antihypertensive classes, carry a recognised, if rare, risk of angioedema. Prazosin, propranolol and amlodipine act through entirely different mechanisms (alpha1 blockade, beta blockade, calcium channel blockade respectively) that do not raise bradykinin levels.",
+        "C": "Incorrect. Propranolol, a beta-blocker, does not affect bradykinin metabolism and is not characteristically associated with angioedema.",
+        "D": "Incorrect. Amlodipine, a calcium channel blocker, does not affect bradykinin metabolism and is not characteristically associated with angioedema."
+      },
+      "main_concept": "CON-FND-F63798C7FE1A68",
+      "concept_ids": ["CON-FND-F63798C7FE1A68"],
+      "contextual_concept_ids": [],
+      "topic": "Autacoids 2",
+      "subtopic": "ACE inhibitor adverse effects",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that fosinopril, an ACE inhibitor, can cause angioedema through bradykinin accumulation, unlike prazosin, propranolol or amlodipine.",
+      "media_recommendations": "",
+      "library_ids": ["ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY"],
+      "module_subject": "AUN-MPT-104 > Pharmacology > Autacoids 2",
+      "field_notes": { "keySource": "printed \"The correct answer is: Fosinopril\"", "pendingConcept": "CON-FND-F63798C7FE1A68 pending in Kasr-Source-Imports/concept/208-INT-concepts.md (ace-inhibitors.adverse-effects-except-hypokalemia) -- this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    },
+    {
+      "key": "quizzes-2022-q306",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q306",
+      "page": 149,
+      "title": "Lisinopril causes a persistent dry cough",
+      "question": "A 45-year-old man was started on therapy for hypertension and developed a persistent, dry cough. Which is most likely responsible for this side effect?",
+      "options": {
+        "A": "Nifedipine",
+        "B": "Lisinopril",
+        "C": "Losartan",
+        "D": "Atenolol"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Nifedipine, a calcium channel blocker, is not associated with ACE-mediated bradykinin accumulation and is not the characteristic cause of a persistent dry cough.",
+        "B": "Correct. ACE inhibitors such as lisinopril decrease bradykinin degradation, and the resulting accumulation of bradykinin (and substance P) in the airways produces a persistent, dry, irritant cough in a substantial minority of patients -- the most common manifestation of ACE inhibitor intolerance. This mechanism-specific effect is not shared by nifedipine, losartan or atenolol.",
+        "C": "Incorrect. Losartan, an ARB, acts downstream of ACE and does not inhibit bradykinin degradation, so it does not characteristically cause this cough (an advantage of ARBs over ACE inhibitors).",
+        "D": "Incorrect. Atenolol, a beta-blocker, does not affect bradykinin metabolism and is not the characteristic cause of a persistent dry cough."
+      },
+      "main_concept": "CON-FND-F63798C7FE1A68",
+      "concept_ids": ["CON-FND-F63798C7FE1A68"],
+      "contextual_concept_ids": [],
+      "topic": "Autacoids 2",
+      "subtopic": "ACE inhibitor adverse effects",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that lisinopril, an ACE inhibitor, is the most likely cause of a persistent dry cough through bradykinin accumulation, unlike nifedipine, losartan or atenolol.",
+      "media_recommendations": "",
+      "library_ids": ["ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY"],
+      "module_subject": "AUN-MPT-104 > Pharmacology > Autacoids 2",
+      "field_notes": { "keySource": "printed \"The correct answer is: Lisinopril\"", "pendingConcept": "CON-FND-F63798C7FE1A68 pending in Kasr-Source-Imports/concept/208-INT-concepts.md (ace-inhibitors.adverse-effects-except-hypokalemia) -- this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    }
+  ]
+}

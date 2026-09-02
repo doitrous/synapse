@@ -1,0 +1,646 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch3",
+  "header": "AUN-INI-105 -- pending-live overlay questions, Chapter 3 \"Bacteriophage\" triage (coverage/AUN-INI-105-triage.md), 15 questions reusing pending Ain-Shams ASU-INF and Helwan HU-BMS-102 concepts. Omar applies this batch only after each concept home batch, then pending-live/AUN-INI-105-ch3-4-pending-overlay-concepts.md, then this file.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "aun"
+    ],
+    "years": [
+      "AUN_Y1"
+    ],
+    "module": "AUN-INI-105",
+    "exam_weight_by_year": {
+      "AUN_Y1": "high"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_6f2f4188bb0cbf848733"
+    ],
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch3-q002",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q002",
+      "page": 38,
+      "title": "Transduction: phage carrying host cell DNA",
+      "question": "Bacteriophage containing host cell DNA is involved in?",
+      "options": {
+        "A": "Mutation",
+        "B": "Conjugation",
+        "C": "Transformation",
+        "D": "Transduction",
+        "E": "Recombination"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Mutation is a permanent change in DNA sequence, unrelated to a phage particle physically carrying host DNA.",
+        "B": "Incorrect. Conjugation transfers DNA through direct cell-to-cell contact via a sex pilus; it does not involve a bacteriophage carrying host DNA at all.",
+        "C": "Incorrect. Transformation transfers free (naked) DNA taken up directly by a competent recipient cell; it does not involve a bacteriophage as the carrier.",
+        "D": "Correct. A bacteriophage that has come to contain host cell DNA -- accidentally or specifically packaged into a new phage particle during that phage's replication in a previous host -- is, by definition, a transducing phage, and delivering that host DNA into the next bacterium it infects is transduction. This is exactly the phage-mediated gene-transfer mechanism that distinguishes transduction from transformation's naked-DNA uptake and conjugation's direct cell contact.",
+        "E": "Incorrect. Recombination is the general process of exchanging DNA segments between molecules; it can follow a transfer event but is not itself the name for a phage carrying host DNA."
+      },
+      "main_concept": "CON-INF-E9C14F5981ACE5",
+      "concept_ids": [
+        "CON-INF-E9C14F5981ACE5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Phage-mediated gene transfer",
+      "learning_objective": "Identify transduction as the process involving a bacteriophage that has come to contain host cell DNA.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p38",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-E9C14F5981ACE5 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.transduction-generalized-vs-specialized -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q005",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q005",
+      "page": 38,
+      "title": "Lysogenic conversion: new properties from prophage genes",
+      "question": "In lysogenic conversion, new properties are conferred in the bacterial cells by products of?",
+      "options": {
+        "A": "Bacterial genes",
+        "B": "Sex factor genes",
+        "C": "Prophage genes",
+        "D": "Plasmids",
+        "E": "All of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The bacterium's own pre-existing genes are not what confer the new property in lysogenic conversion -- the new property specifically comes from genes the cell did not have before, carried by the newly integrated prophage.",
+        "B": "Incorrect. Sex factor (F plasmid) genes mediate conjugation, an entirely separate gene-transfer mechanism unrelated to a temperate phage's integrated genome.",
+        "C": "Correct. Lysogenic conversion is, by definition, the process by which a temperate bacteriophage's genes -- once integrated into the bacterial chromosome as a prophage -- alter the host bacterium's phenotype, conferring new properties (such as new toxin-producing ability) that the cell did not have before lysogeny. This phage-gene origin is exactly what distinguishes lysogenic conversion from ordinary bacterial gene expression, plasmid-carried traits, or conjugation-related sex-factor genes.",
+        "D": "Incorrect. Plasmid-carried genes are a separate, non-integrating source of accessory traits; lysogenic conversion specifically names the phenotype change driven by a prophage's own genes.",
+        "E": "Incorrect. Only prophage genes are the defining source of lysogenic conversion's new properties; bacterial genes, sex factor genes and plasmids are each a distinct mechanism, not jointly responsible for this specific process."
+      },
+      "main_concept": "CON-INF-BFFA74CFBB0B25",
+      "concept_ids": [
+        "CON-INF-BFFA74CFBB0B25"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-E53A4B008CA559"
+      ],
+      "topic": "Bacteriophage",
+      "subtopic": "Lysogenic cycle",
+      "learning_objective": "State that lysogenic conversion's new bacterial properties come from prophage genes, not from bacterial genes, sex factor genes, or plasmids.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p38",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-BFFA74CFBB0B25 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.lysogenic-conversion -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q006",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q006",
+      "page": 38,
+      "title": "Bacteriophage: the false statement",
+      "question": "The following is not true about bacteriophage?",
+      "options": {
+        "A": "Viruses infecting human",
+        "B": "Transfer drug resistance",
+        "C": "Leads to toxin production",
+        "D": "Used in bacterial typing",
+        "E": "Used as vectors for gene cloning"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This is the false statement, so it is the answer. A bacteriophage's host is bacteria, not humans -- it does not infect human cells, unlike the other four statements listed, all of which are genuine, true properties or uses of bacteriophages.",
+        "B": "Incorrect (true statement). Bacteriophages can mediate transfer of drug-resistance genes between bacteria via transduction, a genuine mechanism of resistance spread.",
+        "C": "Incorrect (true statement). Lysogenic conversion, driven by prophage genes, can lead a bacterium to produce a toxin it did not produce before -- a genuine phage-related property.",
+        "D": "Incorrect (true statement). Differential bacterial susceptibility to a panel of phages is genuinely used for bacterial typing, helping identify or trace strains.",
+        "E": "Incorrect (true statement). Bacteriophages are genuinely used in the laboratory as vectors for gene cloning, exploiting their natural ability to package and deliver DNA into bacterial cells."
+      },
+      "main_concept": "CON-INF-E463F81B9370AE",
+      "concept_ids": [
+        "CON-INF-E463F81B9370AE"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-3340EF16DD5022"
+      ],
+      "topic": "Bacteriophage",
+      "subtopic": "Bacteriophage fundamentals",
+      "learning_objective": "Identify that bacteriophages do not infect human cells, while correctly transferring drug resistance, driving toxin production, enabling bacterial typing, and serving as gene-cloning vectors.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p38",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-E463F81B9370AE is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family27-part1-concepts.md, canonical_key bacteriophage-host-transfer-toxin-typing-properties -- the same fact (Helwan's own Family27 Q01, an identically-shaped 'NOT TRUE about bacteriophage' item), reused rather than re-minted. This question and its +aun overlay apply only after Omar imports that Helwan batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q007",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q007",
+      "page": 38,
+      "title": "Transformation: uptake of free naked DNA",
+      "question": "The uptake of free naked DNA from the environment?",
+      "options": {
+        "A": "Transformation",
+        "B": "Transduction",
+        "C": "Conjugation",
+        "D": "Transposition"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Transformation is, by definition, the process by which a bacterial cell takes up free, naked DNA released into the environment by another (donor) cell. This requires the recipient to be in a physiologically \"competent\" state and, for stable incorporation, sequence homology with the recipient's own genome -- distinguishing it from transduction (DNA delivered by a bacteriophage) and conjugation (DNA delivered by direct cell contact), neither of which involves free environmental DNA.",
+        "B": "Incorrect. Transduction transfers DNA packaged inside a bacteriophage particle, not free naked DNA taken up directly from the environment.",
+        "C": "Incorrect. Conjugation transfers DNA through direct cell-to-cell contact via a sex pilus, not through uptake of free environmental DNA.",
+        "D": "Incorrect. Transposition is the movement of a transposon from one DNA site to another within or between molecules; it does not describe uptake of free DNA from the environment."
+      },
+      "main_concept": "CON-INF-42D77BF4AB3ADD",
+      "concept_ids": [
+        "CON-INF-42D77BF4AB3ADD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Bacterial gene transfer",
+      "learning_objective": "Identify transformation as uptake of free naked DNA from the environment, distinguishing it from transduction, conjugation and transposition.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p38",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-42D77BF4AB3ADD is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.transformation-mechanism -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q008",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q008",
+      "page": 39,
+      "title": "Transduction: DNA transfer with the help of bacteriophage",
+      "question": "The transfer of DNA from donor to a recipient with the help of bacteriophage?",
+      "options": {
+        "A": "Transformation",
+        "B": "Transduction",
+        "C": "Conjugation",
+        "D": "Transposition"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Transformation transfers free naked DNA taken up directly by the recipient; it does not involve a bacteriophage as the transfer vehicle.",
+        "B": "Correct. Transduction is, by definition, the transfer of DNA from a donor cell to a recipient with a bacteriophage as the delivery vehicle -- the phage packages donor DNA during its replication in the donor and then injects it into the next cell it infects. This phage-mediated delivery is exactly what distinguishes transduction from transformation (free DNA uptake) and conjugation (direct cell contact).",
+        "C": "Incorrect. Conjugation transfers DNA through direct cell-to-cell contact via a sex pilus, not with the help of a bacteriophage.",
+        "D": "Incorrect. Transposition is the movement of a transposon between DNA sites; it is not a description of inter-cell DNA transfer mediated by a bacteriophage."
+      },
+      "main_concept": "CON-INF-E9C14F5981ACE5",
+      "concept_ids": [
+        "CON-INF-E9C14F5981ACE5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Phage-mediated gene transfer",
+      "learning_objective": "Identify transduction as the transfer of DNA from donor to recipient with the help of a bacteriophage, distinguishing it from transformation, conjugation and transposition.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p39",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-E9C14F5981ACE5 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.transduction-generalized-vs-specialized -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q009",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q009",
+      "page": 39,
+      "title": "Sex pilus and conjugation",
+      "question": "Sex pilus play an important role in?",
+      "options": {
+        "A": "Transformation",
+        "B": "Transduction",
+        "C": "Conjugation",
+        "D": "Transposition"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Transformation transfers free naked DNA taken up by a competent recipient; it does not require a sex pilus, which is specific to cell-to-cell contact mechanisms.",
+        "B": "Incorrect. Transduction transfers DNA packaged inside a bacteriophage particle; a sex pilus plays no role in phage-mediated delivery.",
+        "C": "Correct. The sex pilus plays a central role in conjugation: it is the surface appendage, encoded by an F plasmid, that establishes the initial contact between a donor and recipient cell and forms the mating bridge through which DNA is transferred. Without a functional sex pilus, conjugation's characteristic direct cell-to-cell DNA transfer cannot take place, which is what makes the sex pilus specifically a conjugation structure rather than a transformation- or transduction-related one.",
+        "D": "Incorrect. Transposition is an intracellular/intragenomic movement of a transposon; it does not involve a sex pilus or transfer between two separate cells."
+      },
+      "main_concept": "CON-INF-B7F47EC7A8F7FA",
+      "concept_ids": [
+        "CON-INF-B7F47EC7A8F7FA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Bacterial gene transfer",
+      "learning_objective": "State that the sex pilus plays its important role in conjugation, distinguishing it from transformation, transduction and transposition.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p39",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-B7F47EC7A8F7FA is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.conjugation-mechanism -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q010",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q010",
+      "page": 39,
+      "title": "Bacteriophage's role in transduction",
+      "question": "Bacteriophage play an important role in?",
+      "options": {
+        "A": "Transformation",
+        "B": "Transduction",
+        "C": "Conjugation",
+        "D": "Transposition"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Transformation is defined by uptake of free naked DNA, a process that specifically does not involve a bacteriophage.",
+        "B": "Correct. Bacteriophages play their important, defining role in transduction: they are the vehicle that packages and delivers donor bacterial DNA into a new recipient cell during infection, whether by generalized transduction (a lytic phage packaging DNA at random) or specialized transduction (a temperate phage carrying DNA adjacent to its own integration site). No other gene-transfer mechanism in this list depends on a bacteriophage at all.",
+        "C": "Incorrect. Conjugation is mediated by direct cell-to-cell contact through a sex pilus, not by a bacteriophage.",
+        "D": "Incorrect. Transposition is the movement of a transposon within or between DNA molecules in the same cell, a process that does not involve a bacteriophage."
+      },
+      "main_concept": "CON-INF-E9C14F5981ACE5",
+      "concept_ids": [
+        "CON-INF-E9C14F5981ACE5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Phage-mediated gene transfer",
+      "learning_objective": "State that a bacteriophage plays its important role in transduction, distinguishing it from transformation, conjugation and transposition.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p39",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-E9C14F5981ACE5 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.transduction-generalized-vs-specialized -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q011",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q011",
+      "page": 39,
+      "title": "Conjugation: transfer after cell-to-cell contact",
+      "question": "Transfer of DNA from a donor to a recipient after cell-to-cell contact?",
+      "options": {
+        "A": "Transformation",
+        "B": "Transduction",
+        "C": "Conjugation",
+        "D": "Transposition"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Transformation transfers free naked DNA taken up from the environment; it specifically does not require cell-to-cell contact.",
+        "B": "Incorrect. Transduction transfers DNA packaged inside a bacteriophage particle; the phage, not direct cell contact, is the delivery vehicle.",
+        "C": "Correct. Conjugation is, by definition, the transfer of DNA from a donor to a recipient cell that occurs after direct cell-to-cell contact -- a mating bridge formed via a sex pilus connects the two cells, and DNA (typically an F plasmid) passes across that connection. This direct-contact requirement is exactly what distinguishes conjugation from transformation's free-DNA uptake and transduction's phage-mediated delivery.",
+        "D": "Incorrect. Transposition occurs within a single cell's own DNA molecules; it does not describe a transfer event between a donor and recipient cell at all."
+      },
+      "main_concept": "CON-INF-B7F47EC7A8F7FA",
+      "concept_ids": [
+        "CON-INF-B7F47EC7A8F7FA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Bacterial gene transfer",
+      "learning_objective": "Identify conjugation as DNA transfer from donor to recipient after cell-to-cell contact, distinguishing it from transformation, transduction and transposition.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p39",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-B7F47EC7A8F7FA is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.conjugation-mechanism -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q012",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q012",
+      "page": 39,
+      "title": "Transfer of specific bacterial DNA with a temperate phage",
+      "question": "The transfer of specific parts of bacterial DNA with a temperate phage DNA to another bacterial cell?",
+      "options": {
+        "A": "Transposition",
+        "B": "Generalized transduction",
+        "C": "Transformation",
+        "D": "None of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Transposition is the movement of a transposon within or between DNA molecules in the same cell; it does not describe inter-cell transfer mediated by a temperate phage.",
+        "B": "Incorrect. Generalized transduction is mediated by a virulent (lytic) phage packaging random host DNA, not by a temperate phage carrying specific DNA adjacent to its own integration site -- the process this stem actually describes is specialized transduction, which is not offered as an option here.",
+        "C": "Incorrect. Transformation is uptake of free naked DNA from the environment; it does not involve a temperate phage carrying DNA to another cell.",
+        "D": "Correct. The process this stem describes -- transfer of specific parts of bacterial DNA, packaged together with a temperate phage's own DNA, to another bacterial cell -- is specialized (restricted) transduction, which is not among the three named options (Transposition, Generalized transduction, Transformation). Since none of the three offered choices correctly names this temperate-phage-specific mechanism, \"none of the above\" is the correct answer by elimination, not because the described process lacks a real name of its own."
+      },
+      "main_concept": "CON-INF-E9C14F5981ACE5",
+      "concept_ids": [
+        "CON-INF-E9C14F5981ACE5"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-E53A4B008CA559"
+      ],
+      "topic": "Bacteriophage",
+      "subtopic": "Phage-mediated gene transfer",
+      "learning_objective": "Recognise that transfer of specific bacterial DNA via a temperate phage is specialized transduction, and select \"none of the above\" when that term is not itself offered as a listed option.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p39",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-E9C14F5981ACE5 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.transduction-generalized-vs-specialized -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": "Stem closely echoes Ch4 Q42 (\"The transfer of specific parts of bacterial DNA to another bacterial cell can be mediated by?\"), but Q42's own option list actually offers \"Specialized transduction\" as a choice, which changes the correct letter and the reasoning tested (direct recall there vs recognising a missing term here) -- authored as two distinct questions, not held as duplicates of each other."
+    },
+    {
+      "key": "ini-mcq-ch3-q014",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q014",
+      "page": 39,
+      "title": "Prophage: the phage genome integrated at a specific site",
+      "question": "During lysogenic cycle, bacteriophages attach it's genome at a specific sites of bacterial genome and are called?",
+      "options": {
+        "A": "Virulent phages",
+        "B": "Prophage",
+        "C": "Active phage",
+        "D": "Lysogenic phage"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A virulent phage is the phage type that commits to the lytic cycle rather than integrating into the bacterial chromosome; it is the opposite behaviour from what is described here.",
+        "B": "Correct. Once a temperate bacteriophage's genome has attached (integrated) at a specific site in the bacterial chromosome during the lysogenic cycle, it is called a prophage. This name specifically marks the integrated, dormant state of the phage genome, distinguishing it from an actively replicating phage or from a phage still committed to lysis.",
+        "C": "Incorrect. \"Active phage\" is not the standard term for a genome that has become quietly integrated into the host chromosome -- lysogeny is characterised by dormancy, not active phage replication.",
+        "D": "Incorrect. \"Lysogenic phage\" is not the standard term for the integrated genome itself; the temperate phage is the organism capable of lysogeny, while \"prophage\" specifically names its integrated genomic state."
+      },
+      "main_concept": "CON-INF-C4B589DE952DCF",
+      "concept_ids": [
+        "CON-INF-C4B589DE952DCF"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-E53A4B008CA559"
+      ],
+      "topic": "Bacteriophage",
+      "subtopic": "Lysogenic cycle",
+      "learning_objective": "Name \"prophage\" as the term for a temperate phage's genome once integrated at a specific site in the bacterial chromosome.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p39",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-C4B589DE952DCF is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family27-part1-concepts.md, canonical_key lysogenic-bacterial-cell-contains-prophage -- this question and its +aun overlay apply only after Omar imports that Helwan batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q017",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q017",
+      "page": 40,
+      "title": "Generalized transduction via a virulent phage",
+      "question": "Transfer of any bacterial gene to another bacterium through a virulent phage?",
+      "options": {
+        "A": "Transformation",
+        "B": "Transposition",
+        "C": "Generalized transduction",
+        "D": "None of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Transformation transfers free naked DNA taken up from the environment; it does not involve any bacteriophage at all.",
+        "B": "Incorrect. Transposition is intracellular movement of a transposon within or between DNA molecules; it does not describe transfer between two separate bacterial cells.",
+        "C": "Correct. Transfer of any bacterial gene (essentially at random) to another bacterium through a virulent (lytic) phage is, by definition, generalized transduction -- the phage accidentally packages a random fragment of host DNA in place of, or alongside, its own genome during lytic replication, then delivers it to the next cell it infects. \"Any bacterial gene\" and \"virulent phage\" are exactly the hallmarks that distinguish generalized transduction from specialized transduction, which is instead restricted to genes near a temperate phage's specific integration site.",
+        "D": "Incorrect. \"Generalized transduction\" is itself a correct, genuinely listed answer, so \"none of the above\" does not apply here."
+      },
+      "main_concept": "CON-INF-E9C14F5981ACE5",
+      "concept_ids": [
+        "CON-INF-E9C14F5981ACE5"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-CA72F76C9CEA85"
+      ],
+      "topic": "Bacteriophage",
+      "subtopic": "Phage-mediated gene transfer",
+      "learning_objective": "Identify generalized transduction as the transfer of any bacterial gene to another bacterium through a virulent phage.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p40",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-E9C14F5981ACE5 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.transduction-generalized-vs-specialized -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q020",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q020",
+      "page": 40,
+      "title": "Transduction: donor DNA introduced by a bacterial virus",
+      "question": "A form of genetic transfer in which donor DNA is introduced in the recipient by a bacterial virus?",
+      "options": {
+        "A": "Conjugation",
+        "B": "Vertical gene transfer",
+        "C": "Transformation",
+        "D": "Transduction",
+        "E": "Transcription"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Conjugation transfers DNA through direct cell-to-cell contact via a sex pilus, not via a bacterial virus.",
+        "B": "Incorrect. Vertical gene transfer is passing genes from a parent cell to its own offspring at ordinary cell division, not a horizontal transfer between two existing bacteria mediated by a virus.",
+        "C": "Incorrect. Transformation introduces donor DNA into the recipient as free naked DNA taken directly from the environment, not delivered by a bacterial virus.",
+        "D": "Correct. Transduction is, by definition, the form of genetic transfer in which donor DNA is introduced into a recipient cell by a bacterial virus -- a bacteriophage -- which packages the donor DNA during its replication and delivers it on infecting the next cell. \"Introduced by a bacterial virus\" is the precise phrase that identifies transduction among the various horizontal gene-transfer mechanisms.",
+        "E": "Incorrect. Transcription is the intracellular process of making RNA from a DNA template; it is not a mechanism of transferring DNA between two different bacterial cells at all."
+      },
+      "main_concept": "CON-INF-E9C14F5981ACE5",
+      "concept_ids": [
+        "CON-INF-E9C14F5981ACE5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Phage-mediated gene transfer",
+      "learning_objective": "Identify transduction as the genetic transfer form in which donor DNA is introduced into the recipient by a bacterial virus (bacteriophage).",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p40",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-E9C14F5981ACE5 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.transduction-generalized-vs-specialized -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q021",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q021",
+      "page": 40,
+      "title": "Prophage: an integrated viral genome",
+      "question": "Viral genome that can be integrated into bacterial genome is known as?",
+      "options": {
+        "A": "Virulent phage",
+        "B": "Bacteriophage",
+        "C": "Metaphage",
+        "D": "Macrophage",
+        "E": "Prophage"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. A virulent phage is the phage type that commits to the lytic cycle rather than integrating into the bacterial genome.",
+        "B": "Incorrect. \"Bacteriophage\" is the general term for any virus that infects bacteria; it does not specifically name the integrated, chromosome-bound state of a viral genome.",
+        "C": "Incorrect. \"Metaphage\" is not standard virology/bacteriology terminology for an integrated phage genome.",
+        "D": "Incorrect. A macrophage is a human/animal immune cell, an entirely different biological entity from a viral genome integrated into a bacterial chromosome.",
+        "E": "Correct. A viral genome that can be, and has been, integrated into the bacterial genome is known as a prophage -- the term specifically names this integrated, dormant state, achieved by a temperate phage during the lysogenic cycle. This is what distinguishes \"prophage\" from the general term \"bacteriophage\" (any bacteria-infecting virus) or from a virulent phage, which does not integrate at all."
+      },
+      "main_concept": "CON-INF-C4B589DE952DCF",
+      "concept_ids": [
+        "CON-INF-C4B589DE952DCF"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-E53A4B008CA559"
+      ],
+      "topic": "Bacteriophage",
+      "subtopic": "Lysogenic cycle",
+      "learning_objective": "Name \"prophage\" as the term for a viral genome integrated into the bacterial genome, distinguishing it from bacteriophage generally, virulent phage, and implausible distractors.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p40",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-C4B589DE952DCF is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family27-part1-concepts.md, canonical_key lysogenic-bacterial-cell-contains-prophage -- this question and its +aun overlay apply only after Omar imports that Helwan batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q023",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q023",
+      "page": 40,
+      "title": "Generalized transduction: random DNA segment transfer",
+      "question": "The generalized transduction is a process of gene transfer when?",
+      "options": {
+        "A": "Free DNA is transferred to bacteria",
+        "B": "Transfer any segment of donor DNA at random by bacteriophage",
+        "C": "A specific bacteriophage transduces only a particular gene",
+        "D": "Transfer by sex factor",
+        "E": "Transfer by temperate phage"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Transfer of free DNA describes transformation, not generalized transduction, which specifically involves a bacteriophage as the delivery vehicle.",
+        "B": "Correct. Generalized transduction is, by definition, gene transfer in which any segment of donor DNA is transferred essentially at random by a bacteriophage -- the phage accidentally packages a random fragment of host DNA during lytic replication and delivers it to the next cell infected. This randomness of which gene is transferred is exactly what distinguishes generalized transduction from specialized transduction, which is instead restricted to specific genes near a temperate phage's integration site.",
+        "C": "Incorrect. A phage transducing only one particular gene describes specialized transduction, not generalized transduction, which transfers DNA at random rather than a specific gene.",
+        "D": "Incorrect. Transfer by sex factor describes conjugation (an F plasmid-mediated process), not phage-mediated generalized transduction.",
+        "E": "Incorrect. Transfer specifically by a temperate phage describes specialized transduction; generalized transduction is instead mediated by a virulent (lytic) phage."
+      },
+      "main_concept": "CON-INF-E9C14F5981ACE5",
+      "concept_ids": [
+        "CON-INF-E9C14F5981ACE5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Bacteriophage",
+      "subtopic": "Phage-mediated gene transfer",
+      "learning_objective": "Define generalized transduction as random transfer of any donor DNA segment by a bacteriophage, distinguishing it from transformation, specialized transduction, and conjugation.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p40",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-E9C14F5981ACE5 is pending in docs/import-ready/concept/ASU-INF-microbiology-concepts.md and docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md, canonical_key bacteria.genetics.transduction-generalized-vs-specialized -- this question and its +aun overlay apply only after Omar imports that ASU-INF batch."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch3-q024",
+      "id": "QST-AUNINI105-INI-MCQ-CH3-Q024",
+      "page": 41,
+      "title": "Lysogenized cell: contains a prophage",
+      "question": "Lysogenized bacterial cell is the cell containing?",
+      "options": {
+        "A": "Inclusion bodies",
+        "B": "Bacteriocins",
+        "C": "Endopigments",
+        "D": "Prophage",
+        "E": "Glycogen"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Inclusion bodies/granules are intracellular nutrient-storage deposits (such as glycogen or polyphosphate), unrelated to lysogeny or a phage genome.",
+        "B": "Incorrect. Bacteriocins are antibacterial proteins some bacteria produce; they are not the defining content of a lysogenized cell.",
+        "C": "Incorrect. \"Endopigments\" is not standard terminology for anything characteristic of a lysogenized bacterial cell.",
+        "D": "Correct. A lysogenized bacterial cell is, by definition, one that contains a prophage -- the temperate phage's genome, integrated at a specific site in the bacterial chromosome and carried along at every subsequent cell division. This prophage content is exactly what \"lysogenized\" describes, distinguishing such a cell from one that has never been infected by a temperate phage or one undergoing active lytic infection instead.",
+        "E": "Incorrect. Glycogen is a storage carbohydrate some bacteria accumulate as an energy reserve; it has no relationship to a lysogenized cell's defining phage content."
+      },
+      "main_concept": "CON-INF-C4B589DE952DCF",
+      "concept_ids": [
+        "CON-INF-C4B589DE952DCF"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-E53A4B008CA559"
+      ],
+      "topic": "Bacteriophage",
+      "subtopic": "Lysogenic cycle",
+      "learning_objective": "State that a lysogenized bacterial cell is defined by containing a prophage.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-BACTERIOPHAGE"
+      ],
+      "module_subject": "AUN-INI-105 > Bacteriophage",
+      "source_citation": "INI MCQ .pdf, Bacteriophage, p41",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 3, p41",
+        "pendingConcept": "CON-INF-C4B589DE952DCF is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family27-part1-concepts.md, canonical_key lysogenic-bacterial-cell-contains-prophage -- this exact fact is that concept's own primary tested fact (Helwan's Family27 Q07 and screenshot Q02, same printed answer 'Prophage'). This question and its +aun overlay apply only after Omar imports that Helwan batch."
+      },
+      "author_notes": ""
+    }
+  ]
+}

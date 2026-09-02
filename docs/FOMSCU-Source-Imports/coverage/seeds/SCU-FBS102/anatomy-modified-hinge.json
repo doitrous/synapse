@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-modified-hinge",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-modified-hinge'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "msk",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Joints"
+  },
+  "questions": [
+    {
+      "key": "anatomy-modified-hinge",
+      "id": "QST-SCUFBS102-S2-ANATOMY-MODIFIED-HINGE",
+      "title": "Classifying the knee joint",
+      "question": "How is the knee joint anatomically classified based on its movement type?",
+      "options": {
+        "A": "Pivot joint",
+        "B": "Ball and socket joint",
+        "C": "Modified hinge",
+        "D": "Saddle joint"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A pivot joint allows rotation only around a single axis, as at the joint between the first two cervical vertebrae — not the knee's flexion/extension-dominated movement.",
+        "B": "Incorrect. A ball-and-socket joint, like the hip or shoulder, allows free movement in all planes — far more range than the knee permits.",
+        "C": "Correct. By movement type, the knee is classed as a modified hinge (ginglymus) joint. It mainly performs flexion and extension, like a pure hinge such as the elbow, but it permits a small amount of rotation as well once the joint is flexed. A pure hinge, by contrast, allows no such rotary component.",
+        "D": "Incorrect. A saddle joint, like the joint at the base of the thumb, allows movement in two perpendicular planes without full rotation — a different movement profile from the knee's modified-hinge action."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Joints and their classification",
+      "main_concept": "CON-MSK-B66C026C865EE7",
+      "concept_ids": [
+        "CON-MSK-B66C026C865EE7"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 55,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.25,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-JOINTS-TERMINOLOGY"
+      ],
+      "learning_objective": "Classify the knee as a modified hinge joint, distinct from a pure hinge, ball-and-socket, or pivot joint.",
+      "source_citation": "FOMSCU Foundation 1 EOM Mid 2026, Q8",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOM Mid 2026 Q8; source-JSON extraction."
+      }
+    }
+  ]
+}

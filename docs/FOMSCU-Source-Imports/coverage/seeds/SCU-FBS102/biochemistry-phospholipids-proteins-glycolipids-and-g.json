@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "biochemistry-phospholipids-proteins-glycolipids-and-g",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'biochemistry-phospholipids-proteins-glycolipids-and-g'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Biochemistry > Cell Membranes"
+  },
+  "questions": [
+    {
+      "key": "biochemistry-phospholipids-proteins-glycolipids-and-g",
+      "id": "QST-SCUFBS102-S2-PENDING-BIOCHEMISTRY-MEMBRANE-COMPOSITION",
+      "title": "The molecular composition of the cell membrane",
+      "question": "What is the main molecular structure comprising the biological cellular membrane?",
+      "options": {
+        "A": "Exclusively composed of cholesterol",
+        "B": "An impenetrable wall entirely made of simple triglycerides",
+        "C": "Phospholipids proteins glycolipids and glycoprotein",
+        "D": "Only a single layer of various structural lipids"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cholesterol is an important membrane constituent that modulates fluidity, but the membrane is not exclusively cholesterol — phospholipids form its structural bulk.",
+        "B": "Incorrect. Triglycerides are the body's storage fat, found in adipocytes, not a structural component of the cell membrane's bilayer.",
+        "C": "Correct. The cell membrane is a phospholipid bilayer, with cholesterol sitting among the phospholipid tails to modulate fluidity. Peripheral and integral proteins are embedded in or attached to this bilayer, some acting as channels or carriers. Carbohydrate, in the form of glycolipid and glycoprotein, decorates the outer face only — the combination this option names.",
+        "D": "Incorrect. The membrane is a BIlayer, not a single layer — hydrophilic phospholipid heads face outward on both sides with hydrophobic tails meeting in the middle."
+      },
+      "topic": "Biochemistry",
+      "subtopic": "Cell membranes",
+      "main_concept": "CON-FND-85CC08A33D0A88",
+      "concept_ids": [
+        "CON-FND-85CC08A33D0A88"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 60,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.85,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-101-HIS-THE-CELL"
+      ],
+      "learning_objective": "Name phospholipids, proteins and surface carbohydrate (glycolipid/glycoprotein) as the cell membrane's main components.",
+      "source_citation": "FOMSCU Foundation 1 EOY Final 2026, Q53",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q53; source-JSON extraction. Re-verification note: originally triaged 'new'; a grep pass found CON-FND-85CC08A33D0A88 ('the cell membrane is a phospholipid bilayer with cholesterol, peripheral and integral proteins, and carbohydrate on its outer face', Kasr 101-ISK-mcq-concepts.md / docs/import-ready, alias 'Fluid mosaic model') states this fact — overlaid here rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md."
+      }
+    }
+  ]
+}

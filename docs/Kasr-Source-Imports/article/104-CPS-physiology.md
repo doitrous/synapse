@@ -831,7 +831,7 @@ en
 ## learner_stage
 Years 1–3 foundation
 ## reading_time
-7
+15
 ## high_yield
 Core
 ## time_sensitive
@@ -845,10 +845,10 @@ Medical team, Admin team
 ## final_publisher
 Admin team
 ## summary
-Not every adjustment of blood flow is nervous. This article covers the local mechanisms that match a single tissue's flow to its own metabolism, the two catecholamines that pull the vasculature in opposite directions, and what actually happens — and what can go wrong — when a person simply stands up.
+Not every adjustment of blood flow is nervous. This article covers the local mechanisms that match a single tissue's flow to its own metabolism, the two catecholamines that pull the vasculature in opposite directions, what actually happens — and what can go wrong — when a person simply stands up, the endothelium's own vasoactive secretions (nitric oxide, endothelin, prostacyclin), the classification of circulating vasoconstrictor and vasodilator hormones, the renin-angiotensin system's formation cascade and AT1/AT2 receptor actions, carotid sinus syndrome as a clinical extension of the baroreceptor reflex, and the distinct causes of circulatory shock, including why some patients progress to refractory shock.
 ## sections
 ### Definition
-Blood flow is matched to local demand without any nervous or hormonal input by two local mechanisms, redirected regionally by two catecholamines that pull the vasculature in opposite directions, and — on simply standing up — challenged and then restored by gravity and the baroreflex.
+Blood flow is matched to local demand without any nervous or hormonal input by two local mechanisms, redirected regionally by two catecholamines that pull the vasculature in opposite directions, and — on simply standing up — challenged and then restored by gravity and the baroreflex. Beyond these, the vascular endothelium itself secretes vasoactive substances, a further set of circulating hormones acts on the vasculature systemically, and the renin-angiotensin system provides both an acute vasoconstrictor and the module's own account of long-term arterial pressure regulation.
 
 ### Mechanism
 Active hyperaemia is the rise in flow that accompanies a rise in tissue metabolism, driven by local hypoxia, vasodilator metabolites (CO2, H+, adenosine) and local heat dilating the arterioles and precapillary sphincters. Autoregulation is the separate tendency of flow to drift back toward normal within under a minute after a change in perfusion pressure, by two mechanisms: myogenic (a pressure rise stretches the arteriolar wall, driving calcium entry and constriction; a fall does the opposite) and metabolic (a fall in flow itself causes local hypoxia and metabolite build-up that dilates the vessels; a rise does the opposite). Reactive hyperaemia — the marked overshoot in flow seen once a period of vascular occlusion is released — is an extreme case of the metabolic mechanism.
@@ -861,9 +861,24 @@ On standing, gravity pools blood in the leg veins, lowering venous return, cardi
 ### Clinical significance
 The compensatory reflex to standing can fail — a slow or weak sympathetic response after bed rest, in old age, in autonomic neuropathy (e.g. diabetes) or with sympatholytic drugs — or be overwhelmed by hypovolaemia (haemorrhage, dehydration), and either failure lets postural hypotension appear, with dizziness or syncope as the presenting complaint. Reactive hyperaemia is exploited at the bedside as a rough test of arterial supply (e.g. capillary refill after releasing a cuff or compression), and epinephrine's dose-dependent switch from net vasodilation to vasoconstriction is why its clinical effect on blood pressure differs at physiological versus pharmacological doses.
 
+Carotid sinus syndrome is a clinical extension of the same baroreceptor reflex driving the standing response above: in some people the carotid sinus baroreceptors become abnormally sensitive, so trivial external pressure (a tight collar, or the pressure of shaving) activates the reflex strongly enough to produce marked bradycardia and a fall in arterial pressure, which can cause cerebral ischaemia and fainting — an acquired hypersensitivity, not a normal finding especially in young adults. Severe or recurrent cases may need denervation of the hypersensitive carotid sinus or implantation of a permanent artificial cardiac pacemaker.
+
+Circulatory shock — inadequate tissue perfusion — has several distinct causes beyond haemorrhage. Anaphylactic shock follows an excessive allergic reaction releasing histamine, a strong vasodilator, producing marked vasodilation; septic shock follows severe infection releasing bacterial toxins that are themselves strong vasodilators; neurogenic shock follows loss of vasomotor tone (brain damage affecting the vasomotor area, deep general anaesthesia, or high spinal anaesthesia); cardiogenic shock follows pump failure itself. Vasopressor drugs are particularly useful in neurogenic and anaphylactic shock specifically because the underlying defect in both is inappropriate vasodilation rather than a primary pump or volume problem. Some patients with severe haemorrhage progress to refractory (irreversible) shock: it persists for hours, becomes resistant to treatment, and death follows even if blood volume is restored to normal, because cardiac output stays low regardless. Three mechanisms drive this: rising capillary hydrostatic pressure drives excessive fluid filtration, further lowering blood volume, while granulocytes adhering to injured capillary walls release free oxygen radicals that cause more tissue damage, and bacteria entering the blood through injured vessels release toxins that are themselves strong vasodilators; severe cerebral ischaemia, from the marked fall in arterial pressure, causes vasomotor centre failure, which lowers pressure further in a deadly positive-feedback loop; and severe cardiac ischaemia, from the same fall in pressure, further lowers cardiac output despite coronary vasodilation, again in a self-worsening loop.
+
+### Endothelium-derived vasoactive substances
+The vascular endothelium is not a passive lining: it continuously secretes nitric oxide (NO), formed by endothelial NO synthase (eNOS) acting on L-arginine, with a short half-life (about 6 seconds) that keeps its action mainly local. Shear stress, acetylcholine, and the inflammatory mediators bradykinin and histamine all raise NO secretion; NO itself acts on vascular smooth muscle via guanylate cyclase, raising cGMP and relaxing the myocyte — the target of PDE-5 inhibitors such as sildenafil, which prolong this effect. A primary deficiency of NO synthesis contributes to chronic hypertension, since it removes a vasodilator tone the vasculature depends on. Endothelin-1, by contrast, is the most potent vasoconstrictor known, released in response to endothelial injury, thrombin and hypoxia, and reduced by NO, prostacyclin and atrial natriuretic peptide. Prostacyclin (PGI2), formed from arachidonic acid, is a vasodilator that also inhibits platelet aggregation and facilitates NO release, working alongside it rather than independently.
+
+### The renin-angiotensin system
+Renin, secreted by the kidney's juxtaglomerular apparatus in response to hypovolaemia/hypotension, renal ischaemia, reduced distal tubular Na+ delivery, or sympathetic (β1) stimulation — not in response to hypertension — cleaves hepatic angiotensinogen to angiotensin I, which angiotensin-converting enzyme (ACE, concentrated in pulmonary vascular endothelium) converts to angiotensin II. Angiotensin II acts through two receptor types with opposing profiles: AT1 receptors, widespread in adult tissue, mediate vasoconstriction, aldosterone secretion, direct renal Na+/water reabsorption, renin-secretion inhibition, increased sympathetic and vasopressin drive, thirst, and cardiac/vascular hypertrophy; AT2 receptors, much more limited in adults, counterbalance AT1 with vasodilatation, diuresis and natriuresis. Because angiotensin II's downstream renal Na+/water-retaining effect builds and persists over minutes to days, the renin-angiotensin system — unlike the second-to-second baroreceptor and chemoreceptor reflexes — is the module's own account of long-term arterial pressure regulation.
+
 ### Common misconceptions
 Treating active hyperaemia and autoregulation as one mechanism. Active hyperaemia responds to a rise in tissue metabolism; autoregulation responds to a change in perfusion pressure — they share the same metabolic logic but different triggers.
 Assuming epinephrine and norepinephrine both raise total peripheral resistance because both are catecholamines. Epinephrine's β2 vasodilation in muscle and liver normally wins out and lowers TPR; norepinephrine has no such vasodilator arm.
+Confusing NO's second messenger (cGMP) with cAMP, or assuming adrenaline directly stimulates NO synthase — the book's own listed stimuli are shear stress, acetylcholine, bradykinin and histamine.
+Assuming AT1 and AT2 share the same direction of effect because both are angiotensin II receptors — AT2 specifically counterbalances AT1, and diuresis/natriuresis are AT2, not AT1, actions.
+Assuming hypertension itself raises renin secretion — the reverse is true: hypovolaemia/hypotension, not hypertension, is what raises it.
+Treating carotid sinus syndrome as a normal finding in healthy young adults rather than an acquired abnormal hypersensitivity.
+Assuming refractory shock is simply severe hypoxaemia that restoring blood volume fixes — cardiac output stays low even after volume restoration, because self-worsening cerebral- and cardiac-ischaemia feedback loops, capillary damage and bacterial toxin release have taken over by that point.
 ## published_summary
 
 ## published_sections
@@ -874,10 +889,18 @@ Reactive hyperaemia is an extreme case of the metabolic autoregulation mechanism
 Epinephrine (β2, muscle/liver) usually lowers TPR overall; norepinephrine (α1, almost everywhere) raises it.
 Postural hypotension = fall of >20 mmHg on standing; normally prevented by the rapid baroreflex (tachycardia, arterial/venous constriction, RAAS).
 Postural hypotension appears when the reflex is weak/slow (age, bed rest, autonomic neuropathy, sympatholytics) or overwhelmed by hypovolaemia.
+Carotid sinus syndrome = acquired baroreceptor hypersensitivity, not a normal young-adult finding; can need denervation or a pacemaker.
+NO: eNOS on L-arginine, cGMP-mediated, short half-life; deficiency contributes to chronic hypertension. Endothelin-1 = most potent known vasoconstrictor. Prostacyclin = vasodilator, facilitates NO release.
+Vasoconstrictor hormones: angiotensin II, epinephrine, norepinephrine, vasopressin. Vasodilator hormones: kinins, natriuretic peptide.
+RAS: renin (JGA) on hepatic angiotensinogen → angiotensin I; ACE → angiotensin II. AT1 = vasoconstriction/Na+ retention; AT2 = vasodilatation/diuresis/natriuresis. RAS = long-term BP regulation.
+Shock causes: anaphylactic (histamine), septic (bacterial toxins), neurogenic (lost vasomotor tone) — all vasodilatory; cardiogenic (pump failure). Refractory shock: rising capillary hydrostatic pressure, granulocyte free radicals, bacterial toxin entry, cerebral- and cardiac-ischaemia feedback loops — cardiac output stays low even after volume restoration.
 ## lose_the_mark
 Conflating active hyperaemia with autoregulation.
 Assuming epinephrine always raises TPR like norepinephrine does.
 Treating any fall in standing blood pressure as pathological rather than a normal, rapidly-compensated gravitational effect.
+Assuming carotid sinus syndrome is a normal young-adult variant rather than acquired hypersensitivity.
+Swapping cGMP for cAMP as NO's second messenger, or L-arginine for another amino acid as its substrate.
+Assuming AT1 and AT2 receptor stimulation produce the same effects, or that hypertension raises renin secretion.
 ## callout_evidence
 
 ## related_concepts
@@ -922,10 +945,11 @@ Rights: must be CC-BY or public domain, or newly drawn for this product
 ## publication_gate
 needs_evidence
 ## evidence_basis
-Kasr Alainy physiology department book, "Cardiopulmonary (Cardiovascular)", Chapter 5 ("Basic Mechanisms of Circulatory Control"), printed pages 62-70, 90 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction.
+Kasr Alainy physiology department book, "Cardiopulmonary (Cardiovascular)", Chapter 5 ("Basic Mechanisms of Circulatory Control"), printed pages 62-70, 78, 82-90 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction. run44 extended this article's own page range twice within the same run: first (originally 62-70, 90) to include pp.78 and 82-84 for endothelium/RAS/carotid-sinus-syndrome material this article's own evidence_gaps had previously scoped out; then to include pp.85-90 for circulatory-shock causes and refractory-shock mechanisms, tested by this module's own A-V Connections bank rows — the book covers both squarely, so both earlier scope calls were about this article's own summary, not a source gap.
 ## evidence_gaps
 No independent citation has been attached to any figure here; every number is traceable to one department book.
-The book names further vasoactive hormones (angiotensin II, vasopressin, natriuretic peptides, kinins, endothelium-derived NO/endothelin/prostacyclin) in this same chapter that are not covered by this article for reasons of scope — see the lane report.
+Vasopressin (ADH) and natriuretic peptides are still not covered by this article — the book's own vasoconstrictor/vasodilator hormone classification names them, but their fuller physiology (osmoregulation, V1/V2 receptors; ANP/BNP/CNP receptor subtypes and actions) is out of scope for this pass and remains for a future run if the question banks demand it.
+The book's own rapid/long-term compensatory-reaction sections around pp.85-89 (catecholamines, angiotensin II, vasopressin secretion in hemorrhage; plasma-volume/protein/red-cell-mass restoration timelines) overlap with this leaf's own hemorrhagic-shock seed file and are not duplicated here — only the shock-type causes and refractory-shock mechanisms this article's own new section needed are drawn from that page range.
 ## conflicts
 [clear]
 ## last_reviewed
@@ -933,7 +957,7 @@ The book names further vasoactive hormones (angiotensin II, vasopressin, natriur
 ## review_due
 
 ## notes
-Written from the department book only; no rival article on this exact scope was found in the module's existing batches.
+Written from the department book only; no rival article on this exact scope was found in the module's existing batches. run44 extended the original local/hormonal-control scope with endothelium-derived substances (NO, endothelin, prostacyclin), the circulating vasoconstrictor/vasodilator hormone classification, the renin-angiotensin system (formation, AT1/AT2 receptors, long-term role), carotid sinus syndrome, and the distinct causes of circulatory shock plus refractory-shock mechanisms — all confirmed present in this same department-book chapter, following the precedent set by the Gas Transport article's own hypoxia/cyanosis/CO-poisoning section addition (bdcb7e72).
 
 ## field_notes
 lastReviewed: New record, not yet reviewed.
@@ -2098,7 +2122,7 @@ en
 ## learner_stage
 Years 1–3 foundation
 ## reading_time
-9
+12
 ## high_yield
 Core
 ## time_sensitive
@@ -2112,24 +2136,28 @@ Medical team, Admin team
 ## final_publisher
 Admin team
 ## summary
-Breathing is generated automatically by a handful of medullary and pontine neuron groups, and tuned continuously by two chemoreceptor systems that between them account for essentially all of the resting drive to breathe. This article covers who does what in the brainstem, why CO2 dominates over O2 as the everyday stimulus while O2 takes over only in an emergency, and the one reflex that keeps an over-inflated lung from inflating further.
+Breathing is generated automatically by a handful of medullary and pontine neuron groups, and tuned continuously by two chemoreceptor systems that between them account for essentially all of the resting drive to breathe. This article covers who does what in the brainstem, why CO2 dominates over O2 as the everyday stimulus while O2 takes over only in an emergency, the one reflex that keeps an over-inflated lung from inflating further, and the classic experimental evidence for all of it — what transecting the brainstem at each of four levels does to breathing.
 ## sections
 ### Definition
-Breathing rhythm is generated in the brainstem by four functionally distinct neuron groups, and is continuously adjusted by central and peripheral chemoreceptors that monitor blood gases, plus a lung-stretch reflex that guards against over-inflation.
+Breathing rhythm is generated in the brainstem by four functionally distinct neuron groups, and is continuously adjusted by central and peripheral chemoreceptors that monitor blood gases, plus a lung-stretch reflex that guards against over-inflation. Transecting the brainstem at successively lower levels — and combining each cut with vagotomy — is the classic experimental evidence for how these pieces fit together.
 ### Mechanism
 The dorsal respiratory group (DRG, around the nucleus of the tractus solitarius) is the primary inspiratory centre, firing continuous rhythmic signals to the inspiratory muscles during normal quiet breathing on its own slow, irregular inherent rhythm, generated at root by pacemaker neurons in the medullary pre-Botzinger complex. The ventral respiratory group (VRG) is totally inactive at rest and switches on only for forced breathing. Two pontine centres tune the DRG: the apneustic centre sends it tonic excitatory drive (and, isolated from its own inhibitory input, produces apneusis — prolonged inspiratory gasps); the pneumotaxic centre inhibits the DRG and apneustic centre, switching off inspiration and so setting the rate and depth of breathing.
 
 Central chemoreceptors, just beneath the ventral medullary surface and protected by the blood-brain barrier, supply about 75-80% of resting drive; their direct stimulus is H+ in the CSF, which plasma H+ cannot reach, so CO2 — which crosses the barrier freely and acidifies the CSF — is the potent indirect stimulus, made highly sensitive by the CSF's weak protein buffering. Peripheral chemoreceptors (carotid body glomus cells via the glossopharyngeal/Hering's nerve, aortic bodies via the vagus) supply the remaining 20-25%; their very high blood flow lets them sense dissolved PO2 directly, so they are unaffected by anaemia or CO poisoning, and they stay almost silent as PO2 falls from 100 to 60 mmHg before responding steeply below it.
 
 The Hering-Breuer reflex: lung inflation stretches receptors in the bronchial walls, which send inhibitory signals through the vagus to the DRG and apneustic centre, stopping inspiration.
+
+Transection at four successively lower levels reveals what each structure contributes. Level 1 (upper border of the pons, above both pontine centres): respiration is unaffected, since every respiratory centre below the cut is intact; adding bilateral vagotomy at this level makes breathing slower and deeper, showing that vagal (Hering-Breuer) afferents normally help set tidal volume and rate. Level 2 (mid-pons, between the pneumotaxic and apneustic centres, removing pneumotaxic input): breathing becomes slightly slower and deeper, confirming the pneumotaxic centre's normal role in adjusting rate and depth; adding bilateral vagotomy at this level removes the apneustic centre's only remaining source of inhibition, and breathing stops in full inspiration — apneusis, continuous inspiratory stimulation. Level 3 (between pons and medulla, removing both pontine centres): respiration continues, but irregularly, on the DRG's own crude intrinsic rhythm alone. Level 4 (between medulla and the upper border of the spinal cord, disconnecting the DRG/VRG entirely from the phrenic and intercostal motor neurons that actually drive breathing): respiration stops completely, leading to death.
 ### Key determinants
-For CO2 specifically, about 70-80% of the ventilatory response runs through the central chemoreceptor route and 20-30% through the peripheral one — CO2 is the most potent everyday respiratory stimulus, and a 3% rise in arterial PCO2 can double ventilation, while a marked rise above about 70 mmHg instead depresses the respiratory centre (CO2 narcosis). O2 lack, by contrast, is sensed only peripherally: ventilation barely rises as PO2 falls from 100 to 60 mmHg, rises sharply from 60 down to 30 mmHg, and below about 20 mmHg the effect reverses to direct central depression from brain hypoxia. The Hering-Breuer reflex shapes every breath in the newborn but, in the human adult, only engages once tidal volume rises to more than three times normal, as in exercise.
+For CO2 specifically, about 70-80% of the ventilatory response runs through the central chemoreceptor route and 20-30% through the peripheral one — CO2 is the most potent everyday respiratory stimulus, and a 3% rise in arterial PCO2 can double ventilation, while a marked rise above about 70 mmHg instead depresses the respiratory centre (CO2 narcosis). O2 lack, by contrast, is sensed only peripherally: ventilation barely rises as PO2 falls from 100 to 60 mmHg, rises sharply from 60 down to 30 mmHg, and below about 20 mmHg the effect reverses to direct central depression from brain hypoxia. The Hering-Breuer reflex shapes every breath in the newborn but, in the human adult, only engages once tidal volume rises to more than three times normal, as in exercise. Level 4 transection is functionally equivalent to a clinical high cervical cord or brainstem injury above the phrenic outflow (C3-C5): with no surviving connection between the medullary respiratory centres and the muscles of breathing, immediate stoppage of respiration and death follow — a plane below the phrenic origin (e.g. below C7) instead leaves diaphragmatic breathing intact.
 ### Clinical significance
-Because central chemoreceptors respond to CO2 and not directly to O2, a patient who relies on hypoxic drive (peripheral chemoreceptors) — as in chronic CO2 retention — can have their only remaining respiratory stimulus blunted by giving high-flow O2, which is part of why controlled oxygen therapy is used in such patients. CO2 narcosis (respiratory centre depression above about 70 mmHg PCO2) is a real clinical danger of uncontrolled hypercapnia, and the transition from peripheral-chemoreceptor-driven hyperventilation to central depression below about 20 mmHg PO2 marks the point at which severe hypoxia stops stimulating breathing and starts suppressing it.
+Because central chemoreceptors respond to CO2 and not directly to O2, a patient who relies on hypoxic drive (peripheral chemoreceptors) — as in chronic CO2 retention — can have their only remaining respiratory stimulus blunted by giving high-flow O2, which is part of why controlled oxygen therapy is used in such patients. CO2 narcosis (respiratory centre depression above about 70 mmHg PCO2) is a real clinical danger of uncontrolled hypercapnia, and the transition from peripheral-chemoreceptor-driven hyperventilation to central depression below about 20 mmHg PO2 marks the point at which severe hypoxia stops stimulating breathing and starts suppressing it. COPD is the clearest clinical example of hypoventilation with a mechanism traceable to this same chemoreceptor system: longstanding CO2 retention lets the central chemoreceptors tolerate higher CO2 levels than normal, shifting these patients onto hypoxic (peripheral chemoreceptor) drive as their main stimulus to breathe — the same drive-shift that makes uncontrolled O2 therapy dangerous in them. Level 4 transection's clinical parallel — a high spinal cord or brainstem injury above the phrenic outflow — is why such injuries are immediately fatal without ventilatory support, while injuries below the phrenic segments (C3-C5) spare diaphragmatic breathing.
 ### Common misconceptions
 Assuming O2 lack is the everyday driver of breathing the way CO2 is. Under normal conditions CO2 (via central chemoreceptors) dominates; O2 lack only becomes the dominant peripheral drive once PO2 falls below about 60 mmHg.
 Assuming the ventral respiratory group contributes to every breath. It is silent at rest; only the DRG drives quiet breathing.
 Assuming the Hering-Breuer reflex meaningfully limits every adult breath. It is essentially dormant at normal tidal volumes in adults and only engages at markedly increased tidal volume.
+Assuming any brainstem transection stops breathing. Only a level 4 cut (between medulla and spinal cord) does; levels 1-3 leave breathing going, just increasingly irregular as more of the pontine tuning is removed.
+Assuming vagotomy alone, or a mid-pontine cut alone, stops breathing. It takes both together (removing pneumotaxic input AND vagal/Hering-Breuer input) to unmask the apneustic centre's unopposed excitatory drive and produce apneusis.
 ## published_summary
 
 ## published_sections
@@ -2141,10 +2169,14 @@ Central chemoreceptors: ~75-80% of resting drive, respond to CSF H+, driven indi
 Peripheral chemoreceptors: ~20-25% of drive, sense PO2 directly, minimal response until PO2 < 60 mmHg.
 CO2: 70-80% central / 20-30% peripheral route; 3% PCO2 rise can double ventilation; >70 mmHg causes CO2 narcosis.
 Hering-Breuer reflex: vagal, stretch-receptor-driven, shapes every newborn breath but only engages in adults at TV > 3× normal.
+Transection levels: L1 (top of pons) unaffected, +vagotomy = slower/deeper; L2 (mid-pons) slightly slower/deeper, +vagotomy = apneusis; L3 (pons-medulla) irregular; L4 (medulla-cord) stops, death.
+COPD's chronic CO2 retention shifts these patients onto hypoxic (peripheral chemoreceptor) drive — the same mechanism that makes uncontrolled O2 therapy dangerous for them.
 ## lose_the_mark
 Treating O2 lack as the everyday respiratory stimulus.
 Forgetting the VRG is silent during quiet breathing.
 Overstating the Hering-Breuer reflex's role in normal adult tidal breathing.
+Assuming any brainstem transection level stops breathing — only level 4 (medulla-to-spinal-cord) does.
+Assuming vagotomy or a mid-pontine cut alone (rather than both together) produces apneusis.
 ## callout_evidence
 
 ## related_concepts
@@ -2189,10 +2221,10 @@ Rights: must be CC-BY or public domain, or newly drawn for this product
 ## publication_gate
 needs_evidence
 ## evidence_basis
-Kasr Alainy physiology department book, "Cardiopulmonary (Respiration)", Chapter 5 ("Control of Respiration"), printed pages 136-147 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction.
+Kasr Alainy physiology department book, "Cardiopulmonary (Respiration)", Chapter 5 ("Control of Respiration"), printed pages 136-147 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction. run44 re-checked p.142 specifically (brainstem transection at four levels — "Experimental Evidence in Animals", Fig 34) after finding this leaf's own bank rows tested it directly; despite the prior evidence_gaps note that this material "was not reached", it sits squarely inside the already-cited 136-147 range and reads cleanly, so it is now covered.
 ## evidence_gaps
 No independent citation has been attached to any figure here; every number is traceable to one department book.
-The chapter continues past page 147 into the integrated ventilatory response to exercise/altitude and brainstem-transection experimental evidence; that material was not reached in this lane's reading pass and is not covered by this article — see the lane report.
+The chapter's own integrated ventilatory response to exercise/altitude (a separate subsection, not yet located in this reading pass) is still not covered by this article.
 ## conflicts
 [clear]
 ## last_reviewed
@@ -2200,7 +2232,7 @@ The chapter continues past page 147 into the integrated ventilatory response to 
 ## review_due
 
 ## notes
-Written from the department book only, pages 136-147; the chapter's remaining pages (exercise/altitude integration, brainstem-transection evidence) were not reached and are not covered here.
+Written from the department book only, pages 136-147. run44 added the four-level brainstem-transection experimental evidence (p.142, within the already-cited range) and the COPD drive-shift clinical fact (p.150, cited by the sibling non-chemical-control seed file's own bank row) after confirming both were tested by this leaf's own remaining bank rows; the exercise/altitude integration subsection is still not reached.
 
 ## field_notes
 lastReviewed: New record, not yet reviewed.

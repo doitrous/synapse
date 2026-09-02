@@ -58,6 +58,45 @@ export const LEAF: McqLeafSeed = {
       type: "structural_description",
       aliases: ["Paranasal sinus lining", "Sinus mucosa", "Sinus ostia"],
     },
+    {
+      // kasr-104-author-run46: fresh mint, sourced from the department
+      // physiology book pp.115-116 ("Nervous Factors" / "Chemical
+      // Factors" under airway resistance) rather than this leaf's own
+      // articleId's histology content. No live article covers this
+      // regulation-of-airway-resistance content yet — gap disclosed, not
+      // hidden; flagged for whoever authors a "Mechanics of Breathing" or
+      // "Control of Respiration" article extension over these pages.
+      key: "airway-resistance.nervous-and-chemical-regulation",
+      label: "Parasympathetic (vagal) stimulation and chemical mediators such as histamine cause bronchoconstriction, while sympathetic β2-receptor stimulation causes bronchodilation",
+      definition: "Airway resistance is regulated by nervous and chemical factors, alongside the passive lateral traction alveolar expansion exerts on small-airway walls during inspiration. Parasympathetic (vagal) stimulation causes bronchoconstriction and increased mucus secretion, raising airway resistance; sympathetic stimulation, acting through β2 receptors, causes bronchodilation instead. Many chemical substances also cause bronchoconstriction and raise airway resistance: histamine, released from mast cells during allergic reactions; leukotrienes, produced in the lungs in response to inflammation; and various environmental factors such as plant pollen.",
+      objective: "State that vagal (parasympathetic) stimulation and chemical mediators such as histamine both cause bronchoconstriction, while sympathetic β2-receptor stimulation causes bronchodilation — the opposite autonomic direction from the vagal effect.",
+      pitfall: "Assuming any autonomic or chemical mediator with a cardiovascular vasodilator or vasoconstrictor role acts the same way on airway smooth muscle. Histamine, a vasodilator in most systemic vessels, is instead a bronchoCONSTRICTOR; sympathetic stimulation, often a vasoconstrictor systemically, is instead a bronchoDILATOR via β2 receptors — the two organ systems do not share one autonomic rulebook.",
+      subject: "resp",
+      primary: "DIS-PHY-T03",
+      secondary: [],
+      modulePath: "104 CPS > Histology > Respiratory System > Conducting Portion",
+      type: "mechanism",
+      aliases: ["Airway resistance regulation", "Bronchoconstriction", "Bronchodilation"],
+    },
+    {
+      // kasr-104-author-run46: fresh mint, sourced from the department
+      // physiology book pp.98-99, under a section heading literally titled
+      // "Organization of the Respiratory System" (this leaf's own name).
+      // No live article covers this content yet — gap disclosed, not
+      // hidden; flagged for whoever authors an "Organization of the
+      // Respiratory System" article extension over these pages.
+      key: "respiratory-system.non-respiratory-functions-and-conducting-zone-roles",
+      label: "Beyond gas exchange, the respiratory system regulates blood acid-base balance, defends against pathogens, aids venous return, olfaction, vocalization, water balance, temperature regulation, heparin secretion and ACE secretion, while the conducting zone specifically transports, humidifies/warms and filters inspired air",
+      definition: "External respiration comprises four major functional events: pulmonary ventilation, gas exchange between alveoli and blood, transport of O2 and CO2 in the blood, and gas exchange between blood and tissues. Beyond this primary gas-exchange function, the respiratory tract carries nine named non-respiratory functions: regulation of acid-base balance in blood; protection against pathogens and foreign particles; enhancing venous return; olfaction (via receptors in the upper nasal mucosa); vocalization (via the larynx); maintenance of water balance (evaporative water loss during expiration); regulation of body temperature (heat loss during expiration); an anticoagulant function (mast-cell heparin secretion); and secretion of angiotensin-converting enzyme. The lower respiratory passages divide functionally into a conducting zone (trachea to terminal bronchioles, ciliated epithelium) with three functions — transporting air from the upper airways to the respiratory zone, humidifying and warming inspired air, and serving as part of the body's defence system by removing particulates such as dust and bacteria — and a respiratory zone, the site of gas exchange across the alveoli.",
+      objective: "List the respiratory system's non-respiratory functions (acid-base regulation, defence, venous return, olfaction, vocalization, water balance, temperature regulation, anticoagulation, ACE secretion) and the conducting zone's own three functions (transport, humidification/warming, defence).",
+      pitfall: "Treating gas exchange as the respiratory system's only function. The department book names eight further non-respiratory roles, and separately gives the conducting zone its own three functions distinct from the respiratory zone's gas-exchange role.",
+      subject: "resp",
+      primary: "DIS-PHY-T03",
+      secondary: [],
+      modulePath: "104 CPS > Histology > Respiratory System > Conducting Portion",
+      type: "structural_description",
+      aliases: ["Organization of the Respiratory System", "Non-respiratory functions", "Conducting zone functions"],
+    },
   ],
 
   questions: [
@@ -538,6 +577,23 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // kasr-104-author-run45: Conducting Portion cluster (bank-tagged
+      // "Conducting Portion"). Matches this leaf's own sourced concept
+      // verbatim: the conchae's lamina propria carries "large venous
+      // plexuses (swell bodies)".
+      key: "venous-plexuses-swell-bodies-is-present-in-c13eea5d",
+      conceptKey: "nasal-cavity.vestibule-and-fossae-regions",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "Locate venous plexuses (swell bodies) in the conchae's connective-tissue lamina propria, against the vestibule, trachea and nasal cartilage generally.",
+      explanations: {
+        A: "The vestibule is the nasal cavity's anterior, hair-lined entrance, defined by its keratinized epithelium and vibrissae, not by venous plexuses.",
+        B: "The trachea's lamina propria carries tracheal glands, not the venous plexuses (swell bodies) this leaf's own concept places specifically in the conchae.",
+        C: "The connective tissue of the conchae carries large venous plexuses (swell bodies), part of the same lamina propria whose glands and vascular supply help condition inspired air — this leaf's own concept text names this structure directly.",
+        D: "'All the above' overstates it: the venous plexuses (swell bodies) are this leaf's own concept's named feature of the conchae specifically, not a feature shared equally by the vestibule and trachea too.",
+      },
+    },
+    {
       // Duplicate occurrence 4 of the paranasal-sinus-lining fact already
       // kept three times above (what-type-of-tissues-lines-the-paranasal-
       // sinuses-*), extracted from a fourth question book with shorter
@@ -575,6 +631,87 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: "The stem and options are themselves OCR-garbled (stray pipe/Arabic-diacritic characters splitting each option), and the handwritten-recovered answer (D, \"Squamous cells\") contradicts this leaf's own department-book-sourced concept text, which attributes basal afferent nerve endings and the sensory-receptor role specifically to the BRUSH cell -- squamous cells are not even one of the conducting portion's five named epithelial cell types. The same fact (brush cell = sensory receptor) is already kept cleanly, twice, on this same concept (`cell-act-as-sensory-receptor-contain-afferent-nerve-ending-424f9d70`, `concerning-the-epithelial-celts-lining-the-respiratory-condu-54e6f0db`). Excluded rather than keyed against the source it should agree with.",
+    },
+    // kasr-104-author-run46: this leaf's own 3 remaining bank rows
+    // (ledger's "Organization of the Respiratory System" batch, leaf=null
+    // in the raw bank so missed by a naive per-leaf scan).
+    {
+      // Distinct teaching angle from this leaf's own already-kept "except"
+      // question (olfactory-neuron-is-characterized-by-all-except-4de2c09a):
+      // that row separates the olfactory NEURON's own features from the
+      // sustentacular cell's; this row instead contrasts all three named
+      // olfactory cell types at once (neuron vs supporting vs basal) and
+      // restates the epithelium's own general definition as the true
+      // option, so no unique content is lost by keeping both.
+      key: "concerning-the-olfactory-epithelium-9305cebb",
+      conceptKey: "olfactory-mucosa.cell-types-and-lamina-propria",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "State that olfactory epithelium is the neuro-epithelium responsible for smell, against three commonly-confused cell-type details: supporting cells carry microvilli (not numerous cilia), olfactory neurons are bipolar (not unipolar), and basal cells are stem cells (not the sensory receptors).",
+      explanations: {
+        A: "Reversed. This leaf's own sourced concept credits the sustentacular (supporting) cells with apical microvilli in a fluid layer, not numerous cilia — it is the olfactory neuron that carries the few, long, non-motile cilia.",
+        B: "Reversed. This leaf's own sourced concept states olfactory neurons are bipolar nerve cells, not unipolar.",
+        C: "Reversed. This leaf's own sourced concept describes basal cells as small pyramidal stem cells for the sensory and supporting cells, not as the sensory receptors themselves — that role belongs to the olfactory neurons.",
+        D: "Correct. The department book states directly that olfactory epithelium 'is the neuro-epithelium responsible for smell sensation' (p.29), the epithelium's own general definition, true regardless of which specific cell-type detail the three other options get wrong.",
+      },
+      answerOverride: "D",
+      answerOverrideReason: "No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified directly against this leaf's own sourced concept, itself grounded in the department histology book (p.29): D restates the book's own definition verbatim, while A, B and C each reverse a specific cell-type detail the same concept states in the opposite direction.",
+    },
+    {
+      // kasr-104-author-run46: fresh mint. find-existing.mjs "airway
+      // resistance bronchoconstriction bronchodilation" returned "safe to
+      // create". CORRECTED before landing: my first pass excluded this row
+      // on a false "0 hits" (I checked "histamine" only against its earlier
+      // vascular/shock occurrences, p.61/66/85/90, without also checking
+      // the physiology book's own separate "Nervous and Chemical Factors"
+      // section on airway resistance, p.116, which names histamine
+      // directly as a bronchoconstrictor). No live article yet covers this
+      // specific regulation-of-airway-resistance content (this leaf's own
+      // articleId, ART-104-HIS-NASAL-MUCOSA, is a different, histology
+      // topic) — gap disclosed rather than hidden, flagged for whoever
+      // authors a "Mechanics of Breathing" or "Control of Respiration"
+      // article extension covering department physiology book pp.115-116.
+      key: "bronchoconstriction-is-produced-by-cea9ca3b",
+      conceptKey: "airway-resistance.nervous-and-chemical-regulation",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "Name histamine, not epinephrine, vasopressin or noradrenaline, as the chemical factor the department book credits with producing bronchoconstriction.",
+      explanations: {
+        A: "Correct. This leaf's own sourced concept states histamine, released from mast cells during allergic reactions, is one of the chemical substances that cause bronchoconstriction and raise airway resistance.",
+        B: "Reversed. Epinephrine, like the sympathetic (β2 receptor) stimulation this leaf's own concept names, causes bronchodilation, not bronchoconstriction.",
+        C: "Vasopressin is not named among this leaf's own sourced concept's chemical or nervous factors regulating airway resistance at all — it is a renal water-retention hormone, not an airway-smooth-muscle regulator in this book's own account.",
+        D: "Noradrenaline, like epinephrine, is a sympathomimetic; this leaf's own concept credits sympathetic (β2 receptor) stimulation with bronchodilation, the opposite of bronchoconstriction.",
+      },
+      answerOverride: "A",
+      answerOverrideReason: "No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified directly against the department physiology book (p.116, 'Chemical Factors' under airway resistance): 'Many chemical substances cause bronchoconstriction... Histamine: released from mast cells during allergic reactions' — a direct match for option A. The same page's own 'Nervous Factors' section credits sympathetic (β2) stimulation with bronchodilation, ruling out B and D by the same mechanism family; vasopressin is not named anywhere in this section, ruling out C.",
+    },
+    {
+      // kasr-104-author-run46: fresh mint. CORRECTED before landing: my
+      // first pass excluded this row on a false "0 hits" for "acid-base"
+      // and "blood pH" — that used a shell-escaped "\|" alternation the
+      // grep tool does not parse as alternation. Re-checked with a plain
+      // "|": physiology book p.98's own "Non-Respiratory Functions of the
+      // Respiratory System" section, under a heading literally titled
+      // "Organization of the Respiratory System" (this leaf's own name),
+      // names "Regulation of acid-base balance in blood" as item 1 of 9;
+      // p.99's own Conducting Zone section separately names "Humidification
+      // and warming of inspired air" among its 3 functions. find-existing.mjs
+      // "non-respiratory functions of the respiratory system" / "organization
+      // of the respiratory system conducting zone" both returned "safe to
+      // create" — no pinned or live record states this content yet.
+      key: "which-of-the-following-are-functions-of-components-of-the-re-4b944d7a",
+      conceptKey: "respiratory-system.non-respiratory-functions-and-conducting-zone-roles",
+      difficulty: "Easy",
+      questionType: "Comprehensive true statement",
+      learningObjective: "State that warming/moistening inspired air, gas exchange, and blood-pH regulation are all genuine functions the respiratory system's components carry out.",
+      explanations: {
+        A: "True, so not the complete answer on its own. The department book names humidification and warming of inspired air among the conducting zone's three functions.",
+        B: "True, so not the complete answer on its own. Gas exchange — delivering O2 to and removing CO2 from the blood — is the respiratory system's primary function, occurring at the alveoli.",
+        C: "True, so not the complete answer on its own. The department book lists regulation of acid-base balance in blood as the first of the respiratory system's own named non-respiratory functions.",
+        D: "Correct. All three of the above are genuine functions the department book credits to the respiratory system's own components: humidification/warming (conducting zone, p.99), gas exchange (the primary respiratory function throughout the book), and acid-base regulation (its own first-listed non-respiratory function, p.98).",
+      },
+      answerOverride: "D",
+      answerOverrideReason: "No printed key exists (answerConfidence: external-solved-book-recovered, from a different solved question book). Re-verified directly against the department physiology book: p.98's own 'Non-Respiratory Functions of the Respiratory System' section (under the heading 'Organization of the Respiratory System') names 'Regulation of acid-base balance in blood' as item 1 of 9; p.99's own Conducting Zone section separately names 'Humidification and warming of inspired air' among its 3 functions; gas exchange is the book's central topic throughout. All three confirmed true, so D is the complete, correct answer.",
     },
   ],
 }

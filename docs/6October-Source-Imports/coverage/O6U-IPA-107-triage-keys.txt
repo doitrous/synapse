@@ -1,0 +1,43 @@
+# O6U-IPA-107 -- Pathology Q Bank.pdf T/F sections, triage keys
+# Format: <key> # <short description> (per ledger.mjs comment-stripping lesson -- only the bare key must survive)
+
+ipa107-tf-q001 # Portal hypertension and pulmonary bilharziasis
+ipa107-tf-q002 # Commonest site in bilharzial cystitis
+ipa107-tf-q003 # Schistosomiasis liver change
+ipa107-tf-q004 # Hypersplenism and hepatic bilharzial fibrosis
+ipa107-tf-q005 # Bilharzial malignancy type
+ipa107-tf-q006 # Sandy patches: bladder versus colon
+ipa107-tf-q007 # Which bladder metaplasia is precancerous
+ipa107-tf-q008 # Cystitis cystica and cancer risk
+ipa107-tf-q009 # Lepromatous leprosy and T-cell immunity
+ipa107-tf-q010 # Lepromin test in lepromatous leprosy
+ipa107-tf-q011 # Which syphilis stage shows the chancre
+ipa107-tf-q012 # Syphilitic aortic aneurysm site
+ipa107-tf-q013 # Timeline of tertiary syphilis
+ipa107-tf-q014 # Syphilitic gummas and their stage
+ipa107-tf-q015 # Syphilitic tongue lesions and cancer risk
+ipa107-tf-q016 # Most severe form of leprosy
+ipa107-tf-q017 # Is actinomycosis a fungal disease
+ipa107-tf-q018 # Definition of toxemia
+ipa107-tf-q019 # Bacteremia versus septicemia
+ipa107-tf-q020 # Are pyemic abscesses chronic
+ipa107-tf-q021 # Which tissue shows red infarction
+ipa107-tf-q022 # Definition of edema
+ipa107-tf-q023 # Definition of congestion
+ipa107-tf-q024 # Deep leg vein thromboembolus destination
+ipa107-tf-q025 # Which tissue shows pale infarction
+ipa107-tf-q026 # Definition of hyperemia
+ipa107-tf-q027 # Source of most pulmonary emboli
+ipa107-tf-q028 # Definition of gangrene
+ipa107-tf-q029 # Nutmeg liver appearance
+ipa107-tf-q030 # Starling forces count
+ipa107-tf-q031 # Virchow's triad count
+ipa107-tf-q032 # Infarction type in the lung
+ipa107-tf-q033 # Definition of dysplasia
+ipa107-tf-q034 # Definition of choristoma
+ipa107-tf-q035 # Staging versus grading
+ipa107-tf-q036 # Definition of hamartoma
+ipa107-tf-q037 # Definition of metaplasia
+ipa107-tf-q038 # Is carcinoma benign or malignant
+ipa107-tf-q039 # Growth rate: benign versus malignant
+ipa107-tf-q040 # Definition of cellular anaplasia

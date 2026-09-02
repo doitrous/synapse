@@ -1,0 +1,1220 @@
+{
+  "lane": "AU-MED-203",
+  "cluster": "quiz3",
+  "header": "AU-MED-203 · Nervous System — Workshop Quiz 3, authored from the fully-keyed 31-question workshop bank (src_b016b1b1c534c724e141), printed answer table p9, coverage/AU-MED-203-triage.md.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "au"
+    ],
+    "years": [
+      "AU_Y2"
+    ],
+    "module": "AU-MED-203",
+    "module_subject": "AU-MED-203 > Nervous System > Workshop Quiz 3",
+    "exam_weight_by_year": {
+      "AU_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_b016b1b1c534c724e141"
+    ],
+    "source_citation": "AU-MED-203 Workshop Quiz 3, {page}, answer table p9",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quiz3-q01",
+      "page": 2,
+      "title": "Muscle spared in facial nerve palsy",
+      "question": "Which of the following muscle is spared in case of facial nerve palsy?",
+      "options": {
+        "A": "Sternomastoid",
+        "B": "Stapedius",
+        "C": "Buccinator",
+        "D": "Orbicularis oculi"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Sternocleidomastoid is a spinal accessory nerve (CN XI) muscle, not a facial-nerve (CN VII) muscle, so it is spared even in a complete lower motor neuron facial nerve palsy (Bell's palsy). This is a useful bedside distinguisher: weakness confined to the facial-nerve muscles (forehead, eye closure, cheek, lips) with a normal shoulder shrug and head-turn points to CN VII, not CN XI, pathology.",
+        "B": "Incorrect. Stapedius, which dampens ossicular chain movement, is a second-arch (facial nerve) muscle and is paralysed in a facial nerve lesion proximal to its branch, producing hyperacusis.",
+        "C": "Incorrect. Buccinator is a muscle of facial expression, a facial-nerve (CN VII) muscle, and is weakened in facial nerve palsy, contributing to food pooling in the cheek.",
+        "D": "Incorrect. Orbicularis oculi is a facial-nerve muscle; its weakness in facial palsy causes incomplete eye closure (lagophthalmos)."
+      },
+      "main_concept": "CON-NEU-C45E0A9DC87329",
+      "concept_ids": [
+        "CON-NEU-C45E0A9DC87329"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cranial nerves",
+      "subtopic": "Facial nerve motor territory",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that sternocleidomastoid, an accessory-nerve muscle, is spared in facial nerve palsy.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p2 q1, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q02",
+      "page": 2,
+      "title": "Left S1 destruction and contralateral astereognosis",
+      "question": "A patient had destruction of somatic sensory area I on the left side. This will show:",
+      "options": {
+        "A": "Total lack of pain sensation on the same side",
+        "B": "Total lack of temperature sensation of the same side",
+        "C": "Inability to identify objects put in the left hand",
+        "D": "Inability to identify objects put in the right hand"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A cortical S1 lesion does not abolish crude pain sensation, which is registered subcortically via the spinothalamic tract's thalamic and brainstem relays; it is also on the wrong (same, not opposite) side for any spinothalamic-mediated deficit.",
+        "B": "Incorrect. Crude temperature sensation similarly survives a cortical lesion via subcortical relay, and would in any case be contralateral (right-sided), not same-sided, if a spinothalamic deficit were being described.",
+        "C": "Incorrect. Since somatosensory input has already crossed the midline before reaching the cortex, a LEFT S1 lesion produces its discriminative-touch deficit in the RIGHT hand, not the left.",
+        "D": "Correct. Left S1 receives touch, pressure and proprioceptive input that has already decussated in the medial lemniscus, so its destruction abolishes cortical discriminative touch on the RIGHT side, producing astereognosis — inability to identify an object by touch alone — in the right hand, while crude pain and temperature sensation survive via subcortical pathways. This contralateral pattern is the same logic used to localise any unilateral primary somatosensory cortex lesion."
+      },
+      "main_concept": "CON-NEU-BA0CF39AB56630",
+      "concept_ids": [
+        "CON-NEU-BA0CF39AB56630"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Somatosensory cortex",
+      "subtopic": "Cortical sensory lesions",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that a left S1 lesion produces astereognosis in the right (contralateral) hand.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p2 q2, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q03",
+      "page": 2,
+      "title": "Functional component of the olfactory nerve",
+      "question": "What is the nucleus (functional component) of the olfactory nerve?",
+      "options": {
+        "A": "SSA",
+        "B": "GVA",
+        "C": "SVE",
+        "D": "SVA"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect per this source's own printed key. SSA (special somatic afferent) is the category some texts instead use for vision and vestibulocochlear sensation, not the classification this source assigns the olfactory nerve.",
+        "B": "Incorrect. GVA (general visceral afferent) describes general visceral sensation (e.g. from the gut), not the olfactory nerve's special sensory modality.",
+        "C": "Correct per this source's own printed answer key. Note: the more widely taught classification of the olfactory nerve, given its purely sensory character and its embryological kinship with the special-visceral-afferent taste pathway, is SVA (special visceral afferent) — SVE (special visceral efferent) is instead the branchiomotor category applied to the trigeminal, facial, glossopharyngeal, vagus and accessory nerves' motor components, none of which describes a purely sensory nerve like the olfactory. This source's own answer table nonetheless marks C; see this concept's field_notes for the discrepancy.",
+        "D": "Incorrect per this source's own printed key, though SVA is the classification most commonly taught for the olfactory nerve elsewhere — see the explanation for option C."
+      },
+      "main_concept": "CON-NEU-AA223B5B388120",
+      "concept_ids": [
+        "CON-NEU-AA223B5B388120"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cranial nerves",
+      "subtopic": "Functional component classification",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 1,
+      "learning_objective": "State the olfactory nerve's functional-component classification per this source's own printed key, and recognise the standard SVA alternative.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p2 q3, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Doubt: the source's key (C, SVE) conflicts with the standard textbook classification of the olfactory nerve as SVA (option D) — SVE is a motor (branchiomotor) category and cannot describe a purely sensory nerve. Printed key kept per LANE-CARD; doubt recorded here and in the concept's field_notes."
+    },
+    {
+      "key": "quiz3-q04",
+      "page": 2,
+      "title": "Destruction of the circular area and word blindness",
+      "question": "Which of the following may occur due to destruction of the circular area?",
+      "options": {
+        "A": "Broca's aphasia",
+        "B": "Agraphia",
+        "C": "Word blindness",
+        "D": "Loss of hearing"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Broca's aphasia results from a lesion of the inferior frontal gyrus (Broca's area), an expressive-language area well anterior to the parieto-temporo-occipital \"circular area\" this question tests.",
+        "B": "Incorrect as the single best answer here — agraphia can accompany a parieto-temporo-occipital junction lesion, but the classic, specifically-named deficit of this circular area/angular gyrus region is alexia (word blindness), the option this source's key selects.",
+        "C": "Correct. The angular gyrus and the surrounding parieto-temporo-occipital junction — the region sometimes drawn on teaching diagrams as a border-zone \"circular area\" around the posterior end of the lateral (Sylvian) fissure — integrate visual, auditory and somatosensory association cortex needed for reading. Its destruction classically produces alexia (word blindness), the inability to read written language despite intact vision, distinct from Broca's expressive aphasia or a primary hearing deficit.",
+        "D": "Incorrect. Loss of hearing would require a primary auditory cortex (superior temporal gyrus) or auditory pathway lesion, not destruction of the parieto-temporo-occipital circular area."
+      },
+      "main_concept": "CON-NEU-4B44D513B80927",
+      "concept_ids": [
+        "CON-NEU-4B44D513B80927"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cerebral cortex",
+      "subtopic": "Language and reading cortex",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 1,
+      "learning_objective": "Attribute word blindness (alexia) to destruction of the parieto-temporo-occipital junction (\"circular area\").",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p2 q4, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. The source's own cover diagram (p1) is garbled by OCR and unreadable; \"circular area\" is treated here as the parieto-temporo-occipital junction/angular gyrus region, the standard site for the tested deficit (word blindness)."
+    },
+    {
+      "key": "quiz3-q05",
+      "page": 2,
+      "title": "Origin of the middle cerebral artery (green arrow)",
+      "question": "Which of the following is the origin of the artery passing at the green arrow (figure)?",
+      "options": {
+        "A": "Middle cerebral artery",
+        "B": "Internal carotid artery",
+        "C": "Posterior cerebral artery",
+        "D": "Basilar artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect — the middle cerebral artery is the vessel being pointed at (its origin, not its own identity, is being asked for).",
+        "B": "Correct. At the base of the brain, the internal carotid artery terminates by dividing into two terminal branches: the smaller anterior cerebral artery and the much larger middle cerebral artery, which continues the ICA's own trajectory laterally into the Sylvian fissure. The MCA is therefore the ICA's own terminal continuation, not a branch of the posterior circulation.",
+        "C": "Incorrect. The posterior cerebral artery arises from the vertebrobasilar (posterior circulation) system, not from the internal carotid artery's terminal bifurcation that gives rise to the MCA.",
+        "D": "Incorrect. The basilar artery is the posterior-circulation trunk vessel itself, formed by the vertebral arteries' union, and does not give rise to the MCA."
+      },
+      "main_concept": "CON-NEU-FE4E8E91C5BFFB",
+      "concept_ids": [
+        "CON-NEU-FE4E8E91C5BFFB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cerebral vasculature",
+      "subtopic": "Circle of Willis — terminal ICA branches",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the middle cerebral artery arises as the internal carotid artery's larger terminal branch.",
+      "media_recommendations": "### anatomy plate · Question stem\nBrief: Basal view of the brain/circle of Willis with a green-arrow pointer on the middle cerebral artery, tracing back to its origin\nPurpose: This is a labelling item transcribed from the Workshop Quiz 3 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image there is nothing to point at, so the item cannot be shown to a student until a rights-cleared replacement is supplied.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p2 q5, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Labelling item; underlying fact (MCA arises from the ICA) is independent of the missing figure."
+    },
+    {
+      "key": "quiz3-q06",
+      "page": 3,
+      "title": "Structure compressed by the amygdaloid nucleus",
+      "question": "Which of the following is compressed by the amygdaloid nucleus?",
+      "options": {
+        "A": "3rd ventricle",
+        "B": "Central canal",
+        "C": "4th ventricle",
+        "D": "Lateral ventricle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The 3rd ventricle is a midline diencephalic structure, related to the thalamus and hypothalamus, not to the medial temporal lobe's amygdala.",
+        "B": "Incorrect. The central canal is a slender midline channel running the length of the spinal cord, unrelated to the amygdala's temporal-lobe location.",
+        "C": "Incorrect. The 4th ventricle lies in the brainstem/cerebellum, well away from the medial temporal lobe.",
+        "D": "Correct. The amygdala sits in the medial temporal lobe at the anterior tip of the temporal (inferior) horn of the lateral ventricle. Alongside the hippocampus, which lines the horn's floor, its bulging medial surface indents and narrows the temporal horn. This relationship is a landmark used when reading temporal-lobe imaging for mesial temporal sclerosis or other medial temporal pathology."
+      },
+      "main_concept": "CON-NEU-4A0F99727B2E94",
+      "concept_ids": [
+        "CON-NEU-4A0F99727B2E94"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Temporal lobe",
+      "subtopic": "Medial temporal lobe and ventricular relations",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the amygdaloid nucleus bulges into and compresses the temporal horn of the lateral ventricle.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p3 q6, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q07",
+      "page": 3,
+      "title": "The exception in Brown-Séquard syndrome",
+      "question": "Which of the following isn't related to Brown-Séquard syndrome?",
+      "options": {
+        "A": "Loss of vibration sense on the opposite side below the level of the lesion",
+        "B": "Loss of voluntary movements on the same side below the level of the lesion",
+        "C": "Loss of reflex movements on the same side at the level of the lesion",
+        "D": "Loss of pain sensation on the opposite side below the level of the lesion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct — this is the false statement, the one 'not related to' the syndrome. Vibration and proprioception are carried by the dorsal columns, which ascend UNCROSSED until they reach the gracile/cuneate nuclei of the medulla. A cord hemisection therefore loses these modalities IPSILATERAL (same side), not the opposite side, to the lesion, below its level — the reverse of what this statement claims.",
+        "B": "This statement IS true, so it is not the answer: the corticospinal tract has already crossed above the spinal cord, so hemisection produces ipsilateral upper motor neuron weakness below the lesion.",
+        "C": "This statement IS true, so it is not the answer: at the exact segmental level of the lesion, ipsilateral lower motor neuron signs (including loss of segmental reflexes) occur from direct damage to the anterior horn/root at that level.",
+        "D": "This statement IS true, so it is not the answer: the spinothalamic tract crosses within a segment or two of entry, so its loss (pain/temperature) is CONTRALATERAL below the lesion — the exact mirror-image pattern to the ipsilateral dorsal-column loss described in option A."
+      },
+      "main_concept": "CON-NEU-CEC6A6BD66BA3F",
+      "concept_ids": [
+        "CON-NEU-CEC6A6BD66BA3F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Spinal cord",
+      "subtopic": "Brown-Séquard syndrome",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that vibration sense is lost ipsilateral to a Brown-Séquard hemisection, contrasting with the contralateral loss of pain and temperature.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p3 q7, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q08",
+      "page": 3,
+      "title": "Pathway transmitting knee-joint proprioception",
+      "question": "The physician asked the patient to close his eyes and move his knee joint to evaluate proprioception. Which of the following structures (labelled in the figure) is responsible for transmission of this sensation?",
+      "options": {
+        "A": "Point A",
+        "B": "Point B",
+        "C": "Point C",
+        "D": "Point D"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect per the source's own printed key; see explanation for option C for the underlying tested fact.",
+        "B": "Incorrect per the source's own printed key; see explanation for option C.",
+        "C": "Correct per the source's own printed key. When a patient closes their eyes and reports a joint's position, the signal travels via large, fast-conducting proprioceptive afferents that ascend UNCROSSED in the dorsal (posterior) columns to the gracile nucleus of the medulla, decussate as internal arcuate fibers, and continue as the medial lemniscus to the thalamus and postcentral gyrus — the dorsal column-medial lemniscus (DCML) pathway. This bedside test is a functional test of DCML integrity, distinct from the spinothalamic (pain/temperature) system.",
+        "D": "Incorrect per the source's own printed key; see explanation for option C."
+      },
+      "main_concept": "CON-NEU-96D5CEC7193664",
+      "concept_ids": [
+        "CON-NEU-96D5CEC7193664"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Somatosensory pathways",
+      "subtopic": "Dorsal column-medial lemniscus pathway",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the dorsal column-medial lemniscus pathway as the route transmitting conscious knee-joint proprioception.",
+      "media_recommendations": "### physiology diagram · Question stem\nBrief: Spinal cord/brainstem cross-section diagram with labelled points A-D along the proprioceptive pathway, tested against a knee-joint position-sense vignette\nPurpose: This is a labelling item transcribed from the Workshop Quiz 3 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image the specific labelled point cannot be verified, though the underlying fact tested (the dorsal column-medial lemniscus pathway) is standard and independent of the figure.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p3 q8, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Labelling item with bare point-letter options; options rewritten as 'Point A-D' since the source's own diagram is unavailable. The correct answer (C) is treated as identifying the DCML pathway/fasciculus gracilis, consistent with the stem's classic proprioception vignette."
+    },
+    {
+      "key": "quiz3-q09",
+      "page": 3,
+      "title": "Structure preventing alpha motor neuron activity",
+      "question": "Which of the following is used to prevent the activity of alpha motor neurons?",
+      "options": {
+        "A": "Gamma motor neuron",
+        "B": "Primary motor area",
+        "C": "Golgi tendon organ",
+        "D": "Flower spray afferent"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Gamma motor neurons innervate the muscle spindle's own intrafusal fibers, keeping the spindle sensitive to stretch; they do not directly inhibit alpha motor neurons.",
+        "B": "Incorrect. The primary motor area is a source of voluntary EXCITATORY drive to alpha motor neurons via the corticospinal tract, not an inhibitory structure.",
+        "C": "Correct. The Golgi tendon organ, in series with the muscle fibers at the musculotendinous junction, senses active muscle tension and, via fast-conducting Ib afferents, activates inhibitory interneurons that suppress the discharge of the alpha motor neurons supplying the SAME muscle. The inverse myotatic (autogenic inhibition) reflex, which protects the muscle-tendon unit from excessive tension.",
+        "D": "Incorrect. The flower-spray (group II) afferent is a sensory ending of the muscle spindle itself, signalling static muscle length; it participates in the excitatory stretch reflex, not in inhibiting alpha motor neurons."
+      },
+      "main_concept": "CON-NEU-73E5C7B5AF963D",
+      "concept_ids": [
+        "CON-NEU-73E5C7B5AF963D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Reflex physiology",
+      "subtopic": "Golgi tendon organ / inverse myotatic reflex",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the Golgi tendon organ produces autogenic inhibition of alpha motor neurons of the same muscle.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p3 q9, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q10",
+      "page": 4,
+      "title": "Structure forming the facial colliculus",
+      "question": "Which of the following is responsible for the formation of the facial colliculus?",
+      "options": {
+        "A": "Abducent nucleus",
+        "B": "Facial nucleus",
+        "C": "Hypoglossal nucleus",
+        "D": "Vestibular nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In the pons, the facial nerve's intrapontine fibers loop (the internal genu) around the abducens (CN VI) nucleus before exiting the brainstem, and this looped complex bulges the floor of the fourth ventricle to form the facial colliculus. So despite its name, the swelling is produced principally by the abducens nucleus.",
+        "B": "Incorrect, despite the name. The facial MOTOR nucleus itself lies more ventrolaterally in the pontine tegmentum, not at the level producing the colliculus's bulge; only the facial nerve's looping fibers, not the facial nucleus, contribute to the colliculus.",
+        "C": "Incorrect. The hypoglossal nucleus lies in the medulla, at a different level and forming a different fourth-ventricle-floor landmark (the hypoglossal trigone), not the pontine facial colliculus.",
+        "D": "Incorrect. Vestibular nuclei form the vestibular area of the fourth ventricle floor, lateral to the facial colliculus, not the colliculus itself."
+      },
+      "main_concept": "CON-NEU-9D8B5F9A96EFEB",
+      "concept_ids": [
+        "CON-NEU-9D8B5F9A96EFEB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Brainstem",
+      "subtopic": "Fourth ventricle floor landmarks",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the facial colliculus is formed principally by the abducens nucleus.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p4 q10, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q11",
+      "page": 4,
+      "title": "Cells synapsing in the outer plexiform layer of the retina",
+      "question": "Which of the following cells synapse in the outer plexiform layer of the retina?",
+      "options": {
+        "A": "Amacrine and bipolar cells",
+        "B": "Horizontal and ganglion cells",
+        "C": "Muller's cells and rods",
+        "D": "Horizontal and bipolar cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct per this source's own printed key. Note: standard retinal histology instead places photoreceptor-horizontal-bipolar synapses in the OUTER plexiform layer, with amacrine-bipolar-ganglion synapses in the separate INNER plexiform layer — making option D (horizontal and bipolar cells) the answer most textbooks would select for the outer plexiform layer. This source's own answer table nonetheless marks A; see this concept's field_notes for the discrepancy.",
+        "B": "Incorrect per this source's own printed key. Ganglion cells synapse in the inner, not outer, plexiform layer in standard retinal histology.",
+        "C": "Incorrect. Müller cells are radial glial support cells spanning the retina's thickness, not synaptic partners in the outer plexiform layer, and rods themselves are presynaptic (not the two cell types the question asks to be paired).",
+        "D": "Incorrect per this source's own printed key, though horizontal and bipolar cells are the pairing most commonly taught for the outer plexiform layer — see the explanation for option A."
+      },
+      "main_concept": "CON-NEU-F36CFF0C0EDE27",
+      "concept_ids": [
+        "CON-NEU-F36CFF0C0EDE27"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Retina",
+      "subtopic": "Retinal layers",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 1,
+      "learning_objective": "State the source's own printed pairing for the outer plexiform layer's synapses, and recognise the standard horizontal-bipolar alternative.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p4 q11, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Doubt: the source's key (A, amacrine and bipolar) conflicts with standard retinal histology, which places amacrine-cell synapses in the INNER plexiform layer, and horizontal/bipolar synapses in the OUTER plexiform layer with photoreceptors. Printed key kept per LANE-CARD; doubt recorded here and in the concept's field_notes."
+    },
+    {
+      "key": "quiz3-q12",
+      "page": 4,
+      "title": "The exception among metabotropic receptors",
+      "question": "Which of the following isn't considered a metabotropic receptor?",
+      "options": {
+        "A": "GABA-B",
+        "B": "Muscarinic",
+        "C": "Dopaminergic",
+        "D": "5-HT3"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This IS a metabotropic (G-protein-coupled) receptor, so it is not the answer: GABA-B acts via second messengers, unlike the ionotropic GABA-A.",
+        "B": "This IS a metabotropic receptor, so it is not the answer: muscarinic acetylcholine receptors are G-protein-coupled, distinct from the ionotropic nicotinic receptors.",
+        "C": "This IS a metabotropic receptor, so it is not the answer: all dopamine receptor subtypes (D1-D5) are G-protein-coupled.",
+        "D": "Correct. 5-HT3 is the exception among common serotonin/monoamine receptor families. It is a ligand-gated cation channel (ionotropic), producing fast synaptic depolarisation directly, rather than acting through a G-protein cascade like GABA-B, muscarinic or dopaminergic receptors."
+      },
+      "main_concept": "CON-NEU-0D275EEC4304A9",
+      "concept_ids": [
+        "CON-NEU-0D275EEC4304A9"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Receptor pharmacology",
+      "subtopic": "Ionotropic vs metabotropic receptors",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify 5-HT3 as an ionotropic ligand-gated ion channel, the exception among GABA-B, muscarinic and dopaminergic (metabotropic) receptors.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p4 q12, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q13",
+      "page": 4,
+      "title": "Emergence of vagus nerve rootlets",
+      "question": "The rootlets of the vagus nerve emerge between:",
+      "options": {
+        "A": "Pyramid and olive",
+        "B": "Pyramid and pons",
+        "C": "Olive and inferior cerebellar peduncle",
+        "D": "Gracile and cuneate tubercles"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The groove between the pyramid and olive is the preolivary sulcus, the site of the HYPOGLOSSAL nerve's rootlet emergence, not the vagus.",
+        "B": "Incorrect. There is no rootlet emergence at a pyramid-pons junction as described; this does not correspond to a named cranial nerve exit point.",
+        "C": "Correct. The vagus nerve's rootlets, together with the glossopharyngeal and cranial-root accessory nerve rootlets, emerge from the medulla's postolivary sulcus. The groove between the olive anterolaterally and the inferior cerebellar peduncle posterolaterally.",
+        "D": "Incorrect. The gracile and cuneate tubercles are dorsal medullary surface landmarks overlying their respective nuclei, not the ventrolateral site of vagus nerve rootlet emergence."
+      },
+      "main_concept": "CON-NEU-71F37542DF2271",
+      "concept_ids": [
+        "CON-NEU-71F37542DF2271"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cranial nerves",
+      "subtopic": "Medullary rootlet emergence",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that vagus nerve rootlets emerge from the postolivary sulcus, between the olive and inferior cerebellar peduncle.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p4 q13, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q14",
+      "page": 4,
+      "title": "Cerebellar part concerned with balance",
+      "question": "The part of the cerebellum concerned with balance is:",
+      "options": {
+        "A": "Paleocerebellum",
+        "B": "Neocerebellum",
+        "C": "Flocculonodular",
+        "D": "Lateral zone area"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect per this source's own printed key. The paleocerebellum (anterior lobe/spinocerebellum) is instead concerned chiefly with muscle tone and posture from proprioceptive input, not balance specifically.",
+        "B": "Correct per this source's own printed key. Note: standard physiology teaching instead attributes balance specifically to the flocculonodular lobe (archicerebellum/vestibulocerebellum), given its direct vestibular nuclei connections, with the neocerebellum (posterior lobe/cerebrocerebellum) instead governing the planning and coordination of skilled voluntary movement via cortical connections — whose lesions classically produce dysdiadochokinesia and intention tremor rather than a primary balance deficit. This source's own answer table nonetheless marks B; see this concept's field_notes for the discrepancy.",
+        "C": "Incorrect per this source's own printed key, though the flocculonodular lobe is the structure most commonly taught as the balance-related cerebellar division — see the explanation for option B.",
+        "D": "Incorrect per this source's own printed key. \"Lateral zone area\" more closely corresponds to the cerebrocerebellum's own lateral hemispheres, again a movement-planning rather than balance role in standard teaching."
+      },
+      "main_concept": "CON-NEU-FEA19B26526A97",
+      "concept_ids": [
+        "CON-NEU-FEA19B26526A97"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cerebellum",
+      "subtopic": "Functional cerebellar divisions",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 1,
+      "learning_objective": "State this source's own printed answer for the cerebellar division concerned with balance, and recognise the standard flocculonodular-lobe alternative.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p4 q14, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Doubt: the source's key (B, neocerebellum) conflicts with standard physiology teaching, which attributes balance to the flocculonodular lobe/archicerebellum (option C) via its direct vestibular connections. Printed key kept per LANE-CARD; doubt recorded here and in the concept's field_notes."
+    },
+    {
+      "key": "quiz3-q15",
+      "page": 5,
+      "title": "Embryological origin of the muscles of the face",
+      "question": "What is the origin of the muscles of the face?",
+      "options": {
+        "A": "First arch",
+        "B": "Second arch",
+        "C": "Third arch",
+        "D": "Fourth arch"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The first (mandibular) arch instead gives the muscles of mastication, supplied by the trigeminal nerve, not the muscles of facial expression.",
+        "B": "Correct. The muscles of facial expression develop from the second (hyoid) pharyngeal arch, together with stapedius, stylohyoid and the posterior belly of digastric. All supplied by the facial nerve (CN VII), the arch's own nerve.",
+        "C": "Incorrect. The third arch gives stylopharyngeus, supplied by the glossopharyngeal nerve, not the muscles of facial expression.",
+        "D": "Incorrect. The fourth (and sixth) arches give the pharyngeal constrictors and laryngeal muscles, supplied by the vagus nerve, not the muscles of facial expression."
+      },
+      "main_concept": "CON-FND-7B75BAB3A4E6C6",
+      "concept_ids": [
+        "CON-FND-7B75BAB3A4E6C6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharyngeal arch embryology",
+      "subtopic": "Muscular derivatives of the arches",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the muscles of facial expression are second pharyngeal arch derivatives, supplied by the facial nerve.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p5 q15, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q16",
+      "page": 5,
+      "title": "The exception among corneal transparency factors",
+      "question": "Which of the following isn't related to the transparency of the cornea?",
+      "options": {
+        "A": "Few layers of epithelium",
+        "B": "Regular collagen fibers in lamellae",
+        "C": "Avascularity",
+        "D": "Different spaces between collagen fibers in lamellae"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This IS related to transparency, so it is not the answer: a thin, few-layered, non-keratinised epithelium supports corneal clarity.",
+        "B": "This IS related to transparency, so it is not the answer: regularly arranged, uniformly-spaced collagen fibrils in parallel lamellae minimise light scatter.",
+        "C": "This IS related to transparency, so it is not the answer: complete avascularity avoids the light-scattering and optical interference blood vessels would otherwise cause.",
+        "D": "Correct. This is the exception. Corneal transparency depends on REGULAR, evenly-spaced stromal collagen; UNEVEN or irregular spacing between fibrils, by contrast, scatters light and would impair rather than support transparency, making it the property the cornea must avoid rather than one contributing to clarity."
+      },
+      "main_concept": "CON-NEU-3FF95D30CD5825",
+      "concept_ids": [
+        "CON-NEU-3FF95D30CD5825"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cornea histology",
+      "subtopic": "Corneal transparency",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify regular, evenly-spaced stromal collagen (not irregular spacing) as supporting corneal transparency.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p5 q16, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q17",
+      "page": 5,
+      "title": "The exception among pain-control transmitters",
+      "question": "Which of the following isn't related to the transmitters in the pain control system?",
+      "options": {
+        "A": "Serotonin",
+        "B": "Acetylcholine",
+        "C": "Enkephalin",
+        "D": "Norepinephrine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This IS a descending pain-control transmitter, so it is not the answer: serotonin, released from raphe-nuclei projections, inhibits nociceptive transmission at the spinal level.",
+        "B": "Correct. Acetylcholine is not among the descending pain-control system's classic transmitters (serotonin, norepinephrine and enkephalin), distinguishing it from these three inhibitory pain-control mediators. Descending analgesia is instead a monoamine/opioid system, which is why antidepressants acting on serotonin and norepinephrine reuptake are sometimes used adjunctively for chronic pain.",
+        "C": "This IS a descending pain-control transmitter, so it is not the answer: enkephalin, an endogenous opioid released by dorsal-horn interneurons, presynaptically inhibits nociceptive afferent terminals.",
+        "D": "This IS a descending pain-control transmitter, so it is not the answer: norepinephrine, from locus-coeruleus-related pathways, also inhibits nociceptive transmission at the spinal level."
+      },
+      "main_concept": "CON-NEU-E37557E928EDC4",
+      "concept_ids": [
+        "CON-NEU-E37557E928EDC4"
+      ],
+      "contextual_concept_ids": [
+        "CON-NEU-04F9C773D465DB"
+      ],
+      "topic": "Pain physiology",
+      "subtopic": "Descending pain-control transmitters",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify serotonin, norepinephrine and enkephalin (not acetylcholine) as the classic descending pain-control transmitters.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p5 q17, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. contextual_concept_ids names the gate-theory concept (Quiz 2 Q25, CON-NEU-04F9C773D465DB) as the natural companion fact on the same descending pain-control system."
+    },
+    {
+      "key": "quiz3-q18",
+      "page": 5,
+      "title": "Nerve supplying upper lip sensation",
+      "question": "A 23-year-old male presents with abnormal sensation of the upper lip. Testing localises a lesion to which of the following nerves?",
+      "options": {
+        "A": "Ophthalmic",
+        "B": "Mandibular",
+        "C": "Maxillary",
+        "D": "Facial"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The ophthalmic division (V1) supplies the upper face and eye, not the upper lip.",
+        "B": "Incorrect. The mandibular division (V3) supplies the lower face, chin and lower lip, not the upper lip.",
+        "C": "Correct. The maxillary division of the trigeminal nerve (V2) supplies cutaneous and mucosal sensation to the mid-face, including the upper lip, via its infraorbital nerve branch. Distinct from V1 and V3's own separate territories, so an isolated upper-lip sensory lesion localises to V2.",
+        "D": "Incorrect. The facial nerve is predominantly motor (muscles of facial expression) with only a small sensory contribution (taste, external ear), not the nerve responsible for upper-lip cutaneous sensation."
+      },
+      "main_concept": "CON-NEU-C8E29E775C6856",
+      "concept_ids": [
+        "CON-NEU-C8E29E775C6856"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cranial nerves",
+      "subtopic": "Trigeminal nerve sensory territory",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Localise upper-lip sensory loss to the maxillary (V2) division of the trigeminal nerve.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p5 q18, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q19",
+      "page": 6,
+      "title": "Letter marking the auditory receptors",
+      "question": "Which of the following letters refers to the auditory receptors (figure)?",
+      "options": {
+        "A": "Point B",
+        "B": "Point F",
+        "C": "Point D",
+        "D": "Point A"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect per the source's own printed key; see explanation for option B for the underlying tested fact.",
+        "B": "Correct per the source's own printed key. Within the organ of Corti, resting on the basilar membrane, the inner and outer hair cells are the true auditory receptor (mechanotransducing) cells. Basilar membrane vibration deflects their stereocilia, generating a receptor potential relayed to the cochlear nerve, distinct from supporting cells (pillar cells, Deiters' cells) or the overlying tectorial membrane.",
+        "C": "Incorrect per the source's own printed key; see explanation for option B.",
+        "D": "Incorrect per the source's own printed key; see explanation for option B."
+      },
+      "main_concept": "CON-NEU-692F1F89993E0D",
+      "concept_ids": [
+        "CON-NEU-692F1F89993E0D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Organ of Corti",
+      "subtopic": "Auditory receptor cells",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the hair cells of the organ of Corti as the auditory receptor cells.",
+      "media_recommendations": "### histology plate · Question stem\nBrief: Cross-section of the organ of Corti with lettered structures A-F, pointer on the hair cells\nPurpose: This is a labelling item transcribed from the Workshop Quiz 3 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image the specific labelled point cannot be verified, though the underlying fact tested (hair cells are the auditory receptors) is standard and independent of the figure.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p6 q19, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Labelling item; the source's raw options remap answer-slots A-D to diagram points B/F/D/A — rewritten here as 'Point X' since the diagram itself is unavailable."
+    },
+    {
+      "key": "quiz3-q20",
+      "page": 6,
+      "title": "Letter marking the pillar cells",
+      "question": "Which of the following letters refers to the pillar cells (figure)?",
+      "options": {
+        "A": "Point B",
+        "B": "Point F",
+        "C": "Point E",
+        "D": "Point A"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct per the source's own printed key. The inner and outer pillar cells (rods of Corti) are rigid supporting cells whose bases and heads bound a triangular, fluid-filled space — the inner tunnel (tunnel of Corti). That separates the single row of inner hair cells from the three rows of outer hair cells, a structural role distinct from the hair cells' own mechanotransducing function.",
+        "B": "Incorrect per the source's own printed key; see explanation for option A.",
+        "C": "Incorrect per the source's own printed key; see explanation for option A.",
+        "D": "Incorrect per the source's own printed key; see explanation for option A."
+      },
+      "main_concept": "CON-NEU-C4B99D3AFFFA4C",
+      "concept_ids": [
+        "CON-NEU-C4B99D3AFFFA4C"
+      ],
+      "contextual_concept_ids": [
+        "CON-NEU-692F1F89993E0D"
+      ],
+      "topic": "Organ of Corti",
+      "subtopic": "Supporting cells of the organ of Corti",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that pillar cells form the boundaries of the inner tunnel of Corti, separating inner from outer hair cells.",
+      "media_recommendations": "### histology plate · Question stem\nBrief: Cross-section of the organ of Corti with lettered structures A-F, pointer on the pillar cells\nPurpose: This is a labelling item transcribed from the Workshop Quiz 3 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image the specific labelled point cannot be verified, though the underlying fact tested (pillar cells bound the tunnel of Corti) is standard and independent of the figure.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p6 q20, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Labelling item; the source's raw options remap answer-slots A-D to diagram points B/F/E/A — rewritten here as 'Point X' since the diagram itself is unavailable. contextual_concept_ids cross-links the companion Q19 hair-cell concept from the same figure."
+    },
+    {
+      "key": "quiz3-q21",
+      "page": 6,
+      "title": "The muscle spindle's innervation exclusion",
+      "question": "The muscle spindle is not innervated by:",
+      "options": {
+        "A": "A-alpha fibers",
+        "B": "A-gamma fibers",
+        "C": "Ia fibers",
+        "D": "II fibers"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A-alpha motor fibers innervate the EXTRAFUSAL muscle fibers outside the spindle capsule, not the spindle's own intrafusal fibers, so the muscle spindle itself receives no A-alpha innervation. This distinction matters clinically: a peripheral neuropathy affecting only large myelinated fibers can spare spindle sensory function while still weakening the muscle via alpha motor neuron loss.",
+        "B": "This IS a genuine spindle innervation, so it is not the answer: gamma efferent fibers innervate the spindle's intrafusal fibers.",
+        "C": "This IS a genuine spindle innervation, so it is not the answer: Ia (primary, annulospiral) afferents are the spindle's principal sensory fiber.",
+        "D": "This IS a genuine spindle innervation, so it is not the answer: group II (secondary, flower-spray) afferents are the spindle's other sensory fiber type."
+      },
+      "main_concept": "CON-NEU-B1FC4D58915F61",
+      "concept_ids": [
+        "CON-NEU-B1FC4D58915F61"
+      ],
+      "contextual_concept_ids": [
+        "CON-NEU-73E5C7B5AF963D"
+      ],
+      "topic": "Muscle spindle physiology",
+      "subtopic": "Muscle spindle innervation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the muscle spindle is innervated by gamma efferent, Ia and group II afferent fibers, but not by A-alpha fibers.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p6 q21, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q22",
+      "page": 6,
+      "title": "Parasympathetic nucleus supplying the lacrimal gland",
+      "question": "The parasympathetic nucleus supplying the lacrimal gland is:",
+      "options": {
+        "A": "Superior salivary",
+        "B": "Inferior salivary",
+        "C": "Edinger-Westphal",
+        "D": "Dorsal nucleus of vagus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect per this source's own printed key. Standard physiology teaching instead places lacrimal gland parasympathetic supply in the superior salivatory nucleus, whose fibers reach the gland via the facial nerve's greater petrosal nerve and the pterygopalatine ganglion.",
+        "B": "Incorrect. The inferior salivatory nucleus supplies the parotid gland via the glossopharyngeal nerve and otic ganglion, not the lacrimal gland.",
+        "C": "Incorrect. The Edinger-Westphal nucleus supplies the sphincter pupillae and ciliary muscle via the oculomotor nerve and ciliary ganglion, not the lacrimal gland.",
+        "D": "Correct per this source's own printed answer key. Note: the dorsal (motor) nucleus of the vagus is more standardly taught as supplying parasympathetic outflow to thoracic and abdominal viscera (heart, lungs, gut to the splenic flexure), with the superior salivatory nucleus (option A) instead being the nucleus most commonly attributed to lacrimal gland supply. This source's own answer table nonetheless marks D; see this concept's field_notes for the discrepancy."
+      },
+      "main_concept": "CON-NEU-4D96D26186D63D",
+      "concept_ids": [
+        "CON-NEU-4D96D26186D63D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic nervous system",
+      "subtopic": "Cranial parasympathetic nuclei",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 1,
+      "learning_objective": "State this source's own printed answer for the lacrimal gland's parasympathetic nucleus, and recognise the standard superior-salivatory-nucleus alternative.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p6 q22, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Doubt: the source's key (D, dorsal nucleus of vagus) conflicts with standard teaching, which attributes lacrimal gland parasympathetic supply to the superior salivatory nucleus (option A) via the greater petrosal nerve/pterygopalatine ganglion. Printed key kept per LANE-CARD; doubt recorded here and in the concept's field_notes."
+    },
+    {
+      "key": "quiz3-q23",
+      "page": 6,
+      "title": "Nucleus absent from thoracic spinal cord segments",
+      "question": "Which of the following nuclei isn't found in the thoracic segments?",
+      "options": {
+        "A": "Medial motor nucleus",
+        "B": "Sympathetic nucleus",
+        "C": "Clark's nucleus",
+        "D": "Lateral motor nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This IS found in thoracic segments, so it is not the answer: the medial motor nucleus (axial/trunk muscles) is present throughout the cord, including thoracic segments.",
+        "B": "This IS found in thoracic segments, so it is not the answer: the sympathetic (intermediolateral) nucleus occupies the lateral horn at T1-L2.",
+        "C": "This IS found in thoracic segments, so it is not the answer: Clark's (dorsal) nucleus, T1-L2, gives rise to the dorsal spinocerebellar tract.",
+        "D": "Correct. The lateral motor nucleus, supplying limb muscles, is concentrated in the cervical and lumbosacral enlargements (the segments innervating the upper and lower limbs) and is essentially absent from thoracic segments, which have no limb musculature to supply. This is why polio, which classically destroys anterior horn motor neurons, produces limb paralysis from cervical/lumbosacral involvement but spares limb movement when it strikes only thoracic segments."
+      },
+      "main_concept": "CON-NEU-B657A9987411BF",
+      "concept_ids": [
+        "CON-NEU-B657A9987411BF"
+      ],
+      "contextual_concept_ids": [
+        "CON-NEU-A32E7D804302CD"
+      ],
+      "topic": "Spinal cord",
+      "subtopic": "Thoracic cord grey matter nuclei",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the lateral (limb) motor nucleus is absent from thoracic spinal cord segments, unlike the medial motor, sympathetic and Clark's nuclei.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p6 q23, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. contextual_concept_ids names the sibling phrenic-nucleus-cervical concept (Quiz 1 Q30, CON-NEU-A32E7D804302CD) as the companion fact on which nuclei are/are not thoracic."
+    },
+    {
+      "key": "quiz3-q24",
+      "page": 7,
+      "title": "Foramen transmitting the middle meningeal vessels",
+      "question": "The middle meningeal vessels pass through which of the following skull foramina?",
+      "options": {
+        "A": "Ovale",
+        "B": "Spinosum",
+        "C": "Lacerum",
+        "D": "Rotundum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Foramen ovale transmits the mandibular nerve (V3), not the middle meningeal vessels.",
+        "B": "Correct. The middle meningeal artery and vein pass through the foramen spinosum, a small opening in the greater wing of the sphenoid posteromedial to foramen ovale. A fracture crossing the pterion, where the foramen spinosum's artery runs beneath thin bone, is the classic cause of an extradural (epidural) hematoma.",
+        "C": "Incorrect. Foramen lacerum is largely closed by cartilage in life, transmitting only small vessels, not the middle meningeal vessels.",
+        "D": "Incorrect. Foramen rotundum transmits the maxillary nerve (V2), not the middle meningeal vessels."
+      },
+      "main_concept": "CON-NEU-E52F57F2921C77",
+      "concept_ids": [
+        "CON-NEU-E52F57F2921C77"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Skull base",
+      "subtopic": "Skull base foramina",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the middle meningeal vessels pass through the foramen spinosum.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p7 q24, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q25",
+      "page": 7,
+      "title": "Co-activation of alpha and gamma motor neurons",
+      "question": "Co-activation of alpha and gamma motor neurons:",
+      "options": {
+        "A": "Increases gamma-motor neuron discharge whenever the activity of alpha motor neurons increases",
+        "B": "Is mediated by interneurons that link the alpha and gamma motor neurons",
+        "C": "Maintains the proprioceptive information to higher centers during contraction",
+        "D": "Increases the alpha-motor neuron discharge whenever the activity of gamma motor neurons increase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect per this source's own printed key, though this option's description of parallel alpha/gamma discharge is close to the standard textbook framing of co-activation.",
+        "B": "Incorrect. Co-activation reflects parallel central (descending) commands to both motor neuron pools, not a direct interneuronal link between the alpha and gamma pools themselves.",
+        "C": "Incorrect per this source's own printed key, though maintaining proprioceptive feedback to higher centers during contraction is the FUNCTIONAL PURPOSE most commonly cited for alpha-gamma co-activation.",
+        "D": "Correct per this source's own printed answer key. Note: the physiological process most commonly labelled 'co-activation' is that alpha and gamma motor neurons are driven together by parallel central commands, so gamma discharge rises alongside alpha discharge (not the reverse causal direction implied here). See this concept's field_notes for the fuller physiological definition, including the gamma-loop mechanism by which gamma bias can also modulate reflex alpha motor neuron discharge."
+      },
+      "main_concept": "CON-NEU-2227EB6D01FA4E",
+      "concept_ids": [
+        "CON-NEU-2227EB6D01FA4E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Muscle spindle physiology",
+      "subtopic": "Alpha-gamma co-activation",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State this source's own printed characterisation of alpha-gamma co-activation, and recognise the standard 'parallel discharge' framing.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p7 q25, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Doubt: the source's key (D) describes gamma discharge as driving alpha discharge, reversing the more standard framing (parallel central commands drive both, option A/C); it is defensible via the gamma-loop mechanism, by which elevated gamma bias can modulate reflex alpha motor neuron discharge. Printed key kept per LANE-CARD; doubt recorded here and in the concept's field_notes."
+    },
+    {
+      "key": "quiz3-q26",
+      "page": 7,
+      "title": "EEG rhythm of deep slow-wave sleep",
+      "question": "A low-frequency, high-amplitude, synchronized cortical rhythm occurs during:",
+      "options": {
+        "A": "Stage 1 & 2 slow-wave sleep",
+        "B": "Stage 3 & 4 slow-wave sleep",
+        "C": "REM sleep",
+        "D": "Narcolepsy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Stages 1-2 show a lower-amplitude, mixed-frequency pattern, not yet the high-amplitude delta activity of deep sleep.",
+        "B": "Correct. Sleep EEG progresses from stages 1-2's mixed-frequency pattern to the high-amplitude, low-frequency (delta) waves that define deep (stages 3-4) slow-wave sleep, reflecting large-scale synchronized cortical neuronal activity. This synchronized delta activity is the EEG hallmark used to stage deep sleep in a polysomnogram.",
+        "C": "Incorrect. REM sleep shows a desynchronized, low-amplitude, higher-frequency EEG pattern resembling wakefulness, despite behavioral unresponsiveness — the opposite pattern from deep slow-wave sleep.",
+        "D": "Incorrect. Narcolepsy is a sleep-wake regulation disorder (sudden intrusion of REM-like features into wakefulness), not itself a description of an EEG rhythm."
+      },
+      "main_concept": "CON-NEU-5DAF085BD06C12",
+      "concept_ids": [
+        "CON-NEU-5DAF085BD06C12"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sleep physiology",
+      "subtopic": "Sleep-stage EEG patterns",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that low-frequency, high-amplitude synchronized (delta) EEG activity characterises deep (stage 3-4) slow-wave sleep.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p7 q26, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q27",
+      "page": 7,
+      "title": "Embryological origin of the palatine tonsil",
+      "question": "What is the origin of the palatine tonsil?",
+      "options": {
+        "A": "First pouch",
+        "B": "Second arch",
+        "C": "Third pouch",
+        "D": "Second pouch"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The first pharyngeal pouch gives the tympanic cavity and auditory (Eustachian) tube, not the palatine tonsil.",
+        "B": "Incorrect. The palatine tonsil derives from a pharyngeal POUCH (endoderm), not the second arch (mesoderm-derived muscle/cartilage).",
+        "C": "Incorrect. The third pharyngeal pouch gives the inferior parathyroid gland and thymus, not the palatine tonsil.",
+        "D": "Correct. The palatine tonsil develops from the second pharyngeal pouch's endodermal lining, which is invaded by lymphoid tissue to form the tonsillar crypts and follicles. This lymphoid tissue, together with the lingual, pharyngeal and tubal tonsils, forms Waldeyer's ring around the pharynx."
+      },
+      "main_concept": "CON-FND-6741DFE8920A3E",
+      "concept_ids": [
+        "CON-FND-6741DFE8920A3E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharyngeal pouch embryology",
+      "subtopic": "Second pouch derivatives",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the palatine tonsil originates from the second pharyngeal pouch.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-ANATOMY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p7 q27, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Source lists options as '1-4' rather than lettered; option D corresponds to the source's fourth-listed choice ('second pouch')."
+    },
+    {
+      "key": "quiz3-q28",
+      "page": 8,
+      "title": "Letter marking the site of rhodopsin manufacture",
+      "question": "Which of the following letters refers to the site of manufacture of rhodopsin (figure)?",
+      "options": {
+        "A": "Point A",
+        "B": "Point B",
+        "C": "Point C",
+        "D": "Point D"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect per the source's own printed key; see explanation for option C for the underlying tested fact.",
+        "B": "Incorrect per the source's own printed key; see explanation for option C.",
+        "C": "Correct per the source's own printed key. Rod photoreceptor cells synthesize the visual pigment rhodopsin in their inner segment (rich in ribosomes, endoplasmic reticulum and Golgi apparatus), which is then transported to and incorporated into the membranous discs of the outer segment, where phototransduction actually occurs. Rhodopsin bleaching by light in the outer segment is what actually triggers phototransduction, so the two segments divide the labour of manufacture and light detection between them.",
+        "D": "Incorrect per the source's own printed key; see explanation for option C."
+      },
+      "main_concept": "CON-NEU-7F692A413D417D",
+      "concept_ids": [
+        "CON-NEU-7F692A413D417D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Retina",
+      "subtopic": "Rod photoreceptor structure",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that rhodopsin is manufactured in the rod cell's inner segment.",
+      "media_recommendations": "### histology plate · Question stem\nBrief: Diagram of a rod photoreceptor cell with lettered structures A-D (outer segment, inner segment, cell body, synaptic terminal), pointer on the rhodopsin manufacturing site\nPurpose: This is a labelling item transcribed from the Workshop Quiz 3 bank; the source figure it points to is not present anywhere in the corpus (a copied lecturer/atlas figure would not be rights-cleared to redistribute in any case). Without the image the specific labelled point cannot be verified, though the underlying fact tested (rhodopsin synthesis in the rod inner segment) is standard and independent of the figure.",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p8 q28, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. Labelling item; options rewritten as 'Point A-D' since the source's own diagram is unavailable."
+    },
+    {
+      "key": "quiz3-q29",
+      "page": 8,
+      "title": "The exception among factors increasing muscle spindle discharge",
+      "question": "Which of the following doesn't increase discharge from muscle spindles?",
+      "options": {
+        "A": "Increased alpha-motor neuron discharge",
+        "B": "Increased gamma-motor neuron discharge",
+        "C": "Stretch of the intrafusal muscle fibers",
+        "D": "Stretch of the extrafusal muscle fibers"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When alpha motor neuron discharge contracts the extrafusal fibers WITHOUT accompanying gamma drive, the muscle (and the spindle riding within it) shortens, slackening the spindle's intrafusal fibers and REDUCING, not increasing, spindle afferent discharge. The unloading phenomenon.",
+        "B": "This DOES increase spindle discharge, so it is not the answer: increased gamma discharge independently takes up intrafusal slack, increasing spindle sensitivity and firing.",
+        "C": "This DOES increase spindle discharge, so it is not the answer: direct stretch of the intrafusal fibers is exactly what the spindle's Ia/II afferents are designed to signal.",
+        "D": "This DOES increase spindle discharge, so it is not the answer: stretching the whole (extrafusal) muscle correspondingly stretches the spindle riding in parallel with it."
+      },
+      "main_concept": "CON-NEU-BBEB7A815C9E10",
+      "concept_ids": [
+        "CON-NEU-BBEB7A815C9E10"
+      ],
+      "contextual_concept_ids": [
+        "CON-NEU-2227EB6D01FA4E"
+      ],
+      "topic": "Muscle spindle physiology",
+      "subtopic": "Spindle unloading",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that isolated alpha motor neuron discharge unloads (reduces discharge from) the muscle spindle, unlike gamma discharge or muscle stretch.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p8 q29, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9. contextual_concept_ids names the sibling alpha-gamma-coactivation concept (Q25) as the companion mechanism that normally prevents this unloading during active contraction."
+    },
+    {
+      "key": "quiz3-q30",
+      "page": 8,
+      "title": "The exception in the cerebellar cortex molecular layer",
+      "question": "Which of the following isn't found in the molecular layer of the cerebellar cortex?",
+      "options": {
+        "A": "Stellate cells",
+        "B": "Dendrites of granule cells",
+        "C": "Purkinje dendrites",
+        "D": "Dendrites of Golgi cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This IS found in the molecular layer, so it is not the answer: stellate cell bodies and processes reside in the molecular layer.",
+        "B": "Correct. Granule cell DENDRITES remain confined to the granular layer, where they synapse with incoming mossy fibers within cerebellar glomeruli; it is the granule cell's own T-shaped AXONS (the parallel fibers) that ascend into and run through the molecular layer, not their dendrites. This distinction is a classic source of confusion, since both structures belong to the same granule cell but occupy different cerebellar cortex layers.",
+        "C": "This IS found in the molecular layer, so it is not the answer: Purkinje cell dendritic trees fan out extensively through the molecular layer.",
+        "D": "This IS found in the molecular layer, so it is not the answer: Golgi cell dendrites extend up into the molecular layer to receive parallel fiber input."
+      },
+      "main_concept": "CON-NEU-66D3236FE5D418",
+      "concept_ids": [
+        "CON-NEU-66D3236FE5D418"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cerebellar cortex histology",
+      "subtopic": "Cerebellar cortex layers",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that granule cell dendrites (unlike their parallel-fiber axons) are confined to the granular layer, absent from the molecular layer.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p8 q30, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    },
+    {
+      "key": "quiz3-q31",
+      "page": 8,
+      "title": "Rods vs cones — low-intensity light sensitivity",
+      "question": "When compared with the cones of the retina, the rods:",
+      "options": {
+        "A": "Are more sensitive to low-intensity light",
+        "B": "Adapt to darkness before the cones",
+        "C": "Are most highly concentrated on the fovea",
+        "D": "Are primarily involved in color vision"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Rods have a lower threshold and higher amplification (via their phototransduction cascade and greater convergence onto bipolar/ganglion cells) than cones, making them far more sensitive to low-intensity (scotopic, dim-light/night) vision. This greater sensitivity comes at the cost of spatial resolution, since many rods converge onto a single ganglion cell, unlike the near one-to-one wiring of foveal cones.",
+        "B": "Incorrect — reversed. Cones adapt to darkness FIRST (over a few minutes) and reach a plateau, after which rods continue adapting more slowly to reach an even lower final threshold; rods do not adapt before cones.",
+        "C": "Incorrect. Cones, not rods, are most highly concentrated at the fovea; rods are instead concentrated in the peripheral retina.",
+        "D": "Incorrect. Cones, not rods, mediate color vision; rods are monochromatic (scotopic) receptors."
+      },
+      "main_concept": "CON-NEU-55EE0FE338FC7A",
+      "concept_ids": [
+        "CON-NEU-55EE0FE338FC7A"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Retina",
+      "subtopic": "Rod vs cone physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that rods, not cones, are more sensitive to low-intensity light.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "source_citation": "AU-MED-203 Workshop Quiz 3, p8 q31, answer table p9",
+      "field_notes": {},
+      "author_notes": "keySource: printed answer table p9."
+    }
+  ]
+}

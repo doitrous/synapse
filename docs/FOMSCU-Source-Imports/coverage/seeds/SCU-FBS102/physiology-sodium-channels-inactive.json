@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-sodium-channels-inactive",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-sodium-channels-inactive'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "neuro",
+    "module_subject": "SCU-FBS102 > Physiology > Nerve and Muscle Physiology > Action Potential"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-SODIUM-CHANNELS-INACTIVE",
+      "key": "physiology-sodium-channels-inactive",
+      "title": "Sodium channel inactivation underlies the absolute refractory period",
+      "subject": "neuro",
+      "module_subject": "SCU-FBS102 > Physiology > Nerve and Muscle Physiology > Action Potential",
+      "question": "The absolute refractory period of an action potential occurs primarily because of which specific ion channel mechanism?",
+      "options": {
+        "A": "Potassium channels are successfully inactivated",
+        "B": "Voltage-gated sodium channels are inactivated",
+        "C": "Sodium channels are only partially active",
+        "D": "Potassium channels are completely, partially active"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. It is sodium channels, not potassium channels, whose inactivated state underlies the absolute refractory period; potassium channels are, if anything, still open and contributing to repolarization at this time.",
+        "B": "Correct. During and immediately after depolarization, the great majority of voltage-gated sodium channels sit in the inactivated state, in which their inactivation gate blocks the pore regardless of voltage, so no stimulus, however strong, can trigger a second action potential until enough channels have returned to the closed, activatable state. Only once enough sodium channels have returned from inactivated to the closed, resting state does excitability begin to recover.",
+        "C": "Incorrect. Describing sodium channels as merely 'partially active' understates the mechanism; during the absolute refractory period they are specifically inactivated (unavailable), not simply reduced in activity.",
+        "D": "Incorrect. Potassium channel state is not what defines the absolute refractory period; the defining, rate-limiting event is sodium channel inactivation."
+      },
+      "topic": "Physiology",
+      "subtopic": "Nerve physiology: the action potential",
+      "main_concept": "CON-NEU-82201BA24E2CE0",
+      "concept_ids": [
+        "CON-NEU-82201BA24E2CE0"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-ACTION-POTENTIAL-IONIC-BASIS"
+      ],
+      "learning_objective": "State that the absolute refractory period is caused by voltage-gated sodium channels sitting in the inactivated state, making them unavailable to reopen regardless of stimulus strength.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q57, Formative and Past Exams 2022 Q37",
+      "author_notes": ""
+    }
+  ]
+}

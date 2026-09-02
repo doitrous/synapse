@@ -13,6 +13,7 @@ const GATES = {
 };
 const MAX_ERR_LINES = 5;
 const MAX_ERR_CHARS = 200;
+const MAX_TAIL_LINES = 8;
 
 function stamp() {
   const d = new Date();
@@ -22,9 +23,10 @@ function stamp() {
 
 function usage(code = 2) {
   console.log(`usage:
-  node scripts/content/gate.mjs batch <batch.md> [--with <sibling.md> ...]
+  node scripts/content/gate.mjs batch <batch.md> [--with <sibling.md>] [--with <sibling.md>] ...
   node scripts/content/gate.mjs simulate <batch.md> [<batch.md> ...] [--emit <out.json>]
-  node scripts/content/gate.mjs audit --source <emit.json> [--ids <regex>]`);
+  node scripts/content/gate.mjs audit --source <emit.json> [--ids <regex>]
+  (--with takes ONE file; repeat it per sibling — a space-separated list or an unquoted $var is rejected by the validator)`);
   process.exit(code);
 }
 
@@ -39,6 +41,20 @@ function errorLines(errors) {
   return (errors ?? []).slice(0, MAX_ERR_LINES).map((e) => {
     const s = typeof e === 'string' ? e : JSON.stringify(e);
     return '  - ' + (s.length > MAX_ERR_CHARS ? s.slice(0, MAX_ERR_CHARS - 1) + '…' : s);
+  });
+}
+
+// The last few lines of whatever the child wrote, so a crash before JSON is
+// still legible without opening the full log. Stack frames and Node's version
+// footer are dropped first: an uncaught throw prints its message ABOVE six or
+// more frames, so a plain tail showed the frames and lost the one line that
+// says what went wrong.
+function tailLines(text, label) {
+  if (!text || !text.trim()) return [];
+  const kept = text.trim().split('\n').filter((l) => !/^\s+at\s/.test(l) && !/^Node\.js v\d/.test(l));
+  return kept.slice(-MAX_TAIL_LINES).map((l) => {
+    const s = l.length > MAX_ERR_CHARS ? l.slice(0, MAX_ERR_CHARS - 1) + '…' : l;
+    return `  [${label}] ${s}`;
   });
 }
 
@@ -61,6 +77,17 @@ if (sub === 'simulate' && rest.includes('--with')) {
   process.exit(2);
 }
 if (sub === 'audit' && !rest.includes('--source')) usage();
+if (sub === 'batch') {
+  // Same shape the validator enforces after us — checked here so a shell
+  // mistake (space-separated `--with a b`, or an unquoted $var) fails before
+  // we even spawn, instead of surfacing as a confusing null-JSON crash.
+  const tail = rest.slice(1);
+  for (let i = 0; i < tail.length; i++) {
+    if (tail[i] === '--with') { i++; continue; }
+    console.log(`error: unexpected argument "${tail[i]}" after the batch path — --with takes ONE file; repeat it per sibling (--with a.md --with b.md), not a space-separated list or an unquoted $var.`);
+    process.exit(2);
+  }
+}
 
 let idsFilter = null;
 if (sub === 'audit') {
@@ -74,6 +101,21 @@ const logFile = path.join('.gates', `${sub}-${stamp()}.json`);
 writeFileSync(logFile, (r.stdout ?? '') + (r.stderr ? `\n/* stderr */\n${r.stderr}` : ''));
 
 const j = parseJson(r.stdout ?? '');
+
+// No JSON on stdout means the validator did not complete — an arg-parsing
+// throw, an ENOENT, whatever. Reporting "errors=0" here is exactly the lie
+// that hid 37 real errors on a real batch: say so plainly instead, and never
+// exit 0.
+if (!j) {
+  const code = r.status ?? r.signal ?? 'unknown';
+  console.log(`GATE ${sub} FAILED: validator did not complete (exit ${code}, no JSON on stdout) — result is NOT trustworthy`);
+  const tail = tailLines(r.stderr, 'stderr');
+  for (const l of (tail.length ? tail : tailLines(r.stdout, 'stdout'))) console.log(l);
+  if (!tail.length && !(r.stdout ?? '').trim()) console.log('  (no stderr or stdout captured)');
+  console.log(`full log: ${logFile}`);
+  process.exit(Number.isInteger(r.status) && r.status !== 0 ? r.status : 1);
+}
+
 let errors = j?.errors ?? [];
 let head;
 if (sub === 'batch') {
@@ -96,6 +138,5 @@ if (sub === 'batch') {
 
 console.log(head);
 for (const l of errorLines(errors)) console.log(l);
-if (!j) console.log('  (gate printed no JSON — read the full log)');
 console.log(`full log: ${logFile}`);
 process.exit(r.status && r.status !== 0 ? r.status : errors.length ? 1 : 0);

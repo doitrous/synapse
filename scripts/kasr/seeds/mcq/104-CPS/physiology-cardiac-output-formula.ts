@@ -73,6 +73,38 @@ export const LEAF: McqLeafSeed = {
       type: 'mechanism',
       aliases: ['Sympathetic effects on the heart', 'Cardiac-side signature of sympathetic stimulation'],
     },
+    {
+      // Fresh mint, run43. find-existing.mjs "left ventricle right ventricle
+      // systolic pressure afterload wall thickness work" -> no matching
+      // record. Grepped 104-CPS-physiology-concepts.md, -mcq-concepts.md and
+      // every seed file for "thicker wall", "afterload" + "work": the only
+      // hits are (1) cardiovascular-heart-gross-anatomy.ts's own
+      // heart.external-features concept, which states the ~3x wall-thickness
+      // ratio as one clause inside a broad positional/structural anatomy
+      // concept (base/apex/borders) without the pressure/work reasoning this
+      // leaf's own bank rows test, and (2) a single distractor sentence in
+      // physiology-circulatory-control-hemorrhagic-shock.ts ("left
+      // ventricular work rises directly with the pressure (afterload) the
+      // ventricle must eject against") that is not itself a dedicated
+      // concept. Neither is a duplicate of the causal chain this concept
+      // states (differing ventricular afterload -> differing systolic
+      // pressure and work -> differing wall thickness), so minted fresh
+      // rather than reused.
+      key: 'ventricular-afterload.rv-vs-lv-systolic-pressure-work-and-wall-thickness',
+      label: 'Left ventricular systolic pressure (~120-130 mmHg, against systemic afterload) is roughly five times right ventricular systolic pressure (~25 mmHg, against pulmonary afterload); the left ventricle therefore performs more work per beat and hypertrophies a proportionally thicker wall',
+      definition: "The right and left ventricles eject the same stroke volume in series, but against very different loads. The right ventricle ejects into the low-resistance pulmonary circulation, so its normal systolic pressure is only about 25 mmHg (typically cited in the 15-30 mmHg range); the left ventricle ejects into the high-resistance systemic circulation, so its normal systolic pressure is roughly 120-130 mmHg, some five to six times higher. Because cardiac work per beat is proportional to the pressure a ventricle must generate (afterload) multiplied by the volume it ejects, and the two ventricles eject essentially equal stroke volumes, the left ventricle's far higher afterload means it performs substantially more work per beat than the right. Over time this greater habitual workload is the causal driver of the left ventricle's thicker wall (roughly three times the right ventricle's) — the wall thickness is a structural adaptation (hypertrophy) to the higher pressure-work, not an independent cause of it.",
+      objective: "State the approximate normal systolic pressures of the right ventricle (~25 mmHg) and left ventricle (~120-130 mmHg), and explain that the left ventricle's greater afterload is what causes it to perform more work per beat and to hypertrophy a thicker wall, rather than wall thickness being the primary cause.",
+      pitfall: "Treating the left ventricle's thicker wall as the reason it does more work, reversing cause and effect. The higher systemic afterload is the cause: it is what makes the left ventricle perform more work per beat in the first place, and the thicker wall is the ventricle's structural adaptation to that chronic extra workload, not the other way around.",
+      subject: 'cvs',
+      primary: 'DIS-PHY-T02',
+      secondary: [],
+      modulePath: '104 CPS > Physiology > Cardiovascular System > Cardiac Function',
+      type: 'mechanism',
+      aliases: ['RV vs LV systolic pressure', 'Left ventricular afterload and work', 'Why the left ventricle is thicker'],
+      conflicts: [
+        "The ~3x wall-thickness ratio is also stated, without the pressure/work causal reasoning, inside cardiovascular-heart-gross-anatomy.ts's own heart.external-features concept (a broad positional/structural anatomy concept, different subject_id DIS-ANA-T04 vs this concept's DIS-PHY-T02). Not merged: the two concepts teach the same numeric ratio for different pedagogical purposes (gross anatomy vs cardiac physiology) and build-batches.ts's cross-leaf merge only unifies concepts sharing an identical key, which these do not.",
+      ],
+    },
   ],
 
   questions: [
@@ -304,6 +336,83 @@ export const LEAF: McqLeafSeed = {
         B: 'The standard MAP approximation (diastolic + one-third pulse pressure) gives 70 + (1/3)(52) = roughly 87 mmHg from this data, not 94 mmHg as this option states.',
         C: 'The standard TPR calculation ((MAP - CVP) / CO) does not yield approximately 40 resistance units from this data using the standard MAP approximation and the given cardiac output.',
         D: 'Correct. Stroke volume equals cardiac output divided by heart rate: 5000 mL/min / 100 beats/min = 50 mL, exactly matching this option — a direct rearrangement of CO = SV x HR.',
+      },
+    },
+
+    // --- run43: 6 of the Cardiac Function cluster's 12 remaining ---
+    {
+      key: 'cardiac-output-is-17967bd3',
+      conceptKey: 'cardiac-output.definition-formula-and-index',
+      difficulty: 'Easy',
+      questionType: 'Definition',
+      learningObjective: 'State the formula CO = stroke volume x heart rate as the correct definition of cardiac output.',
+      explanations: {
+        A: 'Blood moving into the aorta each minute is close to the concept of cardiac output but does not itself state the formula the question is testing (stroke volume x beats per minute); it also describes left-ventricular output alone, not "the amount of blood ejected from a ventricle" generically.',
+        B: 'Correct. Cardiac output is the amount of blood ejected from a ventricle in each systole (stroke volume) multiplied by the number of beats per minute (heart rate): CO = SV x HR.',
+        C: 'The amount of blood ejected from BOTH ventricles in one systole double-counts what a single ventricle ejects (the two ventricles in series eject essentially equal stroke volumes) and, like the other wrong options, omits the per-minute (heart-rate) component entirely.',
+        D: 'The amount of blood ejected from the left ventricle in one systole is stroke volume, a per-beat quantity — cardiac output additionally requires multiplying by heart rate to reach a per-minute quantity.',
+      },
+    },
+    {
+      key: 'what-s-the-correct-definition-of-cardiac-output-f23eae83',
+      conceptKey: 'cardiac-output.definition-formula-and-index',
+      difficulty: 'Easy',
+      questionType: 'Definition',
+      learningObjective: 'State the formula CO = stroke volume x heart rate as the correct definition of cardiac output.',
+      explanations: {
+        A: 'The amount of blood delivered through both venae cavae per minute describes venous return, which equals cardiac output only at haemodynamic steady state — it is not the definition of cardiac output itself.',
+        B: 'Correct. Cardiac output is the amount of blood ejected from a ventricle in each systole (stroke volume) multiplied by the number of beats per minute (heart rate): CO = SV x HR.',
+        C: 'The amount of blood ejected from both ventricles in one systole describes a single beat\'s total output, missing the essential "per minute" (heart-rate) component of the true definition.',
+        D: 'The amount of blood ejected from the left ventricle in one systole is stroke volume, a per-beat quantity, not cardiac output\'s per-minute quantity.',
+      },
+    },
+    {
+      key: 'systolic-pressure-in-right-ventricle-is-84464eed',
+      conceptKey: 'ventricular-afterload.rv-vs-lv-systolic-pressure-work-and-wall-thickness',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 options survived extraction (A 35 mmHg, B 25 mmHg, C 15 mmHg) — no D — below the platform's 4-to-5-option import contract ('N options — the contract is 4 to 5'). Keyed editorially with no printed key. The credited fact (normal RV systolic pressure ~25 mmHg, roughly one-fifth of LV systolic pressure) is already taught by this file's own sibling the-systolic-pressure-in-the-left-ventricle-is-c234e41a question and this concept's own definition, so no teaching content is lost.",
+    },
+    {
+      key: 'the-left-ventricle-has-a-thicker-wall-than-the-right-ventric-466aa2d9',
+      conceptKey: 'ventricular-afterload.rv-vs-lv-systolic-pressure-work-and-wall-thickness',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that the left ventricle\'s thicker wall is caused by it ejecting against a higher pressure (afterload) than the right ventricle, not by blood supply, orifice size or output volume.',
+      explanations: {
+        A: 'A richer blood supply is not the reason for a thicker wall; a thicker, harder-working muscle needs more perfusion as a consequence of its greater workload, not as the cause of that thickness.',
+        B: 'The left ventricle does not eject through a narrower orifice than the right; aortic and pulmonary valve orifices are comparable in size, so orifice narrowing is not what drives the wall-thickness difference.',
+        C: 'The left and right ventricles eject essentially equal stroke volumes in series at steady state, so a greater cardiac output is not the left ventricle\'s distinguishing feature or the reason for its thicker wall.',
+        D: 'Correct. The left ventricle ejects against systemic arterial pressure (~120-130 mmHg), roughly five to six times the right ventricle\'s pulmonary afterload (~25 mmHg); this higher afterload is the causal driver of greater workload, and the thicker wall is the structural (hypertrophic) adaptation to that chronic extra work.',
+      },
+    },
+    {
+      key: 'the-systolic-pressure-in-the-left-ventricle-is-c234e41a',
+      conceptKey: 'ventricular-afterload.rv-vs-lv-systolic-pressure-work-and-wall-thickness',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that normal left ventricular systolic pressure is approximately 120-130 mmHg, matching systemic arterial systolic pressure.',
+      explanations: {
+        A: 'Correct. Normal left ventricular systolic pressure is approximately 120-130 mmHg, matching the systemic arterial systolic pressure it must generate to eject blood into the aorta — roughly five to six times the right ventricle\'s pulmonary systolic pressure.',
+        B: '110 mmHg understates normal left ventricular systolic pressure, which needs to at least match systemic arterial systolic pressure for the aortic valve to open and ejection to occur.',
+        C: '150 mmHg overstates normal resting left ventricular systolic pressure; a value this high would suggest hypertension rather than a normal resting figure.',
+        D: '80 mmHg is close to normal systemic diastolic pressure, not left ventricular systolic pressure — the ventricle must exceed aortic diastolic pressure substantially before the aortic valve opens at all.',
+      },
+    },
+    {
+      key: 'the-work-performed-by-left-ventricle-is-greater-than-that-pe-eec8e8ca',
+      conceptKey: 'ventricular-afterload.rv-vs-lv-systolic-pressure-work-and-wall-thickness',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that the left ventricle\'s greater work, relative to the right ventricle\'s, is caused by its greater afterload, not by wall thickness, stroke volume or preload.',
+      explanations: {
+        A: 'Wall thickness is a structural adaptation resulting from the left ventricle\'s greater workload over time, not the cause of that greater work — reasoning from wall thickness reverses cause and effect.',
+        B: 'In series circulation, right and left ventricular stroke volumes are essentially equal at steady state, so a greater stroke volume does not explain the work difference between the two ventricles.',
+        C: 'Preload (end-diastolic volume, filling) is similar for both ventricles in a normal series circulation and is not the source of the work disparity between them.',
+        D: 'Correct. Cardiac work per beat is proportional to afterload (the pressure the ventricle must generate) multiplied by the volume ejected; since stroke volumes are essentially equal, the left ventricle\'s far higher afterload — systemic arterial pressure, roughly five to six times the right ventricle\'s pulmonary arterial pressure — is what makes its work per beat greater.',
       },
     },
   ],

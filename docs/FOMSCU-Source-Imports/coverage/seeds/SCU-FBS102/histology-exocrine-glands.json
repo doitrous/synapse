@@ -1,0 +1,63 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "histology-exocrine-glands",
+  "header": "SCU-FBS102 S2 minting lane 4 (scu-fbs102-author4) — cluster 'histology-exocrine-glands'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Histology > Glandular Epithelium"
+  },
+  "questions": [
+    {
+      "key": "histology-exocrine-glands",
+      "id": "QST-SCUFBS102-S2-PENDING-HISTOLOGY-EXOCRINE-GLANDS",
+      "title": "Gland type where myoepithelial cells occur",
+      "question": "Myoepithelial cells are mainly present in which of the following types of glands?",
+      "options": {
+        "A": "Endocrine glands",
+        "B": "Apocrine glands",
+        "C": "Merocrine glands",
+        "D": "Exocrine glands"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Endocrine glands secrete hormones directly into the bloodstream and have no duct system to squeeze secretion through, so they have no myoepithelial cells.",
+        "B": "Incorrect. Apocrine is a mode of secretion (part of the cell's apex pinches off), not a distinct gland category from exocrine — myoepithelial cells belong to the broader exocrine class regardless of secretion mode.",
+        "C": "Incorrect. Merocrine (eccrine) is also a secretion mode, seen in glands such as the pancreas and salivary glands, again a subtype of exocrine rather than an alternative to it.",
+        "D": "Correct. Myo-epithelial cells are a special, contractile epithelium found basally — between the base of the secretory cells and their basement membrane — around the acini of exocrine glands: the salivary glands, mammary glands and sweat glands. When they contract they squeeze the secretory cells so their product is discharged into the duct, a mechanism exocrine glands need to move secretion along a duct system that endocrine glands, having no ducts, do not."
+      },
+      "topic": "Histology",
+      "subtopic": "Glandular epithelium: myoepithelial cells",
+      "main_concept": "CON-FND-38ABCC4E4E4E68",
+      "concept_ids": ["CON-FND-38ABCC4E4E4E68"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.2,
+      "reasoning_level": 1,
+      "inferred_difficulty": 60,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "library_ids": ["ART-101-HIS-MYO-EPITHELIUM"],
+      "learning_objective": "State that myoepithelial cells occur around the acini of exocrine glands (salivary, mammary, sweat), not endocrine glands.",
+      "source_citation": "FOMSCU Foundation 1, EOY Final 2026 Q30",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOY Final 2026 Q30; source-JSON extraction.",
+        "reclassification": "find-existing.mjs's multi-word query 'myoepithelial cells exocrine glands' returned no existing record. A direct grep for 'myoepithelial' inside docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md found CON-FND-38ABCC4E4E4E68, whose own definition names the salivary, mammary and sweat glands (all exocrine) as the sites. Overlaid rather than minted twin. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md."
+      }
+    }
+  ]
+}

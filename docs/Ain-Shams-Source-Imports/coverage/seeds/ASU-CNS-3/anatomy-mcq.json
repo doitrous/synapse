@@ -1,0 +1,2593 @@
+{
+  "lane": "ASU-CNS3",
+  "cluster": "anatomy-mcq",
+  "header": "ASU-CNS-3 · Anatomy — authored from the EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf compilation (81 items collapsed to 60 distinct facts), keys read as printed (embedded answer/topic before the stem); distractors authored by this lane.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y3"
+    ],
+    "module": "ASU-CNS-3",
+    "module_subject": "ASU-CNS-3 > Anatomy",
+    "exam_weight_by_year": {
+      "ASU_Y3": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_50e46fe0f115d4513256"
+    ],
+    "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q{page}. Undated compilation.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "anatomy-mcq-q01",
+      "id": "QST-ASUCNS3-ANATOMY-Q01",
+      "page": 1,
+      "title": "Which descending tract mediates reflex head turning toward a visual stimulus?",
+      "question": "Which descending tract mediates reflex head turning toward a visual stimulus?",
+      "options": {
+        "A": "Rubrospinal tract",
+        "B": "Tectospinal tract",
+        "C": "Vestibulospinal tract",
+        "D": "Corticospinal tract"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The rubrospinal tract, from the red nucleus, facilitates flexor tone in the upper limb; it is not the tract responsible for reflex head/eye turning toward a visual stimulus.",
+        "B": "Correct. The tectospinal tract arises from the superior colliculus, decussates in the midbrain at the level of origin (dorsal tegmental decussation), and descends to cervical cord levels to turn the head and neck reflexly toward a sudden visual stimulus. This crossing point, right at the level of origin, distinguishes it from tracts that decussate lower in the brainstem or spinal cord.",
+        "C": "Incorrect. The vestibulospinal tracts adjust axial and limb extensor tone for balance in response to vestibular (head-position) input, not visual input.",
+        "D": "Incorrect. The corticospinal tract carries voluntary skilled movement commands from the motor cortex; it does not mediate the involuntary head-turning reflex to a visual stimulus."
+      },
+      "main_concept": "CON-NEU-56E36A5FE0095F",
+      "concept_ids": [
+        "CON-NEU-56E36A5FE0095F"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-TECTOSPINAL-TRACT-VISUAL-REFLEX"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Descending motor tracts",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the tectospinal tract as the pathway for reflex head turning toward a visual stimulus and locate its decussation.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q1.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q1",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q1"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q02",
+      "id": "QST-ASUCNS3-ANATOMY-Q02",
+      "page": 2,
+      "title": "Paralysis of sternocleidomastoid points to a lesion of which nerve?",
+      "question": "Paralysis of sternocleidomastoid points to a lesion of which nerve?",
+      "options": {
+        "A": "Cervical plexus (ansa cervicalis)",
+        "B": "Facial nerve",
+        "C": "Spinal part of the accessory nerve",
+        "D": "Hypoglossal nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The ansa cervicalis supplies the infrahyoid strap muscles, not sternocleidomastoid.",
+        "B": "Incorrect. The facial nerve supplies the muscles of facial expression and, via a small branch, posterior digastric and stylohyoid — not sternocleidomastoid.",
+        "C": "Correct. Sternocleidomastoid (and trapezius) receive their sole motor supply from the spinal root of the accessory nerve, which arises from upper cervical cord segments, ascends through the foramen magnum, and exits via the jugular foramen; its injury paralyses sternomastoid. Because the same nerve also supplies trapezius, a lesion classically produces shoulder droop and winging alongside the head-turning weakness.",
+        "D": "Incorrect. The hypoglossal nerve is the motor nerve of the tongue (except palatoglossus); it has no role in sternocleidomastoid function."
+      },
+      "main_concept": "CON-NEU-B244F33E100935",
+      "concept_ids": [
+        "CON-NEU-B244F33E100935"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-ACCESSORY-NERVE-STERNOMASTOID-SUPPLY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cranial nerve motor supply",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the spinal accessory nerve as the motor supply to sternocleidomastoid.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q2.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q2",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q2"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q03",
+      "id": "QST-ASUCNS3-ANATOMY-Q03",
+      "page": 3,
+      "title": "Infection from the face reaches the cavernous sinus most directly through which vein?",
+      "question": "Infection from the face reaches the cavernous sinus most directly through which vein?",
+      "options": {
+        "A": "External jugular vein",
+        "B": "Superior ophthalmic vein",
+        "C": "Retromandibular vein",
+        "D": "Pterygoid venous plexus alone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The external jugular vein drains the scalp and superficial face to the subclavian vein; it has no direct communication with the cavernous sinus.",
+        "B": "Correct. The superior ophthalmic vein connects the valveless facial vein anteriorly to the cavernous sinus posteriorly, so infection in the 'danger area' of the face (nose, upper lip) can spread retrogradely through it to cause cavernous sinus thrombosis. This is why squeezing a pimple in the 'danger triangle' of the face carries a real, if rare, risk of intracranial spread.",
+        "C": "Incorrect. The retromandibular vein drains the parotid region into the external and internal jugular systems; it is not the principal route from facial infection to the cavernous sinus.",
+        "D": "Incorrect. The pterygoid venous plexus does communicate with the cavernous sinus via emissary veins, but the superior ophthalmic vein is the classic, direct route tested for facial-infection spread."
+      },
+      "main_concept": "CON-NEU-FDD7E02151EE57",
+      "concept_ids": [
+        "CON-NEU-FDD7E02151EE57"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-SUPERIOR-OPHTHALMIC-VEIN-CAVERNOUS-SINUS-ROUTE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous drainage of the face and orbit",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Explain how facial infection can spread to the cavernous sinus via the superior ophthalmic vein.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q3.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q3",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q3"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q04",
+      "id": "QST-ASUCNS3-ANATOMY-Q04",
+      "page": 4,
+      "title": "The inferior alveolar nerve is a branch of which division of the mandibular nerve?",
+      "question": "The inferior alveolar nerve is a branch of which division of the mandibular nerve?",
+      "options": {
+        "A": "Anterior division",
+        "B": "Posterior division",
+        "C": "Ophthalmic division",
+        "D": "Maxillary division"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The anterior division of the mandibular nerve is mainly motor (masseteric, deep temporal, lateral pterygoid nerves) plus the sensory buccal nerve; it does not give the inferior alveolar nerve.",
+        "B": "Correct. The inferior alveolar nerve branches from the posterior division of the mandibular nerve, and before entering the mandibular canal it gives the motor nerve to mylohyoid and the anterior belly of digastric. Recognising this origin explains why an inferior alveolar nerve block also numbs the ipsilateral chin skin territory the nerve supplies.",
+        "C": "Incorrect. The ophthalmic nerve (V1) is an entirely separate trigeminal division supplying the orbit, forehead and nose; it has no relation to the inferior alveolar nerve.",
+        "D": "Incorrect. The maxillary nerve (V2) is a separate trigeminal division supplying the midface; the inferior alveolar nerve belongs to the mandibular (V3), not maxillary, division."
+      },
+      "main_concept": "CON-NEU-039920144AF3A5",
+      "concept_ids": [
+        "CON-NEU-039920144AF3A5"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-INFERIOR-ALVEOLAR-NERVE-MOTOR-DIVISION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Trigeminal nerve and infratemporal region",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Trace the inferior alveolar nerve to the posterior division of the mandibular nerve.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q4/53.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q4/53",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q4/53",
+        "collapsedFrom": "Q4, Q53 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q53",
+      "hold": "collapsed into anatomy-mcq-q04 — same fact, within-file duplicate (see concept CON-NEU-039920144AF3A5 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q05",
+      "id": "QST-ASUCNS3-ANATOMY-Q05",
+      "page": 5,
+      "title": "Postganglionic parasympathetic fibres reach the lacrimal gland via a communicating branch of which nerve?",
+      "question": "Postganglionic parasympathetic fibres reach the lacrimal gland via a communicating branch of which nerve?",
+      "options": {
+        "A": "Zygomaticotemporal nerve",
+        "B": "Infraorbital nerve",
+        "C": "Auriculotemporal nerve",
+        "D": "Buccal nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Postganglionic secretomotor fibres from the pterygopalatine ganglion travel with the zygomatic nerve, then its zygomaticotemporal branch, which sends a communicating twig to the lacrimal nerve to reach the lacrimal gland. This indirect routing, rather than a direct branch from the pterygopalatine ganglion itself, is a common source of confusion in exam questions.",
+        "B": "Incorrect. The infraorbital nerve is a purely sensory continuation of the maxillary nerve to the midface skin; it does not carry secretomotor fibres to the lacrimal gland.",
+        "C": "Incorrect. The auriculotemporal nerve carries postganglionic parasympathetic fibres from the otic ganglion to the parotid gland, not fibres from the pterygopalatine ganglion to the lacrimal gland.",
+        "D": "Incorrect. The buccal nerve is a purely sensory branch of the mandibular nerve's anterior division supplying the cheek mucosa and skin; it plays no role in lacrimal secretion."
+      },
+      "main_concept": "CON-NEU-1CC46D2C762930",
+      "concept_ids": [
+        "CON-NEU-1CC46D2C762930"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-ZYGOMATICOTEMPORAL-NERVE-LACRIMAL-ROUTE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Parasympathetic pathways of the head",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the zygomaticotemporal nerve as the route by which pterygopalatine parasympathetic fibres reach the lacrimal gland.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q5.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q5",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q5"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q06",
+      "id": "QST-ASUCNS3-ANATOMY-Q06",
+      "page": 6,
+      "title": "Unconscious proprioception from the elbow and wrist reaches the cerebellum chiefly via which tract?",
+      "question": "Unconscious proprioception from the elbow and wrist reaches the cerebellum chiefly via which tract?",
+      "options": {
+        "A": "Posterior spinocerebellar tract",
+        "B": "Cuneocerebellar tract",
+        "C": "Anterior spinocerebellar tract",
+        "D": "Rubrospinal tract"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The posterior spinocerebellar tract carries unconscious proprioception from the lower limb and trunk, relaying in Clarke's column, not the upper limb.",
+        "B": "Correct. The cuneocerebellar tract is the upper-limb counterpart of the posterior spinocerebellar tract: it relays unconscious proprioceptive signals from the arm (elbow, wrist) via the accessory cuneate nucleus in the medulla and enters the cerebellum through the inferior cerebellar peduncle. Because it enters via the inferior, not superior, cerebellar peduncle, it is grouped functionally with the posterior spinocerebellar tract rather than the anterior one.",
+        "C": "Incorrect. The anterior spinocerebellar tract carries information about the activity of spinal interneuron circuits for the lower limb, and enters via the superior, not inferior, cerebellar peduncle.",
+        "D": "Incorrect. The rubrospinal tract is a descending motor pathway from the red nucleus, not an ascending proprioceptive pathway to the cerebellum."
+      },
+      "main_concept": "CON-NEU-E343F3AFF524D6",
+      "concept_ids": [
+        "CON-NEU-E343F3AFF524D6"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-CUNEOCEREBELLAR-TRACT-UPPER-LIMB-PROPRIOCEPTION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cerebellar afferent pathways",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the cuneocerebellar tract as the route for unconscious upper-limb proprioception to the cerebellum.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q6.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q6",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q6"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q07",
+      "id": "QST-ASUCNS3-ANATOMY-Q07",
+      "page": 7,
+      "title": "Brodmann areas 1 and 2, representing the contralateral face and body, lie in which gyrus?",
+      "question": "Brodmann areas 1 and 2, representing the contralateral face and body, lie in which gyrus?",
+      "options": {
+        "A": "Precentral gyrus",
+        "B": "Postcentral gyrus",
+        "C": "Superior frontal gyrus",
+        "D": "Supramarginal gyrus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The precentral gyrus houses the primary motor cortex (area 4), not the primary somatosensory areas.",
+        "B": "Correct. Areas 1 and 2, together with area 3, make up the primary somatosensory cortex in the postcentral gyrus, which represents touch, proprioception and other somatosensory modalities from the contralateral face and body. The representation is somatotopically organised as the sensory homunculus, with the face represented most laterally and inferiorly on the strip.",
+        "C": "Incorrect. The superior frontal gyrus lies well anterior to the central sulcus and is not part of the primary somatosensory representation.",
+        "D": "Incorrect. The supramarginal gyrus is part of the inferior parietal lobule, involved in language and sensorimotor integration, not the primary somatosensory strip itself."
+      },
+      "main_concept": "CON-NEU-7D2E1F5EFCE602",
+      "concept_ids": [
+        "CON-NEU-7D2E1F5EFCE602"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-PRIMARY-SOMATOSENSORY-CORTEX-POSTCENTRAL-GYRUS"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cerebral cortex and higher function",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Localise areas 1 and 2 of the primary somatosensory cortex to the postcentral gyrus.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q7/56.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q7/56",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q7/56",
+        "collapsedFrom": "Q7, Q56 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q56",
+      "hold": "collapsed into anatomy-mcq-q07 — same fact, within-file duplicate (see concept CON-NEU-7D2E1F5EFCE602 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q08",
+      "id": "QST-ASUCNS3-ANATOMY-Q08",
+      "page": 8,
+      "title": "Which fibres enter the cerebellum through the inferior cerebellar peduncle from the dorsal column nuclei?",
+      "question": "Which fibres enter the cerebellum through the inferior cerebellar peduncle from the dorsal column nuclei?",
+      "options": {
+        "A": "Internal arcuate fibres",
+        "B": "Dorsal external arcuate fibres",
+        "C": "Corticopontine fibres",
+        "D": "Tectocerebellar fibres"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Internal arcuate fibres decussate within the medulla to form the medial lemniscus, which ascends to the thalamus, not to the cerebellum.",
+        "B": "Correct. Dorsal (posterior) external arcuate fibres arise from the gracile and cuneate nuclei and pass into the cerebellum through the inferior cerebellar peduncle, carrying proprioceptive relay information to the cerebellar cortex. This distinguishes it from the corticopontocerebellar pathway, which instead enters via the middle cerebellar peduncle.",
+        "C": "Incorrect. Corticopontine fibres run from the cerebral cortex to the pontine nuclei, which then project to the cerebellum via the middle, not inferior, cerebellar peduncle.",
+        "D": "Incorrect. Tectocerebellar fibres are not a recognised named pathway in standard neuroanatomy teaching for this route; the named afferent from the dorsal column nuclei via the ICP is the dorsal external arcuate fibres."
+      },
+      "main_concept": "CON-NEU-A0F1830870CA6F",
+      "concept_ids": [
+        "CON-NEU-A0F1830870CA6F"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-DORSAL-EXTERNAL-ARCUATE-FIBERS-ICP-AFFERENT"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cerebellar afferent pathways",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the dorsal external arcuate fibres as inferior-cerebellar-peduncle afferents from the dorsal column nuclei.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q8/45.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q8/45",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q8/45",
+        "collapsedFrom": "Q8, Q45 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q45",
+      "hold": "collapsed into anatomy-mcq-q08 — same fact, within-file duplicate (see concept CON-NEU-A0F1830870CA6F field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q09",
+      "id": "QST-ASUCNS3-ANATOMY-Q09",
+      "page": 9,
+      "title": "In the neonate, the spinal cord (conus medullaris) ends at approximately which vertebral level?",
+      "question": "In the neonate, the spinal cord (conus medullaris) ends at approximately which vertebral level?",
+      "options": {
+        "A": "L1",
+        "B": "L3",
+        "C": "S2",
+        "D": "T12"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. L1 (more precisely L1/L2) is where the conus medullaris ends in the adult, after the vertebral column has outgrown the spinal cord during childhood — not in the neonate.",
+        "B": "Correct. In the neonate the vertebral column has not yet outgrown the spinal cord as much as it will in the adult, so the conus medullaris ends lower, at approximately the L3 vertebral level, and ascends relatively to L1/L2 by adulthood. This growth mismatch is exactly why a lumbar puncture is performed below L2 in adults, safely clear of the cord itself.",
+        "C": "Incorrect. S2 is the vertebral level at which the dural (and arachnoid) sac ends, well below the conus medullaris itself, at any age.",
+        "D": "Incorrect. T12 is above both the adult and neonatal conus medullaris levels; the cord does not end this high even in the adult."
+      },
+      "main_concept": "CON-NEU-8A8333C18353A2",
+      "concept_ids": [
+        "CON-NEU-8A8333C18353A2"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-CONUS-MEDULLARIS-DURAL-SAC-TERMINATION-LEVELS"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Spinal cord and vertebral levels",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the conus medullaris ends lower (L3) in the neonate than in the adult (L1/L2).",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q9/60/70.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q9/60/70",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q9/60/70",
+        "collapsedFrom": "Q9, Q60, Q70 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q60",
+      "hold": "collapsed into anatomy-mcq-q09 — same fact, within-file duplicate (see concept CON-NEU-8A8333C18353A2 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q70",
+      "hold": "collapsed into anatomy-mcq-q09 — same fact, within-file duplicate (see concept CON-NEU-8A8333C18353A2 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q10",
+      "id": "QST-ASUCNS3-ANATOMY-Q10",
+      "page": 10,
+      "title": "Which of the following is true of the first cervical (C1) spinal nerve?",
+      "question": "Which of the following is true of the first cervical (C1) spinal nerve?",
+      "options": {
+        "A": "Both its rami are purely motor, and it has no cutaneous dermatome",
+        "B": "Its posterior ramus alone is sensory, supplying the scalp",
+        "C": "It is entirely sensory, with no muscular branches",
+        "D": "It supplies cutaneous sensation to the posterior neck and occiput"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. C1 is the classical exception among spinal nerves: its posterior ramus (suboccipital nerve) supplies the suboccipital triangle muscles and its anterior ramus is predominantly motor via the ansa cervicalis and cervical plexus, so C1 is taught as carrying no cutaneous dermatome. This is also why a C1 posterior ramus lesion produces suboccipital muscle weakness rather than a sensory deficit.",
+        "B": "Incorrect. It is the greater occipital nerve (the posterior ramus of C2) that is sensory to the scalp, not the posterior ramus of C1, which is the purely motor suboccipital nerve.",
+        "C": "Incorrect. C1 is the opposite of purely sensory — both its rami are classically taught as motor, supplying suboccipital and adjacent neck muscles.",
+        "D": "Incorrect. This describes C2's posterior ramus (the greater occipital nerve), which does supply cutaneous sensation to the occiput; C1 itself has no dermatome on standard maps."
+      },
+      "main_concept": "CON-NEU-5BDACD53F3399D",
+      "concept_ids": [
+        "CON-NEU-5BDACD53F3399D"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-C1-SPINAL-NERVE-RAMI-MOTOR"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Spinal nerve roots and rami",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that C1 is classically taught as a predominantly motor spinal nerve with no dermatome of its own.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q10/52.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q10/52",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q10/52",
+        "collapsedFrom": "Q10, Q52 collapsed as one duplicate fact"
+      },
+      "author_notes": "Source's own compilation conflicts on this fact across two of its own questions: Q10 states 'both rami are purely motor', Q52 states 'C1 carrys motor and sensory'. Both are the source's own printed keys for what is presented as the same underlying fact about C1. The classical teaching (C1 has no dermatome, both rami essentially motor) matches Q10, so Q10's key is used as printed; Q52's conflicting key is logged here rather than silently discarded, per the standing rule that a printed key stands and any doubt is noted, not silently resolved."
+    },
+    {
+      "key": "anatomy-mcq-q52",
+      "hold": "collapsed into anatomy-mcq-q10 — same fact, within-file duplicate (see concept CON-NEU-5BDACD53F3399D field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q11",
+      "id": "QST-ASUCNS3-ANATOMY-Q11",
+      "page": 11,
+      "title": "Occlusion of the posterior inferior cerebellar artery (PICA) causes contralateral loss of pain and temperature over the body because it damages which structure?",
+      "question": "Occlusion of the posterior inferior cerebellar artery (PICA) causes contralateral loss of pain and temperature over the body because it damages which structure?",
+      "options": {
+        "A": "Medial lemniscus",
+        "B": "Lateral spinothalamic tract",
+        "C": "Corticospinal tract",
+        "D": "Dorsal column (fasciculus gracilis/cuneatus)"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The medial lemniscus carries contralateral proprioception and fine touch and lies medially in the medulla; its damage (in medial, not lateral, medullary syndrome) causes contralateral proprioceptive loss, not pain/temperature loss.",
+        "B": "Correct. PICA occlusion damages the lateral medulla, including the lateral spinothalamic tract, producing contralateral loss of pain and temperature sensation over the body as part of lateral medullary (Wallenberg) syndrome. Ipsilateral findings such as facial pain/temperature loss, ataxia and Horner's syndrome typically accompany this contralateral body finding in the full syndrome.",
+        "C": "Incorrect. The corticospinal tract lies medially (in the pyramid) and is spared in lateral medullary syndrome, which is why limb power is typically preserved.",
+        "D": "Incorrect. The dorsal columns lie medially in the spinal cord (and their nuclei/internal arcuate fibres medially in the medulla) and are spared in lateral medullary syndrome."
+      },
+      "main_concept": "CON-NEU-6C5AFD7C64C099",
+      "concept_ids": [
+        "CON-NEU-6C5AFD7C64C099"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-PICA-OCCLUSION-LATERAL-MEDULLARY-SYNDROME"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem vascular syndromes",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Attribute the contralateral body pain/temperature loss of lateral medullary syndrome to lateral spinothalamic tract damage after PICA occlusion.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q11/47.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q11/47",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q11/47",
+        "collapsedFrom": "Q11, Q47 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q47",
+      "hold": "collapsed into anatomy-mcq-q11 — same fact, within-file duplicate (see concept CON-NEU-6C5AFD7C64C099 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q12",
+      "id": "QST-ASUCNS3-ANATOMY-Q12",
+      "page": 12,
+      "title": "The skin over the angle of the mandible and the parotid gland is chiefly supplied by which nerve?",
+      "question": "The skin over the angle of the mandible and the parotid gland is chiefly supplied by which nerve?",
+      "options": {
+        "A": "Great auricular nerve",
+        "B": "Auriculotemporal nerve",
+        "C": "Facial nerve",
+        "D": "Lesser occipital nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The great auricular nerve, a cutaneous branch of the cervical plexus (C2, C3), ascends over sternocleidomastoid to supply skin over the parotid gland and the angle of the mandible. Because it winds around sternocleidomastoid's posterior border, it is at particular risk during neck dissection or lymph node biopsy in that region.",
+        "B": "Incorrect. The auriculotemporal nerve (from the mandibular division of the trigeminal nerve) supplies skin over the temporal region and carries secretomotor fibres to the parotid gland itself, not the cutaneous supply over the angle of the mandible.",
+        "C": "Incorrect. The facial nerve is motor to the muscles of facial expression; it does not provide cutaneous sensation to the skin over the parotid region.",
+        "D": "Incorrect. The lesser occipital nerve, also from the cervical plexus, supplies skin behind the ear and over the scalp posteriorly, not the angle of the mandible."
+      },
+      "main_concept": "CON-NEU-BD1ECB323D2B1B",
+      "concept_ids": [
+        "CON-NEU-BD1ECB323D2B1B"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-GREAT-AURICULAR-NERVE-CUTANEOUS-SUPPLY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous and cutaneous anatomy of the head and neck",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the great auricular nerve as the cutaneous supply to skin over the angle of the mandible and parotid region.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q12.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q12",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q12"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q13",
+      "id": "QST-ASUCNS3-ANATOMY-Q13",
+      "page": 13,
+      "title": "The parasympathetic secretomotor supply to the parotid gland originates in which brainstem nucleus and relays in which ganglion?",
+      "question": "The parasympathetic secretomotor supply to the parotid gland originates in which brainstem nucleus and relays in which ganglion?",
+      "options": {
+        "A": "Inferior salivatory nucleus, relaying in the otic ganglion",
+        "B": "Superior salivatory nucleus, relaying in the submandibular ganglion",
+        "C": "Edinger-Westphal nucleus, relaying in the ciliary ganglion",
+        "D": "Dorsal motor nucleus of the vagus, relaying in the pterygopalatine ganglion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Preganglionic parasympathetic fibres for the parotid gland arise in the inferior salivatory nucleus (glossopharyngeal, IX), travel via the tympanic plexus and lesser petrosal nerve to synapse in the otic ganglion, and postganglionic fibres reach the parotid via the auriculotemporal nerve. This same otic-ganglion route also explains Frey syndrome, in which aberrant regeneration after parotid surgery misdirects these secretomotor fibres to facial sweat glands.",
+        "B": "Incorrect. The superior salivatory nucleus (facial nerve, VII) supplies the submandibular ganglion for the submandibular and sublingual glands, not the parotid gland.",
+        "C": "Incorrect. The Edinger-Westphal nucleus (oculomotor nerve, III) relays in the ciliary ganglion for pupillary constriction and accommodation, unrelated to salivary glands.",
+        "D": "Incorrect. The dorsal motor nucleus of the vagus supplies parasympathetic fibres to thoracic and abdominal viscera, not the parotid gland, and does not relay in the pterygopalatine ganglion (which is a facial-nerve relay for lacrimal/nasal glands)."
+      },
+      "main_concept": "CON-NEU-489FA78A649E37",
+      "concept_ids": [
+        "CON-NEU-489FA78A649E37"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "ASU-CNS-3 > Anatomy > Cranial nerve parasympathetic pathways",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Trace the parotid gland's parasympathetic secretomotor pathway from the inferior salivatory nucleus through the otic ganglion.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q13/27/64.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q13/27/64",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q13/27/64",
+        "collapsedFrom": "Q13, Q27, Q64 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q27",
+      "hold": "collapsed into anatomy-mcq-q13 — same fact, overlay-reused concept CON-NEU-489FA78A649E37"
+    },
+    {
+      "key": "anatomy-mcq-q64",
+      "hold": "collapsed into anatomy-mcq-q13 — same fact, overlay-reused concept CON-NEU-489FA78A649E37"
+    },
+    {
+      "key": "anatomy-mcq-q14",
+      "id": "QST-ASUCNS3-ANATOMY-Q14",
+      "page": 14,
+      "title": "Broca's area, responsible for expressive language, is located in which gyrus?",
+      "question": "Broca's area, responsible for expressive language, is located in which gyrus?",
+      "options": {
+        "A": "Superior temporal gyrus",
+        "B": "Inferior frontal gyrus",
+        "C": "Angular gyrus",
+        "D": "Postcentral gyrus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The posterior superior temporal gyrus houses Wernicke's area, responsible for language comprehension, not Broca's expressive area.",
+        "B": "Correct. Broca's area occupies the posterior inferior frontal gyrus (Brodmann areas 44/45) of the dominant hemisphere and generates the motor program for speech; its damage causes non-fluent expressive aphasia. Because language is typically left-lateralised, this localisation applies to the dominant hemisphere in the great majority of right-handed individuals.",
+        "C": "Incorrect. The angular gyrus, in the inferior parietal lobule, is involved in reading and cross-modal language association, not the primary expressive speech area.",
+        "D": "Incorrect. The postcentral gyrus is the primary somatosensory cortex and has no direct role in language production."
+      },
+      "main_concept": "CON-NEU-0FFACE78A09499",
+      "concept_ids": [
+        "CON-NEU-0FFACE78A09499"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-BROCA-AREA-INFERIOR-FRONTAL-GYRUS"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cerebral cortex and higher function",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Localise Broca's expressive language area to the inferior frontal gyrus.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q14.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q14",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q14"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q15",
+      "id": "QST-ASUCNS3-ANATOMY-Q15",
+      "page": 15,
+      "title": "The pyramid, formed by corticospinal fibres, is seen on which surface of the medulla oblongata?",
+      "question": "The pyramid, formed by corticospinal fibres, is seen on which surface of the medulla oblongata?",
+      "options": {
+        "A": "Dorsal surface",
+        "B": "Ventral surface",
+        "C": "Lateral surface only",
+        "D": "It is an internal structure not visible on the surface"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The dorsal surface of the medulla carries the gracile and cuneate tubercles and forms part of the floor of the fourth ventricle, not the pyramids.",
+        "B": "Correct. The pyramids are paired elevations on the ventral surface of the medulla oblongata, produced by the descending corticospinal tract fibres before most of them cross at the pyramidal decussation. The two pyramids narrow caudally at the pyramidal decussation, the classic anatomical boundary between the medulla and the spinal cord.",
+        "C": "Incorrect. The pyramids are specifically ventral, not lateral, surface landmarks of the medulla.",
+        "D": "Incorrect. The pyramids are visible external elevations on the medulla's surface, not purely internal structures."
+      },
+      "main_concept": "CON-NEU-7A249B01DB5F1A",
+      "concept_ids": [
+        "CON-NEU-7A249B01DB5F1A"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-MEDULLARY-PYRAMID-VENTRAL-SURFACE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem surface anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Locate the medullary pyramid on the ventral surface of the medulla oblongata.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q15.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q15",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q15"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q16",
+      "id": "QST-ASUCNS3-ANATOMY-Q16",
+      "page": 16,
+      "title": "The superior part of the fourth ventricle's roof is formed mainly by which structures?",
+      "question": "The superior part of the fourth ventricle's roof is formed mainly by which structures?",
+      "options": {
+        "A": "The two inferior cerebellar peduncles",
+        "B": "The two superior cerebellar peduncles and the superior medullary velum",
+        "C": "The choroid plexus alone",
+        "D": "The cerebral aqueduct"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The inferior cerebellar peduncles connect the medulla to the cerebellum laterally; they do not form the ventricular roof.",
+        "B": "Correct. The superior part of the fourth ventricle's roof is formed by the two superior cerebellar peduncles, bridged by the superior medullary velum; the inferior part is formed separately by the tela choroidea and choroid plexus. This two-part construction explains why a tumour near the fourth ventricle's roof can obstruct CSF flow at either its superior or inferior aspect.",
+        "C": "Incorrect. The choroid plexus, carried on the tela choroidea, forms the inferior part of the roof, not the superior part.",
+        "D": "Incorrect. The cerebral aqueduct is a separate midbrain channel connecting the third and fourth ventricles, not part of the fourth ventricle's own roof."
+      },
+      "main_concept": "CON-NEU-54A5CA32049D84",
+      "concept_ids": [
+        "CON-NEU-54A5CA32049D84"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-FOURTH-VENTRICLE-ROOF-FORMATION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Ventricular system",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the superior cerebellar peduncles and superior medullary velum as the superior part of the fourth ventricle roof.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q16/58.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q16/58",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q16/58",
+        "collapsedFrom": "Q16, Q58 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q58",
+      "hold": "collapsed into anatomy-mcq-q16 — same fact, within-file duplicate (see concept CON-NEU-54A5CA32049D84 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q17",
+      "id": "QST-ASUCNS3-ANATOMY-Q17",
+      "page": 17,
+      "title": "Which of the following tracts is NOT represented within the medial longitudinal fasciculus?",
+      "question": "Which of the following tracts is NOT represented within the medial longitudinal fasciculus?",
+      "options": {
+        "A": "Tectospinal tract",
+        "B": "Vestibulospinal-related fibres",
+        "C": "Corticospinal tract",
+        "D": "Interstitiospinal fibres"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The tectospinal tract's fibres, which coordinate reflex head/eye turning, do run with the medial longitudinal fasciculus caudally.",
+        "B": "Incorrect. Vestibular-nucleus-derived fibres are the core component of the MLF, coordinating eye movements with vestibular (head-position) input.",
+        "C": "Correct. The corticospinal tract, carrying voluntary skilled-movement commands from the motor cortex to the spinal cord via the pyramids, is not one of the tracts that make up the medial longitudinal fasciculus. This distinction is why an MLF lesion (internuclear ophthalmoplegia) impairs conjugate eye movement without producing limb weakness.",
+        "D": "Incorrect. Interstitiospinal fibres, from the interstitial nucleus of Cajal, are classically described as travelling within the MLF's caudal continuation."
+      },
+      "main_concept": "CON-NEU-E5FF8C408536CB",
+      "concept_ids": [
+        "CON-NEU-E5FF8C408536CB"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-MEDIAL-LONGITUDINAL-FASCICULUS-TRACT-EXCLUSION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem tracts",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify the corticospinal tract as excluded from the medial longitudinal fasciculus.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q17.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q17",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q17"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q18",
+      "id": "QST-ASUCNS3-ANATOMY-Q18",
+      "page": 18,
+      "title": "CSF passes from the fourth ventricle into the subarachnoid space through which apertures?",
+      "question": "CSF passes from the fourth ventricle into the subarachnoid space through which apertures?",
+      "options": {
+        "A": "The interventricular foramina of Monro only",
+        "B": "The median foramen of Magendie and the paired lateral foramina of Luschka",
+        "C": "The cerebral aqueduct only",
+        "D": "The central canal of the spinal cord only"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The foramina of Monro connect the lateral ventricles to the third ventricle, not the fourth ventricle to the subarachnoid space.",
+        "B": "Correct. The fourth ventricle drains CSF into the subarachnoid space (cerebellomedullary cistern) through the single median foramen of Magendie and the paired lateral foramina of Luschka. Obstruction of all three apertures together produces non-communicating hydrocephalus with symmetric dilation of the entire ventricular system above the block.",
+        "C": "Incorrect. The cerebral aqueduct connects the third ventricle to the fourth ventricle; it does not open into the subarachnoid space.",
+        "D": "Incorrect. The central canal carries a small amount of CSF caudally within the spinal cord itself, and is not the route by which the fourth ventricle empties into the subarachnoid space."
+      },
+      "main_concept": "CON-NEU-95FBEC1DC1AF3C",
+      "concept_ids": [
+        "CON-NEU-95FBEC1DC1AF3C"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-FOURTH-VENTRICLE-CSF-OUTFLOW-FORAMINA"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Ventricular system",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name the foramina of Magendie and Luschka as the fourth ventricle's outlets to the subarachnoid space.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q18/38.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q18/38",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q18/38",
+        "collapsedFrom": "Q18, Q38 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q38",
+      "hold": "collapsed into anatomy-mcq-q18 — same fact, within-file duplicate (see concept CON-NEU-95FBEC1DC1AF3C field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q19",
+      "id": "QST-ASUCNS3-ANATOMY-Q19",
+      "page": 19,
+      "title": "The cerebral aqueduct of Sylvius connects which two parts of the ventricular system?",
+      "question": "The cerebral aqueduct of Sylvius connects which two parts of the ventricular system?",
+      "options": {
+        "A": "The two lateral ventricles",
+        "B": "The third and fourth ventricles",
+        "C": "The fourth ventricle and the central canal",
+        "D": "The lateral ventricle and the third ventricle"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The two lateral ventricles do not communicate directly with each other; each connects to the third ventricle via its own foramen of Monro.",
+        "B": "Correct. The cerebral aqueduct is the narrow midbrain channel that connects the third ventricle above to the fourth ventricle below, and is a common site of obstructive hydrocephalus. Its narrow calibre makes aqueductal stenosis one of the most common causes of congenital non-communicating hydrocephalus.",
+        "C": "Incorrect. The fourth ventricle connects to the central canal of the spinal cord directly at the obex, not via the cerebral aqueduct, which lies rostral to the fourth ventricle.",
+        "D": "Incorrect. The lateral ventricle connects to the third ventricle via the interventricular foramen of Monro, not the cerebral aqueduct."
+      },
+      "main_concept": "CON-NEU-BF0BB9ECB16DE1",
+      "concept_ids": [
+        "CON-NEU-BF0BB9ECB16DE1"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-CEREBRAL-AQUEDUCT-OF-SYLVIUS-CONNECTION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Ventricular system",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the cerebral aqueduct connects the third and fourth ventricles.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q19.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q19",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q19"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q20",
+      "id": "QST-ASUCNS3-ANATOMY-Q20",
+      "page": 20,
+      "title": "The motor nucleus of the trigeminal nerve, supplying the muscles of mastication, belongs to which functional column?",
+      "question": "The motor nucleus of the trigeminal nerve, supplying the muscles of mastication, belongs to which functional column?",
+      "options": {
+        "A": "General somatic efferent (GSE)",
+        "B": "Special visceral efferent (SVE)",
+        "C": "General visceral efferent (GVE)",
+        "D": "Special somatic afferent (SSA)"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. GSE nuclei (oculomotor, trochlear, abducens, hypoglossal) supply somite-derived muscles, not the branchial-arch-derived muscles of mastication.",
+        "B": "Correct. The trigeminal motor nucleus supplies the first-arch muscles of mastication and related muscles, all branchiomeric derivatives, placing it in the special visceral efferent (SVE) column alongside the facial, glossopharyngeal, vagal and accessory motor nuclei. Recognising this classification also explains why a trigeminal motor lesion can cause jaw deviation toward the weak side on opening, a first-arch-muscle sign.",
+        "C": "Incorrect. GVE nuclei carry preganglionic parasympathetic output (e.g. the salivatory nuclei), not somatic motor output to skeletal muscle.",
+        "D": "Incorrect. SSA is a sensory (afferent), not motor (efferent), column, carrying special senses such as hearing and balance; it is unrelated to the trigeminal motor nucleus."
+      },
+      "main_concept": "CON-NEU-4BFE30D065C975",
+      "concept_ids": [
+        "CON-NEU-4BFE30D065C975"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-TRIGEMINAL-MOTOR-NUCLEUS-SVE-COLUMN"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem cranial nerve nuclei",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Classify the trigeminal motor nucleus as special visceral efferent (SVE), the branchiomotor column.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q20/26.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q20/26",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q20/26",
+        "collapsedFrom": "Q20, Q26 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q26",
+      "hold": "collapsed into anatomy-mcq-q20 — same fact, within-file duplicate (see concept CON-NEU-4BFE30D065C975 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q21",
+      "id": "QST-ASUCNS3-ANATOMY-Q21",
+      "page": 21,
+      "title": "The superior cerebellar artery, besides the cerebellum, also supplies which structure?",
+      "question": "The superior cerebellar artery, besides the cerebellum, also supplies which structure?",
+      "options": {
+        "A": "The midbrain",
+        "B": "The pons alone",
+        "C": "The medulla alone",
+        "D": "The thalamus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The superior cerebellar artery, a branch of the distal basilar artery, supplies the superior cerebellum, the superior cerebellar peduncle, and parts of the midbrain. Occlusion here can therefore produce a mixed picture of cerebellar ataxia together with midbrain signs such as contralateral tremor or ipsilateral Horner syndrome.",
+        "B": "Incorrect. The pons is chiefly supplied by pontine perforating branches of the basilar artery and the anterior inferior cerebellar artery, not primarily by the superior cerebellar artery.",
+        "C": "Incorrect. The medulla is supplied mainly by the vertebral artery, posterior inferior cerebellar artery and anterior spinal artery, not the superior cerebellar artery.",
+        "D": "Incorrect. The thalamus is chiefly supplied by branches of the posterior cerebral and posterior communicating arteries, not the superior cerebellar artery."
+      },
+      "main_concept": "CON-NEU-320FE57830F2F3",
+      "concept_ids": [
+        "CON-NEU-320FE57830F2F3"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-SUPERIOR-CEREBELLAR-ARTERY-MIDBRAIN-SUPPLY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem vascular supply",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the superior cerebellar artery supplies part of the midbrain.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q21.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q21",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q21"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q22",
+      "id": "QST-ASUCNS3-ANATOMY-Q22",
+      "page": 22,
+      "title": "The medial boundary of the infratemporal fossa is formed by which structure?",
+      "question": "The medial boundary of the infratemporal fossa is formed by which structure?",
+      "options": {
+        "A": "Ramus of the mandible",
+        "B": "Lateral pterygoid plate",
+        "C": "Zygomatic arch",
+        "D": "Posterior surface of the maxilla"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The ramus of the mandible forms the lateral, not medial, boundary of the infratemporal fossa.",
+        "B": "Correct. The lateral pterygoid plate of the sphenoid forms the medial boundary of the infratemporal fossa and gives origin to fibres of the lateral and medial pterygoid muscles. This medial wall relation is a key landmark for locating the mandibular nerve and otic ganglion during regional block procedures.",
+        "C": "Incorrect. The zygomatic arch lies superficial to, and helps define the superior/lateral opening toward, the infratemporal fossa but is not its medial wall.",
+        "D": "Incorrect. The posterior surface of the maxilla forms the anterior boundary of the infratemporal fossa, not the medial one."
+      },
+      "main_concept": "CON-NEU-6D51D273E994A2",
+      "concept_ids": [
+        "CON-NEU-6D51D273E994A2"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-LATERAL-PTERYGOID-PLATE-INFRATEMPORAL-FOSSA-BOUNDARY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Trigeminal nerve and infratemporal region",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the lateral pterygoid plate as the medial boundary of the infratemporal fossa.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q22/55.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q22/55",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q22/55",
+        "collapsedFrom": "Q22, Q55 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q55",
+      "hold": "collapsed into anatomy-mcq-q22 — same fact, within-file duplicate (see concept CON-NEU-6D51D273E994A2 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q23",
+      "id": "QST-ASUCNS3-ANATOMY-Q23",
+      "page": 23,
+      "title": "The pterygomaxillary fissure connects the infratemporal fossa with which space?",
+      "question": "The pterygomaxillary fissure connects the infratemporal fossa with which space?",
+      "options": {
+        "A": "The orbit",
+        "B": "The middle cranial fossa",
+        "C": "The pterygopalatine fossa",
+        "D": "The nasal cavity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The orbit communicates with the pterygopalatine fossa via the inferior orbital fissure, not directly through the pterygomaxillary fissure.",
+        "B": "Incorrect. The middle cranial fossa communicates with the pterygopalatine fossa via the foramen rotundum, not the pterygomaxillary fissure.",
+        "C": "Correct. The pterygomaxillary fissure, between the lateral pterygoid plate and the posterior maxilla, is the lateral opening through which the infratemporal fossa communicates with the pterygopalatine fossa, transmitting the third part of the maxillary artery. This route is also how epistaxis from the sphenopalatine artery, a branch of the maxillary artery, ultimately traces back to the external carotid system.",
+        "D": "Incorrect. The pterygopalatine fossa communicates with the nasal cavity via the sphenopalatine foramen, not the pterygomaxillary fissure, which opens laterally into the infratemporal fossa."
+      },
+      "main_concept": "CON-NEU-1AC9508094B088",
+      "concept_ids": [
+        "CON-NEU-1AC9508094B088"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-PTERYGOMAXILLARY-FISSURE-COMMUNICATION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Trigeminal nerve and infratemporal region",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the pterygomaxillary fissure connects the infratemporal fossa to the pterygopalatine fossa.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q23.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q23",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q23"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q24",
+      "id": "QST-ASUCNS3-ANATOMY-Q24",
+      "page": 24,
+      "title": "The cavernous sinus drains directly into the internal jugular vein via which paired dural venous sinus?",
+      "question": "The cavernous sinus drains directly into the internal jugular vein via which paired dural venous sinus?",
+      "options": {
+        "A": "Superior sagittal sinus",
+        "B": "Straight sinus",
+        "C": "Inferior petrosal sinus",
+        "D": "Occipital sinus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The superior sagittal sinus is an unpaired midline sinus draining into the confluence of sinuses, not a direct cavernous-sinus-to-IJV route.",
+        "B": "Incorrect. The straight sinus is also unpaired, draining the great cerebral vein and inferior sagittal sinus into the confluence of sinuses, not the cavernous sinus.",
+        "C": "Correct. The inferior petrosal sinus is a paired sinus running from the cavernous sinus to drain directly into the internal jugular vein at the jugular foramen. Because it drains the cavernous sinus so directly, it is also the vessel catheterised in inferior petrosal sinus sampling for pituitary ACTH-secreting tumours.",
+        "D": "Incorrect. The occipital sinus is a small, often unpaired sinus in the falx cerebelli draining toward the confluence of sinuses, not a direct cavernous-sinus outflow to the IJV."
+      },
+      "main_concept": "CON-NEU-D479D9227D90F9",
+      "concept_ids": [
+        "CON-NEU-D479D9227D90F9"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-INFERIOR-PETROSAL-SINUS-DRAINAGE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous drainage of the head and neck",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the inferior petrosal sinus as a paired sinus draining the cavernous sinus into the internal jugular vein.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q24/30/78.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q24/30/78",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q24/30/78",
+        "collapsedFrom": "Q24, Q30, Q78 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q30",
+      "hold": "collapsed into anatomy-mcq-q24 — same fact, within-file duplicate (see concept CON-NEU-D479D9227D90F9 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q78",
+      "hold": "collapsed into anatomy-mcq-q24 — same fact, within-file duplicate (see concept CON-NEU-D479D9227D90F9 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q25",
+      "id": "QST-ASUCNS3-ANATOMY-Q25",
+      "page": 25,
+      "title": "Which is the only sensory branch of the anterior division of the mandibular nerve?",
+      "question": "Which is the only sensory branch of the anterior division of the mandibular nerve?",
+      "options": {
+        "A": "Buccal nerve",
+        "B": "Masseteric nerve",
+        "C": "Deep temporal nerves",
+        "D": "Nerve to lateral pterygoid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The buccal (long buccal) nerve is the sole sensory branch of the mandibular nerve's anterior division, supplying skin and mucosa of the cheek; the rest of the anterior division is motor. Because it is purely sensory, a buccal nerve block numbs the cheek without affecting buccinator's ability to keep food off the teeth during chewing.",
+        "B": "Incorrect. The masseteric nerve is a motor branch of the anterior division, supplying masseter, not a sensory branch.",
+        "C": "Incorrect. The deep temporal nerves are motor branches of the anterior division supplying temporalis, not sensory.",
+        "D": "Incorrect. The nerve to lateral pterygoid is a motor branch of the anterior division, not the sensory one."
+      },
+      "main_concept": "CON-NEU-0D4CB1ED321C23",
+      "concept_ids": [
+        "CON-NEU-0D4CB1ED321C23"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-BUCCAL-NERVE-ANTERIOR-DIVISION-SENSORY-BRANCH"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Trigeminal nerve and infratemporal region",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the buccal nerve as the only sensory branch of the mandibular nerve's anterior division.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q25.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q25",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q25"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q28",
+      "id": "QST-ASUCNS3-ANATOMY-Q26",
+      "page": 28,
+      "title": "Which cerebellar division is chiefly responsible for equilibrium and balance?",
+      "question": "Which cerebellar division is chiefly responsible for equilibrium and balance?",
+      "options": {
+        "A": "Flocculonodular lobe (vestibulocerebellum)",
+        "B": "Anterior lobe (paleocerebellum)",
+        "C": "Posterior lobe hemispheres (neocerebellum)",
+        "D": "Dentate nucleus alone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The flocculonodular lobe, functionally the vestibulocerebellum, receives direct vestibular input and is chiefly responsible for equilibrium, balance and eye-movement control; its lesions cause truncal ataxia. Patients with flocculonodular lesions classically show a wide-based, staggering gait rather than the limb-specific dysmetria seen with hemisphere lesions.",
+        "B": "Incorrect. The anterior lobe (paleocerebellum, spinocerebellum) is concerned mainly with muscle tone and lower-limb coordination via spinal proprioceptive input, not equilibrium specifically.",
+        "C": "Incorrect. The posterior lobe hemispheres (neocerebellum) coordinate fine skilled limb movement in conjunction with the cerebral cortex via the pons, not primarily equilibrium.",
+        "D": "Incorrect. The dentate nucleus is the output nucleus mainly of the neocerebellum (lateral hemispheres) for skilled movement, not the structure responsible for equilibrium."
+      },
+      "main_concept": "CON-NEU-7EEA79A74188FA",
+      "concept_ids": [
+        "CON-NEU-7EEA79A74188FA"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-FLOCCULONODULAR-LOBE-VESTIBULOCEREBELLUM-EQUILIBRIUM"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cerebellum and cerebellar peduncles",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the flocculonodular lobe as the cerebellar division responsible for equilibrium.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q28.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q28",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q28"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q29",
+      "id": "QST-ASUCNS3-ANATOMY-Q27",
+      "page": 29,
+      "title": "The preganglionic sympathetic (thoracolumbar) outflow extends caudally down to approximately which spinal cord level?",
+      "question": "The preganglionic sympathetic (thoracolumbar) outflow extends caudally down to approximately which spinal cord level?",
+      "options": {
+        "A": "T12",
+        "B": "L2",
+        "C": "L5",
+        "D": "S2"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. T12 is within the thoracolumbar range but is not its lowest extent; the outflow continues for two further lumbar segments.",
+        "B": "Correct. Preganglionic sympathetic neuron cell bodies occupy the lateral horn (intermediolateral cell column) from T1 down to about L2, the anatomical basis for the term 'thoracolumbar outflow'. Because this range defines the entire craniosacral-versus-thoracolumbar division of the autonomic nervous system, misplacing its lower limit undermines that whole framework.",
+        "C": "Incorrect. L5 lies well below the sympathetic outflow's lower limit; no preganglionic sympathetic cell bodies are found this low.",
+        "D": "Incorrect. S2 is the level associated with the parasympathetic (craniosacral) outflow's sacral component, not the sympathetic thoracolumbar outflow."
+      },
+      "main_concept": "CON-NEU-67C437462712E4",
+      "concept_ids": [
+        "CON-NEU-67C437462712E4"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-PHYSIO-AUTONOMIC-NS"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "ASU-CNS-3 > Anatomy > Autonomic nervous system",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the sympathetic (thoracolumbar) outflow extends down to approximately L2.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q29.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q29",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q29"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q31",
+      "id": "QST-ASUCNS3-ANATOMY-Q28",
+      "page": 31,
+      "title": "Emissary veins are clinically significant chiefly because they:",
+      "question": "Emissary veins are clinically significant chiefly because they:",
+      "options": {
+        "A": "Are valveless connections between dural venous sinuses and scalp veins, allowing infection to spread intracranially",
+        "B": "Carry the entire venous drainage of the brain",
+        "C": "Are valved, one-way channels preventing any retrograde flow",
+        "D": "Connect only the cavernous sinus to the orbit"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Emissary veins are valveless veins passing through skull foramina to connect dural venous sinuses with extracranial scalp and facial veins, providing a route for infection to spread intracranially. This is one further reason facial and scalp infections are treated seriously rather than dismissed as purely cosmetic problems.",
+        "B": "Incorrect. The bulk of intracranial venous drainage passes through the dural sinuses to the internal jugular veins; emissary veins are small accessory connections, not the main drainage route.",
+        "C": "Incorrect. Emissary veins are specifically valveless, not valved — this is exactly what makes retrograde infection spread possible.",
+        "D": "Incorrect. Emissary veins connect multiple dural sinuses (not only the cavernous sinus) with scalp veins at several skull foramina, not solely the cavernous sinus to the orbit."
+      },
+      "main_concept": "CON-NEU-1B0149DF8D3582",
+      "concept_ids": [
+        "CON-NEU-1B0149DF8D3582"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-EMISSARY-VEINS-DURAL-SINUS-SCALP-CONNECTION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous drainage of the head and neck",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that emissary veins valvelessly connect dural sinuses with scalp veins, enabling infection spread.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q31.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q31",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q31"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q32",
+      "id": "QST-ASUCNS3-ANATOMY-Q29",
+      "page": 32,
+      "title": "Which tract, arising from the red nucleus, is described as an alternative pathway to the corticospinal tract?",
+      "question": "Which tract, arising from the red nucleus, is described as an alternative pathway to the corticospinal tract?",
+      "options": {
+        "A": "Rubrospinal tract",
+        "B": "Vestibulospinal tract",
+        "C": "Tectospinal tract",
+        "D": "Reticulospinal tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The rubrospinal tract arises from the red nucleus, decussates in the midbrain, and descends to facilitate upper-limb flexor tone as a minor accessory pathway alongside the corticospinal tract. In humans this pathway is functionally minor compared with the corticospinal tract, though it remains more prominent in some other mammals.",
+        "B": "Incorrect. The vestibulospinal tracts arise from the vestibular nuclei and adjust extensor tone for balance; they are not described as originating from the red nucleus.",
+        "C": "Incorrect. The tectospinal tract arises from the superior colliculus (tectum), not the red nucleus.",
+        "D": "Incorrect. The reticulospinal tracts arise from the reticular formation of the pons and medulla, not the red nucleus."
+      },
+      "main_concept": "CON-NEU-10F91883DBD2E8",
+      "concept_ids": [
+        "CON-NEU-10F91883DBD2E8"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-RUBROSPINAL-TRACT-ALTERNATIVE-TO-CORTICOSPINAL"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Descending motor tracts",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the rubrospinal tract as originating from the red nucleus as an accessory pathway to the corticospinal tract.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q32.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q32",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q32"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q33",
+      "id": "QST-ASUCNS3-ANATOMY-Q30",
+      "page": 33,
+      "title": "Sensory innervation of the upper eyelid is supplied by which trigeminal division?",
+      "question": "Sensory innervation of the upper eyelid is supplied by which trigeminal division?",
+      "options": {
+        "A": "Ophthalmic (V1)",
+        "B": "Maxillary (V2)",
+        "C": "Mandibular (V3)",
+        "D": "None; the upper eyelid is supplied by the facial nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The ophthalmic division (V1), via its lacrimal and frontal/supraorbital branches, supplies sensation to the upper eyelid, along with the cornea, forehead and nose. This split supply is why an orbital floor fracture, which typically injures the infraorbital nerve, spares upper-eyelid sensation entirely.",
+        "B": "Incorrect. The maxillary division (V2), via the infraorbital nerve, supplies the lower eyelid, not the upper eyelid.",
+        "C": "Incorrect. The mandibular division (V3) supplies the lower face and jaw region and has no sensory territory on the eyelids.",
+        "D": "Incorrect. The facial nerve provides motor supply to orbicularis oculi (eyelid closure) but not the cutaneous sensory supply to the eyelid itself, which is entirely trigeminal."
+      },
+      "main_concept": "CON-NEU-30D6343ED8BA8E",
+      "concept_ids": [
+        "CON-NEU-30D6343ED8BA8E"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-OPHTHALMIC-NERVE-UPPER-EYELID-SENSORY-SUPPLY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Trigeminal nerve and infratemporal region",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Attribute upper eyelid sensation to the ophthalmic (V1) division of the trigeminal nerve.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q33.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q33",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q33"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q34",
+      "id": "QST-ASUCNS3-ANATOMY-Q31",
+      "page": 34,
+      "title": "Retraction of a protruded mandible is chiefly produced by which muscle fibres?",
+      "question": "Retraction of a protruded mandible is chiefly produced by which muscle fibres?",
+      "options": {
+        "A": "Posterior fibres of temporalis",
+        "B": "Lateral pterygoid",
+        "C": "Anterior fibres of temporalis",
+        "D": "Superficial head of masseter"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The posterior, more horizontally-running fibres of temporalis pull the mandible backward, retracting it after protrusion. Because the same muscle can both elevate and retract the mandible depending on which fibres contract, its full range of action depends on fibre orientation alone.",
+        "B": "Incorrect. Lateral pterygoid, acting bilaterally, protrudes the mandible and depresses the chin (opens the jaw); it does not retract the mandible.",
+        "C": "Incorrect. The anterior (vertical) fibres of temporalis elevate the mandible (close the jaw), not retract it.",
+        "D": "Incorrect. The superficial head of masseter runs obliquely to elevate and slightly protrude the mandible, not to retract it."
+      },
+      "main_concept": "CON-NEU-4DCB0AB54DD218",
+      "concept_ids": [
+        "CON-NEU-4DCB0AB54DD218"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-TEMPORALIS-POSTERIOR-FIBERS-MANDIBLE-RETRACTION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Muscles of mastication",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Attribute mandible retraction to the posterior fibres of temporalis.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q34.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q34",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q34"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q35",
+      "id": "QST-ASUCNS3-ANATOMY-Q32",
+      "page": 35,
+      "title": "The retromandibular vein is formed within the parotid gland by the union of the superficial temporal vein and which other vein?",
+      "question": "The retromandibular vein is formed within the parotid gland by the union of the superficial temporal vein and which other vein?",
+      "options": {
+        "A": "Maxillary vein",
+        "B": "Facial vein",
+        "C": "Lingual vein",
+        "D": "External jugular vein"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Within the substance of the parotid gland, the maxillary vein joins the superficial temporal vein to form the retromandibular vein, which then descends and divides into anterior and posterior divisions on leaving the lower parotid. Together, the vein's formation superiorly and its division inferiorly define its entire short course through the substance of the parotid gland.",
+        "B": "Incorrect. The (anterior) facial vein runs separately down the face and unites with the retromandibular vein's anterior division lower down, in the neck — it is not one of the two veins whose union forms the retromandibular vein itself.",
+        "C": "Incorrect. The lingual vein drains the tongue and joins the internal jugular system separately; it plays no part in forming the retromandibular vein.",
+        "D": "Incorrect. The external jugular vein is formed lower in the neck by the union of the retromandibular vein's posterior division with the posterior auricular vein — it is a downstream vessel, not one of the retromandibular vein's own tributaries."
+      },
+      "main_concept": "CON-FND-30C2D97803C2F4",
+      "concept_ids": [
+        "CON-FND-30C2D97803C2F4"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-FND-TOP-EC5A247500"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "ASU-CNS-3 > Anatomy > Venous drainage of the head and neck",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the retromandibular vein is formed by union of the maxillary and superficial temporal veins within the parotid gland.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q35.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q35",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q35"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q36",
+      "id": "QST-ASUCNS3-ANATOMY-Q33",
+      "page": 36,
+      "title": "Hemiballismus, with violent flinging movements of one side of the body, results from a lesion of which structure?",
+      "question": "Hemiballismus, with violent flinging movements of one side of the body, results from a lesion of which structure?",
+      "options": {
+        "A": "Ipsilateral caudate nucleus",
+        "B": "Contralateral subthalamic nucleus",
+        "C": "Ipsilateral substantia nigra",
+        "D": "Contralateral dentate nucleus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Caudate nucleus dysfunction is classically associated with chorea (as in Huntington disease), not the violent flinging movements of hemiballismus, and the classic hemiballismus lesion is subthalamic, not caudate.",
+        "B": "Correct. Hemiballismus classically follows a lesion of the contralateral subthalamic nucleus, which removes its excitatory drive on the globus pallidus internus and disinhibits thalamocortical motor circuits, producing violent flinging movements on the opposite side of the body. Because the lesion and the movements are on opposite sides of the body, the clinical sign is always described relative to the affected limb, not the lesion.",
+        "C": "Incorrect. Substantia nigra degeneration causes Parkinsonism, a hypokinetic disorder, not hemiballismus.",
+        "D": "Incorrect. The dentate nucleus is a cerebellar output nucleus; its lesions cause cerebellar signs (dysmetria, intention tremor), not hemiballismus."
+      },
+      "main_concept": "CON-NEU-9A281DDFAA6242",
+      "concept_ids": [
+        "CON-NEU-9A281DDFAA6242"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-HEMIBALLISMUS-SUBTHALAMIC-NUCLEUS-LESION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Basal ganglia",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Attribute hemiballismus to a contralateral subthalamic nucleus lesion.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q36.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q36",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q36"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q37",
+      "id": "QST-ASUCNS3-ANATOMY-Q34",
+      "page": 37,
+      "title": "The second-order neuron for pain and temperature sensation from the face is located in which structure?",
+      "question": "The second-order neuron for pain and temperature sensation from the face is located in which structure?",
+      "options": {
+        "A": "Trigeminal (Gasserian) ganglion",
+        "B": "Principal sensory nucleus of the trigeminal nerve",
+        "C": "Spinal trigeminal nucleus",
+        "D": "Ventral posteromedial nucleus of the thalamus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The trigeminal ganglion houses the first-order (primary sensory) neuron cell bodies, not the second-order relay.",
+        "B": "Incorrect. The principal (main) sensory nucleus relays discriminative touch and proprioception from the face, not pain and temperature.",
+        "C": "Correct. Facial pain and temperature fibres, after entering the pons with first-order cell bodies in the trigeminal ganglion, descend as the spinal trigeminal tract to synapse on second-order neurons in the spinal trigeminal nucleus. This descending course means a lesion anywhere from the lower pons to the upper cervical cord can selectively impair facial pain and temperature sensation.",
+        "D": "Incorrect. The ventral posteromedial thalamic nucleus is the third-order relay station, receiving the crossed ascending fibres from the spinal trigeminal nucleus, not the second-order neuron itself."
+      },
+      "main_concept": "CON-NEU-B4DCB4243ED4CC",
+      "concept_ids": [
+        "CON-NEU-B4DCB4243ED4CC"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-TRIGEMINAL-PAIN-PATHWAY-FIRST-SECOND-ORDER-NEURONS"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Trigeminal nerve and infratemporal region",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Sequence the first- and second-order neurons of the facial pain and temperature pathway.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q37/66.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q37/66",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q37/66",
+        "collapsedFrom": "Q37, Q66 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q66",
+      "hold": "collapsed into anatomy-mcq-q37 — same fact, within-file duplicate (see concept CON-NEU-B4DCB4243ED4CC field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q39",
+      "id": "QST-ASUCNS3-ANATOMY-Q35",
+      "page": 39,
+      "title": "The infraorbital nerve is the continuation of which part of the maxillary nerve?",
+      "question": "The infraorbital nerve is the continuation of which part of the maxillary nerve?",
+      "options": {
+        "A": "First part",
+        "B": "Second part",
+        "C": "Third part",
+        "D": "It is not a branch of the maxillary nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The first part of the maxillary nerve, within the pterygopalatine fossa, gives the ganglionic branches, zygomatic nerve and posterior superior alveolar nerve, not the infraorbital nerve directly as its terminal continuation.",
+        "B": "Incorrect. The second part travels within the infraorbital groove and canal as the infraorbital nerve itself, but the nerve is conventionally named for its third-part exit onto the face through the infraorbital foramen in this classification.",
+        "C": "Correct. The infraorbital nerve is the maxillary nerve's direct continuation, emerging onto the face at the infraorbital foramen as its third part, and supplies the lower eyelid, side of the nose and upper lip. This exit point makes the infraorbital nerve especially vulnerable to injury in orbital floor ('blow-out') fractures.",
+        "D": "Incorrect. The infraorbital nerve is indeed a branch (the terminal continuation) of the maxillary nerve, the second division of the trigeminal nerve."
+      },
+      "main_concept": "CON-NEU-68930A13FB795E",
+      "concept_ids": [
+        "CON-NEU-68930A13FB795E"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-INFRAORBITAL-NERVE-MAXILLARY-THIRD-PART-BRANCH"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Trigeminal nerve and infratemporal region",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Trace the infraorbital nerve as the terminal continuation of the maxillary nerve.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q39.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q39",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q40",
+      "id": "QST-ASUCNS3-ANATOMY-Q36",
+      "page": 40,
+      "title": "Taste sensation from the mucosa over the epiglottis is carried by which cranial nerve?",
+      "question": "Taste sensation from the mucosa over the epiglottis is carried by which cranial nerve?",
+      "options": {
+        "A": "Facial nerve (chorda tympani)",
+        "B": "Glossopharyngeal nerve",
+        "C": "Vagus nerve",
+        "D": "Hypoglossal nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The chorda tympani branch of the facial nerve carries taste from the anterior two-thirds of the tongue, well anterior to the epiglottis.",
+        "B": "Incorrect. The glossopharyngeal nerve carries taste (and general sensation) from the posterior third of the tongue, behind the vallate papillae, but the epiglottic region just beyond it is vagal territory.",
+        "C": "Correct. The vagus nerve carries taste sensation from the small mucosal area around the epiglottis and adjoining pharynx, the most posterior part of the taste map. Because this territory is so small, isolated loss of taste here is rarely noticed clinically compared with anterior or posterior tongue involvement.",
+        "D": "Incorrect. The hypoglossal nerve is purely motor to the tongue muscles and carries no taste or general sensory fibres."
+      },
+      "main_concept": "CON-NEU-9341CDBE426A8F",
+      "concept_ids": [
+        "CON-NEU-9341CDBE426A8F"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-TASTE-POSTERIOR-TONGUE-VAGUS-NERVE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cranial nerve sensory territories",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Assign taste sensation over the epiglottis to the vagus nerve.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q40.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q40",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q40"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q41",
+      "id": "QST-ASUCNS3-ANATOMY-Q37",
+      "page": 41,
+      "title": "Which nerve lies within the carotid sheath, posterior to the carotid artery and internal jugular vein?",
+      "question": "Which nerve lies within the carotid sheath, posterior to the carotid artery and internal jugular vein?",
+      "options": {
+        "A": "Vagus nerve",
+        "B": "Hypoglossal nerve",
+        "C": "Phrenic nerve",
+        "D": "Recurrent laryngeal nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The vagus nerve runs within the carotid sheath, posteriorly between the carotid artery and internal jugular vein, for its entire cervical course. Because the vagus lies exactly here, carotid sheath surgery carries a recognised risk of iatrogenic vagal injury and resulting hoarseness.",
+        "B": "Incorrect. The hypoglossal nerve crosses the carotid sheath's vessels superficially near the angle of the mandible but does not run within the sheath itself for its course.",
+        "C": "Incorrect. The phrenic nerve runs on the surface of scalenus anterior, outside the carotid sheath.",
+        "D": "Incorrect. The recurrent laryngeal nerve ascends in the tracheo-oesophageal groove, medial to and outside the carotid sheath."
+      },
+      "main_concept": "CON-NEU-A0DFEE9D80EBD4",
+      "concept_ids": [
+        "CON-NEU-A0DFEE9D80EBD4"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-CAROTID-SHEATH-CONTENTS-VAGUS"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous and cutaneous anatomy of the head and neck",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name the vagus nerve as a content of the carotid sheath.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q41.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q41",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q41"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q42",
+      "id": "QST-ASUCNS3-ANATOMY-Q38",
+      "page": 42,
+      "title": "Which of the following is classified as a pyramidal, not an extrapyramidal, tract?",
+      "question": "Which of the following is classified as a pyramidal, not an extrapyramidal, tract?",
+      "options": {
+        "A": "Rubrospinal tract",
+        "B": "Vestibulospinal tract",
+        "C": "Corticobulbar tract",
+        "D": "Reticulospinal tract"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The rubrospinal tract, from the red nucleus, is a classic extrapyramidal pathway, not one of the two pyramidal tracts.",
+        "B": "Incorrect. The vestibulospinal tracts, from the vestibular nuclei, are extrapyramidal pathways for balance-related tone.",
+        "C": "Correct. The corticobulbar (corticonuclear) tract, alongside the corticospinal tract, forms the pyramidal system, since both pass through the medullary pyramids on their way from cortex to brainstem or spinal motor neurons. This shared pyramidal classification is why corticobulbar lesions, like corticospinal ones, typically spare bilaterally-innervated muscles such as those of the upper face.",
+        "D": "Incorrect. The reticulospinal tracts, from the reticular formation, are extrapyramidal pathways, not pyramidal."
+      },
+      "main_concept": "CON-NEU-FB23DC01E5F60F",
+      "concept_ids": [
+        "CON-NEU-FB23DC01E5F60F"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-CORTICOBULBAR-TRACT-PYRAMIDAL-CLASSIFICATION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Descending motor tracts",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Classify the corticobulbar tract as part of the pyramidal, not extrapyramidal, system.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q42.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q42",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q42"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q43",
+      "id": "QST-ASUCNS3-ANATOMY-Q39",
+      "page": 43,
+      "title": "Proprioceptive sensation from the big toe ascends in the fasciculus gracilis and decussates in the medulla as which fibres?",
+      "question": "Proprioceptive sensation from the big toe ascends in the fasciculus gracilis and decussates in the medulla as which fibres?",
+      "options": {
+        "A": "Internal arcuate fibres",
+        "B": "Dorsal external arcuate fibres",
+        "C": "Anterior spinothalamic fibres",
+        "D": "Trigeminothalamic fibres"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. After synapsing in the gracile nucleus, second-order fibres cross the midline in the medulla as internal arcuate fibres to form the medial lemniscus, which carries proprioception (including from the big toe) to the thalamus. Because this pathway is entirely separate from the spinothalamic tract, a lesion can selectively abolish proprioception while sparing pain and temperature, or vice versa.",
+        "B": "Incorrect. Dorsal (posterior) external arcuate fibres pass to the cerebellum via the inferior cerebellar peduncle; they are a different set of fibres from the internal arcuate fibres that decussate for the medial lemniscus.",
+        "C": "Incorrect. Anterior spinothalamic fibres carry crude touch and pressure and decussate at the spinal cord level, not in the medulla, and are unrelated to gracile-fasciculus proprioception.",
+        "D": "Incorrect. Trigeminothalamic fibres carry facial, not lower-limb, sensation and are unrelated to the gracile fasciculus pathway."
+      },
+      "main_concept": "CON-NEU-1DAEC8F42F6C4E",
+      "concept_ids": [
+        "CON-NEU-1DAEC8F42F6C4E"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-DORSAL-COLUMN-MEDIAL-LEMNISCUS-PATHWAY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Ascending sensory pathways",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify internal arcuate fibres as the medullary decussation of the dorsal column-medial lemniscus pathway.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q43/72.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q43/72",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q43/72",
+        "collapsedFrom": "Q43, Q72 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q72",
+      "hold": "collapsed into anatomy-mcq-q43 — same fact, within-file duplicate (see concept CON-NEU-1DAEC8F42F6C4E field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q44",
+      "id": "QST-ASUCNS3-ANATOMY-Q40",
+      "page": 44,
+      "title": "Primary somatosensory representation of the leg and foot is found in which location?",
+      "question": "Primary somatosensory representation of the leg and foot is found in which location?",
+      "options": {
+        "A": "Posterior part of the paracentral lobule (medial surface)",
+        "B": "Lateral convexity of the postcentral gyrus, inferior part",
+        "C": "Anterior part of the paracentral lobule",
+        "D": "Superior temporal gyrus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The somatosensory homunculus wraps from the lateral convexity onto the medial hemispheric surface, where the posterior part of the paracentral lobule represents the leg and foot. This is why a parasagittal (falx) meningioma classically produces leg-predominant sensory or motor symptoms rather than arm or face involvement.",
+        "B": "Incorrect. The inferior part of the lateral postcentral gyrus represents the face, not the leg and foot.",
+        "C": "Incorrect. The anterior part of the paracentral lobule represents the corresponding primary motor territory for the leg (area 4), not the somatosensory (postcentral) representation.",
+        "D": "Incorrect. The superior temporal gyrus is auditory association cortex, unrelated to leg/foot somatosensation."
+      },
+      "main_concept": "CON-NEU-168E2C67CB6BA7",
+      "concept_ids": [
+        "CON-NEU-168E2C67CB6BA7"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-SOMATOSENSORY-LEG-FOOT-PARACENTRAL-LOBULE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cerebral cortex and higher function",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Localise the leg and foot primary somatosensory area to the posterior paracentral lobule.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q44.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q44",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q44"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q46",
+      "id": "QST-ASUCNS3-ANATOMY-Q41",
+      "page": 46,
+      "title": "All of the following are found in the lateral wall of the cavernous sinus EXCEPT:",
+      "question": "All of the following are found in the lateral wall of the cavernous sinus EXCEPT:",
+      "options": {
+        "A": "Oculomotor nerve (III)",
+        "B": "Ophthalmic nerve (V1)",
+        "C": "Mandibular nerve (V3)",
+        "D": "Trochlear nerve (IV)"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect as the exception. The oculomotor nerve does run in the lateral wall of the cavernous sinus, in its superior part.",
+        "B": "Incorrect as the exception. The ophthalmic division of the trigeminal nerve runs in the lateral wall, inferior to the trochlear nerve.",
+        "C": "Correct. The mandibular nerve (V3) leaves the trigeminal ganglion directly for foramen ovale and never enters the cavernous sinus region, unlike V1 and V2, making it the excluded structure. Because it lies free within the sinus rather than protected in the wall, the abducens nerve is often the first nerve affected by a cavernous sinus process.",
+        "D": "Incorrect as the exception. The trochlear nerve does run in the lateral wall, between the oculomotor nerve above and the ophthalmic nerve below."
+      },
+      "main_concept": "CON-NEU-94513EC37B29B8",
+      "concept_ids": [
+        "CON-NEU-94513EC37B29B8"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-CAVERNOUS-SINUS-LATERAL-WALL-CONTENTS"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous drainage of the face and orbit",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "List the cavernous sinus lateral wall contents and identify the mandibular nerve as excluded.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q46.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q46",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q46"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q48",
+      "id": "QST-ASUCNS3-ANATOMY-Q42",
+      "page": 48,
+      "title": "The anterior (uncrossed) corticospinal tract chiefly supplies which musculature?",
+      "question": "The anterior (uncrossed) corticospinal tract chiefly supplies which musculature?",
+      "options": {
+        "A": "Distal limb muscles",
+        "B": "Trunk (axial) muscles",
+        "C": "Muscles of mastication",
+        "D": "Extraocular muscles"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Distal limb muscles for skilled voluntary movement are supplied by the (crossed) lateral corticospinal tract, not the uncrossed anterior tract.",
+        "B": "Correct. The anterior corticospinal tract, formed by the uncrossed minority of corticospinal fibres, terminates bilaterally chiefly on motor neurons supplying the trunk and axial musculature. Because it terminates bilaterally, damage to one anterior corticospinal tract alone rarely causes a clinically obvious deficit, unlike lateral tract damage.",
+        "C": "Incorrect. Muscles of mastication are supplied by the trigeminal motor nucleus via the corticobulbar tract, not the corticospinal system.",
+        "D": "Incorrect. Extraocular muscles are supplied by cranial nerves III, IV and VI via corticobulbar (not corticospinal) input."
+      },
+      "main_concept": "CON-NEU-63C7920FBF2D93",
+      "concept_ids": [
+        "CON-NEU-63C7920FBF2D93"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-ANTERIOR-CORTICOSPINAL-TRACT-TRUNK-MUSCLES"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Spinal cord and vertebral levels",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Attribute trunk muscle innervation to the anterior corticospinal tract.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q48.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q48",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q48"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q49",
+      "id": "QST-ASUCNS3-ANATOMY-Q43",
+      "page": 49,
+      "title": "The inferior colliculus, an auditory relay structure, is found on which surface of the midbrain?",
+      "question": "The inferior colliculus, an auditory relay structure, is found on which surface of the midbrain?",
+      "options": {
+        "A": "Ventral surface",
+        "B": "Dorsal surface",
+        "C": "Lateral surface only, not visible dorsally",
+        "D": "It is found in the pons, not the midbrain"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The ventral (anterior) surface of the midbrain shows the cerebral peduncles, not the colliculi.",
+        "B": "Correct. The inferior colliculus, together with the superior colliculus, forms the corpora quadrigemina (tectum) on the dorsal surface of the midbrain; the inferior colliculus specifically relays auditory information. A lesion here can therefore impair sound localisation and the startle-related component of the auditory reflex pathway.",
+        "C": "Incorrect. The inferior colliculus is a dorsal midline-adjacent structure, clearly visible on the dorsal surface, not confined laterally.",
+        "D": "Incorrect. The inferior colliculus is a midbrain, not a pontine, structure."
+      },
+      "main_concept": "CON-NEU-0A175C7A032130",
+      "concept_ids": [
+        "CON-NEU-0A175C7A032130"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-INFERIOR-COLLICULUS-DORSAL-MIDBRAIN"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Midbrain surface anatomy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Locate the inferior colliculus on the dorsal surface of the midbrain.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q49.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q49",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q49"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q50",
+      "id": "QST-ASUCNS3-ANATOMY-Q44",
+      "page": 50,
+      "title": "Which brainstem nucleus carries both general visceral afferent (GVA) and special visceral afferent (taste, SVA) modalities?",
+      "question": "Which brainstem nucleus carries both general visceral afferent (GVA) and special visceral afferent (taste, SVA) modalities?",
+      "options": {
+        "A": "Nucleus ambiguus",
+        "B": "Nucleus solitarius",
+        "C": "Spinal trigeminal nucleus",
+        "D": "Dorsal motor nucleus of the vagus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Nucleus ambiguus is a motor (special visceral efferent) nucleus for the glossopharyngeal, vagus and cranial accessory nerves, not a sensory relay nucleus.",
+        "B": "Correct. The nucleus solitarius uniquely carries both GVA (visceral sensation from thoracic/abdominal organs and baroreceptors/chemoreceptors via IX and X) and SVA (taste, via VII, IX and X) modalities, receiving the facial nerve's taste input via the nucleus solitarius as well. This dual role also makes it central to the baroreceptor reflex, since it is the first relay for both blood pressure and taste information.",
+        "C": "Incorrect. The spinal trigeminal nucleus relays pain and temperature from the face (general somatic afferent), not visceral or taste modalities.",
+        "D": "Incorrect. The dorsal motor nucleus of the vagus is a general visceral efferent (parasympathetic motor) nucleus, not a sensory relay."
+      },
+      "main_concept": "CON-NEU-7B44F6D25CA065",
+      "concept_ids": [
+        "CON-NEU-7B44F6D25CA065"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-NUCLEUS-SOLITARIUS-GVA-SVA-RELAY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem cranial nerve nuclei",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify the nucleus solitarius as the shared GVA/SVA relay for cranial nerves VII, IX and X.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q50/77.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q50/77",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q50/77",
+        "collapsedFrom": "Q50, Q77 collapsed as one duplicate fact"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q77",
+      "hold": "collapsed into anatomy-mcq-q50 — same fact, within-file duplicate (see concept CON-NEU-7B44F6D25CA065 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q51",
+      "id": "QST-ASUCNS3-ANATOMY-Q45",
+      "page": 51,
+      "title": "The glossopharyngeal nerve's sole motor branch, to stylopharyngeus, arises from which brainstem nucleus?",
+      "question": "The glossopharyngeal nerve's sole motor branch, to stylopharyngeus, arises from which brainstem nucleus?",
+      "options": {
+        "A": "Nucleus solitarius",
+        "B": "Nucleus ambiguus",
+        "C": "Dorsal motor nucleus of the vagus",
+        "D": "Inferior salivatory nucleus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The nucleus solitarius is a sensory (GVA/SVA) relay nucleus, not a motor nucleus, for the glossopharyngeal nerve.",
+        "B": "Correct. The nucleus ambiguus, shared with the vagus and the accessory nerve's cranial root, supplies the glossopharyngeal nerve's only motor branch, to stylopharyngeus. The nucleus's shared use by three different cranial nerves is a common source of exam confusion about which specific muscle each supplies.",
+        "C": "Incorrect. The dorsal motor nucleus of the vagus is a parasympathetic (GVE) nucleus for the vagus nerve's visceral output, not a somatic/branchiomotor nucleus for the glossopharyngeal nerve.",
+        "D": "Incorrect. The inferior salivatory nucleus provides the glossopharyngeal nerve's parasympathetic (GVE) output to the parotid gland, not its motor (SVE) supply to stylopharyngeus."
+      },
+      "main_concept": "CON-NEU-EEACEE00B963D2",
+      "concept_ids": [
+        "CON-NEU-EEACEE00B963D2"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-NUCLEUS-AMBIGUUS-GLOSSOPHARYNGEAL-MOTOR"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem cranial nerve nuclei",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the nucleus ambiguus as the glossopharyngeal nerve's motor nucleus.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q51.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q51",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q51"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q54",
+      "id": "QST-ASUCNS3-ANATOMY-Q46",
+      "page": 54,
+      "title": "The superficial head of medial pterygoid, arising from the maxillary tuberosity, lies in what relation to lateral pterygoid?",
+      "question": "The superficial head of medial pterygoid, arising from the maxillary tuberosity, lies in what relation to lateral pterygoid?",
+      "options": {
+        "A": "Lateral to lateral pterygoid",
+        "B": "Deep (medial) to lateral pterygoid",
+        "C": "Superior to lateral pterygoid",
+        "D": "It fuses completely with lateral pterygoid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The superficial head of medial pterygoid, from the maxillary tuberosity, lies lateral to (anterior/outside) the lateral pterygoid muscle, while medial pterygoid's smaller deep head arises from the medial surface of the lateral pterygoid plate. Because its two heads sandwich lateral pterygoid between them, correctly separating the two muscles requires identifying which head is being examined.",
+        "B": "Incorrect. It is medial pterygoid's deep head, not its superficial head, that lies deep/medial in relation to lateral pterygoid.",
+        "C": "Incorrect. The superficial head's relation to lateral pterygoid is lateral, not superior; the two muscles are roughly at the same level in the infratemporal fossa.",
+        "D": "Incorrect. Medial and lateral pterygoid remain separate muscles with distinct origins, insertions and actions; they do not fuse."
+      },
+      "main_concept": "CON-NEU-46747C764D3656",
+      "concept_ids": [
+        "CON-NEU-46747C764D3656"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-MEDIAL-PTERYGOID-SUPERFICIAL-HEAD-RELATION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Muscles of mastication",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the superficial head of medial pterygoid lies lateral to lateral pterygoid.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q54.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q54",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q54"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q57",
+      "id": "QST-ASUCNS3-ANATOMY-Q47",
+      "page": 57,
+      "title": "The supplementary motor area, involved in planning complex movement, is located on which gyrus?",
+      "question": "The supplementary motor area, involved in planning complex movement, is located on which gyrus?",
+      "options": {
+        "A": "Medial frontal gyrus",
+        "B": "Postcentral gyrus",
+        "C": "Inferior frontal gyrus",
+        "D": "Supramarginal gyrus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The supplementary motor area lies on the medial surface of the superior (medial) frontal gyrus, anterior to the paracentral lobule's leg motor representation, and plans complex bilateral movement sequences. Because it plans complex, especially bilateral or sequential, movements, damage here can produce an akinetic pattern distinct from simple weakness.",
+        "B": "Incorrect. The postcentral gyrus is the primary somatosensory cortex, posterior to the central sulcus, not a motor planning area.",
+        "C": "Incorrect. The inferior frontal gyrus houses Broca's expressive language area, not the supplementary motor area.",
+        "D": "Incorrect. The supramarginal gyrus, in the parietal lobe, is involved in language and sensorimotor integration, not motor planning specifically."
+      },
+      "main_concept": "CON-NEU-3EC27FD2BD1A94",
+      "concept_ids": [
+        "CON-NEU-3EC27FD2BD1A94"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-SUPPLEMENTARY-MOTOR-AREA-MEDIAL-FRONTAL-GYRUS"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cerebral cortex and higher function",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Localise the supplementary motor area to the medial frontal gyrus.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q57.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q57",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q57"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q59",
+      "id": "QST-ASUCNS3-ANATOMY-Q48",
+      "page": 59,
+      "title": "A patient has ipsilateral tongue weakness with atrophy and contralateral loss of limb proprioception and vibration sense. Which vessel's territory is most likely infarcted?",
+      "question": "A patient has ipsilateral tongue weakness with atrophy and contralateral loss of limb proprioception and vibration sense. Which vessel's territory is most likely infarcted?",
+      "options": {
+        "A": "Posterior inferior cerebellar artery",
+        "B": "Anterior spinal artery (medial medulla)",
+        "C": "Superior cerebellar artery",
+        "D": "Posterior cerebral artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. PICA occlusion causes lateral medullary syndrome — contralateral body pain/temperature loss and ipsilateral facial pain/temperature loss, ataxia and Horner's syndrome — not ipsilateral tongue weakness or isolated proprioceptive loss.",
+        "B": "Correct. The anterior spinal artery (or paramedian vertebral branches) supplies the medial medulla, containing the hypoglossal fascicles/nucleus (ipsilateral tongue weakness and eventual atrophy), the pyramid (contralateral limb weakness) and the medial lemniscus (contralateral proprioceptive/vibratory loss) — medial medullary (Dejerine) syndrome. Because the lesion lies above the pyramidal decussation, the limb weakness appears contralateral, while the tongue weakness from the hypoglossal fascicle appears ipsilateral.",
+        "C": "Incorrect. Superior cerebellar artery occlusion affects the midbrain and superior cerebellum, producing ataxia and possible tremor, not the tongue-weakness-plus-proprioceptive-loss picture of medial medullary syndrome.",
+        "D": "Incorrect. The posterior cerebral artery supplies the occipital lobe and medial temporal lobe (visual field defects, memory), not the medulla."
+      },
+      "main_concept": "CON-NEU-9CE8FE54153CC8",
+      "concept_ids": [
+        "CON-NEU-9CE8FE54153CC8"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-MEDIAL-MEDULLARY-SYNDROME-ANTERIOR-SPINAL-ARTERY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Brainstem vascular syndromes",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Attribute the ipsilateral tongue weakness/contralateral proprioceptive loss triad to medial medullary syndrome from anterior spinal artery territory infarction.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q59/74/76.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q59/74/76",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q59/74/76",
+        "collapsedFrom": "Q59, Q74, Q76 collapsed as one duplicate fact"
+      },
+      "author_notes": "The source's vignette (Q76) pairs ipsilateral tongue atrophy and contralateral vibration loss (both classic medial medullary/anterior spinal artery findings) with contralateral pain and temperature loss as well, and keys the whole picture 'Medial Medulla'. Classically the spinothalamic tract lies laterally and is spared in a pure medial medullary lesion (pain/temperature loss is the hallmark of the lateral, PICA-territory syndrome instead). The printed key is authored as given per the standing rule that a printed key on a real paper stands; this note names the discrepancy for anyone reviewing the concept."
+    },
+    {
+      "key": "anatomy-mcq-q74",
+      "hold": "collapsed into anatomy-mcq-q59 — same fact, within-file duplicate (see concept CON-NEU-9CE8FE54153CC8 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q76",
+      "hold": "collapsed into anatomy-mcq-q59 — same fact, within-file duplicate (see concept CON-NEU-9CE8FE54153CC8 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q61",
+      "id": "QST-ASUCNS3-ANATOMY-Q49",
+      "page": 61,
+      "title": "Which cranial nerve runs freely within the body of the cavernous sinus, alongside the internal carotid artery, rather than in its lateral wall?",
+      "question": "Which cranial nerve runs freely within the body of the cavernous sinus, alongside the internal carotid artery, rather than in its lateral wall?",
+      "options": {
+        "A": "Oculomotor nerve (III)",
+        "B": "Trochlear nerve (IV)",
+        "C": "Abducens nerve (VI)",
+        "D": "Ophthalmic nerve (V1)"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The oculomotor nerve runs in the lateral wall of the cavernous sinus, not freely within its body.",
+        "B": "Incorrect. The trochlear nerve also runs in the lateral wall of the cavernous sinus, below the oculomotor nerve.",
+        "C": "Correct. The abducens nerve is the one oculomotor cranial nerve that runs freely within the cavernous sinus itself, immediately lateral to the internal carotid artery, rather than within the lateral wall — this makes it especially vulnerable to compression from an expanding cavernous internal carotid aneurysm or cavernous sinus thrombosis. This vulnerable position is why a sixth nerve palsy is often the earliest sign of a cavernous sinus mass, thrombosis or fistula.",
+        "D": "Incorrect. The ophthalmic division of the trigeminal nerve runs in the lateral wall of the cavernous sinus, inferior to the trochlear nerve, not freely within the sinus body."
+      },
+      "main_concept": "CON-FND-0D9D7A5BD1305F",
+      "concept_ids": [
+        "CON-FND-0D9D7A5BD1305F"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-FND-TOP-EC5A247500"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "ASU-CNS-3 > Anatomy > Cavernous sinus and orbital apex",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the abducens nerve as the cranial nerve running within, rather than in the wall of, the cavernous sinus.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q61.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q61",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q61"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q62",
+      "id": "QST-ASUCNS3-ANATOMY-Q50",
+      "page": 62,
+      "title": "The occipital artery, on its course to the scalp, passes in what relation to the posterior belly of digastric?",
+      "question": "The occipital artery, on its course to the scalp, passes in what relation to the posterior belly of digastric?",
+      "options": {
+        "A": "Superficial to it",
+        "B": "Below (deep to) it",
+        "C": "It pierces through the muscle belly",
+        "D": "It has no relation to digastric"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The occipital artery does not run superficial to the posterior belly of digastric; it passes deep to it.",
+        "B": "Correct. The occipital artery runs deep to (below) the posterior belly of digastric and stylohyoid before grooving the skull base medial to the mastoid process and supplying the posterior scalp. This deep relation also means the artery must be deliberately retracted or ligated during surgical exposure of the upper neck in this region.",
+        "C": "Incorrect. The occipital artery passes deep to, rather than piercing through, digastric's posterior belly.",
+        "D": "Incorrect. The relation to the posterior belly of digastric is a defined and clinically useful surgical landmark for locating the occipital artery."
+      },
+      "main_concept": "CON-NEU-D4EE7F9BDDC136",
+      "concept_ids": [
+        "CON-NEU-D4EE7F9BDDC136"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-OCCIPITAL-ARTERY-DIGASTRIC-RELATION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous and cutaneous anatomy of the head and neck",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the occipital artery courses deep to the posterior belly of digastric.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q62.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q62",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q62"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q63",
+      "id": "QST-ASUCNS3-ANATOMY-Q51",
+      "page": 63,
+      "title": "The pharyngeal plexus, supplying most pharyngeal muscles, is formed chiefly by the union of the glossopharyngeal nerve with branches of which nerve (carrying the accessory nerve's cranial root)?",
+      "question": "The pharyngeal plexus, supplying most pharyngeal muscles, is formed chiefly by the union of the glossopharyngeal nerve with branches of which nerve (carrying the accessory nerve's cranial root)?",
+      "options": {
+        "A": "Hypoglossal nerve",
+        "B": "Vagus nerve",
+        "C": "Facial nerve",
+        "D": "Mandibular nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The hypoglossal nerve supplies tongue musculature and is not a contributor to the pharyngeal plexus.",
+        "B": "Correct. The pharyngeal branch of the vagus nerve, carrying motor fibres contributed by the cranial root of the accessory nerve, unites with a sensory contribution from the glossopharyngeal nerve and sympathetic fibres to form the pharyngeal plexus on the middle constrictor. Because the plexus is chiefly motor via the vagus, a lesion here impairs swallowing and palatal elevation more than pharyngeal sensation.",
+        "C": "Incorrect. The facial nerve supplies the muscles of facial expression and has no role in forming the pharyngeal plexus.",
+        "D": "Incorrect. The mandibular nerve is purely a trigeminal branch to the lower face and jaw, unrelated to pharyngeal muscle innervation."
+      },
+      "main_concept": "CON-NEU-39B93ABE23744D",
+      "concept_ids": [
+        "CON-NEU-39B93ABE23744D"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-PHARYNGEAL-PLEXUS-VAGUS-ACCESSORY-UNION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cranial nerve motor supply",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that the pharyngeal plexus is formed by the union of vagal (with accessory cranial root) and glossopharyngeal fibres.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q63.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q63",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q63"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q65",
+      "id": "QST-ASUCNS3-ANATOMY-Q52",
+      "page": 65,
+      "title": "Head trauma affecting which cortical area classically produces a change in personality and behaviour?",
+      "question": "Head trauma affecting which cortical area classically produces a change in personality and behaviour?",
+      "options": {
+        "A": "Primary motor cortex (area 4)",
+        "B": "Prefrontal cortex",
+        "C": "Primary somatosensory cortex",
+        "D": "Primary visual cortex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Damage to the primary motor cortex produces contralateral weakness, not primarily a personality or behavioural change.",
+        "B": "Correct. The prefrontal cortex, the frontal association area responsible for executive function, judgement and social behaviour, is the area whose trauma classically produces disinhibition and personality change. Unlike a motor cortex injury, this can occur without any accompanying weakness, since the affected area lies entirely anterior to the motor strip.",
+        "C": "Incorrect. The primary somatosensory cortex, when damaged, produces contralateral sensory loss, not personality change.",
+        "D": "Incorrect. The primary visual cortex, in the occipital lobe, produces visual field defects when damaged, unrelated to personality."
+      },
+      "main_concept": "CON-NEU-B0F7899B8DFF50",
+      "concept_ids": [
+        "CON-NEU-B0F7899B8DFF50"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-PREFRONTAL-CORTEX-PERSONALITY-BEHAVIOR-CHANGE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cerebral cortex and higher function",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Attribute personality and behavioural change after head trauma to prefrontal cortex damage.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q65.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q65",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q65"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q67",
+      "id": "QST-ASUCNS3-ANATOMY-Q53",
+      "page": 67,
+      "title": "Which tract enters the cerebellum through the superior cerebellar peduncle, unlike its posterior counterpart?",
+      "question": "Which tract enters the cerebellum through the superior cerebellar peduncle, unlike its posterior counterpart?",
+      "options": {
+        "A": "Posterior spinocerebellar tract",
+        "B": "Anterior spinocerebellar tract",
+        "C": "Cuneocerebellar tract",
+        "D": "Vestibulocerebellar fibres"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The posterior spinocerebellar tract enters the cerebellum via the inferior, not superior, cerebellar peduncle.",
+        "B": "Correct. The anterior spinocerebellar tract is the exception among the ascending spinocerebellar pathways, entering the cerebellum through the superior cerebellar peduncle after ascending through the pons. Because most of its fibres effectively return to the ipsilateral side despite an early crossing, its net cerebellar input is still largely from the same side of the body.",
+        "C": "Incorrect. The cuneocerebellar tract, the upper-limb equivalent of the posterior spinocerebellar tract, also enters via the inferior cerebellar peduncle.",
+        "D": "Incorrect. Primary vestibulocerebellar fibres from the vestibular nerve/nuclei enter via the inferior cerebellar peduncle (juxtarestiform body), not the superior peduncle."
+      },
+      "main_concept": "CON-NEU-83A4F60D7ED148",
+      "concept_ids": [
+        "CON-NEU-83A4F60D7ED148"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-ANTERIOR-SPINOCEREBELLAR-TRACT-SCP-ENTRY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cerebellum and cerebellar peduncles",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify the anterior spinocerebellar tract as entering the cerebellum via the superior cerebellar peduncle.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q67.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q67",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q67"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q68",
+      "id": "QST-ASUCNS3-ANATOMY-Q54",
+      "page": 68,
+      "title": "Which cortical area is responsible for converting a planned movement into its executed muscle contractions?",
+      "question": "Which cortical area is responsible for converting a planned movement into its executed muscle contractions?",
+      "options": {
+        "A": "Premotor cortex (area 6)",
+        "B": "Primary motor cortex (area 4)",
+        "C": "Prefrontal cortex",
+        "D": "Primary somatosensory cortex (areas 1, 2, 3)"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The premotor cortex (area 6) contributes to planning and preparing movement, but area 4 is where the plan is translated into the specific executed muscle contraction pattern.",
+        "B": "Correct. The primary motor cortex, area 4 in the precentral gyrus, contains the corticospinal-fibre-generating pyramidal cells that convert a planned movement into its specific pattern of executed muscle contractions. Because it contains the largest pyramidal (Betz) cells, damage here produces the most severe, discrete weakness of any single cortical motor lesion.",
+        "C": "Incorrect. The prefrontal cortex governs executive function, judgement and personality, not the direct execution of movement.",
+        "D": "Incorrect. The primary somatosensory cortex processes incoming sensory information from the body, not the outgoing motor command for movement execution."
+      },
+      "main_concept": "CON-NEU-8F800A1650C2CA",
+      "concept_ids": [
+        "CON-NEU-8F800A1650C2CA"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-PRIMARY-MOTOR-CORTEX-AREA-4-FUNCTION"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cerebral cortex and higher function",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the primary motor cortex (area 4) converts a motor plan into executed movement.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q68.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q68",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q68"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q69",
+      "id": "QST-ASUCNS3-ANATOMY-Q55",
+      "page": 69,
+      "title": "The globus pallidus is grouped, in basal ganglia nomenclature, with which term?",
+      "question": "The globus pallidus is grouped, in basal ganglia nomenclature, with which term?",
+      "options": {
+        "A": "Neostriatum",
+        "B": "Paleostriatum",
+        "C": "Archicerebellum",
+        "D": "Neocerebellum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The neostriatum refers to the caudate nucleus and putamen, not the globus pallidus.",
+        "B": "Correct. The globus pallidus, phylogenetically older and the chief basal ganglia output structure, is termed the paleostriatum, distinct from the neostriatum (caudate + putamen). This nomenclature also underlies the classification of movement disorders: neostriatal disease tends to produce chorea, while paleostriatal/subthalamic disease produces parkinsonism or hemiballismus.",
+        "C": "Incorrect. Archicerebellum is cerebellar (flocculonodular lobe/vestibulocerebellum) nomenclature, unrelated to the basal ganglia's globus pallidus.",
+        "D": "Incorrect. Neocerebellum is likewise cerebellar nomenclature (posterior lobe hemispheres), not a basal ganglia term."
+      },
+      "main_concept": "CON-NEU-7376722F64A101",
+      "concept_ids": [
+        "CON-NEU-7376722F64A101"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-STRIATUM-NEOSTRIATUM-PALEOSTRIATUM-NOMENCLATURE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Basal ganglia",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Pair the globus pallidus with the term paleostriatum in basal ganglia nomenclature.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q69/75.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q69/75",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q69/75",
+        "collapsedFrom": "Q69, Q75 collapsed as one duplicate fact"
+      },
+      "author_notes": "Source Q69 prints 'Part of globus palidus? Paleocerebellum' — read in context with Q75 ('part of Neostriatum? Caudate nucleus'), this is authored as testing the standard neostriatum/paleostriatum basal-ganglia nomenclature pairing; 'paleocerebellum' appears to be the compilation's own transcription slip for 'paleostriatum' (the cerebellum has no globus pallidus component). Authored using the medically correct term (paleostriatum) rather than reproducing the apparent slip verbatim, with this doubt logged per the standing rule."
+    },
+    {
+      "key": "anatomy-mcq-q75",
+      "hold": "collapsed into anatomy-mcq-q69 — same fact, within-file duplicate (see concept CON-NEU-7376722F64A101 field_notes)"
+    },
+    {
+      "key": "anatomy-mcq-q71",
+      "id": "QST-ASUCNS3-ANATOMY-Q56",
+      "page": 71,
+      "title": "The deep facial vein provides a communication between the anterior facial vein and which structure?",
+      "question": "The deep facial vein provides a communication between the anterior facial vein and which structure?",
+      "options": {
+        "A": "Pterygoid venous plexus",
+        "B": "Cavernous sinus directly",
+        "C": "Superior sagittal sinus",
+        "D": "Internal jugular vein directly"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The deep facial vein is a short vessel connecting the anterior facial vein anteriorly with the pterygoid venous plexus in the infratemporal fossa posteriorly. This connection is one of several routes by which a dental or facial infection can potentially track back toward the cavernous sinus.",
+        "B": "Incorrect. The deep facial vein connects to the pterygoid plexus, not directly to the cavernous sinus; the pterygoid plexus itself communicates onward with the cavernous sinus via emissary veins.",
+        "C": "Incorrect. The superior sagittal sinus is an intracranial midline sinus, with no direct connection via the deep facial vein.",
+        "D": "Incorrect. The deep facial vein's connection is with the pterygoid venous plexus, not directly with the internal jugular vein."
+      },
+      "main_concept": "CON-NEU-CD12E6B6C6C018",
+      "concept_ids": [
+        "CON-NEU-CD12E6B6C6C018"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-DEEP-FACIAL-VEIN-CONNECTIONS"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous drainage of the head and neck",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the deep facial vein connects the anterior facial vein with the pterygoid venous plexus.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q71.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q71",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q71"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q73",
+      "id": "QST-ASUCNS3-ANATOMY-Q57",
+      "page": 73,
+      "title": "In an upper motor neuron (central) facial nerve lesion, weakness affects orbicularis oris (lower face) on the contralateral side because:",
+      "question": "In an upper motor neuron (central) facial nerve lesion, weakness affects orbicularis oris (lower face) on the contralateral side because:",
+      "options": {
+        "A": "The lower face receives only contralateral cortical innervation, while the upper face receives bilateral input",
+        "B": "The upper face receives only contralateral cortical innervation",
+        "C": "Both upper and lower face receive purely ipsilateral cortical innervation",
+        "D": "The facial nerve nucleus is entirely destroyed in a UMN lesion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The lower-face-supplying part of the facial motor nucleus receives corticobulbar input from the contralateral cortex only, so a UMN lesion produces contralateral lower-face weakness; the upper-face-supplying part receives bilateral cortical input and is spared. This is the clinical basis for asking a patient to raise their eyebrows: forehead sparing points to a central, not peripheral, facial nerve lesion.",
+        "B": "Incorrect. It is the lower face, not the upper face, that receives only contralateral cortical input; the upper face's bilateral input is exactly why it is spared in a UMN lesion.",
+        "C": "Incorrect. If both parts received only ipsilateral input, a UMN lesion would not weaken the contralateral face at all, contrary to the classic clinical picture.",
+        "D": "Incorrect. In a UMN lesion the facial nerve nucleus itself is intact; the lesion is in the descending corticobulbar pathway above the nucleus, which is why the bilaterally-innervated upper face is spared."
+      },
+      "main_concept": "CON-NEU-45E3BDAEF1EBB1",
+      "concept_ids": [
+        "CON-NEU-45E3BDAEF1EBB1"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-FACIAL-NERVE-UMN-LESION-LOWER-FACE-PATTERN"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cranial nerve motor supply",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Explain the forehead-sparing pattern of upper motor neuron facial weakness by differential cortical innervation.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q73.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q73",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q73"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q79",
+      "id": "QST-ASUCNS3-ANATOMY-Q58",
+      "page": 79,
+      "title": "A depressed fracture of the zygomatic arch most directly impairs function of which muscle, by mechanical impingement?",
+      "question": "A depressed fracture of the zygomatic arch most directly impairs function of which muscle, by mechanical impingement?",
+      "options": {
+        "A": "Masseter",
+        "B": "Buccinator",
+        "C": "Orbicularis oculi",
+        "D": "Sternocleidomastoid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The zygomatic arch gives origin to part of masseter and overlies the coronoid process/temporalis tendon; a depressed fracture can impinge on these structures and mechanically restrict masseter/mandibular movement, producing pain and limited jaw opening. Reduction of the fracture typically restores full masseter and mandibular function once the mechanical block is relieved.",
+        "B": "Incorrect. Buccinator, in the cheek, is not related to the zygomatic arch and is not mechanically affected by its fracture in the way masseter and temporalis are.",
+        "C": "Incorrect. Orbicularis oculi surrounds the orbit and is not mechanically related to the zygomatic arch's undersurface structures.",
+        "D": "Incorrect. Sternocleidomastoid lies in the neck and has no anatomical relation to the zygomatic arch."
+      },
+      "main_concept": "CON-NEU-2C0F24367FBB82",
+      "concept_ids": [
+        "CON-NEU-2C0F24367FBB82"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-ZYGOMATIC-ARCH-FRACTURE-MASSETER-EFFECT"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Muscles of mastication",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Explain how a zygomatic arch fracture can mechanically impair masseter/mandibular function.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q79.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q79",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q79"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "anatomy-mcq-q80",
+      "id": "QST-ASUCNS3-ANATOMY-Q59",
+      "page": 80,
+      "title": "The deep petrosal nerve, joining the greater petrosal nerve at the pterygopalatine ganglion, carries which type of fibres?",
+      "question": "The deep petrosal nerve, joining the greater petrosal nerve at the pterygopalatine ganglion, carries which type of fibres?",
+      "options": {
+        "A": "Postganglionic sympathetic fibres that pass through without synapsing",
+        "B": "Preganglionic parasympathetic fibres that synapse in the ganglion",
+        "C": "Special sensory taste fibres",
+        "D": "Postganglionic parasympathetic fibres leaving the ganglion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The deep petrosal nerve carries postganglionic sympathetic fibres (from the internal carotid plexus, ultimately from the superior cervical ganglion) that join the greater petrosal nerve as the nerve of the pterygoid canal and pass through the pterygopalatine ganglion without synapsing. Correctly separating the two petrosal nerves matters clinically, since only the greater petrosal nerve's parasympathetic fibres are lost in a proximal facial nerve lesion.",
+        "B": "Incorrect. It is the greater petrosal nerve, not the deep petrosal nerve, that carries the preganglionic parasympathetic fibres which do synapse in the pterygopalatine ganglion.",
+        "C": "Incorrect. Taste fibres from the palate travel with the greater petrosal nerve toward the facial nerve's geniculate ganglion, not with the deep petrosal nerve.",
+        "D": "Incorrect. Postganglionic parasympathetic fibres leave the ganglion via its own branches (e.g. palatine, nasopalatine, zygomatic nerves), not via the deep petrosal nerve, which only contributes the sympathetic component passing through."
+      },
+      "main_concept": "CON-NEU-2D56CA81BF18DC",
+      "concept_ids": [
+        "CON-NEU-2D56CA81BF18DC"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-SPHENOPALATINE-GANGLION-DEEP-PETROSAL-NERVE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Parasympathetic pathways of the head",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify the deep petrosal nerve as the sympathetic root passing through the pterygopalatine ganglion without synapsing.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q80.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q80",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q80"
+      },
+      "author_notes": "See definition/pitfall above: source Q80 keys 'deep petrosal nerve' as the ganglion's postganglionic fibre, which conflates the ganglion's parasympathetic output with its separate sympathetic root. Authored per classical teaching (deep petrosal = sympathetic root passing through without synapsing) rather than reproducing the source's apparent conflation, since the difference is a substantive physiological point, not a phrasing choice."
+    },
+    {
+      "key": "anatomy-mcq-q81",
+      "id": "QST-ASUCNS3-ANATOMY-Q60",
+      "page": 81,
+      "title": "The vein that runs superficially in the roof of the posterior triangle of the neck drains into which vessel?",
+      "question": "The vein that runs superficially in the roof of the posterior triangle of the neck drains into which vessel?",
+      "options": {
+        "A": "Internal jugular vein",
+        "B": "Subclavian vein",
+        "C": "Brachiocephalic vein directly",
+        "D": "Cephalic vein"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The external jugular vein is a separate tributary from the internal jugular vein; it drains directly into the subclavian vein, not the internal jugular.",
+        "B": "Correct. The external jugular vein, running superficially within the roof of the posterior triangle, pierces the investing deep cervical fascia to drain into the subclavian vein. This termination point is also why central venous access via the external jugular vein ultimately threads through the subclavian vein toward the heart.",
+        "C": "Incorrect. The subclavian vein, not the brachiocephalic vein directly, is the external jugular vein's point of termination; the brachiocephalic vein is formed further downstream by the union of the subclavian and internal jugular veins.",
+        "D": "Incorrect. The cephalic vein is an upper-limb superficial vein unrelated to the posterior triangle of the neck."
+      },
+      "main_concept": "CON-NEU-17B4DA74F86D39",
+      "concept_ids": [
+        "CON-NEU-17B4DA74F86D39"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-NEU-ASU-CNS3-POSTERIOR-TRIANGLE-ROOF-VEIN-SUBCLAVIAN-DRAINAGE"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Venous drainage of the head and neck",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the external jugular vein, in the posterior triangle roof, drains into the subclavian vein.",
+      "source_citation": "Ain Shams Year 3 CNS EOM Anatomy MCQ compilation (\"EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf\"), Q81.",
+      "field_notes": {
+        "keySource": "printed answer/topic stated before the stem, Q81",
+        "asu": "ASU-CNS-3 Anatomy MCQ bank, Q81"
+      },
+      "author_notes": ""
+    }
+  ]
+}

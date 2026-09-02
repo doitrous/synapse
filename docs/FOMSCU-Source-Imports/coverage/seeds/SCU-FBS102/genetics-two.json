@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-two",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-two'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Genetics > Molecular Genetics > DNA Replication"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-TWO",
+      "key": "genetics-two",
+      "title": "DNA replication produces two daughter molecules",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Genetics > Molecular Genetics > DNA Replication",
+      "question": "During the process of DNA replication, how many new, complete DNA molecules are normally produced from one original parent molecule?",
+      "options": {
+        "A": "One new copy",
+        "B": "Two",
+        "C": "Three copies",
+        "D": "Four copies"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A single new copy would leave the original strand still paired only with itself; semiconservative replication instead separates both original strands and builds a new complementary strand on each.",
+        "B": "Correct. DNA replication is semiconservative: the two strands of the parent double helix separate, and each serves as a template for one new complementary strand, producing exactly two daughter DNA molecules, each with one original (conserved) strand paired with one newly synthesized strand. This 'one old, one new' pairing in each daughter molecule is exactly what the Meselson-Stahl experiment demonstrated, ruling out fully conservative or dispersive models.",
+        "C": "Incorrect. Three copies would require an additional, unexplained replication event; a single round of DNA replication from one parent molecule always yields exactly two daughter molecules.",
+        "D": "Incorrect. Four copies would only arise after two successive rounds of replication; a single replication event produces two, not four, daughter molecules."
+      },
+      "topic": "Genetics",
+      "subtopic": "DNA replication",
+      "main_concept": "CON-FND-68DE9398BFF917",
+      "concept_ids": [
+        "CON-FND-68DE9398BFF917"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MOLECULAR-BIOLOGY-MITOCHONDRIAL"
+      ],
+      "learning_objective": "State that DNA replication produces exactly two daughter DNA molecules, each semiconservatively composed of one original parental strand and one newly synthesized strand.",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, Formative and Past Exams 2021 Q35, Formative and Past Exams 2022 Q15",
+      "author_notes": ""
+    }
+  ]
+}

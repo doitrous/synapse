@@ -1,0 +1,50 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank Lecture 35 (Heamodynamic disorders: Gangrene, heamorhage and edema) True/False- and Match-formatted rows (Quiz 35 Q15-Q21, q298-q304). Held as format-incompatible: the emit-mcq.mjs/validate-content-batch.mjs contract requires 4-5 lettered options with a per-option explanation, which neither a bare True/False stem nor a match-pairs stem has any way to supply without inventing distractor options and explanations the source never tested -- the same reasoning already applied to the match-type q046 hold and the Quiz 33 True/False block (q273-q277) in earlier clusters of this lane.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q298",
+      "hold": "True/False-formatted question (Quiz 35 Q15, p145: 'Frequent loss of small amount of blood for long period has no effect' -- printed answer 'False'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed (same reasoning as the q046 match-type hold and the Quiz 33 True/False block). The underlying fact (chronic small blood loss DOES have an effect -- it causes anemia) is already covered by this same lecture's authored Q7 (q290) -- not a coverage gap."
+    },
+    {
+      "key": "quizzes-2022-q299",
+      "hold": "True/False-formatted question (Quiz 35 Q16, p145: 'The prognosis of wet gangrene is worse than that of dry gangrene' -- printed answer 'True'). Held as format-incompatible, same reasoning as q298. This prognosis-comparison fact is not itself restated by another authored row in this lecture (q292's reused concept covers moist gangrene's lack of a line of demarcation, a related but distinct fact), so it is a genuinely new idea, but converting it to a real 4-5-option MCQ would require inventing three additional wrong prognosis comparisons the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q300",
+      "hold": "True/False-formatted question (Quiz 35 Q17, p145: 'Gangrene means necrosis with putrefaction' -- printed answer 'True'). Held as format-incompatible, same reasoning as q298. This definitional fact is related to, but not restated by, this same lecture's authored Q11 (q294, hydrogen sulphide as gangrene's odour-producing putrefaction product); converting it to a real MCQ would require inventing three wrong definitions the source never tested."
+    },
+    {
+      "key": "quizzes-2022-q301",
+      "hold": "True/False-formatted question (Quiz 35 Q18, p146: 'Cardiac oedema is a localised type of oedema' -- printed answer 'False'). Held as format-incompatible, same reasoning as q298. The underlying fact (cardiac oedema is generalized, not localised) is already covered by this same lecture's authored Q4 (q287, lymphatic obstruction as the example of local oedema, implicitly excluding cardiac) and Q10 (q293, malnutrition as a generalized-oedema cause) -- not a coverage gap."
+    },
+    {
+      "key": "quizzes-2022-q302",
+      "hold": "True/False-formatted question (Quiz 35 Q19, p146: 'Gangrene of the lower limbs is of the dry type due to evaporation of fluid' -- printed answer 'True'). Held as format-incompatible, same reasoning as q298. This dry-gangrene-mechanism fact is not restated by another authored row in this lecture (this lecture's own authored Q14/q297 covers the opposite case, moist gangrene from volvulus), so it is a genuinely new idea, but converting it to a real MCQ would require inventing three wrong mechanisms the source never tested."
+    },
+    {
+      "key": "quizzes-2022-q303",
+      "hold": "Match-type question (Quiz 35 Q20, p146: match Moist gangrene / Dry gangrene / Haemorrhage / Fat embolism to intussusception / atheroma / aneurysm / bone fracture respectively). Held as format-incompatible: not translatable to this platform's single-answer 4-5-option MCQ format without inventing wrong pairings the source never tested, the same reasoning as the q046 match-type hold in an earlier cluster. The four underlying facts are scattered examples (intussusception causing moist gangrene, atheroma causing dry gangrene, aneurysm causing haemorrhage, bone fracture causing fat embolism), none of which duplicate this lecture's own authored rows."
+    },
+    {
+      "key": "quizzes-2022-q304",
+      "hold": "Match-type question (Quiz 35 Q21, p147: match Thrombus / Haemorrhage / Venous congestion / Edema to infarction / melena / varices / ascites respectively). Held as format-incompatible, same reasoning as q303. The four underlying facts are scattered examples (thrombus causing infarction, haemorrhage presenting as melena, venous congestion causing varices, oedema causing ascites); the ascites/oedema pairing is related to, but not identical to, this lecture's authored Q1/Q8 (q284/q291, hepatic and cardiac oedema and ascites), so this is not a coverage gap for that specific fact, but the other three pairings are genuinely new and equally untranslatable without fabricating a distractor set."
+    }
+  ]
+}

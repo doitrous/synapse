@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-the-hip-bone",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-the-hip-bone'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "msk",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Osteology"
+  },
+  "questions": [
+    {
+      "key": "anatomy-the-hip-bone",
+      "id": "QST-SCUFBS102-S2-ANATOMY-THE-HIP-BONE",
+      "title": "The bone forming the pelvic girdle",
+      "question": "Which of the following bones forms the pelvic girdle?",
+      "options": {
+        "A": "The hip bone",
+        "B": "The femur bone",
+        "C": "The sacrum bone",
+        "D": "The lumbar vertebrae"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The hip bone (os coxae) is formed by the fusion of the ilium, ischium and pubis. It is the bone that forms the pelvic girdle — the ring of bone linking the lower limb to the axial skeleton — together with the sacrum behind. The girdle's two hip bones meet each other anteriorly at the pubic symphysis and the sacrum posteriorly at the sacroiliac joints.",
+        "B": "Incorrect. The femur is a bone of the lower limb itself, articulating with the pelvic girdle at the hip joint, but it is not part of the girdle.",
+        "C": "Incorrect. The sacrum joins the two hip bones at the sacroiliac joints and sits within the bony pelvis, but it is part of the vertebral (axial) skeleton, not the pelvic girdle proper.",
+        "D": "Incorrect. The lumbar vertebrae are part of the vertebral column above the sacrum, unrelated to the pelvic girdle itself."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Skeletal system: pelvis and lower limb",
+      "main_concept": "CON-MSK-C13E91A6C14613",
+      "concept_ids": [
+        "CON-MSK-C13E91A6C14613"
+      ],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "cognitive_effort_score": 0.15,
+      "reasoning_level": 1,
+      "inferred_difficulty": 65,
+      "exam_relevance": 3,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-JOINTS-TERMINOLOGY"
+      ],
+      "learning_objective": "Name the hip bone as the bone forming the pelvic girdle, distinct from the femur and the vertebral column.",
+      "source_citation": "FOMSCU Foundation 1 EOM Mid 2026, Q3",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOM Mid 2026 Q3; source-JSON extraction."
+      }
+    }
+  ]
+}

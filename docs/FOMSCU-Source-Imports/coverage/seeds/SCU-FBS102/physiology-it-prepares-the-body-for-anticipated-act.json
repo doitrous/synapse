@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "physiology-it-prepares-the-body-for-anticipated-act",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'physiology-it-prepares-the-body-for-anticipated-act'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "fnd",
+    "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Feedback Mechanisms"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-PHYSIOLOGY-IT-PREPARES-THE-BODY-FOR-ANTICIPATED-ACT",
+      "key": "physiology-it-prepares-the-body-for-anticipated-act",
+      "title": "Feedforward control prepares the body for anticipated events",
+      "subject": "fnd",
+      "module_subject": "SCU-FBS102 > Physiology > Homeostasis > Feedback Mechanisms",
+      "question": "Why is the feedforward mechanism in physiological control systems named this way?",
+      "options": {
+        "A": "It completely inhibits heat-loss mechanisms",
+        "B": "It prepares the body for an anticipated change before it occurs",
+        "C": "It reacts to environmental stimuli only after they occur",
+        "D": "It provides negative feedback directly to a control center"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Feedforward control is not specifically about inhibiting heat loss; it is a general anticipatory strategy that can apply across many physiological variables, not a thermoregulation-specific inhibitory mechanism.",
+        "B": "Correct. Feedforward control acts pre-emptively, triggering a response based on a signal that predicts a disturbance is coming, before the controlled variable has actually changed — the response moves 'forward,' ahead of the anticipated event, which is exactly why it is named feedforward. This contrasts with negative feedback, which can only correct a deviation that has already occurred, not one that is merely expected.",
+        "C": "Incorrect. Reacting only after a stimulus occurs describes negative feedback, the opposite pattern from feedforward, which acts in anticipation rather than in response to an already-occurred deviation.",
+        "D": "Incorrect. Feedforward is a distinct control strategy from negative feedback, not a mechanism for delivering negative feedback; the two operate by different timing logic."
+      },
+      "topic": "Physiology",
+      "subtopic": "Feedback control systems",
+      "main_concept": "CON-FND-BF03A19A976CFA",
+      "concept_ids": [
+        "CON-FND-BF03A19A976CFA"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-PHY-HOMEOSTASIS-CONTROL-SYSTEMS"
+      ],
+      "learning_objective": "Define feedforward control as an anticipatory response triggered before an expected change occurs, and contrast it with negative feedback, which corrects a deviation only after it has happened.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOM Foundation 1 2026 Q21",
+      "author_notes": ""
+    }
+  ]
+}

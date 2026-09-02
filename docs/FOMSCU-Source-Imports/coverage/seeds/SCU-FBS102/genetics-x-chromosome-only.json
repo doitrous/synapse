@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-x-chromosome-only",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-x-chromosome-only'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "dev",
+    "module_subject": "SCU-FBS102 > Genetics > Gametogenesis > Oogenesis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-X-CHROMOSOME-ONLY",
+      "key": "genetics-x-chromosome-only",
+      "title": "A mature oocyte carries only an X chromosome",
+      "subject": "dev",
+      "module_subject": "SCU-FBS102 > Genetics > Gametogenesis > Oogenesis",
+      "question": "A normal mature human oocyte naturally contains which of the following sex chromosomes?",
+      "options": {
+        "A": "Y chromosome only",
+        "B": "Either X or Y chromosome",
+        "C": "Both X and Y chromosomes",
+        "D": "X chromosome only"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A mature oocyte can never carry a Y chromosome, because the female germline is XX from the outset, with no Y chromosome present to be segregated into any meiotic product.",
+        "B": "Incorrect. 'Either X or Y' correctly describes the two possible outcomes of spermatogenesis, produced by an XY germline, but it does not describe oogenesis, which can only ever yield an X-bearing egg.",
+        "C": "Incorrect. A single haploid gamete carries only one sex chromosome, never both simultaneously; this would also require an XY, not XX, starting germline.",
+        "D": "Correct. Every primary oocyte begins meiosis with the XX sex-chromosome pair and no Y chromosome, so whichever sex chromosome ends up in the mature oocyte after meiosis can only ever be an X — making the fertilizing sperm, not the egg, the determinant of the conceptus's chromosomal sex. This is the direct converse of spermatogenesis, where an XY germline produces both X-bearing and Y-bearing sperm in equal numbers."
+      },
+      "topic": "Genetics",
+      "subtopic": "Gametogenesis",
+      "main_concept": "CON-DEV-50015F4FFA7A0B",
+      "concept_ids": [
+        "CON-DEV-50015F4FFA7A0B"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-GAMETOGENESIS-CHROMOSOME-NUMBER"
+      ],
+      "learning_objective": "State that a mature oocyte's sex chromosome is always X, never Y, because the female germline (XX) contains no Y chromosome to segregate.",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOY Foundation 1 2026 Q43",
+      "author_notes": ""
+    }
+  ]
+}

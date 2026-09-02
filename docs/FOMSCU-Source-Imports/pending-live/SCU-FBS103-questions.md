@@ -1,0 +1,2058 @@
+<!--
+  SCU-FBS103 S2 minting lane 1 (scu-fbs103-author1) — cluster 'pending-live-reuse-batch1'. 15 questions reuse an existing concept (4 already live, 10 pending in other lanes' unimported batches, 1 extends an existing +scu overlay row from SCU-FBS102). Keys and stems read from the FOMSCU own-source quiz-app JSON (MID 2026 EOM, plus one EOY 2025 duplicate-fact question); explanations rewritten in house voice, never pasted from the source JSON's own (FOMNINU-sourced) Arabic explanation field. Apply after docs/FOMSCU-Source-Imports/pending-live/SCU-FBS103-overlay-concepts.md and, for the 10 pending-concept rows, after their named source files are live (see that overlay file's header for the exact gate command).
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-ANATOMY-FACIALVEIN
+
+## title
+Primary venous drainage of the superficial face
+
+## question
+The primary venous drainage of the superficial structures of the face is carried out by the:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Facial vein
+
+## explanation_a
+Correct. The facial vein is the principal superficial vein of the face, running from the medial angle of the eye down across the face to join the anterior division of the retromandibular vein near the angle of the mandible before draining into the internal jugular vein. It collects blood from the superficial structures it passes — the eyelids, nose, lips and cheek — and is the vessel surgeons and clinicians mean when they describe superficial facial drainage. Because it has no valves and communicates with the cavernous sinus through the ophthalmic veins and pterygoid plexus, infection along its territory (the classic "danger triangle" of the face) can spread intracranially.
+
+## answer_b
+Maxillary vein
+
+## explanation_b
+Incorrect. The maxillary vein drains the deep structures supplied by the maxillary artery (the pterygoid venous plexus, infratemporal fossa) and empties into the retromandibular vein — it is a deep, not superficial, drainage channel.
+
+## answer_c
+Retromandibular vein
+
+## explanation_c
+Incorrect. The retromandibular vein is formed behind the mandible by the union of the maxillary and superficial temporal veins; it receives the facial vein's tributary further down rather than draining the superficial face on its own.
+
+## answer_d
+Internal jugular vein directly
+
+## explanation_d
+Incorrect. The internal jugular vein is the deep neck vessel that ultimately receives facial drainage indirectly (via the common facial vein), not the vessel that directly collects blood from the superficial face.
+
+## topic
+Anatomy
+
+## subtopic
+Head and neck: venous drainage of the face
+
+## main_concept
+CON-FND-10446D757EB8E7
+
+## concept_ids
+CON-FND-10446D757EB8E7
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-FND-TOP-EC5A247500
+
+## resource_ids
+
+## learning_objective
+Name the facial vein as the principal superficial venous drainage channel of the face, distinct from the deep maxillary and retromandibular veins.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q25
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Facial vein', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q25; source-JSON extraction.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-EMBRYOLOGY-TROPHOBLASTLAYERS
+
+## title
+Trophoblast differentiation on day 8
+
+## question
+On the 8th day of development, the trophoblast differentiates into two distinct layers known as the:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Endoderm and ectoderm
+
+## explanation_a
+Incorrect. Endoderm and ectoderm are two of the embryonic disc's own germ layers, formed inside the embryoblast around day 8 — a separate event from the trophoblast's own differentiation.
+
+## answer_b
+Cytotrophoblast and syncytiotrophoblast
+
+## explanation_b
+Correct. Around day 8, as the blastocyst embeds in the endometrium, the trophoblast splits into an inner cytotrophoblast — a single layer of mitotically active, cuboidal cells that retains distinct cell boundaries — and an outer syncytiotrophoblast, a multinucleated mass formed by cytotrophoblast cells fusing together, which erodes maternal endometrial tissue and drives implantation. The cytotrophoblast is the proliferative layer, continually adding new cells into the syncytiotrophoblast above it, which is itself the layer directly in contact with maternal blood and tissue and, later, the site of placental hormone (hCG) production. This division of labour — a dividing inner layer feeding an invasive, non-dividing outer layer — is the structural basis of the entire placental barrier for the rest of the first trimester.
+
+## answer_c
+Epiblast and hypoblast
+
+## explanation_c
+Incorrect. The epiblast and hypoblast are the two layers of the bilaminar embryonic disc, formed from the embryoblast (inner cell mass), not from the trophoblast.
+
+## answer_d
+Somatic and splanchnic mesoderm
+
+## explanation_d
+Incorrect. Somatic and splanchnic mesoderm arise later, once the intraembryonic coelom splits the lateral plate mesoderm in the third week — well after day 8's trophoblast differentiation.
+
+## topic
+Embryology
+
+## subtopic
+Second week: trophoblast differentiation
+
+## main_concept
+CON-OBS-CE9AE0A25B4C0B
+
+## concept_ids
+CON-OBS-CE9AE0A25B4C0B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-OBS-TOP-7954252A8E
+
+## resource_ids
+
+## learning_objective
+State that the trophoblast differentiates into cytotrophoblast (inner, proliferative) and syncytiotrophoblast (outer, invasive) around day 8, distinct from the embryoblast's own epiblast/hypoblast split.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q28
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Cytotrophoblast and syncytiotrophoblast', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q28; source-JSON extraction.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-PATHOLOGY-HYPERTROPHY
+
+## title
+Cellular adaptation from weightlifting
+
+## question
+When skeletal muscles increase in size following weightlifting exercise, this cellular adaptation is termed:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Atrophy
+
+## explanation_a
+Incorrect. Atrophy is a decrease in cell or tissue size, the opposite adaptation, typically from disuse, denervation or reduced workload — not from exercise.
+
+## answer_b
+Hyperplasia
+
+## explanation_b
+Incorrect. Hyperplasia is an increase in cell number, not cell size; skeletal muscle fibres are terminally differentiated and cannot divide, so exercise cannot add new fibres by mitosis (the modest fibre-number changes seen with extreme training are attributed to satellite-cell fusion, not classical hyperplasia).
+
+## answer_c
+Hypertrophy
+
+## explanation_c
+Correct. Hypertrophy is an increase in the size of existing cells without an increase in their number, and it is the adaptation exercise physiology attributes to resistance training: repeated mechanical loading drives skeletal muscle fibres to synthesise more contractile protein (actin and myosin) and enlarge their existing myofibrils, so the muscle grows bigger because each fibre is bigger, not because there are more fibres. This is a physiological hypertrophy — a normal, reversible adaptive response to an increased functional demand — in contrast to pathological hypertrophy (such as cardiac hypertrophy from chronic hypertension), which shares the same cellular mechanism but is a compensatory response to disease.
+
+## answer_d
+Metaplasia
+
+## explanation_d
+Incorrect. Metaplasia is the reversible replacement of one differentiated cell type by another better suited to a new stress (e.g. respiratory columnar epithelium becoming squamous with chronic smoking) — a change in cell type, not cell size, and unrelated to muscle loading.
+
+## topic
+Pathology
+
+## subtopic
+Cell injury and adaptation: hypertrophy
+
+## main_concept
+CON-MSK-0BE756765378A6
+
+## concept_ids
+CON-MSK-0BE756765378A6
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-MSK-TOP-B54C248DF1
+
+## resource_ids
+
+## learning_objective
+Identify hypertrophy (increased cell size) as the adaptation behind exercise-induced skeletal muscle growth, distinguishing it from hyperplasia, atrophy and metaplasia.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q45
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Hypertrophy', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q45; source-JSON extraction.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-PHARMACOLOGY-PENICILLINSOURCE
+
+## title
+Natural source of penicillin
+
+## question
+Natural penicillin is primarily obtained from which of the following sources?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Synthetic chemicals
+
+## explanation_a
+Incorrect. Synthetic chemicals describe fully lab-made drugs (like sulfonamides); natural penicillin is not built from scratch by chemists — it is harvested from a living source.
+
+## answer_b
+Minerals
+
+## explanation_b
+Incorrect. Minerals are inorganic and have no biosynthetic capacity to produce a complex antibiotic molecule like penicillin.
+
+## answer_c
+Microorganisms
+
+## explanation_c
+Correct. Antibiotics, by definition, are low-molecular-weight antimicrobial secondary metabolites originally produced by microorganisms as a competitive weapon against other microbes sharing their environment. Natural penicillin is the textbook example: Alexander Fleming isolated it from the mould Penicillium notatum (later Penicillium chrysogenum for industrial production), a fungus, and this microbial origin is exactly what separates a "natural" antibiotic like penicillin from a fully synthetic antimicrobial or from a semisynthetic derivative (such as amoxicillin) that starts from the natural fermentation product and is then chemically modified.
+
+## answer_d
+Animal extracts
+
+## explanation_d
+Incorrect. Animal extracts are the source of some hormones and biologics (such as insulin, historically), not of antibiotics — penicillin's origin is fungal, not animal.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobial chemotherapy: antibiotic origins
+
+## main_concept
+CON-INF-ABF1EA01540430
+
+## concept_ids
+CON-INF-ABF1EA01540430
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-INF-TOP-65C8E5125F
+
+## resource_ids
+
+## learning_objective
+State that natural penicillin, like antibiotics generally, is originally produced by microorganisms (Penicillium mould), not synthesised, mined or extracted from animals.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Microorganisms', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q15; source-JSON extraction.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-HISTOLOGY-TROPONINC
+
+## title
+Calcium's binding target in excitation–contraction coupling
+
+## question
+During skeletal muscle contraction, calcium ions released from the sarcoplasmic reticulum directly bind to which protein?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Actin
+
+## explanation_a
+Incorrect. Actin is the thin-filament protein whose myosin-binding sites are physically covered by tropomyosin at rest — calcium does not bind actin itself; it acts one step upstream, on the troponin complex, to uncover those sites.
+
+## answer_b
+Troponin C
+
+## explanation_b
+Correct. Excitation–contraction coupling relays a T-tubule depolarisation into calcium release from the sarcoplasmic reticulum's terminal cisternae, and that released calcium binds directly to troponin C, one of the three subunits of the troponin complex (alongside troponin I and troponin T) that sits along the thin filament. Calcium binding troponin C causes a conformational change that pulls tropomyosin away from actin's myosin-binding sites, allowing the myosin heads to attach and cycle — this calcium–troponin C interaction is the molecular switch that turns contraction on. When calcium is pumped back into the sarcoplasmic reticulum and falls, it detaches from troponin C, tropomyosin re-covers the sites, and the muscle relaxes.
+
+## answer_c
+Tropomyosin
+
+## explanation_c
+Incorrect. Tropomyosin is the regulatory protein that physically blocks the myosin-binding sites on actin at rest; it is moved out of the way as a downstream consequence of calcium binding troponin C, but calcium does not bind tropomyosin directly.
+
+## answer_d
+Myosin heads
+
+## explanation_d
+Incorrect. Myosin heads bind ATP and actin during the cross-bridge cycle, but calcium's regulatory binding site in skeletal muscle is on troponin C, not on myosin itself.
+
+## topic
+Histology
+
+## subtopic
+Muscle tissue: excitation-contraction coupling
+
+## main_concept
+CON-MSK-3013AA61E917B7
+
+## concept_ids
+CON-MSK-3013AA61E917B7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-103-PHY-SKELETAL-MUSCLE-EC-COUPLING
+
+## resource_ids
+
+## learning_objective
+State that calcium released from the sarcoplasmic reticulum binds troponin C (not actin, tropomyosin, or myosin directly) to initiate skeletal muscle contraction.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q24
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Troponin C', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q24; source-JSON extraction. Apply after docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-MICROBIOLOGY-BINARYFISSION
+
+## title
+Primary method of bacterial replication
+
+## question
+What is the primary method by which bacteria replicate?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Spore formation
+
+## explanation_a
+Incorrect. Spore formation (sporulation) is a survival strategy some bacteria (such as Bacillus and Clostridium species) use under adverse conditions — it produces a dormant, resistant spore, not two viable daughter bacteria, so it is not the ordinary method of replication.
+
+## answer_b
+Budding
+
+## explanation_b
+Incorrect. Budding is the asexual reproduction method of some yeasts and a minority of bacteria, where a smaller daughter cell pinches off an unequal outgrowth of the parent — this is not the typical bacterial replication mechanism.
+
+## answer_c
+Binary fission
+
+## explanation_c
+Correct. Bacteria reproduce by simple binary fission: the single, usually circular chromosome replicates, the cell elongates, and a septum forms to divide the cell into two genetically identical daughter cells of equal size. This is possible precisely because bacteria carry one chromosome rather than the diploid, spindle-based apparatus that eukaryotic mitosis or meiosis requires — there is no need for spindle fibres, centrosomes or a multi-phase cell cycle checkpoint system, so binary fission is a much faster and structurally simpler process than eukaryotic cell division.
+
+## answer_d
+Meiosis
+
+## explanation_d
+Incorrect. Meiosis is a eukaryotic process that halves chromosome number to produce gametes; bacteria are haploid with a single chromosome and have no meiotic apparatus at all.
+
+## topic
+Microbiology
+
+## subtopic
+Bacterial growth: binary fission
+
+## main_concept
+CON-INF-25DA8EFD9E1DA5
+
+## concept_ids
+CON-INF-25DA8EFD9E1DA5
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-INF-AUN-INI105-BACTERIAL-GROWTH
+
+## resource_ids
+
+## learning_objective
+State that bacteria replicate by binary fission, made possible by their single chromosome, distinct from eukaryotic mitosis/meiosis, sporulation, or budding.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Binary fission', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q18; source-JSON extraction. Apply after docs/Assiut-Source-Imports/concept/AUN-INI-105-ch2-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-BIOCHEMISTRY-AMINOACYLTRNASYNTHETASE
+
+## title
+Enzyme that loads amino acids onto tRNA
+
+## question
+Which of the following enzymes is directly involved in aminoacyl-tRNA synthesis?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Peptidyl transferase
+
+## explanation_a
+Incorrect. Peptidyl transferase is the ribozyme activity of the large ribosomal subunit that catalyses peptide-bond formation between amino acids already loaded onto tRNAs at the ribosome — it acts downstream of, and does not itself charge, the tRNA.
+
+## answer_b
+RNA polymerase
+
+## explanation_b
+Incorrect. RNA polymerase transcribes DNA into RNA (including the tRNA molecule itself, before it is charged) — it plays no role in attaching an amino acid to a finished tRNA.
+
+## answer_c
+Aminoacyl-tRNA synthetase
+
+## explanation_c
+Correct. Aminoacyl-tRNA synthetases are the enzymes, not the ribosome itself, that are the primary guarantee of translational fidelity: each of the 20 is specific for one amino acid and its cognate tRNA — a specificity sometimes called the "second genetic code" — and each catalyses the two-step, ATP-consuming reaction that first activates the amino acid (forming aminoacyl-AMP) and then transfers it onto the 3' end of the matching tRNA, producing the charged aminoacyl-tRNA that the ribosome will use during translation. The small ribosomal subunit's decoding centre adds a further layer of codon–anticodon proofreading afterward, but the synthetase's own amino-acid/tRNA matching is what makes correct charging happen in the first place.
+
+## answer_d
+DNA ligase
+
+## explanation_d
+Incorrect. DNA ligase seals nicks in the DNA backbone during replication and repair — an entirely separate process from loading amino acids onto tRNA for protein synthesis.
+
+## topic
+Biochemistry
+
+## subtopic
+Molecular biology: translation
+
+## main_concept
+CON-FND-02E8733D78D5DC
+
+## concept_ids
+CON-FND-02E8733D78D5DC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
+
+## resource_ids
+
+## learning_objective
+Identify aminoacyl-tRNA synthetase as the enzyme that charges tRNA with its matching amino acid, distinct from RNA polymerase, peptidyl transferase, and DNA ligase.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Aminoacyl-tRNA synthetase', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q9; source-JSON extraction. Apply after docs/Ain-Shams-Source-Imports/concept/ASU-MBG-translation-protein-synthesis-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-PARASITOLOGY-RHABDITIFORMLARVAE
+
+## title
+Diagnostic stage of Strongyloides stercoralis
+
+## question
+What is the diagnostic stage for some nematodes like Strongyloides stercoralis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Scolex
+
+## explanation_a
+Incorrect. The scolex is the attachment organ (head) of a tapeworm (cestode), an entirely different class of helminth from the nematode Strongyloides stercoralis.
+
+## answer_b
+Bothrium
+
+## explanation_b
+Incorrect. A bothrium is a sucking groove found on the scolex of certain tapeworms (like Diphyllobothrium) — again a cestode structure, not a nematode diagnostic form.
+
+## answer_c
+Strobila
+
+## explanation_c
+Incorrect. The strobila is the chain of proglottids (segments) making up a tapeworm's body — another cestode-specific term, unrelated to Strongyloides.
+
+## answer_d
+Rhabditiform larvae
+
+## explanation_d
+Correct. The rhabditiform larva, not the egg or the infective filariform larva, is the diagnostic stage of Strongyloides stercoralis found in stool — unlike most soil-transmitted nematodes, Strongyloides typically releases larvae (which hatch from eggs while still in the intestinal mucosa) rather than eggs into the faeces, so stool microscopy for strongyloidiasis specifically looks for rhabditiform larvae rather than ova. This distinguishes Strongyloides diagnosis from hookworm and other nematode infections, where the egg itself is the stage searched for in a standard stool exam.
+
+## topic
+Parasitology
+
+## subtopic
+Nematodes: Strongyloides stercoralis
+
+## main_concept
+CON-GIT-9041A06C9B074B
+
+## concept_ids
+CON-GIT-9041A06C9B074B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-HU-GIT301-PARA-NEMATODES
+
+## resource_ids
+
+## learning_objective
+State that the rhabditiform larva, not the egg, is the diagnostic stool stage of Strongyloides stercoralis, distinguishing it from cestode structures (scolex, bothrium, strobila).
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q1
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Rhabditiform larvae', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q1; source-JSON extraction. Apply after docs/Helwan-Source-Imports/concept/HU-GIT-301-parasitology-part2-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-BIOCHEMISTRY-DNALIGASE
+
+## title
+Enzyme joining phosphodiester bonds of DNA strands
+
+## question
+Which of the following enzymes is responsible for joining the phosphodiester bonds of DNA strands?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+DNA polymerase
+
+## explanation_a
+Incorrect. DNA polymerase synthesises new DNA by adding nucleotides to an existing 3'-OH end, reading the template strand — it extends strands but cannot seal the nick left where two already-synthesised fragments meet.
+
+## answer_b
+DNA ligase
+
+## explanation_b
+Correct. DNA ligase joins Okazaki fragments together, sealing the nicks left on the lagging strand by catalysing formation of the phosphodiester bond between the 3'-OH end of one DNA fragment and the 5'-phosphate end of the next, using ATP (or NAD+ in bacteria) as the energy source. This sealing step is essential because the lagging strand is synthesised discontinuously as many short fragments — without ligase to join them, the daughter DNA strand would remain fragmented and unstable, and the same enzyme also seals nicks generated during DNA repair pathways.
+
+## answer_c
+RNA primase
+
+## explanation_c
+Incorrect. RNA primase synthesises the short RNA primers that DNA polymerase needs to begin extending each new DNA fragment — it starts fragments, it does not join the DNA fragments together.
+
+## answer_d
+DNA helicase
+
+## explanation_d
+Incorrect. DNA helicase unwinds the double helix ahead of the replication fork by breaking hydrogen bonds between base pairs — an unwinding function, unrelated to sealing phosphodiester bonds.
+
+## topic
+Biochemistry
+
+## subtopic
+Molecular biology: DNA replication
+
+## main_concept
+CON-FND-252B3C77D181DA
+
+## concept_ids
+CON-FND-252B3C77D181DA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-FND-DNA-REPLICATION-REPAIR-PCR
+
+## resource_ids
+
+## learning_objective
+Identify DNA ligase as the enzyme that seals phosphodiester-bond nicks between DNA fragments, distinct from DNA polymerase, RNA primase, and helicase.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q40
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'DNA ligase', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q40; source-JSON extraction. Apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-MICROBIOLOGY-VIRALGENOME
+
+## title
+Composition of a virus's genome
+
+## question
+The genome of a virus is exclusively composed of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Both DNA and RNA simultaneously
+
+## explanation_a
+Incorrect. No known virus carries both DNA and RNA as its genome at once — a single virion always has one nucleic-acid type only, never a mixture of both within the same genome.
+
+## answer_b
+Peptidoglycan
+
+## explanation_b
+Incorrect. Peptidoglycan is a bacterial cell wall structural polymer, not a nucleic acid, and viruses (which lack a cell wall altogether) do not contain it.
+
+## answer_c
+Either DNA or RNA
+
+## explanation_c
+Correct. A virus's genetic material is either DNA or RNA, never both — this is one of the defining features that separates viruses from cellular organisms (bacteria, fungi, and human/animal cells), which always carry DNA as their genome. Depending on the virus family, that single nucleic acid may be single- or double-stranded, and linear or circular, but the basic rule — one virus, one nucleic-acid type — holds across all viral classifications (the Baltimore classification system itself is built on exactly this DNA-versus-RNA and strandedness distinction).
+
+## answer_d
+Lipopolysaccharides
+
+## explanation_d
+Incorrect. Lipopolysaccharide (LPS, endotoxin) is a Gram-negative bacterial outer-membrane component, not a nucleic acid, and has no role in viral genome composition.
+
+## topic
+Microbiology
+
+## subtopic
+General virology: viral genome
+
+## main_concept
+CON-INF-A732F8E1F4CA86
+
+## concept_ids
+CON-INF-A732F8E1F4CA86
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-INF-AUN-INI105-GENERAL-VIROLOGY
+
+## resource_ids
+
+## learning_objective
+State that a virus's genome is exclusively DNA or RNA, never both, distinguishing this from bacterial structural components (peptidoglycan, LPS).
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q50
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Either DNA or RNA', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q50; source-JSON extraction. Apply after docs/Assiut-Source-Imports/concept/AUN-INI-105-ch6-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-MICROBIOLOGY-OBLIGATEANAEROBES
+
+## title
+Bacteria that die in the presence of oxygen
+
+## question
+Bacteria that can live only in the complete absence of oxygen and die in its presence are classified as:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Obligate aerobes
+
+## explanation_a
+Incorrect. Obligate aerobes are the opposite: they require oxygen and cannot grow without it, because they depend entirely on aerobic respiration for energy.
+
+## answer_b
+Facultative anaerobes
+
+## explanation_b
+Incorrect. Facultative anaerobes can grow either with or without oxygen, switching their metabolism depending on availability — they are not killed by oxygen the way obligate anaerobes are.
+
+## answer_c
+Microaerophiles
+
+## explanation_c
+Incorrect. Microaerophiles need oxygen, but only at a reduced concentration below atmospheric level; normal atmospheric oxygen is toxic to them, but they still require some oxygen to grow, unlike obligate anaerobes which require none at all.
+
+## answer_d
+Obligate anaerobes
+
+## explanation_d
+Correct. Obligate anaerobes can live only in the complete absence of oxygen and die in its presence. The mechanistic reason is enzymatic: aerobic bacterial respiration generates toxic reactive oxygen species (superoxide and hydrogen peroxide) as by-products, and organisms that respire aerobically require catalase and/or superoxide dismutase (SOD) to detoxify them. Obligate anaerobes are, by definition, the one group that lacks these ROS-degrading enzymes, which is exactly why oxygen exposure is lethal to them — aerobes, facultative anaerobes and microaerophiles all retain at least one of catalase or SOD, which is what lets them tolerate oxygen to varying degrees.
+
+## topic
+Microbiology
+
+## subtopic
+Bacterial growth: oxygen requirements
+
+## main_concept
+CON-INF-2E9D6F833A7D5E
+
+## concept_ids
+CON-INF-2E9D6F833A7D5E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-INF-OXYGEN-REQUIREMENTS-ENZYMES
+
+## resource_ids
+
+## learning_objective
+State that obligate anaerobes die in the presence of oxygen because they lack catalase/SOD, distinguishing them from obligate aerobes, facultative anaerobes, and microaerophiles.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q51
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Obligate anaerobes', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q51; source-JSON extraction. Apply after docs/Ain-Shams-Source-Imports/concept/ASU-INF-microbiology-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-EMBRYOLOGY-PRIMARYYOLKSAC
+
+## title
+Fate of the blastocyst cavity
+
+## question
+During embryonic development, the blastocyst cavity (blastocele) eventually becomes the:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Amniotic cavity
+
+## explanation_a
+Incorrect. The amniotic cavity forms separately, as a space that opens up within the epiblast (not the blastocele) around day 8, and comes to be lined by amnioblasts.
+
+## answer_b
+Neural tube
+
+## explanation_b
+Incorrect. The neural tube forms much later, in the third to fourth week, by folding of the neural plate — an ectodermal structure with no direct developmental link to the blastocele.
+
+## answer_c
+Primary yolk sac
+
+## explanation_c
+Correct. The primary yolk sac is formed when flat cells arising from the hypoblast spread out to line the blastocele — this lining layer is called Heuser's (exocoelomic) membrane — converting the former blastocyst cavity into the primary (exocoelomic) yolk sac around day 9. This primary yolk sac is later replaced by the secondary (definitive) yolk sac, formed when a second wave of hypoblast-derived cells lines the inside of Heuser's membrane and a large part of the primary sac's outer wall pinches off as the extraembryonic (chorionic) cavity expands.
+
+## answer_d
+Notochord
+
+## explanation_d
+Incorrect. The notochord develops from a distinct population of cells migrating cranially through the primitive node during gastrulation in the third week — an entirely separate origin from the blastocele's fate.
+
+## topic
+Embryology
+
+## subtopic
+Second week: yolk sac formation
+
+## main_concept
+CON-DEV-1D10DF3B716A70
+
+## concept_ids
+CON-DEV-1D10DF3B716A70
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+
+## resource_ids
+
+## learning_objective
+State that Heuser's membrane (from the hypoblast) lines the blastocele to form the primary yolk sac, distinct from the amniotic cavity, neural tube, and notochord.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q59
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Primary yolk sac', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q59; source-JSON extraction. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-PHARMACOLOGY-FULLAGONIST
+
+## title
+Ligand type with maximum activation and high efficacy
+
+## question
+A drug that binds to a receptor and produces maximum activation with high efficacy is termed a:
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Partial agonist
+
+## explanation_a
+Incorrect. A partial agonist binds with affinity but produces only a submaximal response however much is given, however high its dose — it never reaches the maximum activation a full agonist can achieve, and it even acts as a functional antagonist when a full agonist is also present.
+
+## answer_b
+Competitive antagonist
+
+## explanation_b
+Incorrect. A competitive antagonist binds the receptor with affinity but has no efficacy of its own — it produces no activation at all, and works only by blocking an agonist from binding.
+
+## answer_c
+Full agonist
+
+## explanation_c
+Correct. A ligand may be classified as a full agonist, a partial agonist, an inverse agonist or an antagonist according to what its binding does to the receptor. A full agonist is the one that binds and produces the maximum response the receptor system can give — it has both high affinity (it binds well) and high (maximal) efficacy (it activates the receptor fully) — which is exactly the drug behaviour this stem describes.
+
+## answer_d
+Inverse agonist
+
+## explanation_d
+Incorrect. An inverse agonist binds and produces the opposite of the agonist's effect, by reducing the receptor's constitutive (baseline) activity below its resting level — this is a suppressive action, the reverse of maximal activation.
+
+## topic
+Pharmacology
+
+## subtopic
+Receptor pharmacology: ligand types
+
+## main_concept
+CON-FND-4388E0D8A75FD4
+
+## concept_ids
+CON-FND-4388E0D8A75FD4
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-108-PHA-PHARMACODYNAMICS
+
+## resource_ids
+
+## learning_objective
+Identify a full agonist as the ligand with both high affinity and maximal efficacy, distinct from a partial agonist, antagonist, or inverse agonist.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q47
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Full agonist', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q47; source-JSON extraction. Apply after docs/Kasr-Source-Imports/concept/108-INT-concepts-pharmacology.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-PHYSIOLOGY-RMP70MV
+
+## title
+Resting membrane potential of a typical neuron
+
+## question
+The resting membrane potential of a typical neuron is approximately:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+About +35 mV
+
+## explanation_a
+Incorrect. +35 mV is close to the peak of an action potential's depolarisation, not the resting state — a positive value means the cell has already fired, not that it is resting.
+
+## answer_b
+-90 mV
+
+## explanation_b
+Incorrect. -90 mV is closer to the resting potential of large nerve and large skeletal muscle fibres specifically, which sit at the more negative end of the resting-potential range because of their especially high resting potassium permeability, not the typical medium-sized neuron this stem asks about.
+
+## answer_c
+-70 mV
+
+## explanation_c
+Correct. The resting membrane potential is the polarised, un-stimulated potential difference across the membrane, and its magnitude varies by cell type: about -90 mV in large nerve fibres and large skeletal muscle fibres, about -70 mV in medium-sized neurons — the typical value this question asks for — and only -20 to -40 mV in less excitable cells such as red blood cells and epithelial cells. The negative sign means the inside of the membrane is negative relative to the outside, and this baseline value is what an adequate depolarising stimulus must move away from threshold to trigger an action potential.
+
+## answer_d
+-55 mV
+
+## explanation_d
+Incorrect. -55 mV is close to the typical firing threshold for many neurons (the point an adequate stimulus must reach to trigger an action potential), not the resting potential itself — confusing the two is a common exam trap since they are only about 15 mV apart.
+
+## topic
+Physiology
+
+## subtopic
+Nerve physiology: resting membrane potential
+
+## main_concept
+CON-NEU-8319D639D05322
+
+## concept_ids
+CON-NEU-8319D639D05322
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-103-PHY-RMP-EQUATIONS
+
+## resource_ids
+
+## learning_objective
+State that a typical (medium-sized) neuron's resting membrane potential is about -70 mV, distinguishing it from large-fibre RMP (-90 mV) and firing threshold (-55 mV).
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q38
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer '-70 mV', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q38; source-JSON extraction. Apply after docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md.
+
+---
+
+# Item
+
+## id
+QST-SCUFBS103-PENDING-LIVE-REUSE-BATCH1-EMBRYOLOGY-GASTRULATION
+
+## title
+Third-week event establishing the three germ layers
+
+## question
+What is the main developmental event that occurs during the third week of embryonic development, establishing the three germ layers?
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Gastrulation
+
+## explanation_a
+Correct. Gastrulation makes the trilaminar disc in the third week, and all three of its layers come from the epiblast: epiblast cells migrate through the primitive streak, and the ones that pass through become the new mesoderm and definitive endoderm, while the epiblast cells left behind become the ectoderm. This is the event that converts the bilaminar embryonic disc (epiblast and hypoblast only) into a trilaminar one, and it is the reason every subsequent organ system can be traced back to one of these three germ layers. This same fact is already tested by SCU-FBS102's own Foundation 1 paper, which is why this question extends that existing concept's own module tags rather than minting a second one.
+
+## answer_b
+Blastocyst formation
+
+## explanation_b
+Incorrect. Blastocyst formation happens in the first week, when the morula's inner cell mass and blastocele cavity develop — well before, and developmentally distinct from, gastrulation's germ-layer formation in week three.
+
+## answer_c
+Implantation
+
+## explanation_c
+Incorrect. Implantation is the process by which the blastocyst embeds into the endometrium, occurring around day 6-7 of the second week — a separate, earlier event from the third week's gastrulation.
+
+## answer_d
+Cleavage
+
+## explanation_d
+Incorrect. Cleavage is the series of mitotic divisions the zygote undergoes in the first week to produce the blastomeres and eventually the morula — again, an earlier and distinct process from gastrulation.
+
+## topic
+Embryology
+
+## subtopic
+Third week: gastrulation
+
+## main_concept
+CON-DEV-215BD7E9E58872
+
+## concept_ids
+CON-DEV-215BD7E9E58872
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS103
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-PARAXIAL-MESODERM
+
+## resource_ids
+
+## learning_objective
+State that gastrulation, in the third week, converts the bilaminar disc into the trilaminar disc via epiblast migration through the primitive streak.
+
+## source_citation
+FOMSCU Foundation 2, EOM MID 2026, Q29
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Gastrulation', FOMSCU Foundation 2 QBank
+fomscu: EOM MID 2026 Q29; source-JSON extraction. This concept is already tagged +scu by SCU-FBS102's own overlay (docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md) — this question extends that row's `modules` to add SCU-FBS103, rather than creating a second overlay row. Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md (same target the FBS102 row already names).

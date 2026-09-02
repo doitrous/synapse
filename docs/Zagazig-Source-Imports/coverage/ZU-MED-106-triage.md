@@ -84,17 +84,60 @@ coincidence: Kasr's own Cardiopulmonary module is also "104 CPS", unrelated to Z
 cross-university overlap `find-existing.mjs` and the concept-id-overlay rule
 (`concept-id-mint-is-university-blind`) are built to catch.
 
+## The other 3 Priority-4 Cardiopulmonary sources (author2 pass)
+
+**Triaged this pass, 0 keyed MCQs recovered — a genuine "nothing to author" result,
+not a gap.** Two are misnamed: despite "Final" in their filenames and a `paper`/tier-1
+classification in `coverage/ZU-Y1-priority-sources.md`, both are large lecture/study-guide
+compilations ("BRIEF IN CLINICAL TEAM", 1st-year Cardio-Pulmonary Module 23-24), not exam
+papers — the third is a genuine exam but in image-identification OSPE format, not SBA.
+
+| Source | Pages | What it actually is | Questions found | Keys recovered |
+|---|--:|---|--:|--:|
+| `Cardio-Pulmonary Module Final (4).pdf` | 244 | Lecture/study-guide book, "Part 1": Anatomy, Histology, Biochemistry, Physiology of the Heart and Blood Vessels | 1 embedded case-study (2 MCQ-format items, p144, Gaucher disease) | 0 (no printed/marked key on either item) |
+| `Cardio-Pulmonary Module Final ---Part 2-1.pdf` | 125 | Same book, "Part 2": Anatomy, Histology, Physiology of the Respiratory system (URT/LRT) | 0 | 0 |
+| `all Previous Years ospe Cardiopulmonary  (1).pdf` | 135 | Genuine OSPE exam — image-identification stations ("Identify structure A/B" on a radiograph/specimen, answered by naming the structure), not SBA/MCQ | ~19+ stations (station-numbered, image-based) | n/a — no letter options exist to key; out of scope by format, not held |
+
+**Key-recovery method (or lack of one) for the two lecture books**: `pagetext.mjs keys`
+reported 19 keyed / 29 ambiguous / 531 unmarked on `Final (4).pdf` and 9 keyed / 24
+ambiguous / 311 unmarked on `Part 2-1.pdf` — both numbers are **false positives**, not
+real MCQ content. Confirmed by reading 6 of the flagged pages directly (`Final (4).pdf`
+pp.17, 18, 92, 240, 241; `Part 2-1.pdf` p.52): every one is ordinary lecture text with a
+numbered or lettered sub-list (`1) ... 2) ...` or `a) ... b) ...`, and an unrelated
+bold/coloured heading or "N.B." callout elsewhere on the same page — the detector's
+red-text/bold-flag heuristic (built for exam papers with genuinely marked-up options)
+misattributes that unrelated styling onto the nearest numbered list and calls it a keyed
+"question". A full-text search for actual question-shaped phrasing
+(`grep "Case study|Choose|select the|true regarding|following except|MCQ|Which of the
+following"`) found exactly 1 hit in 244 pages (`Final (4).pdf` p.144, "Case study:") and
+0 hits in 125 pages (`Part 2-1.pdf`) — consistent with "almost no embedded MCQs, and the
+few that exist carry no key at all" rather than "many keyed MCQs the detector is
+finding". The two Gaucher-disease items on p.144 are genuine 4-option MCQs but have no
+colour, bold, underline, highlight or hand-drawn mark on any option — nothing to recover,
+so they are **held**, not authored (see `coverage/ZU-MED-106-triage-keys.txt`).
+
+**Corpus-wide implication**: any other module's `*Final*` or `*Module Final*`-named file
+that turns out to be 100+ pages should be treated as a possible lecture-book mislabel,
+not assumed to be an exam paper on filename alone — check the table of contents (page 1-3)
+before running `keys` on it. `pagetext.mjs keys`'s false-positive rate on this document
+style (numbered lecture lists + coloured/bold headings) looks corpus-wide too, not a
+one-file quirk — a `keys` hit on a 100+-page file should be render-confirmed before
+trusting it, same caution as the (opposite-direction) hand-drawn-ink trap on `Final`-named
+exam papers above.
+
+The OSPE file's ~19 image-identification stations are catalogued (station numbers seen at
+pp.7, 11, 12, 14, 19, 20, 66, 72, 75, 77 and more) but not transcribed question-by-question
+— they need the underlying image (radiograph/specimen/model) to answer, which this
+lane's text-only MCQ-authoring format can't carry; flagged for whichever future
+lane/format handles image-based OSPE content, not held as an MCQ gap.
+
 ## Remaining scope (not done this pass)
 
-- **3 more Priority-4 Cardiopulmonary sources** untouched: `Cardio-Pulmonary Module
-  Final (4).pdf`, `Cardio-Pulmonary Module Final ---Part 2-1.pdf`, `all Previous Years
-  ospe Cardiopulmonary (1).pdf`. The first of these was spot-checked for `keys` only (5
-  pages, 0 keyed, 2 unmarked) — not yet triaged for content or checked for the same
-  hand-mark pattern.
 - **~143 non-priority Cardiopulmonary files** (154 total in `manifest/y1-sources.md` for
   `ZU-MED-106`, minus the 4 Priority-4 + this session's spot-checks) are sha256'd and
   readability-indexed but not read.
 - **7 other Year 1 modules** have had no S3 triage at all yet.
+- The OSPE file's individual stations, if a future lane wants image-based OSPE content.
 
 ## Needs Omar
 

@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-23-duplicated-chromosome",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-23-duplicated-chromosome'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "dev",
+    "module_subject": "SCU-FBS102 > Genetics > Gametogenesis > Spermatogenesis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-23-DUPLICATED-CHROMOSOME",
+      "key": "genetics-23-duplicated-chromosome",
+      "title": "Secondary spermatocyte chromosome complement",
+      "subject": "dev",
+      "module_subject": "SCU-FBS102 > Genetics > Gametogenesis > Spermatogenesis",
+      "question": "A secondary spermatocyte typically contains which of the following chromosomal arrangements?",
+      "options": {
+        "A": "46 duplicated chromosomes",
+        "B": "46 single chromosomes",
+        "C": "23 single chromosomes",
+        "D": "23 duplicated chromosomes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. 46 duplicated chromosomes describes the primary spermatocyte, before the first meiotic division has halved the chromosome number.",
+        "B": "Incorrect. 46 single chromosomes does not correspond to any normal stage of spermatogenesis; the chromosome number is halved to 23 at the first meiotic division while the chromosomes are still duplicated.",
+        "C": "Incorrect. 23 single chromosomes describes the spermatid, produced only after the second meiotic division separates the sister chromatids; a secondary spermatocyte has not yet undergone that division.",
+        "D": "Correct. The first meiotic division separates homologous chromosomes (reductional), halving the chromosome number to 23 but leaving each chromosome still duplicated into two sister chromatids, so a secondary spermatocyte has 23 duplicated chromosomes (46 chromatids total) until the second meiotic division separates the chromatids. Only the second meiotic division, which separates the sister chromatids rather than the homologues, converts this into the genuinely single-chromatid spermatid."
+      },
+      "topic": "Genetics",
+      "subtopic": "Spermatogenesis",
+      "main_concept": "CON-DEV-77845EA568BC7D",
+      "concept_ids": [
+        "CON-DEV-77845EA568BC7D"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MEIOSIS-SPERMATOGENESIS"
+      ],
+      "learning_objective": "State that a secondary spermatocyte has 23 duplicated chromosomes (46 chromatids) — haploid in chromosome number but each chromosome still doubled — and distinguish this from the 23 single chromosomes of the spermatid that follows the second meiotic division.",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOY Foundation 1 2026 Q44",
+      "author_notes": ""
+    }
+  ]
+}

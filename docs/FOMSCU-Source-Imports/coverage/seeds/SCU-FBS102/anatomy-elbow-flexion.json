@@ -1,0 +1,72 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "anatomy-elbow-flexion",
+  "header": "SCU-FBS102 S2 minting lane 3 (scu-fbs102-author3) — cluster 'anatomy-elbow-flexion'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "msk",
+    "module_subject": "SCU-FBS102 > Anatomy > Basis of Anatomy > Muscular System"
+  },
+  "questions": [
+    {
+      "key": "anatomy-elbow-flexion",
+      "id": "QST-SCUFBS102-S2-ANATOMY-ELBOW-FLEXION",
+      "title": "Triceps as the antagonist of elbow flexion",
+      "question": "The triceps muscle acts as an antagonist during which of the following specific joint movements?",
+      "options": {
+        "A": "Wrist extension",
+        "B": "Shoulder flexion",
+        "C": "Elbow flexion",
+        "D": "Complete and full elbow extension"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Wrist extension is produced by the wrist extensor group, and triceps plays no direct antagonist role there — it acts at the elbow, not the wrist.",
+        "B": "Incorrect. The long head of triceps does cross the shoulder, but its antagonist role there is minor compared with its defining relationship at the elbow, which is what this question tests.",
+        "C": "Correct. In a simple movement, the agonist (prime mover) actively shortens to produce it while the antagonist relaxes and lengthens to allow it. At the elbow, biceps brachii and brachialis are the prime movers of flexion, so triceps brachii — the elbow's own extensor — is the antagonist during flexion, simply yielding to let the movement happen.",
+        "D": "Incorrect. During elbow extension the roles reverse: triceps becomes the agonist (actively contracting to extend the elbow) while biceps and brachialis become the antagonists — the opposite of the pairing asked about."
+      },
+      "topic": "Anatomy",
+      "subtopic": "Muscle action terminology",
+      "main_concept": "CON-MSK-5EA8A1155CBD94",
+      "concept_ids": [
+        "CON-MSK-5EA8A1155CBD94"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "cognitive_effort_score": 0.3,
+      "reasoning_level": 2,
+      "inferred_difficulty": 50,
+      "exam_relevance": 4,
+      "clinical_relevance": 0.2,
+      "academic_relevance": 0.8,
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
+      "library_ids": [
+        "ART-SCU-FBS102-ANA-JOINTS-TERMINOLOGY"
+      ],
+      "learning_objective": "Identify triceps brachii as the antagonist during elbow flexion, and state that roles reverse for extension.",
+      "source_citation": "FOMSCU Foundation 1 EOM Mid 2026, Q18",
+      "field_notes": {
+        "keySource": "printed answer, FOMSCU Foundation 1 QBank",
+        "fomscu": "EOM Mid 2026 Q18; source-JSON extraction."
+      }
+    }
+  ]
+}

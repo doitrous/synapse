@@ -1,0 +1,341 @@
+{
+  "lane": "MUST-CVS201",
+  "cluster": "physblood-direct",
+  "header": "MUST-CVS-201 - Physiology tranche (author7) - Blood Flow direct MCQs (main_concept either newly minted this tranche or already live-in-lane from tranche 1) - from the Physiology CVS201 EOM Final paper, keys read from the paper's own printed Blood Flow answer key (p.9).",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["must"],
+    "years": ["MUST_Y2"],
+    "module": "MUST-CVS-201",
+    "exam_weight_by_year": { "MUST_Y2": "moderate" },
+    "question_only_for": "",
+    "topic": "Physiology",
+    "subtopic": "Blood Flow",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "resource_ids": ["src_165188e079f0f475e54d"],
+    "source_citation": "Physiology CVS201 Questions (Final), Blood Flow section, key p.9."
+  },
+  "questions": [
+    {
+      "key": "physblood-q05",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q05",
+      "page": 2,
+      "title": "Basal vasomotor tone maintenance",
+      "question": "The continuous, partial vasoconstriction of blood vessels is maintained by:",
+      "options": {
+        "A": "Parasympathetic tone",
+        "B": "Sympathetic tone",
+        "C": "Autoregulation",
+        "D": "Basal metabolic rate"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Parasympathetic vasodilator fibres supply only a limited set of vascular beds, such as the salivary glands and genital erectile tissue, and are not the source of generalised arteriolar tone.",
+        "B": "Correct. Arterioles are held in a state of continuous partial constriction, called vasomotor tone, by ongoing tonic discharge from sympathetic vasoconstrictor fibres releasing norepinephrine onto alpha-adrenergic receptors, even at rest. This resting sympathetic outflow gives arterioles a baseline degree of constriction that can be increased by further sympathetic discharge or decreased by its withdrawal, which is how the nervous system adjusts vascular resistance and blood pressure moment to moment. Because the tone is continuous rather than intermittent, withdrawing it produces vasodilation just as effectively as an active vasodilator signal would.",
+        "C": "Incorrect. Autoregulation is a local, intrinsic mechanism that keeps blood flow to a specific tissue constant despite changes in perfusion pressure; it is not the source of the body's generalised, sympathetically-driven baseline vessel tone.",
+        "D": "Incorrect. Basal metabolic rate reflects the body's resting energy expenditure and influences local tissue blood-flow demand, but it does not itself maintain the sympathetic vasoconstrictor discharge that produces vasomotor tone."
+      },
+      "main_concept": "CON-CVS-511A10F77151BC",
+      "concept_ids": ["CON-CVS-511A10F77151BC"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasomotor Tone",
+      "library_ids": ["ART-CVS-VASOMOTOR-TONE"],
+      "learning_objective": "State that basal vasomotor tone is maintained by continuous sympathetic vasoconstrictor discharge, not by parasympathetic activity, autoregulation or basal metabolic rate."
+    },
+    {
+      "key": "physblood-q07",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q07",
+      "page": 2,
+      "title": "Epinephrine and skeletal muscle vasodilation",
+      "question": "During a \"fight or flight\" response, epinephrine causes vasodilation in skeletal muscle by acting on:",
+      "options": {
+        "A": "Alpha-adrenergic receptors",
+        "B": "Beta-adrenergic receptors",
+        "C": "Muscarinic receptors",
+        "D": "Nicotinic receptors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Alpha-adrenergic receptors, which predominate in skin, splanchnic and renal vessels, are the receptor epinephrine binds to cause vasoconstriction, not the skeletal-muscle vasodilation this question asks about.",
+        "B": "Correct. In skeletal muscle, beta2-adrenergic receptors predominate over alpha receptors, so epinephrine released from the adrenal medulla binds beta2 receptors there and causes vasodilation rather than the vasoconstriction it produces almost everywhere else. This increases blood flow to skeletal muscle during a fight-or-flight response, precisely when the body needs to shunt blood away from the skin and splanchnic circulation and toward the muscles that will do the fighting or fleeing. Norepinephrine, by contrast, acts almost exclusively on alpha receptors and is a vasoconstrictor in essentially every vascular bed it reaches, which is why epinephrine's dual, receptor-bed-dependent action is the distinguishing fact tested here.",
+        "C": "Incorrect. Muscarinic receptors mediate parasympathetic (acetylcholine) signalling, not the adrenal-medulla catecholamine action this question describes.",
+        "D": "Incorrect. Nicotinic receptors mediate fast synaptic transmission at autonomic ganglia and the neuromuscular junction, not epinephrine's direct vascular smooth-muscle action."
+      },
+      "main_concept": "CON-CVS-8EE3B5EE80F342",
+      "concept_ids": ["CON-CVS-8EE3B5EE80F342"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones",
+      "library_ids": ["ART-CVS-EPINEPHRINE-DUAL-ACTION"],
+      "learning_objective": "State that epinephrine's vascular action is receptor-bed-dependent, vasoconstricting via alpha receptors in most beds but vasodilating skeletal muscle via beta2 receptors."
+    },
+    {
+      "key": "physblood-q12",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q12",
+      "page": 4,
+      "title": "RAS activation trigger",
+      "question": "The Renin-Angiotensin System (RAS) is primarily activated by:",
+      "options": {
+        "A": "Increased blood pressure",
+        "B": "Increased sodium delivery to the kidney",
+        "C": "Decreased blood pressure",
+        "D": "Increased blood volume"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Increased blood pressure suppresses, rather than activates, renin secretion, through the same feedback logic in reverse.",
+        "B": "Incorrect. Increased sodium delivery to the distal tubule decreases renin secretion; it is decreased sodium delivery that raises it, not increased delivery.",
+        "C": "Correct. A drop in arterial blood pressure causes renal ischaemia, which triggers renin secretion from the juxtaglomerular apparatus. Renin then cleaves hepatic angiotensinogen to angiotensin I, which angiotensin-converting enzyme (ACE) converts to angiotensin II, and angiotensin II raises arterial pressure by systemic vasoconstriction, catecholamine secretion, and ADH and aldosterone secretion. This renal-ischaemia trigger is what makes the RAS a major long-term regulator of arterial pressure, activated specifically by a fall, not a rise, in pressure.",
+        "D": "Incorrect. Increased blood volume raises atrial stretch and favours atrial natriuretic peptide secretion, the opposing, pressure-lowering system, not renin secretion."
+      },
+      "main_concept": "CON-CVS-A531FD56A171D7",
+      "concept_ids": ["CON-CVS-A531FD56A171D7"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation",
+      "library_ids": ["ART-CVS-LONG-TERM-BP-REGULATION"],
+      "learning_objective": "State that a fall in arterial blood pressure, via renal ischaemia, is the trigger that activates the renin-angiotensin system."
+    },
+    {
+      "key": "physblood-q13",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q13",
+      "page": 4,
+      "title": "ANP secretion trigger",
+      "question": "Atrial Natriuretic Peptide (ANP) is secreted in response to:",
+      "options": {
+        "A": "Decreased right atrial pressure",
+        "B": "Increased blood volume",
+        "C": "Dehydration",
+        "D": "Hypotension"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Decreased right atrial pressure reduces, rather than triggers, ANP secretion, since ANP release depends on atrial stretch.",
+        "B": "Correct. An increased extracellular fluid (ECF) volume stretches the atrial muscle fibres, and this stretch is the trigger that leads to ANP secretion. ANP then increases renal sodium excretion and enhances the pressure-natriuresis mechanism, returning ECF volume and blood pressure toward normal. This makes ANP the natriuretic, pressure-lowering counterpart to the renin-angiotensin system, triggered specifically by a rise, not a fall, in central blood volume.",
+        "C": "Incorrect. Dehydration lowers, rather than raises, ECF volume and atrial stretch, so it would tend to suppress ANP secretion, not trigger it.",
+        "D": "Incorrect. Hypotension is typically associated with reduced venous return and atrial filling, which would reduce atrial stretch and ANP secretion, not stimulate it."
+      },
+      "main_concept": "CON-CVS-A531FD56A171D7",
+      "concept_ids": ["CON-CVS-A531FD56A171D7"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation",
+      "library_ids": ["ART-CVS-LONG-TERM-BP-REGULATION"],
+      "learning_objective": "State that increased extracellular fluid volume, via atrial stretch, is the trigger for ANP secretion."
+    },
+    {
+      "key": "physblood-q14",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q14",
+      "page": 4,
+      "title": "ANP action versus angiotensin II",
+      "question": "A key action of Atrial Natriuretic Peptide (ANP) is to:",
+      "options": {
+        "A": "Promote sodium and water reabsorption",
+        "B": "Stimulate aldosterone secretion",
+        "C": "Oppose the actions of Angiotensin II",
+        "D": "Cause potent vasoconstriction"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. ANP promotes sodium excretion, the opposite of sodium and water reabsorption, which is instead an action of aldosterone and angiotensin II.",
+        "B": "Incorrect. ANP does not stimulate aldosterone secretion; angiotensin II is the hormone that stimulates aldosterone release from the adrenal cortex, an action ANP works against rather than reinforces.",
+        "C": "Correct. ANP is secreted when increased extracellular fluid volume stretches the atrial muscle fibres, and it acts by increasing renal sodium excretion and enhancing pressure natriuresis, returning blood pressure and volume toward normal. Because angiotensin II raises blood pressure by vasoconstriction, aldosterone-driven sodium retention and ADH secretion, ANP's natriuretic, vasodilator and pressure-lowering actions are its direct physiological opposite. This opposing relationship is why the two hormones are taught together as the two counterbalancing arms of long-term blood-pressure regulation.",
+        "D": "Incorrect. ANP itself does not cause vasoconstriction; if anything it has a mild vasodilator action, again the opposite of the vasoconstriction angiotensin II produces."
+      },
+      "main_concept": "CON-CVS-A531FD56A171D7",
+      "concept_ids": ["CON-CVS-A531FD56A171D7"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation",
+      "library_ids": ["ART-CVS-LONG-TERM-BP-REGULATION"],
+      "learning_objective": "State that ANP's natriuretic, pressure-lowering action directly opposes angiotensin II's pressure-raising action."
+    },
+    {
+      "key": "physblood-q15",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q15",
+      "page": 5,
+      "title": "Kinins and pain sensation",
+      "question": "Which of following helps in stimulation of pain sensation like Insulin:",
+      "options": {
+        "A": "Kinins",
+        "B": "Atrial Natriuretic Peptide (ANP)",
+        "C": "Angiotensin II",
+        "D": "Endothelins (ET)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Kinins, of which bradykinin is the prototype, are short-lived peptides formed locally from plasma kininogen by the enzyme kallikrein, and beyond their well-known vasodilator action, they directly stimulate free nerve endings that carry pain sensation. The source teaching for this course compares this pain-stimulating action to that of insulin, which can similarly excite pain endings when introduced into tissue. This pain-generating property, alongside kinins' vasodilator and permeability-increasing actions, is part of why kinins are classed among the mediators of local inflammation.",
+        "B": "Incorrect. Atrial natriuretic peptide's role is natriuretic and pressure-lowering, secreted in response to atrial stretch; it is not known for a pain-stimulating action.",
+        "C": "Incorrect. Angiotensin II's actions are vasoconstriction, aldosterone stimulation and sympathetic facilitation; it is not classically described as a direct stimulator of pain sensation.",
+        "D": "Incorrect. Endothelins are potent vasoconstrictors released by endothelium in response to stretch or injury; their defining action is vasoconstriction, not pain stimulation."
+      },
+      "main_concept": "CON-CVS-AD0D8E768C2018",
+      "concept_ids": ["CON-CVS-AD0D8E768C2018"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones",
+      "library_ids": ["ART-CVS-KININS-PAIN-PERMEABILITY"],
+      "author_notes": "Source's own comparison to insulin's pain-stimulating action is recorded as the source's teaching point, not independently re-derived; see concept's own uncertainty field.",
+      "learning_objective": "State that kinins directly stimulate pain sensation, in addition to their vasodilator action."
+    },
+    {
+      "key": "physblood-q16",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q16",
+      "page": 5,
+      "title": "Flare reaction mechanism",
+      "question": "The \"flare reaction\" in the skin is an example of vasodilation mediated by:",
+      "options": {
+        "A": "Sympathetic cholinergic fibers",
+        "B": "Antidromic vasodilator fibers",
+        "C": "Parasympathetic fibers",
+        "D": "Circulating catecholamines"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Sympathetic cholinergic fibres mediate sweating and some skeletal-muscle vasodilation during exercise, not the localised skin flare produced by injury or firm stimulation.",
+        "B": "Correct. When skin is injured or firmly stimulated, the red flare that spreads beyond the directly stimulated site is produced by the axon reflex: an impulse travelling centrally along one branch of a sensory afferent fibre can also travel antidromically, backwards, down neighbouring branches of that same afferent neuron that innervate adjacent skin. This antidromic conduction triggers local release of vasodilator neuropeptides from the nerve terminals themselves, producing vasodilation without involving any efferent autonomic outflow, which is what gives the flare its characteristic spread beyond the point of direct injury.",
+        "C": "Incorrect. Parasympathetic vasodilator fibres supply only a limited set of vascular beds, such as salivary glands and genital erectile tissue, and are not the mechanism behind the skin's local flare response.",
+        "D": "Incorrect. Circulating catecholamines act systemically on distant vascular beds via the bloodstream; the flare is a local, peripherally-generated response confined to skin near the site of stimulation."
+      },
+      "main_concept": "CON-CVS-7F05227FE0970F",
+      "concept_ids": ["CON-CVS-7F05227FE0970F"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Local Vasodilator Mechanisms",
+      "library_ids": ["ART-CVS-FLARE-REACTION-AXON-REFLEX"],
+      "learning_objective": "State that the skin flare reaction is mediated by antidromic conduction in sensory nerve branches (the axon reflex)."
+    },
+    {
+      "key": "physblood-q19",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q19",
+      "page": 5,
+      "title": "Endothelin as stretch-triggered vasoconstrictor",
+      "question": "Which endothelial substance is a potent vasoconstrictor released in response to vessel stretch?",
+      "options": {
+        "A": "Prostacyclin",
+        "B": "Nitric Oxide",
+        "C": "Endothelin",
+        "D": "Bradykinin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Prostacyclin, synthesised by endothelium from arachidonic acid, is a vasodilator and platelet-aggregation inhibitor, the opposite direction of action from the vasoconstrictor this question describes.",
+        "B": "Incorrect. Nitric oxide is also released by endothelium in response to shear stress, but it is a vasodilator, not a vasoconstrictor.",
+        "C": "Correct. Endothelin is a peptide synthesised and released by vascular endothelial cells in response to mechanical stimuli such as stretch of the vessel wall, as well as tissue injury and hypoxia. It acts on endothelin-A receptors on vascular smooth muscle to produce intense, prolonged vasoconstriction, making it one of the most potent vasoconstrictor substances identified, considerably more potent on a molar basis than angiotensin II or norepinephrine. This stretch-triggered release places endothelin alongside nitric oxide as one of the endothelium's own local signals, but acting in the opposite, constricting direction.",
+        "D": "Incorrect. Bradykinin is a kinin with a vasodilator action, formed locally from plasma kininogen; it is not an endothelium-derived stretch-triggered vasoconstrictor."
+      },
+      "main_concept": "CON-CVS-7D26B65DA355A1",
+      "concept_ids": ["CON-CVS-7D26B65DA355A1"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones",
+      "library_ids": ["ART-CVS-ENDOTHELIN-VASOCONSTRICTOR"],
+      "learning_objective": "Identify endothelin as an endothelium-derived, stretch-triggered peptide and the most potent vasoconstrictor known."
+    },
+    {
+      "key": "physblood-q20",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q20",
+      "page": 6,
+      "title": "Capillaries as exchange vessels",
+      "question": "The primary function of the capillaries is:",
+      "options": {
+        "A": "Resistance",
+        "B": "Capacitance",
+        "C": "Exchange",
+        "D": "Distribution"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Resistance is the functional role of arterioles, whose small lumen and thick smooth-muscle wall let them actively regulate vascular resistance, not the role of capillaries.",
+        "B": "Incorrect. Capacitance is the functional role of veins, whose thin, distensible wall lets them hold a large proportion of total blood volume with only a small rise in pressure, not the role of capillaries.",
+        "C": "Correct. Capillaries are the exchange vessels of the circulation: their wall is a single layer of endothelium, thin enough and with a large enough total surface area to allow diffusion of gases, nutrients and waste products between blood and interstitial fluid, which is their primary physiological function. They have no smooth muscle of their own and so cannot actively change diameter, unlike arterioles, which is consistent with an exchange rather than an active flow-control role.",
+        "D": "Incorrect. Distribution describes the conducting role of larger arteries, which carry blood to the periphery, not the specific exchange function of the capillary bed."
+      },
+      "main_concept": "CON-CVS-3E68C888B95668",
+      "concept_ids": ["CON-CVS-3E68C888B95668"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vessel Function",
+      "library_ids": ["ART-CVS-VASCULAR-FUNCTIONAL-CLASSIFICATION"],
+      "learning_objective": "Name capillaries as the exchange vessels of the circulation, distinct from the resistance role of arterioles and the capacitance role of veins."
+    },
+    {
+      "key": "physblood-q23",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q23",
+      "page": 6,
+      "title": "Adrenal medulla hormone with dual vascular action",
+      "question": "Which hormone is released from the adrenal medulla and can cause both vasoconstriction and vasodilation?",
+      "options": {
+        "A": "Vasopressin",
+        "B": "Aldosterone",
+        "C": "Epinephrine",
+        "D": "Renin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Vasopressin is released from the posterior pituitary, not the adrenal medulla, and acts principally as a vasoconstrictor and water-retaining hormone rather than showing a dual, bed-dependent action.",
+        "B": "Incorrect. Aldosterone is released from the adrenal cortex, not the medulla, and its principal action is renal sodium retention rather than a direct dual vascular effect.",
+        "C": "Correct. Epinephrine, released from the adrenal medulla, is unusual among circulating vasoactive hormones because its net vascular effect depends on which adrenergic receptor subtype predominates in a given vascular bed. Acting on alpha-adrenergic receptors, which predominate in skin, splanchnic and renal vessels, epinephrine causes vasoconstriction, but in skeletal muscle, where beta2-adrenergic receptors predominate, it instead causes vasodilation. Norepinephrine, by contrast, acts almost exclusively on alpha receptors and is a vasoconstrictor essentially everywhere, which is why epinephrine, not norepinephrine, is the adrenal medulla hormone capable of both effects.",
+        "D": "Incorrect. Renin is released from the kidney's juxtaglomerular apparatus, not the adrenal medulla, and acts as an enzyme initiating the renin-angiotensin cascade rather than directly on vascular smooth muscle."
+      },
+      "main_concept": "CON-CVS-8EE3B5EE80F342",
+      "concept_ids": ["CON-CVS-8EE3B5EE80F342"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones",
+      "library_ids": ["ART-CVS-EPINEPHRINE-DUAL-ACTION"],
+      "learning_objective": "Identify epinephrine as the adrenal medulla hormone whose vascular action is receptor-bed-dependent, capable of both vasoconstriction and vasodilation."
+    },
+    {
+      "key": "physblood-q25",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q25",
+      "page": 6,
+      "title": "Direct effect of kinins on capillaries",
+      "question": "Which of the following is a direct effect of Kinins?",
+      "options": {
+        "A": "Vasoconstriction",
+        "B": "Inhibition of pain sensation",
+        "C": "Increased capillary permeability",
+        "D": "Decreased chemotaxis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Kinins are vasodilators, not vasoconstrictors; their vascular action lowers, rather than raises, local resistance.",
+        "B": "Incorrect. Kinins directly stimulate, rather than inhibit, pain-sensing nerve endings, producing pain in inflamed or injured tissue rather than reducing it.",
+        "C": "Correct. Kinins act directly on capillary and venular endothelium to increase capillary permeability, contributing to the fluid exudation seen in acute inflammation. This action sits alongside their well-known vasodilator effect and their direct stimulation of pain nerve endings, together making kinins one of the classic local mediators of the inflammatory response, alongside histamine.",
+        "D": "Incorrect. Kinins are associated with promoting, not decreasing, the local inflammatory response, which is generally accompanied by increased rather than decreased chemotaxis of inflammatory cells."
+      },
+      "main_concept": "CON-CVS-AD0D8E768C2018",
+      "concept_ids": ["CON-CVS-AD0D8E768C2018"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones",
+      "library_ids": ["ART-CVS-KININS-PAIN-PERMEABILITY"],
+      "learning_objective": "State that kinins directly increase capillary permeability, in addition to their vasodilator and pain-stimulating actions."
+    },
+    {
+      "key": "physblood-q28",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q28",
+      "page": 8,
+      "title": "Prostacyclin as endothelial vasodilator",
+      "question": "Which substance, derived from arachidonic acid, is a vasodilator produced by the endothelium?",
+      "options": {
+        "A": "Thromboxane A2",
+        "B": "Endothelin",
+        "C": "Prostacyclin",
+        "D": "Angiotensin II"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Thromboxane A2 is also derived from arachidonic acid via cyclooxygenase, but it is produced mainly by platelets and acts as a vasoconstrictor and platelet-aggregation promoter, the physiological opposite of the vasodilator this question describes.",
+        "B": "Incorrect. Endothelin is produced by endothelium, but it is a peptide, not an arachidonic-acid derivative, and it is a potent vasoconstrictor rather than a vasodilator.",
+        "C": "Correct. Prostacyclin (prostaglandin I2) is synthesised by vascular endothelial cells from arachidonic acid via the cyclooxygenase pathway, the same enzymatic route platelets use to make the opposing eicosanoid thromboxane A2. In the vasculature, prostacyclin acts on vascular smooth muscle to raise intracellular cAMP, relaxing the muscle and producing local vasodilation, an action distinct from, though it works alongside, its better-known role of inhibiting platelet aggregation. Because prostacyclin and thromboxane A2 come from the same substrate and enzyme family but act in opposite directions, the balance between the two contributes both to local vascular tone and to normal haemostatic balance.",
+        "D": "Incorrect. Angiotensin II is a peptide hormone generated by the renin-angiotensin cascade, not an arachidonic-acid derivative, and it is a vasoconstrictor rather than a vasodilator."
+      },
+      "main_concept": "CON-CVS-487BC301A49AE2",
+      "concept_ids": ["CON-CVS-487BC301A49AE2"],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones",
+      "library_ids": ["ART-CVS-PROSTACYCLIN-VASODILATOR"],
+      "learning_objective": "Identify prostacyclin as the arachidonic-acid-derived, endothelium-produced local vasodilator."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-msk2-2019-g1",
+  "header": "MU-MED104 · 'MSK2 endmodule exam group 1- model answer.pdf' Q1 and Q3, Pathology, on genuinely new concepts minted this pass (giant cell tumour of bone, sequestrum — neither had an existing record, per find-existing.mjs). Underline key, read directly from cached native text (this file's own key convention not yet render-confirmed, per coverage/MU-MED104-triage.md — flagged, not blocking, since the underline is visible in the extracted text run itself). Apply after concept/MU-MED104-concepts.md, article/MU-MED104-articles.md and evidence/MU-MED104-{claims,citations,resources}.md are live.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "subject": "msk",
+    "module_subject": "MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK2 Endmodule Group 1 > Pathology",
+    "setting": "Clinical",
+    "estimated_seconds": 50,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-msk2-2019-g1-q01",
+      "id": "QST-MUMED104-MSK2G1-Q01",
+      "title": "Nature of an osteolytic epiphyseal lesion with giant cells",
+      "question": "Male patient 25 years presented with osteolytic mass at the epiphysis of right tibia. The biopsy showed many osteoclastic giant cells. Which one of the following represents the nature of the lesion?",
+      "options": { "A": "Benign process", "B": "Granulomatous inflammatory process", "C": "Hyperplastic process", "D": "Locally malignant process", "E": "Malignant process" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Calling this lesion simply benign understates its behaviour: the department's own primary-bone-tumour classification table places giant cell tumour in a separate \"locally malignant\" column, distinct from the benign tumours (such as osteoid osteoma) in the same table, because it is prone to local recurrence after curettage in a way a straightforwardly benign lesion is not.",
+        "B": "Incorrect. A granulomatous inflammatory process (such as tuberculous osteomyelitis) can also show giant cells, but they would be Langhans-type giant cells within granulomas containing epithelioid histiocytes and caseation, not the numerous, evenly distributed osteoclast-type giant cells against a background of plump mononuclear cells that characterise a giant cell tumour; the age, epiphyseal site and clean osteolytic appearance described here fit a neoplasm, not an inflammatory granuloma.",
+        "C": "Incorrect. \"Hyperplastic process\" describes an increase in normal cell number without the distinct neoplastic architecture (numerous multinucleated giant cells evenly distributed on a mononuclear background) or the destructive, expansile epiphyseal growth described in the stem; it does not capture the tumour's own classification.",
+        "D": "Correct. This presentation — an osteolytic epiphyseal mass in a young adult with numerous osteoclast-type giant cells on biopsy — is classic for giant cell tumour of bone (osteoclastoma). The department's own classification table places this tumour in a distinct \"locally malignant\" category, separate from both the benign and the frankly malignant primary bone tumours listed alongside it. It is locally aggressive and prone to recurrence after curettage, but it does not metastasise the way a frankly malignant sarcoma does.",
+        "E":  "Incorrect. Calling the lesion outright malignant overstates it: giant cell tumour does not behave like the true primary bone sarcomas (such as osteosarcoma) in the malignant column of the same classification table, which typically show anaplastic malignant cells and metastasise; giant cell tumour is instead placed in its own intermediate, locally malignant category."
+      },
+      "main_concept": "CON-MSK-80E36FA26C910A",
+      "concept_ids": ["CON-MSK-80E36FA26C910A"],
+      "contextual_concept_ids": [],
+      "topic": "Bone tumours",
+      "subtopic": "Tumours of unknown origin",
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise an osteolytic epiphyseal mass with numerous giant cells as giant cell tumour of bone and classify its behaviour as locally malignant.",
+      "media_recommendations": "",
+      "library_ids": ["ART-MSK-MU104-BONE-INFECTION-TUMOR"],
+      "resource_ids": ["src_202ac924ca2292a7190c"],
+      "source_citation": "MSK2 endmodule exam group 1 - model answer.pdf, Q1 (Menoufia MED104 MSK2 end-module exam, Pathology section); MED104 Pathology department lecture (Bone tumors, Dr Noha Elkady), p.12 and pp.44-46",
+      "field_notes": { "keySource": "underline, read from cached native text, MSK2 endmodule exam group 1- model answer.pdf p1, Q1", "mu": "MSK2 endmodule exam group 1- model answer.pdf, Q1, Pathology section" },
+      "author_notes": ""
+    },
+    {
+      "key": "med104-msk2-2019-g1-q03",
+      "id": "QST-MUMED104-MSK2G1-Q03",
+      "title": "Definition of a sequestrum",
+      "question": "Sequestrum is considered which one of the following?",
+      "options": { "A": "Dead soft tissue", "B": "Dead bone", "C": "Granulation tissue", "D": "Newly formed bone", "E": "Newly formed soft tissue" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A sequestrum is specifically dead bone, not dead soft tissue; in osteomyelitis it is the bony cortex whose blood supply has been cut off by a subperiosteal abscess, and the term is reserved for that necrotic bony fragment rather than any necrotic soft tissue nearby.",
+        "B": "Correct. A sequestrum is a dead (avascular) fragment of bone, produced in osteomyelitis when a subperiosteal abscess impairs the blood supply to the underlying cortex. It is gradually separated from surrounding living bone by granulation tissue. Because it has no blood supply of its own, it appears denser (more radio-opaque) than living bone on X-ray.",
+        "C": "Incorrect. Granulation tissue is the vascular repair tissue that gradually separates the dead sequestrum from the surrounding living bone; it is a living, reparative structure, the functional opposite of the dead bone the sequestrum itself is defined as.",
+        "D": "Incorrect. Newly formed bone describes the involucrum, the sleeve of living bone the elevated periosteum lays down around the area of infection — the opposite of the sequestrum, which is dead, not newly formed.",
+        "E": "Incorrect. \"Newly formed soft tissue\" fits neither the sequestrum (which is dead, not newly formed, and is bone, not soft tissue) nor the involucrum (which is newly formed bone, not soft tissue); it does not describe any of the standard osteomyelitis structures."
+      },
+      "main_concept": "CON-MSK-5428B9231C2794",
+      "concept_ids": ["CON-MSK-5428B9231C2794"],
+      "contextual_concept_ids": [],
+      "topic": "Osteomyelitis",
+      "subtopic": "Bone necrosis and repair in osteomyelitis",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define a sequestrum as a dead (avascular) fragment of bone in osteomyelitis, distinct from granulation tissue and the newly formed involucrum.",
+      "media_recommendations": "",
+      "library_ids": ["ART-MSK-MU104-BONE-INFECTION-TUMOR"],
+      "resource_ids": ["src_60e27edc756c95033873"],
+      "source_citation": "MSK2 endmodule exam group 1 - model answer.pdf, Q3 (Menoufia MED104 MSK2 end-module exam, Pathology section); MED104 Pathology department book (Pathology of Musculoskeletal system 2), p.10",
+      "field_notes": { "keySource": "underline, read from cached native text, MSK2 endmodule exam group 1- model answer.pdf p1, Q3", "mu": "MSK2 endmodule exam group 1- model answer.pdf, Q3, Pathology section" },
+      "author_notes": ""
+    }
+  ]
+}

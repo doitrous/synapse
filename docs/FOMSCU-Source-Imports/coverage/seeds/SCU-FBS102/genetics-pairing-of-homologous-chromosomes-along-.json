@@ -1,0 +1,62 @@
+{
+  "lane": "SCUFBS102",
+  "cluster": "genetics-pairing-of-homologous-chromosomes-along-",
+  "header": "SCU-FBS102 S2 minting lane 5 (scu-fbs102-author5) — cluster 'genetics-pairing-of-homologous-chromosomes-along-'.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
+    "module": "SCU-FBS102",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [],
+    "subject": "dev",
+    "module_subject": "SCU-FBS102 > Genetics > Cell Division > Meiosis"
+  },
+  "questions": [
+    {
+      "id": "QST-SCUFBS102-S2-GENETICS-PAIRING-OF-HOMOLOGOUS-CHROMOSOMES-ALONG-",
+      "key": "genetics-pairing-of-homologous-chromosomes-along-",
+      "title": "Synapsis defined: pairing along the chromosome's length",
+      "subject": "dev",
+      "module_subject": "SCU-FBS102 > Genetics > Cell Division > Meiosis",
+      "question": "What does the biological term 'synapsis' specifically mean during cell division?",
+      "options": {
+        "A": "Pairing of sister chromatids",
+        "B": "Pairing of homologous chromosomes at the centromere only",
+        "C": "Alignment of non-homologous structures across the equator",
+        "D": "Pairing of homologous chromosomes along their length"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Synapsis pairs homologous chromosomes (one maternal, one paternal copy of the same chromosome), not the sister chromatids of a single already-duplicated chromosome.",
+        "B": "Incorrect. Synapsis is not restricted to the centromere; the defining feature is that pairing occurs along the entire length of each homologous chromosome, not at a single point.",
+        "C": "Incorrect. Synapsis specifically pairs homologous structures, not non-homologous ones, and it is not an equatorial alignment process (that describes metaphase positioning, a separate event).",
+        "D": "Correct. Synapsis is the intimate pairing of homologous chromosomes along their entire length during prophase I of meiosis, mediated by the synaptonemal complex, forming the bivalent (tetrad) structure that permits crossing-over between non-sister chromatids. The paired structure formed by each homologous pair in this way is called a bivalent, or tetrad when counting all four chromatids."
+      },
+      "topic": "Genetics",
+      "subtopic": "Meiosis",
+      "main_concept": "CON-DEV-4D3DBC3BD2FDCC",
+      "concept_ids": [
+        "CON-DEV-4D3DBC3BD2FDCC"
+      ],
+      "library_ids": [
+        "ART-SCU-FBS102-GEN-MEIOSIS-SPERMATOGENESIS"
+      ],
+      "learning_objective": "Define synapsis as the length-wise pairing of homologous chromosomes during prophase I of meiosis via the synaptonemal complex, distinct from any pairing of sister chromatids.",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "source_citation": "FOMSCU Foundation 1 own-source QBank, EOY Foundation 1 2026 Q45",
+      "author_notes": ""
+    }
+  ]
+}
