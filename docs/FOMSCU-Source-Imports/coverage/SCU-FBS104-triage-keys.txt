@@ -1,0 +1,65 @@
+# SCU-FBS104 triage keys — one per line, # comments allowed.
+# Foundation 3 (SCU-FBS104), S3 triage. Per SCU-Y1-priority-sources.md this module has
+# no own-source keyed JSON (unlike FBS102/FBS103) — only two PDF sources exist. Both
+# read page-by-page via pagetext.mjs show/keys (native text, not garbled, no OCR needed).
+
+# --- Source A: 06 EOM Exams/EOM - Foundation 3 2026 - FOMSCU MID.pdf (tier 1, 43 pages) ---
+# Format: one item per page, mixed. 9 pages are pure section headers ("Parasitology",
+# "Physiology", ...) or the title page — not counted as items. 34 content pages remain.
+# Of those: 4 are genuine >=4-option MCQ with a marked "Ans is X" key (usable-4opt);
+# 7 are MCQ with 2-3 options and a marked key (held, <4 options per standing rule);
+# 22 are declarative recall statements with ZERO options ("X is Y" / "Answer: Y" —
+# no stem-with-choices at all, not MCQ format); 1 is incomplete/ambiguous (single
+# option shown, no explicit key marker).
+
+parasitology-arthropods-characteristic  # held-no-options · Q: Which of the following is a characteristic of arthropods — declarative, "Invertebrate animals with jointed legs", no choice list (p3)
+parasitology-vector-of-d-latum  # held-no-options · Q: Vector of D. latum — declarative, "is Cyclops" (p4)
+physiology-gpcr-dissociation  # held-no-options · Q: Dissociation in GPCR due to — declarative, "GTP association with G alpha" (p6)
+physiology-receptor-saturation-response  # usable-4opt-keyed · Q: What happens when all the receptors of a certain chemical signal are bound and increase the concentration — 4 options A-D, Ans is A (p7)
+physiology-gap-junction-signals  # held-no-options · Q: Gap junction — declarative, "used chemical and electrical signals" (p8)
+biochemistry-energy-storage-form  # held-no-options · Q: The form of energy storage in animals — declarative, "Is Glycogen" (p10)
+biochemistry-pfk1-inhibitor  # held-no-options · Q: Which is inhibitor of PFK1 — declarative, "ATP" (p11)
+biochemistry-glycolysis-atp-yield  # held-lt4opt · Q: How many ATP molecules are produced during glycolysis in anaerobic respiration — only 2 options (a. 2 ATP / b. 4 ATP), Ans is a (p12)
+pathology-hypertrophic-scar  # held-no-options · Q: Hypertrophic scar — declarative, "excess collagen at the boundaries of the wound" (p14)
+pathology-acute-inflammation-redness-warmth  # held-no-options · Q: Redness and warmth in acute inflammation result from — declarative, "Vasodilation" (p15)
+pharmacology-atenolol-selectivity  # held-no-options · Q: Atenolol is — declarative, "Selective B1 antagonist" (p17)
+pharmacology-mao-substrate  # held-no-options · Q: MAO metabolize — declarative, "Adrenaline" (p18)
+pharmacology-selective-alpha-antagonist  # usable-4opt-keyed · Q: Selective alpha antagonist — 4 options a-d (phentolamine/labetolol/atenolol/metoprolol), Ans is a (p19)
+pharmacology-selegiline-mao-b  # held-no-options · Q: Selegiline is using as — declarative, "selective MAO-B inhibitor" (p20)
+pharmacology-a1-receptor-effect  # held-no-options · Q: Effect of a1 receptor is — declarative, "Relaxation of GIT wall and constriction of the sphincters" (p21)
+microbiology-histamine-mediator  # held-no-options · Q: Which chemical mediator is responsible for immediate response to inflammation... released from mast cells and basophils — declarative, "histamine" (p23)
+microbiology-dendritic-cell-function  # held-no-options · Q: The function of the Dendritic cells is — declarative, "To present antigens to T cells" (p24)
+microbiology-innate-mechanical-barrier  # held-no-options · Q: Which of the following is considered a mechanical barrier for innate immunity — declarative, "Mucus Membranes" (p25)
+microbiology-th2-antibody-immunity  # held-no-options · Q: Which T cell is responsible for antibody immunity — declarative, "Th2" (p26)
+histology-palatine-tonsil-epithelium  # held-no-options · Q: Palatine tonsil covered by — declarative, "stratified Squamous epithelium" (p28)
+histology-peyers-patches  # held-no-options · Q: Peyer's patches — declarative, "is a diffuse lymphoid tissue" (p29)
+histology-thymic-cortex  # held-lt4opt · Q: Thymic cortex is characterized by — only 2 options (A. Differentiated T cells / B. Developing T cells), Ans is B (p30)
+anatomy-sciatic-nerve-injury  # held-lt4opt · Q: Result of complete injury of sciatic nerve in gluteal region — only 2 options (A. Weak hip flexion / B. Foot drop), Ans is B (p32)
+anatomy-femoral-artery-adductor-canal  # held-no-options · Q: Femoral artery — declarative, "is a content of the adductor canal" (p33)
+anatomy-gluteus-maximus-nerve  # held-no-options · Q: Which nerve innervates Gluteus maximus — declarative, "Inferior Gluteal Nerve" (p34)
+anatomy-gracilis-nerve  # held-no-options · Q: Which nerve innervates Gracilis — declarative, "Obturator nerve" (p35)
+anatomy-posterior-tibial-artery-course  # held-lt4opt · Q: Posterior Tibial Artery descends between which two muscles — 3 numbered options, Ans is 3 (soleus and tibialis posterior) (p36)
+anatomy-peroneus-longus-origin  # held-lt4opt · Q: The muscle that originates from upper 2/3 of the lateral surface of the fibula — only 2 options (A. Peroneus Longus / B. Peroneus brevis), Ans is A (p37)
+anatomy-peroneus-longus-nerve-supply  # held-lt4opt · Q: Peroneus Longus muscle is supplied by — 3 options A-C, Ans is B (p38)
+anatomy-extensor-digitorum-longus-origin  # usable-4opt-keyed · Q: The origin of extensor digitorum longus — 4 options A-D, Ans is B (p39)
+anatomy-circumflex-fibular-artery-branch  # held-lt4opt · Q: Circumflex fibular artery is a branch from — only 2 options (A. anterior tibial artery / B. posterior tibial artery), Ans is B (p40)
+anatomy-posterior-tibial-artery-tibial-nerve-relation  # held-no-options · Q: Posterior tibial artery is ... to tibial nerve in the lower half of leg — declarative, "medial" (p41)
+anatomy-inversion-muscle  # held-ambiguous · Q: Inversion is produced by which muscle — only 1 option shown (A. tibialis anterior), no explicit "Ans is" marker (p42)
+anatomy-fibula-neck-relation  # usable-4opt-keyed · Q: The neck of the fibula is related to — 4 options A-D, Ans is A (p43)
+
+# Source A summary: 34 content items · 4/34 (11.8%) usable-4opt-keyed · 7/34 (20.6%)
+# held-lt4opt · 22/34 (64.7%) held-no-options · 1/34 (2.9%) held-ambiguous.
+
+# --- Source B: 03 Questions and QBank/MEQ Book - Foundation 3 2026 - Dr Amer Elsharkawy.pdf (tier 2, 144 pages) ---
+# Format: pure Modified Essay Questions throughout — long-form "Discuss/Describe/
+# Mention/Enumerate/Explain" prompts with free-text model answers (bullet lists,
+# structured paragraphs). Sampled p1-8, p20, p60, p100-102, p140-144 (spread across
+# the full page range and across all four subjects: Anatomy, Immunology/Microbiology,
+# Biochemistry, Parasitology) plus two full-document greps: 57 top-level "Q<n>:"
+# essay prompts found (`grep "^\s*Q\d+[:.]"`), and a broad choice-marker sweep
+# (`grep -i "(choose|select|following is|which of the|options?[:.]|A\)|A\.)"`) returned
+# only bulleted-outline fragments inside essay answers ("A. On the hip bone...",
+# "a) Motor effects:") — zero genuine one-best-answer sub-questions with >=4 options
+# anywhere in the source.
+
+meq-book-foundation-3-2026  # held-meq-all · 57 top-level essay questions (Anatomy/Immunology-Microbiology/Biochemistry/Parasitology sections), 0/57 contain a genuine >=4-option one-best-answer sub-question — entire source out of SBA scope per standing rule
