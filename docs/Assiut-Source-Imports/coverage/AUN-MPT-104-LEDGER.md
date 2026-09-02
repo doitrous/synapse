@@ -48,7 +48,7 @@
 | final-2022-q10-irreversible-antagonist | 1 | 0 | 0 | 1 |
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 0 | 0 | 441 | 441 |
+| quizzes-2022 | 36 | 0 | 405 | 441 |
 
 ## Held
 (none)
@@ -99,42 +99,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q001
-- quizzes-2022-q002
-- quizzes-2022-q003
-- quizzes-2022-q004
-- quizzes-2022-q005
-- quizzes-2022-q006
-- quizzes-2022-q007
-- quizzes-2022-q008
-- quizzes-2022-q009
-- quizzes-2022-q010
-- quizzes-2022-q011
-- quizzes-2022-q012
-- quizzes-2022-q013
-- quizzes-2022-q014
-- quizzes-2022-q015
-- quizzes-2022-q016
-- quizzes-2022-q017
-- quizzes-2022-q018
-- quizzes-2022-q019
-- quizzes-2022-q020
-- quizzes-2022-q021
-- quizzes-2022-q022
-- quizzes-2022-q023
-- quizzes-2022-q024
-- quizzes-2022-q025
-- quizzes-2022-q026
-- quizzes-2022-q027
-- quizzes-2022-q028
-- quizzes-2022-q029
-- quizzes-2022-q030
-- quizzes-2022-q031
-- quizzes-2022-q032
-- quizzes-2022-q033
-- quizzes-2022-q034
-- quizzes-2022-q035
-- quizzes-2022-q036
 - quizzes-2022-q037
 - quizzes-2022-q038
 - quizzes-2022-q039
