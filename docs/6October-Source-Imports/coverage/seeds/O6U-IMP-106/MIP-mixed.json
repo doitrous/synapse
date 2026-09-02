@@ -1,0 +1,1185 @@
+{
+  "lane": "O6U-IMP",
+  "cluster": "mip-mixed",
+  "header": "O6U-IMP-106 · Microbiology & Parasitology — authored from Micro & Para MCQ Final 19..#Diaa (O6U bot)..pdf (19p, fully scanned, OCR'd in full) and Micro q bank.pdf's p251 True/False page. Source A is a mobile screenshot of a Microsoft Forms \"review your answers\" scroll — one respondent's own highlighted answers, the same shape as the disqualified BOS final exam — so every highlighted answer was independently cross-checked against standard microbiology/parasitology/infection-control fact before authoring, not trusted from the highlight alone (coverage/O6U-IMP-106-triage.md). Source B's p251 prints a genuine inline true/false key for 4 items, same shape as O6U-IPA-107's T/F sections. Held items are confirmed wrong, debatable, or have an unrecoverable stem — see coverage/O6U-IMP-106-triage.md and the per-item hold reasons below.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "o6u"
+    ],
+    "years": [
+      "O6U_Y1"
+    ],
+    "module": "O6U-IMP-106",
+    "module_subject": "O6U-IMP-106 > Microbiology and Parasitology",
+    "exam_weight_by_year": {
+      "O6U_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_fa45c04517fa0f70b520"
+    ],
+    "source_citation": "Micro & Para MCQ Final 19..#Diaa (O6U bot)..pdf, p{page}",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "mip-mixed-q01",
+      "page": 2,
+      "title": "Defective virus and helper virus",
+      "question": "What is the defining characteristic of a defective virus?",
+      "options": {
+        "A": "It needs a helper virus for productive multiplication",
+        "B": "It is a virus particle that contains sufficient nucleic acid",
+        "C": "It can cause infection alone, without any other virus present",
+        "D": "It can code for its own coat protein without assistance"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A defective virus lacks sufficient or complete nucleic acid to independently direct a full replication cycle, so it depends on co-infection with a fully competent helper virus, which supplies the missing function, before it can complete productive multiplication. Hepatitis D virus's dependence on concurrent Hepatitis B infection is the classic clinical example of this relationship.",
+        "B": "Incorrect. This is the opposite of the definition: a defective virus is defined by lacking, not containing, sufficient nucleic acid to replicate on its own.",
+        "C": "Incorrect. A defective virus specifically cannot cause productive infection alone -- that is exactly why it requires a helper virus.",
+        "D": "Incorrect. A defective virus typically cannot code for everything it needs, including a functional coat protein, on its own."
+      },
+      "main_concept": "CON-INF-4A8D51A5CCCA66",
+      "concept_ids": [
+        "CON-INF-4A8D51A5CCCA66"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "General virology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that a defective virus needs a helper virus for productive multiplication.",
+      "library_ids": [
+        "ART-O6U-IMP-VIROLOGY-ESSENTIALS"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > General virology",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p2 (also p17), independently confirmed against standard virology teaching"
+      }
+    },
+    {
+      "key": "mip-mixed-q02",
+      "page": 2,
+      "title": "Taenia solium epidemiology",
+      "question": "Which of the following statements about Taenia solium is true?",
+      "options": {
+        "A": "It is cosmopolitan, found wherever pork or pork products are eaten",
+        "B": "It is transmitted through ingestion of raw fish",
+        "C": "It is transmitted through ingestion of contaminated vegetables",
+        "D": "It is a disease specific to group infection outbreaks"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Taenia solium (the pork tapeworm) has a cosmopolitan distribution, occurring wherever pork or pork products are eaten and sanitation allows the pig-to-human transmission cycle to continue. Recognising this broad, pork-linked distribution matters clinically, since it predicts where the more dangerous larval-stage disease, cysticercosis, also clusters.",
+        "B": "Incorrect. Raw fish transmits fish tapeworm (Diphyllobothrium latum), not Taenia solium, which is a pork-associated cestode.",
+        "C": "Incorrect. Contaminated vegetables are a route for faecal-oral protozoa and some nematode eggs, not for Taenia solium, whose route is undercooked pork.",
+        "D": "Incorrect. Taenia solium is not defined as a group-infection-specific disease; its epidemiology tracks pork consumption, not outbreak clustering."
+      },
+      "main_concept": "CON-INF-A59F377D5B2101",
+      "concept_ids": [
+        "CON-INF-A59F377D5B2101"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Cestodes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that Taenia solium is cosmopolitan wherever pork or pork products are eaten.",
+      "library_ids": [
+        "ART-O6U-IMP-CESTODES-TAENIA"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Cestodes",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p2 (also p18), independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q03",
+      "page": 1,
+      "title": "Normal flora antagonism via bacteriocin",
+      "question": "Normal flora antagonize other bacteria mainly through the production of:",
+      "options": {
+        "A": "Bacteriocin",
+        "B": "Protease",
+        "C": "Leucocidin",
+        "D": "Hemolysin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Resident normal flora contribute to colonisation resistance partly by producing bacteriocins, protein toxins that inhibit or kill closely related competing bacterial strains, helping to exclude pathogens. This bacteriocin-mediated competition is one of the main reasons an intact normal flora helps resist colonisation by incoming pathogens.",
+        "B": "Incorrect. Protease is a pathogen virulence factor (e.g. degrading host antibodies or tissue), not the mechanism normal flora uses against competitors.",
+        "C": "Incorrect. Leucocidin is a pathogen virulence factor that kills host leukocytes, not a normal-flora antagonism mechanism.",
+        "D": "Incorrect. Hemolysin is a pathogen virulence factor that lyses host red cells, not a normal-flora antagonism mechanism."
+      },
+      "main_concept": "CON-INF-0410CD15A1F0D9",
+      "concept_ids": [
+        "CON-INF-0410CD15A1F0D9"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Normal flora and bacterial pathogenesis",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that normal flora antagonize other bacteria mainly through bacteriocin production.",
+      "library_ids": [
+        "ART-O6U-IMP-BACTERIAL-PATHOGENESIS-AND-FLORA"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Normal flora and bacterial pathogenesis",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p1 (also p7 x2), independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q04",
+      "page": 1,
+      "title": "Nature of continuous cell culture",
+      "question": "What is the nature of continuous cell culture used for viral isolation?",
+      "options": {
+        "A": "Immortalized cells, i.e. tumour cell lines",
+        "B": "Normal cells taken from normal embryonic tissue",
+        "C": "Cells that may be passaged up to 50 times only",
+        "D": "Cells that cannot be passaged more than once"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Continuous cell culture lines used for viral isolation are immortalized cells, often tumour-derived, capable of indefinite serial passage -- this is what makes them practical for repeated, large-scale viral propagation in the lab. Recognising which cell-culture category is being described helps predict how a given viral isolation protocol will behave over repeated passages.",
+        "B": "Incorrect. Cells taken directly from normal embryonic tissue describe a primary culture, which has a finite passage life, not the immortalized continuous line this question asks about.",
+        "C": "Incorrect. A line limited to about 50 passages describes a semi-continuous/diploid cell strain, an intermediate category, not the immortalized continuous line.",
+        "D": "Incorrect. A continuous line's defining feature is indefinite, not single, passage capability."
+      },
+      "main_concept": "CON-INF-5B65FB27C77C1C",
+      "concept_ids": [
+        "CON-INF-5B65FB27C77C1C"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "General virology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that continuous cell culture used for viral isolation is made of immortalized cell lines.",
+      "library_ids": [
+        "ART-O6U-IMP-VIROLOGY-ESSENTIALS"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > General virology",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p1, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q05",
+      "page": 3,
+      "title": "Dealing with a patient under droplet precaution",
+      "question": "How should you deal with a patient under droplet precaution?",
+      "options": {
+        "A": "A mask is worn during close contact",
+        "B": "The patient is isolated in a private negative-pressured room",
+        "C": "The patient must be discharged from the hospital",
+        "D": "The patient is isolated in a private positive-pressured room"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Droplet precautions are for pathogens spread by large respiratory droplets over short distances; the key control measure is wearing a surgical mask when in close contact with the patient. Recognising mask-in-close-contact as the defining droplet measure helps distinguish it quickly from airborne precautions, which instead require a negative-pressure room.",
+        "B": "Incorrect. A private negative-pressured room is an airborne-precaution measure, used for pathogens that travel on small aerosolised particles over longer distances, not the droplet-precaution measure.",
+        "C": "Incorrect. Discharging the patient is never an infection-control measure and does not address ongoing transmission risk to others.",
+        "D": "Incorrect. A positive-pressured room is used to protect an immunocompromised patient from the environment (protective isolation), not to contain a patient who is a source of droplet transmission."
+      },
+      "main_concept": "CON-INF-6462F1FAEF43E9",
+      "concept_ids": [
+        "CON-INF-6462F1FAEF43E9"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-001BC61BB510CF"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Hospital infection control",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that mask use in close contact is the key measure for a patient under droplet precautions.",
+      "library_ids": [
+        "ART-O6U-IMP-HOSPITAL-INFECTION-CONTROL"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Hospital infection control",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p3 (also p8, p16 x2), independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q06",
+      "page": 10,
+      "title": "Snail control and schistosomiasis",
+      "question": "Snail control is of importance in preventing which of the following parasitic diseases?",
+      "options": {
+        "A": "Schistosomiasis",
+        "B": "Giardiasis",
+        "C": "Strongyloidiasis",
+        "D": "Trypanosomiasis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Schistosomes require a freshwater snail intermediate host to develop from miracidium to the human-infective cercaria, so controlling the snail population interrupts the life cycle and is a core preventive measure for schistosomiasis. This is why public-health programmes against bilharziasis combine molluscicide use and snail-habitat modification with mass drug treatment.",
+        "B": "Incorrect. Giardia lamblia is transmitted faecal-orally via its cyst; it has no snail intermediate host, so snail control does not prevent giardiasis.",
+        "C": "Incorrect. Strongyloides stercoralis has a free-living soil cycle, not a snail intermediate host.",
+        "D": "Incorrect. Trypanosomiasis is transmitted by the tsetse fly, an insect vector, not a snail intermediate host."
+      },
+      "main_concept": "CON-INF-877FAE131BBD90",
+      "concept_ids": [
+        "CON-INF-877FAE131BBD90"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Trematodes",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that snail control is important for preventing schistosomiasis, because the snail is the parasite's obligate intermediate host.",
+      "library_ids": [
+        "ART-O6U-IMP-VECTOR-BORNE-AND-FUNGAL-DISEASE"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Trematodes",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p10, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q07",
+      "page": 4,
+      "title": "Direct examination for viruses",
+      "question": "Which of the following is NOT used for direct examination of viruses?",
+      "options": {
+        "A": "Light microscope",
+        "B": "Electron microscopy (EM)",
+        "C": "Immune electron microscopy",
+        "D": "Viral antigen detection"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Viruses are far smaller than the resolution limit of light microscopy, so the light microscope cannot be used to directly visualise them. This resolution limit is why virology diagnostics rely on electron-based or immunological methods rather than conventional light microscopy for direct visualisation.",
+        "B": "Incorrect. Electron microscopy can resolve viral particle morphology and is a valid direct examination method.",
+        "C": "Incorrect. Immune electron microscopy uses antibody binding together with EM to visualise virus particles directly and is a valid method.",
+        "D": "Incorrect. Viral antigen detection is a valid direct method for confirming the presence of viral antigen."
+      },
+      "main_concept": "CON-INF-9653041CA1C73B",
+      "concept_ids": [
+        "CON-INF-9653041CA1C73B"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "General virology",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that light microscopy cannot be used for direct viral examination, unlike EM and antigen detection.",
+      "library_ids": [
+        "ART-O6U-IMP-VIROLOGY-ESSENTIALS"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > General virology",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p4, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q08",
+      "page": 9,
+      "title": "Phlebotomus and leishmaniasis",
+      "question": "What is the disease transmitted by Phlebotomus?",
+      "options": {
+        "A": "Leishmaniasis",
+        "B": "Toxoplasmosis",
+        "C": "Trypanosomiasis",
+        "D": "Malaria"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Phlebotomus sandflies are the biological vector for Leishmania species, transmitting leishmaniasis, which can present as cutaneous, mucocutaneous or visceral disease depending on species. Recognising Phlebotomus as the leishmaniasis vector helps distinguish it quickly from the other biological vectors tested alongside it, such as the tsetse fly and Anopheles mosquito.",
+        "B": "Incorrect. Toxoplasmosis has no insect vector; it is transmitted by ingesting oocysts or tissue cysts (e.g. from cat faeces or undercooked meat).",
+        "C": "Incorrect. Trypanosomiasis is transmitted by the tsetse fly, not the sandfly.",
+        "D": "Incorrect. Malaria is transmitted by the Anopheles mosquito, not the sandfly."
+      },
+      "main_concept": "CON-INF-F7583F772FF3B8",
+      "concept_ids": [
+        "CON-INF-F7583F772FF3B8"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Vector-borne disease",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Phlebotomus (sandfly) transmits leishmaniasis.",
+      "library_ids": [
+        "ART-O6U-IMP-VECTOR-BORNE-AND-FUNGAL-DISEASE"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Vector-borne disease",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p9, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q09",
+      "page": 5,
+      "title": "Thermometer Spaulding category",
+      "question": "To what Spaulding classification category does a thermometer belong?",
+      "options": {
+        "A": "Semi-critical item",
+        "B": "Critical item",
+        "C": "Non-critical item",
+        "D": "Plastic item"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A thermometer contacts mucous membranes or non-intact skin, placing it in the semi-critical category of the Spaulding classification, which requires high-level disinfection rather than sterilisation. This classification means a thermometer needs high-level disinfection between uses, not merely a wipe-down, but also not full sterilisation.",
+        "B": "Incorrect. Critical items enter sterile tissue or the vasculature and must be sterile -- a thermometer does not enter sterile tissue.",
+        "C": "Incorrect. Non-critical items contact only intact skin -- a thermometer contacts mucous membranes, placing it a category higher.",
+        "D": "Incorrect. \"Plastic item\" describes a material, not a Spaulding infection-risk category."
+      },
+      "main_concept": "CON-INF-61AD0BFF717C3D",
+      "concept_ids": [
+        "CON-INF-61AD0BFF717C3D"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Hospital infection control",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Classify a thermometer as a semi-critical item under the Spaulding classification.",
+      "library_ids": [
+        "ART-O6U-IMP-HOSPITAL-INFECTION-CONTROL"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Hospital infection control",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p5, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q10",
+      "page": 6,
+      "title": "Taenia saginata diagnostic stage",
+      "question": "What is the diagnostic stage of Taenia saginata?",
+      "options": {
+        "A": "Egg and gravid segment",
+        "B": "Egg alone",
+        "C": "Egg and cyst",
+        "D": "Gravid segment alone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Taenia saginata is diagnosed by finding both eggs and motile gravid proglottids (segments) in stool; relying on either alone can under-detect the infection, since gravid segments actively migrate out and may not always coincide with the sample. This is why a single stool sample negative for both eggs and segments should not be taken as ruling out the infection.",
+        "B": "Incorrect. Eggs alone under-state the diagnostic picture -- gravid segments are also diagnostic and are often what prompts the patient to seek care.",
+        "C": "Incorrect. Taenia saginata does not have a diagnostic cyst stage found in human stool; cysticerci are the larval stage found in beef, not in the human host's stool.",
+        "D": "Incorrect. Gravid segments alone under-state the diagnostic picture -- eggs found in stool are also diagnostic."
+      },
+      "main_concept": "CON-INF-3105AF614216EA",
+      "concept_ids": [
+        "CON-INF-3105AF614216EA"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Cestodes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that Taenia saginata's diagnostic stage is eggs and gravid segments.",
+      "library_ids": [
+        "ART-O6U-IMP-CESTODES-TAENIA"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Cestodes",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p6, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q11",
+      "page": 6,
+      "title": "Taenia saginata mode of infection",
+      "question": "What is the mode of infection of Taenia saginata?",
+      "options": {
+        "A": "Ingestion of undercooked beef",
+        "B": "Ingestion of undercooked pork",
+        "C": "Ingestion of raw vegetables",
+        "D": "Ingestion of undercooked fish"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Humans acquire Taenia saginata (the beef tapeworm) by eating undercooked beef containing the larval cysticercus stage -- cattle are its intermediate host. Thoroughly cooking beef, like thoroughly cooking pork for Taenia solium, is the key preventive measure against this specific infection.",
+        "B": "Incorrect. Undercooked pork is the route for Taenia solium, the related but distinct pork tapeworm, not Taenia saginata.",
+        "C": "Incorrect. Raw vegetables transmit faecal-orally spread organisms such as Entamoeba histolytica cysts, not Taenia saginata.",
+        "D": "Incorrect. Undercooked fish transmits the fish tapeworm, Diphyllobothrium latum, not Taenia saginata."
+      },
+      "main_concept": "CON-INF-3105AF614216EA",
+      "concept_ids": [
+        "CON-INF-3105AF614216EA"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Cestodes",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Taenia saginata is acquired by ingesting undercooked beef.",
+      "library_ids": [
+        "ART-O6U-IMP-CESTODES-TAENIA"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Cestodes",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p6, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q12",
+      "page": 7,
+      "title": "Fleas and plague",
+      "question": "Fleas are vectors of which of the following diseases?",
+      "options": {
+        "A": "Plague",
+        "B": "Trypanosomiasis",
+        "C": "Myiasis",
+        "D": "Leishmaniasis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Fleas, classically the rat flea Xenopsylla cheopis, are the vector for Yersinia pestis, transmitting plague between rodent reservoirs and humans. Recognising fleas as the plague vector also explains why rodent and flea control are core public-health measures against plague outbreaks.",
+        "B": "Incorrect. Trypanosomiasis is transmitted by the tsetse fly, not fleas.",
+        "C": "Incorrect. Myiasis is direct infestation of tissue by fly larvae, not a flea-vectored disease.",
+        "D": "Incorrect. Leishmaniasis is transmitted by the sandfly, Phlebotomus, not fleas."
+      },
+      "main_concept": "CON-INF-5B8BEB716F2F03",
+      "concept_ids": [
+        "CON-INF-5B8BEB716F2F03"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Vector-borne disease",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that fleas are the vector for plague.",
+      "library_ids": [
+        "ART-O6U-IMP-VECTOR-BORNE-AND-FUNGAL-DISEASE"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Vector-borne disease",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p7, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q13",
+      "page": 7,
+      "title": "Fungal cell wall component",
+      "question": "The cell wall of most fungi is composed mainly of:",
+      "options": {
+        "A": "Chitin",
+        "B": "Ergosterol",
+        "C": "Cholesterol",
+        "D": "Steroids"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The cell wall of most fungi is composed mainly of chitin, a polymer of N-acetylglucosamine, together with glucans, providing structural rigidity. This chitin-based wall is part of what structurally distinguishes fungal cells from bacterial cells (peptidoglycan wall) and human cells (no wall at all).",
+        "B": "Incorrect. Ergosterol is a fungal cell MEMBRANE component, not a cell wall component -- it is the target of azole and polyene antifungal drugs.",
+        "C": "Incorrect. Cholesterol is a component of mammalian cell membranes, not the fungal cell wall.",
+        "D": "Incorrect. Steroids are not a structural fungal cell-wall component in the sense tested here."
+      },
+      "main_concept": "CON-INF-65773EE1B9870C",
+      "concept_ids": [
+        "CON-INF-65773EE1B9870C"
+      ],
+      "topic": "Mycology",
+      "subtopic": "Fungal structure",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that chitin is the main structural component of most fungal cell walls.",
+      "library_ids": [
+        "ART-O6U-IMP-VECTOR-BORNE-AND-FUNGAL-DISEASE"
+      ],
+      "module_subject": "O6U-IMP-106 > Mycology > Fungal structure",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p7, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q14",
+      "page": 8,
+      "title": "Entamoeba histolytica infective stage",
+      "question": "What is the infective stage of Entamoeba histolytica?",
+      "options": {
+        "A": "Mature cyst",
+        "B": "Trophozoite",
+        "C": "Precyst",
+        "D": "Trophozoite and cyst"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The infective stage of Entamoeba histolytica is the mature (quadrinucleate) cyst, transmitted by the faecal-oral route via contaminated food or water. Recognising the cyst as the infective form explains why interrupting faecal-oral transmission, rather than person-to-person contact, is the key prevention strategy.",
+        "B": "Incorrect. The trophozoite is the motile, feeding, pathogenic form within the host, but it does not survive well outside the host and is not the transmissible/infective stage.",
+        "C": "Incorrect. The precyst is a transitional intermediate stage, not the mature form that is actually infective.",
+        "D": "Incorrect. Only the mature cyst is infective; the trophozoite is not, so pairing both overstates the answer."
+      },
+      "main_concept": "CON-INF-5FE0BF8271C600",
+      "concept_ids": [
+        "CON-INF-5FE0BF8271C600"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Protozoa",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Entamoeba histolytica's infective stage is the mature cyst.",
+      "library_ids": [
+        "ART-O6U-IMP-PROTOZOAL-PARASITOLOGY"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Protozoa",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p8, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q15",
+      "page": 10,
+      "title": "Pathogenesis step order",
+      "question": "Which of the following lists the steps in pathogenesis in the correct order?",
+      "options": {
+        "A": "Exposure, adhesion, invasion, infection",
+        "B": "Adhesion, exposure, infection, invasion",
+        "C": "Invasion, infection, adhesion, exposure",
+        "D": "Disease, infection, exposure, invasion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The classic sequence of bacterial pathogenesis is exposure (contact with the host), adhesion (attachment), invasion (penetration into tissue), and infection (established multiplication producing disease), in that order. Keeping this order straight is useful for predicting which stage of an infection a given clinical or laboratory finding corresponds to.",
+        "B": "Incorrect. This places adhesion before exposure and infection before invasion, both biologically backwards -- a pathogen must be exposed before it can adhere, and must invade before it establishes infection.",
+        "C": "Incorrect. This places invasion and infection first, before the pathogen has even been exposed to or adhered to the host, which is not physically possible.",
+        "D": "Incorrect. This starts from disease, the end result, rather than the initiating step, and places exposure and invasion out of order."
+      },
+      "main_concept": "CON-INF-0FD77F3C3B717D",
+      "concept_ids": [
+        "CON-INF-0FD77F3C3B717D"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Normal flora and bacterial pathogenesis",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State the correct order of the steps of bacterial pathogenesis.",
+      "library_ids": [
+        "ART-O6U-IMP-BACTERIAL-PATHOGENESIS-AND-FLORA"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Normal flora and bacterial pathogenesis",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p10, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q16",
+      "page": 12,
+      "title": "Preventing Entamoeba histolytica",
+      "question": "Which of the following is NOT true for preventing Entamoeba histolytica infection?",
+      "options": {
+        "A": "Avoid walking barefooted",
+        "B": "Health education",
+        "C": "Treatment of patients",
+        "D": "Proper washing of vegetables and fruits"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct (this is the NOT-true option). Entamoeba histolytica is transmitted faecal-orally, not by skin penetration, so avoiding barefoot walking (relevant to hookworm or Strongyloides, which penetrate intact skin) does not prevent it. Recognising which prevention measures are organism-specific, rather than generically \"good hygiene,\" is what this kind of exception question is testing.",
+        "B": "Incorrect as the answer -- health education about hygiene and sanitation IS a genuine, relevant prevention measure for amoebiasis.",
+        "C": "Incorrect as the answer -- treating infected patients IS a genuine prevention measure, since it reduces the reservoir of cyst-shedding carriers.",
+        "D": "Incorrect as the answer -- proper washing of vegetables and fruit IS a genuine prevention measure, since it removes faecal contamination carrying cysts."
+      },
+      "main_concept": "CON-INF-5FE0BF8271C600",
+      "concept_ids": [
+        "CON-INF-5FE0BF8271C600"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Protozoa",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that avoiding barefoot walking is not a relevant prevention measure for Entamoeba histolytica.",
+      "library_ids": [
+        "ART-O6U-IMP-PROTOZOAL-PARASITOLOGY"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Protozoa",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p12 (also p19), independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q17",
+      "page": 12,
+      "title": "Giardia lamblia infective stage",
+      "question": "What is the infective stage of Giardia lamblia?",
+      "options": {
+        "A": "Mature cyst",
+        "B": "Trophozoite",
+        "C": "Precyst",
+        "D": "Encysted metacercaria"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Giardia lamblia is transmitted by ingestion of its mature cyst, which excysts in the small intestine to release trophozoites. This distinction matters diagnostically, since a stool sample may show either stage depending on gut transit time, but only the cyst is relevant to transmission risk.",
+        "B": "Incorrect. The trophozoite is the motile, feeding, pathogenic form in the small intestine, but it is not the transmissible/infective stage.",
+        "C": "Incorrect. Giardia does not have a distinct \"precyst\" stage of the kind seen in Entamoeba histolytica's life cycle.",
+        "D": "Incorrect. Encysted metacercaria is a trematode (fluke) infective stage, not a protozoan stage relevant to Giardia."
+      },
+      "main_concept": "CON-INF-5AFD0ED90BC5DE",
+      "concept_ids": [
+        "CON-INF-5AFD0ED90BC5DE"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Protozoa",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Giardia lamblia's infective stage is the mature cyst.",
+      "library_ids": [
+        "ART-O6U-IMP-PROTOZOAL-PARASITOLOGY"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Protozoa",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p12, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q18",
+      "page": 11,
+      "title": "Musca domestica and amoebiasis",
+      "question": "Musca domestica (the housefly) transmits which of the following diseases?",
+      "options": {
+        "A": "Amoebiasis",
+        "B": "Chagas' disease",
+        "C": "Cutaneous leishmaniasis",
+        "D": "Sleeping sickness"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The housefly, Musca domestica, is a recognised mechanical vector for faecal-oral pathogens including Entamoeba histolytica cysts, carrying them on its body from faeces to food. This mechanical-transmission role is a key reason fly control is part of standard sanitation measures against faecal-oral disease.",
+        "B": "Incorrect. Chagas' disease is transmitted by the triatomine (\"kissing\") bug, a biological vector, not the housefly.",
+        "C": "Incorrect. Cutaneous leishmaniasis is transmitted by the Phlebotomus sandfly, a biological vector, not the housefly.",
+        "D": "Incorrect. Sleeping sickness (African trypanosomiasis) is transmitted by the tsetse fly, a biological vector, not the housefly."
+      },
+      "main_concept": "CON-INF-6C25C3FF428661",
+      "concept_ids": [
+        "CON-INF-6C25C3FF428661"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Protozoa",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that Musca domestica mechanically transmits amoebiasis.",
+      "library_ids": [
+        "ART-O6U-IMP-PROTOZOAL-PARASITOLOGY"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Protozoa",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p11, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q19",
+      "page": 11,
+      "title": "Egg in urine diagnostic stage",
+      "question": "Egg in urine is the diagnostic stage of which of the following?",
+      "options": {
+        "A": "Schistosoma haematobium",
+        "B": "Ancylostoma duodenale",
+        "C": "Ascaris lumbricoides",
+        "D": "Ancylostoma deudenale"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Schistosoma haematobium uniquely inhabits the vesical/pelvic venous plexus, so its characteristic terminal-spined egg is diagnostic in urine, unlike the intestinal schistosomes and other helminths, whose eggs are found in stool. This urine-versus-stool distinction is a fast, reliable way to localise which schistosome species is responsible in a given patient.",
+        "B": "Incorrect. Ancylostoma duodenale (hookworm) eggs are diagnosed in stool, not urine.",
+        "C": "Incorrect. Ascaris lumbricoides eggs are diagnosed in stool, not urine.",
+        "D": "Incorrect. Same organism as option B (hookworm); its eggs are diagnosed in stool, not urine."
+      },
+      "main_concept": "CON-INF-60272AEA055042",
+      "concept_ids": [
+        "CON-INF-60272AEA055042"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Trematodes",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that egg in urine is diagnostic of Schistosoma haematobium.",
+      "library_ids": [
+        "ART-O6U-IMP-VECTOR-BORNE-AND-FUNGAL-DISEASE"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Trematodes",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p11, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q20",
+      "page": 13,
+      "title": "Cryptosporidium parvum infective stage",
+      "question": "What is the infective stage of Cryptosporidium parvum?",
+      "options": {
+        "A": "Oocyst",
+        "B": "Trophozoite",
+        "C": "Cyst",
+        "D": "Egg"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cryptosporidium parvum is transmitted by ingestion of its oocyst, a thick-walled, chlorine-resistant environmental form that is the infective stage. Its chlorine resistance is also clinically important, since it explains outbreaks linked to inadequately filtered public water supplies.",
+        "B": "Incorrect. The trophozoite is the intracellular feeding form, not the environmentally resistant infective stage.",
+        "C": "Incorrect. Cryptosporidium's environmental infective stage is specifically termed an oocyst, not a cyst (the term used for Entamoeba/Giardia).",
+        "D": "Incorrect. Cryptosporidium is a protozoan, not a helminth, and does not have an infective egg stage."
+      },
+      "main_concept": "CON-INF-8A3D79CE777896",
+      "concept_ids": [
+        "CON-INF-8A3D79CE777896"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Protozoa",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that Cryptosporidium parvum's infective stage is the oocyst.",
+      "library_ids": [
+        "ART-O6U-IMP-PROTOZOAL-PARASITOLOGY"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Protozoa",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p13, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q21",
+      "page": 13,
+      "title": "Cercaria infective stage",
+      "question": "Cercaria is the infective stage of which of the following parasites?",
+      "options": {
+        "A": "Schistosoma haematobium",
+        "B": "Hymenolepis nana",
+        "C": "Ascaris lumbricoides",
+        "D": "Trichinella spiralis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The cercaria, released into water by the parasite's freshwater snail intermediate host, is the stage infective to humans for Schistosoma haematobium, penetrating intact human skin on water contact. This skin-penetration route is why avoiding contact with cercaria-infested freshwater is a key personal preventive measure in endemic areas.",
+        "B": "Incorrect. Hymenolepis nana (dwarf tapeworm) is infective as an egg (which can also autoinfect directly), not as a cercaria -- it has no snail/water stage.",
+        "C": "Incorrect. Ascaris lumbricoides is infective as an embryonated egg after soil maturation, not as a cercaria.",
+        "D": "Incorrect. Trichinella spiralis is infective as an encysted larva in muscle tissue, not as a cercaria."
+      },
+      "main_concept": "CON-INF-60272AEA055042",
+      "concept_ids": [
+        "CON-INF-60272AEA055042"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Trematodes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that cercaria is the human-infective stage of Schistosoma haematobium.",
+      "library_ids": [
+        "ART-O6U-IMP-VECTOR-BORNE-AND-FUNGAL-DISEASE"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Trematodes",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p13, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q22",
+      "page": 14,
+      "title": "Probiotics definition",
+      "question": "Probiotics are live microorganisms that:",
+      "options": {
+        "A": "Confer a beneficial health effect on the host",
+        "B": "Are digestible food",
+        "C": "Are pathogenic bacteria",
+        "D": "Cause diarrhoea"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Probiotics are defined as live microorganisms which, when administered in adequate amounts, confer a beneficial health effect on the host. This definition is why probiotic use is targeted at restoring or supporting a healthy microbiome, not at treating infection directly.",
+        "B": "Incorrect. Probiotics are microorganisms with a defined health effect, not simply digestible food.",
+        "C": "Incorrect. Probiotics are, by definition, beneficial, not pathogenic -- confusing the two is the classic distractor here.",
+        "D": "Incorrect. Probiotics are used therapeutically to help restore healthy flora; causing diarrhoea contradicts their defined beneficial effect."
+      },
+      "main_concept": "CON-INF-F2E06D3BDAF0E7",
+      "concept_ids": [
+        "CON-INF-F2E06D3BDAF0E7"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Normal flora and bacterial pathogenesis",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define probiotics as live microorganisms that confer a beneficial health effect on the host.",
+      "library_ids": [
+        "ART-O6U-IMP-BACTERIAL-PATHOGENESIS-AND-FLORA"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Normal flora and bacterial pathogenesis",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p14, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q23",
+      "page": 15,
+      "title": "Dimorphic fungi",
+      "question": "Dimorphic fungi are those fungi that:",
+      "options": {
+        "A": "Have two forms: yeast and mycelial forms",
+        "B": "Grow only at 25°C",
+        "C": "Grow only in the presence of 10% CO2 and 5% O2",
+        "D": "Cannot infect immunocompetent hosts"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Dimorphic fungi grow as a mould (mycelial/hyphal form) in nature at room temperature (25°C) and convert to a yeast form at body temperature (37°C, in vivo) -- a temperature-dependent morphology switch responsible for their ability to cause both cutaneous and systemic infection. This dual morphology is diagnostically useful too, since seeing the yeast form on a tissue biopsy at body temperature, versus the mould form on a room-temperature culture plate, helps confirm the same organism in two different contexts.",
+        "B": "Incorrect. Growing only at 25°C describes just the mould/environmental form; the defining feature of dimorphism is switching to a yeast form at body temperature, not staying fixed at one temperature.",
+        "C": "Incorrect. This describes a specific culture-condition requirement, not the temperature-dependent mould/yeast switch that defines dimorphism.",
+        "D": "Incorrect. Dimorphic fungi (e.g. Histoplasma, Blastomyces, Coccidioides) can cause systemic disease in both immunocompetent and immunocompromised hosts; dimorphism is a morphological property, not an immune-status restriction."
+      },
+      "main_concept": "CON-INF-44400FF4328CA8",
+      "concept_ids": [
+        "CON-INF-44400FF4328CA8"
+      ],
+      "topic": "Mycology",
+      "subtopic": "Fungal structure",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that dimorphic fungi grow as a mould at room temperature and a yeast at body temperature.",
+      "library_ids": [
+        "ART-INF-FUNGAL-MORPHOLOGY-CELL-WALL"
+      ],
+      "module_subject": "O6U-IMP-106 > Mycology > Fungal structure",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p15, independently confirmed; reused from ASU-INF pending concept CON-INF-44400FF4328CA8 (see pending-live/O6U-IMP-106-overlay-concepts.md)"
+      }
+    },
+    {
+      "key": "mip-mixed-q24",
+      "page": 17,
+      "title": "Convalescent carrier definition",
+      "question": "When are people considered convalescent carriers?",
+      "options": {
+        "A": "When they continue to be infectious during or even after recovery from illness",
+        "B": "When they transmit their infection before their symptoms start",
+        "C": "When they show no illness at all but can transmit their infection to others",
+        "D": "When they continue to harbor infections for a year or longer after their recovery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A convalescent carrier is a person who continues to harbor and shed a pathogen -- remaining infectious -- during their recovery from an illness, or even after clinical recovery is complete. Identifying a convalescent carrier matters for infection control, since such a person can still transmit disease despite appearing clinically well.",
+        "B": "Incorrect. Transmitting infection before symptoms start describes an incubatory carrier, a different carrier category from the convalescent carrier.",
+        "C": "Incorrect. Showing no illness at all while transmitting describes a healthy (chronic) carrier, not specifically a convalescent one.",
+        "D": "Incorrect. A fixed one-year-or-longer duration is not part of the convalescent carrier definition; a convalescent carrier is defined by the timing (during/after recovery), not by a specific duration threshold."
+      },
+      "main_concept": "CON-INF-824F0808CF787B",
+      "concept_ids": [
+        "CON-INF-824F0808CF787B"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Hospital infection control",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Define a convalescent carrier as someone who remains infectious during or after recovery from illness.",
+      "library_ids": [
+        "ART-O6U-IMP-HOSPITAL-INFECTION-CONTROL"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Hospital infection control",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p17, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q25",
+      "page": 18,
+      "title": "Pork cooking and trichinosis",
+      "question": "Which of the following diseases could be prevented by proper cooking of pork?",
+      "options": {
+        "A": "Trichinosis",
+        "B": "Ascariasis",
+        "C": "Trichuriasis",
+        "D": "Schistosomiasis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Trichinosis (Trichinella spiralis infection) is acquired by eating undercooked pork containing viable encysted larvae in muscle; thoroughly cooking pork kills the larvae and prevents infection. This is also why trichinosis remains largely preventable through food-safety practice rather than requiring a specific vaccine.",
+        "B": "Incorrect. Ascariasis is acquired by ingesting embryonated eggs from contaminated soil/vegetables, not from pork.",
+        "C": "Incorrect. Trichuriasis (whipworm) is acquired by ingesting eggs from contaminated soil/vegetables, not from pork.",
+        "D": "Incorrect. Schistosomiasis is acquired by skin penetration by cercariae in contaminated water, unrelated to pork consumption."
+      },
+      "main_concept": "CON-INF-C3E68A47CC0DE9",
+      "concept_ids": [
+        "CON-INF-C3E68A47CC0DE9"
+      ],
+      "topic": "Parasitology",
+      "subtopic": "Vector-borne disease",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that proper cooking of pork prevents trichinosis.",
+      "library_ids": [
+        "ART-O6U-IMP-VECTOR-BORNE-AND-FUNGAL-DISEASE"
+      ],
+      "module_subject": "O6U-IMP-106 > Parasitology > Vector-borne disease",
+      "field_notes": {
+        "keySource": "MS-Forms highlight, p18, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q26",
+      "page": 9,
+      "title": "Superinfection definition",
+      "question": "Which of the following best defines a superinfection?",
+      "options": {
+        "A": "A new, often resistant, infection that emerges during or after antimicrobial treatment of an earlier infection",
+        "B": "A viral infection occurring on top of a pre-existing bacterial infection, unrelated to antibiotic use",
+        "C": "A second infection with the exact same organism and same antibiotic sensitivity as the original",
+        "D": "Any infection acquired during a hospital admission, regardless of antibiotic history"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A superinfection is a new infection that appears during or after antimicrobial treatment for an original infection, typically because the antibiotic disrupts normal flora or clears the susceptible organism and allows a resistant organism (or an overgrowing fungus) to establish itself. Recognising superinfection risk is part of why prolonged or broad-spectrum antibiotic courses are used cautiously, with attention to emerging resistant organisms or fungal overgrowth.",
+        "B": "Incorrect. Superinfection is specifically linked to antimicrobial treatment disrupting flora, not simply any viral-on-bacterial sequence unrelated to antibiotic use.",
+        "C": "Incorrect. A superinfection is a new infection, typically with a different or resistant organism, not a recurrence of the identical, equally sensitive original organism.",
+        "D": "Incorrect. This describes hospital-acquired infection broadly; superinfection is the narrower concept tied specifically to antimicrobial-treatment disruption of flora."
+      },
+      "main_concept": "CON-INF-38183F786ACF7F",
+      "concept_ids": [
+        "CON-INF-38183F786ACF7F"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Hospital infection control",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Define superinfection as a new, often resistant, infection emerging during or after antibiotic treatment.",
+      "library_ids": [
+        "ART-O6U-IMP-HOSPITAL-INFECTION-CONTROL"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Hospital infection control",
+      "field_notes": {
+        "keySource": "Concept tested on p9 of the source, but the source's own marked option reversed the usual textbook direction (sensitive-on-top-of-resistant); this question was written to the standard textbook definition instead of the source's exact wording -- see coverage/O6U-IMP-106-triage.md"
+      }
+    },
+    {
+      "key": "mip-mixed-q27",
+      "page": 251,
+      "resource_ids": [
+        "src_6b31d6e21b54a11a0c00"
+      ],
+      "source_citation": "Micro q bank.pdf, True/False section, p{page}",
+      "title": "Hand hygiene with antiseptic soap",
+      "question": "In a hospital setting, hands should always be washed with:",
+      "options": {
+        "A": "Antiseptic soap",
+        "B": "Plain water only, with no soap",
+        "C": "Alcohol gel only, never soap and water",
+        "D": "Any household soap, antiseptic or not"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hospital hand hygiene practice requires washing with antiseptic soap, which provides antimicrobial action beyond simple mechanical removal of debris. This requirement holds regardless of whether gloves are also used, since hand hygiene and glove use address different, complementary parts of infection control.",
+        "B": "Incorrect. Plain water alone does not provide the antimicrobial action antiseptic soap does, and is not the recommended hospital standard.",
+        "C": "Incorrect. Alcohol-based hand rub is an accepted alternative in many situations, but hand washing with antiseptic soap is still specifically required, particularly when hands are visibly soiled.",
+        "D": "Incorrect. The requirement is specifically for antiseptic soap, not any household soap regardless of antimicrobial activity."
+      },
+      "main_concept": "CON-INF-F1B3A88CBE7793",
+      "concept_ids": [
+        "CON-INF-F1B3A88CBE7793"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Hospital infection control",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that hands should always be washed with antiseptic soap in a hospital.",
+      "library_ids": [
+        "ART-O6U-IMP-HOSPITAL-INFECTION-CONTROL"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Hospital infection control",
+      "field_notes": {
+        "keySource": "Printed inline \"(True)\" answer, Micro q bank.pdf p251, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q28",
+      "page": 251,
+      "resource_ids": [
+        "src_6b31d6e21b54a11a0c00"
+      ],
+      "source_citation": "Micro q bank.pdf, True/False section, p{page}",
+      "title": "TB airborne transmission",
+      "question": "Tuberculosis is usually spread by:",
+      "options": {
+        "A": "Sharing air for prolonged periods with an infectious person",
+        "B": "A single brief handshake with an infectious person",
+        "C": "Eating food prepared by an infectious person",
+        "D": "Drinking water contaminated by an infectious person"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. TB transmission is airborne and typically requires prolonged exposure to shared air with an infectious (usually pulmonary, smear-positive) person, reflecting a low infectious dose per droplet nucleus that generally needs repeated inhalation exposure. This prolonged-exposure pattern is why household and close occupational contacts of an infectious TB patient are prioritised for screening, rather than casual passers-by.",
+        "B": "Incorrect. A brief handshake is a contact-transmission scenario; TB is spread by inhalation of airborne droplet nuclei, not skin contact.",
+        "C": "Incorrect. TB is not classically a foodborne disease; its main transmission route is airborne.",
+        "D": "Incorrect. TB is not classically a waterborne disease; its main transmission route is airborne."
+      },
+      "main_concept": "CON-INF-1B98A7A2EF0A6D",
+      "concept_ids": [
+        "CON-INF-1B98A7A2EF0A6D"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Hospital infection control",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that TB is usually spread by sharing air for prolonged periods with an infectious person.",
+      "library_ids": [
+        "ART-O6U-IMP-HOSPITAL-INFECTION-CONTROL"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Hospital infection control",
+      "field_notes": {
+        "keySource": "Printed inline \"(true)\" answer, Micro q bank.pdf p251, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q29",
+      "page": 251,
+      "resource_ids": [
+        "src_6b31d6e21b54a11a0c00"
+      ],
+      "source_citation": "Micro q bank.pdf, True/False section, p{page}",
+      "title": "Gloves and hand hygiene",
+      "question": "Wearing gloves in a hospital setting:",
+      "options": {
+        "A": "Does not eliminate the need to wash hands",
+        "B": "Eliminates the need to wash hands entirely",
+        "C": "Is always a substitute for antiseptic soap hand washing",
+        "D": "Removes the need for hand hygiene before but not after patient contact"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Wearing gloves does not eliminate the need to wash hands: gloves can have micro-tears or become contaminated on removal, so hand hygiene before and after glove use remains required. This is why standard infection-control protocols specify hand hygiene both before donning and after removing gloves, rather than treating glove use as a stand-alone substitute.",
+        "B": "Incorrect. This is the opposite of correct practice -- gloves supplement, they do not replace, hand hygiene.",
+        "C": "Incorrect. Gloves are not a substitute for hand washing with antiseptic soap in any hospital scenario.",
+        "D": "Incorrect. Hand hygiene is required both before and after glove use, not selectively only one of the two."
+      },
+      "main_concept": "CON-INF-F1B3A88CBE7793",
+      "concept_ids": [
+        "CON-INF-F1B3A88CBE7793"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Hospital infection control",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that wearing gloves does not eliminate the need to wash hands.",
+      "library_ids": [
+        "ART-O6U-IMP-HOSPITAL-INFECTION-CONTROL"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Hospital infection control",
+      "field_notes": {
+        "keySource": "Printed inline \"(false)\" against \"wearing gloves eliminates the need to wash hands\", Micro q bank.pdf p251, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q30",
+      "page": 251,
+      "resource_ids": [
+        "src_6b31d6e21b54a11a0c00"
+      ],
+      "source_citation": "Micro q bank.pdf, True/False section, p{page}",
+      "title": "Catering faults and hospital GI transmission",
+      "question": "Hospital transmission of gastrointestinal pathogens could result from which catering fault?",
+      "options": {
+        "A": "Incomplete defrosting of frozen meat and poultry",
+        "B": "Using single-use disposable cutlery",
+        "C": "Serving food on sterilised trays",
+        "D": "Storing raw and cooked food in separate, labelled containers"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Incomplete defrosting of frozen meat or poultry before cooking can leave the interior undercooked, allowing gastrointestinal pathogens to survive and seed hospital-acquired GI infection -- a recognised hospital catering fault. This is why hospital food-safety protocols specify verified defrosting procedures and internal cooking temperatures, not just visual inspection, before food reaches patients.",
+        "B": "Incorrect. Single-use disposable cutlery reduces, rather than increases, cross-contamination risk.",
+        "C": "Incorrect. Serving food on sterilised trays is a hygiene measure that reduces, rather than increases, transmission risk.",
+        "D": "Incorrect. Storing raw and cooked food separately and labelled is correct food-safety practice that reduces, rather than increases, cross-contamination risk."
+      },
+      "main_concept": "CON-INF-BDE0D0DD04C284",
+      "concept_ids": [
+        "CON-INF-BDE0D0DD04C284"
+      ],
+      "topic": "Microbiology",
+      "subtopic": "Hospital infection control",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify incomplete defrosting of frozen meat/poultry as a recognised catering-related route of hospital GI-pathogen transmission.",
+      "library_ids": [
+        "ART-O6U-IMP-HOSPITAL-INFECTION-CONTROL"
+      ],
+      "module_subject": "O6U-IMP-106 > Microbiology > Hospital infection control",
+      "field_notes": {
+        "keySource": "Printed inline \"(true)\" answer, Micro q bank.pdf p251, independently confirmed"
+      }
+    },
+    {
+      "key": "mip-mixed-q31",
+      "hold": "Source marked \"usual shape of DNA viruses\" as helical, which contradicts fact -- most DNA viruses (herpes, adeno, papilloma, parvo) are icosahedral, with poxvirus as the brick-shaped exception; helical symmetry is characteristic of RNA viruses. Same misconception repeated at mip-mixed-q32."
+    },
+    {
+      "key": "mip-mixed-q32",
+      "hold": "Source marked \"helical nucleocapsids are found primarily in DNA-containing viruses\" as true, which contradicts fact -- helical nucleocapsids predominate in RNA viruses (orthomyxo-, paramyxo-, rhabdo-, corona-, filoviruses); no major human DNA virus has helical symmetry. Same underlying misconception as mip-mixed-q31."
+    },
+    {
+      "key": "mip-mixed-q33",
+      "hold": "Source marked \"which parasite does not need soil to complete its life cycle\" as Ascaris lumbricoides, which contradicts fact -- Ascaris eggs require soil embryonation to become infective; Enterobius vermicularis is the option that does not need soil (direct perianal transmission)."
+    },
+    {
+      "key": "mip-mixed-q34",
+      "hold": "Clinical vignette (25F, Giza, generalised abdominal pain/colic/diarrhoea, whitish-creamy small worm-like objects in stool, stool negative for eggs) marked \"Myiasis,\" which does not fit the clinical picture (myiasis is fly-larva tissue infestation, not GI worm-passage). The clinical picture reads as enterobiasis, one of the other listed options, but that option's OCR text is illegible in the scan, so the correct key cannot be recovered from this source."
+    },
+    {
+      "key": "mip-mixed-q35",
+      "hold": "Source marked \"how pathogenic bacteria make abscess in human tissue\" as collagenase, identically on both instances it appears (p4 Q40 and p8 Q23) -- internally consistent but not independently settled: coagulase (fibrin-clot walling-off, classic S. aureus abscess mechanism) is at least as standard a textbook answer, and I could not confirm collagenase over coagulase with confidence."
+    },
+    {
+      "key": "mip-mixed-q36",
+      "hold": "A schistosomiasis-prevention clinical vignette (\"...eggs. Based on your suggestive diagnosis how can prevent this condition?\" -> marked answer \"Snail control\") has its opening sentence split across a page break and never appears on any rendered page of the scan, so the stem cannot be reconstructed cleanly. The same underlying fact is covered instead by mip-mixed-q06, which has a complete, cleanly-stemmed source question testing the identical fact."
+    }
+  ]
+}
