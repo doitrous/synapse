@@ -5,6 +5,7 @@
 | quiz3 | 31 | 0 | 0 | 31 |
 | quiz4 | 34 | 0 | 0 | 34 |
 | week1 | 145 | 4 | 0 | 149 |
+| week2 | 58 | 2 | 0 | 60 |
 
 ## Held
 - quiz1-q04 — HIT-PENDING concept (ciliary ganglion, Kasr 102-INT batch not yet imported) — authored now in pending-live/AU-MED-203-questions.md per LANE-BRIEF §21, not emitted into this batch.
@@ -15,6 +16,8 @@
 - week1-q99 — malformed source — only 3 answer options (a-c) are present in the extracted text, no fourth choice; native-text extraction confirmed via grep (not an OCR artifact), so a genuine source defect rather than a labelling/image question; not authored rather than inventing a fourth distractor.
 - week1-q130 — malformed source — only 2 answer options (true/false) are present in the extracted text, below the 4-5 option contract (`emit-mcq.mjs` requires 4-5 letters); native-text extraction confirmed via `pagetext.mjs show` (not an OCR artifact), so a genuine source defect (a true/false item embedded in an MCQ paper) rather than a labelling/image question; not authored rather than inventing two extra distractors. Per LANE-CARD-Y2's standing rule and lane 5's week1-q99 precedent (<4 options → hold).
 - week1-q149 — HIT-PENDING concept (oculomotor nerve within the lateral wall of the cavernous sinus, CON-NEU-94513EC37B29B8) reuses an ASU-CNS-3 concept not yet imported to production (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md) — authored as a sparse-overlay pending-live question per LANE-CARD-Y2's 'check CNS-3 first, reuse via sparse overlay' instruction, not emitted into this batch. Distinct from week1-q47 (Q51-100 batch, held outright as a near-exact duplicate of the same ASU-CNS-3 question/concept pair): this item's own stem and distractor set (optic/olfactory/oculomotor/hypoglossal) are simpler and materially different from week1-q47's, so it is authored as its own overlay question rather than held with no new question at all.
+- week2-q005 — HIT-PENDING concept (trochlear nerve and superior cerebellar peduncle decussation at the inferior midbrain level, CON-NEU-44845BF496BE5F) reuses an ASU-CNS-3 concept not yet imported to production (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-final2024-mcq-concepts.md) — authored as a sparse-overlay pending-live question (docs/Alexandria-Source-Imports/pending-live/AU-MED-203-cns3-final2024-overlay-questions.md) per LANE-CARD-Y2's 'check CNS-3 first, reuse via sparse overlay' instruction, not emitted into this batch. find-existing.mjs surfaced this hit for 'trochlear nerve'.
+- week2-q040 — malformed source — only 3 answer options (a-c) are present in the extracted text, no fourth choice ('40 The palatine tonsil is a proliferation of a Ectoderm b Endoderm c Mesoderm'); native-text extraction confirmed via pagetext.mjs show (not an OCR artifact), so a genuine source defect rather than a labelling/image question; below the 4-5 option contract emit-mcq.mjs enforces. Per LANE-CARD-Y2's standing rule and lane 5/6's week1-q99/week1-q130 precedent (<4 options → hold).
 
 ## Remaining
 (none)
