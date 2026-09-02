@@ -3559,6 +3559,181 @@ mans: Authored from Mansoura HIS 203's own Biochemistry Important MCQ (His Conti
 # Item
 
 ## id
+ART-MANS-HIS-HEMOLYTIC-JAUNDICE-UROBILINOGEN-PATTERN
+
+## title
+Haemolytic jaundice: the urobilinogen pattern
+
+## arabic_title
+
+
+## aliases
+Urobilinogen in haemolytic jaundice
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Heme metabolism
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Biochemistry > Heme metabolism
+
+## summary
+Haemolytic jaundice raises both urine and faecal urobilinogen together, because excess red cell breakdown delivers more bilirubin to the gut than normal — the pattern that distinguishes it from obstructive jaundice, where both fractions fall or disappear.
+
+## sections
+### Definition
+Haemolytic jaundice is caused by excess red cell breakdown, which delivers more unconjugated bilirubin to the liver than normal.
+
+### Mechanism
+The liver conjugates and excretes as much of the extra bilirubin load as it can, so more bilirubin than usual reaches the gut, where bacteria convert it to urobilinogen. Because the total load passing through the gut is increased, both faecal urobilinogen (stercobilinogen) and the fraction reabsorbed and excreted in urine rise together.
+
+### Key determinants
+The both-fractions-increased pattern is the specific signature of haemolytic jaundice, tested against obstructive jaundice's both-fractions-decreased-or-absent pattern (bile flow blocked, little or no bilirubin reaching the gut at all).
+
+### Clinical significance
+Urobilinogen testing (urine and stool) is one of the simple bedside/lab clues used alongside bilirubin fractionation to work out which of the three jaundice mechanisms — haemolytic, hepatocellular, obstructive — is responsible.
+
+## hold_these
+Haemolytic jaundice raises both urine and faecal urobilinogen together.
+
+## lose_the_mark
+Assuming urobilinogen changes in only one output route (urine or stool) — haemolytic jaundice raises both, since the excess starts upstream of either route.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Biochemistry notes-format Notes section, p.137, item 71, His Continuous Berlin Book 2026.pdf, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent clinical biochemistry reference not yet cross-checked against this department-book framing; the classification is standard.
+
+## notes
+Fills a gap flagged by MANS-HIS-203-author3: this concept's id (CON-HEM-22375197AEE80D) was already minted and used as `main_concept` by author2's `biochemistry-heme.json` seed and its emitted pending-live question, and referenced by ART-MANS-HIS-HEPATOCELLULAR-JAUNDICE-BILIRUBIN-PATTERN's own related-concept notes, but no concept or article record for it existed anywhere in this module. Authored here using the id already in circulation, not a new mint.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-364A4A59515E8A
+
+## related_articles
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Biochemistry Notes section (His Continuous Berlin Book 2026.pdf, p.137, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
 ART-MANS-HIS-ACUTE-IRON-TOXICITY-ANTIDOTE
 
 ## title

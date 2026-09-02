@@ -3645,6 +3645,189 @@ finalPublisher: Not published — it has not passed the evidence gate.
 # Item
 
 ## label
+In haemolytic jaundice, excess red cell breakdown delivers more bilirubin to the gut than normal, so both urine and faecal urobilinogen rise together
+
+## id
+CON-HEM-22375197AEE80D
+
+## canonical_key
+haemolytic-jaundice-urobilinogen-pattern
+
+## aliases
+Haemolytic jaundice urobilinogen pattern
+Urobilinogen in haemolytic jaundice
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Haemolytic jaundice results from excess red cell breakdown, which delivers more unconjugated bilirubin to the liver than normal. The liver conjugates and excretes as much of the extra load as it can, so more bilirubin than usual reaches the gut, where bacteria convert it to urobilinogen. Because the total bilirubin load passing through the gut is increased, both faecal urobilinogen (stercobilinogen) and the fraction reabsorbed and excreted in urine rise together — the opposite of obstructive jaundice, where blocked bile flow prevents bilirubin from reaching the gut at all and both fractions fall or disappear.
+
+## explicit_objective
+State that in haemolytic jaundice both urine and faecal urobilinogen are increased together, as the pattern that distinguishes it from obstructive jaundice (both decreased or absent).
+
+## pitfalls
+Assuming urobilinogen changes in only one output route (urine or stool) at a time — haemolytic jaundice raises both together, because the excess is generated upstream of either route, at the shared gut-bacterial conversion step.
+
+## concept_type
+directly_taught_biochemistry_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+[clear]
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Heme metabolism
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Biochemistry > Heme metabolism
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p137 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-HEMOLYTIC-JAUNDICE-UROBILINOGEN-PATTERN
+
+## related_article_ids
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## related_concept_ids
+CON-HEM-364A4A59515E8A
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.65
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+In haemolytic jaundice, urine and faecal urobilinogen are typically: [answer: Both increased]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent clinical biochemistry reference not yet cross-checked against this department-book framing; the classification is standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: A dedicated article was authored for this mint (ART-MANS-HIS-HEMOLYTIC-JAUNDICE-UROBILINOGEN-PATTERN); ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN (bilirubin metabolism generally) is the further-reading neighbour.
+relatedConceptIds: CON-HEM-364A4A59515E8A (this module, hepatocellular jaundice mixed-bilirubin pattern) is the same-differential neighbour this concept's haemolytic angle completes the three-way classification with.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: find-existing.mjs run for "haemolytic jaundice urobilinogen" returned no rival record ("safe to create one"); a broader "urobilinogen" query surfaced only this same id's own downstream uses (the biochemistry-heme.json seed and the already-emitted pending-live question), confirming the id was reserved but never had a standalone record — not a duplicate.
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+integrityFix: CON-HEM-22375197AEE80D was minted as `main_concept`/`concept_ids` by author2's `biochemistry-heme.json` seed (question key `hemolytic-jaundice-urobilinogen`, already emitted to `pending-live/MANS-HIS-203-questions-author2-biochem-pharm.md` as `QST-MANSHIS203-BIOCHEMISTRY-HEME-HEMOLYTIC-JAUNDICE-UROBILINOGEN`) and referenced by CON-HEM-364A4A59515E8A's own `related_concept_ids`, but no standalone Item record for it existed anywhere in this file — author3 hit this gap and worked around it by dropping the reference from two new questions rather than fixing it (see MANS-HIS-203-triage.md author3 addendum). This record fills that gap using the id already in circulation; no new id was minted.
+
+---
+
+# Item
+
+## label
 Acute iron toxicity presents primarily as necrotizing gastroenteritis, and its specific decontamination antidote is desferrioxamine, an iron chelator
 
 ## id
