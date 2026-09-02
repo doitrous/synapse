@@ -173,7 +173,7 @@ Joints
 Muscular system
 
 ## chapter
-General Anatomy section, ~30 items; printed answer key is OCR-collapsed into loose per-block clusters, not aligned one-per-question (see coverage/AU-MED-102-anatomy-triage.md HAZARDS)
+General Anatomy section, 30 items (pp.2-8). The cached OCR text collapses the printed answer key into loose per-block clusters, not aligned one-per-question (see coverage/AU-MED-102-anatomy-triage.md HAZARDS); the key itself is a plain printed table (row of question numbers over row of answer letters) at the foot of each page and reads cleanly off a rendered page image — recovered and authored in pending-live/AU-MED-102-anatomy-wagih-questions.md (20 of 30 items; the rest duplicate the anatomy-owed batch, need a fresh concept mint, or the printed key itself conflicts with an already-landed record or the stem).
 
 ## module_ids
 AU-MED-102
