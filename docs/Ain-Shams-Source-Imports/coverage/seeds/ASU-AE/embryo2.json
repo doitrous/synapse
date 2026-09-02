@@ -5,12 +5,20 @@
   "defaults": {
     "status": "Draft",
     "owner": "Claude",
-    "universities": ["asu"],
-    "years": ["ASU_Y1"],
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
     "module": "ASU-AE",
-    "exam_weight_by_year": { "ASU_Y1": "moderate" },
+    "exam_weight_by_year": {
+      "ASU_Y1": "moderate"
+    },
     "question_only_for": "",
-    "resource_ids": ["src_a7e3b821ab294015c05f"],
+    "resource_ids": [
+      "src_a7e3b821ab294015c05f"
+    ],
     "source_citation": "Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, \"MCQs - Embryo 2.pdf\" question {page}.",
     "setting": "Academic",
     "estimated_seconds": 60,
@@ -25,7 +33,13 @@
       "module_subject": "ASU-AE > Embryology > Questions > MCQ",
       "title": "Layer excluded from the placental barrier",
       "question": "The placental barrier does not include:",
-      "options": { "A": "The syncytiotrophoblast", "B": "The cytotrophoblast", "C": "The primary mesoderm", "D": "The endothelium of maternal blood vessels", "E": "The endothelium of fetal blood vessels" },
+      "options": {
+        "A": "The syncytiotrophoblast",
+        "B": "The cytotrophoblast",
+        "C": "The primary mesoderm",
+        "D": "The endothelium of maternal blood vessels",
+        "E": "The endothelium of fetal blood vessels"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect (i.e. this layer IS part of the barrier). The syncytiotrophoblast is the outer, maternal-blood-facing layer of the placental barrier.",
@@ -35,9 +49,13 @@
         "E": "Incorrect (i.e. this layer IS part of the barrier). The endothelium of the fetal capillaries within the villus is the innermost layer of the barrier, in contact with fetal blood."
       },
       "main_concept": "CON-OBS-7C3A7E3650A747",
-      "concept_ids": ["CON-OBS-7C3A7E3650A747"],
+      "concept_ids": [
+        "CON-OBS-7C3A7E3650A747"
+      ],
       "contextual_concept_ids": [],
-      "library_ids": ["ART-OBS-TOP-A56CFEF781"],
+      "library_ids": [
+        "ART-OBS-TOP-A56CFEF781"
+      ],
       "topic": "Embryology - Placenta",
       "subtopic": "Placental barrier",
       "difficulty": "Moderate",
@@ -46,7 +64,11 @@
       "reasoning_level": 1,
       "learning_objective": "State that the placental barrier is built entirely from fetal tissue and does not include maternal vessel endothelium.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer table p.13 row 1 (d, no remark)", "asu": "Embryo2 p.1 Q1.", "reuse": "Overlaid onto the live CON-OBS-7C3A7E3650A747 (\"Placental barrier includes syncytiotrophoblast, mesenchyme, cytotrophoblast, and fetal-capillary wall\") rather than minted fresh -- same fact stated from the inclusion side." },
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 1 (d, no remark)",
+        "asu": "Embryo2 p.1 Q1.",
+        "reuse": "Overlaid onto the live CON-OBS-7C3A7E3650A747 (\"Placental barrier includes syncytiotrophoblast, mesenchyme, cytotrophoblast, and fetal-capillary wall\") rather than minted fresh -- same fact stated from the inclusion side."
+      },
       "author_notes": ""
     },
     {
@@ -57,7 +79,13 @@
       "module_subject": "ASU-AE > Embryology > Questions > MCQ",
       "title": "Site of implantation causing placenta praevia",
       "question": "Placenta praevia results from implantation of the blastocyst in the:",
-      "options": { "A": "Pelvic peritoneum", "B": "Medial part of uterine tube", "C": "Lateral part of uterine tube", "D": "Upper part of the uterus", "E": "Lower part of the uterus" },
+      "options": {
+        "A": "Pelvic peritoneum",
+        "B": "Medial part of uterine tube",
+        "C": "Lateral part of uterine tube",
+        "D": "Upper part of the uterus",
+        "E": "Lower part of the uterus"
+      },
       "correct": "E",
       "explanations": {
         "A": "Incorrect. Implantation in the pelvic peritoneum describes a form of abdominal (extrauterine) ectopic pregnancy, not placenta praevia, which is by definition an intrauterine implantation site.",
@@ -67,9 +95,13 @@
         "E": "Correct. Placenta praevia occurs when the blastocyst implants in the lower part of the uterus, so that the developing placenta lies over or near the internal cervical os. Because this places the placenta in the path the fetus must pass through at delivery, placenta praevia is a recognised cause of antepartum haemorrhage and can obstruct a vaginal delivery."
       },
       "main_concept": "CON-OBS-14805E77091C30",
-      "concept_ids": ["CON-OBS-14805E77091C30"],
+      "concept_ids": [
+        "CON-OBS-14805E77091C30"
+      ],
       "contextual_concept_ids": [],
-      "library_ids": ["ART-OBS-ASU-AE-EMBRYO2-PREGNANCY-COMPLICATIONS-BASICS"],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PREGNANCY-COMPLICATIONS-BASICS"
+      ],
       "topic": "Embryology - Placenta",
       "subtopic": "Placenta praevia",
       "difficulty": "Moderate",
@@ -78,7 +110,10 @@
       "reasoning_level": 1,
       "learning_objective": "State that placenta praevia results from implantation in the lower part of the uterus.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer table p.13 row 2 (e/placenta praevia=implantation in lower part of [the uterus])", "asu": "Embryo2 p.1 Q2." },
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 2 (e/placenta praevia=implantation in lower part of [the uterus])",
+        "asu": "Embryo2 p.1 Q2."
+      },
       "author_notes": ""
     },
     {
@@ -89,7 +124,13 @@
       "module_subject": "ASU-AE > Embryology > Questions > MCQ",
       "title": "Mechanism preventing polyspermy",
       "question": "Prevents penetration of the oocyte by more than one sperm:",
-      "options": { "A": "Acrosome reaction", "B": "Sperm capacitation", "C": "Vitelline membrane", "D": "Cervical plug", "E": "Decidual reaction" },
+      "options": {
+        "A": "Acrosome reaction",
+        "B": "Sperm capacitation",
+        "C": "Vitelline membrane",
+        "D": "Cervical plug",
+        "E": "Decidual reaction"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. The acrosome reaction is what lets the fertilising sperm itself penetrate the corona radiata and zona pellucida; it is not the block that stops subsequent sperm.",
@@ -99,9 +140,13 @@
         "E": "Incorrect. The decidual reaction is the endometrial stromal-cell change that supports implantation, occurring later and at a different site than the polyspermy block."
       },
       "main_concept": "CON-DEV-F202CC422C987E",
-      "concept_ids": ["CON-DEV-F202CC422C987E"],
+      "concept_ids": [
+        "CON-DEV-F202CC422C987E"
+      ],
       "contextual_concept_ids": [],
-      "library_ids": ["ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"
+      ],
       "topic": "Embryology - Fertilisation",
       "subtopic": "Block to polyspermy",
       "difficulty": "Moderate",
@@ -110,7 +155,10 @@
       "reasoning_level": 1,
       "learning_objective": "State that cortical-granule-triggered change to the oocyte's surrounding coat blocks polyspermy.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer table p.13 row 3 (c/vitelline block)", "asu": "Embryo2 p.1 Q3." },
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 3 (c/vitelline block)",
+        "asu": "Embryo2 p.1 Q3."
+      },
       "author_notes": "This bank's key labels the polyspermy block \"vitelline membrane\"/\"vitelline block\" (option C); standard embryology teaching more often calls the same cortical-granule-triggered barrier the zona reaction. Kept the bank's own terminology per the printed key rather than silently relabelling the option."
     },
     {
@@ -121,7 +169,13 @@
       "module_subject": "ASU-AE > Embryology > Questions > MCQ",
       "title": "Day implantation is completed",
       "question": "Implantation of blastocyst is completed in which post-fertilization day?",
-      "options": { "A": "5th", "B": "7th", "C": "9th", "D": "11th", "E": "13th" },
+      "options": {
+        "A": "5th",
+        "B": "7th",
+        "C": "9th",
+        "D": "11th",
+        "E": "13th"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Day 5 is roughly when the blastocyst forms and is still free in the uterine cavity, well before implantation begins.",
@@ -131,9 +185,13 @@
         "E": "Incorrect. Day 13 is beyond the completion of implantation and instead falls within the events of the second week that follow it (bilaminar disc and extraembryonic mesoderm formation)."
       },
       "main_concept": "CON-DEV-14D17FFD9E6CA3",
-      "concept_ids": ["CON-DEV-14D17FFD9E6CA3"],
+      "concept_ids": [
+        "CON-DEV-14D17FFD9E6CA3"
+      ],
       "contextual_concept_ids": [],
-      "library_ids": ["ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"
+      ],
       "topic": "Embryology - Implantation",
       "subtopic": "Implantation timing",
       "difficulty": "Moderate",
@@ -142,7 +200,10 @@
       "reasoning_level": 1,
       "learning_objective": "State that implantation is completed by about the 11th day after fertilisation.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer table p.13 row 4 (d/11th day)", "asu": "Embryo2 p.1 Q4." },
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 4 (d/11th day)",
+        "asu": "Embryo2 p.1 Q4."
+      },
       "author_notes": ""
     },
     {
@@ -153,7 +214,13 @@
       "module_subject": "ASU-AE > Embryology > Questions > MCQ",
       "title": "Origin of the fetal part of the placenta",
       "question": "The fetal part of placenta is derived from:",
-      "options": { "A": "Decidua capsularis", "B": "Decidua basalis", "C": "Decidua parietalis", "D": "Chorion frondosum", "E": "Chorion leave" },
+      "options": {
+        "A": "Decidua capsularis",
+        "B": "Decidua basalis",
+        "C": "Decidua parietalis",
+        "D": "Chorion frondosum",
+        "E": "Chorion leave"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Decidua capsularis is the maternal endometrium covering the implanted conceptus on the uterine-lumen side; it thins and eventually fuses with decidua parietalis, contributing nothing to the placenta.",
@@ -163,9 +230,13 @@
         "E": "Incorrect. The chorion laeve (\"smooth chorion\") is the part whose villi degenerate; it does not contribute to the placenta and instead fuses with the decidua parietalis to form part of the fetal membranes."
       },
       "main_concept": "CON-DEV-E099FAA01BEAEB",
-      "concept_ids": ["CON-DEV-E099FAA01BEAEB"],
+      "concept_ids": [
+        "CON-DEV-E099FAA01BEAEB"
+      ],
       "contextual_concept_ids": [],
-      "library_ids": ["ART-101-ANA-CHORIONIC-VILLI-PLACENTA"],
+      "library_ids": [
+        "ART-101-ANA-CHORIONIC-VILLI-PLACENTA"
+      ],
       "topic": "Embryology - Placenta",
       "subtopic": "Chorion frondosum and chorion laeve",
       "difficulty": "Moderate",
@@ -174,7 +245,11 @@
       "reasoning_level": 1,
       "learning_objective": "State that the chorion frondosum forms the fetal part of the placenta.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer table p.13 row 5 (d/chorion frondosum)", "asu": "Embryo2 p.2 Q5.", "reuse": "Overlaid onto the pending Kasr concept CON-DEV-E099FAA01BEAEB (101-ISK-mcq-concepts.md, chorionic villi types), whose own definition already states \"the chorion carrying well-developed villi is the chorion frondosum, which persists as the fetal part of the placenta\" -- covers this fact directly, not minted fresh." },
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 5 (d/chorion frondosum)",
+        "asu": "Embryo2 p.2 Q5.",
+        "reuse": "Overlaid onto the pending Kasr concept CON-DEV-E099FAA01BEAEB (101-ISK-mcq-concepts.md, chorionic villi types), whose own definition already states \"the chorion carrying well-developed villi is the chorion frondosum, which persists as the fetal part of the placenta\" -- covers this fact directly, not minted fresh."
+      },
       "author_notes": ""
     },
     {
@@ -185,7 +260,13 @@
       "module_subject": "ASU-AE > Embryology > Questions > MCQ",
       "title": "Commonest site of ectopic pregnancy",
       "question": "The commonest site of ectopic pregnancy is:",
-      "options": { "A": "Internal os", "B": "Ovary", "C": "Peritoneal sac", "D": "Uterine tube", "E": "Cervix" },
+      "options": {
+        "A": "Internal os",
+        "B": "Ovary",
+        "C": "Peritoneal sac",
+        "D": "Uterine tube",
+        "E": "Cervix"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. The internal os is a landmark of the cervix/lower uterine segment relevant to placenta praevia, not a recognised site of ectopic implantation.",
@@ -195,9 +276,16 @@
         "E": "Incorrect. Cervical ectopic pregnancy occurs, but it is one of the rarest forms, not the commonest."
       },
       "main_concept": "CON-OBS-754F3A920D996F",
-      "concept_ids": ["CON-OBS-754F3A920D996F"],
-      "contextual_concept_ids": ["CON-OBS-F3B46C8C137FA1", "CON-OBS-084631D1416D83"],
-      "library_ids": ["ART-OBS-ASU-AE-EMBRYO2-PREGNANCY-COMPLICATIONS-BASICS"],
+      "concept_ids": [
+        "CON-OBS-754F3A920D996F"
+      ],
+      "contextual_concept_ids": [
+        "CON-OBS-F3B46C8C137FA1",
+        "CON-OBS-084631D1416D83"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PREGNANCY-COMPLICATIONS-BASICS"
+      ],
       "topic": "Embryology - Fertilisation",
       "subtopic": "Ectopic pregnancy",
       "difficulty": "Easy",
@@ -206,7 +294,10 @@
       "reasoning_level": 1,
       "learning_objective": "State that the uterine tube is the commonest site of ectopic pregnancy.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer table p.13 row 6 (d/uterine tubes)", "asu": "Embryo2 p.2 Q6." },
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 6 (d/uterine tubes)",
+        "asu": "Embryo2 p.2 Q6."
+      },
       "author_notes": ""
     },
     {
@@ -217,7 +308,13 @@
       "module_subject": "ASU-AE > Embryology > Questions > MCQ",
       "title": "Fate of the blastocoele",
       "question": "The blastocoele becomes the:",
-      "options": { "A": "Amniotic sac", "B": "Yolk sac", "C": "Extraembryonic coelom", "D": "Intraembryonic coelom", "E": "Chorionic cavity" },
+      "options": {
+        "A": "Amniotic sac",
+        "B": "Yolk sac",
+        "C": "Extraembryonic coelom",
+        "D": "Intraembryonic coelom",
+        "E": "Chorionic cavity"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. The amniotic sac develops from a separate cavity that appears within the inner cell mass (between the epiblast and the overlying cytotrophoblast), not from the blastocoele.",
@@ -227,9 +324,13 @@
         "E": "Incorrect. The chorionic cavity is the same structure as the extraembryonic coelom, formed later within the extraembryonic mesoderm rather than being the blastocoele itself."
       },
       "main_concept": "CON-DEV-F2909DB540E1FF",
-      "concept_ids": ["CON-DEV-F2909DB540E1FF"],
+      "concept_ids": [
+        "CON-DEV-F2909DB540E1FF"
+      ],
       "contextual_concept_ids": [],
-      "library_ids": ["ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"
+      ],
       "topic": "Embryology - Events of the second week",
       "subtopic": "Yolk sac formation",
       "difficulty": "Moderate",
@@ -238,7 +339,10 @@
       "reasoning_level": 1,
       "learning_objective": "State that the blastocoele becomes the (primary) yolk sac.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer table p.13 row 7 (b/the blastocoele forms the yolk sac)", "asu": "Embryo2 p.2 Q7." },
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 7 (b/the blastocoele forms the yolk sac)",
+        "asu": "Embryo2 p.2 Q7."
+      },
       "author_notes": ""
     },
     {
@@ -249,7 +353,13 @@
       "module_subject": "ASU-AE > Embryology > Questions > MCQ",
       "title": "Composition of the chorionic vesicle wall",
       "question": "The wall of chorionic vesicle is made of:",
-      "options": { "A": "Cytotrophoblast + syncytiotrophoblast", "B": "Cytotrophoblast + exocoelomic membrane", "C": "Syncytiotrophoblast + exocoelomic membrane", "D": "Trophoblast + extraembryonic somatic mesoderm", "E": "Trophoblast + extraembryonic splanchnic mesoderm" },
+      "options": {
+        "A": "Cytotrophoblast + syncytiotrophoblast",
+        "B": "Cytotrophoblast + exocoelomic membrane",
+        "C": "Syncytiotrophoblast + exocoelomic membrane",
+        "D": "Trophoblast + extraembryonic somatic mesoderm",
+        "E": "Trophoblast + extraembryonic splanchnic mesoderm"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Cytotrophoblast and syncytiotrophoblast together make up the trophoblast alone, without the mesodermal layer that lines it once the extraembryonic mesoderm forms -- this describes an earlier stage (the wall of the blastocyst/early implanted conceptus), not the definitive chorionic vesicle.",
@@ -259,9 +369,13 @@
         "E": "Incorrect. The extraembryonic splanchnic mesoderm covers the yolk sac, not the chorion; the chorion's mesodermal component is specifically the somatic layer."
       },
       "main_concept": "CON-DEV-2600516FB09592",
-      "concept_ids": ["CON-DEV-2600516FB09592"],
+      "concept_ids": [
+        "CON-DEV-2600516FB09592"
+      ],
       "contextual_concept_ids": [],
-      "library_ids": ["ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"
+      ],
       "topic": "Embryology - Events of the second week",
       "subtopic": "Chorion structure",
       "difficulty": "Hard",
@@ -270,7 +384,10 @@
       "reasoning_level": 2,
       "learning_objective": "State that the chorionic vesicle wall is made of trophoblast plus extraembryonic somatic mesoderm.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer table p.13 row 8 (d/trophoblast + extraembryonic mesoderm)", "asu": "Embryo2 p.2 Q8." },
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 8 (d/trophoblast + extraembryonic mesoderm)",
+        "asu": "Embryo2 p.2 Q8."
+      },
       "author_notes": ""
     },
     {
@@ -281,7 +398,13 @@
       "module_subject": "ASU-AE > Embryology > Questions > MCQ",
       "title": "Identity of the cell fertilised by the sperm",
       "question": "The cell that is fertilized by the sperm is the:",
-      "options": { "A": "Primary oocyte", "B": "Secondary oocyte", "C": "Mature ovum", "D": "First polar body", "E": "Second polar body" },
+      "options": {
+        "A": "Primary oocyte",
+        "B": "Secondary oocyte",
+        "C": "Mature ovum",
+        "D": "First polar body",
+        "E": "Second polar body"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. The primary oocyte has already completed its first meiotic division, becoming a secondary oocyte, by the time it is ovulated and available for fertilisation.",
@@ -291,9 +414,13 @@
         "E": "Incorrect. The second polar body is likewise a discarded, non-fertilisable by-product, extruded from the secondary oocyte only once the second meiotic division completes at fertilisation."
       },
       "main_concept": "CON-DEV-5D83FA5AACF963",
-      "concept_ids": ["CON-DEV-5D83FA5AACF963"],
+      "concept_ids": [
+        "CON-DEV-5D83FA5AACF963"
+      ],
       "contextual_concept_ids": [],
-      "library_ids": ["ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"
+      ],
       "topic": "Embryology - Fertilisation",
       "subtopic": "Identity of the fertilised cell",
       "difficulty": "Moderate",
@@ -302,7 +429,10 @@
       "reasoning_level": 1,
       "learning_objective": "State that the secondary oocyte, not the mature ovum, is the cell fertilised by the sperm.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer table p.13 row 9 (b/2ry oocyte)", "asu": "Embryo2 p.2 Q9." },
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 9 (b/2ry oocyte)",
+        "asu": "Embryo2 p.2 Q9."
+      },
       "author_notes": ""
     },
     {
@@ -313,7 +443,13 @@
       "module_subject": "ASU-AE > Embryology > Questions > MCQ",
       "title": "Term for implantation in the lower uterine segment",
       "question": "Implantation in the lower uterine segment is called placenta .....:",
-      "options": { "A": "Previa", "B": "Acreta", "C": "Membranacea", "D": "Succenturiata", "E": "Percreta" },
+      "options": {
+        "A": "Previa",
+        "B": "Acreta",
+        "C": "Membranacea",
+        "D": "Succenturiata",
+        "E": "Percreta"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Placenta praevia (previa) is the term for a placenta that has developed from a blastocyst implanted in the lower uterine segment, so that it lies over or near the internal cervical os. It is defined by abnormal implantation site, in contrast to the other named placental anomalies below, which describe abnormal attachment depth or shape rather than site.",
@@ -323,9 +459,13 @@
         "E": "Incorrect. Placenta percreta describes the most severe degree of abnormal attachment, in which villi penetrate through the full thickness of the myometrium and beyond, a depth-of-invasion abnormality, not specifically a site one."
       },
       "main_concept": "CON-OBS-14805E77091C30",
-      "concept_ids": ["CON-OBS-14805E77091C30"],
+      "concept_ids": [
+        "CON-OBS-14805E77091C30"
+      ],
       "contextual_concept_ids": [],
-      "library_ids": ["ART-OBS-ASU-AE-EMBRYO2-PREGNANCY-COMPLICATIONS-BASICS"],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PREGNANCY-COMPLICATIONS-BASICS"
+      ],
       "topic": "Embryology - Placenta",
       "subtopic": "Placenta praevia",
       "difficulty": "Easy",
@@ -334,8 +474,685 @@
       "reasoning_level": 1,
       "learning_objective": "Name placenta praevia as the term for implantation in the lower uterine segment.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer table p.13 row 10 (a/placenta praevia)", "asu": "Embryo2 p.2 Q10." },
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 10 (a/placenta praevia)",
+        "asu": "Embryo2 p.2 Q10."
+      },
       "author_notes": ""
+    },
+    {
+      "key": "embryo2-q11",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-CHORION-LEAVE-FACES-CAPSULARIS-Q11",
+      "page": 3,
+      "subject": "obs",
+      "title": "Part of the decidua the chorion leave faces",
+      "question": "The chorion leave faces which part of the decidua?",
+      "options": {
+        "A": "Basalis",
+        "B": "Capsularis",
+        "C": "Parietalis",
+        "D": "Lateralis",
+        "E": "Frondosum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Decidua basalis is faced by the chorion frondosum, not the chorion leave -- that pairing forms the placenta proper, the opposite of this question's regressed-membrane pairing.",
+        "B": "Correct. As the gestational sac expands, the chorion away from the implantation site loses its villi and becomes the smooth chorion leave (laeve). This regressed chorion directly faces the decidua capsularis, the thin layer of endometrium stretched over the conceptus on the side away from the myometrium. The chorion frondosum, by contrast, faces the decidua basalis, forming the placenta proper.",
+        "C": "Incorrect. \"Parietalis\" is not a printed option in this stem, and decidua parietalis (lining the rest of the uterine cavity away from the implantation site) is not faced by the chorion leave either -- it does not overlie the gestational sac at all.",
+        "D": "\"Lateralis\" is not a standard decidua region; no such term applies to the chorion-decidua relationship being tested here.",
+        "E": "Incorrect. Frondosum is the fetal part of the placenta, faced by the decidua basalis -- it is the chorion frondosum/decidua basalis pairing, not the chorion leave, that this option describes."
+      },
+      "main_concept": "CON-OBS-C175C8EC125AF5",
+      "concept_ids": [
+        "CON-OBS-C175C8EC125AF5"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Decidua-chorion relationships",
+      "learning_objective": "State that the chorion leave faces the decidua capsularis.",
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 11 = b (Decidua capsularis)",
+        "asu": "Embryo2 p.3 Q11."
+      }
+    },
+    {
+      "key": "embryo2-q12",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-ZONA-CONFINES-ZYGOTE-SIZE-Q12",
+      "page": 3,
+      "subject": "dev",
+      "title": "Structure preventing enlargement of the cleaving zygote",
+      "question": "Enlargement of the cleaving zygote is prevented by:",
+      "options": {
+        "A": "Corona radiata",
+        "B": "Zona pellucida",
+        "C": "Vitelline membrane",
+        "D": "Fallopian tube",
+        "E": "Follicular cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The corona radiata is the granulosa-cell layer the sperm must penetrate to fertilise the oocyte; it is shed before cleavage and plays no role in confining the dividing zygote's size.",
+        "B": "Correct. As the zygote cleaves, each division produces more, smaller blastomeres, but the intact zona pellucida is an unyielding acellular coat that confines the whole conceptus within a fixed outer size. Growth is achieved by dividing into more, smaller cells, not by the conceptus getting physically bigger. The zona persists in this role until it is later shed at hatching, just before implantation.",
+        "C": "Incorrect. The vitelline (oocyte) membrane lies inside the zona pellucida and is the site of sperm-oocyte fusion; it is not the structure that constrains the cleaving zygote's overall size.",
+        "D": "Incorrect. The Fallopian (uterine) tube is the conduit that transports the cleaving conceptus toward the uterus; its diameter does not confine the zygote's size the way the zona pellucida does.",
+        "E": "Incorrect. Follicular (granulosa) cells form the corona radiata around the oocyte before fertilisation and are shed early -- they are not present to constrain the zygote during cleavage."
+      },
+      "main_concept": "CON-DEV-369BD591386DD1",
+      "concept_ids": [
+        "CON-DEV-369BD591386DD1"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS"
+      ],
+      "topic": "Embryology - Cleavage",
+      "subtopic": "Zona pellucida and cleavage",
+      "learning_objective": "State that the zona pellucida prevents the cleaving zygote from enlarging.",
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 12 = b (Zona pellucida)",
+        "asu": "Embryo2 p.3 Q12."
+      }
+    },
+    {
+      "key": "embryo2-q13",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-PLACENTA-DERIVED-FRONDOSUM-BASALIS-Q13",
+      "page": 3,
+      "subject": "obs",
+      "title": "Tissues the placenta is derived from",
+      "question": "The placenta is derived from the:",
+      "options": {
+        "A": "Chorion frondosum + decidua capsularis",
+        "B": "Chorion leave + decidua capsularis",
+        "C": "Chorion frondosum + decidua basalis",
+        "D": "Chorion leave + decidua parietalis",
+        "E": "Chorion frondosum + chorion leave"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Chorion frondosum is correctly the fetal contributor, but decidua capsularis is instead faced by the chorion leave, not paired with the frondosum -- the capsularis regresses along with the leave rather than forming the placenta.",
+        "B": "Incorrect. Both terms here are the regressed-membrane pair (chorion leave / decidua capsularis), not the placenta-forming pair.",
+        "C": "Correct. The definitive placenta has a fetal part and a maternal part. Its fetal part is the chorion frondosum, the villous region of chorion derived from the embryo. Its maternal part is the decidua basalis, the endometrium underlying the implantation site, and together these two structures constitute the placenta.",
+        "D": "Incorrect. Chorion leave and decidua parietalis are both non-placental structures -- the leave regresses and fuses with the parietalis later in pregnancy, obliterating the uterine cavity, but neither forms the placenta.",
+        "E": "Incorrect. This option pairs two chorionic regions together and omits any decidual (maternal) contribution -- the placenta needs both a fetal (chorionic) and a maternal (decidual) part."
+      },
+      "main_concept": "CON-OBS-54773B9FA007C0",
+      "concept_ids": [
+        "CON-OBS-54773B9FA007C0"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Placental composition",
+      "learning_objective": "State that the placenta is derived from the chorion frondosum and decidua basalis.",
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 13 = c (confirmed by re-OCR at 400/600 dpi after an initial pass misread the letter as e; the remark text \"Chorion frondosum + decidua basalis\" matches option c exactly)",
+        "asu": "Embryo2 p.3 Q13."
+      }
+    },
+    {
+      "key": "embryo2-q14",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-SECONDARY-VILLUS-COMPOSITION-Q14",
+      "page": 3,
+      "subject": "dev",
+      "title": "Composition of a secondary chorionic villus",
+      "question": "A 2ry chorionic villus is made of:",
+      "options": {
+        "A": "Cytotrophoblast + syncytiotrophoblast",
+        "B": "Trophoblast + 2ry mesoderm",
+        "C": "Trophoblast + 1ry mesoderm + fetal capillaries",
+        "D": "Syncytiotrophoblast + fetal capillaries",
+        "E": "Trophoblast + 1ry mesoderm"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Cytotrophoblast plus syncytiotrophoblast, with no mesenchymal core, describes a primary villus -- the stage before mesoderm has invaded, not the secondary stage.",
+        "B": "Incorrect. The mesoderm that invades to form a secondary villus is the primary (1ry, extraembryonic) mesoderm, not a \"2ry mesoderm\" -- \"secondary\" describes the villus's own maturation stage, not a second generation of mesoderm.",
+        "C": "Incorrect. Adding fetal capillaries describes the tertiary (vascularised) villus, one stage further matured than the secondary villus this question asks about.",
+        "D": "Incorrect. This combination omits the cytotrophoblast and, like option C, wrongly adds fetal capillaries -- neither belongs to the secondary-villus stage.",
+        "E": "Correct. Once extraembryonic (primary) mesoderm invades the trophoblastic core of a primary villus, the villus becomes a secondary villus. Its composition is then trophoblast (cytotrophoblast plus syncytiotrophoblast) plus this primary mesoderm core. It does not yet carry fetal blood vessels -- that step, vascularisation, is what defines the next, tertiary, stage."
+      },
+      "main_concept": "CON-DEV-81EFB3946EB83C",
+      "concept_ids": [
+        "CON-DEV-81EFB3946EB83C"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-VILLUS-CHORION-STRUCTURE"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Chorionic villus maturation",
+      "learning_objective": "State that a secondary chorionic villus consists of trophoblast plus primary mesoderm.",
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 14 = e (confirmed by re-OCR at 400/600 dpi; remark \"Trophoblast + 1ry mesoderm\" matches option e)",
+        "asu": "Embryo2 p.3 Q14."
+      }
+    },
+    {
+      "key": "embryo2-q15",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-ZONA-CONFINES-ZYGOTE-SIZE-Q15",
+      "page": 3,
+      "subject": "dev",
+      "title": "Structure preventing enlargement of the dividing zygote (reworded)",
+      "question": "Prevents enlargement of the dividing zygote:",
+      "options": {
+        "A": "Vitelline membrane",
+        "B": "Zona pellucida",
+        "C": "Fallopian tube diameter",
+        "D": "Gonadotrophins",
+        "E": "Decidua reaction"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The vitelline (oocyte) membrane is the site of sperm-oocyte fusion, internal to the zona pellucida -- it is not the structure that confines the whole conceptus's outer size during cleavage.",
+        "B": "Correct. The zona pellucida, unchanged through cleavage, keeps the overall diameter of the dividing conceptus essentially constant from the zygote through the morula. Each division adds more, smaller cells rather than making the whole conceptus bigger. This is the same size-confining function tested from a different stem wording elsewhere in this bank.",
+        "C": "Incorrect. The Fallopian tube's diameter is a fixed anatomical passage, not a structure that actively constrains the zygote's growth; the zona pellucida performs that role, independent of the tube's own dimensions.",
+        "D": "Incorrect. Gonadotrophins are pituitary/placental hormones regulating ovarian and pregnancy physiology; they play no role in physically confining the size of the cleaving zygote.",
+        "E": "Incorrect. The decidual reaction is an endometrial stromal change supporting implantation, occurring later and at a different site than cleavage, so it has no bearing on the zygote's size during division."
+      },
+      "main_concept": "CON-DEV-369BD591386DD1",
+      "concept_ids": [
+        "CON-DEV-369BD591386DD1"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS"
+      ],
+      "topic": "Embryology - Cleavage",
+      "subtopic": "Zona pellucida and cleavage",
+      "learning_objective": "State that the zona pellucida prevents the dividing zygote from enlarging.",
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 15 = b (Zona pellucida); same fact as embryo2-q12, distinct distractor set",
+        "asu": "Embryo2 p.3 Q15."
+      }
+    },
+    {
+      "key": "embryo2-q16",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-FETAL-PART-PLACENTA-Q16",
+      "page": 3,
+      "subject": "obs",
+      "title": "Origin of the fetal part of the placenta (2nd asking)",
+      "question": "The fetal part of placenta is derived from:",
+      "options": {
+        "A": "Decidua basalis",
+        "B": "Decidua capsularis",
+        "C": "Decidua parietalis",
+        "D": "Chorion leave",
+        "E": "Chorion frondosum"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Decidua basalis is the maternal part of the placenta, not the fetal part -- it derives from maternal endometrium, not embryonic tissue.",
+        "B": "Incorrect. Decidua capsularis is a maternal structure that regresses along with the chorion leave; it does not form the fetal part of the placenta.",
+        "C": "Incorrect. Decidua parietalis lines the uterine cavity away from the implantation site and is maternal in origin -- irrelevant to the fetal part of the placenta.",
+        "D": "Incorrect. The chorion leave is the regressed, villus-poor chorion that faces the decidua capsularis; it does not contribute to the definitive placenta.",
+        "E": "Correct. The chorion frondosum is the region of chorion bearing well-developed, branching villi. It is derived from the embryo -- built from trophoblast plus extraembryonic mesoderm -- and it constitutes the fetal part of the placenta, pairing with the maternal decidua basalis to form the definitive placenta."
+      },
+      "main_concept": "CON-OBS-54773B9FA007C0",
+      "concept_ids": [
+        "CON-OBS-54773B9FA007C0"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Placental composition",
+      "learning_objective": "State that the fetal part of the placenta is derived from the chorion frondosum.",
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 16 = e (Chorion frondosum)",
+        "asu": "Embryo2 p.3 Q16. This is a second, verbatim-repeated asking of the same stem lane 9 already authored as Q5 (embryo2-q05); repeated in the printed bank at Q16, so authored again here as its own item rather than held, since the LANE-CARD instructs authoring every keyed item in this cluster and the fact is worth reinforcing rather than fabricating a hold reason for an otherwise-clean, independently keyed row."
+      }
+    },
+    {
+      "key": "embryo2-q17",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-CORD-MARGIN-ATTACHMENT-TERM-Q17",
+      "page": 4,
+      "subject": "obs",
+      "title": "Term for cord attachment to the placental margin",
+      "question": "Attachment of the umbilical cord to the margin of placenta is called:",
+      "options": {
+        "A": "Placenta membranacea",
+        "B": "Placenta praevia marginalis",
+        "C": "Placenta succenturiata",
+        "D": "Battledore placenta",
+        "E": "Velamentous insertion of the cord"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Placenta membranacea is an abnormally thin, diffuse placenta covering most of the uterine wall -- a shape abnormality, unrelated to where the cord attaches.",
+        "B": "Incorrect. Placenta praevia marginalis describes an abnormally low implantation site (the placental edge reaching the internal os), not the site of cord insertion into the placenta.",
+        "C": "Incorrect. Placenta succenturiata describes an accessory placental lobule separate from the main placental mass -- a number abnormality, not a cord-insertion term.",
+        "D": "Correct. When the umbilical cord inserts at the margin (edge) of the placental disc, rather than centrally or paracentrally, this is called battledore placenta. The name comes from its resemblance to a battledore (paddle) racket, with the handle (cord) attached at the rim. It is generally a benign variant, though it carries a modestly increased risk of fetal growth restriction and cord compression.",
+        "E": "Incorrect. Velamentous insertion is a more extreme abnormality in which the cord inserts into the membranes beyond the placental edge, with the vessels running unprotected through the membranes before reaching the disc -- not simply reaching the margin of the disc itself."
+      },
+      "main_concept": "CON-OBS-C095B75A61EA4F",
+      "concept_ids": [
+        "CON-OBS-C095B75A61EA4F"
+      ],
+      "library_ids": [
+        "ART-OBS-TOP-B8C98ED8AA"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Cord insertion abnormalities",
+      "learning_objective": "Name battledore placenta as marginal attachment of the umbilical cord.",
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 17 = d (Battledore placenta); stem and options confirmed by direct render (page 4) after heavy OCR scrambling on this page",
+        "asu": "Embryo2 p.4 Q17."
+      }
+    },
+    {
+      "key": "embryo2-q18",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-CAPACITATION-SITE-Q18",
+      "page": 4,
+      "subject": "dev",
+      "title": "Site of sperm capacitation",
+      "question": "The process of sperm capacitation takes place within the:",
+      "options": {
+        "A": "Testes",
+        "B": "Male urethra",
+        "C": "Female genital tract",
+        "D": "Ovum",
+        "E": "Embryo"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Sperm leave the testes not yet capacitated -- capacitation only begins once the sperm are within the female reproductive tract, not in the testes themselves.",
+        "B": "Incorrect. The male urethra is a transit passage during ejaculation; capacitation requires exposure to female-tract secretions, which the sperm has not yet encountered while in the urethra.",
+        "C": "Correct. In the female genital tract, the sperm undergoes capacitation: the removal of the glycoprotein coat and seminal plasma proteins from the plasma membrane overlying the acrosomal region. This change is a prerequisite for the acrosome reaction. Without it, the sperm cannot fertilise the oocyte at all.",
+        "D": "Incorrect. The ovum (oocyte) is the cell the capacitated sperm goes on to fertilise -- capacitation is a change undergone by the sperm itself, within the tract, not \"within\" the ovum.",
+        "E": "Incorrect. The embryo exists only after fertilisation has already occurred, which itself requires prior capacitation -- capacitation cannot occur within a structure that does not yet exist."
+      },
+      "main_concept": "CON-DEV-CA422E559742A2",
+      "concept_ids": [
+        "CON-DEV-CA422E559742A2"
+      ],
+      "library_ids": [
+        "ART-AU-MED-102-EMBR-FERTILIZATION"
+      ],
+      "topic": "Embryology - Fertilisation",
+      "subtopic": "Sperm capacitation",
+      "learning_objective": "State that sperm capacitation takes place within the female genital tract.",
+      "field_notes": {
+        "keySource": "printed answer table p.13 row 18 -- OCR recovered the remark text \"Female genital tract\" (matching option c exactly) across two re-OCR passes at 400/600 dpi despite a noisy letter column; corroborated by the identical fact keyed cleanly at rows 28 and 33 on the p.14 render (both = female genital tract)",
+        "asu": "Embryo2 p.4 Q18."
+      }
+    },
+    {
+      "key": "embryo2-q19",
+      "hold": "printed answer-key row 19 is missing from the OCR text on p.13 across two re-OCR passes (400dpi and 600dpi) -- rows 17, 18 and 20 all recovered (directly or via remark-text matching), but row 19 itself never appears in either extraction, jumping straight from row 18 to row 20's \"villus\" remark. The stem (\"No sperm can penetrate the oocyte after fertilization due to:\") has a materially different option set from its closest siblings (Q41, Q54), so the correct letter cannot be inferred from those without risking a fabricated key. p.13 is the one key page this dispatch is instructed never to re-render; held rather than guessed."
+    },
+    {
+      "key": "embryo2-q20",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-VILLUS-INVADED-BY-MESODERM-Q20",
+      "page": 4,
+      "subject": "dev",
+      "title": "Term for a villus invaded by mesoderm",
+      "question": "When the chorionic villus becomes invaded by mesoderm, it is called:",
+      "options": {
+        "A": "Secondary villus",
+        "B": "Tertiary villus",
+        "C": "Branching villus",
+        "D": "Stem villus",
+        "E": "Anchoring villus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A primary villus (trophoblast only) becomes a secondary villus once extraembryonic (primary) mesoderm invades its trophoblastic core. Mesoderm invasion is exactly the event that defines this transition. Vascularisation, a separate later step, is what then advances the villus to the tertiary stage.",
+        "B": "Incorrect. \"Tertiary\" describes the next stage, marked by vascularisation (fetal capillary development within the mesodermal core), not by mesoderm invasion itself.",
+        "C": "Incorrect. \"Branching villus\" describes the shape/arrangement of mature (typically tertiary) villi extending into the intervillous space, not the mesoderm-invasion event.",
+        "D": "Incorrect. A stem (anchoring) villus is a tertiary villus that reaches and fixes to the decidua basalis -- a functional/positional label applied once the villus is already mature, not the term for newly mesoderm-invaded villi.",
+        "E": "Incorrect. \"Anchoring villus\" is synonymous with stem villus (a mature, decidua-attached tertiary villus), not the term for the earlier mesoderm-invasion event."
+      },
+      "main_concept": "CON-DEV-81EFB3946EB83C",
+      "concept_ids": [
+        "CON-DEV-81EFB3946EB83C"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-VILLUS-CHORION-STRUCTURE"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Chorionic villus maturation",
+      "learning_objective": "Name a mesoderm-invaded villus a secondary villus.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 20 = a; stem confirmed by direct render (page 4)",
+        "asu": "Embryo2 p.4 Q20."
+      }
+    },
+    {
+      "key": "embryo2-q21",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-CAPACITATION-SITE-MALE-TRACT-Q21",
+      "page": 4,
+      "subject": "dev",
+      "title": "Site of sperm capacitation among male-tract options",
+      "question": "Sperm capacitation occurs in the:",
+      "options": {
+        "A": "Seminiferous tubules",
+        "B": "Rete testes",
+        "C": "Epididymis",
+        "D": "Vas deferens",
+        "E": "Uterus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The seminiferous tubules are where spermatogenesis (sperm production), not capacitation, takes place -- capacitation requires the female-tract environment, encountered only after ejaculation.",
+        "B": "Incorrect. The rete testis is part of the sperm's exit pathway from the testis, still within the male tract, where capacitation has not yet begun.",
+        "C": "Incorrect. The epididymis is where sperm complete maturation and gain motility potential and are stored, but capacitation itself only occurs once the sperm is within the female genital tract.",
+        "D": "Incorrect. The vas deferens transports sperm during ejaculation, still on the male side of the process -- capacitation has not yet occurred at this point.",
+        "E": "Correct. Of the five listed structures, only the uterus is part of the female genital tract. It is within the female tract, uterus included, that sperm capacitation actually takes place. None of the male-tract structures listed here support capacitation at all."
+      },
+      "main_concept": "CON-DEV-CA422E559742A2",
+      "concept_ids": [
+        "CON-DEV-CA422E559742A2"
+      ],
+      "library_ids": [
+        "ART-AU-MED-102-EMBR-FERTILIZATION"
+      ],
+      "topic": "Embryology - Fertilisation",
+      "subtopic": "Sperm capacitation",
+      "learning_objective": "State that capacitation occurs in the female tract (uterus), not in any part of the male tract.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 21 = e (Uterus)",
+        "asu": "Embryo2 p.4 Q21."
+      }
+    },
+    {
+      "key": "embryo2-q22",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-VILLUS-VASCULARIZED-TERM-Q22",
+      "page": 4,
+      "subject": "dev",
+      "title": "Term for a vascularized chorionic villus",
+      "question": "When the chorionic villus becomes vascularized, it is given the term:",
+      "options": {
+        "A": "Branching villus",
+        "B": "Stem villus",
+        "C": "Anchoring villus",
+        "D": "Secondary villus",
+        "E": "Tertiary villus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. \"Branching villus\" describes shape/arrangement, not the vascularisation event itself -- a villus can be described as branching without that word specifying whether fetal vessels are present.",
+        "B": "Incorrect. \"Stem villus\" is a positional/functional label for a mature villus anchored to the decidua basalis; vascularisation is what makes a villus tertiary, and stem villi are typically tertiary, but the term tested here specifically names the vascularisation event.",
+        "C": "Incorrect. \"Anchoring villus\" is synonymous with stem villus, describing attachment to the decidua, not the vascularisation event.",
+        "D": "Incorrect. A secondary villus has a mesenchymal core but is not yet vascularised -- vascularisation is precisely the step that moves it beyond the secondary stage.",
+        "E": "Correct. Once fetal blood vessels develop within the mesodermal core of a secondary villus, it becomes a tertiary (definitive) villus. Vascularisation is the defining event of this final maturation stage. A vascularised, decidua-anchored tertiary villus is also known as a stem or anchoring villus."
+      },
+      "main_concept": "CON-DEV-81EFB3946EB83C",
+      "concept_ids": [
+        "CON-DEV-81EFB3946EB83C"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-VILLUS-CHORION-STRUCTURE"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Chorionic villus maturation",
+      "learning_objective": "Name a vascularised villus a tertiary villus.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 22 = e (Tertiary villus)",
+        "asu": "Embryo2 p.4 Q22."
+      }
+    },
+    {
+      "key": "embryo2-q23",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-ACROSOME-REACTION-SITE-Q23",
+      "page": 5,
+      "subject": "dev",
+      "title": "Site of the acrosomal reaction",
+      "question": "The site of acrosomal reaction is:",
+      "options": {
+        "A": "In the epididymis",
+        "B": "In the vas deferens",
+        "C": "In the vagina after ejaculation",
+        "D": "In the Fallopian tube",
+        "E": "In the seminiferous tubules of the testes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The epididymis is a maturation/storage site within the male tract, well before the sperm encounters the oocyte's coverings that trigger the acrosome reaction.",
+        "B": "Incorrect. The vas deferens transports sperm during ejaculation, still within the male tract -- the acrosomal enzymes have not yet been released at this stage.",
+        "C": "Incorrect. The vagina is only the entry point after ejaculation; the acrosome reaction is triggered specifically by contact with the zona pellucida, which the sperm has not yet reached in the vagina.",
+        "D": "Correct. The acrosome reaction takes place in the Fallopian tube, at the site where the capacitated sperm meets the oocyte. It is a calcium-triggered exocytosis, releasing acrosomal enzymes (acrosin, hyaluronidase). These enzymes let the sperm penetrate the corona radiata and zona pellucida.",
+        "E": "Incorrect. The seminiferous tubules are the site of spermatogenesis, occurring long before capacitation or the acrosome reaction, which both require the sperm to have already left the male tract."
+      },
+      "main_concept": "CON-DEV-046FD23575E31E",
+      "concept_ids": [
+        "CON-DEV-046FD23575E31E"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS"
+      ],
+      "topic": "Embryology - Fertilisation",
+      "subtopic": "Acrosome reaction",
+      "learning_objective": "State that the acrosome reaction occurs in the Fallopian tube.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 23 = d (Fallopian tube)",
+        "asu": "Embryo2 p.5 Q23."
+      }
+    },
+    {
+      "key": "embryo2-q24",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-BATTLEDORE-PLACENTA-DEFINITION-Q24",
+      "page": 5,
+      "subject": "obs",
+      "title": "Meaning of the term battledore placenta",
+      "question": "The term battledore placenta means:",
+      "options": {
+        "A": "Divided placenta",
+        "B": "Placenta covering internal os",
+        "C": "Cord attached to membranes",
+        "D": "Accessory placental lobule",
+        "E": "Cord attached to placental periphery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. A divided placenta (bilobed/bipartite) is a shape abnormality of the placental disc itself, unrelated to where the cord inserts.",
+        "B": "Incorrect. A placenta covering the internal os describes placenta praevia, an implantation-site abnormality, not a cord-insertion pattern.",
+        "C": "Incorrect. Cord attachment to the membranes beyond the placental edge (with unprotected vessels) describes velamentous insertion, a more extreme abnormality than battledore placenta.",
+        "D": "Incorrect. An accessory placental lobule describes placenta succenturiata, a number abnormality, not a cord-insertion pattern.",
+        "E": "Correct. Battledore placenta is defined by the umbilical cord attaching at the periphery (margin) of the placental disc, rather than centrally. This is the same fact tested from a definitional angle here, complementing the naming question tested elsewhere in this bank. The cord vessels still branch normally across the fetal surface once inserted, distinguishing this from velamentous insertion."
+      },
+      "main_concept": "CON-OBS-C095B75A61EA4F",
+      "concept_ids": [
+        "CON-OBS-C095B75A61EA4F"
+      ],
+      "library_ids": [
+        "ART-OBS-TOP-B8C98ED8AA"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Cord insertion abnormalities",
+      "learning_objective": "Define battledore placenta as cord attachment to the placental periphery.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 24 = e (Umbilical cord attached to placenta periphery)",
+        "asu": "Embryo2 p.5 Q24."
+      }
+    },
+    {
+      "key": "embryo2-q25",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-PYGOPAGUS-SACRAL-MZ-Q25",
+      "page": 5,
+      "subject": "obs",
+      "title": "Meaning of pygopagus",
+      "question": "Pyopagus means:",
+      "options": {
+        "A": "Monozygotic twins fused at the thoracic region",
+        "B": "Dizygotic twins fused at the thoracic region",
+        "C": "Monozygotic twins fused at the sacral region",
+        "D": "Dizygotic twins fused at the sacral region",
+        "E": "Monozygotic twins fused at the head region"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Thoracic-region fusion is named thoracopagus, not pygopagus -- the site named here does not match pygopagus's sacral fusion site.",
+        "B": "Incorrect. Conjoined twinning is always a monozygotic phenomenon (from a single, incompletely-separated zygote); dizygotic (two-zygote) twins are never conjoined, so this option is doubly wrong.",
+        "C": "Correct. Pygopagus names conjoined twins joined at the sacral (buttock) region. Since conjoined twinning always arises from incomplete separation of a single zygote, these twins are necessarily monozygotic. This is one of several named conjoined-twin patterns classified by fusion site, alongside thoracopagus and craniopagus.",
+        "D": "Incorrect. As in option B, conjoined (fused) twins cannot be dizygotic; the fusion site named (sacral) is correct for pygopagus, but the zygosity is wrong.",
+        "E": "Incorrect. Head-region fusion is named craniopagus, not pygopagus -- again the wrong fusion site for this term."
+      },
+      "main_concept": "CON-OBS-75C8162246AD66",
+      "concept_ids": [
+        "CON-OBS-75C8162246AD66"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Twinning",
+      "subtopic": "Conjoined twin classification",
+      "learning_objective": "Define pygopagus as monozygotic twins conjoined at the sacral region.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 25 = c",
+        "asu": "Embryo2 p.5 Q25."
+      }
+    },
+    {
+      "key": "embryo2-q26",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-BARRIER-LAYERS-DISAPPEAR-Q26",
+      "page": 5,
+      "subject": "obs",
+      "title": "Placental barrier layers that disappear in late pregnancy",
+      "question": "The following layers of placental barrier disappear in the second half of pregnancy:",
+      "options": {
+        "A": "Cytotrophoblast + syncytiotrophoblast",
+        "B": "1ry mesoderm + fetal endothelium",
+        "C": "Cytotrophoblast + 1ry mesoderm",
+        "D": "1ry mesoderm + syncytiotrophoblast",
+        "E": "Syncytiotrophoblast + fetal endothelium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The syncytiotrophoblast is the layer that persists throughout pregnancy, directly bathed by maternal blood -- it is the cytotrophoblast, paired with the primary mesoderm, that regresses, not the syncytiotrophoblast.",
+        "B": "Incorrect. Fetal endothelium is a permanent, functionally essential layer of the barrier that persists throughout pregnancy -- it does not disappear alongside the primary mesoderm.",
+        "C": "Correct. In the second half of pregnancy the cytotrophoblast becomes discontinuous and the primary (connective tissue) mesoderm thins markedly. These two layers therefore largely disappear from the barrier. What remains is mainly syncytiotrophoblast directly apposed to fetal capillary endothelium, a thinner barrier that shortens the diffusion distance for exchange.",
+        "D": "Incorrect. The syncytiotrophoblast persists throughout pregnancy; pairing it with the regressing primary mesoderm incorrectly implies it also disappears.",
+        "E": "Incorrect. Syncytiotrophoblast and fetal endothelium are exactly the two layers that remain (the barrier late in pregnancy is essentially reduced to these), not the layers that disappear."
+      },
+      "main_concept": "CON-OBS-3E68FFEED9F307",
+      "concept_ids": [
+        "CON-OBS-3E68FFEED9F307"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Placental barrier across pregnancy",
+      "learning_objective": "State that cytotrophoblast and primary mesoderm are the placental barrier layers that thin/disappear in late pregnancy.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 26 = c",
+        "asu": "Embryo2 p.5 Q26."
+      }
+    },
+    {
+      "key": "embryo2-q27",
+      "id": "QST-OBS-ASU-AE-EMBRYO2-PLACENTA-FORMED-FROM-Q27",
+      "page": 5,
+      "subject": "obs",
+      "title": "Tissues the placenta is formed from (2nd asking)",
+      "question": "The placenta is formed from:",
+      "options": {
+        "A": "Decidua basalis and chorion leave",
+        "B": "Decidua capsularis and chorion frondosum",
+        "C": "Decidua parietalis and chorion leave",
+        "D": "Decidua basalis and chorion frondosum",
+        "E": "Decidua capsularis and decidua capsularis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Decidua basalis is correctly the maternal contributor, but the chorion leave is the regressed, non-placental chorion -- it is the chorion frondosum, not the leave, that pairs with the basalis to form the placenta.",
+        "B": "Incorrect. Decidua capsularis and chorion frondosum belong to different pairings (capsularis pairs with the leave; frondosum pairs with the basalis) -- this option mismatches both.",
+        "C": "Incorrect. Both decidua parietalis and chorion leave are non-placental structures; neither contributes to the definitive placenta.",
+        "D": "Correct. The placenta is formed from the decidua basalis (maternal part) and the chorion frondosum (fetal part). This is the same fact tested a third time in this bank, confirming the pairing. Every other option offered here mismatches at least one of these two structures.",
+        "E": "Incorrect. This option repeats \"decidua capsularis\" twice, omitting any chorionic contribution entirely -- the placenta requires both a decidual and a chorionic component."
+      },
+      "main_concept": "CON-OBS-54773B9FA007C0",
+      "concept_ids": [
+        "CON-OBS-54773B9FA007C0"
+      ],
+      "library_ids": [
+        "ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES"
+      ],
+      "topic": "Embryology - Placenta",
+      "subtopic": "Placental composition",
+      "learning_objective": "State that the placenta is formed from decidua basalis and chorion frondosum.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 27 = d",
+        "asu": "Embryo2 p.5 Q27."
+      }
+    },
+    {
+      "key": "embryo2-q28",
+      "hold": "duplicate of embryo2-q18 -- identical option set (testes/testis, male urethra/urethra, female genital tract, ovum, embryo) asking where sperm capacitation takes place, differing only in stem wording (\"takes place within the:\" vs \"Where does the process of sperm capacitation take place?\") and the letter position of the correct option (c here vs e reordered); both key to \"female genital tract.\""
+    },
+    {
+      "key": "embryo2-q29",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-ZONA-REACTION-RESULT-Q29",
+      "page": 6,
+      "subject": "dev",
+      "title": "Result of the zona (cortical) reaction",
+      "question": "What is the result of the zona reaction (cortical reaction)?",
+      "options": {
+        "A": "The corona radiata is formed",
+        "B": "The zona pellucida is formed",
+        "C": "Sperms can now enter the egg",
+        "D": "Acrosomes are removed",
+        "E": "Sperms can no longer enter the egg"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The corona radiata is a pre-existing follicular layer around the oocyte, not something newly \"formed\" by the zona reaction, which instead modifies the already-present zona pellucida.",
+        "B": "Incorrect. The zona pellucida already exists before fertilisation; the zona reaction changes its chemical structure rather than forming it for the first time.",
+        "C": "Incorrect. This is the opposite of the zona reaction's effect -- the reaction blocks, rather than enables, further sperm entry.",
+        "D": "Incorrect. Acrosomes are shed from individual sperm during the acrosome reaction (a separate, earlier event on the fertilising sperm itself), not removed as a result of the zona reaction on the oocyte.",
+        "E": "Correct. Once the first sperm fuses with the oocyte membrane, cortical granule release triggers the zona reaction. This alters the zona pellucida's structure so that no further sperm can penetrate it. The result is the polyspermy block, protecting the oocyte from fertilisation by more than one sperm."
+      },
+      "main_concept": "CON-DEV-F202CC422C987E",
+      "concept_ids": [
+        "CON-DEV-F202CC422C987E"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS"
+      ],
+      "topic": "Embryology - Fertilisation",
+      "subtopic": "Block to polyspermy",
+      "learning_objective": "State that the zona reaction blocks further sperm from entering the egg.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 29 = e; stem confirmed by direct render (page 6)",
+        "asu": "Embryo2 p.6 Q29."
+      }
+    },
+    {
+      "key": "embryo2-q30",
+      "id": "QST-DEV-ASU-AE-EMBRYO2-MORULA-REACHES-CAVITY-DAY4-Q30",
+      "page": 6,
+      "subject": "dev",
+      "title": "Day the morula reaches the uterine cavity",
+      "question": "On what day does the morula reach the uterine cavity after fertilization?",
+      "options": {
+        "A": "4th day",
+        "B": "7th day",
+        "C": "9th day",
+        "D": "8th day",
+        "E": "10th day"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. After fertilisation in the ampulla, tubal cilia and muscular contractions carry the dividing conceptus along the uterine tube. By about the 4th day it has reached the 16-cell morula stage. At that point it enters the uterine cavity, where it continues developing into a blastocyst over the following day or two.",
+        "B": "Incorrect. By the 7th day, the conceptus has already progressed well beyond the morula -- implantation itself is beginning around this time, not tubal transport.",
+        "C": "Incorrect. The 9th day is well into the implantation window, not the timing of the morula's arrival in the uterine cavity, which happens several days earlier.",
+        "D": "Incorrect. The 8th day, like the 7th and 9th, falls within the implantation window, too late for the morula's arrival in the uterine cavity.",
+        "E": "Incorrect. By the 10th day implantation is essentially complete or nearly so -- far later than the morula's arrival in the uterine cavity."
+      },
+      "main_concept": "CON-DEV-EEB16BC2F700AC",
+      "concept_ids": [
+        "CON-DEV-EEB16BC2F700AC"
+      ],
+      "library_ids": [
+        "ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS"
+      ],
+      "topic": "Embryology - Cleavage",
+      "subtopic": "Tubal transport timing",
+      "learning_objective": "State that the morula reaches the uterine cavity by about the 4th day after fertilisation.",
+      "field_notes": {
+        "keySource": "printed answer table p.14 row 30 = a",
+        "asu": "Embryo2 p.6 Q30."
+      }
     }
   ]
 }
