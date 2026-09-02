@@ -117,3 +117,134 @@ pericyte function -> CON-CVS-CC810A201244F0 / CON-CVS-5D4C49C48AA325, both confi
 "deep vein thrombosis" / "thrombophlebitis" -> hit only the Year-3 SYS-CVS-ARTICLE-T07.md clinical-depth article (epidemiology/burden, not the basic risk-factor/diagnosis facts tested here) -> judged different/coarser, confirmed NEW
 
 Tally: pending=8 (sparse overlay), live-direct=1, new=3, total distinct=12
+
+MUST-CVS-201 tranche-3 triage keys (Anatomy, full triage + partial authoring)
+Source D = Anatomy/06 EOM Exams/EOM MCQs - Anatomy CVS201 Questions (Final).pdf (32 pages, 100 MCQ + 6 essay, by Absalam101 & Shahd, src_ac0704bd16ff99889463)
+Each section has its own printed key page (not one combined key); [A] marks a question authored this pass (49 total).
+
+--- Blood Supply of the Heart (20/20 keyed, key p.7) ---
+BS-Q01 key=C Anterior interventricular branch (LAD) in the ant. IV groove [A]
+BS-Q02 key=C Great cardiac vein accompanies the anterior IV artery [A]
+BS-Q03 key=C RCA arises from the anterior aortic sinus [A]
+BS-Q04 key=B Left marginal branch runs the rounded left margin [A]
+BS-Q05 key=B Posterior interventricular branch is a branch of RCA
+BS-Q06 key=C RCA gives a marginal branch along the right border [A]
+BS-Q07 key=B Middle cardiac vein drains post. IV groove into coronary sinus
+BS-Q08 key=C Coronary sinus opens into the right atrium
+BS-Q09 key=C Anterior cardiac veins open directly into the right atrium [A]
+BS-Q10 key=D Great cardiac vein receives the left marginal vein
+BS-Q11 key=B Oblique vein of left atrium = remnant of left common cardinal vein
+BS-Q12 key=D Circumflex, ant. IV and left marginal are all LCA branches
+BS-Q13 key=C LCA does NOT supply the posterior 1/3 of the IV septum [A]
+BS-Q14 key=C Anterior cardiac veins are NOT a coronary-sinus tributary
+BS-Q15 key=B Left conus artery supplies the conus arteriosus (left side)
+BS-Q16 key=B Venae cordis minimi drain directly into both atria
+BS-Q17 key=B Circumflex artery is a continuation of the LCA [A]
+BS-Q18 key=A Coronary sinus lies between lower LA and upper LV borders
+BS-Q19 key=B Inter-coronary anastomosis overcomes gradual obstruction [A]
+BS-Q20 key=C LCA's ant. IV branch supplies ant. walls of both ventricles [A]
+
+--- Conducting System of the Heart (10/10 keyed, key p.10) ---
+CS-Q01 key=C SA node is the pacemaker [A]
+CS-Q02 key=B SA node site = upper part of sulcus terminalis
+CS-Q03 key=B AVN supplied by RCA in 80% of cases [A]
+CS-Q04 key=A AV bundle descends along membranous IVS posterior margin [A]
+CS-Q05 key=B Right bundle branch runs through the septomarginal/moderator band [A]
+CS-Q06 key=C Purkinje fibres = terminal branches of the bundle branches
+CS-Q07 key=A SAN/AVN are conductive (specialised cardiac) muscle fibres
+CS-Q08 key=B AV node lies above the coronary sinus orifice [A]
+CS-Q09 key=B Left bundle branch mainly supplied by LCA
+CS-Q10 key=B RCA obstruction more likely to cause heart block [A]
+
+--- Arch of Aorta & Descending Thoracic Aorta (30/30 keyed, key p.18) ---
+AO-Q01 key=B Arch begins at sternal end of right 2nd costal cartilage [A]
+AO-Q02 key=B Arch typically ends at T4
+AO-Q03 key=C Left recurrent laryngeal nerve passes inferior to the arch's concavity
+AO-Q04 key=C Ligamentum arteriosum connects left pulmonary artery to the aortic arch [A]
+AO-Q05 key=B Left phrenic nerve passes close to the aortic arch
+AO-Q06 key=C Left innominate vein lies above the aortic arch
+AO-Q07 key=B Brachiocephalic artery -> right common carotid + right subclavian [A]
+AO-Q08 key=C Brachiocephalic artery = first branch of the arch [A]
+AO-Q09 key=C Left vagus + left phrenic nerves lie between left common carotid and left subclavian
+AO-Q10 key=D Esophagus crosses the DTA's anterior surface [A]
+AO-Q11 key=C DTA passes through the diaphragm at T12 [A]
+AO-Q12 key=C Esophagus crosses anterior to the DTA at T7
+AO-Q13 key=B Posterior intercostal arteries arise from the DTA's posterior surface [A]
+AO-Q14 key=C Bronchial arteries = visceral branch of the DTA [A]
+AO-Q15 key=B Esophagus compressed by aortic aneurysm at T7
+AO-Q16 key=B Azygos vein on the right of the lower DTA
+AO-Q17 key=B Thoracic duct runs between the aorta and the azygos vein [A]
+AO-Q18 key=D DTA terminates at T12 [A]
+AO-Q19 key=B Right bronchial artery usually arises from the 3rd right post. intercostal artery
+AO-Q20 key=B Highest point of the arch marks to the left 2nd intercostal space
+AO-Q21 key=D Trachea is NOT an anterior relation of the DTA
+AO-Q22 key=A Esophagus is related anteriorly to the DTA
+AO-Q23 key=C Hemiazygos vein lies posterior to the DTA
+AO-Q24 key=C Left brachiocephalic vein crosses in front of the arch's branches
+AO-Q25 key=B Left recurrent laryngeal nerve related posteriorly to the arch [A]
+AO-Q26 key=B Ligamentum arteriosum attaches to the arch's inferior surface
+AO-Q27 key=D Bifurcation of the pulmonary trunk lies inferior to the arch
+AO-Q28 key=A Left innominate vein lies superior to the arch [A]
+AO-Q29 key=B Trachea is a deep relation on the arch's right side
+AO-Q30 key=B DTA is NOT to the left of the vertebral column for its entire course
+
+--- Esophagus (20/20 keyed, key p.24) ---
+ESO-Q01 key=D Left main bronchus crosses the esophagus's anterior surface [A]
+ESO-Q02 key=C Left principal bronchus causes the 15-inch endoscopic narrowing [A]
+ESO-Q03 key=B Trachea lies anterior to the esophagus at the sternal angle level
+ESO-Q04 key=C Anatomical constriction where crossed by the right main bronchus
+ESO-Q05 key=B Esophageal plexus affected in impaired thoracic peristalsis
+ESO-Q06 key=C Thoracic duct lies posterior to the esophagus [A]
+ESO-Q07 key=C Cervical esophagus drains venously into the brachiocephalic veins [A]
+ESO-Q08 key=B Esophagus crosses in front of the DTA at T7 [A]
+ESO-Q09 key=C Descending aorta is NOT an anterior relation of the esophagus [A]
+ESO-Q10 key=C Left principal bronchus (with aortic arch) indents the esophagus anteriorly
+ESO-Q11 key=C Esophagus enters the abdomen via the right crus (esophageal hiatus) [A]
+ESO-Q12 key=C Azygos vein drains the thoracic esophagus before the SVC
+ESO-Q13 key=B Left principal bronchus constricts the esophagus at 12 inches
+ESO-Q14 key=B Thoracic duct on the left of the esophagus in the superior mediastinum [A]
+ESO-Q15 key=C Abdominal esophagus supplied by the left gastric artery
+ESO-Q16 key=B Thoracic duct crosses right to left behind the esophagus at T5
+ESO-Q17 key=B Esophagus visible in the retrocardiac space on lateral CXR
+ESO-Q18 key=B Esophagus begins at C6 [A]
+ESO-Q19 key=B Azygos vein forms part of the esophagus's posterior relations
+ESO-Q20 key=B Nerve supply = sympathetic trunks and vagi [A]
+
+--- Heart Development & Fetal Circulation (20/20 keyed, key p.30) ---
+HD-Q01 key=C Endocardial cushions divide the AV canal into tricuspid/mitral orifices
+HD-Q02 key=B Complete absence of interatrial septum = tri-locular heart [A]
+HD-Q03 key=C Oxygenated placental blood enters the RA via the IVC [A]
+HD-Q04 key=C Septum primum forms the floor of the fossa ovalis [A]
+HD-Q05 key=C Premature FO closure -> intrauterine death
+HD-Q06 key=C Ductus arteriosus becomes the ligamentum arteriosum [A]
+HD-Q07 key=B Tetralogy of Fallot: pulm. stenosis + overriding aorta + VSD + RVH [A]
+HD-Q08 key=C IVS = muscular + membranous parts [A]
+HD-Q09 key=B Lungs bypassed via ductus arteriosus + foramen ovale [A]
+HD-Q10 key=A Small atrial opening = atrial septal defect [A]
+HD-Q11 key=B Right atrium derived mainly from the sinus venosus [A]
+HD-Q12 key=A Septum primum/secundum fusion failure -> patent foramen ovale [A]
+HD-Q13 key=B Truncus arteriosus -> ascending aorta + pulmonary trunk [A]
+HD-Q14 key=A Left umbilical vein becomes the ligamentum teres
+HD-Q15 key=B Wide ostium secundum -> persistent foramen ovale
+HD-Q16 key=D Ligamentum arteriosum is NOT a fetal-circulation adaptation itself (postnatal remnant)
+HD-Q17 key=A Dextrocardia + mirror-image abdominal viscera = situs inversus
+HD-Q18 key=A Foramen ovale lies between septum primum and septum secundum
+HD-Q19 key=B ASD + pulmonary hypertension = Eisenmenger's complex components
+HD-Q20 key=C Descending aorta carries mixed blood to the fetal lower body
+
+--- Essay (6/6 keyed, model answers p.32; not authored this pass) ---
+ESSAY-Q1 key=printed Interatrial septum abnormalities: complete absence, PFO, premature FO closure, AV-orifice stenosis
+ESSAY-Q2 key=printed Fetal-circulation changes after birth: umbilical vein->ligamentum teres, umbilical artery->medial umbilical ligament, ductus venosus->ligamentum venosum, ductus arteriosus->ligamentum arteriosum, foramen ovale->fossa ovalis
+ESSAY-Q3 key=printed Aortic arch branches: brachiocephalic, left common carotid, left subclavian
+ESSAY-Q4 key=printed Aortic arch relations: above/below/right/left, each listed
+ESSAY-Q5 key=printed Esophagus relations: anterior/posterior/left/right, each listed
+ESSAY-Q6 key=printed Coronary artery branches: LCA and RCA branch lists
+
+--- find-existing.mjs / direct-grep / live-snapshot query log (21 distinct concept ids used) ---
+grep of docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md by label for coronary arteries, cardiac veins, aortic sinuses, conducting system, arch of aorta, pulmonary trunk, descending thoracic aorta, vagus/recurrent laryngeal nerves, oesophagus, thoracic duct, diaphragm, superior mediastinum, and the 6 embryology (CON-DEV-) concepts -> 20 direct concept matches (CON-CVS-1F1AB4B70AB06D, CON-CVS-929D9DDCB95482, CON-CVS-D02DE9B56C97B7, CON-CVS-2A21F1B4F30B61, CON-CVS-6799821893D6D2, CON-CVS-9C60987F3CB5A1, CON-CVS-A723ADE6F4E726, CON-CVS-EEA29FB47CBB71, CON-CVS-E9BA4A6C0E8392, CON-CVS-E9CF510CBD01BC, CON-GIT-4E4EC465826CF2, CON-HEM-9123D4493320A7, CON-RES-80C9B9E43B459B, CON-RES-F360EFDEA84D58, CON-DEV-67A96150DDAFD9, CON-DEV-B33D9F68392311, CON-DEV-87CC6D0D2EF658, CON-DEV-13EE046ACBE541, CON-DEV-FFBA6FA260E484, CON-DEV-3A610A0FB2823C) -> all 20 checked directly against server/data/medical-library-v1.json, none live -> PENDING, sparse overlay
+"tetralogy of fallot" -> 5 hits (pending import-ready/article/SYS-CVS-ARTICLE-T08.md, import-ready/concept/SYS-CVS-CONCEPT-T08.md label "Tetralogy of Fallot is four features arising from one malformation", Kasr glossary) -> CON-CVS-AF9212C18AAF03 checked directly against live snapshot, not live -> PENDING, sparse overlay
+"conducting system" -> confirms same label duplicated with likely-different salted ids across 104-CPS-anatomy-concepts.md, 104-CPS-concepts.md and 104-CPS-mcq-concepts.md (Kasr's own pipeline salts ids per module, 00-START-HERE.md sec.3) -> targeted the anatomy-concepts.md instance specifically, same file tranche 1/2 already overlay onto, consistent with the Histology tranche's own convention (subject-matching Kasr file over a sibling file with the same wording)
+"descending thoracic aorta" -> same duplication pattern confirmed; anatomy-concepts.md instance used
+"azygos vein", "left gastric artery" (abdominal esophagus, Q15), "moderator band" (name only, concept content already covers it under conducting-system), "eisenmenger", "situs inversus", "patent ductus arteriosus" (as a named diagnosis rather than the ductus-arteriosus-becomes-ligamentum fact already covered) -> not searched/not mapped to a concept this pass; their questions (AO-Q16, ESO-Q15, HD-Q15/16/17/19) were left un-authored rather than force-mapped or new-minted, queued for the next pass
+
+Tally: 106 questions triaged (100 MCQ + 6 essay), 106/106 keyed, 21 distinct concepts used by the 49 authored questions (20 pending in 104-CPS-anatomy-concepts.md, 1 pending in SYS-CVS-CONCEPT-T08.md), 0 live, 0 new mints, 49 authored / 57 remaining (51 MCQ + 6 essay)

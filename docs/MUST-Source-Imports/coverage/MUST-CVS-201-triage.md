@@ -229,3 +229,97 @@ first-tranche pass are even started.
 |---|--:|--:|--:|--:|--:|--:|--:|
 | MUST-CVS-201 Histology (full) | 50 | 50/50 | 12 | 8 | 1 | 3 | 50 |
 | Remaining 8 papers (inventory only) | 0 opened in full | n/a | n/a | n/a | n/a | n/a | 0 |
+
+## S3 — tranche 3 (2026-09-02, lane 3, branch `must-cvs201-author3`)
+
+Third authoring pass, the next paper in the cluster order named by tranche
+2's own inventory table: Anatomy CVS201 Questions (Final), the largest
+remaining source in this cluster (32 pages). Triaged in full and authored
+against the ~40-50 question target.
+
+### Full triage — Anatomy CVS201 Questions (Final) — AUTHORED
+
+`Anatomy/06 EOM Exams/EOM MCQs - Anatomy CVS201 Questions (Final).pdf`, 32
+pages, by Absalam101 & Shahd, native-text (`pagetext.mjs status`: no
+garbled pages, no OCR needed). `src_ac0704bd16ff99889463`.
+
+The intro page (p.1) states "105 Questions" across five MCQ topics plus "5
+Essay Questions"; the actual page count is 106 (100 MCQ + **6** essay
+questions on p.31, not 5 — a minor discrepancy in the source's own count,
+noted rather than silently corrected). Every section carries its own
+printed answer key, immediately following that section's last question and
+before the next section begins — not one combined key at the end:
+
+| Section | Qs | Pages | Key page | Keyed |
+|---|--:|---|--:|--:|
+| Blood Supply of the Heart | 20 | p1-6 | p7 | 20/20 |
+| Conducting System of the Heart | 10 | p8-10 | p10 | 10/10 |
+| Arch of Aorta & Descending Thoracic Aorta | 30 | p11-18 | p18 | 30/30 |
+| Esophagus | 20 | p19-23 | p24 | 20/20 |
+| Heart Development & Fetal Circulation (Embryology) | 20 | p25-29 | p30 | 20/20 |
+| Essay (6, not 5 as the intro page states) | 6 | p31 | p32 (model answers) | 6/6 |
+
+100/100 MCQ keyed + 6/6 essay keyed = **106/106, 100% keyed**. All keys
+read directly off each section's own printed answer table; no garbled or
+missing key anywhere in this source. Full question-by-question triage is
+in `-triage-keys.txt`.
+
+100 raw MCQs collapse to a much smaller set of distinct concept candidates
+— this paper is unusually concentrated, because MUST's CVS-201 Anatomy
+teaching (coronary arteries, cardiac veins, the conducting system, the
+aortic arch and its branches, the descending thoracic aorta, the
+oesophagus and its relations, the thoracic duct, and heart
+embryology/fetal circulation) sits almost exactly on ground Kasr's own
+104-CPS anatomy concepts already cover in comparable depth — the same
+directional signal tranche 1 first noted for this module's Pathology
+content, now confirmed for Anatomy too. A direct grep of
+`docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md` by label,
+cross-checked against `server/data/medical-library-v1.json` (none of the
+matches live) and against `find-existing.mjs` for a sample of terms
+("conducting system", "descending thoracic aorta", "tetralogy of fallot"),
+found:
+
+- **20 concepts pending in `104-CPS-anatomy-concepts.md` itself** — the
+  same file tranche 1 and tranche 2 already overlaid other rows onto, this
+  tranche's 20 ids are all different records from either earlier tranche.
+- **1 concept pending in the Year-3 SYS-CVS congenital heart disease
+  catalogue** (`docs/import-ready/concept/SYS-CVS-CONCEPT-T08.md`) —
+  Tetralogy of Fallot, `CON-CVS-AF9212C18AAF03`, matching the Heart
+  Development section's own TOF question exactly (right ventricular
+  outflow obstruction, VSD, overriding aorta, right ventricular
+  hypertrophy — all four already the concept's own stated components).
+- **0 live hits, 0 new mints.** Every concept this tranche's authored
+  questions test was already pending somewhere in the corpus.
+
+49 questions were selected for authoring — roughly half the paper,
+proportioned across all five MCQ sections (10 Blood Supply, 6 Conducting
+System, 12 Arch/Descending Aorta, 10 Esophagus, 11 Heart Development),
+chosen to spread across the 21 distinct pending concepts above rather than
+repeatedly re-testing the same fact; the remaining ~51 MCQs and all 6 essay
+questions are triaged (keys recorded in `-triage-keys.txt`) but not
+authored this pass. All 49 authored as MCQ seed → `emit-mcq.mjs`, the
+paper being genuine multiple-choice with a full printed key per section.
+All 49 are `pending-live` (main_concept pending, none live) — in
+`pending-live/MUST-CVS-201-anatomy-questions.md` alongside a 21-record
+sparse concept overlay (`pending-live/MUST-CVS-201-anatomy-concepts-
+overlay.md`). Full apply order and simulate log in `pending-live/INDEX.md`.
+0 questions held — every source printed a key for every selected item. 0
+new mints.
+
+### Not authored this pass (queued, next pass)
+
+~51 remaining MCQs across the five sections (roughly half of each
+section's items, the half not selected above) plus all 6 essay questions
+(congenital interatrial-septum abnormalities, fetal-circulation changes
+after birth, aortic-arch branches/relations, oesophagus relations, coronary
+artery branches — all keyed with printed model answers on p.32, none
+authored). A handful of once-only facts within already-covered sections
+(e.g. Blood Supply Q11 oblique vein of left atrium as a left common
+cardinal vein remnant, Q16 venae cordis minimi) were left for the next pass
+rather than pushed past the ~40-50 target.
+
+## Checkpoint table (tranche 3)
+
+| Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | Pending-hit (sparse overlay) | Live-hit (direct) | New mints | Authored |
+|---|--:|--:|--:|--:|--:|--:|--:|
+| MUST-CVS-201 Anatomy (full) | 106 (100 MCQ + 6 essay) | 106/106 | 21 | 21 | 0 | 0 | 49 |

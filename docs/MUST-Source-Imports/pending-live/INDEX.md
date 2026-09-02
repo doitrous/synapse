@@ -125,3 +125,35 @@ simulate.
 
 `gate.mjs batch` was likewise not run on either new pending-live file, same
 tool limitation as above.
+
+## Anatomy tranche (2026-09-02, lane 3, branch `must-cvs201-author3`) — two more files
+
+Two more files, from the Anatomy CVS201 EOM Final paper (105 items: 100 MCQ
+across 5 topics + 6 essay, `src_ac0704bd16ff99889463`, each MCQ section
+printed on its own answer page), depend on 21 concept ids: 20 in Kasr's own
+unimported 104-CPS batch, 1 in the Year-3 SYS-CVS congenital heart disease
+catalogue — checked directly against `server/data/medical-library-v1.json`,
+none of the 21 present.
+
+| File | Target ids | Records |
+|---|---|---|
+| `MUST-CVS-201-anatomy-concepts-overlay.md` | 21 concept ids: 20 in `docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md` (coronary arteries, cardiac veins, aortic sinuses, conducting system, arch of aorta, pulmonary trunk/ligamentum arteriosum, descending thoracic aorta, recurrent laryngeal nerve, vagus nerves, oesophagus, thoracic duct, diaphragm openings, superior mediastinum, and 6 embryology concepts), 1 in `docs/import-ready/concept/SYS-CVS-CONCEPT-T08.md` (Tetralogy of Fallot) | 21 sparse updates — `+must`, `+2` (where not already present), `+MUST-CVS-201` on `universities`/`learner_years`/`modules`; `module_subject` restates each source's existing line plus MUST-CVS-201's own (the Tetralogy row has no prior `module_subject` to restate) |
+| `MUST-CVS-201-anatomy-questions.md` | 49 MCQ records (`QST-MUSTCVS201-ANATOMY-PENDING-…`), `main_concept` pointing at the 21 ids above | New records, not sparse updates — `library_ids` names each target concept's own existing article, in `docs/Kasr-Source-Imports/article/104-CPS-anatomy.md` for the 20 Kasr-sourced concepts, `docs/import-ready/article/SYS-CVS-ARTICLE-T08.md` (carries `ART-CVS-TETRALOGY-OF-FALLOT`, SYS-CVS catalogue) for the Tetralogy question |
+
+**Apply after**: `MUST-CVS-201-anatomy-concepts-overlay.md` applies after its
+two named dependency files (`104-CPS-anatomy-concepts.md`,
+`SYS-CVS-CONCEPT-T08.md`) are live; `MUST-CVS-201-anatomy-questions.md`
+applies after both the overlay file above AND its article dependencies
+(`docs/Kasr-Source-Imports/article/104-CPS-anatomy.md` for the 20
+Kasr-sourced articles, the SYS-CVS Tetralogy article for the one Year-3
+question) are live.
+
+Full-tree `gate.mjs simulate` (all files above, real dependency files
+first): see commit body / `coverage/MUST-CVS-201-GATES.md` for the pasted
+summary line from this pass.
+
+`gate.mjs batch` was not run on either new pending-live file, same tool
+limitation as above (a sparse update's `module_subject` and a question's
+`library_ids`/`resource_ids` pointing at another lane's not-yet-committed
+concept/article both error under `--with`; `gate.mjs simulate` with the real
+dependency files is the correct check here).
