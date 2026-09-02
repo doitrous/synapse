@@ -2499,4 +2499,534 @@ mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continu
 ## review_due
 
 
+---
+
+# Item
+
+## id
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
+
+## title
+Plasma proteins: synthesis site and named carrier roles
+
+## arabic_title
+
+
+## aliases
+Albumin synthesis
+Transferrin
+Transcobalamin
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Plasma proteins
+
+## summary
+Albumin, the most abundant plasma protein, is synthesised in the liver; transferrin and transcobalamin are the named plasma carriers of iron and vitamin B12 respectively.
+
+## sections
+### Definition
+Plasma carries several proteins with distinct synthesis sites and specific transport roles beyond albumin's broad carrier function.
+
+### Mechanism
+Albumin is synthesised in the liver — chronic liver disease characteristically lowers plasma albumin. Transferrin binds and carries iron through the plasma, distinct from ferritin/apoferritin, which store iron intracellularly. Transcobalamin (specifically transcobalamin II) carries vitamin B12 in the blood after its absorption via intrinsic factor in the terminal ileum.
+
+### Key determinants
+Transferrin (plasma iron transport) is repeatedly confused with ferritin/apoferritin (intracellular iron storage) — a distractor pattern worth deliberately separating.
+
+### Clinical significance
+Low albumin from liver disease contributes to reduced plasma oncotic pressure and oedema; transferrin saturation and transcobalamin levels are used clinically to assess iron and B12 status respectively.
+
+## hold_these
+Albumin is synthesised in the liver. Transferrin carries iron in plasma. Transcobalamin carries vitamin B12 in plasma.
+
+## lose_the_mark
+Confusing transferrin (plasma carrier) with ferritin/apoferritin (intracellular storage proteins).
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology Important MCQ "previous exams" block, His Continuous Berlin Book 2026.pdf, p.129-130, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the facts are standard.
+
+## notes
+Authored from Mansoura HIS 203's own Physiology Important MCQ plasma-protein block.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-44F2891C156669
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continuous Berlin Book 2026.pdf, p.129-130, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-ACUTE-PHASE-ALPHA1-ANTITRYPSIN
+
+## title
+Acute-phase proteins and alpha-1 antitrypsin deficiency
+
+## arabic_title
+
+
+## aliases
+C-reactive protein
+Alpha-1 antitrypsin deficiency emphysema
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+4
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Plasma proteins
+
+## summary
+C-reactive protein is the classic acute-phase plasma protein that rises with inflammation, while deficiency of alpha-1 antitrypsin causes early-onset emphysema by leaving neutrophil elastase unchecked in the lung.
+
+## sections
+### Definition
+Acute-phase proteins are plasma proteins whose concentration rises sharply during inflammation, infection or tissue injury, driven mainly by liver synthesis under cytokine (especially IL-6) stimulation.
+
+### Mechanism
+C-reactive protein (CRP) is the classic acute-phase protein, used clinically as an inflammation marker. Alpha-1 antitrypsin is a different alpha globulin whose normal job is to inhibit neutrophil elastase, an enzyme that would otherwise digest lung elastin during ordinary neutrophil activity. When alpha-1 antitrypsin is deficient, unchecked elastase destroys lung elastin over time, producing early-onset emphysema even in non-smokers.
+
+### Key determinants
+"Acute-phase protein" specifically means synthesis rises with inflammation (CRP), as opposed to negative acute-phase proteins (transferrin, albumin) that fall.
+
+### Clinical significance
+Alpha-1 antitrypsin deficiency is a recognised, testable cause of emphysema independent of smoking history, and CRP is a routine clinical marker of active inflammation.
+
+## hold_these
+C-reactive protein is a classic acute-phase protein. Alpha-1 antitrypsin deficiency causes emphysema via unchecked neutrophil elastase.
+
+## lose_the_mark
+Missing the mechanism link in alpha-1 antitrypsin deficiency — the disease comes from unchecked elastase, not from the missing protein directly.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology Important MCQ "previous exams" block, His Continuous Berlin Book 2026.pdf, p.129, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent physiology/pathology reference not yet cross-checked against this department-book framing; both facts are standard.
+
+## notes
+Authored from Mansoura HIS 203's own Physiology Important MCQ plasma-protein block.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-AF93A39D16FB9F
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continuous Berlin Book 2026.pdf, p.129, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-PORPHYRIN-RING-STRUCTURE
+
+## title
+Porphyrin ring structure: pyrrole rings and methylene bridges
+
+## arabic_title
+
+
+## aliases
+Porphyrin structure
+Methylene bridges
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Heme synthesis
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+2
+
+## high_yield
+Standard
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Biochemistry > Heme synthesis > Porphyrin ring structure
+
+## summary
+A porphyrin's four pyrrole rings are joined into a ring by methylene bridges — the structural scaffold that becomes haem once iron is inserted.
+
+## sections
+### Definition
+A porphyrin is a cyclic structure built from four pyrrole rings joined into a larger ring.
+
+### Mechanism
+Four methylene (=CH-) bridges connect the alpha-carbons of adjacent pyrrole rings, forming the tetrapyrrole ring. This ring, with its central nitrogen atoms able to chelate a metal ion, becomes haem once ferrous iron is inserted by ferrochelatase at protoporphyrin IX, the final step of haem synthesis.
+
+### Key determinants
+"Methylene group" is the specific bridge tested against distractor linkage names (methyl, methenyl).
+
+### Clinical significance
+Understanding the porphyrin ring's structure underlies the porphyrias, a family of diseases from enzyme defects at specific steps of this ring's assembly.
+
+## hold_these
+The four pyrrole rings of a porphyrin are united by methylene groups.
+
+## lose_the_mark
+Confusing methylene with methyl or methenyl as the linking group.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Biochemistry Important MCQ "Bio HIS 1" past-exam block, His Continuous Berlin Book 2026.pdf, p.140, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent biochemistry reference not yet cross-checked against this department-book framing; the structural fact is standard.
+
+## notes
+Authored from Mansoura HIS 203's own Biochemistry Important MCQ block.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-84A5209FED7044
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Biochemistry Important MCQ (His Continuous Berlin Book 2026.pdf, p.140, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+
 
