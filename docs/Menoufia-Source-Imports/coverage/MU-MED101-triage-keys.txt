@@ -1,0 +1,136 @@
+# MU-MED101 triage keys — format f1supp43-<subblock>-q<NN>, one per question.
+# S3 tier-1 triage, 2026-09-02, from "EOM Practice - Foundation 1 - Support 43 -
+# With Answers.pdf" (mu_34ff78aabb8bfd729922). Two sub-blocks authored this
+# round (anat, histo); two more sub-blocks exist in the same file (embryo,
+# biochemphys) and are listed here as remaining for the next resume, not yet
+# individually keyed page-by-page. Key convention: red text on the correct
+# option (Embryology sub-block also colours the stem red, which is why
+# pagetext.mjs keys undercounts it — see coverage/MU-MED101-triage.md).
+
+## f1supp43-anat — Anatomy sub-block, Support 43 - With Answers.pdf p25-31 (Q1-24, movements/bones/joints, 0 held)
+f1supp43-anat-q01
+f1supp43-anat-q02
+f1supp43-anat-q03
+f1supp43-anat-q04
+f1supp43-anat-q05
+f1supp43-anat-q06
+f1supp43-anat-q07
+f1supp43-anat-q08
+f1supp43-anat-q09
+f1supp43-anat-q10
+f1supp43-anat-q11
+f1supp43-anat-q12
+f1supp43-anat-q13
+f1supp43-anat-q14
+f1supp43-anat-q15
+f1supp43-anat-q16
+f1supp43-anat-q17
+f1supp43-anat-q18
+f1supp43-anat-q19
+f1supp43-anat-q20
+f1supp43-anat-q21
+f1supp43-anat-q22
+f1supp43-anat-q23
+f1supp43-anat-q24
+
+## f1supp43-histo — Histology sub-block, Support 43 - With Answers.pdf p33-38 (Q1-22, cytology/genetics, 5 held: q15 stem ambiguity, q17/q18/q20 image-dependent, q21 <4 options)
+f1supp43-histo-q01
+f1supp43-histo-q02
+f1supp43-histo-q03
+f1supp43-histo-q04
+f1supp43-histo-q05
+f1supp43-histo-q06
+f1supp43-histo-q07
+f1supp43-histo-q08
+f1supp43-histo-q09
+f1supp43-histo-q10
+f1supp43-histo-q11
+f1supp43-histo-q12
+f1supp43-histo-q13
+f1supp43-histo-q14
+f1supp43-histo-q15
+f1supp43-histo-q16
+f1supp43-histo-q17
+f1supp43-histo-q18
+f1supp43-histo-q19
+f1supp43-histo-q20
+f1supp43-histo-q21
+f1supp43-histo-q22
+
+## f1supp43-embryo — Embryology sub-block, Support 43 - With Answers.pdf p3-11 (Q1-36, NOT authored this round — remaining, resume-first candidate). Key convention confirmed via 1 render (p3, Q1-4: b/a/d/a) but pagetext.mjs keys reports 0/36 (tool gap, both stem and option coloured red — see triage doc)
+f1supp43-embryo-q01
+f1supp43-embryo-q02
+f1supp43-embryo-q03
+f1supp43-embryo-q04
+f1supp43-embryo-q05
+f1supp43-embryo-q06
+f1supp43-embryo-q07
+f1supp43-embryo-q08
+f1supp43-embryo-q09
+f1supp43-embryo-q10
+f1supp43-embryo-q11
+f1supp43-embryo-q12
+f1supp43-embryo-q13
+f1supp43-embryo-q14
+f1supp43-embryo-q15
+f1supp43-embryo-q16
+f1supp43-embryo-q17
+f1supp43-embryo-q18
+f1supp43-embryo-q19
+f1supp43-embryo-q20
+f1supp43-embryo-q21
+f1supp43-embryo-q22
+f1supp43-embryo-q23
+f1supp43-embryo-q24
+f1supp43-embryo-q25
+f1supp43-embryo-q26
+f1supp43-embryo-q27
+f1supp43-embryo-q28
+f1supp43-embryo-q29
+f1supp43-embryo-q30
+f1supp43-embryo-q31
+f1supp43-embryo-q32
+f1supp43-embryo-q33
+f1supp43-embryo-q34
+f1supp43-embryo-q35
+f1supp43-embryo-q36
+
+## f1supp43-biochemphys — Biochemistry/Physiology sub-block, Support 43 - With Answers.pdf p13-22 (Q1-38, acid-base + ANS, NOT authored this round — remaining). ~34/38 auto-keyed by pagetext.mjs keys, ordinary red-text-on-option convention, not yet individually verified item-by-item
+f1supp43-biochemphys-q01
+f1supp43-biochemphys-q02
+f1supp43-biochemphys-q03
+f1supp43-biochemphys-q04
+f1supp43-biochemphys-q05
+f1supp43-biochemphys-q06
+f1supp43-biochemphys-q07
+f1supp43-biochemphys-q08
+f1supp43-biochemphys-q09
+f1supp43-biochemphys-q10
+f1supp43-biochemphys-q11
+f1supp43-biochemphys-q12
+f1supp43-biochemphys-q13
+f1supp43-biochemphys-q14
+f1supp43-biochemphys-q15
+f1supp43-biochemphys-q16
+f1supp43-biochemphys-q17
+f1supp43-biochemphys-q18
+f1supp43-biochemphys-q19
+f1supp43-biochemphys-q20
+f1supp43-biochemphys-q21
+f1supp43-biochemphys-q22
+f1supp43-biochemphys-q23
+f1supp43-biochemphys-q24
+f1supp43-biochemphys-q25
+f1supp43-biochemphys-q26
+f1supp43-biochemphys-q27
+f1supp43-biochemphys-q28
+f1supp43-biochemphys-q29
+f1supp43-biochemphys-q30
+f1supp43-biochemphys-q31
+f1supp43-biochemphys-q32
+f1supp43-biochemphys-q33
+f1supp43-biochemphys-q34
+f1supp43-biochemphys-q35
+f1supp43-biochemphys-q36
+f1supp43-biochemphys-q37
+f1supp43-biochemphys-q38
