@@ -162,11 +162,11 @@ media: Written [clear]. No rights-cleared asset exists for any of this material.
 
 ## annotations
 ### definition_of · CON-MSK-276046B5EEFFDB
-Quote: Ventral is synonymous with anterior — both describe the front, or belly-side, surface or direction of the body
+Quote: Ventral is synonymous with anterior
 Block: body
 
 ### definition_of · CON-MSK-26F681BFC6E661
-Quote: Bilateral is the anatomical term describing a structure, finding or process that relates to both the right and left sides of the body together
+Quote: Bilateral means relating to both the right and left sides of the body together
 Block: body
 
 ### definition_of · CON-MSK-249270602DEA0B
@@ -320,7 +320,7 @@ media: Written [clear]. No rights-cleared asset exists for any of this material.
 
 ## annotations
 ### definition_of · CON-NEU-846C2990B967C1
-Quote: White matter in the nervous system is formed by nerve fibers (axons), most of them myelinated
+Quote: White matter is formed by nerve fibers (axons), most myelinated
 Block: body
 
 ### definition_of · CON-NEU-13DB29B3F93239
@@ -472,5 +472,5 @@ timingConflict: This source's own timing model differs from Kasr's 101-ISK-mcq-c
 
 ## annotations
 ### definition_of · CON-DEV-91DA3B19B9A506
-Quote: the developing morula remains free (unattached) within the uterine cavity for about three days before it transforms into a blastocyst
+Quote: remains free within the uterine cavity for about three days before it transforms into a blastocyst
 Block: body

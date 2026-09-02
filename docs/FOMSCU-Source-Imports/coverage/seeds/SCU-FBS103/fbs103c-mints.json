@@ -5,8 +5,12 @@
   "defaults": {
     "status": "Draft",
     "owner": "Claude",
-    "universities": ["scu"],
-    "years": ["SCU_Y1"],
+    "universities": [
+      "scu"
+    ],
+    "years": [
+      "SCU_Y1"
+    ],
     "module": "SCU-FBS103",
     "setting": "Academic",
     "estimated_seconds": 60,
@@ -24,7 +28,12 @@
       "id": "QST-SCUFBS103-FBS103C-ANATOMY-MANDIBULAR-NERVE",
       "title": "Motor nerve to the muscles of mastication",
       "question": "The muscles of mastication receive their motor innervation from which of the following nerves?",
-      "options": { "A": "Facial nerve", "B": "Maxillary nerve", "C": "Mandibular nerve", "D": "Glossopharyngeal nerve" },
+      "options": {
+        "A": "Facial nerve",
+        "B": "Maxillary nerve",
+        "C": "Mandibular nerve",
+        "D": "Glossopharyngeal nerve"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. The facial nerve (CN VII) supplies the muscles of facial expression, an entirely separate muscle group from the muscles of mastication, which it does not innervate at all.",
@@ -35,7 +44,9 @@
       "topic": "Anatomy",
       "subtopic": "Head and neck: trigeminal nerve divisions",
       "main_concept": "CON-MSK-4D215626D6BC20",
-      "concept_ids": ["CON-MSK-4D215626D6BC20"],
+      "concept_ids": [
+        "CON-MSK-4D215626D6BC20"
+      ],
       "subject": "msk",
       "difficulty": "Easy",
       "cognitive_effort_score": 0.15,
@@ -44,7 +55,9 @@
       "exam_relevance": 5,
       "clinical_relevance": 0.2,
       "academic_relevance": 0.85,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Anatomy > Head and Neck > Trigeminal Nerve",
       "learning_objective": "Identify the mandibular nerve (V3) as the sole carrier of motor innervation to the muscles of mastication.",
       "source_citation": "FOMSCU Foundation 2, EOY Final 2025, Q18",
@@ -52,14 +65,22 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "EOY Final 2025 Q18; source-JSON extraction.",
         "mint": "find-existing.mjs \"mandibular nerve muscles of mastication\" — 0 hits. See concept's own field_notes for the rejected merge candidate (CON-NEU-4BFE30D065C975, a different central-nucleus-classification fact)."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-ANAT-MANDIBULAR-NERVE"
+      ]
     },
     {
       "key": "histology-central-and-oval",
       "id": "QST-SCUFBS103-FBS103C-HISTOLOGY-CENTRAL-AND-OVAL",
       "title": "Smooth muscle nucleus: shape and position",
       "question": "Which of the following best describes the appearance and position of the nucleus in smooth muscle fibers?",
-      "options": { "A": "Central and multiple", "B": "Peripheral and oval", "C": "Central and oval", "D": "Peripheral and multiple" },
+      "options": {
+        "A": "Central and multiple",
+        "B": "Peripheral and oval",
+        "C": "Central and oval",
+        "D": "Peripheral and multiple"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. A smooth muscle fibre has only a single nucleus, not multiple — multiple nuclei describe skeletal muscle fibres instead.",
@@ -70,7 +91,9 @@
       "topic": "Histology",
       "subtopic": "Muscle tissue: smooth muscle identification",
       "main_concept": "CON-FND-97429CCFF7F704",
-      "concept_ids": ["CON-FND-97429CCFF7F704"],
+      "concept_ids": [
+        "CON-FND-97429CCFF7F704"
+      ],
       "subject": "fnd",
       "difficulty": "Moderate",
       "cognitive_effort_score": 0.3,
@@ -79,7 +102,9 @@
       "exam_relevance": 4,
       "clinical_relevance": 0.1,
       "academic_relevance": 0.85,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Histology > Muscle Tissue",
       "learning_objective": "State that a smooth muscle fibre's nucleus is single, central and oval, distinguishing it from skeletal muscle's multiple, peripheral, flattened nuclei.",
       "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q53",
@@ -87,14 +112,22 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "EOM MID 2026 Q53; source-JSON extraction.",
         "mint": "find-existing.mjs \"central and oval nucleus smooth muscle\" — 0 hits, safe to create."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-HIS-TISSUE-ID"
+      ]
     },
     {
       "key": "histology-eccentric",
       "id": "QST-SCUFBS103-FBS103C-HISTOLOGY-ECCENTRIC",
       "title": "Macrophage nucleus position",
       "question": "What is the typical position of the nucleus in a macrophage?",
-      "options": { "A": "Peripheral", "B": "Eccentric", "C": "Central", "D": "Basal" },
+      "options": {
+        "A": "Peripheral",
+        "B": "Eccentric",
+        "C": "Central",
+        "D": "Basal"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. A peripheral, flattened position instead typically describes the nucleus of an adipocyte (fat cell), not a macrophage.",
@@ -105,7 +138,9 @@
       "topic": "Histology",
       "subtopic": "Connective tissue cells: macrophage identification",
       "main_concept": "CON-FND-C38D7FEB8040C8",
-      "concept_ids": ["CON-FND-C38D7FEB8040C8"],
+      "concept_ids": [
+        "CON-FND-C38D7FEB8040C8"
+      ],
       "subject": "fnd",
       "difficulty": "Moderate",
       "cognitive_effort_score": 0.3,
@@ -114,7 +149,9 @@
       "exam_relevance": 4,
       "clinical_relevance": 0.15,
       "academic_relevance": 0.8,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Histology > Connective Tissue Cells",
       "learning_objective": "State that a macrophage's nucleus is typically eccentric in position.",
       "source_citation": "FOMSCU Foundation 2, Formative 2025, Q1",
@@ -122,14 +159,22 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "Formative 2025 Q1; source-JSON extraction.",
         "mint": "find-existing.mjs \"eccentric nucleus macrophage\" — 0 hits. A grep for \"macrophage\" surfaced only cell-shape (kidney-shaped nucleus) identification records, a different feature. Safe to create."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-HIS-TISSUE-ID"
+      ]
     },
     {
       "key": "histology-epithelial-tissue",
       "id": "QST-SCUFBS103-FBS103C-HISTOLOGY-EPITHELIAL-TISSUE",
       "title": "Epithelial tissue as one of the four basic tissues",
       "question": "Which of the following is considered one of the four basic tissues in the human body?",
-      "options": { "A": "Respiratory tissue", "B": "Epithelial tissue", "C": "Endocrine tissue", "D": "Immune system tissue" },
+      "options": {
+        "A": "Respiratory tissue",
+        "B": "Epithelial tissue",
+        "C": "Endocrine tissue",
+        "D": "Immune system tissue"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. \"Respiratory tissue\" names a body system, not a basic tissue category — the respiratory system is itself built from combinations of the four basic tissues.",
@@ -140,7 +185,9 @@
       "topic": "Histology",
       "subtopic": "Introduction: the four basic tissues",
       "main_concept": "CON-FND-2442FE83E1BA90",
-      "concept_ids": ["CON-FND-2442FE83E1BA90"],
+      "concept_ids": [
+        "CON-FND-2442FE83E1BA90"
+      ],
       "subject": "fnd",
       "difficulty": "Easy",
       "cognitive_effort_score": 0.15,
@@ -149,7 +196,9 @@
       "exam_relevance": 4,
       "clinical_relevance": 0.1,
       "academic_relevance": 0.85,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Histology > Introduction",
       "learning_objective": "Name epithelial tissue as one of the four basic tissues, distinguishing \"basic tissue\" from a body system.",
       "source_citation": "FOMSCU Foundation 2, Formative 2025, Q6",
@@ -157,14 +206,22 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "Formative 2025 Q6; source-JSON extraction.",
         "mint": "find-existing.mjs \"epithelial tissue four basic tissues\" — 0 hits. See concept's own field_notes for the rejected merge candidate (CON-FND-366BDE9995356F, a different fact about epithelium's unique polarity)."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-HIS-TISSUE-ID"
+      ]
     },
     {
       "key": "histology-walls-of-the-blood-vessels",
       "id": "QST-SCUFBS103-FBS103C-HISTOLOGY-WALLS-OF-BLOOD-VESSELS",
       "title": "Smooth muscle in the walls of blood vessels",
       "question": "Which of the following structures is primarily composed of smooth muscle tissue?",
-      "options": { "A": "Muscles of the human tongue", "B": "Walls of the blood vessels", "C": "Muscles attached to the skeleton", "D": "Cardiac muscle of the heart" },
+      "options": {
+        "A": "Muscles of the human tongue",
+        "B": "Walls of the blood vessels",
+        "C": "Muscles attached to the skeleton",
+        "D": "Cardiac muscle of the heart"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. The muscles of the tongue are skeletal (voluntary, striated) muscle, not smooth muscle.",
@@ -175,7 +232,9 @@
       "topic": "Histology",
       "subtopic": "Muscle tissue: smooth muscle distribution",
       "main_concept": "CON-FND-BEE052613B7347",
-      "concept_ids": ["CON-FND-BEE052613B7347"],
+      "concept_ids": [
+        "CON-FND-BEE052613B7347"
+      ],
       "subject": "fnd",
       "difficulty": "Easy",
       "cognitive_effort_score": 0.15,
@@ -184,7 +243,9 @@
       "exam_relevance": 4,
       "clinical_relevance": 0.2,
       "academic_relevance": 0.8,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Histology > Muscle Tissue",
       "learning_objective": "State that the walls of blood vessels are composed primarily of smooth muscle tissue.",
       "source_citation": "FOMSCU Foundation 2, Formative 2025, Q13",
@@ -192,14 +253,22 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "Formative 2025 Q13; source-JSON extraction.",
         "mint": "find-existing.mjs \"walls of blood vessels smooth muscle\" — 0 hits, safe to create."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-HIS-TISSUE-ID"
+      ]
     },
     {
       "key": "microbiology-a-protein-coat-and-nucleic-acid",
       "id": "QST-SCUFBS103-FBS103C-MICROBIOLOGY-PROTEIN-COAT-NUCLEIC-ACID",
       "title": "The basic structure of a virus",
       "question": "The basic structure of a virus primarily consists of:",
-      "options": { "A": "A complete cell with nucleus and organelles", "B": "A protein coat and nucleic acid", "C": "Peptidoglycan cell wall and ribosomes", "D": "Lipid bilayer exclusively without proteins" },
+      "options": {
+        "A": "A complete cell with nucleus and organelles",
+        "B": "A protein coat and nucleic acid",
+        "C": "Peptidoglycan cell wall and ribosomes",
+        "D": "Lipid bilayer exclusively without proteins"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. A virus has no nucleus, cytoplasm or organelles of its own; it is not a complete, independently metabolising cell.",
@@ -210,7 +279,9 @@
       "topic": "Microbiology",
       "subtopic": "General virology: basic virus structure",
       "main_concept": "CON-INF-88CF1D8B051CF9",
-      "concept_ids": ["CON-INF-88CF1D8B051CF9"],
+      "concept_ids": [
+        "CON-INF-88CF1D8B051CF9"
+      ],
       "subject": "inf",
       "difficulty": "Easy",
       "cognitive_effort_score": 0.15,
@@ -219,7 +290,9 @@
       "exam_relevance": 5,
       "clinical_relevance": 0.25,
       "academic_relevance": 0.85,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Microbiology > General Virology",
       "learning_objective": "State that a virus's basic structure is a protein coat (capsid) enclosing its nucleic acid genome.",
       "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q17",
@@ -227,14 +300,22 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "EOM MID 2026 Q17 (repeated verbatim in EOY Final 2026 Q17); source-JSON extraction.",
         "mint": "find-existing.mjs \"virus protein coat nucleic acid\" — 0 hits, safe to create."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-MICRO-PARA-BASICS"
+      ]
     },
     {
       "key": "microbiology-cell-wall",
       "id": "QST-SCUFBS103-FBS103C-MICROBIOLOGY-CELL-WALL",
       "title": "Gram-positive cell wall and peptidoglycan",
       "question": "Which structural component of Gram-positive bacteria contains a thick layer of peptidoglycan?",
-      "options": { "A": "Cell wall", "B": "Nucleoid", "C": "Capsule", "D": "Cell membrane" },
+      "options": {
+        "A": "Cell wall",
+        "B": "Nucleoid",
+        "C": "Capsule",
+        "D": "Cell membrane"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. The cell wall is the structural component of a Gram-positive bacterium that contains a thick layer of peptidoglycan, in contrast to the thin peptidoglycan layer of a Gram-negative cell wall. This thick peptidoglycan is also what retains the crystal violet-iodine complex in the Gram stain, giving Gram-positive organisms their characteristic violet colour.",
@@ -245,7 +326,9 @@
       "topic": "Microbiology",
       "subtopic": "General bacteriology: Gram-positive cell wall",
       "main_concept": "CON-INF-876D1C153188B8",
-      "concept_ids": ["CON-INF-876D1C153188B8"],
+      "concept_ids": [
+        "CON-INF-876D1C153188B8"
+      ],
       "subject": "inf",
       "difficulty": "Moderate",
       "cognitive_effort_score": 0.3,
@@ -254,7 +337,9 @@
       "exam_relevance": 5,
       "clinical_relevance": 0.3,
       "academic_relevance": 0.8,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Microbiology > General Bacteriology",
       "learning_objective": "Identify the cell wall as the Gram-positive bacterial structure containing a thick peptidoglycan layer, distinguishing it from the nucleoid, capsule and cell membrane.",
       "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q19",
@@ -262,14 +347,22 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "EOM MID 2026 Q19 (repeated verbatim in EOY Final 2026 Q19); source-JSON extraction.",
         "mint": "find-existing.mjs \"gram-positive cell wall thick peptidoglycan\" — 0 hits. See concept's own field_notes for the rejected merge candidate (CON-INF-7E3B831D71A008, a different tested fact about teichoic acid)."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-MICRO-PARA-BASICS"
+      ]
     },
     {
       "key": "parasitology-sarcodina",
       "id": "QST-SCUFBS103-FBS103C-PARASITOLOGY-SARCODINA",
       "title": "Old protozoan classification: Sarcodina",
       "question": "According to its old taxonomic classification, which group of protozoa is characterized by the use of pseudopodia for locomotion?",
-      "options": { "A": "Mastigophora", "B": "Sarcodina", "C": "Sporozoa", "D": "Ciliophora" },
+      "options": {
+        "A": "Mastigophora",
+        "B": "Sarcodina",
+        "C": "Sporozoa",
+        "D": "Ciliophora"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Mastigophora is the old classification group characterised by flagella, not pseudopodia.",
@@ -280,7 +373,9 @@
       "topic": "Parasitology",
       "subtopic": "General parasitology: old protozoan classification",
       "main_concept": "CON-INF-85B8A95618EA94",
-      "concept_ids": ["CON-INF-85B8A95618EA94"],
+      "concept_ids": [
+        "CON-INF-85B8A95618EA94"
+      ],
       "subject": "inf",
       "difficulty": "Moderate",
       "cognitive_effort_score": 0.3,
@@ -289,7 +384,9 @@
       "exam_relevance": 4,
       "clinical_relevance": 0.15,
       "academic_relevance": 0.85,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Parasitology > General Parasitology",
       "learning_objective": "Identify Sarcodina as the old taxonomic protozoan group characterised by pseudopodial (amoeboid) locomotion.",
       "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q2",
@@ -297,14 +394,22 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "EOM MID 2026 Q2 (repeated verbatim in EOY Final 2026 Q2); source-JSON extraction.",
         "mint": "find-existing.mjs \"sarcodina pseudopodia protozoa\" — 0 hits, safe to create."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-MICRO-PARA-BASICS"
+      ]
     },
     {
       "key": "pharmacology-acetylsalicylic-acid",
       "id": "QST-SCUFBS103-FBS103C-PHARMACOLOGY-ACETYLSALICYLIC-ACID",
       "title": "Aspirin's chemical identity",
       "question": "Aspirin is the brand or common name for which of the following chemical compounds?",
-      "options": { "A": "Acetylsalicylic acid", "B": "Ibuprofen", "C": "Diclofenac sodium", "D": "Acetaminophen" },
+      "options": {
+        "A": "Acetylsalicylic acid",
+        "B": "Ibuprofen",
+        "C": "Diclofenac sodium",
+        "D": "Acetaminophen"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Aspirin is the common (and originally brand) name for the chemical compound acetylsalicylic acid, a non-steroidal anti-inflammatory drug (NSAID) that acetylates and irreversibly inhibits cyclooxygenase (COX). This irreversible inhibition is the basis of aspirin's long-lasting antiplatelet effect, since platelets cannot resynthesise cyclooxygenase.",
@@ -315,7 +420,9 @@
       "topic": "Pharmacology",
       "subtopic": "General pharmacology: drug names and identities",
       "main_concept": "CON-FND-70F5839FD191FA",
-      "concept_ids": ["CON-FND-70F5839FD191FA"],
+      "concept_ids": [
+        "CON-FND-70F5839FD191FA"
+      ],
       "subject": "fnd",
       "difficulty": "Easy",
       "cognitive_effort_score": 0.15,
@@ -324,7 +431,9 @@
       "exam_relevance": 5,
       "clinical_relevance": 0.35,
       "academic_relevance": 0.75,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Pharmacology > General Pharmacology",
       "learning_objective": "State that aspirin is the common name for acetylsalicylic acid.",
       "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q13",
@@ -332,14 +441,22 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "EOM MID 2026 Q13 (repeated verbatim in EOY Final 2026 Q13); source-JSON extraction.",
         "mint": "find-existing.mjs \"acetylsalicylic acid aspirin\" — 0 hits, safe to create."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-PHARM-BASICS"
+      ]
     },
     {
       "key": "pharmacology-cross-tolerance",
       "id": "QST-SCUFBS103-FBS103C-PHARMACOLOGY-CROSS-TOLERANCE",
       "title": "Cross tolerance within a drug class",
       "question": "What term is used to describe the development of tolerance to a specific drug that also results in tolerance to other drugs within the same pharmacological group?",
-      "options": { "A": "Idiosyncrasy", "B": "Cross tolerance", "C": "Tachyphylaxis", "D": "Drug dependence" },
+      "options": {
+        "A": "Idiosyncrasy",
+        "B": "Cross tolerance",
+        "C": "Tachyphylaxis",
+        "D": "Drug dependence"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Idiosyncrasy is an unusual, unpredictable drug reaction unrelated to dose or prior exposure, not a shared tolerance across a drug class.",
@@ -350,7 +467,9 @@
       "topic": "Pharmacology",
       "subtopic": "General pharmacology: tolerance and its variants",
       "main_concept": "CON-FND-B147F4448B4BF1",
-      "concept_ids": ["CON-FND-B147F4448B4BF1"],
+      "concept_ids": [
+        "CON-FND-B147F4448B4BF1"
+      ],
       "subject": "fnd",
       "difficulty": "Moderate",
       "cognitive_effort_score": 0.3,
@@ -359,7 +478,9 @@
       "exam_relevance": 4,
       "clinical_relevance": 0.3,
       "academic_relevance": 0.8,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Pharmacology > General Pharmacology",
       "learning_objective": "Define cross tolerance as tolerance to one drug extending to other drugs of the same pharmacological group.",
       "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q14",
@@ -367,14 +488,22 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "EOM MID 2026 Q14 (repeated verbatim in EOY Final 2026 Q14); source-JSON extraction.",
         "mint": "find-existing.mjs \"cross tolerance pharmacology\" — 0 hits, safe to create."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-PHARM-BASICS"
+      ]
     },
     {
       "key": "pharmacology-plant-source",
       "id": "QST-SCUFBS103-FBS103C-PHARMACOLOGY-PLANT-SOURCE",
       "title": "Morphine's natural source",
       "question": "What is the natural source from which morphine is primarily derived?",
-      "options": { "A": "Microorganism source", "B": "Plant source", "C": "Animal source", "D": "Synthetic source" },
+      "options": {
+        "A": "Microorganism source",
+        "B": "Plant source",
+        "C": "Animal source",
+        "D": "Synthetic source"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Microbially-sourced drugs include most antibiotics (produced by fungi or bacteria), not morphine.",
@@ -385,7 +514,9 @@
       "topic": "Pharmacology",
       "subtopic": "General pharmacology: sources of drugs",
       "main_concept": "CON-FND-342512BCB62F65",
-      "concept_ids": ["CON-FND-342512BCB62F65"],
+      "concept_ids": [
+        "CON-FND-342512BCB62F65"
+      ],
       "subject": "fnd",
       "difficulty": "Moderate",
       "cognitive_effort_score": 0.3,
@@ -394,7 +525,9 @@
       "exam_relevance": 4,
       "clinical_relevance": 0.25,
       "academic_relevance": 0.8,
-      "exam_weight_by_year": { "SCU_Y1": "moderate" },
+      "exam_weight_by_year": {
+        "SCU_Y1": "moderate"
+      },
       "module_subject": "SCU-FBS103 > Pharmacology > General Pharmacology",
       "learning_objective": "State that morphine is derived primarily from a plant source (the opium poppy).",
       "source_citation": "FOMSCU Foundation 2, EOM MID 2026, Q48",
@@ -402,7 +535,10 @@
         "keySource": "printed answer, FOMSCU Foundation 2 QBank",
         "fomscu": "EOM MID 2026 Q48; source-JSON extraction.",
         "mint": "find-existing.mjs \"morphine plant source\" — 0 hits. See concept's own field_notes for the rejected merge candidate (CON-FND-F468990E215745, which names morphine only as a passing counter-example)."
-      }
+      },
+      "library_ids": [
+        "ART-SCU-FBS103-PHARM-BASICS"
+      ]
     }
   ]
 }

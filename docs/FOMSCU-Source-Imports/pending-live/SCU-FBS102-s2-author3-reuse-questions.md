@@ -115,6 +115,7 @@ SCU-FBS102 > Embryology > Second Week
 ## question_only_for
 
 ## library_ids
+ART-101-ANA-IMPLANTATION
 
 ## resource_ids
 
@@ -254,6 +255,7 @@ SCU-FBS102 > Embryology > Second Week
 ## question_only_for
 
 ## library_ids
+ART-101-ANA-IMPLANTATION
 
 ## resource_ids
 
@@ -393,6 +395,7 @@ SCU-FBS102 > Embryology > Embryonic Folding
 ## question_only_for
 
 ## library_ids
+ART-DEV-AUN-PMS102-GERM-LAYERS-FOLDING
 
 ## resource_ids
 

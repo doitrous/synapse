@@ -115,6 +115,7 @@ SCU-FBS103 > Anatomy > Head and Neck > Trigeminal Nerve
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-ANAT-MANDIBULAR-NERVE
 
 ## resource_ids
 
@@ -254,6 +255,7 @@ SCU-FBS103 > Histology > Muscle Tissue
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-HIS-TISSUE-ID
 
 ## resource_ids
 
@@ -393,6 +395,7 @@ SCU-FBS103 > Histology > Connective Tissue Cells
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-HIS-TISSUE-ID
 
 ## resource_ids
 
@@ -532,6 +535,7 @@ SCU-FBS103 > Histology > Introduction
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-HIS-TISSUE-ID
 
 ## resource_ids
 
@@ -671,6 +675,7 @@ SCU-FBS103 > Histology > Muscle Tissue
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-HIS-TISSUE-ID
 
 ## resource_ids
 
@@ -810,6 +815,7 @@ SCU-FBS103 > Microbiology > General Virology
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-MICRO-PARA-BASICS
 
 ## resource_ids
 
@@ -949,6 +955,7 @@ SCU-FBS103 > Microbiology > General Bacteriology
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-MICRO-PARA-BASICS
 
 ## resource_ids
 
@@ -1088,6 +1095,7 @@ SCU-FBS103 > Parasitology > General Parasitology
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-MICRO-PARA-BASICS
 
 ## resource_ids
 
@@ -1227,6 +1235,7 @@ SCU-FBS103 > Pharmacology > General Pharmacology
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-PHARM-BASICS
 
 ## resource_ids
 
@@ -1366,6 +1375,7 @@ SCU-FBS103 > Pharmacology > General Pharmacology
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-PHARM-BASICS
 
 ## resource_ids
 
@@ -1505,6 +1515,7 @@ SCU-FBS103 > Pharmacology > General Pharmacology
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS103-PHARM-BASICS
 
 ## resource_ids
 

@@ -169,7 +169,7 @@ media: Written [clear]. No rights-cleared asset exists for any of this material.
 
 ## annotations
 ### definition_of · CON-MSK-4D215626D6BC20
-Quote: The muscles of mastication... receive their motor innervation from the mandibular nerve (V3)
+Quote: receive their motor innervation from the mandibular nerve (V3)
 Block: body
 
 ---
@@ -325,15 +325,15 @@ media: Written [clear]. No rights-cleared asset exists for any of this material.
 
 ## annotations
 ### definition_of · CON-FND-97429CCFF7F704
-Quote: A smooth muscle fibre (leiomyocyte) has a single nucleus, positioned centrally within the cell and oval in shape
+Quote: A smooth muscle fibre (leiomyocyte) has a single, central, oval nucleus
 Block: body
 
 ### definition_of · CON-FND-C38D7FEB8040C8
-Quote: The macrophage... characteristically has a nucleus positioned eccentrically within the cell
+Quote: characteristically has an eccentrically positioned nucleus
 Block: body
 
 ### definition_of · CON-FND-2442FE83E1BA90
-Quote: The human body is built from four basic tissues: epithelial tissue, connective tissue, muscular tissue and nervous tissue
+Quote: Epithelial tissue is one of the body's four basic tissues
 Block: body
 
 ### definition_of · CON-FND-BEE052613B7347
@@ -490,15 +490,15 @@ media: Written [clear]. No rights-cleared asset exists for any of this material.
 
 ## annotations
 ### definition_of · CON-INF-88CF1D8B051CF9
-Quote: Its basic structure is a nucleic acid genome... enclosed within a protective protein coat called the capsid
+Quote: its basic structure is a nucleic acid genome (DNA or RNA, never both) enclosed in a protein coat (capsid)
 Block: body
 
 ### definition_of · CON-INF-876D1C153188B8
-Quote: The cell wall is the structural component of a Gram-positive bacterium that contains a thick layer of peptidoglycan
+Quote: is the structure that contains a thick layer of peptidoglycan
 Block: body
 
 ### definition_of · CON-INF-85B8A95618EA94
-Quote: Sarcodina, characterised by pseudopodia (temporary cytoplasmic extensions, as in Entamoeba)
+Quote: Sarcodina is the group defined by pseudopodia (amoeboid movement)
 Block: body
 
 ---
@@ -651,13 +651,13 @@ media: Written [clear]. No rights-cleared asset exists for any of this material.
 
 ## annotations
 ### definition_of · CON-FND-70F5839FD191FA
-Quote: Aspirin is the common (and originally brand) name for the chemical compound acetylsalicylic acid
+Quote: Aspirin is the common (and originally brand) name for acetylsalicylic acid
 Block: body
 
 ### definition_of · CON-FND-B147F4448B4BF1
-Quote: Cross tolerance is the phenomenon in which tolerance developed to one drug also reduces the response to other drugs within the same pharmacological group
+Quote: Cross tolerance is tolerance developed to one drug that also reduces the response to other drugs within the same pharmacological group
 Block: body
 
 ### definition_of · CON-FND-342512BCB62F65
-Quote: Morphine is an opioid alkaloid derived primarily from a plant source — the opium poppy (Papaver somniferum)
+Quote: Morphine is an opioid alkaloid derived primarily from a plant source
 Block: body
