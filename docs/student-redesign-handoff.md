@@ -55,6 +55,26 @@ build its worker; the app boots without it and rooms fall back to polling +
 behind strict NAT. The DB migration runs at boot; the room archive endpoint is
 not implemented.
 
+## Study room voice — root cause and fix (2026-09-03)
+
+Voice reached production silent: the room showed "Voice is unavailable right
+now" for everyone, while the server booted "voice ready", the SFU, the media
+ports, the firewall and coturn were all healthy. The client was dialling the
+room WebSocket at `wss://host/api/api/rooms/ws` — a doubled `/api`. Every live
+deployment sets `VITE_API_BASE` to `https://host/api`, and `roomSocketUrl`
+appended its own `/api/rooms/ws` on top; the single upgrade handler 404s that
+path, the socket closed 1006, the channel never connected, and the room
+reported voice unavailable. Fixed in `roomSocketUrl` (strips a trailing `/api`
+before adding the suffix) with a regression test.
+
+Verified end to end on production with two signed-in students in one room:
+both peers reach ICE `connected` and audio flows both ways (rising
+`packetsReceived`, `lost` ≈ 0, real `audioLevel`). The earlier work is also
+in place and correct: Node 22 image so mediasoup installs, `SFU_ANNOUNCED_IP`
+set, media ports 40000–40400 open, coturn reachable. `GET /api/rooms/voice`
+is a public probe of the media path (announced address, ports, TURN — no
+credentials); each transport logs its ICE/DTLS state under `[voice]`.
+
 ## Known gaps / follow-ups
 
 - Keyboard sweep (WP19) landed partially — see `wp19-report.md` in the SDD
