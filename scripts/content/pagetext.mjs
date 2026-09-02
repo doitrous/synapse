@@ -76,7 +76,7 @@ function ocrPage(target, n, dpi, tmpDir) {
 }
 
 const [cmd, target, ...args] = process.argv.slice(2);
-if (!cmd || !target) die(`usage: pagetext.mjs <show|status|mark-garbled|unmark-garbled|render|ocr|index|grep|keys> <pdf|dir> [--pages 3-5] [--out <dir|file>] [--dpi 300] [--force]\n       pagetext.mjs grep <pdf|dir> <regex> [--context N] [--max N] [--ignore-case|--case]\n       pagetext.mjs keys <pdf> [--pages 3-5] [--json]`);
+if (!cmd || !target) die(`usage: pagetext.mjs <show|status|mark-garbled|unmark-garbled|render|ocr|index|grep|keys> <pdf|dir> [--pages 3-5] [--out <dir|file>] [--dpi 300] [--force]\n       pagetext.mjs grep <pdf|dir> <regex> [--context N] [--max N] [--ignore-case|--case]\n       pagetext.mjs keys <pdf> [--pages 3-5] [--json]  (repeated footer/header lines are excluded from key attribution)`);
 
 if (cmd === 'grep') {
   const pattern = args[0];
