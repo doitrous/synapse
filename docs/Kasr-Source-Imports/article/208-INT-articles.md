@@ -1064,3 +1064,96 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead, same as the adrenergic, cholinergic and diuretic pharmacology articles.
 ## reading_time
 12
+
+
+---
+
+# Item
+## id
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+## title
+Antihypertensive pharmacology: central alpha2 agonists, direct arteriolar/mixed vasodilators, pregnancy safety, and ACE inhibitor adverse effects/excretion
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Antihypertensive drugs outside the diuretic and beta-blocker classes divide by mechanism and by clinical constraint. Clonidine's central alpha2 agonism carries a genuine withdrawal hazard -- rebound hypertension if stopped abruptly. The direct vasodilators split into predominantly arteriolar agents (hydralazine, which carries a specific drug-induced lupus risk; minoxidil, hypertrichosis; diazoxide, hyperglycemia) and the one balanced, mixed arterial-and-venous agent, sodium nitroprusside, reserved for hypertensive emergencies. Pregnancy adds its own constraint: labetalol (not any ACE inhibitor or ARB, both contraindicated for teratogenicity) is the drug of choice for hypertension in toxemia of pregnancy. And ACE inhibitors carry a specific, well-tested adverse-effect and excretion profile of their own -- hyperkalemia (not hypokalemia), dry cough, teratogenicity, first-dose hypotension, and fosinopril's unusual dual hepatic/renal excretion that spares it from renal-impairment dose adjustment.
+## sections
+### Definition
+Clonidine directly stimulates central alpha2 and I1 imidazoline receptors, reducing sympathetic outflow from the CNS. Direct vasodilators act on vascular smooth muscle without going through an adrenergic or renin-angiotensin receptor: hydralazine and minoxidil act predominantly on arterioles (via nitric-oxide pathways and potassium-channel opening respectively), diazoxide opens ATP-sensitive potassium channels in both arterioles and pancreatic beta cells, and sodium nitroprusside is a non-selective nitric oxide donor dilating both arteries and veins together. ACE inhibitors block the conversion of angiotensin I to angiotensin II and reduce bradykinin degradation; fosinopril is distinguished among them by dual hepatic-and-renal excretion, versus lisinopril's purely renal route.
+### Mechanism
+Clonidine's abrupt withdrawal is dangerous precisely because the drug had been suppressing sympathetic outflow centrally; removing that suppression suddenly lets outflow rebound above its pre-treatment level, producing nervousness, tachycardia and a hypertensive surge -- which is why gradual tapering, not abrupt cessation, is the rule. Among the arteriolar vasodilators, hydralazine's immune-mediated lupus-like syndrome (arthralgias, myalgias, fever, positive ANA) is specific to hydralazine, worsened in slow acetylators and at high doses, and is mechanistically unrelated to minoxidil's hypertrichosis or diazoxide's insulin-inhibiting hyperglycemia -- each drug in this class carries its own idiosyncratic risk despite a shared vasodilator mechanism. Sodium nitroprusside's balanced arterial-and-venous action, rather than the arteriolar-only action of the other direct vasodilators, is exactly why it is reserved for hypertensive emergencies needing rapid, controllable reduction of both preload and afterload together -- at the cost of a cyanide/thiocyanate toxicity risk with prolonged or high-dose infusion. Labetalol's safety in pregnancy comes from its combined alpha/beta-blocking, vasodilating mechanism, which achieves blood pressure control without touching the renin-angiotensin pathway that ACE inhibitors and ARBs act on and that carries fetal teratogenicity risk. ACE inhibitors' hyperkalemia follows directly from reduced aldosterone secretion (aldosterone normally promotes potassium excretion), and their dry cough follows from reduced bradykinin degradation -- two adverse effects with two distinct, traceable mechanistic roots, both downstream of the same core action (blocking angiotensin-converting enzyme). Fosinopril's dual hepatic-and-renal excretion means that when renal clearance falls, hepatic excretion compensates, sparing it the dose adjustment lisinopril (purely renal) requires.
+### Key determinants
+Every item in this cluster turns on matching a drug to one specific, often idiosyncratic property -- a withdrawal syndrome, a named adverse effect, a pregnancy-safety status, or an excretion route -- rather than treating "antihypertensive" as one interchangeable category. For the vasodilators specifically, the deciding variable is whether the drug's action is purely arteriolar (hydralazine, minoxidil, diazoxide) or balanced arterial-and-venous (sodium nitroprusside only).
+### Clinical significance
+Never stopping clonidine abruptly, and warning a patient before doing so, is a direct application of its rebound-hypertension mechanism. Recognising hydralazine's lupus-like syndrome (rather than assuming a new autoimmune disease) in a patient on long-term hydralazine with new arthralgias and a positive ANA is a real diagnostic reasoning step. Choosing labetalol over an ACE inhibitor or ARB for a pregnant patient with pre-eclampsia is a teratogenicity-avoidance decision made at the bedside. Reaching for sodium nitroprusside specifically (not hydralazine or minoxidil) in a hypertensive emergency reflects its unique balanced, rapid-onset mechanism. Choosing fosinopril over lisinopril in a patient with renal impairment who still needs an ACE inhibitor is a direct application of its dual-excretion pharmacokinetics.
+### Common misconceptions
+Assuming any antihypertensive can be stopped abruptly without consequence, when clonidine specifically requires tapering. Assuming all direct arteriolar vasodilators share the same idiosyncratic adverse effect, when lupus (hydralazine), hypertrichosis (minoxidil) and hyperglycemia (diazoxide) are each drug-specific. Assuming ACE inhibitors cause hypokalemia by analogy with diuretics, when they instead cause hyperkalemia through reduced aldosterone. Assuming every ACE inhibitor has the same excretion route, when fosinopril's dual hepatic/renal route is the specific exception that makes it renal-impairment-safe.
+## universities
+kau
+## years
+KAU_Y2
+## module
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs and Angiotensin-Converting Enzyme Inhibitors
+## subtopic
+Antihypertensive pharmacology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## related_concepts
+CON-FND-B6D3C1F469AC58
+CON-FND-F63798C7FE1A68
+CON-FND-949C21CE53E1F6
+CON-FND-3FDC2F07EF7722
+CON-FND-15A2E73C3956E2
+CON-FND-7BD3654C01769F
+## related_articles
+ART-FND-208INT-DIURETIC-PHARMACOLOGY
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead. The fosinopril concept notes a wording gap between the exam stem's "excreted in bile only" phrasing and the source's own "dual hepatic and renal excretion" description -- see that concept's uncertainty field.
+## reading_time
+12

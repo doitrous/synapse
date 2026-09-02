@@ -8588,3 +8588,690 @@ resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ..
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: Sibling of CON-FND-417376B8A4CAA7 (nitrate cGMP mechanism); the same hydralazine-nitrate pair recurs conceptually in the heart-failure cluster authored in a later batch.
+
+
+---
+
+# Item
+## id
+CON-FND-B6D3C1F469AC58
+## label
+Clonidine causes severe rebound hypertension (with nervousness and tachycardia) if stopped abruptly, requiring gradual tapering
+## canonical_key
+clonidine.rebound-hypertension-on-withdrawal
+## aliases
+Clonidine withdrawal syndrome
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Clonidine, a central alpha2 agonist, causes severe rebound hypertension if stopped without gradual tapering, presenting with nervousness and tachycardia -- because withdrawing the drug abruptly leaves the sympathetic outflow it had been suppressing to surge unopposed. It must therefore always be tapered gradually, unlike most other antihypertensives (prazosin, ACE inhibitors, thiazides), which have no comparable withdrawal syndrome.
+## explicit_objective
+Identify clonidine as the antihypertensive with a rebound-hypertension withdrawal syndrome on abrupt cessation, and explain the sympathetic-outflow mechanism behind it.
+## pitfalls
+Assuming any antihypertensive can be stopped abruptly without consequence -- clonidine specifically must be tapered, a distinct clinical safety point from most of the drug class.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antihypertensive pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs
+## article_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-CLONIDINE-REBOUND-HTN-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Rebound hypertension on sudden stoppage of medication is most likely to occur with which of the following drugs? a. Prazosin b. Lisinopril c. Clonidine d. Hydrochlorothiazide" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("clonidine rebound hypertension withdrawal") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.10.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other antihypertensive-drug concepts minted from the same source in this batch.
+
+---
+
+# Item
+## id
+CON-FND-F63798C7FE1A68
+## label
+ACE inhibitors cause hyperkalemia (not hypokalemia), dry irritant cough, teratogenic effects and first-dose hypotension
+## canonical_key
+ace-inhibitors.adverse-effects-except-hypokalemia
+## aliases
+ACE inhibitor adverse effects
+## arabic_label
+
+## arabic_aliases
+
+## definition
+ACE inhibitors cause hyperkalemia, because decreased angiotensin II formation reduces aldosterone secretion, which normally promotes potassium excretion. They also decrease bradykinin degradation, causing a dry, irritant cough (the most common manifestation of ACE inhibitor intolerance, in up to 20% of patients) and, less commonly, angioedema; they are contraindicated in the 2nd and 3rd trimesters of pregnancy owing to teratogenic effects; and they can cause first-dose hypotension, particularly in volume-depleted patients.
+## explicit_objective
+List ACE inhibitors' adverse effects (hyperkalemia, dry cough, teratogenicity, first-dose hypotension, angioedema) and correctly state that the electrolyte effect is hyperkalemia, not hypokalemia.
+## pitfalls
+Assuming ACE inhibitors cause hypokalemia by analogy with diuretics -- ACE inhibitors instead reduce aldosterone-driven potassium excretion, causing hyperkalemia.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antihypertensive pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Angiotensin-Converting Enzyme Inhibitors
+## article_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-70B7E26AAEE307
+CON-FND-7BD3654C01769F
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.6
+## exam_weight_by_year
+KAU_Y2=0.6
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ACEI-ADVERSE-EFFECTS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All of the following are adverse effects of angiotensin converting enzyme inhibitors (ACEIS) EXCEPT: a. Hypokalemia b. Dry irritant cough c. Teratogenic effects d. First dose hypotension" ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("ace inhibitors adverse effects hypokalemia") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.9-10, and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da), p.105 ("The most common manifestation of ACE I intolerance is... dry cough. As ACEI decreases degradation of bradykinins producing dry irritant cough").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-70B7E26AAEE307 (ACEI non-inotropic cardiac output, tranche 3 batch 2) and CON-FND-7BD3654C01769F (fosinopril renal dosing), the other ACE-inhibitor concepts in this cluster.
+
+---
+
+# Item
+## id
+CON-FND-949C21CE53E1F6
+## label
+Labetalol is the drug of choice for hypertension in toxemia of pregnancy: a combined alpha/beta-blocker with vasodilating action, free of ACE-inhibitor/ARB teratogenicity
+## canonical_key
+labetalol.drug-of-choice-hypertension-in-pregnancy
+## aliases
+Labetalol in pregnancy hypertension
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Labetalol is the drug of choice in the treatment of hypertension in toxemia of pregnancy, because it is a combined alpha- and beta-blocker with an additional vasodilating effect, giving effective blood pressure control without the teratogenic renin-angiotensin-pathway risk that ACE inhibitors (captopril) and angiotensin receptor blockers (losartan, valsartan) carry -- both of which are contraindicated in pregnancy.
+## explicit_objective
+Identify labetalol as the drug of choice for hypertension in toxemia of pregnancy, and explain why ACE inhibitors and ARBs are contraindicated in this setting instead.
+## pitfalls
+Assuming any antihypertensive is safe in pregnancy -- specifically the renin-angiotensin-pathway drugs (ACE inhibitors, ARBs) are contraindicated, while labetalol and methyldopa are the preferred choices.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antihypertensive pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs
+## article_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.65
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-LABETALOL-PREGNANCY-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is the drug of choice in the treatment of hypertension in toxemia of pregnancy? a. captopril b. labetalol c. frusemide d. valsartan" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("labetalol hypertension pregnancy toxemia") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da), p.104, Question 154, near-verbatim match to this exam item ("The drug of choice in hypertension in toxemia of pregnancy is: c. Labetalol. ANS: C Explanation: As it is an alpha & beta blocker, with an additional vasodilating effect").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other antihypertensive-drug concepts minted from the same source cluster in this batch.
+
+---
+
+# Item
+## id
+CON-FND-3FDC2F07EF7722
+## label
+Hydralazine, a direct arteriolar vasodilator, can cause a drug-induced lupus erythematosus-like syndrome, more likely in slow acetylators and at high doses
+## canonical_key
+hydralazine.direct-arteriolar-vasodilator.lupus-like-syndrome
+## aliases
+Hydralazine-induced lupus
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hydralazine relaxes arteriolar smooth muscle directly, via nitric oxide pathways and potassium-channel opening, but can cause drug-induced lupus erythematosus -- presenting with arthralgias, myalgias, fever and a positive ANA -- a risk higher in slow acetylators and at high doses. This immune-mediated adverse effect is specific to hydralazine among the direct arteriolar vasodilators, distinguishing it from minoxidil's hypertrichosis and diazoxide's hyperglycemia.
+## explicit_objective
+Identify hydralazine as the direct arteriolar vasodilator carrying a drug-induced lupus erythematosus risk, and name the factors (slow acetylator status, high dose) that raise that risk.
+## pitfalls
+Assuming any arteriolar vasodilator carries a lupus risk -- it is specific to hydralazine, not shared by minoxidil or diazoxide.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antihypertensive pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs
+## article_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-15A2E73C3956E2
+CON-FND-B397E53B0C2C31
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-HYDRALAZINE-LUPUS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following is direct arteriolar vasodilator that may produce lupus erythematosus-like syndrome as an adverse effect: a. Sodium nitroprusside b. Diazoxide c. Minoxidil d. Hydralazine" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("hydralazine lupus erythematosus") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.10.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-15A2E73C3956E2 (sodium nitroprusside) and CON-FND-B397E53B0C2C31 (hydralazine-nitrate combination, tranche 3 batch 3).
+
+---
+
+# Item
+## id
+CON-FND-15A2E73C3956E2
+## label
+Sodium nitroprusside is a mixed, balanced arterial-and-venous vasodilator (a nitric oxide donor), used intravenously for hypertensive emergencies
+## canonical_key
+sodium-nitroprusside.powerful-mixed-balanced-vasodilator
+## aliases
+Sodium nitroprusside mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sodium nitroprusside is a potent, non-selective nitric oxide donor causing rapid dilation of both arteries and veins together -- a genuinely balanced, mixed arterial-and-venous action, with rapid onset and short duration. It is used intravenously for hypertensive emergencies (hypertensive encephalopathy, aortic dissection alongside beta-blockade) and for controlled hypotension during surgery, unlike predominantly arteriolar agents (minoxidil, diazoxide, hydralazine). Prolonged infusion or high doses can cause cyanide and thiocyanate poisoning.
+## explicit_objective
+Identify sodium nitroprusside as a mixed, balanced arterial-and-venous vasodilator used for hypertensive emergencies, distinct from the predominantly arteriolar agents, and name its cyanide-toxicity risk.
+## pitfalls
+Grouping sodium nitroprusside with the predominantly arteriolar vasodilators (minoxidil, diazoxide, hydralazine) -- its balanced arterial-and-venous action is a distinct pharmacological property.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antihypertensive pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs
+## article_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-3FDC2F07EF7722
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-NITROPRUSSIDE-BALANCED-VASODILATOR-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which one of the following is a very powerful mixed balanced vasodilator? a. Minoxidil b. Diazoxide C. Hydralazine d. Sodium nitroprusside" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("sodium nitroprusside mixed balanced vasodilator") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.10, and "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da), p.105, Question 162 ("Sodium nitroprusside intravenous infusion is used in the treatment of... hypertension emergency... As it is a potent direct vasodilator both arterial and venous acting by release of nitric oxide").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-3FDC2F07EF7722 (hydralazine lupus), the other direct-vasodilator concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-7BD3654C01769F
+## label
+Fosinopril's dual hepatic-and-renal excretion means its dosage needs no adjustment in renal impairment, unlike the predominantly renally-excreted ACE inhibitors
+## canonical_key
+fosinopril.dual-excretion.safe-in-renal-impairment
+## aliases
+Fosinopril excretion
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Fosinopril features dual excretion, eliminated by both hepatic and renal routes, so its dosage does not require adjustment in patients with renal impairment -- when renal clearance falls, hepatic (biliary) excretion compensates. This distinguishes it from lisinopril (excreted completely unchanged by the kidneys) and from the predominantly renally-excreted enalapril and captopril, which do require dose adjustment when renal function declines.
+## explicit_objective
+Identify fosinopril's dual hepatic-and-renal excretion as the reason it needs no dose adjustment in renal impairment, contrasting it with lisinopril's purely renal excretion.
+## pitfalls
+Assuming all ACE inhibitors are excreted the same way -- lisinopril is purely renal, while fosinopril's dual route is the specific, testable exception that makes it renal-impairment-safe.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Antihypertensive pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Angiotensin-Converting Enzyme Inhibitors
+## article_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-F63798C7FE1A68
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-FOSINOPRIL-DUAL-EXCRETION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following angiotensin converting enzyme inhibitors (ACEIS) could be used in a patient with renal impairment as it is excreted in bile only? a. Lisinopril b. Fosinopril. c. Enalapril d. Captopril" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+The exam stem describes fosinopril as "excreted in bile only," while the readable [2nd priority] source (p.10) describes "dual excretion, eliminated equally by both hepatic and renal routes" -- the explanation above is written to the source's dual-route description, which is the mechanistic reason fosinopril needs no renal-impairment dose adjustment, rather than to the stem's own simplified "bile only" phrasing.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("fosinopril biliary excretion renal impairment") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.10 ("FOSINOPRIL: Features dual excretion, eliminated equally by both hepatic and renal routes. FOSINOPRIL: Dosage does not require adjustment in patients with renal impairment.").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-F63798C7FE1A68 (ACEI adverse effects), the other ACE-inhibitor concept in this batch.

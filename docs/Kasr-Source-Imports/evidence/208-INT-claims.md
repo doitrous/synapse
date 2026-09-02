@@ -1238,3 +1238,190 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Kasr Al Ainy 208 INT — Pharmacology, Antianginal Drugs
+
+
+---
+
+# Item
+## id
+CLM-FND-208INT-CLONIDINE-REBOUND-HTN-01
+## concept_id
+CON-FND-B6D3C1F469AC58
+## subject
+Clonidine
+## predicate
+causes, if stopped without gradual tapering,
+## object
+severe rebound hypertension with nervousness and tachycardia
+## display_text
+Abrupt clonidine withdrawal causes severe rebound hypertension; the drug must be tapered gradually.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antihypertensive Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-ACEI-ADVERSE-EFFECTS-01
+## concept_id
+CON-FND-F63798C7FE1A68
+## subject
+ACE inhibitors
+## predicate
+cause hyperkalemia (not hypokalemia), dry irritant cough, teratogenic effects and
+## object
+first-dose hypotension, particularly in volume-depleted patients
+## display_text
+ACE inhibitors cause hyperkalemia, dry cough, teratogenicity and first-dose hypotension — not hypokalemia.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, ACE Inhibitors
+
+---
+
+# Item
+## id
+CLM-FND-208INT-LABETALOL-PREGNANCY-01
+## concept_id
+CON-FND-949C21CE53E1F6
+## subject
+Labetalol
+## predicate
+is the drug of choice for hypertension in toxemia of pregnancy because it is a
+## object
+combined alpha- and beta-blocker with vasodilating action, free of the renin-angiotensin-pathway teratogenicity of ACE inhibitors and ARBs
+## display_text
+Labetalol, not an ACE inhibitor or ARB, is the drug of choice for hypertension in pregnancy toxemia.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antihypertensive Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-HYDRALAZINE-LUPUS-01
+## concept_id
+CON-FND-3FDC2F07EF7722
+## subject
+Hydralazine
+## predicate
+can cause, more likely in slow acetylators and at high doses,
+## object
+a drug-induced lupus erythematosus-like syndrome (arthralgias, myalgias, fever, positive ANA)
+## display_text
+Hydralazine can cause a lupus-like syndrome, a risk specific to it among the direct arteriolar vasodilators.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antihypertensive Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-NITROPRUSSIDE-BALANCED-VASODILATOR-01
+## concept_id
+CON-FND-15A2E73C3956E2
+## subject
+Sodium nitroprusside
+## predicate
+is a mixed, balanced arterial-and-venous vasodilator used intravenously for
+## object
+hypertensive emergencies, unlike the predominantly arteriolar agents minoxidil, diazoxide and hydralazine
+## display_text
+Sodium nitroprusside is the balanced, mixed arterial-and-venous vasodilator, reserved for hypertensive emergencies.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antihypertensive Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-FOSINOPRIL-DUAL-EXCRETION-01
+## concept_id
+CON-FND-7BD3654C01769F
+## subject
+Fosinopril
+## predicate
+has dual hepatic-and-renal excretion, so its dosage
+## object
+does not require adjustment in renal impairment, unlike the predominantly renally-excreted ACE inhibitors
+## display_text
+Fosinopril's dual excretion route means it needs no dose adjustment in renal impairment, unlike lisinopril.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, ACE Inhibitors

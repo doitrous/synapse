@@ -1118,3 +1118,172 @@ Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference; h
 0.75
 ## counts_as_claim_evidence
 yes
+
+
+---
+
+# Item
+## id
+CIT-FND-208INT-CLONIDINE-REBOUND-HTN-01
+## claim_id
+CLM-FND-208INT-CLONIDINE-REBOUND-HTN-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+CLONIDINE: Abrupt stop causes rebound hypertension with symptoms of nervousness and tachycardia. CLONIDINE: Must be tapered gradually over time to avoid withdrawal symptoms.
+## locator_type
+printed_page
+## locator_page
+10
+## locator_section
+Antihypertensive drugs — central alpha2 agonists
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-ACEI-ADVERSE-EFFECTS-01
+## claim_id
+CLM-FND-208INT-ACEI-ADVERSE-EFFECTS-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+ACEIS: Hyperkalemia occurs due to reduced aldosterone levels. ACEIS: Cause a dry, non-productive cough in up to 20% of patients due to increased bradykinin. ACEIS (PREGNANCY): Exposure can lead to fetal skull hypoplasia and death. ACEIS: Can cause first-dose hypotension, particularly in volume-depleted patients.
+## locator_type
+printed_page
+## locator_page
+9
+## locator_section
+ACE inhibitors — adverse effects
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference. Corroborated by MCQS pharma bank (src_fc27447d6751a9bab6da) p.105, Question 161 (dry cough is the most common manifestation of ACE inhibitor intolerance).
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-LABETALOL-PREGNANCY-01
+## claim_id
+CLM-FND-208INT-LABETALOL-PREGNANCY-01
+## resource_id
+src_fc27447d6751a9bab6da
+## evidence_role
+local_curriculum
+## support_span
+Question 154: The drug of choice in hypertension in toxemia of pregnancy is: c. Labetalol. ANS: C Explanation: As it is an alpha & beta blocker, with an additional vasodilating effect.
+## locator_type
+printed_page
+## locator_page
+104
+## locator_section
+Antihypertensive drugs — pregnancy-specific MCQs
+## locator_detail
+Read via node scripts/content/pagetext.mjs grep "labetalol" then show; native text layer, no OCR.
+## context_note
+MCQS pharma bank (Dr Abdallah Salah, 2026), 2nd-priority instructor material with worked explanations — near-verbatim match to this exam item.
+## confidence
+0.8
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-HYDRALAZINE-LUPUS-01
+## claim_id
+CLM-FND-208INT-HYDRALAZINE-LUPUS-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+HYDRALAZINE (SIDE EFFECT): Can cause Drug-Induced Lupus Erythematosus, presents with arthralgias, myalgias, fever, and positive ANA. Lupus risk is higher in slow acetylators and with high doses.
+## locator_type
+printed_page
+## locator_page
+10
+## locator_section
+Antihypertensive drugs — direct arteriolar vasodilators
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-NITROPRUSSIDE-BALANCED-VASODILATOR-01
+## claim_id
+CLM-FND-208INT-NITROPRUSSIDE-BALANCED-VASODILATOR-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+SODIUM NITROPRUSSIDE: Potent non-selective donor of nitric oxide (NO). Causes rapid dilation of both arteries and veins. First-line agent for hypertensive emergencies including hypertensive encephalopathy and aortic dissection.
+## locator_type
+printed_page
+## locator_page
+10
+## locator_section
+Antihypertensive drugs — sodium nitroprusside
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference. Corroborated by MCQS pharma bank (src_fc27447d6751a9bab6da) p.105, Question 162.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-FOSINOPRIL-DUAL-EXCRETION-01
+## claim_id
+CLM-FND-208INT-FOSINOPRIL-DUAL-EXCRETION-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+FOSINOPRIL: Features dual excretion, eliminated equally by both hepatic and renal routes. FOSINOPRIL: Dosage does not require adjustment in patients with renal impairment. LISINOPRIL: Excreted completely unchanged by the kidneys into the urine.
+## locator_type
+printed_page
+## locator_page
+10
+## locator_section
+ACE inhibitors — excretion routes
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes

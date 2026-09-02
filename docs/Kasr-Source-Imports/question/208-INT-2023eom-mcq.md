@@ -12516,3 +12516,977 @@ yes
 
 ## author_notes
 keySource: printed answer table p.21 ("100.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q101
+
+## title
+Drug causing rebound hypertension on sudden stoppage
+
+## question
+Rebound hypertension on sudden stoppage of medication is most likely to occur with which of the following drugs?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Prazosin
+
+## explanation_a
+Incorrect. Prazosin's main early risk is first-dose postural hypotension, not a rebound-hypertension withdrawal syndrome on stopping it.
+
+## answer_b
+Lisinopril
+
+## explanation_b
+Incorrect. Lisinopril, an ACE inhibitor, has no established withdrawal syndrome; stopping it simply removes its antihypertensive effect rather than provoking a rebound surge above baseline.
+
+## answer_c
+Clonidine
+
+## explanation_c
+Correct. Clonidine, a central alpha2 agonist, causes severe rebound hypertension if stopped without gradual tapering, presenting with symptoms of nervousness and tachycardia -- the drug must be tapered gradually to avoid this withdrawal syndrome. This rebound occurs because clonidine's abrupt withdrawal leaves the sympathetic outflow it had been suppressing to surge unopposed, which is exactly why clonidine is never stopped abruptly in clinical practice, regardless of how well-controlled the patient's blood pressure had become.
+
+## answer_d
+Hydrochlorothiazide
+
+## explanation_d
+Incorrect. Hydrochlorothiazide, a thiazide diuretic, has no rebound-hypertension withdrawal syndrome; stopping it removes its diuretic and antihypertensive effect without provoking a compensatory pressure surge.
+
+## topic
+Pharmacology
+
+## subtopic
+Antihypertensive pharmacology
+
+## main_concept
+CON-FND-B6D3C1F469AC58
+
+## concept_ids
+CON-FND-B6D3C1F469AC58
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify clonidine as the antihypertensive with a rebound-hypertension withdrawal syndrome, requiring gradual tapering rather than abrupt cessation.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.17
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("101.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q102
+
+## title
+Adverse effects of ACE inhibitors
+
+## question
+All of the following are adverse effects of angiotensin converting enzyme inhibitors (ACEIS) EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Hypokalemia
+
+## explanation_a
+Correct. ACE inhibitors cause hyperkalemia, not hypokalemia. Decreased angiotensin II formation reduces aldosterone secretion, which normally promotes potassium excretion. This option reverses the true direction of the electrolyte effect, which is exactly why it is the one adverse effect ACE inhibitors do NOT cause.
+
+## answer_b
+Dry irritant cough
+
+## explanation_b
+Incorrect (this IS a genuine ACE inhibitor adverse effect, making it not the exception). ACE inhibitors decrease degradation of bradykinin, producing a dry, irritant cough in up to 20% of patients -- the most common manifestation of ACE inhibitor intolerance, and a reason to switch to an angiotensin receptor blocker.
+
+## answer_c
+Teratogenic effects
+
+## explanation_c
+Incorrect (this IS a genuine ACE inhibitor adverse effect, making it not the exception). ACE inhibitors are contraindicated in the 2nd and 3rd trimesters of pregnancy owing to teratogenic effects (fetal skull hypoplasia and death).
+
+## answer_d
+First dose hypotension
+
+## explanation_d
+Incorrect (this IS a genuine ACE inhibitor adverse effect, making it not the exception). ACE inhibitors can cause first-dose hypotension, particularly in volume-depleted patients, potentiated by diuretics.
+
+## topic
+Pharmacology
+
+## subtopic
+Antihypertensive pharmacology
+
+## main_concept
+CON-FND-F63798C7FE1A68
+
+## concept_ids
+CON-FND-F63798C7FE1A68
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Angiotensin-Converting Enzyme Inhibitors
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+State that ACE inhibitors cause hyperkalemia (not hypokalemia), alongside dry cough, teratogenic effects and first-dose hypotension.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.17
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("102.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q103
+
+## title
+Drug of choice for hypertension in toxemia of pregnancy
+
+## question
+Which of the following is the drug of choice in the treatment of hypertension in toxemia of pregnancy?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+captopril
+
+## explanation_a
+Incorrect. Captopril, an ACE inhibitor, is contraindicated in pregnancy along with the rest of the renin-angiotensin pathway drugs, owing to teratogenic effects (fetal skull hypoplasia, oligohydramnios, fetal death).
+
+## answer_b
+labetalol
+
+## explanation_b
+Correct. Labetalol is the drug of choice for hypertension in toxemia of pregnancy (pre-eclampsia/eclampsia) because it is a combined alpha- and beta-blocker with an additional vasodilating effect, giving effective blood pressure control without the teratogenic renin-angiotensin-pathway risk that captopril, losartan and other ACE inhibitors/ARBs carry. This same alpha/beta-blocking, vasodilating mechanism is what makes labetalol useful more broadly as an intravenous antihypertensive, but its safety in pregnancy specifically is what the question is testing.
+
+## answer_c
+frusemide
+
+## explanation_c
+Incorrect. Frusemide (furosemide), a loop diuretic, is not the drug of choice for hypertension in pregnancy; volume depletion from diuretics is generally avoided in pre-eclampsia management.
+
+## answer_d
+valsartan
+
+## explanation_d
+Incorrect. Valsartan, an angiotensin receptor blocker, is contraindicated in pregnancy for the same renin-angiotensin-pathway teratogenicity reason as ACE inhibitors.
+
+## topic
+Pharmacology
+
+## subtopic
+Antihypertensive pharmacology
+
+## main_concept
+CON-FND-949C21CE53E1F6
+
+## concept_ids
+CON-FND-949C21CE53E1F6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify labetalol as the drug of choice for hypertension in toxemia of pregnancy, given its combined alpha/beta-blocking, vasodilating mechanism and freedom from renin-angiotensin-pathway teratogenicity.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.17
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("103.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q104
+
+## title
+Direct arteriolar vasodilator causing lupus-like syndrome
+
+## question
+One of the following is direct arteriolar vasodilator that may produce lupus erythematosus-like syndrome as an adverse effect:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Sodium nitroprusside
+
+## explanation_a
+Incorrect. Sodium nitroprusside is a potent, non-selective nitric oxide donor dilating both arteries and veins, not the selective, direct arteriolar vasodilator this question describes, and it is not linked to a lupus-like syndrome -- its own characteristic toxicity is cyanide/thiocyanate poisoning.
+
+## answer_b
+Diazoxide
+
+## explanation_b
+Incorrect. Diazoxide opens ATP-sensitive potassium channels in arterioles and pancreatic beta cells (also causing hyperglycemia by inhibiting insulin release), but it is not associated with a lupus-like syndrome.
+
+## answer_c
+Minoxidil
+
+## explanation_c
+Incorrect. Minoxidil is a direct arteriolar vasodilator, but its characteristic, dose-limiting adverse effect is hypertrichosis (excessive hair growth), alongside profound reflex tachycardia and fluid retention -- not a lupus-like syndrome.
+
+## answer_d
+Hydralazine
+
+## explanation_d
+Correct. Hydralazine relaxes arteriolar smooth muscle directly (via nitric oxide pathways and potassium-channel opening), and it can cause drug-induced lupus erythematosus, presenting with arthralgias, myalgias, fever and a positive ANA -- a risk that is higher in slow acetylators and at high doses. This immune-mediated adverse effect is specific to hydralazine among the direct arteriolar vasodilators, which is exactly why it is the one this question is testing for, rather than minoxidil or diazoxide's own distinct adverse-effect profiles.
+
+## topic
+Pharmacology
+
+## subtopic
+Antihypertensive pharmacology
+
+## main_concept
+CON-FND-3FDC2F07EF7722
+
+## concept_ids
+CON-FND-3FDC2F07EF7722
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify hydralazine as the direct arteriolar vasodilator carrying a drug-induced lupus erythematosus risk, distinct from minoxidil's hypertrichosis and diazoxide's hyperglycemia.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("104.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q105
+
+## title
+Powerful mixed balanced vasodilator
+
+## question
+Which one of the following is a very powerful mixed balanced vasodilator?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Minoxidil
+
+## explanation_a
+Incorrect. Minoxidil is a predominantly arteriolar vasodilator, opening ATP-sensitive potassium channels, not a mixed arterial-and-venous ('balanced') vasodilator.
+
+## answer_b
+Diazoxide
+
+## explanation_b
+Incorrect. Diazoxide is a predominantly arteriolar vasodilator, historically used for hypertensive emergencies, not a balanced arterial-and-venous agent.
+
+## answer_c
+Hydralazine
+
+## explanation_c
+Incorrect. Hydralazine is a direct arteriolar vasodilator, not a balanced one -- it lacks significant venodilator activity.
+
+## answer_d
+Sodium nitroprusside
+
+## explanation_d
+Correct. Sodium nitroprusside is a potent, non-selective nitric oxide donor causing rapid dilation of both arteries and veins together. This genuinely balanced, mixed arterial-and-venous action has a rapid onset and short duration. That combination is why it is used intravenously for hypertensive emergencies (including hypertensive encephalopathy and aortic dissection, alongside beta-blockade) and for controlled hypotension during surgery, unlike the predominantly arteriolar agents minoxidil, diazoxide and hydralazine.
+
+## topic
+Pharmacology
+
+## subtopic
+Antihypertensive pharmacology
+
+## main_concept
+CON-FND-15A2E73C3956E2
+
+## concept_ids
+CON-FND-15A2E73C3956E2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify sodium nitroprusside as a mixed, balanced arterial-and-venous vasodilator, distinct from the predominantly arteriolar agents minoxidil, diazoxide and hydralazine.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("105.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q106
+
+## title
+Antihypertensive drug causing tachycardia
+
+## question
+Tachycardia is one of the adverse effects of which of the following antihypertensive drugs?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Verapamil
+
+## explanation_a
+Incorrect. Verapamil is a powerful cardiac depressant with a consistent negative chronotropic effect, slowing (not raising) heart rate.
+
+## answer_b
+Nadolol
+
+## explanation_b
+Incorrect. Nadolol, a non-selective beta-blocker, decreases heart rate by blocking beta1 receptors on the sinus node, the opposite direction from tachycardia.
+
+## answer_c
+Captopril
+
+## explanation_c
+Incorrect. Captopril, an ACE inhibitor, has no reflex-tachycardia tendency of this kind; its own adverse effects (cough, hyperkalemia, angioedema, teratogenicity) do not include tachycardia.
+
+## answer_d
+Nifedipine
+
+## explanation_d
+Correct. Nifedipine is a powerful arteriolar vasodilator that does not inhibit the SA or AV nodes (it is allowed even in heart block), so the hypotension its vasodilation produces triggers reflex sympathetic tachycardia -- named specifically alongside ankle edema as more prominent with nifedipine among the calcium-channel blockers' shared adverse-effect list. This reflex mechanism, unopposed by any direct cardiac-depressant action, is exactly why nifedipine (unlike verapamil) raises rather than lowers heart rate.
+
+## topic
+Pharmacology
+
+## subtopic
+Antihypertensive pharmacology
+
+## main_concept
+CON-FND-908C679AD1C458
+
+## concept_ids
+CON-FND-908C679AD1C458
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Calcium Channel Blockers
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify nifedipine's reflex tachycardia (from unopposed arteriolar vasodilation) as distinct from verapamil's and nadolol's direct heart-rate-lowering effects.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("106.D")
+reuse: Reuses CON-FND-908C679AD1C458 (minted for 2023eom-q99, tranche 3 batch 3) as main_concept -- same underlying nifedipine-adverse-effects fact (ankle edema and tachycardia both named on the same source page), not a new mint.
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q107
+
+## title
+ACE inhibitor safe in renal impairment via dual excretion
+
+## question
+Which of the following angiotensin converting enzyme inhibitors (ACEIS) could be used in a patient with renal impairment as it is excreted in bile only?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Lisinopril
+
+## explanation_a
+Incorrect. Lisinopril is excreted completely unchanged by the kidneys, making it a poor choice, not a preferred one, in a patient with renal impairment.
+
+## answer_b
+Fosinopril.
+
+## explanation_b
+Correct. Fosinopril is the ACE inhibitor with dual excretion, eliminated by both hepatic and renal routes, which is why its dosage does not require adjustment in patients with renal impairment -- when renal clearance falls, hepatic (biliary) excretion compensates. This dual-route elimination is the specific pharmacokinetic property the question is testing, distinguishing fosinopril from the renally-excreted ACE inhibitors (lisinopril, and largely enalapril and captopril).
+
+## answer_c
+Enalapril
+
+## explanation_c
+Incorrect. Enalapril (via its active metabolite enalaprilat) is predominantly renally excreted, unlike fosinopril's dual hepatic/renal route, so it is not the ACE inhibitor of choice in significant renal impairment.
+
+## answer_d
+Captopril
+
+## explanation_d
+Incorrect. Captopril is predominantly renally excreted, unlike fosinopril's dual hepatic/renal route, so it requires dose adjustment in renal impairment rather than being the renal-impairment-safe choice.
+
+## topic
+Pharmacology
+
+## subtopic
+Antihypertensive pharmacology
+
+## main_concept
+CON-FND-7BD3654C01769F
+
+## concept_ids
+CON-FND-7BD3654C01769F
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Angiotensin-Converting Enzyme Inhibitors
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify fosinopril's dual hepatic-and-renal excretion as the reason it needs no dose adjustment in renal impairment, unlike the predominantly renally-excreted ACE inhibitors.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("107.B")
