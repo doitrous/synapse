@@ -504,16 +504,11 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
-      // kasr-104-author-run45: Veins cluster, excluded. Total vascular
-      // cross-sectional area by vessel type (greatest at the capillary
-      // level, despite each individual capillary's own tiny bore) is a
-      // standard hemodynamics fact but is not stated by this leaf's own
-      // sourced concepts, which cover the flow/pressure/resistance
-      // relationship and the vascular tree's pressure/compliance
-      // distribution without this specific cross-sectional-area claim.
-      // This session has no PDF or cached page-text access to the
-      // department physiology book, so the claim cannot be verified
-      // against the source.
+      // kasr-104-author-run46: revisited. Run 45 excluded this for "no PDF
+      // or cached page-text access" — false; the department physiology book
+      // is cached (src_a11a7faed67c95e2d636, 160 pages) and was grepped
+      // directly this run for "cross-sectional"/"cross sectional": 0 hits
+      // across all 160 pages. The claim stays genuinely unsupported.
       key: 'greatest-total-cross-sectional-area-a-aorta-1242be79',
       conceptKey: 'vascular-tree.pressure-and-compliance-distribution',
       difficulty: 'Hard',
@@ -521,7 +516,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: "Total vascular cross-sectional area by vessel type (greatest at the capillary level despite each capillary's own tiny bore) is a standard hemodynamics fact but is not stated by this leaf's own sourced concepts, which cover the flow/pressure/resistance relationship and the vascular tree's pressure/compliance distribution without this specific cross-sectional-area claim. This session had no PDF or cached page-text access to the department physiology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source rather than asserted from outside knowledge. The row's own recovery method (fuzzy-token-overlap against a different exam book, options repaired from a 2-option extraction) is also this bank's lowest-confidence recovery tier.",
+      excludeReason: "Total vascular cross-sectional area by vessel type (greatest at the capillary level despite each capillary's own tiny bore) is a standard hemodynamics fact but is not stated by this leaf's own sourced concepts, which cover the flow/pressure/resistance relationship and the vascular tree's pressure/compliance distribution without this specific cross-sectional-area claim. Re-checked directly against the department physiology book (src_a11a7faed67c95e2d636, all 160 cached pages): 0 hits for \"cross-sectional\" or \"cross sectional\" anywhere in the book — the claim is absent from the module's own source, not merely unretrieved. The row's own recovery method (fuzzy-token-overlap against a different exam book, options repaired from a 2-option extraction) is also this bank's lowest-confidence recovery tier.",
     },
     {
       // Bank-tagged leaf: "Vascular Function"; genuinely this file's own
