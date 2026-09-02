@@ -59,7 +59,7 @@
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 19 questions, 5 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 30 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
     Pulmonary Compliance — 29 questions, 3 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  189 questions were excluded and 0 held back for having no
+  191 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -10817,12 +10817,14 @@ src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p40 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p39 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -11078,6 +11080,7 @@ About 98% of blood oxygen is carried bound to haemoglobin rather than dissolved,
 oxygen-transport.content-capacity-and-p50
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p19 | 104 CPS
 ## article_ids
 +ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
 ## field_notes

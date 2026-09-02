@@ -59,7 +59,7 @@
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 19 questions, 5 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 30 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
     Pulmonary Compliance — 29 questions, 3 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  189 questions were excluded and 0 held back for having no
+  191 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -59655,6 +59655,834 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p43 q136. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0710F9E5E0BC
+## title
+About 70% of the carbon dioxide is transported to the lungs: 1 ‏ا‎
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+About 70% of the carbon dioxide is transported to the lungs: 1 ‏ا‎
+## answer_a
+In the form of bicarbonate ions i
+## explanation_a
+Correct. About 42 of the 48 ml/100 ml of arterial blood's total CO2 — the clear majority, roughly 70% — travels as bicarbonate ions (HCO3-), formed inside red blood cells via carbonic anhydrase and exported to plasma by the chloride shift.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+In the form of carbonic acid ‏ا‎
+## explanation_b
+Carbonic acid (H2CO3) is only a fleeting intermediate in the reaction CO2 + H2O -> H2CO3 -> H+ + HCO3-, not a form CO2 is actually carried or stored as in any meaningful quantity.
+## answer_c
+In the form of carbaminohemoglobin :
+## explanation_c
+Carbaminohaemoglobin carries only about 3 of the 48 ml/100 ml of arterial blood's total CO2 — a small minority, not the majority form.
+## answer_d
+In chemical combination with albumin ‏ا‎
+## explanation_d
+Albumin is not a significant CO2-carrying protein; the haemoglobin inside red blood cells, not plasma albumin, forms the carbamino compounds that carry the (small) protein-bound share of CO2.
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the majority of transported CO2 travels as bicarbonate ions, not carbonic acid, carbaminohaemoglobin or bound to albumin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q101. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7132292A4652
+## title
+All about hemoglobin is (rue, except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All about hemoglobin is (rue, except:
+## answer_a
+A higher P50 than normal means that the O2 binds less tightly to Hb
+## explanation_a
+True of P50, so not the exception. A higher-than-normal P50 means haemoglobin requires a higher PO2 to reach 50% saturation, indicating weaker (less tight) O2 binding.
+## answer_b
+An increase in 2, 3-DPG shifts the 02 dissociation curve to the left
+## explanation_b
+The exception, and the answer. An increase in 2,3-DPG shifts the O2 dissociation curve to the RIGHT, not the left — 2,3-DPG binds deoxygenated Hb and lowers its O2 affinity, favouring O2 release, the same direction as a rise in temperature, PCO2 or a fall in pH.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## answer_c
+An increase in PCO) causes a right shift of the O dissociation curve,
+## explanation_c
+True, so not the exception. An increase in PCO2 causes a rightward shift of the O2 dissociation curve via the Bohr effect, lowering Hb's O2 affinity.
+## answer_d
+A decrease in pH increases P50
+## explanation_d
+True, so not the exception. A decrease in pH (more acidic conditions) increases P50, consistent with the same rightward-shifting Bohr effect.
+## correct_answer
+B
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that an increase in 2,3-DPG shifts the O2 dissociation curve to the right, not the left, identifying this as the false statement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p38 q99. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8D56E102DFC1
+## title
+During the release of carbon dioxide in the lungs:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+During the release of carbon dioxide in the lungs:
+## answer_a
+The binding of oxygen to haemoglobin displaces carbon dioxide from blood
+## explanation_a
+True, but incomplete alone. At the lungs, O2 binding to haemoglobin does displace CO2 (via the Haldane effect, since oxygenated Hb carries less CO2 than reduced Hb) — but this happens together with the other two listed changes, not instead of them.
+## answer_b
+The binding of oxygen to haemoglobin causes the release of hydrogen ions
+## explanation_b
+True, but incomplete alone. O2 binding to haemoglobin does release H+ from what was buffered on reduced Hb (oxyhaemoglobin is a poorer buffer) — but again, together with the other two listed changes, not alone.
+## answer_c
+Hydrogen ions combine with bicarbonate to form carbonic acid
+## explanation_c
+True, but incomplete alone. The released H+ does combine with bicarbonate to re-form carbonic acid, reversing the tissue-level reaction and regenerating CO2 for exhalation — but this is one part of a single coordinated sequence, not an isolated fact.
+## answer_d
+All of the above
+## explanation_d
+Correct. At the lungs, the whole tissue-level sequence reverses in one coordinated process: O2 binding to haemoglobin displaces CO2 and releases H+ from oxyhaemoglobin (a poorer buffer than reduced Hb), and that H+ combines with HCO3- to regenerate carbonic acid (and so CO2) for exhalation — all three listed changes are genuine, interconnected parts of this reversal, so the comprehensive option is correct.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## correct_answer
+D
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a comprehensive true statement
+## learning_objective
+State that O2 binding to Hb displaces CO2, releases H+ from oxyhaemoglobin, and lets that H+ combine with bicarbonate to regenerate carbonic acid, all together as the lungs reverse the chloride shift.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q106. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8256886CDA26
+## title
+How much oxygen is normally carried in the blood?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+How much oxygen is normally carried in the blood?
+## answer_a
+2 ml oxygen/100 ml blood
+## explanation_a
+2 ml oxygen/100 ml blood substantially understates the normal arterial oxygen content.
+## answer_b
+5 ml oxygen/100m! blood
+## explanation_b
+5 ml oxygen/100 ml blood substantially understates the normal arterial oxygen content.
+## answer_c
+10 ml oxygen/100mI blood
+## explanation_c
+10 ml oxygen/100 ml blood understates the normal arterial oxygen content, being roughly half the accepted normal value.
+## answer_d
+20 mi oxygen/100mI bload
+## explanation_d
+Correct. Normal arterial blood carries approximately 20 ml of oxygen per 100 ml of blood, combining the small amount dissolved directly in plasma (about 0.3 ml/100 ml) with the much larger amount bound to haemoglobin (about 19.5-20.1 ml/100 ml at a normal 15 g Hb/100 ml), which accounts for roughly 98% of the total.
+
+Why this is right:
+- P50 is the PO2 at which haemoglobin is 50% saturated with oxygen; the normal P50 for human blood is 27 mmHg.
+## correct_answer
+D
+## main_concept
+CON-RES-228D7C6B6FDE80
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that normal arterial blood carries approximately 20 ml of oxygen per 100 ml, combining dissolved and haemoglobin-bound O2.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p19 q28. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-DC691DD48694
+## title
+In the transport of CO2 from the tissues to the lungs, which of the following occurs in…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In the transport of CO2 from the tissues to the lungs, which of the following occurs in ‏ا‎ venous blood? ||
+## answer_a
+Conversion of CO2 and 1120 to H+ and HCO3- in the red blood cells (RBCs) /
+## explanation_a
+Correct. In venous blood, CO2 diffuses into red blood cells where carbonic anhydrase rapidly converts it (with water) into H+ and bicarbonate (HCO3-) — the first step of the tissue-level chloride-shift sequence.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+. Buffering of H+ by oxyhemoglobin /
+## explanation_b
+Deoxyhaemoglobin, not oxyhaemoglobin, is the better buffer for the H+ released by this reaction — venous blood is largely deoxygenated, so oxyhaemoglobin is not the buffer actually doing this work.
+## answer_c
+Shifting of HCO3~ into the RBCs from plasma in exchange for Cl- /
+## explanation_c
+Bicarbonate moves OUT of the red blood cell into plasma (in exchange for chloride moving IN), the reverse direction from what this option states — the chloride shift exports newly formed HCO3-, it does not import it.
+## answer_d
+Alkalinization of the RBCs
+## explanation_d
+The red blood cell becomes very slightly more acidic, not alkaline, at the tissue level, since some of the H+ released escapes buffering by deoxyhaemoglobin and lowers pH slightly (about 7.4 to 7.37 in venous blood).
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that venous blood carries the conversion of CO2 and water to H+ and bicarbonate inside red blood cells, as opposed to buffering by oxyhaemoglobin, HCO3- entering (rather than leaving) the RBC, or RBC alkalinisation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q103. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AE4747899777
+## title
+pH of venous blood is only slightly more acidic than pH of arterial blood because:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+pH of venous blood is only slightly more acidic than pH of arterial blood because:
+## answer_a
+there is no carbonic anhydrase in venous blood
+## explanation_a
+Carbonic anhydrase is present within red blood cells in both arterial and venous blood; its presence does not differ between the two, so this cannot explain the small pH difference.
+## answer_b
+the H+ generated from CO2 and 1120 is buffered by HCO3 in venous blood
+## explanation_b
+Bicarbonate buffering does play some role, but it is not the specific, classically emphasised mechanism for this minimal pH change — that role belongs to deoxyhaemoglobin's buffering, timed exactly with tissue-level CO2 uptake.
+## answer_c
+the H+ generated from 002 and H20 is buffered by deoxyhemoglobin in venous blood
+## explanation_c
+Correct. As blood becomes venous, haemoglobin releases its bound O2 and becomes deoxyhaemoglobin, a substantially better buffer for H+ than oxyhaemoglobin — precisely timed with the moment CO2 (converted to H+ and bicarbonate) is being picked up from the tissues, so venous blood absorbs a large amount of H+ with only a minimal drop in pH.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_d
+oxyhemoglobin is a better buffer for H+ than is deoxyhemoglobin
+## explanation_d
+This reverses the correct relationship: deoxyhaemoglobin, not oxyhaemoglobin, is the better buffer for hydrogen ions.
+## correct_answer
+C
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that deoxyhaemoglobin's superior buffering of H+, timed with tissue-level CO2 uptake, is why venous blood pH falls only slightly.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q104. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-357B7966285F
+## title
+The oxygen-hemoglobin dissociation curve will shift to the right with:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The oxygen-hemoglobin dissociation curve will shift to the right with:
+## answer_a
+Acute alkalosis
+## explanation_a
+Acute alkalosis (a rise in pH) shifts the curve to the LEFT, not the right, raising Hb's O2 affinity — the opposite of what this option claims.
+## answer_b
+Decrease in Pco2
+## explanation_b
+A decrease in PCO2 shifts the curve to the LEFT, not the right, since falling CO2 (like falling H+) raises rather than lowers Hb's O2 affinity.
+## answer_c
+Decrease in temperature 0
+## explanation_c
+A decrease in temperature shifts the curve to the LEFT, not the right, raising Hb's O2 affinity — the opposite of what this option claims.
+## answer_d
+Exercise
+## explanation_d
+Correct. Exercise raises PCO2, H+ (falling pH), temperature and 2,3-DPG together in active muscle, all four of which shift the O2-Hb dissociation curve to the right, lowering Hb's O2 affinity and favouring O2 release exactly where the exercising tissue needs it.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## correct_answer
+D
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify exercise as the condition that shifts the O2-Hb dissociation curve to the right, as opposed to alkalosis, a fall in PCO2 or a fall in temperature.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p40 q112. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-8EE4092D1EEB
+## title
+The oxyhemoglobin dissociation curve:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The oxyhemoglobin dissociation curve:
+## answer_a
+Is rectangular hyperpola in shape
+## explanation_a
+The oxyhaemoglobin dissociation curve is sigmoid (S-shaped), not a rectangular hyperbola, reflecting haemoglobin's cooperative O2 binding across its four subunits — a rectangular hyperbola instead describes myoglobin's single-subunit binding curve.
+## answer_b
+Is shifted to the left by acidosis
+## explanation_b
+Acidosis shifts the curve to the RIGHT, via the Bohr effect, decreasing O2 affinity — not to the left as this option claims.
+## answer_c
+Shows higher affinity of hemoglobin at the exercising tissue
+## explanation_c
+Haemoglobin's O2 affinity DECREASES, not increases, at exercising tissue — the raised CO2, H+, temperature and 2,3-DPG there all shift the curve right, facilitating O2 release exactly where increased metabolic demand needs it.
+## answer_d
+The normal P50 for human is 27mmHg
+## explanation_d
+Correct. The normal P50 for human haemoglobin — the PO2 at which it is 50% saturated — is a well-established standard reference value of approximately 27 mmHg under normal physiological conditions.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## correct_answer
+D
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the normal P50 for human haemoglobin is approximately 27 mmHg, as opposed to false claims about the curve's shape, acidosis shifting it left, or higher affinity at exercising tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p12 q85. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-CF9CC8245315
+## title
+Which statement about hemoglobin is Incorrect?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which statement about hemoglobin is Incorrect?
+## answer_a
+A higher P50 than normal means that the O; binds less tightly to Hb
+## explanation_a
+True of P50, so not the answer. A higher-than-normal P50 does indicate that O2 binds less tightly to haemoglobin (a rightward-shifted curve with lower affinity).
+## answer_b
+An increase in 2, 3-DPG shifts the 02 dissociation curve 6 the left
+## explanation_b
+Correct — the incorrect statement, and the answer. An increase in 2,3-DPG decreases haemoglobin's affinity for O2, shifting the dissociation curve to the RIGHT (facilitating O2 unloading to tissues), not to the left as this option claims.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## answer_c
+An increase in PCO; causes a right shift of the Oz dissociation curve
+## explanation_c
+True, so not the answer. An increase in PCO2 does cause a rightward shift of the curve via the Bohr effect, decreasing O2 affinity.
+## answer_d
+A decrease in pH increases P50
+## explanation_d
+True, so not the answer. A decrease in pH (increased acidity) does increase P50, consistent with the same rightward-shifting Bohr effect.
+## correct_answer
+B
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that an increase in 2,3-DPG shifts the O2 dissociation curve to the right, not the left, identifying this as the incorrect statement — the same fact tested from a second, independent source occurrence.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q55. Manifest src_d3160d222c8c55775511.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

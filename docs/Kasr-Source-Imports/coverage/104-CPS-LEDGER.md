@@ -4,20 +4,19 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 856 | excluded: 189 | remaining: 107
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 865 | excluded: 191 | remaining: 96
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 856
+- authored (by key, this ledger): 865
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 856
+- authored minus held-back = build-style "kept": 865
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
 | Basic Mechanisms of Circulatory Control | 36 | 13 | 6 | 17 |
-| Gas Transport by the Blood | 35 | 23 | 1 | 11 |
 | Control of Respiration | 25 | 9 | 6 | 10 |
 | Mechanical Properties of Cardiac Muscle | 42 | 26 | 8 | 8 |
 | A-V Connections | 54 | 40 | 7 | 7 |
@@ -40,6 +39,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Chromosomal Aberrations (Abnormalities) | 22 | 21 | 1 | 0 |
 | Electrical Activity of the Heart | 82 | 57 | 25 | 0 |
 | Gas exchange in the lung | 21 | 18 | 3 | 0 |
+| Gas Transport by the Blood | 35 | 32 | 3 | 0 |
 | Human Chromosome | 48 | 43 | 4 | 0 |
 | Lung Volumes and Capacities | 9 | 6 | 3 | 0 |
 | Lungs — Gross Anatomy | 21 | 16 | 5 | 0 |
@@ -74,20 +74,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `systemic-arteriolar-constriction-may-result-from-an-increase-fdd3c641` — Systemic arteriolar constriction may result from an increase in local concentrat…
 - `the-following-are-true-regarding-no-except-870b8ec2` — The following are true, regarding NO, except
 - `which-of-the-following-is-not-a-vasodilator-metabolite-8da91769` — Which of the following is not a vasodilator metabolite?
-
-### Gas Transport by the Blood (11)
-
-- `about-70-of-the-carbon-dioxide-is-transported-to-the-lungs-1-5ecaaa90` — About 70% of the carbon dioxide is transported to the lungs: 1 ‏ا‎
-- `all-about-hemoglobin-is-rue-except-d59e6077` — All about hemoglobin is (rue, except:
-- `during-the-release-of-carbon-dioxide-in-the-lungs-ba73316c` — During the release of carbon dioxide in the lungs:
-- `how-much-oxygen-is-normally-carried-in-the-blood-a1f343e8` — How much oxygen is normally carried in the blood?
-- `in-the-transport-of-co2-from-the-tissues-to-the-lungs-which-b9c9fd6b` — In the transport of CO2 from the tissues to the lungs, which of the following oc…
-- `ph-of-venous-blood-is-only-slightly-more-acidic-than-ph-of-a-93c10913` — pH of venous blood is only slightly more acidic than pH of arterial blood becaus…
-- `select-the-correct-statement-about-o-transport-in-the-blood-c34350a2` — Select the correct statement about O, transport in the blood: 12 0 ‏خ146ا1ا1ا[| …
-- `the-largest-amount-of-co-is-transported-by-the-blood-as-691eba1c` — The largest amount of CO; is transported by the blood as:
-- `the-oxygen-hemoglobin-dissociation-curve-will-shift-to-the-r-6cda5909` — The oxygen-hemoglobin dissociation curve will shift to the right with:
-- `the-oxyhemoglobin-dissociation-curve-fa89718b` — The oxyhemoglobin dissociation curve:
-- `which-statement-about-hemoglobin-is-incorrect-e6822bc0` — Which statement about hemoglobin is Incorrect?
 
 ### Control of Respiration (10)
 
