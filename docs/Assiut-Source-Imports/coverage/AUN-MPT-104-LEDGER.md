@@ -49,7 +49,7 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 266 | 11 | 164 | 441 |
+| quizzes-2022 | 271 | 12 | 158 | 441 |
 
 ## Held
 - quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
@@ -62,6 +62,7 @@
 - quizzes-2022-q275 — True/False-formatted question (Quiz 33 Q18, p134: 'Pale infarct occurs in highly vascular organs' -- printed answer 'False'). Held as format-incompatible, same reasoning as q273. The underlying fact (pale infarcts occur in single-blood-supply solid organs, not highly vascular/dual-supply ones) is already covered by this same lecture's authored Q5 (q262, red infarct in the dual-supply lung) and Q9 (q266, pale infarct in the single-supply kidney/heart) -- not a coverage gap.
 - quizzes-2022-q276 — True/False-formatted question (Quiz 33 Q19, p134: 'Embolism means circulation of an embolus in a blood vessel.' -- printed answer 'False', since the standard definition of embolism requires the embolus to lodge/obstruct at a distant site, not merely circulate). Held as format-incompatible, same reasoning as q273. This is a genuinely new idea not duplicated elsewhere in this lane's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong definitions the source never tested -- not resolvable without fabricating content.
 - quizzes-2022-q277 — True/False-formatted question (Quiz 33 Q20, p134: 'Septic thrombophlebitis plays an important role in the pathogenesis of pyaemic abscesses' -- printed answer 'True'). Held as format-incompatible, same reasoning as q273. This is a genuinely new idea not duplicated elsewhere in this lane's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong mechanisms the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q278 — Printed key names Meclizine as the indicated allergy drug for a 43-year-old ship's captain with seasonal allergies (Quiz 34 Q1: 'Which one of the following would be indicated? ... The correct answer is: Miclizine' [Meclizine]). This is a printed-key/pharmacology conflict: meclizine is a first-generation, sedating antihistamine primarily indicated for motion sickness/vertigo, not first-line for seasonal allergic rhinitis, and its sedating property is specifically unsuited to a ship's captain, who must remain alert while operating a vessel -- the same reasoning that makes a sedating antihistamine a poor choice for a driver (Q19, Q25 in this lane's earlier clusters; and this same Quiz 34's own Q6/q283, which correctly identifies a sedating first-generation antihistamine, diphenhydramine, as the one that impairs a driver's ability). The obviously intended answer given the stem's own logic is Fexofenadine (option D), a non-sedating second-generation antihistamine, but the printed key does not mark it. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47, Q166, Q204, Q224, Q238, Q7/q251 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
@@ -110,12 +111,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q278
-- quizzes-2022-q279
-- quizzes-2022-q280
-- quizzes-2022-q281
-- quizzes-2022-q282
-- quizzes-2022-q283
 - quizzes-2022-q284
 - quizzes-2022-q285
 - quizzes-2022-q286

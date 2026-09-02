@@ -3062,3 +3062,163 @@ Block: body
 ### definition_of · CON-FND-E6A4425324881A
 Quote: Among embolus types, detached thrombi (thromboembolism) are the most frequent overall, ahead of fat embolism
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## title
+Autacoids 1: serotonin, histamine and drug interactions in nausea and allergy management
+
+## arabic_title
+الأوتاكويدات 1: السيروتونين والهيستامين وتفاعلات الأدوية في علاج الغثيان والحساسية
+
+## aliases
+Autacoids 1
+Lecture 34
+Serotonin and histamine pharmacology
+
+## subject
+fnd
+
+## topic
+Autacoids 1
+
+## subtopic
+Serotonin/histamine receptors, CYP450 interaction, antihistamine sedation
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 34 opens the autacoids block with serotonin and histamine pharmacology and a classic drug-interaction case. A 5HT2 receptor blocker counteracts the bronchoconstriction and diarrhea of carcinoid syndrome, distinct from other serotonin-pathway drugs (buspirone for anxiety, sumatriptan for migraine, ondansetron as a 5HT3-blocking antiemetic). Cimetidine, a CYP450 inhibitor, raises phenytoin's half-life when co-administered, a classic drug interaction. Ondansetron, a 5HT3 antagonist, is the drug of choice for cisplatin-induced chemotherapy nausea, while ranitidine, an H2 blocker, reduces acid secretion by blocking histamine at parietal-cell H2 receptors. Finally, diphenhydramine's first-generation sedation, unlike a second-generation antihistamine, can significantly impair a driver's ability to drive.
+
+## sections
+### Definition
+Carcinoid tumours secrete excess serotonin, producing bronchoconstriction and diarrhea through serotonin's action at 5HT2 receptors; a 5HT2 receptor blocker counteracts these specific symptoms by antagonising serotonin at that receptor. Cimetidine is a cytochrome P450 (CYP450) enzyme inhibitor: in a patient taking phenytoin, an anticonvulsant metabolised by CYP450, co-administered cimetidine inhibits that metabolism, so phenytoin's half-life increases and clearance slows.
+
+### Mechanism
+Ondansetron is a selective 5HT3 receptor antagonist and the preferred drug for severe nausea from highly emetogenic chemotherapy such as cisplatin, which triggers nausea largely through serotonin acting on 5HT3 receptors in the gut and chemoreceptor trigger zone. Ranitidine, a histamine H2-receptor antagonist, works by blocking histamine binding to H2 receptors on gastric parietal cells, reducing histamine-driven acid secretion -- one step upstream of a proton pump inhibitor, which instead blocks the H+/K+-ATPase pump directly. Diphenhydramine, a first-generation antihistamine, readily crosses the blood-brain barrier and produces significant CNS sedation, unlike a second-generation antihistamine such as loratadine or fexofenadine, which are designed to minimise CNS penetration.
+
+### Key determinants
+Among four serotonin-pathway statements, only "5HT2 receptor blockers counteract bronchoconstriction and diarrhea of carcinoid" is accurate -- buspirone is a 5HT1A partial agonist for anxiety (not psychosis, not 5HT2a), sumatriptan is a 5HT1 agonist for migraine (not an antiemetic), and ondansetron is a 5HT3 antagonist used as an antiemetic (not for migraine). A patient on phenytoin who starts cimetidine for a GI ulcer is expected to show an increased phenytoin half-life, not a decreased one. A cisplatin chemotherapy patient with severe nausea should receive ondansetron, targeting the serotonin-mediated mechanism specifically, over a general antihistamine or anticholinergic antiemetic. A long-distance truck driver with allergic rhinitis is at risk of significant driving impairment specifically from diphenhydramine, not from a second-generation antihistamine such as loratadine or fexofenadine.
+
+### Clinical significance
+Recognising a 5HT2 blocker's specific role in carcinoid syndrome, distinct from other serotonin-receptor drugs with entirely different indications, avoids reaching for the wrong serotonergic agent. Anticipating cimetidine's CYP-inhibitor interaction with phenytoin (and other CYP450-metabolised drugs) prompts dose adjustment or choosing a non-interacting alternative (e.g. an H2 blocker without this property, or a proton pump inhibitor) in a patient on multiple relevant medications. Choosing ondansetron specifically for highly emetogenic chemotherapy, and an H2 blocker or proton pump inhibitor appropriately for acid-related disease, reflects matching mechanism to indication. Choosing a second-generation antihistamine over diphenhydramine for a patient who must remain alert (a driver, a machine operator) avoids a preventable sedation-related accident.
+
+### Common misconceptions
+Attributing carcinoid syndrome's bronchoconstriction/diarrhea relief, migraine treatment, or antiemesis to the wrong serotonin-receptor subtype or drug. Assuming cimetidine's phenytoin interaction lowers rather than raises phenytoin's half-life. Choosing a non-5HT3-targeted antiemetic for highly emetogenic chemotherapy instead of ondansetron. Confusing an H2 blocker's histamine-receptor mechanism with a proton pump inhibitor's direct pump-blocking mechanism. Assuming all antihistamines are equally sedating, rather than distinguishing first-generation (diphenhydramine, sedating) from second-generation (loratadine, fexofenadine, non-sedating) agents -- the same distinction that makes the Q1 (q278) hold a genuine printed-key conflict, since this lecture's own Q6 confirms diphenhydramine, not a second-generation agent, is the one that impairs driving.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+A 5HT2 receptor blocker counteracts carcinoid syndrome's bronchoconstriction and diarrhea.
+Cimetidine, a CYP450 inhibitor, raises phenytoin's half-life when co-administered.
+Ondansetron (5HT3 antagonist) is the drug of choice for cisplatin-induced nausea.
+Ranitidine (H2 antagonist) blocks histamine binding to parietal-cell H2 receptors.
+Diphenhydramine, a first-generation sedating antihistamine, can significantly impair a driver's ability to drive; second-generation agents (loratadine, fexofenadine) do not share this sedation.
+
+## lose_the_mark
+Attributing carcinoid relief to a serotonin-receptor drug/subtype other than a 5HT2 blocker.
+Reversing cimetidine's phenytoin interaction (claiming it lowers rather than raises phenytoin's half-life).
+Choosing a non-5HT3-targeted antiemetic for cisplatin-induced nausea instead of ondansetron.
+Confusing H2-receptor blockade with direct H+/K+-ATPase inhibition for ranitidine's mechanism.
+Naming a second-generation antihistamine, instead of diphenhydramine, as the one that significantly impairs driving ability.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-39051880D8AFFB
+CON-FND-EB9C944D139E7A
+CON-FND-7BC222629BD73F
+CON-FND-D97F86DAF65FA2
+CON-FND-F0A43C29DC304E
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 34 (Autacoids 1) -- no department slide deck exists in the corpus past Lecture 8, so all five mints cite the quiz bank's own printed-answer text instead. Q1 (a ship's captain with seasonal allergies, printed key "Meclizine") is held: meclizine is a first-generation, sedating antihistamine primarily used for motion sickness/vertigo, an inappropriate and inconsistent choice for a patient (a ship's captain operating a vessel) who needs to remain alert -- this same lecture's own Q6 confirms a sedating first-generation antihistamine (diphenhydramine) is exactly what would impair, not suit, such a patient, and the obviously intended answer (fexofenadine, a non-sedating second-generation agent, option D) is not what the key marks. A printed-key/pharmacology conflict, held per the standing rule.
+
+## annotations
+### definition_of · CON-FND-39051880D8AFFB
+Quote: Carcinoid tumours secrete excess serotonin, producing bronchoconstriction and diarrhea through serotonin's action at 5HT2 receptors; a 5HT2 receptor blocker counteracts these specific symptoms by antagonising serotonin at that receptor
+Block: body
+
+### definition_of · CON-FND-EB9C944D139E7A
+Quote: Cimetidine is a cytochrome P450 (CYP450) enzyme inhibitor: in a patient taking phenytoin, an anticonvulsant metabolised by CYP450, co-administered cimetidine inhibits that metabolism, so phenytoin's half-life increases and clearance slows
+Block: body
+
+### definition_of · CON-FND-7BC222629BD73F
+Quote: Ondansetron is a selective 5HT3 receptor antagonist and the preferred drug for severe nausea from highly emetogenic chemotherapy such as cisplatin, which triggers nausea largely through serotonin acting on 5HT3 receptors in the gut and chemoreceptor trigger zone
+Block: body
+
+### definition_of · CON-FND-D97F86DAF65FA2
+Quote: Ranitidine, a histamine H2-receptor antagonist, works by blocking histamine binding to H2 receptors on gastric parietal cells, reducing histamine-driven acid secretion
+Block: body
+
+### definition_of · CON-FND-F0A43C29DC304E
+Quote: Diphenhydramine, a first-generation antihistamine, readily crosses the blood-brain barrier and produces significant CNS sedation, unlike a second-generation antihistamine such as loratadine or fexofenadine, which are designed to minimise CNS penetration
+Block: body

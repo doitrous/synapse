@@ -14049,3 +14049,733 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "detached thrombi most frequent embolism" -- 0 hits, new concept.
 relationships: completes the lecture's embolism-type triad with CON-FND-D8BF76229CC959 (fat embolism) and CON-FND-2048DC4715C0DE (air embolism), distinguishing overall frequency from the specific-origin facts of the other two.
+
+---
+
+# Item
+
+## id
+CON-FND-39051880D8AFFB
+
+## label
+5HT2 receptor blockers counteract the bronchoconstriction and diarrhea of carcinoid syndrome
+
+## canonical_key
+teaching.pharmacology.serotonin.5ht2-blockade-carcinoid
+
+## aliases
+Carcinoid syndrome pharmacology
+Serotonin receptor antagonism in carcinoid
+
+## arabic_label
+حاصرات مستقبلات السيروتونين 5HT2 والمتلازمة السرطاوية
+
+## arabic_aliases
+علاج أعراض المتلازمة السرطاوية بحصار 5HT2
+
+## definition
+Carcinoid tumours secrete excess serotonin (5-HT), producing bronchoconstriction and diarrhea through serotonin's action at 5HT2 receptors. A 5HT2 receptor blocker (such as ketanserin) counteracts these specific symptoms by antagonising serotonin at that receptor, distinguishing this drug class from other serotonin-pathway agents such as buspirone (a 5HT1A partial agonist used for anxiety), sumatriptan (a 5HT1 agonist for migraine) and ondansetron (a 5HT3 antagonist used as an antiemetic, not for migraine).
+
+## explicit_objective
+State that a 5HT2 receptor blocker counteracts carcinoid syndrome's bronchoconstriction and diarrhea, distinguishing this correct statement from incorrect claims about buspirone, sumatriptan and ondansetron's serotonin-receptor actions.
+
+## pitfalls
+Confusing 5HT2 blockade's carcinoid application with unrelated serotonin-receptor drugs and their actual uses: buspirone is a 5HT1A partial agonist for anxiety (not psychosis, not 5HT2a), sumatriptan is a 5HT1 agonist for migraine (not an antiemetic, not a 5HT3 blocker), and ondansetron is a 5HT3 antagonist used as an antiemetic (not for migraine, and it blocks rather than activates 5HT3).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 1
+
+## subtopic
+Serotonin receptor pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which one of the following statements regarding drug effects on serotonin receptor systems is accurate? ... 5HT2 receptor blockers counteract bronchoconstriction and diarrhea of carcinoid." (Quiz 34 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 34 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "5HT2 receptor blocker carcinoid bronchoconstriction diarrhea" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone autacoid/serotonin-pharmacology concept, opening the lecture's autacoids topic.
+
+---
+
+# Item
+
+## id
+CON-FND-EB9C944D139E7A
+
+## label
+Cimetidine inhibits phenytoin metabolism, raising phenytoin's half-life
+
+## canonical_key
+teaching.pharmacology.cimetidine.cyp-inhibition-raises-phenytoin-half-life
+
+## aliases
+Cimetidine drug interaction
+CYP450 inhibition and phenytoin
+
+## arabic_label
+سيميتيدين وتفاعله الدوائي مع الفينيتوين
+
+## arabic_aliases
+تثبيط إنزيمات الكبد وزيادة نصف عمر الفينيتوين
+
+## definition
+Cimetidine is a cytochrome P450 (CYP450) enzyme inhibitor. In a patient taking phenytoin, an anticonvulsant metabolised by CYP450, co-administered cimetidine inhibits that metabolism, so phenytoin is cleared more slowly and its half-life increases -- raising the risk of phenytoin toxicity if the dose is not adjusted. This CYP-inhibitor property is the same mechanism by which cimetidine interacts with other CYP450-metabolised drugs.
+
+## explicit_objective
+State that cimetidine, as a CYP450 inhibitor, increases phenytoin's half-life when the two drugs are co-administered, raising phenytoin toxicity risk.
+
+## pitfalls
+Confusing cimetidine's CYP-inhibitor action (raising, not lowering, another drug's half-life and increasing toxicity risk) with a CYP-inducer's opposite effect -- cimetidine specifically slows, not speeds, phenytoin's clearance.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 1
+
+## subtopic
+Drug interactions via CYP450
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The widely used anticonvulsant phenytoin is often implicated in drug interactions. If phenytoin is used by a patient taking cimetidine for a GI ulcer, which one of the following is likely to occur? ... increase half-life of phenytoin" (Quiz 34 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 34 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "phenytoin cimetidine CYP inhibitor half life" -- 0 hits, new concept.
+relationships: related in theme (cimetidine's CYP-inhibitor property) to the final-2022 triage's unauthored Q3 (cimetidine and oral-contraceptive effectiveness), a different specific drug interaction sharing the same underlying CYP-inhibition mechanism -- not the same concept, linked only by mechanism, not merged.
+
+---
+
+# Item
+
+## id
+CON-FND-7BC222629BD73F
+
+## label
+Ondansetron is the drug of choice for cisplatin-induced chemotherapy nausea
+
+## canonical_key
+teaching.pharmacology.ondansetron.cisplatin-induced-nausea
+
+## aliases
+5HT3 antagonist antiemetic
+Chemotherapy-induced nausea treatment
+
+## arabic_label
+أوندانسيترون لعلاج الغثيان الناتج عن العلاج الكيميائي بالسيسبلاتين
+
+## arabic_aliases
+مضاد مستقبلات 5HT3 لعلاج غثيان العلاج الكيميائي
+
+## definition
+Ondansetron is a selective 5HT3 (serotonin) receptor antagonist, and is the preferred drug for severe nausea associated with highly emetogenic chemotherapy such as cisplatin. Cisplatin triggers nausea largely through serotonin release acting on 5HT3 receptors in the gut and chemoreceptor trigger zone, so blocking this receptor with ondansetron is the targeted, standard approach, distinguishing it from other antiemetic or antihistamine agents used for different types of nausea.
+
+## explicit_objective
+State that ondansetron, a 5HT3 receptor antagonist, is the preferred drug for cisplatin-induced (chemotherapy) nausea.
+
+## pitfalls
+Choosing a general antihistamine or anticholinergic antiemetic (e.g. cimetidine, scopolamine, cyclizine) for cisplatin-induced nausea instead of a 5HT3-receptor-targeted agent like ondansetron, which is specifically effective against the serotonin-mediated mechanism of highly emetogenic chemotherapy.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 1
+
+## subtopic
+5HT3 antagonist antiemetics
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.55
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient undergoing chemotherapy with cisplatin has severe nausea. Which of the following would be the drug to use in this patient? ... Ondansetron" (Quiz 34 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 34 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ondansetron cisplatin chemotherapy nausea" -- 0 hits, new concept.
+relationships: tests the same underlying fact as the still-unauthored final-2022 triage row "Q24 ondansetron for chemotherapy-induced nausea" (see coverage/AUN-MPT-104-triage.md, Remaining list) -- future authoring of that final-exam row should reuse this concept id rather than re-mint, since both test the identical ondansetron/cisplatin fact.
+
+---
+
+# Item
+
+## id
+CON-FND-D97F86DAF65FA2
+
+## label
+Ranitidine blocks histamine binding to parietal-cell H2 receptors
+
+## canonical_key
+teaching.pharmacology.ranitidine.h2-receptor-blockade-parietal-cells
+
+## aliases
+H2 receptor antagonist mechanism
+Ranitidine mechanism
+
+## arabic_label
+رانيتيدين وحصار مستقبلات H2 في الخلايا الجدارية
+
+## arabic_aliases
+آلية عمل رانيتيدين كحاصر H2
+
+## definition
+Ranitidine is a histamine H2-receptor antagonist. It works by blocking histamine binding to H2 receptors on gastric parietal cells, which reduces the histamine-driven stimulation of acid secretion. This mechanism -- blocking histamine's own receptor, not gastrin binding, prostaglandin receptors, or the H+/K+-ATPase pump directly -- is what distinguishes an H2 blocker like ranitidine from a proton pump inhibitor, which acts on the H+/K+-ATPase itself.
+
+## explicit_objective
+State that ranitidine reduces gastric acid secretion by blocking histamine binding to H2 receptors on parietal cells, distinguishing this mechanism from gastrin-receptor blockade, prostaglandin-receptor blockade, or direct H+/K+-ATPase inhibition.
+
+## pitfalls
+Confusing an H2-receptor antagonist's mechanism (blocking histamine at its receptor) with a proton pump inhibitor's mechanism (blocking the H+/K+-ATPase pump directly) -- ranitidine acts one step upstream of the pump, at the histamine receptor.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 1
+
+## subtopic
+H2 receptor antagonists
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Ranitidine inhibits which of the following: ... Histamine binding to parietal cells" (Quiz 34 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 34 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ranitidine H2 histamine parietal cell" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone autacoid/histamine-pharmacology mechanism concept.
+
+---
+
+# Item
+
+## id
+CON-FND-F0A43C29DC304E
+
+## label
+Diphenhydramine, a sedating antihistamine, can significantly impair a driver's ability to drive
+
+## canonical_key
+teaching.pharmacology.diphenhydramine.sedation-impairs-driving
+
+## aliases
+First-generation antihistamine sedation
+Sedating antihistamine and driving
+
+## arabic_label
+ديفينهيدرامين وتأثيره المهدئ على القيادة
+
+## arabic_aliases
+مضادات الهيستامين المسببة للنعاس وتأثيرها على القيادة
+
+## definition
+Diphenhydramine is a first-generation antihistamine that readily crosses the blood-brain barrier and produces significant CNS sedation, unlike a second-generation antihistamine such as loratadine or fexofenadine. In a patient who needs to remain alert -- such as a long-distance truck driver with allergic rhinitis -- diphenhydramine is the drug among typical options that could significantly impair the ability to drive, due to this sedating property.
+
+## explicit_objective
+Identify diphenhydramine, among antihistamine and other options, as the drug that could significantly impair a driver's ability to drive, due to its first-generation, sedating profile.
+
+## pitfalls
+Assuming all antihistamines are equally sedating -- second-generation agents (loratadine, fexofenadine) are specifically designed to minimise CNS penetration and sedation, unlike first-generation diphenhydramine.
+
+## concept_type
+clinical_application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Autacoids 1
+
+## subtopic
+Antihistamine sedation profile
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-AUTACOIDS-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"You see a 43-year-old man long-distance truck driver in the clinic who complains of serious allergic rhinitis. Which one of the following drugs could signiﬁcantly impair his ability to drive? ... Diphenhydramine." (Quiz 34 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 34 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "sedating antihistamine impairs driving" -- 0 hits, new concept.
+relationships: this quiz's own correctly-keyed answer (diphenhydramine impairs driving) is the direct pharmacology-fact evidence behind the Q1 (q278) hold, where the printed key wrongly names a sedating antihistamine (meclizine) as appropriate for a patient needing to stay alert.
