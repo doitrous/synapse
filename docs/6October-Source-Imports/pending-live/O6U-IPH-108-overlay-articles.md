@@ -58,6 +58,242 @@ arabicTitle: No verification pass run this session; the source record (108-INT-p
 
 ---
 
+<!--
+  Lane 2 (o6u-iph108-author2, cluster "pharmabank") additions below -- siblings
+  of the ten CONCEPT overlay rows in overlay-concepts.md. Apply each block
+  ONLY after its own named source article file is live.
+
+  Source files:
+    E. docs/Kasr-Source-Imports/article/208-INT-articles.md -- university kau, module 208 INT (Year 2)
+    F. docs/Assiut-Source-Imports/article/AUN-MPT-104-articles.md -- university aun, module AUN-MPT-104 (Year 1)
+    G. docs/Mansoura-Source-Imports/article/MANS-PPPM-articles.md -- university mans, module MANS-PPPM (Year 1)
+
+  Simulate together with each source file separately:
+  npm run medical:simulate -- docs/6October-Source-Imports/pending-live/O6U-IPH-108-overlay-articles.md \
+    --with docs/Kasr-Source-Imports/article/208-INT-articles.md \
+    --emit /tmp/sim-O6U-IPH-108-pending-articles-208int.json
+  npm run medical:simulate -- docs/6October-Source-Imports/pending-live/O6U-IPH-108-overlay-articles.md \
+    --with docs/Assiut-Source-Imports/article/AUN-MPT-104-articles.md \
+    --emit /tmp/sim-O6U-IPH-108-pending-articles-aunmpt104.json
+  npm run medical:simulate -- docs/6October-Source-Imports/pending-live/O6U-IPH-108-overlay-articles.md \
+    --with docs/Mansoura-Source-Imports/article/MANS-PPPM-articles.md \
+    --emit /tmp/sim-O6U-IPH-108-pending-articles-manspppm.json
+-->
+
+# Item
+
+## id
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+
+## title
+Cholinergic and antimuscarinic pharmacology: agonists, anticholinesterases, atropine, organophosphorus poisoning and neuromuscular blocker reversal
+
+## subject
+pharm
+
+## topic
+Autonomic Pharmacology
+
+## summary
+M2 muscarinic receptors are Gi-coupled and located in the heart, where their stimulation decreases intracellular cAMP and slows heart rate.
+
+## sections
+
+## universities
++o6u
+
+## years
++O6U_Y1
+
+## module
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Muscarinic Receptor Subtypes > M2 receptor location
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Receptor Signal Transduction
+
+## university_notes
+o6u: Reused for the pharmabank cluster's Q1 (M2 receptor location = heart) -- this
+article's own related concept CON-FND-F9E1875546E70D states this exact fact. From "pharma
+MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+## field_notes
+arabicTitle: No verification pass run this session; the source record (208-INT-articles.md) carries none either.
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-CHOLINERGIC-PHARMACOLOGY-GAPFILL
+
+## title
+Parasympathetic pharmacology: direct-acting agonists, cholinesterase inhibitors and organophosphate poisoning
+
+## subject
+fnd
+
+## topic
+Autonomic Pharmacology
+
+## summary
+Direct-acting cholinomimetics (bethanechol, carbachol) and cholinesterase inhibitors (neostigmine, physostigmine, edrophonium, echothiophate) differ in mechanism, reversibility, CNS penetration and clinical indication.
+
+## sections
+
+## universities
++o6u
+
+## years
++O6U_Y1
+
+## module
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Cholinesterase Inhibitors > Physostigmine mechanism
+AUN-MPT-104 > Parasympathetic nervous system (Agonists) 1-2 > Direct-acting cholinomimetics and cholinesterase inhibitors
+
+## university_notes
+o6u: Reused for the pharmabank cluster's Q2 (acetylcholine's clinical unsuitability), Q5
+(neostigmine's skeletal-muscle effect versus physostigmine) Q16/Q19 (bethanechol's
+megacolon indication and the atonic-retention contraindication clarification) -- this
+article's own related concepts CON-FND-6B410DA4B612B9, CON-FND-7044CBD216CDEC and
+CON-FND-A1A577616D7186 cover these facts. From "pharma MCQs bank .pdf"
+(coverage/O6U-IPH-108-triage.md).
+
+## field_notes
+arabicTitle: No verification pass run this session; the source record (AUN-MPT-104-articles.md) carries none either.
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTIMUSCARINIC-PHARMACOLOGY
+
+## title
+Antimuscarinic pharmacology: atropine, scopolamine, ipratropium and ganglion blockers
+
+## subject
+fnd
+
+## topic
+Autonomic Pharmacology
+
+## summary
+Atropine's systemic adverse-effect profile, muscarinic antagonists' therapeutic uses and contraindications (including narrow-angle glaucoma), and physostigmine's reversal of the anticholinergic toxidrome.
+
+## sections
+
+## universities
++o6u
+
+## years
++O6U_Y1
+
+## module
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Cholinesterase Inhibitors > Physostigmine as antidote
+AUN-MPT-104 > Parasympathetic nervous system (Antagonists) > Antimuscarinic pharmacology
+
+## university_notes
+o6u: Reused for the pharmabank cluster's Q8 (physostigmine as the antidote for atropine
+toxicity) and Q22 (antimuscarinics contraindicated in glaucoma) -- this article's own
+related concepts CON-FND-1E1CDB94DF60D6 and CON-FND-7F6FE263FBC1C0 cover these facts. From
+"pharma MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+## field_notes
+arabicTitle: No verification pass run this session; the source record (AUN-MPT-104-articles.md) carries none either.
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANS-CHOLINERGIC-ADRENERGIC-TRANSMISSION
+
+## title
+Introduction to the autonomic nervous system: cholinergic transmission, receptor specificity and muscarinic subtypes
+
+## subject
+fnd
+
+## topic
+Autonomic Pharmacology
+
+## summary
+M3 muscarinic receptors are Gq-coupled, signalling through IP3/DAG, distinct from the Gi-coupled, cAMP-lowering M2 receptor.
+
+## sections
+
+## universities
++o6u
+
+## years
++O6U_Y1
+
+## module
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Muscarinic Receptor Subtypes > M3 signal transduction
+AUN-MPT-104 > Introduction to Autonomic Nervous System > Muscarinic receptor subtypes and signal transduction
+
+## university_notes
+o6u: Reused for the pharmabank cluster's Q21 (antimuscarinics decrease DAG in salivary
+gland) -- this article's own related concept CON-FND-5530C30545ED40 states this exact fact.
+From "pharma MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+## field_notes
+arabicTitle: No verification pass run this session; the source record (AUN-MPT-104-articles.md) carries none either.
+
+---
+
+# Item
+
+## id
+ART-MANS-PPPM-NEOSTIGMINE-GIT-MOTILITY
+
+## title
+Neostigmine — cholinesterase inhibition increasing GIT motility
+
+## subject
+fnd
+
+## topic
+Autonomic Pharmacology
+
+## summary
+Neostigmine inhibits acetylcholinesterase, raising acetylcholine at gut muscarinic receptors and increasing GIT motility, which is why it is used for postoperative paralytic ileus.
+
+## sections
+
+## universities
++o6u
+
+## years
++O6U_Y1
+
+## module
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Cholinesterase Inhibitors > Neostigmine and GIT motility
+MANS-PPPM > Pharmacology > Autonomic Nervous System Pharmacology > Cholinesterase Inhibitors
+
+## university_notes
+o6u: Reused for the pharmabank cluster's Q17 (neostigmine for postoperative paralytic
+ileus) -- this article's own related concept CON-FND-ECECFC8B855144 states this exact fact.
+From "pharma MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+## field_notes
+arabicTitle: No verification pass run this session; the source record (MANS-PPPM-articles.md) carries none either.
+
+---
+
 # Item
 
 ## id

@@ -124,3 +124,314 @@ metabolism"), which is this concept's own core distinction. Sourced from "all Pr
 pharma questions _compressed.pdf" (coverage/O6U-IPH-108-triage.md).
 
 ---
+
+<!--
+  Lane 2 (o6u-iph108-author2, cluster "pharmabank") additions below -- one hit
+  from Kasr 208-INT-concepts.md, eight hits from Assiut AUN-MPT-104-concepts.md,
+  and one hit from Mansoura MANS-PPPM-concepts.md, all reused per 00-START-HERE.md
+  §3/§4 (search-before-mint). All three source files are "pending" -- each
+  module's own not-yet-imported batch, confirmed absent from this checkout's
+  local server/data/medical-library-v1.json snapshot by direct grep of all ten
+  ids together (0 hits). Apply each block ONLY after its own named source
+  concept file is live.
+
+  Search covered find-existing.mjs on "atropine", "physostigmine",
+  "neostigmine", "pilocarpine", "echothiophate", "muscarinic receptor",
+  "cholinesterase inhibitor", "anticholinergic", "pancuronium", "hyoscine",
+  "scopolamine", "cholinomimetic", "quaternary ammonium", "hair tonic",
+  "postoperative paralytic ileus", "narrow angle glaucoma", "pre-anesthetic
+  medication" -- plus a direct grep of Kasr 108-INT/208-INT/102-INT, Assiut
+  AUN-MPT-104, Mansoura MANS-PPPM, MUST CVS-201 and Alexandria 106 concept
+  files (the dispatch's own named likely-overlap general-pharmacology
+  modules) and a full read of every candidate hit's own concept body before
+  reuse. Ten genuine, fact-level hits found across the three files below; no
+  hit anywhere for this cluster's other thirty-two questions, which mint nine
+  new concepts instead (see concept/O6U-IPH-108-pharmabank-concepts.md).
+
+  Source files:
+    B. docs/Kasr-Source-Imports/concept/208-INT-concepts.md -- university kau, module 208 INT (Year 2)
+    C. docs/Assiut-Source-Imports/concept/AUN-MPT-104-concepts.md -- university aun, module AUN-MPT-104 (Year 1)
+    D. docs/Mansoura-Source-Imports/concept/MANS-PPPM-concepts.md -- university mans, module MANS-PPPM (Year 1)
+
+  Simulate together with each source file separately:
+  npm run medical:simulate -- docs/6October-Source-Imports/pending-live/O6U-IPH-108-overlay-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/208-INT-concepts.md \
+    --emit /tmp/sim-O6U-IPH-108-pending-concepts-208int.json
+  npm run medical:simulate -- docs/6October-Source-Imports/pending-live/O6U-IPH-108-overlay-concepts.md \
+    --with docs/Assiut-Source-Imports/concept/AUN-MPT-104-concepts.md \
+    --emit /tmp/sim-O6U-IPH-108-pending-concepts-aunmpt104.json
+  npm run medical:simulate -- docs/6October-Source-Imports/pending-live/O6U-IPH-108-overlay-concepts.md \
+    --with docs/Mansoura-Source-Imports/concept/MANS-PPPM-concepts.md \
+    --emit /tmp/sim-O6U-IPH-108-pending-concepts-manspppm.json
+-->
+
+# Item
+
+## id
+CON-FND-F9E1875546E70D
+
+## label
+M2 muscarinic receptors are Gi-coupled and decrease intracellular cAMP, slowing heart rate
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Muscarinic Receptor Subtypes > M2 receptor location
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Receptor Signal Transduction
+
+## field_notes
+o6u: Reused for the pharmabank cluster's Q1 (p14, "Indicate the location of M2
+cholinoreceptor type: ... Heart") -- this concept's own label/definition already state that
+M2 is located in the heart and is Gi/cAMP-coupled. Sourced from "pharma MCQs bank .pdf"
+(coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-6B410DA4B612B9
+
+## label
+Acetylcholine is unsuitable for clinical use because it lacks receptor selectivity and is hydrolysed almost instantly, so the doses required for a therapeutic effect are impractically high
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Cholinergic Neurotransmission > Why acetylcholine is not used clinically
+AUN-MPT-104 > Parasympathetic nervous system (Agonists) 1 > Direct-acting cholinomimetics
+
+## field_notes
+o6u: Reused for the pharmabank cluster's Q2 (p28, "Acetylcholine is nearly not used in
+clinical practice because: ... It is very rapidly hydrolyzed") -- this concept's own
+definition already states the rapid-hydrolysis reasoning. Sourced from "pharma MCQs bank
+.pdf" (coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-7044CBD216CDEC
+
+## label
+A direct-acting muscarinic agonist (carbachol) can act at non-innervated muscarinic receptors and cause hypotension on overdose; an indirect-acting acetylcholinesterase inhibitor (neostigmine) instead potentiates nicotinic transmission at the neuromuscular junction, affecting skeletal muscle and producing a cholinergic crisis the direct agonist does not
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Cholinesterase Inhibitors > Neostigmine at the neuromuscular junction
+AUN-MPT-104 > Parasympathetic nervous system (Agonists) 2 > Direct vs indirect-acting cholinomimetics
+
+## field_notes
+o6u: Reused for the pharmabank cluster's Q5 (p46, "Neostigmine: ... has an effect on
+skeletal muscle greater than that of physostigmine") -- this concept's own original_wording
+already documents "Neostigmine differs from pilocarpine in having effects on skeletal
+muscle"; this item extends the same underlying indirect-acting/NMJ-potentiation fact to a
+neostigmine-versus-physostigmine comparison rather than neostigmine-versus-pilocarpine.
+Sourced from "pharma MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-1E1CDB94DF60D6
+
+## label
+Physostigmine, a centrally-acting cholinesterase inhibitor, reverses the anticholinergic toxidrome
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Cholinesterase Inhibitors > Physostigmine as antidote
+AUN-MPT-104 > Parasympathetic nervous system (Antagonists) > Anticholinergic toxidrome and reversal
+
+## field_notes
+o6u: Reused for the pharmabank cluster's Q8 (p50, "Physostigmine it is the preferred drug
+for treatment of ... atropine toxicity", printed explanation: "Physostigmine is a tertiary
+amine that can penetrate the blood brain barrier. It can antagonize both the peripheral and
+CNS effects of atropine.") -- this concept's own definition already states physostigmine's
+central penetration and antidote role. Sourced from "pharma MCQs bank .pdf"
+(coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-C95C991F4315CC
+
+## label
+Echothiophate is an irreversible, organophosphate-type acetylcholinesterase inhibitor used topically for glaucoma
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Cholinesterase Inhibitors > Echothiophate
+AUN-MPT-104 > Parasympathetic nervous system (Agonists) 2 > Cholinesterase inhibitors -- reversible vs irreversible
+
+## field_notes
+o6u: Reused for the pharmabank cluster's Q13 (p55, "The only cholinomimetic that can
+antagonize atropine after fundus examination is: ... Ecothiophate") -- this item extends the
+same drug/mechanism (irreversible, CNS-excluded anticholinesterase used topically at the
+eye) to its fundus-exam-antagonism indication, not just glaucoma. Sourced from "pharma MCQs
+bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-A1A577616D7186
+
+## label
+Bethanechol is a direct-acting, acetylcholinesterase-resistant muscarinic agonist used to restore GI and bladder motility after surgery, and for non-obstructive urinary retention
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Direct-acting Cholinomimetics > Bethanechol
+AUN-MPT-104 > Parasympathetic nervous system (Agonists) 1 > Direct-acting cholinomimetics
+
+## field_notes
+o6u: Reused for the pharmabank cluster's Q16 (p58, "Which of the following cholinomimetics
+Is suitable for megacolon ... Bethanicol") and Q19 (p61, "Which of the following Is not a
+contraindication of cholinergic agonists: ... Atonic urinary retention") -- this item
+extends the same bethanechol concept to its megacolon indication and to the
+contraindication-versus-indication clarification for atonic urinary retention, alongside the
+postop-ileus/urinary-retention indications the source concept already documents. Sourced
+from "pharma MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-5530C30545ED40
+
+## label
+M3 muscarinic receptors are Gq-coupled, signalling through IP3/DAG to raise intracellular calcium -- distinct from the Gi-coupled M2 receptor
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Muscarinic Receptor Subtypes > M3 signal transduction
+AUN-MPT-104 > Introduction to Autonomic Nervous System > Muscarinic receptor subtypes and signal transduction
+
+## field_notes
+o6u: Reused for the pharmabank cluster's Q21 (p72, "Antimuscarinic drugs induce ...
+Decreased DAG in salivary gland") -- this concept's own original_wording already documents
+this exact fact ("Which of the following is an expected effect of a therapeutic dose of a
+drug that blocks muscarinic-3 receptors? ... Decreased DAG in salivary gland tissue").
+Sourced from "pharma MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-7F6FE263FBC1C0
+
+## label
+Muscarinic antagonists are useful as a cholinergic antidote, for eye exams and motion sickness, but contraindicated in narrow-angle glaucoma
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Antimuscarinic Drugs > Uses and contraindications
+AUN-MPT-104 > Parasympathetic nervous system (Antagonists) > Antimuscarinic contraindications and uses
+
+## field_notes
+o6u: Reused for the pharmabank cluster's Q22 (p73, "Anti-muscarinics are used in the
+treatment of the following disorders EXCEPT: ... Glaucoma") -- this concept's own
+original_wording already documents this exact fact ("Muscarinic antagonists are useful for
+all of the following EXCEPT: ... Treatment of narrow angle glaucoma"). Sourced from "pharma
+MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-ECECFC8B855144
+
+## label
+Neostigmine, an indirect-acting cholinesterase inhibitor, raises acetylcholine at gut muscarinic receptors and is used to increase GIT motility in postoperative paralytic ileus
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Cholinesterase Inhibitors > Neostigmine and GIT motility
+MANS-PPPM > Pharmacology > Autonomic Nervous System Pharmacology > Cholinesterase Inhibitors
+
+## field_notes
+o6u: Reused for the pharmabank cluster's Q17 (p59, "Which of the following cholinomimetics
+is the most suitable for postoperative paralytic ileus? ... Neostigmine") -- this concept's
+own label/definition already state this exact indication. Sourced from "pharma MCQs bank
+.pdf" (coverage/O6U-IPH-108-triage.md).
+
+---
