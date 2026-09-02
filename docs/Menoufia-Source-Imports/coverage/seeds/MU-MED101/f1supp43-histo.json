@@ -1,0 +1,707 @@
+{
+  "lane": "MU-MED101",
+  "cluster": "f1supp43-histo",
+  "header": "MU-MED101 (Foundation 1) lane-1 authored batch. Source: 'EOM Practice - Foundation 1 - Support 43 - With Answers.pdf' (mu_34ff78aabb8bfd729922), Histology sub-block. 22 continuous items (Q1-22, with a text-layer-only duplicate-11 numbering glitch resolved by render -- the source itself is correctly numbered), cytology/organelles/genetics, 17 authored + 5 held (Q15 stem ambiguity, Q17/Q18/Q20 image-dependent, Q21 below the 4-option floor). Search-before-mint: 2 reuses of Kasr 101-ISK-mcq-concepts.md pending concepts as sparse overlays (CON-FND-0FAE59E00B748E, axoneme, exact match; CON-FND-5097CA5BAB2E51, chromosomal syndromes, exact match, used for both the Turner and the Klinefelter item) -- both reuses are in the same Kasr file, so they cost this lane one extra gate/simulate dependency, not two. 12 new concepts minted (no match found after the same 540-record bulk search). Apply after concept/MU-MED101-concepts.md, article/MU-MED101-articles.md, evidence/MU-MED101-{resources,claims,citations}.md, pending-live/MU-MED101-concepts-overlay.md and docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md are live.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "mu"
+    ],
+    "years": [
+      "MU_Y1"
+    ],
+    "module": "MU-MED101",
+    "exam_weight_by_year": {
+      "MU_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_34ff78aabb8bfd729922"
+    ],
+    "source_citation": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Support 43 Histology sub-block p{page} (Menoufia MED101 Foundation 1 EOM exam)",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Moderate",
+    "reasoning_level": 2,
+    "exam_relevance": 5
+  },
+  "questions": [
+    {
+      "key": "f1supp43-histo-q01",
+      "id": "QST-MUMED101-HISTO-Q01",
+      "page": 33,
+      "title": "Which of these is not a cell inclusion (microtubules)",
+      "question": "Which of the following is NOT considered an inclusion?",
+      "options": {
+        "A": "Pigment",
+        "B": "Glycogen",
+        "C": "Lipid",
+        "D": "Secretory granules",
+        "E": "microtubules"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect (it is an inclusion). Pigment granules (such as lipofuscin or melanin) are classic cytoplasmic inclusions — non-living, often temporary accumulations of material.",
+        "B": "Incorrect (it is an inclusion). Glycogen, stored as cytoplasmic granules, is a metabolic inclusion, present or absent depending on the cell's nutritional state.",
+        "C": "Incorrect (it is an inclusion). Lipid droplets are likewise a stored, non-membrane-bound inclusion, most obvious in adipocytes but present transiently in many other cell types.",
+        "D": "Incorrect (it is an inclusion). Secretory granules, membrane-bound stores of a cell's secretory product awaiting release, are also classified as inclusions.",
+        "E": "Correct. Microtubules are permanent, living components of the cytoskeleton, built from tubulin and present in essentially every cell to provide structural support, intracellular transport tracks and the machinery of mitosis — the opposite of an inclusion. Cell inclusions, by definition, are non-living, often transient or metabolically variable accumulations of material (pigments, stored nutrients such as glycogen and lipid, or secretory products) rather than permanent organelles or cytoskeletal elements. Because microtubules are a structural, functional, everyday component of the cell rather than a stored or accumulated substance, they are the one listed item that is not an inclusion."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-00AB95D36059E4",
+      "concept_ids": [
+        "CON-FND-00AB95D36059E4"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Which of these is not a cell inclusion (microtubules)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES1-AFA15D96"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p33",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p33"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-histo-q04",
+      "id": "QST-MUMED101-HISTO-Q04",
+      "page": 33,
+      "title": "Stain that does not stain fat cells (PAS)",
+      "question": "The fat cell stain by all of the following except",
+      "options": {
+        "A": "osmic acid",
+        "B": "pas",
+        "C": "sudan 3",
+        "D": "sudan black"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it does stain fat). Osmic acid (osmium tetroxide) binds and blackens the double bonds of unsaturated lipids, making it a classic fat stain used in both light and electron microscopy.",
+        "B": "Correct. PAS (periodic acid-Schiff) stains carbohydrates and carbohydrate-rich macromolecules — glycogen, glycoproteins, basement membranes — by oxidising their vicinal diols to aldehydes that then react with Schiff reagent; neutral fat has no such carbohydrate structure and is not demonstrated by PAS. This is the key contrast the question is testing: PAS is the odd one out among four fat-specific stains precisely because its chemistry targets sugars, not lipids.",
+        "C": "Incorrect (it does stain fat). Sudan III is a classic lipid-soluble dye that partitions into and colours neutral fat orange-red on frozen sections.",
+        "D": "Incorrect (it does stain fat). Sudan black B is likewise a lipid-soluble dye, staining fat (and other lipids, including myelin) black."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-B00722B64F7A11",
+      "concept_ids": [
+        "CON-FND-B00722B64F7A11"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Stain that does not stain fat cells (PAS)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES1-AFA15D96"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p33",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p33"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "f1supp43-histo-q05",
+      "id": "QST-MUMED101-HISTO-Q05",
+      "page": 34,
+      "title": "Most important and essential pigment in the body (hemoglobin)",
+      "question": "Which is the most important and essential pigment in the body?",
+      "options": {
+        "A": "carotene",
+        "B": "melanin",
+        "C": "hemoglobin",
+        "D": "carbon particles",
+        "E": "bilirubin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Carotene is a dietary, fat-soluble exogenous pigment that gives a yellow tinge to fat and skin; it plays no essential physiological role of its own beyond being a vitamin A precursor.",
+        "B": "Incorrect. Melanin is an important protective pigment against ultraviolet light, but the body can survive, and function, entirely without it (as in albinism).",
+        "C": "Correct. Hemoglobin, the iron-containing respiratory pigment packed into red blood cells, is essential rather than merely important: it is the molecule that actually carries oxygen from the lungs to every tissue and carbon dioxide back again, and its complete absence is incompatible with life. This distinguishes it from the other pigments listed, which are protective, diagnostic or incidental rather than directly life-sustaining in the way oxygen transport is.",
+        "D": "Incorrect. Carbon (anthracotic) particles are an exogenous inhaled pigment, most often seen in lung and lymph-node macrophages; they have no physiological function and are simply inert accumulated debris.",
+        "E": "Incorrect. Bilirubin is a breakdown product of hemoglobin catabolism, useful diagnostically (its level indicates liver and hemolytic status) but not itself an essential functional pigment."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-F0D524E0B74132",
+      "concept_ids": [
+        "CON-FND-F0D524E0B74132"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Most important and essential pigment in the body (hemoglobin)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES1-AFA15D96"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p34",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p34"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-histo-q06",
+      "id": "QST-MUMED101-HISTO-Q06",
+      "page": 34,
+      "title": "Organelles that together form lysosomes (rER and Golgi)",
+      "question": "Which of the following two organelles share in the formation of lysosomes?",
+      "options": {
+        "A": "rER & SER",
+        "B": "SER & Golgi",
+        "C": "rER & Golgi",
+        "D": "rER & Cell membrane",
+        "E": "Golgi & Cell membrane"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The smooth endoplasmic reticulum (SER) does not synthesise the acid hydrolase enzymes packaged into lysosomes; that is the job of the rough ER (rER), so this pairing is wrong on its second component.",
+        "B": "Incorrect. The rough (not smooth) ER is the site of hydrolytic-enzyme synthesis; SER is not involved in the classic lysosome-formation pathway.",
+        "C": "Correct. Lysosome formation begins with the rough endoplasmic reticulum (rER), whose ribosomes synthesise the acid hydrolase enzymes destined for the lysosome; these enzymes are then transported to the Golgi apparatus, where they are further processed, tagged (with mannose-6-phosphate) for lysosomal targeting, and packaged into the primary lysosomes that bud off from the trans face of the Golgi. Both organelles are therefore necessary, sequential partners in the pathway, which is why the pair rER and Golgi, rather than either alone, is the correct answer.",
+        "D": "Incorrect. The cell membrane is not part of the classical biosynthetic pathway that produces primary lysosomes; it becomes involved later, in endocytosis, when it forms the endosomes that primary lysosomes go on to fuse with.",
+        "E": "Incorrect. Golgi is correctly one partner, but the cell membrane is not the organelle that synthesises the lysosomal enzymes — that role belongs to rER."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-84EEFA1B15B9B3",
+      "concept_ids": [
+        "CON-FND-84EEFA1B15B9B3"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Organelles that together form lysosomes (rER and Golgi)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES1-AFA15D96"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p34",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p34"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-histo-q07",
+      "id": "QST-MUMED101-HISTO-Q07",
+      "page": 34,
+      "title": "Stage of duplication of DNA and centrioles (S phase)",
+      "question": "In which of the following stages the duplication of DNA and centrioles has been occurred?",
+      "options": {
+        "A": "GI- stage of inter phase",
+        "B": "Metaphase of mitosis",
+        "C": "S- stage of inter phase",
+        "D": "G2 - stage of inter phase",
+        "E": "Prophase of mitosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. G1 (Gap 1) is the phase of cell growth and preparation before DNA synthesis begins; DNA has not yet been duplicated during G1.",
+        "B": "Incorrect. Metaphase is a stage of mitosis, well after interphase, when the already-duplicated chromosomes are aligned at the metaphase plate — replication has long since finished by this point.",
+        "C": "Correct. The S (synthesis) phase of interphase is specifically when the cell replicates its DNA content, from the normal diploid amount to double, and duplicates its centrioles (each existing centriole nucleating a new daughter centriole nearby), so that by the end of S phase the cell has both duplicated chromosomes (as sister chromatids) and duplicated centrosomes ready for mitosis. This is why S phase is the defining, name-giving event of interphase's middle stage, bracketed by the G1 and G2 gap phases on either side.",
+        "D": "Incorrect. G2 (Gap 2) is the phase after DNA synthesis is already complete, during which the cell checks its replicated DNA and prepares for mitosis — duplication itself has already occurred by G2, not during it.",
+        "E": "Incorrect. Prophase is the first stage of mitosis, occurring after interphase (and therefore after S phase) is complete, when the already-duplicated chromosomes begin to condense."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-CFD790D4F45BB1",
+      "concept_ids": [
+        "CON-FND-CFD790D4F45BB1"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Stage of duplication of DNA and centrioles (S phase)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES2-3DEE3A82"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p34",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p34"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-histo-q19",
+      "id": "QST-MUMED101-HISTO-Q19",
+      "page": 37,
+      "title": "Feature distinguishing mitosis from meiosis II (S phase)",
+      "question": "How to differentiate between mitosis and meiosis II?",
+      "options": {
+        "A": "Crossing over occurs in meiosis Il, not in mitosis.",
+        "B": "S phase precedes mitosis but not meiosis II.",
+        "C": "Separation of the chromatids occurs in mitosis, not in meiosis II.",
+        "D": "Pairing of the homologus chromosomes distinguishes meiosis II but not mitosis."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Crossing over (exchange of segments between homologous chromosomes) occurs during meiosis I, in prophase I, not during meiosis II; by meiosis II no homologous pairs remain to cross over, so this statement misplaces the event.",
+        "B": "Correct. An S phase, with full DNA replication, precedes mitosis (as the S phase of the interphase that comes immediately before it), but meiosis II is not preceded by its own S phase — the DNA was already replicated once, before meiosis I began, and that same replicated DNA content (as sister chromatids) is simply carried through meiosis I into meiosis II without being copied again. This absence of a second, intervening S phase is precisely what allows meiosis II to reduce the chromatid number without further duplicating DNA, and is the cleanest single feature that distinguishes it from an ordinary mitotic division, which is always preceded by its own S phase.",
+        "C": "Incorrect. Separation of sister chromatids happens in both mitosis (at anaphase) and meiosis II (at anaphase II); it is not a feature unique to mitosis, so it does not distinguish the two.",
+        "D": "Incorrect. Pairing of homologous chromosomes (synapsis) is a feature of meiosis I, not meiosis II; by the time meiosis II occurs, homologous pairs have already been separated, so this statement misassigns the pairing event to the wrong division."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-CFD790D4F45BB1",
+      "concept_ids": [
+        "CON-FND-CFD790D4F45BB1"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Feature distinguishing mitosis from meiosis II (S phase)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES2-3DEE3A82"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p37",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p37"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-histo-q08",
+      "id": "QST-MUMED101-HISTO-Q08",
+      "page": 34,
+      "title": "Site where ribosomes are formed (nucleoli)",
+      "question": "Where are ribosomes formed?",
+      "options": {
+        "A": "Cytoskeleton",
+        "B": "Peroxisome",
+        "C": "Microfilaments",
+        "D": "Centrioles",
+        "E": "Nucleoli"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The cytoskeleton (microtubules, microfilaments and intermediate filaments) provides structural support and tracks for movement; it has no role in ribosome synthesis.",
+        "B": "Incorrect. Peroxisomes are membrane-bound organelles specialised for oxidative reactions (such as fatty-acid beta-oxidation and breakdown of hydrogen peroxide); they play no part in making ribosomes.",
+        "C": "Incorrect. Microfilaments, the actin-based component of the cytoskeleton, are involved in cell shape and movement, not ribosome production.",
+        "D": "Incorrect. Centrioles organise the mitotic spindle and form the basal bodies of cilia; they have no role in ribosome assembly.",
+        "E": "Correct. The nucleolus is the site within the nucleus where ribosomal RNA (rRNA) genes are transcribed and where rRNA is assembled with ribosomal proteins (imported from the cytoplasm) to form the large and small ribosomal subunits. These subunits are then exported separately through the nuclear pores into the cytoplasm, where they come together on messenger RNA to form a complete, functional ribosome. A cell's nucleolar size and prominence correlates directly with how much protein synthesis it is doing, which is why highly secretory or rapidly dividing cells typically have large, obvious nucleoli."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-3C79F1FD10BE15",
+      "concept_ids": [
+        "CON-FND-3C79F1FD10BE15"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Site where ribosomes are formed (nucleoli)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES2-3DEE3A82"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p34",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p34"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-histo-q09",
+      "id": "QST-MUMED101-HISTO-Q09",
+      "page": 35,
+      "title": "Stain used to demonstrate mitochondria (Janus green)",
+      "question": "Mitochondria is stained by which type of stains?",
+      "options": {
+        "A": "Osmic acid",
+        "B": "Silver stain",
+        "C": "Sudan III",
+        "D": "Best's carmine",
+        "E": "Janus green"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Osmic acid is a fat stain, blackening unsaturated lipids, not a specific mitochondrial vital stain.",
+        "B": "Incorrect. Silver stains are classically used to demonstrate reticular fibres and some nerve elements, not mitochondria specifically.",
+        "C": "Incorrect. Sudan III stains neutral fat, not mitochondria.",
+        "D": "Incorrect. Best's carmine is a specific stain for glycogen, not for mitochondria.",
+        "E": "Correct. Janus green B is a supravital dye — applied to living, unfixed cells — that is selectively taken up and kept in its oxidised, blue-green colour specifically by mitochondria, because the mitochondrion's active respiratory (electron-transport) chain keeps reducing it back to its coloured form as fast as the surrounding cytoplasm would otherwise reduce it to a colourless form. This dependence on ongoing oxidative activity is what makes Janus green selective for mitochondria among all the cell's organelles, and is why it must be used on living cells rather than fixed tissue."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-97B30057F98924",
+      "concept_ids": [
+        "CON-FND-97B30057F98924"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Stain used to demonstrate mitochondria (Janus green)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES2-3DEE3A82"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p35",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p35"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "f1supp43-histo-q10",
+      "id": "QST-MUMED101-HISTO-Q10",
+      "page": 35,
+      "title": "Best cell type for studying lysosomes (macrophages)",
+      "question": "Which one of the following cells would be best for the study of lysosomes?",
+      "options": {
+        "A": "fibroblasts",
+        "B": "macrophages",
+        "C": "mast cells",
+        "D": "mesenchymal cells",
+        "E": "fat cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Fibroblasts are chiefly synthetic cells (producing collagen and ground substance); they are not a tissue notably rich in lysosomes.",
+        "B": "Correct. Macrophages are professional phagocytes, and their central job — engulfing and digesting microorganisms, debris and worn-out cells — depends on an unusually large and active population of lysosomes to break down whatever the cell has phagocytosed. This makes macrophages the classic, textbook cell type used to study lysosomal structure and function, since their lysosomes are both numerous and easily demonstrated (for example by acid phosphatase histochemistry).",
+        "C": "Incorrect. Mast cells are characterised by prominent metachromatic secretory granules containing histamine and heparin, not by a distinctively large lysosomal population.",
+        "D": "Incorrect. Mesenchymal cells are relatively undifferentiated stem-like cells; they are not notable for a rich lysosomal apparatus.",
+        "E": "Incorrect. Fat (adipose) cells are dominated by a single large lipid droplet with the rest of the cytoplasm and organelles compressed to a thin rim; they are not the cell type chosen to study lysosomes."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-8DC1E6E867FDFA",
+      "concept_ids": [
+        "CON-FND-8DC1E6E867FDFA"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Best cell type for studying lysosomes (macrophages)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES1-AFA15D96"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p35",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p35"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-histo-q11",
+      "id": "QST-MUMED101-HISTO-Q11",
+      "page": 35,
+      "title": "Organelle responsible for drug detoxification (smooth ER)",
+      "question": "Which of these organelles responsible for detoxification of drugs?",
+      "options": {
+        "A": "Mitochondria",
+        "B": "Golgi apparatus",
+        "C": "Lysosomes",
+        "D": "rER",
+        "E": "sER"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Mitochondria generate ATP by oxidative phosphorylation; they are not the site of drug-detoxifying enzyme systems.",
+        "B": "Incorrect. The Golgi apparatus processes, sorts and packages proteins and lipids for secretion or delivery elsewhere; it is not the organelle that metabolises drugs.",
+        "C": "Incorrect. Lysosomes digest material delivered by phagocytosis, autophagy or endocytosis using acid hydrolases; that is a different chemistry from the oxidation-based detoxification of drugs.",
+        "D": "Incorrect. The rough ER (rER), studded with ribosomes, is dedicated to synthesising proteins destined for secretion or membranes, not to detoxifying small-molecule drugs.",
+        "E": "Correct. The smooth endoplasmic reticulum (sER) is rich in the cytochrome P450 mixed-function oxidase enzyme system, which chemically modifies (usually oxidises) lipid-soluble drugs and other xenobiotics to make them more water-soluble and easier for the body to excrete. This detoxifying role is especially prominent in liver (hepatocyte) sER, and is functionally distinct from sER's other jobs (steroid hormone synthesis, calcium storage) even though all of them occur in the same tubular organelle."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-05007E925AB4D5",
+      "concept_ids": [
+        "CON-FND-05007E925AB4D5"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Organelle responsible for drug detoxification (smooth ER)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES2-3DEE3A82"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p35",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p35"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-histo-q13",
+      "id": "QST-MUMED101-HISTO-Q13",
+      "page": 36,
+      "title": "Organelle that proliferates with chronic drug/alcohol use (smooth ER)",
+      "question": "In patients who abuse drugs, including alcohol, there is an increased level of detoxifying enzymes in the liver. What is the major intracellular organelle in liver cells that undergoes extensive proliferation in these patients?",
+      "options": {
+        "A": "Golgi apparatus.",
+        "B": "Mitochondria.",
+        "C": "Lysosomes.",
+        "D": "Smooth endoplasmic reticulum."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The Golgi apparatus is not the organelle that expands in response to a chronic detoxification workload; its job is processing and sorting, not drug-oxidising enzyme production.",
+        "B": "Incorrect. Mitochondria generate ATP and can increase somewhat with general metabolic demand, but they are not the specific organelle recruited for xenobiotic detoxification.",
+        "C": "Incorrect. Lysosomes handle digestion of phagocytosed or autophagied material; they are not the site of the cytochrome P450 detoxifying enzymes and do not characteristically proliferate with chronic drug exposure.",
+        "D": "Correct. Because the smooth endoplasmic reticulum (sER) carries the cytochrome P450 enzyme system responsible for oxidising and detoxifying drugs, hepatocytes chronically exposed to alcohol or other drugs respond adaptively by massively increasing (proliferating) their sER, so as to increase their total detoxifying capacity to match the sustained demand. This adaptive hypertrophy of sER is a well-recognised hepatocyte response, and it is the structural basis for the clinically important phenomenon of enzyme induction and drug tolerance seen with chronic alcohol or drug use."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-05007E925AB4D5",
+      "concept_ids": [
+        "CON-FND-05007E925AB4D5"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Organelle that proliferates with chronic drug/alcohol use (smooth ER)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES2-3DEE3A82"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p36",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p36"
+      },
+      "estimated_seconds": 60
+    },
+    {
+      "key": "f1supp43-histo-q12",
+      "id": "QST-MUMED101-HISTO-Q12",
+      "page": 35,
+      "title": "Organelle that shares in cell division (centrioles)",
+      "question": "Which of the following share in cell division?",
+      "options": {
+        "A": "Centrioles",
+        "B": "Keratin filaments",
+        "C": "Vimentin filaments",
+        "D": "Glial filaments",
+        "E": "Desmin filaments"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Centrioles, duplicated during S phase, migrate to opposite poles of the cell and organise the microtubules of the mitotic spindle, the apparatus that physically pulls the duplicated chromosomes apart to the two daughter cells during mitosis. This spindle-organising role is why centrioles (as the core of the centrosome, the cell's main microtubule-organising centre) are directly involved in cell division, unlike the intermediate filaments listed as distractors.",
+        "B": "Incorrect. Keratin (cytokeratin) filaments are intermediate filaments that give epithelial cells mechanical strength; they play no direct role in organising the mitotic spindle.",
+        "C": "Incorrect. Vimentin filaments are the intermediate filaments typical of mesenchymal cells, providing structural support, not a role in chromosome segregation.",
+        "D": "Incorrect. Glial filaments (glial fibrillary acidic protein) are the intermediate filaments of astrocytes, again a structural rather than a mitotic role.",
+        "E": "Incorrect. Desmin filaments are the intermediate filaments of muscle cells, anchoring the contractile apparatus, not organising cell division."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-C590C1C094E153",
+      "concept_ids": [
+        "CON-FND-C590C1C094E153"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Organelle that shares in cell division (centrioles)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES2-3DEE3A82"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p35",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p35"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "f1supp43-histo-q14",
+      "id": "QST-MUMED101-HISTO-Q14",
+      "page": 36,
+      "title": "Correct statement about the Golgi apparatus (cis face receives transport vesicles)",
+      "question": "Which statement is correctly describing the Golgi apparatus?",
+      "options": {
+        "A": "It is predominating the cytoplasm of the steroid secreting cells.",
+        "B": "Its trans face is called the forming face.",
+        "C": "The transport vesicles are related to the cis face.",
+        "D": "Its cisternae are interconnected."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Smooth endoplasmic reticulum, not the Golgi apparatus, is the organelle that predominates in steroid-secreting cells, reflecting its role in steroid synthesis.",
+        "B": "Incorrect. It is the cis face, not the trans face, that is called the forming (entry) face, where new transport vesicles from the rough ER fuse and add material to the stack; the trans face is instead the maturing (exit) face, where finished products bud off.",
+        "C": "Correct. Transport vesicles carrying newly-synthesised proteins from the rough endoplasmic reticulum arrive at, and fuse with, the cis (entry/forming) face of the Golgi apparatus. Material then moves progressively through the stacked cisternae toward the trans (exit/maturing) face, being modified along the way, before leaving in secretory or transport vesicles that bud from the trans face. This cis-to-trans directional flow, with incoming vesicles specifically associated with the cis face, is the defining functional polarity of the Golgi apparatus.",
+        "D": "Incorrect. The Golgi cisternae are typically described as a series of separate, stacked, flattened sacs rather than as a single interconnected system; material moves between them via vesicular transport (or cisternal maturation) rather than through direct continuity."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-887554F469D74B",
+      "concept_ids": [
+        "CON-FND-887554F469D74B"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Correct statement about the Golgi apparatus (cis face receives transport vesicles)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES2-3DEE3A82"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p36",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p36"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-histo-q16",
+      "id": "QST-MUMED101-HISTO-Q16",
+      "page": 36,
+      "title": "Structure preventing the cell membrane from being too fluid (cholesterol)",
+      "question": "Prevention of the cell membrane from being too fluid is the function of which of the following structures?",
+      "options": {
+        "A": "Proteins.",
+        "B": "Glycolipids.",
+        "C": "Glycoproteins.",
+        "D": "Cholesterol."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Membrane proteins serve many roles — transport, signalling, structural anchorage — but regulating overall lipid-bilayer fluidity is not their characteristic function.",
+        "B": "Incorrect. Glycolipids sit mainly on the outer leaflet and contribute to cell-surface recognition (as in the ABO blood group antigens), not to bulk regulation of membrane fluidity.",
+        "C": "Incorrect. Glycoproteins likewise contribute to surface recognition and receptor function rather than to fluidity regulation.",
+        "D": "Correct. Cholesterol molecules are interspersed among the phospholipids of the cell membrane and act as a fluidity buffer: at higher (body) temperatures cholesterol's rigid steroid ring restrains excessive movement of the fatty-acid tails, preventing the membrane from becoming too fluid, while at lower temperatures it prevents the tails from packing too closely and becoming too rigid. This dual, temperature-buffering action is unique to cholesterol among membrane components and is why it is singled out as the answer here."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-EBD0772A60AD54",
+      "concept_ids": [
+        "CON-FND-EBD0772A60AD54"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structure preventing the cell membrane from being too fluid (cholesterol)",
+      "library_ids": [
+        "ART-MU101-ORGANELLES2-3DEE3A82"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p36",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p36"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-histo-q02",
+      "id": "QST-MUMED101-HISTO-Q02",
+      "page": 33,
+      "title": "Syndrome representing monosomy of chromosome X (Turner)",
+      "question": "Which syndrome represents monosomy of chromosome X?",
+      "options": {
+        "A": "Turner syndrome",
+        "B": "Klinefelter syndrome",
+        "C": "Down syndrome",
+        "D": "Cri du chat syndrome",
+        "E": "Multiple X syndrome"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Turner syndrome results from monosomy of the X chromosome (45,X — a single X with no matching second sex chromosome, sometimes written as 44 autosomes + 1 X), affecting females and causing underdevelopment of the genital system along with short stature and other somatic features. This single-X, 45-chromosome constitution distinguishes it from Klinefelter syndrome, which is the corresponding sex-chromosome disorder caused by an extra, not a missing, sex chromosome.",
+        "B": "Incorrect. Klinefelter syndrome is caused by an extra X chromosome in a male (47,XXY), a trisomy, not a monosomy.",
+        "C": "Incorrect. Down syndrome is trisomy of an autosome (chromosome 21, giving 47 chromosomes), unrelated to the sex chromosomes.",
+        "D": "Incorrect. Cri-du-chat syndrome is caused by a partial deletion of the short arm of chromosome 5, an autosomal deletion, not a sex-chromosome monosomy.",
+        "E": "Incorrect. Multiple X syndrome is caused by one or more extra X chromosomes in a female (such as 47,XXX), an excess, not a deficiency, of sex chromosomes."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-5097CA5BAB2E51",
+      "concept_ids": [
+        "CON-FND-5097CA5BAB2E51"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Syndrome representing monosomy of chromosome X (Turner)",
+      "library_ids": [
+        "ART-MU101-GENETICS-0D8B290F"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p33",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p33",
+        "reuse": "CON-FND-5097CA5BAB2E51 (Kasr 101-ISK-mcq-concepts.md) already teaches this exact fact; sparse overlay, no new mint. Taught here via this lane's own article ART-MU101-GENETICS-0D8B290F rather than Kasr's own (the Kasr sibling has no locally-included teaching article in this lane's dependency chain)."
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-histo-q03",
+      "id": "QST-MUMED101-HISTO-Q03",
+      "page": 33,
+      "title": "Number of microtubules in the axoneme (20, the 9+2 pattern)",
+      "question": "The axoneme have",
+      "options": {
+        "A": "27microtubule",
+        "B": "21microtubule",
+        "C": "30microtubule",
+        "D": "20microtubule"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. 27 does not correspond to any standard count derived from the axoneme's 9+2 arrangement of microtubule doublets and singlets.",
+        "B": "Incorrect. 21 likewise does not match the 9 peripheral doublets plus 2 central singlets that make up the ciliary/flagellar axoneme.",
+        "C": "Incorrect. 30 over-counts the structure; it does not correspond to the 9+2 pattern either.",
+        "D": "Correct. The ciliary (and flagellar) axoneme has the classic \"9+2\" ultrastructure: nine peripheral doublet microtubules (9 x 2 = 18 microtubules) arranged in a ring around two central singlet microtubules (+2), giving a total of 20 microtubules, linked by dynein arms that produce the sliding action responsible for ciliary beating. This 9+2, 20-microtubule pattern is one of the most consistently tested numerical facts in basic histology because it is constant across essentially all motile cilia and flagella."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-0FAE59E00B748E",
+      "concept_ids": [
+        "CON-FND-0FAE59E00B748E"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Number of microtubules in the axoneme (20, the 9+2 pattern)",
+      "library_ids": [
+        "ART-MU101-GENETICS-0D8B290F"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p33",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p33",
+        "reuse": "CON-FND-0FAE59E00B748E (Kasr 101-ISK-mcq-concepts.md) already teaches this exact fact; sparse overlay, no new mint. Taught here via this lane's own article ART-MU101-GENETICS-0D8B290F rather than Kasr's own (the Kasr sibling has no locally-included teaching article in this lane's dependency chain)."
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "f1supp43-histo-q22",
+      "id": "QST-MUMED101-HISTO-Q22",
+      "page": 38,
+      "title": "Diagnosis for a 47,XXY karyotype with gynecomastia (Klinefelter)",
+      "question": "17 year's old male patient represented with poor musculature, underdeveloped genitalia, and gynecomastia. On investigation his karyotypes revealed numerical sex chromosome anomalies (47, XXY). What is the most likely diagnosis?",
+      "options": {
+        "A": "Klinefilter syndrome",
+        "B": "Turner syndrome.",
+        "C": "Edward's syndrome.",
+        "D": "Down syndrome"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A 47,XXY karyotype in a phenotypic male, with poor musculature, underdeveloped (hypoplastic) genitalia and gynecomastia, is the classic presentation of Klinefelter syndrome — the sex-chromosome trisomy caused by an extra X chromosome in a male. The extra X disrupts normal testicular development, leading to hypogonadism, reduced testosterone, and the clinical triad in this vignette, which follows directly from the same chromosomal fact tested in the more basic, definition-style question on this same paper.",
+        "B": "Incorrect. Turner syndrome is 45,X (a missing, not an extra, sex chromosome), affects females, and does not match either the karyotype or the male phenotype described.",
+        "C": "Incorrect. Edward's syndrome is trisomy 18, an autosomal trisomy with a very different, more severe clinical picture, not a 47,XXY sex-chromosome finding.",
+        "D": "Incorrect. Down syndrome is trisomy 21, an autosomal trisomy unrelated to the sex chromosomes, and does not match the 47,XXY karyotype given."
+      },
+      "topic": "Histology",
+      "subtopic": "Cell biology and cytogenetics",
+      "main_concept": "CON-FND-5097CA5BAB2E51",
+      "concept_ids": [
+        "CON-FND-5097CA5BAB2E51"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Diagnosis for a 47,XXY karyotype with gynecomastia (Klinefelter)",
+      "library_ids": [
+        "ART-MU101-GENETICS-0D8B290F"
+      ],
+      "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Histology",
+      "field_notes": {
+        "keySource": "red-text key, p38",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Histology sub-block, Q from p38",
+        "reuse": "CON-FND-5097CA5BAB2E51 (Kasr 101-ISK-mcq-concepts.md) already teaches this exact fact; sparse overlay, no new mint. Taught here via this lane's own article ART-MU101-GENETICS-0D8B290F rather than Kasr's own (the Kasr sibling has no locally-included teaching article in this lane's dependency chain)."
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-histo-q15",
+      "hold": "stem ambiguity -- \"Which statement is describing the opposite process?\" refers to an antecedent process/question that is not printed on this page or the one before it in the source; the key (B, \"needs energy\") cannot be safely bound to a reconstructable stem without inventing context the source does not supply. Held per rule 10."
+    },
+    {
+      "key": "f1supp43-histo-q17",
+      "hold": "image-dependent -- stem reads \"What is the function of the structure in the attached photo?\"; the correct option depends on identifying the pictured structure, which cannot be recovered from text alone. Held per rule 3/9."
+    },
+    {
+      "key": "f1supp43-histo-q18",
+      "hold": "image-dependent -- options are lettered stages (A/B/C/D) of a mitosis diagram printed beside the question (four cells shown mid-division); the correct sequence cannot be determined without the diagram. Held per rule 3/9."
+    },
+    {
+      "key": "f1supp43-histo-q20",
+      "hold": "image-dependent -- options are lettered structures (A/B/C/D) on an electron-micrograph diagram of a nucleus; the correct site of ribosomal RNA synthesis cannot be identified from text alone. Held per rule 3/9."
+    },
+    {
+      "key": "f1supp43-histo-q21",
+      "hold": "<4 options -- the source prints only three options (a/b/c) for this item, with no d/e visible on this or the following page; below the 4-option floor. Held per rule 2 (two-sided coverage)."
+    }
+  ]
+}
