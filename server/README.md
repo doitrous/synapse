@@ -101,3 +101,32 @@ first one, which no signed-in user can perform and which
 `npm run promote-admin -- <email> --commit` does from the database instead. A second factor
 is **optional** — `user_access.mfa_required` records that an account asked to be
 held to assurance level 2, and only those accounts are refused at `aal1`.
+
+## Study room voice
+
+Study rooms carry a live WebSocket at `/api/rooms/ws?code=<room code>` — the
+same origin and the same HTTP server as the API, authenticated with the same
+Supabase token (presented as the `nishany.bearer` subprotocol, because a browser
+cannot set a header on a WebSocket and a token in a query string is a token in
+every proxy log). It carries presence, speaking, and the mediasoup SFU
+negotiation.
+
+The SFU is loaded lazily: a host that cannot run mediasoup's native worker still
+boots, still opens rooms, and still shows seats and presence — the room says
+voice is unavailable and gives the reason. The boot log says which:
+
+```
+Study room signalling ready, voice ready
+Study room signalling ready, voice unavailable (<reason>)
+```
+
+Media does **not** travel over the HTTP port. Open UDP **and** TCP
+`SFU_RTC_MIN_PORT`–`SFU_RTC_MAX_PORT` (40000–40400 by default, about four ports
+per member in voice) on the host and
+in Coolify, and set `SFU_ANNOUNCED_IP` to this machine's public IP — unset, voice
+only connects on the server host itself. A `coturn` server (`TURN_URLS`,
+`TURN_USERNAME`, `TURN_CREDENTIAL`) is required for reliability: STUN alone
+fails behind symmetric NAT and on most mobile carriers.
+
+Full protocol, migration SQL and a two-browser verification script:
+`docs/rooms-voice.md`.

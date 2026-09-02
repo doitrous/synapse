@@ -944,8 +944,26 @@ CREATE TABLE IF NOT EXISTS study_party_members (
   user_id   VARCHAR(64) NOT NULL,
   role      ENUM('host','member') NOT NULL DEFAULT 'member',
   joined_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  -- Where this member sits in the hall and what their desk looks like. Every
+  -- column is NULL until they choose: a null piece means "not chosen", which
+  -- the browser draws with default furniture, and is not the same as a choice.
+  seat_desk      VARCHAR(16) NULL,
+  seat_device    VARCHAR(16) NULL,
+  seat_chair     VARCHAR(16) NULL,
+  -- Which of the room's twenty desks, 0-19. NULL is "in the room, nowhere in
+  -- particular" — the state a member is in before they are seated.
+  seat_index     TINYINT NULL,
+  -- The last heartbeat, and what it claimed. The claim expires: see
+  -- `activityAt` in roomSeats.js.
+  last_active_at DATETIME NULL,
+  activity       VARCHAR(16) NULL,
   PRIMARY KEY (party_id, user_id),
-  INDEX idx_party_members_user (user_id, joined_at)
+  INDEX idx_party_members_user (user_id, joined_at),
+  -- Two people cannot sit at one desk. MariaDB allows any number of NULLs in a
+  -- unique index, so "nowhere in particular" stays available to everyone, and
+  -- a genuine race for desk 3 fails as ER_DUP_ENTRY rather than as a read that
+  -- was true a millisecond ago.
+  UNIQUE KEY study_party_members_seat_unique (party_id, seat_index)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS study_party_sessions (

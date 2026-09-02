@@ -6,6 +6,7 @@ import { Panel } from '@/components/ui/Panel'
 import { maristanaProgressDelta, type MaristanaOverview, type MaristanaProgressDelta } from '@/data/maristanas'
 import { useMaristanas } from '@/lib/useMaristanas'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 
 interface VisibleProgress extends MaristanaProgressDelta {
   sequence: number
@@ -17,6 +18,7 @@ interface VisibleProgress extends MaristanaProgressDelta {
  * presented as newly earned work.
  */
 export function MaristanaProgressNotice() {
+  const t = useT()
   const { data } = useMaristanas()
   const previous = useRef<MaristanaOverview | null>(null)
   const mergeUntil = useRef(0)
@@ -60,10 +62,10 @@ export function MaristanaProgressNotice() {
   if (!notice) return null
   const percent = Math.round(Math.max(0, Math.min(1, notice.stepProgress)) * 100)
   const title = notice.hospitalCompleted
-    ? 'A Maristana is complete'
+    ? t('A Maristana is complete')
     : notice.stepsPlaced > 0
-      ? `${notice.stepsPlaced} new ${notice.stepsPlaced === 1 ? 'part' : 'parts'} placed`
-      : 'Your Maristana is taking shape'
+      ? `${notice.stepsPlaced} ${notice.stepsPlaced === 1 ? t('new part placed') : t('new parts placed')}`
+      : t('Your Maristana is taking shape')
 
   return createPortal(
     <div
@@ -82,12 +84,12 @@ export function MaristanaProgressNotice() {
           </span>
           <div className="min-w-0 flex-1">
             <div className="flex items-center justify-between gap-3">
-              <p className="text-[10px] font-bold uppercase tracking-[0.085em] text-primary-strong">Maristana progress</p>
-              <p className="tnum font-mono text-[10.5px] font-semibold text-primary-strong">+{notice.earnedCredits.toLocaleString()} credits</p>
+              <p className="text-[10px] font-bold uppercase tracking-[0.085em] text-primary-strong">{t('Maristana progress')}</p>
+              <p className="tnum font-mono text-[10.5px] font-semibold text-primary-strong">+{notice.earnedCredits.toLocaleString()} {t('credits')}</p>
             </div>
             <p className="mt-1 text-[13.5px] font-semibold tracking-[-0.01em] text-ink">{title}</p>
-            <p className="mt-0.5 truncate text-[10.5px] text-ink-3">{notice.hospitalName} · Stage {notice.nextStage} of 25</p>
-            <div className="mt-3" aria-label={`${percent}% toward the next construction part`}>
+            <p className="mt-0.5 truncate text-[10.5px] text-ink-3">{notice.hospitalName} · {t('Stage')} {notice.nextStage} {t('of')} 25</p>
+            <div className="mt-3" aria-label={t('{n}% toward the next construction part').replace('{n}', String(percent))}>
               <div className="h-1.5 overflow-hidden rounded-full bg-inset">
                 <div
                   className="h-full rounded-full bg-primary transition-[width] duration-500 ease-[var(--ease-out-quint)] motion-reduce:transition-none"
@@ -95,8 +97,8 @@ export function MaristanaProgressNotice() {
                 />
               </div>
               <div className="mt-1.5 flex items-center justify-between gap-3 text-[9.5px] text-ink-3">
-                <span className="inline-flex items-center gap-1"><Icon icon={Building2} size={11} /> Next part</span>
-                <span className="tnum font-mono">{notice.creditsToNextStep.toLocaleString()} credits left</span>
+                <span className="inline-flex items-center gap-1"><Icon icon={Building2} size={11} /> {t('Next part')}</span>
+                <span className="tnum font-mono">{notice.creditsToNextStep.toLocaleString()} {t('credits left')}</span>
               </div>
             </div>
           </div>

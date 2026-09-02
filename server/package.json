@@ -25,6 +25,10 @@
     "jose": "^6.2.8",
     "mysql2": "^3.11.5",
     "resend": "^6.18.1",
-    "web-push": "^3.6.7"
+    "web-push": "^3.6.7",
+    "ws": "8.18.3"
+  },
+  "optionalDependencies": {
+    "mediasoup": "3.26.0"
   }
 }

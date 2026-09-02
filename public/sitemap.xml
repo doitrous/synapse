@@ -28,4 +28,26 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://nishany.com/ar/pricing" />
     <xhtml:link rel="alternate" hreflang="en" href="https://nishany.com/pricing" />
   </url>
+  <!-- The four footer documents. One English copy of each serves both shells,
+       so each has a single canonical URL and no Arabic alternate yet. -->
+  <url>
+    <loc>https://nishany.com/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nishany.com/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nishany.com/terms" />
+  </url>
+  <url>
+    <loc>https://nishany.com/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nishany.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nishany.com/privacy" />
+  </url>
+  <url>
+    <loc>https://nishany.com/refund-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nishany.com/refund-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nishany.com/refund-policy" />
+  </url>
+  <url>
+    <loc>https://nishany.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nishany.com/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nishany.com/contact" />
+  </url>
 </urlset>

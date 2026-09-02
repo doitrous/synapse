@@ -224,7 +224,7 @@ function ShortcutHelpDialog({ onClose }: { onClose: () => void }) {
         icon={Keyboard}
         action={<IconButton icon={X} label={t('Close')} size="sm" onClick={onClose} />}
       />
-      <div className="max-h-[65vh] overflow-y-auto p-5">
+      <div className="max-h-[65dvh] overflow-y-auto p-5">
         {groups.length === 0 ? (
           <p className="text-[13px] text-ink-3">{t('No shortcuts are available here.')}</p>
         ) : (

@@ -11,7 +11,9 @@ import type { CardWithMeta } from '@/lib/useFlashcards'
  * Basic renders its two rich fields. Cloze renders the source text with the
  * active deletion shown as a blank on the front and revealed on the back, every
  * other deletion shown in place — the structured cells from `renderClozeSide`,
- * so the markup never has to be parsed twice or trusted as HTML. Image occlusion
+ * each an HTML fragment that goes through the same `RichHtml` (re-sanitizing)
+ * renderer as every other field, so a deletion keeps its formatting and nothing
+ * unsafe can reach the DOM by way of the cloze parser. Image occlusion
  * rendering arrives with the occlusion editor; until then no such card exists to
  * reach this component, and the fallback is honest rather than broken.
  */
@@ -38,21 +40,25 @@ export function StudyCardFace({ entry, showAnswer }: { entry: CardWithMeta; show
     const cells = renderClozeSide(note.fields.text, activeNumber, showAnswer ? 'back' : 'front')
     return (
       <div className="space-y-4 text-center">
-        <p className="font-serif text-[19px] leading-relaxed text-ink">
+        {/* A `div`, not a `p`: a cell is an HTML fragment that may carry a list
+            or a paragraph of its own, which cannot legally nest inside a `p`. */}
+        <div className="font-serif text-[19px] leading-relaxed text-ink">
           {cells.map((cell, i) => (
             <Fragment key={i}>
-              {cell.kind === 'text' && <span>{cell.text}</span>}
+              {cell.kind === 'text' && <RichHtml html={cell.text} className="inline" />}
               {cell.kind === 'blank' && (
                 <span className="mx-0.5 rounded bg-accent-tint px-2 py-0.5 font-mono text-[15px] text-accent-strong">
-                  {cell.hint ? `[${cell.hint}]` : '[…]'}
+                  {cell.hint ? <>[<RichHtml html={cell.hint} className="inline" />]</> : '[…]'}
                 </span>
               )}
               {cell.kind === 'answer' && (
-                <span className="mx-0.5 rounded bg-primary-tint px-2 py-0.5 font-semibold text-primary-strong">{cell.text}</span>
+                <span className="mx-0.5 rounded bg-primary-tint px-2 py-0.5 font-semibold text-primary-strong">
+                  <RichHtml html={cell.text} className="inline" />
+                </span>
               )}
             </Fragment>
           ))}
-        </p>
+        </div>
         {showAnswer && note.fields.extra && (
           <div className="border-t border-line pt-4">
             <RichHtml html={note.fields.extra} className="text-[14px] text-ink-2" />

@@ -121,7 +121,7 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
   const dirty = useMemo(() => {
     if (audio) return true
     if (type === 'basic') return !isRichEmpty(front) || !isRichEmpty(back)
-    return clozeText.trim() !== '' || !isRichEmpty(extra)
+    return !isRichEmpty(clozeText) || !isRichEmpty(extra)
   }, [type, front, back, clozeText, extra, audio])
 
   // ---- note assembly -------------------------------------------------------
@@ -134,9 +134,9 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
     if (type === 'basic') {
       return { ...base, type: 'basic', fields: { front: sanitizeRich(front), back: sanitizeRich(back), ...(audio ? { audio } : {}) } }
     }
-    // Cloze source text is plain text (rendered as cells, never as HTML), so it
-    // is stored verbatim; only the rich "extra" field passes through sanitize.
-    return { ...base, type: 'cloze', fields: { text: clozeText.trim(), extra: sanitizeRich(extra), ...(audio ? { audio } : {}) } }
+    // Cloze source text is rich too — sanitized HTML carrying the `{{cN::…}}`
+    // markers as plain text, which is exactly what `tokenizeCloze` parses.
+    return { ...base, type: 'cloze', fields: { text: sanitizeRich(clozeText), extra: sanitizeRich(extra), ...(audio ? { audio } : {}) } }
   }
 
   // buildNote reads current state directly; these inputs are the real triggers.
@@ -577,21 +577,25 @@ function Preview({
         return (
           <div key={number} className="rounded-lg border border-line bg-paper p-4">
             <p className="mb-1 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">c{number}</p>
-            <p className="font-serif text-[15px] leading-relaxed text-ink">
+            {/* A `div`, not a `p`: the cells are HTML fragments that may carry
+                a list or a paragraph of their own. */}
+            <div className="font-serif text-[15px] leading-relaxed text-ink">
               {cells.map((cell, i) => (
                 <Fragment key={i}>
-                  {cell.kind === 'text' && <span>{cell.text}</span>}
+                  {cell.kind === 'text' && <RichHtml html={cell.text} className="inline" />}
                   {cell.kind === 'blank' && (
                     <span className="mx-0.5 rounded bg-accent-tint px-2 py-0.5 font-mono text-[13px] text-accent-strong">
-                      {cell.hint ? `[${cell.hint}]` : '[…]'}
+                      {cell.hint ? <>[<RichHtml html={cell.hint} className="inline" />]</> : '[…]'}
                     </span>
                   )}
                   {cell.kind === 'answer' && (
-                    <span className="mx-0.5 rounded bg-primary-tint px-2 py-0.5 font-semibold text-primary-strong">{cell.text}</span>
+                    <span className="mx-0.5 rounded bg-primary-tint px-2 py-0.5 font-semibold text-primary-strong">
+                      <RichHtml html={cell.text} className="inline" />
+                    </span>
                   )}
                 </Fragment>
               ))}
-            </p>
+            </div>
           </div>
         )
       })}

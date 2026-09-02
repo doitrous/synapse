@@ -9,7 +9,10 @@ test('a nested student route reports its own surface, not the dashboard', () => 
   assert.equal(surfaceFor('/app/library'), 'Library')
   assert.equal(surfaceFor('/app/qbank'), 'Question Bank')
   assert.equal(surfaceFor('/app/resources/some-source-id'), 'Resources')
-  assert.equal(surfaceFor('/app/study-together'), 'Study Together')
+  assert.equal(surfaceFor('/app/study-together'), 'Study Rooms')
+  assert.equal(surfaceFor('/app/study-rooms/abc'), 'Study Rooms')
+  assert.equal(surfaceFor('/app/plan'), 'Plan')
+  assert.equal(surfaceFor('/app/billing'), 'Account')
 })
 
 test('the dashboard is what /app itself resolves to', () => {

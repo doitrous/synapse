@@ -314,7 +314,7 @@ function ManageDeckDialog({
   return (
     <Dialog onClose={onClose} label={t('Manage deck')} size="lg">
       <PanelHeader title={deck.name} icon={Layers} action={<IconButton icon={X} label={t('Close')} size="sm" onClick={onClose} />} />
-      <div className="max-h-[65vh] space-y-4 overflow-y-auto p-5">
+      <div className="max-h-[65dvh] space-y-4 overflow-y-auto p-5">
         {deck.cards.length === 0 ? (
           <p className="text-[12.5px] text-ink-3">{t('No cards yet. Add the first one below.')}</p>
         ) : (

@@ -50,7 +50,7 @@ export function useWebPush(): UseWebPushState {
     if (!SUPPORTED) return
     let alive = true
     navigator.serviceWorker
-      .getRegistration('/sw.js')
+      .getRegistration(`${import.meta.env.BASE_URL}sw.js`)
       .then((registration) => registration?.pushManager.getSubscription() ?? null)
       .then((subscription) => { if (alive) setSubscribed(Boolean(subscription)) })
       .catch(() => { /* no existing registration — stay unsubscribed */ })
@@ -63,7 +63,7 @@ export function useWebPush(): UseWebPushState {
     if (!vapidKey) return false
 
     try {
-      const registration = await navigator.serviceWorker.register('/sw.js')
+      const registration = await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`)
       const result = await Notification.requestPermission()
       setPermission(result)
       if (result !== 'granted') return false
@@ -86,7 +86,7 @@ export function useWebPush(): UseWebPushState {
   const unsubscribe = useCallback(async (): Promise<boolean> => {
     if (!SUPPORTED) return false
     try {
-      const registration = await navigator.serviceWorker.getRegistration('/sw.js')
+      const registration = await navigator.serviceWorker.getRegistration(`${import.meta.env.BASE_URL}sw.js`)
       const subscription = (await registration?.pushManager.getSubscription()) ?? null
       const endpoint = subscription?.endpoint
       await subscription?.unsubscribe()

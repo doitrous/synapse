@@ -7,6 +7,7 @@ import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
+import { useT } from '@/lib/i18n'
 
 // Naming an unbuilt route, not deciding who may reach it — so this reads the
 // whole registry rather than the caller's tabs. A page nobody holds still has a
@@ -30,17 +31,18 @@ function BlueprintSketch() {
 }
 
 export function Placeholder() {
+  const t = useT()
   const { pathname } = useLocation()
   const item = ALL_ITEMS.find((i) => i.to === pathname)
   const spec = PLACEHOLDERS[pathname]
-  const title = item?.label ?? 'Coming soon'
+  const title = item?.label ?? t('Coming soon')
 
   return (
     <PageContainer>
       <PageHeader
         title={title}
         description={spec?.description}
-        actions={<Badge tone="outline">Planned · {spec?.phase ?? 'Later'}</Badge>}
+        actions={<Badge tone="outline">{t('Planned · {phase}').replace('{phase}', spec?.phase ?? t('a later phase'))}</Badge>}
       />
 
       <Panel className="overflow-hidden">
@@ -50,7 +52,7 @@ export function Placeholder() {
             <div className="flex items-center gap-2 text-ink-3">
               {item && <Icon icon={item.icon} size={16} />}
               <h2 className="font-sans text-[12px] font-semibold uppercase tracking-[0.08em]">
-                On the build plan
+                {t('On the build plan')}
               </h2>
             </div>
             <ul className="mt-4 space-y-3">

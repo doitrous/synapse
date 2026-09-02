@@ -3,6 +3,7 @@ import { createBrowserRouter, Navigate } from 'react-router-dom'
 import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
 import { RouteBoundary } from '@/components/shell/RouteBoundary'
+import { RedirectWithSearch } from '@/components/shell/RedirectWithSearch'
 import { RequireAuth } from '@/components/auth/RequireAuth'
 import { RequireImportKind } from '@/components/auth/RequireImportKind'
 import { ADMIN_TAB_VIEWS } from '@/data/adminTabs'
@@ -56,6 +57,10 @@ const Landing = lazyNamed(() => import('@/pages/Landing'), 'Landing')
 const LandingAr = lazyNamed(() => import('@/pages/LandingAr'), 'LandingAr')
 const PricingEn = lazyNamed(() => import('@/pages/PricingEn'), 'PricingEn')
 const PricingAr = lazyNamed(() => import('@/pages/PricingAr'), 'PricingAr')
+const Terms = lazyNamed(() => import('@/pages/legal/Terms'), 'Terms')
+const Privacy = lazyNamed(() => import('@/pages/legal/Privacy'), 'Privacy')
+const RefundPolicy = lazyNamed(() => import('@/pages/legal/RefundPolicy'), 'RefundPolicy')
+const Contact = lazyNamed(() => import('@/pages/legal/Contact'), 'Contact')
 const NotFound = lazyNamed(() => import('@/pages/NotFound'), 'NotFound')
 const Placeholder = lazyNamed(() => import('@/pages/Placeholder'), 'Placeholder')
 
@@ -72,11 +77,10 @@ const SharedDocument = lazyNamed(() => import('@/pages/SharedDocument'), 'Shared
 const Dashboard = lazyNamed(() => import('@/pages/student/Dashboard'), 'Dashboard')
 const Library = lazyNamed(() => import('@/pages/student/Library'), 'Library')
 const QuestionBank = lazyNamed(() => import('@/pages/student/QuestionBank'), 'QuestionBank')
-const QuestionNotes = lazyNamed(() => import('@/pages/student/QuestionNotes'), 'QuestionNotes')
 const AdaptiveStudy = lazyNamed(() => import('@/pages/student/AdaptiveStudy'), 'AdaptiveStudy')
 const Resources = lazyNamed(() => import('@/pages/student/Resources'), 'Resources')
 const ResourceReader = lazyNamed(() => import('@/pages/student/ResourceReader'), 'ResourceReader')
-const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'), 'MedicalTaxonomy')
+const MedicalTerminology = lazyNamed(() => import('@/pages/student/MedicalTerminology'), 'MedicalTerminology')
 const TermGridPage = lazyNamed(() => import('@/components/termgrid/TermGridPage'), 'TermGridPage')
 const SpotterPage = lazyNamed(() => import('@/components/games/SpotterPage'), 'SpotterPage')
 const TermMatchPage = lazyNamed(() => import('@/components/games/TermMatchPage'), 'TermMatchPage')
@@ -85,6 +89,11 @@ const ClinicalSequencePage = lazyNamed(() => import('@/components/games/Clinical
 const MechanismChainPage = lazyNamed(() => import('@/components/games/MechanismChainPage'), 'MechanismChainPage')
 const RedFlagSortPage = lazyNamed(() => import('@/components/games/RedFlagSortPage'), 'RedFlagSortPage')
 const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practical')
+// Oral questions, Skills and Histology left Practical's tab strip and are
+// their own destinations on the Practice hub.
+const OralQuestions = lazyNamed(() => import('@/pages/student/OralQuestions'), 'OralQuestions')
+const Skills = lazyNamed(() => import('@/pages/student/Skills'), 'Skills')
+const Histology = lazyNamed(() => import('@/pages/student/Histology'), 'Histology')
 const Flashcards = lazyNamed(() => import('@/pages/student/Flashcards'), 'Flashcards')
 const EssayQuestions = lazyNamed(() => import('@/pages/student/EssayQuestions'), 'EssayQuestions')
 const CalendarPage = lazyNamed(() => import('@/pages/student/Calendar'), 'CalendarPage')
@@ -94,9 +103,12 @@ const Maristanas = lazyNamed(() => import('@/pages/student/Maristanas'), 'Marist
 const Whiteboard = lazyNamed(() => import('@/pages/student/Whiteboard'), 'Whiteboard')
 const Notebook = lazyNamed(() => import('@/pages/student/Notebook'), 'Notebook')
 const Tutorial = lazyNamed(() => import('@/pages/student/Tutorial'), 'Tutorial')
-const StudyTogether = lazyNamed(() => import('@/pages/student/StudyTogether'), 'StudyTogether')
+const StudyRooms = lazyNamed(() => import('@/pages/student/StudyRooms'), 'StudyRooms')
+const Plan = lazyNamed(() => import('@/pages/student/Plan'), 'Plan')
+const Learn = lazyNamed(() => import('@/pages/student/Learn'), 'Learn')
+const Practice = lazyNamed(() => import('@/pages/student/Practice'), 'Practice')
+const Revise = lazyNamed(() => import('@/pages/student/Revise'), 'Revise')
 const QuestionOfTheDay = lazyNamed(() => import('@/pages/student/QuestionOfTheDay'), 'QuestionOfTheDay')
-const Billing = lazyNamed(() => import('@/pages/student/Billing'), 'Billing')
 const Account = lazyNamed(() => import('@/pages/student/Account'), 'Account')
 
 const PlatformDashboard = lazyNamed(() => import('@/pages/admin/PlatformDashboard'), 'PlatformDashboard')
@@ -114,6 +126,7 @@ const EscalationsQueue = lazyNamed(() => import('@/pages/admin/EscalationsQueue'
 const VoucherManagement = lazyNamed(() => import('@/pages/admin/VoucherManagement'), 'VoucherManagement')
 const AssistantSetup = lazyNamed(() => import('@/pages/admin/AssistantSetup'), 'AssistantSetup')
 const TutorialSetup = lazyNamed(() => import('@/pages/admin/TutorialSetup'), 'TutorialSetup')
+const LegalPagesSetup = lazyNamed(() => import('@/pages/admin/LegalPagesSetup'), 'LegalPagesSetup')
 const NotificationCampaigns = lazyNamed(() => import('@/pages/admin/NotificationCampaigns'), 'NotificationCampaigns')
 const BulkImportPage = lazyNamed(() => import('@/pages/admin/BulkImportPage'), 'BulkImportPage')
 const ConceptsSetup = lazyNamed(() => import('@/pages/admin/ConceptsSetup'), 'ConceptsSetup')
@@ -143,10 +156,12 @@ const GlossaryImportPage = lazyNamed(() => import('@/pages/admin/GlossaryImportP
 const studentPages: Record<string, Preloadable> = {
   library: Library,
   qbank: QuestionBank,
-  'question-notes': QuestionNotes,
   adaptive: AdaptiveStudy,
   resources: Resources,
-  taxonomy: MedicalTaxonomy,
+  // Both names resolve to the same page: `terminology` is canonical, `taxonomy`
+  // is what every existing link, bookmark and deck id already says.
+  terminology: MedicalTerminology,
+  taxonomy: MedicalTerminology,
   'term-grid': TermGridPage,
   spotter: SpotterPage,
   'term-match': TermMatchPage,
@@ -155,6 +170,9 @@ const studentPages: Record<string, Preloadable> = {
   'mechanism-chain': MechanismChainPage,
   'red-flag-sort': RedFlagSortPage,
   practical: Practical,
+  oral: OralQuestions,
+  skills: Skills,
+  histology: Histology,
   flashcards: Flashcards,
   essays: EssayQuestions,
   calendar: CalendarPage,
@@ -164,9 +182,12 @@ const studentPages: Record<string, Preloadable> = {
   whiteboard: Whiteboard,
   notebook: Notebook,
   tutorial: Tutorial,
-  'study-together': StudyTogether,
+  'study-rooms': StudyRooms,
+  plan: Plan,
+  learn: Learn,
+  practice: Practice,
+  revise: Revise,
   qotd: QuestionOfTheDay,
-  billing: Billing,
   account: Account,
 }
 
@@ -200,6 +221,7 @@ const adminBuilt: Record<string, ReactElement> = {
   escalations: render(EscalationsQueue),
   reports: render(ReportsReview),
   tutorial: render(TutorialSetup),
+  legal: render(LegalPagesSetup),
   students: render(StudentsManagement),
   users: render(UsersManagement),
   notifications: render(NotificationCampaigns),
@@ -217,10 +239,25 @@ const adminBuilt: Record<string, ReactElement> = {
 // Keep mounted routes and preloadable student pages in one registry so a new
 // page cannot be linked in navigation while silently falling through to 404.
 const studentPaths = Object.keys(studentPages)
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'escalations', 'reports', 'tutorial', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'escalations', 'reports', 'tutorial', 'legal', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
+
+/**
+ * Routes that were renamed, kept alive as redirects.
+ *
+ * None of these are removals: a URL a student bookmarked, or that a friend
+ * pasted into a group chat, has to keep working. `RedirectWithSearch` carries
+ * the query across, which is what makes `?party=` invites survive the rename
+ * of Study Together to Study Rooms.
+ */
+const studentRedirects = [
+  { path: 'study-together', element: <RedirectWithSearch to="/app/study-rooms" /> },
+  { path: 'billing', element: <RedirectWithSearch to="/app/account?tab=billing" /> },
+  { path: 'question-notes', element: <RedirectWithSearch to="/app/notebook?tab=questions" /> },
+]
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
+  ...studentRedirects,
   // Reading a source is its own screen, not a modal over the catalogue: it owns
   // the viewport, and it has to be linkable at a page.
   { path: 'resources/:id', element: render(ResourceReader) },
@@ -336,6 +373,13 @@ export const router = createBrowserRouter([
   { path: '/pricing', element: adminHost ? toStudentSite : render(PricingEn) },
   { path: '/en/pricing', element: adminHost ? toStudentSite : <Navigate to="/pricing" replace /> },
   { path: '/ar/pricing', element: adminHost ? toStudentSite : render(PricingAr) },
+  // The footer's four pages. Public, on the student origin, in English for
+  // both marketing shells — the Arabic shell links to the same URLs, and the
+  // translated versions are flagged as pending rather than faked.
+  { path: '/terms', element: adminHost ? toStudentSite : render(Terms) },
+  { path: '/privacy', element: adminHost ? toStudentSite : render(Privacy) },
+  { path: '/refund-policy', element: adminHost ? toStudentSite : render(RefundPolicy) },
+  { path: '/contact', element: adminHost ? toStudentSite : render(Contact) },
   // Auth stays on both origins: RequireAuth sends a signed-out admin to /login, and
   // a session lives per-origin, so the admin domain needs its own way in.
   { path: '/login', element: render(Login) },
@@ -353,4 +397,9 @@ export const router = createBrowserRouter([
   adminHost ? { path: '/app/*', element: toStudentSite } : studentApp,
   studentHost ? { path: '/admin/*', element: <HandOver origin={ADMIN_ORIGIN} /> } : adminApp,
   { path: '*', element: render(NotFound) },
-])
+], {
+  // `/` in production. A preview build mounted under a path (see `base` in
+  // vite.config.ts) tells the router the same prefix, so every `to="/app/…"`
+  // above keeps working without a rewrite.
+  basename: import.meta.env.BASE_URL.replace(/\/$/, '') || undefined,
+})

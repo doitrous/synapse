@@ -1,0 +1,63 @@
+/* =========================================================================
+   STUDY HALL MOTION
+
+   Two keyframes, both transform-only, both scoped to the hall. They live here
+   rather than in `src/index.css` because they are the only motion in the app
+   that belongs to one scene: nothing outside the study hall has a forearm.
+
+   The global `prefers-reduced-motion` rule in `index.css` already collapses
+   every animation to a single 0.001ms pass, which would freeze these at an
+   arbitrary frame. The rule at the bottom of this file is the deliberate
+   version of that: the arm rests, the ring holds at its widest, and the seat
+   still reads correctly because "studying" and "speaking" are also stated in
+   text beside the hall.
+   ========================================================================= */
+
+@keyframes nishany-typing {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(2px); }
+}
+
+/* A ring leaving the head, not a flashing dot: the scale carries it and the
+   fade is what makes it read as sound travelling outward. */
+@keyframes nishany-speak {
+  0% { transform: scale(0.82); stroke-opacity: 0.9; }
+  70% { transform: scale(1.12); stroke-opacity: 0.15; }
+  100% { transform: scale(1.12); stroke-opacity: 0; }
+}
+
+.seat-arm {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: nishany-typing 900ms ease-in-out infinite;
+}
+
+.seat-speak {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: nishany-speak 1800ms var(--ease-out-quint) infinite;
+}
+
+/* The hit area over a desk. Transparent until it is pointed at, so the hall
+   stays a drawing and not a grid of boxes. */
+.seat-hit {
+  background: transparent;
+  cursor: pointer;
+  transition: background-color var(--dur-fast) var(--ease-out-quint);
+}
+
+.seat-hit:hover {
+  background: color-mix(in oklab, var(--color-mist-2) 70%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .seat-arm {
+    animation: none !important;
+    transform: none !important;
+  }
+  .seat-speak {
+    animation: none !important;
+    transform: none !important;
+    stroke-opacity: 0.55;
+  }
+}

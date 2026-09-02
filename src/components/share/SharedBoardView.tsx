@@ -105,7 +105,7 @@ export function SharedBoardView({ board, shareId, editable = false, onChange }: 
         if (!rect) return
         zoomBy(Math.exp(-event.deltaY * (event.ctrlKey ? 0.012 : 0.0055)), event.clientX - rect.left, event.clientY - rect.top)
       }}
-      className="relative h-[70vh] min-h-[24rem] cursor-grab touch-none overflow-hidden rounded-xl border border-line bg-paper active:cursor-grabbing"
+      className="relative h-[70dvh] min-h-[24rem] cursor-grab touch-none overflow-hidden rounded-xl border border-line bg-paper active:cursor-grabbing"
       style={{
         backgroundImage: 'radial-gradient(var(--color-grid-major) 1.2px, transparent 1.2px)',
         backgroundSize: `${24 * view.scale}px ${24 * view.scale}px`,

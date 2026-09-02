@@ -1,6 +1,19 @@
 import { Component, type ErrorInfo, type ReactNode } from 'react'
 import { RouteLoading } from './RouteLoading'
 import { isChunkLoadError, shouldReloadForChunk } from '@/lib/chunkReload'
+import { AR } from '@/data/i18n-ar'
+
+/**
+ * This boundary's own translate.
+ *
+ * A class component, like `ErrorBoundary`, so it cannot call `useT()`. It reads
+ * the language `I18nProvider` stamps onto `<html lang>` — a read during render,
+ * never a write, so render stays pure. Its keys live in `shell.ts`.
+ */
+function translate(en: string): string {
+  const lang = typeof document === 'undefined' ? 'en' : document.documentElement.lang
+  return lang === 'ar' ? AR[en] ?? en : en
+}
 
 /**
  * Catches a screen that failed to load, and recovers the ordinary cause.
@@ -82,19 +95,19 @@ export class RouteBoundary extends Component<Props, State> {
     return (
       <div className="mx-auto w-full max-w-lg px-4 py-16 text-center" role="alert">
         <h1 className="font-serif text-[22px] font-semibold text-ink">
-          {stale ? 'Maristana has been updated' : 'This screen could not be opened'}
+          {stale ? translate('Maristana has been updated') : translate('This screen could not be opened')}
         </h1>
         <p className="mt-2 text-[13.5px] leading-relaxed text-ink-2">
           {stale
-            ? 'This tab was open while a new version went out, and reloading did not pick it up. Your work is saved.'
-            : 'Something in this screen failed to start. Your work is saved — nothing here writes to your record.'}
+            ? translate('This tab was open while a new version went out, and reloading did not pick it up. Your work is saved.')
+            : translate('Something in this screen failed to start. Your work is saved — nothing here writes to your record.')}
         </p>
         <button
           type="button"
           onClick={() => window.location.replace(window.location.href)}
           className="mt-5 inline-flex min-h-11 items-center rounded-lg bg-primary px-4 text-[13.5px] font-semibold text-on-primary transition-colors hover:bg-primary-strong sm:min-h-9"
         >
-          Reload the page
+          {translate('Reload the page')}
         </button>
         {/* The message itself, for a student who is reporting this to us. */}
         <p className="mt-4 break-words font-mono text-[11px] text-ink-3">{error.message}</p>

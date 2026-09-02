@@ -89,7 +89,7 @@ export function StudyAssistant() {
           dir={dir}
           role="dialog"
           aria-label={t('Study assistant')}
-          className="fixed inset-x-0 bottom-0 z-40 flex h-[min(560px,80dvh)] flex-col rounded-t-2xl border border-line bg-surface shadow-pop sm:inset-x-auto sm:bottom-4 sm:end-4 sm:w-[400px] sm:rounded-2xl"
+          className="fixed inset-x-0 bottom-0 z-40 flex h-[min(560px,80dvh)] flex-col rounded-t-2xl border border-line bg-surface pb-[env(safe-area-inset-bottom)] shadow-pop sm:inset-x-auto sm:bottom-4 sm:end-4 sm:w-[400px] sm:rounded-2xl sm:pb-0"
         >
           <header className="flex items-center gap-3 border-b border-line px-4 py-3">
             <Icon icon={Bot} size={17} className="shrink-0 text-primary-strong" />

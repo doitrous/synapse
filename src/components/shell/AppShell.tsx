@@ -34,6 +34,10 @@ function AppShellInner({ portal }: { portal: Portal }) {
   const [collapsed, , toggleCollapsed] = useLocalPreference('nishany.shell.sidebarCollapsed', false)
   const [focusMode, , toggleFocusMode] = useLocalPreference('nishany.shell.focusMode', false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  // Focus mode's sidebar is off-canvas, not gone: resting the pointer on the
+  // start edge slides it over the page, and leaving it slides it back. The
+  // chrome stays hidden for reading, without the trip through "Show menus".
+  const [peek, setPeek] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const mobileButtonRef = useRef<HTMLButtonElement>(null)
   const drawerRef = useRef<HTMLDivElement>(null)
@@ -56,6 +60,11 @@ function AppShellInner({ portal }: { portal: Portal }) {
     setMobileOpen(false)
     window.setTimeout(() => mobileButtonRef.current?.focus(), 0)
   }, [])
+
+  // A peeked sidebar retires when the page changes or the mode ends.
+  useEffect(() => {
+    setPeek(false)
+  }, [pathname, focusMode])
 
   // Focus mode hides the chrome, which would also hide the only way back out.
   // Escape is that way out, and it is the key people already try.
@@ -139,13 +148,24 @@ function AppShellInner({ portal }: { portal: Portal }) {
       {/* Desktop sidebar */}
       <aside
         className={cn(
-          'fixed inset-y-0 start-0 z-30 hidden border-e border-line transition-[width] duration-200 ease-[var(--ease-out-quint)]',
-          focusMode ? 'lg:hidden' : 'lg:block',
+          'fixed inset-y-0 start-0 z-30 hidden border-e border-line transition-[width,transform] duration-200 ease-[var(--ease-out-quint)] lg:block',
+          focusMode && 'bg-paper shadow-pop',
+          focusMode && !peek && '-translate-x-full rtl:translate-x-full',
           railed ? 'w-(--spacing-sidebar-collapsed)' : 'w-(--spacing-sidebar)',
         )}
+        aria-hidden={focusMode && !peek ? true : undefined}
+        onMouseLeave={focusMode ? () => setPeek(false) : undefined}
       >
         <Sidebar portal={portal} collapsed={railed} onToggleCollapse={toggleCollapsed} />
       </aside>
+      {/* The hot edge: a sliver on the start side that reveals the sidebar on hover. */}
+      {focusMode && (
+        <div
+          aria-hidden
+          className="fixed inset-y-0 start-0 z-30 hidden w-2 lg:block"
+          onMouseEnter={() => setPeek(true)}
+        />
+      )}
 
       {/* Mobile drawer */}
       {mobileOpen && (

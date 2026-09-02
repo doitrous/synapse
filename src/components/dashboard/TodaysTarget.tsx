@@ -1,25 +1,19 @@
-import { useMemo } from 'react'
-import { CalendarDays, Play } from 'lucide-react'
+import { useMemo, type ReactNode } from 'react'
+import { Link } from 'react-router-dom'
+import { CalendarDays } from 'lucide-react'
 import { Panel } from '@/components/ui/Panel'
-import { ButtonLink } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
-import { TargetRing } from '@/components/ui/TargetRing'
 import { StreakDots, type DayStatus } from '@/components/ui/StreakDots'
+import { useDueReviewSummary } from '@/components/dashboard/DueReviews'
+import { EXAM_KIND_LABEL, daysUntil } from '@/data/examProgramme'
 import { formatLongDate } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 import { useUpcoming } from '@/lib/useUpcoming'
 import { itemsOn } from '@/lib/upcoming'
-import { useAttemptHistory } from '@/lib/useAttemptLog'
 import { useQotd } from '@/lib/useQotd'
-import { dailyCounts } from '@/data/attemptStats'
-
-/**
- * No per-student daily target exists in settings yet. Forty questions is a
- * sensible default sitting — enough to matter, short enough to actually
- * finish — until the app exposes one to set.
- */
-const DAILY_QUESTION_GOAL = 40
+import { useNextExam } from '@/lib/useExamProgramme'
+import { cn } from '@/lib/cn'
 
 function greetingKey(): string {
   const h = new Date().getHours()
@@ -36,33 +30,92 @@ function shiftDate(dateStr: string, days: number): string {
 }
 
 /**
- * The dashboard's hero: the day's own bullseye.
+ * "Oct 10" — a date short enough to ride inside a fact's one-line label.
  *
- * One target ring for today's attempted questions against a daily goal, one
- * line saying how far that is from earning the centre dot, and the single
- * action that actually moves it — continuing into the question bank, which
- * itself offers the real "still open" sitting when there is one (see
- * `ContinueCard`). Everything else on the page is context; this is the ask.
+ * `formatLongDate` carries the year, which is noise next to a countdown that
+ * has already said how far away the paper is.
+ */
+function shortDate(dateStr: string, lang: string): string {
+  const [year, month, day] = dateStr.split('-').map(Number)
+  if (!year || !month || !day) return ''
+  return new Intl.DateTimeFormat(lang === 'ar' ? 'ar-EG-u-nu-latn' : 'en-US', { month: 'short', day: 'numeric' })
+    .format(new Date(year, month - 1, day))
+}
+
+/** Which colour a fact's figure earns. Exactly one class — `cn` does not merge. */
+const TONE_CLASS = {
+  ink: 'text-ink',
+  primary: 'text-primary-strong',
+  warning: 'text-warning',
+} as const
+
+/**
+ * One fact in the strip: a figure, a label, and the page it belongs to.
+ *
+ * Quiet on purpose — a link, never a button. The only call to action in the
+ * top of the dashboard is "Start now" in Your next step, and four buttons
+ * competing with it would make none of them the answer.
+ *
+ * The hairline between facts lives on the wrapper rather than on the link, so
+ * the link keeps its own rounded hover shape and the rule stays straight.
+ */
+function Fact({
+  to, value, unit, label, tone = 'ink', trailing,
+}: {
+  to: string
+  value: ReactNode
+  unit?: ReactNode
+  label: ReactNode
+  tone?: keyof typeof TONE_CLASS
+  trailing?: ReactNode
+}) {
+  return (
+    <div className="flex min-w-0 sm:min-w-[8rem] sm:border-s sm:border-line sm:first:border-s-0">
+      <Link
+        to={to}
+        className="flex min-h-[44px] min-w-0 flex-1 flex-col justify-center gap-0.5 rounded-lg border border-line bg-mist/60 px-3 py-2.5 transition-colors hover:bg-inset/50 sm:min-h-0 sm:border-0 sm:bg-transparent sm:px-5 sm:py-1"
+      >
+        <span className={cn(
+          'tnum flex items-baseline gap-1 text-[18px] font-semibold leading-[1.1] tracking-[-0.02em] sm:text-[20px]',
+          TONE_CLASS[tone],
+        )}>
+          {value}
+          {unit !== undefined && (
+            <span className="text-[12px] font-medium tracking-normal text-ink-3">{unit}</span>
+          )}
+        </span>
+        <span className="flex min-w-0 items-center gap-1.5 text-[11.5px] text-ink-3">
+          <span className="min-w-0 truncate">{label}</span>
+          {trailing}
+        </span>
+      </Link>
+    </div>
+  )
+}
+
+/**
+ * The dashboard's day strip: who is here, what day it is, and the four facts
+ * nothing else on the page reports.
+ *
+ * It used to be a target ring against an invented forty-question goal, which
+ * said the same thing as the progress panel further down and asked for the
+ * same click as the card below it. So it stopped counting questions: the strip
+ * reports the streak, what the review queue is holding, how much of today's
+ * own plan is ticked off, and how long there is until the next paper — each
+ * one a quiet link to the page that owns it, none of them a button.
  */
 export function TodaysTarget() {
   const { t, lang } = useI18n()
-  const { displayName } = useIdentity()
+  const { displayName, audience } = useIdentity()
   const { items } = useUpcoming()
-  const { records } = useAttemptHistory()
   const qotd = useQotd()
+  const due = useDueReviewSummary()
+  const nextExam = useNextExam()
 
   const now = new Date()
   const today = itemsOn(items, now)
   const personal = today.filter((item) => item.source === 'personal')
   const donePersonal = personal.filter((item) => item.done).length
-
-  const qbankRecords = useMemo(
-    () => records.filter((record) => record.surface === 'qbank' || record.surface === 'room'),
-    [records],
-  )
-  const todayCount = dailyCounts(qbankRecords, 1, now)[0]?.attempts ?? 0
-  const remaining = Math.max(0, DAILY_QUESTION_GOAL - todayCount)
-  const earned = todayCount >= DAILY_QUESTION_GOAL
 
   const streakDays = useMemo<DayStatus[]>(() => {
     if (!qotd.current) return []
@@ -75,55 +128,80 @@ export function TodaysTarget() {
     return days
   }, [qotd.current, qotd.history, qotd.date])
 
-  return (
-    <div className="w-full max-w-[46rem]">
-      <Panel className="flex flex-col gap-6 p-6 shadow-pop sm:flex-row sm:items-center sm:gap-9 sm:p-8">
-        <TargetRing
-          value={todayCount}
-          max={DAILY_QUESTION_GOAL}
-          size={112}
-          thickness={9}
-          tone="primary"
-          label={t('questions')}
-          aria-label={`${todayCount} ${t('of')} ${DAILY_QUESTION_GOAL} ${t('questions')}`}
-          className="mx-auto sm:mx-0"
-        />
+  // The exam fact prefers the programme's own figures and falls back to the
+  // block itself, because a paper too far out to have opened a plan is still a
+  // paper worth counting down to.
+  let exam: { daysAway: number; label: string } | null = null
+  if (nextExam) {
+    const away = nextExam.programme?.daysAway ?? daysUntil(nextExam.exam.date, now)
+    if (Number.isFinite(away) && away >= 0) {
+      const title = nextExam.programme?.examTitle
+        || nextExam.exam.title
+        || EXAM_KIND_LABEL[nextExam.exam.examKind ?? 'other']
+      const when = shortDate(nextExam.exam.date, lang)
+      exam = { daysAway: away, label: when ? `${title} · ${when}` : title }
+    }
+  }
 
-        <div className="min-w-0 flex-1 text-center sm:text-start">
-          <h1 className="font-serif text-[22px] font-semibold leading-[1.18] tracking-[-0.02em] text-ink sm:text-[24px]">
+  const facts: ReactNode[] = [
+    <Fact
+      key="streak"
+      to="/app/qbank"
+      value={qotd.current}
+      unit={qotd.current === 1 ? t('day') : t('days')}
+      tone="primary"
+      label={t('Streak')}
+      trailing={streakDays.length > 0 ? <StreakDots days={streakDays} size={6} /> : undefined}
+    />,
+    <Fact
+      key="reviews"
+      to={due.startHref}
+      value={due.count}
+      tone={due.count > 0 ? 'warning' : 'ink'}
+      label={due.count > 0 ? t('Reviews due today') : t('Nothing due')}
+    />,
+  ]
+
+  if (personal.length > 0) {
+    facts.push(
+      <Fact
+        key="blocks"
+        to="/app/calendar"
+        value={donePersonal}
+        unit={`${t('of')} ${personal.length}`}
+        label={t("Today's blocks done")}
+      />,
+    )
+  }
+
+  if (exam) {
+    facts.push(
+      <Fact
+        key="exam"
+        to="/app/calendar"
+        value={exam.daysAway}
+        unit={exam.daysAway === 1 ? t('day') : t('days')}
+        label={exam.label}
+      />,
+    )
+  }
+
+  return (
+    <div className="w-full max-w-[60rem]">
+      <Panel className="flex flex-col gap-3.5 px-4 py-4 shadow-pop sm:flex-row sm:items-center sm:gap-7 sm:px-6 sm:py-[18px]">
+        <div className="min-w-0 flex-1">
+          <h1 className="font-serif text-[20px] font-semibold leading-[1.18] tracking-[-0.02em] text-ink sm:text-[22px]">
             {t(greetingKey())}{displayName?.trim() ? `${lang === 'ar' ? '، ' : ', '}${displayName.trim()}` : ''}
           </h1>
-          <p className="mt-1.5 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-[12.5px] text-ink-3 sm:justify-start">
-            <span className="inline-flex items-center gap-1.5">
-              <Icon icon={CalendarDays} size={13} className="text-ink-3" />
-              {formatLongDate(now)}
-            </span>
-            {personal.length > 0 && (
-              <span>
-                &middot; <span className="tnum font-medium text-ink-2">{donePersonal} {t('of')} {personal.length}</span>{' '}
-                {t("of today's blocks are done")}
-              </span>
-            )}
+          <p className="mt-[3px] flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-[12.5px] text-ink-3">
+            <Icon icon={CalendarDays} size={13} className="text-ink-3" />
+            <span>{formatLongDate(now)}</span>
+            {audience.year && <span>&middot; {audience.year}</span>}
           </p>
+        </div>
 
-          <p className="mt-3 text-[14px] font-medium text-ink">
-            {earned
-              ? t('Target hit for today — nice shooting')
-              : `${remaining} ${t('more to hit your mark')}`}
-          </p>
-
-          {streakDays.length > 0 && (
-            <div className="mt-2.5 flex items-center justify-center gap-2 sm:justify-start">
-              <StreakDots days={streakDays} />
-              <span className="text-[11.5px] text-ink-3">{qotd.current} {t('day streak')}</span>
-            </div>
-          )}
-
-          <div className="mt-4 flex justify-center sm:justify-start">
-            <ButtonLink to="/app/qbank" variant="primary" size="md" iconLeft={Play}>
-              {t('Continue')}
-            </ButtonLink>
-          </div>
+        <div className="grid grid-cols-2 gap-2 sm:flex sm:shrink-0 sm:items-stretch sm:gap-0">
+          {facts}
         </div>
       </Panel>
     </div>

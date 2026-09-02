@@ -5,6 +5,7 @@ import { clickableRow, stopRowClick } from '@/lib/clickableRow'
 import { NO_CHAPTER, UNGROUPED, groupResources } from '@/data/resourceGrouping'
 import { resourceIcon } from '@/data/resourceIcons'
 import { MenuToggle } from '@/components/shell/MenuToggle'
+import { NishanyLoader } from '@/components/ui/NishanyLoader'
 import {
   PlayCircle,
   Bookmark,
@@ -25,7 +26,8 @@ import {
 } from 'lucide-react'
 import type { ResourceType } from '@/data/types'
 import { useLiveResources, type LiveResource } from '@/lib/useLiveResources'
-import { subjects, getSubject } from '@/data/subjects'
+import { subjects } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import { YEARS } from '@/data/universities'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useRecentResources } from '@/lib/useRecentResources'
@@ -73,6 +75,7 @@ function pageParamFor(meta: string): string {
 
 export function Resources() {
   const t = useT()
+  const subjectName = useSubjectName()
   const resources = useLiveResources()
   const [universityCatalogue] = useUniversityCatalogue()
   const navigate = useNavigate()
@@ -194,7 +197,7 @@ export function Resources() {
       pkey: folder.key,
       label: folder.key === UNGROUPED
         ? (groupBy === 'system' ? t('Unfiled') : t('No module'))
-        : groupBy === 'system' ? getSubject(folder.key).name : folder.key,
+        : groupBy === 'system' ? subjectName(folder.key) : folder.key,
       subjectId: folder.subjectId,
       count: folder.count,
       subfolders: folder.subfolders.map((sub) => [
@@ -202,7 +205,7 @@ export function Resources() {
         sub.items,
       ] as const),
     }))
-  }, [groupBy, sectionItems, t])
+  }, [groupBy, sectionItems, subjectName, t])
 
   function toggleSaved(id: string) {
     setSavedIds((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id])
@@ -261,7 +264,7 @@ export function Resources() {
               type="button"
               onClick={() => setSection(val)}
               className={cn(
-                'inline-flex items-center gap-2 rounded-lg px-4 py-2 text-[13.5px] font-semibold transition-colors',
+                'inline-flex min-h-11 items-center gap-2 rounded-lg px-4 py-2 text-[13.5px] font-semibold transition-colors sm:min-h-0',
                 section === val ? 'bg-surface text-primary-strong shadow-panel' : 'text-ink-3 hover:text-ink',
               )}
             >
@@ -313,7 +316,7 @@ export function Resources() {
             <option value="all">{t('All subjects')}</option>
             {subjects.filter((s) => available.subjectCounts.has(s.id)).map((s) => (
               <option key={s.id} value={s.id}>
-                {s.name} ({available.subjectCounts.get(s.id)})
+                {subjectName(s.id)} ({available.subjectCounts.get(s.id)})
               </option>
             ))}
           </Select>
@@ -436,7 +439,6 @@ export function Resources() {
                           ) : (
                             <ul className="pb-1">
                               {list.map((r) => {
-                                const subj = getSubject(r.subjectId)
                                 const isSaved = saved.has(r.id)
                                 return (
                                   <li
@@ -455,7 +457,7 @@ export function Resources() {
                                         {/* Under System grouping the folder header
                                             already names the subject, so repeating
                                             it on every row inside it says nothing. */}
-                                        {groupBy === 'module' && <><span className="inline-flex items-center gap-1.5"><SubjectDot id={subj.id} />{subj.name}</span><span>·</span></>}
+                                        {groupBy === 'module' && <><span className="inline-flex items-center gap-1.5"><SubjectDot id={r.subjectId} />{subjectName(r.subjectId)}</span><span>·</span></>}
                                         <span>{r.source}</span><span>·</span><span>{r.meta}</span>
                                         <span className="hidden sm:inline">·</span><span className="tnum hidden sm:inline">{r.year}</span>
                                         {/* Marked before the tap rather than after
@@ -760,7 +762,7 @@ function MyUploads() {
                         </div>
                         {entry && (
                           <div className="px-4 pb-3 ps-12">
-                            {entry.status === 'loading' && <p className="text-[12px] text-ink-3">{t('Loading…')}</p>}
+                            {entry.status === 'loading' && <NishanyLoader size={24} label={t('Loading')} />}
                             {entry.status === 'error' && <p role="alert" className="text-[12px] text-danger">{entry.message}</p>}
                             {entry.status === 'ready' && entry.url && (
                               <img src={entry.url} alt={row.title} className="max-h-52 w-auto max-w-full rounded-md border border-line object-contain" />

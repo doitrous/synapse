@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
-import { FileUp, Loader2, CheckCircle2, AlertTriangle } from 'lucide-react'
+import { FileUp, CheckCircle2, AlertTriangle } from 'lucide-react'
+import { NishanyLoader } from '@/components/ui/NishanyLoader'
 import { Dialog } from '@/components/ui/Dialog'
 import { PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -176,7 +177,7 @@ export function ImportDeckDialog({ api, onClose }: { api: FlashcardsApi; onClose
 
             {busy && !progress && (
               <p className="flex items-center gap-2 text-[12.5px] text-ink-3">
-                <Loader2 className="animate-spin" size={14} /> {t('Reading file…')}
+                <NishanyLoader mini /> {t('Reading file…')}
               </p>
             )}
 
@@ -233,7 +234,7 @@ export function ImportDeckDialog({ api, onClose }: { api: FlashcardsApi; onClose
 
             {progress && (
               <p className="flex items-center gap-2 text-[12.5px] text-ink-3">
-                <Loader2 className="animate-spin" size={14} /> {t('Uploading media')} {progress.done}/{progress.total}…
+                <NishanyLoader mini /> {t('Uploading media')} {progress.done}/{progress.total}…
               </p>
             )}
 

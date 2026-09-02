@@ -55,7 +55,15 @@ export function PanelHeader({
         </h3>
         {hint && <span className="truncate text-[12px] text-ink-3">{hint}</span>}
       </div>
-      {action && <div className="flex max-w-full shrink-0 items-center gap-1">{action}</div>}
+      {/* `min-w-0` is what lets `max-w-full` clamp this box at all: a flex
+          item's `min-width: auto` resolves to min-content and overrides a
+          max-width. That clamp alone still cut the last control off on a
+          phone, because the controls inside do not shrink — so below `sm` the
+          row wraps onto a second line instead. Deliberately not a scroll
+          container: `overflow-x` cannot be `auto` on one axis only, and the
+          other axis would then clip the tooltip and the focus ring that every
+          `IconButton` in a panel header paints above itself. */}
+      {action && <div className="flex min-w-0 max-w-full shrink-0 items-center gap-1 max-sm:flex-wrap max-sm:justify-end">{action}</div>}
     </div>
   )
 }

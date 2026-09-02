@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import { FileText, Focus as FocusIcon, Image as ImageIcon, Minus, Plus, Type as WordsIcon } from 'lucide-react'
 import {
   $createParagraphNode,
@@ -35,6 +35,7 @@ import { ImageNode } from './ImageNode'
 import { ReadyItemNode } from './ReadyItemNode'
 import { NoteDrawLayer, type DrawTool } from './NoteDrawLayer'
 import { NoteRibbon, type DrawControls } from './NoteRibbon'
+import { useT } from '@/lib/i18n'
 
 interface NoteEditorChange {
   editorJson: NotebookEditorJson
@@ -127,6 +128,7 @@ export function NoteEditor({
   drawing,
   onDrawingChange,
 }: NoteEditorProps) {
+  const t = useT()
   const initialState = useMemo(() => JSON.stringify(normaliseForLexical(editorJson)), [editorJson])
   const locallyEmittedStates = useRef(new Set<string>())
   const [zoom, setZoom] = usePersistentState<number>('nishany.notebook.zoom', 100)
@@ -173,19 +175,25 @@ export function NoteEditor({
     >
       <div className="rounded-xl border border-line bg-surface shadow-soft">
         <NoteRibbon uploadImage={uploadImage} draw={draw} />
+        {/* The zoom rides as a custom property rather than as `font-size`
+            itself: an inline `font-size` is unreachable from a stylesheet, and
+            below `sm` the note body has to be floored at 16px or iOS Safari
+            zooms the page on focus and never zooms back out. `.note-zoom` in
+            `index.css` reads the property, so desktop keeps exactly the size
+            it had and the zoom control still works upward on a phone. */}
         <div
-          className="relative min-h-[42vh] px-4 py-3 sm:px-5 sm:py-4"
-          style={{ fontSize: `${Math.round((BASE_FONT_PX * zoom) / 100)}px` }}
+          className="note-zoom relative min-h-[42dvh] px-4 py-3 sm:px-5 sm:py-4"
+          style={{ '--note-font-px': `${Math.round((BASE_FONT_PX * zoom) / 100)}px` } as CSSProperties}
         >
           <div className="relative z-10">
             <RichTextPlugin
               contentEditable={
                 <ContentEditable
                   onPaste={onPaste}
-                  aria-label="Note body"
-                  aria-placeholder={placeholder ?? 'Start writing…'}
-                  placeholder={<p className="pointer-events-none absolute left-1 top-0 text-[0.93em] text-ink-3">{placeholder ?? 'Start writing…'}</p>}
-                  className="min-h-[38vh] outline-none prose-headings:font-serif leading-[1.75] text-ink/90 focus-visible:ring-0"
+                  aria-label={t('Note body')}
+                  aria-placeholder={placeholder ?? t('Start writing…')}
+                  placeholder={<p className="pointer-events-none absolute left-1 top-0 text-[0.93em] text-ink-3">{placeholder ?? t('Start writing…')}</p>}
+                  className="min-h-[38dvh] outline-none prose-headings:font-serif leading-[1.75] text-ink/90 focus-visible:ring-0"
                 />
               }
               ErrorBoundary={LexicalErrorBoundary}
@@ -257,13 +265,14 @@ function NoteStatusBar({
   focusMode?: boolean
   onToggleFocus?: () => void
 }) {
+  const t = useT()
   const page = notePosition ?? { index: 1, total: 1 }
   return (
     <div className="flex flex-wrap items-center justify-between gap-2 border-t border-line px-4 py-1.5 text-[11.5px] text-ink-3 sm:px-5">
       <div className="flex flex-wrap items-center gap-2.5">
         <span className="tnum inline-flex items-center gap-1.5">
           <Icon icon={FileText} size={13} />
-          Page {page.index} of {page.total}
+          {t('Page {index} of {total}').replace('{index}', String(page.index)).replace('{total}', String(page.total))}
         </span>
         <span aria-hidden className="text-ink-3/50">·</span>
         <span className="tnum inline-flex items-center gap-1.5">
@@ -293,26 +302,27 @@ function NoteStatusBar({
 }
 
 function ZoomControl({ zoom, onChange }: { zoom: number; onChange: (next: Updater<number>) => void }) {
+  const t = useT()
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
   const step = (delta: number) => onChange((current) => Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, current + delta)))
 
   return (
     <div className="flex items-center gap-0.5">
-      <IconButton icon={Minus} label="Zoom out" size="sm" onClick={() => step(-10)} disabled={zoom <= ZOOM_MIN} className="disabled:pointer-events-none disabled:opacity-40" />
+      <IconButton icon={Minus} label={t('Zoom out')} size="sm" onClick={() => step(-10)} disabled={zoom <= ZOOM_MIN} className="disabled:pointer-events-none disabled:opacity-40" />
       <button
         type="button"
         ref={setAnchor}
         onClick={() => setOpen(true)}
         aria-haspopup="menu"
         aria-expanded={open}
-        aria-label="Zoom level"
+        aria-label={t('Zoom level')}
         className="tnum grid h-11 min-w-[3.25rem] shrink-0 place-items-center rounded-lg px-1 text-[11.5px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:h-8"
       >
         {zoom}%
       </button>
-      <IconButton icon={Plus} label="Zoom in" size="sm" onClick={() => step(10)} disabled={zoom >= ZOOM_MAX} className="disabled:pointer-events-none disabled:opacity-40" />
+      <IconButton icon={Plus} label={t('Zoom in')} size="sm" onClick={() => step(10)} disabled={zoom >= ZOOM_MAX} className="disabled:pointer-events-none disabled:opacity-40" />
       {open && (
-        <Popover anchor={anchor} onClose={close} role="menu" label="Zoom" className="min-w-[7rem] py-1">
+        <Popover anchor={anchor} onClose={close} role="menu" label={t('Zoom')} className="min-w-[7rem] py-1">
           {ZOOM_LEVELS.map((level) => (
             <button
               key={level}
@@ -394,9 +404,10 @@ function normaliseForLexical(editorJson: NotebookEditorJson): NotebookEditorJson
 }
 
 export function NotePreview({ source, editorJson }: { source?: string; editorJson?: NotebookEditorJson }) {
+  const t = useT()
   const state = editorJson ?? plainTextToEditorJson(source ?? '')
   const initialState = useMemo(() => JSON.stringify(normaliseForLexical(state)), [state])
-  if (!source?.trim() && !editorJson) return <p className="text-[13px] text-ink-3">No content yet.</p>
+  if (!source?.trim() && !editorJson) return <p className="text-[13px] text-ink-3">{t('No content yet.')}</p>
   return (
     <LexicalComposer
       initialConfig={{

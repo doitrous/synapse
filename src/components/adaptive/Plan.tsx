@@ -22,6 +22,7 @@ import { NEED_LABEL, ALLOCATION_NEEDS } from '@/data/adaptive/config'
 import type { AdaptiveStudy } from '@/lib/adaptive/useAdaptiveStudy'
 import { useConceptLabels, usePrerequisites } from '@/lib/adaptive/useAdaptiveConfig'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 
 const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
@@ -35,32 +36,36 @@ function weekStart(from = new Date()): string {
 
 const TIER_TONE = { minimum: 'primary', recommended: 'neutral', stretch: 'outline' } as const
 const TIER_LABEL: Record<TaskTier, string> = { minimum: 'Minimum', recommended: 'Recommended', stretch: 'Stretch' }
+// `Review` alone is already the Dashboard's imperative verb, so the day kind
+// carries its own key rather than overriding that translation.
 const DAY_KIND_LABEL: Record<CrashDay['kind'], string> = {
-  study: 'Study', mock: 'Mock', review: 'Review', 'catch-up': 'Catch-up', rest: 'Rest',
+  study: 'Study', mock: 'Mock', review: 'Review day', 'catch-up': 'Catch-up', rest: 'Rest',
 }
 
 function TaskRow({ task }: { task: PlanTask }) {
+  const t = useT()
   if (task.kind === 'rest') {
     return (
       <div className="rounded-lg border border-dashed border-line px-3 py-2.5">
-        <p className="text-[12.5px] font-medium text-ink-3">Rest</p>
-        <p className="mt-0.5 text-[11.5px] leading-relaxed text-ink-3">{task.reason}</p>
+        <p className="text-[12.5px] font-medium text-ink-3">{t('Rest')}</p>
+        <p className="mt-0.5 text-[11.5px] leading-relaxed text-ink-3">{t(task.reason)}</p>
       </div>
     )
   }
   return (
     <div className="rounded-lg border border-line bg-surface px-3 py-2.5">
       <div className="flex flex-wrap items-center gap-2">
-        <p className="min-w-0 flex-1 truncate text-[12.5px] font-medium text-ink">{task.title}</p>
+        <p className="min-w-0 flex-1 truncate text-[12.5px] font-medium text-ink">{t(task.title)}</p>
         <span className="tnum shrink-0 font-mono text-[11px] text-ink-2">{task.expectedMinutes}m</span>
-        <Badge tone={TIER_TONE[task.tier]}>{TIER_LABEL[task.tier]}</Badge>
+        <Badge tone={TIER_TONE[task.tier]}>{t(TIER_LABEL[task.tier])}</Badge>
       </div>
-      <p className="mt-1 text-[11.5px] leading-relaxed text-ink-3">{task.reason}</p>
+      <p className="mt-1 text-[11.5px] leading-relaxed text-ink-3">{t(task.reason)}</p>
     </div>
   )
 }
 
 export function Plan({ study }: { study: AdaptiveStudy }) {
+  const t = useT()
   const [minutesPerDay, setMinutesPerDay] = useState(90)
   const labels = useConceptLabels()
   const prerequisites = usePrerequisites()
@@ -148,12 +153,12 @@ export function Plan({ study }: { study: AdaptiveStudy }) {
     <div className="space-y-5">
       <Panel>
         <PanelHeader
-          title="This week"
+          title={t('This week')}
           icon={CalendarRange}
-          hint={`${Math.round(plan.plannedMinutes / 60)}h planned`}
+          hint={t('{hours}h planned').replace('{hours}', String(Math.round(plan.plannedMinutes / 60)))}
           action={
             <div className="w-40">
-              <Field label="Minutes per day">
+              <Field label={t('Minutes per day')}>
                 <TextInput
                   type="number"
                   min={0}
@@ -170,7 +175,7 @@ export function Plan({ study }: { study: AdaptiveStudy }) {
             <div key={date} className="min-w-0 space-y-2">
               <div className="flex items-baseline justify-between">
                 <p className="text-[12px] font-semibold text-ink">
-                  {DAY_NAMES[new Date(date).getDay()]}
+                  {t(DAY_NAMES[new Date(date).getDay()])}
                 </p>
                 <span className="tnum font-mono text-[11px] text-ink-3">
                   {tasks.reduce((sum, task) => sum + task.expectedMinutes, 0)}m
@@ -183,28 +188,31 @@ export function Plan({ study }: { study: AdaptiveStudy }) {
         <div className="space-y-3 border-t border-line p-5">
           <div className="flex flex-wrap gap-2">
             <Badge tone="outline">
-              <span className="tnum font-mono">{Math.round(plan.bufferMinutes / 60)}h</span> left unscheduled
+              <span className="tnum font-mono">{Math.round(plan.bufferMinutes / 60)}h</span> {t('left unscheduled')}
             </Badge>
-            <Badge tone="outline">Config v{plan.configVersion}</Badge>
+            <Badge tone="outline">{t('Config v{version}').replace('{version}', String(plan.configVersion))}</Badge>
           </div>
           {plan.unplaced.length > 0 && (
             <Caveat>
-              {plan.unplaced.length} session{plan.unplaced.length === 1 ? '' : 's'} could not be placed in this week:{' '}
-              {plan.unplaced.map((task) => task.title).join(', ')}. Your stated hours cannot hold everything the plan
-              wanted, and the shortfall is shown rather than dropped.
+              {plan.unplaced.length}{' '}
+              {plan.unplaced.length === 1
+                ? t('session could not be placed in this week:')
+                : t('sessions could not be placed in this week:')}{' '}
+              {plan.unplaced.map((task) => t(task.title)).join(', ')}
+              {t('. Your stated hours cannot hold everything the plan wanted, and the shortfall is shown rather than dropped.')}
             </Caveat>
           )}
-          <Caveat>{PLAN_CAVEAT}</Caveat>
+          <Caveat>{t(PLAN_CAVEAT)}</Caveat>
         </div>
       </Panel>
 
       <Panel>
-        <PanelHeader title="Where the week's time goes" icon={Gauge} />
+        <PanelHeader title={t("Where the week's time goes")} icon={Gauge} />
         <div className="space-y-3.5 p-5">
           {ALLOCATION_NEEDS.map((need) => (
             <ShareRow
               key={need}
-              label={NEED_LABEL[need]}
+              label={t(NEED_LABEL[need])}
               value={plan.needMinutes[need]}
               max={Math.max(1, plan.plannedMinutes)}
               right={`${plan.needMinutes[need]}m`}
@@ -217,32 +225,33 @@ export function Plan({ study }: { study: AdaptiveStudy }) {
       {programme ? (
         <Panel>
           <PanelHeader
-            title={`${programme.band.days}-day programme`}
+            title={t('{days}-day programme').replace('{days}', String(programme.band.days))}
             icon={Layers}
-            hint={programme.band.emphasis}
-            action={<Badge tone="outline">{programme.band.assessmentCadence}</Badge>}
+            hint={t(programme.band.emphasis)}
+            action={<Badge tone="outline">{t(programme.band.assessmentCadence)}</Badge>}
           />
           <div className="space-y-4 p-5">
-            <p className="text-[13.5px] leading-relaxed text-ink-2">{programme.claim}</p>
+            <p className="text-[13.5px] leading-relaxed text-ink-2">{t(programme.claim)}</p>
 
             {programme.unreachableGroups.length > 0 && (
               <Caveat>
-                No approved questions exist for{' '}
-                <span className="tnum font-mono">{percent(programme.unreachableWeight)}</span> of your blueprint by
-                weight: {programme.unreachableGroups.slice(0, 4).map((group) => group.groupLabel).join(', ')}. These are
-                listed rather than left out silently.
+                {t('No approved questions exist for')}{' '}
+                <span className="tnum font-mono">{percent(programme.unreachableWeight)}</span>{' '}
+                {t('of your blueprint by weight:')}{' '}
+                {programme.unreachableGroups.slice(0, 4).map((group) => group.groupLabel).join(', ')}
+                {t('. These are listed rather than left out silently.')}
               </Caveat>
             )}
 
             {emptyStudyDays(programme) > 0 && (
               <Caveat>
-                <span className="tnum font-mono">{emptyStudyDays(programme)}</span> study days have nothing to schedule —
-                the question bank ran out before the programme did.
+                <span className="tnum font-mono">{emptyStudyDays(programme)}</span>{' '}
+                {t('study days have nothing to schedule — the question bank ran out before the programme did.')}
               </Caveat>
             )}
 
             <div>
-              <SubHeading>First two weeks</SubHeading>
+              <SubHeading>{t('First two weeks')}</SubHeading>
               <div className="mt-3 space-y-1.5">
                 {programme.days.slice(0, 14).map((day) => (
                   <div
@@ -252,50 +261,50 @@ export function Plan({ study }: { study: AdaptiveStudy }) {
                       day.kind === 'study' ? 'border-line bg-surface' : 'border-dashed border-line bg-surface-2',
                     )}
                   >
-                    <span className="tnum w-10 shrink-0 font-mono text-[11px] text-ink-3">Day {day.dayNumber}</span>
-                    <Badge tone={day.kind === 'mock' ? 'primary' : 'outline'}>{DAY_KIND_LABEL[day.kind]}</Badge>
+                    <span className="tnum w-10 shrink-0 font-mono text-[11px] text-ink-3">{t('Day')} {day.dayNumber}</span>
+                    <Badge tone={day.kind === 'mock' ? 'primary' : 'outline'}>{t(DAY_KIND_LABEL[day.kind])}</Badge>
                     <p className="min-w-0 flex-1 text-[12.5px] text-ink-2">
                       {day.labels.length
                         ? day.labels.map((label, index) => labels.get(day.conceptIds[index]) ?? label).join(' · ')
-                        : day.reason}
+                        : t(day.reason)}
                     </p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <Caveat>{CRASH_CAVEAT}</Caveat>
+            <Caveat>{t(CRASH_CAVEAT)}</Caveat>
           </div>
         </Panel>
       ) : (
         <Panel>
-          <PanelHeader title="Crash programme" icon={Layers} />
+          <PanelHeader title={t('Crash programme')} icon={Layers} />
           <EmptyState
             icon={ListChecks}
-            title="No exam close enough for a compressed programme"
+            title={t('No exam close enough for a compressed programme')}
             description={
               study.daysToExam === null
-                ? 'No exam is published on your timetable, so nothing here is going to invent a countdown.'
-                : 'Your exam is far enough away that an ordinary weekly plan serves you better.'
+                ? t('No exam is published on your timetable, so nothing here is going to invent a countdown.')
+                : t('Your exam is far enough away that an ordinary weekly plan serves you better.')
             }
           />
         </Panel>
       )}
 
       <Panel>
-        <PanelHeader title="Capacity" icon={Clock3} />
+        <PanelHeader title={t('Capacity')} icon={Clock3} />
         <Table>
           <thead>
             <tr>
-              <Th>Reading</Th>
-              <Th align="end">Minutes</Th>
+              <Th>{t('Capacity reading')}</Th>
+              <Th align="end">{t('Minutes')}</Th>
             </tr>
           </thead>
           <tbody>
-            <Tr><Td>You said you have</Td><Td align="end" className="tnum font-mono">{plan.statedMinutes}</Td></Tr>
-            <Tr><Td>Planned</Td><Td align="end" className="tnum font-mono">{plan.plannedMinutes}</Td></Tr>
+            <Tr><Td>{t('You said you have')}</Td><Td align="end" className="tnum font-mono">{plan.statedMinutes}</Td></Tr>
+            <Tr><Td>{t('Planned')}</Td><Td align="end" className="tnum font-mono">{plan.plannedMinutes}</Td></Tr>
             <Tr>
-              <Td>Deliberately left free</Td>
+              <Td>{t('Deliberately left free')}</Td>
               <Td align="end" className="tnum font-mono text-primary-strong">{plan.bufferMinutes}</Td>
             </Tr>
           </tbody>

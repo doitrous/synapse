@@ -36,7 +36,7 @@ function Section({
   return (
     <section className="border-t border-line px-4 py-3.5 first:border-t-0">
       <div className="mb-2 flex items-center gap-2">
-        <h3 className="inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
+        <h3 className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-ink">
           <Icon icon={icon} size={13} />
           {title}
         </h3>
@@ -77,7 +77,7 @@ function Held() {
   const t = useT()
   return (
     <section className="border-t border-line px-4 py-3.5">
-      <h3 className="mb-2 inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
+      <h3 className="mb-2 inline-flex items-center gap-1.5 text-[13px] font-semibold text-ink">
         <Icon icon={Lock} size={13} />
         {t('After you answer')}
       </h3>
@@ -138,7 +138,7 @@ export function StudyRail({
             aria-pressed={flagged}
             onClick={onFlag}
             className={cn(
-              'inline-flex min-h-9 items-center justify-center gap-1.5 rounded-md border px-2 text-[11.5px] font-semibold transition-colors',
+              'inline-flex min-h-11 items-center justify-center gap-1.5 rounded-md border px-2 text-[11.5px] font-semibold transition-colors sm:min-h-9',
               flagged ? 'border-primary-line bg-primary-tint text-primary-strong' : 'border-line bg-surface text-ink-2 hover:bg-inset hover:text-ink',
             )}
           >
@@ -148,7 +148,7 @@ export function StudyRail({
           <button
             type="button"
             onClick={onReport}
-            className="inline-flex min-h-9 items-center justify-center gap-1.5 rounded-md border border-line bg-surface px-2 text-[11.5px] font-semibold text-ink-2 transition-colors hover:border-danger/30 hover:bg-danger-tint hover:text-danger"
+            className="inline-flex min-h-11 items-center justify-center gap-1.5 rounded-md border border-line bg-surface px-2 text-[11.5px] font-semibold text-ink-2 transition-colors hover:border-danger/30 hover:bg-danger-tint hover:text-danger sm:min-h-9"
           >
             <Icon icon={MessageSquareWarning} size={13} />
             {t('Report')}
@@ -156,7 +156,7 @@ export function StudyRail({
           <button
             type="button"
             onClick={onEnd}
-            className="inline-flex min-h-9 items-center justify-center gap-1.5 rounded-md border border-line-2 bg-surface px-2 text-[11.5px] font-semibold text-ink transition-colors hover:bg-inset"
+            className="inline-flex min-h-11 items-center justify-center gap-1.5 rounded-md border border-line-2 bg-surface px-2 text-[11.5px] font-semibold text-ink transition-colors hover:bg-inset sm:min-h-9"
           >
             <Icon icon={LogOut} size={13} />
             {endLabel}
@@ -210,7 +210,7 @@ export function StudyRail({
                   key={ref.id}
                   to={`/app/library?s=${ref.id}`}
                   state={backState(location, t('Back to question'))}
-                  className="inline-flex items-start gap-1.5 rounded-md border border-primary-line bg-primary-tint/60 px-2.5 py-2 text-[12.5px] font-medium leading-snug text-primary-strong transition-colors hover:bg-primary-tint"
+                  className="inline-flex min-h-11 items-start gap-1.5 rounded-md border border-primary-line bg-primary-tint/60 px-2.5 py-2 text-[12.5px] font-medium leading-snug text-primary-strong transition-colors hover:bg-primary-tint sm:min-h-0"
                 >
                   <Icon icon={BookOpen} size={14} className="mt-px shrink-0" />
                   {ref.title}
@@ -221,7 +221,7 @@ export function StudyRail({
                   key={ref}
                   to={`/app/resources?q=${encodeURIComponent(ref.split(' · ')[0])}`}
                   state={backState(location, t('Back to question'))}
-                  className="inline-flex items-start gap-1.5 rounded-md border border-line bg-surface px-2.5 py-2 text-[12.5px] leading-snug text-ink-2 transition-colors hover:text-ink"
+                  className="inline-flex min-h-11 items-start gap-1.5 rounded-md border border-line bg-surface px-2.5 py-2 text-[12.5px] leading-snug text-ink-2 transition-colors hover:text-ink sm:min-h-0"
                 >
                   <Icon icon={FileText} size={14} className="mt-px shrink-0 text-ink-3" />
                   {ref}

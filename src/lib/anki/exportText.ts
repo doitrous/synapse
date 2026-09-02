@@ -6,7 +6,11 @@
  * a later UI task calls this directly to build a Blob for download.
  *
  * `pipe` and `csv` are read-anywhere plain text, so their fields are stripped
- * of HTML via `richToPlainText` (see `richText.ts`). `anki-tsv` sets
+ * of HTML via `richToPlainText` (see `richText.ts`) — which now matters for a
+ * Cloze note too, whose `text` field became sanitized HTML when the cloze
+ * editor became a rich surface. The `{{c1::…}}` markers survive that stripping
+ * (they are plain text inside the HTML) and must: they are the note, and a
+ * re-import has to rebuild the same cards from them. `anki-tsv` sets
  * `#html:true`, Anki's own signal that field values are HTML, so those fields
  * keep their markup verbatim — a Cloze note's `{{c1::…}}` markup included, so
  * Anki's importer regenerates the same cloze cards it would from a native

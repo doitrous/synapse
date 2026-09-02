@@ -10,16 +10,11 @@ const STROKE: Record<Tone, string> = {
   accent: 'var(--color-accent)',
 }
 
-const DOT: Record<Tone, string> = {
-  primary: 'var(--color-primary)',
-  accent: 'var(--color-accent)',
-}
-
 /**
- * The brand mark as a meter: a ring that sweeps toward a target, with the
- * crimson (or, for long-horizon metrics, blue) bullseye dot appearing only
- * once the value actually reaches `max`. An unfinished ring never shows the
- * dot — the mark itself is earned by completing the goal, not decoration.
+ * The brand mark as a meter: a ring that sweeps toward a target. The reading
+ * sits in the centre, so this ring never draws the bullseye dot — at 100% the
+ * dot landed on top of the figure and hid it. The dot survives on
+ * `RingStack`, whose centre is empty.
  *
  * Sweeps from 12 o'clock; in a right-to-left document the sweep mirrors
  * (counter-clockwise) so it still reads as "closing in" rather than reversed.
@@ -46,7 +41,6 @@ export function TargetRing({
 }) {
   const { dir } = useI18n()
   const pct = clamp(max > 0 ? (value / max) * 100 : 0, 0, 100)
-  const earned = max > 0 && value >= max
 
   const radius = (size - thickness) / 2
   const innerRadius = Math.max(radius - thickness / 2 - 3, 0)
@@ -105,18 +99,6 @@ export function TargetRing({
           </span>
         )}
       </div>
-      {earned && (
-        <span
-          key="earned-dot"
-          aria-hidden
-          className="target-ring-dot pointer-events-none absolute inset-0 m-auto rounded-full"
-          style={{
-            width: Math.max(thickness * 1.1, 8),
-            height: Math.max(thickness * 1.1, 8),
-            backgroundColor: DOT[tone],
-          }}
-        />
-      )}
     </div>
   )
 }

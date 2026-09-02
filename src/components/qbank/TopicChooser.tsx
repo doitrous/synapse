@@ -5,12 +5,19 @@ import type { Subject } from '@/data/types'
 import type { LibTopic } from '@/data/library'
 import type { Question } from '@/data/qbank'
 import { Icon } from '@/components/ui/Icon'
-import { SubjectDot } from '@/components/ui/Subject'
+import { SearchInput } from '@/components/ui/Field'
 import { Segmented } from '@/components/ui/Tabs'
-import { useSystemColor } from '@/data/systemColors'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
-import { chooserTopics, scopeCounts, topicKey, subtopicKey, type Scope } from '@/data/qbankScope'
+import {
+  chooserTopics,
+  filterTopicsInContainer,
+  matchesQuery,
+  scopeCounts,
+  topicKey,
+  subtopicKey,
+  type Scope,
+} from '@/data/qbankScope'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { useIdentity } from '@/lib/useIdentity'
 import { useModuleLibraryContent } from '@/lib/useModuleLibraryContent'
@@ -24,29 +31,37 @@ function Box({ checked, partial }: { checked: boolean; partial?: boolean }) {
       )}
     >
       {checked && <Icon icon={Check} size={13} strokeWidth={2.8} />}
-      {!checked && partial && <span className="size-2 rounded-[2px] bg-primary" />}
+      {!checked && partial && <span className="h-0.5 w-2 rounded-[1px] bg-primary" />}
     </span>
   )
 }
 
-/**
- * A guard for the left accent's colour: `getSubject` always supplies a plain
- * 6-digit hex, but a future colour source (a named CSS colour, an admin typo)
- * shouldn't crash the tree — it just falls back to a neutral line.
- */
-function accentColor(hex: string): string {
-  return /^#([0-9a-f]{6})$/i.test(hex) ? hex : 'var(--color-line-2)'
+/** The chevron control, its own 28 px target (44 px below `sm`) beside a row. */
+function Chevron({ open, label, onClick }: { open: boolean; label: string; onClick: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-expanded={open}
+      aria-label={label}
+      className="grid size-11 shrink-0 place-items-center rounded-[7px] text-ink-3 transition-colors hover:bg-inset hover:text-ink sm:size-7"
+    >
+      <Icon icon={ChevronRight} size={15} className="chevron-turn" open={open} />
+    </button>
+  )
 }
 
 /**
- * One system's row plus its expanded chapters. Split out of the main tree so
- * it can call `useSystemColor` — the same reactive colour source `SubjectDot`
- * renders, including any admin override from Subjects & Topics — without
- * calling a hook inside the `groups.map` loop above it.
+ * One system's row plus its expanded chapters.
+ *
+ * Deliberately carries no system colour of any kind — no accent bar, no dot.
+ * The only colour in the tree is the tick and its tint, so a wall of twenty
+ * systems reads as one calm list rather than a stack of coloured bars.
  */
 function SubjectGroup({
   subj,
   topics,
+  allTopics,
   value,
   counts,
   isOpen,
@@ -56,10 +71,22 @@ function SubjectGroup({
   toggleSub,
   expanded,
   setExpanded,
+  query,
+  containerMatched,
   t,
 }: {
   subj: Subject
+  /** The chapters actually rendered — the search's slice of `allTopics`. */
   topics: LibTopic[]
+  /**
+   * Every chapter this system has in the active view, search or no search.
+   *
+   * The count and the checkbox describe the whole system, so a search that
+   * hides three of four chapters still reads "1 of 4" and still shows a
+   * partial tick. The toggle below stays on `topics`: a control acts on what
+   * the student can see.
+   */
+  allTopics: LibTopic[]
   value: Scope
   counts: { topics: Record<string, number>; subtopics: Record<string, number> }
   isOpen: boolean
@@ -69,111 +96,112 @@ function SubjectGroup({
   toggleSub: (topicId: string, subId: string) => void
   expanded: Record<string, boolean>
   setExpanded: Dispatch<SetStateAction<Record<string, boolean>>>
+  /** The live search text, so a row that only matched through a subtopic opens itself. */
+  query: string
+  /**
+   * True when the search matched this system's own name (or its module's), so
+   * every chapter under it is here because the container was the hit — not
+   * because anything inside it matched. Chapters then stay as the student left
+   * them instead of all springing open.
+   */
+  containerMatched: boolean
   t: (s: string) => string
 }) {
-  const color = useSystemColor(subj.id)
-  const selectedTopics = topics.filter((topic) => value.has(topicKey(topic.id)))
-  const anyGranular = topics.some((topic) => topic.subtopics.some((sub) => value.has(subtopicKey(sub.id))))
-  const allSelected = selectedTopics.length === topics.length
+  const selectedTopics = allTopics.filter((topic) => value.has(topicKey(topic.id)))
+  const anyGranular = allTopics.some((topic) => topic.subtopics.some((sub) => value.has(subtopicKey(sub.id))))
+  const allSelected = allTopics.length > 0 && selectedTopics.length === allTopics.length
   const someSelected = selectedTopics.length > 0 || anyGranular
-  const questionCount = topics.reduce((sum, topic) => sum + (counts.topics[topic.id] ?? 0), 0)
+  const questionCount = allTopics.reduce((sum, topic) => sum + (counts.topics[topic.id] ?? 0), 0)
+  const chapterWord = allTopics.length === 1 ? t('{n} chapter') : t('{n} chapters')
+  const closedCount = `${chapterWord.replace('{n}', String(allTopics.length))} · ${questionCount}`
+  const openCount = t('{n} of {m}').replace('{n}', String(selectedTopics.length)).replace('{m}', String(allTopics.length))
 
   return (
-    <div>
+    <div className="divide-y divide-line/60">
       {/* Two targets in one row: the checkbox half takes the whole system,
           the chevron opens it. Every system used to dump all its chapters
           inline, so twenty systems was one long scroll with no way to put
-          any of it away.
-
-          The row stays neutral; the subject's brand colour lives only in the
-          thick accent line down its start edge, so the tree reads as a calm
-          list keyed by a colour rather than a stack of coloured bars. */}
-      <div
-        className="flex w-full items-center gap-1 bg-surface-2/60 pe-2 transition-colors hover:bg-surface-2"
-        style={{ borderInlineStart: `4px solid ${accentColor(color)}` }}
-      >
+          any of it away. */}
+      <div className="flex w-full items-center gap-2.5 bg-surface pe-2 ps-3.5 transition-colors hover:bg-inset/50">
         <button
           type="button"
           onClick={() => toggleSubject(subj.id)}
           aria-pressed={allSelected}
-          className="flex min-w-0 flex-1 items-center gap-2.5 px-3 py-2 text-start"
+          className="flex min-h-11 min-w-0 flex-1 items-center gap-2.5 text-start sm:min-h-[46px]"
         >
           <Box checked={allSelected} partial={!allSelected && someSelected} />
-          <SubjectDot id={subj.id} />
-          <span className="min-w-0 flex-1 truncate text-[11.5px] font-semibold uppercase tracking-[0.07em] text-ink-2">{subj.name}</span>
-          <span
-            className={cn(
-              'tnum shrink-0 rounded-md px-1.5 py-0.5 font-mono text-[10.5px]',
-              someSelected ? 'bg-surface text-ink-2' : 'text-ink-3',
-            )}
-          >
-            {questionCount}
+          <span className="min-w-0 flex-1 truncate text-[13.5px] font-semibold text-ink">{subj.name}</span>
+          <span className={cn('tnum shrink-0 text-[11.5px]', someSelected ? 'text-primary-strong' : 'text-ink-3')}>
+            {isOpen ? openCount : closedCount}
           </span>
         </button>
-        <button
-          type="button"
-          onClick={onToggleOpen}
-          aria-expanded={isOpen}
-          aria-label={`${isOpen ? t('Hide') : t('Show')} ${subj.name}`}
-          className="grid size-7 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink"
-        >
-          <Icon icon={ChevronRight} size={15} className={cn('chevron-turn')} open={isOpen} />
-        </button>
+        <Chevron open={isOpen} label={`${isOpen ? t('Hide') : t('Show')} ${subj.name}`} onClick={onToggleOpen} />
       </div>
       {isOpen && topics.map((topic) => {
         const topicSelected = value.has(topicKey(topic.id))
         const selectedSubs = topic.subtopics.filter((s) => value.has(subtopicKey(s.id)))
         const partial = !topicSelected && selectedSubs.length > 0
-        const topicOpen = expanded[topic.id] ?? false
+        // A chapter that only survived the search because one of its
+        // subtopics matched has to open itself, or the match is invisible.
+        // The student's own open/closed state is never written to here, so
+        // clearing the search restores exactly what they had open.
+        const forcedOpen =
+          query.trim().length > 0 &&
+          !containerMatched &&
+          topic.subtopics.length > 0 &&
+          !matchesQuery(topic.title, query)
+        const topicOpen = forcedOpen || (expanded[topic.id] ?? false)
         return (
-          <div key={topic.id}>
+          <div key={topic.id} className="divide-y divide-line/60">
             <div
               className={cn(
-                'flex items-center gap-2 px-3 py-2 transition-colors',
-                topicSelected ? 'bg-primary-tint/70' : partial ? 'bg-primary-tint/30' : 'hover:bg-inset/50',
+                'flex items-center gap-2.5 pe-2 ps-11 transition-colors',
+                topicSelected ? 'bg-primary-tint' : partial ? 'bg-primary-tint/40' : 'bg-surface hover:bg-inset/50',
               )}
             >
-              <button type="button" onClick={() => toggleTopic(topic.id)} className="flex min-w-0 flex-1 items-center gap-2.5 text-start">
-                <Box checked={topicSelected} partial={partial} />
-                <span className="truncate text-[13.5px] font-medium text-ink">{topic.title}</span>
-              </button>
-              <span
-                className={cn(
-                  'tnum rounded-md px-1.5 py-0.5 font-mono text-[11px]',
-                  topicSelected || partial ? 'bg-surface text-primary-strong' : 'bg-inset text-ink-3',
-                )}
-              >
-                {counts.topics[topic.id]}
-              </span>
               <button
                 type="button"
-                onClick={() => setExpanded((prev) => ({ ...prev, [topic.id]: !topicOpen }))}
-                aria-expanded={topicOpen}
-                aria-label={t('Toggle subtopics')}
-                className="grid size-7 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink"
+                onClick={() => toggleTopic(topic.id)}
+                aria-pressed={topicSelected}
+                className="flex min-h-11 min-w-0 flex-1 items-center gap-2.5 text-start sm:min-h-[42px]"
               >
-                <Icon icon={ChevronRight} size={15} className={cn('chevron-turn')} open={topicOpen} />
+                <Box checked={topicSelected} partial={partial} />
+                <span className="min-w-0 flex-1 truncate text-[13.5px] font-medium text-ink">{topic.title}</span>
+                <span className={cn('tnum shrink-0 text-[11.5px]', topicSelected || partial ? 'text-primary-strong' : 'text-ink-3')}>
+                  {counts.topics[topic.id]}
+                </span>
               </button>
+              {topic.subtopics.length > 0 ? (
+                <Chevron
+                  open={topicOpen}
+                  label={t('Toggle subtopics')}
+                  onClick={() => setExpanded((prev) => ({ ...prev, [topic.id]: !(prev[topic.id] ?? false) }))}
+                />
+              ) : (
+                <span aria-hidden className="size-11 shrink-0 sm:size-7" />
+              )}
             </div>
-            {topicOpen && (
-              <div className="ms-[1.6rem] border-s border-line-2 ps-2">
-                {topic.subtopics.map((s) => {
-                  const checked = topicSelected || value.has(subtopicKey(s.id))
-                  return (
-                    <button
-                      key={s.id}
-                      type="button"
-                      onClick={() => toggleSub(topic.id, s.id)}
-                      className="flex w-full items-center gap-2.5 px-3 py-1.5 text-start hover:bg-inset/50"
-                    >
-                      <Box checked={checked} />
-                      <span className="min-w-0 flex-1 truncate text-[12.5px] text-ink-2">{s.title}</span>
-                      <span className="tnum font-mono text-[10.5px] text-ink-3">{counts.subtopics[s.id]}</span>
-                    </button>
-                  )
-                })}
-              </div>
-            )}
+            {topicOpen && topic.subtopics.map((s) => {
+              const checked = topicSelected || value.has(subtopicKey(s.id))
+              return (
+                <button
+                  key={s.id}
+                  type="button"
+                  onClick={() => toggleSub(topic.id, s.id)}
+                  aria-pressed={checked}
+                  className={cn(
+                    'flex min-h-11 w-full items-center gap-2.5 pe-[3.25rem] ps-[74px] text-start transition-colors sm:min-h-[38px]',
+                    checked ? 'bg-primary-tint' : 'bg-surface hover:bg-inset/50',
+                  )}
+                >
+                  <Box checked={checked} />
+                  <span className="min-w-0 flex-1 truncate text-[12.5px] text-ink-2">{s.title}</span>
+                  <span className={cn('tnum shrink-0 text-[11.5px]', checked ? 'text-primary-strong' : 'text-ink-3')}>
+                    {counts.subtopics[s.id]}
+                  </span>
+                </button>
+              )
+            })}
           </div>
         )
       })}
@@ -235,6 +263,14 @@ export function TopicChooser({
   const [openSubjects, setOpenSubjects] = useState<Record<string, boolean>>({})
   /** Modules start closed too, for the same reason. */
   const [openModules, setOpenModules] = useState<Record<string, boolean>>({})
+  /**
+   * The search text. Filtering is derived, never written back into
+   * `expanded` / `openSubjects` / `openModules` — a container holding a match
+   * is forced open for as long as the query stands, and clearing the field
+   * drops straight back to whatever the student had open before.
+   */
+  const [query, setQuery] = useState('')
+  const searching = query.trim().length > 0
 
   // Module is the default view. The one exception: a viewer whose enrolment
   // is unresolved (or genuinely blank) has no modules to group by at all, so
@@ -272,29 +308,35 @@ export function TopicChooser({
    * the way the top-level `groups` above does, so `SubjectGroup` renders
    * identically whichever view is active.
    */
-  const moduleGroups = useMemo(() => {
-    return moduleContent.groups
-      .map((mod) => {
-        const articleIds = new Set(mod.articleIds)
-        const moduleTopics = libraryTopics.filter((topic) => {
-          if (existsCounts.topics[topic.id] <= 0) return false
-          if (articleIds.has(topic.id)) return true
-          if (topic.subtopics.some((s) => articleIds.has(s.id))) return true
-          return pool.some(
-            (q) =>
-              (q.topic.toLowerCase() === topic.title.toLowerCase() ||
-                q.libraryRefs.some((ref) => topic.subtopics.some((s) => s.id === ref.id))) &&
-              q.libraryRefs.some((ref) => articleIds.has(ref.id)),
-          )
-        })
-        const systemGroups = subjects
-          .map((subj) => ({ subj, topics: moduleTopics.filter((tp) => tp.subjectId === subj.id) }))
-          .filter((g) => g.topics.length > 0)
-        const questionCount = moduleTopics.reduce((sum, topic) => sum + (counts.topics[topic.id] ?? 0), 0)
-        return { moduleId: mod.moduleId, moduleName: mod.moduleName, topics: moduleTopics, systemGroups, questionCount }
+  const allModules = useMemo(() => {
+    return moduleContent.groups.map((mod) => {
+      const articleIds = new Set(mod.articleIds)
+      const moduleTopics = libraryTopics.filter((topic) => {
+        if (existsCounts.topics[topic.id] <= 0) return false
+        if (articleIds.has(topic.id)) return true
+        if (topic.subtopics.some((s) => articleIds.has(s.id))) return true
+        return pool.some(
+          (q) =>
+            (q.topic.toLowerCase() === topic.title.toLowerCase() ||
+              q.libraryRefs.some((ref) => topic.subtopics.some((s) => s.id === ref.id))) &&
+            q.libraryRefs.some((ref) => articleIds.has(ref.id)),
+        )
       })
-      .filter((mod) => mod.topics.length > 0)
+      const systemGroups = subjects
+        .map((subj) => ({ subj, topics: moduleTopics.filter((tp) => tp.subjectId === subj.id) }))
+        .filter((g) => g.topics.length > 0)
+      const questionCount = moduleTopics.reduce((sum, topic) => sum + (counts.topics[topic.id] ?? 0), 0)
+      return { moduleId: mod.moduleId, moduleName: mod.moduleName, topics: moduleTopics, systemGroups, questionCount }
+    })
   }, [moduleContent.groups, libraryTopics, existsCounts, pool, counts])
+
+  /**
+   * The modules that actually have something to offer. Still what decides
+   * whether module view has anything to show at all — a module the curriculum
+   * names but nothing is published under is listed (inert) rather than being
+   * counted as content.
+   */
+  const moduleGroups = useMemo(() => allModules.filter((mod) => mod.topics.length > 0), [allModules])
 
   // Every topic shown across every module, deduped — a topic that matches two
   // modules must still only count once for the master "select all" control.
@@ -308,7 +350,46 @@ export function TopicChooser({
   // actually showing right now, not the whole library. In module view that
   // can be a strict subset of system view (a topic no module has claimed yet
   // is simply absent) so the two views' totals can legitimately differ.
+  // Deliberately unaffected by the search box: search hides rows, it does not
+  // narrow what the master control or the footer are talking about.
   const activeTopics = activeGrouping === 'module' ? moduleModeTopics : groups.flatMap((g) => g.topics)
+
+  /**
+   * The system view, narrowed to the search. Each entry keeps `allTopics` — the
+   * system's full chapter list — so its row can go on describing the whole
+   * system while only the hits are rendered under it.
+   */
+  const visibleGroups = useMemo(() => {
+    if (!searching) return groups.map((g) => ({ ...g, allTopics: g.topics }))
+    return groups
+      .map((g) => ({ ...g, allTopics: g.topics, topics: filterTopicsInContainer([g.subj.name], g.topics, query) }))
+      .filter((g) => g.topics.length > 0)
+  }, [groups, query, searching])
+
+  /** The module view, narrowed to the search (a module with no hit drops out). */
+  const visibleModules = useMemo(() => {
+    if (!searching) {
+      return allModules.map((mod) => ({
+        ...mod,
+        systemGroups: mod.systemGroups.map((g) => ({ ...g, allTopics: g.topics })),
+      }))
+    }
+    return allModules
+      .map((mod) => ({
+        ...mod,
+        systemGroups: mod.systemGroups
+          .map((g) => ({
+            ...g,
+            allTopics: g.topics,
+            topics: filterTopicsInContainer([mod.moduleName, g.subj.name], g.topics, query),
+          }))
+          .filter((g) => g.topics.length > 0),
+      }))
+      // A module named by the search stays even when it has nothing published
+      // under it — the student asked for it by name, so saying "nothing
+      // published yet" answers them; saying nothing at all does not.
+      .filter((mod) => mod.systemGroups.length > 0 || matchesQuery(mod.moduleName, query))
+  }, [allModules, query, searching])
 
   const toggleTopic = (topicId: string) => {
     const next = new Set(value)
@@ -376,8 +457,19 @@ export function TopicChooser({
     (topic) => value.has(topicKey(topic.id)) || topic.subtopics.some((s) => value.has(subtopicKey(s.id))),
   )
   const totalTopics = activeTopics.length
-  const selectedTopicCount = activeTopics.filter((topic) => value.has(topicKey(topic.id))).length
   const totalQuestionCount = activeTopics.reduce((sum, topic) => sum + (counts.topics[topic.id] ?? 0), 0)
+
+  /** Chapters with anything ticked in them, whole or granular — what "in scope" means. */
+  const scopeChapters = activeTopics.filter(
+    (topic) => value.has(topicKey(topic.id)) || topic.subtopics.some((s) => value.has(subtopicKey(s.id))),
+  )
+  const scopeQuestionCount = scopeChapters.reduce((sum, topic) => {
+    if (value.has(topicKey(topic.id))) return sum + (counts.topics[topic.id] ?? 0)
+    return sum + topic.subtopics.reduce((n, sub) => (value.has(subtopicKey(sub.id)) ? n + (counts.subtopics[sub.id] ?? 0) : n), 0)
+  }, 0)
+
+  const chaptersLabel = (n: number) => (n === 1 ? t('{n} chapter') : t('{n} chapters')).replace('{n}', String(n))
+  const questionsLabel = (n: number) => (n === 1 ? t('{n} question') : t('{n} questions')).replace('{n}', String(n))
 
   /**
    * One flip for the whole tree currently shown. Reuses `toggleSubjectTopics`'s
@@ -411,14 +503,28 @@ export function TopicChooser({
     )
   }
 
+  const noSearchHits = (
+    <p className="px-4 py-6 text-center text-[12.5px] text-ink-3">{t('No chapters match that search.')}</p>
+  )
+
   return (
-    <div className="overflow-hidden rounded-xl border border-line">
-      {/* Grouping toggle. Module is the default — students think in terms of
-          "what's on my course this term" before they think in terms of
-          medical systems — with system view (the original tree) one tap away
-          for whoever prefers it, or whenever there's nothing to group by
-          module yet (see the empty state below). */}
-      <div className="flex items-center border-b border-line bg-surface-2/60 px-3 py-2">
+    <div className="overflow-hidden rounded-xl border border-line bg-surface">
+      {/* Search plus the grouping toggle. Module is the default — students
+          think in terms of "what's on my course this term" before they think
+          in terms of medical systems — with system view one tap away for
+          whoever prefers it, or whenever there's nothing to group by module
+          yet (see the empty state below). */}
+      <div className="flex flex-wrap items-center gap-2.5 border-b border-line px-3.5 py-3">
+        {/* `SearchInput` puts its own relative wrapper around the field, so the
+            flex sizing has to go on a box outside it. */}
+        <div className="min-w-[9rem] flex-1">
+          <SearchInput
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder={t('Search chapters…')}
+            aria-label={t('Search chapters')}
+          />
+        </div>
         <Segmented
           items={[
             { value: 'module', label: t('By module') },
@@ -432,36 +538,55 @@ export function TopicChooser({
           student who wants "the whole bank" doesn't have to open every
           module or system and tick each one. What counts as "on screen"
           follows the active grouping via `activeTopics`. */}
-      <div className="flex items-center gap-2.5 border-b border-line bg-surface-2/60 px-3 py-2">
+      <div className="flex items-center gap-2.5 border-b border-line px-3.5 py-2.5">
         <button
           type="button"
           onClick={toggleAllTopics}
           aria-pressed={allTopicsSelected}
-          className="flex min-w-0 flex-1 items-center gap-2.5 text-start"
+          className="flex min-h-11 min-w-0 flex-1 items-center gap-2.5 text-start sm:min-h-0"
         >
           <Box checked={allTopicsSelected} partial={!allTopicsSelected && anySelectedAnywhere} />
-          <span className="text-[12px] font-semibold text-ink">{t('Select all topics')}</span>
+          <span className="min-w-0 truncate text-[12.5px] text-ink-2">
+            <span className="font-semibold text-ink">{t('Select all')}</span>
+            {` · ${chaptersLabel(totalTopics)} · ${questionsLabel(totalQuestionCount)}`}
+          </span>
         </button>
-        <span className="tnum shrink-0 rounded-md bg-inset px-1.5 py-0.5 font-mono text-[10.5px] text-ink-3">
-          {selectedTopicCount}/{totalTopics} · {totalQuestionCount}
+        <span
+          className={cn(
+            'inline-flex h-[26px] shrink-0 items-center rounded-full border px-2.5 text-[12px] font-semibold',
+            scopeChapters.length > 0
+              ? 'border-primary-line bg-primary-tint text-primary-strong'
+              : 'border-line bg-surface text-ink-2',
+          )}
+        >
+          {scopeChapters.length > 0
+            ? t('{k} selected · {q}')
+                .replace('{k}', String(scopeChapters.length))
+                .replace('{q}', questionsLabel(scopeQuestionCount))
+            : t('Nothing selected')}
         </span>
       </div>
       {activeGrouping === 'system' ? (
-        <div className="max-h-[22rem] divide-y divide-line overflow-y-auto">
-          {groups.map(({ subj, topics }) => (
+        <div className="max-h-[22rem] divide-y divide-line/60 overflow-y-auto">
+          {visibleGroups.length === 0 ? noSearchHits : visibleGroups.map(({ subj, topics, allTopics }) => (
             <SubjectGroup
               key={subj.id}
               subj={subj}
               topics={topics}
+              allTopics={allTopics}
               value={value}
               counts={counts}
-              isOpen={openSubjects[subj.id] ?? false}
+              // A system holding a search hit opens itself; the student's own
+              // open/closed state is left untouched underneath it.
+              isOpen={searching || (openSubjects[subj.id] ?? false)}
               onToggleOpen={() => setOpenSubjects((current) => ({ ...current, [subj.id]: !(current[subj.id] ?? false) }))}
               toggleSubject={() => toggleSubjectTopics(topics)}
               toggleTopic={toggleTopic}
               toggleSub={toggleSub}
               expanded={expanded}
               setExpanded={setExpanded}
+              query={query}
+              containerMatched={searching && matchesQuery(subj.name, query)}
               t={t}
             />
           ))}
@@ -482,36 +607,46 @@ export function TopicChooser({
           <button
             type="button"
             onClick={() => setGrouping('system')}
-            className="mt-3 inline-flex items-center rounded-md border border-line bg-surface px-3 py-1.5 text-[12px] font-medium text-ink hover:bg-inset"
+            className="mt-3 inline-flex min-h-11 items-center rounded-md border border-line bg-surface px-3 text-[12.5px] font-medium text-ink hover:bg-inset sm:min-h-0 sm:py-1.5"
           >
             {t('Browse by system instead')}
           </button>
         </div>
       ) : (
-        <div className="max-h-[22rem] divide-y divide-line overflow-y-auto">
-          {moduleGroups.map((mod) => {
-            const isOpen = openModules[mod.moduleId] ?? false
+        <div className="max-h-[22rem] divide-y divide-line/60 overflow-y-auto">
+          {visibleModules.length === 0 ? noSearchHits : visibleModules.map((mod) => {
+            const isOpen = searching || (openModules[mod.moduleId] ?? false)
+            if (mod.systemGroups.length === 0) {
+              // A module the curriculum names but nothing has been published
+              // under yet. It stays on the list — its absence would read as a
+              // gap in the course — just visibly inert.
+              return (
+                <div key={mod.moduleId} className="flex min-h-10 items-center gap-2.5 bg-mist px-3.5 py-2 opacity-55">
+                  <span className="min-w-0 flex-1 truncate text-[12.5px] font-semibold text-ink-2">{mod.moduleName}</span>
+                  <span className="shrink-0 text-[11.5px] text-ink-3">
+                    <span className="tnum">0</span>
+                    {` · ${t('nothing published yet')}`}
+                  </span>
+                </div>
+              )
+            }
             return (
               <div key={mod.moduleId}>
-                {/* Neutral, boxy header — the colour lives one level down, on
-                    each system's accent line, so the module row stays calm
-                    and reads purely as "a level above" rather than competing
-                    with it. */}
+                {/* A quiet group header, not a row: no checkbox and no colour,
+                    just the name and how many questions live under it. */}
                 <button
                   type="button"
                   onClick={() => setOpenModules((current) => ({ ...current, [mod.moduleId]: !(current[mod.moduleId] ?? false) }))}
                   aria-expanded={isOpen}
-                  className="flex w-full items-center gap-2.5 bg-surface-2 px-3 py-2.5 text-start hover:bg-inset/40"
+                  className="flex min-h-11 w-full items-center gap-2.5 bg-mist px-3.5 text-start transition-colors hover:bg-mist-2 sm:min-h-10"
                 >
+                  <span className="min-w-0 flex-1 truncate text-[12.5px] font-semibold text-ink-2">{mod.moduleName}</span>
+                  <span className="tnum shrink-0 text-[11.5px] text-ink-3">{mod.questionCount}</span>
                   <Icon icon={ChevronRight} size={15} className="chevron-turn shrink-0 text-ink-3" open={isOpen} />
-                  <span className="min-w-0 flex-1 truncate text-[12.5px] font-semibold text-ink">{mod.moduleName}</span>
-                  <span className="tnum shrink-0 rounded-md bg-inset px-1.5 py-0.5 font-mono text-[10.5px] text-ink-3">
-                    {mod.questionCount}
-                  </span>
                 </button>
                 {isOpen && (
-                  <div className="divide-y divide-line border-t border-line/70">
-                    {mod.systemGroups.map(({ subj, topics }) => {
+                  <div className="divide-y divide-line/60 border-t border-line/60">
+                    {mod.systemGroups.map(({ subj, topics, allTopics }) => {
                       // Keyed by module + subject: the same system can appear
                       // under more than one module, each with a different
                       // topic slice, and each occurrence opens/closes and
@@ -522,15 +657,18 @@ export function TopicChooser({
                           key={rowKey}
                           subj={subj}
                           topics={topics}
+                          allTopics={allTopics}
                           value={value}
                           counts={counts}
-                          isOpen={openSubjects[rowKey] ?? false}
+                          isOpen={searching || (openSubjects[rowKey] ?? false)}
                           onToggleOpen={() => setOpenSubjects((current) => ({ ...current, [rowKey]: !(current[rowKey] ?? false) }))}
                           toggleSubject={() => toggleSubjectTopics(topics)}
                           toggleTopic={toggleTopic}
                           toggleSub={toggleSub}
                           expanded={expanded}
                           setExpanded={setExpanded}
+                          query={query}
+                          containerMatched={searching && (matchesQuery(mod.moduleName, query) || matchesQuery(subj.name, query))}
                           t={t}
                         />
                       )
@@ -542,6 +680,22 @@ export function TopicChooser({
           })}
         </div>
       )}
+      {/* What the picks actually add up to, and the way back out of them. */}
+      <div className="flex items-center gap-2.5 border-t border-line bg-surface-2/60 px-3.5 py-2.5">
+        <span className="min-w-0 flex-1 text-[12.5px] text-ink-2">
+          {t('{chapters} in scope · {questions}. Nothing selected draws from the whole bank.')
+            .replace('{chapters}', chaptersLabel(scopeChapters.length))
+            .replace('{questions}', questionsLabel(scopeQuestionCount))}
+        </span>
+        <button
+          type="button"
+          onClick={() => onChange(new Set<string>())}
+          disabled={!anySelectedAnywhere}
+          className="min-h-11 shrink-0 rounded-md px-1.5 py-1 text-[12.5px] font-semibold text-primary-strong transition-colors sm:min-h-0 hover:bg-primary-tint disabled:cursor-default disabled:text-ink-3 disabled:hover:bg-transparent"
+        >
+          {t('Clear')}
+        </button>
+      </div>
     </div>
   )
 }

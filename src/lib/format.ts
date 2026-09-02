@@ -1,3 +1,27 @@
+/**
+ * The language a formatter should render in.
+ *
+ * Passed explicitly rather than read from a module mirror: these functions are
+ * pure, and `useRelativeTime()` / `useRelativeDay()` in `lib/useRelativeTime.ts`
+ * bind the active language for components, the same way `useSubjectName()` binds
+ * it for `subjectName`.
+ */
+export type FormatLang = 'en' | 'ar'
+
+/**
+ * Arabic relative time, with Latin digits.
+ *
+ * `Intl.RelativeTimeFormat('ar')` would render Arabic-Indic numerals, which
+ * clash with the tabular Latin figures the rest of the interface counts in, so
+ * the numbering system is pinned with `-u-nu-latn`. `numeric: 'auto'` is what
+ * turns -1 day into أمس rather than "قبل يوم واحد".
+ */
+let arRelative: Intl.RelativeTimeFormat | null = null
+function ar(): Intl.RelativeTimeFormat {
+  arRelative ??= new Intl.RelativeTimeFormat('ar-u-nu-latn', { numeric: 'auto' })
+  return arRelative
+}
+
 const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 const MONTHS = [
   'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
@@ -63,9 +87,16 @@ export function dayDiff(target: Date, from: Date = new Date()): number {
   return Math.round((a.getTime() - b.getTime()) / 86_400_000)
 }
 
-/** "Today", "Tomorrow", "In 3 days", "2 days ago", "Overdue 1 day". */
-export function relativeDay(target: Date, from: Date = new Date()): string {
+/**
+ * "Today", "Tomorrow", "In 3 days", "2 days ago", "Overdue 1 day".
+ *
+ * Arabic is idiomatic rather than numeric at ±2 days — `Intl`'s
+ * `numeric: 'auto'` gives `بعد الغد` and `أول أمس` where English still counts
+ * ("In 2 days" / "2 days ago"). That is better Arabic, and deliberate.
+ */
+export function relativeDay(target: Date, lang: FormatLang = 'en', from: Date = new Date()): string {
   const d = dayDiff(target, from)
+  if (lang === 'ar') return ar().format(d, 'day')
   if (d === 0) return 'Today'
   if (d === 1) return 'Tomorrow'
   if (d === -1) return 'Yesterday'
@@ -79,15 +110,28 @@ export function relativeDay(target: Date, from: Date = new Date()): string {
  * Distinct from `relativeDay`, which rounds to whole days: something opened
  * ninety minutes ago should not read as "Today" when the point is recency.
  */
-export function formatRelativeTime(iso: string, from: Date = new Date()): string {
+export function formatRelativeTime(iso: string, lang: FormatLang = 'en', from: Date = new Date()): string {
   const at = new Date(iso)
   if (Number.isNaN(at.getTime())) return ''
   const minutes = Math.round((from.getTime() - at.getTime()) / 60_000)
+  // English keeps its own compact shapes ("2h ago"): `Intl.RelativeTimeFormat`
+  // would widen them to "2 hr. ago", and these labels sit in tight metadata
+  // rows. Arabic has no equally compact convention, so it takes the Intl
+  // wording, which also gets the dual and plural agreement right.
+  if (lang === 'ar') {
+    // `ar().format(0, 'second')` is Intl's own "الآن" — no Arabic literal has to
+    // live outside the dictionary for it.
+    if (minutes < 1) return ar().format(0, 'second')
+    if (minutes < 60) return ar().format(-minutes, 'minute')
+    const arHours = Math.round(minutes / 60)
+    if (arHours < 24 && at.getDate() === from.getDate()) return ar().format(-arHours, 'hour')
+    return relativeDay(at, lang, from)
+  }
   if (minutes < 1) return 'just now'
   if (minutes < 60) return `${minutes}m ago`
   const hours = Math.round(minutes / 60)
   if (hours < 24 && at.getDate() === from.getDate()) return `${hours}h ago`
-  return relativeDay(at, from)
+  return relativeDay(at, lang, from)
 }
 
 /** Clamp a number into [min, max]. */

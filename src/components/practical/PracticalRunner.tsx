@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useT } from '@/lib/i18n'
 import { backState } from '@/components/ui/BackBar'
@@ -17,7 +17,7 @@ import {
   ExternalLink,
 } from 'lucide-react'
 import { getOsceDetail, getCaseDetail, getLabDetail, type Vitals } from '@/data/practicalContent'
-import { getSubject } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import { Panel } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
@@ -38,6 +38,7 @@ import { PlacedAsset } from '@/components/ui/PlacedMedia'
 import { ExaminerWarning } from '@/components/practical/ExaminerWarning'
 import { useMediaRecords } from '@/lib/useMediaRecords'
 import type { MediaRecord } from '@/data/mediaLibrary'
+import { ItemFlagButton } from '@/components/qbank/unified/ItemFlagButton'
 
 export type RunnerKind = 'osce' | 'case' | 'lab'
 
@@ -47,6 +48,22 @@ export interface RunnerTarget {
   title: string
   subjectId: string
   minutes?: number
+}
+
+/**
+ * What the runner's back control says, when something else is hosting it.
+ *
+ * The station, case and lab runners each write "Back to practical", which is
+ * true on the Practical page and a lie inside a mixed sitting — where leaving
+ * the station means going to the next item, not back to a list. A context
+ * rather than a prop threaded through four sub-runners and two headers: the
+ * label is one word of chrome, and passing it by hand through every layer is
+ * how one of them ends up saying something different from the others.
+ */
+const BackLabelContext = createContext<string | null>(null)
+
+function useBackLabel(): string {
+  return useContext(BackLabelContext) ?? 'Back to practical'
 }
 
 function clock(seconds: number): string {
@@ -134,13 +151,15 @@ function useAuthoredPractical(id: string): PracticalAuthoringData | undefined {
 
 /** What a runner shows when an item exists but has no content authored yet. */
 function NothingAuthored({ target, onExit, note }: { target: RunnerTarget; onExit: () => void; note: string }) {
+  const t = useT()
+  const backLabel = useBackLabel()
   return (
     <div className="mx-auto max-w-[560px]">
       <Header target={target} onExit={onExit} />
       <Panel className="p-8 text-center">
-        <h2 className="font-serif text-[19px] font-semibold text-ink">Nothing to run yet</h2>
+        <h2 className="font-serif text-[19px] font-semibold text-ink">{t('Nothing to run yet')}</h2>
         <p className="mx-auto mt-2 max-w-sm text-[13.5px] leading-relaxed text-ink-2">{note}</p>
-        <Button className="mt-5" variant="secondary" onClick={onExit}>Back to practical</Button>
+        <Button className="mt-5" variant="secondary" onClick={onExit}>{backLabel}</Button>
       </Panel>
     </div>
   )
@@ -155,14 +174,16 @@ function Header({
   right?: React.ReactNode
   onExit: () => void
 }) {
+  const backLabel = useBackLabel()
+  const subjectName = useSubjectName()
   return (
     <div className="mb-5">
       <button
         onClick={onExit}
         className="mb-3 inline-flex items-center gap-1.5 text-[13px] font-medium text-ink-2 transition-colors hover:text-ink"
       >
-        <Icon icon={ArrowLeft} size={15} />
-        Back to practical
+        <Icon icon={ArrowLeft} size={15} className="rtl:-scale-x-100" />
+        {backLabel}
       </button>
       <div className="flex min-w-0 flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div className="min-w-0">
@@ -170,7 +191,7 @@ function Header({
             <Badge tone="primary">{KIND_LABEL[target.kind]}</Badge>
             <span className="inline-flex items-center gap-1.5 text-[12.5px] font-medium text-ink-2">
               <SubjectDot id={target.subjectId} />
-              {getSubject(target.subjectId).name}
+              {subjectName(target.subjectId)}
             </span>
           </div>
           <h1 className="mt-2 font-serif text-[24px] font-semibold tracking-[-0.02em] text-ink">
@@ -187,6 +208,7 @@ function Header({
 
 function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
   const t = useT()
+  const backLabel = useBackLabel()
   const location = useLocation()
   const authored = useAuthoredPractical(target.id)
   const staticDetail = getOsceDetail(target.id)
@@ -201,7 +223,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
     actorBrief: { opening: authored.actorOpening, identity: '', prompts: [], sections: authored.actorSections, flags: authored.actorFlags, examinerNote: undefined },
     references: authored.references,
   } : staticDetail
-  const sections = detail?.markSections ?? (detail ? [{ id: 'core', title: 'Core station skills', marks: 100, items: detail.markScheme }] : [])
+  const sections = detail?.markSections ?? (detail ? [{ id: 'core', title: t('Core station skills'), marks: 100, items: detail.markScheme }] : [])
   const allItems = sections.flatMap((section) => section.items)
   const total = allItems.length
   const totalMarks = sections.reduce((sum, section) => sum + section.marks, 0)
@@ -265,13 +287,13 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
           <div className="mx-auto mb-3 grid size-12 place-items-center rounded-xl bg-primary-tint text-primary">
             <Icon icon={Trophy} size={24} />
           </div>
-          <h2 className="font-serif text-[22px] font-semibold text-ink">Station complete</h2>
+          <h2 className="font-serif text-[22px] font-semibold text-ink">{t('Station complete')}</h2>
           <p className="mt-1 text-[14px] text-ink-2">
-            You completed{' '}
+            {t('You completed')}{' '}
             <span className="font-medium text-ink">
-              {checked.size} of {total}
+              {checked.size} {t('of')} {total}
             </span>{' '}
-            mark-scheme steps ({pct}%) in {clock((target.minutes ?? 8) * 60 - seconds)}.
+            {t('mark-scheme steps')} ({pct}%) {t('in')} {clock((target.minutes ?? 8) * 60 - seconds)}.
           </p>
           <Meter value={pct} tone="primary" target className="mx-auto mt-4 max-w-xs" />
           <div className="mt-6 flex justify-center gap-2">
@@ -286,10 +308,10 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
                 setRunning(false)
               }}
             >
-              Redo station
+              {t('Redo station')}
             </Button>
             <Button variant="primary" size="md" onClick={onExit}>
-              Back to practical
+              {backLabel}
             </Button>
           </div>
         </Panel>
@@ -317,15 +339,15 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
             </p>
             <Meter value={remainingPct} tone={seconds <= 30 ? 'danger' : 'primary'} className="w-full" />
             <div className="flex gap-1.5">
-              <Button variant={running ? 'secondary' : 'primary'} size="sm" iconLeft={running ? Pause : Play} onClick={() => setRunning((value) => !value)}>{running ? 'Stop' : 'Start'}</Button>
-              <Button variant="ghost" size="sm" iconLeft={RotateCcw} onClick={() => { setSeconds(totalSeconds); setRunning(false) }}>Reset</Button>
+              <Button variant={running ? 'secondary' : 'primary'} size="sm" iconLeft={running ? Pause : Play} onClick={() => setRunning((value) => !value)}>{running ? t('Stop') : t('Start')}</Button>
+              <Button variant="ghost" size="sm" iconLeft={RotateCcw} onClick={() => { setSeconds(totalSeconds); setRunning(false) }}>{t('Reset')}</Button>
             </div>
             <div className="flex items-center gap-1 text-[10.5px] text-ink-3"><Icon icon={Clock} size={11} />{t('Turns red under 30 seconds')}</div>
           </Panel>
 
           {stationProgress && (
             <Panel className="px-4 py-3 text-[12px] text-ink-2">
-              Best so far{' '}
+              {t('Best so far')}{' '}
               <span className="tnum font-mono font-semibold text-ink">
                 {stationProgress.outOf ? Math.round((stationProgress.bestMarks / stationProgress.outOf) * 100) : 0}%
               </span>
@@ -335,7 +357,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 
           {(detail.references?.length ?? 0) > 0 && (
             <Panel className="p-4">
-              <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Read around it</h3>
+              <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">{t('Read around it')}</h3>
               <ul className="mt-2.5 space-y-1.5">
                 {detail.references!.map((reference) => (
                   <li key={reference}>
@@ -358,15 +380,15 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
         {/* Main column */}
         <div className="min-w-0 flex-1">
           <div className="mb-3 flex border-b border-line">
-            <button onClick={() => setTab('candidate')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'candidate' ? 'text-ink' : 'text-ink-3')}>Candidate{tab === 'candidate' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-primary" />}</button>
-            <button onClick={() => setTab('examiner')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'examiner' ? 'text-ink' : 'text-ink-3')}>Examiner &amp; Actor{tab === 'examiner' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-primary" />}</button>
+            <button onClick={() => setTab('candidate')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'candidate' ? 'text-ink' : 'text-ink-3')}>{t('Candidate')}{tab === 'candidate' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-primary" />}</button>
+            <button onClick={() => setTab('examiner')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'examiner' ? 'text-ink' : 'text-ink-3')}>{t('Examiner & Actor')}{tab === 'examiner' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-primary" />}</button>
           </div>
 
           {tab === 'candidate' ? (
             <div className="space-y-3">
               <ExaminerWarning />
               <Panel className="p-4">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Candidate instructions</p>
+                <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Candidate instructions')}</p>
                 <p className="mt-1.5 text-[14.5px] leading-relaxed text-ink">{detail.scenario}</p>
                 {'mediaUrl' in detail && typeof detail.mediaUrl === 'string' && detail.mediaUrl && (
                   <div className="mt-4">
@@ -384,17 +406,17 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
           ) : (
             <div className="space-y-3">
               <Panel className="overflow-hidden">
-                <div className="border-b border-line px-4 py-3"><p className="text-[12px] font-semibold uppercase tracking-[0.07em] text-ink">Actor brief</p><p className="mt-0.5 font-mono text-[10.5px] text-ink-3">For whoever is playing the patient</p></div>
+                <div className="border-b border-line px-4 py-3"><p className="text-[12px] font-semibold uppercase tracking-[0.07em] text-ink">{t('Actor brief')}</p><p className="mt-0.5 font-mono text-[10.5px] text-ink-3">{t('For whoever is playing the patient')}</p></div>
                 <div className="space-y-5 p-4">
-                  <div><p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Open with this, then stop</p><p className="mt-1 font-serif text-[17px] text-ink">{detail.actorBrief?.opening ?? 'Wait for the candidate to begin.'}</p></div>
-                  {detail.actorBrief?.sections ? <div className="divide-y divide-line">{detail.actorBrief.sections.map((section) => <div key={section.id} className="py-2.5"><p className="text-[10px] font-bold uppercase tracking-[0.08em] text-ink-3">{section.label}</p><p className="mt-1 max-w-3xl text-[12.5px] leading-relaxed text-ink-2">{section.content}</p></div>)}</div> : <><div><p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Who you are</p><p className="mt-1 max-w-3xl text-[13px] leading-relaxed text-ink-2">{detail.actorBrief?.identity ?? 'Answer in role and offer only information that is asked for.'}</p></div><div className="divide-y divide-line">{detail.actorBrief?.prompts.map((prompt) => <div key={prompt.label} className="py-2.5"><p className="text-[10px] font-semibold uppercase tracking-[0.08em] text-ink-3">{prompt.label}</p><p className="mt-1 text-[12.5px] text-ink-2">“{prompt.response}”</p></div>)}</div></>}
+                  <div><p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">{t('Open with this, then stop')}</p><p className="mt-1 font-serif text-[17px] text-ink">{detail.actorBrief?.opening ?? t('Wait for the candidate to begin.')}</p></div>
+                  {detail.actorBrief?.sections ? <div className="divide-y divide-line">{detail.actorBrief.sections.map((section) => <div key={section.id} className="py-2.5"><p className="text-[10px] font-bold uppercase tracking-[0.08em] text-ink-3">{section.label}</p><p className="mt-1 max-w-3xl text-[12.5px] leading-relaxed text-ink-2">{section.content}</p></div>)}</div> : <><div><p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">{t('Who you are')}</p><p className="mt-1 max-w-3xl text-[13px] leading-relaxed text-ink-2">{detail.actorBrief?.identity ?? t('Answer in role and offer only information that is asked for.')}</p></div><div className="divide-y divide-line">{detail.actorBrief?.prompts.map((prompt) => <div key={prompt.label} className="py-2.5"><p className="text-[10px] font-semibold uppercase tracking-[0.08em] text-ink-3">{prompt.label}</p><p className="mt-1 text-[12.5px] text-ink-2">“{prompt.response}”</p></div>)}</div></>}
                   {(detail.actorBrief?.flags ?? (detail.actorBrief?.examinerNote ? [detail.actorBrief.examinerNote] : [])).map((flag) => <div key={flag} className="flex gap-3 rounded-lg border border-primary/40 bg-primary-tint/50 p-3 text-[12px] leading-relaxed text-ink-2"><Icon icon={Flag} size={15} className="mt-0.5 text-primary" /><span>{flag}</span></div>)}
                 </div>
               </Panel>
 
               <Panel className="overflow-hidden">
                 <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-4 py-3">
-                  <h3 className="font-sans text-[13px] font-semibold text-ink">Mark scheme</h3>
+                  <h3 className="font-sans text-[13px] font-semibold text-ink">{t('Mark scheme')}</h3>
                   <div className="flex items-baseline gap-2.5">
                     <span className="tnum font-mono text-[24px] font-semibold leading-none text-primary-strong">{pct}%</span>
                     <span className="text-[11px] text-ink-3">{checked.size} of {total} scoring points · pass mark 65%</span>
@@ -437,9 +459,9 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
                   })}</ul></section>)}
                 </div>
                 <div className="flex items-center justify-between gap-3 border-t border-line px-4 py-3">
-                  <Button variant="ghost" size="sm" iconLeft={RotateCcw} onClick={() => setChecked(new Set())}>Reset ticks</Button>
+                  <Button variant="ghost" size="sm" iconLeft={RotateCcw} onClick={() => setChecked(new Set())}>{t('Reset ticks')}</Button>
                   <Button variant="primary" size="sm" iconRight={Trophy} onClick={finishStation}>
-                    Finish station
+                    {t('Finish station')}
                   </Button>
                 </div>
               </Panel>
@@ -470,13 +492,14 @@ const VITAL_ROWS: Array<{ key: VitalKey; label: string; unit: string }> = [
 ]
 
 function VitalsStrip({ vitals }: { vitals: Vitals }) {
+  const t = useT()
   const abnormal = new Set(vitals.abnormal ?? [])
   const rows = VITAL_ROWS.filter((row) => vitals[row.key] != null)
   if (!rows.length) return null
   return (
     <Panel className="p-4">
       <div className="flex items-baseline justify-between gap-2">
-        <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Observations</h3>
+        <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">{t('Observations')}</h3>
         {vitals.note && <span className="text-[10.5px] text-ink-3">{vitals.note}</span>}
       </div>
       <dl className="mt-3 grid grid-cols-2 gap-2">
@@ -497,6 +520,7 @@ function VitalsStrip({ vitals }: { vitals: Vitals }) {
 }
 
 function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
+  const t = useT()
   const location = useLocation()
   const authored = useAuthoredPractical(target.id)
   const staticDetail = getCaseDetail(target.id)
@@ -563,13 +587,13 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
       <div>
         <Header target={target} onExit={onExit} />
         <Panel className="overflow-hidden">
-          <div className="border-b border-line px-5 py-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary">Case debrief</p><h2 className="mt-1 font-serif text-[22px] font-semibold text-ink">See the debrief</h2>{detail?.debrief && <p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink-2">{detail.debrief}</p>}</div>
-          <div className="divide-y divide-line px-5">{stages.map((decision, decisionIndex) => <div key={decision.title} className="grid gap-2 py-4 sm:grid-cols-[9rem_1fr]"><p className="font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Decision {decisionIndex + 1}</p><div><p className="text-[13px] font-medium text-ink">{decision.prompt}</p><p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">{decision.answer}</p></div></div>)}</div>
+          <div className="border-b border-line px-5 py-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary">{t('Case debrief')}</p><h2 className="mt-1 font-serif text-[22px] font-semibold text-ink">{t('See the debrief')}</h2>{detail?.debrief && <p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink-2">{detail.debrief}</p>}</div>
+          <div className="divide-y divide-line px-5">{stages.map((decision, decisionIndex) => <div key={decision.title} className="grid gap-2 py-4 sm:grid-cols-[9rem_1fr]"><p className="font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Decision {n}').replace('{n}', String(decisionIndex + 1))}</p><div><p className="text-[13px] font-medium text-ink">{decision.prompt}</p><p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">{decision.answer}</p></div></div>)}</div>
         </Panel>
         {/* Only real, authored references. A placeholder "Relevant clinical
             guideline" rendered as a link to a search for that phrase. */}
-        {(detail?.references?.length ?? 0) > 0 && <Panel className="mt-4 p-4"><h3 className="text-[13px] font-semibold text-ink">Read around it</h3><ul className="mt-2 divide-y divide-line">{(detail!.references ?? []).map((reference) => <li key={reference}><Link to={`/app/resources?q=${encodeURIComponent(reference)}`} state={backState(location, 'Back to case')} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={BookOpen} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{reference}<span className="mt-0.5 block text-[10.5px] text-ink-3">Open at the relevant page</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>)}</ul></Panel>}
-        <Button className="mt-4" variant="primary" onClick={onExit}>Finish case</Button>
+        {(detail?.references?.length ?? 0) > 0 && <Panel className="mt-4 p-4"><h3 className="text-[13px] font-semibold text-ink">{t('Read around it')}</h3><ul className="mt-2 divide-y divide-line">{(detail!.references ?? []).map((reference) => <li key={reference}><Link to={`/app/resources?q=${encodeURIComponent(reference)}`} state={backState(location, 'Back to case')} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={BookOpen} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{reference}<span className="mt-0.5 block text-[10.5px] text-ink-3">{t('Open at the relevant page')}</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>)}</ul></Panel>}
+        <Button className="mt-4" variant="primary" onClick={onExit}>{t('Finish case')}</Button>
       </div>
     )
   }
@@ -582,7 +606,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
         <div className="min-w-0 flex-1">
           <div className="mb-4 flex items-center gap-3">
             <span className="text-[13px] font-medium text-ink-2">
-              Decision <span className="tnum font-mono text-ink">{idx + 1}</span> of {stages.length}
+              {t('Decision')} <span className="tnum font-mono text-ink">{idx + 1}</span> {t('of')} {stages.length}
             </span>
             <div className="h-1 flex-1 overflow-hidden rounded-full bg-inset">
               <div
@@ -612,7 +636,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
               const correct = optionIndex === correctIndex
               return <div key={option} className={cn('overflow-hidden rounded-lg border transition-colors', !revealed && 'border-line bg-surface hover:border-primary-line', revealed && correct && 'border-success bg-success-tint', revealed && selected === optionIndex && !correct && 'border-danger bg-danger-tint', revealed && !correct && selected !== optionIndex && 'border-line opacity-65')}><button disabled={revealed} onClick={() => { setChoices((current) => ({ ...current, [idx]: optionIndex })); recordDecision(optionIndex) }} className="flex w-full items-start gap-3 p-3 text-start text-[13.5px]"><span className="grid size-6 shrink-0 place-items-center rounded-full border border-line-2 font-mono text-[11px]">{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>{revealed && stage.optionExplanations?.[optionIndex] && <p className="border-t border-current/10 px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{stage.optionExplanations[optionIndex]}</p>}</div>
             })}</div>
-            {revealed && <div className="mt-4 rounded-lg border border-primary-line bg-primary-tint/50 p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary-strong">Decision rationale</p><p className="mt-1.5 text-[14px] leading-relaxed text-ink">{stage.answer}</p></div>}
+            {revealed && <div className="mt-4 rounded-lg border border-primary-line bg-primary-tint/50 p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary-strong">{t('Decision rationale')}</p><p className="mt-1.5 text-[14px] leading-relaxed text-ink">{stage.answer}</p></div>}
 
             <div className="mt-6 flex items-center justify-between border-t border-line pt-4">
               <Button
@@ -622,15 +646,15 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
                 disabled={idx === 0}
                 onClick={() => setIdx((i) => Math.max(0, i - 1))}
               >
-                Previous
+                {t('Previous')}
               </Button>
               {last ? (
                 <Button variant="primary" size="md" onClick={() => setDebrief(true)} disabled={!revealed}>
-                  See the debrief
+                  {t('See the debrief')}
                 </Button>
               ) : (
                 <Button variant="primary" size="md" iconRight={ArrowRight} onClick={() => setIdx((i) => i + 1)} disabled={!revealed}>
-                  Next decision
+                  {t('Next decision')}
                 </Button>
               )}
             </div>
@@ -644,7 +668,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
         <div className="flex flex-col gap-3 lg:w-[240px] lg:shrink-0">
           {vitals && <VitalsStrip vitals={vitals} />}
           <Panel className="p-4">
-            <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Case path</h3>
+            <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">{t('Case path')}</h3>
             <ol className="mt-3">
               {stages.map((s, i) => {
                 const done = choices[i] != null
@@ -670,7 +694,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
                     <div className={cn('min-w-0', i < stages.length - 1 ? 'pb-4' : 'pb-0.5')}>
                       <p className={cn('text-[12.5px] font-medium', current ? 'text-primary-strong' : done ? 'text-ink' : 'text-ink-3')}>{s.title}</p>
                       <p className="mt-0.5 text-[10.5px] text-ink-3">
-                        {current ? 'You are here' : done ? (stageCorrect === false ? 'Answered' : stageCorrect ? 'Answered correctly' : 'Answered') : 'Locked'}
+                        {current ? t('You are here') : done ? (stageCorrect === false ? t('Answered') : stageCorrect ? t('Answered correctly') : t('Answered')) : t('Locked')}
                       </p>
                     </div>
                   </li>
@@ -681,8 +705,8 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 
           {detail?.debrief && (
             <Panel className="p-4">
-              <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">What the debrief will cover</h3>
-              <p className="mt-2 text-[12px] leading-relaxed text-ink-2">Every decision with its rationale, and the references below.</p>
+              <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">{t('What the debrief will cover')}</h3>
+              <p className="mt-2 text-[12px] leading-relaxed text-ink-2">{t('Every decision with its rationale, and the references below.')}</p>
             </Panel>
           )}
         </div>
@@ -703,12 +727,13 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
  * disagree with that tab.
  */
 function LabSetsStrip({ currentId }: { currentId: string }) {
+  const t = useT()
   const { labImaging } = useLivePracticals()
   const { progress } = usePracticalProgress()
   if (labImaging.length <= 1) return null
   return (
     <div className="mb-4 flex flex-wrap items-center gap-1.5">
-      <span className="me-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">Your sets</span>
+      <span className="me-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Your sets')}</span>
       {labImaging.map((l) => {
         const done = progress.labs[l.id]?.done ?? 0
         const isCurrent = l.id === currentId
@@ -730,6 +755,8 @@ function LabSetsStrip({ currentId }: { currentId: string }) {
 }
 
 function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
+  const t = useT()
+  const backLabel = useBackLabel()
   const authored = useAuthoredPractical(target.id)
   const staticDetail = getLabDetail(target.id)
   const mediaRecords = useMediaRecords()
@@ -791,18 +818,18 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
           <div className="mx-auto mb-3 grid size-12 place-items-center rounded-xl bg-primary-tint text-primary">
             <Icon icon={Trophy} size={24} />
           </div>
-          <h2 className="font-serif text-[22px] font-semibold text-ink">Set complete</h2>
+          <h2 className="font-serif text-[22px] font-semibold text-ink">{t('Set complete')}</h2>
           <p className="mt-1 text-[14px] text-ink-2">
-            You scored{' '}
+            {t('You scored')}{' '}
             <span className="font-medium text-ink">
-              {correct} of {qs.length}
+              {correct} {t('of')} {qs.length}
             </span>{' '}
             ({pct}%).
           </p>
           <Meter value={pct} tone="primary" className="mx-auto mt-4 max-w-xs" />
           <div className="mt-6 flex justify-center">
             <Button variant="primary" size="md" onClick={onExit}>
-              Back to practical
+              {backLabel}
             </Button>
           </div>
         </Panel>
@@ -827,7 +854,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
 
       <div className="mb-4 flex items-center gap-3">
         <span className="text-[13px] font-medium text-ink-2">
-          Question <span className="tnum font-mono text-ink">{idx + 1}</span> of {qs.length}
+          {t('Question')} <span className="tnum font-mono text-ink">{idx + 1}</span> {t('of')} {qs.length}
         </span>
         <div className="h-1 flex-1 overflow-hidden rounded-full bg-inset">
           <div
@@ -846,8 +873,8 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
           <div className="min-w-0 lg:flex-1">
             <Panel className="overflow-hidden">
               <div className="flex items-center justify-between gap-2 border-b border-line px-4 py-2.5">
-                <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Media</span>
-                <Button variant="ghost" size="sm" iconLeft={Flag} onClick={() => setReportTarget({ kind: 'image', id: `${target.id}-${idx}`, title: `${target.title} · media ${idx + 1}` })}>Report media</Button>
+                <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Media')}</span>
+                <Button variant="ghost" size="sm" iconLeft={Flag} onClick={() => setReportTarget({ kind: 'image', id: `${target.id}-${idx}`, title: `${target.title} · media ${idx + 1}` })}>{t('Report media')}</Button>
               </div>
               <div className="p-3">
                 <PracticalMedia url={mediaUrl} type={mediaType} mimeType={mediaMimeType} name={`${target.title} · media ${idx + 1}`} record={recordAt(mediaRecords, mediaUrl)} />
@@ -900,7 +927,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
 
             {revealed && (
               <div className="mt-4 rounded-lg border border-line bg-surface-2 p-4">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Explanation</p>
+                <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Explanation')}</p>
                 <p className="mt-1.5 text-[14px] leading-relaxed text-ink">{q.explanation}</p>
               </div>
             )}
@@ -913,7 +940,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
                 disabled={idx === 0}
                 onClick={() => setIdx((i) => Math.max(0, i - 1))}
               >
-                Previous
+                {t('Previous')}
               </Button>
               {!revealed ? (
                 <Button
@@ -922,15 +949,15 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
                   disabled={chosen == null}
                   onClick={checkAnswer}
                 >
-                  Check answer
+                  {t('Check answer')}
                 </Button>
               ) : last ? (
                 <Button variant="primary" size="md" iconRight={Trophy} onClick={() => setFinished(true)}>
-                  See results
+                  {t('See results')}
                 </Button>
               ) : (
                 <Button variant="primary" size="md" iconRight={ArrowRight} onClick={() => setIdx((i) => i + 1)}>
-                  Next
+                  {t('Next')}
                 </Button>
               )}
             </div>
@@ -942,12 +969,30 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
   )
 }
 
-export function PracticalRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
+export function PracticalRunner({
+  target,
+  onExit,
+  backLabel,
+}: {
+  target: RunnerTarget
+  onExit: () => void
+  /** What leaving this item means where it is mounted. Defaults to the Practical page's wording. */
+  backLabel?: string
+}) {
   return (
+    <BackLabelContext.Provider value={backLabel ?? null}>
     <div className="mx-auto max-w-[1040px] px-4 py-6 sm:px-6">
+      {/* The same "come back to this" the MCQ runner has always had, for the
+          item on screen. Outside the three sub-runners rather than inside each
+          of them: what is being flagged is the station, the case or the set —
+          not whichever step of it happens to be open. */}
+      <div className="mb-3 flex justify-end">
+        <ItemFlagButton kind="practical" id={target.id} />
+      </div>
       {target.kind === 'osce' && <OsceRunner target={target} onExit={onExit} />}
       {target.kind === 'case' && <CaseRunner target={target} onExit={onExit} />}
       {target.kind === 'lab' && <LabRunner target={target} onExit={onExit} />}
     </div>
+    </BackLabelContext.Provider>
   )
 }

@@ -59,8 +59,11 @@ export function Collapse({
       data-open={open ? 'true' : 'false'}
       style={{ height: height === 'auto' ? 'auto' : `${height}px` }}
       // Hidden from assistive tech while closed, so a collapsed answer is not
-      // read out as if it were on the page.
+      // read out as if it were on the page — and `inert`, so the controls
+      // inside it leave the tab order too rather than being focusable while
+      // invisible.
       aria-hidden={!open}
+      inert={!open}
     >
       <div ref={inner}>{children}</div>
     </div>

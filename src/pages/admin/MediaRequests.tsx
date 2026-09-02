@@ -2,8 +2,9 @@ import { useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   ArrowLeft, Archive, CircleCheck, Eye, FileAudio, FileVideo, Flag, ImagePlus, Library as LibraryIcon,
-  ListChecks, Loader2, Megaphone, MessageSquare, RefreshCw, ShieldAlert, TriangleAlert, Upload, XCircle,
+  ListChecks, Megaphone, MessageSquare, RefreshCw, ShieldAlert, TriangleAlert, Upload, XCircle,
 } from 'lucide-react'
+import { NishanyLoader } from '@/components/ui/NishanyLoader'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -697,7 +698,7 @@ export function MediaRequests() {
           />
         ) : !ledgerStatus.hydrated ? (
           <div className="flex items-center justify-center gap-2 py-16 text-ink-3">
-            <Icon icon={Loader2} size={16} className="animate-spin" />
+            <NishanyLoader size={20} label={t('Loading the backlog…')} />
             {t('Loading the backlog…')}
           </div>
         ) : visible.length === 0 ? (
@@ -1174,7 +1175,7 @@ function MediaAttachPanel({ medium, onAttach, onCancel }: {
           {upload && upload.phase === 'verifying' && (
             <div role="status" aria-live="polite" className="space-y-2">
               <p className="flex items-center gap-2 text-[12px] text-ink-2">
-                <Icon icon={Loader2} size={14} className="animate-spin" />
+                <NishanyLoader mini decorative />
                 {t(PHASE_LABEL.verifying)}
               </p>
               <Button size="sm" variant="ghost" iconLeft={XCircle} onClick={() => cancelRef.current?.()}>{t('Cancel')}</Button>

@@ -470,7 +470,7 @@ function CardInfoDialog({ api, entry, previous, onClose }: { api: FlashcardsApi;
         icon={Info}
         action={<IconButton icon={X} label={t('Close')} size="sm" onClick={onClose} />}
       />
-      <div className="max-h-[65vh] overflow-y-auto p-5">
+      <div className="max-h-[65dvh] overflow-y-auto p-5">
         <CardInfoBody entry={entry} events={api.reviewEvents.filter((e) => e.cardId === entry.card.id)} />
       </div>
     </Dialog>

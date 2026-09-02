@@ -8,7 +8,8 @@ import { useEssayAnswers } from '@/lib/useEssayAnswers'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
-import { subjects, getSubject } from '@/data/subjects'
+import { subjects } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -44,7 +45,7 @@ function Guide() {
         type="button"
         aria-expanded={open}
         onClick={() => setOpen((current) => !current)}
-        className="flex w-full items-center gap-2.5 px-4 py-3 text-start transition-colors hover:bg-inset/60"
+        className="flex min-h-11 w-full items-center gap-2.5 px-4 py-3 text-start transition-colors hover:bg-inset/60 sm:min-h-0"
       >
         <Icon icon={ChevronRight} size={15} className="text-ink-3 chevron-turn" open={open} />
         <Icon icon={BookOpen} size={16} className="text-ink-3" />
@@ -222,6 +223,7 @@ function FormatSection<T extends { id: string; title: string }>({
 
 /** Published essays, divided by system — the same shape every practical tab groups by. */
 function EssayList({ essays, onOpen }: { essays: EssayQuestionData[]; onOpen: (essay: EssayQuestionData) => void }) {
+  const subjectName = useSubjectName()
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const groups = useMemo(() => {
     const buckets = new Map<string, EssayQuestionData[]>()
@@ -254,7 +256,7 @@ function EssayList({ essays, onOpen }: { essays: EssayQuestionData[]; onOpen: (e
             >
               <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 chevron-turn')} open={!isCollapsed} />
               <SystemMark subjectId={group.key} />
-              <h2 className="font-serif text-[15.5px] font-semibold text-ink">{getSubject(group.key).name}</h2>
+              <h2 className="font-serif text-[15.5px] font-semibold text-ink">{subjectName(group.key)}</h2>
               <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{group.items.length}</span>
             </button>
             {!isCollapsed && (

@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
-import { Download, Loader2 } from 'lucide-react'
+import { Download } from 'lucide-react'
+import { NishanyLoader } from '@/components/ui/NishanyLoader'
 import { Dialog } from '@/components/ui/Dialog'
 import { PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -162,7 +163,7 @@ export function ExportDeckDialog({ api, onClose }: { api: FlashcardsApi; onClose
                 loading={busy}
                 disabled={busy || selected.size === 0}
               >
-                {busy ? <Loader2 className="animate-spin" size={14} /> : t('Export')}
+                {busy ? <NishanyLoader mini /> : t('Export')}
               </Button>
             </div>
           </>

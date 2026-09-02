@@ -1,4 +1,19 @@
 import { Component, type ErrorInfo, type ReactNode } from 'react'
+import { AR } from '@/data/i18n-ar'
+
+/**
+ * The recovery screen's own translate.
+ *
+ * This is a class component that wraps the router, so it sits outside
+ * `I18nProvider` and cannot call `useT()`. `I18nProvider` stamps the active
+ * language onto `<html lang>` and this screen only ever renders after the app
+ * has painted at least once, so the attribute is a reliable read here — and it
+ * is a read, never a write, so render stays pure.
+ */
+function translate(en: string): string {
+  const lang = typeof document === 'undefined' ? 'en' : document.documentElement.lang
+  return lang === 'ar' ? AR[en] ?? en : en
+}
 
 interface State { error: Error | null }
 
@@ -35,13 +50,13 @@ export class ErrorBoundary extends Component<{ children: ReactNode }, State> {
               <path d="M12 17h.01" />
             </svg>
           </div>
-          <h1 style={{ fontFamily: '"Source Serif 4 Variable", Georgia, serif', fontSize: 24, fontWeight: 560, letterSpacing: '-0.011em', margin: '0 0 8px' }}>Something went wrong</h1>
+          <h1 style={{ fontFamily: '"Source Serif 4 Variable", Georgia, serif', fontSize: 24, fontWeight: 560, letterSpacing: '-0.011em', margin: '0 0 8px' }}>{translate('Something went wrong')}</h1>
           <p style={{ fontSize: 14, lineHeight: 1.6, color: 'var(--color-ink-2, #5d636f)', margin: '0 0 20px' }}>
-            The page hit an unexpected error. Reloading usually fixes it — your saved work is stored locally and will still be here.
+            {translate('The page hit an unexpected error. Reloading usually fixes it — your saved work is stored locally and will still be here.')}
           </p>
           <div style={{ display: 'flex', gap: 10, justifyContent: 'center', flexWrap: 'wrap' }}>
-            <button onClick={() => window.location.reload()} style={{ borderRadius: 10, border: 'none', background: 'var(--color-primary, #d13a63)', color: 'var(--color-on-primary, #ffffff)', padding: '10px 18px', fontSize: 14, fontWeight: 600, cursor: 'pointer' }}>Reload the page</button>
-            <button onClick={() => { window.location.href = '/' }} style={{ borderRadius: 10, border: '1px solid var(--color-line-2, #ccd3e0)', background: 'transparent', color: 'inherit', padding: '10px 18px', fontSize: 14, fontWeight: 600, cursor: 'pointer' }}>Go home</button>
+            <button onClick={() => window.location.reload()} style={{ borderRadius: 10, border: 'none', background: 'var(--color-primary, #d13a63)', color: 'var(--color-on-primary, #ffffff)', padding: '10px 18px', fontSize: 14, fontWeight: 600, cursor: 'pointer' }}>{translate('Reload the page')}</button>
+            <button onClick={() => { window.location.href = '/' }} style={{ borderRadius: 10, border: '1px solid var(--color-line-2, #ccd3e0)', background: 'transparent', color: 'inherit', padding: '10px 18px', fontSize: 14, fontWeight: 600, cursor: 'pointer' }}>{translate('Go home')}</button>
           </div>
         </div>
       </div>

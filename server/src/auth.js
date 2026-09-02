@@ -94,6 +94,28 @@ async function supabaseIdentity(token) {
   }
 }
 
+/**
+ * The identity behind a bearer token, or null.
+ *
+ * The same resolution `apiAuthGate` performs, exported for the one caller that
+ * is not an Express request: the study-room WebSocket. A socket must be
+ * authenticated by exactly the rules the HTTP routes use — two answers to "who
+ * is this" is how a room ends up admitting somebody the API would refuse — and
+ * this is the single implementation both of them run.
+ *
+ * Never throws. An unreadable, expired or forged token is simply no identity,
+ * and the caller refuses on that; distinguishing the reasons would disclose
+ * signature and account-state details, exactly as the gate declines to.
+ */
+export async function identityFromToken(token) {
+  if (!token || !supabaseUrl) return null
+  try {
+    return await supabaseIdentity(token)
+  } catch {
+    return null
+  }
+}
+
 export async function apiAuthGate(req, res, next) {
   if (!req.path.startsWith('/api')) return next()
   // Public by design, and each for the same reason: the caller cannot possibly

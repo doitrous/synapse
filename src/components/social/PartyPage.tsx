@@ -6,9 +6,10 @@ import { Badge } from '@/components/ui/Badge'
 import { Avatar } from '@/components/ui/Avatar'
 import { Toggle } from '@/components/ui/Toggle'
 import { Field, Select, TextInput } from '@/components/ui/Field'
-import { PARTY_REFUSALS, useParty, usePartyActions, usePartySessions, type PartySessionItemKind, type PartySessionSummary } from '@/lib/useParties'
+import { PARTY_REFUSALS, useParty, usePartyActions, usePartySessions, type Party, type PartySessionItemKind, type PartySessionSummary } from '@/lib/useParties'
 import { PartySessionRunner } from './PartySessionRunner'
-import { formatDateTime, formatRelativeTime } from '@/lib/format'
+import { formatDateTime } from '@/lib/format'
+import { useRelativeTime } from '@/lib/useRelativeTime'
 import { useT } from '@/lib/i18n'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 import { useLivePracticals } from '@/lib/useLivePracticals'
@@ -57,11 +58,12 @@ interface PartyGameSummary {
 }
 
 function SessionRow({ session, t, onOpen }: { session: PartySessionSummary; t: (s: string) => string; onOpen: () => void }) {
+  const relativeTime = useRelativeTime()
   const when =
     session.state === 'scheduled' && session.startsAt
       ? `${t('Opens')} ${formatDateTime(new Date(session.startsAt))}`
       : session.state === 'closed' && session.closedAt
-        ? `${t('Closed')} ${formatRelativeTime(session.closedAt)}`
+        ? `${t('Closed')} ${relativeTime(session.closedAt)}`
         : null
 
   return (
@@ -84,12 +86,34 @@ function SessionRow({ session, t, onOpen }: { session: PartySessionSummary; t: (
  * switch for the host, and its sessions grouped by what state they are in.
  *
  * Opening a session hands off to `PartySessionRunner`, exactly the way
- * opening a room hands off to `RoomRunner` in `StudyTogether` — this page
- * still owns the list, the runner owns the sitting.
+ * opening a shared test hands off to `SharedTestRunner` — this page still owns
+ * the list, the runner owns the sitting.
+ *
+ * `party` and `onReload` exist for the one caller that already polls this
+ * party: the study room mounts both the hall and this page, and each calling
+ * `useParty` meant every student in a room hitting `/api/parties/:id` twice
+ * every four seconds. Given the party, this page reads it instead of fetching
+ * its own; given nothing, it polls as it always did.
  */
-export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => void }) {
+export function PartyPage({
+  partyId,
+  party: providedParty,
+  onReload,
+  onExit,
+}: {
+  partyId: string
+  party?: Party
+  onReload?: () => void
+  onExit: () => void
+}) {
   const t = useT()
-  const { party, error, reload } = useParty(partyId)
+  // `null` disables the poll without breaking the rule of hooks.
+  const owned = useParty(providedParty ? null : partyId)
+  const party = providedParty ?? owned.party
+  // A caller that supplies the party owns its failure too, and is already
+  // showing it — reporting it twice would put two errors on one screen.
+  const error = providedParty ? '' : owned.error
+  const reload = onReload ?? owned.reload
   const { sessions, reload: reloadSessions } = usePartySessions(partyId)
   const { setVisibility, createSession } = usePartyActions()
   const questions = usePublishedQuestions()
@@ -178,7 +202,7 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
 
   // The code is the whole mechanism — carrying it as a query param just saves
   // a recipient from having to find "Join with a link" and paste it in by hand.
-  const link = `${window.location.origin}/app/study-together?party=${party.code}`
+  const link = `${window.location.origin}/app/study-rooms?room=${party.code}`
 
   async function toggleVisibility(nextOpen: boolean) {
     setBusy(true)
@@ -264,7 +288,7 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
   const finished = sessions.filter((session) => session.state === 'closed')
 
   return (
-    <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.3fr)_minmax(18rem,0.7fr)]">
+    <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1.3fr)_minmax(18rem,0.7fr)]">
       <div className="space-y-4">
         <Panel>
           <PanelHeader

@@ -11,6 +11,12 @@ const STUDY_SURFACES = new Set([
   'flashcards', 'minigames', 'term-grid', 'spotter', 'term-match',
   'clinical-sequence', 'mechanism-chain', 'red-flag-sort', 'whiteboard', 'notebook',
   'study-together',
+  // The renamed and new destinations, each beside the surface it replaces:
+  // `terminology` is `taxonomy`, `study-rooms` is `study-together`, and the
+  // four hubs are where the study surfaces above are now reached from. Both
+  // names of a renamed route stay in the set — a minute on the old URL is the
+  // same minute of study as one on the new one.
+  'terminology', 'study-rooms', 'plan', 'learn', 'practice', 'revise',
 ])
 
 function sessionId(): string {

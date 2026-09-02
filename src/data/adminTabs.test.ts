@@ -46,3 +46,15 @@ test('a role renders exactly the tabs it holds, in registry order', () => {
   assert.deepEqual(tabViewsFor('student', null), [])
   assert.equal(tabViewsFor('super_admin', null).length, TAB_IDS.length)
 })
+
+test('the roles who write policy hold the Legal pages tab by default', () => {
+  // The public documents are edited from the console rather than from a
+  // deploy, so the people who run billing and support must reach them without
+  // a super admin granting the tab first.
+  for (const role of ['admin', 'editor', 'super_admin']) {
+    assert.ok(tabsForRole(role, null).includes('legal'), `${role} is missing legal`)
+  }
+  // A reviewer authors nothing and must not reach a contract.
+  assert.ok(!tabsForRole('reviewer', null).includes('legal'))
+  assert.ok(!tabsForRole('student', null).includes('legal'))
+})

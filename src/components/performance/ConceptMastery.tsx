@@ -1,4 +1,5 @@
 import { GitFork } from 'lucide-react'
+import { useT } from '@/lib/i18n'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { Meter } from '@/components/ui/Meter'
@@ -32,6 +33,7 @@ const BAND_LABEL: Record<MasteryBand, string> = {
  * the panel a student would use to decide what to revise.
  */
 export function ConceptMasteryPanel() {
+  const t = useT()
   const { ledger } = useMastery()
   const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
 
@@ -42,15 +44,13 @@ export function ConceptMasteryPanel() {
   if (!summary.measured && !summary.practisedOnly) {
     return (
       <Panel>
-        <PanelHeader title="Concept mastery" icon={GitFork} hint="Built from questions and practicals you have answered" />
+        <PanelHeader title={t('Concept mastery')} icon={GitFork} hint={t('Built from questions and practicals you have answered')} />
         <div className="p-5">
           <p className="text-[13.5px] leading-relaxed text-ink-2">
-            Nothing recorded yet. Answer a question, work through a clinical case, or read an
-            interpretation set, and the concepts each item assesses will appear here.
+            {t('Nothing recorded yet. Answer a question, work through a clinical case, or read an interpretation set, and the concepts each item assesses will appear here.')}
           </p>
           <p className="mt-2 text-[12px] leading-relaxed text-ink-3">
-            Only concepts an item actually tests are counted. A concept a scenario merely mentions
-            is left out, so nothing here sends you to revise something you were never asked.
+            {t('Only concepts an item actually tests are counted. A concept a scenario merely mentions is left out, so nothing here sends you to revise something you were never asked.')}
           </p>
         </div>
       </Panel>
@@ -63,20 +63,22 @@ export function ConceptMasteryPanel() {
   return (
     <Panel>
       <PanelHeader
-        title="Concept mastery"
+        title={t('Concept mastery')}
         icon={GitFork}
-        hint={`${summary.measured} concept${summary.measured === 1 ? '' : 's'} measured across ${summary.attempts} marked answer${summary.attempts === 1 ? '' : 's'}`}
+        hint={t('{concepts} concepts measured across {answers} marked answers')
+          .replace('{concepts}', String(summary.measured))
+          .replace('{answers}', String(summary.attempts))}
       />
       <div className="space-y-4 p-5">
         <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
           <div>
             <p className="font-mono text-[22px] font-semibold text-ink">{accuracyPct == null ? '—' : `${accuracyPct}%`}</p>
-            <p className="text-[11.5px] text-ink-3">Accuracy on marked answers</p>
+            <p className="text-[11.5px] text-ink-3">{t('Accuracy on marked answers')}</p>
           </div>
           {summary.practisedOnly > 0 && (
             <div>
               <p className="font-mono text-[22px] font-semibold text-ink">{summary.practisedOnly}</p>
-              <p className="text-[11.5px] text-ink-3">Practised on a station, never marked</p>
+              <p className="text-[11.5px] text-ink-3">{t('Practised on a station, never marked')}</p>
             </div>
           )}
         </div>
@@ -84,7 +86,7 @@ export function ConceptMasteryPanel() {
         {ranked.length > 0 && (
           <div>
             <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">
-              Weakest first
+              {t('Weakest first')}
             </p>
             <ul className="space-y-2.5">
               {ranked.map((entry: Entry) => {
@@ -96,7 +98,7 @@ export function ConceptMasteryPanel() {
                       <span className="min-w-0 truncate text-[13.5px] text-ink">{label(entry.conceptId)}</span>
                       <span className="flex shrink-0 items-center gap-2">
                         <span className="font-mono text-[12px] text-ink-2">{entry.correct}/{entry.attempts}</span>
-                        <Badge tone={BAND_TONE[band]}>{BAND_LABEL[band]}</Badge>
+                        <Badge tone={BAND_TONE[band]}>{t(BAND_LABEL[band])}</Badge>
                       </span>
                     </div>
                     <Meter value={pct} tone={pct < 50 ? 'danger' : pct < 80 ? 'warning' : 'success'} className="mt-1" />
@@ -108,8 +110,7 @@ export function ConceptMasteryPanel() {
         )}
 
         <p className="text-[11.5px] leading-relaxed text-ink-3">
-          A station or checklist is scored by you, so it counts as practice rather than a marked
-          answer. Concepts a scenario only mentions are never counted.
+          {t('A station or checklist is scored by you, so it counts as practice rather than a marked answer. Concepts a scenario only mentions are never counted.')}
         </p>
       </div>
     </Panel>

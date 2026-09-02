@@ -12,7 +12,7 @@ export const MARISTANA_ONBOARDING_KEY = 'nishany.maristanas.onboarding.v1'
 export const MARISTANA_STEPS = 25
 
 export function maristanaStageAsset(stage: number): string {
-  return `/maristana/stages/stage-${String(Math.max(1, stage)).padStart(2, '0')}.webp`
+  return `${import.meta.env.BASE_URL}maristana/stages/stage-${String(Math.max(1, stage)).padStart(2, '0')}.webp`
 }
 
 export interface MaristanaOnboardingState {

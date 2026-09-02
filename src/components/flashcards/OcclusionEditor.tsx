@@ -417,7 +417,7 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
             <svg
               ref={svgRef}
               viewBox={`${view.x} ${view.y} ${view.w} ${view.h}`}
-              className={cn('mx-auto block max-h-[60vh] w-full touch-none select-none rounded border border-line bg-surface', tool === 'pan' ? 'cursor-grab' : tool === 'select' ? 'cursor-default' : 'cursor-crosshair')}
+              className={cn('mx-auto block max-h-[60dvh] w-full touch-none select-none rounded border border-line bg-surface', tool === 'pan' ? 'cursor-grab' : tool === 'select' ? 'cursor-default' : 'cursor-crosshair')}
               style={{ aspectRatio: `${image.width} / ${image.height}` }}
               onPointerDown={onPointerDown}
               onPointerMove={onPointerMove}

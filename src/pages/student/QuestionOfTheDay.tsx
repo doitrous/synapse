@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { NishanyLoader } from '@/components/ui/NishanyLoader'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { Avatar } from '@/components/ui/Avatar'
 import { QuestionView } from '@/components/qbank/QuestionView'
@@ -298,9 +299,8 @@ export function QuestionOfTheDay() {
           />
           <div className="p-5">
             {qotd.loading ? (
-              <div className="space-y-3" aria-label={t('Loading')}>
-                <div className="h-4 w-2/3 animate-pulse rounded bg-inset motion-reduce:animate-none" />
-                <div className="h-24 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />
+              <div className="grid min-h-40 place-items-center">
+                <NishanyLoader size={44} label={t('Loading')} />
               </div>
             ) : !qotd.question ? (
               <EmptyState

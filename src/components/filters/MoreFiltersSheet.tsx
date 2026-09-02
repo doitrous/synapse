@@ -35,7 +35,7 @@ export function MoreFiltersSheet({
         <h2 className="font-serif text-[17px] font-semibold text-ink">{t('More filters')}</h2>
       </div>
 
-      <div className="max-h-[60vh] space-y-5 overflow-y-auto px-5 py-4">
+      <div className="max-h-[60dvh] space-y-5 overflow-y-auto px-5 py-4">
         {filters.length === 0 && (
           <p className="py-6 text-center text-[12.5px] text-ink-3">{t('No additional filters.')}</p>
         )}

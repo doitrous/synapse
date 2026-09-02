@@ -12,6 +12,7 @@ import { Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { SubjectTag } from '@/components/ui/Subject'
 import { Collapse } from '@/components/ui/Collapse'
+import { ItemFlagButton } from '@/components/qbank/unified/ItemFlagButton'
 import { cn } from '@/lib/cn'
 
 /** Words in a written answer — the same rough count the design shows next to "Your answer". */
@@ -20,7 +21,7 @@ function wordCount(text: string): number {
   return trimmed ? trimmed.split(/\s+/).length : 0
 }
 
-function Header({ essay, onExit }: { essay: EssayQuestion; onExit: () => void }) {
+function Header({ essay, onExit, backLabel }: { essay: EssayQuestion; onExit: () => void; backLabel?: string }) {
   const t = useT()
   return (
     <div className="mb-5">
@@ -29,12 +30,19 @@ function Header({ essay, onExit }: { essay: EssayQuestion; onExit: () => void })
         className="mb-3 inline-flex items-center gap-1.5 text-[13px] font-medium text-ink-2 transition-colors hover:text-ink"
       >
         <Icon icon={ArrowLeft} size={15} className="rtl:-scale-x-100" />
-        {t('Back to essay questions')}
+        {backLabel ?? t('Back to essay questions')}
       </button>
-      <div className="flex min-w-0 flex-wrap items-center gap-2">
-        <SubjectTag id={essay.subjectId} />
+      <div className="flex min-w-0 flex-wrap items-start justify-between gap-3">
+        <div className="min-w-0">
+          <div className="flex min-w-0 flex-wrap items-center gap-2">
+            <SubjectTag id={essay.subjectId} />
+          </div>
+          <h1 className="mt-2 font-serif text-[22px] font-semibold tracking-[-0.02em] text-ink">{essay.title}</h1>
+        </div>
+        {/* The same flag the MCQ runner carries. A written question is exactly
+            as worth coming back to, and until now it could not be marked. */}
+        <ItemFlagButton kind="essay" id={essay.id} className="shrink-0" />
       </div>
-      <h1 className="mt-2 font-serif text-[22px] font-semibold tracking-[-0.02em] text-ink">{essay.title}</h1>
     </div>
   )
 }
@@ -47,7 +55,16 @@ function Header({ essay, onExit }: { essay: EssayQuestion; onExit: () => void })
  * write stage's return; there is no collapsed or hidden copy sitting in the
  * DOM for a curious student to find before they have written anything.
  */
-export function EssayRunner({ essay, onExit }: { essay: EssayQuestion; onExit: () => void }) {
+export function EssayRunner({
+  essay,
+  onExit,
+  backLabel,
+}: {
+  essay: EssayQuestion
+  onExit: () => void
+  /** What leaving means where this is mounted. Defaults to the essay page's wording. */
+  backLabel?: string
+}) {
   const t = useT()
   const { answers, save } = useEssayAnswers()
   const logAttempt = useRecordAttempt()
@@ -110,19 +127,19 @@ export function EssayRunner({ essay, onExit }: { essay: EssayQuestion; onExit: (
 
   return (
     <div className="mx-auto max-w-[1040px] px-4 py-6 sm:px-6">
-      <Header essay={essay} onExit={onExit} />
+      <Header essay={essay} onExit={onExit} backLabel={backLabel} />
 
       <div className={cn('grid gap-4', stage === 'revealed' && 'lg:grid-cols-2')}>
         {/* Question + the student's own answer */}
         <div className="space-y-4">
           <Panel className="p-5">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('The question')}</p>
+            <p className="text-[13px] font-semibold text-ink">{t('The question')}</p>
             <p className="mt-1.5 text-[15px] font-medium leading-relaxed text-ink">{essay.prompt}</p>
           </Panel>
 
           <Panel className="p-5">
             <div className="flex items-center justify-between gap-3">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Your answer')}</p>
+              <p className="text-[13px] font-semibold text-ink">{t('Your answer')}</p>
               {stage === 'revealed' ? (
                 <span className="font-mono text-[11px] tabular-nums text-ink-3">
                   {t('written before reveal · {n} words').replace('{n}', String(words))}
@@ -202,7 +219,7 @@ export function EssayRunner({ essay, onExit }: { essay: EssayQuestion; onExit: (
             </Panel>
 
             <Panel className="border-warning/30 bg-warning-tint p-4">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-warning">{t('What the examiner scans for')}</p>
+              <p className="text-[13px] font-semibold text-ink">{t('What the examiner scans for')}</p>
               <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-2">{essay.examinerNote}</p>
             </Panel>
 
@@ -214,7 +231,7 @@ export function EssayRunner({ essay, onExit }: { essay: EssayQuestion; onExit: (
                 className="flex w-full items-center justify-between gap-3 px-5 py-3.5 text-start transition-colors hover:bg-inset/60"
               >
                 <span>
-                  <span className="block text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Model answer')}</span>
+                  <span className="block text-[13px] font-semibold text-ink">{t('Model answer')}</span>
                   <span className="mt-0.5 block text-[12px] text-ink-2">{t('Full worked answer, for comparison')}</span>
                 </span>
                 <span className="flex shrink-0 items-center gap-1.5 rounded-md border border-line-2 bg-surface px-3 py-1.5 text-[12.5px] font-semibold text-ink">

@@ -1,3 +1,5 @@
+import { AR_REDESIGN } from './i18n-ar/index.ts'
+
 /**
  * Arabic translations for the student app, keyed by English source string.
  * Grows as surfaces are wrapped with `t()`. A missing key falls back to English,
@@ -1114,4 +1116,9 @@ export const AR: Record<string, string> = {
   'Only the selected sources are drawn from.': 'يُسحب فقط من المصادر المختارة.',
   'none yet': 'لا شيء بعد',
   'Nothing is tagged with a source yet — every question counts under all sources for now.': 'لا توجد أسئلة موسومة بمصدر بعد — كل الأسئلة تُحسب ضمن جميع المصادر حاليًا.',
+
+  // ---- The 2026-09 student redesign, one file per package ----------------
+  // Last, so a package that deliberately re-translates an older key (the nav's
+  // `Learn`, which is now a verb) wins over the entry above.
+  ...AR_REDESIGN,
 }

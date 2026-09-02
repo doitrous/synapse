@@ -14,12 +14,19 @@ test('a student\'s own work is routed to their own record', () => {
   assert.equal(isUserOwnedState('nishany.whiteboard.b1'), true)
   assert.equal(isUserOwnedState('nishany.calendar.blocks'), true)
   assert.equal(isUserOwnedState('nishany.qbank.attempts'), true)
+  // The unified builder's mixed sitting: one queue drawn from the MCQ,
+  // practical and essay banks at once. Routed to the shared catalogue it
+  // would be refused on every save and the student would lose their place.
+  assert.equal(isUserOwnedState('nishany.qbank.mixedSession.v1'), true)
   assert.equal(isUserOwnedState('nishany.progress.mastery.v1'), true)
   assert.equal(isUserOwnedState('nishany.annotations.doc-1.shard-0'), true)
   assert.equal(isUserOwnedState('nishany.bookmarks.resources.v1'), true)
   assert.equal(isUserOwnedState('nishany.account.audience.v1'), true)
   assert.equal(isUserOwnedState('nishany.essay.answers.v1'), true)
   assert.equal(isUserOwnedState('nishany.termgrid.progress.v1'), true)
+  assert.equal(isUserOwnedState('nishany.calendar.tasks.v1'), true)
+  assert.equal(isUserOwnedState('nishany.terminology.progress.v1'), true)
+  assert.equal(isUserOwnedState('nishany.studyRooms.seat.v1'), true)
   assert.equal(isUserOwnedState('nishany.maristanas.onboarding.v1'), true)
 })
 
@@ -66,4 +73,23 @@ test('the retired onboarding key is not quietly matched again', () => {
   // Whether an account has been enrolled is the server's answer now, read from
   // `/api/me`. Nothing should route this to either store.
   assert.equal(isUserOwnedState('nishany-onboarding-v1'), false)
+})
+
+test('the flags on practical items and written questions are the student\'s own', () => {
+  // The MCQ bank's flags have always been student-owned; the other two banks
+  // could not be flagged at all until now, and their store must land in the
+  // same place rather than in the shared catalogue.
+  assert.equal(isUserOwnedState('nishany.practice.flags.v1'), true)
+  assert.equal(isUserOwnedState('nishany.qbank.marked.v1'), true)
+})
+
+test('the ledger of tests sat is the student\'s own', () => {
+  assert.equal(isUserOwnedState('nishany.sittings.v1'), true)
+})
+
+test('guide ticks are the student\'s, the guide\'s videos are everyone\'s', () => {
+  // Two documents one letter apart in intent: which topics this student has
+  // marked as read, and the video links an admin pastes for the whole platform.
+  assert.equal(isUserOwnedState('nishany.tutorial.read.v1'), true)
+  assert.equal(isUserOwnedState('nishany-tutorial-videos-v1'), false)
 })

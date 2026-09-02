@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Check, Download, KeyRound, LifeBuoy, LogOut, Palette, ShieldCheck, UserRound } from 'lucide-react'
+import { Bell, Check, Download, KeyRound, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button, ButtonAnchor } from '@/components/ui/Button'
@@ -18,6 +18,9 @@ import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 import { ProfileIconGlyph } from '@/components/ui/ProfileIconGlyph'
 import { DEFAULT_PROFILE_ICON, PROFILE_ICONS, normaliseUsername, usernameProblem } from '@/data/profileIcons'
+import { AccountTabs } from '@/components/account/AccountTabs'
+import { useAccountTab, type AccountTab } from '@/components/account/useAccountTab'
+import { BillingPanels } from '@/components/account/BillingPanels'
 
 /**
  * Preferences the student owns.
@@ -304,9 +307,19 @@ function ProfileIdentity() {
   )
 }
 
-export function Account() {
+/**
+ * Everything a student manages about their own account, on four tabs.
+ *
+ * Profile, Preferences, Billing and Security were three separate destinations
+ * and a sidebar of loose panels; they are one page now because a student
+ * looking for "my account" should not have to know which of them holds the
+ * thing they want. The tab lives in `?tab=`, so `/app/billing` can redirect
+ * straight onto the Billing tab and a link to a tab still opens on it.
+ */
+export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } = {}) {
   const t = useT()
   const { email } = useIdentity()
+  const [tab, setTab] = useAccountTab(initialTab)
   const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
   const timezone = prefs.timezone || DEFAULTS.timezone
   const [exporting, setExporting] = useState(false)
@@ -375,9 +388,11 @@ export function Account() {
 
   return (
     <PageContainer>
-      <PageHeader title={t('Manage your account')} description={t('Your profile, study preferences, security, and data.')} back={{ fallback: '/app' }} />
-      <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.35fr)_minmax(18rem,0.65fr)]">
-        <div className="space-y-4">
+      <PageHeader title={t('Account')} description={t('Your profile, study preferences, billing, security, and data.')} back={{ fallback: '/app' }} />
+      <AccountTabs value={tab} onChange={setTab} />
+
+      <div className="mt-4">
+        {tab === 'profile' && (
           <Panel>
             <PanelHeader title={t('Profile and study context')} icon={UserRound} />
             {/* Editable, and reading the same merged value the sidebar reads.
@@ -396,110 +411,126 @@ export function Account() {
               </Field>
             </div>
           </Panel>
+        )}
 
-          <Panel>
-            <PanelHeader title={t('Notifications')} hint={t('In-app only')} />
-            <div className="divide-y divide-line px-5">
-              {([
-                ['Review reminders', 'Show notices when concepts are due for review.', 'reviewReminders'],
-                ['Calendar reminders', 'Show notices before your blocks and sessions.', 'calendarReminders'],
-              ] as const).map(([title, description, key]) => (
-                <label key={key} className="flex cursor-pointer items-center justify-between gap-4 py-3.5">
-                  <span>
-                    <span className="block text-[13.5px] font-medium text-ink">{t(title)}</span>
-                    <span className="mt-0.5 block text-[12px] text-ink-3">{t(description)}</span>
-                  </span>
-                  <Toggle checked={prefs[key]} onChange={(value) => patch({ [key]: value })} label={t(title)} />
-                </label>
-              ))}
-            </div>
-            {/* The two email toggles that used to sit here — weekly digest and
-                product updates — were read by nothing at all. They return when
-                email delivery actually consults a preference. */}
-            <p className="border-t border-line px-5 py-3 text-[11.5px] leading-relaxed text-ink-3">
-              {t('Email preferences are not configurable yet. Maristana only emails you about your account.')}
-            </p>
-          </Panel>
-        </div>
-
-        <div className="space-y-4">
-          <Panel>
-            <PanelHeader title={t('Appearance')} icon={Palette} />
-            <div className="flex flex-wrap items-center justify-between gap-3 p-4">
-              <div className="min-w-0">
-                <p className="text-[13px] font-medium text-ink">{t('Theme')}</p>
-                <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Light, warm, or dark. Kept on this device.')}</p>
+        {tab === 'preferences' && (
+          <div className="grid items-start gap-4 lg:grid-cols-2">
+            <Panel>
+              <PanelHeader title={t('Notifications')} icon={Bell} hint={t('In-app only')} />
+              <div className="divide-y divide-line px-5">
+                {([
+                  ['Review reminders', 'Show notices when concepts are due for review.', 'reviewReminders'],
+                  ['Calendar reminders', 'Show notices before your blocks and sessions.', 'calendarReminders'],
+                ] as const).map(([title, description, key]) => (
+                  <label key={key} className="flex cursor-pointer items-center justify-between gap-4 py-3.5">
+                    <span>
+                      <span className="block text-[13.5px] font-medium text-ink">{t(title)}</span>
+                      <span className="mt-0.5 block text-[12px] text-ink-3">{t(description)}</span>
+                    </span>
+                    <Toggle checked={prefs[key]} onChange={(value) => patch({ [key]: value })} label={t(title)} />
+                  </label>
+                ))}
               </div>
-              <ThemeSwitch />
-            </div>
-          </Panel>
-
-          <Panel>
-            <PanelHeader title={t('Security')} icon={ShieldCheck} />
-            <div className="space-y-3 p-4">
-              <div className="rounded-lg border border-line bg-surface-2 p-3">
-                <p className="text-[13px] font-medium text-ink">{t('Password')}</p>
-                <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Reset through a time-limited email link.')}</p>
-                <Link to="/auth/forgot-password" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-[13px] font-semibold text-ink hover:bg-inset"><KeyRound size={15} />{t('Change password')}</Link>
-              </div>
-              <MfaControl />
-            </div>
-          </Panel>
-
-          <Panel>
-            <PanelHeader title={t('Privacy and data')} />
-            <div className="divide-y divide-line px-5">
-              <label className="flex cursor-pointer items-center justify-between gap-4 py-3.5">
-                <span>
-                  <span className="block text-[13.5px] font-medium text-ink">{t('Let classmates find me')}</span>
-                  <span className="mt-0.5 block text-[12px] text-ink-3">
-                    {t('Off by default. Turn this on only if you want to appear in and browse the same-university-and-year classmate directory. Turning it off does not remove friends you already have.')}
-                  </span>
-                </span>
-                <Toggle checked={discoverable} onChange={(value) => void toggleDiscoverable(value)} label={t('Let classmates find me')} />
-              </label>
-            </div>
-            <div className="space-y-2 border-t border-line p-4">
-              <Button className="w-full justify-start" variant="secondary" iconLeft={Download} loading={exporting} onClick={() => void exportData()}>
-                {t('Download my data')}
-              </Button>
-              {exportError && <p role="alert" className="text-[11.5px] text-danger">{exportError}</p>}
-              <p className="text-[11.5px] leading-relaxed text-ink-3">
-                {API_MODE
-                  ? t('Includes every document your account owns — notes, whiteboards, bookmarks, calendar blocks and progress.')
-                  : t('Without a backend connected this exports your preferences only; the rest of your work is in this browser.')}
+              {/* The two email toggles that used to sit here — weekly digest and
+                  product updates — were read by nothing at all. They return when
+                  email delivery actually consults a preference. */}
+              <p className="border-t border-line px-5 py-3 text-[11.5px] leading-relaxed text-ink-3">
+                {t('Email preferences are not configurable yet. Maristana only emails you about your account.')}
               </p>
-            </div>
-          </Panel>
+            </Panel>
 
-          <Panel>
-            <PanelHeader title={t('This session')} />
-            <div className="p-4">
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <p className="text-[13px] font-medium text-ink">{t('This browser')}</p>
-                  <p className="mt-0.5 text-[11.5px] text-ink-3">
-                    {email ?? t('Signed in')}
+            <div className="space-y-4">
+              <Panel>
+                <PanelHeader title={t('Appearance')} icon={Palette} />
+                <div className="flex flex-wrap items-center justify-between gap-3 p-4">
+                  <div className="min-w-0">
+                    <p className="text-[13px] font-medium text-ink">{t('Theme')}</p>
+                    <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Light, warm, or dark. Kept on this device.')}</p>
+                  </div>
+                  <ThemeSwitch />
+                </div>
+              </Panel>
+
+              <Panel>
+                <PanelHeader title={t('Privacy and data')} icon={LockKeyhole} />
+                <div className="divide-y divide-line px-5">
+                  <label className="flex cursor-pointer items-center justify-between gap-4 py-3.5">
+                    <span>
+                      <span className="block text-[13.5px] font-medium text-ink">{t('Let classmates find me')}</span>
+                      <span className="mt-0.5 block text-[12px] text-ink-3">
+                        {t('Off by default. Turn this on only if you want to appear in and browse the same-university-and-year classmate directory. Turning it off does not remove friends you already have.')}
+                      </span>
+                    </span>
+                    <Toggle checked={discoverable} onChange={(value) => void toggleDiscoverable(value)} label={t('Let classmates find me')} />
+                  </label>
+                </div>
+              </Panel>
+            </div>
+          </div>
+        )}
+
+        {tab === 'billing' && <BillingPanels />}
+
+        {tab === 'security' && (
+          <div className="grid items-start gap-4 lg:grid-cols-2">
+            <Panel>
+              <PanelHeader title={t('Security')} icon={ShieldCheck} />
+              <div className="space-y-3 p-4">
+                <div className="rounded-lg border border-line bg-surface-2 p-3">
+                  <p className="text-[13px] font-medium text-ink">{t('Password')}</p>
+                  <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Reset through a time-limited email link.')}</p>
+                  <Link to="/auth/forgot-password" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-[13px] font-semibold text-ink hover:bg-inset"><KeyRound size={15} />{t('Change password')}</Link>
+                </div>
+                <MfaControl />
+              </div>
+            </Panel>
+
+            <div className="space-y-4">
+              <Panel>
+                <PanelHeader title={t('This session')} />
+                <div className="p-4">
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <p className="text-[13px] font-medium text-ink">{t('This browser')}</p>
+                      <p className="mt-0.5 text-[11.5px] text-ink-3">
+                        {email ?? t('Signed in')}
+                      </p>
+                    </div>
+                    <Badge tone="success">{t('Open')}</Badge>
+                  </div>
+                  {/* Only this session is described. Enumerating and revoking other
+                      sessions needs a server-side session list that does not exist. */}
+                  <p className="mt-2 text-[11.5px] leading-relaxed text-ink-3">
+                    {t('Other devices are not listed. Signing out here clears this browser only.')}
+                  </p>
+                  <Link to="/logout" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg px-3 text-[12.5px] font-semibold text-ink-2 hover:bg-inset hover:text-ink"><LogOut size={15} />{t('Sign out')}</Link>
+                </div>
+              </Panel>
+
+              <Panel>
+                <PanelHeader title={t('Your data')} icon={Download} />
+                <div className="space-y-2 p-4">
+                  <Button className="w-full justify-start" variant="secondary" iconLeft={Download} loading={exporting} onClick={() => void exportData()}>
+                    {t('Download my data')}
+                  </Button>
+                  {exportError && <p role="alert" className="text-[11.5px] text-danger">{exportError}</p>}
+                  <p className="text-[11.5px] leading-relaxed text-ink-3">
+                    {API_MODE
+                      ? t('Includes every document your account owns — notes, whiteboards, bookmarks, calendar blocks and progress.')
+                      : t('Without a backend connected this exports your preferences only; the rest of your work is in this browser.')}
                   </p>
                 </div>
-                <Badge tone="success">{t('Open')}</Badge>
-              </div>
-              {/* Only this session is described. Enumerating and revoking other
-                  sessions needs a server-side session list that does not exist. */}
-              <p className="mt-2 text-[11.5px] leading-relaxed text-ink-3">
-                {t('Other devices are not listed. Signing out here clears this browser only.')}
-              </p>
-              <Link to="/logout" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg px-3 text-[12.5px] font-semibold text-ink-2 hover:bg-inset hover:text-ink"><LogOut size={15} />{t('Sign out')}</Link>
-            </div>
-          </Panel>
+              </Panel>
 
-          <Panel>
-            <PanelHeader title={t('Support')} icon={LifeBuoy} />
-            <div className="p-4">
-              <ButtonAnchor href={supportLink} className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Maristana team')}</ButtonAnchor>
+              <Panel>
+                <PanelHeader title={t('Support')} icon={LifeBuoy} />
+                <div className="p-4">
+                  <ButtonAnchor href={supportLink} className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Maristana team')}</ButtonAnchor>
+                </div>
+              </Panel>
             </div>
-          </Panel>
-        </div>
+          </div>
+        )}
       </div>
     </PageContainer>
   )

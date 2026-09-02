@@ -87,7 +87,7 @@ function ThenPill({ eyebrow, title, to }: { eyebrow: string; title: string; to: 
   return (
     <Link
       to={to}
-      className="flex flex-1 items-center gap-2.5 rounded-lg border border-line bg-surface/60 px-3 py-2.5 text-start transition-colors hover:bg-surface"
+      className="flex min-h-11 flex-1 items-center gap-2.5 rounded-lg border border-line bg-surface/60 px-3 py-2.5 text-start transition-colors hover:bg-surface sm:min-h-0"
     >
       <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">{eyebrow}</span>
       <span className="min-w-0 flex-1 truncate text-[12.5px] font-medium text-ink">{title}</span>
@@ -118,13 +118,13 @@ function ExamHero() {
     : (tomorrow?.items ?? []).slice(0, 2).map((item) => ({ item, dayLabel: t('Tomorrow') }))
 
   return (
-    <div className="w-full max-w-[46rem]">
+    <div className="w-full">
       <div className="flex flex-col gap-6 rounded-2xl border border-line bg-surface p-6 shadow-pop sm:flex-row sm:items-center sm:gap-9 sm:p-8">
         <CountdownDial daysAway={programme.daysAway} />
 
         <div className="min-w-0 flex-1 text-center sm:text-start">
           <div className="flex flex-wrap items-center justify-center gap-2 sm:justify-start">
-            <span className="inline-flex items-center gap-1.5 rounded-full border border-primary-line bg-primary-tint px-2.5 py-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-primary-strong">
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-primary-line bg-primary-tint px-2.5 py-1 text-[11.5px] font-semibold text-primary-strong">
               <Icon icon={AlarmClock} size={12} />
               {t('Your next step')}
             </span>
@@ -161,7 +161,7 @@ function ExamHero() {
 
       {then.length > 0 && (
         <div className="mt-3 flex items-center gap-3">
-          <span className="shrink-0 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Then')}</span>
+          <span className="shrink-0 text-[12px] font-semibold text-ink-3">{t('Then')}</span>
           <div className="flex min-w-0 flex-1 gap-2">
             {then.map(({ item, dayLabel }, index) => (
               <ThenPill
@@ -198,7 +198,7 @@ function ScheduleHero() {
 
   if (!next) {
     return (
-      <div className="w-full max-w-[46rem] rounded-2xl border border-line bg-surface p-6 shadow-pop sm:p-8">
+      <div className="w-full rounded-2xl border border-line bg-surface p-6 shadow-pop sm:p-8">
         <EmptyState
           icon={CalendarClock}
           title={hasYear || hasBlocks ? t('Nothing left to come') : t('Nothing scheduled yet')}
@@ -217,7 +217,7 @@ function ScheduleHero() {
   const live = next.start.getTime() <= Date.now()
 
   return (
-    <div className="w-full max-w-[46rem]">
+    <div className="w-full">
       <div className="flex flex-col gap-6 rounded-2xl border border-line bg-surface p-6 shadow-pop sm:flex-row sm:items-center sm:gap-9 sm:p-8">
         <div className="flex shrink-0 flex-col items-center gap-1">
           <span className="tnum font-serif text-[34px] font-semibold leading-none tracking-[-0.03em] text-ink">
@@ -228,7 +228,7 @@ function ScheduleHero() {
         </div>
 
         <div className="min-w-0 flex-1 text-center sm:text-start">
-          <span className="inline-flex items-center gap-1.5 rounded-full border border-primary-line bg-primary-tint px-2.5 py-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-primary-strong">
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-primary-line bg-primary-tint px-2.5 py-1 text-[11.5px] font-semibold text-primary-strong">
             <Icon icon={CalendarClock} size={12} />
             {t('Your next step')}
           </span>
@@ -252,7 +252,7 @@ function ScheduleHero() {
 
       {following.length > 0 && (
         <div className="mt-3 flex items-center gap-3">
-          <span className="shrink-0 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Then')}</span>
+          <span className="shrink-0 text-[12px] font-semibold text-ink-3">{t('Then')}</span>
           <div className="flex min-w-0 flex-1 gap-2">
             {following.map((item) => (
               <ThenPill

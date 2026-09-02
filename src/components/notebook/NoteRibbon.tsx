@@ -61,6 +61,7 @@ import { Badge } from '@/components/ui/Badge'
 import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { Tabs, type TabItem } from '@/components/ui/Tabs'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 import { readyItemsByCategory, searchReadyItems, type ReadyItem, type ReadyItemCategory } from '@/data/readyItems'
 import { $createImageNode } from './ImageNode'
 import { $createReadyItemNode } from './ReadyItemNode'
@@ -115,14 +116,15 @@ const RIBBON_TABS: TabItem[] = [
  * yet.
  */
 export function NoteRibbon({ uploadImage, draw }: { uploadImage?: (file: File) => Promise<string>; draw?: DrawControls }) {
+  const t = useT()
   const [editor] = useLexicalComposerContext()
   const [tab, setTab] = useState<RibbonTabId>('home')
   const formats = useActiveFormats(editor)
 
   return (
     <div className="border-b border-line">
-      <Tabs items={RIBBON_TABS} value={tab} onChange={(next) => setTab(next as RibbonTabId)} className="px-2" />
-      <div className="flex flex-wrap items-center gap-1 px-2 py-1.5" aria-label={`Note formatting — ${tab} tab`}>
+      <Tabs items={RIBBON_TABS.map((item) => ({ ...item, label: t(item.label) }))} value={tab} onChange={(next) => setTab(next as RibbonTabId)} className="px-2" />
+      <div className="flex flex-wrap items-center gap-1 px-2 py-1.5" aria-label={`${t('Note formatting')} — ${t(tab)}`}>
         {tab === 'home' && <HomeRibbon editor={editor} formats={formats} />}
         {tab === 'layout' && <LayoutRibbon editor={editor} formats={formats} />}
         {tab === 'insert' && <InsertRibbon editor={editor} uploadImage={uploadImage} />}
@@ -141,6 +143,7 @@ function stop(event: React.MouseEvent) {
 }
 
 function HomeRibbon({ editor, formats }: { editor: LexicalEditor; formats: ReturnType<typeof useActiveFormats> }) {
+  const t = useT()
   const [canUndo, setCanUndo] = useState(false)
   const [canRedo, setCanRedo] = useState(false)
 
@@ -155,7 +158,7 @@ function HomeRibbon({ editor, formats }: { editor: LexicalEditor; formats: Retur
     <>
       <IconButton
         icon={Undo2}
-        label="Undo"
+        label={t('Undo')}
         size="sm"
         disabled={!canUndo}
         className="disabled:pointer-events-none disabled:opacity-40"
@@ -164,7 +167,7 @@ function HomeRibbon({ editor, formats }: { editor: LexicalEditor; formats: Retur
       />
       <IconButton
         icon={Redo2}
-        label="Redo"
+        label={t('Redo')}
         size="sm"
         disabled={!canRedo}
         className="disabled:pointer-events-none disabled:opacity-40"
@@ -176,48 +179,49 @@ function HomeRibbon({ editor, formats }: { editor: LexicalEditor; formats: Retur
       <TextStyleMenu editor={editor} blockType={formats.blockType} />
       <RibbonDivider />
 
-      <IconButton icon={Bold} label="Bold" size="sm" active={formats.bold} onMouseDown={stop} onClick={() => format('bold')} />
-      <IconButton icon={Italic} label="Italic" size="sm" active={formats.italic} onMouseDown={stop} onClick={() => format('italic')} />
-      <IconButton icon={Underline} label="Underline" size="sm" active={formats.underline} onMouseDown={stop} onClick={() => format('underline')} />
-      <IconButton icon={Strikethrough} label="Strike through" size="sm" active={formats.strikethrough} onMouseDown={stop} onClick={() => format('strikethrough')} />
+      <IconButton icon={Bold} label={t('Bold')} size="sm" active={formats.bold} onMouseDown={stop} onClick={() => format('bold')} />
+      <IconButton icon={Italic} label={t('Italic')} size="sm" active={formats.italic} onMouseDown={stop} onClick={() => format('italic')} />
+      <IconButton icon={Underline} label={t('Underline')} size="sm" active={formats.underline} onMouseDown={stop} onClick={() => format('underline')} />
+      <IconButton icon={Strikethrough} label={t('Strike through')} size="sm" active={formats.strikethrough} onMouseDown={stop} onClick={() => format('strikethrough')} />
       <RibbonDivider />
 
       <ColorMenu
         icon={Baseline}
-        label="Text colour"
+        label={t('Text colour')}
         colors={TEXT_COLORS}
         current={formats.color}
         onPick={(color) => applyTextColor(editor, color)}
-        clearLabel="Automatic"
+        clearLabel={t('Automatic')}
       />
       <ColorMenu
         icon={Highlighter}
-        label="Highlight"
+        label={t('Highlight')}
         colors={HIGHLIGHT_COLORS}
         current={formats.highlight}
         onPick={(color) => applyHighlightColor(editor, color)}
-        clearLabel="No highlight"
+        clearLabel={t('No highlight')}
       />
       <RibbonDivider />
 
       <ListMenu editor={editor} listType={formats.listType} />
-      <IconButton icon={Subscript} label="Subscript" size="sm" active={formats.subscript} onMouseDown={stop} onClick={() => format('subscript')} />
-      <IconButton icon={Superscript} label="Superscript" size="sm" active={formats.superscript} onMouseDown={stop} onClick={() => format('superscript')} />
+      <IconButton icon={Subscript} label={t('Subscript')} size="sm" active={formats.subscript} onMouseDown={stop} onClick={() => format('subscript')} />
+      <IconButton icon={Superscript} label={t('Superscript')} size="sm" active={formats.superscript} onMouseDown={stop} onClick={() => format('superscript')} />
       <RibbonDivider />
 
-      <IconButton icon={RemoveFormatting} label="Clear formatting" size="sm" onMouseDown={stop} onClick={() => clearFormatting(editor)} />
+      <IconButton icon={RemoveFormatting} label={t('Clear formatting')} size="sm" onMouseDown={stop} onClick={() => clearFormatting(editor)} />
     </>
   )
 }
 
 function LayoutRibbon({ editor, formats }: { editor: LexicalEditor; formats: ReturnType<typeof useActiveFormats> }) {
+  const t = useT()
   return (
     <>
       {ALIGN_OPTIONS.map((option) => (
         <IconButton
           key={option.value}
           icon={option.icon}
-          label={option.label}
+          label={t(option.label)}
           size="sm"
           active={formats.alignment === option.value}
           onMouseDown={stop}
@@ -226,11 +230,11 @@ function LayoutRibbon({ editor, formats }: { editor: LexicalEditor; formats: Ret
       ))}
       <RibbonDivider />
 
-      <IconButton icon={IndentDecrease} label="Decrease indent" size="sm" onMouseDown={stop} onClick={() => editor.dispatchCommand(OUTDENT_CONTENT_COMMAND, undefined)} />
-      <IconButton icon={IndentIncrease} label="Increase indent" size="sm" onMouseDown={stop} onClick={() => editor.dispatchCommand(INDENT_CONTENT_COMMAND, undefined)} />
+      <IconButton icon={IndentDecrease} label={t('Decrease indent')} size="sm" onMouseDown={stop} onClick={() => editor.dispatchCommand(OUTDENT_CONTENT_COMMAND, undefined)} />
+      <IconButton icon={IndentIncrease} label={t('Increase indent')} size="sm" onMouseDown={stop} onClick={() => editor.dispatchCommand(INDENT_CONTENT_COMMAND, undefined)} />
       <RibbonDivider />
 
-      <IconButton icon={Minus} label="Horizontal line" size="sm" onMouseDown={stop} onClick={() => editor.dispatchCommand(INSERT_HORIZONTAL_RULE_COMMAND, undefined)} />
+      <IconButton icon={Minus} label={t('Horizontal line')} size="sm" onMouseDown={stop} onClick={() => editor.dispatchCommand(INSERT_HORIZONTAL_RULE_COMMAND, undefined)} />
     </>
   )
 }
@@ -241,6 +245,7 @@ function LayoutRibbon({ editor, formats }: { editor: LexicalEditor; formats: Ret
  * remaining work (see `docs/HANDOFF-notebook.md`).
  */
 function InsertRibbon({ editor, uploadImage }: { editor: LexicalEditor; uploadImage?: (file: File) => Promise<string> }) {
+  const t = useT()
   const fileInput = useRef<HTMLInputElement>(null)
 
   async function onPickImage(event: React.ChangeEvent<HTMLInputElement>) {
@@ -269,7 +274,7 @@ function InsertRibbon({ editor, uploadImage }: { editor: LexicalEditor; uploadIm
   return (
     <>
       <input ref={fileInput} type="file" accept="image/*" className="hidden" onChange={onPickImage} />
-      <IconButton icon={ImageIcon} label="Insert image" size="sm" onMouseDown={stop} onClick={() => fileInput.current?.click()} />
+      <IconButton icon={ImageIcon} label={t('Insert image')} size="sm" onMouseDown={stop} onClick={() => fileInput.current?.click()} />
       <ReadyItemMenu editor={editor} />
       <LinkMenu editor={editor} />
       <TableMenu editor={editor} />
@@ -278,6 +283,7 @@ function InsertRibbon({ editor, uploadImage }: { editor: LexicalEditor; uploadIm
 }
 
 function TableMenu({ editor }: { editor: LexicalEditor }) {
+  const t = useT()
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
 
   const runInTable = (fn: () => void) => editor.update(fn)
@@ -301,24 +307,24 @@ function TableMenu({ editor }: { editor: LexicalEditor }) {
         onClick={() => setOpen(true)}
         aria-haspopup="menu"
         aria-expanded={open}
-        aria-label="Table"
-        title="Table"
+        aria-label={t('Table')}
+        title={t('Table')}
         className="flex h-11 shrink-0 items-center gap-1.5 rounded-lg px-2 text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:h-8"
       >
         <Icon icon={Table2} size={16} />
         <Icon icon={ChevronDown} size={12} className="text-ink-3" />
       </button>
       {open && (
-        <Popover anchor={anchor} onClose={close} role="menu" label="Table" className="min-w-[13rem] p-1">
-          {action('Insert table (3 × 3)', () => editor.dispatchCommand(INSERT_TABLE_COMMAND, { columns: '3', rows: '3', includeHeaders: true }))}
+        <Popover anchor={anchor} onClose={close} role="menu" label={t('Table')} className="min-w-[13rem] p-1">
+          {action(t('Insert table (3 × 3)'), () => editor.dispatchCommand(INSERT_TABLE_COMMAND, { columns: '3', rows: '3', includeHeaders: true }))}
           <div className="my-1 border-t border-line" />
-          <p className="px-2.5 pb-1 pt-0.5 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">Edit (inside a table)</p>
-          {action('Insert row below', () => runInTable(() => { $insertTableRowAtSelection(true) }))}
-          {action('Insert row above', () => runInTable(() => { $insertTableRowAtSelection(false) }))}
-          {action('Insert column right', () => runInTable(() => { $insertTableColumnAtSelection(true) }))}
-          {action('Insert column left', () => runInTable(() => { $insertTableColumnAtSelection(false) }))}
-          {action('Delete row', () => runInTable(() => { $deleteTableRowAtSelection() }))}
-          {action('Delete column', () => runInTable(() => { $deleteTableColumnAtSelection() }))}
+          <p className="px-2.5 pb-1 pt-0.5 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Edit (inside a table)')}</p>
+          {action(t('Insert row below'), () => runInTable(() => { $insertTableRowAtSelection(true) }))}
+          {action(t('Insert row above'), () => runInTable(() => { $insertTableRowAtSelection(false) }))}
+          {action(t('Insert column right'), () => runInTable(() => { $insertTableColumnAtSelection(true) }))}
+          {action(t('Insert column left'), () => runInTable(() => { $insertTableColumnAtSelection(false) }))}
+          {action(t('Delete row'), () => runInTable(() => { $deleteTableRowAtSelection() }))}
+          {action(t('Delete column'), () => runInTable(() => { $deleteTableColumnAtSelection() }))}
         </Popover>
       )}
     </>
@@ -326,6 +332,7 @@ function TableMenu({ editor }: { editor: LexicalEditor }) {
 }
 
 function LinkMenu({ editor }: { editor: LexicalEditor }) {
+  const t = useT()
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
   const [url, setUrl] = useState('')
   const [text, setText] = useState('')
@@ -370,15 +377,15 @@ function LinkMenu({ editor }: { editor: LexicalEditor }) {
         onClick={() => setOpen(true)}
         aria-haspopup="dialog"
         aria-expanded={open}
-        aria-label="Insert link"
-        title="Insert link"
+        aria-label={t('Insert link')}
+        title={t('Insert link')}
         className="grid size-11 shrink-0 place-items-center rounded-lg text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:size-8"
       >
         <Icon icon={Link2} size={16} />
       </button>
       {open && (
-        <Popover anchor={anchor} onClose={close} role="dialog" label="Insert link" className="w-64 p-3">
-          <label className="mb-1 block text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Link address</label>
+        <Popover anchor={anchor} onClose={close} role="dialog" label={t('Insert link')} className="w-64 p-3">
+          <label className="mb-1 block text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Link address')}</label>
           <input
             autoFocus
             value={url}
@@ -387,12 +394,12 @@ function LinkMenu({ editor }: { editor: LexicalEditor }) {
             placeholder="https://…"
             className="mb-2.5 h-9 w-full rounded-lg border border-line-2 bg-surface px-2.5 text-[12.5px] text-ink outline-none focus:border-primary"
           />
-          <label className="mb-1 block text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Text to show <span className="font-normal normal-case text-ink-3/70">(if none selected)</span></label>
+          <label className="mb-1 block text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Text to show')} <span className="font-normal normal-case text-ink-3/70">{t('(if none selected)')}</span></label>
           <input
             value={text}
             onChange={(event) => setText(event.target.value)}
             onKeyDown={(event) => { if (event.key === 'Enter') { event.preventDefault(); apply() } }}
-            placeholder="Link text"
+            placeholder={t('Link text')}
             className="mb-3 h-9 w-full rounded-lg border border-line-2 bg-surface px-2.5 text-[12.5px] text-ink outline-none focus:border-primary"
           />
           <button
@@ -402,7 +409,7 @@ function LinkMenu({ editor }: { editor: LexicalEditor }) {
             disabled={!url.trim()}
             className="h-9 w-full rounded-lg bg-primary text-[12.5px] font-medium text-on-primary transition-colors hover:bg-primary-strong disabled:pointer-events-none disabled:opacity-40"
           >
-            Add link
+            {t('Add link')}
           </button>
         </Popover>
       )}
@@ -420,6 +427,7 @@ const READY_ITEM_CATEGORY_LABEL: Record<ReadyItemCategory, string> = {
 }
 
 function ReadyItemMenu({ editor }: { editor: LexicalEditor }) {
+  const t = useT()
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
   const [query, setQuery] = useState('')
   const grouped = useMemo(() => readyItemsByCategory(), [])
@@ -440,20 +448,20 @@ function ReadyItemMenu({ editor }: { editor: LexicalEditor }) {
         onClick={() => setOpen(true)}
         aria-haspopup="menu"
         aria-expanded={open}
-        aria-label="Ready items"
-        title="Ready items"
+        aria-label={t('Ready items')}
+        title={t('Ready items')}
         className="flex h-11 shrink-0 items-center gap-1.5 rounded-lg px-2 text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:h-8"
       >
         <Icon icon={Sparkles} size={16} />
         <Icon icon={ChevronDown} size={12} className="text-ink-3" />
       </button>
       {open && (
-        <Popover anchor={anchor} onClose={close} role="menu" label="Ready items" className="w-72 p-2">
+        <Popover anchor={anchor} onClose={close} role="menu" label={t('Ready items')} className="w-72 p-2">
           <input
             autoFocus
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search items…"
+            placeholder={t('Search items…')}
             className="mb-2 h-9 w-full rounded-lg border border-line-2 bg-surface px-2.5 text-[12.5px] text-ink outline-none focus:border-primary"
           />
           <div className="max-h-72 overflow-y-auto">
@@ -463,13 +471,13 @@ function ReadyItemMenu({ editor }: { editor: LexicalEditor }) {
               (Object.keys(grouped) as ReadyItemCategory[]).map((category) => (
                 grouped[category].length > 0 && (
                   <div key={category} className="mb-2 last:mb-0">
-                    <p className="mb-1 px-1 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{READY_ITEM_CATEGORY_LABEL[category]}</p>
+                    <p className="mb-1 px-1 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t(READY_ITEM_CATEGORY_LABEL[category])}</p>
                     <ReadyItemGrid items={grouped[category]} onPick={insert} />
                   </div>
                 )
               ))
             )}
-            {results?.length === 0 && <p className="px-1 py-3 text-center text-[12px] text-ink-3">No items match “{query}”.</p>}
+            {results?.length === 0 && <p className="px-1 py-3 text-center text-[12px] text-ink-3">{t('No items match')} “{query}”.</p>}
           </div>
         </Popover>
       )}
@@ -478,14 +486,15 @@ function ReadyItemMenu({ editor }: { editor: LexicalEditor }) {
 }
 
 function ReadyItemGrid({ items, onPick }: { items: ReadyItem[]; onPick: (item: ReadyItem) => void }) {
+  const t = useT()
   return (
     <div className="grid grid-cols-6 gap-1">
       {items.map((item) => (
         <button
           key={item.id}
           type="button"
-          title={item.label}
-          aria-label={item.label}
+          title={t(item.label)}
+          aria-label={t(item.label)}
           onMouseDown={stop}
           onClick={() => onPick(item)}
           className="grid aspect-square place-items-center rounded-lg text-ink-2 transition-colors hover:bg-inset hover:text-ink"
@@ -498,11 +507,12 @@ function ReadyItemGrid({ items, onPick }: { items: ReadyItem[]; onPick: (item: R
 }
 
 function DrawRibbon({ draw }: { draw: DrawControls }) {
+  const t = useT()
   return (
     <>
       <IconButton
         icon={PenTool}
-        label={draw.enabled ? 'Stop drawing' : 'Draw'}
+        label={draw.enabled ? t('Stop drawing') : t('Draw')}
         size="sm"
         active={draw.enabled && draw.tool === 'pen'}
         onMouseDown={stop}
@@ -510,7 +520,7 @@ function DrawRibbon({ draw }: { draw: DrawControls }) {
       />
       <IconButton
         icon={Eraser}
-        label="Eraser"
+        label={t('Eraser')}
         size="sm"
         active={draw.enabled && draw.tool === 'eraser'}
         onMouseDown={stop}
@@ -523,7 +533,7 @@ function DrawRibbon({ draw }: { draw: DrawControls }) {
           <button
             key={swatch}
             type="button"
-            aria-label={`Pen colour ${swatch}`}
+            aria-label={`${t('Pen colour')} ${swatch}`}
             title={swatch}
             onMouseDown={stop}
             onClick={() => draw.setColor(swatch)}
@@ -542,8 +552,8 @@ function DrawRibbon({ draw }: { draw: DrawControls }) {
           <button
             key={option}
             type="button"
-            aria-label={`Pen width ${option}`}
-            title={`Width ${option}`}
+            aria-label={`${t('Pen width')} ${option}`}
+            title={`${t('Width')} ${option}`}
             onMouseDown={stop}
             onClick={() => draw.setWidth(option)}
             className={cn(
@@ -562,23 +572,23 @@ function DrawRibbon({ draw }: { draw: DrawControls }) {
         onMouseDown={stop}
         onClick={() => draw.setPlacement(draw.placement === 'over' ? 'under' : 'over')}
         className="flex h-11 shrink-0 items-center gap-1.5 rounded-lg px-2.5 text-[12px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:h-8"
-        title="Whether the drawing sits over or under your text"
+        title={t('Whether the drawing sits over or under your text')}
       >
         <Icon icon={Layers} size={15} />
-        Ink {draw.placement === 'over' ? 'over text' : 'under text'}
+        {t('Ink')} {draw.placement === 'over' ? t('over text') : t('under text')}
       </button>
       <RibbonDivider />
 
       <IconButton
         icon={Trash2}
-        label="Clear drawing"
+        label={t('Clear drawing')}
         size="sm"
         disabled={!draw.hasStrokes}
         className="disabled:pointer-events-none disabled:opacity-40"
         onMouseDown={stop}
         onClick={draw.clear}
       />
-      {draw.enabled && <Badge tone="primary" className="ms-1">Drawing on</Badge>}
+      {draw.enabled && <Badge tone="primary" className="ms-1">{t('Drawing on')}</Badge>}
     </>
   )
 }
@@ -588,6 +598,7 @@ function DrawRibbon({ draw }: { draw: DrawControls }) {
  * (e.g. a read-only surface). The live Draw tab is `DrawRibbon` above.
  */
 function DrawRibbonStub() {
+  const t = useT()
   const stubs: { icon: LucideIcon; label: string }[] = [
     { icon: PenTool, label: 'Pen' },
     { icon: Eraser, label: 'Eraser' },
@@ -600,18 +611,19 @@ function DrawRibbonStub() {
           key={item.label}
           type="button"
           disabled
-          title={`${item.label} — coming soon`}
+          title={`${t(item.label)} — ${t('coming soon')}`}
           className="grid size-11 shrink-0 cursor-not-allowed place-items-center rounded-lg text-ink-3/60 sm:size-8"
         >
           <Icon icon={item.icon} size={16} />
         </button>
       ))}
-      <Badge tone="outline" className="ms-2">Coming soon</Badge>
+      <Badge tone="outline" className="ms-2">{t('Coming soon')}</Badge>
     </>
   )
 }
 
 function TextStyleMenu({ editor, blockType }: { editor: LexicalEditor; blockType: BlockStyle }) {
+  const t = useT()
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
   const current = TEXT_STYLE_OPTIONS.find((option) => option.value === blockType) ?? TEXT_STYLE_OPTIONS[0]
 
@@ -627,11 +639,11 @@ function TextStyleMenu({ editor, blockType }: { editor: LexicalEditor; blockType
         className="flex h-11 shrink-0 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-2.5 text-[12.5px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:h-8"
       >
         <Icon icon={current.icon} size={15} />
-        <span className="max-w-[6.5rem] truncate">{current.label}</span>
+        <span className="max-w-[6.5rem] truncate">{t(current.label)}</span>
         <Icon icon={ChevronDown} size={13} className="text-ink-3" />
       </button>
       {open && (
-        <Popover anchor={anchor} onClose={close} role="menu" label="Text style" className="min-w-[11.5rem] py-1">
+        <Popover anchor={anchor} onClose={close} role="menu" label={t('Text style')} className="min-w-[11.5rem] py-1">
           {TEXT_STYLE_OPTIONS.map((option) => {
             const active = option.value === blockType
             return (
@@ -648,7 +660,7 @@ function TextStyleMenu({ editor, blockType }: { editor: LexicalEditor; blockType
                 )}
               >
                 <Icon icon={option.icon} size={15} className={active ? 'text-primary' : 'text-ink-3'} />
-                <span className="flex-1 truncate">{option.label}</span>
+                <span className="flex-1 truncate">{t(option.label)}</span>
                 {active && <Icon icon={Check} size={14} className="text-primary" />}
               </button>
             )
@@ -660,6 +672,7 @@ function TextStyleMenu({ editor, blockType }: { editor: LexicalEditor; blockType
 }
 
 function ListMenu({ editor, listType }: { editor: LexicalEditor; listType: ListStyle | null }) {
+  const t = useT()
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
   const current = LIST_STYLE_OPTIONS.find((option) => option.value === listType)
 
@@ -672,8 +685,8 @@ function ListMenu({ editor, listType }: { editor: LexicalEditor; listType: ListS
         onClick={() => setOpen(true)}
         aria-haspopup="menu"
         aria-expanded={open}
-        aria-label="List style"
-        title="List style"
+        aria-label={t('List style')}
+        title={t('List style')}
         className={cn(
           'grid h-11 shrink-0 grid-cols-[1fr_auto] place-items-center gap-0.5 rounded-lg px-1.5 text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:h-8',
           current && 'bg-primary-tint text-primary-strong',
@@ -683,7 +696,7 @@ function ListMenu({ editor, listType }: { editor: LexicalEditor; listType: ListS
         <Icon icon={ChevronDown} size={12} className="text-ink-3" />
       </button>
       {open && (
-        <Popover anchor={anchor} onClose={close} role="menu" label="List style" className="min-w-[11rem] py-1">
+        <Popover anchor={anchor} onClose={close} role="menu" label={t('List style')} className="min-w-[11rem] py-1">
           {LIST_STYLE_OPTIONS.map((option) => {
             const active = option.value === listType
             return (
@@ -700,7 +713,7 @@ function ListMenu({ editor, listType }: { editor: LexicalEditor; listType: ListS
                 )}
               >
                 <Icon icon={option.icon} size={15} className={active ? 'text-primary' : 'text-ink-3'} />
-                <span className="flex-1 truncate">{option.label}</span>
+                <span className="flex-1 truncate">{t(option.label)}</span>
                 {active && <Icon icon={Check} size={14} className="text-primary" />}
               </button>
             )
@@ -726,6 +739,7 @@ function ColorMenu({
   onPick: (color: string | null) => void
   clearLabel: string
 }) {
+  const t = useT()
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
 
   return (
@@ -757,8 +771,8 @@ function ColorMenu({
               <button
                 key={swatch.value}
                 type="button"
-                aria-label={swatch.label}
-                title={swatch.label}
+                aria-label={t(swatch.label)}
+                title={t(swatch.label)}
                 onMouseDown={stop}
                 onClick={() => { close(); onPick(swatch.value) }}
                 className={cn(

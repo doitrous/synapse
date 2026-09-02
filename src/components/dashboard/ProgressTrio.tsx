@@ -6,16 +6,9 @@ import { clamp } from '@/lib/format'
 import { useI18n, useT } from '@/lib/i18n'
 import { masteryBand } from '@/data/mastery'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
-import { distinctItems, firstAttemptSplit } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { useAttemptHistory } from '@/lib/useAttemptLog'
-import { usePracticalProgress } from '@/lib/usePracticalProgress'
-import { useLivePracticals } from '@/lib/useLivePracticals'
-import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
-import { useLiveEssays } from '@/lib/useLiveEssays'
-import { useEssayAnswers } from '@/lib/useEssayAnswers'
-import { coveredCount } from '@/data/essay'
+import { usePracticeProgress } from '@/lib/usePracticeProgress'
 
 type Tone = 'danger' | 'primary' | 'success'
 
@@ -143,31 +136,9 @@ function RingStack({ rings, allEarned }: { rings: { value: number; color: string
  */
 export function ProgressRingStack() {
   const t = useT()
-  const questions = usePublishedQuestions()
-  const history = useAttemptHistory()
-  const { progress } = usePracticalProgress()
-  const { osceStations, clinicalCases, labImaging } = useLivePracticals()
-  const essays = useLiveEssays()
-  const { answers } = useEssayAnswers()
-
-  const qbankRecords = history.records.filter((record) => record.surface === 'qbank' || record.surface === 'room')
-  const seen = distinctItems(qbankRecords)
-  const bankTotal = questions.length
+  const { seen, bankTotal, firstAccuracy, practicalTotal, attempted, essayTotal, markedCount } = usePracticeProgress()
   const bankPct = bankTotal ? Math.round((Math.min(seen, bankTotal) / bankTotal) * 100) : 0
-  const firstAccuracy = firstAttemptSplit(qbankRecords).first.accuracy
-
-  const practicalTotal = osceStations.length + clinicalCases.length + labImaging.length
-  const attempted = Object.keys(progress.stations).length
-    + Object.values(progress.cases).filter((entry) => entry.status !== 'not-started').length
-    + Object.values(progress.labs).filter((entry) => entry.done > 0).length
   const practicalPct = practicalTotal ? Math.round((attempted / practicalTotal) * 100) : 0
-
-  const essayTotal = essays.length
-  let markedCount = 0
-  for (const essay of essays) {
-    const covered = coveredCount(answers[essay.id]?.ticked ?? null, essay.keyPoints.map((point) => point.id))
-    if (covered) markedCount += 1
-  }
   const essayPct = essayTotal ? Math.round((markedCount / essayTotal) * 100) : 0
 
   const rows = [

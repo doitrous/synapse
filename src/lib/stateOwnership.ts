@@ -17,6 +17,20 @@ const USER_OWNED_PATTERNS = [
   /^nishany-notification-read-v1-/,
   /^nishany-applied-voucher-v1$/,
   /^nishany\.qbank\./,
+  // The unified builder's mixed sitting — the queue it drew and how far
+  // through it the student is. It sits inside the qbank namespace above and is
+  // already matched by it; it is named here because this list is where anyone
+  // asking "who owns this document" looks, and a new student-owned key that
+  // cannot be found by grepping it is the way one ends up in the shared store.
+  /^nishany\.qbank\.mixedSession\./,
+  // The flags a student raised on practical items and written questions. MCQ
+  // flags are not migrated here — they stay in `nishany.qbank.marked.v1`, which
+  // is live on every device and read in four places.
+  /^nishany\.practice\./,
+  // Every test the student has sat, of every kind, with what it was made of.
+  // A list of what this student did: it follows the account and must never
+  // reach the shared catalogue store.
+  /^nishany\.sittings\./,
   /^nishany\.flashcards\./,
   /^nishany\.practical\./,
   /^nishany\.essay\./,
@@ -34,6 +48,15 @@ const USER_OWNED_PATTERNS = [
   // live build spent a retry budget on a document it could never have.
   /^nishany\.myDocuments\./,
   /^nishany\.termgrid\./,
+  // The redesign's new student documents: the calendar's task list, the
+  // terminology "Got it" marks, and the study-room seat the student chose.
+  /^nishany\.calendar\.tasks/,
+  /^nishany\.terminology\./,
+  /^nishany\.studyRooms\./,
+  // Which guide topics this student has ticked off. Dotted and per-student, so
+  // it is not to be confused with `nishany-tutorial-videos-v1` — the undotted,
+  // admin-written document holding the video links every student reads.
+  /^nishany\.tutorial\./,
 ]
 
 export function isUserOwnedState(key: string): boolean {

@@ -2,7 +2,8 @@ import { useEffect, useMemo, useRef } from 'react'
 import { Microscope as MicroscopeIcon } from 'lucide-react'
 import type { HistologySlide } from '@/data/histology'
 import { useLiveHistology } from '@/lib/useLiveHistology'
-import { subjects, getSubject } from '@/data/subjects'
+import { subjects } from '@/data/subjects'
+import { useSubjectName } from '@/lib/useSubjectName'
 import { Panel } from '@/components/ui/Panel'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SystemMark } from '@/components/ui/SystemMark'
@@ -41,6 +42,7 @@ export function Microscope({
   onOpen: (slide: HistologySlide, origin?: MicroscopeTransitionRect) => void
 }) {
   const t = useT()
+  const subjectName = useSubjectName()
   const { slides } = useLiveHistology()
   const instrumentRef = useRef<HTMLImageElement>(null)
   const groups = useMemo(() => groupBySubject(slides), [slides])
@@ -92,7 +94,7 @@ export function Microscope({
               <div className="flex items-center gap-2 border-b border-line px-4 py-2.5">
                 <SystemMark subjectId={group.key} />
                 <span className="text-[12.5px] font-semibold text-ink">
-                  {group.key === 'unfiled' ? t('Unfiled') : getSubject(group.key).name}
+                  {group.key === 'unfiled' ? t('Unfiled') : subjectName(group.key)}
                 </span>
                 <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{group.slides.length}</span>
               </div>

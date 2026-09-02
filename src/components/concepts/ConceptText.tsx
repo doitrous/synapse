@@ -9,6 +9,7 @@ import { Popover } from '@/components/ui/Popover'
 import { RichText } from '@/components/ui/RichText'
 import { apiOpenFile } from '@/lib/api'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useT } from '@/lib/i18n'
 
 function escapeRegExp(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
@@ -32,6 +33,7 @@ function humanRelation(type: string) {
 }
 
 export function ConceptText({ text, enabled = true }: { text: string; enabled?: boolean }) {
+  const t = useT()
   const [open, setOpen] = useState<{ concept: Concept; anchor: HTMLElement } | null>(null)
   const mediaRecords = useMediaRecords()
   const active = open?.concept ?? null
@@ -114,7 +116,7 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
         <Popover
           anchor={open.anchor}
           onClose={() => setOpen(null)}
-          label={`${open.concept.label} — concept details`}
+          label={t('{concept} — concept details').replace('{concept}', open.concept.label)}
           className="w-[min(23rem,calc(100vw-2rem))] font-sans font-normal leading-normal text-ink"
         >
           <div className="flex items-start gap-2.5 border-b border-line px-4 py-3">
@@ -123,12 +125,12 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
               <h3 className="font-serif text-[16px] font-semibold leading-snug tracking-[-0.01em] text-ink">{open.concept.label}</h3>
               <p className="mt-0.5 truncate font-mono text-[10px] text-ink-3">{open.concept.id}</p>
             </div>
-            <button type="button" onClick={() => setOpen(null)} className="grid size-8 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close concept details"><Icon icon={X} size={15} /></button>
+            <button type="button" onClick={() => setOpen(null)} className="grid size-8 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label={t('Close concept details')}><Icon icon={X} size={15} /></button>
           </div>
 
-          <div className="max-h-[min(26rem,60vh)] overflow-y-auto overscroll-contain">
+          <div className="max-h-[min(26rem,60dvh)] overflow-y-auto overscroll-contain">
             <p className="px-4 py-3 text-[13px] leading-[1.6] text-ink-2">
-              {open.concept.definition || 'Definition awaiting editorial review.'}
+              {open.concept.definition || t('Definition awaiting editorial review.')}
             </p>
 
             {/* A concept's own images, from the same library a question draws
@@ -145,27 +147,27 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
 
             {open.concept.pitfalls && (
               <div className="mx-4 mb-3 rounded-lg border border-warning/30 bg-warning-tint/50 p-3">
-                <p className="mb-1 flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-warning"><Icon icon={TriangleAlert} size={12} />Pitfall</p>
+                <p className="mb-1 flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-warning"><Icon icon={TriangleAlert} size={12} />{t('Pitfall')}</p>
                 <p className="text-[12px] leading-relaxed text-ink-2">{open.concept.pitfalls}</p>
               </div>
             )}
 
             {activeSources.length > 0 && (
               <section className="border-t border-line px-4 py-3">
-                <h4 className="mb-2 flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-ink-3"><Icon icon={FileText} size={12} />Sources</h4>
+                <h4 className="mb-2 flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-ink-3"><Icon icon={FileText} size={12} />{t('Sources')}</h4>
                 <ul className="space-y-1.5">
                   {activeSources.map(({ resourceId, resource, citation }) => (
                     <li key={resourceId} className="flex items-center gap-2 rounded-lg border border-line bg-surface-2/40 p-2.5">
                       <span className="min-w-0 flex-1">
                         <span className="block truncate text-[12px] font-semibold text-ink">{resource?.title ?? resourceId}</span>
-                        <span className="mt-0.5 block truncate text-[10.5px] text-ink-3">{resource?.institution || 'Resource'} · {sourceLocation(citation?.locator)}</span>
+                        <span className="mt-0.5 block truncate text-[10.5px] text-ink-3">{resource?.institution || t('Resource')} · {sourceLocation(citation?.locator)}</span>
                       </span>
                       <button
                         type="button"
                         className="inline-flex min-h-8 shrink-0 items-center gap-1 rounded-md px-2 text-[11px] font-semibold text-ink-2 transition-colors hover:bg-primary-tint hover:text-primary-strong focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-primary"
                         onClick={() => void openSource(resourceId, resource?.sourceUri, citation?.locator)}
                       >
-                        Go <Icon icon={ExternalLink} size={11} />
+                        {t('Go')} <Icon icon={ExternalLink} size={11} />
                       </button>
                     </li>
                   ))}
@@ -175,7 +177,7 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
 
             {relations.length > 0 && (
               <section className="border-t border-line px-4 py-3">
-                <h4 className="mb-2 flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-ink-3"><Icon icon={GitFork} size={12} />Relationships</h4>
+                <h4 className="mb-2 flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-ink-3"><Icon icon={GitFork} size={12} />{t('Relationships')}</h4>
                 {/* These read as raw rows like "related_concepts → X", or worse,
                     "X → related_concepts" with nothing on the other side. The
                     arrow now carries the direction and the concept is named. */}
