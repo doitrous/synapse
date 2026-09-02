@@ -4823,3 +4823,168 @@ Block: body
 ### definition_of · CON-FND-F9417E8EE7E655
 Quote: Tendonitis, and in more severe cases tendon rupture, is a recognised, characteristic adverse effect of ciprofloxacin and other fluoroquinolones, thought to relate to the drug class's effect on collagen and connective tissue
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## title
+Etiology of cancers and laboratory diagnosis -- physical, chemical, bacterial and viral carcinogens, oncogenes and tumor suppressor genes
+
+## arabic_title
+مسببات السرطان والتشخيص المعملي: المسرطنات الفيزيائية والكيميائية والبكتيرية والفيروسية، الجينات المسرطنة والجينات الكابتة للورم
+
+## aliases
+Etiology of cancers and laboratory diagnosis
+Lecture 45
+
+## subject
+fnd
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Physical carcinogens, chemical carcinogens, bacterial carcinogenesis, viral carcinogenesis, oncogenes and tumor suppressor genes
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+11
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 45 surveys cancer etiology across physical, chemical, bacterial and viral carcinogens, plus the gene classes that drive or restrain malignant transformation. Chronic UV exposure is the leading skin cancer risk factor in fair-skinned individuals; corticosteroids are not a chemical carcinogen, unlike azo compounds, polycyclic hydrocarbons or asbestos. H. pylori is implicated in gastric lymphoma, HPV in cervical cancer, EBV in nasopharyngeal carcinoma and Burkitt's lymphoma, and aflatoxin (from Aspergillus flavus) in liver cancer -- while breast cancer stands out as not virus-related, and hepatitis C virus is taught as Egypt's most important carcinogenic virus. Tumor suppressor genes prevent, and oncogenes promote, malignant transformation.
+
+## sections
+### Definition
+Lecture 45 catalogues the major categories of cancer-causing agents (physical, chemical, bacterial, viral) and the two opposing gene classes -- tumor suppressor genes and oncogenes -- that determine whether a cell's growth stays controlled or becomes malignant.
+
+### Mechanism
+Chronic UV exposure is the most important risk factor for skin cancer, especially in fair-skinned individuals with less natural photoprotection. Corticosteroids are not classed among the chemical carcinogens, unlike azo compounds, polycyclic aromatic hydrocarbons and asbestos. Chronic H. pylori infection is implicated in gastric lymphoma (and gastric adenocarcinoma) through sustained antigenic stimulation. HPV, particularly high-risk strains, is strongly associated with cervical cancer via oncoprotein inactivation of tumour suppressor gene products, while EBV is linked to nasopharyngeal carcinoma and Burkitt's lymphoma; breast cancer, by contrast, is not classed as virus-related. Hepatitis C virus is taught as Egypt's most important carcinogenic virus given its historically high local prevalence and progression to hepatocellular carcinoma. Tumor suppressor genes such as RB and TP53 function to prevent malignant transformation, while oncogenes, arising from gain-of-function mutation of proto-oncogenes, promote autonomous cell growth in cancer cells.
+
+### Key determinants
+UV exposure's importance is amplified by fair skin's lower melanin photoprotection. Corticosteroids, azo compounds, polycyclic hydrocarbons and asbestos are not interchangeable on a chemical-carcinogen list -- only the latter three belong there. H. pylori's association is specifically with gastric lymphoma/adenocarcinoma, not brain, colon or generic metastasis. HPV's link is cervical cancer; EBV's is nasopharyngeal carcinoma and Burkitt's lymphoma; breast cancer has no established viral link. HCV's "most important in Egypt" status is a local-epidemiology fact, not a claim that it is the only carcinogenic virus overall. Tumor suppressor genes restrain growth; oncogenes drive it -- opposite roles that are frequently tested from both directions.
+
+### Clinical significance
+Recognising UV exposure as the dominant skin cancer risk factor in fair-skinned patients supports sun-protection counselling. Knowing H. pylori's gastric lymphoma link supports eradication therapy as cancer prevention. HPV vaccination and cervical screening target HPV's well-established cervical cancer link. HCV's outsized importance in Egypt underlies national hepatitis C screening and treatment programmes aimed at reducing hepatocellular carcinoma incidence. Distinguishing tumor suppressor genes from oncogenes underlies targeted cancer therapies aimed at restoring suppressor function or blocking oncogene products.
+
+### Common misconceptions
+Attributing a fair-skinned patient's skin cancer to an inherited mutation, asbestos or smoking instead of UV exposure. Including corticosteroids on a chemical-carcinogen list. Confusing H. pylori's gastric lymphoma association with brain or colon cancer. Assuming HPV, rather than EBV, causes nasopharyngeal carcinoma, or vice versa for cervical cancer. Assuming breast cancer has a viral cause. Naming a virus other than HCV as most important in Egypt. Confusing tumor suppressor genes (which restrain growth) with oncogenes (which promote it).
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Chronic UV exposure is the most important skin cancer risk factor in fair-skinned individuals.
+Corticosteroids are not a chemical carcinogen; azo compounds, polycyclic hydrocarbons and asbestos are.
+H. pylori is implicated in gastric lymphoma; HPV in cervical cancer; EBV in nasopharyngeal carcinoma/Burkitt's lymphoma; aflatoxin in liver cancer.
+Breast cancer is not virus-related; hepatitis C virus is Egypt's most important carcinogenic virus.
+Tumor suppressor genes prevent malignant transformation; oncogenes promote autonomous cell growth.
+
+## lose_the_mark
+Naming a non-UV risk factor as most important for a fair-skinned patient's skin cancer.
+Including corticosteroids among the chemical carcinogens.
+Swapping H. pylori, HPV and EBV's cancer associations.
+Assuming breast cancer or a virus other than HCV fits these Egypt/virus-specific facts.
+Confusing tumor suppressor genes with oncogenes.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-D3D567B1858979
+CON-FND-81533C95FE69F4
+CON-FND-0C1014ADF53736
+CON-FND-8B1A909A2138C4
+CON-FND-E7A5F2A0F170F0
+CON-FND-D429C114778FFB
+
+## related_articles
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 45 (Etiology of cancers and laboratory diagnosis) -- no department slide deck exists in the corpus past Lecture 8, so all six new mints cite the quiz bank's own printed-answer text instead. Quiz 45 Q3/Q4/Q5/Q10 (q366-q368, q373) reuse pending Kasr 208-INT concepts (EBV, oncogene/tumor-suppressor classification, aflatoxin) instead of minting twins; their questions cite the existing Kasr article ART-FND-208INT-NEOPLASIA-BASICS instead of this one. Q11-Q19 (q374-q382), this quiz's True/False rows, are held as format-incompatible.
+
+## annotations
+### definition_of · CON-FND-D3D567B1858979
+Quote: Chronic UV exposure is the most important risk factor for skin cancer, especially in fair-skinned individuals with less natural photoprotection
+Block: body
+
+### definition_of · CON-FND-81533C95FE69F4
+Quote: Corticosteroids are not classed among the chemical carcinogens, unlike azo compounds, polycyclic aromatic hydrocarbons and asbestos
+Block: body
+
+### definition_of · CON-FND-0C1014ADF53736
+Quote: Chronic H. pylori infection is implicated in gastric lymphoma (and gastric adenocarcinoma) through sustained antigenic stimulation
+Block: body
+
+### definition_of · CON-FND-8B1A909A2138C4
+Quote: HPV, particularly high-risk strains, is strongly associated with cervical cancer via oncoprotein inactivation of tumour suppressor gene products
+Block: body
+
+### definition_of · CON-FND-E7A5F2A0F170F0
+Quote: breast cancer, by contrast, is not classed as virus-related
+Block: body
+
+### definition_of · CON-FND-D429C114778FFB
+Quote: Hepatitis C virus is taught as Egypt's most important carcinogenic virus given its historically high local prevalence and progression to hepatocellular carcinoma
+Block: body
