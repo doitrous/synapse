@@ -148,3 +148,15 @@ embryo1-q42
 embryo1-q43
 embryo1-q44
 embryo1-q45
+
+# embryo2: first 10 of 69 questions (fertilization/implantation/placenta basics) -- AUTHORED this session
+embryo2-q01
+embryo2-q02
+embryo2-q03
+embryo2-q04
+embryo2-q05
+embryo2-q06
+embryo2-q07
+embryo2-q08
+embryo2-q09
+embryo2-q10
