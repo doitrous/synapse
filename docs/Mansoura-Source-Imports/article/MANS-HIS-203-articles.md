@@ -4615,3 +4615,6162 @@ mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Conti
 
 
 
+# Item
+
+## id
+ART-MANS-HIS-PYRIMETHAMINE-CONJUGASE-FOLATE-DEFICIENCY
+
+## title
+Pyrimethamine and intestinal folate conjugases
+
+## arabic_title
+
+
+## aliases
+Conjugase inhibition and folate deficiency
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — folate pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Pyrimethamine can cause folate deficiency by inhibiting the intestinal conjugases that release absorbable folate from its dietary polyglutamate form, a mechanism distinct from its antimalarial DHFR inhibition.
+
+## sections
+### Definition
+Dietary folate is mostly bound as polyglutamates that must be cleaved to monoglutamate folate by intestinal conjugases before absorption.
+
+### Mechanism
+Pyrimethamine inhibits these brush-border conjugases, reducing the amount of folate released from food and absorbed, independently of its separate action inhibiting dihydrofolate reductase.
+
+### Key determinants
+The conjugase-inhibition route to folate deficiency is a distinct mechanism from DHFR inhibition, and exam questions test recognising pyrimethamine specifically among antifolate-acting drugs.
+
+### Clinical significance
+Patients on long-term pyrimethamine (e.g. for toxoplasmosis or malaria prophylaxis) are at risk of folate-deficiency megaloblastic anaemia and are often co-prescribed folinic acid.
+
+## hold_these
+Pyrimethamine causes folate deficiency partly by inhibiting the intestinal conjugases that release folate from food.
+
+## lose_the_mark
+Assuming pyrimethamine only affects folate metabolism through DHFR inhibition, missing its separate conjugase-inhibiting route.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.149, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q13.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-1D21B7D30E7B40
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.149, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-FERROUS-SULFATE-GI-SIDE-EFFECTS
+
+## title
+Ferrous sulfate: the GI-tolerability problem
+
+## arabic_title
+
+
+## aliases
+Oral iron GI upset
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Ferrous sulfate, the standard oral iron salt, commonly causes dose-related GI upset (nausea, vomiting, diarrhoea) which is the main reason patients cannot tolerate it long enough to correct their anaemia.
+
+## sections
+### Definition
+Ferrous sulfate is the standard first-line oral iron salt used to treat iron-deficiency anaemia.
+
+### Mechanism
+The unabsorbed iron remaining in the gut lumen irritates the mucosa directly, producing nausea, vomiting, epigastric discomfort and altered bowel habit in a dose-related way.
+
+### Key determinants
+GI upset, not lack of efficacy, is the main driver of non-adherence and preparation switching with oral iron therapy.
+
+### Clinical significance
+Taking iron with food, splitting the dose, or switching to a better-tolerated salt (e.g. ferrous gluconate) are the practical responses to this side effect before escalating to parenteral therapy.
+
+## hold_these
+Ferrous sulfate commonly causes dose-related GI upset (nausea, vomiting, diarrhoea).
+
+## lose_the_mark
+Assuming GI upset on oral iron means the drug is not working, rather than a tolerability problem needing a practical fix.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.149, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q16.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-A273FC3BDC153D
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.149, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-FOLATE-DEFICIENCY-NEURAL-TUBE-DEFECT
+
+## title
+Folate deficiency and neural tube defects
+
+## arabic_title
+
+
+## aliases
+Peri-conceptional folic acid
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — folate pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Maternal folate deficiency in the first weeks of pregnancy impairs neural tube closure, causing defects like spina bifida — the reason folic acid supplementation starts before conception, not after pregnancy is confirmed.
+
+## sections
+### Definition
+Neural tube closure occurs in the first 3-4 weeks after conception and depends on the rapid DNA synthesis folate supports.
+
+### Mechanism
+Folate deficiency during this window impairs neural tube closure, producing defects such as spina bifida and anencephaly.
+
+### Key determinants
+Because closure predates pregnancy recognition in most women, the protective window for folic acid supplementation is peri-conceptional, not post-diagnosis.
+
+### Clinical significance
+Folic acid supplementation is recommended for all women planning pregnancy, and at a higher dose for those with a prior affected pregnancy or other risk factors.
+
+## hold_these
+Maternal folate deficiency in early pregnancy causes neural tube defects; supplementation must start before conception.
+
+## lose_the_mark
+Believing folic acid supplementation is only needed once pregnancy is confirmed, missing that neural tube closure has often already occurred by then.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.150, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q17; Q14 (early-pregnancy folic acid supplementation) held as the same underlying fact from the prevention side.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-80EDA474009E67
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.150, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-VITAMIN-B12-GENERAL-PHARMACOLOGY
+
+## title
+Vitamin B12: absorption site and why pernicious anaemia needs parenteral therapy
+
+## arabic_title
+
+
+## aliases
+B12 absorption and route of therapy
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — vitamin B12 pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Vitamin B12 is absorbed in the lower ileum via intrinsic factor, and because pernicious anaemia is an intrinsic-factor deficiency, oral B12 is not the first-choice route there — parenteral hydroxocobalamin is.
+
+## sections
+### Definition
+Vitamin B12 requires intrinsic factor from gastric parietal cells to be absorbed, and absorption happens at specific receptors in the terminal ileum.
+
+### Mechanism
+In pernicious anaemia, autoimmune destruction of parietal cells removes intrinsic factor, so oral B12 cannot be absorbed no matter the dose, and parenteral (IM) B12 bypasses the defect entirely.
+
+### Key determinants
+B12 deficiency uniquely produces both a haematological picture (megaloblastic anaemia) and a neurological one (paraesthesia, subacute combined degeneration), because B12 is needed for both DNA synthesis and myelin maintenance.
+
+### Clinical significance
+Recognising pernicious anaemia as an absorption problem rather than a dietary one is what drives the choice of parenteral over oral replacement.
+
+## hold_these
+B12 is absorbed in the lower ileum; oral therapy is not first-choice in pernicious anaemia; B12 deficiency causes both anaemia and neurological symptoms.
+
+## lose_the_mark
+Treating pernicious anaemia with oral B12 because "more vitamin" seems like it should work, missing that absorption — not intake — is the defect.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.150, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q18.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-5E9BE66CF59AB4
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.150, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-MMA-VS-HOMOCYSTEINE-B12-FOLATE
+
+## title
+Methylmalonic acid: the B12-specific marker
+
+## arabic_title
+
+
+## aliases
+Distinguishing B12 and folate deficiency biochemically
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — vitamin B12 pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Homocysteine rises in both B12 and folate deficiency, but methylmalonic acid rises only in B12 deficiency, because only B12 (not folate) is needed for the methylmalonyl-CoA mutase reaction that clears it.
+
+## sections
+### Definition
+Both B12 and folate deficiency impair the methionine synthase reaction, so both raise serum homocysteine.
+
+### Mechanism
+Only B12 (not folate) is a cofactor for methylmalonyl-CoA mutase, the reaction converting methylmalonyl-CoA to succinyl-CoA — so only B12 deficiency lets methylmalonic acid accumulate.
+
+### Key determinants
+An elevated methylmalonic acid is specific to B12 deficiency; a normal methylmalonic acid with elevated homocysteine points instead to folate deficiency.
+
+### Clinical significance
+This distinction matters clinically because treating B12 deficiency with folic acid alone corrects the anaemia but not the neurological damage, so getting the diagnosis right changes management.
+
+## hold_these
+Methylmalonic acid is elevated only in B12 deficiency, not folate deficiency; homocysteine rises in both.
+
+## lose_the_mark
+Using homocysteine alone to diagnose B12 deficiency, missing that it does not distinguish B12 from folate deficiency.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.150, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q19.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-899244CF31A976
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.150, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-TRIMETHOPRIM-ANTIFOLATE-MECHANISM
+
+## title
+Trimethoprim as an antifolate antibacterial
+
+## arabic_title
+
+
+## aliases
+Trimethoprim DHFR inhibition
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — folate pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Trimethoprim inhibits bacterial dihydrofolate reductase, blocking synthesis of active (folinic acid) folate in bacteria — a selectivity that spares human DHFR at normal doses but can still cause antifolate effects at high dose or in folate-deficient patients.
+
+## sections
+### Definition
+Trimethoprim is an antibacterial agent, often paired with sulfamethoxazole, that targets bacterial folate metabolism.
+
+### Mechanism
+It inhibits bacterial dihydrofolate reductase, blocking conversion of dihydrofolate to the active tetrahydrofolate (folinic acid) form bacteria need for nucleotide synthesis.
+
+### Key determinants
+Its selectivity for the bacterial over the human enzyme is what allows systemic use without routine antifolate toxicity, unlike methotrexate.
+
+### Clinical significance
+High-dose or prolonged trimethoprim, especially in folate-deficient patients, can still produce megaloblastic changes, which is why it is used cautiously in pregnancy and in patients on other antifolate drugs.
+
+## hold_these
+Trimethoprim inhibits bacterial dihydrofolate reductase, blocking folinic acid synthesis in bacteria.
+
+## lose_the_mark
+Assuming trimethoprim has no antifolate effect in humans at all, rather than a selectivity that reduces but does not eliminate the risk.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.150, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q21.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-61CF41C8A22D1B
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.150, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-HOMOCYSTEINE-METHIONINE-B12-REACTION
+
+## title
+Homocysteine to methionine: the methionine synthase reaction
+
+## arabic_title
+
+
+## aliases
+Methionine synthase and B12
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — vitamin B12 pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Methionine synthase converts homocysteine to methionine using vitamin B12 as a methyl-transfer cofactor and folate as methyl donor — the exam-bank framing highlights the B12 role, though the reaction needs both vitamins.
+
+## sections
+### Definition
+Methionine synthase is the enzyme that converts homocysteine to methionine, the last step of the methylation cycle.
+
+### Mechanism
+It uses vitamin B12 (as methylcobalamin) as an intermediate carrier for the methyl group donated by 5-methyltetrahydrofolate.
+
+### Key determinants
+Because both B12 and folate participate, deficiency of either raises homocysteine — this reaction alone cannot distinguish the two deficiencies (see methylmalonic acid for that).
+
+### Clinical significance
+Elevated homocysteine is a sensitive but nonspecific marker of either B12 or folate deficiency, and is also linked independently to vascular risk.
+
+## hold_these
+Methionine synthase converts homocysteine to methionine using B12 as cofactor and folate as methyl donor; the reaction needs both vitamins.
+
+## lose_the_mark
+Treating an elevated homocysteine as proof of B12 deficiency specifically, when folate deficiency raises it equally.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.151, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q24; printed key noted as a simplified exam framing in author_notes since the reaction is not exclusively B12-dependent.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-E56D9F2A6926E0
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.151, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-METHYLMALONYL-COA-SUCCINYL-COA-B12
+
+## title
+Methylmalonyl-CoA mutase: the B12-only reaction
+
+## arabic_title
+
+
+## aliases
+Adenosylcobalamin and succinyl-CoA
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — vitamin B12 pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Vitamin B12 (as adenosylcobalamin) is the cofactor for methylmalonyl-CoA mutase, converting methylmalonyl-CoA to succinyl-CoA — a B12-only reaction, unlike the folate-and-B12-dependent methionine synthase step.
+
+## sections
+### Definition
+Methylmalonyl-CoA mutase is a mitochondrial enzyme that converts methylmalonyl-CoA to succinyl-CoA, feeding it into the citric acid cycle.
+
+### Mechanism
+It requires adenosylcobalamin, a coenzyme form of vitamin B12, and has no folate requirement, distinguishing it from the cytoplasmic methionine synthase reaction.
+
+### Key determinants
+Because this reaction depends on B12 alone, its substrate — methylmalonic acid — accumulates specifically when B12 (not folate) is deficient.
+
+### Clinical significance
+This is the biochemical basis for using serum methylmalonic acid as a specific marker of vitamin B12 deficiency.
+
+## hold_these
+B12 (as adenosylcobalamin) is the cofactor for methylmalonyl-CoA mutase, converting methylmalonyl-CoA to succinyl-CoA.
+
+## lose_the_mark
+Mixing up methylcobalamin (methionine synthase, cytoplasmic) with adenosylcobalamin (methylmalonyl-CoA mutase, mitochondrial) as the coenzyme form tested.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.151, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q25; paired with Q24's methionine-synthase concept as the two B12-dependent reactions.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-1F7911ACE3F48C
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.151, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-PHENYTOIN-PURE-FOLATE-DEFICIENCY
+
+## title
+Phenytoin and isolated folate deficiency
+
+## arabic_title
+
+
+## aliases
+Anticonvulsant-induced folate deficiency
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — folate pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Phenytoin causes megaloblastic anaemia through pure folate deficiency (impaired absorption and hepatic enzyme induction), without affecting B12 — distinguishing it from B12-specific causes like blind loop syndrome.
+
+## sections
+### Definition
+Megaloblastic anaemia can result from either folate or B12 deficiency, or both, depending on the cause.
+
+### Mechanism
+Phenytoin impairs intestinal folate absorption and induces hepatic enzymes that increase folate turnover, producing isolated folate deficiency without affecting B12 absorption or stores.
+
+### Key determinants
+This isolated-folate pattern distinguishes phenytoin from B12-specific causes such as blind loop syndrome (bacterial B12 consumption) or pernicious anaemia (intrinsic factor loss).
+
+### Clinical significance
+Phenytoin-associated megaloblastic anaemia responds to folate supplementation, though folate can also lower phenytoin levels and needs monitoring for seizure control.
+
+## hold_these
+Phenytoin causes megaloblastic anaemia through isolated folate deficiency, not B12 deficiency.
+
+## lose_the_mark
+Attributing phenytoin-associated anaemia to B12 deficiency by analogy with other causes of megaloblastic anaemia, missing its folate-specific mechanism.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.151, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q26.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-B4F40FB66E98C7
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.151, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-FOLATE-MASKS-B12-DEFICIENCY
+
+## title
+Why folic acid alone can mask B12 deficiency
+
+## arabic_title
+
+
+## aliases
+Folate masking neurological B12 deficiency
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — vitamin B12 pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Folic acid corrects the anaemia of B12 deficiency (both feed DNA synthesis) but cannot replace B12's role in myelin maintenance, so unrecognised B12 deficiency treated with folate alone shows improving blood counts while neurological damage keeps progressing.
+
+## sections
+### Definition
+Both folate and B12 are needed for the DNA synthesis underlying red cell production, so folate can partially correct B12-deficiency anaemia.
+
+### Mechanism
+Folate has no role in myelin maintenance, which depends on B12 specifically, so folate therapy does nothing to halt the neurological damage of B12 deficiency.
+
+### Key determinants
+The result is a dangerous dissociation: improving haemoglobin and blood picture, but progressing sensory disturbance, cognitive change, and eventually subacute combined degeneration of the cord.
+
+### Clinical significance
+This is why B12 status is checked before, or alongside, starting folic acid in any megaloblastic anaemia — folate should never be given alone when B12 deficiency has not been excluded.
+
+## hold_these
+Folic acid given to undiagnosed B12 deficiency corrects the anaemia but lets neurological damage progress.
+
+## lose_the_mark
+Treating improving blood counts on folic acid as reassurance that the underlying deficiency is fully addressed.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.151, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q27 (richer clinical vignette); Q56 (same core fact, "precipitated"/"unmasked" framing) held as a literal duplicate.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-507902C8A49415
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.151, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-EPO-DOSE-DEPENDENT-HYPERTENSION
+
+## title
+Erythropoietin: dose-dependent hypertension
+
+## arabic_title
+
+
+## aliases
+EPO adverse effects
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — erythropoietin pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Erythropoietin therapy's main dose-dependent adverse effect is hypertension (and hypertensive crisis), from rising blood viscosity and direct vasoconstriction as haemoglobin rises — the reason EPO dosing targets a controlled, gradual rise.
+
+## sections
+### Definition
+Recombinant erythropoietin stimulates red cell production and is used for the anaemia of chronic renal failure, among other indications.
+
+### Mechanism
+As haematocrit rises, blood viscosity increases and EPO exerts a direct vasoconstrictive effect, both raising blood pressure in a dose- and rate-dependent way.
+
+### Key determinants
+The faster and higher the haemoglobin rise, the greater the hypertensive risk, which is why gradual correction is preferred over rapid normalisation.
+
+### Clinical significance
+Blood pressure is monitored closely during EPO therapy, and dose is adjusted to keep the haemoglobin rise controlled rather than maximally fast.
+
+## hold_these
+Hypertension (and hypertensive crisis) is the characteristic dose-dependent adverse effect of erythropoietin therapy.
+
+## lose_the_mark
+Overlooking blood pressure monitoring during EPO therapy because the drug is thought of only as a haematinic, not a cardiovascular risk.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.152, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q31.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-0126080A8AA69A
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.152, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-CARBONYL-IRON-HIGHEST-ELEMENTAL
+
+## title
+Carbonyl iron: highest elemental iron content
+
+## arabic_title
+
+
+## aliases
+Elemental iron content by preparation
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Carbonyl iron, pure elemental iron powder rather than a salt, has the highest percentage of elemental iron among oral iron preparations (~100%, vs ~20-33% for the ferrous salts), with slow dissolution credited for better GI tolerability.
+
+## sections
+### Definition
+Oral iron preparations are salts (or, for carbonyl iron, pure metal) that differ in what fraction of the tablet is actually elemental iron.
+
+### Mechanism
+Ferrous sulfate (~20%), gluconate (~12%) and fumarate (~33%) are iron salts with the counter-ion making up the rest of the molecule; carbonyl iron is finely divided elemental iron itself, essentially 100% elemental.
+
+### Key determinants
+Carbonyl iron's slow, pH-independent gut dissolution is thought to reduce the burst release of free ionic iron responsible for GI irritation, giving it comparatively better tolerability.
+
+### Clinical significance
+A high elemental-iron percentage on the label does not by itself guarantee higher absorbed dose, since dissolution and absorption kinetics still govern how much reaches the bloodstream.
+
+## hold_these
+Carbonyl iron has the highest elemental iron content among common oral iron preparations.
+
+## lose_the_mark
+Equating a preparation's elemental-iron percentage with how much iron is actually absorbed from it.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.153, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q33; Q51 (same fact, "100% elemental iron" framing) held as a literal duplicate.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-022E046591331E
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.153, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-MACROCYTIC-ANEMIA-TRANSFERRIN-FOLATE
+
+## title
+Macrocytic anaemia with normal B12: reading transferrin correctly
+
+## arabic_title
+
+
+## aliases
+Folate deficiency lab differentiation
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — folate pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+In a macrocytic anaemia with normal vitamin B12, an elevated serum transferrin does not override the red-cell picture — folate deficiency remains the diagnosis once B12 deficiency is excluded by the normal B12 level.
+
+## sections
+### Definition
+Serum transferrin is the iron-transport protein whose synthesis rises when iron stores fall, making it a marker most associated with iron deficiency.
+
+### Mechanism
+A macrocytic (not microcytic) anaemia picture is inconsistent with iron deficiency as the primary process, so the elevated transferrin here is read alongside, not instead of, the red cell size.
+
+### Key determinants
+With B12 confirmed normal, folate deficiency is the remaining explanation for macrocytosis in this vignette.
+
+### Clinical significance
+Reading lab markers together with the red cell indices, rather than any single value in isolation, is the practical discipline this vignette is testing.
+
+## hold_these
+Macrocytic anaemia + normal B12 + elevated transferrin points to folate deficiency, not iron deficiency.
+
+## lose_the_mark
+Reading an elevated transferrin in isolation as proof of iron deficiency, ignoring a macrocytic red cell picture that argues against it.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.153, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q34.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-98D8E14A85C9AF
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.153, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-IRON-ABSORPTION-ENHANCING-FACTORS
+
+## title
+What enhances oral iron absorption
+
+## arabic_title
+
+
+## aliases
+Vitamin C and gastric acid and iron absorption
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Gastric acidity and ascorbic acid both enhance oral iron absorption by keeping dietary iron reduced to its more absorbable ferrous (Fe2+) form and soluble in the duodenum.
+
+## sections
+### Definition
+Non-haem iron absorption in the duodenum depends heavily on iron being in the ferrous, not ferric, oxidation state.
+
+### Mechanism
+Gastric acid and ascorbic acid both act as reducing/acidifying agents that keep iron ferrous and soluble as it reaches the duodenal brush border.
+
+### Key determinants
+Reduced gastric acid (antacids, PPIs, achlorhydria) or co-administration with binding agents (tetracyclines, phosphates) lowers absorption; vitamin C and an empty stomach raise it.
+
+### Clinical significance
+This is the practical basis for advice to take oral iron with vitamin C-rich juice on an empty stomach, and to separate its dosing from antacids or tetracyclines.
+
+## hold_these
+Gastric acidity and vitamin C both enhance oral iron absorption by keeping iron in its ferrous form.
+
+## lose_the_mark
+Assuming any beverage or food increases iron absorption, rather than specifically acidic/reducing ones.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.153, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q35 (vitamin C) merged with Q50 (gastric acidity), the same underlying mechanism tested from two printed questions.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-0CEEBB5E25C29C
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.153, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-ORAL-VS-PARENTERAL-IRON-NAMING
+
+## title
+Telling oral and parenteral iron preparations apart by name
+
+## arabic_title
+
+
+## aliases
+Ferrous gluconate vs sodium ferric gluconate
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Ferrous gluconate is oral, while the similarly-named sodium ferric gluconate — along with iron dextran and iron sucrose — is parenteral, a naming trap the exam tests directly.
+
+## sections
+### Definition
+Iron preparations are named by their salt or complex, and several parenteral and oral preparations share overlapping name elements.
+
+### Mechanism
+Ferrous (Fe2+) gluconate is formulated as an oral tablet; sodium ferric (Fe3+) gluconate, iron dextran and iron sucrose are formulated for parenteral administration only.
+
+### Key determinants
+The ferrous/ferric distinction in the name, plus knowing which specific preparations exist only as parenteral formulations, is what correctly sorts a list of iron drugs by route.
+
+### Clinical significance
+Choosing the wrong preparation by route (e.g. assuming any "iron gluconate" is oral) is a preventable prescribing error this naming distinction guards against.
+
+## hold_these
+Ferrous gluconate is oral; sodium ferric gluconate, iron dextran and iron sucrose are parenteral.
+
+## lose_the_mark
+Assuming all "gluconate" or "iron X" preparations share the same route just because the names overlap.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.154, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q38.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-A487110A4CA61F
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.154, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-IRON-SUCROSE-ADVERSE-EFFECTS
+
+## title
+Iron sucrose: adverse effect profile
+
+## arabic_title
+
+
+## aliases
+Parenteral iron hypersensitivity reactions
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Parenteral iron sucrose's adverse effects are hypersensitivity-type (skin rash, angioedema) and local injection-site reactions, not the GI upset characteristic of oral iron therapy.
+
+## sections
+### Definition
+Iron sucrose is a parenteral iron preparation used when oral iron is not tolerated, not absorbed, or too slow for the clinical need.
+
+### Mechanism
+Its adverse effects are hypersensitivity-type reactions (skin rash, angioedema) related to the iron-carbohydrate complex, and local effects (pain, phlebitis) at the infusion site.
+
+### Key determinants
+This profile differs from oral iron's GI-predominant adverse effects, since iron sucrose bypasses the gut entirely.
+
+### Clinical significance
+Test dosing and monitoring for hypersensitivity reactions is standard practice when starting parenteral iron therapy.
+
+## hold_these
+Iron sucrose can cause skin rash, angioedema, and local injection-site pain — not GI side effects.
+
+## lose_the_mark
+Expecting parenteral iron to cause the same black-stool/GI-upset picture as oral iron.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.154, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q39.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-105FFF3CEC444C
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.154, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-EPOETIN-APLASTIC-ANEMIA
+
+## title
+Epoetin alfa in aplastic anaemia
+
+## arabic_title
+
+
+## aliases
+Recombinant erythropoietin use
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — erythropoietin pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Epoetin alfa, recombinant erythropoietin, is used to stimulate red cell production across several marrow-suppressed states, including aplastic anaemia, where surviving erythroid precursors can still respond.
+
+## sections
+### Definition
+Epoetin alfa is a recombinant form of human erythropoietin used clinically to stimulate red cell production.
+
+### Mechanism
+It acts on erythropoietin receptors on surviving erythroid precursors, which can still respond even in a hypoplastic marrow.
+
+### Key determinants
+Its indications span chronic renal failure anaemia, chemotherapy-associated anaemia, and aplastic anaemia, wherever some erythroid precursor activity remains.
+
+### Clinical significance
+In aplastic anaemia specifically, epoetin is typically an adjunct to marrow-directed therapy (immunosuppression or transplant) rather than a standalone cure.
+
+## hold_these
+Epoetin alfa is the recombinant erythropoietin used to stimulate red cell production, including in aplastic anaemia.
+
+## lose_the_mark
+Assuming aplastic anaemia has no drug that can stimulate residual erythropoiesis at all.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.155, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q40.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-6EA6427C27B2BB
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.155, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-FERROUS-VS-FERRIC-ABSORPTION
+
+## title
+Ferrous iron absorbs better than ferric iron
+
+## arabic_title
+
+
+## aliases
+Iron oxidation state and intestinal absorption
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+The intestinal DMT1 transporter is selective for ferrous (Fe2+) iron, so ferric (Fe3+) iron must be reduced before absorption — ferrous iron is absorbed more efficiently, which is why oral iron supplements are ferrous salts.
+
+## sections
+### Definition
+Non-haem dietary and supplemental iron is absorbed at the duodenal brush border via the DMT1 transporter.
+
+### Mechanism
+DMT1 is selective for ferrous (Fe2+) iron; ferric (Fe3+) iron must first be reduced by gastric acid, dietary reducing agents, or brush-border ferric reductase before DMT1 can transport it.
+
+### Key determinants
+This is why ferrous iron is absorbed considerably more efficiently than ferric iron given in the same amount.
+
+### Clinical significance
+Oral iron supplements are formulated as ferrous salts (sulfate, gluconate, fumarate) rather than ferric salts specifically because of this absorption advantage.
+
+## hold_these
+Ferrous iron is absorbed more efficiently than ferric iron, because the intestinal transporter (DMT1) is ferrous-selective.
+
+## lose_the_mark
+Assuming ferric iron absorbs as well as or better than ferrous iron.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.154, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q42 (identifying the false statement in a T/F bundle whose true statements are covered by the absorption-enhancing-factors concept).
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-41BF67CA35D2D9
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.154, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-OCP-FOLATE-IMPAIRED-ABSORPTION
+
+## title
+Oral contraceptives and folate deficiency: an absorption problem
+
+## arabic_title
+
+
+## aliases
+OCP folate absorption mechanism
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — folate pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Oral contraceptive pills cause folate deficiency by impairing intestinal folate absorption, a distinct mechanism from the increased folate demand seen in pregnancy.
+
+## sections
+### Definition
+Some oral contraceptive users develop mild folate deficiency, a recognised drug-nutrient interaction.
+
+### Mechanism
+The mechanism is impaired intestinal absorption of dietary folate, related to estrogen's effect on the intestinal mucosa, rather than increased demand, metabolism, or excretion.
+
+### Key determinants
+This absorption-based mechanism is distinct from pregnancy's demand-based folate deficiency, even though both can present with a similar megaloblastic picture.
+
+### Clinical significance
+Recognising the mechanism matters for counselling — folate-rich diet or modest supplementation addresses the OCP-related absorption deficit.
+
+## hold_these
+OCPs cause folate deficiency by impairing intestinal absorption, not by increasing demand.
+
+## lose_the_mark
+Assuming OCP-associated folate deficiency shares pregnancy's increased-demand mechanism.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.155, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q43.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-0812C084091CEC
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.155, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-PREGNANCY-IRON-DEFICIENCY-DEMAND
+
+## title
+Why pregnancy causes iron deficiency without blood loss
+
+## arabic_title
+
+
+## aliases
+Increased iron demand in pregnancy
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Pregnancy increases iron demand through expanded blood volume and fetal iron transport, which alone can produce iron-deficiency anaemia even without menstrual or occult blood loss.
+
+## sections
+### Definition
+Pregnancy is one of the most common causes of iron-deficiency anaemia in women of reproductive age.
+
+### Mechanism
+Maternal blood volume expands substantially during pregnancy, requiring more red cell mass, and iron is also actively transported across the placenta to the fetus for its own growth and iron stores.
+
+### Key determinants
+This increased-demand mechanism explains iron deficiency in pregnancy even in the absence of menstruation or any bleeding source.
+
+### Clinical significance
+Routine iron supplementation is recommended during pregnancy specifically because this demand increase is near-universal, not because bleeding is assumed.
+
+## hold_these
+Pregnancy causes iron-deficiency anaemia through increased demand (blood volume expansion + fetal transport), not blood loss.
+
+## lose_the_mark
+Assuming a non-menstruating, pregnant, anaemic patient must have an occult bleeding source before considering pregnancy's own increased iron demand.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.155, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q44.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-B34730CB3C5208
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.155, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-PEDIATRIC-IRON-DURATION-PROTOCOL
+
+## title
+Iron therapy duration: correcting Hb is not the whole treatment
+
+## arabic_title
+
+
+## aliases
+Two-phase iron therapy: correction then repletion
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Oral iron therapy for iron-deficiency anaemia continues for 2-3 months after haemoglobin normalises, because normalising the blood count does not by itself replenish depleted iron stores.
+
+## sections
+### Definition
+Iron-deficiency anaemia treatment has two phases: correcting the haemoglobin deficit, then replenishing depleted iron stores.
+
+### Mechanism
+Once haemoglobin normalises, ferritin and marrow iron stores are still low and need continued iron intake at a lower, prophylactic-equivalent pace to rebuild.
+
+### Key determinants
+This is why the recommended duration of oral iron therapy extends 2-3 months beyond haemoglobin normalisation, not just until the blood count looks normal.
+
+### Clinical significance
+Stopping iron too early is a common preventable cause of iron-deficiency anaemia relapse, particularly in growing children.
+
+## hold_these
+Oral iron continues 2-3 months after Hb normalises, to replenish iron stores, not just correct the blood count.
+
+## lose_the_mark
+Stopping iron therapy the moment haemoglobin looks normal, without replenishing iron stores.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.156, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q46; Q55 (same duration fact, "up to 6 months" framing) held as a near-duplicate covered by this concept and the practice-bundle concept.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-C5F659728C63FA
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.156, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-ORAL-IRON-THERAPY-PRACTICE-BUNDLE
+
+## title
+Oral iron therapy in practice: dosing, duration, and what not to worry about
+
+## arabic_title
+
+
+## aliases
+Iron therapy practical facts
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Practical oral iron therapy facts: empty-stomach dosing for absorption, roughly 6 months total duration, black stool as expected and not a reason to stop, and metabolic acidosis (not alkalosis) as the systemic feature of acute toxicity.
+
+## sections
+### Definition
+Oral iron therapy for iron-deficiency anaemia has several practical dosing and monitoring facts distinct from its mechanism of action.
+
+### Mechanism
+An empty stomach favours absorption; roughly 6 months of therapy is needed to both correct haemoglobin and replenish iron stores; unabsorbed iron darkens stool harmlessly.
+
+### Key determinants
+Black stool reflects unabsorbed iron in the gut, not bleeding, and should not by itself prompt stopping therapy; acute iron overdose instead produces metabolic acidosis from direct cellular toxicity, not alkalosis.
+
+### Clinical significance
+Distinguishing expected iron-therapy effects (black stool) from toxicity signs (acidosis, shock, necrotizing gastroenteritis) avoids both unnecessary treatment discontinuation and missed overdose recognition.
+
+## hold_these
+Take oral iron on an empty stomach; continue ~6 months; black stool is expected, not a reason to stop; acute toxicity causes acidosis, not alkalosis.
+
+## lose_the_mark
+Confusing the harmless black stool of oral iron therapy with the metabolic acidosis of acute iron overdose toxicity.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.156, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q48 (T/F bundle); Q55 (duration) folded in as a near-duplicate reinforcing the ~6-month fact here.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-0F36C12EDC80B3
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.156, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-PARENTERAL-IRON-INDICATIONS
+
+## title
+When parenteral iron is (and is not) indicated
+
+## arabic_title
+
+
+## aliases
+Parenteral iron non-indications
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Parenteral iron is reserved for oral intolerance, malabsorption, or urgent severe anaemia from chronic bleeding — not routinely justified by pregnancy or a chronic disease diagnosis alone.
+
+## sections
+### Definition
+Parenteral iron bypasses the gut entirely and is reserved for situations where oral therapy is inadequate, not as a routine first-line alternative.
+
+### Mechanism
+Valid indications include documented oral intolerance or noncompliance, malabsorption, and severe anaemia from ongoing chronic bleeding needing faster correction than oral therapy allows.
+
+### Key determinants
+Pregnancy alone, or a chronic inflammatory disease diagnosis alone, is not by itself sufficient — oral iron remains first-line unless one of the specific parenteral indications is also present.
+
+### Clinical significance
+Reserving parenteral iron for these specific situations avoids unnecessary exposure to its hypersensitivity and infusion-related risks in patients who would do fine on oral therapy.
+
+## hold_these
+Parenteral iron is indicated for oral intolerance, malabsorption, or urgent severe chronic-bleeding anaemia — not by pregnancy or chronic disease alone.
+
+## lose_the_mark
+Defaulting to parenteral iron whenever a patient has a condition associated with anaemia risk, without oral therapy having been tried or shown inadequate.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.157, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q52 merged with Q62 (same indications-list teaching point, printed from both the negative and positive framing).
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-3E84DD11AA6A1C
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.157, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-ORAL-IRON-INTOLERANCE-STEPWISE
+
+## title
+Managing oral iron intolerance: change before escalate
+
+## arabic_title
+
+
+## aliases
+Stepwise approach to iron intolerance
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+When oral iron is not tolerated after an adequate trial, the next step is changing the preparation or timing (e.g. after meals) — not immediately escalating to parenteral iron or transfusion.
+
+## sections
+### Definition
+A meaningful minority of patients cannot tolerate their initial oral iron preparation because of GI side effects.
+
+### Mechanism
+Changing the salt (e.g. to a better-tolerated preparation) or the timing (after meals, trading some absorption efficiency for tolerability) is the standard first adjustment.
+
+### Key determinants
+Escalation to parenteral iron or transfusion is reserved for genuine treatment failure, urgent clinical need, or documented malabsorption — not the first response to reported intolerance.
+
+### Clinical significance
+This stepwise approach avoids unnecessary exposure to the higher-risk parenteral route or transfusion when a simpler adjustment would have worked.
+
+## hold_these
+When oral iron is not tolerated, change the preparation or take it after meals before escalating to parenteral iron.
+
+## lose_the_mark
+Escalating straight to parenteral iron or transfusion at the first sign of oral iron intolerance.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.157, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q53.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-D818B58FCEA3AF
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.157, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-IRON-HYDROXIDE-POLYMALTOSE
+
+## title
+Iron hydroxide polymaltose: well tolerated, but is it as effective?
+
+## arabic_title
+
+
+## aliases
+IPC efficacy vs tolerability
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — iron pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Iron hydroxide polymaltose is a well-tolerated, taste-free oral iron preparation, but comparative trials have questioned its efficacy relative to standard ferrous salts — tolerability and efficacy do not always move together.
+
+## sections
+### Definition
+Iron hydroxide polymaltose complex is a non-ionic, ferric-based oral iron preparation.
+
+### Mechanism
+Because it does not release free ferrous ions the way ionic salts do, it avoids metallic taste and reduces GI irritation, but this same property is linked to lower and more variable bioavailability.
+
+### Key determinants
+Comparative trials have found its haematological response inferior to equivalent doses of ferrous salts, raising a specific efficacy question despite its better tolerability.
+
+### Clinical significance
+This preparation illustrates that tolerability and efficacy are separate properties of an oral iron preparation, not a package deal.
+
+## hold_these
+Iron hydroxide polymaltose is well tolerated (no metallic taste) but its efficacy versus ferrous salts has been questioned.
+
+## lose_the_mark
+Assuming the best-tolerated oral iron preparation is automatically also the most effective one.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.172, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ Lecture 1&2, Q60.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-7202A1FD495F58
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.172, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-HEPARIN-LOW-DOSE-INTRINSIC-PATHWAY
+
+## title
+Heparin: dose-dependent pathway selectivity
+
+## arabic_title
+
+
+## aliases
+Low-dose heparin and the intrinsic pathway
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — heparin pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Low-concentration heparin selectively affects the intrinsic coagulation pathway through preferential factor Xa inhibition, while higher concentrations add broader thrombin inhibition affecting the common pathway as well.
+
+## sections
+### Definition
+Heparin's anticoagulant effect, mediated through antithrombin III, is not uniform across coagulation pathways at every dose.
+
+### Mechanism
+At low concentration, heparin preferentially potentiates antithrombin's inhibition of factor Xa over thrombin, with a disproportionate effect on the intrinsic pathway's amplification step.
+
+### Key determinants
+At higher concentrations thrombin inhibition becomes prominent too, extending the effect to the common pathway where intrinsic and extrinsic pathways converge.
+
+### Clinical significance
+This dose-dependent selectivity underlies why aPTT (sensitive to the intrinsic and common pathways) is the standard heparin monitoring test.
+
+## hold_these
+Low-dose heparin selectively affects the intrinsic pathway; higher doses add common-pathway (thrombin) effects.
+
+## lose_the_mark
+Treating heparin's pathway effect as fixed regardless of dose.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.160, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ, MCQ Lecture 2, Q1.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-06A129676B2FA2
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.160, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-OCP-REDUCES-WARFARIN-EFFECT
+
+## title
+Oral contraceptives reduce warfarin's anticoagulant effect
+
+## arabic_title
+
+
+## aliases
+Warfarin-OCP interaction
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — warfarin pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Oral contraceptives increase hepatic synthesis of clotting factors, partially offsetting warfarin's anticoagulant effect — the opposite direction from antibiotics or cimetidine, which potentiate it.
+
+## sections
+### Definition
+Several drug classes interact with warfarin's anticoagulant effect, in either direction.
+
+### Mechanism
+Estrogen-containing oral contraceptives raise hepatic synthesis of vitamin-K-dependent clotting factors, counteracting warfarin's inhibition of that same synthesis.
+
+### Key determinants
+The net effect is a reduced anticoagulant response, in contrast to antibiotics (reduce gut vitamin K synthesis) or cimetidine (inhibits warfarin metabolism), which potentiate warfarin instead.
+
+### Clinical significance
+INR monitoring and possible dose adjustment are needed when starting or stopping oral contraceptives in a patient on warfarin.
+
+## hold_these
+Oral contraceptives reduce warfarin's anticoagulant effect by increasing hepatic clotting-factor synthesis.
+
+## lose_the_mark
+Assuming all drug interactions with warfarin potentiate bleeding risk, missing that some (like OCPs) reduce its effect instead.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.160, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ, MCQ Lecture 2, Q2; Q9 (identical question, verbatim repeat) held as a literal duplicate.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-B66119A5C94CA8
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.160, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-HEPARIN-PTT-MONITORING
+
+## title
+Monitoring heparin therapy with aPTT
+
+## arabic_title
+
+
+## aliases
+Heparin lab monitoring
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — heparin pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Unfractionated heparin therapy is monitored with activated partial thromboplastin time (aPTT), which tests the intrinsic and common pathways heparin predominantly affects — distinct from warfarin's PT/INR monitoring.
+
+## sections
+### Definition
+Anticoagulant drugs are monitored using the coagulation laboratory test sensitive to the pathway each drug predominantly affects.
+
+### Mechanism
+Heparin acts mainly through the intrinsic and common pathways, so aPTT — which is specifically sensitive to those pathways — is used to titrate and monitor its dose.
+
+### Key determinants
+A target aPTT of roughly 1.5-2.5 times control is the usual therapeutic range for unfractionated heparin.
+
+### Clinical significance
+This contrasts with warfarin, monitored by PT/INR (extrinsic and common pathways), reflecting the two drugs' different mechanisms.
+
+## hold_these
+Heparin therapy is monitored with aPTT (activated partial thromboplastin time).
+
+## lose_the_mark
+Monitoring heparin with PT/INR (the warfarin test) instead of aPTT.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.160, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ, MCQ Lecture 2, Q3; Q10 (low-dose heparin prolongs aPTT, same monitoring fact) held as a near-duplicate.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-E18AFDCBD7FCE6
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.160, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-HEPARIN-MAJOR-AE-BLEEDING
+
+## title
+Bleeding: heparin's major adverse effect
+
+## arabic_title
+
+
+## aliases
+Heparin bleeding risk
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — heparin pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Bleeding is heparin's major, dose-limiting adverse effect, which is why therapy is monitored by aPTT and a specific reversal agent (protamine sulfate) exists for rapid correction.
+
+## sections
+### Definition
+Heparin is a rapidly-acting parenteral anticoagulant with a narrow enough therapeutic window that its dosing requires monitoring.
+
+### Mechanism
+Because it directly potentiates antithrombin's inhibition of clotting factors, excess heparin activity manifests as bleeding, from minor bruising to major haemorrhage.
+
+### Key determinants
+This is the primary reason aPTT monitoring and individualised dosing are standard practice with heparin.
+
+### Clinical significance
+A specific antidote (protamine sulfate) exists precisely because bleeding is heparin's major, and rapidly reversible, risk.
+
+## hold_these
+Bleeding is the major, dose-limiting adverse effect of heparin therapy.
+
+## lose_the_mark
+Treating heparin's other adverse effects (thrombocytopenia, osteoporosis) as more clinically significant than bleeding.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.160, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ, MCQ Lecture 2, Q4.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-D04B31EF8F487A
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.160, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-HEPARIN-NO-PLACENTAL-CROSSING
+
+## title
+Why heparin, not warfarin, is used in pregnancy
+
+## arabic_title
+
+
+## aliases
+Heparin and warfarin fetal safety
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — heparin pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Heparin does not cross the placenta and is not teratogenic, unlike warfarin, which crosses and causes fetal malformations — the reason heparin (or LMWH) replaces warfarin during pregnancy.
+
+## sections
+### Definition
+Anticoagulation is sometimes needed during pregnancy, and the choice of agent depends heavily on fetal safety.
+
+### Mechanism
+Heparin's large size and negative charge prevent it from crossing the placenta, so it never reaches the fetal circulation.
+
+### Key determinants
+Warfarin, being small and lipophilic, crosses the placenta readily and is teratogenic, especially in the first trimester (warfarin embryopathy).
+
+### Clinical significance
+This placental-crossing difference is why pregnant patients needing anticoagulation are switched from warfarin to heparin or low-molecular-weight heparin.
+
+## hold_these
+Heparin does not cross the placenta (not teratogenic); warfarin does (teratogenic) — heparin is preferred in pregnancy.
+
+## lose_the_mark
+Assuming warfarin is safe in pregnancy because it is an oral, outpatient-friendly drug.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.161, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ, MCQ Lecture 2, Q7.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-80D3FBEE023770
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.161, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-WARFARIN-WITHDRAWAL-REBOUND-THROMBOSIS
+
+## title
+Warfarin withdrawal: a rebound thrombosis risk
+
+## arabic_title
+
+
+## aliases
+Sudden warfarin discontinuation
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — warfarin pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Sudden warfarin withdrawal can produce a rebound hypercoagulable state and thrombosis, because it suppresses both procoagulant factors and the anticoagulant proteins C and S, which have different half-lives.
+
+## sections
+### Definition
+Warfarin suppresses synthesis of vitamin-K-dependent proteins broadly, not only the procoagulant clotting factors.
+
+### Mechanism
+It also suppresses proteins C and S, natural anticoagulants that are vitamin-K-dependent; because protein C's half-life is shorter than the procoagulant factors', a sudden change in warfarin status can transiently unbalance the system toward clotting.
+
+### Key determinants
+This rebound risk is most relevant at initiation (without bridging anticoagulation) and at abrupt withdrawal, not during steady-state therapy.
+
+### Clinical significance
+This is why warfarin is bridged with a fast-acting anticoagulant (heparin/LMWH) at initiation, and why withdrawal is managed deliberately rather than stopped abruptly without a plan.
+
+## hold_these
+Sudden warfarin withdrawal can cause rebound thrombosis, from unbalanced loss of procoagulant vs anticoagulant vitamin-K-dependent factor suppression.
+
+## lose_the_mark
+Assuming stopping warfarin can only reduce, never increase, thrombosis risk.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.161, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ, MCQ Lecture 2, Q8.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-003E248E35C14E
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.161, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-HIT-HIRUDIN-ALTERNATIVE
+
+## title
+Heparin-induced thrombocytopenia: switching to hirudin
+
+## arabic_title
+
+
+## aliases
+HIT management with direct thrombin inhibitors
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — heparin pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Heparin-induced thrombocytopenia requires a non-heparin anticoagulant, since even LMWH cross-reacts immunologically — hirudin (a direct thrombin inhibitor) is an appropriate injectable substitute.
+
+## sections
+### Definition
+Heparin-induced thrombocytopenia is an immune reaction to heparin-platelet factor 4 complexes that paradoxically raises thrombosis risk despite low platelets.
+
+### Mechanism
+Because the antibodies target heparin-PF4 complexes, any heparin-family drug (including LMWH) risks cross-reacting, so management requires switching to a structurally unrelated anticoagulant.
+
+### Key determinants
+Direct thrombin inhibitors like hirudin, argatroban, and bivalirudin act independently of antithrombin and do not share heparin's antigenic structure.
+
+### Clinical significance
+Recognising HIT and switching promptly to a non-heparin anticoagulant prevents the thrombotic complications that make this condition dangerous despite the low platelet count.
+
+## hold_these
+In HIT, switch to a non-heparin anticoagulant (e.g. hirudin, a direct thrombin inhibitor) — LMWH still cross-reacts.
+
+## lose_the_mark
+Switching from unfractionated heparin to LMWH as the fix for HIT, when LMWH usually still cross-reacts.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.162, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ, MCQ Lecture 2, Q13.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-52FCA00792D5F5
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.162, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-LMWH-SELECTIVE-FACTOR-XA-INHIBITION
+
+## title
+Why LMWH is selectively anti-factor-Xa
+
+## arabic_title
+
+
+## aliases
+LMWH mechanism vs unfractionated heparin
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — LMWH pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Low-molecular-weight heparin's shorter chains are usually too short to bridge antithrombin to thrombin, giving it a selectively anti-factor-Xa mechanism, unlike unfractionated heparin's balanced anti-Xa/anti-thrombin action.
+
+## sections
+### Definition
+Unfractionated heparin and low-molecular-weight heparin both work by potentiating antithrombin, but differ in which clotting factors they end up inhibiting.
+
+### Mechanism
+Unfractionated heparin's long chains bridge antithrombin to both factor Xa and thrombin; LMWH's shorter chains usually cannot bridge to thrombin, leaving mainly the anti-Xa effect.
+
+### Key determinants
+This selectivity gives LMWH more predictable, weight-based dosing and a lower risk of heparin-induced thrombocytopenia and osteoporosis than unfractionated heparin.
+
+### Clinical significance
+LMWH is therefore usually given without routine aPTT monitoring, unlike unfractionated heparin, which needs individualised dose titration.
+
+## hold_these
+LMWH selectively inhibits factor Xa (chains too short to bridge antithrombin to thrombin); unfractionated heparin inhibits both Xa and thrombin.
+
+## lose_the_mark
+Treating LMWH as just "a smaller dose" of unfractionated heparin, missing its distinct mechanism of selectivity.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.162, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ, MCQ Lecture 2, Q14; Q15 (enoxaparin as an example of an LMWH) held as a near-duplicate covered within this concept's explanation.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-B025B42DE13FB4
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.162, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-HEPARIN-CONTRAINDICATION-BLEEDING
+
+## title
+Heparin contraindications: active bleeding
+
+## arabic_title
+
+
+## aliases
+When not to give heparin
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — heparin pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+Active or recent significant bleeding (e.g. a bleeding peptic ulcer) contraindicates heparin, since it would worsen an already-bleeding lesion — unlike pulmonary embolism or surgical thrombosis risk, which are indications for it.
+
+## sections
+### Definition
+Heparin's risk-benefit balance depends on whether a patient's dominant risk is thrombosis or bleeding.
+
+### Mechanism
+Because bleeding is heparin's major adverse effect, active or recent significant bleeding (such as a bleeding peptic ulcer) directly contraindicates starting it.
+
+### Key determinants
+Thrombosis-risk conditions (pulmonary embolism, post-surgical prophylaxis) are indications, not contraindications, since heparin's benefit there outweighs its bleeding risk.
+
+### Clinical significance
+Screening for active bleeding sources before starting heparin is a basic safety step in anticoagulation decision-making.
+
+## hold_these
+Active/recent significant bleeding (e.g. bleeding peptic ulcer) contraindicates heparin therapy.
+
+## lose_the_mark
+Starting heparin in a patient with an active bleeding source because their thrombosis risk is also high, without weighing the two against each other.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.163, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ, MCQ Lecture 2, Q16.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-EC21F891F8C1A4
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.163, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+
+# Item
+
+## id
+ART-MANS-HIS-ENOXAPARIN-ADVANTAGE-OVER-HEPARIN
+
+## title
+Enoxaparin's advantages over unfractionated heparin
+
+## arabic_title
+
+
+## aliases
+LMWH advantages over UFH
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Pharmacology
+
+## subtopic
+Haematinics — LMWH pharmacology
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Pharmacology > Haematinics
+
+## summary
+LMWH (enoxaparin) offers more predictable dosing, no routine monitoring, and lower HIT/osteoporosis risk than unfractionated heparin; this department bank's printed key specifically credits it with a lower bleeding likelihood.
+
+## sections
+### Definition
+Low-molecular-weight heparins are generally preferred over unfractionated heparin for most outpatient and many inpatient indications.
+
+### Mechanism
+Their selective anti-Xa action and longer half-life give more predictable, weight-based dosing without routine aPTT monitoring.
+
+### Key determinants
+Standard teaching also credits LMWH with a lower risk of heparin-induced thrombocytopenia and osteoporosis versus unfractionated heparin; this bank's own printed key specifically names lower bleeding likelihood as the advantage tested.
+
+### Clinical significance
+These combined advantages are why LMWH has largely replaced unfractionated heparin for most prophylactic and many therapeutic indications outside specific settings (e.g. renal failure, need for rapid reversal) where UFH is still preferred.
+
+## hold_these
+This bank credits enoxaparin with lower bleeding likelihood than unfractionated heparin as its advantage; standard teaching also emphasises predictable dosing and lower HIT/osteoporosis risk.
+
+## lose_the_mark
+Assuming LMWH has no advantages over unfractionated heparin at all.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Pharmacology Important MCQ, His Continuous Berlin Book 2026.pdf, p.163, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent pharmacology reference not yet cross-checked against this department-book framing; the fact is standard exam-bank pharmacology.
+
+## notes
+Authored from Mansoura HIS 203 Pharmacology Important MCQ, MCQ Lecture 2, Q20. Printed key followed per the lane's "printed keys stand" rule; author_notes flags that standard pharmacology texts more commonly cite predictable dosing and lower HIT/osteoporosis risk, not reduced bleeding, as LMWH's main advantages, since comparative bleeding-risk data are less clear-cut than the other two.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-8379AAC49BFBC8
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Pharmacology Important MCQ (His Continuous Berlin Book 2026.pdf, p.163, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+

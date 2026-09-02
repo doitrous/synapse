@@ -462,8 +462,108 @@ PH2-Q12 :: B :: atrophic gastritis + hypersegmented neutrophils vignette -> vita
   PH2-Q5-12 (10 raw items across a rich USMLE-style anemia-treatment vignette section),
   see above. 7 of 8 distinct facts authored; PH2-Q6/Q8 held as complex multi-part clinical
   vignettes with no matching concept found this pass.
-- Pharmacology MCQ p.149-176 (28 pages, further lecture blocks per the Pharma section's
-  own internal "Lecture 1&2" framing) — not read this pass; flagged, next pass's starting
-  point for this module.
+## src_c4ee1e63536c22ca52d4 — Pharmacology Important MCQ, anaemia-treatment continuation
+## (printed p.149-159, "Lecture 1&2"), author4 pass, printed keys — picks up immediately
+## after pharmacology-anemia-vignettes.json's printed p.148 block (PH2-Q12)
+PH3-Q13 :: B :: pyrimethamine causes folate deficiency by inhibiting intestinal conjugases [AUTHORED]
+PH3-Q14 :: C :: early-pregnancy folic acid supplementation [near-duplicate of PH3-Q17, not separately authored]
+PH3-Q15 :: B :: subacute combined degeneration = irreversible B12-deficiency neuro symptom [near-duplicate of already-authored PH2 SACD vignette and PH3-Q18, not separately authored]
+PH3-Q16 :: D :: ferrous sulfate causes GI upset (nausea/vomiting/diarrhoea) [AUTHORED]
+PH3-Q17 :: B :: folate deficiency in pregnancy -> neural tube defects [AUTHORED]
+PH3-Q18 :: D :: B12 deficiency causes anemia + neurological symptoms (T/F bundle) [AUTHORED]
+PH3-Q19 :: C :: serum methylmalonic acid elevated ONLY in B12 deficiency [AUTHORED]
+PH3-Q20 :: B :: EPO for anemia of chronic renal failure [literal duplicate of Q29/Q30/Q36/Q54/Q61, not re-authored]
+PH3-Q21 :: C :: trimethoprim = antifolate inhibiting folinic acid synthesis [AUTHORED]
+PH3-Q22 :: C :: daily elemental iron dose = 200mg [held, reference-value trivia]
+PH3-Q23 :: B :: folate reductase inhibitor anemia treatment = folinic acid IM/IV [literal duplicate of Q28/Q49/Q58, already authored by author3]
+PH3-Q24 :: A :: homocysteine->methionine reaction requires B12 (per printed key) [AUTHORED, doubt flagged in author_notes]
+PH3-Q25 :: C :: methylmalonyl CoA -> succinyl CoA requires B12 [AUTHORED]
+PH3-Q26 :: C :: phenytoin -> pure folate deficiency, not B12 [AUTHORED]
+PH3-Q27 :: B :: folic acid to undiagnosed B12 deficiency -> hematologic improves, neuro progresses [AUTHORED]
+PH3-Q28 :: B :: folinic acid indicated for methotrexate toxicity [literal duplicate of Q23/Q49/Q58, already authored by author3]
+PH3-Q29 :: C :: EPO for anemia of chronic renal failure [literal duplicate, see Q20]
+PH3-Q30 :: A :: EPO added when CRF anemia not responding to iron [near-duplicate of Q20/Q29 EPO-for-CRF fact]
+PH3-Q31 :: B :: EPO dose-dependent AE = hypertension/hypertensive crisis [AUTHORED]
+PH3-Q32 :: D :: acute iron poisoning -> necrotizing gastroenteritis/shock/acidosis [literal duplicate of PH2-Q5, already authored by author3]
+PH3-Q33 :: C :: carbonyl iron = highest % elemental iron [AUTHORED]
+PH3-Q34 :: C :: macrocytic anemia + increased transferrin + normal B12 = folate deficiency [AUTHORED]
+PH3-Q35 :: D :: iron absorption facilitated by ascorbic acid [AUTHORED]
+PH3-Q36 :: A :: EPO specific for RBC production vs other growth factors [AUTHORED, reuses Q31's concept]
+PH3-Q37 :: B :: oral iron side effect = epigastric pain/bowel upset [near-duplicate of Q16, not separately authored]
+PH3-Q38 :: D :: ferrous gluconate = the oral preparation among parenteral-named list [AUTHORED]
+PH3-Q39 :: D :: iron sucrose AE = skin rash/angioedema [AUTHORED]
+PH3-Q40 :: C :: epoetin alpha used in aplastic anaemia [AUTHORED]
+PH3-Q41 :: D :: hydroxocobalamin injection = best treatment for pernicious anaemia [near-duplicate of Q18(b), not separately authored]
+PH3-Q42 :: C :: false statement = "ferric form absorbed more efficiently" (ferrous is correct) [AUTHORED]
+PH3-Q43 :: C :: OCP -> folate deficiency via impaired absorption [AUTHORED]
+PH3-Q44 :: B :: pregnancy IDA without menstruation = increased demand [AUTHORED]
+PH3-Q45 :: (vignette) :: pica/koilonychia -> iron [literal duplicate of already-authored PH2 iron-deficiency-pica-treatment]
+PH3-Q46 :: D :: pediatric IDA treatment = oral iron to normal Hb + 2-3mo prophylactic [AUTHORED]
+PH3-Q47 :: A :: oral iron side effect = abdominal pain [near-duplicate of Q16/Q37, not separately authored]
+PH3-Q48 :: A :: IDA treatment practice bundle (empty stomach/6mo/black stool/acidosis) [AUTHORED]
+PH3-Q49 :: B :: methotrexate anemia treatment = folinic acid [literal duplicate of Q23/Q28/Q58, already authored by author3]
+PH3-Q50 :: A :: iron absorption increased by gastric acidity [merged into Q35, not separately authored]
+PH3-Q51 :: E :: carbonyl iron formulation = 100% elemental iron [literal duplicate of Q33, not re-authored]
+PH3-Q52 :: B :: NOT valid indication for parenteral iron = pregnancy alone [AUTHORED, merged with Q62]
+PH3-Q53 :: E :: oral iron intolerance next step = change preparation, give after meal [AUTHORED]
+PH3-Q54 :: D :: EPO for anemia of chronic renal failure [literal duplicate, see Q20]
+PH3-Q55 :: A :: duration of oral iron therapy = up to 6 months [near-duplicate of Q46/Q48, not separately authored]
+PH3-Q56 :: B :: folate therapy precipitates B12 deficiency in neural tissue [literal duplicate of Q27, not re-authored]
+PH3-Q57 :: C :: iron toxicity treatment in child = parenteral deferoxamine [literal duplicate of PH2-Q7, already authored by author3]
+PH3-Q58 :: B :: folinic acid for methotrexate toxicity [literal duplicate of Q23/Q28/Q49, already authored by author3]
+PH3-Q59 :: B :: post-gastrectomy megaloblastic anemia = intrinsic factor deficiency, treat with B12 [AUTHORED, reuses pending CON-HEM-D76C58506E52B7]
+PH3-Q60 :: A :: iron hydroxy polymaltose = taste-free, questioned efficacy [AUTHORED]
+PH3-Q61 :: C :: EPO needed in renal insufficiency [literal duplicate, see Q20]
+PH3-Q62 :: C :: specific indication for parenteral iron = inability to tolerate oral [merged into Q52, not separately authored]
+# Pharmacology "MCQ Lecture 1&2" (anaemia-treatment) section ends at Q62 (printed p.159);
+# "MCQ Lecture 2" (anticoagulants) begins fresh at PDF p.173 / footer p.160 — boundary
+# confirmed by the section's own printed heading change.
+
+## src_c4ee1e63536c22ca52d4 — Pharmacology Important MCQ, "MCQ Lecture 2" (anticoagulants)
+## (printed p.160-163), author4 pass, printed keys — the assigned range (footer p.149-176)
+## ends exactly at this sub-section's Q20 (PDF p.176)
+PH4-Q1 :: A :: low-dose heparin selectively affects intrinsic pathway [AUTHORED]
+PH4-Q2 :: D :: oral contraceptive reduces oral anticoagulant effect [AUTHORED]
+PH4-Q3 :: C :: heparin monitored by PTT [AUTHORED]
+PH4-Q4 :: A :: major heparin AE = bleeding [AUTHORED]
+PH4-Q5 :: A :: warfarin = vitamin K antagonist [near-duplicate of Q19, not separately authored]
+PH4-Q6 :: C :: heparin overdose antagonist = protamine sulfate [AUTHORED, reuses live CON-HEM-532BFAEE98CC39]
+PH4-Q7 :: B :: heparin AE EXCEPT fetal malformations (heparin doesn't cross placenta) [AUTHORED]
+PH4-Q8 :: E :: sudden warfarin withdrawal -> thrombosis [AUTHORED]
+PH4-Q9 :: D :: oral contraceptive reduces oral anticoagulant effect [literal duplicate of Q2, verbatim repeat]
+PH4-Q10 :: A :: low-dose heparin prolongs APTT [near-duplicate of Q3, not separately authored]
+PH4-Q11 :: D :: warfarin bleeding reversed by vitamin K1 [AUTHORED, reuses live CON-HEM-A940AB960A5C0D]
+PH4-Q12 :: D :: heparin route = subcutaneous [AUTHORED, reuses live CON-HEM-532BFAEE98CC39]
+PH4-Q13 :: D :: severe heparin thrombocytopenia -> hirudin substitute [AUTHORED]
+PH4-Q14 :: A :: LMWH differs from UFH by selectively inhibiting factor Xa [AUTHORED]
+PH4-Q15 :: D :: enoxaparin = example of LMWH [near-duplicate of Q14, not separately authored]
+PH4-Q16 :: B :: heparin contraindication = bleeding peptic ulcer [AUTHORED]
+PH4-Q17 :: E :: vitamin to avoid during oral anticoagulant therapy = vitamin K [near-duplicate of Q11, not separately authored]
+PH4-Q18 :: B :: heparin mechanism = potentiates antithrombin III inhibition of Xa & thrombin [AUTHORED, reuses live CON-HEM-FF26A3D7EE6DB7]
+PH4-Q19 :: E :: warfarin mechanism = inhibits synthesis of vitamin K-dependent factors [AUTHORED, reuses live CON-HEM-121DCA556B6311]
+PH4-Q20 :: A :: enoxaparin advantage over heparin = unlikely to cause bleeding (printed key) [AUTHORED, doubt flagged in author_notes]
+# "MCQ Lecture 2" ends at Q20 (printed p.163/PDF p.176) — exactly the assigned range's end
+# (footer p.176). Pharmacology continues beyond printed p.163 per the book's own table of
+# contents but is now past this lane's assigned p.149-176 range — flagged, not read.
+
+## Needs Omar / needs a second pass (author4, not blockers, logged so they aren't lost)
+- Pharmacology MCQ p.149-159 (anaemia-treatment continuation) — RESOLVED 2026-09-02 by
+  MANS-HIS-203-author4: fully triaged, Q13-Q62 (50 raw items), see above. 27 distinct
+  facts authored (26 concepts, one — EPO — tested by two questions); 23 held as literal
+  or near duplicates (this section repeats the EPO-for-CRF-anemia fact 6x and the
+  folinic-acid-for-methotrexate fact 4x) plus one reference-value-trivia hold (Q22).
+- Pharmacology MCQ "MCQ Lecture 2" p.160-163 (anticoagulants: heparin, warfarin, LMWH) —
+  RESOLVED 2026-09-02 by MANS-HIS-203-author4: fully triaged, Lecture 2 Q1-20 (20 raw
+  items), see above. 15 distinct facts authored (10 new concept mints; 5 questions reuse
+  4 live Kasr 102-INT physiology concepts — CON-HEM-FF26A3D7EE6DB7, CON-HEM-532BFAEE98CC39
+  (x2 questions), CON-HEM-121DCA556B6311, CON-HEM-A940AB960A5C0D — directly, no overlay);
+  5 held as literal/near duplicates (Q5/Q9/Q10/Q15/Q17).
+- Pharmacology MCQ beyond printed p.163 (further sections per the book's own table of
+  contents, past this lane's assigned p.149-176 range) — not read this pass; next pass's
+  starting point for this module.
+- Physiology plasma-protein notes (printed p.98-103, 8 facts, footer 101-103) — still not
+  triaged for concept matches this pass either; not reached, since the pharmacology
+  cluster alone met this lane's ~40-50 question target (42 authored: 27 anaemia-treatment
+  + 15 anticoagulant).
 - ~100 remaining per-lecture HIS bank/scan files (manifest, archive group HIS) — still
   not triaged, same note as author1's report.
