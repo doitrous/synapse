@@ -14463,3 +14463,837 @@ yes
 
 ## author_notes
 keySource: printed answer table p.21 ("114.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q115
+
+## title
+Agent blocking exogenous cholesterol absorption
+
+## question
+A 72-year-old female is being treated for hyperlipidemia with pravastatin for the past 6 months. Her physician wishes to add for her an additional agent to block the absorption of exogenous cholesterol. Which of the following choices would serve this function?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Niacin
+
+## explanation_a
+Incorrect. Niacin lowers triglycerides and LDL and raises HDL by inhibiting lipolysis in adipose tissue and reducing hepatic VLDL synthesis -- it does not act by blocking intestinal cholesterol absorption.
+
+## answer_b
+Probucol
+
+## explanation_b
+Incorrect. Probucol is not a cholesterol-absorption inhibitor; it is not among the drugs the department's own instructor material names for this mechanism.
+
+## answer_c
+Gemfibrozil
+
+## explanation_c
+Incorrect. Gemfibrozil, a fibrate, acts as a PPAR-alpha agonist, increasing lipoprotein lipase expression and reducing hepatic VLDL production -- an entirely different mechanism from blocking intestinal cholesterol absorption.
+
+## answer_d
+Ezetimibe
+
+## explanation_d
+Correct. Ezetimibe selectively inhibits the NPC1L1 transporter in the jejunal brush border, reducing absorption of both dietary and biliary cholesterol, and reducing delivery of cholesterol to the liver triggers a compensatory upregulation of LDL receptors. Because its mechanism is absorption-blocking rather than synthesis-blocking, it lowers LDL-C with minimal effect on triglycerides or HDL, and it is most commonly used as add-on therapy to a statin (such as this patient's pravastatin) for additional LDL lowering, or as monotherapy in statin-intolerant patients.
+
+## topic
+Pharmacology
+
+## subtopic
+Lipid-lowering pharmacology
+
+## main_concept
+CON-FND-0F832A56D4229E
+
+## concept_ids
+CON-FND-0F832A56D4229E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Lipid-Lowering Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify ezetimibe's NPC1L1-inhibiting mechanism as the reason it blocks intestinal cholesterol absorption, distinct from niacin, probucol and gemfibrozil.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.19
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("115.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q116
+
+## title
+Lipid-lowering drug causing gallstones
+
+## question
+A patient comes into the ER with gallstones, after further investigations, you find out that he is on drugs to treat his hyperlipidemia. Which of the following drugs could have caused his gall stones?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Simvastatin
+
+## explanation_a
+Incorrect. Simvastatin's characteristic adverse effects are myopathy (mild myalgia up to rhabdomyolysis) and hepatotoxicity, not an increased risk of cholesterol gallstones.
+
+## answer_b
+Fenofibrate
+
+## explanation_b
+Correct. Fibrates such as fenofibrate carry an increased risk of cholesterol gallstones, because they increase biliary cholesterol secretion alongside their gastrointestinal-upset adverse effects. This gallstone risk is a class effect of the fibrates -- distinguishing them from statins, ezetimibe or bile acid resins, none of which increase biliary cholesterol secretion the way fibrates do, and it is exactly why a fibrate is the drug to suspect in a hyperlipidemic patient who develops gallstones.
+
+## answer_c
+Ezetimibe
+
+## explanation_c
+Incorrect. Ezetimibe is generally well tolerated, with rare reports of myalgia and gastrointestinal upset, but it is not linked to an increased gallstone risk.
+
+## answer_d
+Colestipol
+
+## explanation_d
+Incorrect. Colestipol, a bile acid resin, causes gastrointestinal effects (constipation, bloating, gas) from binding bile acids in the intestinal lumen, but it is not linked to increased cholesterol gallstone formation the way fibrates are.
+
+## topic
+Pharmacology
+
+## subtopic
+Lipid-lowering pharmacology
+
+## main_concept
+CON-FND-CEDEAB61C5D698
+
+## concept_ids
+CON-FND-CEDEAB61C5D698
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Lipid-Lowering Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify fibrates (fenofibrate) as the lipid-lowering drug class carrying a cholesterol-gallstone risk, from increased biliary cholesterol secretion, distinct from statins, ezetimibe or resins.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("116.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q117
+
+## title
+Parenteral anticoagulant for heparin-induced thrombocytopenia
+
+## question
+A patient develops severe thrombocytopenia in response to treatment with unfractionated heparin and the case is diagnosed as heparin-induced thrombocytopenia (HIT). Which of the following drugs is suitable as a parenteral anticoagulant in this condition?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Alteplase
+
+## explanation_a
+Incorrect. Alteplase is a thrombolytic that dissolves existing clots by converting plasminogen to plasmin -- it is not an anticoagulant, and it is not the treatment for HIT.
+
+## answer_b
+Argatroban
+
+## explanation_b
+Correct. Argatroban is a direct thrombin inhibitor and first-line parenteral anticoagulant in HIT, especially useful in renal impairment because it is eliminated hepatically rather than renally. In HIT, all heparin (unfractionated and low-molecular-weight) must be stopped immediately, since continuing it perpetuates the immune-mediated PF4-heparin antibody response driving the paradoxical thrombosis risk, and a non-heparin parenteral anticoagulant such as argatroban or fondaparinux is substituted in its place.
+
+## answer_c
+Rivaroxaban
+
+## explanation_c
+Incorrect. Rivaroxaban is an oral, not parenteral, direct factor Xa inhibitor -- it does not match the parenteral route the question specifies for acute HIT management.
+
+## answer_d
+Dabigatran
+
+## explanation_d
+Incorrect. Dabigatran is an oral, not parenteral, direct thrombin inhibitor -- like rivaroxaban, it does not match the parenteral route needed for acute HIT management.
+
+## topic
+Pharmacology
+
+## subtopic
+Anticoagulant and antiplatelet pharmacology
+
+## main_concept
+CON-FND-19A501F4C73B41
+
+## concept_ids
+CON-FND-19A501F4C73B41
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Anticoagulant Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify argatroban as the parenteral direct thrombin inhibitor of choice in heparin-induced thrombocytopenia, distinct from thrombolytics and the oral direct anticoagulants.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("117.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q118
+
+## title
+Fibrin-specific plasminogen activator
+
+## question
+Which of the following is a fibrin-specific plasminogen activator?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Alteplase
+
+## explanation_a
+Correct. Alteplase, a recombinant tissue plasminogen activator (t-PA), is fibrin-specific -- it preferentially activates plasminogen that is already bound to fibrin within a clot, concentrating its thrombolytic action there rather than acting systemically on circulating plasminogen. This fibrin selectivity is exactly what distinguishes alteplase from streptokinase, a bacterial (Streptococcus-derived) plasminogen activator that is non-fibrin-specific because it binds and activates both free and fibrin-bound plasminogen, producing a more systemic lytic state.
+
+## answer_b
+Aminocaproic acid
+
+## explanation_b
+Incorrect. Aminocaproic acid is an antifibrinolytic, working by inhibiting plasminogen activation -- the opposite of a plasminogen activator, and unrelated to fibrin specificity.
+
+## answer_c
+Streptokinase
+
+## explanation_c
+Incorrect. Streptokinase is a bacterially-derived plasminogen activator, but it is specifically non-fibrin-specific, binding and activating both free and fibrin-bound plasminogen -- the reverse of this question's answer.
+
+## answer_d
+Tranexamic acid
+
+## explanation_d
+Incorrect. Tranexamic acid, like aminocaproic acid, is an antifibrinolytic that inhibits plasminogen activation, not a plasminogen activator at all.
+
+## topic
+Pharmacology
+
+## subtopic
+Anticoagulant and antiplatelet pharmacology
+
+## main_concept
+CON-FND-A3458522912013
+
+## concept_ids
+CON-FND-A3458522912013
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Anticoagulant Drugs > Thrombolytics
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify alteplase as a fibrin-specific plasminogen activator, distinguishing it from non-fibrin-specific streptokinase and the antifibrinolytics aminocaproic acid and tranexamic acid.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("118.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q119
+
+## title
+Antiplatelet drug reversibly inhibiting P2Y12
+
+## question
+The antiplatelet drug that inhibits reversibly the binding of ADP to P2Y12 receptors on platelets is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Clopidogrel
+
+## explanation_a
+Incorrect. Clopidogrel is an irreversible antagonist of the platelet P2Y12 ADP receptor -- it is also a prodrug requiring hepatic bioactivation via CYP2C19, with reduced effect in poor metabolizers.
+
+## answer_b
+Prasugrel
+
+## explanation_b
+Incorrect. Prasugrel, like clopidogrel, is an irreversible P2Y12 antagonist, not a reversible one.
+
+## answer_c
+Ticagrelor
+
+## explanation_c
+Correct. Ticagrelor is a reversible P2Y12 antagonist, an active drug (not requiring hepatic bioactivation like clopidogrel and prasugrel) with maximal platelet inhibition reached within 1-3 hours. Its reversibility, unlike the covalent, irreversible binding of clopidogrel and prasugrel, means platelet function recovers faster once the drug is stopped, though it can cause dyspnea as a distinctive adverse effect.
+
+## answer_d
+Tirofiban
+
+## explanation_d
+Incorrect. Tirofiban is a glycoprotein IIb/IIIa antagonist, blocking the final common pathway of platelet aggregation directly, not a P2Y12 receptor antagonist at all.
+
+## topic
+Pharmacology
+
+## subtopic
+Anticoagulant and antiplatelet pharmacology
+
+## main_concept
+CON-FND-E78003FA55FFAD
+
+## concept_ids
+CON-FND-E78003FA55FFAD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Anticoagulant Drugs > Antiplatelet Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify ticagrelor as the reversible P2Y12 antagonist, distinguishing it from the irreversible agents clopidogrel and prasugrel and from the GP IIb/IIIa antagonist tirofiban.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("119.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q120
+
+## title
+Oral factor X inhibitor anticoagulant
+
+## question
+Which of the following is an oral anticoagulant that acts as a factor X inhibitor?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Dapigatran
+
+## explanation_a
+Incorrect. Dabigatran is an oral anticoagulant, but it is a direct thrombin (factor IIa) inhibitor, not a factor Xa inhibitor -- its antidote is idarucizumab, distinct from the factor Xa inhibitors' antidote (andexanet alfa).
+
+## answer_b
+Enoxaparin
+
+## explanation_b
+Incorrect. Enoxaparin is a low-molecular-weight heparin, given subcutaneously (not orally), that binds antithrombin to inhibit factor Xa and, to a lesser extent, thrombin -- it fails this question on both the oral route and its indirect (antithrombin-dependent) mechanism.
+
+## answer_c
+Fondaparinux
+
+## explanation_c
+Incorrect. Fondaparinux is a parenteral (subcutaneous), not oral, pentasaccharide that binds antithrombin to inactivate factor Xa indirectly -- it fails this question on the oral route.
+
+## answer_d
+Rivaroxban
+
+## explanation_d
+Correct. Rivaroxaban (along with apixaban) is an oral, direct, competitive, reversible inhibitor of factor Xa, with rapid onset (around 30 minutes) and andexanet alfa as its antidote. Being oral, direct-acting and not requiring antithrombin as a cofactor distinguishes rivaroxaban from the injectable, antithrombin-dependent factor Xa inhibitors enoxaparin and fondaparinux, and from dabigatran, which is oral but targets thrombin rather than factor Xa.
+
+## topic
+Pharmacology
+
+## subtopic
+Anticoagulant and antiplatelet pharmacology
+
+## main_concept
+CON-FND-933AFA510E2B6A
+
+## concept_ids
+CON-FND-933AFA510E2B6A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Anticoagulant Drugs
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify rivaroxaban as an oral, direct factor Xa inhibitor, distinguishing it from the oral thrombin inhibitor dabigatran and the injectable, antithrombin-dependent Xa inhibitors enoxaparin and fondaparinux.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("120.D")

@@ -1643,3 +1643,190 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Kasr Al Ainy 208 INT — Pharmacology, Antiarrhythmic Drugs
+
+
+---
+
+# Item
+## id
+CLM-FND-208INT-EZETIMIBE-NPC1L1-01
+## concept_id
+CON-FND-0F832A56D4229E
+## subject
+Ezetimibe
+## predicate
+selectively inhibits the NPC1L1 transporter in the jejunal brush border, reducing
+## object
+absorption of dietary and biliary cholesterol, with minimal effect on triglycerides or HDL
+## display_text
+Ezetimibe blocks intestinal cholesterol absorption via NPC1L1 inhibition.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Lipid-Lowering Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-FENOFIBRATE-GALLSTONES-01
+## concept_id
+CON-FND-CEDEAB61C5D698
+## subject
+Fibrates (fenofibrate)
+## predicate
+carry an increased risk of, from increased biliary cholesterol secretion,
+## object
+cholesterol gallstones, a class effect not shared by statins, ezetimibe or bile acid resins
+## display_text
+Fibrates such as fenofibrate carry an increased cholesterol gallstone risk.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Lipid-Lowering Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-ARGATROBAN-HIT-01
+## concept_id
+CON-FND-19A501F4C73B41
+## subject
+Argatroban
+## predicate
+is a direct thrombin inhibitor and first-line parenteral anticoagulant in
+## object
+heparin-induced thrombocytopenia (HIT), especially useful in renal impairment given its hepatic elimination
+## display_text
+Argatroban is the first-line parenteral anticoagulant for heparin-induced thrombocytopenia.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Anticoagulant Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-ALTEPLASE-FIBRIN-SPECIFIC-01
+## concept_id
+CON-FND-A3458522912013
+## subject
+Alteplase
+## predicate
+is a fibrin-specific plasminogen activator, preferentially activating
+## object
+plasminogen already bound to fibrin within a clot, unlike non-fibrin-specific streptokinase
+## display_text
+Alteplase is fibrin-specific, unlike streptokinase, which acts on both free and fibrin-bound plasminogen.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Thrombolytic Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-TICAGRELOR-REVERSIBLE-01
+## concept_id
+CON-FND-E78003FA55FFAD
+## subject
+Ticagrelor
+## predicate
+is a reversible P2Y12 antagonist, unlike
+## object
+the irreversible agents clopidogrel and prasugrel
+## display_text
+Ticagrelor reversibly inhibits P2Y12, unlike clopidogrel and prasugrel's irreversible binding.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antiplatelet Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-RIVAROXABAN-FACTOR-XA-01
+## concept_id
+CON-FND-933AFA510E2B6A
+## subject
+Rivaroxaban
+## predicate
+is an oral, direct, reversible inhibitor of
+## object
+factor Xa, distinct from oral thrombin inhibitor dabigatran and the injectable, antithrombin-dependent factor Xa inhibitors
+## display_text
+Rivaroxaban is an oral direct factor Xa inhibitor, distinct from dabigatran (thrombin) and injectable Xa inhibitors.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Anticoagulant Drugs

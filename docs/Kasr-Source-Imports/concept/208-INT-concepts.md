@@ -10075,3 +10075,688 @@ resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ..
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: Sibling of CON-FND-449194FE486AEE (lidocaine), the other antiarrhythmic-drug concept in this batch.
+
+
+---
+
+# Item
+## id
+CON-FND-0F832A56D4229E
+## label
+Ezetimibe selectively inhibits the NPC1L1 transporter in the jejunal brush border, blocking absorption of dietary and biliary cholesterol
+## canonical_key
+ezetimibe.npc1l1-inhibition.blocks-cholesterol-absorption
+## aliases
+Ezetimibe mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ezetimibe selectively inhibits the NPC1L1 transporter in the jejunal brush border, reducing absorption of both dietary and biliary cholesterol. Reduced delivery of cholesterol to the liver triggers a compensatory upregulation of LDL receptors, so ezetimibe lowers LDL-C with minimal effect on triglycerides or HDL, and it is most commonly used as add-on therapy to a statin for additional LDL lowering, or as monotherapy in statin-intolerant patients.
+## explicit_objective
+Explain ezetimibe's NPC1L1-inhibiting mechanism as the reason it blocks intestinal cholesterol absorption, distinct from the synthesis-blocking statins or the bile-acid-binding resins.
+## pitfalls
+Assuming ezetimibe works like a statin (blocking hepatic cholesterol synthesis) -- its mechanism is instead intestinal absorption blockade at the NPC1L1 transporter.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Lipid-lowering pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Lipid-Lowering Drugs
+## article_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-CEDEAB61C5D698
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-EZETIMIBE-NPC1L1-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 72-year-old female is being treated for hyperlipidemia with pravastatin for the past 6 months. Her physician wishes to add for her an additional agent to block the absorption of exogenous cholesterol. Which of the following choices would serve this function? a. Niacin b. Probucol c. Gemfibrozil d. Ezetimibe" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("ezetimibe NPC1L1 cholesterol absorption") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.15.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-CEDEAB61C5D698 (fenofibrate gallstones), the other lipid-drug concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-CEDEAB61C5D698
+## label
+Fibrates such as fenofibrate carry an increased risk of cholesterol gallstones, from increased biliary cholesterol secretion
+## canonical_key
+fenofibrate.cholesterol-gallstones-risk
+## aliases
+Fibrate gallstone risk
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Fibrates cause gastrointestinal upset and an increased risk of cholesterol gallstones, because they increase biliary cholesterol secretion. This gallstone risk is a class effect of the fibrates (gemfibrozil, fenofibrate), distinguishing them from statins, ezetimibe or bile acid resins, none of which increase biliary cholesterol secretion the way fibrates do.
+## explicit_objective
+Identify fibrates as the lipid-lowering drug class carrying a cholesterol-gallstone risk, from increased biliary cholesterol secretion, distinct from statins, ezetimibe or resins.
+## pitfalls
+Attributing gallstone risk to statins (whose own characteristic adverse effects are myopathy and hepatotoxicity) rather than to the fibrate class specifically.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Lipid-lowering pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Lipid-Lowering Drugs
+## article_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-0F832A56D4229E
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-FENOFIBRATE-GALLSTONES-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient comes into the ER with gallstones, after further investigations, you find out that he is on drugs to treat his hyperlipidemia. Which of the following drugs could have caused his gall stones? a. Simvastatin b. Fenofibrate c. Ezetimibe d. Colestipol" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("fenofibrate gallstones fibrate") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.14.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-0F832A56D4229E (ezetimibe), the other lipid-drug concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-19A501F4C73B41
+## label
+Argatroban, a direct thrombin inhibitor, is the first-line parenteral anticoagulant in heparin-induced thrombocytopenia, especially with renal impairment
+## canonical_key
+argatroban.parenteral-anticoagulant-in-hit
+## aliases
+Argatroban in HIT
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Argatroban is a direct thrombin inhibitor and first-line parenteral anticoagulant in heparin-induced thrombocytopenia (HIT), especially useful in renal impairment because it is eliminated hepatically rather than renally. In HIT, all heparin must be stopped immediately, since continuing it perpetuates the immune-mediated PF4-heparin antibody response driving the paradoxical thrombosis risk, and a non-heparin parenteral anticoagulant such as argatroban or fondaparinux is substituted.
+## explicit_objective
+Identify argatroban as the parenteral direct thrombin inhibitor of choice in heparin-induced thrombocytopenia, and explain why all heparin must be stopped immediately in that setting.
+## pitfalls
+Reaching for an oral direct anticoagulant (rivaroxaban, dabigatran) for acute HIT management -- the parenteral route is what the clinical setting requires; argatroban (or fondaparinux) is the parenteral substitute.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Anticoagulant and antiplatelet pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Anticoagulant Drugs
+## article_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-933AFA510E2B6A
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.6
+## exam_weight_by_year
+KAU_Y2=0.6
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ARGATROBAN-HIT-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient develops severe thrombocytopenia in response to treatment with unfractionated heparin and the case is diagnosed as heparin-induced thrombocytopenia (HIT). Which of the following drugs is suitable as a parenteral anticoagulant in this condition? a. Alteplase b. Argatroban C. Rivaroxaban d. Dabigatran" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("argatroban heparin-induced thrombocytopenia") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.12.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-933AFA510E2B6A (rivaroxaban), the other anticoagulant-drug concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-A3458522912013
+## label
+Alteplase is a fibrin-specific plasminogen activator, activating clot-bound plasminogen preferentially over circulating plasminogen, unlike non-fibrin-specific streptokinase
+## canonical_key
+alteplase.fibrin-specific-plasminogen-activator
+## aliases
+Fibrin-specific thrombolytic
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Alteplase, a recombinant tissue plasminogen activator (t-PA), is fibrin-specific: it preferentially activates plasminogen already bound to fibrin within a clot, concentrating its thrombolytic action there rather than acting systemically on circulating plasminogen. Streptokinase, a bacterially-derived plasminogen activator, is non-fibrin-specific, binding and activating both free and fibrin-bound plasminogen, producing a more systemic lytic state -- the mechanistic reason it carries a broader bleeding risk and, being derived from Streptococcus, an antigenicity/allergic-reaction risk alteplase does not share.
+## explicit_objective
+Identify alteplase as a fibrin-specific plasminogen activator, distinguishing it from non-fibrin-specific streptokinase and from the antifibrinolytics aminocaproic acid and tranexamic acid.
+## pitfalls
+Confusing a plasminogen activator (alteplase, streptokinase -- both dissolve clots) with an antifibrinolytic (aminocaproic acid, tranexamic acid -- both prevent clot breakdown) -- the two drug groups work in opposite directions.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Anticoagulant and antiplatelet pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Anticoagulant Drugs > Thrombolytics
+## article_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_fc27447d6751a9bab6da
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ALTEPLASE-FIBRIN-SPECIFIC-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is a fibrin-specific plasminogen activator? a. Alteplase b. Aminocaproic acid c. Streptokinase d. Tranexamic acid" ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("alteplase fibrin-specific plasminogen activator") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "MCQS pharma _dr.Abdallah Salah...2026.pdf" (2nd priority, src_fc27447d6751a9bab6da), p.164-165 (Question 372, "Why is Streptokinase 'non-fibrin specific'? Ans: B Explanation: Acts systemically"; Question 386, "Which is 'Fibrin-specific'? Ans: B Explanation: Alteplase is fibrin-specific").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other anticoagulant/antiplatelet-drug concepts minted in this batch.
+
+---
+
+# Item
+## id
+CON-FND-E78003FA55FFAD
+## label
+Ticagrelor is a reversible P2Y12 antagonist, unlike the irreversible agents clopidogrel and prasugrel
+## canonical_key
+ticagrelor.reversible-p2y12-inhibition
+## aliases
+Reversible P2Y12 antagonist
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ticagrelor is a reversible P2Y12 antagonist, an active drug (not requiring hepatic bioactivation, unlike clopidogrel and prasugrel) with maximal platelet inhibition reached within 1-3 hours; it can cause dyspnea as a distinctive adverse effect. Clopidogrel and prasugrel are irreversible antagonists of platelet P2Y12 ADP receptors, and clopidogrel specifically is a prodrug requiring hepatic bioactivation via CYP2C19, with reduced effect in poor metabolizers.
+## explicit_objective
+Identify ticagrelor as the reversible P2Y12 antagonist, distinguishing it from the irreversible agents clopidogrel and prasugrel, and from the GP IIb/IIIa antagonist tirofiban.
+## pitfalls
+Assuming all P2Y12 antagonists bind irreversibly -- ticagrelor is the specific exception, and this reversibility means platelet function recovers faster once it is stopped.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Anticoagulant and antiplatelet pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Anticoagulant Drugs > Antiplatelet Drugs
+## article_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-TICAGRELOR-REVERSIBLE-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The antiplatelet drug that inhibits reversibly the binding of ADP to P2Y12 receptors on platelets is: a. Clopidogrel b. Prasugrel c. Ticagrelor d. Tirofiban" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("ticagrelor P2Y12 reversible antagonist") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.12.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the other anticoagulant/antiplatelet-drug concepts minted in this batch.
+
+---
+
+# Item
+## id
+CON-FND-933AFA510E2B6A
+## label
+Rivaroxaban is an oral, direct, reversible factor Xa inhibitor, distinct from the oral thrombin inhibitor dabigatran and the injectable, antithrombin-dependent factor Xa inhibitors
+## canonical_key
+rivaroxaban.oral-factor-xa-inhibitor
+## aliases
+Oral direct factor Xa inhibitor
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rivaroxaban, along with apixaban, is an oral direct competitive reversible inhibitor of factor Xa, with rapid onset (around 30 minutes) and andexanet alfa as its antidote. Being oral, direct-acting and not requiring antithrombin as a cofactor distinguishes it from the injectable, antithrombin-dependent factor Xa inhibitors enoxaparin and fondaparinux, and from dabigatran, which is also oral but targets thrombin (factor IIa) rather than factor Xa.
+## explicit_objective
+Identify rivaroxaban as an oral, direct factor Xa inhibitor, distinguishing it from the oral thrombin inhibitor dabigatran and from injectable, antithrombin-dependent factor Xa inhibitors.
+## pitfalls
+Confusing dabigatran (oral, but a thrombin inhibitor) with rivaroxaban/apixaban (oral factor Xa inhibitors) -- both are oral DOACs, but they target different clotting factors, with different antidotes.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Anticoagulant and antiplatelet pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Anticoagulant Drugs
+## article_ids
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-19A501F4C73B41
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-RIVAROXABAN-FACTOR-XA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is an oral anticoagulant that acts as a factor X inhibitor? a. Dapigatran b. Enoxaparin c. Fondaparinux d. Rivaroxban" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("rivaroxaban oral factor Xa inhibitor") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.12.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-19A501F4C73B41 (argatroban), the other anticoagulant-drug concept in this batch. This is the final concept of the 208 INT 2023 EOM Q76-120 cluster.

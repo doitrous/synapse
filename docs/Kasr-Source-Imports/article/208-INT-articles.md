@@ -1251,3 +1251,95 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead.
 ## reading_time
 13
+
+
+---
+
+# Item
+## id
+ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY
+## title
+Lipid-lowering, anticoagulant, antiplatelet and thrombolytic pharmacology: absorption inhibitors, fibrates, HIT management, and fibrin-specific vs non-specific agents
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Two lipid drugs close out the antihyperlipidemic cluster by their site of action: ezetimibe blocks intestinal cholesterol absorption at the NPC1L1 transporter, while fibrates (fenofibrate) increase biliary cholesterol secretion, carrying a class-specific gallstone risk neither statins nor ezetimibe share. The anticoagulant/antiplatelet/thrombolytic cluster turns on matching a clinical constraint to the one drug that satisfies it: argatroban is the parenteral anticoagulant for heparin-induced thrombocytopenia (HIT), where all heparin must stop; alteplase is fibrin-specific, concentrating its thrombolytic action on clot-bound plasminogen unlike non-specific streptokinase; ticagrelor is the one reversible P2Y12 antagonist among the antiplatelets; and rivaroxaban is an oral, direct factor Xa inhibitor, distinct from the oral thrombin inhibitor dabigatran and the injectable, antithrombin-dependent Xa inhibitors.
+## sections
+### Definition
+Ezetimibe selectively inhibits the NPC1L1 transporter in the jejunal brush border, reducing absorption of dietary and biliary cholesterol and triggering compensatory hepatic LDL-receptor upregulation. Fibrates (gemfibrozil, fenofibrate) are PPAR-alpha agonists that increase lipoprotein lipase expression and reduce hepatic VLDL production, but also increase biliary cholesterol secretion. Argatroban is a direct thrombin inhibitor; alteplase is a recombinant tissue plasminogen activator; ticagrelor and clopidogrel/prasugrel are P2Y12 ADP-receptor antagonists differing in reversibility; and rivaroxaban is an oral direct factor Xa inhibitor, one member of the direct oral anticoagulant (DOAC) family that also includes the thrombin inhibitor dabigatran.
+### Mechanism
+Ezetimibe's absorption-blocking mechanism (site: gut epithelium) is entirely separate from a statin's synthesis-blocking one (site: hepatocyte HMG-CoA reductase), which is why the two combine synergistically as first-line therapy for high-risk patients not at LDL goal on a statin alone. Fibrates' gallstone risk traces specifically to their effect on bile composition (increased biliary cholesterol secretion), a mechanism unrelated to their lipid-lowering action (PPAR-alpha-driven LPL induction) -- two separate consequences of the same drug class, tested as two separate facts. In HIT, the pathophysiology (IgG antibodies against PF4-heparin complexes, driving paradoxical thrombosis despite low platelets) is why heparin of any kind must be stopped immediately and a structurally unrelated anticoagulant (argatroban, a direct thrombin inhibitor eliminated hepatically, or fondaparinux) substituted -- an oral DOAC is not the answer here because the acute setting calls for a parenteral agent. Alteplase's fibrin specificity comes from its preference for plasminogen already bound to fibrin within a clot, concentrating lysis there, versus streptokinase's non-selective activation of both free and fibrin-bound plasminogen, which produces a more systemic lytic (and bleeding) state and carries an antigenicity risk from its bacterial origin that alteplase, a human recombinant protein, does not. Ticagrelor's reversibility (versus clopidogrel and prasugrel's irreversible, covalent P2Y12 binding) is a genuine pharmacological difference with a clinical consequence -- platelet function recovers faster once ticagrelor is stopped. Rivaroxaban and apixaban act directly on factor Xa without needing antithrombin as a cofactor, unlike the injectable, antithrombin-dependent agents (enoxaparin, fondaparinux), and target a different clotting factor from dabigatran (thrombin, factor IIa) -- three genuinely different mechanistic axes (oral vs parenteral, factor Xa vs thrombin, antithrombin-dependent vs direct) that this question set tests together.
+### Key determinants
+Every item in this cluster turns on isolating the one specific, often narrow property that answers the stem -- an absorption vs synthesis site, a class-specific adverse effect, a route (oral vs parenteral), a target clotting factor, or a reversibility property -- rather than treating "lipid drug" or "anticoagulant" as one undifferentiated category. Recognising which drugs share a superficial label (all are "antiplatelets," all are "oral anticoagulants") but differ on the one axis the question actually tests is the recurring skill.
+### Clinical significance
+Adding ezetimibe to a statin for a patient not at LDL goal, and suspecting a fibrate specifically when a hyperlipidemic patient develops gallstones, are both direct, bedside applications of each drug's distinct mechanism. Recognising HIT and switching immediately to a non-heparin parenteral anticoagulant (argatroban) is a time-critical, potentially life-saving clinical decision built on understanding why heparin itself must stop. Choosing alteplase over streptokinase for its fibrin specificity and lower systemic bleeding/antigenicity risk, choosing ticagrelor when faster platelet recovery after stopping the drug matters, and choosing rivaroxaban (an oral factor Xa inhibitor) versus dabigatran (an oral thrombin inhibitor) based on the clinical scenario are all decisions this cluster's mechanistic distinctions directly support.
+### Common misconceptions
+Assuming ezetimibe works like a statin rather than by blocking intestinal absorption. Attributing gallstone risk to statins rather than to the fibrate class specifically. Reaching for an oral DOAC in acute HIT management, when the parenteral route is what the clinical setting requires. Assuming all thrombolytics are equally fibrin-specific, when streptokinase is specifically non-fibrin-specific. Assuming all P2Y12 antagonists bind irreversibly, when ticagrelor is the reversible exception. Confusing an oral factor Xa inhibitor (rivaroxaban, apixaban) with an oral thrombin inhibitor (dabigatran) -- both are DOACs, but they act on different clotting factors with different antidotes.
+## universities
+kau
+## years
+KAU_Y2
+## module
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Lipid-Lowering and Anticoagulant Drugs
+## subtopic
+Lipid-lowering and anticoagulant/antiplatelet pharmacology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## related_concepts
+CON-FND-0F832A56D4229E
+CON-FND-CEDEAB61C5D698
+CON-FND-19A501F4C73B41
+CON-FND-A3458522912013
+CON-FND-E78003FA55FFAD
+CON-FND-933AFA510E2B6A
+## related_articles
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+## resource_ids
+src_9fa6c2788e36af56304e | src_fc27447d6751a9bab6da
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead. This is the final article in the 2023 EOM Q76-120 cluster (lane 3 of the 208 INT authoring lane); the module's remaining 23 tier 1-3 papers (per coverage/208-INT-triage.md) are untriaged.
+## reading_time
+12

@@ -1484,3 +1484,172 @@ Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
 0.75
 ## counts_as_claim_evidence
 yes
+
+
+---
+
+# Item
+## id
+CIT-FND-208INT-EZETIMIBE-NPC1L1-01
+## claim_id
+CLM-FND-208INT-EZETIMIBE-NPC1L1-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+EZETIMIBE (MECHANISM): Selectively inhibits the NPC1L1 transporter in the jejunal brush border, reducing absorption of dietary and biliary cholesterol. EZETIMIBE (NET EFFECT): Lowers LDL-C with minimal effects on triglycerides and HDL.
+## locator_type
+printed_page
+## locator_page
+15
+## locator_section
+Lipid-lowering drugs — ezetimibe
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-FENOFIBRATE-GALLSTONES-01
+## claim_id
+CLM-FND-208INT-FENOFIBRATE-GALLSTONES-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+FIBRATES (ADVERSE EFFECTS): Gastrointestinal upset and an increased risk of cholesterol gallstones due to increased biliary cholesterol secretion.
+## locator_type
+printed_page
+## locator_page
+14
+## locator_section
+Lipid-lowering drugs — fibrates
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-ARGATROBAN-HIT-01
+## claim_id
+CLM-FND-208INT-ARGATROBAN-HIT-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+ARGATROBAN: 1st line in HIT, especially with renal impairment. Eliminated by liver; used cautiously in liver disease. HIT TREATMENT: Immediate cessation of all heparin and start alternative like Argatroban or fondaparinux.
+## locator_type
+printed_page
+## locator_page
+12
+## locator_section
+Blood — heparin-induced thrombocytopenia
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-ALTEPLASE-FIBRIN-SPECIFIC-01
+## claim_id
+CLM-FND-208INT-ALTEPLASE-FIBRIN-SPECIFIC-01
+## resource_id
+src_fc27447d6751a9bab6da
+## evidence_role
+local_curriculum
+## support_span
+Question 372: Why is Streptokinase "non-fibrin specific"? Ans: B Explanation: Acts systemically (binds free and fibrin-bound plasminogen). Question 386: Which is "Fibrin-specific"? Ans: B Explanation: Alteplase is fibrin-specific.
+## locator_type
+printed_page
+## locator_page
+164
+## locator_section
+Blood — thrombolytics
+## locator_detail
+Read via node scripts/content/pagetext.mjs grep "alteplase" then show; native text layer, no OCR.
+## context_note
+MCQS pharma bank (Dr Abdallah Salah, 2026), 2nd-priority instructor material with worked explanations; page 386 hit is on the following page (165) of the same bank.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-TICAGRELOR-REVERSIBLE-01
+## claim_id
+CLM-FND-208INT-TICAGRELOR-REVERSIBLE-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+TICAGRELOR: Reversible P2Y12 antagonist; active drug with max inhibition in 1-3 hours. Can cause dyspnea. CLOPIDOGREL / PRASUGREL: Irreversible antagonists of platelet P2Y12 ADP receptors.
+## locator_type
+printed_page
+## locator_page
+12
+## locator_section
+Blood — antiplatelet drugs
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-RIVAROXABAN-FACTOR-XA-01
+## claim_id
+CLM-FND-208INT-RIVAROXABAN-FACTOR-XA-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+RIVAROXABAN / APIXABAN: Oral Direct Competitive Reversible Inhibitors of Factor Xa; rapid onset (30 min); antidote is Andexanet alfa. DABIGATRAN: Oral Direct Competitive Reversible Inhibitor of Thrombin (IIa); rapid onset (30 min); antidote is Idarucizumab.
+## locator_type
+printed_page
+## locator_page
+12
+## locator_section
+Blood — direct oral anticoagulants
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
