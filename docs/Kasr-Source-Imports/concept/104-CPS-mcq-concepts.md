@@ -20,7 +20,7 @@
     The Trachea, Bronchi and Thoracic Oesophagus — 10 questions, 3 concepts
     The Typical Intercostal Nerve — 6 questions, 1 concepts
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
+    Histology Cardiovascular System — Artery Classification — 38 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 36 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 8 questions, 2 concepts
@@ -54,7 +54,7 @@
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 14 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 43 questions, 11 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 45 questions, 11 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 26 questions, 5 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  202 questions were excluded and 0 held back for having no
+  204 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -2104,6 +2104,8 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p17 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p16 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p18 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
 ## article_ids
 +ART-104-HIS-ARTERIES-AND-VEINS
 ## field_notes
@@ -8443,18 +8445,19 @@ kau
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p7 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p5 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Physiology
 ## subtopic
@@ -9699,6 +9702,7 @@ kau
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p23 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p24 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p19 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
@@ -9707,9 +9711,9 @@ src_e569449acf8dc2af471e | question_book | | p16 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.71
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.71
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance

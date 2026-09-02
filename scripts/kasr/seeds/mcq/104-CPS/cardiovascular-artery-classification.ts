@@ -504,6 +504,83 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // kasr-104-author-run45: Arteries cluster. Coronary artery as a named
+      // instance of the medium-sized muscular-artery class this leaf's own
+      // classification concept already teaches — a prominent internal
+      // elastic lamina is exactly what a muscular artery has, so "has no
+      // IEL" is the false statement among four medium-artery-consistent
+      // claims.
+      key: "all-characters-of-coronary-artery-except-8aa6bb03",
+      conceptKey: "artery-classification.elastic-muscular-and-arteriolar-types",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that a coronary artery, as a muscular artery, carries a prominent internal elastic lamina rather than none, against three statements consistent with the general muscular-artery pattern.",
+      explanations: {
+        A: "Not established as the exception here — the coronary artery's tunica media, like any muscular artery's, is dominated by circularly arranged smooth muscle, consistent with the general muscular-artery pattern this leaf's own classification concept describes.",
+        B: "True of a muscular artery, so not the exception — coronary arteries, like muscular arteries generally, may carry a recognisable external elastic lamina at the media-adventitia boundary.",
+        C: "The exception, and the answer. As a medium-sized muscular artery, the coronary artery carries a prominent, well-defined internal elastic lamina separating intima from media — that prominent IEL is exactly what identifies a muscular artery on a slide, the opposite of having none. A common trap: using the presence of an internal elastic lamina alone to separate arterial classes, rather than checking how prominent it is.",
+        D: "True of a muscular artery's adventitia, so not the exception — a thin, loose connective-tissue coat relative to the thick, muscle-dominated media is exactly the muscular-artery pattern this leaf's own concept states.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Arteries cluster. The coronary artery named
+      // as this leaf's own worked example of a medium-sized (muscular)
+      // artery — distinguishing it from the generic category name, from
+      // a vessel-wall accessory structure, and from the elastic-artery
+      // class.
+      key: "specialized-types-of-medium-sized-artery-include-the-followi-82300128",
+      conceptKey: "artery-classification.elastic-muscular-and-arteriolar-types",
+      difficulty: "Moderate",
+      questionType: "Classification",
+      learningObjective: "Name the coronary artery as a specialized, named example of the medium-sized muscular-artery class, against the generic category name, a vessel-wall accessory structure and the elastic-artery class.",
+      explanations: {
+        A: "The coronary artery is one of the medium-sized muscular arteries' own named, specialized examples — a muscle-dominated-media vessel supplying an organ (the heart), matching this leaf's own classification of the medium/muscular class.",
+        B: "Vasa vasorum are small nutrient vessels within a large vessel's own wall, not a type of artery in this three-way classification at all.",
+        C: "'Muscular artery' is the generic category name for the medium-sized class itself, not a specialized type within it — the stem asks for a named specialized example, which the coronary artery supplies.",
+        D: "The aorta is the archetypal large elastic artery, the opposite class from the medium-sized muscular arteries this question asks about.",
+      },
+    },
+    {
+      // kasr-104-author-run45: Arteries cluster, excluded. Option C merges
+      // two distinct claims ("prominent IEL" and "considered thinnest
+      // layer") under one letter, and this leaf's own two sourced concepts
+      // sit in tension on exactly the point the printed key turns on: the
+      // classification concept states an elastic artery's own IEL is "thin,
+      // inconspicuous", while the aortic-tunica-media concept insists the
+      // aorta's IEL is present and NOT thin — merely indistinguishable by
+      // contrast from the surrounding elastic laminae. With the printed
+      // answer (D, "not prominent IEL") plausibly correct under one framing
+      // and the merged option C impossible to evaluate as a single claim,
+      // no confident single-answer determination survives.
+      key: "all-characters-of-t-intima-of-aorta-except-63c4ce7b",
+      conceptKey: "elastic-artery.aortic-tunica-media-structure",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option C merges two distinct claims under one letter ('prominent IEL, Considered thinnest layer'), and this leaf's own two sourced concepts sit in tension on exactly the point the merged option turns on: the classification concept describes an elastic artery's IEL as thin and inconspicuous, while the aortic-tunica-media concept insists the aorta's own IEL is present and not thin, merely indistinguishable by contrast from the media's other elastic laminae. With the option itself unevaluable as a single claim and the printed answer's own defensibility resting on which of those two framings applies, no confident single-answer determination survives from what this session can verify.",
+    },
+    {
+      // kasr-104-author-run45: Arteries cluster, excluded. A coronary-
+      // artery-specific claim (longitudinal smooth muscle bundles in the
+      // tunica intima) not stated by any of this leaf's own sourced
+      // concepts, which cover the general three-tunic plan and the general
+      // elastic/muscular/arteriolar classification but not this named
+      // vessel's own intimal cushions. This session has no PDF or cached
+      // page-text access to the department histology book this run, so the
+      // claim cannot be verified against the source rather than asserted
+      // from outside knowledge.
+      key: "the-tunica-intima-of-coronary-artery-contains-8521e782",
+      conceptKey: "artery-classification.elastic-muscular-and-arteriolar-types",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Tests a coronary-artery-specific claim (longitudinal smooth muscle within the tunica intima) not stated by any of this leaf's own sourced concepts, which cover the general three-tunic plan and the general artery classification but not this named vessel's own intimal cushions. This session had no PDF or cached page-text access to the department histology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source rather than asserted from outside knowledge, per the rule that a fact absent from the cached page text is left unauthored rather than filled in.",
+    },
+    {
       // Leaf-tag mismatch: tagged "A-V Connections" but genuinely tests this
       // concept's own metarteriole/precapillary-sphincter content.
       key: "regarding-the-metarterioles-the-following-are-correct-f3764004",
