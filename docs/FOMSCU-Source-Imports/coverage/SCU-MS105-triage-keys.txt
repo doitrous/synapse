@@ -1,0 +1,80 @@
+# SCU-MS105 triage keys, one per item, grouped by source cluster.
+# cluster prefix before -qNN is what ledger.mjs groups by.
+
+# --- mskmid26: EOM MSK 2026 Mid MCQ (tier 1), 23/23 keyed genuine MCQ, all authored ---
+mskmid26-q01  # Anatomy Q1 — musculocutaneous nerve, lateral forearm sensation
+mskmid26-q02  # Anatomy Q2 — profunda brachii origin
+mskmid26-q03  # Anatomy Q3 — long head biceps brachii, supraglenoid tubercle
+mskmid26-q04  # Anatomy Q4 — posterior wall of axilla, subscapularis
+mskmid26-q05  # Anatomy Q5 — axillary nerve articular branch, shoulder joint
+mskmid26-q06  # Histology Q1 — sulfated GAGs, cartilage ground substance
+mskmid26-q07  # Histology Q2 — type I collagen, bone matrix
+mskmid26-q08  # Histology Q3 — osteoblasts, mineralization
+mskmid26-q09  # Physiology Q1 — isometric contraction
+mskmid26-q10  # Physiology Q2 — H band shortens, leg flexion
+mskmid26-q11  # Physiology Q3 — hypermagnesemia, ACh vesicles
+mskmid26-q12  # Biochemistry Q1 — glucagon, liver glycogenolysis
+mskmid26-q13  # Biochemistry Q2 — vitamin D, intestinal calcium absorption
+mskmid26-q14  # Biochemistry Q3 — high ATP, glycogen phosphorylase inhibition
+mskmid26-q15  # Parasitology Q1 — trichinellosis, muscle biopsy diagnosis
+mskmid26-q16  # Pharmacology Q1 — VRSA, daptomycin + ceftaroline
+mskmid26-q17  # Pharmacology Q2 — ceftaroline, fifth-gen cephalosporin
+mskmid26-q18  # Pharmacology Q3 — denosumab, RANKL/osteoclast
+mskmid26-q19  # Pathology Q1 — RA, pannus formation
+mskmid26-q20  # Pathology Q2 — osteomyelitis into joint, suppurative arthritis
+mskmid26-q21  # Microbiology Q1 — S. aureus, acute hematogenous osteomyelitis
+mskmid26-q22  # Microbiology Q2 — Protein A, Fc IgG binding
+mskmid26-q23  # Community Q1 — chemotherapy, osteoporosis risk
+
+# --- mskarm: MCQ - Arm.pdf (tier 2), 17/17 keyed genuine MCQ, 8 authored this pass ---
+mskarm-q01  # coracobrachialis, coracoid process origin (authored)
+mskarm-q02  # profunda brachii, posterior compartment supply (authored)
+mskarm-q03  # musculocutaneous nerve, elbow flexion + lateral forearm sensation (authored, reuses CON-DER-1DE5C5192978EF)
+mskarm-q04  # musculocutaneous nerve innervation except lateral half brachialis (authored, reuses CON-DER-5AF796E0F2C0D3)
+mskarm-q05  # mid-shaft humeral fracture, radial nerve (authored)
+mskarm-q06  # radial nerve, motor supply to triceps brachii (authored)
+mskarm-q07  # biceps brachii insertion, radial tuberosity (authored)
+mskarm-q08  # brachialis insertion, ulnar tuberosity (authored)
+mskarm-q09  # (p17) remaining — not yet read past p16
+mskarm-q10  # (p19) remaining
+mskarm-q11  # (p21) remaining
+mskarm-q12  # (p23) remaining
+mskarm-q13  # (p25) remaining
+mskarm-q14  # (p27) remaining
+mskarm-q15  # (p29) remaining
+mskarm-q16  # (p31) remaining
+mskarm-q17  # (p33, injury to arm/ulnar+medial cutaneous nerve of forearm — stem already read for triage, not authored this pass) remaining
+
+# --- mskaxsh: MCQ - Axilla and Shoulder - Nadwat.pdf (tier 2), 16/16 keyed genuine MCQ, none authored this pass ---
+mskaxsh-q01  # remaining
+mskaxsh-q02  # remaining
+mskaxsh-q03  # remaining
+mskaxsh-q04  # remaining
+mskaxsh-q05  # remaining
+mskaxsh-q06  # remaining
+mskaxsh-q07  # remaining
+mskaxsh-q08  # remaining
+mskaxsh-q09  # remaining
+mskaxsh-q10  # remaining
+mskaxsh-q11  # remaining
+mskaxsh-q12  # remaining
+mskaxsh-q13  # remaining
+mskaxsh-q14  # remaining
+mskaxsh-q15  # remaining
+mskaxsh-q16  # remaining
+
+# --- mskkhanfour: MCQ - Lecture 1 & 2, Dr Khanfour (tier 2, scanned, cached OCR), 11 stem-complete items recovered, none authored this pass ---
+mskkhanfour-q01  # L1 Q6 — deltoid nerve supply, posterior cord (remaining)
+mskkhanfour-q02  # L1 Q7 — scapula winging after mastectomy (remaining)
+mskkhanfour-q03  # L1 Q8 — medial cord branch count (remaining)
+mskkhanfour-q04  # L1 Q9 — upper trunk injury, forearm sensory side (remaining)
+mskkhanfour-q05  # L1 Q10 — crutch injury, posterior cord, radial nerve (remaining)
+mskkhanfour-q06  # L2-a Q7 — median nerve false statement (remaining)
+mskkhanfour-q07  # L2-a Q8 — nerve with no motor distribution in arm (remaining)
+mskkhanfour-q08  # L2-a Q9 — lateral cord/musculocutaneous injury, weakness (remaining)
+mskkhanfour-q09  # L2-a Q10 — supracondylar fracture, structure affected (remaining)
+mskkhanfour-q10  # L2-b Q7 — vein in deltopectoral groove (remaining)
+mskkhanfour-q11  # L2-b Q8 — artery deep to median cubital vein (remaining)
+
+# --- mskeoy: EOY - MSK 2026 - Final MCQ.pdf (tier 1) — HELD WHOLE, format mismatch (0/54 have lettered options) ---
+# 54 items, short-answer/fill-in-blank "Answer:" format throughout, no cluster authored.
