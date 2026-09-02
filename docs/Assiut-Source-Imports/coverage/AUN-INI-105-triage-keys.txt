@@ -500,6 +500,37 @@ ini-mcq-ch10-q052  # -- T. solium infection via raw pork -- new (CON-INF-90E657F
 ini-mcq-ch10-q053  # -- sparganosis = D. mansoni plerocercoid tissue infection -- new (CON-INF-77A8EED2BAE029)
 ini-mcq-ch10-q054  # -- taeniasis solium via cysticercus cellulosae -- new (CON-INF-90E657F6924BD0)
 ini-mcq-ch10-q055  # -- cestode not needing IH = H. nana -- pending (Helwan CON-GIT-2FCF45AE17574F)
+ini-mcq-ch10-q056  # -- HELD, duplicate-of ini-mcq-ch10-q052 (T. solium raw pork infection, identical stem/options/key)
+ini-mcq-ch10-q057  # -- HELD, duplicate-of ini-mcq-ch10-q049, key conflict (both print A "eating cyst in raw meat" against the textbook-correct, already-authored B "egg ingestion")
+ini-mcq-ch10-q058  # -- platyhelminths needing 1 IH EXCEPT D. latum (needs 2) -- new (CON-INF-75A2A7934657F3)
+ini-mcq-ch10-q059  # -- HELD, printed key (D. latum, salt-water fish) conflicts with this module's own authored Q19 fact (D. latum's 2nd IH is fresh-water fish)
+ini-mcq-ch10-q060  # -- HELD, duplicate-of ini-mcq-ch10-q005 (Taenia saginata Cyclophyllidae, identical stem/options/key)
+ini-mcq-ch10-q061  # -- HELD, duplicate-of ini-mcq-ch10-q006 (Helwan pending), H. nana commonest cestode = autoinfection
+ini-mcq-ch10-q062  # -- HELD, duplicate-of ini-mcq-ch10-q007 (T. saginata scolex except hooks, identical stem/options/key)
+ini-mcq-ch10-q063  # -- HELD, duplicate-of ini-mcq-ch10-q008 (Helwan pending), egg infective stage of H. nana
+ini-mcq-ch10-q064  # -- HELD, duplicate-of ini-mcq-ch10-q009 (Helwan pending), cysticercus bovis = T. saginata infective stage
+ini-mcq-ch10-q065  # -- HELD, duplicate-of ini-mcq-ch10-q010, key conflict (this occurrence prints D "None of the above" vs Q10's correct C "Dipylidium caninum")
+ini-mcq-ch10-q066  # -- HELD, duplicate-of ini-mcq-ch10-q011 (cysticercus cellulosae = T. solium, identical stem/options/key)
+ini-mcq-ch10-q067  # -- HELD, duplicate-of ini-mcq-ch10-q012, key conflict (this occurrence prints A "infection with adult worm" vs Q12's correct D "none of the above")
+ini-mcq-ch10-q068  # -- HELD, duplicate-of ini-mcq-ch10-q013 (Helwan pending), ingesting T. solium eggs -> cysticercosis
+ini-mcq-ch10-q069  # -- HELD, duplicate-of ini-mcq-ch10-q014 (Helwan pending), only operculated cestode egg = D. latum
+ini-mcq-ch10-q070  # -- HELD, duplicate-of ini-mcq-ch10-q015 (D. latum infection via salmon fish, identical stem/options/key)
+ini-mcq-ch10-q071  # -- HELD, duplicate-of ini-mcq-ch10-q016 (Helwan pending), autoinfection occurs in T. solium
+ini-mcq-ch10-q072  # -- HELD, duplicate-of ini-mcq-ch10-q017 (intestinal cestodes except E. granulosus, identical stem/options/key)
+ini-mcq-ch10-q073  # -- HELD, duplicate-of ini-mcq-ch10-q022 (all intestinal cestodes inhabit small intestine, identical stem/options/key)
+ini-mcq-ch10-q074  # -- cestodes not transmitted by insects EXCEPT D. latum (fish, no arthropod) -- new (CON-INF-BAF8F514F8DF0E)
+ini-mcq-ch10-q075  # -- HELD, duplicate-of ini-mcq-ch10-q055 (Helwan pending), cestode not needing IH = H. nana
+ini-mcq-ch10-q076  # -- HELD, printed key (B, Trichinella spiralis) conflicts with the fact that Trichinella IS meat-borne; H. nana (D) is the genuine non-meat exception
+ini-mcq-ch10-q077  # -- suckers = organs of fixation in trematodes and some cestodes -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q078  # -- cysticercosis EXCEPT pork+cysticercus cellulosae (causes taeniasis, not cysticercosis) -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q079  # -- HELD, source prints only 3 options (Procercoid/Plerocercoid/Mature egg), short of 4-option floor
+ini-mcq-ch10-q080  # -- HELD, source prints only 3 options (T. solium/D. latum/H. diminuta), short of 4-option floor
+ini-mcq-ch10-q081  # -- HELD, source prints only 3 options (Dog flea/Rat flea/Soft tick), short of 4-option floor
+ini-mcq-ch10-q082  # -- HELD, printed key (B, Muscles) doubtful against stem's own "MOST IMPORTANT site" wording (standard teaching: muscle = most common, CNS = most important)
+ini-mcq-ch10-q083  # -- HELD, source prints only 3 options (Rodents/Canines/Sheep), short of 4-option floor; also near-dup of ini-mcq-ch10-q037 (Helwan pending)
+ini-mcq-ch10-q084  # -- cestodes characterized by hermaphroditism -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q085  # -- HELD, source prints only 3 options (Cysticercus/Plerocercoid/Cysticercoid), short of 4-option floor
+ini-mcq-ch10-q086  # -- HELD, duplicate-of ini-mcq-ch10-q053 (sparganosis = D. mansoni plerocercoid, near-verbatim restatement)
 # AUN-INI-105 -- Chapter 6 "General virology" triage keys (source: INI MCQ .pdf,
 # pp.63-77, 102 items, answer table p.77). Key format ini-mcq-ch6-qNNN (chapter-6-scoped).
 # This lane (author6) authored Q1-58 of 102, a self-contained "virus structure,

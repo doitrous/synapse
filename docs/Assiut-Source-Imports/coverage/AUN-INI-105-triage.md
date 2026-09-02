@@ -679,3 +679,77 @@ map), both agreeing on all 98 keys.
 - **Chapter 9 ("Trematodes," 98 items) is now fully triaged and authored
   end to end**, combining lane 7's Q1-21 and this pass's Q22-98: 49
   authored, 49 held, 0 remaining.
+
+## Lane 12 -- Chapter 10 Q56-86 (closing the chapter)
+
+Dispatch: chapter 10 Q56-86 (31 items, pp.107-111) plus chapter 11 Q56-110.
+Read via `pagetext.mjs show`, pages 107-111 (three calls), keyed against the
+same chapter 10 plain-text ANSWERS table (p111) lane 9 already transcribed.
+
+| Module | Questions read | Keys recovered | Authored | Held | Concepts |
+|---|--:|--:|--:|--:|--:|
+| AUN-INI-105 (ch10, Q56-86 of 86) | 31 | 31 (100%) | 5 | 26 | 0 new -- all 5 reuse lane 9's own ch10 concepts |
+
+- **Confirms lane 9's Q56-77 recycling prediction exactly**: 18 of these 31
+  items are literal or near-literal restatements of Q5-Q22 (Q56=Q52, Q60=Q5,
+  Q61=Q6, Q62=Q7, Q63=Q8, Q64=Q9, Q66=Q11, Q67=Q12, Q68=Q13, Q69=Q14,
+  Q70=Q15, Q71=Q16, Q72=Q17, Q73=Q22, Q75=Q55, Q86=Q53), plus one already
+  flagged by lane 9 in advance (Q65 vs Q10). **Three of these repeats print
+  a conflicting key against the first occurrence's own printed (and
+  authored) key**, not just a reordered option set: Q65 (D vs Q10's C,
+  exactly as lane 9 predicted), Q67 (A vs Q12's D), and Q57 (A vs Q49's B --
+  a second, non-adjacent recurrence lane 9 had not flagged, found by
+  comparing this window's Q57 against Q49's own already-authored
+  explanation). All three held as `duplicate-of <key>` with the key
+  conflict written into the hold reason, per the dispatch's instruction.
+- **5 authored, all new stems not present in Q1-55**: Q58 (platyhelminths
+  needing one intermediate host EXCEPT D. latum, the mirror of Q1's
+  two-host-EXCEPT question), Q74 (cestodes not transmitted by insects
+  EXCEPT D. latum -- fish route, no arthropod), Q77 (suckers as organs of
+  fixation, trematodes and some cestodes), Q78 (cysticercosis routes EXCEPT
+  eating pork with cysticercus cellulosae, which causes taeniasis not
+  cysticercosis), Q84 (cestodes characterised by hermaphroditism). Every
+  one reuses an existing lane-9 concept (`CON-INF-75A2A7934657F3`,
+  `CON-INF-BAF8F514F8DF0E`, `CON-INF-FAFE8DFDDE6E1D` x2, `CON-INF-90E657F6924BD0`)
+  -- no new concept or article file needed this pass.
+- **3 more genuine printed-key/expected-fact conflicts found this window**
+  (beyond the duplicate-with-conflicting-key trio above): Q59 ("salt water
+  fish" as D. latum's 2nd IH) directly contradicts this module's own
+  already-authored Q19 fact (fresh-water fish); Q76 keys Trichinella
+  spiralis, a textbook meat-borne nematode, as the EXCEPT to "eating
+  contaminated meat," when H. nana is the genuine non-meat exception; Q82
+  keys "Muscles" for cysticercosis's "MOST IMPORTANT" site, when standard
+  teaching reserves that specific phrasing for the CNS (muscle is the most
+  *common* site instead). All three held with the doubt written out.
+- **3 schema-floor holds**: Q79, Q80 and Q81 each print only 3 options
+  (Procercoid/Plerocercoid/Mature egg; T. solium/D.latum/H.diminuta;
+  Dog flea/Rat flea/Soft tick) -- their printed keys are each otherwise
+  textbook-consistent (plerocercoid is D. latum's infective stage; D.
+  latum's uterine pore means no true gravid segment; H. diminuta's source
+  is the rat flea, the same arthropod-intermediate-host pattern as
+  Dipylidium caninum's dog/cat flea), so the fact is recorded in the hold
+  reason even though not authored. Q83 and Q85 add two more 3-option holds
+  (Q83 also a near-duplicate of the pending Helwan Q37 fact).
+- **Gates:** `emit-mcq.mjs` then `validate-content-batch.mjs` run directly
+  on `question/AUN-INI-105-ch10b-mcq.md` with `--with` the ch10 concept +
+  article + evidence-resource files -- `errors: []`. `gate.mjs simulate` on
+  the positional chain (ch10 concepts, ch10 article, ch10b questions) --
+  `errors=0`, `rejected=0`.
+- **Chapter 10 ("Cestode," 86 items) is now fully triaged and authored end
+  to end**, combining lane 9's Q1-55 and this pass's Q56-86: 56 authored,
+  30 held, 0 remaining.
+- **Chapter 11 wall -- dispatch's second half (Q56-110) could not be
+  worked**: by the time this pass reached chapter 11, `AUN-INI-105-LEDGER.md`
+  on `origin/main` already showed `ini-mcq-ch11 | 83 | 27 | 0 | 110`
+  (`remaining=0`) and a separate lane-13 commit had closed Q111-164 --
+  chapter 11 is fully triaged/authored/held end to end (Q1-164) by other
+  concurrent lanes, landed after this pass had already begun authoring the
+  same Q56-110 window (7 new AUN concepts + 3-article file + 19-question
+  Helwan-part2 overlay + 26-question own-concept batch, all gate-clean
+  against a now-superseded target). That work is **not landed** -- it would
+  duplicate/conflict with the already-live chapter 11 content, so it was
+  discarded rather than committed. Flagging for chief-of-staff: a
+  concurrent-lane collision on chapter 11's Q56-110 window cost this pass
+  a full authoring cycle before the shared ledger state was re-checked;
+  worth confirming the dispatch board reflects chapter 11 as closed so no
+  further lane repeats this.
