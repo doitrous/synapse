@@ -1,7 +1,7 @@
 {
   "lane": "AUN-MPT-104",
   "cluster": "quizzes-2022",
-  "header": "AUN-MPT-104 -- pending-live overlay questions from the All Quizzes MPT 2022.pdf quiz bank triage (coverage/AUN-MPT-104-triage.md, S3b), Quiz 3 rows whose tested idea reuses two pending Kasr 108-INT pathology concepts (CON-FND-D53E254A82F334 cell stress continuum, CON-FND-375B9454502DE8 ATP-depletion mechanism) rather than re-minting. Omar applies this batch only after: 1) docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md (the Kasr concept batch itself), 2) AUN-MPT-104-quizzes-2022-pending-108int-path-concept.md (the sparse +aun overlay on those two concepts, same directory). Import order: 1 then 2 then this file, each via Admin > Bulk import -> question.",
+  "header": "AUN-MPT-104 -- pending-live overlay questions from the All Quizzes MPT 2022.pdf quiz bank triage (coverage/AUN-MPT-104-triage.md, S3b), Quiz 3 rows whose tested idea reuses two pending Kasr 108-INT pathology concepts (CON-FND-D53E254A82F334 cell stress continuum, CON-FND-375B9454502DE8 ATP-depletion mechanism) rather than re-minting; extended by the fourth author lane with Quiz 11/13 rows (q093, q094, q107, q108) reusing a third pending concept (CON-FND-DF726F864C8BC3, cell adaptation -- hypertrophy/hyperplasia/atrophy/metaplasia). Omar applies this batch only after: 1) docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md (the Kasr concept batch itself), 2) AUN-MPT-104-quizzes-2022-pending-108int-path-concept.md (the sparse +aun overlay on those three concepts, same directory). Import order: 1 then 2 then this file, each via Admin > Bulk import -> question.",
   "defaults": {
     "subject": "fnd",
     "status": "Draft",
@@ -118,6 +118,144 @@
       "media_recommendations": "",
       "field_notes": { "keySource": "printed \"The correct answer is: All are correct\"", "pendingConcept": "CON-FND-375B9454502DE8 is pending in docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md and docs/import-ready/concept/108-INT-concepts-pathology.md, canonical_key cell.injury.mechanism-atp-depletion -- this question and its +aun overlay apply only after Omar imports that Kasr batch" },
       "author_notes": ""
+    },
+    {
+      "key": "quizzes-2022-q093",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q093",
+      "page": 46,
+      "title": "A defining character of atrophy",
+      "question": "Which of the following is a character of atrophy?",
+      "options": {
+        "A": "Increase in size and number of cells",
+        "B": "May be precancerous",
+        "C": "May result from a disuse of organ",
+        "D": "May be congenital"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Atrophy is a decrease, not an increase, in cell size and number -- this option describes the opposite direction of change from what defines atrophy.",
+        "B": "Incorrect. Being precancerous describes dysplasia, not atrophy -- atrophy is a benign shrinkage of tissue, not a step toward malignancy.",
+        "C": "Correct. Atrophy is the adaptive shrinkage of a cell or organ that follows reduced functional demand, and disuse (reduced workload on a muscle, for example) is one of its classic causes, alongside reduced blood supply, reduced nutrition, reduced hormonal or nervous stimulation, and ageing. A disused limb muscle immobilised in a cast is the textbook worked example of disuse atrophy.",
+        "D": "Incorrect. \"Congenital\" describes a condition present from birth, which is not how atrophy is characterised -- atrophy is an acquired shrinkage of a previously normal-sized, previously formed tissue, not a developmental anomaly present at birth."
+      },
+      "main_concept": "CON-FND-DF726F864C8BC3",
+      "concept_ids": ["CON-FND-DF726F864C8BC3"],
+      "contextual_concept_ids": [],
+      "topic": "Cellular adaptation 1",
+      "subtopic": "Atrophy",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State disuse as a cause of atrophy, and distinguish atrophy from precancerous change and from a congenital condition.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: May result from a disuse of organ\"", "pendingConcept": "CON-FND-DF726F864C8BC3 is pending in docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md and docs/import-ready/concept/108-INT-concepts-pathology.md, canonical_key cell.adaptation.hypertrophy-hyperplasia-atrophy-metaplasia -- this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": "",
+      "module_subject": "AUN-MPT-104 > Pathology > Cellular adaptation 1"
+    },
+    {
+      "key": "quizzes-2022-q094",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q094",
+      "page": 47,
+      "title": "What atrophy is not",
+      "question": "Which of the following is NOT true as regard atrophy?",
+      "options": {
+        "A": "Common in skeletal muscles",
+        "B": "Can be caused by disuse",
+        "C": "Defined as increase cell number",
+        "D": "Common in old age"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This IS true of atrophy, so it is not the answer being asked for. Skeletal muscle is a common and classic site of atrophy, particularly disuse atrophy of an immobilised limb.",
+        "B": "This IS true of atrophy, so it is not the answer being asked for. Disuse (reduced functional demand on a tissue) is one of atrophy's standard causes.",
+        "C": "Correct -- this is the false statement. Atrophy is defined as a decrease, not an increase, in cell size and/or number. \"Increase in cell number\" instead describes hyperplasia, the opposite adaptive response, so this statement does not hold for atrophy.",
+        "D": "This IS true of atrophy, so it is not the answer being asked for. Ageing is a recognised, common cause of atrophy (senile atrophy) in multiple organs, alongside disuse, reduced blood supply and reduced hormonal or nervous stimulation."
+      },
+      "main_concept": "CON-FND-DF726F864C8BC3",
+      "concept_ids": ["CON-FND-DF726F864C8BC3"],
+      "contextual_concept_ids": [],
+      "topic": "Cellular adaptation 1",
+      "subtopic": "Atrophy",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that atrophy is defined by decreased, not increased, cell number, distinguishing it from hyperplasia.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: Defined as increase cell number\"", "pendingConcept": "CON-FND-DF726F864C8BC3, same pending Kasr 108-INT concept as Q093 above -- applies only after that batch is live" },
+      "author_notes": "",
+      "module_subject": "AUN-MPT-104 > Pathology > Cellular adaptation 1"
+    },
+    {
+      "key": "quizzes-2022-q107",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q107",
+      "page": 53,
+      "title": "Definition of metaplasia",
+      "question": "Change of one type of tissue into another type is called:",
+      "options": {
+        "A": "Neoplasia",
+        "B": "Hypoplasia",
+        "C": "Dysplasia",
+        "D": "Metaplasia",
+        "E": "Hyperplasia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Neoplasia is new, uncontrolled and excessive growth of cells, benign or malignant -- it does not describe one differentiated tissue type converting into another.",
+        "B": "Incorrect. Hypoplasia is underdevelopment of an organ (fewer cells than normal formed during development), not a conversion of one tissue type into another.",
+        "C": "Incorrect. Dysplasia is disordered growth with loss of uniformity of individual cells and their architectural orientation -- an abnormal pattern within the same tissue type, not a change from one tissue type into another.",
+        "D": "Correct. Metaplasia is the reversible replacement of one differentiated adult cell type by another, better able to withstand the new stress. The standard worked example is the columnar respiratory epithelium of a smoker's bronchus converting to stratified squamous epithelium -- a change of one tissue type into another type in response to a sustained irritant.",
+        "E": "Incorrect. Hyperplasia is an increase in the number of cells of the same type, not a change of one tissue type into a different one."
+      },
+      "main_concept": "CON-FND-DF726F864C8BC3",
+      "concept_ids": ["CON-FND-DF726F864C8BC3"],
+      "contextual_concept_ids": [],
+      "topic": "Cellular adaptation 2",
+      "subtopic": "Metaplasia",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define metaplasia as the reversible conversion of one differentiated tissue type into another, distinct from neoplasia, hypoplasia, dysplasia and hyperplasia.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: Metaplasia\"", "pendingConcept": "CON-FND-DF726F864C8BC3, same pending Kasr 108-INT concept as Q093 above -- applies only after that batch is live" },
+      "author_notes": "",
+      "module_subject": "AUN-MPT-104 > Pathology > Cellular adaptation 2"
+    },
+    {
+      "key": "quizzes-2022-q108",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q108",
+      "page": 53,
+      "title": "A defining character of hyperplasia",
+      "question": "Which of the following is true as regard hyperplasia?",
+      "options": {
+        "A": "Can be caused by disuse",
+        "B": "Common in skeletal muscles",
+        "C": "Common in old age",
+        "D": "Defined as increase cell number"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Disuse causes atrophy (shrinkage from reduced demand), which is the opposite adaptive response to hyperplasia -- hyperplasia instead typically follows increased functional demand or hormonal stimulation.",
+        "B": "Incorrect. Skeletal muscle cells are terminally differentiated and cannot ordinarily divide, so true hyperplasia (an increase in cell number by mitosis) is not a feature of skeletal muscle -- an enlarging skeletal muscle instead grows chiefly by hypertrophy of existing fibres.",
+        "C": "Incorrect. Old age is more classically associated with atrophy (senile atrophy) than with hyperplasia, which is instead a response to increased demand or stimulation, not a general feature of ageing tissue.",
+        "D": "Correct. Hyperplasia is defined as an increase in the number of cells in an organ or tissue, achieved by mitotic division of cells that retain the capacity to proliferate. It is the direct counterpart to atrophy, which is instead defined by decreased cell number and size, so the two sit at opposite ends of the same size-of-organ spectrum."
+      },
+      "main_concept": "CON-FND-DF726F864C8BC3",
+      "concept_ids": ["CON-FND-DF726F864C8BC3"],
+      "contextual_concept_ids": [],
+      "topic": "Cellular adaptation 2",
+      "subtopic": "Hyperplasia",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Define hyperplasia as an increase in cell number, and recognise that it does not apply to terminally differentiated tissue such as skeletal muscle.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: Defined as increase cell number\"", "pendingConcept": "CON-FND-DF726F864C8BC3, same pending Kasr 108-INT concept as Q093 above -- applies only after that batch is live" },
+      "author_notes": "",
+      "module_subject": "AUN-MPT-104 > Pathology > Cellular adaptation 2"
     }
   ]
 }
