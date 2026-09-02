@@ -23641,3 +23641,1004 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "most important carcinogenic virus Egypt" and "hepatitis C egypt" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-7167065941596E
+
+## label
+Mild-to-moderate intestinal amebiasis is treated with metronidazole plus diloxanide furoate
+
+## canonical_key
+antiparasitic.metronidazole-diloxanide-furoate.mild-moderate-intestinal-amebiasis
+
+## aliases
+Amebiasis treatment
+Metronidazole plus diloxanide furoate
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+For mild-to-moderate symptomatic intestinal amebiasis, the preferred treatment combines metronidazole, a tissue amebicide treating the invasive trophozoite infection causing symptoms, with diloxanide furoate, a luminal agent that eradicates any remaining intestinal cysts once the tissue infection is treated -- unlike either drug given alone, which leaves either the tissue infection or the luminal cyst reservoir untreated.
+
+## explicit_objective
+State that mild-to-moderate symptomatic intestinal amebiasis is treated with metronidazole plus diloxanide furoate together.
+
+## pitfalls
+Treating symptomatic intestinal amebiasis with a single agent (metronidazole alone or diloxanide furoate alone) -- the combination is needed to clear both the active tissue infection and the luminal cyst reservoir.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Amebiasis treatment
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AUN_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A male patient presents with lower abdominal discomfort, flatulence, and occasional diarrhea... The preferred treatment that he should have received for the initial symptoms (which were indicative of mild-to moderate disease) is ... Metronidazole plus diloxanide furoate" (Quiz 46 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "metronidazole diloxanide furoate mild amebiasis" -- 0 hits. A grep sweep for "amebiasis|amoebiasis|entamoeba|diloxanide" hit only lifecycle/diagnosis/transmission concepts (Helwan HU-GIT-301, 6 October O6U-IMP-106) -- none is this drug-treatment fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-9B0280F43F7BC7
+
+## label
+Hydatid disease does not respond to praziquantel
+
+## canonical_key
+antiparasitic.praziquantel.not-effective-hydatid-disease
+
+## aliases
+Praziquantel spectrum
+Hydatid disease treatment exception
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hydatid disease, caused by the larval (cyst) stage of Echinococcus granulosus, does not respond reliably to praziquantel -- albendazole (often with surgical or percutaneous cyst management) is the standard treatment instead, an important exception since praziquantel is broadly effective against most other trematode and cestode infections, including paragonimiasis, pork tapeworm (Taenia solium) infection and schistosomiasis.
+
+## explicit_objective
+State that hydatid disease does not respond to praziquantel, unlike paragonimiasis, pork tapeworm infection or schistosomiasis.
+
+## pitfalls
+Assuming praziquantel's broad anti-trematode/cestode spectrum extends to hydatid disease -- Echinococcus granulosus cyst disease is a standard teaching exception, treated with albendazole instead.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Praziquantel spectrum
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which helminthic infection does not respond to treatment with praziquantel? ... Hydatid disease" (Quiz 46 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "praziquantel hydatid" -- 0 hits. A grep sweep for "praziquantel|hydatid" hit Helwan HU-GIT-301 concepts about praziquantel treating OTHER organisms (Diphyllobothrium, Heterophyes) and its Fasciola exception, plus hydatid biology (host/site/transmission) concepts -- none states this specific hydatid-treatment-failure fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-90BF44437DE710
+
+## label
+Diloxanide furoate treats asymptomatic E histolytica cyst carriage
+
+## canonical_key
+antiparasitic.diloxanide-furoate.asymptomatic-amebiasis-carriage
+
+## aliases
+Asymptomatic amebiasis treatment
+Diloxanide furoate luminal role
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diloxanide furoate is a luminal amebicide used to treat the asymptomatic colonization (cyst-passer) state of Entamoeba histolytica after acute infection has resolved, clearing the intestinal lumen of cysts and preventing relapse or transmission -- distinct from metronidazole (a tissue amebicide for active invasive infection), chloroquine (an antimalarial) or primaquine (an antimalarial targeting liver hypnozoites).
+
+## explicit_objective
+State that diloxanide furoate is used to treat the asymptomatic luminal cyst-carriage state of E. histolytica after acute infection.
+
+## pitfalls
+Assuming metronidazole alone clears the luminal cyst-carriage state -- diloxanide furoate is the luminal agent specifically indicated for this asymptomatic colonization stage.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Amebiasis treatment
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"After the acute infection, which of the following medications is given to treat the asymptomatic colonization state of E. histolytica? ... Diloxanide furoate" (Quiz 46 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "diloxanide furoate asymptomatic amebiasis" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-795A6173AED93F
+
+## label
+Chloroquine treats acute P vivax attacks but does not eradicate exoerythrocytic forms
+
+## canonical_key
+antimalarial.chloroquine.blood-stage-not-exoerythrocytic
+
+## aliases
+Chloroquine antimalarial mechanism
+Chloroquine vs primaquine roles
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chloroquine is the standard oral treatment for the acute attack of P. vivax malaria, acting on blood-stage (erythrocytic) parasites to resolve the acute illness, but it does not eradicate exoerythrocytic (dormant liver hypnozoite) forms -- so chloroquine treatment for P. vivax must be followed by primaquine, which specifically targets hypnozoites, to prevent relapse.
+
+## explicit_objective
+State that chloroquine treats the acute blood-stage attack of P. vivax malaria but does not eradicate exoerythrocytic (liver hypnozoite) forms.
+
+## pitfalls
+Assuming chloroquine alone cures P. vivax malaria -- it clears blood-stage parasites but leaves liver hypnozoites intact, requiring primaquine to prevent relapse.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Antimalarial pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AUN_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which drug should be used for oral treatment of the acute attack of P vivax malaria but does not eradicate exoerythrocytic forms of the parasite? ... Chloroquine" (Quiz 46 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "chloroquine blood stage not exoerythrocytic" -- 0 hits. A grep sweep for "chloroquine|mefloquine|malarone|atovaquone" hit only unrelated pharmacokinetics (own lane's Vd concept, q109-area) and rheumatology/dermatology hits -- none is this antimalarial mechanism fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-41B4A47B42B7E2
+
+## label
+Severe extraintestinal amebiasis is treated with tinidazole plus diloxanide furoate
+
+## canonical_key
+antiparasitic.tinidazole-diloxanide-furoate.severe-extraintestinal-amebiasis
+
+## aliases
+Amebic liver abscess treatment
+Tinidazole plus diloxanide furoate
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Severe extraintestinal amebiasis (such as amebic liver abscess) is effectively treated with tinidazole, a tissue amebicide related to metronidazole, combined with diloxanide furoate to eradicate any residual luminal cysts once the tissue infection is controlled -- the same tissue-agent-plus-luminal-agent pairing principle used for intestinal disease, adapted here for tinidazole's efficacy against extraintestinal (tissue) infection.
+
+## explicit_objective
+State that severe extraintestinal amebiasis is effectively treated with tinidazole plus diloxanide furoate.
+
+## pitfalls
+Treating severe extraintestinal amebiasis with a luminal-agent-only regimen, or with chloroquine alone -- the effective regimen pairs a tissue amebicide (tinidazole) with a luminal agent (diloxanide furoate).
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Amebiasis treatment
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The drug regimen most likely to be effective in treating severe extraintestinal disease in this patient is: ... Tinidazole plus diloxanide furoate" (Quiz 46 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+This question's stem ('in this patient') implies a shared vignette with Q1 (q383) that the source PDF does not print in full -- the mild-to-moderate and severe-extraintestinal scenarios are treated here as two related but distinct teaching points rather than assumed to describe literally the same patient's disease progression.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "tinidazole diloxanide furoate severe extraintestinal amebiasis" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-757C35AF7B7008
+
+## label
+Malarone manages multidrug-resistant P falciparum in endemic areas
+
+## canonical_key
+antimalarial.malarone.multidrug-resistant-falciparum
+
+## aliases
+Atovaquone-proguanil
+Malarone for resistant falciparum
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Malarone (atovaquone-proguanil) is efficiently used in the management of multidrug-resistant P. falciparum malaria in endemic areas, combining atovaquone's action on the parasite's mitochondrial electron transport chain with proguanil's antifolate activity for a synergistic effect against resistant strains -- distinct from chloroquine (ineffective against resistant strains), doxycycline (an adjunct/prophylactic agent) or primaquine (targeting liver hypnozoites and gametocytes, not blood-stage resistant infection).
+
+## explicit_objective
+State that Malarone (atovaquone-proguanil) is efficiently used to manage multidrug-resistant P. falciparum in endemic areas.
+
+## pitfalls
+Naming chloroquine, doxycycline or primaquine instead of Malarone for managing multidrug-resistant P. falciparum -- Malarone's combined mitochondrial/antifolate mechanism is what the printed key specifically identifies here.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Antimalarial pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which ONE of the following drugs is efficiently used in management of multidrug-resistant plasmodium falciparum in endemic area? ... Malarone (Atovaquone-Proguanil)" (Quiz 46 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "malarone multidrug resistant falciparum" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-B745FB1C1BCD83
+
+## label
+Mefloquine prophylaxis can still fail against P vivax relapse
+
+## canonical_key
+antimalarial.mefloquine.prophylaxis-failure-p-vivax
+
+## aliases
+Mefloquine prophylaxis
+P vivax relapse despite prophylaxis
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mefloquine is an effective prophylactic choice in chloroquine-resistant P. falciparum regions, but like chloroquine it acts only on blood-stage parasites and does not eradicate P. vivax's dormant liver hypnozoites -- so a traveller on mefloquine prophylaxis can still develop a P. vivax attack from hypnozoite reactivation, since mefloquine provides no protection against this relapse mechanism.
+
+## explicit_objective
+State that mefloquine prophylaxis does not prevent P. vivax relapse from liver hypnozoite reactivation, since it acts only on blood-stage parasites.
+
+## pitfalls
+Assuming mefloquine prophylaxis fully protects against all malaria species -- it protects against blood-stage infection (including chloroquine-resistant P. falciparum) but not against P. vivax relapse from liver hypnozoites, which require primaquine to eradicate.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Antimalarial prophylaxis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AUN_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A traveler in a geographical region where chloroquine-resistant P falciparum is endemic used a drug for prophylaxis but nevertheless developed a severe attack of P vivax malaria. The drug used for prophylaxis was probably: ... Mefloquine" (Quiz 46 Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "mefloquine prophylaxis failure P vivax" -- 0 hits. This same clinical fact is tested separately (unauthored) in this lane's final-exam source pool (a different PDF, out of this cluster's scope) -- no concept exists there yet either, so no cross-pool reuse applies. New concept.
