@@ -1817,3 +1817,1155 @@ authored_needs_independent_evidence
 sourceCandidateIds: The Phase-0 triage grouped this question under the "live" chemotaxis cluster, but a second search on "acute inflammation cellular events margination rolling integrin" finds no live or pending hit for the margination/rolling/pavementing sequence itself (as opposed to the live chemotaxis-factor concepts, which this question does not directly test). Minted as its own new concept.
 resourceOccurrenceIds: Read by hand from department book pages 6-7 (Cellular events, Figure 1.1).
 approvedFileResourceIds: None cleared.
+
+
+---
+
+# Item
+## id
+CON-FND-AE5841979FCFAE
+## label
+Sarcomas form large, bulky, expansile masses and are much less common than carcinomas
+## canonical_key
+sarcoma.general-biology.vs-carcinoma
+## aliases
+Carcinoma vs sarcoma general features
+Sarcoma gross features
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A sarcoma is a malignant tumour of mesenchyme (connective tissue, fat, muscle, bone, cartilage, vessels), in contrast to a carcinoma, which is a malignant tumour of epithelium. Sarcomas are much less common than carcinomas, tend to occur in adolescents and young adults rather than the over-40s typical of carcinoma, and grow faster. Because of this rapid, expansile growth they form large, bulky, fleshy (sarc = flesh in Greek) masses with a pink tinge from rich vascularity, softer consistency, greater cellular anaplasia and less cell-to-cell cohesion than carcinoma, and they spread early and predominantly by the bloodstream rather than by lymphatics.
+## explicit_objective
+Distinguish the general gross and behavioural features of sarcoma (large bulky mass, rapid growth, blood-borne spread, rarity relative to carcinoma) from those of carcinoma.
+## pitfalls
+Assuming sarcoma is the more common malignancy, or that it spreads mainly by lymphatics — the department book's comparison table gives carcinoma both the higher frequency and the lymphatic-first spread pattern, with sarcoma spreading early by blood.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Disorders of growth and neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Carcinoma vs Sarcoma
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-SARCOMA-GENERAL-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The sarcoma is: a. Malignant tumor of epithelium. b. Much more common than carcinoma. c. Slowly growing than carcinoma. d. Mostly large, bulky and expansile mass." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "sarcoma general biology carcinoma comparison" and related terms before minting -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from the department book page 53 (Chapter 3, Table 3.4, Major Differences between Carcinoma and Sarcoma).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the neoplasia-basics concepts minted by lane 1 from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-86BABEB81453F4
+## label
+Edema arises from increased hydrostatic pressure, reduced plasma osmotic pressure, lymphatic obstruction, sodium retention or inflammation
+## canonical_key
+edema.causes.classification
+## aliases
+Causes of edema
+Generalized vs localized edema
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Edema is the pathological accumulation of excess fluid (transudate or exudate) in the interstitial tissue spaces and serous sacs. The department book lists five categories of cause: increased hydrostatic pressure (impaired venous return as in congestive heart failure, or venous obstruction by thrombus or external compression such as pregnancy); reduced plasma osmotic pressure from hypoproteinemia (nephrotic syndrome, liver cirrhosis, malnutrition); lymphatic obstruction (congenital hypoplasia, inflammatory lymphadenitis or filariasis, neoplastic permeation, or post-surgical/post-irradiation fibrosis); sodium retention (excessive salt intake with renal insufficiency, or renal hypoperfusion); and inflammation, through the formation of an acute inflammatory exudate. Decreased hydrostatic pressure is not among these causes, since a fall in hydrostatic pressure works against, rather than promotes, fluid leaving the vasculature.
+## explicit_objective
+List the five categories of cause of edema (hydrostatic, osmotic, lymphatic, sodium retention, inflammatory) and recognise which changes in each direction actually promote edema.
+## pitfalls
+Assuming any change in hydrostatic pressure causes edema — it is specifically an increase, from impaired venous return or venous obstruction, that does so; a decrease works in the opposite direction.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Disorders of blood flow
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Edema
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-EDEMA-CAUSES-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All the following are causes of edema EXCEPT: a. Decreased hydrostatic pressure. b. Reduced plasma osmotic pressure. c. Lymphatic obstruction. d. Renal hypoperfusion." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "edema causes" and "edema causes classification" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 69-71 (Chapter 4, Edema).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the congestion concept minted from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-70B16C02F32AA5
+## label
+Congestion is a passive process caused by impaired blood outflow, distinct from the active vasodilatation of hyperemia
+## canonical_key
+congestion.definition.systemic-vs-localized
+## aliases
+Hyperemia vs congestion
+Systemic and localized congestion
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Congestion is a passive process caused by impaired blood outflow from a tissue, resulting in increased blood content; it may be systemic (generalized), as in heart failure, or localized, as with occlusion or external pressure on a vein, and either form may be acute or chronic. This is mechanistically distinct from hyperemia, an active process of increased blood inflow due to active vasodilatation of arterioles and capillaries, physiological in exercising skeletal muscle or pathological at sites of inflammation. In acute congestion the vessels are distended and the organ is grossly red, usually with interstitial edema; in chronic congestion, gradual congestion produces edema, focal hemorrhages and hemosiderin-laden macrophages, and the associated chronic hypoxia can cause ischemic injury and scarring, as seen in chronic venous congestion of the lung, liver (nutmeg liver) and spleen.
+## explicit_objective
+Define congestion as a passive process of impaired venous outflow and contrast it with the active vasodilatation of hyperemia, including the acute vs chronic morphological picture.
+## pitfalls
+Confusing congestion (passive, outflow-blocked) with hyperemia (active, inflow-driven) — both make a tissue look red and blood-engorged, but the underlying mechanism, and therefore the clinical implication, is opposite.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Disorders of blood flow
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Hyperemia and Congestion
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-CONGESTION-DEF-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Congestion is caused by: a. Increased blood inflow to organ. b. Decreased blood inflow to organ. c. Impaired blood outflow from tissue. d. Active vasodilatation of arterioles and capillaries." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "congestion passive process" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 66-69 (Chapter 4, Hyperemia and Congestion).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the edema concept minted from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-7805BA779D3A2D
+## label
+Virchow's triad names endothelial injury, altered blood flow and hypercoagulability as the three causes of thrombosis
+## canonical_key
+thrombosis.etiology.virchows-triad
+## aliases
+Virchow triad
+Etiology of thrombosis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book names three primary factors in thrombus formation, Virchow's triad: endothelial injury, the dominant cause, from endocarditis, ulcerated atherosclerotic plaque, hemodynamic stress (hypertension, turbulent flow) or noxious agents (endotoxin, radiation, hypercholesterolemia, cigarette smoke); alterations in normal blood flow, where stasis and turbulence disrupt laminar flow, bring platelets into contact with endothelium, prevent dilution of activated clotting factors, retard the inflow of clotting inhibitors, and promote endothelial activation; and hypercoagulability, any alteration of the coagulation pathways predisposing to thrombosis, whether heritable (antithrombin III, protein C or protein S deficiency) or acquired (oral contraceptives, pregnancy, postoperative platelet rise, procoagulant products from certain malignancies).
+## explicit_objective
+Name the three elements of Virchow's triad exactly as the department book states them, without inflating the list with a restated element.
+## pitfalls
+Treating 'vascular wall injury' as a fourth, distinct member of the triad alongside endothelial injury — the book names only the three factors above, and vascular wall injury is not a separate listed element.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Hemostasis and thrombosis
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Hemostasis and Thrombosis
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-VIRCHOW-TRIAD-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Virchow's triad include the following EXCEPT: a. Endothelial injury. b. Alterations in normal blood flow. c. Vascular wall injury. d. Hypercoagulability" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-CVS-1DBCD5D81337B5 (live, canonical_key virchow-triad, docs/import-ready/concept/SYS-CVS-CONCEPT-T07.md) -- a general cardiovascular-curriculum concept on DVT risk factors and Virchow's triad, no module id (module catalogue not populated for that curriculum), subject cvs. Considered for reuse but rejected: it has no modules field to overlay 208 INT onto (unlike the sparse-overlay precedent, which targets a record that already carries a modules field), its grain is DVT risk-factor teaching rather than the department book's own three-cause mechanism text, and merging a module-tied Kasr mint into a module-blind cross-curriculum record without a ruling risks exactly the kind of silent merge LANE-CARD warns against. Flagging for the chief of staff rather than reusing unilaterally.
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "Virchow triad" and "thrombosis etiology" before minting -- one hit, CON-CVS-1DBCD5D81337B5 (live, general CVS curriculum, no module id), considered and rejected as a merge target (see rejected_merge_candidate_ids). New concept minted instead.
+resourceOccurrenceIds: Read by hand from the department book pages 71-72 (Chapter 4, Hemostasis and Thrombosis, Etiology).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the thrombus-sites-and-propagation concept minted from the same department-book section; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-2F4E0092DCAF16
+## label
+Mural thrombi form on cardiac chamber and aortic walls without occluding the lumen, and venous thrombi propagate by repeated clotting at the next open tributary
+## canonical_key
+thrombus.sites-and-propagation.mural-and-venous
+## aliases
+Mural thrombus
+Thrombus propagation
+Sites and types of thrombi
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mural thrombi form on the walls of the cardiac chambers and the aorta and, as a rule, do not occlude the lumen. Arterial thrombi usually occur over ruptured atherosclerotic plaques, generally occlude the artery and adhere tightly, and seldom embolize (except in the aorta). Vegetations are thrombi on cardiac valves. Venous thrombi almost always occlude the vein and embolize easily, because veins are thin-walled, superficial and slow-flowing; when a venous thrombus occludes a vein completely, the proximal column of blood clots to the next tributary, another thrombus forms opposite that tributary where blood is still moving, and once it too occludes the lumen the cycle repeats — propagation — which can extend all the way to the heart.
+## explicit_objective
+Place mural thrombi in the cardiac chambers and aorta, distinguish them from valvular vegetations and occlusive arterial or venous thrombi, and explain propagation as a venous phenomenon of repeated occlusion at successive tributaries.
+## pitfalls
+Applying propagation to arterial thrombi — the book's mechanism (clot proximal to a tributary, new clot opposite it, repeating) is described specifically for veins, which occlude completely, unlike most arterial thrombi, which adhere tightly without necessarily occluding.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Hemostasis and thrombosis
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Hemostasis and Thrombosis
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-THROMBUS-SITES-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Propagation can occur in thrombosis of: a. Renal artery. b. Aorta. c. Leg veins. d. Vegetations." ANSWER: c | "Mural thrombus occurs in a. Portal vein. b. Capillaries. c. Cardiac chambers. d. Cardiac valves." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "thrombus propagation leg veins" and "mural thrombus cardiac chambers" before minting -- no hit for either. New concept covers both Q41 and Q42, which the triage grouped in the same cluster (thrombosis/thrombus propagation, cluster 20).
+resourceOccurrenceIds: Read by hand from the department book pages 72-74 (Chapter 4, Sites & types of thrombi; Effects and Fate of thrombi, Figure 4.5).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the Virchow's triad concept minted from the same department-book section; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-0FC5FDF1C3874D
+## label
+Deep leg veins are the major source of pulmonary emboli, which travel from a systemic vein or the right heart to the lungs
+## canonical_key
+embolism.pulmonary.source-and-effects
+## aliases
+Source of pulmonary emboli
+Pulmonary thromboembolism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book states that most pulmonary emboli come from the deep leg veins, and may also arise from thrombi in the iliac and pelvic veins or the right side of the heart, following the general course-of-emboli rule that emboli from a systemic vein or right heart impact in the lungs. Their effect depends on size: small emboli (60-80% of pulmonary emboli) are clinically silent; a medium embolus in healthy lungs has no effect because of the dual bronchial and pulmonary blood supply, but in a lung already chronically congested it causes hemorrhagic infarction; a big embolus occluding the pulmonary trunk or a main branch releases serotonin from platelets, causing bilateral pulmonary artery vasoconstriction and sudden death from acute right heart failure; and repeated embolization can raise pulmonary vascular resistance permanently (pulmonary hypertension).
+## explicit_objective
+State that the deep leg veins are the major source of pulmonary emboli, and connect this to the systemic-vein-to-lung course of thromboembolism and the size-dependent effects.
+## pitfalls
+Assigning left-heart mural thrombi or arterial-plaque thrombi as a major pulmonary-embolism source — these embolize down the systemic arterial tree instead, since the book's course-of-emboli rule sends only systemic-vein or right-heart emboli to the lungs.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Embolism
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Embolism
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-PULM-EMBOLISM-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The major source of pulmonary emboli is: a. Mural thrombi complicating myocardial infarcts of left side of heart. b. Deep leg vein thrombi. c. Thrombi overlying arterial ulcerated atherosclerotic plaques. d. Portal vein thrombi." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "pulmonary embolism source deep leg veins" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book page 75 (Chapter 4, Embolism, Pulmonary embolism).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the systemic-embolism concept minted from the same department-book section; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-BA7D3F37AEFEFC
+## label
+Systemic emboli, mostly from the heart, commonly impact the lower extremities and CNS arteries
+## canonical_key
+embolism.systemic.sources-and-sites
+## aliases
+Systemic embolization sites
+Sources of systemic emboli
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book lists the lower extremities and the CNS as the common sites of arterial embolization in systemic embolism, with the intestines, kidneys and spleen as less common targets. About 80% of systemic emboli originate from the heart — mural thrombi from myocardial infarcts or left atrial thrombosis — with the remainder from aortic aneurysms, thrombi overlying ulcerated atherosclerotic plaques, fragmented valvular vegetations, or paradoxical emboli from the venous system. Because these emboli travel out through the aorta and its branches to lodge in end arteries, the effect is usually infarction or limb gangrene.
+## explicit_objective
+State that systemic emboli commonly impact the lower extremities and CNS arteries, and connect this to their predominantly cardiac, arterial-side origin.
+## pitfalls
+Placing systemic emboli in veins (CNS or otherwise) — systemic emboli travel through the arterial tree from the left heart or aorta, so they lodge in arteries, not veins.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Embolism
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Embolism
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-SYSTEMIC-EMBOLISM-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In systemic embolism, the emboli are commonly impacted in: a. Lower extremities and CNS arteries. b. Lower extremities and CNS veins. c. Lung arteries. d. Lung veins." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "systemic embolization sites" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book page 76 (Chapter 4, Embolism, Systemic embolization).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the pulmonary-embolism concept minted from the same department-book section; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-0904A6DD216F4A
+## label
+Chronic ischemia is gradual, incomplete arterial occlusion caused by atherosclerosis, arteritis or compression
+## canonical_key
+ischemia.chronic.causes
+## aliases
+Causes of chronic ischemia
+Acute vs chronic ischemia
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book classifies ischemia as acute (sudden, complete arterial occlusion, from thrombus/embolus, vessel strangulation, pedicle twisting, surgical ligature, arterial spasm, or extensive venous obstruction) or chronic (gradual, incomplete arterial occlusion). Chronic ischemia is caused by atherosclerosis, arteritis (such as marked endarteritis obliterans in syphilis), or artery compression by a tumour. Because the narrowing develops slowly, collaterals may form: with poor collaterals the result is ischemic atrophy and fibrous replacement (as in myocardial fibrosis from coronary atherosclerosis), while good collaterals produce no effect at all — in contrast to acute ischemia, where poor collaterals cause infarction or gangrene and good collaterals again produce no effect.
+## explicit_objective
+Attribute chronic ischemia to a gradual, incomplete arterial occlusion (atherosclerosis, arteritis, compression) and distinguish it from the sudden, complete occlusion of acute ischemia (thrombus, embolus, ligature, spasm).
+## pitfalls
+Classifying thrombus, embolus or surgical ligature as causes of chronic ischemia — the book places all three under acute ischemia, since each produces a sudden, complete occlusion rather than a gradual, incomplete one.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Ischemia and infarction
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Ischemia
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-CHRONIC-ISCHEMIA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Chronic ischemia is caused by: a. Thrombus. b. Atherosclerosis. c. Embolus. d. Surgical ligature of artery." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "chronic ischemia atherosclerosis" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 77-78 (Chapter 4, Ischemia).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the pale-vs-red infarction concept minted from the same department-book section; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-116B0060AF7B6B
+## label
+Dry gangrene has a well-developed line of demarcation and line of separation, unlike moist gangrene
+## canonical_key
+gangrene.dry.demarcation-and-separation
+## aliases
+Dry vs moist gangrene
+Line of demarcation and separation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Gangrene is massive tissue necrosis followed by putrefaction. Dry gangrene, the typical example being senile gangrene of the toes from severe atherosclerosis, is caused by occlusion of arterial blood supply alone, usually affects exposed limbs, and leaves the affected part dry, shrunken, mummified and black, with minimal bacterial growth because of the dryness; it shows a well-developed red line of demarcation (a zone of inflammation between gangrenous and viable tissue) and, later, a well-developed line of separation (a groove formed by granulation tissue and fibrosis) that can progress to natural amputation. This contrasts with moist gangrene, caused by occlusion of both arterial and venous supply, which usually affects internal organs, is stuffed with blood favouring rapid putrefactive bacterial growth, causes severe fatal toxemia, and has a poorly developed line of demarcation with no line of separation and no natural amputation.
+## explicit_objective
+Attribute a well-developed line of demarcation and line of separation to dry gangrene, and contrast this with the poorly demarcated, toxemic picture of moist gangrene.
+## pitfalls
+Assuming any form of gangrene shares dry gangrene's slow, well-demarcated course — moist gangrene, caused by combined arterial and venous occlusion, spreads rapidly with severe toxemia and no natural separation.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Gangrene
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Gangrene
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-DRY-GANGRENE-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Dry Gangrene is characterized by: a. Well-developed line of demarcation & line of separation. b. Affects internal organs. c. Rapid putrefaction. d. Severe toxemia." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "dry gangrene line of demarcation" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book pages 79-81 (Chapter 4, Gangrene, Table of differences between dry and moist gangrene).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the chronic-ischemia concept minted from the same department-book chapter; no typed relation authored yet.
+
+---
+
+# Item
+## id
+CON-FND-EC6AE6777CAAC4
+## label
+Pale infarcts occur from arterial occlusion in solid organs with end-arterial circulation, unlike red infarcts
+## canonical_key
+infarction.types.pale-vs-red
+## aliases
+Pale vs red infarcts
+Causes of pale infarction
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An infarct is an area of ischemic necrosis from occlusion of the vascular supply, most commonly by arterial thrombosis or embolism. The department book gives arterial occlusion in solid organs with end-arterial circulations — the heart, spleen and kidney are its named examples — as the cause of pale infarcts, because there is no parallel or collateral supply to let blood re-enter the necrotic zone. Red infarcts, by contrast, occur with venous occlusions (such as ovarian torsion), in loose tissues (lung) or tissues with dual circulation (lung, small intestine) where a parallel supply can still perfuse the necrotic zone, or in tissues that were already congested before the occlusion, because sluggish venous outflow lets blood accumulate there.
+## explicit_objective
+Attribute pale infarcts to arterial occlusion in solid, end-arterial organs, and contrast this with the three causes of red infarction (venous occlusion, dual circulation, prior congestion).
+## pitfalls
+Assigning venous occlusion, dual circulation or prior congestion to pale infarcts — the book lists all three as causes of red, not pale, infarction, since each lets blood re-enter the necrotic zone.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Ischemia and infarction
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Ischemia and Infarction
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-PALE-INFARCT-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pale infarcts caused by: a. Venous occlusions. b. Arterial occlusion in tissues with dual circulations. c. Arterial occlusion in previously congested tissues. d. Arterial occlusions in solid organs with end-arterial circulations." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "pale infarct end arterial circulation" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the department book page 78 (Chapter 4, Infarction, Types & causes of infarctions).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the chronic-ischemia and dry-gangrene concepts minted from the same department-book chapter; no typed relation authored yet.

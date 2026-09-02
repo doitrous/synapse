@@ -268,6 +268,7 @@ CON-FND-AA08F4558D39DB
 CON-FND-B7FE536D59F695
 CON-FND-D75B95517F50CF
 CON-FND-5AD09BF9FC2420
+CON-FND-AE5841979FCFAE
 ## related_articles
 
 ## resource_ids
@@ -299,3 +300,102 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No university-specific variant found — the department book is the only source read for this article.
 ## reading_time
 9
+
+
+---
+
+# Item
+## id
+ART-FND-208INT-HEMODYNAMICS
+## title
+Disorders of blood flow: hyperemia, congestion, edema, thrombosis, embolism, ischemia and gangrene
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## topic
+Pathology
+## summary
+Hemodynamic disorders share one underlying logic — blood, or the fluid derived from it, ends up in the wrong place because inflow, outflow or containment has failed. Hyperemia (active, more blood in) and congestion (passive, less blood out) both redden a tissue but by opposite mechanisms; edema is fluid escaping the vessel for hydrostatic, osmotic, lymphatic, sodium-retentive or inflammatory reasons; thrombosis is inappropriate clot formation from Virchow's triad (endothelial injury, altered flow, hypercoagulability), with its fate — organization, propagation or fragmentation into emboli — depending on where it forms; and the ultimate downstream harm, ischemia, infarction and gangrene, depends on whether the occlusion is sudden or gradual, and whether the tissue has an alternative blood supply.
+## sections
+### Definition
+Hyperemia is increased blood flow to an organ from active arteriolar and capillary vasodilatation — physiological in exercising muscle, pathological at sites of inflammation — leaving the tissue red (erythema) from oxygenated blood. Congestion is the passive counterpart: impaired blood outflow raises blood content in a tissue, systemically (heart failure) or locally (venous occlusion or compression), acutely or chronically. Edema is the pathological accumulation of excess fluid, transudate or exudate, in the interstitial spaces or serous sacs, arising from increased hydrostatic pressure, reduced plasma osmotic pressure, lymphatic obstruction, sodium retention, or inflammation. Thrombosis is the pathological formation of a solid, compact blood mass inside an intact (or minimally injured) cardiovascular system, driven by Virchow's triad of endothelial injury, altered blood flow and hypercoagulability. An embolus is an insoluble mass — most often a dislodged thrombus fragment — circulating in the blood and impacting in a narrower vessel. Ischemia is a decrease in arterial supply from vessel occlusion, acute (sudden, complete) or chronic (gradual, incomplete); an infarct is the area of ischemic necrosis that follows occlusion; and gangrene is massive tissue necrosis followed by putrefaction.
+
+### Mechanism
+Congestion's chronic form illustrates how a purely mechanical problem becomes a structural one: in chronic venous congestion of the lung, alveolar capillaries stay engorged and macrophages that engulf extravasated red cells' hemosiderin ("heart failure cells") accumulate, while in the liver, centrilobular hepatocytes — furthest from the oxygenated portal blood — undergo pressure atrophy and hypoxic death, giving the nutmeg pattern, while peripheral hepatocytes merely undergo fatty change. Thrombus formation follows endothelial injury exposing subendothelial collagen: platelets adhere via factor VIII, release ADP to recruit more platelets (forming a pale, fragile initial platelet thrombus), platelet-derived thromboxane A2 drives platelet contraction and platelet factor 3 converts prothrombin to thrombin, and thrombin converts fibrinogen to fibrin, which deposits on the platelet mass in the alternating pink platelet/fibrin bands known as lines of Zahn. Where a thrombus forms determines its fate: mural thrombi (cardiac chambers, aorta) do not usually occlude the lumen and are a classic embolic source; arterial thrombi occlude tightly and rarely embolize (except in the aorta); venous thrombi occlude readily and embolize easily, and can propagate — occluding proximally, then re-forming opposite the next open tributary, in a repeating cycle that can reach the heart. An embolus's fate depends on its path: systemic-vein or right-heart emboli reach the lungs (pulmonary embolism, mostly from deep leg veins); aortic or left-heart emboli travel to systemic arteries, chiefly the lower extremities and CNS (systemic embolism, mostly cardiac in origin); portal-vein emboli reach the liver; and a septal defect can let a systemic-vein embolus bypass the lungs entirely (paradoxical embolism). Whether an occlusion produces infarction depends on collateral supply and speed: sudden occlusion with poor collaterals (end arteries) causes infarction or gangrene, while gradual occlusion lets collaterals develop, so chronic ischemia with poor collaterals produces atrophy and fibrosis rather than frank necrosis. Infarct colour follows the same logic in reverse: solid, end-arterial organs (heart, spleen, kidney) infarct pale, because nothing can perfuse the dead zone once the single artery is blocked, while loose or dual-circulation tissues (lung, small intestine), venous occlusions, or tissue that was already congested infarct red, because blood re-enters the necrotic area. Gangrene's two patterns split on whether venous drainage is also lost: dry gangrene (arterial occlusion alone, as in senile atherosclerotic gangrene of the toes) stays dry and shrunken with minimal bacterial growth and a well-developed line of demarcation and separation; moist gangrene (combined arterial and venous occlusion, as in strangulated bowel) is blood-engorged, favouring rapid putrefactive bacterial growth, severe toxemia, and a poorly developed line of demarcation with no natural separation.
+
+### Key determinants
+Every question on this material turns on tracing one of three chains: (1) which of the five edema mechanisms (hydrostatic, osmotic, lymphatic, sodium-retentive, inflammatory) is in play, and in which direction the pressure or protein change must go to actually cause fluid to leave the vessel; (2) which element of Virchow's triad a given clinical scenario represents, and whether the resulting thrombus's location (mural, arterial, venous, valvular) predicts occlusion, embolization or propagation; and (3) whether an occlusion is sudden/complete (acute ischemia — thrombus, embolus, ligature, spasm) or gradual/incomplete (chronic ischemia — atherosclerosis, arteritis, compression), and whether the affected organ has an alternative supply, which together predict infarct colour, gangrene pattern, and clinical outcome.
+
+### Clinical significance
+Recognising deep leg vein thrombosis as the dominant pulmonary embolism source is the clinical basis for prophylaxis (early mobilization, compression, anticoagulation) in immobile or post-surgical patients. Distinguishing pale from red infarcts, and dry from moist gangrene, guides urgency: an end-arterial organ's pale infarct (myocardial infarction, splenic or renal infarct) has no collateral rescue window, while a dual-circulation organ's red infarct may tolerate a delayed intervention; dry gangrene of a limb can sometimes be managed expectantly toward natural auto-amputation, while moist gangrene is a surgical emergency because of its severe, often fatal toxemia.
+
+### Common misconceptions
+Treating hyperemia and congestion as interchangeable red-tissue findings, when one is active inflow and the other passive outflow failure. Assuming any hydrostatic pressure change causes edema, rather than specifically an increase. Naming "vascular wall injury" as a fourth element of Virchow's triad instead of recognising it restates endothelial injury. Applying thrombus propagation, a venous mechanism of repeated complete occlusion at successive tributaries, to arterial thrombi, which typically occlude tightly in place without propagating this way. Assuming systemic emboli, which are predominantly cardiac and travel via the aorta to the lower limbs and CNS, could originate from the venous side without a septal defect (paradoxical embolism).
+## universities
+kau
+## years
+KAU_Y2
+## module
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow
+## subtopic
+Disorders of blood flow
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## related_concepts
+CON-FND-86BABEB81453F4
+CON-FND-70B16C02F32AA5
+CON-FND-7805BA779D3A2D
+CON-FND-2F4E0092DCAF16
+CON-FND-0FC5FDF1C3874D
+CON-FND-BA7D3F37AEFEFC
+CON-FND-0904A6DD216F4A
+CON-FND-116B0060AF7B6B
+CON-FND-EC6AE6777CAAC4
+## related_articles
+
+## resource_ids
+src_71e9056fb934dc28806a
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
+## reading_time
+11
