@@ -22068,3 +22068,146 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "clindamycin erythromycin antagonism" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-6798FF8F210C05
+
+## label
+Prostatic carcinoma produces osteosclerotic bone metastases
+
+## canonical_key
+neoplasia.bone-metastasis.osteosclerotic-prostate
+
+## aliases
+Osteosclerotic bone metastasis
+Prostatic carcinoma bone metastasis pattern
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Prostatic carcinoma characteristically produces osteosclerotic (osteoblastic) bone metastases, in which new bone formation dominates over resorption, giving a dense, radio-opaque appearance on imaging -- distinguishing it from the classically osteolytic bone metastasis pattern of renal cell carcinoma, thyroid carcinoma and bronchogenic (lung) carcinoma, and from breast carcinoma's typically mixed lytic/sclerotic pattern.
+
+## explicit_objective
+Identify prostatic carcinoma as the tumour whose bone metastases are characteristically osteosclerotic.
+
+## pitfalls
+Assuming all bone metastases are osteolytic, or attributing the osteosclerotic pattern to renal, thyroid, lung or breast carcinoma -- prostatic carcinoma is the tumour specifically associated with a predominantly osteosclerotic bone metastasis pattern.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Routes of spread of malignant tumors
+
+## subtopic
+Bone metastasis patterns
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-BONE-METASTASIS-PATTERN
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which one of these tumours metastasizing in bone is osteosclerotic: ... prostatic carcinoma" (Quiz 43 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 43 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "osteosclerotic bone metastasis prostate" -- 0 hits. A grep sweep for "osteosclerotic|osteoblastic" hit only unrelated Alexandria (alkaline phosphatase/osteoblast histology) and Menoufia (vitamin D bone mineralization) concepts -- different grain, not this tumour-specific metastasis-pattern fact. New concept.

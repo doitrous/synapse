@@ -4536,3 +4536,135 @@ Block: body
 ### definition_of · CON-FND-DAFCB3028F7BE6
 Quote: Clindamycin and erythromycin both bind overlapping sites on the bacterial ribosome's 50S subunit, so combining them is antagonistic
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-BONE-METASTASIS-PATTERN
+
+## title
+Neoplasia: routes of spread -- carcinoma in situ, locally malignant tumours, rare metastatic sites and prostatic bone metastasis
+
+## arabic_title
+طرق انتشار الأورام: السرطانة الموضعية، الأورام الخبيثة الموضعية، مواقع الانتشار النادرة والانتشار العظمي للبروستاتا
+
+## aliases
+Neoplasia: Routes of spread of malignant tumors
+Lecture 43
+
+## subject
+fnd
+
+## topic
+Neoplasia: Routes of spread of malignant tumors
+
+## subtopic
+Bone metastasis patterns
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 43 continues the neoplasia spread block with routes and destinations of metastatic disease. Four of this lecture's five other tested facts -- carcinoma in situ's intraepithelial, pre-invasive definition; basal cell carcinoma and osteoclastoma as named locally malignant (intermediate) tumours; and the spleen's status as a rare, not common, site of haematogenous metastasis -- ride on pending Kasr 208-INT concepts reused rather than re-minted. This lecture's one new mint is prostatic carcinoma's distinctive osteosclerotic bone metastasis pattern, contrasted with the osteolytic pattern of renal, thyroid and lung carcinoma.
+
+## sections
+### Definition
+Lecture 43 covers where and how malignant tumours are classified by their spread behaviour and their destination once they reach bone.
+
+### Mechanism
+Prostatic carcinoma characteristically produces osteosclerotic (osteoblastic) bone metastases, in which new bone formation dominates over resorption, giving a dense, radio-opaque appearance on imaging. This is a distinctive, tumour-specific teaching point, since renal cell carcinoma, thyroid carcinoma and bronchogenic carcinoma all produce classically osteolytic metastases instead, and breast carcinoma produces a mixed lytic/sclerotic pattern.
+
+### Key determinants
+The osteosclerotic pattern is specifically a prostatic-carcinoma association, not a general bone-metastasis rule; most other common bone-metastasising carcinomas (renal, thyroid, lung) are osteolytic instead.
+
+### Clinical significance
+Recognising a densely sclerotic bone lesion on imaging as characteristic of prostatic carcinoma, rather than a lytic pattern, helps direct the search for a primary tumour in a patient presenting with bone metastases of unknown origin.
+
+### Common misconceptions
+Assuming any tumour's bone metastases are osteosclerotic, or attributing the osteosclerotic pattern to renal, thyroid, lung or breast carcinoma instead of prostatic carcinoma specifically.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Prostatic carcinoma's bone metastases are characteristically osteosclerotic (osteoblastic), unlike the osteolytic pattern of renal, thyroid and lung carcinoma.
+
+## lose_the_mark
+Naming renal, thyroid, lung or breast carcinoma instead of prostatic carcinoma as the classic osteosclerotic bone metastasis.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-6798FF8F210C05
+
+## related_articles
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 43 (Neoplasia: Routes of spread of malignant tumors) -- no department slide deck exists in the corpus past Lecture 8, so this one new mint cites the quiz bank's own printed-answer text instead. Quiz 43 Q1-Q5 (q353-q357) all reuse pending Kasr 208-INT concepts (carcinoma in situ, locally malignant tumours, hematogenous spread/rare sites) instead of minting twins; their questions cite the existing Kasr article ART-FND-208INT-NEOPLASIA-BASICS instead of this one.
+
+## annotations
+### definition_of · CON-FND-6798FF8F210C05
+Quote: Prostatic carcinoma characteristically produces osteosclerotic (osteoblastic) bone metastases, in which new bone formation dominates over resorption, giving a dense, radio-opaque appearance on imaging
+Block: body
