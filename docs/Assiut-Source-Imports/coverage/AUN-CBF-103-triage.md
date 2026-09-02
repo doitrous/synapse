@@ -176,3 +176,140 @@ yet. `module_subject`: `AUN-CBF-103 > Physiology > Body Fluids` and
   58/65 garbled) are listed in `AUN-Y1-priority-sources.md` but explicitly
   out of scope for this pass per dispatch; `All quizzes CBF .pdf` (259p,
   fully garbled) needs OCR before any triage is possible.
+
+## S3 lane 2 addendum -- `All quizzes CBF .pdf` (259p, OCR'd pp.1-30)
+
+Lane 1 (`cbf question bank.pdf`) is CLOSED, 132/132, 2 held. This lane
+(`aun-cbf103-author2`) authors a second, independent cluster from the
+fallback source named in dispatch: `All quizzes CBF .pdf`
+(`evidence/AUN-CBF-103-allquizzes-resources.md`, `src_f7e45bae9ce161e08d46`),
+259 pages, 0-word native text on every page (`pagetext.mjs status` -- fully
+garbled scan, matching the source-doc's own note). OCR'd pp.1-30 this pass
+(`pagetext.mjs ocr --pages 1-30`); 81-207 words/page on content pages (a
+handful of blank/footer pages read 0-31 words), well above the auto-flag
+floor.
+
+**Format.** Confirmed the LANE-CARD's predicted "Moodle attempt-review"
+pattern on the first page read: this is a 259-page compilation of
+completed-attempt exports from a Moodle "Lectures and quizzes CBF" course,
+one quiz block per lecture pair, each item showing the student's selected
+answer, a Correct/Incorrect flag and a printed **"The correct answer is:
+..."** line -- the strongest key format available, read directly as plain
+OCR text, no visual-marker reading needed anywhere in pp.1-30.
+
+**Quiz blocks found in pp.1-30:**
+
+| Block | Pages | Raw Qs | Topic |
+|---|---|--:|---|
+| Quiz3&6 | 1-7 | 10 | Biochemistry of amino acids and protein structure/function |
+| Quiz4&5 | 8-10 | 4 | Functions of cell organelles and cell membrane |
+| Quiz7&8 | 11-27 | 44 | Overview of vitamins and minerals I, II |
+| Quiz9-10 | 28-30+ | 7+ (continues past p30) | Biochemistry of enzymes and clinical enzymology |
+
+**Keys: 65/65 raw items read this pass carry a printed key (100%)** via the
+"The correct answer is:" line. No conflicts found (unlike lane 1's Q20/Q70
+table-vs-flag conflict -- this source has no secondary visual-marker layer
+to disagree with the printed line).
+
+**Junk/non-SBA items found, held out of the authored cluster:** Quiz4&5 Q3
+("Phospholipids are the only type of lipids in the plasma membrane" --
+True/False, 2 options) and Q4 ("Gated channels are opened or closed by
+____" -- fill-in-the-blank, no option list) are not SBA-shape and are
+excluded, not converted. Quiz9-10 Q2-7 (irreversible inhibition kinetics,
+false-statement, active-site-vs-antibody, rate-factors, enzyme-concentration
+effect) are keyed and legible but not authored this pass beyond Q1 (kept
+the cluster to a manageable 40 rather than 44+).
+
+**Internal near-duplicates identified and held out (not printed-key
+conflicts -- same fact restated under a different stem, common in this
+Moodle-pool-drawn source):** Quiz3&6 Q7 (amyloidosis / beta-pleated sheet)
+restates Q6's same fact (Alzheimer's amyloid / beta-pleated sheet) under a
+different clinical vignette -- Q6 kept, Q7 held. Quiz7&8 Q32 ("PLP is
+central to ... Transamination") restates Q17 near-verbatim; Q33 ("Biotin is
+required as a coenzyme by ... Carboxylases") restates Q20 near-verbatim;
+Q34 ("Methylcobalamin is required for formation of ... Methionine from
+homocysteine") restates Q27's B12-half near-verbatim. All three (Q32-34)
+are held, not authored, in favour of their earlier-appearing twin. Quiz3&6
+Q3 (only ketogenic amino acid -- Leucine) and Q4 (neutral amino acid with
+aliphatic side chain -- also Leucine) test two genuinely different
+classification axes (metabolic fate vs side-chain chemistry) that happen to
+share an answer; both are legible and keyed but held out of this pass's
+40-question cap rather than mint a combined concept under time pressure --
+queued for a future batch. Quiz7&8 Q3 (scurvy -- Vitamin C) is likewise
+legible/keyed, restates Q2's vitamin-C teaching point from the deficiency
+side rather than the biosynthetic-function side, and is held out of this
+pass's cap alongside Q3/Q4 above.
+
+## Checkpoint table (S3 lane 2)
+
+| Module | Raw Qs read (pp.1-30) | Keys recovered | Authored | Held (junk/near-dup/cap) | New concepts | Reused concepts |
+|---|--:|--:|--:|--:|--:|--:|
+| AUN-CBF-103 (lane 2) | 65 | 65 (100%) | 40 | 25 | 12 | 4 (21 question-links) |
+
+## Concept search notes (lane 2, `find-existing.mjs` against live state + every `docs/*-Source-Imports` root + `docs/import-ready`)
+
+- **Vitamins, water-soluble (thiamine/riboflavin/niacin/pantothenate/
+  biotin(general)/folate(function)/B12(function)/vitamin C(general)):**
+  `find-existing.mjs "thiamin"` and `"pellagra"` returned a Kasr 103-BMS
+  pending concept file (`docs/Kasr-Source-Imports/concept/
+  103-BMS-mcq-vitamins-nerve-concepts.md`) whose own header comment records
+  that **all 44 water-soluble-and-fat-soluble vitamin MCQs in that lane's
+  question file map onto just three concepts**, minted specifically to
+  avoid "fragmenting a student's mastery across fourteen records where the
+  examiner assesses one skill." `CON-FND-C9E5128193029E`
+  ("water-soluble vitamins are coenzymes, and a matching question tests
+  which reaction each one runs" -- `docs/Kasr-Source-Imports/concept/
+  103-BMS-biochemistry-concepts.md`) covers thiamine/TPP/beriberi,
+  riboflavin/niacin/pellagra, pantothenate/CoA, biotin/carboxylation,
+  folate/one-carbon-transfer/megaloblastic anaemia, cobalamin/
+  homocysteine-methionine and vitamin C as the water-soluble antioxidant --
+  an exact match for 19 of this lane's 30 vitamin questions (Q4-16, 20, 22,
+  27, 29-31). Reused via pending-live overlay, same consolidation
+  philosophy as the Kasr precedent, rather than re-minting one concept per
+  vitamin.
+- **Biotin-dependent carboxylases (specific reactions):** `find-existing.mjs
+  "biotin"` additionally returned `CON-FND-CA0F9E019BC5BA` ("Pyruvate
+  carboxylase carboxylates pyruvate to oxaloacetate, needs biotin..." --
+  `103-BMS-mcq-carbohydrate-concepts.md`) and `CON-FND-2F3A652B8E3104`
+  ("Acetyl-CoA carboxylase is the key enzyme of lipogenesis: it needs
+  biotin, it makes malonyl-CoA..." -- `103-BMS-mcq-lipid-concepts.md`) --
+  literal matches for Q21 (pyruvate -> OAA) and Q23 (acetyl-CoA ->
+  malonyl-CoA) respectively. Reused, not re-minted.
+- **Enzyme active site:** `find-existing.mjs "enzyme active site"` returned
+  `CON-FND-D17966222A3693` ("The enzyme active site binds substrate and
+  supports catalysis" -- `docs/Ain-Shams-Source-Imports/concept/
+  ASU-IBM-enzyme-concepts.md`), an exact match for Quiz9-10 Q1. Reused via
+  pending-live overlay.
+- **Amino acids/protein structure (essential-under-stress amino acid,
+  alpha-helix H-bonding, sulphur-containing amino acid, beta-pleated
+  sheet/amyloid, ubiquitin-proteasome degradation, acute-phase reactants,
+  protein denaturation), cell organelles (ER/Golgi function):**
+  `find-existing.mjs` run for each ("essential amino acid arginine",
+  "alpha helix hydrogen bond protein", "sulphur containing amino acid
+  methionine", "beta-pleated sheet amyloid", "proteasome ubiquitin
+  degradation", "acute phase reactant albumin", "protein denaturation
+  viscosity solubility", "rough endoplasmic reticulum protein synthesis",
+  "endoplasmic reticulum golgi") -- 0 hits each, safe to create. Minted as
+  8 new concepts (`concept/AUN-CBF-103-concepts-2.md`).
+- **Vitamin facts not covered by the reused water-soluble-vitamins
+  concept** (general definition of vitamins; vitamin C's collagen/
+  hydroxyproline-synthesis function specifically, as opposed to its
+  antioxidant role; pyridoxine/PLP's transamination coenzyme role and the
+  B6-deficiency-convulsions/GABA mechanism; vitamin B12's corrin-ring/
+  cobalt structure, the "pernicious anaemia" clinical name and
+  methylmalonate as its urinary marker, plus folate's pteridine+PABA+
+  glutamate structure): `find-existing.mjs` run for each ("vitamin b12
+  cobalamin", "folate folic acid", "scurvy vitamin c", "pyridoxine
+  convulsions gaba") -- 0 hits each, safe to create. Minted as 4 further
+  new concepts.
+
+## Needs Omar / open items (lane 2)
+
+- Quiz3&6 Q3, Q4, Q7 and Quiz7&8 Q3, Q32-34 (6 items) are legible, keyed and
+  concept-searchable but held out of this pass purely to keep the cluster
+  at 40 rather than 46 -- no key conflict, no source defect. Queued for a
+  future AUN-CBF-103 batch alongside Quiz4&5 Q3-Q4 (True/False and
+  fill-in-blank, not SBA-shape) and Quiz7&8 Q35-44 / Quiz9-10 Q2-7+ (keyed,
+  not yet authored).
+- pp.31-259 of `All quizzes CBF .pdf` (229 pages, the great majority of the
+  source) are not yet OCR'd or triaged -- queued for a future lane.
