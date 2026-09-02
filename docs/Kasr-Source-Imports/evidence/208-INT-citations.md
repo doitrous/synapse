@@ -1287,3 +1287,200 @@ Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
 0.75
 ## counts_as_claim_evidence
 yes
+
+
+---
+
+# Item
+## id
+CIT-FND-208INT-DIGOXIN-INOTROPIC-MECHANISM-01
+## claim_id
+CLM-FND-208INT-DIGOXIN-INOTROPIC-MECHANISM-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+DIGOXIN (DIRECT): Inhibits Na+/K+ ATPase leading to increased intracellular Na+ and Ca2+ (positive inotropic effect). DIGOXIN: Highly concentrated (15-30 times higher than plasma) in cardiac tissue.
+## locator_type
+printed_page
+## locator_page
+11
+## locator_section
+Heart failure drugs — digoxin, direct action
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-DIGITALIS-TOXICITY-HYPOKALEMIA-01
+## claim_id
+CLM-FND-208INT-DIGITALIS-TOXICITY-HYPOKALEMIA-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+DIGOXIN TOXICITY: Factors include renal impairment, hypokalemia, hypomagnesemia, and hypercalcemia.
+## locator_type
+printed_page
+## locator_page
+11
+## locator_section
+Heart failure drugs — digoxin toxicity
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-DIGITALIS-AF-AV-CONDUCTION-01
+## claim_id
+CLM-FND-208INT-DIGITALIS-AF-AV-CONDUCTION-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+DIGOXIN (VAGAL): Increases vagal tone at low doses to inhibit SAN (slow HR) and AVN conduction (-ve dromotropic).
+## locator_type
+printed_page
+## locator_page
+11
+## locator_section
+Heart failure drugs — digoxin, vagal action
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-SACUBITRIL-NEPRILYSIN-01
+## claim_id
+CLM-FND-208INT-SACUBITRIL-NEPRILYSIN-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+ARNI (SACUBITRIL/VALSARTAN): Combines ARB with neprilysin inhibition. SACUBITRIL: Inhibits neprilysin to increase levels of beneficial natriuretic peptides causing vasodilation, natriuresis, and diuresis. ARNI: Preferred over ACEI/ARB for reducing mortality and hospitalizations in eligible patients.
+## locator_type
+printed_page
+## locator_page
+11
+## locator_section
+Heart failure drugs — newer agents
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-LEVOSIMENDAN-CALCIUM-SENSITIZER-01
+## claim_id
+CLM-FND-208INT-LEVOSIMENDAN-CALCIUM-SENSITIZER-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+CALCIUM SENSITIZER: Levosimendan increases contractility without increasing intracellular calcium or cAMP. Effects are prolonged due to an active metabolite.
+## locator_type
+printed_page
+## locator_page
+11
+## locator_section
+Heart failure drugs — newer agents
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-LIDOCAINE-NO-HEART-BLOCK-01
+## claim_id
+CLM-FND-208INT-LIDOCAINE-NO-HEART-BLOCK-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+CLASS IB DRUGS: Include Lidocaine, Mexiletine, and Phenytoin. CLASS IB: Have minimal effect on normal tissue, the AV node, or APD. CLASS IB: Used for ventricular arrhythmias (acute MI, post-cardiac surgery, digitalis toxicity).
+## locator_type
+printed_page
+## locator_page
+11
+## locator_section
+Antiarrhythmic drugs — Class IB
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-AMIODARONE-BROAD-SPECTRUM-01
+## claim_id
+CLM-FND-208INT-AMIODARONE-BROAD-SPECTRUM-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+AMIODARONE: Displays multi-class activity: potent Class III + weak Class I, II, and IV. "Broad spectrum" for severe, life-threatening, or refractory supraventricular and ventricular arrhythmias.
+## locator_type
+printed_page
+## locator_page
+12
+## locator_section
+Antiarrhythmic drugs — Class III
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes

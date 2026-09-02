@@ -1425,3 +1425,221 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Kasr Al Ainy 208 INT — Pharmacology, ACE Inhibitors
+
+
+---
+
+# Item
+## id
+CLM-FND-208INT-DIGOXIN-INOTROPIC-MECHANISM-01
+## concept_id
+CON-FND-2379F34ADE2AB1
+## subject
+Digoxin
+## predicate
+inhibits the Na+/K+ ATPase enzyme, raising intracellular sodium and, via the Na+/Ca2+ exchanger,
+## object
+intracellular calcium, producing its positive inotropic effect (not via cAMP)
+## display_text
+Digoxin's positive inotropic effect comes from Na+/K+ ATPase inhibition, raising intracellular calcium.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Cardiac Glycosides
+
+---
+
+# Item
+## id
+CLM-FND-208INT-DIGITALIS-TOXICITY-HYPOKALEMIA-01
+## concept_id
+CON-FND-B929F5B301F1E1
+## subject
+Hypokalemia
+## predicate
+increases digitalis toxicity, alongside
+## object
+renal impairment, hypomagnesemia and hypercalcemia, because digoxin and potassium compete for the same Na+/K+ ATPase binding site
+## display_text
+Hypokalemia increases digitalis toxicity by letting more digoxin bind the Na+/K+ ATPase enzyme.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Cardiac Glycosides
+
+---
+
+# Item
+## id
+CLM-FND-208INT-DIGITALIS-AF-AV-CONDUCTION-01
+## concept_id
+CON-FND-C058332F0BFD90
+## subject
+Digitalis
+## predicate
+controls ventricular rate in atrial fibrillation by
+## object
+decreasing AV nodal conduction (vagally mediated), not by restoring atrial rhythm or reducing atrial excitability
+## display_text
+Digitalis controls atrial fibrillation ventricular rate via decreased AV conduction, not rhythm restoration.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Cardiac Glycosides
+
+---
+
+# Item
+## id
+CLM-FND-208INT-SACUBITRIL-NEPRILYSIN-01
+## concept_id
+CON-FND-F3CB6195CC2DD4
+## subject
+Sacubitril
+## predicate
+inhibits neprilysin, raising natriuretic peptide levels; combined with valsartan as an ARNI, it is
+## object
+preferred over ACE inhibitors/ARBs alone for reducing mortality and hospitalizations in eligible heart failure patients
+## display_text
+Sacubitril's neprilysin inhibition, combined with valsartan as an ARNI, is preferred heart-failure therapy in eligible patients.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Heart Failure Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-LEVOSIMENDAN-CALCIUM-SENSITIZER-01
+## concept_id
+CON-FND-B6403BD6D419A9
+## subject
+Levosimendan
+## predicate
+is a calcium sensitizer, increasing myocardial contractility by
+## object
+sensitizing troponin C to existing calcium, without raising intracellular calcium or cAMP
+## display_text
+Levosimendan increases contractility by sensitizing troponin C to calcium, not by raising calcium or cAMP.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Heart Failure Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-LIDOCAINE-NO-HEART-BLOCK-01
+## concept_id
+CON-FND-449194FE486AEE
+## subject
+Lidocaine (Class IB)
+## predicate
+is used for ventricular arrhythmia without heart-block concern, given its
+## object
+minimal effect on normal cardiac tissue, the AV node, or action potential duration
+## display_text
+Lidocaine's minimal AV-nodal effect lets it treat ventricular arrhythmia without worsening heart block, unlike a beta-blocker.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antiarrhythmic Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-AMIODARONE-BROAD-SPECTRUM-01
+## concept_id
+CON-FND-5CB4335320A5B7
+## subject
+Amiodarone
+## predicate
+displays multi-class ("broad spectrum") antiarrhythmic activity, treating
+## object
+severe, life-threatening or refractory supraventricular and ventricular arrhythmias
+## display_text
+Amiodarone's broad-spectrum, multi-class activity treats severe, refractory supraventricular and ventricular arrhythmias.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Antiarrhythmic Drugs

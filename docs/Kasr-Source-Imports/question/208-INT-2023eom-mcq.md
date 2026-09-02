@@ -13490,3 +13490,976 @@ yes
 
 ## author_notes
 keySource: printed answer table p.21 ("107.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q108
+
+## title
+Cellular action of digoxin behind its inotropic effect
+
+## question
+What cellular action of digoxin accounts for its inotropic effect in the treatment of heart failure?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Inhibition of cyclic adenosine 5'-monophosphate (CAMP) synthesis
+
+## explanation_a
+Incorrect. Digoxin's mechanism is not through cAMP synthesis at all; PDE inhibitors (milrinone) and beta agonists act through the cAMP pathway, not digoxin.
+
+## answer_b
+Inhibition of mitochondrial calcium (Ca2+) release
+
+## explanation_b
+Incorrect. Digoxin's calcium effect works in the opposite direction and at a different site -- it raises, not lowers, intracellular calcium, and does so via the sodium pump at the cell membrane, not by acting on mitochondrial calcium release.
+
+## answer_c
+Inhibition of the Na+/K+ ATPase enzyme
+
+## explanation_c
+Correct. Digoxin directly inhibits the Na+/K+ ATPase enzyme, leading to increased intracellular sodium; this reduces the gradient the Na+/Ca2+ exchanger relies on to pump calcium out, so intracellular calcium rises, producing digoxin's positive inotropic effect. This direct, non-cAMP-dependent route to raising intracellular calcium is exactly what distinguishes digoxin's inotropic mechanism from beta-agonist or PDE-inhibitor inotropes, and it is also digoxin's high concentration in cardiac tissue (15-30 times plasma levels) that makes this cellular action so pronounced there.
+
+## answer_d
+Inhibition of adrenergic stimulation
+
+## explanation_d
+Incorrect. Digoxin does not inhibit adrenergic stimulation; at low doses it increases vagal tone (slowing the SA node and AV conduction), a parasympathetic rather than adrenergic mechanism, and this vagal effect is separate from its Na+/K+ ATPase-driven inotropic action.
+
+## topic
+Pharmacology
+
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+
+## main_concept
+CON-FND-2379F34ADE2AB1
+
+## concept_ids
+CON-FND-2379F34ADE2AB1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Heart Failure Drugs > Cardiac Glycosides
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Explain digoxin's positive inotropic mechanism -- Na+/K+ ATPase inhibition raising intracellular sodium and, via the Na+/Ca2+ exchanger, intracellular calcium.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("108.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q109
+
+## title
+Factor increasing digitalis toxicity
+
+## question
+Which of the following could increase digitalis toxicity?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Use of spironolactone hyperkalemia
+
+## explanation_a
+Incorrect. Spironolactone, a potassium-sparing diuretic, tends to cause hyperkalemia, not the electrolyte disturbance that predisposes to digitalis toxicity -- and hyperkalemia is not among the named digoxin-toxicity risk factors.
+
+## answer_b
+Hypocalcemia
+
+## explanation_b
+Incorrect. Digoxin toxicity risk is raised by hypercalcemia, not hypocalcemia -- this option names the electrolyte disturbance in the wrong direction.
+
+## answer_c
+Hypokalemia
+
+## explanation_c
+Correct. Digoxin toxicity risk factors include renal impairment, hypokalemia, hypomagnesemia and hypercalcemia. Because digoxin and potassium compete for the same binding site on the Na+/K+ ATPase enzyme, hypokalemia lets more digoxin bind and inhibit the pump, effectively increasing the drug's action for a given plasma level -- which is exactly why hypokalemia-causing diuretics (thiazides, loop diuretics) are watched closely in a patient on digoxin.
+
+## answer_d
+Anti-acids
+
+## explanation_d
+Incorrect. Antacids are not among digoxin's named toxicity risk factors; if anything, some antacids can modestly reduce digoxin absorption rather than increase its toxicity.
+
+## topic
+Pharmacology
+
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+
+## main_concept
+CON-FND-B929F5B301F1E1
+
+## concept_ids
+CON-FND-B929F5B301F1E1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Heart Failure Drugs > Cardiac Glycosides
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Name hypokalemia (alongside renal impairment, hypomagnesemia and hypercalcemia) as a risk factor for digitalis toxicity, and explain the potassium-competition mechanism behind it.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("109.C")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q110
+
+## title
+Digitalis mechanism in atrial fibrillation
+
+## question
+Digitalis is used in cases of atrial fibrillation because:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It restores atrial rhythm.
+
+## explanation_a
+Incorrect. Digitalis does not convert atrial fibrillation back to normal sinus rhythm (restore atrial rhythm) -- its use in AF is for ventricular rate control, not rhythm restoration.
+
+## answer_b
+It decreases A-V conduction.
+
+## explanation_b
+Correct. At low doses, digoxin increases vagal tone, which inhibits the sinoatrial node (slowing heart rate) and decreases AV nodal conduction (a negative dromotropic effect) -- and it is specifically this slowed AV conduction that limits how many of the rapid, chaotic atrial impulses of fibrillation reach the ventricles, controlling ventricular rate. This vagally-mediated AV-nodal slowing is the mechanistic reason digoxin is used for rate control in atrial fibrillation, distinct from any effect on the fibrillating atrial rhythm itself.
+
+## answer_c
+It decreases atrial excitability
+
+## explanation_c
+Incorrect. Digitalis does not decrease atrial excitability -- the chaotic atrial electrical activity of fibrillation continues; digitalis instead limits how much of that activity conducts through to the ventricles.
+
+## answer_d
+It decreases automaticity.
+
+## explanation_d
+Incorrect. Decreased automaticity is not the mechanism relevant to AF rate control; digitalis's atrial fibrillation benefit comes specifically from its AV-nodal conduction-slowing effect.
+
+## topic
+Pharmacology
+
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+
+## main_concept
+CON-FND-C058332F0BFD90
+
+## concept_ids
+CON-FND-C058332F0BFD90
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Heart Failure Drugs > Cardiac Glycosides
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Explain that digitalis controls ventricular rate in atrial fibrillation by decreasing AV nodal conduction (vagally mediated), not by restoring rhythm or altering atrial excitability.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.19
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("110.B")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q111
+
+## title
+Neprilysin-inhibiting heart failure drug
+
+## question
+Which of the following drugs act by inhibiting neprilysin enzyme and is used in the treatment of heart failure?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Dobutamine
+
+## explanation_a
+Incorrect. Dobutamine is a selective beta1 agonist inotrope, acting through adrenergic receptor stimulation, not through any enzyme inhibition.
+
+## answer_b
+Milrinone
+
+## explanation_b
+Incorrect. Milrinone is a PDE-3 inhibitor with inotropic and vasodilatory (inodilator) effects, a cAMP-based mechanism unrelated to neprilysin.
+
+## answer_c
+Digoxin
+
+## explanation_c
+Incorrect. Digoxin acts by inhibiting the Na+/K+ ATPase enzyme, not neprilysin.
+
+## answer_d
+Sacubitril
+
+## explanation_d
+Correct. Sacubitril inhibits neprilysin, the enzyme that normally degrades beneficial natriuretic peptides -- increasing their levels causes vasodilation, natriuresis and diuresis. Combined with valsartan (an angiotensin receptor blocker) as an ARNI, sacubitril/valsartan is preferred over ACE inhibitors or ARBs alone for reducing mortality and hospitalizations in eligible heart failure patients, though it cannot be combined with an ACE inhibitor because of a significantly increased angioedema risk, and requires a 36-hour washout when switching from one.
+
+## topic
+Pharmacology
+
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+
+## main_concept
+CON-FND-F3CB6195CC2DD4
+
+## concept_ids
+CON-FND-F3CB6195CC2DD4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Heart Failure Drugs > Newer Agents
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify sacubitril's neprilysin-inhibiting mechanism, part of the ARNI combination preferred over ACE inhibitors/ARBs in eligible heart failure patients.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.19
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("111.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q112
+
+## title
+Inotropic drug sensitizing troponin C to calcium
+
+## question
+Which of the following inotropic drugs acts by increasing the sensitivity of VIR troponin C fibers to ionic calcium improving myocardial contractility?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Levosimendan
+
+## explanation_a
+Correct. Levosimendan is a calcium sensitizer that increases myocardial contractility by increasing the sensitivity of troponin C to the calcium already present, without increasing intracellular calcium or cAMP itself. Its effects are prolonged because of an active metabolite, which distinguishes its mechanism from both the cAMP-based PDE inhibitors and the calcium-raising cardiac glycosides.
+
+## answer_b
+Amrinone
+
+## explanation_b
+Incorrect. Amrinone is a PDE inhibitor, raising intracellular cAMP and, through that, intracellular calcium -- an inodilator mechanism, not a calcium-sensitizing one.
+
+## answer_c
+Milrinone
+
+## explanation_c
+Incorrect. Milrinone, like amrinone, is a PDE-3 inhibitor with inotropic and vasodilatory effects via raised cAMP, not a troponin C calcium-sensitizing mechanism.
+
+## answer_d
+Isoproterenol
+
+## explanation_d
+Incorrect. Isoproterenol is a non-selective beta agonist, raising cAMP and intracellular calcium through beta1-receptor stimulation, not through sensitizing troponin C to existing calcium.
+
+## topic
+Pharmacology
+
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+
+## main_concept
+CON-FND-B6403BD6D419A9
+
+## concept_ids
+CON-FND-B6403BD6D419A9
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Heart Failure Drugs > Newer Agents
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify levosimendan's calcium-sensitizing mechanism (troponin C, no rise in intracellular calcium or cAMP) as distinct from the cAMP-based PDE inhibitors and beta agonists.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.19
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("112.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q113
+
+## title
+Drug for ventricular arrhythmia without heart block
+
+## question
+Which one of the following drugs is used in the treatment of ventricular arrhythmia WITHOUT heart block:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Lidocaine
+
+## explanation_a
+Correct. Lidocaine is a Class IB antiarrhythmic, used for ventricular arrhythmias (in the setting of acute MI, post-cardiac surgery, or digitalis toxicity). It has minimal effect on normal cardiac tissue, the AV node, or action potential duration. This minimal AV-nodal effect is exactly why it can be used without concern for worsening AV conduction, unlike a beta-blocker.
+
+## answer_b
+Phenytoin
+
+## explanation_b
+Incorrect. Phenytoin shares Class IB's ventricular-arrhythmia use but is not the drug this stem is naming as the answer; it is a less commonly used option for this indication compared with lidocaine.
+
+## answer_c
+Propranolol
+
+## explanation_c
+Incorrect. Propranolol is a Class II antiarrhythmic (beta-blocker) that decreases AV nodal conduction and can precipitate or worsen heart block -- the opposite of a drug usable 'without heart block' concern.
+
+## answer_d
+Bisoprolol
+
+## explanation_d
+Incorrect. Bisoprolol, like propranolol, is a beta-blocker that slows AV conduction and carries the same heart-block risk, making it unsuitable for the 'without heart block' scenario this question is testing.
+
+## topic
+Pharmacology
+
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+
+## main_concept
+CON-FND-449194FE486AEE
+
+## concept_ids
+CON-FND-449194FE486AEE
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antiarrhythmic Drugs > Class I and II Agents
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify lidocaine (Class IB) as usable for ventricular arrhythmia without a heart-block concern, given its minimal AV-nodal effect, unlike beta-blockers.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.19
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("113.A")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q114
+
+## title
+Drug for severe refractory supraventricular and ventricular arrhythmias
+
+## question
+Which of the following drugs can treat severe and refractory supraventricular and ventricular arrhythmias?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Lidocaine
+
+## explanation_a
+Incorrect. Lidocaine (Class IB) is used specifically for ventricular arrhythmias, not for supraventricular ones, and lacks the broad-spectrum activity this stem describes.
+
+## answer_b
+Minoxidil
+
+## explanation_b
+Incorrect. Minoxidil is a direct arteriolar vasodilator antihypertensive with no antiarrhythmic activity at all.
+
+## answer_c
+Amiodarone
+
+## explanation_c
+Correct. Amiodarone displays multi-class antiarrhythmic activity -- potent Class III action plus weak Class I, II and IV effects -- giving it genuinely 'broad spectrum' coverage that makes it the drug reached for in severe, life-threatening or refractory supraventricular and ventricular arrhythmias, where a single-class agent has failed or is inadequate. This broad, multi-mechanism profile is exactly what distinguishes amiodarone from the narrower, single-class agents (lidocaine's Class IB action, or a beta-blocker's Class II action alone), at the cost of amiodarone's own cardiac (bradycardia, heart block, proarrhythmia) and extracardiac toxicities from long-term use.
+
+## answer_d
+Captopril
+
+## explanation_d
+Incorrect. Captopril, an ACE inhibitor, is an antihypertensive/heart-failure drug with no antiarrhythmic activity.
+
+## topic
+Pharmacology
+
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+
+## main_concept
+CON-FND-5CB4335320A5B7
+
+## concept_ids
+CON-FND-5CB4335320A5B7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antiarrhythmic Drugs > Class III Agents
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Identify amiodarone's multi-class ('broad spectrum') antiarrhythmic activity as the reason it treats severe, refractory supraventricular and ventricular arrhythmias, unlike single-class agents.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.19
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("114.C")

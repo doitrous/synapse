@@ -9275,3 +9275,803 @@ resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ..
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: Sibling of CON-FND-F63798C7FE1A68 (ACEI adverse effects), the other ACE-inhibitor concept in this batch.
+
+
+---
+
+# Item
+## id
+CON-FND-2379F34ADE2AB1
+## label
+Digoxin inhibits the Na+/K+ ATPase enzyme, raising intracellular sodium and, via the Na+/Ca2+ exchanger, intracellular calcium -- its positive inotropic mechanism
+## canonical_key
+digoxin.na-k-atpase-inhibition.positive-inotropic-mechanism
+## aliases
+Digoxin inotropic mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Digoxin directly inhibits the Na+/K+ ATPase enzyme, leading to increased intracellular sodium; this reduces the gradient the Na+/Ca2+ exchanger relies on to pump calcium out, so intracellular calcium rises, producing digoxin's positive inotropic effect. This is a direct, non-cAMP-dependent route to raising intracellular calcium, distinct from beta-agonist or PDE-inhibitor inotropes, and digoxin's very high concentration in cardiac tissue (15-30 times plasma levels) makes this cellular action especially pronounced there.
+## explicit_objective
+Explain digoxin's positive inotropic mechanism as Na+/K+ ATPase inhibition raising intracellular sodium, and via the Na+/Ca2+ exchanger, intracellular calcium.
+## pitfalls
+Confusing digoxin's Na+/K+ ATPase-inhibition mechanism with a cAMP-based one (as in PDE inhibitors or beta agonists) -- digoxin's route to raised intracellular calcium does not involve cAMP at all.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Heart Failure Drugs > Cardiac Glycosides
+## article_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-B929F5B301F1E1
+CON-FND-C058332F0BFD90
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-DIGOXIN-INOTROPIC-MECHANISM-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"What cellular action of digoxin accounts for its inotropic effect in the treatment of heart failure? a. Inhibition of cyclic adenosine 5'-monophosphate (CAMP) synthesis b. Inhibition of mitochondrial calcium (Ca2+) release c. Inhibition of the Na+/K+ ATPase enzyme d. Inhibition of adrenergic stimulation" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("digoxin Na K ATPase inotropic mechanism") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.11.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-B929F5B301F1E1 (digitalis toxicity risk factors) and CON-FND-C058332F0BFD90 (digitalis in AF), the other cardiac-glycoside concepts in this batch.
+
+---
+
+# Item
+## id
+CON-FND-B929F5B301F1E1
+## label
+Hypokalemia (alongside renal impairment, hypomagnesemia and hypercalcemia) increases digitalis toxicity, because digoxin and potassium compete for the same Na+/K+ ATPase binding site
+## canonical_key
+digitalis-toxicity.risk-factors.hypokalemia
+## aliases
+Digoxin toxicity risk factors
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Digoxin toxicity risk factors include renal impairment, hypokalemia, hypomagnesemia and hypercalcemia. Because digoxin and potassium compete for the same binding site on the Na+/K+ ATPase enzyme, hypokalemia lets more digoxin bind and inhibit the pump, effectively increasing the drug's action for a given plasma level -- which is why hypokalemia-causing diuretics (thiazides, loop diuretics) are watched closely in a patient on digoxin.
+## explicit_objective
+Name hypokalemia (alongside renal impairment, hypomagnesemia and hypercalcemia) as a digitalis-toxicity risk factor, and explain the potassium/digoxin competition mechanism at the Na+/K+ ATPase.
+## pitfalls
+Reversing the calcium direction -- digoxin toxicity risk rises with hypercalcemia, not hypocalcemia.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Heart Failure Drugs > Cardiac Glycosides
+## article_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-2379F34ADE2AB1
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-DIGITALIS-TOXICITY-HYPOKALEMIA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following could increase digitalis toxicity? a. Use of spironolactone hyperkalemia b Hypocalcemia C. Hypokalemia d. Anti-acids" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("hypokalemia digitalis toxicity spironolactone") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.11.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-2379F34ADE2AB1 (digoxin inotropic mechanism), the other cardiac-glycoside concept minted from the same source page.
+
+---
+
+# Item
+## id
+CON-FND-C058332F0BFD90
+## label
+Digitalis controls ventricular rate in atrial fibrillation by decreasing AV nodal conduction (vagally mediated), not by restoring rhythm or reducing atrial excitability
+## canonical_key
+digitalis.atrial-fibrillation-use.decreased-av-conduction
+## aliases
+Digoxin in atrial fibrillation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+At low doses, digoxin increases vagal tone, inhibiting the sinoatrial node (slowing heart rate) and decreasing AV nodal conduction (negative dromotropy). It is this vagally-mediated slowing of AV conduction that limits how many of the chaotic atrial impulses of fibrillation reach the ventricles, controlling ventricular rate -- digitalis does not restore atrial rhythm or reduce atrial excitability; the fibrillating atrial activity continues unchanged.
+## explicit_objective
+Explain that digitalis controls ventricular rate in atrial fibrillation via vagally-mediated AV-nodal conduction slowing, not by restoring sinus rhythm or reducing atrial excitability.
+## pitfalls
+Assuming digoxin is a rhythm-control drug for atrial fibrillation -- it is a rate-control drug, acting on AV conduction, not on the fibrillating atrial rhythm itself.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Heart Failure Drugs > Cardiac Glycosides
+## article_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-2379F34ADE2AB1
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-DIGITALIS-AF-AV-CONDUCTION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Digitalis is used in cases of atrial fibrillation because: a. It restores atrial rhythm. b It decreases A-V conduction. C. It decreases atrial excitability d. It decreases automaticity." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("digitalis atrial fibrillation AV conduction") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.11.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-2379F34ADE2AB1 (digoxin inotropic mechanism), the other cardiac-glycoside concept minted from the same source page.
+
+---
+
+# Item
+## id
+CON-FND-F3CB6195CC2DD4
+## label
+Sacubitril inhibits neprilysin, raising natriuretic peptide levels; combined with valsartan as an ARNI, it is preferred over ACE inhibitors/ARBs alone in eligible heart failure patients
+## canonical_key
+sacubitril.neprilysin-inhibition.heart-failure
+## aliases
+Sacubitril mechanism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sacubitril inhibits neprilysin, the enzyme that normally degrades beneficial natriuretic peptides -- raising their levels causes vasodilation, natriuresis and diuresis. Combined with valsartan (an angiotensin receptor blocker) as an ARNI, sacubitril/valsartan is preferred over ACE inhibitors or ARBs alone for reducing mortality and hospitalizations in eligible heart failure patients; it cannot be combined with an ACE inhibitor because of a significantly increased angioedema risk, and requires a 36-hour washout when switching from one.
+## explicit_objective
+Identify sacubitril's neprilysin-inhibiting mechanism and its ARNI combination with valsartan, and state why it cannot be combined with an ACE inhibitor.
+## pitfalls
+Combining sacubitril/valsartan with an ACE inhibitor without a washout period -- this raises angioedema risk substantially and is specifically contraindicated.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Heart Failure Drugs > Newer Agents
+## article_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-B6403BD6D419A9
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-SACUBITRIL-NEPRILYSIN-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following drugs act by inhibiting neprilysin enzyme and is used in the treatment of heart failure? a. Dobutamine b. Milrinone c. Digoxin d. Sacubitril" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("sacubitril neprilysin heart failure") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.11.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-B6403BD6D419A9 (levosimendan), the other newer-heart-failure-agent concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-B6403BD6D419A9
+## label
+Levosimendan is a calcium sensitizer, increasing troponin C's sensitivity to existing calcium rather than raising intracellular calcium or cAMP itself
+## canonical_key
+levosimendan.calcium-sensitizer.troponin-c-mechanism
+## aliases
+Calcium sensitizer inotrope
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Levosimendan is a calcium sensitizer that increases myocardial contractility by increasing the sensitivity of troponin C to the calcium already present, without increasing intracellular calcium or cAMP itself. Its effects are prolonged because of an active metabolite -- a mechanism distinct from both the cAMP-raising PDE inhibitors (milrinone, amrinone) and the calcium-raising cardiac glycosides (digoxin) or beta agonists (isoproterenol).
+## explicit_objective
+Identify levosimendan's calcium-sensitizing mechanism (troponin C, no rise in intracellular calcium or cAMP) as distinct from PDE inhibitors, cardiac glycosides and beta agonists.
+## pitfalls
+Grouping levosimendan with the PDE inhibitors because both are "inotropes used in heart failure" -- their mechanisms (calcium sensitization vs cAMP elevation) are genuinely different.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Heart Failure Drugs > Newer Agents
+## article_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-F3CB6195CC2DD4
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-LEVOSIMENDAN-CALCIUM-SENSITIZER-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following inotropic drugs acts by increasing the sensitivity of VIR troponin C fibers to ionic calcium improving myocardial contractility? a. Levosimendan b. Amrinone c. Milrinone d. Isoproterenol" ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("levosimendan troponin C calcium sensitizer") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.11.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-F3CB6195CC2DD4 (sacubitril), the other newer-heart-failure-agent concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-449194FE486AEE
+## label
+Lidocaine (Class IB) is used for ventricular arrhythmia without heart-block risk, given its minimal effect on the AV node
+## canonical_key
+lidocaine.ventricular-arrhythmia-without-heart-block
+## aliases
+Lidocaine antiarrhythmic use
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lidocaine is a Class IB antiarrhythmic, used for ventricular arrhythmias (acute MI, post-cardiac surgery, digitalis toxicity), with minimal effect on normal cardiac tissue, the AV node, or action potential duration. This minimal AV-nodal effect is why it can be used without concern for worsening AV conduction, unlike a beta-blocker (Class II), which slows AV conduction and can precipitate or worsen heart block.
+## explicit_objective
+Identify lidocaine (Class IB) as usable for ventricular arrhythmia without a heart-block concern, given its minimal AV-nodal effect, unlike beta-blockers.
+## pitfalls
+Assuming any antiarrhythmic is equally safe regardless of AV-nodal effect -- beta-blockers (Class II) specifically slow AV conduction and risk worsening heart block, unlike Class IB agents such as lidocaine.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antiarrhythmic Drugs > Class I and II Agents
+## article_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5CB4335320A5B7
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-LIDOCAINE-NO-HEART-BLOCK-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which one of the following drugs is used in the treatment of ventricular arrhythmia WITHOUT heart block: a. Lidocaine b. Phenytoin c. Propranolol d. Bisoprolol" ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("lidocaine ventricular arrhythmia without heart block") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.11.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-5CB4335320A5B7 (amiodarone), the other antiarrhythmic-drug concept in this batch.
+
+---
+
+# Item
+## id
+CON-FND-5CB4335320A5B7
+## label
+Amiodarone's multi-class ("broad spectrum") antiarrhythmic activity treats severe, refractory supraventricular and ventricular arrhythmias
+## canonical_key
+amiodarone.refractory-supraventricular-ventricular-arrhythmias
+## aliases
+Amiodarone broad-spectrum activity
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Amiodarone displays multi-class antiarrhythmic activity -- potent Class III action plus weak Class I, II and IV effects -- giving it genuinely "broad spectrum" coverage. This makes it the drug reached for in severe, life-threatening or refractory supraventricular and ventricular arrhythmias, where a single-class agent (lidocaine's Class IB action, or a beta-blocker's Class II action alone) has failed or is inadequate, at the cost of amiodarone's own cardiac (bradycardia, heart block, proarrhythmia) and extracardiac toxicities from long-term use.
+## explicit_objective
+Explain amiodarone's multi-class ("broad spectrum") antiarrhythmic mechanism as the reason it treats severe, refractory supraventricular and ventricular arrhythmias, unlike single-class agents.
+## pitfalls
+Treating amiodarone as a pure Class III agent -- its weak additional Class I, II and IV activity is exactly what gives it broad-spectrum coverage beyond a single-class drug.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Heart failure and antiarrhythmic pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Antiarrhythmic Drugs > Class III Agents
+## article_ids
+ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-449194FE486AEE
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y2=0.5
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-AMIODARONE-BROAD-SPECTRUM-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following drugs can treat severe and refractory supraventricular and ventricular arrhythmias? a. Lidocaine b. Minoxidil c. Amiodarone d. Captopril" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched before minting ("amiodarone refractory supraventricular ventricular arrhythmias") -- no hit in live state or docs/*-Source-Imports concept files. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.12.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-449194FE486AEE (lidocaine), the other antiarrhythmic-drug concept in this batch.
