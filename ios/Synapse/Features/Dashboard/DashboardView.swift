@@ -21,8 +21,10 @@ struct DashboardView: View {
     let openTab: (SignedInView.Destination) -> Void
 
     @State private var questionCount = 0
+    @State private var resourceCount = 0
     @State private var showingAccount = false
     @State private var showingQotd = false
+    @State private var showingFlashcardsComingSoon = false
     /// The sitting still in progress, if there is one — read straight from
     /// `LiveSession.key` rather than through `QBankStore`, so the resume card
     /// does not have to stand up the whole question-bank stack just to ask
@@ -42,7 +44,8 @@ struct DashboardView: View {
     /// No per-student daily target exists in settings yet. Forty questions is
     /// a sensible default sitting — enough to matter, short enough to
     /// actually finish — until the app exposes one to set. Mirrors
-    /// `DAILY_QUESTION_GOAL` in `src/components/dashboard/TodaysTarget.tsx`.
+    /// `DAILY_GOAL` in `src/components/dashboard/TodaysTargetHero.tsx`.
+    /// ponytail: hardcoded goal; make it configurable if that's asked for.
     private static let dailyQuestionGoal = 40
 
     init(
@@ -170,6 +173,14 @@ struct DashboardView: View {
             .sheet(isPresented: $showingQotd) {
                 QotdView(store: library, sync: sync, api: api, audience: audience)
             }
+            .sheet(isPresented: $showingFlashcardsComingSoon) {
+                EmptyStateView(
+                    symbol: "rectangle.stack",
+                    title: "Flashcards",
+                    detail: strings("Flashcards are on their way — check back soon.")
+                )
+                .presentationDetents([.medium])
+            }
         }
         .task {
             await mastery.load()
@@ -213,10 +224,13 @@ struct DashboardView: View {
     // MARK: - Today's target
 
     /// The screen's hero: the ring, the day's line, and the one action that
-    /// actually moves it. A port of `TodaysTarget.tsx`'s panel.
+    /// actually moves it. A port of `TodaysTargetHero.tsx`.
     private var targetHero: some View {
         HStack(alignment: .center, spacing: 16) {
-            TargetRing(value: model.summary.todayQuestions, goal: Self.dailyQuestionGoal)
+            // 88pt, not the web's 132 — this card sits in a phone-width column
+            // rather than a 60rem desktop panel, and 132 would crowd the copy
+            // beside it off the card entirely on the narrowest phones.
+            TargetSeed(done: model.summary.todayQuestions, goal: Self.dailyQuestionGoal, size: 88)
 
             VStack(alignment: .leading, spacing: 5) {
                 Text(strings("Today's target"))
@@ -249,6 +263,9 @@ struct DashboardView: View {
     }
 
     // MARK: - Resume
+    //
+    // A port of `ResumeSessionCard.tsx`: renders nothing when there is no
+    // sitting to jump back into.
 
     /// "Cardiology · question 128 of 300" — named for the sitting when it has
     /// a name, plain when it does not.
@@ -288,31 +305,41 @@ struct DashboardView: View {
     }
 
     // MARK: - The 2×2 grid
+    //
+    // Four doors off the hero, each carrying the one stat that surface
+    // already reports elsewhere — the same bank total Questions' own tab
+    // shows, the same published count Resources itself lists — so nothing
+    // here can read differently from the page it opens onto. A port of
+    // `DashboardNavGrid.tsx`. Reviews and Performance, the previous grid's
+    // other two tiles, are unchanged and one tap away in More.
 
     private var todayGrid: some View {
         LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible())], spacing: 12) {
             Button { openTab(.questions) } label: {
-                gridCard(symbol: "questionmark.circle", title: "Question bank") {
-                    Text(Money.number(Double(questionCount), strings.language))
-                        .font(Theme.numeric(11))
+                gridCard(symbol: "target", title: "Practice") {
+                    Text(questionCount > 0
+                        ? "\(Money.number(Double(questionCount), strings.language)) \(strings("questions"))"
+                        : strings("Every exam format"))
+                        .font(Theme.ui(11))
                         .foregroundStyle(Theme.ink3)
                 }
             }
             .buttonStyle(.plain)
 
-            NavigationLink {
-                AdaptiveStudyView(api: api, sync: sync, store: library, audience: audience)
-            } label: {
-                gridCard(symbol: "arrow.triangle.2.circlepath", title: "Reviews") {
-                    Text("\(mastery.due.count) \(strings("due"))")
-                        .font(Theme.numeric(11))
+            // No native Flashcards screen exists yet — ponytail: placeholder
+            // sheet rather than a fabricated study surface; wire it to a real
+            // screen once one exists.
+            Button { showingFlashcardsComingSoon = true } label: {
+                gridCard(symbol: "rectangle.stack", title: "Flashcards") {
+                    Text(strings("Coming soon"))
+                        .font(Theme.ui(11))
                         .foregroundStyle(Theme.ink3)
                 }
             }
             .buttonStyle(.plain)
 
             Button { openTab(.library) } label: {
-                gridCard(symbol: "books.vertical", title: "Medical library") {
+                gridCard(symbol: "books.vertical", title: "Library") {
                     Text(strings("Concepts & sources"))
                         .font(Theme.ui(11))
                         .foregroundStyle(Theme.ink3)
@@ -320,11 +347,11 @@ struct DashboardView: View {
             }
             .buttonStyle(.plain)
 
-            NavigationLink {
-                PerformanceView(store: library, sync: sync)
-            } label: {
-                gridCard(symbol: "chart.bar", title: "Performance") {
-                    Text(strings("Study rhythm"))
+            Button { openTab(.resources) } label: {
+                gridCard(symbol: "folder", title: "Resources") {
+                    Text(resourceCount > 0
+                        ? "\(Money.number(Double(resourceCount), strings.language)) \(strings("resources"))"
+                        : strings("Books & videos"))
                         .font(Theme.ui(11))
                         .foregroundStyle(Theme.ink3)
                 }
@@ -362,6 +389,7 @@ struct DashboardView: View {
     private func refresh() async {
         await model.load()
         questionCount = (try? await library.items(kind: .question, audience: audience).count) ?? 0
+        resourceCount = (try? await library.items(kind: .resource, audience: audience).count) ?? 0
 
         // The resume card only offers a sitting that is actually still open —
         // one already scored is a finished sitting, not one to pick back up.
