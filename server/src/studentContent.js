@@ -1,0 +1,341 @@
+/**
+ * The student's content ledger, sliced.
+ *
+ * `GET /api/state/nishany-admin-content-ledger-v4` redacts the whole ledger on
+ * every request and ships all of it — 23 MB on the August snapshot, ~60 MB in
+ * production today — to a student who wanted one library article. This module
+ * does the same redaction once per ledger version and serves the slices a
+ * student surface actually reads.
+ *
+ * The redaction is unchanged: `redactLedgerForStudent` is the one gate for what
+ * may leave, and every route here is downstream of it. What is added is
+ * *audience* — a student receives their own university's and year's content and
+ * not another's — plus, for articles, an index that carries no body at all.
+ * Articles are ~45% of the ledger by bytes, so shipping their bodies only when
+ * one is opened is most of the saving.
+ *
+ * Cache shape is copied deliberately from `publishedQuestions.js`: a version
+ * signature over the same three documents, checked on every use so a second
+ * server process refreshes after another one's write. Invalidation is one call
+ * inside `invalidateSnapshots`, the same place every other snapshot is dropped.
+ */
+import { pool } from './db.js'
+import { MEDIA_STATE_KEY } from './mediaLibrary.js'
+import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentLedger.js'
+import { itemModules, itemUniversities, itemYears, yearNumber } from './contentScope.js'
+import { requireAuthenticated } from './auth.js'
+import { hasConsoleAccess } from './roles.js'
+
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const ACADEMIC_CATALOGUE_KEY = 'nishany-academic-universities-v1'
+
+/** Kinds served whole by `/api/content/items`. Articles and questions are not: they have their own shapes. */
+const SLICE_KINDS = new Set(['resource', 'practical', 'essay', 'histology', 'deck'])
+
+const DEFAULT_QUESTION_FORMAT = 'mcq_single_best'
+
+let snapshot = null
+
+export function invalidateStudentContent(key) {
+  if (key === LEDGER_KEY || key === MEDIA_STATE_KEY || key === ACADEMIC_CATALOGUE_KEY) snapshot = null
+}
+
+function list(value) {
+  return Array.isArray(value) ? value.filter((entry) => typeof entry === 'string' && entry.trim()) : []
+}
+
+/**
+ * One article as the library list needs it: everything but the article.
+ *
+ * `articleData` is the body — sections, annotations, evidence — and it is the
+ * reason the ledger is the size it is. The reader fetches it per article from
+ * `/api/content/item/:id`; nothing in a list of articles needs it.
+ */
+export function articleIndexRow(item) {
+  const data = item.articleData ?? {}
+  return {
+    id: item.id,
+    title: item.title,
+    subjectId: item.subjectId,
+    status: item.status,
+    updatedAt: item.updatedAt,
+    fields: { Topic: item.fields?.Topic },
+    moduleIds: list(data.moduleIds),
+    universityIds: list(data.universityIds),
+    yearIds: list(data.yearIds),
+  }
+}
+
+/** Which questions point at which article. The client used to scan the whole ledger for this. */
+export function questionLinksFor(questions) {
+  const links = {}
+  for (const item of questions) {
+    for (const articleId of list(item.questionData?.libraryIds)) {
+      (links[articleId] ??= []).push({ id: item.id, stem: item.title })
+    }
+  }
+  return links
+}
+
+/**
+ * The inclusion rule `managedQuestionToStudentQuestion` applies in the browser.
+ *
+ * Mirrored here so the wire carries only questions the client would have kept
+ * anyway. The client still re-applies it — this is a saving, not a new gate —
+ * which is why an explicitly requested format skips it below: a written
+ * question has no lettered answers and its consumer never wanted them.
+ */
+export function isAnswerableQuestion(item) {
+  const data = item?.questionData
+  if (item?.kind !== 'question' || !data) return false
+  const answers = (Array.isArray(data.answers) ? data.answers : [])
+    .filter((answer) => String(answer?.text ?? '').trim())
+  return answers.length >= 2 && answers.some((answer) => answer.label === data.correctAnswer)
+}
+
+/**
+ * Whether this student may see this item.
+ *
+ * The mirror of `questionInAudience` / `itemInScope` on the client, with the
+ * same "empty means unrestricted" rule — untagged content applies to everyone.
+ * It reads tags through `contentScope.js`, which normalises the three ways this
+ * codebase has stored a year, so an item tagged `Year 2` reaches a second-year
+ * exactly as one tagged `OMS_Y2` does. That makes this *looser* than the
+ * client's raw string compare, which is the safe direction: the client filter
+ * still runs on top, so nothing it would have shown is dropped here.
+ */
+export function inAudience(item, audience) {
+  if (!audience) return true
+  const kind = item?.kind
+  const onlyFor = kind === 'question' ? list(item.questionData?.tags?.questionOnlyFor) : []
+  if (onlyFor.length) {
+    // An author allow-list. When present, nothing outside it qualifies.
+    const allowed = onlyFor.some((id) => (audience.universityId && id.trim().toUpperCase() === audience.universityId)
+      || (audience.yearId && id.trim() === audience.yearId))
+    if (!allowed) return false
+  }
+  const universities = itemUniversities(kind, item)
+  if (audience.universityId && universities.length && !universities.includes(audience.universityId)) return false
+  const years = itemYears(kind, item)
+  if (audience.year !== null && years.length && !years.includes(audience.year)) return false
+  return true
+}
+
+/** What the catalogue holds, by kind, by module and by subject. */
+export function countsFor(items) {
+  const byKind = {}
+  const byModule = {}
+  const bySubject = {}
+  const bump = (bucket, id, kind) => {
+    const row = (bucket[id] ??= {})
+    row[kind] = (row[kind] ?? 0) + 1
+  }
+  for (const item of items) {
+    const kind = String(item?.kind ?? 'unknown')
+    byKind[kind] = (byKind[kind] ?? 0) + 1
+    for (const moduleId of new Set(itemModules(kind, item))) bump(byModule, moduleId, kind)
+    if (item?.subjectId) bump(bySubject, String(item.subjectId), kind)
+  }
+  return { byKind, byModule, bySubject }
+}
+
+function megabytes(value) {
+  return `${(JSON.stringify(value).length / 1024 / 1024).toFixed(1)}MB`
+}
+
+function build(signature, ledger, media, catalogue) {
+  const started = Date.now()
+  const items = redactLedgerForStudent(ledger, releasedMediaIdsFromDocument(media), catalogue)
+  const byKind = new Map()
+  const byId = new Map()
+  const titles = new Map()
+  for (const item of items) {
+    const kind = String(item.kind ?? 'unknown')
+    if (!byKind.has(kind)) byKind.set(kind, [])
+    byKind.get(kind).push(item)
+    if (item.id) {
+      byId.set(item.id, item)
+      titles.set(item.id, item.title ?? item.id)
+    }
+  }
+  const questions = byKind.get('question') ?? []
+  // Once per ledger version, so prod can be measured from the logs rather than
+  // guessed at. This is the only place the whole projection is stringified.
+  const sizes = [...byKind].map(([kind, entries]) => `${kind} ${entries.length} items ${megabytes(entries)}`)
+  console.info(`[content] rebuilt in ${Date.now() - started}ms: ${sizes.join(', ') || 'empty'}`)
+  return {
+    signature,
+    byKind,
+    byId,
+    titles,
+    articleIndex: (byKind.get('article') ?? []).map(articleIndexRow),
+    questionLinks: questionLinksFor(questions),
+    summary: countsFor(items),
+  }
+}
+
+export async function loadStudentContent() {
+  // Version-checked on every use, not merely invalidated in memory: another
+  // process may have warmed its cache before this one's write. See the same
+  // reasoning in publishedQuestions.js.
+  const [rows] = await pool.query(
+    `SELECT s.k, s.v,
+            (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
+       FROM app_state s WHERE s.k IN (?, ?, ?)`,
+    [LEDGER_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_KEY],
+  )
+  const row = (key) => rows.find((entry) => entry.k === key)
+  // Dot-joined rather than JSON: this doubles as the ETag, and an ETag may not
+  // contain a quote.
+  const signature = [LEDGER_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_KEY]
+    .map((key) => row(key)?.version ?? 0)
+    .join('.')
+  if (snapshot && snapshot.signature === signature) return snapshot
+  try {
+    snapshot = build(
+      signature,
+      JSON.parse(row(LEDGER_KEY)?.v ?? '[]'),
+      JSON.parse(row(MEDIA_STATE_KEY)?.v ?? '{"records":[]}'),
+      JSON.parse(row(ACADEMIC_CATALOGUE_KEY)?.v ?? '[]'),
+    )
+  } catch {
+    // A malformed document yields nothing rather than a thrown request, the
+    // same way the published-question snapshot treats it.
+    snapshot = build(signature, [], { records: [] }, [])
+  }
+  return snapshot
+}
+
+/** The caller's own cohort, or null for "no audience filter". */
+export function audienceOf(profile) {
+  const universityId = String(profile?.universityId ?? '').trim().toUpperCase() || null
+  const yearId = String(profile?.yearId ?? '').trim() || null
+  const year = yearNumber(yearId) ?? yearNumber(profile?.year)
+  // An unsettled enrolment applies no filter, matching `questionInAudience`:
+  // the alternative is a student with a half-finished profile seeing nothing.
+  return universityId || year !== null ? { universityId, yearId, year } : null
+}
+
+/**
+ * The audience this request is answered for.
+ *
+ * A student's is their own, full stop — `university` and `year` in the query
+ * string are read only for a console caller, who has no cohort of their own and
+ * previews other people's. That is the clamp: a student cannot widen, because
+ * their query is never consulted.
+ */
+async function audienceFor(req) {
+  if (hasConsoleAccess(req.identity?.role)) {
+    const universityId = String(req.query.university ?? '').trim().toUpperCase() || null
+    const yearId = String(req.query.year ?? '').trim() || null
+    const year = yearNumber(yearId)
+    return universityId || year !== null ? { universityId, yearId, year } : null
+  }
+  const [rows] = await pool.query(
+    'SELECT university_id AS universityId, year, year_id AS yearId FROM students WHERE user_id = ? LIMIT 1',
+    [req.identity.id],
+  )
+  return audienceOf(rows[0] ?? null)
+}
+
+/**
+ * Answer with the version this content is at, or 304 if the caller has it.
+ *
+ * `private` because the body is audience-specific and must never sit in a
+ * shared cache; `no-cache` because a browser may keep it forever provided it
+ * revalidates, which is exactly what the ETag makes cheap.
+ */
+function sendVersioned(req, res, signature, body) {
+  const etag = `W/"${signature}"`
+  res.set('ETag', etag)
+  res.set('Cache-Control', 'private, no-cache')
+  if (req.get('if-none-match') === etag) return res.status(304).end()
+  return res.json({ version: signature, ...body })
+}
+
+function scoped(items, audience) {
+  return audience ? items.filter((item) => inAudience(item, audience)) : items
+}
+
+export async function summaryHandler(req, res) {
+  const content = await loadStudentContent()
+  const audience = await audienceFor(req)
+  const counts = audience
+    ? countsFor(scoped([...content.byId.values()], audience))
+    : content.summary
+  return sendVersioned(req, res, content.signature, { counts })
+}
+
+export async function itemsHandler(req, res) {
+  const kind = String(req.query.kind ?? '')
+  const content = await loadStudentContent()
+  const audience = await audienceFor(req)
+
+  if (kind === 'article') {
+    // `view=index` is required, not defaulted: the whole point of this route is
+    // that an article's body never ships with the list, and a typo'd view must
+    // fail loudly rather than quietly hand back 10 MB of article bodies.
+    if (req.query.view !== 'index') return res.status(400).json({ error: 'articles require view=index' })
+    const articles = scoped(content.byKind.get('article') ?? [], audience)
+    return sendVersioned(req, res, content.signature, {
+      items: audience ? articles.map(articleIndexRow) : content.articleIndex,
+      questionLinks: audience
+        ? questionLinksFor(scoped(content.byKind.get('question') ?? [], audience))
+        : content.questionLinks,
+    })
+  }
+  if (!SLICE_KINDS.has(kind)) return res.status(400).json({ error: 'unsupported kind' })
+  return sendVersioned(req, res, content.signature, {
+    items: scoped(content.byKind.get(kind) ?? [], audience),
+  })
+}
+
+export async function questionsHandler(req, res) {
+  const content = await loadStudentContent()
+  const audience = await audienceFor(req)
+  const { subject, module: moduleId, topic, format } = req.query
+
+  let items = scoped(content.byKind.get('question') ?? [], audience)
+  if (format) items = items.filter((item) => (item.questionData?.format ?? DEFAULT_QUESTION_FORMAT) === format)
+  else items = items.filter(isAnswerableQuestion)
+  if (subject) items = items.filter((item) => item.subjectId === subject)
+  if (moduleId) items = items.filter((item) => itemModules('question', item).includes(String(moduleId)))
+  if (topic) {
+    items = items.filter((item) => (item.questionData?.tags?.topic?.trim() || item.fields?.Topic?.trim() || 'General') === topic)
+  }
+
+  // `managedQuestionToStudentQuestion` resolves `libraryIds`/`resourceIds` to
+  // titles against the whole catalogue. It gets the titles it needs and nothing
+  // else, so the projection keeps working against a slice.
+  const present = new Set(items.map((item) => item.id))
+  const stubs = []
+  for (const item of items) {
+    for (const id of [...list(item.questionData?.libraryIds), ...list(item.questionData?.resourceIds)]) {
+      if (present.has(id)) continue
+      present.add(id)
+      if (content.titles.has(id)) stubs.push({ id, title: content.titles.get(id) })
+    }
+  }
+  return sendVersioned(req, res, content.signature, { items: [...items, ...stubs] })
+}
+
+export async function itemHandler(req, res) {
+  const content = await loadStudentContent()
+  const item = content.byId.get(req.params.id)
+  // One 404 for "no such item" and for "not yours": which of the two it is
+  // would itself disclose that another cohort has an item by this id.
+  if (!item || !inAudience(item, await audienceFor(req))) return res.status(404).json({ error: 'not found' })
+  return sendVersioned(req, res, content.signature, { item })
+}
+
+const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((error) => {
+  console.error(error)
+  res.status(500).json({ error: error.message || 'server error' })
+})
+
+export function registerContentRoutes(app) {
+  app.get('/api/content/summary', requireAuthenticated, wrap(summaryHandler))
+  app.get('/api/content/items', requireAuthenticated, wrap(itemsHandler))
+  app.get('/api/content/questions', requireAuthenticated, wrap(questionsHandler))
+  app.get('/api/content/item/:id', requireAuthenticated, wrap(itemHandler))
+}
