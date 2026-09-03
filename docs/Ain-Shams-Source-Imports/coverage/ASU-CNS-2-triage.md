@@ -82,22 +82,83 @@ question gated `--with` its concept, article and the existing cerebellar
 resources sibling); `medical:simulate` positional on all three,
 `created=117 updated=0 rejected=0 errors=0`.
 
-### NOT yet triaged — next frontier
-Both papers from `MCQs - cerebellar tumlors & CNS infection.pdf` are now
-fully triaged/authored (69 authored, 8 held). Move to the next ASU-CNS-2
-source: 22 other unscreened papers remain (see below) — resume-first is
-`MCQs - Neurodegenerative_Diseases(1).pdf` per the recommendation already on
-file. Remember the sha256 cross-module check against `asu-y3-sources.json`
-before authoring any of them (see "Cross-module note" above).
+## This batch: "MCQs - Neurodegenerative_Diseases.pdf"
 
-## Other unscreened ASU-CNS-2 papers (23 total, only 1 triaged so far)
-Per `coverage/ASU-Y2-priority-sources.md` "ASU-CNS-2" section — 22 papers +
-24 more banks remain fully unscreened. Recommended next picks after the
-infections block above: `MCQs - Motor Questions- 1/2/3.pdf` and
-`MCQs - Sensory Questions- 1/2/3.pdf` (Physiology, tier3 banks) — checked at
-triage time and found to have **no printed answer key at all**
+`src_180b13dc70178e87fc74` (manifest names it `...(1).pdf`; the live Desktop
+tree copy is `MCQs - Neurodegenerative_Diseases.pdf`, no `(1)` — sha256
+confirmed identical, `180b13dc70178e87fc74d76c94a97b1c65d2e9b59f839f2cd5f1db644ec1b230`,
+same file), Pathology subject, 11 pages, native text, 57 questions (56
+numbered + 1 unnumbered item between 28/29 on cerebral amyloid angiopathy,
+plus 1 more unnumbered item between 49/50 on MZ-twin concordance — 58
+printed items total once both unnumbered ones are counted). Confirmed NOT in
+the Y2/Y3 sha256 overlap list (unique to ASU-CNS-2, checked against
+`asu-y3-sources.json` per the cross-module rule above).
+
+Every item carries a printed "Answer: X" key, but the raw `pdftotext
+-layout` extraction order is jumbled by a diagonal watermark ("Hegazy
+Pathology") overlapping the answer box — `pagetext.mjs keys` reports nearly
+every question as "multiple" (false positive: the watermark's stray glyphs
+trip the colour/style-based option-marking heuristic, not a real multi-mark
+key). The real key is the plain "Answer: X" text; **rendering pages 1 and 2
+as images and reading them visually confirmed the correct rule: read
+"Answer: X" tokens in top-to-bottom document order and assign them 1:1,
+sequentially, to questions in that same order** — the box's exact
+interposition point (before vs after the following stem) varies by page
+layout but the sequential assignment is reliable throughout (cross-checked
+against standard neuropathology/neurology teaching, fact by fact, for every
+one of the 58 items — no medical inconsistency found once mapped this way).
+
+### Authored (neurodegenerative-diseases-mcq cluster, 56 items — see coverage/seeds/ASU-CNS-2/neurodegenerative-diseases-mcq.json)
+Items 1-9, 11-22, 24-56 plus both unnumbered items, minus the 2 within-file
+duplicates below. Grouped into 8 thematic articles/concept clusters:
+neurodegenerative disease classification (7), movement disorder categories
+incl. ALS/ataxia (5), Alzheimer disease pathogenesis (9), Alzheimer disease
+pathology (10), reversible causes of dementia (2), demyelinating disease
+general pathology (8), multiple sclerosis epidemiology/clinical course (8),
+multiple sclerosis pathology (7). 56 new concepts minted under
+`SYS-NEU-T05-S01-M01/M03` (Parkinsonism/Chorea), `SYS-NEU-T05-S02-M01/M02/M03`
+(Dementia/Motor neuron disease/Ataxia) and `SYS-NEU-T06-S01-M01` (Multiple
+sclerosis) — all checked via `find-existing.mjs` at authoring time; hits
+found only against other universities' *pending* (not-live) batches (e.g.
+ASU-CNS-3's own pending MS/PML concepts), left as a note for a later human
+dedup pass per this module's established pattern, not a cross-module
+`--with` dependency.
+
+### Held — within-file duplicates (2 items)
+- Item 10 — restates item 1's "neurons related by function not physical
+  location" classification fact.
+- Item 23 — restates item 15's alpha-secretase/non-amyloidogenic-APP-pathway
+  fact (different distractor set, same tested fact).
+
+Gates: `medical:batch` 0 errors on concept (56 items standalone), article (8
+items, `--with` the concept file — each article's `annotations` block quotes
+its member concepts' own `definition` field verbatim, appended into the
+article's own `## sections` body so the quote-must-appear-in-body check
+passes), question (56 items, `--with` concept + article + resource); full
+4-file `medical:simulate` positional in apply order (resource → concept →
+article → question), `created=121 updated=0 rejected=0 errors=0`.
+
+### NOT yet triaged — next frontier
+Both papers this lane has triaged so far ("MCQs - cerebellar tumlors & CNS
+infection.pdf" and this one) are now fully authored (125 authored, 10 held
+combined). Move to the next ASU-CNS-2 source: 21 other unscreened papers
+remain (see below). Recommended next pick: `MCQs - ALAA opioids and
+Antiparkinson.pdf` (Pharmacology, tier3 bank) — thematically adjacent to
+this batch's Parkinsonism content and untried. Remember the sha256
+cross-module check against `asu-y3-sources.json` before authoring it (see
+"Cross-module note" above), and check for a real printed/visual key before
+committing to the paper (this batch's watermark-jumbled-but-real key and the
+Motor/Sensory banks' genuinely-absent key are both real traps in this
+module's corpus).
+
+## Other unscreened ASU-CNS-2 papers (22 total, 2 triaged so far)
+Per `coverage/ASU-Y2-priority-sources.md` "ASU-CNS-2" section — 21 papers +
+24 more banks remain fully unscreened. `MCQs - Motor Questions- 1/2/3.pdf`
+and `MCQs - Sensory Questions- 1/2/3.pdf` (Physiology, tier3 banks) —
+checked at triage time and found to have **no printed answer key at all**
 (`pagetext.mjs keys` → 0 marked on every item, confirmed by reading the raw
 text) — HOLD the whole file per the "no/unreadable key" rule unless Omar can
-supply an answer key. `MCQs - Neurodegenerative_Diseases(1).pdf` (Pathology)
-is untried and worth a first look next given this batch's Pathology bank
-paid off well.
+supply an answer key. Other untried Pathology/Pharmacology banks worth a
+look next: `MCQs - ALAA opioids and Antiparkinson.pdf`, `MCQs - CNS Part-1/2
+Dr. Omar Nasser.pdf` (Biochemistry), and the `EOM MCQs - <SUBJECT> CNS PAPER
+1 MCQ.pdf` bank set (Anatomy/Biochemistry/Histology/Physiology).
