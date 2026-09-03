@@ -7,6 +7,8 @@ import {
 } from '@/data/contentControl'
 import { DIFFICULTIES, type Difficulty, type Question } from '@/data/qbank'
 import { usePersistentState } from './usePersistentState'
+import { useIdentity } from './useIdentity'
+import { questionInAudience } from './questionAudience'
 
 function difficultyFor(item: ManagedContentItem): Difficulty {
   const value = item.questionData?.tags.intendedDifficulty ?? item.fields.Difficulty
@@ -59,8 +61,39 @@ export function publishedQuestionsFromCatalogue(catalogue: ManagedContentItem[])
     .filter((question): question is Question => question !== null)
 }
 
+/** Project the catalogue to the questions a student in this audience may sit. */
+export function publishedQuestionsForAudience(
+  catalogue: ManagedContentItem[],
+  audience: { universityId?: string; yearId?: string },
+): Question[] {
+  const { universityId, yearId } = audience
+  return catalogue
+    .map((item) =>
+      questionInAudience(item, universityId, yearId) ? managedQuestionToStudentQuestion(item, catalogue) : null,
+    )
+    .filter((question): question is Question => question !== null)
+}
+
 /** Published admin content is the single source of truth for every student question surface. */
 export function usePublishedQuestions() {
   const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   return useMemo(() => publishedQuestionsFromCatalogue(catalogue), [catalogue])
+}
+
+/**
+ * The published questions this student may sit, scoped to their university and
+ * year. Every student-facing question surface (the Question Bank, Adaptive
+ * Study) must use an audience gate so a Helwan question never reaches a Kasr
+ * student; the unscoped `usePublishedQuestions` is for admin and cross-cohort
+ * surfaces (question-of-the-day pinning, rooms) that deliberately see the whole
+ * bank.
+ */
+export function useScopedPublishedQuestions() {
+  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const { audience } = useIdentity()
+  const { universityId, yearId } = audience
+  return useMemo(
+    () => publishedQuestionsForAudience(catalogue, { universityId, yearId }),
+    [catalogue, universityId, yearId],
+  )
 }
