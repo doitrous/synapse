@@ -151,3 +151,24 @@ export async function readSubscriberDisplay() {
     return { ...DEFAULT_SUBSCRIBER_DISPLAY }
   }
 }
+
+/**
+ * Writes the document, versioned. Same shape as every other admin-owned
+ * app_state write in this codebase (see `POST /api/content-reports/:id/delete`
+ * in index.js): a version row first, then the live row, in one transaction.
+ */
+export async function writeSubscriberDisplay(doc, actorId) {
+  const v = JSON.stringify(doc)
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [SUBSCRIBER_DISPLAY_STATE_KEY, v, actorId])
+    await conn.query('INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)', [SUBSCRIBER_DISPLAY_STATE_KEY, v])
+    await conn.commit()
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}
