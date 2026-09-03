@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { dailyMultiplierPercent, syntheticValueAt, computeSubscriberCount } from './subscriberCount.js'
+import { dailyMultiplierPercent, syntheticValueAt, computeSubscriberCount, publicSubscriberCountPayload, DEFAULT_SUBSCRIBER_DISPLAY, SUBSCRIBER_DISPLAY_STATE_KEY } from './subscriberCount.js'
 
 test('the daily multiplier always lands within [minPct, maxPct]', () => {
   for (let day = 0; day < 2000; day++) {
@@ -72,4 +72,25 @@ test('computeSubscriberCount always returns a whole number and a non-negative ra
   const { value, ratePerSecond } = computeSubscriberCount(doc, { realCountNow: 115, now: doc.epoch + 10 * 86_400_000 })
   assert.ok(Number.isInteger(value))
   assert.ok(ratePerSecond >= 0)
+})
+
+test('a disabled document reports disabled with no value', () => {
+  const doc = { ...DEFAULT_SUBSCRIBER_DISPLAY, enabled: false }
+  assert.deepEqual(publicSubscriberCountPayload(doc, { realCountNow: 500, now: Date.now() }), { enabled: false })
+})
+
+test('an enabled document reports enabled, a value, and a rate', () => {
+  const doc = { enabled: true, base: 790, epoch: Date.UTC(2026, 0, 1), realCountAtEpoch: 100, minPct: 0.3, maxPct: 2.5 }
+  const payload = publicSubscriberCountPayload(doc, { realCountNow: 100, now: doc.epoch })
+  assert.equal(payload.enabled, true)
+  assert.ok(Number.isInteger(payload.value))
+  assert.equal(typeof payload.ratePerSecond, 'number')
+})
+
+test('the state key and default document match the spec defaults', () => {
+  assert.equal(SUBSCRIBER_DISPLAY_STATE_KEY, 'nishany-subscriber-display-v1')
+  assert.equal(DEFAULT_SUBSCRIBER_DISPLAY.enabled, false)
+  assert.equal(DEFAULT_SUBSCRIBER_DISPLAY.base, 790)
+  assert.equal(DEFAULT_SUBSCRIBER_DISPLAY.minPct, 0.3)
+  assert.equal(DEFAULT_SUBSCRIBER_DISPLAY.maxPct, 2.5)
 })

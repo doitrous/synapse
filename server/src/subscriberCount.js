@@ -80,3 +80,27 @@ export function computeSubscriberCount(doc, { realCountNow, now = Date.now() }) 
   const realDelta = Math.max(0, realCountNow - doc.realCountAtEpoch)
   return { value: Math.round(syntheticNow + realDelta), ratePerSecond }
 }
+
+export const SUBSCRIBER_DISPLAY_STATE_KEY = 'nishany-subscriber-display-v1'
+
+/**
+ * `epoch: 0` and `realCountAtEpoch: 0` are placeholders for a key that has
+ * never been written — harmless because `enabled` is also `false`, and
+ * `nextSubscriberDisplayDoc` (Task 4) always re-captures both the first time
+ * anyone actually saves this document, base unchanged or not.
+ */
+export const DEFAULT_SUBSCRIBER_DISPLAY = {
+  enabled: false,
+  base: 790,
+  epoch: 0,
+  realCountAtEpoch: 0,
+  minPct: 0.3,
+  maxPct: 2.5,
+}
+
+/** What `GET /api/public/subscriber-count` sends. Hides everything when off. */
+export function publicSubscriberCountPayload(doc, { realCountNow, now = Date.now() }) {
+  if (!doc?.enabled) return { enabled: false }
+  const { value, ratePerSecond } = computeSubscriberCount(doc, { realCountNow, now })
+  return { enabled: true, value, ratePerSecond }
+}
