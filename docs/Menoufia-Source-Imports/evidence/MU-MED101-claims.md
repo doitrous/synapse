@@ -4537,3 +4537,47 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-FND-42A860647C4490
+
+## concept_id
+CON-FND-42A860647C4490
+
+## subject
+Glutathione
+
+## predicate
+is described by
+
+## object
+Glutathione is a tripeptide of three amino acids -- glutamic acid, cysteine and glycine -- linked by peptide bonds, with an unusual gamma-linkage joining the glutamate and cysteine residues.
+
+## display_text
+Glutathione is a tripeptide of three amino acids -- glutamic acid, cysteine and glycine -- linked by peptide bonds, with an unusual gamma-linkage joining the glutamate and cysteine residues. It is the standard worked example distinguishing a tripeptide from a dipeptide (e.g. anserine), a larger oligopeptide hormone (e.g. the nonapeptide oxytocin) or a single free amino acid (e.g. glycine).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Biochemistry First Module Exam 2019 (Support 43) paper

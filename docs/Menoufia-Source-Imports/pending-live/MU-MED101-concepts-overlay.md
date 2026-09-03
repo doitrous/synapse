@@ -71,6 +71,21 @@
   concept/MU-MED101-concepts-2.md's own header for the full simulate
   command).
 
+  Lane 4 (biochem2019 cluster) extends CON-FND-F91310521FC982's field_notes
+  with one more tested item (leucine-is-ketogenic, biochem2019-q02) and adds
+  two more rows at the end of this file for the biochem2019 cluster's own
+  exact-fact reuses:
+    docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md --
+      CON-FND-BE919386760579 (primary structure = amino acid sequence held
+      by peptide bonds).
+    docs/import-ready/concept/AU-MED-102-biochem-structural-concepts.md --
+      CON-FND-68CA299502EB27 (lysine has a net positive charge at
+      physiological pH).
+  Both taught by this lane's existing ART-MU101-PROTEINAA-C5C4756B article,
+  extended with these two ids (plus this lane's own new
+  CON-FND-42A860647C4490) in its own ## related_concepts. See
+  question/MU-MED101-biochem2019-mcq.md's header for the simulate command.
+
   Import: Admin > Concepts > Import.
 -->
 
@@ -180,7 +195,7 @@ The book closes the amino acid chapter with one table: which amino acids are glu
 +MU-MED101
 
 ## field_notes
-mu: Tested as f1supp43-biochemphys-q36 (identifying leucine as purely ketogenic, not glucogenic) in "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf" (mu_34ff78aabb8bfd729922), Biochemistry/Physiology sub-block p21, red text on stem and option.
+mu: Tested as f1supp43-biochemphys-q36 (identifying leucine as purely ketogenic, not glucogenic) in "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf" (mu_34ff78aabb8bfd729922), Biochemistry/Physiology sub-block p21, red text on stem and option. Also tested as biochem2019-q02 (same leucine-is-ketogenic fact) in "EOM - Biochemistry - First Module Exam 2019 - Support 43.pdf" (mu_a6b4be6c7c2e5e8e3232), p2, red-text + underline key confirmed by render.
 
 ---
 
@@ -423,3 +438,47 @@ The Barr body is one X chromosome switched off, so a nucleus shows one fewer Bar
 
 ## field_notes
 mu: Tested as answerlabeled-q35 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p12, yellow-highlight key.
+
+---
+
+# Item
+
+## id
+CON-FND-BE919386760579
+
+## label
+Primary structure is the amino acid sequence held together by peptide bonds, running from an N-terminus amino acid on the left to a C-terminus amino acid on the right, synthesized in that same N-to-C direction, and it is the first of the four orders that the higher orders are built from
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as biochem2019-q03 ("The primary structure of protein represents" -> "Linear sequence of amino acids joined by peptide bond") in "EOM - Biochemistry - First Module Exam 2019 - Support 43.pdf" (mu_a6b4be6c7c2e5e8e3232), p2, red-text + underline key confirmed by render.
+
+---
+
+# Item
+
+## id
+CON-FND-68CA299502EB27
+
+## label
+Lysine has a net positive charge at physiological pH
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as biochem2019-q04 ("Which... amino acids carries a net positive charge at the physiological pH?" -> Lysine) in "EOM - Biochemistry - First Module Exam 2019 - Support 43.pdf" (mu_a6b4be6c7c2e5e8e3232), p2, red-text + underline key confirmed by render.

@@ -5,6 +5,7 @@
 | f1supp43-biochemphys | 37 | 1 | 0 | 38 |
 | f1supp43-embryo | 35 | 1 | 0 | 36 |
 | f1supp43-histo | 17 | 5 | 0 | 22 |
+| biochem2019 | 4 | 0 | 0 | 4 |
 
 ## Held
 - answerlabeled-q06 — image-dependent -- stem reads "What is the type of the muscle in the following diagram?"; the correct option depends on identifying the pictured muscle shape, which cannot be recovered from text alone. Held per rule 3/9.
@@ -28,3 +29,7 @@
 
 ## Remaining
 (none)
+
+## Notes
+- biochem2019 cluster: "EOM - Biochemistry - First Module Exam 2019 - Support 43.pdf" (mu_a6b4be6c7c2e5e8e3232), a tier-1 paper named in coverage/MU-Y1-priority-sources.md but not yet opened by prior lanes. p1 is a cover page; p2-3 are the answered Model A paper (4 MCQs in section I; sections II-IV are written Define/Enumerate/True-False, out of MCQ scope); p4-6 are a duplicate unanswered scan of the same paper. All 4 MCQs authored, 0 held. Key convention: red-text + underline on the correct option (new to this module -- Support 43 uses yellow-fill, Answer-Labeled uses plain red-text).
+- Re-surveyed coverage/MU-Y1-priority-sources.md's MU-MED101 tier-1 list (11 papers total) against files landed so far. Still open, not yet authored by any lane: `mu_33f3bc32616ff0e4d827` (Anatomy Embryology Histology - Unanswered, no key -- likely a HOLD-all source, skip), `mu_f63b294e2eeab7da0ff8` / `mu_186bd9afca2e2121edae` (Biochemistry and Physiology - Variant A / Variant B), `mu_ec923f6985ed9baa6620` (Support 43 - Alternate), `mu_8cacfd06664367bf5edf` (Support 43 Final - Answered), `mu_17ae62e8491454921061` (Support 43 Final - Unanswered, no key -- likely skip), `mu_c84559a7a1aaec7edf2d` (Physiology / General Physiology Midterm Past Questions 2017 - Support 43), `mu_4967f73eab0078b46ac0` (Physiology / Past Exams MCQ and Written - Answers Unverified). Next resume-first candidate: `mu_8cacfd06664367bf5edf` (Support 43 Final - Answered) or `mu_c84559a7a1aaec7edf2d` (Physiology Midterm 2017), both named "Answered"/"Support 43" and likely to carry a recoverable key.

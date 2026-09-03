@@ -4124,3 +4124,43 @@ The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separ
 
 ## counts_as_claim_evidence
 no
+
+---
+
+# Item
+
+## id
+CIT-FND-42A860647C4490
+
+## claim_id
+CLM-FND-42A860647C4490
+
+## resource_id
+src_a6b4be6c7c2e5e8e3232
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following is a tripeptide? -> (C) Glutathione
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Model (A), section I "Choose the correct answer", Q1
+
+## locator_detail
+OCR-extracted (p2 was garbled in the native text layer; ocr'd with pagetext.mjs ocr); red-text + underline key confirmed by render, since pagetext.mjs keys' auto-read agreed but the paper's marking convention (colour + underline, not a highlight fill) was new to this module and worth confirming visually.
+
+## context_note
+The exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no

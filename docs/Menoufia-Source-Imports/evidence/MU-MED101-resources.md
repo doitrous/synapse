@@ -89,3 +89,46 @@ en
 
 ## processing_status
 pending
+
+---
+
+# Item
+
+## id
+src_a6b4be6c7c2e5e8e3232
+
+## title
+EOM - Biochemistry - First Module Exam 2019 - Support 43 (Menoufia MED101 EOM exam)
+
+## institution
+Faculty of Medicine, Menoufia University
+
+## collection_id
+mu-y1-med101-foundation-1
+
+## source_relative_path
+Semester 1/MED 101 - Foundation 1/Biochemistry/06 EOM Exams/EOM - Biochemistry - First Module Exam 2019 - Support 43.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2019-10-27
+
+## accessed_at
+
+
+## page_count
+6
+
+## sha256
+a6b4be6c7c2e5e8e3232dc4d76d6ef4c7403a24f3d3ff595736a1731a0c4a094
+
+## processing_status
+pending

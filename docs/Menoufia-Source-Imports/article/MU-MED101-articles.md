@@ -1057,12 +1057,15 @@ CON-FND-6AE7C832CAA796
 CON-FND-3D0104B8490B14
 CON-FND-F91310521FC982
 CON-FND-7C8A02831B3243
+CON-FND-BE919386760579
+CON-FND-68CA299502EB27
+CON-FND-42A860647C4490
 
 ## related_articles
 
 
 ## aliases
-Peptide bond | Protein secondary structure | Metalloproteins | Ketogenic vs glucogenic amino acids
+Peptide bond | Protein secondary structure | Metalloproteins | Ketogenic vs glucogenic amino acids | Primary structure | Tripeptide | Basic amino acids
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
@@ -1071,14 +1074,14 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 8
 
 ## summary
-How amino acids link together (the peptide bond, a carboxyl-to-amino condensation), the four levels of protein structure with a focus on secondary structure (alpha helix, beta sheet), one worked metalloprotein example (ceruloplasmin), one worked amide-of-an-acidic-amino-acid example (glutamine, from glutamic acid), and the amino-acid classification table distinguishing purely ketogenic (leucine, lysine) from glucogenic and mixed amino acids.
+How amino acids link together (the peptide bond, a carboxyl-to-amino condensation), the four levels of protein structure with a focus on primary and secondary structure (alpha helix, beta sheet), peptide classification by chain length (dipeptide through polypeptide, with glutathione as the worked tripeptide example), one worked metalloprotein example (ceruloplasmin), one worked amide-of-an-acidic-amino-acid example (glutamine, from glutamic acid), the amino-acid classification table distinguishing purely ketogenic (leucine, lysine) from glucogenic and mixed amino acids, and which amino acids carry a net charge at physiological pH.
 
 ## sections
 ### Definition
-A peptide bond forms by condensation of the carboxyl group of one amino acid with the amino group of the next, releasing one water molecule; many such bonds link amino acids into a polypeptide/protein. Protein structure is described at four levels: primary (the linear amino-acid sequence), secondary (local, repeating backbone folding patterns stabilised by hydrogen bonds -- the alpha helix and beta-pleated sheet are the two classic examples), tertiary (the overall 3D fold of one chain) and quaternary (the assembly of multiple separate chains).
+A peptide bond forms by condensation of the carboxyl group of one amino acid with the amino group of the next, releasing one water molecule; many such bonds link amino acids into a polypeptide/protein. Peptides are also named by how many residues they contain: a dipeptide (two, e.g. anserine), a tripeptide (three, e.g. glutathione -- built from glutamic acid, cysteine and glycine), and progressively larger oligopeptides such as the nonapeptide hormone oxytocin (nine residues) and the decapeptide kinin kallidin (ten residues). Protein structure is described at four levels: primary (the linear amino-acid sequence, held together by peptide bonds and specific to each protein), secondary (local, repeating backbone folding patterns stabilised by hydrogen bonds -- the alpha helix and beta-pleated sheet are the two classic examples), tertiary (the overall 3D fold of one chain) and quaternary (the assembly of multiple separate chains).
 
 ### Mechanism
-The peptide bond has partial double-bond character (resonance with the adjacent carbonyl), making it rigid, planar and trans-configured, with rotational freedom confined to the bonds on either side of it. A metalloprotein depends on a tightly bound metal cofactor for its function -- ceruloplasmin binds six to seven copper atoms and also has ferroxidase activity. Among the twenty amino acids, only leucine and lysine are purely ketogenic (degraded entirely to ketone-body precursors, with no glucogenic pathway); glutamine is the uncharged amide derivative of the acidic amino acid glutamic acid, exactly as asparagine is the amide of aspartic acid.
+The peptide bond has partial double-bond character (resonance with the adjacent carbonyl), making it rigid, planar and trans-configured, with rotational freedom confined to the bonds on either side of it. A metalloprotein depends on a tightly bound metal cofactor for its function -- ceruloplasmin binds six to seven copper atoms and also has ferroxidase activity. Among the twenty amino acids, only leucine and lysine are purely ketogenic (degraded entirely to ketone-body precursors, with no glucogenic pathway); glutamine is the uncharged amide derivative of the acidic amino acid glutamic acid, exactly as asparagine is the amide of aspartic acid. At physiological pH, the basic amino acids -- lysine and arginine reliably, histidine less so -- carry a net positive charge from a protonated side-chain amino or guanidino group, while the acidic amino acids aspartic acid and glutamic acid carry a net negative charge from an ionised side-chain carboxyl group.
 
 ### Key determinants
 Which two functional groups condense (the carboxyl group of one amino acid, the amino group of the next) determines the peptide bond, and its partial double-bond character determines its planarity and restricted rotation. Whether an amino acid's carbon skeleton yields only acetyl-CoA/ketone-body precursors, only gluconeogenic intermediates, or both, determines whether it is classed as ketogenic, glucogenic, or mixed.
