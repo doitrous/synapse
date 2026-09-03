@@ -6955,3 +6955,1971 @@ needs_evidence
 drafted_not_reviewed
 
 ---
+# Item
+
+## label
+Mitochondria are absent from the bacterial (prokaryotic) cell
+
+## id
+CON-INF-8A1E540FBBB222
+
+## canonical_key
+bacteria.cell-structure.no-mitochondria
+
+## aliases
+Bacteria lack mitochondria
+Absence of membrane-bound organelles in bacteria
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Bacteria are prokaryotes and, unlike eukaryotic cells, possess no membrane-bound organelles at all, including mitochondria; ATP generation instead occurs across the bacterial cytoplasmic membrane itself, which carries the electron transport chain that in eukaryotes is confined to the mitochondrion.
+
+## explicit_objective
+State that bacteria, as prokaryotes, lack mitochondria and every other membrane-bound organelle, and that oxidative phosphorylation instead occurs across the cytoplasmic membrane.
+
+## pitfalls
+Assuming a structure common to eukaryotic cells (mitochondria, a nucleus, endoplasmic reticulum) must also be present in bacteria -- the prokaryote/eukaryote distinction is exactly what this kind of question tests.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Bacterial cell structure
+
+## microtopic
+Prokaryote vs eukaryote structure
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-8A1E540FBBB222
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q1: One of the following is NOT present in the bacterial cell / c) Mitochondria.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p1 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "mitochondria bacterial cell" and "mitochondria" -- live hits were unrelated (eukaryotic mitochondrial-abundance concepts in other systems), no same-grain bacteria-lack-mitochondria concept exists in live state or docs/*-Source-Imports.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+M protein is a Streptococcus pyogenes virulence factor, not a Staphylococcus aureus one
+
+## id
+CON-INF-58FD0B22F67C48
+
+## canonical_key
+bacteria.virulence-factor.m-protein-is-streptococcal-not-staphylococcal
+
+## aliases
+M protein staphylococcus exception
+Staphylococcus aureus virulence factor list
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+M protein is an antigenically variable, antiphagocytic surface protein produced by Streptococcus pyogenes and used for streptococcal serotyping; it is not produced by, and is not a virulence factor of, Staphylococcus aureus, whose own virulence factors instead include beta-lactamases, coagulase, enterotoxins and Protein A.
+
+## explicit_objective
+Identify M protein as a Streptococcus pyogenes virulence factor that does not belong on a list of Staphylococcus aureus virulence factors.
+
+## pitfalls
+Assuming any well-known Gram-positive-coccus virulence factor could belong to either staphylococci or streptococci interchangeably -- M protein is genus-specific to Streptococcus pyogenes.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Staphylococcus aureus virulence factors
+
+## microtopic
+Staphylococcal vs streptococcal virulence factors
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-58FD0B22F67C48
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q7: One of the following is NOT a virulence factor in Staphylococcus aureus / d) M protein.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p3 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "m protein staphylococcus" and "m protein" -- this module's own lane-1 concept CON-INF-FFBDF62FF38084 (M protein divides S. pyogenes into serotypes) and Ain-Shams CON-INF (M protein as a TD antigen) both test M protein's streptococcal role, a different grain from this item's 'NOT a staph factor' exclusion fact; no same-grain match found, minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+The cytoplasmic membrane is an essential bacterial structure, unlike the capsule, fimbriae, flagella or plasmids
+
+## id
+CON-INF-D92614F79174BD
+
+## canonical_key
+bacteria.cell-structure.cytoplasmic-membrane-essential
+
+## aliases
+Essential vs accessory bacterial structures
+Obligatory bacterial cell membrane
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Every living bacterial cell requires a cytoplasmic membrane, which bounds the cell, controls transport and hosts the electron transport chain; by contrast the capsule, fimbriae (pili), flagella and plasmids are accessory structures that many bacterial species lack entirely while remaining fully viable, so only the cytoplasmic membrane is truly obligatory among these options.
+
+## explicit_objective
+Distinguish the cytoplasmic membrane, an obligatory bacterial structure, from the capsule, fimbriae, flagella and plasmids, all of which are optional accessory structures.
+
+## pitfalls
+Treating a common or medically important accessory structure (such as the capsule or a plasmid) as universally required -- many bacterial species lack each of these and survive normally.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Bacterial cell structure
+
+## microtopic
+Essential vs accessory bacterial structures
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-D92614F79174BD
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q8: One of the following is an essential structure of the bacterial cell / d) Cytoplasmic membrane.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p3 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "essential structure" -- one hit (Assiut AUN-INI-105-ch4-mcq.md, 'Essential structures in a bacterial cell') tests a different-grain fact (nuclear body/nucleoid as the essential answer against a Nuclear body/Fimbriae/Inclusion granules/Plasmid/Capsule option set), not this item's cytoplasmic-membrane answer against a different option set; no same-grain match, minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Calcium dipicolinate is a chemical component specific to the bacterial spore core
+
+## id
+CON-INF-E886F22A5A9552
+
+## canonical_key
+bacteria.spore.calcium-dipicolinate
+
+## aliases
+Dipicolinic acid in spores
+Spore heat-resistance chemistry
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Calcium dipicolinate (the calcium salt of dipicolinic acid) is concentrated in the core of the bacterial endospore, where it complexes with spore DNA and contributes substantially to the spore's characteristic resistance to heat, desiccation and chemical agents; it is not found in the vegetative cell wall, flagella, pili or outer membrane.
+
+## explicit_objective
+Locate calcium dipicolinate specifically within the bacterial spore core and link it to spore heat resistance.
+
+## pitfalls
+Confusing calcium dipicolinate, a spore-specific chemical marker, with the general survival-function description of spores (dormancy under nutrient/heat/dryness stress) -- the two are related but distinct facts about the same structure.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Bacterial spores
+
+## microtopic
+Spore chemistry and heat resistance
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-E886F22A5A9552
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q9: Calcium dipicolinate is found in / d) Spores.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p3 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "calcium dipicolinate" and "dipicolinic" -- no candidate record exists in live state or docs/*-Source-Imports. This module's own lane-1 concept CON-INF-EE36D7C199E6D8 (bacterial spore survival function) is a different grain, spore function versus spore chemical composition, and was not merged, per the rejected_merge_candidate_ids note below.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Peptidoglycan protects the bacterial cell from osmotic damage
+
+## id
+CON-INF-908F93CFF86B24
+
+## canonical_key
+bacteria.cell-wall.peptidoglycan-osmotic-protection
+
+## aliases
+Peptidoglycan rigidity and osmotic lysis
+Cell wall resistance to osmotic pressure
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Peptidoglycan (murein) forms a rigid, cross-linked mesh around the bacterial cell that mechanically resists the high internal osmotic pressure of the cytoplasm, preventing the cell from swelling and lysing in a hypotonic environment; this is why cell-wall-active antibiotics such as penicillins, which block peptidoglycan cross-linking, cause bacterial lysis and death.
+
+## explicit_objective
+State that peptidoglycan is the rigid bacterial cell-wall layer that mechanically protects the cell from osmotic lysis, and link this to the mechanism of cell-wall-active antibiotics.
+
+## pitfalls
+Attributing osmotic protection to the cytoplasmic membrane or an outer-membrane component (LPS, teichoic acid) rather than to the load-bearing peptidoglycan mesh itself.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Bacterial cell wall
+
+## microtopic
+Peptidoglycan structure and function
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-908F93CFF86B24
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q10: The major component which protects bacterial cell from osmotic damage is / c) Peptidoglycan.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p4 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "osmotic" and "peptidoglycan osmotic" -- live hits were unrelated (immunology/haematology osmotic-pressure concepts), and this module's own lane-1 concept CON-INF-B8A4A58D6E2563 (peptidoglycan is 50% of the Gram-positive wall by mass) is a different grain, composition proportion versus osmotic-protection mechanism; no same-grain match, minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+The anterior nares are the classic Staphylococcus aureus carriage source in a neonatal-nursery sepsis outbreak
+
+## id
+CON-INF-41251ED119A62B
+
+## canonical_key
+bacteria.staph-aureus.nasal-carriage-nursery-outbreak-source
+
+## aliases
+Nasal carriage and nursery outbreaks
+Staph aureus reservoir in outbreak investigation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The anterior nares (nose) are the principal carriage site of Staphylococcus aureus in healthy individuals, including hospital staff and carers, and nasal carriage among staff/contacts is the classic source traced in neonatal-nursery Staphylococcus aureus sepsis outbreaks, spread to infants via hands or droplets; this is the basis for nasal-carriage screening and decolonisation as an outbreak-control measure.
+
+## explicit_objective
+Identify the anterior nares as the classic Staphylococcus aureus carriage source traced in a neonatal-nursery sepsis outbreak investigation.
+
+## pitfalls
+Assuming the colon, throat or another normal-flora site is the relevant staphylococcal reservoir for this specific outbreak scenario -- the nose is the site the teaching and outbreak-control literature specifically implicates.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Normal flora and Staphylococcus aureus carriage
+
+## microtopic
+Outbreak epidemiology
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-41251ED119A62B
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q1 (Final 40): outbreak of sepsis... new-born nursery... MOST likely source of the organism / b) Nose.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p6 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "newborn nursery" and "nasal carriage" -- no candidate record exists in live state or docs/*-Source-Imports.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Oral polio vaccine is given as a birth dose in the standard infant immunization schedule
+
+## id
+CON-INF-EB35B37A12423E
+
+## canonical_key
+immunization.schedule.opv-birth-dose
+
+## aliases
+OPV zero dose at birth
+Birth-dose immunizations
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Oral polio vaccine (OPV) is administered as a "zero dose" immediately at birth in the standard immunization schedule referenced by this exam, ahead of the infant's first scheduled clinic visit, to provide early mucosal protection against poliovirus, distinguishing it from vaccines such as DPT and Hib that begin later in the primary infant series.
+
+## explicit_objective
+State that oral polio vaccine (zero dose) is administered immediately at birth, ahead of the DPT and Hib series which begin later in infancy.
+
+## pitfalls
+Assuming every routine infant vaccine (DPT, Hib) is given at birth rather than starting at around six weeks of age; some national schedules also give a Hepatitis B birth dose, but this exam's own printed key names OPV for the birth-dose item.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Immunization schedule
+
+## microtopic
+Birth-dose vaccines
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-EB35B37A12423E
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q3 (Final 40): Which ONE of the following immunizations should be administrated immediately after birth / e) Oral Polio virus vaccine.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p7 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "hepatitis b vaccine" and "oral polio vaccine birth" -- no candidate record exists in live state or docs/*-Source-Imports.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Chlamydiae life cycle alternates an infectious extracellular elementary body with a replicating intracellular reticulate body
+
+## id
+CON-INF-DB2A6206156886
+
+## canonical_key
+bacteria.chlamydiae.elementary-reticulate-body-life-cycle
+
+## aliases
+Elementary body vs reticulate body
+Chlamydial developmental cycle
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Chlamydiae are obligate intracellular bacteria with a unique two-form developmental cycle: the small, metabolically inactive elementary body is the infectious extracellular form that attaches to and enters a host cell, where it reorganises into the larger, metabolically active reticulate body that replicates before condensing back into new elementary bodies released to infect further cells; chlamydiae are obligate intracellular organisms because they cannot generate their own ATP, not because they lack ribosomes, which they do possess.
+
+## explicit_objective
+Describe the chlamydial life cycle as an extracellular infectious elementary body alternating with an intracellular replicating reticulate body, and state that their obligate intracellular lifestyle reflects an ATP deficiency, not an absence of ribosomes.
+
+## pitfalls
+Reversing which form is extracellular/infectious (elementary body) versus intracellular/replicating (reticulate body); assuming lifelong immunity follows infection, or that all three medically important chlamydiae share a purely human reservoir, when Chlamydophila psittaci is a bird-reservoir zoonosis.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Chlamydiae biology
+
+## microtopic
+Chlamydial developmental cycle
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-DB2A6206156886
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q2 (Final 41 دور أول): Regarding chlamydiae, which one of the following is the most accurate / c) Their life cycle consists of elementary bodies outside of cells and reticulate bodies within cells.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p9 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "chlamydia", "chlamydiae", "elementary body" and "reticulate bodies" -- hits were unrelated (Gram-stain-limitations and ophthalmia-neonatorum concepts naming Chlamydia only in passing), no same-grain elementary-body/reticulate-body life-cycle concept exists in live state or docs/*-Source-Imports.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Aminoglycosides inhibit bacterial protein synthesis by irreversibly binding the 30S ribosomal subunit
+
+## id
+CON-INF-00087979C01C14
+
+## canonical_key
+pharmacology.aminoglycoside.30s-protein-synthesis-inhibition
+
+## aliases
+Aminoglycoside mechanism of action
+30S ribosomal subunit binding
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Aminoglycosides bind irreversibly to the bacterial 30S ribosomal subunit, causing misreading of the genetic code and inhibiting bacterial protein synthesis; because the binding is irreversible, the effect is bactericidal, distinguishing aminoglycosides from cell-wall-active (beta-lactam), DNA-gyrase-active (fluoroquinolone) and folate-pathway-active (sulfonamide/trimethoprim) antibiotic classes.
+
+## explicit_objective
+State that aminoglycosides act by irreversibly binding the bacterial 30S ribosomal subunit to inhibit protein synthesis, and distinguish this mechanism from cell-wall, DNA-gyrase and folate-pathway antibiotic targets.
+
+## pitfalls
+Confusing the aminoglycoside target (30S ribosomal subunit, protein synthesis) with the target of a different antibiotic class (cell wall, DNA gyrase or folate metabolism) offered as distractors in the same item.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Antibiotic mechanisms of action
+
+## microtopic
+Protein-synthesis-inhibiting antibiotics
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-00087979C01C14
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q4 (Final 41 دور أول): aminoglycosides... mode of action / d) Inhibition of protein synthesis.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p10 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "aminoglycoside" -- hits (ASU-INF 30S-subunit resistance-mutation concept, ASU-CNS-3 intrathecal-route concept) are different-grain (resistance mechanism and administration route, not this item's basic mode-of-action fact), no same-grain match, minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Klebsiella pneumoniae is a lactose-fermenting, mucoid-capsulated Gram-negative bacillus that causes necrotizing pneumonia in alcoholic patients
+
+## id
+CON-INF-5220B857FDB768
+
+## canonical_key
+bacteria.klebsiella-pneumoniae.mucoid-capsule-alcoholic-pneumonia
+
+## aliases
+Klebsiella pneumoniae identification triad
+Friedlander's pneumonia
+Currant-jelly sputum organism
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Klebsiella pneumoniae is a lactose-fermenting Gram-negative bacillus that forms pink, mucoid colonies on MacConkey agar because of its heavy polysaccharide capsule, and is the classic cause of severe, necrotising lobar pneumonia (historically Friedlander's pneumonia) in alcoholic and otherwise debilitated patients; a Gram-negative bacillary sputum picture in a homeless or alcoholic patient with severe pneumonia, and the lactose-fermenting mucoid-capsule laboratory triad, both point to this organism.
+
+## explicit_objective
+Identify Klebsiella pneumoniae from its classic laboratory triad (lactose fermentation, mucoid capsulated colonies on MacConkey agar) and its classic clinical association with necrotising pneumonia in an alcoholic patient.
+
+## pitfalls
+Attributing the mucoid-capsule/lactose-fermenter laboratory picture to a different Enterobacteriaceae genus (Serratia, which pigments rather than forms a mucoid capsule) or to a non-lactose-fermenting organism (Pseudomonas aeruginosa).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Klebsiella pneumoniae
+
+## microtopic
+Gram-negative bacillary pneumonia
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-5220B857FDB768
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q5 (Final 41 دور أول): homeless, alcoholic man... Gram-negative bacilli... likely causative agent / d) Klebsiella pneumoniae. Also Q1 (Final 41 دور تاني): necrotizing lobar pneumonia... lactose fermenter; pink mucoid colonies... luxuriant capsule / a) Klebsiella pneumoniae.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p11 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "klebsiella pneumoniae" -- no candidate record exists in live state or docs/*-Source-Imports. Tested twice in this compilation (a generic Gram-negative-bacilli-in-an-alcoholic vignette and the classic lactose-fermenter/mucoid-capsule/MacConkey triad vignette); both point to the same organism identity, so both questions share this one concept.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Enterococcus species are catalase-negative, non-haemolytic Gram-positive cocci that cause recurrent UTI progressing to bacteraemia in the elderly
+
+## id
+CON-INF-E1D2402DA6315C
+
+## canonical_key
+bacteria.enterococcus.recurrent-uti-bacteraemia-elderly
+
+## aliases
+Enterococcus urosepsis
+Catalase-negative non-haemolytic Gram-positive cocci in UTI
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Enterococcus species are catalase-negative, typically non-haemolytic (gamma-haemolytic) Gram-positive cocci and a classic cause of recurrent urinary tract infection in elderly patients, which can progress to bacteraemia/urosepsis presenting with fever, chills and confusion; this combination of catalase-negative, non-haemolytic morphology with a recurrent-UTI-to-bacteraemia clinical course distinguishes Enterococcus from the alpha-haemolytic viridans streptococci and from the catalase-positive staphylococci.
+
+## explicit_objective
+Recognise Enterococcus species, by its catalase-negative, non-haemolytic Gram-positive cocci morphology, as the classic cause of recurrent UTI progressing to bacteraemia in an elderly patient.
+
+## pitfalls
+Selecting a catalase-positive staphylococcal species (ruled out by a catalase-negative result) or an alpha-haemolytic streptococcal species (ruled out by a non-haemolytic result) instead of Enterococcus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Enterococcus in urinary tract infection
+
+## microtopic
+Gram-positive cocci identification by haemolysis and catalase
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-E1D2402DA6315C
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q6 (Final 41 دور أول): elderly man... recurrent urinary tract infections... non-hemolytic, catalase negative. Gram stain... Gram-positive cocci / e) Enterococcus species.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p11 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "enterococcus" -- one hit (Helwan HU-BMS-102, enterococcus intrinsic cephalosporin resistance) is a different grain, antibiotic resistance rather than clinical UTI/bacteraemia identification, no same-grain match, minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+CSF Gram-negative diplococci in an acute meningitis presentation indicate Neisseria meningitidis
+
+## id
+CON-INF-419177EC999608
+
+## canonical_key
+bacteria.neisseria-meningitidis.csf-gram-negative-diplococci
+
+## aliases
+Meningococcal meningitis CSF finding
+Gram-negative diplococci in cerebrospinal fluid
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Neisseria meningitidis is a Gram-negative diplococcus and the classic cause of acute bacterial meningitis in a young adult presenting with sudden fever, severe headache and nuchal rigidity, with cerebrospinal fluid Gram stain showing Gram-negative diplococci within neutrophils; this morphology (Gram-negative diplococcus) distinguishes it from the Gram-positive diplococcus Streptococcus pneumoniae and the Gram-negative coccobacillus Haemophilus influenzae, both other meningitis causes.
+
+## explicit_objective
+Recognise CSF Gram-negative diplococci in a young adult with acute meningitis as diagnostic of Neisseria meningitidis, distinguishing it from Streptococcus pneumoniae and Haemophilus influenzae by Gram-stain morphology.
+
+## pitfalls
+Selecting Streptococcus pneumoniae (a Gram-positive, not Gram-negative, diplococcus) or Haemophilus influenzae (a coccobacillus, not a diplococcus) instead of Neisseria meningitidis on the basis of Gram-stain morphology alone.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+
+
+## topic
+General bacteriology
+
+## subtopic
+Neisseria meningitidis meningitis
+
+## microtopic
+CSF Gram-stain interpretation in meningitis
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Microbiology Past Exams > Microbiology
+
+## article_ids
+ART-MU102-MICROBIOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_acbb4b426183f9e21e89
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-419177EC999608
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q7 (Final 41 دور أول): sudden onset of fever... severe headache... nuchal rigidity... Gram stain of the spinal fluid revealed... Gram negative diplococci / b) Neisseria meningitidis.
+
+## exam_signal
+mu_acbb4b426183f9e21e89 | paper | | p12 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "neisseria meningitidis", "meningococcus" and "csf gram-negative diplococci" -- hits (Ain-Shams chemoprophylaxis, complement-deficiency susceptibility, droplet-precautions and empiric-therapy concepts) are all different-grain (management/epidemiology facts, not the CSF Gram-stain diagnostic fact), no same-grain match, minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---

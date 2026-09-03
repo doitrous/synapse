@@ -1690,3 +1690,374 @@ MU-MED102 has no confirmed department book source for this cluster; the exam's o
 no
 
 ---
+# Item
+
+## id
+CIT-INF-8A1E540FBBB222
+
+## claim_id
+CLM-INF-8A1E540FBBB222
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q1: One of the following is NOT present in the bacterial cell / c) Mitochondria.
+
+## locator_type
+page
+
+## locator_page
+1
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-58FD0B22F67C48
+
+## claim_id
+CLM-INF-58FD0B22F67C48
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q7: One of the following is NOT a virulence factor in Staphylococcus aureus / d) M protein.
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-D92614F79174BD
+
+## claim_id
+CLM-INF-D92614F79174BD
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q8: One of the following is an essential structure of the bacterial cell / d) Cytoplasmic membrane.
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-E886F22A5A9552
+
+## claim_id
+CLM-INF-E886F22A5A9552
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q9: Calcium dipicolinate is found in / d) Spores.
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-908F93CFF86B24
+
+## claim_id
+CLM-INF-908F93CFF86B24
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q10: The major component which protects bacterial cell from osmotic damage is / c) Peptidoglycan.
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-41251ED119A62B
+
+## claim_id
+CLM-INF-41251ED119A62B
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q1 (Final 40): outbreak of sepsis... new-born nursery... MOST likely source of the organism / b) Nose.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-EB35B37A12423E
+
+## claim_id
+CLM-INF-EB35B37A12423E
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q3 (Final 40): Which ONE of the following immunizations should be administrated immediately after birth / e) Oral Polio virus vaccine.
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-DB2A6206156886
+
+## claim_id
+CLM-INF-DB2A6206156886
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q2 (Final 41 دور أول): Regarding chlamydiae, which one of the following is the most accurate / c) Their life cycle consists of elementary bodies outside of cells and reticulate bodies within cells.
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-00087979C01C14
+
+## claim_id
+CLM-INF-00087979C01C14
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q4 (Final 41 دور أول): aminoglycosides... mode of action / d) Inhibition of protein synthesis.
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-5220B857FDB768
+
+## claim_id
+CLM-INF-5220B857FDB768
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q5 (Final 41 دور أول): homeless, alcoholic man... Gram-negative bacilli... likely causative agent / d) Klebsiella pneumoniae. Also Q1 (Final 41 دور تاني): necrotizing lobar pneumonia... lactose fermenter; pink mucoid colonies... luxuriant capsule / a) Klebsiella pneumoniae.
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-E1D2402DA6315C
+
+## claim_id
+CLM-INF-E1D2402DA6315C
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q6 (Final 41 دور أول): elderly man... recurrent urinary tract infections... non-hemolytic, catalase negative. Gram stain... Gram-positive cocci / e) Enterococcus species.
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---
+
+# Item
+
+## id
+CIT-INF-419177EC999608
+
+## claim_id
+CLM-INF-419177EC999608
+
+## resource_id
+src_acbb4b426183f9e21e89
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q7 (Final 41 دور أول): sudden onset of fever... severe headache... nuchal rigidity... Gram stain of the spinal fluid revealed... Gram negative diplococci / b) Neisseria meningitidis.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+Microbiology Past Exams compilation, department-keyed answers copy
+
+## locator_detail
+Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
+
+---

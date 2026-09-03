@@ -53,3 +53,49 @@ Local university teaching file; no republication rights asserted.
 
 
 ---
+# Item
+
+## id
+src_acbb4b426183f9e21e89
+
+## title
+Microbiology Past Exams - Answers (MFM Support 43) — compiled department-keyed EOM past-paper sittings (Final 38, Final 40, Final 41 دور أول, Final 41 دور تاني), Microbiology, Foundation 2 module
+
+## institution
+Faculty of Medicine, Menoufia University
+
+## collection_id
+mu-y1-med102-foundation-2
+
+## source_relative_path
+Semester 1/MED 102 - Foundation 2/Microbiology/06 EOM Exams/Microbiology Past Exams - Answers - Telegram 9662.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+
+
+## page_count
+16
+
+## sha256
+acbb4b426183f9e21e8975e7fa93767035b2415b2a945ba2f5e6e9692a7af7a6
+
+## processing_status
+pending
+
+## rights
+Local university teaching file; no republication rights asserted.
+
+
+---

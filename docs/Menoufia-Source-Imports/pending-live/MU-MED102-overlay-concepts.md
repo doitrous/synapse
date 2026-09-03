@@ -410,3 +410,244 @@ Zoonotic parasitic diseases originate from animals
 mu: Tested as Q64, "The infection which is transmitted from infected animals to humans is called:" (answer: Zoonoses), End Foundation 2 Batch 43 - Answers - Telegram 9659.pdf, grey-highlight key on p22. Found via find-existing.mjs in pending docs/MUST-Source-Imports/concept/FHB-102-2-parasitology-introduction-concepts.md.
 
 ---
+# Item
+
+## id
+CON-INF-83707B09F53803
+
+## label
+Bacterial flagella are motility organelles built from the protein flagellin
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as micro-eom-q02, "Bacterial flagellum is..." (answer: Made up of protein), Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/bold/underline key on p1.
+
+---
+
+# Item
+
+## id
+CON-INF-A22576F1C4B8AF
+
+## label
+Candida albicans is recognized in infected tissue by the co-occurrence of yeast cells and pseudohyphae on microscopic examination
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as micro-eom-q03, "Candida albicans is diagnosed by examination of infected tissues for..." (answer: Yeasts and pseudohyphae), Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/bold/underline key on p1.
+
+---
+
+# Item
+
+## id
+CON-INF-C74F8450F57CB5
+
+## label
+Catalase distinguishes staphylococci from streptococci
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as micro-eom-q04, pyoderma vignette with beta-haemolysis and a catalase-negative Gram-positive coccus isolate (answer: Streptococcus pyogenes), Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/bold/underline key on p2.
+
+---
+
+# Item
+
+## id
+CON-INF-42D77BF4AB3ADD
+
+## label
+Transformation requires recipient competence and DNA homology to take up soluble DNA
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as micro-eom-q05, "Bacteria can take up fragments of naked DNA by..." (answer: Transformation), Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/bold/underline key on p2.
+
+---
+
+# Item
+
+## id
+CON-INF-7E3B831D71A008
+
+## label
+Teichoic acid and lipoteichoic acid are Gram-positive wall components absent from Gram-negative bacteria
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested twice in this compilation -- micro-eom-q06, "ONLY found in the cell walls of Gram positive bacteria" (answer: Teichoic acid), and micro-eom-q15, "Cell wall of Gram-positive bacteria is unique being have" (answer: Teichoic acids) -- same fact, two stems. Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/bold/underline key on p2 and p7.
+
+---
+
+# Item
+
+## id
+CON-INF-1AD4F150B33953
+
+## label
+Clostridium difficile is the classic cause of antibiotic-associated diarrhea and its more severe form, pseudomembranous enterocolitis, typically following broad-spectrum antibiotic disruption of normal gut flora
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested twice in this compilation -- micro-eom-q12, generic bowel-flora-disruption vignette (answer: Clostridium difficile), and micro-eom-q18, 65-year-old woman on ampicillin for a UTI who develops fever and severe diarrhea (answer: Clostridium difficile) -- same fact, two clinical vignettes. Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/underline key on p6 and p10.
+
+---
+
+# Item
+
+## id
+CON-INF-D60EAAF763C476
+
+## label
+Septic shock from Gram-negative infection is caused by lipid A of LPS
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as micro-eom-q14, "Which ONE of the following is directly responsible for causing septic shock?" (answer: Bacterial endotoxins), Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/bold/underline key on p7.
+
+---
+
+# Item
+
+## id
+CON-INF-D31966C6CEF85C
+
+## label
+Facultative anaerobes grow with or without oxygen; microaerophiles grow best with only traces of it
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as micro-eom-q16, "Which ONE of the following organisms can NOT exist in presence of oxygen" (answer: Obligate anaerobe), Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/underline key on p8.
+
+---
+
+# Item
+
+## id
+CON-INF-271E9930B4B73A
+
+## label
+Mycoplasma permanently lacks a cell wall by genotype, unlike L-forms which lose it under an inducing agent
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as micro-eom-q23, "walking pneumonia caused by Mycoplasma... BEST describes the characteristics of the etiologic organism" (answer: Absence of a cell wall), Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/underline key on p13.
+
+---
+
+# Item
+
+## id
+CON-INF-AC873FE98E856F
+
+## label
+Urethritis with intracellular gram-negative diplococci on Gram stain indicates Neisseria gonorrhoeae infection
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as micro-eom-q25, purulent urethral discharge with Gram-negative diplococci on Gram stain (answer: Neisseria gonorrhoeae/gonorrhea, source spelling "gonorrhea"), Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/underline key on p15.
+
+---
+
+# Item
+
+## id
+CON-INF-C87DF729E2ADDF
+
+## label
+An exotoxin is a secreted polypeptide/protein, unlike structural endotoxin
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as micro-eom-q26, "Botulinum toxin is an example of which ONE of the following" (answer: Exotoxin), Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/underline key on p15.
+
+---

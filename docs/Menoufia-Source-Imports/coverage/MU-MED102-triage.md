@@ -159,3 +159,96 @@ minting a second small Pathology article.
 This closes End Foundation 2 Batch 43 (Q1-65: 59 authored, 6 held, 0
 remaining). Resume-first for the next dispatch is the 11 unread department
 papers above.
+
+## Addendum — lane 3, Microbiology past-exam pair (this dispatch)
+
+Read the first of the remaining tier-1 department pairs listed in
+`coverage/MU-Y1-priority-sources.md` §MU-MED102: `mu_6ce69f36f51c66457176`
+(Microbiology Past Exams - Questions - Telegram 9661.pdf, 16 pages) and
+`mu_acbb4b426183f9e21e89` (...- Answers - Telegram 9662.pdf, 16 pages). Both
+compile four separate past-exam sittings back to back (Final 38, Final 40,
+Final 41 دور أول "first round", Final 41 دور تاني "second round"), each with
+its own MCQ block (I) plus written sections (Identify/Tabulate/Define/Give
+reason/Differentiate/Enumerate/Compare, out of scope for this MCQ batch).
+
+**Key convention differs from End Foundation 2 Batch 43**: this pair uses
+red text + bold + underline on the correct option, not grey highlight.
+`pagetext.mjs keys` partially detects this convention but is unreliable on
+both axes: it silently drops marked items with no output at all (Q1 on p1,
+confirmed marked by direct render but absent from the keys JSON) and, more
+seriously, it can attribute the **wrong letter** to a question it does
+report (Q6 on p1: keys claimed "D" but direct render shows "E" Teichoic
+acid marked, not "D" Peptidoglycan). Neither gap is safe to paper over with
+the automated tool alone. Every one of this pair's 29 candidate MCQ items
+was independently confirmed by rendering the Answers copy (`--force`,
+pages 1-16, no page garbled) and reading the marked option directly off the
+image, not off `pagetext.mjs keys`' JSON.
+
+29 candidate MCQ items found across the four sittings (all >=4-option SBA
+with a clean single key, no image-dependent or dual-highlight items this
+time). 3 are exact duplicates of an earlier sitting's item repeated
+verbatim later in the same compilation (same stem/options/key, only a
+harmless option-list typo differs) and were held rather than authored
+twice: Final 41 دور أول Q1 duplicates Final 40 Q1 (newborn-nursery Staph
+source), Final 41 دور أول Q8 duplicates Final 38 Q3 (Candida diagnosis),
+Final 41 دور تاني Q2 duplicates Final 38 Q7 (NOT-a-Staph-virulence-factor).
+26 authored, 0 image-dependent holds, 0 key-conflict holds.
+
+Concept search (`find-existing.mjs`, ~30 terms) found 11 exact-grain reuse
+hits, all via sparse pending-live overlay (no `module_subject` on the
+overlay row, per rule 6), spanning four other universities' pending lanes:
+`CON-INF-83707B09F53803` (flagellin/motility, ASU-INF), `CON-INF-A22576F1C4B8AF`
+(Candida yeasts+pseudohyphae, Assiut AUN-INI-105-ch7), `CON-INF-C74F8450F57CB5`
+(catalase distinguishes staph/strep, MUST FHB-102-2), `CON-INF-42D77BF4AB3ADD`
+(transformation mechanism, ASU-INF), `CON-INF-7E3B831D71A008` (teichoic acid
+Gram-positive-only, ASU-INF — reused twice, Q06 and Q15, same fact two
+stems), `CON-INF-1AD4F150B33953` (C. difficile antibiotic-associated
+diarrhea, Assiut ch5 — reused twice, Q12 and Q18, same fact two clinical
+vignettes), `CON-INF-D60EAAF763C476` (septic shock/lipid A of LPS, ASU-INF),
+`CON-INF-D31966C6CEF85C` (oxygen-requirement classes incl. obligate
+anaerobe, ASU-INF), `CON-INF-271E9930B4B73A` (Mycoplasma's permanent
+cell-wall absence, ASU-INF), `CON-INF-AC873FE98E856F` (urethral Gram-negative
+diplococci = gonorrhoeae, Ain-Shams ASU-UG), `CON-INF-C87DF729E2ADDF`
+(exotoxin = secreted polypeptide, ASU-INF). One reuse candidate was checked
+and rejected as different-grain (not merged): this module's own lane-1
+`CON-INF-EE36D7C199E6D8` (bacterial spore survival function) was rejected
+for Q09 (calcium dipicolinate) because it teaches spore *function*, not the
+spore-specific *chemical* fact Q09 actually tests — left as no-merge, minted
+fresh (`CON-INF-E886F22A5A9552`) instead.
+
+12 new concepts minted (13 question-links; Klebsiella pneumoniae's mucoid-
+capsule/lactose-fermenter identification triad is tested twice by two
+different vignettes — Q20 and Q24 — and shares one concept,
+`CON-INF-5220B857FDB768`): bacteria's absence of mitochondria, M protein as
+a streptococcal (not staphylococcal) virulence factor, the cytoplasmic
+membrane as the one essential bacterial structure, calcium dipicolinate as
+spore-specific chemistry, peptidoglycan's osmotic-protection role, nasal
+carriage as a nursery-outbreak Staph aureus source, oral polio vaccine as a
+birth-dose immunization, the chlamydial elementary-body/reticulate-body
+life cycle, aminoglycosides' 30S-subunit mechanism, Klebsiella pneumoniae's
+identification triad, Enterococcus in recurrent UTI/bacteraemia, and
+Neisseria meningitidis by CSF Gram-negative diplococci. All 12 extend the
+existing `ART-MU102-MICROBIOLOGY-BASICS` article in place (new
+`related_concepts` + one sentence per section) rather than minting a
+second Microbiology article.
+
+One authoring-side fix, not a hold: Final 40's Q3 (birth-dose
+immunization) has a lettering typo in the source PDF (third option printed
+as "E. Hepatitis B vaccine" instead of "c."); the printed key itself is
+unambiguous (the fifth option, Oral Polio virus vaccine, is what is
+marked), so the option was relettered a-e in sequence rather than held.
+
+Batch: `question/MU-MED102-micro-eom-past-mcq.md` (26 items, seed
+`coverage/seeds/MU-MED102/micro-eom-past.json`). `medical:batch` errors 0;
+positional `medical:simulate` (17 files: this batch + its own
+concept/article/evidence set + the 5 cross-university concept+article
+pairs the 11 reused concepts live in) rejected 0/errors [].
+
+Resume-first for the next dispatch: 4 remaining tier-1 department pairs —
+Parasitology (`mu_22d0b0b03999cf664444`/`mu_a3dfb2b383711f049084`),
+Pathology Ch1-4 (`mu_06d285d2c2e5561da937`, questions only — no separate
+answers file listed, check for an in-file/highlighted key before
+rendering), Pathology Ch5-6 (`mu_d3e6f879820d642d33f6`/`mu_11999c1093082353caec`),
+Pathology Past Exams (`mu_f9e1ea2076475a255e81`, questions only), and
+Pharmacology (`mu_19f4e145470925af9bb1`/`mu_2e666d9f998028e726b7`) — all
+listed in `coverage/MU-Y1-priority-sources.md` §MU-MED102.

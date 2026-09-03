@@ -1854,3 +1854,530 @@ polarity: affirmative
 scope: Menoufia MED102 End Foundation 2 Batch 43 exam
 
 ---
+# Item
+
+## id
+CLM-INF-8A1E540FBBB222
+
+## concept_id
+CON-INF-8A1E540FBBB222
+
+## subject
+Mitochondria
+
+## predicate
+are absent from
+
+## object
+the bacterial (prokaryotic) cell
+
+## display_text
+Mitochondria are absent from the bacterial (prokaryotic) cell.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-58FD0B22F67C48
+
+## concept_id
+CON-INF-58FD0B22F67C48
+
+## subject
+M protein
+
+## predicate
+is a virulence factor of
+
+## object
+Streptococcus pyogenes, not Staphylococcus aureus
+
+## display_text
+M protein is a virulence factor of Streptococcus pyogenes, not Staphylococcus aureus.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-D92614F79174BD
+
+## concept_id
+CON-INF-D92614F79174BD
+
+## subject
+The cytoplasmic membrane
+
+## predicate
+is
+
+## object
+an essential (obligatory) bacterial structure, unlike the capsule, fimbriae, flagella or plasmids
+
+## display_text
+The cytoplasmic membrane is an essential (obligatory) bacterial structure, unlike the capsule, fimbriae, flagella or plasmids.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-E886F22A5A9552
+
+## concept_id
+CON-INF-E886F22A5A9552
+
+## subject
+Calcium dipicolinate
+
+## predicate
+is found in
+
+## object
+the bacterial spore core
+
+## display_text
+Calcium dipicolinate is found in the bacterial spore core.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-908F93CFF86B24
+
+## concept_id
+CON-INF-908F93CFF86B24
+
+## subject
+Peptidoglycan
+
+## predicate
+protects the bacterial cell from
+
+## object
+osmotic damage
+
+## display_text
+Peptidoglycan protects the bacterial cell from osmotic damage.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-41251ED119A62B
+
+## concept_id
+CON-INF-41251ED119A62B
+
+## subject
+The anterior nares (nose)
+
+## predicate
+are the classic carriage source in
+
+## object
+a neonatal-nursery Staphylococcus aureus sepsis outbreak
+
+## display_text
+The anterior nares (nose) are the classic carriage source in a neonatal-nursery Staphylococcus aureus sepsis outbreak.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-EB35B37A12423E
+
+## concept_id
+CON-INF-EB35B37A12423E
+
+## subject
+Oral polio vaccine
+
+## predicate
+is administered
+
+## object
+immediately at birth (zero dose) in the standard immunization schedule
+
+## display_text
+Oral polio vaccine is administered immediately at birth (zero dose) in the standard immunization schedule.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-DB2A6206156886
+
+## concept_id
+CON-INF-DB2A6206156886
+
+## subject
+The chlamydial life cycle
+
+## predicate
+consists of
+
+## object
+an infectious extracellular elementary body and a replicating intracellular reticulate body
+
+## display_text
+The chlamydial life cycle consists of an infectious extracellular elementary body and a replicating intracellular reticulate body.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-00087979C01C14
+
+## concept_id
+CON-INF-00087979C01C14
+
+## subject
+Aminoglycosides
+
+## predicate
+inhibit bacterial protein synthesis by
+
+## object
+irreversibly binding the 30S ribosomal subunit
+
+## display_text
+Aminoglycosides inhibit bacterial protein synthesis by irreversibly binding the 30S ribosomal subunit.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-5220B857FDB768
+
+## concept_id
+CON-INF-5220B857FDB768
+
+## subject
+Klebsiella pneumoniae
+
+## predicate
+is identified by
+
+## object
+lactose fermentation and mucoid capsulated colonies, and causes necrotizing pneumonia in alcoholic patients
+
+## display_text
+Klebsiella pneumoniae is identified by lactose fermentation and mucoid capsulated colonies, and causes necrotizing pneumonia in alcoholic patients.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-E1D2402DA6315C
+
+## concept_id
+CON-INF-E1D2402DA6315C
+
+## subject
+Enterococcus species
+
+## predicate
+are identified by
+
+## object
+catalase-negative, non-haemolytic Gram-positive cocci morphology, causing recurrent UTI and bacteraemia in the elderly
+
+## display_text
+Enterococcus species are identified by catalase-negative, non-haemolytic Gram-positive cocci morphology, causing recurrent UTI and bacteraemia in the elderly.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
+
+# Item
+
+## id
+CLM-INF-419177EC999608
+
+## concept_id
+CON-INF-419177EC999608
+
+## subject
+Neisseria meningitidis
+
+## predicate
+is identified in acute meningitis by
+
+## object
+Gram-negative diplococci on CSF Gram stain
+
+## display_text
+Neisseria meningitidis is identified in acute meningitis by Gram-negative diplococci on CSF Gram stain.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Microbiology Past Exams compilation
+
+---
