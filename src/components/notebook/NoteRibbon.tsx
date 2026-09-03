@@ -17,7 +17,7 @@ import {
   PenTool,
   Redo2,
   RemoveFormatting,
-  Sparkles,
+  Shapes,
   Strikethrough,
   Subscript,
   Superscript,
@@ -452,7 +452,7 @@ function ReadyItemMenu({ editor }: { editor: LexicalEditor }) {
         title={t('Ready items')}
         className="flex h-11 shrink-0 items-center gap-1.5 rounded-lg px-2 text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:h-8"
       >
-        <Icon icon={Sparkles} size={16} />
+        <Icon icon={Shapes} size={16} />
         <Icon icon={ChevronDown} size={12} className="text-ink-3" />
       </button>
       {open && (

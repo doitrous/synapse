@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 import {
-  GraduationCap, X, FileText, Brackets, Image as ImageIcon, Volume2, Sparkles,
+  GraduationCap, X, FileText, FilePlus, Brackets, Image as ImageIcon, Volume2, Brain,
   Layers, Search, BarChart3, KeyRound, Lightbulb, CheckCircle2, Repeat,
 } from 'lucide-react'
 import { Dialog } from '@/components/ui/Dialog'
@@ -34,7 +34,7 @@ export function FlashcardsGuide({ onClose }: { onClose: () => void }) {
         </p>
 
         {/* 1 — Create cards */}
-        <Section icon={Sparkles} step={1} title={t('Create your cards')}>
+        <Section icon={FilePlus} step={1} title={t('Create your cards')}>
           <p className="mb-3 text-[13px] leading-relaxed text-ink-2">
             {t('Open the')} <b>{t('Add')}</b> {t('tab (or press')} <Kbd>⌘N</Kbd>{t('), pick a deck, then choose a card type:')}
           </p>
@@ -86,7 +86,7 @@ export function FlashcardsGuide({ onClose }: { onClose: () => void }) {
           </p>
           <ul className="mt-2 space-y-2 text-[13px] leading-relaxed text-ink-2">
             <Bullet icon={CheckCircle2}><b>{t('SM-2')}</b> — {t('Anki’s classic scheduler and the default. Reliable and familiar.')}</Bullet>
-            <Bullet icon={Sparkles}><b>{t('FSRS')}</b> — {t('a modern, self-adapting scheduler that learns each card’s stability and difficulty from your reviews to place intervals more precisely. Opt in per deck; your existing cards keep their history.')}</Bullet>
+            <Bullet icon={Brain}><b>{t('FSRS')}</b> — {t('a modern, self-adapting scheduler that learns each card’s stability and difficulty from your reviews to place intervals more precisely. Opt in per deck; your existing cards keep their history.')}</Bullet>
           </ul>
         </Section>
 
@@ -110,7 +110,7 @@ export function FlashcardsGuide({ onClose }: { onClose: () => void }) {
   )
 }
 
-function Section({ icon, step, title, children }: { icon: typeof Sparkles; step: number; title: string; children: ReactNode }) {
+function Section({ icon, step, title, children }: { icon: typeof FilePlus; step: number; title: string; children: ReactNode }) {
   return (
     <section>
       <h3 className="mb-2.5 flex items-center gap-2.5 font-serif text-[16px] font-semibold text-ink">

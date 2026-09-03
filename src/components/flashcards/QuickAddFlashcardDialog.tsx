@@ -1,5 +1,5 @@
 import { useMemo, useRef, useState } from 'react'
-import { Sparkles, CheckCircle2 } from 'lucide-react'
+import { Layers, CheckCircle2 } from 'lucide-react'
 import { Dialog } from '@/components/ui/Dialog'
 import { PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -96,7 +96,7 @@ export function QuickAddFlashcardDialog({
 
   return (
     <Dialog onClose={onClose} label={t('Create a flashcard')} size="md">
-      <PanelHeader title={t('Create a flashcard')} icon={Sparkles} />
+      <PanelHeader title={t('Create a flashcard')} icon={Layers} />
       {saved ? (
         <div className="space-y-4 p-5">
           <div className="flex items-start gap-2.5 rounded-lg border border-success/25 bg-success-tint px-3 py-3">
@@ -145,7 +145,7 @@ export function QuickAddFlashcardDialog({
             </Field>
           )}
           <div className="flex items-center gap-3 border-t border-line pt-4">
-            <Button variant="primary" iconLeft={Sparkles} onClick={save} disabled={!canSave}>{t('Create flashcard')}</Button>
+            <Button variant="primary" iconLeft={Layers} onClick={save} disabled={!canSave}>{t('Create flashcard')}</Button>
             {!status.hydrated && <span className="text-[12px] text-ink-3" role="status">{t('Loading your decks…')}</span>}
             <Button variant="ghost" className="ms-auto" onClick={onClose}>{t('Cancel')}</Button>
           </div>

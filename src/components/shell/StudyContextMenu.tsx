@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
-  ArrowLeft, BookOpen, Copy, ExternalLink, FolderOpen, NotebookPen,
-  RotateCw, Search, Sparkles,
+  ArrowLeft, BookOpen, Copy, ExternalLink, FolderOpen, Layers, NotebookPen,
+  RotateCw, Search,
 } from 'lucide-react'
 import { ContextMenu, type ContextMenuItem } from '@/components/ui/ContextMenu'
 import { scopeItemsFor } from '@/lib/contextMenuScopes'
@@ -173,7 +173,7 @@ export function StudyContextMenu({ onOpenSearch }: { onOpenSearch: () => void })
     items.push({
       id: 'flashcard',
       label: t('Create a flashcard'),
-      icon: Sparkles,
+      icon: Layers,
       // Opens a quick-capture dialog with the selection as the card front; it
       // writes straight to the flashcards collection, so this works on any screen.
       onSelect: () => setQuickAddFront(selection),

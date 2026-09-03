@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState, type ReactNode, type RefObject } from 'react'
-import { Highlighter, Sparkles } from 'lucide-react'
+import { Highlighter, Layers } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { Popover } from '@/components/ui/Popover'
 import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashcardDialog'
@@ -227,7 +227,7 @@ export function HighlightSelectionPopover({
             onClick={makeCard}
             className="inline-flex h-7 items-center gap-1.5 rounded-md px-2 text-[12px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink"
           >
-            <Icon icon={Sparkles} size={14} />
+            <Icon icon={Layers} size={14} />
             {t('Make card')}
           </button>
         </div>

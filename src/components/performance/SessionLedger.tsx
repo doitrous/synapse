@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ChevronDown, History, Repeat, Sparkles, Target } from 'lucide-react'
+import { ChevronDown, History, Lightbulb, Repeat, Target } from 'lucide-react'
 import { bySession, sessionDetail, type SessionDetail, type SessionSummary } from '@/data/attemptStats'
 import type { AttemptRecord } from '@/data/attempts'
 import type { PaceBand } from '@/data/qbankSession'
@@ -128,7 +128,7 @@ function ExpandedRow({ detail }: { detail: SessionDetail }) {
       )}
 
       <p className="mt-3.5 border-t border-line pt-3 text-[12px] leading-relaxed text-ink-2">
-        <Icon icon={Sparkles} size={13} className="me-1 inline text-primary" />
+        <Icon icon={Lightbulb} size={13} className="me-1 inline text-primary" />
         {nextAction(t, detail)}
       </p>
     </div>

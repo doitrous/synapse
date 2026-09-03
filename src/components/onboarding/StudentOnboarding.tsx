@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ArrowLeft, ArrowRight, BookOpenText, Building2, Check, GraduationCap, Sparkles, UserRound } from 'lucide-react'
+import { ArrowLeft, ArrowRight, BookOpenText, Building2, Check, CreditCard, GraduationCap, UserRound } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -117,7 +117,7 @@ export function StudentOnboarding() {
     {
       title: t('Choose your plan'),
       description: t('Every new account starts with {days} days of full access.').replace('{days}', String(TRIAL_DAYS)),
-      icon: Sparkles,
+      icon: CreditCard,
     },
   ]
 

@@ -17,7 +17,7 @@ import {
   List,
   ListOrdered,
   RemoveFormatting,
-  Sparkles,
+  Palette,
   SquareDashedBottomCode,
 } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
@@ -533,7 +533,7 @@ function PresetMenu({ onApply }: { onApply: (style: string) => void }) {
           onClick={() => setOpen((v) => !v)}
           className="grid size-8 place-items-center rounded text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-primary"
         >
-          <Icon icon={Sparkles} size={16} />
+          <Icon icon={Palette} size={16} />
         </button>
       </Tooltip>
       {open && (

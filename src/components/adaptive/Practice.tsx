@@ -13,7 +13,7 @@
 
 import { useCallback, useMemo, useState } from 'react'
 import {
-  CheckCircle2, ChevronLeft, ChevronRight, CircleHelp, PlayCircle, Sparkles, Timer,
+  CheckCircle2, ChevronLeft, ChevronRight, CircleHelp, PlayCircle, Radar, Timer,
 } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -161,7 +161,7 @@ function WhyThis({ reason, expanded, onToggle }: { reason: string; expanded: boo
         onClick={onToggle}
         className="flex w-full items-center gap-2 text-start text-[12.5px] font-medium text-ink-2 hover:text-ink"
       >
-        <Icon icon={Sparkles} size={14} className="shrink-0 text-primary" />
+        <Icon icon={Radar} size={14} className="shrink-0 text-primary" />
         <span className="min-w-0 flex-1 truncate">{expanded ? t('Why this question') : reason}</span>
       </button>
       {expanded && <p className="mt-2 text-[12.5px] leading-relaxed text-ink-2">{reason}</p>}
@@ -325,7 +325,7 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
         </Panel>
 
         <Panel>
-          <PanelHeader title={t('What it will contain')} icon={Sparkles} hint={`${size} ${t('slots')}`} />
+          <PanelHeader title={t('What it will contain')} icon={Radar} hint={`${size} ${t('slots')}`} />
           <div className="p-5"><AllocationPreview study={study} size={size} /></div>
         </Panel>
       </div>
@@ -478,7 +478,7 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
 
       <div className="min-w-0 space-y-4">
         <Panel>
-          <PanelHeader title={t('How this block was built')} icon={Sparkles} />
+          <PanelHeader title={t('How this block was built')} icon={Radar} />
           <div className="p-5">
             <BlockDiagnostics
               diagnostics={session.diagnostics}

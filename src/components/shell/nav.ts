@@ -1,6 +1,6 @@
 import type { LucideIcon } from 'lucide-react'
 import {
-  LayoutDashboard, BookOpen, CalendarRange, Users, UserCog, Layers, Gamepad2, Target, Sparkles,
+  LayoutDashboard, BookOpen, CalendarRange, Users, UserCog, Layers, Gamepad2, Target, Radar,
 } from 'lucide-react'
 // Relative rather than `@/data/adminTabs`: `nav.test.ts` runs on Node, which
 // has no bundler alias, and the nine destinations are exactly the sort of list
@@ -56,7 +56,7 @@ export const studentNav: NavGroup[] = [
     label: 'Test yourself',
     items: [
       { label: 'Practice', to: '/app/practice', icon: Target },
-      { label: 'Adaptive Study', to: '/app/adaptive', icon: Sparkles },
+      { label: 'Adaptive Study', to: '/app/adaptive', icon: Radar },
       { label: 'Revise', to: '/app/revise', icon: Layers },
     ],
   },
