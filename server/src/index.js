@@ -8,6 +8,7 @@ import compression from 'compression'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
+import { chunk } from './batchInsert.js'
 import {
   REDACTED_STATE_KEYS,
   archiveScopeBlockedPublishedItems,
@@ -3670,9 +3671,17 @@ async function sendMail({ from, to, cc, bcc, subject, html, text, category, head
     'INSERT INTO emails (id, direction, mailbox, from_addr, to_addr, cc, bcc, subject, html, text, status, resend_id, at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,NOW())',
     [id, 'outbound', fromAddr, fromAddr, allowed.join(', '), cc || null, bcc || null, subject, html || null, text || null, status, resendId],
   )
-  for (const a of attachments) {
-    await pool.query('INSERT INTO attachments (id, email_id, filename, content_type, size_bytes, content_b64) VALUES (?,?,?,?,?,?)',
-      [`att-${randomUUID().slice(0, 12)}`, id, a.filename, a.contentType || 'application/octet-stream', a.size || 0, a.content_b64 || null])
+  // ponytail: 500 rows/insert — an email's attachment count is bounded well
+  // under that, but chunking keeps this safe if one ever isn't.
+  for (const batch of chunk(attachments, 500)) {
+    const placeholders = batch.map(() => '(?,?,?,?,?,?)').join(', ')
+    const params = batch.flatMap((a) => [
+      `att-${randomUUID().slice(0, 12)}`, id, a.filename, a.contentType || 'application/octet-stream', a.size || 0, a.content_b64 || null,
+    ])
+    await pool.query(
+      `INSERT INTO attachments (id, email_id, filename, content_type, size_bytes, content_b64) VALUES ${placeholders}`,
+      params,
+    )
   }
   return { id, status, resendId }
 }

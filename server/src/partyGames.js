@@ -3,6 +3,7 @@ import { EventEmitter } from 'node:events'
 import { pool } from './db.js'
 import { MEDIA_STATE_KEY } from './mediaLibrary.js'
 import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentLedger.js'
+import { chunk } from './batchInsert.js'
 
 const GLOSSARY_KEY = 'nishany-medical-glossary-v1'
 const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
@@ -701,38 +702,55 @@ async function persistGame(conn, game) {
       WHERE id = ?`,
     [game.status, game.currentRoundIndex, JSON.stringify(game.scores), game.version, new Date(game.updatedAt), game.completedAt ? new Date(game.completedAt) : null, game.id],
   )
-  for (const participant of Object.values(game.participants)) {
+  // ponytail: 500 rows/insert — a party's participant/answer/event counts are
+  // tiny in practice, but chunking keeps this safe if one ever isn't.
+  for (const batch of chunk(Object.values(game.participants), 500)) {
+    const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?, ?)').join(', ')
+    const params = batch.flatMap((participant) => [
+      game.id, participant.id, participant.username, participant.profileIcon ?? null,
+      participant.connected ? 1 : 0, new Date(participant.joinedAt), new Date(participant.lastSeenAt),
+    ])
     await conn.query(
       `INSERT INTO study_party_game_participants
           (game_id, user_id, username, profile_icon, connected, joined_at, last_seen_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?)
+       VALUES ${placeholders}
        ON DUPLICATE KEY UPDATE username = VALUES(username), profile_icon = VALUES(profile_icon),
          connected = VALUES(connected), last_seen_at = VALUES(last_seen_at)`,
-      [game.id, participant.id, participant.username, participant.profileIcon ?? null, participant.connected ? 1 : 0, new Date(participant.joinedAt), new Date(participant.lastSeenAt)],
+      params,
     )
   }
-  for (const answers of Object.values(game.answersByRound)) {
-    for (const answer of Object.values(answers)) {
-      await conn.query(
-        `INSERT INTO study_party_game_answers
-            (game_id, round_id, user_id, answer_json, correct, points, max_points, answered_at)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-         ON DUPLICATE KEY UPDATE answer_json = VALUES(answer_json), correct = VALUES(correct),
-           points = VALUES(points), max_points = VALUES(max_points), answered_at = VALUES(answered_at)`,
-        [game.id, answer.roundId, answer.participantId, JSON.stringify(answer.answer), answer.correct ? 1 : 0, answer.points, answer.maxPoints, new Date(answer.answeredAt)],
-      )
-    }
+  const allAnswers = Object.values(game.answersByRound).flatMap((answers) => Object.values(answers))
+  for (const batch of chunk(allAnswers, 500)) {
+    const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?, ?, ?)').join(', ')
+    const params = batch.flatMap((answer) => [
+      game.id, answer.roundId, answer.participantId, JSON.stringify(answer.answer),
+      answer.correct ? 1 : 0, answer.points, answer.maxPoints, new Date(answer.answeredAt),
+    ])
+    await conn.query(
+      `INSERT INTO study_party_game_answers
+          (game_id, round_id, user_id, answer_json, correct, points, max_points, answered_at)
+       VALUES ${placeholders}
+       ON DUPLICATE KEY UPDATE answer_json = VALUES(answer_json), correct = VALUES(correct),
+         points = VALUES(points), max_points = VALUES(max_points), answered_at = VALUES(answered_at)`,
+      params,
+    )
   }
 }
 
 async function persistEvents(conn, events, publicState) {
   const publicEvents = events.map((event) => redactEvent(event, publicState))
-  for (const event of publicEvents) {
+  // ponytail: 500 rows/insert — see the note in persistGame above.
+  for (const batch of chunk(publicEvents, 500)) {
+    const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?, ?, ?)').join(', ')
+    const params = batch.flatMap((event) => [
+      event.id, event.gameId, event.partyId, event.sequence, event.type, event.actorId,
+      JSON.stringify(event), new Date(event.createdAt),
+    ])
     await conn.query(
       `INSERT INTO study_party_game_events
           (event_id, game_id, party_id, sequence, type, actor_id, payload_json, created_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
-      [event.id, event.gameId, event.partyId, event.sequence, event.type, event.actorId, JSON.stringify(event), new Date(event.createdAt)],
+       VALUES ${placeholders}`,
+      params,
     )
   }
   return publicEvents
