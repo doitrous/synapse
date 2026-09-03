@@ -6,7 +6,7 @@ import { usePageMeta, SITE_ORIGIN } from '@/lib/pageMeta'
 import { MarketingShell } from './MarketingShell'
 import { Pricing } from './Pricing'
 import type { LandingContent } from './content'
-import { offerAmounts, type PricingContent } from './pricingContent'
+import { offerAmounts, resolvePriced, type PricingContent } from './pricingContent'
 
 export function PricingPage({ content, pricing }: { content: LandingContent; pricing: PricingContent }) {
   const c = content
@@ -17,7 +17,7 @@ export function PricingPage({ content, pricing }: { content: LandingContent; pri
 
   usePageMeta({
     title: p.documentTitle,
-    description: p.metaDescription,
+    description: resolvePriced(p.metaDescription, amounts),
     canonical: p.path,
     alternates: { en: '/pricing', ar: '/ar/pricing', 'x-default': '/pricing' },
     ogImage: c.lang === 'ar' ? '/og-image-ar.png' : '/og-image.png',
@@ -28,7 +28,7 @@ export function PricingPage({ content, pricing }: { content: LandingContent; pri
         mainEntity: p.faq.map((item) => ({
           '@type': 'Question',
           name: item.q,
-          acceptedAnswer: { '@type': 'Answer', text: item.a },
+          acceptedAnswer: { '@type': 'Answer', text: resolvePriced(item.a, amounts) },
         })),
       },
       {
@@ -69,7 +69,7 @@ export function PricingPage({ content, pricing }: { content: LandingContent; pri
         <p className="mt-5 max-w-2xl text-[16px] leading-relaxed text-ink-2 sm:text-[17px]">{p.sub}</p>
 
         <ul className="mt-7 flex flex-wrap gap-x-6 gap-y-3">
-          {p.assurances.map((line) => (
+          {resolvePriced(p.assurances, amounts).map((line) => (
             <li key={line} className="flex items-center gap-2 text-[13.5px] font-medium text-ink-2">
               <span className="grid size-5 shrink-0 place-items-center rounded-full bg-success/15 text-success">
                 <Icon icon={Check} size={12} strokeWidth={2.8} />
@@ -95,7 +95,7 @@ export function PricingPage({ content, pricing }: { content: LandingContent; pri
                 <h3 className="flex-1 text-[14.5px] font-semibold leading-snug text-ink">{item.q}</h3>
                 <Icon icon={ChevronDown} size={16} className="shrink-0 text-ink-3 transition-transform group-open:rotate-180" />
               </summary>
-              <p className="pb-4 pe-7 text-[13.5px] leading-relaxed text-ink-2">{item.a}</p>
+              <p className="pb-4 pe-7 text-[13.5px] leading-relaxed text-ink-2">{resolvePriced(item.a, amounts)}</p>
             </details>
           ))}
         </div>
