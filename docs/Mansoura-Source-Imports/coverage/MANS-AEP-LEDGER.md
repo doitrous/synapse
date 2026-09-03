@@ -7,6 +7,7 @@
 | aepphysio14 | 19 | 0 | 0 | 19 |
 | aepphysio15 | 23 | 7 | 0 | 30 |
 | aepphysio16 | 14 | 0 | 0 | 14 |
+| aepphysio17 | 14 | 2 | 0 | 16 |
 | aepscalp | 40 | 0 | 0 | 40 |
 | aepuri | 9 | 0 | 0 | 9 |
 | aepvessels | 19 | 0 | 0 | 19 |
@@ -21,6 +22,8 @@
 - aepphysio15-q27 — no matching concept — same underlying fact as aepphysio15-q07 (nerve block by severe cooling), with an added distractor (severe warming). No live 103-BMS or 102-INT concept states thermal nerve block.
 - aepphysio15-q28 — near-duplicate of aepphysio15-q08 — same fact (C fibers are the unmyelinated class), same five fiber-type options in a different order.
 - aepphysio15-q30 — near-duplicate of aepphysio15-q06/aepphysio15-q10 — tests the same core fact (continuous conduction is slow) under a different distractor set (adds 'consumes less energy than saltatory conduction' as a wrong option).
+- aepphysio17-q05 — <4 options — "Reynold number indicates" prints only 3 lettered options (velocity/turbulence/resistance), below the 4-option SBA floor.
+- aepphysio17-q14 — physically incorrect key — "resistance change when vessel diameter is halved" marks "quadrupled" (4x) as correct, but Poiseuille's fourth-power radius law means halving radius increases resistance 16-fold, not 4-fold; no printed option states the physically correct answer. Held rather than authored to avoid teaching a false relationship.
 
 ## Remaining
 (none)
