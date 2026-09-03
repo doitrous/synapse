@@ -145,3 +145,50 @@ Local university teaching file; no republication rights asserted.
 
 
 ---
+
+# Item
+
+## id
+src_11999c1093082353caec
+
+## title
+Pathology Chapters 5 and 6 Past Exam MCQs - Answers (department-keyed compilation) — Foundation 2 module, Pathology
+
+## institution
+Faculty of Medicine, Menoufia University
+
+## collection_id
+mu-y1-med102-foundation-2
+
+## source_relative_path
+Semester 1/MED 102 - Foundation 2/Pathology/06 EOM Exams/Pathology Chapters 5 and 6 Past Exam MCQs - Answers - Telegram 9683.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+
+
+## page_count
+16
+
+## sha256
+11999c1093082353caec3d40a08565432a66e883d1cf283f94a4321a52655356
+
+## processing_status
+pending
+
+## rights
+Local university teaching file; no republication rights asserted.
+
+
+---
