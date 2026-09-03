@@ -770,3 +770,10 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - **Assiut (aun) would push the ledger to 66.4MB > 64MB** → every write path fails: apply script = ECONNRESET, direct flush = ER_NET_PACKET_TOO_LARGE. Both rolled back cleanly (prod safe, unchanged). Mansoura (mans) same. Assiut+Mansoura vetted clean and READY (aun 231 files/2267 created; mans 82 files/1270 created incl. HBG df0f321) — only the write is blocked.
 - Current admin-UI content saves still fit (60MB<64MB) so au/kau/asu/etc. Draft content stays reviewable/publishable. But headroom is ~3.5MB — the ledger is at its scaling ceiling.
 - **NEEDS OMAR / INFRA:** raise MariaDB `max_allowed_packet` to e.g. 256M (Coolify DB config env or my.cnf + restart). CoS will not change prod DB config / restart the DB unilaterally. Once raised, flush aun+mans (emit ready) + reconciliation pass. Chunked/CONCAT write is not a workaround (user-variable size is also packet-bound); compression needs app changes.
+
+### 2026-09-03 — max_allowed_packet RAISED to 256M (Omar) → Assiut FLUSHED (+1519 Q)
+- Omar raised MariaDB max_allowed_packet 64M→256M (Coolify custom config + DB restart). Verified 256M live.
+- New robust writer `scratchpad/flush-states-to-db.mjs`: takes a vet `--emit` full-state file, writes each of the 3 content keys on a FRESH connection used immediately (dodges the flaky-tunnel idle-drop that ECONNRESET'd the apply script), with a `--expect-before` question-count base-check + per-key version-row + version==app_state verify. Use it for all large writes now.
+- **Assiut (aun) LANDED via flush:** ledger 60.46→66.49MB (14444 items), +1519 aun questions (incl. CBF-103 l5 + MPT-104), source carried on import (total sourced Q 6847→7871). 8 held (INI-105 cross-uni). All 3 keys version==app_state.
+- **Mansoura (mans) flushing now** (88 files, 1392 created incl. HBG df0f321, 2 held).
+- NEXT after mans: reconciliation pass — re-vet every university incl. its previously-held cross-uni-dependency batches (now most base content is live, refs resolve) and flush the newly-clean ones.
