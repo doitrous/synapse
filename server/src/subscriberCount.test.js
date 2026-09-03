@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { dailyMultiplierPercent, syntheticValueAt } from './subscriberCount.js'
+import { dailyMultiplierPercent, syntheticValueAt, computeSubscriberCount } from './subscriberCount.js'
 
 test('the daily multiplier always lands within [minPct, maxPct]', () => {
   for (let day = 0; day < 2000; day++) {
@@ -49,4 +49,27 @@ test('the synthetic value keeps growing, never shrinking, across many days', () 
     assert.ok(value >= previous, `day ${days}: ${value} < ${previous}`)
     previous = value
   }
+})
+
+test('a real-subscriber delta on top of epoch is added to the displayed total', () => {
+  const doc = { base: 790, epoch: Date.UTC(2026, 0, 1), realCountAtEpoch: 100, minPct: 0.3, maxPct: 2.5 }
+  const now = doc.epoch
+  const noGrowth = computeSubscriberCount(doc, { realCountNow: 100, now })
+  const withGrowth = computeSubscriberCount(doc, { realCountNow: 130, now })
+  assert.equal(withGrowth.value - noGrowth.value, 30)
+})
+
+test('a lapsed real subscriber (count below epoch) never lowers the displayed total', () => {
+  const doc = { base: 790, epoch: Date.UTC(2026, 0, 1), realCountAtEpoch: 100, minPct: 0.3, maxPct: 2.5 }
+  const now = doc.epoch
+  const atEpoch = computeSubscriberCount(doc, { realCountNow: 100, now })
+  const belowEpoch = computeSubscriberCount(doc, { realCountNow: 60, now })
+  assert.equal(belowEpoch.value, atEpoch.value)
+})
+
+test('computeSubscriberCount always returns a whole number and a non-negative rate', () => {
+  const doc = { base: 790, epoch: Date.UTC(2026, 0, 1), realCountAtEpoch: 100, minPct: 0.3, maxPct: 2.5 }
+  const { value, ratePerSecond } = computeSubscriberCount(doc, { realCountNow: 115, now: doc.epoch + 10 * 86_400_000 })
+  assert.ok(Number.isInteger(value))
+  assert.ok(ratePerSecond >= 0)
 })

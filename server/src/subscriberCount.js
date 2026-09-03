@@ -64,3 +64,19 @@ export function syntheticValueAt(nowMs, doc) {
   const { dayStart, dayEnd, fraction } = syntheticDayBounds(nowMs, doc)
   return Math.round(dayStart + (dayEnd - dayStart) * fraction)
 }
+
+/**
+ * The full displayed figure: synthetic growth plus real signups since epoch.
+ *
+ * `ratePerSecond` is today's synthetic growth spread evenly across 86,400
+ * seconds — what the client ticks the number up by between page loads. The
+ * real-subscriber delta does not get its own rate: real signups are discrete
+ * events, not something that should visibly tick every second.
+ */
+export function computeSubscriberCount(doc, { realCountNow, now = Date.now() }) {
+  const { dayStart, dayEnd, fraction } = syntheticDayBounds(now, doc)
+  const syntheticNow = dayStart + (dayEnd - dayStart) * fraction
+  const ratePerSecond = (dayEnd - dayStart) / 86_400
+  const realDelta = Math.max(0, realCountNow - doc.realCountAtEpoch)
+  return { value: Math.round(syntheticNow + realDelta), ratePerSecond }
+}
