@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
   ArrowLeft, ArrowRight, Award, BookOpenCheck, Building2, Check, CircleHelp, ClipboardCheck, Clock3, Hammer,
-  ListChecks, Pencil, Trophy,
+  ListChecks, Pencil, Trophy, WifiOff,
 } from 'lucide-react'
 import { PageContainer } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -21,6 +21,7 @@ import {
 import { useMaristanas } from '@/lib/useMaristanas'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
+import { useOnlineStatus } from '@/lib/useOnlineStatus'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
 import { useT } from '@/lib/i18n'
@@ -87,11 +88,11 @@ function BuildLedger({ hospital, creditsPerStep }: { hospital: MaristanaHospital
       <div className="flex items-start justify-between gap-4">
         <div>
           <p className="text-[10.5px] font-bold uppercase tracking-[0.085em] text-primary-strong">{t('Current build')}</p>
-          <p className="mt-1 font-serif text-[22px] font-semibold tracking-[-0.02em] text-ink">
+          <h3 className="mt-1 font-serif text-[22px] font-semibold tracking-[-0.02em] text-ink">
             {hospital.completed
               ? t('Hospital complete')
               : t('Step {n} of {total}').replace('{n}', String(step)).replace('{total}', String(MARISTANA_STEPS))}
-          </p>
+          </h3>
         </div>
         <span className={cn(
           'grid size-10 shrink-0 place-items-center rounded-lg border font-mono text-[12px] font-bold',
@@ -183,6 +184,7 @@ export function Maristanas() {
   const t = useT()
   const { audienceSettled, audienceUnknown } = useIdentity()
   const { data, loading, error, refresh, rename } = useMaristanas()
+  const online = useOnlineStatus()
   const [onboarding, setOnboarding, onboardingStatus] = usePersistentState(MARISTANA_ONBOARDING_KEY, DEFAULT_MARISTANA_ONBOARDING)
   const activeSlot = data?.hospitals.find((hospital) => hospital.active)?.slot ?? 1
   const [selectedSlot, setSelectedSlot] = useState(activeSlot)
@@ -232,6 +234,23 @@ export function Maristanas() {
   }
 
   if (error || !data || !selected) {
+    // Offline is a more specific — and more actionable — truth than the
+    // generic server-error copy below (mirrors CatalogueUnavailable's own
+    // offline branch).
+    if (!online) {
+      return (
+        <PageContainer>
+          <Panel className="p-10">
+            <EmptyState
+              icon={WifiOff}
+              title={t("You're offline")}
+              description={t('This page keeps retrying in the background — it will load as soon as you reconnect.')}
+              action={<Button onClick={() => void refresh()}>{t('Try again')}</Button>}
+            />
+          </Panel>
+        </PageContainer>
+      )
+    }
     return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title={t('Construction ledger unavailable')} description={t('No construction credit has changed.')} action={<Button onClick={() => void refresh()}>{t('Try again')}</Button>} /></Panel></PageContainer>
   }
 
@@ -286,7 +305,7 @@ export function Maristanas() {
             <Panel className="p-4">
               <div className="flex items-start gap-3">
                 <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Clock3} size={17} /></span>
-                <div className="min-w-0 flex-1"><p className="text-[12.5px] font-semibold text-ink">{t('This week')}</p><p className="mt-1 text-[11.5px] leading-relaxed text-ink-2">{duration(data.thisWeek.studyMinutes)} {t('active study')} · {data.thisWeek.questionsAnswered} {t('questions')}</p><p className="tnum mt-2 font-mono text-[17px] font-semibold text-primary-strong">+{credit(data.thisWeek.credits)} {t('credits')}</p></div>
+                <div className="min-w-0 flex-1"><h3 className="text-[12.5px] font-semibold text-ink">{t('This week')}</h3><p className="mt-1 text-[11.5px] leading-relaxed text-ink-2">{duration(data.thisWeek.studyMinutes)} {t('active study')} · {data.thisWeek.questionsAnswered} {t('questions')}</p><p className="tnum mt-2 font-mono text-[17px] font-semibold text-primary-strong">+{credit(data.thisWeek.credits)} {t('credits')}</p></div>
               </div>
             </Panel>
           </div>

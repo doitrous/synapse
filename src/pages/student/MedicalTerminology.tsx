@@ -6,6 +6,7 @@ import { Panel } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { SearchInput } from '@/components/ui/Field'
 import { TargetRing } from '@/components/ui/TargetRing'
 import { TermCard } from '@/components/terminology/TermCard'
@@ -17,6 +18,7 @@ import type { MedTermCategory } from '@/data/glossary'
 import { useMedicalGlossary } from '@/data/glossaryStore'
 import { useDecks } from '@/lib/useDecks'
 import { useTerminologyProgress } from '@/lib/useTerminologyProgress'
+import { catalogueAvailability } from '@/lib/catalogueAvailability'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 
@@ -52,10 +54,14 @@ export function MedicalTerminology() {
   const t = useT()
   const navigate = useNavigate()
   const { decks, saveDeck } = useDecks()
-  const [glossary] = useMedicalGlossary()
+  const [glossary, , glossaryStatus] = useMedicalGlossary()
   const progress = useTerminologyProgress()
   const terms = glossary.terms
   const categories = glossary.categories
+  const availability = useMemo(
+    () => catalogueAvailability({ statuses: [glossaryStatus], itemCount: terms.length }),
+    [glossaryStatus, terms.length],
+  )
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState<MedTermCategory | 'all'>('all')
   const [hideKnown, setHideKnown] = useState(false)
@@ -72,7 +78,6 @@ export function MedicalTerminology() {
   const shown = hideKnown ? filtered.filter((term) => !progress.known.has(term.id)) : filtered
   const knownInFilter = filtered.filter((term) => progress.known.has(term.id)).length
   const knownTotal = progress.knownIn(terms.map((term) => term.id))
-  const isEmpty = terms.length === 0
 
   const groups = categories
     .map((c) => ({ ...c, terms: shown.filter((term) => term.category === c.key) }))
@@ -133,12 +138,14 @@ export function MedicalTerminology() {
         )}
       />
 
-      {isEmpty ? (
+      {availability.kind !== 'ready' ? (
         <Panel className="p-10">
-          <EmptyState
-            icon={BookA}
-            title={t('The glossary has not been published yet.')}
-            description={t('Terms appear here once they are published in the admin console.')}
+          <CatalogueUnavailable
+            availability={availability}
+            empty={{
+              title: t('The glossary has not been published yet.'),
+              description: t('Terms appear here once they are published in the admin console.'),
+            }}
           />
         </Panel>
       ) : (
