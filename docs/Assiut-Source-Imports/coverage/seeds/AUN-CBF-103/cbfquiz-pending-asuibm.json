@@ -1,7 +1,7 @@
 {
   "lane": "AUN-CBF-103",
   "cluster": "cbfquiz-pending-asuibm",
-  "header": "AUN-CBF-103 -- All quizzes CBF .pdf, lane 2 (branch aun-cbf103-author2-quiz2). This 1 row reuses one pending Ain Shams IBM concept (CON-FND-D17966222A3693 enzyme active site -- docs/Ain-Shams-Source-Imports/concept/ASU-IBM-enzyme-concepts.md) rather than re-minting. Omar applies this batch only after: 1) the Ain Shams ASU-IBM-enzyme-concepts.md batch, 2) AUN-CBF-103-cbfquiz-pending-asuibm-concept.md (the sparse +aun overlay). Import order: 1 then 2 then this file.",
+  "header": "AUN-CBF-103 -- All quizzes CBF .pdf, lane 2 (branch aun-cbf103-author2-quiz2) + lane 3 (branch aun-cbf103-author3, cbfquiz2-q03/q04 appended). These 3 rows reuse one pending Ain Shams IBM concept (CON-FND-D17966222A3693 enzyme active site -- docs/Ain-Shams-Source-Imports/concept/ASU-IBM-enzyme-concepts.md) rather than re-minting. Omar applies this batch only after: 1) the Ain Shams ASU-IBM-enzyme-concepts.md batch, 2) AUN-CBF-103-cbfquiz-pending-asuibm-concept.md (the sparse +aun overlay). Import order: 1 then 2 then this file.",
   "defaults": {
     "subject": "fnd",
     "status": "Draft",
@@ -46,6 +46,62 @@
       "learning_objective": "Identify the active site as the enzyme's intricately shaped substrate-binding and catalytic surface.",
       "media_recommendations": "",
       "field_notes": { "keySource": "printed \"The correct answer is: Active site\", p28" },
+      "author_notes": "pendingConcept: CON-FND-D17966222A3693 is pending in docs/Ain-Shams-Source-Imports/concept/ASU-IBM-enzyme-concepts.md (not yet mirrored to docs/import-ready/), canonical_key enzyme.active-site.binding-catalysis -- this question and its +aun overlay apply only after Omar imports that Ain Shams batch"
+    },
+    {
+      "key": "cbfquiz2-q03",
+      "id": "QST-AUNCBF103-CBFQUIZPENDINGASUIBM-Q020",
+      "page": 29,
+      "title": "Enzyme-substrate relationship",
+      "question": "The relationship between an enzyme and a reactant molecule can best be described as:",
+      "options": { "A": "An association stabilized by a covalent bond", "B": "A permanent mutual alteration of structure", "C": "One in which the enzyme is changed permanently", "D": "A temporary association" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Enzyme-substrate binding is overwhelmingly non-covalent (hydrogen bonds, ionic interactions, van der Waals forces), not stabilised by a covalent bond between enzyme and substrate.",
+        "B": "Incorrect. The substrate, not the enzyme, undergoes a lasting chemical change (conversion to product); the enzyme's own structure is not permanently and mutually altered.",
+        "C": "Incorrect. The enzyme emerges from the reaction chemically unchanged and able to catalyse further reaction cycles; it is not permanently changed.",
+        "D": "Correct. The enzyme binds its substrate at the active site to form a transient enzyme-substrate complex, catalyses the conversion to product, and then releases the product, returning to its original state ready to bind another substrate molecule. This temporary, non-covalent association is what allows a single enzyme molecule to catalyse many reaction cycles in succession without being consumed or permanently altered itself. This transient nature of enzyme-substrate binding is a defining feature of enzyme catalysis, distinguishing it from a stoichiometric reactant that is consumed in a single use."
+      },
+      "main_concept": "CON-FND-D17966222A3693",
+      "concept_ids": ["CON-FND-D17966222A3693"],
+      "contextual_concept_ids": [],
+      "topic": "Biochemistry of Enzymes",
+      "subtopic": "Enzyme structure",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Describe the enzyme-substrate complex as a temporary, non-covalent association.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: A temporary association\", p29" },
+      "author_notes": "pendingConcept: CON-FND-D17966222A3693 is pending in docs/Ain-Shams-Source-Imports/concept/ASU-IBM-enzyme-concepts.md (not yet mirrored to docs/import-ready/), canonical_key enzyme.active-site.binding-catalysis -- this question and its +aun overlay apply only after Omar imports that Ain Shams batch"
+    },
+    {
+      "key": "cbfquiz2-q04",
+      "id": "QST-AUNCBF103-CBFQUIZPENDINGASUIBM-Q021",
+      "page": 30,
+      "title": "Active site versus antibody binding site",
+      "question": "The active site of an enzyme differs from an antibody antigen binding site in that the enzyme active site:",
+      "options": { "A": "Contains modified amino acids", "B": "Catalyzes a chemical reaction", "C": "Contains amino acids without side chains", "D": "Is complementary to a specific ligand" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Both an enzyme active site and an antibody binding site can involve specific, sometimes unusual, amino acid arrangements; the presence of modified amino acids is not the distinguishing feature between them.",
+        "B": "Correct. Both an enzyme's active site and an antibody's antigen-binding site bind their target ligand with high specificity, but only the enzyme active site goes on to catalyse a chemical reaction, converting the bound substrate into product. An antibody binding site simply holds its antigen without chemically transforming it, which is the fundamental functional distinction between the two kinds of binding surface. This catalytic capability is precisely what defines an enzyme as a catalyst rather than merely a high-affinity binding protein.",
+        "C": "Incorrect. Amino acids by definition all have side chains (even glycine's is a single hydrogen), so this is not a real or distinguishing feature of either binding site.",
+        "D": "Incorrect. Complementarity to a specific ligand is a shared feature of both an enzyme active site and an antibody binding site, not something that distinguishes the enzyme from the antibody."
+      },
+      "main_concept": "CON-FND-D17966222A3693",
+      "concept_ids": ["CON-FND-D17966222A3693"],
+      "contextual_concept_ids": [],
+      "topic": "Biochemistry of Enzymes",
+      "subtopic": "Enzyme structure",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Distinguish an enzyme active site from an antibody binding site by its capacity to catalyse a chemical reaction.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: Catalyzes a chemical reaction\", p30" },
       "author_notes": "pendingConcept: CON-FND-D17966222A3693 is pending in docs/Ain-Shams-Source-Imports/concept/ASU-IBM-enzyme-concepts.md (not yet mirrored to docs/import-ready/), canonical_key enzyme.active-site.binding-catalysis -- this question and its +aun overlay apply only after Omar imports that Ain Shams batch"
     }
   ]
