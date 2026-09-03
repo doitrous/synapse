@@ -5290,3 +5290,2238 @@ yes
 ## author_notes
 keySource: pagetext.mjs keys (highlight-annot), confirmed by render
 gapNote: Reuses the existing first-generation-antihistamine concept (CON-FND-DA4E563A4E5C48, minted by lane 3) rather than the new mint originally drafted for this item -- find-existing.mjs returned no hit for this exact concept, a false negative caught by a direct grep of the concept file before minting.
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-02
+
+## title
+Carcinoma in situ irreversibility
+
+## question
+Carcinoma in situ represents:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+An invasive stage of malignancy.
+
+## explanation_a
+Incorrect. Carcinoma in situ (CIS) is explicitly defined as a PRE-invasive stage of carcinoma, with no invasion of the basement membrane. Once the basement membrane is invaded, the CIS phase ends and an actual (invasive) malignant tumor begins — so CIS is, by definition, not itself an invasive stage.
+
+## answer_b
+Mild form of dysplasia.
+
+## explanation_b
+Incorrect. CIS is not a mild change. It represents severe epithelial atypia (severe dysplasia) carried to its full-thickness extreme, one step beyond even high-grade dysplasia, not a mild one.
+
+## answer_c
+Severe dysplasia involving less than half of epithelial thickness.
+
+## explanation_c
+Incorrect. CIS involves the FULL thickness of the epithelium, not less than half. A change confined to less than half the epithelial thickness describes low-grade dysplasia instead, which is a separate, earlier lesion.
+
+## answer_d
+An irreversible process.
+
+## explanation_d
+Correct. Dysplasia is graded, and low-grade dysplasia is commonly reversible once the irritating cause is removed — but high-grade dysplasia instead progresses INTO carcinoma in situ, and CIS's own defined trajectory is forward, toward invasive carcinoma once the basement membrane is breached, never backward to normal epithelium. Unlike reversible dysplasia, CIS is a fixed, irreversible pre-malignant state, which is exactly why it is managed by excision or ablation rather than by removing the irritant and watching for spontaneous resolution.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-91B66B24922754
+
+## concept_ids
+CON-FND-91B66B24922754
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Carcinoma In Situ
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+State that carcinoma in situ is a full-thickness, pre-invasive but irreversible lesion, distinguishing it from both dysplasia and invasive carcinoma.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.1
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-07
+
+## title
+Compensatory hyperplasia example
+
+## question
+Which of the following is a type of compensatory hyperplasia?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Genitalia after puberty
+
+## explanation_a
+Incorrect. Genitalia and mammary gland enlargement after puberty is HORMONAL physiological hyperplasia, driven by estrogen stimulation — a separate physiological subtype from compensatory hyperplasia.
+
+## answer_b
+Bone marrow hyperplasia after hemorrhage
+
+## explanation_b
+Correct. The department book names bone marrow hyperplasia after hemorrhage as its example of compensatory (physiological) hyperplasia: acute blood loss triggers an erythropoietin-driven increase in hematopoietic precursor numbers to replace the lost red cell mass. This is compensatory in the true sense — restoring a functional deficit — rather than responding to a hormonal stimulus.
+
+## answer_c
+Endometrial hyperplasia due to estrogen secreting ovarian tumor
+
+## explanation_c
+Incorrect. Endometrial hyperplasia from an estrogen-secreting ovarian tumor is PATHOLOGICAL hormonal hyperplasia (an abnormal hormone source driving growth), not compensatory hyperplasia.
+
+## answer_d
+Leukoplakia
+
+## explanation_d
+Incorrect. Leukoplakia is not a hyperplastic lesion at all — it is a precancerous, hyperkeratotic white mucosal plaque, a disordered/precancerous change rather than an increase in normal cell number.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-3174C83F71586A
+
+## concept_ids
+CON-FND-3174C83F71586A
+
+## contextual_concept_ids
+CON-FND-31B9E6BCCD93E4
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Hyperplasia
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+Classify bone marrow hyperplasia after hemorrhage as compensatory hyperplasia, distinguishing it from hormonal physiological and pathological hyperplasia.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.2
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-10
+
+## title
+Histologic criteria of malignancy except
+
+## question
+The histologic criteria of malignancy include all the following except:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Cellular pleomorphism.
+
+## explanation_a
+Incorrect (i.e. this IS a true criterion). Cellular pleomorphism — variation in malignant cell size and shape — is one of the department book's named histologic criteria of malignancy.
+
+## answer_b
+Nuclear pleomorphism.
+
+## explanation_b
+Incorrect (i.e. this IS a true criterion). Nuclear pleomorphism — irregular or bizarre nuclear shapes — is likewise a named criterion.
+
+## answer_c
+Prominent nucleoli.
+
+## explanation_c
+Incorrect (i.e. this IS a true criterion). Prominent nucleoli are named among the nuclear changes of malignancy, alongside nuclear enlargement and hyperchromatism.
+
+## answer_d
+N/C ratio 1:5.
+
+## explanation_d
+Correct — this is the exception. The department book states the normal nucleo-cytoplasmic (N/C) ratio is approximately 1:5; in malignant cells, increased DNA synthesis and nuclear hyperchromatism raise this ratio toward 1:1, not toward 1:5. A ratio of 1:5 is therefore the NORMAL value, not a criterion of malignancy — the true criterion is the ratio increasing, not staying at its normal baseline.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-12D07A974978F0
+
+## concept_ids
+CON-FND-12D07A974978F0
+
+## contextual_concept_ids
+CON-FND-D75B95517F50CF
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Cytologic Criteria of Malignancy
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+State that a N/C ratio of 1:5 is normal, not a criterion of malignancy, distinguishing it from the true cytologic criteria (pleomorphism, hyperchromatism, prominent nucleoli).
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.2
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-11
+
+## title
+True statement on organ metastasis
+
+## question
+Which of the following statements is true regarding organ metastasis?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+One of the most common sites of metastasis is muscles.
+
+## explanation_a
+Incorrect. Muscle is characteristically a RARE site of metastasis (along with spleen, pancreas and intestine), not one of the most common — it is not one of the most common metastatic sites.
+
+## answer_b
+Bone metastasis is usually osteosclerotic.
+
+## explanation_b
+Incorrect. Bone metastases are commonly OSTEOLYTIC; an osteosclerotic reaction is the named exception seen specifically with prostatic carcinoma, whose cells secrete phosphatase that stimulates new bone formation around the deposit.
+
+## answer_c
+Metastasis does not resemble the primary tumor.
+
+## explanation_c
+Incorrect. Metastases typically RESEMBLE the primary tumor from which they derive — this resemblance is in fact diagnostically useful when searching for an occult primary tumor.
+
+## answer_d
+Carcinoma of the stomach can give metastasis to both ovaries.
+
+## explanation_d
+Correct. Carcinoma of the stomach (or colon) can produce bilateral ovarian metastases called Krukenberg tumors. These were historically attributed to trans-coelomic (seeding) spread, but are now believed to arise by retrograde lymphatic or blood spread, since Krukenberg tumors also occur with cancers of the breast, urinary bladder and biliary tract — organs with no direct peritoneal seeding route to the ovary.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-9B1EE27764E33C
+
+## concept_ids
+CON-FND-9B1EE27764E33C
+
+## contextual_concept_ids
+CON-FND-E795DC3D0573A3
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Routes of Spread of Malignant Tumors > Trans-coelomic and General Metastatic Patterns
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+State that metastases resemble their primary tumor, that bone metastases are usually osteolytic (prostate excepted), and that gastric/colonic carcinoma can produce Krukenberg (bilateral ovarian) metastases.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.3
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-12
+
+## title
+Edges of an ulcerative carcinoma
+
+## question
+The edges of the ulcer in ulcerative carcinoma are:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Undermined.
+
+## explanation_a
+Incorrect. An undermined edge is characteristic of a different kind of ulcer (e.g. a tuberculous ulcer), not the ulcerative pattern of carcinoma.
+
+## answer_b
+Sharp.
+
+## explanation_b
+Incorrect. A carcinomatous ulcer is described as irregular, not sharply demarcated.
+
+## answer_c
+Everted.
+
+## explanation_c
+Correct. The department book describes the ulcerative pattern of carcinoma as an irregular ulcer with raised, EVERTED edges, a rough necrotic floor and an indurated base. The tumor's own outward-growing margin rolls the edge outward (everts it) rather than undermining or inverting it, which is exactly what the raised, heaped-up border of a malignant ulcer looks like on inspection. This everted edge is a classic gross clue used to distinguish a malignant ulcer from a non-neoplastic one, such as a tuberculous ulcer's undermined edge.
+
+## answer_d
+Inverted.
+
+## explanation_d
+Incorrect. Inverted (turned inward) is the opposite of the everted edge carcinoma actually produces.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-C282148CC9B936
+
+## concept_ids
+CON-FND-C282148CC9B936
+
+## contextual_concept_ids
+CON-FND-AE5841979FCFAE
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > General Features of Carcinoma > Gross Patterns
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+State that ulcerative carcinoma has raised, everted edges with a necrotic floor and indurated base.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.3
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-14
+
+## title
+EBV-associated carcinoma
+
+## question
+Epstein - Barr virus is associated with:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Esophageal carcinoma.
+
+## explanation_a
+Incorrect. Esophageal carcinoma is not among the department book's named EBV-associated tumors.
+
+## answer_b
+Laryngeal carcinoma.
+
+## explanation_b
+Incorrect. Laryngeal carcinoma is likewise not one of EBV's named associations in this teaching.
+
+## answer_c
+Nasopharyngeal carcinoma.
+
+## explanation_c
+Correct. Epstein-Barr virus (EBV) is implicated in Burkitt's lymphoma, nasopharyngeal carcinoma, other B-cell lymphomas, and some cases of Hodgkin's lymphoma. Nasopharyngeal carcinoma is one of EBV's two most heavily tested associations (alongside Burkitt's lymphoma) in this module.
+
+## answer_d
+Colorectal carcinoma.
+
+## explanation_d
+Incorrect. Colorectal carcinoma is not virally associated with EBV in this teaching; it is not one of the department book's named oncogenic-virus targets.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-4BA8E4B11685CA
+
+## concept_ids
+CON-FND-4BA8E4B11685CA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Carcinogenesis > Viral Carcinogens
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+Name nasopharyngeal carcinoma as one of EBV's associated malignancies, alongside Burkitt's lymphoma.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.3
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-16
+
+## title
+Tumor marker for hepatocellular carcinoma
+
+## question
+Which of the following tumor marks is used to diagnose hepatocellular carcinoma?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Alpha fetoprotein.
+
+## explanation_a
+Correct. Alpha-fetoprotein (AFP) is an oncofetal antigen and the department book's tumor marker for hepatocellular carcinoma. It is normally produced by fetal liver and yolk sac and falls to near-undetectable adult levels after birth, so a rising AFP in an adult liver-disease patient is a strong diagnostic and monitoring signal for hepatocellular carcinoma. This is distinct from the other named oncofetal marker, carcinoembryonic antigen (CEA), which instead marks carcinomas of the colon, pancreas, lung, stomach and breast.
+
+## answer_b
+CA-125.
+
+## explanation_b
+Incorrect. CA-125 is a mucin/glycoprotein marker for ovarian cancer, not hepatocellular carcinoma.
+
+## answer_c
+Human chorionic gonadotropin.
+
+## explanation_c
+Incorrect. Human chorionic gonadotropin (hCG) marks trophoblastic tumors, not hepatocellular carcinoma.
+
+## answer_d
+Prostatic specific antigen.
+
+## explanation_d
+Incorrect. Prostatic specific antigen (PSA) marks prostate cancer, an entirely different organ system.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-B56A1400847F2D
+
+## concept_ids
+CON-FND-B56A1400847F2D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Laboratory Diagnosis of Cancer > Tumor Markers
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+Match alpha-fetoprotein to hepatocellular carcinoma among the department book's organ-specific tumor markers.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.4
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-18
+
+## title
+Carcinoma features except
+
+## question
+Carcinomas are characterized by all the following except:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Epithelial origin.
+
+## explanation_a
+Incorrect (i.e. this IS a true feature). A carcinoma is, by definition, a malignant tumor of epithelial origin, as opposed to a sarcoma's mesenchymal origin.
+
+## answer_b
+Infiltrative growth pattern.
+
+## explanation_b
+Incorrect (i.e. this IS a true feature). Carcinomas arising in solid organs present as an irregular, infiltrating mass, and even the ulcerative/fungating surface patterns show infiltrative local growth.
+
+## answer_c
+Early blood spread.
+
+## explanation_c
+Correct — this is the exception. The department book states carcinomas spread locally, by lymphatics, and only LATE by blood — early, predominant blood-borne spread is instead the sarcoma pattern. Early blood spread is therefore false for carcinoma, making it the exception.
+
+## answer_d
+Early lymphatic spread.
+
+## explanation_d
+Incorrect (i.e. this IS a true feature). Early lymphatic spread is the carcinoma pattern the book names, in contrast to blood spread occurring only late.
+
+## topic
+Pathology
+
+## subtopic
+Neoplasia
+
+## main_concept
+CON-FND-AE5841979FCFAE
+
+## concept_ids
+CON-FND-AE5841979FCFAE
+
+## contextual_concept_ids
+CON-FND-C282148CC9B936
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > General Features of Carcinoma
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+State that carcinomas spread locally and by lymphatics early, with blood spread occurring only late — the reverse emphasis from sarcoma's early blood-borne spread.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.4
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-20
+
+## title
+Mycetoma features except
+
+## question
+Mycetoma is characterized by all the following except:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+60% of cases are caused by eumycetoma. (corrected to 40% during the exam)
+
+## explanation_a
+Incorrect (i.e. this IS a true statement, as corrected). The department book states eumycetoma (true fungi) accounts for 40% of mycetoma cases, against actinomycetoma's (filamentous bacteria) 60% — matching the value the exam corrected this option to during the sitting.
+
+## answer_b
+Infection occurs through skin abrasions.
+
+## explanation_b
+Incorrect (i.e. this IS a true statement). Mycetoma is acquired when soil- or dust-borne organisms enter through minor penetrating skin injury (skin abrasion), typically in bare-footed agricultural workers.
+
+## answer_c
+Lesions are limited to subcutaneous tissue.
+
+## explanation_c
+Correct — this is the exception. The department book's own definition names mycetoma as a chronic granulomatous infection of the subcutaneous tissue AND BONE of the feet — lesions are explicitly not limited to subcutaneous tissue, since bone involvement is part of the disease's definition (hence the alternative name Madura "foot"). The disease begins after minor penetrating skin injury inoculates soil organisms into the subcutaneous tissue, but as it progresses it characteristically extends deeper to involve the underlying bone, producing the tumor-like swelling the name "mycetoma" (fungus tumor) describes. Because bone involvement is a defining, not incidental, feature, "limited to subcutaneous tissue" is the one statement in this list that the book's own definition contradicts.
+
+## answer_d
+Shows sinuses discharging serosanguinous fluid.
+
+## explanation_d
+Incorrect (i.e. this IS a true statement). Mycetoma classically presents with localized lesions and multiple draining sinuses discharging exudate containing granules (yellow, white, red, brown or black depending on the causative agent).
+
+## topic
+Pathology
+
+## subtopic
+Fungal infections
+
+## main_concept
+CON-INF-CE0B094DB20F2A
+
+## concept_ids
+CON-INF-CE0B094DB20F2A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 7 Fungal Infections > Mycetoma
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+State that mycetoma involves bone as well as subcutaneous tissue, and that eumycetoma accounts for 40% of cases against actinomycetoma's 60%.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.4
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+keySource CORRECTION: pagetext.mjs keys auto-detected letter A for this question, but a forced render of source p.4 shows the green highlight is unambiguously on option C — the parenthetical exam-correction text embedded in option A appears to have thrown off the automatic highlight-to-option mapping for this one question only. Authored against the render-confirmed answer (C). Five neighbouring pages (1-3, 5-7, 12) were also spot-checked by render and matched the auto-detected keys exactly, so this looks like an isolated extraction glitch rather than a systemic one.
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-21
+
+## title
+Local sign of acute inflammation NOT
+
+## question
+Which of the following is not considered a local sign of acute inflammation:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Redness.
+
+## explanation_a
+Incorrect (i.e. this IS a local sign). Redness, from vasodilatation and opening of the capillary bed, is one of the five local signs of acute inflammation.
+
+## answer_b
+Swelling.
+
+## explanation_b
+Incorrect (i.e. this IS a local sign). Swelling, from accumulation of inflammatory exudate (inflammatory oedema), is likewise a named local sign.
+
+## answer_c
+Loss of function.
+
+## explanation_c
+Incorrect (i.e. this IS a local sign). Loss of function, from pain and tissue damage, completes the department book's five-item list (redness, hotness, swelling, pain, loss of function).
+
+## answer_d
+Presence of scar.
+
+## explanation_d
+Correct — this is the exception. A scar is a late structural OUTCOME of healing by fibrosis, appearing well after the acute inflammatory response has resolved — it is not one of the signs observed during active acute inflammation itself. The department book's own list of local signs (redness, hotness, swelling, pain, loss of function) describes what is seen WHILE inflammation is active, each tied to a specific vascular or nerve mechanism happening in real time. Scarring, by contrast, only appears once the inflammatory phase has given way to the repair phase, days to weeks later, so it cannot be counted among the acute local signs the question asks about.
+
+## topic
+Pathology
+
+## subtopic
+Inflammation and repair
+
+## main_concept
+CON-FND-3ABA8A2D2D6962
+
+## concept_ids
+CON-FND-3ABA8A2D2D6962
+
+## contextual_concept_ids
+CON-IMM-0F12EDB7C7CC8E
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 1 Inflammation > Local Signs and Symptoms
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+List the five local signs of acute inflammation (redness, hotness, swelling, pain, loss of function) and recognise scar formation as a late healing outcome, not an acute sign.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-23
+
+## title
+Perianal abscess complicated by fistula
+
+## question
+A patient diagnosed with perianal abscess came to the ER complaining of stools discharging on skin surface. What did this patient develop as a complication of his abscess:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+A Keloid.
+
+## explanation_a
+Incorrect. A keloid is an outcome of excessive scar formation, unrelated to stool tracking onto the skin.
+
+## answer_b
+An ulcer.
+
+## explanation_b
+Incorrect. An ulcer is a single-ended surface defect from separation of necrotic tissue — it cannot by itself explain stool discharging onto the skin, which requires a tract connecting the rectal lumen to the skin surface.
+
+## answer_c
+A fistula.
+
+## explanation_c
+Correct. A fistula is a double-ended tract communicating between two surfaces or hollow organs, formed when a deep abscess evacuates and its tract connects two epithelialised surfaces. An ano-rectal fistula complicating a perianal abscess is the department book's own worked example, exactly matching this vignette: the abscess tracks from the perianal skin to the rectal lumen, so stool can now discharge through the skin opening. This is what distinguishes a fistula from a sinus (which has only one open end, blind internally) and from an ulcer (a surface defect with no tract at all).
+
+## answer_d
+A boil.
+
+## explanation_d
+Incorrect. A boil (furuncle) is a localized suppurative infection of a hair follicle, not a complication that produces a communicating tract.
+
+## topic
+Pathology
+
+## subtopic
+Inflammation and repair
+
+## main_concept
+CON-FND-D798D9598473F6
+
+## concept_ids
+CON-FND-D798D9598473F6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical vignette
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 1 Inflammation > Complications of Abscess
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+Recognise an ano-rectal fistula complicating a perianal abscess from the clinical sign of stool discharging through the skin.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-25
+
+## title
+Mechanism of inflammatory swelling
+
+## question
+Swelling at site of inflammation is caused by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Vasoconstriction.
+
+## explanation_a
+Incorrect. Acute inflammation produces vasoDILATATION, not vasoconstriction — vasoconstriction would reduce, not increase, local fluid delivery.
+
+## answer_b
+Bacterial phagocytosis.
+
+## explanation_b
+Incorrect. Bacterial phagocytosis is how neutrophils and macrophages clear organisms; it is not the mechanism that produces tissue swelling.
+
+## answer_c
+Nerve compression.
+
+## explanation_c
+Incorrect. Nerve compression by exudate is the department book's stated mechanism of PAIN, not of swelling itself.
+
+## answer_d
+Increased vascular permeability.
+
+## explanation_d
+Correct. Inflammation produces increased vascular permeability, which allows protein-rich fluid to leak out of post-capillary venules into the interstitium as inflammatory exudate. This accumulating exudate is what produces the visible and palpable swelling (inflammatory oedema) at the site of inflammation, distinct from the separate mechanisms behind the other cardinal signs — vasodilatation for redness and hotness, nerve compression and mediators for pain. Without this permeability increase, plasma proteins and fluid would stay confined to the vessels and no swelling would develop.
+
+## topic
+Pathology
+
+## subtopic
+Inflammation and repair
+
+## main_concept
+CON-FND-3ABA8A2D2D6962
+
+## concept_ids
+CON-FND-3ABA8A2D2D6962
+
+## contextual_concept_ids
+CON-IMM-0F12EDB7C7CC8E
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 1 Inflammation > Vascular Changes
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+State that increased vascular permeability, not vasoconstriction or nerve compression, is the mechanism behind inflammatory swelling.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-31
+
+## title
+Inhibiting factor of connective tissue repair
+
+## question
+Which of the following is considered an inhibiting factor of repair by connective tissue
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Cell to matrix interaction
+
+## explanation_a
+Incorrect. The department book lists cell-to-matrix interaction (integrins binding extracellular-matrix fibronectin) among the STIMULATORY factors controlling repair, not the inhibitory ones — it regulates proliferation, migration and differentiation and provides scaffolding for cell adhesion.
+
+## answer_b
+Cell to cell interaction
+
+## explanation_b
+Correct. Under the book's own "Inhibitory factors" heading, cell-to-cell interaction and contact inhibition is named explicitly: once healthy proliferating cells fill a gap and come into contact with each other, they stimulate inhibitory receptors on their surface that switch off further growth and movement. This is the mechanism that stops fibroblast (and other cell) proliferation once a wound gap has been bridged, preventing the overgrowth that would otherwise continue indefinitely. It sits alongside a second inhibitory mechanism the book names — some growth factors (TGF-alpha, TGF-beta) turning inhibitory once repair is complete — but contact inhibition via cell-to-cell interaction is the specific answer this option set draws out.
+
+## answer_c
+Vitamin C deficiency
+
+## explanation_c
+Incorrect for this specific list. Vitamin C deficiency does impair collagen synthesis and delay wound healing, but the department book files that fact under a separate list of clinical factors that DELAY healing (alongside diabetes, poor blood supply and glucocorticoids) — not under this question's list of factors controlling cell proliferation in repair, from which the printed key draws its answer.
+
+## answer_d
+Fibroblast growth factor.
+
+## explanation_d
+Incorrect. Fibroblast growth factor (FGF) is explicitly named among the book's "major growth factors," a stimulatory factor for repair, not an inhibitory one.
+
+## topic
+Pathology
+
+## subtopic
+Inflammation and repair
+
+## main_concept
+CON-FND-DF4EE62E33B581
+
+## concept_ids
+CON-FND-DF4EE62E33B581
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 2 Healing and Repair > Factors Controlling Cell Proliferation
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-HEALING-AND-REPAIR
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+Name cell-to-cell contact inhibition as the department book's inhibitory mechanism for repair-phase proliferation, distinct from cell-to-matrix interaction and growth factors (both stimulatory) and from the separate list of clinical factors that delay wound healing.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-33
+
+## title
+Water-soluble vitamin identification
+
+## question
+The following is a water-soluble vitamin.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Vitamin A.
+
+## explanation_a
+Incorrect. Vitamin A is fat-soluble.
+
+## answer_b
+Vitamin C.
+
+## explanation_b
+Correct. Vitamin C (ascorbic acid) is water-soluble, along with the B-complex vitamins. Unlike the fat-soluble vitamins (A, D, E, K), it is not significantly stored in body fat or the liver, so deficiency develops relatively quickly on a poor diet and any excess intake is simply excreted in the urine rather than accumulating toward toxicity. This solubility difference is also why vitamin C deficiency (impairing collagen synthesis and wound healing, as tested elsewhere in this module) develops over weeks rather than the months a fat-soluble-vitamin deficiency typically takes.
+
+## answer_c
+Vitamin K.
+
+## explanation_c
+Incorrect. Vitamin K is fat-soluble.
+
+## answer_d
+Vitamin D.
+
+## explanation_d
+Incorrect. Vitamin D is fat-soluble.
+
+## topic
+Pathology
+
+## subtopic
+Nutritional disorders
+
+## main_concept
+CON-FND-15EA2CD991C9CB
+
+## concept_ids
+CON-FND-15EA2CD991C9CB
+
+## contextual_concept_ids
+CON-FND-BFCED5D968B197
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 9 Nutritional Disorders > Vitamin Classification
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+Classify vitamin C as water-soluble against vitamins A, D and K as fat-soluble.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-34
+
+## title
+Delayed fontanelle closure and vitamin D
+
+## question
+Delayed closure of fontanelles is a feature of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Vitamin C deficiency.
+
+## explanation_a
+Incorrect. Vitamin C deficiency (scurvy) impairs collagen synthesis and wound healing; it does not produce the bone-mineralization defects of rickets.
+
+## answer_b
+Vitamin K deficiency.
+
+## explanation_b
+Incorrect. Vitamin K deficiency causes a bleeding disorder from impaired clotting-factor synthesis, unrelated to bone mineralization or fontanelle closure.
+
+## answer_c
+Vitamin D deficiency.
+
+## explanation_c
+Correct. Vitamin D deficiency in children (rickets) blocks mineralization of the epiphyseal cartilage and remodeling bone. The department book specifically lists delayed closure of the fontanelles among rickets' head findings, alongside craniotabes, frontal bossing and delayed eruption of the temporary teeth.
+
+## answer_d
+Vitamin B3 deficiency.
+
+## explanation_d
+Incorrect. Vitamin B3 (niacin) deficiency causes pellagra (dermatitis, diarrhea, dementia), not the bone changes of rickets.
+
+## topic
+Pathology
+
+## subtopic
+Nutritional disorders
+
+## main_concept
+CON-FND-190E00EE840EBD
+
+## concept_ids
+CON-FND-190E00EE840EBD
+
+## contextual_concept_ids
+CON-FND-BFCED5D968B197
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 9 Nutritional Disorders > Vitamin D Deficiency
+
+## question_only_for
+
+## library_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+State that delayed fontanelle closure is a head finding of rickets (vitamin D deficiency), distinguishing it from vitamin C, K and B3 deficiency.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2024EOM-59
+
+## title
+Source of pulmonary pyemia
+
+## question
+Pulmonary pyemia can be a complication for:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Pulmonary vein septic thrombophlebitis.
+
+## explanation_a
+Incorrect. The department book's table places pulmonary vein septic thrombophlebitis under the SYSTEMIC pyemia route (emboli distributed by the aorta to organs such as brain and kidneys), not the pulmonary route.
+
+## answer_b
+Left heart vegetations.
+
+## explanation_b
+Incorrect. Left heart vegetations (infective endocarditis) are likewise a named cause of SYSTEMIC pyemia in the book's table, embolizing to the aorta and its branches, not to the lung.
+
+## answer_c
+Acute appendicitis.
+
+## explanation_c
+Incorrect. Acute appendicitis causes septic thrombophlebitis of GIT veins (tributaries of the portal vein), producing PORTAL pyemia with pyemic abscesses in the liver, not the lung.
+
+## answer_d
+Lower limbs cellulitis.
+
+## explanation_d
+Correct. The department book's table names cellulitis/abscess (or septic thrombophlebitis) of any systemic vein — including the lower limbs — as the cause of PULMONARY pyemia. Septic emboli from the site travel via the systemic veins to the right heart, then the pulmonary artery, and impact in the small blood vessels of the lung, forming pyemic abscesses there. This right-heart-then-lung route is what distinguishes pulmonary pyemia from the systemic route (pulmonary vein thrombophlebitis or left heart vegetations, distributed by the aorta to organs like brain and kidney) and the portal route (GIT venous thrombophlebitis draining to the liver).
+
+## topic
+Pathology
+
+## subtopic
+Bacterial infections
+
+## main_concept
+CON-INF-5067B49C3FEACB
+
+## concept_ids
+CON-INF-5067B49C3FEACB
+
+## contextual_concept_ids
+CON-INF-6E5B00C79396B9
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Blood-Stream Spread > Types of Pyemia
+
+## question_only_for
+
+## library_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+
+## resource_ids
+src_71e9056fb934dc28806a
+
+## learning_objective
+Match cellulitis/systemic-vein thrombophlebitis to pulmonary pyemia, distinguishing it from the systemic-pyemia route (pulmonary vein thrombophlebitis, left heart vegetations) and the portal-pyemia route (GIT/appendiceal thrombophlebitis).
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2024 exam paper, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: pagetext.mjs keys (highlight-annot), confirmed by render

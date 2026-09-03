@@ -12712,3 +12712,1160 @@ resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ..
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: 2024 EOM paper, Q71. This is the final new concept minted for the 2024 EOM tranche.
+
+---
+
+# Item
+## id
+CON-FND-3174C83F71586A
+## label
+Compensatory hyperplasia (e.g. bone marrow hyperplasia after hemorrhage) is a physiological hyperplasia distinct from hormonal or pathological hyperplasia
+## canonical_key
+neoplasia.hyperplasia.compensatory-types
+## aliases
+Types of hyperplasia
+Compensatory hyperplasia examples
+Physiological vs pathological hyperplasia
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hyperplasia is increased organ size and weight from an increase in cell number by division; it may be physiological or pathological. Physiological hyperplasia has two named types: hormonal (e.g. mammary glands and genitalia at puberty, driven by estrogen stimulation) and compensatory (e.g. bone marrow hyperplasia after hemorrhage, where erythropoietin drives an increase in hematopoietic precursors to replace the lost red cell mass). Pathological hyperplasia is also hormonal in the department book's example (endometrial hyperplasia in repeated anovulatory cycles, or from an estrogen-secreting ovarian tumor) or antigen-driven (lymphoid hyperplasia). Compensatory hyperplasia is specifically the response to a functional deficit (loss of blood, loss of a paired organ) rather than to a hormonal stimulus.
+## explicit_objective
+Classify bone marrow hyperplasia after hemorrhage as the department book's example of compensatory (not hormonal) hyperplasia, distinguishing it from puberty-related and estrogen-tumor-driven hyperplasia, both of which are hormonal.
+## pitfalls
+Calling puberty-related genitalia/mammary hyperplasia 'compensatory' because it is physiological — the book files it under hormonal hyperplasia, a separate physiological subtype. Calling estrogen-tumor-driven endometrial hyperplasia 'compensatory' — it is pathological hormonal hyperplasia, driven by an abnormal hormone source, not a functional deficit.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Hyperplasia
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-31B9E6BCCD93E4
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.4
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-COMPENSATORY-HYPERPLASIA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is a type of compensatory hyperplasia? a. Genitalia after puberty b. Bone marrow hyperplasia after hemorrhage c. Endometrial hyperplasia due to estrogen secreting ovarian tumor d. Leukoplakia" ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("compensatory hyperplasia bone marrow") -- no hit in live state or 208-INT concept file. A cross-university hit exists (docs/Menoufia-Source-Imports/concept/MU-MED102-concepts.md, CON-FND-D66AACEF20D459, same fact, canonical_key "bone-marrow.compensatory-hyperplasia.acute-hemorrhage", status under review/not live) -- minted a fresh 208-INT-scoped id here instead of reusing that one, since simulating this batch must not depend on an unlanded sibling-university batch; flagging the overlap for a later cross-university concept merge rather than salting a new canonical key. Related to CON-FND-31B9E6BCCD93E4 (this module's general hypertrophy/hyperplasia concept), which does not itself break out the compensatory-vs-hormonal distinction.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.33-34 ("Hypertrophy"/"Hyperplasia" types and causes lists).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q7, third 208 INT tier-1-3 paper pass (gap-closing continuation of the 2024 EOM triage).
+
+---
+
+# Item
+## id
+CON-FND-12D07A974978F0
+## label
+The normal nucleo-cytoplasmic (N/C) ratio is about 1:5; malignant cells increase it toward 1:1 through nuclear hyperchromatism, not by staying at the normal ratio
+## canonical_key
+neoplasia.criteria-of-malignancy.nc-ratio
+## aliases
+Cytologic criteria of malignancy
+Nuclear-cytoplasmic ratio
+Histologic criteria of malignancy
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book's histologic criteria of malignancy include cellular pleomorphism (variation in cell size and shape), nuclear pleomorphism (irregular or bizarre nuclear shapes), nuclear enlargement and hyperchromatism (from increased DNA synthesis), prominent nucleoli, abundant and often abnormal mitoses, and tumor giant cells. Nuclear enlargement and hyperchromatism specifically raise the nucleo-cytoplasmic (N/C) ratio, approaching 1:1 in malignant cells; the book states the normal N/C ratio is approximately 1:5. A N/C ratio of 1:5 is therefore the normal value, not a criterion of malignancy -- malignancy is marked by that ratio rising, not by it staying at the normal level.
+## explicit_objective
+State that a N/C ratio of 1:5 is the normal ratio, and that malignant cells are recognised by this ratio increasing toward 1:1, distinguishing this from the true cytologic criteria of malignancy (pleomorphism, hyperchromatism, prominent nucleoli, abnormal mitoses).
+## pitfalls
+Treating any N/C ratio figure as automatically malignant because the question lists it among criteria of malignancy options -- 1:5 is specifically the book's stated NORMAL ratio, so it is the one figure in this kind of list that does not indicate malignancy.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Cytologic Criteria of Malignancy
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-D75B95517F50CF
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.45
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-CRITERIA-OF-MALIGNANCY-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The histologic criteria of malignancy include all the following except: a. Cellular pleomorphism. b. Nuclear pleomorphism. c. Prominent nucleoli. d. N/C ratio 1:5." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("criteria of malignancy", "criteria of malignancy nuclear cytoplasmic ratio") -- no hit. New concept; cross-linked to CON-FND-D75B95517F50CF (anaplasia grading), which names pleomorphism/hyperchromatism/mitoses at the concept level but not the specific normal 1:5 N/C ratio figure this question turns on.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.41 ("Cytologic features of malignant cells": pleomorphism, nuclear enlargement/hyperchromatism and the "approximately 1:5" normal N/C ratio statement).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q10.
+
+---
+
+# Item
+## id
+CON-FND-9B1EE27764E33C
+## label
+Metastases typically resemble their primary tumor, bone metastases are usually osteolytic (prostate is the osteosclerotic exception), muscle is a rare metastatic site, and gastric or colonic carcinoma can seed both ovaries as a Krukenberg tumor
+## canonical_key
+neoplasia.metastasis.krukenberg-and-general-patterns
+## aliases
+Krukenberg tumor
+Patterns of organ metastasis
+Bone metastasis osteolytic vs osteosclerotic
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Metastases microscopically resemble the primary tumor from which they derive, which is diagnostically useful when searching for an occult primary. Bone metastases are commonly osteolytic, but prostatic carcinoma is a named exception: prostatic cells secrete phosphatase that stimulates new bone formation around the deposit, producing an osteosclerotic reaction. Trans-coelomic (seeding) spread occurs when malignant cells detach from a tumor infiltrating a serosal surface and implant elsewhere in the same cavity; in females, carcinoma of the stomach (or colon) can produce bilateral ovarian metastases called Krukenberg tumors, historically attributed to trans-coelomic spread but now thought to arise by retrograde lymphatic or blood spread, since Krukenberg tumors also occur with cancers of the breast, urinary bladder and biliary tract.
+## explicit_objective
+State that metastases resemble their primary tumor, that bone metastases are usually osteolytic except for prostate's osteosclerotic pattern, and that gastric or colonic carcinoma can produce bilateral ovarian (Krukenberg) metastases.
+## pitfalls
+Assuming metastasis does not resemble the primary tumor, or that bone metastasis is usually osteosclerotic -- the book states the reverse for both (resemblance is typical; osteolytic is the usual bone pattern, with prostate as the named exception). Assuming muscle is a common metastatic site -- it, along with spleen, pancreas and intestine, is characteristically a rare site of tumor deposits.
+## concept_type
+clinical_correlation
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Routes of Spread of Malignant Tumors > Trans-coelomic and General Metastatic Patterns
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-E795DC3D0573A3
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.55
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-METASTASIS-PATTERNS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following statements is true regarding organ metastasis? a. One of the most common sites of metastasis is muscles. b. Bone metastasis is usually osteosclerotic. c. Metastasis does not resemble the primary tumor. d. Carcinoma of the stomach can give metastasis to both ovaries." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("Krukenberg", "metastasis pattern") -- no hit. Cross-linked to CON-FND-E795DC3D0573A3 (hematogenous spread/fate of tumor emboli), which covers the blood-borne route's own site pattern but not this question's trans-coelomic/bone/resemblance facts -- new concept rather than an overlay, since the option set here tests a different, non-overlapping slice of the book's metastasis chapter.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.44 ("Microscopic picture" -- resemblance and bone metastasis -- and "C. Seeding of Body Cavities (Trans-coelomic Spread)" -- Krukenberg tumor).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q11.
+
+---
+
+# Item
+## id
+CON-FND-C282148CC9B936
+## label
+Carcinomas arising from surface epithelium take a fungating polypoid, ulcerative (raised everted edges) or infiltrative growth pattern
+## canonical_key
+neoplasia.carcinoma.ulcerative-gross-pattern
+## aliases
+Gross patterns of carcinoma
+Ulcerative carcinoma edges
+General features of carcinoma
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Carcinomas arising from surface epithelium take one of three gross growth patterns: a fungating polypoid mass; an ulcerative pattern, forming an irregular ulcer with raised, everted edges, a rough necrotic floor and an indurated base; or an infiltrative pattern, which can cause an annular stricture in hollow organs. In solid organs, carcinoma instead presents as an irregular, infiltrating, hard mass. Carcinomas spread locally, by lymphatics, and late by blood -- distinguishing their gross ulcer edge (raised and everted, from the tumor's own outward-growing margin) from the undermined edge classically produced by a different, non-neoplastic ulcerating process such as a tuberculous ulcer.
+## explicit_objective
+State that the ulcer of ulcerative carcinoma has raised, everted edges with a necrotic floor and indurated base, as one of carcinoma's three named gross growth patterns.
+## pitfalls
+Confusing carcinoma's everted ulcer edge with the undermined edge of a tuberculous (or other non-neoplastic infective) ulcer -- the two edge types are the book's way of distinguishing a malignant ulcer from an infective one on gross inspection.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > General Features of Carcinoma > Gross Patterns
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-AE5841979FCFAE
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.5
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-ULCERATIVE-CARCINOMA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The edges of the ulcer in ulcerative carcinoma are: a. Undermined. b. Sharp. c. Everted. d. Inverted." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("ulcerative carcinoma", "carcinoma epithelial infiltrative") -- no hit. Cross-linked to CON-FND-AE5841979FCFAE (sarcoma vs carcinoma general features), which names carcinoma's lymphatic-then-late-blood spread route but not its gross growth patterns -- new concept for the non-overlapping gross-pattern fact.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.50 ("General features of carcinomas" -- growth patterns list).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q12.
+
+---
+
+# Item
+## id
+CON-INF-CE0B094DB20F2A
+## label
+Mycetoma (Madura foot) is a chronic granulomatous infection of the subcutaneous tissue and bone of the feet, caused by true fungi (eumycetoma, 40% of cases) or filamentous bacteria (actinomycetoma, 60%), presenting with multiple draining sinuses
+## canonical_key
+mycetoma.definition.eumycetoma-vs-actinomycetoma
+## aliases
+Madura foot
+Eumycetoma vs actinomycetoma
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mycetoma (Madura foot) is a chronic granulomatous infection involving the subcutaneous tissue AND bone of the feet, characterized by localized lesions with multiple draining sinuses; the discharged exudate contains granules that may be yellow, white, red, brown or black depending on the causative agent. It has two causative categories with similar gross and microscopic appearances: eumycetoma, caused by true fungi (40% of cases, a form of subcutaneous fungal infection), and actinomycetoma, caused by filamentous bacteria (60% of cases). Infection occurs when soil- or dust-borne organisms enter through minor penetrating skin injury, typically in bare-footed agricultural workers in tropical and subtropical rural areas.
+## explicit_objective
+State that mycetoma involves both subcutaneous tissue and bone (not subcutaneous tissue alone), that eumycetoma (true fungi) accounts for 40% of cases against actinomycetoma's (filamentous bacteria) 60%, and that infection is via minor penetrating skin injury with multiple draining sinuses as the presenting sign.
+## pitfalls
+Assuming mycetoma's lesions are limited to the subcutaneous tissue -- the department book's own definition names bone involvement alongside subcutaneous tissue, which is what makes 'lesions limited to subcutaneous tissue' the false statement in an EXCEPT-style question about mycetoma's features.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T02-S03
+## topic
+Pathology
+## subtopic
+Fungal infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 7 Fungal Infections > Mycetoma
+## article_ids
+ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-MYCETOMA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Mycetoma is characterized by all the following except: a. 60% of cases are caused by eumycetoma. (corrected verbally to 40% during the exam sitting) b. Infection occurs through skin abrasions. c. Lesions are limited to subcutaneous tissue. d. Shows sinuses discharging serosanguinous fluid." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "mycetoma" -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.110 ("MYCETOMA (MADURA FOOT/NOCARDIASIS)" definition, etiology, mode of infection).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+keySource CORRECTION: pagetext.mjs keys auto-detected this question's marked answer as (a), but a forced render of the source page (p.4) shows the green highlight is unambiguously on option (c) "Lesions are limited to subcutaneous tissue" -- the parenthetical exam-correction text on option (a), "(replaced to 40% at the exam)", appears to have thrown off the automatic highlight-to-option line mapping for this one question. Authored against the render-confirmed answer (c), consistent with the kasr-pdf-extraction-traps hazard (a key marking that does not correlate must not be trusted without a render). Spot-checked five neighbouring pages (1-3, 5-7, 12) by render and found no other mismatch.
+relationships: 2024 EOM paper, Q20.
+
+---
+
+# Item
+## id
+CON-FND-3ABA8A2D2D6962
+## label
+The five local signs of acute inflammation are redness, hotness, swelling, pain and loss of function; scar is a late outcome of healing, not an acute local sign
+## canonical_key
+inflammation.local-signs.cardinal-signs-vs-scar
+## aliases
+Local signs and symptoms of acute inflammation
+Cardinal signs of inflammation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book lists five local signs and symptoms of acute inflammation: redness (from vasodilatation and opening of the capillary bed, increasing blood flow); hotness (also from increased blood flow -- redness and hotness together are called 'flare'); swelling (from accumulation of inflammatory exudate, i.e. inflammatory oedema, itself driven by increased vascular permeability); pain (from nerve compression by exudate and irritation by mediators such as bradykinin and prostaglandin E2); and loss of function (from pain and tissue damage). A scar is not among these -- it is a late structural outcome of healing by fibrosis (or a complication of exaggerated repair, as in a keloid), arising well after the acute inflammatory local signs have resolved or evolved into chronic disease, not a sign present during the acute inflammatory response itself.
+## explicit_objective
+List the five local signs of acute inflammation (redness, hotness, swelling, pain, loss of function) and their individual mechanisms, and recognise scar formation as a late healing outcome rather than an acute local sign.
+## pitfalls
+Adding scar (or any late fibrous/healing outcome) to the list of acute local signs -- the book's local-signs list describes what is observed DURING active acute inflammation, before repair is complete; a scar is what remains after inflammation has resolved and the wound has healed.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S02
+## topic
+Pathology
+## subtopic
+Inflammation and repair
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 1 Inflammation > Local Signs and Symptoms
+## article_ids
+ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION
+## related_article_ids
+
+## related_concept_ids
+CON-IMM-0F12EDB7C7CC8E
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.45
+## academic_relevance
+0.75
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-LOCAL-SIGNS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is not considered a local sign of acute inflammation: a. Redness. b. Swelling. c. Loss of function. d. Presence of scar." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("cardinal signs of inflammation", "redness swelling loss of function acute inflammation") -- no hit. Cross-linked to the live CON-IMM-0F12EDB7C7CC8E (increased vascular permeability), which names swelling's mechanism at a general level but not this book's specific five-item local-signs list -- new concept for the list itself.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.14 ("Local signs & symptoms of acute inflammation").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q21.
+
+---
+
+# Item
+## id
+CON-FND-DF4EE62E33B581
+## label
+Cell-to-cell contact inhibition, not cell-to-matrix interaction or growth factors, is the department book's named inhibitory mechanism switching off fibroblast proliferation once repair is complete
+## canonical_key
+healing.inhibitory-factors.cell-cell-contact-inhibition
+## aliases
+Contact inhibition
+Inhibitory factors of tissue repair
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book separates the factors controlling cell proliferation in repair into stimulatory and inhibitory groups. Stimulatory factors include the major growth factors (EGF, TGF-alpha, FGF, PDGF, VEGF, IL-1, TNF-alpha) and cell-to-matrix interaction, in which integrins bind extracellular-matrix fibronectin to regulate proliferation, migration and differentiation, acting as scaffolding for cell adhesion. Once repair is complete, cell proliferation is switched off by inhibitory factors: some growth factors turn inhibitory (TGF-alpha stimulates collagen degradation, TGF-beta inhibits cell growth), and, separately, cell-to-cell interaction and contact inhibition -- when healthy proliferating cells come into contact with each other after filling a gap, they stimulate inhibitory receptors on their surface that switch off further growth and movement. This is distinct from the department book's separate list of clinical factors that DELAY wound healing (nutrition/vitamin C deficiency, diabetes, poor blood supply, glucocorticoids, infection, foreign bodies), which describes impaired healing rather than the normal proliferation-control mechanism this question asks about.
+## explicit_objective
+Name cell-to-cell interaction (contact inhibition) as the department book's inhibitory mechanism for repair-phase cell proliferation, distinguishing it from cell-to-matrix interaction and growth factors (both stimulatory in this list) and from the separate list of clinical factors that delay wound healing.
+## pitfalls
+Selecting vitamin C deficiency as the answer to a question about this specific 'factors controlling proliferation' list -- vitamin C deficiency genuinely impairs collagen synthesis and healing, but the book files that fact under a different, separate list of clinical factors delaying wound healing, not under the growth-factor/cell-interaction mechanisms this question is drawn from. Confusing cell-to-matrix interaction (stimulatory, via integrin-fibronectin signalling) with cell-to-cell interaction (inhibitory, via contact inhibition) because both use the word 'interaction'.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S02
+## topic
+Pathology
+## subtopic
+Inflammation and repair
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 2 Healing and Repair > Factors Controlling Cell Proliferation
+## article_ids
+ART-FND-208INT-HEALING-AND-REPAIR
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.35
+## academic_relevance
+0.75
+## weight_confidence
+0.5
+## confidence
+0.8
+## atomic_claim_ids
+CLM-FND-208INT-CONTACT-INHIBITION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is considered an inhibiting factor of repair by connective tissue: a. Cell to matrix interaction b. Cell to cell interaction c. Vitamin C deficiency d. Fibroblast growth factor." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("cell to cell interaction", "cell to matrix", "contact inhibition", "factors inhibiting wound repair") -- no hit; "contact inhibition" itself returned zero hits despite being the department book's own heading. New concept. NOTE: this question's printed key (render-confirmed on p.7, green highlight squarely on option b) initially looked plausibly answerable as (c) Vitamin C deficiency from the department book's p.25 "Factors that influence tissue repair" list -- re-reading p.21-24's separate "Factors controlling cell proliferation" section (stimulatory vs "II. Inhibitory factors") resolved the apparent conflict: these are two distinct book lists, and (b) is the one the question draws from.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.24 ("B. Cell-matrix interaction" and "II. Inhibitory factors > B. Cell-Cell Interaction and contact inhibition").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q31.
+
+---
+
+# Item
+## id
+CON-FND-15EA2CD991C9CB
+## label
+Vitamin C is water-soluble; vitamins A, D and K are fat-soluble
+## canonical_key
+vitamins.classification.water-vs-fat-soluble
+## aliases
+Water-soluble vs fat-soluble vitamins
+Vitamin C classification
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vitamins are classified by solubility into fat-soluble (A, D, E, K -- absorbed with dietary lipid and stored in fatty tissue and the liver) and water-soluble (the B-complex vitamins and vitamin C -- not significantly stored, so deficiency develops faster and excess is excreted in urine rather than accumulating to toxic levels). Among the four vitamins commonly tested in this module's nutritional-pathology block (A, C, K, D), vitamin C is the water-soluble one; vitamins A, D and K are all fat-soluble.
+## explicit_objective
+Classify vitamin C as water-soluble against vitamins A, D and K as fat-soluble.
+## pitfalls
+Assuming any vitamin named by a letter is fat-soluble by default -- vitamin C (ascorbic acid) and the B-complex vitamins are the water-soluble group; only A, D, E and K are fat-soluble.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Nutritional disorders
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 9 Nutritional Disorders > Vitamin Classification
+## article_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-BFCED5D968B197
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.25
+## exam_weight_by_year
+KAU_Y2=0.25
+## clinical_relevance
+0.25
+## academic_relevance
+0.6
+## weight_confidence
+0.5
+## confidence
+0.9
+## atomic_claim_ids
+CLM-FND-208INT-VITAMIN-SOLUBILITY-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following is a water-soluble vitamin. a. Vitamin A. b. Vitamin C. c. Vitamin K. d. Vitamin D." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "water-soluble vitamin" -- the only hits were an unrelated 103-BMS biochemistry concept (water-soluble vitamins as coenzymes, a different fact) -- new concept for this module's own basic classification fact.
+resourceOccurrenceIds: Standard fat-soluble (A,D,E,K) vs water-soluble (B-complex, C) vitamin classification; the department book's own p.25 discussion of vitamin C names it only in the wound-healing context (collagen synthesis), not this classification fact directly, so this is general medical-curriculum knowledge rather than a specific department-book page citation.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q33. Sibling of CON-FND-190E00EE840EBD (vitamin D deficiency/rickets), authored in the same pass.
+
+---
+
+# Item
+## id
+CON-FND-190E00EE840EBD
+## label
+Vitamin D deficiency in children (rickets) impairs mineralization of the epiphyseal cartilage and skull, producing delayed closure of the fontanelles among its named head findings
+## canonical_key
+vitamin-d.deficiency.rickets-fontanelle
+## aliases
+Rickets
+Vitamin D deficiency effects
+Delayed fontanelle closure
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vitamin D is made mostly in the skin under ultraviolet light (with a minor dietary contribution) and maintains calcium and phosphorus levels for normal bone mineralization. Its deficiency (from lack of dietary sources, lack of sun exposure, liver/kidney disease, fat malabsorption or hereditary vitamin-D-resistant rickets) blocks mineralization of osteoid laid down during bone remodeling, causing osteomalacia in adults, and impairs mineralization of epiphyseal cartilage, causing rickets in children. Rickets' bone abnormalities include, at the head: delayed closure of the fontanelles, craniotabes (a Ping-Pong-ball-like softening of the skull), frontal bossing, and delayed eruption of the temporary teeth; at the chest: rachitic rosary and pigeon breast.
+## explicit_objective
+State that delayed closure of the fontanelles is a head finding of rickets (vitamin D deficiency in children), distinguishing it from vitamin C, K and B3 deficiency.
+## pitfalls
+Attributing delayed fontanelle closure to vitamin C deficiency (which instead impairs collagen synthesis/wound healing and causes scurvy) or vitamin K deficiency (a bleeding disorder) rather than to vitamin D's specific role in bone mineralization.
+## concept_type
+clinical_correlation
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Nutritional disorders
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 9 Nutritional Disorders > Vitamin D Deficiency
+## article_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-BFCED5D968B197
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.7
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-VITAMIN-D-RICKETS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Delayed closure of fontanelles is a feature of: a. Vitamin C deficiency. b. Vitamin K deficiency. c. Vitamin D deficiency. d. Vitamin B3 deficiency." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("rickets fontanelle vitamin D") -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.122 ("Vitamin D deficiency" > "Effects of Vitamin D deficiency" > "1) RICKETS" > "Pathological features of rickets" > "A- Head").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q34. Sibling of CON-FND-15EA2CD991C9CB (water/fat-soluble vitamin classification), authored in the same pass.
+
+---
+
+# Item
+## id
+CON-INF-5067B49C3FEACB
+## label
+Pyemic abscesses form in the lung, in the brain/kidneys and other organs, or in the liver, depending on whether septic emboli enter via a systemic vein (pulmonary pyemia), the pulmonary vein or left heart (systemic pyemia), or GIT/portal tributaries (portal pyemia)
+## canonical_key
+pyemia.routes.pulmonary-systemic-portal
+## aliases
+Pulmonary pyemia
+Portal pyemia
+Types of pyemia by source vein
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book's own table names three routes of pyemia, distinguished by the source of the septic emboli and where they impact. Pulmonary pyemia is caused by cellulitis/abscess or septic thrombophlebitis of ANY systemic vein: emboli reach the right heart, then the pulmonary artery, and impact in lung vessels, forming pyemic abscesses in the LUNG. Systemic pyemia is caused by pulmonary vein septic thrombophlebitis, left heart vegetations (infective endocarditis), or emboli that bypass the lungs (via very small size or a congenital right-to-left cardiac shunt): these are distributed by the aorta to all organs, forming pyemic abscesses in the BRAIN, KIDNEYS and elsewhere. Portal pyemia is caused by septic thrombophlebitis of GIT veins (tributaries of the portal vein, e.g. from appendicitis): emboli reach the portal vein and then the liver, forming pyemic abscesses in the LIVER.
+## explicit_objective
+Match each pyemia route to its embolic source and target organ: cellulitis/systemic-vein thrombophlebitis to pulmonary pyemia (lung abscesses); pulmonary-vein thrombophlebitis or left heart vegetations to systemic pyemia (brain/kidney abscesses); and GIT/appendiceal venous thrombophlebitis to portal pyemia (liver abscesses).
+## pitfalls
+Assuming pulmonary vein thrombophlebitis or left heart vegetations cause PULMONARY pyemia because of the word 'pulmonary' or the heart's proximity to the lungs -- the book's table places both of these under the SYSTEMIC pyemia route (aortic distribution to brain/kidneys), not the pulmonary route, which instead starts from a systemic vein (including peripheral cellulitis) and lands in the lung via the right heart. Assuming appendicitis causes pulmonary pyemia rather than portal pyemia via the portal vein.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T05-S01
+## topic
+Pathology
+## subtopic
+Bacterial infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Blood-Stream Spread > Types of Pyemia
+## article_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+CON-INF-6E5B00C79396B9
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.5
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-PYEMIA-ROUTES-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pulmonary pyemia can be a complication for: a. Pulmonary vein septic thrombophlebitis. b. Left heart vegetations. c. Acute appendicitis. d. Lower limbs cellulitis." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "increased vascular permeability" and related terms during this pass; a direct grep of this concept file for "pyemia" found only CON-INF-6E5B00C79396B9 (the general septicemia/pyemia definitions, which names pyemia's mechanism but not its table of three source-to-target routes) -- new concept, cross-linked as related rather than merged.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.85-86 ("d. Pyemia" definition and Table 5.1 / Figure 5.1, "Causes of systemic pyemia" three-column table).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q59.
