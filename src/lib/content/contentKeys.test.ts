@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import type { ManagedContentItem } from '@/data/contentControl'
-import { questionLinksFrom, questionsKey } from './contentKeys.ts'
+import { manifestKey, questionLinksFrom, questionsKey } from './contentKeys.ts'
 
 test('an unscoped key is stable and distinct from every narrowed one', () => {
   assert.equal(questionsKey(), questionsKey({}))
@@ -17,6 +17,16 @@ test('two scopes differing only in which field is set do not collide', () => {
 test('a format fan-out keys apart from the single format it contains', () => {
   assert.notEqual(questionsKey({ formats: ['essay', 'short_answer'] }), questionsKey({ format: 'essay' }))
   assert.equal(questionsKey({ formats: ['essay'] }), questionsKey({ formats: ['essay'] }))
+})
+
+test('the hub\'s summaries never share a cache entry with the full questions', () => {
+  assert.notEqual(questionsKey({ view: 'summary' }), questionsKey())
+  assert.notEqual(questionsKey({ subject: 'anat', view: 'summary' }), questionsKey({ subject: 'anat' }))
+})
+
+test('a manifest key ignores the order and the repeats of the ids it was asked about', () => {
+  assert.equal(manifestKey(['b', 'a', 'b']), manifestKey(['a', 'b']))
+  assert.notEqual(manifestKey(['a']), manifestKey(['a', 'b']))
 })
 
 const question = (id: string, libraryIds: string[]): ManagedContentItem => ({

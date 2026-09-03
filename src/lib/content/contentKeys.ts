@@ -19,11 +19,23 @@ export interface QuestionScope {
   format?: string
   /** A client-side fan-out: the route takes one format, "written" is five. */
   formats?: readonly string[]
+  /**
+   * `summary` asks for the hub's projection — no options, no rationales, no
+   * explanation. It is a different document, so it gets its own cache key: a
+   * surface that asked for summaries must never be handed the full questions
+   * cached under the same scope, nor the reverse.
+   */
+  view?: 'summary'
 }
 
 export function questionsKey(scope: QuestionScope = {}): string {
-  const parts = [scope.subject, scope.module, scope.topic, scope.formats?.join('+') ?? scope.format]
+  const parts = [scope.subject, scope.module, scope.topic, scope.formats?.join('+') ?? scope.format, scope.view]
   return `content:questions:${parts.map((part) => part ?? '').join('|')}`
+}
+
+/** One cache key for a manifest request, order-independent — see `fetchItemManifest`. */
+export function manifestKey(ids: readonly string[]): string {
+  return `content:manifest:${[...new Set(ids)].sort().join(',')}`
 }
 
 /** Which questions point at which article. The server sends this; demo mode derives it. */

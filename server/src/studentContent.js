@@ -59,10 +59,68 @@ export function articleIndexRow(item) {
     subjectId: item.subjectId,
     status: item.status,
     updatedAt: item.updatedAt,
-    fields: { Topic: item.fields?.Topic },
+    // `Reading time` rides along because a library card prints it; `Topic` is
+    // the chapter an untitled article is filed under.
+    fields: { Topic: item.fields?.Topic, 'Reading time': item.fields?.['Reading time'] },
+    // The student-facing blurb, already chosen between the evidence-gated one
+    // and the draft, so the client's `publishedSummary || summary || fields`
+    // ladder resolves to the same string it would have from the whole article.
+    summary: data.publishedSummary || data.summary || item.fields?.Summary || '',
+    // Where the article sits on the curriculum tree — `buildCurriculumMembership`
+    // reads exactly these two and nothing else of the body.
+    primaryNodeId: data.primaryNodeId,
+    secondaryNodeIds: list(data.secondaryNodeIds),
     moduleIds: list(data.moduleIds),
     universityIds: list(data.universityIds),
     yearIds: list(data.yearIds),
+  }
+}
+
+/**
+ * One question as the Question Bank *hub* needs it: enough to count, group and
+ * filter, and not one byte a student could answer from.
+ *
+ * The hub is the landing screen — presets, per-subject and per-source counts,
+ * the topic chooser — and none of that reads an option, a rationale or an
+ * explanation, which together are most of what a question weighs. Those arrive
+ * only once a test actually starts, from the full `view` of this same route.
+ *
+ * Deliberately absent: `answers`, `correctAnswer`, `attachments`,
+ * `fields.Explanation`, `mediaRequests`, `writtenParts` and every other format
+ * payload. `fields.Vignette` stays because the "Emergencies only" preset
+ * searches it, and `attachedImage` because the hub counts image questions.
+ */
+export function questionSummaryRow(item) {
+  const data = item.questionData ?? {}
+  const tags = data.tags ?? {}
+  return {
+    id: item.id,
+    kind: 'question',
+    title: item.title,
+    subjectId: item.subjectId,
+    status: item.status,
+    fields: {
+      Topic: item.fields?.Topic,
+      Difficulty: item.fields?.Difficulty,
+      Vignette: item.fields?.Vignette,
+    },
+    questionData: {
+      format: data.format,
+      attachedImage: data.attachedImage ?? '',
+      libraryIds: list(data.libraryIds),
+      resourceIds: list(data.resourceIds),
+      tags: {
+        topic: tags.topic ?? '',
+        intendedDifficulty: tags.intendedDifficulty,
+        sourceCategory: tags.sourceCategory,
+        conceptIds: list(tags.conceptIds),
+        mainConceptIds: list(tags.mainConceptIds),
+        moduleIds: list(tags.moduleIds),
+        universityIds: list(tags.universityIds),
+        years: list(tags.years),
+        questionOnlyFor: list(tags.questionOnlyFor),
+      },
+    },
   }
 }
 
@@ -266,10 +324,39 @@ export async function summaryHandler(req, res) {
   return sendVersioned(req, res, content.signature, { counts })
 }
 
+/** How many ids one manifest request may name. See `manifestHandler`. */
+export const MAX_MANIFEST_IDS = 200
+
 export async function itemsHandler(req, res) {
   const kind = String(req.query.kind ?? '')
   const content = await loadStudentContent()
   const audience = await audienceFor(req)
+
+  if (req.query.ids !== undefined) {
+    /**
+     * "Which of these ids still exist, and what are they?"
+     *
+     * The exam programme holds ids an administrator picked months ago and needs
+     * to know which still resolve and which of them are written questions. That
+     * is two fields per id, so a manifest section on `/summary` was the other
+     * option — but at ~60 bytes an entry a 12 000-item catalogue is ~700 KB
+     * shipped to every dashboard, against a few hundred bytes here.
+     *
+     * Capped rather than truncated: silently answering about the first 200 of
+     * 300 ids would read as "the other 100 were unpublished".
+     */
+    const ids = String(req.query.ids).split(',').map((id) => id.trim()).filter(Boolean)
+    if (ids.length > MAX_MANIFEST_IDS) return res.status(400).json({ error: `at most ${MAX_MANIFEST_IDS} ids` })
+    const items = ids
+      .map((id) => content.byId.get(id))
+      .filter((item) => item && inAudience(item, audience))
+      .map((item) => ({
+        id: item.id,
+        kind: item.kind,
+        ...(item.questionData?.format ? { format: item.questionData.format } : {}),
+      }))
+    return sendVersioned(req, res, content.signature, { items })
+  }
 
   if (kind === 'article') {
     // `view=index` is required, not defaulted: the whole point of this route is
@@ -295,13 +382,23 @@ export async function questionsHandler(req, res) {
   const audience = await audienceFor(req)
   const { subject, module: moduleId, topic, format } = req.query
 
+  const summary = req.query.view === 'summary'
+
   let items = scoped(content.byKind.get('question') ?? [], audience)
   if (format) items = items.filter((item) => (item.questionData?.format ?? DEFAULT_QUESTION_FORMAT) === format)
-  else items = items.filter(isAnswerableQuestion)
+  // The answerable rule is unconditional under `view=summary`: a summary row
+  // carries no `answers` for the client to re-check, so this is the only gate.
+  if (summary || !format) items = items.filter(isAnswerableQuestion)
   if (subject) items = items.filter((item) => item.subjectId === subject)
   if (moduleId) items = items.filter((item) => itemModules('question', item).includes(String(moduleId)))
   if (topic) {
     items = items.filter((item) => (item.questionData?.tags?.topic?.trim() || item.fields?.Topic?.trim() || 'General') === topic)
+  }
+
+  // The hub's view. No title stubs: the summary projection renders no library
+  // or resource *titles*, only matches on their ids.
+  if (summary) {
+    return sendVersioned(req, res, content.signature, { items: items.map(questionSummaryRow) })
   }
 
   // `managedQuestionToStudentQuestion` resolves `libraryIds`/`resourceIds` to

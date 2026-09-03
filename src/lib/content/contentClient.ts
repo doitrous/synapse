@@ -19,9 +19,10 @@
  */
 import { API_MODE, apiGetIfChanged } from '../api'
 import { CONTENT_LEDGER_STORAGE_KEY, type ManagedContentItem } from '@/data/contentControl'
-import { questionLinksFrom, questionsKey, type QuestionLink, type QuestionScope } from './contentKeys'
+import type { QuestionFormat } from '@/data/questionFormat'
+import { manifestKey, questionLinksFrom, questionsKey, type QuestionLink, type QuestionScope } from './contentKeys'
 
-export { questionLinksFrom, questionsKey }
+export { manifestKey, questionLinksFrom, questionsKey }
 export type { QuestionLink, QuestionScope }
 
 /** Kinds `/api/content/items` serves whole. Articles and questions have their own shapes. */
@@ -129,6 +130,7 @@ function questionsPath(scope: QuestionScope): string {
   if (scope.module) query.set('module', scope.module)
   if (scope.topic) query.set('topic', scope.topic)
   if (scope.format) query.set('format', scope.format)
+  if (scope.view) query.set('view', scope.view)
   const search = query.toString()
   return `/content/questions${search ? `?${search}` : ''}`
 }
@@ -172,17 +174,18 @@ interface ArticleIndexRow extends ManagedContentItem {
   moduleIds?: string[]
   universityIds?: string[]
   yearIds?: string[]
+  summary?: string
   primaryNodeId?: string
   secondaryNodeIds?: string[]
 }
 
 function indexRowToItem(row: ArticleIndexRow): ManagedContentItem {
   if (row.articleData) return row
-  const { moduleIds, universityIds, yearIds, primaryNodeId, secondaryNodeIds, ...rest } = row
+  const { moduleIds, universityIds, yearIds, summary, primaryNodeId, secondaryNodeIds, ...rest } = row
   return {
     ...rest,
     kind: 'article',
-    articleData: { moduleIds, universityIds, yearIds, primaryNodeId, secondaryNodeIds },
+    articleData: { moduleIds, universityIds, yearIds, summary, primaryNodeId, secondaryNodeIds },
   } as ManagedContentItem
 }
 
@@ -218,6 +221,47 @@ export async function fetchQuestions(scope: QuestionScope = {}, force = false): 
     return remember(key, { version: parts[0]?.version ?? '', items: parts.flatMap((part) => part.items) })
   }
   return load<ItemsResponse>(key, questionsPath(scope), force)
+}
+
+/** What a manifest says about one id: that it is still published, and what it is. */
+export interface ManifestRow { id: string; kind: string; format?: QuestionFormat }
+
+/** How many ids one request may name — `MAX_MANIFEST_IDS` on the server. */
+const MANIFEST_CHUNK = 200
+
+/**
+ * "Which of these ids still resolve, and what are they?"
+ *
+ * The exam programme holds ids an administrator picked and needs two fields per
+ * id — published, and whether it is a written question. Shipping an id→kind
+ * manifest of the whole catalogue with `/summary` would be ~700 KB on every
+ * dashboard load; asking about the fifty ids one exam names is a few hundred
+ * bytes. Ids absent from the answer are the ones that no longer resolve.
+ */
+export async function fetchItemManifest(ids: readonly string[], force = false): Promise<ManifestRow[]> {
+  const wanted = [...new Set(ids)].filter(Boolean).sort()
+  const key = manifestKey(wanted)
+  if (!wanted.length) return remember(key, [])
+  if (!API_MODE) {
+    const byId = new Map(demoLedger().map((item) => [item.id, item]))
+    return remember(key, wanted.flatMap((id) => {
+      const item = byId.get(id)
+      if (!item || item.status !== 'Published') return []
+      return [{ id, kind: item.kind, ...(item.questionData?.format ? { format: item.questionData.format } : {}) }]
+    }))
+  }
+  const held = cache.get(key)
+  if (!force && held?.data !== undefined) return held.data as ManifestRow[]
+  // Chunked rather than truncated: the server refuses more than it caps at, so
+  // a long exam must be asked about in several requests, not quietly clipped.
+  const chunks: string[][] = []
+  for (let at = 0; at < wanted.length; at += MANIFEST_CHUNK) chunks.push(wanted.slice(at, at + MANIFEST_CHUNK))
+  // `:page` keeps a chunk's `{version, items}` response apart from the flattened
+  // rows cached under `key`, which a one-chunk request would otherwise collide with.
+  const parts = await Promise.all(chunks.map((chunk) => load<{ items: ManifestRow[] }>(
+    `${manifestKey(chunk)}:page`, `/content/items?ids=${chunk.map(encodeURIComponent).join(',')}`, force,
+  )))
+  return remember(key, parts.flatMap((part) => part.items))
 }
 
 /** One item in full — an article's body, a practical's authoring data. */

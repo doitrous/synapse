@@ -19,10 +19,12 @@ import {
   contentBusy,
   fetchArticleIndex,
   fetchItem,
+  fetchItemManifest,
   fetchQuestions,
   fetchSlice,
   fetchSummary,
   itemKey,
+  manifestKey,
   peekContent,
   questionsKey,
   sliceKey,
@@ -31,6 +33,7 @@ import {
   type ContentCounts,
   type ContentSliceKind,
   type ItemsResponse,
+  type ManifestRow,
   type QuestionScope,
   type SummaryResponse,
 } from './contentClient'
@@ -71,7 +74,11 @@ function useContentResource<T>(key: string | null, fetcher: (force: boolean) => 
         setHeld({ data: cached, status: READY })
         return
       }
-      setHeld((current) => ({ data: current.data, status: LOADING }))
+      // Nothing cached under this key, so nothing to show: what is held came
+      // from the *previous* key and is a different document. A revalidation
+      // (`force`) is the exception — same key, so what is held is still right
+      // until the fresh copy lands.
+      setHeld((current) => ({ data: force ? current.data : undefined, status: LOADING }))
       fetchRef.current(force).then(
         (data) => { if (live) setHeld({ data, status: READY }) },
         (error) => { if (live) setHeld((current) => ({ data: current.data, status: failed(errorKind(error)) })) },
@@ -138,6 +145,29 @@ export function useScopedQuestions(
     useCallback((force) => fetchQuestions(stable, force), [stable]),
   )
   return [held.data?.items ?? EMPTY_ITEMS, held.status] as const
+}
+
+const EMPTY_MANIFEST = new Map<string, ManifestRow>()
+
+/**
+ * What is still published among a known list of ids, keyed by id.
+ *
+ * For the surfaces that hold ids chosen elsewhere — an exam's content list —
+ * and need only to know which still resolve and what kind they are. Asking
+ * about fifty ids costs a few hundred bytes; the alternative was the whole
+ * ledger, which is how the dashboard came to download 60 MB.
+ */
+export function useContentManifest(
+  ids: readonly string[],
+): readonly [ReadonlyMap<string, ManifestRow>, PersistentStateStatus] {
+  const key = manifestKey(ids)
+  const stable = useMemo(() => ids, [key]) // eslint-disable-line react-hooks/exhaustive-deps
+  const held = useContentResource<ManifestRow[]>(key, useCallback((force) => fetchItemManifest(stable, force), [stable]))
+  const rows = held.data
+  return [
+    useMemo(() => (rows ? new Map(rows.map((row) => [row.id, row])) : EMPTY_MANIFEST), [rows]),
+    held.status,
+  ] as const
 }
 
 export function useContentItem(id: string | null): readonly [ManagedContentItem | null, PersistentStateStatus] {

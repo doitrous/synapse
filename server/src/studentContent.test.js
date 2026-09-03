@@ -21,13 +21,27 @@ function question(id, universityId, yearId, libraryIds = []) {
     status: 'Published',
     title: `Stem ${id}`,
     subjectId: 'cvs',
-    fields: { Topic: 'Heart' },
+    fields: { Topic: 'Heart', Difficulty: 'Hard', Vignette: 'A 68-year-old man', Explanation: 'the worked answer' },
     questionData: {
       correctAnswer: 'A',
-      answers: [{ label: 'A', text: 'Right' }, { label: 'B', text: 'Wrong' }],
+      answers: [
+        { label: 'A', text: 'Right', explanation: 'because of the key' },
+        { label: 'B', text: 'Wrong', explanation: 'distractor rationale' },
+      ],
+      attachedImage: '',
+      attachments: [{ id: 'att-1', url: 'blob:big' }],
       libraryIds,
       resourceIds: [],
-      tags: { universityIds: [universityId], years: [yearId], moduleIds: ['CVS 01'], topic: 'Heart' },
+      tags: {
+        universityIds: [universityId],
+        years: [yearId],
+        moduleIds: ['CVS 01'],
+        topic: 'Heart',
+        intendedDifficulty: 'Hard',
+        sourceCategory: 'faculty',
+        conceptIds: ['c-1'],
+        mainConceptIds: ['c-0'],
+      },
     },
   }
 }
@@ -40,11 +54,14 @@ function article(id, universityId, yearId) {
     title: `Article ${id}`,
     subjectId: 'cvs',
     updatedAt: '2026-01-01T00:00:00.000Z',
-    fields: { Topic: 'Heart', Summary: 'ignored' },
+    fields: { Topic: 'Heart', 'Reading time': '9', Summary: 'ignored' },
     articleData: {
       universityIds: [universityId],
       yearIds: [yearId],
       moduleIds: ['CVS 01'],
+      summary: 'what the card prints',
+      primaryNodeId: 'node-1',
+      secondaryNodeIds: ['node-2'],
       body: 'the ten-megabyte half of the ledger',
       sections: [{ heading: 'One', body: 'text' }],
     },
@@ -169,7 +186,11 @@ test('the article index ships no article body, and carries the question back-lin
     const row = res.body.items[0]
     assert.equal(row.articleData, undefined)
     assert.equal(JSON.stringify(row).includes('ten-megabyte'), false)
-    assert.deepEqual(row.fields, { Topic: 'Heart' })
+    assert.equal(row.fields.Topic, 'Heart')
+    assert.equal(row.fields['Reading time'], '9')
+    assert.equal(row.summary, 'what the card prints')
+    assert.equal(row.primaryNodeId, 'node-1')
+    assert.deepEqual(row.secondaryNodeIds, ['node-2'])
     assert.deepEqual(row.yearIds, ['OMS_Y1'])
     assert.deepEqual(res.body.questionLinks['a-oms'], [{ id: 'q-oms', stem: 'Stem q-oms' }])
   })
@@ -189,6 +210,42 @@ test('questions carry a title stub for every id they reference', async () => {
       res.body.items.find((item) => item.id === 'a-oms'),
       { id: 'a-oms', title: 'Article a-oms' },
     )
+  })
+})
+
+test('the summary view carries what the hub groups by and nothing a student could answer from', async () => {
+  await withLedger(async () => {
+    const res = await call(questionsHandler, { query: { view: 'summary' } })
+    assert.deepEqual(res.body.items.map((item) => item.id), ['q-oms'])
+    const row = res.body.items[0]
+    assert.equal(row.kind, 'question')
+    assert.equal(row.title, 'Stem q-oms')
+    assert.equal(row.subjectId, 'cvs')
+    assert.equal(row.status, 'Published')
+    assert.deepEqual(row.fields, { Topic: 'Heart', Difficulty: 'Hard', Vignette: 'A 68-year-old man' })
+    assert.deepEqual(row.questionData.libraryIds, ['a-oms'])
+    assert.deepEqual(row.questionData.tags.mainConceptIds, ['c-0'])
+    assert.equal(row.questionData.tags.sourceCategory, 'faculty')
+    assert.deepEqual(row.questionData.tags.universityIds, ['OMS'])
+
+    // The whole point: no key, no options, no rationale, no explanation.
+    const wire = JSON.stringify(row)
+    for (const leak of ['answers', 'correctAnswer', 'attachments', 'Right', 'distractor rationale', 'the worked answer']) {
+      assert.equal(wire.includes(leak), false, `summary leaked ${leak}`)
+    }
+  })
+})
+
+test('a manifest answers about named ids only, within the caller\'s audience', async () => {
+  await withLedger(async () => {
+    const res = await call(itemsHandler, { query: { ids: 'q-oms,q-alx,a-oms,q-draft,nope' } })
+    assert.deepEqual(res.body.items, [
+      { id: 'q-oms', kind: 'question' },
+      { id: 'a-oms', kind: 'article' },
+    ])
+
+    const tooMany = await call(itemsHandler, { query: { ids: Array.from({ length: 201 }, (_, i) => `q${i}`).join(',') } })
+    assert.equal(tooMany.statusCode, 400)
   })
 })
 

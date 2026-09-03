@@ -73,6 +73,7 @@ import { cn } from '@/lib/cn'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { useScopedPublishedQuestions, useScopedPublishedQuestionSummaries } from '@/lib/usePublishedQuestions'
+import type { QuestionScope } from '@/lib/content'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
@@ -627,6 +628,12 @@ function PreviousTests({
   )
 }
 
+/**
+ * "Every question this student may sit." One shared object, so setting the
+ * scope back to it is a no-op React can skip rather than a new render.
+ */
+const WHOLE_BANK: QuestionScope = {}
+
 export function QuestionBank() {
   const t = useT()
   const subjectName = useSubjectName()
@@ -642,7 +649,16 @@ export function QuestionBank() {
    */
   const questions = useScopedPublishedQuestionSummaries()
   const [needsFullQuestions, setNeedsFullQuestions] = useState(false)
-  const fullQuestions = useScopedPublishedQuestions(needsFullQuestions)
+  /**
+   * How much of the bank the full fetch asks for.
+   *
+   * A test almost always sits inside one subject, and asking for that subject
+   * is a fraction of the request asking for everything is. `WHOLE_BANK` is the
+   * honest answer when a start spans several subjects, and when the surfaces
+   * that read arbitrary past questions are on screen.
+   */
+  const [fullScope, setFullScope] = useState<QuestionScope>(WHOLE_BANK)
+  const fullQuestions = useScopedPublishedQuestions(needsFullQuestions, fullScope)
   /** A start or resume waiting on `fullQuestions` to land — see `runWhenHydrated`. */
   const pendingHydrated = useRef<{ ids: string[]; run: (real: Question[]) => void } | null>(null)
   useEffect(() => {
@@ -652,25 +668,34 @@ export function QuestionBank() {
     const byId = new Map(fullQuestions.map((question) => [question.id, question]))
     pending.run(pending.ids.map((id) => byId.get(id)).filter((question): question is Question => Boolean(question)))
   }, [fullQuestions])
+  /** The narrowest scope that still covers every one of `ids`, read off the summaries. */
+  const scopeForIds = useCallback((ids: readonly string[]): QuestionScope => {
+    const subjectById = new Map(questions.map((question) => [question.id, question.subjectId]))
+    const subjects = new Set(ids.map((id) => subjectById.get(id)).filter(Boolean))
+    return subjects.size === 1 ? { subject: [...subjects][0] as string } : WHOLE_BANK
+  }, [questions])
   /**
    * Resolve `ids` against the real, fully-built questions before `run` sees
-   * them — immediately if `fullQuestions` already covers them (every start
-   * after the first), otherwise queued for the effect above once the heavy
-   * build lands. This is the one place `useScopedPublishedQuestions`'s heavy
-   * path is actually triggered.
+   * them — immediately if the slice already in hand covers them (every start
+   * after the first within the same subject), otherwise queued for the effect
+   * above once the fetch and build land. This is the one place
+   * `useScopedPublishedQuestions`'s heavy path is actually triggered.
    * ponytail: a second start/resume racing the first overwrites the pending
    * one — fine today, since the runner only ever offers one start action at a
    * time; queue an array instead if that stops being true.
    */
   const runWhenHydrated = useCallback((ids: string[], run: (real: Question[]) => void) => {
-    if (needsFullQuestions && fullQuestions.length) {
+    const next = scopeForIds(ids)
+    // What is held covers the request when it is the same slice, or a wider one.
+    if (needsFullQuestions && fullQuestions.length && (!fullScope.subject || fullScope.subject === next.subject)) {
       const byId = new Map(fullQuestions.map((question) => [question.id, question]))
       run(ids.map((id) => byId.get(id)).filter((question): question is Question => Boolean(question)))
       return
     }
     pendingHydrated.current = { ids, run }
+    setFullScope(next)
     setNeedsFullQuestions(true)
-  }, [needsFullQuestions, fullQuestions])
+  }, [needsFullQuestions, fullQuestions, fullScope, scopeForIds])
   /**
    * For the couple of spots that read a question's real content (options,
    * mainly) straight off a prop instead of going through `runWhenHydrated` —
@@ -896,11 +921,20 @@ export function QuestionBank() {
    * case, so triggering the heavy build here still leaves a plain visit cheap.
    * A paused *plain* MCQ sitting needs no entry here: the restore effect below
    * already reaches `runWhenHydrated` through `restoreFrom`.
+   *
+   * Both read questions the student sat at some point, across any subject, so
+   * this widens the fetch back to the whole bank rather than leaving whatever
+   * slice the last start narrowed it to — a past test sat in another subject
+   * would otherwise review with no options at all. Both setters are no-ops
+   * when nothing changes (`WHOLE_BANK` is one shared object), so this cannot
+   * loop.
    */
   useEffect(() => {
-    if (needsFullQuestions) return
-    if (hubTab === 'previous' || (mixed.session && !mixedFinished(mixed.session))) setNeedsFullQuestions(true)
-  }, [needsFullQuestions, hubTab, mixed.session])
+    if (hubTab === 'previous' || (mixed.session && !mixedFinished(mixed.session))) {
+      setFullScope(WHOLE_BANK)
+      setNeedsFullQuestions(true)
+    }
+  }, [hubTab, mixed.session])
   const restored = useRef(false)
   // Held in a ref, not read back from `saved`: the mirror effect below writes
   // `saved`, so depending on it there would make the write retrigger the effect

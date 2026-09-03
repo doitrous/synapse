@@ -12,7 +12,7 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
 import { useStudentSchedule } from '@/lib/useStudentSchedule'
 import { nextExam } from '@/lib/studentSchedule'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { useScopedQuestions } from '@/lib/content'
 import { adaptiveItemsFrom } from '@/data/adaptive/itemProjection'
 import { itemInScope, type AdaptiveItem } from '@/data/adaptive/item'
 import { rebuildAll, type ConceptState } from '@/data/adaptive/masteryModel'
@@ -79,9 +79,13 @@ export interface AdaptiveStudy {
 export function useAdaptiveStudy(): AdaptiveStudy {
   const { audience, audienceUnknown } = useIdentity()
   const [config] = useAdaptiveConfig()
-  const [catalogue, , catalogueStatus] = usePersistentState<ManagedContentItem[]>(
-    CONTENT_LEDGER_STORAGE_KEY, initialManagedContent,
-  )
+  /**
+   * Questions only, already narrowed to this student's university and year by
+   * the server. Adaptive Study asks nothing of an article or a resource, and
+   * this used to be the whole admin ledger — every article body included —
+   * read out of local storage.
+   */
+  const [catalogue, catalogueStatus] = useScopedQuestions()
   const [registry] = usePersistentState<HeldOutRegistry>(HELD_OUT_STORAGE_KEY, EMPTY_HELD_OUT)
   const [debt] = usePersistentState<CoverageDebt>(COVERAGE_DEBT_STORAGE_KEY, EMPTY_COVERAGE_DEBT)
   const [boosts] = useBoosts()
