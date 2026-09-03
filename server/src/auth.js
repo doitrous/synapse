@@ -152,6 +152,11 @@ export async function apiAuthGate(req, res, next) {
     || req.path === '/api/accounts/exists'
     || req.path === '/api/pricing/quote'
     || req.path === '/api/facebook/deletion-callback'
+    // The destination of a cross-origin handoff (authHandoff.js) has no session
+    // to present — that is the case it exists for. Safe to leave open: it
+    // accepts nothing but an opaque, single-use, 30-second code and answers
+    // only with the refresh_token that code was minted for.
+    || req.path === '/api/auth/handoff/redeem'
     // Native media elements cannot attach the Supabase bearer header. They use
     // a short-lived signed URL minted for an authenticated viewer instead.
     || ((req.method === 'GET' || req.method === 'HEAD') && req.path.startsWith('/api/media-playback/'))

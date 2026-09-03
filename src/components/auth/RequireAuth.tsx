@@ -1,7 +1,9 @@
-import { Navigate, useLocation } from 'react-router-dom'
+import { Link, Navigate, useLocation } from 'react-router-dom'
 import type { ReactElement } from 'react'
+import { ShieldAlert } from 'lucide-react'
 import { useIdentity } from '@/lib/useIdentity'
 import { RouteLoading } from '@/components/shell/RouteLoading'
+import { Icon } from '@/components/ui/Icon'
 import { hasConsoleAccess, mfaEnforced } from '@/data/adminRoles'
 
 /**
@@ -54,15 +56,21 @@ export function RequireAuth({ console: needsConsole, tab, student, children }: {
 
   if (needsConsole || tab) {
     if (!hasConsoleAccess(identity.role ?? '')) return <Navigate to="/app" replace />
-    // Admin and above require a second factor, because they decide who else
-    // gets console access. Somebody promoted an hour ago has not enrolled yet;
-    // send them to enrol rather than to twenty-five pages that each answer
-    // mfa_required on their own. Reviewers are exempt — they hold no such power
-    // — so a reviewer without aal2 reaches their console directly.
-    if (identity.status !== 'demo' && mfaEnforced(identity.role ?? '') && identity.aal !== 'aal2') {
-      const next = `${location.pathname}${location.search}`
-      return <Navigate to={`/auth/mfa?next=${encodeURIComponent(next)}`} replace />
-    }
+  }
+  // Admin and above require a second factor, because they decide who else gets
+  // console access. That used to be enforced the instant the console shell
+  // itself was entered — an involuntary code-entry screen thrown up before an
+  // admin who had just signed in correctly had done anything at all. It now
+  // only blocks entry to a specific tab: that is where writes actually happen,
+  // so it is what stays hard-gated. The bare console shell (the dashboard,
+  // reached with no `tab`) renders regardless, with the banner below standing
+  // in for the door that used to be locked. Reviewers are exempt from all of
+  // this — they hold no role-management power — so one without aal2 reaches
+  // their console directly.
+  const needsMfaSetup = (needsConsole || tab) && identity.status !== 'demo' && mfaEnforced(identity.role ?? '') && identity.aal !== 'aal2'
+  if (needsMfaSetup && tab) {
+    const next = `${location.pathname}${location.search}`
+    return <Navigate to={`/auth/mfa?next=${encodeURIComponent(next)}`} replace />
   }
   // A tab this role does not hold is not a 404 — the console exists, this part
   // of it is simply not theirs. `/admin` sends them to a page that is.
@@ -71,6 +79,19 @@ export function RequireAuth({ console: needsConsole, tab, student, children }: {
   // The student application is closed to reviewers. `/admin` re-resolves through
   // AdminHome to the first surface they hold, i.e. Media Requests.
   if (student && identity.role === 'reviewer') return <Navigate to="/admin" replace />
+
+  if (needsMfaSetup) {
+    return (
+      <>
+        <div role="status" className="flex flex-wrap items-center gap-2 border-b border-warning/30 bg-warning-tint px-4 py-2.5 text-[12.5px] text-ink-2">
+          <Icon icon={ShieldAlert} size={15} className="shrink-0 text-warning" />
+          Your role requires a second factor before you can open any console tab.
+          <Link to="/app/account?tab=security" className="font-semibold text-primary-strong hover:text-primary">Set it up in Account → Security</Link>
+        </div>
+        {children}
+      </>
+    )
+  }
 
   return children
 }

@@ -22,6 +22,7 @@ import {
   shareRevisionHistory, updateShare,
 } from './shares.js'
 import { apiAuthGate, heldTabs, identityFromToken, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
+import { mintHandoffCode, redeemHandoffCode } from './authHandoff.js'
 import { hasConsoleAccess } from './roles.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
 import { mediaMeta } from './mediaMeta.js'
@@ -382,6 +383,32 @@ app.get('/api/session', wrap(async (req, res) => res.json({
     mfaRequired: Boolean(req.identity.mfaRequired),
   } : null,
 })))
+
+/**
+ * Cross-origin session handoff — see authHandoff.js for the why.
+ *
+ * The admin and student portals are one build split by hostname (portalHost.ts),
+ * but a Supabase session is per-origin localStorage. Bouncing someone from one
+ * host to the other (`HandOver` in router.tsx) used to land them on a page with
+ * no session at all, forcing a second sign-in. Here, the origin that already has
+ * a session exchanges its refresh_token for a code the browser can carry in the
+ * URL, and the destination origin redeems it once for that token.
+ */
+app.post('/api/auth/handoff', requireAuthenticated, wrap(async (req, res) => {
+  const refreshToken = typeof req.body?.refreshToken === 'string' ? req.body.refreshToken.trim() : ''
+  if (!refreshToken) return res.status(400).json({ error: 'refreshToken required' })
+  res.json({ code: mintHandoffCode(refreshToken) })
+}))
+
+// Deliberately unauthenticated — the caller has no session yet, that is the
+// whole point. Protected instead by the code being opaque, single-use and
+// short-lived. Listed alongside the gate's other public routes in auth.js.
+app.post('/api/auth/handoff/redeem', wrap(async (req, res) => {
+  const code = typeof req.body?.code === 'string' ? req.body.code : ''
+  const refreshToken = code ? redeemHandoffCode(code) : null
+  if (!refreshToken) return res.status(410).json({ error: 'expired_or_used' })
+  res.json({ refreshToken })
+}))
 
 /**
  * The caller's own profile and entitlement.

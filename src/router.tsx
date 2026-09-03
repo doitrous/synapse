@@ -9,6 +9,7 @@ import { RequireImportKind } from '@/components/auth/RequireImportKind'
 import { ADMIN_TAB_VIEWS } from '@/data/adminTabs'
 import { useIdentity } from '@/lib/useIdentity'
 import { ADMIN_ORIGIN, STUDENT_ORIGIN, isAdminHost, isStudentHost, samePathOn } from '@/lib/portalHost'
+import { mintSessionHandoff, supabase } from '@/lib/supabase'
 
 /**
  * A route component that can also be fetched before it is rendered, so the
@@ -47,9 +48,28 @@ function render(Page: ComponentType<Record<string, unknown>>, props: Record<stri
  *
  * `replace` rather than `assign` so the back button returns to wherever the
  * student came from, not to a page that will only bounce them again.
+ *
+ * A session lives in this origin's localStorage and nowhere else, so arriving
+ * plain used to mean the other origin saw nobody signed in and asked to sign
+ * in again — a second login for something that already happened once. If
+ * there is a session here, its refresh_token is hung off a one-time code
+ * first (mintSessionHandoff, authHandoff.js) and carried across as
+ * `?authHandoff=`; the target origin redeems it on boot (useIdentity.tsx)
+ * before it ever has to decide anyone is anonymous.
  */
 function HandOver({ origin }: { origin: string }): ReactElement {
-  useEffect(() => { window.location.replace(samePathOn(origin)) }, [origin])
+  useEffect(() => {
+    let cancelled = false
+    async function go() {
+      const code = supabase ? await mintSessionHandoff() : null
+      if (cancelled) return
+      const target = new URL(samePathOn(origin))
+      if (code) target.searchParams.set('authHandoff', code)
+      window.location.replace(target.toString())
+    }
+    void go()
+    return () => { cancelled = true }
+  }, [origin])
   return <RouteLoading />
 }
 

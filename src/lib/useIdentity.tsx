@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { API_MODE, apiGet, apiPut } from './api'
 import { usePersistentState } from './usePersistentState'
 import { retryAfterSignIn } from './stateStore'
-import { supabase } from './supabase'
+import { redeemSessionHandoff, supabase } from './supabase'
 import { yearId as deriveYearId } from '@/data/taxonomy'
 import { STORED_ROLES, rank as rankOf, type EffectiveRole } from '@/data/adminRoles'
 import { TAB_IDS } from '@/data/adminTabs'
@@ -248,6 +248,23 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     let cancelled = false
 
     const load = async () => {
+      // A cross-origin handoff (HandOver in router.tsx, authHandoff.js on the
+      // server) lands here with a one-time code in the URL instead of a
+      // session. It has to become a session before anything below asks
+      // whether one exists — otherwise this concludes "anonymous" for the
+      // width of that round trip, and RequireAuth bounces to /login for the
+      // exact case the handoff exists to avoid.
+      const handoffParams = new URLSearchParams(window.location.search)
+      const handoffCode = handoffParams.get('authHandoff')
+      if (handoffCode) {
+        await redeemSessionHandoff(handoffCode)
+        if (cancelled) return
+        // Stripped whether or not it redeemed: a dead code left in the URL
+        // would otherwise be retried on every later reload of this effect.
+        handoffParams.delete('authHandoff')
+        const query = handoffParams.toString()
+        window.history.replaceState(null, '', `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`)
+      }
       const session = supabase ? (await supabase.auth.getSession()).data.session : null
       if (cancelled) return
       const metadata = session?.user.user_metadata as { full_name?: string; name?: string } | undefined
@@ -297,7 +314,19 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
 
     void load()
     // Signing in or out has to move the whole app, not just the page that did it.
-    const subscription = supabase?.auth.onAuthStateChange(() => { void load() })
+    const subscription = supabase?.auth.onAuthStateChange((event) => {
+      // The gap between this event and `/api/me` answering is still read as
+      // whatever identity was true before it — for a sign-in, that is
+      // "anonymous", which is what sent someone who had just typed their
+      // password correctly back to /login for a second try, racing the guard
+      // against this same async load. Resetting to 'loading' here closes that
+      // gap: RequireAuth holds the loading state instead of concluding
+      // anonymous from a session that has, in fact, just been established.
+      // A token refresh carries none of that risk and is left alone so it
+      // never flashes a loading state across the whole app.
+      if (event === 'SIGNED_IN' || event === 'SIGNED_OUT') setState((s) => ({ ...s, status: 'loading' }))
+      void load()
+    })
     return () => {
       cancelled = true
       subscription?.data.subscription.unsubscribe()
