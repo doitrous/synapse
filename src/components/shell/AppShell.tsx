@@ -8,6 +8,7 @@ import { StudyAssistant } from '@/components/assistant/StudyAssistant'
 import { CommandSearch } from './CommandSearch'
 import { StudyContextMenu } from './StudyContextMenu'
 import { StudentOnboarding } from '@/components/onboarding/StudentOnboarding'
+import { OfflineBanner } from './OfflineBanner'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
 import { cn } from '@/lib/cn'
@@ -141,6 +142,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
 
   return (
     <div className="min-h-dvh min-w-0">
+      <OfflineBanner />
       <a
         href="#main-content"
         className="fixed start-3 top-3 z-[70] -translate-y-20 rounded-lg bg-ink px-3 py-2 text-sm font-semibold text-paper transition-transform focus:translate-y-0"

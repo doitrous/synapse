@@ -1,8 +1,9 @@
-import { BookOpen, CircleAlert } from 'lucide-react'
+import { BookOpen, CircleAlert, WifiOff } from 'lucide-react'
 import { EmptyState } from './EmptyState'
 import { Button } from './Button'
 import { NishanyLoader } from './NishanyLoader'
 import { useT } from '@/lib/i18n'
+import { useOnlineStatus } from '@/lib/useOnlineStatus'
 import type { CatalogueAvailability } from '@/lib/catalogueAvailability'
 import type { StateErrorKind } from '@/lib/apiErrors'
 
@@ -27,6 +28,7 @@ export function CatalogueUnavailable({
   empty: { title: string; description: string }
 }) {
   const t = useT()
+  const online = useOnlineStatus()
 
   if (availability.kind === 'loading') {
     // An EmptyState here claimed the catalogue *was* empty for the second or
@@ -41,6 +43,19 @@ export function CatalogueUnavailable({
   }
 
   if (availability.kind === 'error') {
+    // The tab itself being offline is a more specific — and more actionable —
+    // truth than any server-error copy below: "check your connection" is
+    // wrong to show someone who already knows their wifi is down.
+    if (!online) {
+      return (
+        <EmptyState
+          icon={WifiOff}
+          title={t("You're offline")}
+          description={t('This page keeps retrying in the background — it will load as soon as you reconnect.')}
+          action={<Button variant="secondary" size="sm" onClick={() => window.location.reload()}>{t('Try again')}</Button>}
+        />
+      )
+    }
     // Only the retryable faults are worth a "try again": hydrate is already
     // retrying those in the background, so the button just shortens the wait.
     // An expired session or a refused role needs a different act entirely.

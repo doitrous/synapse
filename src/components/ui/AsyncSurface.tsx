@@ -9,6 +9,13 @@ import { NishanyLoader } from './NishanyLoader'
  * "wait" gets the app's loader rather than each caller hand-rolling a spinner,
  * which is how the codebase ended up with four different ones. Pass a skeleton
  * only where its shape genuinely matches the content that replaces it.
+ *
+ * `error` and `empty`/`isEmpty` are additive: existing callers that only ever
+ * passed `loading` are unaffected. `error` wins over everything (mirrors
+ * `catalogueAvailability`'s own precedence) — pass an `EmptyState` with a
+ * retry action, the same idiom `CatalogueUnavailable` already uses; there is
+ * no separate ErrorState component, EmptyState already covers icon + title +
+ * description + action.
  */
 export function AsyncSurface({
   loading,
@@ -17,6 +24,9 @@ export function AsyncSurface({
   delayMs = 150,
   className,
   busyLabel = 'Loading',
+  error,
+  empty,
+  isEmpty = false,
 }: {
   loading: boolean
   children: ReactNode
@@ -24,6 +34,11 @@ export function AsyncSurface({
   delayMs?: number
   className?: string
   busyLabel?: string
+  /** Rendered in place of everything else when set (e.g. an offline/error EmptyState with a retry action). */
+  error?: ReactNode
+  /** Rendered instead of `children` once loading is done, there's no `error`, and `isEmpty` is true. */
+  empty?: ReactNode
+  isEmpty?: boolean
 }) {
   const [showFallback, setShowFallback] = useState(false)
 
@@ -36,6 +51,10 @@ export function AsyncSurface({
     return () => window.clearTimeout(timer)
   }, [delayMs, loading])
 
+  if (error) {
+    return <div className={cn('min-w-0', className)}>{error}</div>
+  }
+
   return (
     <div className={cn('min-w-0', className)} aria-busy={loading || undefined} aria-live="polite">
       <span className="sr-only">{loading ? busyLabel : ''}</span>
@@ -45,7 +64,9 @@ export function AsyncSurface({
               <NishanyLoader size={40} decorative />
             </div>
           ))
-        : children}
+        : isEmpty && empty
+          ? empty
+          : children}
     </div>
   )
 }
