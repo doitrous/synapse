@@ -1,0 +1,24 @@
+206 DIG — triage keys (first tranche, Q1-16 only)
+Source: 206 DIG/EOM/EOM - 206 solved (197).pdf (manifest sourceId src_e3657885d0289f6df4d4,
+kasr-y2-sources.json, corpusRelativePath "206 DIG/EOM/EOM - 206 solved (197).pdf";
+printed sitting date 16/1/2025 on the cover page, batch 197, solved, 120 MCQs — Anatomy,
+Physiology, Histology, Biochemistry).
+
+Method: no native text layer (CamScanner scan) — read via
+`node scripts/content/pagetext.mjs ocr --force` (default settings). Correct answer is
+marked by a solid red/orange circle drawn over the option letter/bullet; the OCR
+transcribes a circled option letter as "@" in place of the letter. Confirmed genuine by
+rendering p.2 and p.16 at default dpi and checking every circled option against the OCR
+"@" markers by eye — both pages matched exactly, 0 disagreements (see
+206-DIG-LEDGER.md).
+
+Only Q1-16 (Anatomy, this file's own tranche) were individually re-verified against the
+render crops. The remaining Q17-120 were OCR'd but NOT independently re-verified this
+pass — treat that OCR text as a lead, not a confirmed key, until rendered.
+
+Q1.A   Q2.B   Q3.C   Q4.D   Q5.B   Q6.B   Q7.A   Q8.A   Q9.C   Q10.A
+Q11.A  Q12.B  Q13.B  Q14.C  Q15.B  Q16.D
+
+Q17-120: OCR'd (see scripts/content/pagetext.mjs show on this PDF) but not yet
+individually re-verified by render — next author picking up this paper should spot-check
+before trusting the "@" reading past Q16.
