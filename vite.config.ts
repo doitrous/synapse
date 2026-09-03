@@ -18,12 +18,23 @@ function realNodeModules(): string {
   }
 }
 
+// Read rather than `import … with { type: 'json' }`: this file is checked
+// against tsconfig.node.json, which has no JSON module support configured,
+// and one field does not need it.
+const appVersion = JSON.parse(fs.readFileSync(path.resolve(import.meta.dirname, 'package.json'), 'utf8')).version as string
+
 // https://vite.dev/config/
 export default defineConfig({
   // Normally the app is served from the origin root. A preview host can mount
   // a build under a path (`VITE_BASE_PATH=/some-preview/`); the router reads
   // the same value back through `import.meta.env.BASE_URL`.
   base: process.env.VITE_BASE_PATH || '/',
+  // The version shown on Account → Security → Legal & about. Baked in at
+  // build time from package.json, the same way `VITE_API_BASE` is read
+  // everywhere else, so no separate env var has to be kept in sync per deploy.
+  define: {
+    'import.meta.env.VITE_APP_VERSION': JSON.stringify(appVersion),
+  },
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
