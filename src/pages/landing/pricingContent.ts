@@ -6,6 +6,38 @@
  * for the Arabic route to lose a section when the English offer changes.
  */
 
+import { findPlan, promoPrice, MARISTANA_PLAN_ID, type PlanCatalog } from '../../data/planCatalog.ts'
+
+/** The one shared last-resort constant on the frontend when the catalog document is empty. */
+export const SEED_MARISTANA_PRICES = { month: 400, term: 1000 }
+
+export interface PricingAmounts { month: number; term: number; savings: number; termMonthly: number }
+
+/**
+ * The Nishany price, promo included, that the whole pricing page shows.
+ *
+ * Reads the same catalog document the admin console edits, so a promo
+ * toggled on in PlanCatalogEditor changes what this returns without a
+ * second place to update. Falls back to the seed only when the catalog has
+ * no maristana plan or no price for that period at all.
+ */
+export function offerAmounts(catalog: PlanCatalog): PricingAmounts {
+  const plan = findPlan(catalog, MARISTANA_PLAN_ID)
+  const month = (plan ? promoPrice(plan, 'month') : null) ?? SEED_MARISTANA_PRICES.month
+  const term = (plan ? promoPrice(plan, 'term') : null) ?? SEED_MARISTANA_PRICES.term
+  const savings = Math.max(0, month * 3 - term)
+  const termMonthly = Math.round(term / 3)
+  return { month, term, savings, termMonthly }
+}
+
+/** A copy field that is either fixed text or derived from the catalog's live price. */
+export type Priced<T> = T | ((amounts: PricingAmounts) => T)
+
+/** Resolve a `Priced<T>` field against the current amounts. */
+export function resolvePriced<T>(value: Priced<T>, amounts: PricingAmounts): T {
+  return typeof value === 'function' ? (value as (amounts: PricingAmounts) => T)(amounts) : value
+}
+
 export interface FaqItem {
   q: string
   a: string
