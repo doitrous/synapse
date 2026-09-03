@@ -5306,3 +5306,1652 @@ needs_evidence
 drafted_not_reviewed
 
 ---
+
+# Item
+
+## label
+Hymenolepis nana is the intestinal cestode capable of autoinfection
+
+## id
+CON-INF-150C7B3536AC2E
+
+## canonical_key
+hymenolepis-nana.autoinfection
+
+## aliases
+Autoinfection (H. nana)
+H. nana internal life cycle
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Hymenolepis nana is unique among the intestinal cestodes tested against it (Dipylidium caninum, Hymenolepis diminuta) in being able to complete its entire life cycle inside a single human host without an obligatory intermediate host: an ingested or hatched egg releases an oncosphere that penetrates a villus of the small intestine, develops into a cysticercoid larva within the villus, then re-emerges into the lumen to mature into an adult worm whose eggs can hatch again in the same bowel. This internal, self-perpetuating cycle is called autoinfection, and it explains why H. nana infections can intensify without any new external exposure.
+
+## explicit_objective
+Identify Hymenolepis nana as the parasite capable of autoinfection, completing its entire life cycle within one human host without external re-exposure.
+
+## pitfalls
+Assuming any small tapeworm can autoinfect — Dipylidium caninum and Hymenolepis diminuta both require an obligatory arthropod intermediate host (flea, or flea/grain beetle respectively), which rules out direct internal re-infection.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Cestodes (tapeworms)
+
+## microtopic
+Autoinfection
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Parasitology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_56d88740af5ca3011894
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-150C7B3536AC2E
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q50: Autoinfection is a mode of infection of which one of the following parasites. / Hymenolepis nana.
+
+## exam_signal
+mu_56d88740af5ca3011894 | paper | | p17 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "autoinfection hymenolepis nana" -- no candidate record exists in live state or docs/*-Source-Imports concept files, safe to create.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Heterophyes heterophyes life cycle uses a snail and a fish, never a copepod
+
+## id
+CON-INF-237B7DCB95F998
+
+## canonical_key
+heterophyes-heterophyes.life-cycle-hosts
+
+## aliases
+Heterophyes heterophyes host chain
+Heterophyes life cycle
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Heterophyes heterophyes, a small intestinal fluke, has a life cycle running through a snail as its first intermediate host, a brackish/coastal-water fish (classically mullet) as its second intermediate host, humans (or fish-eating mammals such as cats and dogs) as the definitive/reservoir host. A copepod (cyclop) plays no role anywhere in this cycle; a copepod first intermediate host is instead the pattern of a different fluke/cestode group, such as Diphyllobothrium latum.
+
+## explicit_objective
+List the confirmed hosts in the Heterophyes heterophyes life cycle (snail, fish, human, cat/dog) and reject a copepod, which belongs to a different fluke's cycle, as one of them.
+
+## pitfalls
+Assuming every trematode with two intermediate hosts uses a copepod as the first one — Heterophyes heterophyes's first intermediate host is a snail, not a copepod; the copepod-then-fish pattern belongs to Diphyllobothrium latum instead.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Trematodes (flukes)
+
+## microtopic
+Heterophyes heterophyes life cycle
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Parasitology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_56d88740af5ca3011894
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-237B7DCB95F998
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q54: Heterophyes heterophyes has a complex life cycle involving several hosts. Which of the following is NOT a part of this life cycle? / Cyclop.
+
+## exam_signal
+mu_56d88740af5ca3011894 | paper | | p18 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "heterophyes heterophyes life cycle hosts cyclops" -- no candidate record exists in live state or docs/*-Source-Imports concept files, safe to create.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Trichomonas vaginalis can spread by shared contaminated towels, alongside sexual contact
+
+## id
+CON-INF-2DE5DDD8AF899B
+
+## canonical_key
+trichomonas-vaginalis.fomite-transmission
+
+## aliases
+Trichomonas towel transmission
+T. vaginalis non-sexual transmission
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Trichomonas vaginalis exists only as a trophozoite (no cyst stage) and its trophozoites can survive for a limited time outside the body in a moist, warm environment. Because of this, sharing contaminated damp towels, underwear or other fomites is a recognised non-sexual route that can help transmit infection, in addition to its classic sexual transmission route. It has no animal reservoir, no skin-penetrating stage, and is not transmitted by ingestion.
+
+## explicit_objective
+Recognise fomite transmission (shared damp towels) as a non-sexual route by which Trichomonas vaginalis can spread, alongside its classic sexual transmission.
+
+## pitfalls
+Assuming Trichomonas vaginalis is transmitted only sexually — fomite transmission via shared damp towels is a recognised, examinable secondary route, since the fragile trophozoite can briefly survive outside the body in a moist environment.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Protozoa
+
+## microtopic
+Trichomonas vaginalis transmission
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Parasitology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_56d88740af5ca3011894
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-2DE5DDD8AF899B
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q55: Choose the right statement according to Trichomonas vaginalis / Using infected contaminated towels help in transmission.
+
+## exam_signal
+mu_56d88740af5ca3011894 | paper | | p18 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "trichomonas vaginalis towel fomite transmission" -- no candidate record exists in live state or docs/*-Source-Imports concept files, safe to create.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Giardia lamblia causes steatorrhoea by coating the duodenal mucosa
+
+## id
+CON-INF-438BE9A64D7913
+
+## canonical_key
+giardia-lamblia.steatorrhoea
+
+## aliases
+Giardia malabsorption
+Giardia lamblia greasy stool
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Giardia lamblia trophozoites attach to and coat the duodenal and jejunal mucosa in large numbers, mechanically interfering with fat digestion and absorption. The result is steatorrhoea, a light-coloured, greasy, foul-smelling stool that reflects unabsorbed fat, a classic presenting feature of giardiasis, often accompanied by bloating and abdominal cramps.
+
+## explicit_objective
+Recognise light-coloured, greasy (steatorrhoeic) stool as the classic malabsorption presentation of Giardia lamblia infection.
+
+## pitfalls
+Attributing pale, greasy stool to Entamoeba histolytica — E. histolytica classically causes bloody, mucus-containing dysentery from colonic ulceration, not fat malabsorption; steatorrhoea points to Giardia's small-bowel mucosal coating instead.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Protozoa
+
+## microtopic
+Giardia lamblia clinical features
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Parasitology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_56d88740af5ca3011894
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-438BE9A64D7913
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q56: If the patient noticed that his stool became light-coloured and greasy, what is the probable causative protozoon? / Giardia lamblia.
+
+## exam_signal
+mu_56d88740af5ca3011894 | paper | | p19 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "giardia lamblia steatorrhea malabsorption" -- no candidate record exists in live state or docs/*-Source-Imports concept files, safe to create.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Physical arthropod control methods are distinct from chemical insecticide control
+
+## id
+CON-INF-57180C6B99D81F
+
+## canonical_key
+arthropod-control.physical-vs-chemical
+
+## aliases
+Physical vector control
+Chemical vs physical arthropod control
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Arthropod (vector) control methods are grouped by mechanism. Physical/environmental methods act by removing breeding sites or mechanically barring arthropods from a host: eliminating stagnant water, proper sewage/garbage disposal, bed nets, and door/window screens are all physical methods. Chemical methods instead rely on toxicity to kill or repel arthropods, such as insecticides like DDT and arsenical compounds; this places insecticide use in a separate category from source reduction and physical barriers.
+
+## explicit_objective
+Distinguish physical/environmental arthropod control methods (source reduction, barriers) from chemical control (insecticides).
+
+## pitfalls
+Grouping insecticide use with physical control simply because it targets the same arthropods — the distinguishing feature is mechanism (chemical toxicity versus mechanical/environmental action), not the shared goal of vector reduction.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Medical entomology and vector control
+
+## microtopic
+Arthropod control methods
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Parasitology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_56d88740af5ca3011894
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-57180C6B99D81F
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q57: All of the following is physical method for arthropod control except..... / Using of insecticides like DDT and arsenical compounds.
+
+## exam_signal
+mu_56d88740af5ca3011894 | paper | | p19 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "arthropod control physical chemical insecticide" -- no candidate record exists in live state or docs/*-Source-Imports concept files, safe to create.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Anopheles mosquitoes are the exclusive vector of human malaria
+
+## id
+CON-INF-6BAFAF7430C005
+
+## canonical_key
+anopheles.human-malaria-vector
+
+## aliases
+Anopheles malaria vector
+Human malaria transmission
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Anopheles mosquitoes are the exclusive vector of human malaria: the female mosquito injects Plasmodium sporozoites into the bloodstream while taking a blood meal, and no other mosquito genus can complete the sexual (sporogonic) cycle of the four human Plasmodium species. Other mosquito-borne diseases are transmitted by different genera: bird (avian) malaria and Japanese encephalitis by Culex, dengue fever by Aedes, and Rift Valley fever mainly by Aedes and Culex.
+
+## explicit_objective
+Identify Anopheles as the exclusive mosquito vector of human malaria, distinguishing it from the Culex/Aedes vectors of bird malaria, dengue, Japanese encephalitis and Rift Valley fever.
+
+## pitfalls
+Assuming any mosquito-borne disease listed alongside malaria shares the same vector — bird malaria, dengue, Japanese encephalitis and Rift Valley fever are each transmitted by Culex or Aedes, not Anopheles, which is reserved for human malaria.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Medical entomology and vector control
+
+## microtopic
+Mosquito-borne disease vectors
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Parasitology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_56d88740af5ca3011894
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-6BAFAF7430C005
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q58: Anopheles mosquitoes transmit which one of the following parasitic infections....... / Human malaria.
+
+## exam_signal
+mu_56d88740af5ca3011894 | paper | | p19 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "anopheles mosquito human malaria vector" -- no candidate record exists in live state or docs/*-Source-Imports concept files, safe to create.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Propagative transmission is multiplication of the parasite alone inside the vector
+
+## id
+CON-INF-8B36A038546153
+
+## canonical_key
+vector-transmission.propagative
+
+## aliases
+Propagative transmission definition
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Propagative transmission describes a vector in which the parasite only multiplies in number, without undergoing any developmental change in form, before being passed to a new host (e.g., Yersinia pestis multiplying within the flea gut). This contrasts with cyclodevelopmental transmission (development/form change only, no multiplication), cyclopropagative transmission (both development and multiplication), mechanical transmission (the vector merely carries the organism, with neither development nor multiplication), and transovarian transmission (passage from the arthropod to its own offspring via the egg).
+
+## explicit_objective
+Define propagative transmission as multiplication of the parasite alone inside the vector, distinguishing it from cyclodevelopmental (development only), cyclopropagative (both), mechanical (neither) and transovarian (to vector offspring) transmission.
+
+## pitfalls
+Confusing propagative transmission (multiplication only) with cyclopropagative transmission (multiplication and development together) — the propagative pattern involves no change in the parasite's form, only an increase in its numbers.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Medical entomology and vector control
+
+## microtopic
+Modes of vector transmission
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Parasitology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_56d88740af5ca3011894
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-8B36A038546153
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q59: Only multiplication of the parasite takes place inside the vector is called............... / Propagative transmission.
+
+## exam_signal
+mu_56d88740af5ca3011894 | paper | | p20 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "propagative transmission vector multiplication" -- no candidate record exists in live state or docs/*-Source-Imports concept files, safe to create.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Ascaris lumbricoides can mechanically obstruct the bowel in heavy infection
+
+## id
+CON-INF-BF0258CF482E39
+
+## canonical_key
+ascaris-lumbricoides.intestinal-obstruction
+
+## aliases
+Ascaris intestinal obstruction
+Roundworm bowel obstruction
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Ascaris lumbricoides is a large roundworm, often 15 to 35 cm long, and in heavy infections a tangled bolus of worms can mechanically obstruct the lumen of the small intestine. This is a recognised, classically tested surgical complication of ascariasis, occurring most often in children, who tend to carry the heaviest worm burdens and have a narrower bowel lumen to begin with.
+
+## explicit_objective
+Identify Ascaris lumbricoides as the intestinal parasite whose heavy worm burden can mechanically obstruct the bowel.
+
+## pitfalls
+Attributing intestinal obstruction to hookworm (Ancylostoma duodenale) — hookworm's classic complication is chronic blood loss and iron-deficiency anaemia from mucosal attachment and feeding, not bulk mechanical obstruction, which is Ascaris's signature complication.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Intestinal nematodes
+
+## microtopic
+Ascaris lumbricoides complications
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Parasitology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_56d88740af5ca3011894
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-BF0258CF482E39
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q60: Intestinal obstruction may occur as a complication of infection with which one of the following parasites? / Ascaris lumbricoides.
+
+## exam_signal
+mu_56d88740af5ca3011894 | paper | | p20 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ascaris lumbricoides intestinal obstruction complication" -- no candidate record exists in live state or docs/*-Source-Imports concept files, safe to create.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Complete metamorphosis: immature and adult insects differ markedly in form, habitat and behaviour
+
+## id
+CON-INF-C6F4EA1ED6723A
+
+## canonical_key
+arthropods.complete-metamorphosis-descriptive
+
+## aliases
+Complete metamorphosis (holometabolous)
+Insect life-stage difference
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Complete (holometabolous) metamorphosis describes insects, such as mosquitoes and flies, whose immature stages (larva, pupa) look and behave completely differently from the adult and typically occupy a different habitat, such as an aquatic larva maturing into a flying adult. This contrasts with incomplete (hemimetabolous) metamorphosis, in which the immature nymph closely resembles a smaller, wingless version of the adult and usually shares the same habitat and behaviour.
+
+## explicit_objective
+Recognise complete (holometabolous) metamorphosis as the pattern in which immature and adult insects differ markedly in form, habitat and behaviour, against incomplete (hemimetabolous) metamorphosis's close resemblance.
+
+## pitfalls
+Confusing complete metamorphosis's marked immature-versus-adult difference with the vector-transmission terms propagative/cyclopropagative/cyclodevelopmental, which describe events happening to a parasite inside a vector, not the insect's own developmental stages.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Medical entomology and vector control
+
+## microtopic
+Insect metamorphosis
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Parasitology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_56d88740af5ca3011894
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-C6F4EA1ED6723A
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q61: The immature insects and the adults have different forms, often live in different habitats, and may have very different behavior which is called....... / Complete metamorphosis.
+
+## exam_signal
+mu_56d88740af5ca3011894 | paper | | p20 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "complete metamorphosis insect larva adult different habitat" -- no candidate record exists in live state or docs/*-Source-Imports concept files, safe to create.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Barrett oesophagus: chronic reflux drives squamous-to-intestinal metaplasia
+
+## id
+CON-FND-EA33B65C529268
+
+## canonical_key
+barrett-oesophagus.squamous-to-intestinal-metaplasia
+
+## aliases
+Barrett's esophagus
+Oesophageal columnar metaplasia
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Barrett oesophagus results from chronic gastro-oesophageal reflux repeatedly injuring the normal squamous epithelium of the distal oesophagus; the tissue adapts by replacing the squamous lining with a more acid-resistant columnar, intestinal-type epithelium containing goblet cells. Endoscopically this appears as salmon-coloured mucosa extending upward from the gastro-oesophageal junction into the paler, tan-white squamous mucosa. This squamous-to-intestinal metaplasia is a premalignant change that raises the risk of oesophageal adenocarcinoma.
+
+## explicit_objective
+Identify Barrett oesophagus (chronic-reflux-driven squamous-to-intestinal columnar metaplasia of the distal oesophagus) from its classic endoscopic and clinical description.
+
+## pitfalls
+Reversing the direction of change — chronic reflux converts squamous epithelium toward an intestinal (columnar) phenotype, not the other way around, and the process is metaplasia (a reversible tissue-type substitution), not dysplasia or transitional-epithelium change.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T02
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Cellular adaptation
+
+## microtopic
+Metaplasia
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Pathology
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_56d88740af5ca3011894
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-EA33B65C529268
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q65: ...Esophago-gastro-duodenoscopy showed areas of salmon-colored mucosa... / Transformation of squamous epithelium to intestinal epithelium.
+
+## exam_signal
+mu_56d88740af5ca3011894 | paper | | p22 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "barrett esophagus intestinal metaplasia squamous columnar" -- no candidate record exists in live state or docs/*-Source-Imports concept files, safe to create.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---

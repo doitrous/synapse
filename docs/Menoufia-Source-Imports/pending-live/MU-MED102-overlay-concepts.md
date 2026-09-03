@@ -322,3 +322,91 @@ Pathological localized atrophy has five named causes -- hormonal, vascular, pres
 mu: Tested as Q49, "Which of the following growth disturbances is most likely to occur in patients suffering from cachexia?" (answer: Atrophy), End Foundation 2 Batch 43 - Answers - Telegram 9659.pdf, grey-highlight key on p17.
 
 ---
+
+# Item
+
+## id
+CON-INF-2541991F249506
+
+## label
+A parasite's life cycle can involve several host roles: the definitive host harbours the adult/sexual stage; the intermediate host is where all larval development takes place; the paratenic (transfer) host carries the organism in an arrested state of development, without further development, transporting it onward; and a reservoir host is a non-human animal harbouring the same parasite, serving as an additional source of human infection
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as Q51, "It is an animal that harbors the mature stage of the parasite and acts as a source of infection" (answer: Reservoir host), End Foundation 2 Batch 43 - Answers - Telegram 9659.pdf, grey-highlight key on p17. Found via find-existing.mjs in pending docs/Assiut-Source-Imports/concept/AUN-INI-105-ch8-concepts.md; this exam's own key names "reservoir host" for an animal harbouring the mature stage and serving as an infection source, which the reused concept's own definition covers.
+
+---
+
+# Item
+
+## id
+CON-INF-BE9AD99C94CD24
+
+## label
+Most trematodes are hermaphroditic; Schistosoma is the classic exception with separate sexes, the male and female worms pairing in copula for the duration of adult life
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as Q52, "Most trematodes are hermaphrodites except....." (answer: Schistosomes), End Foundation 2 Batch 43 - Answers - Telegram 9659.pdf, grey-highlight key on p17. Found via find-existing.mjs in pending docs/Assiut-Source-Imports/concept/AUN-INI-105-ch9-concepts.md, an exact-grain match (that concept's own original_wording already records this same "hermaphrodite except" phrasing).
+
+---
+
+# Item
+
+## id
+CON-INF-F82C6307A7B7E3
+
+## label
+Facultative parasite
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as Q63, "Organisms live independent on the host, but may occasionally be parasitic under certain conditions, they are:" (answer: Facultative parasite), End Foundation 2 Batch 43 - Answers - Telegram 9659.pdf, grey-highlight key on p21. Found via find-existing.mjs in pending docs/MUST-Source-Imports/concept/FHB-102-2-parasitology-introduction-concepts.md, already the standing cross-lane reuse target for this exact fact per AUN-INI-105-ch8's own header note.
+
+---
+
+# Item
+
+## id
+CON-INF-93B7D64C0E2A15
+
+## label
+Zoonotic parasitic diseases originate from animals
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as Q64, "The infection which is transmitted from infected animals to humans is called:" (answer: Zoonoses), End Foundation 2 Batch 43 - Answers - Telegram 9659.pdf, grey-highlight key on p22. Found via find-existing.mjs in pending docs/MUST-Source-Imports/concept/FHB-102-2-parasitology-introduction-concepts.md.
+
+---

@@ -1414,3 +1414,443 @@ polarity: affirmative
 scope: Menoufia MED102 End Foundation 2 Batch 43 exam
 
 ---
+
+# Item
+
+## id
+CLM-INF-150C7B3536AC2E
+
+## concept_id
+CON-INF-150C7B3536AC2E
+
+## subject
+Hymenolepis nana
+
+## predicate
+is the intestinal cestode capable of
+
+## object
+autoinfection
+
+## display_text
+Hymenolepis nana is the intestinal cestode capable of autoinfection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 End Foundation 2 Batch 43 exam
+
+---
+
+# Item
+
+## id
+CLM-INF-237B7DCB95F998
+
+## concept_id
+CON-INF-237B7DCB95F998
+
+## subject
+Heterophyes heterophyes life cycle
+
+## predicate
+does not include
+
+## object
+a copepod (cyclop) host
+
+## display_text
+The Heterophyes heterophyes life cycle does not include a copepod (cyclop) host.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 End Foundation 2 Batch 43 exam
+
+---
+
+# Item
+
+## id
+CLM-INF-2DE5DDD8AF899B
+
+## concept_id
+CON-INF-2DE5DDD8AF899B
+
+## subject
+Trichomonas vaginalis
+
+## predicate
+can spread via
+
+## object
+contaminated shared towels (fomites)
+
+## display_text
+Trichomonas vaginalis can spread via contaminated shared towels (fomites).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 End Foundation 2 Batch 43 exam
+
+---
+
+# Item
+
+## id
+CLM-INF-438BE9A64D7913
+
+## concept_id
+CON-INF-438BE9A64D7913
+
+## subject
+Giardia lamblia
+
+## predicate
+is the probable cause of
+
+## object
+light-coloured, greasy (steatorrhoeic) stool
+
+## display_text
+Giardia lamblia is the probable cause of light-coloured, greasy (steatorrhoeic) stool.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 End Foundation 2 Batch 43 exam
+
+---
+
+# Item
+
+## id
+CLM-INF-57180C6B99D81F
+
+## concept_id
+CON-INF-57180C6B99D81F
+
+## subject
+Insecticides such as DDT and arsenical compounds
+
+## predicate
+are classed as a
+
+## object
+chemical, not physical, arthropod control method
+
+## display_text
+Insecticides such as DDT and arsenical compounds are classed as a chemical, not physical, arthropod control method.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 End Foundation 2 Batch 43 exam
+
+---
+
+# Item
+
+## id
+CLM-INF-6BAFAF7430C005
+
+## concept_id
+CON-INF-6BAFAF7430C005
+
+## subject
+Anopheles mosquitoes
+
+## predicate
+transmit
+
+## object
+human malaria
+
+## display_text
+Anopheles mosquitoes transmit human malaria.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 End Foundation 2 Batch 43 exam
+
+---
+
+# Item
+
+## id
+CLM-INF-8B36A038546153
+
+## concept_id
+CON-INF-8B36A038546153
+
+## subject
+Propagative transmission
+
+## predicate
+is defined as
+
+## object
+multiplication of the parasite alone inside the vector
+
+## display_text
+Propagative transmission is defined as multiplication of the parasite alone inside the vector.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 End Foundation 2 Batch 43 exam
+
+---
+
+# Item
+
+## id
+CLM-INF-BF0258CF482E39
+
+## concept_id
+CON-INF-BF0258CF482E39
+
+## subject
+Ascaris lumbricoides infection
+
+## predicate
+may cause
+
+## object
+intestinal obstruction as a complication
+
+## display_text
+Ascaris lumbricoides infection may cause intestinal obstruction as a complication.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 End Foundation 2 Batch 43 exam
+
+---
+
+# Item
+
+## id
+CLM-INF-C6F4EA1ED6723A
+
+## concept_id
+CON-INF-C6F4EA1ED6723A
+
+## subject
+Complete metamorphosis
+
+## predicate
+describes
+
+## object
+immature and adult insects with markedly different forms, habitats and behaviour
+
+## display_text
+Complete metamorphosis describes immature and adult insects with markedly different forms, habitats and behaviour.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 End Foundation 2 Batch 43 exam
+
+---
+
+# Item
+
+## id
+CLM-FND-EA33B65C529268
+
+## concept_id
+CON-FND-EA33B65C529268
+
+## subject
+Barrett oesophagus
+
+## predicate
+shows on biopsy
+
+## object
+transformation of squamous epithelium to intestinal epithelium
+
+## display_text
+Barrett oesophagus shows on biopsy transformation of squamous epithelium to intestinal epithelium.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 End Foundation 2 Batch 43 exam
+
+---

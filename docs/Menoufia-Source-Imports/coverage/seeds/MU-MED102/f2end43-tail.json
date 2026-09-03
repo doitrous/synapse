@@ -1,0 +1,506 @@
+{
+  "lane": "MU-MED102",
+  "cluster": "f2end43",
+  "header": "MU-MED102 (Foundation 2) lane 2 \u00b7 End Foundation 2 Batch 43 tail \u2014 14 of 16 items (Q50-65 read, Q53/62 held), same exam as lane 1's f2end43-mcq.md; keys read from the grey-highlight convention confirmed by direct render p17-p22 (see coverage/MU-MED102-triage.md addendum).",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "mu"
+    ],
+    "years": [
+      "MU_Y1"
+    ],
+    "module": "MU-MED102",
+    "module_subject": "MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Parasitology",
+    "exam_weight_by_year": {
+      "MU_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-MU102-PARASITOLOGY-BASICS"
+    ],
+    "resource_ids": [
+      "src_56d88740af5ca3011894"
+    ],
+    "source_citation": "End Foundation 2 Batch 43 - Answers - Telegram 9659.pdf, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "subject": "inf"
+  },
+  "questions": [
+    {
+      "key": "f2end43-q50",
+      "page": 17,
+      "title": "Autoinfection among intestinal cestodes",
+      "question": "Autoinfection is a mode of infection of which one of the following parasites.",
+      "options": {
+        "A": "Ascaris lumbricoides.",
+        "B": "Dipylidium caninum.",
+        "C": "Heterophyes heterophyes.",
+        "D": "Hymenolepis diminuta.",
+        "E": "Hymenolepis nana."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Ascaris lumbricoides is acquired by ingesting embryonated eggs from soil after a period of external development; it has no internal cycle that allows the same host to re-infect itself, so autoinfection is not described for this nematode.",
+        "B": "Incorrect. Dipylidium caninum requires an intermediate host (the flea) in which the cysticercoid larva develops before a new host can be infected by swallowing the flea; the human cannot become re-infected from eggs passed by their own worm without that intermediate step, so it is not an autoinfecting parasite.",
+        "C": "Incorrect. Heterophyes heterophyes requires two intermediate hosts in sequence, a snail and then a brackish-water fish, before its metacercariae become infective; a human cannot re-infect themselves directly, so autoinfection does not apply.",
+        "D": "Incorrect. Hymenolepis diminuta, unlike its close relative H. nana, requires an arthropod intermediate host (a grain beetle or flea) for its cysticercoid stage to develop; humans are accidental hosts infected by swallowing the insect, and no internal re-infection cycle exists.",
+        "E": "Correct. Hymenolepis nana is unique among the tapeworms tested here in being able to complete its entire life cycle inside a single human host: an egg hatching in the intestine releases an oncosphere that penetrates the villus, develops into a cysticercoid, and re-emerges into the lumen to mature into an adult, whose eggs can then hatch again within the same bowel without ever leaving the body. This internal, self-perpetuating cycle is autoinfection, and it is why H. nana infections can persist and intensify without any new external exposure."
+      },
+      "main_concept": "CON-INF-150C7B3536AC2E",
+      "concept_ids": [
+        "CON-INF-150C7B3536AC2E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Cestodes (tapeworms)",
+      "learning_objective": "Identify Hymenolepis nana as the parasite capable of autoinfection, completing its entire life cycle within one human host without external re-exposure.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p17"
+      }
+    },
+    {
+      "key": "f2end43-q51",
+      "page": 17,
+      "title": "Reservoir host definition",
+      "question": "It is an animal that harbors the mature stage of the parasite and acts as a source of infection:",
+      "options": {
+        "A": "Accidental host.",
+        "B": "Definitive host.",
+        "C": "Intermediate host.",
+        "D": "Reservoir host.",
+        "E": "Vector."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. An accidental host is one a parasite does not normally use at all, infecting it only occasionally and often without completing its normal development there; the stem instead describes an animal that regularly harbours the parasite's mature stage and serves as a recognised source of human infection.",
+        "B": "Incorrect. A definitive host harbours the parasite's adult or sexual stage, but the term on its own does not require that host to be a non-human animal serving as a source of infection for humans; the stem's emphasis on \"source of infection\" for a separate species is the reservoir host's defining feature, which this exam's own key credits.",
+        "C": "Incorrect. An intermediate host is where the parasite's larval developmental stages occur, not where the mature (adult) stage is harboured; this option describes the wrong stage of the life cycle.",
+        "D": "Correct. A reservoir host is a non-human animal that harbours the same parasite species that infects humans, carrying its mature stage, without itself necessarily being diseased, and by doing so serves as an additional source from which humans can become infected. This is exactly the two-part description the stem gives: harbouring the mature stage, and acting as a source of infection.",
+        "E": "Incorrect. A vector is an arthropod (or other organism) that transmits a parasite between hosts, often biologically supporting part of its development, but a vector is not itself typically described as harbouring the parasite's mature stage as a source of infection in the reservoir sense."
+      },
+      "main_concept": "CON-INF-2541991F249506",
+      "concept_ids": [
+        "CON-INF-2541991F249506"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Host-parasite relationships",
+      "learning_objective": "Identify a reservoir host as a non-human animal harbouring a parasite's mature stage and serving as a source of human infection.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p17",
+        "reuse": "CON-INF-2541991F249506 via pending-live overlay"
+      },
+      "library_ids": [
+        "ART-INF-AUN-INI105-PARASITOLOGY-INTRO-CH8"
+      ]
+    },
+    {
+      "key": "f2end43-q52",
+      "page": 17,
+      "title": "Schistosomes as the non-hermaphrodite trematode",
+      "question": "Most trematodes are hermaphrodites except. .....",
+      "options": {
+        "A": "Fasciola hepatica.",
+        "B": "Fashiola gigantica.",
+        "C": "Heterophyes heterophyes.",
+        "D": "Paragonimus westermani.",
+        "E": "Schistosomes."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Fasciola hepatica, like most flukes, is hermaphroditic, with each adult worm carrying both male and female reproductive organs.",
+        "B": "Incorrect. Fasciola gigantica shares the same hermaphroditic reproductive pattern as its close relative F. hepatica; it is not the exception the stem asks for.",
+        "C": "Incorrect. Heterophyes heterophyes is hermaphroditic like the great majority of trematodes; it is not the exception.",
+        "D": "Incorrect. Paragonimus westermani is likewise hermaphroditic; it follows the general trematode pattern rather than departing from it.",
+        "E": "Correct. Schistosoma species are the classic exception to trematode hermaphroditism: they have separate sexes (are dioecious), and the slender female resides within a longitudinal groove on the male's ventral surface, the two worms pairing in copula for the duration of adult life. This dioecious pairing is a frequently tested distinguishing feature of the genus."
+      },
+      "main_concept": "CON-INF-BE9AD99C94CD24",
+      "concept_ids": [
+        "CON-INF-BE9AD99C94CD24"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Trematodes (flukes)",
+      "learning_objective": "Identify Schistosoma as the trematode genus with separate sexes, against the hermaphroditic pattern of Fasciola, Heterophyes heterophyes and Paragonimus westermani.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p17",
+        "reuse": "CON-INF-BE9AD99C94CD24 via pending-live overlay"
+      },
+      "library_ids": [
+        "ART-INF-AUN-INI105-TREMATODES-CH9"
+      ]
+    },
+    {
+      "key": "f2end43-q54",
+      "page": 18,
+      "title": "Heterophyes heterophyes life-cycle host chain",
+      "question": "Heterophyes heterophyes has a complex life cycle involving several hosts. Which of the following is NOT a part of this life cycle?",
+      "options": {
+        "A": "Cat.",
+        "B": "Cyclop",
+        "C": "Fish.",
+        "D": "Human.",
+        "E": "Snail."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cats and dogs act as reservoir hosts for Heterophyes heterophyes, becoming infected by eating the same raw or undercooked brackish-water fish that transmits the parasite to humans; the cat is part of this life cycle.",
+        "B": "Correct. A cyclop (copepod) is the first intermediate host used by parasites such as Diphyllobothrium latum, not by Heterophyes heterophyes. H. heterophyes instead uses a snail as its first intermediate host and a brackish-water fish (classically mullet) as its second intermediate host; a copepod plays no role anywhere in its life cycle, making it the one host not part of this chain.",
+        "C": "Incorrect. A brackish/coastal-water fish, classically the mullet, is the second intermediate host of Heterophyes heterophyes, where cercariae released from the snail encyst as metacercariae; humans acquire infection by eating this fish raw or undercooked.",
+        "D": "Incorrect. Humans are the definitive host of Heterophyes heterophyes, harbouring the adult intestinal fluke after eating infected raw or undercooked fish.",
+        "E": "Incorrect. A snail is the first intermediate host of Heterophyes heterophyes, where the miracidium develops through its larval stages before cercariae are released into the water to seek the fish second intermediate host."
+      },
+      "main_concept": "CON-INF-237B7DCB95F998",
+      "concept_ids": [
+        "CON-INF-237B7DCB95F998"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Trematodes (flukes)",
+      "learning_objective": "List the confirmed hosts in the Heterophyes heterophyes life cycle (snail, fish, human, cat/dog) and reject a copepod, which belongs to a different fluke's cycle, as one of them.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p18"
+      }
+    },
+    {
+      "key": "f2end43-q55",
+      "page": 18,
+      "title": "Trichomonas vaginalis fomite transmission",
+      "question": "Choose the right statement according to Trichomonas vaginalis:",
+      "options": {
+        "A": "Both trophozoites and cysts are infected.",
+        "B": "Dogs are intermediate host for T. Vaginalis.",
+        "C": "Infection occurs by eating green salad contaminated with cysts",
+        "D": "It is transmitted via penetration of the skin.",
+        "E": "Using infected contaminated towels help in transmission."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Trichomonas vaginalis exists only as a trophozoite; it has no cyst stage in its life cycle, so \"both trophozoites and cysts\" misstates its biology.",
+        "B": "Incorrect. Trichomonas vaginalis has no animal reservoir or intermediate host; it is transmitted directly between humans, chiefly by sexual contact, with no dog or other animal host involved.",
+        "C": "Incorrect. Trichomonas vaginalis is not transmitted by ingestion of food and has no cyst stage to survive on contaminated salad; this describes a faeco-oral protozoan route such as Giardia's, not T. vaginalis.",
+        "D": "Incorrect. Trichomonas vaginalis does not have a skin-penetrating infective stage; it is a fragile trophozoite transmitted by direct mucosal contact, not by penetrating intact skin.",
+        "E": "Correct. Trichomonas vaginalis trophozoites can survive for a limited time outside the body in a moist, warm environment, unlike many protozoa that require a resistant cyst stage to survive externally. Because of this, sharing contaminated damp towels, underwear or other fomites is recognised as a non-sexual route that can help transmit infection. This adds to, rather than replaces, the classic sexual route of transmission."
+      },
+      "main_concept": "CON-INF-2DE5DDD8AF899B",
+      "concept_ids": [
+        "CON-INF-2DE5DDD8AF899B"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Protozoa",
+      "learning_objective": "Recognise fomite transmission (shared damp towels) as a non-sexual route by which Trichomonas vaginalis can spread, alongside its classic sexual transmission.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p18"
+      }
+    },
+    {
+      "key": "f2end43-q56",
+      "page": 19,
+      "title": "Giardia lamblia and steatorrhoea",
+      "question": "If the patient noticed that his stool became light-coloured and greasy, what is the probable causative protozoon?",
+      "options": {
+        "A": "Entamoeba coli.",
+        "B": "Entamoeba histolytica.",
+        "C": "Giardia lamblia.",
+        "D": "Heterophyes heterophyes",
+        "E": "Trichomonas vaginalis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Entamoeba coli is a non-pathogenic commensal of the large bowel and does not cause malabsorption or steatorrhoea.",
+        "B": "Incorrect. Entamoeba histolytica classically causes bloody, mucus-containing dysentery from colonic ulceration, not the pale, greasy, foul-smelling stool of fat malabsorption.",
+        "C": "Correct. Giardia lamblia trophozoites attach to and coat the duodenal and jejunal mucosa, interfering with fat digestion and absorption. The result is steatorrhoea, a light-coloured, greasy, foul-smelling stool that reflects unabsorbed fat. This is a classic presentation of giardiasis, often accompanied by bloating and abdominal cramps.",
+        "D": "Incorrect. Heterophyes heterophyes is an intestinal fluke that can cause diarrhoea and abdominal pain in heavy infections, but light-coloured greasy stool (steatorrhoea) is not its classic presenting feature.",
+        "E": "Incorrect. Trichomonas vaginalis is a urogenital, not intestinal, parasite and does not cause gastrointestinal malabsorption or steatorrhoea."
+      },
+      "main_concept": "CON-INF-438BE9A64D7913",
+      "concept_ids": [
+        "CON-INF-438BE9A64D7913"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Protozoa",
+      "learning_objective": "Recognise light-coloured, greasy (steatorrhoeic) stool as the classic malabsorption presentation of Giardia lamblia infection.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p19"
+      }
+    },
+    {
+      "key": "f2end43-q57",
+      "page": 19,
+      "title": "Arthropod control: physical versus chemical methods",
+      "question": "All of the following is physical method for arthropod control except.....",
+      "options": {
+        "A": "Elimination of stagnant water.",
+        "B": "Proper disposal of sewage and garbage.",
+        "C": "Using of bed nets.",
+        "D": "Using of door & window screens",
+        "E": "Using of insecticides like DDT and arsenical compounds."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Eliminating stagnant water removes mosquito breeding sites through environmental modification, a physical/environmental control method, not a chemical one.",
+        "B": "Incorrect. Proper disposal of sewage and garbage denies arthropods breeding and feeding material through sanitation, a physical/environmental method.",
+        "C": "Incorrect. Bed nets are a physical barrier that mechanically prevents arthropods from reaching and biting a host.",
+        "D": "Incorrect. Door and window screens are a physical barrier method, mechanically excluding flying arthropods from indoor spaces.",
+        "E": "Correct. Insecticides such as DDT and arsenical compounds control arthropods by chemical toxicity, killing or repelling them through a poisoning action. This is fundamentally different from physical or environmental methods, which remove breeding sites or mechanically bar arthropods from reaching a host. Because every other option here works by elimination, sanitation or a physical barrier, the insecticide option is the one method that is chemical rather than physical."
+      },
+      "main_concept": "CON-INF-57180C6B99D81F",
+      "concept_ids": [
+        "CON-INF-57180C6B99D81F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Medical entomology and vector control",
+      "learning_objective": "Distinguish physical/environmental arthropod control methods (source reduction, barriers) from chemical control (insecticides).",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p19"
+      }
+    },
+    {
+      "key": "f2end43-q58",
+      "page": 19,
+      "title": "Anopheles as the human malaria vector",
+      "question": "Anopheles mosquitoes transmit which one of the following parasitic infections.......",
+      "options": {
+        "A": "Bird malaria.",
+        "B": "Dengue fever.",
+        "C": "Human malaria.",
+        "D": "Japanese encephalitis.",
+        "E": "Rift valley virus."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Bird (avian) malaria is transmitted by Culex mosquitoes, not Anopheles.",
+        "B": "Incorrect. Dengue fever is transmitted by Aedes mosquitoes, not Anopheles.",
+        "C": "Correct. Anopheles mosquitoes are the exclusive vector of human malaria: the female injects Plasmodium sporozoites into the bloodstream while taking a blood meal. No other mosquito genus is capable of completing the sexual (sporogonic) cycle of the human Plasmodium species. This makes Anopheles the sole vector responsible for transmitting all four species that cause human malaria.",
+        "D": "Incorrect. Japanese encephalitis is transmitted by Culex mosquitoes, not Anopheles.",
+        "E": "Incorrect. Rift Valley fever virus is transmitted mainly by Aedes and Culex mosquitoes, not Anopheles."
+      },
+      "main_concept": "CON-INF-6BAFAF7430C005",
+      "concept_ids": [
+        "CON-INF-6BAFAF7430C005"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Medical entomology and vector control",
+      "learning_objective": "Identify Anopheles as the exclusive mosquito vector of human malaria, distinguishing it from the Culex/Aedes vectors of bird malaria, dengue, Japanese encephalitis and Rift Valley fever.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p19"
+      }
+    },
+    {
+      "key": "f2end43-q59",
+      "page": 20,
+      "title": "Propagative transmission definition",
+      "question": "Only multiplication of the parasite takes place inside the vector is called...............",
+      "options": {
+        "A": "Cyclodevelopmental transmission.",
+        "B": "Cyclopropagative transmission.",
+        "C": "Mechanical transmission.",
+        "D": "Propagative transmission.",
+        "E": "Transovarian transmission."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Cyclodevelopmental transmission describes the parasite undergoing developmental change (a change in form or stage) inside the vector, without multiplying in numbers, the opposite pattern to the one described.",
+        "B": "Incorrect. Cyclopropagative transmission describes the parasite both developing (changing form) and multiplying inside the vector, combining both processes, not multiplication alone.",
+        "C": "Incorrect. Mechanical transmission describes a vector simply carrying a parasite on its body parts or mouthparts without the parasite developing or multiplying inside it at all.",
+        "D": "Correct. Propagative transmission describes a vector in which the parasite only multiplies in number, without undergoing any developmental change in form, before being passed on to a new host. This is exactly the pattern the stem describes: multiplication alone, with no cyclical change in the organism's morphology. Yersinia pestis multiplying within the flea gut is a classic example of this purely propagative pattern.",
+        "E": "Incorrect. Transovarian transmission describes a pathogen passing from an infected arthropod to its own offspring through the egg, a route of transmission to the next generation of vector rather than a description of what happens to the parasite inside a single vector."
+      },
+      "main_concept": "CON-INF-8B36A038546153",
+      "concept_ids": [
+        "CON-INF-8B36A038546153"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Medical entomology and vector control",
+      "learning_objective": "Define propagative transmission as multiplication of the parasite alone inside the vector, distinguishing it from cyclodevelopmental (development only), cyclopropagative (both), mechanical (neither) and transovarian (to vector offspring) transmission.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p20"
+      }
+    },
+    {
+      "key": "f2end43-q60",
+      "page": 20,
+      "title": "Ascaris lumbricoides and intestinal obstruction",
+      "question": "Intestinal obstruction may occur as a complication of infection with which one of the following parasites?",
+      "options": {
+        "A": "Ancylostoma duodenale.",
+        "B": "Ascaris lumbricoids.",
+        "C": "Dipylidium caninum.",
+        "D": "Heterophyes heterophyes",
+        "E": "Hymenolepis nana."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ancylostoma duodenale (hookworm) classically causes chronic blood loss and iron-deficiency anaemia from its intestinal attachment and feeding, not bulk intestinal obstruction.",
+        "B": "Correct. Ascaris lumbricoides is a large roundworm, often 15 to 35 centimetres long, and a heavy worm burden can tangle into a bolus that mechanically obstructs the lumen of the small intestine. This is a recognised and classically tested surgical complication of ascariasis. It occurs most often in children, who tend to carry the heaviest worm burdens and have a narrower bowel lumen to begin with.",
+        "C": "Incorrect. Dipylidium caninum is typically a light, often asymptomatic infection in humans and is not associated with mechanical intestinal obstruction.",
+        "D": "Incorrect. Heterophyes heterophyes causes diarrhoea and abdominal pain in heavy infection, not bulk mechanical obstruction of the bowel.",
+        "E": "Incorrect. Hymenolepis nana infection is usually mild or asymptomatic and is not associated with intestinal obstruction."
+      },
+      "main_concept": "CON-INF-BF0258CF482E39",
+      "concept_ids": [
+        "CON-INF-BF0258CF482E39"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Intestinal nematodes",
+      "learning_objective": "Identify Ascaris lumbricoides as the intestinal parasite whose heavy worm burden can mechanically obstruct the bowel.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p20"
+      }
+    },
+    {
+      "key": "f2end43-q61",
+      "page": 20,
+      "title": "Complete metamorphosis descriptive definition",
+      "question": "The immature insects and the adults have different forms, often live in different habitats, and may have very different behavior which is called.......",
+      "options": {
+        "A": "Complete metamorphosis.",
+        "B": "Cyclodevelopmental transmission",
+        "C": "Cyclopropagative transmission.",
+        "D": "Incomplete metamorphosis.",
+        "E": "Propagative transmission."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Complete (holometabolous) metamorphosis describes insects such as mosquitoes and flies whose immature stages, the larva and pupa, look and behave completely differently from the adult. These stages typically occupy a different habitat as well, such as an aquatic larva maturing into a flying adult. This marked difference in form, habitat and behaviour across the life cycle is exactly the pattern the stem describes.",
+        "B": "Incorrect. Cyclodevelopmental transmission is a vector-transmission term describing developmental change of a parasite inside a vector, unrelated to the insect's own life-stage morphology.",
+        "C": "Incorrect. Cyclopropagative transmission is likewise a vector-transmission term for a parasite developing and multiplying inside a vector, not a description of insect life stages.",
+        "D": "Incorrect. Incomplete (hemimetabolous) metamorphosis describes insects whose immature nymph resembles a smaller, wingless version of the adult and typically shares the same habitat and behaviour, the opposite of the marked difference the stem describes.",
+        "E": "Incorrect. Propagative transmission is a vector-transmission term for a parasite multiplying inside a vector, not a description of an insect's own developmental stages."
+      },
+      "main_concept": "CON-INF-C6F4EA1ED6723A",
+      "concept_ids": [
+        "CON-INF-C6F4EA1ED6723A"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Medical entomology and vector control",
+      "learning_objective": "Recognise complete (holometabolous) metamorphosis as the pattern in which immature and adult insects differ markedly in form, habitat and behaviour, against incomplete (hemimetabolous) metamorphosis's close resemblance.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p20"
+      }
+    },
+    {
+      "key": "f2end43-q63",
+      "page": 21,
+      "title": "Facultative parasite definition",
+      "question": "Organisms live independent on the host, but may occasionally be parasitic under certain conditions, they are:",
+      "options": {
+        "A": "Ectoparasite.",
+        "B": "Facultative parasite.",
+        "C": "Obligatory parasite.",
+        "D": "Permanent parasite.",
+        "E": "Specific parasite."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. An ectoparasite is classified by where it lives (on the host's external surface), not by whether it can also live independently of a host.",
+        "B": "Correct. A facultative parasite is an organism capable of a free-living existence that can also become parasitic when the opportunity or the right conditions arise. It does not depend on a host to complete its life cycle, unlike an obligate parasite. Free-living amoebae such as Naegleria fowleri and Acanthamoeba are classic examples, normally living independently in soil or water but capable of causing serious human infection under the right circumstances.",
+        "C": "Incorrect. An obligatory (obligate) parasite cannot complete its life cycle without a host and has no free-living alternative, the opposite of the independent-but-occasionally-parasitic pattern described.",
+        "D": "Incorrect. A permanent parasite remains on or in its host for its entire parasitic life once established, a description of duration of host residence, not of a free-living-versus-parasitic alternative.",
+        "E": "Incorrect. A specific parasite is one restricted to a particular host species, a description of host range, not of whether it can also live independently."
+      },
+      "main_concept": "CON-INF-F82C6307A7B7E3",
+      "concept_ids": [
+        "CON-INF-F82C6307A7B7E3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Parasitology foundations",
+      "learning_objective": "Define a facultative parasite as an organism able to live either freely or parasitically.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p21",
+        "reuse": "CON-INF-F82C6307A7B7E3 via pending-live overlay"
+      },
+      "library_ids": [
+        "ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS"
+      ]
+    },
+    {
+      "key": "f2end43-q64",
+      "page": 22,
+      "title": "Zoonoses definition",
+      "question": "The infection which is transmitted from infected animals to humans is called:",
+      "options": {
+        "A": "Anthroponose.",
+        "B": "Infestation.",
+        "C": "Opportunistic.",
+        "D": "Vertical transmission.",
+        "E": "Zoonoses."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. An anthroponosis is an infection transmitted from humans to animals, the reverse direction of the stem's description.",
+        "B": "Incorrect. Infestation refers to the presence of ectoparasites (such as arthropods) on or in a host's body surface, not to a source-of-transmission relationship between animals and humans.",
+        "C": "Incorrect. \"Opportunistic\" describes an organism that causes disease mainly when host defences are impaired, unrelated to whether the source of infection was an animal.",
+        "D": "Incorrect. Vertical transmission describes passage of infection from a mother to her offspring (e.g., transplacentally), not from an animal source to humans generally.",
+        "E": "Correct. A zoonosis is an infection that is naturally transmitted from vertebrate animals to humans, exactly the relationship the stem describes. Many parasitic diseases are zoonotic, including toxoplasmosis (from cats) and hydatid disease (from dogs). Recognising a disease as zoonotic is clinically important because controlling the animal reservoir, not just treating infected humans, is often necessary to interrupt transmission."
+      },
+      "main_concept": "CON-INF-93B7D64C0E2A15",
+      "concept_ids": [
+        "CON-INF-93B7D64C0E2A15"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Parasitology",
+      "subtopic": "Parasitology foundations",
+      "learning_objective": "Define a zoonosis as an infection transmitted from animals to humans.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p22",
+        "reuse": "CON-INF-93B7D64C0E2A15 via pending-live overlay"
+      },
+      "library_ids": [
+        "ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES"
+      ]
+    },
+    {
+      "key": "f2end43-q65",
+      "page": 22,
+      "title": "Barrett oesophagus: squamous-to-intestinal metaplasia",
+      "question": "A 40 years old male with 3 years history of acid reflux, came to hospital with increased severity of acid reflux. Esophago-gastro-duodenoscopy showed areas of salmon-colored mucosa extending from the gastro-esophageal junction upward into the tan white esophageal mucosa. Which of the following types of metaplasia will be seen in the taken biopsy?",
+      "options": {
+        "A": "Transformation of squamous epithelium to transitional epithelium.",
+        "B": "Transformation of columnar epithelium to squamous epithelium.",
+        "C": "Transformation of squamous epithelium to intestinal epithelium.",
+        "D": "Transformation of transitional epithelium to columnar epithelium.",
+        "E": "Transformation of intestinal epithelium to squamous epithelium."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Squamous-to-transitional metaplasia is not the pattern seen in chronic acid reflux; transitional epithelium is not a normal adaptive response of the oesophagus to reflux injury.",
+        "B": "Incorrect. This reverses the actual direction of change and names the wrong destination tissue; chronic reflux does not convert columnar epithelium to squamous, and squamous is not the metaplastic outcome here.",
+        "C": "Correct. This vignette describes Barrett oesophagus: chronic gastro-oesophageal reflux repeatedly injures the normal squamous epithelium of the distal oesophagus, and the tissue adapts by replacing it with a more acid-resistant columnar, intestinal-type (goblet-cell-containing) epithelium, seen endoscopically as salmon-coloured mucosa extending upward from the gastro-oesophageal junction into the paler squamous mucosa. This squamous-to-intestinal metaplasia is a premalignant change that raises the risk of oesophageal adenocarcinoma.",
+        "D": "Incorrect. Transitional-to-columnar metaplasia describes a different anatomical context (such as parts of the urinary tract) and is not the change produced by oesophageal reflux.",
+        "E": "Incorrect. This reverses the true direction of change; chronic reflux converts squamous epithelium toward an intestinal (columnar) phenotype, not the other way around."
+      },
+      "main_concept": "CON-FND-EA33B65C529268",
+      "concept_ids": [
+        "CON-FND-EA33B65C529268"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "General pathology",
+      "subtopic": "Cellular adaptation",
+      "module_subject": "MU-MED102 > 00 Module-wide > 06 EOM Exams > End Foundation 2 Batch 43 > Pathology",
+      "library_ids": [
+        "ART-MU102-PATHOLOGY-BASICS"
+      ],
+      "learning_objective": "Identify Barrett oesophagus (chronic-reflux-driven squamous-to-intestinal columnar metaplasia of the distal oesophagus) from its classic endoscopic and clinical description.",
+      "field_notes": {
+        "keySource": "grey-highlight, direct render p22"
+      }
+    }
+  ]
+}

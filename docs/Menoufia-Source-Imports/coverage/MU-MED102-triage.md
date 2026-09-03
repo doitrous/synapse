@@ -104,11 +104,58 @@ mints against the same fact.
 
 ## Needs Omar / open items
 
-- Q50-65 of this same paper, and 11 further tier-1 department papers
-  (Microbiology/Parasitology/Pathology-x3/Pharmacology, listed in
-  `coverage/MU-Y1-priority-sources.md` §MU-MED102) are unread — resume-first
-  for the next dispatch.
+- 11 further tier-1 department papers (Microbiology/Parasitology/
+  Pathology-x3/Pharmacology, listed in `coverage/MU-Y1-priority-sources.md`
+  §MU-MED102) remain unread — resume-first for the next dispatch.
 - The grey-highlight key convention is invisible to `pagetext.mjs keys`
   (same gap already flagged for MED105's yellow highlighting and MED104's
   convention) — worth a shared fix so future lanes stop spending render
   budget confirming what the tool could detect directly.
+
+## Addendum — lane 2, Q50-65 (this dispatch)
+
+Read the remaining 16 items of the same End Foundation 2 Batch 43 exam
+(pages 17-22), closing the paper at Q1-65. Grey-highlight key confirmed by
+direct render (`--force`) of pages 17-22 of the Answers copy; the same tool
+gap applies (`pagetext.mjs keys` returns 0/16 marked).
+
+14 of 16 authored. 2 held: **Q53** and **Q62** each show a photographed
+parasite egg the stem asks the student to identify ("The following egg is
+the diagnostic stage of..." / "...stool analysis showed the following
+egg..."); the image is not recoverable from the extracted text and this
+pipeline has no image-import path for questions (`seed.schema.md` has only
+a free-text `media_recommendations` field), so both are held on the same
+ground lane 1 used for Q23/24/27. Q62 additionally shows two grey-highlighted
+options (D "operculated eggs...passed in stool" and E "adults can migrate to
+ectopic sites") on the same item — a second, independent hold ground (key
+conflict) even setting the image issue aside.
+
+Concept search (find-existing.mjs, ~20 terms) found four exact-grain
+reuse hits, all via sparse pending-live overlay (no module_subject on the
+overlay row, per rule 6): `CON-INF-2541991F249506` (host-types concept,
+Assiut AUN-INI-105-ch8, for Q51 "reservoir host"), `CON-INF-BE9AD99C94CD24`
+(Schistosoma-hermaphroditism exception, AUN-INI-105-ch9, for Q52 — the
+reused concept's own `original_wording` already quotes this same "except"
+phrasing), `CON-INF-F82C6307A7B7E3` and `CON-INF-93B7D64C0E2A15`
+(facultative parasite / zoonoses, MUST FHB-102-2-parasitology-introduction,
+for Q63/Q64 — the standing cross-lane reuse targets AUN-INI-105-ch8 already
+named for these exact facts). A dense partial-match cluster exists for
+Q54 (Heterophyes heterophyes life cycle: AUN-INI-105-ch9 has separate
+concepts for the fish second-intermediate-host fact and the reservoir-host
+fact, but no concept naming the full confirmed-host list against a rejected
+copepod) and for Q61 (AUN-INI-105/MUST have a "complete metamorphosis =
+holometabolous" terminology concept, but not this item's descriptive
+"immature/adult differ in form, habitat, behaviour" stem) — both kept as
+no-merge, different-grain, and minted fresh rather than forced, consistent
+with lane 1's Q34/Q19 no-merge precedent. The remaining 8 minted concepts
+(Q50, 55, 56, 57, 58, 59, 60, 65) had no candidate at any grain.
+
+New teaching article `ART-MU102-PARASITOLOGY-BASICS` (9 concepts) mints
+Parasitology as a fourth discipline for this module; Q65 (Barrett
+oesophagus, Pathology) extends the existing `ART-MU102-PATHOLOGY-BASICS`
+in place (new related_concept + one sentence per section) rather than
+minting a second small Pathology article.
+
+This closes End Foundation 2 Batch 43 (Q1-65: 59 authored, 6 held, 0
+remaining). Resume-first for the next dispatch is the 11 unread department
+papers above.

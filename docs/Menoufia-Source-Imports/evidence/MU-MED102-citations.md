@@ -1290,3 +1290,403 @@ no
 
 ---
 
+
+# Item
+
+## id
+CIT-INF-150C7B3536AC2E
+
+## claim_id
+CLM-INF-150C7B3536AC2E
+
+## resource_id
+src_56d88740af5ca3011894
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q50: Autoinfection is a mode of infection of which one of the following parasites. / Hymenolepis nana.
+
+## locator_type
+page
+
+## locator_page
+17
+
+## locator_section
+End Foundation 2 Batch 43 exam, department-keyed answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; grey-highlight key confirmed by direct render, not by pagetext.mjs keys (which does not detect this convention).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-237B7DCB95F998
+
+## claim_id
+CLM-INF-237B7DCB95F998
+
+## resource_id
+src_56d88740af5ca3011894
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q54: Heterophyes heterophyes has a complex life cycle involving several hosts. Which of the following is NOT a part of this life cycle? / Cyclop.
+
+## locator_type
+page
+
+## locator_page
+18
+
+## locator_section
+End Foundation 2 Batch 43 exam, department-keyed answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; grey-highlight key confirmed by direct render, not by pagetext.mjs keys (which does not detect this convention).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-2DE5DDD8AF899B
+
+## claim_id
+CLM-INF-2DE5DDD8AF899B
+
+## resource_id
+src_56d88740af5ca3011894
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q55: Choose the right statement according to Trichomonas vaginalis / Using infected contaminated towels help in transmission.
+
+## locator_type
+page
+
+## locator_page
+18
+
+## locator_section
+End Foundation 2 Batch 43 exam, department-keyed answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; grey-highlight key confirmed by direct render, not by pagetext.mjs keys (which does not detect this convention).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-438BE9A64D7913
+
+## claim_id
+CLM-INF-438BE9A64D7913
+
+## resource_id
+src_56d88740af5ca3011894
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q56: If the patient noticed that his stool became light-coloured and greasy, what is the probable causative protozoon? / Giardia lamblia.
+
+## locator_type
+page
+
+## locator_page
+19
+
+## locator_section
+End Foundation 2 Batch 43 exam, department-keyed answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; grey-highlight key confirmed by direct render, not by pagetext.mjs keys (which does not detect this convention).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-57180C6B99D81F
+
+## claim_id
+CLM-INF-57180C6B99D81F
+
+## resource_id
+src_56d88740af5ca3011894
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q57: All of the following is physical method for arthropod control except..... / Using of insecticides like DDT and arsenical compounds.
+
+## locator_type
+page
+
+## locator_page
+19
+
+## locator_section
+End Foundation 2 Batch 43 exam, department-keyed answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; grey-highlight key confirmed by direct render, not by pagetext.mjs keys (which does not detect this convention).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-6BAFAF7430C005
+
+## claim_id
+CLM-INF-6BAFAF7430C005
+
+## resource_id
+src_56d88740af5ca3011894
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q58: Anopheles mosquitoes transmit which one of the following parasitic infections....... / Human malaria.
+
+## locator_type
+page
+
+## locator_page
+19
+
+## locator_section
+End Foundation 2 Batch 43 exam, department-keyed answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; grey-highlight key confirmed by direct render, not by pagetext.mjs keys (which does not detect this convention).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-8B36A038546153
+
+## claim_id
+CLM-INF-8B36A038546153
+
+## resource_id
+src_56d88740af5ca3011894
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q59: Only multiplication of the parasite takes place inside the vector is called............... / Propagative transmission.
+
+## locator_type
+page
+
+## locator_page
+20
+
+## locator_section
+End Foundation 2 Batch 43 exam, department-keyed answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; grey-highlight key confirmed by direct render, not by pagetext.mjs keys (which does not detect this convention).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-BF0258CF482E39
+
+## claim_id
+CLM-INF-BF0258CF482E39
+
+## resource_id
+src_56d88740af5ca3011894
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q60: Intestinal obstruction may occur as a complication of infection with which one of the following parasites? / Ascaris lumbricoides.
+
+## locator_type
+page
+
+## locator_page
+20
+
+## locator_section
+End Foundation 2 Batch 43 exam, department-keyed answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; grey-highlight key confirmed by direct render, not by pagetext.mjs keys (which does not detect this convention).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-C6F4EA1ED6723A
+
+## claim_id
+CLM-INF-C6F4EA1ED6723A
+
+## resource_id
+src_56d88740af5ca3011894
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q61: The immature insects and the adults have different forms, often live in different habitats, and may have very different behavior which is called....... / Complete metamorphosis.
+
+## locator_type
+page
+
+## locator_page
+20
+
+## locator_section
+End Foundation 2 Batch 43 exam, department-keyed answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; grey-highlight key confirmed by direct render, not by pagetext.mjs keys (which does not detect this convention).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-EA33B65C529268
+
+## claim_id
+CLM-FND-EA33B65C529268
+
+## resource_id
+src_56d88740af5ca3011894
+
+## evidence_role
+local_curriculum
+
+## support_span
+Q65: ...salmon-colored mucosa extending from the gastro-esophageal junction upward into the tan white esophageal mucosa... / Transformation of squamous epithelium to intestinal epithelium.
+
+## locator_type
+page
+
+## locator_page
+22
+
+## locator_section
+End Foundation 2 Batch 43 exam, department-keyed answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; grey-highlight key confirmed by direct render, not by pagetext.mjs keys (which does not detect this convention).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
