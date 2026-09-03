@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import {
   Users, Search, ShieldOff, ShieldCheck, KeyRound, CalendarPlus, Ban,
   RefreshCw, Copy, History, UserCog, AlertTriangle, Activity, Download, ShieldPlus,
-  GraduationCap,
+  GraduationCap, LifeBuoy, CheckCheck,
 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
@@ -13,6 +13,8 @@ import { Avatar } from '@/components/ui/Avatar'
 import { Field, SearchInput, Select, TextInput, Textarea } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { AsyncSurface } from '@/components/ui/AsyncSurface'
+import { useRelativeTime } from '@/lib/useRelativeTime'
 import { cn } from '@/lib/cn'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { useIdentity } from '@/lib/useIdentity'
@@ -75,6 +77,20 @@ interface EnrollmentChangeRequest {
 }
 
 /**
+ * A student's contact-us message. Gated by `requireTab('users')` on the
+ * server — the same tab this whole page requires — because there is no
+ * dedicated support/privacy admin tab yet; see `server/src/support.js`.
+ */
+interface SupportMessage {
+  id: string
+  subject: string | null
+  message: string
+  status: string
+  createdAt: string
+  student: { name: string | null; email: string | null; universityId: string | null; year: string | null }
+}
+
+/**
  * The visible roster as a spreadsheet.
  *
  * Exports exactly what is on screen, filters included, because an export that
@@ -126,6 +142,11 @@ export function UsersManagement() {
   const [enrollmentNote, setEnrollmentNote] = useState('')
   const [enrollmentBusy, setEnrollmentBusy] = useState<string | null>(null)
   const [enrollmentError, setEnrollmentError] = useState('')
+  const [supportMessages, setSupportMessages] = useState<SupportMessage[]>([])
+  const [supportLoading, setSupportLoading] = useState(true)
+  const [supportError, setSupportError] = useState(false)
+  const [supportBusy, setSupportBusy] = useState<string | null>(null)
+  const relativeTime = useRelativeTime()
   /**
    * The roles this actor may give this person.
    *
@@ -162,6 +183,34 @@ export function UsersManagement() {
   }, [])
 
   useEffect(() => { void loadEnrollmentRequests() }, [loadEnrollmentRequests])
+
+  const loadSupportMessages = useCallback(async () => {
+    if (!API_MODE) { setSupportLoading(false); return }
+    setSupportLoading(true)
+    setSupportError(false)
+    try {
+      const response = await apiGet<{ messages: SupportMessage[] }>('/admin/support-messages?status=open')
+      setSupportMessages(response.messages)
+    } catch {
+      setSupportError(true)
+    } finally {
+      setSupportLoading(false)
+    }
+  }, [])
+
+  useEffect(() => { void loadSupportMessages() }, [loadSupportMessages])
+
+  async function closeSupportMessage(id: string) {
+    setSupportBusy(id)
+    try {
+      await apiPost(`/admin/support-messages/${encodeURIComponent(id)}/close`)
+      setSupportMessages((current) => current.filter((entry) => entry.id !== id))
+    } catch {
+      setSupportError(true)
+    } finally {
+      setSupportBusy(null)
+    }
+  }
 
   async function decideEnrollmentRequest(id: string, decision: 'approve' | 'reject') {
     if (enrollmentNote.trim().length < 8) {
@@ -333,6 +382,58 @@ export function UsersManagement() {
               </Table>
             </div>
           )}
+        </div>
+      </Panel>
+
+      <Panel className="overflow-hidden">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-4 py-3">
+          <div>
+            <h3 className="text-[13.5px] font-bold text-ink">Support requests</h3>
+            <p className="mt-0.5 text-[12px] text-ink-3">Contact-us messages students sent from the app. Closing one marks it answered.</p>
+          </div>
+          <Button size="sm" variant="ghost" iconLeft={RefreshCw} onClick={() => void loadSupportMessages()}>Refresh</Button>
+        </div>
+        <div className="p-4">
+          <AsyncSurface
+            loading={supportLoading}
+            error={supportError && (
+              <EmptyState
+                icon={AlertTriangle}
+                title="Could not load support requests"
+                description="Check your connection and try again."
+                action={<Button size="sm" variant="secondary" onClick={() => void loadSupportMessages()}>Retry</Button>}
+              />
+            )}
+            isEmpty={!supportMessages.length}
+            empty={<EmptyState icon={LifeBuoy} title="No open support requests" description="Every contact-us message has been answered." />}
+          >
+            <Table>
+              <thead><tr><Th>Student</Th><Th>Message</Th><Th>Sent</Th><Th align="end">Action</Th></tr></thead>
+              <tbody>
+                {supportMessages.map((entry) => (
+                  <Tr key={entry.id}>
+                    <Td>
+                      <p className="font-medium text-ink">{entry.student.name || 'Student'}</p>
+                      <p className="text-[11.5px] text-ink-3">
+                        {entry.student.email ?? entry.id}
+                        {entry.student.universityId && <> · {entry.student.universityId}{entry.student.year ? ` · ${entry.student.year}` : ''}</>}
+                      </p>
+                    </Td>
+                    <Td className="max-w-sm text-[12.5px] text-ink-2">
+                      {entry.subject && <span className="font-medium text-ink">{entry.subject}: </span>}
+                      {entry.message}
+                    </Td>
+                    <Td className="whitespace-nowrap text-[12px] text-ink-3">{relativeTime(entry.createdAt)}</Td>
+                    <Td align="end">
+                      <Button size="sm" variant="secondary" iconLeft={CheckCheck} loading={supportBusy === entry.id} onClick={() => void closeSupportMessage(entry.id)}>
+                        Mark answered
+                      </Button>
+                    </Td>
+                  </Tr>
+                ))}
+              </tbody>
+            </Table>
+          </AsyncSurface>
         </div>
       </Panel>
 

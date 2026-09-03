@@ -81,6 +81,7 @@ const Terms = lazyNamed(() => import('@/pages/legal/Terms'), 'Terms')
 const Privacy = lazyNamed(() => import('@/pages/legal/Privacy'), 'Privacy')
 const RefundPolicy = lazyNamed(() => import('@/pages/legal/RefundPolicy'), 'RefundPolicy')
 const Contact = lazyNamed(() => import('@/pages/legal/Contact'), 'Contact')
+const Accessibility = lazyNamed(() => import('@/pages/legal/Accessibility'), 'Accessibility')
 const NotFound = lazyNamed(() => import('@/pages/NotFound'), 'NotFound')
 const Placeholder = lazyNamed(() => import('@/pages/Placeholder'), 'Placeholder')
 
@@ -401,6 +402,7 @@ export const router = createBrowserRouter([
   { path: '/privacy', element: adminHost ? toStudentSite : render(Privacy) },
   { path: '/refund-policy', element: adminHost ? toStudentSite : render(RefundPolicy) },
   { path: '/contact', element: adminHost ? toStudentSite : render(Contact) },
+  { path: '/accessibility', element: adminHost ? toStudentSite : render(Accessibility) },
   // Auth stays on both origins: RequireAuth sends a signed-out admin to /login, and
   // a session lives per-origin, so the admin domain needs its own way in.
   { path: '/login', element: render(Login) },

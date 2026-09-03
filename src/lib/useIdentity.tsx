@@ -55,6 +55,10 @@ export interface IdentityProfile {
   profileComplete?: boolean
   /** A `managed_media` id, or null to show the profile_icon glyph instead. See useAvatar.ts. */
   avatarMediaId?: string | null
+  /** A short freeform line under the student's name, e.g. "Studying for finals". */
+  statusMessage?: string | null
+  /** ISO timestamp of first AI-features consent, or null until the student has agreed. */
+  aiConsentAt?: string | null
 }
 
 export interface Entitlement {
@@ -146,12 +150,14 @@ export interface EnrolmentInput {
   phone?: string
   nationality?: string
   plan?: string
+  /** Omit to leave unchanged; `''` clears it. Capped at 140 characters server-side. */
+  statusMessage?: string
 }
 
 const EMPTY_PROFILE: IdentityProfile = {
   studentId: null, name: null, email: null, phone: null, nationality: null,
   universityId: null, year: null, yearId: null, group: null, status: null, profileComplete: false,
-  avatarMediaId: null,
+  avatarMediaId: null, statusMessage: null, aiConsentAt: null,
 }
 
 const EMPTY_AUDIENCE: StudentAudience = { universityId: '', year: '', yearId: '', group: '' }
