@@ -2,8 +2,9 @@ import { useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ShieldCheck, ShieldOff } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
-import { supabase } from '@/lib/supabase'
-import { authErrorMessage } from '@/pages/auth/authMessages'
+import { API_MODE } from '@/lib/api'
+import { authMessage, mfa } from '@/lib/auth/client'
+import { useIdentity } from '@/lib/useIdentity'
 import { useT } from '@/lib/i18n'
 
 type Status =
@@ -25,37 +26,47 @@ type Status =
  */
 export function MfaControl() {
   const t = useT()
+  const identity = useIdentity()
   const [status, setStatus] = useState<Status>({ kind: 'loading' })
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
   const [confirming, setConfirming] = useState(false)
 
+  // The assurance level is the session's, and `/api/me` is the one place that
+  // knows it — asking Supabase again from here would be a second answer to a
+  // question the app has already settled.
+  const aal = identity.aal
+
   const read = useCallback(async () => {
-    if (!supabase) return setStatus({ kind: 'unavailable' })
-    const { data: factors, error: factorsError } = await supabase.auth.mfa.listFactors()
-    if (factorsError) {
-      setError(authErrorMessage(factorsError, 'The second-factor setting could not be read.'))
-      return setStatus({ kind: 'unavailable' })
+    if (!API_MODE) return setStatus({ kind: 'unavailable' })
+    try {
+      const { factors } = await mfa.factors()
+      const verified = factors.find((factor) => factor.factorType === 'totp' && factor.status === 'verified')
+      setStatus(verified ? { kind: 'on', factorId: verified.id, canRemove: aal === 'aal2' } : { kind: 'off' })
+    } catch (factorsError) {
+      setError(authMessage(factorsError, 'The second-factor setting could not be read.'))
+      setStatus({ kind: 'unavailable' })
     }
-    const verified = factors.totp.find((factor) => factor.status === 'verified')
-    if (!verified) return setStatus({ kind: 'off' })
-    const { data: assurance } = await supabase.auth.mfa.getAuthenticatorAssuranceLevel()
-    setStatus({ kind: 'on', factorId: verified.id, canRemove: assurance?.currentLevel === 'aal2' })
-  }, [])
+  }, [aal])
 
   useEffect(() => { void read() }, [read])
 
   async function turnOff(factorId: string) {
-    if (!supabase) return
     setBusy(true)
     setError('')
-    const { error: unenrollError } = await supabase.auth.mfa.unenroll({ factorId })
-    setBusy(false)
-    setConfirming(false)
-    if (unenrollError) {
-      setError(authErrorMessage(unenrollError, 'The authenticator could not be removed. Try again.'))
+    try {
+      await mfa.unenroll(factorId)
+    } catch (unenrollError) {
+      setBusy(false)
+      setConfirming(false)
+      setError(authMessage(unenrollError, 'The authenticator could not be removed. Try again.'))
       return
     }
+    setBusy(false)
+    setConfirming(false)
+    // The session is no longer aal2-backed by anything; the rest of the app
+    // still thinks a factor is enrolled.
+    identity.reload()
     await read()
   }
 

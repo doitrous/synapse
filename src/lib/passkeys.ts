@@ -1,6 +1,6 @@
 import { browserSupportsWebAuthn, startAuthentication, startRegistration } from '@simplewebauthn/browser'
-import { apiDelete, apiGet, apiPost, ApiError } from './api'
-import { supabase } from './supabase'
+import { API_MODE, apiDelete, apiGet, apiPost, ApiError } from './api'
+import { AuthError, passkeyVerify } from './auth/client'
 
 /** Whether this browser can even attempt a passkey ceremony. */
 export const passkeysSupported = typeof window !== 'undefined' && browserSupportsWebAuthn()
@@ -24,7 +24,7 @@ type PasskeyResult = { ok: true } | { ok: false; error: PasskeyErrorReason }
 export type PasskeyErrorReason = 'not_supported' | 'not_configured' | 'cancelled' | 'already_registered' | 'server_refused' | 'failed'
 
 function reasonFor(error: unknown): PasskeyErrorReason {
-  if (error instanceof ApiError) return 'server_refused'
+  if (error instanceof ApiError || error instanceof AuthError) return 'server_refused'
   const name = error && typeof error === 'object' && 'name' in error ? String((error as { name?: unknown }).name) : ''
   // WebAuthn's own vocabulary: the user dismissed the prompt or it timed out,
   // or this authenticator already holds a credential for this account.
@@ -46,9 +46,9 @@ export async function removeMyPasskey(id: string): Promise<void> {
 /**
  * Register this device's authenticator as a passkey for the signed-in account.
  *
- * Requires an existing Supabase session (the Bearer token `apiPost` attaches
- * automatically) — enrolling a passkey is something an already-authenticated
- * student does from their Account page, never a way to create an account.
+ * Requires an existing session (the cookie `apiPost` sends automatically) —
+ * enrolling a passkey is something an already-authenticated student does from
+ * their Account page, never a way to create an account.
  */
 export async function enrollPasskey(deviceLabel?: string): Promise<PasskeyResult> {
   if (!passkeysSupported) return { ok: false, error: 'not_supported' }
@@ -66,20 +66,19 @@ export async function enrollPasskey(deviceLabel?: string): Promise<PasskeyResult
 /**
  * Sign in with a passkey — no password, no existing session required.
  *
- * The server only ever hands back a `token_hash` (never a Supabase session
- * directly): `verifyOtp` is what actually establishes the session in this
- * browser's own storage, the same way any other magic-link redemption does.
+ * The server used to hand back a magic-link `token_hash` for the page to
+ * redeem against Supabase. There is no Supabase client here any more, so
+ * `mode: 'cookie'` tells the server to redeem it itself and answer with the
+ * session cookie: the hash never reaches this page at all.
  */
 export async function loginWithPasskey(email: string): Promise<PasskeyResult> {
-  if (!supabase) return { ok: false, error: 'not_configured' }
+  if (!API_MODE) return { ok: false, error: 'not_configured' }
   if (!passkeysSupported) return { ok: false, error: 'not_supported' }
   try {
     const optionsJSON = await apiPost('/auth/passkey/authenticate/options', { email })
     const response = await startAuthentication({ optionsJSON: optionsJSON as never })
-    const verified = await apiPost<{ token_hash?: string; error?: string }>('/auth/passkey/authenticate/verify', { email, response })
-    if (!verified.token_hash) return { ok: false, error: 'server_refused' }
-    const { error } = await supabase.auth.verifyOtp({ type: 'email', token_hash: verified.token_hash, email })
-    if (error) return { ok: false, error: 'server_refused' }
+    const verified = await passkeyVerify(email, response)
+    if (!verified.ok) return { ok: false, error: 'server_refused' }
     return { ok: true }
   } catch (error) {
     return { ok: false, error: reasonFor(error) }

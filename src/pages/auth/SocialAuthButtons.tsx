@@ -1,11 +1,11 @@
 import { useState, type ComponentType } from 'react'
-import type { Provider } from '@supabase/supabase-js'
 import { AlertCircle } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
-import { isSupabaseConfigured, supabase } from '@/lib/supabase'
+import { API_MODE } from '@/lib/api'
+import { oauthUrl } from '@/lib/auth/client'
 
-type SocialProvider = Extract<Provider, 'google' | 'facebook'>
+type SocialProvider = 'google' | 'facebook'
 
 /** Official four-colour Google "G", full-colour regardless of the button's own text colour. */
 function GoogleIcon() {
@@ -33,31 +33,32 @@ const PROVIDERS: Array<{ id: SocialProvider; label: string; icon: ComponentType 
   { id: 'facebook', label: 'Facebook', icon: FacebookIcon },
 ]
 
+/**
+ * `next` is a path inside this app, not a URL.
+ *
+ * The whole exchange belongs to the server now: it mints the PKCE verifier,
+ * keeps it and `next` in a cookie of its own, and only redirects back to a path
+ * it has validated. Nothing about where to land is decided in this page, which
+ * is what stops an OAuth return being turned into an open redirect.
+ */
 export function SocialAuthButtons({
-  redirectTo,
+  next,
   mode,
 }: {
-  redirectTo: string
+  next: string
   mode: 'sign in' | 'sign up'
 }) {
   const [busy, setBusy] = useState<SocialProvider | null>(null)
   const [error, setError] = useState('')
 
-  async function start(provider: SocialProvider) {
+  function start(provider: SocialProvider) {
     setError('')
-    if (!supabase) {
-      setError('Social sign-in is waiting for the Supabase project keys.')
+    if (!API_MODE) {
+      setError('Social sign-in is waiting for this deployment to be connected to its account service.')
       return
     }
     setBusy(provider)
-    const { error: authError } = await supabase.auth.signInWithOAuth({
-      provider,
-      options: { redirectTo },
-    })
-    if (authError) {
-      setBusy(null)
-      setError(authError.message || `Social ${mode} could not be started.`)
-    }
+    window.location.href = oauthUrl(provider, next)
   }
 
   return (
@@ -70,8 +71,8 @@ export function SocialAuthButtons({
             variant="secondary"
             className="w-full"
             loading={busy === provider.id}
-            disabled={!isSupabaseConfigured || Boolean(busy)}
-            onClick={() => void start(provider.id)}
+            disabled={!API_MODE || Boolean(busy)}
+            onClick={() => start(provider.id)}
           >
             <span className="grid size-[18px] shrink-0 place-items-center" aria-hidden>
               <provider.icon />
@@ -80,9 +81,9 @@ export function SocialAuthButtons({
           </Button>
         ))}
       </div>
-      {!isSupabaseConfigured && (
+      {!API_MODE && (
         <p className="text-[11.5px] text-ink-3">
-          Enable Google/Facebook in Supabase Auth and add this app URL to redirect URLs before using social {mode}.
+          Enable Google/Facebook in Supabase Auth and add this host&rsquo;s <span className="font-mono">/api/auth/callback</span> to its redirect URLs before using social {mode}.
         </p>
       )}
       {error && (

@@ -3,15 +3,12 @@ import assert from 'node:assert/strict'
 
 /**
  * `useShares.ts` (like `useStudyRooms.ts` and `useChallenges.ts`) imports
- * `./api`, which imports `./supabase` with an extensionless specifier —
- * fine for Vite, but `node --test --experimental-strip-types` cannot resolve
- * it (confirmed directly: `node --experimental-strip-types -e
- * "import('./src/lib/api.ts')"` fails with `ERR_MODULE_NOT_FOUND` for
- * `./supabase`, and `node:test`'s `mock.module` cannot rescue an
- * unresolvable specifier — it only intercepts a specifier that already
- * resolves). None of the four hooks in this task can be imported under this
- * repo's plain-node test runner, and `./api`/`./supabase` are outside this
- * task's file scope to fix.
+ * `./api`, which imports both extensionless specifiers and the `@/` alias —
+ * fine for Vite, but `node --test --experimental-strip-types` resolves
+ * neither, and `node:test`'s `mock.module` cannot rescue an unresolvable
+ * specifier: it only intercepts one that already resolves. None of the four
+ * hooks in this task can be imported under this repo's plain-node test
+ * runner, and `./api` is outside this task's file scope to fix.
  *
  * So this mirrors the guard instead of importing it: `patchShare`'s
  * compare-and-restore rollback in `useShares.ts` (and its twins,

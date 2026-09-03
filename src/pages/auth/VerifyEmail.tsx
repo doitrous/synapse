@@ -5,8 +5,10 @@ import { AuthLayout } from './AuthLayout'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
-import { authLandingHash, authLandingSearch, supabase } from '@/lib/supabase'
-import { authErrorMessage, verificationLinkError } from './authMessages'
+import { API_MODE, apiGet } from '@/lib/api'
+import { authMessage, resend as resendVerification } from '@/lib/auth/client'
+import { useIdentity } from '@/lib/useIdentity'
+import { verificationLinkError } from './authMessages'
 import { forgetPendingEmail, readPendingEmail, rememberPendingEmail } from './pendingEmail'
 
 /**
@@ -26,6 +28,7 @@ import { forgetPendingEmail, readPendingEmail, rememberPendingEmail } from './pe
  */
 export function VerifyEmail() {
   const [params] = useSearchParams()
+  const { reload } = useIdentity()
   // Resolved once: whether the address is known decides whether the page has to
   // ask for it, and that must not change under the student as they type.
   const [knownEmail] = useState(() => params.get('email') || readPendingEmail())
@@ -36,40 +39,57 @@ export function VerifyEmail() {
   const [verified, setVerified] = useState(false)
   const [sending, setSending] = useState(false)
   const [message, setMessage] = useState('')
-  const [linkFailure, setLinkFailure] = useState(() => verificationLinkError(authLandingSearch, authLandingHash))
+  // Nothing rewrites the entry URL any more — the Supabase client that used to
+  // wipe it during start-up is gone — so a failed link's reason is read from
+  // the address bar directly.
+  const [linkFailure, setLinkFailure] = useState(() => (typeof window === 'undefined' ? null : verificationLinkError(window.location.search, window.location.hash)))
 
+  /**
+   * The one page that asks Supabase for a current answer.
+   *
+   * Everywhere else `/api/me` reports the confirmation flag it already has;
+   * here the whole point is that the answer changes while somebody is looking
+   * at the page, in another tab or on their phone. `?fresh=1` forces the round
+   * trip, and five seconds is often enough to feel immediate without turning a
+   * page somebody leaves open into a stream of requests.
+   *
+   * Confirmation only ever moves one way, so this flag does too: a poll that
+   * says "not yet" is left to the state the page already holds.
+   */
   useEffect(() => {
-    if (!supabase) return
+    if (!API_MODE || verified) return undefined
     let live = true
-    /**
-     * Confirmation only ever moves one way, so this flag does too.
-     *
-     * Two sources answer the same question here — a network round-trip, and
-     * the session the link's own tokens produce — and they finish in whichever
-     * order the network decides. Writing both answers meant the slower one won:
-     * a `getUser()` that resolved after the sign-in event reported "no user"
-     * and put a student who had just verified back on "check your email", with
-     * a link that would never work again. Only confirmation is recorded; the
-     * absence of it is left to the state the page already holds.
-     */
-    const confirm = (confirmedAt: string | null | undefined) => { if (live && confirmedAt) setVerified(true) }
-    void supabase.auth.getUser().then(({ data }) => confirm(data.user?.email_confirmed_at))
-    const { data } = supabase.auth.onAuthStateChange((_event, session) => confirm(session?.user.email_confirmed_at))
-    return () => { live = false; data.subscription.unsubscribe() }
-  }, [])
+    const ask = async () => {
+      try {
+        const me = await apiGet<{ user: { emailVerified?: boolean | null } | null }>('/me?fresh=1')
+        if (live && me.user?.emailVerified) {
+          setVerified(true)
+          // The rest of the app is still holding the unverified answer.
+          reload()
+        }
+      } catch { /* signed out, or offline — the next tick tries again */ }
+    }
+    void ask()
+    const timer = window.setInterval(() => { void ask() }, 5000)
+    return () => { live = false; window.clearInterval(timer) }
+  }, [reload, verified])
 
   useEffect(() => { if (verified) forgetPendingEmail() }, [verified])
 
   async function resend(event: React.FormEvent) {
     event.preventDefault()
     const address = email.trim().toLowerCase()
-    if (!supabase) return setMessage('Account creation is prepared but Supabase is not connected yet.')
+    if (!API_MODE) return setMessage('Account creation is prepared but this deployment is not connected to its account service yet.')
     if (!address) return setMessage('Enter the email address you signed up with.')
     setSending(true)
     setMessage('')
-    const { error } = await supabase.auth.resend({ type: 'signup', email: address, options: { emailRedirectTo: `${window.location.origin}/auth/verify-email` } })
+    try {
+      await resendVerification(address)
+    } catch (error) {
+      setSending(false)
+      return setMessage(authMessage(error, 'A fresh verification message could not be sent. Wait a moment and try again.'))
+    }
     setSending(false)
-    if (error) return setMessage(authErrorMessage(error, 'A fresh verification message could not be sent. Wait a moment and try again.'))
     rememberPendingEmail(address)
     // The dead link has been replaced; leaving its warning up would send the
     // student back to the email that no longer works.

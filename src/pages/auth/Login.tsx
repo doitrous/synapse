@@ -1,14 +1,16 @@
 import { useState } from 'react'
-import { Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
+import { Link, Navigate, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
 import { AlertCircle, ArrowRight, Eye, EyeOff, Fingerprint, LogIn } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { RouteLoading } from '@/components/shell/RouteLoading'
 import { AuthLayout } from './AuthLayout'
 import { SocialAuthButtons } from './SocialAuthButtons'
-import { isSupabaseConfigured, supabase } from '@/lib/supabase'
+import { API_MODE } from '@/lib/api'
+import { authMessage, login as signIn } from '@/lib/auth/client'
+import { useIdentity } from '@/lib/useIdentity'
 import { portalHome } from '@/lib/portalHost'
-import { authErrorMessage } from './authMessages'
 import { loginWithPasskey, passkeysSupported, type PasskeyErrorReason } from '@/lib/passkeys'
 
 /** Cancelling the OS prompt is not an error worth a red banner — the browser already showed its own UI for that. */
@@ -37,6 +39,7 @@ function safeNext(value: string | null): string {
 
 export function Login() {
   const navigate = useNavigate()
+  const identity = useIdentity()
   const [params] = useSearchParams()
   const next = safeNext(params.get('next'))
   const location = useLocation()
@@ -58,33 +61,38 @@ export function Login() {
   const [passkeyLoading, setPasskeyLoading] = useState(false)
 
   /**
-   * Establishing a session either way lands the same place: `next`, or the
-   * second-factor step first if this account still owes one. Passkey
-   * sign-in does not stand in for MFA — it replaces the password, and a
-   * student who also enrolled TOTP still clears it here exactly as they
-   * would after `signInWithPassword`.
+   * One screen, once.
+   *
+   * The server says whether a second factor is still owed (`mfaPending`), and
+   * that is the only thing that puts a code screen in the way: a correct
+   * password on an account with no verified authenticator goes straight to
+   * `next`. An admin who has not set one up yet is not stopped here either —
+   * RequireAuth shows them where to add one instead of trapping them in an
+   * enrolment screen they cannot leave.
+   *
+   * The identity is re-read before navigating, so the guard at `next` sees the
+   * session that was just created rather than the anonymous one that preceded it.
    */
-  async function afterSignedIn() {
-    const { data: assurance } = await supabase!.auth.mfa.getAuthenticatorAssuranceLevel()
-    const mfaPending = assurance?.nextLevel === 'aal2' && assurance.currentLevel !== 'aal2'
-    navigate(mfaPending ? `/auth/mfa?next=${encodeURIComponent(next)}` : next)
+  function afterSignedIn(mfaPending: boolean) {
+    identity.reload()
+    navigate(mfaPending ? `/auth/mfa?next=${encodeURIComponent(next)}` : next, { replace: true })
   }
 
   async function submit(event: React.FormEvent) {
     event.preventDefault()
     setError('')
-    if (!supabase) {
+    if (!API_MODE) {
       setError('Account sign-in is not available yet: this deployment is not connected to its account service.')
       return
     }
     setLoading(true)
-    const { error: signInError } = await supabase.auth.signInWithPassword({ email, password })
-    if (signInError) {
-      setError(authErrorMessage(signInError, 'Sign-in could not be completed. Check your details and try again.'))
+    try {
+      const { mfaPending } = await signIn(email, password)
+      afterSignedIn(mfaPending)
+    } catch (signInError) {
+      setError(authMessage(signInError, 'Sign-in could not be completed. Check your details and try again.'))
       setLoading(false)
-      return
     }
-    await afterSignedIn()
   }
 
   async function submitPasskey() {
@@ -103,7 +111,9 @@ export function Login() {
       if (result.error !== 'cancelled') setError(passkeyErrorMessage(result.error))
       return
     }
-    await afterSignedIn()
+    // A passkey replaces the password, not the second factor. `/api/me` is what
+    // knows whether one is still owed, so the reload above answers it.
+    afterSignedIn(false)
   }
 
   const aside = (
@@ -114,6 +124,12 @@ export function Login() {
     </div>
   )
 
+  // Already signed in — on this origin or, since the session is one cookie
+  // shared by both portal hostnames, on the other one. Showing the form again
+  // would be the second login this whole change exists to remove.
+  if (identity.status === 'loading') return <RouteLoading />
+  if (identity.status === 'authenticated') return <Navigate to={next} replace />
+
   return (
     <AuthLayout
       step="account"
@@ -123,7 +139,7 @@ export function Login() {
       aside={aside}
     >
       <form className="space-y-5" onSubmit={submit}>
-        {!isSupabaseConfigured && (
+        {!API_MODE && (
           <div className="rounded-lg border border-warning/30 bg-warning-tint px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
             Sign-in is unavailable: this deployment is not connected to its account service yet.
           </div>
@@ -135,7 +151,7 @@ export function Login() {
           </div>
         )}
         {error && <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
-        <SocialAuthButtons mode="sign in" redirectTo={`${window.location.origin}${next}`} />
+        <SocialAuthButtons mode="sign in" next={next} />
         <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
           <span className="h-px flex-1 bg-line" />
           OR

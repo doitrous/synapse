@@ -9,7 +9,6 @@ import { Avatar } from '@/components/ui/Avatar'
 import { RouteLoading } from '@/components/shell/RouteLoading'
 import { useIdentity } from '@/lib/useIdentity'
 import { useAvatar } from '@/lib/useAvatar'
-import { supabase } from '@/lib/supabase'
 import { normalisePhone } from '@/data/accountIdentity'
 import { portalHome } from '@/lib/portalHost'
 
@@ -45,12 +44,13 @@ function safeNext(value: string | null): string {
  * editable field here would silently do nothing for the accounts that reach
  * this screen.
  *
- * Google and Facebook also hand back a profile photo (`user_metadata.avatar_url`
- * / `.picture`, a URL on the provider's own CDN) that a password sign-up never
- * has. It is offered here as a preview with an editable choice — use it,
- * upload a different photo, or skip and keep the glyph — never imported
- * silently, per the same "nothing is assumed on the student's behalf" stance
- * the rest of this screen takes.
+ * The provider's own profile photo used to be offered here as a preview. The
+ * browser read it out of the Supabase session (`user_metadata.avatar_url`);
+ * there is no session in this page any more and `/api/me` does not project
+ * provider metadata, so the offer is gone and uploading a photo — or keeping
+ * the glyph — is what is left. Nothing is ever imported silently either way:
+ * the same "nothing is assumed on the student's behalf" stance the rest of
+ * this screen takes.
  */
 export function CompleteProfile() {
   const identity = useIdentity()
@@ -64,8 +64,7 @@ export function CompleteProfile() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
-  const [providerPhotoUrl, setProviderPhotoUrl] = useState<string | null>(null)
-  const [photoChoice, setPhotoChoice] = useState<'provider' | 'upload' | 'skip'>('skip')
+  const [photoChoice, setPhotoChoice] = useState<'upload' | 'skip'>('skip')
   const [customFile, setCustomFile] = useState<File | null>(null)
   const [customPreview, setCustomPreview] = useState<string | null>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
@@ -79,20 +78,6 @@ export function CompleteProfile() {
     setCustomPreview(url)
     return () => URL.revokeObjectURL(url)
   }, [customFile])
-
-  useEffect(() => {
-    let active = true
-    supabase?.auth.getSession().then(({ data }) => {
-      if (!active) return
-      const metadata = data.session?.user.user_metadata as { avatar_url?: string; picture?: string } | undefined
-      const photo = metadata?.avatar_url || metadata?.picture || null
-      if (photo) {
-        setProviderPhotoUrl(photo)
-        setPhotoChoice('provider')
-      }
-    })
-    return () => { active = false }
-  }, [])
 
   if (identity.status === 'loading') return <RouteLoading />
   if (identity.status !== 'authenticated') return <Navigate to="/login" replace />
@@ -126,8 +111,7 @@ export function CompleteProfile() {
       // to save (a slow connection, a provider CDN hiccup) is not worth
       // blocking the whole sign-up over. The Account page can always try again.
       try {
-        if (photoChoice === 'provider' && providerPhotoUrl) await avatar.importFromUrl(providerPhotoUrl)
-        else if (photoChoice === 'upload' && customFile) await avatar.upload(customFile)
+        if (photoChoice === 'upload' && customFile) await avatar.upload(customFile)
       } catch { /* see above */ }
       navigate(next, { replace: true })
     } catch {
@@ -159,18 +143,13 @@ export function CompleteProfile() {
         <div className="flex items-center gap-3.5 rounded-xl border border-line bg-surface-2/50 p-3.5">
           {photoChoice === 'upload' && customPreview
             ? <img src={customPreview} alt="" className="size-12 shrink-0 rounded-full border border-primary-line object-cover" />
-            : <Avatar name={identity.displayName} size="lg" src={photoChoice === 'provider' ? (providerPhotoUrl ?? undefined) : undefined} />}
+            : <Avatar name={identity.displayName} size="lg" />}
           <div className="min-w-0 flex-1">
             <p className="text-[13px] font-medium text-ink">Profile photo</p>
             <p className="mt-0.5 text-[11.5px] text-ink-3">
-              {providerPhotoUrl ? 'Use your Google/Facebook photo, upload a different one, or keep the default.' : 'Upload a photo, or keep the default.'}
+              Upload a photo, or keep the default.
             </p>
             <div className="mt-2 flex flex-wrap gap-1.5">
-              {providerPhotoUrl && (
-                <button type="button" onClick={() => setPhotoChoice('provider')} className={`rounded-full border px-2.5 py-1 text-[11.5px] font-medium ${photoChoice === 'provider' ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset'}`}>
-                  Use this photo
-                </button>
-              )}
               <button type="button" onClick={() => fileInputRef.current?.click()} className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-[11.5px] font-medium ${photoChoice === 'upload' ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset'}`}>
                 <Icon icon={Upload} size={12} />Upload a photo
               </button>

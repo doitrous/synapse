@@ -6,8 +6,8 @@ import { SocialAuthButtons } from './SocialAuthButtons'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
-import { isSupabaseConfigured, supabase } from '@/lib/supabase'
-import { authErrorMessage } from './authMessages'
+import { API_MODE } from '@/lib/api'
+import { authMessage, rememberSignupDetails, signup } from '@/lib/auth/client'
 import { rememberPendingEmail } from './pendingEmail'
 import { CONFLICT_MESSAGE, MIN_PASSWORD, normalisePhone, signInPathFor } from '@/data/accountIdentity'
 import { identityConflict } from '@/lib/accountExists'
@@ -71,29 +71,28 @@ export function Signup() {
 
     // Checked after the duplicate, not before it: telling somebody they already
     // have an account is worth doing whether or not sign-up itself is wired up.
-    if (!supabase) {
+    if (!API_MODE) {
       setLoading(false)
-      return setError('Account creation is prepared but Supabase is not connected yet. Temporary dashboard preview remains available.')
+      return setError('Account creation is prepared but this deployment is not connected to its account service yet. Temporary dashboard preview remains available.')
     }
 
-    const { data, error: signUpError } = await supabase.auth.signUp({
-      email: cleanEmail,
-      password,
-      options: {
-        data: { full_name: cleanName, phone: cleanPhone, nationality: nationality.trim() },
-        emailRedirectTo: `${window.location.origin}/auth/verify-email`,
-      },
-    })
+    let created: { alreadyRegistered: boolean; session: boolean }
+    try {
+      created = await signup(cleanEmail, password, { full_name: cleanName, phone: cleanPhone, nationality: nationality.trim() })
+    } catch (signUpError) {
+      setLoading(false)
+      return setError(authMessage(signUpError, 'Account creation could not be completed. Review the form and try again.'))
+    }
     setLoading(false)
-    if (signUpError) return setError(authErrorMessage(signUpError, 'Account creation could not be completed. Review the form and try again.'))
 
     // Supabase answers a sign-up for an address that already exists with a
     // success and an obfuscated user carrying no identities, so that the form
-    // cannot be used to enumerate who has an account. From this side of it that
-    // is indistinguishable from a new registration, and the student is left
-    // waiting for an email that describes a password they did not set. Sending
-    // them to sign in is the only honest reading.
-    if (data.user && Array.isArray(data.user.identities) && data.user.identities.length === 0) {
+    // cannot be used to enumerate who has an account. The server preserves that
+    // discriminator verbatim (`alreadyRegistered`): from this side it is
+    // otherwise indistinguishable from a new registration, and the student is
+    // left waiting for an email that describes a password they did not set.
+    // Sending them to sign in is the only honest reading.
+    if (created.alreadyRegistered) {
       return navigate(signInPathFor({ field: 'email', value: cleanEmail }), { state: { notice: CONFLICT_MESSAGE.email } })
     }
 
@@ -101,11 +100,14 @@ export function Signup() {
     // address is stored as well as passed — otherwise resending is impossible
     // from the one page that needs to offer it.
     rememberPendingEmail(cleanEmail)
+    // Nothing on the server can hold these until the account picks a university
+    // and a roster row exists; onboarding is what finally stores them.
+    rememberSignupDetails({ name: cleanName, phone: cleanPhone, nationality: nationality.trim() })
     // A session already in hand means this project does not require email
     // confirmation, so there is no email to wait for. Saying "check your inbox"
     // anyway is the cue that never arrives — the complaint that started this.
     // `sent=0` tells the next page which of the two happened.
-    navigate(`/auth/verify-email?email=${encodeURIComponent(cleanEmail)}${data.session ? '&sent=0' : ''}`)
+    navigate(`/auth/verify-email?email=${encodeURIComponent(cleanEmail)}${created.session ? '&sent=0' : ''}`)
   }
 
   const aside = (
@@ -121,9 +123,9 @@ export function Signup() {
   return (
     <AuthLayout step="account" title="Create your Nishany account" description="One account for your study record. Verify your email, then choose your university, year and plan. A second factor is optional and can be added later." aside={aside}>
       <form className="space-y-4" onSubmit={submit}>
-        {!isSupabaseConfigured && <div className="rounded-lg border border-warning/30 bg-warning-tint px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">Account service awaiting Supabase project keys. The form is ready and dashboard preview stays open.</div>}
+        {!API_MODE && <div className="rounded-lg border border-warning/30 bg-warning-tint px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">Account service awaiting its backend connection. The form is ready and dashboard preview stays open.</div>}
         {error && <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
-        <SocialAuthButtons mode="sign up" redirectTo={`${window.location.origin}/app`} />
+        <SocialAuthButtons mode="sign up" next="/app" />
         <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
           <span className="h-px flex-1 bg-line" />
           OR

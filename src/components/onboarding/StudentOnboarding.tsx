@@ -9,7 +9,7 @@ import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
 import { universities as seededUniversities } from '@/data/universities'
 import { useIdentity } from '@/lib/useIdentity'
-import { supabase } from '@/lib/supabase'
+import { takeSignupDetails } from '@/lib/auth/client'
 import { API_MODE, apiPut } from '@/lib/api'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useT } from '@/lib/i18n'
@@ -150,20 +150,20 @@ export function StudentOnboarding() {
           // choice locally while the deployment catches up.
         }
       }
-      // Sign-up put the name, phone and nationality in Supabase user metadata,
-      // where the server never sees them. This is the first request that can
-      // carry them across, and it is also what finally gives the phone-number
-      // uniqueness check a row to compare against.
-      const metadata = (await supabase?.auth.getUser())?.data.user?.user_metadata as
-        { full_name?: string; name?: string; phone?: string; nationality?: string } | undefined
+      // Sign-up collected a name, a phone and a nationality before there was
+      // any row to store them in. This is the first request that can carry
+      // them across, and it is also what finally gives the phone-number
+      // uniqueness check a row to compare against. Read once and dropped: a
+      // second onboarding must not resurrect the first account's details.
+      const details = takeSignupDetails()
       await saveEnrolment({
         universityId: university.id,
         year: year.year,
         group: group.trim(),
         plan: planId,
-        name: metadata?.full_name || metadata?.name,
-        phone: metadata?.phone,
-        nationality: metadata?.nationality,
+        name: details.name,
+        phone: details.phone,
+        nationality: details.nationality,
       })
     } catch {
       setSaving(false)

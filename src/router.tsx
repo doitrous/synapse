@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, type ComponentType, type ReactElement } from 'react'
+import { lazy, Suspense, useEffect, useState, type ComponentType, type ReactElement } from 'react'
 import { createBrowserRouter, Navigate } from 'react-router-dom'
 import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
@@ -9,7 +9,6 @@ import { RequireImportKind } from '@/components/auth/RequireImportKind'
 import { ADMIN_TAB_VIEWS } from '@/data/adminTabs'
 import { useIdentity } from '@/lib/useIdentity'
 import { ADMIN_ORIGIN, STUDENT_ORIGIN, isAdminHost, isStudentHost, samePathOn } from '@/lib/portalHost'
-import { mintSessionHandoff, supabase } from '@/lib/supabase'
 
 /**
  * A route component that can also be fetched before it is rendered, so the
@@ -44,33 +43,75 @@ function render(Page: ComponentType<Record<string, unknown>>, props: Record<stri
 }
 
 /**
+ * How many hand-overs in a row stop being a redirect and start being a loop.
+ *
+ * Two origins that each decide the other one owns this path will bounce a
+ * browser between them until it gives up, and `location.replace` leaves no
+ * history to escape through. Nothing in the app should produce a second hop —
+ * but "should not" is what this counter exists to survive, and a person stuck
+ * in it deserves a sentence and a way out rather than a spinning tab.
+ */
+const HOP_KEY = 'nishany.handoff.hops'
+const HOP_WINDOW_MS = 10_000
+
+function countHop(): number {
+  try {
+    const stored = JSON.parse(sessionStorage.getItem(HOP_KEY) ?? 'null') as { n: number; firstAt: number } | null
+    const fresh = stored && Date.now() - stored.firstAt < HOP_WINDOW_MS ? stored : { n: 0, firstAt: Date.now() }
+    const next = { n: fresh.n + 1, firstAt: fresh.firstAt }
+    sessionStorage.setItem(HOP_KEY, JSON.stringify(next))
+    return next.n
+  } catch {
+    // No sessionStorage (private mode, an embedded webview): the redirect is
+    // still the right answer, it simply cannot be counted.
+    return 1
+  }
+}
+
+/**
  * Hand this path to the other portal's origin.
  *
  * `replace` rather than `assign` so the back button returns to wherever the
  * student came from, not to a page that will only bounce them again.
  *
- * A session lives in this origin's localStorage and nowhere else, so arriving
- * plain used to mean the other origin saw nobody signed in and asked to sign
- * in again — a second login for something that already happened once. If
- * there is a session here, its refresh_token is hung off a one-time code
- * first (mintSessionHandoff, authHandoff.js) and carried across as
- * `?authHandoff=`; the target origin redeems it on boot (useIdentity.tsx)
- * before it ever has to decide anyone is anonymous.
+ * The session used to live in this origin's localStorage and nowhere else, so
+ * arriving plain meant the other origin saw nobody signed in — hence the
+ * one-time handoff code that used to ride along in the URL. The session is now
+ * a single cookie both hostnames send, so there is nothing to carry: the
+ * browser simply goes there, already signed in.
  */
 function HandOver({ origin }: { origin: string }): ReactElement {
+  const [looping, setLooping] = useState(false)
   useEffect(() => {
-    let cancelled = false
-    async function go() {
-      const code = supabase ? await mintSessionHandoff() : null
-      if (cancelled) return
-      const target = new URL(samePathOn(origin))
-      if (code) target.searchParams.set('authHandoff', code)
-      window.location.replace(target.toString())
-    }
-    void go()
-    return () => { cancelled = true }
+    if (countHop() > 2) { setLooping(true); return }
+    window.location.replace(samePathOn(origin))
   }, [origin])
-  return <RouteLoading />
+  if (!looping) return <RouteLoading />
+  return (
+    <Panel
+      title="This page keeps being handed back and forth"
+      body="The student site and the admin console each think this address belongs to the other. Signing out and back in usually settles it; if it does not, the address is not one your account can open."
+    />
+  )
+}
+
+/**
+ * A dead end, said plainly, with the one control that is genuinely available.
+ *
+ * Both cases below are a page that cannot be rendered for this account and has
+ * nowhere honest to redirect to. Redirecting anyway is what turned each of them
+ * into a loop.
+ */
+function Panel({ title, body }: { title: string; body: string }): ReactElement {
+  return (
+    <div className="mx-auto flex min-h-[60vh] max-w-md flex-col justify-center gap-3 px-6 text-center">
+      <h1 className="text-[20px] font-semibold text-ink">{title}</h1>
+      <p className="text-[13px] leading-relaxed text-ink-2">{body}</p>
+      <p>
+        <a href="/logout" className="inline-flex min-h-11 items-center justify-center rounded-lg border border-line-2 bg-surface px-4 text-[13px] font-semibold text-ink hover:bg-inset">Sign out</a>
+      </p>
+    </div>
+  )
 }
 
 const Landing = lazyNamed(() => import('@/pages/Landing'), 'Landing')
@@ -322,7 +363,16 @@ function AdminHome() {
   const identity = useIdentity()
   if (identity.tabs.includes('dashboard')) return <PlatformDashboard />
   const first = ADMIN_TAB_VIEWS.find((view) => view.id !== 'dashboard' && identity.tabs.includes(view.id))
-  return first ? <Navigate to={first.to} replace /> : <Navigate to="/app" replace />
+  if (first) return <Navigate to={first.to} replace />
+  // Nowhere in the console belongs to this account. Sending them to `/app`
+  // from the admin origin is a hand-over to the student site, which hands the
+  // console path back — the loop this panel replaces.
+  return (
+    <Panel
+      title="No console area has been assigned to your account"
+      body="Your account can sign in, but no part of the admin console has been assigned to it yet. Ask a super admin to grant the areas you need."
+    />
+  )
 }
 
 // Which portal this origin serves. Everywhere else — localhost, previews — both

@@ -1,4 +1,3 @@
-import { authAccessToken, authUserId } from './supabase'
 import { ApiError, errorKind, type StateErrorKind } from './apiErrors'
 import { AR } from '@/data/i18n-ar'
 
@@ -12,9 +11,50 @@ export type { StateErrorKind } from './apiErrors'
  */
 const BASE = import.meta.env.VITE_API_BASE as string | undefined
 
-/** Scope browser crash-recovery data to the same verified owner as MariaDB. */
+let ownerId: string | null = null
+let ownerAsked: Promise<string | null> | null = null
+
+/** Told by the identity provider the moment `/api/me` answers. */
+export function setStateOwnerId(id: string | null): void {
+  ownerId = id
+  ownerAsked = null
+}
+
+/**
+ * Scope browser crash-recovery data to the same verified owner as MariaDB.
+ *
+ * The account id used to be read out of the Supabase session in localStorage.
+ * There is no session here any more, so it comes from `/api/me` — normally
+ * already known, because `IdentityProvider` hands it over as soon as it has it.
+ * The fetch below is only for the race where a document hydrates first; it is
+ * shared by every caller and re-armed on failure so a hiccup is not cached.
+ */
 export async function stateOwnerId(): Promise<string | null> {
-  return authUserId()
+  if (ownerId) return ownerId
+  ownerAsked ??= apiGet<{ user: { id: string } | null }>('/me')
+    .then((me) => {
+      ownerId = me.user?.id ?? null
+      return ownerId
+    })
+    .catch(() => {
+      ownerAsked = null
+      return null
+    })
+  return ownerAsked
+}
+
+/**
+ * A 401 on a request that used to succeed means the session ended elsewhere —
+ * it expired, a password change evicted it, or somebody signed out in another
+ * tab. `IdentityProvider` listens for this and re-reads `/api/me` once, so the
+ * app settles on "anonymous" and the guards send the person to sign in. Fired
+ * unconditionally: only the provider knows whether anyone was signed in, and
+ * only it decides whether to act.
+ */
+export const SESSION_EXPIRED_EVENT = 'nishany:session-expired'
+
+function noteUnauthorized(status: number): void {
+  if (status === 401 && typeof window !== 'undefined') window.dispatchEvent(new Event(SESSION_EXPIRED_EVENT))
 }
 
 /** True when a backend is configured — the switch between live and demo modes. */
@@ -27,18 +67,50 @@ export function apiPublicUrl(path: string): string {
   return new URL(path, BASE).toString()
 }
 
-async function headers(json = false): Promise<HeadersInit> {
+/**
+ * No Authorization header any more.
+ *
+ * The session is an `HttpOnly` cookie the server sets and reads; `credentials`
+ * below is what sends it, and nothing on this page can see it. Native clients
+ * still present a bearer token, which the same server routes still accept.
+ */
+function headers(json = false): HeadersInit {
   const h: Record<string, string> = {}
   if (json) h['Content-Type'] = 'application/json'
-  const token = await authAccessToken()
-  if (token) h['Authorization'] = `Bearer ${token}`
   return h
 }
 
+/** The session cookie travels with every call; it is same-origin in dev and prod alike. */
+const CREDENTIALS: RequestCredentials = 'same-origin'
+
 export async function apiGet<T>(path: string): Promise<T> {
-  const res = await fetch(`${BASE}${path}`, { headers: await headers() })
-  if (!res.ok) throw new ApiError(res.status, `GET ${path}`)
+  const res = await fetch(`${BASE}${path}`, { headers: await headers(), credentials: CREDENTIALS })
+  if (!res.ok) {
+    noteUnauthorized(res.status)
+    throw new ApiError(res.status, `GET ${path}`)
+  }
   return res.json() as Promise<T>
+}
+
+/**
+ * A conditional GET: send the ETag we already hold and let the server say
+ * "unchanged".
+ *
+ * Returns null on 304, so the caller keeps what it cached. `apiGet` cannot do
+ * this — it neither sends a request header nor exposes a response one — and the
+ * alternative was a second copy of the fetch/auth/error code in the content
+ * client. See src/lib/content/contentClient.ts, the only caller.
+ */
+export async function apiGetIfChanged<T>(path: string, etag: string | null): Promise<{ etag: string | null; data: T } | null> {
+  const outgoing = { ...(await headers()) } as Record<string, string>
+  if (etag) outgoing['If-None-Match'] = etag
+  const res = await fetch(`${BASE}${path}`, { headers: outgoing, credentials: CREDENTIALS })
+  if (res.status === 304) return null
+  if (!res.ok) {
+    noteUnauthorized(res.status)
+    throw new ApiError(res.status, `GET ${path}`)
+  }
+  return { etag: res.headers.get('ETag'), data: (await res.json()) as T }
 }
 
 /**
@@ -81,8 +153,10 @@ export async function apiSend<T>(path: string, method: string, body?: unknown, k
     headers: outgoing,
     body: payload,
     keepalive,
+    credentials: CREDENTIALS,
   })
   if (!res.ok) {
+    noteUnauthorized(res.status)
     // The refusal body is where the server says which item was refused and why.
     // Reading it costs one parse on a path that has already failed, and it is
     // the difference between "that did not save" and a sentence somebody can act on.
@@ -101,7 +175,7 @@ export const apiDelete = <T>(path: string) => apiSend<T>(path, 'DELETE')
 
 /** Fetch a binary path (with auth) and trigger a browser download. */
 export async function apiDownload(path: string, filename: string): Promise<void> {
-  const res = await fetch(`${BASE}${path}`, { headers: await headers() })
+  const res = await fetch(`${BASE}${path}`, { headers: await headers(), credentials: CREDENTIALS })
   if (!res.ok) throw new Error(`GET ${path} → ${res.status}`)
   const blob = await res.blob()
   const url = URL.createObjectURL(blob)
@@ -121,14 +195,14 @@ export async function apiDownload(path: string, filename: string): Promise<void>
  * Factored out of apiOpenFile so both paths authenticate identically.
  */
 export async function apiFetchFile(path: string): Promise<ArrayBuffer> {
-  const res = await fetch(`${BASE}${path}`, { headers: await headers() })
+  const res = await fetch(`${BASE}${path}`, { headers: await headers(), credentials: CREDENTIALS })
   if (!res.ok) throw new ApiError(res.status, `GET ${path}`)
   return res.arrayBuffer()
 }
 
 /** Fetch authenticated media while preserving its server-verified MIME type. */
 export async function apiFetchBlob(path: string): Promise<Blob> {
-  const res = await fetch(`${BASE}${path}`, { headers: await headers() })
+  const res = await fetch(`${BASE}${path}`, { headers: await headers(), credentials: CREDENTIALS })
   if (!res.ok) throw new ApiError(res.status, `GET ${path}`)
   return res.blob()
 }
@@ -148,7 +222,7 @@ export async function apiOpenFile(path: string, fragment = ''): Promise<void> {
     popup.document.body.textContent = say('Opening the cited source…')
   }
   try {
-    const res = await fetch(`${BASE}${path}`, { headers: await headers() })
+    const res = await fetch(`${BASE}${path}`, { headers: await headers(), credentials: CREDENTIALS })
     if (!res.ok) throw new Error(`GET ${path} → ${res.status}`)
     const blob = await res.blob()
     const url = URL.createObjectURL(blob)
@@ -167,6 +241,7 @@ export async function apiUploadMedicalResource(resourceId: string, file: File): 
     method: 'PUT',
     headers: { ...(await headers()), 'Content-Type': file.type || 'application/octet-stream' },
     body: file,
+    credentials: CREDENTIALS,
   })
   if (!res.ok) throw new Error(`PUT medical resource → ${res.status}`)
   return res.json()
@@ -183,6 +258,7 @@ export async function apiUploadChunk(path: string, body: Blob): Promise<void> {
     method: 'PUT',
     headers: { ...(await headers()), 'Content-Type': 'application/octet-stream' },
     body,
+    credentials: CREDENTIALS,
   })
   if (!res.ok) throw new Error((await res.json().catch(() => null))?.error ?? `PUT ${path} → ${res.status}`)
 }

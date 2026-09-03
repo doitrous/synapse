@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useMemo, useReducer, useRef } from 'react'
-import { authAccessToken } from '@/lib/supabase'
 import {
   backoffDelay,
   initialChannelState,
@@ -24,9 +23,6 @@ import {
  * this hook never touches the network. That is not a special case bolted on: it
  * is the same condition that makes the rest of the app demo mode.
  */
-
-/** The subprotocol pair that carries the bearer token. Matches the server. */
-const BEARER_PROTOCOL = 'nishany.bearer'
 
 /** Refused at the door: not a member, or not signed in. Retrying is pointless. */
 const CLOSE_NOT_A_MEMBER = 4401
@@ -103,30 +99,17 @@ export function useRoomChannel(code: string | null): RoomChannel {
     let retryTimer = 0
     let closedForGood = false
 
-    const connect = async () => {
+    const connect = () => {
       if (closedForGood || generation.current !== mine) return
       dispatch({ kind: 'connecting' })
 
-      // Read the token per attempt rather than once: a reconnection after a long
-      // sleep must not present the token that expired while the phone was off.
-      let token: string | null = null
-      try {
-        token = await authAccessToken()
-      } catch {
-        token = null
-      }
-      if (closedForGood || generation.current !== mine) return
-      if (!token) {
-        // No session, no socket. The room falls back to polling, which is
-        // refused too — and says so — rather than retrying forever.
-        closedForGood = true
-        dispatch({ kind: 'closed', permanent: true })
-        return
-      }
-
+      // No subprotocol: the session is a cookie, and the browser sends it with
+      // the upgrade request because the socket is same-origin. The bearer
+      // subprotocol stays in the server for native clients, which still hold a
+      // token of their own; there is nothing here to put in it.
       let ws: WebSocket
       try {
-        ws = new WebSocket(url, [BEARER_PROTOCOL, token])
+        ws = new WebSocket(url)
       } catch {
         schedule()
         return
@@ -180,10 +163,10 @@ export function useRoomChannel(code: string | null): RoomChannel {
       // A little jitter so twenty students dropped by one flaky wifi do not all
       // come back in the same millisecond.
       const delay = backoffDelay(retries++) + Math.floor(Math.random() * 400)
-      retryTimer = window.setTimeout(() => void connect(), delay)
+      retryTimer = window.setTimeout(() => connect(), delay)
     }
 
-    void connect()
+    connect()
 
     return () => {
       closedForGood = true

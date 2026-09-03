@@ -17,9 +17,9 @@ import { useLiveEssays } from '@/lib/useLiveEssays'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { STUDY_BLOCKS_STORAGE_KEY, type StudyBlock } from '@/data/studyBlocks'
 import { API_MODE, apiGet, apiPost } from '@/lib/api'
+import { useIdentity } from '@/lib/useIdentity'
 import { PartyGameSyncPlayer } from './PartyGameSyncPlayer'
 import type { PartyGameKind, PartyGamePublicState } from '@/data/partyGameSync'
-import { authUserId } from '@/lib/supabase'
 
 function fallbackRefusal(t: (s: string) => string): string {
   return t('That did not work. Try again.')
@@ -133,7 +133,9 @@ export function PartyPage({
   const [partyGames, setPartyGames] = useState<PartyGameSummary[]>([])
   const [openGame, setOpenGame] = useState<PartyGamePublicState | null>(null)
   const [gameMessage, setGameMessage] = useState('')
-  const [actorId, setActorId] = useState<string | null>(null)
+  // The account id used to come from the Supabase session in this browser.
+  // `/api/me` is the only thing that knows it now, and identity already holds it.
+  const actorId = useIdentity().userId
 
   const activities = useMemo(() => [
     ...questions.map((question) => ({ kind: 'question' as const, id: question.id, title: question.stem, subjectId: question.subjectId })),
@@ -157,9 +159,6 @@ export function PartyPage({
     void reloadPartyGames()
   }, [reloadPartyGames])
 
-  useEffect(() => {
-    void authUserId().then(setActorId)
-  }, [])
 
   if (openSessionId) {
     return <PartySessionRunner sessionId={openSessionId} onExit={() => { setOpenSessionId(null); void reloadSessions() }} />

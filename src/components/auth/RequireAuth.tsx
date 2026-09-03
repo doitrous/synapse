@@ -67,18 +67,35 @@ export function RequireAuth({ console: needsConsole, tab, student, children }: {
   // in for the door that used to be locked. Reviewers are exempt from all of
   // this — they hold no role-management power — so one without aal2 reaches
   // their console directly.
+  //
+  // Nor is a tab an involuntary code screen any more. `/auth/mfa` is where a
+  // factor is enrolled, and sending somebody there the moment they open a tab
+  // — before they have chosen to set one up — is what made a correct sign-in
+  // feel like a refusal, and what looped when enrolment itself failed. The tab
+  // is still closed; it now says so, and points at the page where the lock is
+  // added, rather than dropping them into it.
   const needsMfaSetup = (needsConsole || tab) && identity.status !== 'demo' && mfaEnforced(identity.role ?? '') && identity.aal !== 'aal2'
   if (needsMfaSetup && tab) {
-    const next = `${location.pathname}${location.search}`
-    return <Navigate to={`/auth/mfa?next=${encodeURIComponent(next)}`} replace />
+    return (
+      <div className="mx-auto flex min-h-[60vh] max-w-md flex-col justify-center gap-3 px-6 text-center">
+        <span className="mx-auto grid size-12 place-items-center rounded-xl bg-warning-tint text-warning"><Icon icon={ShieldAlert} size={22} /></span>
+        <h1 className="text-[20px] font-semibold text-ink">Set up two-factor to continue</h1>
+        <p className="text-[13px] leading-relaxed text-ink-2">Your role can change who else has console access, so this part of the console asks for an authenticator app first. It takes a minute and only has to be done once.</p>
+        <p>
+          <Link to="/app/account?tab=security" className="inline-flex min-h-11 items-center justify-center rounded-lg bg-primary px-4 text-[13px] font-semibold text-on-primary hover:bg-primary-hover">Open Account → Security</Link>
+        </p>
+      </div>
+    )
   }
   // A tab this role does not hold is not a 404 — the console exists, this part
   // of it is simply not theirs. `/admin` sends them to a page that is.
   if (tab && !identity.tabs.includes(tab)) return <Navigate to="/admin" replace />
 
   // The student application is closed to reviewers. `/admin` re-resolves through
-  // AdminHome to the first surface they hold, i.e. Media Requests.
-  if (student && identity.role === 'reviewer') return <Navigate to="/admin" replace />
+  // AdminHome to the first surface they hold, i.e. Media Requests — but only if
+  // they hold one. A reviewer with no tabs would be pushed to a console that has
+  // nothing for them and pushed straight back here, forever.
+  if (student && identity.role === 'reviewer' && identity.tabs.length > 0) return <Navigate to="/admin" replace />
 
   // A social sign-up never saw the phone form password sign-up collects
   // (Signup.tsx): Google/Facebook OAuth hands back a name and an email and
@@ -99,7 +116,7 @@ export function RequireAuth({ console: needsConsole, tab, student, children }: {
       <>
         <div role="status" className="flex flex-wrap items-center gap-2 border-b border-warning/30 bg-warning-tint px-4 py-2.5 text-[12.5px] text-ink-2">
           <Icon icon={ShieldAlert} size={15} className="shrink-0 text-warning" />
-          Your role requires a second factor before you can open any console tab.
+          Set up two-factor to continue: your role requires it before you can open any console tab.
           <Link to="/app/account?tab=security" className="font-semibold text-primary-strong hover:text-primary">Set it up in Account → Security</Link>
         </div>
         {children}

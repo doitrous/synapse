@@ -1,14 +1,16 @@
 import { useEffect, useState } from 'react'
-import { useNavigate, useSearchParams } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { AlertCircle, CheckCircle2, KeyRound, MessageSquareText, ShieldCheck } from 'lucide-react'
 import { AuthLayout } from './AuthLayout'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
-import { supabase } from '@/lib/supabase'
+import { API_MODE } from '@/lib/api'
+import { authMessage, mfa } from '@/lib/auth/client'
+import { useIdentity } from '@/lib/useIdentity'
+import { mfaEnforced } from '@/data/adminRoles'
 import { portalHome } from '@/lib/portalHost'
-import { authErrorMessage } from './authMessages'
 
 type Enrollment = { factorId: string; qrCode: string; secret: string; uri: string }
 
@@ -30,6 +32,7 @@ function qrSource(qrCode: string): string {
 
 export function MfaSetup() {
   const navigate = useNavigate()
+  const identity = useIdentity()
   const [params] = useSearchParams()
   // Only an in-app path, and only this origin's home as the fallback, for the
   // same two reasons as on the sign-in form.
@@ -40,53 +43,54 @@ export function MfaSetup() {
   const [loading, setLoading] = useState(true)
   const [verifying, setVerifying] = useState(false)
   const [error, setError] = useState('')
-  const [emailVerified, setEmailVerified] = useState(false)
+
+  // Who this account is, and what it already has, both come from `/api/me` —
+  // one answer the whole app shares rather than three calls this page makes.
+  const emailVerified = identity.emailVerified
+  const enforced = identity.status !== 'demo' && mfaEnforced(identity.role ?? '')
 
   useEffect(() => {
+    if (identity.status === 'loading') return undefined
     let active = true
     async function begin() {
-      if (!supabase) {
-        if (active) { setError('Supabase is not connected yet. MFA becomes active after the project keys are added.'); setLoading(false) }
+      if (!API_MODE) {
+        if (active) { setError('This deployment is not connected to its account service yet, so a second factor cannot be added.'); setLoading(false) }
         return
       }
-      const { data: account, error: accountError } = await supabase.auth.getUser()
-      if (accountError || !account.user) {
-        navigate('/login', { replace: true })
+      if (identity.status === 'anonymous') { navigate('/login', { replace: true }); return }
+      if (!identity.emailVerified) {
+        navigate(`/auth/verify-email?email=${encodeURIComponent(identity.email || '')}`, { replace: true })
         return
       }
-      if (!account.user.email_confirmed_at) {
-        navigate(`/auth/verify-email?email=${encodeURIComponent(account.user.email || '')}`, { replace: true })
-        return
-      }
-      if (active) setEmailVerified(true)
-      const { data: assurance } = await supabase.auth.mfa.getAuthenticatorAssuranceLevel()
-      if (assurance?.currentLevel === 'aal2') { navigate(next, { replace: true }); return }
-      const { data: factors, error: factorsError } = await supabase.auth.mfa.listFactors()
-      if (factorsError) { if (active) { setError(authErrorMessage(factorsError, 'Authenticator setup could not be opened. Sign in again and retry.')); setLoading(false) }; return }
-      const existing = factors.totp.find((factor) => factor.status === 'verified')
-      if (existing) {
-        // No challenge is raised here. It is raised when the code is submitted,
-        // because one issued now would have expired by then.
+      if (identity.aal === 'aal2') { navigate(next, { replace: true }); return }
+      try {
+        const { factors } = await mfa.factors()
+        const existing = factors.find((factor) => factor.factorType === 'totp' && factor.status === 'verified')
+        if (existing) {
+          // No challenge is raised here. It is raised when the code is
+          // submitted, because one issued now would have expired by then.
+          if (active) {
+            setEnrollment({ factorId: existing.id, qrCode: '', secret: '', uri: '' })
+            setLoading(false)
+          }
+          return
+        }
+        const enrolled = await mfa.enroll('Nishany authenticator')
         if (active) {
-          setEnrollment({ factorId: existing.id, qrCode: '', secret: '', uri: '' })
+          setEnrollment({ factorId: enrolled.id, qrCode: enrolled.totp?.qr_code ?? '', secret: enrolled.totp?.secret ?? '', uri: enrolled.totp?.uri ?? '' })
           setLoading(false)
         }
-        return
-      }
-      const { data, error: enrollError } = await supabase.auth.mfa.enroll({ factorType: 'totp', friendlyName: 'Nishany authenticator' })
-      if (active) {
-        if (enrollError) setError(authErrorMessage(enrollError, 'Authenticator enrollment could not be started. Try again.'))
-        else setEnrollment({ factorId: data.id, qrCode: data.totp.qr_code, secret: data.totp.secret, uri: data.totp.uri })
-        setLoading(false)
+      } catch (setupError) {
+        if (active) { setError(authMessage(setupError, 'Authenticator setup could not be opened. Sign in again and retry.')); setLoading(false) }
       }
     }
     void begin()
     return () => { active = false }
-  }, [navigate, next])
+  }, [identity.aal, identity.email, identity.emailVerified, identity.status, navigate, next])
 
   async function verify(event: React.FormEvent) {
     event.preventDefault()
-    if (!supabase || !enrollment) return
+    if (!enrollment) return
     setError('')
     setVerifying(true)
     // A challenge is always created here, never reused from mount. Supabase
@@ -94,22 +98,28 @@ export function MfaSetup() {
     // the page loaded is usually dead by the time anyone has opened their
     // authenticator and typed six digits. Reusing it failed every attempt with
     // an error that blamed the code, so retyping the code could never help.
-    const { data, error: challengeError } = await supabase.auth.mfa.challenge({ factorId: enrollment.factorId })
-    if (challengeError) { setError(authErrorMessage(challengeError, 'A fresh authenticator challenge could not be created. Try again.')); setVerifying(false); return }
-    const { error: verifyError } = await supabase.auth.mfa.verify({ factorId: enrollment.factorId, challengeId: data.id, code })
+    try {
+      const challenge = await mfa.challenge(enrollment.factorId)
+      await mfa.verify(enrollment.factorId, challenge.id, code)
+    } catch (verifyError) {
+      setVerifying(false)
+      return setError(authMessage(verifyError, 'That code was not accepted. Wait for a fresh six-digit code and try again.'))
+    }
     setVerifying(false)
-    if (verifyError) return setError(authErrorMessage(verifyError, 'That code was not accepted. Wait for a fresh six-digit code and try again.'))
-    navigate(next)
+    // The session is aal2 now and the cookie has been rotated; the rest of the
+    // app is still holding the assurance level it had a moment ago.
+    identity.reload()
+    navigate(next, { replace: true })
   }
 
   // No progress rail: this is not a step in signing up. Drawing one here was
   // what made an optional lock look like the last thing standing between a
   // student and the app.
   return (
-    <AuthLayout step="verify" showProgress={false} title="Add a second factor" description="An authenticator app is an optional extra lock on your account. You can turn it on now, later from your account page, or not at all." compact>
+    <AuthLayout step="verify" showProgress={false} title="Add a second factor" description={enforced ? 'Your role requires an authenticator app. Set one up to continue.' : 'An authenticator app is an optional extra lock on your account. You can turn it on now, later from your account page, or not at all.'} compact>
       <div className="grid gap-6 lg:grid-cols-[11rem_minmax(0,1fr)]">
         <div className="space-y-3 border-b border-line pb-5 lg:border-b-0 lg:border-e lg:pb-0 lg:pe-5">
-          {([['Sign in', emailVerified, true], ['Email verified', emailVerified, true], ['Second factor', false, false]] as const).map(([label, complete, required]) => <div key={label} className="flex items-center gap-2.5"><span className={complete ? 'grid size-7 place-items-center rounded-full bg-success-tint text-success' : 'grid size-7 place-items-center rounded-full bg-inset text-ink-2'}><Icon icon={complete ? CheckCircle2 : ShieldCheck} size={14} /></span><span className="text-[12.5px] font-semibold text-ink">{label}{!complete && required ? ' required' : ''}{!required ? ' · optional' : ''}</span></div>)}
+          {([['Sign in', emailVerified, true], ['Email verified', emailVerified, true], ['Second factor', false, enforced]] as const).map(([label, complete, required]) => <div key={label} className="flex items-center gap-2.5"><span className={complete ? 'grid size-7 place-items-center rounded-full bg-success-tint text-success' : 'grid size-7 place-items-center rounded-full bg-inset text-ink-2'}><Icon icon={complete ? CheckCircle2 : ShieldCheck} size={14} /></span><span className="text-[12.5px] font-semibold text-ink">{label}{!complete && required ? ' required' : ''}{!required ? ' · optional' : ''}</span></div>)}
         </div>
         <form className="min-w-0" onSubmit={verify}>
           <div className="flex flex-wrap items-start gap-3">
@@ -123,13 +133,25 @@ export function MfaSetup() {
               configured — and when it did, the only control on the page was
               gone with it and a student who had just created an account was
               stranded on a step they were never required to complete. */}
-          {!loading && (
-            <p className="mt-4">
-              <button type="button" onClick={() => navigate(next, { replace: true })} className="inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-3.5 text-[13px] font-semibold text-ink transition-colors hover:bg-inset">
-                Skip — take me to Nishany
-              </button>
-            </p>
-          )}
+          {/* A role that is required to hold a second factor has nowhere to
+              skip to: "Skip" would land them on a page that sends them back
+              here, which is the loop this screen used to be. Signing out is
+              the one thing that is genuinely available to them. */}
+          {!loading && (enforced
+            ? (
+              <p className="mt-4">
+                <Link to="/logout" className="inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-3.5 text-[13px] font-semibold text-ink transition-colors hover:bg-inset">
+                  Sign out
+                </Link>
+              </p>
+            )
+            : (
+              <p className="mt-4">
+                <button type="button" onClick={() => navigate(next, { replace: true })} className="inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-3.5 text-[13px] font-semibold text-ink transition-colors hover:bg-inset">
+                  Skip — take me to Nishany
+                </button>
+              </p>
+            ))}
           {!loading && enrollment && (
             <div className="mt-6 grid gap-5 sm:grid-cols-[9rem_minmax(0,1fr)]">
               {enrollment.qrCode ? <img src={qrSource(enrollment.qrCode)} alt="Authenticator QR code" width={144} height={144} className="size-36 rounded-lg border border-line bg-white p-2" /> : <div className="grid size-36 place-items-center rounded-lg border border-success/30 bg-success-tint text-center text-[12px] font-semibold text-success">Factor enrolled<br />Enter a fresh code</div>}
@@ -147,9 +169,11 @@ export function MfaSetup() {
                 <Field label="Six-digit verification code" htmlFor="mfa-code"><TextInput id="mfa-code" name="one-time-code" inputMode="numeric" autoComplete="one-time-code" pattern="[0-9]{6}" maxLength={6} value={code} onChange={(event) => setCode(event.target.value.replace(/\D/g, '').slice(0, 6))} placeholder="000000…" className="font-mono tracking-[0.25em]" /></Field>
                 <div className="flex flex-wrap items-center gap-3">
                   <Button type="submit" variant="primary" iconLeft={ShieldCheck} loading={verifying} disabled={code.length !== 6}>Verify authenticator</Button>
-                  <button type="button" onClick={() => navigate(next)} className="inline-flex min-h-11 items-center rounded-lg px-3 text-[13px] font-semibold text-ink-2 transition-colors hover:bg-inset hover:text-ink">
-                    Not now
-                  </button>
+                  {!enforced && (
+                    <button type="button" onClick={() => navigate(next)} className="inline-flex min-h-11 items-center rounded-lg px-3 text-[13px] font-semibold text-ink-2 transition-colors hover:bg-inset hover:text-ink">
+                      Not now
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

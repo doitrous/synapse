@@ -56,6 +56,13 @@ export default defineConfig({
   // falls back to Vite's default when run directly.
   server: {
     port: Number(process.env.PORT) || 5173,
+    // The session is an HttpOnly cookie the API sets, so development has to be
+    // same-origin with the API exactly as production is (one Express app serves
+    // both). `changeOrigin: false` keeps the Host header, which is what lets the
+    // server issue the cookie for the hostname the browser actually used.
+    proxy: {
+      '/api': { target: 'http://127.0.0.1:8080', changeOrigin: false },
+    },
     fs: {
       allow: [import.meta.dirname, realNodeModules()],
     },
