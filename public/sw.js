@@ -34,13 +34,27 @@ let manifestPromise = null
 function loadManifest() {
   manifestPromise ??= fetch('/sw-assets.json', { cache: 'no-store' })
     .then((res) => (res.ok ? res.json() : { version: 'dev', urls: [] }))
-    .catch(() => ({ version: 'dev', urls: [] }))
+    .catch(() => {
+      // Not memoised: the next call (server back, network back) must retry.
+      manifestPromise = null
+      return { version: null, urls: [] }
+    })
   return manifestPromise
 }
 
+/**
+ * The cache the installed shell lives in. The version normally comes from the
+ * manifest; offline it cannot — and a worker is routinely restarted between
+ * requests, so the version it learned at install time is gone with it. Then
+ * the answer is whatever shell cache already exists (activate leaves exactly
+ * one), never a fresh name that holds nothing. That miss is what turned an
+ * offline reload into ERR_FAILED instead of the cached app.
+ */
 async function shellCacheName() {
   const { version } = await loadManifest()
-  return `${SHELL_CACHE_PREFIX}${version}`
+  if (version) return `${SHELL_CACHE_PREFIX}${version}`
+  const names = (await caches.keys()).filter((name) => name.startsWith(SHELL_CACHE_PREFIX))
+  return names.pop() ?? `${SHELL_CACHE_PREFIX}dev`
 }
 
 /** A response is never cached if it carries a Set-Cookie — session material
