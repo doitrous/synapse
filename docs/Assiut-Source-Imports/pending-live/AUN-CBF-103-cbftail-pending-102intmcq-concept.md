@@ -15,6 +15,12 @@
   CON-NEU-5B28B080597460 (nicotinic/muscarinic receptor locations) for the
   smoking/ACh-receptor question.
 
+  Lane 6 (branch aun-cbf103-author6) appended one more row,
+  CON-FND-4508AC0EA86F86 (point mutation types -- nonsense/missense/silent
+  -- with the sickle cell missense example built into its own definition),
+  reused for both the mutation-mechanism and mutation-classification
+  questions on the same sickle cell vignette (Quiz 57&60-63 Q10-Q11).
+
   Apply after: the Kasr 102-INT-mcq-concepts.md batch above. Import: Admin >
   Concepts import. Then apply AUN-CBF-103-cbftail-pending-102intmcq-concept.md,
   then AUN-CBF-103-cbftail-pending-102intmcq-questions.md.
@@ -103,6 +109,25 @@ CON-NEU-5B28B080597460
 
 ## canonical_key
 nicotinic-and-muscarinic-receptor-locations-and-effects
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-CBF-103
+
+---
+
+# Item
+
+## id
+CON-FND-4508AC0EA86F86
+
+## canonical_key
+point-mutation-types-and-consequences
 
 ## universities
 +aun

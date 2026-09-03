@@ -1011,3 +1011,295 @@ yes
 ## author_notes
 keySource: printed "The correct answer is: A blocker of alpha adrenergic receptors", p142
 pendingConcept: CON-NEU-7200808D45CA8C is pending in docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md; this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFTAILPENDING102INTMCQ-Q008
+
+## title
+Sickle cell anemia: the underlying mutation mechanism
+
+## question
+Sickle cell anemia is caused by a specific mutation in the gene for beta-globin, one of the two globin proteins that complex with heme to form hemoglobin. The sickle cell anemia mutation is known to produce a single amino acid change, glutamic acid to valine, at position 6 of the beta-globin peptide chain. Which of the following is the most likely mechanism for this mutation?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Single-base substitution
+
+## explanation_a
+Correct. Sickle cell anemia results from a single-base substitution in the beta-globin gene (GAG to GTG), which changes the sixth codon from one specifying glutamic acid to one specifying valine. A base substitution is the commonest type of gene mutation, and here it swaps a polar, negatively charged glutamate for a nonpolar valine at a surface position of the beta chain -- creating a hydrophobic "sticky patch" that drives haemoglobin S polymerisation under low oxygen tension, the basis of sickling.
+
+## answer_b
+Crossing over
+
+## explanation_b
+Incorrect. Crossing over is a meiotic recombination event between homologous chromosomes, not the mechanism that produces a single point substitution within one gene's coding sequence.
+
+## answer_c
+Single base insertion
+
+## explanation_c
+Incorrect. An insertion would shift the reading frame downstream of the insertion (a frameshift), producing a very different, usually much more disruptive protein than the single defined amino acid substitution seen in sickle cell disease.
+
+## answer_d
+Three-base deletion
+
+## explanation_d
+Incorrect. A three-base (single-codon) in-frame deletion would remove an entire amino acid rather than substituting one amino acid for another, which is not what is observed in sickle haemoglobin.
+
+## answer_e
+Two-base insertion
+
+## explanation_e
+Incorrect. A two-base insertion would cause a frameshift, scrambling every downstream codon, not the single, precise amino acid substitution characteristic of sickle cell disease.
+
+## topic
+Molecular Genetics of Disease
+
+## subtopic
+Point mutations and haemoglobinopathies
+
+## main_concept
+CON-FND-4508AC0EA86F86
+
+## concept_ids
+CON-FND-4508AC0EA86F86
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Molecular Biology > Point mutations
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that the sickle cell haemoglobin mutation arises from a single-base substitution (GAG to GTG).
+
+## source_citation
+All quizzes CBF .pdf, 226
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Single-base substitution", p226 (also p259, Quiz 57&60-63 second scan, held as a duplicate pool item).
+pendingConcept: CON-FND-4508AC0EA86F86 is pending in docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md (mirrored to docs/Kasr-Source-Imports/concept/102-INT-concepts.md); this question and its +aun overlay apply only after Omar imports that Kasr batch.
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFTAILPENDING102INTMCQ-Q009
+
+## title
+Sickle cell anemia as a textbook mutation type
+
+## question
+Sickle cell anemia is a well-studied example for which one of the following mutation types?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Deletion
+
+## explanation_a
+Incorrect. Sickle cell anemia does not involve loss of any nucleotides; the beta-globin gene sequence is the same length, just one base substituted.
+
+## answer_b
+Missense
+
+## explanation_b
+Correct. A base substitution in a coding region is missense if it changes the amino acid specified. Sickle cell anemia's GAG-to-GTG substitution changes codon 6 from glutamate to valine -- a different amino acid is inserted, which is the definition of a missense mutation. This makes sickle cell anemia the textbook example of a missense mutation, contrasted with nonsense mutations (which create a premature stop codon, as in some thalassaemias) and silent mutations (which change the codon but not the amino acid).
+
+## answer_c
+Nonsense
+
+## explanation_c
+Incorrect. A nonsense mutation converts an amino acid codon into a stop codon, causing premature termination; the sickle cell substitution still codes for an amino acid (just a different one), so it is missense, not nonsense.
+
+## answer_d
+Frameshift
+
+## explanation_d
+Incorrect. A frameshift results from an insertion or deletion that is not a multiple of three, shifting the reading frame; sickle cell anemia is a single-base substitution that leaves the reading frame intact.
+
+## answer_e
+Insertion
+
+## explanation_e
+Incorrect. No extra nucleotide is added in the sickle cell mutation; it is a substitution, not an insertion.
+
+## topic
+Molecular Genetics of Disease
+
+## subtopic
+Point mutations and haemoglobinopathies
+
+## main_concept
+CON-FND-4508AC0EA86F86
+
+## concept_ids
+CON-FND-4508AC0EA86F86
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+65
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Molecular Biology > Point mutations
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+Classify the sickle cell haemoglobin mutation as missense.
+
+## source_citation
+All quizzes CBF .pdf, 227
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Missense", p227 (also p259, Quiz 57&60-63 second scan, held as a duplicate pool item).
+pendingConcept: CON-FND-4508AC0EA86F86 already aun-overlaid above (this file) for the mutation-mechanism question; reused here with no new overlay row.

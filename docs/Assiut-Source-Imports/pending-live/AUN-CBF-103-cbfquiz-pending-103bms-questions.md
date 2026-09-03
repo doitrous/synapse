@@ -7487,3 +7487,143 @@ yes
 ## author_notes
 keySource: printed "The correct answer is: Activation of triglyceride lipase as a result of hormone stimulated increases in CAMP levels", p135
 pendingConcept: CON-FND-1C668119B3C0BB is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key lipid.hormonal-control.lipogenesis-versus-lipolysis -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q073
+
+## title
+Amino acid precursor of niacin
+
+## question
+Which out of the following amino acids is a precursor of niacin (Vitamin)?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Phenylalanine
+
+## explanation_a
+Incorrect. Phenylalanine is hydroxylated to tyrosine, the catecholamine and thyroid hormone precursor; it is not the niacin precursor.
+
+## answer_b
+Tryptophan
+
+## explanation_b
+Correct. Tryptophan is the amino acid precursor of niacin (vitamin B3): roughly 60 mg of dietary tryptophan yields about 1 mg of niacin via the kynurenine pathway. This endogenous synthesis is why isolated dietary niacin deficiency (pellagra) is more common when diets are both low in niacin and low in tryptophan (as in maize-dominant diets), and why tryptophan is sometimes called niacin's "vitamin-sparing" precursor.
+
+## answer_c
+Tyrosine
+
+## explanation_c
+Incorrect. Tyrosine is the catecholamine, melanin and thyroid hormone precursor; it does not contribute to niacin synthesis.
+
+## answer_d
+Threonine
+
+## explanation_d
+Incorrect. Threonine has no established role as a niacin precursor.
+
+## topic
+Vitamins and Coenzymes
+
+## subtopic
+Water-soluble vitamin synthesis and precursors
+
+## main_concept
+CON-FND-C9E5128193029E
+
+## concept_ids
+CON-FND-C9E5128193029E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that tryptophan is the amino acid precursor of niacin.
+
+## source_citation
+All quizzes CBF .pdf, 242
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Tryptophan", p242 -- same fact as this file's earlier niacin/tryptophan items (cbfquiz-q19-q23/q36, Quiz7&8), reused here for a second, differently-worded stem (Quiz 43-44 (2022) Q8) with no new overlay row needed.
+pendingConcept: CON-FND-C9E5128193029E already aun-overlaid above (this file); reused here with no new overlay row.

@@ -798,3 +798,78 @@ one of the 52 seed rows carries a non-empty `library_ids`.
 - pp.211-259 of `All quizzes CBF .pdf` (49 pages) remain un-OCR'd, including
   Quiz54 Q2 onward (p210 boundary) -- queued for the next lane; that lane
   should OCR pp.211-259 then author from Quiz54 Q2.
+
+## S6 lane 6 addendum (pp.211-259, branch aun-cbf103-author6)
+
+OCR'd all 49 pages (pp.211-259; `pagetext.mjs ocr`, garbled scan cleared,
+81-190 words/page). This range is a Moodle attempt-review export like the
+rest of the source, with two duplication wrinkles specific to this window:
+
+- **Quiz54 Q2-Q6** (p211-215, the tail that Q1 -- already authored by lane
+  5 -- started) is a full second scan of the SAME 6-item pool re-printed
+  cleanly at p248-251 as a standalone "Quiz54" attempt. Q2 (mushroom/
+  alpha-amanitin/mRNA), Q3 (spliceosomes) and Q6 (DNA template to RNA
+  sequence) turned out to be **already authored** -- verbatim, same stems
+  and keys -- as `QST-AUNCBF103-CBFQUIZ2PENDINGALEXMOLBIO-Q001/Q002/Q003`
+  by lane 3, under the earlier "Quiz DNARNA" p67-71 label (same Moodle
+  pool item recurring under a different quiz name). Held as duplicates,
+  not re-authored. Q4 (colinearity) and Q5 (RNA-polymerase-upstream) were
+  genuinely never authored (lane 3's triage explicitly held them "QuizDNARNA
+  Q1/4/5 ... cap, keyed" purely for budget, and lane 5 only picked up Q1) --
+  authored this lane as `cbf6-q01`/`cbf6-q02`.
+- **"Quiz 57, 60-63"** (14 items) is printed TWICE in this window: p216-230
+  (complete, Q1-Q14) and again p253-259+ (same order, same keys, cut off
+  mid-Q12 at the p259 page boundary). Authored once, from the p216-230
+  copy; the p253-259 repeat is a duplicate scan, held. Within that 14-item
+  set, Q1-Q3 (spliceosomes / colinearity / RNA-pol-upstream) are themselves
+  the same pool items as Quiz54 Q3/Q4/Q5 above -- held as duplicates, not
+  double-authored. Q4-Q14 (11 items: genetic code degeneracy, erythromycin/
+  50S translocation block, RNA-cap-eukaryotic, protein-synthesis step
+  order, amino-acid-activation phosphate cost, sickle-cell single-base-
+  substitution, sickle-cell missense classification, DNA-repair step
+  order, xeroderma pigmentosum/NER, cytosine-deamination-to-uracil) were
+  genuinely new and authored.
+- **Quiz64** (p231-233, "Biochemical Basis of Carcinogenesis", 3 items): Q1
+  and Q2 are Moodle fill-in-the-blank items (tumour suppressor genes; three
+  fundamental cancer changes) -- held, not SBA-shape. Q3 (angiogenesis
+  definition, 4 printed options, keyed) authored.
+- **"Quiz 43-44 (2022)"** (p234-243, 9 items): a dated re-take of the same
+  lecture pair lane 5 already covered from pp.165-173, but checked
+  page-by-page against every printed key and confirmed to be a **different**
+  question set (tyrosine/thyroid iodination, catecholamine composition,
+  homocystinuria, MSUD, PKU/PAH, GABA/glutamate decarboxylase, PKU-spares-
+  melatonin, niacin/tryptophan, arginine/NO) -- no overlap with lane 5's
+  tyrosinase/alkaptonuria/histidine/SAM cluster from pp.165-173. All 9
+  authored; Q8 (niacin/tryptophan) reuses lane 2's own
+  `CON-FND-C9E5128193029E`, the other 8 are new mints.
+- **"Quiz37&38" rescan** (p244-247, 5 items, autonomic nervous system): a
+  second scan of the exact same Quiz37&38 attempt lane 4 already authored
+  from p138-142 (`cbftail-q31`-`q35`, all `CBFTAILPENDING102INTMCQ`
+  overlay items) -- same stems, same keys, verified against the actual
+  authored question text (not just the ledger). Held in full as duplicates.
+
+**Authored this pass: 23** (Quiz54 Q4/Q5 -- 2; Quiz 57&60-63 Q4-Q14 -- 11;
+Quiz64 Q3 -- 1; Quiz 43-44 (2022) Q1-Q9 -- 9). **Held: 25** (Quiz54 Q2/Q3/Q6
+-- 3 dup of lane 3; Quiz 57&60-63 Q1-Q3 -- 3 dup within this pass; Quiz
+57&60-63 p253-259 second scan -- 12 dup; Quiz64 Q1-Q2 -- 2 fill-in-blank;
+Quiz37&38 rescan -- 5 dup of lane 4). 15 new concepts minted (4 new
+articles: transcription/promoter, translation/erythromycin,
+DNA-damage-and-cancer, amino-acid-metabolism-disorders); 8 reused-concept
+questions across 4 pending-live groups (3 new overlay rows on
+`cbfquiz2-pending-alexmolbio`, 1 new overlay row on
+`cbftail-pending-102intmcq`, 1 new pending-live group
+`cbf6-pending-102intrepair` for a Kasr `102-INT-concepts.md` concept not
+previously overlaid, 1 question with no new overlay row on
+`cbfquiz-pending-103bms`).
+
+Gates: `gate.mjs batch` errors=0 on every new/extended file (with its
+concept + article + evidence chain). Full `medical:simulate` apply-order
+chain (evidence, all Alexandria/Kasr source article+concept files this
+lane's overlays depend on, all of this AUN-CBF-103 lane's own
+article/concept/question/pending-live files) -- **36 batches, rejected=0,
+errors=[], skipped=[]**.
+
+**pp.211-259 is now fully triaged and closed.** No further un-OCR'd or
+un-triaged range remains in `All quizzes CBF .pdf` (259 pages total, all
+read). Any future lane on this source is a re-read for missed items, not a
+new page range.

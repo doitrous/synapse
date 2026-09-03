@@ -419,3 +419,40 @@ cbf2tail-pending-aumolecular:q03 p203 key=D  Okazaki fragments are formed during
 cbf2tail-pending-aumolecular:q04 p205 key=D  One strand is synthesized continuously, the other discontinuously -- reused CON-FND-252B3C77D181DA
 cbf2tail-pending-aumolecular:q05 p206 key=B  DNA topoisomerase I relaxes positively supercoiled DNA -- reused CON-FND-FFEE58EC9C0784
 Quiz50-Q3 p183 key=b HELD (near-verbatim duplicate of Quiz39 Q4, thiophorase / liver cannot use ketone bodies -- same Moodle pool item, Quiz39 Q4 kept)
+cbf6-q01 Quiz54-Q4 p249-250 key=e Colinearity of mature mRNA and protein sequence -- new CON-FND-A2CE5C34A188BD
+cbf6-q02 Quiz54-Q5 p250 key=c RNA polymerase binds upstream of transcription start site -- new CON-FND-F849667936871B
+Quiz54-Q2 p211/p249 key=c HELD (verbatim duplicate of QST-AUNCBF103-CBFQUIZ2PENDINGALEXMOLBIO-Q001, lane 3, "Quiz DNARNA" p67) mushroom/alpha-amanitin/mRNA
+Quiz54-Q3 p212-213/p249 key=d HELD (verbatim duplicate of Q002, lane 3, p68) spliceosomes remove introns
+Quiz54-Q6 p215/p251 key=d HELD (verbatim duplicate of Q003, lane 3, p70-71) DNA template strand to RNA sequence
+cbfquiz2pendingalexmolbio-q004 Quiz57&60-63-Q4 p220 key=c genetic code is degenerate -- reused CON-FND-A1B0BFB9626438
+cbfquiz2pendingalexmolbio-q005 Quiz57&60-63-Q6 p222 key=d RNA caps unique to eukaryotic mRNA -- reused CON-FND-5FF8EB2DB4D662
+cbfquiz2pendingalexmolbio-q006 Quiz57&60-63-Q9 p225 key=a peptidyl transferase releases polypeptide -- reused CON-FND-38857DFD506559
+cbfquiz2pendingalexmolbio-q007 Quiz57&60-63-Q13 p229 key=e xeroderma pigmentosum = nucleotide excision repair defect -- reused CON-FND-E8CD7F7F690B14
+cbf6-q03 Quiz57&60-63-Q5 p221 key=d erythromycin inhibits translocation via 50S subunit -- new CON-FND-C98DE1E24C803D
+cbf6-q04 Quiz57&60-63-Q7 p223 key=a protein synthesis correct step order -- new CON-FND-E6BEEC3CAB56C7
+cbf6-q05 Quiz57&60-63-Q8 p224 key=c amino acid activation = 2 phosphate bonds -- new CON-FND-B54C164A2E1013
+cbf6-q06 Quiz57&60-63-Q14 p230 key=d cytosine deamination to uracil is mutagenic -- new CON-FND-F1DB767206BF10
+cbftailpending102intmcq-q008 Quiz57&60-63-Q10 p226 key=a sickle cell = single-base substitution mechanism -- reused CON-FND-4508AC0EA86F86
+cbftailpending102intmcq-q009 Quiz57&60-63-Q11 p227 key=b sickle cell = missense mutation classification -- reused CON-FND-4508AC0EA86F86
+cbf6pending102intrepair-q001 Quiz57&60-63-Q12 p228-229 key=c DNA repair step order (recognition/nicking/excision/replacement/sealing) -- reused CON-FND-DEE7732AEC0F74
+Quiz57&60-63-Q1 p217/p253 key=d HELD (duplicate pool item, same as Quiz54 Q3 above)
+Quiz57&60-63-Q2 p218/p254 key=e HELD (duplicate pool item, same as Quiz54 Q4, authored once as cbf6-q01)
+Quiz57&60-63-Q3 p219/p254 key=c HELD (duplicate pool item, same as Quiz54 Q5, authored once as cbf6-q02)
+Quiz57&60-63-p253-259-second-scan p253-259 HELD (entire 14-item quiz re-printed a second time, same order/keys as p216-230; authored once from the first scan)
+Quiz64-Q1 p231-232 key=fillin HELD (Moodle fill-in-the-blank, not SBA-shape) tumor suppressor genes = Rb and P53
+Quiz64-Q2 p232 key=fillin HELD (Moodle fill-in-the-blank, not SBA-shape) three fundamental changes of cancer
+cbf6-q07 Quiz64-Q3 p233 key=b angiogenesis = blood vessel formation -- new CON-FND-945817A176886E
+cbf6-q08 Quiz43-44(2022)-Q1 p235 key=a tyrosine is iodinated in thyroid hormone synthesis -- new CON-FND-509A2687B1A0DE
+cbf6-q09 Quiz43-44(2022)-Q2 p236 key=c catecholamines = adrenaline, noradrenaline, dopamine -- new CON-FND-B7E19BEB9FF525
+cbf6-q10 Quiz43-44(2022)-Q3 p237 key=c cystathionine beta synthase deficiency = elevated homocysteine -- new CON-FND-222A9BA63100BB
+cbf6-q11 Quiz43-44(2022)-Q4 p238 key=a maple syrup urine disease = leucine/isoleucine/valine -- new CON-FND-371BB503E9E1B4
+cbf6-q12 Quiz43-44(2022)-Q5 p239 key=c PKU = phenylalanine hydroxylase deficiency -- new CON-FND-EFA36B47F6065C
+cbf6-q13 Quiz43-44(2022)-Q6 p240 key=c GABA synthesis = glutamate decarboxylase -- new CON-FND-FE53580BF068CB
+cbf6-q14 Quiz43-44(2022)-Q7 p241 key=b PKU spares melatonin synthesis -- new CON-FND-73C6D387D01FE6
+cbfquizpending103bms-q073 Quiz43-44(2022)-Q8 p242 key=b tryptophan is the niacin precursor -- reused CON-FND-C9E5128193029E
+cbf6-q15 Quiz43-44(2022)-Q9 p243 key=c arginine is the nitric oxide precursor -- new CON-FND-6D0BE7ED72B241
+Quiz37&38-rescan-Q1 p244 key=e HELD (verbatim duplicate of cbftail-q31, lane 4, p138) all preganglionic fibres cholinergic
+Quiz37&38-rescan-Q2 p245 key=d HELD (verbatim duplicate of cbftail-q32, lane 4, p139) relaxed pelvic viscera erection
+Quiz37&38-rescan-Q3 p245 key=a HELD (verbatim duplicate of cbftail-q33, lane 4, p140) S2-S4 injury lack of erection
+Quiz37&38-rescan-Q4 p246 key=c HELD (verbatim duplicate of cbftail-q34, lane 4, p141) smoking affects ACh receptors
+Quiz37&38-rescan-Q5 p246 key=e HELD (verbatim duplicate of cbftail-q35, lane 4, p142) alpha-blocker pupillary constriction
