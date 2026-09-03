@@ -718,3 +718,6 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 
 ### 2026-09-03 — 6 OCTOBER IPH-108 lane 4 LANDED (97896a94) · pharma bank CLOSED, 50 questions
 - pp.161-223: 50 authored (`pharmabank3`), 9 held (ordering/match/dup). 5 renders. Bank CLOSED across 4 lanes (169 items: drg-practical 33, pharmabank 42, pharmabank2 44, pharmabank3 50). 34 mints + 3 articles, 3 Kasr 208-INT reuses. simulate 7-file rejected=0. Remaining: 2 dept books (citation-only, untriaged). 6 October Y1: IPH-108/IBS/IHI/IMP/IPA closed; IMB/IMN has backlog.
+
+### 2026-09-03 — PROD IMPORT #1 LANDED: 6 October (Draft) · +203 Q / +33 art / +111 concepts
+- `apply-content-import-to-db.mjs --commit` on 41 batches (docs/6October-Source-Imports/*). simulate rejected=0, applied=414 (all pure creates as Draft, no un-publish). live before→after: questions 6161→6364, articles 895→928, concepts 4750→4861, practicals 101. Backup `.import-backup-2026-09-03T01-17-18-526Z.json`. Version row written in same txn (publish-revert safe). Next safe universities to import as Draft: Ain-Shams(asu), Assiut, Zagazig, Menoufia, Mansoura (all pure creates). Kasr(kau)/Alexandria(au) need per-module care (have Published records). Helwan/MUST batch dirs NOT imported (content under review).
