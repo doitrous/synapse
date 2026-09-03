@@ -29,9 +29,16 @@ export function inlineScriptHashes(html) {
 
 const BASE_CSP_DIRECTIVES = {
   'default-src': ["'self'"],
-  'script-src': ["'self'", 'https://challenges.cloudflare.com'],
-  'frame-src': ['https://challenges.cloudflare.com'],
-  'connect-src': ["'self'", 'https://*.supabase.co', 'wss:', 'https://challenges.cloudflare.com'],
+  // Turnstile, plus the Facebook JS SDK the friends finder loads on demand.
+  'script-src': ["'self'", 'https://challenges.cloudflare.com', 'https://connect.facebook.net'],
+  // Turnstile's widget, admin-pasted tutorial videos (YouTube/Vimeo embeds),
+  // and the Facebook SDK's login/status frames.
+  'frame-src': [
+    'https://challenges.cloudflare.com',
+    'https://www.youtube.com', 'https://www.youtube-nocookie.com', 'https://player.vimeo.com',
+    'https://www.facebook.com', 'https://web.facebook.com',
+  ],
+  'connect-src': ["'self'", 'https://*.supabase.co', 'wss:', 'https://challenges.cloudflare.com', 'https://graph.facebook.com', 'https://www.facebook.com'],
   'img-src': ["'self'", 'data:', 'blob:', 'https:'],
   'media-src': ["'self'", 'blob:', 'https:'],
   'style-src': ["'self'", "'unsafe-inline'"],
@@ -66,11 +73,13 @@ function scriptHashesFromBuiltIndex(publicDir) {
 }
 
 /**
- * Build the middleware. `enforce: false` (the default, and CSP_ENFORCE unset)
- * ships the policy as Content-Security-Policy-Report-Only so it can be
- * watched for false positives before it starts blocking anything.
+ * Build the middleware. The policy is enforced unless `CSP_ENFORCE=0`, which
+ * ships it as Content-Security-Policy-Report-Only instead — the escape hatch
+ * for watching a new third party in production before it is allow-listed.
+ * (It ran report-only through the two-host browser pass with no violations
+ * once the inline-script hash was quoted.)
  */
-export function securityHeaders({ publicDir, enforce = process.env.CSP_ENFORCE === '1' } = {}) {
+export function securityHeaders({ publicDir, enforce = process.env.CSP_ENFORCE !== '0' } = {}) {
   const csp = buildCsp(scriptHashesFromBuiltIndex(publicDir))
   const cspHeader = enforce ? 'Content-Security-Policy' : 'Content-Security-Policy-Report-Only'
   return function securityHeadersMiddleware(_req, res, next) {

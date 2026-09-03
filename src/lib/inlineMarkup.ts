@@ -30,12 +30,26 @@ function safeHref(href: string): string | null {
 }
 
 // Ordered: code first, so `**` inside a code span is not read as emphasis.
-const PATTERNS: Array<{ kind: InlineToken['kind']; re: RegExp }> = [
-  { kind: 'code', re: /`([^`\n]+)`/ },
-  { kind: 'link', re: /\[([^\]\n]+)\]\(([^)\s]+)\)/ },
-  { kind: 'strong', re: /\*\*([^*\n]+)\*\*/ },
-  { kind: 'em', re: /(?<!\*)\*([^*\n]+)\*(?!\*)/ },
+// `notAfter` stands in for a lookbehind (`(?<!\*)`): Safari only gained
+// lookbehind in 16.4, and the supported floor is iOS 15.4, where the regex
+// literal itself would fail to parse and take the whole chunk down with it.
+const PATTERNS: Array<{ kind: InlineToken['kind']; re: RegExp; notAfter?: string }> = [
+  { kind: 'code', re: /`([^`\n]+)`/g },
+  { kind: 'link', re: /\[([^\]\n]+)\]\(([^)\s]+)\)/g },
+  { kind: 'strong', re: /\*\*([^*\n]+)\*\*/g },
+  { kind: 'em', re: /\*([^*\n]+)\*(?!\*)/g, notAfter: '*' },
 ]
+
+/** First match of `re` in `input` not immediately preceded by `notAfter`. */
+function findMatch(re: RegExp, input: string, notAfter?: string): RegExpExecArray | null {
+  re.lastIndex = 0
+  let match: RegExpExecArray | null
+  while ((match = re.exec(input))) {
+    if (!notAfter || match.index === 0 || input[match.index - 1] !== notAfter) return match
+    re.lastIndex = match.index + 1
+  }
+  return null
+}
 
 export function tokenizeInline(input: string): InlineToken[] {
   const tokens: InlineToken[] = []
@@ -44,8 +58,8 @@ export function tokenizeInline(input: string): InlineToken[] {
   while (rest) {
     let best: { index: number; length: number; token: InlineToken } | null = null
 
-    for (const { kind, re } of PATTERNS) {
-      const match = re.exec(rest)
+    for (const { kind, re, notAfter } of PATTERNS) {
+      const match = findMatch(re, rest, notAfter)
       if (!match) continue
       if (best && match.index >= best.index) continue
 

@@ -26,7 +26,7 @@ test('inlineScriptHashes finds nothing when every script tag has a src', () => {
 
 test('buildCsp allow-lists the given script hashes alongside the fixed policy', () => {
   const csp = buildCsp(["'sha256-abc123'"])
-  assert.match(csp, /script-src 'self' https:\/\/challenges\.cloudflare\.com 'sha256-abc123'/)
+  assert.match(csp, /script-src 'self' https:\/\/challenges\.cloudflare\.com [^;]*'sha256-abc123'/)
   assert.match(csp, /frame-ancestors 'none'/)
   assert.match(csp, /object-src 'none'/)
 })
