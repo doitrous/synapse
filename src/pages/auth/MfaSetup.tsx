@@ -73,7 +73,7 @@ export function MfaSetup() {
         }
         return
       }
-      const { data, error: enrollError } = await supabase.auth.mfa.enroll({ factorType: 'totp', friendlyName: 'Maristana authenticator' })
+      const { data, error: enrollError } = await supabase.auth.mfa.enroll({ factorType: 'totp', friendlyName: 'Nishany authenticator' })
       if (active) {
         if (enrollError) setError(authErrorMessage(enrollError, 'Authenticator enrollment could not be started. Try again.'))
         else setEnrollment({ factorId: data.id, qrCode: data.totp.qr_code, secret: data.totp.secret, uri: data.totp.uri })
@@ -126,7 +126,7 @@ export function MfaSetup() {
           {!loading && (
             <p className="mt-4">
               <button type="button" onClick={() => navigate(next, { replace: true })} className="inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-3.5 text-[13px] font-semibold text-ink transition-colors hover:bg-inset">
-                Skip — take me to Maristana
+                Skip — take me to Nishany
               </button>
             </p>
           )}

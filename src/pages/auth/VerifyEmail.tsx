@@ -130,7 +130,7 @@ export function VerifyEmail() {
             </p>
             <ol className="mx-auto mt-5 max-w-[46ch] space-y-2 text-start text-[13px] leading-relaxed text-ink-2">
               {[
-                'Open your inbox and find the message from Maristana.',
+                'Open your inbox and find the message from Nishany.',
                 'Follow the verification link inside it. Check your spam folder if it is not there within a minute or two.',
                 'You are brought straight back here, signed in and ready to start.',
               ].map((line, index) => (

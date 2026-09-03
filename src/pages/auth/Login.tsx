@@ -110,7 +110,7 @@ export function Login() {
     <AuthLayout
       step="account"
       title="Welcome back"
-      description="Sign in to continue your study plan. Your account identity and your private learning record stay deliberately separate."
+      description="Sign in to continue your study plan."
       compact
       showProgress={false}
     >
@@ -134,15 +134,15 @@ export function Login() {
         <SocialAuthButtons mode="sign in" redirectTo={`${window.location.origin}${next}`} />
         <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
           <span className="h-px flex-1 bg-line" />
-          Email
+          OR
           <span className="h-px flex-1 bg-line" />
         </div>
         <Field label="Email address" htmlFor="login-email">
-          <TextInput id="login-email" name="email" type="email" autoComplete="email" spellCheck={false} required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu…" />
+          <TextInput id="login-email" name="email" type="email" autoComplete="email" spellCheck={false} required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu…" className="border-[#dccfba]! bg-[#fffdfa]!" />
         </Field>
         <Field label="Password" htmlFor="login-password">
           <div className="relative">
-            <TextInput id="login-password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="current-password" required value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12" />
+            <TextInput id="login-password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="current-password" required value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12 border-[#dccfba]! bg-[#fffdfa]!" />
             <button type="button" className="absolute end-1 top-1 grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}>
               <Icon icon={showPassword ? EyeOff : Eye} size={16} />
             </button>
@@ -158,14 +158,14 @@ export function Login() {
             type="button"
             variant="secondary"
             size="lg"
-            iconLeft={Fingerprint}
             loading={passkeyLoading}
             onClick={() => void submitPasskey()}
           >
+            {!passkeyLoading && <Icon icon={Fingerprint} size={18} className="text-primary-strong" />}
             Sign in with a passkey
           </Button>
         )}
-        <p className="text-center text-[13px] text-ink-2">New to Maristana? <Link className="inline-flex items-center gap-1 font-semibold text-primary-strong hover:text-primary" to="/signup">Create an account <Icon icon={ArrowRight} size={13} /></Link></p>
+        <p className="text-center text-[13px] text-ink-2">New to Nishany? <Link className="inline-flex items-center gap-1 font-semibold text-primary-strong hover:text-primary" to="/signup">Create an account <Icon icon={ArrowRight} size={13} /></Link></p>
       </form>
     </AuthLayout>
   )

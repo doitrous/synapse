@@ -8,6 +8,62 @@ import { cn } from '@/lib/cn'
 export type AuthStep = 'account' | 'verify' | 'setup'
 
 /**
+ * Warm-crimson palette for the brand panel. Explicit hex, not tokens: this
+ * one surface (pre-login) deliberately breaks from the app's cool design
+ * tokens, so the values live here rather than fighting `--color-accent`.
+ */
+const WARM = {
+  panelBg: '#f4ecdd',
+  dot: '#e4d5bc',
+  ink: '#2b211c',
+  ink2: '#6e6157',
+  crimson: '#a81d40',
+  rose: '#e0859b',
+  taupeDotted: '#cabca3',
+  taupeRing: '#cdbfa6',
+  cardBorder: '#eadfce',
+  fieldBorder: '#dccfba',
+  fieldBg: '#fffdfa',
+}
+
+/**
+ * The small lockup mark beside "nishany" on the brand panel: two concentric
+ * rings, crimson outer / rose inner. A standalone SVG rather than reusing
+ * `NishanyMark`, whose non-monochrome colours are wired to the app's (cool)
+ * `--brand-blue` token — wrong on a warm panel — and whose `monochrome` mode
+ * collapses both rings to one colour, losing the two-tone read this panel
+ * wants.
+ */
+function WordmarkRingIcon({ size = 24 }: { size?: number }) {
+  return (
+    <svg aria-hidden focusable="false" viewBox="0 0 32 32" width={size} height={size}>
+      <circle cx="16" cy="16" r="14" fill="none" stroke={WARM.crimson} strokeWidth="2" />
+      <circle cx="16" cy="16" r="8" fill="none" stroke={WARM.rose} strokeWidth="2.5" />
+    </svg>
+  )
+}
+
+/**
+ * The panel's hero graphic: a still echo of `NishanyLoader`'s rings, redrawn
+ * in the warm palette — a dotted taupe ring, a solid taupe ring, a thick
+ * partial crimson arc, a thin inner crimson ring, and a filled crimson
+ * centre dot. Decorative only; anchored into the bottom-right corner and
+ * clipped by the panel's own `overflow-hidden` so it bleeds off the edge,
+ * clear of the copy that stacks from the top.
+ */
+function HeroRingGraphic({ size = 300, className }: { size?: number; className?: string }) {
+  return (
+    <svg aria-hidden focusable="false" viewBox="0 0 100 100" width={size} height={size} className={className}>
+      <circle cx="50" cy="50" r="46" fill="none" stroke={WARM.taupeDotted} strokeWidth="1.5" strokeDasharray="1.5 5" strokeLinecap="round" />
+      <circle cx="50" cy="50" r="38" fill="none" stroke={WARM.taupeRing} strokeWidth="1.5" />
+      <circle cx="50" cy="50" r="30" fill="none" stroke={WARM.crimson} strokeWidth="6" strokeLinecap="round" strokeDasharray="140 189" transform="rotate(-90 50 50)" />
+      <circle cx="50" cy="50" r="20" fill="none" stroke={WARM.crimson} strokeWidth="1" opacity="0.55" />
+      <circle cx="50" cy="50" r="6" fill={WARM.crimson} />
+    </svg>
+  )
+}
+
+/**
  * The three things a new student actually has to do.
  *
  * The last of these used to be "Protect account", which put an optional second
@@ -49,7 +105,7 @@ export function AuthLayout({
     <div className="min-h-dvh bg-paper">
       <header className="border-b border-line bg-surface/70">
         <div className="mx-auto flex min-h-16 max-w-7xl items-center gap-3 px-4 sm:px-6 lg:px-8">
-          <Link to="/" aria-label="Maristana home"><Wordmark /></Link>
+          <Link to="/" aria-label="Nishany home"><Wordmark /></Link>
         </div>
       </header>
 
@@ -81,12 +137,36 @@ export function AuthLayout({
             })}
           </ol>}
 
-          <section className={cn(
-            'overflow-hidden rounded-2xl border border-line bg-surface shadow-panel',
-            Boolean(aside) && 'grid lg:grid-cols-[minmax(0,1fr)_minmax(19rem,0.78fr)]',
-          )}>
-            <div className="p-5 sm:p-7 lg:p-9">{children}</div>
-            {aside && <aside className="border-t border-line bg-surface-2/45 p-5 sm:p-7 lg:border-s lg:border-t-0 lg:p-9">{aside}</aside>}
+          <section
+            className={cn(
+              'overflow-hidden rounded-[20px] border bg-surface',
+              Boolean(aside) && 'grid lg:grid-cols-[minmax(0,1fr)_minmax(19rem,0.78fr)]',
+            )}
+            style={{ borderColor: WARM.cardBorder, boxShadow: `0 18px 45px -18px ${WARM.crimson}40` }}
+          >
+            <div className="p-6 sm:p-8 lg:p-10">{children}</div>
+            {aside && (
+              <aside
+                className="relative isolate overflow-hidden border-t p-6 sm:p-8 lg:border-s lg:border-t-0 lg:p-10"
+                style={{
+                  borderColor: WARM.cardBorder,
+                  backgroundColor: WARM.panelBg,
+                  backgroundImage: `radial-gradient(circle, ${WARM.dot} 1px, transparent 1.6px)`,
+                  backgroundSize: '26px 26px',
+                  color: WARM.ink,
+                }}
+              >
+                <HeroRingGraphic size={340} className="pointer-events-none absolute -bottom-16 -end-16" />
+                <div className="relative flex items-center gap-2">
+                  <WordmarkRingIcon />
+                  <span className="flex min-w-0 flex-col justify-center leading-none">
+                    <span className="font-brand text-[15px] font-extrabold" style={{ color: WARM.ink }}>nishany</span>
+                    <span className="mt-[0.32em] text-[9px] font-semibold tracking-[0.2em]" style={{ color: WARM.crimson }}>BY CONNECT</span>
+                  </span>
+                </div>
+                <div className="relative mt-7">{aside}</div>
+              </aside>
+            )}
           </section>
 
           {/* What this means for the reader, rather than which products it is
