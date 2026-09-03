@@ -8,6 +8,7 @@ import compression from 'compression'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
+import { fromForCategory, unsubscribeMailtoAddress, replyToForCategory } from './mailFrom.js'
 import {
   REDACTED_STATE_KEYS,
   archiveScopeBlockedPublishedItems,
@@ -21,9 +22,11 @@ import {
   markShareNotificationsRead, readShare, readShareAsset, setShareFollow, setShareStar,
   shareRevisionHistory, updateShare,
 } from './shares.js'
-import { apiAuthGate, heldTabs, identityFromToken, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
-import { mintHandoffCode, redeemHandoffCode } from './authHandoff.js'
-import { authenticationOptions, listPasskeys, registrationOptions, removePasskey, verifyAuthentication, verifyRegistration } from './webauthn.js'
+import { apiAuthGate, heldTabs, identityFromCookieHeader, identityFromToken, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
+import { router as authRouter } from './authRoutes.js'
+import { getUser as goTrueGetUser, hasVerifiedTotp } from './goTrue.js'
+import { sweepIdle } from './sessionStore.js'
+import { authenticationOptions, listPasskeys, registrationOptions, removePasskey, verifyAuthenticationRequest, verifyRegistration } from './webauthn.js'
 import { gradeEssay } from './essayGrade.js'
 import { hasConsoleAccess } from './roles.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
@@ -107,6 +110,7 @@ import {
   createChallenge, respondToChallenge, submitChallengeAnswer, finishChallenge, challengeFor, myChallenges,
 } from './challenges.js'
 import { invalidatePublishedQuestions } from './publishedQuestions.js'
+import { invalidateStudentContent, registerContentRoutes } from './studentContent.js'
 import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests, directorySearch } from './friends.js'
 import { mintInvite, redeemInvite } from './friendInvites.js'
 import {
@@ -177,6 +181,7 @@ function invalidateSnapshots(key) {
   }
   if (key === MEDIA_STATE_KEY) mediaSnapshot = null
   invalidatePublishedQuestions(key)
+  invalidateStudentContent(key)
 }
 
 /**
@@ -253,6 +258,9 @@ async function mayReadManagedMedia(identity, id) {
   return Boolean(record && isMediaReleased(record))
 }
 const app = express()
+// One proxy in front (Coolify). Without this every rate limit is charged to the
+// proxy's address, which means one abusive client locks out everybody.
+app.set('trust proxy', 1)
 /**
  * Compress responses.
  *
@@ -296,7 +304,6 @@ app.use(express.json({
 const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 const resendReceivingKey = process.env.RESEND_ADMIN_API_KEY || process.env.RESEND_API_KEY
 const resendReceiving = resendReceivingKey ? new Resend(resendReceivingKey) : null
-const MAIL_FROM = process.env.MAIL_FROM || 'info@nishany.com'
 // Where unsubscribe links point. The student origin, not the admin one — the
 // reader of a campaign is a student, and the link has to work signed out.
 const PUBLIC_ORIGIN = (process.env.PUBLIC_ORIGIN || 'https://nishany.com').replace(/\/$/, '')
@@ -389,30 +396,14 @@ app.get('/api/session', wrap(async (req, res) => res.json({
 })))
 
 /**
- * Cross-origin session handoff — see authHandoff.js for the why.
+ * Sign-in and everything around it — see authRoutes.js.
  *
- * The admin and student portals are one build split by hostname (portalHost.ts),
- * but a Supabase session is per-origin localStorage. Bouncing someone from one
- * host to the other (`HandOver` in router.tsx) used to land them on a page with
- * no session at all, forcing a second sign-in. Here, the origin that already has
- * a session exchanges its refresh_token for a code the browser can carry in the
- * URL, and the destination origin redeems it once for that token.
+ * This replaced the cross-origin handoff apparatus. Both portal hostnames are
+ * served by this app and share one cookie at `.nishany.com`, so there is no
+ * longer a session on one origin that the other cannot see, and nothing to hand
+ * across in a URL.
  */
-app.post('/api/auth/handoff', requireAuthenticated, wrap(async (req, res) => {
-  const refreshToken = typeof req.body?.refreshToken === 'string' ? req.body.refreshToken.trim() : ''
-  if (!refreshToken) return res.status(400).json({ error: 'refreshToken required' })
-  res.json({ code: mintHandoffCode(refreshToken) })
-}))
-
-// Deliberately unauthenticated — the caller has no session yet, that is the
-// whole point. Protected instead by the code being opaque, single-use and
-// short-lived. Listed alongside the gate's other public routes in auth.js.
-app.post('/api/auth/handoff/redeem', wrap(async (req, res) => {
-  const code = typeof req.body?.code === 'string' ? req.body.code : ''
-  const refreshToken = code ? redeemHandoffCode(code) : null
-  if (!refreshToken) return res.status(410).json({ error: 'expired_or_used' })
-  res.json({ refreshToken })
-}))
+app.use('/api/auth', authRouter)
 
 // Passkeys (WebAuthn) — register/list/remove require a session; authenticate is
 // pre-login (public, allowlisted in auth.js) and mints a Supabase session on success.
@@ -421,7 +412,7 @@ app.post('/api/auth/passkey/register/verify', requireAuthenticated, wrap(async (
 app.get('/api/auth/passkey/credentials', requireAuthenticated, wrap(async (req, res) => res.json({ credentials: await listPasskeys(req.identity.id) })))
 app.delete('/api/auth/passkey/credentials/:id', requireAuthenticated, wrap(async (req, res) => { const r = await removePasskey(req.identity.id, req.params.id); if (r.error) return res.status(404).json(r); res.json({ ok: true }) }))
 app.post('/api/auth/passkey/authenticate/options', wrap(async (req, res) => res.json(await authenticationOptions(req.body?.email))))
-app.post('/api/auth/passkey/authenticate/verify', wrap(async (req, res) => { const r = await verifyAuthentication(req.body ?? {}); if (r.error) return res.status(400).json(r); res.json(r) }))
+app.post('/api/auth/passkey/authenticate/verify', wrap(verifyAuthenticationRequest))
 
 // AI essay grading — advisory, display-only; charges the assistant AI quota.
 app.post('/api/essay/grade', requireAuthenticated, wrap(async (req, res) => {
@@ -441,6 +432,19 @@ app.post('/api/essay/grade', requireAuthenticated, wrap(async (req, res) => {
  */
 app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
   const user = await getUserByIdentity(req.identity.id)
+  /**
+   * Two facts that only Supabase holds: whether the address is confirmed, and
+   * whether a second factor is enrolled. Asking costs a round trip, so it is
+   * asked only when the answer can still change — during the first hour of a
+   * session, while somebody is waiting on a confirmation email — or when the
+   * caller says it needs the current answer (`?fresh=1`, which the verify-email
+   * page polls with). Otherwise `emailVerified` is null, meaning "not asked".
+   */
+  const session = req.sessionRow ?? null
+  const wantsFresh = req.query.fresh === '1'
+  const account = session && (wantsFresh || Date.now() - new Date(session.createdAt).getTime() < 3_600_000)
+    ? (await goTrueGetUser(session.accessToken)).data
+    : null
   res.json({
     user: {
       id: req.identity.id,
@@ -451,6 +455,11 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
       contentScope: req.identity.contentScope,
       aal: req.identity.aal,
       mfaRequired: Boolean(req.identity.mfaRequired),
+      emailVerified: account ? Boolean(account.email_confirmed_at || account.confirmed_at) : null,
+      // Enrolled but not yet presented on this session. Without a fresh user
+      // record the best available answer is the account's own flag.
+      mfaPending: req.identity.aal !== 'aal2'
+        && (account ? hasVerifiedTotp(account) : Boolean(req.identity.mfaRequired)),
     },
     profile: user
       ? {
@@ -1933,6 +1942,10 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // field removed after delivery has already been delivered.
   const redact = authoring ? undefined : REDACTED_STATE_KEYS.get(key)
   if (!authoring && key === CONTENT_LEDGER_STATE_KEY) {
+    // The whole-ledger read the sliced `/api/content/*` routes replace. Native
+    // bundles still take this path, so it stays — logged so we can see who is
+    // left on it before anyone proposes deleting it.
+    console.info('[content] legacy ledger fetch', { userId: req.identity?.id })
     const releasedMediaIds = releasedMediaIdsFromDocument({ records: await mediaRecords() })
     const [catalogueRows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [ACADEMIC_CATALOGUE_STATE_KEY])
     let catalogue = []
@@ -2315,6 +2328,13 @@ app.delete('/api/state/:key', requireSuperAdmin, wrap(async (req, res) => {
 }))
 
 /* ── Content reports ─────────────────────────────────────────────────────── */
+
+/**
+ * The student's sliced view of the content ledger — summary, kind slices, the
+ * article index, scoped questions and one item at a time. Routes and cache live
+ * in `studentContent.js`; this is only where they are mounted.
+ */
+registerContentRoutes(app)
 
 /**
  * File a content report.
@@ -3630,7 +3650,7 @@ app.get('/api/mail/attachment/:id', wrap(async (req, res) => {
  */
 async function sendMail({ from, to, cc, bcc, subject, html, text, category, headers = {}, attachments = [] }) {
   if (!to || !subject) return { error: 'to and subject required', status: 400 }
-  const fromAddr = from || MAIL_FROM
+  const fromAddr = fromForCategory(category, from)
   const id = `mail-${randomUUID().slice(0, 12)}`
   const recipients = Array.isArray(to) ? to : [to]
 
@@ -3652,15 +3672,20 @@ async function sendMail({ from, to, cc, bcc, subject, html, text, category, head
   if (category && !TRANSACTIONAL_CATEGORIES.has(category) && allowed.length === 1) {
     const token = await unsubscribeTokenFor(allowed[0], category)
     const url = `${PUBLIC_ORIGIN}/unsubscribe?token=${token}`
-    outHeaders['List-Unsubscribe'] = `<${url}>, <mailto:${MAIL_FROM}?subject=unsubscribe>`
+    outHeaders['List-Unsubscribe'] = `<${url}>, <mailto:${unsubscribeMailtoAddress(category)}?subject=unsubscribe>`
     outHeaders['List-Unsubscribe-Post'] = 'List-Unsubscribe=One-Click'
   }
+  // Transactional mail goes out from a no-reply@ address on the mail
+  // subdomain — Reply-To keeps a reply reaching the support inbox instead of
+  // bouncing.
+  const replyTo = replyToForCategory(category)
 
   let status = 'Queued', resendId = null
   if (resend) {
     const { data, error } = await resend.emails.send({
       from: fromAddr, to: allowed, cc, bcc, subject, html: html || undefined, text: text || undefined,
       headers: Object.keys(outHeaders).length ? outHeaders : undefined,
+      replyTo: replyTo || undefined,
       attachments: attachments.map((a) => ({ filename: a.filename, content: a.content_b64 })),
     })
     if (error) return { error: error.message, status: 502 }
@@ -3871,8 +3896,14 @@ migrate()
     // path — a host that cannot run the SFU still serves the whole product, and
     // the room says voice is unavailable rather than the process failing to
     // start. See docs/rooms-voice.md.
+    // Sessions nobody can present any more. Hourly, unref'd so it never holds
+    // the process open, and failure is logged rather than fatal.
+    setInterval(() => { void sweepIdle().catch((error) => console.error('session sweep failed:', error.message)) }, 3_600_000).unref()
+
     void attachRoomsRealtime(httpServer, {
       identityFromToken,
+      // The web client has no bearer token to offer as a subprotocol any more.
+      identityFromCookies: identityFromCookieHeader,
       resolveRoom: resolvePartyId,
       readRoom: roomSnapshot,
       loadSfu,

@@ -25,6 +25,8 @@ import {
   verifyRegistrationResponse,
 } from '@simplewebauthn/server'
 import { pool } from './db.js'
+import { expiryFrom, tokenAal, verify as verifyOtp } from './goTrue.js'
+import { createSession, setSessionCookie } from './sessionStore.js'
 
 const RP_ID = process.env.WEBAUTHN_RP_ID || 'localhost'
 const RP_NAME = process.env.WEBAUTHN_RP_NAME || 'Nishany'
@@ -40,13 +42,11 @@ const ALLOWED_ORIGINS = (process.env.WEBAUTHN_ORIGINS
  * call and the "verify" call.
  *
  * Keyed by user id for registration (the caller already has a session) and by
- * lower-cased email for authentication (the caller does not, yet). Same
- * in-memory-Map-with-TTL shape as `authHandoff.js`'s code store, for the same
- * reason:
+ * lower-cased email for authentication (the caller does not, yet).
  *
  * ponytail: in-memory and per-process — fine for the one Express instance
  * this runs behind. Move to Redis/DB if the API ever scales horizontally, same
- * as the note on authHandoff.js's map.
+ * as the note on rateLimit.js's maps.
  */
 const CHALLENGE_TTL_MS = 2 * 60_000
 const challenges = new Map() // key -> { challenge, expiresAt }
@@ -282,6 +282,37 @@ async function mintSupabaseSession(email) {
   const tokenHash = payload?.properties?.hashed_token
   if (!tokenHash) return { error: 'no_token' }
   return { ok: true, token_hash: tokenHash, email }
+}
+
+/**
+ * The authenticate/verify route, both ways round.
+ *
+ * A native client redeems the `token_hash` itself, exactly as before — it holds
+ * its own Supabase session and there is nothing here to change. The web client
+ * has no Supabase client any more, so it asks for a cookie instead
+ * (`{ mode: 'cookie' }` in the body) and the server does the redemption: one
+ * fewer place a token exists, and the hash never reaches the page at all.
+ *
+ * The flag is explicit rather than inferred because this route is pre-login for
+ * both kinds of caller — neither presents a bearer token, so there is nothing
+ * else to tell them apart.
+ */
+export async function verifyAuthenticationRequest(req, res) {
+  const result = await verifyAuthentication(req.body ?? {})
+  if (result.error) return res.status(400).json(result)
+  if (req.body?.mode !== 'cookie') return res.json(result)
+
+  const { data, error } = await verifyOtp('email', result.token_hash)
+  if (error || !data?.access_token) return res.status(401).json({ error: 'session_failed' })
+  setSessionCookie(res, await createSession({
+    userId: data.user?.id,
+    accessToken: data.access_token,
+    refreshToken: data.refresh_token,
+    expiresAt: expiryFrom(data),
+    aal: tokenAal(data.access_token),
+    userAgent: req.get('user-agent'),
+  }))
+  return res.json({ ok: true })
 }
 
 export function webauthnConfigured() {
