@@ -1,12 +1,7 @@
 import { useMemo } from 'react'
-import {
-  CONTENT_LEDGER_STORAGE_KEY,
-  initialManagedContent,
-  isStudentPublishable,
-  type ManagedContentItem,
-} from '@/data/contentControl'
+import { isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import { DIFFICULTIES, type Difficulty, type Question } from '@/data/qbank'
-import { usePersistentState } from './usePersistentState'
+import { useScopedQuestions } from './content'
 import { useIdentity } from './useIdentity'
 import { questionInAudience } from './questionAudience'
 
@@ -127,9 +122,18 @@ export function publishedQuestionsForAudience(
     .filter((question): question is Question => question !== null)
 }
 
-/** Published admin content is the single source of truth for every student question surface. */
+/**
+ * Published admin content is the single source of truth for every student
+ * question surface.
+ *
+ * The catalogue is `/api/content/questions`, not the admin ledger: the same
+ * answerable-question rule applied server-side, plus `{ id, title }` stubs for
+ * the library and resource ids the projection resolves to titles. A student's
+ * own cohort is applied there too, so "unscoped" here means "not narrowed
+ * further by this client", never "every university's bank".
+ */
 export function usePublishedQuestions() {
-  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [catalogue] = useScopedQuestions()
   return useMemo(() => publishedQuestionsFromCatalogue(catalogue), [catalogue])
 }
 
@@ -151,7 +155,10 @@ const EMPTY_QUESTIONS: Question[] = []
  * starting a test).
  */
 export function useScopedPublishedQuestions(enabled = true) {
-  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  // The fetch is not gated — `useScopedPublishedQuestionSummaries` shares this
+  // exact response, so gating it here would only ever mean a second request.
+  // `enabled` defers the expensive part, which is the per-question build.
+  const [catalogue] = useScopedQuestions()
   const { audience } = useIdentity()
   const { universityId, yearId } = audience
   return useMemo(
@@ -168,7 +175,7 @@ export function useScopedPublishedQuestions(enabled = true) {
  * options/explanations/attachments.
  */
 export function useScopedPublishedQuestionSummaries() {
-  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [catalogue] = useScopedQuestions()
   const { audience } = useIdentity()
   const { universityId, yearId } = audience
   return useMemo(

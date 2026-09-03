@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
-import { usePersistentState } from './usePersistentState'
+import { useContentSlice } from './content'
 import { API_MODE } from './api'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
+import { isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import { DIFFICULTIES, type Difficulty } from '@/data/qbank'
 import {
   osceStations as DEMO_OSCE,
@@ -44,7 +44,7 @@ const stepCount = (item: ManagedContentItem): number => {
  * scored 78%.
  */
 export function useLivePracticals() {
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [ledger] = useContentSlice('practical')
 
   return useMemo(() => {
     const items = ledger.filter((i) => i.kind === 'practical')

@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { useArticleIndex } from './content'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { buildCurriculumMembership } from '@/data/curriculumMembership'
@@ -77,13 +77,15 @@ export function useModuleLibraryContent(universityId: string, yearId: string): M
   const studentModules = useStudentModules(universityId, yearId)
   const curriculum = useStudentCurriculum()
   const library = useLiveLibrary()
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [index] = useArticleIndex()
   const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [medicalTaxonomy] = useMedicalTaxonomy()
 
+  // Articles are the only kind this resolves — `articlesUnder` is the whole of
+  // what is read below — so the index stands in for the ledger unchanged.
   const membership = useMemo(
-    () => buildCurriculumMembership({ items: ledger, graph, medicalTaxonomy }),
-    [ledger, graph, medicalTaxonomy],
+    () => buildCurriculumMembership({ items: index.items, graph, medicalTaxonomy }),
+    [index, graph, medicalTaxonomy],
   )
 
   const projectionModules = useMemo(() => flattenProjectionModules(curriculum.projection), [curriculum.projection])

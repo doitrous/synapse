@@ -9,8 +9,8 @@ import { SubjectTag } from '@/components/ui/Subject'
 import { QuestionView } from '@/components/qbank/QuestionView'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 import { useLiveEssays } from '@/lib/useLiveEssays'
-import { usePersistentState } from '@/lib/usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem, type PracticalAuthoringData } from '@/data/contentControl'
+import { type ManagedContentItem, type PracticalAuthoringData } from '@/data/contentControl'
+import { useContentSlice } from '@/lib/content'
 import type { EssayQuestion } from '@/data/essay'
 import type { AttemptSurface } from '@/data/attempts'
 import { useMastery } from '@/lib/useMastery'
@@ -156,13 +156,13 @@ export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; o
 
   const questions = usePublishedQuestions()
   const essays = useLiveEssays()
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [practicals] = useContentSlice('practical')
 
   const questionsById = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions])
   const essaysById = useMemo(() => new Map(essays.map((essay) => [essay.id, essay])), [essays])
   const practicalById = useMemo(
-    () => new Map(ledger.filter((item) => item.kind === 'practical').map((item) => [item.id, item])),
-    [ledger],
+    () => new Map(practicals.map((item) => [item.id, item])),
+    [practicals],
   )
 
   const [idx, setIdx] = useState(0)

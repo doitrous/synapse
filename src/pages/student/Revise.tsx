@@ -2,7 +2,7 @@ import { useMemo, useRef } from 'react'
 import { Layers, NotebookPen, PenTool } from 'lucide-react'
 import { FeatureCard, FeatureGrid, HubPage, HubStat } from '@/components/hub'
 import { QBANK_NOTES_STORAGE_KEY } from '@/components/qbank/StudyRail'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { useContentSlice } from '@/lib/content'
 import { managedDeckToStudentDeck, type StudentDeck } from '@/data/decks'
 import { initialNotes, type Note } from '@/data/notebook'
 import { WHITEBOARD_COLLECTION_KEY, emptyWhiteboardCollection, type WhiteboardCollection } from '@/data/whiteboard'
@@ -43,18 +43,18 @@ export function Revise() {
   // the FIRST caller's seed, so a hub that seeded `null` would hand Whiteboard
   // a null collection and white-screen the page it exists to open.
   const [boards] = usePersistentState<WhiteboardCollection>(WHITEBOARD_COLLECTION_KEY, emptyWhiteboardCollection)
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  // Decks only — the whole ledger used to be downloaded to find them.
+  const [publishedDecks] = useContentSlice('deck')
 
   // Joined the same way the Flashcards page joins it, so the counts on this
   // card are the counts the page itself shows rather than the student's own
   // decks minus everything the catalogue published.
   const providedDecks: StudentDeck[] = useMemo(
     () =>
-      ledger
-        .filter((item) => item.kind === 'deck')
+      publishedDecks
         .map(managedDeckToStudentDeck)
         .filter((deck): deck is StudentDeck => deck !== null),
-    [ledger],
+    [publishedDecks],
   )
   const { allCards, decks, reviewEvents } = useFlashcards(providedDecks)
 

@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo, useState } from 'react'
+import { createContext, useContext, useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useT } from '@/lib/i18n'
 import { backState } from '@/components/ui/BackBar'
@@ -26,10 +26,10 @@ import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
 import { cn } from '@/lib/cn'
 import { useMastery } from '@/lib/useMastery'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem, type PracticalAuthoringData } from '@/data/contentControl'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { type PracticalAuthoringData } from '@/data/contentControl'
 import { usePracticalProgress } from '@/lib/usePracticalProgress'
 import { useLivePracticals } from '@/lib/useLivePracticals'
+import { useContentItem } from '@/lib/content'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { DIFFICULTIES } from '@/data/qbank'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
@@ -138,15 +138,15 @@ function taggedConcepts(item: object): string[] {
 /**
  * The authored content for a practical item.
  *
- * Reads through `usePersistentState`, not `localStorage` directly. The direct
- * read worked only in demo mode: with a backend configured the ledger lives in
- * MariaDB and localStorage is never written, so every authored station, case
- * and lab set was invisible to this runner and silently fell through to the
- * generic filler that has now been removed.
+ * Reads through the content service, not `localStorage` and not the ledger.
+ * The direct read worked only in demo mode: with a backend configured the
+ * catalogue lives in MariaDB and localStorage is never written, so every
+ * authored station, case and lab set was invisible to this runner. It is now
+ * one item by id — a runner needs exactly the one it is running.
  */
 function useAuthoredPractical(id: string): PracticalAuthoringData | undefined {
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
-  return useMemo(() => ledger.find((item) => item.id === id)?.practicalData, [id, ledger])
+  const [item] = useContentItem(id)
+  return item?.id === id ? item.practicalData : undefined
 }
 
 /** What a runner shows when an item exists but has no content authored yet. */

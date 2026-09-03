@@ -32,7 +32,7 @@ import {
 } from 'lucide-react'
 import type { LibBlock } from '@/data/library'
 import type { ArticleMediaRecord } from '@/data/contentControl'
-import { useLiveLibrary, type LiveSubtopic } from '@/lib/useLiveLibrary'
+import { useArticleWithBody, useLiveLibrary, type LiveSubtopic } from '@/lib/useLiveLibrary'
 import { getSubject } from '@/data/subjects'
 import { useSubjectName } from '@/lib/useSubjectName'
 import { Button, ButtonLink } from '@/components/ui/Button'
@@ -1191,7 +1191,13 @@ export function Library() {
     })
 
   const selectedUserArticle = userArticles.find((a) => a.id === selectedId)
-  const selectedPublishedArticle = allSubtopics.find((article) => article.id === selectedId)
+  // The list only ever holds index rows — no article body. Opening one is what
+  // fetches it; until it lands the row itself stands in, so the reader appears
+  // with its title and place already right.
+  const selectedPublishedArticle = useArticleWithBody(
+    allSubtopics.find((article) => article.id === selectedId),
+    allSubtopics,
+  )
   // Deciding by what actually resolved rather than by the raw id covers the
   // same case a bad `?view=` used to: a `selectedId` left over from a link or
   // an id that stopped resolving (unpublished, archived, deleted) reads as

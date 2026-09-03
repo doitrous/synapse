@@ -1,12 +1,7 @@
 import { useMemo } from 'react'
-import {
-  CONTENT_LEDGER_STORAGE_KEY,
-  initialManagedContent,
-  isStudentPublishable,
-  type ManagedContentItem,
-} from '@/data/contentControl'
+import { isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import { managedSlideToStudentSlide, type HistologySlide } from '@/data/histology'
-import { usePersistentState } from './usePersistentState'
+import { useContentSlice } from './content'
 
 export function publishedSlidesFromCatalogue(catalogue: ManagedContentItem[]): HistologySlide[] {
   return catalogue
@@ -17,7 +12,7 @@ export function publishedSlidesFromCatalogue(catalogue: ManagedContentItem[]): H
 
 /** Published admin content is the single source of truth for every student slide surface. */
 export function useLiveHistology(): { slides: HistologySlide[] } {
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [ledger] = useContentSlice('histology')
   const slides = useMemo(() => publishedSlidesFromCatalogue(ledger), [ledger])
   return { slides }
 }

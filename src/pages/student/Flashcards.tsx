@@ -5,8 +5,7 @@ import { Tabs } from '@/components/ui/Tabs'
 import { IconButton } from '@/components/ui/IconButton'
 import { HelpCircle, GraduationCap } from 'lucide-react'
 import { useT } from '@/lib/i18n'
-import { usePersistentState } from '@/lib/usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { useContentSlice } from '@/lib/content'
 import { managedDeckToStudentDeck, type StudentDeck } from '@/data/decks'
 import { useFlashcards } from '@/lib/useFlashcards'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
@@ -43,14 +42,14 @@ export function Flashcards() {
 
 function FlashcardsShell() {
   const t = useT()
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  // Decks only — the whole ledger used to be downloaded to find them.
+  const [decks] = useContentSlice('deck')
   const providedDecks: StudentDeck[] = useMemo(
     () =>
-      ledger
-        .filter((item) => item.kind === 'deck')
+      decks
         .map(managedDeckToStudentDeck)
         .filter((deck): deck is StudentDeck => deck !== null),
-    [ledger],
+    [decks],
   )
 
   // Cheap: re-subscribes to the ledger entry `ledger` above already reads, just

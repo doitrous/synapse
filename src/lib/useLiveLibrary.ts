@@ -1,7 +1,8 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
-import { libraryTopics as SEED_TOPICS, type LibTopic, type LinkedQuestion, type Subtopic } from '@/data/library'
+import { useArticleIndex, useContentItem } from './content'
+import { isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
+import { libraryTopics as SEED_TOPICS, type LibTopic, type Subtopic } from '@/data/library'
 import { subjects, getSubject } from '@/data/subjects'
 import { moduleCatalogueOrder } from '@/data/contentModules'
 import { compareLibraryTopics } from '@/data/libraryOrder'
@@ -24,14 +25,21 @@ const subjectRank = new Map(subjects.map((subject, index) => [subject.id, index]
  * hidden. This is the single source the student Library reads.
  */
 export function useLiveLibrary() {
-  const [ledger, , ledgerStatus] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  /**
+   * The article *index*: every field a list needs and no article body at all.
+   * Bodies are the largest thing in the catalogue and a list renders none of
+   * them, so the reader fetches the one it is showing — see `useArticleWithBody`.
+   */
+  const [index, ledgerStatus] = useArticleIndex()
   const [evidence, , evidenceStatus] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [graph, , graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [catalogue] = useUniversityCatalogue()
 
   return useMemo(() => {
-    const articleItems = ledger.filter((item) => {
-      if (item.kind !== 'article' || item.status === 'Archived') return false
+    // No `kind` check: this route serves articles and nothing else, and an
+    // index row does not carry the field.
+    const articleItems = index.items.filter((item) => {
+      if (item.status === 'Archived') return false
       if (item.status === 'Published' && !isStudentPublishable(item)) return false
       return !API_MODE || isStudentPublishable(item)
     })
@@ -46,7 +54,7 @@ export function useLiveLibrary() {
     const topics: LibTopic[] = baseTopics.map((tp) => ({
       ...tp,
       subtopics: tp.subtopics
-        .filter((s) => byId.has(s.id) || !ledger.some((i) => i.id === s.id)) // hide only if explicitly archived
+        .filter((s) => byId.has(s.id) || !index.items.some((i) => i.id === s.id)) // hide only if explicitly archived
         .map((s) => overlaySubtopic(s, byId.get(s.id), evidence, graph, readable)),
     }))
 
@@ -69,22 +77,14 @@ export function useLiveLibrary() {
     /**
      * The published questions that name each article, keyed by article id.
      *
-     * The link already exists in one direction — a question records which
-     * library articles it tests — but nothing read it backwards, so
-     * `articleToSubtopic` set `questions: []` and every authored article
-     * advertised "Test yourself · 0 questions" no matter how many pointed at it.
+     * The link exists in one direction — a question records which library
+     * articles it tests — and reading it backwards used to mean scanning every
+     * question in the ledger from the browser. The server walks the same
+     * questions once per published version and sends the result with the index.
      */
-    const questionsByArticle = new Map<string, LinkedQuestion[]>()
-    for (const item of ledger) {
-      if (item.kind !== 'question' || !isStudentPublishable(item)) continue
-      const stem = item.title
-      for (const articleId of item.questionData?.libraryIds ?? []) {
-        questionsByArticle.set(articleId, [...(questionsByArticle.get(articleId) ?? []), { id: item.id, stem }])
-      }
-    }
     for (const topic of topics) {
       for (const subtopic of topic.subtopics) {
-        const linked = questionsByArticle.get(subtopic.id)
+        const linked = index.questionLinks[subtopic.id]
         if (linked) subtopic.questions = linked
       }
     }
@@ -119,5 +119,38 @@ export function useLiveLibrary() {
     })
 
     return { topics: orderedTopics, subtopics, updatedAtFor, subjects, availability }
-  }, [catalogue, evidence, evidenceStatus, graph, graphStatus, ledger, ledgerStatus])
+  }, [catalogue, evidence, evidenceStatus, graph, graphStatus, index, ledgerStatus])
+}
+
+/**
+ * One article with its body, fetched only once a student opens it.
+ *
+ * `useLiveLibrary` deals in index rows, which carry no `articleData` — so the
+ * projection they go through produces the right title, scope and links but an
+ * empty `blocks`. This re-runs the *same* projection over the full item and
+ * lays it over the index row, which is what the reader renders. Until it lands
+ * the index row stands in, so the article's title and place on the page are
+ * there immediately rather than after a round trip.
+ */
+export function useArticleWithBody(
+  article: LiveSubtopic | undefined,
+  allSubtopics: readonly LiveSubtopic[],
+): LiveSubtopic | undefined {
+  const [item] = useContentItem(article?.id ?? null)
+  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+
+  return useMemo(() => {
+    if (!article) return undefined
+    if (!item || item.id !== article.id) return article
+    // `relatedArticleLinks` only reads a title off this map, and dropping an id
+    // that is not in it is the publish gate — which `allSubtopics` already is.
+    const readable = new Map<string, ManagedContentItem>(
+      allSubtopics.map((subtopic) => [subtopic.id, { id: subtopic.id, title: subtopic.title } as ManagedContentItem]),
+    )
+    const projected = articleToSubtopic(item, evidence, graph, readable)
+    // `questions` comes from the index's back-links; the projection sets it
+    // empty because a single item cannot know what points at it.
+    return { ...article, ...projected, questions: article.questions }
+  }, [article, allSubtopics, evidence, graph, item])
 }
