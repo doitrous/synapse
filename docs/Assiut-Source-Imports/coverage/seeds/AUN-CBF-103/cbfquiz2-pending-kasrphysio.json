@@ -1,0 +1,77 @@
+{
+  "lane": "AUN-CBF-103",
+  "cluster": "cbfquiz2-pending-kasrphysio",
+  "header": "AUN-CBF-103 -- All quizzes CBF .pdf, lane 3 (branch aun-cbf103-author3). These 2 rows reuse one pending Kasr 103-BMS-physiology concept (CON-NEU-1D5DC2D67A5291 diffusion/osmosis across the cell membrane -- docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md, not yet mirrored to docs/import-ready/) rather than re-minting. Omar applies this batch only after: 1) the Kasr 103-BMS-physiology-concepts.md batch, 2) AUN-CBF-103-cbfquiz2-pending-kasrphysio-concept.md (the sparse +aun overlay). Import order: 1 then 2 then this file.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-CBF-103",
+    "module_subject": "AUN-CBF-103 > Physiology > Cell Membrane Transport",
+    "exam_weight_by_year": { "AUN_Y1": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-103-PHY-TRANSPORT-MEMBRANE"],
+    "resource_ids": ["src_f7e45bae9ce161e08d46"],
+    "source_citation": "All quizzes CBF .pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "main_concept": "CON-NEU-1D5DC2D67A5291",
+    "concept_ids": ["CON-NEU-1D5DC2D67A5291"],
+    "contextual_concept_ids": []
+  },
+  "questions": [
+    {
+      "key": "cbfquiz2-q23",
+      "id": "QST-AUNCBF103-CBFQUIZ2PENDINGKASRPHYSIO-Q001",
+      "page": 34,
+      "title": "How fat-soluble molecules enter a cell",
+      "question": "How do fat-soluble molecules normally get into a cell?",
+      "options": { "A": "They never get in", "B": "They pass through protein pores in the cell membrane", "C": "They dissolve in the fat layers of the membrane and enter the cell by diffusion", "D": "They are absorbed by phagocytosis" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Fat-soluble molecules do routinely cross the cell membrane; the question is by which route.",
+        "B": "Incorrect. Protein pores/channels are the route for water-soluble ions and small polar molecules, not for fat-soluble ones, which do not need a protein channel to cross.",
+        "C": "Correct. The cell membrane's core is a lipid bilayer, so a fat-soluble (lipid-soluble) molecule simply dissolves into that lipid core and diffuses across it down its own concentration gradient, without needing a protein carrier or channel. This route -- simple diffusion directly through the lipid bilayer -- is how lipid-soluble substances such as oxygen, carbon dioxide, alcohols and steroid hormones normally cross cell membranes. This is a direct consequence of the membrane's basic phospholipid-bilayer architecture, which readily admits lipid-soluble molecules while excluding most water-soluble ones.",
+        "D": "Incorrect. Phagocytosis is a bulk, vesicle-based uptake mechanism used for particles and large complexes, not the normal route for small fat-soluble molecules."
+      },
+      "topic": "Cell Membrane Physiology",
+      "subtopic": "Membrane transport",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Explain that fat-soluble molecules cross the cell membrane by dissolving in and diffusing through its lipid bilayer.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: They dissolve in the fat layers of the membrane and enter the cell by diffusion\", p34" },
+      "author_notes": "pendingConcept: CON-NEU-1D5DC2D67A5291 is pending in docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md (not yet mirrored to docs/import-ready/), canonical_key membrane.diffusion-osmosis.simple-facilitated-osmosis -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+    },
+    {
+      "key": "cbfquiz2-q24",
+      "id": "QST-AUNCBF103-CBFQUIZ2PENDINGKASRPHYSIO-Q002",
+      "page": 35,
+      "title": "What increases the rate of diffusion across a membrane",
+      "question": "The rate of diffusion of a particle across a membrane will increase if:",
+      "options": { "A": "The size of the particle increases", "B": "The number of protein channels increases", "C": "The temperature decreases", "D": "The thickness of the membrane increases" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A larger particle diffuses more slowly, not faster, since diffusion rate is inversely related to particle (molecular) size.",
+        "B": "Correct. Facilitated diffusion of ions and polar molecules depends on the availability of protein channels (or carriers) in the membrane, so increasing the number of these channels increases the total cross-sectional pathway available for the particle to cross, raising the rate of diffusion. This is directly analogous to widening a doorway: more open channels mean more particles can cross per unit time for a given concentration gradient. This principle underlies physiological up- or down-regulation of channel/transporter number as a way of tuning membrane permeability.",
+        "C": "Incorrect. Lower temperature slows molecular motion and so decreases, rather than increases, the rate of diffusion.",
+        "D": "Incorrect. A thicker membrane increases the diffusion distance a particle must cross, which decreases, rather than increases, the rate of diffusion."
+      },
+      "topic": "Cell Membrane Physiology",
+      "subtopic": "Membrane transport",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify an increased number of membrane protein channels as a factor that raises the rate of diffusion across the cell membrane.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: The number of protein channels increases\", p35" },
+      "author_notes": "pendingConcept: CON-NEU-1D5DC2D67A5291 is pending in docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md (not yet mirrored to docs/import-ready/), canonical_key membrane.diffusion-osmosis.simple-facilitated-osmosis -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+    }
+  ]
+}
