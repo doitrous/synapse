@@ -150,6 +150,16 @@ enum Theme {
     /// Dark ink on a light-blue fill, in dark. Light themes take near-white.
     static var onAccent: Color { token(light: 0xF8FBFF, warm: 0xF8FBFF, dark: 0x0A1120) }
 
+    // MARK: - Midnight — the Noon mark's seed dot
+
+    /// Not part of the two-hue brand system above — the one fixed navy the
+    /// mark itself carries (matches the web's `--color-midnight`, the same
+    /// value `NishanyMark`'s dot uses). Dark and OLED lift it: the raw value
+    /// is close to those themes' own card surfaces and would all but
+    /// disappear there — OLED lifted a shade brighter still, the same way its
+    /// card surface sits darker than dark's.
+    static var midnight: Color { token(light: 0x1B2B55, warm: 0x1B2B55, dark: 0x5B6FC4, oled: 0x6478D6) }
+
     // MARK: - Signals — functional only, never decorative
 
     static var success: Color { token(light: 0x1A6E56, warm: 0x1A6E56, dark: 0x4DC79B) }

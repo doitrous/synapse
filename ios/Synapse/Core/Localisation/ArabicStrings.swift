@@ -651,5 +651,13 @@ enum ArabicStrings {
         "Target hit for today — nice shooting": "أصبت هدف اليوم — رمية موفقة",
         "questions done": "سؤالًا",
         "more to hit your mark.": "سؤالًا لتصيب هدفك.",
+
+        // ---- Milestone 3: Midnight Seed hero, resume card, and nav grid ---
+        // ("Library" and "Practice" are already keyed above.)
+        "Flashcards": "البطاقات التعليمية",
+        // iOS-only: no native flashcards screen exists yet, so the tile opens
+        // this placeholder rather than a fabricated study surface.
+        "Coming soon": "قريبًا",
+        "Flashcards are on their way — check back soon.": "البطاقات التعليمية في الطريق — تابعنا قريبًا.",
     ]
 }
