@@ -296,3 +296,71 @@ Quiz22-Q8 p89 key=a HELD (cap, keyed) malondialdehyde is a lipid-derived free ra
 Quiz22-Q9 p90 key=True HELD (True/False, not SBA-shape) iron is a transitional metal that increases formation of free radicals
 Quiz22-Q10 p90 key=False HELD (True/False, not SBA-shape) free radicals are NOT completely hazardous with no beneficial effect (false)
 Quiz22-Q11 p90 key=True HELD (True/False, not SBA-shape) albumin is considered a secondary antioxidant
+cbftail-q01 Quiz23&24 p92 key=b  nerve impulse is electrochemical, ion movement across membranes -- new CON-NEU-0023C82A30A2CA
+Quiz23&24-Q2 p93 key=3(=b) HELD (diagram-dependent: options are point labels on an action-potential graph not readable from OCR text alone) at which point do K+ channels open
+cbftail-q27 Quiz23&24 p93 key=c  action potential terminated by efflux of K+ -- reused CON-NEU-DD9033DCA3AAF1
+Quiz23&24-Q4 p94 key=3(=b) HELD (diagram-dependent, same figure as Q2) at which point do Na+ channels close
+cbftail-q02 Quiz28 p96 key=a  insulin secreted by pancreatic beta cells -- new CON-FND-43CE940A66A057
+cbftail-q03 Quiz28 p96 key=c  kidney's role in glucose regulation = reabsorption of glucose -- new CON-FND-43CE940A66A057
+cbftail-q04 Quiz28 p97 key=b  thyroid hormone increases intestinal glucose absorption -- new CON-FND-43CE940A66A057
+cbftail-q05 Quiz28 p97 key=a  the liver is the body's glucostat -- new CON-FND-43CE940A66A057
+cbftail-q43 Quiz28 p98 key=c  2-hour OGTT of 210 mg/dL diagnoses diabetes -- reused CON-END-AC5B11BA2F2BCA
+cbftail-q40 Quiz28 p98 key=d  raw-egg biotin deficiency blocks pyruvate carboxylase in gluconeogenesis -- reused CON-FND-CA0F9E019BC5BA
+cbftail-q44 Quiz28 p99 key=b  serum C-peptide undetectable in type 1 diabetes -- reused CON-END-85750744126501
+cbftail-q06 Quiz29&30 p101 key=a  glycogenin is the protein primer for glycogen synthesis -- new CON-FND-E4EF5D0C7E32ED
+cbftail-q08 Quiz29&30 p101 key=b  debranching enzyme absent in Cori's disease -- new CON-FND-F3DBB1774F2BED
+cbftail-q41 Quiz29&30 p102 key=d  Von Gierke's disease = glucose 6-phosphatase deficiency -- reused CON-FND-1BE461A57AB76D
+cbftail-q42 Quiz29&30 p102 key=a  glycogen phosphorylase converts glycogen to glucose-1-phosphate -- reused CON-FND-3905E3B98C2EC4
+cbftail-q07 Quiz29&30 p103 key=c  insulin activates muscle glycogen synthase (cyclist vignette) -- new CON-FND-E4EF5D0C7E32ED
+cbftail-q29 Quiz33-34 p105 key=b  sympathetic stimulation increases heart rate -- reused CON-NEU-7200808D45CA8C
+cbftail-q36 Quiz33-34 p105 key=a  somatic NS controls skeletal muscle, single-neuron pathway -- reused CON-NEU-D28EA156B57AB0
+cbftail-q30 Quiz33-34 p106 key=d  sympathetic-to-pelvis EXCEPT: does not relax vas deferens/seminal vesicles/prostate -- reused CON-NEU-7D2786E349DE45
+cbftail-q23 Quiz33-34 p106 key=c  sympathetic stimulation causes sweating (panic vignette) -- reused CON-FND-15848C8393D66F
+Quiz33-34-Q5 p107 key=b HELD (near-verbatim dup of Q1, same "sympathetic increases heart rate" pool item) stimulation of sympathetic nervous system causes increase heart rate
+Quiz33-34-Q6 p107 key=a HELD (near-verbatim dup of Q2, same somatic-NS pool item) somatic nervous system controls skeletal muscle
+Quiz33-34-Q7 p107 key=c HELD (near-verbatim dup of Q3, same sympathetic-pelvis-except pool item, options reordered) stimulation of sympathetic to pelvis produces except
+Quiz58&59-Q1 p109 key=fill-in HELD (fill-in-the-blank, not SBA-shape) endogenous pyrogen produced by monocytes/macrophages causes fever
+Quiz58&59-Q2 p109 key=fill-in HELD (fill-in-the-blank, not SBA-shape) eccrine sweat glands responsible for temperature regulation
+Quiz58&59-Q3 p110 key=fill-in HELD (fill-in-the-blank, not SBA-shape) muscle tone increased and shivering occur on exposure to cold
+Quiz58&59-Q4 p110 key=fill-in HELD (fill-in-the-blank, not SBA-shape) mechanisms maintaining body temperature integrated in hypothalamus
+cbftail-q24 Quiz58&59 p110 key=c  fever vs heat-stroke: "may develop heat stroke if core rises to 40C" is the FALSE statement -- reused CON-FND-6AD2005CD2C5BE
+cbftail-q09 Quiz58&59 p111 key=a  brown fat more important than shivering in neonatal thermoregulation -- new CON-FND-A902B6A3287C5D
+cbftail-q25 Quiz58&59 p111 key=d  sweat evaporation impaired (not enabled) by humid climates -- reused CON-FND-15848C8393D66F
+cbftail-q10 Quiz58&59 p111 key=a  heat acclimatization increases ability to lose heat by sweating -- new CON-FND-B1B0C0880006D2
+cbftail-q26 Quiz58&59 p112 key=d  naked person 21C/80%humidity, greatest heat loss by radiation and conduction -- reused CON-FND-85B5F4379991F0
+Quiz58&59-Q10 p112 key=table HELD (table-matrix matching format, not clean single-letter SBA) BMR/measurement-of-O2/ATP/specific-dynamic-action matching item
+Quiz26-27-Q1 p114 key=False HELD (True/False, not SBA-shape) subthreshold stimulus leads to an action potential (false)
+Quiz26-27-Q2 p115 key=b HELD (<4 distinct options: options a/c and b/d printed as duplicate text pairs, an OCR/source degenerate-options item) rheobase definition
+cbftail-q28 Quiz26-27 p116 key=d  monophasic potential is called current of injury -- reused CON-NEU-8E195C4C7D9BFF
+cbftail-q11 Quiz31&32 p118 key=d  DPPC (surfactant) concentration lower than full-term baby in neonatal RDS -- new CON-FND-7BC76180FF59BC
+Quiz31&32-Q2 p119 key=a+c HELD (dual-answer: printed key states "Both cholesterol and long chain is correct", not single-best-answer) alcohol used for waxes
+cbftail-q12 Quiz31&32 p120 key=d  sphingomyelin is NOT a glycerophospholipid -- new CON-FND-F36385D669CF3A
+cbftail-q13 Quiz31&32 p121 key=a  phosphatidylinositol is the second-messenger-precursor glycerophospholipid -- new CON-FND-F36385D669CF3A
+cbftail-q45 Quiz31&32 p122 key=b  HDL transports cholesterol from extrahepatic tissues to liver -- reused CON-GIT-ECB3C2F56DC72D
+cbftail-q14 Quiz31&32 p123 key=a  linolenic is the essential (not non-essential) fatty acid -- new CON-FND-5E095521CE7B1C
+cbftail-q16 Quiz31&32 p124 key=b  palmitoleic acid = 16 carbons, one double bond -- new CON-FND-0A21F9F3BFC086
+cbftail-q18 Quiz31&32 p125 key=b  ganglioside is the cholera toxin receptor -- new CON-FND-A7DECCECA5611B
+cbftail-q15 Quiz31&32 p126 key=c  linoleic acid must be supplied in the diet (essential) -- new CON-FND-5E095521CE7B1C
+cbftail-q17 Quiz31&32 p127 key=b  arachidonic acid = 20 carbons, four double bonds -- new CON-FND-0A21F9F3BFC086
+cbftail-q46 Quiz31&32 p128 key=d  chylomicrons contain mainly dietary triacylglycerol -- reused CON-GIT-ECB3C2F56DC72D
+cbftail-q47 Quiz31&32 p129 key=c  chylomicrons packaged in intestinal epithelial cells -- reused CON-GIT-ECB3C2F56DC72D
+cbftail-q48 Quiz35&36 p130 key=c  carnitine transports long-chain fatty acids into mitochondria -- reused CON-FND-177A829022AC8F
+cbftail-q50 Quiz35&36 p131 key=d  complete oxidation of palmitic acid yields 129 ATP -- reused CON-FND-84BDACCA71AF45
+cbftail-q49 Quiz35&36 p131 key=a  fatty acid activation for beta-oxidation occurs in cytoplasm -- reused CON-FND-177A829022AC8F
+cbftail-q53 Quiz35&36 p133 key=c  nicotinic acid is NOT a lipolytic hormone (anti-lipolytic) -- reused CON-FND-1C668119B3C0BB
+cbftail-q54 Quiz35&36 p134 key=b  hormone-sensitive lipase hydrolyzes TAG inside adipocytes -- reused CON-FND-1C668119B3C0BB
+cbftail-q55 Quiz35&36 p135 key=a  lipolysis regulated by cAMP-activated triglyceride lipase -- reused CON-FND-1C668119B3C0BB
+cbftail-q51 Quiz35&36 p136 key=d  H2O is NOT generated in each fatty-acid-oxidation cycle -- reused CON-FND-84BDACCA71AF45
+cbftail-q52 Quiz35&36 p137 key=d  beta-oxidation coenzymes = FAD and NAD+ -- reused CON-FND-4C05D459E80AEF
+cbftail-q31 Quiz37&38 p138 key=e  all preganglionic autonomic fibers are cholinergic -- reused CON-NEU-1DB903AAE3D02A
+cbftail-q32 Quiz37&38 p139 key=d  relaxed state: dilation of external genitalia vessels causes erection -- reused CON-NEU-6CC8F7E6DC2871
+cbftail-q33 Quiz37&38 p140 key=a  S2-S4 spinal injury causes lack of erection -- reused CON-NEU-6CC8F7E6DC2871
+cbftail-q34 Quiz37&38 p141 key=c  smoking affects ACh (nicotinic) receptors -- reused CON-NEU-5B28B080597460
+cbftail-q35 Quiz37&38 p142 key=e  alpha-adrenergic blocker produces pupillary constriction -- reused CON-NEU-7200808D45CA8C
+cbftail-q19 Quiz41&42 p143 key=b  transaminases form ketoacids from amino acids -- new CON-FND-EF9977457D3792
+cbftail-q20 Quiz41&42 p144 key=b  serum GOT (AST) activity raised after myocardial infarction -- new CON-FND-EF9977457D3792
+cbftail-q21 Quiz41&42 p145 key=d  ornithine transcarbamylase forms citrulline from ornithine -- new CON-FND-9393EA8A25D95A
+cbftail-q37 Quiz41&42 p146 key=c  urinary urea increased after high-protein diet -- reused CON-FND-3806EF570B0A1C
+cbftail-q38 Quiz41&42 p147 key=d  urea's 2 nitrogen atoms from ammonia and aspartate -- reused CON-FND-3806EF570B0A1C
+cbftail-q39 Quiz41&42 p148 key=b  brain removes ammonia mainly via glutamine formation -- reused CON-FND-880D165894A5EC
+cbftail-q22 Quiz41&42 p149 key=d  urea cycle enzyme deficiency increases blood ammonia -- new CON-FND-9393EA8A25D95A
