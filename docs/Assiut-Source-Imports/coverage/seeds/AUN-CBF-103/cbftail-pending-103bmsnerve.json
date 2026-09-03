@@ -1,0 +1,91 @@
+{
+  "lane": "AUN-CBF-103",
+  "cluster": "cbftail-pending-103bmsnerve",
+  "header": "AUN-CBF-103 -- All quizzes CBF .pdf, lane 4 (branch aun-cbf103-author4), OCR'd pp.91-149 authoring batch. 2 rows reuse two pending Kasr 103-BMS nerve concepts (CON-NEU-DD9033DCA3AAF1 repolarisation/K+ efflux, CON-NEU-8E195C4C7D9BFF monophasic/biphasic recording) via the sparse +aun overlay in pending-live/AUN-CBF-103-cbftail-pending-103bmsnerve-concept.md. Omar applies this batch only after: 1) the Kasr 103-BMS-mcq-vitamins-nerve-concepts.md concept batch, 2) that sparse overlay file.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-CBF-103",
+    "module_subject": "AUN-CBF-103 > Physiology > Nerve Excitability",
+    "exam_weight_by_year": { "AUN_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_f7e45bae9ce161e08d46"],
+    "source_citation": "All quizzes CBF .pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "cbftail-q27",
+      "id": "QST-AUNCBF103-CBFTAILPENDING103BMSNERVE-Q001",
+      "page": 93,
+      "title": "The action potential is terminated by potassium efflux",
+      "question": "An action potential in a nerve fibre:",
+      "options": {
+        "A": "Is initiated by influx of K+",
+        "B": "Is terminated by influx of Na+",
+        "C": "Is terminated by efflux of K+",
+        "D": "Is initiated by efflux of Na+"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The action potential is initiated by influx of sodium, not potassium; potassium's role is on the repolarising, not the initiating, side of the impulse.",
+        "B": "Incorrect. Sodium influx is what depolarises and thereby initiates the impulse, not what terminates it; sodium channels inactivate rather than driving termination through further influx.",
+        "C": "Correct. Repolarisation, which ends the action potential, is produced by sodium channel inactivation together with a delayed efflux of potassium through voltage-gated potassium channels; this potassium efflux restores the membrane toward its negative resting potential and is what specifically terminates the spike. The potassium channels close only slowly even after the membrane reaches its resting level, which is why a brief afterhyperpolarisation typically follows before the next impulse can be generated. This sequence -- sodium in to initiate, potassium out to terminate -- is the basic ionic grammar of every action potential.",
+        "D": "Incorrect. Sodium efflux is not how the impulse is initiated; depolarisation and initiation are driven by sodium influx, the opposite direction and the opposite phase from what this option states."
+      },
+      "main_concept": "CON-NEU-DD9033DCA3AAF1",
+      "concept_ids": ["CON-NEU-DD9033DCA3AAF1"],
+      "contextual_concept_ids": [],
+      "topic": "Nerve Physiology",
+      "subtopic": "Ionic basis of the action potential",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the action potential is terminated by potassium efflux (repolarisation), not by sodium movement.",
+      "media_recommendations": "",
+      "library_ids": ["ART-103-PHY-NERVE-ACTION-POTENTIAL"],
+      "field_notes": { "keySource": "printed \"The correct answer is: Is terminated by efflux of K+\", p93", "pendingConcept": "CON-NEU-DD9033DCA3AAF1 is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md; this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    },
+    {
+      "key": "cbftail-q28",
+      "id": "QST-AUNCBF103-CBFTAILPENDING103BMSNERVE-Q002",
+      "page": 116,
+      "title": "Monophasic potential is called the current of injury",
+      "question": "A monophasic potential is called:",
+      "options": {
+        "A": "Depolarization wave",
+        "B": "Negative after potential",
+        "C": "Spike potential",
+        "D": "Current of injury"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. \"Depolarization wave\" names a phase of the action potential itself, not the specific monophasic recording pattern produced when a nerve is damaged between two surface electrodes.",
+        "B": "Incorrect. A negative after-potential is a small, separate deflection following the main spike, not the name given to a monophasic recording.",
+        "C": "Incorrect. \"Spike potential\" refers to the sharp depolarisation-repolarisation peak of the action potential itself, not to the specific monophasic recording produced by nerve damage between the electrodes.",
+        "D": "Correct. When a biphasic surface recording's second deflection is abolished because the nerve between (or under) the recording electrodes is crushed or otherwise damaged, the resulting single-deflection record is called a monophasic potential, also known clinically as the current (or demarcation potential) of injury; this is exactly the mechanism used to localise damage along a nerve pathway. The same single-deflection pattern is produced deliberately in the laboratory by placing one electrode inside the fibre, but when it appears unexpectedly in an otherwise biphasic surface recording it signals damage at or before the second electrode. Recognising this pattern is therefore a practical tool for locating a lesion along a peripheral nerve."
+      },
+      "main_concept": "CON-NEU-8E195C4C7D9BFF",
+      "concept_ids": ["CON-NEU-8E195C4C7D9BFF"],
+      "contextual_concept_ids": [],
+      "topic": "Nerve Physiology",
+      "subtopic": "Recording the action potential",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name the monophasic recording produced by nerve damage between electrodes as the current of injury.",
+      "media_recommendations": "",
+      "library_ids": ["ART-103-PHY-NERVE-FIBRE-AND-CONDUCTION"],
+      "field_notes": { "keySource": "printed \"The correct answer is: Current of injury\", p116", "pendingConcept": "CON-NEU-8E195C4C7D9BFF is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md; near-match reuse (source concept already states damage between electrodes produces the monophasic record), not an exact-label duplicate -- this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    }
+  ]
+}

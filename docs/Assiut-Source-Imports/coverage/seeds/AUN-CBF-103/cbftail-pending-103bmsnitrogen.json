@@ -1,0 +1,80 @@
+{
+  "lane": "AUN-CBF-103",
+  "cluster": "cbftail-pending-103bmsnitrogen",
+  "header": "AUN-CBF-103 -- All quizzes CBF .pdf, lane 4 (branch aun-cbf103-author4), OCR'd pp.91-149 authoring batch. 2 rows reuse one pending Kasr 103-BMS nitrogen concept (CON-FND-3806EF570B0A1C, urea's overall equation and nitrogen donors) via the sparse +aun overlay in pending-live/AUN-CBF-103-cbftail-pending-103bmsnitrogen-concept.md. Omar applies this batch only after: 1) the Kasr 103-BMS-mcq-nitrogen-concepts.md concept batch, 2) that sparse overlay file.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-CBF-103",
+    "module_subject": "AUN-CBF-103 > Biochemistry > Amino Acid Metabolism",
+    "exam_weight_by_year": { "AUN_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_f7e45bae9ce161e08d46"],
+    "source_citation": "All quizzes CBF .pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "main_concept": "CON-FND-3806EF570B0A1C",
+    "concept_ids": ["CON-FND-3806EF570B0A1C"],
+    "contextual_concept_ids": [],
+    "library_ids": ["ART-103-BIO-UREA-CYCLE"],
+    "topic": "Amino Acid Metabolism",
+    "subtopic": "Urea cycle",
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "media_recommendations": ""
+  },
+  "questions": [
+    {
+      "key": "cbftail-q37",
+      "id": "QST-AUNCBF103-CBFTAILPENDING103BMSNITROGEN-Q001",
+      "page": 146,
+      "title": "Urinary urea rises on a high-protein diet",
+      "question": "Regarding the urea cycle, which of the following statements is correct?",
+      "options": {
+        "A": "Urea is produced directly by hydrolysis of ornithine",
+        "B": "The two nitrogen atoms of urea are both derived from body free ammonia",
+        "C": "Urinary urea is increased after a diet rich in proteins",
+        "D": "The urea cycle occurs exclusively in the liver cytosol"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ornithine is regenerated, not hydrolysed to urea; urea itself is released only in the cycle's final step, arginine's hydrolysis by arginase (which also regenerates ornithine).",
+        "B": "Incorrect. Only one of urea's two nitrogen atoms comes from free ammonia (via carbamoyl phosphate); the second is contributed by aspartate, not by a second molecule of free ammonia.",
+        "C": "Correct. Carbamoyl phosphate synthetase I, the rate-limiting urea-cycle enzyme, is absolutely dependent on N-acetylglutamate, itself made from acetyl-CoA and glutamate in a reaction arginine activates -- so a protein-rich meal supplies both the amino-acid-derived substrate and the allosteric activator together, and the rate of urea synthesis (and hence urinary urea excretion) follows dietary protein intake. A low-protein diet has the opposite effect, lowering urinary urea as less amino-acid nitrogen enters the pathway. This diet-responsiveness is why urinary urea nitrogen is sometimes used clinically as a rough index of recent protein intake.",
+        "D": "Incorrect. The urea cycle is split across two compartments: carbamoyl phosphate synthesis and citrulline formation occur in the mitochondrial matrix, while the remaining steps (argininosuccinate synthesis, its cleavage, and arginine's hydrolysis to urea) occur in the cytosol; it is not confined exclusively to the cytosol."
+      },
+      "learning_objective": "State that urinary urea excretion rises with dietary protein intake, driven by N-acetylglutamate's dual role as substrate and activator.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Urinary urea is increased after a diet rich in proteins\", p146", "pendingConcept": "CON-FND-3806EF570B0A1C is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-nitrogen-concepts.md; this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    },
+    {
+      "key": "cbftail-q38",
+      "id": "QST-AUNCBF103-CBFTAILPENDING103BMSNITROGEN-Q002",
+      "page": 147,
+      "title": "Urea's two nitrogen atoms come from ammonia and aspartate",
+      "question": "The two nitrogen atoms in urea are contributed by:",
+      "options": {
+        "A": "Glutamine and glutamate",
+        "B": "Ammonia and alanine",
+        "C": "Ammonia and glutamate",
+        "D": "Ammonia and aspartate"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Neither glutamine nor glutamate directly donates a nitrogen atom into urea itself; glutamate feeds nitrogen into the pathway indirectly (via transamination and oxidative deamination to free ammonia), but the two direct urea donors are ammonia and aspartate.",
+        "B": "Incorrect. Alanine carries nitrogen from muscle to the liver (the glucose-alanine cycle) but is not one of the two direct nitrogen donors incorporated into urea itself.",
+        "C": "Incorrect. Glutamate is not a direct donor into urea; the second nitrogen atom comes specifically from aspartate, not glutamate.",
+        "D": "Correct. The first nitrogen atom of urea enters as free ammonia, condensed with bicarbonate by carbamoyl phosphate synthetase I in the mitochondrial matrix; the second is contributed by aspartate's amino group, joined to citrulline by argininosuccinate synthetase in the cytosol. These two distinct donors, entering at two different steps and in two different compartments, are what the urea cycle's overall equation summarises."
+      },
+      "learning_objective": "State that urea's two nitrogen atoms are contributed by ammonia and aspartate.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Ammonia and aspartate\", p147", "pendingConcept": "CON-FND-3806EF570B0A1C is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-nitrogen-concepts.md; this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    }
+  ]
+}

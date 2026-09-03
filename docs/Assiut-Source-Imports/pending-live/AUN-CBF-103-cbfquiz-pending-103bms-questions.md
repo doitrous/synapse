@@ -5211,3 +5211,2279 @@ yes
 ## author_notes
 keySource: printed "The correct answer is: flavoprotein", p59
 pendingConcept: CON-FND-BCCBDEC637795A is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md and docs/import-ready/concept/103-BMS-mcq-carbohydrate-concepts.md, canonical_key tca.site.matrix-except-succinate-dehydrogenase -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q057
+
+## title
+Biotin deficiency blocks pyruvate carboxylase
+
+## question
+A bodybuilder eats only egg whites for weeks to maximise protein intake, becomes hypoglycaemic, and is found to have a functional biotin deficiency. Which of the following enzymes is unable to catalyze a key step in synthesizing glucose from pyruvate?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Glucose 6-phosphatase
+
+## explanation_a
+Incorrect. Glucose 6-phosphatase catalyses gluconeogenesis's final step and does not require biotin as a cofactor.
+
+## answer_b
+Fructose 1,6-bisphosphatase
+
+## explanation_b
+Incorrect. Fructose 1,6-bisphosphatase does not require biotin either; it is a simple hydrolytic step, not a carboxylation.
+
+## answer_c
+Phosphoenolpyruvate carboxykinase
+
+## explanation_c
+Incorrect. Phosphoenolpyruvate carboxykinase decarboxylates oxaloacetate to PEP and does not use biotin as its cofactor.
+
+## answer_d
+Pyruvate carboxylase
+
+## explanation_d
+Correct. Pyruvate carboxylase, the first committed step of gluconeogenesis from pyruvate, carboxylates pyruvate to oxaloacetate and specifically requires biotin as its cofactor; raw egg whites contain avidin, which binds biotin and prevents its absorption, so a diet of egg whites alone can precipitate a functional biotin deficiency that stalls exactly this step and impairs gluconeogenesis, producing hypoglycaemia. Cooking the egg whites denatures avidin and removes this risk, which is why the deficiency is specifically associated with RAW egg white consumption. This same biotin dependence is shared by acetyl-CoA carboxylase, the analogous committed step of fatty acid synthesis.
+
+## answer_e
+Phosphoglycerate kinase
+
+## explanation_e
+Incorrect. Phosphoglycerate kinase is a glycolytic (and gluconeogenic, in reverse) enzyme that does not use biotin; it catalyses a simple phosphate transfer, not a carboxylation.
+
+## topic
+Carbohydrate Metabolism
+
+## subtopic
+Gluconeogenesis
+
+## main_concept
+CON-FND-CA0F9E019BC5BA
+
+## concept_ids
+CON-FND-CA0F9E019BC5BA
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+Identify pyruvate carboxylase as the biotin-dependent enzyme of gluconeogenesis blocked by biotin deficiency.
+
+## source_citation
+All quizzes CBF .pdf, 98
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Pyruvate carboxylase", p98
+pendingConcept: CON-FND-CA0F9E019BC5BA is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key lipogenesis.acetyl-coa-carboxylase.biotin-malonyl-coa's companion pyruvate-carboxylase record -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q058
+
+## title
+Von Gierke's disease is glucose 6-phosphatase deficiency
+
+## question
+Glucose-6-phosphatase is absent or deficient in:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+McArdle's disease
+
+## explanation_a
+Incorrect. McArdle's disease (type V) is caused by muscle glycogen phosphorylase deficiency, not glucose 6-phosphatase deficiency.
+
+## answer_b
+Cori's disease
+
+## explanation_b
+Incorrect. Cori's disease (type III) is caused by debranching enzyme deficiency, a different enzyme acting earlier in glycogenolysis.
+
+## answer_c
+Pompe's disease
+
+## explanation_c
+Incorrect. Pompe's disease (type II) is caused by lysosomal acid maltase (alpha-glucosidase) deficiency, an entirely different, lysosomal storage mechanism.
+
+## answer_d
+Von Gierke's disease
+
+## explanation_d
+Correct. Von Gierke's disease (type I glycogen storage disease) is caused by deficiency of glucose 6-phosphatase, the enzyme that dephosphorylates glucose 6-phosphate to free glucose at the final common step of both glycogenolysis and gluconeogenesis; its absence produces severe fasting hypoglycaemia, lactic acidosis, hyperuricaemia and hepatomegaly with a fatty liver. Because glucose 6-phosphate cannot exit the pathway as free glucose, it instead backs up into glycolysis (raising lactate) and the pentose phosphate pathway (raising purine synthesis and hence uric acid). This distinctive four-feature picture -- hypoglycaemia, lactic acidosis, hyperuricaemia and hyperlipidaemia -- is what points specifically to the phosphatase step rather than to phosphorylase or debranching enzyme.
+
+## topic
+Carbohydrate Metabolism
+
+## subtopic
+Glycogen storage diseases
+
+## main_concept
+CON-FND-1BE461A57AB76D
+
+## concept_ids
+CON-FND-1BE461A57AB76D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-GLYCOGEN-METABOLISM
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+Name glucose 6-phosphatase deficiency as the defect in Von Gierke's disease.
+
+## source_citation
+All quizzes CBF .pdf, 102
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Von Gierke's disease", p102
+pendingConcept: CON-FND-1BE461A57AB76D is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md and docs/import-ready/concept/103-BMS-mcq-carbohydrate-concepts.md, canonical_key glycogenosis.von-gierke.glucose-6-phosphatase-deficiency -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q059
+
+## title
+Glycogen phosphorylase releases glucose-1-phosphate
+
+## question
+Glycogen is converted to glucose-1-phosphate by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Phosphorylase
+
+## explanation_a
+Correct. Glycogen phosphorylase cleaves the alpha-1,4 glycosidic bonds of glycogen phosphorolytically, releasing glucose 1-phosphate as its major product (stopping about four residues short of each branch point, where the debranching enzyme takes over); phosphoglucomutase then converts glucose 1-phosphate to glucose 6-phosphate for further metabolism. In liver, that glucose 6-phosphate can then be dephosphorylated by glucose 6-phosphatase and released as free blood glucose; muscle lacks this enzyme and so can only feed the glucose 6-phosphate into its own glycolysis. This tissue difference in downstream fate is the direct consequence of what phosphorylase itself produces at this first step.
+
+## answer_b
+Branching enzyme
+
+## explanation_b
+Incorrect. Branching enzyme acts during glycogen synthesis, creating the alpha-1,6 branch points; it plays no role in releasing glucose 1-phosphate from glycogen.
+
+## answer_c
+Phosphatase
+
+## explanation_c
+Incorrect. Phosphatase (specifically glucose 6-phosphatase, in the liver) acts later in the pathway, dephosphorylating glucose 6-phosphate to free glucose; it does not act on glycogen itself.
+
+## answer_d
+UDPG transferase
+
+## explanation_d
+Incorrect. UDPG (UDP-glucose) transferase (glycogen synthase) works in the synthesis direction, adding glucose units onto glycogen from UDP-glucose, the opposite of breaking glycogen down.
+
+## topic
+Carbohydrate Metabolism
+
+## subtopic
+Glycogen breakdown
+
+## main_concept
+CON-FND-3905E3B98C2EC4
+
+## concept_ids
+CON-FND-3905E3B98C2EC4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-GLYCOGEN-METABOLISM
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that glycogen phosphorylase releases glucose 1-phosphate from glycogen.
+
+## source_citation
+All quizzes CBF .pdf, 102
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Phosphorylase", p102
+pendingConcept: CON-FND-3905E3B98C2EC4 is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md and docs/import-ready/concept/103-BMS-mcq-carbohydrate-concepts.md, canonical_key glycogenolysis.products.glucose-1-phosphate-and-tissue-fate -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q060
+
+## title
+A 2-hour OGTT of 210 mg/dL diagnoses diabetes
+
+## question
+A 33-year-old obese man with a strong family history of type 2 diabetes undergoes laboratory testing to evaluate his risk. Which of the following results would lead to a diagnosis of diabetes?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+A single fasting blood glucose level of 160 mg/dL
+
+## explanation_a
+Incorrect. While a fasting glucose that high would in fact be diagnostic in its own right on standard criteria, the option written here is not the one the printed key selects as correct in this bank; the OGTT result is the more clearly definitive standard test named.
+
+## answer_b
+The presence of a reducing sugar in his urine
+
+## explanation_b
+Incorrect. A reducing substance in urine is a non-specific screening finding (and can occur in other conditions) rather than a definitive diagnostic criterion for diabetes.
+
+## answer_c
+A 2-hour oral glucose tolerance test with a blood glucose level of 210 mg/dL
+
+## explanation_c
+Correct. A 2-hour value of 200 mg/dL or higher on a standard oral glucose tolerance test is one of the accepted diagnostic thresholds for diabetes mellitus, and 210 mg/dL clears that threshold; the OGTT is a standard, reproducible diagnostic test precisely because it standardises the glucose challenge and the timing of the sample. It remains the reference test used when fasting or random values are borderline or ambiguous. This vignette's obese patient with a strong family history is exactly the clinical picture in which an OGTT is typically ordered to confirm or exclude a diagnosis.
+
+## answer_d
+A single fasting blood glucose level of 110 mg/dL
+
+## explanation_d
+Incorrect. A fasting glucose of 110 mg/dL falls in the pre-diabetic (impaired fasting glucose) range, below the fasting threshold of 126 mg/dL required for a diabetes diagnosis.
+
+## answer_e
+A single random glucose level of 190 mg/dL
+
+## explanation_e
+Incorrect. A random glucose of 190 mg/dL is below the 200 mg/dL threshold used for a random-glucose-based diagnosis (and would also need to be paired with symptoms), so it does not by itself meet diagnostic criteria the way the OGTT result does.
+
+## topic
+Endocrine Physiology
+
+## subtopic
+Diabetes diagnosis
+
+## main_concept
+CON-END-AC5B11BA2F2BCA
+
+## concept_ids
+CON-END-AC5B11BA2F2BCA
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+Apply the OGTT diagnostic threshold (2-hour glucose >= 200 mg/dL) to diagnose diabetes.
+
+## source_citation
+All quizzes CBF .pdf, 98
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: A 2-hour oral glucose tolerance test with a blood glucose level of 210 mg/dL", p98
+pendingConcept: CON-END-AC5B11BA2F2BCA is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key diabetes.diagnosis.glycaemic-thresholds -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q061
+
+## title
+Serum C-peptide is undetectable in type 1 diabetes
+
+## question
+Serum C-peptide is not detectable in:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Gestational diabetes
+
+## explanation_a
+Incorrect. Gestational diabetes involves relative insulin resistance during pregnancy; the pancreas still produces insulin (and C-peptide), which remains detectable.
+
+## answer_b
+Type 1 diabetes
+
+## explanation_b
+Correct. Type 1 diabetes follows autoimmune destruction of the pancreatic beta cells, making the deficiency of insulin absolute; because C-peptide is co-secreted with endogenous insulin from the same proinsulin precursor, and the beta cells that would make it no longer exist, C-peptide becomes essentially undetectable. This distinction also makes C-peptide clinically useful for telling type 1 from type 2 diabetes and for distinguishing endogenous insulin production from injected insulin, which carries no C-peptide at all. A patient on insulin therapy whose own C-peptide remains detectable therefore still has functioning beta cells, pointing toward type 2 rather than type 1 disease.
+
+## answer_c
+Renal diabetes
+
+## explanation_c
+Incorrect. "Renal diabetes" (renal glycosuria) is a defect of renal glucose reabsorption, not a beta-cell or insulin-secretion disorder; C-peptide remains detectable.
+
+## answer_d
+Type 2 diabetes
+
+## explanation_d
+Incorrect. Type 2 diabetes is insulin resistance with only a relative and progressive secretory failure, so the beta cells that remain still produce measurable, if reduced, C-peptide, unlike the essentially complete absence seen in type 1.
+
+## topic
+Endocrine Physiology
+
+## subtopic
+Diabetes classification
+
+## main_concept
+CON-END-85750744126501
+
+## concept_ids
+CON-END-85750744126501
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+Explain that C-peptide is undetectable in type 1 diabetes because beta-cell destruction makes insulin deficiency absolute.
+
+## source_citation
+All quizzes CBF .pdf, 99
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Type 1 diabetes", p99
+pendingConcept: CON-END-85750744126501 is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key diabetes.classification.type-1-versus-type-2 -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q062
+
+## title
+HDL transports cholesterol from extrahepatic tissues to the liver
+
+## question
+Cholesterol is transported from extrahepatic tissues to the liver by which of the following lipoproteins?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Chylomicrons
+
+## explanation_a
+Incorrect. Chylomicrons carry dietary lipid, mainly triacylglycerol, from the intestine outward to peripheral tissues; they do not carry cholesterol back to the liver from the periphery.
+
+## answer_b
+HDL
+
+## explanation_b
+Correct. HDL is the lipoprotein responsible for reverse cholesterol transport, carrying excess cholesterol from peripheral (extrahepatic) tissues back to the liver for excretion or reuse -- the reason it is called the "good" cholesterol, in contrast to LDL, which delivers cholesterol outward to tissues. HDL is the smallest and densest of the major lipoproteins, with the highest protein content of the series, which fits its role of ferrying cholesterol rather than bulk delivering it. A higher HDL level is generally protective against atherosclerosis precisely because of this cholesterol-clearing function.
+
+## answer_c
+VLDL
+
+## explanation_c
+Incorrect. VLDL, made by the liver, carries hepatic triacylglycerol outward to peripheral tissues; it is not the vehicle for returning cholesterol to the liver.
+
+## answer_d
+LDL
+
+## explanation_d
+Incorrect. LDL delivers cholesterol to peripheral tissues (the outward direction), the opposite of the extrahepatic-to-liver transport this question asks about.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Lipoprotein metabolism
+
+## main_concept
+CON-GIT-ECB3C2F56DC72D
+
+## concept_ids
+CON-GIT-ECB3C2F56DC72D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-LIPOPROTEIN-MACHINERY
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that HDL carries out reverse cholesterol transport from extrahepatic tissues to the liver.
+
+## source_citation
+All quizzes CBF .pdf, 122
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: HDL", p122
+pendingConcept: CON-GIT-ECB3C2F56DC72D is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key lipoprotein.composition.protein-content-density-series -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q063
+
+## title
+Chylomicrons contain mainly dietary triacylglycerol
+
+## question
+Which of the following statements about circulating lipoproteins is correct?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Chylomicrons release cholesterol to adipose tissues
+
+## explanation_a
+Incorrect. Chylomicrons deliver triacylglycerol (via lipoprotein lipase) to adipose and muscle tissue, not cholesterol specifically as their main cargo delivered to fat.
+
+## answer_b
+VLDL releases cholesterol to the liver
+
+## explanation_b
+Incorrect. VLDL is made by the liver to export hepatic triacylglycerol outward to tissues; it does not release cholesterol to the liver, which is HDL's job.
+
+## answer_c
+LDL contains mainly dietary triacylglycerol in its core
+
+## explanation_c
+Incorrect. LDL's core is mainly cholesteryl ester, not dietary triacylglycerol; dietary triacylglycerol is chylomicrons' cargo, not LDL's.
+
+## answer_d
+Chylomicrons contain mainly dietary triacylglycerol in their core
+
+## explanation_d
+Correct. Chylomicrons, assembled in intestinal epithelial cells from dietary lipid, are about 98% lipid by mass and carry mainly dietary triacylglycerol in their core, which lipoprotein lipase then hydrolyses at capillary beds to deliver fatty acids to adipose and muscle tissue. Chylomicrons are accordingly the largest and least dense of the major lipoproteins, carrying the least protein of the series, consistent with their role as bulk triacylglycerol carriers rather than as regulatory or cholesterol-shuttling particles. Their remnant particles, after most of the triacylglycerol is removed, are then cleared by the liver.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Lipoprotein metabolism
+
+## main_concept
+CON-GIT-ECB3C2F56DC72D
+
+## concept_ids
+CON-GIT-ECB3C2F56DC72D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-LIPOPROTEIN-MACHINERY
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that chylomicrons carry mainly dietary triacylglycerol.
+
+## source_citation
+All quizzes CBF .pdf, 128
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Chylomicrons contain mainly dietary triacylglycerols in their core", p128
+pendingConcept: CON-GIT-ECB3C2F56DC72D is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key lipoprotein.composition.protein-content-density-series -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q064
+
+## title
+Chylomicrons are packaged in intestinal epithelial cells
+
+## question
+A 16-year-old female with a rare genetic deficiency of lipoprotein lipase is found to have abnormally elevated chylomicrons in her serum (type 1 hyperlipidaemia). In what type of cell are triacylglycerols packaged into chylomicrons in the first place?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Heart cell
+
+## explanation_a
+Incorrect. Heart cells consume fatty acids for energy; they do not assemble chylomicrons.
+
+## answer_b
+Liver cell
+
+## explanation_b
+Incorrect. The liver assembles VLDL, not chylomicrons, from its own (not dietary) triacylglycerol.
+
+## answer_c
+Intestinal epithelial cell
+
+## explanation_c
+Correct. Dietary triacylglycerol, absorbed as monoglycerides and fatty acids, is re-esterified and packaged into chylomicrons specifically within intestinal epithelial (mucosal) cells, which then secrete the chylomicrons into intestinal lymphatics for eventual entry into the bloodstream; a downstream defect in lipoprotein lipase, as in this vignette, does not change where chylomicrons are made, only how efficiently their triacylglycerol is later cleared from the circulation. This is why a patient with lipoprotein lipase deficiency still produces chylomicrons normally but cannot clear them from the plasma, leading to their marked accumulation and the resulting type 1 hyperlipidaemia. The assembly step and the clearance step are therefore two separate points in the pathway that a single question can probe independently.
+
+## answer_d
+Adipose cell
+
+## explanation_d
+Incorrect. Adipose cells store triacylglycerol delivered to them by chylomicrons and VLDL; they do not assemble chylomicrons themselves.
+
+## answer_e
+Muscle cell
+
+## explanation_e
+Incorrect. Muscle cells take up and oxidise fatty acids delivered by lipoprotein lipase; they play no role in chylomicron assembly.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Lipoprotein metabolism
+
+## main_concept
+CON-GIT-ECB3C2F56DC72D
+
+## concept_ids
+CON-GIT-ECB3C2F56DC72D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-LIPOPROTEIN-MACHINERY
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that chylomicrons are assembled and packaged in intestinal epithelial cells.
+
+## source_citation
+All quizzes CBF .pdf, 129
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Intestinal epithelial cells", p129
+pendingConcept: CON-GIT-ECB3C2F56DC72D is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key lipoprotein.composition.protein-content-density-series -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q065
+
+## title
+Carnitine transports long-chain fatty acids into mitochondria
+
+## question
+Transport of long-chain fatty acids into mitochondria for beta-oxidation needs which of the following molecules?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Creatine phosphate
+
+## explanation_a
+Incorrect. Creatine phosphate is an energy-buffering molecule in muscle, unrelated to mitochondrial fatty acid transport.
+
+## answer_b
+Creatinine
+
+## explanation_b
+Incorrect. Creatinine is a waste product of creatine metabolism, cleared by the kidney; it has no role in fatty acid transport.
+
+## answer_c
+Carnitine
+
+## explanation_c
+Correct. A long-chain fatty acid is first activated to fatty acyl-CoA in the cytosol, but the inner mitochondrial membrane is impermeable to acyl-CoA itself; carnitine is the shuttle molecule that carries the fatty acyl group across, via carnitine acyltransferase I (outer membrane) and II (inner membrane), the rate-limiting and hormonally regulated step of beta-oxidation. Malonyl-CoA, the first intermediate of fatty acid synthesis, inhibits carnitine acyltransferase I, which is how the cell prevents newly synthesised fatty acids from being immediately oxidised again. Short- and medium-chain fatty acids, unlike long-chain ones, can cross the mitochondrial membrane without this carnitine shuttle.
+
+## answer_d
+Creatine
+
+## explanation_d
+Incorrect. Creatine (as opposed to carnitine) is part of the phosphocreatine energy buffer system in muscle, not the fatty acid transport shuttle.
+
+## answer_e
+Beta carotene
+
+## explanation_e
+Incorrect. Beta carotene is a vitamin A precursor with no role in mitochondrial fatty acid transport.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Fatty acid oxidation
+
+## main_concept
+CON-FND-177A829022AC8F
+
+## concept_ids
+CON-FND-177A829022AC8F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FATTY-ACID-OXIDATION
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that carnitine transports long-chain fatty acyl groups into mitochondria for beta-oxidation.
+
+## source_citation
+All quizzes CBF .pdf, 130
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Carnitine", p130
+pendingConcept: CON-FND-177A829022AC8F is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key carnitine.shuttle.fatty-acid-activation-and-transport -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q066
+
+## title
+Fatty acid activation for beta-oxidation occurs in the cytoplasm
+
+## question
+Which of the following is a site of fatty acid activation for beta-oxidation?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Cytoplasm
+
+## explanation_a
+Correct. A fatty acid is activated to its CoA thioester (fatty acyl-CoA) in the cytoplasm (cytosol), consuming ATP; only after this activation step, and only after carnitine shuttles the acyl group across the mitochondrial membrane, does beta-oxidation itself proceed inside the mitochondrial matrix. Activation effectively spends the equivalent of two ATP per fatty acid, a cost subtracted when calculating the pathway's net ATP yield. Keeping the sequence straight -- cytoplasmic activation, then carnitine-mediated transport, then mitochondrial oxidation -- is what a stem naming a specific compartment is testing.
+
+## answer_b
+Plasma membrane
+
+## explanation_b
+Incorrect. The plasma membrane is not the site of fatty acid activation; that reaction occurs in the cytosol using the enzyme acyl-CoA synthetase (thiokinase).
+
+## answer_c
+Endoplasmic reticulum
+
+## explanation_c
+Incorrect. The endoplasmic reticulum has its own separate long-chain fatty acid activation activity for lipid synthesis, but is not the site named for beta-oxidation's own activation step.
+
+## answer_d
+Golgi apparatus
+
+## explanation_d
+Incorrect. The Golgi apparatus is involved in protein/lipid trafficking and modification, not fatty acid activation.
+
+## answer_e
+Mitochondria
+
+## explanation_e
+Incorrect. The mitochondria is where beta-oxidation itself (the repeated cycles of oxidation) occurs, after activation and carnitine transport, not where activation happens; activation is a cytoplasmic step.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Fatty acid oxidation
+
+## main_concept
+CON-FND-177A829022AC8F
+
+## concept_ids
+CON-FND-177A829022AC8F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FATTY-ACID-OXIDATION
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that fatty acid activation for beta-oxidation occurs in the cytoplasm, before carnitine-mediated mitochondrial entry.
+
+## source_citation
+All quizzes CBF .pdf, 131
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Cytoplasm", p131-132
+pendingConcept: CON-FND-177A829022AC8F is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key carnitine.shuttle.fatty-acid-activation-and-transport -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q067
+
+## title
+Complete oxidation of palmitic acid yields 129 ATP
+
+## question
+Complete oxidation of one molecule of palmitic acid (16 carbons) produces a number of ATP molecules equal to:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+55
+
+## explanation_a
+Incorrect. 55 undercounts the total substantially, missing most of the ATP generated across beta-oxidation's seven cycles and the citric acid cycle turns that follow.
+
+## answer_b
+138
+
+## explanation_b
+Incorrect. 138 overcounts; it does not subtract the two ATP equivalents spent activating the fatty acid to palmitoyl-CoA before oxidation begins.
+
+## answer_c
+146
+
+## explanation_c
+Incorrect. 146 also overcounts, for the same reason (failing to subtract the activation cost).
+
+## answer_d
+129
+
+## explanation_d
+Correct. Palmitic acid (16 carbons) undergoes seven cycles of beta-oxidation, each removing two carbons and yielding one FADH2 and one NADH, producing eight acetyl-CoA units in total; running the resulting FADH2, NADH and acetyl-CoA (each acetyl-CoA yielding further ATP through the citric acid cycle and respiratory chain) through standard ATP-yield accounting gives 131 gross ATP, minus the 2 ATP-equivalents spent activating the fatty acid at the start, for a net of 129 ATP. This net figure is what makes fat such an energy-dense fuel compared with glucose, whose complete oxidation yields only around 30-32 ATP per molecule. The exact number examiners expect can vary slightly by textbook convention, but 129 is the value this bank's printed key uses.
+
+## answer_e
+89
+
+## explanation_e
+Incorrect. 89 undercounts, well below the correct net yield for a 16-carbon fatty acid's complete oxidation.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Fatty acid oxidation
+
+## main_concept
+CON-FND-84BDACCA71AF45
+
+## concept_ids
+CON-FND-84BDACCA71AF45
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FATTY-ACID-OXIDATION
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State the net ATP yield (129) from complete oxidation of palmitic acid.
+
+## source_citation
+All quizzes CBF .pdf, 131
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: 129", p131
+pendingConcept: CON-FND-84BDACCA71AF45 is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key oxidation.beta.two-carbon-cycle-yield -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q068
+
+## title
+Water is not generated during each fatty acid oxidation cycle
+
+## question
+During each cycle of ongoing fatty acid oxidation, all of the following compounds are generated EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Acetyl CoA
+
+## explanation_a
+Incorrect (this IS generated each cycle, not the exception). Each turn of beta-oxidation removes two carbons and releases one acetyl-CoA.
+
+## answer_b
+NADH
+
+## explanation_b
+Incorrect (this IS generated each cycle). Each cycle's dehydrogenation steps produce one NADH (and one FADH2) per turn.
+
+## answer_c
+Fatty acyl CoA
+
+## explanation_c
+Incorrect (this IS generated each cycle). Each turn regenerates a fatty acyl-CoA two carbons shorter than the one that entered it, which is what allows the cycle to repeat.
+
+## answer_d
+H2O
+
+## explanation_d
+Correct -- this is the exception. Beta-oxidation itself does not directly generate water in its four repeating steps (dehydrogenation, hydration, oxidation, thiolytic cleavage); if anything, water is CONSUMED at the hydration step, not produced, and any water associated with the pathway overall is generated later, at the very end of the respiratory chain when oxygen is finally reduced. Confusing the cycle's own four steps with the downstream respiratory-chain consequences of the NADH and FADH2 it produces is the trap this stem is built to catch. Acetyl-CoA, NADH and a shortened fatty acyl-CoA are the three genuine products of each turn; water is not.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Fatty acid oxidation
+
+## main_concept
+CON-FND-84BDACCA71AF45
+
+## concept_ids
+CON-FND-84BDACCA71AF45
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FATTY-ACID-OXIDATION
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+Identify water as the product NOT directly generated in each beta-oxidation cycle.
+
+## source_citation
+All quizzes CBF .pdf, 136
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: H2O", p136
+pendingConcept: CON-FND-84BDACCA71AF45 is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key oxidation.beta.two-carbon-cycle-yield -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q069
+
+## title
+Beta-oxidation uses FAD and NAD+ as coenzymes
+
+## question
+In beta-oxidation of fatty acids, which of the following are utilized as coenzymes?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+NAD+ and NADP+
+
+## explanation_a
+Incorrect. NADP+ is used in reductive biosynthetic pathways (such as fatty acid synthesis), not as a coenzyme accepting electrons during oxidative beta-oxidation.
+
+## answer_b
+FAD and FMN
+
+## explanation_b
+Incorrect. FMN is a respiratory-chain (complex I) cofactor, not one of beta-oxidation's own two coenzymes; beta-oxidation instead pairs FAD with NAD+.
+
+## answer_c
+FADH2 and NADH + H+
+
+## explanation_c
+Incorrect. FADH2 and NADH are the REDUCED products of the reaction, not the oxidized coenzyme forms consumed at the start of each cycle; the coenzymes utilised (accepting electrons) are FAD and NAD+.
+
+## answer_d
+FAD and NAD+
+
+## explanation_d
+Correct. Each turn of beta-oxidation uses FAD as the coenzyme for its first (acyl-CoA dehydrogenase) oxidation step and NAD+ as the coenzyme for its third (3-hydroxyacyl-CoA dehydrogenase) oxidation step, generating FADH2 and NADH respectively, which then feed electrons into the respiratory chain at complex II and complex I. This is the mirror image of fatty acid synthesis, which instead spends NADPH as its reducing power, a deliberate separation that lets the cell run oxidation and synthesis at the same time without one pathway short-circuiting the other. Recognising FAD-then-NAD+ as beta-oxidation's own coenzyme pair is a reliable way to answer this kind of question quickly.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Fatty acid oxidation
+
+## main_concept
+CON-FND-4C05D459E80AEF
+
+## concept_ids
+CON-FND-4C05D459E80AEF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FATTY-ACID-OXIDATION
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that beta-oxidation uses FAD and NAD+ (not NADP+ or FMN) as its coenzymes.
+
+## source_citation
+All quizzes CBF .pdf, 137
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: FAD and NAD+", p137
+pendingConcept: CON-FND-4C05D459E80AEF is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key lipid.redox-cofactors.oxidation-versus-synthesis -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q070
+
+## title
+Nicotinic acid is not a lipolytic hormone
+
+## question
+Which of the following is NOT a lipolytic hormone?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Thyroxine
+
+## explanation_a
+Incorrect (this IS lipolytic, not the exception). Thyroxine activates protein kinase A directly, promoting hormone-sensitive lipase activity and lipolysis.
+
+## answer_b
+Glucagon
+
+## explanation_b
+Incorrect (this IS lipolytic). Glucagon raises cAMP via adenylyl cyclase, activating protein kinase A and hormone-sensitive lipase, driving lipolysis.
+
+## answer_c
+Nicotinic acid
+
+## explanation_c
+Correct -- this is the exception (NOT lipolytic). Nicotinic acid (niacin, at pharmacological doses) is used clinically as an anti-lipolytic (lipid-lowering) agent: it lowers cAMP and suppresses hormone-sensitive lipase activity, reducing free fatty acid release from adipocytes, the opposite of what the other three hormones in this list do. This anti-lipolytic action is why high-dose niacin has historically been used to lower plasma triglycerides and LDL cholesterol. Its everyday role as a B-vitamin (part of NAD+/NADP+) is a separate fact from this pharmacological, anti-lipolytic effect at high dose.
+
+## answer_d
+Epinephrine
+
+## explanation_d
+Incorrect (this IS lipolytic). Epinephrine, like glucagon, raises cAMP via adenylyl cyclase and activates hormone-sensitive lipase, driving lipolysis as part of the fight-or-flight response.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Hormonal control of lipolysis
+
+## main_concept
+CON-FND-1C668119B3C0BB
+
+## concept_ids
+CON-FND-1C668119B3C0BB
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+Identify nicotinic acid as anti-lipolytic, in contrast to the lipolytic hormones thyroxine, glucagon and epinephrine.
+
+## source_citation
+All quizzes CBF .pdf, 133
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Nicotinic acid", p133
+pendingConcept: CON-FND-1C668119B3C0BB is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key lipid.hormonal-control.lipogenesis-versus-lipolysis -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q071
+
+## title
+Hormone-sensitive lipase acts in adipocytes
+
+## question
+Hormone-sensitive lipase can hydrolyze the triacylglycerols inside which of the following?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+VLDL
+
+## explanation_a
+Incorrect. VLDL's triacylglycerol is hydrolysed at the capillary wall by lipoprotein lipase, an extracellular enzyme, not by hormone-sensitive lipase, which acts intracellularly.
+
+## answer_b
+Adipocytes
+
+## explanation_b
+Correct. Hormone-sensitive lipase is the intracellular enzyme inside adipocytes that hydrolyses stored triacylglycerol to free fatty acids and glycerol during lipolysis; it is the enzyme phosphorylated (activated) by protein kinase A downstream of lipolytic hormone signalling. The glycerol released cannot be reused by the adipocyte itself, since adipose tissue lacks glycerol kinase, so it travels to the liver for use in gluconeogenesis. The free fatty acids released are instead exported to be taken up and oxidised by other tissues, or re-esterified by the liver.
+
+## answer_c
+Chylomicrons
+
+## explanation_c
+Incorrect. Chylomicron triacylglycerol, like VLDL's, is hydrolysed extracellularly by lipoprotein lipase at the capillary wall, not by hormone-sensitive lipase.
+
+## answer_d
+Digested food
+
+## explanation_d
+Incorrect. Triacylglycerol in digested food is hydrolysed in the gut lumen by pancreatic lipase, an entirely separate, extracellular digestive enzyme, not by hormone-sensitive lipase.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Hormonal control of lipolysis
+
+## main_concept
+CON-FND-1C668119B3C0BB
+
+## concept_ids
+CON-FND-1C668119B3C0BB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that hormone-sensitive lipase acts intracellularly in adipocytes.
+
+## source_citation
+All quizzes CBF .pdf, 134
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Adipocytes", p134
+pendingConcept: CON-FND-1C668119B3C0BB is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key lipid.hormonal-control.lipogenesis-versus-lipolysis -- this question and its +aun overlay apply only after Omar imports that Kasr batch
+
+---
+
+# Item
+
+## id
+QST-AUNCBF103-CBFQUIZPENDING103BMS-Q072
+
+## title
+cAMP-activated triglyceride lipase regulates lipolysis
+
+## question
+Which of the following regulates lipolysis in adipocytes?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Activation of triglyceride lipase as a result of hormone-stimulated increases in cAMP levels
+
+## explanation_a
+Correct. Lipolytic hormones (glucagon, epinephrine, and others) raise intracellular cAMP via adenylyl cyclase; cAMP activates protein kinase A, which phosphorylates and activates hormone-sensitive (triglyceride) lipase, the step that directly controls the rate of lipolysis in adipocytes. Insulin reverses this entire cascade, lowering cAMP (via phosphodiesterase activation) and activating a phosphatase that dephosphorylates and inactivates the lipase, which is why insulin is the body's principal anti-lipolytic signal. This cAMP-PKA-lipase axis is therefore the single regulatory node that lipolytic and anti-lipolytic signals both act through, in opposite directions.
+
+## answer_b
+Activation of fatty acid synthesis mediated by cAMP
+
+## explanation_b
+Incorrect. cAMP inhibits, rather than activates, fatty acid synthesis (by inactivating acetyl-CoA carboxylase); it does not mediate lipogenesis activation.
+
+## answer_c
+Glycerol phosphorylation to prevent futile esterification of fatty acids
+
+## explanation_c
+Incorrect. Adipose tissue lacks glycerol kinase, so it cannot phosphorylate the glycerol released by lipolysis at all, let alone use that as the regulatory step controlling lipolysis; this is a distractor built on an unrelated fact about adipose glycerol handling.
+
+## answer_d
+Activation of cAMP production by insulin
+
+## explanation_d
+Incorrect. Insulin lowers, rather than raises, cAMP (by activating phosphodiesterase), which is exactly why insulin is anti-lipolytic rather than a driver of lipolysis.
+
+## topic
+Lipid Biochemistry
+
+## subtopic
+Hormonal control of lipolysis
+
+## main_concept
+CON-FND-1C668119B3C0BB
+
+## concept_ids
+CON-FND-1C668119B3C0BB
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AUN_Y1=moderate
+
+## years
+AUN_Y1
+
+## universities
+aun
+
+## module
+AUN-CBF-103
+
+## module_subject
+AUN-CBF-103 > Biochemistry > Vitamins
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT
+
+## resource_ids
+src_f7e45bae9ce161e08d46
+
+## learning_objective
+State that lipolytic hormones activate hormone-sensitive (triglyceride) lipase via cAMP and protein kinase A.
+
+## source_citation
+All quizzes CBF .pdf, 135
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed "The correct answer is: Activation of triglyceride lipase as a result of hormone stimulated increases in CAMP levels", p135
+pendingConcept: CON-FND-1C668119B3C0BB is pending in docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md and docs/import-ready/concept/103-BMS-mcq-lipid-concepts.md, canonical_key lipid.hormonal-control.lipogenesis-versus-lipolysis -- this question and its +aun overlay apply only after Omar imports that Kasr batch

@@ -9,7 +9,19 @@
   full record. Lane 3 (branch aun-cbf103-author3) appended the ten rows
   below the original three (all from 103-BMS-mcq-carbohydrate-concepts.md),
   reused for the carbohydrate-metabolism and citric-acid-cycle quiz blocks
-  (pp.39-59 of "All quizzes CBF .pdf").
+  (pp.39-59 of "All quizzes CBF .pdf"). Lane 4 (branch aun-cbf103-author4)
+  appended nine further rows below those thirteen: CON-FND-1BE461A57AB76D
+  (Von Gierke's disease) and CON-FND-3905E3B98C2EC4 (glycogenolysis
+  products/phosphorylase), both from 103-BMS-mcq-carbohydrate-concepts.md;
+  CON-END-AC5B11BA2F2BCA (diabetes diagnostic thresholds/OGTT),
+  CON-END-85750744126501 (type 1 vs type 2 diabetes), CON-GIT-ECB3C2F56DC72D
+  (lipoprotein density series/chylomicrons/HDL), CON-FND-177A829022AC8F
+  (carnitine shuttle), CON-FND-84BDACCA71AF45 (beta-oxidation two-carbon
+  cycle/ATP yield), CON-FND-4C05D459E80AEF (oxidation vs synthesis redox
+  cofactors) and CON-FND-1C668119B3C0BB (lipolysis/lipogenesis hormonal
+  control), all from 103-BMS-mcq-lipid-concepts.md, reused for the
+  glucose-regulation, glycogen, lipoprotein and fatty-acid-oxidation quiz
+  blocks OCR'd on pp.91-149.
 
   Apply after: the Kasr 103-BMS-biochemistry-concepts.md,
   103-BMS-mcq-carbohydrate-concepts.md and 103-BMS-mcq-lipid-concepts.md
@@ -253,6 +265,177 @@ CON-FND-BCCBDEC637795A
 
 ## canonical_key
 tca.site.matrix-except-succinate-dehydrogenase
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-CBF-103
+
+---
+
+# Item
+
+## id
+CON-FND-1BE461A57AB76D
+
+## canonical_key
+glycogenosis.von-gierke.glucose-6-phosphatase-deficiency
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-CBF-103
+
+---
+
+# Item
+
+## id
+CON-FND-3905E3B98C2EC4
+
+## canonical_key
+glycogenolysis.products.glucose-1-phosphate-and-tissue-fate
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-CBF-103
+
+---
+
+# Item
+
+## id
+CON-END-AC5B11BA2F2BCA
+
+## canonical_key
+diabetes.diagnosis.glycaemic-thresholds
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-CBF-103
+
+---
+
+# Item
+
+## id
+CON-END-85750744126501
+
+## canonical_key
+diabetes.classification.type-1-versus-type-2
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-CBF-103
+
+---
+
+# Item
+
+## id
+CON-GIT-ECB3C2F56DC72D
+
+## canonical_key
+lipoprotein.composition.protein-content-density-series
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-CBF-103
+
+---
+
+# Item
+
+## id
+CON-FND-177A829022AC8F
+
+## canonical_key
+carnitine.shuttle.fatty-acid-activation-and-transport
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-CBF-103
+
+---
+
+# Item
+
+## id
+CON-FND-84BDACCA71AF45
+
+## canonical_key
+oxidation.beta.two-carbon-cycle-yield
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-CBF-103
+
+---
+
+# Item
+
+## id
+CON-FND-4C05D459E80AEF
+
+## canonical_key
+lipid.redox-cofactors.oxidation-versus-synthesis
+
+## universities
++aun
+
+## learner_years
++1
+
+## modules
++AUN-CBF-103
+
+---
+
+# Item
+
+## id
+CON-FND-1C668119B3C0BB
+
+## canonical_key
+lipid.hormonal-control.lipogenesis-versus-lipolysis
 
 ## universities
 +aun
