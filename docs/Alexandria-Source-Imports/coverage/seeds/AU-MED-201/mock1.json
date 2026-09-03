@@ -1,0 +1,1072 @@
+{
+  "lane": "AU-MED-201",
+  "cluster": "mock1",
+  "header": "AU-MED-201 (Endocrine and Genitourinary Systems & Clinical Skills 3) · first MCQ-authoring pass on this module (previously 0 authored records) — authored from \"EOM MCQs - Mock exam EGU 2023-2024 answers.pdf\" (src_a6e9adda1ad630d28a55, 27pp, native text, twinPreferred=true), each item keyed from its own printed \"The correct answer is: …\" line. 26 of the paper's ~30 usable items authored (Q1-Q8, Q10-Q16, Q18-Q21, Q23-Q29); Q9 (two-part figure question), Q17, Q22 and Q30 held as image-dependent (attached figures not available in this repository).",
+  "defaults": {
+    "subject": "renal",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "au"
+    ],
+    "years": [
+      "AU_Y2"
+    ],
+    "module": "AU-MED-201",
+    "module_subject": "AU-MED-201 > General > Mock Exam EGU 2023-2024",
+    "exam_weight_by_year": {
+      "AU_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_a6e9adda1ad630d28a55"
+    ],
+    "source_citation": "Alexandria MED 201 EGU Mock exam 2023-2024 answers, Q{page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q01",
+      "id": "QST-AUMED201-MOCK1-Q01",
+      "page": 1,
+      "title": "Finding in primary hyperaldosteronism",
+      "question": "A young man presents with a blood pressure of 175/110 mmHg. He has a high circulating aldosterone level. Which of the following may be present in this patient?",
+      "options": {
+        "A": "Decreased cardiac output",
+        "B": "Hypokalemia",
+        "C": "Acidosis",
+        "D": "Hypercalcemia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Aldosterone excess expands extracellular volume through renal sodium retention, which tends to raise, not lower, cardiac output and blood pressure — it does not depress cardiac output.",
+        "B": "Correct. Aldosterone acts on collecting duct principal cells to increase sodium reabsorption in exchange for increased potassium (and hydrogen) secretion. In sustained aldosterone excess this potassium wasting produces hypokalemia, the classic biochemical finding paired with the hypertension described here, and is the finding most directly explained by a high circulating aldosterone level.",
+        "C": "Incorrect. The hydrogen ion secretion that accompanies aldosterone's sodium-potassium exchange tends to produce a mild metabolic alkalosis, not acidosis.",
+        "D": "Incorrect. Aldosterone acts on renal sodium, potassium and hydrogen handling; it has no direct effect on calcium handling, so hypercalcemia is not an expected finding of aldosterone excess."
+      },
+      "main_concept": "CON-END-01B09375D83562",
+      "concept_ids": [
+        "CON-END-01B09375D83562"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Adrenal Cortex Hormones",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that hypokalemia, from aldosterone-driven renal potassium secretion, is the expected finding in a hypertensive patient with high circulating aldosterone.",
+      "module_subject": "AU-MED-201 > Physiology > Adrenal Cortex Hormones",
+      "field_notes": {
+        "keySource": "printed answer table, Q1, p1",
+        "au": "Mock exam EGU 2023-2024 answers, p1 q1"
+      }
+    },
+    {
+      "key": "q02",
+      "id": "QST-AUMED201-MOCK1-Q02",
+      "page": 1,
+      "title": "Process inhibited in type I diabetes mellitus",
+      "question": "Which of the following is inhibited in diabetes mellitus type I?",
+      "options": {
+        "A": "Ketogenesis",
+        "B": "Gluconeogenesis",
+        "C": "Glycogenolysis",
+        "D": "Glycogenesis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. With insulin deficiency, cells rely on fatty-acid oxidation for fuel, and hepatic ketogenesis is enhanced (not inhibited), producing the ketoacidosis characteristic of untreated type I diabetes.",
+        "B": "Incorrect. Unopposed glucagon and low insulin promote hepatic gluconeogenesis, raising blood glucose further; gluconeogenesis is enhanced, not inhibited, in insulin deficiency.",
+        "C": "Incorrect. Glycogen breakdown (glycogenolysis) is disinhibited when insulin is low, contributing to hyperglycemia; it is not the process that is inhibited.",
+        "D": "Correct. Insulin is the principal hormone driving glycogenesis (glycogen synthesis) in liver and muscle. In type I diabetes mellitus, absolute insulin deficiency removes this anabolic drive, so glycogenesis specifically is inhibited, while ketogenesis, gluconeogenesis and glycogenolysis are all instead enhanced."
+      },
+      "main_concept": "CON-END-97D315F3E6ECFB",
+      "concept_ids": [
+        "CON-END-97D315F3E6ECFB"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Insulin and Diabetes Mellitus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify glycogenesis as the process inhibited by insulin deficiency in type I diabetes mellitus, distinguishing it from the enhanced ketogenesis, gluconeogenesis and glycogenolysis.",
+      "module_subject": "AU-MED-201 > Physiology > Insulin and Diabetes Mellitus",
+      "field_notes": {
+        "keySource": "printed answer table, Q2, p1",
+        "au": "Mock exam EGU 2023-2024 answers, p1 q2"
+      }
+    },
+    {
+      "key": "q03",
+      "id": "QST-AUMED201-MOCK1-Q03",
+      "page": 2,
+      "title": "Defining feature of the bicarbonate buffer system",
+      "question": "Which of the following best describes the bicarbonate buffer system?",
+      "options": {
+        "A": "The buffer releases more protons if pH of blood drops",
+        "B": "The concentration of its components can be independently regulated",
+        "C": "Its pKa is equal to blood pH",
+        "D": "Requires 1-2 days to readjust the blood pH"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Buffering consumes free hydrogen ions as pH falls; the bicarbonate pair does not release additional protons in response to a falling pH.",
+        "B": "Correct. The bicarbonate/carbonic-acid pair is physiologically powerful because it is an 'open system': CO2 (via carbonic acid) is regulated by the lungs through ventilation, while HCO3- is regulated independently by the kidneys through tubular reabsorption and regeneration. This independent, two-organ regulation — rather than the pair's intrinsic chemistry — is what makes it the body's most important extracellular buffer.",
+        "C": "Incorrect. The bicarbonate buffer's pKa is about 6.1, well below blood pH of 7.4; a buffer is normally most effective when its pKa is close to the working pH, so this is not what gives the bicarbonate system its physiological power.",
+        "D": "Incorrect. The respiratory component of bicarbonate buffering (via ventilation) can adjust pH within minutes; a full renal compensation may take longer, but the system as a whole does not require a uniform 1-2 days to act."
+      },
+      "main_concept": "CON-REN-DA107AD8D88297",
+      "concept_ids": [
+        "CON-REN-DA107AD8D88297"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Acid-Base Physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the bicarbonate buffer system's defining feature is that its two components can be independently regulated by the lungs and kidneys.",
+      "module_subject": "AU-MED-201 > Physiology > Acid-Base Physiology",
+      "field_notes": {
+        "keySource": "printed answer table, Q3, p2",
+        "au": "Mock exam EGU 2023-2024 answers, p2 q3"
+      }
+    },
+    {
+      "key": "q04",
+      "id": "QST-AUMED201-MOCK1-Q04",
+      "page": 2,
+      "title": "Nephron segment affected by ADH deficiency",
+      "question": "Deficiency of antidiuretic hormone will cause loss of water through which segment of the nephron?",
+      "options": {
+        "A": "Descending limb of Henle",
+        "B": "Ascending limb of Henle",
+        "C": "Distal convoluted tubules",
+        "D": "Proximal convoluted tubules"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The descending limb of the loop of Henle is freely permeable to water independent of ADH, so its water handling is not the segment affected by ADH deficiency.",
+        "B": "Incorrect. The thick ascending limb is water-impermeable regardless of ADH status (it is the segment that dilutes tubular fluid by reabsorbing solute without water); ADH has no water-permeability effect there to lose.",
+        "C": "Correct. This source's own printed key attributes ADH-deficiency water loss to the distal convoluted tubule. ADH acts via V2 receptors to insert aquaporin-2 water channels in this segment, and without ADH the segment stays relatively water-impermeable, so the filtrate reaching it is not concentrated and water is lost in the urine — producing the polyuria of diabetes insipidus. (Most texts describe this ADH-sensitive water reabsorption as occurring in the late distal tubule together with the collecting duct as one functional unit; this source's key names the distal convoluted tubule specifically.)",
+        "D": "Incorrect. Proximal convoluted tubule water reabsorption (about 65% of the filtered load) is obligatory and essentially independent of ADH; it is not the ADH-regulated segment."
+      },
+      "main_concept": "CON-REN-106A6BC5BA462A",
+      "concept_ids": [
+        "CON-REN-106A6BC5BA462A"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Renal Tubular Physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State, per this source's own key, that ADH deficiency causes water loss through the distal convoluted tubule.",
+      "module_subject": "AU-MED-201 > Physiology > Renal Tubular Physiology",
+      "field_notes": {
+        "keySource": "printed answer table, Q4, p2 — kept per LANE-CARD printed-key convention, doubt flagged on the concept record",
+        "au": "Mock exam EGU 2023-2024 answers, p2 q4"
+      }
+    },
+    {
+      "key": "q05",
+      "id": "QST-AUMED201-MOCK1-Q05",
+      "page": 3,
+      "title": "Histological feature of pancreatic islet alpha cells",
+      "question": "Which of the following is a histological feature of a cells of pancreatic islets?",
+      "options": {
+        "A": "Peripherally located",
+        "B": "The least numerous",
+        "C": "Small in size",
+        "D": "Surrounded by sinusoidal capillaries"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Alpha (A) cells, which secrete glucagon, are characteristically located at the periphery of the pancreatic islet, forming an outer rim around the more centrally-placed, more numerous beta cells. This peripheral position is the histological feature that identifies alpha cells on a stained section.",
+        "B": "Incorrect. Being the least numerous islet cell type describes delta (D) cells, which secrete somatostatin, not alpha cells (which are the second most numerous islet cell type after beta cells).",
+        "C": "Incorrect. Alpha cells are not characteristically distinguished by small size; their distinguishing feature on histology is their peripheral position, not their dimensions.",
+        "D": "Incorrect. Fenestrated sinusoidal capillaries supply the islet as a whole, shared by all islet cell types, not a feature specific to alpha cells."
+      },
+      "main_concept": "CON-END-B451C6EAC6B3E0",
+      "concept_ids": [
+        "CON-END-B451C6EAC6B3E0"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-HISTOLOGY"
+      ],
+      "topic": "Histology",
+      "subtopic": "Endocrine Pancreas",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify peripheral location within the islet as the histological feature of pancreatic alpha cells.",
+      "module_subject": "AU-MED-201 > Histology > Endocrine Pancreas",
+      "field_notes": {
+        "keySource": "printed answer table, Q5, p3",
+        "au": "Mock exam EGU 2023-2024 answers, p3 q5"
+      }
+    },
+    {
+      "key": "q06",
+      "id": "QST-AUMED201-MOCK1-Q06",
+      "page": 3,
+      "title": "Intracellular messenger of alpha-1 adrenergic receptors",
+      "question": "Which of the following is the intracellular messenger of a1-adrenergic catecholamines?",
+      "options": {
+        "A": "cGMP",
+        "B": "Calcium or phosphatidyl inositol",
+        "C": "cAMP",
+        "D": "Tyrosine kinase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. cGMP is the second messenger of the nitric oxide/atrial natriuretic peptide signalling pathways, not of alpha-1 adrenergic receptor stimulation.",
+        "B": "Correct. Alpha-1 adrenergic receptors are Gq-protein-coupled: catecholamine binding activates phospholipase C, which hydrolyses membrane phosphatidylinositol to generate IP3 and diacylglycerol, raising intracellular calcium. This calcium/phosphatidylinositol pathway is the a1 receptor's intracellular messenger system.",
+        "C": "Incorrect. cAMP is the second messenger of beta-adrenergic (Gs-coupled, cAMP-raising) receptors, and is instead lowered by alpha-2 (Gi-coupled) receptors — a1 receptors do not signal through cAMP.",
+        "D": "Incorrect. Tyrosine kinase signalling is characteristic of growth factor and insulin receptors, not of alpha-1 adrenergic receptors, which are G-protein-coupled rather than enzyme-linked receptors."
+      },
+      "main_concept": "CON-END-25A36EB94A8DD9",
+      "concept_ids": [
+        "CON-END-25A36EB94A8DD9"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Autonomic Receptor Physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify calcium/phosphatidylinositol turnover as the intracellular messenger system of alpha-1 adrenergic receptors.",
+      "module_subject": "AU-MED-201 > Physiology > Autonomic Receptor Physiology",
+      "field_notes": {
+        "keySource": "printed answer table, Q6, p3",
+        "au": "Mock exam EGU 2023-2024 answers, p3 q6"
+      }
+    },
+    {
+      "key": "q07",
+      "id": "QST-AUMED201-MOCK1-Q07",
+      "page": 4,
+      "title": "First hormone affected by partial pituitary insufficiency",
+      "question": "If a patient has a pituitary mass that causes partial insufficiency of its function, what is the first hormone likely affected?",
+      "options": {
+        "A": "ACTH",
+        "B": "GH",
+        "C": "TSH",
+        "D": "GnTH"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. ACTH is classically among the last anterior pituitary hormones lost in progressive pituitary insufficiency, not the first.",
+        "B": "Correct. Growth hormone (GH) is classically taught as the anterior pituitary hormone whose secretion is affected earliest in progressive, partial pituitary insufficiency — before gonadotropins, TSH and ACTH. This ordering reflects somatotroph cells' relative vulnerability to compressive or infiltrative pituitary lesions compared with the other anterior pituitary cell lines. It is a teaching convention for the typical sequence of hormone loss, useful for deciding which axis to test earliest when a pituitary mass is suspected.",
+        "C": "Incorrect. TSH loss typically occurs later in the classic sequence of progressive hypopituitarism, after GH and gonadotropins.",
+        "D": "Incorrect. Gonadotropin (GnTH/GnRH-dependent hormone) deficiency typically follows GH loss in the classic sequence, rather than being the first hormone affected."
+      },
+      "main_concept": "CON-END-7B88E785BB0EC2",
+      "concept_ids": [
+        "CON-END-7B88E785BB0EC2"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Anterior Pituitary Physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that growth hormone is classically the first anterior pituitary hormone lost in progressive partial pituitary insufficiency.",
+      "module_subject": "AU-MED-201 > Physiology > Anterior Pituitary Physiology",
+      "field_notes": {
+        "keySource": "printed answer table, Q7, p4",
+        "au": "Mock exam EGU 2023-2024 answers, p4 q7"
+      }
+    },
+    {
+      "key": "q08",
+      "id": "QST-AUMED201-MOCK1-Q08",
+      "page": 4,
+      "title": "Muscles at risk from perineal body damage",
+      "question": "If the perineal body was damaged during an incision to prevent uncontrolled tearing during labor, the function of which of the following muscles might be impaired?",
+      "options": {
+        "A": "Deep transverse perineal and obturator internus",
+        "B": "Ischiocavernosus and sphincter urethrae",
+        "C": "Bulbospongiosus and ischiocavernosus",
+        "D": "Bulbospongiosus and superficial transverse perineal"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The deep transverse perineal muscle sits in the deep perineal pouch above the perineal membrane, not inserting into the perineal body, and obturator internus is a pelvic sidewall muscle unrelated to the perineal body.",
+        "B": "Incorrect. Ischiocavernosus attaches to the ischiopubic ramus and the crus of the clitoris/penis, not the perineal body, and sphincter urethrae (external urethral sphincter) sits in the deep perineal pouch, not inserting into the perineal body.",
+        "C": "Incorrect. While bulbospongiosus does insert into the perineal body, ischiocavernosus does not — it attaches instead to the ischiopubic ramus and crus, so this pairing is incorrect.",
+        "D": "Correct. The bulbospongiosus and superficial transverse perineal muscles, both of the superficial perineal pouch, converge into and interlace with the perineal body (the central tendon of the perineum). Because these two muscles physically insert into it, an episiotomy or tear through the perineal body during labor risks their function specifically, unlike the deep-pouch muscles or ischiocavernosus."
+      },
+      "main_concept": "CON-GYN-69F88E5ADF03C9",
+      "concept_ids": [
+        "CON-GYN-69F88E5ADF03C9"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-AU-MED-201-MOCK-ANATOMY"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Perineum and Pelvic Floor",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the bulbospongiosus and superficial transverse perineal muscles as the two muscles at risk from perineal-body damage.",
+      "module_subject": "AU-MED-201 > Anatomy > Perineum and Pelvic Floor",
+      "field_notes": {
+        "keySource": "printed answer table, Q8, p4",
+        "au": "Mock exam EGU 2023-2024 answers, p4 q8"
+      }
+    },
+    {
+      "key": "q10",
+      "id": "QST-AUMED201-MOCK1-Q10",
+      "page": 6,
+      "title": "Target organ of antidiuretic hormone",
+      "question": "What is the target organ for antidiuretic hormone action?",
+      "options": {
+        "A": "Kidney",
+        "B": "Liver",
+        "C": "Pancreas",
+        "D": "Thyroid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Antidiuretic hormone (ADH/vasopressin) acts on V2 receptors of the renal distal tubule and collecting duct principal cells, inserting aquaporin-2 water channels to increase water reabsorption. The kidney is therefore ADH's physiological target organ for water conservation.",
+        "B": "Incorrect. The liver is not a target of ADH's water-conservation action; ADH's physiological effect is on renal water handling.",
+        "C": "Incorrect. The pancreas is not a target organ for ADH; its hormones (insulin, glucagon, somatostatin) regulate glucose metabolism, unrelated to ADH's water-conservation role.",
+        "D": "Incorrect. The thyroid gland is not a target of ADH; thyroid hormone secretion is regulated by TSH, not by ADH."
+      },
+      "main_concept": "CON-REN-6E832B8233EAD8",
+      "concept_ids": [
+        "CON-REN-6E832B8233EAD8"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Antidiuretic Hormone",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the kidney is the target organ for antidiuretic hormone's water-conservation action.",
+      "module_subject": "AU-MED-201 > Physiology > Antidiuretic Hormone",
+      "field_notes": {
+        "keySource": "printed answer table, Q10, p6",
+        "au": "Mock exam EGU 2023-2024 answers, p6 q10"
+      }
+    },
+    {
+      "key": "q11",
+      "id": "QST-AUMED201-MOCK1-Q11",
+      "page": 6,
+      "title": "Hormonal deficiency causing proportionate short stature with hypogonadism",
+      "question": "A mother observed that her 16-year-old boy is much shorter than her 10-year-old sister but his grades in school were fine and were matching with his colleagues. Physical examination reveals a proportionate growth rate, normal mental functions, and hypogonadism. Which of the following hormonal deficiencies could be responsible for this condition?",
+      "options": {
+        "A": "GH & GnRH",
+        "B": "GH",
+        "C": "Insulin",
+        "D": "Thyroid hormones"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Proportionate short stature with normal cognition plus hypogonadism/delayed puberty fits combined growth hormone (GH) and gonadotropin-releasing hormone (GnRH)/gonadotropin deficiency. GH deficiency explains the proportionate growth failure without impairing intelligence, while GnRH/gonadotropin deficiency separately explains the hypogonadism. Together the two deficiencies account for the full clinical picture, which is why this combination — rather than either hormone alone — is the best answer.",
+        "B": "Incorrect. Isolated GH deficiency alone would explain the proportionate short stature but does not account for the hypogonadism described in this vignette.",
+        "C": "Incorrect. Insulin deficiency produces the metabolic derangements of diabetes mellitus, not proportionate short stature with normal cognition and hypogonadism.",
+        "D": "Incorrect. Thyroid hormone deficiency (hypothyroidism) would typically also impair mental function and school performance, and produce disproportionate rather than purely proportionate growth failure, unlike this vignette's normal grades and proportionate growth."
+      },
+      "main_concept": "CON-END-E1FD6C9CCEAD58",
+      "concept_ids": [
+        "CON-END-E1FD6C9CCEAD58"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Pituitary Hormone Deficiency",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Recognise proportionate short stature with normal cognition plus hypogonadism as fitting combined GH and GnRH deficiency.",
+      "module_subject": "AU-MED-201 > Physiology > Pituitary Hormone Deficiency",
+      "field_notes": {
+        "keySource": "printed answer table, Q11, p6",
+        "au": "Mock exam EGU 2023-2024 answers, p6 q11"
+      }
+    },
+    {
+      "key": "q12",
+      "id": "QST-AUMED201-MOCK1-Q12",
+      "page": 7,
+      "title": "Function of the distal convoluted tubule",
+      "question": "What is the function of the distal convoluted tubules?",
+      "options": {
+        "A": "Determine the final composition of urine",
+        "B": "Reabsorb sodium in exchange for hydrogen or potassium ions",
+        "C": "Secondary active secretion of hydrogen ions into the tubular lumen",
+        "D": "Reabsorb about 50 percent of the water filtered by the glomeruli"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Determining the final composition of urine better describes the collecting duct's role as the last major site of regulated adjustment, downstream of the distal convoluted tubule.",
+        "B": "Correct. The distal convoluted tubule, particularly its aldosterone-sensitive late segment, reabsorbs sodium via the thiazide-sensitive Na+/Cl- cotransporter and principal-cell sodium channels. This sodium reabsorption is functionally coupled to potassium and hydrogen ion secretion into the tubular lumen under aldosterone's control. Thiazide diuretics act by blocking this same Na+/Cl- cotransporter, which is why they can cause hypokalemia as a side effect.",
+        "C": "Incorrect. Secondary active secretion of hydrogen ions via the Na+/H+ antiporter is the proximal tubule's dominant H+-handling mechanism, not the distal convoluted tubule's defining function.",
+        "D": "Incorrect. Reabsorbing about 50 percent of filtered water understates the proximal tubule's roughly 65% obligatory water reabsorption, and the distal convoluted tubule's early segment is instead relatively water-impermeable."
+      },
+      "main_concept": "CON-REN-27C6829FF375F7",
+      "concept_ids": [
+        "CON-REN-27C6829FF375F7"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Renal Tubular Physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify sodium reabsorption coupled to hydrogen/potassium secretion as the distal convoluted tubule's function.",
+      "module_subject": "AU-MED-201 > Physiology > Renal Tubular Physiology",
+      "field_notes": {
+        "keySource": "printed answer table, Q12, p7",
+        "au": "Mock exam EGU 2023-2024 answers, p7 q12"
+      }
+    },
+    {
+      "key": "q13",
+      "id": "QST-AUMED201-MOCK1-Q13",
+      "page": 7,
+      "title": "Hormone synthesized by the anterior pituitary gland",
+      "question": "Which of the following hormones is synthesized by the anterior pituitary gland?",
+      "options": {
+        "A": "FSH",
+        "B": "CRH",
+        "C": "ADH",
+        "D": "TRH"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Follicle-stimulating hormone (FSH) is a genuine anterior pituitary hormone, synthesised and secreted by gonadotroph cells under hypothalamic GnRH stimulation. FSH, together with LH, drives gonadal function — supporting follicular development in the ovary and Sertoli cell function in the testis. Its synthesis site within the anterior pituitary itself is what distinguishes it from the three hypothalamic/posterior-pituitary hormones offered as distractors here.",
+        "B": "Incorrect. Corticotropin-releasing hormone (CRH) is a hypothalamic releasing hormone that acts on the anterior pituitary to stimulate ACTH release; it is not itself synthesised by the anterior pituitary.",
+        "C": "Incorrect. Antidiuretic hormone (ADH) is synthesised in the hypothalamus (supraoptic/paraventricular nuclei) and released from the posterior, not anterior, pituitary.",
+        "D": "Incorrect. Thyrotropin-releasing hormone (TRH) is a hypothalamic releasing hormone that acts on the anterior pituitary to stimulate TSH release; it is not itself an anterior pituitary hormone."
+      },
+      "main_concept": "CON-END-47B1788A21BEF9",
+      "concept_ids": [
+        "CON-END-47B1788A21BEF9"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Anterior Pituitary Physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify FSH as a genuine anterior pituitary hormone, distinguishing it from hypothalamic releasing hormones and posterior-pituitary ADH.",
+      "module_subject": "AU-MED-201 > Physiology > Anterior Pituitary Physiology",
+      "field_notes": {
+        "keySource": "printed answer table, Q13, p7",
+        "au": "Mock exam EGU 2023-2024 answers, p7 q13"
+      }
+    },
+    {
+      "key": "q14",
+      "id": "QST-AUMED201-MOCK1-Q14",
+      "page": 8,
+      "title": "Differentiating zona glomerulosa from zona reticularis",
+      "question": "Which of the following differentiates the cells of zona glomerulosa from that of zona reticularis?",
+      "options": {
+        "A": "Show features of protein-secreting cells",
+        "B": "Arranged in closely-packed arched clusters",
+        "C": "Give positive chromaffin reaction",
+        "D": "Contain more lipofuscin pigments in their cytoplasm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. All three zones of the adrenal cortex, including zona glomerulosa and zona reticularis, are steroid-secreting cells with abundant smooth endoplasmic reticulum and lipid droplets, not classic protein-secreting-cell ultrastructure.",
+        "B": "Correct. The zona glomerulosa is arranged in closely-packed, rounded/arched clusters of cells immediately beneath the adrenal capsule. This distinctive architecture differentiates it from the zona reticularis, which instead forms an anastomosing network of cords, and from the intervening zona fasciculata, which is arranged in parallel cords. Architecture, rather than secretory product staining, is the histological feature that lets these three cortical zones be told apart on a routine section.",
+        "C": "Incorrect. A positive chromaffin reaction is a feature of the adrenal medulla's chromaffin cells, not of either adrenal cortex zone.",
+        "D": "Incorrect. Greater cytoplasmic lipofuscin content is the zona reticularis's own distinguishing feature, not the zona glomerulosa's — this option describes the wrong zone."
+      },
+      "main_concept": "CON-END-00363BC550B34E",
+      "concept_ids": [
+        "CON-END-00363BC550B34E"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-HISTOLOGY"
+      ],
+      "topic": "Histology",
+      "subtopic": "Adrenal Cortex",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the zona glomerulosa's arched-cluster arrangement as the feature that differentiates it from the zona reticularis.",
+      "module_subject": "AU-MED-201 > Histology > Adrenal Cortex",
+      "field_notes": {
+        "keySource": "printed answer table, Q14, p8",
+        "au": "Mock exam EGU 2023-2024 answers, p8 q14"
+      }
+    },
+    {
+      "key": "q15",
+      "id": "QST-AUMED201-MOCK1-Q15",
+      "page": 8,
+      "title": "Description of the ovarian germinal epithelium",
+      "question": "Which of the following describes the germinal epithelium?",
+      "options": {
+        "A": "Continuous with the mesothelium of the tunica vaginalis",
+        "B": "Sheet of ciliated columnar epithelium",
+        "C": "Lies outer to the tunica albuginea",
+        "D": "Gives origin to the primordial germ cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The tunica vaginalis is a testicular (not ovarian) structure; the ovarian germinal epithelium is instead continuous with the peritoneal mesothelium at the mesovarium.",
+        "B": "Incorrect. The ovarian germinal epithelium is a simple cuboidal-to-low-columnar layer, not a sheet of ciliated columnar epithelium (which instead describes parts of the uterine tube lining).",
+        "C": "Correct. The ovary's surface is covered by a single layer of simple cuboidal (to low columnar) epithelium historically named the 'germinal epithelium.' This layer lies external (outer) to the tunica albuginea — the dense connective-tissue capsule that itself lies just deep to this surface layer. Most epithelial ovarian tumours arise from this surface layer, which is one reason its correct position and identity are clinically relevant, not just a naming curiosity.",
+        "D": "Incorrect. Despite its historical name, the germinal epithelium does not give rise to the primordial germ cells; those originate from yolk sac endoderm and migrate into the developing gonad during embryogenesis — a classic misnomer this distractor tests directly."
+      },
+      "main_concept": "CON-AND-AEA8131AE609D6",
+      "concept_ids": [
+        "CON-AND-AEA8131AE609D6"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-HISTOLOGY"
+      ],
+      "topic": "Histology",
+      "subtopic": "Ovary",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the ovarian germinal epithelium lies outer to the tunica albuginea, and that it does not give rise to the primordial germ cells despite its name.",
+      "module_subject": "AU-MED-201 > Histology > Ovary",
+      "field_notes": {
+        "keySource": "printed answer table, Q15, p8",
+        "au": "Mock exam EGU 2023-2024 answers, p8 q15"
+      }
+    },
+    {
+      "key": "q16",
+      "id": "QST-AUMED201-MOCK1-Q16",
+      "page": 9,
+      "title": "Determinant of excretion rate for a freely-filtered, non-transported substance",
+      "question": "Which of the following affects the excretion rate of substance \"X\" if it is freely filtered but not secreted or absorbed by the renal tubules?",
+      "options": {
+        "A": "Filtered load of the substance",
+        "B": "Medullary osmotic gradient",
+        "C": "Number of carriers in brush border",
+        "D": "Hormonal control of substance X at renal tubules"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. For a substance that is freely filtered and neither reabsorbed nor secreted anywhere along the nephron, its excretion rate is fixed entirely by how much is filtered per unit time. This quantity, the filtered load (GFR x plasma concentration), is the only variable that matters once nothing is added or removed after filtration. Inulin is the classic example of such a substance, which is exactly why it is used to measure GFR directly from its clearance.",
+        "B": "Incorrect. The medullary osmotic gradient affects water and solute reabsorption in the loop of Henle and collecting duct; it is irrelevant to a substance that undergoes no tubular reabsorption at all.",
+        "C": "Incorrect. Brush-border carrier number would matter only if the substance were reabsorbed or secreted by carrier-mediated transport; by definition this substance undergoes neither.",
+        "D": "Incorrect. Hormonal control acts on tubular reabsorption or secretion mechanisms; since this substance has no net tubular transport, hormonal control at the renal tubules cannot affect its excretion."
+      },
+      "main_concept": "CON-REN-B6BAE6F9DD9FFC",
+      "concept_ids": [
+        "CON-REN-B6BAE6F9DD9FFC"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Renal Clearance",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a freely filtered, non-reabsorbed, non-secreted substance has an excretion rate equal to its filtered load.",
+      "module_subject": "AU-MED-201 > Physiology > Renal Clearance",
+      "field_notes": {
+        "keySource": "printed answer table, Q16, p9",
+        "au": "Mock exam EGU 2023-2024 answers, p9 q16"
+      }
+    },
+    {
+      "key": "q18",
+      "id": "QST-AUMED201-MOCK1-Q18",
+      "page": 11,
+      "title": "Narrowest and least dilatable part of the male urethra",
+      "question": "An old man complaining of frequent difficult night urination. His CT revealed enlargement and irregularity of the narrowest and least dilatable part of the urethra. Which part of the urethra is likely affected?",
+      "options": {
+        "A": "Penile",
+        "B": "Sphincter",
+        "C": "Prostatic",
+        "D": "Membranous"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The penile (spongy) urethra is dilatable along most of its length; it is not the narrowest, least dilatable segment as a whole.",
+        "B": "Incorrect. 'Sphincter' is not one of the four conventional named parts of the male urethra (prostatic, membranous, bulbar, penile); the muscular sphincter surrounds the membranous part rather than naming a separate urethral segment.",
+        "C": "Incorrect. The prostatic urethra is the widest, most dilatable part of the male urethra, surrounded by prostatic glandular tissue — the opposite of this item's description.",
+        "D": "Correct. The membranous urethra, the short segment passing through the deep perineal pouch surrounded by the rigid external urethral sphincter, is the narrowest and least dilatable part of the whole male urethra. This distinguishes it from the wider, more distensible prostatic part and the more dilatable penile part. Its fixed, narrow calibre and its passage through a rigid muscular ring also make it the part most vulnerable to traumatic transection in pelvic fracture injuries."
+      },
+      "main_concept": "CON-REN-3625354A5C6088",
+      "concept_ids": [
+        "CON-REN-3625354A5C6088"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-AU-MED-201-MOCK-ANATOMY"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Male Urethra",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the membranous urethra as the narrowest and least dilatable part of the male urethra.",
+      "module_subject": "AU-MED-201 > Anatomy > Male Urethra",
+      "field_notes": {
+        "keySource": "printed answer table, Q18, p11",
+        "au": "Mock exam EGU 2023-2024 answers, p11 q18"
+      }
+    },
+    {
+      "key": "q19",
+      "id": "QST-AUMED201-MOCK1-Q19",
+      "page": 12,
+      "title": "Hormone driving spermatocyte meiotic division",
+      "question": "Which of the following hormones is responsible for the meiotic division of the primary spermatocyte to form the secondary spermatocyte?",
+      "options": {
+        "A": "Testosterone",
+        "B": "Growth hormone",
+        "C": "Luteinizing hormone",
+        "D": "Follicle stimulating hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Sertoli cells concentrate testosterone locally, via androgen-binding protein, to very high levels around developing germ cells. This high intratesticular testosterone concentration is the direct hormonal driver of the meiotic division of primary spermatocytes into secondary spermatocytes. Intratesticular testosterone levels are normally far higher than serum levels precisely because this local concentration is what spermatogenesis depends on.",
+        "B": "Incorrect. Growth hormone plays only a permissive, supportive role in spermatogenesis generally; it is not the direct driver of this specific meiotic step.",
+        "C": "Incorrect. Luteinizing hormone acts upstream, stimulating Leydig cells to produce testosterone, rather than acting directly on the spermatocyte to drive its meiotic division.",
+        "D": "Incorrect. Follicle-stimulating hormone acts on Sertoli cells to support spermatogenesis broadly (including androgen-binding protein production), rather than directly driving the spermatocyte's meiotic division itself."
+      },
+      "main_concept": "CON-AND-4F44607C7D0887",
+      "concept_ids": [
+        "CON-AND-4F44607C7D0887"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Spermatogenesis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that testosterone, concentrated locally by Sertoli cells, is the hormone directly responsible for primary-to-secondary spermatocyte meiosis.",
+      "module_subject": "AU-MED-201 > Physiology > Spermatogenesis",
+      "field_notes": {
+        "keySource": "printed answer table, Q19, p12",
+        "au": "Mock exam EGU 2023-2024 answers, p12 q19"
+      }
+    },
+    {
+      "key": "q20",
+      "id": "QST-AUMED201-MOCK1-Q20",
+      "page": 12,
+      "title": "Renal blood flow as a fraction of cardiac output",
+      "question": "What fraction is the renal blood flow in relation to the cardiac output (COP)?",
+      "options": {
+        "A": "1/2 of COP",
+        "B": "1/5 of COP",
+        "C": "1/4 of COP",
+        "D": "1/3 of COP"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. One-half of cardiac output overstates renal blood flow; the kidneys receive roughly a quarter of resting cardiac output, not half.",
+        "B": "Incorrect. One-fifth understates the taught figure; the standard teaching value for renal blood flow is closer to one-quarter (25%) of cardiac output.",
+        "C": "Correct. The kidneys receive a disproportionately large share of cardiac output relative to their small mass — approximately one-quarter, or about 1.0-1.25 L/min of a resting ~5 L/min cardiac output. This high perfusion supports their high rate of glomerular filtration, which in turn depends on a large, continuously renewed plasma flow. The kidneys' oxygen consumption is correspondingly high for their size, mostly driven by active tubular reabsorption rather than basal metabolism alone.",
+        "D": "Incorrect. One-third overstates the standard teaching figure of approximately one-quarter for renal blood flow's share of cardiac output."
+      },
+      "main_concept": "CON-REN-7CE7E3F88F63B2",
+      "concept_ids": [
+        "CON-REN-7CE7E3F88F63B2"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Renal Blood Flow",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that renal blood flow is approximately one-quarter of resting cardiac output.",
+      "module_subject": "AU-MED-201 > Physiology > Renal Blood Flow",
+      "field_notes": {
+        "keySource": "printed answer table, Q20, p12",
+        "au": "Mock exam EGU 2023-2024 answers, p12 q20"
+      }
+    },
+    {
+      "key": "q21",
+      "id": "QST-AUMED201-MOCK1-Q21",
+      "page": 13,
+      "title": "Function of the vasa recta",
+      "question": "What is the function of the vasa recta?",
+      "options": {
+        "A": "Distributes the medullary interstitial osmotic gradient",
+        "B": "Maintains the medullary interstitial osmotic gradient",
+        "C": "Creates the medullary interstitial osmotic gradient",
+        "D": "Decreases the gradient to one half from cortex to medulla"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. 'Distributing' the gradient is not an accurate description of the vasa recta's passive countercurrent-exchange role; their function is to preserve the gradient established elsewhere, not actively distribute it.",
+        "B": "Correct. The vasa recta are hairpin-shaped peritubular capillaries running alongside the loop of Henle into the renal medulla. Through passive countercurrent exchange along their descending and ascending limbs, they preserve the steep corticomedullary osmotic gradient that the loop of Henle's countercurrent multiplier establishes, rather than creating it themselves. Their slow, low-flow design is what lets them remove reabsorbed water and solute from the medulla without washing the gradient out.",
+        "C": "Incorrect. Creating the medullary osmotic gradient is the loop of Henle's countercurrent multiplier's role, not the vasa recta's; the vasa recta preserve a gradient already established by the loop.",
+        "D": "Incorrect. The vasa recta do not halve the gradient from cortex to medulla; their slow, low-flow, freely permeable design is specifically what lets them remove reabsorbed water and solute without washing out (dissipating) the gradient."
+      },
+      "main_concept": "CON-REN-0469D3CFE51413",
+      "concept_ids": [
+        "CON-REN-0469D3CFE51413"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Renal Medullary Countercurrent Mechanism",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the vasa recta's function is to maintain, not create, the medullary interstitial osmotic gradient.",
+      "module_subject": "AU-MED-201 > Physiology > Renal Medullary Countercurrent Mechanism",
+      "field_notes": {
+        "keySource": "printed answer table, Q21, p13",
+        "au": "Mock exam EGU 2023-2024 answers, p13 q21"
+      }
+    },
+    {
+      "key": "q23",
+      "id": "QST-AUMED201-MOCK1-Q23",
+      "page": 15,
+      "title": "Structure at risk of accidental ligation during hysterectomy",
+      "question": "During hysterectomy operation which of the following structures is most likely to be accidentally ligated?",
+      "options": {
+        "A": "Ovarian artery",
+        "B": "External iliac artery",
+        "C": "Internal iliac artery",
+        "D": "Ureter"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The ovarian artery runs higher, within the infundibulopelvic ligament, away from the cervical field where the uterine artery is ligated, so it is less at risk than the ureter during standard hysterectomy.",
+        "B": "Incorrect. The external iliac artery lies well lateral to the standard operative field for uterine vessel ligation and is not the structure classically at risk during hysterectomy.",
+        "C": "Incorrect. The internal iliac artery, like the external iliac, lies too far lateral to be directly threatened by routine uterine artery ligation at the cervix.",
+        "D": "Correct. The ureter runs retroperitoneally and, near the cervix, passes directly beneath the uterine artery close to the lateral vaginal fornix ('water under the bridge'). When the uterine artery is clamped and ligated at the level of the internal os during hysterectomy, this close proximity makes the ureter the structure most at risk of accidental ligation or injury."
+      },
+      "main_concept": "CON-GYN-F3B4DE770BCA0A",
+      "concept_ids": [
+        "CON-GYN-F3B4DE770BCA0A"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-AU-MED-201-MOCK-ANATOMY"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Female Pelvic Anatomy",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the ureter, by virtue of passing beneath the uterine artery near the cervix, as the structure most at risk during hysterectomy.",
+      "module_subject": "AU-MED-201 > Anatomy > Female Pelvic Anatomy",
+      "field_notes": {
+        "keySource": "printed answer table, Q23, p15",
+        "au": "Mock exam EGU 2023-2024 answers, p15 q23"
+      }
+    },
+    {
+      "key": "q24",
+      "id": "QST-AUMED201-MOCK1-Q24",
+      "page": 16,
+      "title": "Cell type affected by low ADH in diabetes insipidus",
+      "question": "A 25-year-old male complains of frequent urination, up to more than 3 liters per day (polyuria), and excessive thirst (polydipsia). Following blood tests a low level of ADH hormone was detected. Which of the following cells is probably affected by the low level of ADH in this condition?",
+      "options": {
+        "A": "Polar cushion cells",
+        "B": "Endothelium of vasa recta",
+        "C": "Podocytes",
+        "D": "Principal cells of collecting ducts"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. 'Polar cushion cells' are a juxtaglomerular apparatus term, unrelated to ADH-dependent water reabsorption in the collecting duct.",
+        "B": "Incorrect. Vasa recta endothelium passively exchanges solute and water with the interstitium as part of the countercurrent exchange mechanism, but it is not itself an ADH target cell.",
+        "C": "Incorrect. Podocytes are glomerular filtration-barrier cells, involved in forming the filtration slits, and are unrelated to collecting-duct water reabsorption or ADH signalling.",
+        "D": "Correct. Collecting duct principal cells carry the V2 receptors and aquaporin-2 water channels that mediate ADH-dependent water reabsorption. In a patient with low circulating ADH and a diabetes-insipidus-like picture (polyuria, polydipsia), it is specifically these cells' water reabsorption that is impaired."
+      },
+      "main_concept": "CON-REN-429D791D6700C3",
+      "concept_ids": [
+        "CON-REN-429D791D6700C3"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Antidiuretic Hormone",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the collecting duct's principal cells as the cell type whose water reabsorption is impaired by low ADH.",
+      "module_subject": "AU-MED-201 > Physiology > Antidiuretic Hormone",
+      "field_notes": {
+        "keySource": "printed answer table, Q24, p16",
+        "au": "Mock exam EGU 2023-2024 answers, p16 q24"
+      }
+    },
+    {
+      "key": "q25",
+      "id": "QST-AUMED201-MOCK1-Q25",
+      "page": 17,
+      "title": "A genuine function of insulin",
+      "question": "Which one of the following is a function of insulin?",
+      "options": {
+        "A": "Increases fatty acids synthesis in adipose tissues",
+        "B": "Elevates the plasma K+ level",
+        "C": "Decrease amino acid uptake by the cells",
+        "D": "Stimulates hepatic gluconeogenesis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Insulin is broadly anabolic/lipogenic in adipose tissue: it increases fatty acid synthesis (lipogenesis) and promotes triglyceride storage. It does this partly by activating lipoprotein lipase, which liberates fatty acids from circulating lipoproteins for uptake, and partly by inhibiting hormone-sensitive lipase, which would otherwise break stored triglyceride back down. This lipogenic action is one reason insulin therapy is associated with weight gain.",
+        "B": "Incorrect. Insulin lowers, not elevates, plasma potassium, by stimulating cellular potassium uptake via Na+/K+-ATPase — the opposite of this option's direction.",
+        "C": "Incorrect. Insulin increases, not decreases, amino acid uptake by cells, supporting protein synthesis — the opposite of this option's direction.",
+        "D": "Incorrect. Insulin inhibits, not stimulates, hepatic gluconeogenesis, consistent with its overall role in lowering blood glucose — the opposite of this option's direction."
+      },
+      "main_concept": "CON-END-32FB548D24C504",
+      "concept_ids": [
+        "CON-END-32FB548D24C504"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Insulin and Diabetes Mellitus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that insulin increases fatty acid synthesis in adipose tissue, and recognise its opposite-direction effects on potassium, amino acid uptake and gluconeogenesis.",
+      "module_subject": "AU-MED-201 > Physiology > Insulin and Diabetes Mellitus",
+      "field_notes": {
+        "keySource": "printed answer table, Q25, p17",
+        "au": "Mock exam EGU 2023-2024 answers, p17 q25"
+      }
+    },
+    {
+      "key": "q26",
+      "id": "QST-AUMED201-MOCK1-Q26",
+      "page": 17,
+      "title": "Acid-base diagnosis in diabetic ketoacidosis",
+      "question": "A 50-year-old male patient was brought to the emergency unit in coma. His wife mentioned that he had been diabetic for 10 years. Deep & rapid breathing was noticed by the physician. Blood tests revealed that his blood glucose =400 mg/dl, PH =7.35, PaCO2 = 30 mm Hg, HCO3 = 18 mEq/L. Which of the following is most likely the diagnosis of his condition?",
+      "options": {
+        "A": "Uncompensated metabolic alkalosis",
+        "B": "Compensated metabolic acidosis",
+        "C": "Compensated respiratory alkalosis",
+        "D": "Uncompensated respiratory acidosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A low HCO3- (18 mEq/L) indicates a metabolic acidosis, not alkalosis — a high, not low, HCO3- would be expected in metabolic alkalosis.",
+        "B": "Correct. The low HCO3- (18 mEq/L) identifies the primary disturbance as metabolic acidosis, from accumulating ketoacid anions in this diabetic patient. The low PaCO2 (30 mmHg) reflects appropriate respiratory compensation (hyperventilation/Kussmaul breathing, matching the vignette's 'deep and rapid breathing'), and the pH, though low, sits at the low-normal boundary (7.35) rather than frankly acidotic — together this pattern is compensated metabolic acidosis.",
+        "C": "Incorrect. Respiratory alkalosis would be the primary disturbance if PaCO2 were the primary abnormality driving an elevated pH; here the primary problem is the low HCO3-, with the low PaCO2 as compensation, not a primary respiratory process.",
+        "D": "Incorrect. Respiratory acidosis would show an elevated, not decreased, PaCO2 as the primary disturbance; this patient's low PaCO2 instead reflects compensation for a metabolic (not respiratory) acidosis."
+      },
+      "main_concept": "CON-REN-25DD9CCD2FC30A",
+      "concept_ids": [
+        "CON-REN-25DD9CCD2FC30A"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Acid-Base Physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify a low-HCO3-/low-normal-pH/low-PaCO2 blood gas with clinical hyperventilation as compensated metabolic acidosis.",
+      "module_subject": "AU-MED-201 > Physiology > Acid-Base Physiology",
+      "field_notes": {
+        "keySource": "printed answer table, Q26, p17",
+        "au": "Mock exam EGU 2023-2024 answers, p17 q26"
+      }
+    },
+    {
+      "key": "q27",
+      "id": "QST-AUMED201-MOCK1-Q27",
+      "page": 18,
+      "title": "The hormone that is protein in nature",
+      "question": "Which hormone is protein in nature?",
+      "options": {
+        "A": "Catecholamine",
+        "B": "Thyroxin",
+        "C": "Testosterone",
+        "D": "Prolactin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Catecholamines (e.g. epinephrine, norepinephrine) are amine hormones derived from tyrosine, not protein hormones.",
+        "B": "Incorrect. Thyroxine is an iodinated amino-acid (tyrosine) derivative, a distinct chemical class from protein/peptide hormones.",
+        "C": "Incorrect. Testosterone is a steroid hormone derived from cholesterol, not a protein hormone.",
+        "D": "Correct. Prolactin is a genuine protein (polypeptide) hormone, synthesised by lactotroph cells of the anterior pituitary. It is the only one of these four options that is protein in nature, distinguishing it from the amine (catecholamine), amino-acid-derivative (thyroxine) and steroid (testosterone) hormone classes. Because it is a peptide hormone, prolactin acts through a cell-surface receptor (the prolactin receptor, a cytokine-receptor superfamily member) rather than an intracellular steroid-type receptor."
+      },
+      "main_concept": "CON-END-61DD0E91A0712A",
+      "concept_ids": [
+        "CON-END-61DD0E91A0712A"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-PHYSIOLOGY"
+      ],
+      "topic": "Physiology",
+      "subtopic": "Hormone Chemical Classification",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify prolactin as a protein hormone, distinguishing it from amine, amino-acid-derivative and steroid hormones.",
+      "module_subject": "AU-MED-201 > Physiology > Hormone Chemical Classification",
+      "field_notes": {
+        "keySource": "printed answer table, Q27, p18",
+        "au": "Mock exam EGU 2023-2024 answers, p18 q27"
+      }
+    },
+    {
+      "key": "q28",
+      "id": "QST-AUMED201-MOCK1-Q28",
+      "page": 18,
+      "title": "Root value of the pudendal nerve",
+      "question": "What is the root value of pudendal nerve?",
+      "options": {
+        "A": "S 1,2,3",
+        "B": "S 3,4,5",
+        "C": "S 4,5,L1",
+        "D": "S 2,3,4"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. S1,2,3 is not the pudendal nerve's root value — it is shifted one segment too high compared with the correct S2,3,4.",
+        "B": "Incorrect. S3,4,5 is not the pudendal nerve's root value — it is shifted one segment too low compared with the correct S2,3,4.",
+        "C": "Incorrect. S4,5,L1 is not an anatomically coherent root value (L1 is far from the sacral segments S4,5) and does not match the pudendal nerve's true S2,3,4 origin.",
+        "D": "Correct. The pudendal nerve, the principal somatic nerve of the perineum, arises from the anterior rami of the second, third and fourth sacral spinal nerves (S2, S3, S4). It leaves the pelvis through the greater sciatic foramen, hooks around the ischial spine, and re-enters through the lesser sciatic foramen to reach the perineum. This S2-S4 root value is the anatomical basis for the pudendal nerve block used to anaesthetise the perineum for episiotomy and instrumental delivery."
+      },
+      "main_concept": "CON-GYN-C79000DA36D118",
+      "concept_ids": [
+        "CON-GYN-C79000DA36D118"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-AU-MED-201-MOCK-ANATOMY"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Perineum and Pelvic Floor",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the pudendal nerve's root value is S2, S3, S4.",
+      "module_subject": "AU-MED-201 > Anatomy > Perineum and Pelvic Floor",
+      "field_notes": {
+        "keySource": "printed answer table, Q28, p18",
+        "au": "Mock exam EGU 2023-2024 answers, p18 q28"
+      }
+    },
+    {
+      "key": "q29",
+      "id": "QST-AUMED201-MOCK1-Q29",
+      "page": 19,
+      "title": "Anterior relation of the right suprarenal gland",
+      "question": "What is the anterior relation of the right suprarenal gland?",
+      "options": {
+        "A": "Pancreas",
+        "B": "Liver",
+        "C": "Diaphragm",
+        "D": "Stomach"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The pancreas is an anterior relation of the LEFT suprarenal gland, not the right.",
+        "B": "Correct. The right suprarenal gland is wedged between the liver and the diaphragm and lies medial to the inferior vena cava. Its anterior surface relates directly to the bare area of the liver, with the lesser sac's peritoneum separating a small superomedial part from the IVC. This distinguishes it from the left suprarenal gland, whose anterior relations instead include the stomach, pancreas and splenic vessels.",
+        "C": "Incorrect. The diaphragm is a posterior, not anterior, relation of the right suprarenal gland.",
+        "D": "Incorrect. The stomach is an anterior relation of the LEFT suprarenal gland, not the right."
+      },
+      "main_concept": "CON-END-C6ABBC98D00760",
+      "concept_ids": [
+        "CON-END-C6ABBC98D00760"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-END-AU-MED-201-MOCK-HISTOLOGY"
+      ],
+      "topic": "Anatomy",
+      "subtopic": "Adrenal Gland Relations",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the liver is the anterior relation of the right suprarenal gland, distinguishing it from the stomach/pancreas relations of the left suprarenal gland.",
+      "module_subject": "AU-MED-201 > Anatomy > Adrenal Gland Relations",
+      "field_notes": {
+        "keySource": "printed answer table, Q29, p19",
+        "au": "Mock exam EGU 2023-2024 answers, p19 q29"
+      }
+    }
+  ]
+}
