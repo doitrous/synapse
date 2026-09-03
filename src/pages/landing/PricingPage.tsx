@@ -1,22 +1,19 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Check, ChevronDown, ChevronLeft } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
-import { findPlan } from '@/data/planCatalog'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
 import { usePageMeta, SITE_ORIGIN } from '@/lib/pageMeta'
 import { MarketingShell } from './MarketingShell'
 import { Pricing } from './Pricing'
 import type { LandingContent } from './content'
-import type { PricingContent } from './pricingContent'
+import { offerAmounts, type PricingContent } from './pricingContent'
 
 export function PricingPage({ content, pricing }: { content: LandingContent; pricing: PricingContent }) {
   const c = content
   const p = pricing
   const home = c.lang === 'ar' ? '/ar' : '/'
   const [catalog] = usePlanCatalog()
-  const maristana = findPlan(catalog, 'maristana')
-  const monthPrice = maristana?.prices.month ?? 400
-  const termPrice = maristana?.prices.term ?? 1000
+  const amounts = offerAmounts(catalog)
 
   usePageMeta({
     title: p.documentTitle,
@@ -40,8 +37,8 @@ export function PricingPage({ content, pricing }: { content: LandingContent; pri
         name: 'Nishany complete membership',
         brand: { '@type': 'Brand', name: 'Nishany by Connect' },
         offers: [
-          { '@type': 'Offer', priceCurrency: 'EGP', price: monthPrice, url: `${SITE_ORIGIN}/signup?plan=maristana&period=month` },
-          { '@type': 'Offer', priceCurrency: 'EGP', price: termPrice, url: `${SITE_ORIGIN}/signup?plan=maristana&period=term` },
+          { '@type': 'Offer', priceCurrency: 'EGP', price: amounts.month, url: `${SITE_ORIGIN}/signup?plan=maristana&period=month` },
+          { '@type': 'Offer', priceCurrency: 'EGP', price: amounts.term, url: `${SITE_ORIGIN}/signup?plan=maristana&period=term` },
         ],
       },
       {
