@@ -10,37 +10,38 @@ import {
   Play,
   AlertTriangle,
   BookOpen,
-  ChevronDown,
   RotateCcw,
   Trophy,
   Siren,
   Flame,
   Shuffle,
-  History,
   TrendingDown,
-  MoreHorizontal,
-  Square,
-  Eye,
-  PenLine,
-  Trash2,
   Columns2,
   Layers,
-} from 'lucide-react'
+}from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
-import type { AttemptRecord } from '@/data/attempts'
-import { bySession, sessionDetail, type SessionDetail, type SessionSummary } from '@/data/attemptStats'
-import { formatLongDate } from '@/lib/format'
+import { bySession, sessionDetail, type SessionSummary } from '@/data/attemptStats'
 import { useSubjectName } from '@/lib/useSubjectName'
 import { bySubject as accuracyBySubject, weakest } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
 import {
-  incorrectIds, omittedIds, pruneManifests, questionsById,
+  incorrectIds,
+  omittedIds,
+  pruneManifests,
+  questionsById,
   type SessionManifests,
-} from '@/data/qbankCollections'
+}from '@/data/qbankCollections'
 import {
-  clearsStoredSitting, finishedManifests, liveSittingId, pendingAttempts, persistsSitting,
-  restorableQuestions, selectClearsStrike, timedClock, type Phase,
-} from '@/data/qbankSession'
+  clearsStoredSitting,
+  finishedManifests,
+  liveSittingId,
+  pendingAttempts,
+  persistsSitting,
+  restorableQuestions,
+  selectClearsStrike,
+  timedClock,
+  type Phase,
+}from '@/data/qbankSession'
 import { QbankHub, type QbankBank, type QbankHubTab } from '@/components/qbank/hub/QbankHub'
 import { YourProgress } from '@/components/qbank/hub/YourProgress'
 import { TestBuilder, type TestBuilderPreset } from '@/components/qbank/hub/TestBuilder'
@@ -50,7 +51,7 @@ import { MixedSummary } from '@/components/qbank/unified/MixedSummary'
 import { useMixedSession } from '@/lib/useMixedSession'
 import { mixedClosed, mixedFinished } from '@/data/mixedSession'
 import { PreviousTestsTab, type PreviousFilter } from '@/components/qbank/hub/PreviousTestsTab'
-import { SittingKindBadge, SittingRows } from '@/components/qbank/unified/SittingRows'
+import { SittingRows } from '@/components/qbank/unified/SittingRows'
 import { useSittings } from '@/lib/useSittings'
 import { sittingsOfKind, type SittingKind } from '@/data/sittings'
 import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, useRecordAttempts } from '@/lib/useAttemptLog'
@@ -62,23 +63,22 @@ import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
-import { Meter } from '@/components/ui/Meter'
-import { TextInput } from '@/components/ui/Field'
 import { IconButton } from '@/components/ui/IconButton'
-import { ContextMenu } from '@/components/ui/ContextMenu'
 import { Dialog } from '@/components/ui/Dialog'
 import { SubjectDot } from '@/components/ui/Subject'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { cn } from '@/lib/cn'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
-import { useScopedPublishedQuestions, useScopedPublishedQuestionSummaries } from '@/lib/usePublishedQuestions'
-import type { QuestionScope } from '@/lib/content'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
 import { StudyRail } from '@/components/qbank/StudyRail'
-import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
+import {
+  HighlightSelectionPopover,
+  HighlightableText,
+  useQuestionHighlights,
+}from '@/components/qbank/QuestionHighlights'
 import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashcardDialog'
 import { chooserTopics, questionsInScope, questionsInSources, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
@@ -87,623 +87,41 @@ import { useAnswerDistribution } from '@/lib/useAnswerDistribution'
 import { answerPercentages } from '@/data/answerDistribution'
 import { AnswerStatBar } from '@/components/qbank/AnswerStatBar'
 import { sourceOptions } from '@/data/sourceCoverage'
-import { QUESTION_SOURCES, QUESTION_SOURCE_LABEL, UNSPECIFIED_SOURCE, UNSPECIFIED_SOURCE_LABEL, type SourceBucket } from '@/data/questionSource'
-
-const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
-type Mode = 'tutor' | 'timed'
-type Source = 'all' | 'flagged' | 'incorrect' | 'omitted'
-
-function shuffle<T>(a: T[]): T[] {
-  const b = [...a]
-  for (let i = b.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[b[i], b[j]] = [b[j], b[i]]
-  }
-  return b
-}
-
-function clock(seconds: number): string {
-  const m = Math.floor(seconds / 60)
-  const s = seconds % 60
-  return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
-}
-
-function diffTone(d: Question['difficulty']): 'success' | 'warning' | 'danger' {
-  return d === 'Easy' ? 'success' : d === 'Moderate' ? 'warning' : 'danger'
-}
-
-type PresetKind = 'weak' | 'emergency' | 'demanding' | 'everything'
-
-/** How many marked answers a subject needs before it can be called a weakness. */
-const WEAKNESS_EVIDENCE = 3
-
-/** A review opened from a link is a short set, not a full sitting. */
-const REVIEW_SESSION_SIZE = 5
-
-/** Dotted, so `isUserOwnedState` routes these marks to the student's own record. */
-const QBANK_MARKED_STORAGE_KEY = 'nishany.qbank.marked.v1'
-
-function newSessionId(): string {
-  return `qb-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
-}
-
-/** Everything needed to put a half-finished sitting back on screen. */
-interface LiveSession {
-  questionIds: string[]
-  idx: number
-  answers: Record<string, number>
-  checked: Record<string, boolean>
-  mode: Mode
-  sessionId: string
-  elapsed: number
-  /** Closed question-clock segments, preserved when the sitting is paused. */
-  questionSeconds?: Record<string, number>
-  visited: number[]
-  /** Options the student has ruled out, per question. Scratch marks, not a record. */
-  struck: Record<string, number[]>
-  reviewing: boolean
-  name: string
-  phase: Exclude<Phase, 'setup'>
-  /** A submitted sitting is finished with — it is never offered to resume. */
-  submitted: boolean
-  startedAt: string
-}
-
-/** Dotted, so `isUserOwnedState` routes it to the student's own record. */
-const ACTIVE_SESSION_STORAGE_KEY = 'nishany.qbank.activeSession.v1'
-const SESSION_NAMES_STORAGE_KEY = 'nishany.qbank.sessionNames.v1'
-
-/**
- * The bank and tab named in the URL, or the defaults.
- *
- * Read through a guard rather than cast: `?bank=osce` is a link someone will
- * eventually write, and it must land on the MCQ bank rather than on a hub with
- * no content under any branch.
- */
-function readBank(value: string | null): QbankBank {
-  return value === 'practical' || value === 'essay' || value === 'mixed' ? value : 'mcq'
-}
-
-function readTab(value: string | null): QbankHubTab {
-  return value === 'previous' ? 'previous' : 'new'
-}
-
-/** One number with its name under it, for the row of figures on a sitting. */
-function DetailStat({ label, value, tone }: { label: string; value: string; tone?: 'good' | 'bad' }) {
-  return (
-    <div>
-      <p className={cn(
-        'tnum font-mono text-[17px] font-semibold leading-none',
-        tone === 'good' ? 'text-success' : tone === 'bad' ? 'text-danger' : 'text-ink',
-      )}>{value}</p>
-      <p className="mt-1 text-[11.5px] text-ink-3">{label}</p>
-    </div>
-  )
-}
-
-/**
- * Which questions each sitting contained.
- *
- * The attempt log only receives a question once its answer is checked, so a
- * skipped one left no trace anywhere the moment its sitting ended. This is the
- * other half of the pair: with both, "served but never attempted" is a fact
- * rather than a guess.
- */
-const SESSION_QUESTIONS_STORAGE_KEY = 'nishany.qbank.sessionQuestions.v1'
-
-/**
- * Everything one sitting can say about itself.
- *
- * All of it derived from the records that sitting produced — see
- * `sessionDetail`. Nothing here is stored a second time, so deleting a test
- * changes these figures the same way it changes every other number in the app.
- */
-function SessionDetailPanel({
-  detail,
-  questions,
-  total,
-  t,
-}: {
-  detail: SessionDetail
-  questions: Question[]
-  total?: number
-  t: (key: string) => string
-}) {
-  const subjectName = useSubjectName()
-  const minutes = Math.round(detail.durationSeconds / 60)
-  const omitted = Math.max(0, (total ?? detail.answered) - detail.answered)
-  const pace = [
-    { key: 'good' as const, label: t('Good · 45s or less'), color: 'bg-success' },
-    { key: 'target' as const, label: t('Target · 46–60s'), color: 'bg-primary' },
-    { key: 'slower' as const, label: t('Slower · 61–90s'), color: 'bg-warning' },
-    { key: 'overtime' as const, label: t('Overtime · over 90s'), color: 'bg-danger' },
-  ]
-  const paced = Object.values(detail.pace).reduce((sum, value) => sum + value, 0)
-  const nextAction = detail.repeatedWeaknesses.length
-    ? `${t('Revisit')} ${detail.repeatedWeaknesses.slice(0, 2).join(', ')} ${t('before your next block; these topics have cost marks more than once.')}`
-    : detail.weakestTopic
-      ? `${t('Review')} ${detail.weakestTopic.key} ${t('and retest it while the reasoning is still fresh.')}`
-      : detail.averageSeconds != null && detail.averageSeconds > 60
-        ? t('Your next gain is pace: use a short timed block and aim to commit each answer by 60 seconds.')
-        : detail.wrong > 0
-          ? t('Review the missed answers below, then retake the same scope with fresh questions.')
-          : t('This block is secure. Keep the spacing effect by revisiting it later rather than repeating it immediately.')
-  return (
-    <div className="border-t border-line bg-surface-2/40 px-4 py-4 sm:px-5">
-      <div className="flex flex-wrap gap-x-8 gap-y-4">
-        <DetailStat label={t('Right')} value={String(detail.correct)} tone={detail.correct > 0 ? 'good' : undefined} />
-        <DetailStat label={t('Wrong')} value={String(detail.wrong)} tone={detail.wrong > 0 ? 'bad' : undefined} />
-        {/* Only shown when there is one. A nought here would invite the student
-            to wonder what they had failed to have marked. */}
-        {detail.unmarked > 0 && <DetailStat label={t('Unmarked')} value={String(detail.unmarked)} />}
-        {omitted > 0 && <DetailStat label={t('Omitted')} value={String(omitted)} />}
-        <DetailStat label={t('Accuracy')} value={detail.accuracy == null ? '—' : `${Math.round(detail.accuracy * 100)}%`} />
-        {detail.durationSeconds > 0 && <DetailStat label={t('Total time')} value={minutes >= 1 ? `${minutes}m` : `${detail.durationSeconds}s`} />}
-        {detail.overtimeSeconds > 0 && <DetailStat label={t('Overtime')} value={`+${clock(detail.overtimeSeconds)}`} tone="bad" />}
-        {detail.averageSeconds != null && <DetailStat label={t('Average / question')} value={`${detail.averageSeconds}s`} />}
-        {detail.medianSeconds != null && <DetailStat label={t('Median / question')} value={`${detail.medianSeconds}s`} />}
-      </div>
-
-      {paced > 0 && (
-        <div className="mt-5 border-t border-line pt-4">
-          <p className="mb-2 text-[13px] font-semibold text-ink">{t('Pace distribution')}</p>
-          <div className="flex h-2.5 overflow-hidden rounded-full bg-inset" aria-hidden>
-            {pace.map((band) => detail.pace[band.key] > 0 && (
-              <span key={band.key} className={band.color} style={{ width: `${(detail.pace[band.key] / paced) * 100}%` }} />
-            ))}
-          </div>
-          <ul className="mt-2 grid gap-1.5 sm:grid-cols-2">
-            {pace.map((band) => (
-              <li key={band.key} className="flex items-center gap-2 text-[11.5px] text-ink-2">
-                <span className={cn('size-2 rounded-full', band.color)} aria-hidden />
-                <span className="flex-1">{band.label}</span>
-                <span className="tnum font-mono text-ink">{detail.pace[band.key]}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {detail.subjects.length > 1 && (
-        <div className="mt-4">
-          <p className="mb-2 text-[13px] font-semibold text-ink">{t('By subject')}</p>
-          <ul className="space-y-1.5">
-            {detail.subjects.map((subject) => (
-              <li key={subject.key} className="flex items-center gap-2.5 text-[12px]">
-                <span className="inline-flex min-w-0 flex-1 items-center gap-1.5 text-ink-2">
-                  <SubjectDot id={subject.key} />
-                  <span className="truncate">{subjectName(subject.key)}</span>
-                </span>
-                <Meter value={subject.accuracy == null ? 0 : Math.round(subject.accuracy * 100)} className="w-24 shrink-0" />
-                <span className="tnum w-16 shrink-0 text-end font-mono text-ink-3">
-                  {subject.accuracy == null ? '—' : `${subject.correct}/${subject.marked}`}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {detail.missed.length > 0 && (
-        <div className="mt-4">
-          <p className="mb-2 text-[13px] font-semibold text-ink">{t('Where you lost marks')}</p>
-          <ul className="flex flex-wrap gap-1.5">
-            {detail.missed.map((topic) => (
-              <li
-                key={topic.key}
-                className="inline-flex items-center gap-1.5 rounded-full border border-danger/25 bg-danger-tint/60 px-2.5 py-0.5 text-[11.5px] text-ink-2"
-              >
-                {topic.key}
-                <span className="tnum font-mono text-[10.5px] text-danger">{topic.marked - topic.correct}</span>
-              </li>
-            ))}
-          </ul>
-          {/* Named separately from the list above, because "you got one wrong"
-              and "you do not know this" are different claims. */}
-          {detail.weakestTopic && (
-            <p className="mt-2 text-[11.5px] text-ink-3">
-              {t('Weakest here')}: <span className="font-medium text-ink-2">{detail.weakestTopic.key}</span>
-              {' '}({detail.weakestTopic.correct}/{detail.weakestTopic.marked})
-            </p>
-          )}
-        </div>
-      )}
-
-      {detail.subtopics.length > 0 && (
-        <div className="mt-4 grid gap-2 sm:grid-cols-2">
-          {detail.subtopics.slice(0, 8).map((subtopic) => {
-            const pct = subtopic.accuracy == null ? 0 : Math.round(subtopic.accuracy * 100)
-            return (
-              <div key={subtopic.key} className="rounded-lg border border-line bg-surface px-3 py-2.5">
-                <div className="flex items-start justify-between gap-3 text-[11.5px]">
-                  <span className="min-w-0 truncate text-ink-2" title={subtopic.key}>{subtopic.key}</span>
-                  <span className="tnum shrink-0 font-mono text-ink">{subtopic.accuracy == null ? '—' : `${pct}%`}</span>
-                </div>
-                <Meter value={pct} tone={pct >= 80 ? 'success' : pct >= 60 ? 'primary' : 'warning'} className="mt-2" />
-              </div>
-            )
-          })}
-        </div>
-      )}
-
-      {detail.answers.length > 0 && (
-        <div className="mt-5 border-t border-line pt-4">
-          <p className="mb-2 text-[13px] font-semibold text-ink">{t('Answer review')}</p>
-          <ol className="space-y-2">
-            {detail.answers.map((answer, index) => {
-              const question = questions.find((item) => item.id === answer.itemId)
-              const picked = typeof answer.selectedIndex === 'number' ? question?.options[answer.selectedIndex] : undefined
-              const keyed = typeof answer.correctIndex === 'number' ? question?.options[answer.correctIndex] : undefined
-              return (
-                <li key={answer.itemId} className="rounded-lg border border-line bg-surface px-3 py-3">
-                  <div className="flex items-start gap-2">
-                    <span className="tnum grid size-6 shrink-0 place-items-center rounded-full bg-inset font-mono text-[10.5px] text-ink-2">{index + 1}</span>
-                    <div className="min-w-0 flex-1">
-                      <p className="line-clamp-2 text-[12.5px] font-medium leading-snug text-ink">{question?.stem ?? answer.topic}</p>
-                      {answer.correct === true ? (
-                        <p className="mt-1 text-[11.5px] text-success">{t('Correct')} {picked ? `· ${LETTERS[answer.selectedIndex!]} · ${picked.text}` : ''}</p>
-                      ) : answer.correct === false ? (
-                        <div className="mt-1 space-y-0.5 text-[11.5px] leading-snug">
-                          {/* "Correct" alone, right under the option this student
-                              picked, reads as being told they got it right. Naming
-                              both sides — whose pick this is, and which one the key
-                              names — leaves no room to misread it either way. */}
-                          <p className="text-danger">{t('Your answer')}: {picked ? `${LETTERS[answer.selectedIndex!]} · ${picked.text}` : t('Not retained for this legacy attempt')}</p>
-                          <p className="text-success">{t('Correct answer')}: {keyed ? `${LETTERS[answer.correctIndex!]} · ${keyed.text}` : t('Review the question explanation')}</p>
-                        </div>
-                      ) : (
-                        <p className="mt-1 text-[11.5px] text-ink-3">{t('This activity was not marked against a key.')}</p>
-                      )}
-                    </div>
-                    {answer.seconds != null && <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">{answer.seconds}s</span>}
-                  </div>
-                </li>
-              )
-            })}
-          </ol>
-        </div>
-      )}
-
-      <div className="mt-5 rounded-lg border border-primary-line bg-primary-tint/35 px-3.5 py-3">
-        <p className="text-[12.5px] font-medium text-primary-strong">{t('Next action')}</p>
-        <p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">{nextAction}</p>
-      </div>
-    </div>
-  )
-}
-
-/**
- * Tests already taken, and what to do about them.
- *
- * Reconstructed from the attempt log rather than stored twice: every record has
- * always carried the sessionId of the sitting that produced it, and nothing ever
- * read it back, so a student had no way to see what they had done.
- *
- * A row used to carry a name, a date, a count and one accuracy figure, with
- * every action buried behind a "…" menu — so the most useful thing a finished
- * test can offer, which is sitting it again, was three interactions deep and
- * did not exist. It opens onto its own numbers, and the two ways of taking it
- * again are one press each.
- */
-function PreviousTests({
-  sessions,
-  names,
-  liveSessionId,
-  records,
-  questions,
-  onRename,
-  onResume,
-  onTerminate,
-  onReview,
-  onRetakeSame,
-  onRetakeScope,
-  onDelete,
-  canReview,
-  canRetakeSame,
-  t,
-}: {
-  sessions: SessionSummary[]
-  names: Record<string, string>
-  /** The sitting still in progress, if there is one. */
-  liveSessionId: string | null
-  /** The whole log; each row reads only its own sitting out of it. */
-  records: AttemptRecord[]
-  questions: Question[]
-  onRename: (sessionId: string, name: string) => void
-  onResume: () => void
-  onTerminate: () => void
-  onReview: (sessionId: string) => void
-  onRetakeSame: (sessionId: string) => void
-  onRetakeScope: (entry: SessionSummary) => void
-  onDelete: (sessionId: string) => void
-  canReview: (sessionId: string) => boolean
-  canRetakeSame: (sessionId: string) => boolean
-  t: (key: string) => string
-}) {
-  const subjectName = useSubjectName()
-  const [editing, setEditing] = useState<string | null>(null)
-  const [draft, setDraft] = useState('')
-  const [expanded, setExpanded] = useState<string | null>(null)
-  const [menu, setMenu] = useState<{ sessionId: string; x: number; y: number } | null>(null)
-  const [confirmDelete, setConfirmDelete] = useState<string | null>(null)
-
-  if (!sessions.length) {
-    return (
-      <Panel>
-        <div className="px-5 py-12 text-center">
-          <span className="mx-auto grid size-11 place-items-center rounded-xl bg-inset text-ink-3"><Icon icon={History} size={20} /></span>
-          <p className="mt-3 text-[14px] font-semibold text-ink">{t('No tests yet')}</p>
-          <p className="mx-auto mt-1 max-w-sm text-[12.5px] leading-relaxed text-ink-3">{t('Start a session and it will be kept here, with what you scored.')}</p>
-        </div>
-      </Panel>
-    )
-  }
-
-  return (
-    <Panel>
-      <ul className="divide-y divide-line">
-        {sessions.map((entry) => {
-          const name = names[entry.sessionId]?.trim() || t('Untitled test')
-          const isEditing = editing === entry.sessionId
-          const isOpen = expanded === entry.sessionId
-          const live = entry.sessionId === liveSessionId
-          return (
-            <li key={entry.sessionId}>
-              <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3.5">
-                <button
-                  type="button"
-                  onClick={() => setExpanded(isOpen ? null : entry.sessionId)}
-                  aria-expanded={isOpen}
-                  aria-label={`${isOpen ? t('Hide') : t('Show')} ${name}`}
-                  className="grid size-11 shrink-0 place-items-center rounded-md text-ink-3 transition-colors hover:bg-inset hover:text-ink sm:size-7"
-                >
-                  <Icon icon={ChevronDown} size={15} className={cn('transition-transform duration-150', !isOpen && '-rotate-90 rtl:rotate-90')} />
-                </button>
-                <div className="min-w-0 flex-1">
-                  {isEditing ? (
-                    <form
-                      onSubmit={(event) => { event.preventDefault(); onRename(entry.sessionId, draft.trim()); setEditing(null) }}
-                      className="flex items-center gap-2"
-                    >
-                      <TextInput
-                        value={draft}
-                        autoFocus
-                        maxLength={60}
-                        onChange={(event) => setDraft(event.target.value)}
-                        onBlur={() => { onRename(entry.sessionId, draft.trim()); setEditing(null) }}
-                        aria-label={t('Test name')}
-                      />
-                    </form>
-                  ) : (
-                    <button
-                      type="button"
-                      onClick={() => { setDraft(names[entry.sessionId] ?? ''); setEditing(entry.sessionId) }}
-                      className="flex min-h-11 max-w-full items-center text-start text-[13.5px] font-semibold text-ink hover:text-primary-strong sm:min-h-0"
-                      title={t('Rename')}
-                    >
-                      <span className="min-w-0 truncate">{name}</span>
-                    </button>
-                  )}
-                  {/* `min-w-0` and a truncating subject: wrapping alone cannot
-                      save a line whose single longest item is wider than a
-                      phone, and "Cardiovascular" beside a date and a count is
-                      exactly that. */}
-                  <p className="mt-0.5 flex min-w-0 flex-wrap items-center gap-x-2 text-[11.5px] text-ink-3">
-                    <span>{formatLongDate(new Date(entry.startedAt))}</span>
-                    <span aria-hidden>·</span>
-                    <span>{entry.answered} {entry.answered === 1 ? t('question') : t('questions')}</span>
-                    {entry.subjectIds.slice(0, 2).map((subjectId) => (
-                      <span key={subjectId} className="inline-flex min-w-0 max-w-full items-center gap-1">
-                        <SubjectDot id={subjectId} />
-                        <span className="truncate">{subjectName(subjectId)}</span>
-                      </span>
-                    ))}
-                  </p>
-                </div>
-                {/* Every row in this list says what kind of test it was, because
-                    the list now holds four kinds and "11 questions" and "11
-                    items" are not the same sitting. */}
-                <SittingKindBadge kind="mcq" />
-                {live && <Badge tone="warning">{t('In progress')}</Badge>}
-                {/* An unmarked sitting shows a dash, not a nought: nobody scored it. */}
-                <span className="tnum shrink-0 font-mono text-[15px] font-semibold text-ink">
-                  {entry.accuracy == null ? '—' : `${Math.round(entry.accuracy * 100)}%`}
-                </span>
-                <IconButton
-                  icon={MoreHorizontal}
-                  label={`${t('Actions for')} ${name}`}
-                  size="sm"
-                  onClick={(event) => {
-                    const rect = (event.currentTarget as HTMLElement).getBoundingClientRect()
-                    setMenu({ sessionId: entry.sessionId, x: rect.left, y: rect.bottom + 4 })
-                  }}
-                />
-              </div>
-
-              {isOpen && (
-                <>
-                  <SessionDetailPanel detail={sessionDetail(records, entry.sessionId)} questions={questions} t={t} />
-                  {/* Out of the menu and onto the surface. Sitting a test again
-                      is the most useful thing a finished test offers, and it
-                      was not offered at all. */}
-                  <div className="flex flex-wrap gap-2 border-t border-line bg-surface-2/40 px-4 pb-4 sm:px-5">
-                    <Button
-                      size="sm"
-                      variant="primary"
-                      iconLeft={RotateCcw}
-                      disabled={!canRetakeSame(entry.sessionId)}
-                      title={canRetakeSame(entry.sessionId) ? undefined : t('None of these questions are published any more')}
-                      onClick={() => onRetakeSame(entry.sessionId)}
-                    >
-                      {t('Retake these questions')}
-                    </Button>
-                    <Button size="sm" variant="secondary" iconLeft={Shuffle} onClick={() => onRetakeScope(entry)}>
-                      {t('New test, same scope')}
-                    </Button>
-                    <Button
-                      size="sm"
-                      variant="ghost"
-                      iconLeft={Eye}
-                      disabled={!canReview(entry.sessionId)}
-                      onClick={() => onReview(entry.sessionId)}
-                    >
-                      {t('Review answers')}
-                    </Button>
-                    {live && (
-                      <Button size="sm" variant="ghost" iconLeft={Play} onClick={onResume}>{t('Resume this test')}</Button>
-                    )}
-                  </div>
-                </>
-              )}
-            </li>
-          )
-        })}
-      </ul>
-
-      {menu && (
-        <ContextMenu
-          x={menu.x}
-          y={menu.y}
-          onClose={() => setMenu(null)}
-          items={[
-            ...(menu.sessionId === liveSessionId ? [
-              { id: 'resume', label: t('Resume this test'), icon: Play, onSelect: onResume },
-              { id: 'terminate', label: t('End this test'), icon: Square, onSelect: onTerminate },
-            ] : []),
-            {
-              id: 'retake',
-              label: t('Retake these questions'),
-              icon: RotateCcw,
-              disabled: !canRetakeSame(menu.sessionId),
-              onSelect: () => onRetakeSame(menu.sessionId),
-            },
-            {
-              id: 'review',
-              label: t('Review answers'),
-              icon: Eye,
-              disabled: !canReview(menu.sessionId),
-              onSelect: () => onReview(menu.sessionId),
-            },
-            {
-              id: 'rename',
-              label: t('Rename'),
-              icon: PenLine,
-              onSelect: () => { setDraft(names[menu.sessionId] ?? ''); setEditing(menu.sessionId) },
-            },
-            {
-              id: 'delete',
-              label: t('Delete this test'),
-              icon: Trash2,
-              tone: 'danger' as const,
-              separated: true,
-              onSelect: () => setConfirmDelete(menu.sessionId),
-            },
-          ]}
-        />
-      )}
-
-      {confirmDelete && (
-        <Dialog onClose={() => setConfirmDelete(null)} label={t('Delete this test')} size="sm">
-          <PanelHeader title={t('Delete this test')} icon={Trash2} />
-          <div className="space-y-4 p-5">
-            {/* Said plainly, because it is not only a row disappearing: these
-                answers are part of the accuracy every other screen reports. */}
-            <p className="text-[13.5px] leading-relaxed text-ink-2">
-              {t('This removes every answer from that sitting. Your overall accuracy and progress will be recalculated without them, and it cannot be undone.')}
-            </p>
-            <div className="flex justify-end gap-2 border-t border-line pt-4">
-              <Button variant="ghost" onClick={() => setConfirmDelete(null)}>{t('Cancel')}</Button>
-              <Button
-                variant="danger"
-                iconLeft={Trash2}
-                onClick={() => { onDelete(confirmDelete); setConfirmDelete(null) }}
-              >
-                {t('Delete')}
-              </Button>
-            </div>
-          </div>
-        </Dialog>
-      )}
-    </Panel>
-  )
-}
-
-/**
- * "Every question this student may sit." One shared object, so setting the
- * scope back to it is a no-op React can skip rather than a new render.
- */
-const WHOLE_BANK: QuestionScope = {}
+import {
+  QUESTION_SOURCES,
+  QUESTION_SOURCE_LABEL,
+  UNSPECIFIED_SOURCE,
+  UNSPECIFIED_SOURCE_LABEL,
+  type SourceBucket,
+}from '@/data/questionSource'
+import {
+  ACTIVE_SESSION_STORAGE_KEY,
+  LETTERS,
+  QBANK_MARKED_STORAGE_KEY,
+  REVIEW_SESSION_SIZE,
+  SESSION_NAMES_STORAGE_KEY,
+  SESSION_QUESTIONS_STORAGE_KEY,
+  WEAKNESS_EVIDENCE,
+  clock,
+  diffTone,
+  newSessionId,
+  readBank,
+  readTab,
+  shuffle,
+  type LiveSession,
+  type Mode,
+  type PresetKind,
+  type Source,
+}from './qbank/state'
+import { SessionDetailPanel } from './qbank/SessionDetailPanel'
+import { PreviousTests } from './qbank/PreviousTests'
+import { WHOLE_BANK, useQbankQuestions } from './qbank/useQbankQuestions'
 
 export function QuestionBank() {
   const t = useT()
   const subjectName = useSubjectName()
   const location = useLocation()
-  /**
-   * The hub mount is cheap on purpose: counts, source cards and presets only
-   * need id/subject/topic/difficulty/vignette/stem/source/concept-and-library
-   * ids, which this lightweight projection gives without the per-question
-   * options/explanation/attachments build (`managedQuestionToSummary` in
-   * usePublishedQuestions.ts). `fullQuestions` is the same data, fully built —
-   * it stays empty until `needsFullQuestions` flips on, which only happens
-   * once a test is actually starting or resuming (`runWhenHydrated` below).
-   */
-  const questions = useScopedPublishedQuestionSummaries()
-  const [needsFullQuestions, setNeedsFullQuestions] = useState(false)
-  /**
-   * How much of the bank the full fetch asks for.
-   *
-   * A test almost always sits inside one subject, and asking for that subject
-   * is a fraction of the request asking for everything is. `WHOLE_BANK` is the
-   * honest answer when a start spans several subjects, and when the surfaces
-   * that read arbitrary past questions are on screen.
-   */
-  const [fullScope, setFullScope] = useState<QuestionScope>(WHOLE_BANK)
-  const fullQuestions = useScopedPublishedQuestions(needsFullQuestions, fullScope)
-  /** A start or resume waiting on `fullQuestions` to land — see `runWhenHydrated`. */
-  const pendingHydrated = useRef<{ ids: string[]; run: (real: Question[]) => void } | null>(null)
-  useEffect(() => {
-    const pending = pendingHydrated.current
-    if (!pending || !fullQuestions.length) return
-    pendingHydrated.current = null
-    const byId = new Map(fullQuestions.map((question) => [question.id, question]))
-    pending.run(pending.ids.map((id) => byId.get(id)).filter((question): question is Question => Boolean(question)))
-  }, [fullQuestions])
-  /** The narrowest scope that still covers every one of `ids`, read off the summaries. */
-  const scopeForIds = useCallback((ids: readonly string[]): QuestionScope => {
-    const subjectById = new Map(questions.map((question) => [question.id, question.subjectId]))
-    const subjects = new Set(ids.map((id) => subjectById.get(id)).filter(Boolean))
-    return subjects.size === 1 ? { subject: [...subjects][0] as string } : WHOLE_BANK
-  }, [questions])
-  /**
-   * Resolve `ids` against the real, fully-built questions before `run` sees
-   * them — immediately if the slice already in hand covers them (every start
-   * after the first within the same subject), otherwise queued for the effect
-   * above once the fetch and build land. This is the one place
-   * `useScopedPublishedQuestions`'s heavy path is actually triggered.
-   * ponytail: a second start/resume racing the first overwrites the pending
-   * one — fine today, since the runner only ever offers one start action at a
-   * time; queue an array instead if that stops being true.
-   */
-  const runWhenHydrated = useCallback((ids: string[], run: (real: Question[]) => void) => {
-    const next = scopeForIds(ids)
-    // What is held covers the request when it is the same slice, or a wider one.
-    if (needsFullQuestions && fullQuestions.length && (!fullScope.subject || fullScope.subject === next.subject)) {
-      const byId = new Map(fullQuestions.map((question) => [question.id, question]))
-      run(ids.map((id) => byId.get(id)).filter((question): question is Question => Boolean(question)))
-      return
-    }
-    pendingHydrated.current = { ids, run }
-    setFullScope(next)
-    setNeedsFullQuestions(true)
-  }, [needsFullQuestions, fullQuestions, fullScope, scopeForIds])
-  /**
-   * For the couple of spots that read a question's real content (options,
-   * mainly) straight off a prop instead of going through `runWhenHydrated` —
-   * the Previous-tests answer review and the active mixed runner. Falls back
-   * to the lightweight summaries for the one render between `needsFullQuestions`
-   * flipping on and `fullQuestions` landing.
-   */
-  const realQuestions = needsFullQuestions && fullQuestions.length ? fullQuestions : questions
+  const { questions, realQuestions, setNeedsFullQuestions, setFullScope, runWhenHydrated } = useQbankQuestions()
   const availability = useCatalogueAvailability(questions.length)
   const [params, setParams] = useSearchParams()
   const articleFilter = params.get('article')
@@ -934,7 +352,9 @@ export function QuestionBank() {
       setFullScope(WHOLE_BANK)
       setNeedsFullQuestions(true)
     }
-  }, [hubTab, mixed.session])
+    // Both setters come from `useState` inside `useQbankQuestions`, so they are
+    // stable — listed only because the linter can no longer see that.
+  }, [hubTab, mixed.session, setFullScope, setNeedsFullQuestions])
   const restored = useRef(false)
   // Held in a ref, not read back from `saved`: the mirror effect below writes
   // `saved`, so depending on it there would make the write retrigger the effect

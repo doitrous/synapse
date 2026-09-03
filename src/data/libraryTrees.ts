@@ -9,6 +9,7 @@
  * shared state: an in-place edit is invisible to React, and unmergeable by the
  * server, which works out what a client changed by comparing documents.
  */
+import { newId } from './userLibrary.ts'
 
 export const LIBRARY_TREES_STATE_KEY = 'nishany-library-trees-v1'
 
@@ -49,7 +50,7 @@ export function parseTreeScope(key: unknown): { kind: LibraryTreeKind; id: strin
 }
 
 export function newNodeId(): string {
-  return `ltn-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
+  return newId('ltn')
 }
 
 /** The node with this id, at any depth, or null. */

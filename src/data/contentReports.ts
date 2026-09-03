@@ -1,4 +1,5 @@
 import { API_MODE } from '@/lib/api'
+import { newId } from './userLibrary.ts'
 
 export type ReportContentKind = 'question' | 'library article' | 'image'
 export type ReportStatus = 'Open' | 'In review' | 'Resolved' | 'Dismissed' | 'Archived'
@@ -81,5 +82,5 @@ export const initialContentReports: ContentReport[] = API_MODE ? [] : [
 ]
 
 export function newReportId() {
-  return `report-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`
+  return newId('report')
 }

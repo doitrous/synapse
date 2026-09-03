@@ -17,6 +17,7 @@
 
 import type { FlashcardCollection } from '../../data/flashcards/model.ts'
 import { escapeHtml } from '../../data/flashcards/richText.ts'
+import { newId } from '../../data/userLibrary.ts'
 
 /** The storage keys the flashcards collection lives under — must match `useFlashcards`. */
 export const FLASHCARDS_COLLECTION_KEY = 'nishany.flashcards.collection.v2'
@@ -104,7 +105,7 @@ export function basicNoteFieldsFromText(front: string, back?: string): { front: 
 /** Fresh, collision-resistant ids for a quick-added note and any new deck. */
 export function quickAddIds(): { noteId: string; newDeckId: string } {
   return {
-    noteId: `note-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
-    newDeckId: `deck-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
+    noteId: newId('note'),
+    newDeckId: newId('deck'),
   }
 }

@@ -7,6 +7,8 @@
  * `9:30 pm`, and every one of those means something unambiguous.
  */
 
+import { formatTimeString } from './format.ts'
+
 export const MINUTES_IN_DAY = 24 * 60
 
 /** Minutes since midnight, or null when the text does not name a time. */
@@ -80,8 +82,13 @@ export function to12Hour(value: string): { hour: number; minute: number; meridie
   }
 }
 
-/** `"5:30 PM"` — the label on the field, independent of what is stored. */
+/**
+ * `"5:30 PM"` — the label on the field, independent of what is stored.
+ *
+ * One clock renderer for the whole product: `formatTimeString` in `lib/format`.
+ * All this adds is tolerance — anything unreadable normalises to midnight
+ * rather than reaching `Intl` as an invalid date.
+ */
 export function formatTimeLabel(value: string): string {
-  const { hour, minute, meridiem } = to12Hour(value)
-  return `${hour}:${String(minute).padStart(2, '0')} ${meridiem}`
+  return formatTimeString(formatTime(minutesOf(value)))
 }

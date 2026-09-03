@@ -1,8 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { apiPost } from '@/lib/api'
+import { API_BASE, apiPost } from '@/lib/api'
 import type { PartyGameAction, PartyGamePublicState, PublicPartyGameEvent } from '@/data/partyGameSync'
-
-const API_BASE = import.meta.env.VITE_API_BASE as string | undefined
 
 export interface UsePartyGameSyncOptions {
   partyId: string
@@ -125,7 +123,7 @@ export function usePartyGameSync({
           const path = after ? `${resolvedEventsPath}${separator}after=${encodeURIComponent(after)}` : resolvedEventsPath
           // No Authorization header: the session is a same-origin cookie the
           // browser attaches itself, and there is no token in this page to send.
-          const response = await fetch(`${API_BASE ?? ''}${path}`, {
+          const response = await fetch(`${API_BASE}${path}`, {
             credentials: 'same-origin',
             signal: abort.signal,
           })

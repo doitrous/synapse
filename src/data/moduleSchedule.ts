@@ -1,6 +1,7 @@
 import { DEFAULT_REMINDER_POLICY } from './examProgramme.ts'
 import type { ExamKind, ExamMarkSplit, ExamReminderPolicy } from './examProgramme.ts'
 import type { AcademicProvenance, AcademicSourceRef } from './academicSource.ts'
+import { newId } from './userLibrary.ts'
 
 export type ModuleScheduleBlockType =
   | 'lecture'
@@ -111,7 +112,7 @@ export function emptyModuleScheduleBlock(
   type: ModuleScheduleBlockType = 'lecture',
 ): ModuleScheduleBlock {
   return {
-    id: `schedule-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+    id: newId('schedule'),
     type,
     title: '',
     date,

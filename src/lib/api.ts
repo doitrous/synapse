@@ -60,6 +60,9 @@ function noteUnauthorized(status: number): void {
 /** True when a backend is configured — the switch between live and demo modes. */
 export const API_MODE = Boolean(BASE)
 
+/** The API origin prefix, or `''` when requests go to the app's own origin. */
+export const API_BASE = BASE ?? ''
+
 /** Resolve a public API path for browser-native media elements. */
 export function apiPublicUrl(path: string): string {
   if (/^https?:\/\//i.test(path)) return path

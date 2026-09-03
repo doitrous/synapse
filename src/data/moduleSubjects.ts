@@ -2,6 +2,7 @@ import { EMPTY_CURRICULUM_SELECTION, type CourseCurriculumSelection } from './co
 import type { CurriculumCourse, UniYear, University } from './universities.ts'
 import type { AcademicProvenance } from './academicSource.ts'
 import type { AssessmentScheme } from './assessmentScheme.ts'
+import { newId } from './userLibrary.ts'
 
 /**
  * What a module examines, and what each part of it is worth.
@@ -81,7 +82,7 @@ export function emptyExamMarks(): ExamMarks {
 
 export function newModuleSubject(name = ''): ModuleSubject {
   return {
-    id: `msub-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
+    id: newId('msub'),
     name,
     marks: emptyExamMarks(),
     curriculum: structuredClone(EMPTY_CURRICULUM_SELECTION),

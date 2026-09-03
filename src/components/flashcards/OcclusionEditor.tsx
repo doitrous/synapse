@@ -20,6 +20,7 @@ import type { FlashcardsApi } from '@/lib/useFlashcards'
 import type { ImageOcclusionNote, Occluder, OccluderGroup, OccluderShape, OcclusionMode } from '@/data/flashcards/model'
 import { occlusionCardCount, occlusionSignature, isDuplicateOcclusion, pointInShape, shapeBounds } from '@/data/flashcards/occlusion'
 import { escapeHtml } from '@/data/flashcards/richText'
+import { newId } from '@/data/userLibrary'
 import { clampRect, clientToImage, isDrawable, nudgeShape, rectFromPoints, resizeRect, resizeHandlePoints, zoomViewBox, type ResizeHandle, type ViewBox } from '@/data/flashcards/occlusionEditor'
 
 type Tool = 'select' | 'rect' | 'ellipse' | 'polygon' | 'pan'
@@ -27,7 +28,7 @@ type Tool = 'select' | 'rect' | 'ellipse' | 'polygon' | 'pan'
 interface Snapshot { occluders: Occluder[]; groups: OccluderGroup[] }
 
 function uid(prefix: string): string {
-  return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`
+  return newId(prefix)
 }
 
 /** CSS resize cursor per handle, so the pointer signals which way it will grow. */

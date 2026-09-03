@@ -6,6 +6,7 @@ import { useIdentity } from './useIdentity'
 import {
   DEFAULT_STORAGE_LIMITS, STORAGE_LIMITS_STORAGE_KEY, limitFor, type StorageLimits,
 } from '@/data/storageLimits'
+import { newId } from '@/data/userLibrary'
 
 /**
  * The documents a student brought themselves.
@@ -103,7 +104,7 @@ export function useMyDocuments(): MyDocumentsState {
 
   const upload = useCallback(async (file: File, onProgress?: (fraction: number) => void, source: MyDocumentSource = { kind: 'resource' }) => {
     if (!API_MODE) {
-      const id = `local-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`
+      const id = newId('local')
       const ref = await storeMediaFile(id, file)
       onProgress?.(1)
       setLocal((current) => [{ ...newRecord(id, file, ref), sourceKind: source.kind, sourceId: source.id ?? null }, ...current])
@@ -112,7 +113,7 @@ export function useMyDocuments(): MyDocumentsState {
     // Placeholder appears the instant the upload starts — the progress UI
     // already tracks it live, but the row itself no longer waits on the
     // server round trip to show up in the list.
-    const placeholderId = `uploading-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`
+    const placeholderId = newId('uploading')
     setRemote((current) => [
       recordFromFile(placeholderId, file, { sourceKind: source.kind, sourceId: source.id ?? null, status: 'uploading' }),
       ...current,

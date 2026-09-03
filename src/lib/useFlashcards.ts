@@ -34,6 +34,7 @@ import {
 import type { Grade } from '@/data/srs'
 import type { StudentDeck } from '@/data/decks'
 import { escapeHtml } from '@/data/flashcards/richText'
+import { newId } from '@/data/userLibrary'
 
 /**
  * The one hook the whole Flashcards feature reads and writes through.
@@ -251,9 +252,9 @@ export function useFlashcards(providedDecks: StudentDeck[] = []): FlashcardsApi 
   const appendEvents = useCallback(
     (events: NewReviewEvent[]) => {
       if (events.length === 0) return
-      const stamped: ReviewEvent[] = events.map((event, i) => ({
+      const stamped: ReviewEvent[] = events.map((event) => ({
         ...event,
-        id: `re-${Date.now().toString(36)}-${i}-${Math.random().toString(36).slice(2, 7)}`,
+        id: newId('re'),
       }))
       setReviewEvents((current) => {
         const next = [...current, ...stamped]
@@ -289,7 +290,7 @@ export function useFlashcards(providedDecks: StudentDeck[] = []): FlashcardsApi 
 
   const createDeck = useCallback(
     (name: string): string => {
-      const id = `deck-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`
+      const id = newId('deck')
       commit({
         ...collection,
         decks: { ...collection.decks, [id]: { id, name: name.trim() || 'Untitled deck', createdAt: new Date().toISOString() } },
