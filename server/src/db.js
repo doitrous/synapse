@@ -80,6 +80,8 @@ export async function migrate() {
       ['phone', 'VARCHAR(32) NULL AFTER email'],
       ['nationality', 'VARCHAR(64) NULL AFTER phone'],
       ['year_id', 'VARCHAR(64) NULL AFTER year'],
+      ['status_message', 'VARCHAR(140) NULL'],
+      ['ai_consent_at', 'DATETIME NULL'],
     ]) {
       const [found] = await conn.query(
         `SELECT 1 FROM information_schema.columns
@@ -130,6 +132,25 @@ export async function migrate() {
         response_json   LONGTEXT NOT NULL,
         created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         INDEX idx_academic_publish_actor (actor_id, created_at)
+      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
+    )
+
+    // Contact-us. Same belt-and-suspenders as every table above: schema.sql
+    // already creates this on a fresh database, this guard is what gets it
+    // onto an existing production database on the next boot.
+    await conn.query(
+      `CREATE TABLE IF NOT EXISTS support_messages (
+        id         VARCHAR(64) PRIMARY KEY,
+        user_id    VARCHAR(64) NOT NULL,
+        student_id VARCHAR(64) NULL,
+        subject    VARCHAR(160) NULL,
+        message    TEXT NOT NULL,
+        status     ENUM('open','closed') NOT NULL DEFAULT 'open',
+        admin_note TEXT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        INDEX idx_support_messages_user (user_id, created_at),
+        INDEX idx_support_messages_status (status, created_at)
       ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
     )
 

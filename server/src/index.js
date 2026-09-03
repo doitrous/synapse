@@ -51,6 +51,7 @@ import {
   passwordResetConfigured,
   readReason,
   recordAction,
+  recordAiConsent,
   requestPasswordReset,
   setUserPassword,
   saveOwnEnrolment,
@@ -58,7 +59,11 @@ import {
   setContentScope,
   setDiscoverable,
   setRole,
+  usernameAvailability,
 } from './accounts.js'
+import {
+  closeSupportMessage, createSupportMessage, listSupportMessages, mySupportMessages,
+} from './support.js'
 import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
@@ -471,6 +476,8 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
           username: user.username,
           profileIcon: user.profileIcon,
           avatarMediaId: user.avatarMediaId,
+          statusMessage: user.statusMessage,
+          aiConsentAt: user.aiConsentAt,
           discoverable: user.discoverable,
           socialProvider: user.socialProvider,
         }
@@ -489,6 +496,22 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
  * replaced a browser-local document that each device kept its own copy of,
  * which is how one account came to show two different enrolled years.
  */
+/**
+ * Whether a handle is free, before the student commits to it in the save
+ * form. `saveOwnEnrolment` below is still the authoritative check — this is
+ * only a pre-check, so a race between two tabs still resolves correctly.
+ */
+app.get('/api/me/username-available', requireAuthenticated, wrap(async (req, res) => {
+  const user = await getUserByIdentity(req.identity.id)
+  const result = await usernameAvailability(pool, {
+    handle: String(req.query?.handle ?? ''),
+    universityId: user?.universityId ?? null,
+    currentUsernameNormalized: user?.usernameNormalized ?? null,
+    studentId: user?.id ?? null,
+  })
+  res.json(result)
+}))
+
 app.put('/api/me/enrolment', requireAuthenticated, wrap(async (req, res) => {
   const result = await saveOwnEnrolment(req.identity.id, req.body ?? {})
   if (result.error) {
@@ -546,6 +569,22 @@ app.post('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async 
 
 app.get('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async (req, res) => {
   res.json({ requests: await myEnrollmentChangeRequests(req.identity.id) })
+}))
+
+app.post('/api/me/support', requireAuthenticated, wrap(async (req, res) => {
+  const result = await createSupportMessage(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.get('/api/me/support', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ messages: await mySupportMessages(req.identity.id) })
+}))
+
+app.post('/api/me/consent/ai', requireAuthenticated, wrap(async (req, res) => {
+  const result = await recordAiConsent(req.identity.id)
+  if (result.error) return res.status(404).json(result)
+  res.json({ aiConsentAt: result.aiConsentAt })
 }))
 
 app.get('/api/me/university', requireAuthenticated, wrap(async (req, res) => {
@@ -2806,6 +2845,16 @@ app.post('/api/admin/enrollment-change-requests/:id/reject', requireTab('users')
     const status = result.error === 'already_decided' ? 409 : (result.error === 'not_found' ? 404 : 400)
     return res.status(status).json(result)
   }
+  res.json(result)
+}))
+
+app.get('/api/admin/support-messages', requireTab('users'), wrap(async (req, res) => {
+  res.json({ messages: await listSupportMessages({ status: req.query?.status ? String(req.query.status) : 'open' }) })
+}))
+
+app.post('/api/admin/support-messages/:id/close', requireTab('users'), wrap(async (req, res) => {
+  const result = await closeSupportMessage(req.params.id, { note: req.body?.note })
+  if (result.error) return res.status(404).json(result)
   res.json(result)
 }))
 
