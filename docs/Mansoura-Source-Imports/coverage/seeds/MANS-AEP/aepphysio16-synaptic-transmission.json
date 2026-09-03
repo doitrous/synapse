@@ -1,0 +1,426 @@
+{
+  "lane": "MANS-AEP",
+  "cluster": "aepphysio16",
+  "header": "MANS-AEP · cluster aepphysio16, Physiology \"MCQ Lecture 16\" (Synaptic Transmission), authored from \"Most important + previous exams (after midterm).pdf\" p.24-27, printed right-margin answer-column keys (same key pattern as aepphysio12-15 — an isolated capital letter positioned to the right of the block, independent of which option line it visually neighbours, directly names the correct option; cross-checked against the internal consistency of the acid-base questions on this page, which agree with each other). 14 raw items, 14 authored, 0 held. No live concept in Kasr 103-BMS/102-INT or the MANS-AEP concept files stated the EPSP/IPSP receptor mechanism, pH/oxygenation modulation, general CNS synaptic-fatigue mechanism, or CNS electrical-synapse distribution this lecture tests, so 4 new concepts were minted (CON-NEU-2AB42FC2BEFE10, CON-NEU-3A35E5F9E6BA1F, CON-NEU-9FA7E8D63C5C37, CON-NEU-9667ECD08C0140, docs/Mansoura-Source-Imports/concept/MANS-AEP-physio16-concepts.md) with one matching article (ART-MANS-AEP-SYNAPTIC-TRANSMISSION, docs/Mansoura-Source-Imports/article/MANS-AEP-physio16-articles.md); q07 (Ca2+ influx into the presynaptic terminal triggers neurotransmitter release) reuses CON-NEU-7FA13B2FD8AF7C, already minted by the aepcns lane (lane 3) from the same MANS-AEP question bank.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-AEP",
+    "topic": "Physiology",
+    "subtopic": "Synaptic Transmission",
+    "exam_weight_by_year": { "MANS_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_eb99c23b4006e7c6e7d3"],
+    "source_citation": "Most important + previous exams (after midterm).pdf, MCQ Lecture 16 \"Synaptic Transmission\", p.{page}",
+    "setting": "Academic",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "estimated_seconds": 45,
+    "randomise_answers": true,
+    "library_ids": ["ART-MANS-AEP-SYNAPTIC-TRANSMISSION"]
+  },
+  "questions": [
+    {
+      "key": "aepphysio16-q01",
+      "page": 24,
+      "title": "Most common CNS site for electrical synapses",
+      "question": "The most common site for electrical synapses in the C.N.S. is:",
+      "options": {
+        "A": "Inner ear (cochlea)",
+        "B": "Cerebral cortex",
+        "C": "Reticular activating system",
+        "D": "Hippocampus",
+        "E": "Raphe magnus nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The cochlea is a peripheral sensory organ, not the CNS site given for electrical synapses.",
+        "B": "Incorrect. The cerebral cortex is dominated by chemical, not electrical, synapses.",
+        "C": "Incorrect. The reticular activating system is not the site named for electrical synapses in this course.",
+        "D": "Correct. Most CNS synapses are chemical, but a small number of sites instead use electrical synapses — gap junctions that let ionic current pass directly between two neurons without a chemical intermediary. These synapses transmit with essentially no synaptic delay, since there is no transmitter release-and-binding step to wait for. The hippocampus is the classic example this course gives of where they occur in the CNS.",
+        "E": "Incorrect. The raphe magnus nucleus is not the site named for electrical synapses in this course."
+      },
+      "main_concept": "CON-NEU-9667ECD08C0140",
+      "concept_ids": ["CON-NEU-9667ECD08C0140"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "Identify the hippocampus as the classic CNS site for electrical (gap-junction) synapses.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > Electrical Synapses",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.24" }
+    },
+    {
+      "key": "aepphysio16-q02",
+      "page": 24,
+      "title": "A mechanism of synaptic fatigue",
+      "question": "Fatigue in synapses may be related to which of the following?",
+      "options": {
+        "A": "Excitation of the presynaptic nerve fiber",
+        "B": "Progressive increase in Ca++ available for neurotransmitter release",
+        "C": "Progressive inactivation of many of the postsynaptic receptors",
+        "D": "Development of a high concentration of K+ ions inside the postsynaptic neuron",
+        "E": "Development of a normal concentration of Cl- inside the postsynaptic neuron"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Simple excitation of the presynaptic fibre is the normal triggering event for transmission, not the cause of fatigue.",
+        "B": "Incorrect. Fatigue is associated with exhaustion, not a progressive increase, in the machinery available for neurotransmitter release.",
+        "C": "Correct. With sustained transmitter exposure, the postsynaptic receptors themselves can become progressively inactivated, or desensitised. This reduces the postsynaptic response even while transmitter continues to be released from the presynaptic terminal. It is a secondary, postsynaptic contributor to synaptic fatigue, alongside the dominant presynaptic transmitter-depletion mechanism.",
+        "D": "Incorrect. Synaptic fatigue is not attributed to a rising intracellular K+ concentration in the postsynaptic neuron.",
+        "E": "Incorrect. A normal (unchanged) intracellular Cl- concentration describes a resting, not a fatigued, state and is not the mechanism tested here."
+      },
+      "main_concept": "CON-NEU-9FA7E8D63C5C37",
+      "concept_ids": ["CON-NEU-9FA7E8D63C5C37"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that postsynaptic receptor desensitisation is a contributor to synaptic fatigue.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > Synaptic Fatigue",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.24" }
+    },
+    {
+      "key": "aepphysio16-q03",
+      "page": 24,
+      "title": "An inhibitor of synaptic transmission",
+      "question": "Synaptic transmission can be inhibited by:",
+      "options": {
+        "A": "Hypercalcemia",
+        "B": "Alkalosis",
+        "C": "Acidosis",
+        "D": "Thyroid hormones",
+        "E": "Caffeine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Hypercalcemia is not the acid-base/oxygenation factor this question tests as an inhibitor of transmission.",
+        "B": "Incorrect. Alkalosis raises, rather than inhibits, neuronal excitability and synaptic transmission.",
+        "C": "Correct. Acidosis depresses neuronal activity and inhibits synaptic transmission. This is the opposite of alkalosis, which facilitates transmission and raises excitability instead. Hypoventilation depresses neuronal activity by exactly this route, since retained CO2 drives the blood toward acidosis.",
+        "D": "Incorrect. Thyroid hormones are not the factor tested here as an inhibitor of synaptic transmission.",
+        "E": "Incorrect. Caffeine is a CNS stimulant, not an inhibitor of synaptic transmission."
+      },
+      "main_concept": "CON-NEU-3A35E5F9E6BA1F",
+      "concept_ids": ["CON-NEU-3A35E5F9E6BA1F"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "learning_objective": "State that acidosis inhibits synaptic transmission.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > pH and Oxygenation Effects",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.24" }
+    },
+    {
+      "key": "aepphysio16-q04",
+      "page": 24,
+      "title": "A true statement about synaptic transmission",
+      "question": "Regarding synaptic transmission, which of the following is true?",
+      "options": {
+        "A": "It is inhibited by hypercalcemia",
+        "B": "It is stimulated by alkalosis",
+        "C": "It does not show fatigue",
+        "D": "It is stimulated by acidosis",
+        "E": "It shows a delay of about 15 msec"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. This option does not name the acid-base/oxygenation factor this question tests as stimulating transmission.",
+        "B": "Correct. Alkalosis raises neuronal excitability and facilitates (stimulates) synaptic transmission. This is the opposite of acidosis, which inhibits transmission and depresses neuronal activity instead. A sufficiently severe alkalosis can even push excitability far enough to provoke seizures.",
+        "C": "Incorrect. Synaptic transmission does show fatigue, a progressive decline in response to repetitive or prolonged stimulation.",
+        "D": "Incorrect. Acidosis inhibits, rather than stimulates, synaptic transmission.",
+        "E": "Incorrect. The synaptic delay tested elsewhere in this course for the related neuromuscular junction is on the order of half a millisecond, not 15 msec."
+      },
+      "main_concept": "CON-NEU-3A35E5F9E6BA1F",
+      "concept_ids": ["CON-NEU-3A35E5F9E6BA1F"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "learning_objective": "State that alkalosis stimulates (facilitates) synaptic transmission.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > pH and Oxygenation Effects",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.24" }
+    },
+    {
+      "key": "aepphysio16-q05",
+      "page": 25,
+      "title": "Effect of releasing an excitatory neurotransmitter",
+      "question": "When an excitatory neurotransmitter is released, it may lead to:",
+      "options": {
+        "A": "Potassium entry",
+        "B": "Calcium entry",
+        "C": "Hyperpolarization",
+        "D": "Chloride entry",
+        "E": "EPSP"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Potassium entry into the postsynaptic neuron is not the event an excitatory neurotransmitter produces there.",
+        "B": "Incorrect. Calcium entry into the presynaptic terminal is what triggers neurotransmitter release, but it is not itself the postsynaptic excitatory event this question asks for.",
+        "C": "Incorrect. Hyperpolarization is the inhibitory (IPSP), not excitatory, postsynaptic response.",
+        "D": "Incorrect. Chloride entry into the postsynaptic neuron produces hyperpolarization, the inhibitory response, not an excitatory one.",
+        "E": "Correct. Binding an excitatory neurotransmitter to its postsynaptic receptor opens ligand-gated Na+ channels. Na+ then enters the postsynaptic neuron and depolarises it. This depolarisation is the excitatory postsynaptic potential (EPSP), and it moves the postsynaptic membrane closer to firing threshold."
+      },
+      "main_concept": "CON-NEU-2AB42FC2BEFE10",
+      "concept_ids": ["CON-NEU-2AB42FC2BEFE10"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "learning_objective": "State that an excitatory neurotransmitter produces an EPSP.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > Excitatory and Inhibitory Mechanisms",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.25" }
+    },
+    {
+      "key": "aepphysio16-q06",
+      "page": 25,
+      "title": "An event of synaptic transmission",
+      "question": "Synaptic transmission may involve:",
+      "options": {
+        "A": "Release of neurotransmitter from the postsynaptic neuron",
+        "B": "Entry of Mg++ into the postsynaptic neuron",
+        "C": "Occurrence of an EPSP in the presynaptic neuron",
+        "D": "Outflow of K+ from the presynaptic neuron",
+        "E": "Na+ entry into the postsynaptic neuron"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Neurotransmitter is released from the presynaptic, not the postsynaptic, neuron.",
+        "B": "Incorrect. Mg++ entry into the postsynaptic neuron is not a step of synaptic transmission tested here.",
+        "C": "Incorrect. An EPSP is a postsynaptic, not a presynaptic, event.",
+        "D": "Incorrect. It is Ca2+ influx into the presynaptic terminal, not K+ outflow, that triggers neurotransmitter release.",
+        "E": "Correct. At an excitatory synapse, transmitter binding opens ligand-gated Na+ channels. Na+ then enters the postsynaptic neuron and depolarises it, which is the ionic basis of the EPSP. This Na+ entry is the ionic event, separate and distinct from the presynaptic Ca2+ influx that triggers the transmitter's release in the first place."
+      },
+      "main_concept": "CON-NEU-2AB42FC2BEFE10",
+      "concept_ids": ["CON-NEU-2AB42FC2BEFE10"],
+      "contextual_concept_ids": ["CON-NEU-7FA13B2FD8AF7C"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that Na+ entry into the postsynaptic neuron is an event of excitatory synaptic transmission.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > Excitatory and Inhibitory Mechanisms",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.25" }
+    },
+    {
+      "key": "aepphysio16-q07",
+      "page": 25,
+      "title": "What neurotransmitter release depends upon",
+      "question": "The release of neurotransmitter at a chemical synapse in the central nervous system is dependent upon which of the following?",
+      "options": {
+        "A": "Synthesis of acetylcholinesterase",
+        "B": "Hyperpolarization of the synaptic terminal",
+        "C": "Opening of ligand-gated calcium channels",
+        "D": "Influx of calcium into the presynaptic terminal"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Synthesising acetylcholinesterase (a transmitter-degrading enzyme) is not what triggers transmitter release.",
+        "B": "Incorrect. Hyperpolarising the presynaptic terminal would reduce, not enable, transmitter release; an arriving action potential depolarises the terminal instead.",
+        "C": "Incorrect. It is voltage-gated, not ligand-gated, calcium channels that open in the presynaptic terminal in response to the arriving action potential's depolarisation.",
+        "D": "Correct. An arriving action potential depolarises the presynaptic terminal and opens voltage-gated calcium channels there. The resulting Ca2+ influx into the presynaptic terminal triggers the synaptic vesicles to fuse with the presynaptic membrane. This fusion releases their neurotransmitter into the synaptic cleft, where it can bind the postsynaptic receptor."
+      },
+      "main_concept": "CON-NEU-7FA13B2FD8AF7C",
+      "concept_ids": ["CON-NEU-7FA13B2FD8AF7C"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that neurotransmitter release depends on calcium influx into the presynaptic terminal.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > Neurotransmitter Release",
+      "library_ids": ["ART-MANS-AEP-SYNAPSE-TYPES", "ART-MANS-AEP-SYNAPTIC-TRANSMISSION"],
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.25" }
+    },
+    {
+      "key": "aepphysio16-q08",
+      "page": 25,
+      "title": "Effect of hypoventilation on neuronal activity",
+      "question": "Hypoventilation has which of the following effects on neuronal activity?",
+      "options": {
+        "A": "Depresses neuronal activity",
+        "B": "Increases neuronal activity",
+        "C": "Increases synaptic delay",
+        "D": "Increases neurotransmitter release",
+        "E": "Increases the number of postsynaptic receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hypoventilation retains CO2 in the blood, driving it toward acidosis. Acidosis depresses neuronal activity and inhibits synaptic transmission. This is why hypoventilation's downstream effect on the nervous system is depressant, the opposite of the excitatory effect a hyperventilation-driven alkalosis would produce.",
+        "B": "Incorrect. Hypoventilation depresses, rather than increases, neuronal activity, via the acidosis it produces.",
+        "C": "Incorrect. Increasing synaptic delay is not the effect of hypoventilation tested in this course; its tested effect is on overall neuronal activity via acidosis.",
+        "D": "Incorrect. Hypoventilation is not described as increasing neurotransmitter release; its depressant effect works through acidosis reducing neuronal activity generally.",
+        "E": "Incorrect. Hypoventilation is not described as changing postsynaptic receptor number; that is not the mechanism tested here."
+      },
+      "main_concept": "CON-NEU-3A35E5F9E6BA1F",
+      "concept_ids": ["CON-NEU-3A35E5F9E6BA1F"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "learning_objective": "State that hypoventilation depresses neuronal activity via the acidosis it produces.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > pH and Oxygenation Effects",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.25" }
+    },
+    {
+      "key": "aepphysio16-q09",
+      "page": 26,
+      "title": "What determines whether a neurotransmitter is excitatory or inhibitory",
+      "question": "The excitatory or inhibitory action of a neurotransmitter is determined by which of the following?",
+      "options": {
+        "A": "Function of its postsynaptic receptor",
+        "B": "Molecular composition",
+        "C": "Shape of the synaptic vesicle in which it is contained",
+        "D": "Distance between the presynaptic and postsynaptic membranes",
+        "E": "Number of receptors on the postsynaptic membrane"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The postsynaptic receptor's ion selectivity, not any property of the transmitter itself, decides whether a given synapse excites or inhibits. Binding a receptor that opens Na+ channels gives excitation (EPSP), while binding a receptor that opens Cl- channels gives inhibition (IPSP). Because of this, the same transmitter can be excitatory at one receptor and inhibitory at another.",
+        "B": "Incorrect. A transmitter's molecular composition does not by itself fix its excitatory or inhibitory action, since the same molecule can act either way depending on the receptor it binds.",
+        "C": "Incorrect. Vesicle shape is not what determines whether the released transmitter excites or inhibits the postsynaptic neuron.",
+        "D": "Incorrect. The synaptic-cleft distance is not the factor that sets a synapse's excitatory or inhibitory sign.",
+        "E": "Incorrect. Receptor number can affect the size of the postsynaptic response, but it is receptor function (ion selectivity), not receptor number, that sets whether the response is excitatory or inhibitory."
+      },
+      "main_concept": "CON-NEU-2AB42FC2BEFE10",
+      "concept_ids": ["CON-NEU-2AB42FC2BEFE10"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that the postsynaptic receptor's function determines whether a neurotransmitter is excitatory or inhibitory.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > Excitatory and Inhibitory Mechanisms",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.26" }
+    },
+    {
+      "key": "aepphysio16-q10",
+      "page": 26,
+      "title": "A characteristic event at an excitatory synapse",
+      "question": "Which of the following is characteristic of the events occurring at an excitatory synapse?",
+      "options": {
+        "A": "There is massive efflux of calcium from the presynaptic terminal",
+        "B": "Synaptic vesicles bind to the postsynaptic membrane",
+        "C": "Voltage-gated potassium channels are closed",
+        "D": "Ligand-gated channels are opened to allow sodium entry into the postsynaptic neuron",
+        "E": "Ligand-gated channels are opened to allow Ca++ entry into the postsynaptic neuron"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Calcium moves into, not out of, the presynaptic terminal, and this influx (not an efflux) is what triggers transmitter release.",
+        "B": "Incorrect. Synaptic vesicles fuse with the presynaptic membrane to release their contents; they do not themselves bind to the postsynaptic membrane.",
+        "C": "Incorrect. Excitatory synaptic events are not defined by closure of voltage-gated potassium channels; the defining postsynaptic event is opening of ligand-gated sodium channels.",
+        "D": "Correct. At an excitatory synapse, transmitter binding opens ligand-gated channels that let Na+ enter the postsynaptic neuron. This Na+ influx depolarises the postsynaptic membrane, producing the EPSP. It is the ligand-gated (receptor-controlled) nature of these channels that distinguishes them from the voltage-gated channels used elsewhere in nerve conduction.",
+        "E": "Incorrect. Postsynaptic ligand-gated Ca++ entry is not the defining ionic event of a typical excitatory synapse; that role is filled by Na+ entry."
+      },
+      "main_concept": "CON-NEU-2AB42FC2BEFE10",
+      "concept_ids": ["CON-NEU-2AB42FC2BEFE10"],
+      "contextual_concept_ids": ["CON-NEU-7FA13B2FD8AF7C"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that opening of ligand-gated Na+ channels at the postsynaptic membrane is characteristic of an excitatory synapse.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > Excitatory and Inhibitory Mechanisms",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.26" }
+    },
+    {
+      "key": "aepphysio16-q11",
+      "page": 26,
+      "title": "The main basis of synaptic fatigue",
+      "question": "Which of the following is correct?",
+      "options": {
+        "A": "Synaptic fatigue means the presynaptic neuron fails to discharge",
+        "B": "Synaptic fatigue is mainly due to depletion of neurotransmitter in the postsynaptic knobs",
+        "C": "Synaptic fatigue is mainly due to depletion of neurotransmitter in the presynaptic knobs",
+        "D": "Secondary hyperalgesia is due to hypersensitivity of pain receptors",
+        "E": "In the pathway of crude touch, third-order neurons terminate in the motor cortex"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Synaptic fatigue is not a failure of the presynaptic neuron to fire at all; the presynaptic neuron still discharges, but the transmitter it can release is depleted.",
+        "B": "Incorrect. Neurotransmitter is stored and released from the presynaptic, not the postsynaptic, terminal, so it is the presynaptic knobs that become depleted.",
+        "C": "Correct. Synaptic fatigue arises mainly at the presynaptic terminal. Sustained, repetitive use lets the rate of neurotransmitter release from the presynaptic knobs outpace the rate of its resynthesis there. This imbalance progressively depletes the transmitter store, which is why the synapse's response falls off with continued firing.",
+        "D": "Incorrect. This statement about secondary hyperalgesia, while a true fact elsewhere, is not the correct answer among these options for this question.",
+        "E": "Incorrect. Third-order neurons of the crude touch pathway terminate in the sensory (not motor) cortex; this option is not the correct answer here."
+      },
+      "main_concept": "CON-NEU-9FA7E8D63C5C37",
+      "concept_ids": ["CON-NEU-9FA7E8D63C5C37"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that synaptic fatigue is mainly due to depletion of neurotransmitter in the presynaptic knobs.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > Synaptic Fatigue",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.26" }
+    },
+    {
+      "key": "aepphysio16-q12",
+      "page": 27,
+      "title": "The rate imbalance underlying synaptic fatigue",
+      "question": "Synaptic fatigue is due to:",
+      "options": {
+        "A": "Decreased synthesis of neurotransmitters",
+        "B": "Inability to release neurotransmitters by exocytosis",
+        "C": "Failure of action potentials to open voltage-gated Ca channels in the presynaptic terminal",
+        "D": "Imbalance between the rates of synthesis and release of neurotransmitters"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Neurotransmitter synthesis itself is not described as decreasing; the problem is that release outpaces the ongoing rate of synthesis, not a fall in synthesis alone.",
+        "B": "Incorrect. The presynaptic terminal does not lose the ability to release transmitter by exocytosis; rather, it runs short of transmitter to release because of the synthesis/release rate imbalance.",
+        "C": "Incorrect. Voltage-gated Ca2+ channels continue to open normally with each arriving action potential; synaptic fatigue is not a failure of this Ca2+-triggering step.",
+        "D": "Correct. With sustained high-frequency stimulation, the rate at which neurotransmitter is released from the presynaptic terminal outpaces the rate at which it can be resynthesised. The store of releasable transmitter is therefore progressively exhausted. This synthesis-versus-release imbalance is the underlying mechanism behind synaptic fatigue."
+      },
+      "main_concept": "CON-NEU-9FA7E8D63C5C37",
+      "concept_ids": ["CON-NEU-9FA7E8D63C5C37"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that synaptic fatigue results from an imbalance between the rates of neurotransmitter synthesis and release.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > Synaptic Fatigue",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.27" }
+    },
+    {
+      "key": "aepphysio16-q13",
+      "page": 27,
+      "title": "The exception among inhibitors of synaptic transmission",
+      "question": "Synaptic transmission is inhibited by all the following EXCEPT:",
+      "options": {
+        "A": "Oxygen lack",
+        "B": "Alkalosis",
+        "C": "Acidosis",
+        "D": "Prolonged activity of the synapse"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (i.e. this statement is TRUE). Oxygen lack (hypoxia) does inhibit synaptic transmission, since neurons depend on continuous oxidative metabolism.",
+        "B": "Correct (i.e. this is the EXCEPTION). Alkalosis facilitates, rather than inhibits, synaptic transmission — the opposite of acidosis, which does inhibit it.",
+        "C": "Incorrect (i.e. this statement is TRUE). Acidosis does inhibit synaptic transmission and depress neuronal activity.",
+        "D": "Incorrect (i.e. this statement is TRUE). Prolonged activity of the synapse does inhibit transmission, through synaptic fatigue from presynaptic transmitter depletion."
+      },
+      "main_concept": "CON-NEU-3A35E5F9E6BA1F",
+      "concept_ids": ["CON-NEU-3A35E5F9E6BA1F"],
+      "contextual_concept_ids": ["CON-NEU-9FA7E8D63C5C37"],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "learning_objective": "Identify alkalosis as the exception among factors that inhibit synaptic transmission.",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > pH and Oxygenation Effects",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.27" }
+    },
+    {
+      "key": "aepphysio16-q14",
+      "page": 27,
+      "title": "Effect of drugs that open chloride channels at synapses",
+      "question": "Drugs which open Cl- channels in synapses:",
+      "options": {
+        "A": "Cause depolarization of the postsynaptic membrane",
+        "B": "Cause hyperpolarization of the postsynaptic membrane",
+        "C": "Enhance release of neurotransmitters from synaptic knobs",
+        "D": "Enhance the response of postsynaptic neurons"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cl- entry hyperpolarises, rather than depolarises, the postsynaptic membrane.",
+        "B": "Correct. Opening postsynaptic Cl- channels lets Cl- enter the postsynaptic neuron. This hyperpolarises the membrane, moving it further from firing threshold. The resulting hyperpolarisation is the inhibitory postsynaptic potential (IPSP), the same mechanism an inhibitory neurotransmitter's own receptor produces.",
+        "C": "Incorrect. Opening postsynaptic Cl- channels is a postsynaptic, inhibitory event; it does not act on presynaptic neurotransmitter release.",
+        "D": "Incorrect. Hyperpolarising the postsynaptic membrane dampens, rather than enhances, the postsynaptic neuron's response to further excitatory input."
+      },
+      "main_concept": "CON-NEU-2AB42FC2BEFE10",
+      "concept_ids": ["CON-NEU-2AB42FC2BEFE10"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "learning_objective": "State that opening postsynaptic Cl- channels hyperpolarises the postsynaptic membrane (IPSP).",
+      "module_subject": "MANS-AEP > Physiology > Synaptic Transmission > Excitatory and Inhibitory Mechanisms",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.27" }
+    }
+  ]
+}
