@@ -8,6 +8,7 @@
 | aepphysio15 | 23 | 7 | 0 | 30 |
 | aepphysio16 | 14 | 0 | 0 | 14 |
 | aepphysio17 | 14 | 2 | 0 | 16 |
+| aepphysio18 | 13 | 2 | 0 | 15 |
 | aepscalp | 40 | 0 | 0 | 40 |
 | aepuri | 9 | 0 | 0 | 9 |
 | aepvessels | 19 | 0 | 0 | 19 |
@@ -24,6 +25,8 @@
 - aepphysio15-q30 — near-duplicate of aepphysio15-q06/aepphysio15-q10 — tests the same core fact (continuous conduction is slow) under a different distractor set (adds 'consumes less energy than saltatory conduction' as a wrong option).
 - aepphysio17-q05 — <4 options — "Reynold number indicates" prints only 3 lettered options (velocity/turbulence/resistance), below the 4-option SBA floor.
 - aepphysio17-q14 — physically incorrect key — "resistance change when vessel diameter is halved" marks "quadrupled" (4x) as correct, but Poiseuille's fourth-power radius law means halving radius increases resistance 16-fold, not 4-fold; no printed option states the physically correct answer. Held rather than authored to avoid teaching a false relationship.
+- aepphysio18-q14 — literal duplicate of aepphysio18-q08 — same "incorrect regarding fluid filtration across capillary membrane" stem and five-option set, same key D.
+- aepphysio18-q15 — literal duplicate of aepphysio18-q06 — same "pressure of the interstitial fluid is normally" stem and four-option set, same key D.
 
 ## Remaining
 (none)
