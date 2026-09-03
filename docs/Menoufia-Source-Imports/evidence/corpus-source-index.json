@@ -2,10 +2,11 @@
   "note": "Menoufia MED104 lane-2/lane-3 source index. Menoufia's Year-1 corpus is tracked by sourceId in manifest/y1-sources.json (mu_<hash> ids, not src_ ids) and is not yet folded into a repo-wide corpus-source-index.json builder the way Ain Shams/Alexandria/Kasr are (LANE-CARD ruling 1: Menoufia PDFs are not in corpus-source-index.json, so questions cite them via free-text source_citation). This is a hand-built, lane-scoped index covering only the src_ resource records this lane's evidence files actually cite, generated from the same sha256 + page_count already computed for evidence/MU-MED104-resources.md, so validate-content-batch.mjs's src_ corpus check has something to verify against instead of hard-failing on a missing index. Do not extend it beyond what this lane's evidence cites without also updating evidence/MU-MED104-resources.md.",
   "generatedFrom": [
     "docs/Menoufia-Source-Imports/evidence/MU-MED104-resources.md",
-    "docs/Menoufia-Source-Imports/evidence/MU-MED102-resources.md"
+    "docs/Menoufia-Source-Imports/evidence/MU-MED102-resources.md",
+    "docs/Menoufia-Source-Imports/evidence/MU-MED103-resources.md"
   ],
   "manifestGeneratedOn": "2026-09-02",
-  "count": 9,
+  "count": 10,
   "sources": {
     "src_57f44dcc809b58a1a81f": {
       "sourceRelativePath": "Year 1/Semester 2/MED 104 - Musculoskeletal/Biochemistry/02 Department Books/Telegram 11713 - MSK-main book-2024final.pdf",
@@ -111,6 +112,18 @@
       "sha256": "56d88740af5ca30118947b13867cf9702a885b2b263006e8539397c316c9cf2f",
       "processingStatus": "pending",
       "pageCount": 22,
+      "languages": [
+        "en"
+      ]
+    },
+    "src_2d9cddaaa0be0253450e": {
+      "sourceRelativePath": "Semester 1/MED 103 - Communication Skills (Vertical Integration 1)/Family Medicine/03 Questions and QBank/Telegram 11687 - Communication Skills MCQ - Dr Mahmoud Attia.pdf",
+      "sourceRelativePaths": [
+        "Semester 1/MED 103 - Communication Skills (Vertical Integration 1)/Family Medicine/03 Questions and QBank/Telegram 11687 - Communication Skills MCQ - Dr Mahmoud Attia.pdf"
+      ],
+      "sha256": "2d9cddaaa0be0253450e82583bcf76bb7292a632928e41a498bbd28c2736419b",
+      "processingStatus": "pending",
+      "pageCount": 9,
       "languages": [
         "en"
       ]

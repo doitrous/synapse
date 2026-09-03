@@ -1,0 +1,923 @@
+{
+  "lane": "MU-MED103",
+  "cluster": "commqbank1",
+  "header": "MU-MED103 (Communication Skills / Vertical Integration 1) lane-1 authored batch. Source: 'Communication Skills MCQ - Dr Mahmoud Attia.pdf' (mu_2d9cddaaa0be0253450e), a CamScanner-scanned 9-page image PDF (no text layer -- pdftotext returned empty). 24 continuous items (Q1-25, Q3 held) covering foundations of communication, listening skills, communication barriers, consultation skills, health education and presentation skills. Keyed by 300dpi render + tesseract OCR, cross-checked against the paper's own printed answer-key table (p5) -- every authored item's circled/handwritten option on its own page matches the table exactly. Q3 held: the printed key (D) is crossed out in red ink and replaced with 'a,c', but no printed option states 'a+c' (the closest option is 'd- (a+b)'), so the corrected key cannot be bound to any single printed option -- self-contradictory, held per rule. This file's True/False section (pages 6-8, 42 items) is NOT authored here: those are two-option items and do not meet the >=4-option SBA floor. Search-before-mint: searched docs/Ain-Shams-Source-Imports/concept/ASU-COMM-foundations-concepts.md (4 existing communication-skills concepts, a different ASU Year-3 lecture slice) -- no exact-fact match, so all 24 concepts are new mints.",
+  "defaults": {
+    "subject": "psy",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "mu"
+    ],
+    "years": [
+      "MU_Y1"
+    ],
+    "module": "MU-MED103",
+    "exam_weight_by_year": {
+      "MU_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_2d9cddaaa0be0253450e"
+    ],
+    "source_citation": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Menoufia MED103 QBank p{page}",
+    "setting": "Academic",
+    "estimated_seconds": 40,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Moderate",
+    "reasoning_level": 2,
+    "exam_relevance": 5
+  },
+  "questions": [
+    {
+      "key": "commqbank1-q01",
+      "id": "QST-MUMED103-COMM-Q01",
+      "page": 1,
+      "title": "Which is NOT a benefit of good communication",
+      "question": "The following are benefits of good communication except:",
+      "options": {
+        "A": "Making an accurate diagnosis.",
+        "B": "Improving patient compliance.",
+        "C": "Decrease questions asked by the patients.",
+        "D": "Allowing for rapid recovery."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (i.e. this IS a true benefit). Clear communication helps the physician gather accurate history and findings, which supports an accurate diagnosis — so this is a genuine benefit, not the exception the question asks for.",
+        "B": "Incorrect (i.e. this IS a true benefit). Patients who understand and trust their physician are more likely to follow the agreed treatment plan, so improved compliance is a recognised benefit of good communication.",
+        "C": "Correct. Good communication does not reduce the number of questions patients ask — if anything, a patient who feels heard and is given space to talk tends to ask more questions, not fewer, because they are more engaged and comfortable raising concerns. This is the one listed option that is not an actual benefit of good communication, which is why it is the answer to an \"except\" question about benefits: accurate diagnosis, compliance, patient forgiveness of imperfect outcomes, fewer complaints, and faster recovery are all real benefits, but \"fewer questions\" is not.",
+        "D": "Incorrect (i.e. this IS a true benefit). Patients who communicate well with their physician, understand their condition and follow instructions correctly tend to recover more quickly, so rapid recovery is a genuine benefit."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Foundations of communication",
+      "main_concept": "CON-PSY-90215449B9F8B0",
+      "concept_ids": [
+        "CON-PSY-90215449B9F8B0"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify that reducing patient questions is not a benefit of good communication.",
+      "library_ids": [
+        "ART-MU103-FOUNDATIONS-6367E1E4"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Foundations of communication",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q1 p1"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q02",
+      "id": "QST-MUMED103-COMM-Q02",
+      "page": 1,
+      "title": "What achieving effective communication requires",
+      "question": "To achieve effective communication:",
+      "options": {
+        "A": "Use verbal & non-verbal skills",
+        "B": "Apply listening skills.",
+        "C": "Observe and respond to feedback.",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Using verbal and non-verbal skills together is necessary but, by itself, is only one of the three components needed for effective communication — the fuller answer combines it with listening and feedback.",
+        "B": "Incorrect alone. Applying listening skills is essential, but it is only one part of what achieving effective communication requires, alongside using both verbal/non-verbal skills and responding to feedback.",
+        "C": "Incorrect alone. Observing and responding to feedback closes the communication loop, confirming the message was received correctly, but this alone is not sufficient without the other two components.",
+        "D": "Correct. Effective communication is achieved only when all three components are present together: using both verbal and non-verbal skills to send the message, applying listening skills to receive the other person's message, and observing and responding to feedback to confirm mutual understanding. Leaving out any one of the three — for example, listening well but never checking feedback, or communicating clearly but never listening — breaks the communication loop. This is why the source lists \"all of the above\" as the correct, complete answer rather than any single component."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Foundations of communication",
+      "main_concept": "CON-PSY-294A42A412B116",
+      "concept_ids": [
+        "CON-PSY-294A42A412B116"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "List the combined requirements for achieving effective communication.",
+      "library_ids": [
+        "ART-MU103-FOUNDATIONS-6367E1E4"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Foundations of communication",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q2 p1"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q04",
+      "id": "QST-MUMED103-COMM-Q04",
+      "page": 1,
+      "title": "What verbal communication consists of",
+      "question": "Verbal communication consists of:",
+      "options": {
+        "A": "Body movements and contact",
+        "B": "Clear and appropriate language.",
+        "C": "Gestures and posture.",
+        "D": "Head & hand movements."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Body movements and physical contact are non-verbal (body-language) channels of communication, not verbal ones.",
+        "B": "Correct. Verbal communication is specifically the use of clear and appropriate language to convey a message — the words chosen and how clearly and suitably they are used for the listener. All three of the other options (body movements/contact, gestures/posture, head/hand movements) are components of non-verbal, body-language communication, not verbal communication, which is why \"clear and appropriate language\" is the one option that correctly describes what verbal communication consists of. Distinguishing this from non-verbal channels lets a physician focus specifically on word choice and clarity as one deliberately manageable part of a consultation.",
+        "C": "Incorrect. Gestures and posture are non-verbal, body-language elements of communication, not verbal ones.",
+        "D": "Incorrect. Head and hand movements are non-verbal cues, part of body language rather than verbal communication."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Foundations of communication",
+      "main_concept": "CON-PSY-38A80D6BB33E04",
+      "concept_ids": [
+        "CON-PSY-38A80D6BB33E04"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Define verbal communication as clear and appropriate language, distinct from non-verbal channels.",
+      "library_ids": [
+        "ART-MU103-FOUNDATIONS-6367E1E4"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Foundations of communication",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q4 p1"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q05",
+      "id": "QST-MUMED103-COMM-Q05",
+      "page": 1,
+      "title": "What body language includes",
+      "question": "Body language include:",
+      "options": {
+        "A": "Clear vocabulary.",
+        "B": "Facial expressions and eye contact.",
+        "C": "Voice.",
+        "D": "(b+c)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Clear vocabulary is a property of verbal language (word choice), not of body language.",
+        "B": "Incorrect alone. Facial expressions and eye contact are genuine body-language components, but the complete answer also includes voice, making option D (b+c) the fuller, correct choice.",
+        "C": "Incorrect alone. Voice (its non-verbal, paralinguistic qualities) is part of body language, but by itself it omits facial expressions and eye contact, which are also required for the complete answer.",
+        "D": "Correct. Body language is a composite of facial expressions and eye contact together with voice (its tone, pitch and pausing, independent of the words spoken) — options B and C combined. \"Clear vocabulary\" (option A) is excluded because vocabulary is a property of verbal, not non-verbal, communication. Recognising which listed features genuinely belong to body language, and which belong instead to the verbal channel, is the specific distinction this question tests."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Foundations of communication",
+      "main_concept": "CON-PSY-89E0EA79047B3B",
+      "concept_ids": [
+        "CON-PSY-89E0EA79047B3B"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify facial expressions, eye contact and voice as the components of body language, excluding vocabulary.",
+      "library_ids": [
+        "ART-MU103-FOUNDATIONS-6367E1E4"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Foundations of communication",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q5 p1"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q06",
+      "id": "QST-MUMED103-COMM-Q06",
+      "page": 1,
+      "title": "Non-verbal aspects of speech",
+      "question": "Non-verbal aspects of speech include the following :",
+      "options": {
+        "A": "Voice volume.",
+        "B": "Voice pitch.",
+        "C": "Pauses",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Voice volume is a genuine non-verbal aspect of speech, but it is only one of three listed features, all of which are correct together.",
+        "B": "Incorrect alone. Voice pitch is a genuine non-verbal aspect of speech, but by itself it omits volume and pauses, which are also correct.",
+        "C": "Incorrect alone. Pauses are a genuine non-verbal aspect of speech, but the complete answer requires combining this with volume and pitch.",
+        "D": "Correct. Voice volume, voice pitch and pauses are all recognised together as the non-verbal (paralinguistic) aspects of speech — features of how something is said that carry meaning independently of the words themselves. A raised volume, a rising pitch, or a deliberate pause can each change the meaning or emotional weight of an otherwise identical sentence. Because all three are correct paralinguistic features, \"all of the above\" is the complete answer rather than any single one of them."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Foundations of communication",
+      "main_concept": "CON-PSY-2EB2B68BF63AE3",
+      "concept_ids": [
+        "CON-PSY-2EB2B68BF63AE3"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Recognise voice volume, pitch and pauses together as the non-verbal aspects of speech.",
+      "library_ids": [
+        "ART-MU103-FOUNDATIONS-6367E1E4"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Foundations of communication",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q6 p1"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q07",
+      "id": "QST-MUMED103-COMM-Q07",
+      "page": 1,
+      "title": "Clarification as a listening skill",
+      "question": "As regards clarification:",
+      "options": {
+        "A": "it is one of listening skills",
+        "B": "Could be done by asking close end question",
+        "C": "Help understand what does patient mean",
+        "D": "(a +c)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. It is true that clarification is one of the listening skills, but this alone omits that it also helps understand what the patient means, which is also correct.",
+        "B": "Incorrect. While clarification can be done using closed-ended questions, this specific source pairs \"it is one of listening skills\" with \"help understand what does patient mean\" as the correct combination (a+c), not this option combined with either of those.",
+        "C": "Incorrect alone. It is true that clarification helps understand what the patient means, but this alone omits that it is one of the listening skills, which is also correct.",
+        "D": "Correct. Clarification is one of the listening skills, and its purpose is to help the physician understand exactly what the patient means when a statement is vague or ambiguous. Both statements (a) and (c) are true descriptions of clarification, which is why the composite answer (a+c) is correct rather than either statement alone. Clarification is typically achieved through closed-ended questions that narrow down the patient's meaning to a specific, confirmable point."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Listening skills",
+      "main_concept": "CON-PSY-2EBA718BEEBCDB",
+      "concept_ids": [
+        "CON-PSY-2EBA718BEEBCDB"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify clarification as a listening skill that helps understand the patient's meaning.",
+      "library_ids": [
+        "ART-MU103-LISTENING-A22A5269"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Listening skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q7 p1"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q08",
+      "id": "QST-MUMED103-COMM-Q08",
+      "page": 2,
+      "title": "What active listening includes",
+      "question": "Active listening includes:",
+      "options": {
+        "A": "Showing interest.",
+        "B": "Infection.",
+        "C": "Observing nonverbal behavior",
+        "D": "(a +c)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Showing interest is a genuine component of active listening, but the complete answer also requires observing nonverbal behavior, making (a+c) the fuller correct choice.",
+        "B": "Incorrect. \"Infection\" is an unrelated distractor with no connection to listening skills and is not a component of active listening.",
+        "C": "Incorrect alone. Observing nonverbal behavior is a genuine component of active listening, but by itself it omits showing interest, which is also correct.",
+        "D": "Correct. Active listening includes both showing genuine interest in what the patient is communicating and observing the patient's nonverbal behavior (body language, facial expression, tone) alongside their words. Together these let the physician pick up on cues the patient may not state directly. \"Infection\" is a nonsense distractor for this question and is not a real listening-skill component, which is why the correct composite answer combines only options (a) and (c)."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Listening skills",
+      "main_concept": "CON-PSY-A42B4E1DA26509",
+      "concept_ids": [
+        "CON-PSY-A42B4E1DA26509"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify showing interest and observing nonverbal behavior as the two genuine components of active listening.",
+      "library_ids": [
+        "ART-MU103-LISTENING-A22A5269"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Listening skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q8 p2"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q09",
+      "id": "QST-MUMED103-COMM-Q09",
+      "page": 2,
+      "title": "What listening skills involve",
+      "question": "Listening skills involves:",
+      "options": {
+        "A": "Paralanguage.",
+        "B": "Reflection.",
+        "C": "Decoding.",
+        "D": "(b +c)."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Paralanguage refers to the non-verbal, vocal features of speech (tone, pitch, pauses) — a channel of communication itself, not a listening-skill technique in this source's classification.",
+        "B": "Correct. Listening skills involve reflection — the technique of restating or mirroring back what the patient has said, in the physician's own words, to confirm that the message was understood correctly. Reflection is specifically identified as the listening-skill technique here, distinct from paralanguage (a communication channel) and decoding (a step in the communication process where the receiver interprets the message, not itself a deliberate listening technique the physician applies).",
+        "C": "Incorrect. Decoding is the step in the general communication process where the receiver interprets the sender's message; it is a passive/automatic part of receiving communication, not the listening-skill technique this question tests for.",
+        "D": "Incorrect. Combining reflection with decoding is not the correct pairing here — decoding is not classified as a listening skill in this source, so the correct single answer is reflection (b) alone, not (b+c)."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Listening skills",
+      "main_concept": "CON-PSY-F2E27E08A0EE07",
+      "concept_ids": [
+        "CON-PSY-F2E27E08A0EE07"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify reflection as a listening skill, distinct from paralanguage and decoding.",
+      "library_ids": [
+        "ART-MU103-LISTENING-A22A5269"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Listening skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q9 p2"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q10",
+      "id": "QST-MUMED103-COMM-Q10",
+      "page": 2,
+      "title": "Sender-related communication barriers",
+      "question": "Communication barriers related to the sender include:",
+      "options": {
+        "A": "Use of medical jargon",
+        "B": "Physical impairment",
+        "C": "Disinterest",
+        "D": "(a+b)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A barrier related to the sender (the physician) is the use of medical jargon — technical language the patient does not understand. Because the barrier originates in the physician's own word choice, it is classified as sender-side, and the fix lies with the sender: simplifying language for the specific patient in front of them.",
+        "B": "Incorrect. Physical impairment (e.g. a hearing or speech impairment) is generally a receiver-side or channel-side factor, not something originating from the sender's own communication choices.",
+        "C": "Incorrect. Disinterest could belong to either party depending on context, but it is not the sender-side barrier tested by this specific item; the answer keys specifically to medical jargon as the sender-originated barrier.",
+        "D": "Incorrect. Physical impairment (b) is not a sender-side barrier in this classification, so combining it with medical jargon (a) is not the correct answer; medical jargon alone (a) is correct."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Communication barriers",
+      "main_concept": "CON-PSY-DAC5AC0980EF6B",
+      "concept_ids": [
+        "CON-PSY-DAC5AC0980EF6B"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify use of medical jargon as a sender-side communication barrier.",
+      "library_ids": [
+        "ART-MU103-BARRIERS-F1E3BF49"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Communication barriers",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q10 p2"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q11",
+      "id": "QST-MUMED103-COMM-Q11",
+      "page": 2,
+      "title": "Receiver-related communication barriers",
+      "question": "Communication barrier related to the receivers include:",
+      "options": {
+        "A": "low educational level",
+        "B": "Pain or distress",
+        "C": "Noise",
+        "D": "(a+b)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Low educational level is a genuine receiver-side barrier (it can limit how well the patient understands the message), but the complete answer also includes pain or distress, making (a+b) the fuller correct choice.",
+        "B": "Incorrect alone. Pain or distress is a genuine receiver-side barrier (it impairs the patient's capacity to attend to and process the message), but by itself it omits low educational level, which is also correct.",
+        "C": "Incorrect. Noise is an environmental or channel-level barrier — it disrupts the transmission of the message itself — rather than a factor intrinsic to the receiver, so it is excluded from this receiver-specific composite answer.",
+        "D": "Correct. Communication barriers related to the receiver (the patient) are low educational level and pain or distress, both being factors intrinsic to the patient's own state that impair their ability to receive and process the message. Noise, by contrast, is an environmental/channel barrier that affects transmission regardless of who the receiver is, which is why it is excluded from this receiver-specific composite answer of (a+b)."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Communication barriers",
+      "main_concept": "CON-PSY-CA01DFA427F9B4",
+      "concept_ids": [
+        "CON-PSY-CA01DFA427F9B4"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify low educational level and pain/distress as receiver-side communication barriers, distinct from environmental noise.",
+      "library_ids": [
+        "ART-MU103-BARRIERS-F1E3BF49"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Communication barriers",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q11 p2"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q12",
+      "id": "QST-MUMED103-COMM-Q12",
+      "page": 2,
+      "title": "Non-verbal communication skill in consultation",
+      "question": "In a consultation setting, the following is considered a non-verbal communication skill:",
+      "options": {
+        "A": "Speaking in voice tone showing care",
+        "B": "Asking one question every time",
+        "C": "Asking the question in different ways",
+        "D": "Summarizing points at the end."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Speaking in a voice tone that shows care is a non-verbal communication skill, because tone of voice is a paralinguistic feature that conveys emotional meaning independently of the actual words used. A physician can say the exact same sentence in a caring or a dismissive tone, and the patient will perceive very different messages, which is why tone specifically belongs to the non-verbal channel of communication in a consultation.",
+        "B": "Incorrect. Asking one question at a time is a verbal, content-driven behavior (a questioning technique), not a non-verbal skill.",
+        "C": "Incorrect. Asking the question in different ways is also a verbal technique for improving understanding, not a non-verbal behavior.",
+        "D": "Incorrect. Summarizing points at the end is a verbal skill involving restating content in words, not a non-verbal communication skill."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Consultation skills",
+      "main_concept": "CON-PSY-17467635E19910",
+      "concept_ids": [
+        "CON-PSY-17467635E19910"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Recognise voice tone as the non-verbal communication skill among the listed consultation behaviors.",
+      "library_ids": [
+        "ART-MU103-CONSULTATION-C2871B8C"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Consultation skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q12 p2"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q13",
+      "id": "QST-MUMED103-COMM-Q13",
+      "page": 2,
+      "title": "Sequencing when giving information to the patient",
+      "question": "To enable information giving to the patient, the physician should",
+      "options": {
+        "A": "Give open questions first",
+        "B": "Put important things first",
+        "C": "Avoid leading questions",
+        "D": "Use facilitation by verbal and non-verbal cues."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Giving open questions first is a technique for gathering information from the patient (history-taking), not for giving information to the patient, which is what this question specifically asks about.",
+        "B": "Correct. To enable effective information giving, the physician should put the most important things first. Patients tend to remember and act on information presented early in an explanation more reliably than information given later or buried in the middle, so leading with the most important point maximises the chance the patient retains and follows it.",
+        "C": "Incorrect. Avoiding leading questions is a principle of information gathering (history-taking) to prevent biasing the patient's answers, not a principle of giving information to the patient.",
+        "D": "Incorrect. Using facilitation by verbal and non-verbal cues is a listening/encouragement technique used while the patient is speaking, not a principle for sequencing information the physician gives to the patient."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Consultation skills",
+      "main_concept": "CON-PSY-C4B46BE30D851E",
+      "concept_ids": [
+        "CON-PSY-C4B46BE30D851E"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that important information should be given first when informing a patient.",
+      "library_ids": [
+        "ART-MU103-CONSULTATION-C2871B8C"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Consultation skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q13 p2"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q14",
+      "id": "QST-MUMED103-COMM-Q14",
+      "page": 3,
+      "title": "Requirements for effective consultation",
+      "question": "The following is needed for effective consultation",
+      "options": {
+        "A": "Helping the client to feel safe.",
+        "B": "Looking directly and continuously to the patient",
+        "C": "Maintaining interaction with the patient",
+        "D": "(a+c)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Helping the client feel safe is a genuine requirement, but the complete answer also requires maintaining interaction, making (a+c) the fuller correct choice.",
+        "B": "Incorrect. Looking directly and continuously at the patient, taken as an absolute, is not the correct listed requirement — sustained, unbroken eye contact can feel intrusive rather than reassuring, so this option is not part of the correct composite answer.",
+        "C": "Incorrect alone. Maintaining interaction with the patient is a genuine requirement, but by itself it omits helping the client feel safe, which is also correct.",
+        "D": "Correct. Effective consultation requires both helping the client feel safe and maintaining interaction with the patient throughout the session. Feeling safe encourages the patient to disclose fully and honestly, while sustained interaction (rather than one-off, distracted engagement) keeps the consultation collaborative. Continuous, unbroken direct eye contact (option b) is not part of this correct pairing."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Consultation skills",
+      "main_concept": "CON-PSY-7614266917899D",
+      "concept_ids": [
+        "CON-PSY-7614266917899D"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify helping the client feel safe and maintaining interaction as the paired requirements for effective consultation.",
+      "library_ids": [
+        "ART-MU103-CONSULTATION-C2871B8C"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Consultation skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q14 p3"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q15",
+      "id": "QST-MUMED103-COMM-Q15",
+      "page": 3,
+      "title": "What the doctor should do at the end of the consultation",
+      "question": "At the end of consultation session. doctors should:",
+      "options": {
+        "A": "Share finding with the patient.",
+        "B": "Ensure that full understanding of disease etiology",
+        "C": "Order the patient to follow the management plan",
+        "D": "(a+b)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. At the end of the consultation session, the doctor should share the findings with the patient. This closes the loop of the consultation collaboratively, giving the patient the information they need to understand their own condition and be an active participant in decisions about their care.",
+        "B": "Incorrect. Ensuring the patient has a full understanding of the underlying disease etiology overstates what is realistically achievable or required at the close of a single consultation; sharing the findings themselves is the specific, correct answer.",
+        "C": "Incorrect. Ordering the patient to follow the management plan reflects a directive, non-collaborative communication style; good practice is to explain and negotiate the plan with the patient, not to issue orders.",
+        "D": "Incorrect. Combining sharing findings (a) with ensuring full understanding of disease etiology (b) overstates the requirement; sharing findings alone (a) is the correct, specific answer."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Consultation skills",
+      "main_concept": "CON-PSY-3362AC8AB4E119",
+      "concept_ids": [
+        "CON-PSY-3362AC8AB4E119"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that sharing findings with the patient is the correct end-of-consultation behavior.",
+      "library_ids": [
+        "ART-MU103-CONSULTATION-C2871B8C"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Consultation skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q15 p3"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q16",
+      "id": "QST-MUMED103-COMM-Q16",
+      "page": 3,
+      "title": "What a management plan includes",
+      "question": "Management plan includes:",
+      "options": {
+        "A": "Investigations and Prescriptions.",
+        "B": "Signs of recovery.",
+        "C": "Warning signs that require immediate return.",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Investigations and prescriptions are a genuine component of a management plan, but only one of three required components.",
+        "B": "Incorrect alone. Signs of recovery are a genuine component the patient should be told about, but by itself this omits investigations/prescriptions and warning signs.",
+        "C": "Incorrect alone. Warning signs requiring immediate return are a genuine, essential safety-netting component, but by itself this omits the other two components.",
+        "D": "Correct. A complete management plan given to the patient includes investigations and prescriptions, signs that indicate the patient is recovering as expected, and warning signs that require the patient to return immediately if they occur. All three components together — treatment, expected course, and safety-netting — make up a complete management plan; omitting any one leaves the patient under-informed about part of their care."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Consultation skills",
+      "main_concept": "CON-PSY-0D3BAC958E1DA0",
+      "concept_ids": [
+        "CON-PSY-0D3BAC958E1DA0"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "List the three components of a complete management plan.",
+      "library_ids": [
+        "ART-MU103-CONSULTATION-C2871B8C"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Consultation skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q16 p3"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q17",
+      "id": "QST-MUMED103-COMM-Q17",
+      "page": 3,
+      "title": "Basics of effective health education",
+      "question": "As regards the basics of effective health education, the educator should:",
+      "options": {
+        "A": "Use different audiovisual aids.",
+        "B": "Start from unknown to known to increase the suspense.",
+        "C": "Present multiple concepts in the same messages",
+        "D": "(a+b)."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The basics of effective health education require the educator to use different (varied) audio-visual aids, which helps engage the audience through multiple channels and reinforces the message rather than relying on a single, unvaried format. Varying the aids (posters, models, videos, demonstrations) also accommodates audience members who learn better through different senses, improving overall retention of the message.",
+        "B": "Incorrect. Health education messages should start from the known and move toward the unknown, building on what the audience already understands; starting from unknown to known \"to increase suspense\" is the reverse of good practice, and suspense is not a goal of health education.",
+        "C": "Incorrect. Presenting multiple concepts within the same message tends to overload and confuse the audience; effective health education instead keeps messages limited and focused on one concept at a time.",
+        "D": "Incorrect. Option (b) reverses the correct known-to-unknown sequencing principle, so combining it with (a) is not correct; using varied audio-visual aids (a) alone is the correct answer."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Health education",
+      "main_concept": "CON-PSY-FA330A6FD635D3",
+      "concept_ids": [
+        "CON-PSY-FA330A6FD635D3"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that using varied audio-visual aids is a basic requirement of effective health education.",
+      "library_ids": [
+        "ART-MU103-HEALTH-EDUCATION-149FE3D5"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Health education",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q17 p3"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q18",
+      "id": "QST-MUMED103-COMM-Q18",
+      "page": 3,
+      "title": "Regarding health education messages",
+      "question": "Regarding health education messages, educator should:",
+      "options": {
+        "A": "Put wide and branched objectives.",
+        "B": "Assume the interest of the group.",
+        "C": "Address misconceptions",
+        "D": "(a+b)."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Health education objectives should be limited and focused, not wide and branched; broad, scattered objectives make a message harder for the audience to follow and retain.",
+        "B": "Incorrect. Assuming the audience is already interested is a mistake — the educator should actively engage and motivate the audience rather than assume interest exists.",
+        "C": "Correct. When preparing health education messages, the educator should address the misconceptions the audience may hold about the topic. Directly correcting misunderstandings, rather than only presenting new facts, is what makes a health education message effective at changing behavior, since unaddressed misconceptions will continue to compete with the new, correct information.",
+        "D": "Incorrect. Both (a) wide/branched objectives and (b) assuming audience interest are poor practices, not correct principles, so this combination is incorrect; addressing misconceptions (c) is the correct answer."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Health education",
+      "main_concept": "CON-PSY-3BABAA3B025A2D",
+      "concept_ids": [
+        "CON-PSY-3BABAA3B025A2D"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that addressing misconceptions is a core principle for health education messages.",
+      "library_ids": [
+        "ART-MU103-HEALTH-EDUCATION-149FE3D5"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Health education",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q18 p3"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q19",
+      "id": "QST-MUMED103-COMM-Q19",
+      "page": 3,
+      "title": "Principles of effective health education",
+      "question": "Principles of effective health education, include:",
+      "options": {
+        "A": "Define the target group",
+        "B": "Define the key concepts and messages.",
+        "C": "Prepare the place where session will be conducted.",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Defining the target group is a genuine planning principle, but only one of three required together.",
+        "B": "Incorrect alone. Defining the key concepts and messages is a genuine planning principle, but by itself omits the target group and venue steps.",
+        "C": "Incorrect alone. Preparing the venue is a genuine planning principle, but by itself omits defining the target group and the key messages.",
+        "D": "Correct. Effective health education planning follows three principles together: defining the target group (who the audience is), defining the key concepts and messages (what will be taught), and preparing the place where the session will be conducted (the practical setting). All three — audience, content, and venue — must be planned together for a session to be effective, which is why \"all of the above\" is the complete, correct answer."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Health education",
+      "main_concept": "CON-PSY-532B2D1D3BA384",
+      "concept_ids": [
+        "CON-PSY-532B2D1D3BA384"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "List defining the target group, key messages, and venue as the combined principles of effective health education planning.",
+      "library_ids": [
+        "ART-MU103-HEALTH-EDUCATION-149FE3D5"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Health education",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q19 p3"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q20",
+      "id": "QST-MUMED103-COMM-Q20",
+      "page": 4,
+      "title": "Effective presentation skills",
+      "question": "For effective presentation skills, presenter should:",
+      "options": {
+        "A": "Read the slides word-for-word.",
+        "B": "Maintain eye contact with audience.",
+        "C": "Speak loudly without fluctuation in the voice.",
+        "D": "Direct words to one aspect of the room."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Reading slides word-for-word is a recognised poor presentation habit — it disengages the audience and suggests the presenter is not truly familiar with the material.",
+        "B": "Correct. For effective presentation skills, the presenter should maintain eye contact with the audience. Eye contact keeps the audience engaged, lets the presenter gauge the audience's reactions and understanding in real time, and conveys confidence, in clear contrast to poor habits such as reading slides verbatim or fixing attention on one spot in the room.",
+        "C": "Incorrect. Speaking loudly without any fluctuation in tone or pace is monotonous and reduces audience engagement rather than improving delivery; varied, controlled vocal delivery is more effective.",
+        "D": "Incorrect. Directing words to only one part of the room (rather than scanning the whole audience) excludes and disengages the rest of the audience, which is a poor presentation habit, not an effective one."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Presentation skills",
+      "main_concept": "CON-PSY-6D6B0468FF6529",
+      "concept_ids": [
+        "CON-PSY-6D6B0468FF6529"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that maintaining eye contact with the audience is a hallmark of effective presentation.",
+      "library_ids": [
+        "ART-MU103-PRESENTATION-902A9CB0"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Presentation skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q20 p4"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q21",
+      "id": "QST-MUMED103-COMM-Q21",
+      "page": 4,
+      "title": "Preparing a PowerPoint presentation",
+      "question": "When preparing power point presentation (ppt), presenter should:",
+      "options": {
+        "A": "Follow the 6 x 7 rule",
+        "B": "Use too many colors in the ppt slide.",
+        "C": "Use too many fonts and styles.",
+        "D": "Use capital letters."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When preparing a PowerPoint presentation, the presenter should follow the 6x7 rule — a guideline limiting slides to roughly six lines of text, with about seven words per line — to keep each slide concise and readable rather than overloaded with text. This guideline forces the presenter to distill each slide to its key point rather than crowding it with detail meant to be spoken aloud instead.",
+        "B": "Incorrect. Using too many colors on a slide is a recognised poor slide-design habit that distracts the audience rather than aiding comprehension.",
+        "C": "Incorrect. Using too many fonts and styles makes a slide look cluttered and unprofessional, and is a poor design habit, not a recommended practice.",
+        "D": "Incorrect. Using capital letters throughout a slide is harder to read than normal mixed-case text and is a recognised poor design habit, not a preparation guideline."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Presentation skills",
+      "main_concept": "CON-PSY-D4A1B8E13C5E42",
+      "concept_ids": [
+        "CON-PSY-D4A1B8E13C5E42"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State the 6x7 rule as the correct guideline for preparing readable PowerPoint slides.",
+      "library_ids": [
+        "ART-MU103-PRESENTATION-902A9CB0"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Presentation skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q21 p4"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q22",
+      "id": "QST-MUMED103-COMM-Q22",
+      "page": 4,
+      "title": "Building confidence during presentation",
+      "question": "To be confident during presentation, presenter should.",
+      "options": {
+        "A": "Be well prepared (collect enough data).",
+        "B": "Rehearse and practice many times.",
+        "C": "Avoid response to clients’ questions.",
+        "D": "(a+b)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Being well prepared is a genuine source of confidence, but the complete answer also requires rehearsal, making (a+b) the fuller correct choice.",
+        "B": "Incorrect alone. Rehearsing and practicing many times is a genuine source of confidence, but by itself it omits thorough preparation, which is also correct.",
+        "C": "Incorrect. Avoiding responses to the audience's questions is the opposite of good practice — it signals unpreparedness and undermines credibility rather than building confidence.",
+        "D": "Correct. Confidence during a presentation comes from being well prepared (collecting enough data on the topic) together with rehearsing and practicing the delivery many times beforehand. Preparation and rehearsal are the two concrete actions a presenter can take in advance to reduce anxiety and perform smoothly, which is why they are paired as the correct composite answer, in clear contrast to avoiding audience questions, which reflects poor preparation rather than confidence."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Presentation skills",
+      "main_concept": "CON-PSY-6208C39B78E8CB",
+      "concept_ids": [
+        "CON-PSY-6208C39B78E8CB"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify preparation and rehearsal together as the basis of presenter confidence.",
+      "library_ids": [
+        "ART-MU103-PRESENTATION-902A9CB0"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Presentation skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q22 p4"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q23",
+      "id": "QST-MUMED103-COMM-Q23",
+      "page": 4,
+      "title": "Giving instructions to the patient",
+      "question": "When giving instructions to the patient, doctor should consider:",
+      "options": {
+        "A": "Sequencing the events.",
+        "B": "Finishing by important things",
+        "C": "Summarizing the instructions to the patient",
+        "D": "Start from unknown to known information"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When giving instructions to the patient, the doctor should consider sequencing the events — presenting the steps in the order the patient must actually perform them. Correct sequencing reduces the chance the patient performs a step out of order, skips a step, or becomes confused about what to do first.",
+        "B": "Incorrect. Finishing with the important things reverses the primacy principle used for effective information giving, where the most important points should come first, not last.",
+        "C": "Incorrect. While summarizing can reinforce instructions, it is not the specific principle tested here; sequencing the events in the correct order is the answer this item keys to.",
+        "D": "Incorrect. Starting from unknown to known information is the reverse of good instructional practice, which should build from what the patient already knows toward new information."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Patient instructions and information gathering",
+      "main_concept": "CON-PSY-E47596AF20C407",
+      "concept_ids": [
+        "CON-PSY-E47596AF20C407"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that sequencing the events in order is the correct approach to giving patient instructions.",
+      "library_ids": [
+        "ART-MU103-INSTRUCTIONS-GATHERING-80D0EF70"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Patient instructions and information gathering",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q23 p4"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q24",
+      "id": "QST-MUMED103-COMM-Q24",
+      "page": 4,
+      "title": "Information gathering skills",
+      "question": "As regards information gathering skills,",
+      "options": {
+        "A": "Help obtain good history.",
+        "B": "Questions used may be open ended or close ended",
+        "C": "Leading questions help reach diagnosis",
+        "D": "(a+b) ."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Helping obtain a good history is a genuine part of information gathering, but the complete answer also requires flexible questioning, making (a+b) the fuller correct choice.",
+        "B": "Incorrect alone. Using open-ended or closed-ended questions as the situation requires is a genuine part of information gathering, but by itself it omits obtaining a good history, which is also correct.",
+        "C": "Incorrect. Leading questions do not help reach an accurate diagnosis; they bias the patient toward a particular answer and distort the reliability of the history obtained, which is the opposite of good information-gathering practice.",
+        "D": "Correct. Information gathering skills combine helping the physician obtain a good history with the flexible use of questions that may be open-ended (for broad exploration) or closed-ended (for narrowing down specifics), depending on the situation. Leading questions (option c) are explicitly excluded because they bias the patient's answers and do not genuinely help reach an accurate diagnosis, which is why the correct composite answer is (a+b), not a combination that includes leading questions."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Patient instructions and information gathering",
+      "main_concept": "CON-PSY-5E50FAEF772A1D",
+      "concept_ids": [
+        "CON-PSY-5E50FAEF772A1D"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "Identify good-history-taking plus flexible open/closed questioning as the components of information gathering, excluding leading questions.",
+      "library_ids": [
+        "ART-MU103-INSTRUCTIONS-GATHERING-80D0EF70"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Patient instructions and information gathering",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q24 p4"
+      },
+      "estimated_seconds": 40
+    },
+    {
+      "key": "commqbank1-q25",
+      "id": "QST-MUMED103-COMM-Q25",
+      "page": 4,
+      "title": "Communication requirement during physical examination",
+      "question": "During physical examination, doctors should",
+      "options": {
+        "A": "Ensure the presence of a relative.",
+        "B": "Ensure patient privacy",
+        "C": "Change patient mode.",
+        "D": "(b+c)"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ensuring the presence of a relative is not the recognised requirement during physical examination in this source; in many cases a relative's presence is not necessary and privacy is the priority instead.",
+        "B": "Correct. During physical examination, doctors should ensure patient privacy. Privacy is essential for the patient's comfort, dignity, and willingness to cooperate fully with the examination, and its absence can cause the patient to withhold cooperation or feel violated during an already vulnerable moment.",
+        "C": "Incorrect. \"Change patient mode\" is not a meaningful, recognised communication requirement during physical examination.",
+        "D": "Incorrect. Combining patient privacy (b) with \"change patient mode\" (c, not a meaningful requirement) is not correct; ensuring patient privacy (b) alone is the correct answer."
+      },
+      "topic": "Communication skills",
+      "subtopic": "Consultation skills",
+      "main_concept": "CON-PSY-C307A26DF5CA82",
+      "concept_ids": [
+        "CON-PSY-C307A26DF5CA82"
+      ],
+      "contextual_concept_ids": [],
+      "learning_objective": "State that ensuring patient privacy is the key communication requirement during physical examination.",
+      "library_ids": [
+        "ART-MU103-CONSULTATION-C2871B8C"
+      ],
+      "module_subject": "MU-MED103 > Family Medicine > 03 Questions and QBank > MCQ - Dr Mahmoud Attia > Consultation skills",
+      "field_notes": {
+        "keySource": "circled/handwritten option, cross-checked against the paper's own answer-key table (p5)",
+        "mu": "Communication Skills MCQ - Dr Mahmoud Attia.pdf, Q25 p4"
+      },
+      "estimated_seconds": 40
+    }
+  ]
+}

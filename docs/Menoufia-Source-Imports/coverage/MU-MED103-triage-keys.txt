@@ -1,0 +1,38 @@
+# MU-MED103 triage keys — format commqbank1-q<NN>, one per question.
+# Lane-1 triage, 2026-09-03, from "Communication Skills MCQ - Dr Mahmoud
+# Attia.pdf" (mu_2d9cddaaa0be0253450e). CamScanner scan, no text layer;
+# keyed via 300dpi render (pdftoppm) + tesseract OCR, cross-checked against
+# the paper's own printed answer-key table (p5). Key convention: circled or
+# handwritten option on each item's own page.
+
+## commqbank1 — MCQ QBank pages 1-4 (Q1-25, foundations/listening/barriers/consultation/health-ed/presentation/instructions, 24 authored, 1 held)
+commqbank1-q01
+commqbank1-q02
+commqbank1-q04
+commqbank1-q05
+commqbank1-q06
+commqbank1-q07
+commqbank1-q08
+commqbank1-q09
+commqbank1-q10
+commqbank1-q11
+commqbank1-q12
+commqbank1-q13
+commqbank1-q14
+commqbank1-q15
+commqbank1-q16
+commqbank1-q17
+commqbank1-q18
+commqbank1-q19
+commqbank1-q20
+commqbank1-q21
+commqbank1-q22
+commqbank1-q23
+commqbank1-q24
+commqbank1-q25
+
+## Held (not authored)
+commqbank1-q03 — self-contradictory key (printed D crossed out, corrected to "a,c" which matches no printed option)
+
+## Out of scope this round (2-option True/False block, pages 6-8, below the >=4-option SBA floor)
+(not individually keyed — see coverage/MU-MED103-triage.md)
