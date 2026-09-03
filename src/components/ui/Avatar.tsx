@@ -10,10 +10,13 @@ export function Avatar({
   name,
   size = 'md',
   className,
+  src,
 }: {
   name: string
   size?: 'sm' | 'md' | 'lg'
   className?: string
+  /** An uploaded/imported photo. Omitted (or a load failure) falls back to initials. */
+  src?: string
 }) {
   const initials = name
     .split(' ')
@@ -21,6 +24,17 @@ export function Avatar({
     .slice(0, 2)
     .map((p) => p[0]?.toUpperCase())
     .join('')
+
+  if (src) {
+    return (
+      <img
+        src={src}
+        alt=""
+        aria-hidden
+        className={cn('inline-block rounded-full border border-primary-line object-cover', SIZE[size], className)}
+      />
+    )
+  }
 
   return (
     <span

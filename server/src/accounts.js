@@ -93,6 +93,7 @@ const USER_COLUMNS = `
   s.phone, s.nationality,
   s.university_id AS universityId, s.year, s.year_id AS yearId, s.study_group AS studyGroup, s.plan, s.status,
   s.username, s.username_normalized AS usernameNormalized, s.profile_icon AS profileIcon,
+  s.avatar_media_id AS avatarMediaId,
   s.discoverable, s.social_provider AS socialProvider, s.social_subject AS socialSubject,
   s.joined, s.last_active AS lastActive, s.questions_answered AS questionsAnswered,
   s.accuracy, s.readiness, COALESCE(s.user_id, a.user_id) AS userId, s.notes,
@@ -168,6 +169,11 @@ function shape(row) {
     username: row.username,
     usernameNormalized: row.usernameNormalized,
     profileIcon: row.profileIcon,
+    // Raw id, not a URL: the client already has a convention for turning a
+    // managed-media id into a fetchable path (`mediaUrl` in data/mediaLibrary.ts,
+    // which the browser prepends its own API base to) and this reuses it rather
+    // than hand back a second, differently-rooted path format.
+    avatarMediaId: row.avatarMediaId || null,
     discoverable: Boolean(row.discoverable),
     socialProvider: row.socialProvider,
     socialSubject: row.socialSubject,
@@ -852,6 +858,9 @@ export async function saveOwnEnrolment(userId, input) {
   const usernameError = username ? usernameProblem(username) : null
   if (usernameError) return { error: usernameError }
 
+  // Declared out here, not inside the try: the success return below runs after
+  // the finally, outside the try block, and reads it.
+  let phoneConflict = false
   const conn = await pool.getConnection()
   try {
     await conn.beginTransaction()
@@ -870,7 +879,6 @@ export async function saveOwnEnrolment(userId, input) {
     // value rather than tell the student their number was saved when it
     // was not.
     let storedPhone = null
-    let phoneConflict = false
     if (phone) {
       const [held] = await conn.query('SELECT id FROM students WHERE phone = ? AND id <> ? LIMIT 1', [phone, student.id])
       if (held.length) phoneConflict = true

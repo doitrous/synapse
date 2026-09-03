@@ -53,6 +53,8 @@ export interface IdentityProfile {
   status: string | null
   /** Server-computed: phone and enrolment both on record. See `isProfileComplete` in accounts.js. */
   profileComplete?: boolean
+  /** A `managed_media` id, or null to show the profile_icon glyph instead. See useAvatar.ts. */
+  avatarMediaId?: string | null
 }
 
 export interface Entitlement {
@@ -149,6 +151,7 @@ export interface EnrolmentInput {
 const EMPTY_PROFILE: IdentityProfile = {
   studentId: null, name: null, email: null, phone: null, nationality: null,
   universityId: null, year: null, yearId: null, group: null, status: null, profileComplete: false,
+  avatarMediaId: null,
 }
 
 const EMPTY_AUDIENCE: StudentAudience = { universityId: '', year: '', yearId: '', group: '' }

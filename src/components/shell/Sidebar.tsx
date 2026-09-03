@@ -14,6 +14,7 @@ import { preloadStudentRoute } from '@/router'
 import { cn } from '@/lib/cn'
 import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
+import { useAvatar } from '@/lib/useAvatar'
 import { useUniversityName } from '@/lib/useUniversityCatalogue'
 import { ROLE_LABEL, type EffectiveRole } from '@/data/adminRoles'
 import { useOpenEscalationCount } from '@/lib/useEscalationBadge'
@@ -33,6 +34,7 @@ export function Sidebar({
 }) {
   const { t } = useI18n()
   const identity = useIdentity()
+  const avatar = useAvatar()
   const groups = navFor(portal, identity.tabs)
   const escalationCount = useOpenEscalationCount()
   // Only the student sidebar renders the dot this feeds, so the hook does no
@@ -190,7 +192,7 @@ export function Sidebar({
             collapsed ? 'justify-center px-0' : 'px-2',
           )}
         >
-          <Avatar name={profile.name} size="sm" />
+          <Avatar name={profile.name} size="sm" src={avatar.src} />
           {!collapsed && (
             <>
               <span className="min-w-0 flex-1">

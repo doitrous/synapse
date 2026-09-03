@@ -255,6 +255,12 @@ ALTER TABLE students ADD COLUMN IF NOT EXISTS social_provider VARCHAR(32) NULL;
 ALTER TABLE students ADD COLUMN IF NOT EXISTS social_subject VARCHAR(191) NULL;
 ALTER TABLE students ADD UNIQUE INDEX IF NOT EXISTS uniq_students_university_username (university_id, username_normalized);
 
+/* A photo, not a glyph. Points at a `managed_media` row (uploaded or imported
+   from the OAuth provider's `avatar_url`/`picture`) rather than storing bytes
+   here — the same table and serving path teaching media already uses. Null
+   means "show the profile_icon glyph instead". */
+ALTER TABLE students ADD COLUMN IF NOT EXISTS avatar_media_id VARCHAR(64) NULL;
+
 /* The cohort a student belongs to inside their year — "Cardiovascular block",
    "Group B". Vouchers and notification campaigns have always offered group
    targeting, but nothing stored a group, so every group-restricted rule failed

@@ -1,6 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { entitlementOf, extensionBase, addDays, readReason, stateFamily, normaliseUsername, usernameProblem, isProfileComplete } from './accounts.js'
+import { entitlementOf, extensionBase, addDays, readReason, stateFamily, normaliseUsername, usernameProblem, isProfileComplete, saveOwnEnrolment } from './accounts.js'
+import { pool } from './db.js'
 
 const NOW = new Date('2026-08-13T12:00:00Z')
 
@@ -90,4 +91,40 @@ test('a profile is complete only once both a phone and an enrolment are on recor
   // optional, and a password-signup student who left it blank must not be
   // judged "incomplete" by a stricter rule than the form they filled in.
   assert.equal(isProfileComplete({ phone: '+201001234567', universityId: 'cairo', nationality: null }), true)
+})
+
+// saveOwnEnrolment builds its success return *after* the try/finally, so any
+// state it reports (phoneConflict) must be declared outside the try block or
+// the happy path throws ReferenceError. This drives the real query sequence
+// through a fake connection to guard that scope.
+function fakeEnrolmentPool(t, { phoneHeldByOther }) {
+  const conn = {
+    beginTransaction: async () => {},
+    commit: async () => {},
+    rollback: async () => {},
+    release: () => {},
+    query: async (sql) => {
+      if (/FOR UPDATE/.test(sql)) return [[{ id: 'stu-1', user_id: 'stu-1' }]]
+      if (/WHERE phone = /.test(sql)) return [phoneHeldByOther ? [{ id: 'someone-else' }] : []]
+      if (/SELECT name, email, university_id/.test(sql)) return [[{ name: null, email: 'a@b.c', universityId: null, year: null, yearId: null, usernameNormalized: null }]]
+      if (/FROM subscriptions/.test(sql)) return [[]]
+      return [{ affectedRows: 1 }]
+    },
+  }
+  t.mock.method(pool, 'getConnection', async () => conn)
+  t.mock.method(pool, 'query', async () => [[]]) // getUserByIdentity → no row
+}
+
+test('saveOwnEnrolment returns on the happy path without a scope error', async (t) => {
+  fakeEnrolmentPool(t, { phoneHeldByOther: false })
+  const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1', phone: '+201001234567' })
+  assert.equal(result.ok, true)
+  assert.equal(result.phoneConflict, false)
+})
+
+test('saveOwnEnrolment reports phoneConflict when the number belongs to someone else', async (t) => {
+  fakeEnrolmentPool(t, { phoneHeldByOther: true })
+  const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1', phone: '+201001234567' })
+  assert.equal(result.ok, true)
+  assert.equal(result.phoneConflict, true)
 })

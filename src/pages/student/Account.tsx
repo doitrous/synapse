@@ -1,17 +1,19 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Bell, Check, Download, KeyRound, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, UserRound } from 'lucide-react'
+import { Bell, Check, Download, KeyRound, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, Trash2, Upload, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button, ButtonAnchor } from '@/components/ui/Button'
 import { Field, Select, TextInput } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
+import { Avatar } from '@/components/ui/Avatar'
 import { MfaControl } from '@/components/auth/MfaControl'
 import { PasskeyControl } from '@/components/auth/PasskeyControl'
 import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
+import { useAvatar } from '@/lib/useAvatar'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { universities as seededUniversities, YEARS } from '@/data/universities'
 import { API_MODE, apiGet, apiPost, apiPut } from '@/lib/api'
@@ -173,7 +175,7 @@ function StudyContext() {
   }
 
   return (
-    <div className="grid gap-4 p-5 sm:grid-cols-2">
+    <div className="grid gap-4 border-t border-line p-5 sm:grid-cols-2">
       <ReadOnlyField label={t('Full name')} value={profile.name ?? displayName} />
       <ReadOnlyField label={t('Email address')} value={profile.email ?? email} />
       <div>
@@ -234,6 +236,57 @@ function StudyContext() {
             {t('Submit change request')}
           </Button>
         </div>
+      </div>
+    </div>
+  )
+}
+
+/**
+ * The photo shown wherever the sidebar and top bar render this student —
+ * upload one, replace it, or remove it back to the glyph. `useAvatar` is the
+ * one place that talks to the server; this is just the control around it.
+ */
+function AvatarControl() {
+  const t = useT()
+  const identity = useIdentity()
+  const avatar = useAvatar()
+  const fileInputRef = useRef<HTMLInputElement>(null)
+
+  async function handleFile(file: File | undefined) {
+    if (!file) return
+    try {
+      await avatar.upload(file)
+    } catch {
+      // avatar.error already holds a message; nothing further to do here.
+    } finally {
+      if (fileInputRef.current) fileInputRef.current.value = ''
+    }
+  }
+
+  return (
+    <div className="flex items-center gap-3.5 p-5">
+      <Avatar name={identity.displayName} size="lg" src={avatar.src} />
+      <div className="min-w-0 flex-1">
+        <p className="text-[13px] font-medium text-ink">{t('Profile photo')}</p>
+        <p className="mt-0.5 text-[11.5px] text-ink-3">{t('PNG, JPEG, GIF or WebP, up to 2 MB.')}</p>
+        <div className="mt-2 flex flex-wrap gap-2">
+          <Button type="button" variant="secondary" size="sm" iconLeft={Upload} loading={avatar.busy} onClick={() => fileInputRef.current?.click()}>
+            {avatar.hasPhoto ? t('Change photo') : t('Upload photo')}
+          </Button>
+          {avatar.hasPhoto && (
+            <Button type="button" variant="ghost" size="sm" iconLeft={Trash2} loading={avatar.busy} onClick={() => void avatar.remove()}>
+              {t('Remove')}
+            </Button>
+          )}
+        </div>
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="image/png,image/jpeg,image/gif,image/webp"
+          className="hidden"
+          onChange={(event) => void handleFile(event.target.files?.[0])}
+        />
+        {avatar.error && <p role="alert" className="mt-2 text-[11.5px] text-danger">{avatar.error}</p>}
       </div>
     </div>
   )
@@ -400,6 +453,7 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                 This panel used to read the roster row alone, so it said "Not
                 recorded" four times over to a student whose sidebar was showing
                 "KAU · Year 1" two inches away. */}
+            <AvatarControl />
             <StudyContext />
             <ProfileIdentity />
             <div className="border-t border-line p-5">

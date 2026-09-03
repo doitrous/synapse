@@ -17,6 +17,7 @@ import type { Portal } from './nav'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
+import { useAvatar } from '@/lib/useAvatar'
 import { useUniversityName } from '@/lib/useUniversityCatalogue'
 import { ROLE_LABEL, type EffectiveRole } from '@/data/adminRoles'
 
@@ -430,6 +431,7 @@ export function TopbarTools({
 export function TopbarAccount({ portal, canSwitchPortal }: { portal: Portal; canSwitchPortal: boolean }) {
   const t = useT()
   const identity = useIdentity()
+  const avatar = useAvatar()
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
   const universityName = useUniversityName(identity.audience.universityId)
   const roleLabel = t(ROLE_LABEL[identity.role as EffectiveRole] ?? 'Team')
@@ -456,7 +458,7 @@ export function TopbarAccount({ portal, canSwitchPortal }: { portal: Portal; can
           aria-expanded={open}
           className={cn(TRIGGER, 'w-11 sm:w-9', open && 'bg-inset')}
         >
-          <Avatar name={identity.displayName} size="sm" />
+          <Avatar name={identity.displayName} size="sm" src={avatar.src} />
         </button>
       </Tooltip>
 
@@ -469,7 +471,7 @@ export function TopbarAccount({ portal, canSwitchPortal }: { portal: Portal; can
           className="w-[min(17rem,calc(100vw-1rem))]"
         >
           <div className="flex items-center gap-2.5 border-b border-line px-3 py-3">
-            <Avatar name={identity.displayName} size="md" />
+            <Avatar name={identity.displayName} size="md" src={avatar.src} />
             <span className="min-w-0 flex-1">
               <span className="block truncate text-[13.5px] font-semibold text-ink">{identity.displayName}</span>
               <span className="mt-0.5 block truncate text-[11.5px] text-ink-3">{detail}</span>

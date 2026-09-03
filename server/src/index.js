@@ -88,6 +88,7 @@ import {
 } from './assistant.js'
 import { sendSilentNudge } from './push.js'
 import { deleteAccount } from './accountDeletion.js'
+import { clearAvatar, setAvatarFromUpload, setAvatarFromUrl } from './avatar.js'
 import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
 } from './studyRooms.js'
@@ -468,6 +469,7 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
           status: user.status,
           username: user.username,
           profileIcon: user.profileIcon,
+          avatarMediaId: user.avatarMediaId,
           discoverable: user.discoverable,
           socialProvider: user.socialProvider,
         }
@@ -493,6 +495,43 @@ app.put('/api/me/enrolment', requireAuthenticated, wrap(async (req, res) => {
     return res.status(status).json(result)
   }
   res.json({ ok: true, profile: result.profile, phoneConflict: result.phoneConflict })
+}))
+
+/**
+ * Profile photo: upload, import from a social sign-up's provider photo, or
+ * clear back to the glyph. Business logic (validation, storage, SSRF guards
+ * on the import) lives in avatar.js; these three routes are the thin HTTP
+ * shell around it, same split as saveOwnEnrolment above.
+ */
+app.post('/api/me/avatar', requireAuthenticated, wrap(async (req, res) => {
+  const result = await setAvatarFromUpload(req.identity.id, req.body?.image)
+  if (result.error) return res.status(result.error === 'no_identity' ? 404 : 400).json(result)
+  res.json({ ok: true, avatarMediaId: result.avatarMediaId })
+}))
+
+app.post('/api/me/avatar/import', requireAuthenticated, wrap(async (req, res) => {
+  const result = await setAvatarFromUrl(req.identity.id, req.body?.url)
+  if (result.error) return res.status(result.error === 'no_identity' ? 404 : 400).json(result)
+  res.json({ ok: true, avatarMediaId: result.avatarMediaId })
+}))
+
+app.delete('/api/me/avatar', requireAuthenticated, wrap(async (req, res) => {
+  const result = await clearAvatar(req.identity.id)
+  if (result.error) return res.status(404).json(result)
+  res.json({ ok: true })
+}))
+
+/**
+ * Serve a stored avatar. Authenticated but otherwise unrestricted — unlike
+ * `/api/media/:id`, which gates on the teaching-content release rules in
+ * `mayReadManagedMedia`, a profile photo is not curated content and any
+ * signed-in user may see any other's (the same exposure a leaderboard row
+ * already has via a display name).
+ */
+app.get('/api/me/avatar/:id', requireAuthenticated, wrap(async (req, res) => {
+  const record = await managedMediaFile(req.params.id)
+  if (!record || record.mediaType !== 'image') return res.status(404).json({ error: 'avatar not found' })
+  if (!sendManagedMedia(res, record)) return res.status(404).json({ error: 'avatar not found' })
 }))
 
 app.post('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async (req, res) => {

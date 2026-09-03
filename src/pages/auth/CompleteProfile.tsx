@@ -1,12 +1,15 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Navigate, useNavigate, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ShieldCheck } from 'lucide-react'
+import { AlertCircle, ShieldCheck, Upload } from 'lucide-react'
 import { AuthLayout } from './AuthLayout'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { Avatar } from '@/components/ui/Avatar'
 import { RouteLoading } from '@/components/shell/RouteLoading'
 import { useIdentity } from '@/lib/useIdentity'
+import { useAvatar } from '@/lib/useAvatar'
+import { supabase } from '@/lib/supabase'
 import { normalisePhone } from '@/data/accountIdentity'
 import { portalHome } from '@/lib/portalHost'
 
@@ -42,14 +45,16 @@ function safeNext(value: string | null): string {
  * editable field here would silently do nothing for the accounts that reach
  * this screen.
  *
- * ponytail: no profile-photo import from `avatar_url`/`picture`. The app's
- * profile picture is one of a fixed glyph set (`data/profileIcons.ts`), not an
- * uploaded image — there is no avatar-storage path to receive one — and that
- * glyph is already chosen in the same onboarding overlay. Add real avatar
- * import if Omar wants uploaded photos generally, not as a one-off here.
+ * Google and Facebook also hand back a profile photo (`user_metadata.avatar_url`
+ * / `.picture`, a URL on the provider's own CDN) that a password sign-up never
+ * has. It is offered here as a preview with an editable choice — use it,
+ * upload a different photo, or skip and keep the glyph — never imported
+ * silently, per the same "nothing is assumed on the student's behalf" stance
+ * the rest of this screen takes.
  */
 export function CompleteProfile() {
   const identity = useIdentity()
+  const avatar = useAvatar()
   const navigate = useNavigate()
   const [params] = useSearchParams()
   const next = safeNext(params.get('next'))
@@ -58,6 +63,36 @@ export function CompleteProfile() {
   const [nationality, setNationality] = useState(identity.profile.nationality ?? '')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+
+  const [providerPhotoUrl, setProviderPhotoUrl] = useState<string | null>(null)
+  const [photoChoice, setPhotoChoice] = useState<'provider' | 'upload' | 'skip'>('skip')
+  const [customFile, setCustomFile] = useState<File | null>(null)
+  const [customPreview, setCustomPreview] = useState<string | null>(null)
+  const fileInputRef = useRef<HTMLInputElement>(null)
+
+  // A fresh object URL per chosen file, revoked on the next choice or on
+  // unmount — building it inline in JSX would mint (and leak) a new one on
+  // every render instead.
+  useEffect(() => {
+    if (!customFile) { setCustomPreview(null); return undefined }
+    const url = URL.createObjectURL(customFile)
+    setCustomPreview(url)
+    return () => URL.revokeObjectURL(url)
+  }, [customFile])
+
+  useEffect(() => {
+    let active = true
+    supabase?.auth.getSession().then(({ data }) => {
+      if (!active) return
+      const metadata = data.session?.user.user_metadata as { avatar_url?: string; picture?: string } | undefined
+      const photo = metadata?.avatar_url || metadata?.picture || null
+      if (photo) {
+        setProviderPhotoUrl(photo)
+        setPhotoChoice('provider')
+      }
+    })
+    return () => { active = false }
+  }, [])
 
   if (identity.status === 'loading') return <RouteLoading />
   if (identity.status !== 'authenticated') return <Navigate to="/login" replace />
@@ -87,6 +122,13 @@ export function CompleteProfile() {
         setError('That phone number is already registered to another account. Use a different number, or sign in with the account that already has it.')
         return
       }
+      // Best-effort: the account is enrolled either way, and a photo that fails
+      // to save (a slow connection, a provider CDN hiccup) is not worth
+      // blocking the whole sign-up over. The Account page can always try again.
+      try {
+        if (photoChoice === 'provider' && providerPhotoUrl) await avatar.importFromUrl(providerPhotoUrl)
+        else if (photoChoice === 'upload' && customFile) await avatar.upload(customFile)
+      } catch { /* see above */ }
       navigate(next, { replace: true })
     } catch {
       setLoading(false)
@@ -113,6 +155,43 @@ export function CompleteProfile() {
             {error}
           </div>
         )}
+
+        <div className="flex items-center gap-3.5 rounded-xl border border-line bg-surface-2/50 p-3.5">
+          {photoChoice === 'upload' && customPreview
+            ? <img src={customPreview} alt="" className="size-12 shrink-0 rounded-full border border-primary-line object-cover" />
+            : <Avatar name={identity.displayName} size="lg" src={photoChoice === 'provider' ? (providerPhotoUrl ?? undefined) : undefined} />}
+          <div className="min-w-0 flex-1">
+            <p className="text-[13px] font-medium text-ink">Profile photo</p>
+            <p className="mt-0.5 text-[11.5px] text-ink-3">
+              {providerPhotoUrl ? 'Use your Google/Facebook photo, upload a different one, or keep the default.' : 'Upload a photo, or keep the default.'}
+            </p>
+            <div className="mt-2 flex flex-wrap gap-1.5">
+              {providerPhotoUrl && (
+                <button type="button" onClick={() => setPhotoChoice('provider')} className={`rounded-full border px-2.5 py-1 text-[11.5px] font-medium ${photoChoice === 'provider' ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset'}`}>
+                  Use this photo
+                </button>
+              )}
+              <button type="button" onClick={() => fileInputRef.current?.click()} className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-[11.5px] font-medium ${photoChoice === 'upload' ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset'}`}>
+                <Icon icon={Upload} size={12} />Upload a photo
+              </button>
+              <button type="button" onClick={() => { setPhotoChoice('skip'); setCustomFile(null) }} className={`rounded-full border px-2.5 py-1 text-[11.5px] font-medium ${photoChoice === 'skip' ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset'}`}>
+                No photo
+              </button>
+            </div>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/png,image/jpeg,image/gif,image/webp"
+              className="hidden"
+              onChange={(event) => {
+                const file = event.target.files?.[0] ?? null
+                if (file) { setCustomFile(file); setPhotoChoice('upload') }
+              }}
+            />
+            {avatar.error && <p role="alert" className="mt-1.5 text-[11.5px] text-danger">{avatar.error}</p>}
+          </div>
+        </div>
+
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="Phone number" htmlFor="complete-profile-phone" hint="One account per number">
             <TextInput id="complete-profile-phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" required value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="0100 123 4567…" />
