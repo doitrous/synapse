@@ -1,5 +1,5 @@
 <!--
-  ASU-AE · Embryology > Questions > MCQ — "MCQs - Embryo 3.pdf" ("Part 3": Events of 3rd week, gastrulation, intraembryonic mesoderm, neurulation, folding, germ-layer derivatives, fetal membranes, birth defects), Q1-55 authored by lane 11; Q56-80 of 104 authored this pass (lane 12 dispatch scope: chunks of ~25, up to ~104 total). Stems (pp.1-9) and the printed "Answers of MCQs" table (pp.17-20) were rendered and read by eye throughout after OCR proved unreliable for both the two-column short-answer stem layout and the curved/torn-edge key table.
+  ASU-AE · Embryology > Questions > MCQ — "MCQs - Embryo 3.pdf" ("Part 3": Events of 3rd week, gastrulation, intraembryonic mesoderm, neurulation, folding, germ-layer derivatives, fetal membranes, birth defects), Q1-55 authored by lane 11; Q56-104 authored this pass (lane 12), completing the paper (104/104 triaged; Q21/Q27 held as duplicates of Q19, Q56-64 authored as single-best-answer items reusing their source matching blocks own option pools). Stems (pp.1-9) and the printed "Answers of MCQs" table (pp.17-20) were rendered and read by eye throughout after OCR proved unreliable for both the two-column short-answer stem layout and the curved/torn-edge key table.
 
   Import: Admin › Bulk import → question.
 -->
@@ -11448,3 +11448,3524 @@ yes
 ## author_notes
 keySource: printed answer table p.19 row 80 (a, remark: "Segmentation is observed in paraxial mesoderm."), confirmed by 600dpi render of p.12 and p.19
 asu: Embryo3 p.12 Q80.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-MESODERM-SOURCES-ALL
+
+## title
+Sources of intraembryonic mesoderm (all-of-above)
+
+## question
+Sources of intraembryonic mesoderm:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Primitive streak
+
+## explanation_a
+Incorrect on its own. The primitive streak is a genuine source, but not the only one.
+
+## answer_b
+Primitive node
+
+## explanation_b
+Incorrect on its own. The primitive node is a genuine source, but not the only one.
+
+## answer_c
+Notochord
+
+## explanation_c
+Incorrect on its own. The notochord is a genuine source, but not the only one.
+
+## answer_d
+All of the above
+
+## explanation_d
+Correct. Epiblast cells ingress not only through the primitive streak but also through the primitive node and give rise to the notochord, so all three, the primitive streak itself, the primitive node, and the notochord, contribute intraembryonic mesoderm. Because the question lists all three genuine sources as separate options, the combined "all of the above" answer is the only complete one.
+
+## answer_e
+None of the above
+
+## explanation_e
+Incorrect, since option D correctly names all three sources.
+
+## topic
+Embryology - Intraembryonic mesoderm
+
+## subtopic
+Sources and absence sites
+
+## main_concept
+CON-DEV-215BD7E9E58872
+
+## concept_ids
+CON-DEV-215BD7E9E58872
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the primitive streak, primitive node and notochord are all sources of intraembryonic mesoderm.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 81 (d, remark: "Intraembryonic mesoderm develops from all the 3 structures."), confirmed by 600dpi render of p.12 and p.19
+asu: Embryo3 p.12 Q81.
+dup_check: Same three-sources fact as Q5/Q51 (which name only the primitive streak as the correct single answer) but a materially different, non-overlapping option structure (Q5/Q51 ask for the single major source; Q81 asks the reader to recognise all three sources at once via an "all of the above" option) -- kept distinct per the house distractor-difference rule.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-MESODERM-ABSENT-ALL
+
+## title
+Sites where intraembryonic mesoderm is absent (all-of-above)
+
+## question
+Intraembryonic mesoderm is absent in:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Notochord
+
+## explanation_a
+Incorrect on its own. The notochord occupies the median strip between ectoderm and endoderm that intraembryonic mesoderm does not otherwise fill, so this is one genuine absence-adjacent site, but not the only one.
+
+## answer_b
+Oropharyngeal membrane
+
+## explanation_b
+Incorrect on its own. The oropharyngeal (bucco-pharyngeal) membrane is a genuine site where ectoderm and endoderm fuse directly with no mesoderm between them, but not the only one.
+
+## answer_c
+Prochordal plate
+
+## explanation_c
+Incorrect on its own. The prochordal plate is the small area of tightly adherent ectoderm-endoderm that becomes the oropharyngeal membrane, a genuine absence-adjacent site, but not the only one.
+
+## answer_d
+Cloacal membrane
+
+## explanation_d
+Incorrect on its own. The cloacal membrane is the other genuine site where ectoderm and endoderm fuse directly, but not the only one.
+
+## answer_e
+All of the above
+
+## explanation_e
+Correct. The notochord and neural tube occupy a median strip between ectoderm and endoderm that intraembryonic mesoderm does not otherwise fill. The prochordal plate/oropharyngeal membrane at the cranial end and the cloacal membrane at the caudal end are the other two sites of direct ectoderm-endoderm fusion. Taken together these are the full set of places where intraembryonic mesoderm is absent, so "all of the above" is the complete answer.
+
+## topic
+Embryology - Intraembryonic mesoderm
+
+## subtopic
+Sources and absence sites
+
+## main_concept
+CON-DEV-215BD7E9E58872
+
+## concept_ids
+CON-DEV-215BD7E9E58872
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that intraembryonic mesoderm is absent at the notochord/neural tube strip, the oropharyngeal membrane (prochordal plate) and the cloacal membrane collectively.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 82 (e, remark: "Intraembryonic mesoderm is absent in all these regions."), confirmed by 600dpi render of p.12 and p.19
+asu: Embryo3 p.12 Q82.
+dup_check: Same mesoderm-absence fact as Q65 (which uses a single-answer option set naming the oral membrane specifically) but a materially different, non-overlapping option set (Q65: somites/oral membrane/nephrogenic cord/sclerotomes/dermomyotomes; Q82: notochord/oropharyngeal membrane/prochordal plate/cloacal membrane/all of the above) -- kept distinct per the house distractor-difference rule.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-NEURAL-PLATE-ECTODERM-DORSAL
+
+## title
+Origin of the neural plate
+
+## question
+Neural plate is derived from:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Notochord
+
+## explanation_a
+Incorrect. The notochord induces the neural plate to form, but the plate itself is not derived from the notochord.
+
+## answer_b
+Mesoderm
+
+## explanation_b
+Incorrect. Mesoderm lies beneath the notochord and forms the somites and other mesodermal structures, not the neural plate.
+
+## answer_c
+Endoderm
+
+## explanation_c
+Incorrect. Endoderm forms the gut tube lining, unrelated to the neural plate.
+
+## answer_d
+Ectoderm dorsal to notochord
+
+## explanation_d
+Correct. The notochord induces the ectoderm lying directly above (dorsal to) it to thicken. This thickened strip is the neural plate, a specific, notochord-overlying region of ectoderm rather than the whole dorsal ectodermal surface. The neural plate then sinks as a groove whose lips, the neural folds, meet and fuse to form the neural tube.
+
+## answer_e
+Ectoderm on whole dorsal aspect of embryo
+
+## explanation_e
+Incorrect. Only the ectoderm dorsal to the notochord specifically, not the whole dorsal aspect of the embryo, thickens into the neural plate; the ectoderm lateral to this region remains surface (epidermal) ectoderm.
+
+## topic
+Embryology - Neurulation
+
+## subtopic
+Neural plate formation
+
+## main_concept
+CON-DEV-4BC4233153C3DC
+
+## concept_ids
+CON-DEV-4BC4233153C3DC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the neural plate is derived from the ectoderm lying dorsal to the notochord, induced by the notochord beneath it.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 83 (d, remark: "Neural plate is derived from ectoderm dorsal to notochord."), confirmed by 600dpi render of p.12 and p.19
+asu: Embryo3 p.12 Q83.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-CRANIAL-END-OROPHARYNGEAL-MEMBRANE
+
+## title
+Site where ectoderm and endoderm meet at the cranial end of the notochord
+
+## question
+At the cranial end of the notochord, ectoderm & endoderm meet at:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Primitive node
+
+## explanation_a
+Incorrect. The primitive node lies at the streak's cranial end but is not itself a site of direct ectoderm-endoderm fusion.
+
+## answer_b
+Cloacal membrane
+
+## explanation_b
+Incorrect. The cloacal membrane is the equivalent fusion site at the caudal, not cranial, end of the embryo.
+
+## answer_c
+Oropharyngeal membrane
+
+## explanation_c
+Correct. Beyond the notochord's cranial end lies the prochordal plate, a small area of tightly adherent ectoderm and endoderm with no intervening mesoderm. This area becomes the oropharyngeal (bucco-pharyngeal) membrane, the future site of the oral opening. It is the cranial counterpart of the cloacal membrane at the embryo's caudal end.
+
+## answer_d
+Heart forming mesoderm
+
+## explanation_d
+Incorrect. Heart-forming (cardiogenic) mesoderm lies in the region that will become ventral to the developing heart, not at a site of direct ectoderm-endoderm fusion.
+
+## answer_e
+Neural plate
+
+## explanation_e
+Incorrect. The neural plate is ectoderm thickened by notochord induction, not a site of ectoderm-endoderm fusion.
+
+## topic
+Embryology - Gastrulation
+
+## subtopic
+Sources and absence sites
+
+## main_concept
+CON-DEV-215BD7E9E58872
+
+## concept_ids
+CON-DEV-215BD7E9E58872
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that ectoderm and endoderm meet directly at the oropharyngeal membrane, at the cranial end of the notochord.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 84 (c, remark: "Oropharyngeal membrane."), confirmed by 600dpi render of p.12 and p.19
+asu: Embryo3 p.12 Q84.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-NOTOCHORD-EXCEPT-ENDODERMAL
+
+## title
+False statement about the notochord
+
+## question
+As regards the notochord, all the following statements are true EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Is endodermal in origin
+
+## explanation_a
+Correct. This is the false statement, the one the question asks for. The notochord forms in four steps from epiblast cells that invaginate through the primitive pit/node, so it is not endodermal; it develops in the median plane between the true ectoderm and endoderm layers, not as a product of either.
+
+## answer_b
+Develops between ectoderm & endoderm
+
+## explanation_b
+Incorrect (i.e. this IS true). The notochord develops in the median plane, between ectoderm above and endoderm below.
+
+## answer_c
+Shares in formation of intervertebral disc
+
+## explanation_c
+Incorrect (i.e. this IS true). Most of the notochord degenerates, but the part lying within each intervertebral disc persists as the nucleus pulposus.
+
+## answer_d
+Forms the axis of the embryo
+
+## explanation_d
+Incorrect (i.e. this IS true). The notochord is the temporary primitive axial skeleton, and the definitive vertebral column forms around it.
+
+## answer_e
+Is caudal to the prochordal plate
+
+## explanation_e
+Incorrect (i.e. this IS true). The notochord extends caudally from the prochordal plate (the future oropharyngeal membrane) at the embryo's cranial end.
+
+## topic
+Embryology - Notochord
+
+## subtopic
+Notochord formation and fate
+
+## main_concept
+CON-DEV-1BCF37C48AF307
+
+## concept_ids
+CON-DEV-1BCF37C48AF307
+
+## contextual_concept_ids
+CON-DEV-215BD7E9E58872
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the notochord is not endodermal, forming instead in the median plane between ectoderm and endoderm from epiblast-derived cells.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 85 (a, remark: "Notochord is ectodermal in origin." [sic, the source's own remark misstates the standard-teaching germ layer, but the key letter "a" correctly flags option A -- "Is endodermal in origin" -- as the false statement either way, since the notochord is neither purely ectodermal nor endodermal but forms independently in the median plane between them]), confirmed by 600dpi render of p.13 and p.19
+asu: Embryo3 p.13 Q85.
+The printed remark for this row reads "Notochord is ectodermal in origin," which itself does not match standard teaching (the notochord is neither ectodermal nor endodermal; it forms independently from epiblast cells that ingress through the primitive pit, developing in the median plane between the ectoderm and endoderm layers). This does not affect which option is being flagged, however: the key letter "a" points to option A ("Is endodermal in origin") as the false EXCEPT statement, and under standard teaching option A is indeed false (the notochord is not endodermal), so the correct_answer is retained as printed. Flagged for a human reviewer given the remark's own imprecision.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-NOTOCHORD-NUCLEUS-PULPOSUS-2
+
+## title
+True statement about the notochord
+
+## question
+The notochord:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Is derived from roof of yolk sac
+
+## explanation_a
+Incorrect. The notochord is derived from epiblast cells that ingress through the primitive pit and node, not from the roof of the yolk sac (though its transient notochordal plate stage briefly lies within that roof before folding into the definitive notochord).
+
+## answer_b
+Forms the nucleus pulposus of intervertebral disc
+
+## explanation_b
+Correct. Most of the notochord degenerates as the sclerotome-derived vertebral bodies form around it. The portion lying within each intervertebral disc, between adjacent vertebral bodies, escapes this degeneration. It instead persists as the nucleus pulposus, the gel-like core of the disc.
+
+## answer_c
+Is found caudal to cloacal membrane
+
+## explanation_c
+Incorrect. The notochord extends cranially from the primitive node to the prochordal plate, well cranial to the cloacal membrane at the embryo's caudal end.
+
+## answer_d
+Forms the spinal cord
+
+## explanation_d
+Incorrect. The notochord induces the overlying ectoderm to form the neural plate and, in turn, the spinal cord, but the notochord itself does not form the spinal cord.
+
+## answer_e
+Forms bodies of vertebrae
+
+## explanation_e
+Incorrect. The sclerotome cells of the somites, not the notochord itself, form the bodies of the vertebrae, migrating to surround the notochord.
+
+## topic
+Embryology - Notochord
+
+## subtopic
+Notochord formation and fate
+
+## main_concept
+CON-DEV-1BCF37C48AF307
+
+## concept_ids
+CON-DEV-1BCF37C48AF307
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the notochord's persisting remnant, within each intervertebral disc, forms the nucleus pulposus.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 86 (b, remark: "Notochord forms nucleus puplosus of intervertebral disc." [sic]), confirmed by 600dpi render of p.13 and p.19
+asu: Embryo3 p.13 Q86.
+dup_check: Same nucleus-pulposus fate fact as Q38 (which asks the origin of the nucleus pulposus directly) but a materially different, non-overlapping option set (Q38: notochord/mesoderm/ectoderm/sclerotome/endoderm-style options; Q86: roof of yolk sac/nucleus pulposus/caudal to cloacal membrane/spinal cord/vertebral bodies, testing several notochord facts at once) -- kept distinct per the house distractor-difference rule.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-ECTODERM-EXCEPT-PANCREAS
+
+## title
+False statement -- structure NOT derived from ectoderm (i)
+
+## question
+All the following are derivatives of ectoderm EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Pituitary gland
+
+## explanation_a
+Incorrect (i.e. this IS ectodermal). The anterior pituitary (adenohypophysis) develops from Rathke's pouch, an ectodermal outpouching of the stomodeum.
+
+## answer_b
+Nervous system
+
+## explanation_b
+Incorrect (i.e. this IS ectodermal). The entire nervous system, central and peripheral, traces to the neural tube and neural crest, both ectodermal.
+
+## answer_c
+Pancreas
+
+## explanation_c
+Correct. This is the false statement, the one the question asks for. The pancreas is an endodermal outgrowth of the foregut, not an ectodermal derivative, unlike the other four options listed.
+
+## answer_d
+Adrenal medulla
+
+## explanation_d
+Incorrect (i.e. this IS ectodermal). The adrenal medulla is a neural crest derivative, and the neural crest is itself ectodermal in origin.
+
+## answer_e
+Enamel of teeth
+
+## explanation_e
+Incorrect (i.e. this IS ectodermal). The enamel of teeth is formed by ameloblasts derived from oral ectoderm.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Ectoderm derivatives
+
+## main_concept
+CON-DEV-78540F6C82AE91
+
+## concept_ids
+CON-DEV-78540F6C82AE91
+
+## contextual_concept_ids
+CON-DEV-F02B8D4E7A9C31
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the pancreas, unlike the pituitary gland, nervous system, adrenal medulla and tooth enamel, is endodermal rather than ectodermal.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 87 (c, remark: "Pancreas is endodermal in origin."), confirmed by 600dpi render of p.13 and p.19
+asu: Embryo3 p.13 Q87.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-ECTODERM-EXCEPT-DERMIS
+
+## title
+False statement -- structure NOT derived from ectoderm (ii)
+
+## question
+All the following are derivatives of ectoderm EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Epidermis of skin
+
+## explanation_a
+Incorrect (i.e. this IS ectodermal). The epidermis is the ectodermal outer layer of the skin.
+
+## answer_b
+Dermis of skin
+
+## explanation_b
+Correct. This is the false statement, the one the question asks for. The dermis, unlike the epidermis and its appendages, is mesodermal in origin, arising from the dermatome portion of the somites.
+
+## answer_c
+Hairs
+
+## explanation_c
+Incorrect (i.e. this IS ectodermal). Hairs are epidermal appendages, ectodermal like the epidermis they grow from.
+
+## answer_d
+Nails
+
+## explanation_d
+Incorrect (i.e. this IS ectodermal). Nails, like hairs, are ectodermal epidermal appendages.
+
+## answer_e
+Sweat glands
+
+## explanation_e
+Incorrect (i.e. this IS ectodermal). Sweat glands are likewise ectodermal epidermal appendages.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Ectoderm derivatives
+
+## main_concept
+CON-DEV-468D99B144DB78
+
+## concept_ids
+CON-DEV-468D99B144DB78
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the dermis, unlike the epidermis and its appendages (hairs, nails, sweat glands), is mesodermal rather than ectodermal.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 88 (b, remark: "Dermis of skin is mesodermal in origin."), confirmed by 600dpi render of p.13 and p.19
+asu: Embryo3 p.13 Q88.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-ECTODERM-EXCEPT-GIT
+
+## title
+False statement -- structure NOT derived from ectoderm (iii)
+
+## question
+All the following are derivatives of ectoderm EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Sensory epithelium of ear, nose & eye
+
+## explanation_a
+Incorrect (i.e. this IS ectodermal). The sensory epithelium of the ear, nose and eye derives from surface ectoderm placodes.
+
+## answer_b
+Epithelium of skin
+
+## explanation_b
+Incorrect (i.e. this IS ectodermal). The epidermis (epithelium of the skin) is directly ectodermal.
+
+## answer_c
+Epithelium of gastrointestinal tract
+
+## explanation_c
+Correct. This is the false statement, the one the question asks for. The epithelium of the gastrointestinal tract is endodermal, lining the primitive gut tube from pharynx to anal canal, unlike the other four options listed.
+
+## answer_d
+Brain & spinal cord
+
+## explanation_d
+Incorrect (i.e. this IS ectodermal). The brain and spinal cord are neural tube derivatives, ectodermal in origin.
+
+## answer_e
+Peripheral nervous system
+
+## explanation_e
+Incorrect (i.e. this IS ectodermal). The peripheral nervous system is a neural crest derivative, and the neural crest is itself ectodermal in origin.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Ectoderm derivatives
+
+## main_concept
+CON-DEV-78540F6C82AE91
+
+## concept_ids
+CON-DEV-78540F6C82AE91
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the epithelium of the gastrointestinal tract, unlike the sensory epithelia, skin, brain/spinal cord and peripheral nervous system, is endodermal rather than ectodermal.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 89 (c, remark: "Epithelium of GIT is endodermal."), confirmed by 600dpi render of p.13 and p.19
+asu: Embryo3 p.13 Q89.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-FETAL-MEMBRANES-EXCEPT-NOTOCHORD
+
+## title
+False statement -- structure NOT a fetal membrane
+
+## question
+All the following are fetal membranes EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Umbilical cord
+
+## explanation_a
+Incorrect (i.e. this IS a fetal membrane/structure of this group). The umbilical cord is one of the fetal appendages this cluster groups with the membranes.
+
+## answer_b
+Amnion
+
+## explanation_b
+Incorrect (i.e. this IS a fetal membrane). The amnion encloses the amniotic cavity around the fetus.
+
+## answer_c
+Placenta
+
+## explanation_c
+Incorrect (i.e. this IS a fetal membrane/structure of this group). The placenta is the site of maternal-fetal exchange.
+
+## answer_d
+Yolk sac
+
+## explanation_d
+Incorrect (i.e. this IS a fetal membrane). The yolk sac is one of the extraembryonic membranes.
+
+## answer_e
+Notochord
+
+## explanation_e
+Correct. This is the false statement, the one the question asks for. The notochord is an embryonic axial structure that becomes the nucleus pulposus of the intervertebral discs; it is not a fetal membrane at all, unlike the other four options listed.
+
+## topic
+Embryology - Fetal membranes
+
+## subtopic
+Fetal membranes overview
+
+## main_concept
+CON-DEV-166F03223EFC99
+
+## concept_ids
+CON-DEV-1BCF37C48AF307
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the notochord, unlike the umbilical cord, amnion, placenta and yolk sac, is not a fetal membrane.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 90 (e, remark: "Notochord is not a fetal membrane."), confirmed by 600dpi render of p.13 and p.19
+asu: Embryo3 p.13 Q90.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-DEFINITIVE-YOLK-SAC-CORD
+
+## title
+True statement about the definitive yolk sac
+
+## question
+Definitive yolk sac:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Is lined by mesoderm
+
+## explanation_a
+Incorrect. The definitive (secondary) yolk sac's cavity is lined by endoderm, not mesoderm.
+
+## answer_b
+Has a wall made of ectoderm
+
+## explanation_b
+Incorrect. The definitive yolk sac's wall is endodermal, not ectodermal.
+
+## answer_c
+Is found in umbilical cord
+
+## explanation_c
+Correct. As folding proceeds and the gut tube closes off, the secondary yolk sac becomes compressed into the narrow vitelline duct. Its remnant persists attached to the midgut through this duct, running through the connecting stalk. By full term, this places the definitive yolk sac's remnant within the umbilical cord itself.
+
+## answer_d
+May be found in amniotic cavity
+
+## explanation_d
+Incorrect. The definitive yolk sac's remnant lies within the umbilical cord, not free within the amniotic cavity.
+
+## answer_e
+Is derived from trophoblast
+
+## explanation_e
+Incorrect. The definitive yolk sac derives from the primary yolk sac's endoderm, not from trophoblast.
+
+## topic
+Embryology - Fetal membranes
+
+## subtopic
+Yolk sac
+
+## main_concept
+CON-DEV-3E7A159CF4B826
+
+## concept_ids
+CON-DEV-3E7A159CF4B826
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the definitive yolk sac's remnant lies within the umbilical cord.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 14.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 91 (c, remark: "Definitive yolk sac lies within the umbilical cord."), confirmed by 600dpi render of p.14 and p.19
+asu: Embryo3 p.14 Q91.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SECONDARY-YOLK-SAC-ENDODERM
+
+## title
+Lining of the secondary yolk sac cavity
+
+## question
+Secondary yolk sac cavity is lined by:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Ectoderm
+
+## explanation_a
+Incorrect. Ectoderm does not line the secondary yolk sac cavity.
+
+## answer_b
+Mesoderm
+
+## explanation_b
+Incorrect. Mesoderm surrounds the secondary yolk sac externally (as part of the extraembryonic mesoderm), but it does not line the cavity itself.
+
+## answer_c
+Endoderm
+
+## explanation_c
+Correct. The secondary yolk sac forms when a smaller cavity pinches off from the original, larger primary yolk sac cavity. Like the rest of the primitive gut tube it was continuous with, this secondary cavity is lined throughout by endoderm. This endodermal lining persists even after the sac is compressed into the vitelline duct.
+
+## answer_d
+All of the above
+
+## explanation_d
+Incorrect, since only endoderm, not all three germ layers, lines the cavity.
+
+## answer_e
+None of the above
+
+## explanation_e
+Incorrect, since option C correctly names endoderm.
+
+## topic
+Embryology - Fetal membranes
+
+## subtopic
+Yolk sac
+
+## main_concept
+CON-DEV-3E7A159CF4B826
+
+## concept_ids
+CON-DEV-3E7A159CF4B826
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the secondary yolk sac cavity is lined by endoderm.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 14.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 92 (c, remark: "2ry yolk sac is lined by endodermal cells."), confirmed by 600dpi render of p.14 and p.19
+asu: Embryo3 p.14 Q92.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-AMNION-EXCEPT-MOVEMENT
+
+## title
+False statement about the amnion
+
+## question
+As regards amnion, all the following are true EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Amniotic cavity contains watery fluid
+
+## explanation_a
+Incorrect (i.e. this IS true). The amniotic cavity contains watery amniotic fluid.
+
+## answer_b
+It acts as a protective water jacket for the body
+
+## explanation_b
+Incorrect (i.e. this IS true). The fluid-filled amnion cushions and protects the fetus like a water jacket.
+
+## answer_c
+It prevents fetal movements
+
+## explanation_c
+Correct. This is the false statement, the one the question asks for. The amnion's fluid-filled cavity permits, rather than prevents, fetal movement, since it gives the fetus room to move that a closely apposed membrane would not.
+
+## answer_d
+It is a medium for excretion of urine
+
+## explanation_d
+Incorrect (i.e. this IS true). The fetal kidneys excrete urine into the amniotic fluid from the second trimester onward.
+
+## answer_e
+It forms the bag of forewater during labor
+
+## explanation_e
+Incorrect (i.e. this IS true). The amnion, with the chorion, forms the bag of forewaters that ruptures ahead of delivery.
+
+## topic
+Embryology - Fetal membranes
+
+## subtopic
+Amnion
+
+## main_concept
+CON-DEV-C48E92D7A3F160
+
+## concept_ids
+CON-DEV-C48E92D7A3F160
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the amnion permits, rather than prevents, fetal movement.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 14.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 93 (c, remark: "Amnion helps fetal movements."), confirmed by 600dpi render of p.14 and p.19
+asu: Embryo3 p.14 Q93.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-PRIMITIVE-CORD-EXCEPT-ONE-ARTERY
+
+## title
+False statement -- structure NOT normally in the primitive umbilical cord
+
+## question
+The primitive umbilical cord contains all the following EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Vitelline duct
+
+## explanation_a
+Incorrect (i.e. this IS present in the primitive cord). The vitelline duct connects the midgut to the secondary yolk sac through the primitive cord.
+
+## answer_b
+One umbilical vein
+
+## explanation_b
+Incorrect (i.e. this IS present, though phrased loosely). A pair of umbilical veins is present primitively (the right one degenerates only later), so "one umbilical vein" among the pair is a true, if incomplete, statement.
+
+## answer_c
+Allantois
+
+## explanation_c
+Incorrect (i.e. this IS present in the primitive cord). The allantois projects from the hindgut/yolk sac region into the connecting stalk.
+
+## answer_d
+One umbilical artery
+
+## explanation_d
+Correct. This is the false statement, the one the question asks for. The primitive umbilical cord contains a pair of umbilical arteries, not just one; it is only later, at full term, that the cord's vessel complement has narrowed to two arteries and one vein (the right umbilical vein having degenerated), so "one umbilical artery" understates the primitive cord's actual vessel count.
+
+## answer_e
+Extraembryonic coelom
+
+## explanation_e
+Incorrect (i.e. this IS present in the primitive cord). Extraembryonic coelom persists within the primitive cord until it is obliterated later in gestation.
+
+## topic
+Embryology - Fetal membranes
+
+## subtopic
+Umbilical cord
+
+## main_concept
+CON-DEV-96B27BDE263DBA
+
+## concept_ids
+CON-DEV-166F03223EFC99
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the primitive umbilical cord contains two umbilical arteries, not one, alongside the vitelline duct, allantois, umbilical vein(s) and extraembryonic coelom.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 14.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 94 (d, remark: "Primitive umbilical cord contains 2 umbilical arteries."), confirmed by 600dpi render of p.14 and p.19
+asu: Embryo3 p.14 Q94.
+dup_check: Same umbilical-vessel-count fact as Q11/Q36/Q52 (full-term cord, testing the single persisting left umbilical vein) but tests the opposite developmental stage (the primitive cord, before the right umbilical vein degenerates) with a non-overlapping option set -- kept distinct per the house distractor-difference rule.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-CORD-ANOMALIES-EXCEPT-TRUE-KNOT
+
+## title
+False statement about umbilical cord anomalies
+
+## question
+As regards anomalies of umbilical cord, the following are true EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+A long cord may coil around the neck of the fetus
+
+## explanation_a
+Incorrect (i.e. this IS true). An excessively long cord may coil around the fetal neck (nuchal cord).
+
+## answer_b
+A short cord may cause early placental separation
+
+## explanation_b
+Incorrect (i.e. this IS true). An excessively short cord can cause premature (early) placental separation as the fetus descends.
+
+## answer_c
+A true knot is due to local accumulation of Wharton's jelly
+
+## explanation_c
+Correct. This is the false statement, the one the question asks for, as worded in this source. A genuine cord knot forms from actual looping of the cord around itself; local accumulation of Wharton's jelly instead produces a false knot, a harmless local swelling with no true looping, so attributing a true knot to Wharton's jelly accumulation reverses the standard true/false knot distinction.
+
+## answer_d
+A false knot does not affect the fetus
+
+## explanation_d
+Incorrect (i.e. this IS true). A false knot, being only a local vessel or Wharton's jelly redundancy rather than a genuine loop, does not affect the fetus.
+
+## answer_e
+In battledore placenta, the umbilical cord is attached to margin of placenta
+
+## explanation_e
+Incorrect (i.e. this IS true). Battledore placenta is defined by marginal, rather than central, attachment of the umbilical cord to the placenta.
+
+## topic
+Embryology - Fetal membranes
+
+## subtopic
+Umbilical cord anomalies
+
+## main_concept
+CON-DEV-97B3F62A8E4D01
+
+## concept_ids
+CON-DEV-97B3F62A8E4D01
+
+## contextual_concept_ids
+CON-OBS-C095B75A61EA4F
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+Distinguish a true umbilical-cord knot (genuine looping of the cord) from a false knot (a harmless local vessel/Wharton's jelly redundancy).
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 14.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 95 (c, remark: "Accumulation of Wharton jelly causes false knots."), confirmed by 600dpi render of p.14 and p.19
+asu: Embryo3 p.14 Q95.
+The printed key's own remark ("Accumulation of Wharton jelly causes false knots") explains why option C is the EXCEPT/false statement: the source's standard teaching attributes Wharton's-jelly accumulation to a FALSE knot, not a TRUE one as option C states, so option C reverses the true/false attribution and is correctly flagged as the false statement.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-TERATOGEN-FIRST-TRIMESTER
+
+## title
+Period of pregnancy with the greatest teratogenic risk
+
+## question
+Drugs will produce the greater teratogenic effect during the following period of pregnancy:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+On day of conception
+
+## explanation_a
+Incorrect. Exposure right at the day of conception, during the pre-embryonic period, classically produces an all-or-none response (death of the conceptus or no lasting effect) rather than the major structural malformations the term "teratogenic" usually implies.
+
+## answer_b
+During the first 10-12 weeks of pregnancy
+
+## explanation_b
+Correct. The first 10-12 weeks of pregnancy correspond to the embryonic period, the window of organogenesis. The developing organ systems are laying down their basic structure during exactly this window, making them most sensitive to disruption. Teratogen exposure during this window therefore carries the greatest risk of major congenital malformations.
+
+## answer_c
+Between 20th to 25th weeks of pregnancy
+
+## explanation_c
+Incorrect. By 20-25 weeks, most organ systems have already completed their major structural development, so exposure at this stage more often affects growth or function rather than causing the major malformations typical of first-trimester exposure.
+
+## answer_d
+Between 25th to 30th weeks of pregnancy
+
+## explanation_d
+Incorrect. By 25-30 weeks, organogenesis is essentially complete; teratogenic risk at this stage is lower than during the embryonic period.
+
+## answer_e
+At the terminal stage of pregnancy
+
+## explanation_e
+Incorrect. At the terminal (late third-trimester) stage, organs are fully formed, so exposure at this stage carries the least risk of the major structural malformations that define classic teratogenic effects.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Teratogens
+
+## main_concept
+CON-DEV-5F1C8E36A0D742
+
+## concept_ids
+CON-DEV-5F1C8E36A0D742
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that teratogenic risk for major structural malformation is greatest during the first 10-12 weeks of pregnancy, the embryonic period/organogenesis window.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 14.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 96 (b, remark: "Teratogenic effect is greater during the 1st trimester of pregnancy (1st 12 weeks)."), confirmed by 600dpi render of p.14 and p.19
+asu: Embryo3 p.14 Q96.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SOMATIC-LPM-BODY-WALL
+
+## title
+Structure formed by the somatic layer of lateral plate mesoderm
+
+## question
+Which one of the following structures is formed by the somatic layer of intraembryonic mesoderm?
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Epidermis of skin
+
+## explanation_a
+Incorrect. The epidermis is ectodermal, not derived from any mesoderm layer.
+
+## answer_b
+Smooth muscles of the wall of the esophagus
+
+## explanation_b
+Incorrect. Smooth muscle of the esophageal wall is formed by the splanchnic, not somatic, layer of lateral plate mesoderm, since it lines the gut tube.
+
+## answer_c
+Supportive elements of the body wall
+
+## explanation_c
+Correct. The somatic (parietal) layer of lateral plate mesoderm stays applied to the overlying ectoderm as the coelom forms between the two lateral plate layers. Together, this somatic layer and the ectoderm form the body wall. The somatic layer specifically contributes the body wall's supportive connective-tissue elements, alongside the parietal layer of each serous membrane.
+
+## answer_d
+Muscles of the trunk
+
+## explanation_d
+Incorrect. The muscles of the trunk (myotomes) come from paraxial mesoderm (the somites), not lateral plate mesoderm.
+
+## answer_e
+Dermis of the skin
+
+## explanation_e
+Incorrect. The dermis of the skin comes from the dermatome portion of the somites (paraxial mesoderm), not the somatic layer of lateral plate mesoderm.
+
+## topic
+Embryology - Intraembryonic mesoderm
+
+## subtopic
+Lateral plate mesoderm layers
+
+## main_concept
+CON-DEV-8A2C4E19FB3D06
+
+## concept_ids
+CON-DEV-8A2C4E19FB3D06
+
+## contextual_concept_ids
+CON-DEV-5E63C211DEEE00
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the somatic layer of lateral plate mesoderm forms the supportive connective-tissue elements of the body wall.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 97 (c, remark: "Somatic layer of lateral plate mesoderm forms the supportive elements of the body wall."), confirmed by 600dpi render of p.15 and p.19
+asu: Embryo3 p.15 Q97.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-DOWN-TRISOMY-AUTOSOMES
+
+## title
+Category of chromosomal abnormality underlying Down syndrome
+
+## question
+Down syndrome is due to:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Monosomy of autosomes
+
+## explanation_a
+Incorrect. Down syndrome involves an extra, not a missing, chromosome, so it is not a monosomy.
+
+## answer_b
+Monosomy of sex chromosomes
+
+## explanation_b
+Incorrect. Down syndrome affects an autosome (chromosome 21), not a sex chromosome, and is a trisomy rather than a monosomy.
+
+## answer_c
+Trisomy of autosomes
+
+## explanation_c
+Correct. Down syndrome is caused by trisomy 21, an extra copy of chromosome 21, itself an autosome rather than a sex chromosome. This places Down syndrome in the "trisomy of autosomes" category. It is therefore distinct from the sex-chromosome aneuploidies (Klinefelter, Turner, supermale, triple X) tested elsewhere in this bank.
+
+## answer_d
+Trisomy of sex chromosomes
+
+## explanation_d
+Incorrect. Down syndrome affects an autosome, not a sex chromosome.
+
+## answer_e
+None of the above
+
+## explanation_e
+Incorrect, since option C correctly categorises Down syndrome.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-DEV-294FB8DDA40429
+
+## concept_ids
+CON-DEV-294FB8DDA40429
+
+## contextual_concept_ids
+CON-DEV-C5F7B1973F8049
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+Categorise Down syndrome as a trisomy of an autosome, distinct from the sex-chromosome aneuploidies.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 98 (c, remark: "Down syndrome = Trisomy 21 = tisomy of autosomes." [sic]), confirmed by 600dpi render of p.15 and p.19
+asu: Embryo3 p.15 Q98.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-ALLANTOIS-CORRECT-STATEMENT
+
+## title
+True statement about the allantois
+
+## question
+As regards the allantois, choose the correct statement:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Is a diverticulum of the hindgut
+
+## explanation_a
+Correct. The allantois arises early in development as a small, finger-like diverticulum (outpouching) from the caudal wall of the yolk sac. It forms in continuity with the hindgut, which is why it is described as a diverticulum of the hindgut. From there, it extends into the connecting stalk that will become the umbilical cord.
+
+## answer_b
+Completely degenerates postnatally
+
+## explanation_b
+Incorrect. The allantois does not completely degenerate; in humans, its remnant persists postnatally as the urachus, a fibrous cord running from the bladder to the umbilicus.
+
+## answer_c
+Is an outpouching of the coelom into the connecting stalk
+
+## explanation_c
+Incorrect. The allantois is a diverticulum of the hindgut/yolk sac, not an outpouching of the coelom.
+
+## answer_d
+Is not found in the umbilical cord at any time
+
+## explanation_d
+Incorrect. The allantois is found within the umbilical cord from early development onward, since it projects into the connecting stalk that becomes the cord.
+
+## answer_e
+All the above
+
+## explanation_e
+Incorrect, since only option A is correct.
+
+## topic
+Embryology - Fetal membranes
+
+## subtopic
+Allantois
+
+## main_concept
+CON-DEV-166F03223EFC99
+
+## concept_ids
+CON-DEV-166F03223EFC99
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the allantois is a diverticulum of the hindgut (yolk sac) that projects into the connecting stalk.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 99 (a, remark: "Allantois is a diverticulum of the hindgut."), confirmed by 600dpi render of p.15 and p.19
+asu: Embryo3 p.15 Q99.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-MESODERM-EXCEPT-ENAMEL
+
+## title
+False statement -- structure NOT a mesodermal derivative (i)
+
+## question
+All the following are mesodermal derivatives EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Bones
+
+## explanation_a
+Incorrect (i.e. this IS mesodermal). Bones develop from mesenchyme, whether from somite sclerotomes (axial skeleton) or lateral plate/neural crest mesenchyme (appendicular and craniofacial skeleton).
+
+## answer_b
+Kidneys
+
+## explanation_b
+Incorrect (i.e. this IS mesodermal). The kidneys develop from intermediate mesoderm.
+
+## answer_c
+Enamel of teeth
+
+## explanation_c
+Correct. This is the false statement, the one the question asks for. The enamel of teeth is ectodermal, formed by ameloblasts derived from oral ectoderm, unlike the other four options listed, which are all mesodermal.
+
+## answer_d
+Skeletal muscles
+
+## explanation_d
+Incorrect (i.e. this IS mesodermal). Skeletal muscle develops from the myotome portion of the somites, paraxial mesoderm.
+
+## answer_e
+Dermis of skin
+
+## explanation_e
+Incorrect (i.e. this IS mesodermal). The dermis develops from the dermatome portion of the somites, paraxial mesoderm.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Mesoderm derivatives
+
+## main_concept
+CON-DEV-F02B8D4E7A9C31
+
+## concept_ids
+CON-DEV-F02B8D4E7A9C31
+
+## contextual_concept_ids
+CON-DEV-468D99B144DB78
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that tooth enamel, unlike bones, kidneys, skeletal muscle and dermis, is ectodermal rather than mesodermal.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19/p.20 row 100 (c, remark: "Enamel of teeth is ectodermal in origin."), confirmed by 600dpi render of p.15 and p.19
+asu: Embryo3 p.15 Q100.
+dup_check: Same enamel-of-teeth germ-layer fact as Q87 (tested from the ectoderm side, where enamel is a correct/true ectodermal derivative) but a materially different, non-overlapping option set (Q87: pituitary gland/nervous system/pancreas/adrenal medulla/enamel of teeth; Q100: bones/kidneys/enamel of teeth/skeletal muscles/dermis of skin, tested from the mesoderm side) -- kept distinct per the house distractor-difference rule.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-NEURAL-CREST-EXCEPT-DURA-2
+
+## title
+False statement -- structure NOT a neural crest derivative
+
+## question
+Neural crest ectoderm gives rise to all the following EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Sensory ganglia
+
+## explanation_a
+Incorrect (i.e. this IS a neural crest derivative). The neural crest gives rise to the sensory ganglia.
+
+## answer_b
+Dura matter
+
+## explanation_b
+Correct. This is the false statement, the one the question asks for. The dura mater is a mesodermal derivative, not a neural crest one, unlike the other four options listed.
+
+## answer_c
+Adrenal (suprarenal) medulla
+
+## explanation_c
+Incorrect (i.e. this IS a neural crest derivative). The suprarenal (adrenal) medulla is neural crest in origin, unlike the mesodermal suprarenal cortex.
+
+## answer_d
+Melanocytes of the skin
+
+## explanation_d
+Incorrect (i.e. this IS a neural crest derivative). Melanocytes are neural crest cells that migrate into the epidermis.
+
+## answer_e
+Autonomic ganglia
+
+## explanation_e
+Incorrect (i.e. this IS a neural crest derivative). The neural crest gives rise to the sympathetic and parasympathetic (autonomic) ganglia.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Neural crest derivatives
+
+## main_concept
+CON-DEV-785CE84F7C03DB
+
+## concept_ids
+CON-DEV-785CE84F7C03DB
+
+## contextual_concept_ids
+CON-DEV-09907A44ACF452
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the dura mater, unlike sensory/autonomic ganglia, the adrenal medulla and melanocytes, is mesodermal rather than neural-crest in origin.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.20 row 101 (b, remark: "Dura matter is mesodermal in origin."), confirmed by 600dpi render of p.15 and p.20
+asu: Embryo3 p.15 Q101.
+dup_check: Same dura-mater-is-mesodermal fact as Q42 ("The following structures are of neural crest origin EXCEPT") but a materially different, non-overlapping option set (Q42: melanocytes/dorsal root ganglion/Schwann cells/dura matter/arachnoid matter; Q101: sensory ganglia/dura matter/adrenal medulla/melanocytes/autonomic ganglia) -- kept distinct per the house distractor-difference rule.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-ECTODERM-EXCEPT-SUPRARENAL-CORTEX
+
+## title
+False statement -- structure NOT derived from ectoderm (iv)
+
+## question
+All the following are derivatives of ectoderm EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Spinal cord
+
+## explanation_a
+Incorrect (i.e. this IS ectodermal). The spinal cord is a neural tube derivative, ectodermal in origin.
+
+## answer_b
+Cortex of suprarenal gland
+
+## explanation_b
+Correct. This is the false statement, the one the question asks for. The cortex of the suprarenal (adrenal) gland is mesodermal (from coelomic epithelium), unlike the medulla, which is neural crest (ectodermal); it is therefore the one non-ectodermal option among this list.
+
+## answer_c
+Sensory ganglia of spinal nerves
+
+## explanation_c
+Incorrect (i.e. this IS ectodermal). Sensory ganglia of the spinal nerves are neural crest derivatives, and the neural crest is itself ectodermal.
+
+## answer_d
+Anterior pituitary gland
+
+## explanation_d
+Incorrect (i.e. this IS ectodermal). The anterior pituitary (adenohypophysis) develops from Rathke's pouch, an ectodermal outpouching of the stomodeum.
+
+## answer_e
+Retina of eye
+
+## explanation_e
+Incorrect (i.e. this IS ectodermal). The retina develops as an outgrowth of the neural tube (optic vesicle), ectodermal in origin.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Ectoderm derivatives
+
+## main_concept
+CON-DEV-09907A44ACF452
+
+## concept_ids
+CON-DEV-09907A44ACF452
+
+## contextual_concept_ids
+CON-DEV-785CE84F7C03DB
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the suprarenal cortex, unlike the spinal cord, sensory ganglia, anterior pituitary and retina, is mesodermal rather than ectodermal.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.20 row 102 (b, no remark visible on the torn page), confirmed by 600dpi render of p.15 and cross-checked against the adrenal cortex/medulla concept's own stated germ-layer split
+asu: Embryo3 p.15 Q102.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-MESODERM-EXCEPT-SUPRARENAL-MEDULLA
+
+## title
+False statement -- structure NOT a mesodermal derivative (ii)
+
+## question
+All the following are derivatives of mesoderm EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Skeletal musculature
+
+## explanation_a
+Incorrect (i.e. this IS mesodermal). Skeletal musculature develops from the myotome portion of the somites.
+
+## answer_b
+Musculature of blood vessels
+
+## explanation_b
+Incorrect (i.e. this IS mesodermal). The smooth musculature of blood vessels develops from mesoderm.
+
+## answer_c
+Cardiac musculature
+
+## explanation_c
+Incorrect (i.e. this IS mesodermal). Cardiac musculature develops from the splanchnic layer of lateral plate mesoderm (the cardiogenic area).
+
+## answer_d
+Suprarenal cortex
+
+## explanation_d
+Incorrect (i.e. this IS mesodermal). The suprarenal cortex develops from coelomic epithelium, mesodermal in origin.
+
+## answer_e
+Suprarenal medulla
+
+## explanation_e
+Correct. This is the false statement, the one the question asks for. The suprarenal medulla is a neural crest derivative, ectodermal in origin, unlike the cortex and the other, genuinely mesodermal, options listed.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Mesoderm derivatives
+
+## main_concept
+CON-DEV-09907A44ACF452
+
+## concept_ids
+CON-DEV-09907A44ACF452
+
+## contextual_concept_ids
+CON-DEV-785CE84F7C03DB
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the suprarenal medulla, unlike skeletal, vascular and cardiac musculature and the suprarenal cortex, is neural-crest (ectodermal) rather than mesodermal.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.20 row 103 (e, remark: "Suprarenal medulla is a derivative of neur[al crest] (ectodermal in origin)."), confirmed by 600dpi render of p.16 and p.20
+asu: Embryo3 p.16 Q103.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SOMITES-ALL-CORRECT
+
+## title
+True statement about the somites (all-of-above)
+
+## question
+As regards the somites, choose the correct statement:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Differentiate into myotomes which give rise to muscles of trunk
+
+## explanation_a
+Incorrect on its own. This is a genuine fact about somites, but not the only one.
+
+## answer_b
+Differentiate into sclerotomes which give rise to vertebrae
+
+## explanation_b
+Incorrect on its own. This is a genuine fact about somites, but not the only one.
+
+## answer_c
+Arise by segmentation of paraxial mesoderm
+
+## explanation_c
+Incorrect on its own. This is a genuine fact about somites, but not the only one.
+
+## answer_d
+Differentiate into dermatomes which give rise to dermis of skin
+
+## explanation_d
+Incorrect on its own. This is a genuine fact about somites, but not the only one.
+
+## answer_e
+All of the above
+
+## explanation_e
+Correct. Somites arise by segmentation of paraxial mesoderm. Each somite then splits into a myotome, giving the muscles of the trunk, a sclerotome, giving the vertebrae, and a dermatome, giving the dermis of the skin. All four listed statements are therefore simultaneously true, making "all of the above" the complete answer.
+
+## topic
+Embryology - Intraembryonic mesoderm
+
+## subtopic
+Somite differentiation
+
+## main_concept
+CON-DEV-5E63C211DEEE00
+
+## concept_ids
+CON-DEV-5E63C211DEEE00
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that somites arise from segmentation of paraxial mesoderm and differentiate into myotomes, sclerotomes and dermatomes, giving trunk muscles, vertebrae and dermis respectively.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.20 row 104 (e, remark: "All statements are correct."), confirmed by 600dpi render of p.16 and p.20
+asu: Embryo3 p.16 Q104.
