@@ -10,7 +10,7 @@
 | assessment-2-mcq-1-patho | 0 | 0 | 6 | 6 |
 | assessment-2-mcq-1-patho-q19b | 0 | 0 | 1 | 1 |
 | eom-final-ug1-2020 | 0 | 0 | 19 | 19 |
-| eom-ug-final1-2024 | 0 | 0 | 19 | 19 |
+| eom-ug-final1-2024 | 14 | 5 | 0 | 19 |
 | eom-ug-final2-2024 | 0 | 0 | 23 | 23 |
 | eom-ug-final2-collection | 120 | 5 | 0 | 125 |
 | first-assessment-ug-2024 | 0 | 0 | 24 | 24 |
@@ -22,6 +22,11 @@
 - assessment-1-mcq-patho-q15 — duplicate — Patho Q15 ("a diabetic patient with high WBCS count, casts, costovertebral loin pain? Acute pyelonephritis") re-asks the same casts-plus-costovertebral-tenderness-diagnoses-pyelonephritis fact tested in Patho Q3 ("sexually active female, high wbcs count, casts, costovertebral loin pain? Pyelonephritis"), authored as assessment-1-mcq-patho-q03; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - assessment-1-mcq-micro-q05 — duplicate — Micro Q5 ("Vaginal candidiasis? Germ tube test") re-asks the same fact already covered by the germ-tube-test/Candida-albicans concept minted in the eom-ug-final2-collection cluster (Micro block, ASU-UG-eom-ug-final2-collection-concepts.md), a genuine cross-paper duplicate (LANE-CARD-Y2-3 §4 cross-file recycling trap) confirmed via find-existing.mjs "germ tube" and grep of docs/Ain-Shams-Source-Imports/concept/. Held rather than re-minted a twin.
 - assessment-2-mcq-1-patho-q09 — within-file duplicate — Patho item 9 ("21 alpha Hydroxylase defects leads to? hyponatremia") re-asks the same 21-alpha-hydroxylase/salt-wasting fact tested more fully in Bio item 1 ("masculine female genitalia, hyponatremia, hyperkalemia"), authored as assessment-2-mcq-1-bio-q01; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
+- eom-ug-final1-2024-q12 — duplicate — Physio Q3 ("Which of the following conditions is associated with a decrease in urinary titratable acid? Psychic hyperventilation") re-asks the same fact already authored as assessment-1-mcq-q10 ("which condition is associated with a decrease in urinary titratable acid excretion? Psychic hyperventilation"); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed via find-existing.mjs "titratable acid".
+- eom-ug-final1-2024-q14 — duplicate — Physio Q5 ("Which is true in CRF? metabolic acidosis and hyperkalemia") re-asks the same fact already authored as an assessment-1-mcq concept ("Chronic renal failure characteristically produces the combination of metabolic acidosis and hyperkalemia"); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed via find-existing.mjs "chronic renal failure".
+- eom-ug-final1-2024-q17 — duplicate — Patho Q2 ("Case patient in car injury? ATN") re-asks the same crush-injury/myoglobin-induced acute tubular necrosis fact already authored as an assessment-1-mcq concept ("Crush injury classically causes reversible acute tubular necrosis via myoglobin-induced tubular toxicity and obstruction"); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed via find-existing.mjs "acute tubular necrosis".
+- eom-ug-final1-2024-q18 — duplicate — Micro Q1 ("Exopigment on agar? Pseudomonas aeruginosa") re-asks the same pigment-producing-Pseudomonas fact already authored as an assessment-1-mcq concept/article ("Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture"), just from the reverse direction (name the organism vs name the pigment); collapsed per LANE-CARD-Y2-3 within-corpus duplicate rule, confirmed via find-existing.mjs "pseudomonas aeruginosa".
+- eom-ug-final1-2024-q19 — duplicate — Community Q1 ("Modifiable RF in ESRD? Obesity") re-asks the same fact already authored as an assessment-2-mcq-1 concept ("Obesity is a modifiable risk factor for end-stage renal disease (ESRD)", CON-POP-AADC470905FCD9); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed via find-existing.mjs "obesity".
 - eom-ug-final2-collection-q047 — duplicate of q044 (Histo Q2) — Histo Q5 ("cells lining the seminiferous tubules -> Sertoli cell with indistinct cell boundary") re-asks the same apical-infoldings/indistinct-border fact tested in Histo Q2; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - eom-ug-final2-collection-q085 — duplicate — Micro Q14 (page 12, genital ulcer + adenopathy + multinucleated giant cells + intranuclear inclusions on tissue culture, causative pathogen HSV) re-asks the same HSV/multinucleated-giant-cell fact tested in Micro Q13 (page 11, vesicular lesions turning to ulcers, Tzanck/Giemsa smear finding); collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - eom-ug-final2-collection-q108 — duplicate — Patho Q12 ("mucinous cysts in cervical mucosa obstructed by a squamous tumor -> Nabothian cyst") re-asks the same Nabothian-cyst-from-obstructed-endocervical-gland fact tested in Patho Q1 ("finding in chronic cervicitis -> Nabothian cysts (dt obstruction in endocervical glands)"), authored as eom-ug-final2-collection-q097; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
@@ -107,25 +112,6 @@
 - eom-final-ug1-2020-q17
 - eom-final-ug1-2020-q18
 - eom-final-ug1-2020-q19
-- eom-ug-final1-2024-q01
-- eom-ug-final1-2024-q02
-- eom-ug-final1-2024-q03
-- eom-ug-final1-2024-q04
-- eom-ug-final1-2024-q05
-- eom-ug-final1-2024-q06
-- eom-ug-final1-2024-q07
-- eom-ug-final1-2024-q08
-- eom-ug-final1-2024-q09
-- eom-ug-final1-2024-q10
-- eom-ug-final1-2024-q11
-- eom-ug-final1-2024-q12
-- eom-ug-final1-2024-q13
-- eom-ug-final1-2024-q14
-- eom-ug-final1-2024-q15
-- eom-ug-final1-2024-q16
-- eom-ug-final1-2024-q17
-- eom-ug-final1-2024-q18
-- eom-ug-final1-2024-q19
 - eom-ug-final2-2024-q01
 - eom-ug-final2-2024-q02
 - eom-ug-final2-2024-q03
