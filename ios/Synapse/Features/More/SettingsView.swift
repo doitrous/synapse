@@ -5,7 +5,7 @@ import UserNotifications
 /// `src/data/profileIcons.ts` id for id — the id is what round-trips through
 /// `profileIcon` on the server, so a mismatch here would show one icon on the
 /// phone and a different one on the website.
-private let profileIconOptions: [(id: String, symbol: String, label: LocalizedStringKey)] = [
+private let profileIconOptions: [(id: String, symbol: String, label: String)] = [
     ("stethoscope", "stethoscope", "Stethoscope"),
     ("neuron", "brain.head.profile", "Neuron"),
     ("capsule", "pills.fill", "Capsule"),
@@ -218,34 +218,43 @@ struct AccountView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 10) {
                 ForEach(profileIconOptions, id: \.id) { option in
-                    Button {
-                        iconId = option.id
-                        profileSaved = false
-                    } label: {
-                        VStack(spacing: 4) {
-                            Image(systemName: option.symbol)
-                                .font(.system(size: 18))
-                                .frame(width: 44, height: 44)
-                                .background(iconId == option.id ? Theme.primaryTint : Theme.surface2)
-                                .foregroundStyle(iconId == option.id ? Theme.primaryStrong : Theme.ink2)
-                                .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: Theme.Radius.lg)
-                                        .strokeBorder(iconId == option.id ? Theme.primary : .clear, lineWidth: 1.5)
-                                )
-                            Text(strings(option.label))
-                                .font(Theme.ui(10))
-                                .foregroundStyle(Theme.ink3)
-                        }
-                    }
-                    .buttonStyle(.plain)
-                    .accessibilityLabel(strings(option.label))
-                    .accessibilityAddTraits(iconId == option.id ? [.isButton, .isSelected] : .isButton)
+                    iconTile(option)
                 }
             }
             .padding(.vertical, 2)
         }
         .listRowInsets(EdgeInsets(top: 10, leading: 16, bottom: 6, trailing: 16))
+    }
+
+    /// Broken out of `iconPicker` with the selection state precomputed: the
+    /// inline ternaries in the modifier chain pushed the type-checker past its
+    /// time budget, so `selected` is resolved once, in Swift, not in the view.
+    private func iconTile(_ option: (id: String, symbol: String, label: String)) -> some View {
+        let selected = iconId == option.id
+        let glyph = selected ? Theme.primaryStrong : Theme.ink2
+        let fill = selected ? Theme.primaryTint : Theme.surface2
+        let border = selected ? Theme.primary : Color.clear
+        let shape = RoundedRectangle(cornerRadius: Theme.Radius.lg)
+        return Button {
+            iconId = option.id
+            profileSaved = false
+        } label: {
+            VStack(spacing: 4) {
+                Image(systemName: option.symbol)
+                    .font(.system(size: 18))
+                    .frame(width: 44, height: 44)
+                    .background(fill)
+                    .foregroundStyle(glyph)
+                    .clipShape(shape)
+                    .overlay(shape.strokeBorder(border, lineWidth: 1.5))
+                Text(strings(option.label))
+                    .font(Theme.ui(10))
+                    .foregroundStyle(Theme.ink3)
+            }
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(strings(option.label))
+        .accessibilityAddTraits(selected ? [.isButton, .isSelected] : .isButton)
     }
 
     @ViewBuilder

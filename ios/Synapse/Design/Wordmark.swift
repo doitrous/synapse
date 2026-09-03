@@ -51,7 +51,7 @@ struct Wordmark: View {
 @MainActor
 private func onDarkGround(_ appearance: AppTheme) -> Bool {
     switch appearance {
-    case .dark: true
+    case .dark, .oled: true
     case .light, .warm: false
     case .system: UITraitCollection.current.userInterfaceStyle == .dark
     }
