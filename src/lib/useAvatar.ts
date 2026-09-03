@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { ApiError, apiDelete, apiFetchFile, apiPost } from './api'
 import { useIdentity } from './useIdentity'
 
@@ -55,69 +55,100 @@ export function useAvatar() {
   const identity = useIdentity()
   const mediaId = identity.profile.avatarMediaId ?? null
   const [src, setSrc] = useState('')
+  // Optimistic stand-in shown the instant an upload/import/remove is
+  // requested — a locally-built preview, not yet confirmed by the server.
+  const [preview, setPreview] = useState('')
+  const [removedOptimistically, setRemovedOptimistically] = useState(false)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
+  const previewBlobRef = useRef('')
+
+  const setBlobPreview = useCallback((url: string) => {
+    if (previewBlobRef.current) URL.revokeObjectURL(previewBlobRef.current)
+    previewBlobRef.current = url
+    setPreview(url)
+  }, [])
+
+  const clearPreview = useCallback(() => {
+    if (previewBlobRef.current) { URL.revokeObjectURL(previewBlobRef.current); previewBlobRef.current = '' }
+    setPreview('')
+  }, [])
 
   useEffect(() => {
     let active = true
     let objectUrl = ''
     setSrc('')
+    setRemovedOptimistically(false)
     if (!mediaId) return undefined
     apiFetchFile(avatarPath(mediaId))
       .then((bytes) => {
         if (!active || !looksLikeImage(bytes)) return
         objectUrl = URL.createObjectURL(new Blob([bytes]))
         setSrc(objectUrl)
+        // The authoritative image has landed — drop the optimistic stand-in.
+        clearPreview()
       })
       .catch(() => { /* Missing or unreadable avatar: fall back to the glyph silently. */ })
     return () => {
       active = false
       if (objectUrl) URL.revokeObjectURL(objectUrl)
     }
-  }, [mediaId])
+  }, [mediaId, clearPreview])
 
   const upload = useCallback(async (file: File) => {
     setError('')
+    setBlobPreview(URL.createObjectURL(file))
     setBusy(true)
     try {
       const image = await readAsDataUrl(file)
       await apiPost('/me/avatar', { image })
       identity.reload()
     } catch (reason) {
+      clearPreview()
       setError(messageFor(reason, 'That photo could not be saved. Try a smaller image.'))
       throw reason
     } finally {
       setBusy(false)
     }
-  }, [identity])
+  }, [identity, setBlobPreview, clearPreview])
 
   const importFromUrl = useCallback(async (url: string) => {
     setError('')
+    // Not a blob — the external URL itself is a fine instant stand-in.
+    setPreview(url)
     setBusy(true)
     try {
       await apiPost('/me/avatar/import', { url })
       identity.reload()
     } catch (reason) {
+      clearPreview()
       setError(messageFor(reason, 'That photo could not be imported.'))
       throw reason
     } finally {
       setBusy(false)
     }
-  }, [identity])
+  }, [identity, clearPreview])
 
   const remove = useCallback(async () => {
     setError('')
+    clearPreview()
+    setRemovedOptimistically(true)
     setBusy(true)
     try {
       await apiDelete('/me/avatar')
       identity.reload()
     } catch (reason) {
+      setRemovedOptimistically(false)
       setError(messageFor(reason, 'That could not be removed.'))
       throw reason
     } finally {
       setBusy(false)
     }
-  }, [identity])
+  }, [identity, clearPreview])
 
-  return { src, hasPhoto: Boolean(mediaId), busy, error, upload, importFromUrl, remove }
+  return {
+    src: preview || (removedOptimistically ? '' : src),
+    hasPhoto: !removedOptimistically && (Boolean(mediaId) || Boolean(preview)),
+    busy, error, upload, importFromUrl, remove,
+  }
 }

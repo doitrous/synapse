@@ -43,6 +43,8 @@ export interface MyDocument {
   sourceId?: string | null
   /** Demo mode only: the IndexedDB reference standing in for a server file. */
   ref?: string
+  /** Optimistic placeholder while a server upload is still in flight. */
+  status?: 'uploading'
 }
 
 export interface MyDocumentsState {
@@ -107,34 +109,65 @@ export function useMyDocuments(): MyDocumentsState {
       setLocal((current) => [{ ...newRecord(id, file, ref), sourceKind: source.kind, sourceId: source.id ?? null }, ...current])
       return id
     }
-    const created = await apiPost<{ id: string; uploadId: string }>('/my-documents', {
-      title: fileTitle(file), fileName: file.name, mimeType: file.type,
-      sourceKind: source.kind, sourceId: source.id,
-    })
-    const total = Math.max(1, Math.ceil(file.size / CHUNK_BYTES))
-    for (let index = 0; index < total; index++) {
-      await apiUploadChunk(
-        `/my-documents/${created.id}/chunks/${created.uploadId}/${index}`,
-        file.slice(index * CHUNK_BYTES, (index + 1) * CHUNK_BYTES),
-      )
-      onProgress?.((index + 1) / total)
+    // Placeholder appears the instant the upload starts — the progress UI
+    // already tracks it live, but the row itself no longer waits on the
+    // server round trip to show up in the list.
+    const placeholderId = `uploading-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`
+    setRemote((current) => [
+      recordFromFile(placeholderId, file, { sourceKind: source.kind, sourceId: source.id ?? null, status: 'uploading' }),
+      ...current,
+    ])
+    try {
+      const created = await apiPost<{ id: string; uploadId: string }>('/my-documents', {
+        title: fileTitle(file), fileName: file.name, mimeType: file.type,
+        sourceKind: source.kind, sourceId: source.id,
+      })
+      const total = Math.max(1, Math.ceil(file.size / CHUNK_BYTES))
+      for (let index = 0; index < total; index++) {
+        await apiUploadChunk(
+          `/my-documents/${created.id}/chunks/${created.uploadId}/${index}`,
+          file.slice(index * CHUNK_BYTES, (index + 1) * CHUNK_BYTES),
+        )
+        onProgress?.((index + 1) / total)
+      }
+      const completed = await apiPost<{ ok: boolean; pageCount?: number | null }>(`/my-documents/${created.id}/chunks/${created.uploadId}/complete`, {
+        totalChunks: total,
+        sizeBytes: file.size,
+      })
+      const finalRow = recordFromFile(created.id, file, {
+        sourceKind: source.kind, sourceId: source.id ?? null, pageCount: completed.pageCount ?? null,
+      })
+      setRemote((current) => current.map((item) => (item.id === placeholderId ? finalRow : item)))
+      setUsage((current) => ({ ...current, usedBytes: current.usedBytes + file.size }))
+      setError(null)
+      return created.id
+    } catch (cause) {
+      setRemote((current) => current.filter((item) => item.id !== placeholderId))
+      setError(cause instanceof Error ? cause.message : 'That upload failed.')
+      throw cause
     }
-    await apiPost(`/my-documents/${created.id}/chunks/${created.uploadId}/complete`, {
-      totalChunks: total,
-      sizeBytes: file.size,
-    })
-    await refresh()
-    return created.id
-  }, [refresh, setLocal])
+  }, [setLocal])
 
   const rename = useCallback(async (id: string, title: string) => {
     if (!API_MODE) {
       setLocal((current) => current.map((item) => (item.id === id ? { ...item, title } : item)))
       return
     }
-    await apiSend(`/my-documents/${id}`, 'PATCH', { title })
-    await refresh()
-  }, [refresh, setLocal])
+    let previousTitle: string | undefined
+    setRemote((current) => current.map((item) => {
+      if (item.id !== id) return item
+      previousTitle = item.title
+      return { ...item, title }
+    }))
+    try {
+      await apiSend(`/my-documents/${id}`, 'PATCH', { title })
+      setError(null)
+    } catch (cause) {
+      setRemote((current) => current.map((item) => (item.id === id && previousTitle !== undefined ? { ...item, title: previousTitle } : item)))
+      setError(cause instanceof Error ? cause.message : 'That rename failed.')
+      throw cause
+    }
+  }, [setLocal])
 
   const remove = useCallback(async (id: string) => {
     if (!API_MODE) {
@@ -143,9 +176,36 @@ export function useMyDocuments(): MyDocumentsState {
       setLocal((current) => current.filter((item) => item.id !== id))
       return
     }
-    await apiDelete(`/my-documents/${id}`)
-    await refresh()
-  }, [local, refresh, setLocal])
+    let removed: MyDocument | null = null
+    let removedIndex = -1
+    setRemote((current) => {
+      removedIndex = current.findIndex((item) => item.id === id)
+      if (removedIndex === -1) return current
+      removed = current[removedIndex]
+      return current.filter((item) => item.id !== id)
+    })
+    if (removed) {
+      const gone = removed as MyDocument
+      setUsage((current) => ({ ...current, usedBytes: Math.max(0, current.usedBytes - gone.sizeBytes) }))
+    }
+    try {
+      await apiDelete(`/my-documents/${id}`)
+      setError(null)
+    } catch (cause) {
+      if (removed) {
+        const restore = removed as MyDocument
+        setRemote((current) => {
+          if (current.some((item) => item.id === id)) return current
+          const next = [...current]
+          next.splice(Math.min(removedIndex, next.length), 0, restore)
+          return next
+        })
+        setUsage((current) => ({ ...current, usedBytes: current.usedBytes + restore.sizeBytes }))
+      }
+      setError(cause instanceof Error ? cause.message : 'That could not be deleted.')
+      throw cause
+    }
+  }, [local, setLocal])
 
   const items = API_MODE ? remote : local
   return {
@@ -161,7 +221,7 @@ export function useMyDocuments(): MyDocumentsState {
   }
 }
 
-function newRecord(id: string, file: File, ref: string): MyDocument {
+function recordFromFile(id: string, file: File, extra: Partial<MyDocument> = {}): MyDocument {
   return {
     id,
     title: fileTitle(file),
@@ -171,8 +231,12 @@ function newRecord(id: string, file: File, ref: string): MyDocument {
     sizeBytes: file.size,
     pageCount: null,
     createdAt: new Date().toISOString(),
-    ref,
+    ...extra,
   }
+}
+
+function newRecord(id: string, file: File, ref: string): MyDocument {
+  return recordFromFile(id, file, { ref })
 }
 
 function isPdf(file: File): boolean {
