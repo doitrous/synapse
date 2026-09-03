@@ -1,0 +1,270 @@
+{
+  "lane": "ASU-CNS-3",
+  "cluster": "paper2-2022summer",
+  "header": "ASU-CNS-3 · \"EOM - paper 2 cns 2022 summer.pdf\" (cluster 9b/author9) — printed \"CNS PAPER 2 (Summer) 2022\", the summer resit sitting, a distinct paper from cluster 9's regular 2022 sitting despite the similar filename. 38-item embedded-answer compilation. 6 new mints survive after checking every item against all 244 existing ASU-CNS-3 concept labels plus this cluster's own cluster-9 mints plus a cross-lane find-existing.mjs pass; 32 held (microbiology/parasitology/ENT out of scope, cross-paper and within-file duplicates including duplicates of this same author's cluster-9 mints, and duplicates of pending Alexandria/Kasr concepts). Keys read as printed/stated; distractors authored by this lane.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["asu"],
+    "years": ["ASU_Y3"],
+    "module": "ASU-CNS-3",
+    "exam_weight_by_year": { "ASU_Y3": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_5bf94a1ecd7d40289fa8"],
+    "source_citation": "Ain Shams Year 3 CNS EOM Paper 2 2022 summer resit (\"EOM - paper 2 cns 2022 summer.pdf\"), {page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "p22022s-dexamethasone-meningitis",
+      "id": "QST-ASUCNS3P22022S-DEXAMETHASONE-MENINGITIS",
+      "page": "item 6/38",
+      "title": "When should dexamethasone be given in bacterial meningitis to reduce neurological complications?",
+      "question": "In a patient being treated for bacterial meningitis, at what point should adjunctive dexamethasone be given to reduce the risk of neurological complications such as hearing loss?",
+      "options": {
+        "A": "With or just before the first dose of antibiotics",
+        "B": "Only after 48 hours of antibiotic therapy, once the diagnosis is confirmed by culture",
+        "C": "Only if the patient develops seizures during treatment",
+        "D": "It should never be combined with antibiotic therapy for meningitis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Adjunctive dexamethasone, given intravenously with or just before the first dose of antibiotic therapy, blunts the inflammatory response generated as bacterial cell walls lyse under antibiotic action, reducing the risk of neurological complications such as sensorineural hearing loss. This benefit depends critically on early, first-dose timing rather than on the antibiotic choice itself.",
+        "B": "Incorrect. Dexamethasone started after antibiotics have already been running for some time no longer meaningfully blunts the early lytic inflammatory surge, so delaying it to 48 hours loses most of its benefit.",
+        "C": "Incorrect. Dexamethasone's role here is prophylactic, given at the start of treatment to prevent complications, not reserved for a specific complication such as seizures once it has already occurred.",
+        "D": "Incorrect. Adjunctive dexamethasone is a well-established part of bacterial meningitis management when timed correctly, not an agent to avoid combining with antibiotics."
+      },
+      "main_concept": "CON-NEU-F499237CF4C1DB",
+      "concept_ids": ["CON-NEU-F499237CF4C1DB"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022S-DEXAMETHASONE-GIVEN-WITH-OR-JUST-BEFORE"],
+      "topic": "Pharmacology",
+      "subtopic": "Meningitis pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that dexamethasone is given with or immediately before the first dose of antibiotics in bacterial meningitis, to reduce neurological complications such as hearing loss.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Meningitis pharmacology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 6",
+        "asu": "EOM - paper 2 cns 2022 summer.pdf, item 6"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "p22022s-quetiapine-parkinson",
+      "id": "QST-ASUCNS3P22022S-QUETIAPINE-PARKINSON",
+      "page": "item 7/38",
+      "title": "Which antipsychotic is preferred for treating psychosis in a patient with Parkinson disease?",
+      "question": "A patient with Parkinson disease develops visual hallucinations attributed to their dopaminergic therapy. Which antipsychotic is preferred to treat this psychosis with the lowest risk of worsening their parkinsonian motor symptoms?",
+      "options": {
+        "A": "Quetiapine",
+        "B": "Haloperidol",
+        "C": "Risperidone",
+        "D": "Chlorpromazine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Most antipsychotics are potent D2 receptor antagonists that would worsen this patient's parkinsonism. Quetiapine, an atypical antipsychotic with comparatively weak and rapidly-dissociating D2 receptor blockade, is preferred for psychosis in Parkinson disease instead. It controls psychotic symptoms with a substantially lower risk of exacerbating extrapyramidal motor symptoms than typical antipsychotics or most other atypical agents.",
+        "B": "Incorrect. Haloperidol is a potent typical antipsychotic with strong D2 receptor blockade, which would markedly worsen this patient's parkinsonism.",
+        "C": "Incorrect. Risperidone, though atypical, still has relatively strong D2 blockade at clinical doses and carries a meaningfully higher risk of worsening parkinsonism than quetiapine.",
+        "D": "Incorrect. Chlorpromazine is a typical antipsychotic with strong D2 blockade and prominent extrapyramidal side effects, unsuitable for a Parkinson disease patient."
+      },
+      "main_concept": "CON-NEU-CE603C6A3BCEC3",
+      "concept_ids": ["CON-NEU-CE603C6A3BCEC3"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022S-QUETIAPINE-IS-THE-ANTIPSYCHOTIC-OF-CHOICE"],
+      "topic": "Pharmacology",
+      "subtopic": "Movement disorders",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that quetiapine is preferred over other antipsychotics for treating psychosis in Parkinson disease because of its low risk of worsening parkinsonian motor symptoms.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Movement disorders",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 7 (\"quatapian =of choice in parkinson\")",
+        "asu": "EOM - paper 2 cns 2022 summer.pdf, item 7; source spelling \"quatapian\" read as quetiapine"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "p22022s-habituation",
+      "id": "QST-ASUCNS3P22022S-HABITUATION",
+      "page": "item 11/38",
+      "title": "Which term describes the progressive decrease in response to a repeated, non-threatening stimulus?",
+      "question": "A loud but harmless noise repeated many times produces a progressively smaller startle response each time it is presented. Which form of learning does this illustrate?",
+      "options": {
+        "A": "Habituation",
+        "B": "Classical conditioning",
+        "C": "Operant conditioning",
+        "D": "Sensitisation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Habituation is a simple, non-associative form of learning. The strength of a behavioural response to a repeated, unchanging stimulus progressively decreases as the nervous system learns that the stimulus is neither novel nor threatening and can safely be ignored. This is exactly what is described here, as the startle response wanes with repetition.",
+        "B": "Incorrect. Classical conditioning requires pairing a neutral stimulus with an unconditioned stimulus to create a new learned association, not the simple decline in response to one repeated stimulus described here.",
+        "C": "Incorrect. Operant conditioning involves learning an association between a behaviour and its consequence (reinforcement or punishment), not a passive decline in response to a repeated stimulus.",
+        "D": "Incorrect. Sensitisation is the opposite phenomenon — an enhancement, not a decrease, of a response, typically after exposure to a strong or noxious stimulus."
+      },
+      "main_concept": "CON-NEU-0DD9DF992AFAA3",
+      "concept_ids": ["CON-NEU-0DD9DF992AFAA3"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022S-HABITUATION-IS-A-FORM-OF-NON-ASSOCIATIVE"],
+      "topic": "Physiology",
+      "subtopic": "Learning and memory",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that habituation is a non-associative form of learning in which the response to a repeated, non-threatening stimulus progressively decreases.",
+      "module_subject": "ASU-CNS-3 > Physiology > Learning and memory",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 11",
+        "asu": "EOM - paper 2 cns 2022 summer.pdf, item 11"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "p22022s-posterior-communicating-artery",
+      "id": "QST-ASUCNS3P22022S-POSTERIOR-COMMUNICATING-ARTERY",
+      "page": "item 14/38",
+      "title": "Which artery connects the internal carotid artery with the posterior cerebral artery?",
+      "question": "Which vessel of the circle of Willis links the internal carotid artery directly with the posterior cerebral artery, connecting the anterior (carotid) and posterior (vertebrobasilar) cerebral circulations?",
+      "options": {
+        "A": "The posterior communicating artery",
+        "B": "The anterior communicating artery",
+        "C": "The anterior choroidal artery",
+        "D": "The basilar artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The posterior communicating artery is a short anastomotic vessel that runs backward from the internal carotid artery to join the posterior cerebral artery on each side. It forms part of the posterior half of the circle of Willis, linking the anterior (carotid) and posterior (vertebrobasilar) cerebral circulations. This anastomosis allows collateral flow between the two systems if one is compromised.",
+        "B": "Incorrect. The anterior communicating artery connects the two anterior cerebral arteries across the midline, not the carotid and vertebrobasilar systems.",
+        "C": "Incorrect. The anterior choroidal artery is a branch of the internal carotid artery supplying deep structures such as the choroid plexus and internal capsule; it does not connect to the posterior cerebral artery directly.",
+        "D": "Incorrect. The basilar artery is formed by the union of the two vertebral arteries and supplies the posterior circulation itself; it is not the anastomosis linking it to the carotid system."
+      },
+      "main_concept": "CON-NEU-97589D82B069C5",
+      "concept_ids": ["CON-NEU-97589D82B069C5"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022S-THE-POSTERIOR-COMMUNICATING-ARTERY-CONNECTS"],
+      "topic": "Anatomy",
+      "subtopic": "Cerebral vasculature",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the posterior communicating artery connects the internal carotid artery with the posterior cerebral artery.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Cerebral vasculature",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 14",
+        "asu": "EOM - paper 2 cns 2022 summer.pdf, item 14"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "p22022s-sumatriptan",
+      "id": "QST-ASUCNS3P22022S-SUMATRIPTAN",
+      "page": "item 26/38",
+      "title": "Which drug is used for the acute (abortive) treatment of a moderate-to-severe migraine attack?",
+      "question": "A patient with a moderate-to-severe migraine attack already in progress needs acute treatment to abort the headache. Which drug is appropriate for this purpose?",
+      "options": {
+        "A": "Sumatriptan",
+        "B": "Propranolol",
+        "C": "Amitriptyline",
+        "D": "Topiramate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Sumatriptan is a selective serotonin 5-HT1B/1D receptor agonist, a 'triptan'. It is used for the acute (abortive) treatment of moderate-to-severe migraine attacks once a headache has already started. It works by causing cranial vasoconstriction and inhibiting the release of vasoactive neuropeptides from trigeminal nerve terminals.",
+        "B": "Incorrect. Propranolol is a prophylactic migraine agent, taken regularly to reduce the frequency of future attacks, not to treat one already under way.",
+        "C": "Incorrect. Amitriptyline is likewise used for migraine prophylaxis, not for aborting a current attack.",
+        "D": "Incorrect. Topiramate is a prophylactic antiepileptic used to prevent migraine attacks, not an acute abortive treatment."
+      },
+      "main_concept": "CON-NEU-E14D1EC9595DCB",
+      "concept_ids": ["CON-NEU-E14D1EC9595DCB"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022S-SUMATRIPTAN-IS-USED-FOR-ACUTE-ABORTIVE"],
+      "topic": "Pharmacology",
+      "subtopic": "Headache pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that sumatriptan is used for the acute, abortive treatment of a moderate-to-severe migraine attack, distinct from prophylactic migraine therapy.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Headache pharmacology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 26",
+        "asu": "EOM - paper 2 cns 2022 summer.pdf, item 26"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "p22022s-interferon-beta1",
+      "id": "QST-ASUCNS3P22022S-INTERFERON-BETA1",
+      "page": "item 32/38",
+      "title": "Which drug is first-line disease-modifying therapy for relapsing-remitting multiple sclerosis?",
+      "question": "A patient newly diagnosed with relapsing-remitting multiple sclerosis is starting disease-modifying therapy for the first time. Which of the following is a first-line agent for this purpose?",
+      "options": {
+        "A": "Interferon beta-1",
+        "B": "Natalizumab",
+        "C": "High-dose intravenous methylprednisolone",
+        "D": "Riluzole"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Interferon beta-1 is given by injection. It is a first-line disease-modifying therapy for relapsing-remitting multiple sclerosis, reducing the frequency of relapses and slowing the accumulation of new demyelinating lesions. This benefit is achieved through its immunomodulatory effects on the underlying autoimmune process.",
+        "B": "Incorrect. Natalizumab, a monoclonal antibody, is reserved for patients whose disease remains active despite first-line therapy, or for more aggressive disease, reflecting its greater efficacy but also its greater risk, including progressive multifocal leukoencephalopathy.",
+        "C": "Incorrect. High-dose intravenous methylprednisolone treats acute relapses of multiple sclerosis; it is not a disease-modifying therapy used to prevent future relapses.",
+        "D": "Incorrect. Riluzole is used in amyotrophic lateral sclerosis, an unrelated motor neuron disease, not multiple sclerosis."
+      },
+      "main_concept": "CON-NEU-AF5BFB3DC9C9D5",
+      "concept_ids": ["CON-NEU-AF5BFB3DC9C9D5"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022S-INTERFERON-BETA-1-IS-A-FIRST-LINE"],
+      "topic": "Pharmacology",
+      "subtopic": "Demyelinating disease pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that interferon beta-1 is a first-line disease-modifying therapy for multiple sclerosis, distinct from second-line agents such as natalizumab.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Demyelinating disease pharmacology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 32",
+        "asu": "EOM - paper 2 cns 2022 summer.pdf, item 32"
+      },
+      "author_notes": ""
+    },
+    { "key": "p22022s-q01", "hold": "insufficient printed key — item 1 (\"multiple sclerosis =case\") gives no recoverable clinical vignette detail beyond the diagnosis, held for Omar/source verification" },
+    { "key": "p22022s-q02", "hold": "ENT/head-neck anatomy, out of this lane's CNS subject scope — item 2 (\"fourth and sixth = Cartilages of larynx\")" },
+    { "key": "p22022s-q03", "hold": "duplicate-adjacent to this lane's own existing concept (choroid plexus formed by vascular pia invaginating the ependymal lining) — item 3 (\"choroid plexus =formation of CSF\"), within-batch duplicate of this same author's cluster 9 item 22" },
+    { "key": "p22022s-q04", "hold": "duplicate of this lane's own existing concept (the lateral geniculate body receives input from the optic tract) — item 4 (\"optic tract =lateral geniculate\")" },
+    { "key": "p22022s-q05", "hold": "duplicate of this lane's own existing concept (phenytoin causes gingival hyperplasia) — item 5 (\"phenytoin =gingival\")" },
+    { "key": "p22022s-q08", "hold": "duplicate-adjacent to this lane's own existing zolpidem concept (GABA-A agonist hypnotic) — item 8 (\"zolpidem =with flumazenil\") tests flumazenil's efficacy against zolpidem toxicity, the same drug from a different angle" },
+    { "key": "p22022s-q09", "hold": "duplicate of this lane's own existing concept (disulfiram inhibits aldehyde dehydrogenase) — item 9 (\"disulfiram =Nausea Vomiting in alcoholic\"), matches precedent paper2-2018-q66 hold" },
+    { "key": "p22022s-q10", "hold": "duplicate of a pending Alexandria concept (AU-MED-105-histology-concepts.md, CON-NEU-0E451085185E2E: Schwann cell myelinates PNS axons, contrast with oligodendrocyte) — item 10 (\"Schwann cells =periphral neuroglia\")" },
+    { "key": "p22022s-q12", "hold": "duplicate-adjacent to this lane's own existing limbic reward-system concept (limbic lobe mediates reward/punishment) — item 12 (\"dopamine =in pleasure center\") adds the neurotransmitter identity to the same reward-pathway topic" },
+    { "key": "p22022s-q13", "hold": "duplicate of this lane's own existing concept (forceps major is a commissural fibre of the corpus callosum) — item 13 (\"forceps major =commisural\")" },
+    { "key": "p22022s-q15", "hold": "duplicate of this lane's own existing concept (anterior cerebral artery central branches supply the genu of the internal capsule) — item 15 (\"anterior cerebral artery =genu blood supply\")" },
+    { "key": "p22022s-q16", "hold": "duplicate of this lane's own existing concept (corticospinal fibres for the face run at the genu of the internal capsule), within-batch duplicate of this same author's cluster 9 item 13 — item 16 (\"genu =corticonuclear\")" },
+    { "key": "p22022s-q17", "hold": "duplicate-adjacent to this lane's own existing ketamine concept (preferred in hypotension/haemodynamic instability) — item 17 (\"ketamine =with asthma and low BP\") adds the bronchospasm indication to the same drug" },
+    { "key": "p22022s-q18", "hold": "too generic/duplicate-adjacent to this lane's own existing third-ventricle-wall concepts — item 18 (\"diencephalon =with 3rd ventricle\") does not add a distinguishing fact beyond what is already covered" },
+    { "key": "p22022s-q19", "hold": "duplicate of this lane's own existing concept (temperature regulation is a hypothalamic, not limbic, function) — item 19 (\"temperature homeostasis =hypothalamus\")" },
+    { "key": "p22022s-q20", "hold": "duplicate of this lane's own existing concept (consolidation of memory is a limbic function), within-batch duplicate of this same author's cluster 9 item 8 — item 20 (\"consolidation =limbic\")" },
+    { "key": "p22022s-q21", "hold": "duplicate of this lane's own existing concept (the Papez circuit's fornix segment already names hippocampus-to-mammillary-body connection, ASU-CNS-3-paper2-2018/finalpaper2-2024-concepts.md) — item 21 (\"hippocampus and mamillary bodies =fornix\")" },
+    { "key": "p22022s-q22", "hold": "within-batch cross-paper duplicate of this same author's cluster 9 item 12 (decorticate posturing, authored there) — item 22 (\"upper flexed and lower extended = decorticate\")" },
+    { "key": "p22022s-q23", "hold": "ambiguous/clinically atypical printed item — item 23 (\"neonates = case of GBS\") gives no recoverable stem detail, held for Omar/source verification" },
+    { "key": "p22022s-q24", "hold": "ambiguous/possibly inaccurate printed key — item 24 (\"2 doses rabies vacc = less than <5 years\") does not match standard age-independent rabies PEP dosing as far as this lane can verify; held for Omar/source verification rather than authored as printed" },
+    { "key": "p22022s-q25", "hold": "within-batch cross-paper duplicate of this same author's cluster 9 item 7 (berry aneurysm/circle of Willis, authored there from this cleaner item) — item 25 (\"berryanurysm =subarachnoid hemorrhage\")" },
+    { "key": "p22022s-q27", "hold": "parasitology, out of this lane's neuro subject scope — item 27 (\"flagellated = negliria\")" },
+    { "key": "p22022s-q28", "hold": "microbiology/virology, out of this lane's neuro subject scope — item 28 (\"RNA non enveloped icosahedral =coxsackie\")" },
+    { "key": "p22022s-q29", "hold": "biochemistry/genetics, out of this lane's neuro subject scope, matches this same author's cluster 9's paper2-2019-q01 cancelled-item topic — item 29 (\"glucocerbrosidase =gaucher\")" },
+    { "key": "p22022s-q30", "hold": "duplicate of this lane's own existing concept (HSV encephalitis causes haemorrhagic necrosis of the temporal lobe) — item 30 (\"temporal and frontal =herpes\") restates the same fact with an added lobe" },
+    { "key": "p22022s-q31", "hold": "duplicate-adjacent to this lane's own existing Wernicke's area concept (comprehension) — item 31 (\"language comprehension =paritooccipitotemporal lesion\")" },
+    { "key": "p22022s-q33", "hold": "parasitology, out of this lane's neuro subject scope, matches this same author's cluster 9's item 9 (Taenia) topic — item 33 (\"autoinfection =related to cysticercosis\")" },
+    { "key": "p22022s-q34", "hold": "duplicate of this lane's own existing mirtazapine concept — item 34 (\"mitrazapine = low sexual effect\") adds a detail to the same drug record" },
+    { "key": "p22022s-q35", "hold": "community medicine/screening, out of this lane's neuro subject scope and too vague — item 35 (\"lipid profile for early detection =second line (community)\")" },
+    { "key": "p22022s-q36", "hold": "duplicate-adjacent to this lane's own existing tetanus toxin mechanism concept — item 36 (\"specific antitoxin =for tetani\") adds a treatment fact to the same disease record" },
+    { "key": "p22022s-q37", "hold": "ambiguous printed key — item 37 (\"sensory is for vocalization and writing =false about speech\") does not state a clear, single testable distinction beyond this lane's existing Broca's/Wernicke's coverage, held for Omar/source verification" },
+    { "key": "p22022s-q38", "hold": "duplicate of this lane's own existing concept (necrosis and microvascular proliferation are histologic hallmarks of glioblastoma) — item 38 (\"necrosis and palisading =glioblastoma\")" }
+  ]
+}

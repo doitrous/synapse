@@ -1,0 +1,222 @@
+{
+  "lane": "ASU-CNS-3",
+  "cluster": "paper2-2022",
+  "header": "ASU-CNS-3 · \"EOM - paper 2 cns 2020.pdf\" (cluster 9/author9) — the file's printed heading reads \"CNS PAPER 2 2022, GroupA&B\", not 2020; treated as the true CNS Paper 2 2022 regular sitting per the printed-date-wins rule (distinct from the summer resit paper, cluster 9b). 25-item embedded-answer compilation. 5 new mints survive after checking every item against all 244 existing ASU-CNS-3 concept labels plus a cross-lane find-existing.mjs pass; 20 held (microbiology/parasitology/community-medicine out of scope, cross-paper and within-file duplicates, and duplicates of pending Alexandria/Kasr concepts). Keys read as printed/stated; distractors authored by this lane.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["asu"],
+    "years": ["ASU_Y3"],
+    "module": "ASU-CNS-3",
+    "exam_weight_by_year": { "ASU_Y3": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_aee0072b74f53c0a870b"],
+    "source_citation": "Ain Shams Year 3 CNS EOM Paper 2 2022 (\"EOM - paper 2 cns 2020.pdf\", printed \"CNS PAPER 2 2022\"), {page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "p22022-berry-aneurysm",
+      "id": "QST-ASUCNS3P22022-BERRY-ANEURYSM",
+      "page": "item 7/25",
+      "title": "Which vessel abnormality is the classic cause of subarachnoid haemorrhage?",
+      "question": "A young man collapses with a sudden, severe ('thunderclap') headache after physical exertion, and lumbar puncture shows blood in the cerebrospinal fluid. Rupture of which vessel abnormality at the circle of Willis classically causes this presentation?",
+      "options": {
+        "A": "A congenital berry (saccular) aneurysm",
+        "B": "A Charcot-Bouchard microaneurysm",
+        "C": "An arteriovenous malformation of the middle cerebral artery",
+        "D": "Atherosclerotic stenosis of the basilar artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Congenital berry (saccular) aneurysms form at branch points of the circle of Willis — commonly the anterior communicating artery, the origin of the posterior communicating artery, or the middle cerebral artery bifurcation — where the vessel wall's muscular and elastic layers are congenitally deficient. Their rupture is the leading cause of spontaneous subarachnoid haemorrhage, classically presenting as a sudden, severe ('thunderclap') headache, sometimes precipitated by exertion, with blood found in the CSF on lumbar puncture.",
+        "B": "Incorrect. Charcot-Bouchard microaneurysms form on small penetrating vessels deep within the brain parenchyma as a consequence of chronic hypertension, and their rupture causes intracerebral, not subarachnoid, haemorrhage.",
+        "C": "Incorrect. An arteriovenous malformation can also bleed into the subarachnoid space, but it is a distinct developmental vascular lesion, not the classic cause tested here, and is far less common than aneurysmal rupture as a cause of spontaneous subarachnoid haemorrhage.",
+        "D": "Incorrect. Atherosclerotic stenosis narrows a vessel and predisposes to ischaemic stroke, not to the sudden rupture and haemorrhage described."
+      },
+      "main_concept": "CON-NEU-A5EE0C82D04EFB",
+      "concept_ids": ["CON-NEU-A5EE0C82D04EFB"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022-RUPTURE-OF-A-CONGENITAL-BERRY-SACCULAR-ANEURYSM"],
+      "topic": "Anatomy",
+      "subtopic": "Cerebral vasculature",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that rupture of a berry aneurysm at the circle of Willis is the classic cause of subarachnoid haemorrhage.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Cerebral vasculature",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 25 (\"berryanurysm =subarachnoid hemorrhage\") plus item 7's vignette",
+        "asu": "EOM - paper 2 cns 2020.pdf (printed CNS PAPER 2 2022), items 7 and 25"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "p22022-decorticate-posturing",
+      "id": "QST-ASUCNS3P22022-DECORTICATE-POSTURING",
+      "page": "item 12/25",
+      "title": "Which posturing pattern localises a lesion above the level of the red nucleus?",
+      "question": "A comatose patient shows bilateral flexion of the upper limbs at the elbow and wrist, with extension of both lower limbs, in response to a painful stimulus. This posturing localises the lesion to which level of the neuraxis?",
+      "options": {
+        "A": "At or above the level of the red nucleus",
+        "B": "At the level of the pons, below the red nucleus",
+        "C": "At the level of the lower medulla",
+        "D": "At the level of the lumbar spinal cord"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This is decorticate posturing — bilateral upper-limb flexion with lower-limb extension — which results from a severe lesion at or above the level of the red nucleus (cerebral hemispheres, internal capsule or upper midbrain) that interrupts the corticospinal and corticorubral pathways while sparing the rubrospinal tract, which continues to drive upper-limb flexor tone. It therefore localises the lesion to this rostral level, above where the rubrospinal tract itself is interrupted.",
+        "B": "Incorrect. A lower, pontine-level lesion that also interrupts the rubrospinal tract produces decerebrate posturing instead — extension of all four limbs, not upper-limb flexion.",
+        "C": "Incorrect. A lower medullary lesion is generally incompatible with this reflex posturing pattern and points toward flaccidity or different brainstem signs, not decorticate posturing.",
+        "D": "Incorrect. A lumbar spinal cord lesion would not produce this pattern of upper-limb flexion with lower-limb extension, which requires a supraspinal lesion."
+      },
+      "main_concept": "CON-NEU-D194F6586756F2",
+      "concept_ids": ["CON-NEU-D194F6586756F2"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022-DECORTICATE-POSTURING-BILATERAL-UPPER-LIMB-FLEXION"],
+      "topic": "Physiology",
+      "subtopic": "Descending motor pathways and posturing",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that decorticate posturing (upper-limb flexion, lower-limb extension) localises a lesion above the red nucleus, in contrast to decerebrate posturing.",
+      "module_subject": "ASU-CNS-3 > Physiology > Descending motor pathways and posturing",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 12 (also a cross-paper duplicate of this same author's cluster 9b item 22, EOM - paper 2 cns 2022 summer.pdf)",
+        "asu": "EOM - paper 2 cns 2020.pdf (printed CNS PAPER 2 2022), item 12"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "p22022-pilocytic-astrocytoma",
+      "id": "QST-ASUCNS3P22022-PILOCYTIC-ASTROCYTOMA",
+      "page": "item 16/25",
+      "title": "Which childhood cerebellar tumour is characterised by Rosenthal fibres?",
+      "question": "A 7-year-old child presents with ataxia and signs of raised intracranial pressure. Imaging shows a well-circumscribed cerebellar mass, and biopsy shows compact, elongated bipolar cells with corkscrew-shaped eosinophilic structures. Which tumour is this?",
+      "options": {
+        "A": "Pilocytic astrocytoma",
+        "B": "Medulloblastoma",
+        "C": "Glioblastoma",
+        "D": "Oligodendroglioma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Pilocytic astrocytoma (WHO grade 1) is the most common paediatric brain tumour and characteristically arises in the cerebellum. It shows a biphasic pattern of compact, elongated ('hair-like', pilocytic) bipolar cells alternating with looser microcystic areas, and its histological hallmark is the Rosenthal fibre — an eosinophilic, corkscrew-shaped, degenerating astrocytic process — matching the biopsy described.",
+        "B": "Incorrect. Medulloblastoma is also a childhood posterior-fossa tumour, but it is composed of sheets of primitive small round blue cells, not pilocytic bipolar cells with Rosenthal fibres.",
+        "C": "Incorrect. Glioblastoma (WHO grade 4) shows necrosis and microvascular proliferation, and is rare in children and rarely well-circumscribed, unlike the tumour described.",
+        "D": "Incorrect. Oligodendroglioma shows a characteristic clear perinuclear halo ('fried-egg' appearance) on histology, not Rosenthal fibres, and is not a classic childhood cerebellar tumour."
+      },
+      "main_concept": "CON-NEU-C7501EB720A09C",
+      "concept_ids": ["CON-NEU-C7501EB720A09C"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022-PILOCYTIC-ASTROCYTOMA-IS-A-BENIGN-CHILDHOOD"],
+      "topic": "Pathology",
+      "subtopic": "CNS neoplasia",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that pilocytic astrocytoma is a childhood cerebellar tumour whose histological hallmark is the Rosenthal fibre.",
+      "module_subject": "ASU-CNS-3 > Pathology > CNS neoplasia",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 16",
+        "asu": "EOM - paper 2 cns 2020.pdf (printed CNS PAPER 2 2022), item 16"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "p22022-stria-terminalis",
+      "id": "QST-ASUCNS3P22022-STRIA-TERMINALIS",
+      "page": "item 19/25",
+      "title": "Which fibre bundle carries the amygdala's principal efferent output to the hypothalamus?",
+      "question": "Which white-matter tract follows the curve of the lateral ventricle to connect the amygdala with the hypothalamus, carrying the amygdala's principal efferent output?",
+      "options": {
+        "A": "The stria terminalis",
+        "B": "The fornix",
+        "C": "The cingulum",
+        "D": "The mammillothalamic tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The stria terminalis is a thin, C-shaped fibre bundle that follows the curve of the lateral ventricle from the amygdala forward to the hypothalamus (chiefly its anterior and ventromedial nuclei) and the septal area, carrying the amygdala's principal efferent output. It mediates the autonomic and neuroendocrine components of emotion and fear responses generated in the amygdala. This makes it the amygdala's own major projection pathway, distinct from the Papez circuit's hippocampus-based loop.",
+        "B": "Incorrect. The fornix is the Papez circuit's pathway from the hippocampus to the mammillary bodies, a separate limbic tract arising from the hippocampus, not the amygdala.",
+        "C": "Incorrect. The cingulum runs within the cingulate gyrus, completing the Papez circuit by returning fibres to the hippocampal formation; it does not connect the amygdala to the hypothalamus.",
+        "D": "Incorrect. The mammillothalamic tract connects the mammillary bodies to the anterior thalamic nucleus, another Papez-circuit link unrelated to the amygdala's own efferent pathway."
+      },
+      "main_concept": "CON-NEU-110FA281F7FBFF",
+      "concept_ids": ["CON-NEU-110FA281F7FBFF"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022-THE-STRIA-TERMINALIS-CONNECTS-THE-AMYGDALA"],
+      "topic": "Anatomy",
+      "subtopic": "Limbic system and emotion",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the stria terminalis connects the amygdala with the hypothalamus, as the amygdala's principal efferent pathway.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Limbic system and emotion",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 19",
+        "asu": "EOM - paper 2 cns 2020.pdf (printed CNS PAPER 2 2022), item 19"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "p22022-alzheimer-pathology",
+      "id": "QST-ASUCNS3P22022-ALZHEIMER-PATHOLOGY",
+      "page": "item 25/25",
+      "title": "Which two histological hallmarks characterise Alzheimer disease?",
+      "question": "Post-mortem examination of a patient who died with progressive dementia shows extracellular deposits with a beta-amyloid core and intracellular paired helical filaments of hyperphosphorylated tau protein. Which disease do these two findings together characterise?",
+      "options": {
+        "A": "Alzheimer disease",
+        "B": "Huntington disease",
+        "C": "Parkinson disease",
+        "D": "Creutzfeldt-Jakob disease"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Alzheimer disease, the most common cause of dementia, is characterised histologically by two hallmark lesions: extracellular neuritic (senile) plaques with a beta-amyloid core, and intracellular neurofibrillary tangles composed of paired helical filaments of hyperphosphorylated tau protein. These accumulate progressively in the hippocampus, entorhinal cortex and neocortex, driving the cortical atrophy and memory loss described.",
+        "B": "Incorrect. Huntington disease is characterised by atrophy and gliosis of the caudate nucleus from a CAG repeat expansion in the huntingtin gene, not amyloid plaques or tau tangles.",
+        "C": "Incorrect. Parkinson disease is characterised by intracytoplasmic Lewy bodies (alpha-synuclein) and substantia nigra dopaminergic neuron loss, not beta-amyloid plaques or tau tangles.",
+        "D": "Incorrect. Creutzfeldt-Jakob disease is a prion disease showing spongiform change on histology, not neuritic plaques or neurofibrillary tangles."
+      },
+      "main_concept": "CON-NEU-42573F6105926A",
+      "concept_ids": ["CON-NEU-42573F6105926A"],
+      "library_ids": ["ART-NEU-ASUCNS3P22022-ALZHEIMER-DISEASE-IS-CHARACTERISED-HISTOLOGICALLY"],
+      "topic": "Pathology",
+      "subtopic": "Neurodegenerative disease pathology",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that neuritic plaques (beta-amyloid) and neurofibrillary tangles (hyperphosphorylated tau) are the histological hallmarks of Alzheimer disease.",
+      "module_subject": "ASU-CNS-3 > Pathology > Neurodegenerative disease pathology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 25",
+        "asu": "EOM - paper 2 cns 2020.pdf (printed CNS PAPER 2 2022), item 25"
+      },
+      "author_notes": ""
+    },
+    { "key": "p22022-q01", "hold": "microbiology, out of this lane's neuro subject scope — item 1 (\"inhalation of bird execreta india ink / Cryptococcus neoformans mode of transmission\")" },
+    { "key": "p22022-q02", "hold": "parasitology, out of this lane's neuro subject scope — item 2 (\"ameboid trophozoite naegleria fowleri swimming... encephalitis\")" },
+    { "key": "p22022-q03", "hold": "duplicate of this lane's own existing concept (Herpes simplex virus encephalitis causes haemorrhagic necrosis of the temporal lobe) — item 3 (\"reactivation axonal transport temporal lobe HSV\")" },
+    { "key": "p22022-q04", "hold": "duplicate of this lane's own existing concept (the anterior hypothalamus is the heat-loss centre, not for generating fever) — item 4 (\"Ant hypothalamus / Fever after accident\")" },
+    { "key": "p22022-q05", "hold": "empiric antibiotic selection, out of this lane's neuro subject scope — item 5 (\"Vancomycin / Strept pneumonia modifying drug\")" },
+    { "key": "p22022-q06", "hold": "geriatrics/community medicine, out of this lane's neuro subject scope — item 6 (\"abuse neglect violence / Social risk factor in elderly\")" },
+    { "key": "p22022-q08", "hold": "duplicate of this lane's own existing concept (consolidation of memory is a function of the limbic system) — item 8 (\"consolidated memory / Limbic lobe function\")" },
+    { "key": "p22022-q09", "hold": "parasitology, out of this lane's neuro subject scope — item 9 (\"Tania eggs ingestin / 2 ca2+ cysts\")" },
+    { "key": "p22022-q10", "hold": "near-duplicate of this lane's own existing concept (the categorical/dominant hemisphere specialises in language and analytic operations) — item 10 (\"detailed processing / Left hemisphere\")" },
+    { "key": "p22022-q11", "hold": "duplicate of this lane's own existing concept (Flumazenil is the specific antidote for midazolam overdose) — item 11 (\"flumazenile / Antidote for midazolam\")" },
+    { "key": "p22022-q13", "hold": "duplicate of this lane's own existing concept (corticospinal fibres for the face run at the genu of the internal capsule) — item 13 (\"Genu / Corticonuclear fibers\")" },
+    { "key": "p22022-q14", "hold": "microbiology, out of this lane's neuro subject scope — item 14 (\"H.influenza / Polyribitol phosphate\")" },
+    { "key": "p22022-q15", "hold": "duplicate of this lane's own existing concept (multiple sclerosis presents with relapsing attacks of paraesthesia) — item 15 (\"Multiple sclerosis / Attacks of paraesthsia relapsing and remitant female\")" },
+    { "key": "p22022-q17", "hold": "duplicate of this lane's own existing concept (riluzole's mechanism in ALS) — item 17 (\"riluzole / ALS patient\")" },
+    { "key": "p22022-q18", "hold": "duplicate/near-duplicate of this lane's own cluster 6 pending overlay onto CON-FND-AE3618871E840B (rivastigmine, anticholinesterase for Alzheimer's) — item 18 (\"diarrhea / Rivastigmine adverse effect\") tests the same drug from an adverse-effect angle, held rather than fragmenting" },
+    { "key": "p22022-q20", "hold": "duplicate-adjacent to this lane's own existing concept naming propranolol as the amitriptyline-comparator migraine prophylactic agent (precedent: paper2-2018-q39 hold) — item 20 (\"propranolol chronic migraine prophylaxis\")" },
+    { "key": "p22022-q21", "hold": "ambiguous printed key — item 21 (\"inner granular / Outer billarger in which layer\") does not clearly state which cortical layer/lamina is intended without more context, held for Omar/source verification rather than guessed at" },
+    { "key": "p22022-q22", "hold": "duplicate-adjacent to this lane's own existing concept (choroid plexus formed by vascular pia invaginating the ependymal lining) — item 22 (\"vascularized pia ependyma / Choroid plexsus\") tests the same structure's CSF-forming function, held rather than fragmenting" },
+    { "key": "p22022-q23", "hold": "microbiology, out of this lane's neuro subject scope (precedent: paper2-2019-q07 hold) — item 23 (\"live attenuated / Sabin vaccine\")" },
+    { "key": "p22022-q24", "hold": "duplicate of this lane's own existing concept (semantic memory is the long-term system for general facts and knowledge) — item 24 (\"Semantic memory / Basic knowledge\")" }
+  ]
+}

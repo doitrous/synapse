@@ -1,0 +1,122 @@
+{
+  "lane": "ASU-CNS-3",
+  "cluster": "1stass-2018",
+  "header": "ASU-CNS-3 · \"cns 1st ass 2018.pdf\" (cluster 9c/author9) — 30-item mixed compilation, sparser than other clusters (many items are bare topic headings with no surviving clue, several carry the student's own Arabic uncertainty notes). 2 new mints survive after checking every item against all 244 existing ASU-CNS-3 concept labels plus this cluster's own new mints plus a cross-lane find-existing.mjs pass; 28 held (cross-paper duplicates, biochemistry out of scope, no surviving clue/description, and internally ambiguous or self-contradictory printed items). Keys read as printed/stated; distractors authored by this lane.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["asu"],
+    "years": ["ASU_Y3"],
+    "module": "ASU-CNS-3",
+    "exam_weight_by_year": { "ASU_Y3": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_d43ecb2d0ae8ffc3e274"],
+    "source_citation": "Ain Shams Year 3 CNS First Assessment 2018 (\"cns 1st ass 2018.pdf\"), {page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "1stass2018-tuber-cinereum",
+      "id": "QST-ASUCNS31STASS2018-TUBER-CINEREUM",
+      "page": "item 4/30",
+      "title": "Which structure is NOT part of the basal ganglia?",
+      "question": "Which of the following deep grey-matter structures is NOT one of the basal ganglia?",
+      "options": {
+        "A": "Tuber cinereum",
+        "B": "Caudate nucleus",
+        "C": "Putamen",
+        "D": "Globus pallidus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The tuber cinereum is part of the hypothalamus, the median-eminence region of the floor of the third ventricle, from which the infundibulum (pituitary stalk) descends. It is functionally and anatomically distinct from the basal ganglia, despite its similarly deep location. Naming it among the basal ganglia is a classic distractor that exploits this superficial similarity in position.",
+        "B": "Incorrect. The caudate nucleus, together with the putamen, forms the neostriatum, one of the basal ganglia.",
+        "C": "Incorrect. The putamen is part of the neostriatum and is one of the basal ganglia.",
+        "D": "Incorrect. The globus pallidus (paleostriatum) is one of the basal ganglia."
+      },
+      "main_concept": "CON-NEU-D9221DED57BA4E",
+      "concept_ids": ["CON-NEU-D9221DED57BA4E"],
+      "library_ids": ["ART-NEU-ASUCNS31STASS2018-THE-TUBER-CINEREUM-IS-A-HYPOTHALAMIC"],
+      "topic": "Anatomy",
+      "subtopic": "Basal ganglia",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the tuber cinereum is a hypothalamic structure and is not one of the basal ganglia.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Basal ganglia",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 4 (student's own Arabic note asks which is NOT part of basal ganglia)",
+        "asu": "cns 1st ass 2018.pdf, item 4"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "1stass2018-brain-tumour-headache",
+      "id": "QST-ASUCNS31STASS2018-BRAIN-TUMOUR-HEADACHE",
+      "page": "item 29/30",
+      "title": "Through which mechanism does a brain tumour classically cause headache?",
+      "question": "A patient with a newly diagnosed brain tumour reports headache that is worse on waking and aggravated by coughing or straining. Through which mechanism does the tumour classically produce this headache?",
+      "options": {
+        "A": "Raised intracranial pressure and traction on pain-sensitive intracranial structures",
+        "B": "Direct pain sensation from the brain parenchyma itself",
+        "C": "Referred pain from pain-sensitive extracranial structures such as the scalp and sinuses",
+        "D": "Contraction of the scalp muscles"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A brain tumour classically causes headache through intracranial mechanisms — mass effect raising intracranial pressure, obstruction of cerebrospinal fluid flow (hydrocephalus), and traction or distortion of pain-sensitive intracranial structures such as the dura mater, large blood vessels and venous sinuses. This is why the headache is classically worse in the morning or on waking, and aggravated by coughing, straining or bending, reflecting further transient rises in intracranial pressure.",
+        "B": "Incorrect. Brain parenchyma itself is insensitive to pain; the headache arises from traction on the surrounding pain-sensitive dura and vessels, not from the tumour tissue itself.",
+        "C": "Incorrect. Referred pain from extracranial structures is the mechanism of extracranial headache (e.g. from otitis media or sinus disease), the mechanistic counterpart to, not the cause of, this intracranial tumour's headache.",
+        "D": "Incorrect. Scalp muscle contraction is implicated in tension-type headache, an extracranial mechanism unrelated to the intracranial mass effect of a brain tumour."
+      },
+      "main_concept": "CON-NEU-747B1672BEE9DF",
+      "concept_ids": ["CON-NEU-747B1672BEE9DF"],
+      "library_ids": ["ART-NEU-ASUCNS31STASS2018-A-BRAIN-TUMOUR-CAUSES-HEADACHE"],
+      "topic": "Physiology",
+      "subtopic": "Headache mechanisms",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that a brain tumour causes headache through intracranial mechanisms, as opposed to an extracranial cause.",
+      "module_subject": "ASU-CNS-3 > Physiology > Headache mechanisms",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 29",
+        "asu": "cns 1st ass 2018.pdf, item 29"
+      },
+      "author_notes": ""
+    },
+    { "key": "1stass2018-q01", "hold": "biochemistry, out of this lane's neuro subject scope, matches this cluster's own firstassessment-2023 bio1 topic — item 1 (\"Lactate / During sustained exercise the brain uses ... as a source of energy\")" },
+    { "key": "1stass2018-q02", "hold": "insufficient printed key — item 2 (\"Vertebral artery\") has no surviving clue/description, held for Omar/source verification" },
+    { "key": "1stass2018-q03", "hold": "duplicate of this lane's own existing concept (kinesthetic sensation ascends via gracile/cuneate fasciculi as internal arcuate fibres) — item 3 (\"Gracile& cuneate / Internal arcuate fibers are formed by\")" },
+    { "key": "1stass2018-q05", "hold": "biochemistry, out of this lane's neuro subject scope — item 5 (\"Hydroxlation of tyrosine\"), garbled matching pair with item 6" },
+    { "key": "1stass2018-q06", "hold": "biochemistry, out of this lane's neuro subject scope — item 6 (\"Phenylalanine hydroxylase\")" },
+    { "key": "1stass2018-q07", "hold": "duplicate of this lane's own existing concept (nuclear bag intrafusal fibres are thick, short and few; chain fibres thin, long and more numerous) — item 7 (\"Nuclear bag increase in size & less numerous\")" },
+    { "key": "1stass2018-q08", "hold": "insufficient printed key — item 8 (\"Spinocerebellum\") is a bare heading with no surviving clue, held for Omar/source verification" },
+    { "key": "1stass2018-q09", "hold": "duplicate of this lane's own existing concept (Broca's area occupies the inferior frontal gyrus) — item 9 (\"Inferior frontal gyrus / Broca's area\")" },
+    { "key": "1stass2018-q10", "hold": "insufficient printed key — item 10 (\"Frontal lobe\") is a bare heading with no surviving clue, held for Omar/source verification" },
+    { "key": "1stass2018-q11", "hold": "internally ambiguous/self-contradictory printed item, flagged by the student's own Arabic uncertainty note (two candidate answers both marked correct) — item 11 (neonates <1yr, Babinski/cerebellum lesion), held for Omar/source verification" },
+    { "key": "1stass2018-q12", "hold": "explanatory prose rather than a single-answer stem — item 12's long Arabic passage explains Ia afferent/gamma stretch-reflex physiology without a clean, separately testable fact beyond this lane's existing stretch-reflex and ankle-clonus concepts" },
+    { "key": "1stass2018-q13", "hold": "duplicate-adjacent to this lane's own existing concept (the muscle spindle, not the Golgi tendon organ, regulates muscle tone) — item 13 (\"Detect tension in muscle / GTO\") is the complementary GTO-function fact" },
+    { "key": "1stass2018-q14", "hold": "duplicate of this lane's own existing concept (Naloxone reverses fentanyl/opioid intoxication) — item 14 (\"Naloxone / Fentanyl toxicity ttt\")" },
+    { "key": "1stass2018-q15", "hold": "duplicate of this lane's own existing concept (the cuneocerebellar tract carries unconscious proprioception from the upper limb) — item 15 (\"Cuneo-cerebellar tract / upper limb unconscious proprioception\")" },
+    { "key": "1stass2018-q16", "hold": "duplicate of this lane's own existing concept (emissary veins are valveless connections between dural sinuses and scalp veins) — item 16 (\"Emissary veins\")" },
+    { "key": "1stass2018-q17", "hold": "insufficient printed key — item 17 (\"Superficial temporal\") has no surviving clue; likely relates to this lane's own existing retromandibular-vein-formation pending concept but not confirmable without more context, held for Omar/source verification" },
+    { "key": "1stass2018-q18", "hold": "biochemistry, out of this lane's neuro subject scope, matches precedent paper1-2019summer-q22 hold — item 18 (\"Homocysteine to methionine\")" },
+    { "key": "1stass2018-q19", "hold": "duplicate-adjacent to this lane's own existing crude-sensation/thalamus concept — item 19's lesion vignette (somatosensory-area lesion spares crude touch/pain-temp perception, affects only localisation) restates the same principle from a clinical angle" },
+    { "key": "1stass2018-q20", "hold": "insufficient printed key — item 20 (\"Receptor respond to specific stimulus\") is too generic (law of specific nerve energies) with no distinguishing detail, held for Omar/source verification" },
+    { "key": "1stass2018-q21", "hold": "insufficient printed key — item 21 (\"Substance p\") has no surviving clue/description, held for Omar/source verification" },
+    { "key": "1stass2018-q22", "hold": "duplicate of this lane's own existing concept (upper motor neuron lesion hypertonia from unopposed pontine facilitatory drive) — item 22 (\"Pontine / Facilitation of gamma fibers\")" },
+    { "key": "1stass2018-q23", "hold": "insufficient printed key — item 23 (\"Bromocriptine\") has no surviving answer/clue, held for Omar/source verification rather than guessed at" },
+    { "key": "1stass2018-q24", "hold": "duplicate-adjacent to this lane's own existing crude-touch/spinothalamic and C-fibre concepts — item 24 (\"Temperature / Lateral spinothalamic tract\")" },
+    { "key": "1stass2018-q25", "hold": "duplicate-adjacent to this lane's own existing putamen-circuit concept, which already names the caudate circuit's cognitive/associative role in contrast — item 25 (\"Cognitive movement / Caudate circuit function\")" },
+    { "key": "1stass2018-q26", "hold": "biochemistry (urea cycle), out of this lane's neuro subject scope, matches precedent paper1-2019-q13 hold — item 26 (\"Ammonia & aspartate\")" },
+    { "key": "1stass2018-q27", "hold": "duplicate of this lane's own existing concept (conus medullaris ends at L1/L2, dural sac to S2) — item 27 (\"S2\")" },
+    { "key": "1stass2018-q28", "hold": "duplicate of this lane's own existing concept (sympathetic outflow extends caudally to L2) — item 28 (\"L2\")" },
+    { "key": "1stass2018-q30", "hold": "insufficient/factually ambiguous printed key — item 30 (\"Spinal cord has 3 enlargement\") has no surviving answer, and standard teaching names only two enlargements (cervical, lumbar), held for Omar/source verification" }
+  ]
+}
