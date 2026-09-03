@@ -1,6 +1,21 @@
 import { pool } from './db.js'
 import { GIGABYTE } from './storage.js'
 
+/**
+ * The one query that reads `subscriptions` for the live subscriber count
+ * (server/src/subscriberCount.js). Kept as a named constant, not inlined
+ * twice, so `platformReport()`'s figure and the marketing count's real
+ * delta can never silently drift from the same definition of "active."
+ */
+export const ACTIVE_SUBSCRIPTIONS_SQL =
+  "SELECT COUNT(*) AS activeSubscriptions FROM subscriptions WHERE status IN ('active','trialing') AND (expires_at IS NULL OR expires_at > NOW())"
+
+/** The real count of active/trialing subscriptions, right now. Read-only. */
+export async function activeSubscriptionCount() {
+  const [rows] = await pool.query(ACTIVE_SUBSCRIPTIONS_SQL)
+  return Number(rows[0]?.activeSubscriptions ?? 0)
+}
+
 export function reachedStorageThresholdGb(bytes) {
   const gb = Number(bytes) / GIGABYTE
   if (!Number.isFinite(gb) || gb < 20) return null
@@ -73,7 +88,7 @@ export async function platformReport() {
   ] = await Promise.all([
     pool.query("SELECT COUNT(*) AS total, SUM(status = 'Active') AS active FROM students"),
     pool.query('SELECT COUNT(*) AS signups30d FROM students WHERE joined >= DATE_SUB(CURDATE(), INTERVAL 30 DAY)'),
-    pool.query("SELECT COUNT(*) AS activeSubscriptions FROM subscriptions WHERE status IN ('active','trialing') AND (expires_at IS NULL OR expires_at > NOW())"),
+    pool.query(ACTIVE_SUBSCRIPTIONS_SQL),
     pool.query("SELECT COALESCE(source_kind, 'resource') AS sourceKind, COALESCE(SUM(size_bytes), 0) AS bytes FROM user_documents WHERE deleted_at IS NULL GROUP BY COALESCE(source_kind, 'resource')"),
     pool.query('SELECT COUNT(*) AS verifiedAnswers, COUNT(DISTINCT user_id) AS activeAnswerers FROM qbank_attempts WHERE verified_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)'),
     pool.query("SELECT COUNT(*) AS pending FROM enrollment_change_requests WHERE status = 'pending'"),
