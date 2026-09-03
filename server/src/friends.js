@@ -40,7 +40,7 @@ export function displayNameFrom({ name, email, username }) {
 async function profilesFor(ids) {
   if (!ids.length) return new Map()
   const [rows] = await pool.query(
-    `SELECT a.user_id, s.name, a.email, s.username, s.university_id, s.year
+    `SELECT a.user_id, s.name, a.email, s.username, s.university_id, s.year, s.status_message
        FROM user_access a LEFT JOIN students s ON s.user_id = a.user_id
       WHERE a.user_id IN (?)`,
     [ids],
@@ -52,6 +52,7 @@ async function profilesFor(ids) {
       displayName: displayNameFrom(row),
       universityId: row.university_id ?? null,
       year: row.year ?? null,
+      statusMessage: row.status_message ?? null,
     })
   }
   return byId
@@ -141,7 +142,7 @@ export async function directorySearch(userId, query) {
     // The LIKE still matches against name-or-email — a search box that only
     // works once a display name exists would be a worse search, and matching
     // is not the same as displaying. `sortKey` keeps that same ordering.
-    `SELECT s.user_id, s.name, s.email, s.username, s.university_id, s.year,
+    `SELECT s.user_id, s.name, s.email, s.username, s.university_id, s.year, s.status_message,
             COALESCE(s.name, s.email) AS sortKey
        FROM students s
       WHERE s.university_id = ? AND s.year = ?
@@ -162,5 +163,6 @@ export async function directorySearch(userId, query) {
     displayName: displayNameFrom(row),
     universityId: row.university_id ?? null,
     year: row.year ?? null,
+    statusMessage: row.status_message ?? null,
   }))
 }

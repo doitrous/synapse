@@ -24,36 +24,36 @@ import { DEFAULT_PROFILE_ICON, PROFILE_ICONS, normaliseUsername, usernameProblem
 import { AccountTabs } from '@/components/account/AccountTabs'
 import { useAccountTab, type AccountTab } from '@/components/account/useAccountTab'
 import { BillingPanels } from '@/components/account/BillingPanels'
+import { useUsernameAvailability } from '@/lib/useUsernameAvailability'
+
+/** The browser's own IANA zone name, or Cairo if the runtime cannot say. */
+function detectTimezone(): string {
+  return Intl.DateTimeFormat().resolvedOptions().timeZone || 'Africa/Cairo'
+}
 
 /**
  * Preferences the student owns.
  *
- * Name and email are not here: they are the sign-in identity, and a form that
- * appeared to change them would change nothing in Supabase. University, year
- * and group are here, and they are real — they write to the same user-owned
- * document onboarding writes, which every scoping surface reads.
+ * Name, email and timezone are not here: name and email are the sign-in
+ * identity, and a form that appeared to change them would change nothing in
+ * Supabase; timezone is detected, not chosen (see `detectTimezone` and the
+ * sync effect in `Account`). University, year and group are here, and they
+ * are real — they write to the same user-owned document onboarding writes,
+ * which every scoping surface reads.
  */
 interface AccountPrefs {
-  timezone: string
   reviewReminders: boolean
   calendarReminders: boolean
 }
 
 const DEFAULTS: AccountPrefs = {
-  timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || 'Africa/Cairo',
   reviewReminders: true,
   calendarReminders: true,
 }
 
 const ACCOUNT_PREFS_STORAGE_KEY = 'nishany.account.prefs.v1'
-const PROFILE_STORAGE_KEY = 'nishany.account.profile.v1'
 
 const SUPPORT_ADDRESS = 'help@nishany.com'
-
-interface StudentProfilePrefs {
-  username: string
-  iconId: string
-}
 
 function ReadOnlyField({ label, value, hint }: { label: string; value: string | null; hint?: string }) {
   const t = useT()
@@ -151,6 +151,10 @@ function StudyContext() {
           changes.push({ field: 'year', requestedValue: targetYear })
         }
         if (!changes.length) { setRequesting(false); return }
+        // Optimistic: the request reads as sent immediately, and reverts below
+        // only if every field-change actually failed — a partial failure still
+        // means the request went in, just not all of it.
+        setRequestSent(true)
         const results = await Promise.allSettled(
           changes.map((change) => apiPost('/me/enrollment-change-requests', { ...change, reason: reason.trim() })),
         )
@@ -163,10 +167,12 @@ function StudyContext() {
           const message = failures[0].reason instanceof Error ? failures[0].reason.message : ''
           setRequestError(message || t('One of your requests could not be sent, but the other was received.'))
         }
+      } else {
+        setRequestSent(true)
       }
-      setRequestSent(true)
       setReason('')
     } catch (submitError) {
+      setRequestSent(false)
       const message = submitError instanceof Error ? submitError.message : ''
       setRequestError(message || t('Your request could not be sent. Try again, or contact support if it keeps happening.'))
     } finally {
@@ -292,28 +298,51 @@ function AvatarControl() {
   )
 }
 
+/**
+ * Username, icon and status message — the caller's own row in `students`,
+ * read from and written straight through `useIdentity`, so this and the
+ * sidebar can never show two different usernames the way the old
+ * browser-local echo of this form once could.
+ */
 function ProfileIdentity() {
   const t = useT()
-  const [profile, setProfile] = usePersistentState<StudentProfilePrefs>(PROFILE_STORAGE_KEY, { username: '', iconId: DEFAULT_PROFILE_ICON })
-  const [username, setUsername] = useState(profile.username)
-  const [iconId, setIconId] = useState(profile.iconId || DEFAULT_PROFILE_ICON)
+  const { profile, reload } = useIdentity()
+  const [username, setUsername] = useState(profile.username ?? '')
+  const [iconId, setIconId] = useState(profile.profileIcon || DEFAULT_PROFILE_ICON)
+  const [statusMessage, setStatusMessage] = useState(profile.statusMessage ?? '')
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
   const [error, setError] = useState('')
+
   const cleanUsername = normaliseUsername(username)
   const problem = usernameProblem(username)
-  const dirty = cleanUsername !== profile.username || iconId !== profile.iconId
+  // Checks the server only once the username actually changed from what is
+  // on record — the account's own current username never needs asking about.
+  const availability = useUsernameAvailability(username, profile.username ?? '')
+  const checking = availability === 'checking'
+  const taken = availability === 'taken'
+  const dirty = cleanUsername !== (profile.username ?? '')
+    || iconId !== (profile.profileIcon || DEFAULT_PROFILE_ICON)
+    || statusMessage.trim() !== (profile.statusMessage ?? '')
 
   async function save() {
-    if (problem) return
+    if (problem || checking || taken) return
     setError('')
+    // Optimistic: Save reads as done immediately; a failure rolls the three
+    // fields back to what the server still holds and says so inline.
+    const previous = { username: profile.username ?? '', iconId: profile.profileIcon || DEFAULT_PROFILE_ICON, statusMessage: profile.statusMessage ?? '' }
     setSaving(true)
-    const payload = { username: cleanUsername, iconId }
+    setSaved(true)
     try {
-      if (API_MODE) await apiPut('/me/profile', payload)
-      setProfile(payload)
-      setSaved(true)
+      if (API_MODE) {
+        await apiPut('/me/profile', { username: cleanUsername, profileIcon: iconId, statusMessage: statusMessage.trim(), timezone: detectTimezone() })
+        reload()
+      }
     } catch {
+      setSaved(false)
+      setUsername(previous.username)
+      setIconId(previous.iconId)
+      setStatusMessage(previous.statusMessage)
       setError(t('That profile could not be saved. The server may have refused the username or be temporarily unavailable.'))
     } finally {
       setSaving(false)
@@ -327,13 +356,16 @@ function ProfileIdentity() {
           <TextInput id="account-username" value={username} onChange={(event) => { setUsername(event.target.value); setSaved(false) }} maxLength={24} autoComplete="username" />
         </Field>
         <div className="flex items-end">
-          <Button type="button" variant="secondary" loading={saving} disabled={!dirty || Boolean(problem) || saving} iconLeft={saved && !dirty ? Check : undefined} onClick={() => void save()}>
+          <Button type="button" variant="secondary" loading={saving} disabled={!dirty || Boolean(problem) || checking || taken || saving} iconLeft={saved && !dirty ? Check : undefined} onClick={() => void save()}>
             {saved && !dirty ? t('Saved') : t('Save profile')}
           </Button>
         </div>
       </div>
       <p className="mt-2 text-[12px] text-ink-3">{t('Preview')}: <span className="font-mono font-semibold text-ink">@{cleanUsername || t('username')}</span></p>
       {problem && <p role="alert" className="mt-1 text-[12px] text-danger">{t(problem)}</p>}
+      {!problem && checking && <p className="mt-1 text-[12px] text-ink-3">{t('Checking…')}</p>}
+      {!problem && availability === 'available' && <p className="mt-1 text-[12px] text-success">{t('Available')}</p>}
+      {!problem && taken && <p role="alert" className="mt-1 text-[12px] text-danger">{t('Already taken')}</p>}
 
       <div className="mt-4">
         <p className="text-[12px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Profile icon')}</p>
@@ -356,6 +388,19 @@ function ProfileIdentity() {
           ))}
         </ul>
       </div>
+
+      <div className="mt-4">
+        <Field label={t('Status')} htmlFor="account-status" hint={t('Shown next to your name to friends and study-party members.')}>
+          <TextInput
+            id="account-status"
+            value={statusMessage}
+            onChange={(event) => { setStatusMessage(event.target.value.replace(/[\r\n]+/g, ' ')); setSaved(false) }}
+            maxLength={120}
+            placeholder={t('e.g. Cramming for finals')}
+          />
+        </Field>
+      </div>
+
       {error && <p role="alert" className="mt-3 text-[12.5px] text-danger">{error}</p>}
     </div>
   )
@@ -372,10 +417,9 @@ function ProfileIdentity() {
  */
 export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } = {}) {
   const t = useT()
-  const { email } = useIdentity()
+  const { email, profile, reload } = useIdentity()
   const [tab, setTab] = useAccountTab(initialTab)
   const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
-  const timezone = prefs.timezone || DEFAULTS.timezone
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState('')
   // New and existing students are private until they explicitly opt in.
@@ -390,6 +434,21 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
       .then((result) => setDiscoverableState(result.discoverable))
       .catch(() => {})
   }, [])
+
+  /**
+   * There is no timezone picker any more — the browser already knows, and a
+   * manual choice just goes stale after a trip or a clock change. This syncs
+   * it once: silently, and only when the server's answer actually disagrees
+   * with what `Intl` reports right now, which is also what stops it from
+   * firing more than once a session — the second render after a successful
+   * sync already sees them agree.
+   */
+  useEffect(() => {
+    if (!API_MODE || !profile.studentId) return
+    const detected = detectTimezone()
+    if (!detected || detected === profile.timezone) return
+    apiPut('/me/profile', { timezone: detected }).then(reload).catch(() => {})
+  }, [profile.studentId, profile.timezone, reload])
 
   /**
    * Flip the toggle immediately and tell the server. Without a backend this is
@@ -456,15 +515,6 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
             <AvatarControl />
             <StudyContext />
             <ProfileIdentity />
-            <div className="border-t border-line p-5">
-              <Field label={t('Timezone')} hint={t('Used for calendar blocks and reminders')} className="max-w-sm">
-                <Select aria-label={t('Timezone')} value={timezone} onChange={(event) => patch({ timezone: event.target.value })}>
-                  {[timezone, 'Africa/Cairo', 'Europe/London', 'Asia/Dubai', 'America/New_York']
-                    .filter((zone, index, all) => all.indexOf(zone) === index)
-                    .map((zone) => <option key={zone || 'timezone-default'} value={zone}>{zone}</option>)}
-                </Select>
-              </Field>
-            </div>
           </Panel>
         )}
 

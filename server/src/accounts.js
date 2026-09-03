@@ -93,6 +93,7 @@ const USER_COLUMNS = `
   s.phone, s.nationality,
   s.university_id AS universityId, s.year, s.year_id AS yearId, s.study_group AS studyGroup, s.plan, s.status,
   s.username, s.username_normalized AS usernameNormalized, s.profile_icon AS profileIcon,
+  s.status_message AS statusMessage, s.timezone AS timezone,
   s.avatar_media_id AS avatarMediaId,
   s.discoverable, s.social_provider AS socialProvider, s.social_subject AS socialSubject,
   s.joined, s.last_active AS lastActive, s.questions_answered AS questionsAnswered,
@@ -169,6 +170,8 @@ function shape(row) {
     username: row.username,
     usernameNormalized: row.usernameNormalized,
     profileIcon: row.profileIcon,
+    statusMessage: row.statusMessage ?? null,
+    timezone: row.timezone ?? null,
     // Raw id, not a URL: the client already has a convention for turning a
     // managed-media id into a fetchable path (`mediaUrl` in data/mediaLibrary.ts,
     // which the browser prepends its own API base to) and this reuses it rather
@@ -823,6 +826,107 @@ export async function usernameConflict(conn, { universityId, usernameNormalized,
     [universityId, usernameNormalized, studentId ?? ''],
   )
   return rows.length > 0
+}
+
+/** Trimmed, line-breaks folded to spaces, capped at 120 — a status line, not a note. */
+export function normaliseStatusMessage(value) {
+  if (value === undefined) return undefined
+  const text = String(value ?? '').replace(/[\r\n]+/g, ' ').trim().slice(0, 120)
+  return text || null
+}
+
+const FALLBACK_TIMEZONE = 'Africa/Cairo'
+// Node 22 ships Intl.supportedValuesOf; a name outside this list is rejected
+// rather than trusted, since it is handed straight to Intl.DateTimeFormat
+// wherever the day boundary or a reminder hour is computed from it.
+const SUPPORTED_TIMEZONES = new Set(Intl.supportedValuesOf('timeZone'))
+
+export function normaliseTimezone(value) {
+  const text = String(value ?? '').trim()
+  return SUPPORTED_TIMEZONES.has(text) ? text : FALLBACK_TIMEZONE
+}
+
+/**
+ * Whether a candidate username is free to take, for this caller.
+ *
+ * Same rule `saveOwnProfile` enforces at write time — unique per university,
+ * compared case-insensitively — so the field can say so before Save is even
+ * pressed. Read-only: a race with another save is still caught by the write
+ * path's own check inside its transaction.
+ */
+export async function usernameAvailability(userId, rawUsername) {
+  const problem = usernameProblem(rawUsername)
+  if (problem) return { available: false, reason: 'invalid' }
+  const normalized = normaliseUsername(rawUsername)
+  const [rows] = await pool.query(
+    'SELECT id, university_id AS universityId, username_normalized AS usernameNormalized FROM students WHERE user_id = ? LIMIT 1',
+    [userId],
+  )
+  const me = rows[0] ?? null
+  if (me?.usernameNormalized === normalized) return { available: true }
+  const taken = await usernameConflict(pool, { universityId: me?.universityId, usernameNormalized: normalized, studentId: me?.id })
+  return taken ? { available: false, reason: 'taken' } : { available: true }
+}
+
+/**
+ * The caller's own editable profile — username, icon, status message and
+ * timezone. Split from `saveOwnEnrolment` because none of these fields are
+ * ever locked the way university/year are: a student may change any of them
+ * at will, and this never touches the enrolment-locked columns or the trial
+ * grant.
+ */
+export async function saveOwnProfile(userId, input) {
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, userId)
+    if (!student) { await conn.rollback(); return { error: 'no_identity' } }
+
+    const [[stored]] = await conn.query(
+      'SELECT university_id AS universityId, username_normalized AS usernameNormalized FROM students WHERE id = ?',
+      [student.id],
+    )
+
+    const sets = []
+    const params = []
+
+    if (input?.username !== undefined) {
+      const username = trimmed(input.username, 32)
+      const usernameError = username ? usernameProblem(username) : null
+      if (usernameError) { await conn.rollback(); return { error: usernameError } }
+      const usernameNormalized = username ? normaliseUsername(username) : null
+      if (usernameNormalized && usernameNormalized !== stored?.usernameNormalized
+        && await usernameConflict(conn, { universityId: stored?.universityId, usernameNormalized, studentId: student.id })) {
+        await conn.rollback()
+        return { error: 'username_taken' }
+      }
+      sets.push('username = ?', 'username_normalized = ?')
+      params.push(username, usernameNormalized)
+    }
+    if (input?.profileIcon !== undefined) {
+      sets.push('profile_icon = ?')
+      params.push(normaliseProfileIcon(input.profileIcon))
+    }
+    if (input?.statusMessage !== undefined) {
+      sets.push('status_message = ?')
+      params.push(normaliseStatusMessage(input.statusMessage))
+    }
+    if (input?.timezone !== undefined) {
+      sets.push('timezone = ?')
+      params.push(normaliseTimezone(input.timezone))
+    }
+
+    if (sets.length) {
+      await conn.query(`UPDATE students SET ${sets.join(', ')} WHERE id = ?`, [...params, student.id])
+    }
+    await conn.commit()
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+  return { ok: true, profile: await getUserByIdentity(userId) }
 }
 
 /**

@@ -13,6 +13,8 @@ export interface FriendProfile {
   displayName: string
   universityId: string | null
   year: string | null
+  /** Self-set, shown read-only next to the name. See status_message in accounts.js. */
+  statusMessage?: string | null
 }
 
 export const FRIEND_REFUSALS: Record<string, string> = {

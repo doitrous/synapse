@@ -1,6 +1,9 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { entitlementOf, extensionBase, addDays, readReason, stateFamily, normaliseUsername, usernameProblem, isProfileComplete, saveOwnEnrolment } from './accounts.js'
+import {
+  entitlementOf, extensionBase, addDays, readReason, stateFamily, normaliseUsername, usernameProblem,
+  isProfileComplete, saveOwnEnrolment, normaliseStatusMessage, normaliseTimezone, usernameAvailability,
+} from './accounts.js'
 import { pool } from './db.js'
 
 const NOW = new Date('2026-08-13T12:00:00Z')
@@ -159,4 +162,51 @@ test('saveOwnEnrolment reports phoneConflict when the number belongs to someone 
   const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1', phone: '+201001234567' })
   assert.equal(result.ok, true)
   assert.equal(result.phoneConflict, true)
+})
+
+test('normaliseStatusMessage trims, folds line breaks, and caps at 120 chars', () => {
+  assert.equal(normaliseStatusMessage('  studying for finals  '), 'studying for finals')
+  assert.equal(normaliseStatusMessage('line one\nline two\r\nline three'), 'line one line two line three')
+  assert.equal(normaliseStatusMessage('x'.repeat(200)).length, 120)
+  assert.equal(normaliseStatusMessage('   '), null)
+  assert.equal(normaliseStatusMessage(undefined), undefined) // "not provided" — leave the column alone
+})
+
+test('normaliseTimezone accepts a real IANA zone and falls back to Cairo otherwise', () => {
+  assert.equal(normaliseTimezone('Asia/Tokyo'), 'Asia/Tokyo')
+  assert.equal(normaliseTimezone('Not/AZone'), 'Africa/Cairo')
+  assert.equal(normaliseTimezone(''), 'Africa/Cairo')
+  assert.equal(normaliseTimezone(undefined), 'Africa/Cairo')
+})
+
+test('usernameAvailability rejects a badly formatted candidate without a query', async (t) => {
+  let queried = false
+  t.mock.method(pool, 'query', async () => { queried = true; return [[]] })
+  const result = await usernameAvailability('stu-1', 'a')
+  assert.deepEqual(result, { available: false, reason: 'invalid' })
+  assert.equal(queried, false)
+})
+
+test('usernameAvailability reports the caller\'s own current username as available', async (t) => {
+  t.mock.method(pool, 'query', async () => [[{ id: 'stu-1', universityId: 'cairo', usernameNormalized: 'nour' }]])
+  const result = await usernameAvailability('stu-1', 'Nour')
+  assert.deepEqual(result, { available: true })
+})
+
+test('usernameAvailability reports taken when another student at the same university holds it', async (t) => {
+  t.mock.method(pool, 'query', async (sql) => {
+    if (/FROM students WHERE user_id/.test(sql)) return [[{ id: 'stu-1', universityId: 'cairo', usernameNormalized: 'nour' }]]
+    return [[{ id: 'stu-2' }]] // usernameConflict's own query, via the same pool
+  })
+  const result = await usernameAvailability('stu-1', 'someone-else')
+  assert.deepEqual(result, { available: false, reason: 'taken' })
+})
+
+test('usernameAvailability reports available when nobody else at the university holds it', async (t) => {
+  t.mock.method(pool, 'query', async (sql) => {
+    if (/FROM students WHERE user_id/.test(sql)) return [[{ id: 'stu-1', universityId: 'cairo', usernameNormalized: 'nour' }]]
+    return [[]]
+  })
+  const result = await usernameAvailability('stu-1', 'free-name')
+  assert.deepEqual(result, { available: true })
 })

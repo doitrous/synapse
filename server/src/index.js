@@ -24,6 +24,8 @@ import {
 } from './shares.js'
 import { apiAuthGate, heldTabs, identityFromCookieHeader, identityFromToken, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
 import { router as authRouter } from './authRoutes.js'
+import { requireTurnstile } from './turnstile.js'
+import { submitContactMessage } from './contact.js'
 import { getUser as goTrueGetUser, hasVerifiedTotp } from './goTrue.js'
 import { sweepIdle } from './sessionStore.js'
 import { authenticationOptions, listPasskeys, registrationOptions, removePasskey, verifyAuthenticationRequest, verifyRegistration } from './webauthn.js'
@@ -57,10 +59,12 @@ import {
   requestPasswordReset,
   setUserPassword,
   saveOwnEnrolment,
+  saveOwnProfile,
   setAccessStatus,
   setContentScope,
   setDiscoverable,
   setRole,
+  usernameAvailability,
 } from './accounts.js'
 import { rateLimited, clientIp } from './rateLimit.js'
 import { securityHeaders } from './securityHeaders.js'
@@ -414,6 +418,17 @@ app.post('/api/accounts/exists', rateLimited('accounts_exists', clientIp, 20, 60
   res.json(await identifierTaken({ email, phone }))
 }))
 
+/**
+ * Whether a candidate username is free to take, for the signed-in caller.
+ *
+ * Same per-university, case-insensitive rule the profile save enforces —
+ * this just answers it early so the account page can say so before Save is
+ * pressed. The caller's own current username always reads as available.
+ */
+app.get('/api/accounts/username-available', requireAuthenticated, rateLimited('username_available', byUser, 30, 60_000), wrap(async (req, res) => {
+  res.json(await usernameAvailability(req.identity.id, String(req.query.u ?? '')))
+}))
+
 app.get('/api/session', wrap(async (req, res) => res.json({
   user: req.identity ? {
     id: req.identity.id,
@@ -437,6 +452,10 @@ app.get('/api/session', wrap(async (req, res) => res.json({
  * longer a session on one origin that the other cannot see, and nothing to hand
  * across in a URL.
  */
+// Bot check ahead of sign-up only — mounted here rather than inside
+// authRoutes.js so this track's file stays out of that router's own edits.
+// No-ops when TURNSTILE_SECRET_KEY is unset (see turnstile.js).
+app.use('/api/auth/signup', requireTurnstile)
 app.use('/api/auth', authRouter)
 
 // Passkeys (WebAuthn) — register/list/remove require a session; authenticate is
@@ -494,6 +513,12 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
       // record the best available answer is the account's own flag.
       mfaPending: req.identity.aal !== 'aal2'
         && (account ? hasVerifiedTotp(account) : Boolean(req.identity.mfaRequired)),
+      // Only ever known on the same fresh read as `account` above (OAuth
+      // sign-ups' first hour, or `?fresh=1`) — null otherwise. Lets
+      // CompleteProfile.tsx prefill from what Google/Facebook handed back,
+      // rather than asking for a name and a photo the account already has.
+      metadataName: account ? (account.user_metadata?.full_name ?? account.user_metadata?.name ?? null) : null,
+      avatarUrl: account ? (account.user_metadata?.avatar_url ?? account.user_metadata?.picture ?? null) : null,
     },
     profile: user
       ? {
@@ -513,6 +538,8 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
           status: user.status,
           username: user.username,
           profileIcon: user.profileIcon,
+          statusMessage: user.statusMessage,
+          timezone: user.timezone,
           avatarMediaId: user.avatarMediaId,
           discoverable: user.discoverable,
           socialProvider: user.socialProvider,
@@ -539,6 +566,20 @@ app.put('/api/me/enrolment', requireAuthenticated, wrap(async (req, res) => {
     return res.status(status).json(result)
   }
   res.json({ ok: true, profile: result.profile, phoneConflict: result.phoneConflict })
+}))
+
+/**
+ * The student's own editable profile: username, icon, status message and
+ * timezone. None of these are ever locked the way university/year are —
+ * unlike `/me/enrolment`, this never touches enrolment or the trial grant.
+ */
+app.put('/api/me/profile', requireAuthenticated, wrap(async (req, res) => {
+  const result = await saveOwnProfile(req.identity.id, req.body ?? {})
+  if (result.error) {
+    const status = result.error === 'no_identity' ? 404 : (result.error === 'username_taken' ? 409 : 400)
+    return res.status(status).json(result)
+  }
+  res.json({ ok: true, profile: result.profile })
 }))
 
 /**
@@ -2380,7 +2421,7 @@ registerContentRoutes(app)
  * lock the console write path uses, so a report filed here and a review saved
  * there cannot lose one another.
  */
-app.post('/api/content-reports', requireAuthenticated, rateLimited('content_reports', byUser, 10, 60 * 60_000), wrap(async (req, res) => {
+app.post('/api/content-reports', requireAuthenticated, rateLimited('content_reports', byUser, 10, 60 * 60_000), requireTurnstile, wrap(async (req, res) => {
   const body = req.body ?? {}
   const contentId = typeof body.contentId === 'string' ? body.contentId.trim() : ''
   const note = typeof body.note === 'string' ? body.note.trim() : ''
@@ -2417,6 +2458,19 @@ app.post('/api/content-reports', requireAuthenticated, rateLimited('content_repo
   } finally {
     conn.release()
   }
+}))
+
+/**
+ * The contact page, actually sending somewhere.
+ *
+ * Public — a visitor deciding whether to sign up has no account yet — so it is
+ * both rate-limited and behind the same bot check as sign-up and content
+ * reports. See contact.js for validation and storage.
+ */
+app.post('/api/contact', rateLimited('contact', clientIp, 5, 60 * 60_000), requireTurnstile, wrap(async (req, res) => {
+  const result = await submitContactMessage(req.body, { ip: clientIp(req) })
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
 }))
 
 /**

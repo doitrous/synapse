@@ -446,7 +446,10 @@ export function PartyPage({
           {party.members.map((member) => (
             <li key={member.userId} className="flex items-center gap-3 px-4 py-2.5">
               <Avatar name={member.displayName} size="sm" />
-              <span className="min-w-0 flex-1 truncate text-[13px] text-ink">{member.displayName}</span>
+              <span className="min-w-0 flex-1">
+                <span className="block truncate text-[13px] text-ink">{member.displayName}</span>
+                {member.statusMessage && <span className="block truncate text-[11px] text-ink-3">{member.statusMessage}</span>}
+              </span>
               {member.role === 'host' && <Badge tone="primary">{t('Host')}</Badge>}
             </li>
           ))}

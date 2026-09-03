@@ -42,13 +42,18 @@ function newCode() {
 async function displayNamesFor(userIds) {
   if (!userIds.length) return new Map()
   const [rows] = await pool.query(
-    `SELECT a.user_id, COALESCE(s.name, s.email, a.email) AS name
+    `SELECT a.user_id, COALESCE(s.name, s.email, a.email) AS name, s.status_message
        FROM user_access a LEFT JOIN students s ON s.user_id = a.user_id
       WHERE a.user_id IN (?)`,
     [userIds],
   )
   const names = new Map()
-  for (const row of rows) names.set(row.user_id, row.name ? String(row.name).split('@')[0] : 'Student')
+  for (const row of rows) {
+    names.set(row.user_id, {
+      name: row.name ? String(row.name).split('@')[0] : 'Student',
+      statusMessage: row.status_message ?? null,
+    })
+  }
   return names
 }
 
@@ -86,9 +91,11 @@ async function memberRows(partyId) {
  */
 function memberView(row, names) {
   const age = row.activeAgoSeconds
+  const info = names.get(row.userId)
   return {
     userId: row.userId,
-    displayName: names.get(row.userId) ?? 'Student',
+    displayName: info?.name ?? 'Student',
+    statusMessage: info?.statusMessage ?? null,
     role: row.role,
     joinedAt: row.joinedAt,
     seat: seatFromRow(row),

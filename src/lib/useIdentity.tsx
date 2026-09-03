@@ -56,6 +56,12 @@ export interface IdentityProfile {
   profileComplete?: boolean
   /** A `managed_media` id, or null to show the profile_icon glyph instead. See useAvatar.ts. */
   avatarMediaId?: string | null
+  username?: string | null
+  profileIcon?: string | null
+  /** Shown next to this student's name in the friends directory and party member lists. */
+  statusMessage?: string | null
+  /** IANA zone name, auto-detected by the browser and written by `PUT /me/profile`. */
+  timezone?: string | null
 }
 
 export interface Entitlement {
@@ -95,6 +101,14 @@ export interface Identity {
    * does have an unopened verification email waiting for it.
    */
   emailVerified: boolean
+  /**
+   * The name and photo an OAuth provider handed back at sign-up, straight from
+   * Supabase's own `user_metadata` — only ever populated on a fresh `/api/me`
+   * read (a session under an hour old, or `?fresh=1`), null otherwise. For
+   * CompleteProfile.tsx to prefill from, never a substitute for `profile.name`.
+   */
+  metadataName: string | null
+  avatarUrl: string | null
   /** Never a fabricated person: the real name, else the email, else "Student". */
   displayName: string
   /** True when nobody has created a roster row for this account yet. */
@@ -161,7 +175,7 @@ const NO_ENTITLEMENT: Entitlement = { state: 'none', plan: 'Free', expiresAt: nu
 
 const ANONYMOUS: Identity = {
   status: 'loading', userId: null, email: null, role: null, rank: 0, tabs: [], contentScope: null,
-  aal: null, emailVerified: false,
+  aal: null, emailVerified: false, metadataName: null, avatarUrl: null,
   displayName: 'Student', profileMissing: true, audienceUnknown: true, profile: EMPTY_PROFILE, audience: EMPTY_AUDIENCE,
   entitlement: NO_ENTITLEMENT, subscription: null, reload: () => undefined,
   saveEnrolment: async () => ({ phoneConflict: false }), loading: true, audienceSettled: false,
@@ -171,6 +185,9 @@ const ANONYMOUS: Identity = {
 interface MeResponse {
   user: {
     id: string
+    /** Only present on a fresh read; see the note on `Identity.metadataName`. */
+    metadataName?: string | null
+    avatarUrl?: string | null
     email: string | null
     role: string | null
     rank?: number
@@ -240,6 +257,8 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     contentScope: ContentScope | null
     aal: 'aal1' | 'aal2' | null
     emailVerified: boolean
+    metadataName: string | null
+    avatarUrl: string | null
     profile: IdentityProfile | null
     subscription: Subscription | null
     entitlement: Entitlement
@@ -256,6 +275,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     aal: null,
     // Nothing to verify without an account system.
     emailVerified: !API_MODE,
+    metadataName: null, avatarUrl: null,
     profile: null, subscription: null, entitlement: NO_ENTITLEMENT,
   }))
   // Demo mode only — see the note on the key. In live mode this hook is still
@@ -302,7 +322,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       if (!me?.user) {
         authed = false
         setStateOwnerId(null)
-        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, role: null, tabs: [], contentScope: null, aal: null, emailVerified: false, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
+        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, role: null, tabs: [], contentScope: null, aal: null, emailVerified: false, metadataName: null, avatarUrl: null, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
         return
       }
       // Null means the server did not ask Supabase this time, which is not
@@ -331,6 +351,8 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
         contentScope: readScope(me.user.contentScope),
         aal: me.user.aal === 'aal2' ? 'aal2' : 'aal1',
         emailVerified,
+        metadataName: me.user.metadataName ?? null,
+        avatarUrl: me.user.avatarUrl ?? null,
         profile: me.profile,
         subscription: me.subscription,
         entitlement: me.entitlement ?? NO_ENTITLEMENT,
@@ -432,6 +454,8 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       contentScope: state.contentScope,
       aal: state.aal,
       emailVerified: state.emailVerified,
+      metadataName: state.metadataName,
+      avatarUrl: state.avatarUrl,
       displayName: nameFor(state.profile, state.email),
       profileMissing: state.status === 'authenticated' && !state.profile,
       /** True when nobody has said where this account studies. */

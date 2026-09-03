@@ -21,6 +21,13 @@ test('isSendWindow respects the window width', () => {
   assert.equal(isSendWindow(t, { hour: hh, windowMinutes: mm }), false) // minute == width → outside [0,width)
 })
 
+test('isSendWindow reads a student timezone rather than always Cairo', () => {
+  // 12:00 in Asia/Tokyo (UTC+9, no DST) is 03:00 UTC.
+  const tokyoNoon = new Date('2026-08-29T03:00:00Z')
+  assert.equal(isSendWindow(tokyoNoon, { hour: 12, windowMinutes: 5, timeZone: 'Asia/Tokyo' }), true)
+  assert.equal(isSendWindow(tokyoNoon, { hour: 12, windowMinutes: 5 }), false) // not Cairo noon
+})
+
 test('resolveChannel prefers push, falls back to email, else none', () => {
   assert.equal(resolveChannel({ hasPushDevice: true, hasEmail: true }), 'push')
   assert.equal(resolveChannel({ hasPushDevice: true, hasEmail: false }), 'push')

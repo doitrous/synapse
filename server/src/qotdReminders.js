@@ -22,10 +22,10 @@ function deliverablePlatforms() {
   return set
 }
 
-/** Cairo wall-clock parts of an instant. */
-function cairoParts(now) {
+/** Wall-clock parts of an instant, in any IANA zone (Cairo by default). */
+function zonedParts(now, timeZone = 'Africa/Cairo') {
   const fmt = new Intl.DateTimeFormat('en-GB', {
-    timeZone: 'Africa/Cairo', hour: '2-digit', minute: '2-digit', hour12: false,
+    timeZone, hour: '2-digit', minute: '2-digit', hour12: false,
   })
   const parts = fmt.formatToParts(now)
   return {
@@ -34,9 +34,9 @@ function cairoParts(now) {
   }
 }
 
-/** True when the Cairo time of `now` is within [hour:00, hour:windowMinutes). */
-export function isSendWindow(now, { hour = 12, windowMinutes = 5 } = {}) {
-  const { hour: h, minute: m } = cairoParts(now)
+/** True when `now`, read in `timeZone` (Cairo by default), falls in [hour:00, hour:windowMinutes). */
+export function isSendWindow(now, { hour = 12, windowMinutes = 5, timeZone = 'Africa/Cairo' } = {}) {
+  const { hour: h, minute: m } = zonedParts(now, timeZone)
   return h === hour && m < windowMinutes
 }
 
@@ -69,7 +69,7 @@ const REMINDER = {
 /** Students in real cohorts who have not answered today. */
 async function unansweredStudents(date) {
   const [rows] = await pool.query(
-    `SELECT s.user_id AS userId, s.email, s.name,
+    `SELECT s.user_id AS userId, s.email, s.name, s.timezone,
             s.university_id AS universityId, s.year, s.year_id AS yearId
        FROM students s
        LEFT JOIN qotd_answers a ON a.user_id = s.user_id AND a.qotd_date = ?
@@ -80,6 +80,32 @@ async function unansweredStudents(date) {
     [date],
   )
   return rows
+}
+
+/**
+ * Per-user, per-day dedup for the loop below.
+ *
+ * The cohort's *day* stays one Cairo date for everyone (see qotdCohort.ts) —
+ * but the send *hour* now follows each student's own timezone, and a
+ * student's local hour:00-hour:05 window spans several of the scheduler's
+ * 60s ticks, so something has to stop that from becoming several sends.
+ *
+ * ponytail: per-process and in-memory, like every other counter in this
+ * server (see rateLimit.js). Ceiling: a restart mid-window can cost a
+ * duplicate reminder, and a second app instance is not coordinated with this
+ * one at all. Move to a `qotd_reminder_sent(run_date, user_id)` table
+ * (INSERT IGNORE as the claim, same shape as qotd_reminder_runs below) if a
+ * duplicate reminder ever actually matters more than the extra table.
+ */
+let remindedDate = null
+let remindedUsers = new Set()
+function alreadyReminded(date, userId) {
+  if (remindedDate !== date) { remindedDate = date; remindedUsers = new Set() }
+  return remindedUsers.has(userId)
+}
+function markReminded(date, userId) {
+  if (remindedDate !== date) { remindedDate = date; remindedUsers = new Set() }
+  remindedUsers.add(userId)
 }
 
 /** user_id → number of registered devices on a DELIVERABLE platform. */
@@ -118,15 +144,16 @@ async function sendFcmAlertMaybe(device, notification) { return sendFcmAlert(dev
 async function sendWebPushMaybe(device, notification) { return sendWebPush(device, notification) }
 
 /**
- * The daily job. Claims the day (exactly-once), then sends one reminder to each
- * un-answered student in a cohort that has a question today, prefer-push-else-
- * email. Never throws; a single failed send is counted, not fatal.
+ * The daily job. Runs on every scheduler tick (see below) and, each time,
+ * sends one reminder to each not-yet-reminded, un-answered student whose
+ * *own* local clock is currently inside the send window — Cairo for a
+ * student with no timezone on record, their own zone otherwise. The cohort's
+ * day is still one shared Cairo date (see qotdCohort.ts); only the hour a
+ * student is nudged at now follows them. Never throws; a single failed send
+ * is counted, not fatal.
  */
 export async function dispatchQotdReminders(now = new Date()) {
   const date = cairoDate(now)
-  const [claim] = await pool.query('INSERT IGNORE INTO qotd_reminder_runs (run_date) VALUES (?)', [date])
-  if (claim.affectedRows === 0) return { skipped: 'already_ran', date }
-
   try {
     const students = await unansweredStudents(date)
     // Drop students whose cohort has no question today (nothing to remind about).
@@ -142,7 +169,10 @@ export async function dispatchQotdReminders(now = new Date()) {
         console.error('qotd reminder: could not resolve question for cohort', key, error?.message)
       }
     }
-    const eligible = students.filter((s) => cohortHasQuestion.get(`${s.universityId}|${s.year}|${s.yearId ?? ''}`))
+    const eligible = students.filter((s) =>
+      cohortHasQuestion.get(`${s.universityId}|${s.year}|${s.yearId ?? ''}`)
+      && !alreadyReminded(date, s.userId)
+      && isSendWindow(now, { hour: 12, windowMinutes: 5, timeZone: s.timezone || 'Africa/Cairo' }))
 
     const deviceCounts = await pushDeviceCounts(eligible.map((s) => s.userId), deliverablePlatforms())
     let push = 0, email = 0, skipped = 0
@@ -153,34 +183,38 @@ export async function dispatchQotdReminders(now = new Date()) {
         else if (channel === 'email') { const ok = await sendReminderEmail(s, REMINDER); ok ? email++ : skipped++ }
         else skipped++
       } catch (error) { skipped++; console.error('qotd reminder failed for', s.userId, error?.message) }
+      // Marked whether it actually sent or not — a student with no push
+      // device and no email is not retried every tick for the rest of their window.
+      markReminded(date, s.userId)
     }
 
-    await pool.query(
-      'UPDATE qotd_reminder_runs SET push_sent = ?, email_sent = ?, skipped = ? WHERE run_date = ?',
-      [push, email, skipped, date],
-    )
-    return { date, claimed: true, push, email, skipped }
+    if (eligible.length) {
+      await pool.query(
+        `INSERT INTO qotd_reminder_runs (run_date, push_sent, email_sent, skipped)
+         VALUES (?, ?, ?, ?)
+         ON DUPLICATE KEY UPDATE push_sent = push_sent + VALUES(push_sent),
+                                  email_sent = email_sent + VALUES(email_sent),
+                                  skipped = skipped + VALUES(skipped)`,
+        [date, push, email, skipped],
+      )
+    }
+    return { date, push, email, skipped, checked: eligible.length }
   } catch (error) {
-    // Setup failed after the day was claimed. Release the claim so the next tick
-    // inside the send window retries, rather than burning the whole day's run.
-    await pool.query('DELETE FROM qotd_reminder_runs WHERE run_date = ?', [date]).catch(() => {})
-    console.error('qotd reminder dispatch aborted; released claim for', date, error?.message)
+    console.error('qotd reminder dispatch failed for', date, error?.message)
     return { error: 'dispatch_failed', date }
   }
 }
 
 let schedulerStarted = false
 
-/** Minute tick that fires the dispatch once inside the Cairo noon window. */
+/** Minute tick — dispatch itself decides who, if anyone, is in their window right now. */
 export function startQotdReminderScheduler() {
   if (schedulerStarted) return
   if (!process.env.QOTD_REMINDERS_ENABLED) { console.log('QotD reminders disabled (QOTD_REMINDERS_ENABLED unset)'); return }
   schedulerStarted = true
   setInterval(() => {
-    const now = new Date()
-    if (!isSendWindow(now, { hour: 12, windowMinutes: 5 })) return
-    dispatchQotdReminders(now)
-      .then((r) => { if (r.claimed) console.log('QotD reminders dispatched', r) })
+    dispatchQotdReminders(new Date())
+      .then((r) => { if (r.push || r.email || r.skipped) console.log('QotD reminders dispatched', r) })
       .catch((error) => console.error('QotD reminder dispatch error', error?.message))
   }, 60_000).unref?.()
 }

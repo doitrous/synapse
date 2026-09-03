@@ -57,6 +57,8 @@ export interface PartyMemberSeat {
 export interface PartyMember {
   userId: string
   displayName: string
+  /** Self-set, shown read-only next to the name. See status_message in accounts.js. */
+  statusMessage?: string | null
   role: 'host' | 'member'
   joinedAt: string
   /** Null until this member has chosen anything. Absent from a server that predates seats. */
