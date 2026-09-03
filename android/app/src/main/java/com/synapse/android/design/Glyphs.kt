@@ -151,3 +151,85 @@ fun AccountGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color =
         )
     }
 }
+
+/** Two overlapping rounded cards -- Flashcards, mirroring the web's Lucide "Layers" tile icon. */
+@Composable
+fun FlashcardsGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color = LocalContentColor.current) {
+    Canvas(modifier = modifier.size(size)) {
+        val stroke = strokeWidthFor(this.size.minDimension)
+        val w = this.size.width
+        val h = this.size.height
+        val cardW = w * 0.62f
+        val cardH = h * 0.62f
+        val corner = androidx.compose.ui.geometry.CornerRadius(stroke * 1.4f, stroke * 1.4f)
+        drawRoundRect(
+            color = color,
+            topLeft = Offset(w * 0.10f, h * 0.10f),
+            size = Size(cardW, cardH),
+            cornerRadius = corner,
+            style = Stroke(width = stroke),
+        )
+        drawRoundRect(
+            color = color,
+            topLeft = Offset(w * 0.28f, h * 0.28f),
+            size = Size(cardW, cardH),
+            cornerRadius = corner,
+            style = Stroke(width = stroke),
+        )
+    }
+}
+
+/** An open book -- Library. */
+@Composable
+fun LibraryGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color = LocalContentColor.current) {
+    Canvas(modifier = modifier.size(size)) {
+        val stroke = strokeWidthFor(this.size.minDimension)
+        val w = this.size.width
+        val h = this.size.height
+        val spineTop = Offset(w / 2f, h * 0.22f)
+        val spineBottom = Offset(w / 2f, h * 0.82f)
+        drawLine(color, spineTop, spineBottom, stroke, StrokeCap.Round)
+        // The left and right "pages", each a shallow curve off the spine.
+        drawArc(
+            color = color,
+            startAngle = 110f,
+            sweepAngle = 130f,
+            useCenter = false,
+            topLeft = Offset(w * 0.02f, h * 0.18f),
+            size = Size(w * 0.5f, h * 0.68f),
+            style = Stroke(width = stroke, cap = StrokeCap.Round),
+        )
+        drawArc(
+            color = color,
+            startAngle = -60f,
+            sweepAngle = 130f,
+            useCenter = false,
+            topLeft = Offset(w * 0.48f, h * 0.18f),
+            size = Size(w * 0.5f, h * 0.68f),
+            style = Stroke(width = stroke, cap = StrokeCap.Round),
+        )
+    }
+}
+
+/** A folder outline -- Resources. */
+@Composable
+fun ResourcesGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color = LocalContentColor.current) {
+    Canvas(modifier = modifier.size(size)) {
+        val stroke = strokeWidthFor(this.size.minDimension)
+        val w = this.size.width
+        val h = this.size.height
+        val corner = androidx.compose.ui.geometry.CornerRadius(stroke * 1.2f, stroke * 1.2f)
+        drawRoundRect(
+            color = color,
+            topLeft = Offset(w * 0.10f, h * 0.30f),
+            size = Size(w * 0.80f, h * 0.52f),
+            cornerRadius = corner,
+            style = Stroke(width = stroke),
+        )
+        // The tab along the folder's top edge.
+        drawLine(color, Offset(w * 0.12f, h * 0.30f), Offset(w * 0.30f, h * 0.30f), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.30f, h * 0.30f), Offset(w * 0.40f, h * 0.20f), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.40f, h * 0.20f), Offset(w * 0.66f, h * 0.20f), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.66f, h * 0.20f), Offset(w * 0.76f, h * 0.30f), stroke, StrokeCap.Round)
+    }
+}

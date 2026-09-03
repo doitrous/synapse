@@ -30,6 +30,14 @@ data class CortexColors(
     val success: Color, val successTint: Color, val onSuccess: Color,
     val warning: Color, val warningTint: Color, val onWarning: Color,
     val danger: Color, val dangerTint: Color, val onDanger: Color,
+    /**
+     * `--color-midnight` (`src/index.css`): the Midnight Seed dot's navy.
+     * #1b2b55 is shared by light and warm (warm never overrides it); dark and
+     * oled each lift it lighter so it stays legible off their own near-black
+     * surfaces, the same way the web's `[data-theme='dark']` and
+     * `[data-theme='oled']` blocks each restate it.
+     */
+    val midnight: Color,
 )
 
 val LightCortexColors = CortexColors(
@@ -47,6 +55,7 @@ val LightCortexColors = CortexColors(
     success = Color(0xFF1A6E56), successTint = Color(0xFFE3F2EC), onSuccess = Color(0xFFF4FBF8),
     warning = Color(0xFF8A5A0A), warningTint = Color(0xFFFBF0D9), onWarning = Color(0xFFFFFAF0),
     danger = Color(0xFFA8121E), dangerTint = Color(0xFFFCE7E9), onDanger = Color(0xFFFFF7F7),
+    midnight = Color(0xFF1B2B55),
 )
 
 /**
@@ -83,6 +92,7 @@ val DarkCortexColors = CortexColors(
     success = Color(0xFF4DC79B), successTint = Color(0xFF0E2B23), onSuccess = Color(0xFF06130F),
     warning = Color(0xFFE3A83F), warningTint = Color(0xFF2E2410), onWarning = Color(0xFF1A1305),
     danger = Color(0xFFFF6B6B), dangerTint = Color(0xFF331416), onDanger = Color(0xFF1A0708),
+    midnight = Color(0xFF5B6FC4),
 )
 
 /**
@@ -98,6 +108,7 @@ val OledCortexColors = DarkCortexColors.copy(
     surface2 = Color(0xFF16171B), inset = Color(0xFF050506),
     ink = Color(0xFFDFE2E8), ink2 = Color(0xFF9AA1AF), ink3 = Color(0xFF6B7280),
     line = Color(0xFF1E1F24), line2 = Color(0xFF32333A),
+    midnight = Color(0xFF6478D6),
 )
 
 object CortexRadius {
