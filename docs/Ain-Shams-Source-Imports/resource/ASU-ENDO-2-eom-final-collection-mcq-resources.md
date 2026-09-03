@@ -1,0 +1,120 @@
+<!--
+  Rights-deferred catalogue resource for the source PDF used by
+  ../question/ASU-ENDO-2-eom-final-collection-mcq.md and its companion
+  concept/article files (same commit set).
+
+  Learner-facing deep links and approved file-resource links are intentionally
+  omitted because republication/open-file rights are not cleared.
+-->
+
+# Item
+
+## id
+src_f3b44cd466398c8953b9
+
+## title
+Ain Shams Year 2 Endocrine System — EOM MCQs Final Collection (2018/19/20)
+
+## subject
+end
+
+## type
+Question bank
+
+## source
+Ain Shams University — Faculty of Medicine
+
+## status
+Draft
+
+## owner
+Admin team
+
+## url
+
+## year
+
+
+## topics
+Endocrine anatomy
+Endocrine embryology
+Endocrine community medicine
+
+## chapter
+Anatomy
+Community
+
+## module_ids
+ASU-ENDO-2
+
+## module_subject
+ASU-ENDO-2 > Anatomy
+
+## included_concepts
+CON-END-2EE25A7B08EAAD
+CON-END-CFEECB4CBC6FA1
+CON-END-6A12335229F291
+CON-END-64A7D77DB559CD
+CON-END-20F2AF8E86D719
+CON-END-CC394B835F860C
+CON-END-D9444932874ACF
+CON-END-79018080C5BA4C
+CON-END-5D46A4787AE40C
+CON-END-4DE2E7280E31D2
+CON-END-010F84429473A0
+CON-END-ACD6ECA5E264A8
+CON-END-627E456578FF09
+CON-END-FA0BF82B7CEC1D
+CON-END-BA41062BB9C475
+CON-END-DD0FF423A1134B
+CON-END-87CA5C0E17D790
+CON-END-76B785A732EBFB
+
+## included_articles
+ART-END-ASUENDO2EFC-EXTERNAL-LARYNGEAL-NERVE-SUPERIOR-THYROID-ARTERY
+ART-END-ASUENDO2EFC-TUBERCULUM-SELLAE-PITUITARY-RELATION
+ART-END-ASUENDO2EFC-INFUNDIBULAR-PROCESS-DIENCEPHALON-ORIGIN
+ART-END-ASUENDO2EFC-PITUITARY-GLAND-ECTODERMAL-ORIGIN
+ART-END-ASUENDO2EFC-THYROID-ISTHMUS-TRACHEAL-RING-LEVEL
+ART-END-ASUENDO2EFC-RATHKE-POUCH-PARS-DISTALIS
+ART-END-ASUENDO2EFC-THYROID-ISTHMUS-INFERIOR-BORDER-RELATIONS
+ART-END-ASUENDO2EFC-SUPERIOR-PARATHYROID-FOURTH-POUCH
+ART-END-ASUENDO2EFC-SUPERIOR-SUPRARENAL-INFERIOR-PHRENIC-ARTERY
+ART-END-ASUENDO2EFC-PITUITARY-FOSSA-SPHENOID-RELATION
+ART-END-ASUENDO2EFC-ANTERIOR-PITUITARY-GONADOTROPINS
+ART-END-ASUENDO2EFC-RIGHT-SUPRARENAL-LIVER-RELATION
+ART-END-ASUENDO2EFC-DIABETES-TYPE2-PREVALENCE
+ART-END-ASUENDO2EFC-IODINE-DEFICIENCY-HYPOTHYROIDISM-RISK
+ART-END-ASUENDO2EFC-SMOKING-THYROID-DISEASE-RISK
+ART-END-ASUENDO2EFC-FAMILY-HISTORY-TYPE2-DIABETES-RISK
+ART-END-ASUENDO2EFC-TERTIARY-PREVENTION-DIABETES-HYPERTENSION
+ART-END-ASUENDO2EFC-PRIMARY-PREVENTION-THYROID-HEALTH-EDUCATION
+
+## concept_locations
+CON-END-2EE25A7B08EAAD | page | 1
+CON-END-CFEECB4CBC6FA1 | page | 1
+CON-END-6A12335229F291 | page | 1
+CON-END-64A7D77DB559CD | page | 1
+CON-END-20F2AF8E86D719 | page | 1
+CON-END-CC394B835F860C | page | 1
+CON-END-D9444932874ACF | page | 2
+CON-END-79018080C5BA4C | page | 2
+CON-END-5D46A4787AE40C | page | 2
+CON-END-4DE2E7280E31D2 | page | 1
+CON-END-010F84429473A0 | page | 2
+CON-END-ACD6ECA5E264A8 | page | 2
+CON-END-627E456578FF09 | page | 17
+CON-END-FA0BF82B7CEC1D | page | 17
+CON-END-BA41062BB9C475 | page | 17
+CON-END-DD0FF423A1134B | page | 17
+CON-END-87CA5C0E17D790 | page | 17
+CON-END-76B785A732EBFB | page | 17
+
+## universities
+asu
+
+## years
+ASU_Y2
+
+## description
+Native-text, 17-page ASU Year 2 Endocrine System EOM MCQ Final Collection (2018/19/20 combined sitting), used here only for local curriculum alignment. Embedded-answer format (bare answer/topic before the stem, no printed distractors); this lane authored its own options and explanations. This pass covers the Anatomy and Community subject blocks only (18 of 127+ items); the remaining blocks are held for a follow-on session. Student-facing file approval and deep links are deferred pending rights review.

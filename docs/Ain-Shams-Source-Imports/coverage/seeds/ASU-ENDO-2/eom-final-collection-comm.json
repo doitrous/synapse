@@ -1,0 +1,222 @@
+{
+  "lane": "ASU-ENDO-2",
+  "cluster": "eom-final-collection-comm",
+  "header": "ASU-ENDO-2 · Community Medicine — first MCQ-authoring pass on this module, from the Community block (6 items, all authored, none held) of \"EOM MCQs - Endocrine Final MCQ Collection.pdf\". Embedded-answer format — this lane authors its own options and explanations from the stated answer/topic.",
+  "defaults": {
+    "subject": "endo",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["asu"],
+    "years": ["ASU_Y2"],
+    "module": "ASU-ENDO-2",
+    "module_subject": "ASU-ENDO-2 > Community Medicine",
+    "exam_weight_by_year": { "ASU_Y2": "moderate" },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": ["src_f3b44cd466398c8953b9"],
+    "source_citation": "Ain Shams Year 2 Endocrine System EOM MCQ Final Collection (\"EOM MCQs - Endocrine Final MCQ Collection.pdf\", 2018/19/20 combined sitting), Community item {page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "comm-q01",
+      "id": "QST-ASUENDO2-COMM-C01",
+      "page": 1,
+      "title": "Relative prevalence of diabetes mellitus subtypes",
+      "question": "Regarding the relative burden of diabetes mellitus subtypes, which of the following is correct?",
+      "options": {
+        "A": "Type 2 diabetes, not type 1, accounts for approximately 90% of all diabetes cases",
+        "B": "Type 1 diabetes accounts for approximately 90% of all diabetes cases",
+        "C": "Gestational diabetes accounts for approximately 90% of all diabetes cases",
+        "D": "Type 1 and type 2 diabetes occur with roughly equal frequency"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Type 2 diabetes accounts for the large majority of diagnosed diabetes cases, approximately 90%, driven mainly by insulin resistance against a background of genetic predisposition, obesity and physical inactivity. Type 1 diabetes, an autoimmune beta-cell-destructive disease, accounts for only a minority of cases (roughly 5-10%), with gestational and other specific types making up the remainder. This prevalence pattern shapes public-health priorities, since interventions targeting modifiable risk factors address the subtype responsible for most of the disease burden.",
+        "B": "Incorrect. Type 1 diabetes accounts for only a minority of cases (roughly 5-10%); it is type 2 diabetes that accounts for approximately 90%.",
+        "C": "Incorrect. Gestational diabetes is a smaller subset of the total diabetes burden, well below the approximately 90% share held by type 2 diabetes.",
+        "D": "Incorrect. Type 2 diabetes greatly outnumbers type 1 diabetes in overall prevalence; they do not occur with roughly equal frequency."
+      },
+      "main_concept": "CON-END-627E456578FF09",
+      "concept_ids": ["CON-END-627E456578FF09"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-END-ASUENDO2EFC-DIABETES-TYPE2-PREVALENCE"],
+      "topic": "Community Medicine",
+      "subtopic": "Diabetes mellitus epidemiology",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that type 2 diabetes, not type 1, accounts for approximately 90% of diabetes mellitus cases.",
+      "module_subject": "ASU-ENDO-2 > Community Medicine > Diabetes mellitus epidemiology",
+      "field_notes": { "keySource": "embedded answer before the stem (\"Type 1 is not 90%\"), item 1, restated affirmatively for a clean single-best-answer stem", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Community item 1" }
+    },
+    {
+      "key": "comm-q02",
+      "id": "QST-ASUENDO2-COMM-C02",
+      "page": 2,
+      "title": "Main risk factor for endemic hypothyroidism",
+      "question": "What is the main risk factor for endemic (population-level) hypothyroidism?",
+      "options": {
+        "A": "Iodine deficiency",
+        "B": "Excess dietary iodine intake",
+        "C": "Selenium deficiency",
+        "D": "Vitamin D deficiency"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Dietary iodine deficiency is the leading cause and main modifiable risk factor for hypothyroidism at the population level, since iodine is an obligatory substrate for thyroid hormone synthesis; chronic shortage first drives compensatory goitre and, if severe or prolonged, overt hypothyroidism. Universal salt iodisation programmes are a public-health intervention built directly on this risk factor, aiming to reduce the population burden of endemic goitre and hypothyroidism. (In iodine-sufficient populations, autoimmune Hashimoto thyroiditis becomes the leading cause instead, but iodine deficiency remains the standard community-medicine teaching point for endemic hypothyroidism risk.)",
+        "B": "Incorrect. Excess iodine intake can itself cause thyroid dysfunction (including iodine-induced hypothyroidism in susceptible individuals), but it is iodine deficiency, not excess, that is the classic community-level risk factor for endemic hypothyroidism.",
+        "C": "Incorrect. Selenium deficiency can impair thyroid hormone metabolism and is a recognised secondary factor in some settings, but it is not the main population-level risk factor for hypothyroidism; iodine deficiency is.",
+        "D": "Incorrect. Vitamin D deficiency is not the main risk factor for hypothyroidism; it is a separate micronutrient deficiency mainly linked to bone metabolism."
+      },
+      "main_concept": "CON-END-FA0BF82B7CEC1D",
+      "concept_ids": ["CON-END-FA0BF82B7CEC1D"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-END-ASUENDO2EFC-IODINE-DEFICIENCY-HYPOTHYROIDISM-RISK"],
+      "topic": "Community Medicine",
+      "subtopic": "Thyroid disease risk factors",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that iodine deficiency is the main risk factor for endemic hypothyroidism at the population level.",
+      "module_subject": "ASU-ENDO-2 > Community Medicine > Thyroid disease risk factors",
+      "field_notes": { "keySource": "embedded answer before the stem, item 2", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Community item 2" }
+    },
+    {
+      "key": "comm-q03",
+      "id": "QST-ASUENDO2-COMM-C03",
+      "page": 3,
+      "title": "Modifiable risk factor for thyroid disease",
+      "question": "Which of the following is a modifiable risk factor for thyroid disease?",
+      "options": {
+        "A": "Smoking",
+        "B": "Female sex",
+        "C": "Family history of autoimmune thyroid disease",
+        "D": "Increasing age"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Smoking is a modifiable behavioural risk factor for thyroid disease: it is associated with an increased risk of Graves disease and, most notably, with more frequent and more severe thyroid-associated (Graves) ophthalmopathy in patients who already have Graves disease. Because smoking is a behaviour that can be changed, smoking cessation is a specifically recommended intervention for patients with, or at risk of, Graves ophthalmopathy.",
+        "B": "Incorrect. Female sex is a fixed, unmodifiable risk factor for autoimmune thyroid disease, which is several times more common in women than men.",
+        "C": "Incorrect. A family history of autoimmune thyroid disease reflects an inherited genetic predisposition and is an unmodifiable risk factor, not one that can be changed.",
+        "D": "Incorrect. Increasing age is an unmodifiable risk factor associated with rising incidence of some thyroid conditions (such as nodules and certain thyroid cancers), not a behaviour that can be changed."
+      },
+      "main_concept": "CON-END-BA41062BB9C475",
+      "concept_ids": ["CON-END-BA41062BB9C475"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-END-ASUENDO2EFC-SMOKING-THYROID-DISEASE-RISK"],
+      "topic": "Community Medicine",
+      "subtopic": "Thyroid disease risk factors",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify smoking as a modifiable risk factor for thyroid disease, particularly Graves disease and its ophthalmopathy.",
+      "module_subject": "ASU-ENDO-2 > Community Medicine > Thyroid disease risk factors",
+      "field_notes": { "keySource": "embedded answer before the stem, item 3", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Community item 3" }
+    },
+    {
+      "key": "comm-q04",
+      "id": "QST-ASUENDO2-COMM-C04",
+      "page": 4,
+      "title": "Unmodifiable risk factor for type 2 diabetes",
+      "question": "Which of the following is an unmodifiable risk factor for type 2 diabetes mellitus?",
+      "options": {
+        "A": "Family history of type 2 diabetes",
+        "B": "Obesity",
+        "C": "Physical inactivity",
+        "D": "Diet high in refined sugar"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A family history of type 2 diabetes reflects an inherited polygenic predisposition that cannot be changed by the individual, making it an unmodifiable (fixed) risk factor. A positive family history is used clinically to identify individuals who would benefit most from targeted screening and lifestyle-modification counselling, since the modifiable risk factors remain the actionable target for prevention.",
+        "B": "Incorrect. Obesity is a modifiable risk factor for type 2 diabetes, since body weight can be changed through diet, exercise and other interventions.",
+        "C": "Incorrect. Physical inactivity is a modifiable behavioural risk factor for type 2 diabetes, not a fixed one.",
+        "D": "Incorrect. A diet high in refined sugar is a modifiable dietary risk factor for type 2 diabetes, not an unmodifiable one."
+      },
+      "main_concept": "CON-END-DD0FF423A1134B",
+      "concept_ids": ["CON-END-DD0FF423A1134B"],
+      "contextual_concept_ids": [],
+      "library_ids": ["ART-END-ASUENDO2EFC-FAMILY-HISTORY-TYPE2-DIABETES-RISK"],
+      "topic": "Community Medicine",
+      "subtopic": "Diabetes mellitus risk factors",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify a family history of type 2 diabetes as an unmodifiable risk factor, distinct from modifiable risk factors such as obesity and inactivity.",
+      "module_subject": "ASU-ENDO-2 > Community Medicine > Diabetes mellitus risk factors",
+      "field_notes": { "keySource": "embedded answer before the stem, item 4", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Community item 4" }
+    },
+    {
+      "key": "comm-q05",
+      "id": "QST-ASUENDO2-COMM-C05",
+      "page": 5,
+      "title": "Example of tertiary prevention in diabetes",
+      "question": "Which of the following is an example of tertiary prevention in a patient already diagnosed with diabetes mellitus?",
+      "options": {
+        "A": "Screening for and controlling coexisting hypertension to limit progression of diabetic complications",
+        "B": "Community health education on a balanced diet for the general population",
+        "C": "Screening asymptomatic adults for impaired fasting glucose",
+        "D": "Routine HbA1c screening in a newly registered, otherwise healthy patient"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In a patient already diagnosed with diabetes mellitus, screening for and controlling coexisting hypertension is tertiary prevention, since it aims to limit progression of established disease and reduce diabetic complications (particularly nephropathy, retinopathy and cardiovascular disease) rather than to prevent diabetes occurring or to catch it at an early asymptomatic stage. Structured hypertension control in diabetic clinics is a standard part of comprehensive diabetes care aimed at reducing exactly these macrovascular and microvascular complications.",
+        "B": "Incorrect. Community health education on a balanced diet for the general population is primary prevention, acting before disease onset at a population level, not tertiary prevention in an already-diagnosed patient.",
+        "C": "Incorrect. Screening asymptomatic adults for impaired fasting glucose is secondary prevention, aiming at early detection in people not yet known to have disease, not tertiary prevention.",
+        "D": "Incorrect. Routine HbA1c screening in a newly registered, otherwise healthy (undiagnosed) patient is secondary prevention (early detection), not tertiary prevention, which applies to patients who already have established disease."
+      },
+      "main_concept": "CON-END-87CA5C0E17D790",
+      "concept_ids": ["CON-END-87CA5C0E17D790"],
+      "contextual_concept_ids": ["CON-END-76B785A732EBFB"],
+      "library_ids": ["ART-END-ASUENDO2EFC-TERTIARY-PREVENTION-DIABETES-HYPERTENSION"],
+      "topic": "Community Medicine",
+      "subtopic": "Levels of prevention",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Classify hypertension screening/control in an already-diagnosed diabetic patient as tertiary prevention, distinguishing it from primary and secondary prevention.",
+      "module_subject": "ASU-ENDO-2 > Community Medicine > Levels of prevention",
+      "field_notes": { "keySource": "embedded answer before the stem (\"Check HTN\"), item 5, expanded with distractor levels of prevention for a clean single-best-answer stem", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Community item 5" }
+    },
+    {
+      "key": "comm-q06",
+      "id": "QST-ASUENDO2-COMM-C06",
+      "page": 6,
+      "title": "Example of primary prevention for thyroid disease",
+      "question": "Which of the following is an example of primary prevention for thyroid disease?",
+      "options": {
+        "A": "Community health education on adequate dietary iodine intake",
+        "B": "Screening pregnant women for subclinical hypothyroidism",
+        "C": "Thyroidectomy for a toxic thyroid nodule",
+        "D": "Levothyroxine replacement in a diagnosed hypothyroid patient"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Community health education promoting adequate dietary iodine intake (for example, through iodised salt) is primary prevention for thyroid disease, since it acts before disease onset by reducing a population-level risk factor, iodine deficiency, the classic risk factor for endemic hypothyroidism. Universal salt iodisation and related health-education campaigns are real-world public-health programmes built on exactly this primary-prevention principle.",
+        "B": "Incorrect. Screening pregnant women for subclinical hypothyroidism is secondary prevention, detecting existing but not-yet-symptomatic disease early, not primary prevention.",
+        "C": "Incorrect. Thyroidectomy for a toxic thyroid nodule is treatment of established disease, i.e. tertiary prevention/management, not primary prevention.",
+        "D": "Incorrect. Levothyroxine replacement in a diagnosed hypothyroid patient is treatment of established disease (tertiary prevention/management), not primary prevention."
+      },
+      "main_concept": "CON-END-76B785A732EBFB",
+      "concept_ids": ["CON-END-76B785A732EBFB"],
+      "contextual_concept_ids": ["CON-END-FA0BF82B7CEC1D", "CON-END-87CA5C0E17D790"],
+      "library_ids": ["ART-END-ASUENDO2EFC-PRIMARY-PREVENTION-THYROID-HEALTH-EDUCATION"],
+      "topic": "Community Medicine",
+      "subtopic": "Levels of prevention",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Classify community health education on adequate iodine intake as primary prevention for thyroid disease, distinguishing it from secondary and tertiary prevention.",
+      "module_subject": "ASU-ENDO-2 > Community Medicine > Levels of prevention",
+      "field_notes": { "keySource": "embedded answer before the stem (\"Health education\"), item 6, expanded with distractor levels of prevention for a clean single-best-answer stem", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Community item 6" }
+    }
+  ]
+}
