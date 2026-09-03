@@ -6,11 +6,41 @@ import { SocialAuthButtons } from './SocialAuthButtons'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { Turnstile } from '@/components/forms/Turnstile'
 import { API_MODE } from '@/lib/api'
-import { authMessage, rememberSignupDetails, signup } from '@/lib/auth/client'
+import { AuthError, authMessage, rememberSignupDetails } from '@/lib/auth/client'
 import { rememberPendingEmail } from './pendingEmail'
 import { CONFLICT_MESSAGE, MIN_PASSWORD, normalisePhone, signInPathFor } from '@/data/accountIdentity'
 import { identityConflict } from '@/lib/accountExists'
+
+// src/lib/auth/client.ts's `signup()` posts a fixed `{ email, password, data }`
+// body and its `call()` helper is module-private, so there is no way to add
+// `turnstileToken` to that call without editing that file — out of this
+// track's scope (src/lib/auth/* belongs to another track). This duplicates
+// just enough of `call()`'s shape to stay wire-compatible with it (same
+// `AuthError` on failure, same 429 handling), so `authMessage()` below still
+// works unchanged.
+const API_BASE = (import.meta.env.VITE_API_BASE as string | undefined) ?? ''
+async function signupWithTurnstile(
+  email: string,
+  password: string,
+  data: Record<string, string> | undefined,
+  turnstileToken: string,
+): Promise<{ ok: boolean; alreadyRegistered: boolean; session: boolean }> {
+  const res = await fetch(`${API_BASE}/auth/signup`, {
+    method: 'POST',
+    credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email, password, data, turnstileToken: turnstileToken || undefined }),
+  })
+  const payload = res.status === 204 ? null : await res.json().catch(() => null)
+  if (res.ok) return payload ?? { ok: true, alreadyRegistered: false, session: false }
+  if (res.status === 429) {
+    const seconds = Math.max(1, Math.ceil(Number(payload?.retryAfter ?? res.headers.get('Retry-After') ?? 60)))
+    throw new AuthError(429, payload?.error ?? 'too_many_attempts', `Too many attempts. Try again in ${seconds} s.`)
+  }
+  throw new AuthError(res.status, payload?.error ?? 'request_failed', payload?.message ?? '')
+}
 
 const ownership = [
   { icon: BookOpenText, title: 'Notes and highlights', detail: 'Annotations, personal articles, tags, and reading state.' },
@@ -29,6 +59,7 @@ export function Signup() {
   const [showPassword, setShowPassword] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [turnstileToken, setTurnstileToken] = useState('')
   /**
    * Six characters is the whole requirement.
    *
@@ -78,7 +109,7 @@ export function Signup() {
 
     let created: { alreadyRegistered: boolean; session: boolean }
     try {
-      created = await signup(cleanEmail, password, { full_name: cleanName, phone: cleanPhone, nationality: nationality.trim() })
+      created = await signupWithTurnstile(cleanEmail, password, { full_name: cleanName, phone: cleanPhone, nationality: nationality.trim() }, turnstileToken)
     } catch (signUpError) {
       setLoading(false)
       return setError(authMessage(signUpError, 'Account creation could not be completed. Review the form and try again.'))
@@ -154,6 +185,7 @@ export function Signup() {
           </ul>
           <p className="mt-1.5 text-[11px] text-ink-3">Optional, and only advice — a password with all three is harder to guess.</p>
         </div>
+        <Turnstile onToken={setTurnstileToken} />
         <Button className="w-full" type="submit" variant="primary" size="lg" iconLeft={UserPlus} loading={loading}>Create account</Button>
         <p className="text-center text-[13px] text-ink-2">Already registered? <Link className="font-semibold text-primary-strong hover:text-primary" to="/login">Sign in</Link></p>
       </form>

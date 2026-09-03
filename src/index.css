@@ -577,6 +577,11 @@
 
   body {
     margin: 0;
+    /* iOS Safari < 15.4 and old Android WebViews (see the old-device floor in
+       vite.config.ts) do not know `dvh` and drop the whole declaration — this
+       line is the fallback the cascade keeps for them; a browser that does
+       support `dvh` simply overrides it with the line below. */
+    min-height: 100vh;
     min-height: 100dvh;
     background-color: var(--color-paper);
     /* Faint paper grain — what makes the light palette feel premium rather

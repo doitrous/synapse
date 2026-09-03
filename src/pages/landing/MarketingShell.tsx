@@ -66,10 +66,10 @@ function OtherLanguageOffer({ c, otherHref }: { c: LandingContent; otherHref: st
 function legalLinks(lang: 'ar' | 'en'): [string, string][] {
   const suffix = lang === 'ar' ? '?lang=ar' : ''
   const labels: Record<'ar' | 'en', string[]> = {
-    en: ['Terms and Conditions', 'Privacy Policy', 'Refund Policy', 'Contact Us'],
-    ar: ['الشروط والأحكام', 'سياسة الخصوصية', 'سياسة الاسترداد', 'تواصل معنا'],
+    en: ['Terms and Conditions', 'Privacy Policy', 'Refund Policy', 'Contact Us', 'Accessibility'],
+    ar: ['الشروط والأحكام', 'سياسة الخصوصية', 'سياسة الاسترداد', 'تواصل معنا', 'إمكانية الوصول'],
   }
-  return (['/terms', '/privacy', '/refund-policy', '/contact'] as const).map(
+  return (['/terms', '/privacy', '/refund-policy', '/contact', '/accessibility'] as const).map(
     (path, index) => [`${path}${suffix}`, labels[lang][index]],
   )
 }

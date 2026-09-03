@@ -120,6 +120,7 @@ const PricingEn = lazyNamed(() => import('@/pages/PricingEn'), 'PricingEn')
 const PricingAr = lazyNamed(() => import('@/pages/PricingAr'), 'PricingAr')
 const Terms = lazyNamed(() => import('@/pages/legal/Terms'), 'Terms')
 const Privacy = lazyNamed(() => import('@/pages/legal/Privacy'), 'Privacy')
+const Accessibility = lazyNamed(() => import('@/pages/legal/Accessibility'), 'Accessibility')
 const RefundPolicy = lazyNamed(() => import('@/pages/legal/RefundPolicy'), 'RefundPolicy')
 const Contact = lazyNamed(() => import('@/pages/legal/Contact'), 'Contact')
 const NotFound = lazyNamed(() => import('@/pages/NotFound'), 'NotFound')
@@ -449,6 +450,7 @@ export const router = createBrowserRouter([
   // translated versions are flagged as pending rather than faked.
   { path: '/terms', element: adminHost ? toStudentSite : render(Terms) },
   { path: '/privacy', element: adminHost ? toStudentSite : render(Privacy) },
+  { path: '/accessibility', element: adminHost ? toStudentSite : render(Accessibility) },
   { path: '/refund-policy', element: adminHost ? toStudentSite : render(RefundPolicy) },
   { path: '/contact', element: adminHost ? toStudentSite : render(Contact) },
   // Auth stays on both origins: RequireAuth sends a signed-out admin to /login, and

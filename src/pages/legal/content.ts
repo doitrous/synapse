@@ -458,8 +458,8 @@ const CONTACT: LegalPageContent = {
       id: 'form',
       heading: 'Send us a message',
       paragraphs: [
-        'There is no contact endpoint on this site yet, so this form does not send anything by itself. Filling it in and choosing "Open in my mail app" composes the email in whatever mail application your device uses, addressed to ' + SUPPORT_ADDRESS + ' — you send it from there, and you keep a copy in your own sent items.',
-        'If nothing opens, your device has no mail application set up. Write to ' + SUPPORT_ADDRESS + ' directly instead.',
+        'Filling in the form below and choosing "Send message" delivers it straight to the support inbox.',
+        'If it does not send, write to ' + SUPPORT_ADDRESS + ' directly instead.',
       ],
     },
   ],
@@ -470,6 +470,63 @@ export const LEGAL_PAGES: Record<LegalPageKey, LegalPageContent> = {
   privacy: PRIVACY,
   refund: REFUND,
   contact: CONTACT,
+}
+
+/**
+ * The accessibility statement.
+ *
+ * Not part of `LEGAL_PAGES` / `LegalPageKey`: those four are the set the
+ * admin's `/admin/legal` override editor knows how to patch (see
+ * `src/data/legalPages.ts`), and wiring a fifth page into that editor is a
+ * separate change. `LegalPage.tsx` merges an override only when
+ * `legalSlugOf(page.slug)` resolves to a known slug, so rendering this one
+ * with no matching override is exactly what it already does for any page it
+ * does not recognise — it just shows the draft below, unedited.
+ */
+export const ACCESSIBILITY: LegalPageContent = {
+  slug: '/accessibility',
+  title: 'Accessibility Statement',
+  documentTitle: 'Accessibility Statement · Nishany',
+  description: 'What Nishany does to be usable with assistive technology, what still falls short of that, and how to report a barrier.',
+  updated: '2026-09-03',
+  intro:
+    'Nishany is built to be usable by every student who needs it, including students who use a screen reader, a keyboard alone, or a browser\'s own zoom and contrast settings. This page says what we target, where we currently fall short of it, and how to tell us about a barrier you hit.',
+  sections: [
+    {
+      id: 'standard',
+      heading: 'Conformance target',
+      paragraphs: [
+        'We target WCAG 2.1 level AA across the student site — the pages at nishany.com and the study application at /app.',
+        'The current status is partially conformant: most of the interface meets that target, and the sections below name where it does not yet.',
+      ],
+    },
+    {
+      id: 'scope',
+      heading: 'Scope',
+      paragraphs: [
+        'This statement covers the Nishany student site: the marketing pages, sign-in and sign-up, and the study application. It does not cover third-party content embedded inside it, such as an individual PDF a university has provided as a source.',
+      ],
+    },
+    {
+      id: 'limitations',
+      heading: 'Known limitations',
+      paragraphs: [
+        'These are the areas we know fall short of AA today, and are working through in order of how many students they affect.',
+      ],
+      bullets: [
+        'PDF reader annotations — highlighting and note-taking on an opened document are placed with a pointer and do not yet have a full keyboard or screen-reader equivalent.',
+        'The whiteboard canvas — drawing and arranging objects on a whiteboard is a pointer-driven surface without a non-visual equivalent yet.',
+        'Live study-room audio — voice study rooms have no live captioning.',
+      ],
+    },
+    {
+      id: 'feedback',
+      heading: 'Reporting a barrier',
+      paragraphs: [
+        'If you hit a barrier that is not listed above, or one that is, tell us through the contact page and we will look at it. Include the page, what you were trying to do, and what assistive technology or browser setting you were using — that is usually enough for us to reproduce it.',
+      ],
+    },
+  ],
 }
 
 /**

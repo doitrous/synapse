@@ -1,8 +1,27 @@
-import { defineConfig } from 'vite'
+import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'node:path'
 import fs from 'node:fs'
+
+/**
+ * Writes dist/sw-assets.json: the hashed build files public/sw.js precaches
+ * as the offline app shell, plus a build id (`version`) it uses to name its
+ * cache — so a new deploy's service worker drops the previous deploy's
+ * cached assets instead of serving them forever. See public/sw.js.
+ */
+function swAssetManifest(): Plugin {
+  const version = String(Date.now())
+  return {
+    name: 'sw-asset-manifest',
+    generateBundle(_options, bundle) {
+      const urls = Object.values(bundle)
+        .filter((file) => file.fileName.startsWith('assets/'))
+        .map((file) => `/${file.fileName}`)
+      this.emitFile({ type: 'asset', fileName: 'sw-assets.json', source: JSON.stringify({ version, urls }) })
+    },
+  }
+}
 
 /**
  * Where `node_modules` really lives. A git worktree borrows the main
@@ -24,7 +43,7 @@ export default defineConfig({
   // a build under a path (`VITE_BASE_PATH=/some-preview/`); the router reads
   // the same value back through `import.meta.env.BASE_URL`.
   base: process.env.VITE_BASE_PATH || '/',
-  plugins: [react(), tailwindcss()],
+  plugins: [react(), tailwindcss(), swAssetManifest()],
   resolve: {
     alias: {
       '@': path.resolve(import.meta.dirname, 'src'),
@@ -33,6 +52,9 @@ export default defineConfig({
   // Multi-page: localized entry HTML so /en and /ar ship their own crawler
   // meta (Open Graph / hreflang). All three boot the same SPA.
   build: {
+    // Floor: iOS 15.4+ / Android Chrome 90+ (see src/lib/polyfills.ts for the
+    // one runtime gap that floor leaves — structuredClone).
+    target: ['es2020', 'safari15', 'chrome90', 'firefox90'],
     rollupOptions: {
       input: {
         main: path.resolve(import.meta.dirname, 'index.html'),

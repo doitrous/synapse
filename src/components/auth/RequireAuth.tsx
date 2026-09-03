@@ -5,6 +5,7 @@ import { useIdentity } from '@/lib/useIdentity'
 import { RouteLoading } from '@/components/shell/RouteLoading'
 import { Icon } from '@/components/ui/Icon'
 import { hasConsoleAccess, mfaEnforced } from '@/data/adminRoles'
+import { useNoIndex } from '@/lib/pageMeta'
 
 /**
  * A portal only renders for someone entitled to see it.
@@ -35,6 +36,9 @@ export function RequireAuth({ console: needsConsole, tab, student, children }: {
 }) {
   const identity = useIdentity()
   const location = useLocation()
+  // Every route this guard covers is private — search has no business
+  // indexing it, on top of robots.txt already disallowing /app and /admin.
+  useNoIndex()
 
   if (identity.status === 'loading') return <RouteLoading />
   if (identity.status === 'anonymous') {

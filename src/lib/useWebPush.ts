@@ -43,17 +43,21 @@ export function useWebPush(): UseWebPushState {
   )
   const [subscribed, setSubscribed] = useState(false)
 
-  // Reflect an existing subscription (e.g. granted in a previous session) once
-  // on mount, so the control shows "subscribed" without the student having to
-  // click through the flow again.
+  // Register the service worker on mount — offline caching (public/sw.js)
+  // benefits every visitor, not only someone who opts into push, so this used
+  // to be the bug: registration lived inside subscribe() below and never ran
+  // until a student clicked "enable notifications". It also reflects an
+  // existing push subscription (e.g. granted in a previous session), so the
+  // control shows "subscribed" without the student having to click through
+  // the flow again.
   useEffect(() => {
     if (!SUPPORTED) return
     let alive = true
     navigator.serviceWorker
-      .getRegistration(`${import.meta.env.BASE_URL}sw.js`)
-      .then((registration) => registration?.pushManager.getSubscription() ?? null)
+      .register(`${import.meta.env.BASE_URL}sw.js`)
+      .then((registration) => registration.pushManager.getSubscription())
       .then((subscription) => { if (alive) setSubscribed(Boolean(subscription)) })
-      .catch(() => { /* no existing registration — stay unsubscribed */ })
+      .catch(() => { /* registration failed — stay unsubscribed, offline caching is best-effort */ })
     return () => { alive = false }
   }, [])
 
@@ -63,6 +67,9 @@ export function useWebPush(): UseWebPushState {
     if (!vapidKey) return false
 
     try {
+      // Registering again is safe — the mount effect above has usually already
+      // done it; the browser resolves with the existing registration when the
+      // script URL and scope match.
       const registration = await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`)
       const result = await Notification.requestPermission()
       setPermission(result)

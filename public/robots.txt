@@ -6,5 +6,6 @@ Disallow: /login
 Disallow: /signup
 Disallow: /logout
 Disallow: /auth/
+Disallow: /s/
 
 Sitemap: https://nishany.com/sitemap.xml

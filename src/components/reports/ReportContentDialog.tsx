@@ -16,6 +16,7 @@ import { invalidateEntry } from '@/lib/stateStore'
 import { Button } from '@/components/ui/Button'
 import { Field, Select, Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { Turnstile } from '@/components/forms/Turnstile'
 import { overlayPortal } from '@/lib/overlayPortal'
 import { useT } from '@/lib/i18n'
 
@@ -67,6 +68,7 @@ export function ReportContentDialog({
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState('')
+  const [turnstileToken, setTurnstileToken] = useState('')
 
   useEffect(() => {
     if (!open || !target) return
@@ -75,6 +77,7 @@ export function ReportContentDialog({
     setSubmitted(false)
     setSubmitting(false)
     setError('')
+    setTurnstileToken('')
   }, [open, target])
 
   useEffect(() => {
@@ -103,6 +106,7 @@ export function ReportContentDialog({
           snapshot: target.snapshot,
           category,
           note: note.trim(),
+          turnstileToken: turnstileToken || undefined,
         })
         // The create endpoint bypasses `usePersistentState`'s own setter (that
         // path is refused for a student), so the shared cache this dialog and
@@ -183,6 +187,7 @@ export function ReportContentDialog({
               <Field label={t('Add a note')} htmlFor="report-note" hint={t('Describe what you expected to see and what appears wrong. This helps reviewers reproduce the issue.')}>
                 <Textarea id="report-note" value={note} onChange={(event) => setNote(event.target.value)} placeholder={t('For example: the explanation contradicts the linked guideline…')} className="min-h-32" autoFocus />
               </Field>
+              <Turnstile onToken={setTurnstileToken} />
               {error && (
                 <p role="alert" className="flex items-start gap-2 rounded-lg border border-danger/25 bg-danger-tint px-3 py-2 text-[12.5px] leading-relaxed text-danger">
                   <Icon icon={CircleAlert} size={15} className="mt-0.5 shrink-0" />
