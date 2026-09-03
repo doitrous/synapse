@@ -5,9 +5,9 @@ import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { formatNumber } from '@/lib/pricing'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
-import { findPlan, type Lang } from '@/data/planCatalog'
+import type { Lang } from '@/data/planCatalog'
 import type { LandingContent } from './content'
-import { pricingFor } from './pricingContent'
+import { offerAmounts, pricingFor } from './pricingContent'
 
 type PeriodId = 'month' | 'term' | 'year'
 
@@ -23,16 +23,9 @@ export function Pricing({ c }: { c: LandingContent }) {
   const lang = c.lang as Lang
   const [periodId, setPeriodId] = useState<PeriodId>('term')
 
-  const amounts = useMemo(() => {
-    const plan = findPlan(catalog, 'maristana')
-    return {
-      month: plan?.prices.month ?? 400,
-      term: plan?.prices.term ?? 1000,
-    }
-  }, [catalog])
-
-  const savings = Math.max(0, (amounts.month * 3) - amounts.term)
-  const termMonthly = Math.round(amounts.term / 3)
+  const amounts = useMemo(() => offerAmounts(catalog), [catalog])
+  const savings = amounts.savings
+  const termMonthly = amounts.termMonthly
   const selectedAmount = periodId === 'month' ? amounts.month : periodId === 'term' ? amounts.term : null
   const signupHref = periodId === 'year' ? null : `/signup?plan=maristana&period=${periodId}`
 
