@@ -15,9 +15,30 @@ function swAssetManifest(): Plugin {
   return {
     name: 'sw-asset-manifest',
     generateBundle(_options, bundle) {
-      const urls = Object.values(bundle)
-        .filter((file) => file.fileName.startsWith('assets/'))
-        .map((file) => `/${file.fileName}`)
+      // The app *shell* only: every entry chunk, whatever it statically imports
+      // (transitively), the CSS and assets those chunks pull in, and the fonts.
+      // Not the lazy route chunks — listing every file precached the whole
+      // build (~32 MB, admin pages included) onto each student's phone on first
+      // visit. Route chunks are hashed and immutable, so the worker caches them
+      // the first time they are actually fetched instead.
+      const files = new Set<string>()
+      const visit = (name: string) => {
+        if (files.has(name)) return
+        const file = bundle[name]
+        if (!file) return
+        files.add(name)
+        if (file.type === 'chunk') {
+          file.imports.forEach(visit)
+          const meta = (file as { viteMetadata?: { importedCss?: Set<string>; importedAssets?: Set<string> } }).viteMetadata
+          meta?.importedCss?.forEach(visit)
+          meta?.importedAssets?.forEach(visit)
+        }
+      }
+      for (const file of Object.values(bundle)) {
+        if (file.type === 'chunk' && file.isEntry) visit(file.fileName)
+        if (file.type === 'asset' && /\.woff2?$/.test(file.fileName)) files.add(file.fileName)
+      }
+      const urls = [...files].filter((name) => name.startsWith('assets/')).sort().map((name) => `/${name}`)
       this.emitFile({ type: 'asset', fileName: 'sw-assets.json', source: JSON.stringify({ version, urls }) })
     },
   }

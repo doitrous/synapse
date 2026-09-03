@@ -14,6 +14,9 @@ const USER_OWNED_PATTERNS = [
   // refused by the server and dropped.
   /^nishany\.library\.(read|userArticles|personalTags|marks)/,
   /^nishany\.account\./,
+  // Question-of-the-day answers made offline, waiting to be submitted. Missing
+  // from this list they went to the shared store and every student read got 403.
+  /^nishany\.qotd\./,
   /^nishany-notification-read-v1-/,
   /^nishany-applied-voucher-v1$/,
   /^nishany\.qbank\./,

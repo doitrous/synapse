@@ -10,7 +10,6 @@ import { Kbd } from '@/components/ui/Kbd'
 import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { countOverlays } from '@/lib/overlayStack'
 import { Toggle } from '@/components/ui/Toggle'
-import { Tooltip } from '@/components/ui/Tooltip'
 import { PomodoroPanel, usePomodoroEngine, type PomodoroEngine } from './PomodoroTimer'
 import { FocusAudioPanel, useFocusAudio } from './FocusAudioPlayer'
 import type { Portal } from './nav'
@@ -119,7 +118,6 @@ function PomodoroButton({ engine, className }: { engine: PomodoroEngine; classNa
 
   return (
     <>
-      <Tooltip content={label} placement="bottom">
         <button
           type="button"
           ref={setAnchor}
@@ -143,7 +141,6 @@ function PomodoroButton({ engine, className }: { engine: PomodoroEngine; classNa
             </span>
           )}
         </button>
-      </Tooltip>
 
       {open && (
         <Popover
@@ -184,7 +181,6 @@ function AudioButton({ playing, className }: { playing: boolean; className?: str
 
   return (
     <>
-      <Tooltip content={label} placement="bottom">
         <button
           type="button"
           ref={setAnchor}
@@ -199,7 +195,6 @@ function AudioButton({ playing, className }: { playing: boolean; className?: str
             {playing && <span className="absolute -end-1 -top-1 size-1.5 rounded-full bg-primary ring-2 ring-paper" />}
           </span>
         </button>
-      </Tooltip>
 
       {open && (
         <Popover
@@ -261,7 +256,6 @@ function ToolsMenu({
 
   return (
     <>
-      <Tooltip content={t('Tools')} placement="bottom">
         <button
           type="button"
           ref={setAnchor}
@@ -287,7 +281,6 @@ function ToolsMenu({
             </span>
           )}
         </button>
-      </Tooltip>
 
       {open && (
         <Popover
@@ -448,7 +441,6 @@ export function TopbarAccount({ portal, canSwitchPortal }: { portal: Portal; can
 
   return (
     <>
-      <Tooltip content={t('Account')} placement="bottom">
         <button
           type="button"
           ref={setAnchor}
@@ -460,7 +452,6 @@ export function TopbarAccount({ portal, canSwitchPortal }: { portal: Portal; can
         >
           <Avatar name={identity.displayName} size="sm" src={avatar.src} />
         </button>
-      </Tooltip>
 
       {open && (
         <Popover

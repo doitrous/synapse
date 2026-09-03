@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { API_MODE, apiGet, apiPut, setStateOwnerId, SESSION_EXPIRED_EVENT } from './api'
+import { API_MODE, adoptOwnerLookup, apiPut, loadMe, setStateOwnerId, SESSION_EXPIRED_EVENT } from './api'
 import { usePersistentState } from './usePersistentState'
 import { retryAfterSignIn } from './stateStore'
 import { yearId as deriveYearId } from '@/data/taxonomy'
@@ -312,7 +312,11 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     const load = async () => {
       let me: MeResponse | null = null
       try {
-        me = await apiGet<MeResponse>('/me')
+        const request = loadMe<MeResponse>()
+        // The state store asks the same question for its recovery keys; hand it
+        // this request so a boot makes one `/me` call, not two.
+        void adoptOwnerLookup(request)
+        me = await request
       } catch {
         // A 401 here is the ordinary signed-out case, not a fault. Anything
         // else leaves the app unauthenticated too, which is the safe reading.

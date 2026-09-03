@@ -51,6 +51,21 @@ export interface QotdState {
 const EMPTY_HISTORY: string[] = []
 const NOOP_ANSWER = async (): Promise<void> => {}
 
+/**
+ * Three surfaces mount this hook on the dashboard at once, and each used to
+ * ask the server for today's question separately. One in-flight request is
+ * shared, and kept for a few seconds so a re-render storm cannot fan out again;
+ * a failure is forgotten immediately so the next caller retries.
+ */
+let todayShared: { at: number; promise: Promise<QotdTodayResponse> } | null = null
+function fetchToday(): Promise<QotdTodayResponse> {
+  if (todayShared && Date.now() - todayShared.at < 10_000) return todayShared.promise
+  const promise = apiGet<QotdTodayResponse>('/qotd/today')
+  todayShared = { at: Date.now(), promise }
+  promise.catch(() => { if (todayShared?.promise === promise) todayShared = null })
+  return promise
+}
+
 export function useQotd(enabled = true): QotdState {
   const identity = useIdentity()
   const date = qotdDateInCairo(new Date())
@@ -63,7 +78,7 @@ export function useQotd(enabled = true): QotdState {
     if (!API_MODE || !enabled) return
     setLiveLoading(true)
     try {
-      setLive(await apiGet<QotdTodayResponse>('/qotd/today'))
+      setLive(await fetchToday())
     } catch {
       setLive(null)
     } finally {

@@ -17,7 +17,9 @@ let ownerAsked: Promise<string | null> | null = null
 /** Told by the identity provider the moment `/api/me` answers. */
 export function setStateOwnerId(id: string | null): void {
   ownerId = id
-  ownerAsked = null
+  // "Nobody" is an answer, not an unknown: the store must not ask `/me` again
+  // until a sign-in says otherwise (which comes through here with an id).
+  ownerAsked = id ? null : Promise.resolve(null)
 }
 
 /**
@@ -31,16 +33,40 @@ export function setStateOwnerId(id: string | null): void {
  */
 export async function stateOwnerId(): Promise<string | null> {
   if (ownerId) return ownerId
-  ownerAsked ??= apiGet<{ user: { id: string } | null }>('/me')
+  ownerAsked ??= adoptOwnerLookup(loadMe())
+  return ownerAsked
+}
+
+let meInflight: Promise<unknown> | null = null
+/**
+ * `GET /api/me`, shared while in flight. The identity provider and any
+ * document hydrating before it both ask on boot; whichever asks first pays the
+ * round trip and the other joins it. Only concurrent calls are merged — a later
+ * reload (after sign-in, after onboarding) is a fresh request.
+ */
+export function loadMe<T = { user: { id: string } | null }>(): Promise<T> {
+  meInflight ??= apiGet<T>('/me').finally(() => { meInflight = null })
+  return meInflight as Promise<T>
+}
+
+/**
+ * Share one `/api/me` between the identity provider and the state store, so a
+ * boot costs a single round trip rather than two racing ones. A 401 is the
+ * signed-out answer and is kept (nobody is signed in until `setStateOwnerId`
+ * says otherwise); any other failure is dropped so the next asker retries.
+ */
+export function adoptOwnerLookup(request: Promise<{ user: { id: string } | null } | null>): Promise<string | null> {
+  const lookup = request
     .then((me) => {
-      ownerId = me.user?.id ?? null
+      ownerId = me?.user?.id ?? null
       return ownerId
     })
-    .catch(() => {
-      ownerAsked = null
+    .catch((error: unknown) => {
+      if (!(error instanceof ApiError && error.status === 401)) ownerAsked = null
       return null
     })
-  return ownerAsked
+  ownerAsked ??= lookup
+  return lookup
 }
 
 /**

@@ -398,6 +398,18 @@ export function hydrate(key: string): void {
   entry.hydrating = true
 
   const attempt = async () => {
+    // Nothing under /api/state answers without a session — student-owned or
+    // shared — and the server knows the session from the cookie alone, so there
+    // is no header to wait for. Ask once who is signed in (one shared /me) and,
+    // if nobody is, hold the read for `retryAfterSignIn` instead of sending it
+    // to be refused: a signed-out login page used to fire and retry every
+    // document it would need once signed in.
+    if (!(await stateOwnerId())) {
+      entry.hydrating = false
+      entry.awaitingSession = true
+      setStatus(entry, { error: 'unauthorized' })
+      return
+    }
     const remote = await (entry.userOwned ? getUserState(entry.key) : getState(entry.key))
     if (remote.error) {
       // Never mark this hydrated: writing now would push the local seed over a

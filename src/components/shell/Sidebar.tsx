@@ -230,7 +230,6 @@ function RailPreferences() {
         aria-haspopup="dialog"
         aria-expanded={open}
         aria-label={t('Appearance and language')}
-        title={t('Appearance and language')}
         className="mx-auto grid size-9 place-items-center rounded-md text-ink-3 transition-colors hover:bg-inset hover:text-ink"
       >
         <Icon icon={SlidersHorizontal} size={16} />

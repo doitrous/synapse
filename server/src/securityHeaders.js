@@ -22,7 +22,7 @@ export function inlineScriptHashes(html) {
   while ((match = re.exec(String(html ?? '')))) {
     const body = match[1]
     if (!body.trim()) continue
-    hashes.push(`sha256-${createHash('sha256').update(body, 'utf8').digest('base64')}`)
+    hashes.push(`'sha256-${createHash('sha256').update(body, 'utf8').digest('base64')}'`)
   }
   return hashes
 }

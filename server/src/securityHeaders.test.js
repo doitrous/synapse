@@ -16,7 +16,7 @@ test('inlineScriptHashes hashes only the script with no src, ignoring bundle tag
   const html = `<html><head><script>${body}</script></head><body><script type="module" src="/src/main.tsx"></script></body></html>`
   const hashes = inlineScriptHashes(html)
   assert.equal(hashes.length, 1)
-  const expected = `sha256-${createHash('sha256').update(body, 'utf8').digest('base64')}`
+  const expected = `'sha256-${createHash('sha256').update(body, 'utf8').digest('base64')}'`
   assert.equal(hashes[0], expected)
 })
 
@@ -25,8 +25,8 @@ test('inlineScriptHashes finds nothing when every script tag has a src', () => {
 })
 
 test('buildCsp allow-lists the given script hashes alongside the fixed policy', () => {
-  const csp = buildCsp(['sha256-abc123'])
-  assert.match(csp, /script-src 'self' https:\/\/challenges\.cloudflare\.com sha256-abc123/)
+  const csp = buildCsp(["'sha256-abc123'"])
+  assert.match(csp, /script-src 'self' https:\/\/challenges\.cloudflare\.com 'sha256-abc123'/)
   assert.match(csp, /frame-ancestors 'none'/)
   assert.match(csp, /object-src 'none'/)
 })
@@ -60,7 +60,7 @@ test('securityHeaders picks up the built index.html theme script by hash', (t) =
   writeFileSync(join(dir, 'index.html'), `<script>${body}</script>`)
   const res = fakeRes()
   securityHeaders({ publicDir: dir, enforce: false })({}, res, () => {})
-  const expected = `sha256-${createHash('sha256').update(body, 'utf8').digest('base64')}`
+  const expected = `'sha256-${createHash('sha256').update(body, 'utf8').digest('base64')}'`
   assert.match(res.headers['Content-Security-Policy-Report-Only'], new RegExp(expected.replace(/[+/]/g, '\\$&')))
 })
 

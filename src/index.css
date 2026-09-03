@@ -34,7 +34,7 @@
 
   --color-ink: #161920;        /* near-black, faintly cool */
   --color-ink-2: #5d636f;      /* body-safe muted, ≥4.5:1 on paper */
-  --color-ink-3: #949aa8;      /* faint — large or decorative only */
+  --color-ink-3: #5f6778;      /* faint — still ≥4.5:1 on every light surface (WCAG AA) */
 
   --color-line: #e3e7ef;       /* hairline */
   --color-line-2: #ccd3e0;     /* stronger rule / control border */
@@ -234,7 +234,7 @@
 
   --color-ink: #1f1b16;
   --color-ink-2: #675e51;
-  --color-ink-3: #9b9284;
+  --color-ink-3: #69604f;      /* ≥4.5:1 on the warm surfaces */
 
   --color-line: #e9e0d2;
   --color-line-2: #d7ccb9;
@@ -335,7 +335,7 @@
 
   --color-ink: #e8ecf3;        /* not #ffffff — that is only glare at 2am */
   --color-ink-2: #a2abbb;      /* 7.4:1 on surface */
-  --color-ink-3: #7d8798;      /* less faint here, so labels stay legible */
+  --color-ink-3: #8791a2;      /* ≥4.5:1 on every dark surface */
 
   --color-line: #232b37;
   --color-line-2: #38424f;
@@ -487,7 +487,7 @@
 
   --color-ink: #dfe2e8;        /* ~16.2:1 on paper, ~15.2:1 on surface — legible without glaring */
   --color-ink-2: #9aa1af;      /* ~8.1:1 on paper, ~7.6:1 on surface */
-  --color-ink-3: #6b7280;      /* faint, decorative-only — ~4.3:1 on paper */
+  --color-ink-3: #767d8b;      /* ≥4.5:1 on black and the OLED insets */
 
   --color-line: #1e1f24;
   --color-line-2: #32333a;

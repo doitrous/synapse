@@ -1,7 +1,6 @@
 import { Coffee, LightbulbOff, Moon, Sun } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
-import { Tooltip } from '@/components/ui/Tooltip'
 import { cn } from '@/lib/cn'
 import { THEMES, useTheme, type Theme } from '@/lib/useTheme'
 import { useT } from '@/lib/i18n'
@@ -32,7 +31,7 @@ export function ThemeSwitch({ className }: { className?: string }) {
       {THEMES.map((option) => {
         const active = option === theme
         return (
-          <Tooltip key={option} content={t(LABEL[option])} className="min-w-11 flex-1 sm:min-w-7">
+          <div key={option} className="min-w-11 flex-1 sm:min-w-7">
             <button
               type="button"
               role="radio"
@@ -46,7 +45,7 @@ export function ThemeSwitch({ className }: { className?: string }) {
             >
               <Icon icon={GLYPH[option]} size={15} />
             </button>
-          </Tooltip>
+          </div>
         )
       })}
     </div>
