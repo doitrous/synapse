@@ -2,8 +2,11 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, Check, ShieldCheck } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
+import { Button } from '@/components/ui/Button'
+import { TextInput } from '@/components/ui/Field'
 import { cn } from '@/lib/cn'
 import { formatNumber } from '@/lib/pricing'
+import { API_MODE, apiGet } from '@/lib/api'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
 import type { Lang } from '@/data/planCatalog'
 import type { LandingContent } from './content'
@@ -23,10 +26,45 @@ export function Pricing({ c }: { c: LandingContent }) {
   const lang = c.lang as Lang
   const [periodId, setPeriodId] = useState<PeriodId>('term')
 
+  interface VoucherQuote { period: PeriodId; totalAmount: number; appliedDiscount: { kind: string; code: string | null } | null }
+  const [voucherCode, setVoucherCode] = useState('')
+  const [voucherQuote, setVoucherQuote] = useState<VoucherQuote | null>(null)
+  const [voucherMessage, setVoucherMessage] = useState('')
+  const [checkingVoucher, setCheckingVoucher] = useState(false)
+
+  async function checkVoucher() {
+    const wanted = voucherCode.trim()
+    if (!wanted || periodId === 'year') return
+    if (!API_MODE) {
+      setVoucherMessage('Connect the backend to check a code.')
+      return
+    }
+    setCheckingVoucher(true)
+    setVoucherMessage('')
+    try {
+      const result = await apiGet<VoucherQuote & { error?: string }>(
+        `/pricing/quote?period=${periodId}&voucher=${encodeURIComponent(wanted)}`,
+      )
+      if (result.error) {
+        setVoucherMessage('That code is not valid.')
+        setVoucherQuote(null)
+        return
+      }
+      setVoucherQuote(result)
+      setVoucherMessage(result.appliedDiscount?.kind === 'voucher' ? 'Code applied.' : 'That code does not beat the current price.')
+    } catch {
+      setVoucherMessage('Could not check that code. Try again.')
+    } finally {
+      setCheckingVoucher(false)
+    }
+  }
+
   const amounts = useMemo(() => offerAmounts(catalog), [catalog])
   const savings = amounts.savings
   const termMonthly = amounts.termMonthly
-  const selectedAmount = periodId === 'month' ? amounts.month : periodId === 'term' ? amounts.term : null
+  const selectedAmount = voucherQuote && voucherQuote.period === periodId
+    ? voucherQuote.totalAmount
+    : periodId === 'month' ? amounts.month : periodId === 'term' ? amounts.term : null
   const signupHref = periodId === 'year' ? null : `/signup?plan=maristana&period=${periodId}`
 
   const options: { id: PeriodId; label: string; detail: string }[] = [
@@ -55,7 +93,7 @@ export function Pricing({ c }: { c: LandingContent }) {
                     type="button"
                     role="radio"
                     aria-checked={selected}
-                    onClick={() => setPeriodId(option.id)}
+                    onClick={() => { setPeriodId(option.id); setVoucherQuote(null); setVoucherMessage('') }}
                     className={cn(
                       'min-h-16 rounded-xl border px-3 py-3 text-start outline-none transition-[border-color,background-color] focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-surface',
                       selected ? 'border-primary bg-primary-tint' : 'border-line bg-surface hover:border-line-2 hover:bg-surface-2',
@@ -101,6 +139,26 @@ export function Pricing({ c }: { c: LandingContent }) {
                     <Icon icon={Check} size={15} className="text-success" />
                     {p.offer.fullAccess}
                   </p>
+                  <div className="mt-4 flex flex-wrap items-center gap-2">
+                    <TextInput
+                      value={voucherCode}
+                      onChange={(event) => setVoucherCode(event.target.value)}
+                      placeholder="Voucher code"
+                      aria-label="Voucher code"
+                      className="h-9 w-40 text-[12.5px]"
+                    />
+                    <Button
+                      type="button"
+                      variant="secondary"
+                      size="sm"
+                      loading={checkingVoucher}
+                      disabled={!voucherCode.trim() || periodId === 'year'}
+                      onClick={() => void checkVoucher()}
+                    >
+                      Apply
+                    </Button>
+                  </div>
+                  {voucherMessage && <p role="status" className="mt-1.5 text-[12px] text-ink-2">{voucherMessage}</p>}
                 </>
               )}
 
