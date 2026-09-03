@@ -9,6 +9,7 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
 import { managedDeckToStudentDeck, type StudentDeck } from '@/data/decks'
 import { useFlashcards } from '@/lib/useFlashcards'
+import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { ShortcutsProvider, useCommands, useOpenShortcutHelp } from '@/lib/shortcuts/useShortcuts'
 import type { Command } from '@/lib/shortcuts/registry'
 import { DeckDashboard, FlashcardsStatsGate } from '@/components/flashcards/DeckDashboard'
@@ -52,6 +53,9 @@ function FlashcardsShell() {
     [ledger],
   )
 
+  // Cheap: re-subscribes to the ledger entry `ledger` above already reads, just
+  // to recover the load status `providedDecks` otherwise drops on the floor.
+  const ledgerAvailability = useCatalogueAvailability(providedDecks.length)
   const api = useFlashcards(providedDecks)
   const [view, setView] = useState<FlashcardsView>('decks')
   const [studyDeckId, setStudyDeckId] = useState<string | null>(null)
@@ -119,6 +123,7 @@ function FlashcardsShell() {
       {view === 'decks' && (
         <DeckDashboard
           api={api}
+          ledgerAvailability={ledgerAvailability}
           onStudy={(deckId) => setStudyDeckId(deckId)}
           onAddToDeck={(deckId) => { setAddDeckId(deckId); setView('add') }}
         />

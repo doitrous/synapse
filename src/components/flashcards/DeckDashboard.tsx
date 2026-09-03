@@ -6,7 +6,9 @@ import { IconButton } from '@/components/ui/IconButton'
 import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { Dialog } from '@/components/ui/Dialog'
+import type { CatalogueAvailability } from '@/lib/catalogueAvailability'
 import { Tooltip } from '@/components/ui/Tooltip'
 import { Field, TextInput } from '@/components/ui/Field'
 import { SubjectTag } from '@/components/ui/Subject'
@@ -42,10 +44,13 @@ export function DeckDashboard({
   api,
   onStudy,
   onAddToDeck,
+  ledgerAvailability,
 }: {
   api: FlashcardsApi
   onStudy: (deckId: string) => void
   onAddToDeck: (deckId: string) => void
+  /** Load status of the published-deck ledger, so "no decks" isn't shown while it's still loading or unreachable. */
+  ledgerAvailability?: CatalogueAvailability
 }) {
   const t = useT()
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -74,6 +79,20 @@ export function DeckDashboard({
   const provided = api.decks.filter((d) => d.provided).sort((a, b) => a.name.localeCompare(b.name))
 
   if (api.decks.length === 0) {
+    // A published deck might still be on its way in — "No decks yet" is only
+    // true once the ledger has actually said so, not while it's loading or
+    // unreachable, which would otherwise tell a student to create a deck that
+    // is about to appear on its own.
+    if (ledgerAvailability && ledgerAvailability.kind !== 'ready' && ledgerAvailability.kind !== 'empty') {
+      return (
+        <Panel className="p-10">
+          <CatalogueUnavailable
+            availability={ledgerAvailability}
+            empty={{ title: t('No decks yet'), description: t('Create a deck to study by spaced repetition, or wait for a published deck to appear here.') }}
+          />
+        </Panel>
+      )
+    }
     return (
       <>
         <Panel className="p-10 text-center">

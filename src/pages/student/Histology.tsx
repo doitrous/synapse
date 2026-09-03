@@ -1,8 +1,11 @@
 import { Microscope as MicroscopeIcon } from 'lucide-react'
 import { ComingSoonBanner, HubStat } from '@/components/hub'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
+import { Panel } from '@/components/ui/Panel'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { HistologyBench } from '@/components/practical/HistologyBench'
 import { useLiveHistology } from '@/lib/useLiveHistology'
+import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { useT } from '@/lib/i18n'
 
 /**
@@ -16,6 +19,7 @@ import { useT } from '@/lib/i18n'
 export function Histology() {
   const t = useT()
   const { slides } = useLiveHistology()
+  const availability = useCatalogueAvailability(slides.length)
 
   return (
     <PageContainer>
@@ -30,7 +34,16 @@ export function Histology() {
         icon={MicroscopeIcon}
         body="Histology will mark what you name on a slide, the way the question bank marks an answer, and carry it into your record. Until then the bench is a preview: every published slide, at full magnification, with the labels revealed when you ask for them."
       />
-      <HistologyBench />
+      {availability.kind !== 'ready' ? (
+        <Panel className="p-8">
+          <CatalogueUnavailable
+            availability={availability}
+            empty={{ title: t('No slides published yet'), description: t('Published histology slides will appear here.') }}
+          />
+        </Panel>
+      ) : (
+        <HistologyBench />
+      )}
     </PageContainer>
   )
 }

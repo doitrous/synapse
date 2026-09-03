@@ -47,8 +47,10 @@ import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SkeletonList } from '@/components/ui/Skeleton'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { SubjectDot } from '@/components/ui/Subject'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
+import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { cn } from '@/lib/cn'
 import { BackBar } from '@/components/ui/BackBar'
 import { useT } from '@/lib/i18n'
@@ -78,6 +80,7 @@ export function Resources() {
   const t = useT()
   const subjectName = useSubjectName()
   const resources = useLiveResources()
+  const availability = useCatalogueAvailability(resources.length)
   const [universityCatalogue] = useUniversityCatalogue()
   const navigate = useNavigate()
   const [params] = useSearchParams()
@@ -367,7 +370,17 @@ export function Resources() {
         </p>
       )}
 
-      {section === 'mine' ? null : tree.length === 0 ? (
+      {section === 'mine' ? null : availability.kind !== 'ready' ? (
+        <Panel className="p-8">
+          <CatalogueUnavailable
+            availability={availability}
+            empty={{
+              title: section === 'video' ? t('No videos published yet') : t('No resources published yet'),
+              description: t('Files and videos will appear here once your faculty publishes them.'),
+            }}
+          />
+        </Panel>
+      ) : tree.length === 0 ? (
         <Panel>
           <EmptyState icon={section === 'video' ? Clapperboard : FileText} title={section === 'video' ? t('No videos match') : t('No resources match')} description={t('Try clearing a filter or searching for something else.')} />
         </Panel>

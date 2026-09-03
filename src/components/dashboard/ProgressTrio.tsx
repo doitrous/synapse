@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from 'react'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { cn } from '@/lib/cn'
 import { clamp } from '@/lib/format'
 import { useI18n, useT } from '@/lib/i18n'
@@ -9,6 +10,7 @@ import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/d
 import { useMastery } from '@/lib/useMastery'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { usePracticeProgress } from '@/lib/usePracticeProgress'
+import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 
 type Tone = 'danger' | 'primary' | 'success'
 
@@ -169,7 +171,20 @@ export function ProgressRingStack() {
   ]
 
   const shown = rows.filter((row) => row.present)
+  // Re-subscribes to the ledger entry the counts above are already derived
+  // from, just to recover the load status they otherwise drop.
+  const availability = useCatalogueAvailability(bankTotal + practicalTotal + essayTotal)
   if (!shown.length) {
+    if (availability.kind === 'loading' || availability.kind === 'error') {
+      return (
+        <Panel className="p-4">
+          <CatalogueUnavailable
+            availability={availability}
+            empty={{ title: t('Progress'), description: t('Nothing has been published for your year yet.') }}
+          />
+        </Panel>
+      )
+    }
     return (
       <Panel className="p-4">
         <p className="text-[12.5px] font-medium text-ink-2">{t('Progress')}</p>
@@ -256,7 +271,7 @@ function StatBox({
 export function ExamReadinessCard({ compact = false }: { compact?: boolean }) {
   const t = useT()
   const { ledger } = useMastery()
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [graph, , graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
 
   const totalConcepts = graph.concepts.length
   const bands = useMemo(() => {
@@ -276,7 +291,13 @@ export function ExamReadinessCard({ compact = false }: { compact?: boolean }) {
       <StatBox
         label={t('Curriculum coverage')}
         value=""
-        sub={t('Coverage appears once your curriculum concepts are published.')}
+        sub={
+          !graphStatus.hydrated
+            ? t('Loading…')
+            : graphStatus.error
+              ? t('This could not be loaded. It keeps retrying on its own.')
+              : t('Coverage appears once your curriculum concepts are published.')
+        }
         compact={compact}
       />
     )

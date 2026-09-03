@@ -25,7 +25,6 @@ export function Skills() {
     <PageContainer>
       <PageHeader
         title={t('Skills')}
-        description={t('The procedures you are expected to perform, marked as you practise them and as you become ready.')}
         back={{ fallback: '/app/practice' }}
         actions={summary.total ? (
           <HubStat label="Ready" value={`${summary.ready}/${summary.total}`} sub="marked ready" />
