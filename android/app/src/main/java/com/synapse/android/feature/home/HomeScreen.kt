@@ -1,6 +1,5 @@
 package com.synapse.android.feature.home
 
-import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -18,25 +17,28 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.graphics.StrokeCap
-import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -44,10 +46,13 @@ import com.synapse.android.AppGraph
 import com.synapse.android.design.CortexColors
 import com.synapse.android.design.CortexRadius
 import com.synapse.android.design.DailyGlyph
+import com.synapse.android.design.FlashcardsGlyph
 import com.synapse.android.design.HistoryGlyph
+import com.synapse.android.design.LibraryGlyph
 import com.synapse.android.design.LocalCortex
 import com.synapse.android.design.PracticalGlyph
 import com.synapse.android.design.QuestionBankGlyph
+import com.synapse.android.design.ResourcesGlyph
 import com.synapse.android.design.Wordmark
 
 /**
@@ -78,13 +83,23 @@ fun HomeRoute(
 
 /**
  * A greeting, the day's own target, a resume card for a sitting still open,
- * and the four surfaces a student reaches for most.
+ * the four doors the redesigned web dashboard leads with, and -- below that
+ * -- what this tab already carried before the redesign.
  *
- * Ported layout-for-layout from the "Nishany Brand System" design canvas
- * (`ScreenEN.dc.html`): header, greeting, hero target card, an optional
- * resume card, then a 2x2 grid. Padding runs on `start`/`end`, never
- * `left`/`right`, so the layout mirrors correctly the day the app grows an
- * Arabic locale -- see [Modifier.padding] calls below.
+ * Ported top-down from the M3 web dashboard (`src/pages/student/Dashboard.tsx`,
+ * `TodaysTargetHero.tsx`, `TargetSeed.tsx`, `ResumeSessionCard.tsx`,
+ * `DashboardNavGrid.tsx`): header, serif greeting, the Midnight Seed hero
+ * card, an optional resume card, then the Practice/Flashcards/Library/
+ * Resources grid. Android has no Flashcards, Library or Resources screen yet
+ * (see [ComingSoonDialog]) -- those three tiles show what they are and how
+ * they'll count once a later milestone builds the screen, not a fabricated
+ * one now. Practical, the daily question and previous sittings are real,
+ * working Android surfaces the web dashboard doesn't carry at all, so they
+ * stay -- moved under the new grid rather than dropped -- as [MoreGrid].
+ *
+ * Padding runs on `start`/`end`, never `left`/`right`, so the layout mirrors
+ * correctly the day the app grows an Arabic locale -- see [Modifier.padding]
+ * calls below.
  */
 @Composable
 fun HomeScreen(
@@ -95,6 +110,8 @@ fun HomeScreen(
     onOpenAccount: () -> Unit,
 ) {
     val cortex = LocalCortex.current
+    var comingSoon by remember { mutableStateOf<String?>(null) }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -105,7 +122,7 @@ fun HomeScreen(
     ) {
         HomeHeader(avatarInitial = ui.avatarInitial, onAvatarClick = onOpenAccount)
 
-        Text(ui.greeting, style = MaterialTheme.typography.titleLarge, color = cortex.ink)
+        Text(ui.greeting, style = MaterialTheme.typography.headlineLarge, color = cortex.ink)
 
         HeroTargetCard(ui = ui, onContinue = onOpenQuestionBank)
 
@@ -113,12 +130,22 @@ fun HomeScreen(
             ResumeCard(resume = resume, onResume = onOpenQuestionBank)
         }
 
-        HomeGrid(
+        DashboardNavGrid(
             ui = ui,
             onOpenQuestionBank = onOpenQuestionBank,
+            onShowComingSoon = { comingSoon = it },
+        )
+
+        MoreGrid(
+            ui = ui,
             onOpenPractical = onOpenPractical,
             onOpenDaily = onOpenDaily,
+            onOpenPreviousSittings = onOpenQuestionBank,
         )
+    }
+
+    comingSoon?.let { title ->
+        ComingSoonDialog(title = title, onDismiss = { comingSoon = null })
     }
 }
 
@@ -147,6 +174,7 @@ private fun HomeHeader(avatarInitial: String, onAvatarClick: () -> Unit) {
     }
 }
 
+/** The Midnight Seed ring, today's status line, and the one action that keeps it moving -- a port of `TodaysTargetHero.tsx`. */
 @Composable
 private fun HeroTargetCard(ui: HomeUi, onContinue: () -> Unit) {
     val cortex = LocalCortex.current
@@ -160,7 +188,7 @@ private fun HeroTargetCard(ui: HomeUi, onContinue: () -> Unit) {
         horizontalArrangement = Arrangement.spacedBy(18.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        TargetRing(progress = progressOf(ui))
+        TargetSeed(done = ui.todayCount, goal = ui.goal, diameter = 88.dp)
 
         Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text(
@@ -182,9 +210,6 @@ private fun HeroTargetCard(ui: HomeUi, onContinue: () -> Unit) {
     }
 }
 
-private fun progressOf(ui: HomeUi): Float =
-    if (ui.goal <= 0) 0f else (ui.todayCount.toFloat() / ui.goal).coerceIn(0f, 1f)
-
 @Composable
 private fun StatusLine(ui: HomeUi, cortex: CortexColors) {
     if (ui.earned) {
@@ -201,54 +226,7 @@ private fun StatusLine(ui: HomeUi, cortex: CortexColors) {
     Text(text, fontSize = 13.sp, color = cortex.ink2)
 }
 
-/**
- * The 88dp target ring: a full track, a faint inner circle purely for
- * texture, and the progress arc starting at twelve o'clock and sweeping
- * clockwise -- drawn with [Canvas]/`drawArc` rather than a vector asset so
- * [progress] can animate against a live figure with no per-frame asset swap.
- */
-@Composable
-private fun TargetRing(progress: Float, modifier: Modifier = Modifier, diameter: Dp = 88.dp) {
-    val cortex = LocalCortex.current
-    Canvas(modifier = modifier.size(diameter)) {
-        val strokeWidth = 8.dp.toPx()
-        val arcDiameter = size.minDimension - strokeWidth
-        val topLeft = Offset((size.width - arcDiameter) / 2f, (size.height - arcDiameter) / 2f)
-        val arcSize = androidx.compose.ui.geometry.Size(arcDiameter, arcDiameter)
-
-        drawArc(
-            color = cortex.inset,
-            startAngle = 0f,
-            sweepAngle = 360f,
-            useCenter = false,
-            topLeft = topLeft,
-            size = arcSize,
-            style = Stroke(width = strokeWidth, cap = StrokeCap.Round),
-        )
-
-        // A faint inner ring for texture -- r30/44 of the mock's 88dp ring.
-        val innerRadius = (size.minDimension / 2f) * (30f / 44f)
-        drawCircle(
-            color = cortex.line,
-            radius = innerRadius,
-            center = center,
-            style = Stroke(width = 1.5.dp.toPx()),
-        )
-
-        drawArc(
-            color = cortex.primary,
-            startAngle = -90f,
-            sweepAngle = 360f * progress,
-            useCenter = false,
-            topLeft = topLeft,
-            size = arcSize,
-            style = Stroke(width = strokeWidth, cap = StrokeCap.Round),
-        )
-
-        drawCircle(color = cortex.primary, radius = 4.dp.toPx(), center = center)
-    }
-}
-
+/** "Pick up where you left off": the paused sitting's name and position, and an outlined-crimson way back in -- a port of `ResumeSessionCard.tsx`. */
 @Composable
 private fun ResumeCard(resume: ResumeInfo, onResume: () -> Unit) {
     val cortex = LocalCortex.current
@@ -258,7 +236,6 @@ private fun ResumeCard(resume: ResumeInfo, onResume: () -> Unit) {
             .clip(RoundedCornerShape(14.dp))
             .background(cortex.surface)
             .border(1.dp, cortex.line, RoundedCornerShape(14.dp))
-            .clickable(onClick = onResume)
             .padding(horizontal = 16.dp, vertical = 14.dp),
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically,
@@ -276,41 +253,92 @@ private fun ResumeCard(resume: ResumeInfo, onResume: () -> Unit) {
                 color = cortex.ink2,
             )
         }
-        ResumePill()
+        OutlinedButton(
+            onClick = onResume,
+            border = BorderStroke(1.dp, cortex.primaryLine),
+            colors = ButtonDefaults.outlinedButtonColors(contentColor = cortex.primaryStrong),
+            shape = CircleShape,
+            contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
+        ) {
+            Text("Resume", fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+        }
     }
 }
 
+/**
+ * Practice, Flashcards, Library, Resources -- the four doors the redesigned
+ * web dashboard leads with (`DashboardNavGrid.tsx`). Practice is the one tile
+ * with a real Android screen behind it today ([HomeUi.questionCount], the
+ * same pool the Question Bank tab itself reads); the other three route to
+ * [onShowComingSoon] instead of a screen this milestone was told not to
+ * fabricate.
+ */
 @Composable
-private fun ResumePill() {
-    val cortex = LocalCortex.current
-    Box(
-        modifier = Modifier
-            .clip(CircleShape)
-            .background(cortex.primaryTint)
-            .border(1.dp, cortex.primaryLine, CircleShape)
-            .padding(horizontal = 12.dp, vertical = 6.dp),
-    ) {
-        Text("Resume", fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = cortex.primaryStrong)
-    }
-}
-
-@Composable
-private fun HomeGrid(
+private fun DashboardNavGrid(
     ui: HomeUi,
     onOpenQuestionBank: () -> Unit,
-    onOpenPractical: () -> Unit,
-    onOpenDaily: () -> Unit,
+    onShowComingSoon: (String) -> Unit,
 ) {
+    val cortex = LocalCortex.current
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        val cortex = LocalCortex.current
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             GridCard(
                 icon = { QuestionBankGlyph(color = cortex.accentStrong) },
-                label = "Question bank",
+                label = "Practice",
                 sublabel = "${groupedCount(ui.questionCount)} questions",
                 onClick = onOpenQuestionBank,
                 modifier = Modifier.weight(1f),
             )
+            GridCard(
+                icon = { FlashcardsGlyph(color = cortex.accentStrong) },
+                label = "Flashcards",
+                sublabel = "Coming soon",
+                onClick = { onShowComingSoon("Flashcards") },
+                modifier = Modifier.weight(1f),
+            )
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            GridCard(
+                icon = { LibraryGlyph(color = cortex.accentStrong) },
+                label = "Library",
+                sublabel = "Coming soon",
+                onClick = { onShowComingSoon("Library") },
+                modifier = Modifier.weight(1f),
+            )
+            GridCard(
+                icon = { ResourcesGlyph(color = cortex.accentStrong) },
+                label = "Resources",
+                sublabel = "Coming soon",
+                onClick = { onShowComingSoon("Resources") },
+                modifier = Modifier.weight(1f),
+            )
+        }
+    }
+}
+
+/**
+ * What this tab already carried before the M3 redesign -- Practical stations,
+ * the daily question, and previous sittings -- kept below the new hero grid
+ * rather than dropped, since the redesigned web dashboard has no equivalent
+ * of any of the three to fold them into. Restyled onto the same [GridCard]
+ * the grid above uses, so it reads as one system rather than a leftover
+ * screen bolted underneath.
+ */
+@Composable
+private fun MoreGrid(
+    ui: HomeUi,
+    onOpenPractical: () -> Unit,
+    onOpenDaily: () -> Unit,
+    onOpenPreviousSittings: () -> Unit,
+) {
+    val cortex = LocalCortex.current
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Text(
+            "MORE",
+            style = MaterialTheme.typography.labelSmall,
+            color = cortex.ink3,
+        )
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             GridCard(
                 icon = { PracticalGlyph(color = cortex.accentStrong) },
                 label = "Practical",
@@ -318,8 +346,6 @@ private fun HomeGrid(
                 onClick = onOpenPractical,
                 modifier = Modifier.weight(1f),
             )
-        }
-        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             GridCard(
                 icon = { DailyGlyph(color = cortex.accentStrong) },
                 label = "Daily question",
@@ -327,15 +353,31 @@ private fun HomeGrid(
                 onClick = onOpenDaily,
                 modifier = Modifier.weight(1f),
             )
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             GridCard(
                 icon = { HistoryGlyph(color = cortex.accentStrong) },
                 label = "Previous sittings",
                 sublabel = "${groupedCount(ui.previousSittingsCount)} sittings",
-                onClick = onOpenQuestionBank,
+                onClick = onOpenPreviousSittings,
                 modifier = Modifier.weight(1f),
             )
+            Spacer(modifier = Modifier.weight(1f))
         }
     }
+}
+
+/** A tile whose screen this milestone doesn't build yet -- what it will do, in plain words, instead of a broken tap. */
+@Composable
+private fun ComingSoonDialog(title: String, onDismiss: () -> Unit) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        confirmButton = {
+            TextButton(onClick = onDismiss) { Text("OK") }
+        },
+        title = { Text(title) },
+        text = { Text("$title isn't in the app yet -- it's on the way in a later update.") },
+    )
 }
 
 @Composable
