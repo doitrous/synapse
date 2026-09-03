@@ -214,6 +214,7 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 | `subtopic` | Subtopic | More specific curriculum location | `''` |
 | `difficulty` | Intended difficulty | `Easy` · `Moderate` · `Hard` · `Challenging` | `Moderate` |
 | `question_type` | Question type | `Pathophysiology` · `Diagnosis` · `Investigation` · `Treatment` · `Management` · `Mechanism` · `Classification` · `Pharmacology` · `Anatomy` · `Other` | `''` |
+| `source` | MCQ source | `dept-mcq` · `dept-book` · `past-paper` — the student-facing source picker filters on this. Blank = unspecified | `''` |
 | `cognitive_effort` | Cognitive effort | `Low` · `Medium` · `High` | `Medium` |
 | `cognitive_effort_score` | Cognitive effort (0–1) | Finer-grained than the band above | `0.5` |
 | `setting` | Academic / clinical | `Academic` · `Clinical` · `Both` | `Both` |

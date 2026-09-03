@@ -102,6 +102,7 @@ const QUESTION_MCQ = {
   subtopic: 'Pulmonary embolism',
   difficulty: 'Moderate',
   question_type: 'Diagnosis',
+  source: 'past-paper',
   main_concept: 'med.concept.pe',
   module: 'CVS 01',
   module_subject: 'CVS 01 > Medicine > Venous thromboembolism',

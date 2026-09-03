@@ -25,6 +25,7 @@ import { optionalList } from './importSemantics.ts'
 import { parseCardLines } from './decks.ts'
 import { parseKeyPoints, type EssayAuthoringData } from './essay.ts'
 import { OBJECTIVES, type SlideView, type HistologyAuthoringData } from './histology.ts'
+import { QUESTION_SOURCES, type QuestionSource } from './questionSource.ts'
 
 export interface ImportFieldDefinition {
   key: string
@@ -74,6 +75,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'subtopic', label: 'Subtopic', help: 'More specific curriculum location.' },
       { key: 'difficulty', label: 'Intended difficulty', help: 'Easy, Moderate, Hard, or Challenging.' },
       { key: 'question_type', label: 'Question type', help: 'What it tests — e.g. Pathophysiology, Diagnosis, Investigation, Treatment, Mechanism.' },
+      { key: 'source', label: 'MCQ source', help: 'One of dept-mcq | dept-book | past-paper. Blank = unspecified.' },
       { key: 'main_concept', label: 'Main concept(s)', help: 'The concept ID(s) this question primarily tests. At least one is expected.' },
       { key: 'module', label: 'Module ID(s)', help: 'Every module this question is applicable to, separated by |, ; or new lines.' },
       { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
@@ -1198,6 +1200,16 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const completion = parseCompletion(values.completion_text)
     const derivedFrom = parseDerivedFrom(values.derived_from)
     const difficulty = enumValue<QuestionTags['intendedDifficulty']>(values.difficulty, ['Easy', 'Moderate', 'Hard', 'Challenging'], 'Moderate')
+    // The student-facing MCQ source. Unlike the other enums this has no fallback:
+    // an absent or unrecognised value is left `undefined` (bucketed 'unspecified'),
+    // which is a first-class rollout state, not an error. `mergeAuthoringData`
+    // skips the `undefined`, so re-importing a batch that only now carries
+    // `## source` updates the stored question while a silent row leaves it alone.
+    const sourceValue = values.source?.trim()
+    const sourceCategory: QuestionSource | undefined =
+      sourceValue && (QUESTION_SOURCES as readonly string[]).includes(sourceValue)
+        ? (sourceValue as QuestionSource)
+        : undefined
     // `answers` and `correctAnswer` stay eager: `question` and `correct_answer`
     // are required columns and the validator rejects a correct answer with no
     // text, so a row that reaches here has always restated them.
@@ -1250,6 +1262,9 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
           cognitiveEffortScore: clamp01(values.cognitive_effort_score),
           examWeightByYear: values.exam_weight_by_year?.trim() ? parseWeightMap(values.exam_weight_by_year) : undefined,
           questionOnlyFor: optionalList(values.question_only_for),
+          // Single source of truth for the MCQ source; `usePublishedQuestions`
+          // copies it to `Question.source`, which `bucketOf` reads to filter.
+          sourceCategory,
         },
         mediaRequests: values.media_recommendations?.trim() ? parseMediaRequests(values.media_recommendations, id, 'question') : undefined,
         learningObjective: text('learning_objective') as string,
