@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <desc>Nishany — the Noon Dot mark</desc>
-  <circle cx="32" cy="32" r="29" stroke="#c4d9f7" stroke-width="2"/>
-  <path d="M18.6 21.75 A17.5 17.5 0 1 0 45.4 21.75" stroke="#1553b3" stroke-width="9" stroke-linecap="round"/>
-  <circle cx="32" cy="28.5" r="6" fill="#d13a63"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <desc>Nishany — the Noon mark (ن): top-right-opening arcs with a crimson dot in the mouth</desc>
+  <circle cx="50" cy="50" r="34" fill="none" stroke="#a81d40" stroke-width="8" stroke-linecap="round" stroke-dasharray="163.2 50.4"/>
+  <circle cx="50" cy="50" r="20" fill="none" stroke="#e0859b" stroke-width="7" stroke-linecap="round" stroke-dasharray="96 29.7"/>
+  <circle cx="72" cy="28" r="5" fill="#a81d40"/>
 </svg>

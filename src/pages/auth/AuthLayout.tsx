@@ -27,18 +27,17 @@ const WARM = {
 }
 
 /**
- * The small lockup mark beside "nishany" on the brand panel: two concentric
- * rings, crimson outer / rose inner. A standalone SVG rather than reusing
- * `NishanyMark`, whose non-monochrome colours are wired to the app's (cool)
- * `--brand-blue` token — wrong on a warm panel — and whose `monochrome` mode
- * collapses both rings to one colour, losing the two-tone read this panel
- * wants.
+ * The lockup mark beside "nishany" on the brand panel: the Noon mark (ن) — two
+ * concentric arcs opening top-right (crimson outer, rose inner) with a crimson
+ * dot in the mouth. Same vector as `NishanyMark`; drawn locally so the WARM
+ * hex is the single source of truth on this deliberately-warm panel.
  */
 function WordmarkRingIcon({ size = 24 }: { size?: number }) {
   return (
-    <svg aria-hidden focusable="false" viewBox="0 0 32 32" width={size} height={size}>
-      <circle cx="16" cy="16" r="14" fill="none" stroke={WARM.crimson} strokeWidth="2" />
-      <circle cx="16" cy="16" r="8" fill="none" stroke={WARM.rose} strokeWidth="2.5" />
+    <svg aria-hidden focusable="false" viewBox="0 0 100 100" width={size} height={size} fill="none">
+      <circle cx="50" cy="50" r="34" fill="none" stroke={WARM.crimson} strokeWidth="8" strokeLinecap="round" strokeDasharray="163.2 50.4" />
+      <circle cx="50" cy="50" r="20" fill="none" stroke={WARM.rose} strokeWidth="7" strokeLinecap="round" strokeDasharray="96 29.7" />
+      <circle cx="72" cy="28" r="5" fill={WARM.crimson} />
     </svg>
   )
 }
