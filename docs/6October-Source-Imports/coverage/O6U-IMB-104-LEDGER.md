@@ -1,7 +1,7 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | bio104 | 34 | 0 | 0 | 34 |
-| bio104-ch1-unselected | 0 | 0 | 26 | 26 |
+| bio104-ch1-unselected | 26 | 1 | 0 | 27 |
 | bio104-ch2-unselected | 0 | 0 | 15 | 15 |
 | bio104-ch3-unselected | 0 | 0 | 19 | 19 |
 | bio104-ch4-unselected | 0 | 0 | 22 | 22 |
@@ -10,35 +10,9 @@
 | mbi-final | 0 | 0 | 20 | 20 |
 
 ## Held
-(none)
+- bio104-ch1-unselected-q09 — Duplicate of already-authored bio104-q04 (same stem/options: "The melting temperature of DNA is increased by its:", answer G and C content). bio104-q04's own source_citation reads "Q10, p2", an off-by-one label slip from the first authoring pass -- its actual question content is this chapter's real Q9. Authoring this key again would duplicate that record; see ch1-unselected-q10 below for the real gap the slip left open.
 
 ## Remaining
-- bio104-ch1-unselected-q02
-- bio104-ch1-unselected-q04
-- bio104-ch1-unselected-q05
-- bio104-ch1-unselected-q07
-- bio104-ch1-unselected-q08
-- bio104-ch1-unselected-q09
-- bio104-ch1-unselected-q11
-- bio104-ch1-unselected-q12
-- bio104-ch1-unselected-q14
-- bio104-ch1-unselected-q15
-- bio104-ch1-unselected-q16
-- bio104-ch1-unselected-q18
-- bio104-ch1-unselected-q19
-- bio104-ch1-unselected-q20
-- bio104-ch1-unselected-q21
-- bio104-ch1-unselected-q22
-- bio104-ch1-unselected-q23
-- bio104-ch1-unselected-q24
-- bio104-ch1-unselected-q25
-- bio104-ch1-unselected-q26
-- bio104-ch1-unselected-q27
-- bio104-ch1-unselected-q28
-- bio104-ch1-unselected-q30
-- bio104-ch1-unselected-q31
-- bio104-ch1-unselected-q32
-- bio104-ch1-unselected-q35
 - bio104-ch2-unselected-q02
 - bio104-ch2-unselected-q03
 - bio104-ch2-unselected-q05
