@@ -60,8 +60,10 @@ export interface TestBuilderProps {
   setSource: (next: DrawFrom) => void
   /** How many questions each of those lists holds, for the chips. */
   sourceCounts: Record<DrawFrom, number>
-  /** Step 2 — the chosen source buckets. Read-only while source filtering is unreleased. */
+  /** Step 2 — the chosen source buckets. Empty means "all sources". */
   sourceSel: Set<SourceBucket>
+  /** Toggles one bucket in or out of `sourceSel`. */
+  onToggleSource: (bucket: SourceBucket) => void
   /** Every canonical source with its count under the current scope. */
   sourceCards: SourceCard[]
   /** Step 3 — the topic scope, and the pools the chooser draws its tree and counts from. */
@@ -130,6 +132,7 @@ export function TestBuilder({
   setSource,
   sourceCounts,
   sourceSel,
+  onToggleSource,
   sourceCards,
   scope,
   setScope,
@@ -164,9 +167,6 @@ export function TestBuilder({
     ? t('every topic')
     : scope.size === 1 ? t('1 topic selected') : `${scope.size} ${t('topics selected')}`
   const modeLabel = mode === 'tutor' ? t('Tutor mode') : t('Timed mode')
-  // `sourceSel` stays wired for the release that turns source filtering on. It
-  // is empty ("all sources") throughout, so it adds nothing to this line yet —
-  // reading it here is what keeps the prop honest rather than decorative.
   const sourceLabel = sourceSel.size > 0 ? ` · ${sourceSel.size} ${t('sources')}` : ''
   const summary = `${drawLabel} · ${scopeLabel} · ${modeLabel}${sourceLabel}`
 
@@ -193,10 +193,9 @@ export function TestBuilder({
             />
           </Step>
 
-          {/* Source filtering is authored but not yet released. Folded away by
-              default rather than removed: the option stays discoverable for
-              anyone who goes looking, without a whole panel of inert cards
-              standing between the two steps that do work. */}
+          {/* Folded away by default rather than always open: the option stays
+              discoverable for anyone who goes looking, without a whole panel
+              of cards standing between the two steps most students use. */}
           <Panel className="p-0">
             <button
               type="button"
@@ -211,7 +210,9 @@ export function TestBuilder({
                 </span>
                 {t('Question source')}
               </h2>
-              <Badge tone="outline">{t('Coming soon')}</Badge>
+              {sourceSel.size > 0 && (
+                <Badge tone="primary">{sourceSel.size} {t('selected')}</Badge>
+              )}
               <Icon
                 icon={ChevronDown}
                 size={16}
@@ -220,23 +221,30 @@ export function TestBuilder({
             </button>
             <Collapse open={sourceOpen} id="question-source-body">
               <div className="px-5 pb-5">
-                <div className="grid grid-cols-2 gap-2 opacity-60 sm:grid-cols-4">
+                <div role="group" aria-label={t('Question source')} className="grid grid-cols-2 gap-2 sm:grid-cols-4">
                   {sourceCards.map((opt) => {
                     const SourceIcon = opt.bucket === 'dept-book' ? BookOpen
                       : opt.bucket === 'dept-mcq' ? ListChecks
                         : opt.bucket === 'past-paper' ? GraduationCap
                           : MoreHorizontal
+                    const on = sourceSel.has(opt.bucket)
                     return (
                       <button
                         key={opt.bucket}
                         type="button"
-                        aria-disabled="true"
-                        tabIndex={-1}
-                        className="pointer-events-none flex min-h-[44px] flex-col items-start gap-1 rounded-lg border border-line-2 bg-surface px-3 py-2.5 text-start"
+                        aria-pressed={on}
+                        onClick={() => onToggleSource(opt.bucket)}
+                        className={cn(
+                          'flex min-h-[44px] flex-col items-start gap-1 rounded-lg border px-3 py-2.5 text-start transition-colors',
+                          'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
+                          on ? 'border-primary-line bg-primary-tint' : 'border-line-2 bg-surface hover:bg-inset/50',
+                        )}
                       >
-                        <Icon icon={SourceIcon} size={16} className="text-ink-3" />
-                        <span className="text-[12.5px] font-semibold leading-tight text-ink">{t(opt.label)}</span>
-                        <span className="tnum font-mono text-[11px] text-ink-3">
+                        <Icon icon={SourceIcon} size={16} className={on ? 'text-primary-strong' : 'text-ink-3'} />
+                        <span className={cn('text-[12.5px] font-semibold leading-tight', on ? 'text-primary-strong' : 'text-ink')}>
+                          {t(opt.label)}
+                        </span>
+                        <span className={cn('tnum font-mono text-[11px]', on ? 'text-primary-strong' : 'text-ink-3')}>
                           {opt.count === 0 ? t('none yet') : `${opt.count} ${t('questions')}`}
                         </span>
                       </button>
@@ -244,7 +252,9 @@ export function TestBuilder({
                   })}
                 </div>
                 <p className="mt-2 text-[11.5px] leading-relaxed text-ink-3">
-                  {t('Source filtering arrives with the next content release.')}
+                  {sourceSel.size === 0
+                    ? t('Nothing selected — questions are drawn from every source.')
+                    : t('Pick more than one to draw from any of them.')}
                 </p>
               </div>
             </Collapse>
