@@ -1,0 +1,23 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank Lecture 47 (Benign epithelial tumors classification and examples) True/False-formatted and blank-stem rows (Quiz 47 Q6-Q9, q395-q398). Held as format-incompatible / unrecoverable: the emit-mcq.mjs/validate-content-batch.mjs contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed, and q396's stem prints no question text at all.",
+  "questions": [
+    {
+      "key": "quizzes-2022-q395",
+      "hold": "True/False-formatted question (Quiz 47 Q6, p191: 'Fibroadenoma is a benign tumor of the breast.' -- printed answer 'True'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong classifications the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q396",
+      "hold": "Unrecoverable stem (Quiz 47 Q7, p191): the source PDF prints only a row of dashes ('-------------------------------') where the question text should be, with a printed answer of 'False'. No question text survives in the extracted layer to author against -- held as content-unrecoverable, not resolved by inference, since fabricating a stem to match an isolated 'False' key would not reflect the source."
+    },
+    {
+      "key": "quizzes-2022-q397",
+      "hold": "True/False-formatted question (Quiz 47 Q8, p191: 'Adenomas are benign tumors of surface epithelium.' -- printed answer 'False', since adenomas arise from glandular, not surface, epithelium). Held as format-incompatible, same reasoning as q395. The underlying fact is already covered by this same lecture's authored Q3/Q4 (q392/q393, adenoma as the benign tumour of glandular origin) -- not a coverage gap."
+    },
+    {
+      "key": "quizzes-2022-q398",
+      "hold": "True/False-formatted question (Quiz 47 Q9, p191: 'Duct papilloma is a benign tumor arise from the breast and Pleomorphic adenoma ia a tumor of salivary gland' -- printed answer 'True'). Held as format-incompatible, same reasoning as q395. This combines two distinct facts (duct papilloma/breast, pleomorphic adenoma/salivary gland) in one True/False stem; converting it to a real 4-5-option MCQ would require inventing three additional wrong site pairings the source never tested -- not resolvable without fabricating content."
+    }
+  ]
+}
