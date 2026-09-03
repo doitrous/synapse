@@ -123,3 +123,20 @@ resume: author the Biochemistry/Physiology sub-block (p13-22, ~34/38 auto-keyed)
 Embryology sub-block (p3-11, tool-gap but confirmed keyed) of this same paper, then move to
 the Answer-Labeled paper (highlight-convention, render-budget-heavy) and the Biochemistry
 First Module Exam 2019 paper (not yet opened this round).
+
+## Lane-2 addendum (this round)
+
+Both remaining sub-blocks of Support 43 are now authored: Biochemistry/Physiology
+(37/38, q02 held for <4 options) and Embryology (35/36, q29 held for <4 options) — see
+coverage/seeds/MU-MED101/f1supp43-{biochemphys,embryo}.json. Both sub-blocks' "tool gap"
+(pagetext.mjs keys under-reading them) turned out to share one root cause: the source's
+`a-text`/`8.text` option and question punctuation carries no space, which the tool's
+QUESTION_RE/OPTION_RE regexes require. Resolved for every item in both sub-blocks by reading
+the PDF's own per-span colour data directly with a one-off diagnostic script (same
+colour-distance-from-black threshold pagetext.mjs's own `keys` command uses) rather than by
+rendering — 0 of the lane's remaining 5-render budget spent this round (14-render lane total
+still at 9 used). Support 43 — With Answers is now fully authored (4/4 sub-blocks, 113
+authored + 7 held across anat/histo/biochemphys/embryo). Resume-first for the next round:
+`mu_191aaaeeff88f7bfd219` (EOM Practice - Foundation 1 - Anatomy Embryology Histology -
+Answer-Labeled.pdf, 13pp, yellow-highlight key convention, confirmed keyed 4/4 on a 1-render
+sample — see the tier-1 inventory table above).
