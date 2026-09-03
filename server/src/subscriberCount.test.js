@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { dailyMultiplierPercent } from './subscriberCount.js'
+import { dailyMultiplierPercent, syntheticValueAt } from './subscriberCount.js'
 
 test('the daily multiplier always lands within [minPct, maxPct]', () => {
   for (let day = 0; day < 2000; day++) {
@@ -11,4 +11,23 @@ test('the daily multiplier always lands within [minPct, maxPct]', () => {
 
 test('the daily multiplier is deterministic for the same day and seed', () => {
   assert.equal(dailyMultiplierPercent(19000, 0.3, 2.5, 7), dailyMultiplierPercent(19000, 0.3, 2.5, 7))
+})
+
+test('the synthetic value is always a whole number', () => {
+  const doc = { base: 790, epoch: Date.UTC(2026, 0, 1), minPct: 0.3, maxPct: 2.5 }
+  for (let days = 0; days < 30; days++) {
+    const at = doc.epoch + days * 86_400_000 + 12 * 3_600_000
+    assert.ok(Number.isInteger(syntheticValueAt(at, doc)), `day ${days} not an integer`)
+  }
+})
+
+test('the synthetic value never drops as time moves forward within a day', () => {
+  const doc = { base: 790, epoch: Date.UTC(2026, 0, 1), minPct: 0.3, maxPct: 2.5 }
+  const dayStart = doc.epoch + 3 * 86_400_000
+  let previous = syntheticValueAt(dayStart, doc)
+  for (let hour = 1; hour <= 24; hour++) {
+    const value = syntheticValueAt(dayStart + hour * 3_600_000, doc)
+    assert.ok(value >= previous, `hour ${hour}: ${value} < ${previous}`)
+    previous = value
+  }
 })

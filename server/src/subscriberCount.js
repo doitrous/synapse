@@ -28,3 +28,39 @@ export function dailyMultiplierPercent(day, minPct, maxPct, daySeed = 0) {
   const unit = x / 4294967296 // → [0, 1)
   return minPct + unit * (maxPct - minPct)
 }
+
+/**
+ * The synthetic total's {dayStart, dayEnd, fraction} bounds for `nowMs`.
+ *
+ * `dayStart` is the value at the most recent UTC midnight, computed by
+ * compounding one full calendar day at a time from `epoch`. `dayEnd` is what
+ * today grows it to. `fraction` is how far through today `nowMs` is, so the
+ * caller eases linearly between the two — "increases across the day" rather
+ * than jumping at midnight.
+ *
+ * ponytail: one loop iteration per calendar day since `epoch`. `epoch` resets
+ * whenever a superadmin changes `base` (see `nextSubscriberDisplayDoc`), so in
+ * practice this stays small; if it is ever left running for years without a
+ * base change, replace the loop with closed-form compounding.
+ */
+function syntheticDayBounds(nowMs, { base, epoch, minPct, maxPct, daySeed = 0 }) {
+  const epochDay = dayIndex(epoch)
+  const nowDay = dayIndex(nowMs)
+  let value = base
+  for (let day = epochDay; day < nowDay; day++) {
+    const m = dailyMultiplierPercent(day, minPct, maxPct, daySeed)
+    value += Math.round(value * (m / 100))
+  }
+  const mToday = dailyMultiplierPercent(nowDay, minPct, maxPct, daySeed)
+  const dayStart = value
+  const dayEnd = dayStart + Math.round(dayStart * (mToday / 100))
+  const dayStartMs = nowDay * DAY_MS
+  const fraction = Math.min(1, Math.max(0, (nowMs - dayStartMs) / DAY_MS))
+  return { dayStart, dayEnd, fraction }
+}
+
+/** The synthetic component alone, at a point in time. Whole number. */
+export function syntheticValueAt(nowMs, doc) {
+  const { dayStart, dayEnd, fraction } = syntheticDayBounds(nowMs, doc)
+  return Math.round(dayStart + (dayEnd - dayStart) * fraction)
+}
