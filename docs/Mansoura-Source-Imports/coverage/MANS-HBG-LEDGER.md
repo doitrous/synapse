@@ -46,6 +46,41 @@
 | histoprev4 | 31 | 19 | 0 | 50 |
 | histoprev5 | 17 | 23 | 0 | 40 |
 | histoform2 | 16 | 34 | 0 | 50 |
+| histoform3 | 10 | 45 | 0 | 55 |
+
+## Frontier note (2026-09-03, lane mans-hbg-histoform3) — BLOCK CLOSED
+histoform3 continues the SAME "Important MCQ Final" block right after histoform2's
+close (Q120/p.25), covering p.26-36/Q121-175 — verified page-by-page render (this
+range has no embedded text layer at all, so `pagetext.mjs keys` could not run;
+every key below was read visually off the printed answer-letter column). **p.36 is
+the LAST page of the PDF (36 pages total, confirmed via `pagetext.mjs status`) — no
+Q176 exists. The "Important MCQ Final" block, and the file, are CLOSED.**
+
+45 of these 55 are cross-batch repeats of MCQs already authored verbatim (identical
+stem/options, or with option letters reshuffled) in histoprev1-5 — held below, each
+individually option-checked against its twin. histoprev1 and histoprev2 in
+particular turned out to already cover the bulk of this page range under their own
+numbering: histoprev1 (دفعة 63 Exams, its own Q01-Q40) and histoprev2 both draw from
+the same "Histo Previous MCQ Exams Final.pdf" source bank, which overlaps this
+file's p.26-36 almost fact-for-fact. This also resolves the mystery the histoform2
+note left open: the pre-existing "## Remaining" cluster (Q1::E::succinic
+dehydrogenase... through Q40::A::epidermis mitotic layer), confirmed NOT to match
+p.16-25, in fact matches p.26-36 closely — Q1, Q3, Q4, Q5, Q9, Q12, Q14, Q22, Q23,
+Q28, Q36, Q38 and Q39 of that cluster are the exact same facts as Q157, Q136, Q158,
+Q145, Q171, Q172, Q140, Q152, Q161, Q166, Q122, Q174 and Q164 of this cluster
+respectively — and every one of them was independently confirmed already authored
+as histoprev1's own Q01/Q03/Q04/Q05/Q09/Q12/Q14/Q22/Q23/Q28/Q36/Q38/Q39 (histoprev1
+being دفعة 63's own Q1-40, the same set that cluster table row was built from). The
+table's "0 authored" counts for those rows are simply stale bookkeeping that was
+never reconciled against histoprev1's own authoring pass — left as-is below, per
+the standing "pending a CoS ruling" note, rather than edited out from under it.
+
+The 10 authored here (Q121, Q127-135 minus Q126 — i.e. Q121, Q127, Q128, Q129, Q130,
+Q131, Q132, Q133, Q134, Q135) have no existing concept anywhere in the corpus and no
+near-fit reuse candidate — all newly minted, see concept/MANS-HBG-concepts-5.md.
+Each cites an existing, topically-relevant MANS-HBG (or, for the three synapse
+items, MANS-AEP) article for coverage rather than minting a new one. No
+cross-university overlay needed this cluster.
 
 ## Frontier note (2026-09-03, lane mans-hbg-histoform2)
 histoform2 continues the SAME "Important MCQ Final" block right after histoprev5's
@@ -154,6 +189,51 @@ Left untouched pending a CoS ruling; do not treat it as a continuation point.
 - q117 — cross-bank repeat — sebaceous gland duct opens into the hair follicle, already authored (histoprev2 q42, same core fact, coarser distractor set); Important MCQ Final Q117, p25
 - q119 — cross-bank repeat — endoneurium = loose CT around a single nerve fiber, already authored (histoprev3 q91, identical); Important MCQ Final Q119, p25
 - q120 — cross-bank repeat — eccrine sweat gland duct opens onto skin surface, already authored (histoprev3 q96, identical); Important MCQ Final Q120, p25
+- q122 — cross-bank repeat — Verhoeff stain special for elastic fibers, already authored (histoprev1 q36, identical); Important MCQ Final Q122, p26
+- q123 — cross-bank repeat — axon carries impulse away from the cell body, already authored (histoprev4 D59-Q27, identical); Important MCQ Final Q123, p26
+- q124 — cross-bank repeat — autonomic ganglia fibers (thick myelinated / synapse with ganglion cells / widely separated / parallel to capsule / poor blood supply, key B), already authored (histoprev4 D59-Q34, identical option set — distinct from histoform2's own different-option variant on the same stem); Important MCQ Final Q124, p26
+- q125 — cross-bank repeat — papillary layer of the skin contains Meissner's corpuscle, already authored (histoprev4 D59-Q32, identical); Important MCQ Final Q125, p26
+- q126 — cross-bank repeat — mast cells secrete eosinophil chemotactic factor, already authored (histoprev3 Q134, identical); Important MCQ Final Q126, p27
+- q136 — cross-bank repeat — SER responsible for Ca release/reuptake in muscle cells, already authored (histoprev1 q03, identical; twin of this cluster's own held b4-q11 fact); Important MCQ Final Q136, p29
+- q137 — cross-bank repeat — pyknosis = nucleus smaller/darker/eccentric, already authored (histoprev2 q51, identical); Important MCQ Final Q137, p29
+- q138 — cross-bank repeat — highest chromosomal condensation at metaphase, already authored (histoprev2 Q52, identical); Important MCQ Final Q138, p29
+- q139 — cross-bank repeat — thyroid follicles lined by simple cubical epithelium, already authored (histoprev2 Q53, identical); Important MCQ Final Q139, p29
+- q140 — cross-bank repeat — gap junctions allow direct ion passage between osteocytes, already authored (histoprev1 q14, identical); Important MCQ Final Q140, p30
+- q141 — cross-bank repeat — cell membrane appears trilaminar on EM, already authored (histoprev2 Q54, identical); Important MCQ Final Q141, p30
+- q142 — cross-bank repeat — mitochondria = double-membranous organelle, already authored (histoprev2 Q55, identical); Important MCQ Final Q142, p30
+- q143 — cross-bank repeat — SER responsible for alcohol detoxification, already authored (histoprev2 Q56, identical); Important MCQ Final Q143, p30
+- q144 — cross-bank repeat — Golgi EM: some secretory vesicles stay as primary lysosomes, already authored (histoprev2 Q57, identical); Important MCQ Final Q144, p30
+- q145 — cross-bank repeat — actin forms the cleavage furrow in cell division, already authored (histoprev1 q05, identical); Important MCQ Final Q145, p30
+- q146 — cross-bank repeat — tubulin = molecular structure of the mitotic spindle, already authored (histoprev2, spindle protein = tubulin; twin of this cluster's own held b4-q19/b4-q22 facts); Important MCQ Final Q146, p31
+- q147 — cross-bank repeat — nucleolus function = synthesis of rRNA, already authored (histoprev2 q89, identical); Important MCQ Final Q147, p31
+- q148 — cross-bank repeat — nuclear membrane dissolves at prophase, already authored (histoprev4 d59-q35, identical); Important MCQ Final Q148, p31
+- q149 — cross-bank repeat — Suzi vignette, Turner's syndrome karyotype = 45,XO, already authored (histoprev2 q60, identical vignette/fact); Important MCQ Final Q149, p31
+- q150 — cross-bank repeat — WOLF syndrome = structural chromosomal abnormality, already authored (histoprev2 Q61, identical); Important MCQ Final Q150, p31
+- q151 — cross-bank repeat — karyotyping arrests mitosis at metaphase, already authored (histoprev2 q62, identical); Important MCQ Final Q151, p32
+- q152 — cross-bank repeat — epithelium is highly innervated, already authored (histoprev1 q22, identical); Important MCQ Final Q152, p32
+- q153 — cross-bank repeat — simple columnar absorptive epithelium lines the intestine, already authored (histoprev2 Q63, identical); Important MCQ Final Q153, p32
+- q154 — cross-bank repeat — cardiac muscle fibers contain gap junctions, already authored (histoprev2 Q64, identical); Important MCQ Final Q154, p32
+- q155 — cross-bank repeat — taste cells' apical surface shows microvilli, already authored (histoprev2 Q65, identical); Important MCQ Final Q155, p32
+- q156 — cross-bank repeat — cell membrane: cholesterol less abundant than phospholipids, already authored (histoprev2 Q66, identical); Important MCQ Final Q156, p33
+- q157 — cross-bank repeat — succinic dehydrogenase = marker of mitochondria, already authored (histoprev1 Q01, identical); Important MCQ Final Q157, p33
+- q158 — cross-bank repeat — RER responsible for initial glycosylation of protein, already authored (histoprev1 q04, identical); Important MCQ Final Q158, p33
+- q159 — cross-bank repeat — lipofuscin = a cell inclusion, already authored (histoprev2 Q67, identical); Important MCQ Final Q159, p33
+- q160 — cross-bank repeat — chromosomes 13/14/15 carry a secondary constriction (satellite), already authored (histoprev2 Q68, identical); Important MCQ Final Q160, p33
+- q161 — cross-bank repeat — macrophages originate from blood monocytes, already authored (histoprev1 q23, identical); Important MCQ Final Q161, p34
+- q162 — cross-bank repeat — loose connective tissue shows areolae, already authored (histoprev2 Q69, identical); Important MCQ Final Q162, p34
+- q163 — cross-bank repeat — endoneurium surrounds a single nerve fiber, already authored (histoprev3 q91, identical; twin of this cluster's own held q119 fact); Important MCQ Final Q163, p34
+- q164 — cross-bank repeat — oligodendrocytes produce myelin in the CNS, already authored (histoprev1 q39, identical); Important MCQ Final Q164, p34
+- q165 — cross-bank repeat — basal cell layer shows mitotic figures, already authored (histoprev1 q40, identical; twin of this cluster's own held q100 fact); Important MCQ Final Q165, p34
+- q166 — cross-bank repeat — hair matrix responsible for hair growth, already authored (histoprev1 Q28, identical); Important MCQ Final Q166, p35
+- q167 — cross-bank repeat — zonula occludens prevents flow between luminal and intercellular fluids, already authored (histoprev2 Q71, identical); Important MCQ Final Q167, p35
+- q168 — cross-bank repeat — ribosomes = organelle not covered by a membrane, already authored (histoprev2 Q72, identical); Important MCQ Final Q168, p35
+- q169 — cross-bank repeat — intermediate filament diameter, already authored (histoprev2 Q73, identical); Important MCQ Final Q169, p35
+- q170 — cross-bank repeat — dust = exogenous pigment, already authored (histoprev2 Q74, identical); Important MCQ Final Q170, p35
+- q171 — cross-bank repeat — G1-stage chromosome number = 46-s, already authored (histoprev1 q09, identical); Important MCQ Final Q171, p36
+- q172 — cross-bank repeat — uterus = site of simple columnar ciliated epithelium, already authored (histoprev1 q12, identical); Important MCQ Final Q172, p36
+- q173 — cross-bank repeat — type I collagen present in bone, already authored (histoprev2 Q75, identical); Important MCQ Final Q173, p36
+- q174 — cross-bank repeat — bipolar nerve cell processes = one dendrite and one axon, already authored (histoprev1 q38, identical); Important MCQ Final Q174, p36
+- q175 — cross-bank repeat — horny layer contains soft keratin, already authored (histoprev2, "the horny cell layer of the skin contains" question, identical); Important MCQ Final Q175, p36
 
 ## Remaining
 - Q1  :: E :: succinic dehydrogenase enzyme marker = mitochondria
