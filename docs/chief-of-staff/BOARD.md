@@ -700,3 +700,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-03 — MANSOURA HBG lane 3 LANDED (4efd42f1 HIS-203 repair, 76a24869 histoprev3) · 44 questions + repair
 - Fresh worktree. Histo Previous MCQ p.23-34: 44 authored, 16 held (5 internal, 11 twins). 12 renders. 14 mints + articles, 26 reuses (13 histoprev2 overlay, 7 Kasr 101-ISK new overlay, 2 live). validate errors=[]; batch errors=0; 14-file simulate created=425 rejected=0.
 - **HIS-203 repair DONE:** `pending-live/MANS-HIS-203-concepts.md` 11/15 rows failing catalogue check (restated `module_subject` vs delta `## modules`) → dropped module_subject from the 11 sparse rows. before errors=11 → after errors=0. Remaining HBG: p.35+ / histoform1. Slot → HBG l4.
+
+### 2026-09-03 — ASSIUT PMS-102 lane 5 LANDED (e8e2bfed…43b3cc24) · module exhausted, 62 questions
+- pmsfront2 pp.23-30 (17) + QUIZ11&12 (5) + pp.201-217 render pool (40). 62 authored, 5 held, 0 remaining — **All quizzes PMS exhausted**. 23 mints + 5 articles, 26 reuses. validate resource-noise only (0 real); 24-file simulate created=541 rejected=0. 8 renders.
+### 2026-09-03 — IMPORT SAFETY resolved (task 1 strategy)
+- Batch parser (`bulkImport.ts normalizeStatus`) reads `## status`; on an id-match UPDATE the merge overwrites live status → re-importing our Draft batches would UN-PUBLISH a live Published record. NEW records get Draft via `materialiseNewItem`. Only **kau (2843) and au (128)** have published questions (asu 0). So: import asu/Assiut/Zagazig/FOMSCU/6Oct/Menoufia/Mansoura = pure creates, SAFE as Draft. kau/au need per-module care (only their un-published modules, or strip `## status` so updates preserve live status). Validating pipeline with a 6 October dry-run now.
