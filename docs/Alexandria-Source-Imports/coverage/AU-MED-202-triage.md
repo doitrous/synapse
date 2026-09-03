@@ -64,15 +64,32 @@ bank's gross-anatomy relations, so no reuse applied. All 28 concepts minted fres
 |---|--:|--:|--:|--:|--:|--:|--:|
 | AU-MED-202 (GIT Final, Anatomy section only) | 34 | 34 | 28 | 0 | 0 | 28 | 1 |
 
-## What was NOT triaged this pass
+## Second pass: Histology, Physiology and Biochemistry sections (resume-first)
 
-Only the Anatomy section (Q1-34) of `EOM MCQs - GIT Final.pdf` was read question-by-question
-and authored. The same file's Histology (p10-12, 15 Qs), Physiology (p14, 5 Qs) and
-Biochemistry (p16-20, ~25 Qs) sections carry their own printed answer keys in the same
-reliable format and are the natural next-frontier target — see `pagetext.mjs show
-"…/EOM MCQs - GIT Final.pdf" --pages 10-20` for the extracted text already confirmed
-readable. The module's other 9 papers and ~99 banks (per `AU-Y2-priority-sources.md` §202)
-remain untriaged, including the once-checked-and-rejected papers listed above (three of
+A second authoring lane (branch `au-202-git-author2`) completed the remaining three sections
+of the same file, per this triage's own next-frontier note: Histology (p10-12, questions 1-15
+of that section's own continuous numbering), Physiology (p14, questions 1-5) and Biochemistry
+(p16-20, questions 1-24), each read via `pagetext.mjs show` and keyed against each page's own
+printed per-block answer line. **43 questions authored, 1 held** (Histology Q12 — printed
+options C and D are identical text, a likely source PDF duplication bug leaving no
+determinable fourth option). Page 20's key row prints a bare "25." with no question stem, and
+pages 13, 15, 21-22 hold only essay/short-answer prompts — none of these was an MCQ item.
+
+Concept reuse: two Kasr/Alexandria live concepts were reused (Brunner's gland location,
+already live from the Kasr module 206 pass; the main pancreatic duct's epithelium; the acute
+gout presentation and allopurinol-treatment facts, live from the "Purine and Pyrimidine
+Metabolism" article). Two further near-duplicate facts were found only in OTHER
+universities' pending (not-yet-imported) batches — a Kasr-103 biochemistry file covering
+vitamins and pyrimidine catabolism end products, and an Assiut concept covering orotic
+aciduria/uridine treatment — and were deliberately not referenced by ID (a pending
+cross-university batch is not guaranteed to import before this one, which would leave a
+dangling reference in production); both are flagged in the new concepts' notes/
+`rejected_merge_candidate_ids` for a future merge pass. 39 new concepts minted under
+`CON-GIT-*`. See `coverage/AU-MED-202-LEDGER.md` for the full per-cluster ledger.
+
+`EOM MCQs - GIT Final.pdf` is now fully triaged (Anatomy, Histology, Physiology,
+Biochemistry). The module's other 9 papers and ~99 banks (per `AU-Y2-priority-sources.md`
+§202) remain untriaged, including the once-checked-and-rejected papers listed above (three of
 which may still be recoverable with a rendered-page/visual-key read rather than plain-text
 extraction: `EOM - GIT formative alex with answers.pdf`, `EOM - Mock with answers.pdf`,
 `EOM MCQs - Mock & Previos years.pdf`).
