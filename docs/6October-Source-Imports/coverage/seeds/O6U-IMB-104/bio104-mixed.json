@@ -1,0 +1,1459 @@
+{
+  "lane": "O6U-IMB",
+  "cluster": "bio104",
+  "header": "O6U-IMB-104 · Molecular Biology — authored from Bio questions.pdf, a five-chapter single-best-answer molecular biology practice book whose per-chapter printed \"MCQ Answers\" tables give every answer; all 34 keys independently cross-checked against standard molecular biology fact with no contradictions found (coverage/O6U-IMB-104-triage.md).",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "o6u"
+    ],
+    "years": [
+      "O6U_Y1"
+    ],
+    "module": "O6U-IMB-104",
+    "module_subject": "O6U-IMB-104 > Molecular Biology",
+    "exam_weight_by_year": {
+      "O6U_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_15a36a801ec0b4a6705d"
+    ],
+    "source_citation": "Bio questions.pdf",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "bio104-q01",
+      "id": "QST-O6UIMB-BIO104-Q01",
+      "title": "Active methionine (SAM) function",
+      "question": "Active methionine (SAM) acts as:",
+      "options": {
+        "A": "Sulphate donor",
+        "B": "Methyl donor",
+        "C": "Hydrogen donor",
+        "D": "Oxygen donor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Sulphate-donor duty belongs to PAPS (3'-phosphoadenosine-5'-phosphosulphate), not SAM. Both are adenine-nucleotide activated carriers, but they carry different groups.",
+        "B": "Correct. S-adenosylmethionine (SAM), often called \"active methionine\", is the cell's universal methyl donor. Its reactive sulfonium centre makes the attached methyl group easy to transfer, and methyltransferases use it to methylate DNA, RNA, proteins, phospholipids and small molecules such as noradrenaline, releasing S-adenosylhomocysteine (SAH) as a by-product.",
+        "C": "Incorrect. Hydrogen-carrier duty belongs to NAD+, FAD and NADP+, not SAM, which carries a methyl group instead.",
+        "D": "Incorrect. SAM has no oxygen-donor role in normal human biochemistry; its defining function is methyl-group transfer."
+      },
+      "main_concept": "CON-FND-08362DEFB183CF",
+      "concept_ids": [
+        "CON-FND-08362DEFB183CF"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Nucleotide coenzymes and group transfer",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that SAM (active methionine) acts as the cell's methyl donor.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-GROUP-TRANSFER-COFACTORS"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Nucleotide coenzymes and group transfer",
+      "source_citation": "Bio questions.pdf, Q1, p1",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p5 (1=b)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q02",
+      "id": "QST-O6UIMB-BIO104-Q02",
+      "title": "PAPS function",
+      "question": "3' phosphoadenosine 5' phosphosulphate (PAPS) acts as:",
+      "options": {
+        "A": "Sulphate donor",
+        "B": "Methyl donor",
+        "C": "Hydrogen donor",
+        "D": "CO2 donor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. PAPS is the cell's activated sulphate donor: sulfotransferase enzymes transfer its activated sulphate group onto acceptors such as glycosaminoglycans, steroids, drugs and xenobiotics during phase II conjugation, and onto some protein tyrosine residues. Recognising PAPS specifically as the sulphate carrier (rather than SAM's methyl role) is the fastest way to sort these two adenine-derived coenzymes on an exam.",
+        "B": "Incorrect. Methyl-donor duty belongs to SAM (S-adenosylmethionine), not PAPS, which carries an activated sulphate group instead.",
+        "C": "Incorrect. Hydrogen-carrier duty belongs to NAD+, FAD and NADP+, not PAPS.",
+        "D": "Incorrect. CO2-donor duty belongs to biotin-dependent carboxylases, not PAPS, which has no role in carbon dioxide transfer."
+      },
+      "main_concept": "CON-FND-21B4682EB8AECF",
+      "concept_ids": [
+        "CON-FND-21B4682EB8AECF"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-08362DEFB183CF"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Nucleotide coenzymes and group transfer",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that PAPS is the activated sulphate donor.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-GROUP-TRANSFER-COFACTORS"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Nucleotide coenzymes and group transfer",
+      "source_citation": "Bio questions.pdf, Q3, p1",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p5 (3=a)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q03",
+      "id": "QST-O6UIMB-BIO104-Q03",
+      "title": "Non-hydrogen-carrier coenzyme",
+      "question": "One of the following is not a hydrogen carrier:",
+      "options": {
+        "A": "NAD+",
+        "B": "FAD",
+        "C": "Coenzyme A",
+        "D": "NADP+"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (i.e. this is a hydrogen carrier). NAD+ accepts a hydride during oxidation reactions and carries it onward, a classic hydrogen-carrier coenzyme.",
+        "B": "Incorrect (i.e. this is a hydrogen carrier). FAD accepts hydrogen equivalents in redox reactions, including in the electron transport chain via Complex II.",
+        "C": "Correct. Coenzyme A, despite also being an adenine-nucleotide-derived coenzyme, carries acyl groups on its terminal thiol rather than hydrogen -- it is an acyl-group carrier, not a hydrogen carrier, and so is the odd one out here. Remembering CoA by its thioester chemistry, rather than by its shared adenine-nucleotide ancestry with NAD/FAD/NADP, avoids this common grouping error.",
+        "D": "Incorrect (i.e. this is a hydrogen carrier). NADP+ accepts a hydride, particularly in reductive biosynthetic pathways, another classic hydrogen-carrier coenzyme."
+      },
+      "main_concept": "CON-FND-938971E66CA9C6",
+      "concept_ids": [
+        "CON-FND-938971E66CA9C6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Nucleotide coenzymes and group transfer",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify coenzyme A as an acyl-group carrier, not a hydrogen carrier like NAD+/FAD/NADP+.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-GROUP-TRANSFER-COFACTORS"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Nucleotide coenzymes and group transfer",
+      "source_citation": "Bio questions.pdf, Q6, p1",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p5 (6=c)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q04",
+      "id": "QST-O6UIMB-BIO104-Q04",
+      "title": "DNA melting temperature and GC content",
+      "question": "The melting temperature of DNA is increased by its:",
+      "options": {
+        "A": "A and T content",
+        "B": "G and C content",
+        "C": "Sugar content",
+        "D": "Phosphate content"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A-T base pairs are held by only two hydrogen bonds, so higher A-T content lowers, not raises, the melting temperature relative to an equally long GC-rich region.",
+        "B": "Correct. A guanine-cytosine base pair is held by three hydrogen bonds, one more than an adenine-thymine pair's two, so a DNA region richer in G and C requires more thermal energy -- a higher melting temperature -- to denature. This is why GC-rich primers and templates are harder to denature in PCR, a practical consequence of the same hydrogen-bond count.",
+        "C": "Incorrect. Every DNA molecule has the same deoxyribose sugar in its backbone, so sugar content does not vary between DNA samples and cannot explain melting-temperature differences.",
+        "D": "Incorrect. Every DNA molecule has the same phosphate backbone chemistry, so phosphate content does not vary between DNA samples and cannot explain melting-temperature differences."
+      },
+      "main_concept": "CON-FND-50C9386652AC03",
+      "concept_ids": [
+        "CON-FND-50C9386652AC03"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Nucleotide structure, tRNA and catabolism",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that DNA's melting temperature rises with its guanine-cytosine content.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-NUCLEOTIDE-CATABOLISM-COMPOSITION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Nucleotide structure, tRNA and catabolism",
+      "source_citation": "Bio questions.pdf, Q10, p2",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p5 (10=b)"
+      },
+      "author_notes": "Near-exact concept CON-FND-AF09E96F70832F exists (Ain Shams ASU-MBG-nucleic-acid-chemistry-concepts.md) but its own defining article sits behind a second, Kasr-owned pending file -- minted fresh instead of a two-hop cross-university overlay; see field_notes.searchBeforeMint on CON-FND-50C9386652AC03."
+    },
+    {
+      "key": "bio104-q05",
+      "id": "QST-O6UIMB-BIO104-Q05",
+      "title": "Nucleotide not found in DNA",
+      "question": "One of the following nucleotides is not found in DNA:",
+      "options": {
+        "A": "d(UMP)",
+        "B": "dGMP",
+        "C": "dAMP",
+        "D": "dTMP"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. DNA's four deoxyribonucleotides are dAMP, dGMP, dCMP and dTMP; dUMP is excluded because DNA uses thymine, not uracil. dUMP does appear transiently as an intermediate in thymidylate synthesis (methylated by thymidylate synthase to dTMP) but is not itself part of finished DNA.",
+        "B": "Incorrect (i.e. this nucleotide is found in DNA). dGMP, the deoxyguanosine nucleotide, is one of DNA's four standard building blocks.",
+        "C": "Incorrect (i.e. this nucleotide is found in DNA). dAMP, the deoxyadenosine nucleotide, is one of DNA's four standard building blocks.",
+        "D": "Incorrect (i.e. this nucleotide is found in DNA). dTMP, the deoxythymidine nucleotide, is one of DNA's four standard building blocks, and is in fact the product dUMP is converted into."
+      },
+      "main_concept": "CON-FND-E6CADF8C89A03C",
+      "concept_ids": [
+        "CON-FND-E6CADF8C89A03C"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-8D4C1563D94532"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Nucleotide structure, tRNA and catabolism",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that dUMP is not one of DNA's four nucleotides.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-NUCLEOTIDE-CATABOLISM-COMPOSITION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Nucleotide structure, tRNA and catabolism",
+      "source_citation": "Bio questions.pdf, Q13, p2",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p5 (13=a)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q06",
+      "id": "QST-O6UIMB-BIO104-Q06",
+      "title": "tRNA D-arm base",
+      "question": "The arm of tRNA which contains the unusual base dihydrouracil is the:",
+      "options": {
+        "A": "Anticodon arm",
+        "B": "D-arm",
+        "C": "Extra arm",
+        "D": "T-psi-C arm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The anticodon arm carries the anticodon triplet that pairs with the mRNA codon; it is not named for dihydrouracil.",
+        "B": "Correct. The D-arm of tRNA's cloverleaf structure takes its name from dihydrouracil, an unusual base concentrated in that arm's loop, produced by reducing one of uracil's ring double bonds. Recognising the D-arm as \"the dihydrouracil arm\" specifically (rather than confusing it with the differently-named T-psi-C arm) is the fastest way to answer this kind of question.",
+        "C": "Incorrect. The variable (extra) arm's length differs between tRNA species; it is not the arm named for dihydrouracil.",
+        "D": "Incorrect. The T-psi-C arm is named for its own unusual bases -- thymine and pseudouridine (psi) alongside cytosine -- not dihydrouracil."
+      },
+      "main_concept": "CON-FND-DBF48366CDD944",
+      "concept_ids": [
+        "CON-FND-DBF48366CDD944"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Nucleotide structure, tRNA and catabolism",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Name the D-arm of tRNA as the arm containing the unusual base dihydrouracil.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-NUCLEOTIDE-CATABOLISM-COMPOSITION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Nucleotide structure, tRNA and catabolism",
+      "source_citation": "Bio questions.pdf, Q17, p3",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p5 (17=b)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q07",
+      "id": "QST-O6UIMB-BIO104-Q07",
+      "title": "Base found in mRNA but not DNA",
+      "question": "The nucleic acid base found in mRNA but not in DNA is:",
+      "options": {
+        "A": "Adenine",
+        "B": "Cytosine",
+        "C": "Guanine",
+        "D": "Uracil"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Adenine is a purine base present in both DNA and RNA.",
+        "B": "Incorrect. Cytosine is a pyrimidine base present in both DNA and RNA.",
+        "C": "Incorrect. Guanine is a purine base present in both DNA and RNA.",
+        "D": "Correct. Uracil is RNA's pyrimidine base, paired opposite adenine during transcription; DNA substitutes thymine (5-methyluracil) for uracil, so uracil is the base found in mRNA but not in DNA. This single base difference is one of the clearest structural markers separating RNA nucleotide chemistry from DNA's."
+      },
+      "main_concept": "CON-FND-8D4C1563D94532",
+      "concept_ids": [
+        "CON-FND-8D4C1563D94532"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-E6CADF8C89A03C"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Nucleotide structure, tRNA and catabolism",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that uracil is found in RNA but not DNA, which uses thymine instead.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-NUCLEOTIDE-CATABOLISM-COMPOSITION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Nucleotide structure, tRNA and catabolism",
+      "source_citation": "Bio questions.pdf, Q29, p4",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p5 (29=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q08",
+      "id": "QST-O6UIMB-BIO104-Q08",
+      "title": "Gout marker",
+      "question": "Gout is characterized by increased plasma levels of:",
+      "options": {
+        "A": "Urea",
+        "B": "Uric acid",
+        "C": "Creatine",
+        "D": "Creatinine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Urea is the end product of amino-acid nitrogen disposal (the urea cycle), not the marker raised in gout.",
+        "B": "Correct. Gout is a crystal arthropathy driven by hyperuricemia, an increased plasma level of uric acid -- the end product of purine catabolism in humans, who lack uricase and so cannot oxidise urate further. Above its solubility limit, urate crystallises in joints and soft tissue, producing gout's inflammatory attacks.",
+        "C": "Incorrect. Creatine is a muscle-energy-buffer compound, unrelated to purine catabolism or gout.",
+        "D": "Incorrect. Creatinine is a muscle-derived filtration marker used to assess renal function, not the marker raised in gout."
+      },
+      "main_concept": "CON-FND-9C7B14B68F0312",
+      "concept_ids": [
+        "CON-FND-9C7B14B68F0312"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Nucleotide structure, tRNA and catabolism",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that gout is characterized by increased plasma uric acid.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-NUCLEOTIDE-CATABOLISM-COMPOSITION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Nucleotide structure, tRNA and catabolism",
+      "source_citation": "Bio questions.pdf, Q33, p5",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p5 (33=b)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q09",
+      "id": "QST-O6UIMB-BIO104-Q09",
+      "title": "Left-handed DNA form",
+      "question": "Left handed double helix is present in:",
+      "options": {
+        "A": "Z-DNA",
+        "B": "A-DNA",
+        "C": "B-DNA",
+        "D": "None of these"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Z-DNA is the exception among common DNA conformations: a left-handed helix favoured by alternating purine-pyrimidine sequences (e.g. GC repeats), thought to play a role in gene regulation.",
+        "B": "Incorrect. A-DNA is a shorter, wider right-handed form seen in dehydrated fibres and RNA-DNA hybrids, not left-handed.",
+        "C": "Incorrect. B-DNA is the standard, physiological right-handed double helix, not left-handed.",
+        "D": "Incorrect. A left-handed form does exist (Z-DNA), so \"none of these\" is wrong."
+      },
+      "main_concept": "CON-FND-8CFC428EE3A8A3",
+      "concept_ids": [
+        "CON-FND-8CFC428EE3A8A3"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-921CE703EE0C22"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA structural variants",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify Z-DNA as the left-handed double helix form of DNA.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-DNA-STRUCTURAL-VARIANTS"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > DNA structural variants",
+      "source_citation": "Bio questions.pdf, Q34, p5",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p5 (34=a)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q10",
+      "id": "QST-O6UIMB-BIO104-Q10",
+      "title": "Mitochondrial DNA structure",
+      "question": "The mitochondrial DNA is:",
+      "options": {
+        "A": "Like the nuclear DNA in structure",
+        "B": "Single stranded, linear",
+        "C": "Double stranded, circular",
+        "D": "Single stranded, circular"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Mitochondrial DNA is structurally distinct from nuclear DNA -- circular rather than linear, and not packaged with histones the way nuclear chromosomes are.",
+        "B": "Incorrect. Mitochondrial DNA is double-stranded, not single-stranded; \"linear\" is also wrong, since it is circular.",
+        "C": "Correct. Mitochondrial DNA is a small, double-stranded circular molecule, structurally more like bacterial DNA than the linear nuclear chromosomes -- consistent with mitochondria's endosymbiotic bacterial origin. It is maternally inherited and makes up roughly 0.3-1% of total cellular DNA.",
+        "D": "Incorrect. Mitochondrial DNA is circular, but it is double-stranded, not single-stranded."
+      },
+      "main_concept": "CON-FND-921CE703EE0C22",
+      "concept_ids": [
+        "CON-FND-921CE703EE0C22"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-8CFC428EE3A8A3"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA structural variants",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that mitochondrial DNA is double-stranded and circular, unlike linear nuclear DNA.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-DNA-STRUCTURAL-VARIANTS"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > DNA structural variants",
+      "source_citation": "Bio questions.pdf, Q36, p6",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p5 (36=c)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q11",
+      "id": "QST-O6UIMB-BIO104-Q11",
+      "title": "DNA replication is semiconservative",
+      "question": "Which of the following statements about DNA replication is NOT correct?",
+      "options": {
+        "A": "Unwinding of the DNA molecule occurs as hydrogen bonds break",
+        "B": "The process is known as semiconservative DNA replication because one original strand is conserved in the new DNA molecule",
+        "C": "Complementary base pairs are held together with hydrogen bonds",
+        "D": "Replication occurs as each base is paired with another base exactly like it"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this statement is true). Unwinding the double helix does happen as the hydrogen bonds between the two strands break, allowing each strand to serve as a template.",
+        "B": "Incorrect (i.e. this statement is true). Replication is semiconservative: each daughter duplex is built from one conserved parental strand paired with one newly synthesised strand.",
+        "C": "Incorrect (i.e. this statement is true). Complementary base pairs (A-T, G-C) are indeed held together by hydrogen bonds.",
+        "D": "Correct -- this is the false statement, so it is the NOT-correct answer. Bases pair with their complementary partner (A with T, G with C), not with an identical base \"exactly like it\"; this description misstates how base pairing works during replication. Recognising that base pairing is always complementary (A-T, G-C), never identical-to-identical, is the key discriminator in this kind of \"which statement is wrong\" question."
+      },
+      "main_concept": "CON-FND-159761C753EAAD",
+      "concept_ids": [
+        "CON-FND-159761C753EAAD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication machinery",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that DNA replication is semiconservative, with complementary (not identical) base pairing.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-DNA-REPLICATION-MACHINERY"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > DNA replication machinery",
+      "source_citation": "Bio questions.pdf, Q1 (Replication chapter), p7",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p10 (1=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q12",
+      "id": "QST-O6UIMB-BIO104-Q12",
+      "title": "Topoisomerase function",
+      "question": "Which enzymes remove supercoiling in replicating DNA ahead of the replication fork?",
+      "options": {
+        "A": "Helicases",
+        "B": "DNA polymerases",
+        "C": "Primases",
+        "D": "Topoisomerases"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Helicases unwind the double helix at the fork itself; they do not relieve the supercoiling this unwinding generates further ahead.",
+        "B": "Incorrect. DNA polymerases synthesise new DNA strands; they play no role in relieving supercoiling.",
+        "C": "Incorrect. Primases lay down short RNA primers to start new strand synthesis; they play no role in relieving supercoiling.",
+        "D": "Correct. Topoisomerases relieve the positive supercoiling generated ahead of an advancing replication fork by transiently cutting one (type I) or both (type II) DNA strands, allowing controlled rotation or strand passage, then resealing the break. Distinguishing topoisomerase's supercoiling-relief role from helicase's strand-unwinding role at the fork itself is the key discriminator here."
+      },
+      "main_concept": "CON-FND-4A6E756909C898",
+      "concept_ids": [
+        "CON-FND-4A6E756909C898"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication machinery",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that topoisomerases relieve supercoiling ahead of the replication fork.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-DNA-REPLICATION-MACHINERY"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > DNA replication machinery",
+      "source_citation": "Bio questions.pdf, Q4 (Replication chapter), p7",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p10 (4=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q13",
+      "id": "QST-O6UIMB-BIO104-Q13",
+      "title": "Okazaki fragment composition",
+      "question": "Okazaki fragments are formed during the synthesis of:",
+      "options": {
+        "A": "mRNA",
+        "B": "tRNA",
+        "C": "RNA and DNA",
+        "D": "DNA"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Okazaki fragments are not mRNA; they are short DNA segments formed on the lagging strand during DNA replication.",
+        "B": "Incorrect. Okazaki fragments are not tRNA; they are short DNA segments formed on the lagging strand during DNA replication.",
+        "C": "Incorrect. Although each Okazaki fragment starts with a short RNA primer, the primer is removed and replaced with DNA before the fragments are joined -- the finished fragments are DNA, not a permanent RNA-DNA mixture.",
+        "D": "Correct. Because DNA polymerase synthesises only 5' to 3', the lagging strand is made discontinuously as a series of short DNA fragments (Okazaki fragments), each starting with its own short RNA primer that is later removed and replaced with DNA, then joined by DNA ligase. Once assembled, these fragments are true DNA, distinct from the short RNA primers that started each one and were later removed."
+      },
+      "main_concept": "CON-FND-AF995E4E4F2632",
+      "concept_ids": [
+        "CON-FND-AF995E4E4F2632"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-D59A3CF709A33F"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication machinery",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that Okazaki fragments are the short, discontinuously synthesised DNA segments of the lagging strand.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-DNA-REPLICATION-MACHINERY"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > DNA replication machinery",
+      "source_citation": "Bio questions.pdf, Q9 (Replication chapter), p8",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p10 (9=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q14",
+      "id": "QST-O6UIMB-BIO104-Q14",
+      "title": "Telomerase absent from prokaryotic replication",
+      "question": "One of the following is not involved in prokaryotic replication:",
+      "options": {
+        "A": "DNA polymerase III",
+        "B": "DNA polymerase I",
+        "C": "Primase",
+        "D": "Telomerase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this enzyme is involved). DNA polymerase III is the main prokaryotic replicase, extending each new strand from its primer.",
+        "B": "Incorrect (i.e. this enzyme is involved). DNA polymerase I removes RNA primers and fills the resulting gaps with DNA during prokaryotic replication.",
+        "C": "Incorrect (i.e. this enzyme is involved). Primase lays down the short RNA primers prokaryotic replication needs to start each new DNA strand.",
+        "D": "Correct. Telomerase solves the end-replication problem created by linear eukaryotic chromosomes. Prokaryotic chromosomes are circular and have no ends to erode, so prokaryotic replication has no need for -- and does not use -- telomerase."
+      },
+      "main_concept": "CON-FND-CC3CBABC81CEEF",
+      "concept_ids": [
+        "CON-FND-CC3CBABC81CEEF"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-4494B4E0E50179"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication machinery",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that telomerase is absent from prokaryotic replication because circular chromosomes have no ends to protect.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-DNA-REPLICATION-MACHINERY"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > DNA replication machinery",
+      "source_citation": "Bio questions.pdf, Q11 (Replication chapter), p8",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p10 (11=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q15",
+      "id": "QST-O6UIMB-BIO104-Q15",
+      "title": "Telomerase characteristics",
+      "question": "One of the following is not a characteristic of telomerase:",
+      "options": {
+        "A": "Is present only in eukaryotic cells",
+        "B": "Contains a single stranded RNA",
+        "C": "Acts as reverse transcriptase",
+        "D": "Elongates the leading strand"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this is a true characteristic). Telomerase is present only in eukaryotic cells, which have linear chromosomes with ends to protect.",
+        "B": "Incorrect (i.e. this is a true characteristic). Telomerase is a ribonucleoprotein that carries its own internal single-stranded RNA template.",
+        "C": "Incorrect (i.e. this is a true characteristic). Telomerase uses reverse-transcriptase activity, copying from its own RNA template to extend telomeric DNA.",
+        "D": "Correct -- this is the false statement, so it is the NOT-a-characteristic answer. Telomerase specifically addresses the lagging strand's end-replication problem by extending the 3' overhang at chromosome ends; it does not elongate the leading strand. Its true role is extending the 3' overhang so the lagging-strand machinery has room to finish, not substituting for ordinary leading-strand polymerisation."
+      },
+      "main_concept": "CON-FND-4494B4E0E50179",
+      "concept_ids": [
+        "CON-FND-4494B4E0E50179"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-CC3CBABC81CEEF",
+        "CON-FND-698A8FBBAD3E4C"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication machinery",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "List telomerase's true characteristics and reject the false one (elongating the leading strand).",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-DNA-REPLICATION-MACHINERY"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > DNA replication machinery",
+      "source_citation": "Bio questions.pdf, Q12 (Replication chapter), p8",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p10 (12=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q16",
+      "id": "QST-O6UIMB-BIO104-Q16",
+      "title": "DNA ligase function",
+      "question": "The enzyme used to join nicks of DNA is:",
+      "options": {
+        "A": "DNA polymerase",
+        "B": "DNA ligase",
+        "C": "Endonuclease",
+        "D": "Primase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. DNA polymerase fills gaps with new nucleotides but does not itself form the final phosphodiester bond that seals a nick between two already-complete fragments.",
+        "B": "Correct. DNA ligase catalyses formation of a phosphodiester bond between a free 3'-OH and an adjacent 5'-phosphate, sealing the nick left after Okazaki fragments are joined (once their RNA primers are removed and replaced with DNA) or after DNA repair. Ligase's action is the final step that converts a series of separate DNA pieces into one continuous strand.",
+        "C": "Incorrect. Endonucleases cut DNA internally; they do not join nicks.",
+        "D": "Incorrect. Primase lays down RNA primers to start new strand synthesis; it does not join nicks."
+      },
+      "main_concept": "CON-FND-D59A3CF709A33F",
+      "concept_ids": [
+        "CON-FND-D59A3CF709A33F"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-AF995E4E4F2632"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication machinery",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that DNA ligase seals nicks by forming a phosphodiester bond between adjacent DNA fragments.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-DNA-REPLICATION-MACHINERY"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > DNA replication machinery",
+      "source_citation": "Bio questions.pdf, Q19 (Replication chapter), p9",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p10 (19=b)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q17",
+      "id": "QST-O6UIMB-BIO104-Q17",
+      "title": "Telomere definition",
+      "question": "What is the name of the unusual repeated stretch of DNA localized at the tips of all eukaryotic chromosomes?",
+      "options": {
+        "A": "Kinetochore",
+        "B": "Telomere",
+        "C": "Centriole",
+        "D": "Chromomere"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The kinetochore is the protein complex assembled at the centromere for spindle-fibre attachment, not the repeated sequence at chromosome tips.",
+        "B": "Correct. The telomere is a repetitive, non-coding DNA sequence (in humans, TTAGGG repeats) capping both ends of every linear eukaryotic chromosome, protecting coding sequence from the end-replication problem and from being mistaken for a double-strand break. Its repetitive sequence and protective function distinguish it from other specialised chromosomal landmarks such as the centromere.",
+        "C": "Incorrect. The centriole is a cytoplasmic organelle involved in spindle formation, unrelated to chromosome-end sequence.",
+        "D": "Incorrect. A chromomere is a locally condensed, bead-like region of a chromosome, not specifically the tip-capping repeat sequence."
+      },
+      "main_concept": "CON-FND-698A8FBBAD3E4C",
+      "concept_ids": [
+        "CON-FND-698A8FBBAD3E4C"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-4494B4E0E50179"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication machinery",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the telomere as the repetitive DNA sequence at the tips of eukaryotic chromosomes.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-DNA-REPLICATION-MACHINERY"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > DNA replication machinery",
+      "source_citation": "Bio questions.pdf, Q22 (Replication chapter), p10",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p10 (22=b)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q18",
+      "id": "QST-O6UIMB-BIO104-Q18",
+      "title": "mRNA is complementary to the DNA template",
+      "question": "In transcription:",
+      "options": {
+        "A": "The mRNA produced is identical to the parent DNA",
+        "B": "A double helix containing one parent strand and one daughter strand is produced",
+        "C": "Both strands of the DNA are copied",
+        "D": "The mRNA produced is complementary to one strand of the DNA"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. mRNA is not identical to the parent DNA duplex; it is complementary to the template strand and sequence-matches (with U for T) the non-template coding strand only.",
+        "B": "Incorrect. That description fits semiconservative DNA replication, not transcription.",
+        "C": "Incorrect. RNA polymerase reads only one strand of the DNA duplex per gene (the template strand), not both.",
+        "D": "Correct. RNA polymerase reads the template (antisense) strand 3' to 5', synthesising mRNA 5' to 3' as its complement -- so the mRNA produced is complementary to one strand of the DNA, and sequence-identical (U for T) to the other, coding strand. This complementary relationship is what allows the original DNA sequence information to be faithfully carried into a form ribosomes can later translate."
+      },
+      "main_concept": "CON-FND-C04D07F4DF56F9",
+      "concept_ids": [
+        "CON-FND-C04D07F4DF56F9"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Transcription mechanism",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that mRNA is synthesised complementary to the DNA template strand.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSCRIPTION-MECHANISM"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Transcription mechanism",
+      "source_citation": "Bio questions.pdf, Q1 (Transcription chapter), p12",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p15 (1=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q19",
+      "id": "QST-O6UIMB-BIO104-Q19",
+      "title": "Promoter definition",
+      "question": "What is a promoter?",
+      "options": {
+        "A": "A specific sequence of DNA to which DNA polymerase binds",
+        "B": "A specific sequence of DNA to which RNA polymerase binds",
+        "C": "A specific DNA sequence to which a restriction endonuclease binds",
+        "D": "A specific RNA sequence to which RNA polymerase binds"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. DNA polymerase acts in replication, not at a promoter; the promoter is specifically an RNA-polymerase binding site.",
+        "B": "Correct. A promoter is a defined DNA sequence, typically upstream of a gene's transcription start site, that RNA polymerase (with general transcription factors in eukaryotes) recognises and binds to initiate transcription. Distinguishing the promoter from an origin of replication (a DNA-polymerase-associated site) prevents this common mix-up.",
+        "C": "Incorrect. Restriction endonuclease binding sites are a laboratory/bacterial-defence concept unrelated to normal transcription initiation.",
+        "D": "Incorrect. A promoter is a DNA sequence, not an RNA sequence."
+      },
+      "main_concept": "CON-FND-D3FBC7B48EAA6A",
+      "concept_ids": [
+        "CON-FND-D3FBC7B48EAA6A"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Transcription mechanism",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define a promoter as the DNA sequence to which RNA polymerase binds to begin transcription.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSCRIPTION-MECHANISM"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Transcription mechanism",
+      "source_citation": "Bio questions.pdf, Q3 (Transcription chapter), p12",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p15 (3=b)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q20",
+      "id": "QST-O6UIMB-BIO104-Q20",
+      "title": "Rho factor and termination",
+      "question": "The termination signal for prokaryotic transcription is recognized by:",
+      "options": {
+        "A": "Alpha subunit of RNA polymerase",
+        "B": "Beta subunit of RNA polymerase",
+        "C": "Sigma factor",
+        "D": "Rho factor"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The alpha subunit is a core catalytic component of RNA polymerase, not the termination-signal-recognising factor.",
+        "B": "Incorrect. The beta subunit is a core catalytic component of RNA polymerase, not the termination-signal-recognising factor.",
+        "C": "Incorrect. Sigma factor helps RNA polymerase recognise promoters to initiate transcription; it is not the rho-dependent termination-recognising factor.",
+        "D": "Correct. In rho-dependent termination, the protein rho factor tracks along the nascent mRNA, catches up to a paused RNA polymerase at a termination signal, and unwinds the RNA-DNA hybrid to release the transcript. Distinguishing rho factor's termination role from sigma factor's initiation role avoids a very common mix-up between the two."
+      },
+      "main_concept": "CON-FND-38425D0DF4BCF8",
+      "concept_ids": [
+        "CON-FND-38425D0DF4BCF8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Transcription mechanism",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that rho factor recognises the termination signal in rho-dependent prokaryotic transcription termination.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSCRIPTION-MECHANISM"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Transcription mechanism",
+      "source_citation": "Bio questions.pdf, Q5 (Transcription chapter), p12",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p15 (5=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q21",
+      "id": "QST-O6UIMB-BIO104-Q21",
+      "title": "RNA polymerase II and mRNA",
+      "question": "In eukaryotes, synthesis of mRNA is catalyzed by:",
+      "options": {
+        "A": "RNA polymerase I",
+        "B": "RNA polymerase II",
+        "C": "RNA polymerase III",
+        "D": "DNA polymerase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. RNA polymerase I synthesises the large ribosomal RNAs (28S, 18S, 5.8S), not mRNA.",
+        "B": "Correct. RNA polymerase II is the eukaryotic enzyme responsible for synthesising mRNA (and some small nuclear RNAs); it is uniquely sensitive to low-dose alpha-amanitin, reflecting its distinct role. Remembering \"I for rRNA, II for mRNA, III for tRNA/small RNA\" sorts the three eukaryotic polymerases instantly.",
+        "C": "Incorrect. RNA polymerase III synthesises tRNA, 5S rRNA and other small RNAs, not mRNA.",
+        "D": "Incorrect. DNA polymerase acts in DNA replication, not RNA synthesis."
+      },
+      "main_concept": "CON-FND-B36D3CE92611F0",
+      "concept_ids": [
+        "CON-FND-B36D3CE92611F0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Transcription mechanism",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that RNA polymerase II synthesises mRNA in eukaryotes.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSCRIPTION-MECHANISM"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Transcription mechanism",
+      "source_citation": "Bio questions.pdf, Q8 (Transcription chapter), p13",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p15 (8=b)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q22",
+      "id": "QST-O6UIMB-BIO104-Q22",
+      "title": "mRNA splicing definition",
+      "question": "mRNA splicing:",
+      "options": {
+        "A": "It is cutting of exons and joining of introns",
+        "B": "It requires RNA polymerase",
+        "C": "It requires DNA ligase",
+        "D": "It is cutting of introns and joining of exons"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. This reverses splicing's actual pattern -- introns (not exons) are the pieces cut out, and exons (not introns) are the pieces joined.",
+        "B": "Incorrect. Splicing is carried out by the spliceosome acting on already-transcribed pre-mRNA; it does not itself require RNA polymerase.",
+        "C": "Incorrect. Splicing does not require DNA ligase, an enzyme used in DNA repair/replication rather than RNA processing; the spliceosome catalyses its own transesterification reactions.",
+        "D": "Correct. Splicing excises non-coding intron sequences and ligates the flanking coding exon sequences together, carried out by the spliceosome on pre-mRNA in the nucleus. Keeping \"introns out, exons joined\" as a fixed phrase prevents the common intron/exon swap."
+      },
+      "main_concept": "CON-FND-281410B07A099F",
+      "concept_ids": [
+        "CON-FND-281410B07A099F"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-078CD69F4559A5"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Transcription mechanism",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that mRNA splicing removes introns and joins exons together.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSCRIPTION-MECHANISM"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Transcription mechanism",
+      "source_citation": "Bio questions.pdf, Q10 (Transcription chapter), p13",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p15 (10=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q23",
+      "id": "QST-O6UIMB-BIO104-Q23",
+      "title": "Actinomycin D inhibits transcription",
+      "question": "Actinomycin D is an inhibitor of:",
+      "options": {
+        "A": "Transcription",
+        "B": "Translation",
+        "C": "Replication",
+        "D": "None"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Actinomycin D intercalates into double-stranded DNA at GC-rich sites, physically blocking RNA polymerase from moving along the template and so inhibiting transcription; it is used experimentally to distinguish transcription-dependent processes and clinically as an antineoplastic agent. This same DNA-intercalating mechanism explains its use both as an experimental tool and as a chemotherapeutic agent.",
+        "B": "Incorrect. Translation inhibitors include agents like puromycin, not actinomycin D, which acts on DNA-templated RNA synthesis instead.",
+        "C": "Incorrect. Actinomycin D's primary, defining inhibitory action is on transcription; replication inhibition is a secondary, higher-dose effect, not the answer tested here.",
+        "D": "Incorrect. Actinomycin D does have a well-defined inhibitory action, so \"none\" is wrong."
+      },
+      "main_concept": "CON-FND-8F65FF7C5FF030",
+      "concept_ids": [
+        "CON-FND-8F65FF7C5FF030"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Transcription mechanism",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that actinomycin D inhibits transcription by intercalating into DNA.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSCRIPTION-MECHANISM"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Transcription mechanism",
+      "source_citation": "Bio questions.pdf, Q16 (Transcription chapter), p14",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p15 (16=a)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q24",
+      "id": "QST-O6UIMB-BIO104-Q24",
+      "title": "Spliceosome definition",
+      "question": "What is the macromolecular complex that associates with introns during mRNA splicing?",
+      "options": {
+        "A": "Splicer",
+        "B": "Ribosomes",
+        "C": "Nuclear body",
+        "D": "Spliceosomes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. \"Splicer\" is not the name of the complex carrying out splicing.",
+        "B": "Incorrect. Ribosomes carry out translation in the cytoplasm; they are not the complex that splices pre-mRNA in the nucleus.",
+        "C": "Incorrect. \"Nuclear body\" is a vague, non-specific term, not the name of the splicing complex.",
+        "D": "Correct. The spliceosome is a large ribonucleoprotein complex (five snRNPs -- U1, U2, U4, U5, U6 -- plus associated proteins) that recognises intron-exon boundaries and catalyses splicing. Distinguishing the spliceosome (acts on pre-mRNA in the nucleus) from the ribosome (acts on mature mRNA in the cytoplasm) prevents confusing the two RNA-protein machines."
+      },
+      "main_concept": "CON-FND-078CD69F4559A5",
+      "concept_ids": [
+        "CON-FND-078CD69F4559A5"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-281410B07A099F"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Transcription mechanism",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the spliceosome as the complex responsible for mRNA splicing.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSCRIPTION-MECHANISM"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Transcription mechanism",
+      "source_citation": "Bio questions.pdf, Q22 (Transcription chapter), p14",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p15 (22=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q25",
+      "id": "QST-O6UIMB-BIO104-Q25",
+      "title": "Translation location",
+      "question": "One of the following processes DOES NOT occur in the eukaryotic cell nucleus:",
+      "options": {
+        "A": "Transcription",
+        "B": "Translation",
+        "C": "Removal of introns",
+        "D": "DNA replication"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (i.e. this does occur in the nucleus). Transcription takes place in the nucleus, where DNA is transcribed into pre-mRNA.",
+        "B": "Correct. Translation -- decoding mature mRNA into protein on ribosomes -- happens after the mRNA is exported to the cytoplasm (or at the rough endoplasmic reticulum), not inside the nucleus; this nuclear/cytoplasmic separation is a defining feature of eukaryotic gene expression. This nuclear/cytoplasmic separation of transcription from translation is a defining structural feature that distinguishes eukaryotic from prokaryotic gene expression.",
+        "C": "Incorrect (i.e. this does occur in the nucleus). Intron removal (splicing) is carried out by the spliceosome on pre-mRNA in the nucleus.",
+        "D": "Incorrect (i.e. this does occur in the nucleus). DNA replication takes place in the nucleus, where the genome is copied."
+      },
+      "main_concept": "CON-FND-BBF949779FBADE",
+      "concept_ids": [
+        "CON-FND-BBF949779FBADE"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that translation occurs in the cytoplasm, not the eukaryotic nucleus.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "source_citation": "Bio questions.pdf, Q1 (Translation chapter), p17",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p21 (1=b)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q26",
+      "id": "QST-O6UIMB-BIO104-Q26",
+      "title": "AUG as the initiating codon",
+      "question": "AUG, the only codon for methionine, is important as:",
+      "options": {
+        "A": "A releasing factor for peptide chains",
+        "B": "A polypeptide chain terminating codon",
+        "C": "Recognition site on tRNA",
+        "D": "A polypeptide chain initiating codon"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. AUG is a codon, not a releasing factor protein; release factors are separate proteins that recognise stop codons.",
+        "B": "Incorrect. AUG is the initiating codon, not a terminating one; termination uses UAA, UAG and UGA instead.",
+        "C": "Incorrect. AUG's importance is as a codon read by the ribosome/tRNA machinery to start translation, not as an independent \"recognition site on tRNA\" separate from ordinary codon-anticodon pairing.",
+        "D": "Correct. AUG is both the codon for methionine and, positioned appropriately relative to the ribosome binding site, the signal that initiates translation -- ribosomes assemble at an AUG start codon and begin reading in that frame. No tRNA anticodon recognises a stop codon the way AUG is recognised for initiation, reinforcing AUG's distinct, dedicated starting role."
+      },
+      "main_concept": "CON-FND-E8E7F8C31A3828",
+      "concept_ids": [
+        "CON-FND-E8E7F8C31A3828"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-3946D5DB4E7374"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that AUG is the polypeptide chain-initiating codon.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "source_citation": "Bio questions.pdf, Q3 (Translation chapter), p17",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p21 (3=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q27",
+      "id": "QST-O6UIMB-BIO104-Q27",
+      "title": "The three stop codons",
+      "question": "In biosynthesis of proteins the chain terminating codons are:",
+      "options": {
+        "A": "UAA, UAG and UGA",
+        "B": "UGG, UGU and AGU",
+        "C": "AAU, AAG and GAU",
+        "D": "GCG, GCA and GCU"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. UAA, UAG and UGA are the three chain-terminating codons -- none specifies an amino acid; instead they signal the ribosome to stop, releasing the completed polypeptide via release factors. Learning all three together, rather than just one, prevents undercounting stop codons on an exam.",
+        "B": "Incorrect. UGG, UGU and AGU are sense codons (tryptophan, cysteine and serine respectively), not stop codons.",
+        "C": "Incorrect. AAU, AAG and GAU are sense codons (asparagine, lysine and aspartate respectively), not stop codons.",
+        "D": "Incorrect. GCG, GCA and GCU are all alanine codons, not stop codons."
+      },
+      "main_concept": "CON-FND-3946D5DB4E7374",
+      "concept_ids": [
+        "CON-FND-3946D5DB4E7374"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-E8E7F8C31A3828"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "List UAA, UAG and UGA as the three chain-terminating codons.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "source_citation": "Bio questions.pdf, Q4 (Translation chapter), p17",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p21 (4=a)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q28",
+      "id": "QST-O6UIMB-BIO104-Q28",
+      "title": "tRNA transfers amino acids to the ribosome",
+      "question": "Transfer RNA transfers:",
+      "options": {
+        "A": "Information from DNA to ribosomes",
+        "B": "Information from mRNA to cytosol",
+        "C": "Amino acids from cytosol to ribosomes",
+        "D": "Proteins from ribosomes to cytosol"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Carrying DNA-derived sequence information to the ribosome is mRNA's role, not tRNA's.",
+        "B": "Incorrect. This misstates the direction and cargo of tRNA's role; tRNA carries amino acids to the ribosome, not \"information\" to the cytosol.",
+        "C": "Correct. Each tRNA, charged with its matching amino acid in the cytosol by an aminoacyl-tRNA synthetase, delivers that amino acid to the ribosome, where its anticodon pairs with the corresponding mRNA codon. This delivery step is what physically brings each amino acid to the site where the peptide bond will actually form.",
+        "D": "Incorrect. tRNA does not carry finished proteins away from the ribosome; it delivers amino acids to the ribosome for incorporation into the growing chain."
+      },
+      "main_concept": "CON-FND-9B70431B1EA357",
+      "concept_ids": [
+        "CON-FND-9B70431B1EA357"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that tRNA's role is delivering amino acids from the cytosol to the ribosome.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "source_citation": "Bio questions.pdf, Q7 (Translation chapter), p17",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p21 (7=c)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q29",
+      "id": "QST-O6UIMB-BIO104-Q29",
+      "title": "Sickle cell mutation type",
+      "question": "Sickle cell anemia is due to:",
+      "options": {
+        "A": "Nonsense mutation",
+        "B": "Missense mutation",
+        "C": "Silent mutation",
+        "D": "Frame shift mutation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A nonsense mutation creates a premature stop codon, truncating the protein -- this is not what happens in sickle cell disease.",
+        "B": "Correct. Sickle cell anaemia results from a single point mutation in the beta-globin gene (GAG to GTG) that changes codon 6 from glutamic acid to valine -- a missense mutation, since the codon still specifies an amino acid, just a different one, changing haemoglobin's surface chemistry enough to cause polymerisation when deoxygenated. Because a codon still specifies an amino acid (just the wrong one), this substitution is textbook missense, not nonsense or frameshift.",
+        "C": "Incorrect. A silent mutation leaves the amino acid sequence unchanged, but sickle cell disease's mutation does change the amino acid (glutamic acid to valine).",
+        "D": "Incorrect. A frame-shift mutation results from insertion or deletion of one or two bases, disrupting the whole downstream reading frame -- sickle cell disease's mutation is a single base substitution within one codon, not a frame shift."
+      },
+      "main_concept": "CON-FND-C385DC83D44478",
+      "concept_ids": [
+        "CON-FND-C385DC83D44478"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-740DFBCB79F5FD"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that sickle cell anaemia is caused by a missense mutation substituting valine for glutamic acid.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "source_citation": "Bio questions.pdf, Q10 (Translation chapter), p18",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p21 (10=b)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q30",
+      "id": "QST-O6UIMB-BIO104-Q30",
+      "title": "Silent mutation definition",
+      "question": "The amino acid sequence of the encoded protein is not changed in:",
+      "options": {
+        "A": "Missense mutation",
+        "B": "Nonsense mutation",
+        "C": "Silent mutation",
+        "D": "Frame shift mutation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A missense mutation changes the encoded amino acid at that position, altering the protein sequence.",
+        "B": "Incorrect. A nonsense mutation creates a premature stop codon, truncating the protein -- a substantial sequence change.",
+        "C": "Correct. A silent mutation changes a base in a codon but, because the genetic code is degenerate, the new codon still specifies the same amino acid -- so the resulting protein's sequence is unchanged. This degeneracy-dependent protection is why not every DNA-level base change produces a detectable protein change.",
+        "D": "Incorrect. A frame-shift mutation disrupts the entire downstream reading frame, drastically altering the protein sequence from that point on."
+      },
+      "main_concept": "CON-FND-740DFBCB79F5FD",
+      "concept_ids": [
+        "CON-FND-740DFBCB79F5FD"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-C385DC83D44478"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that a silent mutation leaves the encoded protein's amino acid sequence unchanged.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "source_citation": "Bio questions.pdf, Q12 (Translation chapter), p18",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p21 (12=c)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q31",
+      "id": "QST-O6UIMB-BIO104-Q31",
+      "title": "Codon definition",
+      "question": "Which defines a codon?",
+      "options": {
+        "A": "A protein that begins transcription by breaking apart H bonds",
+        "B": "A free-floating base that attaches to an open DNA strand",
+        "C": "The genetic code word of three bases on mRNA that specify one amino acid",
+        "D": "The strong bond between two complementary nitrogen bases"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. This describes a protein/enzyme action, not a codon, which is a sequence unit, not a protein.",
+        "B": "Incorrect. This describes a free nucleotide, not a codon, which is a fixed three-base sequence within mRNA, not an isolated base.",
+        "C": "Correct. A codon is a sequence of three consecutive mRNA bases that specifies either a single amino acid or a stop signal during translation; with 64 possible codons covering 20 amino acids plus stop signals. This three-base reading frame is what the ribosome and tRNA anticodons physically recognise during elongation.",
+        "D": "Incorrect. This describes a hydrogen bond between paired bases, not a codon, which is a three-base sequence, not a bond."
+      },
+      "main_concept": "CON-FND-ED491160A0F62F",
+      "concept_ids": [
+        "CON-FND-ED491160A0F62F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define a codon as the three-base mRNA sequence that specifies one amino acid or a stop signal.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "source_citation": "Bio questions.pdf, Q25 (Translation chapter), p20",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p21 (25=c)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q32",
+      "id": "QST-O6UIMB-BIO104-Q32",
+      "title": "Nucleosomes and transcription regulation",
+      "question": "How does nucleosome formation on genomic DNA affect the initiation and/or elongation phases of transcription?",
+      "options": {
+        "A": "Nucleosomes inhibit access of enzymes involved in all phases of transcription",
+        "B": "Nucleosomes recruit histone and DNA modifying enzymes, and the actions of these recruited enzymes affect the access of transcription proteins to DNA",
+        "C": "Nucleosomes induce DNA degradation where the DNA contacts the histones",
+        "D": "Nucleosomes have no significant effect on transcription"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Nucleosomes do not uniformly and unconditionally block every phase of transcription; their effect is regulatory and mediated through recruited enzymes, which can open as well as close chromatin.",
+        "B": "Correct. Nucleosome formation recruits histone-modifying enzymes (e.g. histone acetyltransferases/deacetylases) and DNA-modifying enzymes (e.g. DNA methyltransferases); it is the actions of those recruited enzymes -- loosening or tightening chromatin -- that determine how accessible the DNA is to the transcription machinery.",
+        "C": "Incorrect. Nucleosomes do not induce DNA degradation at histone-contact points; DNA wrapped around histones remains intact.",
+        "D": "Incorrect. Nucleosomes have a substantial, well-documented effect on transcription via chromatin structure and enzyme recruitment -- \"no significant effect\" is wrong."
+      },
+      "main_concept": "CON-FND-EA96433F08AA98",
+      "concept_ids": [
+        "CON-FND-EA96433F08AA98"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Gene expression regulation",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that nucleosomes influence transcription indirectly, by recruiting histone- and DNA-modifying enzymes.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-GENE-EXPRESSION-REGULATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Gene expression regulation",
+      "source_citation": "Bio questions.pdf, Q1 (Gene Expression Regulation chapter), p23",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p24 (1=b)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q33",
+      "id": "QST-O6UIMB-BIO104-Q33",
+      "title": "5'UTR definition",
+      "question": "Which sequences extend between the 5' methylguanosine cap present on eukaryotic mRNAs to the AUG initiation codon?",
+      "options": {
+        "A": "Stop codon",
+        "B": "Last exon",
+        "C": "3' untranslated region (UTR)",
+        "D": "5' UTR"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A stop codon signals translation termination, at the opposite end of the coding sequence from the cap-to-start-codon region.",
+        "B": "Incorrect. \"Last exon\" describes a position relative to splicing, not the specific cap-to-AUG span.",
+        "C": "Incorrect. The 3' UTR is the untranslated sequence after the stop codon, before the poly-A tail -- the opposite end from the region described here.",
+        "D": "Correct. The 5'UTR spans from the mRNA's 5' 7-methylguanosine cap to the AUG start codon -- transcribed but not translated, and often carrying regulatory elements that tune translation efficiency. Distinguishing it from the 3'UTR, which sits after the stop codon rather than before the start codon, avoids mixing up the two untranslated regions."
+      },
+      "main_concept": "CON-FND-EAC8B4F85820B3",
+      "concept_ids": [
+        "CON-FND-EAC8B4F85820B3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Gene expression regulation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the 5'UTR as the sequence between the mRNA cap and the AUG initiation codon.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-GENE-EXPRESSION-REGULATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Gene expression regulation",
+      "source_citation": "Bio questions.pdf, Q4 (Gene Expression Regulation chapter), p23",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p24 (4=d)"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "bio104-q34",
+      "id": "QST-O6UIMB-BIO104-Q34",
+      "title": "miRNA silences, does not increase, target expression",
+      "question": "Concerning micro RNAs (miRNAs), one of the following statements is Incorrect:",
+      "options": {
+        "A": "They are small non-coding RNA molecules (containing about 22 nucleotides)",
+        "B": "They function in RNA silencing and post-transcriptional regulation of gene expression",
+        "C": "MicroRNAs are produced from either their own genes or from introns",
+        "D": "Each miRNA can interact with several hundred mRNAs increasing expression of the target mRNA"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this statement is true). miRNAs are indeed small non-coding RNAs of roughly 22 nucleotides.",
+        "B": "Incorrect (i.e. this statement is true). miRNAs do function in RNA silencing and post-transcriptional gene regulation.",
+        "C": "Incorrect (i.e. this statement is true). miRNAs are produced from either their own dedicated genes or from intronic sequences.",
+        "D": "Correct -- this is the false statement, so it is the Incorrect answer. A single miRNA can indeed interact with several hundred mRNAs, but it characteristically decreases (silences), not increases, their expression -- \"increasing expression\" reverses miRNA's actual repressive function. Recognising this repressive default is what lets a \"which statement is Incorrect\" question flag an option describing increased expression as the false one."
+      },
+      "main_concept": "CON-FND-FE453FEC0616A5",
+      "concept_ids": [
+        "CON-FND-FE453FEC0616A5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Gene expression regulation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that miRNAs decrease (silence), not increase, expression of the target mRNAs they bind.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-O6U-IMB-GENE-EXPRESSION-REGULATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Gene expression regulation",
+      "source_citation": "Bio questions.pdf, Q9 (Gene Expression Regulation chapter), p24",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p24 (9=d)"
+      },
+      "author_notes": ""
+    }
+  ]
+}
