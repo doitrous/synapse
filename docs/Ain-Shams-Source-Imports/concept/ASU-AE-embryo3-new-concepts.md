@@ -2148,3 +2148,1232 @@ find-existing.mjs searched "neurenteric canal amniotic cavity yolk sac", "primit
 
 ## resource_occurrence_ids
 [clear]
+
+---
+
+# Item
+
+## id
+CON-DEV-8A2C4E19FB3D06
+
+## label
+Lateral plate mesoderm splits into a somatic layer forming the body wall and a splanchnic layer forming the gut wall and serous membrane linings
+
+## canonical_key
+lateral-plate-mesoderm.somatic-and-splanchnic-layers
+
+## definition
+Lateral plate mesoderm, the outermost of the three intraembryonic mesoderm columns, splits into two layers as the intraembryonic (embryonic) coelom develops between them. The somatic (parietal) layer stays applied to the overlying ectoderm and, together with that ectoderm, forms the body wall; it contributes the supportive connective-tissue elements of the body wall and limbs, and its own coelomic epithelium becomes the parietal layer of each serous membrane (pleura, pericardium and peritoneum). The splanchnic (visceral) layer stays applied to the underlying endoderm of the gut tube and, together with that endoderm, forms the wall of the gut and its derivatives; its own coelomic epithelium becomes the visceral layer of each serous membrane, including the visceral pericardium that directly invests the heart.
+
+## explicit_objective
+State that lateral plate mesoderm splits into a somatic layer (body wall, parietal serous membrane) and a splanchnic layer (gut wall, visceral serous membrane, including the visceral pericardium).
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+dev
+
+## primary_node_id
+DIS-EMB-T01
+
+## article_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## exam_signal
+
+## weight_confidence
+0.35
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-DEV-ASU-AE-LPM-SOMATIC-SPLANCHNIC-01
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## related_article_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## original_wording
+Visceral pericardium originates from: ... Splanchnic layer of lateral plate mesoderm. / Which one of the following structures is formed by the somatic layer of intraembryonic mesoderm? ... Supportive elements of the body wall.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## topic
+Embryology - Intraembryonic mesoderm
+
+## subtopic
+Lateral plate mesoderm layers
+
+## microtopic
+
+## nanotopic
+
+## secondary_node_ids
+SYS-DEV
+
+## related_concept_ids
+CON-DEV-215BD7E9E58872
+
+## modules
+ASU-AE
+
+## aliases
+Somatic mesoderm forms body wall
+Splanchnic mesoderm forms visceral serous layer
+Lateral plate mesoderm splits into two layers
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing which layer (somatic vs splanchnic) pairs with which germ layer (ectoderm vs endoderm) and which structures (body wall vs gut wall/serous visceral linings) each one forms.
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent embryology reference not yet attached; current support is the local ASU-AE Embryology "Embryo 3" MCQ answer-key source, read from the rendered page image.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+find-existing.mjs searched "splanchnic layer lateral plate mesoderm visceral serous membrane", "somatic layer lateral plate mesoderm body wall", "lateral plate mesoderm somatic splanchnic layers" -- no live, pending or import-ready concept record for this fact found anywhere in the corpus.
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## resource_occurrence_ids
+[clear]
+
+---
+
+# Item
+
+## id
+CON-DEV-B31F9C7A24E856
+
+## label
+Supermale syndrome is a 44+XYY (47,XYY) sex-chromosome trisomy from paternal non-disjunction, usually with a mild or absent phenotype
+
+## canonical_key
+supermale-syndrome.44-xyy-paternal-nondisjunction
+
+## definition
+Supermale (XYY) syndrome is a sex-chromosome trisomy in which an affected male carries an extra Y chromosome, giving the karyotype 44+XYY (47,XYY). It most often arises from non-disjunction during paternal meiosis II, producing a YY-bearing sperm that fertilises a normal X-bearing ovum. Unlike Klinefelter syndrome (44+XXY) or Turner syndrome (44+XO), supermale syndrome usually carries a mild or clinically silent phenotype: affected males are typically taller than average, are usually fertile, and the karyotype is frequently discovered only incidentally rather than through a distinctive clinical picture.
+
+## explicit_objective
+State that supermale syndrome's genotype is 44+XYY, an extra Y chromosome from paternal non-disjunction, usually with a mild or absent phenotype.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+dev
+
+## primary_node_id
+DIS-EMB-T01
+
+## article_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## exam_signal
+
+## weight_confidence
+0.35
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-DEV-ASU-AE-SUPERMALE-XYY-01
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## related_article_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## original_wording
+Which of the following syndromes has the genotype 44 + XYY? ... Supermale. / Match the syndrome in column I with its chromosomal alteration in column II: Supermale ... 44 + XYY.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## microtopic
+
+## nanotopic
+
+## secondary_node_ids
+SYS-DEV
+
+## related_concept_ids
+CON-DEV-C5F7B1973F8049
+
+## modules
+ASU-AE
+
+## aliases
+Supermale syndrome
+XYY syndrome
+44+XYY karyotype
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing supermale (44+XYY, an extra Y, usually mild phenotype) with Klinefelter (44+XXY, an extra X, more consistently symptomatic) since both are sex-chromosome trisomies tested in the same matching blocks.
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent embryology reference not yet attached; current support is the local ASU-AE Embryology "Embryo 3" MCQ answer-key source, read from the rendered page image.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+find-existing.mjs searched "47 XYY supermale syndrome", "XYY syndrome extra Y chromosome", "supermale syndrome karyotype" -- no live, pending or import-ready concept record for this fact found anywhere in the corpus; a broad grep for "XYY" across all universities' concept files hit only one unrelated record (Mansoura MANS-HBG, a structural-vs-numerical classification concept that mentions XYY only in passing as an example, not as its own defining fact).
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## resource_occurrence_ids
+[clear]
+
+---
+
+# Item
+
+## id
+CON-DEV-6D94A2E8B1F573
+
+## label
+Patau syndrome is trisomy 13, a severe autosomal trisomy with multiple midline and craniofacial malformations and a short lifespan
+
+## canonical_key
+patau-syndrome.trisomy-13
+
+## definition
+Patau syndrome is caused by trisomy 13, an extra copy of chromosome 13, most often arising from non-disjunction during maternal meiosis. Unlike the sex-chromosome aneuploidies (Klinefelter, Turner, supermale, triple X), Patau syndrome is an autosomal trisomy, placing it in the same category as Down syndrome (trisomy 21) but affecting a different, larger chromosome. It is clinically far more severe than Down syndrome: affected infants typically show multiple midline and craniofacial malformations (such as cleft lip/palate, microphthalmia and holoprosencephaly), severe intellectual disability, and most do not survive beyond the first year of life.
+
+## explicit_objective
+State that Patau syndrome's genotype is trisomy 13, a severe autosomal trisomy distinct from the sex-chromosome aneuploidies and from Down syndrome's trisomy 21.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+dev
+
+## primary_node_id
+DIS-EMB-T01
+
+## article_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## exam_signal
+
+## weight_confidence
+0.35
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-DEV-ASU-AE-PATAU-TRISOMY13-01
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## related_article_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## original_wording
+Match the syndrome in column I with its chromosomal alteration in column II: Patau's ... Trisomy 13.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## microtopic
+
+## nanotopic
+
+## secondary_node_ids
+SYS-DEV
+
+## related_concept_ids
+CON-DEV-294FB8DDA40429
+
+## modules
+ASU-AE
+
+## aliases
+Patau syndrome
+Trisomy 13
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing Patau syndrome's trisomy 13 with Down syndrome's trisomy 21, since both are autosomal trisomies tested in the same column-matching block; Patau is the more severe of the two, with a much shorter typical lifespan.
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent embryology reference not yet attached; current support is the local ASU-AE Embryology "Embryo 3" MCQ answer-key source, read from the rendered page image.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+find-existing.mjs searched "Patau syndrome trisomy 13", "trisomy 13", "trisomy 18 Edward" -- no live, pending or import-ready concept record for this fact found anywhere in the corpus; a broad grep for "patau" across all universities' concept and pending-live files found no hits.
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## resource_occurrence_ids
+[clear]
+
+---
+
+# Item
+
+## id
+CON-DEV-F02B8D4E7A9C31
+
+## label
+Enamel of teeth is ectodermal, unlike the mesenchymal (neural-crest-derived) dentin, cementum and pulp it covers
+
+## canonical_key
+enamel-of-teeth.ectodermal-origin
+
+## definition
+Tooth development begins when oral ectoderm thickens to form the dental lamina, from which enamel organs bud off; the ameloblasts of the enamel organ, which secrete enamel, are themselves ectodermal cells. Enamel is therefore ectodermal in origin, the one hard dental tissue that is not mesenchymal. The remaining dental tissues, dentin, cementum and dental pulp, are formed instead by the dental papilla and follicle, mesenchyme largely derived from cranial neural crest cells, so a question naming enamel among a list of otherwise-mesodermal or otherwise-endodermal ectoderm derivatives is testing this single exception.
+
+## explicit_objective
+State that the enamel of teeth is ectodermal in origin, unlike dentin, cementum and pulp.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+dev
+
+## primary_node_id
+DIS-EMB-T01
+
+## article_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## exam_signal
+
+## weight_confidence
+0.35
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-DEV-ASU-AE-ENAMEL-ECTODERM-01
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## related_article_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## original_wording
+All the following are derivatives of ectoderm EXCEPT: ... Enamel of teeth [listed as a true ectodermal derivative, not the EXCEPT answer]. / All the following are mesodermal derivatives EXCEPT: ... Enamel of teeth [the EXCEPT/false answer, since enamel is ectodermal, not mesodermal].
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Ectoderm derivatives
+
+## microtopic
+
+## nanotopic
+
+## secondary_node_ids
+SYS-DEV
+
+## related_concept_ids
+CON-DEV-468D99B144DB78
+
+## modules
+ASU-AE
+
+## aliases
+Enamel is ectodermal
+Tooth enamel origin
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming every dental tissue shares one germ-layer origin; enamel is ectodermal while dentin, cementum and pulp are neural-crest-derived mesenchyme, so a tooth as a whole has a dual origin much like the skin.
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent embryology reference not yet attached; current support is the local ASU-AE Embryology "Embryo 3" MCQ answer-key source, read from the rendered page image.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+find-existing.mjs searched "enamel of teeth ectodermal origin", "tooth enamel germ layer", "ameloblast ectoderm dental lamina" -- no live, pending or import-ready concept record for this fact found anywhere in the corpus; a broad grep for "enamel" across all universities' concept files found only unrelated hits (histology/pharmacology records that mention teeth only in passing).
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## resource_occurrence_ids
+[clear]
+
+---
+
+# Item
+
+## id
+CON-DEV-3E7A159CF4B826
+
+## label
+The secondary (definitive) yolk sac is lined by endoderm and its remnant lies within the umbilical cord at full term
+
+## canonical_key
+yolk-sac.secondary-endoderm-lined-within-umbilical-cord
+
+## definition
+The secondary (definitive) yolk sac forms when extraembryonic mesoderm and its lining endoderm pinch off a smaller cavity from the original, larger primary yolk sac cavity; unlike the primary yolk sac, whose outer wall was exocoelomic membrane, the secondary yolk sac's cavity is lined by endoderm throughout. As folding proceeds and the gut tube closes off, the secondary yolk sac becomes compressed into the narrow vitelline duct, and its remnant persists attached to, and lying within, the umbilical cord at full term rather than free within the amniotic cavity or chorionic villi. This endodermal lining and its final location within the cord are the two facts most often tested about the definitive yolk sac.
+
+## explicit_objective
+State that the secondary (definitive) yolk sac is lined by endoderm and that its remnant lies within the umbilical cord at term.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+dev
+
+## primary_node_id
+DIS-EMB-T01
+
+## article_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## exam_signal
+
+## weight_confidence
+0.35
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-DEV-ASU-AE-YOLK-SAC-ENDODERM-CORD-01
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## related_article_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## original_wording
+Definitive yolk sac: ... Is found in umbilical cord. / Secondary yolk sac cavity is lined by: ... Endoderm.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## topic
+Embryology - Fetal membranes
+
+## subtopic
+Yolk sac
+
+## microtopic
+
+## nanotopic
+
+## secondary_node_ids
+SYS-DEV
+
+## related_concept_ids
+CON-DEV-166F03223EFC99
+
+## modules
+ASU-AE
+
+## aliases
+Definitive yolk sac
+Secondary yolk sac
+Vitelline duct remnant
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Placing the definitive yolk sac free within the amniotic cavity or chorionic villi rather than within the umbilical cord, or assuming its lining is mesodermal or ectodermal rather than endodermal like the rest of the gut tube it once opened into.
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent embryology reference not yet attached; current support is the local ASU-AE Embryology "Embryo 3" MCQ answer-key source, read from the rendered page image.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+find-existing.mjs searched "definitive yolk sac secondary yolk sac lining", "secondary yolk sac cavity endoderm", "yolk sac umbilical cord remnant" -- no live, pending or import-ready concept record for this fact found anywhere in the corpus.
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## resource_occurrence_ids
+[clear]
+
+---
+
+# Item
+
+## id
+CON-DEV-C48E92D7A3F160
+
+## label
+The amnion forms a fluid-filled sac that cushions the fetus and permits, rather than prevents, fetal movement
+
+## canonical_key
+amnion.function-permits-fetal-movement
+
+## definition
+The amnion is a thin avascular membrane that encloses the amniotic cavity, whose watery fluid surrounds the developing fetus. This fluid jacket cushions the fetus against mechanical trauma, keeps it from adhering to the surrounding membranes, provides a medium the fetal kidneys excrete urine into, and, critically, permits rather than prevents fetal movement, since a fluid-filled cavity gives room to move that a closely apposed membrane would not. At the onset of labour, the amnion (together with the chorion) forms the bag of forewaters, which ruptures ahead of delivery.
+
+## explicit_objective
+State that the amnion's fluid-filled cavity permits fetal movement, rather than preventing it, alongside its other protective functions.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+dev
+
+## primary_node_id
+DIS-EMB-T01
+
+## article_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## exam_signal
+
+## weight_confidence
+0.35
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-DEV-ASU-AE-AMNION-PERMITS-MOVEMENT-01
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## related_article_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## original_wording
+As regards amnion, all the following are true EXCEPT: ... It prevents fetal movements [the EXCEPT/false answer, since the amnion actually permits fetal movement].
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## topic
+Embryology - Fetal membranes
+
+## subtopic
+Amnion
+
+## microtopic
+
+## nanotopic
+
+## secondary_node_ids
+SYS-DEV
+
+## related_concept_ids
+CON-DEV-4903995BFF1F86
+
+## modules
+ASU-AE
+
+## aliases
+Amnion function
+Amniotic cavity permits movement
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming the amnion restricts or prevents fetal movement because it is a membrane enclosing the fetus; in fact its fluid-filled cavity is precisely what gives the fetus room to move freely.
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent embryology reference not yet attached; current support is the local ASU-AE Embryology "Embryo 3" MCQ answer-key source, read from the rendered page image.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+find-existing.mjs searched "amnion protects fetal movement amniotic fluid function", "amnion function protective water jacket", "bag of forewaters amnion" -- no live, pending or import-ready concept record for this fact found anywhere in the corpus.
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## resource_occurrence_ids
+[clear]
+
+---
+
+# Item
+
+## id
+CON-DEV-97B3F62A8E4D01
+
+## label
+A true umbilical-cord knot forms from local accumulation of Wharton's jelly, unlike a false knot, which is a harmless vessel redundancy
+
+## canonical_key
+umbilical-cord.true-vs-false-knot
+
+## definition
+Among the recognised anomalies of the umbilical cord, an excessively long cord may coil around the fetal neck, while an excessively short cord can cause premature (early) placental separation during descent. A true knot forms when local accumulation of Wharton's jelly, the cord's mucous connective tissue, produces a genuine knot-like swelling along the cord's length; if pulled tight, a true knot can compress the cord's vessels and compromise the fetus. A false knot, by contrast, is only a local redundancy or varicosity of the umbilical vessels themselves that looks knot-like without any actual looping of the cord, so unlike a true knot it does not affect the fetus.
+
+## explicit_objective
+Distinguish a true umbilical-cord knot (from local Wharton's jelly accumulation, potentially harmful) from a false knot (a harmless vessel redundancy).
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+dev
+
+## primary_node_id
+DIS-EMB-T01
+
+## article_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## exam_signal
+
+## weight_confidence
+0.35
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-DEV-ASU-AE-CORD-TRUE-FALSE-KNOT-01
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## related_article_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## original_wording
+As regards anomalies of umbilical cord, the following are true EXCEPT: ... A true knot is due to local accumulation of Wharton's jelly [printed as the EXCEPT/false-worded option in the source, though the underlying fact restates the standard true-knot mechanism -- see the question's own field_notes].
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## topic
+Embryology - Fetal membranes
+
+## subtopic
+Umbilical cord
+
+## microtopic
+
+## nanotopic
+
+## secondary_node_ids
+SYS-DEV
+
+## related_concept_ids
+CON-DEV-96B27BDE263DBA
+
+## modules
+ASU-AE
+
+## aliases
+True knot umbilical cord
+False knot umbilical cord
+Umbilical cord anomalies
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing a true knot (a genuine loop from cord movement, made worse by local Wharton's jelly bulk, potentially cord-compressing) with a false knot (only a vessel redundancy, cosmetic and harmless).
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent embryology reference not yet attached; current support is the local ASU-AE Embryology "Embryo 3" MCQ answer-key source, read from the rendered page image.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+find-existing.mjs searched "true knot false knot umbilical cord Wharton jelly", "umbilical cord anomalies coiling", "umbilical cord knot fetus" -- no live, pending or import-ready concept record for this fact found anywhere in the corpus; a broad grep for "wharton" across all universities' concept files hit only this cluster's own existing CON-DEV-96B27BDE263DBA (umbilical cord vessel-count fact, which mentions Wharton's jelly only as one of the cord's normal contents, not the knot-formation fact itself).
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## resource_occurrence_ids
+[clear]
+
+---
+
+# Item
+
+## id
+CON-DEV-5F1C8E36A0D742
+
+## label
+Teratogenic effects are greatest during the embryonic period (roughly the first 10-12 weeks), the window of organogenesis
+
+## canonical_key
+teratogen.susceptibility-greatest-embryonic-period
+
+## definition
+A teratogen's effect on the conceptus depends heavily on the developmental stage at exposure. During the pre-embryonic period (roughly the first two weeks), the classic teaching is an "all-or-none" response: an exposure either kills the conceptus or leaves it largely unaffected, because cells are still relatively undifferentiated. During the embryonic period, roughly the first 10-12 weeks and the period of organogenesis, the developing organ systems are at their most sensitive to structural disruption, so this window carries the greatest risk of major congenital malformations from teratogen exposure. After this window, during the fetal period, organs are already formed and exposure more often causes growth restriction or functional/minor structural problems rather than the major malformations typical of first-trimester exposure.
+
+## explicit_objective
+State that teratogenic susceptibility is greatest during the embryonic period (roughly the first 10-12 weeks), the window of organogenesis.
+
+## concept_type
+directly_taught_fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+dev
+
+## primary_node_id
+DIS-EMB-T01
+
+## article_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## exam_signal
+
+## weight_confidence
+0.35
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-DEV-ASU-AE-TERATOGEN-WINDOW-01
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## related_article_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## original_wording
+Drugs will produce the greater teratogenic effect during the following period of pregnancy: ... During the first 10-12 weeks of pregnancy.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Teratogens
+
+## microtopic
+
+## nanotopic
+
+## secondary_node_ids
+SYS-DEV
+
+## related_concept_ids
+CON-DEV-E75F5EEC9D6234
+
+## modules
+ASU-AE
+
+## aliases
+Teratogen susceptibility window
+Critical period of organogenesis
+First trimester teratogenic risk
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming teratogenic risk is highest either right at conception or late in pregnancy; the period of greatest risk for major structural malformation is instead the embryonic period/organogenesis window, roughly the first 10-12 weeks.
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent embryology reference not yet attached; current support is the local ASU-AE Embryology "Embryo 3" MCQ answer-key source, read from the rendered page image.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+find-existing.mjs searched "teratogenic effect first trimester critical period", "organogenesis teratogen susceptibility window", "critical period embryonic development drugs" -- no live, pending or import-ready concept record for this fact found anywhere in the corpus; a broad grep for "teratogen" across all universities' concept files hit only unrelated pharmacology/embryology records that name specific teratogens (e.g. this cluster's own heparin-safety concept) rather than the timing-window fact itself.
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## resource_occurrence_ids
+[clear]

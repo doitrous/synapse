@@ -1,5 +1,5 @@
 <!--
-  ASU-AE · Embryology > Questions > MCQ — "MCQs - Embryo 3.pdf" ("Part 3": Events of 3rd week, gastrulation, intraembryonic mesoderm, neurulation, folding, germ-layer derivatives, fetal membranes, birth defects), Q1-25 of 55 authored this pass (lane 11 dispatch scope: chunks of ~25, up to ~55 total). Stems (pp.1-9) and the printed "Answers of MCQs" table (pp.17-20) were rendered and read by eye throughout after OCR proved unreliable for both the two-column short-answer stem layout and the curved/torn-edge key table.
+  ASU-AE · Embryology > Questions > MCQ — "MCQs - Embryo 3.pdf" ("Part 3": Events of 3rd week, gastrulation, intraembryonic mesoderm, neurulation, folding, germ-layer derivatives, fetal membranes, birth defects), Q1-55 authored by lane 11; Q56-80 of 104 authored this pass (lane 12 dispatch scope: chunks of ~25, up to ~104 total). Stems (pp.1-9) and the printed "Answers of MCQs" table (pp.17-20) were rendered and read by eye throughout after OCR proved unreliable for both the two-column short-answer stem layout and the curved/torn-edge key table.
 
   Import: Admin › Bulk import → question.
 -->
@@ -7787,3 +7787,3664 @@ yes
 keySource: printed matching key p.9 ("55-59. Match the syndrome with the correct chromosomal formula": 55=a Klinefelter->44+XXY, 56=c Turner->44+XO, 57=e Down->Trisomy21, 58=b Superfemale->44+XXX, 59=d Supermale->44+XYY; letters cross-checked self-consistent against the standard karyotype for each named syndrome); printed answer table p.18 row 55 (a, no remark text visible on the torn page)
 asu: Embryo3 p.9, matching block Q55-59, this item only (Q56-59 out of this pass's scope).
 scope_note: Only Q55 (Klinefelter) authored this pass, matching the dispatch's Q1-55 scope; Q56-59 (Turner/Down/superfemale/supermale, same matching block) left for a follow-up lane alongside Q56-104.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SYNDROME-MATCH-TURNER
+
+## title
+Turner's syndrome (matching-block item)
+
+## question
+Match the syndrome with the correct chromosomal formula. Turner's syndrome:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+44 + XXY
+
+## explanation_a
+Incorrect. 44+XXY is the Klinefelter formula, matched to item 55 in the source's own matching block.
+
+## answer_b
+44 + XXX
+
+## explanation_b
+Incorrect. 44+XXX is the superfemale (triple X) formula, matched to item 58 in the source's own block.
+
+## answer_c
+44 + XO
+
+## explanation_c
+Correct. Turner syndrome's genotype is 44+XO, a monosomy of the sex chromosomes arising when an ovum or sperm with no sex chromosome, from non-disjunction, is fertilised by an X-bearing gamete. Affected females have only a single X chromosome and therefore no Barr body, and characteristically show short stature, webbed neck, limb oedema at birth and underdeveloped ovaries. This item continues the same "match the syndrome with the correct chromosomal formula" block as Q55, reusing that block's own five-option pool with a different syndrome as the target.
+
+## answer_d
+44 + XYY
+
+## explanation_d
+Incorrect. 44+XYY is the supermale formula, matched to item 59 in the source's own block.
+
+## answer_e
+Trisomy 21
+
+## explanation_e
+Incorrect. Trisomy 21 is the Down syndrome formula, matched to item 57 in the source's own block.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-DEV-C5F7B1973F8049
+
+## concept_ids
+CON-DEV-C5F7B1973F8049
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that Turner syndrome's genotype is 44+XO, distinguishing it from Klinefelter, Down, superfemale and supermale.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed matching key p.9 ("55-59. Match the syndrome with the correct chromosomal formula": 55=a Klinefelter->44+XXY, 56=c Turner->44+XO, 57=e Down->Trisomy21, 58=b Superfemale->44+XXX, 59=d Supermale->44+XYY; letters cross-checked self-consistent against the standard karyotype for each named syndrome; 600dpi render of p.18's "Answers of MCQs" table independently confirms row 56=c), printed answer table p.18 row 56 (c, no remark text visible on the torn/curved page)
+asu: Embryo3 p.9, matching block Q55-59, this item only.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SYNDROME-MATCH-DOWN
+
+## title
+Down's syndrome (matching-block item)
+
+## question
+Match the syndrome with the correct chromosomal formula. Down's syndrome:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+44 + XXY
+
+## explanation_a
+Incorrect. 44+XXY is the Klinefelter formula, matched to item 55 in the source's own matching block.
+
+## answer_b
+44 + XXX
+
+## explanation_b
+Incorrect. 44+XXX is the superfemale (triple X) formula, matched to item 58 in the source's own block.
+
+## answer_c
+44 + XO
+
+## explanation_c
+Incorrect. 44+XO is the Turner formula, matched to item 56 in the source's own block.
+
+## answer_d
+44 + XYY
+
+## explanation_d
+Incorrect. 44+XYY is the supermale formula, matched to item 59 in the source's own block.
+
+## answer_e
+Trisomy 21
+
+## explanation_e
+Correct. Down syndrome's genotype is trisomy 21, an extra copy of chromosome 21, most often from non-disjunction during maternal meiosis and increasingly likely with advanced maternal age. Unlike the other four items in this matching block, which are all sex-chromosome aneuploidies, Down syndrome is an autosomal trisomy, so its formula is stated simply as "Trisomy 21" rather than with an accompanying sex-chromosome pair. This item continues the same matching block as Q55/Q56, reusing the block's own five-option pool.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-DEV-294FB8DDA40429
+
+## concept_ids
+CON-DEV-294FB8DDA40429
+
+## contextual_concept_ids
+CON-DEV-C5F7B1973F8049
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that Down syndrome's genotype is trisomy 21, the one autosomal trisomy among this matching block's five sex-chromosome-heavy syndromes.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed matching key p.9 (55-59 block, 57=e Down->Trisomy21, self-consistent against standard karyotype); printed answer table p.18 row 57 (e, no remark visible), confirmed by 600dpi render
+asu: Embryo3 p.9, matching block Q55-59, this item only.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SYNDROME-MATCH-SUPERFEMALE
+
+## title
+Superfemale syndrome (matching-block item)
+
+## question
+Match the syndrome with the correct chromosomal formula. Superfemale:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+44 + XXY
+
+## explanation_a
+Incorrect. 44+XXY is the Klinefelter formula, matched to item 55 in the source's own matching block.
+
+## answer_b
+44 + XXX
+
+## explanation_b
+Correct. Superfemale (triple X) syndrome's genotype is 44+XXX, a trisomy of the sex chromosomes from non-disjunction that leaves an extra X chromosome without any Y. Affected females carry two Barr bodies (one more than the single Barr body of a normal 44+XX female), and most have a normal phenotype with only mild, if any, learning or fertility difficulties, unlike the more clinically obvious Klinefelter or Turner syndromes. This item continues the same matching block as Q55-57, reusing the block's own five-option pool.
+
+## answer_c
+44 + XO
+
+## explanation_c
+Incorrect. 44+XO is the Turner formula, matched to item 56 in the source's own block.
+
+## answer_d
+44 + XYY
+
+## explanation_d
+Incorrect. 44+XYY is the supermale formula, matched to item 59 in the source's own block.
+
+## answer_e
+Trisomy 21
+
+## explanation_e
+Incorrect. Trisomy 21 is the Down syndrome formula, matched to item 57 in the source's own block.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-DEV-C5F7B1973F8049
+
+## concept_ids
+CON-DEV-C5F7B1973F8049
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that superfemale (triple X) syndrome's genotype is 44+XXX.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed matching key p.9 (55-59 block, 58=b Superfemale->44+XXX, self-consistent); printed answer table p.18 row 58 (b, no remark visible), confirmed by 600dpi render
+asu: Embryo3 p.9, matching block Q55-59, this item only.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SYNDROME-MATCH-SUPERMALE
+
+## title
+Supermale syndrome (matching-block item)
+
+## question
+Match the syndrome with the correct chromosomal formula. Supermale:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+44 + XXY
+
+## explanation_a
+Incorrect. 44+XXY is the Klinefelter formula, matched to item 55 in the source's own matching block.
+
+## answer_b
+44 + XXX
+
+## explanation_b
+Incorrect. 44+XXX is the superfemale (triple X) formula, matched to item 58 in the source's own block.
+
+## answer_c
+44 + XO
+
+## explanation_c
+Incorrect. 44+XO is the Turner formula, matched to item 56 in the source's own block.
+
+## answer_d
+44 + XYY
+
+## explanation_d
+Correct. Supermale syndrome's genotype is 44+XYY, a trisomy of the sex chromosomes with an extra Y chromosome, most often arising from non-disjunction during paternal meiosis II (producing a YY sperm). Affected males are usually taller than average with normal fertility, and the karyotype is frequently discovered only incidentally, unlike Klinefelter or Turner syndrome, which carry more consistent clinical features. This item completes the same matching block as Q55-58, reusing the block's own five-option pool.
+
+## answer_e
+Trisomy 21
+
+## explanation_e
+Incorrect. Trisomy 21 is the Down syndrome formula, matched to item 57 in the source's own block.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-DEV-B31F9C7A24E856
+
+## concept_ids
+CON-DEV-B31F9C7A24E856
+
+## contextual_concept_ids
+CON-DEV-C5F7B1973F8049
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that supermale syndrome's genotype is 44+XYY, an extra Y chromosome from paternal non-disjunction.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed matching key p.9 (55-59 block, 59=d Supermale->44+XYY, self-consistent); printed answer table p.18 row 59 (d, no remark visible), confirmed by 600dpi render
+asu: Embryo3 p.9, matching block Q55-59, this item only.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SYNDROME-MATCH2-SUPERMALE
+
+## title
+Supermale syndrome (column-matching item)
+
+## question
+Match the syndrome in column "I" with its chromosomal alteration in column "II". Supermale:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+44 + XYY
+
+## explanation_a
+Correct. Supermale syndrome's chromosomal alteration is 44+XYY, an extra Y chromosome from paternal non-disjunction. This item opens a second, independent "match column I with column II" block (Q60-64: supermale, Klinefelter, Turner, Patau, Down), whose own five-option pool differs from the Q55-59 block by swapping out superfemale/44+XXX for Patau's syndrome/trisomy 13.
+
+## answer_b
+Trisomy 13
+
+## explanation_b
+Incorrect. Trisomy 13 is the Patau formula, matched to item 63 in this block.
+
+## answer_c
+Trisomy 21
+
+## explanation_c
+Incorrect. Trisomy 21 is the Down formula, matched to item 64 in this block.
+
+## answer_d
+44 + XXY
+
+## explanation_d
+Incorrect. 44+XXY is the Klinefelter formula, matched to item 61 in this block.
+
+## answer_e
+44 + XO
+
+## explanation_e
+Incorrect. 44+XO is the Turner formula, matched to item 62 in this block.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-DEV-B31F9C7A24E856
+
+## concept_ids
+CON-DEV-B31F9C7A24E856
+
+## contextual_concept_ids
+CON-DEV-6D94A2E8B1F573
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that supermale syndrome's chromosomal alteration is 44+XYY.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed matching key p.9 ("60-64. Match the syndrome in column I with its chromosomal alteration in column II": column I = 60.Supermale 61.Klinefelter's 62.Turner's 63.Patau's 64.Down's; column II = a.44+XYY b.Trisomy13 c.Trisomy21 d.44+XXY e.44+XO; letters cross-checked self-consistent against each syndrome's standard karyotype), 600dpi render of p.9 confirms both columns' text against the OCR (which badly scrambled this two-column layout); printed answer table p.18 row 60 (a, no remark visible on the torn page), confirmed by 600dpi render of p.18
+asu: Embryo3 p.9, matching block Q60-64, this item only.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SYNDROME-MATCH2-KLINEFELTER
+
+## title
+Klinefelter's syndrome (column-matching item)
+
+## question
+Match the syndrome in column "I" with its chromosomal alteration in column "II". Klinefelter's:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+44 + XYY
+
+## explanation_a
+Incorrect. 44+XYY is the supermale formula, matched to item 60 in this block.
+
+## answer_b
+Trisomy 13
+
+## explanation_b
+Incorrect. Trisomy 13 is the Patau formula, matched to item 63 in this block.
+
+## answer_c
+Trisomy 21
+
+## explanation_c
+Incorrect. Trisomy 21 is the Down formula, matched to item 64 in this block.
+
+## answer_d
+44 + XXY
+
+## explanation_d
+Correct. Klinefelter syndrome's chromosomal alteration is 44+XXY, the same trisomy of the sex chromosomes tested repeatedly elsewhere in this bank (Q3, Q8, Q19, Q55). It arises from non-disjunction in oogenesis followed by fertilisation with a Y-bearing sperm. This item reuses that same fact within this second, independent column-matching block alongside Turner, Patau and Down.
+
+## answer_e
+44 + XO
+
+## explanation_e
+Incorrect. 44+XO is the Turner formula, matched to item 62 in this block.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-DEV-C5F7B1973F8049
+
+## concept_ids
+CON-DEV-C5F7B1973F8049
+
+## contextual_concept_ids
+CON-DEV-6D94A2E8B1F573
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that Klinefelter syndrome's chromosomal alteration is 44+XXY.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed matching key p.9 (60-64 block, 61=d Klinefelter->44+XXY, self-consistent), 600dpi render confirms; printed answer table p.18 row 61 (d, no remark visible), confirmed by 600dpi render
+asu: Embryo3 p.9, matching block Q60-64, this item only.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SYNDROME-MATCH2-TURNER
+
+## title
+Turner's syndrome (column-matching item)
+
+## question
+Match the syndrome in column "I" with its chromosomal alteration in column "II". Turner's:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+44 + XYY
+
+## explanation_a
+Incorrect. 44+XYY is the supermale formula, matched to item 60 in this block.
+
+## answer_b
+Trisomy 13
+
+## explanation_b
+Incorrect. Trisomy 13 is the Patau formula, matched to item 63 in this block.
+
+## answer_c
+Trisomy 21
+
+## explanation_c
+Incorrect. Trisomy 21 is the Down formula, matched to item 64 in this block.
+
+## answer_d
+44 + XXY
+
+## explanation_d
+Incorrect. 44+XXY is the Klinefelter formula, matched to item 61 in this block.
+
+## answer_e
+44 + XO
+
+## explanation_e
+Correct. Turner syndrome's chromosomal alteration is 44+XO, the same sex-chromosome monosomy tested repeatedly elsewhere in this bank (Q7, Q15). It arises from non-disjunction leaving a gamete with no sex chromosome, fertilised by an X-bearing gamete. This item reuses that same fact within this second column-matching block alongside supermale, Klinefelter, Patau and Down.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-DEV-C5F7B1973F8049
+
+## concept_ids
+CON-DEV-C5F7B1973F8049
+
+## contextual_concept_ids
+CON-DEV-6D94A2E8B1F573
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that Turner syndrome's chromosomal alteration is 44+XO.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed matching key p.9 (60-64 block, 62=e Turner->44+XO, self-consistent), 600dpi render confirms; printed answer table p.18 row 62 (e, no remark visible), confirmed by 600dpi render
+asu: Embryo3 p.9, matching block Q60-64, this item only.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SYNDROME-MATCH2-PATAU
+
+## title
+Patau's syndrome (column-matching item)
+
+## question
+Match the syndrome in column "I" with its chromosomal alteration in column "II". Patau's:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+44 + XYY
+
+## explanation_a
+Incorrect. 44+XYY is the supermale formula, matched to item 60 in this block.
+
+## answer_b
+Trisomy 13
+
+## explanation_b
+Correct. Patau syndrome's chromosomal alteration is trisomy 13, an extra copy of chromosome 13 from non-disjunction, most often during maternal meiosis. Unlike the sex-chromosome aneuploidies elsewhere in this block (supermale, Klinefelter, Turner), Patau syndrome is an autosomal trisomy, like Down syndrome, but of a different chromosome; it is clinically far more severe than trisomy 21, with most affected infants showing multiple midline and craniofacial malformations and surviving only a short time after birth. This item is the one genuinely new syndrome this matching block introduces beyond the Q55-59 block's five syndromes.
+
+## answer_c
+Trisomy 21
+
+## explanation_c
+Incorrect. Trisomy 21 is the Down formula, matched to item 64 in this block.
+
+## answer_d
+44 + XXY
+
+## explanation_d
+Incorrect. 44+XXY is the Klinefelter formula, matched to item 61 in this block.
+
+## answer_e
+44 + XO
+
+## explanation_e
+Incorrect. 44+XO is the Turner formula, matched to item 62 in this block.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-DEV-6D94A2E8B1F573
+
+## concept_ids
+CON-DEV-6D94A2E8B1F573
+
+## contextual_concept_ids
+CON-DEV-294FB8DDA40429
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that Patau syndrome's chromosomal alteration is trisomy 13, distinguishing it from the sex-chromosome aneuploidies and from Down syndrome's trisomy 21.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed matching key p.9 (60-64 block, 63=b Patau->Trisomy13, self-consistent), 600dpi render confirms; printed answer table p.18 row 63 (b, no remark visible), confirmed by 600dpi render
+asu: Embryo3 p.9, matching block Q60-64, this item only.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SYNDROME-MATCH2-DOWN
+
+## title
+Down's syndrome (column-matching item)
+
+## question
+Match the syndrome in column "I" with its chromosomal alteration in column "II". Down's:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+44 + XYY
+
+## explanation_a
+Incorrect. 44+XYY is the supermale formula, matched to item 60 in this block.
+
+## answer_b
+Trisomy 13
+
+## explanation_b
+Incorrect. Trisomy 13 is the Patau formula, matched to item 63 in this block.
+
+## answer_c
+Trisomy 21
+
+## explanation_c
+Correct. Down syndrome's chromosomal alteration is trisomy 21, the same autosomal trisomy tested repeatedly elsewhere in this bank (Q31, Q57). It most often arises from non-disjunction during maternal meiosis, more likely with advanced maternal age. This item reuses that same fact within this second column-matching block alongside supermale, Klinefelter, Turner and Patau.
+
+## answer_d
+44 + XXY
+
+## explanation_d
+Incorrect. 44+XXY is the Klinefelter formula, matched to item 61 in this block.
+
+## answer_e
+44 + XO
+
+## explanation_e
+Incorrect. 44+XO is the Turner formula, matched to item 62 in this block.
+
+## topic
+Embryology - Birth defects
+
+## subtopic
+Chromosomal syndromes
+
+## main_concept
+CON-DEV-294FB8DDA40429
+
+## concept_ids
+CON-DEV-294FB8DDA40429
+
+## contextual_concept_ids
+CON-DEV-6D94A2E8B1F573
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that Down syndrome's chromosomal alteration is trisomy 21.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed matching key p.9 (60-64 block, 64=c Down->Trisomy21, self-consistent), 600dpi render confirms; printed answer table p.18 row 64 (c, no remark visible), confirmed by 600dpi render
+asu: Embryo3 p.9, matching block Q60-64, this item only.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-MESODERM-ABSENT-ORAL-MEMBRANE
+
+## title
+Site where mesoderm is absent
+
+## question
+Mesoderm is absent in:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Somites
+
+## explanation_a
+Incorrect. Somites are themselves masses of paraxial mesoderm, so mesoderm is present, not absent, there.
+
+## answer_b
+Oral membrane
+
+## explanation_b
+Correct. The oral (bucco-pharyngeal) membrane is one of the sites where ectoderm and endoderm are directly fused with no intervening mesoderm. The cloacal membrane, at the streak's opposite end, is the other such site. This is the same absence fact this question cluster's own gastrulation concept states, that intraembryonic mesoderm develops between ectoderm and endoderm everywhere except at these two membranes and the median strip the notochord and neural tube occupy.
+
+## answer_c
+Nephrogenic cord
+
+## explanation_c
+Incorrect. The nephrogenic cord (intermediate cell mass) is itself a subdivision of intraembryonic mesoderm, so mesoderm is present there.
+
+## answer_d
+Sclerotomes
+
+## explanation_d
+Incorrect. Sclerotomes are the ventromedial, mesodermal part of each somite, so mesoderm is present there.
+
+## answer_e
+Dermomyotomes
+
+## explanation_e
+Incorrect. Dermomyotomes are the dorsolateral, mesodermal part of each somite, so mesoderm is present there.
+
+## topic
+Embryology - Intraembryonic mesoderm
+
+## subtopic
+Sources and absence sites
+
+## main_concept
+CON-DEV-215BD7E9E58872
+
+## concept_ids
+CON-DEV-215BD7E9E58872
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the oral (bucco-pharyngeal) membrane is one of the sites where intraembryonic mesoderm is absent.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.18 row 65 (b, remark: "Ora[l membrane] ... end[oderm]", read from a torn/curved key page; letter column intact), confirmed by 600dpi render of p.9 for the stem and cross-checked against the gastrulation concept's own stated absence sites
+asu: Embryo3 p.9 Q65.
+dup_check: Same mesoderm-absence fact as Q82 (which uses "all of the above" to name all four absence-adjacent structures collectively) but a materially different, non-overlapping option set (Q65: somites/oral membrane/nephrogenic cord/sclerotomes/dermomyotomes; Q82: notochord/oropharyngeal membrane/prochordal plate/cloacal membrane/all of the above) -- kept distinct per the house distractor-difference rule.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SOMITE-COUNT-DAY26
+
+## title
+Number of somites by the end of day 26
+
+## question
+By the end of 26 days, number of somites is:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+14
+
+## explanation_a
+Incorrect. Fourteen somites corresponds to an earlier day under the standard formula.
+
+## answer_b
+16
+
+## explanation_b
+Incorrect. Sixteen somites corresponds to a day between 25 and 26, not the full day-26 count.
+
+## answer_c
+18
+
+## explanation_c
+Incorrect. Eighteen somites is one short of the day-26 total.
+
+## answer_d
+19
+
+## explanation_d
+Correct. Using the same day-by-day relationship this bank applies elsewhere (the first somite pair on day 20, then three pairs added each subsequent day, giving somite count = 3 x (day - 20) + 1), day 26 gives 3 x 6 + 1 = 19 somites. This is the same somite-count-by-day arithmetic Q17 and Q53 test with different day values.
+
+## answer_e
+22
+
+## explanation_e
+Incorrect. Twenty-two somites corresponds to day 27 under the same formula, one day later than day 26.
+
+## topic
+Embryology - Intraembryonic mesoderm
+
+## subtopic
+Somite timing
+
+## main_concept
+CON-DEV-3AB7E19B99F387
+
+## concept_ids
+CON-DEV-3AB7E19B99F387
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-PERIOD
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+Apply the somite-count-by-day relationship to state that day 26 corresponds to nineteen somites.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.18 row 66 (d, remark: "Day 2[6th]", read from a torn/curved key page; letter column intact), confirmed by 600dpi render of p.10
+asu: Embryo3 p.10 Q66.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SKIN-DUAL-ORIGIN
+
+## title
+Germ layers skin develops from
+
+## question
+Skin develops from:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Ectoderm
+
+## explanation_a
+Incorrect on its own. Ectoderm alone accounts only for the epidermis and its appendages, not the whole of the skin.
+
+## answer_b
+Endoderm
+
+## explanation_b
+Incorrect. Endoderm does not contribute to the skin at all.
+
+## answer_c
+Mesoderm
+
+## explanation_c
+Incorrect on its own. Mesoderm alone accounts only for the dermis, not the whole of the skin.
+
+## answer_d
+Ectoderm & mesoderm
+
+## explanation_d
+Correct. The skin has a dual germ-layer origin: its outer epidermis, together with hairs, nails and sweat glands, is ectodermal, while its underlying dermis is mesodermal, arising from the dermatome portion of the somites. Because the question asks about the skin as a whole rather than a single layer, the correct answer must combine both contributing germ layers.
+
+## answer_e
+Ectoderm & Endoderm
+
+## explanation_e
+Incorrect. Endoderm plays no part in skin formation; the second contributing layer is mesoderm, not endoderm.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Skin
+
+## main_concept
+CON-DEV-468D99B144DB78
+
+## concept_ids
+CON-DEV-468D99B144DB78
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the skin has a dual origin, ectodermal (epidermis) and mesodermal (dermis).
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.18 row 67 (d, remark: "Epi[dermis] ... Der[mis]", read from a torn/curved key page; letter column intact), confirmed by 600dpi render of p.10
+asu: Embryo3 p.10 Q67.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-NEURAL-CREST-DRG
+
+## title
+Structure that develops from neural crest
+
+## question
+Which of the following develops from neural crest?
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Dura mater
+
+## explanation_a
+Incorrect. The dura mater is a mesodermal derivative, not a neural crest one.
+
+## answer_b
+Suprarenal cortex
+
+## explanation_b
+Incorrect. The suprarenal (adrenal) cortex is mesodermal (from coelomic epithelium); it is the suprarenal medulla, not the cortex, that is neural crest in origin.
+
+## answer_c
+Dorsal root ganglion
+
+## explanation_c
+Correct. The neural crest gives rise to the sensory, sympathetic and parasympathetic ganglia, among other peripheral derivatives. The dorsal root ganglion is a sensory ganglion, formed by neural crest cells that migrate to lie beside the developing spinal cord. It is therefore a genuine neural crest derivative, unlike the mesodermal or neural-tube options listed alongside it.
+
+## answer_d
+Spinal cord
+
+## explanation_d
+Incorrect. The spinal cord is a neural tube derivative, part of the central nervous system, not a neural crest one.
+
+## answer_e
+Cerebral hemisphere
+
+## explanation_e
+Incorrect. The cerebral hemisphere is likewise a neural tube derivative, part of the central nervous system, not a neural crest one.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Neural crest derivatives
+
+## main_concept
+CON-DEV-785CE84F7C03DB
+
+## concept_ids
+CON-DEV-785CE84F7C03DB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the dorsal root ganglion, a sensory ganglion, is a neural crest derivative.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.18 row 68 (c, remark: "All [derived from neural crest except...]", read from a torn/curved key page; letter column intact), confirmed by 600dpi render of p.10
+asu: Embryo3 p.10 Q68.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-PRIMITIVE-STREAK-STATEMENTS
+
+## title
+True statement about the primitive streak
+
+## question
+Primitive streak:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Appears at the cranial end of the embryonic disc
+
+## explanation_a
+Incorrect. The primitive streak appears in the caudal part of the embryonic disc, not the cranial end.
+
+## answer_b
+Its formation indicates the beginning of gastrulation
+
+## explanation_b
+Correct. The primitive streak is a median thickening formed by proliferation and migration of epiblast cells. Its appearance is the first visible sign of gastrulation, the process that converts the bilaminar disc into a trilaminar one. By convention, the streak's own formation is therefore taken to mark the beginning of gastrulation.
+
+## answer_c
+Is formed by hypoblast cells
+
+## explanation_c
+Incorrect. The primitive streak is formed by epiblast cells, not hypoblast cells; the hypoblast is instead displaced by the epiblast-derived endoderm during gastrulation.
+
+## answer_d
+Appears at the end of the 3rd week
+
+## explanation_d
+Incorrect. The primitive streak appears at the beginning of the third week, not its end.
+
+## answer_e
+Forms the primitive node at its caudal end
+
+## explanation_e
+Incorrect. The primitive streak forms the primitive node at its cranial end, not its caudal end; the node is the rounded bulge at the streak's cranial-most point, with the primitive pit in its middle.
+
+## topic
+Embryology - Gastrulation
+
+## subtopic
+Primitive streak
+
+## main_concept
+CON-DEV-215BD7E9E58872
+
+## concept_ids
+CON-DEV-215BD7E9E58872
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the primitive streak's formation marks the beginning of gastrulation.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.18/p.19 row 69 (b, remark explicitly spells out why d and e are wrong: "(d) is wrong because it appears at beginning of 3rd week. (e) is wrong because it forms the primitive node at its cranial end."), confirmed by 600dpi render of p.10-11
+asu: Embryo3 p.10 Q69.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-NEURENTERIC-CANAL-CONNECTION-2
+
+## title
+Structures the neurenteric canal temporarily connects
+
+## question
+Neurenteric canal is a temporary connection between:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Amniotic cavity & extraembryonic coelom
+
+## explanation_a
+Incorrect. The extraembryonic coelom is not one of the two cavities the neurenteric canal connects.
+
+## answer_b
+Yolk sac & extraembryonic coelom
+
+## explanation_b
+Incorrect. The extraembryonic coelom is not one of the two cavities the neurenteric canal connects.
+
+## answer_c
+Amniotic cavity & neural tube
+
+## explanation_c
+Incorrect. The neural tube is not a cavity the neurenteric canal connects to at all.
+
+## answer_d
+Amniotic cavity & yolk sac
+
+## explanation_d
+Correct. The primitive pit, a small depression in the primitive node, deepens and extends ventrally. It briefly connects the amniotic cavity above the embryonic disc with the yolk sac cavity below it, and this transient passage is the neurenteric canal. It normally closes again as the notochordal process solidifies.
+
+## answer_e
+Yolk sac & intraembryonic coelom
+
+## explanation_e
+Incorrect. The intraembryonic coelom is not one of the two cavities the neurenteric canal connects.
+
+## topic
+Embryology - Neurulation
+
+## subtopic
+Neurenteric canal
+
+## main_concept
+CON-DEV-107DA88CFF4E32
+
+## concept_ids
+CON-DEV-107DA88CFF4E32
+
+## contextual_concept_ids
+CON-DEV-215BD7E9E58872
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the neurenteric canal is a temporary connection between the amniotic cavity and the yolk sac.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 70 (d, remark: "Neurenteric canal forms a temporary connection between amniotic cavity & yolk sac."), confirmed by 600dpi render of p.10 and p.19
+asu: Embryo3 p.10 Q70.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-VISCERAL-PERICARDIUM-SPLANCHNIC
+
+## title
+Origin of the visceral pericardium
+
+## question
+Visceral pericardium originates from:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Splanchnic layer of lateral plate mesoderm
+
+## explanation_a
+Correct. Lateral plate mesoderm splits into a somatic (parietal) layer, applied to the ectoderm, and a splanchnic (visceral) layer, applied to the endoderm of the gut tube. The splanchnic layer gives the visceral layer of every serous membrane inside the body cavity, including the visceral pericardium around the heart, the visceral pleura around the lungs and the visceral peritoneum around the abdominal viscera.
+
+## answer_b
+Somatic layer of lateral plate mesoderm
+
+## explanation_b
+Incorrect. The somatic layer of lateral plate mesoderm forms the parietal layers of the serous membranes and the connective tissue of the body wall and limbs, not the visceral pericardium.
+
+## answer_c
+Paraxial mesoderm
+
+## explanation_c
+Incorrect. Paraxial mesoderm forms the somites (axial skeleton, dermis and skeletal muscle), not the serous membranes.
+
+## answer_d
+Intermediate mesoderm
+
+## explanation_d
+Incorrect. Intermediate mesoderm forms the urogenital system, not the serous membranes.
+
+## answer_e
+Splanchnic layer of extraembryonic mesoderm
+
+## explanation_e
+Incorrect. The intraembryonic splanchnic layer, not the extraembryonic mesoderm, gives the visceral pericardium; extraembryonic mesoderm instead contributes to the placental membranes.
+
+## topic
+Embryology - Intraembryonic mesoderm
+
+## subtopic
+Lateral plate mesoderm layers
+
+## main_concept
+CON-DEV-8A2C4E19FB3D06
+
+## concept_ids
+CON-DEV-8A2C4E19FB3D06
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the visceral pericardium originates from the splanchnic layer of lateral plate mesoderm.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 71 (a, remark: "Splanchnic layer of lateral plate mesoderm gives the visceral layer of all serous membranes (pleura, pericardium & peritoneum)."), confirmed by 600dpi render of p.10 and p.19
+asu: Embryo3 p.10 Q71.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-NEURAL-TUBE-SPINAL-CORD
+
+## title
+Derivative of the neural tube
+
+## question
+Which one of the following is a derivative of the neural tube?
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Autonomic nervous system
+
+## explanation_a
+Incorrect. The autonomic (sympathetic and parasympathetic) nervous system is a neural crest derivative, not a neural tube one.
+
+## answer_b
+Spinal cord
+
+## explanation_b
+Correct. The neural folds meet and fuse, beginning in the cervical region and closing towards both ends, to give the neural tube. The neural tube becomes the whole central nervous system, grey and white matter alike. The spinal cord, together with the brain, is therefore a genuine neural tube derivative, unlike the neural-crest or mesodermal options listed alongside it.
+
+## answer_c
+Suprarenal medulla
+
+## explanation_c
+Incorrect. The suprarenal medulla is a neural crest derivative, not a neural tube one.
+
+## answer_d
+Pia matter
+
+## explanation_d
+Incorrect. The pia mater is a mesodermal derivative, not a neural tube one.
+
+## answer_e
+Schwann cells
+
+## explanation_e
+Incorrect. Schwann cells are neural crest derivatives, not neural tube ones.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Neural tube derivatives
+
+## main_concept
+CON-DEV-785CE84F7C03DB
+
+## concept_ids
+CON-DEV-785CE84F7C03DB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the spinal cord, unlike the autonomic nervous system, suprarenal medulla, pia mater and Schwann cells, is a neural tube derivative.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 72 (b, remark: "Neural tube forms the brain & the spinal cord."), confirmed by 600dpi render of p.11 and p.19
+asu: Embryo3 p.11 Q72.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-PRIMITIVE-NODE-INCORRECT
+
+## title
+Incorrect statement about the primitive node
+
+## question
+As regards the primitive node, choose the INCORRECT statement:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It appears during 3rd gestational week
+
+## explanation_a
+Incorrect (i.e. this statement IS true). The primitive node appears during the third gestational week, alongside the primitive streak of which it is a part.
+
+## answer_b
+It forms the notochordal process
+
+## explanation_b
+Incorrect (i.e. this statement IS true). Cells ingressing through the primitive pit in the node's middle form the prenotochordal process, the first step of notochord formation.
+
+## answer_c
+It is formed of ectoderm & endoderm
+
+## explanation_c
+Correct. This is the false statement, the one the question asks for. The primitive node is a rounded proliferation of epiblast cells at the cranial end of the primitive streak, not a structure formed of ectoderm and endoderm; it is the primitive (bucco-pharyngeal) and cloacal membranes, not the primitive node, that are formed of directly fused ectoderm and endoderm.
+
+## answer_d
+It has a small pit in its middle
+
+## explanation_d
+Incorrect (i.e. this statement IS true). The primitive node has the primitive pit, a small depression, in its middle.
+
+## answer_e
+It is formed at the cephalic end of the primitive streak
+
+## explanation_e
+Incorrect (i.e. this statement IS true). The primitive node is formed at the cephalic (cranial) end of the primitive streak.
+
+## topic
+Embryology - Gastrulation
+
+## subtopic
+Primitive node
+
+## main_concept
+CON-DEV-215BD7E9E58872
+
+## concept_ids
+CON-DEV-215BD7E9E58872
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+Identify that the primitive node is formed of proliferating epiblast cells, not of fused ectoderm and endoderm.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 73 (c, remark: "Primitive node is formed from epiblast cells."), confirmed by 600dpi render of p.11 and p.19
+asu: Embryo3 p.11 Q73.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-CAUDAL-END-CLOACAL-MEMBRANE
+
+## title
+Site where ectoderm and endoderm meet at the caudal end of the primitive streak
+
+## question
+At caudal end of the primitive streak, ectoderm & endoderm meet at:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Notochordal canal
+
+## explanation_a
+Incorrect. The notochordal canal is a transient cavity within the developing notochord, not a site of ectoderm-endoderm fusion.
+
+## answer_b
+Cloacal membrane
+
+## explanation_b
+Correct. At the caudal end of the primitive streak, ectoderm and endoderm are directly fused with no intervening mesoderm. This fusion forms the cloacal membrane, the future site of the anal and urogenital openings. It is one of the two membranous absence sites this question cluster tests repeatedly, the other being the oropharyngeal membrane at the streak's cranial end.
+
+## answer_c
+Buccopharyngeal membrane
+
+## explanation_c
+Incorrect. The buccopharyngeal (oropharyngeal) membrane is the equivalent fusion site at the cranial, not caudal, end, just beyond the primitive node.
+
+## answer_d
+Intraembryonic coelom
+
+## explanation_d
+Incorrect. The intraembryonic coelom is a fluid-filled space within the lateral plate mesoderm, not a site of ectoderm-endoderm fusion.
+
+## answer_e
+None of the above
+
+## explanation_e
+Incorrect, since option B correctly names the cloacal membrane.
+
+## topic
+Embryology - Gastrulation
+
+## subtopic
+Sources and absence sites
+
+## main_concept
+CON-DEV-215BD7E9E58872
+
+## concept_ids
+CON-DEV-215BD7E9E58872
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that ectoderm and endoderm meet directly at the cloacal membrane, at the caudal end of the primitive streak.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 74 (b, remark: "Cloacal membrane."), confirmed by 600dpi render of p.11 and p.19
+asu: Embryo3 p.11 Q74.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-INTRAEMBRYONIC-MESODERM-WEEK
+
+## title
+Week the intraembryonic mesoderm develops
+
+## question
+The intraembryonic mesoderm develops in:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+1st week
+
+## explanation_a
+Incorrect. The first week is occupied by fertilisation, cleavage and early blastocyst formation, well before any mesoderm exists.
+
+## answer_b
+2nd week
+
+## explanation_b
+Incorrect. The second week is occupied by implantation and formation of the bilaminar disc (epiblast and hypoblast only), before mesoderm appears.
+
+## answer_c
+3rd week
+
+## explanation_c
+Correct. Intraembryonic mesoderm arises during gastrulation, the characteristic event of the third week. Epiblast cells ingress through the primitive streak and spread between the epiblast-derived ectoderm and endoderm to form this new middle layer. This third-week timing is the same fact Q44 and Q5 both draw on elsewhere in this bank.
+
+## answer_d
+4th week
+
+## explanation_d
+Incorrect. By the fourth week, folding is underway and the three germ layers, mesoderm included, are already established.
+
+## answer_e
+8th week
+
+## explanation_e
+Incorrect. By the eighth week, organogenesis is well advanced, far later than mesoderm's initial appearance.
+
+## topic
+Embryology - Gastrulation
+
+## subtopic
+Timing
+
+## main_concept
+CON-DEV-215BD7E9E58872
+
+## concept_ids
+CON-DEV-215BD7E9E58872
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that intraembryonic mesoderm develops during the third week, as part of gastrulation.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 75 (c, remark: "Intraembryonic mesoderm develops in 3rd week."), confirmed by 600dpi render of p.11 and p.19
+asu: Embryo3 p.11 Q75.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-NEURAL-CREST-FOLD-MARGINS
+
+## title
+Site the neural crest appears along
+
+## question
+The neural crest appears along the prominent margins of:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Neural fold
+
+## explanation_a
+Correct. As the neural folds, the raised lips of the neural groove, meet and fuse to form the neural tube, cells at their crests separate off as a distinct population. This population, the neural crest, then migrates throughout the embryo to form a wide range of peripheral structures. The neural crest therefore arises specifically along the prominent margins of the neural folds, at the point where the folds' edges meet.
+
+## answer_b
+Notochord
+
+## explanation_b
+Incorrect. The notochord lies beneath the neural plate and induces it, but the neural crest does not arise along the notochord itself.
+
+## answer_c
+Neurenteric canal
+
+## explanation_c
+Incorrect. The neurenteric canal is an unrelated transient connection between the amniotic cavity and yolk sac, not the site of neural crest formation.
+
+## answer_d
+Anterior neuropore
+
+## explanation_d
+Incorrect. The anterior neuropore is the cranial opening of the still-unfused neural tube; the neural crest arises from the folds' margins generally, not specifically at this opening.
+
+## answer_e
+Posterior neuropore
+
+## explanation_e
+Incorrect. The posterior neuropore is likewise a transient opening of the unfused neural tube, not the specific site of neural crest formation.
+
+## topic
+Embryology - Neurulation
+
+## subtopic
+Neural crest formation
+
+## main_concept
+CON-DEV-785CE84F7C03DB
+
+## concept_ids
+CON-DEV-785CE84F7C03DB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the neural crest arises along the prominent margins of the neural folds as they fuse.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 76 (a, remark: "Neural crest appears along margins of neural folds."), confirmed by 600dpi render of p.11 and p.19
+asu: Embryo3 p.11 Q76.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-ENDODERM-ALVEOLI-LINING
+
+## title
+Structure derived from endoderm
+
+## question
+Which of the following is derived from endoderm?
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Spleen
+
+## explanation_a
+Incorrect. The spleen develops from mesenchyme (mesoderm) within the dorsal mesogastrium, not from endoderm.
+
+## answer_b
+Kidneys
+
+## explanation_b
+Incorrect. The kidneys develop from intermediate mesoderm, not endoderm.
+
+## answer_c
+Blood vessels
+
+## explanation_c
+Incorrect. Blood vessels develop from mesoderm, not endoderm.
+
+## answer_d
+Lymphatics
+
+## explanation_d
+Incorrect. Lymphatics, like blood vessels, develop from mesoderm, not endoderm.
+
+## answer_e
+Lining epithelium of alveoli
+
+## explanation_e
+Correct. The respiratory system arises as an endodermal outgrowth of the foregut, the laryngotracheal diverticulum. The epithelium lining the airway down to the alveoli is therefore endodermal, the same germ layer that lines the rest of the gut tube. The surrounding cartilage, smooth muscle and connective tissue are mesodermal, but the lining epithelium itself is endodermal.
+
+## topic
+Embryology - Germ layer derivatives
+
+## subtopic
+Endoderm derivatives
+
+## main_concept
+CON-DEV-78540F6C82AE91
+
+## concept_ids
+CON-DEV-78540F6C82AE91
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that the lining epithelium of the alveoli, unlike the spleen, kidneys, blood vessels or lymphatics, is endodermal in origin.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 77 (e, remark: "Lining epithelium of alveoli is endodermal."), confirmed by 600dpi render of p.11 and p.19
+asu: Embryo3 p.11 Q77.
+dup_check: Same endoderm-lining fact as Q13 (respiratory passages generally) but a materially different, non-overlapping option set (Q13: surface ectoderm/neural crest/mesoderm/endoderm/neuroectoderm; Q77: spleen/kidneys/blood vessels/lymphatics/lining epithelium of alveoli) -- kept distinct per the house distractor-difference rule.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-FOLDING-RESULTS-EXCEPT
+
+## title
+False statement about the results of folding
+
+## question
+All the following are results of folding EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Forebrain is at cranial end of embryo
+
+## explanation_a
+Incorrect (i.e. this IS a result of folding). Growth of the neural tube produces a forebrain bulge that comes to lie at the cranial end of the folded embryo.
+
+## answer_b
+Hindgut is enclosed within the tail fold
+
+## explanation_b
+Incorrect (i.e. this IS a result of folding). Tail (caudal) folding encloses the caudal part of the gut tube as the hindgut.
+
+## answer_c
+Foregut is enclosed within the head fold
+
+## explanation_c
+Incorrect (i.e. this IS a result of folding). Head (cranial) folding encloses the cranial part of the gut tube as the foregut.
+
+## answer_d
+Connecting stalk becomes dorsal
+
+## explanation_d
+Correct. This is the false statement, the one the question asks for. Folding reverses the connecting stalk's position from caudal to cranial and ventral, not dorsal; it is the disc's flat, dorsally-facing surface that becomes the outer body surface, while the connecting stalk, allantois and body stalk structures are drawn to the ventral aspect.
+
+## answer_e
+Oral membrane becomes ventral
+
+## explanation_e
+Incorrect (i.e. this IS a result of folding). As the head fold proceeds, the oral (bucco-pharyngeal) membrane is carried to the ventral surface at the floor of the stomodeum.
+
+## topic
+Embryology - Folding
+
+## subtopic
+Results of folding
+
+## main_concept
+CON-DEV-44A219B862FFD5
+
+## concept_ids
+CON-DEV-44A219B862FFD5
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that folding brings the connecting stalk to a cranial, ventral position rather than a dorsal one.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 78 (d, remark: "Connecting stalk becomes ventral."), confirmed by 600dpi render of p.11 and p.19
+asu: Embryo3 p.11 Q78.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SOMITES-EXCEPT-LATERAL-PLATE
+
+## title
+False statement about the somites
+
+## question
+As regards the somites, all the following statements are true EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+They develop from lateral plate mesoderm
+
+## explanation_a
+Correct. This is the false statement, the one the question asks for. Somites develop from paraxial mesoderm, not lateral plate mesoderm; paraxial and lateral plate are two separate columns of intraembryonic mesoderm, with the intermediate mesoderm lying between them.
+
+## answer_b
+Its ventromedial parts form sclerotomes
+
+## explanation_b
+Incorrect (i.e. this IS true). Each somite's ventromedial part forms the sclerotome.
+
+## answer_c
+Its dorsolateral parts form dermomyotomes
+
+## explanation_c
+Incorrect (i.e. this IS true). Each somite's dorsolateral part forms the dermomyotome, which further splits into a dermatome and a myotome.
+
+## answer_d
+Its dermatomes form dermis of skin
+
+## explanation_d
+Incorrect (i.e. this IS true). The dermatome portion of the dermomyotome forms the dermis of the skin over most of the body.
+
+## answer_e
+Its sclerotomes form vertebral column
+
+## explanation_e
+Incorrect (i.e. this IS true). The sclerotome portion migrates to surround the notochord and neural tube and forms the vertebral column.
+
+## topic
+Embryology - Intraembryonic mesoderm
+
+## subtopic
+Somite differentiation
+
+## main_concept
+CON-DEV-5E63C211DEEE00
+
+## concept_ids
+CON-DEV-5E63C211DEEE00
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that somites develop from paraxial mesoderm, not lateral plate mesoderm.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 79 (a, remark: "Somites develop from paraxial mesoderm."), confirmed by 600dpi render of p.12 and p.19
+asu: Embryo3 p.12 Q79.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO3-SEGMENTATION-PARAXIAL
+
+## title
+Mesoderm subdivision showing segmentation
+
+## question
+Segmentation is observed in the .... mesoderm:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Paraxial
+
+## explanation_a
+Correct. Paraxial mesoderm is the only intraembryonic mesoderm column that segments. It splits into paired blocks called somitomeres cranially and somites more caudally. This segmental organisation is what later produces the metameric (segmented) pattern of the vertebral column, spinal nerves and associated musculature.
+
+## answer_b
+Intermediate
+
+## explanation_b
+Incorrect. Intermediate mesoderm forms a continuous nephrogenic cord rather than segmenting.
+
+## answer_c
+Lateral plate
+
+## explanation_c
+Incorrect. Lateral plate mesoderm remains unsegmented, splitting instead into somatic and splanchnic layers.
+
+## answer_d
+Splanchnic
+
+## explanation_d
+Incorrect. The splanchnic layer is one of the two unsegmented layers lateral plate mesoderm splits into, not a segmenting tissue itself.
+
+## answer_e
+Branchial
+
+## explanation_e
+Incorrect. "Branchial" is not a recognised subdivision of intraembryonic mesoderm in this scheme.
+
+## topic
+Embryology - Intraembryonic mesoderm
+
+## subtopic
+Somite differentiation
+
+## main_concept
+CON-DEV-5E63C211DEEE00
+
+## concept_ids
+CON-DEV-5E63C211DEEE00
+
+## contextual_concept_ids
+CON-DEV-8A2C4E19FB3D06
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > MCQ
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+
+## resource_ids
+src_3448fabd352cb8018ed3
+
+## learning_objective
+State that paraxial mesoderm, unlike intermediate or lateral plate mesoderm, shows segmentation (somite formation).
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 3.pdf" question 12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 row 80 (a, remark: "Segmentation is observed in paraxial mesoderm."), confirmed by 600dpi render of p.12 and p.19
+asu: Embryo3 p.12 Q80.
