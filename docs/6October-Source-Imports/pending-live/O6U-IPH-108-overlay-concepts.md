@@ -435,3 +435,121 @@ own label/definition already state this exact indication. Sourced from "pharma M
 .pdf" (coverage/O6U-IPH-108-triage.md).
 
 ---
+
+<!--
+  Lane 3 (o6u-iph108-author3, cluster "pharmabank2") additions below -- two
+  further hits from Kasr 208-INT-concepts.md (source B, already listed above)
+  and one further hit from Assiut AUN-MPT-104-concepts.md (source C, already
+  listed above), all reused per 00-START-HERE.md §3/§4 (search-before-mint).
+  Both source files are still "pending" -- confirmed absent from this
+  checkout's local server/data/medical-library-v1.json snapshot by direct
+  grep of all three ids together (0 hits). Apply each block ONLY after its
+  own named source concept file is live.
+
+  Search covered find-existing.mjs on "hyoscine", "scopolamine CNS",
+  "ipratropium", "dobutamine", plus a direct grep of Kasr 108-INT/208-INT/
+  102-INT, Assiut AUN-MPT-104, Mansoura MANS-PPPM, MUST CVS-201 and
+  Alexandria 106 concept files (the dispatch's own named likely-overlap
+  general-pharmacology modules) and a full read of every candidate hit's own
+  concept body before reuse. Three genuine, fact-level hits found; no hit
+  anywhere for this cluster's other forty-one questions, which mint eighteen
+  new concepts instead (see concept/O6U-IPH-108-pharmabank2-concepts.md).
+
+  Simulate together with each source file separately:
+  npm run medical:simulate -- docs/6October-Source-Imports/pending-live/O6U-IPH-108-overlay-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/208-INT-concepts.md \
+    --emit /tmp/sim-O6U-IPH-108-pending-concepts-208int.json
+  npm run medical:simulate -- docs/6October-Source-Imports/pending-live/O6U-IPH-108-overlay-concepts.md \
+    --with docs/Assiut-Source-Imports/concept/AUN-MPT-104-concepts.md \
+    --emit /tmp/sim-O6U-IPH-108-pending-concepts-aunmpt104.json
+-->
+
+# Item
+
+## id
+CON-FND-8047A5BFDEE7E3
+
+## label
+Hyoscine is more markedly CNS depressant/sedating than atropine, which instead tends toward CNS stimulation and tachycardia
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Scopolamine Profile > CNS distribution
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Hyoscine vs atropine CNS effects
+
+## field_notes
+o6u: Reused for the pharmabank2 cluster's Q3 (p103, "Indicate the drug which is rapidly and
+fully distributed into the CNS and has a greater effect than most other antimuscarinic
+agents: ... Scopolamine") -- this concept's own definition already states that hyoscine
+(scopolamine) crosses into the CNS more readily and extensively than atropine. Sourced from
+"pharma MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-50FB4649C59276
+
+## label
+Ipratropium is the antimuscarinic bronchodilator option in COPD unresponsive to a beta2 agonist
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Autonomic Pharmacology > Atropine as Antidote > Ipratropium in COPD
+AUN-MPT-104 > Parasympathetic nervous system (Antagonists) > Ipratropium as COPD bronchodilator
+
+## field_notes
+o6u: Reused for the pharmabank2 cluster's Q16 (p116, "Which of the following agents is used
+to induce broncho-dilatation by a dry powder inhaler in COPD? ... Ipratropium") -- this
+concept's own label/definition already state this exact indication. Sourced from "pharma
+MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-1F4B558BD69110
+
+## label
+Dobutamine's selective beta1 agonism gives it a strong inotropic, minimally chronotropic action, making it first-line for cardiogenic shock and acute decompensated heart failure
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Sympathomimetic Pharmacology > Catecholamine Inotrope Selection > Dobutamine versus isoprenaline in heart block
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Dobutamine mechanism
+
+## field_notes
+o6u: Reused for the pharmabank2 cluster's Q49 (p153, "Choose the incorrect statement about
+Dobutamine: ... Is preferred to isoprenaline in heart block") -- this concept's own pitfall
+note ("Confusing dobutamine's minimally chronotropic profile with isoproterenol's, which is
+both strongly inotropic and strongly chronotropic") already documents the exact
+distinction this item tests. Sourced from "pharma MCQs bank .pdf"
+(coverage/O6U-IPH-108-triage.md).
+
+---
