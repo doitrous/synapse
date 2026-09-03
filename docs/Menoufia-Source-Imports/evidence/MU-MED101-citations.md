@@ -4164,3 +4164,1206 @@ The exam paper states this directly as a keyed MCQ item; no separate department 
 
 ## counts_as_claim_evidence
 no
+
+
+---
+
+<!-- varA-biophys cluster (30 new concepts) appended below -->
+
+# Item
+
+## id
+CIT-FND-3A5557EE5F045E
+
+## claim_id
+CLM-FND-3A5557EE5F045E
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following is not a cause of metabolic acidosis / "Which of the following is not a cause of metabolic acidosis:" -> Vomiting
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q37 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-44A94DF65C50AE
+
+## claim_id
+CLM-FND-44A94DF65C50AE
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+True statement regarding sodium chloride solution / "Which of the following is True regarding sodium chloride solution." -> Can pass through semipermeable membrane
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q39 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-0C76F56DAB1E6A
+
+## claim_id
+CLM-FND-0C76F56DAB1E6A
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Carbohydrate with no nutritional value / "Which out of the following is a carbohydrate with no nutritional value?" -> Cellulose
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q40 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-DA23B0E2B665D1
+
+## claim_id
+CLM-FND-DA23B0E2B665D1
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Epimer of glucose / "Epimer of glucose is" -> Mannose
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q41 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-D1D02A385DD5EA
+
+## claim_id
+CLM-FND-D1D02A385DD5EA
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Enzyme stimulated by heparin / ". . . . . . . stimulates lipoprotein lipase enzyme" -> Heparin
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q42 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-9984D817457330
+
+## claim_id
+CLM-FND-9984D817457330
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Gradual change in specific rotation of a sugar solution / ". . . . . . . is gradual change in specific rotation of optical active substance when for a time." -> mutarotation
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q43 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-57DD3E543F4238
+
+## claim_id
+CLM-FND-57DD3E543F4238
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Tissue rich in keratan sulphate / "Keratan sulphate is found in abundance in" -> Cornea
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep; no highlight found on either straddled page (pdf_visual_keys.py, 0 marked), so the correct option was determined editorially from standard biochemistry/physiology teaching rather than a printed key.
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q44 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-0E2A414FAA60C1
+
+## claim_id
+CLM-FND-0E2A414FAA60C1
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Classification of ribulose / "Ribulose is" -> Ketopentose
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q45 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-7D87FB26A34638
+
+## claim_id
+CLM-FND-7D87FB26A34638
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Product not formed by glucose oxidation / "Glucose on oxidation does not give" -> Glycoside
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q46 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-06FC2D59066FE7
+
+## claim_id
+CLM-FND-06FC2D59066FE7
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Relationship between alpha- and beta-D-glucose / "alpha-D-glucose and beta-D-glucose are" -> Anomers
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q47 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-23D30D7A298779
+
+## claim_id
+CLM-FND-23D30D7A298779
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Disaccharide with an alpha 1-to-2 glycosidic linkage / "The monosaccharide units are linked by alpha 1->2 glycosidic linkage in" -> Sucrose
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q48 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-481E092DAB9FEC
+
+## claim_id
+CLM-FND-481E092DAB9FEC
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Factor that enhances rancidity / "Which of the following can enhance rancidity?" -> Free radical
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q49 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-CCEE032D2010B9
+
+## claim_id
+CLM-FND-CCEE032D2010B9
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Phospholipid that acts as lung surfactant / "Phospholipid acting as lung surfactant is:" -> Lecithin
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q50 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-AD4D6D4CF70F4E
+
+## claim_id
+CLM-FND-AD4D6D4CF70F4E
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Structural formula of arachidonic acid / "Structure of arachidonic acid is" -> (C20:4, Delta 5,8,11,14)
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q51 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-3FD8683C5365A8
+
+## claim_id
+CLM-FND-3FD8683C5365A8
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Components of a ganglioside / "What are the components of Gangliosides?" -> Sphingosine + fatty acids + Glucose + Galactose + Sialic acid
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep; no highlight found on either straddled page (pdf_visual_keys.py, 0 marked), so the correct option was determined editorially from standard biochemistry/physiology teaching rather than a printed key.
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q52 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-608241A4086569
+
+## claim_id
+CLM-FND-608241A4086569
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Lipid that is not a steroid / "Which of the following is not steroid?" -> Beta carotene
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q53 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-831F518E284A24
+
+## claim_id
+CLM-FND-831F518E284A24
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Neutral amino acid / "Which of the following is a neutral amino acid?" -> Glycine
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q56 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-DB2956ACAD4EE6
+
+## claim_id
+CLM-FND-DB2956ACAD4EE6
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Classification of cysteine / "Cysteine is a/an . . . . . . amino acid." -> Sulphur containing
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q57 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-E3BBCA3B568ECD
+
+## claim_id
+CLM-FND-E3BBCA3B568ECD
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Protein with a high length-to-width ratio / "Which protein of the given has a length:width ratio > 10?" -> Fibrin
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep; no highlight found on either straddled page (pdf_visual_keys.py, 0 marked), so the correct option was determined editorially from standard biochemistry/physiology teaching rather than a printed key.
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q60 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-E1A103BBD113AB
+
+## claim_id
+CLM-FND-E1A103BBD113AB
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Functional character of the sympathetic nervous system / "Regarding the autonomic nervous system:" -> The sympathetic system is catabolic (energy consuming)
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q61 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-0C0D3DCF41711B
+
+## claim_id
+CLM-FND-0C0D3DCF41711B
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Organisation of the autonomic nervous system / "The autonomic nervous system:" -> Is an efferent two neuronal system
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q62 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-2294DA0AE59648
+
+## claim_id
+CLM-FND-2294DA0AE59648
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Definition of an autonomic ganglion / "The autonomic ganglia" -> collection of nerve cells outside CNS
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q63 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-79972A05C5204F
+
+## claim_id
+CLM-FND-79972A05C5204F
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Effect of sympathetic stimulation on the eye / "Stimulation of sympathetic supply produces:" -> Dilatation of the pupil (mydriasis)
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep; no highlight found on either straddled page (pdf_visual_keys.py, 0 marked), so the correct option was determined editorially from standard biochemistry/physiology teaching rather than a printed key.
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q64 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-9D648BC1395CD5
+
+## claim_id
+CLM-FND-9D648BC1395CD5
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Organ without sympathetic supply / "The following organs have sympathetic supply, except:" -> Constrictor pupillae muscle
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q65 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-60C85CB384A726
+
+## claim_id
+CLM-FND-60C85CB384A726
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Effect of sympathetic stimulation on the airway / "Sympathetic stimulation results in:" -> Broncho-dilatation
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q66 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-1A8DAFDB5135FB
+
+## claim_id
+CLM-FND-1A8DAFDB5135FB
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Nature of the greater splanchnic nerve / "The greater splanchnic nerve:" -> Belongs to sympathetic system
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q67 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-6A2C6C30D3F1CE
+
+## claim_id
+CLM-FND-6A2C6C30D3F1CE
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Relay site of T1-T2 preganglionic sympathetic fibres to the head and neck / "Preganglionic neurons arise from the lateral horn cells of the first and second thoracic segments:" -> Relay in cervical ganglia
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q68 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-C83EF923AB6264
+
+## claim_id
+CLM-FND-C83EF923AB6264
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+True statement about the cell membrane / "Cell membranes:" -> Contain peripheral proteins that act as receptors for hormones
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q70 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-6989A09E118B1F
+
+## claim_id
+CLM-FND-6989A09E118B1F
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Feature of secondary active transport / "Concerning the secondary active transport:" -> Energy is used indirectly
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q71 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-C9AFF3319629E0
+
+## claim_id
+CLM-FND-C9AFF3319629E0
+
+## resource_id
+src_f63b294e2eeab7da0ff8
+
+## evidence_role
+local_curriculum
+
+## support_span
+Nature of osmosis / "Osmosis:" -> Is a passive process
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+Biochemistry/Physiology continuation, EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep, key colour confirmed with pdf_visual_keys.py (yellow-fill highlight).
+
+## context_note
+The EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A exam paper states this directly as MCQ item q72 (yellow-fill key unless noted otherwise above); no separate department book was available locally for this specific fact at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no

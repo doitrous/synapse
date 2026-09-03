@@ -86,6 +86,29 @@
   CON-FND-42A860647C4490) in its own ## related_concepts. See
   question/MU-MED101-biochem2019-mcq.md's header for the simulate command.
 
+  Lane 5 (varA-biophys cluster) extends CON-FND-85CC08A33D0A88's field_notes
+  with one more tested item (cell membrane = lipid bilayer, varA-biophys-q69)
+  and adds three more rows at the end of this file for the varA-biophys
+  cluster's own exact-fact reuses, found the same way:
+    docs/import-ready/concept/102-INT-mcq-concepts.md --
+      CON-FND-89C28B312B15FC (quaternary structure = combination of
+      subunits).
+    docs/import-ready/concept/AU-MED-102-biochem-structural-concepts.md --
+      CON-FND-71648230D1D4E2 (an essential amino acid cannot be synthesised
+      by the body).
+    docs/import-ready/concept/102-INT-concepts.md --
+      CON-FND-2414B3639FD4D3 (denaturation spares primary structure but
+      disrupts secondary/tertiary/quaternary and biological activity).
+  All four taught by this lane's own article/MU-MED101-articles.md: the
+  first three extend the existing ART-MU101-PROTEINAA-C5C4756B article's
+  ## related_concepts, the fourth extends the new ART-MU101-MEMBRANE
+  article. A fifth exact-fact reuse this cluster found, CON-FND-9E4A791CF44E5C
+  (metabolic alkalosis compensated by hypoventilation, varA-biophys-q38), is
+  already MU-tagged from lane 2 and already taught in ART-MU101-ACIDBASE --
+  referenced directly with no overlay row needed. See
+  coverage/seeds/MU-MED101/varA-biophys.json's header and
+  concept/MU-MED101-concepts-5.md's header for the full simulate command.
+
   Import: Admin > Concepts > Import.
 -->
 
@@ -349,7 +372,7 @@ The cell membrane is a phospholipid bilayer with cholesterol, peripheral and int
 +MU-MED101
 
 ## field_notes
-mu: Tested as answerlabeled-q27 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p10, yellow-highlight key. The source itself mislabels the fifth option "a) Glycocalyx is its protein component" (repeating the first option's letter instead of "e") -- read as option E by position, not by its printed letter; field-noted, not silently corrected without record.
+mu: Tested as answerlabeled-q27 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p10, yellow-highlight key. The source itself mislabels the fifth option "a) Glycocalyx is its protein component" (repeating the first option's letter instead of "e") -- read as option E by position, not by its printed letter; field-noted, not silently corrected without record. Also tested as varA-biophys-q69 ("The cell membrane is formed of: ... Lipid bilayer") in "EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A.pdf" (mu_f63b294e2eeab7da0ff8), p10, yellow-highlight key.
 
 ---
 
@@ -482,3 +505,69 @@ Lysine has a net positive charge at physiological pH
 
 ## field_notes
 mu: Tested as biochem2019-q04 ("Which... amino acids carries a net positive charge at the physiological pH?" -> Lysine) in "EOM - Biochemistry - First Module Exam 2019 - Support 43.pdf" (mu_a6b4be6c7c2e5e8e3232), p2, red-text + underline key confirmed by render.
+
+---
+
+# Item
+
+## id
+CON-FND-89C28B312B15FC
+
+## label
+a protein built of one polypeptide chain has primary, secondary and tertiary structure, and a protein built of two or more chains adds a quaternary structure that certain proteins like hemoglobin need for activity
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as varA-biophys-q54 ("Which of the following is true regarding the quaternary structure of proteins?" -> Combination of subunits) in "EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A.pdf" (mu_f63b294e2eeab7da0ff8), p6, yellow-highlight key.
+
+---
+
+# Item
+
+## id
+CON-FND-71648230D1D4E2
+
+## label
+An essential amino acid cannot be synthesised by the body and must come from the diet
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as varA-biophys-q55 ("Which of the following is a non-essential amino acid?" -> Glutamine, distinguishing it from the essential amino acids threonine, phenylalanine, valine and lysine listed alongside it) in "EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A.pdf" (mu_f63b294e2eeab7da0ff8), p6, yellow-highlight key.
+
+---
+
+# Item
+
+## id
+CON-FND-2414B3639FD4D3
+
+## label
+Denaturation ruptures the bonds holding secondary, tertiary and quaternary structure, leaving the primary sequence intact but the protein insoluble, more viscous, more digestible and biologically dead
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as varA-biophys-q58 ("Denaturation of protein:" -> None of the above, since the printed distractors each misstate the primary-structure/quaternary-structure/biological-activity facts this concept states correctly) in "EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A.pdf" (mu_f63b294e2eeab7da0ff8), p7, yellow-highlight key.

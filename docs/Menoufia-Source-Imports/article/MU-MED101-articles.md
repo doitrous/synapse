@@ -655,12 +655,13 @@ CON-REN-DFF352F789A971
 CON-FND-9574E00BC25339
 CON-FND-57EA6E88793B03
 CON-FND-2905C98769FD5A
+CON-FND-3A5557EE5F045E
 
 ## related_articles
 
 
 ## aliases
-Bicarbonate buffer | Respiratory compensation | Renal compensation | Metabolic acidosis and alkalosis
+Bicarbonate buffer | Respiratory compensation | Renal compensation | Metabolic acidosis and alkalosis | Vomiting causes alkalosis not acidosis
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
@@ -676,7 +677,7 @@ The bicarbonate buffer reaction, the normal 20:1 bicarbonate-to-carbonic-acid ra
 The bicarbonate buffer reaction is CO2 + H2O <-> H2CO3 <-> H+ + HCO3-, catalysed by carbonic anhydrase. The Henderson-Hasselbalch equation shows that normal extracellular pH (7.4) depends on the bicarbonate-to-carbonic-acid ratio being held at about 20:1, not on either value alone. The respiratory system controls the CO2 (carbonic acid) side of this ratio on a minutes timescale; the kidney controls the bicarbonate side, chiefly by reclaiming filtered bicarbonate in the proximal tubule, on a slower, hours-to-days timescale.
 
 ### Mechanism
-Increased ventilation blows off CO2, shifting the buffer equation left and lowering H+ (respiratory alkalosis if primary, or the compensation for a primary metabolic acidosis); decreased ventilation retains CO2, shifting it right and raising H+ (respiratory acidosis if primary, or the compensation for a primary metabolic alkalosis). Diarrhoea causes hyperchloremic, normal-anion-gap metabolic acidosis through direct gastrointestinal loss of bicarbonate, compensated by hyperventilation (lowering PaCO2). Anxiety-induced hyperventilation causes acute respiratory alkalosis by blowing off CO2 faster than it is produced; rebreathing from a paper bag raises inspired CO2 and corrects it directly.
+Increased ventilation blows off CO2, shifting the buffer equation left and lowering H+ (respiratory alkalosis if primary, or the compensation for a primary metabolic acidosis); decreased ventilation retains CO2, shifting it right and raising H+ (respiratory acidosis if primary, or the compensation for a primary metabolic alkalosis). Diarrhoea causes hyperchloremic, normal-anion-gap metabolic acidosis through direct gastrointestinal loss of bicarbonate, compensated by hyperventilation (lowering PaCO2). Vomiting has the opposite effect to diarrhoea: it loses gastric hydrochloric acid, and the resulting hydrogen-ion loss (together with the renal contraction-alkalosis response to the accompanying volume depletion) causes metabolic alkalosis rather than acidosis, unlike diarrhoea, renal failure, muscular exercise (lactic acidosis) and ketosis, which all cause metabolic acidosis. Anxiety-induced hyperventilation causes acute respiratory alkalosis by blowing off CO2 faster than it is produced; rebreathing from a paper bag raises inspired CO2 and corrects it directly.
 
 ### Key determinants
 Whether the primary abnormality is metabolic or respiratory, and whether pH sits on the acid or alkaline side, determines which system compensates and in which direction: PaCO2 and ventilation for respiratory disturbances and their compensations, HCO3 and renal handling for metabolic disturbances and their compensations. The anion gap further determines whether a metabolic acidosis is a bicarbonate-losing (normal gap, e.g. diarrhoea) or acid-accumulating (high gap, e.g. ketoacidosis) process.
@@ -752,12 +753,13 @@ DIS-BIO-T01
 CON-FND-A6366627A6860E
 CON-FND-F08DE65A4D2FA4
 CON-FND-71E0F5AABC0F85
+CON-FND-44A94DF65C50AE
 
 ## related_articles
 
 
 ## aliases
-Molality | Molar mass | Normality | Solution concentration units
+Molality | Molar mass | Normality | Solution concentration units | True solution vs colloid vs suspension
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
@@ -776,10 +778,10 @@ Molality (m) is moles of solute per kilogram of solvent (mol/kg) -- a mass-based
 A worked molality calculation: dissolving 2 moles of NaOH in 400 g (0.4 kg) of water gives 2 mol / 0.4 kg = 5 mol/kg. These three units -- molality, molarity and normality -- are frequently confused because all three describe "how concentrated" a solution is, but each uses a different denominator (kilograms of solvent, litres of solution, or litres of solution counted in reactive equivalents rather than simple moles).
 
 ### Key determinants
-Which unit applies depends on what is held constant in the denominator: kilograms of solvent for molality, litres of solution for molarity, and litres of solution counted in reactive equivalents for normality. A compound's molar mass is fixed entirely by its atomic composition, independent of how much of it is dissolved.
+Which unit applies depends on what is held constant in the denominator: kilograms of solvent for molality, litres of solution for molarity, and litres of solution counted in reactive equivalents for normality. A compound's molar mass is fixed entirely by its atomic composition, independent of how much of it is dissolved. Solutions are also classified by solute particle size into true (crystalloid) solutions (under about 1 nm, e.g. dissolved sodium chloride), colloids (roughly 1-200 nm) and coarse suspensions (over roughly 200 nm); only a true solution's particles are small enough to pass through a semipermeable (dialysis) membrane, while all three pass ordinary filter paper except the coarsest suspensions.
 
 ### Clinical significance
-These solution-chemistry basics underpin how laboratory reagent concentrations and physiological fluid osmolality are expressed and calculated throughout the rest of the biochemistry and physiology curriculum.
+These solution-chemistry basics underpin how laboratory reagent concentrations and physiological fluid osmolality are expressed and calculated throughout the rest of the biochemistry and physiology curriculum. The true-solution/colloid/suspension size classification is also the physical basis of dialysis, which separates small crystalloid solutes from larger colloidal proteins across a semipermeable membrane.
 
 ---
 
@@ -860,12 +862,19 @@ CON-FND-F9F45E1748DD65
 CON-FND-3AE7A52E50C9A2
 CON-FND-27F1AC824735FB
 CON-FND-A717B3B956BD3E
+CON-FND-0C76F56DAB1E6A
+CON-FND-DA23B0E2B665D1
+CON-FND-9984D817457330
+CON-FND-0E2A414FAA60C1
+CON-FND-7D87FB26A34638
+CON-FND-06FC2D59066FE7
+CON-FND-23D30D7A298779
 
 ## related_articles
 
 
 ## aliases
-Epimers and anomers | Disaccharide linkages | Starch, glycogen and cellulose | Aldose vs ketose
+Epimers and anomers | Disaccharide linkages | Starch, glycogen and cellulose | Aldose vs ketose | Mutarotation | Sucrose's alpha-1,2 bond
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
@@ -878,10 +887,10 @@ How monosaccharides are classified and named (epimers, anomers, aldose vs ketose
 
 ## sections
 ### Definition
-Monosaccharides sharing a molecular formula are distinguished by four kinds of isomerism: D/L isomers (mirror images at the highest-numbered chiral carbon), epimers (differ at one specified non-anomeric carbon, e.g. glucose/galactose at C4), anomers (differ only at the anomeric carbon created by ring closure, e.g. alpha/beta-D-glucose), and aldose/ketose isomers (differ in functional group, e.g. glucose/fructose). Glyceraldehyde is the simplest aldose; dihydroxyacetone is the simplest ketose and the only monosaccharide with no chiral centre at all; erythrulose is the four-carbon (keto tetrose) ketose.
+Monosaccharides sharing a molecular formula are distinguished by four kinds of isomerism: D/L isomers (mirror images at the highest-numbered chiral carbon), epimers (differ at one specified non-anomeric carbon, e.g. glucose/galactose at C4, or glucose/mannose at C2), anomers (differ only at the anomeric carbon created by ring closure, e.g. alpha/beta-D-glucose), and aldose/ketose isomers (differ in functional group, e.g. glucose/fructose). Glyceraldehyde is the simplest aldose; dihydroxyacetone is the simplest ketose and the only monosaccharide with no chiral centre at all; erythrulose is the four-carbon (keto tetrose) ketose, and ribulose is the five-carbon ketopentose that is a key pentose-phosphate-pathway intermediate. Mutarotation is the separate, time-dependent phenomenon by which a freshly dissolved reducing sugar's optical rotation gradually changes as its open-chain form cyclises and equilibrates between the alpha and beta anomeric forms -- distinct from isomerism itself, from optical activity in general, and from racemisation.
 
 ### Mechanism
-The named disaccharides are defined by their specific glycosidic bond: maltose is glucose-glucose joined alpha-1,4; lactose is galactose-glucose joined beta-1,4 (needing lactase to digest); sucrose is alpha-glucose joined to beta-fructose through both anomeric carbons, making it non-reducing. Hydrolysing sucrose gives "invert sugar", the glucose-fructose mixture named for its reversed optical rotation. Starch (amylose, unbranched alpha-1,4; amylopectin, branched alpha-1,4 with alpha-1,6 branches) is the plant storage form; glycogen uses the same alpha-1,4/alpha-1,6 chemistry but branches more densely (every 8-12 residues) for faster mobilisation, and is the animal storage form; cellulose uses beta-1,4 bonds exclusively, which humans cannot hydrolyse, making it structural (plant cell walls) rather than a nutrient source. Hyaluronic acid's own repeat unit (N-acetylglucosamine + D-glucuronic acid) is unsulfated, unlike the other glycosaminoglycans.
+The named disaccharides are defined by their specific glycosidic bond: maltose is glucose-glucose joined alpha-1,4; lactose is galactose-glucose joined beta-1,4 (needing lactase to digest); sucrose is alpha-D-glucose joined to beta-D-fructose through both anomeric carbons (glucose C1 to fructose C2, an alpha-1,2-glycosidic linkage), making it non-reducing since no free anomeric hydroxyl remains. Hydrolysing sucrose gives "invert sugar", the glucose-fructose mixture named for its reversed optical rotation. Starch (amylose, unbranched alpha-1,4; amylopectin, branched alpha-1,4 with alpha-1,6 branches) is the plant storage form; glycogen uses the same alpha-1,4/alpha-1,6 chemistry but branches more densely (every 8-12 residues) for faster mobilisation, and is the animal storage form; cellulose uses beta-1,4 bonds exclusively, which humans cannot hydrolyse (lacking cellulase), making it entirely indigestible and of no nutritional/caloric value -- structural dietary fibre (plant cell walls) rather than a nutrient source, unlike the alpha-linked starch and glycogen which human amylase readily digests. Oxidising glucose gives distinct acids depending on which carbon is oxidised -- gluconic acid (C1), glucuronic acid (C6), glucosaccharic/glucaric acid (both) -- none of which is the same reaction as glycoside formation, which instead condenses the anomeric hydroxyl with an alcohol, releasing water rather than involving any oxidation step. Hyaluronic acid's own repeat unit (N-acetylglucosamine + D-glucuronic acid) is unsulfated, unlike the other glycosaminoglycans.
 
 ### Key determinants
 Which carbon a pair of sugars differs at (the anomeric carbon only, one other specified carbon, or the functional-group carbon) determines whether they are anomers, epimers, or aldose/ketose isomers. Which specific glycosidic bond links two monosaccharides (alpha vs beta configuration, and which carbon positions) determines the resulting disaccharide's identity, which enzyme digests it, and whether it is reducing or non-reducing.
@@ -958,12 +967,14 @@ CON-FND-8B7D8582182540
 CON-FND-0A30250CF4A5B1
 CON-FND-F4865459F719A6
 CON-FND-05A8CEB2CD0029
+CON-FND-D1D02A385DD5EA
+CON-FND-57DD3E543F4238
 
 ## related_articles
 
 
 ## aliases
-Heparin sulfation | Glycoprotein definition | Hyaluronic acid vs sulfated GAGs
+Heparin sulfation | Glycoprotein definition | Hyaluronic acid vs sulfated GAGs | Heparin and lipoprotein lipase | Keratan sulphate in the cornea
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
@@ -979,7 +990,7 @@ How heparin's heavy sulfation (three sulfate groups per disaccharide) makes it t
 Glycosaminoglycans (GAGs) are long, repeating-disaccharide polysaccharides; most (heparin, keratan sulfate, chondroitin sulfate, dermatan sulfate) are sulfated, but hyaluronic acid is the one exception, carrying carboxyl groups from its glucuronic acid component but no sulfate esters at all. A glycoprotein, by contrast, is a protein (not a GAG) with one or more oligosaccharide chains covalently attached, usually N-linked to asparagine or O-linked to serine/threonine.
 
 ### Mechanism
-Heparin's repeating disaccharide carries three sulfate groups plus one carboxyl group, making it exceptionally densely negatively charged; it is stored in and released from mast cells and acts chiefly by potentiating antithrombin III. Because hyaluronic acid alone lacks sulfation, it is also the one GAG never found covalently attached to a core protein as a proteoglycan; instead it exists as a free, extremely long polysaccharide chain that binds enormous amounts of water. Glycoproteins, being mostly protein with a minority carbohydrate component, are functionally diverse -- immunoglobulins (antibodies) are a key example, where the attached carbohydrate supports folding, stability and effector function.
+Heparin's repeating disaccharide carries three sulfate groups plus one carboxyl group, making it exceptionally densely negatively charged; it is stored in and released from mast cells and acts chiefly by potentiating antithrombin III. Beyond this anticoagulant role, heparin also displaces lipoprotein lipase from its endothelial heparan-sulfate binding sites into plasma, activating the enzyme to hydrolyse the triglycerides carried in chylomicrons and VLDL -- the basis of the historical "post-heparin lipolytic activity" assay. Because hyaluronic acid alone lacks sulfation, it is also the one GAG never found covalently attached to a core protein as a proteoglycan; instead it exists as a free, extremely long polysaccharide chain that binds enormous amounts of water. Keratan sulfate, by contrast, is characteristically concentrated in the cornea, where its regular spacing between collagen fibrils is thought to contribute to corneal transparency, as well as in cartilage and intervertebral discs. Glycoproteins, being mostly protein with a minority carbohydrate component, are functionally diverse -- immunoglobulins (antibodies) are a key example, where the attached carbohydrate supports folding, stability and effector function.
 
 ### Key determinants
 Whether a glycosaminoglycan carries sulfate groups, and how many, determines its overall charge density and function; hyaluronic acid's complete absence of sulfation is what excludes it from being covalently attached to a core protein as a proteoglycan. Whether an oligosaccharide is attached to a protein or to a lipid determines whether the resulting molecule is classed as a glycoprotein or a glycolipid.
@@ -1060,12 +1071,18 @@ CON-FND-7C8A02831B3243
 CON-FND-BE919386760579
 CON-FND-68CA299502EB27
 CON-FND-42A860647C4490
+CON-FND-831F518E284A24
+CON-FND-DB2956ACAD4EE6
+CON-FND-E3BBCA3B568ECD
+CON-FND-89C28B312B15FC
+CON-FND-71648230D1D4E2
+CON-FND-2414B3639FD4D3
 
 ## related_articles
 
 
 ## aliases
-Peptide bond | Protein secondary structure | Metalloproteins | Ketogenic vs glucogenic amino acids | Primary structure | Tripeptide | Basic amino acids
+Peptide bond | Protein secondary structure | Metalloproteins | Ketogenic vs glucogenic amino acids | Primary structure | Tripeptide | Basic amino acids | Quaternary structure | Essential amino acids | Protein denaturation | Neutral and sulphur-containing amino acids | Fibrous vs globular proteins
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
@@ -1078,10 +1095,10 @@ How amino acids link together (the peptide bond, a carboxyl-to-amino condensatio
 
 ## sections
 ### Definition
-A peptide bond forms by condensation of the carboxyl group of one amino acid with the amino group of the next, releasing one water molecule; many such bonds link amino acids into a polypeptide/protein. Peptides are also named by how many residues they contain: a dipeptide (two, e.g. anserine), a tripeptide (three, e.g. glutathione -- built from glutamic acid, cysteine and glycine), and progressively larger oligopeptides such as the nonapeptide hormone oxytocin (nine residues) and the decapeptide kinin kallidin (ten residues). Protein structure is described at four levels: primary (the linear amino-acid sequence, held together by peptide bonds and specific to each protein), secondary (local, repeating backbone folding patterns stabilised by hydrogen bonds -- the alpha helix and beta-pleated sheet are the two classic examples), tertiary (the overall 3D fold of one chain) and quaternary (the assembly of multiple separate chains).
+A peptide bond forms by condensation of the carboxyl group of one amino acid with the amino group of the next, releasing one water molecule; many such bonds link amino acids into a polypeptide/protein. Peptides are also named by how many residues they contain: a dipeptide (two, e.g. anserine), a tripeptide (three, e.g. glutathione -- built from glutamic acid, cysteine and glycine), and progressively larger oligopeptides such as the nonapeptide hormone oxytocin (nine residues) and the decapeptide kinin kallidin (ten residues). Protein structure is described at four levels: primary (the linear amino-acid sequence, held together by peptide bonds and specific to each protein), secondary (local, repeating backbone folding patterns stabilised by hydrogen bonds -- the alpha helix and beta-pleated sheet are the two classic examples), tertiary (the overall 3D fold of one chain) and quaternary (the assembly of two or more separate chains/subunits into one functional protein, needed for activity by proteins such as haemoglobin; a single-chain protein has only the first three levels). Amino acids are also grouped by side-chain charge/character at physiological pH into acidic, basic and neutral (uncharged, e.g. glycine, the simplest amino acid with only a hydrogen side chain) classes, and separately by side-chain chemistry -- cysteine and methionine are the two sulphur-containing amino acids, cysteine's thiol group additionally forming covalent disulfide bonds that stabilise tertiary/quaternary structure. An essential amino acid (e.g. threonine, phenylalanine, valine, lysine) cannot be synthesised by the body and must come from the diet, unlike a non-essential amino acid such as glutamine, which the body readily makes (by amidation of glutamic acid).
 
 ### Mechanism
-The peptide bond has partial double-bond character (resonance with the adjacent carbonyl), making it rigid, planar and trans-configured, with rotational freedom confined to the bonds on either side of it. A metalloprotein depends on a tightly bound metal cofactor for its function -- ceruloplasmin binds six to seven copper atoms and also has ferroxidase activity. Among the twenty amino acids, only leucine and lysine are purely ketogenic (degraded entirely to ketone-body precursors, with no glucogenic pathway); glutamine is the uncharged amide derivative of the acidic amino acid glutamic acid, exactly as asparagine is the amide of aspartic acid. At physiological pH, the basic amino acids -- lysine and arginine reliably, histidine less so -- carry a net positive charge from a protonated side-chain amino or guanidino group, while the acidic amino acids aspartic acid and glutamic acid carry a net negative charge from an ionised side-chain carboxyl group.
+The peptide bond has partial double-bond character (resonance with the adjacent carbonyl), making it rigid, planar and trans-configured, with rotational freedom confined to the bonds on either side of it. A metalloprotein depends on a tightly bound metal cofactor for its function -- ceruloplasmin binds six to seven copper atoms and also has ferroxidase activity. Among the twenty amino acids, only leucine and lysine are purely ketogenic (degraded entirely to ketone-body precursors, with no glucogenic pathway); glutamine is the uncharged amide derivative of the acidic amino acid glutamic acid, exactly as asparagine is the amide of aspartic acid. At physiological pH, the basic amino acids -- lysine and arginine reliably, histidine less so -- carry a net positive charge from a protonated side-chain amino or guanidino group, while the acidic amino acids aspartic acid and glutamic acid carry a net negative charge from an ionised side-chain carboxyl group. Proteins are also classed by overall shape into fibrous (elongated, length-to-width ratio greater than about 10 -- fibrin/fibrinogen, collagen, keratin) and globular (compact, roughly spherical, ratio close to 1 -- haemoglobin, myoglobin, albumin, most globulins); fibrin's long polymer strands, formed when thrombin cleaves fibrinogen, are the classic fibrous exception among otherwise-globular plasma proteins. Denaturation ruptures the non-covalent (and, for disulfide bonds, covalent) interactions holding secondary, tertiary and quaternary structure, leaving the primary amino-acid sequence itself intact -- the peptide bonds are not broken -- but the protein becomes insoluble, more viscous, more susceptible to digestion, and loses its original biological activity (such as enzymatic function).
 
 ### Key determinants
 Which two functional groups condense (the carboxyl group of one amino acid, the amino group of the next) determines the peptide bond, and its partial double-bond character determines its planarity and restricted rotation. Whether an amino acid's carbon skeleton yields only acetyl-CoA/ketone-body precursors, only gluconeogenic intermediates, or both, determines whether it is classed as ketogenic, glucogenic, or mixed.
@@ -1687,3 +1704,303 @@ Several of these facts share the same logic of "the named exception among an oth
 
 ### Clinical significance
 Because facial muscles lack a deep fascial sheath and insert directly into skin, facial lacerations and infections spread differently (more superficially, along fascial planes of the scalp/face) than limb wounds deep to an intact deep fascia. The right-lymphatic-duct/thoracic-duct territory split matters clinically because a malignancy below the diaphragm (for example gastric cancer) can seed a left supraclavicular node (Virchow's node) by ascending the thoracic duct, while a right-sided head/neck or thoracic malignancy drains instead through the much smaller right lymphatic duct.
+
+
+---
+
+# Item
+
+## id
+ART-MU101-LIPIDS-5482CCBF
+
+## title
+Lipids: rancidity, phospholipids, fatty acids, glycosphingolipids and steroids
+
+## arabic_title
+
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Biochemistry
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Biochemistry and Physiology - Variant A
+
+## primary_node_id
+DIS-BIO-T04
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-FND-481E092DAB9FEC
+CON-FND-CCEE032D2010B9
+CON-FND-AD4D6D4CF70F4E
+CON-FND-3FD8683C5365A8
+CON-FND-608241A4086569
+
+## related_articles
+
+
+## aliases
+Rancidity and free radicals | Lung surfactant lecithin | Arachidonic acid structure | Ganglioside composition | Beta carotene is not a steroid
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+8
+
+## summary
+Five lipid facts tested together in the Menoufia Foundation 1 EOM paper: what drives fat rancidity (free radicals) versus what protects against it (antioxidants, air/bacteria avoidance); lecithin as the phospholipid that functions as pulmonary surfactant; arachidonic acid's structural formula (C20:4, Delta-5,8,11,14) as the eicosanoid precursor; the sphingosine+fatty-acid+sugars+sialic-acid composition of a ganglioside; and beta carotene as a non-steroid isoprenoid pigment, contrasted with the true steroids sterol, bile acid, oestrogen and glucocorticoid.
+
+## sections
+### Definition
+Rancidity is the oxidative spoilage of fats, driven by a free-radical chain reaction in which a radical abstracts hydrogen from an unsaturated fatty acid, forming a lipid radical that reacts with oxygen and propagates further radical formation; antioxidants (including phenolic compounds), avoidance of air/oxygen exposure and avoidance of spoilage-initiating bacteria all instead protect against it. Among the phospholipids, lecithin (dipalmitoylphosphatidylcholine) is specifically the pulmonary surfactant component, secreted by type II pneumocytes to lower alveolar surface tension, distinct from the general membrane-structural roles of cephalin (phosphatidylethanolamine), phosphatidylinositol, phosphatidylserine and sphingomyelin. Arachidonic acid is a twenty-carbon, four-double-bond omega-6 fatty acid (C20:4, Delta-5,8,11,14), derived from linoleic acid (C18:2) and serving as the eicosanoid (prostaglandin/thromboxane/leukotriene) precursor. Steroids share a four-ring cyclopentanoperhydrophenanthrene nucleus -- sterols (cholesterol), bile acids, oestrogen and glucocorticoids all qualify -- while beta carotene, an isoprenoid built from isoprene units, does not and is therefore not a steroid.
+
+### Mechanism
+A ganglioside is a glycosphingolipid: a ceramide backbone (sphingosine condensed with a fatty acid) carrying an oligosaccharide chain that includes glucose, galactose and, distinctively, one or more sialic acid (N-acetylneuraminic acid) residues -- the sialic acid is what separates a ganglioside from a simpler glycosphingolipid such as a cerebroside. This sphingosine-based backbone contrasts with the glycerol-based backbone of the glycerophospholipids (lecithin, cephalin, phosphatidylserine, phosphatidylinositol).
+
+### Key determinants
+Whether a fatty acid, phospholipid or lipid derivative protects against or promotes oxidative rancidity depends on whether it terminates or propagates the underlying free-radical chain reaction. Whether a lipid is classed as a steroid depends specifically on the presence of the four-ring steroid nucleus, not merely on being lipid-soluble or hormone-like; whether a glycosphingolipid is a ganglioside depends specifically on whether its sugar chain carries sialic acid.
+
+### Clinical significance
+Surfactant deficiency (insufficient lecithin/DPPC production by immature type II pneumocytes) underlies neonatal respiratory distress syndrome; arachidonic acid's conversion to eicosanoids is the target of NSAIDs (cyclooxygenase inhibition) and corticosteroids (phospholipase A2 inhibition); low high-density lipoprotein and antioxidant status are linked to increased oxidative (rancidity-like) lipid damage relevant to atherosclerosis.
+
+---
+
+# Item
+
+## id
+ART-MU101-ANS-AF9E6E0F
+
+## title
+Autonomic nervous system: organisation, ganglia and sympathetic effects
+
+## arabic_title
+
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Physiology
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Biochemistry and Physiology - Variant A
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-FND-E1A103BBD113AB
+CON-FND-0C0D3DCF41711B
+CON-FND-2294DA0AE59648
+CON-FND-79972A05C5204F
+CON-FND-9D648BC1395CD5
+CON-FND-60C85CB384A726
+CON-FND-1A8DAFDB5135FB
+CON-FND-6A2C6C30D3F1CE
+
+## related_articles
+
+
+## aliases
+Sympathetic vs parasympathetic | Two-neuron efferent pathway | Autonomic ganglion definition | Mydriasis and dilator pupillae | Constrictor pupillae exception | Bronchodilatation beta-2 | Greater splanchnic nerve | Cervical sympathetic ganglia
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+10
+
+## summary
+The organisation of the autonomic nervous system (a two-neuron, efferent-only, ganglion-relaying motor system, unlike the single-neuron somatic pathway) and a set of eight sympathetic-effect facts tested together in the Menoufia Foundation 1 EOM paper: the catabolic character of sympathetic discharge, the definition of an autonomic ganglion, pupillary mydriasis via the dilator pupillae, the constrictor pupillae as the one structure lacking sympathetic supply, beta-2-mediated bronchodilatation, the greater splanchnic nerve as a purely sympathetic structure relaying in the coeliac ganglion, and T1-T2 preganglionic fibres to the head/neck relaying in the cervical sympathetic ganglia.
+
+## sections
+### Definition
+Every autonomic motor pathway, sympathetic or parasympathetic, is a two-neuron efferent system: a preganglionic neuron (cell body in the CNS) synapses in a peripheral ganglion -- by definition a collection of nerve cell bodies outside the CNS, using acetylcholine as its neurotransmitter -- onto a postganglionic neuron that reaches the target organ; this contrasts with the single-neuron somatic motor pathway to skeletal muscle. Sympathetic ganglia are typically paravertebral/prevertebral (relatively close to the spinal cord, e.g. the cervical sympathetic ganglia relaying T1-T2 preganglionic fibres to the head and neck), while parasympathetic ganglia are typically terminal, close to or within the target organ. Functionally, the sympathetic division is catabolic, mobilising energy stores (glycogenolysis, lipolysis) and readying the body for activity in a coordinated mass-action discharge, opposite to the anabolic, more discretely acting parasympathetic ('rest and digest') division.
+
+### Mechanism
+Sympathetic stimulation produces mydriasis (pupillary dilatation) via the radial dilator pupillae muscle, bronchodilatation via beta-2 receptors on bronchial smooth muscle, and travels to the abdominal viscera via the greater splanchnic nerve, a purely sympathetic preganglionic nerve (roughly T5-T9) relaying in the coeliac ganglion. The sphincter (constrictor) pupillae muscle is a notable exception to the otherwise near-universal sympathetic distribution (sweat glands, skeletal-muscle blood vessels, cardiac muscle, bronchial muscle all included): it receives parasympathetic innervation only, via the oculomotor nerve and ciliary ganglion.
+
+### Key determinants
+Which division (sympathetic vs parasympathetic) supplies a given effect, and in which direction, follows the same catabolic/anabolic, mass-action/discrete-action logic throughout the ANS: sympathetic dilates the pupil and bronchi and mobilises energy, while parasympathetic constricts the pupil, accommodates for near vision, and promotes digestion/storage. Where a ganglion sits (relatively near the spinal cord vs near/within the target organ) tracks which division it belongs to.
+
+### Clinical significance
+Horner's syndrome (ptosis, miosis, anhidrosis) follows from loss of sympathetic tone to the head/neck along exactly the T1-T2-to-cervical-ganglion pathway described here; beta-2 agonists such as salbutamol exploit the same sympathetic bronchodilator receptor pharmacologically to treat bronchospasm.
+
+---
+
+# Item
+
+## id
+ART-MU101-MEMBRANE-615ED100
+
+## title
+Cell membrane structure and transport: bilayer, proteins, active transport and osmosis
+
+## arabic_title
+
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Physiology
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Biochemistry and Physiology - Variant A
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-FND-85CC08A33D0A88
+CON-FND-C83EF923AB6264
+CON-FND-6989A09E118B1F
+CON-FND-C9AFF3319629E0
+
+## related_articles
+
+
+## aliases
+Phospholipid bilayer | Peripheral proteins as receptors | Secondary active transport | Osmosis
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+7
+
+## summary
+The cell membrane's basic structure (a phospholipid bilayer with cholesterol, peripheral and integral proteins) and three transport-physiology facts tested together in the Menoufia Foundation 1 EOM paper: peripheral membrane proteins acting as hormone receptors, the indirect-energy character of secondary active transport (as opposed to primary active transport's direct ATP use), and osmosis as a passive, carrier-free, energy-independent movement of water.
+
+## sections
+### Definition
+The cell membrane is a phospholipid bilayer -- two layers of phospholipid arranged tail-to-tail, hydrophilic heads outward and hydrophobic tails inward -- with cholesterol buffering fluidity, and integral (transmembrane) and peripheral (surface-attached) proteins providing structural, channel/carrier and receptor/enzyme functions; carbohydrate chains attached to some outer-face lipids and proteins form the glycocalyx. Peripheral proteins, non-covalently attached to either bilayer face, commonly serve as receptors (including for hormones), enzymes, or structural links to the cytoskeleton. Membrane composition is dynamic, not fixed, and the bilayer itself is not freely permeable to electrolytes nor impermeable to fat-soluble substances -- lipophilic molecules instead cross it readily by dissolving directly in the hydrophobic interior.
+
+### Mechanism
+Secondary active transport moves a solute against its own concentration gradient by coupling that movement to the downhill flow of a second (usually Na+) ion through a shared carrier; the driving ion gradient is itself built by a primary active transporter (e.g. the Na+/K+-ATPase) that directly hydrolyses ATP, so secondary active transport uses cellular energy indirectly rather than consuming ATP at the transport step itself. Osmosis, by contrast, is the passive, carrier-free net movement of water across a selectively permeable membrane down its own concentration gradient, requiring no metabolic energy at all -- unlike any form of active transport, which always moves a solute against its gradient and always requires energy, whether directly (primary) or indirectly (secondary).
+
+### Key determinants
+Whether a transport process needs energy, and whether that energy is used directly or indirectly, follows from whether the solute moves with or against its own concentration gradient and whether a driving ion gradient (itself built by a separate ATP-consuming pump) is being spent. Osmosis is set apart from every solute-transport mode precisely because it moves the solvent (water), not a solute, and needs neither a carrier nor energy.
+
+### Clinical significance
+Loss of the Na+/K+-ATPase-driven sodium gradient (e.g. in ischaemia, when ATP runs out) collapses every secondary active transport process that depends on it, including glucose and amino acid reabsorption in the kidney and gut; the osmotic gradient set up by solute transport across cell membranes is the basis of water reabsorption throughout the nephron and gut.

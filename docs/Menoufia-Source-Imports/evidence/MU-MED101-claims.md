@@ -4581,3 +4581,1326 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Menoufia MED101 Foundation 1 Biochemistry First Module Exam 2019 (Support 43) paper
+
+
+---
+
+<!-- varA-biophys cluster (30 new concepts) appended below -->
+
+# Item
+
+## id
+CLM-FND-3A5557EE5F045E
+
+## concept_id
+CON-FND-3A5557EE5F045E
+
+## subject
+Vomiting causes metabolic alkalosis, not metabolic acidosis, through loss of gas
+
+## predicate
+is described by
+
+## object
+Vomiting removes hydrogen-ion-rich gastric secretions (HCl) and, through the renal contraction-alkalosis response to the accompanying volume depletion, produces metabolic alkalosis rather than metabol
+
+## display_text
+Vomiting removes hydrogen-ion-rich gastric secretions (HCl) and, through the renal contraction-alkalosis response to the accompanying volume depletion, produces metabolic alkalosis rather than metabolic acidosis. Genuine causes of metabolic acidosis include diarrhoea (intestinal bicarbonate loss), renal failure (retained acid and reduced acid excretion), muscular exercise (lactic acid accumulation) and ketosis (ketoacid accumulation) -- all of which move pH in the opposite direction to vomiting.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-44A94DF65C50AE
+
+## concept_id
+CON-FND-44A94DF65C50AE
+
+## subject
+A true (crystalloid) solution, such as sodium chloride, passes freely through a 
+
+## predicate
+is described by
+
+## object
+Sodium chloride dissolves into hydrated ions under about 1 nanometre in diameter, small enough to pass freely through both filter paper and a semipermeable (dialysis) membrane -- the defining physical
+
+## display_text
+Sodium chloride dissolves into hydrated ions under about 1 nanometre in diameter, small enough to pass freely through both filter paper and a semipermeable (dialysis) membrane -- the defining physical property of a true (crystalloid) solution, as opposed to a colloid (roughly 1-200 nm, retained by a semipermeable membrane though it still passes filter paper) or a coarse suspension (over roughly 200 nm, retained by both and visible under an ordinary microscope).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-0C76F56DAB1E6A
+
+## concept_id
+CON-FND-0C76F56DAB1E6A
+
+## subject
+Cellulose has no nutritional value for humans because human digestive enzymes ca
+
+## predicate
+is described by
+
+## object
+Cellulose is built from D-glucose units joined exclusively by beta-1,4-glycosidic bonds, and humans lack the cellulase enzyme needed to hydrolyse that bond, so it passes through the gastrointestinal t
+
+## display_text
+Cellulose is built from D-glucose units joined exclusively by beta-1,4-glycosidic bonds, and humans lack the cellulase enzyme needed to hydrolyse that bond, so it passes through the gastrointestinal tract undigested. Because no absorbable monosaccharide is released, cellulose contributes no calories or nutritional value, unlike starch and glycogen, whose alpha-1,4/alpha-1,6 bonds human amylase cleaves efficiently; instead it functions purely as insoluble dietary fibre.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-DA23B0E2B665D1
+
+## concept_id
+CON-FND-DA23B0E2B665D1
+
+## subject
+Mannose is the C2 epimer of glucose
+
+## predicate
+is described by
+
+## object
+Mannose and glucose share the same molecular formula and differ in configuration only at carbon 2, making mannose the C2 epimer of glucose, the same kind of single-carbon relationship by which galacto
+
+## display_text
+Mannose and glucose share the same molecular formula and differ in configuration only at carbon 2, making mannose the C2 epimer of glucose, the same kind of single-carbon relationship by which galactose is glucose's C4 epimer. Fructose, by contrast, is glucose's aldose-ketose isomer (a functional-group difference, not an epimeric one), and ribose and xylose are sugars of a different chain length altogether.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-D1D02A385DD5EA
+
+## concept_id
+CON-FND-D1D02A385DD5EA
+
+## subject
+Heparin stimulates lipoprotein lipase, releasing it from the vascular endotheliu
+
+## predicate
+is described by
+
+## object
+Heparin, beyond its anticoagulant action, displaces lipoprotein lipase from its endothelial heparan-sulfate binding sites into the circulating plasma, activating it to hydrolyse the triglycerides carr
+
+## display_text
+Heparin, beyond its anticoagulant action, displaces lipoprotein lipase from its endothelial heparan-sulfate binding sites into the circulating plasma, activating it to hydrolyse the triglycerides carried in chylomicrons and VLDL. This heparin-releasable pool of lipoprotein lipase is the basis of the historical 'post-heparin lipolytic activity' assay used to measure the enzyme.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-9984D817457330
+
+## concept_id
+CON-FND-9984D817457330
+
+## subject
+Mutarotation is the gradual change in specific rotation of a freshly dissolved o
+
+## predicate
+is described by
+
+## object
+Mutarotation is the slow, spontaneous change in optical rotation shown by a freshly dissolved reducing sugar (such as glucose) as its open-chain form cyclises and interconverts between the alpha and b
+
+## display_text
+Mutarotation is the slow, spontaneous change in optical rotation shown by a freshly dissolved reducing sugar (such as glucose) as its open-chain form cyclises and interconverts between the alpha and beta anomeric ring forms until an equilibrium mixture is reached. It is distinct from optical activity in general (rotation of plane-polarised light, present throughout the process) and from racemisation (formation of an equal D/L mixture), neither of which describes this specific, gradual, time-dependent change.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-57DD3E543F4238
+
+## concept_id
+CON-FND-57DD3E543F4238
+
+## subject
+Keratan sulphate is the glycosaminoglycan found in abundance in the cornea
+
+## predicate
+is described by
+
+## object
+Keratan sulphate is a sulfated glycosaminoglycan present at particularly high concentration in the cornea, where its precisely regular spacing between collagen fibrils is thought to contribute to corn
+
+## display_text
+Keratan sulphate is a sulfated glycosaminoglycan present at particularly high concentration in the cornea, where its precisely regular spacing between collagen fibrils is thought to contribute to corneal transparency; it is also found in cartilage and intervertebral discs, but the cornea is its most exam-characteristic location. This distinguishes it from the other named glycosaminoglycans, none of which is specifically associated with the cornea.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-0E2A414FAA60C1
+
+## concept_id
+CON-FND-0E2A414FAA60C1
+
+## subject
+Ribulose is a ketopentose
+
+## predicate
+is described by
+
+## object
+Ribulose is a five-carbon monosaccharide carrying a ketone functional group, making it a ketopentose -- a key intermediate of the pentose phosphate pathway. This term combines carbon count (five, a pe
+
+## display_text
+Ribulose is a five-carbon monosaccharide carrying a ketone functional group, making it a ketopentose -- a key intermediate of the pentose phosphate pathway. This term combines carbon count (five, a pentose) with functional group (ketone, a ketose) into a single classification, distinguishing ribulose from an aldopentose such as ribose (its aldose isomer) or from a tetrose/hexose sugar of a different chain length.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-7D87FB26A34638
+
+## concept_id
+CON-FND-7D87FB26A34638
+
+## subject
+Glycosides are not products of glucose oxidation; they form instead by condensat
+
+## predicate
+is described by
+
+## object
+Oxidising glucose at different carbons yields distinct acids -- gluconic acid (C1 oxidised), glucuronic acid (C6 oxidised) and glucosaccharic (glucaric) acid (both C1 and C6 oxidised) -- but a glycosi
+
+## display_text
+Oxidising glucose at different carbons yields distinct acids -- gluconic acid (C1 oxidised), glucuronic acid (C6 oxidised) and glucosaccharic (glucaric) acid (both C1 and C6 oxidised) -- but a glycoside is not one of them, because glycosides form by an entirely different reaction: condensation of the anomeric (C1) hydroxyl with an alcohol or other -OH-bearing group, releasing water, not by any oxidation step.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-06FC2D59066FE7
+
+## concept_id
+CON-FND-06FC2D59066FE7
+
+## subject
+Alpha-D-glucose and beta-D-glucose are anomers, differing only at the anomeric c
+
+## predicate
+is described by
+
+## object
+When open-chain D-glucose cyclises, a new stereocentre is created at C1 (the anomeric carbon); the two possible configurations there, alpha and beta, are called anomers -- a special case of epimerism 
+
+## display_text
+When open-chain D-glucose cyclises, a new stereocentre is created at C1 (the anomeric carbon); the two possible configurations there, alpha and beta, are called anomers -- a special case of epimerism restricted specifically to the anomeric carbon and produced by ring closure rather than by any other chemical change.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-23D30D7A298779
+
+## concept_id
+CON-FND-23D30D7A298779
+
+## subject
+Sucrose's glucose and fructose units are joined by an alpha-1,2-glycosidic linka
+
+## predicate
+is described by
+
+## object
+Sucrose is formed from alpha-D-glucose and beta-D-fructose joined head-to-head through both of their anomeric carbons (glucose C1 to fructose C2), a bond described as an alpha-1,2-glycosidic linkage; 
+
+## display_text
+Sucrose is formed from alpha-D-glucose and beta-D-fructose joined head-to-head through both of their anomeric carbons (glucose C1 to fructose C2), a bond described as an alpha-1,2-glycosidic linkage; because both anomeric carbons are tied up in this bond, sucrose has no free reducing end and is a non-reducing sugar, unlike maltose (glucose-glucose, alpha-1,4) or lactose (galactose-glucose, beta-1,4), which each leave one anomeric carbon free.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-481E092DAB9FEC
+
+## concept_id
+CON-FND-481E092DAB9FEC
+
+## subject
+Free radicals initiate and propagate lipid rancidity
+
+## predicate
+is described by
+
+## object
+Rancidity is the oxidative spoilage of fats, driven by a free-radical chain reaction in which a radical abstracts hydrogen from an unsaturated fatty acid, forming a lipid radical that reacts with oxyg
+
+## display_text
+Rancidity is the oxidative spoilage of fats, driven by a free-radical chain reaction in which a radical abstracts hydrogen from an unsaturated fatty acid, forming a lipid radical that reacts with oxygen and propagates further radical formation. Antioxidants (which quench radicals), avoidance of air/oxygen exposure and avoidance of the bacteria/enzymes that can initiate spoilage all instead protect against rancidity, the opposite role from free radicals.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-CCEE032D2010B9
+
+## concept_id
+CON-FND-CCEE032D2010B9
+
+## subject
+Lecithin (dipalmitoyl phosphatidylcholine) is the phospholipid that acts as pulm
+
+## predicate
+is described by
+
+## object
+Lecithin, specifically dipalmitoylphosphatidylcholine (DPPC), is the major phospholipid component of pulmonary surfactant, secreted by type II pneumocytes to lower alveolar surface tension and prevent
+
+## display_text
+Lecithin, specifically dipalmitoylphosphatidylcholine (DPPC), is the major phospholipid component of pulmonary surfactant, secreted by type II pneumocytes to lower alveolar surface tension and prevent alveolar collapse at end-expiration. The other named phospholipids -- cephalin (phosphatidylethanolamine), phosphatidylinositol, phosphatidylserine and sphingomyelin -- are structural or signalling membrane lipids rather than the principal surfactant component.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-AD4D6D4CF70F4E
+
+## concept_id
+CON-FND-AD4D6D4CF70F4E
+
+## subject
+Arachidonic acid is a 20-carbon fatty acid with four double bonds at positions 5
+
+## predicate
+is described by
+
+## object
+Arachidonic acid is written C20:4, Delta-5,8,11,14 -- a twenty-carbon polyunsaturated (omega-6) fatty acid with four cis double bonds at carbons 5, 8, 11 and 14, derived from linoleic acid and serving
+
+## display_text
+Arachidonic acid is written C20:4, Delta-5,8,11,14 -- a twenty-carbon polyunsaturated (omega-6) fatty acid with four cis double bonds at carbons 5, 8, 11 and 14, derived from linoleic acid and serving as the direct precursor for the eicosanoid signalling molecules (prostaglandins, thromboxanes, leukotrienes).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-3FD8683C5365A8
+
+## concept_id
+CON-FND-3FD8683C5365A8
+
+## subject
+A ganglioside is built of a ceramide (sphingosine plus fatty acid) linked to an 
+
+## predicate
+is described by
+
+## object
+Gangliosides are the most complex glycosphingolipids, built on a ceramide backbone (sphingosine condensed with a fatty acid) to which an oligosaccharide chain -- typically including glucose, galactose
+
+## display_text
+Gangliosides are the most complex glycosphingolipids, built on a ceramide backbone (sphingosine condensed with a fatty acid) to which an oligosaccharide chain -- typically including glucose, galactose and one or more sialic acid (N-acetylneuraminic acid) residues -- is attached. The presence of sialic acid is exactly what distinguishes a ganglioside from a simpler glycosphingolipid such as a cerebroside, which carries only a single neutral sugar and no sialic acid.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-608241A4086569
+
+## concept_id
+CON-FND-608241A4086569
+
+## subject
+Beta carotene is not a steroid; sterols, bile acids, oestrogen and glucocorticoi
+
+## predicate
+is described by
+
+## object
+Beta carotene is an isoprenoid/carotenoid pigment (a vitamin A precursor) built from isoprene units, not the fused four-ring cyclopentanoperhydrophenanthrene nucleus that defines a steroid. Sterols (s
+
+## display_text
+Beta carotene is an isoprenoid/carotenoid pigment (a vitamin A precursor) built from isoprene units, not the fused four-ring cyclopentanoperhydrophenanthrene nucleus that defines a steroid. Sterols (such as cholesterol), bile acids, oestrogen and glucocorticoids all share that steroid nucleus and are therefore true steroids, unlike beta carotene.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-831F518E284A24
+
+## concept_id
+CON-FND-831F518E284A24
+
+## subject
+Glycine is classed as a neutral amino acid
+
+## predicate
+is described by
+
+## object
+Amino acids are grouped by their side-chain charge at physiological pH into acidic (aspartate, glutamate), basic (lysine, arginine, histidine) and neutral (uncharged side chain, e.g. glycine, alanine,
+
+## display_text
+Amino acids are grouped by their side-chain charge at physiological pH into acidic (aspartate, glutamate), basic (lysine, arginine, histidine) and neutral (uncharged side chain, e.g. glycine, alanine, serine) classes. Glycine's side chain is simply a hydrogen atom, carrying no ionisable charge, which makes it the simplest neutral amino acid.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-DB2956ACAD4EE6
+
+## concept_id
+CON-FND-DB2956ACAD4EE6
+
+## subject
+Cysteine is a sulphur-containing amino acid
+
+## predicate
+is described by
+
+## object
+Cysteine carries a thiol (-SH) side chain, making it, together with methionine, one of the two sulphur-containing amino acids. Its thiol group allows two cysteine residues to form a covalent disulfide
+
+## display_text
+Cysteine carries a thiol (-SH) side chain, making it, together with methionine, one of the two sulphur-containing amino acids. Its thiol group allows two cysteine residues to form a covalent disulfide bond, a major stabiliser of tertiary and quaternary protein structure.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-E3BBCA3B568ECD
+
+## concept_id
+CON-FND-E3BBCA3B568ECD
+
+## subject
+Fibrous proteins such as fibrin have a length-to-width ratio greater than 10, un
+
+## predicate
+is described by
+
+## object
+Proteins are broadly classed by shape into fibrous (elongated, length-to-width ratio greater than about 10, e.g. fibrin/fibrinogen, collagen, keratin) and globular (compact, roughly spherical, ratio c
+
+## display_text
+Proteins are broadly classed by shape into fibrous (elongated, length-to-width ratio greater than about 10, e.g. fibrin/fibrinogen, collagen, keratin) and globular (compact, roughly spherical, ratio close to 1, e.g. haemoglobin, myoglobin, albumin, most globulins). Fibrin's elongated polymer strands, formed when thrombin cleaves fibrinogen and the monomers polymerise, are the classic exam example of a fibrous protein.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-E1A103BBD113AB
+
+## concept_id
+CON-FND-E1A103BBD113AB
+
+## subject
+The sympathetic nervous system is catabolic, mobilising energy stores for a figh
+
+## predicate
+is described by
+
+## object
+The sympathetic division of the autonomic nervous system is functionally catabolic: its 'fight-or-flight' discharge mobilises stored energy by stimulating glycogenolysis and lipolysis and by increasin
+
+## display_text
+The sympathetic division of the autonomic nervous system is functionally catabolic: its 'fight-or-flight' discharge mobilises stored energy by stimulating glycogenolysis and lipolysis and by increasing cardiac output and ventilation, preparing the body for vigorous activity rather than for rest, digestion or energy storage, which are instead promoted by the parasympathetic ('rest and digest') division.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-0C0D3DCF41711B
+
+## concept_id
+CON-FND-0C0D3DCF41711B
+
+## subject
+The autonomic nervous system is a two-neuron efferent (motor) pathway, unlike th
+
+## predicate
+is described by
+
+## object
+Every autonomic motor pathway, sympathetic or parasympathetic, uses two neurons in series -- a preganglionic neuron (cell body in the CNS, myelinated axon) synapsing in a peripheral ganglion onto a po
+
+## display_text
+Every autonomic motor pathway, sympathetic or parasympathetic, uses two neurons in series -- a preganglionic neuron (cell body in the CNS, myelinated axon) synapsing in a peripheral ganglion onto a postganglionic neuron (cell body in the ganglion, unmyelinated axon to the target organ). This differs from the somatic motor pathway, which reaches skeletal muscle via a single motor neuron with no intervening peripheral ganglion.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-2294DA0AE59648
+
+## concept_id
+CON-FND-2294DA0AE59648
+
+## subject
+An autonomic ganglion is a collection of nerve cell bodies located outside the C
+
+## predicate
+is described by
+
+## object
+An autonomic ganglion is, by definition, a collection of neuronal cell bodies lying outside the central nervous system, where preganglionic fibres synapse onto postganglionic neurons using acetylcholi
+
+## display_text
+An autonomic ganglion is, by definition, a collection of neuronal cell bodies lying outside the central nervous system, where preganglionic fibres synapse onto postganglionic neurons using acetylcholine as the ganglionic neurotransmitter. Sympathetic ganglia are typically paravertebral or prevertebral (relatively close to the spinal cord), while parasympathetic ganglia typically lie close to or within the wall of the target organ.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-79972A05C5204F
+
+## concept_id
+CON-FND-79972A05C5204F
+
+## subject
+Sympathetic stimulation produces mydriasis (pupillary dilatation) via contractio
+
+## predicate
+is described by
+
+## object
+Sympathetic stimulation contracts the radially arranged dilator pupillae muscle of the iris, producing mydriasis (pupillary dilatation). This is the opposite of parasympathetic-mediated contraction of
+
+## display_text
+Sympathetic stimulation contracts the radially arranged dilator pupillae muscle of the iris, producing mydriasis (pupillary dilatation). This is the opposite of parasympathetic-mediated contraction of the circularly arranged constrictor (sphincter) pupillae muscle, which produces miosis, and of ciliary-muscle contraction, which mediates accommodation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-9D648BC1395CD5
+
+## concept_id
+CON-FND-9D648BC1395CD5
+
+## subject
+The sphincter (constrictor) pupillae is parasympathetically, not sympathetically
+
+## predicate
+is described by
+
+## object
+Almost every peripheral organ, including sweat glands, skeletal-muscle blood vessels, cardiac (ventricular) muscle and bronchial smooth muscle, receives sympathetic innervation. The constrictor (sphin
+
+## display_text
+Almost every peripheral organ, including sweat glands, skeletal-muscle blood vessels, cardiac (ventricular) muscle and bronchial smooth muscle, receives sympathetic innervation. The constrictor (sphincter) pupillae muscle is a notable exception, receiving parasympathetic innervation only (via the oculomotor nerve and ciliary ganglion) with no direct sympathetic supply.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-60C85CB384A726
+
+## concept_id
+CON-FND-60C85CB384A726
+
+## subject
+Sympathetic stimulation causes bronchodilatation via beta-2 receptors on bronchi
+
+## predicate
+is described by
+
+## object
+Circulating adrenaline and sympathetic activation relax bronchial smooth muscle via beta-2 adrenergic receptors, producing bronchodilatation and increased airway calibre -- the physiological basis for
+
+## display_text
+Circulating adrenaline and sympathetic activation relax bronchial smooth muscle via beta-2 adrenergic receptors, producing bronchodilatation and increased airway calibre -- the physiological basis for using beta-2 agonists such as salbutamol as bronchodilator drugs. This is the opposite of the bronchoconstriction produced by parasympathetic (muscarinic) stimulation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-1A8DAFDB5135FB
+
+## concept_id
+CON-FND-1A8DAFDB5135FB
+
+## subject
+The greater splanchnic nerve is a sympathetic (preganglionic) nerve
+
+## predicate
+is described by
+
+## object
+The greater splanchnic nerve is formed from preganglionic sympathetic fibres (roughly T5-T9) that pass through the sympathetic chain without synapsing and travel to the coeliac ganglion, where they sy
+
+## display_text
+The greater splanchnic nerve is formed from preganglionic sympathetic fibres (roughly T5-T9) that pass through the sympathetic chain without synapsing and travel to the coeliac ganglion, where they synapse on postganglionic neurons supplying the abdominal viscera. It is a purely sympathetic structure, carrying no parasympathetic fibres.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-6A2C6C30D3F1CE
+
+## concept_id
+CON-FND-6A2C6C30D3F1CE
+
+## subject
+T1-T2 preganglionic sympathetic fibres to the head and neck relay in the cervica
+
+## predicate
+is described by
+
+## object
+Preganglionic sympathetic neurons supplying the head and neck arise from the lateral horn of the upper one or two thoracic spinal cord segments (T1-T2), ascend the sympathetic chain, and synapse in on
+
+## display_text
+Preganglionic sympathetic neurons supplying the head and neck arise from the lateral horn of the upper one or two thoracic spinal cord segments (T1-T2), ascend the sympathetic chain, and synapse in one of the cervical sympathetic ganglia (superior, middle or inferior/stellate). Postganglionic fibres from there follow the carotid arteries and cranial nerves to their targets, including the pupil dilator, tarsal muscles, sweat glands and blood vessels of the head and neck.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-C83EF923AB6264
+
+## concept_id
+CON-FND-C83EF923AB6264
+
+## subject
+Peripheral membrane proteins can function as hormone receptors
+
+## predicate
+is described by
+
+## object
+The cell membrane's protein component includes both integral (transmembrane) and peripheral (attached non-covalently to one bilayer face) proteins. Peripheral proteins commonly function as receptors, 
+
+## display_text
+The cell membrane's protein component includes both integral (transmembrane) and peripheral (attached non-covalently to one bilayer face) proteins. Peripheral proteins commonly function as receptors, enzymes or structural links to the cytoskeleton at either membrane face, in addition to the transmembrane receptor role played by many integral proteins.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-6989A09E118B1F
+
+## concept_id
+CON-FND-6989A09E118B1F
+
+## subject
+Secondary active transport moves a solute against its gradient using energy indi
+
+## predicate
+is described by
+
+## object
+Secondary active transport moves a solute against its concentration gradient by coupling that movement to the downhill flow of a second ion, typically Na+, through a shared carrier. The driving ion gr
+
+## display_text
+Secondary active transport moves a solute against its concentration gradient by coupling that movement to the downhill flow of a second ion, typically Na+, through a shared carrier. The driving ion gradient is itself built up by a primary active transporter, such as the Na+/K+-ATPase, that directly consumes ATP, so secondary active transport uses cellular energy indirectly rather than hydrolysing ATP itself at the transport step.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)
+
+---
+
+# Item
+
+## id
+CLM-FND-C9AFF3319629E0
+
+## concept_id
+CON-FND-C9AFF3319629E0
+
+## subject
+Osmosis is the passive movement of water across a semipermeable membrane down it
+
+## predicate
+is described by
+
+## object
+Osmosis is the net movement of water across a selectively permeable membrane from a region of lower solute concentration to one of higher solute concentration, driven by the water concentration gradie
+
+## display_text
+Osmosis is the net movement of water across a selectively permeable membrane from a region of lower solute concentration to one of higher solute concentration, driven by the water concentration gradient itself. It requires no carrier protein and no metabolic energy, making it a passive process, unlike the active transport of solutes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 EOM Support 43 exam family (Biochemistry and Physiology - Variant A paper)

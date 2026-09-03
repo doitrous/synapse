@@ -132,3 +132,46 @@ a6b4be6c7c2e5e8e3232dc4d76d6ef4c7403a24f3d3ff595736a1731a0c4a094
 
 ## processing_status
 pending
+
+---
+
+# Item
+
+## id
+src_f63b294e2eeab7da0ff8
+
+## title
+EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A (Menoufia MED101 EOM exam)
+
+## institution
+Faculty of Medicine, Menoufia University
+
+## collection_id
+mu-y1-med101-foundation-1
+
+## source_relative_path
+Semester 1/MED 101 - Foundation 1/00 Module-wide/06 EOM Exams/EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+
+
+## page_count
+11
+
+## sha256
+f63b294e2eeab7da0ff8de9686337d7cbea2b17bf776967d67b2df4b0cbb248d
+
+## processing_status
+pending
