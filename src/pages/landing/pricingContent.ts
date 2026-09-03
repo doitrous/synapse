@@ -7,6 +7,7 @@
  */
 
 import { findPlan, promoPrice, MARISTANA_PLAN_ID, type PlanCatalog } from '../../data/planCatalog.ts'
+import { formatNumber } from '../../lib/pricing.ts'
 
 /** The one shared last-resort constant on the frontend when the catalog document is empty. */
 export const SEED_MARISTANA_PRICES = { month: 400, term: 1000 }
@@ -40,29 +41,29 @@ export function resolvePriced<T>(value: Priced<T>, amounts: PricingAmounts): T {
 
 export interface FaqItem {
   q: string
-  a: string
+  a: Priced<string>
 }
 
 export interface PricingContent {
   path: string
   otherPath: string
   documentTitle: string
-  metaDescription: string
+  metaDescription: Priced<string>
   breadcrumb: string
   navLabel: string
   teaser: {
     eyebrow: string
     title: string
-    sub: string
+    sub: Priced<string>
     termLabel: string
-    termDetail: string
+    termDetail: Priced<string>
     scholarship: string
     link: string
     cta: string
   }
   h1: string
   sub: string
-  assurances: string[]
+  assurances: Priced<string[]>
   offer: {
     eyebrow: string
     title: string
@@ -109,16 +110,16 @@ export const EN_PRICING: PricingContent = {
   path: '/pricing',
   otherPath: '/ar/pricing',
   documentTitle: 'Nishany pricing — One complete medical learning membership',
-  metaDescription:
-    'One all-access medical study workspace for EGP 400 monthly or EGP 1,000 per academic term. Trial access is available during onboarding without buying a separate tier.',
+  metaDescription: (a) =>
+    `One all-access medical study workspace for EGP ${formatNumber(a.month, 'en')} monthly or EGP ${formatNumber(a.term, 'en')} per academic term. Trial access is available during onboarding without buying a separate tier.`,
   breadcrumb: 'Home',
   navLabel: 'Pricing',
   teaser: {
     eyebrow: 'Simple by design',
     title: 'One Nishany. Choose your study window.',
-    sub: 'The whole platform is included for EGP 400 monthly or EGP 1,000 per term. Start in onboarding, then choose the time that fits your semester.',
+    sub: (a) => `The whole platform is included for EGP ${formatNumber(a.month, 'en')} monthly or EGP ${formatNumber(a.term, 'en')} per term. Start in onboarding, then choose the time that fits your semester.`,
     termLabel: 'Academic term · 3 months',
-    termDetail: 'EGP 1,000 · save EGP 200 · EGP 333/month equivalent',
+    termDetail: (a) => `EGP ${formatNumber(a.term, 'en')} · save EGP ${formatNumber(a.savings, 'en')} · EGP ${formatNumber(a.termMonthly, 'en')}/month equivalent`,
     scholarship: 'Private 100%-off scholarships are available through your year representative or Student Union.',
     link: 'See pricing and scholarships',
     cta: 'Start studying',
@@ -126,9 +127,9 @@ export const EN_PRICING: PricingContent = {
   h1: 'One Nishany. Choose your study window.',
   sub:
     'No feature gates and no plan comparison to decode. Your curriculum, Practice Suite, adaptive study, workspace, and study rooms are included together for one month or one academic term.',
-  assurances: [
-    'EGP 400 monthly',
-    'EGP 1,000 per term',
+  assurances: (a) => [
+    `EGP ${formatNumber(a.month, 'en')} monthly`,
+    `EGP ${formatNumber(a.term, 'en')} per term`,
     'Trial access is not a purchasable tier',
   ],
   offer: {
@@ -207,7 +208,7 @@ export const EN_PRICING: PricingContent = {
     },
     {
       q: 'How much does it cost?',
-      a: 'One month costs EGP 400. One academic term costs EGP 1,000 for 3 months, saving EGP 200 compared with three separate monthly windows.',
+      a: (a) => `One month costs EGP ${formatNumber(a.month, 'en')}. One academic term costs EGP ${formatNumber(a.term, 'en')} for 3 months, saving EGP ${formatNumber(a.savings, 'en')} compared with three separate monthly windows.`,
     },
     {
       q: 'Do promotions and vouchers stack?',
@@ -252,16 +253,16 @@ export const AR_PRICING: PricingContent = {
   path: '/ar/pricing',
   otherPath: '/pricing',
   documentTitle: 'أسعار نيشاني — عضوية واحدة متكاملة لتعلّم الطب',
-  metaDescription:
-    'مساحة مذاكرة طبية كاملة في نيشاني بسعر ٤٠٠ ج.م شهريًا أو ١٬٠٠٠ ج.م للفصل الدراسي. الوصول التجريبي حالة بدء وليس خطة منفصلة للشراء.',
+  metaDescription: (a) =>
+    `مساحة مذاكرة طبية كاملة في نيشاني بسعر ${formatNumber(a.month, 'ar')} ج.م شهريًا أو ${formatNumber(a.term, 'ar')} ج.م للفصل الدراسي. الوصول التجريبي حالة بدء وليس خطة منفصلة للشراء.`,
   breadcrumb: 'الرئيسية',
   navLabel: 'الأسعار',
   teaser: {
     eyebrow: 'بساطة مقصودة',
     title: 'نيشاني واحدة. اختر مدة مذاكرتك.',
-    sub: 'كل المنصة مشمولة مقابل ٤٠٠ ج.م شهريًا أو ١٬٠٠٠ ج.م للفصل. ابدأ من الإعداد، ثم اختر المدة التي تناسب فصلك الدراسي.',
+    sub: (a) => `كل المنصة مشمولة مقابل ${formatNumber(a.month, 'ar')} ج.م شهريًا أو ${formatNumber(a.term, 'ar')} ج.م للفصل. ابدأ من الإعداد، ثم اختر المدة التي تناسب فصلك الدراسي.`,
     termLabel: 'فصل دراسي · ٣ أشهر',
-    termDetail: '١٬٠٠٠ ج.م · وفّر ٢٠٠ ج.م · ما يعادل ٣٣٣ ج.م شهريًا',
+    termDetail: (a) => `${formatNumber(a.term, 'ar')} ج.م · وفّر ${formatNumber(a.savings, 'ar')} ج.م · ما يعادل ${formatNumber(a.termMonthly, 'ar')} ج.م شهريًا`,
     scholarship: 'تتوفر منح خاصة بخصم ١٠٠٪ من خلال ممثل دفعتك أو اتحاد الطلاب.',
     link: 'اطّلع على الأسعار والمنح',
     cta: 'ابدأ المذاكرة',
@@ -269,9 +270,9 @@ export const AR_PRICING: PricingContent = {
   h1: 'نيشاني واحدة. اختر مدة مذاكرتك.',
   sub:
     'لا خصائص محجوبة ولا جداول خطط تحتاج إلى فكّها. منهجك ومجموعة التدريب والمذاكرة التكيّفية ومساحة عملك وغرف الدراسة كلها مشمولة معًا لشهر واحد أو فصل دراسي.',
-  assurances: [
-    '٤٠٠ ج.م شهريًا',
-    '١٬٠٠٠ ج.م للفصل',
+  assurances: (a) => [
+    `${formatNumber(a.month, 'ar')} ج.م شهريًا`,
+    `${formatNumber(a.term, 'ar')} ج.م للفصل`,
     'التجربة ليست خطة تُشترى',
   ],
   offer: {
@@ -350,7 +351,7 @@ export const AR_PRICING: PricingContent = {
     },
     {
       q: 'كم السعر؟',
-      a: 'الشهر الواحد ٤٠٠ ج.م. الفصل الدراسي ١٬٠٠٠ ج.م لمدة ٣ أشهر، أي يوفر ٢٠٠ ج.م مقارنة بثلاث مدد شهرية منفصلة.',
+      a: (a) => `الشهر الواحد ${formatNumber(a.month, 'ar')} ج.م. الفصل الدراسي ${formatNumber(a.term, 'ar')} ج.م لمدة ٣ أشهر، أي يوفر ${formatNumber(a.savings, 'ar')} ج.م مقارنة بثلاث مدد شهرية منفصلة.`,
     },
     {
       q: 'هل تتراكم العروض والقسائم؟',
