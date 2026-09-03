@@ -11,9 +11,9 @@
 | assessment-2-mcq-1-patho-q19b | 0 | 0 | 1 | 1 |
 | eom-final-ug1-2020 | 11 | 8 | 0 | 19 |
 | eom-ug-final1-2024 | 14 | 5 | 0 | 19 |
-| eom-ug-final2-2024 | 0 | 0 | 23 | 23 |
+| eom-ug-final2-2024 | 17 | 6 | 0 | 23 |
 | eom-ug-final2-collection | 120 | 5 | 0 | 125 |
-| first-assessment-ug-2024 | 0 | 0 | 24 | 24 |
+| first-assessment-ug-2024 | 13 | 11 | 0 | 24 |
 
 ## Held
 - ass1-ug-2020-q03 — unrecoverable/ambiguous premise — item 3 ("Calcitriol" / "Fanconi $ low plasma levels ?" / "Other answers" / "GSH-Cl-") is a garbled fragment of the answer-then-stem compilation; it is not clear which token is the printed answer and which is the stem, nor what the intended distractor set ("Other answers") contained, and "GSH-Cl-" does not parse into a defensible option. No confident reconstruction of the examiner's intended question or key is possible from the source text; held rather than guessed at, flagged to chief-of-staff / Omar for a ruling with the source page re-checked.
@@ -44,11 +44,28 @@
 - eom-ug-final1-2024-q17 — duplicate — Patho Q2 ("Case patient in car injury? ATN") re-asks the same crush-injury/myoglobin-induced acute tubular necrosis fact already authored as an assessment-1-mcq concept ("Crush injury classically causes reversible acute tubular necrosis via myoglobin-induced tubular toxicity and obstruction"); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed via find-existing.mjs "acute tubular necrosis".
 - eom-ug-final1-2024-q18 — duplicate — Micro Q1 ("Exopigment on agar? Pseudomonas aeruginosa") re-asks the same pigment-producing-Pseudomonas fact already authored as an assessment-1-mcq concept/article ("Pseudomonas aeruginosa characteristically produces pyocyanin, a blue-green pigment, in culture"), just from the reverse direction (name the organism vs name the pigment); collapsed per LANE-CARD-Y2-3 within-corpus duplicate rule, confirmed via find-existing.mjs "pseudomonas aeruginosa".
 - eom-ug-final1-2024-q19 — duplicate — Community Q1 ("Modifiable RF in ESRD? Obesity") re-asks the same fact already authored as an assessment-2-mcq-1 concept ("Obesity is a modifiable risk factor for end-stage renal disease (ESRD)", CON-POP-AADC470905FCD9); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed via find-existing.mjs "obesity".
+- eom-ug-final2-2024-q03 — duplicate — Anatomy Q3 ("ovary lymphatic drainage? Para-aortic LN") re-asks the same fact already authored as an eom-ug-final2-collection concept ("The ovary, testis and most of the uterine tube drain lymph to the para-aortic nodes, following the gonadal vessels", CON-GYN-4015BA784E1DAE); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- eom-ug-final2-2024-q06 — duplicate — Anatomy Q6 ("peritoneum from anterior ovary to back of broad ligament? Mesovarium") re-asks the same mesovarium-definition fact already live (CON-GYN-FFC3AD0F94668C "Definition and attachments of the mesovarium" / CON-GYN-EBFADA166AE58E, both stating the anterior ovarian border attaches to the posterior broad-ligament layer by the mesovarium); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- eom-ug-final2-2024-q10 — doubtful key — Histo Q3 ("A PCO case, what will you observe in the uterus? Thin, narrow and straight glands") conflicts with standard PCOS teaching: chronic anovulation from unopposed estrogen classically produces endometrial (cystic/glandular) hyperplasia with numerous, often dilated glands, not thin, narrow, straight glands (which instead describe an early-proliferative or atrophic/resting endometrium). No confident reconstruction of the examiner's intended finding is possible from the source text alone; held rather than guessed at, flagged to chief-of-staff / Omar for a ruling with the source page re-checked.
+- eom-ug-final2-2024-q11 — duplicate — Physio Q1 ("menopause, injected with estrogen, predicted effect? Decrease serum cholesterol") is the inverse restatement of the already-authored eom-ug-final2-collection concept "The postmenopausal loss of estrogen ... is associated with a rise in serum total and LDL cholesterol" (CON-GYN-B033B364B468B3) — same estrogen/cholesterol mechanism tested in the opposite direction; collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- eom-ug-final2-2024-q17 — duplicate — Patho Q4 ("condition correctly matched EXCEPT: Endometrial carcinoma: multiparity") re-asks the identical fact already authored as an eom-ug-final2-collection concept ("Multiparity is protective against, not a risk factor for, endometrial carcinoma", CON-GYN-CBD143FC1B674C); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- eom-ug-final2-2024-q22 — duplicate — Micro Q3 ("painful soft genital ulcers, unilateral lymphadenopathy? H. Ducreyi") re-asks the same organism-disease fact already authored as an eom-ug-final2-collection concept ("Chancroid is caused by Haemophilus ducreyi", CON-INF-8A506E02522786), just framed as a clinical vignette instead of a definition; collapsed per LANE-CARD-Y2-3 within-corpus duplicate rule.
 - eom-ug-final2-collection-q047 — duplicate of q044 (Histo Q2) — Histo Q5 ("cells lining the seminiferous tubules -> Sertoli cell with indistinct cell boundary") re-asks the same apical-infoldings/indistinct-border fact tested in Histo Q2; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - eom-ug-final2-collection-q085 — duplicate — Micro Q14 (page 12, genital ulcer + adenopathy + multinucleated giant cells + intranuclear inclusions on tissue culture, causative pathogen HSV) re-asks the same HSV/multinucleated-giant-cell fact tested in Micro Q13 (page 11, vesicular lesions turning to ulcers, Tzanck/Giemsa smear finding); collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - eom-ug-final2-collection-q108 — duplicate — Patho Q12 ("mucinous cysts in cervical mucosa obstructed by a squamous tumor -> Nabothian cyst") re-asks the same Nabothian-cyst-from-obstructed-endocervical-gland fact tested in Patho Q1 ("finding in chronic cervicitis -> Nabothian cysts (dt obstruction in endocervical glands)"), authored as eom-ug-final2-collection-q097; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - eom-ug-final2-collection-q109 — doubtful/unclear premise — Patho Q13 asks why colonoscopy is performed for a patient with cervical intraepithelial neoplasia (CIN) and keys "as it has high risk of cancer"; standard teaching does not link CIN (a cervical, HPV-driven squamous lesion confined to the cervix) to a colonoscopy indication — colonoscopy/proctoscopy has a role in staging invasive (not intraepithelial) cervical carcinoma for suspected bowel invasion, and CIN itself is managed with colposcopy, not colonoscopy. The question's premise does not map onto any standard teaching this lane could verify or recover a defensible correct statement from, so it is held rather than guessed at; flagged to chief-of-staff / Omar for a ruling, ideally with the source page re-checked for what was actually being asked (e.g. invasive cervical cancer staging, not CIN).
 - eom-ug-final2-collection-q112 — doubtful key — Patho Q16 asks which statement is true regarding prostatic carcinoma and keys "corpora amylacea in lumen"; standard prostate pathology teaching (reinforced by this same source's own Patho Q21, authored as eom-ug-final2-collection-q117, which correctly keys corpora amylacea as a normal, age-related finding in *benign* prostatic acini) holds that corpora amylacea are a feature of benign glands and are characteristically *absent* from malignant glands — their presence is used as one histologic clue *against* cancer. This reverses, rather than merely debates, an accepted diagnostic teaching point, so it is held rather than authored with a doubt note per the "printed keys stand unless unrecoverable" rule; flagged to chief-of-staff / Omar for a ruling.
+- first-assessment-ug-2024-q01 — duplicate — Physio Q1 ("Renal circulation is about 25% of cardiac output") re-asks the identical fact already authored as an assessment-1-mcq concept ("The kidneys normally receive approximately 20-25% of cardiac output", CON-REN-2E4BFB42D2ADA9); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- first-assessment-ug-2024-q02 — duplicate — Physio Q2 ("Renin secretion is increased by increase of sympathetic activity") re-asks the identical fact already authored twice in sibling ASU-UG papers ("Increased renal sympathetic nerve activity increases renin secretion", CON-REN-DB7C173A4E4CFF and CON-REN-ADF5C3DB2EB90C); collapsed per LANE-CARD-Y2-3 within-corpus duplicate rule.
+- first-assessment-ug-2024-q03 — duplicate — Physio Q3 ("GFR is increased by decrease of plasma osmotic pressure") re-asks the identical fact already authored as an assessment-1-mcq concept ("A decrease in plasma oncotic pressure increases glomerular filtration rate", CON-REN-1D0F6664D6170C — oncotic pressure is the plasma-protein component of osmotic pressure and the two terms are used interchangeably across this corpus's papers); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- first-assessment-ug-2024-q07 — duplicate — Physio Q7 ("Vasa recta is characterized by being a passive system") re-asks the identical fact already authored as an assessment-1-mcq concept ("The vasa recta function as a passive countercurrent exchange system", CON-REN-ABC1F5F0507B0B); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- first-assessment-ug-2024-q09 — duplicate — Anatomy Q9 ("which does not cross in front of the right ureter? Obturator vessels") is the inverse (EXCEPT-framed) restatement of the already-authored eom-ug-final1-2024 concept "The ureter crosses the obturator nerve and vessels as it runs along the lateral pelvic wall" (CON-REN-83196F34BAAD06) — same anatomical relation tested from the opposite direction; collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- first-assessment-ug-2024-q10 — duplicate — Anatomy Q10 ("Apex of urinary bladder is attached to... Median umbilical ligament") re-asks the identical fact already authored as an eom-final-ug1-2020 concept ("The median umbilical ligament is the fibrous remnant of the fetal urachus ... running ... from the apex of the urinary bladder up to the umbilicus", CON-REN-C50B45718E9DC9); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- first-assessment-ug-2024-q13 — duplicate — Patho Q13 ("Oliguria, hematuria, hypertension, and periorbital edema ... Poststreptococcal GN") re-asks the same nephritic-syndrome-to-post-infectious-GN fact already authored as an assessment-1-mcq concept ("The nephritic syndrome — hematuria, hypertension, oliguria and mild proteinuria — is classically caused by post-infectious glomerulonephritis", CON-REN-082CE4C24BD03B) and previously held as a duplicate at assessment-1-mcq-patho-q06 per coverage/ASU-UG-LEDGER.md; collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- first-assessment-ug-2024-q15 — duplicate — Patho Q15 (5-year-old, periorbital puffiness, no casts, steroid-responsive -> fusion of podocyte foot processes) re-asks the identical minimal-change-disease fact already authored as an assessment-1-mcq concept ("Diffuse podocyte foot process effacement without deposits is the defining electron microscopic finding of minimal change disease", CON-REN-02067213C1DEC7); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- first-assessment-ug-2024-q17 — duplicate — Patho Q17 ("Patient receiving Penicillin therapy, with high Eosinophils/neutrophils ... Acute tubulointerstitial nephritis") re-asks the same drug-hypersensitivity-AIN fact already authored as an ass1-ug-2020 concept ("Acute drug-hypersensitivity interstitial nephritis presents with eosinophilia and a maculopapular rash within days of the culprit drug", CON-REN-6A81D021A7983D — penicillin is the classic culprit drug for this presentation); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- first-assessment-ug-2024-q18 — duplicate — Pharma Q18 ("Patient with hyponatremia. Need to increase Na by 6-10 mEq/L in the first 24 hours") re-asks the same severe-hyponatremia-correction-rate-limit fact already authored as an ass1-ug-2020 concept ("Correction of severe hyponatremia is limited to about 8-10 mEq/L in the first 24 hours", CON-REN-30010B36B1AFA5); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- first-assessment-ug-2024-q20 — duplicate — Pharma Q20 ("first ttt for Male patient with LUTI, Complicated with prostatitis is... 6 weeks ciprofloxacin") re-asks the same prolonged-antibiotic-course-for-prostatitis fact already authored as an eom-final-ug1-2020 concept ("Chronic bacterial prostatitis is treated with a prolonged antibiotic course of about 6 weeks", CON-AND-6ECDF21CA93064); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
 
 ## Remaining
 - assessment-1-mcq-micro-q01
@@ -84,50 +101,3 @@
 - assessment-2-mcq-1-patho-q15
 - assessment-2-mcq-1-patho-q19
 - assessment-2-mcq-1-patho-q19b
-- eom-ug-final2-2024-q01
-- eom-ug-final2-2024-q02
-- eom-ug-final2-2024-q03
-- eom-ug-final2-2024-q04
-- eom-ug-final2-2024-q05
-- eom-ug-final2-2024-q06
-- eom-ug-final2-2024-q07
-- eom-ug-final2-2024-q08
-- eom-ug-final2-2024-q09
-- eom-ug-final2-2024-q10
-- eom-ug-final2-2024-q11
-- eom-ug-final2-2024-q12
-- eom-ug-final2-2024-q13
-- eom-ug-final2-2024-q14
-- eom-ug-final2-2024-q15
-- eom-ug-final2-2024-q16
-- eom-ug-final2-2024-q17
-- eom-ug-final2-2024-q18
-- eom-ug-final2-2024-q19
-- eom-ug-final2-2024-q20
-- eom-ug-final2-2024-q21
-- eom-ug-final2-2024-q22
-- eom-ug-final2-2024-q23
-- first-assessment-ug-2024-q01
-- first-assessment-ug-2024-q02
-- first-assessment-ug-2024-q03
-- first-assessment-ug-2024-q04
-- first-assessment-ug-2024-q05
-- first-assessment-ug-2024-q06
-- first-assessment-ug-2024-q07
-- first-assessment-ug-2024-q08
-- first-assessment-ug-2024-q09
-- first-assessment-ug-2024-q10
-- first-assessment-ug-2024-q11
-- first-assessment-ug-2024-q12
-- first-assessment-ug-2024-q13
-- first-assessment-ug-2024-q14
-- first-assessment-ug-2024-q15
-- first-assessment-ug-2024-q16
-- first-assessment-ug-2024-q17
-- first-assessment-ug-2024-q18
-- first-assessment-ug-2024-q19
-- first-assessment-ug-2024-q20
-- first-assessment-ug-2024-q21
-- first-assessment-ug-2024-q23
-- first-assessment-ug-2024-q24
-- first-assessment-ug-2024-q25
