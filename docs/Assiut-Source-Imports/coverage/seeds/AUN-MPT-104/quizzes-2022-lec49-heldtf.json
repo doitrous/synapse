@@ -1,0 +1,19 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank Lecture 49 (Malignant epithelial tumors classification and examples) held rows (Quiz 49 Q3/Q6/Q9, q408/q411/q414). Q3/Q9 held as format-incompatible (True/False stems, no rewritable 4-5-option contract without inventing a distractor set the source never printed); Q6 additionally prints no answer key at all.",
+  "questions": [
+    {
+      "key": "quizzes-2022-q408",
+      "hold": "True/False-formatted question (Quiz 49 Q3, p196: 'Broder's classification is used for grading squamous cell carcinoma according to degree of cytological atypia' -- printed answer 'False'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed. This is a genuinely new idea (Broder's grading actually reflects degree of differentiation, not cytological atypia specifically) not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong grading-basis claims the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q411",
+      "hold": "True/False-formatted question (Quiz 49 Q6, p197: 'Signet ring carcinoma is characterized by malignant signet-ring cells lying in large amounts of extra cellular mucin') that prints NO 'The correct answer is' line at all -- the page's extracted text runs directly from this question's True/False options into Question 7 with no key text in between. Held as both format-incompatible (True/False, same reasoning as q408) and key-unrecoverable: no printed marker survives in the extracted layer to read a key from, and inferring one from pathology reasoning alone (mucin is intracellular in signet ring carcinoma, not extracellular, which would make the printed statement False) would be resolving a missing key by inference, against the standing rule that a conflict or absence is held, never inferred."
+    },
+    {
+      "key": "quizzes-2022-q414",
+      "hold": "True/False-formatted question (Quiz 49 Q9, p197: 'Transitional cell carcinoma is NOT a locally malignant tumour.' -- printed answer 'True'). Held as format-incompatible, same reasoning as q408. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong malignancy-behaviour claims the source never tested -- not resolvable without fabricating content."
+    }
+  ]
+}

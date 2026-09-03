@@ -5292,3 +5292,790 @@ Block: body
 ### definition_of · CON-FND-F9DB9176CB94DF
 Quote: Adenoma is the benign tumour of glandular epithelial origin, forming gland-like or duct-like structures resembling the tissue it arises from
 Block: body
+
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTIVIRAL-THERAPY-2
+
+## title
+Antiherpetic, anti-CMV and anti-influenza drugs: indications and mechanisms
+
+## arabic_title
+الأدوية المضادة للهربس والفيروس المضخم للخلايا والإنفلونزا
+
+## aliases
+Commonly used Antiviral – antihelmentics – antiprotozoal 2
+Lecture 48
+
+## subject
+fnd
+
+## topic
+Commonly used Antiviral – antihelmentics – antiprotozoal 2
+
+## subtopic
+Herpesvirus/CMV nucleoside analogues, HCV therapy, anti-influenza drugs, interferon
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 48 covers the drug-selection logic across three viral families: the nucleoside-analogue herpesvirus/CMV drugs (acyclovir, its oral prodrug valacyclovir, and the CMV-active ganciclovir), the drugs used, and not used, for HCV eradication, the drugs used, and not used, for influenza eradication (including oseltamivir's specific neuraminidase-inhibition mechanism), and interferon's clinical use spectrum, which notably excludes CMV retinitis.
+
+## sections
+### Definition
+This lecture set drills the indication and mechanism of the acyclovir-family antiherpetic/anti-CMV drugs, the drug composition of an HCV-eradication regimen versus an older DNA-virus drug (vidarabine) that does not belong in it, the drug composition of influenza therapy versus an unrelated NRTI (lamivudine) that does not belong in it, oseltamivir's neuraminidase-inhibition mechanism specifically, and interferon's approved uses versus one condition (CMV retinitis) it does not treat.
+
+### Mechanism
+Acyclovir is a guanosine nucleoside analogue selectively phosphorylated by the herpesvirus-encoded thymidine kinase, then converted by host kinases to acyclovir triphosphate, which inhibits viral DNA polymerase and terminates the growing viral DNA chain. Valacyclovir is the oral prodrug of acyclovir, rapidly converted to acyclovir after absorption with substantially greater oral bioavailability than acyclovir itself. Ganciclovir is an acyclovir analogue with added activity against cytomegalovirus (CMV). Hepatitis C virus (HCV) eradication regimens use direct-acting antivirals such as sofosbuvir (an NS5B polymerase inhibitor), interferon-alpha and ribavirin. Amantadine, rimantadine (M2 ion-channel blockers) and oseltamivir (a neuraminidase inhibitor) are effective for influenza virus eradication. Oseltamivir is a neuraminidase inhibitor. By blocking the viral neuraminidase enzyme, it prevents newly formed influenza virions, including H1N1, from being released from the surface of infected cells, halting the spread of infection to new cells. Interferon-alpha is used for refractory genital warts (condylomata acuminata), for hepatitis C virus infection combined with ribavirin, and for chronic hepatitis B virus infection.
+
+### Key determinants
+Which virus family a drug is licensed for is the recurring determinant across this lecture: acyclovir/valacyclovir/ganciclovir for herpesviruses and CMV; sofosbuvir/interferon-alpha/ribavirin, not vidarabine, for HCV; amantadine/rimantadine/oseltamivir, not lamivudine, for influenza; and interferon's approved list (genital warts, HCV, HBV), which specifically excludes CMV retinitis, itself a ganciclovir indication.
+
+### Clinical significance
+Correctly matching a drug to its specific virus family, rather than assuming any antiviral nucleoside analogue or immune-modulating drug covers every viral indication, is foundational for safe and effective antiviral prescribing.
+
+### Common misconceptions
+Assuming any nucleoside-analogue antiviral (vidarabine, lamivudine) is broadly cross-active against unrelated virus families (HCV, influenza) it is not licensed for, or assuming interferon's broad antiviral reputation extends to CMV retinitis specifically, when that indication belongs to ganciclovir instead.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Acyclovir/valacyclovir/ganciclovir treat herpesviruses and CMV. Vidarabine is not an HCV drug; sofosbuvir/interferon-alpha/ribavirin are. Lamivudine is not an anti-influenza drug; amantadine/rimantadine/oseltamivir are. Oseltamivir inhibits neuraminidase. Interferon does not treat CMV retinitis; ganciclovir does.
+
+## lose_the_mark
+Naming an antiviral drug's mechanism or indication for the wrong virus family, or assuming interferon covers CMV retinitis.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-B587A4B064622E
+CON-FND-68C76DBB7B9D0B
+CON-FND-3E2557E509C765
+CON-FND-E69563689BFCA4
+CON-FND-6F6B6A97CE0F07
+CON-FND-2EBF581321D607
+CON-FND-6807A797456DE2
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 48 (Commonly used Antiviral – antihelmentics – antiprotozoal 2) -- no department slide deck exists in the corpus past Lecture 8, so all 7 new mints cite the quiz bank's own printed-answer text instead. All 7 questions (Q1-Q7, q399-q405) are native-text, cleanly keyed and authored in full -- no held rows in this quiz.
+
+## annotations
+### definition_of · CON-FND-B587A4B064622E
+Quote: Acyclovir is a guanosine nucleoside analogue selectively phosphorylated by the herpesvirus-encoded thymidine kinase, then converted by host kinases to acyclovir triphosphate, which inhibits viral DNA polymerase and terminates the growing viral DNA chain
+Block: body
+
+### definition_of · CON-FND-68C76DBB7B9D0B
+Quote: Valacyclovir is the oral prodrug of acyclovir, rapidly converted to acyclovir after absorption with substantially greater oral bioavailability than acyclovir itself
+Block: body
+
+### definition_of · CON-FND-3E2557E509C765
+Quote: Ganciclovir is an acyclovir analogue with added activity against cytomegalovirus (CMV)
+Block: body
+
+### definition_of · CON-FND-E69563689BFCA4
+Quote: Hepatitis C virus (HCV) eradication regimens use direct-acting antivirals such as sofosbuvir (an NS5B polymerase inhibitor), interferon-alpha and ribavirin
+Block: body
+
+### definition_of · CON-FND-6F6B6A97CE0F07
+Quote: Amantadine, rimantadine (M2 ion-channel blockers) and oseltamivir (a neuraminidase inhibitor) are effective for influenza virus eradication
+Block: body
+
+### definition_of · CON-FND-2EBF581321D607
+Quote: Oseltamivir is a neuraminidase inhibitor. By blocking the viral neuraminidase enzyme, it prevents newly formed influenza virions, including H1N1, from being released from the surface of infected cells, halting the spread of infection to new cells
+Block: body
+
+### definition_of · CON-FND-6807A797456DE2
+Quote: Interferon-alpha is used for refractory genital warts (condylomata acuminata), for hepatitis C virus infection combined with ribavirin, and for chronic hepatitis B virus infection
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-MALIGNANT-EPITHELIAL-TUMORS
+
+## title
+Malignant epithelial tumors: naming, grading/staging and histology
+
+## arabic_title
+الأورام الظهارية الخبيثة: التسمية والتدريج والتشريح المرضي
+
+## aliases
+Malignant epithelial tumors classification and examples
+Lecture 49
+
+## subject
+fnd
+
+## topic
+Malignant epithelial tumors classification and examples
+
+## subtopic
+Carcinoma recognition, adenocarcinoma naming, grade/stage, signet ring carcinoma, sarcoma-vs-carcinoma histology
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 49 covers recognising a malignant epithelial (carcinoma) lesion clinically, the adenocarcinoma naming rule for malignant glandular tumours, how histological grade and clinical stage combine to describe a neoplasm, the signet ring carcinoma glandular subtype, and the stromal feature (stroma separating individual cells) that distinguishes sarcoma from carcinoma histologically.
+
+## sections
+### Definition
+This lecture covers the vocabulary and diagnostic logic of malignant epithelial tumours: recognising carcinoma from a clinical vignette (hematuria, atypical cytology, an ulcerated mass), naming a malignant glandular tumour adenocarcinoma, interpreting grade and stage together, classifying signet ring carcinoma as a glandular carcinoma subtype, and the histological feature that separates sarcoma from carcinoma.
+
+### Mechanism
+An ulcerated, infiltrating bladder mass causing recurrent hematuria, with atypical (malignant-appearing) cells on urine cytology, is the classic clinical and cytological picture of carcinoma -- most commonly transitional cell carcinoma of the bladder in an older adult. Adenocarcinoma is the malignant tumour of glandular epithelium -- the malignant counterpart of adenoma. Histological grade (I of IV) reflects how closely tumour cells resemble their tissue of origin; grade I means well-differentiated, generally slower-growing tissue. Signet ring carcinoma is a variant of glandular carcinoma (adenocarcinoma) in which tumour cells accumulate intracytoplasmic mucin that pushes the nucleus to the cell periphery, giving the characteristic signet-ring appearance under the microscope. Sarcoma cells, arising from mesenchymal tissue, are typically dispersed as individual cells within an abundant connective-tissue stroma that separates them from one another.
+
+### Key determinants
+Ulceration and cytological atypia point to malignancy; the '-oma'/'-carcinoma' suffix pair (adenoma/adenocarcinoma) tracks benign versus malignant behaviour of the same tissue origin; grade (I-IV) and stage (I-IV) are scored independently; mucin-filled cytoplasm with a peripheral nucleus is signet ring morphology; and the stromal relationship to individual tumour cells (dispersed with abundant stroma versus cohesive sheets) is the key sarcoma-versus-carcinoma histological discriminator.
+
+### Clinical significance
+Correctly recognising and naming malignant epithelial tumours, and interpreting their grade/stage together, underpins accurate pathology reporting, prognostication and treatment planning.
+
+### Common misconceptions
+Treating grade and stage as the same measure, assigning signet ring carcinoma to a non-glandular carcinoma category, or assuming sarcoma and carcinoma share the same cohesive growth pattern.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+An ulcerated mass with atypical cytology suggests carcinoma. Malignant + glandular = adenocarcinoma. Grade tracks differentiation; stage tracks spread extent -- independent axes. Signet ring carcinoma is a glandular carcinoma subtype. Sarcoma cells are separated by stroma; carcinoma cells grow as cohesive masses/sheets. A malignant ulcer's edge is raised and everted.
+
+## lose_the_mark
+Confusing grade with stage, misclassifying signet ring carcinoma's tissue origin, or reversing the sarcoma/carcinoma stromal-growth-pattern fact.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-9FCD284318A2A1
+CON-FND-493ABE0143A7CD
+CON-FND-ED5F7732D5D514
+CON-FND-A8B048ADB67ED2
+CON-FND-EBC323671C0727
+CON-FND-A827F765FDA492
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 49 (Malignant epithelial tumors classification and examples) -- no department slide deck exists in the corpus past Lecture 8, so all new mints cite the quiz bank's own printed-answer text instead. Q1/Q2/Q4/Q5/Q8 (q406/q407/q409/q410/q413) ride 4 new mints; Q7 (q412) reuses this module's own earlier-minted everted-malignant-ulcer-edge concept (CON-FND-A827F765FDA492), cited directly since it is same-lane, not cross-university, reuse. Q3 (q408, Broder's classification) and Q9 (q414, transitional cell carcinoma) are True/False rows held in the sibling heldtf file; Q6 (q411, signet ring characterisation) prints no answer key at all and is held as both format-incompatible and key-unrecoverable.
+
+## annotations
+### definition_of · CON-FND-9FCD284318A2A1
+Quote: An ulcerated, infiltrating bladder mass causing recurrent hematuria, with atypical (malignant-appearing) cells on urine cytology, is the classic clinical and cytological picture of carcinoma -- most commonly transitional cell carcinoma of the bladder in an older adult
+Block: body
+
+### definition_of · CON-FND-493ABE0143A7CD
+Quote: Adenocarcinoma is the malignant tumour of glandular epithelium -- the malignant counterpart of adenoma
+Block: body
+
+### definition_of · CON-FND-ED5F7732D5D514
+Quote: Histological grade (I of IV) reflects how closely tumour cells resemble their tissue of origin; grade I means well-differentiated, generally slower-growing tissue
+Block: body
+
+### definition_of · CON-FND-A8B048ADB67ED2
+Quote: Signet ring carcinoma is a variant of glandular carcinoma (adenocarcinoma) in which tumour cells accumulate intracytoplasmic mucin that pushes the nucleus to the cell periphery, giving the characteristic signet-ring appearance under the microscope
+Block: body
+
+### definition_of · CON-FND-EBC323671C0727
+Quote: Sarcoma cells, arising from mesenchymal tissue, are typically dispersed as individual cells within an abundant connective-tissue stroma that separates them from one another
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-1
+
+## title
+Anticancer drug mechanisms and toxicities: bleomycin, paclitaxel, cisplatin, methotrexate, cyclophosphamide
+
+## arabic_title
+آليات وسمية الأدوية المضادة للسرطان
+
+## aliases
+Anticancer & Immunomodulator 1
+Lecture 50
+
+## subject
+fnd
+
+## topic
+Anticancer & Immunomodulator 1
+
+## subtopic
+Bleomycin cell-cycle phase, paclitaxel target, cisplatin nephrotoxicity, methotrexate as folate analogue, cyclophosphamide cell-cycle non-specificity
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 50 covers five distinct chemotherapy drug facts: the G2-phase, iron-oxygen-complex, pulmonary-toxic drug (bleomycin), paclitaxel's microtubule target, cisplatin's distinctive nephrotoxicity (rather than marrow suppression), methotrexate as a folic acid analogue, and cyclophosphamide as a cell-cycle non-specific alkylating agent.
+
+## sections
+### Definition
+This lecture drills five separately-identifiable chemotherapy drug facts, each a common exam discriminator: cell-cycle phase of action, molecular target, dose-limiting toxicity, drug class/analogue identity, and cell-cycle specificity.
+
+### Mechanism
+A chemotherapy drug that complexes with iron and oxygen to generate free radicals causing DNA strand breaks, and that carries dose-limiting pulmonary toxicity/fibrosis requiring close monitoring, matches bleomycin. Paclitaxel is a taxane that binds to and stabilises microtubules, preventing their normal depolymerisation. Cisplatin is distinctive among common cytotoxic chemotherapy drugs for causing significant nephrotoxicity (renal tubular damage) as its major dose-limiting side effect. Methotrexate is a folic acid (folate) analogue. It competitively inhibits dihydrofolate reductase, blocking the regeneration of tetrahydrofolate needed for purine and thymidylate synthesis, and so halting DNA synthesis in rapidly dividing cells -- distinct from the pyrimidine-analogue, topoisomerase-inhibitor and alkylating mechanisms of other anticancer drug classes. Cyclophosphamide is an alkylating agent. Alkylating agents are cell-cycle non-specific: they can damage DNA, by cross-linking DNA strands, in cells at any phase of the cell cycle, including non-dividing cells at rest.
+
+### Key determinants
+Cell-cycle-phase specificity (S-phase antimetabolites, M-phase spindle poisons, G2-phase bleomycin) versus cell-cycle non-specificity (alkylating agents) is the recurring axis; toxicity profile (marrow suppression versus cisplatin's nephrotoxicity, versus bleomycin's pulmonary fibrosis) is the other.
+
+### Clinical significance
+Anticipating a chemotherapy drug's specific toxicity profile (nephrotoxicity, pulmonary fibrosis, marrow suppression) and cell-cycle behaviour guides monitoring and regimen design in oncology practice.
+
+### Common misconceptions
+Assuming all cytotoxic chemotherapy drugs share the same dose-limiting toxicity (bone marrow suppression) or the same cell-cycle specificity, rather than recognising each drug class's distinct profile.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Bleomycin: iron-oxygen complex, DNA strand breaks, G2 phase, pulmonary toxicity. Paclitaxel: microtubules. Cisplatin: nephrotoxicity, not marrow suppression. Methotrexate: folic acid analogue. Cyclophosphamide: cell-cycle non-specific alkylating agent.
+
+## lose_the_mark
+Swapping a chemotherapy drug's cell-cycle phase, target or dose-limiting toxicity with another drug's.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-68374A6825E4A5
+CON-FND-45B9EEC4348094
+CON-FND-CC1B00E7404289
+CON-FND-2EDA0E441849FB
+CON-FND-187067AB4F5030
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 50 (Anticancer & Immunomodulator 1) -- no department slide deck exists in the corpus past Lecture 8, so all 5 new mints cite the quiz bank's own printed-answer text instead. All 5 questions (Q1-Q5, q415-q419) are native-text, cleanly keyed and authored in full -- no held rows in this quiz.
+
+## annotations
+### definition_of · CON-FND-68374A6825E4A5
+Quote: A chemotherapy drug that complexes with iron and oxygen to generate free radicals causing DNA strand breaks, and that carries dose-limiting pulmonary toxicity/fibrosis requiring close monitoring, matches bleomycin
+Block: body
+
+### definition_of · CON-FND-45B9EEC4348094
+Quote: Paclitaxel is a taxane that binds to and stabilises microtubules, preventing their normal depolymerisation
+Block: body
+
+### definition_of · CON-FND-CC1B00E7404289
+Quote: Cisplatin is distinctive among common cytotoxic chemotherapy drugs for causing significant nephrotoxicity (renal tubular damage) as its major dose-limiting side effect
+Block: body
+
+### definition_of · CON-FND-2EDA0E441849FB
+Quote: Methotrexate is a folic acid (folate) analogue. It competitively inhibits dihydrofolate reductase, blocking the regeneration of tetrahydrofolate needed for purine and thymidylate synthesis, and so halting DNA synthesis in rapidly dividing cells -- distinct from the pyrimidine-analogue, topoisomerase-inhibitor and alkylating mechanisms of other anticancer drug classes
+Block: body
+
+### definition_of · CON-FND-187067AB4F5030
+Quote: Cyclophosphamide is an alkylating agent. Alkylating agents are cell-cycle non-specific: they can damage DNA, by cross-linking DNA strands, in cells at any phase of the cell cycle, including non-dividing cells at rest
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-MESENCHYMAL-TUMORS
+
+## title
+Mesenchymal and developmental tumors: benign naming, teratoma, hamartoma and embryonic tumors
+
+## arabic_title
+الأورام اللحمية والتطورية: التسمية الحميدة والورم المسخي والورم الوحمي والأورام الجنينية
+
+## aliases
+Mesenchymal tumors: benign and malignant and developmental tumors
+Lecture 51
+
+## subject
+fnd
+
+## topic
+Mesenchymal tumors: benign and malignant and developmental tumors
+
+## subtopic
+Benign mesenchymal tumour naming (hemangioma, lipoma, leiomyoma, chondroma, osteoma), teratoma, hamartoma versus choristoma, haematoma versus true neoplasm, embryonic tumor family
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 51 covers the benign mesenchymal-tumour naming series (hemangioma, lipoma, leiomyoma, chondroma, osteoma) recognised both from clinical vignettes and direct definitions, teratoma as the tumour of all three germ layers, hamartoma's definition versus choristoma/germ-cell tumour/teratoma, haematoma as a non-neoplastic mimic, and the department's five-member embryonic tumor family (neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma, medulloblastoma) which excludes germ-cell tumours such as seminoma.
+
+## sections
+### Definition
+This lecture covers recognising and naming benign mesenchymal tumours by tissue of origin, the developmental/malformation categories (teratoma, hamartoma, choristoma), a non-neoplastic mimic (haematoma), and the embryonic tumor family of childhood malignancies.
+
+### Mechanism
+Haemangioma is a benign tumour of blood vessels, often congenital (a vascular birthmark), classically presenting as a small, reddish, raised skin nodule that is stable in size and colour over long-term follow-up. Lipoma is the benign tumour of mature adipose tissue -- the most common soft-tissue tumour overall, typically presenting as a soft, rounded, painless, slow-growing (or stable) subcutaneous mass with normal overlying skin, found incidentally and remaining stable over time. Teratoma is the tumour derived from all three germ cell layers -- ectoderm, mesoderm and endoderm -- and can classically present as a cystic ovarian mass containing hair (ectoderm/skin appendages), squamous epithelium (ectoderm), glandular epithelium (endoderm) and cartilage or fibrous connective tissue (mesoderm). Leiomyoma, also called a uterine fibroid, is the benign tumour of uterine smooth muscle. Chondroma is the benign tumour of cartilage, following the standard mesenchymal-tumour naming convention in which a benign tumour is named after its tissue of origin plus the suffix '-oma' -- here, cartilage. Osteoma is the benign tumour of osseous (bone) tissue, following the same mesenchymal-tumour naming convention as chondroma and lipoma -- tissue of origin plus '-oma', here bone. A hamartoma is a mass of disorganised, but otherwise mature and histologically normal, cells and tissue elements indigenous (native) to the part of the body in which it occurs -- a developmental malformation of local tissue architecture rather than a true, clonal neoplasm. A haematoma is a localised collection of extravasated blood outside blood vessels, caused by bleeding into tissue -- a reactive, non-neoplastic process, not a true clonal neoplasm at all, despite the name's superficial resemblance to a tumour suffix. Embryonic tumors -- neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma and medulloblastoma -- are malignant tumors of primitive undifferentiated cells derived from embryonic remnants in infants and young children.
+
+### Key determinants
+Tissue of origin determines a benign mesenchymal tumour's name; germ-layer count (one versus three) separates an ordinary benign tumour from a teratoma; tissue maturity and location (native versus ectopic) separates hamartoma from choristoma; true neoplastic (clonal) growth versus a reactive blood collection separates a genuine benign tumour from a haematoma; and embryonic-remnant origin versus germ-cell origin separates the embryonic tumor family from tumours like seminoma.
+
+### Clinical significance
+Correctly recognising a stable, benign mesenchymal mass from its clinical presentation, and correctly classifying developmental tumour categories, is foundational vocabulary for pathology reporting across organ systems.
+
+### Common misconceptions
+Mixing up the benign mesenchymal-tumour naming series, confusing hamartoma with choristoma or teratoma, treating haematoma as a true neoplasm, or misclassifying a germ-cell tumour (seminoma) as a member of the embryonic tumor family.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Lipoma (fat), chondroma (cartilage), osteoma (bone), leiomyoma (smooth muscle), haemangioma (vessels) -- benign, named by tissue of origin. Teratoma: tumour of all 3 germ layers. Hamartoma: disorganised but mature native tissue (versus choristoma: normal tissue, ectopic site). Haematoma is not a neoplasm. The embryonic tumor family is neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma and medulloblastoma -- not seminoma, a germ-cell tumour. Malignant + glandular = adenocarcinoma; sarcomas are not made of cohesive masses/sheets (that is a carcinoma feature).
+
+## lose_the_mark
+Mixing up the benign mesenchymal-tumour naming series, confusing hamartoma/choristoma/teratoma, treating haematoma as a neoplasm, or placing a germ-cell tumour (seminoma) in the embryonic tumor family.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-FADD789D0EBD83
+CON-FND-98883162BD988A
+CON-FND-CB60542E06A0C6
+CON-FND-3965F7DB0C47DC
+CON-FND-862BD1DA196ED8
+CON-FND-2D1A30B8748B78
+CON-FND-86066D9E19E79D
+CON-FND-F23FC5494D8DCA
+CON-FND-7A8E6E9B14047B
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 51 (Mesenchymal tumors: benign and malignant and developmental tumors) -- no department slide deck exists in the corpus past Lecture 8, so all 8 new mints cite the quiz bank's own printed-answer text instead. Q12/Q14 (q431/q433) reuse this batch's own Lecture-49 adenocarcinoma and sarcoma-vs-carcinoma-stroma concepts, restated from the opposite framing. Q16 (q435) reuses this lecture's own teratoma concept. Q13/Q15 (q432/q434) reuse ONE pending Kasr 208-INT concept (CON-FND-7A8E6E9B14047B, neoplasia.embryonic-tumors.classification) -- listed here in related_concepts per the standing two-sided-coverage fix (this lane's own article, not the foreign one, must name the reused concept), with a sparse +aun/+1/+AUN-MPT-104 overlay in the sibling pending-live file, applied only after Omar imports the Kasr 208-INT batch. Q11 (q430) is a literal duplicate of Q10 (q429) -- Q10 authored, Q11 held. Q5/Q8/Q9 (q424/q427/q428) are True/False rows held in the sibling heldtf file.
+
+## annotations
+### definition_of · CON-FND-FADD789D0EBD83
+Quote: Haemangioma is a benign tumour of blood vessels, often congenital (a vascular birthmark), classically presenting as a small, reddish, raised skin nodule that is stable in size and colour over long-term follow-up
+Block: body
+
+### definition_of · CON-FND-98883162BD988A
+Quote: Lipoma is the benign tumour of mature adipose tissue -- the most common soft-tissue tumour overall, typically presenting as a soft, rounded, painless, slow-growing (or stable) subcutaneous mass with normal overlying skin, found incidentally and remaining stable over time
+Block: body
+
+### definition_of · CON-FND-CB60542E06A0C6
+Quote: Teratoma is the tumour derived from all three germ cell layers -- ectoderm, mesoderm and endoderm -- and can classically present as a cystic ovarian mass containing hair (ectoderm/skin appendages), squamous epithelium (ectoderm), glandular epithelium (endoderm) and cartilage or fibrous connective tissue (mesoderm)
+Block: body
+
+### definition_of · CON-FND-3965F7DB0C47DC
+Quote: Leiomyoma, also called a uterine fibroid, is the benign tumour of uterine smooth muscle
+Block: body
+
+### definition_of · CON-FND-862BD1DA196ED8
+Quote: Chondroma is the benign tumour of cartilage, following the standard mesenchymal-tumour naming convention in which a benign tumour is named after its tissue of origin plus the suffix '-oma' -- here, cartilage
+Block: body
+
+### definition_of · CON-FND-2D1A30B8748B78
+Quote: Osteoma is the benign tumour of osseous (bone) tissue, following the same mesenchymal-tumour naming convention as chondroma and lipoma -- tissue of origin plus '-oma', here bone
+Block: body
+
+### definition_of · CON-FND-86066D9E19E79D
+Quote: A hamartoma is a mass of disorganised, but otherwise mature and histologically normal, cells and tissue elements indigenous (native) to the part of the body in which it occurs -- a developmental malformation of local tissue architecture rather than a true, clonal neoplasm
+Block: body
+
+### definition_of · CON-FND-F23FC5494D8DCA
+Quote: A haematoma is a localised collection of extravasated blood outside blood vessels, caused by bleeding into tissue -- a reactive, non-neoplastic process, not a true clonal neoplasm at all, despite the name's superficial resemblance to a tumour suffix
+Block: body
+
+### definition_of · CON-FND-7A8E6E9B14047B
+Quote: Embryonic tumors -- neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma and medulloblastoma -- are malignant tumors of primitive undifferentiated cells derived from embryonic remnants in infants and young children
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-2
+
+## title
+Cyclosporine: mechanism, side effects, toxicity and clinical use
+
+## arabic_title
+السيكلوسبورين: الآلية والآثار الجانبية والسمية والاستخدام السريري
+
+## aliases
+Anticancer & Immunomodulator 2
+Lecture 52
+
+## subject
+fnd
+
+## topic
+Anticancer & Immunomodulator 2
+
+## subtopic
+Cyclosporine calcineurin-inhibition mechanism, gum hyperplasia, toxicity profile, CYP3A4 metabolism, transplant-rejection indication
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 52, the final quiz in the AUN-MPT-104 bank, covers cyclosporine end to end: its calcineurin-inhibition mechanism blocking IL-2 transcription, its gum hyperplasia side effect, its toxicity profile (which notably excludes hypokalemia), its CYP3A4 metabolism and associated drug-interaction risk, and its role as the drug of choice for preventing post-transplant organ rejection.
+
+## sections
+### Definition
+This lecture is a focused, five-question deep dive on a single immunosuppressant drug, cyclosporine, covering its mechanism, a specific side effect, an excluded toxicity, its metabolising enzyme and its clinical indication.
+
+### Mechanism
+Cyclosporine binds cyclophilin, and the resulting complex inhibits calcineurin, a calcium/calmodulin-dependent phosphatase that normally dephosphorylates the transcription factor NFAT, allowing it to enter the nucleus and switch on interleukin-2 (IL-2) gene transcription. Gingival (gum) hyperplasia is a well-recognised side effect of cyclosporine, seen in a substantial proportion of patients on long-term therapy, managed with meticulous oral hygiene or, if severe, a dose change -- distinct from cyclosporine's other, separately-tested toxicities (hypertension, nephrotoxicity, hyperuricemia). Cyclosporine can cause hyperuricemia (sometimes precipitating gout), nephrotoxicity (from direct renal vasoconstriction and tubular injury) and hypertension (related to its renal vasoconstrictive action). Cyclosporine is metabolised mainly by the cytochrome P450 3A4 (CYP3A4) enzyme, chiefly in the liver and intestinal wall. Cyclosporine, a calcineurin inhibitor that blocks T-lymphocyte activation and IL-2 production, is the drug of choice for preventing post-transplant organ rejection.
+
+### Key determinants
+Each fact in this lecture is a distinct, separately-testable cyclosporine attribute: mechanism (calcineurin inhibition), a specific side effect (gum hyperplasia), an excluded toxicity (hypokalemia, versus the true hyperkalemia/hyperuricemia/nephrotoxicity/hypertension profile), a metabolising enzyme (CYP3A4, with its interaction implications), and a clinical indication (transplant rejection prevention).
+
+### Clinical significance
+Cyclosporine is a cornerstone immunosuppressant in solid-organ transplantation; recognising its calcineurin mechanism, monitoring for its characteristic toxicities, and anticipating CYP3A4 drug interactions are all core prescribing safety points.
+
+### Common misconceptions
+Assuming cyclosporine's renal toxicity lowers rather than raises serum potassium, or confusing its calcineurin-inhibition mechanism with a different immunosuppressive mechanism (direct antimetabolite action or IL-2-receptor blockade).
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Cyclosporine inhibits calcineurin, blocking IL-2 transcription. Side effect: gum hyperplasia. Toxicity profile: hyperuricemia, nephrotoxicity, hypertension, hyperkalemia -- NOT hypokalemia. Metabolised mainly by CYP3A4. Drug of choice for preventing post-transplant rejection.
+
+## lose_the_mark
+Reversing cyclosporine's potassium effect (hyperkalemia, not hypokalemia), or misattributing its metabolism to the wrong CYP isoform.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-5B2B737D6DB265
+CON-FND-20DB7ABACDC26F
+CON-FND-B18369C13A43D5
+CON-FND-F859D858AC6AF0
+CON-FND-36AFF41F44E15B
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 52 (Anticancer & Immunomodulator 2) -- no department slide deck exists in the corpus past Lecture 8, so all 5 new mints cite the quiz bank's own printed-answer text instead. All 5 questions (Q1-Q5, q437-q441) are native-text, cleanly keyed and authored in full -- no held rows in this quiz. This is the FINAL quiz (Quiz 52) in the 441-item All Quizzes MPT 2022.pdf bank; landing this batch closes the entire quizzes-2022 cluster (all 441 items authored or held, none remaining).
+
+## annotations
+### definition_of · CON-FND-5B2B737D6DB265
+Quote: Cyclosporine binds cyclophilin, and the resulting complex inhibits calcineurin, a calcium/calmodulin-dependent phosphatase that normally dephosphorylates the transcription factor NFAT, allowing it to enter the nucleus and switch on interleukin-2 (IL-2) gene transcription
+Block: body
+
+### definition_of · CON-FND-20DB7ABACDC26F
+Quote: Gingival (gum) hyperplasia is a well-recognised side effect of cyclosporine, seen in a substantial proportion of patients on long-term therapy, managed with meticulous oral hygiene or, if severe, a dose change -- distinct from cyclosporine's other, separately-tested toxicities (hypertension, nephrotoxicity, hyperuricemia)
+Block: body
+
+### definition_of · CON-FND-B18369C13A43D5
+Quote: Cyclosporine can cause hyperuricemia (sometimes precipitating gout), nephrotoxicity (from direct renal vasoconstriction and tubular injury) and hypertension (related to its renal vasoconstrictive action)
+Block: body
+
+### definition_of · CON-FND-F859D858AC6AF0
+Quote: Cyclosporine is metabolised mainly by the cytochrome P450 3A4 (CYP3A4) enzyme, chiefly in the liver and intestinal wall
+Block: body
+
+### definition_of · CON-FND-36AFF41F44E15B
+Quote: Cyclosporine, a calcineurin inhibitor that blocks T-lymphocyte activation and IL-2 production, is the drug of choice for preventing post-transplant organ rejection
+Block: body

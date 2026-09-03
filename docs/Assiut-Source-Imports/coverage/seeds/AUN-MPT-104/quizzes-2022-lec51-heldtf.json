@@ -1,0 +1,23 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank Lecture 51 (Mesenchymal tumors: benign and malignant and developmental tumors) held rows (Quiz 51 Q5/Q8/Q9/Q11, q424/q427/q428/q430). Q5/Q8/Q9 held as format-incompatible (True/False stems); Q11 held as a literal duplicate of Q10 (q429).",
+  "questions": [
+    {
+      "key": "quizzes-2022-q424",
+      "hold": "True/False-formatted question (Quiz 51 Q5, p204: 'All germ cell tumours are malignant' -- printed answer 'False'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed. This is a genuinely new idea (some germ cell tumours, e.g. a mature teratoma, are benign) not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong claims the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q427",
+      "hold": "True/False-formatted question (Quiz 51 Q8, p205: 'Germ cells are cells which can give elements of ectoderm, mesoderm, and endoderm.' -- printed answer 'True'). Held as format-incompatible, same reasoning as q424. This underlying totipotency fact is related to, but not restated by, this lecture's authored teratoma rows (which describe the resulting tumour's tissue mixture, not germ cells' own totipotency); converting it to a real MCQ would require inventing three wrong claims the source never tested."
+    },
+    {
+      "key": "quizzes-2022-q428",
+      "hold": "True/False-formatted question (Quiz 51 Q9, p205: 'Germ cells are NOT present in the post-natal life.' -- printed answer 'False'). Held as format-incompatible, same reasoning as q424. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real MCQ would require inventing three wrong claims the source never tested."
+    },
+    {
+      "key": "quizzes-2022-q430",
+      "hold": "Literal duplicate question (Quiz 51 Q11, p206: identical stem 'Hamartoma refers to:', identical four options in the identical order, and the identical printed key 'Mass of disorganised but mature cells indigenous to the part' as Q10/q429). Held as a duplicate rather than authored as a second full record -- q429 already carries this exact fact and option set."
+    }
+  ]
+}

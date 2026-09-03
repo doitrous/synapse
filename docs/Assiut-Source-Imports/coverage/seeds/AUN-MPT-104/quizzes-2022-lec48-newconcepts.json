@@ -1,0 +1,237 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank questions (Lecture 48: Commonly used Antiviral – antihelmentics – antiprotozoal 2, Quiz 48 Q1-Q7, q399-q405) riding on 7 newly-minted AUN-MPT-104 concepts (concept/AUN-MPT-104-concepts.md, article/AUN-MPT-104-articles.md ART-FND-AUN-MPT104-ANTIVIRAL-THERAPY-2), confirmed new by find-existing.mjs (acyclovir/ganciclovir/vidarabine hit only an unrelated live nucleoside-analogue-mechanism concept CON-FND-D4094C0234D780, and lamivudine only an unrelated live reverse-transcriptase-inhibitor concept CON-FND-4BC19D8ACBDCA1 -- neither covers this lecture's clinical-indication facts) -- no department slide deck exists past Lecture 8, so all 7 mints cite the quiz bank's own printed-answer text. All 7 questions are native-text, cleanly keyed, 4-option, no format issues. Every printed key checks out against standard pharmacology teaching -- no held-printed-key-conflicts.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Commonly used Antiviral – antihelmentics – antiprotozoal 2",
+    "library_ids": ["ART-FND-AUN-MPT104-ANTIVIRAL-THERAPY-2"],
+    "module_subject": "AUN-MPT-104 > Pharmacology > Commonly used Antiviral – antihelmentics – antiprotozoal 2"
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q399",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q399",
+      "page": 192,
+      "title": "Acyclovir is the drug used to inhibit herpes viruses",
+      "question": "Which ONE of the following drugs is used to inhibit herpes viruses?",
+      "options": {
+        "A": "Azidothymidine",
+        "B": "Oseltamivir",
+        "C": "Acyclovir",
+        "D": "Amantadine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Azidothymidine (zidovudine) is a nucleoside reverse transcriptase inhibitor used against HIV, not herpesviruses.",
+        "B": "Incorrect. Oseltamivir is a neuraminidase inhibitor used against influenza virus, not herpesviruses.",
+        "C": "Correct. Acyclovir is a guanosine nucleoside analogue that, once selectively phosphorylated by the herpesvirus-encoded thymidine kinase, is converted to its triphosphate form and incorporated into viral DNA, inhibiting the viral DNA polymerase and terminating the growing DNA chain. This selective activation only in herpesvirus-infected cells makes it the prototypical and most widely used drug to inhibit herpes simplex and varicella-zoster viruses.",
+        "D": "Incorrect. Amantadine blocks the M2 ion channel of influenza A virus, unrelated to herpesvirus replication."
+      },
+      "main_concept": "CON-FND-B587A4B064622E",
+      "concept_ids": ["CON-FND-B587A4B064622E"],
+      "contextual_concept_ids": [],
+      "subtopic": "Acyclovir mechanism and indication",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify acyclovir as the drug used to inhibit herpesviruses.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Acyclovir\"" }
+    },
+    {
+      "key": "quizzes-2022-q400",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q400",
+      "page": 192,
+      "title": "Valacyclovir is the oral drug for ongoing genital herpes management",
+      "question": "A 27-year-old nursing mother is diagnosed as suffering from genital herpes. She has a history of this viral infection. Previously, she responded to a drug used topically. Apart from her current problem, she is in good health. Which drug to be used orally is most likely to be prescribed at this time?",
+      "vignette": "A 27-year-old nursing mother with a history of genital herpes, previously responsive to a topical drug, otherwise in good health, presents with a recurrence.",
+      "options": {
+        "A": "Foscarnet",
+        "B": "Ritonavir",
+        "C": "Valacyclovir",
+        "D": "Amantadine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Foscarnet is an intravenous drug reserved for acyclovir-resistant herpesvirus or cytomegalovirus infections, not first-line oral therapy for an otherwise healthy patient with recurrent genital herpes.",
+        "B": "Incorrect. Ritonavir is a protease inhibitor used against HIV, not herpes simplex virus.",
+        "C": "Correct. Valacyclovir is the oral prodrug of acyclovir, rapidly converted to acyclovir after absorption with much greater oral bioavailability than acyclovir itself. It is the standard oral drug for episodic or suppressive treatment of recurrent genital herpes in an otherwise healthy patient, and is compatible with breastfeeding, making it the drug most likely prescribed here.",
+        "D": "Incorrect. Amantadine is an anti-influenza drug, not active against herpes simplex virus."
+      },
+      "main_concept": "CON-FND-68C76DBB7B9D0B",
+      "concept_ids": ["CON-FND-68C76DBB7B9D0B"],
+      "contextual_concept_ids": ["CON-FND-B587A4B064622E"],
+      "subtopic": "Valacyclovir as oral therapy for recurrent genital herpes",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 3,
+      "learning_objective": "Identify valacyclovir as the oral prodrug of acyclovir used for recurrent genital herpes.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Valacyclovir\"" }
+    },
+    {
+      "key": "quizzes-2022-q401",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q401",
+      "page": 193,
+      "title": "Ganciclovir suppresses herpetic infections and provides CMV retinitis prophylaxis",
+      "question": "The drug most likely to suppress herpetic infections and provide prophylaxis against CMV retinitis in this patient is",
+      "vignette": "Continuing the same immunocompromised-risk clinical scenario as the preceding quiz item, the patient now needs cover against both herpetic infection and cytomegalovirus retinitis.",
+      "options": {
+        "A": "Indinavir",
+        "B": "Fluconazole",
+        "C": "Rifabutin",
+        "D": "Gancyclovir"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Indinavir is an HIV protease inhibitor with no activity against herpesviruses or cytomegalovirus.",
+        "B": "Incorrect. Fluconazole is an antifungal (triazole) drug, not active against viruses.",
+        "C": "Incorrect. Rifabutin is an antimycobacterial drug used for Mycobacterium avium complex prophylaxis, not an antiviral.",
+        "D": "Correct. Ganciclovir is an acyclovir analogue with added activity against cytomegalovirus (CMV). After phosphorylation, first by a CMV-encoded kinase and then by host kinases, it inhibits viral DNA polymerase in both herpesviruses and CMV. This dual activity makes it the drug of choice for both suppressing herpetic infections and providing prophylaxis against CMV retinitis, a common opportunistic infection in immunocompromised patients."
+      },
+      "main_concept": "CON-FND-3E2557E509C765",
+      "concept_ids": ["CON-FND-3E2557E509C765"],
+      "contextual_concept_ids": ["CON-FND-B587A4B064622E"],
+      "subtopic": "Ganciclovir for CMV retinitis and herpes suppression",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify ganciclovir as the drug for CMV retinitis prophylaxis and herpetic infection suppression.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Gancyclovir\"" }
+    },
+    {
+      "key": "quizzes-2022-q402",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q402",
+      "page": 193,
+      "title": "Vidarabine is not used for HCV eradication",
+      "question": "All the following agents can be used effectively in eradication of HCV EXCEPT:",
+      "options": {
+        "A": "Sofosbuvir",
+        "B": "Vidarabine",
+        "C": "Interferon-alpha",
+        "D": "Ribavirin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (i.e. it IS effective). Sofosbuvir is a direct-acting NS5B polymerase inhibitor and a mainstay of modern hepatitis C virus (HCV) eradication regimens.",
+        "B": "Correct (i.e. NOT effective, the exception). Vidarabine is an older nucleoside analogue historically used against herpesviruses (and, before newer drugs, some DNA viruses); it is not part of HCV eradication therapy, which targets the hepatitis C RNA virus through interferon, ribavirin and direct-acting antivirals such as sofosbuvir.",
+        "C": "Incorrect (i.e. it IS effective). Interferon-alpha, combined with ribavirin, was the historical mainstay of HCV therapy and still contributes to some regimens.",
+        "D": "Incorrect (i.e. it IS effective). Ribavirin is combined with interferon or direct-acting antivirals to improve HCV eradication rates."
+      },
+      "main_concept": "CON-FND-E69563689BFCA4",
+      "concept_ids": ["CON-FND-E69563689BFCA4"],
+      "contextual_concept_ids": [],
+      "subtopic": "HCV eradication drugs versus vidarabine",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise vidarabine as not indicated for hepatitis C virus eradication, unlike sofosbuvir, interferon-alpha and ribavirin.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Vidarabine\"" }
+    },
+    {
+      "key": "quizzes-2022-q403",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q403",
+      "page": 193,
+      "title": "Lamivudine is not effective against influenza virus",
+      "question": "All the following agents can be used effectively in eradication of influenza virus EXCEPT:",
+      "options": {
+        "A": "Amantadine",
+        "B": "Osteltamivir",
+        "C": "Ramantadine",
+        "D": "Lamivudine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. it IS effective). Amantadine blocks the M2 ion channel of influenza A virus, inhibiting viral uncoating.",
+        "B": "Incorrect (i.e. it IS effective). Oseltamivir is a neuraminidase inhibitor active against both influenza A and B.",
+        "C": "Incorrect (i.e. it IS effective). Rimantadine, like amantadine, blocks the influenza A M2 ion channel.",
+        "D": "Correct (i.e. NOT effective, the exception). Lamivudine is a nucleoside reverse transcriptase inhibitor used against HIV and hepatitis B virus, not influenza virus; it has no activity against the influenza uncoating or neuraminidase steps that amantadine, rimantadine and oseltamivir target."
+      },
+      "main_concept": "CON-FND-6F6B6A97CE0F07",
+      "concept_ids": ["CON-FND-6F6B6A97CE0F07"],
+      "contextual_concept_ids": [],
+      "subtopic": "Anti-influenza drugs versus lamivudine",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise lamivudine as not indicated for influenza eradication, unlike amantadine, rimantadine and oseltamivir.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Lamivudine\"" }
+    },
+    {
+      "key": "quizzes-2022-q404",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q404",
+      "page": 194,
+      "title": "Oseltamivir eradicates H1N1 influenza through neuraminidase inhibition",
+      "question": "Oseltamivir can eradicate H1N1 influenza virus through:",
+      "options": {
+        "A": "Inhibition of viral RNA replication",
+        "B": "Inhibition of viral DNA replication",
+        "C": "Inhibition of viral uncoating",
+        "D": "Inhibition of the viral neuraminidase enzyme"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Oseltamivir does not directly inhibit viral RNA-dependent RNA polymerase; that is the mechanism of drugs such as favipiravir, not oseltamivir.",
+        "B": "Incorrect. Influenza is an RNA virus with no DNA replication step for a drug to inhibit.",
+        "C": "Incorrect. Inhibition of viral uncoating is the mechanism of the M2-channel blockers amantadine and rimantadine, not oseltamivir.",
+        "D": "Correct. Oseltamivir is a neuraminidase inhibitor. By blocking the viral neuraminidase enzyme, it prevents newly formed influenza virions (including H1N1) from being released from the surface of infected cells, halting the spread of infection to new cells."
+      },
+      "main_concept": "CON-FND-2EBF581321D607",
+      "concept_ids": ["CON-FND-2EBF581321D607"],
+      "contextual_concept_ids": ["CON-FND-6F6B6A97CE0F07"],
+      "subtopic": "Oseltamivir mechanism of action",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that oseltamivir eradicates influenza virus through neuraminidase inhibition.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Inhibition of the viral neuraminidase enzyme\"" }
+    },
+    {
+      "key": "quizzes-2022-q405",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q405",
+      "page": 194,
+      "title": "Interferon is not used for remission of CMV retinitis",
+      "question": "Interferons are protective glycoproteins that can be used effectively in management all of the following, EXCEPT:",
+      "options": {
+        "A": "Genital warts induced through refractory condylomata acuminata infection.",
+        "B": "Remission of CMV retinitis",
+        "C": "Combined with ribavirin to improve the rate of remission of Hepatitis C virus infection",
+        "D": "Chronic HBV infection"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (i.e. it IS a valid use). Interferon-alpha is used, including intralesionally, for refractory genital warts (condylomata acuminata) caused by human papillomavirus.",
+        "B": "Correct (i.e. NOT a valid use, the exception). Interferons are not the drug used for CMV retinitis remission; that role belongs to ganciclovir (and alternatives such as foscarnet or cidofovir), which act on CMV DNA polymerase, a mechanism interferons do not share.",
+        "C": "Incorrect (i.e. it IS a valid use). Interferon-alpha combined with ribavirin historically improved remission rates in hepatitis C virus infection.",
+        "D": "Incorrect (i.e. it IS a valid use). Interferon-alpha is an approved therapy for chronic hepatitis B virus infection."
+      },
+      "main_concept": "CON-FND-6807A797456DE2",
+      "concept_ids": ["CON-FND-6807A797456DE2"],
+      "contextual_concept_ids": ["CON-FND-3E2557E509C765"],
+      "subtopic": "Interferon clinical uses excluding CMV retinitis",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise CMV retinitis remission as not an interferon indication, unlike genital warts, HCV and chronic HBV.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Remission of CMV retinitis\"" }
+    }
+  ]
+}

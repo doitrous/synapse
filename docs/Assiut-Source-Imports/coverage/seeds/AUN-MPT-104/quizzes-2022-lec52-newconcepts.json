@@ -1,0 +1,175 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank questions (Lecture 52: Anticancer & Immunomodulator 2, Quiz 52 Q1-Q5, q437-q441 -- the FINAL quiz in this bank, closing the 441/441 quizzes-2022 cluster) riding on 5 newly-minted AUN-MPT-104 concepts (concept/AUN-MPT-104-concepts.md, article/AUN-MPT-104-articles.md ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-2), confirmed new by find-existing.mjs (cyclosporine, calcineurin: 0 hits across live state and every docs/*-Source-Imports root). No department slide deck exists past Lecture 8, so all 5 mints cite the quiz bank's own printed-answer text. All 5 questions are native-text, cleanly keyed, 4-option, no format issues, each testing a genuinely distinct cyclosporine fact (mechanism, a specific side effect, an excluded toxicity, its metabolising enzyme, and its clinical indication) rather than a repeat. Every printed key checks out against standard pharmacology teaching -- no held-printed-key-conflicts. This lands the last cluster of the AUN-MPT-104 quiz bank: all 441 quiz items are now authored or held, none remaining.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Anticancer & Immunomodulator 2",
+    "library_ids": ["ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-2"],
+    "module_subject": "AUN-MPT-104 > Pharmacology > Anticancer & Immunomodulator 2"
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q437",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q437",
+      "page": 210,
+      "title": "Cyclosporine inhibits calcineurin",
+      "question": "The mechanism of action of cyclosporine is:",
+      "options": {
+        "A": "Inhibition of WBC division.",
+        "B": "Inhibition of calcineurin.",
+        "C": "Blocking of IL receptors.",
+        "D": "Calcineurin activation."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cyclosporine does not act by directly inhibiting white blood cell division (that is closer to the mechanism of antimetabolite immunosuppressants such as azathioprine or methotrexate).",
+        "B": "Correct. Cyclosporine binds cyclophilin, and the resulting complex inhibits calcineurin, a calcium/calmodulin-dependent phosphatase. Since calcineurin normally dephosphorylates the transcription factor NFAT, allowing it to enter the nucleus and switch on interleukin-2 (IL-2) gene transcription, inhibiting calcineurin blocks IL-2 production and suppresses T-lymphocyte activation.",
+        "C": "Incorrect. Blocking interleukin receptors directly is the mechanism of drugs such as basiliximab (an IL-2 receptor antagonist), not cyclosporine, which acts upstream by blocking IL-2 production itself.",
+        "D": "Incorrect. Cyclosporine inhibits, rather than activates, calcineurin; activating calcineurin would promote, not suppress, T-cell activation."
+      },
+      "main_concept": "CON-FND-5B2B737D6DB265",
+      "concept_ids": ["CON-FND-5B2B737D6DB265"],
+      "contextual_concept_ids": [],
+      "subtopic": "Cyclosporine mechanism of action -- calcineurin inhibition",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that cyclosporine acts by inhibiting calcineurin, blocking IL-2 gene transcription.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Inhibition of calcineurin.\"" }
+    },
+    {
+      "key": "quizzes-2022-q438",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q438",
+      "page": 210,
+      "title": "Gum hyperplasia is a cyclosporine side effect",
+      "question": "Which side effect is related to cyclosporine?",
+      "options": {
+        "A": "Gum hyperplasia",
+        "B": "Hypotension",
+        "C": "Muscular paralysis",
+        "D": "Arthritis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Gingival, or gum, hyperplasia is a well-recognised side effect of cyclosporine. It is seen in a substantial proportion of patients on long-term therapy. It is managed with meticulous oral hygiene or, if severe, a dose change.",
+        "B": "Incorrect. Cyclosporine characteristically causes hypertension, not hypotension, as one of its cardiovascular side effects.",
+        "C": "Incorrect. Muscular paralysis is not a recognised cyclosporine side effect; cyclosporine's neurological side effects more typically include tremor.",
+        "D": "Incorrect. Arthritis is not a recognised cyclosporine side effect; cyclosporine is, if anything, used to treat certain autoimmune arthritic conditions rather than cause joint inflammation."
+      },
+      "main_concept": "CON-FND-20DB7ABACDC26F",
+      "concept_ids": ["CON-FND-20DB7ABACDC26F"],
+      "contextual_concept_ids": ["CON-FND-5B2B737D6DB265"],
+      "subtopic": "Cyclosporine's gum hyperplasia side effect",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify gum (gingival) hyperplasia as a cyclosporine side effect.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Gum hyperplasia\"" }
+    },
+    {
+      "key": "quizzes-2022-q439",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q439",
+      "page": 211,
+      "title": "Cyclosporine toxicity does not include hypokalemia",
+      "question": "Toxic effects of cyclosporine DON'T include:",
+      "options": {
+        "A": "Hyperuricemia",
+        "B": "Hypokalemia",
+        "C": "Nephrotoxicity",
+        "D": "Hypertension"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (i.e. cyclosporine DOES cause this). Cyclosporine can cause hyperuricemia, sometimes precipitating gout.",
+        "B": "Correct (i.e. cyclosporine does NOT typically cause this, the exception). Cyclosporine's renal toxicity characteristically causes hyperkalemia, from reduced potassium excretion due to impaired renal tubular function, not hypokalemia -- the reverse electrolyte disturbance from what the other toxicities in this list would suggest.",
+        "C": "Incorrect (i.e. cyclosporine DOES cause this). Nephrotoxicity is a major, dose-limiting toxic effect of cyclosporine, from direct renal vasoconstriction and tubular injury.",
+        "D": "Incorrect (i.e. cyclosporine DOES cause this). Hypertension is a well-recognised toxic effect of cyclosporine, related to its renal vasoconstrictive action."
+      },
+      "main_concept": "CON-FND-B18369C13A43D5",
+      "concept_ids": ["CON-FND-B18369C13A43D5"],
+      "contextual_concept_ids": ["CON-FND-20DB7ABACDC26F"],
+      "subtopic": "Cyclosporine toxicity profile excludes hypokalemia",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise hypokalemia as not a cyclosporine toxicity, unlike hyperuricemia, nephrotoxicity and hypertension.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Hypokalemia\"" }
+    },
+    {
+      "key": "quizzes-2022-q440",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q440",
+      "page": 211,
+      "title": "Cyclosporine is metabolized mainly by CYP3A4",
+      "question": "Cyclosporine is metabolized mainly by:",
+      "options": {
+        "A": "CYP2D6",
+        "B": "CYP3A4",
+        "C": "CYP2C9",
+        "D": "CYP2C19"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. CYP2D6 metabolises many drugs (e.g. codeine, several beta-blockers), but not cyclosporine as its main pathway.",
+        "B": "Correct. Cyclosporine is metabolised mainly by the cytochrome P450 3A4 (CYP3A4) enzyme, chiefly in the liver and intestinal wall. This makes cyclosporine highly susceptible to drug interactions with CYP3A4 inhibitors (which raise cyclosporine levels, risking toxicity) and CYP3A4 inducers (which lower cyclosporine levels, risking rejection), a clinically important prescribing consideration.",
+        "C": "Incorrect. CYP2C9 metabolises drugs such as warfarin and phenytoin, not cyclosporine's main pathway.",
+        "D": "Incorrect. CYP2C19 metabolises drugs such as clopidogrel and omeprazole, not cyclosporine's main pathway."
+      },
+      "main_concept": "CON-FND-F859D858AC6AF0",
+      "concept_ids": ["CON-FND-F859D858AC6AF0"],
+      "contextual_concept_ids": [],
+      "subtopic": "Cyclosporine's CYP3A4 metabolism",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that cyclosporine is mainly metabolized by CYP3A4.",
+      "field_notes": { "keySource": "printed \"The correct answer is: CYP3A4\"" }
+    },
+    {
+      "key": "quizzes-2022-q441",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q441",
+      "page": 211,
+      "title": "Cyclosporine is the drug of choice for preventing post-transplant rejection",
+      "question": "The drug of choice for prevention of post-transplant rejection is",
+      "options": {
+        "A": "Cyclosporine",
+        "B": "Glucocorticoid",
+        "C": "Alacizumab",
+        "D": "Anti-D immunoglobulins"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cyclosporine is a calcineurin inhibitor that blocks T-lymphocyte activation and IL-2 production. This mechanism, the same one tested earlier in this quiz, is what makes cyclosporine the drug of choice for preventing post-transplant organ rejection. It typically forms the backbone of a combination immunosuppressive regimen alongside a glucocorticoid and an antimetabolite.",
+        "B": "Incorrect. Glucocorticoids are used as adjuncts in transplant immunosuppression (and for treating acute rejection episodes), but are not the drug of choice specifically for rejection prevention the way cyclosporine is.",
+        "C": "Incorrect. Alacizumab is not a standard drug of choice for transplant rejection prevention in the department's teaching.",
+        "D": "Incorrect. Anti-D immunoglobulin is used to prevent Rh(D) alloimmunisation in Rh-negative mothers, an entirely different clinical use unrelated to solid-organ transplant rejection."
+      },
+      "main_concept": "CON-FND-36AFF41F44E15B",
+      "concept_ids": ["CON-FND-36AFF41F44E15B"],
+      "contextual_concept_ids": ["CON-FND-5B2B737D6DB265"],
+      "subtopic": "Cyclosporine as the drug of choice for transplant rejection prevention",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify cyclosporine as the drug of choice for preventing post-transplant rejection.",
+      "field_notes": { "keySource": "printed \"The correct answer is: Cyclosporine\"" }
+    }
+  ]
+}

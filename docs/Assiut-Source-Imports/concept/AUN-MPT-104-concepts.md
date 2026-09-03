@@ -24928,3 +24928,4219 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "adenoma benign glandular tumor" -- 0 hits. New concept, collapsing Q3/Q4 (literal duplicate, options reordered) onto one record.
+
+
+---
+
+# Item
+
+## id
+CON-FND-B587A4B064622E
+
+## label
+Acyclovir is the drug used to inhibit herpes viruses
+
+## canonical_key
+pharmacology.acyclovir.herpes-virus-inhibition
+
+## aliases
+Acyclovir mechanism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acyclovir is a guanosine nucleoside analogue selectively phosphorylated by the herpesvirus-encoded thymidine kinase, then converted by host kinases to acyclovir triphosphate, which inhibits viral DNA polymerase and terminates the growing viral DNA chain. This selective activation only in herpesvirus-infected cells makes acyclovir the prototypical drug to inhibit herpes simplex and varicella-zoster viruses, with a wide safety margin in uninfected cells.
+
+## explicit_objective
+Identify acyclovir as the drug used to inhibit herpesviruses, and state its selective, virus-dependent activation mechanism.
+
+## pitfalls
+Confusing acyclovir's herpesvirus-specific activation (via viral thymidine kinase) with a drug active against a different virus family, such as azidothymidine (HIV), oseltamivir (influenza) or amantadine (influenza).
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral – antihelmentics – antiprotozoal 2
+
+## subtopic
+Acyclovir mechanism and indication
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIVIRAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which ONE of the following drugs Is used to inhibit herpes viruses? ... The correct answer is: Acyclovir" (Quiz 48 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-68C76DBB7B9D0B
+
+## label
+Valacyclovir is the oral prodrug of acyclovir used for recurrent genital herpes
+
+## canonical_key
+pharmacology.valacyclovir.oral-genital-herpes-maintenance
+
+## aliases
+Valacyclovir indication
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Valacyclovir is the oral prodrug of acyclovir, rapidly converted to acyclovir after absorption with substantially greater oral bioavailability than acyclovir itself. It is the standard oral drug for episodic or suppressive treatment of recurrent genital herpes in an otherwise healthy patient, including one who is breastfeeding.
+
+## explicit_objective
+Identify valacyclovir as the oral prodrug of acyclovir used for recurrent genital herpes management.
+
+## pitfalls
+Reaching for an intravenous reserve drug (foscarnet), an HIV drug (ritonavir) or an anti-influenza drug (amantadine) instead of valacyclovir for routine oral herpes management in an otherwise healthy patient.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral – antihelmentics – antiprotozoal 2
+
+## subtopic
+Valacyclovir as oral therapy for recurrent genital herpes
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIVIRAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-B587A4B064622E
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...Previously, she responded to a drug used topically...Which drug to be used orally is most likely to be prescribed at this time? ... The correct answer is: Valacyclovir" (Quiz 48 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-3E2557E509C765
+
+## label
+Ganciclovir is the drug for CMV retinitis prophylaxis and herpetic infection suppression
+
+## canonical_key
+pharmacology.ganciclovir.cmv-retinitis-treatment
+
+## aliases
+Ganciclovir indication
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ganciclovir is an acyclovir analogue with added activity against cytomegalovirus (CMV). After phosphorylation, first by a CMV-encoded kinase and then by host kinases, it inhibits viral DNA polymerase in both herpesviruses and CMV, making it the drug of choice for suppressing herpetic infections and for CMV retinitis prophylaxis in immunocompromised patients.
+
+## explicit_objective
+Identify ganciclovir as the drug for CMV retinitis prophylaxis and herpetic infection suppression.
+
+## pitfalls
+Reaching for an HIV protease inhibitor (indinavir), an antifungal (fluconazole) or an antimycobacterial (rifabutin) instead of ganciclovir for CMV cover.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral – antihelmentics – antiprotozoal 2
+
+## subtopic
+Ganciclovir for CMV retinitis and herpes suppression
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIVIRAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-B587A4B064622E
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The drug most likely to suppress herpetic infections and provide prophylaxis against CMV retinitis in this patient is ... The correct answer is: Gancyclovir" (Quiz 48 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-E69563689BFCA4
+
+## label
+Vidarabine is not indicated for HCV eradication
+
+## canonical_key
+pharmacology.hcv-therapy.vidarabine-not-indicated
+
+## aliases
+HCV eradication drugs
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hepatitis C virus (HCV) eradication regimens use direct-acting antivirals such as sofosbuvir (an NS5B polymerase inhibitor), interferon-alpha and ribavirin. Vidarabine, an older nucleoside analogue historically used against herpesviruses and other DNA viruses, plays no role in HCV eradication, which targets the hepatitis C RNA virus through mechanisms vidarabine does not address.
+
+## explicit_objective
+Recognise vidarabine as not indicated for hepatitis C virus eradication, unlike sofosbuvir, interferon-alpha and ribavirin.
+
+## pitfalls
+Assuming any older antiviral nucleoside analogue (such as vidarabine) is effective against HCV, rather than recognising that modern HCV therapy uses a specific, different drug set.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral – antihelmentics – antiprotozoal 2
+
+## subtopic
+HCV eradication drugs versus vidarabine
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIVIRAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All the following agents can be used effectively in eradication of HCV EXCEPT: ... The correct answer is: Vidarabine" (Quiz 48 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-6F6B6A97CE0F07
+
+## label
+Lamivudine is not effective against influenza virus
+
+## canonical_key
+pharmacology.influenza-antivirals.amantadine-oseltamivir-vs-lamivudine
+
+## aliases
+Anti-influenza drugs
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Amantadine, rimantadine (M2 ion-channel blockers) and oseltamivir (a neuraminidase inhibitor) are effective for influenza virus eradication. Lamivudine is a nucleoside reverse transcriptase inhibitor used against HIV and hepatitis B virus; it has no activity against the influenza uncoating or neuraminidase steps that the anti-influenza drugs target, so it is not effective against influenza.
+
+## explicit_objective
+Recognise lamivudine as not indicated for influenza eradication, unlike amantadine, rimantadine and oseltamivir.
+
+## pitfalls
+Assuming any antiviral nucleoside analogue (such as lamivudine, an anti-HIV/HBV drug) is broadly active against influenza.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral – antihelmentics – antiprotozoal 2
+
+## subtopic
+Anti-influenza drugs versus lamivudine
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIVIRAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All the following agents can be used effectively in eradication of influenza virus EXCEPT: ... The correct answer is: Lamivudine" (Quiz 48 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-2EBF581321D607
+
+## label
+Oseltamivir eradicates influenza through neuraminidase inhibition
+
+## canonical_key
+pharmacology.oseltamivir.neuraminidase-inhibition
+
+## aliases
+Oseltamivir mechanism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Oseltamivir is a neuraminidase inhibitor. By blocking the viral neuraminidase enzyme, it prevents newly formed influenza virions, including H1N1, from being released from the surface of infected cells, halting the spread of infection to new cells.
+
+## explicit_objective
+State that oseltamivir eradicates influenza virus through neuraminidase inhibition.
+
+## pitfalls
+Confusing oseltamivir's neuraminidase-inhibition mechanism (blocking viral release) with the M2-channel-blocking mechanism of amantadine/rimantadine (blocking viral uncoating).
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral – antihelmentics – antiprotozoal 2
+
+## subtopic
+Oseltamivir mechanism of action
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIVIRAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-6F6B6A97CE0F07
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Oseltamivir can eradicate H1N1 influenza virus through: ... The correct answer is: Inhibition of the viral neuraminidase enzyme" (Quiz 48 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-6807A797456DE2
+
+## label
+Interferon is not used for CMV retinitis remission
+
+## canonical_key
+pharmacology.interferon.clinical-uses-excludes-cmv
+
+## aliases
+Interferon clinical uses
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Interferon-alpha is used for refractory genital warts (condylomata acuminata), for hepatitis C virus infection combined with ribavirin, and for chronic hepatitis B virus infection. It is not used for CMV retinitis remission, a role instead filled by ganciclovir (and alternatives such as foscarnet or cidofovir), which act on CMV DNA polymerase by a mechanism interferons do not share.
+
+## explicit_objective
+Recognise CMV retinitis remission as not an interferon indication, unlike genital warts, HCV and chronic HBV.
+
+## pitfalls
+Assuming interferon's broad antiviral reputation extends to CMV retinitis, when that specific indication belongs to ganciclovir instead.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral – antihelmentics – antiprotozoal 2
+
+## subtopic
+Interferon clinical uses excluding CMV retinitis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIVIRAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-3E2557E509C765
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Interferons are protective glycoproteins that can be used effectively in management all of the following, EXCEPT: ... The correct answer is: Remission of CMV retinitis" (Quiz 48 Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-9FCD284318A2A1
+
+## label
+Recurrent hematuria with atypical urine cytology and an ulcerated bladder mass indicates carcinoma
+
+## canonical_key
+neoplasia.carcinoma.hematuria-cystoscopy-recognition
+
+## aliases
+Bladder carcinoma clinical recognition
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An ulcerated, infiltrating bladder mass causing recurrent hematuria, with atypical (malignant-appearing) cells on urine cytology, is the classic clinical and cytological picture of carcinoma -- most commonly transitional cell carcinoma of the bladder in an older adult. The ulceration itself, a feature of unrestrained invasive growth destroying the overlying epithelium, points to malignancy rather than a benign process such as adenoma or papilloma.
+
+## explicit_objective
+Recognise a bladder carcinoma from recurrent hematuria, atypical urine cytology and an ulcerated cystoscopic mass.
+
+## pitfalls
+Mistaking a benign epithelial process (adenoma, papilloma) or a mesenchymal tumour (sarcoma) for the malignant epithelial pattern this vignette describes.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Malignant epithelial tumors classification and examples
+
+## subtopic
+Clinical recognition of carcinoma from hematuria and cytology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MALIGNANT-EPITHELIAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 62 years male patient has hematuria for many times in past week...Which of the following is best describe the lesion ... The correct answer is: Carcinoma" (Quiz 49 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-493ABE0143A7CD
+
+## label
+Adenocarcinoma is the malignant tumour of glandular epithelium
+
+## canonical_key
+neoplasia.adenocarcinoma.malignant-glandular-tumor
+
+## aliases
+Adenocarcinoma definition
+Malignant glandular tumour naming
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Adenocarcinoma is the malignant tumour of glandular epithelium -- the malignant counterpart of adenoma. It shows the invasive, destructive growth and cytological atypia of a malignant tumour while still forming, to varying degrees, gland-like or duct-like structures reflecting its glandular origin. When a malignant tumour arises from glandular cells, it is named adenocarcinoma as a general nomenclature rule.
+
+## explicit_objective
+Define adenocarcinoma as the malignant tumour of glandular epithelium, and state the general naming rule it exemplifies.
+
+## pitfalls
+Confusing adenocarcinoma (malignant, glandular) with adenoma (benign, glandular), a hamartoma (a malformation, not a true neoplasm), or with sarcoma (the malignant tumour naming for epithelial, not mesenchymal, origin is carcinoma, not sarcoma).
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Malignant epithelial tumors classification and examples
+
+## subtopic
+Adenocarcinoma as malignant glandular tumour
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MALIGNANT-EPITHELIAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Adenocarcinoma is a: ... The correct answer is: Malignant tumors of glands" (Quiz 49 Q2); "Malignant tumours are: ... The correct answer is: When arising from glandular cells are called adenocarcinoma" (Quiz 51 Q12).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-ED5F7732D5D514
+
+## label
+Grade I, stage I designations together mean well-differentiated and localized
+
+## canonical_key
+neoplasia.grading-staging.grade1-stage1-interpretation
+
+## aliases
+Tumour grade versus stage
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Histological grade (I of IV) reflects how closely tumour cells resemble their tissue of origin; grade I means well-differentiated, generally slower-growing tissue. Clinical stage (I) reflects the anatomical extent of spread; stage I means the tumour is localized, without regional or distant spread. Together, grade I and stage I describe a well-differentiated, localized neoplasm, two independent axes of tumour description rather than two measures of the same thing.
+
+## explicit_objective
+Interpret a grade I, stage I neoplasm as well-differentiated and localized, distinguishing the grade axis from the stage axis.
+
+## pitfalls
+Treating grade and stage as interchangeable, or assuming a low grade/stage means the tumour is not malignant at all rather than malignant-but-favourable on both axes.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Malignant epithelial tumors classification and examples
+
+## subtopic
+Interpreting tumour grade and stage together
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MALIGNANT-EPITHELIAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...diagnosed as grade I on a scale of I to IV. Clinically, some of the patients...found to have stage I disease...best interpretation... The correct answer is: Well-differentiated and localized" (Quiz 49 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-A8B048ADB67ED2
+
+## label
+Signet ring carcinoma is a subtype of glandular carcinoma
+
+## canonical_key
+neoplasia.signet-ring-carcinoma.glandular-subtype
+
+## aliases
+Signet ring carcinoma classification
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Signet ring carcinoma is a variant of glandular carcinoma (adenocarcinoma) in which tumour cells accumulate intracytoplasmic mucin that pushes the nucleus to the cell periphery, giving the characteristic signet-ring appearance under the microscope. It classically occurs in the stomach and is a subtype of adenocarcinoma, not of squamous, transitional or basal cell carcinoma.
+
+## explicit_objective
+Classify signet ring carcinoma as a subtype of glandular carcinoma (adenocarcinoma).
+
+## pitfalls
+Assigning signet ring carcinoma to a non-glandular carcinoma category (squamous, transitional, basal cell) instead of recognising its glandular, mucin-producing origin.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Malignant epithelial tumors classification and examples
+
+## subtopic
+Signet ring carcinoma as a glandular carcinoma subtype
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MALIGNANT-EPITHELIAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-493ABE0143A7CD
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Signet ring carcinoma is a type of: ... The correct answer is: Glandular carcinoma" (Quiz 49 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-EBC323671C0727
+
+## label
+Stroma separating individual cells distinguishes sarcoma from carcinoma
+
+## canonical_key
+neoplasia.sarcoma-vs-carcinoma.stroma-separates-cells
+
+## aliases
+Sarcoma versus carcinoma histology
+Sarcoma not masses and sheets
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sarcoma cells, arising from mesenchymal tissue, are typically dispersed as individual cells within an abundant connective-tissue stroma that separates them from one another. Carcinoma cells, arising from epithelium, instead grow cohesively as masses, sheets, nests or glands held together by cell junctions, with the stroma forming a supporting framework around groups of cells rather than separating individual tumour cells. This stromal relationship to individual cells is the key histological feature distinguishing sarcoma from carcinoma, so growth as 'masses and sheets of malignant cells' specifically describes carcinoma, not sarcoma.
+
+## explicit_objective
+State that stroma separating individual cells is the key histologic feature distinguishing sarcoma from carcinoma, and that growth as masses/sheets is a carcinoma, not sarcoma, feature.
+
+## pitfalls
+Assuming sarcoma and carcinoma share the same cohesive-sheet growth pattern, rather than recognising sarcoma's individually-dispersed, stroma-separated cell pattern as the distinguishing histological feature.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Malignant epithelial tumors classification and examples
+
+## subtopic
+Sarcoma versus carcinoma stromal relationship
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MALIGNANT-EPITHELIAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The most important histologic feature that differentiates sarcoma from carcinoma is ... The correct answer is: Stroma separates individual cells" (Quiz 49 Q8); "Sarcomas are NOT characterized by: ... The correct answer is: Made of masses and sheets of malignant cells" (Quiz 51 Q14).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-68374A6825E4A5
+
+## label
+An iron-oxygen-complexing chemotherapy drug causing DNA strand breaks and pulmonary toxicity acts in G2 phase
+
+## canonical_key
+pharmacology.doxorubicin.iron-oxygen-complex-g2-pulmonary-toxicity
+
+## aliases
+Bleomycin G2-phase action
+Cell-cycle-specific chemotherapy G2
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A chemotherapy drug that complexes with iron and oxygen to generate free radicals causing DNA strand breaks, and that carries dose-limiting pulmonary toxicity/fibrosis requiring close monitoring, matches bleomycin. Bleomycin is a cell-cycle-specific antitumour antibiotic classified as acting in the G2 phase of the cell cycle, where it blocks cells from progressing into mitosis.
+
+## explicit_objective
+Identify the G2-phase, iron-oxygen-complex, pulmonary-toxic chemotherapy drug (bleomycin) from its mechanism and toxicity.
+
+## pitfalls
+Misassigning this drug's cell-cycle phase to S phase (DNA synthesis, where the DNA-strand-break mechanism might seem to fit) instead of the G2 phase it is actually classified under.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anticancer & Immunomodulator 1
+
+## subtopic
+Iron-oxygen-complex chemotherapy drug acting in G2 phase
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A drug used in a chemotherapy regimen works by complexing with iron and oxygen to promote DNA strand breaks...pulmonary side effects. In what phase of the cell cycle does this drug work? ... The correct answer is: G2 phase" (Quiz 50 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-45B9EEC4348094
+
+## label
+Paclitaxel's cellular target is microtubules
+
+## canonical_key
+pharmacology.paclitaxel.microtubule-target
+
+## aliases
+Paclitaxel mechanism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Paclitaxel is a taxane that binds to and stabilises microtubules, preventing their normal depolymerisation. This locks the mitotic spindle in place and arrests dividing cells in mitosis, making microtubules paclitaxel's cellular target, distinct from the DNA, topoisomerase or tyrosine kinase targets of other anticancer drug classes.
+
+## explicit_objective
+Identify microtubules as the cellular target of paclitaxel.
+
+## pitfalls
+Confusing paclitaxel's microtubule-stabilising mechanism with a DNA-, topoisomerase- or tyrosine-kinase-targeting mechanism used by other anticancer drug classes.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anticancer & Immunomodulator 1
+
+## subtopic
+Paclitaxel's microtubule target
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The cellular target of paclitaxel is: ... The correct answer is: Microtubules" (Quiz 50 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-CC1B00E7404289
+
+## label
+Cisplatin's major toxicity is nephrotoxicity, not bone marrow suppression
+
+## canonical_key
+pharmacology.cisplatin.nephrotoxicity-not-marrow-suppression
+
+## aliases
+Cisplatin toxicity profile
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cisplatin is distinctive among common cytotoxic chemotherapy drugs for causing significant nephrotoxicity (renal tubular damage) as its major dose-limiting side effect. This contrasts with most other cytotoxic agents, such as methotrexate, doxorubicin and vinblastine, whose dose-limiting toxicity is instead bone marrow suppression. Adequate hydration is used clinically to reduce cisplatin's renal toxicity.
+
+## explicit_objective
+Identify cisplatin as the chemotherapy drug whose major toxicity is nephrotoxicity rather than bone marrow suppression.
+
+## pitfalls
+Assuming all cytotoxic chemotherapy drugs share bone marrow suppression as their dose-limiting toxicity, missing cisplatin's distinctive nephrotoxicity profile.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anticancer & Immunomodulator 1
+
+## subtopic
+Cisplatin nephrotoxicity versus marrow-suppressing chemotherapy drugs
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following medications has the major side effect of nephrotoxicity rather than bone marrow suppression? ... The correct answer is: Cisplatin" (Quiz 50 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-2EDA0E441849FB
+
+## label
+Methotrexate is a folic acid analog
+
+## canonical_key
+pharmacology.methotrexate.folic-acid-analog
+
+## aliases
+Methotrexate as folate analogue
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Methotrexate is a folic acid (folate) analogue. It competitively inhibits dihydrofolate reductase, blocking the regeneration of tetrahydrofolate needed for purine and thymidylate synthesis, and so halting DNA synthesis in rapidly dividing cells -- distinct from the pyrimidine-analogue, topoisomerase-inhibitor and alkylating mechanisms of other anticancer drug classes.
+
+## explicit_objective
+Identify methotrexate as the anticancer drug that is a folic acid analog.
+
+## pitfalls
+Confusing methotrexate (a folate analogue) with fluorouracil (a pyrimidine analogue), a different antimetabolite class targeting a different pathway.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anticancer & Immunomodulator 1
+
+## subtopic
+Methotrexate as a folic acid analog
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following anticancer drugs is a folic acid analog? ... The correct answer is: Methotrexate" (Quiz 50 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-187067AB4F5030
+
+## label
+Cyclophosphamide is a cell-cycle non-specific alkylating agent
+
+## canonical_key
+pharmacology.cyclophosphamide.cell-cycle-nonspecific
+
+## aliases
+Cyclophosphamide as alkylating agent
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cyclophosphamide is an alkylating agent. Alkylating agents are cell-cycle non-specific: they can damage DNA, by cross-linking DNA strands, in cells at any phase of the cell cycle, including non-dividing cells at rest. This is unlike phase-restricted antimetabolites (e.g. methotrexate, S phase) and mitotic-spindle poisons (e.g. vinblastine, vincristine, M phase), which only act on actively cycling cells.
+
+## explicit_objective
+Identify cyclophosphamide as a cell-cycle non-specific anticancer agent, and contrast it with cell-cycle-specific classes.
+
+## pitfalls
+Assuming all anticancer drugs are cell-cycle specific, missing the distinct cell-cycle non-specific behaviour of alkylating agents such as cyclophosphamide.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anticancer & Immunomodulator 1
+
+## subtopic
+Cyclophosphamide as a cell-cycle non-specific alkylating agent
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following anticancer drugs is a cell cycle non specific agent? ... The correct answer is: Cyclophosphamide" (Quiz 50 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-FADD789D0EBD83
+
+## label
+Hemangioma is the benign, congenital vascular tumour presenting as a stable skin nodule
+
+## canonical_key
+neoplasia.hemangioma.benign-vascular-tumor
+
+## aliases
+Vascular birthmark
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Haemangioma is a benign tumour of blood vessels, often congenital (a vascular birthmark), classically presenting as a small, reddish, raised skin nodule that is stable in size and colour over long-term follow-up. Its congenital onset and stability distinguish it from a malignant, acquired or progressively enlarging skin lesion such as melanoma, carcinoma or lymphoma.
+
+## explicit_objective
+Recognise a stable congenital reddish skin nodule as a haemangioma.
+
+## pitfalls
+Mistaking a stable, congenital vascular nodule for a malignant, acquired, progressively-changing lesion such as melanoma or carcinoma.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Mesenchymal tumors: benign and malignant and developmental tumors
+
+## subtopic
+Hemangioma as a benign congenital vascular tumour
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MESENCHYMAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...0.3 cm reddish, slightly raised nodule...present since birth and has not appreciably changed...Which of the following neoplasms is this nodule most likely to be? ... The correct answer is: Haemangioma" (Quiz 51 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-98883162BD988A
+
+## label
+Lipoma is the benign, soft, stable subcutaneous fatty tumour
+
+## canonical_key
+neoplasia.lipoma.benign-fatty-tumor
+
+## aliases
+Benign fatty tumour
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lipoma is the benign tumour of mature adipose tissue -- the most common soft-tissue tumour overall, typically presenting as a soft, rounded, painless, slow-growing (or stable) subcutaneous mass with normal overlying skin, found incidentally and remaining stable over time.
+
+## explicit_objective
+Recognise a soft, painless, stable subcutaneous mass as a lipoma.
+
+## pitfalls
+Mistaking a stable, soft, benign subcutaneous mass for a malignant mesenchymal tumour (rhabdomyosarcoma), a pigmented lesion (melanoma) or metastatic disease.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Mesenchymal tumors: benign and malignant and developmental tumors
+
+## subtopic
+Lipoma as a benign, soft, stable subcutaneous fatty tumour
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MESENCHYMAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...2 cm soft, rounded mass...no difficulty using the arm...no associated pain...does not change in size over the next year...Which of the following neoplasms is she most likely to have? ... The correct answer is: Lipoma" (Quiz 51 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-CB60542E06A0C6
+
+## label
+Teratoma is the tumour derived from all three germ cell layers
+
+## canonical_key
+neoplasia.teratoma.three-germ-layers
+
+## aliases
+Tumour of three germ layers
+Dermoid cyst
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Teratoma is the tumour derived from all three germ cell layers -- ectoderm, mesoderm and endoderm -- and can classically present as a cystic ovarian mass containing hair (ectoderm/skin appendages), squamous epithelium (ectoderm), glandular epithelium (endoderm) and cartilage or fibrous connective tissue (mesoderm). A mature teratoma, such as this dermoid cyst pattern, is benign; an immature teratoma, containing embryonic-appearing tissue, is malignant.
+
+## explicit_objective
+Identify teratoma as the tumour derived from all three germ cell layers, and recognise its classic mature-cystic (dermoid) ovarian presentation.
+
+## pitfalls
+Confusing teratoma (three germ layers) with a choristoma (normal tissue, ectopic site), a hamartoma (disorganised native tissue) or a single-lineage benign tumour (lymphoma, fibroma, myoma).
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Mesenchymal tumors: benign and malignant and developmental tumors
+
+## subtopic
+Teratoma as a tumour of all three germ layers
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MESENCHYMAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...cystic and filled with hair...squamous epithelium, tall columnar glandular epithelium, cartilage, and fibrous connective tissue...Which of the following neoplasms is she most likely to have? ... The correct answer is: Teratoma" (Quiz 51 Q3); "What is a benign tumor called that is derived from all 3 germ cell layer ... The correct answer is: Teratoma" (Quiz 51 Q16).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-3965F7DB0C47DC
+
+## label
+Leiomyoma is the benign, slow-growing uterine smooth-muscle tumour
+
+## canonical_key
+neoplasia.leiomyoma.benign-smooth-muscle-tumor
+
+## aliases
+Uterine fibroid
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Leiomyoma, also called a uterine fibroid, is the benign tumour of uterine smooth muscle. It is extremely common, typically asymptomatic, firm, solid and well-circumscribed, and grows very slowly over years, in contrast to leiomyosarcoma, its faster-growing malignant counterpart.
+
+## explicit_objective
+Recognise a firm, solid, circumscribed, slow-growing uterine nodule as a leiomyoma.
+
+## pitfalls
+Mistaking a slow, multi-year-course uterine nodule for its faster-growing malignant counterpart, leiomyosarcoma, or for an unrelated tumour type such as hemangioma or adenocarcinoma.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Mesenchymal tumors: benign and malignant and developmental tumors
+
+## subtopic
+Leiomyoma as a benign, slow-growing uterine smooth-muscle tumour
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MESENCHYMAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...firm nodule palpable on the dome of the uterus six years ago...slowly increased in size...solid and circumscribed...asymptomatic...Which of the following neoplasms is she most likely to have? ... The correct answer is: Leiomyoma" (Quiz 51 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-862BD1DA196ED8
+
+## label
+Chondroma is the benign tumour of cartilage
+
+## canonical_key
+neoplasia.chondroma.benign-cartilage-tumor
+
+## aliases
+Benign cartilage tumour
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chondroma is the benign tumour of cartilage, following the standard mesenchymal-tumour naming convention in which a benign tumour is named after its tissue of origin plus the suffix '-oma' -- here, cartilage.
+
+## explicit_objective
+Name chondroma as the benign tumour of cartilage.
+
+## pitfalls
+Mixing up the benign mesenchymal-tumour naming series -- lipoma (fat), chondroma (cartilage), osteoma (bone), leiomyoma (smooth muscle).
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Mesenchymal tumors: benign and malignant and developmental tumors
+
+## subtopic
+Chondroma as the benign cartilage tumour
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MESENCHYMAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Benign tumor of cartilage is called an: ... The correct answer is: Chondroma" (Quiz 51 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-2D1A30B8748B78
+
+## label
+Osteoma is the benign tumour of osseous tissue
+
+## canonical_key
+neoplasia.osteoma.benign-bone-tumor
+
+## aliases
+Benign bone tumour
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Osteoma is the benign tumour of osseous (bone) tissue, following the same mesenchymal-tumour naming convention as chondroma and lipoma -- tissue of origin plus '-oma', here bone.
+
+## explicit_objective
+Name osteoma as the benign tumour of osseous tissue.
+
+## pitfalls
+Mixing up the benign mesenchymal-tumour naming series -- lipoma (fat), chondroma (cartilage), osteoma (bone), leiomyoma (smooth muscle).
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Mesenchymal tumors: benign and malignant and developmental tumors
+
+## subtopic
+Osteoma as the benign osseous tumour
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MESENCHYMAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-862BD1DA196ED8
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Benign tumor of osseous tissue is called an: ... The correct answer is: Osteoma" (Quiz 51 Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-86066D9E19E79D
+
+## label
+Hamartoma is a mass of disorganised but mature native tissue
+
+## canonical_key
+neoplasia.hamartoma.definition
+
+## aliases
+Hamartoma definition
+Hamartoma versus choristoma
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A hamartoma is a mass of disorganised, but otherwise mature and histologically normal, cells and tissue elements indigenous (native) to the part of the body in which it occurs -- a developmental malformation of local tissue architecture rather than a true, clonal neoplasm. It is distinguished from a choristoma (normal tissue in an ectopic location), a germ-cell tumour (arising from totipotent cells) and a teratoma (differentiating towards more than one germ layer).
+
+## explicit_objective
+Define hamartoma as a mass of disorganised but mature, native tissue, distinguishing it from choristoma, germ-cell tumour and teratoma.
+
+## pitfalls
+Confusing hamartoma (native tissue, disorganised) with choristoma (normal tissue, wrong location), a germ-cell tumour (totipotent origin) or a teratoma (multiple germ layers).
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Mesenchymal tumors: benign and malignant and developmental tumors
+
+## subtopic
+Hamartoma definition versus choristoma, germ-cell tumour and teratoma
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MESENCHYMAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Hamartoma refers to: ... The correct answer is: Mass of disorganised but mature cells indigenous to the part" (Quiz 51 Q10).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-F23FC5494D8DCA
+
+## label
+Haematoma is a non-neoplastic blood collection, not a benign tumour
+
+## canonical_key
+neoplasia.haematoma.not-a-neoplasm
+
+## aliases
+Haematoma is not a neoplasm
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A haematoma is a localised collection of extravasated blood outside blood vessels, caused by bleeding into tissue -- a reactive, non-neoplastic process, not a true clonal neoplasm at all, despite the name's superficial resemblance to a tumour suffix. Genuine benign tumours among common exam options include papilloma, adenoma and fibroma.
+
+## explicit_objective
+Recognise haematoma as a non-neoplastic blood collection rather than a true benign tumour.
+
+## pitfalls
+Assuming any '-oma'-suffixed term (haematoma) denotes a true neoplasm, rather than recognising some are reactive, non-neoplastic processes.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Mesenchymal tumors: benign and malignant and developmental tumors
+
+## subtopic
+Haematoma as a non-neoplastic blood collection, not a benign tumour
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-MESENCHYMAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which is Not a benign tumour: ... The correct answer is: Haematoma" (Quiz 51 Q17).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-5B2B737D6DB265
+
+## label
+Cyclosporine inhibits calcineurin, blocking IL-2 gene transcription
+
+## canonical_key
+pharmacology.cyclosporine.calcineurin-inhibition-moa
+
+## aliases
+Cyclosporine mechanism of action
+Calcineurin inhibitor
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cyclosporine binds cyclophilin, and the resulting complex inhibits calcineurin, a calcium/calmodulin-dependent phosphatase that normally dephosphorylates the transcription factor NFAT, allowing it to enter the nucleus and switch on interleukin-2 (IL-2) gene transcription. By inhibiting calcineurin, cyclosporine blocks IL-2 production and suppresses T-lymphocyte activation, the mechanism underlying its use in preventing transplant rejection.
+
+## explicit_objective
+State that cyclosporine acts by inhibiting calcineurin, blocking IL-2 gene transcription and T-cell activation.
+
+## pitfalls
+Confusing cyclosporine's calcineurin-inhibition mechanism with direct white-cell-division inhibition (antimetabolites) or direct IL-2-receptor blockade (basiliximab), or reversing it as calcineurin activation.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anticancer & Immunomodulator 2
+
+## subtopic
+Cyclosporine mechanism of action -- calcineurin inhibition
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The mechanism of action of cyclosporine is: ... The correct answer is: Inhibition of calcineurin." (Quiz 52 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-20DB7ABACDC26F
+
+## label
+Gum hyperplasia is a cyclosporine side effect
+
+## canonical_key
+pharmacology.cyclosporine.gum-hyperplasia-side-effect
+
+## aliases
+Cyclosporine gingival hyperplasia
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Gingival (gum) hyperplasia is a well-recognised side effect of cyclosporine, seen in a substantial proportion of patients on long-term therapy, managed with meticulous oral hygiene or, if severe, a dose change -- distinct from cyclosporine's other, separately-tested toxicities (hypertension, nephrotoxicity, hyperuricemia).
+
+## explicit_objective
+Identify gum (gingival) hyperplasia as a cyclosporine side effect.
+
+## pitfalls
+Confusing cyclosporine's gum hyperplasia with an unrelated side effect (hypotension, muscular paralysis, arthritis) that cyclosporine does not cause.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anticancer & Immunomodulator 2
+
+## subtopic
+Cyclosporine's gum hyperplasia side effect
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5B2B737D6DB265
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which side effect is related to cyclosporine? ... The correct answer is: Gum hyperplasia" (Quiz 52 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-B18369C13A43D5
+
+## label
+Cyclosporine toxicity profile does not include hypokalemia
+
+## canonical_key
+pharmacology.cyclosporine.toxicity-profile-excludes-hypokalemia
+
+## aliases
+Cyclosporine electrolyte toxicity
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cyclosporine can cause hyperuricemia (sometimes precipitating gout), nephrotoxicity (from direct renal vasoconstriction and tubular injury) and hypertension (related to its renal vasoconstrictive action). Its renal toxicity characteristically causes hyperkalemia, from reduced potassium excretion due to impaired renal tubular function, not hypokalemia -- the reverse electrolyte disturbance from what might otherwise be assumed.
+
+## explicit_objective
+Recognise hypokalemia as not a cyclosporine toxicity, unlike hyperuricemia, nephrotoxicity and hypertension.
+
+## pitfalls
+Assuming cyclosporine's renal toxicity lowers, rather than raises, serum potassium.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anticancer & Immunomodulator 2
+
+## subtopic
+Cyclosporine toxicity profile excludes hypokalemia
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-20DB7ABACDC26F
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Toxic effects of cyclosporine DON'T include: ... The correct answer is: Hypokalemia" (Quiz 52 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-F859D858AC6AF0
+
+## label
+Cyclosporine is metabolized mainly by CYP3A4
+
+## canonical_key
+pharmacology.cyclosporine.cyp3a4-metabolism
+
+## aliases
+Cyclosporine CYP3A4 metabolism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cyclosporine is metabolised mainly by the cytochrome P450 3A4 (CYP3A4) enzyme, chiefly in the liver and intestinal wall. This makes cyclosporine highly susceptible to drug interactions with CYP3A4 inhibitors (which raise cyclosporine levels, risking toxicity) and CYP3A4 inducers (which lower cyclosporine levels, risking rejection), a clinically important prescribing consideration distinct from drugs metabolised by CYP2D6, CYP2C9 or CYP2C19.
+
+## explicit_objective
+State that cyclosporine is mainly metabolized by CYP3A4, and its drug-interaction implication.
+
+## pitfalls
+Assigning cyclosporine's metabolism to a different cytochrome P450 isoform (CYP2D6, CYP2C9, CYP2C19) associated with other drugs.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anticancer & Immunomodulator 2
+
+## subtopic
+Cyclosporine's CYP3A4 metabolism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Cyclosporine is metabolized mainly by: ... The correct answer is: CYP3A4" (Quiz 52 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+
+---
+
+# Item
+
+## id
+CON-FND-36AFF41F44E15B
+
+## label
+Cyclosporine is the drug of choice for preventing post-transplant rejection
+
+## canonical_key
+pharmacology.cyclosporine.transplant-rejection-drug-of-choice
+
+## aliases
+Cyclosporine transplant indication
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cyclosporine, a calcineurin inhibitor that blocks T-lymphocyte activation and IL-2 production, is the drug of choice for preventing post-transplant organ rejection. It typically forms the backbone of a combination immunosuppressive regimen alongside a glucocorticoid and an antimetabolite, rather than glucocorticoids or antibody-based agents being used alone as the primary rejection-prevention drug.
+
+## explicit_objective
+Identify cyclosporine as the drug of choice for preventing post-transplant rejection.
+
+## pitfalls
+Assuming glucocorticoids (an adjunct) or an antibody agent are the primary drug of choice for rejection prevention, rather than cyclosporine.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anticancer & Immunomodulator 2
+
+## subtopic
+Cyclosporine as the drug of choice for transplant rejection prevention
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTICANCER-IMMUNOMODULATOR-2
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5B2B737D6DB265
+
+## resource_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The drug of choice for prevention of post-transplant rejection is ... The correct answer is: Cyclosporine" (Quiz 52 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for this Lecture in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes

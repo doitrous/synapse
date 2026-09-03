@@ -49,7 +49,7 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 363 | 35 | 43 | 441 |
+| quizzes-2022 | 399 | 42 | 0 | 441 |
 
 ## Held
 - quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
@@ -86,6 +86,13 @@
 - quizzes-2022-q396 — Unrecoverable stem (Quiz 47 Q7, p191): the source PDF prints only a row of dashes ('-------------------------------') where the question text should be, with a printed answer of 'False'. No question text survives in the extracted layer to author against -- held as content-unrecoverable, not resolved by inference, since fabricating a stem to match an isolated 'False' key would not reflect the source.
 - quizzes-2022-q397 — True/False-formatted question (Quiz 47 Q8, p191: 'Adenomas are benign tumors of surface epithelium.' -- printed answer 'False', since adenomas arise from glandular, not surface, epithelium). Held as format-incompatible, same reasoning as q395. The underlying fact is already covered by this same lecture's authored Q3/Q4 (q392/q393, adenoma as the benign tumour of glandular origin) -- not a coverage gap.
 - quizzes-2022-q398 — True/False-formatted question (Quiz 47 Q9, p191: 'Duct papilloma is a benign tumor arise from the breast and Pleomorphic adenoma ia a tumor of salivary gland' -- printed answer 'True'). Held as format-incompatible, same reasoning as q395. This combines two distinct facts (duct papilloma/breast, pleomorphic adenoma/salivary gland) in one True/False stem; converting it to a real 4-5-option MCQ would require inventing three additional wrong site pairings the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q408 — True/False-formatted question (Quiz 49 Q3, p196: 'Broder's classification is used for grading squamous cell carcinoma according to degree of cytological atypia' -- printed answer 'False'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed. This is a genuinely new idea (Broder's grading actually reflects degree of differentiation, not cytological atypia specifically) not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong grading-basis claims the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q411 — True/False-formatted question (Quiz 49 Q6, p197: 'Signet ring carcinoma is characterized by malignant signet-ring cells lying in large amounts of extra cellular mucin') that prints NO 'The correct answer is' line at all -- the page's extracted text runs directly from this question's True/False options into Question 7 with no key text in between. Held as both format-incompatible (True/False, same reasoning as q408) and key-unrecoverable: no printed marker survives in the extracted layer to read a key from, and inferring one from pathology reasoning alone (mucin is intracellular in signet ring carcinoma, not extracellular, which would make the printed statement False) would be resolving a missing key by inference, against the standing rule that a conflict or absence is held, never inferred.
+- quizzes-2022-q414 — True/False-formatted question (Quiz 49 Q9, p197: 'Transitional cell carcinoma is NOT a locally malignant tumour.' -- printed answer 'True'). Held as format-incompatible, same reasoning as q408. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong malignancy-behaviour claims the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q424 — True/False-formatted question (Quiz 51 Q5, p204: 'All germ cell tumours are malignant' -- printed answer 'False'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed. This is a genuinely new idea (some germ cell tumours, e.g. a mature teratoma, are benign) not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong claims the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q427 — True/False-formatted question (Quiz 51 Q8, p205: 'Germ cells are cells which can give elements of ectoderm, mesoderm, and endoderm.' -- printed answer 'True'). Held as format-incompatible, same reasoning as q424. This underlying totipotency fact is related to, but not restated by, this lecture's authored teratoma rows (which describe the resulting tumour's tissue mixture, not germ cells' own totipotency); converting it to a real MCQ would require inventing three wrong claims the source never tested.
+- quizzes-2022-q428 — True/False-formatted question (Quiz 51 Q9, p205: 'Germ cells are NOT present in the post-natal life.' -- printed answer 'False'). Held as format-incompatible, same reasoning as q424. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real MCQ would require inventing three wrong claims the source never tested.
+- quizzes-2022-q430 — Literal duplicate question (Quiz 51 Q11, p206: identical stem 'Hamartoma refers to:', identical four options in the identical order, and the identical printed key 'Mass of disorganised but mature cells indigenous to the part' as Q10/q429). Held as a duplicate rather than authored as a second full record -- q429 already carries this exact fact and option set.
 - quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
@@ -134,46 +141,3 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q399
-- quizzes-2022-q400
-- quizzes-2022-q401
-- quizzes-2022-q402
-- quizzes-2022-q403
-- quizzes-2022-q404
-- quizzes-2022-q405
-- quizzes-2022-q406
-- quizzes-2022-q407
-- quizzes-2022-q408
-- quizzes-2022-q409
-- quizzes-2022-q410
-- quizzes-2022-q411
-- quizzes-2022-q412
-- quizzes-2022-q413
-- quizzes-2022-q414
-- quizzes-2022-q415
-- quizzes-2022-q416
-- quizzes-2022-q417
-- quizzes-2022-q418
-- quizzes-2022-q419
-- quizzes-2022-q420
-- quizzes-2022-q421
-- quizzes-2022-q422
-- quizzes-2022-q423
-- quizzes-2022-q424
-- quizzes-2022-q425
-- quizzes-2022-q426
-- quizzes-2022-q427
-- quizzes-2022-q428
-- quizzes-2022-q429
-- quizzes-2022-q430
-- quizzes-2022-q431
-- quizzes-2022-q432
-- quizzes-2022-q433
-- quizzes-2022-q434
-- quizzes-2022-q435
-- quizzes-2022-q436
-- quizzes-2022-q437
-- quizzes-2022-q438
-- quizzes-2022-q439
-- quizzes-2022-q440
-- quizzes-2022-q441
