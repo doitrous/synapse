@@ -132,6 +132,10 @@ export function initialPlanCatalog(): PlanCatalog {
         ),
         features: structuredClone(MARISTANA_FEATURES),
         prices: { month: 400, term: 1000 },
+        promo: {
+          month: { enabled: true, percentOff: 25 },
+          term: { enabled: true, percentOff: 30 },
+        },
         featured: true,
         badge: bi('Complete membership', 'العضوية الكاملة'),
         cta: bi('Start 3 days free', 'ابدأ ٣ أيام مجانًا'),
