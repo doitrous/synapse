@@ -689,3 +689,112 @@ extended `cbfquiz-pending-103bms` seed).
   triaged or authored -- ready for the next lane to read straight from
   cache, no further OCR budget needed for that range. pp.211-259 (49
   pages) remain un-OCR'd.
+
+## S3 lane 5 addendum -- `All quizzes CBF .pdf`, authored pp.150-210 (from cache)
+
+Lane 5 (branch `lane/aun-cbf103-l5`) picks up the window lane 4 left already
+OCR'd: dispatch scope **pp.150-210**. No OCR budget needed -- `pagetext.mjs
+status` confirmed the whole range cached (`ocr=yes`, 67-216 words/page, one
+low outlier p150-relative p7 read straight from cache). pp.211-259 remain
+un-OCR'd, out of scope. Same Moodle attempt-review export format as lanes
+2-4 throughout: "The correct answer is: ..." printed directly as plain OCR
+text, no visual-marker reading needed. Two capture variants recur (the
+"Home > My courses" browser-chrome and the phone-screenshot "Not Secure --
+aunonline.aun.edu.eg" / "Scanned with CamScanner" footer), both printing the
+same key line.
+
+**Quiz blocks found in pp.150-210:**
+
+| Block | Pages | Raw Qs | Topic |
+|---|---|--:|---|
+| Quiz39 | 150-153 | 4 | Ketogenesis & ketolysis |
+| Quiz40 | 154-159 | 5 | Fatty acid synthesis (lipogenesis) |
+| Quiz45&46 | 160-164 | 5 | Autonomic nervous system |
+| Quiz43&44 | 165-173 | 8 | Biomolecules derived from amino acids I, II |
+| Quiz47 | 174-179 | 5 | Biomolecules derived from amino acids III; CK-MB |
+| Quiz50 | 180-188 | 8 | Integration/regulation of energy metabolism |
+| Quiz51 | 189-195 | 6 | Purine & pyrimidine metabolism |
+| Quiz52 | 196-199 | 3 | DNA structure and organization |
+| Quiz53 | 200-208 | 8 | DNA replication |
+| Quiz54 | 209-210 | 1 (in window) | RNA structure/transcription (Q1 only; Q2+ past p210) |
+
+**Keys: all 53 raw items read this pass carry a printed key (100%)** via
+"The correct answer is: ..." -- no key conflicts anywhere in pp.150-210,
+matching lanes 2-4's experience with this source.
+
+**Authored this pass: 52. Held: 1** (no key conflicts, no source defect):
+- Quiz50 Q3 (p183) -- HELD, near-verbatim duplicate of Quiz39 Q4 (both:
+  "Absence of which causes inability of the liver to use ketone bodies as an
+  energy source? -> Thiophorase", same Moodle pool item, same printed key).
+  Quiz39 Q4 kept, Quiz50 Q3 held per the established repeated-pool-item rule.
+
+**Item count reconciliation:** 53 raw items read (4+5+5+8+5+8+6+3+8+1) = 52
+authored + 1 held, both fully accounted. Quiz54 stops at Q1 because Q2
+onward continues past p210 (un-OCR'd), queued for the next lane.
+
+## Concept search notes (lane 5, `find-existing.mjs` + per-item Python parse of every candidate source concept file across docs/*-Source-Imports + docs/import-ready)
+
+Eight ideas had no existing concept anywhere in the corpus and were minted
+(`concept/AUN-CBF-103-cbf2tail-concepts.md`, backed by
+`article/AUN-CBF-103-cbf2tail-articles.md`): (1) fatty-acid-synthase / de
+novo lipogenesis (cytosol, two-carbon growth, NADPH from the pentose
+phosphate pathway) `CON-FND-09CF1802363F0D`; (2) autonomic single-vs-dual
+organ supply `CON-NEU-F612BCFCBE54C7`; (3) choline derivatives (ACh,
+phospholipids; not prostaglandins) `CON-FND-004F18D507CB45`; (4)
+antimetabolite chemotherapy (methotrexate/DHFR + nucleotide analogues)
+`CON-FND-8850A66300EBBE`; (5) pyrimidine synthesis & orotic aciduria
+`CON-FND-A09ADB03E77557`; (6) mitochondrial DNA / maternal inheritance
+`CON-FND-FD5287EA2BD39B`; (7) DNA-replication initiation (unwinding, RNA
+primer necessity, pol delta) `CON-FND-4BB9601CAC6042`; (8) RNA ribose
+2'-OH / alkaline lability `CON-FND-3F1E41E8CB067D`.
+
+The remaining questions reuse 21 existing pending concepts, overlaid `+aun`
+only (never re-minted):
+- **Kasr 103-BMS** (`cbf2tail-pending-103bms`): ketone bodies
+  `CON-END-2E748A37DA660A` (Quiz39 Q1-Q4, Quiz50 Q1/Q5), feed-starve
+  `CON-FND-85583A59349A47` (Quiz50 Q4/Q8), gluconeogenesis enzymes
+  `CON-FND-C2C88203E4A918` (Quiz50 Q2) and substrates
+  `CON-FND-089E2C3E01031C` (Quiz50 Q6), tyrosine/melanin
+  `CON-FND-FA4D15805B9D02` (Quiz43&44 Q1-Q2), alkaptonuria
+  `CON-FND-49155E4E08617B` (Q3-Q4), histidine/histamine
+  `CON-FND-82BFCE60217493` (Q5), SAM transmethylation
+  `CON-FND-3622E11F05032C` (Q6), tryptophan/serotonin
+  `CON-NEU-6C4A6BDA725F0E` (Q7), homocystinuria `CON-FND-E8A570D41E7B8F`
+  (Q8), glycine functions `CON-FND-38F3A09255526F` (Quiz47 Q1-Q3), gout
+  `CON-REN-D940C9B3140A40` (Quiz51 Q1/Q4), purine salvage
+  `CON-FND-DB8B4EFEB287DA` (Quiz51 Q3). Plus acetyl-CoA carboxylase
+  `CON-FND-2F3A652B8E3104` (Quiz40 Q2/Q5) and beta-oxidation
+  `CON-FND-84BDACCA71AF45` (Quiz50 Q7), both already aun-overlaid by lanes
+  2-4 -- reused with no new overlay row.
+- **Kasr 102-INT** (`cbf2tail-pending-102int`): CK-MB isoenzyme
+  `CON-FND-DD3EE5EC8C07D1` (Quiz47 Q5, already overlaid by
+  cbfquiz2-pending-102int), cholinergic/adrenergic fibres
+  `CON-NEU-1DB903AAE3D02A` (Quiz45&46 Q2/Q5, already overlaid by
+  cbftail-pending-102intmcq), parasympathetic thoracic viscera
+  `CON-NEU-C3D7B209FB3260` (Quiz45&46 Q4, new overlay row here).
+- **Alexandria AU-MED-102 molecular** (`cbf2tail-pending-aumolecular`):
+  Chargaff's rule `CON-FND-31C41EFEF31740` (Quiz52 Q3), DNA
+  ligase/Okazaki `CON-FND-252B3C77D181DA` (Quiz53 Q2/Q3/Q5), topoisomerase
+  supercoil relief `CON-FND-FFEE58EC9C0784` (Quiz53 Q6).
+
+## Gates (lane 5)
+
+`validate-content-batch.mjs` + `gate.mjs batch`, per file with the relevant
+concept/article/resource `--with` chain: **0 errors on all four batches**
+(new 16, pending-103bms 27, pending-102int 4, pending-aumolecular 5). The
+only errors before adding the resource-evidence file are the known
+`resource_ids src_f7e45bae9ce161e08d46 is not a resource` noise, cleared by
+passing `evidence/AUN-CBF-103-allquizzes-resources.md` to `--with`.
+`gate.mjs simulate` (full 26-file apply-order chain: resource evidence, 8
+source article files, 8 source concept files, this lane's new article +
+concept files, 3 overlay concept files, 4 question batches):
+**batches=26 created=402 updated=49 rejected=0 skipped=0 errors=0**. Every
+one of the 52 seed rows carries a non-empty `library_ids`.
+
+## Needs Omar / open items (lane 5)
+
+- Quiz50 Q3 (p183) -- held near-duplicate of Quiz39 Q4 (identical
+  thiophorase item from the Moodle pool); no defect.
+- pp.211-259 of `All quizzes CBF .pdf` (49 pages) remain un-OCR'd, including
+  Quiz54 Q2 onward (p210 boundary) -- queued for the next lane; that lane
+  should OCR pp.211-259 then author from Quiz54 Q2.

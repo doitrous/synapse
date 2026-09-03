@@ -1,0 +1,232 @@
+{
+  "lane": "AUN-CBF-103",
+  "cluster": "cbf2tail-pending-aumolecular",
+  "header": "AUN-CBF-103 -- lane 5, pp.150-210. 5 rows reuse pending Alexandria AU-MED-102 molecular-biology concepts: Chargaff's rule (CON-FND-31C41EFEF31740), DNA-ligase/Okazaki (CON-FND-252B3C77D181DA), topoisomerase supercoil relief (CON-FND-FFEE58EC9C0784). All three overlaid in AUN-CBF-103-cbf2tail-pending-aumolecular-concept.md; library_ids point at ART-FND-DNA-REPLICATION-REPAIR-PCR.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "aun"
+    ],
+    "years": [
+      "AUN_Y1"
+    ],
+    "module": "AUN-CBF-103",
+    "exam_weight_by_year": {
+      "AUN_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_f7e45bae9ce161e08d46"
+    ],
+    "source_citation": "All quizzes CBF .pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "media_recommendations": "",
+    "contextual_concept_ids": []
+  },
+  "questions": [
+    {
+      "key": "q01",
+      "page": 199,
+      "title": "Chargaff's rule fixes the guanine content from thymine",
+      "question": "In a DNA molecule the thymine concentration is 30%. The guanine concentration will be:",
+      "options": {
+        "A": "30%",
+        "B": "10%",
+        "C": "40%",
+        "D": "20%"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. 30% would equal adenine (A=T), not guanine.",
+        "B": "Incorrect. 10% does not satisfy the base-pairing arithmetic for this composition.",
+        "C": "Incorrect. 40% overcounts; it would leave no room for cytosine to equal guanine.",
+        "D": "Correct. By Chargaff's rule in double-stranded DNA, A=T and G=C. If thymine is 30%, then adenine is also 30%, so A+T = 60% and the remaining 40% is shared equally by G and C. Therefore guanine = 20% (and cytosine = 20%)."
+      },
+      "main_concept": "CON-FND-31C41EFEF31740",
+      "concept_ids": [
+        "CON-FND-31C41EFEF31740"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA composition",
+      "difficulty": "Moderate",
+      "question_type": "Applied",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Apply Chargaff's rule to compute base percentages.",
+      "library_ids": [
+        "ART-FND-DNA-REPLICATION-REPAIR-PCR"
+      ],
+      "module_subject": "AUN-CBF-103 > Biochemistry > Molecular Biology",
+      "subject": "fnd",
+      "field_notes": {
+        "keySource": "printed \"The correct answer is: 20%\", p199"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "q02",
+      "page": 202,
+      "title": "DNA ligase connects the ends of two DNA chains",
+      "question": "The enzyme DNA ligase:",
+      "options": {
+        "A": "Unwinds the double helix",
+        "B": "Synthesises RNA primers",
+        "C": "Introduces superhelical twists",
+        "D": "Connects the ends of two DNA chains"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Unwinding the helix is the job of helicase, not ligase.",
+        "B": "Incorrect. RNA primers are made by primase, not ligase.",
+        "C": "Incorrect. Introducing/relieving superhelical twists is the job of topoisomerases (gyrase), not ligase.",
+        "D": "Correct. DNA ligase seals the nick between adjacent DNA fragments by forming the phosphodiester bond that joins their ends. On the lagging strand it connects successive Okazaki fragments into a continuous strand. Joining DNA chain ends is its defining function."
+      },
+      "main_concept": "CON-FND-252B3C77D181DA",
+      "concept_ids": [
+        "CON-FND-252B3C77D181DA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that DNA ligase joins the ends of two DNA chains.",
+      "library_ids": [
+        "ART-FND-DNA-REPLICATION-REPAIR-PCR"
+      ],
+      "module_subject": "AUN-CBF-103 > Biochemistry > Molecular Biology",
+      "subject": "fnd",
+      "field_notes": {
+        "keySource": "printed \"The correct answer is: Connects the end of two DNA chains\", p202"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "q03",
+      "page": 203,
+      "title": "Okazaki fragments are formed during DNA synthesis",
+      "question": "The Okazaki fragment is related to:",
+      "options": {
+        "A": "Protein synthesis",
+        "B": "tRNA formation",
+        "C": "mRNA formation",
+        "D": "DNA synthesis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Protein synthesis (translation) does not produce Okazaki fragments.",
+        "B": "Incorrect. tRNA formation is a transcription/processing event, unrelated to Okazaki fragments.",
+        "C": "Incorrect. mRNA formation is transcription; Okazaki fragments belong to replication.",
+        "D": "Correct. Okazaki fragments are the short stretches of DNA made discontinuously on the lagging strand during DNA synthesis (replication). Because the lagging-strand template runs 3'-to-5' toward the fork, it is copied in pieces that are later joined by DNA ligase. They are therefore a feature of DNA synthesis."
+      },
+      "main_concept": "CON-FND-252B3C77D181DA",
+      "concept_ids": [
+        "CON-FND-252B3C77D181DA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Link Okazaki fragments to lagging-strand DNA synthesis.",
+      "library_ids": [
+        "ART-FND-DNA-REPLICATION-REPAIR-PCR"
+      ],
+      "module_subject": "AUN-CBF-103 > Biochemistry > Molecular Biology",
+      "subject": "fnd",
+      "field_notes": {
+        "keySource": "printed \"The correct answer is: DNA synthesis\", p203"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "q04",
+      "page": 205,
+      "title": "One strand is synthesized continuously, the other discontinuously",
+      "question": "After formation of the replication fork:",
+      "options": {
+        "A": "Both new strands are synthesized discontinuously",
+        "B": "RNA primer is required only for the synthesis of one new strand",
+        "C": "Both new strands are synthesized continuously",
+        "D": "One strand is synthesized continuously and the other discontinuously"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Only the lagging strand is discontinuous; the leading strand is continuous.",
+        "B": "Incorrect. Priming is needed on both strands (the leading strand needs at least an initial primer, and the lagging strand needs one per Okazaki fragment).",
+        "C": "Incorrect. Both strands are not continuous; the lagging strand is made in fragments.",
+        "D": "Correct. Because DNA polymerase synthesises only 5'-to-3', the strand matching the fork direction (leading strand) is made continuously, while the other (lagging strand) is made discontinuously as Okazaki fragments that are later joined by ligase. This semidiscontinuous pattern follows directly from the antiparallel template and polymerase directionality."
+      },
+      "main_concept": "CON-FND-252B3C77D181DA",
+      "concept_ids": [
+        "CON-FND-252B3C77D181DA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Describe leading (continuous) versus lagging (discontinuous) strand synthesis.",
+      "library_ids": [
+        "ART-FND-DNA-REPLICATION-REPAIR-PCR"
+      ],
+      "module_subject": "AUN-CBF-103 > Biochemistry > Molecular Biology",
+      "subject": "fnd",
+      "field_notes": {
+        "keySource": "printed \"The correct answer is: One strand is synthesized continuously and the other discontinuously\", p205"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "q05",
+      "page": 206,
+      "title": "DNA topoisomerase I relaxes positively supercoiled DNA",
+      "question": "DNA topoisomerase I catalyses:",
+      "options": {
+        "A": "Relaxation of negatively supercoiled DNA",
+        "B": "Relaxation of positively supercoiled DNA",
+        "C": "Conversion of negatively supercoiled DNA into positively supercoiled DNA",
+        "D": "Conversion of the double helix into supercoiled DNA"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Relaxing negative supercoils is not the reaction the item credits to topoisomerase I here; the fork generates positive supercoils that must be relieved.",
+        "B": "Correct. As helicase unwinds the duplex it drives positive supercoiling ahead of the replication fork; topoisomerase relieves this by transiently nicking and resealing the DNA, relaxing the positive supercoils so unwinding can continue. This supercoil relief is the enzyme's role at the fork. Preventing torsional strain lets replication proceed.",
+        "C": "Incorrect. Topoisomerase relaxes supercoiling; it does not convert negative supercoils into positive ones.",
+        "D": "Incorrect. Topoisomerase relieves supercoiling rather than creating supercoiled DNA from a relaxed helix."
+      },
+      "main_concept": "CON-FND-FFEE58EC9C0784",
+      "concept_ids": [
+        "CON-FND-FFEE58EC9C0784"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "DNA replication",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that topoisomerase relieves the positive supercoiling ahead of the fork.",
+      "library_ids": [
+        "ART-FND-DNA-REPLICATION-REPAIR-PCR"
+      ],
+      "module_subject": "AUN-CBF-103 > Biochemistry > Molecular Biology",
+      "subject": "fnd",
+      "field_notes": {
+        "keySource": "printed \"The correct answer is: Relaxation of positively supercoiled DNA\", p206"
+      },
+      "author_notes": ""
+    }
+  ]
+}
