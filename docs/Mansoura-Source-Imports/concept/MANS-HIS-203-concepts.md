@@ -11137,3 +11137,548 @@ finalPublisher: Not published — it has not passed the evidence gate.
 
 ---
 
+# Item
+
+## label
+Plasma protein electrophoresis separates the albumin and alpha-1, alpha-2, beta and gamma globulin fractions by their differential migration under an electric field
+
+## id
+CON-HEM-B23B13924E08CA
+
+## canonical_key
+teaching.plasma-protein.electrophoresis-separation
+
+## aliases
+Plasma protein fractions
+Serum protein electrophoresis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Plasma protein electrophoresis is the laboratory method used to separate and identify the plasma protein fractions. Under an electric field, the proteins migrate through a supporting medium at rates that depend on their net charge, size and shape, and separate into bands corresponding to albumin and the alpha-1, alpha-2, beta and gamma globulin fractions. This is how a shift in one fraction — for example a monoclonal spike in the gamma region, or a change in the albumin-globulin ratio — is identified and quantified in clinical practice.
+
+## explicit_objective
+State that electrophoresis is the method used to separate plasma proteins into their albumin/alpha/beta/gamma fractions, and that the technique's output (a fraction-by-fraction pattern) is what clinical interpretation of plasma protein disorders is built on.
+
+## pitfalls
+Treating electrophoresis as a way to measure total plasma protein concentration rather than to separate it into named fractions — the total is a separate, simpler measurement (e.g. biuret method); electrophoresis's distinguishing feature is the fractionation itself.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Plasma proteins
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p108-111 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The source and separation of plasma proteins can be determined by: [answer: Electrophoresis]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the fact is standard textbook material.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: `mint-concept-id.mjs` and `find-existing.mjs "electrophoresis plasma"` returned no rival record — safe to create.
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Fibrinogen, not albumin, is the plasma protein mainly responsible for plasma's viscosity, distinct from the red cell mass's role in whole-blood viscosity
+
+## id
+CON-HEM-8B9322B58C232D
+
+## canonical_key
+teaching.fibrinogen.plasma-viscosity
+
+## aliases
+Plasma viscosity
+Fibrinogen and blood viscosity
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Of the plasma proteins, fibrinogen contributes the most to plasma's own viscosity, despite being present at a far lower concentration than albumin. Its large, elongated, asymmetric molecule disproportionately raises resistance to flow compared with albumin's smaller, compact, globular shape, so a rise in fibrinogen (for example as an acute-phase reactant in inflammation) raises plasma viscosity out of proportion to its concentration. This is a separate fact from whole-blood viscosity, whose major determinant is the red cell mass (haematocrit) rather than any single plasma protein.
+
+## explicit_objective
+State that fibrinogen, not albumin, is the plasma protein mainly responsible for plasma's viscosity, and distinguish this from the red cell mass's role as the major determinant of whole-blood viscosity.
+
+## pitfalls
+Confusing this fact with the already-tested "erythrocytes account for the major part of blood's viscosity" — that fact is about whole blood (dominated by the suspended red cells); this one is specifically about the viscosity of the plasma phase alone, which fibrinogen dominates despite albumin's much higher concentration.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Plasma proteins
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p108-111 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The type of plasma protein mainly responsible for plasma viscosity is: [answer: Fibrinogen]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the fact is standard textbook material.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass — the already-live/pending "erythrocytes are the major part of blood viscosity" fact is a same-theme neighbour deliberately kept separate (whole-blood vs plasma-phase viscosity; see pitfalls).
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: `mint-concept-id.mjs` and `find-existing.mjs "blood viscosity fibrinogen"` / "fibrinogen viscosity" returned no rival record — safe to create.
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+The earliest and most important clinical sign of hypoproteinemia is oedema, from the resulting fall in plasma colloid osmotic pressure
+
+## id
+CON-HEM-FD9869F6DAA9DC
+
+## canonical_key
+teaching.hypoproteinemia.edema-first-sign
+
+## aliases
+Hypoproteinemia
+Nutritional oedema
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+When total plasma protein — chiefly albumin, the main determinant of plasma colloid osmotic pressure — falls, the reduced oncotic pull can no longer hold fluid inside the capillaries against hydrostatic pressure, and fluid shifts into the interstitial space. Facial and dependent oedema is therefore the earliest and most clinically important sign of hypoproteinemia, seen for example in nephrotic syndrome, chronic liver disease and severe protein malnutrition.
+
+## explicit_objective
+State that oedema, from the fall in plasma colloid osmotic pressure, is the earliest and most important clinical sign of hypoproteinemia.
+
+## pitfalls
+Treating hypoproteinemia as a purely laboratory finding rather than one with an immediate clinical sign — the oncotic-pressure mechanism links a low plasma protein number directly to a bedside finding (oedema), which is exactly what this fact tests.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Plasma proteins
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p108-111 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+1st and most important sign of hypoproteinemia is: [answer: Swelling of face and edema]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the fact is standard textbook material.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass — the live CON-HEM-B25D05070CEF7D (albumin as main determinant of plasma colloid osmotic pressure) is the mechanism this sign follows from; the typed edge is not authored here.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: `mint-concept-id.mjs` and `find-existing.mjs "hypoproteinemia"` / "edema hypoalbuminemia" returned no rival record for this specific sign-order fact — safe to create.
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---

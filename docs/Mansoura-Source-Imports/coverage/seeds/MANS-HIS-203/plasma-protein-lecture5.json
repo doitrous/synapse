@@ -1,0 +1,356 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "plasma-protein-lecture5",
+  "header": "MANS-HIS-203 · Physiology — plasma protein fractions, viscosity and hypoproteinemia, authored from the His Continuous Berlin Book 2026's own 'Lecture 5: Plasma protein level, structure & classification' block (p.108-111, printed footer p.99-102), printed keys. Three questions reuse existing live Kasr/AU concepts (albumin/oncotic pressure, gamma-globulin defense function, liver synthesis of albumin/fibrinogen/prothrombin/half the globulins); three new mints (electrophoresis as the separation method, fibrinogen as the plasma-viscosity determinant distinct from albumin/RBC mass, oedema as hypoproteinemia's earliest sign). Raw block is Q158-198 (41 items); most are near-duplicate restatements of the same handful of facts (average concentration ~7g%, albumin dominance, osmotic-pressure phrasing repeated 6+ times) or duplicates of facts this lane already authored elsewhere (intrinsic factor, sickle cell, albumin synthesis site, transferrin/transcobalamin, alpha-1-antitrypsin/emphysema, acute-phase proteins) — held, not re-authored.",
+  "defaults": {
+    "subject": "haem",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "exam_weight_by_year": { "MANS_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q161",
+      "page": 108,
+      "title": "The dominant plasma protein",
+      "question": "The plasma protein with the highest concentration and the lowest molecular weight is:",
+      "options": {
+        "A": "Fibrinogen",
+        "B": "Albumin",
+        "C": "Gamma globulin",
+        "D": "Alpha-1 antitrypsin",
+        "E": "Transferrin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Fibrinogen is present at a far lower plasma concentration than albumin, even though its contribution to plasma viscosity is disproportionate to that low concentration.",
+        "B": "Correct. Albumin is both the most concentrated plasma protein and the one with the lowest molecular weight of the major fractions. Its high concentration is exactly why it is the main determinant of plasma colloid osmotic pressure, holding fluid inside the capillaries against the outward pull of hydrostatic pressure.",
+        "C": "Incorrect. Gamma globulins are a minority fraction by concentration compared with albumin, and their molecules (immunoglobulins) are considerably larger than albumin, not smaller.",
+        "D": "Incorrect. Alpha-1 antitrypsin is a minor plasma protein fraction; its clinical relevance (a deficiency causing emphysema) has nothing to do with plasma protein concentration or molecular weight ranking.",
+        "E": "Incorrect. Transferrin is present at a much lower concentration than albumin and is named for its iron-carrying role, not for being the dominant plasma protein by mass or the smallest by molecular weight."
+      },
+      "main_concept": "CON-HEM-B25D05070CEF7D",
+      "concept_ids": ["CON-HEM-B25D05070CEF7D"],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Blood — plasma proteins",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that albumin is both the most concentrated and the lowest-molecular-weight plasma protein, and connect that concentration to its oncotic-pressure role.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer beside option, p.108, Q161" },
+      "author_notes": "Folds in Q163/Q164's restatement of the same 'albumin = dominant plasma protein' fact.",
+      "library_ids": ["ART-HEM-TOP-37142FFF1F"]
+    },
+    {
+      "key": "q167",
+      "page": 108,
+      "title": "Where gamma globulins are synthesised",
+      "question": "Which plasma protein is the one major fraction that the liver does NOT synthesise?",
+      "options": {
+        "A": "Albumin",
+        "B": "Fibrinogen",
+        "C": "Prothrombin",
+        "D": "Gamma globulin",
+        "E": "Alpha globulin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the exception this question is testing for. Albumin is synthesised in the liver, one of the fractions the liver does make.",
+        "B": "Incorrect as the exception. Fibrinogen is a liver-synthesised clotting-factor protein, not the fraction that escapes hepatic synthesis.",
+        "C": "Incorrect as the exception. Prothrombin is also synthesised in the liver, alongside albumin and fibrinogen.",
+        "D": "Correct. Gamma globulins (immunoglobulins) are the one major plasma protein fraction the liver does not make. They are produced by plasma cells (differentiated B-lymphocytes) in lymphoid tissue, not by hepatocytes — unlike albumin, fibrinogen, prothrombin and roughly half of the other globulins, which the liver does synthesise.",
+        "E": "Incorrect as the exception. Alpha globulins are among the roughly half of the globulin fraction the liver does synthesise; only the gamma globulins fall outside hepatic production."
+      },
+      "main_concept": "CON-HEM-A00CEBAD4CB5F9",
+      "concept_ids": ["CON-HEM-A00CEBAD4CB5F9"],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Blood — plasma proteins",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify gamma globulins as the plasma protein fraction synthesised by plasma cells rather than the liver, unlike albumin, fibrinogen, prothrombin and the other globulins.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer beside option, p.108, Q165/Q167 combined ('gamma globulins synthesised in lymphoid tissue' + 'plasma protein formed outside the liver = gamma globulin')" },
+      "author_notes": "Combines Q165/Q166/Q167/Q175's four restatements of the same liver-vs-plasma-cell synthesis-site fact into one 'except' question, reusing the live liver-synthesis concept as main_concept since that record already names albumin/fibrinogen/prothrombin/half-the-globulins as what the liver makes — the gamma-globulin exception follows directly from it.",
+      "library_ids": ["ART-HEM-TOP-37142FFF1F"]
+    },
+    {
+      "key": "q184",
+      "page": 110,
+      "title": "Gamma globulins' defensive function",
+      "question": "The plasma protein fraction responsible for defence against microorganisms and their toxins is:",
+      "options": {
+        "A": "Albumin",
+        "B": "Fibrinogen",
+        "C": "Alpha-1 globulin",
+        "D": "Gamma globulin",
+        "E": "Beta globulin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Albumin's role is oncotic pressure regulation and carrying small molecules, not antibody-mediated defence.",
+        "B": "Incorrect. Fibrinogen's role is blood coagulation, not defence against microorganisms.",
+        "C": "Incorrect. Alpha-1 globulin (e.g. alpha-1 antitrypsin) has an antiprotease role, not an antibody-mediated defensive one.",
+        "D": "Correct. Gamma globulins are the immunoglobulins, and they mediate humoral defence against microorganisms and their toxins by acting as circulating antibodies. This antibody-mediated (humoral) defence is exactly what distinguishes the gamma globulin fraction functionally from albumin's osmotic role and fibrinogen's clotting role.",
+        "E": "Incorrect. Beta globulins include carrier and complement proteins, but the antibody-mediated defensive function specifically belongs to the gamma globulin (immunoglobulin) fraction."
+      },
+      "main_concept": "CON-HEM-163093720ACE8B",
+      "concept_ids": ["CON-HEM-163093720ACE8B"],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Blood — plasma proteins",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that gamma globulins (immunoglobulins) are the plasma protein fraction that mediates humoral defence against microorganisms and toxins.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer beside option, p.110, Q184/Q185 combined" },
+      "author_notes": "Combines Q184/Q185/Q168's three restatements of the same gamma-globulin-defence/immunoglobulin fact.",
+      "library_ids": ["ART-HEM-TOP-37142FFF1F"]
+    },
+    {
+      "key": "q174",
+      "page": 109,
+      "title": "Separating the plasma protein fractions",
+      "question": "The method used to separate plasma proteins into their named fractions (albumin, alpha, beta, gamma globulins) is:",
+      "options": {
+        "A": "Electrophoresis",
+        "B": "Centrifugation",
+        "C": "Osmometry",
+        "D": "Chromatography",
+        "E": "Spectrophotometry"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Electrophoresis separates plasma proteins into their albumin and alpha-1, alpha-2, beta and gamma globulin fractions. The proteins migrate through a supporting medium under an electric field at rates set by their charge, size and shape, producing the characteristic banded pattern clinicians read for fraction-specific abnormalities such as a gamma-region spike or an albumin-globulin ratio shift.",
+        "B": "Incorrect. Centrifugation separates blood into plasma and formed elements (or separates particles by density and mass), not plasma proteins into their individual named fractions.",
+        "C": "Incorrect. Osmometry measures osmotic pressure or osmolality; it does not separate proteins into distinct fractions.",
+        "D": "Incorrect. Chromatography can separate proteins in a research setting, but it is not the standard clinical method named for routine plasma protein fractionation; electrophoresis is.",
+        "E": "Incorrect. Spectrophotometry measures light absorbance, used for example to quantify total protein concentration, but it does not itself separate the proteins into fractions."
+      },
+      "main_concept": "CON-HEM-B23B13924E08CA",
+      "concept_ids": ["CON-HEM-B23B13924E08CA"],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Blood — plasma proteins",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that electrophoresis is the method used to separate plasma proteins into their albumin/alpha/beta/gamma fractions.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer beside option, p.109, Q174" },
+      "author_notes": "New mint — find-existing.mjs 'electrophoresis plasma' returned no rival record.",
+      "library_ids": ["ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"]
+    },
+    {
+      "key": "q188",
+      "page": 110,
+      "title": "The plasma protein that sets plasma viscosity",
+      "question": "The plasma protein mainly responsible for plasma's viscosity is:",
+      "options": {
+        "A": "Albumin",
+        "B": "Fibrinogen",
+        "C": "Gamma globulin",
+        "D": "Transferrin",
+        "E": "Alpha-1 antitrypsin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Albumin's high concentration makes it the main determinant of plasma's oncotic (osmotic) pressure, but plasma viscosity specifically is set by fibrinogen, not albumin, despite albumin's much greater concentration.",
+        "B": "Correct. Fibrinogen is the plasma protein mainly responsible for plasma's own viscosity. Although present at a far lower concentration than albumin, its large, elongated, asymmetric molecule disproportionately raises resistance to flow, so a rise in fibrinogen (for example as an acute-phase reactant) raises plasma viscosity out of proportion to its concentration. This is distinct from whole-blood viscosity, whose major determinant is the red cell mass.",
+        "C": "Incorrect. Gamma globulins are the antibody-mediated defence fraction; they are not the fraction that principally sets plasma viscosity.",
+        "D": "Incorrect. Transferrin's role is carrying iron in the plasma, not determining plasma viscosity.",
+        "E": "Incorrect. Alpha-1 antitrypsin's role is antiprotease activity; its deficiency causes emphysema, not a change in plasma viscosity."
+      },
+      "main_concept": "CON-HEM-8B9322B58C232D",
+      "concept_ids": ["CON-HEM-8B9322B58C232D"],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Blood — plasma proteins",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that fibrinogen, not albumin, is the plasma protein mainly responsible for plasma's viscosity, distinct from the red cell mass's role in whole-blood viscosity.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer beside option, p.110, Q188/Q190 combined" },
+      "author_notes": "New mint. This lane already has a live/pending fact that erythrocytes are the major part of WHOLE-BLOOD viscosity (erythrocyte-physbank cluster) — this question is deliberately about the PLASMA-phase viscosity fibrinogen sets, not the whole-blood fact, and the explanation calls out the distinction explicitly to avoid the two being read as contradictory.",
+      "library_ids": ["ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"]
+    },
+    {
+      "key": "q196",
+      "page": 111,
+      "title": "The earliest sign of hypoproteinemia",
+      "question": "The first and most important clinical sign of hypoproteinemia is:",
+      "options": {
+        "A": "Jaundice",
+        "B": "Swelling of the face and oedema",
+        "C": "Bleeding tendency",
+        "D": "Cyanosis",
+        "E": "Muscle wasting"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Jaundice reflects raised bilirubin, not a fall in plasma protein.",
+        "B": "Correct. When total plasma protein falls — chiefly albumin, the main determinant of plasma colloid osmotic pressure — the reduced oncotic pull can no longer hold fluid inside the capillaries against hydrostatic pressure, so fluid shifts into the interstitial space. Facial and dependent oedema is therefore the earliest and most clinically important sign of hypoproteinemia, seen for example in nephrotic syndrome, chronic liver disease and severe protein malnutrition.",
+        "C": "Incorrect. A bleeding tendency can follow from low levels of specific clotting-factor proteins (e.g. fibrinogen, prothrombin) in severe liver disease, but it is not the first or most characteristic sign of hypoproteinemia in general — oedema is.",
+        "D": "Incorrect. Cyanosis reflects deoxygenated haemoglobin, unrelated to plasma protein level.",
+        "E": "Incorrect. Muscle wasting can accompany severe, prolonged protein malnutrition, but it is a later, structural consequence, not the first clinical sign that follows directly from the drop in oncotic pressure."
+      },
+      "main_concept": "CON-HEM-FD9869F6DAA9DC",
+      "concept_ids": ["CON-HEM-FD9869F6DAA9DC"],
+      "contextual_concept_ids": ["CON-HEM-B25D05070CEF7D"],
+      "topic": "Physiology",
+      "subtopic": "Blood — plasma proteins",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that oedema, from the fall in plasma colloid osmotic pressure, is the earliest and most important clinical sign of hypoproteinemia.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer beside option, p.111, Q196" },
+      "author_notes": "New mint. contextual_concept_ids names the live albumin/oncotic-pressure concept as the mechanism this sign follows from, without claiming it as a second main_concept.",
+      "library_ids": ["ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"]
+    },
+    {
+      "key": "q158",
+      "hold": "Average plasma protein concentration ~7g% (Q158/159/162/164) — plain reference-value trivia restated 4x, no dedicated concept warranted, same hold class as this lane's other bare reference-number facts."
+    },
+    {
+      "key": "q160",
+      "hold": "Normal serum albumin range 3.5-5.5 g/dl — plain reference-range trivia, held rather than minted a dedicated concept for a single numeric range with no teaching point beyond the number itself."
+    },
+    {
+      "key": "q165",
+      "hold": "Folded into q167's 'except' question (gamma globulins synthesised outside the liver, in lymphoid tissue/plasma cells) — not separately authored."
+    },
+    {
+      "key": "q166",
+      "hold": "Literal duplicate of q165/q167's fact ('plasma protein formed outside the liver = gamma globulin'), folded into q167."
+    },
+    {
+      "key": "q168",
+      "hold": "Near-duplicate of q184's gamma-globulin/immunoglobulin fact ('proteins in the gamma globulin fraction = immunoglobulins'), folded into q184."
+    },
+    {
+      "key": "q169",
+      "hold": "Bilirubin transported by albumin — already authored as this lane's own dedicated fact elsewhere in this module (jaundice/bilirubin transport theme in the biochemistry-heme cluster); not re-authored here to avoid a duplicate."
+    },
+    {
+      "key": "q170",
+      "hold": "Albumin synthesised in the liver — literal duplicate of the already-authored 'Site of albumin synthesis' question in plasma-proteins-and-erythropoiesis-extra-mcq.md."
+    },
+    {
+      "key": "q171",
+      "hold": "Alpha-1-globulin deficiency causes emphysema — literal duplicate of the already-authored 'Plasma protein deficiency that causes emphysema' question in plasma-proteins-and-erythropoiesis-extra-mcq.md."
+    },
+    {
+      "key": "q172",
+      "hold": "Fibrinogen is a clotting-factor plasma protein — near-duplicate of the already-authored hemostasis-coagulation cluster's extensive fibrinogen/clotting coverage; no new teaching point."
+    },
+    {
+      "key": "q173",
+      "hold": "C-reactive protein as an acute-phase protein — literal duplicate of the already-authored 'Example of an acute phase protein' question in plasma-proteins-and-erythropoiesis-extra-mcq.md."
+    },
+    {
+      "key": "q175",
+      "hold": "Literal duplicate of q165/q166/q167's synthesis-site fact, folded into q167."
+    },
+    {
+      "key": "q176",
+      "hold": "'Main source of plasma proteins is food proteins' — the printed key overstates dietary protein as a direct source rather than a synthetic substrate; ambiguous/low-confidence physiology framing not worth authoring as stated, same class as this lane's other doubtful-key holds."
+    },
+    {
+      "key": "q177",
+      "hold": "Near-duplicate of q161's albumin-dominance/oncotic-pressure fact (six restatements across Q177/178/179/180/187/192), folded into q161."
+    },
+    {
+      "key": "q178",
+      "hold": "Near-duplicate of q177's albumin oncotic-pressure fact, folded into q161."
+    },
+    {
+      "key": "q179",
+      "hold": "Near-duplicate of q177's albumin oncotic-pressure fact, folded into q161."
+    },
+    {
+      "key": "q180",
+      "hold": "Near-duplicate of q177's albumin oncotic-pressure fact, folded into q161."
+    },
+    {
+      "key": "q181",
+      "hold": "'Plasma proteins include clotting factors' — near-duplicate of q172's fibrinogen-clotting theme, already covered by the hemostasis-coagulation cluster."
+    },
+    {
+      "key": "q182",
+      "hold": "Fibrinogen and prothrombin responsible for blood coagulation — near-duplicate of q172/q181, already covered by the hemostasis-coagulation cluster."
+    },
+    {
+      "key": "q183",
+      "hold": "Prothrombin responsible for clotting — literal duplicate of the extensively-covered hemostasis-coagulation cluster."
+    },
+    {
+      "key": "q185",
+      "hold": "Literal duplicate of q184's gamma-globulin-defence fact, folded into q184."
+    },
+    {
+      "key": "q186",
+      "hold": "Multi-fact 'about plasma albumin' item (oncotic pressure main contributor, minimally filtered at glomeruli, behaves as anion at blood pH, carries CO2 as carbamino compound) — the oncotic-pressure clause duplicates q161; the other three clauses (renal filtration, ionic behaviour, carbamino transport) are each thin, single-clause facts not independently worth a dedicated concept this pass."
+    },
+    {
+      "key": "q187",
+      "hold": "Near-duplicate of q177/q161's albumin oncotic-pressure fact, folded into q161."
+    },
+    {
+      "key": "q189",
+      "hold": "'Carrier function of plasma protein = reservoir for the carried substance' — vague conceptual restatement with no new distinguishable fact beyond the already-authored named-carrier facts (transferrin, transcobalamin) elsewhere in this module."
+    },
+    {
+      "key": "q190",
+      "hold": "Literal duplicate of q188's fibrinogen-viscosity fact, folded into q188."
+    },
+    {
+      "key": "q191",
+      "hold": "Buffering function of plasma proteins (15% of blood's buffering power, histidine imidazole groups) — dense multi-clause biochemistry fact; held pending a dedicated biochemistry-acid-base pass rather than authored from this physiology-lecture page alone, to avoid a shallow or inaccurate restatement of the buffer chemistry."
+    },
+    {
+      "key": "q192",
+      "hold": "Near-duplicate of q177/q161's albumin oncotic-pressure fact, folded into q161."
+    },
+    {
+      "key": "q193",
+      "hold": "Colloidal osmotic pressure of plasma ~28 mmHg — a same-numeric-value concept already exists in the corpus in a pulmonary-capillary-fluid-balance context (Kasr 104-CPS-physiology-concepts.md); held rather than risk authoring a conflicting or redundant standalone plasma-only version this pass."
+    },
+    {
+      "key": "q194",
+      "hold": "Iron carried by transferrin — literal duplicate of the already-authored 'Form in which plasma protein carries iron' question in plasma-proteins-and-erythropoiesis-extra-mcq.md."
+    },
+    {
+      "key": "q195",
+      "hold": "Vitamin B12 carried by transcobalamin — literal duplicate of the already-authored 'Plasma protein that carries vitamin B12' question in plasma-proteins-and-erythropoiesis-extra-mcq.md."
+    },
+    {
+      "key": "q197",
+      "hold": "Summary list of plasma protein functions (volume control, hormone transport, CO2 carriage) — a redundant roll-up of facts already covered individually (oncotic pressure, carrier roles); no new distinguishable teaching point."
+    },
+    {
+      "key": "q198",
+      "hold": "Plasma proteins in iron homeostasis (haptoglobin, transferrin, ferritin) — haptoglobin's specific hemoglobin-binding/iron-conservation role is a genuine new fact but multi-part and better suited to a dedicated haemolysis/haptoglobin pass than a bare list-recall item from this page alone; held rather than authored thin."
+    }
+  ]
+}

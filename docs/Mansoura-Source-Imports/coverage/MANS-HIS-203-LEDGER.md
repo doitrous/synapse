@@ -456,6 +456,7 @@
 | pharmacology-iron-b12 | 3 | 0 | 0 | 3 |
 | physiology-erythropoiesis-extra | 4 | 0 | 0 | 4 |
 | physiology-refrange | 9 | 0 | 0 | 9 |
+| plasma-protein-lecture5 | 6 | 31 | 0 | 37 |
 | plasma-proteins-and-erythropoiesis-extra | 7 | 0 | 0 | 7 |
 | platelets | 8 | 0 | 0 | 8 |
 | reticulocyte | 3 | 0 | 0 | 3 |
@@ -507,6 +508,37 @@
 - PH4-Q5 — near-duplicate of PH4-Q19 — 'warfarin is a vitamin K antagonist' is a simpler-recall restatement of the same mechanism authored more fully under Q19
 - PH4-Q9 — literal duplicate of PH4-Q2 — identical question text repeated verbatim later in this section
 - PH4-Q10 — near-duplicate of PH4-Q3 — low-dose heparin prolongs aPTT is the same heparin/aPTT monitoring fact already authored
+- q158 — Average plasma protein concentration ~7g% (Q158/159/162/164) — plain reference-value trivia restated 4x, no dedicated concept warranted, same hold class as this lane's other bare reference-number facts.
+- q160 — Normal serum albumin range 3.5-5.5 g/dl — plain reference-range trivia, held rather than minted a dedicated concept for a single numeric range with no teaching point beyond the number itself.
+- q165 — Folded into q167's 'except' question (gamma globulins synthesised outside the liver, in lymphoid tissue/plasma cells) — not separately authored.
+- q166 — Literal duplicate of q165/q167's fact ('plasma protein formed outside the liver = gamma globulin'), folded into q167.
+- q168 — Near-duplicate of q184's gamma-globulin/immunoglobulin fact ('proteins in the gamma globulin fraction = immunoglobulins'), folded into q184.
+- q169 — Bilirubin transported by albumin — already authored as this lane's own dedicated fact elsewhere in this module (jaundice/bilirubin transport theme in the biochemistry-heme cluster); not re-authored here to avoid a duplicate.
+- q170 — Albumin synthesised in the liver — literal duplicate of the already-authored 'Site of albumin synthesis' question in plasma-proteins-and-erythropoiesis-extra-mcq.md.
+- q171 — Alpha-1-globulin deficiency causes emphysema — literal duplicate of the already-authored 'Plasma protein deficiency that causes emphysema' question in plasma-proteins-and-erythropoiesis-extra-mcq.md.
+- q172 — Fibrinogen is a clotting-factor plasma protein — near-duplicate of the already-authored hemostasis-coagulation cluster's extensive fibrinogen/clotting coverage; no new teaching point.
+- q173 — C-reactive protein as an acute-phase protein — literal duplicate of the already-authored 'Example of an acute phase protein' question in plasma-proteins-and-erythropoiesis-extra-mcq.md.
+- q175 — Literal duplicate of q165/q166/q167's synthesis-site fact, folded into q167.
+- q176 — 'Main source of plasma proteins is food proteins' — the printed key overstates dietary protein as a direct source rather than a synthetic substrate; ambiguous/low-confidence physiology framing not worth authoring as stated, same class as this lane's other doubtful-key holds.
+- q177 — Near-duplicate of q161's albumin-dominance/oncotic-pressure fact (six restatements across Q177/178/179/180/187/192), folded into q161.
+- q178 — Near-duplicate of q177's albumin oncotic-pressure fact, folded into q161.
+- q179 — Near-duplicate of q177's albumin oncotic-pressure fact, folded into q161.
+- q180 — Near-duplicate of q177's albumin oncotic-pressure fact, folded into q161.
+- q181 — 'Plasma proteins include clotting factors' — near-duplicate of q172's fibrinogen-clotting theme, already covered by the hemostasis-coagulation cluster.
+- q182 — Fibrinogen and prothrombin responsible for blood coagulation — near-duplicate of q172/q181, already covered by the hemostasis-coagulation cluster.
+- q183 — Prothrombin responsible for clotting — literal duplicate of the extensively-covered hemostasis-coagulation cluster.
+- q185 — Literal duplicate of q184's gamma-globulin-defence fact, folded into q184.
+- q186 — Multi-fact 'about plasma albumin' item (oncotic pressure main contributor, minimally filtered at glomeruli, behaves as anion at blood pH, carries CO2 as carbamino compound) — the oncotic-pressure clause duplicates q161; the other three clauses (renal filtration, ionic behaviour, carbamino transport) are each thin, single-clause facts not independently worth a dedicated concept this pass.
+- q187 — Near-duplicate of q177/q161's albumin oncotic-pressure fact, folded into q161.
+- q189 — 'Carrier function of plasma protein = reservoir for the carried substance' — vague conceptual restatement with no new distinguishable fact beyond the already-authored named-carrier facts (transferrin, transcobalamin) elsewhere in this module.
+- q190 — Literal duplicate of q188's fibrinogen-viscosity fact, folded into q188.
+- q191 — Buffering function of plasma proteins (15% of blood's buffering power, histidine imidazole groups) — dense multi-clause biochemistry fact; held pending a dedicated biochemistry-acid-base pass rather than authored from this physiology-lecture page alone, to avoid a shallow or inaccurate restatement of the buffer chemistry.
+- q192 — Near-duplicate of q177/q161's albumin oncotic-pressure fact, folded into q161.
+- q193 — Colloidal osmotic pressure of plasma ~28 mmHg — a same-numeric-value concept already exists in the corpus in a pulmonary-capillary-fluid-balance context (Kasr 104-CPS-physiology-concepts.md); held rather than risk authoring a conflicting or redundant standalone plasma-only version this pass.
+- q194 — Iron carried by transferrin — literal duplicate of the already-authored 'Form in which plasma protein carries iron' question in plasma-proteins-and-erythropoiesis-extra-mcq.md.
+- q195 — Vitamin B12 carried by transcobalamin — literal duplicate of the already-authored 'Plasma protein that carries vitamin B12' question in plasma-proteins-and-erythropoiesis-extra-mcq.md.
+- q197 — Summary list of plasma protein functions (volume control, hormone transport, CO2 carriage) — a redundant roll-up of facts already covered individually (oncotic pressure, carrier roles); no new distinguishable teaching point.
+- q198 — Plasma proteins in iron homeostasis (haptoglobin, transferrin, ferritin) — haptoglobin's specific hemoglobin-binding/iron-conservation role is a genuine new fact but multi-part and better suited to a dedicated haemolysis/haptoglobin pass than a bare list-recall item from this page alone; held rather than authored thin.
 
 ## Remaining
 - (x2 questions), CON-HEM-121DCA556B6311, CON-HEM-A940AB960A5C0D — directly, no overlay);

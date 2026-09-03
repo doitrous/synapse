@@ -2599,17 +2599,20 @@ Transferrin (plasma iron transport) is repeatedly confused with ferritin/apoferr
 ### Clinical significance
 Low albumin from liver disease contributes to reduced plasma oncotic pressure and oedema; transferrin saturation and transcobalamin levels are used clinically to assess iron and B12 status respectively.
 
+### Fractions, viscosity and hypoproteinemia (Lecture 5)
+Plasma protein electrophoresis separates the plasma proteins into their albumin and alpha-1, alpha-2, beta and gamma globulin fractions by their differential migration under an electric field, which is how a shift in one fraction is identified in clinical practice. Of the plasma proteins, fibrinogen — not albumin — is the main determinant of plasma's own viscosity, because its large, elongated molecule raises flow resistance disproportionately to its low concentration; this is distinct from whole-blood viscosity, whose major determinant is the red cell mass. When total plasma protein falls (hypoproteinemia), the resulting drop in plasma colloid osmotic pressure lets fluid shift into the interstitial space, and facial/dependent oedema is the earliest and most clinically important sign, as seen in nephrotic syndrome, chronic liver disease and severe malnutrition.
+
 ## hold_these
-Albumin is synthesised in the liver. Transferrin carries iron in plasma. Transcobalamin carries vitamin B12 in plasma.
+Albumin is synthesised in the liver. Transferrin carries iron in plasma. Transcobalamin carries vitamin B12 in plasma. Fibrinogen, not albumin, is the main determinant of plasma viscosity. Oedema is the earliest and most important sign of hypoproteinemia.
 
 ## lose_the_mark
-Confusing transferrin (plasma carrier) with ferritin/apoferritin (intracellular storage proteins).
+Confusing transferrin (plasma carrier) with ferritin/apoferritin (intracellular storage proteins). Confusing fibrinogen's role in plasma viscosity with albumin's role in oncotic pressure, or with the red cell mass's role in whole-blood viscosity.
 
 ## publication_gate
 needs_evidence
 
 ## evidence_basis
-Mansoura HIS 203 Physiology Important MCQ "previous exams" block, His Continuous Berlin Book 2026.pdf, p.129-130, source id src_c4ee1e63536c22ca52d4.
+Mansoura HIS 203 Physiology Important MCQ "previous exams" block, His Continuous Berlin Book 2026.pdf, p.129-130, source id src_c4ee1e63536c22ca52d4. Lecture 5 ("Plasma protein level, structure & classification"), same file, p.108-111 (printed footer p.99-102).
 
 ## evidence_gaps
 Independent physiology reference not yet cross-checked against this department-book framing; the facts are standard.
