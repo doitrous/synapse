@@ -5155,3 +5155,140 @@ Block: body
 ### definition_of · CON-FND-B745FB1C1BCD83
 Quote: mefloquine, effective prophylaxis in chloroquine-resistant P. falciparum regions, shares this same blood-stage-only limitation, so P. vivax can still relapse despite mefloquine prophylaxis
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-BENIGN-EPITHELIAL-TUMORS
+
+## title
+Benign epithelial tumors: papilloma versus adenoma classification
+
+## arabic_title
+الأورام الظهارية الحميدة: التمييز بين الورم الحليمي والورم الغدي
+
+## aliases
+Benign epithelial tumors classification and examples
+Lecture 47
+
+## subject
+fnd
+
+## topic
+Benign epithelial tumors classification and examples
+
+## subtopic
+Papilloma classification, adenoma classification
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 47 draws the basic classification line between the two named benign epithelial tumours: papilloma, arising from non-glandular surfaces and characteristically forming multiple finger-like (papillary) projections, and adenoma, arising from glandular epithelium and forming gland-like structures. This quiz repeats each classification question twice with reshuffled options, plus a third papilloma question testing its distinctive gross morphology, and several True/False and one unrecoverable blank-stem row that are held rather than authored.
+
+## sections
+### Definition
+Lecture 47 covers the basic two-way classification of benign epithelial tumours by their tissue of origin: non-glandular surface epithelium (papilloma) versus glandular epithelium (adenoma).
+
+### Mechanism
+Papilloma is the benign epithelial cell neoplasm derived from non-glandular surfaces, such as skin or mucosal squamous epithelium, characteristically growing as multiple finger-like (papillary) projections outward from the epithelial surface. Adenoma is the benign tumour of glandular epithelial origin, forming gland-like or duct-like structures resembling the tissue it arises from.
+
+### Key determinants
+Tissue of origin (non-glandular surface versus glandular) is the determining feature that separates papilloma from adenoma. Gross morphology (finger-like papillary projections) is papilloma's distinctive additional identifying feature. Neither term applies to a malignant tumour (carcinoma, sarcoma, lymphoma), a mesenchymal tumour (fibroma), a developmental malformation (hamartoma) or a specific metastatic entity (Krukenberg tumour).
+
+### Clinical significance
+Correctly naming a benign epithelial tumour by its tissue of origin (papilloma versus adenoma) is foundational vocabulary for describing benign neoplasms accurately in pathology reporting and clinical communication.
+
+### Common misconceptions
+Confusing papilloma (non-glandular origin) with adenoma (glandular origin), or misclassifying either as a malignant tumour, a mesenchymal tumour, a malformation or a specific metastatic entity such as a Krukenberg tumour.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Papilloma is the benign epithelial tumour of non-glandular surfaces, characteristically forming finger-like (papillary) projections.
+Adenoma is the benign tumour of glandular epithelial origin.
+
+## lose_the_mark
+Swapping papilloma and adenoma's tissue-of-origin association, or naming a malignant, mesenchymal or malformation term instead of either.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-323905D76583CF
+CON-FND-F9DB9176CB94DF
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 47 (Benign epithelial tumors classification and examples) -- no department slide deck exists in the corpus past Lecture 8, so both new mints cite the quiz bank's own printed-answer text instead. Q1/Q2 (q390/q391) and Q3/Q4 (q392/q393) are each literal duplicate questions (same stem, reshuffled options), collapsed onto one concept apiece but each authored as its own full question record. Q6-Q9 (q395-q398), this quiz's True/False rows and one unrecoverable blank-stem row, are held.
+
+## annotations
+### definition_of · CON-FND-323905D76583CF
+Quote: Papilloma is the benign epithelial cell neoplasm derived from non-glandular surfaces, such as skin or mucosal squamous epithelium, characteristically growing as multiple finger-like (papillary) projections outward from the epithelial surface
+Block: body
+
+### definition_of · CON-FND-F9DB9176CB94DF
+Quote: Adenoma is the benign tumour of glandular epithelial origin, forming gland-like or duct-like structures resembling the tissue it arises from
+Block: body

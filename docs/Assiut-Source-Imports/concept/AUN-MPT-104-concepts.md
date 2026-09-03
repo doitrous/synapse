@@ -24642,3 +24642,289 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "mefloquine prophylaxis failure P vivax" -- 0 hits. This same clinical fact is tested separately (unauthored) in this lane's final-exam source pool (a different PDF, out of this cluster's scope) -- no concept exists there yet either, so no cross-pool reuse applies. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-323905D76583CF
+
+## label
+Papilloma is the benign epithelial tumour of non-glandular surfaces
+
+## canonical_key
+neoplasia.papilloma.benign-non-glandular-epithelial-tumour
+
+## aliases
+Papilloma classification
+Papillary projections
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Papilloma is the benign epithelial cell neoplasm derived from non-glandular surfaces (such as skin or mucosal squamous epithelium), characteristically growing as multiple finger-like (papillary) projections outward from the epithelial surface -- distinguishing it from adenoma (the benign tumour of glandular epithelium), the malignant epithelial/mesenchymal options (squamous cell carcinoma, sarcoma, lymphoma), fibroma (a benign mesenchymal, not epithelial, tumour) and hamartoma (a developmental malformation rather than a true neoplasm).
+
+## explicit_objective
+Identify papilloma as the benign epithelial tumour arising from non-glandular surfaces, characterised grossly by multiple finger-like projections.
+
+## pitfalls
+Confusing papilloma with adenoma (glandular origin), a malignant epithelial or mesenchymal tumour, fibroma (mesenchymal) or hamartoma (a malformation, not a neoplasm) -- papilloma is specifically the benign, non-glandular, papillary-projection epithelial tumour.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Benign epithelial tumors classification and examples
+
+## subtopic
+Papilloma classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-BENIGN-EPITHELIAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A benign epithelial cell neoplasm derived from non-glandular surfaces is referred to as: ... Papilloma" (Quiz 47 Q1/Q2). "Which of the following is a benign tumor of the epithelium characterized by multiple finger like projections? ... Papilloma" (Quiz 47 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 47 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "papilloma non-glandular benign epithelial tumor" -- 0 hits. A grep sweep for "papilloma.*benign|adenoma.*benign|benign.*papilloma|benign.*adenoma" hit only this lane's own unrelated angioma-capsulation concept -- no duplicate. New concept, collapsing Q1/Q2 (literal duplicate, options reordered) and Q5 (same tumour type's morphology angle) onto one record.
+
+---
+
+# Item
+
+## id
+CON-FND-F9DB9176CB94DF
+
+## label
+Adenoma is the benign tumour of glandular epithelium
+
+## canonical_key
+neoplasia.adenoma.benign-glandular-tumour
+
+## aliases
+Adenoma classification
+Benign glandular tumour
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Adenoma is the term for a benign tumour of glandular epithelial origin, forming gland-like or duct-like structures resembling the tissue it arises from -- distinguishing it from papilloma (the benign tumour of non-glandular surfaces), carcinoma (a malignant epithelial tumour), a Krukenberg tumour (a specific metastatic, not primary benign, ovarian tumour) and the general behavioural descriptor "malignant."
+
+## explicit_objective
+Identify adenoma as the benign tumour of glandular epithelial origin.
+
+## pitfalls
+Confusing adenoma with papilloma (non-glandular origin), carcinoma (malignant), a Krukenberg tumour (a specific metastatic ovarian tumour) or the general term "malignant" -- adenoma is specifically the benign, glandular-origin epithelial tumour.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Benign epithelial tumors classification and examples
+
+## subtopic
+Adenoma classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-BENIGN-EPITHELIAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"If a tumor is benign and glandular in origin, what is it called? ... Adenoma" (Quiz 47 Q3/Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 47 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "adenoma benign glandular tumor" -- 0 hits. New concept, collapsing Q3/Q4 (literal duplicate, options reordered) onto one record.
