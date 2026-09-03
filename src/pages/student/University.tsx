@@ -10,7 +10,7 @@ import { Badge } from '@/components/ui/Badge'
 import { ButtonLink } from '@/components/ui/Button'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Icon } from '@/components/ui/Icon'
-import { NishanyLoader } from '@/components/ui/NishanyLoader'
+import { Skeleton, SkeletonCard } from '@/components/ui/Skeleton'
 import { Meter } from '@/components/ui/Meter'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { SystemMark } from '@/components/ui/SystemMark'
@@ -269,7 +269,6 @@ function CurriculumView({
       <BackButton />
       <PageHeader
         title={t('Your University')}
-        description={t('Your own year, laid out clearly: modules and terms, how each is marked, and the timetable your faculty has published so far.')}
         actions={
           <>
             <ButtonLink to="/app/library" variant="secondary" iconLeft={BookOpen}>{t('Library')}</ButtonLink>
@@ -294,12 +293,19 @@ function CurriculumView({
       )}
 
       {loading ? (
-        <Panel>
-          <div className="grid min-h-52 place-items-center gap-3 px-6 py-12 text-center">
-            <NishanyLoader size={44} label={t('Loading your university page')} />
-            <p className="text-[13px] text-ink-2">{t('Just a moment while we bring in your modules, timetable and marks.')}</p>
+        <div className="space-y-4" aria-label={t('Loading your university page')}>
+          <SkeletonCard className="h-40" />
+          <div className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_20rem]">
+            <div className="min-w-0 space-y-3">
+              <SkeletonCard className="h-32" />
+              <SkeletonCard className="h-32" />
+            </div>
+            <div className="space-y-4">
+              <Skeleton className="h-40" />
+              <Skeleton className="h-20" />
+            </div>
           </div>
-        </Panel>
+        </div>
       ) : !map || map.status === 'missing_profile' ? (
         <Panel>
           <EmptyState

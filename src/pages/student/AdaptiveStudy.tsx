@@ -23,6 +23,8 @@ import { Panel } from '@/components/ui/Panel'
 import { Tabs } from '@/components/ui/Tabs'
 import { Badge } from '@/components/ui/Badge'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { AsyncSurface } from '@/components/ui/AsyncSurface'
+import { SkeletonList, SkeletonText } from '@/components/ui/Skeleton'
 import { Today } from '@/components/adaptive/Today'
 import { Practice } from '@/components/adaptive/Practice'
 import { Readiness } from '@/components/adaptive/Readiness'
@@ -55,7 +57,6 @@ export function AdaptiveStudy() {
     <PageContainer>
       <PageHeader
         title={t('Adaptive Study')}
-        description={t('Nishany keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.')}
         back={{ fallback: '/app' }}
         actions={
           <div className="flex flex-wrap items-center gap-2">
@@ -79,33 +80,47 @@ export function AdaptiveStudy() {
 
       <Tabs items={tabs} value={tab} onChange={setTab} className="mb-5" />
 
-      {study.scopeUnknown ? (
-        // Every figure on this page is scoped to a university and year. Rendering
-        // it without one would show a blueprint that belongs to nobody.
-        <Panel>
-          <EmptyState
-            icon={Compass}
-            title={t('Your university and year are not set')}
-            description={t('Adaptive Study works against your own exam blueprint, so it needs to know which programme you are on. Set it in your account and this page will fill in.')}
-          />
-        </Panel>
-      ) : (
-        <>
-          {tab === 'today' && (
-            <Today
-              study={study}
-              readiness={readiness}
-              onPractice={() => setTab('practice')}
-              onReadiness={() => setTab('readiness')}
+      {/* ponytail: one shared skeleton shape for every tab rather than one per
+          tab — `study.loading` clears fast enough (it is local storage plus
+          the evidence ledger, not a network round trip) that a closer match
+          would be spent effort. */}
+      <AsyncSurface
+        loading={study.loading}
+        fallback={
+          <Panel className="p-6">
+            <SkeletonText lines={2} className="mb-4" />
+            <SkeletonList rows={5} />
+          </Panel>
+        }
+      >
+        {study.scopeUnknown ? (
+          // Every figure on this page is scoped to a university and year. Rendering
+          // it without one would show a blueprint that belongs to nobody.
+          <Panel>
+            <EmptyState
+              icon={Compass}
+              title={t('Your university and year are not set')}
+              description={t('Adaptive Study works against your own exam blueprint, so it needs to know which programme you are on. Set it in your account and this page will fill in.')}
             />
-          )}
-          {tab === 'practice' && <Practice study={study} />}
-          {tab === 'readiness' && <Readiness study={study} />}
-          {tab === 'concepts' && <Concepts study={study} />}
-          {tab === 'plan' && <Plan study={study} />}
-          {tab === 'how' && <HowItWorks study={study} />}
-        </>
-      )}
+          </Panel>
+        ) : (
+          <>
+            {tab === 'today' && (
+              <Today
+                study={study}
+                readiness={readiness}
+                onPractice={() => setTab('practice')}
+                onReadiness={() => setTab('readiness')}
+              />
+            )}
+            {tab === 'practice' && <Practice study={study} />}
+            {tab === 'readiness' && <Readiness study={study} />}
+            {tab === 'concepts' && <Concepts study={study} />}
+            {tab === 'plan' && <Plan study={study} />}
+            {tab === 'how' && <HowItWorks study={study} />}
+          </>
+        )}
+      </AsyncSurface>
     </PageContainer>
   )
 }

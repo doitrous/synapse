@@ -17,6 +17,7 @@ import { ConceptMasteryPanel } from '@/components/performance/ConceptMastery'
 import { SourceCoveragePanel } from '@/components/performance/SourceCoverage'
 import { SessionLedgerPanel } from '@/components/performance/SessionLedger'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
+import { Skeleton, SkeletonCard, SkeletonList } from '@/components/ui/Skeleton'
 import { Meter } from '@/components/ui/Meter'
 import { BarList } from '@/components/charts/BarList'
 import { SubjectDot } from '@/components/ui/Subject'
@@ -319,9 +320,7 @@ function TopPerformers({ records }: { records: AttemptRecord[] }) {
         </div>
 
         {loading ? (
-          <div className="space-y-2 p-5" aria-label={t('Loading leaderboard')}>
-            {[0, 1, 2, 3, 4].map((row) => <div key={row} className="h-12 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />)}
-          </div>
+          <div aria-label={t('Loading leaderboard')}><SkeletonList rows={5} className="p-5" /></div>
         ) : failed ? (
           <div className="p-10"><EmptyState icon={Users} title={t('Leaderboard unavailable')} description={t('The verified ranking could not be loaded. Your private performance data has not been substituted.')}/></div>
         ) : rows.length === 0 ? (
@@ -418,7 +417,7 @@ function PeerStandingPanel({ records }: { records: AttemptRecord[] }) {
       <div className="p-5">
         {!API_MODE && <Badge tone="primary" dot className="mb-3">{t('Demo cohort preview')}</Badge>}
         {loading ? (
-          <div className="h-28 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />
+          <Skeleton className="h-28" />
         ) : failed ? (
           <EmptyState icon={Percent} title={t('Standing unavailable')} description={t('The peer ranking could not be loaded. Your private performance data has not been substituted.')} />
         ) : !standing || yourPct === null ? (
@@ -617,7 +616,7 @@ export function Performance() {
 
   const header = (
     <>
-      <PageHeader title={t('Performance')} description={t('Your progress, curriculum coverage, and verified peer rankings.')} back={{ fallback: '/app' }} />
+      <PageHeader title={t('Performance')} back={{ fallback: '/app' }} />
       {/* Inside `header`, so every branch below — leaders, loading, too few
           answers, the full page — says the same thing about being a preview. */}
       <ComingSoonBanner
@@ -644,7 +643,19 @@ export function Performance() {
     return (
       <PageContainer>
         {header}
-        <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading your record…')}</Panel>
+        <div className="space-y-4" aria-label={t('Loading your record…')}>
+          <div className="grid gap-4 lg:grid-cols-2">
+            <SkeletonCard className="h-40" />
+            <SkeletonCard className="h-40" />
+          </div>
+          <div className="grid grid-cols-2 gap-3 lg:grid-cols-5">
+            {[0, 1, 2, 3, 4].map((i) => <SkeletonCard key={i} className="h-24" />)}
+          </div>
+          <div className="grid gap-4 lg:grid-cols-2">
+            <SkeletonCard className="h-52" />
+            <SkeletonCard className="h-52" />
+          </div>
+        </div>
       </PageContainer>
     )
   }

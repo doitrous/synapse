@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
-  ArrowLeft, ArrowRight, Award, BookOpenCheck, Building2, Check, CircleHelp, Clock3, Hammer,
-  ListChecks, Pencil, Sparkles, Trophy,
+  ArrowLeft, ArrowRight, Award, BookOpenCheck, Building2, Check, CircleHelp, ClipboardCheck, Clock3, Hammer,
+  ListChecks, Pencil, Trophy,
 } from 'lucide-react'
 import { PageContainer } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -10,6 +10,7 @@ import { Button, ButtonLink } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { TextInput } from '@/components/ui/Field'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { MaristanaModel } from '@/components/maristanas/MaristanaModel'
 import { MaristanaAchievementRail, MaristanaAchievementToast } from '@/components/maristanas/MaristanaAchievements'
 import { MaristanaHowItWorksDialog, MaristanaOnboarding } from '@/components/maristanas/MaristanaOnboarding'
@@ -224,14 +225,14 @@ export function Maristanas() {
   if (loading && !data) {
     return (
       <PageContainer className="space-y-4" aria-label={t('Loading Build Maristanas')}>
-        <div className="h-20 animate-pulse rounded-xl bg-inset motion-reduce:animate-none" />
-        <div className="grid gap-4 lg:grid-cols-[1.6fr_0.8fr]"><div className="h-[520px] animate-pulse rounded-xl bg-inset motion-reduce:animate-none" /><div className="h-[520px] animate-pulse rounded-xl bg-inset motion-reduce:animate-none" /></div>
+        <Skeleton className="h-20 rounded-xl" />
+        <div className="grid gap-4 lg:grid-cols-[1.6fr_0.8fr]"><Skeleton className="h-[520px] rounded-xl" /><Skeleton className="h-[520px] rounded-xl" /></div>
       </PageContainer>
     )
   }
 
   if (error || !data || !selected) {
-    return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title={t('Construction ledger unavailable')} description={t('Your progress could not be loaded. No construction credit has been changed.')} action={<Button onClick={() => void refresh()}>{t('Try again')}</Button>} /></Panel></PageContainer>
+    return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title={t('Construction ledger unavailable')} description={t('No construction credit has changed.')} action={<Button onClick={() => void refresh()}>{t('Try again')}</Button>} /></Panel></PageContainer>
   }
 
   if (!data.enabled) {
@@ -297,7 +298,7 @@ export function Maristanas() {
                 [Clock3, t('Focused study'), `${duration(data.studyMinutes)} ${t('recorded')}`, data.breakdown.study],
                 [ListChecks, t('Questions answered'), `${data.questionsAnswered.toLocaleString()} ${t('attempts')}`, data.breakdown.questions],
                 [Award, t('Correct-answer credit'), accuracy == null ? t('No marked answers yet') : t('{n}% accuracy').replace('{n}', String(accuracy)), data.breakdown.accuracy],
-                [Sparkles, t('Assessment scores'), data.averageAssessmentScore == null ? t('No assessment session yet') : t('{sessions} sessions · {score}% avg').replace('{sessions}', String(data.assessmentSessions)).replace('{score}', String(data.averageAssessmentScore)), data.breakdown.assessments],
+                [ClipboardCheck, t('Assessment scores'), data.averageAssessmentScore == null ? t('No assessment session yet') : t('{sessions} sessions · {score}% avg').replace('{sessions}', String(data.assessmentSessions)).replace('{score}', String(data.averageAssessmentScore)), data.breakdown.assessments],
               ].map(([Glyph, label, detail, value]) => (
                 <div key={String(label)} className="flex items-center gap-3 px-4 py-3.5">
                   <span className="grid size-8 shrink-0 place-items-center rounded-md bg-surface-2 text-ink-2"><Icon icon={Glyph as typeof Clock3} size={15} /></span>

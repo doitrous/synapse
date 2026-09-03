@@ -106,7 +106,6 @@ function FlashcardsShell() {
     <PageContainer>
       <PageHeader
         title={t('Flashcards')}
-        description={t('Build, study and track your cards — spaced repetition on Anki’s own schedule.')}
         actions={
           <div className="flex items-center gap-1">
             <IconButton icon={GraduationCap} label={t('How to use Flashcards')} size="sm" onClick={() => setGuideOpen(true)} />

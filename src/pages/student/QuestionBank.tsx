@@ -24,7 +24,7 @@ import {
   PenLine,
   Trash2,
   Columns2,
-  Sparkles,
+  Layers,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
 import type { AttemptRecord } from '@/data/attempts'
@@ -2341,7 +2341,7 @@ export function QuestionBank() {
                   onClick={() => { const correct = q.options.find((option) => option.correct); setFlashcardSeed({ front: q.stem, back: correct ? correct.text : q.explanation }) }}
                   className="inline-flex min-h-11 items-center gap-1.5 rounded-md border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 transition-colors hover:bg-surface-2 hover:text-ink sm:min-h-0"
                 >
-                  <Icon icon={Sparkles} size={14} /> {t('Create flashcard')}
+                  <Icon icon={Layers} size={14} /> {t('Create flashcard')}
                 </button>
               </div>
             )}

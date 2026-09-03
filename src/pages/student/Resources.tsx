@@ -46,6 +46,7 @@ import { FilterChip } from '@/components/ui/FilterChip'
 import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { SkeletonList } from '@/components/ui/Skeleton'
 import { SubjectDot } from '@/components/ui/Subject'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
@@ -250,10 +251,7 @@ export function Resources() {
   return (
     <PageContainer>
       <BackBar />
-      <PageHeader
-        title={t('Resources')}
-        description={t('Every book, video, guideline, and deck — filter by subject and type, and save what you use.')}
-      />
+      <PageHeader title={t('Resources')} />
 
       {/* Prominent Files / Videos switch + organize-by control */}
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
@@ -665,7 +663,7 @@ function MyUploads() {
       </Panel>
 
       {documents.loading ? (
-        <Panel><p className="p-6 text-center text-[13px] text-ink-3">{t('Opening…')}</p></Panel>
+        <Panel><div aria-label={t('Opening…')}><SkeletonList rows={4} className="p-5" /></div></Panel>
       ) : readable.length === 0 && mediaRows.length === 0 ? (
         <Panel>
           <EmptyState

@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { CircleCheck, ClipboardList, ListChecks, MessagesSquare, Microscope, PenLine, Sparkles } from 'lucide-react'
+import { CircleCheck, ClipboardList, ListChecks, MessagesSquare, Microscope, PenLine, Radar } from 'lucide-react'
 import { FeatureCard, FeatureGrid, HubPage, HubStat } from '@/components/hub'
 import { dailyCounts } from '@/data/attemptStats'
 import { oralQuestions, skills } from '@/data/practical'
@@ -113,7 +113,7 @@ export function Practice() {
         />
         <FeatureCard
           to="/app/adaptive"
-          icon={Sparkles}
+          icon={Radar}
           title={t('Adaptive Study')}
           description={t('A session that follows your weakest concepts and re-times them as they firm up.')}
           status="coming-soon"

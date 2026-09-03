@@ -21,7 +21,6 @@ export function Histology() {
     <PageContainer>
       <PageHeader
         title={t('Histology')}
-        description={t('The slide box and the microscope — pan, zoom, and name what is under the lens.')}
         back={{ fallback: '/app/practice' }}
         actions={slides.length ? (
           <HubStat label="Slides" value={String(slides.length)} sub={slides.length === 1 ? 'slide published' : 'slides published'} />

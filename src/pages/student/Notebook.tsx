@@ -8,6 +8,7 @@ import { IconButton } from '@/components/ui/IconButton'
 import { Icon } from '@/components/ui/Icon'
 import { SearchInput } from '@/components/ui/Field'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { Skeleton, SkeletonList } from '@/components/ui/Skeleton'
 import { cn } from '@/lib/cn'
 import { subjects } from '@/data/subjects'
 import { Select } from '@/components/ui/Field'
@@ -555,7 +556,7 @@ function ManagedNotebookImage({ document, documentId, legacySource }: { document
   }, [document?.ref, documentId, legacySource, t])
 
   if (error) return <p role="alert" className="p-4 text-center text-[12px] text-danger">{error}</p>
-  if (!source) return <p role="status" className="p-4 text-center text-[12px] text-ink-3">{t('Loading image…')}</p>
+  if (!source) return <div aria-label={t('Loading image…')}><Skeleton className="h-48 w-full" /></div>
   return <ZoomableImage src={source} alt={document?.title ?? t('Pasted into this note')} className="max-h-96 w-full object-contain" />
 }
 
@@ -643,7 +644,7 @@ function SharedNotesList({
     } catch { /* the server keeps the truth */ }
   }
 
-  if (shared.loading) return <p className="px-4 py-6 text-center text-[12.5px] text-ink-3">{t('Opening shared notes…')}</p>
+  if (shared.loading) return <div aria-label={t('Opening shared notes…')}><SkeletonList rows={3} className="px-2 py-3" /></div>
   if (!API_MODE) return <DemoSharedNotesList query={query} />
   if (shared.error) return <p role="alert" className="px-4 py-6 text-center text-[12.5px] text-danger">{t(shared.error)}</p>
   if (!items.length) return <p className="px-4 py-6 text-center text-[12.5px] text-ink-3">{t('No shared notes match.')}</p>

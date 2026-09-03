@@ -5,6 +5,7 @@ import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
+import { EmptyState } from '@/components/ui/EmptyState'
 import { SearchInput } from '@/components/ui/Field'
 import { TargetRing } from '@/components/ui/TargetRing'
 import { TermCard } from '@/components/terminology/TermCard'
@@ -120,7 +121,6 @@ export function MedicalTerminology() {
     <PageContainer>
       <PageHeader
         title={t('Medical Terminology')}
-        description={t('The terms you meet first, in English and Arabic — flip a card to check yourself, then mark the ones that have landed.')}
         back={{ fallback: '/app/learn' }}
         actions={(
           <div className="flex items-center gap-4">
@@ -134,10 +134,12 @@ export function MedicalTerminology() {
       />
 
       {isEmpty ? (
-        <Panel className="p-10 text-center">
-          <Icon icon={BookA} size={22} className="mx-auto text-ink-3" />
-          <p className="mt-2 text-[13px] font-medium text-ink">{t('The glossary has not been published yet.')}</p>
-          <p className="mx-auto mt-1.5 max-w-sm text-[12.5px] leading-relaxed text-ink-3">{t('Terms appear here once they are published in the admin console.')}</p>
+        <Panel className="p-10">
+          <EmptyState
+            icon={BookA}
+            title={t('The glossary has not been published yet.')}
+            description={t('Terms appear here once they are published in the admin console.')}
+          />
         </Panel>
       ) : (
         <>
@@ -184,9 +186,11 @@ export function MedicalTerminology() {
             </div>
 
             {groups.length === 0 ? (
-              <Panel className="mt-4 p-10 text-center">
-                <Icon icon={BookA} size={22} className="mx-auto text-ink-3" />
-                <p className="mt-2 text-[13px] font-medium text-ink">{hideKnown && filtered.length ? t('Everything here is marked as known.') : t('No terms match your search.')}</p>
+              <Panel className="mt-4 p-10">
+                <EmptyState
+                  icon={BookA}
+                  title={hideKnown && filtered.length ? t('Everything here is marked as known.') : t('No terms match your search.')}
+                />
               </Panel>
             ) : (
               <div className="mt-5 space-y-8">

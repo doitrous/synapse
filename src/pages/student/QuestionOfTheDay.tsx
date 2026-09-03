@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { NishanyLoader } from '@/components/ui/NishanyLoader'
+import { Skeleton, SkeletonList } from '@/components/ui/Skeleton'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { Avatar } from '@/components/ui/Avatar'
 import { QuestionView } from '@/components/qbank/QuestionView'
@@ -95,9 +95,7 @@ function QotdLeaderboardPanel({
         hint={data?.scope ? [data.scope.universityId, data.scope.year].filter(Boolean).join(' · ') : undefined}
       />
       {loading ? (
-        <div className="space-y-2 p-5" aria-label={t('Loading leaderboard')}>
-          {[0, 1, 2].map((row) => <div key={row} className="h-10 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />)}
-        </div>
+        <div aria-label={t('Loading leaderboard')}><SkeletonList rows={3} className="p-5" /></div>
       ) : failed || !data || data.rows.length === 0 ? (
         <div className="p-8">
           <EmptyState icon={Trophy} title={t('No ranking yet')} description={t('The board appears once your cohort starts answering.')} />
@@ -156,9 +154,7 @@ function QotdFriendsPanel({ data, loading }: { data: QotdFriendsResponse | null;
     <Panel>
       <PanelHeader title={t('Friends')} icon={Users} />
       {loading ? (
-        <div className="space-y-2 p-5" aria-label={t('Loading friends')}>
-          {[0, 1].map((row) => <div key={row} className="h-10 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />)}
-        </div>
+        <div aria-label={t('Loading friends')}><SkeletonList rows={2} className="p-5" /></div>
       ) : !data || data.friends.length === 0 ? (
         <div className="p-8">
           <EmptyState icon={Users} title={t('No friends yet')} description={t('Add friends to compare today’s streaks.')} />
@@ -299,8 +295,13 @@ export function QuestionOfTheDay() {
           />
           <div className="p-5">
             {qotd.loading ? (
-              <div className="grid min-h-40 place-items-center">
-                <NishanyLoader size={44} label={t('Loading')} />
+              <div className="space-y-3" aria-label={t('Loading')}>
+                <Skeleton className="h-5 w-3/4" />
+                <Skeleton className="h-4 w-full" />
+                <Skeleton className="h-4 w-5/6" />
+                <div className="mt-2 space-y-2">
+                  {[0, 1, 2, 3].map((i) => <Skeleton key={i} className="h-11 w-full" />)}
+                </div>
               </div>
             ) : !qotd.question ? (
               <EmptyState

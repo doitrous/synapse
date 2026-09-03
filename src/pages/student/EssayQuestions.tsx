@@ -321,7 +321,6 @@ export function EssayQuestions() {
     <PageContainer>
       <PageHeader
         title={t('Essay questions')}
-        description={t('Read a written question, write your answer, then reveal the key points and mark yourself against them.')}
       />
 
       <Guide />

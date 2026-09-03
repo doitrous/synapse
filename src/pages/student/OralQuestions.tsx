@@ -21,7 +21,6 @@ export function OralQuestions() {
     <PageContainer>
       <PageHeader
         title={t('Oral questions')}
-        description={t('The questions asked across the table: answer aloud, reveal the model answer, then mark yourself on it.')}
         back={{ fallback: '/app/practice' }}
         actions={oralQuestions.length ? (
           <HubStat
