@@ -13869,3 +13869,1043 @@ resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, 
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: 2024 EOM paper, Q59.
+
+---
+
+# Item
+## id
+CON-FND-BFA53B2632D1BF
+## label
+Left-sided heart failure (or mitral stenosis) causes passive pulmonary congestion, while right-sided heart failure causes systemic and hepatic congestion
+## canonical_key
+congestion.chronic-venous.heart-failure-laterality
+## aliases
+Chronic venous congestion of the lung
+Left vs right heart failure congestion
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book names mitral stenosis or left-sided heart failure as the cause of chronic venous congestion of the lung: blood backs up behind the failing left ventricle into the pulmonary circulation, producing lungs that are early dark red, moist and heavy, later brown and indurated, with alveolar heart-failure cells (hemosiderin-laden macrophages). Right-sided heart failure instead backs blood up into the systemic venous circulation, causing systemic congestion and congestion of the liver (nutmeg liver), not the lung. This is a specific clinical application of the general congestion mechanism -- congestion is a passive process from impaired blood outflow -- naming exactly which side of heart failure produces which organ's chronic venous congestion.
+## explicit_objective
+State that left-sided heart failure (or mitral stenosis) causes chronic passive pulmonary congestion, while right-sided heart failure causes systemic/hepatic congestion, not the reverse.
+## pitfalls
+Assuming any heart failure congests the lungs, or confusing the affected organ with the failing ventricle's own side rather than the side whose venous return is obstructed -- the book pairs left heart failure specifically with lung congestion (blood dams up behind the left ventricle into the pulmonary veins) and right heart failure specifically with systemic/liver congestion (blood dams up behind the right ventricle into the systemic veins).
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Disorders of blood flow
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Hyperemia and Congestion
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-70B16C02F32AA5
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-CONGESTION-LATERALITY-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Passive congestion of the lungs is commonly caused by: a. Left-sided heart failure. b. Right-sided heart failure. c. Pulmonary embolism. d. Hypovolemic shock." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "left heart failure lung congestion right heart failure liver congestion" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.67-68 (Chapter 4, Hyperemia and Congestion, Examples of congestion).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-70B16C02F32AA5 (general congestion definition), applying it to the specific lung-vs-liver, left-vs-right heart-failure case named by the department book's own figure (4.2).
+
+---
+
+# Item
+## id
+CON-FND-3DFF688861D520
+## label
+Non-pitting edema occurs in inflammatory edema and edema from lymphatic obstruction, because the accumulated fluid is protein-rich
+## canonical_key
+edema.classification.pitting-vs-nonpitting
+## aliases
+Pitting edema
+Non-pitting edema
+Protein-rich vs protein-poor edema fluid
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pitting edema is the sign produced when finger pressure over markedly edematous subcutaneous tissue displaces the interstitial fluid and leaves a depression; it is produced by the low-protein transudate of hydrostatic-pressure or oncotic-pressure causes of edema (e.g. cardiac, hepatic or renal edema). Non-pitting edema instead occurs in inflammatory edema and edema due to lymphatic obstruction, because in both cases the fluid is rich in protein and does not readily displace under pressure.
+## explicit_objective
+State that non-pitting edema is produced specifically by inflammatory edema and lymphatic-obstruction edema, because their fluid is protein-rich, unlike the protein-poor transudate of hydrostatic/oncotic-pressure edema which pits.
+## pitfalls
+Assuming any cause of edema (cardiac, hepatic, renal) produces the same pitting sign -- the book ties the pitting-vs-non-pitting distinction specifically to the protein content of the accumulated fluid, not to the volume or organ involved.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Disorders of blood flow
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 4 Disorders of Blood Flow > Edema
+## article_ids
+ART-FND-208INT-HEMODYNAMICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-86BABEB81453F4
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-EDEMA-PITTING-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following conditions is associated with non pitting edema: a. Cardiac edema. b. Liver cirrhosis. c. Lymphatic obstruction. d. Renal edema." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "pitting edema non-pitting edema lymphatic obstruction protein rich" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.71 (Chapter 4, Edema, pitting vs non-pitting edema note).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-86BABEB81453F4 (general causes of edema), adding the book's pitting-vs-non-pitting morphological distinction.
+
+---
+
+# Item
+## id
+CON-INF-C5196C7E378EFE
+## label
+Gohn's focus is a subpleural lung lesion at the base of the upper lobe or upper part of the lower lobe, the parenchymal half of the primary pulmonary complex
+## canonical_key
+tuberculosis.primary.gohn-focus-location
+## aliases
+Gohn's focus
+Primary pulmonary complex — parenchymal lesion
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book describes Gohn's focus as a grey focus of inflammation, 1-1.5 cm, developing in the peripheral part of the lung underneath the pleura, usually located at the base of the upper lobe or the upper part of the lower lobe; it later becomes yellow and caseous. Together with hilar (tracheobronchial) lymph node involvement reached by lymphatic spread, it forms the primary pulmonary complex -- Gohn's focus is the parenchymal (subpleural lung) component, distinct from the nodal component.
+## explicit_objective
+Locate Gohn's focus as a subpleural lesion at the lung base/upper-lobe region, and distinguish it from the hilar lymph node component of the primary pulmonary complex and from the apical location of secondary (reactivation) tuberculosis.
+## pitfalls
+Placing Gohn's focus at the lung apex -- that is instead the classic site of secondary/reactivation pulmonary tuberculosis, a different lesion with a different immune picture; or conflating Gohn's focus (the parenchymal lesion) with the tracheobronchial lymph node (the nodal component reached by lymphatic spread from it).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T01-S03
+## topic
+Pathology
+## subtopic
+Bacterial infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Tuberculosis
+## article_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+CON-INF-4FF695608AFC33
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-INF-208INT-GOHN-FOCUS-LOCATION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Gohn's focus is seen in: a. Lung apex. b. Underneath the pleura. c. Tracheobronchial lymph nodes. d. Tonsils." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "gohn's focus location subpleural lung apex" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.91 (Chapter 5, Tuberculosis, Pathological Features of primary pulmonary complex).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-INF-4FF695608AFC33 (sites of primary tuberculosis), naming the precise intrapulmonary location of the lung site's own lesion.
+
+---
+
+# Item
+## id
+CON-FND-9627902504EE0D
+## label
+Incision biopsy samples part of a lesion for diagnosis; excision biopsy removes the whole lesion; core needle, endoscopic and punch biopsy are the book's other named sampling methods
+## canonical_key
+techniques.tissue-sampling.biopsy-types
+## aliases
+Incision biopsy
+Excision biopsy
+Tissue sampling methods
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book's Techniques Used in Pathology chapter lists surgical pathology's tissue-sampling methods: excision biopsy (removal of the whole lesion, which can also serve as a form of local treatment, e.g. of a rodent ulcer); incision biopsy (only part of the lesion is sampled); core needle biopsy (sampling using a hollow needle, e.g. liver core biopsy); endoscopic biopsy (removal of tissue through an endoscope, e.g. gastric ulcer biopsy); and punch biopsy.
+## explicit_objective
+Distinguish incision biopsy (part of the lesion sampled) from excision biopsy (the whole lesion removed) and from core needle and endoscopic biopsy, as the department book's named tissue-sampling methods.
+## pitfalls
+Confusing incision biopsy (part of the lesion, leaving the rest in place) with excision biopsy (the entire lesion removed, which can double as treatment) -- the two terms sound alike but name opposite extents of sampling.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Techniques used in pathology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 11 Techniques Used in Pathology > Tissue Sampling Methods
+## article_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-BIOPSY-TYPES-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following best describes an incision biopsy: a. Removal of part of the lesion for diagnosis. b. Removal of the whole lesion. c. Sampling using a hollow needle. d. Removal of tissue through an endoscope." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "incision biopsy excision biopsy tissue sampling methods" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.128 (Chapter 11, Techniques Used in Pathology, Methods for tissue sampling).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the specimen fixation and cytopathology concepts minted from the same Techniques Used in Pathology chapter.
+
+---
+
+# Item
+## id
+CON-FND-DA7DB8363476CF
+## label
+Squamous cell carcinoma is graded by the percentage of the tumor consisting of cell nests, from Grade I (75-100%) to Grade IV (0-25%)
+## canonical_key
+neoplasia.scc-grading.cell-nest-percentage
+## aliases
+Broder's grading
+Grading of squamous cell carcinoma
+Cell nest percentage grading
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book grades squamous cell carcinoma by the percentage of the tumor formed of cell nests -- nests of malignant cells that recapitulate the epidermis's normal maturation, with a rim of basal-type cells, then prickle cells, then a keratin-pearl centre. Grade I is 75-100% cell nests; Grade II is 50-75%; Grade III is 25-50%; Grade IV is 0-25% (anaplastic carcinoma may show no cell nests at all). This is distinct from the book's staging (TNM) system, which measures anatomic spread rather than differentiation, and from adenocarcinoma's own grading criterion (degree of acinar/gland formation).
+## explicit_objective
+State that squamous cell carcinoma grading is based on the percentage of cell nests present (Grade I 75-100% down to Grade IV 0-25%), distinct from adenocarcinoma's acinar-formation criterion and from TNM staging.
+## pitfalls
+Naming acinar (gland) formation as squamous cell carcinoma's grading criterion -- that criterion belongs to adenocarcinoma grading instead; or confusing grading (differentiation) with staging (TNM, anatomic extent/spread), which are the book's two separate axes.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Staging and Grading > Squamous Cell Carcinoma Grading
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-SCC-GRADING-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Broder's grading of squamous cell carcinoma depends on: a. Degree of acinar formation. b. Percent of cell nest formation. c. Extent of stromal invasion. d. The presence of distant spread." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "broder's grading squamous cell carcinoma cell nest percentage" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.50 (Chapter 3, Squamous Cell Carcinoma, Grading of Squamous Cell Carcinoma).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the TNM staging concept, naming squamous cell carcinoma's specific grading criterion on the differentiation axis that TNM staging does not cover.
+
+---
+
+# Item
+## id
+CON-FND-00B61A6D733BBA
+## label
+Colloid (mucinous) carcinoma is an adenocarcinoma with abundant extracellular mucin, distinct from signet ring cell carcinoma's intracellular mucin
+## canonical_key
+neoplasia.adenocarcinoma.colloid-vs-signet-ring
+## aliases
+Colloid carcinoma
+Mucinous adenocarcinoma
+Signet ring cell carcinoma
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book names two mucin-secreting adenocarcinoma types. Mucinous adenocarcinoma (mucoid or colloid carcinoma) is an adenocarcinoma with abundant EXTRACELLULAR mucin secretion, pooling around the tumor cells. Signet ring cell carcinoma instead shows INTRAcytoplasmic mucin that pushes each malignant cell's nucleus eccentrically, with no acinar differentiation. Carcinoma simplex (undifferentiated carcinoma) is a third, separate category that neither forms acini nor secretes mucin at all.
+## explicit_objective
+Distinguish colloid (mucinous) carcinoma's abundant extracellular mucin from signet ring cell carcinoma's intracellular mucin, and from well differentiated adenocarcinoma's acinar pattern and carcinoma simplex's total absence of mucin/acini.
+## pitfalls
+Confusing colloid carcinoma's extracellular mucin pools with signet ring cell carcinoma's intracellular mucin -- both are mucin-secreting adenocarcinomas in the book's classification, but the mucin sits in a different compartment in each, which is exactly the distinguishing feature.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > General Features of Carcinoma > Adenocarcinoma
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-COLLOID-CARCINOMA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A malignant glandular tumor that exhibits abundant extracellular mucin is: a. Carcinoma simplex. b. Colloid carcinoma. c. Signet ring cell carcinoma. d. Well differentiated adenocarcinoma." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "colloid carcinoma mucinous adenocarcinoma extracellular mucin signet ring" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.52 (Chapter 3, Adenocarcinoma, Mucin secreting carcinomas).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the well differentiated adenocarcinoma and carcinoma-simplex concepts from the same department-book Adenocarcinoma section.
+
+---
+
+# Item
+## id
+CON-FND-8822BE26959625
+## label
+Healing by first intention closes a clean incised wound through basal-cell epithelial regeneration bridging the gap, with only a small amount of granulation tissue, ending in a fine pale linear scar
+## canonical_key
+healing.wound-types.first-intention-mechanism
+## aliases
+First intention healing
+Primary union
+## arabic_label
+
+## arabic_aliases
+
+## definition
+First intention healing occurs in incised wounds (e.g. surgical wounds) with little tissue damage on either side of the cut. A fibrin clot seals the gap; within 24-48 hours basal epidermal cells proliferate and migrate to bridge the gap (epithelial regeneration); a small amount of granulation tissue forms from the wound edges to repair the dermis beneath; collagen unites the edges by about day 7. The end result is a fine, pale linear scar. This is distinct from second intention healing, used for open gaping, infected or tissue-loss wounds, which forms abundant granulation tissue growing from the base of the wound, takes longer, and closes partly by myofibroblast-driven wound contraction.
+## explicit_objective
+Describe first intention healing as clean-incision closure by basal-cell epithelial regeneration plus a small amount of dermal granulation tissue, ending in a fine linear scar -- distinct from second intention's abundant granulation tissue and wound contraction for gaping or tissue-loss wounds.
+## pitfalls
+Attributing abundant granulation tissue, wound contraction or a large/deforming scar to first intention healing -- the book reserves those features for second intention healing of open, gaping or tissue-loss wounds; first intention's own defining features are minimal tissue damage, epithelial bridging, only a small amount of granulation tissue, and a fine linear scar.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S02
+## topic
+Pathology
+## subtopic
+Inflammation and repair
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 2 Healing and Repair > Healing by First Intention
+## article_ids
+ART-FND-208INT-HEALING-AND-REPAIR
+## related_article_ids
+
+## related_concept_ids
+CON-FND-9853F779478D1A
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-FIRST-INTENTION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Wound healing by first intention is characterized by: a. Large scar followed by wound contraction. b. Extensive tissue damage. c. Closure of the gap by epithelial regeneration followed by granulation tissue formation. d. Severe cosmetic deformities." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "healing by first intention primary union epithelial regeneration granulation tissue" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.25-26 (Chapter 2, Healing and Repair, Healing of wounds by first intention).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of CON-FND-9853F779478D1A (granulation tissue composition), naming first intention's specific step-by-step wound-closure mechanism and contrasting it with second intention.
+
+---
+
+# Item
+## id
+CON-FND-A76EAB3A0D9030
+## label
+Masson trichrome is the department book's named trichrome stain for collagen, distinct from its mucin stains (Alcian blue, PAS, mucicarmine) and fat stain (Sudan black)
+## canonical_key
+techniques.special-stains.masson-trichrome-collagen
+## aliases
+Masson trichrome
+Trichrome stain for collagen
+Special histochemical stains
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The department book's special-stains list groups histochemical stains by target: mucin stains (Alcian blue, PAS/periodic acid-Schiff, and mucicarmine); a fat stain (Sudan black); and trichrome stains for collagen, naming Masson trichrome as the example -- used, for instance, to score the amount of fibrosis present on a liver biopsy.
+## explicit_objective
+Name Masson trichrome as the department book's stain for collagen/fibrosis, distinct from its mucin stains (Alcian blue, PAS, mucicarmine) and fat stain (Sudan black).
+## pitfalls
+Reaching for a mucin stain (Alcian blue, PAS or mucicarmine) or the fat stain (Sudan black) to demonstrate fibrosis -- the book assigns collagen/fibrosis detection specifically to the trichrome stains, exemplified by Masson trichrome, not to the mucin or fat stains.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Techniques used in pathology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 11 Techniques Used in Pathology > Special Stains
+## article_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-MASSON-TRICHROME-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following stains is used to detect fibrosis: a. Alcian blue. b. Mucicarmine. c. Sudan black. d. Masson trichrome." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "masson trichrome stain fibrosis collagen special stains" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.130-131 (Chapter 11, Techniques Used in Pathology, special stains list and liver-biopsy fibrosis-scoring example).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the cytopathology and specimen fixation concepts minted from the same Techniques Used in Pathology chapter.
+
+---
+
+# Item
+## id
+CON-FND-195B5CEBF55511
+## label
+Heroin addiction causes disseminated angiitis, meningitis/brain infections, transmitted infections and infective endocarditis -- distinct from alcohol abuse's gastritis, cardiomyopathy, peripheral neuritis and oral cancer
+## canonical_key
+environmental.street-drugs.heroin-complications
+## aliases
+Heroin addiction complications
+Street drugs — cultural factors
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Under the department book's Cultural Factors section, heroin addiction's complications are named as disseminated angiitis, meningitis and brain infections, transmitted infections (AIDS, hepatitis, etc.) and infective endocarditis. These are listed separately from alcohol abuse's own effects in the same section -- fatty change/hepatitis/cirrhosis, cardiomyopathy and hypertension, acute/chronic gastritis and pancreatitis, testicular atrophy, peripheral neuritis, and cancer of the oral cavity, pharynx, esophagus, liver and breast -- and from tobacco and cocaine's separately listed effects.
+## explicit_objective
+Name disseminated angiitis, meningitis/brain infections, transmitted infections and infective endocarditis as the department book's heroin-addiction complications, distinguishing them from alcohol abuse's gastritis, cardiomyopathy, peripheral neuritis and oral-cavity cancer in the same Cultural Factors list.
+## pitfalls
+Attributing alcohol abuse's effects (gastritis, cardiomyopathy, peripheral neuritis, oral cancer) to heroin, or vice versa -- the book lists tobacco, alcohol, and street drugs (bango, cocaine, heroin) as separate sub-sections, each with its own distinct complication list.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Environmental pathology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 9 Environmental Pathology > Cultural Factors > Street Drugs
+## article_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-HEROIN-COMPLICATIONS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Heroin addiction can cause: a. Acute gastritis. b. Cardiomyopathy. c. Disseminated angiitis. d. Peripheral neuritis." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "heroin addiction disseminated angiitis street drugs cultural factors" before minting -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.127 (Chapter 9, Cultural Factors, Street drugs — Heroin).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: Sibling of the total body irradiation and pellagra concepts grouped under the same late-chapter environmental-pathology article.

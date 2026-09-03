@@ -2129,3 +2129,255 @@ Dr Abdallah Salah, PHARMA IN POINTS (2nd priority instructor material).
 0.75
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-CONGESTION-LATERALITY-01
+## claim_id
+CLM-FND-208INT-CONGESTION-LATERALITY-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Chronic venous congestion of the lung: Causes: It occurs in mitral stenosis or left side heart failure... Right sided heart failure will cause systemic congestion and congestion of the liver.
+## locator_type
+printed_page
+## locator_page
+67-68
+## locator_section
+Hyperemia and Congestion — Examples of congestion
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-EDEMA-PITTING-01
+## claim_id
+CLM-FND-208INT-EDEMA-PITTING-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+N.B. Non pitting edema occurs in inflammatory edema and edema due to lymphatic obstruction, because the fluid is rich in protein.
+## locator_type
+printed_page
+## locator_page
+71
+## locator_section
+Edema
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-INF-208INT-GOHN-FOCUS-LOCATION-01
+## claim_id
+CLM-INF-208INT-GOHN-FOCUS-LOCATION-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+1. Gohn's focus: A grey focus of inflammation develops in the peripheral part of the lung underneath the pleura measuring 1-1.5 cm. It is usually located in the base of the upper lobe or upper part of the lower lobe.
+## locator_type
+printed_page
+## locator_page
+91
+## locator_section
+Tuberculosis — Pathological Features of primary pulmonary complex
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-BIOPSY-TYPES-01
+## claim_id
+CLM-FND-208INT-BIOPSY-TYPES-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Excision biopsy: The whole lesion removal... Incision biopsy: Part of the lesion is sampled. Core needle biopsy. Endoscopic biopsy. Punch biopsy.
+## locator_type
+printed_page
+## locator_page
+128
+## locator_section
+Techniques Used in Pathology — Methods for tissue sampling
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-SCC-GRADING-01
+## claim_id
+CLM-FND-208INT-SCC-GRADING-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Grading of Squamous Cell Carcinoma: Grade I: 75-100% of the tumor consists of cell nests. Grade II: 50-75% cell nests. Grade III: 25-50% cell nests. Grade IV: 0-25% cell nests.
+## locator_type
+printed_page
+## locator_page
+50
+## locator_section
+Squamous Cell Carcinoma — Grading
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-COLLOID-CARCINOMA-01
+## claim_id
+CLM-FND-208INT-COLLOID-CARCINOMA-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Mucinous adenocarcinoma (mucoid or colloid Carcinoma): This is an adenocarcinoma with abundant extracellular mucin secretion. Signet ring cell carcinoma: The malignant cells show intracytoplasmic mucin that pushes the nuclei eccentrically.
+## locator_type
+printed_page
+## locator_page
+52
+## locator_section
+Adenocarcinoma — Mucin secreting carcinomas
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-FIRST-INTENTION-01
+## claim_id
+CLM-FND-208INT-FIRST-INTENTION-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Within 24-48 hours, basal cells start to proliferate (regeneration) and migrate to bridge the gap... Small amount of granulation tissue (capillaries and fibroblasts) form from the edges of the wound to repair the dermis... The end result of healing by first intention is a fine pale linear scar.
+## locator_type
+printed_page
+## locator_page
+25-26
+## locator_section
+Healing and Repair — Healing of wounds by first intention
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-MASSON-TRICHROME-01
+## claim_id
+CLM-FND-208INT-MASSON-TRICHROME-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+3. Trichrome stains for collagen e.g. Masson trichrome. 1. Mucin stains: Alcian blue - PAS (periodic acid-Schiff) - Mucicarmine. 2. Fat stains: Sudan Black.
+## locator_type
+printed_page
+## locator_page
+130-131
+## locator_section
+Techniques Used in Pathology — Special stains
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-HEROIN-COMPLICATIONS-01
+## claim_id
+CLM-FND-208INT-HEROIN-COMPLICATIONS-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+(c) Heroin: Addiction may result in: Disseminated angiitis. Meningitis and brain infections. Transmitted infections: AIDS, hepatitis. Infective endocarditis.
+## locator_type
+printed_page
+## locator_page
+127
+## locator_section
+Cultural Factors — Street drugs, Heroin
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes

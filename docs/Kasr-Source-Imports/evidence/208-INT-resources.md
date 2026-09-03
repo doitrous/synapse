@@ -223,3 +223,41 @@ University teaching material held for internal extraction only. Not redistributa
 0.9
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_7e6772728d88d042c687
+## title
+EOY - (INT-208) {198 2nd} (Solved)
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+208 INT/EOY/EOY - (INT-208) {198 2nd} (Solved).pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+18
+## sha256
+7e6772728d88d042c6876ab2b62e22f3610255350cce0d94eca0a28f5b57336e
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it.
+## qualification
+208 INT End-of-Year exam, Baqoon (2nd) sitting, 19/8/2026 printed date. Mixed-format paper (1 case, 2 SAQ, 20 MCQ and 16 matching questions for Pathology; 4-6 SAQ and 36 matching questions for Pharmacology) — only the 20-question MCQ section (p.7-10) is in scope for this SBA-format lane; the matching section (Q21-72) and SAQ/case sections are out of scope. Answer key visually marked by a cyan highlight-circle over the correct option letter (per-question, not a separate printed key table); native text layer, no OCR needed; all 20 MCQ keys confirmed by render (p.7-10) since pagetext.mjs keys did not auto-detect this circle-marker style. Printed date (19/8/2026) confirms 2026 sitting per coverage/KAU-Y2-priority-sources.md.
+## confidence
+0.9
+## is_assessment
+true

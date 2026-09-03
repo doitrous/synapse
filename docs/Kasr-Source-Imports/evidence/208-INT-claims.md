@@ -2357,3 +2357,282 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Kasr Al Ainy 208 INT — Pharmacology, Sympathomimetics
+
+---
+
+# Item
+## id
+CLM-FND-208INT-CONGESTION-LATERALITY-01
+## concept_id
+CON-FND-BFA53B2632D1BF
+## subject
+Chronic venous congestion of the lung vs liver
+## predicate
+is caused by
+## object
+mitral stenosis or left-sided heart failure for the lung, and right-sided heart failure for systemic/hepatic (nutmeg liver) congestion
+## display_text
+Left-sided heart failure (or mitral stenosis) causes chronic passive lung congestion; right-sided heart failure causes systemic and hepatic (nutmeg liver) congestion.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 4, Hyperemia and Congestion
+
+---
+
+# Item
+## id
+CLM-FND-208INT-EDEMA-PITTING-01
+## concept_id
+CON-FND-3DFF688861D520
+## subject
+Non-pitting edema
+## predicate
+occurs in
+## object
+inflammatory edema and edema due to lymphatic obstruction, because the fluid is protein-rich
+## display_text
+Non-pitting edema occurs in inflammatory edema and lymphatic-obstruction edema because the accumulated fluid is protein-rich, unlike the protein-poor transudate of hydrostatic/oncotic-pressure edema.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 4, Edema
+
+---
+
+# Item
+## id
+CLM-INF-208INT-GOHN-FOCUS-LOCATION-01
+## concept_id
+CON-INF-C5196C7E378EFE
+## subject
+Gohn's focus
+## predicate
+is located
+## object
+in the peripheral lung underneath the pleura, usually at the base of the upper lobe or upper part of the lower lobe
+## display_text
+Gohn's focus is a subpleural lung lesion at the base of the upper lobe/upper part of the lower lobe, the parenchymal component of the primary pulmonary complex.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 5, Tuberculosis
+
+---
+
+# Item
+## id
+CLM-FND-208INT-BIOPSY-TYPES-01
+## concept_id
+CON-FND-9627902504EE0D
+## subject
+Incision biopsy
+## predicate
+is defined as
+## object
+sampling only part of a lesion for diagnosis, distinct from excision biopsy (removal of the whole lesion)
+## display_text
+Incision biopsy samples part of a lesion for diagnosis; excision biopsy removes the whole lesion.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 11, Techniques Used in Pathology
+
+---
+
+# Item
+## id
+CLM-FND-208INT-SCC-GRADING-01
+## concept_id
+CON-FND-DA7DB8363476CF
+## subject
+Squamous cell carcinoma grading
+## predicate
+is based on
+## object
+the percentage of the tumor consisting of cell nests, from Grade I (75-100%) to Grade IV (0-25%)
+## display_text
+Squamous cell carcinoma is graded by percentage of cell nest formation: Grade I 75-100%, Grade II 50-75%, Grade III 25-50%, Grade IV 0-25%.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Squamous Cell Carcinoma
+
+---
+
+# Item
+## id
+CLM-FND-208INT-COLLOID-CARCINOMA-01
+## concept_id
+CON-FND-00B61A6D733BBA
+## subject
+Colloid (mucinous) carcinoma
+## predicate
+is defined by
+## object
+abundant extracellular mucin secretion, distinct from signet ring cell carcinoma's intracellular mucin
+## display_text
+Colloid (mucinous) carcinoma is an adenocarcinoma with abundant extracellular mucin, distinct from signet ring cell carcinoma's intracellular mucin.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Adenocarcinoma
+
+---
+
+# Item
+## id
+CLM-FND-208INT-FIRST-INTENTION-01
+## concept_id
+CON-FND-8822BE26959625
+## subject
+Healing by first intention
+## predicate
+closes the wound by
+## object
+basal-cell epithelial regeneration bridging the gap plus a small amount of granulation tissue, ending in a fine pale linear scar
+## display_text
+First intention healing closes a clean incision by epithelial regeneration plus a small amount of granulation tissue, ending in a fine linear scar.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 2, Healing and Repair
+
+---
+
+# Item
+## id
+CLM-FND-208INT-MASSON-TRICHROME-01
+## concept_id
+CON-FND-A76EAB3A0D9030
+## subject
+Fibrosis/collagen
+## predicate
+is detected by
+## object
+trichrome stains, specifically Masson trichrome
+## display_text
+Masson trichrome is the department book's stain for collagen/fibrosis, distinct from its mucin stains and fat stain.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 11, Techniques Used in Pathology
+
+---
+
+# Item
+## id
+CLM-FND-208INT-HEROIN-COMPLICATIONS-01
+## concept_id
+CON-FND-195B5CEBF55511
+## subject
+Heroin addiction
+## predicate
+causes
+## object
+disseminated angiitis, meningitis/brain infections, transmitted infections and infective endocarditis
+## display_text
+Heroin addiction causes disseminated angiitis, meningitis/brain infections, transmitted infections and infective endocarditis -- distinct from alcohol's gastritis, cardiomyopathy, peripheral neuritis and oral cancer.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 9, Environmental Pathology

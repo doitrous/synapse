@@ -7,7 +7,8 @@
 | 2023-eom-general-pathology | 115 | 5 | 0 | 120 |
 | 2024-eom-general-pathology-and-pharmacology | 54 | 11 | 0 | 65 |
 | 2024-eom-pharmacology-tail-continuation | 44 | 11 | 0 | 55 |
-| 208 INT papers: 22 more tier 1-3 files (coverage/KAU-Y2-priority-sources.md) untriaged. | 0 | 0 | 1 | 1 |
+| 2026-baqoon-general-pathology-and-techniques | 10 | 10 | 0 | 20 |
+| 208 INT papers: 21 more tier 1-3 files (coverage/KAU-Y2-priority-sources.md) untriaged; Q21-72 of the Baqoon 2026 paper are matching-format, out of scope for this SBA lane. | 0 | 0 | 1 | 1 |
 | 208 INT — triage keys | 0 | 0 | 1 | 1 |
 | End of INT - 208 2023 195 With Answers.pdf") | 0 | 0 | 1 | 1 |
 | Method: green highlight annotation on the correct option, one per question, no separate | 0 | 0 | 1 | 1 |
@@ -94,6 +95,16 @@
 - 2024eom-q45 — Literal duplicate of 2023eom-q38 ("Sites of systemic embolism") — identical stem, options and correct answer. Held rather than re-authored.
 - 2024eom-q47 — Literal duplicate of 2023eom-q40 ("Features of dry gangrene") — identical stem, options and correct answer. Held rather than re-authored.
 - 2024eom-q53 — Literal duplicate of 2023eom-q48 ("Presentation of primary intestinal tuberculosis") — identical stem, options and correct answer (tabes mesenterica). Held rather than re-authored.
+- 2026baqoon-q01 — Twin of already-authored 2024eom-q21 (main_concept CON-FND-3ABA8A2D2D6962, department book's five local signs of acute inflammation). This paper's "loss of appetite" distractor tests the same five-signs list as the already-minted item's "presence of scar" distractor. Held rather than authored as a second near-duplicate of the same concept.
+- 2026baqoon-q02 — Twin of already-authored 2024eom-q40 (main_concept CON-FND-70B16C02F32AA5, hyperemia-vs-congestion). Same fact (active vasodilatation causes hyperemia), positive stem instead of EXCEPT stem. Held rather than re-authored.
+- 2026baqoon-q04 — Twin of already-authored 2023eom-q37 (main_concept CON-FND-0FC5FDF1C3874D, major source of pulmonary emboli). Literal converse of the same deep-vein-thrombus-to-lung relationship ("embolus from a deep vein lodges in the lung" vs "major source of pulmonary emboli is deep leg vein thrombi"). Held rather than re-authored.
+- 2026baqoon-q08 — Twin of already-authored 2024eom-q33 (main_concept CON-FND-15EA2CD991C9CB, water-soluble vitamin). Same fact (vitamin C), different distractor set. Held rather than re-authored.
+- 2026baqoon-q09 — Twin of already-authored 2023eom-q55 (main_concept CON-INF-92D5067ECA6A8D, hepatic bilharziasis true statement). The concept's own definition already names pipe-stem fibrosis as a fact/alias alongside the dilated-portal-vascular-channels fact 2023eom-q55 tests — same concept, different facet, not a fresh concept. Held rather than authored as a second item on the same concept.
+- 2026baqoon-q12 — Twin of already-authored 2024eom-q13 (main_concept CON-FND-471F90B10E495A, intermediate/locally-malignant tumor category). Same classification fact, naming chordoma instead of osteoclastoma as the correct example. Held rather than authored as a second near-duplicate of the same concept.
+- 2026baqoon-q13 — Source's own render (p.9, cyan highlight-circle key style) marks BOTH (a) nasopharyngeal carcinoma and (b) Hodgkin lymphoma, with a handwritten "Both are correct" annotation next to them — not a clean single-best-answer key. Held per the marked-key rule; a genuine SBA stem on EBV-associated malignancy would need a source that names only one correct answer.
+- 2026baqoon-q15 — Literal duplicate of already-authored 2024eom-q04 (main_concept CON-FND-BA4E3D79017392, causes of localized atrophy EXCEPT). Identical stem and four core options (this paper's 5th option, "bilateral ovarian excision," was trimmed for the module's 4-option format); identical correct answer (thyrotoxicosis). Held rather than re-authored.
+- 2026baqoon-q17 — Literal duplicate of already-authored 2024eom-q05 (main_concept CON-FND-2A6D478CFC27ED, myositis ossificans). Identical stem and correct answer (metaplastic condition). Held rather than re-authored.
+- 2026baqoon-q19 — Near-literal duplicate of already-authored 2024eom-q29 (main_concept CON-FND-434E7A6D0A5BF3, labile cells). Identical stem and correct answer (hematopoietic cells); only the "Neurons"/"Brain cells" distractor differs. Held rather than authored as a second near-duplicate of the same concept.
 
 ## Remaining
 - (growth disorders, healing, hemodynamics, techniques), bacterial/fungal/viral infections

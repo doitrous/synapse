@@ -1,0 +1,46 @@
+{
+  "lane": "KASR-208INT",
+  "cluster": "2026-baqoon-general-pathology-and-techniques",
+  "header": "Kasr Al Ainy 208 INT · hemodynamics, bacterial infections, neoplasia, healing/repair and techniques used in pathology -- authored from the 208 INT EOY Baqoon 2026 (2nd sitting) exam paper's 20 clean SBA MCQ section (p.7-10; Q21-72 are matching-format, out of scope), keys read from a cyan highlight-circle render (not auto-detected by pagetext.mjs keys), grounded in the 208 INT Pathology Department Book.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y2"],
+    "module": "208 INT",
+    "exam_weight_by_year": { "KAU_Y2": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_7e6772728d88d042c687"],
+    "source_citation": "Kasr Al Ainy 208 INT EOY Baqoon 2026 (2nd sitting) exam paper, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pathology"
+  },
+  "questions": [
+    { "key": "2026baqoon-q03", "id": "QST-KASR208INT-2026BAQOON-Q03", "title": "Passive congestion of the lungs", "correct": "A", "main_concept": "CON-FND-BFA53B2632D1BF", "status": "authored" },
+    { "key": "2026baqoon-q05", "id": "QST-KASR208INT-2026BAQOON-Q05", "title": "Non-pitting edema", "correct": "C", "main_concept": "CON-FND-3DFF688861D520", "status": "authored" },
+    { "key": "2026baqoon-q06", "id": "QST-KASR208INT-2026BAQOON-Q06", "title": "Gohn's focus location", "correct": "B", "main_concept": "CON-INF-C5196C7E378EFE", "status": "authored" },
+    { "key": "2026baqoon-q07", "id": "QST-KASR208INT-2026BAQOON-Q07", "title": "Incision biopsy", "correct": "A", "main_concept": "CON-FND-9627902504EE0D", "status": "authored" },
+    { "key": "2026baqoon-q10", "id": "QST-KASR208INT-2026BAQOON-Q10", "title": "Broder's grading of squamous cell carcinoma", "correct": "B", "main_concept": "CON-FND-DA7DB8363476CF", "status": "authored" },
+    { "key": "2026baqoon-q11", "id": "QST-KASR208INT-2026BAQOON-Q11", "title": "Colloid carcinoma", "correct": "B", "main_concept": "CON-FND-00B61A6D733BBA", "status": "authored" },
+    { "key": "2026baqoon-q14", "id": "QST-KASR208INT-2026BAQOON-Q14", "title": "Healing by first intention", "correct": "C", "main_concept": "CON-FND-8822BE26959625", "status": "authored" },
+    { "key": "2026baqoon-q16", "id": "QST-KASR208INT-2026BAQOON-Q16", "title": "Actinomycosis common site", "correct": "D", "main_concept": "CON-INF-46951EC6118C17", "status": "authored" },
+    { "key": "2026baqoon-q18", "id": "QST-KASR208INT-2026BAQOON-Q18", "title": "Stain for fibrosis", "correct": "D", "main_concept": "CON-FND-A76EAB3A0D9030", "status": "authored" },
+    { "key": "2026baqoon-q20", "id": "QST-KASR208INT-2026BAQOON-Q20", "title": "Heroin addiction complications", "correct": "C", "main_concept": "CON-FND-195B5CEBF55511", "status": "authored" }
+  ],
+  "held": [
+    { "key": "2026baqoon-q01", "title": "Cardinal sign of acute inflammation", "reason": "Twin of already-authored 2024eom-q21 (main_concept CON-FND-3ABA8A2D2D6962, department book's five local signs of acute inflammation list) -- this paper's distractor ('loss of appetite') tests the same underlying five-signs concept as the already-minted item's 'presence of scar' distractor." },
+    { "key": "2026baqoon-q02", "title": "Hyperemia caused by active arteriolar dilation", "reason": "Twin of already-authored 2024eom-q40 (main_concept CON-FND-70B16C02F32AA5, hyperemia-vs-congestion definition) -- same core fact (active vasodilatation causes hyperemia) restated as a positive stem instead of an EXCEPT stem." },
+    { "key": "2026baqoon-q04", "title": "Embolus from deep vein lodges in the lung", "reason": "Twin of already-authored 2023eom-q37 (main_concept CON-FND-0FC5FDF1C3874D, major source of pulmonary emboli) -- literal converse restatement of the same deep-vein-thrombus-to-lung relationship." },
+    { "key": "2026baqoon-q08", "title": "Water-soluble vitamin identification", "reason": "Twin of already-authored 2024eom-q33 (main_concept CON-FND-15EA2CD991C9CB) -- same fact (vitamin C is the water-soluble vitamin among A/D/K/E), only the distractor set differs." },
+    { "key": "2026baqoon-q09", "title": "Hepatic bilharziasis true statement", "reason": "Twin of already-authored 2023eom-q55 (main_concept CON-INF-92D5067ECA6A8D) -- the concept's own definition already names pipe-stem fibrosis as an alias/fact alongside the dilated-portal-vascular-channels fact 2023eom-q55 tests; same concept, different facet." },
+    { "key": "2026baqoon-q12", "title": "Locally malignant tumor invasive but rarely metastasizes (chordoma)", "reason": "Twin of already-authored 2024eom-q13 (main_concept CON-FND-471F90B10E495A, intermediate/locally-malignant tumor category) -- same classification fact, just naming chordoma instead of osteoclastoma as the correct example." },
+    { "key": "2026baqoon-q13", "title": "Disease caused by Epstein-Barr virus", "reason": "Source's own render (p.9) marks BOTH (a) nasopharyngeal carcinoma and (b) Hodgkin lymphoma with the cyan highlight circle plus a handwritten 'Both are correct' annotation -- not a clean single-best-answer SBA key. Held per the marked-key rule (ambiguous/two-answer key)." },
+    { "key": "2026baqoon-q15", "title": "Causes of localized atrophy EXCEPT", "reason": "Literal duplicate of already-authored 2024eom-q04 (main_concept CON-FND-BA4E3D79017392) -- identical EXCEPT-stem, identical four core options (this paper adds a 5th, 'bilateral ovarian excision', trimmed for our 4-option format), identical correct answer (thyrotoxicosis)." },
+    { "key": "2026baqoon-q17", "title": "Myositis ossificans represents", "reason": "Literal duplicate of already-authored 2024eom-q05 (main_concept CON-FND-2A6D478CFC27ED) -- identical stem and correct answer (metaplastic condition)." },
+    { "key": "2026baqoon-q19", "title": "Labile cells", "reason": "Near-literal duplicate of already-authored 2024eom-q29 (main_concept CON-FND-434E7A6D0A5BF3) -- identical stem and correct answer (hematopoietic cells); only the 'Neurons'/'Brain cells' distractor differs." }
+  ],
+  "note": "Q21-72 of this paper are matching-format questions (column A / column B), out of scope for this SBA-only lane. Q1-2, Q3-20 minus this file's authored set are covered above. Question numbering here follows the source paper's own Q1-20, not sequential seed order."
+}
