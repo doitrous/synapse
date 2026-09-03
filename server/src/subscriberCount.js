@@ -117,7 +117,10 @@ export function publicSubscriberCountPayload(doc, { realCountNow, now = Date.now
  * reset the growth clock.
  */
 export function nextSubscriberDisplayDoc(current, patch, { realCountNow, now = Date.now() }) {
-  const enabled = Boolean(patch?.enabled)
+  if (patch?.enabled !== undefined && typeof patch.enabled !== 'boolean') {
+    return { ok: false, error: 'enabled must be a boolean' }
+  }
+  const enabled = patch?.enabled === undefined ? Boolean(current.enabled) : patch.enabled
   const base = Number(patch?.base)
   const minPct = Number(patch?.minPct)
   const maxPct = Number(patch?.maxPct)

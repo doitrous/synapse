@@ -137,6 +137,28 @@ test('minPct greater than maxPct is refused', () => {
   assert.equal(result.ok, false)
 })
 
+test('a non-boolean enabled is refused', () => {
+  const current = { ...DEFAULT_SUBSCRIBER_DISPLAY, epoch: 1000 }
+  const result = nextSubscriberDisplayDoc(current, { enabled: 'yes', base: 790, minPct: 0.3, maxPct: 2.5 }, { realCountNow: 0, now: 1000 })
+  assert.equal(result.ok, false)
+  const result2 = nextSubscriberDisplayDoc(current, { enabled: 1, base: 790, minPct: 0.3, maxPct: 2.5 }, { realCountNow: 0, now: 1000 })
+  assert.equal(result2.ok, false)
+})
+
+test('a patch omitting enabled preserves the current enabled value', () => {
+  const current = { enabled: true, base: 790, epoch: 1000, realCountAtEpoch: 50, minPct: 0.3, maxPct: 2.5 }
+  const result = nextSubscriberDisplayDoc(current, { base: 900, minPct: 0.3, maxPct: 2.5 }, { realCountNow: 77, now: 5000 })
+  assert.equal(result.ok, true)
+  assert.equal(result.doc.enabled, true)
+})
+
+test('a present boolean enabled:false is applied', () => {
+  const current = { enabled: true, base: 790, epoch: 1000, realCountAtEpoch: 50, minPct: 0.3, maxPct: 2.5 }
+  const result = nextSubscriberDisplayDoc(current, { enabled: false, base: 790, minPct: 0.3, maxPct: 2.5 }, { realCountNow: 50, now: 1000 })
+  assert.equal(result.ok, true)
+  assert.equal(result.doc.enabled, false)
+})
+
 test('requireSuperAdmin refuses anyone who is not a super admin', () => {
   let statusCode = null
   let body = null
