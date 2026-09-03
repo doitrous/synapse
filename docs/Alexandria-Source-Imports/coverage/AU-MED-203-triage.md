@@ -413,12 +413,73 @@ A new `src_27a0ccf21cff0f58e6e3` catalogue-resource row was appended to
 Q64-383 of this compilation remain untriaged for a future pass (see
 `coverage/AU-MED-203-LEDGER.md`'s Remaining section for the exact resume point).
 
+## "Previous Years CNS MCQ with answers" compilation, pass 2 (Q64-126) — au-203-author11, 2026-09-03
+
+Continued from pass 1's stop point. Read pages 16-30 (Q64-126, one numbering gap at q66 —
+absent from the source, no page break or essay page intervening, same numbering-gap pattern
+as the Week 1/Week 2 EOM Finals). All 62 numbered questions checked against the full
+already-authored AU-MED-203 corpus (424 stems, 607 concept labels, loaded once) plus
+`find-existing.mjs` before a verdict.
+
+**16 of 62 triaged as duplicates**, logged here with twin ids (also in
+`coverage/AU-MED-203-LEDGER.md`'s `## Held` list):
+- External duplicates of already-landed AU-MED-203/ASU-CNS-3 content (12): q64 (Broca's area
+  location, dup of the existing Broca's-area-inferior-frontal-gyrus concept), q68 (optic nerve
+  excluded from the superior orbital fissure, dup of the existing concept), q81 (delta waves
+  characterise stage N3 sleep, dup of the existing concept), q95 (nigrostriatal pathway
+  releases dopamine, dup of the existing Parkinson/nigrostriatal-dopamine concept), q100
+  (alpha-gamma coactivation maintains spindle stimulation, dup of the existing concept), q101
+  (digastric anterior belly ← V3, dup of the existing digastric dual-nerve-supply concept),
+  q102 (Pacinian corpuscle core = Schwann cells + fibroblasts, dup of the existing lamellae
+  concept), q122 (anterior cerebral artery in the callosal sulcus, dup of the existing
+  concept), q126 (UMNL increases muscle tone, dup of the existing hypertonia concept), q73
+  (primary motor cortex in the precentral gyrus, dup of a pending-live `cns3-overlay` concept
+  — this pass's stroke vignette dresses up the same core location fact), q74 (near-duplicate
+  of the module's already-saturated muscle spindle question set — no individual distractor
+  fact is novel).
+- Internal duplicates within this same source's own two passes (4): q88 (dup of this source's
+  own pass-1 "fourth ventricle is the derivative of the hindbrain's central cavity" concept),
+  q98 (verbatim repeat of this pass's sibling comp1-q11 from pass 1, caudate/putamen basal
+  ganglia nuclei, option order reshuffled), q108 (verbatim repeat of pass 1's comp1-q21,
+  cerebellum's purely-motor subconscious function, option order reshuffled), q115
+  (near-duplicate of pass 1's comp1-q14 — both test the cornea's refractive dominance, q14 the
+  magnitude and q115 the mechanism; held given how directly q14 already covers the topic).
+- Internal verbatim repeat within this pass itself (1, not re-authored): q75 repeats q72's
+  visceral-pain-pathway question verbatim, with the correct option moved from A to C. q72 was
+  authored once.
+
+**46 of 62 triaged as new** and authored into `question/AU-MED-203-comp1-mcq.md` (seed:
+`coverage/seeds/AU-MED-203/comp1.json`) — q65, q67, q69, q70, q71, q72, q76, q77, q78, q79,
+q80, q82, q83, q84, q85, q86, q87, q89, q90, q91, q92, q93, q94, q96, q97, q99, q103, q104,
+q105, q106, q107, q109, q110, q111, q112, q113, q114, q116, q117, q118, q119, q120, q121,
+q123, q124, q125. 46 concepts minted (all `CON-NEU`), each canonical key checked via
+`find-existing.mjs` before minting, 0 collisions against the existing IDs the mint tool
+checked against. No HIT-PENDING reuse required a new pending-live overlay pair this pass.
+
+**Two printed-key doubts recorded**, kept as printed rather than silently corrected, each with
+the conflict named on its own concept's `conflicts` field: q82 ("lateral reticulospinal
+tract") credits contralateral inhibition of muscle tone, where mainstream teaching more
+commonly describes the tract's action as predominantly ipsilateral; q125 ("stimulation of the
+medial part of the right primary motor area") credits left-hand movement, where standard
+motor homunculus topography (lower limb represented medially, hand laterally) would predict
+left-foot movement instead.
+
+`medical:batch` on the question file (with the module's 3 article files, the concept file and
+the resource file as `--with` siblings) and on the concept file standalone: `errors: []` for
+both (86 items each). `medical:simulate` positional (3 article files + concept + resource +
+question files, the full chain): `errors: []`, `rejected: 0`, `skipped: 0` — concepts
+`created: 86`, questions `created: 86`, matching each file's row count exactly; articles and
+resource each resolve unchanged from pass 1 (no new article or resource this pass).
+
+Q127-383 of this compilation remain untriaged for a future pass (see
+`coverage/AU-MED-203-LEDGER.md`'s Remaining section for the exact resume point).
+
 ## Not triaged this module (queued, see priority-sources doc for the full list)
 
 - 2 stream-specific EOM finals (`Final CNS مصريين 2027`, `Final CS وافدين 2027`)
 - Mock 2027 question+answer pair (43pg each)
-- `EOM MCQs - Previous Years CNS MCQ with answers.pdf` (87pg) — Q1-63 (pages 2-15) triaged
-  above; Q64-383 (pages 16-87) remain
+- `EOM MCQs - Previous Years CNS MCQ with answers.pdf` (87pg) — Q1-126 (pages 2-30) triaged
+  above; Q127-383 (pages 31-87) remain
 - 2 further weekly EOM finals (`CNS- week 3/4+5 Final`, page counts not yet checked this pass)
 - 5 further Mock variants (`CNS mock`, `MOCK 1 CNS`, `cns mock exam`, `Mock CNS answers`,
   `mock CNS with answers`)

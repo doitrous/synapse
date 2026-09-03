@@ -6,7 +6,7 @@
 | quiz4 | 34 | 0 | 0 | 34 |
 | week1 | 145 | 4 | 0 | 149 |
 | week2 | 103 | 2 | 0 | 105 |
-| comp1 (Previous Years CNS MCQ compilation, Q1-63 of 383) | 40 | 23 | 320 | 383 |
+| comp1 (Previous Years CNS MCQ compilation, Q1-126 of 383) | 86 | 39 | 257 | 383 |
 
 ## Held
 - quiz1-q04 — HIT-PENDING concept (ciliary ganglion, Kasr 102-INT batch not yet imported) — authored now in pending-live/AU-MED-203-questions.md per LANE-BRIEF §21, not emitted into this batch.
@@ -19,6 +19,22 @@
 - week1-q149 — HIT-PENDING concept (oculomotor nerve within the lateral wall of the cavernous sinus, CON-NEU-94513EC37B29B8) reuses an ASU-CNS-3 concept not yet imported to production (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md) — authored as a sparse-overlay pending-live question per LANE-CARD-Y2's 'check CNS-3 first, reuse via sparse overlay' instruction, not emitted into this batch. Distinct from week1-q47 (Q51-100 batch, held outright as a near-exact duplicate of the same ASU-CNS-3 question/concept pair): this item's own stem and distractor set (optic/olfactory/oculomotor/hypoglossal) are simpler and materially different from week1-q47's, so it is authored as its own overlay question rather than held with no new question at all.
 - week2-q005 — HIT-PENDING concept (trochlear nerve and superior cerebellar peduncle decussation at the inferior midbrain level, CON-NEU-44845BF496BE5F) reuses an ASU-CNS-3 concept not yet imported to production (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-final2024-mcq-concepts.md) — authored as a sparse-overlay pending-live question (docs/Alexandria-Source-Imports/pending-live/AU-MED-203-cns3-final2024-overlay-questions.md) per LANE-CARD-Y2's 'check CNS-3 first, reuse via sparse overlay' instruction, not emitted into this batch. find-existing.mjs surfaced this hit for 'trochlear nerve'.
 - week2-q040 — malformed source — only 3 answer options (a-c) are present in the extracted text, no fourth choice ('40 The palatine tonsil is a proliferation of a Ectoderm b Endoderm c Mesoderm'); native-text extraction confirmed via pagetext.mjs show (not an OCR artifact), so a genuine source defect rather than a labelling/image question; below the 4-5 option contract emit-mcq.mjs enforces. Per LANE-CARD-Y2's standing rule and lane 5/6's week1-q99/week1-q130 precedent (<4 options → hold).
+- comp1-q64 — duplicate of already-landed content (Broca's area location, inferior frontal gyrus) — dup of the existing "Which of the following is true regards Broca's area?" question/concept.
+- comp1-q68 — duplicate of already-landed content (optic nerve does not pass through the superior orbital fissure) — dup of the existing concept of the same fact.
+- comp1-q73 — duplicate of a pending-live overlay item (primary motor cortex location in the precentral gyrus) — dup of the "primary motor cortex (Brodmann area 4), in the precentral gyrus" concept in docs/Alexandria-Source-Imports/pending-live/AU-MED-203-cns3-overlay-concepts.md; this pass's vignette dressing (stroke patient) tests the same core location fact.
+- comp1-q74 — near-duplicate of the module's already-saturated muscle spindle question set — "detects changes in length of muscles" restates the existing "muscle spindle monitors the degree of muscle stretch" concept, and each individual distractor fact (nuclear bag non-contractile centre, primary-vs-secondary endings) is already tested by existing week1/week2/quiz MCQs.
+- comp1-q75 — internal verbatim duplicate within this same source: repeats comp1-q72's visceral-pain-pathway question ("transmitted along sensory fibers that travel with sympathetic nerves in the abdomen and thorax") with the correct answer moved from option A to option C, rest of the option set otherwise identical.
+- comp1-q81 — duplicate of already-landed content (delta waves characterise stage N3 slow-wave sleep) — dup of the existing "Delta waves on the EEG characterise deep (slow-wave, stage N3) sleep" concept.
+- comp1-q88 — duplicate of this same source's own comp1-q88-equivalent concept minted in pass 1 (the fourth ventricle is the derivative of the hindbrain's central cavity), docs/Alexandria-Source-Imports/concept/AU-MED-203-comp1-concepts.md.
+- comp1-q95 — duplicate of already-landed content (nigrostriatal pathway releases dopamine) — dup of the existing "Parkinson disease is associated with dopamine deficiency in the nigrostriatal pathway" concept.
+- comp1-q98 — duplicate within this same source's own pass 1: repeats comp1-q11 (caudate and putamen as basal ganglia nuclei), same fact with the option order shuffled.
+- comp1-q100 — duplicate of already-landed content (alpha-gamma coactivation) — dup of the existing "Co-activation of alpha and gamma motor neurons keeps the muscle spindle sensitive to stretch during active muscle contraction" concept.
+- comp1-q101 — duplicate of already-landed content (digastric anterior belly motor supply) — dup of the existing "Digastric receives its motor supply from two different cranial nerves — anterior belly from the trigeminal (V3), posterior belly from the facial (VII)" concept.
+- comp1-q102 — duplicate of already-landed content (Pacinian corpuscle lamellae composition) — dup of the existing "The Pacinian corpuscle's lamellae are formed of Schwann cells (inner core) and fibroblasts (outer capsule)" concept.
+- comp1-q108 — duplicate within this same source's own pass 1: repeats comp1-q21 (cerebellum's purely-motor, subconscious function as the TRUE statement), same fact with the option order shuffled.
+- comp1-q115 — near-duplicate of this same source's own comp1-q14 (pass 1): both test the cornea's dominance of the resting eye's refractive power (comp1-q14 the magnitude — about two-thirds; comp1-q115 the mechanism — the air-cornea refractive index difference); held rather than re-authored given how directly comp1-q14 already covers the cornea's refractive importance.
+- comp1-q122 — duplicate of already-landed content (anterior cerebral artery in the callosal sulcus) — dup of the existing "The anterior cerebral artery courses within the callosal sulcus" concept.
+- comp1-q126 — duplicate of already-landed content (UMNL increases muscle tone/hypertonia) — dup of the existing "Upper motor neuron lesion hypertonia results from unopposed pontine facilitatory descending drive" concept.
 
 ## Week 2 EOM Final, Q61-120 — au-203-author9, 2026-09-03
 
@@ -95,8 +111,56 @@ prior record existed for this source). Full duplicate breakdown with twin ids in
 `coverage/AU-MED-203-triage.md`'s "Previous Years CNS MCQ with answers compilation, pass 1"
 section.
 
+## "Previous Years CNS MCQ with answers" compilation, pass 2 (Q64-126) — au-203-author11, 2026-09-03
+
+Continued directly from pass 1's stop point (Q1-63 done, Q64-383 remaining). Read `status` →
+`show` 2-3 pages/call, pages 16-30. Loaded the full already-authored AU-MED-203 corpus once
+(424 question stems, 607 concept labels across AU-MED-203 + ASU-CNS-3) via
+`grep -h "^## question$"`/`"^## label$"`, then triaged Q64-126 (63 numbers) against that
+corpus plus `find-existing.mjs` before authoring anything, per pass 1's precedent.
+
+**One numbering gap**: q66 does not exist in the source (numbering jumps 65→67 on p16, no
+page break or essay-page intervening) — matching the module's established numbering-gap
+precedent (Week 1 EOM Final Q29-30, Week 2 EOM Final Q76-90); not counted as triaged, not
+held. 62 numbered questions read (Q64-65, Q67-126), all keyed from each page's own inline
+answer line.
+
+**46 of 62 triaged as new** and authored into `question/AU-MED-203-comp1-mcq.md` (seed:
+`coverage/seeds/AU-MED-203/comp1.json`) — q65, q67, q69-72, q76-80, q82-87, q89-94, q96-97,
+q99, q103-107, q109-114, q116-121, q123-125. 46 concepts minted (all `CON-NEU`), each
+canonical key checked via `find-existing.mjs` before minting, 0 collisions against the
+existing IDs the mint tool checked against.
+
+**16 of 62 triaged as duplicates**, logged in the `## Held` list above with twin ids: 15
+external duplicates of already-landed AU-MED-203/ASU-CNS-3 content or pending-live overlay
+items (q64, q68, q73, q74, q81, q88, q95, q98, q100, q101, q102, q108, q115, q122, q126 — of
+which q88, q98 and q108 duplicate this same source's own pass 1, and q115 near-duplicates
+pass 1's q14), plus 1 internal verbatim repeat within this pass itself (q75 repeats q72's
+visceral-pain-pathway question with the correct option moved from A to C). No HIT-PENDING
+reuse required a new pending-live overlay pair this pass (q73's twin already lives in the
+existing `cns3-overlay` pair from an earlier lane; this pass's own duplicate was held outright
+rather than overlaid, since the existing overlay item already fully covers the fact).
+
+**Two printed-key doubts recorded**, kept as printed per LANE-CARD rather than silently
+corrected, each with the conflict named on its own concept's `conflicts` field: q82 ("lateral
+reticulospinal tract") credits contralateral, not the more commonly taught ipsilateral-
+dominant, inhibition of muscle tone; q125 ("stimulation of the medial part of the right
+primary motor area") credits left-hand movement, whereas standard motor homunculus topography
+(lower limb represented medially) would predict left-foot movement instead.
+
+`medical:batch` on the question file (with the module's 3 article files, the concept file and
+the resource file as `--with` siblings) and on the concept file standalone: `errors: []` for
+both (86 items each; only expected `needs_evidence` per-concept warnings). `medical:simulate`
+positional (3 article files + concept + resource + question files, the full chain): `errors:
+[]`, `rejected: 0`, `skipped: 0` — concepts `created: 86`, questions `created: 86`, matching
+each file's own row count exactly (86 = 40 from pass 1 + 46 from this pass); the 3 article
+files and the resource file each resolve as `created` unchanged from pass 1 (this pass added
+no new resource or article). Full duplicate breakdown with twin ids in
+`coverage/AU-MED-203-triage.md`'s "Previous Years CNS MCQ with answers compilation, pass 2"
+section.
+
 ## Remaining
-Q64-383 of the "Previous Years CNS MCQ with answers" compilation (pages 16-87,
+Q127-383 of the "Previous Years CNS MCQ with answers" compilation (pages 31-87,
 `src_27a0ccf21cff0f58e6e3`) — the next resume point for this source. Beyond that, per
 `coverage/AU-Y2-priority-sources.md`: 2 further weekly EOM finals (week 3, week 4+5), the Mock
 2027 question+answer pair, and the two largest banks — `MCQs - CNS bank by MCQs team.pdf`

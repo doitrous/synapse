@@ -1,11 +1,14 @@
 <!--
-  AU-MED-203 · Nervous System — 40 concepts minted from the "Previous Years CNS MCQ with
-  answers" compilation (src_27a0ccf21cff0f58e6e3), pass 1 (Q1-63, pages 2-15) of this
-  87-page source. Each concept backs one question in question/AU-MED-203-comp1-mcq.md.
-  Every canonical key was checked via find-existing.mjs plus hand-grep of this module's own
-  anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files before
-  minting; 0 collisions against the 13578 existing IDs the mint tool checked against. See
-  coverage/AU-MED-203-triage.md and coverage/AU-MED-203-LEDGER.md.
+  AU-MED-203 · Nervous System — 86 concepts minted from the "Previous Years CNS MCQ with
+  answers" compilation (src_27a0ccf21cff0f58e6e3): pass 1 (Q1-63, pages 2-15, 40 concepts)
+  plus pass 2 (Q64-126, pages 16-30, 46 concepts) of this 87-page source. Each concept backs
+  one question in question/AU-MED-203-comp1-mcq.md. Every canonical key was checked via
+  find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept
+  files and ASU-CNS-3's pending concept files before minting; 0 collisions against the
+  existing IDs the mint tool checked against each pass. Two pass-2 entries (q82, q125) carry
+  a printed-key conflict against mainstream teaching, recorded on their own `conflicts` field
+  per the module's established doubt-recording precedent. See coverage/AU-MED-203-triage.md
+  and coverage/AU-MED-203-LEDGER.md.
 
   Import: Admin › Bulk import → concept.
 -->
@@ -6087,3 +6090,7041 @@ resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ
 sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
 relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
 au: Previous Years CNS MCQ compilation, pilation,, q63.
+
+---
+
+# Item
+
+## id
+CON-NEU-F423A22E4C40AF
+
+## label
+The common facial vein drains directly into the internal jugular vein
+
+## canonical_key
+cranium.venous.common-facial-vein-drains-internal-jugular
+
+## definition
+The common facial vein forms at the angle of the mandible by union of the anterior facial vein with the anterior division of the retromandibular vein, then drains directly into the internal jugular vein.
+
+## explicit_objective
+State that the common facial vein drains directly into the internal jugular vein.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Head and neck venous drainage
+
+## subtopic
+Common facial vein drainage
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Head and neck venous drainage
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q65 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-F423A22E4C40AF
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. lnternal jugular B. Retromandibular C. External jugular D. Anterior jugular Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q65; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q65.
+
+---
+
+# Item
+
+## id
+CON-NEU-FBB879198C1C70
+
+## label
+Crista ampullaris hair cells depolarize when stereocilia deviate toward the kinocilium
+
+## canonical_key
+vestibular.physiology.crista-ampullaris-depolarize-toward-kinocilium
+
+## definition
+Deflection of a crista ampullaris hair cell's stereocilia bundle toward the kinocilium depolarizes it (increasing afferent firing); deflection away from the kinocilium hyperpolarizes it (decreasing afferent firing) — per Ewald's law.
+
+## explicit_objective
+State that crista ampullaris hair cells depolarize when their stereocilia deviate toward the kinocilium, and hyperpolarize when deviated away from it.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Vestibular physiology
+
+## subtopic
+Crista ampullaris hair cell polarization direction
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Vestibular physiology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q67 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-FBB879198C1C70
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Are stimulated during movement with a constant speed B. Show hyperpolarization when the sterocillia are deviated towards kinocillium. C. Show depolarization when the sterocillia are deviated towards kinocillium. D. Depolarize in response to stretch. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q67; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q67.
+
+---
+
+# Item
+
+## id
+CON-NEU-2599FCF96871C9
+
+## label
+The cerebellothalamocortical pathway is the ascending efferent (output) route from the deep cerebellar nuclei to the motor cortex
+
+## canonical_key
+cerebellum.efferent.cerebellothalamocortical-tract
+
+## definition
+Efferent fibers from the deep cerebellar nuclei (chiefly dentate) cross in the superior cerebellar peduncle, relay in the contralateral red nucleus and ventral lateral thalamus, and ascend to the motor cortex — the cerebellothalamocortical pathway.
+
+## explicit_objective
+State that the cerebellothalamocortical pathway is an ascending efferent route from the cerebellum, distinguishing it from the afferent spinocerebellar and descending cerebello-reticular/olivary pathways.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cerebellar connections
+
+## subtopic
+Cerebellothalamocortical (ascending efferent) pathway
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebellar connections
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q69 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2599FCF96871C9
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Cerebelo thalamocortical B. Ventral spinocerebelar. C. cerebello olivary. D. Cerebello reticular Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q69; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q69.
+
+---
+
+# Item
+
+## id
+CON-NEU-974CF92BAD781F
+
+## label
+The lens and its fibers are enveloped by the lens capsule
+
+## canonical_key
+eye.histology.lens-fibers-enveloped-by-capsule
+
+## definition
+The lens capsule, an elastic basement membrane secreted by the lens epithelium, envelops the entire lens including its fibers, maintaining lens shape and transmitting zonular tension during accommodation.
+
+## explicit_objective
+State that the lens fibers of the eye are enveloped by the lens capsule.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Eye histology
+
+## subtopic
+Lens capsule
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Eye histology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q70 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-974CF92BAD781F
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Situated immediately in front of the pulp. B. Enveloped by lens capsule C. Formed by the ciliary epithelium. D. Composed of short, loosely packed lens fibers. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q70; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q70.
+
+---
+
+# Item
+
+## id
+CON-NEU-B2826E3593B451
+
+## label
+Purkinje cell bodies form a single row at the molecular-granular layer junction, not aggregated, stellate, or superficial in the molecular layer
+
+## canonical_key
+cerebellum.histology.purkinje-cell-none-of-the-above-distractor-set
+
+## definition
+Purkinje cells are large, flask-shaped neurons whose cell bodies form a single row at the junction between the cerebellar cortex's molecular and granular layers, with a dendritic tree arborizing into the molecular layer — distinct from the densely aggregated granule cells or the superficial molecular-layer stellate cells.
+
+## explicit_objective
+Recognize that Purkinje cells sit at the molecular-granular layer junction as large solitary flask-shaped neurons, distinguishing them from granule cells and stellate cells.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cerebellar cortex histology
+
+## subtopic
+Purkinje cell identification
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Cerebellar cortex histology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q71 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-B2826E3593B451
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. None of the above. B. Closely aggregated granule cells C. Stellate neurons with long arborizing axons. D. Large neurons near the Surface in the molecular layer. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q71; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q71.
+
+---
+
+# Item
+
+## id
+CON-NEU-BE8AFA373D630C
+
+## label
+Visceral pain afferents travel with sympathetic nerves in the thorax and abdomen
+
+## canonical_key
+pain.physiology.visceral-pain-afferents-travel-with-sympathetic-nerves
+
+## definition
+Visceral pain (nociceptive) afferent fibers from thoracic and abdominal organs travel back to the spinal cord alongside sympathetic efferent nerves, entering at multiple segmental levels and converging on dorsal horn neurons shared with somatic afferents — the anatomical basis of referred pain.
+
+## explicit_objective
+State that visceral pain signals are transmitted along sensory fibers that travel with sympathetic nerves in the abdomen and thorax.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Visceral pain physiology
+
+## subtopic
+Visceral pain afferent pathway (travels with sympathetic nerves)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Visceral pain physiology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q72 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-BE8AFA373D630C
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. transmitted along sensory fibers that travel with sympathetic nerves in the abdomen and thorax B. not stimulated by ischemia in visceral organs C. always well localized. D. transmitted only by the thin myelinated A-delta sensory fiber Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q72; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q72.
+
+---
+
+# Item
+
+## id
+CON-NEU-24F8519F3A881F
+
+## label
+The sensory cells of the scala media (organ of Corti) are the inner and outer hair cells
+
+## canonical_key
+cochlea.histology.organ-of-corti-inner-outer-hair-cells
+
+## definition
+The organ of Corti, the neuroepithelium of the scala media, is composed of inner and outer hair cells (with supporting pillar and Deiters' cells), which transduce basilar membrane vibration into cochlear nerve afferent signals.
+
+## explicit_objective
+State that the sensory cells of the scala media are the inner and outer hair cells of the organ of Corti.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cochlear histology
+
+## subtopic
+Organ of Corti hair cells
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Cochlear histology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q76 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-24F8519F3A881F
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. The vestibular nerve ends at the base of the supporting cells B. They are located in the semicircular canal C. The sensory cells are inner and outer hair cells D. Their motile cilia are embedded into the tectorial membrane Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q76; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q76.
+
+---
+
+# Item
+
+## id
+CON-NEU-8BA197CBBB7038
+
+## label
+The crista ampullaris is located within the ampulla of the semicircular ducts
+
+## canonical_key
+vestibular.histology.crista-ampullaris-location-ampulla-of-semicircular-duct
+
+## definition
+The crista ampullaris, a ridge of vestibular sensory epithelium detecting angular head acceleration via endolymph flow, is located within the ampulla, the dilated end of each semicircular duct.
+
+## explicit_objective
+State that the crista ampullaris is present in the ampulla of the semicircular ducts.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Vestibular histology
+
+## subtopic
+Crista ampullaris location
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Vestibular histology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q77 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8BA197CBBB7038
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. They are present in the ampulla of the semicircular ducts B. Type il hair cells are flasked shaped C. Hair cells are covered by a gelatinous membrane with surface crystals. D. The stereoclia of type I hair cells are arranged In a W shaped pattern. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q77; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q77.
+
+---
+
+# Item
+
+## id
+CON-NEU-14907CEB5E38B1
+
+## label
+The optic nerve is approximately 40 mm long
+
+## canonical_key
+eye.anatomy.optic-nerve-length
+
+## definition
+The optic nerve is classically described as approximately 40-50 mm long overall, spanning its intraorbital, intracanalicular and intracranial segments from the globe to the optic chiasm.
+
+## explicit_objective
+State that the optic nerve is approximately 40 mm long.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Optic nerve anatomy
+
+## subtopic
+Optic nerve length
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Optic nerve anatomy
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q78 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-14907CEB5E38B1
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. 20mim B. 40 mm C. 30 mm D. 10mm Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q78; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q78.
+
+---
+
+# Item
+
+## id
+CON-NEU-8FD098913AAB6D
+
+## label
+Retinal bipolar cells synapse with amacrine cells in the inner plexiform layer
+
+## canonical_key
+retina.physiology.bipolar-cells-synapse-with-amacrine-cells
+
+## definition
+In the retina's inner plexiform layer, bipolar cell axon terminals synapse with amacrine cells and ganglion cell dendrites, the retina's second major synaptic relay after the outer plexiform layer.
+
+## explicit_objective
+State that bipolar cells synapse with amacrine cells.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Retinal circuitry
+
+## subtopic
+Bipolar-amacrine synapse (inner plexiform layer)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Retinal circuitry
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q79 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8FD098913AAB6D
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Amacrine cells. B. Betz cells. C. Muller's cells. D. Purkinje cells. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q79; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q79.
+
+---
+
+# Item
+
+## id
+CON-NEU-92A815DDD5B14F
+
+## label
+The Golgi tendon reflex is an inhibitory, disynaptic spinal reflex
+
+## canonical_key
+reflex.physiology.golgi-tendon-reflex-inhibitory-disynaptic
+
+## definition
+The Golgi tendon (Ib) reflex is disynaptic and inhibitory: Ib afferents excite one spinal inhibitory interneuron, which inhibits alpha motor neurons of the same muscle (autogenic inhibition) — unlike the monosynaptic excitatory stretch reflex or the polysynaptic crossed extensor/flexion withdrawal reflexes.
+
+## explicit_objective
+Identify the Golgi tendon reflex as the inhibitory, disynaptic spinal reflex, distinguishing it from the excitatory stretch reflex and the polysynaptic crossed extensor and flexion withdrawal reflexes.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Spinal reflexes
+
+## subtopic
+Golgi tendon reflex as the inhibitory disynaptic reflex
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Spinal reflexes
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q80 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-92A815DDD5B14F
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. stretch reflex B. cro5sed extensor reflex C. flexion withdrawal reflex D. Golgi tendon reflex Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q80; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q80.
+
+---
+
+# Item
+
+## id
+CON-NEU-35A39A6816EDDC
+
+## label
+This source credits the lateral reticulospinal tract with inhibiting skeletal muscle tone contralaterally
+
+## canonical_key
+brainstem.physiology.lateral-reticulospinal-tract-source-credits-contralateral-inhibition
+
+## definition
+The lateral (medullary) reticulospinal tract, arising from the medullary reticular formation, inhibits skeletal muscle tone. This source's printed key credits that inhibitory action as contralateral, though mainstream teaching more commonly describes the tract's descent and action as predominantly ipsilateral — recorded as printed, with the conflict noted here rather than silently corrected.
+
+## explicit_objective
+State this source's credited function of the lateral reticulospinal tract (inhibits skeletal muscle tone contralaterally), noting the conflict with the more commonly taught ipsilateral-dominant pattern.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Descending motor pathways
+
+## subtopic
+Lateral reticulospinal tract (printed-key laterality doubt)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+Mainstream physiology teaching describes the lateral (medullary) reticulospinal tract as descending and acting predominantly ipsilaterally (with some bilateral spread), not specifically contralaterally as this source's own printed key credits.
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Descending motor pathways
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q82 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-35A39A6816EDDC
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. facilitates muscle tone cotralateraly B. descends ipsilateraly C. inhibits skeletal muscle tone contralateraly D. arise from red nucleus in mid brain. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q82; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q82.
+
+---
+
+# Item
+
+## id
+CON-NEU-E8E2F338F0686F
+
+## label
+A positive Babinski sign is a hallmark feature of an upper motor neuron lesion
+
+## canonical_key
+spinalcord.physiology.upper-motor-neuron-lesion-positive-babinski-sign
+
+## definition
+An upper motor neuron lesion classically produces a positive (extensor, upgoing) Babinski sign — dorsiflexion of the great toe with fanning of the other toes on plantar stimulation — reflecting loss of descending corticospinal inhibition, distinct from the remarkable wasting of a lower motor neuron lesion.
+
+## explicit_objective
+State that an upper motor neuron lesion is associated with a positive Babinski sign.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Upper motor neuron lesion signs
+
+## subtopic
+Positive Babinski sign
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Upper motor neuron lesion signs
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q83 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-E8E2F338F0686F
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. nioton or tenon jerks. B. remarkable wasting of the skeletal muscles. C. positive Babinski Sign D. normal plantar reflex Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q83; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q83.
+
+---
+
+# Item
+
+## id
+CON-NEU-268B9A514DFFC2
+
+## label
+Subconscious proprioceptive tracts (spinocerebellar) terminate in the cerebellum
+
+## canonical_key
+spinalcord.anatomy.dorsal-spinocerebellar-tract-carries-subconscious-proprioception-to-cerebellum
+
+## definition
+The dorsal and ventral spinocerebellar tracts, carrying subconscious muscle proprioception (length, tension, joint position), terminate in the cerebellum, distinct from the conscious dorsal column (fine touch) and spinothalamic (crude touch) pathways.
+
+## explicit_objective
+State that neural tracts carrying subconscious muscle proprioception end in the cerebellum.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Proprioceptive pathways
+
+## subtopic
+Subconscious proprioception terminates in the cerebellum
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Proprioceptive pathways
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q84 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-268B9A514DFFC2
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. y the fine touch sensations B. serve crude touch sensation. C. serve also pressure sensation D. end in the cerebellum. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q84; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q84.
+
+---
+
+# Item
+
+## id
+CON-NEU-6A465DF339C8B1
+
+## label
+The attenuation reflex increases ossicular chain rigidity via combined tensor tympani and stapedius contraction
+
+## canonical_key
+ear.physiology.attenuation-reflex-tensor-tympani-stapedius-increase-ossicular-rigidity
+
+## definition
+The attenuation (acoustic) reflex is simultaneous contraction of the tensor tympani and stapedius muscles in response to loud sound, increasing ossicular chain rigidity to dampen sound transmission to the inner ear.
+
+## explicit_objective
+State that the attenuation reflex causes increased rigidity of the ossicular chain via combined tensor tympani and stapedius contraction.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Middle ear physiology
+
+## subtopic
+Attenuation (acoustic) reflex
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Middle ear physiology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q85 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-6A465DF339C8B1
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Contraction of the tensor tympani muscle and relaxation of the stapedius B. Increased mobility of the ossicular chain C. Projection of the oval window towards the inner ear. D. Increased rigidity of the ossicular chain Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q85; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q85.
+
+---
+
+# Item
+
+## id
+CON-NEU-265DC29F51E04C
+
+## label
+Spatial summation results from simultaneous excitation of multiple presynaptic terminals
+
+## canonical_key
+synapse.physiology.spatial-summation-multiple-presynaptic-terminals
+
+## definition
+Spatial summation is the summing of EPSPs generated simultaneously by multiple different presynaptic terminals converging on one postsynaptic neuron, distinct from temporal summation (repeated firing of a single terminal).
+
+## explicit_objective
+State that simultaneous excitation of multiple presynaptic terminals results in spatial summation.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Synaptic integration
+
+## subtopic
+Spatial summation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Synaptic integration
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q86 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-265DC29F51E04C
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Temporal summation. B. Hyper polarization of the postsynaptic neuron C. Decrease in presynaptic potential. D. Spatial summation. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q86; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q86.
+
+---
+
+# Item
+
+## id
+CON-NEU-6B83854A083FA8
+
+## label
+Agraphia is caused by a lesion of the hand skills area
+
+## canonical_key
+cerebralcortex.physiology.agraphia-caused-by-hand-skills-area-lesion
+
+## definition
+The hand skills area, a premotor region near the middle frontal gyrus responsible for the fine motor programming of writing, is credited as the lesion site producing agraphia, distinct from Broca's area (expressive aphasia) and Wernicke's area (receptive aphasia).
+
+## explicit_objective
+State that agraphia is caused by a lesion in the hand skills area.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cortical localization
+
+## subtopic
+Agraphia and the hand skills area
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Cortical localization
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q87 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-6B83854A083FA8
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. visual association area B. Broca's area C. hand skills area D. auditory interpretative area Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q87; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q87.
+
+---
+
+# Item
+
+## id
+CON-NEU-CB15CCCDFC9F11
+
+## label
+Stimulation of opioid receptors inhibits pain transmission
+
+## canonical_key
+pain.physiology.opioid-receptor-stimulation-inhibits-pain-transmission
+
+## definition
+Stimulation of opioid receptors (by endogenous opioids or opioid drugs) inhibits pain transmission, chiefly via presynaptic inhibition of nociceptive afferent terminals in the dorsal horn and activation of descending inhibitory pathways from the periaqueductal grey.
+
+## explicit_objective
+State that pain sensation can be inhibited by stimulation of opioid receptors.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Pain modulation
+
+## subtopic
+Opioid receptor stimulation inhibits pain
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain modulation
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q89 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-CB15CCCDFC9F11
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Releasing of serotonin from the inflamed skin. B. Stimulation of the fibers of thermal sensation carried in the same tract. C. Stimulation of opioid receptors. D. Adaptation of nociceptors. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q89; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q89.
+
+---
+
+# Item
+
+## id
+CON-NEU-A4C9EDFB508641
+
+## label
+The spinothalamic tract crosses within a segment or two of its level of spinal cord entry
+
+## canonical_key
+spinalcord.anatomy.spinothalamic-tract-crosses-at-level-of-entry
+
+## definition
+Spinothalamic tract second-order neurons cross to the contralateral side via the anterior white commissure within one to two segments of their level of spinal entry, unlike the uncrossed dorsal spinocerebellar tract, the doubly-crossing ventral spinocerebellar tract, or the medullary-crossing medial lemniscus.
+
+## explicit_objective
+State that the spinothalamic tract crosses at the spinal cord level of entry, distinguishing it from tracts that cross elsewhere or not at all.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Ascending spinal tracts
+
+## subtopic
+Spinothalamic tract crossing level
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Ascending spinal tracts
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q90 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-A4C9EDFB508641
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Spinothalamic. B. Dorsal spinocerebellar. C. Ventral spinocerebellar. D. Medial lemniscus Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q90; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q90.
+
+---
+
+# Item
+
+## id
+CON-NEU-32D930CB6A42A4
+
+## label
+The rebound phenomenon in cerebellar disease reflects loss of the damping function
+
+## canonical_key
+cerebellum.physiology.rebound-phenomenon-loss-of-damping-function
+
+## definition
+The rebound phenomenon — inability to smoothly arrest a limb's movement when opposing resistance is suddenly released, causing overshoot — reflects loss of the cerebellum's damping function, distinct from its sequencing, ballistic-control or timing roles.
+
+## explicit_objective
+State that the rebound phenomenon in cerebellar disease is explained primarily by loss of the cerebellum's damping function.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cerebellar disease signs
+
+## subtopic
+Rebound phenomenon and the damping function
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Cerebellar disease signs
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q91 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-32D930CB6A42A4
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Ability to join sequential movements. B. Control of ballistic movements C. Damping function D. Timing of movement Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q91; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q91.
+
+---
+
+# Item
+
+## id
+CON-NEU-468DB480681994
+
+## label
+The medullary arteries are branches of the vertebral artery
+
+## canonical_key
+brainstem.vasculature.medullary-arteries-branch-of-vertebral-artery
+
+## definition
+The medullary arteries, small perforating branches supplying the medulla oblongata, arise directly from the vertebral arteries as they ascend along the medulla, prior to the vertebral arteries' union into the basilar artery.
+
+## explicit_objective
+State that the medullary arteries are branches of the vertebral artery.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Brainstem vasculature
+
+## subtopic
+Medullary arteries origin
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Brainstem vasculature
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q92 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-468DB480681994
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Subclavian artery B. Basilar artery C. Internal carotid artery D. Vertebral artery Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q92; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q92.
+
+---
+
+# Item
+
+## id
+CON-NEU-BE3ABF3F119785
+
+## label
+The mesencephalic nucleus of the trigeminal nerve carries masticatory proprioception
+
+## canonical_key
+cranialnerve.trigeminal.mesencephalic-nucleus-carries-proprioception
+
+## definition
+The mesencephalic nucleus of the trigeminal nerve carries proprioceptive information from the muscles of mastication and periodontal ligaments, and is unique as the only site where primary sensory neuron cell bodies lie within the CNS rather than a peripheral ganglion.
+
+## explicit_objective
+State that proprioception (of the masticatory muscles) is carried by the mesencephalic nucleus of the trigeminal nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Trigeminal nerve nuclei
+
+## subtopic
+Mesencephalic nucleus and proprioception
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Trigeminal nerve nuclei
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q93 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-BE3ABF3F119785
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. mesencephalic nucleus. B. occulomotor nucleus. C. facial nucleus. D. abducent nucleus. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q93; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q93.
+
+---
+
+# Item
+
+## id
+CON-NEU-5281EA497294EB
+
+## label
+The primary motor area is specialized for fine distal, not proximal gross, movement control
+
+## canonical_key
+cerebralcortex.homunculus.falsely-paired-primary-motor-area-proximal-gross-movement
+
+## definition
+The primary motor cortex is specialized for fine, skilled, distal movement (per the motor homunculus's disproportionately large hand/finger representation), not for proximal muscles or gross movements — making that pairing false, unlike the genuine SMA-planning, posterior-parietal-neglect and prefrontal-working-memory pairings.
+
+## explicit_objective
+Identify that pairing the primary motor area with proximal muscle gross movements is false, since it is specialized for fine, distal, skilled movement.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cerebral cortex functional localization
+
+## subtopic
+Primary motor area (fine distal, not proximal gross) movement
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Cerebral cortex functional localization
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q94 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-5281EA497294EB
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. supplementary motor area planning of movements. B. posterior parietal cortex. Neglect syndrome. C. prefrontal cortex. Working memory. D. primary motor area proximal muscle gross movements. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q94; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q94.
+
+---
+
+# Item
+
+## id
+CON-NEU-AD94860CF588EE
+
+## label
+The superior temporal gyrus (auditory cortex) is not part of the rotatory nystagmus pathway
+
+## canonical_key
+vestibular.physiology.rotatory-nystagmus-pathway-excludes-superior-temporal-gyrus
+
+## definition
+The rotatory nystagmus pathway runs through the vestibular nucleus, medial longitudinal fasciculus and reticular formation to the extraocular motor nuclei; the superior temporal gyrus (auditory cortex) is not part of this vestibulo-ocular circuit.
+
+## explicit_objective
+Identify the superior temporal gyrus as excluded from the rotatory nystagmus neural pathway, unlike the medial longitudinal fasciculus, reticular formation and vestibular nucleus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Vestibulo-ocular reflex
+
+## subtopic
+Rotatory nystagmus pathway components
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Vestibulo-ocular reflex
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q96 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-AD94860CF588EE
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Medial longitudinal bundle B. Reticular formation C. Vestibular nucleus D. Superior temporal gyrus Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q96; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q96.
+
+---
+
+# Item
+
+## id
+CON-NEU-BCDA466ADDAF93
+
+## label
+The lateral wall of the middle ear is formed by the tympanic membrane
+
+## canonical_key
+middleear.anatomy.lateral-wall-formed-by-tympanic-membrane
+
+## definition
+The lateral wall of the middle ear (tympanic cavity) is formed by the tympanic membrane (ear drum), separating it from the external acoustic meatus — unlike the medial wall, which is related to the cochlea and the stapes footplate/oval window.
+
+## explicit_objective
+State that the lateral wall of the middle ear is formed by the tympanic membrane (ear drum).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Middle ear anatomy
+
+## subtopic
+Lateral wall (tympanic membrane)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Middle ear anatomy
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q97 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-BCDA466ADDAF93
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. foot plate of the stapes. B. Facial canal. C. Ear drum. D. Cochlea. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q97; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q97.
+
+---
+
+# Item
+
+## id
+CON-NEU-175E84DDFEDEA1
+
+## label
+Rhodopsin activation by light decreases intracellular cGMP, closing cation channels and hyperpolarizing the photoreceptor
+
+## canonical_key
+retina.physiology.rhodopsin-activation-decreases-cgmp-hyperpolarizes
+
+## definition
+Light-activated rhodopsin activates transducin, which activates phosphodiesterase to hydrolyze cGMP; the resulting fall in cGMP closes cGMP-gated Na+ channels, reducing the dark current and hyperpolarizing (not depolarizing) the photoreceptor.
+
+## explicit_objective
+State that activation of rhodopsin by light energy results in a decreased level of cGMP.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Phototransduction
+
+## subtopic
+Rhodopsin activation decreases cGMP
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Phototransduction
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q99 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-175E84DDFEDEA1
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Increase of dark current B. Decreased level of cGMP C. Activation of adenyl cyclase D. Depolarization of the re receptor membrane Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q99; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q99.
+
+---
+
+# Item
+
+## id
+CON-NEU-52A4EFBF2BD595
+
+## label
+This source's hindbrain grouping is pons, medulla and cerebellum
+
+## canonical_key
+brainstem.anatomy.hindbrain-consists-of-pons-medulla-cerebellum
+
+## definition
+This source credits the hindbrain as comprising the pons, medulla and cerebellum together, distinct from groupings that include the midbrain (a midbrain, not hindbrain, derivative).
+
+## explicit_objective
+State that the hindbrain, per this source, consists of the pons, medulla and cerebellum.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Brainstem subdivisions
+
+## subtopic
+Hindbrain grouping (pons, medulla, cerebellum)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Brainstem subdivisions
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q103 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-52A4EFBF2BD595
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Pons, medulla &cerebellum. B. Midbrain, pons & medulla. C. Midbrain, pons & cerebellum. D. Midbrain & pons. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q103; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q103.
+
+---
+
+# Item
+
+## id
+CON-NEU-D4C39126DFE277
+
+## label
+The saccule is part of the membranous, not bony, labyrinth
+
+## canonical_key
+ear.anatomy.bony-labyrinth-excludes-saccule
+
+## definition
+The bony labyrinth comprises the cochlea, vestibule and semicircular canals; the saccule (with the utricle) is instead part of the membranous labyrinth, housed within the bony vestibule.
+
+## explicit_objective
+Identify the saccule, unlike the cochlea, semicircular canals and vestibule, as not a component of the bony labyrinth.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Ear anatomy
+
+## subtopic
+Bony vs membranous labyrinth (saccule)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Ear anatomy
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q104 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-D4C39126DFE277
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Saccule. B. Cochlea. C. Semicircular canals. D. Vestibule. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q104; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q104.
+
+---
+
+# Item
+
+## id
+CON-NEU-BAD0559B8D134D
+
+## label
+The glossopharyngeal nerve supplies the posterior, not anterior, one-third of the tongue
+
+## canonical_key
+cranialnerve.glossopharyngeal.taste-general-sensation-posterior-third-tongue-not-anterior
+
+## definition
+The glossopharyngeal nerve carries general and taste sensation from the posterior one-third of the tongue; the anterior two-thirds is instead supplied by the lingual nerve (general sensation) and the facial nerve's chorda tympani (taste).
+
+## explicit_objective
+Identify that the glossopharyngeal nerve supplies the posterior, not the anterior, one-third of the tongue, unlike its genuine parotid parasympathetic supply, jugular foramen exit and identity as CN IX.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cranial nerves
+
+## subtopic
+Glossopharyngeal nerve tongue sensation (posterior 1/3)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerves
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q105 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-BAD0559B8D134D
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. It carries general and taste sensation from the mucous membrane of the anterior 2/3 of the tongue B. It carries parasympathetic fibers to the parotid gland C. It passes through the jugular foramen D. It is the 9th cranial nerve Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q105; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q105.
+
+---
+
+# Item
+
+## id
+CON-NEU-DE565356A7B4B6
+
+## label
+Intralaminar thalamic nuclei distribute reticular activating system input diffusely to many cortical areas
+
+## canonical_key
+thalamus.physiology.intralaminar-nuclei-diffuse-projection-to-cortex
+
+## definition
+The intralaminar thalamic nuclei relay ascending reticular activating system input diffusely and non-specifically to many widespread cortical areas, underlying their role in cortical arousal, rather than projecting to any single cortical gyrus.
+
+## explicit_objective
+State that intralaminar thalamic nuclei distribute reticular activating system input to many areas of the cortex.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Reticular activating system
+
+## subtopic
+Intralaminar nuclei diffuse cortical projection
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Reticular activating system
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q106 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-DE565356A7B4B6
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. primarily to the precentral gyrus. B. many areas of the cortex. C. mainly to the postcentral gyrus. D. somatosensory nuclei of the thalamus. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q106; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q106.
+
+---
+
+# Item
+
+## id
+CON-NEU-F5877AFCFC0BBF
+
+## label
+Macula sacculi hair cell stereocilia are embedded into the otolithic membrane
+
+## canonical_key
+vestibular.histology.macula-sacculi-type2-hair-cells-stereocilia-otolithic-membrane
+
+## definition
+In the macula sacculi, hair cell stereocilia (with a kinocilium) are embedded into the overlying otolithic membrane, a gelatinous, otoconia-studded structure — distinct from the cochlea's tectorial membrane and the crista ampullaris's cupula.
+
+## explicit_objective
+State that macula sacculi hair cells have stereocilia embedded into the otolithic membrane.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Vestibular histology
+
+## subtopic
+Macula sacculi (otolithic membrane)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Histology > Vestibular histology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q107 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-F5877AFCFC0BBF
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. W- shaped microvilli, the otolithic membrane B. V- shaped microvilli, the tectorial membrane C. streocillia, the copula D. sterecilia, the otolithic membrane Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q107; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q107.
+
+---
+
+# Item
+
+## id
+CON-NEU-F5AF4DE725DEB2
+
+## label
+The splenium is the most posterior part of the corpus callosum
+
+## canonical_key
+cerebrum.anatomy.splenium-most-posterior-part-of-corpus-callosum
+
+## definition
+The splenium is the thick, bulbous, most posterior part of the corpus callosum, connecting the occipital and posterior temporal lobes, distinct from the anterior genu, the curving rostrum, and the middle body.
+
+## explicit_objective
+State that the splenium is the most posterior part of the corpus callosum.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Corpus callosum anatomy
+
+## subtopic
+Splenium (posterior part)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Corpus callosum anatomy
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q109 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-F5AF4DE725DEB2
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Rostrum. B. Splenium. C. Body. D. Genu. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q109; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q109.
+
+---
+
+# Item
+
+## id
+CON-NEU-26CAD5F218C702
+
+## label
+High astrocytic NH4+ raises glutamine, drawing water in by osmosis (astrocyte swelling)
+
+## canonical_key
+astrocyte.physiology.high-ammonia-increases-glutamine-triggers-water-uptake
+
+## definition
+Astrocytes detoxify excess ammonia via glutamine synthetase (glutamate + NH3 → glutamine); the resulting glutamine accumulation raises intracellular osmotic pressure, drawing water in and contributing to astrocyte swelling, as in hepatic encephalopathy/hyperammonemia.
+
+## explicit_objective
+State that high astrocytic NH4+ leads to increased glutamine, which triggers water uptake into the astrocyte.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Astrocyte physiology
+
+## subtopic
+Ammonia detoxification and osmotic swelling
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Astrocyte physiology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q110 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-26CAD5F218C702
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. increased levels of glutamate that enhances the citric acid cycle B. increased ATP production C. increased acidity intracellular that alters the pH of the astrocytes D. increased levels of glutamine that triggers the uptake of water, Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q110; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q110.
+
+---
+
+# Item
+
+## id
+CON-NEU-245BE2F0AFA675
+
+## label
+Skin sensation of the lower lip is carried by the mandibular division of the trigeminal nerve
+
+## canonical_key
+trigeminal.anatomy.lower-lip-sensation-mandibular-division
+
+## definition
+Sensation from the skin of the lower lip and chin is carried by the mental nerve, a terminal branch of the inferior alveolar nerve from the mandibular division (V3) of the trigeminal nerve.
+
+## explicit_objective
+State that sensation from the skin of the lower lip is carried by the mandibular division of the trigeminal nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Trigeminal nerve sensory distribution
+
+## subtopic
+Lower lip sensation (mandibular division)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Trigeminal nerve sensory distribution
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q111 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-245BE2F0AFA675
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Mandibular division of trigeminal B. Maxillary division of trigeminal C. Ophthalmic division of trigeminal D. Facial Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q111; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q111.
+
+---
+
+# Item
+
+## id
+CON-NEU-F7643E2C5FB963
+
+## label
+Memory consolidation (short-term to long-term) occurs in the hippocampus
+
+## canonical_key
+hippocampus.physiology.memory-consolidation-site
+
+## definition
+The hippocampus is the classical site responsible for consolidating short-term memories into stable long-term memories, distinct from the amygdala's emotional-tagging role and the cerebral cortex's eventual long-term storage role.
+
+## explicit_objective
+State that the process of memory consolidation (short-term to long-term) occurs in the hippocampus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Memory physiology
+
+## subtopic
+Hippocampus and memory consolidation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Memory physiology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q112 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-F7643E2C5FB963
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. amygdala B. hippocampus C. cerebral cortex D. hypothalamus Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q112; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q112.
+
+---
+
+# Item
+
+## id
+CON-NEU-97BF5F6544CD0C
+
+## label
+Climbing cerebellar fibers arise from the inferior olivary nucleus (olivocerebellar pathway)
+
+## canonical_key
+cerebellum.anatomy.climbing-fibers-are-olivocerebellar
+
+## definition
+Climbing fibers arise from the inferior olivary nucleus (the olivocerebellar pathway), each forming multiple powerful synapses onto a single Purkinje cell's dendritic tree, unlike the mossy fibers of the spinocerebellar and corticocerebellar (pontocerebellar) pathways.
+
+## explicit_objective
+State that climbing cerebellar fibers are olivocerebellar, arising from the inferior olivary nucleus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Cerebellar afferent fibers
+
+## subtopic
+Climbing fibers (olivocerebellar)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebellar afferent fibers
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q113 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-97BF5F6544CD0C
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. olivocerebellar. B. Spinocerebellar C. Corticocerebellar. D. Rubrocerebellar Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q113; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q113.
+
+---
+
+# Item
+
+## id
+CON-NEU-62B764A8323D4A
+
+## label
+The limbic system plays a role in processing moral emotions
+
+## canonical_key
+limbicsystem.physiology.processing-of-moral-emotions
+
+## definition
+The limbic system (amygdala, hippocampus, cingulate gyrus, hypothalamus) plays a central role in emotional processing, including moral emotions such as guilt and empathy, distinct from cortical language and motor cortex movement functions.
+
+## explicit_objective
+State that the limbic system plays a role in the processing of moral emotions.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Limbic system function
+
+## subtopic
+Processing of moral emotions
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Limbic system function
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q114 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-62B764A8323D4A
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Language comprehension. B. Gross associated movements C. Processing of moral emotions D. Fine Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q114; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q114.
+
+---
+
+# Item
+
+## id
+CON-NEU-24787DF6551D8A
+
+## label
+GABA is the major inhibitory neurotransmitter of the central, not peripheral, nervous system
+
+## canonical_key
+gaba.physiology.most-abundant-in-cns-not-pns
+
+## definition
+GABA is the major inhibitory neurotransmitter predominantly of the central nervous system (brain and spinal cord), not a transmitter that is most abundant in the peripheral nervous system.
+
+## explicit_objective
+Identify that GABA being most abundant in the peripheral nervous system is false, since it is chiefly the major inhibitory transmitter of the central nervous system.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neurotransmitter physiology
+
+## subtopic
+GABA distribution (CNS, not PNS)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Neurotransmitter physiology
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q116 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-24787DF6551D8A
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. it is most abundant in the peripheral nervous system. B. it is the major inhibitory transmitter of the brain. C. Its synthesis is catalyzed by glutamate decarboxylase D. underproduction of GABA is associated with epileptic seizures Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q116; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q116.
+
+---
+
+# Item
+
+## id
+CON-NEU-1A0F1E87FB269A
+
+## label
+The cuneate tract is absent at lumbar spinal cord levels
+
+## canonical_key
+spinalcord.anatomy.lumbar-segment-cuneate-tract-absent
+
+## definition
+The cuneate fasciculus, carrying fine touch/proprioception from the upper limb and upper trunk (above roughly T6), is absent at lumbar spinal cord levels, where only the gracile fasciculus is present in the dorsal columns.
+
+## explicit_objective
+State that the cuneate tract is absent at the lumbar segment of the spinal cord.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Spinal cord segmental anatomy
+
+## subtopic
+Lumbar segment (cuneate tract absent)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Spinal cord segmental anatomy
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q117 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-1A0F1E87FB269A
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. The outline is quadrilateral. B. Thin ventral horn. C. The central canal is ventral D. The cuneate tract is absent Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q117; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q117.
+
+---
+
+# Item
+
+## id
+CON-NEU-5AC016E9CE6131
+
+## label
+The second pharyngeal arch is supplied by the facial nerve
+
+## canonical_key
+pharyngealarch.development.second-arch-supplied-by-facial-nerve
+
+## definition
+The second (hyoid) pharyngeal arch is supplied by the facial nerve (CN VII), consistent with its muscular derivatives (muscles of facial expression, stapedius, stylohyoid, posterior belly of digastric) all receiving facial nerve innervation.
+
+## explicit_objective
+State that the second pharyngeal arch is supplied by the facial nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Pharyngeal arch development
+
+## subtopic
+Second arch nerve (facial)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Pharyngeal arch development
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q118 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-5AC016E9CE6131
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Hypoglossal B. Glossopharyngeal C. Mandibular D. Facial Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q118; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q118.
+
+---
+
+# Item
+
+## id
+CON-NEU-E6519393BD5C33
+
+## label
+In the lower neck, the carotid sheath contains the common, not internal, carotid artery
+
+## canonical_key
+neck.anatomy.carotid-sheath-lower-neck-common-not-internal-carotid
+
+## definition
+In the lower part of the neck, the carotid sheath's arterial content is the common carotid artery; the internal carotid artery is present only above the carotid bifurcation (upper neck), alongside the vagus nerve and internal jugular vein, which run the sheath's full length.
+
+## explicit_objective
+Identify that the internal carotid artery, unlike the common carotid artery, vagus nerve and internal jugular vein, is not a content of the carotid sheath in the lower part of the neck.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neck anatomy
+
+## subtopic
+Carotid sheath contents by neck level
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Neck anatomy
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q119 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-E6519393BD5C33
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Vagus nerve B. Internal carotid artery C. Common carotid artery D. Internal jugular vein Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q119; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q119.
+
+---
+
+# Item
+
+## id
+CON-NEU-2FE85C7DF07764
+
+## label
+Dorsal column second-order neurons cross at the level of the medulla
+
+## canonical_key
+spinalcord.anatomy.dorsal-column-second-order-neurons-cross-at-medulla
+
+## definition
+Dorsal column primary afferents ascend uncrossed to synapse in the gracile and cuneate nuclei of the medulla; these second-order neurons then cross as internal arcuate fibers to form the contralateral medial lemniscus — the dorsal column system's crossing point.
+
+## explicit_objective
+State that crossing of the dorsal column system's second-order neurons occurs at the level of the medulla.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Dorsal column-medial lemniscus pathway
+
+## subtopic
+Crossing level (medulla)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Dorsal column-medial lemniscus pathway
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q120 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2FE85C7DF07764
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. Transmits pain sensation from the viscera. B. Its fibers are mainly c unmyelinated. C. Transmits indiscriminative touch sensation. D. Crossing of its second order neurons occur at the level of medulla. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q120; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q120.
+
+---
+
+# Item
+
+## id
+CON-NEU-DD07E9F5EC685E
+
+## label
+The vagal trigone lies on the posterior surface (fourth ventricle floor) of the medulla oblongata
+
+## canonical_key
+brainstem.anatomy.vagal-trigone-on-medulla-oblongata
+
+## definition
+The vagal trigone is a triangular elevation on the posterior surface (floor of the fourth ventricle) of the medulla oblongata, overlying the dorsal motor nucleus of the vagus nerve.
+
+## explicit_objective
+State that the vagal trigone is on the posterior surface of the medulla oblongata.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Medulla oblongata surface anatomy
+
+## subtopic
+Vagal trigone
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Medulla oblongata surface anatomy
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q121 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-DD07E9F5EC685E
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. cerebellum. B. midbrain. C. medulla oblongata. D. pons Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q121; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q121.
+
+---
+
+# Item
+
+## id
+CON-NEU-0A86B676A56613
+
+## label
+Brown-Séquard syndrome causes ipsilateral loss of vibration sense below the lesion
+
+## canonical_key
+spinalcord.pathology.brown-sequard-syndrome-ipsilateral-vs-contralateral-loss
+
+## definition
+Brown-Séquard syndrome (spinal cord hemisection) produces ipsilateral loss of vibration/fine touch/proprioception (uncrossed dorsal column) and ipsilateral motor loss (already-crossed corticospinal tract) below the lesion, together with contralateral loss of pain/temperature (spinothalamic tract, crossed near its level of entry).
+
+## explicit_objective
+State that Brown-Séquard syndrome is characterized by loss of vibration sense on the same side below the level of the lesion.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Spinal cord syndromes
+
+## subtopic
+Brown-Séquard syndrome (ipsilateral vibration loss)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Spinal cord syndromes
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q123 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-0A86B676A56613
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. loss of pain sensation on the same side below the level of the lesion. B. loss of vibration sense on the same side below level of the lesion. C. loss of voluntary movements on the opposite side below the level of the lesion. D. a zone of hyperthesia on the same side at the level of the lesion. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q123; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q123.
+
+---
+
+# Item
+
+## id
+CON-NEU-7AF1A6DC04D950
+
+## label
+The first synapse for peripheral sensation is on posterior (dorsal) horn cells
+
+## canonical_key
+sensory.physiology.first-synapse-for-peripheral-sensation-posterior-horn-cells
+
+## definition
+Primary sensory afferent fibers entering the spinal cord typically make their first synapse on second-order neurons in the posterior (dorsal) horn of the spinal cord grey matter.
+
+## explicit_objective
+State that the first synapse for peripheral sensation is on posterior horn cells.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Sensory pathway organization
+
+## subtopic
+First synapse (posterior horn cells)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Sensory pathway organization
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q124 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-7AF1A6DC04D950
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. midbrain. B. Anterior horn cells. C. Cerebellum. D. Posterior horn cells. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q124; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q124.
+
+---
+
+# Item
+
+## id
+CON-NEU-658B16E869AB30
+
+## label
+This source credits stimulation of the medial right primary motor area with moving the left hand, though standard homunculus teaching predicts the left foot
+
+## canonical_key
+cerebralcortex.homunculus.medial-primary-motor-area-stimulation-produces-contralateral-foot-movement
+
+## definition
+This source's printed key credits stimulation of the medial part of the right primary motor area with producing left hand movement. Standard motor homunculus teaching instead places the lower limb (leg/foot), not the hand, on the medial cortical surface, so contralateral (left) FOOT movement would be the physiologically expected answer — recorded here as a printed-key conflict rather than silently corrected.
+
+## explicit_objective
+State this source's credited effect of stimulating the medial part of the right primary motor area, noting the conflict with standard motor homunculus topography (which would predict foot, not hand, movement).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Motor homunculus
+
+## subtopic
+Medial motor cortex stimulation (printed-key laterality/topography doubt)
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+Standard motor homunculus teaching represents the lower limb (leg/foot) on the medial surface of the primary motor cortex and the hand laterally; stimulating the medial part of the right motor cortex would therefore be expected to produce contralateral (left) FOOT movement, not left hand movement as this source's printed key credits.
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Motor homunculus
+
+## exam_signal
+src_27a0ccf21cff0f58e6e3 | department_question_bank | undated | pilation, q125 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-658B16E869AB30
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## original_wording
+A. The left foot B. The right foot C. The right hand D. The left hand Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 "Previous Years CNS MCQ with answers" compilation (src_27a0ccf21cff0f58e6e3), pilation, q125; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs plus hand-grep of this module's own anatomy/physiology/histology concept files and ASU-CNS-3's pending concept files for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity is not itself a typed edge, so none is written to a relations batch this pass.
+au: Previous Years CNS MCQ compilation, pilation,, q125.
