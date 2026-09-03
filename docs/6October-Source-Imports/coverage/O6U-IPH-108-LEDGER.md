@@ -3,6 +3,7 @@
 | drg-practical | 33 | 1 | 0 | 34 |
 | pharmabank | 42 | 0 | 0 | 42 |
 | pharmabank2 | 44 | 12 | 0 | 56 |
+| pharmabank3 | 50 | 9 | 0 | 59 |
 
 ## Held
 - drg-practical-q27 — Contradictory printed key: the review page's own explanatory paragraph affirms "Their names end with 'ine' e.g. atropine, morphine" as true, but the printed 'correct answer' to this EXCEPT question (asking for the FALSE statement) is also "Alkaloid's name ends with in". The key contradicts the source's own printed explanation directly beneath it (all Practical pharma questions _compressed.pdf, Q35, p71-72, render-confirmed). Held per the standing rule -- printed keys stand except when internally contradictory, in which case the item is held rather than re-keyed by inference. See coverage/O6U-IPH-108-triage.md.
@@ -18,6 +19,15 @@
 - pharmabank2-q39 — "Match the pairs" table item (alpha-2 agonists matched to their clinical use), not a single-`correct`-letter SBA shape; held per the standing rule, consistent with lanes 1-2's own holds for this shape (p143 of pharma MCQs bank .pdf).
 - pharmabank2-q43 — No visible printed key: OCR recovered only the five option labels (Hypotension/Atrophic rhinitis/Tachycardia/Lower IOP/Bronchospasm) with no trailing checkmark or highlighted-feedback text on any line. Held rather than keyed by fact-checking (p147 of pharma MCQs bank .pdf).
 - pharmabank2-q56 — No visible printed key: OCR recovered only four option labels (Bronchial asthma/Preterm labor/Reynaud's disease/Two of the above, with only 4 legible options and no 'e') with no trailing checkmark or highlighted-feedback text on any line. Held rather than keyed by fact-checking (p160 of pharma MCQs bank .pdf).
+- pharmabank3-q12 — Ordering exercise (arrange ephedrine/salbutamol/epinephrine by speed of tolerance onset), not a single-`correct`-letter SBA shape; held per the standing rule, consistent with lanes 1-3's own holds for this shape (p172 of pharma MCQs bank .pdf).
+- pharmabank3-q15 — "Match the pairs" table item (alpha methyldopa/clonidine/reserpine matched to their central-monoaminergic-store and false-neurotransmitter effects), not a single-`correct`-letter SBA shape; held per the standing rule, consistent with lanes 1-3's own holds for this shape (p177 of pharma MCQs bank .pdf).
+- pharmabank3-q19 — Ordering exercise presented as six lettered permutation options ("arrange...the worst first": a-b-c through c-b-a), not a single-fact SBA distractor shape and exceeding the 5-option cap; held per the standing rule against ordering exercises, consistent with lanes 1-3's own holds for this shape (p181 of pharma MCQs bank .pdf).
+- pharmabank3-q20 — Continuation of the same ordering exercise as p181 (re-listing the items to arrange, alpha-methyl dopa/clonidine, with no independent lettered options of its own) -- not standalone MCQ content; held alongside p181 (p182 of pharma MCQs bank .pdf).
+- pharmabank3-q21 — "Match the pairs" table item (each beta blocker matched to its mechanism of action: nonselective/beta-1-selective/partial-agonist/mixed alpha-beta), not a single-`correct`-letter SBA shape; held per the standing rule, consistent with lanes 1-3's own holds for this shape (p184 of pharma MCQs bank .pdf).
+- pharmabank3-q22 — "Match the pairs" table item (each beta blocker matched to its pharmacokinetic class: lipophilic/balanced/hydrophilic/short-acting), not a single-`correct`-letter SBA shape; held per the standing rule, consistent with lanes 1-3's own holds for this shape (p185 of pharma MCQs bank .pdf).
+- pharmabank3-q23 — "Match the pairs" table item (each disease matched to its best beta blocker: thyrotoxicosis/migraine/oesophageal varices prophylaxis/simple glaucoma/heart failure), not a single-`correct`-letter SBA shape; held per the standing rule, consistent with lanes 1-3's own holds for this shape (p186 of pharma MCQs bank .pdf).
+- pharmabank3-q53 — "Match the pairs" table item (each alpha blocker matched to its mechanism of action: selective alpha-1 blocker versus mixed alpha/beta blocker), not a single-`correct`-letter SBA shape; held per the standing rule, consistent with lanes 1-3's own holds for this shape (p217 of pharma MCQs bank .pdf).
+- pharmabank3-q59 — Restates the same floppy-iris-syndrome/alpha-blocker fact already authored as pharmabank3-q58 (p222) from a fill-in-the-blank angle ("____ syndrome occurs during cataract extraction in patients receiving alpha blockers... Answer: floppy iris"); held as an internal near-duplicate rather than authored as a second item testing the identical fact (p223 of pharma MCQs bank .pdf).
 
 ## Remaining
 (none)

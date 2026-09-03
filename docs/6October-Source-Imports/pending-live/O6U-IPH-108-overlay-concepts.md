@@ -553,3 +553,128 @@ distinction this item tests. Sourced from "pharma MCQs bank .pdf"
 (coverage/O6U-IPH-108-triage.md).
 
 ---
+
+<!--
+  Lane 4 (o6u-iph108-author4, cluster "pharmabank3") additions below -- three
+  further hits from Kasr 208-INT-concepts.md (source B, already listed above),
+  all reused per 00-START-HERE.md §3/§4 (search-before-mint). The source file
+  is still "pending" -- confirmed absent from this checkout's local
+  server/data/medical-library-v1.json snapshot by direct grep of all three ids
+  together (0 hits). Apply this block ONLY after 208-INT-concepts.md is live.
+
+  Search covered find-existing.mjs on "dopamine", "clonidine", "verapamil",
+  "propranolol", "atenolol", "metoprolol", "esmolol", "timolol", "pindolol",
+  "carvedilol", "bisoprolol", "nadolol", "prazosin", "phentolamine",
+  "phenoxybenzamine", "tamsulosin", "labetalol", "methyldopa", "reserpine",
+  "ritodrine", "brimonidine", "midodrine", plus a direct grep of Kasr
+  108-INT/208-INT/102-INT, Assiut AUN-MPT-104, Mansoura MANS-PPPM-concepts.md/
+  concepts-2.md and MUST CVS-201 concept files (the dispatch's own named
+  likely-overlap general-pharmacology modules) and a full read of every
+  candidate hit's own concept body before reuse. Three genuine, fact-level
+  hits found, all in Kasr 208-INT-concepts.md; no hit anywhere for this
+  cluster's other forty-seven questions, which mint thirty-four new concepts
+  instead (see concept/O6U-IPH-108-pharmabank3-concepts.md). Several partial-
+  overlap candidates (Assiut AUN-MPT-104's own propranolol/esmolol/prazosin/
+  clonidine/phentolamine/tamsulosin/labetalol/nadolol concepts; Kasr 208-INT's
+  own atenolol/carvedilol/labetalol concepts; Mansoura MANS-PPPM's own
+  phenoxybenzamine/tamsulosin/carvedilol/prazosin concepts) were read in full
+  and rejected as reuse candidates -- each covers a genuinely different fact
+  from the one this cluster's own questions test, per the same "concept's own
+  definition must already state the fact" bar lanes 1-3 applied.
+
+  Simulate together with the source file:
+  npm run medical:simulate -- docs/6October-Source-Imports/pending-live/O6U-IPH-108-overlay-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/208-INT-concepts.md \
+    --emit /tmp/sim-O6U-IPH-108-pending-concepts-208int.json
+-->
+
+# Item
+
+## id
+CON-FND-EA0D1633BF0130
+
+## label
+Dopamine's receptor selectivity is dose-dependent: D1 (renal vasodilation) at low dose, beta1 (cardiac output) at intermediate dose, alpha1 (vasoconstriction) at high dose
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Adrenergic Agonist Pharmacology > Dopamine Dose-Dependent Receptor Selectivity
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Agonists
+
+## field_notes
+o6u: Reused for the pharmabank3 cluster's Q1 (p161, "Low-dose dopamine causes renal,
+mesenteric, and coronary vasodilatation through: ... D-receptors") -- this concept's own
+definition already documents the low-dose D1-mediated renal vasodilation fact; this item's
+mesenteric/coronary vascular-bed detail extends the same dose-dependent-selectivity teaching
+rather than contradicting it. Sourced from "pharma MCQs bank .pdf"
+(coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-B6D3C1F469AC58
+
+## label
+Clonidine causes severe rebound hypertension (with nervousness and tachycardia) if stopped abruptly, requiring gradual tapering
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Adrenergic Agonist Pharmacology > Clonidine Withdrawal Syndrome
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs
+
+## field_notes
+o6u: Reused for the pharmabank3 cluster's Q6 (p166, "Sudden cessation may lead to
+hypertensive crisis: ... Clonidine") -- this concept's own definition already states this
+exact fact. Sourced from "pharma MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+---
+
+# Item
+
+## id
+CON-FND-0356010F3C10AD
+
+## label
+Verapamil's consistent heart-rate-lowering, coronary-vasodilating action makes it the calcium-channel blocker of choice for vasospastic (variant) angina prophylaxis, unlike beta-blockers
+
+## universities
++o6u
+
+## learner_years
++1
+
+## modules
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Beta-Blocker Pharmacology > Beta Blockers Contraindicated in Vasospastic Angina
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Calcium Channel Blockers
+
+## field_notes
+o6u: Reused for the pharmabank3 cluster's Q50 (p213, fill-in "Beta blockers are useful in
+all types of angina pectoris EXCEPT ... angina. Answer: vasospastic", converted to a
+constructed SBA) -- this concept's own definition already states that beta-blockers are
+contraindicated in vasospastic/variant angina because unopposed alpha-mediated
+vasoconstriction risks worsening the coronary spasm, unlike verapamil's own consistent
+heart-rate-lowering, coronary-vasodilating action. Sourced from "pharma MCQs bank .pdf"
+(coverage/O6U-IPH-108-triage.md).
+
+---
