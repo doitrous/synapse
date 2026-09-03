@@ -58,6 +58,35 @@ export async function catalogPricing() {
   }
 }
 
+function voucherActiveNow(voucher, now) {
+  if (!voucher?.active) return false
+  if (new Date(voucher.startsAt).getTime() > now.getTime()) return false
+  if (new Date(voucher.expiresAt).getTime() < now.getTime()) return false
+  if (voucher.maxRedemptions > 0 && voucher.redemptionCount >= voucher.maxRedemptions) return false
+  return true
+}
+
+/** Money off, mirroring src/data/vouchers.ts's voucherDiscount() — periodPrices first. */
+function voucherAmountFor(voucher, periodId, baseAmount) {
+  if (voucher.grant === 'Full-access trial') return null
+  const fixed = periodId === 'month' ? voucher.periodPrices?.month : voucher.periodPrices?.term
+  if (typeof fixed === 'number') return Math.max(0, Math.min(baseAmount, fixed))
+  const discount = voucher.discountType === 'Percentage'
+    ? Math.min(baseAmount, baseAmount * (Number(voucher.amount) / 100))
+    : Math.min(baseAmount, Number(voucher.amount) || 0)
+  return Math.max(0, Math.round((baseAmount - discount) * 100) / 100)
+}
+
+async function findVoucherByCode(code) {
+  const wanted = String(code ?? '').trim().toLowerCase()
+  if (!wanted) return null
+  const [[row]] = await pool.query('SELECT v FROM app_state WHERE k = ?', [VOUCHERS_STATE_KEY])
+  let vouchers = []
+  try { vouchers = row?.v ? JSON.parse(row.v) : [] } catch { vouchers = [] }
+  if (!Array.isArray(vouchers)) return null
+  return vouchers.find((entry) => String(entry?.code ?? '').trim().toLowerCase() === wanted) ?? null
+}
+
 export function normalisePeriod(value) {
   const period = String(value ?? '').trim().toLowerCase()
   return period === 'monthly' || period === 'term' ? period : null
@@ -194,6 +223,14 @@ export async function pricingQuote({ period, voucherCode, now = new Date() }) {
 
   const candidates = [{ kind: null, amount: baseAmount }]
   if (promoAmount < baseAmount) candidates.push({ kind: 'promo', amount: promoAmount })
+
+  if (voucherCode) {
+    const voucher = await findVoucherByCode(voucherCode)
+    if (voucher && voucherActiveNow(voucher, now)) {
+      const voucherAmount = voucherAmountFor(voucher, periodId, baseAmount)
+      if (voucherAmount !== null) candidates.push({ kind: 'voucher', amount: voucherAmount, code: voucher.code })
+    }
+  }
 
   candidates.sort((a, b) => a.amount - b.amount)
   const applied = candidates[0]

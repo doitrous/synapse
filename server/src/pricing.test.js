@@ -156,6 +156,71 @@ test('"monthly" is accepted as a synonym for "month" (legacy caller compatibilit
   })
 })
 
+test('a voucher cheaper than the promo wins — best price, no stacking', async () => {
+  const catalogDoc = { plans: [{ id: 'maristana', prices: { month: 400, term: 1000 }, promo: { term: { enabled: true, percentOff: 30 } } }] }
+  const vouchers = [{
+    id: 'v1', code: 'AMBASSADOR', active: true,
+    startsAt: '2020-01-01', expiresAt: '2099-01-01',
+    maxRedemptions: 0, redemptionCount: 0,
+    periodPrices: { term: 550 },
+  }]
+  await withAppState({ catalog: catalogDoc, vouchers }, async () => {
+    const quote = await pricingQuote({ period: 'term', voucherCode: 'ambassador' })
+    assert.equal(quote.totalAmount, 550)
+    assert.equal(quote.appliedDiscount.kind, 'voucher')
+    assert.equal(quote.appliedDiscount.code, 'AMBASSADOR')
+  })
+})
+
+test('a voucher worse than the promo loses — the promo still wins, never both', async () => {
+  const catalogDoc = { plans: [{ id: 'maristana', prices: { month: 400, term: 1000 }, promo: { term: { enabled: true, percentOff: 30 } } }] }
+  const vouchers = [{
+    id: 'v2', code: 'SMALL10', active: true,
+    startsAt: '2020-01-01', expiresAt: '2099-01-01',
+    maxRedemptions: 0, redemptionCount: 0,
+    discountType: 'Percentage', amount: 10,
+  }]
+  await withAppState({ catalog: catalogDoc, vouchers }, async () => {
+    const quote = await pricingQuote({ period: 'term', voucherCode: 'SMALL10' })
+    assert.equal(quote.totalAmount, 700)
+    assert.equal(quote.appliedDiscount.kind, 'promo')
+  })
+})
+
+test('an expired or unknown voucher code is ignored, not refused', async () => {
+  const catalogDoc = { plans: [{ id: 'maristana', prices: { month: 400, term: 1000 } }] }
+  const expired = [{
+    id: 'v3', code: 'OLD', active: true,
+    startsAt: '2020-01-01', expiresAt: '2021-01-01',
+    maxRedemptions: 0, redemptionCount: 0,
+    discountType: 'Fixed amount', amount: 300,
+  }]
+  await withAppState({ catalog: catalogDoc, vouchers: expired }, async () => {
+    const unknown = await pricingQuote({ period: 'month', voucherCode: 'NOPE' })
+    assert.equal(unknown.totalAmount, 400)
+    assert.equal(unknown.appliedDiscount, null)
+
+    const expiredQuote = await pricingQuote({ period: 'month', voucherCode: 'OLD' })
+    assert.equal(expiredQuote.totalAmount, 400)
+    assert.equal(expiredQuote.appliedDiscount, null)
+  })
+})
+
+test('a voucher at its redemption limit is ignored', async () => {
+  const catalogDoc = { plans: [{ id: 'maristana', prices: { month: 400, term: 1000 } }] }
+  const exhausted = [{
+    id: 'v4', code: 'FULL', active: true,
+    startsAt: '2020-01-01', expiresAt: '2099-01-01',
+    maxRedemptions: 5, redemptionCount: 5,
+    discountType: 'Fixed amount', amount: 100,
+  }]
+  await withAppState({ catalog: catalogDoc, vouchers: exhausted }, async () => {
+    const quote = await pricingQuote({ period: 'month', voucherCode: 'FULL' })
+    assert.equal(quote.totalAmount, 400)
+    assert.equal(quote.appliedDiscount, null)
+  })
+})
+
 test('catalogPricing falls back without throwing when the stored doc is unparseable JSON', async () => {
   const original = pool.query
   pool.query = async (sql, params) => {
