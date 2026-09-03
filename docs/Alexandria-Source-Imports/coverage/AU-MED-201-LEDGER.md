@@ -1,10 +1,10 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
+| finalw1 | 20 | 0 | 0 | 20 |
 | mock1 | 26 | 0 | 0 | 26 |
 
 ## Held
-(none — the 5 image-dependent items below were triaged out before seeding, so `ledger.mjs`
-does not carry them as seed-declared holds; recorded here instead.)
+(none)
 
 ## Remaining
 (none)
@@ -49,6 +49,87 @@ simulate` (9 files, dependency order): created 57, updated 0, rejected 0, errors
 
 Next frontier: the paper's remaining 5 image-dependent items (Q9/17/22/30, see above) need
 the source's attached figures before they can be authored; module still has 6 papers total
-(2 stream-specific EOM finals, 1 practical paper, this Mock pair) and ~127 bank files not
+(2 stream-specific EOM finals, 1 practical, this Mock pair) and ~127 bank files not
 yet triaged — the largest single-department page footprint of any AU Year 2 module
 (Physiology, 2158 pages).
+
+## Held items, AU-201 EGU FINAL -27- (wafdeen) paper, Physiology section
+
+Not seeded (below this lane's 4-option SBA floor — the printed key still names a correct
+letter, but the item itself carries only 2-3 options):
+
+- Q13 (p3) — "In normal levels, what is the function of thyroid hormone?" — 3 options (A-C).
+- Q21 (p3) — "A 24-year-old female patient had galactorrhea..." — 2 options (A-B).
+- Q39 (p7) — "What is the effect of Addison syndrome on ACTH?" — 3 options (A-C).
+
+## AU-201 module, second pass — au201-author2, 2026-09-03
+
+Second authoring pass on this module, resuming from au201-author1's HANDOFF. Frontier
+surveyed: the module's 5 remaining tier-1 exam papers plus ~127 bank files not yet triaged.
+Findings on the 5 papers:
+
+- **`EOM - EGU Practical -27-(مصريين).pdf`** (13pp, native text, src_22c207a95d7ea076697a) —
+  61 items, every one a "what is the structure related 'A'/'1'/etc." spot-ID question
+  against a labelled prosection/diagram photo not present anywhere in this repository. A
+  clean printed answer-key table exists (p13), but per this module's own precedent (the
+  Mock exam's Q9/17/22/30, see above) an unavailable-figure SBA item is HELD, not authored
+  with a blank `labeling_image` — that exception is reserved for `format: labeling` items
+  with hand-placed points (see AU-MED-105's precedent), not standard 4-option SBAs whose
+  stem itself is unanswerable without the image. **Whole paper HELD** (61 items) pending
+  the source's attached figures.
+- **`EOM - EGU End 2028 (مصريين).pdf`** (1pp but dense, native text,
+  src_c059086be836c37cbe13) and **`EOM - EGU END 2028 (وافدين).pdf`** (7pp, native text,
+  src_6728142c9079b9c45416) — both read in full (Physiology, Biochemistry, Anatomy,
+  Histology and — مصريين only — an Integrated section); **no printed answer key found in
+  either file**, and no separate "…answers.pdf" twin exists for either in the manifest.
+  Per LANE-CARD's "unreliable/no key" HOLD rule, **both papers HELD in full** pending a key
+  (a render-verified highlight pass, if any exists, is next-session frontier).
+- **`EOM MCQs - EGU FINAL -27- (wafdeen).pdf`** (20pp, native text,
+  src_de3dfe0928d063fd37f4) — the international-stream EOM final, 4 sections (Physiology
+  Q1-40, Biochemistry Q1-7, Anatomy Q1-29, Histology Q1-28), each with its own printed
+  per-section answer table. **This pass authored 20 of the Physiology section's 37 usable
+  items** (Q1-Q12, Q14-Q20, Q22 — cluster `finalw1`; Q13/Q21/Q39 held, see above). 16 new
+  concepts minted after a per-item find-existing.mjs search (no genuine match for any); 4
+  items (Q3, Q5, Q6, Q19) instead reuse an existing physiology concept from the Mock exam
+  batch, since each tests the same underlying fact from a different stem. Two printed keys
+  diverge from more commonly cited textbook figures and are kept per LANE-CARD's
+  printed-key convention, flagged on each concept's own `conflicts` field: Q10 (Tm PAH =
+  75 mg/min, texts often cite ~80) and Q18 (LH surge 48h before ovulation, texts often cite
+  ~36h). Same physiology department article extended (not a new article) — see its own
+  header/notes for the field-by-field breakdown.
+
+  Gate: `medical:batch` 0 errors on question/concept/article/resource/evidence-source (with
+  `--with` naming the sibling concept+article+resource files). `medical:simulate`
+  (resource→evidence→concept→article→question, dependency order): created 34 concepts + 1
+  article + 1 resource + 20 questions against this worktree's local dev snapshot (which
+  does not yet carry au201-author1's mock1 batch either — the live-DB import is a separate,
+  chief-of-staff-only step per LANE-CARD §2), updated 0, rejected 0, errors 0.
+
+  **Remaining in this paper**: Physiology Q23-Q38 and Q40 (17 usable items — Q39 held); the
+  entire Biochemistry (7), Anatomy (29) and Histology (28) sections, none yet triaged for
+  option-count/image-dependency.
+- **`EOM MCQs - EGU FINAl -27-(مصريين).pdf`** (15pp, native text, src_219779bfa432fe3ac4a8)
+  — the Egyptian-stream twin of the paper above (different question content, not a
+  byte/content twin), also has its own printed per-section keys (checked: Physiology,
+  Biochemistry, Anatomy sections at minimum). **Not yet authored** — next frontier.
+- **`EOM MCQs - Mock exam EGU 2023-2024.pdf`** (24pp, questions-only sibling of the
+  already-authored `...answers.pdf`, src_efc5a6ba9f077048d2bc, nameTwinOf the non-preferred
+  `[from Alexandria University Updated]` copy) — **not opened this pass**; per
+  au201-author1's own finding (this sibling's bullet-glyph pseudo-marks disagree with the
+  answers file's key), it adds no new trustworthy content over the already-authored mock1
+  batch and is not expected to resolve the Mock exam's 4 held image-dependent items (same
+  paper, same missing figures). Low priority for a future pass.
+
+Next frontier: `EOM MCQs - EGU FINAl -27-(مصريين).pdf` (full paper, ~90+ usable items
+across 4 sections) and this pass's own paper's remaining ~81 items (Physiology Q23-Q40 +
+Biochem/Anatomy/Histology sections) are the two largest ungated sources; ~127 bank files
+(Physiology 66, Anatomy/Embryology 21, plus Dr Gawad's 155pg "All EGU questions with
+answers" bank and others) remain completely untriaged.
+
+## NEEDS-OMAR
+
+- `EOM - EGU End 2028 (مصريين).pdf` and `EOM - EGU END 2028 (وافدين).pdf`: no printed
+  answer key found anywhere in either file (both read in full). If a keyed twin, a
+  separately-scanned answer sheet, or a highlight-marked copy exists outside this
+  repository's current corpus, it would unlock 2 more exam papers (~70 combined usable
+  items) for this module.
