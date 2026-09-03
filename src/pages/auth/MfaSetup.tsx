@@ -47,7 +47,10 @@ export function MfaSetup() {
   // Who this account is, and what it already has, both come from `/api/me` —
   // one answer the whole app shares rather than three calls this page makes.
   const emailVerified = identity.emailVerified
-  const enforced = identity.status !== 'demo' && mfaEnforced(identity.role ?? '')
+  // Required when the role demands a factor, and equally when one is already
+  // enrolled and this session has not presented it: "Skip" must never bypass a
+  // lock the account holder set.
+  const enforced = identity.status !== 'demo' && (mfaEnforced(identity.role ?? '') || identity.mfaPending)
 
   useEffect(() => {
     if (identity.status === 'loading') return undefined
@@ -116,7 +119,7 @@ export function MfaSetup() {
   // what made an optional lock look like the last thing standing between a
   // student and the app.
   return (
-    <AuthLayout step="verify" showProgress={false} title="Add a second factor" description={enforced ? 'Your role requires an authenticator app. Set one up to continue.' : 'An authenticator app is an optional extra lock on your account. You can turn it on now, later from your account page, or not at all.'} compact>
+    <AuthLayout step="verify" showProgress={false} title="Add a second factor" description={identity.mfaPending ? 'Enter the six-digit code from your authenticator app to finish signing in.' : enforced ? 'Your role requires an authenticator app. Set one up to continue.' : 'An authenticator app is an optional extra lock on your account. You can turn it on now, later from your account page, or not at all.'} compact>
       <div className="grid gap-6 lg:grid-cols-[11rem_minmax(0,1fr)]">
         <div className="space-y-3 border-b border-line pb-5 lg:border-b-0 lg:border-e lg:pb-0 lg:pe-5">
           {([['Sign in', emailVerified, true], ['Email verified', emailVerified, true], ['Second factor', false, enforced]] as const).map(([label, complete, required]) => <div key={label} className="flex items-center gap-2.5"><span className={complete ? 'grid size-7 place-items-center rounded-full bg-success-tint text-success' : 'grid size-7 place-items-center rounded-full bg-inset text-ink-2'}><Icon icon={complete ? CheckCircle2 : ShieldCheck} size={14} /></span><span className="text-[12.5px] font-semibold text-ink">{label}{!complete && required ? ' required' : ''}{!required ? ' · optional' : ''}</span></div>)}

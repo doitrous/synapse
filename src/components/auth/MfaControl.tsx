@@ -5,6 +5,7 @@ import { Icon } from '@/components/ui/Icon'
 import { API_MODE } from '@/lib/api'
 import { authMessage, mfa } from '@/lib/auth/client'
 import { useIdentity } from '@/lib/useIdentity'
+import { mfaEnforced } from '@/data/adminRoles'
 import { useT } from '@/lib/i18n'
 
 type Status =
@@ -85,7 +86,9 @@ export function MfaControl() {
         )}
       </div>
       <p className="mt-0.5 text-[11.5px] leading-relaxed text-ink-3">
-        {t('Optional. A free authenticator app asks for a six-digit code when you sign in.')}
+        {mfaEnforced(identity.role ?? '')
+          ? t('Required for your role. A free authenticator app asks for a six-digit code when you sign in.')
+          : t('Optional. A free authenticator app asks for a six-digit code when you sign in.')}
       </p>
 
       {error && <p role="alert" className="mt-2 rounded-md border border-danger/30 bg-danger-tint px-2.5 py-2 text-[11.5px] text-danger">{error}</p>}

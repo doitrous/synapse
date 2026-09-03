@@ -78,6 +78,12 @@ export function RequireAuth({ console: needsConsole, tab, student, children }: {
   // feel like a refusal, and what looped when enrolment itself failed. The tab
   // is still closed; it now says so, and points at the page where the lock is
   // added, rather than dropping them into it.
+  // An account that has *enrolled* an authenticator owes its code on every new
+  // session, whatever the role: the lock a student chose to add is not
+  // optional at sign-in. `/auth/mfa` is outside this guard, so this cannot loop.
+  if (identity.status === 'authenticated' && identity.mfaPending && identity.aal !== 'aal2') {
+    return <Navigate to={`/auth/mfa?next=${encodeURIComponent(`${location.pathname}${location.search}`)}`} replace />
+  }
   const needsMfaSetup = (needsConsole || tab) && identity.status !== 'demo' && mfaEnforced(identity.role ?? '') && identity.aal !== 'aal2'
   if (needsMfaSetup && tab) {
     return (

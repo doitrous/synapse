@@ -607,7 +607,7 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                   {/* Only this session is described. Enumerating and revoking other
                       sessions needs a server-side session list that does not exist. */}
                   <p className="mt-2 text-[11.5px] leading-relaxed text-ink-3">
-                    {t('Other devices are not listed. Signing out here clears this browser only.')}
+                    {t('Signing out here ends your session on every device where you are signed in.')}
                   </p>
                   <Link to="/logout" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg px-3 text-[12.5px] font-semibold text-ink-2 hover:bg-inset hover:text-ink"><LogOut size={15} />{t('Sign out')}</Link>
                 </div>
@@ -631,7 +631,7 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
               <Panel>
                 <PanelHeader title={t('Support')} icon={LifeBuoy} />
                 <div className="p-4">
-                  <ButtonAnchor href={supportLink} className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Maristana team')}</ButtonAnchor>
+                  <ButtonAnchor href={supportLink} className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Nishany team')}</ButtonAnchor>
                 </div>
               </Panel>
             </div>

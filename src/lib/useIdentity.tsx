@@ -101,6 +101,8 @@ export interface Identity {
    * does have an unopened verification email waiting for it.
    */
   emailVerified: boolean
+  /** A verified authenticator is enrolled but this session has not presented it yet (aal1). */
+  mfaPending: boolean
   /**
    * The name and photo an OAuth provider handed back at sign-up, straight from
    * Supabase's own `user_metadata` — only ever populated on a fresh `/api/me`
@@ -175,7 +177,7 @@ const NO_ENTITLEMENT: Entitlement = { state: 'none', plan: 'Free', expiresAt: nu
 
 const ANONYMOUS: Identity = {
   status: 'loading', userId: null, email: null, role: null, rank: 0, tabs: [], contentScope: null,
-  aal: null, emailVerified: false, metadataName: null, avatarUrl: null,
+  aal: null, emailVerified: false, mfaPending: false, metadataName: null, avatarUrl: null,
   displayName: 'Student', profileMissing: true, audienceUnknown: true, profile: EMPTY_PROFILE, audience: EMPTY_AUDIENCE,
   entitlement: NO_ENTITLEMENT, subscription: null, reload: () => undefined,
   saveEnrolment: async () => ({ phoneConflict: false }), loading: true, audienceSettled: false,
@@ -257,6 +259,8 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     contentScope: ContentScope | null
     aal: 'aal1' | 'aal2' | null
     emailVerified: boolean
+  /** A verified authenticator is enrolled but this session has not presented it yet (aal1). */
+  mfaPending: boolean
     metadataName: string | null
     avatarUrl: string | null
     profile: IdentityProfile | null
@@ -273,6 +277,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     tabs: API_MODE ? [] : TAB_IDS,
     contentScope: null,
     aal: null,
+    mfaPending: false,
     // Nothing to verify without an account system.
     emailVerified: !API_MODE,
     metadataName: null, avatarUrl: null,
@@ -326,7 +331,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       if (!me?.user) {
         authed = false
         setStateOwnerId(null)
-        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, role: null, tabs: [], contentScope: null, aal: null, emailVerified: false, metadataName: null, avatarUrl: null, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
+        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, role: null, tabs: [], contentScope: null, aal: null, emailVerified: false, mfaPending: false, metadataName: null, avatarUrl: null, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
         return
       }
       // Null means the server did not ask Supabase this time, which is not
@@ -355,6 +360,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
         contentScope: readScope(me.user.contentScope),
         aal: me.user.aal === 'aal2' ? 'aal2' : 'aal1',
         emailVerified,
+        mfaPending: me.user.mfaPending === true,
         metadataName: me.user.metadataName ?? null,
         avatarUrl: me.user.avatarUrl ?? null,
         profile: me.profile,
@@ -457,6 +463,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       tabs: state.tabs,
       contentScope: state.contentScope,
       aal: state.aal,
+      mfaPending: state.mfaPending,
       emailVerified: state.emailVerified,
       metadataName: state.metadataName,
       avatarUrl: state.avatarUrl,

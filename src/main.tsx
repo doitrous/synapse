@@ -28,7 +28,7 @@ import './index.css'
 // private, so the marketing head is stripped and the domain is told to stay out of
 // search results.
 if (isAdminHost()) {
-  document.title = 'Maristana Admin'
+  document.title = 'Nishany Admin'
   document.querySelectorAll('link[rel="canonical"], link[rel="alternate"][hreflang], meta[property^="og:"], meta[name^="twitter:"]').forEach((tag) => tag.remove())
   const robots = document.createElement('meta')
   robots.name = 'robots'
