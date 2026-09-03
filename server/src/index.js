@@ -57,6 +57,7 @@ import { registerMediaRoutes } from './routes/media.js'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 const app = express()
+app.disable('x-powered-by')
 // One proxy in front (Coolify). Without this every rate limit is charged to the
 // proxy's address, which means one abusive client locks out everybody.
 app.set('trust proxy', 1)

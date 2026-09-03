@@ -106,3 +106,13 @@ test('a missing migrations directory is treated as no migrations', async () => {
   await runMigrations(pool, { dir: join(tmpdir(), 'migrations-test-does-not-exist') })
   assert.deepEqual(versions, [])
 })
+
+test('every shipped migration file passes the runner unchanged (fresh-install path)', async () => {
+  // The guard that refuses DROP/MODIFY COLUMN runs before the applied check, so
+  // a dangerous statement in any file would refuse to boot a fresh install —
+  // and production's first deploy of the runner, whose file table starts empty.
+  const { pool, versions } = fakePool()
+  await runMigrations(pool)
+  assert.ok(versions.includes('0001_baseline.sql'))
+  assert.ok(versions.length >= 5, `expected the shipped files to apply, got ${versions.join(', ')}`)
+})

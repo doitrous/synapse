@@ -136,7 +136,8 @@ export async function loadSession(raw) {
   if (!raw) return null
   const [rows] = await pool.query(
     `SELECT id, user_id AS userId, refresh_token AS refreshToken, access_token AS accessToken,
-            access_expires_at AS accessExpiresAt, aal, created_at AS createdAt, last_seen_at AS lastSeenAt
+            access_expires_at AS accessExpiresAt, aal, created_at AS createdAt, last_seen_at AS lastSeenAt,
+            TIMESTAMPDIFF(SECOND, created_at, NOW()) AS ageSeconds
        FROM sessions
       WHERE id = ?
         AND last_seen_at > NOW() - INTERVAL ${IDLE_DAYS} DAY

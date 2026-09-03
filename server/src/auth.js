@@ -285,6 +285,9 @@ export async function apiAuthGate(req, res, next) {
     || req.path === '/api/accounts/exists'
     || req.path === '/api/pricing/quote'
     || req.path === '/api/facebook/deletion-callback'
+    // The marketing site's contact form: visitors are, by definition, not
+    // signed in. Turnstile and its own rate limit guard it (contentReports.js).
+    || (req.method === 'POST' && req.path === '/api/contact')
     // Sign-in, sign-up and recovery (authRoutes.js). None of them can present a
     // session — that is what they are for. Each carries its own rate limit, and
     // each answers the same way whether or not the address exists, so none of

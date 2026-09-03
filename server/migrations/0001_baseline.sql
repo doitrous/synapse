@@ -422,9 +422,6 @@ CREATE TABLE IF NOT EXISTS managed_media (
   INDEX idx_managed_media_uploader (uploaded_by, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ALTER TABLE managed_media ADD COLUMN IF NOT EXISTS updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
--- Widen the lifecycle for existing installs. Safe and idempotent: it only adds
--- new enum members and never rewrites an existing 'uploading'/'ready' row.
-ALTER TABLE managed_media MODIFY COLUMN status ENUM('queued','uploading','uploaded','processing','verifying','ready','failed') NOT NULL DEFAULT 'uploading';
 ALTER TABLE managed_media ADD COLUMN IF NOT EXISTS failure_reason VARCHAR(255) NULL;
 ALTER TABLE managed_media ADD COLUMN IF NOT EXISTS verified_at DATETIME NULL;
 
@@ -711,11 +708,9 @@ CREATE TABLE IF NOT EXISTS friendships (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /* Whether this student may be found in their cohort's directory. Default off:
-   a student opts in before classmates can find them, and existing rows are reset
-   to the same explicit private state during this migration. */
+   a student opts in before classmates can find them. (The old schema.sql also
+   reset every row to 0 here on each boot; a baseline that runs once must not.) */
 ALTER TABLE students ADD COLUMN IF NOT EXISTS discoverable BOOLEAN NOT NULL DEFAULT 0;
-ALTER TABLE students MODIFY COLUMN discoverable BOOLEAN NOT NULL DEFAULT 0;
-UPDATE students SET discoverable = 0 WHERE discoverable <> 0;
 
 /* Locked enrollment changes. Students can ask for a new university or year with
    a reason, while an admin applies or rejects the request with an audit note.

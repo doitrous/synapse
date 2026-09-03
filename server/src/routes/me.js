@@ -33,7 +33,10 @@ export function registerMeRoutes(app) {
      */
     const session = req.sessionRow ?? null
     const wantsFresh = req.query.fresh === '1'
-    const account = session && (wantsFresh || Date.now() - new Date(session.createdAt).getTime() < 3_600_000)
+    // Age is measured by the database (TIMESTAMPDIFF at read time), never by
+    // comparing its NOW() against this process's clock: the two hosts need not
+    // share a time zone, and when they do not the window silently never opens.
+    const account = session && (wantsFresh || Number(session.ageSeconds) < 3_600)
       ? (await goTrueGetUser(session.accessToken)).data
       : null
     res.json({
