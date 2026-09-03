@@ -1,5 +1,5 @@
 /**
- * Where the loader's four rings sit, as pure arithmetic.
+ * Where the loader's two rings sit, as pure arithmetic.
  *
  * Separated from the component so it can be tested on Node without pulling in
  * React: the thing worth asserting about this drawing is that the rings nest
@@ -11,11 +11,11 @@
  */
 
 /** Radius as a fraction of the box, outer to inner. */
-const RADIUS_RATIOS = [0.46, 0.36, 0.26, 0.16] as const
+const RADIUS_RATIOS = [0.46, 0.28] as const
 
-/** Stroke width as a fraction of the box. Thinner as the rings get smaller,
- *  so the stack reads as one instrument rather than four equal circles. */
-const WIDTH_RATIOS = [0.08, 0.07, 0.06, 0.05] as const
+/** Stroke width as a fraction of the box. Thinner on the inner ring, so the
+ *  pair reads as nested rather than two equal circles. */
+const WIDTH_RATIOS = [0.08, 0.065] as const
 
 export interface LoaderRing {
   /** Ring radius, in the SVG's own units (which are the box's pixels). */

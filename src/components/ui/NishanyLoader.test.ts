@@ -2,10 +2,11 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { loaderRings } from './NishanyLoader.geometry.ts'
 
-test('four rings, outer to inner, widths shrink with radius', () => {
+test('two rings, outer to inner, widths shrink with radius', () => {
   const rings = loaderRings(40)
-  assert.equal(rings.length, 4)
-  assert.ok(rings[0].r > rings[1].r && rings[1].r > rings[2].r && rings[2].r > rings[3].r)
+  assert.equal(rings.length, 2)
+  assert.ok(rings[0].r > rings[1].r)
+  assert.ok(rings[0].width > rings[1].width)
   assert.ok(rings.every((ring) => ring.width >= 2 && ring.r - ring.width / 2 > 0))
 })
 

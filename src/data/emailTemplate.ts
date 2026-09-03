@@ -67,9 +67,9 @@ const COLOR = {
 
 const SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
 const SERIF = "Georgia,'Times New Roman',Times,serif"
-/** The logotype is set in Space Grotesk. No client will fetch a web font, so this
- *  falls through the geometric sans-serifs that ship on real machines. */
-const BRAND = "'Space Grotesk','Century Gothic',Futura,'Avenir Next','Trebuchet MS',sans-serif"
+/** The logotype run in mail. No client will fetch a web font, so this is an
+ *  email-safe stack rather than the in-app Figtree webfont. */
+const BRAND = "Figtree,'Helvetica Neue',Arial,sans-serif"
 
 /** The brand mark, absolute. A message is read outside the app, so a relative
  *  path resolves against the mail client and 404s. Written out rather than

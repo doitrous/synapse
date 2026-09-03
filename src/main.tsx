@@ -13,8 +13,11 @@ import { API_MODE } from './lib/api'
 // Baloo 2 / Baloo Bhaijaan 2 are the logotype's own rounded display faces:
 // brand lockups only, never UI.
 import '@fontsource-variable/source-serif-4'
-import '@fontsource-variable/geist'
-import '@fontsource-variable/geist-mono'
+import '@fontsource-variable/figtree'
+import '@fontsource/ibm-plex-sans-arabic/400.css'
+import '@fontsource/ibm-plex-sans-arabic/500.css'
+import '@fontsource/ibm-plex-sans-arabic/600.css'
+import '@fontsource/ibm-plex-sans-arabic/700.css'
 import '@fontsource-variable/baloo-2'
 import '@fontsource-variable/baloo-bhaijaan-2'
 import './index.css'

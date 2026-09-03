@@ -6,11 +6,12 @@ import { loaderRings, ringCircumference } from './NishanyLoader.geometry'
 /**
  * What Nishany looks like while it is thinking.
  *
- * The app's own instrument, not a borrowed spinner: four concentric rings —
- * the same nested-target drawing the dashboard uses for progress — each with
- * an arc that fills and then empties around its track while rotating a full
- * turn, so the head keeps travelling as the tail catches up. The rings are
- * phase-shifted by 120ms, which is what turns four circles into one object.
+ * The app's own instrument, not a borrowed spinner: two concentric rings — an
+ * outer blue ring and an inner crimson ring, each an arc that fills and then
+ * empties around its track while rotating a full turn. The two rings turn in
+ * opposite directions at slightly different speeds, so the gap between them
+ * opens and closes — they read as catching up to each other rather than as
+ * one rigid object.
  *
  * A spinner says "something is happening"; this says *which product* is
  * happening. That matters most on the screens where it is the only thing on
@@ -20,18 +21,23 @@ import { loaderRings, ringCircumference } from './NishanyLoader.geometry'
  * inside a label without changing the control's height.
  */
 
-/** Outer to inner. Blue points elsewhere, crimson is the working colour, so
- *  the stack runs from structural to active as it closes on the centre. */
+/** Outer, then inner. Blue is the structural colour, crimson the working one. */
 const ARC_COLORS = [
   'var(--color-accent)',
-  'var(--color-accent-soft)',
   'var(--color-primary)',
-  'var(--color-primary-soft)',
 ] as const
 
-/** Where each arc is held when the reader has asked for no motion: a quarter,
- *  a half, three quarters, whole — the ring stack, standing still. */
-const HELD_FRACTION = [0.75, 0.5, 0.25, 0] as const
+/** Rotation direction per ring — opposite ways, so the two arcs visibly chase
+ *  each other instead of turning as one. */
+const ARC_DIRECTION = [1, -1] as const
+
+/** Duration multiplier per ring: the inner ring runs slightly faster than the
+ *  outer one, so their gap keeps opening and closing instead of staying put. */
+const ARC_SPEED = [1, 0.82] as const
+
+/** Where each arc is held when the reader has asked for no motion: a quarter
+ *  and three quarters — the pair, standing still. */
+const HELD_FRACTION = [0.75, 0.25] as const
 
 export function NishanyLoader({
   size = 40,
@@ -66,7 +72,8 @@ export function NishanyLoader({
   const center = box / 2
   // The bed the rings sit in — the same faint disc TargetRing draws, so a
   // loader and a finished meter are recognisably the same drawing.
-  const bedRadius = Math.max(rings[3].r - rings[3].width / 2 - 1, 0)
+  const innermost = rings[rings.length - 1]
+  const bedRadius = Math.max(innermost.r - innermost.width / 2 - 1, 0)
 
   return (
     <span
@@ -112,6 +119,10 @@ export function NishanyLoader({
               style={{
                 '--c': `${circumference}`,
                 '--phase': `${index * 120}ms`,
+                // Only meaningful with two-plus rings; `mini` draws a single
+                // ring and never overrides the keyframe's dir:1/speed:1 default.
+                '--dir': `${ARC_DIRECTION[index]}`,
+                '--speed': `${ARC_SPEED[index]}`,
               } as CSSProperties}
             />
           )
