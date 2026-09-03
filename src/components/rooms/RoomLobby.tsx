@@ -18,6 +18,10 @@ import { FriendsSection, SharedTestsSection } from './SocialSections'
 export interface RoomAddress {
   id: string
   code: string
+  /** The room's name when the lobby already knows it — lets the dock label it before the party re-fetches. */
+  name?: string
+  /** A seeded demo room, so the session opens no socket and never persists it. */
+  demo?: boolean
 }
 
 function fallbackRefusal(t: (s: string) => string): string {
@@ -94,7 +98,7 @@ export function RoomLobby({ onEnter }: { onEnter: (room: RoomAddress) => void })
     if (!result.ok) { setMessage(PARTY_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t)); return }
     setName('')
     await reloadAll()
-    onEnter({ id: result.party!.id, code: result.party!.code })
+    onEnter({ id: result.party!.id, code: result.party!.code, name: result.party!.name })
   }
 
   async function joinAndEnter(raw: string) {
@@ -107,7 +111,7 @@ export function RoomLobby({ onEnter }: { onEnter: (room: RoomAddress) => void })
     if (!result.ok) { setMessage(PARTY_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t)); return }
     setJoinInput('')
     await reloadAll()
-    onEnter({ id: result.party!.id, code: result.party!.code })
+    onEnter({ id: result.party!.id, code: result.party!.code, name: result.party!.name })
   }
 
   if (openSharedTestId) {

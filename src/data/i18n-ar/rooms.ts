@@ -68,6 +68,12 @@ export const AR_ROOMS: Record<string, string> = {
 
   // ---- Controls and voice ------------------------------------------------
   'Room controls': 'أدوات الغرفة',
+  'in voice': 'في الصوت',
+  'Speaking…': 'يتحدّث…',
+  'Collapse': 'طي',
+  'Expand': 'توسيع',
+  'Open the room': 'فتح الغرفة',
+  'Leave': 'مغادرة',
   'Join voice': 'انضم بالصوت',
   Mute: 'كتم',
   Unmute: 'إلغاء الكتم',

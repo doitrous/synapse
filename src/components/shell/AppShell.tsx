@@ -18,6 +18,8 @@ import { OverflowTooltipLayer } from '@/components/ui/OverflowTooltipLayer'
 import { StudyActivityTracker } from './StudyActivityTracker'
 import { FocusAudioProvider } from './FocusAudioPlayer'
 import { MaristanaProgressNotice } from '@/components/maristanas/MaristanaProgressNotice'
+import { RoomSessionProvider } from '@/lib/rooms/RoomSessionProvider'
+import { RoomDock } from '@/components/rooms/RoomDock'
 
 function isTypingTarget(target: EventTarget | null): boolean {
   const element = target instanceof HTMLElement ? target : null
@@ -237,17 +239,24 @@ function AppShellInner({ portal }: { portal: Portal }) {
           already on screen. Renders nothing unless the assistant is on and
           included on this student's plan. */}
       {portal === 'student' && !focusMode && <StudyAssistant />}
+      {/* The study room, floated over every page so joining a room is not the
+          same as being pinned to the Study Rooms page. Draws nothing until a
+          room is joined, and steps aside while the full hall is on screen. */}
+      {portal === 'student' && <RoomDock railed={railed} focusMode={focusMode} />}
     </div>
   )
 }
 
 /** The provider has to sit above the routed page, which is what asks for it. */
 export function AppShell({ portal }: { portal: Portal }) {
-  return (
+  const shell = (
     <ImmersionProvider>
       <FocusAudioProvider>
         <AppShellInner portal={portal} />
       </FocusAudioProvider>
     </ImmersionProvider>
   )
+  // The room session sits above the routed page and the dock alike, and only in
+  // the student app — the admin console has no study rooms to keep alive.
+  return portal === 'student' ? <RoomSessionProvider>{shell}</RoomSessionProvider> : shell
 }

@@ -6,6 +6,7 @@ import { RoomView } from '@/components/rooms/RoomView'
 import { PARTY_REFUSALS, usePartyActions } from '@/lib/useParties'
 import { API_MODE } from '@/lib/api'
 import { ROOM_CAPACITY } from '@/lib/rooms/roomPresence'
+import { useRoomSession } from '@/lib/rooms/RoomSessionProvider'
 import { demoRoomByCode } from '@/lib/rooms/demoRoom'
 import { useT } from '@/lib/i18n'
 
@@ -17,50 +18,44 @@ const LEGACY_PARAM = 'party'
  * Study Rooms — the page a student lands on from the sidebar, and the one the
  * old `/app/study-together` link now redirects to.
  *
- * **The open room lives in the URL.** `/app/study-rooms?room=KTP0R2` is the
- * room: it survives a reload, it goes in the browser's history so Back walks
- * out of the hall rather than off the page, and it is the thing a student
- * pastes into the group chat. Holding it in component state instead — which
- * this page did first — meant the only way to send someone a room was to tell
- * them which buttons to press.
+ * **The open room lives in two places, on purpose.** The *membership* lives in
+ * `RoomSessionProvider`, above the router, so it survives navigation and reload
+ * and can be shown by the floating dock on every page. The *address bar* says
+ * only whether the full hall is currently on screen: `?room=KTP0R2` opens the
+ * hall; an empty bar minimises it to the dock. Removing the param no longer
+ * leaves the room — that is what "Leave" is for — it just closes the big view,
+ * which is what "Back" and browsing away should do now that the room follows
+ * the student around.
  *
  * The code is the address, not the id: a party id is a database key nobody can
- * read aloud, and the code is already what the Join field takes and what every
- * link minted before the rename carried. `?party=` is accepted as an alias and
- * quietly rewritten, so links already sent keep working.
+ * read aloud, and the code is what the Join field takes and what every shared
+ * link carries. `?party=` is accepted as an alias and quietly rewritten.
  */
 export function StudyRooms() {
   const t = useT()
   const [params, setParams] = useSearchParams()
   const { join } = usePartyActions()
+  const session = useRoomSession()
   const [message, setMessage] = useState('')
 
   const requested = (params.get(ROOM_PARAM) ?? params.get(LEGACY_PARAM) ?? '').trim().toUpperCase()
+  const active = session?.room ?? null
+  // The full hall is open when the address bar names the room the session is in.
+  const openRoom = Boolean(active && requested && active.roomCode.toUpperCase() === requested)
 
-  /*
-   * The URL says which room is open; this only remembers what a code resolved
-   * to, because the hall needs the party id and the address bar carries the
-   * code. Keeping "a room is open" as its own state as well made the two fight:
-   * `setParams` lands a commit after `setState`, so an effect syncing state to
-   * the param would see an empty param beside a set room and close it again.
-   * One source of truth, one cache, and nothing to reconcile.
-   */
-  const [resolved, setResolved] = useState<RoomAddress | null>(null)
-  const openRoom = requested && resolved?.code === requested ? resolved : null
-
-  /** Put a room in the address bar, as a real navigation so Back leaves it. */
+  /** Put a room in the address bar, as a real navigation so Back leaves the hall. */
   const enter = useCallback((room: RoomAddress) => {
-    setResolved(room)
+    session?.join({ roomId: room.id, roomCode: room.code, roomName: room.name, demo: room.demo ?? !API_MODE })
     setParams((current) => {
       const next = new URLSearchParams(current)
       next.set(ROOM_PARAM, room.code)
       next.delete(LEGACY_PARAM)
       return next
     })
-  }, [setParams])
+  }, [session, setParams])
 
-  const exit = useCallback(() => {
-    setResolved(null)
+  /** Minimise: close the hall but stay in the room. The dock takes over. */
+  const minimise = useCallback(() => {
     setMessage('')
     setParams((current) => {
       const next = new URLSearchParams(current)
@@ -70,48 +65,53 @@ export function StudyRooms() {
     })
   }, [setParams])
 
+  /** Leave for good: end the session, then close the hall. */
+  const leaveRoom = useCallback(() => {
+    session?.leave()
+    minimise()
+  }, [session, minimise])
+
   /**
-   * Turn the code in the address bar into a room, once per code.
+   * Turn the code in the address bar into a joined room, once per code.
    *
-   * Guarded by a ref rather than by the param, because resolving ends in a
-   * `setParams` that re-renders this effect before the URL change has landed,
-   * which would otherwise spend the same code twice. In live mode the
-   * redemption *is* the join, which is how a shared link seats a student who
-   * was never in the room; in demo mode the code is looked up in the seeded
-   * list, so a demo link opens the hall instead of being swallowed.
+   * Skipped entirely when the session is already in the requested room — a
+   * reload rehydrates the membership, and "Open the room" from the dock is a
+   * navigation, not a re-join. Otherwise, in live mode the redemption *is* the
+   * join, which is how a shared link seats a student who was never in the room;
+   * in demo mode the code is looked up in the seeded list.
    */
   const resolving = useRef<string | null>(null)
   useEffect(() => {
-    if (!requested) {
+    if (!requested || !session) {
       resolving.current = null
       return
     }
-    if (resolved?.code === requested || resolving.current === requested) return
+    if ((active && active.roomCode.toUpperCase() === requested) || resolving.current === requested) return
     resolving.current = requested
 
     void (async () => {
-      let found: RoomAddress | null = null
+      let found: { id: string; code: string; name?: string; demo?: boolean } | null = null
       let refusal = ''
 
       if (!API_MODE) {
         const demo = demoRoomByCode(requested)
-        if (demo) found = { id: demo.id, code: demo.code }
+        if (demo) found = { id: demo.id, code: demo.code, name: demo.name, demo: true }
         else refusal = t('No room has that code.')
       } else {
         const result = await join(requested)
-        if (result?.ok && result.party) found = { id: result.party.id, code: result.party.code }
+        if (result?.ok && result.party) found = { id: result.party.id, code: result.party.code, name: result.party.name }
         else refusal = PARTY_REFUSALS[result?.reason ?? ''] ?? t('That did not work. Try again.')
       }
 
       if (found) {
-        setResolved(found)
         setMessage('')
-        // Normalise `?party=` to `?room=` without adding a history entry: the
-        // student did not navigate, the link they followed was simply older.
+        session.join({ roomId: found.id, roomCode: found.code, roomName: found.name, demo: found.demo })
+        // Normalise `?party=` to `?room=` without a history entry: the student
+        // did not navigate, the link they followed was simply older.
         setParams((current) => {
-          if (current.get(ROOM_PARAM) === found.code && !current.has(LEGACY_PARAM)) return current
+          if (current.get(ROOM_PARAM) === found!.code && !current.has(LEGACY_PARAM)) return current
           const next = new URLSearchParams(current)
-          next.set(ROOM_PARAM, found.code)
+          next.set(ROOM_PARAM, found!.code)
           next.delete(LEGACY_PARAM)
           return next
         }, { replace: true })
@@ -119,7 +119,6 @@ export function StudyRooms() {
       }
 
       setMessage(refusal)
-      setResolved(null)
       setParams((current) => {
         const next = new URLSearchParams(current)
         next.delete(ROOM_PARAM)
@@ -127,7 +126,7 @@ export function StudyRooms() {
         return next
       }, { replace: true })
     })()
-  }, [requested, resolved, setParams, join, t])
+  }, [requested, active, session, setParams, join, t])
 
   return (
     <HubPage
@@ -149,7 +148,7 @@ export function StudyRooms() {
       <p role="status" className="mb-3 text-[12.5px] text-danger">{message}</p>
 
       {openRoom ? (
-        <RoomView roomId={openRoom.id} roomCode={openRoom.code} onExit={exit} />
+        <RoomView onMinimise={minimise} onLeave={leaveRoom} />
       ) : (
         <RoomLobby onEnter={enter} />
       )}
