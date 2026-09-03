@@ -49,7 +49,7 @@ export interface LegalPageContent {
   sections: LegalSection[]
 }
 
-export type LegalPageKey = 'terms' | 'privacy' | 'refund' | 'contact'
+export type LegalPageKey = 'terms' | 'privacy' | 'refund' | 'contact' | 'accessibility'
 
 /** The exact line the pricing page already shows, reused as the refund opener. */
 const REFUND_LINE = '14-day refund window, subject to the published refund policy and abuse controls.'
@@ -465,11 +465,71 @@ const CONTACT: LegalPageContent = {
   ],
 }
 
+const ACCESSIBILITY: LegalPageContent = {
+  slug: '/accessibility',
+  title: 'Accessibility Statement',
+  documentTitle: 'Accessibility Statement · Nishany',
+  description: 'Our commitment to making Nishany usable with a keyboard, a screen reader, and at every zoom level — and how to report a barrier.',
+  updated: UPDATED,
+  intro:
+    'Nishany is built to be usable by every student, including students who navigate by keyboard, who use a screen reader, or who need larger text or more contrast. This page states that commitment and how to tell us when we fall short of it.',
+  sections: [
+    {
+      id: 'standard',
+      heading: 'Our standard',
+      paragraphs: [
+        'We build and review Nishany against the Web Content Accessibility Guidelines (WCAG) 2.1, level AA. That is our target for every screen we ship, not a bar we clear once and leave — new features are reviewed against it before they go out, the same as any other correctness check.',
+        'This is a statement of intent and ongoing work, not a claim that every screen already passes a formal audit. Where a specific screen falls short, tell us — see "Report a barrier" below — and we will treat it as a bug.',
+      ],
+    },
+    {
+      id: 'what-we-do',
+      heading: 'What that looks like in the product',
+      paragraphs: [
+        'A few of the concrete things this means, drawn from how the app is actually built:',
+      ],
+      bullets: [
+        'Every control reachable and operable by keyboard alone, with a visible focus state.',
+        'Dialogs and menus trap focus while open, return it on close, and close on Escape.',
+        'Form fields carry real labels, and a failed save is announced to assistive technology rather than only shown in colour.',
+        'Text and interface colours are checked for contrast, in every theme — Light, Warm, Dark and Black.',
+        'Layout that holds up at larger browser zoom and text-size settings, rather than clipping or overlapping.',
+        'Motion that respects a reduced-motion preference where the system exposes one.',
+      ],
+    },
+    {
+      id: 'known-gaps',
+      heading: 'Known gaps',
+      needsReview: true,
+      paragraphs: [
+        'Nishany has surfaces — live study rooms, some data-dense admin screens, and drawing-based practice — that are harder to make fully equivalent by keyboard and screen reader than a form or a document, and we do not yet claim full AA conformance on all of them.',
+        'A specific list of open gaps and their target dates is [ACCESSIBILITY GAP LIST TO PUBLISH]. Until it exists, the fastest way to know the state of a particular screen is to ask us or to report what you found.',
+      ],
+    },
+    {
+      id: 'report',
+      heading: 'Report a barrier',
+      paragraphs: [
+        'If part of Nishany is hard or impossible to use with the technology or settings you rely on, write to ' + SUPPORT_ADDRESS + ' and tell us the page, what you were trying to do, and what happened. Mention your browser, device and any assistive technology in use — that is usually enough for us to reproduce it.',
+        'We treat an accessibility report as a bug, not a feature request: it goes into the same queue that content errors and faults go into, and we will tell you when it is fixed.',
+      ],
+    },
+    {
+      id: 'changes',
+      heading: 'Changes to this statement',
+      paragraphs: [
+        'When this statement changes, the date at the top changes with it.',
+      ],
+    },
+  ],
+}
+
 export const LEGAL_PAGES: Record<LegalPageKey, LegalPageContent> = {
   terms: TERMS,
   privacy: PRIVACY,
   refund: REFUND,
   contact: CONTACT,
+  accessibility: ACCESSIBILITY,
 }
 
 /**
