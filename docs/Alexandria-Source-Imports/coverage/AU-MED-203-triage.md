@@ -279,14 +279,80 @@ pharyngeal POUCH fact when standard teaching attributes it to the second pharyng
 Reichert's cartilage). This closes out Q1-60 of the 120-question Week 2 EOM Final paper: 58
 authored, 2 held, 0 remaining. Q61-120 remain untriaged for a future pass.
 
+## Week 2 EOM Final, Q61-120 (closing the paper) — au-203-author9, 2026-09-03
+
+Continued directly from lane 7's stop point (`00aa997a`-equivalent, Q1-60 done, Q61-120
+remaining). Read `status` → `show` ≤3 pages/call, pages 16-25. **Q76-90 do not exist in the
+source**: the paper's own numbering jumps 75→91 at p19/p20, past an essay-question page (p19,
+4 items, own 1-4 numbering) — matching the module's established numbering-gap precedent from
+the Week 1 EOM Final's Q29-30 gap; not counted as triaged, not held. 45 numbered MCQs read
+(Q61-75, Q91-120), all keyed from each page's own inline answer line, all authored — 0 held
+this pass (no <4-option or unkeyed defects found in this half).
+
+All 45 questions were checked via `find-existing.mjs` (label/alias/canonical_key/definition
+terms) against live state, every pending batch (incl. ASU-CNS-3, Kasr) and this module's own
+quiz1-4/week1a/week1b/week1c/week2a concept files before minting; per lane 5's "the exact-
+substring match missed 3 of its own module's concepts" warning, `find-existing.mjs`'s own
+output was also cross-checked by hand-grepping this module's own anatomy and physiology
+concept files' full `## label` list by root term — this caught 4 own-module reuses the head-
+truncated `find-existing.mjs` search alone would have missed: enkephalin/Ca-channel
+(`CON-NEU-6D6F38874EC1D7`), neuropathic-pain-mechanism (`CON-NEU-869BE9A0BA4E6C`),
+convergence-projection-theory (`CON-NEU-F246724EF98DA3`, whose own definition already names
+"gallbladder pain referred to... right shoulder" as its worked example) and first-arch-
+muscles-plus-digastric (`CON-FND-4BAD664DBB3998`). Within this half's own 45 questions, 3
+near-duplicate angles on the same fact were collapsed to one concept each per the module's
+established precedent: q62/q63/q73 (maxillary-process/definitive-palate, restated three
+times), q93/q107 (area-43-taste-area-postcentral-gyrus, restated twice) and q106/q112
+(lateral-sulcus-three-rami-anatomy, restated twice) — 25 concepts minted in total (10
+embryology/face-development, 10 cerebral-cortex gyri/sulci/Brodmann-area anatomy, 5 pain
+physiology), plus 7 own-module reuses and 4 cross-university/cross-status reuses (see below),
+41 distinct concepts tested overall.
+
+One HIT-LIVE reuse: q75 ("the incisive fossa represents... primitive palate") is an exact hit
+against a LIVE King Abdulaziz University concept, `CON-DEV-0CA2D891A1BFB3` ("Incisive fossa
+forms at primary-secondary palate junction") — reused via a sparse `+au`/`+AU_Y2`/
+`+AU-MED-203`/`+article_ids` overlay row applied directly to this batch's own
+`concept/AU-MED-203-anatomy-concepts.md` (not routed through pending-live, since the target
+concept is already live, not a sibling-university pending batch). Three HIT-PENDING ASU-CNS-3
+reuses: q91 and q111 both test the same precentral-gyrus/Brodmann-area-4 fact as
+`CON-NEU-8F800A1650C2CA` (`ASU-CNS-3-anatomy-mcq-concepts.md`, not yet imported), and q110
+tests the same Broca's-area/spoken-speech fact as `CON-NEU-0FFACE78A09499` (same ASU-CNS-3
+file) — both appended as sparse overlay rows to the existing
+`pending-live/AU-MED-203-cns3-overlay-{concepts,questions}.md` pair. q103, q104 and q119 all
+test the same periaqueductal-grey/enkephalinergic-analgesia fact as `CON-NEU-A873F557A4465C`
+(`ASU-CNS-3-physio-mcq-concepts.md`, a different ASU-CNS-3 source file from the anatomy one
+above, not yet imported) — a new `pending-live/AU-MED-203-cns3-physio-overlay-{concepts,
+questions}.md` pair, since no existing AU-MED-203 overlay sources from that particular
+ASU-CNS-3 physiology file yet.
+
+One printed-key doubt recorded, kept as printed per LANE-CARD rather than silently corrected:
+q97 ("the cause of referred pain") keys 'the visceral organ and somatic structure have the
+same embryological origin', which conflicts with this same paper's own q30 concept
+(`CON-NEU-F246724EF98DA3`, the convergence-projection theory, whose definition already covers
+the standard mechanism) and with mainstream physiology teaching — recorded as its own concept
+(`CON-NEU-5B06E5C4B00A4F`) with the conflict named on its `conflicts` field, rather than
+reused or corrected, since it is a genuinely different (if non-standard) claim from the
+sibling concept's own.
+
+`medical:batch` on the main question file reported one error that is a confirmed **known
+false positive**, not a real defect: "main concept CON-DEV-0CA2D891A1BFB3 is not covered by
+any article in library_ids" — `foldInSiblings`'s `article_ids.split()` in
+`scripts/validate-content-batch.mjs` never strips a sparse row's leading `+`, so this batch's
+`+ART-NEU-AU-MED-203-QUIZ1-ANATOMY` article-link addition to the live kau concept never
+matches the plain `library_ids` string the offline checker compares it against — the identical
+false-positive class already logged in `scripts/kasr/seeds/mcq/104-CPS/PROGRESS.md`. Confirmed
+a non-issue via `medical:simulate` (the real gate, run with all AU-MED-203 and ASU-CNS-3
+concept/article/resource files as positional args): `errors: []`, `skipped: []`, the Q75 row
+resolves as `updated: 1` against the live record (not a stub create), and every other file's
+`created`/`updated` count matches its authored item count exactly. This closes out AU-MED-203's
+Week 2 EOM Final paper (Q1-120) in full: 103 authored, 2 held, 0 remaining across both passes.
+
 ## Not triaged this module (queued, see priority-sources doc for the full list)
 
 - 2 stream-specific EOM finals (`Final CNS مصريين 2027`, `Final CS وافدين 2027`)
 - Mock 2027 question+answer pair (43pg each)
 - `EOM MCQs - Previous Years CNS MCQ with answers.pdf` (87pg — largest single keyed source
   in the module)
-- Week 2 EOM Final, Q61-120 (60 of 120 questions remain untriaged after this pass — see the
-  Week 2 section above for Q1-60)
 - 2 further weekly EOM finals (`CNS- week 3/4+5 Final`, page counts not yet checked this pass)
 - 5 further Mock variants (`CNS mock`, `MOCK 1 CNS`, `cns mock exam`, `Mock CNS answers`,
   `mock CNS with answers`)

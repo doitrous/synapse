@@ -27842,3 +27842,3449 @@ resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (
 sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
 relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
 au: Week 2 EOM Final, p14, q60
+
+---
+
+# Item
+
+## id
+CON-FND-4A4F8203857010
+
+## label
+Incomplete fusion of the maxillary and mandibular processes causes macrostomia
+
+## canonical_key
+embryology.face.macrostomia-maxillary-mandibular-process-fusion-failure
+
+## definition
+The mouth (oral fissure) forms where the maxillary and mandibular prominences of the first pharyngeal arch meet the developing cheek; a normal-width mouth requires their partial fusion at the angle of the mouth. Failure of this fusion leaves an abnormally wide oral fissure extending toward the ear, called macrostomia. This is distinct from cleft (upper) lip, which results from failure of the maxillary and medial nasal processes to fuse, and from microstomia, an abnormally small mouth from excessive fusion.
+
+## explicit_objective
+State that incomplete fusion of the maxillary and mandibular processes produces macrostomia, an abnormally wide mouth.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Face development
+
+## subtopic
+Macrostomia
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Macrostomia|Maxillary-mandibular process fusion|Oral fissure width
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing macrostomia (failure of maxillary-mandibular fusion, mouth too wide) with median cleft upper lip (failure of medial nasal process fusion, a midline notch) or microstomia (excessive fusion, mouth too small).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Face development
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p16 q61 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-4A4F8203857010
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Incomplete fusion between maxillary process and mandibular process gives rise to: a Macrostomia. b Median cleft upper lip. c Microstomia. d Cleft lower lip. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p16 q61; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (macrostomia, median cleft lip) and grepped this module's own anatomy/embryology concept file (no palate/cleft-lip content present) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p16, q61
+
+---
+
+# Item
+
+## id
+CON-FND-EB6E03B1BD7B82
+
+## label
+The maxillary processes form the definitive (secondary) palate, the major portion of the roof of the mouth
+
+## canonical_key
+embryology.palate.maxillary-process-secondary-palate-major-portion
+
+## definition
+The palate develops in two parts. The small, triangular primitive (primary) palate forms early from the intermaxillary segment (itself from fusion of the two medial nasal processes) and becomes only the small anterior premaxillary part of the adult palate, marked by the incisive fossa. The much larger remainder — the definitive (secondary) palate — forms from paired lateral palatine shelves that grow out from the maxillary processes, become horizontal, and fuse with each other and with the primitive palate and nasal septum in the midline. The maxillary processes' shelves therefore contribute the major portion of the adult palate, not the mandibular or frontal prominences.
+
+## explicit_objective
+State that the maxillary processes' lateral palatine shelves form the definitive (secondary) palate, the major portion of the roof of the mouth, distinct from the small anterior primitive palate.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Face development
+
+## subtopic
+Palate development: maxillary process contribution
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Secondary palate|Definitive palate|Lateral palatine shelves|Primitive vs definitive palate
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the primitive palate (small anterior premaxillary part, from the medial nasal processes/intermaxillary segment) with the definitive/secondary palate (the major remaining portion, from the maxillary processes lateral palatine shelves).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Face development
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p16 q62 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-EB6E03B1BD7B82
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The maxillary processes are involved in formation of: a Primitive nasal septum. b Definitive nasal septum. c Primitive palate. d Definitive palate. Key: D. | The major portion of the palate: a Maxillary swelling (prominence). b Mandibular swelling (prominence). c Frontal prominence. d Nasal septum. Key: A. | The major portion of the palate is derived from: a Maxillary processes. b Medial nasal processes. c Mandibular processes. d Nasal septum. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p16 q62; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (definitive palate, palate maxillary swelling) and grepped this module's own anatomy/embryology concept file (no palate content present) before minting. No closer live or pending corpus candidate exists. Three near-duplicate angles on this one fact from the same paper (q62, q63, q73) are collapsed to this single concept per the module's established near-duplicate-angle precedent.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p16, q62
+
+---
+
+# Item
+
+## id
+CON-FND-1ABD40398BB8B9
+
+## label
+The nasolacrimal groove lies between the maxillary and lateral nasal swellings
+
+## canonical_key
+embryology.face.nasolacrimal-groove-maxillary-lateral-nasal-swelling
+
+## definition
+As the face forms around the nasal placodes, a groove — the nasolacrimal groove — appears between the maxillary process and the lateral nasal swelling (prominence). Ectoderm buried within this groove canalises to form the nasolacrimal duct, draining tears from the medial canthus of the eye into the inferior nasal meatus. The groove is not found between the medial and lateral nasal swellings (the site of the future nostril) nor between the first and second pharyngeal arches.
+
+## explicit_objective
+Locate the nasolacrimal groove between the maxillary process and the lateral nasal swelling, the site of nasolacrimal duct formation.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Face development
+
+## subtopic
+Nasolacrimal groove
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Nasolacrimal duct origin|Lateral nasal swelling|Maxillary process
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the nasolacrimal groove (maxillary process/lateral nasal swelling junction) with the groove between the medial and lateral nasal swellings, which instead marks the future nostril (naris).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Face development
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p16 q64 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-1ABD40398BB8B9
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The nasolacrimal groove lies between: a Maxillary and medial nasal swelling. b First and second branchial arch. c Medial and lateral nasal swelling. d Maxillary and lateral nasal swelling. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p16 q64; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (nasolacrimal groove) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p16, q64
+
+---
+
+# Item
+
+## id
+CON-FND-83CCA7CE3F4AD4
+
+## label
+The hyoid bone develops from the second and third pharyngeal arch cartilages
+
+## canonical_key
+embryology.pharyngeal-arch.hyoid-bone-second-third-arch-origin
+
+## definition
+The hyoid bone is a composite skeletal element: its lesser cornu and upper part of the body derive from the cartilage of the second (hyoid) pharyngeal arch (Reichert's cartilage), while its greater cornu and lower part of the body derive from the cartilage of the third pharyngeal arch. No part of the adult hyoid bone derives from the first, fourth or sixth arch cartilages.
+
+## explicit_objective
+State that the hyoid bone derives from both the second and third pharyngeal arch cartilages, not from a single arch alone.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Hyoid bone origin
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Hyoid bone development|Reichert's cartilage|Lesser and greater cornu of hyoid
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming the whole hyoid bone comes from one pharyngeal arch alone; it is a composite of second-arch (lesser cornu, upper body) and third-arch (greater cornu, lower body) contributions.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p17 q66 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-83CCA7CE3F4AD4
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+What is the embryological origin of the hyoid bone? a The first pharyngeal arch. b The first and second pharyngeal arches. c The second pharyngeal arch. d The second and third pharyngeal arches. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p17 q66; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (hyoid bone second and third) and grepped this module's own pharyngeal-arch concepts ('second pharyngeal arch is also called hyoid arch' is a different, arch-naming fact) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p17, q66
+
+---
+
+# Item
+
+## id
+CON-FND-29169EAE8464C4
+
+## label
+The maxillary processes arise as dorsal outgrowths of the first (mandibular) pharyngeal arch
+
+## canonical_key
+embryology.pharyngeal-arch.maxillary-process-first-arch-origin
+
+## definition
+Around the fourth week, the first pharyngeal arch grows a small dorsal extension on each side, the maxillary process, which grows forward beneath the eye toward the developing nasal region; the remaining, larger ventral part of the first arch becomes the mandibular process. Both the maxillary and mandibular processes are therefore first-arch derivatives, unlike the second (hyoid), third or sixth arches, which do not contribute to the upper or lower jaw skeleton.
+
+## explicit_objective
+State that the maxillary processes originate as an outgrowth of the first (mandibular) pharyngeal arch.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Maxillary process origin
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Maxillary process|First pharyngeal arch derivatives|Mandibular process
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming the maxillary and mandibular processes come from two separate arches; both are first-arch derivatives, the maxillary process being its dorsal extension.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p17 q68 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-29169EAE8464C4
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Maxillary processes originate from the .... branchial arch a 1st. b 2nd. c 3rd. d 6th. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p17 q68; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (maxillary process branchial arch) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p17, q68
+
+---
+
+# Item
+
+## id
+CON-FND-66FC2D26446ADA
+
+## label
+The tongue's intrinsic and extrinsic muscles derive from occipital myotomes that migrate into the tongue
+
+## canonical_key
+embryology.tongue.muscles-occipital-myotome-migration
+
+## definition
+Unlike the tongue's mucosa (from pharyngeal arch/pouch endoderm and ectoderm) and its connective tissue framework, essentially all of the tongue's muscle — both intrinsic and extrinsic — derives from occipital (occipital somite) myotomes, which migrate forward from the occipital region into the developing tongue, carrying the hypoglossal nerve with them as their motor supply. This is why the hypoglossal nerve, a somatic motor nerve with no arch of its own, supplies almost all tongue muscles, unlike the arch-derived, branchiomotor-innervated muscles of the pharynx and larynx.
+
+## explicit_objective
+State that tongue muscles derive from occipital myotomes that migrate into the tongue, explaining the tongue's hypoglossal (not branchial arch) motor innervation.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Tongue muscle origin
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Tongue muscle development|Occipital myotomes|Hypoglossal nerve origin link
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming tongue muscles are pharyngeal arch derivatives like most other head and neck muscles; they instead derive from occipital myotomes that migrate into the tongue, which is why they are supplied by the hypoglossal nerve rather than an arch (branchiomotor) nerve.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Head and neck embryology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p17 q69 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-66FC2D26446ADA
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+From embryological origin of muscles of the tongue: a A second median lingual swelling is formed by the second, third and fourth branchial arches. b They migrate from the occipital region to the tongue. c Derived from occipital myotomes. d B&c. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p17 q69; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (tongue muscles occipital myotomes) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p17, q69
+
+---
+
+# Item
+
+## id
+CON-FND-0D7EA15B470802
+
+## label
+Ankyloglossia (tongue-tie) is due to an abnormally short or anteriorly attached lingual frenulum
+
+## canonical_key
+embryology.tongue.ankyloglossia-frenulum-attachment
+
+## definition
+Ankyloglossia (tongue-tie) results from an abnormally short, thick or anteriorly-attached lingual frenulum, the midline mucosal fold connecting the undersurface of the tongue to the floor of the mouth, restricting tongue mobility and protrusion. It is a distinct developmental anomaly from a bifid tongue, which instead results from failure of the lateral lingual swellings to fuse over the tuberculum impar (CON-FND-6FABEEDE721203).
+
+## explicit_objective
+State that ankyloglossia is caused by an abnormal (short/anterior) attachment of the lingual frenulum, distinct from bifid tongue.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Ankyloglossia
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Tongue-tie|Lingual frenulum|Frenulum linguae
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing ankyloglossia (abnormal frenulum attachment restricting tongue movement) with bifid tongue (failure of fusion of the lateral lingual swellings over the tuberculum impar), a separate developmental anomaly of tongue anatomy.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+CON-FND-6FABEEDE721203
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Head and neck embryology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p17 q70 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-0D7EA15B470802
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Ankyloglossia is due to: a Abnormal elongation of the tuberculum impar b Fusion between 2 lingual swellings c Attachment of frenulum lingulae d B &c. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p17 q70; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (ankyloglossia) and grepped this module's own tongue-related concepts, finding the sibling bifid-tongue/tuberculum-impar concept (CON-FND-6FABEEDE721203, from Workshop Quiz 2) that this concept's pitfall now cross-references, before minting.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p17, q70
+
+---
+
+# Item
+
+## id
+CON-FND-8504757B010626
+
+## label
+Congenital absence of the parathyroid glands results from aplasia of the dorsal parts of the third and fourth pharyngeal pouches
+
+## canonical_key
+embryology.pharyngeal-pouch.parathyroid-aplasia-dorsal-third-fourth-pouch
+
+## definition
+The inferior parathyroid glands develop from the dorsal wing of the third pharyngeal pouch (the ventral wing of the same pouch instead gives the thymus, with which the inferior parathyroids migrate, making their final position more variable than the superior glands), while the superior parathyroid glands develop from the dorsal wing of the fourth pharyngeal pouch. Congenital absence of the parathyroid glands, as in DiGeorge syndrome (alongside thymic aplasia), therefore results from failure of these two dorsal pouch derivatives together, not from a defect confined to a single pouch or to the ventral wings alone.
+
+## explicit_objective
+State that parathyroid gland aplasia results from failure of the dorsal third and fourth pharyngeal pouches, the origin of the inferior and superior parathyroid glands respectively.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Parathyroid gland origin
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Parathyroid gland development|DiGeorge syndrome|Third and fourth pharyngeal pouch
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing parathyroid development to only one pouch, or to the ventral rather than dorsal wing; the inferior parathyroids are dorsal-third-pouch derivatives and the superior parathyroids are dorsal-fourth-pouch derivatives.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p18 q71 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-8504757B010626
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Congenital absence of parathyroid glands is due to aplasia of: a Dorsal part of the third pharyngeal pouch. b Ventral part of third pharyngeal pouch. c Dorsal part of fourth pharyngeal pouch. d A & c. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p18 q71; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (parathyroid pharyngeal pouch) and grepped this module's own pouch-derivative concepts (ultimobranchial body, stapes pouch origin, palatine tonsil pouch origin — none cover parathyroids) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p18, q71
+
+---
+
+# Item
+
+## id
+CON-FND-2DF9DE379D92CD
+
+## label
+Median cleft (upper) lip results from incomplete fusion of the two medial nasal processes
+
+## canonical_key
+embryology.face.median-cleft-lip-medial-nasal-process-fusion-failure
+
+## definition
+The intermaxillary segment (bearing the philtrum of the upper lip, the primary palate and the four incisor teeth) forms from fusion of the two medial nasal processes in the midline. Failure of this midline fusion produces a median cleft of the upper lip — a rare anomaly, distinct from the far more common lateral (unilateral or bilateral) cleft lip, which instead results from failure of fusion between the maxillary process and the medial nasal process on one or both sides.
+
+## explicit_objective
+State that median cleft upper lip results from incomplete fusion of the two medial nasal processes, distinct from the more common lateral cleft lip.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Face development
+
+## subtopic
+Median cleft lip
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Median cleft lip|Medial nasal process|Intermaxillary segment
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing median cleft lip (failure of the two medial nasal processes to fuse in the midline) with the far more common lateral cleft lip (failure of the maxillary process to fuse with the medial nasal process on one side).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Face development
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p18 q72 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-2DF9DE379D92CD
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Median cleft lip is thought to be caused by: a Incomplete fusion of the two maxillary processes. b Incomplete fusion of the two mandibular processes. c Incomplete fusion of the two medial nasal processes. d Incomplete fusion of the two lateral nasal processes. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p18 q72; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (medial nasal process cleft) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p18, q72
+
+---
+
+# Item
+
+## id
+CON-FND-F7A9938CD00D7E
+
+## label
+The tip of the nose derives embryologically from the medial nasal processes
+
+## canonical_key
+embryology.face.nose-tip-medial-nasal-process-origin
+
+## definition
+The external nose develops from the merged medial nasal processes (forming the nasal septum, crest and tip of the nose) together with the paired lateral nasal processes (forming the alae, the sides of the nose). The tip and dorsum of the nose specifically derive from the medial nasal processes' contribution, not from the lateral nasal or maxillary processes, which instead form the alae and cheeks respectively.
+
+## explicit_objective
+State that the tip of the nose derives from the medial nasal processes, distinct from the lateral nasal processes (which form the alae).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Face development
+
+## subtopic
+Nose development: tip origin
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Nose tip origin|Medial nasal process|External nose development
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the medial nasal processes (form the nasal septum, dorsum and tip) with the lateral nasal processes (form the alae/sides of the nose) — this is a separate, embryological fact from the tip's postnatal sensory nerve supply (external nasal, maxillary and infratrochlear nerves), which is a different concept (CON-FND-1DBB1A6C7C443D, this module's own Q66 Week 2 nerve-supply concept).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Face development
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p18 q74 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-F7A9938CD00D7E
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The tip of the nose is derived from: a Medial nasal process. b Lateral nasal process. c Maxillary process. d Mandibular process. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p18 q74; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs ('tip of the nose' -> 1 existing record, the nerve-supply-to-the-tip-of-the-nose concept from the week2a batch); confirmed a different fact (embryological origin, not postnatal nerve supply) before minting a separate concept rather than reusing that hit.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p18, q74
+
+---
+
+# Item
+
+## id
+CON-NEU-854A592FEAEB47
+
+## label
+The posterior part of the middle frontal gyrus is Brodmann area 8, the frontal eye field
+
+## canonical_key
+cerebralcortex.middlefrontalgyrus.area8-frontal-eye-field
+
+## definition
+The middle frontal gyrus lies on the lateral surface of the frontal lobe, between the superior and inferior frontal sulci. Its posterior part corresponds to Brodmann area 8, the frontal eye field, which controls voluntary (saccadic) conjugate eye movements — distinct from Broca's area (areas 44/45, inferior frontal gyrus, expressive speech) and from the primary motor cortex (area 4, precentral gyrus).
+
+## explicit_objective
+Localise Brodmann area 8, the frontal eye field, to the posterior part of the middle frontal gyrus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Frontal lobe gyri: middle frontal gyrus
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Middle frontal gyrus|Frontal eye field|Area 8 of Brodmann
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the frontal eye field (area 8, posterior middle frontal gyrus, voluntary eye movement) with Broca's area (areas 44/45, inferior frontal gyrus, expressive speech) — both are frontal-lobe areas but serve entirely different functions.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebral cortex
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p20 q92 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-854A592FEAEB47
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following is correct regarding middle frontal gyrus? a The posterior part of this gyrus presents area 8 of Brodmann. b It is considered as main part of temporal eyefield. c It lies below the inferior frontal sulcus. d It is called Broca's area. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p20 q92; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (middle frontal gyrus) and grepped this module's own cerebral-cortex concepts (area 22, homunculus, paracentral lobule — none cover the middle frontal gyrus) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p20, q92
+
+---
+
+# Item
+
+## id
+CON-NEU-EC0AF53984E01E
+
+## label
+Area 43 of Brodmann, the taste area, lies at the inferior end of the postcentral gyrus
+
+## canonical_key
+cerebralcortex.area43.taste-area-postcentral-gyrus-inferior-end
+
+## definition
+The primary gustatory (taste) cortex, Brodmann area 43, occupies the inferior end of the postcentral gyrus, extending onto the superior roof of the lateral (Sylvian) sulcus adjoining the insula, close to the somatosensory representation of the tongue. It lies at the inferior, not superior, end of the postcentral gyrus, and does not extend onto the precentral gyrus.
+
+## explicit_objective
+Localise the taste area (Brodmann area 43) to the inferior end of the postcentral gyrus, adjoining the superior roof of the lateral sulcus and insula.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Taste area (area 43) localisation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Taste area|Area 43 of Brodmann|Gustatory cortex
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing the taste area at the superior (rather than inferior) end of the postcentral gyrus, or including the precentral gyrus in its boundaries — both are direct printed-key traps repeated twice in this module's own paper (q93, q107).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebral cortex
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p21 q93 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-EC0AF53984E01E
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+All of the following are correct regarding taste area except: a It lies in Brodmann area number 43. b It is situated at the lower end of postcentral gyrus. c It is situated at the upper end of postcentral gyrus. d It lies in adjoining area of insula. Key: C. | All of the following are true regarding area 43 of Brodmann except: a It is the taste area. b It includes the inferior end of the precentral gyrus. c It includes the superior roof of the lateral sulcus and inferior part of postcentral gyrus. d A & B. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p21 q93; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (area 43 of Brodmann, taste area postcentral) before minting. No closer live or pending corpus candidate exists. Two near-duplicate angles on this one fact from the same paper (q93, q107) are collapsed to this single concept per the module's established near-duplicate-angle precedent.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p21, q93
+
+---
+
+# Item
+
+## id
+CON-NEU-1827FEDD3E0231
+
+## label
+The posterior end of the inferior temporal sulcus is called the arcus temporo-occipitalis
+
+## canonical_key
+cerebralcortex.inferiortemporalsulcus.posterior-end-arcus-temporooccipitalis
+
+## definition
+The inferior temporal sulcus runs along the lateral surface of the temporal lobe, separating the middle and inferior temporal gyri. Its posterior end, where it curves toward the occipital lobe at the temporo-occipital junction, is named the arcus temporo-occipitalis — distinct from the angular gyrus and supramarginal gyrus (parietal lobe landmarks around the posterior end of the lateral sulcus) and from the arcus parieto-occipitalis, a separate landmark near the parieto-occipital sulcus.
+
+## explicit_objective
+Name the arcus temporo-occipitalis as the posterior end of the inferior temporal sulcus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Temporal lobe sulci
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Inferior temporal sulcus|Arcus temporo-occipitalis|Temporal lobe landmarks
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the arcus temporo-occipitalis (posterior end of the inferior temporal sulcus) with the angular gyrus, supramarginal gyrus or arcus parieto-occipitalis, separate cortical landmarks named similarly.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebral cortex
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p20 q94 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-1827FEDD3E0231
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The posterior end of inferior temporal sulcus is called: a Angular gyrus. b Supramarginal gyrus. c Arcus parieto-occipitalis. d Arcus temporo-occipitalis. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p20 q94; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (inferior temporal sulcus) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p20, q94
+
+---
+
+# Item
+
+## id
+CON-NEU-775E9C8D1337E5
+
+## label
+The postcentral gyrus corresponds to Brodmann areas 3, 1 and 2, the primary somatosensory cortex
+
+## canonical_key
+cerebralcortex.postcentralgyrus.areas-1-2-3-primary-somatosensory
+
+## definition
+The postcentral gyrus, the primary somatosensory cortex, occupies Brodmann areas 3, 1 and 2 in that antero-posterior sequence across the gyrus (area 3 anteriorly, adjoining the central sulcus, through to area 2 posteriorly), receiving somatotopically-organised touch, pressure, vibration and proprioceptive input relayed from the thalamus (VPL/VPM). It is distinct from the precentral gyrus (area 4, primary motor cortex) and the superior temporal gyrus (auditory cortex, areas 41/42).
+
+## explicit_objective
+State that the postcentral gyrus corresponds to Brodmann areas 3, 1 and 2, the primary somatosensory cortex.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Postcentral gyrus Brodmann areas
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Postcentral gyrus|Primary somatosensory cortex|Areas 3, 1 and 2 of Brodmann
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the postcentral gyrus's areas 3, 1, 2 (somatosensory) with the precentral gyrus's area 4 (motor) or the superior temporal gyrus's areas 41/42 (auditory).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebral cortex
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p20 q95 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-775E9C8D1337E5
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following gyri contain area 1, 2, 3 of Brodmann? a Precentral gyrus. b Postcentral gyrus. c Superior temporal gyrus. d Middle frontal gyrus. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p20 q95; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (postcentral gyrus areas 1 2 3) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p20, q95
+
+---
+
+# Item
+
+## id
+CON-NEU-A29527F5518BB9
+
+## label
+The lateral (Sylvian) sulcus has three rami — anterior, ascending and posterior — and its stem lies on the inferior surface of the hemisphere
+
+## canonical_key
+cerebralcortex.lateralsulcus.three-rami-inferior-stem
+
+## definition
+The lateral (Sylvian) sulcus begins as a deep stem on the inferior surface of the cerebral hemisphere, then runs onto the lateral surface where it divides into three rami: a short anterior (horizontal) ramus and a short ascending ramus, both projecting into the inferior frontal gyrus, and a long posterior ramus that runs backward and upward, ending deep to the supramarginal gyrus at the parietal operculum. The lateral sulcus does not extend onto the medial surface of the hemisphere (unlike the calcarine or cingulate sulci), and it has no separate 'descending ramus'.
+
+## explicit_objective
+State that the lateral sulcus has three rami (anterior, ascending, posterior), its stem on the inferior surface, and does not extend onto the medial surface.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Lateral (Sylvian) sulcus anatomy
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Lateral sulcus|Sylvian fissure|Rami of the lateral sulcus
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Inventing a fourth 'descending ramus' of the lateral sulcus (only anterior, ascending and posterior rami exist), or placing its stem/extent on the medial rather than inferior surface of the hemisphere — both are direct printed-key traps repeated twice in this module's own paper (q106, q112).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebral cortex
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p22 q106 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-A29527F5518BB9
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+All of the following are true regards lateral sulcus except a Extends on the medial surface of the cerebrum. b It has 3 rami. c Its stem located at the inferior surface. d Its posterior ramus is surrounded by supra marginal gyrus at its posterior end. Key: A. | Which of the following doesn't belong to the lateral sulcus? a Anterior ramus. b Posterior ramus. c Ascending ramus. d Descending ramus. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p22 q106; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (lateral sulcus) and grepped this module's own concept file (the only hit, 'hypoglossal nerve rootlets emerge in the anterolateral sulcus', is a different medullary-surface structure, not the cerebral lateral/Sylvian sulcus) before minting. Two near-duplicate angles on this one fact from the same paper (q106, q112) are collapsed to this single concept per the module's established near-duplicate-angle precedent.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p22, q106
+
+---
+
+# Item
+
+## id
+CON-NEU-59228DE40DAFDB
+
+## label
+The upper end of the central sulcus lies between the frontal and occipital poles, close to the vertex of the hemisphere
+
+## canonical_key
+cerebralcortex.centralsulcus.upper-end-location
+
+## definition
+The central sulcus (of Rolando) runs obliquely downward and forward from near the vertex of the cerebral hemisphere to the lateral sulcus, separating the frontal from the parietal lobe. Its upper end lies on the superomedial border roughly midway between the frontal and occipital poles (slightly closer to the occipital pole), not between the temporal and frontal or temporal and parietal poles.
+
+## explicit_objective
+Locate the upper end of the central sulcus midway between the frontal and occipital poles, near the vertex.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Central sulcus location
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Central sulcus|Sulcus of Rolando|Central sulcus upper end
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing the central sulcus's upper end between the temporal and frontal, or temporal and parietal, poles rather than between the frontal and occipital poles near the vertex.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebral cortex
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p23 q108 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-59228DE40DAFDB
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The upper end of the central sulcus is located between: a Occipital pole and frontal pole. b Temporal pole and frontal pole. c Temporal and parietal. d None of the above. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p23 q108; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (central sulcus) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p23, q108
+
+---
+
+# Item
+
+## id
+CON-NEU-C0F3BDF4E0E459
+
+## label
+The superior parietal lobule is the somatosensory association area
+
+## canonical_key
+cerebralcortex.superiorparietallobule.somatosensory-association-area
+
+## definition
+Brodmann areas 5 and 7, occupying the superior parietal lobule (posterior to the primary somatosensory cortex, areas 3-1-2, in the postcentral gyrus), function as the somatosensory association area. They integrate and interpret primary tactile, pressure and proprioceptive information into complex percepts such as stereognosis (object recognition by touch), rather than area 4 (primary motor) or area 43 (taste).
+
+## explicit_objective
+State that the superior parietal lobule is the somatosensory association area, distinct from the primary somatosensory cortex in the postcentral gyrus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Somatosensory association cortex
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Superior parietal lobule|Somatosensory association area|Areas 5 and 7 of Brodmann
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the somatosensory association area (superior parietal lobule, areas 5/7) with the primary somatosensory cortex (postcentral gyrus, areas 3-1-2), which relays rather than integrates the same modality.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebral cortex
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p21 q109 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C0F3BDF4E0E459
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The area responsible for somatosensory association is: a Area 4. b Area 8. c Area 43. d Superior parietal lobule. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p21 q109; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (somatosensory association area) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p21, q109
+
+---
+
+# Item
+
+## id
+CON-NEU-5606622495FD2C
+
+## label
+Brodmann area 40 corresponds to the supramarginal gyrus
+
+## canonical_key
+cerebralcortex.area40.supramarginal-gyrus
+
+## definition
+Brodmann area 40 occupies the supramarginal gyrus, part of the inferior parietal lobule, arching over the posterior (upturned) end of the lateral sulcus. It is a component of Wernicke's (posterior language) area in the dominant hemisphere and, together with the adjacent angular gyrus (area 39), is involved in language processing and praxis — distinct from area 39 itself (angular gyrus, arching over the superior temporal sulcus) or the frontal-lobe gyri.
+
+## explicit_objective
+Identify the supramarginal gyrus as Brodmann area 40.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Parietal lobe Brodmann areas
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Area 40 of Brodmann|Supramarginal gyrus|Inferior parietal lobule
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing area 40 (supramarginal gyrus, arches over the lateral sulcus) with area 39 (angular gyrus, arches over the superior temporal sulcus) — the two adjacent inferior parietal gyri are frequently swapped.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebral cortex
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p24 q113 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-5606622495FD2C
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following is area 40? a Supramarginal gyrus. b Angular gyrus. c Middle frontal gyrus. d Inferior frontal gyrus. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p24 q113; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (area 40 supramarginal) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p24, q113
+
+---
+
+# Item
+
+## id
+CON-NEU-69F14AE2E783C0
+
+## label
+The visual association area is the secondary visual area, not the primary visual area
+
+## canonical_key
+cerebralcortex.visualassociationarea.secondary-visual-area
+
+## definition
+The visual association area corresponds to the secondary visual cortex, Brodmann areas 18 and 19, surrounding the primary visual cortex (area 17, along the calcarine sulcus). It interprets and integrates the raw visual signal that area 17 receives, building complex visual percepts (form, colour, motion recognition); it is not the same as the primary visual area, which only receives the raw retinotopic input.
+
+## explicit_objective
+State that the visual association area is the secondary visual area (Brodmann 18/19), distinct from the primary visual area (area 17).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Visual cortex: association vs primary area
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Visual association area|Secondary visual area|Areas 18 and 19 of Brodmann
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Equating the visual association area with the primary visual area; they are distinct, hierarchically-related cortical zones (area 17 primary, areas 18/19 association).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebral cortex
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p24 q114 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-69F14AE2E783C0
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The visual association area is the same as? a Primary visual area. b Secondary visual area. c None of the above. d A and B. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p24 q114; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (visual association area) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p24, q114
+
+---
+
+# Item
+
+## id
+CON-NEU-024529EB17020C
+
+## label
+The postcentral sulcus lies behind (posterior to) the central sulcus
+
+## canonical_key
+cerebralcortex.postcentralsulcus.position-behind-central-sulcus
+
+## definition
+The postcentral sulcus runs roughly parallel to, and behind (posterior to), the central sulcus, marking the posterior boundary of the postcentral gyrus (primary somatosensory cortex) and separating it from the superior and inferior parietal lobules behind it. It is not in front of, nor deep to, the central sulcus.
+
+## explicit_objective
+State that the postcentral sulcus lies posterior to (behind) the central sulcus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Postcentral sulcus position
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Postcentral sulcus|Central sulcus relations|Postcentral gyrus boundary
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing the postcentral sulcus in front of, rather than behind, the central sulcus — the two run in parallel with the postcentral gyrus (somatosensory cortex) sandwiched between them.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cerebral cortex
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p24 q115 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-024529EB17020C
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following is correct regarding the position of the postcentral sulcus? a Behind the central sulcus. b In front of the central sulcus. c Under the central sulcus. d None of the above. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p24 q115; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (postcentral sulcus) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p24, q115
+
+---
+
+# Item
+
+## id
+CON-DEV-0CA2D891A1BFB3
+
+## label
+Incisive-fossa developmental position
+
+## universities
++au
+
+## modules
++AU-MED-203
+
+## learner_years
++2
+
+## article_ids
++ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## field_notes
+examSignal: Tested by AU-MED-203 Nervous System Week 2 EOM Final (src_70b2ac8853db17b047ea, p18 q75 — "The incisive fossa represents: a. Primitive palate") — the same fact this live King Abdulaziz University (kau) concept already teaches (incisive fossa forms at the primary-secondary palate junction, the vestige of the primitive palate). Recorded as an update, not a new mint, because the underlying testable claim is identical; verified via find-existing.mjs ("incisive fossa" -> 1 existing live record) before minting was even considered. Applied directly to this batch's own concept file, not routed through pending-live, since the target record is already live (not a sibling-university pending batch). article_ids appends (does not replace) this module's own AU-MED-203 anatomy article alongside the live record's existing kau article, per the ID-list  append rule (00-START-HERE §"Per-university traceability"), giving this batch's question (`question/AU-MED-203-week2b-mcq.md`, q75) a valid two-sided article link.
+au: Week 2 EOM Final, p18, q75

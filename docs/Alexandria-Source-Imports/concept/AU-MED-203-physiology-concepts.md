@@ -16791,3 +16791,858 @@ resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (
 sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
 relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
 au: Week 2 EOM Final, p7, q30
+
+---
+
+# Item
+
+## id
+CON-NEU-5B06E5C4B00A4F
+
+## label
+This source keys embryological origin, not convergence-projection, as the cause of referred pain
+
+## canonical_key
+neurophysiology.pain.referred-pain-embryological-origin-keyed
+
+## definition
+This paper's printed answer key marks 'the visceral organ and somatic structure have the same embryological origin' as the cause of referred pain, rather than the convergence-projection theory (visceral and somatic afferents converging on the same spinothalamic neurons, CON-NEU-F246724EF98DA3) that this module's own other referred-pain question (Week 2 EOM Final q30, same paper) and standard physiology teaching identify as the accepted mechanism. Recorded as printed, with the conflict against the sibling concept flagged, rather than silently corrected.
+
+## explicit_objective
+Recognise that this source's printed key for the cause of referred pain names shared embryological origin, a claim that conflicts with the convergence-projection theory taught elsewhere in the same paper.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Referred pain: this source's embryological-origin key
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Referred pain cause|Embryological origin theory (as printed)|Cause of referred pain
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Standard teaching (and this same paper's own q30) explains referred pain by the convergence-projection or facilitation theories, not by a shared embryological origin between the somatic and visceral structures; this item's printed key departs from that standard teaching.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+CON-NEU-F246724EF98DA3 — this module's own week2a q30 concept keys convergence-projection (afferent convergence on shared spinothalamic neurons), not embryological origin, as the mechanism of referred pain; this q97 item's own printed key conflicts with that sibling concept, and with standard teaching.
+
+## uncertainty
+The printed key's 'same embryological origin' explanation for referred pain is a non-standard framing not supported by mainstream physiology teaching (which favours convergence-projection/facilitation theories); kept as printed per the module's doubt-recording precedent rather than silently corrected.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p21 q97 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-5B06E5C4B00A4F
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The cause of referred pain is: a The two areas are adjacent to each other. b The afferent fibers from both somatic structure and viscera converge on in the thalamus. c The visceral organ and somatic structure have the same embryological origin. d Visceral pain signals inhibit secondary order neuron. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p21 q97; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (referred pain embryological origin, convergence projection theory) and grepped this module's own physiology concept file, finding 3 sibling referred-pain concepts (convergence-projection CON-NEU-F246724EF98DA3, facilitation-theory CON-NEU-6CF47DA4D7ED77, secondary-hyperalgesia-misconception CON-NEU-9EFFC066CBBCC6 — none stating embryological origin as correct) before minting this concept to record the printed-key divergence rather than silently reusing or correcting it.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p21, q97
+
+---
+
+# Item
+
+## id
+CON-NEU-CABB1919C05AF2
+
+## label
+Opiate receptors are found in the periaqueductal grey, nucleus raphe magnus and locus coeruleus, but not in the precentral gyrus
+
+## canonical_key
+neurophysiology.pain.opiate-receptor-sites-not-precentral-gyrus
+
+## definition
+Opiate (opioid) receptors are densely distributed along the descending pain-modulation pathway — the periaqueductal grey, the nucleus raphe magnus, and the locus coeruleus — plus the substantia gelatinosa of the spinal dorsal horn. The precentral gyrus, the primary motor cortex, is not part of this analgesic circuitry and is not a recognised site of opiate receptor concentration, making it the correct exception among these four options.
+
+## explicit_objective
+Identify the precentral gyrus as the one structure, among periaqueductal grey/nucleus raphe magnus/locus coeruleus/precentral gyrus, that is NOT a recognised opiate receptor site.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Opiate receptor distribution
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Opiate receptor sites|Periaqueductal grey|Nucleus raphe magnus|Locus coeruleus
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming any midbrain/brainstem-related structure carries opiate receptors; the precentral gyrus, a motor cortical area, is not part of the descending analgesic pathway despite being a superficially similar "brain structure" to the true opiate-receptor sites.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p21 q100 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-CABB1919C05AF2
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Opiate receptors located in all of the following except: a Periaqueductal grey. b Precentral gyrus. c Nucleus raphe magnus. d Locus coeruleus. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p21 q100; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (opiate receptors periaqueductal) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p21, q100
+
+---
+
+# Item
+
+## id
+CON-NEU-09B34CD3DC1A30
+
+## label
+Acupuncture, rubbing the injured area and stress-induced mechanisms are all recognised methods that can relieve pain
+
+## canonical_key
+neurophysiology.pain.pain-relief-methods-summary
+
+## definition
+Multiple distinct physiological mechanisms can relieve pain: acupuncture (via endogenous opioid release and gate-theory-like afferent stimulation), rubbing an injured area (gate-theory A-beta fibre activation, CON-NEU-04F9C773D465DB), and the phenomenon of stress-induced analgesia (via descending periaqueductal-grey/opioid pathways activated during acute stress or danger). Because each is an independently valid pain-relief mechanism taught in this module, the umbrella option covering all of them is correct.
+
+## explicit_objective
+State that acupuncture, rubbing an injured area and stress-induced analgesia are all valid, independently-recognised pain-relief mechanisms.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Pain relief mechanisms overview
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Pain relief methods|Acupuncture analgesia|Stress-induced analgesia
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Treating stress purely as a pain-aggravating factor; acute/severe stress can also trigger stress-induced analgesia via the same descending opioid pathway used by acupuncture and gate-theory mechanisms.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+CON-NEU-04F9C773D465DB
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p22 q105 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-09B34CD3DC1A30
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The pain can be relieved by the following: a Acupuncture. b Stress. c Rubbing of injured area. d All of the above. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p22 q105; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (pain relief acupuncture) and grepped this module's own gate-theory/A-beta concepts before minting. No closer live or pending corpus candidate exists beyond the related gate-theory concept named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p22, q105
+
+---
+
+# Item
+
+## id
+CON-NEU-9599816DEBF19F
+
+## label
+Opioid receptors mediating analgesia are found in the midbrain and pons, not confined to one site
+
+## canonical_key
+neurophysiology.pain.opiate-analgesia-midbrain-pons-distribution
+
+## definition
+The endogenous opioid analgesic system is not confined to a single relay: opioid receptors are distributed across midbrain (periaqueductal grey) and pontine/medullary (nucleus raphe magnus, locus coeruleus) structures forming the descending pain-modulation pathway, and their activation is a modulatable, reversible process rather than a permanent, one-time effect. Describing opiate analgesia as involving only the periaqueductal grey, or as permanent, understates the distributed, reversible nature of the system.
+
+## explicit_objective
+State that opioid receptors mediating analgesia are distributed across midbrain and pontine structures, not confined to one site, and that opiate analgesia is a reversible, not permanent, effect.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Opiate analgesia: anatomical distribution
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Opiate analgesia|Midbrain and pons opioid receptors|Descending pain-modulation pathway
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming opiate analgesia depends on the periaqueductal grey alone, or is a permanent effect, rather than a reversible process distributed across midbrain and pontine relays.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p24 q118 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-9599816DEBF19F
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following describes opiate analgesia most precisely? a It's permanent. b It involves only PAG. c Opioid receptors are found in midbrain and pons. d None of the above. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p24 q118; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (opiate analgesia) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p24, q118
+
+---
+
+# Item
+
+## id
+CON-NEU-ED5169A7FE6802
+
+## label
+Endorphins act on opioid receptors in the locus coeruleus to reduce catecholamine (noradrenaline) release
+
+## canonical_key
+neurophysiology.pain.endorphins-locus-coeruleus-catecholamine
+
+## definition
+The locus coeruleus, the principal noradrenergic (catecholaminergic) nucleus of the pons, carries opioid receptors through which endorphins (and other endogenous or exogenous opioids) inhibit noradrenaline (a catecholamine) release, contributing to descending pain modulation and to the autonomic/behavioural effects of opioid administration and withdrawal. This is distinct from the locus coeruleus's role as a source, not a target, of catecholamine output to the rest of the CNS.
+
+## explicit_objective
+State that endorphins act on opioid receptors in the locus coeruleus to modulate its catecholamine (noradrenaline) output.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Endorphins and the locus coeruleus
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Endorphins|Locus coeruleus|Catecholamine (noradrenaline) modulation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the locus coeruleus's role as the CNS's principal noradrenaline (catecholamine)-producing nucleus with the separate, superimposed fact that its own output is itself modulated by endorphin action on local opioid receptors.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p25 q120 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-ED5169A7FE6802
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Endorphins act on opioid receptors in locus coeruleus to secrete? a Catecholamine. b Endorphins. c Morphine. d Dopamine. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p25 q120; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (endorphins locus coeruleus) before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p25, q120

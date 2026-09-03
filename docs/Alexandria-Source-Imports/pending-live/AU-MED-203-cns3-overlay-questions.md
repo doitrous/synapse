@@ -289,3 +289,420 @@ AU-MED-203 Week 1 EOM Final (src_f5698c4e06db91539a01), p35 q149, inline per-pag
 yes
 ## author_notes
 Tests the same cavernous-sinus-lateral-wall concept authored by the ASU-CNS-3 lane in CON-NEU-94513EC37B29B8 (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md), verified via find-existing.mjs ("cavernous sinus lateral wall", "oculomotor") before minting was even considered; this lane adds no new concept, only the AU-MED-203 exam signal and this question, plus the sparse overlay in AU-MED-203-cns3-overlay-concepts.md. keySource: inline per-page answer line, p35. Distinct from week1-q47 (Q51-100 batch, held with no new question authored as a near-exact duplicate of this same concept's own "EXCEPT" framing) — this item's simpler, materially different stem/distractor set earns its own overlay question.
+
+---
+
+# Item
+
+## id
+QST-NEU-AU203-PRECENTRAL-GYRUS-MOTOR-001
+
+## title
+Precentral gyrus and the first motor area
+
+## question
+Which of the following is correct regarding precentral gyrus?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+This gyrus lies between central and the postcentral sulci
+
+## explanation_a
+Incorrect. The precentral gyrus lies between the central sulcus and the precentral sulcus, not the postcentral sulcus, which instead bounds the postcentral gyrus behind it.
+
+## answer_b
+This gyrus represent area 44 of Brodmann
+
+## explanation_b
+Incorrect. Area 44 (part of Broca's area) occupies the inferior frontal gyrus, not the precentral gyrus, which is area 4.
+
+## answer_c
+It is considered as first motor area of contralateral side of the body
+
+## explanation_c
+Correct. The precentral gyrus, Brodmann area 4, is the primary (first) motor cortex, organised somatotopically as the motor homunculus, and its output (via the corticospinal tract) controls voluntary movement of the contralateral side of the body. In short: identify the precentral gyrus as the primary motor area for the contralateral body.
+
+## answer_d
+It is considered with motor mechanisms of speech formulation
+
+## explanation_d
+Incorrect. Motor speech formulation is Broca's area's function (inferior frontal gyrus, areas 44/45), not the precentral gyrus's own defining role.
+
+## topic
+Cerebral cortex
+
+## subtopic
+Precentral gyrus: primary motor cortex
+
+## main_concept
+CON-NEU-8F800A1650C2CA
+
+## concept_ids
+CON-NEU-8F800A1650C2CA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-PRIMARY-MOTOR-CORTEX-AREA-4-FUNCTION
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## learning_objective
+State that the precentral gyrus is the primary motor area for the contralateral side of the body.
+
+## source_citation
+AU-MED-203 Week 2 EOM Final, p20 q91, inline per-page answer line.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p20. HIT-PENDING: reuses the Ain Shams ASU-CNS-3 concept CON-NEU-8F800A1650C2CA ('The primary motor cortex (Brodmann area 4), in the precentral gyrus, converts motor plans into executed movement'), not yet imported to production, via a sparse `+au`/`+AU_Y2`/`+AU-MED-203` overlay row in pending-live/AU-MED-203-cns3-overlay-concepts.md; not emitted into the main batch. Shares its concept with week2b-q111 (same paper, p24 q111, Brodmann-area-number framing of the same fact).
+
+---
+
+# Item
+
+## id
+QST-NEU-AU203-BROCA-SPOKEN-SPEECH-001
+
+## title
+Broca's area and spoken speech
+
+## question
+Which of the following is true regards Broca's area?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Located around ascending ramus of lateral sulcus
+
+## explanation_a
+Incorrect. Broca's area occupies the pars opercularis and pars triangularis of the inferior frontal gyrus (areas 44/45); it is adjacent to, but not itself defined by, the ascending ramus of the lateral sulcus.
+
+## answer_b
+It's concerned with written speech
+
+## explanation_b
+Incorrect. Broca's area governs the motor programming of spoken, not written, speech production; written-language function involves other, more posterior parieto-temporal areas.
+
+## answer_c
+It's concerned with spoken speech
+
+## explanation_c
+Correct. Broca's area, in the posterior inferior frontal gyrus (areas 44/45) of the dominant hemisphere, is responsible for the motor programming of spoken speech production; its damage produces non-fluent (expressive) aphasia with effortful, telegraphic speech but relatively preserved comprehension. In short: identify Broca's area as concerned with spoken, not written, speech.
+
+## answer_d
+All of the above
+
+## explanation_d
+Incorrect. Only the spoken-speech function (c) is correct; Broca's area is not defined by the ascending ramus of the lateral sulcus (a) nor concerned with written speech (b), so 'all of the above' is wrong.
+
+## topic
+Cerebral cortex
+
+## subtopic
+Broca's area function
+
+## main_concept
+CON-NEU-0FFACE78A09499
+
+## concept_ids
+CON-NEU-0FFACE78A09499
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-BROCA-AREA-INFERIOR-FRONTAL-GYRUS
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## learning_objective
+State that Broca's area is concerned with spoken (motor) speech, not written speech.
+
+## source_citation
+AU-MED-203 Week 2 EOM Final, p22 q110, inline per-page answer line.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p22. HIT-PENDING: reuses the Ain Shams ASU-CNS-3 concept CON-NEU-0FFACE78A09499 ("Broca's area... is responsible for the motor programming of speech production"), not yet imported to production, via a sparse `+au`/`+AU_Y2`/`+AU-MED-203` overlay row in pending-live/AU-MED-203-cns3-overlay-concepts.md; not emitted into the main batch.
+
+---
+
+# Item
+
+## id
+QST-NEU-AU203-PRECENTRAL-GYRUS-AREA4-001
+
+## title
+Precentral gyrus's Brodmann area number
+
+## question
+Which area of Brodmann does the precentral gyrus represent?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+1
+
+## explanation_a
+Incorrect. Area 1 is part of the primary somatosensory cortex, in the postcentral, not precentral, gyrus.
+
+## answer_b
+4
+
+## explanation_b
+Correct. The precentral gyrus is Brodmann area 4, the primary motor cortex, containing the largest pyramidal (Betz) cells and giving rise to a substantial share of corticospinal fibres that execute voluntary movement. In short: identify area 4 as the Brodmann number of the precentral gyrus.
+
+## answer_c
+7
+
+## explanation_c
+Incorrect. Area 7, in the superior parietal lobule, is part of the somatosensory association cortex, not the precentral gyrus.
+
+## answer_d
+42
+
+## explanation_d
+Incorrect. Area 42 is part of the auditory cortex in the superior temporal gyrus, unrelated to the precentral gyrus.
+
+## topic
+Cerebral cortex
+
+## subtopic
+Precentral gyrus: primary motor cortex
+
+## main_concept
+CON-NEU-8F800A1650C2CA
+
+## concept_ids
+CON-NEU-8F800A1650C2CA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-ASU-CNS3-PRIMARY-MOTOR-CORTEX-AREA-4-FUNCTION
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## learning_objective
+State that the precentral gyrus corresponds to Brodmann area 4.
+
+## source_citation
+AU-MED-203 Week 2 EOM Final, p24 q111, inline per-page answer line.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p24. HIT-PENDING: reuses the same Ain Shams ASU-CNS-3 concept CON-NEU-8F800A1650C2CA as week2b-q091 (same paper, p20 q91, functional framing of the same fact); the sparse overlay row already added for q91 covers this question too, so no second overlay row is needed. Not emitted into the main batch.

@@ -74,3 +74,47 @@ The lateral wall of the cavernous sinus contains cranial nerves III, IV, V1 and 
 
 ## field_notes
 examSignal: Tested by AU-MED-203 Week 1 EOM Final (src_f5698c4e06db91539a01, Q149 — "Which nerve goes through the lateral side of the cavernous sinus? ... c. Oculomotor") — the same fact this ASU-CNS-3 concept already teaches (the oculomotor nerve runs in the cavernous sinus's lateral wall). Recorded as an update, not a new mint, because the underlying testable claim is identical; verified via find-existing.mjs ("cavernous sinus lateral wall", "oculomotor") before minting was even considered — no closer AU-MED-203 candidate than this ASU-CNS-3 record exists. Distinct from the module's own week1-q47 (Q51-100 batch, held outright with no new question authored, since that item was a near-exact restatement of this same concept's own "EXCEPT" framing); this Q149 overlay instead pairs a simpler, materially different stem/distractor set with the same underlying fact, so it earns its own overlay question rather than a bare hold. AU-MED-203's own Quiz 1/2 anatomy article (`article/AU-MED-203-anatomy-articles.md`) cannot be listed in this concept's own `article_ids` (that stays ASU-CNS-3's article, which this lane does not own), so the reciprocal link lives on the question side instead (see `AU-MED-203-cns3-overlay-questions.md`).
+
+---
+
+# Item
+
+## id
+CON-NEU-8F800A1650C2CA
+
+## label
+The primary motor cortex (Brodmann area 4), in the precentral gyrus, converts motor plans into executed movement
+
+## universities
++au
+
+## modules
++AU-MED-203
+
+## learner_years
++2
+
+## field_notes
+examSignal: Tested by AU-MED-203 Nervous System Week 2 EOM Final (src_70b2ac8853db17b047ea, p20 q91 — "Which of the following is correct regarding precentral gyrus? ... c. It is considered as first motor area of contralateral side of the body" — and again p24 q111 — "Which area of Brodmann does the precentral gyrus represent? ... b. 4") — the same fact this ASU-CNS-3 concept already teaches (precentral gyrus = Brodmann area 4 = primary motor cortex). Recorded as an update, not a new mint, because the underlying testable claim is identical; verified via find-existing.mjs ("precentral gyrus" -> 2 existing records) before minting was even considered. AU-MED-203's own Quiz 1/2 anatomy article (`article/AU-MED-203-anatomy-articles.md`) cannot be listed in this concept's own `article_ids` (that stays ASU-CNS-3's article, which this lane does not own), so the reciprocal link lives on the question side instead (see `AU-MED-203-cns3-overlay-questions.md`). Reused by two questions from the same paper (q91, q111), one overlay row covers both.
+
+---
+
+# Item
+
+## id
+CON-NEU-0FFACE78A09499
+
+## label
+Broca's area, responsible for expressive (motor) language, occupies the inferior frontal gyrus of the dominant hemisphere
+
+## universities
++au
+
+## modules
++AU-MED-203
+
+## learner_years
++2
+
+## field_notes
+examSignal: Tested by AU-MED-203 Nervous System Week 2 EOM Final (src_70b2ac8853db17b047ea, p22 q110 — "Which of the following is true regards Broca's area? ... c. It's concerned with spoken speech") — the same fact this ASU-CNS-3 concept already teaches (Broca's area is responsible for the motor programming of speech production). Recorded as an update, not a new mint, because the underlying testable claim is identical; verified via find-existing.mjs ("Broca's area" -> 4 existing records, this the closest anatomical-function match) before minting was even considered. AU-MED-203's own Quiz 1/2 anatomy article (`article/AU-MED-203-anatomy-articles.md`) cannot be listed in this concept's own `article_ids` (that stays ASU-CNS-3's article, which this lane does not own), so the reciprocal link lives on the question side instead (see `AU-MED-203-cns3-overlay-questions.md`).
