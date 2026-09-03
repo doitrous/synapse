@@ -172,6 +172,36 @@ test('a voucher cheaper than the promo wins — best price, no stacking', async 
   })
 })
 
+test('the Ambassador voucher resolves periodPrices.month for period "month"', async () => {
+  const catalogDoc = { plans: [{ id: 'maristana', prices: { month: 400, term: 1000 } }] }
+  const vouchers = [{
+    id: 'v1', code: 'AMBASSADOR', active: true,
+    startsAt: '2020-01-01', expiresAt: '2099-01-01',
+    maxRedemptions: 0, redemptionCount: 0,
+    periodPrices: { month: 250, term: 550 },
+  }]
+  await withAppState({ catalog: catalogDoc, vouchers }, async () => {
+    const quote = await pricingQuote({ period: 'month', voucherCode: 'AMBASSADOR' })
+    assert.equal(quote.totalAmount, 250)
+    assert.equal(quote.appliedDiscount.kind, 'voucher')
+  })
+})
+
+test('the Ambassador voucher resolves periodPrices.month for legacy period "monthly" too', async () => {
+  const catalogDoc = { plans: [{ id: 'maristana', prices: { month: 400, term: 1000 } }] }
+  const vouchers = [{
+    id: 'v1', code: 'AMBASSADOR', active: true,
+    startsAt: '2020-01-01', expiresAt: '2099-01-01',
+    maxRedemptions: 0, redemptionCount: 0,
+    periodPrices: { month: 250, term: 550 },
+  }]
+  await withAppState({ catalog: catalogDoc, vouchers }, async () => {
+    const quote = await pricingQuote({ period: 'monthly', voucherCode: 'AMBASSADOR' })
+    assert.equal(quote.totalAmount, 250)
+    assert.equal(quote.appliedDiscount.kind, 'voucher')
+  })
+})
+
 test('a voucher worse than the promo loses — the promo still wins, never both', async () => {
   const catalogDoc = { plans: [{ id: 'maristana', prices: { month: 400, term: 1000 }, promo: { term: { enabled: true, percentOff: 30 } } }] }
   const vouchers = [{
