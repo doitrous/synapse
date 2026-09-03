@@ -1,8 +1,112 @@
 # ASU-MBG progress ledger
 
 Tracks status against the 12 concept clusters in `ASU-MBG-triage.md`, plus Cluster 13 (Molecular
-Biology of Cancer, found and triaged by author11) and Cluster 14 (Gene Therapy, found and triaged
-by author12). Update this file, do not recreate it, as each cluster closes.
+Biology of Cancer, found and triaged by author11), Cluster 14 (Gene Therapy, found and triaged
+by author12), and Cluster 15 (Collection Questions + LMS-exported revision snippets, found and
+triaged by author13). Update this file, do not recreate it, as each cluster closes.
+
+## Done (author13, branch `asu-mbg-author13`, base `asu-mbg-author12` @ 47ff7576)
+
+**Cluster 15 · Collection Questions (27 items) + LMS-exported revision quiz snippets (~10 items) —
+new chapters, not in the original S1 triage. Both fully triaged and closed for authorable content
+this pass.**
+
+Found immediately after Mode of Inheritance's own answer table (PDF p.50, "misc" row in this
+ledger's remaining-scope table), running PDF pp.51-54 ("Collection Questions", its own "Answers of
+Collection Questions" table on p.54) then pp.55-56 (individually LMS-boxed-answer quiz snippets,
+a per-question export format distinct from the file's chapter-level answer tables). File's own p.56
+(pdftoppm index 57) carries a 5-item highlighted-answer block already flagged by the original S1
+triage as a byte-for-byte duplicate of "file 1 p.56" — left untouched, matching that prior ruling.
+
+**Major finding: both chapters are a compiled revision run, not new source material.** Checking
+each item's stem against the full existing ASU-MBG question corpus before authoring (not just
+concepts, per the usual find-existing.mjs sweep) turned up 12 of the 27 Collection Questions items
+and half the LMS snippets as exact or near-exact duplicates of questions this lane already authored
+under their original chapter names (telomerase, FISH/Turner-X, trinucleotide-repeat/Huntington,
+trisomies-compatible-with-survival, "required for both pro/eu translation", peptidyl transferase
+description ×2) — confirmed by stem-substring grep, not assumed from topic overlap alone. These
+were held/skipped rather than re-authored as duplicates. A handful of others share a topic with an
+existing item but test a materially different fact or option set (achondroplasia recurrence-risk
+independence vs. the existing new-mutation item; X-linked-recessive and Angelman/Prader-Willi
+classification items with different distractor sets than existing mechanism-level items) — these
+were authored as legitimate separate probes, not merged, per this lane's established Q47/Q48-style
+precedent.
+
+22/22 authorable items authored (16 Collection Questions + 6 LMS snippets). 4 items HELD as
+image-dependent with no text-safe conversion (Collection Q1 cis/trans-element figure, Q2 wobble-
+hypothesis figure, Q22 DNA-bond-numbering figure, Q24 replication-fork-numbering figure; the LMS
+snippets repeat the same replication-fork figure once more and add one more image-only item, an
+mRNA-stabilisation-diagram question — 3 HELD there). One Collection item (Q25, DNA melting
+temperature) presents its five duplex sequences inside a banner-style graphic but the content is
+purely textual data, GC-counted and converted to a self-contained text item, not held. One
+diagram-based item (Q7, transcription direction) was reworded as self-contained text preserving the
+exact tested fact and key, per author7's established Q61 precedent.
+
+| Concept | ID | Qs | Status |
+|---|---|---:|---|
+| Penetrance vs expressivity | `CON-FND-2501B74124DCD7` | LMS Q8 (p.55) | **new** |
+| Translational repression by a regulatory protein binding mRNA's 5' end | `CON-FND-9CA97373C2F5A4` | Collection Q19 | **new** |
+| Reversible phosphorylation (Kasr, overlaid by author7) | `CON-FND-6A58FA1680290F` | Collection Q3 | reused |
+| Proto-oncogene activation mechanisms (author11) | `CON-FND-76604784CC143B` | Collection Q4 | reused |
+| Structural chromosomal aberrations + Cri-du-chat basis (author4, live) | `CON-DEV-D2BA4082190B3F` / `CON-DEV-28F2712A6DDA3C` | Collection Q5 | reused |
+| Transcription template-strand (Kasr) | `CON-FND-CDAB433363C64E` | Collection Q7 | reused, first ASU overlay this pass |
+| mRNA processing (author5, overlaid) | `CON-FND-5FF8EB2DB4D662` | Collection Q8 | reused |
+| tRNA 3'-CCA (author5, overlaid) | `CON-FND-CA2D65E688434A` | Collection Q9 | reused |
+| Nonsense/missense/silent (overlaid) | `CON-FND-4508AC0EA86F86` | Collection Q10 | reused |
+| Autosomal dominant pattern (author6) | `CON-FND-398856B4B32D8E` | Collection Q13; LMS Q12, Q2 (p.55/56) | reused |
+| X-linked recessive pattern (author6) | `CON-FND-592065F09E7EC8` | Collection Q15 | reused |
+| Codon-table/translation-length lookups (author10) | `CON-FND-4E6727895BF8B5` | Collection Q20 | reused |
+| Chromatin remodeling (live, unrestricted) | `CON-FND-2211CDF4111505` | Collection Q21 | reused |
+| Multifactorial disease (author6) | `CON-FND-D1119AD6424AF0` | Collection Q23; LMS Q10 (p.56) | reused |
+| GC content and DNA melting temperature (author4) | `CON-FND-AF09E96F70832F` | Collection Q25 | reused |
+| Bacterial plasmids (live, unrestricted) | `CON-DEV-FE47A8F9B0768E` | Collection Q26; LMS Q9 (p.55) | reused |
+| Genomic imprinting (author6) | `CON-FND-12961F079B4C89` | Collection Q27; LMS Q5 (p.55) | reused |
+
+2 concepts minted (both "tested-but-untaught" per the earlier rulings' own pattern — penetrance had
+zero hits anywhere in the corpus; the correct-answer mechanism of Collection Q19 had no covering
+concept even though all four of its distractors did, each already live and university-unrestricted).
+0 new articles — both new concepts point at pre-existing homes (`ART-FND-MENDELIAN-INHERITANCE-
+PATTERNS`, already ASU-tagged; `ART-FND-TOP-EB8CCAC9B3`, live and university-unrestricted). 1
+concept (`CON-FND-CDAB433363C64E`) given its first ASU overlay in `pending-live/ASU-MBG-molecular-
+genetics.md`. Full evidence chain for the 2 new concepts (2 claims, 2 citations, no spans).
+
+Files: `concept/ASU-MBG-collection-questions-concepts.md`, `evidence/ASU-MBG-collection-questions-
+{claims,citations}.md`, `question/ASU-MBG-collection-questions-mcq.md`, plus one concept overlay
+append to `pending-live/ASU-MBG-molecular-genetics.md`.
+
+Gates: `medical:batch` on the question file (`--with` the 2 new-concept/evidence files, the pending-
+live overlay file, and every sibling concept/article file needed to resolve 7 reused cross-cluster
+concepts' articles) — 0 errors; explanation-length warning (shortest 242 chars, 0% under 200 chars,
+55% under 3 sentences) noted but not fixed this pass — soft quality metric, not a gate, and every
+correct-answer explanation already clears the 200-char floor. `medical:simulate` (positional, full
+apply order: resource → concepts → articles → pending-live → evidence → questions) 0 errors, 0
+skipped; `delta` on this pass's own new records: 2 concepts + 2 claims + 2 citations + 0 spans + 22
+questions (the resource/article/concept "created" counts in the raw simulate output are inflated by
+every sibling file's own already-existing rows loaded only to resolve reused concepts' articles, not
+new records from this pass). Questions `created: 22, updated: 0, rejected: 0`.
+`medical:audit --source <emitted-state>` — by exact-id filtering, both new concepts appear exactly
+once each, only in the same generic, harmless "relatedArticleIds missing" completeness note already
+present on dozens of prior sessions' concepts; 0 errors mention either new concept's claim, citation,
+or any of the 22 questions. `medical:concept-ids` run clean: "no rival ids" — no canonical-key
+collision anywhere in the repo, including the 2 new keys.
+
+**Traceable share:** 22/22 questions traceable to a `main_concept` covered by an article — 100%.
+
+**Not authored this pass, logged for the record:**
+- 12 duplicate items (see above) — already covered by existing questions elsewhere in this lane,
+  confirmed by stem grep, not re-authored.
+- 6 image-dependent items (2 Collection figures + 1 Collection figure repeated across 2 items in
+  Collection/LMS + 2 more image-only LMS items) — HELD, no text-safe conversion without risking a
+  wrong labelled-number guess.
+- 1 five-item highlighted-answer block on the file's final page (pdftoppm index 57) — already
+  flagged by the original S1 triage as a duplicate of "file 1 p.56" content; left untouched.
+
+**Remaining after this pass:** the module's own real gaps are now down to: Cluster 6 (Gene
+Expression Regulation) — blacked-out/redacted key, genuinely unrecoverable, per chief-of-staff
+ruling this lane does not re-triage it; `MCQs - Formative Gene expression gene therapy.docx` (4
+items, highlight-based key stripped by plain-text extraction, not yet tried as an image render);
+`Bg genetics dr.omar gene regulation.pdf` (categorised as a lecture slide deck, not an assessment,
+never opened); file 8's essay paper page count/remainder (written Q&A format, not MCQ-shaped).
 
 ## Done (author12, branch `asu-mbg-author12`, base `asu-mbg-author11` @ 448915cf)
 

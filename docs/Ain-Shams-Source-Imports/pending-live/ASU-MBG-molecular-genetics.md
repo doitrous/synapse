@@ -1286,3 +1286,32 @@ ASU_Y1=0.3
 university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar pg35/pg39 (printed p.34/p.38), Molecular Biology of Cancer Q4 ("Apoptosis is: a) Essential to normal development" ANSWER: a) and Q35 ("Which of the followings is not an example of apoptosis? ... d) Myocardial infarction" ANSWER: d) — Q4 restates this concept's physiological-causes clause (embryogenesis) directly, and Q35's distractors (finger development, endometrial shedding, breast involution, viral-infected-cell death) are this concept's own named physiological/pathological examples, with myocardial infarction (necrosis) as the one that is NOT apoptosis.
 
 ---
+
+# Item
+
+## id
+CON-FND-CDAB433363C64E
+
+## label
+Only the template strand of DNA is transcribed; RNA is complementary and antiparallel to it, identical to the coding strand except U replaces T, and is built from ATP, GTP, CTP and UTP
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > RNA Structure & Transcription
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar pg52 (printed p.51), Collection Questions Q7: "If the transcription of the following DNA sequence occurs towards the direction of the arrow, the base sequence of mRNA would be: [duplex 5'-ATGCAGT-3' / 3'-TACGTCA-5', arrow pointing left]" ANSWER: a) 5'-ACUGCAU-3' — reading the top strand as template 3'->5' (the direction the printed arrow points) and transcribing it into RNA (U for T) gives exactly this keyed sequence, confirming the top strand is the one read as template here.
+
+---
