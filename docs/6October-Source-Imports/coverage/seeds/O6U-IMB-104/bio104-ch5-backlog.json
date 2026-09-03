@@ -1,0 +1,269 @@
+{
+  "lane": "O6U-IMB",
+  "cluster": "bio104-ch5-unselected",
+  "header": "O6U-IMB-104 · Molecular Biology — Chapter 5 (Regulation of Gene Expression) authoring backlog, closing out the multi-chapter dispatch from Bio questions.pdf (coverage/O6U-IMB-104-triage.md, coverage/O6U-IMB-104-LEDGER.md). This chapter was a scanned/no-text-layer PDF (CamScanner output) -- rendered and read visually at 300dpi per page rather than OCR-only. Keys read from the chapter's own printed \"MCQ Answers\" table (source PDF p24, printed page 95), independently cross-checked against standard molecular biology fact -- no contradictions found. This closes the bio104 (Bio questions.pdf) authoring bank: chapters 1-5 are now fully triaged, with every clean, keyed question either authored or explicitly held.\n\n  Import: Admin › Bulk import → question.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "o6u"
+    ],
+    "years": [
+      "O6U_Y1"
+    ],
+    "module": "O6U-IMB-104",
+    "module_subject": "O6U-IMB-104 > Molecular Biology > Gene expression regulation",
+    "exam_weight_by_year": {
+      "O6U_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_15a36a801ec0b4a6705d"
+    ],
+    "source_citation": "Bio questions.pdf, GeneRegulation {page}",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "bio104-ch5-unselected-q02",
+      "id": "QST-O6UIMB-BIO104-CH5-Q02",
+      "page": "Q2, p23",
+      "title": "Molecules facilitating RNA polymerase II association with core promoters",
+      "question": "Which types of molecules interact with eukaryotic mRNA gene core promoter sites to facilitate the association of RNA polymerase II?",
+      "options": {
+        "A": "Termination factors.",
+        "B": "General, or basal transcription factors (i.e., the GTFs).",
+        "C": "Elongation factors.",
+        "D": "GTPases."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Termination factors act at the end of transcription, not to help RNA polymerase II first bind the promoter.",
+        "B": "Correct. The general (basal) transcription factors are the proteins that assemble at the core promoter and enable RNA polymerase II to bind and initiate transcription there. For RNA polymerase II these include TFIIA, TFIIB, TFIID (containing TBP), TFIIE, TFIIF and TFIIH. They are required at essentially every RNA polymerase II promoter, unlike gene-specific regulatory proteins such as activators.",
+        "C": "Incorrect. Elongation factors act after initiation, helping RNA polymerase move along the gene body, not to help it first bind the promoter.",
+        "D": "Incorrect. GTPases are a broad enzyme class hydrolysing GTP in many different pathways; they are not specifically the molecules that dock RNA polymerase II onto core promoters."
+      },
+      "main_concept": "CON-FND-4C7C816DB6B786",
+      "concept_ids": [
+        "CON-FND-4C7C816DB6B786"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Gene expression regulation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that general (basal) transcription factors enable RNA polymerase II to bind eukaryotic core promoters.",
+      "library_ids": [
+        "ART-O6U-IMB-GENE-EXPRESSION-REGULATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Gene expression regulation",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p24 (2=b)"
+      }
+    },
+    {
+      "key": "bio104-ch5-unselected-q03",
+      "id": "QST-O6UIMB-BIO104-CH5-Q03",
+      "page": "Q3, p23",
+      "title": "Which histone amino acid is typically acetylated",
+      "question": "Which of the following histone amino acids are typically acetylated?",
+      "options": {
+        "A": "Lysine",
+        "B": "Arginine",
+        "C": "Asparagine",
+        "D": "Leucine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Histone acetyltransferases add an acetyl group to the epsilon-amino group of lysine side chains on histone tails. This neutralises the lysine's normal positive charge. Neutralising that charge loosens the electrostatic contacts between the histone and the negatively charged DNA backbone, making the local chromatin more accessible.",
+        "B": "Incorrect. Arginine carries a different, guanidinium side chain and is instead a common site for methylation, not the standard acetylation target.",
+        "C": "Incorrect. Asparagine's amide side chain is not a site of histone acetylation.",
+        "D": "Incorrect. Leucine's hydrophobic side chain has no accessible group for acetylation."
+      },
+      "main_concept": "CON-FND-1B7F451996A11A",
+      "concept_ids": [
+        "CON-FND-1B7F451996A11A"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-497A0E6802AEC9"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Gene expression regulation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that histone acetylation typically occurs on lysine residues.",
+      "library_ids": [
+        "ART-O6U-IMB-GENE-EXPRESSION-REGULATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Gene expression regulation",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p24 (3=a)"
+      }
+    },
+    {
+      "key": "bio104-ch5-unselected-q05",
+      "id": "QST-O6UIMB-BIO104-CH5-Q05",
+      "page": "Q5, p23",
+      "title": "What eukaryotic mRNA feature contributes to message half-life",
+      "question": "Which of the following features of eukaryotic mRNA contribute importantly to message half-life?",
+      "options": {
+        "A": "5' UTR sequences",
+        "B": "The promoter",
+        "C": "The operator",
+        "D": "The poly (A) tail"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The 5' UTR carries regulatory sequence for translation efficiency, but it is not the feature primarily responsible for protecting the transcript from degradation.",
+        "B": "Incorrect. The promoter is a DNA element that directs where transcription starts; it is not part of the mature mRNA and has no direct effect on that transcript's stability.",
+        "C": "Incorrect. The operator is a bacterial DNA regulatory element controlling transcription; it is not a feature of eukaryotic mRNA molecules at all.",
+        "D": "Correct. The 3' poly(A) tail, added during mRNA processing, protects the transcript from 3'-to-5' exonuclease degradation (working together with the 5' cap, which protects the other end). This protection is a major reason mature, processed mRNAs are far more stable -- have a longer half-life -- than an unprotected transcript would be."
+      },
+      "main_concept": "CON-FND-AAD9C95825235F",
+      "concept_ids": [
+        "CON-FND-AAD9C95825235F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Gene expression regulation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the poly(A) tail is a eukaryotic mRNA feature that contributes importantly to message half-life.",
+      "library_ids": [
+        "ART-O6U-IMB-GENE-EXPRESSION-REGULATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Gene expression regulation",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p24 (5=d)"
+      }
+    },
+    {
+      "key": "bio104-ch5-unselected-q06",
+      "id": "QST-O6UIMB-BIO104-CH5-Q06",
+      "page": "Q6, p24",
+      "title": "The incorrect statement about DNA methylation regulation",
+      "question": "Concerning epigenetic regulation of eukaryotic gene expression via DNA methylation, One of the following statements is Incorrect:",
+      "options": {
+        "A": "Methylation of cytosine to form 5'methylcytosine by a DNA methyltransferase.",
+        "B": "The target cytosine is usually located next to a guanine residue, forming a CpG island, which is often near or in the promoter region of a gene.",
+        "C": "It is associated with inducing the activities of certain genes.",
+        "D": "It is a mechanism for regulating gene expression during cell differentiation, particularly in fetal development."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (i.e. this statement IS correct). DNA methyltransferases do methylate cytosine to form 5-methylcytosine.",
+        "B": "Incorrect (i.e. this statement IS correct). Methylated cytosines are typically found next to guanine, at CpG sites often clustered as CpG islands near gene promoters.",
+        "C": "Correct (this is the incorrect statement). Promoter-region DNA methylation is characteristically associated with silencing/repressing a gene's activity, not inducing it. Methylated CpG islands recruit proteins and chromatin states that shut transcription down. That is the opposite direction from what this statement claims, which is why it is the one that is incorrect.",
+        "D": "Incorrect (i.e. this statement IS correct). DNA methylation patterns are indeed established and changed during cell differentiation, including fetal development, as part of normal epigenetic regulation."
+      },
+      "main_concept": "CON-FND-4F38289905ACE3",
+      "concept_ids": [
+        "CON-FND-4F38289905ACE3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Gene expression regulation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that DNA methylation at gene promoters is associated with repressing, not inducing, that gene's activity.",
+      "library_ids": [
+        "ART-O6U-IMB-GENE-EXPRESSION-REGULATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Gene expression regulation",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p24 (6=c)"
+      }
+    },
+    {
+      "key": "bio104-ch5-unselected-q07",
+      "id": "QST-O6UIMB-BIO104-CH5-Q07",
+      "page": "Q7, p24",
+      "title": "The incorrect statement about chromatin remodeling",
+      "question": "Concerning chromatin remodeling One of the following statements is Incorrect:",
+      "options": {
+        "A": "Is the changes in the state of the chromatin, to make the desired region accessible to RNAP and other proteins (eg, transcriptional factors).",
+        "B": "Histone acetylation is one of the mechanisms of chromatin remodeling.",
+        "C": "Histone acetylation removes a negative charge from the ε-amino group of the lysine, thereby reducing the electrostatic interactions between the histones and the negatively charged DNA.",
+        "D": "The acetyl groups can be removed by histone deacetylases (HDACs) to form inactive chromatin."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (i.e. this statement IS correct). Chromatin remodeling is indeed the process of changing chromatin state to make a region accessible to RNA polymerase and other proteins.",
+        "B": "Incorrect (i.e. this statement IS correct). Histone acetylation is one of the well-established mechanisms of chromatin remodeling.",
+        "C": "Correct (this is the incorrect statement). A lysine side chain's epsilon-amino group is positively charged, not negatively charged, under physiological conditions, and it is this positive charge that normally strengthens histone-DNA electrostatic attraction. Acetylation removes that positive charge (converting the amino group to an uncharged amide), loosening histone-DNA contacts -- so the statement's claim that acetylation removes a \"negative\" charge from the lysine reverses the actual charge involved.",
+        "D": "Incorrect (i.e. this statement IS correct). Histone deacetylases (HDACs) do remove acetyl groups, restoring the positive charge and favouring more condensed, inactive chromatin."
+      },
+      "main_concept": "CON-FND-497A0E6802AEC9",
+      "concept_ids": [
+        "CON-FND-497A0E6802AEC9"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-1B7F451996A11A"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Gene expression regulation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that histone acetylation works by removing the positive (not negative) charge on lysine's epsilon-amino group.",
+      "library_ids": [
+        "ART-O6U-IMB-GENE-EXPRESSION-REGULATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Gene expression regulation",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p24 (7=c)"
+      }
+    },
+    {
+      "key": "bio104-ch5-unselected-q08",
+      "id": "QST-O6UIMB-BIO104-CH5-Q08",
+      "page": "Q8, p24",
+      "title": "The correct statement about enhancers",
+      "question": "Enhancers:",
+      "options": {
+        "A": "Are trans-acting sequences.",
+        "B": "They act by binding certain proteins that inhibit the binding of transcription factors to the promoter.",
+        "C": "They can be close to or thousands of base pairs away from the promoter (upstream or downstream) and they can occur on either strand of DNA.",
+        "D": "Are sites of DNA acetylation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Enhancers are cis-acting DNA sequences (they act on the same DNA molecule they sit on), bound by trans-acting proteins -- the sequence itself is not \"trans-acting\".",
+        "B": "Incorrect. Enhancers act by binding activator proteins that help recruit or stabilise the transcription machinery at the promoter, not by inhibiting transcription-factor binding.",
+        "C": "Correct. Enhancers can sit close to or many thousands of base pairs from the promoter they regulate, upstream or downstream. They can also function on either DNA strand. Both properties are explained by DNA looping, which lets an enhancer contact the promoter-bound transcription machinery regardless of the distance or orientation involved.",
+        "D": "Incorrect. DNA itself is not the substrate of the acetylation discussed in this chapter -- histone protein tails are acetylated, not the DNA sequence, and enhancers are not defined as acetylation sites."
+      },
+      "main_concept": "CON-FND-757F07A47E1203",
+      "concept_ids": [
+        "CON-FND-757F07A47E1203"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Gene expression regulation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that enhancers can act at variable distance (upstream or downstream) and on either DNA strand relative to the promoter.",
+      "library_ids": [
+        "ART-O6U-IMB-GENE-EXPRESSION-REGULATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Gene expression regulation",
+      "field_notes": {
+        "keySource": "printed \"MCQ Answers\" table, p24 (8=c)"
+      }
+    }
+  ]
+}

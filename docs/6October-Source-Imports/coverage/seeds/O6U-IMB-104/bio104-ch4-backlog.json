@@ -1,0 +1,920 @@
+{
+  "lane": "O6U-IMB",
+  "cluster": "bio104-ch4-unselected",
+  "header": "O6U-IMB-104 · Molecular Biology — Chapter 4 (Translation / Protein synthesis) authoring backlog, continuing the multi-chapter dispatch from Bio questions.pdf (coverage/O6U-IMB-104-triage.md, coverage/O6U-IMB-104-LEDGER.md). This chapter was a scanned/no-text-layer PDF (CamScanner output) -- rendered and read visually at 300dpi per page rather than OCR-only. Keys read from the chapter's own printed \"MCQ answers\" table (source PDF p21, printed page 92), independently cross-checked against standard molecular biology fact. Q26's printed key (b: \"identity of one amino acid would change\") does not resolve cleanly against the given CAUUUG->CACUUG hexanucleotide read as two codons from its first base (that reading gives His->His and Leu->Leu, both synonymous) -- the source does not state the reading frame/gene context needed to settle this, so the printed key is used as the graded answer per standing rule and the explanation is worded to avoid asserting the specific codon math as settled fact; flagged in this item's field_notes rather than altering the data.\n\n  Import: Admin › Bulk import → question.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "o6u"
+    ],
+    "years": [
+      "O6U_Y1"
+    ],
+    "module": "O6U-IMB-104",
+    "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+    "exam_weight_by_year": {
+      "O6U_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_15a36a801ec0b4a6705d"
+    ],
+    "source_citation": "Bio questions.pdf, Translation {page}",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "bio104-ch4-unselected-q02",
+      "id": "QST-O6UIMB-BIO104-CH4-Q02",
+      "page": "Q2, p17",
+      "title": "The statement that is NOT a characteristic of the genetic code",
+      "question": "Which of the following statements is NOT a characteristic of the genetic code?",
+      "options": {
+        "A": "Each codon consists of three bases.",
+        "B": "A single amino acid can have more than one codon.",
+        "C": "The genetic code is mainly universal.",
+        "D": "A single codon can code for more than one amino acid."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this IS a true characteristic). A codon is, by definition, a triplet of three mRNA bases.",
+        "B": "Incorrect (i.e. this IS a true characteristic). This is the code's degeneracy: several codons can specify the same amino acid.",
+        "C": "Incorrect (i.e. this IS a true characteristic). With rare exceptions (such as some mitochondrial codes), the genetic code is essentially universal across organisms.",
+        "D": "Correct. The genetic code is specific: each individual codon designates exactly one amino acid (or a stop signal), never more than one. Confusing this with degeneracy -- where one amino acid can be encoded by several different codons -- reverses the direction of the relationship. So a single codon coding for more than one amino acid is not a real feature of the code, making it the false statement asked for here."
+      },
+      "main_concept": "CON-FND-A7582094749D24",
+      "concept_ids": [
+        "CON-FND-A7582094749D24"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-082748C1B6DCDE"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that each codon specifies exactly one amino acid, distinguishing code specificity from degeneracy.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (2=d)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q05",
+      "id": "QST-O6UIMB-BIO104-CH4-Q05",
+      "page": "Q5, p17",
+      "title": "The first codon to be translated on mRNA",
+      "question": "The first codon to be translated on mRNA is:",
+      "options": {
+        "A": "AUG",
+        "B": "GGU",
+        "C": "GGA",
+        "D": "AAA"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. AUG is the start codon: ribosomes assemble at an AUG codon (in the correct initiation context) and begin translation there, reading in that frame until a stop codon is reached. It is also the codon for methionine, so translation always begins with methionine (formylmethionine in prokaryotes) as the first residue.",
+        "B": "Incorrect. GGU codes for glycine and has no role as a translation start signal.",
+        "C": "Incorrect. GGA also codes for glycine and is not recognised as an initiation codon.",
+        "D": "Incorrect. AAA codes for lysine; it is not the codon ribosomes use to begin translation."
+      },
+      "main_concept": "CON-FND-E8E7F8C31A3828",
+      "concept_ids": [
+        "CON-FND-E8E7F8C31A3828"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that AUG is the first codon translated on mRNA, initiating protein synthesis.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (5=a)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q06",
+      "id": "QST-O6UIMB-BIO104-CH4-Q06",
+      "page": "Q6, p17",
+      "title": "Where codons are present",
+      "question": "Codons are present in:",
+      "options": {
+        "A": "Template strand of DNA",
+        "B": "mRNA",
+        "C": "tRNA",
+        "D": "rRNA"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The DNA template strand carries the complementary sequence transcribed into mRNA, but its triplets are not themselves termed codons.",
+        "B": "Correct. A codon is, by definition, a three-base unit of messenger RNA sequence. It is read by the ribosome during translation to specify one amino acid, or a stop signal. This is the sequence class the whole translation machinery -- tRNA anticodons, release factors -- is built to decode.",
+        "C": "Incorrect. tRNA carries the complementary three-base anticodon, which pairs with an mRNA codon; the anticodon is not itself called a codon.",
+        "D": "Incorrect. rRNA is a structural and catalytic component of the ribosome (including the peptidyl transferase activity); it is not the molecule whose triplets are read as codons."
+      },
+      "main_concept": "CON-FND-00A2587597FE49",
+      "concept_ids": [
+        "CON-FND-00A2587597FE49"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that codons are the three-base units read on mRNA, not on the DNA template strand, tRNA or rRNA.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (6=b)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q08",
+      "id": "QST-O6UIMB-BIO104-CH4-Q08",
+      "page": "Q8, p18",
+      "title": "The first aminoacyl-tRNA initiating translation in eukaryotes",
+      "question": "The first amino acyl transfer RNA which initiates translation in eukaryotes is:",
+      "options": {
+        "A": "Methionyl tRNA",
+        "B": "Formylmethionyl tRNA",
+        "C": "Tyrosinyl tRNA",
+        "D": "Alanyl tRNA"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In the eukaryotic cytosol, translation begins with a special initiator methionyl-tRNA (Met-tRNAi) that delivers unformylated methionine to the ribosomal P site at the AUG start codon. This initiator is distinct from the elongator methionyl-tRNAs used later to insert internal methionine residues. It contrasts with bacterial initiation, which instead uses a formylated methionine.",
+        "B": "Incorrect. Formylmethionyl-tRNA is the bacterial (prokaryotic) initiator, not the eukaryotic one; eukaryotic cytosolic translation uses plain, unformylated methionine to initiate.",
+        "C": "Incorrect. Tyrosinyl-tRNA carries tyrosine for elongation; it plays no role in initiation.",
+        "D": "Incorrect. Alanyl-tRNA carries alanine for elongation; it is not the initiator tRNA."
+      },
+      "main_concept": "CON-FND-A38D5C75C62EF6",
+      "concept_ids": [
+        "CON-FND-A38D5C75C62EF6"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-3CCAD8DAC3D10F"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the eukaryotic initiator aminoacyl-tRNA is methionyl-tRNA, carrying unformylated methionine.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (8=a)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q09",
+      "id": "QST-O6UIMB-BIO104-CH4-Q09",
+      "page": "Q9, p18",
+      "title": "What post-translation processing includes",
+      "question": "Post-translation processing includes:",
+      "options": {
+        "A": "5' capping.",
+        "B": "3' polyadenylation.",
+        "C": "Splicing.",
+        "D": "Trimming."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. 5' capping is added to the primary transcript co-transcriptionally, an mRNA-processing event, not a post-translational (protein-level) one.",
+        "B": "Incorrect. Polyadenylation adds the poly(A) tail to the 3' end of the transcript, again an mRNA-processing step rather than a modification of the finished protein.",
+        "C": "Incorrect. Splicing removes introns from the pre-mRNA before translation; it acts on the transcript, not on the translated protein.",
+        "D": "Correct. Proteolytic trimming -- cleavage of a precursor polypeptide into its mature, active form (as with proinsulin becoming insulin) -- genuinely acts on the protein product after translation. Capping, polyadenylation and splicing, by contrast, are all mRNA-level processing events that occur before or during transcription/translation, not modifications of the finished protein itself. This makes trimming the one option that is truly \"post-translational\"."
+      },
+      "main_concept": "CON-FND-D541D9C3D38A02",
+      "concept_ids": [
+        "CON-FND-D541D9C3D38A02"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Distinguish true post-translational (protein-level) processing, such as trimming, from mRNA-level processing events like capping, splicing and polyadenylation.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (9=d)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q11",
+      "id": "QST-O6UIMB-BIO104-CH4-Q11",
+      "page": "Q11, p18",
+      "title": "The first aminoacyl-tRNA initiating translation in prokaryotes",
+      "question": "The first amino acyl transfer RNA which initiates translation in prokaryotes is:",
+      "options": {
+        "A": "Methionyl tRNA",
+        "B": "Formylmethionyl tRNA",
+        "C": "Tyrosinyl tRNA",
+        "D": "Alanyl tRNA"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Plain, unformylated methionyl-tRNA is the eukaryotic cytosolic initiator, not the bacterial one.",
+        "B": "Correct. In bacteria, translation begins with a special initiator tRNA charged with N-formylmethionine (fMet-tRNAf), delivered to the ribosomal P site at the start codon. This formylated initiator is a hallmark distinguishing bacterial (and mitochondrial/chloroplast) translation initiation from the eukaryotic cytosolic pathway.",
+        "C": "Incorrect. Tyrosinyl-tRNA carries tyrosine for elongation; it plays no role in initiation.",
+        "D": "Incorrect. Alanyl-tRNA carries alanine for elongation; it is not the initiator tRNA."
+      },
+      "main_concept": "CON-FND-3CCAD8DAC3D10F",
+      "concept_ids": [
+        "CON-FND-3CCAD8DAC3D10F"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-A38D5C75C62EF6"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the prokaryotic initiator aminoacyl-tRNA is formylmethionyl-tRNA (fMet-tRNA), unlike the eukaryotic methionyl-tRNA.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (11=b)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q13",
+      "id": "QST-O6UIMB-BIO104-CH4-Q13",
+      "page": "Q13, p18",
+      "title": "What protein synthesis does not require (Okazaki fragments)",
+      "question": "The synthesis of a certain protein DOES NOT require one of the following:",
+      "options": {
+        "A": "A ribosome.",
+        "B": "mRNA.",
+        "C": "Amino acids.",
+        "D": "Okazaki fragments."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. protein synthesis DOES require this). The ribosome is the machine that carries out translation.",
+        "B": "Incorrect (i.e. protein synthesis DOES require this). mRNA supplies the codon sequence being translated.",
+        "C": "Incorrect (i.e. protein synthesis DOES require this). Amino acids, delivered by charged tRNAs, are the building blocks assembled into the polypeptide.",
+        "D": "Correct. Okazaki fragments are the short, discontinuously synthesised segments of the lagging strand produced during DNA replication -- an entirely separate process from translation. Protein synthesis needs ribosomes, mRNA, amino acids and charged tRNAs, but has no use for Okazaki fragments at all, which makes this the one requirement that does not belong."
+      },
+      "main_concept": "CON-FND-D48A00C5AA5EF7",
+      "concept_ids": [
+        "CON-FND-D48A00C5AA5EF7"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that Okazaki fragments are a DNA replication feature, not a requirement for protein synthesis.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (13=d)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q14",
+      "id": "QST-O6UIMB-BIO104-CH4-Q14",
+      "page": "Q14, p18",
+      "title": "Result of inserting or deleting one or two bases",
+      "question": "Insertion or deletion of one or two bases in a gene results in:",
+      "options": {
+        "A": "Missense mutation.",
+        "B": "Silent mutation.",
+        "C": "Frame shift mutation.",
+        "D": "Nonsense mutation."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A missense mutation is a base substitution that changes one codon to specify a different amino acid; it does not shift the reading frame the way an indel does.",
+        "B": "Incorrect. A silent mutation is a substitution that leaves the amino acid sequence unchanged; it is not what an indel of this size produces.",
+        "C": "Correct. Because the ribosome reads mRNA in non-overlapping triplets, inserting or deleting a number of bases that is not a multiple of three -- such as one or two bases -- shifts every downstream codon boundary. This scrambles the entire reading frame from that point onward, usually producing a garbled or prematurely truncated protein, which is exactly what defines a frameshift mutation.",
+        "D": "Incorrect. A nonsense mutation is a substitution that changes a codon into a premature stop codon; it is a distinct category from a frame-shifting indel, although a frameshift can secondarily create a premature stop somewhere downstream."
+      },
+      "main_concept": "CON-FND-747E5D8535C360",
+      "concept_ids": [
+        "CON-FND-747E5D8535C360"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that insertion or deletion of one or two bases in a gene causes a frameshift mutation.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (14=c)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q15",
+      "id": "QST-O6UIMB-BIO104-CH4-Q15",
+      "page": "Q15, p18",
+      "title": "What nonsense codons lead to",
+      "question": "Nonsense codons lead to:",
+      "options": {
+        "A": "Amino acid activation",
+        "B": "Initiation of protein synthesis",
+        "C": "Termination of protein synthesis",
+        "D": "Elongation of polypeptide chains"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Amino acid activation is the aminoacyl-tRNA synthetase reaction that charges a tRNA with its matching amino acid; it has nothing to do with nonsense codons.",
+        "B": "Incorrect. Initiation is triggered at the AUG start codon by initiator tRNA and initiation factors, not by a nonsense codon.",
+        "C": "Correct. Nonsense codons (UAA, UAG, UGA) have no corresponding aminoacyl-tRNA. Instead, they are recognised by release factors, which trigger hydrolysis of the completed polypeptide from the final tRNA and its release from the ribosome, ending translation.",
+        "D": "Incorrect. Elongation is driven by successive sense codons paired with matching aminoacyl-tRNAs; a nonsense codon stops elongation rather than extending it."
+      },
+      "main_concept": "CON-FND-CB3E48BD91D06F",
+      "concept_ids": [
+        "CON-FND-CB3E48BD91D06F"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-5EC6C0704F376B"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that nonsense (stop) codons signal termination of protein synthesis.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (15=c)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q16",
+      "id": "QST-O6UIMB-BIO104-CH4-Q16",
+      "page": "Q16, p19",
+      "title": "The genetic code is NOT characterized by",
+      "question": "The genetic code is NOT characterized by being ONE of the following:",
+      "options": {
+        "A": "Specific",
+        "B": "Degenerate",
+        "C": "Universal.",
+        "D": "Discontinuous"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this IS a true characteristic). The code is specific: each codon designates exactly one amino acid.",
+        "B": "Incorrect (i.e. this IS a true characteristic). The code is degenerate: most amino acids are specified by more than one codon.",
+        "C": "Incorrect (i.e. this IS a true characteristic). With rare exceptions, the code is universal across organisms.",
+        "D": "Correct. The genetic code is read continuously and non-overlappingly, three bases at a time from a fixed reading frame -- it is not discontinuous. \"Discontinuous\" is not one of the code's standard descriptive properties, which makes it the one option that does not belong among specific, degenerate and universal."
+      },
+      "main_concept": "CON-FND-E730AD91309E8B",
+      "concept_ids": [
+        "CON-FND-E730AD91309E8B"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-082748C1B6DCDE"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the genetic code is specific, degenerate and universal, but not discontinuous.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (16=d)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q17",
+      "id": "QST-O6UIMB-BIO104-CH4-Q17",
+      "page": "Q17, p19",
+      "title": "Where peptidyl transferase activity is present",
+      "question": "Peptidyl transferase activity is present in:",
+      "options": {
+        "A": "40 S ribosomal subunit",
+        "B": "60 S ribosomal subunit",
+        "C": "eEF-2",
+        "D": "Amino acyl tRNA"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The 40S small subunit reads mRNA codons via its associated initiation and decoding apparatus but does not carry the peptidyl transferase activity.",
+        "B": "Correct. Peptidyl transferase, the activity that catalyses formation of the peptide bond between the growing chain and the incoming amino acid, is carried by ribosomal RNA within the large (60S in eukaryotes) ribosomal subunit. It is a ribozyme activity -- catalysed by RNA, not by a separate protein enzyme.",
+        "C": "Incorrect. eEF-2 (eukaryotic elongation factor 2) drives the GTP-dependent translocation step that moves the ribosome along the mRNA; it does not catalyse peptide-bond formation.",
+        "D": "Incorrect. Aminoacyl-tRNA is the substrate delivered to the ribosome for peptide-bond formation, not the catalyst that forms the bond."
+      },
+      "main_concept": "CON-FND-B6DC9C615F9D25",
+      "concept_ids": [
+        "CON-FND-B6DC9C615F9D25"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that peptidyl transferase activity is a ribozyme function of the large (60S) ribosomal subunit.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (17=b)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q18",
+      "id": "QST-O6UIMB-BIO104-CH4-Q18",
+      "page": "Q18, p19",
+      "title": "What does NOT lead to mutation",
+      "question": "All of the following may lead to mutation except:",
+      "options": {
+        "A": "Replication error.",
+        "B": "Chemical mutagens.",
+        "C": "Phosphorylation.",
+        "D": "Irradiation."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (i.e. this DOES cause mutation). Errors made by DNA polymerase during replication that escape proofreading and repair become fixed mutations.",
+        "B": "Incorrect (i.e. this DOES cause mutation). Chemical mutagens react with or mimic DNA bases, causing miscoding or damage that leads to mutation.",
+        "C": "Correct. Phosphorylation is a reversible post-translational modification of proteins -- it changes a protein's activity or localisation, not the DNA sequence, so it is not a mutagenic mechanism. Replication errors, chemical mutagens and irradiation all directly damage or miscopy DNA, which is what causes mutation; phosphorylation acts on the finished protein product instead.",
+        "D": "Incorrect (i.e. this DOES cause mutation). Ionising and UV irradiation directly damage DNA (strand breaks, pyrimidine dimers), producing mutations if unrepaired."
+      },
+      "main_concept": "CON-FND-996757EA771352",
+      "concept_ids": [
+        "CON-FND-996757EA771352"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that phosphorylation, unlike replication error, chemical mutagens or irradiation, does not cause mutation.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (18=c)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q19",
+      "id": "QST-O6UIMB-BIO104-CH4-Q19",
+      "page": "Q19, p19",
+      "title": "Which change is a transition point mutation",
+      "question": "One of the following is a transition point mutation:",
+      "options": {
+        "A": "Adenine is replaced by cytosine.",
+        "B": "Uracil is replaced by adenine.",
+        "C": "Guanine is replaced by adenine.",
+        "D": "Guanine is replaced by uracil."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Adenine (a purine) replaced by cytosine (a pyrimidine) crosses ring classes, making this a transversion, not a transition.",
+        "B": "Incorrect. Uracil (a pyrimidine) replaced by adenine (a purine) also crosses ring classes, so this is a transversion.",
+        "C": "Correct. A transition substitutes one purine for the other purine (adenine <-> guanine) or one pyrimidine for the other pyrimidine, keeping the same ring-structure class. Guanine (a purine) replaced by adenine (also a purine) preserves that class, which is exactly what defines a transition.",
+        "D": "Incorrect. Guanine (a purine) replaced by uracil (a pyrimidine) crosses ring classes, making this a transversion."
+      },
+      "main_concept": "CON-FND-F1BC1F83721F65",
+      "concept_ids": [
+        "CON-FND-F1BC1F83721F65"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-063C72A224627A"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that a transition substitutes a purine for a purine or a pyrimidine for a pyrimidine.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (19=c)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q20",
+      "id": "QST-O6UIMB-BIO104-CH4-Q20",
+      "page": "Q20, p19",
+      "title": "Where phosphorylation of proteins occurs",
+      "question": "Phosphorylation of proteins occurs at:",
+      "options": {
+        "A": "Cysteine residues.",
+        "B": "Serine residues.",
+        "C": "Histidine residues.",
+        "D": "Alanine residues."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cysteine's thiol side chain is not the standard acceptor for protein kinase phosphorylation.",
+        "B": "Correct. Reversible protein phosphorylation, a common regulatory post-translational modification, is added by protein kinases to the hydroxyl-bearing side chain of serine. Threonine and tyrosine are also phosphorylated by this mechanism, but neither is offered as an option here. Phosphorylation of these residues is a major way cells switch protein activity on or off.",
+        "C": "Incorrect. Histidine can be phosphorylated in some bacterial two-component signalling systems, but it is not the residue meant among these standard options.",
+        "D": "Incorrect. Alanine's side chain has no hydroxyl or other group that phosphate can attach to."
+      },
+      "main_concept": "CON-FND-F38EE6ACB9F6EA",
+      "concept_ids": [
+        "CON-FND-F38EE6ACB9F6EA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that phosphorylation of proteins occurs at serine residues, among the standard options.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (20=b)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q21",
+      "id": "QST-O6UIMB-BIO104-CH4-Q21",
+      "page": "Q21, p19",
+      "title": "Thymine replaced by adenine in DNA is known as",
+      "question": "Substitution of a thymine base by adenine in DNA is known as:",
+      "options": {
+        "A": "Transposition",
+        "B": "Transversion",
+        "C": "Transition",
+        "D": "Frame shift mutation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Transposition is the movement of a mobile genetic element (a transposon) to a new genomic location, not a single-base substitution.",
+        "B": "Correct. A transversion swaps a base of one ring class for a base of the other -- a pyrimidine for a purine, or vice versa. Thymine (a pyrimidine) replaced by adenine (a purine) crosses ring classes, which is exactly what defines a transversion.",
+        "C": "Incorrect. A transition preserves ring class (purine-for-purine or pyrimidine-for-pyrimidine); thymine to adenine crosses classes, so it is a transversion, not a transition.",
+        "D": "Incorrect. A frame shift mutation results from insertion or deletion of bases, not from a single-base substitution like this one."
+      },
+      "main_concept": "CON-FND-063C72A224627A",
+      "concept_ids": [
+        "CON-FND-063C72A224627A"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-F1BC1F83721F65"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that substituting a thymine with an adenine in DNA is a transversion, since it swaps a pyrimidine for a purine.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (21=b)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q22",
+      "id": "QST-O6UIMB-BIO104-CH4-Q22",
+      "page": "Q22, p19",
+      "title": "Which mRNA coding-region change gives an identical protein",
+      "question": "Which one of the following changes in the coding region of an mRNA (caused by point mutation) would result in translation of a protein identical to the normal protein?",
+      "options": {
+        "A": "UCA: UAA",
+        "B": "UCA: CCA",
+        "C": "UCA: UCU",
+        "D": "UCA: ACA"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. UCA (serine) changing to UAA introduces a premature stop codon -- a nonsense change that truncates the protein, not one that leaves it identical.",
+        "B": "Incorrect. UCA (serine) changing to CCA (proline) swaps in a different amino acid -- a missense change that alters the protein.",
+        "C": "Correct. This is an application of the code's degeneracy: a base substitution that keeps the resulting codon synonymous with the original leaves the protein's amino acid sequence unchanged, which is the hallmark of a silent mutation. Source note: this item's own printed answer key marks option C (UCA to UCU) as the silent change; UCA and UCU are both serine codons, illustrating third-position (wobble) degeneracy.",
+        "D": "Incorrect. UCA (serine) changing to ACA (threonine) swaps in a different amino acid -- a missense change that alters the protein."
+      },
+      "main_concept": "CON-FND-740DFBCB79F5FD",
+      "concept_ids": [
+        "CON-FND-740DFBCB79F5FD"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-A06BB39C38F4C2",
+        "CON-FND-A2364FA63DC7AD"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Apply the concept of a silent mutation to identify which codon change leaves the encoded amino acid unchanged.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (22=c)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q23",
+      "id": "QST-O6UIMB-BIO104-CH4-Q23",
+      "page": "Q23, p20",
+      "title": "What is NOT a requirement for protein synthesis",
+      "question": "Which of the following is not a requirement for protein synthesis?",
+      "options": {
+        "A": "Ribosomes",
+        "B": "Peptidyl transferase",
+        "C": "Spliceosome",
+        "D": "Amino acyl-tRNA synthetase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (i.e. this IS a requirement). Ribosomes are the machines on which translation occurs.",
+        "B": "Incorrect (i.e. this IS a requirement). Peptidyl transferase catalyses peptide-bond formation between successive amino acids.",
+        "C": "Correct. The spliceosome acts earlier, in the nucleus, to remove introns from pre-mRNA -- a step in mRNA maturation, not a component of the translational apparatus itself. Protein synthesis needs ribosomes, peptidyl transferase activity, and aminoacyl-tRNA synthetases to charge tRNAs, but has no direct use for the spliceosome.",
+        "D": "Incorrect (i.e. this IS a requirement). Aminoacyl-tRNA synthetases charge each tRNA with its matching amino acid before delivery to the ribosome."
+      },
+      "main_concept": "CON-FND-E68C8CAA009C9F",
+      "concept_ids": [
+        "CON-FND-E68C8CAA009C9F"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-D48A00C5AA5EF7"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that the spliceosome, unlike ribosomes, peptidyl transferase or aminoacyl-tRNA synthetase, is not required for protein synthesis.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (23=c)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q24",
+      "id": "QST-O6UIMB-BIO104-CH4-Q24",
+      "page": "Q24, p20",
+      "title": "The correct statement about translation machinery",
+      "question": "Which of the following statement is correct?",
+      "options": {
+        "A": "Termination codon has no corresponding tRNA.",
+        "B": "Activated amino acid binds to the 5' end of the respective tRNA.",
+        "C": "CTP is required for amino acid activation.",
+        "D": "There is only one amino acyl-tRNA synthetase in a cell."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Unlike sense codons, which are each recognised by a matching aminoacyl-tRNA via anticodon pairing, the three termination codons (UAA, UAG, UGA) are recognised instead by protein release factors. No tRNA binds a stop codon at all. This is what lets the release factor trigger hydrolysis of the finished polypeptide from the ribosome rather than have elongation simply continue.",
+        "B": "Incorrect. The activated amino acid is attached to the tRNA's 3' end (the terminal adenosine of the CCA sequence), not its 5' end.",
+        "C": "Incorrect. Amino acid activation (charging a tRNA with its amino acid) is an ATP-dependent reaction carried out by aminoacyl-tRNA synthetases; it does not require CTP.",
+        "D": "Incorrect. A cell has a distinct aminoacyl-tRNA synthetase for essentially every amino acid (around 20 families), not just one for the whole cell."
+      },
+      "main_concept": "CON-FND-5EC6C0704F376B",
+      "concept_ids": [
+        "CON-FND-5EC6C0704F376B"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-CB3E48BD91D06F"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that a termination codon has no corresponding tRNA and is instead recognised by a release factor.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (24=a)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q26",
+      "id": "QST-O6UIMB-BIO104-CH4-Q26",
+      "page": "Q26, p20",
+      "title": "Effect of a CAUUUG to CACUUG base change",
+      "question": "Which of the following changes would be expected if a CAUUUG sequence of bases mutated to CACUUG?",
+      "options": {
+        "A": "The amino acid sequence would be shorter than expected.",
+        "B": "The identity of one amino acid would change.",
+        "C": "The identity of more than one amino acid would change.",
+        "D": "The amino acid sequence would remain unchanged."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The change is a single-base substitution (position 3, U to C), not an insertion, deletion, or a change into a premature stop codon, so there is no reason for the protein to come out shorter.",
+        "B": "Correct. This item's printed key marks a single-base substitution here as producing a change in one amino acid's identity. A substitution can affect only the one codon that base belongs to, so at most one amino acid can change. This is consistent with the general rule that a point substitution cannot alter more than one codon at a time, ruling out the \"more than one\" option outright.",
+        "C": "Incorrect. Only one base was changed, and one base can belong to only one codon, so more than one amino acid changing is not possible from this single substitution.",
+        "D": "Incorrect per this item's key. A substitution leaves the sequence completely unchanged only when the affected codon happens to be synonymous with the original at that position; the printed key for this item indicates that is not the case here."
+      },
+      "main_concept": "CON-FND-A2364FA63DC7AD",
+      "concept_ids": [
+        "CON-FND-A2364FA63DC7AD"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-A06BB39C38F4C2"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Apply the rule that a single-base substitution can change the identity of at most one amino acid.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (26=b)",
+        "crossCheck": "Reading the given hexanucleotide as two codons starting at its first base (CAU|UUG -> CAC|UUG) gives His->His and Leu->Leu, both synonymous, which would suggest \"unchanged\" (d) rather than \"one amino acid changes\" (b); the source does not state the reading frame or gene context needed to resolve this. The printed key (b) is used as the graded answer per standing rule; explanation is worded to avoid asserting the specific codon math as settled fact."
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q27",
+      "id": "QST-O6UIMB-BIO104-CH4-Q27",
+      "page": "Q27, p20",
+      "title": "Where degenerate codons differ mostly",
+      "question": "Degenerated codon differs mostly in:",
+      "options": {
+        "A": "The identities of their second base.",
+        "B": "The identities of their third base.",
+        "C": "The wobble position.",
+        "D": "Both (b) and (c)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. The second codon base is highly consequential for amino acid identity and is not where degenerate codons typically differ.",
+        "B": "Incorrect alone (though true) -- see D. Synonymous codons for the same amino acid typically differ at their third base.",
+        "C": "Incorrect alone (though true) -- see D. The third codon position is also called the wobble position, because tRNA anticodon pairing there is relaxed.",
+        "D": "Correct. The third base of a codon and the wobble position are the same thing described two ways: synonymous codons typically share their first two bases and differ only at this third, wobble position, where relaxed anticodon pairing lets one tRNA read more than one codon. So options B and C are two names for the same fact, making \"both\" the complete answer."
+      },
+      "main_concept": "CON-FND-A06BB39C38F4C2",
+      "concept_ids": [
+        "CON-FND-A06BB39C38F4C2"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-082748C1B6DCDE"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "State that degenerate codons differ mostly at their third base, the wobble position.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (27=d)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q28",
+      "id": "QST-O6UIMB-BIO104-CH4-Q28",
+      "page": "Q28, p20",
+      "title": "When the growing polypeptide is released from the ribosome",
+      "question": "The growing polypeptide chain is released from the ribosomes when:",
+      "options": {
+        "A": "A chain terminating codon is reached.",
+        "B": "A chain terminating tRNA binds to the ribosome.",
+        "C": "The 7-methyl guanosine cap is reached.",
+        "D": "The poly A tail is reached."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Elongation continues codon by codon until a chain-terminating (stop) codon enters the ribosomal A site. There, a release factor -- rather than any tRNA, since none pairs with a stop codon -- triggers hydrolysis of the bond linking the finished polypeptide to the last tRNA, releasing the completed protein from the ribosome.",
+        "B": "Incorrect. There is no \"chain terminating tRNA\" -- stop codons have no matching tRNA at all; termination is carried out by a release factor.",
+        "C": "Incorrect. The 7-methylguanosine cap sits at the 5' end of the mRNA and plays no direct role in triggering release of the finished protein.",
+        "D": "Incorrect. The poly(A) tail sits at the 3' end of the mRNA, well past the stop codon in most transcripts, and does not itself trigger polypeptide release."
+      },
+      "main_concept": "CON-FND-5F65BBCB39EBEC",
+      "concept_ids": [
+        "CON-FND-5F65BBCB39EBEC"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-5EC6C0704F376B"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the growing polypeptide chain is released from the ribosome when a chain-terminating codon is reached.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (28=a)"
+      }
+    },
+    {
+      "key": "bio104-ch4-unselected-q29",
+      "id": "QST-O6UIMB-BIO104-CH4-Q29",
+      "page": "Q29, p20",
+      "title": "What 64 codons encoding 20 amino acids illustrates",
+      "question": "While the genetic code has 64 codons, there are only 20 naturally occurring amino acids. Consequently, some amino acids are encoded by more than one codon. This feature of the genetic code is an illustration of the genetic code being:",
+      "options": {
+        "A": "Degenerate",
+        "B": "Duplicative",
+        "C": "Nonoverlapping",
+        "D": "Overlapping"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. With 4 possible bases at each of 3 codon positions, there are 64 possible codons, but only 20 naturally occurring amino acids -- so most amino acids are specified by more than one codon. This redundancy is precisely what \"degenerate\" means when describing the genetic code.",
+        "B": "Incorrect. \"Duplicative\" is not the standard term used to describe this redundancy; the correct term is degenerate.",
+        "C": "Incorrect. Non-overlapping describes how the code is read (each base belongs to only one codon), a separate property from the redundancy of multiple codons per amino acid.",
+        "D": "Incorrect. The genetic code is specifically non-overlapping, not overlapping -- and even if it were overlapping, that would not describe multiple codons encoding the same amino acid."
+      },
+      "main_concept": "CON-FND-082748C1B6DCDE",
+      "concept_ids": [
+        "CON-FND-082748C1B6DCDE"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-A06BB39C38F4C2",
+        "CON-FND-E730AD91309E8B"
+      ],
+      "topic": "Molecular Biology",
+      "subtopic": "Translation and mutation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the genetic code being degenerate means most amino acids are each encoded by more than one of the 64 possible codons.",
+      "library_ids": [
+        "ART-O6U-IMB-TRANSLATION-AND-MUTATION"
+      ],
+      "module_subject": "O6U-IMB-104 > Molecular Biology > Translation and mutation",
+      "field_notes": {
+        "keySource": "printed \"MCQ answers\" table, p21 (29=a)"
+      }
+    }
+  ]
+}
