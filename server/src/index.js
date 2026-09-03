@@ -60,6 +60,7 @@ import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
 import { createPromotion, createPricingVoucher, listPricingDiscounts, pricingQuote } from './pricing.js'
+import { publicSubscriberCountPayload, readSubscriberDisplay } from './subscriberCount.js'
 import {
   createEnrollmentChangeRequest, decideEnrollmentChangeRequest,
   listEnrollmentChangeRequests, myEnrollmentChangeRequests,
@@ -72,7 +73,7 @@ import { setMailer } from './qotdReminderEmail.js'
 import { answerDistributionFor } from './answerDistribution.js'
 import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
 import { activityTrackingSummary } from './studyTrackingAdmin.js'
-import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
+import { acknowledgeStorageThreshold, activeSubscriptionCount, platformReport } from './platformReports.js'
 import {
   statusFor as assistantStatus,
   chat as assistantChat,
@@ -860,6 +861,18 @@ app.get('/api/pricing/quote', wrap(async (req, res) => {
   const result = await pricingQuote({ period: req.query?.period, voucherCode: req.query?.voucher })
   if (result.error) return res.status(400).json(result)
   res.json(result)
+}))
+
+/**
+ * The marketing subscriber count. No auth guard — it is read by anonymous
+ * landing-page visitors, the same way `/api/pricing/quote` is. Hidden
+ * entirely (`{ enabled: false }`) until a superadmin turns it on.
+ */
+app.get('/api/public/subscriber-count', wrap(async (req, res) => {
+  const doc = await readSubscriberDisplay()
+  if (!doc.enabled) return res.json({ enabled: false })
+  const realCountNow = await activeSubscriptionCount()
+  res.json(publicSubscriberCountPayload(doc, { realCountNow, now: Date.now() }))
 }))
 
 app.post('/api/qbank/attempts', requireAuthenticated, wrap(async (req, res) => {
