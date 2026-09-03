@@ -695,3 +695,113 @@ Host-microbe relationships are classified as parasitism, commensalism or mutuali
 mu: Tested twice — para-past-q09, "it is a relationship between two living organisms where one benefits, while the other (host) is not harmed" (answer: Commensalism), End 39 sitting p1; and para-past-q22, "Which of the following is a relationship between two living organisms From which one benefits and the other is not harmed?" (answer: Commensalism), Final 40 sitting p9. Both from Parasitology Past Exams - MCQ Answers - Telegram 9673.pdf, highlight-fill-red key. Found via find-existing.mjs, exact-grain match (host-microbe relationship classification already covers the parasitism/commensalism/mutualism distinction tested here, applied to parasitology rather than bacteriology).
 
 ---
+
+# Item
+
+## id
+CON-FND-2A6D478CFC27ED
+
+## label
+Myositis ossificans is mesenchymal metaplasia -- bone formation in muscle, typically after intramuscular hemorrhage -- one instance of connective-tissue metaplasia forming cartilage, bone or fat where these tissues do not normally occur
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as "Myositis ossificans is an example of" (answer: Connective tissue metaplasia), Pathology Chapters 5 and 6 Past Exam MCQs - Answers - Telegram 9683.pdf p3, purple/violet highlight-fill key. Found via find-existing.mjs in pending docs/Kasr-Source-Imports/concept/208-INT-concepts.md, exact-grain match.
+
+---
+
+# Item
+
+## id
+CON-FND-91B66B24922754
+
+## label
+Carcinoma in situ is a pre-invasive stage of carcinoma with full-thickness epithelial atypia and disturbed cellular polarity but no invasion of the basement membrane, distinguishing it from both dysplasia and frankly invasive carcinoma
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as a 62-year-old-man bladder-mucosa biopsy vignette (marked hyperchromatism, increased N:C ratio, full epithelial thickness, intact basement membrane; answer: Carcinoma in situ), Pathology Chapters 5 and 6 Past Exam MCQs - Answers - Telegram 9683.pdf p10, purple/violet highlight-fill key. Found via find-existing.mjs in pending docs/Kasr-Source-Imports/concept/208-INT-concepts.md, exact-grain match.
+
+---
+
+# Item
+
+## id
+CON-FND-9B1EE27764E33C
+
+## label
+Metastases typically resemble their primary tumor, bone metastases are usually osteolytic (prostate is the osteosclerotic exception), muscle is a rare metastatic site, and gastric or colonic carcinoma can seed both ovaries as a Krukenberg tumor
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested twice -- "Krukenberg's tumor is an example of one of the following" (answer: Transcoelomic spread), p7; and "Which of the following best describes Krukenberg tumor?" (answer: Metastatic ovarian tumor), p10 -- same tumour, two facets (spread mechanism, then definition). Both Pathology Chapters 5 and 6 Past Exam MCQs - Answers - Telegram 9683.pdf, purple/violet highlight-fill key. Found via find-existing.mjs in pending docs/Kasr-Source-Imports/concept/208-INT-concepts.md, exact-grain match.
+
+---
+
+# Item
+
+## id
+CON-FND-98883162BD988A
+
+## label
+Lipoma is the benign, soft, stable subcutaneous fatty tumour
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested three times in this cluster -- "Male patient has subcutaneous mass soft in consistency. Cut section is yellowish and greasy" (answer: Lipoma), p2; "Signet ring microscopic morphology presents in the following tumor" (answer: Lipoma), p4; and a 25-year-old-male neck-mass vignette, "microscopic picture of this lesion reveals lobules of" (answer: Fat cells), p9 (this third stem's own printed key names the histologic feature -- fat cells -- rather than the tumour name, but tests the same lipoma-recognition fact). All Pathology Chapters 5 and 6 Past Exam MCQs - Answers - Telegram 9683.pdf, purple/violet highlight-fill key. Found via find-existing.mjs in pending docs/Assiut-Source-Imports/concept/AUN-MPT-104-concepts.md, exact-grain match.
+
+---
+
+# Item
+
+## id
+CON-FND-3965F7DB0C47DC
+
+## label
+Leiomyoma is the benign, slow-growing uterine smooth-muscle tumour
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested twice -- a 25-year-old-female uterine submucous whorled-cut-section vignette (answer: Leiomyoma), p2; and "One of the following benign tumor could be a cause of infertility" (answer: Leiomyoma), p4. Both Pathology Chapters 5 and 6 Past Exam MCQs - Answers - Telegram 9683.pdf, purple/violet highlight-fill key. Found via find-existing.mjs in pending docs/Assiut-Source-Imports/concept/AUN-MPT-104-concepts.md, exact-grain match.
+
+---

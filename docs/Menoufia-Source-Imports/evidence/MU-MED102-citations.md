@@ -3061,3 +3061,1123 @@ MU-MED102 has no confirmed department book source for this fact; the exam's own 
 
 ## counts_as_claim_evidence
 no
+# Item
+
+## id
+CIT-FND-3FA6B2697B1A65
+
+## claim_id
+CLM-FND-3FA6B2697B1A65
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+III- The expected microscopic picture of the breast in the above case is / b. Carcinoma
+
+## locator_type
+page
+
+## locator_page
+1
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-C1698A4BEA1C38
+
+## claim_id
+CLM-FND-C1698A4BEA1C38
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+I- The route of malignant spread in this case is: / d. Direct and lymphatic spread
+
+## locator_type
+page
+
+## locator_page
+1
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-3FBC08E9F663B5
+
+## claim_id
+CLM-FND-3FBC08E9F663B5
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+II- One of the steps included in the Invasion of Extracellular Matrix is: / a. Cell-cell detachment
+
+## locator_type
+page
+
+## locator_page
+1
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-50C0FF522228AB
+
+## claim_id
+CLM-FND-50C0FF522228AB
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Regarding general criteria of neoplasm, one of the followings is wrong: / c- Reversible
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-8D2E84B262B674
+
+## claim_id
+CLM-FND-8D2E84B262B674
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+The following list for benign dangerous tumors except / e- Lipoma
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-B97C8B88006F68
+
+## claim_id
+CLM-FND-B97C8B88006F68
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Enlarged cervical lymph node draining non-specific tonsillitis represents one of the following processes / c. Irritation hyperplasia
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-99338FF75CDD15
+
+## claim_id
+CLM-FND-99338FF75CDD15
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+In case of aortic valve stenosis, left ventricle is affected by / d. Adaptive hypertrophy
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-3CA8E4A473D9A2
+
+## claim_id
+CLM-FND-3CA8E4A473D9A2
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Benign tumor of protective epithelium is one of the followings: / a. Papilloma
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-DEDC6702151712
+
+## claim_id
+CLM-FND-DEDC6702151712
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following features could be identified through gross and microscopic examination of the organs? / C. Physiologic hypertrophy of the heart
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-789151DCC72B5C
+
+## claim_id
+CLM-FND-789151DCC72B5C
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which type of atrophy occurs in poliomyelitis patients? / C. Neuropathic
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-1F5740488C3831
+
+## claim_id
+CLM-FND-1F5740488C3831
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Tumor with poor prognosis is: / A. Deeply located tumors
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-710D9ECA1D16CB
+
+## claim_id
+CLM-FND-710D9ECA1D16CB
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+B. One of the following criteria regarding this tumor is wrong: 1.Precancerous 2.Not precancerous 3.Single 4.Multiple 5.Affect any part of colon / correct: 2. Not precancerous (relettered A-E in sequence: A.Precancerous B.Not precancerous C.Single D.Multiple E.Affect any part of colon; correct=B)
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-F2C66A27C1A304
+
+## claim_id
+CLM-FND-F2C66A27C1A304
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+The glandular epithelial cells typically respond by undergoing: / c-Hyperplasia
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-0DDDB3966D0CB3
+
+## claim_id
+CLM-FND-0DDDB3966D0CB3
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following is the most likely histologic diagnosis of this patient's pituitary tumor? / a. Adenoma.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-B74FDBC28B5E2A
+
+## claim_id
+CLM-FND-B74FDBC28B5E2A
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following growth disturbances is most likely to occur in patients suffering from cachexia? / a. Atrophy
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-72C9E2EF94990F
+
+## claim_id
+CLM-FND-72C9E2EF94990F
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+All the following are true about rodent ulcer of the face except: / a. Edges of the ulcer are raised everted edges (i.e. the true edge description is raised and rolled, not everted)
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-E975CC82A64BD1
+
+## claim_id
+CLM-FND-E975CC82A64BD1
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+One of the following does not favor tumor cell survival: / b- Innate and adaptive immune defenses.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-62EE104B252F19
+
+## claim_id
+CLM-FND-62EE104B252F19
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+One of the following was not considered as a prognostic factor of malignant tumor: / a- Tumor color.
+
+## locator_type
+page
+
+## locator_page
+13
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-12CC9BA62D2FDD
+
+## claim_id
+CLM-FND-12CC9BA62D2FDD
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Atrophy of the thymus after puberty is a type of.............atrophy / Physiological (5th, unlettered option; relettered A.Disuse B.Pressure C.Senescence D.Vascular E.Physiological)
+
+## locator_type
+page
+
+## locator_page
+13
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-9200DFA3C72D6E
+
+## claim_id
+CLM-FND-9200DFA3C72D6E
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which type of metaplasia occurs in urinary bladder Bilharziasis? / D. Transformation of transitional epithelium to squamous epithelium
+
+## locator_type
+page
+
+## locator_page
+13
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-62BC955DED99FA
+
+## claim_id
+CLM-FND-62BC955DED99FA
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following cancers is associated with aflatoxin carcinogen? / hepatocellular carcinoma (unlettered 3rd option; relettered A.mesothelioma B.breast carcinoma C.hepatocellular carcinoma D.prostatic carcinoma E.urothelial carcinoma)
+
+## locator_type
+page
+
+## locator_page
+14
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-248745D45028D3
+
+## claim_id
+CLM-FND-248745D45028D3
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+What is your diagnosis? / C.Papillary urothelial carcinoma.
+
+## locator_type
+page
+
+## locator_page
+14
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-19C38BBE857DE0
+
+## claim_id
+CLM-FND-19C38BBE857DE0
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+What is your diagnosis? / E.Rhabdomyosarcoma.
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-21A3FA6913301A
+
+## claim_id
+CLM-FND-21A3FA6913301A
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Tennis Racket cells is one of the diagnostic criteria of one of the following tumors: / E.Rhabdomyosarcoma.
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-6E02735108012E
+
+## claim_id
+CLM-FND-6E02735108012E
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+One of the following is a genetic risk factor for squamous cell carcinoma: / E.Xeroderma pigmentosa
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-1014C9D0F30306
+
+## claim_id
+CLM-FND-1014C9D0F30306
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Microscopic criteria of malignancy are the features of one of the following tumors: / A.Breast carcinoma
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-6D8E09B6D45A40
+
+## claim_id
+CLM-FND-6D8E09B6D45A40
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following conditions is not an example of metaplasia? / c- Congenital pyloric stenosis
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-C4E4914B2E7FAB
+
+## claim_id
+CLM-FND-C4E4914B2E7FAB
+
+## resource_id
+src_11999c1093082353caec
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following neoplasms is most likely to arise in this manner? / (3rd option, mislabelled "e-" in source; relettered A.Cancer breast B.Cancer prostate C.Carcinoma of cervix D.Carcinoma of ovary E.Retinoblastoma) / C. Carcinoma of cervix
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+Pathology Chapters 5 and 6 Past Exam MCQs, Answers copy
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the Questions copy; purple/violet highlight-fill key confirmed by direct render of the Answers copy (pagetext.mjs keys does not detect this convention on this file -- it returns 0/near-0 marked for most pages, likely because this paper's vignette items use roman-numeral sub-parts rather than the "Q<n>" pattern the tool's parser expects).
+
+## context_note
+MU-MED102 has no confirmed department book source for this cluster; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+

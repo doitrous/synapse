@@ -1,0 +1,80 @@
+{
+  "lanePrefix": "ASUCNS3-2NDASS2020",
+  "module": "ASU-CNS-3",
+  "university": "asu",
+  "year_id": "ASU_Y3",
+  "learner_year": 3,
+  "conceptHeader": "<!--\n  ASU-CNS-3 cluster 10 (author10) · \"cns 2nd ass 2020.pdf\" — 3 new concepts\n  surviving from a 33-item embedded-answer compilation, checked against every\n  existing ASU-CNS-3 concept label before minting.\n\n  Import: Admin › Bulk import → concept.\n-->",
+  "articleHeader": "<!--\n  ASU-CNS-3 cluster 10 (author10) · \"cns 2nd ass 2020.pdf\" — 3 new articles\n  matching this cluster's concepts.\n\n  Import: Admin › Bulk import → article.\n-->",
+  "concepts": [
+    {
+      "key": "2ndass2020-q01",
+      "label": "Meningioma classically appears as a dural-based mass with whorled spindle-cell architecture on histology",
+      "canonical_key": "meningioma.histology.whorled-pattern-dural-attachment",
+      "definition": "Meningioma is a tumour of arachnoid cap cells that arises attached to the dura mater (a dural-based mass). Histologically, meningioma cells classically form whorled (concentric, onion-skin) patterns of spindle-shaped cells, distinct from the hyalinisation/calcification of those whorl centres into psammoma bodies (a separate, secondary histological feature seen in a subset of meningiomas). The combination of firm dural attachment and whorled architecture is the classic gross/microscopic recognition pattern for this tumour.",
+      "explicit_objective": "Identify meningioma from its classic dural-based attachment and whorled spindle-cell histological pattern.",
+      "primary_node_id": "SYS-NEU-T06-S02-M03",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Pathology > CNS neoplasia",
+      "topic": "Pathology",
+      "subtopic": "CNS neoplasia",
+      "aliases": [
+        "Meningioma whorled pattern",
+        "Dural-based CNS tumour"
+      ],
+      "pitfalls": "Confusing meningioma's whorled spindle-cell architecture and dural attachment (the tumour's basic recognition pattern) with the separate, secondary feature of psammoma body calcification within some whorl centres.",
+      "article_title": "Meningioma: whorled pattern and dural attachment",
+      "original_wording": "\"1.Meningioma / Whorly ,mass attached to dura\"",
+      "clinical_significance": "Meningioma is the most common extra-axial (dural-based) primary CNS tumour in adults, typically benign (WHO grade I) and surgically resectable.",
+      "evidence_basis": "Standard neuropathology teaching on meningioma histology and gross dural attachment.",
+      "resource_id": "src_38d32cf6647b16ef165f",
+      "asu_field_note": "cns 2nd ass 2020.pdf, item 1 (\"Meningioma / Whorly ,mass attached to dura\")."
+    },
+    {
+      "key": "2ndass2020-q09",
+      "label": "Electrical stimulation of the amygdala produces a fear/defensive response",
+      "canonical_key": "amygdala.function.stimulation-produces-fear-response",
+      "definition": "The amygdala is the limbic structure central to processing and generating fear. In experimental animals, electrical stimulation of the amygdala produces a stereotyped fear/defensive-avoidance response (freezing, autonomic arousal, avoidance behaviour), while bilateral amygdala lesions blunt fear and produce placidity, as in the Klüver-Bucy syndrome. This functional role is distinct from the amygdala's anatomical connections (e.g. via the stria terminalis to the hypothalamus), which describe its wiring rather than its behavioural output on stimulation.",
+      "explicit_objective": "State that stimulation of the amygdala produces a fear/defensive-avoidance behavioural response.",
+      "primary_node_id": "SYS-NEU-T01-S01-M01",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Physiology > Limbic system function",
+      "topic": "Physiology",
+      "subtopic": "Limbic system function",
+      "aliases": [
+        "Amygdala stimulation",
+        "Fear response"
+      ],
+      "pitfalls": "Confusing the amygdala's stimulation effect (fear/defensive response) with its lesion effect (placidity, blunted fear, as in Klüver-Bucy syndrome) — stimulation and ablation of the same structure produce opposite behavioural changes.",
+      "article_title": "Amygdala stimulation and fear",
+      "original_wording": "\"9.fear / Amygdala stimulation\"",
+      "clinical_significance": "The amygdala's role in fear generation underlies its involvement in anxiety disorders and PTSD.",
+      "evidence_basis": "Standard neurophysiology teaching on amygdala stimulation and lesion effects on fear behaviour.",
+      "resource_id": "src_38d32cf6647b16ef165f",
+      "asu_field_note": "cns 2nd ass 2020.pdf, item 9 (\"fear / Amygdala stimulation\")."
+    },
+    {
+      "key": "2ndass2020-q14",
+      "label": "Empiric therapy for suspected bacterial meningitis in an older adult is vancomycin plus ceftriaxone plus ampicillin",
+      "canonical_key": "bacterialmeningitis.empirictherapy.vancomycin-ceftriaxone-ampicillin-elderly",
+      "definition": "While awaiting CSF culture results, empiric antibiotic therapy for suspected bacterial meningitis in an adult over about 50 years old combines vancomycin (covering resistant/penicillin-non-susceptible Streptococcus pneumoniae, including MRSA), a third-generation cephalosporin such as ceftriaxone (covering typical meningitis pathogens including Neisseria meningitidis and susceptible S. pneumoniae), and ampicillin (added specifically to cover Listeria monocytogenes, a pathogen of particular concern in older and immunocompromised patients that is intrinsically resistant to cephalosporins).",
+      "explicit_objective": "State that empiric bacterial meningitis therapy in an older adult combines vancomycin, ceftriaxone and ampicillin, with ampicillin added for Listeria coverage.",
+      "primary_node_id": "SYS-NEU-T06-S02-M01",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Pharmacology > CNS infection treatment",
+      "topic": "Pharmacology",
+      "subtopic": "CNS infection treatment",
+      "aliases": [
+        "Bacterial meningitis empiric therapy",
+        "Vancomycin ceftriaxone ampicillin"
+      ],
+      "pitfalls": "Forgetting that ampicillin is added specifically for Listeria coverage in older/immunocompromised patients, since Listeria is intrinsically resistant to the cephalosporin (ceftriaxone) that otherwise covers most typical meningitis pathogens.",
+      "article_title": "Empiric therapy for bacterial meningitis in an older adult",
+      "original_wording": "\"14. Vancomycin+ampicillin +cefttriaxone / 67 yr old with bacterial meningitis 1st line of ttt in empiric therapy\"",
+      "clinical_significance": "Prompt, correctly-targeted empiric therapy (including Listeria coverage in older patients) is critical, since bacterial meningitis has high mortality if treatment is delayed or incorrectly targeted.",
+      "evidence_basis": "Standard clinical pharmacology/infectious disease teaching on age-adjusted empiric bacterial meningitis therapy.",
+      "resource_id": "src_38d32cf6647b16ef165f",
+      "asu_field_note": "cns 2nd ass 2020.pdf, item 14 (\"Vancomycin+ampicillin +cefttriaxone / 67 yr old with bacterial meningitis 1st line of ttt in empiric therapy\")."
+    }
+  ]
+}

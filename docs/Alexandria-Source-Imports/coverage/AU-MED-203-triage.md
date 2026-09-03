@@ -474,6 +474,73 @@ resource each resolve unchanged from pass 1 (no new article or resource this pas
 Q127-383 of this compilation remain untriaged for a future pass (see
 `coverage/AU-MED-203-LEDGER.md`'s Remaining section for the exact resume point).
 
+## "Previous Years CNS MCQ with answers" compilation, pass 3 (Q127-181) — au-203-author12, 2026-09-03
+
+Continued from pass 2's stop point. Read pages 30-42 (Q127-181). Two numbering collisions: a
+second "132)" on p32 immediately after the first, kept as `comp1-q132a`/`comp1-q132b` (mirrors
+`comp1-q37a`/`comp1-q37b`, this source's already-known q37/q132 collision pair). Two numbering
+gaps (q133, q144), same established pattern as prior passes. 54 numbered questions checked
+against the full already-authored AU-MED-203 corpus (470 stems, 674 concept labels across
+AU-MED-203 + ASU-CNS-3, loaded once) plus `find-existing.mjs` before a verdict.
+
+**15 of 54 triaged as duplicates**, logged here with twin ids (also in
+`coverage/AU-MED-203-LEDGER.md`'s `## Held` list):
+- 1 HIT-PENDING against ASU-CNS-3's pending (not yet imported) concept/question pair: q127
+  (medial geniculate body ← inferior colliculus, CON-NEU-D8A896F1FF95EC,
+  `docs/Ain-Shams-Source-Imports/question/ASU-CNS-3-paper2-2018-mcq.md` QST-ASUCNS3P2-18-Q25)
+  — held outright rather than overlaid, since the pending question already covers the identical
+  single fact with the same superior-colliculus distractor (week1-q47 near-exact-duplicate
+  precedent).
+- 7 external duplicates of this same source's own pass 1 (q135 Accutane cleft-lip vignette dup
+  of comp1-q24, q152 vagus-nerve-branch-EXCEPT dup of comp1-q34, q162 bipolar-cell-synapse dup
+  of comp1-q79, q166 amygdala dup of comp1-q41, q173 crista-ampullaris-TRUE dup of comp1-q77,
+  q179 thalamic-nuclei-emotion dup of comp1-q07, q180 common-facial-vein dup of comp1-q65 — all
+  verbatim/near-verbatim repeats).
+- 1 external duplicate of this same source's own pass 2 (q169 bony-labyrinth-EXCEPT, verbatim
+  repeat of comp1-q104).
+- 6 near-duplicates of already-landed AU-MED-203 module content from earlier lanes (q146
+  nuclear-bag-fibers, restates week1a's "nuclear bag fiber's non-contractile region" fact under
+  a different framing; q147 generator-potential properties, restates week1a's
+  receptor-potential/no-refractory-period question, CON-NEU-2FD9DE9D533B4C; q148
+  falx-cerebri-bleeding vignette, restates week1b's falx/straight-sinus relation fact via
+  different dressing; q153 oculomotor-pierces-dura-at-tentorium, restates week1a's
+  tentorium-cerebelli-CORRECT-statement question's own correct answer; q167 trochlear-nerve
+  muscle, near-exact dup of `AU-MED-203-week1c-mcq.md` QST-AUMED203-WEEK1-Q151; q178
+  linear-head-movement, exact dup of `AU-MED-203-quiz1-mcq.md` QST-AUMED203-QUIZ1-QUIZ1-Q19).
+
+**39 of 54 triaged as new** and authored into `question/AU-MED-203-comp1-mcq.md` (seed:
+`coverage/seeds/AU-MED-203/comp1.json`) — q128, q129, q130, q131, q132a, q132b, q134, q136,
+q137, q138, q139, q140, q141, q142, q143, q145, q149, q150, q151, q154, q155, q156, q157, q158,
+q159, q160, q161, q163, q164, q165, q168, q170, q171, q172, q174, q175, q176, q177, q181. 39
+concepts minted (35 CON-NEU, 3 CON-AND, 1 CON-FND), each canonical key checked via
+`find-existing.mjs` before minting, 0 collisions against the existing 13578 IDs checked. No
+HIT-PENDING reuse required a new pending-live overlay pair this pass — the one HIT-PENDING hit
+(q127) was held outright rather than overlaid (see above).
+
+**Two printed-key doubts recorded**, kept as printed rather than silently corrected, each with
+the conflict named on its own concept's `conflicts` field: q132a ("main origin of corticonuclear
+tract") credits the frontal eye field (area 8), where mainstream teaching more commonly credits
+the primary motor cortex (area 4) as the tract's main origin; q134 ("vestibular nucleus sends
+efferent to all EXCEPT") credits spinal cord as the non-projection, conflicting with the
+well-established vestibulospinal tract — basal ganglia would be the more physiologically
+expected exception under standard teaching.
+
+One option-format fix (not a triage decision): q163's printed options ("+120 mv, Nat", "+80mv,
+K+", "- 60 mv, Catt", "-140 mv, K+") were reworded to "Positive 120 mV, Na+" / "Positive 80 mV,
+K+" / "Negative 60 mV, Ca2+" / "Negative 140 mV, K+" — `emit-mcq.mjs` refuses any option value
+starting with `+`, so the values were rephrased without changing which option is correct or
+what each one states.
+
+`medical:batch` on the question file (with the module's 3 article files, the concept file and
+the resource file as `--with` siblings) and on the concept file standalone: `errors: []` for
+both (125 items each). `medical:simulate` positional (3 article files + concept + resource +
+question files, the full chain): `errors: []`, `rejected: 0`, `skipped: 0` — `created: 260`
+across all 6 files, matching each file's row count exactly (125 = 86 from pass 1/2 + 39 from
+this pass).
+
+Q182-383 of this compilation remain untriaged for a future pass (see
+`coverage/AU-MED-203-LEDGER.md`'s Remaining section for the exact resume point).
+
 ## Not triaged this module (queued, see priority-sources doc for the full list)
 
 - 2 stream-specific EOM finals (`Final CNS مصريين 2027`, `Final CS وافدين 2027`)

@@ -2,13 +2,7 @@
 |---|---:|---:|---:|---:|
 | ass1-ug-2020 | 17 | 9 | 0 | 26 |
 | assessment-1-mcq | 63 | 5 | 0 | 68 |
-| assessment-1-mcq-micro | 0 | 0 | 5 | 5 |
-| assessment-1-mcq-patho | 0 | 0 | 16 | 16 |
 | assessment-2-mcq-1 | 11 | 1 | 0 | 12 |
-| assessment-2-mcq-1-bio | 0 | 0 | 1 | 1 |
-| assessment-2-mcq-1-community | 0 | 0 | 4 | 4 |
-| assessment-2-mcq-1-patho | 0 | 0 | 6 | 6 |
-| assessment-2-mcq-1-patho-q19b | 0 | 0 | 1 | 1 |
 | eom-final-ug1-2020 | 11 | 8 | 0 | 19 |
 | eom-ug-final1-2024 | 14 | 5 | 0 | 19 |
 | eom-ug-final2-2024 | 17 | 6 | 0 | 23 |
@@ -68,36 +62,19 @@
 - first-assessment-ug-2024-q20 — duplicate — Pharma Q20 ("first ttt for Male patient with LUTI, Complicated with prostatitis is... 6 weeks ciprofloxacin") re-asks the same prolonged-antibiotic-course-for-prostatitis fact already authored as an eom-final-ug1-2020 concept ("Chronic bacterial prostatitis is treated with a prolonged antibiotic course of about 6 weeks", CON-AND-6ECDF21CA93064); collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
 
 ## Remaining
-- assessment-1-mcq-micro-q01
-- assessment-1-mcq-micro-q02
-- assessment-1-mcq-micro-q03
-- assessment-1-mcq-micro-q04
-- assessment-1-mcq-micro-q05
-- assessment-1-mcq-patho-q01
-- assessment-1-mcq-patho-q02
-- assessment-1-mcq-patho-q03
-- assessment-1-mcq-patho-q04
-- assessment-1-mcq-patho-q05
-- assessment-1-mcq-patho-q06
-- assessment-1-mcq-patho-q07
-- assessment-1-mcq-patho-q08
-- assessment-1-mcq-patho-q09
-- assessment-1-mcq-patho-q10
-- assessment-1-mcq-patho-q11
-- assessment-1-mcq-patho-q12
-- assessment-1-mcq-patho-q13
-- assessment-1-mcq-patho-q14
-- assessment-1-mcq-patho-q15
-- assessment-1-mcq-patho-q16
-- assessment-2-mcq-1-bio-q01
-- assessment-2-mcq-1-community-q01
-- assessment-2-mcq-1-community-q02
-- assessment-2-mcq-1-community-q03
-- assessment-2-mcq-1-community-q04
-- assessment-2-mcq-1-patho-q09
-- assessment-2-mcq-1-patho-q10
-- assessment-2-mcq-1-patho-q12
-- assessment-2-mcq-1-patho-q14
-- assessment-2-mcq-1-patho-q15
-- assessment-2-mcq-1-patho-q19
-- assessment-2-mcq-1-patho-q19b
+None. The five within-paper sub-blocks this table used to carry as separate
+rows (`assessment-1-mcq-micro`, `assessment-1-mcq-patho`,
+`assessment-2-mcq-1-bio`, `assessment-2-mcq-1-community`,
+`assessment-2-mcq-1-patho` incl. q19b) were closed out by commits `6dbed553`
+("close out assessment-1-mcq and eom-ug-final2-collection") and `1377494c`
+("triage assessment-2-mcq-1, author its novel remainder") — their counts were
+already folded into the `assessment-1-mcq` and `assessment-2-mcq-1` cluster
+rows above (63/5/0/68 and 11/1/0/12 respectively), but the now-redundant rows
+and this list were never deleted, so the table kept double-counting the same
+21 + 12 items as still open. Verified 2026-09-03: `medical:batch` and
+positional `medical:simulate` both re-run clean (errors=0, rejected=0) across
+all 8 assessment-1-mcq/assessment-2-mcq-1 concept/article/resource/question
+files with cross-file `--with` for the shared CON-REN-D6569BDD708A49
+(21-alpha-hydroxylase) reuse. **ASU-UG is CLOSED** — every triaged, keyed
+past-exam paper in this module is authored or held; no further keyed source
+remains.

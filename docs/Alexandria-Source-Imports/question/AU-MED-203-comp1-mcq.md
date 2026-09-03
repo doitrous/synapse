@@ -11869,3 +11869,5385 @@ yes
 
 ## author_notes
 keySource: inline per-page answer line, p30.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-128
+
+## title
+Embryological origin of the pons
+
+## question
+Which of the following is the origin of the pons?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Telencephalon
+
+## explanation_a
+Incorrect. The telencephalon (cerebral hemispheres) develops from the rostral-most prosencephalic vesicle, not the hindbrain segment that gives rise to the pons.
+
+## answer_b
+Mesencephalon
+
+## explanation_b
+Incorrect. The mesencephalon (midbrain) is its own primary brain vesicle, giving rise to the tectum and cerebral peduncles/tegmentum, not the pons.
+
+## answer_c
+Metencephalon
+
+## explanation_c
+Correct. The hindbrain (rhombencephalon) divides into the metencephalon and myelencephalon; the metencephalon gives rise to both the pons (its ventral part) and the cerebellum (its dorsal part), while the myelencephalon forms the medulla oblongata. The pons therefore develops as the ventral, basilar outgrowth of the metencephalic vesicle, distinguishing it from the midbrain-derived structures rostral to it and the medulla caudal to it.
+
+## answer_d
+Myelencephalon
+
+## explanation_d
+Incorrect. The myelencephalon is the caudal hindbrain vesicle that forms the medulla oblongata, not the pons.
+
+## topic
+Brainstem embryology
+
+## subtopic
+Hindbrain vesicle derivatives
+
+## main_concept
+CON-NEU-30EE29AF310C72
+
+## concept_ids
+CON-NEU-30EE29AF310C72
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that the pons develops from the metencephalon, the same hindbrain vesicle that gives rise to the cerebellum.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p31 q128, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p31.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-129
+
+## title
+Function of ventral stream secondary visual areas
+
+## question
+Which of the following is the function of ventral stream secondary visual areas?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+They detect gross object form only
+
+## explanation_a
+Incorrect. Detecting only gross object form, without fine detail, better describes what the primary visual cortex extracts before the ventral stream elaborates on it, not the ventral stream's own secondary areas.
+
+## answer_b
+They are sensitive to motion of objects in visual field
+
+## explanation_b
+Incorrect. Motion sensitivity is the hallmark of the dorsal ('where/how') stream running to the parietal lobe (areas such as V5/MT), not the ventral stream.
+
+## answer_c
+Interpretation of fine object details and color
+
+## explanation_c
+Correct. The ventral ('what') stream runs from the primary visual cortex through the occipitotemporal visual association areas to the inferior temporal lobe, and its secondary areas specialise in interpreting fine object detail, shape and color to support object recognition and identification, functionally distinct from the dorsal stream's spatial/motion role. This 'what' pathway is what allows a viewer to recognise a face or read fine print, in contrast to the dorsal stream's role in localising and guiding action toward an object.
+
+## answer_d
+They are not responsible for interpretation of object color
+
+## explanation_d
+Incorrect. The ventral stream is precisely the pathway responsible for color interpretation, alongside fine detail and object form — the opposite of what this option states.
+
+## topic
+Visual cortex
+
+## subtopic
+Dorsal vs ventral visual streams
+
+## main_concept
+CON-NEU-2E874819766DF9
+
+## concept_ids
+CON-NEU-2E874819766DF9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Distinguish the ventral visual stream's object-identification function (fine detail, color) from the dorsal stream's spatial/motion function.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p31 q129, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p31.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-130
+
+## title
+Deep cerebellar nucleus concerned with equilibrium
+
+## question
+The deep cerebellar nucleus concerned with equilibrium is:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Dentate nucleus.
+
+## explanation_a
+Incorrect. The dentate nucleus, the largest and most lateral deep cerebellar nucleus, projects mainly to the lateral (cerebrocerebellar) circuit concerned with planning and coordination of skilled voluntary movement, not equilibrium.
+
+## answer_b
+Globose nucleus.
+
+## explanation_b
+Incorrect. The globose nucleus is one of the two 'interposed' nuclei (with the emboliform), receiving spinocerebellar input for limb coordination via the intermediate (spinocerebellar) zone, not vestibular/equilibrium input.
+
+## answer_c
+Fastigial nucleus
+
+## explanation_c
+Correct. The fastigial nucleus is the most medial deep cerebellar nucleus, receiving input from the vestibulocerebellum (flocculonodular lobe and vermis) and projecting to the vestibular nuclei and reticular formation, making it the deep nucleus specifically concerned with balance, equilibrium and postural/axial muscle tone. This medial position mirrors the medial-to-lateral functional organisation of the cerebellum itself, from balance (vestibulocerebellum/fastigial) through limb coordination (spinocerebellum/interposed nuclei) to skilled movement planning (cerebrocerebellum/dentate).
+
+## answer_d
+Emboliform nucleus.
+
+## explanation_d
+Incorrect. The emboliform nucleus is the other interposed nucleus, functionally paired with the globose nucleus for limb coordination via the spinocerebellar circuit, not equilibrium.
+
+## topic
+Cerebellum
+
+## subtopic
+Deep cerebellar nuclei and their functional zones
+
+## main_concept
+CON-NEU-3DFC4D9B9DDB66
+
+## concept_ids
+CON-NEU-3DFC4D9B9DDB66
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify the fastigial nucleus as the deep cerebellar nucleus concerned with equilibrium, distinct from the dentate and interposed nuclei.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p31 q130, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p31.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-131
+
+## title
+Route of spread in cavernous sinus thrombophlebitis from a nasal 'danger triangle' lesion
+
+## question
+A 15-year-old young man developed cavernous sinus thrombophlebitis after a 1-week history of a single acne-like lesion at the anterior tip of his nose. He presented with a headache, periorbital edema, diplopia, and a fever (103°F or 39.4°C). What vein is the most likely route for the spread of this infection to the cavernous sinus?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+ophthalmic
+
+## explanation_a
+Correct. The face's 'danger triangle' (nasal bridge to the corners of the mouth) drains via the facial vein into the angular vein, which anastomoses directly with the ophthalmic veins; because these facial veins are valveless, infection at the nasal tip can spread retrograde along the (superior) ophthalmic vein directly into the cavernous sinus, producing exactly this picture of periorbital edema, diplopia (from cranial nerve III/IV/VI compression in the sinus's lateral wall) and fever. This ophthalmic vein route is the classic anatomical explanation for why a seemingly trivial nasal or upper-lip infection can become an intracranial emergency.
+
+## answer_b
+Superior cerebral
+
+## explanation_b
+Incorrect. The superior cerebral veins drain the cerebral cortex into the superior sagittal sinus, an unrelated route from a nasal-tip infection to the cavernous sinus.
+
+## answer_c
+Supraorbital
+
+## explanation_c
+Incorrect. The supraorbital vein contributes to the facial venous drainage of the forehead but is not the principal valveless connection exploited in danger-triangle spread; that route runs via the angular and ophthalmic veins.
+
+## answer_d
+Maxillary
+
+## explanation_d
+Incorrect. The maxillary vein drains the deep face into the retromandibular vein and is not the pathway by which a nasal-tip lesion spreads to the cavernous sinus.
+
+## topic
+Cavernous sinus
+
+## subtopic
+Danger-triangle infection spread
+
+## main_concept
+CON-NEU-32DC1D1BC605B5
+
+## concept_ids
+CON-NEU-32DC1D1BC605B5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Explain why an infection in the facial 'danger triangle' spreads to the cavernous sinus via the valveless ophthalmic vein.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p31 q131, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p31.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-132A
+
+## title
+Cortical area of origin of the corticonuclear (corticobulbar) tract
+
+## question
+Which area gives the main origin of corticonuclear tract?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+somatosensory association areas (5&7)
+
+## explanation_a
+Incorrect. Areas 5 and 7 are somatosensory association cortex in the superior parietal lobule, concerned with integrating somatosensory information, not with originating the corticonuclear (corticobulbar) tract.
+
+## answer_b
+premotor area ( 6)
+
+## explanation_b
+Incorrect. The premotor area (area 6) contributes fibres to descending motor pathways involved in planning and preparing movement, but it is not the tract's main area of origin.
+
+## answer_c
+primary motor area (4)
+
+## explanation_c
+Incorrect. The primary motor area (area 4) is the single largest individual contributor to the pyramidal system overall, but this source's printed key credits area 8 as the tract's main origin rather than area 4.
+
+## answer_d
+frontal eye field area (8)
+
+## explanation_d
+Correct per this source's printed key. The frontal eye field (area 8) is credited here as the main cortical area of origin of the corticonuclear tract, which controls voluntary conjugate eye movements via connections to the oculomotor nuclei — a role consistent with area 8's own well-established function in generating saccadic eye movements, even though most general descriptions of the corticonuclear/corticobulbar tract emphasise a broader origin across the primary motor cortex (area 4) and premotor cortex (area 6) for cranial nerve motor nuclei generally. Recorded as printed, with the more commonly taught broader-origin view noted as the alternative.
+
+## topic
+Descending motor tracts
+
+## subtopic
+Corticonuclear (corticobulbar) tract origin (printed-key doubt)
+
+## main_concept
+CON-NEU-E5D792C3E20EC2
+
+## concept_ids
+CON-NEU-E5D792C3E20EC2
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State this source's credited cortical area of origin for the corticonuclear tract, noting the conflict with the more commonly taught primary-motor-cortex origin.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p32 q132a, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p32.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-132B
+
+## title
+Tract carrying slow pain and temperature sensation
+
+## question
+The tract concerned with slow pain and temperature sensation is:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Gracile.
+
+## explanation_a
+Incorrect. The gracile fasciculus is part of the dorsal column–medial lemniscus pathway, carrying fine touch, vibration and proprioception from the lower limb, not pain and temperature.
+
+## answer_b
+Spinothalamic.
+
+## explanation_b
+Correct. The (lateral) spinothalamic tract carries pain and temperature sensation from the contralateral body, ascending in the anterolateral white matter after its second-order neuron crosses at the level of entry; slow, dull, poorly localised (second) pain, carried by unmyelinated C fibres, ascends via this tract to the thalamus and on to the cortex and limbic structures. Fast, sharp (first) pain via A-delta fibres also travels in the same anterolateral spinothalamic system, but the slow, diffuse quality of second pain is classically attributed to this tract's polysynaptic, multi-relay routing through the reticular formation and intralaminar thalamic nuclei.
+
+## answer_c
+Spinocerebellar.
+
+## explanation_c
+Incorrect. The spinocerebellar tracts carry unconscious proprioceptive information to the cerebellum for coordinating movement, not pain and temperature sensation to consciousness.
+
+## answer_d
+Cuneate.
+
+## explanation_d
+Incorrect. The cuneate fasciculus is the upper-limb component of the dorsal column–medial lemniscus pathway, carrying fine touch, vibration and proprioception, not pain and temperature.
+
+## topic
+Ascending sensory tracts
+
+## subtopic
+Spinothalamic tract (pain and temperature)
+
+## main_concept
+CON-NEU-BA1632D7EF23C1
+
+## concept_ids
+CON-NEU-BA1632D7EF23C1
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify the spinothalamic tract as the pathway carrying slow pain and temperature sensation.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p32 q132b, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p32.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-134
+
+## title
+Structures NOT receiving vestibular nuclear efferents (printed-key doubt)
+
+## question
+Vestibular nucleus sends efferent to all EXCEPT
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Reticular formation
+
+## explanation_a
+Incorrect (a true projection, so not the exception per this source). The vestibular nuclei send efferents to the reticular formation, contributing to autonomic responses to vestibular stimulation such as nausea and vomiting.
+
+## answer_b
+Spinal cord
+
+## explanation_b
+Correct per this source's printed key, though it conflicts with standard teaching. The vestibulospinal tracts (lateral and medial) are one of the vestibular nuclei's best-established efferent projections, controlling extensor (antigravity) muscle tone and head/neck posture via the spinal cord — so under mainstream teaching, 'spinal cord' would in fact be a true projection (not the exception), while 'basal ganglia' is not among the vestibular nuclei's classically described targets and would be the physiologically expected exception instead. This source nonetheless credits spinal cord as the exception; recorded as printed, with the conflict noted on this concept's own record.
+
+## answer_c
+Cerebellum
+
+## explanation_c
+Incorrect (a true projection, so not the exception per this source). The vestibular nuclei project to the cerebellum (vestibulocerebellar fibres), consistent with the vestibulocerebellum's role in balance.
+
+## answer_d
+Basal ganglia
+
+## explanation_d
+Incorrect per this source's printed key, though under standard teaching this option (basal ganglia) is not among the vestibular nuclei's classically described efferent targets and would be the more expected exception instead of spinal cord.
+
+## topic
+Vestibular system
+
+## subtopic
+Vestibular nuclear efferent projections (printed-key doubt)
+
+## main_concept
+CON-NEU-62E82BB2967D13
+
+## concept_ids
+CON-NEU-62E82BB2967D13
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State this source's printed exception among the vestibular nuclei's efferent projections, noting the conflict with the well-established vestibulospinal tract to the spinal cord.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p32 q134, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p32.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-136
+
+## title
+Cortical location of motor control of the head muscles
+
+## question
+The area responsible to motor control of the head muscles.
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+located in the upper part of the pre central gyrus.
+
+## explanation_a
+Incorrect. The upper (most medial-to-superior) part of the precentral gyrus represents the lower limb on the motor homunculus, not the head/face.
+
+## answer_b
+located in the lower part of the post central gyrus.
+
+## explanation_b
+Incorrect. The postcentral gyrus is the primary somatosensory cortex, not the primary motor cortex, so it does not provide motor control of the head muscles regardless of which part is named.
+
+## answer_c
+located in the lower part of the pre central gyrus.
+
+## explanation_c
+Correct. The primary motor cortex (precentral gyrus, area 4) is somatotopically organised as an inverted homunculus, with the lower limb represented superiorly/medially and the head and face represented inferiorly, near the lateral (Sylvian) fissure — so motor control of the head muscles localises to the lower part of the precentral gyrus. This inferior position on the motor strip mirrors the equally inferior position of the face's somatosensory representation on the adjacent postcentral gyrus.
+
+## answer_d
+located in the upper part of the post central gyrus.
+
+## explanation_d
+Incorrect. The postcentral gyrus is sensory, not motor, cortex, so it does not provide motor control of the head muscles regardless of which part is named.
+
+## topic
+Motor homunculus
+
+## subtopic
+Head/face motor representation
+
+## main_concept
+CON-NEU-F2418784E6F803
+
+## concept_ids
+CON-NEU-F2418784E6F803
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Localise motor control of the head muscles to the lower part of the precentral gyrus (primary motor cortex).
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p33 q136, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p33.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-137
+
+## title
+A true property of Golgi tendon organs (GTOs)
+
+## question
+Which of the following is TRUE about GTOs ?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Responsible for the static response of stretch reflex.
+
+## explanation_a
+Incorrect. The static (and dynamic) response of the stretch reflex is mediated by the muscle spindle's afferents, not by the Golgi tendon organ.
+
+## answer_b
+Detect muscle tension.
+
+## explanation_b
+Correct. The Golgi tendon organ (GTO) is a proprioceptor located in series with extrafusal muscle fibres at the musculotendinous junction, and it is specifically sensitive to muscle tension (force of contraction), whether generated actively by the muscle or passively by stretch, rather than to muscle length as the spindle is. Its afferent (Ib) input drives the inverse myotatic (autogenic inhibition) reflex, relaxing the muscle when tension becomes excessive.
+
+## answer_c
+ls located in the fleshy part of the muscle.
+
+## explanation_c
+Incorrect. The GTO is located at the musculotendinous junction, in series with the muscle fibres, not within the fleshy belly of the muscle where the muscle spindle (a parallel receptor) is found.
+
+## answer_d
+If excessively stimulated could lead to rupture of the muscle.
+
+## explanation_d
+Incorrect. Far from allowing rupture, the GTO's inverse myotatic reflex protects the muscle and tendon from damage by inhibiting further contraction when tension becomes excessive.
+
+## topic
+Proprioceptors
+
+## subtopic
+Golgi tendon organ function
+
+## main_concept
+CON-NEU-95C470949A9B1B
+
+## concept_ids
+CON-NEU-95C470949A9B1B
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that the Golgi tendon organ detects muscle tension (not length), distinguishing it from the muscle spindle.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p33 q137, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p33.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-138
+
+## title
+Communication between the third and fourth ventricles
+
+## question
+Third ventricle communicates with forth ventricle through:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Interventricular foramen of Monro
+
+## explanation_a
+Incorrect. The interventricular foramen of Monro connects each lateral ventricle to the third ventricle, not the third ventricle to the fourth.
+
+## answer_b
+Central Canal
+
+## explanation_b
+Incorrect. The central canal is a narrow channel within the spinal cord (continuous with the caudal fourth ventricle), not the passage connecting the third and fourth ventricles.
+
+## answer_c
+.Aqueduct of sylvius
+
+## explanation_c
+Correct. The cerebral aqueduct (aqueduct of Sylvius), running through the midbrain, is the sole channel connecting the third ventricle rostrally to the fourth ventricle caudally, and it is a common site of obstruction (aqueductal stenosis) causing obstructive hydrocephalus. CSF flows from the lateral ventricles through the foramina of Monro into the third ventricle, then through this aqueduct into the fourth ventricle, before exiting via the foramina of Luschka and Magendie.
+
+## answer_d
+Foramen of Magendie
+
+## explanation_d
+Incorrect. The foramen of Magendie is a median aperture through which CSF exits the fourth ventricle into the subarachnoid space (cisterna magna), not a connection between the third and fourth ventricles.
+
+## topic
+Ventricular system
+
+## subtopic
+Third-to-fourth ventricle communication
+
+## main_concept
+CON-NEU-3C102BBD25467C
+
+## concept_ids
+CON-NEU-3C102BBD25467C
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify the cerebral aqueduct (aqueduct of Sylvius) as the connection between the third and fourth ventricles.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p33 q138, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p33.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-139
+
+## title
+Functional classification of the Edinger-Westphal nucleus
+
+## question
+Edinger-Westphal nucleus is:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+GVE.
+
+## explanation_a
+Correct. The Edinger-Westphal nucleus is the accessory (parasympathetic) nucleus of the oculomotor complex. It supplies preganglionic parasympathetic fibres to the ciliary ganglion for pupillary constriction and accommodation. Because autonomic (visceral) motor output is classified as general visceral efferent (GVE), this is the correct functional column for the nucleus.
+
+## answer_b
+SVE
+
+## explanation_b
+Incorrect. Special visceral efferent (SVE) columns supply muscles derived from the pharyngeal (branchial) arches (e.g. muscles of mastication, facial expression), not the smooth muscle targets of the parasympathetic Edinger-Westphal nucleus.
+
+## answer_c
+GVA.
+
+## explanation_c
+Incorrect. General visceral afferent (GVA) is a sensory (afferent), not motor (efferent), column, and the Edinger-Westphal nucleus is a motor (efferent) nucleus.
+
+## answer_d
+SVA
+
+## explanation_d
+Incorrect. Special visceral afferent (SVA) carries taste and olfactory sensory input, an afferent column unrelated to the Edinger-Westphal nucleus's parasympathetic motor output.
+
+## topic
+Cranial nerve nuclei
+
+## subtopic
+Functional column classification
+
+## main_concept
+CON-NEU-E5CCE4F988C6F4
+
+## concept_ids
+CON-NEU-E5CCE4F988C6F4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Classify the Edinger-Westphal nucleus as general visceral efferent (GVE).
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p33 q139, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p33.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-140
+
+## title
+Structures NOT derived from the mesoderm of the second branchial arch
+
+## question
+The mesoderm of the 2nd branchial arch forms all the following EXCEPT
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Lesser horn of hyoid bone.
+
+## explanation_a
+Incorrect (a true derivative, so not the exception). The lesser cornu (horn) and upper part of the body of the hyoid bone derive from the cartilage of the second (hyoid) branchial arch.
+
+## answer_b
+Stapes.
+
+## explanation_b
+Incorrect (a true derivative, so not the exception). The stapes, one of the three auditory ossicles, derives from the second branchial arch cartilage (Reichert's cartilage).
+
+## answer_c
+Styloid process.
+
+## explanation_c
+Incorrect (a true derivative, so not the exception). The styloid process of the temporal bone also derives from the second branchial arch cartilage.
+
+## answer_d
+Malleolus.
+
+## explanation_d
+Correct. The malleus (along with the incus) derives from the first branchial (mandibular) arch cartilage (Meckel's cartilage), not the second. This makes it the exception among these four, all of which are otherwise second-arch (Reichert's cartilage) derivatives. A useful memory anchor is that only the stapes, of the three ossicles, is a second-arch structure; the malleus and incus are both first-arch.
+
+## topic
+Pharyngeal arch derivatives
+
+## subtopic
+Second branchial arch cartilage derivatives
+
+## main_concept
+CON-FND-59964A92617288
+
+## concept_ids
+CON-FND-59964A92617288
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify the malleus as a first-arch (not second-arch) auditory ossicle derivative.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p34 q140, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p34.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-141
+
+## title
+A cell type NOT found in the iris
+
+## question
+The iris of the eye contains all the following, EXCEPT
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Pigmented cells.
+
+## explanation_a
+Incorrect (a true component, so not the exception). The iris's posterior pigmented epithelium and anterior border layer melanocytes give it its pigmented, light-blocking character.
+
+## answer_b
+Bipolar cells.
+
+## explanation_b
+Correct. Bipolar cells are second-order neurons of the neural retina's outer plexiform layer, relaying photoreceptor input to ganglion cells. They are a retinal, not an iridial, cell type. This makes them the exception among the four options, all of which are otherwise genuine iris components.
+
+## answer_c
+Blood vessels.
+
+## explanation_c
+Incorrect (a true component, so not the exception). The iris stroma is richly vascularised, supplying its pigmented cells and smooth muscle.
+
+## answer_d
+Smooth muscles.
+
+## explanation_d
+Incorrect (a true component, so not the exception). The iris contains two smooth muscle layers, the sphincter pupillae (parasympathetic, constriction) and dilator pupillae (sympathetic, dilation).
+
+## topic
+Ocular histology
+
+## subtopic
+Iris composition
+
+## main_concept
+CON-NEU-694D25887EC8D1
+
+## concept_ids
+CON-NEU-694D25887EC8D1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify bipolar cells as a retinal, not iridial, cell type when listing the iris's histological components.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p34 q141, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p34.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-142
+
+## title
+Correctly paired pain/reflex classification
+
+## question
+Which of the following are correctly paired?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+First pain .dull, intense, diffuse, and unpleasant feeling.
+
+## explanation_a
+Incorrect. First (fast) pain, carried by myelinated A-delta fibres, is classically described as sharp and well-localised, not dull and diffuse — the dull, diffuse, poorly-localised quality belongs to second (slow) pain instead.
+
+## answer_b
+Second pain C fibers.
+
+## explanation_b
+Correct. Second (slow) pain is carried by small, unmyelinated C fibres. It produces the dull, burning, diffuse and poorly-localised sensation that follows the initial sharp first pain, which is instead carried by faster A-delta fibres. This C-fibre association is the correctly paired fact among the four options.
+
+## answer_c
+Neuropathic pain . Withdrawal reflex.
+
+## explanation_c
+Incorrect. Neuropathic pain arises from damage to or dysfunction of the nervous system itself (e.g. peripheral neuropathy), and is not specifically paired with the withdrawal (flexor) reflex, which is a protective spinal polysynaptic reflex to acute noxious stimuli generally.
+
+## answer_d
+Somatic pain .referred pain.
+
+## explanation_d
+Incorrect. Somatic pain (from skin, muscle, joint) and referred pain (visceral pain perceived at a distant somatic site sharing the same spinal segment) are distinct pain categories, not a correctly paired equivalence — referred pain is a phenomenon most classically associated with visceral, not somatic, pain.
+
+## topic
+Pain physiology
+
+## subtopic
+First vs second pain fibre classification
+
+## main_concept
+CON-NEU-E87D435671B16B
+
+## concept_ids
+CON-NEU-E87D435671B16B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Pair second (slow) pain correctly with its C-fibre afferent, distinguishing it from first (fast, A-delta) pain.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p34 q142, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p34.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-143
+
+## title
+Cortical location of motor control of the lower limb muscles
+
+## question
+The area responsible to motor control of the lower limb muscles.
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Located in medial frontal gyrus
+
+## explanation_a
+Incorrect. The medial frontal gyrus is not the standard anatomical term used for the lower-limb motor representation; the correct site is the paracentral lobule, the medial continuation of both pre- and postcentral gyri.
+
+## answer_b
+Located in paracentral lobule
+
+## explanation_b
+Correct. Because the lower limb is represented at the very top of the inverted motor homunculus, its cortical representation extends over the superior convexity onto the medial surface of the hemisphere, into the paracentral lobule, the medial continuation of the pre- and postcentral gyri. This is why a parasagittal (falx) lesion classically produces contralateral leg weakness out of proportion to arm weakness. The paracentral lobule therefore carries both the terminal motor and sensory strips for the leg.
+
+## answer_c
+Located in the upper part of the post central gyrus.
+
+## explanation_c
+Incorrect. The postcentral gyrus is somatosensory, not motor, cortex, so it does not provide motor control regardless of which part is named.
+
+## answer_d
+Located in the upper part of the pre central gyrus
+
+## explanation_d
+Incorrect. While the upper part of the precentral gyrus is close to the lower-limb representation, the lower limb's motor area specifically extends onto the medial surface into the paracentral lobule, which is the more precise and complete answer.
+
+## topic
+Motor homunculus
+
+## subtopic
+Lower limb motor representation (paracentral lobule)
+
+## main_concept
+CON-NEU-4C6A3EC37DF6F0
+
+## concept_ids
+CON-NEU-4C6A3EC37DF6F0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Localise motor control of the lower limb to the paracentral lobule on the medial hemispheric surface.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p34 q143, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p34.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-145
+
+## title
+Classification of the lentiform nucleus
+
+## question
+Lentiform nucleus is part of:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Thalamic nuclei.
+
+## explanation_a
+Incorrect. The thalamus is a separate diencephalic structure medial to the internal capsule; the lentiform nucleus lies lateral to it.
+
+## answer_b
+Hypothalamic nuclei.
+
+## explanation_b
+Incorrect. The hypothalamus is a small diencephalic structure below the thalamus, functionally and anatomically distinct from the lentiform nucleus.
+
+## answer_c
+Basal ganglia.
+
+## explanation_c
+Correct. The lentiform (lenticular) nucleus is a lens-shaped mass comprising the putamen (laterally) and globus pallidus (medially). Together with the caudate nucleus, with which the putamen forms the striatum, it constitutes the basal ganglia. These subcortical nuclei are involved in modulating voluntary movement, particularly action selection.
+
+## answer_d
+Cerebellar nuclei.
+
+## explanation_d
+Incorrect. The cerebellar nuclei (dentate, interposed, fastigial) are deep grey matter within the cerebellum, an infratentorial structure entirely distinct from the cerebral lentiform nucleus.
+
+## topic
+Basal ganglia
+
+## subtopic
+Lentiform nucleus components and classification
+
+## main_concept
+CON-NEU-6E9E61AC70F468
+
+## concept_ids
+CON-NEU-6E9E61AC70F468
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Classify the lentiform nucleus as part of the basal ganglia.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p35 q145, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p35.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-149
+
+## title
+Triangle containing the common carotid artery bifurcation
+
+## question
+The bifurcation of the common carotid artery present in the following triangle:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Digastric
+
+## explanation_a
+Incorrect. The digastric (submandibular) triangle, bounded by the two bellies of digastric and the mandible, contains the submandibular gland and lymph nodes, not the carotid bifurcation.
+
+## answer_b
+Muscular
+
+## explanation_b
+Incorrect. The muscular triangle contains the infrahyoid ('strap') muscles and structures such as the thyroid gland, not the carotid bifurcation.
+
+## answer_c
+Carotid
+
+## explanation_c
+Correct. The carotid triangle is bounded by the posterior belly of digastric, the superior belly of omohyoid, and the anterior border of sternocleidomastoid. It contains the common carotid artery's bifurcation, typically at the C4 vertebral level, into its internal and external branches. The internal jugular vein and vagus nerve also run through this triangle, alongside the bifurcation.
+
+## answer_d
+Submental
+
+## explanation_d
+Incorrect. The submental triangle, between the two anterior bellies of digastric and the hyoid bone, contains submental lymph nodes, not the carotid bifurcation.
+
+## topic
+Neck triangles
+
+## subtopic
+Carotid triangle contents
+
+## main_concept
+CON-AND-F8F7DEF15A02C8
+
+## concept_ids
+CON-AND-F8F7DEF15A02C8
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Locate the common carotid artery's bifurcation within the carotid triangle of the neck.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p36 q149, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p36.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-150
+
+## title
+A feature of Parkinsonism that is NOT hypokinetic
+
+## question
+In Parkinsonism, all are hypokinetic manifestations EXCEPT:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Static tremors
+
+## explanation_a
+Correct. The classic resting (static) tremor of Parkinsonism is a positive, hyperkinetic (excess movement) feature. It is caused by disinhibited thalamocortical oscillatory activity rather than by poverty of movement. This makes it the exception among these otherwise hypokinetic (reduced-movement) features.
+
+## answer_b
+Monotonous speech
+
+## explanation_b
+Incorrect (a true hypokinetic feature, so not the exception). Monotonous, soft, hypophonic speech (hypokinetic dysarthria) reflects reduced amplitude of the movements needed for normal speech prosody.
+
+## answer_c
+Reduced blinking
+
+## explanation_c
+Incorrect (a true hypokinetic feature, so not the exception). Reduced blinking (part of the reduced facial expression, or 'masked facies') reflects overall poverty and slowness of movement (bradykinesia).
+
+## answer_d
+Shuffling gait
+
+## explanation_d
+Incorrect (a true hypokinetic feature, so not the exception). The shuffling, festinating gait with reduced stride length and arm swing is a classic hypokinetic feature of Parkinsonism.
+
+## topic
+Basal ganglia disorders
+
+## subtopic
+Parkinsonism: hypokinetic vs hyperkinetic features
+
+## main_concept
+CON-NEU-0EA6DBB28804E7
+
+## concept_ids
+CON-NEU-0EA6DBB28804E7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Distinguish Parkinsonism's hyperkinetic resting tremor from its otherwise hypokinetic clinical features.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p36 q150, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p36.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-151
+
+## title
+Consequence of loss of the cerebellum's timing function
+
+## question
+Loss of cerebellar function regarding timing of movements results in
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Static tremor
+
+## explanation_a
+Incorrect. A resting (static) tremor is a basal ganglia (Parkinsonian), not a cerebellar, sign.
+
+## answer_b
+Lead pipe rigidity
+
+## explanation_b
+Incorrect. Lead-pipe rigidity is a basal ganglia (extrapyramidal) sign, not a consequence of cerebellar timing dysfunction.
+
+## answer_c
+Adjustment of muscle tone
+
+## explanation_c
+Incorrect. 'Adjustment of muscle tone' describes a normal cerebellar function rather than the deficit produced when that function (specifically timing) is lost.
+
+## answer_d
+Incoordination of movements.
+
+## explanation_d
+Correct. The cerebellum times and sequences the onset, rate and termination of successive muscle contractions across multiple joints. When this timing function is lost, the result is incoordination of movement (ataxia/dyssynergia). Movements become poorly timed, decomposed and inaccurately targeted (dysmetria), rather than tremulous or rigid as in basal ganglia disease.
+
+## topic
+Cerebellum
+
+## subtopic
+Cerebellar timing function and ataxia
+
+## main_concept
+CON-NEU-990071F32B51FF
+
+## concept_ids
+CON-NEU-990071F32B51FF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that loss of the cerebellum's movement-timing function results in incoordination (ataxia), not tremor or rigidity.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p36 q151, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p36.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-154
+
+## title
+Pathway suppressing inappropriate cortical motor programs
+
+## question
+Which pathway is responsible for suppression of inappropriate cortical motor program?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+neural connections between cerebral cortex and cerebellum
+
+## explanation_a
+Incorrect. Cortico-cerebellar connections primarily support the planning, timing and smoothing of intended movement (via the cerebrocerebellum), rather than suppressing unwanted competing motor programs.
+
+## answer_b
+indirect motor pathway of basal ganglia
+
+## explanation_b
+Correct. The basal ganglia's indirect pathway increases inhibitory output from the internal globus pallidus/substantia nigra pars reticulata onto the thalamus, net-inhibiting thalamocortical drive. This is the circuit specifically credited with suppressing competing or inappropriate motor programs. It allows the direct pathway's selected, intended movement to proceed without interference from unwanted alternatives.
+
+## answer_c
+vestibulo-ocular pathway
+
+## explanation_c
+Incorrect. The vestibulo-ocular pathway (reflex) stabilises gaze during head movement, an unrelated function to selecting or suppressing cortical motor programs.
+
+## answer_d
+papez circuit pathway
+
+## explanation_d
+Incorrect. The Papez circuit is a limbic pathway concerned with emotion and memory processing, not with suppressing motor programs.
+
+## topic
+Basal ganglia
+
+## subtopic
+Direct vs indirect pathway function
+
+## main_concept
+CON-NEU-C5F755F7EDFD2D
+
+## concept_ids
+CON-NEU-C5F755F7EDFD2D
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that the basal ganglia's indirect pathway suppresses inappropriate/competing cortical motor programs.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p37 q154, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p37.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-155
+
+## title
+Basis of tactile (two-point) discrimination
+
+## question
+Tactile discrimination of the skin depends on
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Stimulating the skin by a rapidly repetitive sensory signals
+
+## explanation_a
+Incorrect. Rapid repetitive stimulation relates to receptor adaptation and vibration sense (via Pacinian corpuscles), not to two-point (tactile) discrimination.
+
+## answer_b
+Threshold distance between two touch stimuli applied to the skin
+
+## explanation_b
+Correct. Tactile (two-point) discrimination is measured as the minimum distance between two simultaneously applied touch stimuli that can still be perceived as two distinct points rather than one. This threshold depends on receptive field size and receptor density. It is why two-point discrimination is much finer on the fingertips and lips than on the back.
+
+## answer_c
+Presence of separate cold and hot spots in the skin
+
+## explanation_c
+Incorrect. Separate warm and cold spots describe thermal sensation's punctate distribution, an unrelated sensory modality to tactile (two-point) discrimination.
+
+## answer_d
+The ability to discriminate between different weights applied to skin
+
+## explanation_d
+Incorrect. Discriminating different weights relates to kinesthetic/proprioceptive and force-sensing ability, not to spatial tactile (two-point) discrimination.
+
+## topic
+Somatosensory physiology
+
+## subtopic
+Two-point discrimination
+
+## main_concept
+CON-NEU-A1E3378A44B644
+
+## concept_ids
+CON-NEU-A1E3378A44B644
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Define tactile (two-point) discrimination as dependent on the minimum distinguishable distance between two skin stimuli.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p37 q155, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p37.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-156
+
+## title
+Mechanism of acetylcholine removal for repolarization
+
+## question
+Acetylcholine must be removed rapidly in order to allow repolarization to take place; this step occurs by its:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Hydrolysis
+
+## explanation_a
+Correct. Acetylcholine is rapidly removed from the synaptic (or neuromuscular junction) cleft by the enzyme acetylcholinesterase. This enzyme hydrolyses it into choline and acetate. This rapid hydrolysis terminates its action quickly enough to allow the postsynaptic membrane to repolarize and be ready for the next impulse.
+
+## answer_b
+Oxidation
+
+## explanation_b
+Incorrect. Acetylcholine is not inactivated by an oxidation reaction; its inactivation is enzymatic hydrolysis by acetylcholinesterase.
+
+## answer_c
+Methylation
+
+## explanation_c
+Incorrect. Methylation is not the mechanism by which acetylcholine is removed from the synaptic cleft.
+
+## answer_d
+Reduction
+
+## explanation_d
+Incorrect. Acetylcholine's removal is not a reduction reaction; it is hydrolysis by acetylcholinesterase.
+
+## topic
+Synaptic transmission
+
+## subtopic
+Acetylcholine inactivation mechanism
+
+## main_concept
+CON-NEU-005896A728FF6A
+
+## concept_ids
+CON-NEU-005896A728FF6A
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that acetylcholine is inactivated by hydrolysis (via acetylcholinesterase), permitting rapid repolarization.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p37 q156, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p37.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-157
+
+## title
+Mechanism of the excitatory postsynaptic potential (EPSP)
+
+## question
+Excitatory post synaptic potential (EPSP):
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+has 5 msec. duration
+
+## explanation_a
+Incorrect. An EPSP's duration is not fixed at a specific 5 msec figure; it varies with the synapse and channel kinetics, typically lasting on the order of 10-20 msec or more, and this is not the defining property being tested here.
+
+## answer_b
+caused by Nat influx
+
+## explanation_b
+Correct. An EPSP is produced when a neurotransmitter opens ligand-gated cation channels permeable mainly to Na+ (and some K+). The resulting net Na+ influx depolarizes the postsynaptic membrane. This brings the membrane closer to threshold for firing an action potential.
+
+## answer_c
+a localized postsynaptic hyperpolarization
+
+## explanation_c
+Incorrect. An EPSP is a depolarization (bringing the membrane closer to threshold), not a hyperpolarization; hyperpolarizing responses instead describe an inhibitory postsynaptic potential (IPSP).
+
+## answer_d
+due to K+ influx
+
+## explanation_d
+Incorrect. Increased K+ influx (or Cl- influx) typically hyperpolarizes the membrane and underlies an IPSP, not the depolarizing EPSP.
+
+## topic
+Synaptic transmission
+
+## subtopic
+EPSP mechanism (Na+ influx)
+
+## main_concept
+CON-NEU-7455034AF85FAF
+
+## concept_ids
+CON-NEU-7455034AF85FAF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that the EPSP is caused by postsynaptic Na+ influx, distinguishing it from the hyperpolarizing IPSP.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p37 q157, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p37.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-158
+
+## title
+Dominant EEG wave in an alert, active individual
+
+## question
+In an alert, active individual the dominant EEG wave is:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+α-wave
+
+## explanation_a
+Incorrect. Alpha waves (8-13 Hz) dominate in a relaxed, awake state with eyes closed, not an alert, actively engaged state.
+
+## answer_b
+δ-wave
+
+## explanation_b
+Incorrect. Delta waves (<4 Hz), the slowest and highest-amplitude EEG waves, characterise deep (slow-wave, stage N3) sleep, not alert wakefulness.
+
+## answer_c
+β-wave
+
+## explanation_c
+Correct. Beta waves (>13 Hz) are the fastest, lowest-amplitude EEG waves. They dominate in an alert, mentally active individual with eyes open. This pattern reflects desynchronised cortical activity during active information processing.
+
+## answer_d
+θ-wave
+
+## explanation_d
+Incorrect. Theta waves (4-8 Hz) are prominent in drowsiness and light sleep (and in children), not in an alert, actively engaged state.
+
+## topic
+EEG physiology
+
+## subtopic
+EEG rhythms and level of arousal
+
+## main_concept
+CON-NEU-BBE1D0545EA0C7
+
+## concept_ids
+CON-NEU-BBE1D0545EA0C7
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify beta waves as the dominant EEG rhythm during alert, active wakefulness.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p38 q158, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p38.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-159
+
+## title
+Function shared between the basal ganglia and cerebrocerebellum
+
+## question
+Basal ganglia share with cerebrocerebellum in:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Timing of movement
+
+## explanation_a
+Incorrect. Precise timing of successive muscle contractions is a function more specifically attributed to the cerebellum as a whole (particularly the spinocerebellum), rather than a role shared distinctively between the basal ganglia and cerebrocerebellum in this pairing.
+
+## answer_b
+Production of smooth voluntary movements
+
+## explanation_b
+Incorrect. Smoothing ongoing voluntary movement is a broader cerebellar function; this option does not capture the specific higher-order role shared by the basal ganglia and cerebrocerebellum.
+
+## answer_c
+Planning of movement
+
+## explanation_c
+Correct. Both the basal ganglia (via their loop through the supplementary motor area) and the cerebrocerebellum (via its loop through the lateral cerebellar hemispheres and dentate nucleus to the premotor/motor cortex) participate in the planning of movement before it is executed. This is in addition to each structure's other, more specific role. The basal ganglia specialise in action selection, while the cerebrocerebellum specialises in movement timing and coordination.
+
+## answer_d
+Prediction of movement
+
+## explanation_d
+Incorrect. Predictive (feedforward) adjustment of ongoing movement is more specifically a cerebellar function overall, rather than a role shared distinctively between the basal ganglia and cerebrocerebellum in this pairing.
+
+## topic
+Motor systems
+
+## subtopic
+Basal ganglia and cerebrocerebellum shared function
+
+## main_concept
+CON-NEU-214CE135633556
+
+## concept_ids
+CON-NEU-214CE135633556
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that the basal ganglia and cerebrocerebellum share a role in planning movement.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p38 q159, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p38.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-160
+
+## title
+Efferent autonomic pathway mediating the near reflex
+
+## question
+The efferent autonomic pathway that mediate components of the near reflex is:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Post ganglionic parasympathetic fibers to dilator papillae muscle
+
+## explanation_a
+Incorrect. The dilator pupillae is supplied by sympathetic (not parasympathetic) postganglionic fibres and mediates pupillary dilation, not the near reflex's constriction/accommodation components.
+
+## answer_b
+Preganglionic sympathetic fibers from Edinger Westphal nuclei
+
+## explanation_b
+Incorrect. The Edinger-Westphal nucleus gives rise to preganglionic PARAsympathetic (not sympathetic) fibres.
+
+## answer_c
+Post ganglionic sympathetic dilator fibers to ciliary muscle.
+
+## explanation_c
+Incorrect. The ciliary muscle for accommodation is supplied by parasympathetic, not sympathetic, postganglionic fibres, and 'dilator' fibres do not target the ciliary muscle.
+
+## answer_d
+Post ganglionic parasympathetic fibers from Edinger Westphal nuclei
+
+## explanation_d
+Correct. The near reflex (convergence, pupillary constriction, and lens accommodation for near vision) is mediated by preganglionic parasympathetic fibres from the Edinger-Westphal nucleus. These fibres synapse in the ciliary ganglion. The resulting postganglionic parasympathetic fibres supply the sphincter pupillae (constriction) and ciliary muscle (accommodation), completing the reflex's efferent autonomic limb.
+
+## topic
+Pupillary and accommodation reflexes
+
+## subtopic
+Near reflex efferent pathway
+
+## main_concept
+CON-NEU-514E5FC5F2B410
+
+## concept_ids
+CON-NEU-514E5FC5F2B410
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Trace the near reflex's efferent autonomic pathway from the Edinger-Westphal nucleus through postganglionic parasympathetic fibres.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p38 q160, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p38.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-161
+
+## title
+Structure most implicated in long term potentiation (LTP)
+
+## question
+Which structure most greatly implicated in LTP(long term potentiation)?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Hypothalamus
+
+## explanation_a
+Incorrect. The hypothalamus governs autonomic and endocrine homeostasis, not the synaptic plasticity mechanism of LTP that underlies memory formation.
+
+## answer_b
+Amygdala
+
+## explanation_b
+Incorrect. The amygdala is central to emotional memory (especially fear conditioning) and can show LTP-like plasticity, but the structure most classically and extensively studied for LTP is the hippocampus.
+
+## answer_c
+Hippocampus
+
+## explanation_c
+Correct. The hippocampus, particularly its Schaffer collateral-CA1 synapses, is the structure in which long-term potentiation (LTP) was first discovered and is most extensively studied. It is central to the encoding and consolidation of new declarative (explicit) memories. LTP is considered a key cellular mechanism underlying this memory function.
+
+## answer_d
+Parahippocampal gyrus
+
+## explanation_d
+Incorrect. The parahippocampal gyrus supports memory processing as part of the medial temporal lobe memory system but is not the structure most classically implicated in LTP itself.
+
+## topic
+Learning and memory
+
+## subtopic
+Long-term potentiation and the hippocampus
+
+## main_concept
+CON-NEU-3E780A5DBD4DED
+
+## concept_ids
+CON-NEU-3E780A5DBD4DED
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify the hippocampus as the structure most implicated in long-term potentiation (LTP).
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p38 q161, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p38.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-163
+
+## title
+Value and origin of the endocochlear potential
+
+## question
+The value of the endocochlear potential equals ........... and is caused by secretion of ................... in the endolymph.
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Positive 120 mV, Na+
+
+## explanation_a
+Incorrect. The endocochlear potential is not +120 mV and is not attributed to Na+; endolymph's unusual composition is dominated by K+, secreted by the stria vascularis.
+
+## answer_b
+Positive 80 mV, K+
+
+## explanation_b
+Correct. The endolymph within the scala media (cochlear duct) is unusually rich in K+, secreted by the stria vascularis, and low in Na+. This ionic composition generates a distinctively positive endocochlear potential of about +80 mV relative to perilymph. This large positive potential is the driving force that powers hair cell mechanotransduction currents.
+
+## answer_c
+Negative 60 mV, Ca2+
+
+## explanation_c
+Incorrect. The endocochlear potential is positive, not -60 mV, and this option's ion (Ca2+) is not the one responsible for it.
+
+## answer_d
+Negative 140 mV, K+
+
+## explanation_d
+Incorrect. The endocochlear potential is positive (about +80 mV), not -140 mV, even though K+ is correctly the ion responsible.
+
+## topic
+Auditory physiology
+
+## subtopic
+Endocochlear potential
+
+## main_concept
+CON-NEU-202C3567A294C6
+
+## concept_ids
+CON-NEU-202C3567A294C6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State the value (~+80 mV) and K+-dependent origin of the endocochlear potential.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p38 q163, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p38.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-164
+
+## title
+Structure lying medial to the cavernous sinus
+
+## question
+Which of the following structures lies medial to the cavernous sinus?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+THE trigeminal ganglion.
+
+## explanation_a
+Incorrect. The trigeminal (Gasserian) ganglion lies in a dural recess (Meckel's cave) posterolateral to, not medial to, the cavernous sinus.
+
+## answer_b
+Sphenoidal air sinus
+
+## explanation_b
+Correct. The cavernous sinus sits on either side of the body of the sphenoid bone, which contains the sphenoidal air sinus. The sphenoidal air sinus therefore lies medial to the cavernous sinus. This relationship is of surgical importance in the transsphenoidal approach to the pituitary fossa, which lies between the two cavernous sinuses.
+
+## answer_c
+Diaphragm sellae
+
+## explanation_c
+Incorrect. The diaphragma sellae is the dural roof over the pituitary fossa, superior to the cavernous sinus, not medial to it.
+
+## answer_d
+Uncus of temporal lobe of the brain
+
+## explanation_d
+Incorrect. The uncus of the temporal lobe lies superolateral/lateral to the cavernous sinus (related to its roof/lateral wall region), not medial to it.
+
+## topic
+Cavernous sinus
+
+## subtopic
+Cavernous sinus relations
+
+## main_concept
+CON-NEU-475F4691011072
+
+## concept_ids
+CON-NEU-475F4691011072
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify the sphenoidal air sinus as the structure lying medial to the cavernous sinus.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p39 q164, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p39.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-165
+
+## title
+A statement that is FALSE about the stretch reflex (its afferent limb)
+
+## question
+About stretch reflex, all the following are true Except
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It shows no after discharge and is not rapidly fatigued
+
+## explanation_a
+Incorrect (a true statement, so not the exception). Because the stretch reflex is monosynaptic with a single central synapse, it shows minimal after-discharge and does not fatigue rapidly, unlike polysynaptic reflexes.
+
+## answer_b
+Its afferent limb originates in the α motor neurons.
+
+## explanation_b
+Correct. The stretch reflex's afferent limb originates from the muscle spindle's primary (Ia) sensory afferents, not from alpha motor neurons. Alpha motor neurons instead form the reflex's EFFERENT limb, innervating the extrafusal muscle fibres that contract in response. This mislabelling of the afferent limb's origin is the false statement, the exception, among the four options.
+
+## answer_c
+Stimulation of the afferent limb causes relaxation of the antagonistic muscles.
+
+## explanation_c
+Incorrect (a true statement, so not the exception). Via reciprocal inhibition, Ia afferent collaterals activate an inhibitory interneuron that relaxes the antagonist muscle while the agonist contracts.
+
+## answer_d
+It is a localized monosynaptic reflex.
+
+## explanation_d
+Incorrect (a true statement, so not the exception). The stretch reflex is the classic example of a monosynaptic spinal reflex, and it is localized (segmental) rather than involving widespread multisegmental circuitry.
+
+## topic
+Spinal reflexes
+
+## subtopic
+Stretch (myotatic) reflex afferent limb
+
+## main_concept
+CON-NEU-9F27F5CF195109
+
+## concept_ids
+CON-NEU-9F27F5CF195109
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Correctly identify the muscle spindle's Ia afferents, not alpha motor neurons, as the origin of the stretch reflex's afferent limb.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p39 q165, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p39.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-168
+
+## title
+A characteristic feature of cerebellar Purkinje cells
+
+## question
+Which is a characteristic feature of Purkinje cells in the cerebellum?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+They are large stellate neurons.
+
+## explanation_a
+Incorrect. Purkinje cells are large flask-shaped (not stellate) neurons, with 'stellate' instead describing a different cerebellar interneuron type found in the molecular layer.
+
+## answer_b
+Their axons terminate on the deep cerebellar nuclei.
+
+## explanation_b
+Correct. Purkinje cells are the sole output neurons of the cerebellar cortex. Their axons project out of the cortex to synapse on, and inhibit via GABA, the deep cerebellar nuclei. This is the exclusive route by which cerebellar cortical processing influences the rest of the motor system.
+
+## answer_c
+Their cell bodies are found in the molecular layer.
+
+## explanation_c
+Incorrect. Purkinje cell bodies form their own single-cell-thick layer (the Purkinje cell layer) between the molecular and granular layers, not within the molecular layer itself.
+
+## answer_d
+Their dendrites pass to the granular layer of the cerebellar cortex.
+
+## explanation_d
+Incorrect. Purkinje cell dendrites arborise extensively upward into the molecular layer (to receive parallel and climbing fibre input), not downward into the granular layer.
+
+## topic
+Cerebellar histology
+
+## subtopic
+Purkinje cell structure and output
+
+## main_concept
+CON-NEU-21518A0E0AF8EF
+
+## concept_ids
+CON-NEU-21518A0E0AF8EF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that Purkinje cell axons terminate on (and inhibit) the deep cerebellar nuclei, the cerebellar cortex's sole output route.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p40 q168, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p40.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-170
+
+## title
+A mechanism by which pain sensation can be inhibited
+
+## question
+Pain sensation can be inhibited by:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Releasing of serotonin from the inflamed skin.
+
+## explanation_a
+Incorrect. Serotonin released peripherally at sites of inflammation is a pro-nociceptive (pain-sensitising) mediator, not an inhibitory one.
+
+## answer_b
+Adaptation of nociceptors
+
+## explanation_b
+Incorrect. Nociceptors classically show little to no adaptation (they can even sensitise further with repeated stimulation), unlike many other sensory receptors, so this is not a mechanism of pain inhibition.
+
+## answer_c
+Stimulation of the fibers of thermal sensation carried in the same tract.
+
+## explanation_c
+Incorrect. Thermal fibres travelling in the same anterolateral (spinothalamic) tract as pain fibres is a fact about shared tract routing, not itself a mechanism of pain inhibition.
+
+## answer_d
+Stimulation of opioid receptors.
+
+## explanation_d
+Correct. The descending (endogenous) analgesic system is driven from the periaqueductal grey and raphe nuclei. It acts partly via opioid receptors, both centrally in the dorsal horn (gating nociceptive transmission at the first synapse) and via circulating endogenous opioids such as endorphins and enkephalins, to inhibit pain transmission. This same receptor system is also the basis for exogenous opioid analgesic drugs.
+
+## topic
+Pain physiology
+
+## subtopic
+Endogenous pain inhibition via opioid receptors
+
+## main_concept
+CON-NEU-DB7DF3FAAE521D
+
+## concept_ids
+CON-NEU-DB7DF3FAAE521D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that pain sensation is inhibited by stimulation of opioid receptors, part of the descending analgesic system.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p40 q170, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p40.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-171
+
+## title
+A component of the middle ear
+
+## question
+One component of the middle ear is the:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+incus
+
+## explanation_a
+Correct. The incus is the middle of the three auditory ossicles: malleus, incus, stapes. It sits within the middle ear (tympanic) cavity. It transmits vibration from the malleus to the stapes.
+
+## answer_b
+auricle
+
+## explanation_b
+Incorrect. The auricle (pinna) is part of the external, not middle, ear.
+
+## answer_c
+Organ of Corti
+
+## explanation_c
+Incorrect. The organ of Corti is the sensory epithelium of the inner ear (within the cochlear duct), not the middle ear.
+
+## answer_d
+scala vestibule
+
+## explanation_d
+Incorrect. The scala vestibuli is one of the three fluid-filled compartments of the inner ear cochlea, not a middle ear structure.
+
+## topic
+Ear anatomy
+
+## subtopic
+Middle ear ossicles
+
+## main_concept
+CON-AND-6F809D1372F6FA
+
+## concept_ids
+CON-AND-6F809D1372F6FA
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify the incus as a component of the middle ear, distinct from external- and inner-ear structures.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p40 q171, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p40.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-172
+
+## title
+Identifying the monosynaptic spinal reflex
+
+## question
+Which of the following is a monosynaptic spinal reflex?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+stretch reflex
+
+## explanation_a
+Correct. The stretch (myotatic) reflex is the classic example of a monosynaptic spinal reflex. The muscle spindle's Ia afferent synapses directly onto the alpha motor neuron in the spinal cord. There is no interposed interneuron in its main excitatory arc.
+
+## answer_b
+flexion withdrawal reflex
+
+## explanation_b
+Incorrect. The flexion (withdrawal) reflex is polysynaptic, involving multiple interneurons to coordinate flexor excitation, extensor inhibition, and often the crossed-extensor response in the opposite limb.
+
+## answer_c
+Golgi tendon reflex
+
+## explanation_c
+Incorrect. The Golgi tendon (inverse myotatic) reflex is disynaptic/polysynaptic: the Ib afferent synapses on an inhibitory interneuron, which then inhibits the alpha motor neuron, requiring at least one interposed synapse.
+
+## answer_d
+inverse stretch reflex
+
+## explanation_d
+Incorrect. The inverse stretch reflex is the same Golgi tendon reflex described in option C — disynaptic/polysynaptic, not monosynaptic.
+
+## topic
+Spinal reflexes
+
+## subtopic
+Monosynaptic vs polysynaptic reflex classification
+
+## main_concept
+CON-NEU-332771849CBBC6
+
+## concept_ids
+CON-NEU-332771849CBBC6
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify the stretch reflex as the monosynaptic spinal reflex, distinct from the polysynaptic withdrawal and Golgi tendon reflexes.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p40 q172, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p40.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-174
+
+## title
+Classification of the jugulodigastric lymph node group
+
+## question
+The jugulo-digastric group of lymph nodes belongs to the following groups of lymph node:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Deep vertical
+
+## explanation_a
+Correct. The jugulodigastric node is one of the deep cervical lymph nodes lying along the internal jugular vein, and it belongs to the deep vertical chain. This vertical chain drains the tonsil and tongue base and is a common site of metastasis. This distinguishes it from the horizontal (circular) groups that ring the junction of head and neck.
+
+## answer_b
+Deep horizontal
+
+## explanation_b
+Incorrect. The deep horizontal group is not the classification of the jugulodigastric node, which is a member of the vertical deep cervical chain along the internal jugular vein.
+
+## answer_c
+Superficial vertical
+
+## explanation_c
+Incorrect. The jugulodigastric node is a deep, not superficial, lymph node, lying alongside the internal jugular vein deep to sternocleidomastoid.
+
+## answer_d
+Superficial horizontal
+
+## explanation_d
+Incorrect. The jugulodigastric node is neither superficial nor part of the horizontal group; it is a deep vertical (deep cervical) node.
+
+## topic
+Lymphatic drainage of the head and neck
+
+## subtopic
+Deep cervical lymph node chain
+
+## main_concept
+CON-AND-80E0232928E2F3
+
+## concept_ids
+CON-AND-80E0232928E2F3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Classify the jugulodigastric lymph node as a member of the deep vertical (deep cervical) chain.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p41 q174, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p41.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-175
+
+## title
+Blood glucose level at which convulsions occur
+
+## question
+Convulsions occur at which blood glucose level?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+80 mg/dl
+
+## explanation_a
+Incorrect. 80 mg/dl is within (or close to) the normal fasting glucose range and would not itself provoke neuroglycopenic convulsions.
+
+## answer_b
+100 mg/dl
+
+## explanation_b
+Incorrect. 100 mg/dl is a normal fasting glucose value, well above the level at which severe hypoglycemic neuroglycopenia and convulsions occur.
+
+## answer_c
+60 mg/dl
+
+## explanation_c
+Incorrect. 60 mg/dl is a mild hypoglycemic level that typically triggers only early autonomic (adrenergic) warning symptoms, not yet the severe neuroglycopenia that provokes convulsions.
+
+## answer_d
+40 mg/d
+
+## explanation_d
+Correct. The brain depends almost entirely on glucose for its energy supply. Severe hypoglycemia, blood glucose falling to roughly 40 mg/dl or below, causes marked neuroglycopenia. This can progress to confusion, seizures (convulsions), and, if uncorrected, coma.
+
+## topic
+Glucose homeostasis
+
+## subtopic
+Hypoglycemic neuroglycopenia and convulsions
+
+## main_concept
+CON-NEU-5BC9E1060D7B93
+
+## concept_ids
+CON-NEU-5BC9E1060D7B93
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that convulsions occur at severely low blood glucose levels (approximately 40 mg/dl), due to neuroglycopenia.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p41 q175, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p41.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-176
+
+## title
+A feature that is NOT part of lower motor neuron lesion (LMNL)
+
+## question
+Which of the following is NOT a feature of lower motor neuron lesion (LMNL)
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+hypotonia.
+
+## explanation_a
+Incorrect (a true LMNL feature, so not the exception). Loss of the lower motor neuron's tonic input to the muscle produces hypotonia (flaccidity).
+
+## answer_b
+absent deep reflexes.
+
+## explanation_b
+Incorrect (a true LMNL feature, so not the exception). Interruption of the reflex arc's efferent limb abolishes deep tendon reflexes in LMNL.
+
+## answer_c
+.muscle atrophy.
+
+## explanation_c
+Incorrect (a true LMNL feature, so not the exception). Denervation removes the trophic influence of motor innervation, producing marked muscle atrophy (wasting) in LMNL.
+
+## answer_d
+spasticity.
+
+## explanation_d
+Correct. Spasticity, increased tone from loss of descending inhibitory control, is a feature of UPPER, not lower, motor neuron lesion. LMNL instead produces hypotonia/flaccidity, the opposite of spasticity. This makes spasticity the exception among the four options.
+
+## topic
+Motor neuron lesions
+
+## subtopic
+Lower motor neuron lesion features
+
+## main_concept
+CON-NEU-92AC1020883A5F
+
+## concept_ids
+CON-NEU-92AC1020883A5F
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Distinguish LMNL's hypotonic features from upper motor neuron lesion's spasticity.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p41 q176, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p41.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-177
+
+## title
+Identifying the pure sensory cranial nerve
+
+## question
+Which of the following nerves is pure sensory:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Facial
+
+## explanation_a
+Incorrect. The facial nerve is a mixed nerve, carrying special visceral efferent motor fibres to the muscles of facial expression as well as taste and parasympathetic components.
+
+## answer_b
+Abducent
+
+## explanation_b
+Incorrect. The abducent nerve is a pure motor (not sensory) nerve, supplying the lateral rectus muscle.
+
+## answer_c
+Vestibulocohlear
+
+## explanation_c
+Correct. The vestibulocochlear nerve (CN VIII) carries only special sensory fibres, for hearing (cochlear division) and balance (vestibular division). It has no motor component of any kind. This makes it a pure sensory cranial nerve.
+
+## answer_d
+Trigeminal
+
+## explanation_d
+Incorrect. The trigeminal nerve is a mixed nerve, carrying general sensation from the face as well as motor fibres (via its V3 division) to the muscles of mastication.
+
+## topic
+Cranial nerves
+
+## subtopic
+Pure sensory vs mixed cranial nerve classification
+
+## main_concept
+CON-NEU-C85B9D80F8D7B9
+
+## concept_ids
+CON-NEU-C85B9D80F8D7B9
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+Identify the vestibulocochlear nerve as a pure sensory cranial nerve.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p42 q177, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p42.
+
+---
+
+# Item
+
+## id
+QST-AUMED203-COMP1-181
+
+## title
+Kinocilium position in the horizontal semicircular canal's crista ampullaris
+
+## question
+Crista ampullaris, in the horizontal semicircular canal (SCC)
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Contains a single stereocilium
+
+## explanation_a
+Incorrect. Each hair cell of the crista ampullaris has multiple stereocilia (not a single one) arranged in rows of increasing height, plus a single kinocilium.
+
+## answer_b
+Has multiple kinocilla.
+
+## explanation_b
+Incorrect. Each hair cell has a single kinocilium (not multiple), located at the tallest edge of its stereocilia bundle.
+
+## answer_c
+Kinocilium lies towards the utricle
+
+## explanation_c
+Correct. In the horizontal semicircular canal specifically, each hair cell's single kinocilium is positioned on the side of the stereocilia bundle facing the utricle. Deflection of the stereocilia toward this utricle-facing kinocilium, ampullopetal flow, depolarizes the cell. This is the opposite orientation to the vertical (anterior/posterior) canals, where ampullofugal flow is instead the excitatory direction.
+
+## answer_d
+Depolarizes with the stereocilia deviated away from the kinocilium
+
+## explanation_d
+Incorrect. Deviation of the stereocilia TOWARD (not away from) the kinocilium is what depolarizes a vestibular hair cell; deviation away from the kinocilium hyperpolarizes it.
+
+## topic
+Vestibular system
+
+## subtopic
+Crista ampullaris hair cell polarization (horizontal canal)
+
+## main_concept
+CON-NEU-464CD5EB3C1859
+
+## concept_ids
+CON-NEU-464CD5EB3C1859
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y2=moderate
+
+## years
+AU_Y2
+
+## universities
+au
+
+## module
+AU-MED-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## resource_ids
+src_27a0ccf21cff0f58e6e3
+
+## learning_objective
+State that the horizontal semicircular canal's crista ampullaris has its kinocilium positioned toward the utricle.
+
+## source_citation
+AU-MED-203 Previous Years CNS MCQ compilation, p42 q181, inline per-page answer key.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: inline per-page answer line, p42.

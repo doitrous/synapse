@@ -347,3 +347,67 @@ listed in `coverage/MU-Y1-priority-sources.md` §MU-MED102. **Spot-check
 each paper's own key convention before rendering** — this module has now
 shown three different conventions across its four department pairs so far
 (grey highlight, red-text/bold/underline, pink highlight-fill).
+
+## Addendum — lane 5
+
+Pathology Ch1-4 (`mu_06d285d2c2e5561da937`, questions-only file): sampled
+pages 1, 6, 9 by direct render across the file's span — **no recoverable
+answer key anywhere**, only decorative yellow stem-highlighting with no
+option-level marking. Held in bulk, not authored. **NEEDS-OMAR**: this
+paper cannot be authored without a source of truth for correct answers
+(an answers copy, or confirmation the highlighting means something we're
+not seeing).
+
+Pathology Ch5-6 (`mu_d3e6f879820d642d33f6` Questions /
+`mu_11999c1093082353caec` Answers, 16pp each): key convention is
+**purple/violet highlight-fill** — a 4th distinct convention for this
+module, and one `pagetext.mjs keys` detects almost nothing on. Confirmed
+by manually rendering and visually reading all 16 pages of the Answers
+copy against the Questions copy; do not trust the automated `keys`
+subcommand on this file.
+
+63 candidate MCQs found; 55 authored, 8 held (4 exact duplicates, 2
+free-text/non-MCQ items, 1 image-dependent item, 1 further duplicate —
+see seed `field_notes`/hold reasons in
+`seeds/MU-MED102/pathology-ch56-past-exam.json`).
+
+Concept search found 5 exact-grain reuse hits, all overlaid this dispatch
+into `pending-live/MU-MED102-overlay-concepts.md`: myositis ossificans
+(`CON-FND-2A6D478CFC27ED`, from AUN-MPT-104), carcinoma in situ
+(`CON-FND-91B66B24922754`, from Kasr 208-INT), Krukenberg tumour
+(`CON-FND-9B1EE27764E33C`, from Kasr 208-INT), lipoma
+(`CON-FND-98883162BD988A`, from AUN-MPT-104), leiomyoma
+(`CON-FND-3965F7DB0C47DC`, from AUN-MPT-104). Note for the next author:
+reusing an externally-minted concept as `main_concept` requires the
+question's own `library_ids` to point at *that concept's own*
+`## article_ids` article (not this lane's local article) — the validator
+checks concept.article_ids ∩ question.library_ids, not the article's
+`related_concepts`. When gating/simulating, pass the origin university's
+full concept file (not just its article file) via `--with`/positionally,
+or the sparse overlay stub resolves instead of the real definition and
+the coverage check still fails.
+
+28 new concepts minted (consolidated teaching topics, not 1:1 per
+question-fact — e.g. one "benign vs malignant criteria" concept covers
+several distinct stems). All 28 fold into the existing
+`ART-MU102-PATHOLOGY-BASICS` article in place (title/summary rewritten,
+`related_concepts`/`aliases` extended, one clause appended per section),
+taking it from 9 facts to 37.
+
+Batch: `question/MU-MED102-pathology-ch56-mcq.md` (55 items, seed
+`seeds/MU-MED102/pathology-ch56-past-exam.json`). `medical:batch` errors
+0 (with `--with` covering this lane's own concept/article/evidence/
+overlay files plus AUN-MPT-104 and 208-INT's concept+article pairs);
+positional `medical:simulate` (11 files: this batch + its own concept/
+article/evidence/overlay set + the AUN-MPT-104 and 208-INT concept+
+article pairs) rejected 0/errors []. Landed `cff83907`.
+
+Resume-first for the next dispatch: 2 remaining tier-1 department pairs —
+Pathology Past Exams (`mu_f9e1ea2076475a255e81`, questions only — check
+for an in-file/highlighted key before rendering, may also lack a key like
+Ch1-4 did) and Pharmacology
+(`mu_19f4e145470925af9bb1`/`mu_2e666d9f998028e726b7`). **Spot-check each
+paper's own key convention before rendering** — this module has now shown
+4 different conventions across its department pairs so far (grey
+highlight, red-text/bold/underline, pink highlight-fill, purple/violet
+highlight-fill).

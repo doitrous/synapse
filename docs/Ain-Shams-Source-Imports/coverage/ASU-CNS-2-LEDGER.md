@@ -2,6 +2,7 @@
 |---|---:|---:|---:|---:|
 | cerebellar-tumors-mcq | 11 | 2 | 0 | 13 |
 | infections-mcq | 39 | 6 | 0 | 45 |
+| neurodegenerative-diseases-mcq | 56 | 2 | 0 | 58 |
 
 ## Held
 - cerebellar-tumors-q12 — within-file duplicate of this batch's own item 1 — item 12 ("A pathologist identifies a cerebellar tumor with 'Homer Wright rosettes.' This histologic feature is characteristic of which tumor? Answer: B [Medulloblastoma (classical)]") restates the identical Homer Wright rosettes → medulloblastoma fact already captured by cerebellar-tumors-q01
@@ -12,6 +13,8 @@
 - infections-q52-hold — within-file duplicate of item 39 (infections-q26) — restates the identical viral meningitis CSF glucose (normal/not markedly decreased) fact already captured, framed as a negative-exception question.
 - infections-q54-hold — within-file duplicate of item 31 (infections-q19) — restates the identical tuberculous meningitis CSF protein elevation fact already captured.
 - infections-q55-hold — within-file duplicate of item 28 (infections-q16) — restates the identical perivascular mononuclear infiltrates -> viral encephalitis fact already captured.
+- q10-dup — duplicate of item 1 — restates 'neurons related by function not physical location'
+- q23-dup — duplicate of item 15 — restates the alpha-secretase/non-amyloidogenic-pathway fact
 
 ## Remaining
 (none)

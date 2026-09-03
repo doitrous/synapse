@@ -1,7 +1,43 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | 1stass-2018 | 2 | 28 | 0 | 30 |
+| 1stass-2019 | 0 | 33 | 0 | 33 |
+| 1stass-2020 | 5 | 27 | 0 | 32 |
+| 2ndass-2019 | 4 | 31 | 0 | 35 |
+| 2ndass-2020 | 3 | 30 | 0 | 33 |
 | anatomy-mcq | 60 | 21 | 0 | 81 |
+| cns-ass1-anat1 | 0 | 0 | 1 | 1 |
+| cns-ass1-anat2 | 0 | 0 | 1 | 1 |
+| cns-ass1-anat3 | 0 | 0 | 1 | 1 |
+| cns-ass1-anat4 | 0 | 0 | 1 | 1 |
+| cns-ass1-anat5 | 0 | 0 | 1 | 1 |
+| cns-ass1-anat6 | 0 | 0 | 1 | 1 |
+| cns-ass1-anat7 | 0 | 0 | 1 | 1 |
+| cns-ass1-anat8 | 0 | 0 | 1 | 1 |
+| cns-ass1-bio1 | 0 | 0 | 1 | 1 |
+| cns-ass1-bio2 | 0 | 0 | 1 | 1 |
+| cns-ass1-bio3 | 0 | 0 | 1 | 1 |
+| cns-ass1-bio4 | 0 | 0 | 1 | 1 |
+| cns-ass1-bio5 | 0 | 0 | 1 | 1 |
+| cns-ass1-bio6 | 0 | 0 | 1 | 1 |
+| cns-ass1-bio7 | 0 | 0 | 1 | 1 |
+| cns-ass1-histo1 | 0 | 0 | 1 | 1 |
+| cns-ass1-histo2 | 0 | 0 | 1 | 1 |
+| cns-ass1-histo3 | 0 | 0 | 1 | 1 |
+| cns-ass1-patho1 | 0 | 0 | 1 | 1 |
+| cns-ass1-pharm1 | 0 | 0 | 1 | 1 |
+| cns-ass1-pharm2 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio1 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio10 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio11 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio2 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio3 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio4 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio5 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio6 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio7 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio8 | 0 | 0 | 1 | 1 |
+| cns-ass1-physio9 | 0 | 0 | 1 | 1 |
 | cns-assessment1 | 5 | 27 | 0 | 32 |
 | final2024-mcq | 20 | 14 | 0 | 34 |
 | finalp2-2024-mcq | 30 | 3 | 0 | 33 |
@@ -45,6 +81,127 @@
 - 1stass2018-q27 — duplicate of this lane's own existing concept (conus medullaris ends at L1/L2, dural sac to S2) — item 27 ("S2")
 - 1stass2018-q28 — duplicate of this lane's own existing concept (sympathetic outflow extends caudally to L2) — item 28 ("L2")
 - 1stass2018-q30 — insufficient/factually ambiguous printed key — item 30 ("Spinal cord has 3 enlargement") has no surviving answer, and standard teaching names only two enlargements (cervical, lumbar), held for Omar/source verification
+- 1stass2019-q01 — biochemistry, out of this lane's neuro subject scope — item 1 ("NADPH / Antioxidant synthesized in astrocyte -What's the role of HMP (PPP)?!")
+- 1stass2019-q02 — insufficient printed key — item 2 ("unencapsulated") is a bare heading with no surviving clue
+- 1stass2019-q03 — duplicate of this lane's own existing concept (GABA acting on a postsynaptic GABA-A receptor increases chloride ion permeability) — item 3 ("Cl- (GABA inhibitory : inc Cl influx )")
+- 1stass2019-q04 — garbled/insufficient printed key — item 4 ("T11 vertebra (L3 spinal nerve ) (-4)") carries an unexplained "(-4)" annotation that makes reliable reconstruction unsafe
+- 1stass2019-q05 — duplicate of this lane's own existing concept (sensory supply to the upper eyelid is carried by the ophthalmic division V1 of the trigeminal nerve) — item 5 ("Upper eyelid (trigeminal nerve supplies)")
+- 1stass2019-q06 — insufficient printed key — item 6 ("Buccinator") is a bare heading with no surviving clue
+- 1stass2019-q07 — duplicate of this lane's own existing concept (Wernicke's area and thought formulation) — item 7 (Arabic clue describing a patient unable to understand new languages/speech, keyed "39,40"/Wernicke's area)
+- 1stass2019-q08 — insufficient printed key — item 8 ("Primary motor area") is a bare heading with no surviving clue
+- 1stass2019-q09 — biochemistry/metabolic, out of this lane's neuro subject scope — item 9 ("Glutamine (increases in hyperammoniemia)")
+- 1stass2019-q10 — biochemistry, out of this lane's neuro subject scope, insufficient clue — item 10 ("Tryptophan")
+- 1stass2019-q11 — biochemistry, out of this lane's neuro subject scope, garbled — item 11 ("Glycine (precursor of methylene )")
+- 1stass2019-q12 — biochemistry, out of this lane's neuro subject scope, matches this lane's own precedent PLP hold — item 12 ("PLP")
+- 1stass2019-q13 — insufficient printed key — item 13 ("embedded in white matter") has no surviving clue
+- 1stass2019-q14 — duplicate of this lane's own existing concept (the oculomotor nucleus lies in the midbrain at the level of the superior colliculus, not the medulla) — item 14 ("occulomotor nuclues", Arabic clue about what is not in the open medulla)
+- 1stass2019-q15 — insufficient printed key — item 15 ("naloxone") is a bare heading with no surviving clue
+- 1stass2019-q16 — duplicate-adjacent to this lane's own existing concept (haloperidol and tardive dyskinesia) — item 16 ("halopridone", Arabic clue about drug-induced parkinsonism) restates the same haloperidol-extrapyramidal-effects topic from a different angle, held rather than minting a near-duplicate
+- 1stass2019-q17 — garbled/insufficient printed key, the source's own Arabic annotation flags this item as uncertain ("question was actually from the lecture, not the book") — item 17 ("particular least", Muller's law)
+- 1stass2019-q18 — insufficient printed key — item 18 ("diminish sensation in presence of stimulus") has no surviving clue identifying the question
+- 1stass2019-q19 — insufficient printed key — item 19 ("less convergence") has no surviving clue
+- 1stass2019-q20 — duplicate of this lane's own existing concept (the intralaminar thalamic nuclei are the principal thalamic relay of the paleospinothalamic slow, diffuse pain pathway) — item 20 ("non specific thalamic nuclei", slow pain doesn't reach the cortex)
+- 1stass2019-q21 — duplicate of this lane's own existing concept (internal arcuate fibres, gracile/cuneate pathway) — item 21 ("internal arcuate")
+- 1stass2019-q22 — duplicate of this lane's own existing concept (in the internal capsule, corticospinal fibres for the lower limb run in the posterior limb, the face at the genu) — item 22 ("posterior limb", pyramidal tract passes in the internal capsule)
+- 1stass2019-q23 — insufficient printed key — item 23 ("a gamma coactivation") has no surviving clue
+- 1stass2019-q24 — insufficient printed key — item 24 ("inhibitory internuerons") has no surviving clue
+- 1stass2019-q25 — duplicate of this lane's own existing concept (the supplementary motor area is involved in bilateral, planned movement coordination) — item 25 ("control complex bilateral hand movement", Arabic clue about the motor area initiating skilled unilateral movements), also within-batch duplicate of this same lane's cluster 10 paper1-2020 item 30's clearer version
+- 1stass2019-q26 — duplicate of a concept already pending in this lane's cross-university queue (Brown-Séquard syndrome: ipsilateral dorsal column loss, contralateral pain/temperature loss, AU-MED-203) — item 26 ("loss of dorsal column sensation below on the same side")
+- 1stass2019-q27 — duplicate of a concept already pending in this lane's cross-university queue (Brown-Séquard syndrome, same concept as item 26) — item 27 ("loss of pain and temperature on right side")
+- 1stass2019-q28 — duplicate of this lane's own existing concept (the corticostriatal projection from cortex to striatum is glutamatergic) — item 28 ("glutamenirgic", Arabic clue about the type of substance cortex sends to corpus striatum)
+- 1stass2019-q29 — insufficient printed key — item 29 ("pontocerebellar") is a bare heading with no surviving clue
+- 1stass2019-q30 — duplicate of this lane's own existing concept (the flocculonodular lobe/vestibulocerebellum is principally concerned with equilibrium and balance), also within-batch duplicate of this same lane's cluster 10 paper1-2020 item 27's clearer version — item 30 ("equilibrium and position")
+- 1stass2019-q31 — garbled/insufficient printed key — item 31 ("floor of body") does not parse into a reconstructable question
+- 1stass2019-q32 — duplicate-adjacent to this lane's own existing concept (the nucleus ambiguus is already covered as the origin of the accessory cranial root) — item 32 ("glossopharyngeal", Arabic clue about the nerve of the ambiguous nucleus)
+- 1stass2019-q33 — insufficient printed key — item 33 ("loose aerolar connective tissue") has no surviving clue
+- 1stass2020-q01 — duplicate of this lane's own existing concept (Wernicke-Korsakoff syndrome results from thiamine deficiency, classically in chronic alcoholics) — item 1 ("Wernicke korsakoff / Chronic alcoholic deficiency in thiamine")
+- 1stass2020-q03 — duplicate-adjacent to this lane's own existing concept (Clarke's nucleus/dorsal spinocerebellar tract origin, AU-MED-203) and the printed clue is internally ambiguous — item 3 ("Clarke n in 7 lamina grey matter / Seen in cervical segment internal structures")
+- 1stass2020-q04 — insufficient printed key — item 4 ("withdrawal and free nerve ending / Matching with each other") is a vague matching pair with no clear question
+- 1stass2020-q05 — duplicate-adjacent to this lane's own existing concept (the basilar artery supplies the brainstem, so its occlusion causes brainstem ischaemia) — item 5 ("basilar a. / its branches supplying Pons")
+- 1stass2020-q06 — duplicate-adjacent to this lane's own existing concept (thermal nociceptor thresholds) — item 6 ("inc in local poatassium / what stimulate pain receptors"), held to avoid piling a second pain-receptor-modality fact onto an already-covered nociceptor concept
+- 1stass2020-q07 — duplicate-adjacent to this lane's own existing concepts (crude touch has poor intensity discrimination and localization; crude touch travels in the ventral spinothalamic tract) — item 7 ("crude touch is carried on A delta") would be a third fact on an already thoroughly-covered topic
+- 1stass2020-q08 — duplicate of this lane's own existing concept (kinesthetic sensation ascends via the gracile and cuneate fasciculi, lower limb via fasciculus gracilis) — item 8 ("Gracile n. conscious proprioception from lower limb")
+- 1stass2020-q09 — garbled/insufficient printed key — item 9 ("Dendrites of granular with mossy In cerebellum / cerebellar ataxia, which structure with lesion") does not reliably identify a single question
+- 1stass2020-q10 — duplicate of this lane's own existing concept (syringomyelia causes a dissociated sensory loss, pain and temperature lost, touch preserved) — item 10 ("loss of pain and temp with preserve touch / Dissociative sensory loss in syringemyelia")
+- 1stass2020-q11 — duplicate of this lane's own existing concept (methadone's much longer half-life produces fewer withdrawal symptoms) — item 11 ("Methadone / Longer acting less with drawal pure opiod agonist")
+- 1stass2020-q12 — duplicate of this lane's own existing concept (amantadine and livedo reticularis) — item 12 ("amantadine / Livido reticularis")
+- 1stass2020-q13 — biochemistry (maple syrup urine disease), out of this lane's neuro subject scope — item 13 ("Branched chain amino acid dehydrogenase complex : burned sugar urine")
+- 1stass2020-q14 — biochemistry, out of this lane's neuro subject scope, matches this lane's own precedent homocysteine/methionine hold — item 14 ("Homocysteine to methionine / Folic acid and B12")
+- 1stass2020-q15 — duplicate of this lane's own existing concept (Pacinian corpuscle and vibration sense) — item 15 ("Pacinian / Vibration sense")
+- 1stass2020-q16 — duplicate-adjacent to this lane's own existing concept (fine-touch receptors include Meissner and Merkel) — item 16 ("found in Epidermis of skin / free nerve ending and merkles disc common feature")
+- 1stass2020-q17 — duplicate-adjacent to this lane's own existing concept (ankle clonus is driven by increased gamma motor neuron discharge) — item 17 ("Gamma motor n / Axon form synaptic junction with intrafusal ms fibers")
+- 1stass2020-q19 — duplicate of this lane's own existing concept (glutamate is the principal excitatory neurotransmitter of the CNS) — item 19 ("glutamate / Principal excitatory")
+- 1stass2020-q20 — biochemistry, out of this lane's neuro subject scope — item 20 ("ALT / Transaminase")
+- 1stass2020-q21 — duplicate of this lane's own existing concept (emissary veins are valveless connections between dural venous sinuses and extracranial scalp veins) — item 21 ("Emissionary veins / Spread of infection to superior sagittal sinus thrombosis")
+- 1stass2020-q23 — duplicate-adjacent to this lane's own existing concepts (trochlear nerve decussation at the inferior collicular level; trochlear nerve piercing the dura where the tentorium's margins cross) — item 23 ("trochlear n / Back of brain stem") would be a third fact on an already thoroughly-covered nerve
+- 1stass2020-q24 — duplicate of this lane's own existing concept (the Edinger-Westphal nucleus is a general visceral efferent GVE column nucleus) — item 24 ("gVE / Edinger westephal n")
+- 1stass2020-q25 — duplicate of this lane's own existing concept (Wernicke's area and thought formulation), also within-batch duplicate of this same lane's cluster 10 paper1-2019 item 7 — item 25 ("Wernicke Area / Receptive aphasia")
+- 1stass2020-q26 — duplicate of this lane's own existing concept (the tectospinal tract turns the head toward a visual stimulus and crosses at the superior colliculus) — item 26 ("Tectospinal / Extrapyramidal adjust the head in response to visual and cutaneous stimulation")
+- 1stass2020-q27 — duplicate of this lane's own existing concept (the flocculonodular lobe/vestibulocerebellum is principally concerned with equilibrium and balance) — item 27 ("Equilibrium and posture / Floceulonodular lobe function")
+- 1stass2020-q29 — duplicate-adjacent to this lane's own existing concept (climbing fibres arise from the inferior olivary nucleus) — item 29 ("Main olivary nucleus / In level of open medulla") would be a second fact about an already-covered nucleus
+- 1stass2020-q30 — duplicate of this lane's own existing concept (the supplementary motor area is involved in bilateral, planned movement coordination) — item 30 ("Bilateral complex hand movements by Supplementary motor area")
+- 1stass2020-q31 — insufficient printed key — item 31 ("Touch receptors rapidly adapting") does not identify which receptor the question asked about
+- 2ndass2019-q01 — duplicate-adjacent to this lane's own existing concept (the caudate nucleus and putamen form the neostriatum, the globus pallidus the paleostriatum) — item 1 ("ventroanterior / Globes pallidus sends to which nucleus of thalamus VA")
+- 2ndass2019-q03 — insufficient printed key — item 3 ("anencephaly (embryology )") is a bare heading with no surviving clue about what the question actually asked
+- 2ndass2019-q04 — within-batch duplicate of this same lane's cluster 10 paper2-2020 item 16's clearer version (sleepwalking is a parasomnia of NREM sleep), also a duplicate of this lane's own existing concept — item 4 ("sleep walking and talking")
+- 2ndass2019-q05 — duplicate of this lane's own existing concept (ketamine is the preferred induction anaesthetic in hypotensive patients because it maintains blood pressure) — item 5 ("ketamine / Used in bronchial asthma and hypotension")
+- 2ndass2019-q06 — duplicate-adjacent to this lane's own existing concept (mirtazapine is an antidepressant with a distinct NaSSA mechanism) — item 6 ("mirtazapine / No sexual dysfunction") restates the same drug's differentiating profile from a different angle
+- 2ndass2019-q07 — insufficient printed key — item 7 ("lorazepam") is a bare heading with no surviving clue
+- 2ndass2019-q08 — within-batch duplicate of this same lane's cluster 10 paper2-2020 item 12's clearer version, also a duplicate of this lane's own existing concept (carbamazepine causes dilutional hyponatraemia via SIADH) — item 8 ("carbamazine")
+- 2ndass2019-q09 — duplicate-adjacent to this lane's own existing concept (extracranial headache is a form of referred pain from pain-sensitive extracranial structures) — item 9 ("propranalol / Prophylaxis of migraine")
+- 2ndass2019-q11 — insufficient printed key — item 11 ("tachycardia") is a bare heading with no surviving clue
+- 2ndass2019-q12 — duplicate-adjacent to this lane's own existing concept (anterior cerebral artery central/perforating branches supply deep basal ganglia/internal capsule structures) — item 12 ("anterior cerebral / Blood supply of Genu")
+- 2ndass2019-q13 — insufficient printed key, also duplicate of this lane's own existing concept (Charcot-Bouchard microaneurysms/circle of Willis already covered) — item 13 ("circle of willis")
+- 2ndass2019-q14 — insufficient printed key — item 14 ("mylohyoid and hyoglossus") is a bare heading with no surviving clue
+- 2ndass2019-q15 — insufficient printed key — item 15 ("purkinji cells") is a bare heading with no surviving clue
+- 2ndass2019-q17 — duplicate of this lane's own existing concept (Broca's area, responsible for expressive/motor language, occupies the inferior frontal gyrus) — item 17 ("brocas area / Word production")
+- 2ndass2019-q18 — microbiology, out of this lane's neuro subject scope — item 18 ("canned food with toxin", botulism)
+- 2ndass2019-q19 — obstetric/microbiology, out of this lane's neuro subject scope — item 19 ("iv ampicillin at the time of deleviry", GBS intrapartum prophylaxis)
+- 2ndass2019-q20 — microbiology, out of this lane's neuro subject scope — item 20 ("coxakie a virus")
+- 2ndass2019-q21 — insufficient printed key, immunology out of this lane's neuro subject scope — item 21 ("IM vaccine two doses")
+- 2ndass2019-q22 — duplicate of this lane's own existing concept (Charcot-Bouchard microaneurysms are the classic cause of hypertensive intracerebral haemorrhage), insufficient standalone clue — item 22 ("charcot buchard aneurysm")
+- 2ndass2019-q23 — insufficient printed key — item 23 ("glioblastoma") is a bare heading with no surviving clue
+- 2ndass2019-q24 — insufficient printed key — item 24 ("parkinsonism") is a bare heading with no surviving clue
+- 2ndass2019-q25 — insufficient printed key — item 25 ("superior sagittal") is a bare heading with no surviving clue
+- 2ndass2019-q26 — garbled printed key, the source's own question mark flags this item as uncertain — item 26 ("anterior and posterior / Ansa and cervical plexus ??")
+- 2ndass2019-q27 — biochemistry/genetics (Fabry disease), out of this lane's neuro subject scope — item 27 ("alpha galactocidase a")
+- 2ndass2019-q28 — parasitology, out of this lane's neuro subject scope — item 28 ("spargnosis", sparganosis)
+- 2ndass2019-q29 — microbiology, out of this lane's neuro subject scope — item 29 ("non nutrient agar with E.coli", amoeba culture technique)
+- 2ndass2019-q30 — community medicine (disability-adjusted life years statistic), out of this lane's neuro subject scope — item 30 ("17.4 of years lived with disability")
+- 2ndass2019-q31 — insufficient printed key — item 31 ("investing fascia") is a bare heading with no surviving clue
+- 2ndass2019-q32 — duplicate of this lane's own existing concept (the excitatory reticular formation shows spontaneous intrinsic neuronal activity) — item 32 ("intrinsic acitvity / RAS system characterized by")
+- 2ndass2019-q33 — insufficient printed key, factually ambiguous reconstruction (odour discrimination is classically a paleocortical/limbic, not neocortical, function) — item 33 ("odor disCrimiNatioN / Neocortex")
+- 2ndass2019-q34 — duplicate of this lane's own existing concept (the categorical/dominant hemisphere specialises in language and mathematical/analytic operations) — item 34 ("language / Function of categorical hemisphere")
+- 2ndass2020-q02 — duplicate-adjacent to this lane's own existing concept (hyalinized centres of meningioma whorls may calcify to form psammoma bodies), within-batch duplicate of this same lane's item 1 on the same tumour — item 2 ("Chronic abccess / Ring enhancement")
+- 2ndass2020-q03 — microbiology (Listeria), out of this lane's neuro subject scope — item 3 ("tumpling motility / Catalase +ve gram positive bacilli")
+- 2ndass2020-q04 — general (non-neuro) head-and-neck anatomy, out of this lane's neuro subject scope — item 4 ("superior omohyiod / Carotid and muscular triangles")
+- 2ndass2020-q05 — microbiology/community medicine, out of this lane's neuro subject scope — item 5 ("Asymptomatic majority un immunized children infected with poliomyelitis")
+- 2ndass2020-q06 — duplicate-adjacent to this lane's own existing concept (the cingulum completes the Papez circuit, returning fibres from the cingulate gyrus to the hippocampal formation) — item 6 ("cingulum / Different areas in same hemisphere")
+- 2ndass2020-q07 — duplicate-adjacent to this lane's own existing concept (the EEG records summated spontaneous postsynaptic potentials of cortical pyramidal neurons) — item 7 ("EEG spontaneous brain activity recorded")
+- 2ndass2020-q08 — duplicate of this lane's own existing concept (the excitatory reticular formation shows spontaneous intrinsic neuronal activity), within-batch duplicate of this same lane's cluster 10 paper2-2019 item 32 — item 8 ("intrinsic activity / RAS has")
+- 2ndass2020-q10 — duplicate-adjacent to this lane's own existing concepts (GABA-A receptor chloride permeability; flumazenil as benzodiazepine antidote) — item 10 ("Zolpidem / Facilitation of gaba no effect on anxiety reversed by flumazenil")
+- 2ndass2020-q11 — duplicate of this lane's own existing concept (the deep petrosal nerve joins the greater petrosal nerve to pass through the pterygopalatine ganglion, i.e. the nerve of the pterygoid canal) — item 11 ("Great petrosal and deep petrosal n / Nerve to pterygoid canal")
+- 2ndass2020-q12 — duplicate of this lane's own existing concept (carbamazepine causes dilutional hyponatraemia via SIADH), within-batch duplicate of this same lane's cluster 10 paper2-2019 item 8 — item 12 ("carbamazepin / Water intoxication")
+- 2ndass2020-q13 — duplicate-adjacent to this lane's own existing concept (mirtazapine's NaSSA mechanism), within-batch duplicate of this same lane's cluster 10 paper2-2019 item 6 — item 13 ("mirtazapem / No sexual dysfunction")
+- 2ndass2020-q15 — garbled/factually ambiguous printed key — item 15 ("Oligodendrocytes / Melanin formation") cannot be reliably reconstructed without risking a factual error
+- 2ndass2020-q16 — duplicate of this lane's own existing concept (sleepwalking, somnambulism, is a parasomnia of non-REM sleep) — item 16 ("walking talking / Nrem")
+- 2ndass2020-q17 — garbled printed key (translation artefacts, unclear disease entity) — item 17 ("frog / Glistening mass elongated 20cm in left occipital lobe") cannot be reliably reconstructed
+- 2ndass2020-q18 — duplicate of this lane's own existing concept (the superior sagittal sinus receives venous blood from the superior cerebral veins) — item 18 ("superior sagittal sinus / Superior cerebral vein")
+- 2ndass2020-q19 — duplicate-adjacent to this lane's own existing concept (CSF leaves the fourth ventricle via the foramina of Luschka and Magendie) — item 19 ("cisterna magna / 4th ventricle 3 foramina")
+- 2ndass2020-q20 — duplicate of this lane's own existing concept (the cerebral aqueduct is a common site of obstruction, producing non-communicating hydrocephalus) — item 20 ("aqueduct of sylvius / Obstructed in lateral and third ventricle dilatation")
+- 2ndass2020-q21 — duplicate-adjacent to this lane's own existing concept (pain/temperature from the face relayed via the trigeminal system) — item 21 ("mental nerve / Vesicles VZV in chin and lower lips dermatomal affection")
+- 2ndass2020-q22 — duplicate-adjacent to this lane's own existing concept (the auriculotemporal nerve's postganglionic route to the parotid gland already covered) — item 22 ("auricultemporal / TMJ pain transmitted by")
+- 2ndass2020-q23 — general (non-neuro) skull anatomy, out of this lane's neuro subject scope — item 23 ("perpendicular plate of palatine / Medial wall of pterygopalatine fossa")
+- 2ndass2020-q24 — microbiology, out of this lane's neuro subject scope — item 24 ("H influenza / Gram negative bacilli, chocolate agar")
+- 2ndass2020-q25 — parasitology, out of this lane's neuro subject scope — item 25 ("usually fatal / Naegleria Acute primary amoebic meningoencephalitis")
+- 2ndass2020-q26 — insufficient printed key — item 26 ("weak nasal 'flacid dysarthria'") does not name the underlying lesion/disease
+- 2ndass2020-q27 — duplicate of this lane's own existing concept (rivastigmine is the anticholinesterase used for Alzheimer's disease) — item 27 ("rivastagmine / Ttt of Alzheimer ds")
+- 2ndass2020-q28 — duplicate of this lane's own existing concept (Parkinson disease is characterised by Lewy bodies and substantia nigra dopaminergic neuron loss) — item 28 ("bradykinesia and slow motion / Intracytoplasmic inclusions ,substantia nigra")
+- 2ndass2020-q29 — garbled/factually inconsistent printed key (conflicts with this lane's own already-covered Wernicke's-area/comprehension fact) — item 29 ("Wernicke area determination of thoughts")
+- 2ndass2020-q30 — duplicate-adjacent to this lane's own existing concepts (retrograde/anterograde amnesia definitions; the anterior thalamic nucleus/mammillothalamic tract as part of the Papez circuit) — item 30 ("ant thalamic nucleus / Anterograde amnesia dt injury in which part of papez circuit")
+- 2ndass2020-q31 — microbiology/virology, out of this lane's neuro subject scope, within-batch duplicate of this same lane's cluster 10 paper2-2019 item 20 — item 31 ("coxasackie / Feet ,mouth vesicles ,csf normal glucose and pressure")
+- 2ndass2020-q32 — duplicate of this lane's own existing concept (ketamine preferred in hypotensive patients), within-batch duplicate of this same lane's cluster 10 paper2-2019 item 5 — item 32 ("ketamine / Bronchial asthma patient anaesthesia")
+- 2ndass2020-q33 — duplicate of this lane's own existing concept (the categorical/dominant hemisphere specialises in language and mathematical/analytic operations) — item 33 ("Categorical hemisphere responsible for solving mathematical problems")
 - anatomy-mcq-q53 — collapsed into anatomy-mcq-q04 — same fact, within-file duplicate (see concept CON-NEU-039920144AF3A5 field_notes)
 - anatomy-mcq-q56 — collapsed into anatomy-mcq-q07 — same fact, within-file duplicate (see concept CON-NEU-7D2E1F5EFCE602 field_notes)
 - anatomy-mcq-q45 — collapsed into anatomy-mcq-q08 — same fact, within-file duplicate (see concept CON-NEU-A0F1830870CA6F field_notes)
@@ -400,4 +557,35 @@
 - physio-mcq-q43 — collapsed into physio-mcq-q02 — same fact, within-file duplicate (see concept CON-NEU-53B558B50820FB field_notes)
 
 ## Remaining
-(none)
+- cns-ass1-anat1
+- cns-ass1-anat2
+- cns-ass1-anat3
+- cns-ass1-anat4
+- cns-ass1-anat5
+- cns-ass1-anat6
+- cns-ass1-anat7
+- cns-ass1-anat8
+- cns-ass1-bio1
+- cns-ass1-bio2
+- cns-ass1-bio3
+- cns-ass1-bio4
+- cns-ass1-bio5
+- cns-ass1-bio6
+- cns-ass1-bio7
+- cns-ass1-histo1
+- cns-ass1-histo2
+- cns-ass1-histo3
+- cns-ass1-patho1
+- cns-ass1-pharm1
+- cns-ass1-pharm2
+- cns-ass1-physio1
+- cns-ass1-physio10
+- cns-ass1-physio11
+- cns-ass1-physio2
+- cns-ass1-physio3
+- cns-ass1-physio4
+- cns-ass1-physio5
+- cns-ass1-physio6
+- cns-ass1-physio7
+- cns-ass1-physio8
+- cns-ass1-physio9

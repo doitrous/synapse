@@ -1,0 +1,402 @@
+{
+  "lane": "MANS-AEP",
+  "cluster": "aepphysio18",
+  "header": "MANS-AEP · cluster aepphysio18, Physiology \"MCQ Lecture 18\" (Capillary Dynamics / Starling forces), authored from \"Most important + previous exams (after midterm).pdf\" p.32-35, printed right-margin answer-column keys (same key pattern as aepphysio12-17). 15 raw items, 13 authored, 2 held: q14 repeats q08 verbatim (same \"incorrect regarding fluid filtration\" stem and five-option set, same key D); q15 repeats q06 verbatim (same \"pressure of the interstitial fluid is normally\" stem and four-option set, same key D). No live/pending concept stated this lecture's specific interstitial-pressure regional values, capillary-hydrostatic-pressure profile, plasma-colloid-osmotic-pressure normal value, filtration/absorption directional split, Starling-equilibrium numeric table, or 90% fluid-return fraction, so 6 new concepts were minted (CON-CVS-2EB27017CBC258, CON-CVS-98396B262358C5, CON-CVS-B1814552F40297, CON-CVS-A0A5E9A6944E8F, CON-CVS-B3FC127AFE559E, CON-CVS-D93DB90C4206F9, docs/Mansoura-Source-Imports/concept/MANS-AEP-physio18-concepts.md) with one matching article (ART-MANS-AEP-CAPILLARY-DYNAMICS, docs/Mansoura-Source-Imports/article/MANS-AEP-physio18-articles.md); q01/q02/q04 (filtration-rate determinants) reuse CON-CVS-98657F1E7D300D, a pending Kasr 104-CPS concept found via find-existing.mjs and cross-linked from the new article rather than edited in place.",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-AEP",
+    "topic": "Physiology",
+    "subtopic": "Capillary Dynamics",
+    "exam_weight_by_year": { "MANS_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_eb99c23b4006e7c6e7d3"],
+    "source_citation": "Most important + previous exams (after midterm).pdf, MCQ Lecture 18 \"Capillary Dynamics\", p.{page}",
+    "setting": "Academic",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "estimated_seconds": 45,
+    "randomise_answers": true,
+    "library_ids": ["ART-MANS-AEP-CAPILLARY-DYNAMICS"]
+  },
+  "questions": [
+    {
+      "key": "aepphysio18-q01",
+      "page": 32,
+      "title": "What decreases capillary filtration rate",
+      "question": "An increase in which one of the following tends to decrease capillary filtration rate?",
+      "options": {
+        "A": "Arteriolar diameter",
+        "B": "Capillary hydrostatic pressure",
+        "C": "Interstitial colloid osmotic pressure",
+        "D": "Plasma colloid osmotic pressure",
+        "E": "Venous hydrostatic pressure"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A wider arteriolar diameter lowers arteriolar resistance, which raises the hydrostatic pressure transmitted downstream into the capillary — increasing, not decreasing, filtration.",
+        "B": "Incorrect. Capillary hydrostatic pressure is the dominant outward (filtration-favouring) Starling force; a rise in it increases filtration.",
+        "C": "Incorrect. Interstitial colloid osmotic pressure pulls fluid out of the capillary and into the interstitium; a rise in it increases, not decreases, filtration.",
+        "D": "Correct. Plasma colloid osmotic pressure is the principal inward (absorption-favouring) Starling force. Raising it strengthens the pull of fluid back into the capillary, which opposes and so decreases the net capillary filtration rate.",
+        "E": "Incorrect. A rise in venous hydrostatic pressure backs up into the capillary bed, raising capillary hydrostatic pressure and so increasing, not decreasing, filtration."
+      },
+      "main_concept": "CON-CVS-98657F1E7D300D",
+      "concept_ids": ["CON-CVS-98657F1E7D300D"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "Identify plasma colloid osmotic pressure as the Starling force whose rise decreases net capillary filtration.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Filtration-Rate Determinants",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.32" }
+    },
+    {
+      "key": "aepphysio18-q02",
+      "page": 32,
+      "title": "What drives fluid movement between plasma and interstitial fluid",
+      "question": "Which one of the following is primarily responsible for the movement of fluid between plasma and interstitial fluid?",
+      "options": {
+        "A": "Hydrostatic pressure and osmotic pressure",
+        "B": "Membrane channels",
+        "C": "Osmosis and active transport",
+        "D": "Primary and secondary active transport"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Starling forces — capillary and interstitial hydrostatic pressure, and plasma and interstitial colloid osmotic pressure — set the balance of bulk fluid movement across the capillary wall between plasma and the interstitial space. This is passive bulk flow driven by pressure gradients. It is not a carrier- or channel-mediated process.",
+        "B": "Incorrect. Membrane channels move specific solutes (mainly ions and small molecules) across cell membranes; capillary fluid exchange is bulk flow through the capillary wall's pores, driven by Starling pressures, not by channel-mediated transport.",
+        "C": "Incorrect. Osmosis moves water down an osmotic gradient and active transport moves solutes against their gradient using energy; neither term captures the hydrostatic-pressure component that, together with colloid osmotic pressure, actually governs capillary fluid exchange.",
+        "D": "Incorrect. Primary and secondary active transport are energy-dependent solute-transport mechanisms at cell membranes; capillary fluid movement is passive, pressure-driven bulk flow, not an active transport process."
+      },
+      "main_concept": "CON-CVS-98657F1E7D300D",
+      "concept_ids": ["CON-CVS-98657F1E7D300D"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "learning_objective": "Identify hydrostatic and osmotic (Starling) pressures as the forces governing fluid movement between plasma and interstitial fluid.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Filtration-Rate Determinants",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.32" }
+    },
+    {
+      "key": "aepphysio18-q03",
+      "page": 32,
+      "title": "Percent of filtered fluid that returns at the venous end",
+      "question": "Approximately what percent of fluid that exits the capillaries at the arterial end re-enters the capillaries at the venous end?",
+      "options": {
+        "A": "60%",
+        "B": "70%",
+        "C": "80%",
+        "D": "90%",
+        "E": "100%"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. 60% understates how much of the filtered fluid is reabsorbed before the venous end; the true figure is about 90%.",
+        "B": "Incorrect. 70% is too low; about 90% of the fluid filtered at the arterial end is reabsorbed before the blood reaches the venous end.",
+        "C": "Incorrect. 80% is close but still below the standard figure of about 90%.",
+        "D": "Correct. About 90% of the fluid filtered out of the capillaries at the arterial end is reabsorbed back into the capillaries before the venous end. This is driven by the shift in Starling-force balance along the vessel's length, as capillary hydrostatic pressure falls while plasma colloid osmotic pressure stays essentially constant. The remaining roughly 10% is instead returned to the circulation via the lymphatics.",
+        "E": "Incorrect. Not all filtered fluid returns directly to the capillary — about 10% instead enters the lymphatics as lymph, so the figure is not 100%."
+      },
+      "main_concept": "CON-CVS-D93DB90C4206F9",
+      "concept_ids": ["CON-CVS-D93DB90C4206F9"],
+      "contextual_concept_ids": ["CON-CVS-2C65CCE1C08853"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that about 90% of capillary-filtered fluid is reabsorbed before the venous end, with the remainder returned by the lymphatics.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Fluid Return Fraction",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.32" }
+    },
+    {
+      "key": "aepphysio18-q04",
+      "page": 32,
+      "title": "A mechanism that decreases capillary filtration rate",
+      "question": "Which mechanism would tend to decrease capillary filtration rate?",
+      "options": {
+        "A": "Increased capillary hydrostatic pressure.",
+        "B": "Decreased plasma colloid osmotic pressure.",
+        "C": "Increased interstitial colloid osmotic pressure.",
+        "D": "Positive interstitial hydrostatic pressure.",
+        "E": "Negative interstitial hydrostatic pressure."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Capillary hydrostatic pressure is the dominant outward, filtration-favouring force; increasing it increases, not decreases, filtration.",
+        "B": "Incorrect. Plasma colloid osmotic pressure opposes filtration (favours absorption); decreasing it weakens that opposition and so increases, not decreases, net filtration.",
+        "C": "Incorrect. Interstitial colloid osmotic pressure favours filtration (it pulls fluid out into the interstitium); increasing it increases, not decreases, filtration.",
+        "D": "Correct. A positive interstitial hydrostatic pressure pushes fluid from the interstitium back into the capillary, opposing outward movement. It works against, not with, filtration. A positive value therefore decreases the net filtration rate.",
+        "E": "Incorrect. A negative interstitial hydrostatic pressure adds to, rather than opposes, the net outward force (subtracting a negative value increases the outward pressure gradient), so it increases, not decreases, filtration."
+      },
+      "main_concept": "CON-CVS-98657F1E7D300D",
+      "concept_ids": ["CON-CVS-98657F1E7D300D"],
+      "contextual_concept_ids": ["CON-CVS-A0A5E9A6944E8F"],
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "learning_objective": "Explain why a positive interstitial hydrostatic pressure decreases, and a negative one increases, net capillary filtration.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Filtration-Rate Determinants",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.32" }
+    },
+    {
+      "key": "aepphysio18-q05",
+      "page": 33,
+      "title": "The negative pressure in a muscle capillary bed",
+      "question": "Which pressure is negative in a muscle capillary bed in the lower extremities?",
+      "options": {
+        "A": "Plasma colloid osmotic pressure.",
+        "B": "Capillary hydrostatic pressure.",
+        "C": "Interstitial hydrostatic pressure.",
+        "D": "Interstitial colloid osmotic pressure.",
+        "E": "Venous hydrostatic pressure."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Plasma colloid osmotic pressure is a positive value, normally about 28 mmHg — it is never negative.",
+        "B": "Incorrect. Capillary hydrostatic pressure is positive throughout the capillary, falling from about 30 mmHg at the arteriolar end to about 10 mmHg at the venular end — it is not negative.",
+        "C": "Correct. Interstitial (tissue) hydrostatic pressure in loose tissue such as skeletal muscle is normally slightly subatmospheric, about -3 mmHg. This negative value is maintained by continuous lymphatic drainage of the interstitium. It is unlike the other four Starling-force components listed here, all of which stay positive.",
+        "D": "Incorrect. Interstitial colloid osmotic pressure is a small positive value (about 8 mmHg), generated by the small amount of protein that does leak into the interstitium — it is not negative.",
+        "E": "Incorrect. Venous hydrostatic pressure is positive (low, but positive) under normal conditions — it is not the negative pressure being described here."
+      },
+      "main_concept": "CON-CVS-2EB27017CBC258",
+      "concept_ids": ["CON-CVS-2EB27017CBC258"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "Identify interstitial hydrostatic pressure as the normally negative Starling-force component in a muscle capillary bed.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Interstitial Fluid Pressure",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.33" }
+    },
+    {
+      "key": "aepphysio18-q06",
+      "page": 33,
+      "title": "The normal pressure of the interstitial fluid",
+      "question": "The pressure of the interstitial fluid is normally:",
+      "options": {
+        "A": "Equal to the capillary pressure.",
+        "B": "Slightly greater than the capillary pressure.",
+        "C": "Slightly lesser than the capillary pressure.",
+        "D": "Slightly negative relative to the atmospheric pressure."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Interstitial fluid pressure (about -3 mmHg in loose tissue) is nowhere close to capillary hydrostatic pressure (about 10 to 30 mmHg) — the two are set by entirely different mechanisms and are not normally equal.",
+        "B": "Incorrect. Interstitial fluid pressure is far lower, not greater, than capillary hydrostatic pressure.",
+        "C": "Incorrect. While numerically true that interstitial pressure is lower than capillary pressure, this option understates the relationship — the defining normal feature is that interstitial pressure is itself slightly SUBATMOSPHERIC (negative), not merely 'slightly lesser' than a comparator pressure.",
+        "D": "Correct. In loose tissues such as skeletal muscle, interstitial fluid pressure is normally slightly negative relative to atmospheric pressure, about -3 mmHg. This negative value is maintained by ongoing lymphatic drainage of any fluid filtered into the interstitium. Encapsulated organs such as the kidney and brain instead run a positive interstitial fluid pressure, since their capsule resists tissue swelling."
+      },
+      "main_concept": "CON-CVS-2EB27017CBC258",
+      "concept_ids": ["CON-CVS-2EB27017CBC258"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "learning_objective": "State that interstitial fluid pressure is normally slightly negative relative to atmospheric pressure.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Interstitial Fluid Pressure",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.33" }
+    },
+    {
+      "key": "aepphysio18-q07",
+      "page": 33,
+      "title": "The plasma colloidal osmotic pressure",
+      "question": "The plasma colloidal osmotic pressure is:",
+      "options": {
+        "A": "The main filtering force in tissue fluid formation.",
+        "B": "Determined only by the albumin concentration of the plasma.",
+        "C": "Equivalent to the osmotic pressure of 0.9% NaCl solution.",
+        "D": "Normally about 28 mmHg.",
+        "E": "Determined only by the globulin concentration of the plasma."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Plasma colloid osmotic pressure is the main ABSORBING force, pulling fluid back into the capillary; capillary hydrostatic pressure, not plasma colloid osmotic pressure, is the main filtering (fluid-forming) force.",
+        "B": "Incorrect. Albumin is the main determinant of plasma colloid osmotic pressure, because of its high plasma concentration, but it is not the ONLY contributor — the globulins and fibrinogen also contribute a smaller share.",
+        "C": "Incorrect. Plasma colloid osmotic pressure (about 28 mmHg) is a small fraction of the total osmotic pressure of plasma, which (like 0.9% saline) is around 5,000 to 6,000 mmHg — the two are not equivalent; colloid osmotic pressure comes specifically from the large, non-diffusible plasma proteins.",
+        "D": "Correct. Plasma colloid osmotic pressure is normally about 28 mmHg. It is generated mainly by albumin, because of its high concentration relative to the other plasma proteins, not because it is individually a stronger osmotic particle. This 28 mmHg value is the principal inward, absorption-favouring Starling force.",
+        "E": "Incorrect. The globulins contribute only a minor share of plasma colloid osmotic pressure; albumin, not the globulins, is the main determinant."
+      },
+      "main_concept": "CON-CVS-B1814552F40297",
+      "concept_ids": ["CON-CVS-B1814552F40297"],
+      "contextual_concept_ids": ["CON-HEM-B25D05070CEF7D"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that plasma colloid osmotic pressure is normally about 28 mmHg and is mainly determined by albumin.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Plasma Colloid Osmotic Pressure",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.33" }
+    },
+    {
+      "key": "aepphysio18-q08",
+      "page": 33,
+      "title": "The incorrect statement about capillary fluid filtration",
+      "question": "Which of the following is incorrect regarding fluid filtration across the capillary membrane?",
+      "options": {
+        "A": "Occurs at the arterial ends of the capillaries.",
+        "B": "20 litres / day.",
+        "C": "Main filtering force is the capillary hydrostatic pressure.",
+        "D": "It is aided by interstitial fluid hydrostatic pressure where it is positive.",
+        "E": "It is aided by interstitial fluid osmotic pressure."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this statement is TRUE, so it is not the answer). Filtration does predominate at the arterial end of the capillary, where capillary hydrostatic pressure is highest.",
+        "B": "Incorrect (i.e. this statement is TRUE, so it is not the answer). About 20 litres of fluid are filtered out of the capillaries per day across the whole body.",
+        "C": "Incorrect (i.e. this statement is TRUE, so it is not the answer). Capillary hydrostatic pressure is indeed the main force driving filtration.",
+        "D": "Correct — this is the FALSE statement being asked for. A positive interstitial fluid hydrostatic pressure pushes fluid from the interstitium back into the capillary, which OPPOSES, rather than aids, filtration. It is instead a NEGATIVE interstitial hydrostatic pressure that aids filtration, by adding to the net outward force. This sign-dependence is the trap this option is testing.",
+        "E": "Incorrect (i.e. this statement is TRUE, so it is not the answer). Interstitial fluid (colloid) osmotic pressure pulls fluid out into the interstitium, aiding filtration."
+      },
+      "main_concept": "CON-CVS-A0A5E9A6944E8F",
+      "concept_ids": ["CON-CVS-A0A5E9A6944E8F"],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Analysis",
+      "learning_objective": "Identify that a positive interstitial hydrostatic pressure opposes, rather than aids, capillary filtration.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Filtration and Absorption",
+      "author_notes": "Sign-reversal trap: a POSITIVE interstitial hydrostatic pressure aids ABSORPTION and opposes FILTRATION; a NEGATIVE one does the reverse. Verified against the Starling fluid-movement equation (Fluid movement = k[(Pc + interstitial colloid osmotic) - (interstitial hydrostatic + capillary colloid osmotic)]), where interstitial hydrostatic pressure sits on the inward (anti-filtration) side of the balance.",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.33" }
+    },
+    {
+      "key": "aepphysio18-q09",
+      "page": 34,
+      "title": "The incorrect statement about capillary fluid absorption",
+      "question": "Which of the following is incorrect regarding fluid absorption across the capillary membrane?",
+      "options": {
+        "A": "Occurs at the arterial ends of the capillaries.",
+        "B": "18 litres / day.",
+        "C": "Main absorbing force is the capillary colloid osmotic pressure.",
+        "D": "It is aided by interstitial fluid hydrostatic pressure where it is positive.",
+        "E": "It is antagonized by interstitial fluid osmotic pressure."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct — this is the FALSE statement being asked for. Absorption predominates at the VENOUS (venular) end of the capillary, not the arterial end. It is filtration, not absorption, that predominates at the arterial end, where capillary hydrostatic pressure is highest. This arterial/venous split is the reverse of what this option states.",
+        "B": "Incorrect (i.e. this statement is TRUE, so it is not the answer). About 18 litres of fluid are absorbed back into the capillaries per day across the whole body, slightly less than the 20 litres filtered.",
+        "C": "Incorrect (i.e. this statement is TRUE, so it is not the answer). Capillary (plasma) colloid osmotic pressure is indeed the main force driving absorption.",
+        "D": "Incorrect (i.e. this statement is TRUE, so it is not the answer). A positive interstitial fluid hydrostatic pressure pushes fluid from the interstitium into the capillary, aiding absorption.",
+        "E": "Incorrect (i.e. this statement is TRUE, so it is not the answer). Interstitial fluid (colloid) osmotic pressure pulls fluid out into the interstitium, working against (antagonising) absorption."
+      },
+      "main_concept": "CON-CVS-A0A5E9A6944E8F",
+      "concept_ids": ["CON-CVS-A0A5E9A6944E8F"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Analysis",
+      "learning_objective": "Identify that fluid absorption across the capillary membrane predominates at the venous, not the arterial, end.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Filtration and Absorption",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.34" }
+    },
+    {
+      "key": "aepphysio18-q10",
+      "page": 34,
+      "title": "The correct statement about capillary hydrostatic pressure",
+      "question": "Which of the following is correct regarding capillary hydrostatic pressure?",
+      "options": {
+        "A": "Normally equals 10 mmHg on the arterial end.",
+        "B": "Normally equals 30 mmHg on the venous end.",
+        "C": "Drives water inward through the capillary membrane.",
+        "D": "It is determined by the albumin level inside the capillaries.",
+        "E": "Functional mean capillary pressure normally equals 17.3 mmHg."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Capillary hydrostatic pressure is highest, not lowest, at the arterial end — about 30 mmHg there, not 10 mmHg; this option reverses the arterial-end value with the venous-end one.",
+        "B": "Incorrect. Capillary hydrostatic pressure is lowest, not highest, at the venous end — about 10 mmHg there, not 30 mmHg; this option again reverses the two end values.",
+        "C": "Incorrect. Capillary hydrostatic pressure drives water OUTWARD, out of the capillary into the interstitium, not inward.",
+        "D": "Incorrect. Albumin level determines plasma colloid osmotic pressure, an entirely separate Starling force, not capillary hydrostatic pressure.",
+        "E": "Correct. Capillary hydrostatic pressure falls along the vessel's length, from about 30 mmHg at the arteriolar end to about 10 mmHg at the venular end. Because a simple average of the two ends would not reflect the actual pressure profile, physiologists instead use the functional mean capillary pressure, calculated from that profile. This functional mean is normally about 17.3 mmHg."
+      },
+      "main_concept": "CON-CVS-98396B262358C5",
+      "concept_ids": ["CON-CVS-98396B262358C5"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that the functional mean capillary hydrostatic pressure is normally about 17.3 mmHg, and that it falls from about 30 mmHg at the arterial end to about 10 mmHg at the venous end.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Capillary Hydrostatic Pressure",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.34" }
+    },
+    {
+      "key": "aepphysio18-q11",
+      "page": 34,
+      "title": "The incorrect statement about interstitial hydrostatic pressure",
+      "question": "Which of the following is incorrect regarding interstitial hydrostatic pressure?",
+      "options": {
+        "A": "It is directed inward the capillary when it is positive.",
+        "B": "It is directed outward the capillary when it is negative.",
+        "C": "It is equal to -3 mmHg in a muscle capillary bed.",
+        "D": "It is -6 mmHg in a kidney capillary bed.",
+        "E": "It is +4 mmHg in a brain capillary bed."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this statement is TRUE, so it is not the answer). A positive interstitial hydrostatic pressure pushes fluid from the interstitium into the capillary, i.e. it acts inward, toward the capillary.",
+        "B": "Incorrect (i.e. this statement is TRUE, so it is not the answer). A negative interstitial hydrostatic pressure instead favours movement out of the capillary, i.e. it acts outward, away from the capillary.",
+        "C": "Incorrect (i.e. this statement is TRUE, so it is not the answer). Interstitial hydrostatic pressure in a muscle capillary bed (loose tissue) is normally about -3 mmHg.",
+        "D": "Correct — this is the FALSE statement being asked for. The kidney is enclosed by a tight, non-distensible renal capsule that resists tissue swelling. This makes its interstitial hydrostatic pressure POSITIVE, about +6 mmHg, not -6 mmHg as this option states. The same capsule-driven reversal to a positive value also occurs in the rigidly enclosed brain.",
+        "E": "Incorrect (i.e. this statement is TRUE, so it is not the answer). The brain, enclosed by the rigid cranium, likewise runs a positive interstitial hydrostatic pressure, about +4 mmHg."
+      },
+      "main_concept": "CON-CVS-2EB27017CBC258",
+      "concept_ids": ["CON-CVS-2EB27017CBC258"],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Analysis",
+      "learning_objective": "Identify that encapsulated organs such as the kidney and brain run a positive, not negative, interstitial hydrostatic pressure.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Interstitial Fluid Pressure",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.34" }
+    },
+    {
+      "key": "aepphysio18-q12",
+      "page": 34,
+      "title": "Starling's equilibrium",
+      "question": "According to Starling's equilibrium:",
+      "options": {
+        "A": "Interstitial fluid pressure equals +3 mmHg.",
+        "B": "Interstitial colloid osmotic pressure equals 28 mmHg.",
+        "C": "Total outward force equals 28.3 mmHg.",
+        "D": "Total inward force equals 19 mmHg.",
+        "E": "Mean effective capillary pressure equals 30 mmHg."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Interstitial fluid pressure in the classic Starling table is -3 mmHg (negative), not +3 mmHg.",
+        "B": "Incorrect. Interstitial colloid osmotic pressure in the classic table is about 8 mmHg; 28 mmHg is instead the value of plasma (capillary) colloid osmotic pressure, a common trap swapping the two figures.",
+        "C": "Correct. Three forces favour outward movement: capillary hydrostatic pressure (mean 17.3 mmHg), the outward pull contributed by a negative interstitial hydrostatic pressure (3 mmHg), and interstitial colloid osmotic pressure (8 mmHg). Summing these three gives a total outward force of about 28.3 mmHg. This is balanced against a single inward force, plasma colloid osmotic pressure, of about 28 mmHg.",
+        "D": "Incorrect. The single inward force, plasma colloid osmotic pressure, is about 28 mmHg, not 19 mmHg.",
+        "E": "Incorrect. The functional mean capillary pressure is about 17.3 mmHg, not 30 mmHg — 30 mmHg is instead the pressure at the arteriolar end alone."
+      },
+      "main_concept": "CON-CVS-B3FC127AFE559E",
+      "concept_ids": ["CON-CVS-B3FC127AFE559E"],
+      "contextual_concept_ids": ["CON-CVS-98396B262358C5"],
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "learning_objective": "Reproduce the classic Starling forces table, stating the total outward force as about 28.3 mmHg.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Starling Equilibrium",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.34" }
+    },
+    {
+      "key": "aepphysio18-q13",
+      "page": 35,
+      "title": "The dynamics of interstitial fluid formation",
+      "question": "About the dynamics of interstitial fluid formation:",
+      "options": {
+        "A": "Net outward force = 40 mmHg.",
+        "B": "Net inward force = 7 mmHg.",
+        "C": "Interstitial fluid pressure = +3 mmHg.",
+        "D": "Interstitial fluid colloid osmotic pressure = 28 mmHg."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Neither the whole-capillary mean net force (about +0.3 mmHg outward) nor the venous-end local net force reaches 40 mmHg — this greatly overstates the actual balance.",
+        "B": "Correct. Capillary hydrostatic pressure falls sharply along the vessel and, by the venous end, has dropped well below plasma colloid osmotic pressure. The local Starling balance at that end therefore favours a net INWARD (reabsorptive) force, drawing fluid back into the capillary. This venous-end net inward force is about 7 mmHg.",
+        "C": "Incorrect. Interstitial fluid pressure in loose tissue is normally about -3 mmHg (negative), not +3 mmHg.",
+        "D": "Incorrect. Interstitial fluid colloid osmotic pressure is about 8 mmHg, not 28 mmHg — 28 mmHg is instead the value of plasma colloid osmotic pressure, a recurring trap swapping the two figures."
+      },
+      "main_concept": "CON-CVS-B3FC127AFE559E",
+      "concept_ids": ["CON-CVS-B3FC127AFE559E"],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "learning_objective": "State that the venous end of the capillary runs a local net inward (reabsorptive) force of about 7 mmHg.",
+      "module_subject": "MANS-AEP > Physiology > Capillary Dynamics > Starling Equilibrium",
+      "author_notes": "Kept per printed key rather than held, following the aepphysio15 B5/B9 doubt-kept precedent: this venous-end 7 mmHg figure is not the same number as this same cluster's own whole-capillary net-filtration-pressure value (about +0.3 mmHg outward, aepphysio18-q12); read as the venous end's own local reabsorptive force rather than the whole-capillary mean, the two are compatible alternative Guyton-table framings rather than contradictory, but the 7 mmHg figure has not been independently cross-checked against a second source.",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.35" }
+    },
+    { "key": "aepphysio18-q14", "hold": "literal duplicate of aepphysio18-q08 — same \"incorrect regarding fluid filtration across capillary membrane\" stem and five-option set, same key D" },
+    { "key": "aepphysio18-q15", "hold": "literal duplicate of aepphysio18-q06 — same \"pressure of the interstitial fluid is normally\" stem and four-option set, same key D" }
+  ]
+}

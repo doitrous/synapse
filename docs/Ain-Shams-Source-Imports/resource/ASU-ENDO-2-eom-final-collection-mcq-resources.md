@@ -2,9 +2,11 @@
   Rights-deferred catalogue resource for the source PDF used by
   ../question/ASU-ENDO-2-eom-final-collection-mcq.md,
   ../question/ASU-ENDO-2-eom-final-collection-pharma-mcq.md,
-  ../question/ASU-ENDO-2-eom-final-collection-histo-mcq.md, and their
+  ../question/ASU-ENDO-2-eom-final-collection-histo-mcq.md,
+  ../question/ASU-ENDO-2-eom-final-collection-bio-mcq.md, and their
   companion concept/article files (Anatomy+Community commit, then the
-  follow-on Pharma commit, then this follow-on Histo commit).
+  follow-on Pharma commit, then the Histo commit, then this follow-on Bio
+  commit).
 
   Learner-facing deep links and approved file-resource links are intentionally
   omitted because republication/open-file rights are not cleared.
@@ -44,12 +46,14 @@ Endocrine embryology
 Endocrine community medicine
 Endocrine pharmacology
 Endocrine histology
+Endocrine biochemistry
 
 ## chapter
 Anatomy
 Community
 Pharma
 Histo
+Bio
 
 ## module_ids
 ASU-ENDO-2
@@ -110,6 +114,39 @@ CON-END-9E0815C5924274
 CON-END-507D31B05C8C64
 CON-END-FF5A26F1340889
 CON-END-A79E30FA16931A
+CON-END-593CEAC85BF871
+CON-END-6B4223ECBAF5DB
+CON-END-34C94BE3C658DD
+CON-END-7D77492BBB8326
+CON-END-C2CA3E41E48E44
+CON-END-B351E42E345450
+CON-END-6A81100AF211D6
+CON-END-76FB58C72989C4
+CON-END-1774C8923A5D4A
+CON-END-ABFABA20C82976
+CON-END-466653169C8673
+CON-END-CC859D80866196
+CON-END-0CBC5C11B4AD5A
+CON-END-B798620047E4D6
+CON-END-B5929982BD5007
+CON-END-36D504B7DE5DA5
+CON-END-B147882035F576
+CON-END-7BAC5EAD54B510
+CON-END-761BCA1657E26B
+CON-END-76F104B83D4B69
+CON-END-D4E62AA30B752C
+CON-END-35B353F1956ABA
+CON-END-E10D53CE2FB9A7
+CON-END-CA170ADF2A01AB
+CON-END-D16B601C55261E
+CON-END-6DC41726E3C0EE
+CON-END-6551B0C9C7A660
+CON-END-526A27236AA505
+CON-END-D471B0315C6A85
+CON-END-BB0D0F94A05D15
+CON-END-DD5B3BABA54EB3
+CON-END-199A28854C0CE8
+CON-END-7EBED797F741C0
 
 ## included_articles
 ART-END-ASUENDO2EFC-EXTERNAL-LARYNGEAL-NERVE-SUPERIOR-THYROID-ARTERY
@@ -164,6 +201,39 @@ ART-END-ASUENDO2EFC-PARAFOLLICULAR-CELL-LACKS-TSH-RECEPTOR
 ART-END-ASUENDO2EFC-PINEALOCYTE-MORPHOLOGY
 ART-END-ASUENDO2EFC-CHIEF-CELL-SMALL-POLYGONAL
 ART-END-ASUENDO2EFC-ISLET-CELL-GAP-JUNCTIONS
+ART-END-ASUENDO2EFC-LIPOPHILIC-HORMONE-TRANSCRIPTION
+ART-END-ASUENDO2EFC-CHOLERA-PERTUSSIS-TOXIN-CAMP
+ART-END-ASUENDO2EFC-GROWTH-HORMONE-JAK-STAT
+ART-END-ASUENDO2EFC-INSULIN-RECEPTOR-BETA-TYROSINE-KINASE
+ART-END-ASUENDO2EFC-GLUCAGON-GS-CAMP-PKA-CASCADE
+ART-END-ASUENDO2EFC-NITRIC-OXIDE-GUANYLYL-CYCLASE
+ART-END-ASUENDO2EFC-PHOSPHOLIPASE-C-DAG-IP3
+ART-END-ASUENDO2EFC-ANF-GUANYLYL-CYCLASE-CGMP
+ART-END-ASUENDO2EFC-NITRIC-OXIDE-CGMP-SIGNALLING
+ART-END-ASUENDO2EFC-G-PROTEIN-INTRINSIC-GTPASE
+ART-END-ASUENDO2EFC-STEROID-HORMONE-DIRECT-TRANSCRIPTION
+ART-END-ASUENDO2EFC-SEX-HORMONE-GENE-TRANSCRIPTION
+ART-END-ASUENDO2EFC-GH-INSULIN-SYNERGY-GROWTH
+ART-END-ASUENDO2EFC-THYROID-HORMONE-NUCLEAR-RECEPTOR
+ART-END-ASUENDO2EFC-DAG-PROTEIN-KINASE-C
+ART-END-ASUENDO2EFC-GI-PROTEIN-ADENYLYL-CYCLASE-INHIBITION
+ART-END-ASUENDO2EFC-ACROMEGALY-GH-JAK-STAT-PATHWAY
+ART-END-ASUENDO2EFC-LEUCINE-LYSINE-KETOGENIC-AMINO-ACIDS
+ART-END-ASUENDO2EFC-GLUCAGON-EPINEPHRINE-PFK2-FBPASE2
+ART-END-ASUENDO2EFC-LIVER-GLUCONEOGENESIS-24H-FAST
+ART-END-ASUENDO2EFC-THYROID-HORMONE-RECEPTOR-NUCLEAR-FAMILY
+ART-END-ASUENDO2EFC-GALACTOKINASE-FIRST-STEP-GALACTOSE
+ART-END-ASUENDO2EFC-PHOSPHOGLYCERATE-KINASE-REVERSIBLE-STEP
+ART-END-ASUENDO2EFC-KETONE-BODIES-BRAIN-STARVATION-FUEL
+ART-END-ASUENDO2EFC-COUNTER-REGULATORY-HORMONES-PERIPHERAL-GLUCOSE
+ART-END-ASUENDO2EFC-GLUCAGON-FIRST-RESPONSE-HYPOGLYCAEMIA
+ART-END-ASUENDO2EFC-LOW-INSULIN-KETOGENESIS
+ART-END-ASUENDO2EFC-BIOTIN-PYRUVATE-CARBOXYLASE-COFACTOR
+ART-END-ASUENDO2EFC-GLUCAGON-INHIBITS-PFK2-GLUCONEOGENESIS
+ART-END-ASUENDO2EFC-GALACTOKINASE-DEFICIENCY-CLINICAL-VIGNETTE
+ART-END-ASUENDO2EFC-SCOT-ABSENCE-LIVER-KETOLYSIS
+ART-END-ASUENDO2EFC-WELL-FED-STATE-TAG-SYNTHESIS-AMINO-ACID-DEGRADATION
+ART-END-ASUENDO2EFC-INSULIN-GLYCOGENESIS-WELL-FED-STATE
 
 ## concept_locations
 CON-END-2EE25A7B08EAAD | page | 1
@@ -218,6 +288,39 @@ CON-END-9E0815C5924274 | page | 9
 CON-END-507D31B05C8C64 | page | 9
 CON-END-FF5A26F1340889 | page | 7
 CON-END-A79E30FA16931A | page | 9
+CON-END-593CEAC85BF871 | page | 4
+CON-END-6B4223ECBAF5DB | page | 4
+CON-END-34C94BE3C658DD | page | 4
+CON-END-7D77492BBB8326 | page | 4
+CON-END-C2CA3E41E48E44 | page | 4
+CON-END-B351E42E345450 | page | 4
+CON-END-6A81100AF211D6 | page | 4
+CON-END-76FB58C72989C4 | page | 4
+CON-END-1774C8923A5D4A | page | 4
+CON-END-ABFABA20C82976 | page | 4
+CON-END-466653169C8673 | page | 5
+CON-END-CC859D80866196 | page | 5
+CON-END-0CBC5C11B4AD5A | page | 5
+CON-END-B798620047E4D6 | page | 5
+CON-END-B5929982BD5007 | page | 5
+CON-END-36D504B7DE5DA5 | page | 5
+CON-END-B147882035F576 | page | 5
+CON-END-7BAC5EAD54B510 | page | 6
+CON-END-761BCA1657E26B | page | 6
+CON-END-76F104B83D4B69 | page | 6
+CON-END-D4E62AA30B752C | page | 6
+CON-END-35B353F1956ABA | page | 6
+CON-END-E10D53CE2FB9A7 | page | 6
+CON-END-CA170ADF2A01AB | page | 6
+CON-END-D16B601C55261E | page | 6
+CON-END-6DC41726E3C0EE | page | 6
+CON-END-6551B0C9C7A660 | page | 6
+CON-END-526A27236AA505 | page | 6
+CON-END-D471B0315C6A85 | page | 6
+CON-END-BB0D0F94A05D15 | page | 6
+CON-END-DD5B3BABA54EB3 | page | 6
+CON-END-199A28854C0CE8 | page | 6
+CON-END-7EBED797F741C0 | page | 7
 
 ## universities
 asu
@@ -226,4 +329,4 @@ asu
 ASU_Y2
 
 ## description
-Native-text, 17-page ASU Year 2 Endocrine System EOM MCQ Final Collection (2018/19/20 combined sitting), used here only for local curriculum alignment. Embedded-answer format (bare answer/topic before the stem, no printed distractors); this lane authored its own options and explanations. The Anatomy+Community pass covered 18 items; a follow-on pass added the Pharma block (21 of 22 items; item 15 held as a near-duplicate of item 13); this follow-on pass adds the Histo block (18 of 23 items; item 11 held on factual-accuracy grounds, items 12/13/16/23 held as within-source duplicates). The remaining blocks (Bio, Physio, Patho — roughly 115 items) are held for further follow-on sessions. Student-facing file approval and deep links are deferred pending rights review.
+Native-text, 17-page ASU Year 2 Endocrine System EOM MCQ Final Collection (2018/19/20 combined sitting), used here only for local curriculum alignment. Embedded-answer format (bare answer/topic before the stem, no printed distractors); this lane authored its own options and explanations. The Anatomy+Community pass covered 18 items; a follow-on pass added the Pharma block (21 of 22 items; item 15 held as a near-duplicate of item 13); a further follow-on pass added the Histo block (18 of 23 items; item 11 held on factual-accuracy grounds, items 12/13/16/23 held as within-source duplicates); this follow-on pass adds the Bio (Biochemistry) block (33 of 34 items; item 34 held as the source author's own annotated "unclear, couldn't formulate a proper question"). The remaining blocks (Physio, Patho — roughly 79 items) are held for further follow-on sessions. Student-facing file approval and deep links are deferred pending rights review.

@@ -4,6 +4,7 @@
 | eom-final-collection-comm | 6 | 0 | 0 | 6 |
 | eom-final-collection-histo | 18 | 5 | 0 | 23 |
 | eom-final-collection-pharma | 21 | 1 | 0 | 22 |
+| eom-final-collection-bio | 33 | 1 | 0 | 34 |
 
 ## Held
 - anat-q10 — exact duplicate of this university's own pending ASU-CNS-3-finalpaper2-2024 concept/question ("The third pharyngeal pouch gives rise to the inferior parathyroid glands and the thymus") — item 10 ("Development of inferior parathyroid gland? 3rd Dorsal pharyngeal pouch.") restates the identical fact; not re-authored here
@@ -13,6 +14,8 @@
 - histo-q16 — Near-exact restatement of item 2 within this same source: same fact (steroid-secreting cell ultrastructural criteria — mitochondria and Golgi here vs SER and lipid in item 2, both describing the same recognised ultrastructural profile). Not re-authored as a distinct question.
 - histo-q23 — Near-exact restatement of item 22 within this same source: same fact (gap junctions between pancreatic islet endocrine cells). Not re-authored as a distinct question.
 - pharma-q15 — Near-exact restatement of item 13 within this same source: same question type ("true about vasopressin preparation(s)"), same drug (desmopressin), same indication (diabetes insipidus), differing only by specifying the intranasal route. Not re-authored as a distinct concept/question.
+- bio-q34 — Source author's own annotation: "The enzyme in the lactate-to-gluconeogenesis pathway that doesn't utilize ATP? Glycerol kinase?????? (This question wasn't clear so I couldn't formulate a proper question)" — the source itself flags this item as unclear/unformulable; not authored.
 
 ## Remaining
-(none)
+- eom-final-collection-physio (~56 present items, ~57 numbered — item 39 never printed — plus 4 answer-only bullets with no question stem) — not yet triaged
+- eom-final-collection-patho (~23 present items, 24 numbered — item 7 never printed) — not yet triaged

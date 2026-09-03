@@ -1,0 +1,377 @@
+{
+  "lane": "MANS-AEP",
+  "cluster": "aepans1",
+  "header": "MANS-AEP · cluster aepans1, Autonomic Nervous System facts drawn from the \"Previous Exams\" section (three full past papers) of \"Most important + previous exams (after midterm).pdf\", p.37-47, printed right-margin answer-column keys (same key pattern as the numbered-lecture clusters). This section's questions heavily repeat material already authored across aepphysio12-18 and aepcns (verified by grepping every existing MANS-AEP question file for each candidate stem); this cluster authors only the 12 genuinely new-fact items no live/pending concept already states. 9 new concepts minted (CON-NEU-DD89927F72F6A5, CON-NEU-2E51A0E21833F8, CON-NEU-BCB9CEA31D2603, CON-NEU-B12BC26E0113FE, CON-NEU-3DC19307F11AB3, CON-NEU-6D0F9F0CBDD4E7, CON-NEU-E65770433B9BE5, CON-NEU-C3BB0E6187866A, CON-NEU-66CA185B9EBEDD, docs/Mansoura-Source-Imports/concept/MANS-AEP-ans1-concepts.md) with one matching article (ART-MANS-AEP-AUTONOMIC-REVIEW, docs/Mansoura-Source-Imports/article/MANS-AEP-ans1-articles.md); the two Horner's-picture questions (q01/q02) reuse CON-NEU-D4EB1BBF88876D (Alexandria AU-MED-102, pending) and the organophosphate vignette (q11) reuses CON-FND-26A28E75EA8E52 (Assiut AUN-MPT-104, pending), both found via find-existing.mjs and cross-linked from the new article rather than edited in place. Remaining new-fact candidates from the same three exam papers (body-fluid-compartment measurement techniques, homeostasis/positive feedback, water balance/thirst, tonicity, membrane protein function, sweat-gland innervation, midbrain autonomic control, sympathetic tone) are the next frontier for this lane.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-AEP",
+    "topic": "Physiology",
+    "subtopic": "Autonomic Nervous System",
+    "exam_weight_by_year": { "MANS_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_eb99c23b4006e7c6e7d3"],
+    "source_citation": "Most important + previous exams (after midterm).pdf, Previous Exams section, p.{page}",
+    "setting": "Academic",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "estimated_seconds": 45,
+    "randomise_answers": true,
+    "library_ids": ["ART-MANS-AEP-AUTONOMIC-REVIEW"]
+  },
+  "questions": [
+    {
+      "key": "aepans1-q01",
+      "page": 37,
+      "title": "Effect of a superior cervical ganglion lesion",
+      "question": "What is the effect of a lesion in the superior cervical ganglion?",
+      "options": {
+        "A": "Anhidrosis on the opposite side of the lesion",
+        "B": "Exophthalmos on the opposite side of the lesion",
+        "C": "Increased sweat secretion",
+        "D": "Miosis on the same side of the lesion",
+        "E": "Pale and cold skin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Loss of sympathetic supply reduces sweating on the SAME side as the lesion (anhidrosis is ipsilateral, part of the Horner's-type picture), not the opposite side.",
+        "B": "Incorrect. A sympathetic lesion produces enophthalmos (a slight sinking of the eye from loss of tone in the smooth muscle of the orbit), not exophthalmos, and it is ipsilateral, not on the opposite side.",
+        "C": "Incorrect. Sweat glands are sympathetically innervated, so a sympathetic lesion REDUCES, not increases, sweat secretion on the affected side.",
+        "D": "Correct. The superior cervical ganglion is the relay for sympathetic outflow to the eye. Losing it removes sympathetic tone to the dilator pupillae, so the parasympathetically-driven constrictor pupillae is unopposed. This produces miosis (pupillary constriction) on the same side as the lesion, one component of the Horner's-type picture.",
+        "E": "Incorrect. Loss of sympathetic (vasoconstrictor) tone instead produces a flushed, warm skin from unopposed vasodilation, not pale and cold skin."
+      },
+      "main_concept": "CON-NEU-D4EB1BBF88876D",
+      "concept_ids": ["CON-NEU-D4EB1BBF88876D"],
+      "contextual_concept_ids": ["CON-NEU-6D0F9F0CBDD4E7"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that a superior cervical ganglion lesion produces ipsilateral miosis, as part of a Horner's-type picture.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Horner's Syndrome",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.37" }
+    },
+    {
+      "key": "aepans1-q02",
+      "page": 45,
+      "title": "Cause of ptosis after cervicothoracic spinal surgery",
+      "question": "A 38-year-old man underwent spinal cord surgery at the lower cervical and upper thoracic segments. After recovery, he developed ptosis. Which of the following is the possible cause of the ptosis in this case?",
+      "options": {
+        "A": "Paralysis of the ciliary muscle",
+        "B": "Paralysis of the constrictor pupillae muscle",
+        "C": "Paralysis of the dilator pupillae muscle",
+        "D": "Paralysis of the medial rectus muscle",
+        "E": "Paralysis of the upper (superior) tarsal muscle of the eyelid"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The ciliary muscle is parasympathetically controlled (accommodation), and its paralysis would impair near focusing, not cause ptosis.",
+        "B": "Incorrect. The constrictor (sphincter) pupillae is parasympathetically controlled; its paralysis would cause mydriasis (pupil dilation), not ptosis.",
+        "C": "Incorrect. The dilator pupillae is sympathetically controlled and its paralysis would cause miosis (part of the same Horner's-type picture), but it is a pupil sign, not the cause of the eyelid drooping (ptosis) itself.",
+        "D": "Incorrect. The medial rectus is a somatic extraocular muscle (oculomotor nerve), unrelated to the autonomic sympathetic pathway interrupted by this surgery, and its paralysis would cause an outward deviation of the eye, not ptosis.",
+        "E": "Correct. Surgery at the lower cervical/upper thoracic spinal cord can interrupt the sympathetic outflow (originating at T1-T2) to the head and neck. This removes sympathetic tone to the superior (upper) tarsal muscle, the small smooth-muscle component of the levator palpebrae superioris that sympathetic fibres normally keep partly contracted. Its paralysis produces the partial ptosis characteristic of Horner's syndrome."
+      },
+      "main_concept": "CON-NEU-D4EB1BBF88876D",
+      "concept_ids": ["CON-NEU-D4EB1BBF88876D"],
+      "contextual_concept_ids": ["CON-NEU-6D0F9F0CBDD4E7"],
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "learning_objective": "Identify paralysis of the superior tarsal muscle, from interruption of T1-T2 sympathetic outflow, as the cause of ptosis in a Horner's-type picture.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Horner's Syndrome",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.45" }
+    },
+    {
+      "key": "aepans1-q03",
+      "page": 37,
+      "title": "Effect of sympathetic supply to the pelvic viscera",
+      "question": "Sympathetic supply to the pelvic viscera causes which one of the following?",
+      "options": {
+        "A": "Contraction of the external anal sphincter",
+        "B": "Defecation",
+        "C": "Micturition",
+        "D": "Stimulation of seminal fluid and prostatic secretions",
+        "E": "Vasoconstriction of the sex organs and their shrinkage"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The external anal sphincter is skeletal muscle under somatic (pudendal nerve), not sympathetic, control.",
+        "B": "Incorrect. Defecation is a parasympathetic effect (via the pelvic nerve); sympathetic pelvic outflow instead inhibits it, by contracting the internal anal sphincter.",
+        "C": "Incorrect. Micturition is a parasympathetic effect; sympathetic pelvic outflow instead inhibits it, by contracting the internal urethral sphincter and relaxing the detrusor.",
+        "D": "Incorrect. Sympathetic pelvic outflow contracts the smooth muscle of the vas deferens, seminal vesicles and prostate to expel their secretions during ejaculation, but this option describes stimulating secretion production, not the emission/ejaculation contraction that is the actual sympathetic effect.",
+        "E": "Correct. Sympathetic stimulation vasoconstricts the blood vessels of the sex organs and external genitalia. This produces shrinkage, not engorgement. It is the functional opposite of the vasodilatation (erection) produced by the parasympathetic pelvic nerve."
+      },
+      "main_concept": "CON-NEU-DD89927F72F6A5",
+      "concept_ids": ["CON-NEU-DD89927F72F6A5"],
+      "contextual_concept_ids": ["CON-NEU-2E51A0E21833F8"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that sympathetic pelvic outflow vasoconstricts the sex organs, causing shrinkage.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Pelvic Viscera",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.37" }
+    },
+    {
+      "key": "aepans1-q04",
+      "page": 46,
+      "title": "Effect of pelvic nerve stimulation",
+      "question": "What is the effect of pelvic nerve stimulation?",
+      "options": {
+        "A": "Contraction of bronchial muscle",
+        "B": "Contraction of the external anal sphincter",
+        "C": "Contraction of the internal anal sphincter",
+        "D": "Contraction of the internal urethral sphincter",
+        "E": "Dilatation of the blood vessels of the external genitalia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Bronchial smooth muscle is supplied by the vagus nerve, not the pelvic nerve, which is confined to the pelvic viscera.",
+        "B": "Incorrect. The external anal sphincter is skeletal muscle under somatic control, not the pelvic (parasympathetic) nerve.",
+        "C": "Incorrect. The pelvic nerve RELAXES, rather than contracts, the internal anal sphincter, permitting defecation; sphincter contraction is instead the sympathetic (retention) effect.",
+        "D": "Incorrect. The pelvic nerve RELAXES, rather than contracts, the internal urethral sphincter, permitting micturition; sphincter contraction is instead the sympathetic (retention) effect.",
+        "E": "Correct. The pelvic nerve (nervi erigentes, parasympathetic, S2-S4) vasodilates the blood vessels of the external genitalia. This produces erection. It is the functional opposite of the vasoconstrictor, ejaculation-producing sympathetic pelvic outflow."
+      },
+      "main_concept": "CON-NEU-2E51A0E21833F8",
+      "concept_ids": ["CON-NEU-2E51A0E21833F8"],
+      "contextual_concept_ids": ["CON-NEU-DD89927F72F6A5"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that pelvic nerve (parasympathetic) stimulation vasodilates the external genitalia's blood vessels, producing erection.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Pelvic Viscera",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.46" }
+    },
+    {
+      "key": "aepans1-q05",
+      "page": 38,
+      "title": "A characteristic of the adrenal medulla",
+      "question": "Which one of the following characterizes the adrenal medulla?",
+      "options": {
+        "A": "It antagonizes the effects of sympathetic stimulation.",
+        "B": "It is a modified parasympathetic ganglion.",
+        "C": "It receives preganglionic nerve supply from the anterior horn cells of the lower 6 thoracic segments of the spinal cord.",
+        "D": "It secretes epinephrine 20% and norepinephrine 80%.",
+        "E": "Its secretion is basal and decreased during sleep."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The adrenal medulla is itself part of the sympathetic system and REINFORCES, rather than antagonises, sympathetic effects, by releasing catecholamines that act on the same adrenergic receptors as sympathetic nerve endings.",
+        "B": "Incorrect. The adrenal medulla is a modified SYMPATHETIC, not parasympathetic, ganglion — its chromaffin cells are the functional equivalent of postganglionic sympathetic neurons.",
+        "C": "Incorrect. The adrenal medulla's preganglionic supply arises from the LATERAL horn (intermediolateral cell column) of the spinal cord, not the anterior horn, which instead gives rise to somatic motor neurons.",
+        "D": "Incorrect. The ratio is reversed: the adrenal medulla secretes roughly 80% epinephrine and 20% norepinephrine, not the other way round.",
+        "E": "Correct. The adrenal medulla's catecholamine secretion is not all-or-none. It is basal and continuous, reflecting ongoing sympathetic tone. This rate normally decreases during sleep, when overall sympathetic activity falls."
+      },
+      "main_concept": "CON-NEU-BCB9CEA31D2603",
+      "concept_ids": ["CON-NEU-BCB9CEA31D2603"],
+      "contextual_concept_ids": ["CON-NEU-E65770433B9BE5"],
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "learning_objective": "Identify basal, sleep-reduced secretion as a defining feature of the adrenal medulla, and reject the anterior-horn/parasympathetic/reversed-ratio distractors.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Adrenal Medulla",
+      "author_notes": "Verified via find-existing.mjs (\"adrenal medulla preganglionic\") that no live/pending concept states this specific lateral-horn-origin/basal-secretion combination; the reused Kasr 102-INT sympathetic-abdominal concept (CON-NEU-7D2786E349DE45) covers splanchnic-nerve adrenal catecholamine release but not this question's own facts, so a new concept was minted (see its own field_notes).",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.38" }
+    },
+    {
+      "key": "aepans1-q06",
+      "page": 44,
+      "title": "Cranial nerve carrying parasympathetic fibres",
+      "question": "Which one of the following cranial nerves contains parasympathetic fibres?",
+      "options": {
+        "A": "Abducent nerve (VI)",
+        "B": "Accessory nerve (XI)",
+        "C": "Glossopharyngeal nerve (IX)",
+        "D": "Optic nerve (II)",
+        "E": "Trochlear nerve (IV)"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The abducent nerve is a purely somatic motor nerve, supplying only the lateral rectus muscle, with no parasympathetic component.",
+        "B": "Incorrect. The accessory nerve is a purely somatic motor nerve, supplying the sternocleidomastoid and trapezius, with no parasympathetic component.",
+        "C": "Correct. The glossopharyngeal nerve carries parasympathetic secretomotor fibres to the parotid gland, relaying in the otic ganglion. It is one of only four cranial nerves — III, VII, IX and X — that carry parasympathetic fibres. The remaining cranial nerves are purely motor or sensory.",
+        "D": "Incorrect. The optic nerve is a purely sensory pathway (a central nervous system tract, not a peripheral nerve in the usual sense) carrying visual information, with no parasympathetic component of its own.",
+        "E": "Incorrect. The trochlear nerve is a purely somatic motor nerve, supplying only the superior oblique muscle, with no parasympathetic component."
+      },
+      "main_concept": "CON-NEU-B12BC26E0113FE",
+      "concept_ids": ["CON-NEU-B12BC26E0113FE"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "learning_objective": "Identify the glossopharyngeal nerve as a carrier of parasympathetic fibres, among cranial nerves that are otherwise purely motor or sensory.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Cranial Parasympathetic Outflow",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.44" }
+    },
+    {
+      "key": "aepans1-q07",
+      "page": 44,
+      "title": "A feature of sympathetic postganglionic neurons",
+      "question": "Which one of these is a feature of postganglionic neurons in the sympathetic nervous system?",
+      "options": {
+        "A": "Mainly cholinergic and white in colour.",
+        "B": "Myelinated.",
+        "C": "Originating distal to the effector organ.",
+        "D": "Short.",
+        "E": "Type B fibres."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Sympathetic postganglionic fibres are mostly ADRENERGIC (noradrenergic), not cholinergic (sweat glands are the notable cholinergic exception), and unmyelinated fibres appear greyish, not white, in colour.",
+        "B": "Incorrect. Sympathetic postganglionic fibres are generally UNmyelinated (type C fibres); it is the PREganglionic fibres that are myelinated (type B).",
+        "C": "Correct. Sympathetic ganglia (the paravertebral chain) lie close to the spinal cord. The postganglionic neuron's own cell body therefore originates at a distance from — distal to — the effector organ it ultimately supplies. A long postganglionic axon bridges that distance.",
+        "D": "Incorrect. Sympathetic postganglionic fibres are LONG, not short, because their ganglion sits far from the effector organ; it is the preganglionic fibre that is short.",
+        "E": "Incorrect. Sympathetic postganglionic fibres are type C (unmyelinated); type B fibres describe the myelinated preganglionic autonomic fibres instead."
+      },
+      "main_concept": "CON-NEU-3DC19307F11AB3",
+      "concept_ids": ["CON-NEU-3DC19307F11AB3"],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "learning_objective": "State that sympathetic postganglionic neurons originate distal to the effector organ, with long, unmyelinated, mostly adrenergic postganglionic fibres.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Ganglion Anatomy",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.44" }
+    },
+    {
+      "key": "aepans1-q08",
+      "page": 45,
+      "title": "Origin of sympathetic outflow to the head and neck",
+      "question": "What is the origin of sympathetic outflow to the head and neck?",
+      "options": {
+        "A": "T1-T2 segments.",
+        "B": "T3-T4 segments.",
+        "C": "T5-T6 segments.",
+        "D": "T7-T8 segments.",
+        "E": "T9-T10 segments."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Sympathetic outflow to the head and neck originates specifically from the T1 and T2 spinal segments, the rostral end of the thoracolumbar outflow. It ascends the cervical sympathetic chain without synapsing at its own level. It then relays in the cervical ganglia before reaching the eye, face and neck.",
+        "B": "Incorrect. T3-T4 is too caudal for head-and-neck sympathetic outflow, which originates specifically at T1-T2.",
+        "C": "Incorrect. T5-T6 instead contributes to the greater splanchnic nerve supplying abdominal viscera, not head-and-neck structures.",
+        "D": "Incorrect. T7-T8 is well below the T1-T2 origin of head-and-neck sympathetic outflow, and instead contributes to abdominal splanchnic outflow.",
+        "E": "Incorrect. T9-T10 is far below the T1-T2 origin of head-and-neck sympathetic outflow, and instead contributes to abdominal/pelvic splanchnic outflow."
+      },
+      "main_concept": "CON-NEU-6D0F9F0CBDD4E7",
+      "concept_ids": ["CON-NEU-6D0F9F0CBDD4E7"],
+      "contextual_concept_ids": ["CON-NEU-D4EB1BBF88876D"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that sympathetic outflow to the head and neck originates from the T1-T2 spinal segments.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Horner's Syndrome",
+      "author_notes": "Printed options had an OCR lettering artefact in the source (two rows both scanned as 'e)') — reconstructed here as the intended clean A-E sequence T1-T2/T3-T4/T5-T6/T7-T8/T9-T10, key A, consistent with the printed right-margin key letter.",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.45" }
+    },
+    {
+      "key": "aepans1-q09",
+      "page": 45,
+      "title": "Most abundant signalling molecule from the adrenal medulla",
+      "question": "What is the most abundant signalling molecule released from the adrenal medulla?",
+      "options": {
+        "A": "Acetylcholine",
+        "B": "Dopamine",
+        "C": "Epinephrine",
+        "D": "Norepinephrine",
+        "E": "Serotonin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Acetylcholine is the transmitter released BY the preganglionic fibres SUPPLYING the adrenal medulla, not a molecule the medulla itself secretes into the blood.",
+        "B": "Incorrect. Dopamine is a biosynthetic intermediate on the pathway from tyrosine to norepinephrine and epinephrine, but it is not the dominant molecule secreted by the medulla itself.",
+        "C": "Correct. Most chromaffin cells express the enzyme that methylates norepinephrine into epinephrine. The adrenal medulla therefore secretes catecholamines in a roughly 80:20 epinephrine-to-norepinephrine ratio. This makes epinephrine its most abundant secreted signalling molecule.",
+        "D": "Incorrect. Norepinephrine makes up only about 20% of the adrenal medulla's catecholamine output; epinephrine, not norepinephrine, is the dominant molecule.",
+        "E": "Incorrect. Serotonin is not a catecholamine and is not a significant secretory product of the adrenal medulla."
+      },
+      "main_concept": "CON-NEU-E65770433B9BE5",
+      "concept_ids": ["CON-NEU-E65770433B9BE5"],
+      "contextual_concept_ids": ["CON-NEU-BCB9CEA31D2603"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "learning_objective": "State that epinephrine, at roughly 80% of catecholamine output, is the most abundant signalling molecule released by the adrenal medulla.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Adrenal Medulla",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.45" }
+    },
+    {
+      "key": "aepans1-q10",
+      "page": 47,
+      "title": "Transmitter released by all preganglionic autonomic neurons",
+      "question": "Which chemical transmitter is released by all preganglionic autonomic neurons?",
+      "options": {
+        "A": "Acetylcholine",
+        "B": "Dopamine",
+        "C": "Epinephrine",
+        "D": "Nicotine",
+        "E": "Norepinephrine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Every preganglionic autonomic neuron, sympathetic or parasympathetic, releases acetylcholine at its synapse with the postganglionic neuron. It acts on nicotinic receptors there. This is a uniform feature of the preganglionic step across the whole autonomic nervous system, regardless of what the postganglionic neuron itself later releases.",
+        "B": "Incorrect. Dopamine is a biosynthetic intermediate for catecholamine synthesis, not the preganglionic autonomic transmitter.",
+        "C": "Incorrect. Epinephrine is a downstream secretory product of the adrenal medulla, not the transmitter preganglionic neurons themselves release at the ganglion.",
+        "D": "Incorrect. Nicotine is an exogenous drug that mimics acetylcholine's action at nicotinic receptors; it is not itself the endogenous preganglionic transmitter.",
+        "E": "Incorrect. Norepinephrine is released by most sympathetic POSTganglionic fibres, not by preganglionic neurons of either division."
+      },
+      "main_concept": "CON-NEU-C3BB0E6187866A",
+      "concept_ids": ["CON-NEU-C3BB0E6187866A"],
+      "contextual_concept_ids": ["CON-NEU-66CA185B9EBEDD"],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "learning_objective": "State that acetylcholine, acting on nicotinic receptors, is the transmitter released by every preganglionic autonomic neuron.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Pre- and Postganglionic Transmitters",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.47" }
+    },
+    {
+      "key": "aepans1-q11",
+      "page": 47,
+      "title": "Mechanism of organophosphate insecticide poisoning",
+      "question": "Hassan, a 45-year-old farm worker, was admitted to the emergency department with increased saliva and tear production, diarrhoea, nausea, vomiting, small pupils, sweating, muscle tremors, bronchospasm and confusion, with a history of using insecticide on the farm. What is the mechanism of action of this insecticide?",
+      "options": {
+        "A": "Blocks the action of the cholinesterase enzyme",
+        "B": "Blocks cholinergic muscarinic receptors",
+        "C": "Blocks cholinergic nicotinic receptors",
+        "D": "Causes excessive uptake of acetylcholine by cholinergic neurons",
+        "E": "Inhibits the release of acetylcholine from cholinergic neurons"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Organophosphate insecticides irreversibly inhibit acetylcholinesterase, letting acetylcholine accumulate at muscarinic receptors throughout the body. This produces the muscarinic-excess (SLUDGE-type) picture seen here — salivation, lacrimation, GI cramps with vomiting and diarrhoea, urination-type increased secretions, miosis (small pupils), sweating and bronchospasm. This pattern is the recognisable bedside signature of organophosphate/anticholinesterase poisoning.",
+        "B": "Incorrect. Blocking muscarinic receptors (an antimuscarinic action, like atropine) would produce the OPPOSITE picture — dry mouth, mydriasis and urinary retention — not this muscarinic-excess presentation.",
+        "C": "Incorrect. Blocking nicotinic receptors would impair neuromuscular and ganglionic transmission, not produce a muscarinic-excess picture of increased secretions and miosis.",
+        "D": "Incorrect. Organophosphates work by blocking acetylcholine's BREAKDOWN (via acetylcholinesterase inhibition), not by increasing its uptake into neurons.",
+        "E": "Incorrect. Organophosphates do not inhibit acetylcholine release; they instead prevent its breakdown, letting released acetylcholine accumulate and act repeatedly at the receptor."
+      },
+      "main_concept": "CON-FND-26A28E75EA8E52",
+      "concept_ids": ["CON-FND-26A28E75EA8E52"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "learning_objective": "Identify acetylcholinesterase inhibition as the mechanism of organophosphate insecticide poisoning, recognising its muscarinic-excess clinical picture.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Cholinergic Pharmacology",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.47" }
+    },
+    {
+      "key": "aepans1-q12",
+      "page": 47,
+      "title": "A true statement about acetylcholine",
+      "question": "Which one of the following is true about acetylcholine?",
+      "options": {
+        "A": "Its action at the motor end plate is blocked by atropine.",
+        "B": "Its action at the motor end plate is blocked by a small dose of nicotine.",
+        "C": "It is released by both pre- and postganglionic sympathetic nerves.",
+        "D": "It is the only neurotransmitter secreted by parasympathetic neurons.",
+        "E": "Its synthesis is catalysed by the cholinesterase enzyme."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Atropine blocks MUSCARINIC receptors; the motor end plate is a NICOTINIC receptor site, so atropine does not block acetylcholine's action there.",
+        "B": "Incorrect. A small dose of nicotine instead STIMULATES the nicotinic receptors at the motor end plate (mimicking acetylcholine); it does not block them — only a large, desensitising dose would eventually block transmission.",
+        "C": "Incorrect. Acetylcholine is released by sympathetic PREganglionic fibres and by the (cholinergic exception) sympathetic postganglionic fibres to sweat glands, but the great majority of sympathetic postganglionic fibres are noradrenergic, not cholinergic — so it is not accurate to say acetylcholine is released by sympathetic postganglionic nerves in general.",
+        "D": "Correct. Parasympathetic postganglionic neurons release only acetylcholine, acting on muscarinic receptors at their effector organ. This is unlike the sympathetic division, whose postganglionic fibres are mostly noradrenergic. Sweat glands are the notable cholinergic exception among sympathetic effectors.",
+        "E": "Incorrect. Acetylcholine's SYNTHESIS is catalysed by choline acetyltransferase; acetylcholinesterase instead catalyses its BREAKDOWN — the two enzymes are commonly confused but perform opposite reactions."
+      },
+      "main_concept": "CON-NEU-66CA185B9EBEDD",
+      "concept_ids": ["CON-NEU-66CA185B9EBEDD"],
+      "contextual_concept_ids": ["CON-NEU-C3BB0E6187866A"],
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "learning_objective": "State that acetylcholine is the only neurotransmitter secreted by parasympathetic postganglionic neurons, and reject the atropine/nicotine/synthesis-enzyme distractors.",
+      "module_subject": "MANS-AEP > Physiology > Autonomic Nervous System > Pre- and Postganglionic Transmitters",
+      "field_notes": { "keySource": "printed answer letter in right-margin column, p.47" }
+    }
+  ]
+}

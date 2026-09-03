@@ -13048,3 +13048,4620 @@ needs_evidence
 
 ## editorial_review_status
 drafted_not_reviewed
+# Item
+
+## label
+Benign and malignant tumours are distinguished by a fixed set of gross and microscopic criteria: capsulation, growth rate, mitoses, uniformity and consistency
+
+## id
+CON-FND-3FA6B2697B1A65
+
+## canonical_key
+neoplasia.classification.benign-vs-malignant-features
+
+## aliases
+Benign vs malignant tumour criteria
+Gross criteria of malignancy
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Benign tumours are typically capsulated or well-circumscribed, slow-growing, non-infiltrative, rarely recurrent, and composed of uniform cells with few mitoses; malignant tumours are the opposite on every axis -- poorly defined and fixed to surrounding tissue by infiltrative growth, rapidly growing, richly mitotic, pleomorphic, and firm/hard on palpation rather than soft. A malignant ulcer classically has raised, everted edges (the tumour grows outward and undermines the adjacent skin), the reverse of an inverted-edge description.
+
+## explicit_objective
+State the paired gross/microscopic criteria (capsulation, growth rate, mitotic activity, nuclear uniformity, consistency, ulcer-edge shape) that separate a benign from a malignant tumour, and identify the everted (not inverted) edge of a malignant ulcer.
+
+## pitfalls
+Assuming any firm, fixed mass is automatically malignant without weighing the full criteria set; reversing "everted" and "inverted" when describing a malignant ulcer's edge.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Benign vs malignant gross/microscopic criteria
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-3FA6B2697B1A65
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+III- The expected microscopic picture of the breast in the above case is / Carcinoma
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p1 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "malignant tumor fixed to surrounding", "everted edges malignant ulcer" -- no exact-grain hit; minted fresh, consolidating four related items (III microscopic picture=carcinoma, IV gross consistency=hard, malignant-vs-benign growth characteristics, malignant ulcer edge shape) into one benign-vs-malignant-criteria teaching unit.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Malignant tumours spread by direct extension, lymphatic permeation/embolization, haematogenous (blood) spread, transcoelomic seeding and implantation
+
+## id
+CON-FND-C1698A4BEA1C38
+
+## canonical_key
+neoplasia.spread.routes-of-malignant-tumours
+
+## aliases
+Routes of tumour spread
+Lymphatic permeation
+Peau d'orange
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Malignant tumours reach new sites by five recognised routes: direct (local) extension into adjacent tissue; lymphatic spread, either permeation (tumour growing along lymphatic channels, producing the orange-peel/peau d'orange skin change of breast carcinoma) or embolization (tumour emboli carried to regional nodes); haematogenous (blood) spread to distant organs; transcoelomic seeding across a body cavity lined by serous membrane (peritoneum, pleura); and implantation, the accidental transfer of tumour cells at surgery. Simple ulceration of a tumour through skin or mucosa is a local complication of growth, not itself one of these distant-spread routes.
+
+## explicit_objective
+Name the five routes of malignant spread (direct, lymphatic permeation/embolization, haematogenous, transcoelomic, implantation), and recognise that a locally invasive breast carcinoma with axillary nodal metastasis demonstrates both direct and lymphatic spread together.
+
+## pitfalls
+Treating tumour ulceration through the skin as a distinct spread route rather than a local growth complication; conflating lymphatic permeation (growth along the vessel) with lymphatic embolization (detached emboli).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Routes of malignant spread
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-C1698A4BEA1C38
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+I- The route of malignant spread in this case is: / Direct and lymphatic spread
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p1 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "lymphatic permeation", "transcoelomic spread", "distant spread routes" -- no exact-grain hit; minted fresh, consolidating four spread-route items (direct+lymphatic breast route, distant-spread-routes-except-ulcer, transcoelomic definition, lymphatic permeation/peau d'orange) into one routes-of-spread teaching unit.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Local invasion proceeds through cell-cell detachment, extracellular matrix degradation and migration; a locally malignant tumour (e.g. basal cell carcinoma) spreads only this way and, unlike a sarcoma, a carcinoma passes through an in-situ phase before invading
+
+## id
+CON-FND-3FBC08E9F663B5
+
+## canonical_key
+neoplasia.invasion-and-local-spread.cascade-and-locally-malignant-tumours
+
+## aliases
+Steps of ECM invasion
+Locally malignant tumour
+Sarcoma has no in-situ phase
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Local tissue invasion by a malignant cell proceeds through an ordered cascade: cell-cell detachment (loss of adhesion molecules such as E-cadherin), degradation of the extracellular matrix by enzymes including matrix metalloproteinases, and migration of the tumour cell through the newly opened matrix, before intravasation into a vessel. A locally malignant tumour (the classic example is basal cell carcinoma / rodent ulcer) is capable only of this local, infiltrative spread and does not metastasize to distant sites. Carcinomas typically pass through a recognised in-situ (pre-invasive) phase before they invade; sarcomas, arising from mesenchymal tissue, have no equivalent in-situ phase and are invasive from the outset.
+
+## explicit_objective
+Sequence the steps of local ECM invasion (detachment, matrix degradation, migration), define a locally malignant tumour as one that spreads only locally without distant metastasis, and state that sarcomas -- unlike carcinomas -- have no in-situ phase.
+
+## pitfalls
+Assuming a 'locally malignant' tumour cannot metastasize because it is not fully malignant, rather than recognising it simply lacks the capacity for distant spread; assuming all malignant tumours pass through an in-situ phase, when this is a carcinoma-specific pattern that sarcomas do not share.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Invasion cascade and locally malignant behaviour
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-3FBC08E9F663B5
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+II- One of the steps included in the Invasion of Extracellular Matrix is: / Cell-cell detachment
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p1 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "cell to cell detachment invasion", "matrix metalloproteinase invasion", "sarcoma in situ component" -- no exact-grain hit; minted fresh, consolidating the ECM-invasion-cascade step, the MMP-degradation step, and the locally-malignant/sarcoma-no-in-situ-phase facts into one invasion-and-local-spread teaching unit.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Neoplasia is defined by autonomous, uncontrolled, purposeless and irreversible growth, spontaneous in onset
+
+## id
+CON-FND-50C0FF522228AB
+
+## canonical_key
+neoplasia.definition.general-criteria
+
+## aliases
+Definition of neoplasia
+Criteria of neoplasm
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Neoplasia is new tissue growth that is autonomous (independent of the normal stimulus that provoked it and that would normally control it), uncontrolled, purposeless to the host, spontaneous in onset, and -- once established -- irreversible; it does not regress when the inciting stimulus is removed, unlike a reversible adaptive change such as hypertrophy or hyperplasia.
+
+## explicit_objective
+List the defining general criteria of neoplasia (autonomous, uncontrolled, purposeless, spontaneous, irreversible) and identify irreversibility, not reversibility, as a true criterion.
+
+## pitfalls
+Describing neoplastic growth as reversible by analogy with physiological/adaptive hypertrophy or hyperplasia, which do regress once their stimulus is removed.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+General criteria of neoplasia
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-50C0FF522228AB
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Regarding general criteria of neoplasm, one of the followings is wrong: / Reversible
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p12 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "neoplasia autonomous" -- no exact-grain hit; minted fresh, consolidating the autonomous-growth item and the irreversibility item into one general-criteria-of-neoplasia teaching unit.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+A benign tumour can still be dangerous when its site threatens life or vital structures -- pituitary adenoma, cardiac myxoma/rhabdomyoma, oesophageal and ureteric benign tumours -- unlike a forearm lipoma
+
+## id
+CON-FND-8D2E84B262B674
+
+## canonical_key
+neoplasia.classification.benign-dangerous-by-site
+
+## aliases
+Benign dangerous tumour
+Site-dependent danger of benign tumours
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+A tumour's histological benignity does not guarantee it is harmless: a benign tumour arising in a site with limited space or vital function -- the pituitary gland (mass effect, hormone excess), the heart (myxoma, rhabdomyoma obstructing flow), the oesophagus or ureter (luminal obstruction) -- is classed as benign-but-dangerous. A benign tumour in an accommodating site with no vital structure nearby, such as a forearm lipoma, remains benign-non-dangerous.
+
+## explicit_objective
+Classify a benign tumour as dangerous or non-dangerous by its site (pituitary, cardiac, oesophageal, ureteric = dangerous; forearm/subcutaneous lipoma = non-dangerous), not by its histology alone.
+
+## pitfalls
+Assuming "benign" is synonymous with "harmless" regardless of location, or conversely assuming every benign tumour needs the same urgency of treatment as its histologically identical counterpart in a safer site.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Benign-dangerous vs benign-non-dangerous tumours
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-8D2E84B262B674
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+The following list for benign dangerous tumors except / Lipoma
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p2 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "benign dangerous tumor" -- no exact-grain hit; minted fresh, reused for the benign-non-dangerous-tumor item and the pituitary-adenoma-category item (same site-based classification fact tested three ways).
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Irritation (reactive) hyperplasia is the lymphoid tissue response to local infection or chronic irritation, e.g. cervical lymph node enlargement draining tonsillitis
+
+## id
+CON-FND-B97C8B88006F68
+
+## canonical_key
+hyperplasia.lymphoid.irritation-reactive
+
+## aliases
+Irritative hyperplasia
+Reactive lymphoid hyperplasia
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Irritation (also called irritative or reactive) hyperplasia is the increase in lymphoid tissue cellularity -- germinal centre expansion, increased lymphocytes and macrophages -- that follows local infection or chronic irritation draining to a lymph node; a cervical lymph node enlarging while draining tonsillitis is the classic example, distinct from hormonal hyperplasia (driven by a hormone) or compensatory hyperplasia (replacing lost tissue mass).
+
+## explicit_objective
+Name irritation/reactive hyperplasia as the lymphoid response to local infection draining to a node, and distinguish it from hormonal and compensatory hyperplasia by its trigger.
+
+## pitfalls
+Confusing irritation hyperplasia (infection-driven, lymphoid) with compensatory hyperplasia (mass-replacement-driven, e.g. bone marrow after haemorrhage) or hormonal hyperplasia (hormone-driven, e.g. breast in pregnancy).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Cellular adaptation
+
+## microtopic
+Types of hyperplasia
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-B97C8B88006F68
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Enlarged cervical lymph node draining non-specific tonsillitis represents one of the following processes / Irritation hyperplasia
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p2 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "irritation hyperplasia" -- no exact-grain hit; minted fresh, reused for the child-tonsillitis vignette (p3-4) and the p13 repeat of the antigenic-stimulation-lymphoid-hyperplasia item (three vignettes, one fact).
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Adaptive (compensatory) hypertrophy of the left ventricle develops in sustained pressure overload, such as poorly controlled hypertension or aortic valve stenosis
+
+## id
+CON-FND-99338FF75CDD15
+
+## canonical_key
+hypertrophy.cardiac.adaptive-pressure-overload
+
+## aliases
+Adaptive cardiac hypertrophy
+Pressure-overload hypertrophy
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Sustained pressure overload on the left ventricle -- from long-standing, poorly controlled hypertension or from aortic valve stenosis -- drives adaptive (compensatory) hypertrophy: individual myocyte enlargement (not hyperplasia, since mature cardiomyocytes are permanent cells) that increases wall thickness and contractile force to maintain cardiac output against the raised afterload.
+
+## explicit_objective
+Identify adaptive/compensatory hypertrophy, not hyperplasia or atrophy, as the expected left ventricular response to sustained pressure overload from uncontrolled hypertension or aortic stenosis.
+
+## pitfalls
+Selecting hyperplasia rather than hypertrophy for a pressure-overloaded left ventricle -- cardiomyocytes are permanent, post-mitotic cells and enlarge rather than divide.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Cellular adaptation
+
+## microtopic
+Cardiac hypertrophy
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-99338FF75CDD15
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+In case of aortic valve stenosis, left ventricle is affected by / Adaptive hypertrophy
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p3 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "adaptive hypertrophy" -- no exact-grain hit; minted fresh, reused for the p9 hypertension-left-ventricle vignette (same fact, two stems).
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Papilloma is the benign tumour arising from protective (squamous or transitional) epithelium
+
+## id
+CON-FND-3CA8E4A473D9A2
+
+## canonical_key
+neoplasia.papilloma.benign-tumour-of-protective-epithelium
+
+## aliases
+Papilloma definition
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+A papilloma is a benign tumour of protective epithelium -- stratified squamous or transitional epithelium -- growing as finger-like fronds covered by that epithelium; it is distinguished from an adenoma, which is the benign tumour of glandular (secretory) epithelium.
+
+## explicit_objective
+Identify papilloma as the benign tumour of protective epithelium, as opposed to adenoma (glandular epithelium).
+
+## pitfalls
+Confusing papilloma (protective epithelium) with adenoma (glandular epithelium) as the benign epithelial tumour category.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Classification of benign epithelial tumours
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-3CA8E4A473D9A2
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Benign tumor of protective epithelium is one of the followings: / Papilloma
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p4 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "papilloma protective epithelium" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Physiologic hypertrophy of the heart develops in trained athletes as an adaptive response to sustained exercise, distinct from pathologic hypertrophy or hyperplasia
+
+## id
+CON-FND-DEDC6702151712
+
+## canonical_key
+hypertrophy.cardiac.physiologic-athletic
+
+## aliases
+Athletic heart
+Physiologic cardiac hypertrophy
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Regular, sustained exercise (as in a trained marathon runner) drives physiologic hypertrophy of the heart -- an adaptive, reversible increase in myocyte size in response to a normal physiological demand -- distinct from the pathologic hypertrophy of chronic pressure overload (hypertension, valve disease) and from skeletal muscle, which under the same training stimulus also undergoes physiologic hypertrophy, not hyperplasia or atrophy.
+
+## explicit_objective
+Identify physiologic hypertrophy of the heart as the expected finding at autopsy in a trained athlete, distinguishing it from pathologic hypertrophy and from atrophy or hyperplasia of skeletal muscle.
+
+## pitfalls
+Assuming any cardiac hypertrophy found at autopsy is pathologic; missing that skeletal muscle in a trained athlete is also physiologically hypertrophied, not atrophied.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Cellular adaptation
+
+## microtopic
+Physiologic vs pathologic hypertrophy
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-DEDC6702151712
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+A 35-year-old marathon runner died in a motor vehicle accident... which feature could be identified? / Physiologic hypertrophy of the heart
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p5 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "physiologic hypertrophy athlete" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Neuropathic (denervation) atrophy follows loss of the motor nerve supply to skeletal muscle, as in poliomyelitis
+
+## id
+CON-FND-789151DCC72B5C
+
+## canonical_key
+atrophy.neuropathic.denervation
+
+## aliases
+Denervation atrophy
+Neuropathic atrophy
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Neuropathic atrophy is skeletal muscle wasting that follows loss of its motor nerve supply; poliomyelitis, which destroys anterior horn motor neurons, is a classic cause, producing atrophy of the muscle fibres those neurons innervated -- one of the five recognised patterns of localized pathological atrophy alongside disuse, pressure, vascular and hormonal atrophy.
+
+## explicit_objective
+Identify neuropathic (denervation) atrophy as the pattern of muscle wasting caused by motor nerve loss, as in poliomyelitis.
+
+## pitfalls
+Confusing neuropathic atrophy (nerve-supply loss) with disuse atrophy (immobilisation with an intact nerve supply) as the mechanism in a paralytic illness.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Cellular adaptation
+
+## microtopic
+Patterns of pathological atrophy
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-789151DCC72B5C
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Which type of atrophy occurs in poliomyelitis patients? / Neuropathic
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p6 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "neuropathic atrophy" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+A deeply located malignant tumour carries a worse prognosis than an equivalent superficial tumour
+
+## id
+CON-FND-1F5740488C3831
+
+## canonical_key
+neoplasia.prognosis.depth-and-site
+
+## aliases
+Tumour depth and prognosis
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Among the factors affecting a malignant tumour's prognosis, depth of location matters: a deeply located tumour tends to be diagnosed later, is harder to resect completely, and has more anatomical routes for local spread, giving it a worse prognosis than an otherwise comparable superficial tumour.
+
+## explicit_objective
+State that deep tumour location, not early stage, superficial site, prior therapy or good differentiation, is associated with a worse prognosis.
+
+## pitfalls
+Overlooking depth/site as an independent prognostic factor distinct from grade and stage.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Prognostic factors of malignant tumours
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-1F5740488C3831
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Tumor with poor prognosis is: / Deeply located tumors
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p7 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "poor prognosis deep tumor" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+A colonic adenomatous polyp with mild atypia is a precancerous lesion that can be single or multiple and can occur in any part of the colon
+
+## id
+CON-FND-710D9ECA1D16CB
+
+## canonical_key
+neoplasia.colon.adenomatous-polyp
+
+## aliases
+Colonic adenoma
+Precancerous colon polyp
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+A colonic biopsy showing proliferated glands with mild atypia and no necrosis or haemorrhage is an adenoma (adenomatous polyp) of the colon -- a precancerous lesion, meaning it carries malignant potential without yet being invasive carcinoma. It can occur as a single lesion or multiple synchronous lesions, and can arise in any part of the colon; describing it as "not precancerous" is the false statement about this entity.
+
+## explicit_objective
+Recognise a mildly atypical, non-necrotic, non-haemorrhagic proliferated-gland colonic biopsy as adenoma, and identify it as precancerous, potentially single or multiple, and possible in any colonic segment.
+
+## pitfalls
+Describing a colonic adenoma as "not precancerous" -- its defining clinical significance is exactly its malignant potential.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Colonic adenomatous polyp
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-710D9ECA1D16CB
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+B. One of the following criteria regarding this tumor is wrong (colon biopsy, mild atypia, no necrosis/haemorrhage) / Not precancerous
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p7 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "colonic adenoma precancerous" -- no exact-grain hit; minted fresh. Part A of this same vignette ("What is your diagnosis?") is a free-text fill-in, out of MCQ scope, not authored.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Hormonal hyperplasia of breast glandular epithelium occurs in pregnancy and lactation, driven by prolactin
+
+## id
+CON-FND-F2C66A27C1A304
+
+## canonical_key
+hyperplasia.breast.hormonal-pregnancy-lactation
+
+## aliases
+Hormonal hyperplasia, breast
+Pregnancy breast changes
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+During pregnancy and especially the third trimester, rising prolactin secretion from the pituitary gland stimulates breast glandular epithelial cells to undergo hormonal hyperplasia -- an increase in secretory cell numbers -- enabling milk production; this is a physiological, reversible hyperplasia driven by a hormone, distinct from irritation or compensatory hyperplasia.
+
+## explicit_objective
+Identify hormonal hyperplasia (not hypertrophy, atrophy, dysplasia or metaplasia) as the breast glandular epithelial response to prolactin in late pregnancy.
+
+## pitfalls
+Selecting hypertrophy instead of hyperplasia for a glandular epithelial response -- glandular cells are labile/stable and can increase in number under hormonal drive, unlike the cardiomyocyte example of hypertrophy.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Cellular adaptation
+
+## microtopic
+Types of hyperplasia
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-F2C66A27C1A304
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+During the third trimester of pregnancy, prolactin secretion... glandular epithelial cells... respond by undergoing: / Hyperplasia
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p8 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "hormonal hyperplasia pregnancy breast" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+A prolactin-secreting pituitary adenoma (prolactinoma) presents with galactorrhoea and menstrual irregularity from hyperprolactinaemia
+
+## id
+CON-FND-0DDDB3966D0CB3
+
+## canonical_key
+neoplasia.pituitary.prolactinoma
+
+## aliases
+Prolactinoma
+Pituitary adenoma, prolactin-secreting
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+A prolactinoma is a benign pituitary adenoma that autonomously secretes prolactin; the resulting hyperprolactinaemia produces galactorrhoea (milky nipple discharge, often bilateral) and menstrual irregularity by suppressing gonadotropin-releasing hormone, and MRI shows anterior pituitary enlargement. Histologically it is an adenoma, not a hamartoma, hyperplasia, papilloma or teratoma.
+
+## explicit_objective
+Recognise the triad of galactorrhoea, menstrual irregularity and an MRI-enlarged anterior pituitary as a prolactin-secreting pituitary adenoma, and name its histology as adenoma.
+
+## pitfalls
+Labelling a functioning pituitary tumour's histology as hyperplasia (diffuse gland enlargement without a discrete neoplasm) rather than adenoma (a discrete benign neoplasm) when a discrete mass is described.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Pituitary adenoma
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-0DDDB3966D0CB3
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+A female 35-year-old complains of nipple discharge and irregular menses... most likely histologic diagnosis of this patient's pituitary tumor? / Adenoma
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p8 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "prolactinoma" -- no exact-grain hit; minted fresh. This same vignette repeats verbatim on p16 with numbered (1-5) options instead of lettered -- held as an exact duplicate, not double-authored.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Cachexia (generalized wasting) is a systemic cause of atrophy, distinct from the localized patterns (disuse, pressure, vascular, neuropathic, hormonal)
+
+## id
+CON-FND-B74FDBC28B5E2A
+
+## canonical_key
+atrophy.generalized.cachexia
+
+## aliases
+Cachexia
+Generalized atrophy
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Cachexia is a generalized wasting state -- from malignancy, chronic infection, malnutrition or chronic organ failure -- that produces generalized (systemic) atrophy of skeletal muscle and fat, distinct from the five named patterns of localized pathological atrophy (disuse, pressure, vascular, neuropathic, hormonal), which affect one region or tissue at a time.
+
+## explicit_objective
+Recognise atrophy as the growth disturbance expected in a cachectic patient, and distinguish generalized (cachexia, malnutrition, thyrotoxicosis) from localized atrophy causes.
+
+## pitfalls
+Choosing dysplasia, hyperplasia, hypertrophy or metaplasia instead of atrophy for a wasting, cachectic clinical picture.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Cellular adaptation
+
+## microtopic
+Generalized vs localized atrophy
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-B74FDBC28B5E2A
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Which of the following growth disturbances is most likely to occur in patients suffering from cachexia? / Atrophy
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p9 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "cachexia atrophy" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Basal cell carcinoma (rodent ulcer) of the face is a locally malignant tumour with raised, rolled -- not everted -- edges, capable of transforming to basosquamous carcinoma
+
+## id
+CON-FND-72C9E2EF94990F
+
+## canonical_key
+neoplasia.basal-cell-carcinoma.rodent-ulcer
+
+## aliases
+Rodent ulcer
+Basal cell carcinoma
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Basal cell carcinoma of the face, classically called a rodent ulcer, is locally malignant (it spreads locally and destructively but essentially never metastasizes), microscopically shows the features of basal cell carcinoma, and can transform to the more aggressive basosquamous carcinoma. Its edges are classically described as raised and rolled (pearly, rolled edges), not everted -- everted edges describe a different pattern of malignant ulcer.
+
+## explicit_objective
+State that a rodent ulcer (basal cell carcinoma) has raised, rolled edges -- not everted edges -- alongside its other true features: local malignancy, basosquamous transformation potential, and local spread.
+
+## pitfalls
+Applying the "everted edges" description (more typical of a generic malignant/carcinomatous ulcer) to basal cell carcinoma, whose classic edge description is raised and rolled.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Basal cell carcinoma (rodent ulcer)
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-72C9E2EF94990F
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+All the following are true about rodent ulcer of the face except: / Edges of the ulcer are raised everted edges
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p10 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "rodent ulcer basal cell carcinoma" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Circulating tumour cells survive immune attack in the bloodstream by aggregating with platelets and other blood cells; host innate and adaptive immune defences reduce, not favour, their survival
+
+## id
+CON-FND-E975CC82A64BD1
+
+## canonical_key
+neoplasia.spread.circulating-tumour-cell-survival
+
+## aliases
+Circulating tumour cell survival
+Tumour cell dissemination in blood
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Once a tumour cell intravasates into a vessel, its survival there depends on evading immune destruction: aggregation with platelets and other blood cells (forming a tumour-cell-platelet clump) and coating by blood components both help shield it from immune attack, favouring survival to a distant site. The host's own innate and adaptive immune defences work in the opposite direction, reducing circulating tumour cell survival rather than favouring it.
+
+## explicit_objective
+Identify platelet/blood-cell aggregation and coating as factors favouring circulating tumour cell survival, and host innate/adaptive immune defences as factors that reduce, not favour, that survival.
+
+## pitfalls
+Reading "does not favour tumour cell survival" items as asking what helps the tumour, and mistakenly selecting immune defences (which hinder, not help, tumour survival) as a favouring factor.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Haematogenous spread, circulating tumour cells
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-E975CC82A64BD1
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Dissemination of tumor cells through vascular channels, one of the following does not favor tumor cell survival: / Innate and adaptive immune defenses
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p12 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "tumor cell survival platelets circulation" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Recognised prognostic factors of a malignant tumour are grade, stage, site and histological type -- tumour colour is not a recognised prognostic factor
+
+## id
+CON-FND-62EE104B252F19
+
+## canonical_key
+neoplasia.prognosis.recognized-factors
+
+## aliases
+Tumour prognostic factors
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+A malignant tumour's prognosis is assessed using grade (degree of differentiation), stage (extent of spread), site, and histological type; gross colour of the tumour is not among the recognised prognostic factors.
+
+## explicit_objective
+List grade, stage, site and type as recognised prognostic factors of a malignant tumour, and identify tumour colour as not one of them.
+
+## pitfalls
+Assuming any visually striking gross feature, such as colour, must carry prognostic weight alongside the recognised factors.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Prognostic factors of malignant tumours
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-62EE104B252F19
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+One of the following was not considered as a prognostic factor of malignant tumor: / Tumor color
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p13 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "tumor prognostic factors grade stage" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Physiological atrophy of the thymus after puberty (thymic involution) is a normal, age-related process
+
+## id
+CON-FND-12CC9BA62D2FDD
+
+## canonical_key
+atrophy.physiological.thymic-involution
+
+## aliases
+Thymic involution
+Physiological atrophy
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The thymus normally undergoes physiological atrophy (involution) after puberty, with progressive replacement of thymic lymphoid tissue by fat; this is a normal, age-related process, one of the recognised physiological atrophy patterns alongside others such as post-menopausal ovarian/uterine atrophy, distinct from the pathological atrophy patterns (disuse, pressure, vascular, neuropathic, hormonal).
+
+## explicit_objective
+Identify post-pubertal thymic involution as physiological atrophy, not a pathological atrophy pattern.
+
+## pitfalls
+Assigning a pathological atrophy label (disuse, pressure, vascular, senescence/neuropathic) to a normal age-related involution process like thymic atrophy after puberty.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Cellular adaptation
+
+## microtopic
+Physiological atrophy
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-12CC9BA62D2FDD
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Atrophy of the thymus after puberty is a type of.............atrophy / Physiological
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p13 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "thymus atrophy" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Chronic urinary bladder Bilharziasis (Schistosoma haematobium) drives squamous metaplasia of the normal transitional epithelium
+
+## id
+CON-FND-9200DFA3C72D6E
+
+## canonical_key
+metaplasia.bladder.bilharzial-squamous
+
+## aliases
+Bilharzial bladder metaplasia
+Squamous metaplasia, bladder
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Chronic Schistosoma haematobium (Bilharzia) infection of the urinary bladder provokes squamous metaplasia -- transformation of the normal transitional (urothelial) epithelium into squamous epithelium -- as an adaptive response to the chronic irritation of egg deposition; this metaplastic squamous epithelium is itself a recognised risk factor for bladder squamous cell carcinoma.
+
+## explicit_objective
+State that chronic bladder Bilharziasis causes squamous metaplasia of transitional epithelium (transitional to squamous), and that this is the direction of change, not the reverse.
+
+## pitfalls
+Reversing the direction of change (squamous-to-transitional instead of transitional-to-squamous) when describing Bilharzial bladder metaplasia.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Cellular adaptation
+
+## microtopic
+Metaplasia
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-9200DFA3C72D6E
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Which type of metaplasia occurs in urinary bladder Bilharziasis? / Transformation of transitional epithelium to squamous epithelium
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p13 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "squamous metaplasia bladder bilharzia" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Aflatoxin (an Aspergillus flavus mycotoxin, a food contaminant) is a chemical carcinogen causally linked to hepatocellular carcinoma
+
+## id
+CON-FND-62BC955DED99FA
+
+## canonical_key
+carcinogenesis.chemical.aflatoxin-hepatocellular-carcinoma
+
+## aliases
+Aflatoxin
+Chemical carcinogen, liver
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Aflatoxin, a mycotoxin produced by Aspergillus flavus contaminating stored grains and nuts, is a chemical carcinogen with a well-established causal link to hepatocellular carcinoma, particularly acting synergistically with chronic hepatitis B infection.
+
+## explicit_objective
+Name hepatocellular carcinoma as the cancer causally associated with aflatoxin exposure.
+
+## pitfalls
+Confusing aflatoxin's target organ (liver, hepatocellular carcinoma) with other chemical-carcinogen associations (e.g. asbestos-mesothelioma, aromatic amine-urothelial carcinoma).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Carcinogenesis
+
+## microtopic
+Chemical carcinogens
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-62BC955DED99FA
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Which of the following cancers is associated with aflatoxin carcinogen? / hepatocellular carcinoma
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p14 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "aflatoxin hepatocellular carcinoma" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Papillary urothelial carcinoma is a non-invasive bladder tumour of thin papillary fronds with a central fibrovascular core covered by malignant/anaplastic urothelial cells
+
+## id
+CON-FND-248745D45028D3
+
+## canonical_key
+neoplasia.bladder.papillary-urothelial-carcinoma
+
+## aliases
+Papillary urothelial carcinoma, non-invasive
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Papillary urothelial carcinoma is a bladder tumour composed of thin, finger-like papillary fronds, each with a central fibrovascular core, covered by malignant urothelial cells showing anaplastic features, with no invasion of the underlying lamina propria or muscle; this non-invasive papillary architecture distinguishes it from invasive urothelial carcinoma, inverted papilloma (a benign, endophytic lesion) and squamous cell carcinoma.
+
+## explicit_objective
+Recognise thin papillary fronds with a fibrovascular core and malignant/anaplastic covering urothelium, with no invasion, as papillary urothelial carcinoma.
+
+## pitfalls
+Confusing non-invasive papillary urothelial carcinoma with invasive urothelial carcinoma (which by definition breaches the basement membrane) or with inverted papilloma (a benign lesion growing inward rather than as exophytic fronds).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Bladder tumours
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-248745D45028D3
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Male patient has 35 years old complains of hematuria... biopsy showed tumor composed of thin papillary fronds... no invasion. What is your diagnosis? / Papillary urothelial carcinoma
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p14 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "papillary urothelial carcinoma" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Embryonal rhabdomyosarcoma in a young child presents as sheets of small round blue cells with a cambium layer condensed beneath the surface epithelium, classically at the orbit or vagina
+
+## id
+CON-FND-19C38BBE857DE0
+
+## canonical_key
+neoplasia.rhabdomyosarcoma.embryonal-cambium-layer
+
+## aliases
+Rhabdomyosarcoma, embryonal
+Cambium layer
+Sarcoma botryoides
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Embryonal rhabdomyosarcoma is the most common soft-tissue sarcoma of young children, presenting as sheets of small round blue cells admixed with spindle-shaped cells in a myxoid stroma; when it arises beneath a mucosal or epithelial surface (classic sites: orbit producing progressive exophthalmos, or vagina producing a grape-like mass and discharge -- sarcoma botryoides) the tumour cells condense into a distinct cambium layer directly under that surface.
+
+## explicit_objective
+Recognise progressive exophthalmos or vaginal discharge with a mass in a young child, biopsy showing small round blue cells and a cambium layer, as embryonal rhabdomyosarcoma.
+
+## pitfalls
+Confusing embryonal rhabdomyosarcoma's small-round-blue-cell/cambium-layer picture with other paediatric small round blue cell tumours (e.g. neuroblastoma, lymphoma) without the site-specific cambium-layer and strap-cell clues.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Rhabdomyosarcoma
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-19C38BBE857DE0
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Male child has 3 years old... progressive exophthalmos... cambium layer... What is your diagnosis? / Rhabdomyosarcoma
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p15 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "rhabdomyosarcoma cambium layer" -- no exact-grain hit; minted fresh, reused for the matching vaginal (sarcoma botryoides) vignette on p15-16 (same tumour, same fact, two sites).
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Tennis-racket-shaped strap cells with cross-striations are a diagnostic microscopic feature of rhabdomyosarcoma
+
+## id
+CON-FND-21A3FA6913301A
+
+## canonical_key
+neoplasia.rhabdomyosarcoma.strap-cells-cross-striations
+
+## aliases
+Strap cells
+Cross-striations, rhabdomyosarcoma
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Strap cells -- elongated tumour cells with abundant eosinophilic cytoplasm, sometimes showing cross-striations and a tennis-racket or tadpole shape -- are a specific microscopic feature of rhabdomyosarcoma, reflecting skeletal muscle (rhabdomyoblastic) differentiation, and are not a feature of the other sarcomas (chondrosarcoma, fibrosarcoma, leiomyosarcoma, osteosarcoma).
+
+## explicit_objective
+Identify tennis-racket-shaped, cross-striated strap cells as diagnostic of rhabdomyosarcoma among the sarcomas.
+
+## pitfalls
+Attributing strap cells/cross-striations to another sarcoma (leiomyosarcoma, fibrosarcoma) rather than specifically to rhabdomyosarcoma's skeletal-muscle differentiation.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Rhabdomyosarcoma
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-21A3FA6913301A
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Tennis Racket cells is one of the diagnostic criteria of one of the following tumors: / Rhabdomyosarcoma
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p15 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "rhabdomyosarcoma cambium layer" -- no exact-grain hit; minted fresh as a distinct fact from the cambium-layer concept (a specific named histologic sign, not the general small-round-blue-cell picture).
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Xeroderma pigmentosum is an inherited genetic risk factor for squamous cell carcinoma, distinct from environmental/viral risk factors such as UV exposure, HPV or leukoplakia
+
+## id
+CON-FND-6E02735108012E
+
+## canonical_key
+carcinogenesis.genetic.xeroderma-pigmentosum-scc-risk
+
+## aliases
+Xeroderma pigmentosum, cancer risk
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Xeroderma pigmentosum, an inherited defect in nucleotide excision DNA repair that leaves UV-induced DNA damage unrepaired, is a genetic risk factor for squamous cell carcinoma (and other skin cancers); it is grouped apart from the environmental/other risk factors for squamous cell carcinoma -- ultraviolet exposure (environmental), human papillomavirus (viral), and leukoplakia (a precursor lesion) -- because the underlying defect it confers is inherited rather than acquired.
+
+## explicit_objective
+Classify xeroderma pigmentosum as the genetic (inherited) risk factor for squamous cell carcinoma among a list that also includes UV exposure, HPV and leukoplakia.
+
+## pitfalls
+Selecting an environmental or viral risk factor (UV exposure, HPV) when the item specifically asks for the genetic risk factor.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Carcinogenesis
+
+## microtopic
+Risk factors for squamous cell carcinoma
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-6E02735108012E
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+One of the following is a genetic risk factor for squamous cell carcinoma: / Xeroderma pigmentosa
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p15 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+CON-FND (AU-MED-102-biochem-molecular-concepts.md) xeroderma-pigmentosum-DNA-repair concept — related but distinct grain: teaches the nucleotide-excision-repair biochemistry, not this item's SCC-risk-factor classification (genetic vs environmental/viral).
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "xeroderma pigmentosum" found a related-but-distinct-grain hit (docs/import-ready/concept/AU-MED-102-biochem-molecular-concepts.md's "Xeroderma pigmentosum is a defect in nucleotide excision repair..." concept), reviewed and rejected: that record teaches the DNA-repair biochemistry mechanism, not this item's oncology-risk-factor-classification fact (genetic vs environmental/viral risk factor for SCC).
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Standard microscopic criteria of malignancy (pleomorphism, hyperchromatism, increased mitoses, loss of polarity) apply well to conventional carcinomas such as breast carcinoma, but are unreliable for grading tumours like neuroendocrine tumours or clear cell/papillary renal and thyroid carcinomas
+
+## id
+CON-FND-1014C9D0F30306
+
+## canonical_key
+neoplasia.grading.microscopic-criteria-of-malignancy-limits
+
+## aliases
+Microscopic criteria of malignancy
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The standard microscopic criteria of malignancy -- nuclear pleomorphism, hyperchromatism, increased and abnormal mitoses, and loss of normal cell polarity -- correlate well with aggressive behaviour in conventional carcinomas such as breast carcinoma, making them reliable grading features there. In several other tumour types (well-differentiated neuroendocrine tumours of the appendix or pancreas, clear cell renal cell carcinoma, papillary thyroid carcinoma) these same criteria are notoriously unreliable predictors of behaviour, so grading and prognostication in those tumours relies on other features instead.
+
+## explicit_objective
+Recognise breast carcinoma as the tumour type where standard microscopic malignancy criteria are the reliable grading features, as opposed to neuroendocrine tumours or clear cell renal/papillary thyroid carcinoma, where these criteria do not reliably predict behaviour.
+
+## pitfalls
+Assuming the standard nuclear/mitotic criteria of malignancy apply equally well across all tumour types, when several well-recognised exceptions (neuroendocrine tumours, clear cell RCC, papillary thyroid carcinoma) exist.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Neoplasia, tumour morphology
+
+## microtopic
+Grading and microscopic criteria of malignancy
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-1014C9D0F30306
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Microscopic criteria of malignancy are the features of one of the following tumors: / Breast carcinoma
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p15 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "microscopic criteria malignancy grading" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Adenoacanthoma, Barrett's oesophagus, endometriosis and localized myositis ossificans are true examples of metaplasia; congenital pyloric stenosis is not, because it is a congenital hypertrophic condition rather than an acquired change of cell type
+
+## id
+CON-FND-6D8E09B6D45A40
+
+## canonical_key
+metaplasia.examples.true-vs-non-metaplastic-mimics
+
+## aliases
+Examples of metaplasia
+Congenital pyloric stenosis, not metaplasia
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Metaplasia is the reversible replacement of one differentiated adult cell type by another, typically in response to chronic irritation; adenoacanthoma (squamous metaplasia within an adenocarcinoma), Barrett's oesophagus (squamous-to-intestinal columnar metaplasia), endometriosis (ectopic endometrial-type tissue, taught alongside coelomic metaplasia theories) and localized myositis ossificans (connective-tissue metaplasia to bone) are true examples. Congenital pyloric stenosis is not metaplasia at all -- it is a congenital condition of pyloric smooth-muscle hypertrophy causing gastric outlet obstruction, with no change of epithelial or mesenchymal cell type involved.
+
+## explicit_objective
+Identify congenital pyloric stenosis as not an example of metaplasia (it is congenital smooth-muscle hypertrophy), distinguishing it from true metaplasia examples such as adenoacanthoma, Barrett's oesophagus, endometriosis and myositis ossificans.
+
+## pitfalls
+Grouping congenital pyloric stenosis with metaplastic conditions because both involve tissue change, without recognising that metaplasia specifically means one differentiated cell type replacing another, which pyloric stenosis's smooth-muscle hypertrophy does not involve.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Cellular adaptation
+
+## microtopic
+Metaplasia, worked examples
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-6D8E09B6D45A40
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Which of the following conditions is not an example of metaplasia? / Congenital pyloric stenosis
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p11 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "congenital pyloric stenosis metaplasia" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Human papillomavirus (HPV) viral oncogenesis is most strongly linked to carcinoma of the cervix among the major viral-associated neoplasms
+
+## id
+CON-FND-C4E4914B2E7FAB
+
+## canonical_key
+carcinogenesis.viral.hpv-cervical-carcinoma
+
+## aliases
+HPV, cervical carcinoma
+Viral oncogenesis
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Among neoplasms with an established viral-oncogenesis mechanism, carcinoma of the cervix is the one most strongly and classically linked to human papillomavirus (HPV) infection, through the viral E6 and E7 oncoproteins inactivating the p53 and Rb tumour-suppressor pathways; breast, prostate and ovarian cancer do not share this established viral mechanism, while retinoblastoma is linked instead to inherited/somatic RB1 gene loss rather than a virus.
+
+## explicit_objective
+Identify carcinoma of the cervix as the neoplasm most likely to arise through viral oncogenesis (HPV) among a list including breast, prostate and ovarian cancer and retinoblastoma.
+
+## pitfalls
+Selecting retinoblastoma as virally driven -- its mechanism is RB1 tumour-suppressor gene loss, not a virus.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-PAT-T05
+
+## secondary_node_ids
+
+
+## topic
+General pathology
+
+## subtopic
+Carcinogenesis
+
+## microtopic
+Viral oncogenesis
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Pathology Chapters 5 and 6 Past Exam MCQs
+
+## article_ids
+ART-MU102-PATHOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_11999c1093082353caec
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-C4E4914B2E7FAB
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Some neoplasms appear to develop from viral oncogenesis. Which of the following neoplasms is most likely to arise in this manner? / Carcinoma of cervix
+
+## exam_signal
+mu_11999c1093082353caec | paper | | p11 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+find-existing.mjs run for "cervical carcinoma HPV", "viral oncogenesis" -- no exact-grain hit; minted fresh.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+

@@ -22,3 +22,59 @@ Q11.A  Q12.B  Q13.B  Q14.C  Q15.B  Q16.D
 Q17-120: OCR'd (see scripts/content/pagetext.mjs show on this PDF) but not yet
 individually re-verified by render — next author picking up this paper should spot-check
 before trusting the "@" reading past Q16.
+
+--- Tranche 2 update (Q17-42) ---
+
+Q17-42 (Anatomy) individually re-verified by rendering pp.4, 5, 6, 7 and 10 at default
+dpi and checking every circled option against the OCR "@" markers by eye -- all five
+pages matched exactly, 0 disagreements. One item (Q34/34, p.6) has a printing defect in
+the source itself: its four options are printed "circled-a / b / b / c" (duplicate "b",
+missing "d") rather than a/b/c/d -- normalised to standard a-d lettering in the question
+file, content and order preserved, correct option (first listed, "Ascending colon") kept
+as "a."
+
+Q17.b  Q18.a  Q19.b  Q20.c  Q21.c  Q22.c  Q23.d  Q24.b
+Q25.d  Q26.c  Q27.b  Q28.c  Q29.b  Q30.a  Q31.b  Q32.c
+Q33.b  Q34.a  Q35.a  Q36.b  Q37.c  Q38.b  Q39.a  Q40.a
+Q41.d  Q42.c
+
+Q43-120 (Physiology, Histology, Biochemistry): still OCR'd only, NOT re-verified by
+render -- next author picking up this paper (starting at Q43) should spot-check pp.8, 9,
+11-16 before trusting the "@" reading there.
+
+--- Tranche 3 update (Q43-64 authored; Q65-120 render-verified) ---
+
+Q43-64 (Physiology: GI hormones, salivary/gastric/pancreatic secretion, GI motility and
+swallowing) individually re-verified by rendering pp.6, 7 and 8 (the full Q43-64 range) at
+default dpi -- all matched the OCR "@" reading exactly, 0 disagreements. Authored in
+question/206-DIG-2025eom-mcq-tranche3.md.
+
+Q43.b  Q44.a  Q45.d  Q46.b  Q47.d  Q48.a  Q49.d  Q50.d
+Q51.b  Q52.b  Q53.c  Q54.c  Q55.d  Q56.c  Q57.b  Q58.c
+Q59.b  Q60.a  Q61.d  Q62.d  Q63.d  Q64.c
+
+While mapping page-to-question boundaries for this tranche, pp.9-16 (Q65-113 renal
+physiology/histology, Q114-120 biochemistry) were ALSO individually rendered at default
+dpi and checked against the OCR "@" reading -- all matched exactly with ONE correction:
+
+Q76 (Bartter's syndrome): OCR read the correct option as "Hy dente" (garbled by the
+watermark overlapping the text) -- the render shows the actual printed answer is
+**"Hypercalciuria"**, not the OCR's apparent "Hypokalemia" guess. Use "Hypercalciuria" as
+Q76's key, not the raw OCR text.
+
+Q65.a  Q66.c  Q67.d  Q68.b  Q69.a  Q70.a  Q71.c  Q72.a
+Q73.b  Q74.a  Q75.d  Q76.c (Hypercalciuria -- OCR misread, corrected by render)
+Q77.a  Q78.c  Q79.a  Q80.a  Q81.d
+Q82.b  Q83.d  Q84.a  Q85.c  Q86.b  Q87.a  Q88.c  Q89.b
+Q90.c  Q91.d  Q92.d  Q93.b  Q94.b  Q95.a  Q96.b  Q97.d
+Q98.d  Q99.d  Q100.d Q101.d Q102.a Q103.b Q104.a Q105.b
+Q106.a Q107.d Q108.d Q109.c Q110.c Q111.d Q112.b Q113.c
+Q114.b Q115.a Q116.c Q117.d Q118.b Q119.b Q120.a
+
+So: **Q65-120 is now fully render-verified** (not merely OCR'd) -- the next author
+authoring this range does not need to re-render, only spot-check if anything looks off
+against the keys above. Note the module's own content spans beyond "Digestive System" in
+the Q65-84/Q106-113 range (renal/urinary physiology and histology) -- this is the source
+paper's own composition (206 DIG module folder holds Anatomy/Biochemistry/Histology/
+Physiology broadly, per KAU-Y2-modules.md; there is no separate Kasr Y2 urology module),
+not a miscategorisation by this lane.

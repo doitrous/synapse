@@ -1,0 +1,103 @@
+{
+  "lanePrefix": "ASUCNS3-2NDASS2019",
+  "module": "ASU-CNS-3",
+  "university": "asu",
+  "year_id": "ASU_Y3",
+  "learner_year": 3,
+  "conceptHeader": "<!--\n  ASU-CNS-3 cluster 10 (author10) · \"cns 2nd ass 2019.pdf\" — 4 new concepts\n  surviving from a 35-item embedded-answer compilation, checked against every\n  existing ASU-CNS-3 concept label before minting.\n\n  Import: Admin › Bulk import → concept.\n-->",
+  "articleHeader": "<!--\n  ASU-CNS-3 cluster 10 (author10) · \"cns 2nd ass 2019.pdf\" — 4 new articles\n  matching this cluster's concepts.\n\n  Import: Admin › Bulk import → article.\n-->",
+  "concepts": [
+    {
+      "key": "2ndass2019-q02",
+      "label": "The stria medullaris thalami connects the septal area to the habenular nucleus",
+      "canonical_key": "striamedullaristhalami.connection.septal-area-to-habenular-nucleus",
+      "definition": "The stria medullaris thalami is a slender fibre bundle running along the dorsomedial margin of the thalamus that carries afferents from the septal area (and other limbic forebrain structures) to the habenular nucleus, forming one of the principal inputs of the habenulo-limbic system. From the habenular nucleus, the habenulointerpeduncular tract (fasciculus retroflexus) continues on to the midbrain, linking the limbic forebrain to brainstem monoaminergic centres.",
+      "explicit_objective": "State that the stria medullaris thalami carries fibres from the septal area to the habenular nucleus.",
+      "primary_node_id": "SYS-NEU-T01-S01-M03",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Anatomy > Diencephalon white matter tracts",
+      "topic": "Anatomy",
+      "subtopic": "Diencephalon white matter tracts",
+      "aliases": [
+        "Stria medullaris thalami",
+        "Septal area to habenular nucleus pathway"
+      ],
+      "pitfalls": "Confusing the stria medullaris thalami (septal area to habenular nucleus) with the stria terminalis (amygdala to hypothalamus) — two distinct limbic white-matter tracts that both run along the thalamus/lateral ventricle.",
+      "article_title": "Stria medullaris thalami",
+      "original_wording": "\"2-septal area to habenular nuclei / Stria medullaris thalami\"",
+      "clinical_significance": "The stria medullaris thalami is part of the habenulo-limbic circuitry implicated in reward and aversion processing.",
+      "evidence_basis": "Standard neuroanatomy teaching on the diencephalic limbic white-matter tracts.",
+      "resource_id": "src_55c5c9368ada6ac185f6",
+      "asu_field_note": "cns 2nd ass 2019.pdf, item 2 (\"septal area to habenular nuclei / Stria medullaris thalami\")."
+    },
+    {
+      "key": "2ndass2019-q10",
+      "label": "Cocaine is unique among local anaesthetics for producing intrinsic vasoconstriction",
+      "canonical_key": "cocaine.property.intrinsic-vasoconstriction-local-anesthetic",
+      "definition": "Cocaine is a local anaesthetic that blocks voltage-gated sodium channels like other agents in its class, but is unique among clinically used local anaesthetics in also blocking presynaptic reuptake of noradrenaline, producing local vasoconstriction as an intrinsic property of the drug itself. Other local anaesthetics (e.g. lidocaine, bupivacaine) instead tend to cause vasodilation and are typically combined with an added vasoconstrictor (e.g. adrenaline) to prolong their action and limit systemic absorption.",
+      "explicit_objective": "State that cocaine, unlike other local anaesthetics, produces intrinsic vasoconstriction rather than requiring an added vasoconstrictor.",
+      "primary_node_id": "DIS-PHA-T02",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Local anaesthetics",
+      "topic": "Pharmacology",
+      "subtopic": "Local anaesthetics",
+      "aliases": [
+        "Cocaine local anaesthetic",
+        "Intrinsic vasoconstriction"
+      ],
+      "pitfalls": "Confusing cocaine's intrinsic vasoconstrictor property (from blocking noradrenaline reuptake) with other local anaesthetics, which cause vasodilation and need an added vasoconstrictor such as adrenaline.",
+      "article_title": "Cocaine as a vasoconstrictive local anaesthetic",
+      "original_wording": "\"10-cocaine / Local anesthesia with vasoconstrictor effect\"",
+      "clinical_significance": "Cocaine's intrinsic vasoconstriction is exploited in nasal/ENT surgery (topical cocaine for anaesthesia with haemostasis) but also underlies its cardiovascular toxicity risk.",
+      "evidence_basis": "Standard pharmacology teaching on cocaine's dual local-anaesthetic and sympathomimetic (noradrenaline-reuptake-blocking) actions.",
+      "resource_id": "src_55c5c9368ada6ac185f6",
+      "asu_field_note": "cns 2nd ass 2019.pdf, item 10 (\"cocaine / Local anesthesia with vasoconstrictor effect\")."
+    },
+    {
+      "key": "2ndass2019-q16",
+      "label": "The first words of a sentence being read are held in working memory while the rest of the sentence is processed",
+      "canonical_key": "workingmemory.function.holds-recently-read-words-during-sentence-processing",
+      "definition": "Working memory is the short-term, limited-capacity system that actively holds and manipulates information for ongoing cognitive tasks. When reading a sentence, the first words must be held online in working memory so they can be integrated with the words that follow to construct the sentence's meaning — a classic illustration of working memory's role in language comprehension, distinct from long-term memory systems (episodic, semantic) that store information over much longer timescales, and from the brief, unprocessed sensory memory buffer.",
+      "explicit_objective": "State that the words held in mind at the start of a sentence, while the rest of the sentence is read, are an example of working memory.",
+      "primary_node_id": "SYS-NEU-T01-S01-M01",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Physiology > Memory systems",
+      "topic": "Physiology",
+      "subtopic": "Memory systems",
+      "aliases": [
+        "Working memory",
+        "Memory during sentence reading"
+      ],
+      "pitfalls": "Confusing working memory (active, ongoing holding of information for a current task, e.g. tracking the start of a sentence while reading) with long-term memory systems (episodic, semantic) or the very brief, pre-attentive sensory memory buffer.",
+      "article_title": "Working memory during sentence reading",
+      "original_wording": "\"16-working memory ... During reading a sentence the first two words are part of your 1)LTM 2)sensory memory 3)episodic memory 4)semantic 5)working\"",
+      "clinical_significance": "Working memory deficits are an early, functionally significant feature of several neurological and psychiatric conditions.",
+      "evidence_basis": "Standard cognitive neurophysiology teaching on working memory as distinct from sensory and long-term memory systems.",
+      "resource_id": "src_55c5c9368ada6ac185f6",
+      "asu_field_note": "cns 2nd ass 2019.pdf, item 16 (full embedded stem: \"During reading a sentence the first two words are part of your 1)LTM 2)sensory memory 3)episodic memory 4)semantic 5)working\", keyed \"working memory\")."
+    },
+    {
+      "key": "2ndass2019-q35",
+      "label": "Stimulation of the posterior (lateral) hypothalamus produces tachycardia via sympathetic activation",
+      "canonical_key": "posteriorhypothalamus.stimulation.sympathetic-tachycardia",
+      "definition": "The posterior (lateral) hypothalamus is the principal hypothalamic centre for sympathetic outflow. Its stimulation produces a coordinated sympathetic response — tachycardia, vasoconstriction and shivering (heat-conserving/heat-generating responses) — but not sweating, which is a cholinergic sympathetic response mediated by a different hypothalamic region. This contrasts with the anterior hypothalamus, which is chiefly associated with parasympathetic outflow and heat-dissipating responses.",
+      "explicit_objective": "State that stimulation of the posterior hypothalamus produces sympathetically mediated tachycardia (with vasoconstriction and shivering, but not sweating).",
+      "primary_node_id": "SYS-NEU-T01-S01-M01",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Physiology > Hypothalamic function",
+      "topic": "Physiology",
+      "subtopic": "Hypothalamic function",
+      "aliases": [
+        "Posterior hypothalamus",
+        "Sympathetic tachycardia"
+      ],
+      "pitfalls": "Confusing the posterior hypothalamus's sympathetic effects (tachycardia, vasoconstriction, shivering, NOT sweating) with the anterior hypothalamus's parasympathetic, heat-dissipating effects (including sweating).",
+      "article_title": "Posterior hypothalamus and sympathetic tachycardia",
+      "original_wording": "\"35.posterior (lateral) hypothalamus >>Tachycardia / Sympathetic (VC and shivering NOT sweating)\"",
+      "clinical_significance": "The anterior/posterior hypothalamic division of parasympathetic/sympathetic thermoregulatory control explains autonomic disturbances seen in hypothalamic lesions.",
+      "evidence_basis": "Standard neurophysiology teaching on hypothalamic autonomic and thermoregulatory centres.",
+      "resource_id": "src_55c5c9368ada6ac185f6",
+      "asu_field_note": "cns 2nd ass 2019.pdf, item 35 (\"posterior (lateral) hypothalamus >>Tachycardia / Sympathetic (VC and shivering NOT sweating)\")."
+    }
+  ]
+}

@@ -3506,3 +3506,1207 @@ no
 polarity: affirmative
 scope: Menoufia MED102 Parasitology Past Exams
 
+# Item
+
+## id
+CLM-FND-3FA6B2697B1A65
+
+## concept_id
+CON-FND-3FA6B2697B1A65
+
+## subject
+A malignant tumour
+
+## predicate
+is typically
+
+## object
+fixed to surrounding tissue, infiltrative, rapidly growing and hard in consistency, unlike a capsulated, slow-growing benign tumour
+
+## display_text
+A malignant tumour is typically fixed to surrounding tissue, infiltrative, rapidly growing and hard in consistency, unlike a capsulated, slow-growing benign tumour.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-C1698A4BEA1C38
+
+## concept_id
+CON-FND-C1698A4BEA1C38
+
+## subject
+A locally invasive breast carcinoma with axillary lymph node metastasis
+
+## predicate
+demonstrates
+
+## object
+both direct and lymphatic spread
+
+## display_text
+A locally invasive breast carcinoma with axillary lymph node metastasis demonstrates both direct and lymphatic spread.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-3FBC08E9F663B5
+
+## concept_id
+CON-FND-3FBC08E9F663B5
+
+## subject
+Matrix metalloproteinases
+
+## predicate
+act during
+
+## object
+the extracellular-matrix-degradation step of the tumour invasion cascade, after cell-cell detachment and before migration
+
+## display_text
+Matrix metalloproteinases act during the extracellular-matrix-degradation step of the tumour invasion cascade, after cell-cell detachment and before migration.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-50C0FF522228AB
+
+## concept_id
+CON-FND-50C0FF522228AB
+
+## subject
+Neoplastic growth
+
+## predicate
+is
+
+## object
+irreversible once established, not reversible
+
+## display_text
+Neoplastic growth is irreversible once established, not reversible.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-8D2E84B262B674
+
+## concept_id
+CON-FND-8D2E84B262B674
+
+## subject
+A pituitary adenoma
+
+## predicate
+is classified as
+
+## object
+a benign dangerous tumour, because of mass effect and hormone excess at its site, not because of malignant histology
+
+## display_text
+A pituitary adenoma is classified as a benign dangerous tumour, because of mass effect and hormone excess at its site, not because of malignant histology.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-B97C8B88006F68
+
+## concept_id
+CON-FND-B97C8B88006F68
+
+## subject
+A cervical lymph node draining acute or chronic tonsillitis
+
+## predicate
+shows
+
+## object
+irritation (reactive) hyperplasia
+
+## display_text
+A cervical lymph node draining acute or chronic tonsillitis shows irritation (reactive) hyperplasia.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-99338FF75CDD15
+
+## concept_id
+CON-FND-99338FF75CDD15
+
+## subject
+A left ventricle under sustained pressure overload from uncontrolled hypertension or aortic stenosis
+
+## predicate
+responds with
+
+## object
+adaptive (compensatory) hypertrophy
+
+## display_text
+A left ventricle under sustained pressure overload from uncontrolled hypertension or aortic stenosis responds with adaptive (compensatory) hypertrophy.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-3CA8E4A473D9A2
+
+## concept_id
+CON-FND-3CA8E4A473D9A2
+
+## subject
+Papilloma
+
+## predicate
+is
+
+## object
+the benign tumour of protective (squamous or transitional) epithelium, as opposed to adenoma (glandular epithelium)
+
+## display_text
+Papilloma is the benign tumour of protective (squamous or transitional) epithelium, as opposed to adenoma (glandular epithelium).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-DEDC6702151712
+
+## concept_id
+CON-FND-DEDC6702151712
+
+## subject
+A trained athlete's heart
+
+## predicate
+shows
+
+## object
+physiologic hypertrophy, an adaptive and reversible response to sustained exercise
+
+## display_text
+A trained athlete's heart shows physiologic hypertrophy, an adaptive and reversible response to sustained exercise.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-789151DCC72B5C
+
+## concept_id
+CON-FND-789151DCC72B5C
+
+## subject
+Poliomyelitis
+
+## predicate
+causes
+
+## object
+neuropathic (denervation) atrophy of the skeletal muscle whose motor neurons are destroyed
+
+## display_text
+Poliomyelitis causes neuropathic (denervation) atrophy of the skeletal muscle whose motor neurons are destroyed.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-1F5740488C3831
+
+## concept_id
+CON-FND-1F5740488C3831
+
+## subject
+A deeply located tumour
+
+## predicate
+carries
+
+## object
+a worse prognosis than an equivalent superficial tumour
+
+## display_text
+A deeply located tumour carries a worse prognosis than an equivalent superficial tumour.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-710D9ECA1D16CB
+
+## concept_id
+CON-FND-710D9ECA1D16CB
+
+## subject
+A colonic adenomatous polyp
+
+## predicate
+is
+
+## object
+a precancerous lesion that may be single or multiple and may occur in any part of the colon
+
+## display_text
+A colonic adenomatous polyp is a precancerous lesion that may be single or multiple and may occur in any part of the colon.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-F2C66A27C1A304
+
+## concept_id
+CON-FND-F2C66A27C1A304
+
+## subject
+Breast glandular epithelial cells in the third trimester of pregnancy
+
+## predicate
+undergo
+
+## object
+hormonal hyperplasia driven by prolactin secretion
+
+## display_text
+Breast glandular epithelial cells in the third trimester of pregnancy undergo hormonal hyperplasia driven by prolactin secretion.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-0DDDB3966D0CB3
+
+## concept_id
+CON-FND-0DDDB3966D0CB3
+
+## subject
+A prolactin-secreting pituitary adenoma
+
+## predicate
+presents with
+
+## object
+galactorrhoea and menstrual irregularity from hyperprolactinaemia, with MRI-confirmed anterior pituitary enlargement
+
+## display_text
+A prolactin-secreting pituitary adenoma presents with galactorrhoea and menstrual irregularity from hyperprolactinaemia, with MRI-confirmed anterior pituitary enlargement.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-B74FDBC28B5E2A
+
+## concept_id
+CON-FND-B74FDBC28B5E2A
+
+## subject
+Cachexia
+
+## predicate
+causes
+
+## object
+generalized atrophy of skeletal muscle and fat, distinct from the localized atrophy patterns
+
+## display_text
+Cachexia causes generalized atrophy of skeletal muscle and fat, distinct from the localized atrophy patterns.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-72C9E2EF94990F
+
+## concept_id
+CON-FND-72C9E2EF94990F
+
+## subject
+Basal cell carcinoma (rodent ulcer)
+
+## predicate
+has
+
+## object
+raised, rolled edges -- not everted edges -- along with local malignant behaviour and potential basosquamous transformation
+
+## display_text
+Basal cell carcinoma (rodent ulcer) has raised, rolled edges -- not everted edges -- along with local malignant behaviour and potential basosquamous transformation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-E975CC82A64BD1
+
+## concept_id
+CON-FND-E975CC82A64BD1
+
+## subject
+The host's innate and adaptive immune defences
+
+## predicate
+reduce, rather than favour,
+
+## object
+the survival of tumour cells disseminating through vascular channels
+
+## display_text
+The host's innate and adaptive immune defences reduce, rather than favour, the survival of tumour cells disseminating through vascular channels.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-62EE104B252F19
+
+## concept_id
+CON-FND-62EE104B252F19
+
+## subject
+Tumour colour
+
+## predicate
+is not
+
+## object
+a recognised prognostic factor of a malignant tumour, unlike grade, stage, site and histological type
+
+## display_text
+Tumour colour is not a recognised prognostic factor of a malignant tumour, unlike grade, stage, site and histological type.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-12CC9BA62D2FDD
+
+## concept_id
+CON-FND-12CC9BA62D2FDD
+
+## subject
+Atrophy of the thymus after puberty
+
+## predicate
+is
+
+## object
+a type of physiological atrophy
+
+## display_text
+Atrophy of the thymus after puberty is a type of physiological atrophy.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-9200DFA3C72D6E
+
+## concept_id
+CON-FND-9200DFA3C72D6E
+
+## subject
+Chronic urinary bladder Bilharziasis
+
+## predicate
+causes
+
+## object
+squamous metaplasia -- transformation of transitional epithelium to squamous epithelium
+
+## display_text
+Chronic urinary bladder Bilharziasis causes squamous metaplasia -- transformation of transitional epithelium to squamous epithelium.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-62BC955DED99FA
+
+## concept_id
+CON-FND-62BC955DED99FA
+
+## subject
+Aflatoxin
+
+## predicate
+is causally associated with
+
+## object
+hepatocellular carcinoma
+
+## display_text
+Aflatoxin is causally associated with hepatocellular carcinoma.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-248745D45028D3
+
+## concept_id
+CON-FND-248745D45028D3
+
+## subject
+A bladder tumour of thin papillary fronds with a fibrovascular core, covered by anaplastic malignant epithelial cells and showing no invasion
+
+## predicate
+is diagnosed as
+
+## object
+papillary urothelial carcinoma
+
+## display_text
+A bladder tumour of thin papillary fronds with a fibrovascular core, covered by anaplastic malignant epithelial cells and showing no invasion is diagnosed as papillary urothelial carcinoma.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-19C38BBE857DE0
+
+## concept_id
+CON-FND-19C38BBE857DE0
+
+## subject
+Embryonal rhabdomyosarcoma
+
+## predicate
+presents as
+
+## object
+sheets of small round blue cells with a cambium layer beneath the surface epithelium, classically at the orbit (exophthalmos) or vagina (sarcoma botryoides) in a young child
+
+## display_text
+Embryonal rhabdomyosarcoma presents as sheets of small round blue cells with a cambium layer beneath the surface epithelium, classically at the orbit (exophthalmos) or vagina (sarcoma botryoides) in a young child.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-21A3FA6913301A
+
+## concept_id
+CON-FND-21A3FA6913301A
+
+## subject
+Tennis-racket-shaped strap cells with cross-striations
+
+## predicate
+are a diagnostic microscopic feature of
+
+## object
+rhabdomyosarcoma, reflecting skeletal muscle differentiation
+
+## display_text
+Tennis-racket-shaped strap cells with cross-striations are a diagnostic microscopic feature of rhabdomyosarcoma, reflecting skeletal muscle differentiation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-6E02735108012E
+
+## concept_id
+CON-FND-6E02735108012E
+
+## subject
+Xeroderma pigmentosum
+
+## predicate
+is
+
+## object
+the inherited genetic risk factor for squamous cell carcinoma, distinct from the environmental (UV) and viral (HPV) risk factors
+
+## display_text
+Xeroderma pigmentosum is the inherited genetic risk factor for squamous cell carcinoma, distinct from the environmental (UV) and viral (HPV) risk factors.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-1014C9D0F30306
+
+## concept_id
+CON-FND-1014C9D0F30306
+
+## subject
+The standard microscopic criteria of malignancy (pleomorphism, hyperchromatism, increased mitoses, loss of polarity)
+
+## predicate
+apply reliably to
+
+## object
+conventional carcinomas such as breast carcinoma, unlike neuroendocrine tumours or clear cell renal/papillary thyroid carcinoma, where they are unreliable
+
+## display_text
+The standard microscopic criteria of malignancy (pleomorphism, hyperchromatism, increased mitoses, loss of polarity) apply reliably to conventional carcinomas such as breast carcinoma, unlike neuroendocrine tumours or clear cell renal/papillary thyroid carcinoma, where they are unreliable.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-6D8E09B6D45A40
+
+## concept_id
+CON-FND-6D8E09B6D45A40
+
+## subject
+Congenital pyloric stenosis
+
+## predicate
+is not an example of
+
+## object
+metaplasia, unlike adenoacanthoma, Barrett's oesophagus, endometriosis and localized myositis ossificans, because it is congenital pyloric smooth-muscle hypertrophy rather than a change of differentiated cell type
+
+## display_text
+Congenital pyloric stenosis is not an example of metaplasia, unlike adenoacanthoma, Barrett's oesophagus, endometriosis and localized myositis ossificans, because it is congenital pyloric smooth-muscle hypertrophy rather than a change of differentiated cell type.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
+# Item
+
+## id
+CLM-FND-C4E4914B2E7FAB
+
+## concept_id
+CON-FND-C4E4914B2E7FAB
+
+## subject
+Carcinoma of the cervix
+
+## predicate
+is the neoplasm most classically linked to
+
+## object
+viral oncogenesis, through human papillomavirus (HPV) E6/E7 oncoprotein inactivation of p53 and Rb
+
+## display_text
+Carcinoma of the cervix is the neoplasm most classically linked to viral oncogenesis, through human papillomavirus (HPV) E6/E7 oncoprotein inactivation of p53 and Rb.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+
+---
+
