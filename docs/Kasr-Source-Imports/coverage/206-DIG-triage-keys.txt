@@ -22,3 +22,22 @@ Q11.A  Q12.B  Q13.B  Q14.C  Q15.B  Q16.D
 Q17-120: OCR'd (see scripts/content/pagetext.mjs show on this PDF) but not yet
 individually re-verified by render — next author picking up this paper should spot-check
 before trusting the "@" reading past Q16.
+
+--- Tranche 2 update (Q17-42) ---
+
+Q17-42 (Anatomy) individually re-verified by rendering pp.4, 5, 6, 7 and 10 at default
+dpi and checking every circled option against the OCR "@" markers by eye -- all five
+pages matched exactly, 0 disagreements. One item (Q34/34, p.6) has a printing defect in
+the source itself: its four options are printed "circled-a / b / b / c" (duplicate "b",
+missing "d") rather than a/b/c/d -- normalised to standard a-d lettering in the question
+file, content and order preserved, correct option (first listed, "Ascending colon") kept
+as "a."
+
+Q17.b  Q18.a  Q19.b  Q20.c  Q21.c  Q22.c  Q23.d  Q24.b
+Q25.d  Q26.c  Q27.b  Q28.c  Q29.b  Q30.a  Q31.b  Q32.c
+Q33.b  Q34.a  Q35.a  Q36.b  Q37.c  Q38.b  Q39.a  Q40.a
+Q41.d  Q42.c
+
+Q43-120 (Physiology, Histology, Biochemistry): still OCR'd only, NOT re-verified by
+render -- next author picking up this paper (starting at Q43) should spot-check pp.8, 9,
+11-16 before trusting the "@" reading there.
