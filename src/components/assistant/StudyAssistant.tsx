@@ -76,10 +76,16 @@ export function StudyAssistant() {
         <button
           type="button"
           onClick={() => setOpen(true)}
-          className="fixed bottom-4 end-4 z-40 inline-flex min-h-12 items-center gap-2 rounded-full border border-line bg-surface px-4 text-[13.5px] font-semibold text-ink shadow-pop transition-colors hover:bg-surface-2"
+          aria-label={t('Study assistant')}
+          // ponytail: bottom-20 is a fixed clearance guess for the mobile
+          // BuilderSummary bar / RoomDock collapsed bar, not real collision
+          // detection — if RoomDock's expanded state or another bottom bar
+          // grows past ~5rem, this can still overlap. Upgrade: a shared
+          // bottom-inset registry if a third floating bar shows up.
+          className="fixed bottom-20 end-4 z-40 inline-flex size-12 items-center justify-center gap-2 rounded-full border border-line bg-surface text-[13.5px] font-semibold text-ink shadow-pop transition-colors hover:bg-surface-2 lg:bottom-4 lg:size-auto lg:min-h-12 lg:justify-start lg:px-4"
         >
           <Icon icon={Bot} size={17} className="text-primary-strong" />
-          {t('Study assistant')}
+          <span className="hidden lg:inline">{t('Study assistant')}</span>
         </button>
       )}
 
