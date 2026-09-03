@@ -31,3 +31,22 @@ test('the synthetic value never drops as time moves forward within a day', () =>
     previous = value
   }
 })
+
+test('the synthetic value does not jump at a day boundary', () => {
+  const doc = { base: 790, epoch: Date.UTC(2026, 0, 1), minPct: 0.3, maxPct: 2.5 }
+  const boundary = doc.epoch + 5 * 86_400_000
+  const justBefore = syntheticValueAt(boundary - 1000, doc)
+  const justAfter = syntheticValueAt(boundary + 1000, doc)
+  assert.ok(justAfter >= justBefore, `${justAfter} < ${justBefore}`)
+  assert.ok(justAfter - justBefore <= 1, `jumped by ${justAfter - justBefore}`)
+})
+
+test('the synthetic value keeps growing, never shrinking, across many days', () => {
+  const doc = { base: 790, epoch: Date.UTC(2026, 0, 1), minPct: 0.3, maxPct: 2.5 }
+  let previous = doc.base
+  for (let days = 1; days <= 60; days++) {
+    const value = syntheticValueAt(doc.epoch + days * 86_400_000, doc)
+    assert.ok(value >= previous, `day ${days}: ${value} < ${previous}`)
+    previous = value
+  }
+})
