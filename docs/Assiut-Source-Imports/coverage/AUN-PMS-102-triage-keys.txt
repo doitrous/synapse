@@ -531,3 +531,100 @@ pmstail-q23 # p198 key=C  progenitor cells divide frequently (the false EXCEPT s
 # Quiz 38-41 (fertilization/corpus luteum, p214-215): Q1 (fertilization site
 #   = ampulla of oviduct), Q2 (sperm viable ~3 days), Q3 (oocyte arrested at
 #   metaphase of meiosis II) -- stems blank.
+
+# ============================================================================
+# Lane 5 top-up (windows 1-3): pp.23-30 ("pmsfront2"), QUIZ11&12 (p170-173)
+# and the pp.201-217 render-recoverable pool ("pmstail2"). Window 1 clears
+# pmsfront's own p23-30 top-up pool logged above (17 distinct facts, 18 raw
+# questions, Quiz 9 Q25/Q26 duplicate-collapsed). Window 2 clears pmstail's
+# own QUIZ11&12 top-up pool (5 items, all usable, all authored). Window 3
+# renders 8 of the pp.201-217 pages listed above (p203, p205, p207, p209,
+# p211, p212, p214, p215 -- mark-garbled + render, under the 14-render cap)
+# and authors every legible SBA found there, plus several facts recovered
+# without any render from a sibling page's own fully-legible restatement
+# (p204's Quiz 31-32 Q11-15; p213's Quiz 36-37 Q10-12; p216-217's Quiz 38-41
+# Q10-13 and Quiz 40 Q1-5). See coverage/AUN-PMS-102-triage.md's lane-5
+# section for the full render/reuse-vs-mint search log.
+# ============================================================================
+
+pmsfront2-q01 # p23 key=B  suture = fibrous joint -- reuse CON-MSK-17E2267FB4758F (101-ISK)
+pmsfront2-q02 # p23 key=C  interosseous membrane radius/ulna = fibrous joint -- reuse CON-MSK-17E2267FB4758F (101-ISK)
+pmsfront2-q03 # p24 key=C  elbow joint = hinge synovial joint -- reuse CON-MSK-784654E02FC967 (Menoufia)
+pmsfront2-q04 # p24 key=D  hip joint = ball and socket synovial joint -- new CON-MSK-08751546A5D74E
+pmsfront2-q05 # p24 key=B  hematopoiesis = red bone marrow -- reuse CON-HEM-E27E5F8544640A (101-ISK)
+pmsfront2-q06 # p25 key=C  pneumatic bones = skull -- reuse CON-MSK-6DCABD3AE947F5 (101-ISK)
+pmsfront2-q07 # p25 key=A  sesamoid bones develop in tendon -- reuse CON-MSK-87E511BF640862 (own module, lane 4)
+pmsfront2-q08 # p25 key=B  shaft = central part of long bone -- reuse CON-MSK-12504AAE2403E8 (own module, lane 4, live)
+pmsfront2-q09 # p26 key=A  ribs/sternum = axial skeleton -- reuse CON-MSK-9A22BB8909AF29 (101-ISK)
+pmsfront2-q10 # p26 key=B  epidermis = outer layer of skin -- new CON-DER-91E907BABE0178
+pmsfront2-q11 # p26 key=A  superficial fascia = second envelope of the body -- new CON-MSK-D64D175C787967
+pmsfront2-q12 # p27 key=A  deep fascia = third envelope of the body -- reuse CON-MSK-D64D175C787967 (own module, this pass)
+pmsfront2-q13 # p27 key=B  rotation at shoulder joint = medial rotation -- new CON-MSK-6EFB75F01819E1
+pmsfront2-q14 # p27 key=A  biceps = fusiform muscle -- new CON-MSK-DA1FB7CB658EDE
+pmsfront2-q15 # p28 key=A  muscle opposing prime mover = antagonist -- new CON-MSK-92113B04D16377
+pmsfront2-q16 # p28 key=B  deep fascia around the kidney = capsule (Q25/Q26 printed twice, same key) -- new CON-REN-97117E995C4E66
+pmsfront2-q17 # p30 key=B  organizing center of microtubules = centrosome -- new CON-FND-E1ADE368CC41E7
+
+pmstail2-q01 # p170 key=B  clavicle is subcutaneous throughout its whole extent -- new CON-MSK-8F0BC0538673CD
+pmstail2-q02 # p171 key=A  scapular spine's lateral end forms the acromion, articulates with clavicle -- new CON-MSK-50C4215710A64C
+pmstail2-q03 # p171 key=D  humerus: surgical neck below head, then greater/lesser tuberosities either side of bicipital groove -- new CON-MSK-CC477110115168
+pmstail2-q04 # p172 key=C  femur = longest and heaviest bone in the body -- new CON-MSK-E37B229C255F1B
+pmstail2-q05 # p172 key=B  fibula takes no part in the knee joint -- new CON-MSK-DD4F9C5760DE5E
+pmstail2-q06 # p203 key=C  aspermia = no semen -- new CON-AND-B47B8E6F6B63A0 (rendered)
+pmstail2-q07 # p203 key=B  spermatogenesis starts after puberty -- reuse CON-DEV-623698E111AA4B (101-ISK, live) (rendered)
+pmstail2-q08 # p203 key=C  spermatogenesis includes meiosis + spermiogenesis ("all above") -- new CON-AND-317ABE51EEC907 (rendered)
+pmstail2-q09 # p203 key=D  sperm capable of fertilization after capacitation in the female genital tract -- reuse CON-DEV-CA422E559742A2 (Alexandria) (rendered)
+pmstail2-q10 # p203 key=A  FSH essential for testicular fluid + testosterone-receptor synthesis ("all above") -- new CON-AND-B2527B5E6CBE5B (rendered)
+pmstail2-q11 # p204 key=A  primary spermatocyte arises by mitosis of spermatogonia -- new CON-AND-01DDC78AF54BD0 (fully legible, no render)
+pmstail2-q12 # p204 key=D  spermatid contains 22-X or 22-Y -- reuse CON-DEV-0BA870DF2C2E13 (101-ISK) (fully legible, no render)
+pmstail2-q13 # p204 key=C  acrosomal cap forms from Golgi in spermiogenesis -- reuse CON-AND-01DDC78AF54BD0 (own module, this pass)
+pmstail2-q14 # p204 key=B  sperm viable ~3-4 days -- reuse CON-AND-01DDC78AF54BD0 (own module, this pass)
+pmstail2-q15 # p204 key=A  spermatogenesis regulated by FSH and LH -- reuse CON-AND-B2527B5E6CBE5B (own module, this pass)
+pmstail2-q16 # p205 key=A  myosin excluded as proper CT fiber -- reuse CON-FND-6F4EB91B19C122 (101-ISK) (rendered)
+pmstail2-q17 # p205 key=A  tendon = dense regular connective tissue -- reuse CON-MSK-4018ED42ADDDB4 (101-ISK) (rendered)
+pmstail2-q18 # p205 key=C  lamina propria = loose connective tissue -- reuse CON-FND-B784BE0F18B493 (101-ISK) (rendered)
+pmstail2-q19 # p205 key=A  elastic fibers stain with orcein -- reuse CON-FND-CE178A6B5707B1 (101-ISK) (rendered)
+pmstail2-q20 # p205 key=A  hyaluronic acid = most common GAG in ground substance -- new CON-FND-FA7C191E9D4593 (rendered)
+pmstail2-q21 # p207 key=A  fibroblast is a connective tissue cell -- reuse CON-FND-E15318FC4CE3A1 (101-ISK) (rendered)
+pmstail2-q22 # p207 key=D  mast cells secrete histamine -- new CON-FND-3834BD5D395EDD (rendered)
+pmstail2-q23 # p207 key=A  fibroblasts = most common CT cell type -- reuse CON-FND-E15318FC4CE3A1 (own module, this pass)
+pmstail2-q24 # p207 key=D  adipocytes = signet ring appearance on H&E -- reuse CON-FND-2E2D5D5817E5F5 (101-ISK) (rendered)
+pmstail2-q25 # p209 key=B  basophils = fewest circulating WBC -- reuse CON-HEM-607B783A16FBEB (101-ISK) (rendered)
+pmstail2-q26 # p209 key=D  RBC function = O2/CO2 transport -- reuse CON-HEM-2C81CE9CF9F3D8 (101-ISK) (rendered)
+pmstail2-q27 # p209 key=B  neutrophil nucleus = multilobed -- reuse CON-HEM-3899015C5024C0 (101-ISK) (rendered)
+pmstail2-q28 # p209 key=D  basophil main function = secretion of heparin and histamine -- reuse CON-HEM-607B783A16FBEB (own module, this pass)
+pmstail2-q29 # p209 key=C  RBC shape from the side view = biconcave -- reuse CON-HEM-2C81CE9CF9F3D8 (own module, this pass)
+pmstail2-q30 # p210 key=C  RBC shape from above = circular -- reuse CON-HEM-2C81CE9CF9F3D8 (own module, this pass) (fully legible, no render)
+pmstail2-q31 # p211 key=B  oogenesis starts early in intrauterine life -- reuse CON-DEV-623698E111AA4B (101-ISK, live) (rendered)
+pmstail2-q32 # p211 key=C  oogenesis completed after fertilization (meiosis II) -- new CON-DEV-4AFDD1286AF4CF (rendered)
+pmstail2-q33 # p213 key=A  primary oocyte arrested in prophase of meiosis I until puberty -- reuse CON-DEV-623698E111AA4B (101-ISK, live) (fully legible, no render)
+pmstail2-q34 # p213 key=C  ovulation at middle of ovarian cycle (day 14) -- reuse CON-DEV-623698E111AA4B (101-ISK, live) (fully legible, no render)
+pmstail2-q35 # p213 key=A  ovum lives 1-2 days after ovulation before degenerating -- reuse CON-DEV-4AFDD1286AF4CF (own module, this pass) (fully legible, no render)
+pmstail2-q36 # p212 key=D  corpus luteum persists ~14 days if not fertilized -- reuse CON-GYN-7CB5F5E20ADC94 (Ain Shams) (rendered)
+pmstail2-q37 # p212 key=C  ovulation occurs under the effect of LH -- new CON-GYN-7CEF85CE64F1D4 (rendered)
+pmstail2-q38 # p214 key=E  fertilization normally takes place in the ampulla of the oviduct -- reuse CON-DEV-B05855C98EDF8F (Ain Shams) (rendered)
+pmstail2-q39 # p214 key=C  fertilized ovum enters uterine cavity ~3 days after fertilization -- reuse CON-DEV-A09CE205CF4E91 (Ain Shams) (rendered)
+pmstail2-q40 # p217 key=C  haploid pronuclei fuse at fertilization -- new CON-DEV-3C2CF6BED74614 (fully legible, no render)
+pmstail2-q41 # p217 key=D  capacitation of the sperm is essential for fertilization -- reuse CON-DEV-CA422E559742A2 (own module, this pass) (fully legible, no render)
+pmstail2-q42 # p217 key=B  early cleavage = increase in number of cells in the zygote -- reuse CON-DEV-3C2CF6BED74614 (own module, this pass) (fully legible, no render)
+pmstail2-q43 # p215 key=E  zona pellucida surrounds oocyte/zygote/morula/early blastocyst -- reuse CON-DEV-54FF30F596B08B (Ain Shams) (rendered)
+pmstail2-q44 # p217 key=C  cleavage begins in the oviduct -- reuse CON-DEV-B05855C98EDF8F (own module, this pass) (fully legible, no render)
+pmstail2-q45 # p215 key=B  granulosa cells = primary source of progesterone -- new CON-GYN-0A7F9B522D0F15 (rendered)
+
+# HELD (key/option defect) -- not authored, lane 5
+# p214 Quiz 38-41 Q3: "ovulated mammalian oocyte is arrested at" -- options c
+#   and d are both printed as "prophase of meiosis I" (duplicate, <4 distinct
+#   options). Held per LANE-CARD S2's floor rule.
+# p215 Quiz 38-41 Q9: "Increased glycogen and lipid deposits are part of the"
+#   -- only 3 options printed (proliferative/menstrual/secretory phase).
+#   Held per LANE-CARD S2's floor rule (<4 options).
+# p216 Quiz 38-41 Q11: "In the corpus luteum:" -- only 3 options printed
+#   (thecal-and-lutein / granulosa-and-lutein / thecal-and-granulosa).
+#   Held per LANE-CARD S2's floor rule (<4 options).
+
+# LOGGED ONLY (duplicate of an authored item, not authored twice) -- lane 5
+# p216 Quiz 38-41 Q12: "Ovulation is caused by" -- only 3 options printed
+#   (progesterone/FSH/LH surge), same underlying fact as pmstail2-q37's own
+#   clean 4-option printing (p212 Q7) -- that version authored instead.
+# p216 Quiz 38-41 Q13: "Name the hormone" -- image-dependent (ovarian-cycle
+#   diagram), not authored.
