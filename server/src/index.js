@@ -23,6 +23,8 @@ import {
 } from './shares.js'
 import { apiAuthGate, heldTabs, identityFromToken, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
 import { mintHandoffCode, redeemHandoffCode } from './authHandoff.js'
+import { authenticationOptions, listPasskeys, registrationOptions, removePasskey, verifyAuthentication, verifyRegistration } from './webauthn.js'
+import { gradeEssay } from './essayGrade.js'
 import { hasConsoleAccess } from './roles.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
 import { mediaMeta } from './mediaMeta.js'
@@ -408,6 +410,22 @@ app.post('/api/auth/handoff/redeem', wrap(async (req, res) => {
   const refreshToken = code ? redeemHandoffCode(code) : null
   if (!refreshToken) return res.status(410).json({ error: 'expired_or_used' })
   res.json({ refreshToken })
+}))
+
+// Passkeys (WebAuthn) — register/list/remove require a session; authenticate is
+// pre-login (public, allowlisted in auth.js) and mints a Supabase session on success.
+app.post('/api/auth/passkey/register/options', requireAuthenticated, wrap(async (req, res) => res.json(await registrationOptions(req.identity.id, req.identity.email))))
+app.post('/api/auth/passkey/register/verify', requireAuthenticated, wrap(async (req, res) => { const r = await verifyRegistration(req.identity.id, req.body ?? {}); if (r.error) return res.status(400).json(r); res.json(r) }))
+app.get('/api/auth/passkey/credentials', requireAuthenticated, wrap(async (req, res) => res.json({ credentials: await listPasskeys(req.identity.id) })))
+app.delete('/api/auth/passkey/credentials/:id', requireAuthenticated, wrap(async (req, res) => { const r = await removePasskey(req.identity.id, req.params.id); if (r.error) return res.status(404).json(r); res.json({ ok: true }) }))
+app.post('/api/auth/passkey/authenticate/options', wrap(async (req, res) => res.json(await authenticationOptions(req.body?.email))))
+app.post('/api/auth/passkey/authenticate/verify', wrap(async (req, res) => { const r = await verifyAuthentication(req.body ?? {}); if (r.error) return res.status(400).json(r); res.json(r) }))
+
+// AI essay grading — advisory, display-only; charges the assistant AI quota.
+app.post('/api/essay/grade', requireAuthenticated, wrap(async (req, res) => {
+  const result = await gradeEssay(req.identity, req.body ?? {})
+  if (result.error) return res.status(result.status ?? 400).json(result)
+  return res.json(result)
 }))
 
 /**

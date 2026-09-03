@@ -1058,3 +1058,23 @@ CREATE TABLE IF NOT EXISTS study_party_game_events (
   INDEX idx_party_game_events_party (party_id, created_at),
   INDEX idx_party_game_events_actor (actor_id, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Passkeys (WebAuthn). Supabase has no native passkey support, so this is a
+   parallel credential store, not a Supabase table: register/authenticate run
+   against this table alone, and a verified assertion then mints a real
+   Supabase session (see webauthn.js — generateLink + the client's verifyOtp).
+   One row per registered authenticator, so a student can hold several (phone,
+   laptop, security key). */
+CREATE TABLE IF NOT EXISTS webauthn_credentials (
+  id            VARCHAR(64) PRIMARY KEY,
+  user_id       VARCHAR(64) NOT NULL,
+  credential_id VARCHAR(255) NOT NULL,
+  public_key    TEXT NOT NULL,
+  counter       BIGINT UNSIGNED NOT NULL DEFAULT 0,
+  transports    VARCHAR(255) NULL,
+  device_label  VARCHAR(120) NULL,
+  created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  last_used_at  DATETIME NULL,
+  UNIQUE INDEX uniq_webauthn_credential_id (credential_id),
+  INDEX idx_webauthn_credentials_user (user_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -8,6 +8,7 @@ import { Field, Select, TextInput } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
 import { MfaControl } from '@/components/auth/MfaControl'
+import { PasskeyControl } from '@/components/auth/PasskeyControl'
 import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
@@ -481,6 +482,7 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                   <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Reset through a time-limited email link.')}</p>
                   <Link to="/auth/forgot-password" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-[13px] font-semibold text-ink hover:bg-inset"><KeyRound size={15} />{t('Change password')}</Link>
                 </div>
+                <PasskeyControl />
                 <MfaControl />
               </div>
             </Panel>

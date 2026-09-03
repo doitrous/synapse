@@ -57,6 +57,9 @@ export const OWNED_BY_USER_ID = [
   'shared_document_follows',
   'shared_document_notifications',
   'role_promotion_audit',
+  // A passkey is authentication material, same as a password — it goes with
+  // the account it authenticates, not kept as history.
+  'webauthn_credentials',
   // Last of the user_id tables by convention only: nothing here has a foreign
   // key, so the order inside the transaction does not matter. What matters is
   // that it is on the list, where the coverage test can see it.

@@ -157,6 +157,15 @@ export async function apiAuthGate(req, res, next) {
     // accepts nothing but an opaque, single-use, 30-second code and answers
     // only with the refresh_token that code was minted for.
     || req.path === '/api/auth/handoff/redeem'
+    // The pre-login half of passkey sign-in (webauthn.js): the caller has no
+    // session yet, that is the whole point of a passwordless flow. Protected
+    // instead by the WebAuthn ceremony itself — an authentication assertion
+    // only verifies against a credential already registered to some account,
+    // so this cannot be used to act as anyone who hasn't enrolled a passkey.
+    // Registration's two endpoints are deliberately NOT here: enrolling a new
+    // passkey does require an existing session.
+    || req.path === '/api/auth/passkey/authenticate/options'
+    || req.path === '/api/auth/passkey/authenticate/verify'
     // Native media elements cannot attach the Supabase bearer header. They use
     // a short-lived signed URL minted for an authenticated viewer instead.
     || ((req.method === 'GET' || req.method === 'HEAD') && req.path.startsWith('/api/media-playback/'))

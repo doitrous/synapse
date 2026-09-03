@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ArrowRight, Eye, EyeOff, LogIn } from 'lucide-react'
+import { AlertCircle, ArrowRight, Eye, EyeOff, Fingerprint, LogIn } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -9,6 +9,16 @@ import { SocialAuthButtons } from './SocialAuthButtons'
 import { isSupabaseConfigured, supabase } from '@/lib/supabase'
 import { portalHome } from '@/lib/portalHost'
 import { authErrorMessage } from './authMessages'
+import { loginWithPasskey, passkeysSupported, type PasskeyErrorReason } from '@/lib/passkeys'
+
+/** Cancelling the OS prompt is not an error worth a red banner — the browser already showed its own UI for that. */
+function passkeyErrorMessage(reason: PasskeyErrorReason): string {
+  switch (reason) {
+    case 'not_supported': return 'This browser or device does not support passkeys yet.'
+    case 'server_refused': return 'That passkey could not be verified. Try again, or sign in with your password.'
+    default: return 'Passkey sign-in could not be completed. Try again, or sign in with your password.'
+  }
+}
 
 /**
  * Only a path inside this app is an acceptable place to land after sign-in.
@@ -45,6 +55,20 @@ export function Login() {
   const [showPassword, setShowPassword] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [passkeyLoading, setPasskeyLoading] = useState(false)
+
+  /**
+   * Establishing a session either way lands the same place: `next`, or the
+   * second-factor step first if this account still owes one. Passkey
+   * sign-in does not stand in for MFA — it replaces the password, and a
+   * student who also enrolled TOTP still clears it here exactly as they
+   * would after `signInWithPassword`.
+   */
+  async function afterSignedIn() {
+    const { data: assurance } = await supabase!.auth.mfa.getAuthenticatorAssuranceLevel()
+    const mfaPending = assurance?.nextLevel === 'aal2' && assurance.currentLevel !== 'aal2'
+    navigate(mfaPending ? `/auth/mfa?next=${encodeURIComponent(next)}` : next)
+  }
 
   async function submit(event: React.FormEvent) {
     event.preventDefault()
@@ -60,11 +84,26 @@ export function Login() {
       setLoading(false)
       return
     }
-    const { data: assurance } = await supabase.auth.mfa.getAuthenticatorAssuranceLevel()
-    const mfaPending = assurance?.nextLevel === 'aal2' && assurance.currentLevel !== 'aal2'
-    // Carry the original destination through the second factor, so being asked
-    // for a code does not quietly drop the page the student was heading to.
-    navigate(mfaPending ? `/auth/mfa?next=${encodeURIComponent(next)}` : next)
+    await afterSignedIn()
+  }
+
+  async function submitPasskey() {
+    setError('')
+    if (!email.trim()) {
+      setError('Enter your email above, then choose "Sign in with a passkey".')
+      return
+    }
+    setPasskeyLoading(true)
+    const result = await loginWithPasskey(email.trim())
+    setPasskeyLoading(false)
+    if (!result.ok) {
+      // A dismissed OS prompt is not a failure worth explaining — the student
+      // already saw the browser cancel it, and probably meant to use their
+      // password instead.
+      if (result.error !== 'cancelled') setError(passkeyErrorMessage(result.error))
+      return
+    }
+    await afterSignedIn()
   }
 
   return (
@@ -113,6 +152,19 @@ export function Login() {
           <Link to="/auth/forgot-password" className="font-semibold text-primary-strong hover:text-primary">Forgot password?</Link>
         </div>
         <Button className="w-full" type="submit" variant="primary" size="lg" iconLeft={LogIn} loading={loading}>Sign in</Button>
+        {passkeysSupported && (
+          <Button
+            className="w-full"
+            type="button"
+            variant="secondary"
+            size="lg"
+            iconLeft={Fingerprint}
+            loading={passkeyLoading}
+            onClick={() => void submitPasskey()}
+          >
+            Sign in with a passkey
+          </Button>
+        )}
         <p className="text-center text-[13px] text-ink-2">New to Maristana? <Link className="inline-flex items-center gap-1 font-semibold text-primary-strong hover:text-primary" to="/signup">Create an account <Icon icon={ArrowRight} size={13} /></Link></p>
       </form>
     </AuthLayout>
