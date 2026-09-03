@@ -51,24 +51,44 @@ concepts at authoring time.
 - Item 12 — restates item 1's Homer Wright rosettes → medulloblastoma fact.
 - Item 13 — restates item 6's reddish vermian mass → hemangioblastoma fact.
 
-### NOT yet triaged — next frontier (items 14-58, ~44 items, "Infectious diseases of CNS")
-Deliberately deferred for context-budget reasons in this authoring pass, not
-screened item-by-item. On first read-through: rich but has substantial
-internal near-duplication (many items re-test the same CSF-finding or
-route-of-entry fact from different clinical-vignette angles — expect
-significant within-file holds, following this lane's own precedent of
-holding near-identical restatements). One item (originally #38, "which of
-the following is NOT a common CNS complication of HIV... Answer: C
-[Toxoplasmosis]") is flagged as a HOLD candidate on first read — the key
-appears to contradict standard medical knowledge (toxoplasmosis is in fact a
-common CNS complication of AIDS) and the stem's own phrase "directly
-mentioned in the text" suggests it is scoped to an unprovided source
-textbook — needs Omar/source verification before keying, do not key
-editorially. Resume-first: triage items 14-58 against `find-existing.mjs`
-(many CSF/route-of-entry facts likely overlap with existing Kasr/Alexandria
-neuro-infection concepts — check before minting), then repeat the
-seed → emit → gate → simulate → ledger cycle for a second
-`docs/Ain-Shams-Source-Imports/coverage/seeds/ASU-CNS-2/` cluster.
+### Authored (infections-mcq cluster, 39 items — see coverage/seeds/ASU-CNS-2/infections-mcq.json)
+Items 14-58 minus item 41 (already in cerebellar-tumors-mcq) and minus the 6
+holds below, plus one unnumbered item printed between source items 20 and 21
+(HIV dementia / HIV-1 meningoencephalitis). 39 new concepts minted under
+`SYS-NEU-T06-S02-M01` (Meningitis — used as the general bacterial/route-of-
+entry leaf, the only fit under this subtopic besides Encephalitis/Brain
+tumors) and `SYS-NEU-T06-S02-M02` (Encephalitis, for the HSV/rabies/viral-
+encephalitis items), all checked via `find-existing.mjs` at authoring time.
+Two near-identical facts turned up in ASU-CNS-3's own pending
+`finalpaper2-2024` batch (viral meningitis CSF glucose) and one in ASU-INF's
+pending `microbiology` batch (rabies/Negri bodies) — both cross-module
+pending (not-live) batches, so this cluster mints its own record rather than
+creating a cross-module `--with` dependency; left as a note on those items'
+`field_notes` for a later human dedup pass.
+
+### Held — within-file duplicates + one key-conflict (6 items)
+- Item 38 — key-conflict HOLD: printed key (C, Toxoplasmosis) contradicts
+  standard knowledge that toxoplasmosis IS a common CNS complication of
+  AIDS; the stem's own "directly mentioned in the text" phrasing suggests a
+  source textbook this batch does not have. NEEDS-OMAR.
+- Item 43 — duplicate of item 25 (Cowdry A bodies → HSV encephalitis).
+- Item 50 — duplicate of item 20 (tuberculoma gross description).
+- Item 52 — duplicate of item 39 (viral meningitis CSF glucose normal).
+- Item 54 — duplicate of item 31 (TB meningitis CSF protein elevation).
+- Item 55 — duplicate of item 28 (perivascular infiltrates → viral encephalitis).
+
+Gates: `medical:batch` 0 errors on all three files (concept/article/question,
+question gated `--with` its concept, article and the existing cerebellar
+resources sibling); `medical:simulate` positional on all three,
+`created=117 updated=0 rejected=0 errors=0`.
+
+### NOT yet triaged — next frontier
+Both papers from `MCQs - cerebellar tumlors & CNS infection.pdf` are now
+fully triaged/authored (69 authored, 8 held). Move to the next ASU-CNS-2
+source: 22 other unscreened papers remain (see below) — resume-first is
+`MCQs - Neurodegenerative_Diseases(1).pdf` per the recommendation already on
+file. Remember the sha256 cross-module check against `asu-y3-sources.json`
+before authoring any of them (see "Cross-module note" above).
 
 ## Other unscreened ASU-CNS-2 papers (23 total, only 1 triaged so far)
 Per `coverage/ASU-Y2-priority-sources.md` "ASU-CNS-2" section — 22 papers +
