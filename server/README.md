@@ -130,3 +130,7 @@ fails behind symmetric NAT and on most mobile carriers.
 
 Full protocol, migration SQL and a two-browser verification script:
 `docs/rooms-voice.md`.
+
+## Content Security Policy
+
+- `CSP_ENFORCE` — the Content-Security-Policy is **enforced by default**; set `0` to ship it as `Content-Security-Policy-Report-Only` while a new third party is being allow-listed in `src/securityHeaders.js`.
