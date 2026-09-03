@@ -552,20 +552,1025 @@ CON-FND-5097CA5BAB2E51
 
 
 ## aliases
-Axoneme ultrastructure | Turner and Klinefelter syndromes
+Axoneme ultrastructure | Turner and Klinefelter syndromes | Down syndrome trisomy 21
 
 ## reading_time
 8
 
 ## summary
-The 9+2, 20-microtubule axoneme of a motile cilium, and the chromosomal basis of Turner syndrome (45,X monosomy) and Klinefelter syndrome (47,XXY trisomy) -- taught here because this lane reuses two existing Kasr 101-ISK concepts (sparse overlay) for these facts and neither has a locally-available teaching article of its own to depend on.
+The 9+2, 20-microtubule axoneme of a motile cilium, and the chromosomal basis of Turner syndrome (45,X monosomy), Klinefelter syndrome (47,XXY trisomy) and Down syndrome (47, trisomy 21) -- taught here because this lane reuses two existing Kasr 101-ISK concepts (sparse overlay) for these facts and neither has a locally-available teaching article of its own to depend on. Lane 2 extends this summary and the Mechanism section below with Down syndrome so its own embryology-cluster reuse of the syndromes concept is fully taught, not only tested.
 
 ## sections
 ### Definition
-A motile cilium's shaft has a '9+2' axoneme: nine peripheral doublet microtubules (18 microtubules) arranged around two central singlet microtubules (2 more), for 20 microtubules in total, linked by dynein arms that produce the beating action -- a constant, highly-tested numerical fact because it holds across essentially every motile cilium and flagellum. Turner syndrome and Klinefelter syndrome are the two sex-chromosome disorders most often tested against each other: Turner syndrome is monosomy of the X chromosome (45,X -- a single X and no second sex chromosome), affecting females, with underdeveloped genitalia and short stature; Klinefelter syndrome is the opposite kind of error, an extra X chromosome in a male (47,XXY), producing hypogonadism, poor musculature, underdeveloped genitalia and gynecomastia.
+A motile cilium's shaft has a '9+2' axoneme: nine peripheral doublet microtubules (18 microtubules) arranged around two central singlet microtubules (2 more), for 20 microtubules in total, linked by dynein arms that produce the beating action -- a constant, highly-tested numerical fact because it holds across essentially every motile cilium and flagellum. Turner syndrome and Klinefelter syndrome are the two sex-chromosome disorders most often tested against each other: Turner syndrome is monosomy of the X chromosome (45,X -- a single X and no second sex chromosome), affecting females, with underdeveloped genitalia and short stature; Klinefelter syndrome is the opposite kind of error, an extra X chromosome in a male (47,XXY), producing hypogonadism, poor musculature, underdeveloped genitalia and gynecomastia. Down syndrome is a third named chromosomal syndrome that follows the same extra-or-missing-chromosome logic, but affects an autosome rather than a sex chromosome: nondisjunction leaves the zygote with three copies of chromosome 21 (trisomy 21), bringing the total chromosome count to 47, the same total as Klinefelter syndrome but reached by an extra autosome instead of an extra sex chromosome.
 
 ### Mechanism
-Turner and Klinefelter syndromes are easy to swap because both involve the X chromosome, but one is a missing chromosome (monosomy, 45 total) and the other is an extra chromosome (trisomy, 47 total) in the opposite sex -- the chromosome count itself (45 vs 47) is the fastest way to keep the two apart.
+Turner and Klinefelter syndromes are easy to swap because both involve the X chromosome, but one is a missing chromosome (monosomy, 45 total) and the other is an extra chromosome (trisomy, 47 total) in the opposite sex -- the chromosome count itself (45 vs 47) is the fastest way to keep the two apart. Down syndrome shares Klinefelter's total count (47) but not its mechanism: grouping all three syndromes by "which chromosome, and extra or missing" (X missing = Turner; X extra = Klinefelter; autosome 21 extra = Down) is more reliable than grouping by chromosome count alone, since 47 alone does not distinguish Klinefelter from Down.
 
 ### Clinical significance
 Klinefelter syndrome's clinical triad -- poor musculature, underdeveloped genitalia and gynecomastia in a phenotypic male -- follows directly from reduced testosterone caused by the extra X chromosome disrupting normal testicular development, and is usually confirmed exactly as tested here, by karyotyping.
+
+
+---
+
+# Item
+
+## id
+ART-MU101-ACIDBASE-D4BF76CA
+
+## title
+Acid-base physiology: buffers, compensation and clinical patterns
+
+## arabic_title
+
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Physiology
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Biochemistry-Physiology
+
+## primary_node_id
+DIS-PHY-T04
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-FND-9E4A791CF44E5C
+CON-FND-674670B271BEC1
+CON-FND-368319E51D203E
+CON-FND-36527431DD0232
+CON-REN-DFF352F789A971
+CON-FND-9574E00BC25339
+CON-FND-57EA6E88793B03
+CON-FND-2905C98769FD5A
+
+## related_articles
+
+
+## aliases
+Bicarbonate buffer | Respiratory compensation | Renal compensation | Metabolic acidosis and alkalosis
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+9
+
+## summary
+The bicarbonate buffer reaction, the normal 20:1 bicarbonate-to-carbonic-acid ratio, and how the lungs and kidneys each compensate for a primary acid-base disturbance -- covering both directions (metabolic acidosis/alkalosis) and both compensating systems (respiratory, renal), plus two worked clinical vignettes (anxiety-induced respiratory alkalosis, diarrhoea-induced metabolic acidosis).
+
+## sections
+### Definition
+The bicarbonate buffer reaction is CO2 + H2O <-> H2CO3 <-> H+ + HCO3-, catalysed by carbonic anhydrase. The Henderson-Hasselbalch equation shows that normal extracellular pH (7.4) depends on the bicarbonate-to-carbonic-acid ratio being held at about 20:1, not on either value alone. The respiratory system controls the CO2 (carbonic acid) side of this ratio on a minutes timescale; the kidney controls the bicarbonate side, chiefly by reclaiming filtered bicarbonate in the proximal tubule, on a slower, hours-to-days timescale.
+
+### Mechanism
+Increased ventilation blows off CO2, shifting the buffer equation left and lowering H+ (respiratory alkalosis if primary, or the compensation for a primary metabolic acidosis); decreased ventilation retains CO2, shifting it right and raising H+ (respiratory acidosis if primary, or the compensation for a primary metabolic alkalosis). Diarrhoea causes hyperchloremic, normal-anion-gap metabolic acidosis through direct gastrointestinal loss of bicarbonate, compensated by hyperventilation (lowering PaCO2). Anxiety-induced hyperventilation causes acute respiratory alkalosis by blowing off CO2 faster than it is produced; rebreathing from a paper bag raises inspired CO2 and corrects it directly.
+
+### Key determinants
+Whether the primary abnormality is metabolic or respiratory, and whether pH sits on the acid or alkaline side, determines which system compensates and in which direction: PaCO2 and ventilation for respiratory disturbances and their compensations, HCO3 and renal handling for metabolic disturbances and their compensations. The anion gap further determines whether a metabolic acidosis is a bicarbonate-losing (normal gap, e.g. diarrhoea) or acid-accumulating (high gap, e.g. ketoacidosis) process.
+
+### Clinical significance
+Reading an arterial blood gas means checking pH first (acidaemia vs alkalaemia), then asking whether PaCO2 or HCO3 is the primary abnormality and which is the compensating one moving in the appropriate direction. A normal anion gap with metabolic acidosis points toward a GI or renal bicarbonate-losing cause (such as diarrhoea) rather than an accumulation of unmeasured acid (such as ketoacidosis or lactic acidosis, which raise the anion gap).
+
+---
+
+# Item
+
+## id
+ART-MU101-SOLNCHEM-49A71510
+
+## title
+Solution chemistry: molality, molar mass and normality
+
+## arabic_title
+
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Biochemistry
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Biochemistry-Physiology
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-FND-A6366627A6860E
+CON-FND-F08DE65A4D2FA4
+CON-FND-71E0F5AABC0F85
+
+## related_articles
+
+
+## aliases
+Molality | Molar mass | Normality | Solution concentration units
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+6
+
+## summary
+The three solution-concentration definitions this paper tests: molality (moles of solute per kilogram of solvent, worked through a numeric example), molar mass calculation from atomic masses (NaOH = 40 g/mol), and normality (mole equivalents of solute per litre of solution).
+
+## sections
+### Definition
+Molality (m) is moles of solute per kilogram of solvent (mol/kg) -- a mass-based, temperature-independent unit. Molar mass sums the atomic masses of a compound's constituent atoms (for NaOH: Na 23 + O 16 + H 1 = 40 g/mol). Normality is the number of gram-equivalents (mole equivalents) of solute per litre of solution, which differs from molarity by accounting for a solute's reactive capacity (for example, a diprotic acid has twice the normality of its molarity).
+
+### Mechanism
+A worked molality calculation: dissolving 2 moles of NaOH in 400 g (0.4 kg) of water gives 2 mol / 0.4 kg = 5 mol/kg. These three units -- molality, molarity and normality -- are frequently confused because all three describe "how concentrated" a solution is, but each uses a different denominator (kilograms of solvent, litres of solution, or litres of solution counted in reactive equivalents rather than simple moles).
+
+### Key determinants
+Which unit applies depends on what is held constant in the denominator: kilograms of solvent for molality, litres of solution for molarity, and litres of solution counted in reactive equivalents for normality. A compound's molar mass is fixed entirely by its atomic composition, independent of how much of it is dissolved.
+
+### Clinical significance
+These solution-chemistry basics underpin how laboratory reagent concentrations and physiological fluid osmolality are expressed and calculated throughout the rest of the biochemistry and physiology curriculum.
+
+---
+
+# Item
+
+## id
+ART-MU101-CARBCHEM-9E8FDE35
+
+## title
+Carbohydrate chemistry: sugar isomerism, disaccharides and storage polysaccharides
+
+## arabic_title
+
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Biochemistry
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Biochemistry-Physiology
+
+## primary_node_id
+DIS-BIO-T03
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-FND-AEDF8CA500AD5A
+CON-FND-7B94977469CE26
+CON-FND-41A66DE2892493
+CON-FND-9754E4BE532753
+CON-FND-B79A436C6533E1
+CON-FND-AF2B462D55E69C
+CON-FND-99CC4397B1DE0C
+CON-FND-1EBEB86CAB058D
+CON-FND-ED32F5874F5421
+CON-FND-24219DD2F169B6
+CON-FND-F9F45E1748DD65
+CON-FND-3AE7A52E50C9A2
+CON-FND-27F1AC824735FB
+CON-FND-A717B3B956BD3E
+
+## related_articles
+
+
+## aliases
+Epimers and anomers | Disaccharide linkages | Starch, glycogen and cellulose | Aldose vs ketose
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+12
+
+## summary
+How monosaccharides are classified and named (epimers, anomers, aldose vs ketose, keto tetrose), the specific glycosidic bonds of the major disaccharides (maltose, lactose, sucrose) and the naming/composition of invert sugar, and the structural differences among the three major glucose storage/structural polysaccharides -- starch (amylose+amylopectin), glycogen and cellulose.
+
+## sections
+### Definition
+Monosaccharides sharing a molecular formula are distinguished by four kinds of isomerism: D/L isomers (mirror images at the highest-numbered chiral carbon), epimers (differ at one specified non-anomeric carbon, e.g. glucose/galactose at C4), anomers (differ only at the anomeric carbon created by ring closure, e.g. alpha/beta-D-glucose), and aldose/ketose isomers (differ in functional group, e.g. glucose/fructose). Glyceraldehyde is the simplest aldose; dihydroxyacetone is the simplest ketose and the only monosaccharide with no chiral centre at all; erythrulose is the four-carbon (keto tetrose) ketose.
+
+### Mechanism
+The named disaccharides are defined by their specific glycosidic bond: maltose is glucose-glucose joined alpha-1,4; lactose is galactose-glucose joined beta-1,4 (needing lactase to digest); sucrose is alpha-glucose joined to beta-fructose through both anomeric carbons, making it non-reducing. Hydrolysing sucrose gives "invert sugar", the glucose-fructose mixture named for its reversed optical rotation. Starch (amylose, unbranched alpha-1,4; amylopectin, branched alpha-1,4 with alpha-1,6 branches) is the plant storage form; glycogen uses the same alpha-1,4/alpha-1,6 chemistry but branches more densely (every 8-12 residues) for faster mobilisation, and is the animal storage form; cellulose uses beta-1,4 bonds exclusively, which humans cannot hydrolyse, making it structural (plant cell walls) rather than a nutrient source. Hyaluronic acid's own repeat unit (N-acetylglucosamine + D-glucuronic acid) is unsulfated, unlike the other glycosaminoglycans.
+
+### Key determinants
+Which carbon a pair of sugars differs at (the anomeric carbon only, one other specified carbon, or the functional-group carbon) determines whether they are anomers, epimers, or aldose/ketose isomers. Which specific glycosidic bond links two monosaccharides (alpha vs beta configuration, and which carbon positions) determines the resulting disaccharide's identity, which enzyme digests it, and whether it is reducing or non-reducing.
+
+### Clinical significance
+Lactase deficiency (lactose intolerance) and the inability to digest cellulose (dietary fibre) both follow directly from which specific glycosidic bond configuration (beta) human enzymes cannot cleave, while the alpha bonds of starch, glycogen and maltose are readily digested by amylase and maltase.
+
+---
+
+# Item
+
+## id
+ART-MU101-GAGGLYCO-87AAAE0F
+
+## title
+Glycosaminoglycans and glycoproteins
+
+## arabic_title
+
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Biochemistry
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Biochemistry-Physiology
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-FND-8B7D8582182540
+CON-FND-0A30250CF4A5B1
+CON-FND-F4865459F719A6
+CON-FND-05A8CEB2CD0029
+
+## related_articles
+
+
+## aliases
+Heparin sulfation | Glycoprotein definition | Hyaluronic acid vs sulfated GAGs
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+6
+
+## summary
+How heparin's heavy sulfation (three sulfate groups per disaccharide) makes it the body's most strongly acidic natural anticoagulant, why hyaluronic acid is the one glycosaminoglycan that carries no sulfate groups at all, and the definition of a glycoprotein (an oligosaccharide covalently linked to a protein), with immunoglobulins as the worked example.
+
+## sections
+### Definition
+Glycosaminoglycans (GAGs) are long, repeating-disaccharide polysaccharides; most (heparin, keratan sulfate, chondroitin sulfate, dermatan sulfate) are sulfated, but hyaluronic acid is the one exception, carrying carboxyl groups from its glucuronic acid component but no sulfate esters at all. A glycoprotein, by contrast, is a protein (not a GAG) with one or more oligosaccharide chains covalently attached, usually N-linked to asparagine or O-linked to serine/threonine.
+
+### Mechanism
+Heparin's repeating disaccharide carries three sulfate groups plus one carboxyl group, making it exceptionally densely negatively charged; it is stored in and released from mast cells and acts chiefly by potentiating antithrombin III. Because hyaluronic acid alone lacks sulfation, it is also the one GAG never found covalently attached to a core protein as a proteoglycan; instead it exists as a free, extremely long polysaccharide chain that binds enormous amounts of water. Glycoproteins, being mostly protein with a minority carbohydrate component, are functionally diverse -- immunoglobulins (antibodies) are a key example, where the attached carbohydrate supports folding, stability and effector function.
+
+### Key determinants
+Whether a glycosaminoglycan carries sulfate groups, and how many, determines its overall charge density and function; hyaluronic acid's complete absence of sulfation is what excludes it from being covalently attached to a core protein as a proteoglycan. Whether an oligosaccharide is attached to a protein or to a lipid determines whether the resulting molecule is classed as a glycoprotein or a glycolipid.
+
+### Clinical significance
+Heparin's dense sulfation is directly responsible for its clinical use as an anticoagulant drug; hyaluronic acid's lack of sulfation and huge water-binding capacity is why it dominates synovial fluid and the vitreous humour, giving them their viscosity and cushioning properties.
+
+---
+
+# Item
+
+## id
+ART-MU101-PROTEINAA-C5C4756B
+
+## title
+Proteins and amino acids: bonds, structure and classification
+
+## arabic_title
+
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Biochemistry
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Biochemistry-Physiology
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-FND-4CDCC389A481F0
+CON-FND-6AE7C832CAA796
+CON-FND-3D0104B8490B14
+CON-FND-F91310521FC982
+CON-FND-7C8A02831B3243
+
+## related_articles
+
+
+## aliases
+Peptide bond | Protein secondary structure | Metalloproteins | Ketogenic vs glucogenic amino acids
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+8
+
+## summary
+How amino acids link together (the peptide bond, a carboxyl-to-amino condensation), the four levels of protein structure with a focus on secondary structure (alpha helix, beta sheet), one worked metalloprotein example (ceruloplasmin), one worked amide-of-an-acidic-amino-acid example (glutamine, from glutamic acid), and the amino-acid classification table distinguishing purely ketogenic (leucine, lysine) from glucogenic and mixed amino acids.
+
+## sections
+### Definition
+A peptide bond forms by condensation of the carboxyl group of one amino acid with the amino group of the next, releasing one water molecule; many such bonds link amino acids into a polypeptide/protein. Protein structure is described at four levels: primary (the linear amino-acid sequence), secondary (local, repeating backbone folding patterns stabilised by hydrogen bonds -- the alpha helix and beta-pleated sheet are the two classic examples), tertiary (the overall 3D fold of one chain) and quaternary (the assembly of multiple separate chains).
+
+### Mechanism
+The peptide bond has partial double-bond character (resonance with the adjacent carbonyl), making it rigid, planar and trans-configured, with rotational freedom confined to the bonds on either side of it. A metalloprotein depends on a tightly bound metal cofactor for its function -- ceruloplasmin binds six to seven copper atoms and also has ferroxidase activity. Among the twenty amino acids, only leucine and lysine are purely ketogenic (degraded entirely to ketone-body precursors, with no glucogenic pathway); glutamine is the uncharged amide derivative of the acidic amino acid glutamic acid, exactly as asparagine is the amide of aspartic acid.
+
+### Key determinants
+Which two functional groups condense (the carboxyl group of one amino acid, the amino group of the next) determines the peptide bond, and its partial double-bond character determines its planarity and restricted rotation. Whether an amino acid's carbon skeleton yields only acetyl-CoA/ketone-body precursors, only gluconeogenic intermediates, or both, determines whether it is classed as ketogenic, glucogenic, or mixed.
+
+### Clinical significance
+Ceruloplasmin is characteristically low in Wilson's disease, a disorder of copper metabolism; recognising leucine and lysine as the sole purely ketogenic amino acids is a recurring exam distinction between amino-acid metabolism disorders that spare versus impair gluconeogenesis.
+
+---
+
+# Item
+
+## id
+ART-MU101-FERTIMPLANT-8D855BD3
+
+## title
+Fertilization, cleavage and implantation
+
+## arabic_title
+
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Embryology
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Embryology
+
+## primary_node_id
+DIS-EMB-T01
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-DEV-FD37F8117B3AE6
+CON-DEV-8EF02511F3FBC0
+CON-DEV-D66BAFF03A3C53
+CON-DEV-34A4AFD08BD2C5
+
+## related_articles
+
+
+## aliases
+Site of fertilization | Cleavage timeline | Zygote formation | Placenta previa
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+6
+
+## summary
+The normal site and product of fertilization (the ampulla, forming the zygote by pronuclear fusion), the cleavage timeline by which the morula becomes the first embryonic stage to reach the uterine cavity (around day 4), and what happens when implantation occurs abnormally low in the uterus (placenta previa).
+
+## sections
+### Definition
+Fertilization normally occurs in the ampulla of the uterine tube, where the ovulated secondary oocyte meets ascending sperm; fusion of the male and female pronuclei (syngamy) restores the diploid number and creates the zygote, the first cell of the new individual. Cleavage divisions occur as the embryo is transported along the tube, reaching the 16-cell morula stage by about day 3-4 -- the first embryonic stage to arrive in the uterine cavity -- before developing a fluid-filled cavity to become a blastocyst.
+
+### Mechanism
+The blastocyst normally implants in the upper part of the uterine body; when it implants instead in the lower uterine segment, close to or over the internal cervical os, the resulting placenta develops in that low position and is called placenta previa.
+
+### Key determinants
+The position reached within the uterine tube (the ampulla specifically) determines the normal site of fertilization; the level at which the blastocyst implants within the uterus (the upper body versus the lower segment near the internal os) determines whether pregnancy proceeds with a normally sited placenta or as placenta previa.
+
+### Clinical significance
+The ampulla, as the normal fertilization site, is also the most common site for a tubal (ectopic) pregnancy. Placenta previa is an important cause of painless antepartum haemorrhage because the low-lying placenta obstructs the normal delivery path, typically requiring caesarean delivery.
+
+---
+
+# Item
+
+## id
+ART-MU101-PLACENTA-6CA76541
+
+## title
+Placenta, chorion and fetal membranes
+
+## arabic_title
+
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Embryology
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Embryology
+
+## primary_node_id
+DIS-EMB-T02
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-OBS-54773B9FA007C0
+CON-DEV-7B6FEDA3793E2F
+CON-DEV-25BF9A0373B675
+CON-DEV-E3665557EC3E81
+CON-DEV-3E745A8189D52D
+CON-DEV-85A12BF990199E
+
+## related_articles
+
+
+## aliases
+Chorion frondosum and decidua basalis | Chorion layers | Chorionic plate | Allantois | Chorionic villus
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+8
+
+## summary
+The two-part composition of the definitive placenta (fetal chorion frondosum, maternal decidua basalis), the three layers of the chorion and how the chorionic plate is formed, the allantois's invasion of the connecting stalk, the structure of a secondary chorionic villus, and the naming of marginal (battledore) umbilical cord insertion.
+
+## sections
+### Definition
+The definitive placenta has a fetal part, the chorion frondosum (chorion with well-developed, branching villi over the implantation site), and a maternal part, the decidua basalis (the endometrium directly underlying it); the decidua capsularis and parietalis, and the chorion leave, do not contribute to the placenta itself. The chorion is built of three layers -- syncytiotrophoblast (outer), cytotrophoblast (inner) and extraembryonic somatic mesoderm (innermost lining) -- and this same extraembryonic mesoderm, together with the trophoblast layers, forms the chorionic plate, the fetal surface of the placenta.
+
+### Mechanism
+A primary chorionic villus (cytotrophoblast covered by syncytiotrophoblast) becomes a secondary villus once extraembryonic mesenchyme invades its core, giving all three components together. The allantois grows from the caudal yolk sac into the connecting stalk (the future umbilical cord), its vessels becoming the umbilical arteries and vein; its distal part is later obliterated (forming the urachus) while its proximal part stays continuous with the developing bladder. When the umbilical cord inserts at the placental margin rather than centrally, this is a battledore (marginal) placenta, generally of little consequence, unlike velamentous insertion, in which vessels run unprotected through the membranes.
+
+### Key determinants
+Which tissue is fetal in origin (the chorion frondosum, the chorionic plate, the villi) versus maternal in origin (the decidua basalis) determines the placenta's two-part structure. Which structure a villus, the chorion, or the allantois arises from or invades determines its later fate and vascular connections.
+
+### Clinical significance
+Recognising the fetal-vs-maternal placental components, and the chorion's three layers, underpins understanding of placental pathology (accreta, previa, abruption) taught in later obstetric modules.
+
+---
+
+# Item
+
+## id
+ART-MU101-GAMETOMC-426DA802
+
+## title
+Gametogenesis and the menstrual cycle
+
+## arabic_title
+
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Embryology
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Embryology
+
+## primary_node_id
+DIS-EMB-T01
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-DEV-6A10B8CC932A0C
+CON-DEV-036376331E51AF
+CON-DEV-F85B7F76DBDC79
+CON-DEV-9604D6EE7771D8
+CON-DEV-82DA2DB5B804BA
+CON-DEV-476D9FB6F25672
+CON-DEV-0ADC71836B6D09
+CON-DEV-B7634187C87A16
+CON-FND-5097CA5BAB2E51
+
+## related_articles
+
+
+## aliases
+Spermatogenesis timeline | Oogenesis onset | Corpus luteum of pregnancy | Secretory phase | Chromosomal formulas
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+10
+
+## summary
+The mother cell of spermatogenesis (spermatogonia) and the ~60-day spermatogenic cycle, the intrauterine onset of oogenesis, the roughly three-month lifespan of the corpus luteum of pregnancy, the haploid chromosomal formulas produced at each stage of spermatogenesis, the secretory phase of the menstrual cycle, and the chromosomal basis of Turner and Down syndrome.
+
+## sections
+### Definition
+Spermatogonia are the diploid stem cells of the seminiferous tubule that give rise to the entire sperm lineage: spermatogonium -> primary spermatocyte (diploid, 44+XY) -> meiosis I -> secondary spermatocyte (haploid, 22+X or 22+Y) -> meiosis II -> spermatid (haploid) -> spermiogenesis -> spermatozoon. The full cycle takes about 60 days. Oogenesis, by contrast, begins during intrauterine life, with primary oocytes already arrested in meiotic prophase before birth.
+
+### Mechanism
+If pregnancy occurs, hCG rescues the corpus luteum, converting it to the corpus luteum of pregnancy, which secretes progesterone for about the first three months before the placenta takes over. The secretory (luteal) phase of the menstrual cycle lasts a fixed ~14 days, during which progesterone drives the endometrial glands to become tortuous and secrete a glycogen-rich (not glycogen-poor) material, while the spiral arteries elongate -- all in preparation for a possible early conceptus. Turner syndrome (45,X monosomy) and Down syndrome (47, trisomy 21) are both named chromosomal syndromes following the same extra-or-missing-chromosome logic covered in the article shared with the histology cluster.
+
+### Key determinants
+Timing relative to birth and puberty determines which gametogenesis pathway is running: oogenesis begins before birth, spermatogenesis only at puberty. Which meiotic division a germ cell has completed determines its ploidy and chromosomal formula at each named stage. Which specific chromosome is extra, missing, or present in the wrong number determines which named chromosomal syndrome results.
+
+### Clinical significance
+The ~60-day spermatogenic cycle sets the minimum interval before a toxic exposure's effect on sperm quality becomes apparent, and before spermatogenesis-targeted treatments show effect.
+
+---
+
+# Item
+
+## id
+ART-MU101-GERMLAYERS-FCAB4BA8
+
+## title
+Germ layers, gastrulation and their derivatives
+
+## arabic_title
+
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Embryology
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Embryology
+
+## primary_node_id
+DIS-EMB-T01
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-DEV-7F44BF85B67373
+CON-DEV-EA33F77B49818A
+CON-DEV-D1281FB0B48B26
+CON-DEV-6E2F31C213049A
+CON-DEV-8153A275E4A623
+CON-DEV-F147CCC2126226
+CON-DEV-932C8363BAE4A8
+CON-DEV-C1C5C84B84AE89
+
+## related_articles
+
+
+## aliases
+Mesoderm derivatives | Primitive node | Ectoderm exceptions | Paraxial mesoderm | Heuser membrane | Embryonic folding
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+10
+
+## summary
+Which structures derive from mesoderm (striated muscle, dermis via the somite dermatome, suprarenal cortex) versus ectoderm (hair, nails, CNS, epidermis, most of the skin/nervous system), the primitive node's position and organiser role, hypoblast's origin of Heuser's membrane, the prechordal plate's signalling (not mesoderm-forming) role, and the direct consequence of embryonic folding on the amniotic sac.
+
+## sections
+### Definition
+Mesoderm gives rise to striated (skeletal) muscle (via the somite myotome), the dermis of the skin (via the somite dermatome) and the suprarenal cortex; ectoderm gives rise to the CNS, hair, nails, the epidermis, the external auditory meatus and the lower anal canal. Somites, formed from paraxial mesoderm, differentiate into sclerotome (vertebrae/ribs), myotome (muscle) and dermatome (dermis). The primitive node sits at the cranial end of the primitive streak and organises formation of the notochordal process and induction of the neural plate.
+
+### Mechanism
+Heuser's membrane, a thin extraembryonic endoderm layer lining the primary yolk sac cavity, arises from hypoblast (not epiblast, which instead gives rise to the definitive germ layers during gastrulation). The prechordal plate, cranial to the notochord, is a signalling/organiser centre inducing the forebrain, not itself a source of intraembryonic mesoderm the way the primitive streak, node and notochord are. As lateral and longitudinal folding converts the flat embryonic disc into a cylindrical body, the amnion expands to surround the entire embryo, enclosing it in amniotic fluid.
+
+### Key determinants
+Which germ layer a structure derives from (ectoderm, mesoderm or endoderm) determines its tissue type, and is what makes a single mesodermal or ectodermal exception stand out whenever a list of otherwise-single-layer derivatives is tested. Whether a midline gastrulation structure itself generates mesoderm (the primitive streak, node and notochord) or only organises/signals without generating mesoderm (the prechordal plate) determines its functional role.
+
+### Clinical significance
+The mesoderm-vs-ectoderm origin of the adrenal cortex (mesoderm) versus medulla (neural crest/ectoderm) is a recurring distinction tested against each other because the two parts of one gland have entirely different embryonic origins and different hormone products.
+
+---
+
+# Item
+
+## id
+ART-MU101-AMNIONYOLK-2197F9C7
+
+## title
+Amnion, amniotic fluid and the yolk sac
+
+## arabic_title
+
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Embryology
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Embryology
+
+## primary_node_id
+DIS-EMB-T02
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-DEV-D36C2A370DF65D
+CON-DEV-5DDEC72B57CE54
+CON-DEV-4B4FC0F9B53AEE
+
+## related_articles
+
+
+## aliases
+Amniotic membrane origin | Amniotic fluid composition | Yolk sac and gut incorporation
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+6
+
+## summary
+The cytotrophoblast origin of the amniotic membrane, the overwhelmingly water composition of amniotic fluid, and how the yolk sac's roof is incorporated into the primitive gut tube (foregut, midgut, hindgut) via the vitellointestinal duct during embryonic folding.
+
+## sections
+### Definition
+The amniotic membrane (amnion) is lined by amnioblasts traced back to the cytotrophoblast lineage; it expands during folding to surround the embryo and enclose the amniotic cavity. Amniotic fluid is roughly 98-99% water, with only minor solute components (electrolytes, urea, creatinine).
+
+### Mechanism
+As the embryo folds, the roof of the primary yolk sac is incorporated into the embryo as the primitive gut tube, becoming continuous with the foregut, midgut and hindgut; the midgut remains connected to the shrinking extraembryonic yolk sac via the vitellointestinal (vitelline) duct until this connection is normally obliterated.
+
+### Key determinants
+Which trophoblast or germ layer a fetal membrane derives from (cytotrophoblast for the amnion, hypoblast-derived endoderm for the yolk sac) determines its structure and fate during folding. Which gut region a given part of the yolk sac remains continuous with (foregut, midgut or hindgut) determines whether its persistence produces a named structure such as a Meckel's diverticulum.
+
+### Clinical significance
+Persistence of the vitellointestinal duct after birth produces a Meckel's diverticulum, one of the most common congenital gastrointestinal anomalies. Rising amniotic-fluid creatinine is used clinically as a marker of fetal renal maturity, even though water remains its overwhelming majority component throughout pregnancy.
