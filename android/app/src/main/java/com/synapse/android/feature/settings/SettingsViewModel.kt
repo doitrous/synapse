@@ -1,7 +1,6 @@
 package com.synapse.android.feature.settings
 
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.synapse.android.core.api.ApiError
@@ -10,10 +9,12 @@ import com.synapse.android.core.api.SupportTicket
 import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.api.UsernameAvailability
 import com.synapse.android.core.auth.AuthModel
+import com.synapse.android.core.backgroundWorkScope
 import com.synapse.android.design.AppLanguage
 import com.synapse.android.design.CortexThemeChoice
 import com.synapse.android.design.LanguagePreference
 import com.synapse.android.design.ThemePreference
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -49,6 +50,13 @@ sealed interface SupportListState {
  * This class stays the thing every other screen in this app already is: load
  * once, expose a small set of suspend actions, replace [state] with the
  * result.
+ *
+ * Runs its own work on [backgroundWorkScope], not `viewModelScope` -- see
+ * that function's own doc, and `QuestionBankViewModel`'s class doc for the
+ * same call made there: `viewModelScope` binds to `Dispatchers.Main.immediate`,
+ * which needs a real Android main-thread Looper. A plain JVM unit test (the
+ * kind `SettingsViewModelTest` is) has none, and `viewModelScope.launch` here
+ * hung every load/save test until this class stopped depending on it.
  */
 class SettingsViewModel(
     private val auth: AuthModel,
@@ -56,6 +64,7 @@ class SettingsViewModel(
     val themePreference: ThemePreference,
     val languagePreference: LanguagePreference,
 ) : ViewModel() {
+    private val backgroundScope = backgroundWorkScope("SettingsViewModel")
 
     private val _state = MutableStateFlow<SettingsUiState>(SettingsUiState.Loading)
     val state: StateFlow<SettingsUiState> = _state.asStateFlow()
@@ -64,7 +73,7 @@ class SettingsViewModel(
     val supportTickets: StateFlow<SupportListState> = _supportTickets.asStateFlow()
 
     fun load() {
-        viewModelScope.launch {
+        backgroundScope.launch {
             _state.value = SettingsUiState.Loading
             val me = try {
                 api.me()
@@ -86,7 +95,7 @@ class SettingsViewModel(
     /** Saves the Profile section as one `PUT /api/me/enrolment` -- see [SynapseApi.updateEnrolment]'s doc for why [universityId]/[year] are resent unchanged. */
     fun saveProfile(username: String, profileIcon: String, statusMessage: String, onResult: (Result<Unit>) -> Unit) {
         val current = (_state.value as? SettingsUiState.Content)?.profile ?: return
-        viewModelScope.launch {
+        backgroundScope.launch {
             val result = runCatching {
                 api.updateEnrolment(
                     universityId = current.universityId,
@@ -103,13 +112,13 @@ class SettingsViewModel(
     }
 
     fun requestEnrollmentChange(field: String, requestedValue: String, reason: String, onResult: (Result<Unit>) -> Unit) {
-        viewModelScope.launch {
+        backgroundScope.launch {
             onResult(runCatching { api.requestEnrollmentChange(field, requestedValue, reason) })
         }
     }
 
     fun loadSupportTickets() {
-        viewModelScope.launch {
+        backgroundScope.launch {
             _supportTickets.value = SupportListState.Loading
             _supportTickets.value = try {
                 val tickets = api.listSupport()
@@ -121,7 +130,7 @@ class SettingsViewModel(
     }
 
     fun submitSupport(subject: String?, message: String, onResult: (Result<Unit>) -> Unit) {
-        viewModelScope.launch {
+        backgroundScope.launch {
             val result = runCatching { api.submitSupport(subject, message) }
             result.onSuccess { loadSupportTickets() }
             onResult(result)
@@ -138,6 +147,10 @@ class SettingsViewModel(
 
     private fun replaceProfile(profile: Profile) {
         (_state.value as? SettingsUiState.Content)?.let { _state.value = it.copy(profile = profile) }
+    }
+
+    override fun onCleared() {
+        backgroundScope.cancel()
     }
 
     companion object {

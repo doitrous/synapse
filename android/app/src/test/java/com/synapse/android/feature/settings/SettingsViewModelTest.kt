@@ -10,8 +10,12 @@ import com.synapse.android.design.AppLanguage
 import com.synapse.android.design.CortexThemeChoice
 import com.synapse.android.design.LanguagePreference
 import com.synapse.android.design.ThemePreference
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.test.UnconfinedTestDispatcher
+import kotlinx.coroutines.test.resetMain
+import kotlinx.coroutines.test.setMain
 import kotlinx.coroutines.withTimeout
 import okhttp3.OkHttpClient
 import okhttp3.mockwebserver.MockResponse
@@ -38,6 +42,11 @@ class SettingsViewModelTest {
 
     @Before
     fun setUp() {
+        // load()/saveProfile()/etc. dispatch on viewModelScope (Dispatchers.Main).
+        // Under a JVM/Robolectric unit test, runBlocking holds the main thread, so
+        // those coroutines never run and the state collectors time out. An
+        // Unconfined test dispatcher runs them eagerly on the caller instead.
+        Dispatchers.setMain(UnconfinedTestDispatcher())
         server = MockWebServer().also { it.start() }
         val context = ApplicationProvider.getApplicationContext<Context>()
         themePreference = ThemePreference(context)
@@ -57,7 +66,10 @@ class SettingsViewModelTest {
     }
 
     @After
-    fun tearDown() = server.shutdown()
+    fun tearDown() {
+        server.shutdown()
+        Dispatchers.resetMain()
+    }
 
     private fun viewModel() = SettingsViewModel(auth, api, themePreference, languagePreference)
 
