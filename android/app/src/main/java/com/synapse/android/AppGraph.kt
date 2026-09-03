@@ -10,6 +10,7 @@ import com.synapse.android.core.cache.CortexDatabase
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.config.AppConfig
 import com.synapse.android.core.sync.SyncEngine
+import com.synapse.android.design.LanguagePreference
 import com.synapse.android.design.ThemePreference
 import okhttp3.OkHttpClient
 
@@ -43,6 +44,9 @@ class AppGraph(context: Context, val config: AppConfig) {
     // ThemePreference's own class doc for why it is never encrypted or
     // synced.
     val themePreference = ThemePreference(context.applicationContext)
+
+    // Same reasoning, same eagerness -- see LanguagePreference's own class doc.
+    val languagePreference = LanguagePreference(context.applicationContext)
 
     // Typed as the concrete class, not as SessionStore, because it backs two
     // separate things out of the one encrypted file: the Supabase session

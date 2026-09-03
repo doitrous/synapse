@@ -46,8 +46,8 @@ import com.synapse.android.design.LocalCortex
 import com.synapse.android.design.NishanyMark
 import com.synapse.android.design.PracticalGlyph
 import com.synapse.android.design.QuestionBankGlyph
-import com.synapse.android.feature.account.AccountScreen
-import com.synapse.android.feature.account.AccountViewModel
+import com.synapse.android.feature.settings.SettingsScreen
+import com.synapse.android.feature.settings.SettingsViewModel
 import com.synapse.android.feature.auth.SignInScreen
 import com.synapse.android.feature.home.HomeRoute
 import com.synapse.android.feature.practical.PracticalListScreen
@@ -168,7 +168,10 @@ fun RootScreen(graph: AppGraph) {
                     graph.sync.refreshWhenStale(FOREGROUND_REFRESH_INTERVAL)
                 }
             }
-            SignedInNavHost(graph)
+            // Held behind the AI-use disclaimer exactly once per sign-in --
+            // see AiConsentGate's own doc for why this is not on the
+            // foreground-refresh path above.
+            AiConsentGate(graph) { SignedInNavHost(graph) }
         }
     }
 }
@@ -261,10 +264,10 @@ private fun SignedInNavHost(graph: AppGraph) {
             composable(ROUTE_PRACTICAL) { PracticalRoute(graph) }
             composable(ROUTE_QOTD) { QotdRoute(graph) }
             composable(ROUTE_ACCOUNT) {
-                val viewModel: AccountViewModel = viewModel(
-                    factory = AccountViewModel.factory(graph.auth, graph.sync, graph.store, graph.themePreference),
+                val viewModel: SettingsViewModel = viewModel(
+                    factory = SettingsViewModel.factory(graph.auth, graph.api, graph.themePreference, graph.languagePreference),
                 )
-                AccountScreen(viewModel = viewModel)
+                SettingsScreen(viewModel = viewModel, sync = graph.sync, store = graph.store)
             }
         }
     }

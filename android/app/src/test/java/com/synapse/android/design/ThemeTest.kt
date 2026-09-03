@@ -64,6 +64,36 @@ class ThemeTest {
     }
 
     @Test
+    fun `OLED goes true black, unlike dark`() {
+        // src/index.css:479 -- true black is the whole point of an OLED
+        // ground (the pixels are actually off), and it is darker than dark
+        // mode's #0d1117, not the same value relabelled.
+        assertEquals(Color(0xFF000000), OledCortexColors.paper)
+        assertNotEquals(DarkCortexColors.paper, OledCortexColors.paper)
+    }
+
+    @Test
+    fun `OLED reuses dark's fills rather than re-picking them`() {
+        // src/index.css:495-529 says "Same fills as Dark" for exactly these
+        // tokens -- a hand-written OLED palette that quietly drifted from
+        // dark's primary/accent/success/warning/danger would fail here.
+        assertEquals(DarkCortexColors.primary, OledCortexColors.primary)
+        assertEquals(DarkCortexColors.primaryStrong, OledCortexColors.primaryStrong)
+        assertEquals(DarkCortexColors.accent, OledCortexColors.accent)
+        assertEquals(DarkCortexColors.accentStrong, OledCortexColors.accentStrong)
+        assertEquals(DarkCortexColors.success, OledCortexColors.success)
+        assertEquals(DarkCortexColors.warning, OledCortexColors.warning)
+        assertEquals(DarkCortexColors.danger, OledCortexColors.danger)
+    }
+
+    @Test
+    fun `OLED material scheme is dark, not light`() {
+        val scheme = OledCortexColors.toMaterialScheme(dark = true)
+        assertEquals(OledCortexColors.paper, scheme.background)
+        assertEquals(OledCortexColors.ink, scheme.onSurface)
+    }
+
+    @Test
     fun `headings resolve to the serif and body copy to the sans, as the web does`() {
         // src/index.css h1-h5 take --font-serif; body takes --font-sans. Getting
         // this backwards is silent at compile time, so it is pinned here.
