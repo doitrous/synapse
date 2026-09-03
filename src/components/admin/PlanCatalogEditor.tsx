@@ -162,8 +162,9 @@ function PlanEditor({ plan, periods, universities, onChange, onRemove }: {
                       type="number"
                       min={0}
                       max={100}
+                      step={1}
                       value={plan.promo?.[promoPeriodId]?.percentOff ?? 0}
-                      onChange={(event) => setPromo(promoPeriodId, { percentOff: Math.max(0, Math.min(100, Number(event.target.value) || 0)) })}
+                      onChange={(event) => setPromo(promoPeriodId, { percentOff: Math.max(0, Math.min(100, Math.round(Number(event.target.value) || 0))) })}
                       aria-label={`Promo percent off ${say(period.label, 'en')}`}
                       className="tnum h-8 w-16 font-mono text-[12px]"
                     />
