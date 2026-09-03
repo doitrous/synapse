@@ -7,6 +7,10 @@
 | paper1-2019summer | 9 | 43 | 0 | 52 |
 | paper2-2018 | 46 | 15 | 0 | 61 |
 | physio-mcq | 54 | 11 | 0 | 65 |
+| paper1-2019 | 10 | 42 | 0 | 52 |
+| paper1-2020 | 4 | 22 | 0 | 26 |
+| paper2-2019 | 15 | 23 | 0 | 38 |
+| cns-assessment1 | 5 | 27 | 0 | 32 |
 
 ## Held
 - anatomy-mcq-q53 — collapsed into anatomy-mcq-q04 — same fact, within-file duplicate (see concept CON-NEU-039920144AF3A5 field_notes)
@@ -165,6 +169,121 @@
 - physio-mcq-q31 — collapsed into physio-mcq-q15 — same fact, within-file duplicate (see concept CON-NEU-F10C594762E315 field_notes)
 - physio-mcq-q38 — collapsed into physio-mcq-q12 — same fact, within-file duplicate (see concept CON-NEU-E41ECCD1C08B7E field_notes)
 - physio-mcq-q43 — collapsed into physio-mcq-q02 — same fact, within-file duplicate (see concept CON-NEU-53B558B50820FB field_notes)
+
+- paper1-2019-q04 — ambiguous printed key — item 4 ("trapezoid body in pons / Not found in the level of inferior colliculus in the midbrain", listing substantia nigra/red nucleus as candidate wrong answers) tests trapezoid body location relative to two unrelated midbrain structures in a confusing negative format that overlaps this same cluster's own cochlear-nucleus/trapezoid-body-origin mint without a clean, separately testable fact; held for Omar/source verification rather than guessed at
+- paper1-2019-q05 — duplicate of this lane's own existing concept ("Lamina I of the spinal cord grey matter, the posteromarginal nucleus, is the most dorsal Rexed lamina, chiefly relaying pain and temperature") — item 5 ("posteromarginal nucleus / Lamina 1") restates the identical fact
+- paper1-2019-q07 — duplicate of this lane's own existing concept ("The dorsal external arcuate fibres are afferents that enter the cerebellum through the inferior cerebellar peduncle") — item 7 restates the identical fact
+- paper1-2019-q08 — biochemistry, out of this lane's neuro subject scope — item 8 ("vit b1 / Cannot utilize glucose dt oxidative decarboxylation")
+- paper1-2019-q09 — biochemistry, out of this lane's neuro subject scope — item 9 ("phenylketonurea and phenyalanine / Matching with each other correctly")
+- paper1-2019-q10 — biochemistry, out of this lane's neuro subject scope — item 10 ("THB / Coenzyme for aromatic Hydroxylases")
+- paper1-2019-q11 — biochemistry, out of this lane's neuro subject scope — item 11 ("Argininosuccinate / Needs ATP in urea cycle")
+- paper1-2019-q12 — biochemistry, out of this lane's neuro subject scope — item 12 ("homocystiene to methionine / Needs vit B12, folic acid")
+- paper1-2019-q13 — too close to this lane's own existing hyperammonaemia concept (astrocytic glutamine synthesis contributing to cerebral oedema) — item 13 ("decrease glutamate decrease gaba / Result for hyperammonemia") is a different biochemical mechanism of the same overarching hyperammonaemia/CNS-effects topic, held rather than fragmenting one topic into near-duplicate concepts
+- paper1-2019-q14 — biochemistry, out of this lane's neuro subject scope — item 14 ("ketonbodies in brain / During starvation... synthesis is in liver not utilization")
+- paper1-2019-q15 — duplicate of this lane's own existing concept ("The conus medullaris ends at L1/L2 in the adult, L3 in the neonate") — item 15 ("L1 / Level of S2 segment, Sacral and coccygeal segments at L1 vertebrae") restates the same conus-medullaris vertebral-level mismatch fact
+- paper1-2019-q16 — duplicate of this lane's own existing concept ("The first cervical (C1) spinal nerve is classically taught as predominantly motor") — item 16 ("c1 / Both rami are purely motor") restates the identical fact
+- paper1-2019-q17 — duplicate of this lane's own existing concept ("The cuneocerebellar tract carries unconscious proprioception from the upper limb to the cerebellum") — item 17 restates the identical fact
+- paper1-2019-q18 — duplicate of this lane's own existing concept (PICA occlusion/lateral medullary syndrome, contralateral pain and temperature loss) — item 18 restates the identical fact, including the source's own extended note distinguishing it from ASA occlusion
+- paper1-2019-q19 — duplicate of this lane's own existing concept ("The great auricular nerve is a cutaneous branch of the cervical plexus supplying the skin over the angle of the mandible") — item 19 restates the identical fact
+- paper1-2019-q21 — duplicate of this lane's own existing concept ("Broca's area, responsible for expressive language, occupies the inferior frontal gyrus") — item 21 restates the identical fact
+- paper1-2019-q22 — duplicate of this lane's own existing concept ("The pyramid, carrying corticospinal fibres, is seen on the ventral surface of the medulla oblongata") — item 22 restates the identical fact
+- paper1-2019-q23 — duplicate of this lane's own existing concept (roof of the fourth ventricle, superior part formed by the superior cerebellar peduncles) — item 23 ("SCP / Forms the Roof of the fourth ventricle") restates the identical fact
+- paper1-2019-q24 — duplicate of this lane's own existing concept ("The corticospinal tract is the one major descending motor tract not represented within the medial longitudinal fasciculus") — item 24 restates the identical fact
+- paper1-2019-q25 — duplicate of this lane's own existing concept (CSF leaves the fourth ventricle via the foramina of Luschka and Magendie) — item 25 restates the identical fact
+- paper1-2019-q26 — duplicate of this lane's own existing concept ("The cerebral aqueduct (of Sylvius) is the narrow midbrain channel connecting the third and fourth ventricles") — item 26 restates the identical fact
+- paper1-2019-q27 — duplicate of this lane's own existing concept ("The motor nucleus of the trigeminal nerve belongs to the special visceral efferent (SVE) functional column") — item 27 restates the identical fact
+- paper1-2019-q28 — duplicate of this lane's own existing concept ("The muscle spindle, not the Golgi tendon organ, is chiefly responsible for regulating muscle tone") — item 28 restates the identical fact
+- paper1-2019-q29 — duplicate of this lane's own existing concept ("The superior cerebellar artery supplies the midbrain") — item 29 restates the identical fact
+- paper1-2019-q30 — duplicate of this lane's own existing concept ("The lateral pterygoid plate forms the medial boundary of the infratemporal fossa") — item 30 restates the identical fact
+- paper1-2019-q32 — duplicate of this lane's own existing concept ("The inferior petrosal sinus drains the cavernous sinus directly into the internal jugular vein") — item 32 restates the identical fact
+- paper1-2019-q34 — duplicate of this lane's own existing concept ("The spinal root of the accessory nerve is the motor supply to sternocleidomastoid") — item 34 restates the identical fact
+- paper1-2019-q35 — ambiguous printed key — item 35 ("touch receptor / Rapidly adapting") does not name which specific touch receptor is intended (Meissner's, Pacinian and hair-follicle receptors are all rapidly adapting); too generic to construct a single, non-guessed correct answer, held for Omar/source verification
+- paper1-2019-q36 — duplicate of this lane's own existing concept ("The gate control theory explains why rubbing a painful area relieves pain") — item 36 restates the identical fact
+- paper1-2019-q37 — duplicate of this lane's own existing concept ("The nucleus raphe magnus is a serotonergic component of the descending pain-analgesic system") — item 37 restates the identical fact
+- paper1-2019-q38 — duplicate of this lane's own existing concept ("The primary somatosensory cortex represents the contralateral face and body") — item 38 restates the identical fact
+- paper1-2019-q39 — duplicate of this lane's own existing concept (gamma motor neurons synapse on intrafusal muscle fibres in the muscle spindle) — item 39 restates the identical fact
+- paper1-2019-q40 — duplicate of this lane's own existing concept ("Nuclear bag intrafusal fibres are thick, short, and few, while nuclear chain fibres are thin, long, and more numerous") — item 40 restates the identical fact
+- paper1-2019-q41 — duplicate of this lane's own existing concept (ankle clonus driven by increased gamma motor neuron discharge) — item 41 restates the identical fact
+- paper1-2019-q42 — duplicate of this lane's own existing concept (primary motor cortex converts motor plans into executed movement) — item 42 restates the identical fact
+- paper1-2019-q43 — duplicate of this lane's own existing concept (primary motor cortex lesion causes contralateral hemiplegia with loss of fine skilled movement) — item 43 restates the identical fact
+- paper1-2019-q44 — duplicate of this lane's own existing concept (syringomyelia's jacket-distribution dissociated sensory loss) — item 44 restates the identical fact
+- paper1-2019-q45 — duplicate of this lane's own existing concept ("A cerebellar lesion produces hypotonia") — item 45 restates the identical fact
+- paper1-2019-q46 — duplicate of this lane's own existing concept (climbing fibre input to the cerebellum required for motor learning) — item 46 restates the identical fact
+- paper1-2019-q47 — duplicate of this lane's own existing concept ("The putamen (motor) circuit of the basal ganglia stores learned motor programmes for skilled movement") — item 47 restates the identical fact
+- paper1-2019-q50 — duplicate of this lane's own existing concept (referred pain from the gallbladder to the tip of the right scapula) — item 50 restates the identical fact
+- paper1-2019-q51 — duplicate of this lane's own existing concept (tectospinal tract origin from the superior colliculus) — item 51 restates the identical fact
+- paper1-2020-q01 — duplicate of this lane's own existing concept ("Kinetic (intention) tremor results from a spinocerebellar lesion") — item 1 restates the identical fact
+- paper1-2020-q02 — duplicate-adjacent to this lane's own existing concept ("The rubrospinal tract decussates at the ventral tegmental decussation (of Forel) in the midbrain") — item 2 ("rubrospinal tract / Decussation in superior level of midbrain") restates the same midbrain decussation-level fact
+- paper1-2020-q03 — duplicate of this lane's own existing concept ("The rubrospinal tract, from the red nucleus, is described as an alternative descending motor pathway to the corticospinal tract") — item 3 restates the identical fact
+- paper1-2020-q04 — biochemistry, out of this lane's neuro subject scope — item 4 ("arginine / OTC deficiency case aa becomes essential")
+- paper1-2020-q05 — too close to this lane's own existing concept ("Wernicke-Korsakoff syndrome results from thiamine (vitamin B1) deficiency, classically in chronic alcoholics") — item 5 ("alpha keto glutarate dehydrogenase / Wernicke chronic alcoholic") names the specific TPP-dependent enzyme behind the same clinical fact, held rather than minting a near-duplicate biochemistry-flavoured concept
+- paper1-2020-q07 — duplicate of this lane's own existing concept (tectospinal tract, head rotation to visual stimuli, crossing at the superior colliculus) — item 7 restates the identical fact
+- paper1-2020-q08 — duplicate of this lane's own existing concept ("The cuneocerebellar tract carries unconscious proprioception from the upper limb to the cerebellum") — item 8 restates the identical fact
+- paper1-2020-q09 — duplicate of this lane's own existing concept (spinal root of the accessory nerve, sternomastoid paralysis) — item 9 restates the identical fact
+- paper1-2020-q11 — duplicate of this lane's own existing concept (superior ophthalmic vein as a valveless route to cavernous sinus thrombosis) — item 11 restates the identical fact
+- paper1-2020-q12 — duplicate of this lane's own existing concept (inferior alveolar nerve as the motor division of the posterior division of the mandibular nerve) — item 12 restates the identical fact
+- paper1-2020-q13 — duplicate of this lane's own existing concept (Brown-Sequard syndrome, ipsilateral dorsal column loss) — item 13 restates the identical fact
+- paper1-2020-q14 — duplicate of this lane's own existing concept ("The abducens nucleus lies in the floor of the fourth ventricle, so a fourth-ventricle tumour classically affects it first") — item 14 restates the identical fact
+- paper1-2020-q15 — duplicate of this lane's own existing concept (primary motor cortex, area 4, converts motor plans into executed movement) — item 15 restates the identical fact
+- paper1-2020-q16 — duplicate of this lane's own existing concept (area 4 lesion causes crossed hemiplegia with loss of fine skilled movement) — item 16 restates the identical fact
+- paper1-2020-q17 — duplicate of this lane's own existing concept (deficient central serotonin transmission associated with mood disorders) — item 17 restates the identical fact
+- paper1-2020-q18 — duplicate of this lane's own existing concept ("The muscle spindle, not the Golgi tendon organ, is chiefly responsible for regulating muscle tone") — item 18 restates the identical fact
+- paper1-2020-q20 — duplicate of this lane's own existing concept ("The gate control theory explains why rubbing a painful area relieves pain") — item 20 restates the identical fact
+- paper1-2020-q21 — ambiguous/biochemistry printed key — item 21 ("Catecholamines / Phenylketonuria, deficiency will happen to whom") is a garbled biochemistry-pathway item out of this lane's neuro subject scope, held rather than guessed at
+- paper1-2020-q23 — duplicate of this lane's own existing concept ("The zygomaticotemporal nerve carries postganglionic parasympathetic secretomotor fibres onward to the lacrimal gland") — item 23 restates the identical fact
+- paper1-2020-q24 — within-file duplicate of this same paper's own item 8 (cuneocerebellar tract, unconscious proprioception from the elbow) — item 24 restates the identical fact
+- paper1-2020-q25 — duplicate of this lane's own existing concept (primary somatosensory cortex represents the contralateral face and body) — item 25 restates the identical fact
+- paper1-2020-q26 — duplicate of this lane's own existing concept ("A migraine attack classically begins with a phase of cerebral vasoconstriction") — item 26 restates the identical fact
+- paper2-2019-q01 — cancelled by the source itself (ملغي, "cancelled") — item 1 ("glucocerbroside / Guacher ds") is explicitly marked cancelled, not authored
+- paper2-2019-q02 — ambiguous/too generic printed key — item 2 ("exposure to toxins / Environmental risk factors for mental health disorders") names no single specific, testable fact, held for Omar/source verification
+- paper2-2019-q03 — ambiguous printed key — item 3 ("its surface is smooth / Microglia its surface has got spines... which one is wrong") is a confusingly worded negative-format item whose intended correct answer cannot be reconstructed with confidence from the printed text alone, held for Omar/source verification
+- paper2-2019-q04 — parasitology, out of this lane's neuro subject scope — item 4 ("acanthameba trophozoite and cyst / Left eye keratitis contact lenses")
+- paper2-2019-q05 — parasitology, out of this lane's neuro subject scope — item 5 ("ingestion of tenia solium eggs / Cysts and calcification")
+- paper2-2019-q06 — microbiology, out of this lane's neuro subject scope — item 6 ("ihalation of droplets / Gram -ve dipplococci Niesseria meningitis MOT")
+- paper2-2019-q07 — microbiology, out of this lane's neuro subject scope — item 7 ("live attenuated vaccine / Sabin vaccine")
+- paper2-2019-q08 — microbiology, out of this lane's neuro subject scope — item 8 ("prions / Corneal transplantation")
+- paper2-2019-q09 — microbiology, out of this lane's neuro subject scope — item 9 ("intracellular obligate living / Virulence factor of listeria monocytogenes")
+- paper2-2019-q10 — microbiology/pathology, out of this lane's neuro subject scope — item 10 ("increased pressure and cloudy inc ptn dec glucose Neutrophils / Bacterial meningitis CSF shows")
+- paper2-2019-q12 — duplicate of this lane's own existing concept ("Oligodendroglioma cells characteristically show a clear perinuclear halo (fried-egg appearance)") — item 12 restates the identical fact
+- paper2-2019-q14 — duplicate of this lane's own existing concept ("The lamina terminalis forms the anterior wall of the third ventricle") — item 14 restates the identical fact
+- paper2-2019-q16 — duplicate of this lane's own existing concept ("The great cerebral vein (of Galen) is formed by the union of the two internal cerebral veins") — item 16 restates the identical formation fact (distinct from this cluster's own item 21, which mints the vein's cisterna ambiens location instead)
+- paper2-2019-q17 — duplicate of this lane's own existing concept ("The auditory radiation passes through the sublentiform part of the internal capsule") — item 17 restates the identical fact
+- paper2-2019-q18 — duplicate-adjacent to this lane's own existing concept ("The sensory (dorsal horn) part of the developing spinal cord arises from the alar lamina of the neural tube") — item 18 ("alar lamina / Sensory nuclei of hindbrain") extends the same alar-plate-is-sensory principle to the hindbrain, held rather than minting a near-duplicate
+- paper2-2019-q20 — duplicate of this lane's own existing concept ("The ventral posteromedial nucleus (VPM) of the thalamus receives the trigeminal lemniscus") — item 20 restates the identical fact
+- paper2-2019-q23 — duplicate of this lane's own existing concept ("Varenicline is a partial agonist at the alpha4beta2 nicotinic acetylcholine receptor, used for smoking cessation") — item 23 restates the identical fact
+- paper2-2019-q24 — no surviving clue/description line beneath the topic heading — item 24 ("clozapine (antipsychotics)") has no printed answer/description, unlike every other item in this compilation; held for Omar/source verification
+- paper2-2019-q27 — duplicate of this lane's own existing concept ("Alprazolam, a rapid-onset benzodiazepine, is used to abort an acute panic attack") — item 27 restates the identical fact
+- paper2-2019-q29 — duplicate of this lane's own existing concept ("Memantine is an NMDA receptor antagonist") — item 29 restates the same core fact (memantine's NMDA-antagonist mechanism), the donepezil add-on detail not changing the underlying testable pharmacology fact
+- paper2-2019-q31 — microbiology/infectious disease, out of this lane's neuro subject scope — item 31 ("ampicillin vancomycin cetriaxone / Bacterial meningitis in a female 67 yrs old"), empiric antibiotic selection rather than a neuroanatomy/physiology fact
+- paper2-2019-q33 — duplicate of this lane's own existing concept ("Upper motor neuron lesion hypertonia results from unopposed pontine facilitatory descending drive") — item 33 ("unopposed pontine RF / Decerebrate rigidity cause") restates the identical fact, decerebrate rigidity being the classic example of this mechanism
+- paper2-2019-q37 — duplicate of this lane's own existing concept ("Semantic memory is the long-term memory system for general facts and knowledge, distinct from episodic memory") — item 37 restates the identical fact
+- cns-ass1-pharm1 — within-batch duplicate of this same cluster's own paper1-2019-q02 ("buprenorphine, a partial agonist at the mu-opioid receptor") — Pharmacology item 1 ("Bubrenurphine ----> partial mu agonist") restates the identical fact, authored once in paper1-2019
+- cns-ass1-pharm2 — duplicate-adjacent to this lane's own existing concept ("Benztropine, an anticholinergic, is used to treat drug-induced (extrapyramidal) tremor") — Pharmacology item 2 ("benzotropine ----> anti parkinsonian drug cause Atropine like actions") restates the same benztropine-anticholinergic-effects fact from a different angle, held rather than minting a near-duplicate
+- cns-ass1-anat1 — duplicate of this lane's own existing concept (prefrontal cortex lesion causing personality/behaviour change) — Anatomy item 1 restates the identical fact
+- cns-ass1-anat2 — too close to this lane's own existing live overlay concept on the retromandibular vein's termination (divides into anterior/posterior divisions leaving the parotid) — Anatomy item 2 ("anterior facial and post auricular ----> ant and post retromandibular veins unite with") is the complementary next step of the same drainage chain, held rather than minting a near-duplicate
+- cns-ass1-anat3 — duplicate of this lane's own existing concept (trigeminal ganglion as the first-order neuron for pain/temperature of the face) — Anatomy item 3 restates the identical fact
+- cns-ass1-anat4 — duplicate of this lane's own existing concept ("The anterior spinocerebellar tract, unlike the posterior spinocerebellar tract, enters the cerebellum through the superior cerebellar peduncle") — Anatomy item 4 restates the identical fact
+- cns-ass1-anat5 — duplicate of this lane's own existing concept ("The conus medullaris ends at L1/L2 in the adult, L3 in the neonate") — Anatomy item 5 restates the identical fact
+- cns-ass1-anat7 — duplicate of this lane's own existing concept (primary motor cortex, area 4, converts motor plans into executed movement) — Anatomy item 7 restates the identical fact
+- cns-ass1-anat8 — internally mismatched printed key — Anatomy item 8 ("globus palidus ----> Paleocerebellum") pairs the globus pallidus (paleostriatum) with paleocerebellum (the cerebellar anterior lobe/spinocerebellum), two unrelated structures from different systems; held for Omar/source verification rather than authored as a mismatched pairing
+- cns-ass1-physio1 — no surviving clue/description line beneath the topic heading, and duplicates this lane's own existing concept ("A cerebellar lesion produces hypotonia") by topic alone — Physio item 1 ("hypotonia ---->") has no printed answer text; held for Omar/source verification
+- cns-ass1-physio2 — duplicate of this lane's own existing concept ("The putamen (motor) circuit of the basal ganglia stores learned motor programmes for skilled movement") — Physio item 2 ("Storge of Plan of skilled movement ----> function of pontine circuit") restates the identical fact, "pontine" read as a garbled rendering of "putamen"
+- cns-ass1-physio3 — ambiguous printed key — Physio item 3 ("touch receptor ----> rapidly adapting receptor") does not name a specific receptor (Meissner's, Pacinian and hair-follicle receptors are all rapidly adapting); too generic to construct a single, non-guessed correct answer, held for Omar/source verification
+- cns-ass1-physio4 — no surviving clue/description line beneath the topic heading — Physio item 4 ("Fast pain ---->") has no printed answer text, held for Omar/source verification
+- cns-ass1-physio5 — within-batch duplicate of this same cluster's own paper1-2019-q49 (thermal nociceptors stimulated above ~50 degC) — Physio item 5 restates the identical fact, authored once in paper1-2019
+- cns-ass1-physio6 — duplicate of this lane's own existing concept (kinesthetic sensation ascends via the gracile and cuneate fasciculi) — Physio item 6 restates the identical fact
+- cns-ass1-physio7 — duplicate-adjacent to this lane's own existing gracile/cuneate kinesthesia concept — Physio item 7 ("vibration right tibia ----> sensation loss d.t Right gracile injury") is the same gracile-fasciculus-carries-lower-limb-sensation fact applied to a clinical vignette, held rather than minting a near-duplicate
+- cns-ass1-physio8 — duplicate of this lane's own existing concept ("The afferent limb of the flexor withdrawal reflex is carried by free nerve endings") — Physio item 8 restates the identical fact
+- cns-ass1-physio9 — duplicate of this lane's own existing concept ("Superficial reflexes such as the abdominal reflex are lost in an upper motor neuron lesion because they depend on an intact corticospinal tract") — Physio item 9 restates the identical fact
+- cns-ass1-physio10 — duplicate of this lane's own existing concept (Brown-Sequard syndrome, contralateral pain/temperature loss below the lesion) — Physio item 10 restates the identical fact
+- cns-ass1-physio11 — duplicate of this lane's own existing concept ("The muscle spindle, not the Golgi tendon organ, is chiefly responsible for regulating muscle tone") — Physio item 11 restates the identical fact
+- cns-ass1-bio1 — out of this lane's neuro subject scope — Bio item 1 ("5-HIAA ----> marker of Carcinoid tumor"), a general GI/endocrine pathology fact unrelated to the CNS
+- cns-ass1-bio2 — biochemistry, out of this lane's neuro subject scope — Bio item 2 ("Leucine, isolucine, valine ----> amino acids responsible for burned sugar urine")
+- cns-ass1-bio3 — biochemistry, out of this lane's neuro subject scope — Bio item 3 ("6-phosphofracto-2 kinase ----> cause of slow glycolysis in neurons")
+- cns-ass1-bio5 — biochemistry, out of this lane's neuro subject scope — Bio item 5 ("PLP ----> cofactor of transamination Reaction")
+- cns-ass1-bio6 — biochemistry, out of this lane's neuro subject scope — Bio item 6 ("oxidative decarboxylation ----> effect of TPP defency")
+- cns-ass1-bio7 — no surviving clue/description line beneath the topic heading, and biochemistry regardless — Bio item 7 ("folic acid ---->") has no printed answer text
+- cns-ass1-histo2 — within-batch duplicate, merged into this same cluster's own paper1-2019-q06 (mossy fibres synapse on granule cell dendrites in the cerebellar granular layer) — Histo item 2 ("Dentreties of granule cell Synapse with mossy fibers") restates the identical fact, authored once in paper1-2019
 
 ## Remaining
 (none)

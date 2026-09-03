@@ -1,0 +1,338 @@
+{
+  "lane": "ASU-CNS-3",
+  "cluster": "cns-assessment1",
+  "header": "ASU-CNS-3 · CNS Assessment 1.pdf (cluster 8/author8) — 32-item subject-organised embedded-answer compilation (Pharm/Patho/Anatomy/Physio/Bio/Histo, \"answer ----> stem\" format). 5 new mints survive after checking every item against all existing ASU-CNS-3 concept labels, including this cluster's own paper1-2019/paper1-2020/paper2-2019 batches (authored first); 27 held (cross-paper duplicates, within-batch duplicates of this same cluster's other papers, pure biochemistry, blank/no-clue items, and a couple of internally mismatched printed pairings). Keys read as printed/stated; distractors authored by this lane.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y3"
+    ],
+    "module": "ASU-CNS-3",
+    "exam_weight_by_year": {
+      "ASU_Y3": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_f59e62e45a06eee80102"
+    ],
+    "source_citation": "Ain Shams Year 3 CNS Assessment 1 (\"CNS Assessment 1.pdf\"), {page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "cns-ass1-patho1",
+      "id": "QST-ASUCNS3ASS1-PATHO01",
+      "page": "Pathology item 1",
+      "title": "Huntington disease is caused by which genetic abnormality, with what microscopic feature?",
+      "question": "Huntington disease is caused by a CAG trinucleotide repeat expansion in which gene, and what is its characteristic microscopic brain feature?",
+      "options": {
+        "A": "The huntingtin gene, with atrophy and gliosis of the caudate nucleus",
+        "B": "The huntingtin gene, with Lewy bodies in the substantia nigra",
+        "C": "The APP gene, with amyloid plaques in the cortex",
+        "D": "The SOD1 gene, with anterior horn cell loss"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Huntington disease results from a CAG trinucleotide repeat expansion in the huntingtin (HTT) gene; its characteristic pathological feature is atrophy of the striatum, especially the caudate nucleus, with accompanying gliosis, reflecting selective early neuronal loss there. Longer CAG repeat expansions correlate with earlier disease onset, a phenomenon known as anticipation across generations.",
+        "B": "Incorrect. Lewy bodies in the substantia nigra are the characteristic feature of Parkinson disease, not Huntington disease.",
+        "C": "Incorrect. The APP gene and cortical amyloid plaques are characteristic of Alzheimer disease, not Huntington disease.",
+        "D": "Incorrect. The SOD1 gene and anterior horn cell loss are associated with familial amyotrophic lateral sclerosis, not Huntington disease."
+      },
+      "main_concept": "CON-NEU-1C781DB1CB6B9D",
+      "concept_ids": [
+        "CON-NEU-1C781DB1CB6B9D"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3ASS1-HUNTINGTON-DISEASE-IS-CAUSED-BY-A-CAG-TRINUCLEOTIDE-REPEAT"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Neurodegenerative disease pathology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that Huntington disease is caused by a CAG repeat expansion in the huntingtin gene, with caudate nucleus atrophy as its microscopic feature.",
+      "module_subject": "ASU-CNS-3 > Pathology > Neurodegenerative disease pathology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, Pathology item 1",
+        "asu": "CNS Assessment 1.pdf, Pathology item 1 (\"CAG expansion on gene coding for huntegnton protein ----> microscopic feature of disease that cause atrophy of brain\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cns-ass1-anat6",
+      "id": "QST-ASUCNS3ASS1-ANAT06",
+      "page": "Anatomy item 6",
+      "title": "Which tongue muscle is supplied by contralateral corticobulbar fibres only?",
+      "question": "A patient with a unilateral upper motor neuron lesion has tongue deviation on protrusion. Which tongue muscle's unique contralateral-only corticobulbar supply explains this?",
+      "options": {
+        "A": "Genioglossus",
+        "B": "Styloglossus",
+        "C": "Hyoglossus",
+        "D": "Palatoglossus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Genioglossus is the exception among tongue muscles in receiving corticobulbar (upper motor neuron) input from the contralateral cerebral hemisphere only; a unilateral upper motor neuron lesion therefore weakens it selectively, causing the protruded tongue to deviate toward the side of the lesion. This is the anatomical basis of the classic clinical rule that the tongue deviates toward the side of the lesion in an upper motor neuron lesion, but away from it in a lower motor neuron (hypoglossal nerve) lesion.",
+        "B": "Incorrect. Styloglossus, like most tongue muscles, receives bilateral corticobulbar supply, so a unilateral upper motor neuron lesion does not selectively weaken it the way it weakens genioglossus.",
+        "C": "Incorrect. Hyoglossus also receives bilateral corticobulbar supply, unlike genioglossus's unique contralateral-only pattern.",
+        "D": "Incorrect. Palatoglossus is functionally and developmentally distinct (innervated by the vagus/pharyngeal plexus, not the hypoglossal nerve), and is not the muscle responsible for this classic tongue-deviation sign."
+      },
+      "main_concept": "CON-NEU-D896D3ABBD166E",
+      "concept_ids": [
+        "CON-NEU-D896D3ABBD166E"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3ASS1-GENIOGLOSSUS-IS-SUPPLIED-BY-CONTRALATERAL-CORTICOBULBAR"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Cranial nerve motor supply",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that genioglossus is supplied by contralateral corticobulbar fibres only, unlike most other tongue muscles.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Cranial nerve motor supply",
+      "field_notes": {
+        "keySource": "printed embedded-answer, Anatomy item 6",
+        "asu": "CNS Assessment 1.pdf, Anatomy item 6 (\"Genoglossus ----> Muscle supplied by contraletral corticobulbar neurons only\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cns-ass1-bio4",
+      "id": "QST-ASUCNS3ASS1-BIO04",
+      "page": "Biochemistry item 4",
+      "title": "Which is the principal excitatory neurotransmitter of the CNS?",
+      "question": "Which amino acid is the principal excitatory neurotransmitter of the central nervous system?",
+      "options": {
+        "A": "Glutamate",
+        "B": "GABA",
+        "C": "Glycine",
+        "D": "Taurine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Glutamate is the principal excitatory neurotransmitter of the central nervous system, acting on ionotropic (NMDA, AMPA, kainate) and metabotropic receptors to mediate fast excitatory transmission at the great majority of excitatory CNS synapses. This excitatory role complements GABA, the CNS's principal inhibitory neurotransmitter, and the balance between the two underlies normal CNS signalling.",
+        "B": "Incorrect. GABA is the principal inhibitory, not excitatory, neurotransmitter of the CNS.",
+        "C": "Incorrect. Glycine is also chiefly an inhibitory neurotransmitter, especially in the spinal cord and brainstem, not the principal excitatory one.",
+        "D": "Incorrect. Taurine has some modulatory/inhibitory roles but is not recognised as the CNS's principal excitatory neurotransmitter."
+      },
+      "main_concept": "CON-NEU-3F5B371AFE55C5",
+      "concept_ids": [
+        "CON-NEU-3F5B371AFE55C5"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3ASS1-GLUTAMATE-IS-THE-PRINCIPAL-EXCITATORY-NEUROTRANSMITTER-OF"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Neurotransmitter systems",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that glutamate is the principal excitatory neurotransmitter of the central nervous system.",
+      "module_subject": "ASU-CNS-3 > Physiology > Neurotransmitter systems",
+      "field_notes": {
+        "keySource": "printed embedded-answer, Biochemistry item 4",
+        "asu": "CNS Assessment 1.pdf, Biochemistry item 4 (\"glutamate ----> principle Excitatory NT\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cns-ass1-histo1",
+      "id": "QST-ASUCNS3ASS1-HISTO01",
+      "page": "Histology item 1",
+      "title": "The substantia gelatinosa (of Rolando) corresponds to which Rexed lamina?",
+      "question": "In the spinal cord grey matter's dorsal horn, the substantia gelatinosa (of Rolando) corresponds to which Rexed lamina?",
+      "options": {
+        "A": "Lamina II",
+        "B": "Lamina I",
+        "C": "Lamina IV",
+        "D": "Lamina IX"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The substantia gelatinosa (of Rolando), a band of small, densely packed neurons important for modulating pain and temperature signals, corresponds to Rexed lamina II, immediately deep to lamina I, present in the dorsal horn at all spinal cord levels including the cervical segments. This lamina lies immediately deep to lamina I (the posteromarginal nucleus), together forming the anatomical substrate of the gate control theory of pain modulation.",
+        "B": "Incorrect. Lamina I is the posteromarginal nucleus, the most dorsal lamina, immediately superficial to the substantia gelatinosa, not the substantia gelatinosa itself.",
+        "C": "Incorrect. Lamina IV lies deeper in the dorsal horn and is not the substantia gelatinosa.",
+        "D": "Incorrect. Lamina IX is in the ventral horn, containing motor neurons, an entirely different location from the substantia gelatinosa."
+      },
+      "main_concept": "CON-NEU-410535A5EA26B2",
+      "concept_ids": [
+        "CON-NEU-410535A5EA26B2"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3ASS1-THE-SUBSTANTIA-GELATINOSA-OF-ROLANDO-CORRESPONDS-TO-REXED"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Spinal cord and vertebral levels",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the substantia gelatinosa corresponds to Rexed lamina II of the spinal cord grey matter.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Spinal cord and vertebral levels",
+      "field_notes": {
+        "keySource": "printed embedded-answer, Histology item 1",
+        "asu": "CNS Assessment 1.pdf, Histology item 1 (\"SGR in lamina 2 ----> regarding Cervical segment which of the following is true\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cns-ass1-histo3",
+      "id": "QST-ASUCNS3ASS1-HISTO03",
+      "page": "Histology item 3",
+      "title": "In the Pacinian corpuscle, how does the sensory nerve fibre run structurally?",
+      "question": "Which structural feature distinguishes the Pacinian corpuscle from the Meissner corpuscle?",
+      "options": {
+        "A": "Its single sensory nerve fibre runs axially through the centre of concentric onion-skin lamellae",
+        "B": "Its nerve terminal coils among interdigitating lamellar cells near the epidermis",
+        "C": "It has no capsule surrounding the nerve terminal",
+        "D": "It contains multiple nerve fibres arranged in a branching network"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Pacinian corpuscle's defining structural feature is a single sensory nerve fibre running axially, straight through the centre of the receptor's concentric \"onion-skin\" lamellae — a histological distinction from the Meissner corpuscle's different internal architecture. This axial arrangement, within the receptor's onion-skin lamellae, underlies the Pacinian corpuscle's particular sensitivity to vibration and rapidly changing deep pressure.",
+        "B": "Incorrect. This coiled, interdigitating architecture near the epidermis describes the Meissner corpuscle, not the Pacinian corpuscle's axial nerve fibre.",
+        "C": "Incorrect. The Pacinian corpuscle is a large, well-encapsulated receptor with prominent concentric lamellae, not an unencapsulated ending.",
+        "D": "Incorrect. The Pacinian corpuscle has a single axial sensory nerve fibre, not multiple branching fibres."
+      },
+      "main_concept": "CON-NEU-1DA068411DB5F6",
+      "concept_ids": [
+        "CON-NEU-1DA068411DB5F6"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3ASS1-IN-THE-PACINIAN-CORPUSCLE-THE-SENSORY-NERVE-FIBRE-RUNS"
+      ],
+      "topic": "Histology",
+      "subtopic": "Sensory receptor histology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the Pacinian corpuscle's sensory nerve fibre runs axially through the centre of the receptor, distinguishing it from the Meissner corpuscle.",
+      "module_subject": "ASU-CNS-3 > Histology > Sensory receptor histology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, Histology item 3",
+        "asu": "CNS Assessment 1.pdf, Histology item 3 (\"fibers pass axial in pacinian corpuscle ----> difference between pacinian and meissener corpuscle\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cns-ass1-pharm1",
+      "hold": "within-batch duplicate of this same cluster's own paper1-2019-q02 (\"buprenorphine, a partial agonist at the mu-opioid receptor\") — Pharmacology item 1 (\"Bubrenurphine ----> partial mu agonist\") restates the identical fact, authored once in paper1-2019"
+    },
+    {
+      "key": "cns-ass1-pharm2",
+      "hold": "duplicate-adjacent to this lane's own existing concept (\"Benztropine, an anticholinergic, is used to treat drug-induced (extrapyramidal) tremor\") — Pharmacology item 2 (\"benzotropine ----> anti parkinsonian drug cause Atropine like actions\") restates the same benztropine-anticholinergic-effects fact from a different angle, held rather than minting a near-duplicate"
+    },
+    {
+      "key": "cns-ass1-anat1",
+      "hold": "duplicate of this lane's own existing concept (prefrontal cortex lesion causing personality/behaviour change) — Anatomy item 1 restates the identical fact"
+    },
+    {
+      "key": "cns-ass1-anat2",
+      "hold": "too close to this lane's own existing live overlay concept on the retromandibular vein's termination (divides into anterior/posterior divisions leaving the parotid) — Anatomy item 2 (\"anterior facial and post auricular ----> ant and post retromandibular veins unite with\") is the complementary next step of the same drainage chain, held rather than minting a near-duplicate"
+    },
+    {
+      "key": "cns-ass1-anat3",
+      "hold": "duplicate of this lane's own existing concept (trigeminal ganglion as the first-order neuron for pain/temperature of the face) — Anatomy item 3 restates the identical fact"
+    },
+    {
+      "key": "cns-ass1-anat4",
+      "hold": "duplicate of this lane's own existing concept (\"The anterior spinocerebellar tract, unlike the posterior spinocerebellar tract, enters the cerebellum through the superior cerebellar peduncle\") — Anatomy item 4 restates the identical fact"
+    },
+    {
+      "key": "cns-ass1-anat5",
+      "hold": "duplicate of this lane's own existing concept (\"The conus medullaris ends at L1/L2 in the adult, L3 in the neonate\") — Anatomy item 5 restates the identical fact"
+    },
+    {
+      "key": "cns-ass1-anat7",
+      "hold": "duplicate of this lane's own existing concept (primary motor cortex, area 4, converts motor plans into executed movement) — Anatomy item 7 restates the identical fact"
+    },
+    {
+      "key": "cns-ass1-anat8",
+      "hold": "internally mismatched printed key — Anatomy item 8 (\"globus palidus ----> Paleocerebellum\") pairs the globus pallidus (paleostriatum) with paleocerebellum (the cerebellar anterior lobe/spinocerebellum), two unrelated structures from different systems; held for Omar/source verification rather than authored as a mismatched pairing"
+    },
+    {
+      "key": "cns-ass1-physio1",
+      "hold": "no surviving clue/description line beneath the topic heading, and duplicates this lane's own existing concept (\"A cerebellar lesion produces hypotonia\") by topic alone — Physio item 1 (\"hypotonia ---->\") has no printed answer text; held for Omar/source verification"
+    },
+    {
+      "key": "cns-ass1-physio2",
+      "hold": "duplicate of this lane's own existing concept (\"The putamen (motor) circuit of the basal ganglia stores learned motor programmes for skilled movement\") — Physio item 2 (\"Storge of Plan of skilled movement ----> function of pontine circuit\") restates the identical fact, \"pontine\" read as a garbled rendering of \"putamen\""
+    },
+    {
+      "key": "cns-ass1-physio3",
+      "hold": "ambiguous printed key — Physio item 3 (\"touch receptor ----> rapidly adapting receptor\") does not name a specific receptor (Meissner's, Pacinian and hair-follicle receptors are all rapidly adapting); too generic to construct a single, non-guessed correct answer, held for Omar/source verification"
+    },
+    {
+      "key": "cns-ass1-physio4",
+      "hold": "no surviving clue/description line beneath the topic heading — Physio item 4 (\"Fast pain ---->\") has no printed answer text, held for Omar/source verification"
+    },
+    {
+      "key": "cns-ass1-physio5",
+      "hold": "within-batch duplicate of this same cluster's own paper1-2019-q49 (thermal nociceptors stimulated above ~50 degC) — Physio item 5 restates the identical fact, authored once in paper1-2019"
+    },
+    {
+      "key": "cns-ass1-physio6",
+      "hold": "duplicate of this lane's own existing concept (kinesthetic sensation ascends via the gracile and cuneate fasciculi) — Physio item 6 restates the identical fact"
+    },
+    {
+      "key": "cns-ass1-physio7",
+      "hold": "duplicate-adjacent to this lane's own existing gracile/cuneate kinesthesia concept — Physio item 7 (\"vibration right tibia ----> sensation loss d.t Right gracile injury\") is the same gracile-fasciculus-carries-lower-limb-sensation fact applied to a clinical vignette, held rather than minting a near-duplicate"
+    },
+    {
+      "key": "cns-ass1-physio8",
+      "hold": "duplicate of this lane's own existing concept (\"The afferent limb of the flexor withdrawal reflex is carried by free nerve endings\") — Physio item 8 restates the identical fact"
+    },
+    {
+      "key": "cns-ass1-physio9",
+      "hold": "duplicate of this lane's own existing concept (\"Superficial reflexes such as the abdominal reflex are lost in an upper motor neuron lesion because they depend on an intact corticospinal tract\") — Physio item 9 restates the identical fact"
+    },
+    {
+      "key": "cns-ass1-physio10",
+      "hold": "duplicate of this lane's own existing concept (Brown-Sequard syndrome, contralateral pain/temperature loss below the lesion) — Physio item 10 restates the identical fact"
+    },
+    {
+      "key": "cns-ass1-physio11",
+      "hold": "duplicate of this lane's own existing concept (\"The muscle spindle, not the Golgi tendon organ, is chiefly responsible for regulating muscle tone\") — Physio item 11 restates the identical fact"
+    },
+    {
+      "key": "cns-ass1-bio1",
+      "hold": "out of this lane's neuro subject scope — Bio item 1 (\"5-HIAA ----> marker of Carcinoid tumor\"), a general GI/endocrine pathology fact unrelated to the CNS"
+    },
+    {
+      "key": "cns-ass1-bio2",
+      "hold": "biochemistry, out of this lane's neuro subject scope — Bio item 2 (\"Leucine, isolucine, valine ----> amino acids responsible for burned sugar urine\")"
+    },
+    {
+      "key": "cns-ass1-bio3",
+      "hold": "biochemistry, out of this lane's neuro subject scope — Bio item 3 (\"6-phosphofracto-2 kinase ----> cause of slow glycolysis in neurons\")"
+    },
+    {
+      "key": "cns-ass1-bio5",
+      "hold": "biochemistry, out of this lane's neuro subject scope — Bio item 5 (\"PLP ----> cofactor of transamination Reaction\")"
+    },
+    {
+      "key": "cns-ass1-bio6",
+      "hold": "biochemistry, out of this lane's neuro subject scope — Bio item 6 (\"oxidative decarboxylation ----> effect of TPP defency\")"
+    },
+    {
+      "key": "cns-ass1-bio7",
+      "hold": "no surviving clue/description line beneath the topic heading, and biochemistry regardless — Bio item 7 (\"folic acid ---->\") has no printed answer text"
+    },
+    {
+      "key": "cns-ass1-histo2",
+      "hold": "within-batch duplicate, merged into this same cluster's own paper1-2019-q06 (mossy fibres synapse on granule cell dendrites in the cerebellar granular layer) — Histo item 2 (\"Dentreties of granule cell Synapse with mossy fibers\") restates the identical fact, authored once in paper1-2019"
+    }
+  ]
+}

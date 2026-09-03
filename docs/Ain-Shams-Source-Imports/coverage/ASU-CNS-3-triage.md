@@ -411,3 +411,66 @@ inside this lane's own existing serotonin/mood-disorder concept's definition. `p
 3 authored / 49 held / 0 remaining / 52 total — see `coverage/ASU-CNS-3-LEDGER.md`.
 `coverage/ASU-CNS-3-triage-keys.txt` extended with `paper1-2018-q01`..`q52`. `gate.mjs simulate` clean
 (0 rejected, 0 errors) across the resource/concept/article/question quartet.
+
+## Addendum (cluster 8, author8): paper1-2019 + paper1-2020 + paper2-2019 + CNS Assessment 1
+
+Per the dispatch's "batch multiple papers, amortize the dedup" instruction: loaded all 222
+existing ASU-CNS-3 concept `## label` values (all 7 concept files plus the 4 pending-live
+overlays) into one working list, then triaged four of the next untouched named papers from
+`coverage/ASU-Y3-priority-sources.md` §ASU-CNS-3 in one pass, grepping every item's key terms
+against that list before authoring:
+
+- `EOM - paper 1 cns 2019.pdf` (src_00b7644763f78f604253, 7 pages, native text, 0 garbled),
+  52-item embedded-answer compilation. 10 new mints (apomorphine off-akinesia rescue, buprenorphine
+  partial mu agonism, amantadine livedo reticularis, mossy fibre granular-layer synapse,
+  pterygomaxillary fissure, buccal nerve as V3's sole anterior-division sensory branch, indirect-
+  pathway subthalamic disinhibition, thermal nociceptor >50C threshold, otitis media as an
+  extracranial headache cause, auriculotemporal nerve postganglionic parotid supply); 42 held
+  (34 cross-paper duplicates of this lane's own clusters 1-7, 5 pure biochemistry items, 1
+  duplicate-adjacent hyperammonaemia mechanism, 1 ambiguous trapezoid-body item, 1 vague
+  "rapidly adapting touch receptor" item with no named receptor).
+- `EOM - paper 1 cns 2020.pdf` (src_9bf95afe8820539ea286, 3 pages, native text, 0 garbled; the
+  source's own printed header reads "CNS PAPER 1 2022", a filename/printed-date mismatch —
+  the manifest sourceId is authoritative for file identity), 26-item compilation. 4 new mints
+  (propranolol for essential tremor, spinal cord-level anterior spinal artery syndrome, naloxone
+  for fentanyl reversal, cochlear nucleus as the trapezoid body's origin); 22 held (cross-paper
+  duplicates of clusters 1-7 and this cluster's own paper1-2019 batch, 1 biochemistry item, 1
+  duplicate-adjacent Wernicke-Korsakoff biochemistry-mechanism item, 1 ambiguous/garbled
+  catecholamine-PKU item).
+- `EOM - paper 2 cns 2019.pdf` (src_c0416316a05f729b9aaf, 4 pages, native text, 0 garbled),
+  38-item cross-subject compilation (unlike this lane's anatomy/physiology-heavy papers, this one
+  mixes Micro/Parasitology/Patho/Embryology/Anatomy/Pharm/Physio, one item explicitly cancelled by
+  the source, ملغي). Per this lane's established treatment of biochemistry as out-of-scope, 11
+  Micro/Parasitology/community items and 1 ID/empiric-antibiotics item were also excluded as out of
+  this lane's neuro subject scope. 15 new mints (MS relapsing clinical presentation, medulloblastoma,
+  fourth pharyngeal pouch/superior parathyroid, optic tract/LGB input, great cerebral vein's cisterna
+  ambiens location, forceps major as a commissural fibre, isoflurane/coronary steal in IHD,
+  haloperidol/tardive dyskinesia, natalizumab as MS second-line therapy, ethosuximide for childhood
+  absence epilepsy, growth hormone/REM sleep, anterior hypothalamus as the heat-loss centre, delta
+  waves/deep sleep, explicit/episodic memory, memory consolidation as a limbic function); 23 held.
+- `CNS Assessment 1.pdf` (src_f59e62e45a06eee80102, 2 pages, native text, 0 garbled; a genuine dated
+  in-course exam sitting — corrected from `stamp-source.mjs`'s low-confidence "dept-mcq" default to
+  `past-paper` by hand, since the filename carries no past-paper marker token despite being an actual
+  assessment), 32-item subject-organised compilation (Pharm/Patho/Anatomy/Physio/Bio/Histo). 5 new
+  mints (CAG repeat expansion/caudate atrophy in Huntington disease, genioglossus's unique
+  contralateral-only corticobulbar supply, glutamate as the principal excitatory neurotransmitter,
+  substantia gelatinosa as Rexed lamina II, the Pacinian corpuscle's axial nerve fibre); 27 held,
+  including 3 within-batch duplicates of facts already minted in this same cluster's own paper1-2019
+  batch (buprenorphine, thermal nociceptors, mossy fibres/granule cells — authored once, held here).
+
+Combined cluster 8 output: 34 authored (34 new mints, no overlay reuses needed), 114 held — see
+`coverage/ASU-CNS-3-LEDGER.md` for the full per-item held list and updated cluster table.
+`coverage/ASU-CNS-3-triage-keys.txt` extended with all 148 item keys across the four papers.
+`gate.mjs simulate` clean (0 rejected, 0 errors, 106 created) across all 16 files in apply order (4
+resource + 4 concept + 4 article + 4 question files); `npm run medical:batch`/`medical:simulate`
+both clean (0 errors on every file; `medical:simulate`'s combined run: +34 concepts, +34 articles,
++34 questions, +4 resources, 0 rejected, 0 skipped, 0 errors).
+
+Next frontier per `ASU-Y3-priority-sources.md` §ASU-CNS-3: `EOM - paper 2 cns 2020.pdf`,
+`EOM - paper 2 cns 2022 summer.pdf`, `FIRST ASSESSMENT CNS 2023 -الفترة الثانية.pdf`,
+`cns 1st ass 2018/2019/2020.pdf`, `cns 2nd ass 2019/2020.pdf` — all still untouched. Confirmed
+duplicate/low-yield sources not to re-open: `EOM - FINAL CNS( PAPER 1 ) 2024.pdf` (same sitting as
+cluster 3's `EOM - CNS FINAL PAPER 1 2024.pdf`) and `EOM - cns 2nd ass from paper 1 18-19-20.pdf`
+(a student recompilation of prior papers' Anatomy questions), both logged by cluster 6. Essay-only
+papers (`EOM - Cns paper 1 essay answers.pdf`, `EOM - essay paper 1 CNS 2022.pdf`,
+`EOM - essay paper 2 CNS 2020.pdf`) remain out of scope for this MCQ-only lane per the dispatch.

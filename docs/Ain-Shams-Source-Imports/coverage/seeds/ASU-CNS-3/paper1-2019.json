@@ -1,0 +1,598 @@
+{
+  "lane": "ASU-CNS-3",
+  "cluster": "paper1-2019",
+  "header": "ASU-CNS-3 · EOM - paper 1 cns 2019.pdf (cluster 8/author8) — 52-item embedded-answer compilation (\"N-answer\\ndescription.\" format, no printed distractors, some items carrying student emoji/Arabic annotation flags on tricky distractors). 10 new mints survive after checking every item against all 222 existing ASU-CNS-3 concept labels; 42 held (cross-paper duplicates of this lane's own clusters 1-7, biochemistry out of scope, and a few ambiguous/duplicate-adjacent items). Keys read as printed/stated; distractors authored by this lane.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y3"
+    ],
+    "module": "ASU-CNS-3",
+    "exam_weight_by_year": {
+      "ASU_Y3": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_00b7644763f78f604253"
+    ],
+    "source_citation": "Ain Shams Year 3 CNS EOM Paper 1 2019 (\"EOM - paper 1 cns 2019.pdf\"), item {page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "paper1-2019-q01",
+      "id": "QST-ASUCNS3P1-19-Q01",
+      "page": "1",
+      "title": "Which drug is used as rescue therapy for sudden off-akinesia in Parkinson disease?",
+      "question": "A patient with advanced Parkinson disease develops a sudden, disabling \"off\" episode of akinesia despite regular oral levodopa. Which drug, given by subcutaneous injection, is used as rapid rescue therapy?",
+      "options": {
+        "A": "Apomorphine",
+        "B": "Amantadine",
+        "C": "Benztropine",
+        "D": "Selegiline"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Apomorphine is a potent dopamine agonist given by subcutaneous injection; its rapid onset of action within minutes restores mobility during a sudden off-akinesia episode until the next dose of oral medication takes effect, making it the standard rescue therapy for this scenario. This rapid parenteral rescue role is a well-established exam point distinguishing apomorphine from the slower-onset oral antiparkinsonian agents used for maintenance therapy.",
+        "B": "Incorrect. Amantadine is an oral antiparkinsonian agent used for maintenance therapy or to reduce levodopa-induced dyskinesia, not as a rapid parenteral rescue drug for acute off-episodes.",
+        "C": "Incorrect. Benztropine is an oral anticholinergic used mainly for drug-induced extrapyramidal tremor, not for rescuing an off-akinesia episode.",
+        "D": "Incorrect. Selegiline is an oral monoamine oxidase-B inhibitor used for maintenance therapy in early Parkinson disease, with a slow onset unsuitable for acute rescue."
+      },
+      "main_concept": "CON-NEU-749026E7CD8D47",
+      "concept_ids": [
+        "CON-NEU-749026E7CD8D47"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19-APOMORPHINE-A-DOPAMINE-AGONIST-GIVEN-BY-SUBCUTANEOUS"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Movement disorders",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that apomorphine is used as rescue therapy for sudden off-akinesia episodes in Parkinson disease.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Movement disorder pharmacology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 1",
+        "asu": "EOM - paper 1 cns 2019.pdf, item 1 (\"apomorphine / Rescue medication in Off Akinesia\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019-q02",
+      "id": "QST-ASUCNS3P1-19-Q02",
+      "page": "1",
+      "title": "Buprenorphine acts at the mu-opioid receptor as which type of ligand?",
+      "question": "Buprenorphine is used both as an analgesic and in opioid substitution therapy. Which best describes its action at the mu-opioid receptor?",
+      "options": {
+        "A": "Partial agonist",
+        "B": "Full agonist",
+        "C": "Competitive antagonist",
+        "D": "Inverse agonist"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Buprenorphine is a partial agonist at the mu-opioid receptor, meaning it only partially activates the receptor even at high doses, producing a ceiling effect on analgesia and respiratory depression and giving it a wider safety margin than full agonists. This partial-agonist ceiling effect is the pharmacological basis for buprenorphine's use in office-based opioid substitution therapy, where its safety margin in overdose is clinically valuable.",
+        "B": "Incorrect. Morphine and methadone are full mu-agonists; buprenorphine's partial agonism, with its ceiling effect, is what distinguishes it from these drugs.",
+        "C": "Incorrect. Naloxone and naltrexone are competitive mu-receptor antagonists; buprenorphine still activates the receptor, distinguishing it from a pure antagonist.",
+        "D": "Incorrect. An inverse agonist would reduce receptor activity below its baseline (constitutive) level; buprenorphine instead activates the receptor, just incompletely."
+      },
+      "main_concept": "CON-NEU-B07F58129358C2",
+      "concept_ids": [
+        "CON-NEU-B07F58129358C2"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19-BUPRENORPHINE-IS-A-PARTIAL-AGONIST-AT-THE-MU-OPIOID-RECEPTOR"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Addiction pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that buprenorphine is a partial agonist at the mu-opioid receptor.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Addiction pharmacology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 2",
+        "asu": "EOM - paper 1 cns 2019.pdf, item 2 (\"buprenorphine / Partial Mu Agonist\"); identical fact also in CNS Assessment 1 Pharm item 1, held there as within-batch duplicate."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019-q03",
+      "id": "QST-ASUCNS3P1-19-Q03",
+      "page": "1",
+      "title": "Which characteristic adverse effect is associated with amantadine?",
+      "question": "A patient started on amantadine for Parkinson disease develops a mottled, lace-like reddish-blue skin discoloration of the legs. Which adverse effect is this?",
+      "options": {
+        "A": "Livedo reticularis",
+        "B": "Orofacial dyskinesia",
+        "C": "Postural hypotension",
+        "D": "Peripheral neuropathy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Livedo reticularis, a mottled lace-like reddish-blue skin discoloration usually of the lower limbs, is a characteristic and distinctive adverse effect of amantadine, thought to relate to local catecholamine release affecting cutaneous vessels, and is generally reversible on stopping the drug. Recognising this drug-specific cutaneous sign helps distinguish amantadine from other antiparkinsonian agents whose adverse-effect profiles are otherwise quite different.",
+        "B": "Incorrect. Orofacial dyskinesia is characteristic of tardive dyskinesia from chronic antipsychotic use, not amantadine.",
+        "C": "Incorrect. Postural hypotension is more classically associated with levodopa or dopamine agonists, not the distinctive dermatological effect of amantadine.",
+        "D": "Incorrect. Peripheral neuropathy is not amantadine's characteristic adverse effect; its distinctive finding is the dermatological livedo reticularis."
+      },
+      "main_concept": "CON-NEU-B3F215D31A53DF",
+      "concept_ids": [
+        "CON-NEU-B3F215D31A53DF"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19-AMANTADINE-USED-TO-TREAT-PARKINSON-DISEASE-CAUSES-LIVEDO"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Movement disorders",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that amantadine causes livedo reticularis as a characteristic adverse effect.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Movement disorder pharmacology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 3",
+        "asu": "EOM - paper 1 cns 2019.pdf, item 3 (\"amantadine / Livido reticularis\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019-q06",
+      "id": "QST-ASUCNS3P1-19-Q06",
+      "page": "1",
+      "title": "In which layer of the cerebellar cortex do mossy fibres synapse on granule cells?",
+      "question": "Mossy fibres are the major afferent input to the cerebellar cortex. In which of the cerebellar cortex's three layers do they synapse on granule cell dendrites?",
+      "options": {
+        "A": "The granular layer",
+        "B": "The molecular layer",
+        "C": "The Purkinje cell layer",
+        "D": "The white matter"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Mossy fibres terminate in the innermost layer of the cerebellar cortex, the granular layer, where they synapse on the dendrites of granule cells to form characteristic glomeruli; they are not found in the molecular layer. This granular-layer synapse is the first stage of cerebellar cortical processing, upstream of the parallel-fibre input mossy fibres indirectly provide to Purkinje cells.",
+        "B": "Incorrect. The molecular layer is where granule cell axons (as parallel fibres) synapse on Purkinje cell dendrites, along with climbing fibre synapses on Purkinje cells — mossy fibres themselves do not reach this layer.",
+        "C": "Incorrect. The Purkinje cell layer is a single-cell-thick layer of Purkinje cell bodies between the molecular and granular layers; mossy fibres synapse on granule cells in the granular layer, not directly on Purkinje cell bodies.",
+        "D": "Incorrect. The cerebellar white matter lies deep to the three-layered cortex and contains axons, not the mossy fibre-granule cell synapse itself."
+      },
+      "main_concept": "CON-NEU-DB3C4B0B818935",
+      "concept_ids": [
+        "CON-NEU-DB3C4B0B818935"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19-MOSSY-FIBRES-THE-MAJOR-CEREBELLAR-AFFERENTS-SYNAPSE-ON"
+      ],
+      "topic": "Histology",
+      "subtopic": "Cerebellar histology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that mossy fibres synapse on granule cell dendrites in the granular layer of the cerebellar cortex.",
+      "module_subject": "ASU-CNS-3 > Histology > Cerebellar histology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 6",
+        "asu": "EOM - paper 1 cns 2019.pdf, item 6 (\"mossy fibers / Not found in the molecular layer of the the cerebellum cortex\"); complementary to CNS Assessment 1 Histo item 2 (\"Dentreties of granule cell Synapse with mossy fibers\"), merged and held there."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019-q20",
+      "id": "QST-ASUCNS3P1-19-Q20",
+      "page": "3",
+      "title": "Which nerve carries postganglionic parasympathetic fibres from the otic ganglion to the parotid gland?",
+      "question": "Preganglionic parasympathetic fibres from the inferior salivatory nucleus synapse in the otic ganglion. Which nerve carries the resulting postganglionic fibres onward to the parotid gland?",
+      "options": {
+        "A": "The auriculotemporal nerve",
+        "B": "The lesser petrosal nerve",
+        "C": "The chorda tympani",
+        "D": "The greater petrosal nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The auriculotemporal nerve, a branch of the mandibular division of the trigeminal nerve, carries the postganglionic parasympathetic secretomotor fibres from the otic ganglion onward to the parotid gland, alongside its own sensory fibres. This two-step relay (preganglionic via the lesser petrosal nerve to the otic ganglion, then postganglionic via the auriculotemporal nerve) is a classic head-and-neck anatomy exam sequence.",
+        "B": "Incorrect. The lesser petrosal nerve carries the preganglionic fibres to the otic ganglion, the step before, not the postganglionic fibres onward to the gland.",
+        "C": "Incorrect. The chorda tympani carries preganglionic parasympathetic fibres to the submandibular ganglion for the submandibular and sublingual glands, an entirely separate pathway from the parotid's.",
+        "D": "Incorrect. The greater petrosal nerve carries preganglionic fibres to the pterygopalatine ganglion for the lacrimal gland, not the otic ganglion/parotid pathway."
+      },
+      "main_concept": "CON-NEU-BDA7D4142523F8",
+      "concept_ids": [
+        "CON-NEU-BDA7D4142523F8"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19-THE-AURICULOTEMPORAL-NERVE-CARRIES-POSTGANGLIONIC"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Parasympathetic pathways of the head",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the auriculotemporal nerve carries postganglionic parasympathetic fibres from the otic ganglion to the parotid gland.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Parasympathetic pathways of the head",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 20",
+        "asu": "EOM - paper 1 cns 2019.pdf, item 20 (\"auriculotemporal / Post ganglionic parasympathetic to Otic Ganglion\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019-q31",
+      "id": "QST-ASUCNS3P1-19-Q31",
+      "page": "4",
+      "title": "Which fissure connects the infratemporal fossa to the pterygopalatine fossa?",
+      "question": "The maxillary artery and maxillary nerve branches pass from the infratemporal fossa into the pterygopalatine fossa through which fissure?",
+      "options": {
+        "A": "The pterygomaxillary fissure",
+        "B": "The inferior orbital fissure",
+        "C": "The superior orbital fissure",
+        "D": "The pterygoid fissure"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The pterygomaxillary fissure, between the posterior maxilla and the pterygoid process, is the opening through which the infratemporal fossa communicates with the pterygopalatine fossa, transmitting the terminal (third) part of the maxillary artery and maxillary nerve branches. This fissure's neurovascular contents make it a key landmark when tracing the maxillary artery and nerve from the infratemporal into the pterygopalatine fossa.",
+        "B": "Incorrect. The inferior orbital fissure connects the pterygopalatine fossa to the orbit, not the infratemporal fossa to the pterygopalatine fossa.",
+        "C": "Incorrect. The superior orbital fissure connects the middle cranial fossa to the orbit, an entirely different communication.",
+        "D": "Incorrect. There is no standard named \"pterygoid fissure\" serving this communication; the pterygomaxillary fissure is the correct named structure."
+      },
+      "main_concept": "CON-NEU-57D9A604E9D41B",
+      "concept_ids": [
+        "CON-NEU-57D9A604E9D41B"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19-THE-PTERYGOMAXILLARY-FISSURE-IS-THE-OPENING-THROUGH-WHICH"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Trigeminal nerve and infratemporal region",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the pterygomaxillary fissure connects the infratemporal fossa to the pterygopalatine fossa.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Trigeminal nerve and infratemporal region",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 31",
+        "asu": "EOM - paper 1 cns 2019.pdf, item 31 (\"ptrygemaxillary fissure (ass2) / infratemporal fossa 3ala al pterygopalatine fossa\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019-q33",
+      "id": "QST-ASUCNS3P1-19-Q33",
+      "page": "4",
+      "title": "Which is the only sensory branch of the anterior division of the mandibular nerve?",
+      "question": "The mandibular nerve's anterior division is mainly motor. Which nerve is the sole sensory exception, supplying the cheek?",
+      "options": {
+        "A": "The buccal nerve",
+        "B": "The lingual nerve",
+        "C": "The auriculotemporal nerve",
+        "D": "The inferior alveolar nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The (long) buccal nerve is the only sensory branch of the anterior division of the mandibular nerve, supplying general sensation to the skin and mucosa of the cheek and the buccal gingiva of the lower molars. This exception to the anterior division's otherwise motor role is a frequently tested trigeminal nerve anatomy detail.",
+        "B": "Incorrect. The lingual nerve is a sensory branch of the posterior (mainly sensory) division of the mandibular nerve, not the anterior division.",
+        "C": "Incorrect. The auriculotemporal nerve is also a branch of the posterior division of the mandibular nerve, not the anterior division.",
+        "D": "Incorrect. The inferior alveolar nerve is a branch of the posterior division of the mandibular nerve, carrying both sensory and motor (mylohyoid) fibres, not the anterior division."
+      },
+      "main_concept": "CON-NEU-11FD39E53D7AFF",
+      "concept_ids": [
+        "CON-NEU-11FD39E53D7AFF"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19-THE-BUCCAL-NERVE-IS-THE-ONLY-SENSORY-BRANCH-OF-THE-ANTERIOR"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Trigeminal nerve and infratemporal region",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the buccal nerve is the only sensory branch of the anterior division of the mandibular nerve.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Trigeminal nerve and infratemporal region",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 33",
+        "asu": "EOM - paper 1 cns 2019.pdf, item 33 (\"buccal nerve / The only sensory nerve from the anterior division of the mandibular nerve\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019-q48",
+      "id": "QST-ASUCNS3P1-19-Q48",
+      "page": "6",
+      "title": "Stimulation of the basal ganglia's indirect pathway has what effect on the subthalamic nucleus?",
+      "question": "Stimulation of the striatal neurons of the basal ganglia's indirect pathway has what net effect on the subthalamic nucleus?",
+      "options": {
+        "A": "Disinhibition (increased activity)",
+        "B": "Direct excitation via glutamate",
+        "C": "No change in activity",
+        "D": "Direct inhibition via GABA"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Indirect-pathway striatal neurons inhibit the external globus pallidus (GPe), which normally tonically inhibits the subthalamic nucleus; inhibiting that inhibitory GPe drive disinhibits the subthalamic nucleus, increasing its activity. This disinhibition, in turn, increases excitatory drive from the subthalamic nucleus onto the internal globus pallidus, net-suppressing movement via the indirect pathway.",
+        "B": "Incorrect. The striatum does not project directly (via glutamate) to the subthalamic nucleus in the indirect pathway; its effect is indirect, via first inhibiting the GPe.",
+        "C": "Incorrect. The subthalamic nucleus's activity does change — it increases, because the indirect pathway removes the GPe's inhibitory restraint on it.",
+        "D": "Incorrect. The striatum's GABAergic projection in this pathway targets the GPe, not the subthalamic nucleus directly, and the net effect on the subthalamic nucleus is disinhibition (increased, not decreased, activity)."
+      },
+      "main_concept": "CON-NEU-B6287FC9787A1F",
+      "concept_ids": [
+        "CON-NEU-B6287FC9787A1F"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19-STIMULATION-OF-THE-BASAL-GANGLIA-S-INDIRECT-PATHWAY"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Basal ganglia circuits",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that stimulation of the indirect pathway disinhibits the subthalamic nucleus.",
+      "module_subject": "ASU-CNS-3 > Physiology > Basal ganglia circuits",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 48",
+        "asu": "EOM - paper 1 cns 2019.pdf, item 48 (\"disinhibtion of subthalamic nucleus / Result of stimulation of the indirect pathway in basal ganglia\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019-q49",
+      "id": "QST-ASUCNS3P1-19-Q49",
+      "page": "6",
+      "title": "Above what approximate skin temperature do thermal nociceptors begin firing?",
+      "question": "Thermal (heat) nociceptor free nerve endings begin firing once skin temperature exceeds approximately which threshold?",
+      "options": {
+        "A": "50 degC",
+        "B": "38 degC",
+        "C": "42 degC (warm receptor range)",
+        "D": "30 degC"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Thermal nociceptors begin firing once skin temperature exceeds approximately 50 degC, the threshold marking the onset of a real risk of tissue damage, distinguishing them from ordinary non-painful warm thermoreceptors. This distinct, high threshold sets thermal nociceptors apart from the lower-threshold warm thermoreceptors that signal ordinary, non-painful temperature change.",
+        "B": "Incorrect. 38 degC is within the normal, non-painful warm range signalled by warm thermoreceptors, well below the nociceptor threshold.",
+        "C": "Incorrect. The warm (non-painful) thermoreceptor range extends up to around this level, but this is not the threshold at which pain-signalling thermal nociceptors themselves begin firing.",
+        "D": "Incorrect. 30 degC is within the normal ambient/skin temperature range, far below any nociceptive threshold."
+      },
+      "main_concept": "CON-NEU-A7B29403AEDF27",
+      "concept_ids": [
+        "CON-NEU-A7B29403AEDF27"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19-THERMAL-NOCICEPTORS-ARE-STIMULATED-BY-SKIN-TEMPERATURES"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Pain pathways",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that thermal nociceptors are stimulated by skin temperatures above about 50 degC.",
+      "module_subject": "ASU-CNS-3 > Physiology > Pain pathways",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 49",
+        "asu": "EOM - paper 1 cns 2019.pdf, item 49 (\"thermal nociceptors / stimulation to thermal noci receptors above 50\"); identical fact also in CNS Assessment 1 Physio item 5, held there as within-batch duplicate."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019-q52",
+      "id": "QST-ASUCNS3P1-19-Q52",
+      "page": "7",
+      "title": "Which condition is a recognised cause of extracranial headache?",
+      "question": "Which of the following is classified as an extracranial (rather than intracranial) cause of headache?",
+      "options": {
+        "A": "Otitis media",
+        "B": "Meningeal irritation",
+        "C": "Decreased CSF pressure",
+        "D": "Cerebral vasodilation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Otitis media, inflammation of the middle ear, is a classic extracranial cause of headache: pain from the inflamed, pressurised middle ear is perceived as headache through the ear's sensory innervation, without any intracranial mechanism. Recognising extracranial causes such as this is important clinically, since they are treated by addressing the local structure rather than by intracranial headache management.",
+        "B": "Incorrect. Meningeal irritation is an intracranial cause of headache, arising from pain-sensitive structures inside the skull, not an extracranial one.",
+        "C": "Incorrect. Decreased CSF pressure (as in a post-lumbar-puncture headache) is an intracranial cause of headache, related to traction on intracranial pain-sensitive structures, not an extracranial cause.",
+        "D": "Incorrect. Cerebral vasodilation (as in a migraine attack) is an intracranial vascular cause of headache, not an extracranial one."
+      },
+      "main_concept": "CON-NEU-0895C65227DB47",
+      "concept_ids": [
+        "CON-NEU-0895C65227DB47"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-19-OTITIS-MEDIA-IS-A-CAUSE-OF-EXTRACRANIAL-HEADACHE"
+      ],
+      "topic": "Neurophysiology",
+      "subtopic": "Headache mechanisms",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that otitis media is a recognised cause of extracranial headache.",
+      "module_subject": "ASU-CNS-3 > Physiology > Headache mechanisms",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 52",
+        "asu": "EOM - paper 1 cns 2019.pdf, item 52 (\"otitis media / Is a cause of extracranial headache\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2019-q04",
+      "hold": "ambiguous printed key — item 4 (\"trapezoid body in pons / Not found in the level of inferior colliculus in the midbrain\", listing substantia nigra/red nucleus as candidate wrong answers) tests trapezoid body location relative to two unrelated midbrain structures in a confusing negative format that overlaps this same cluster's own cochlear-nucleus/trapezoid-body-origin mint without a clean, separately testable fact; held for Omar/source verification rather than guessed at"
+    },
+    {
+      "key": "paper1-2019-q05",
+      "hold": "duplicate of this lane's own existing concept (\"Lamina I of the spinal cord grey matter, the posteromarginal nucleus, is the most dorsal Rexed lamina, chiefly relaying pain and temperature\") — item 5 (\"posteromarginal nucleus / Lamina 1\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q07",
+      "hold": "duplicate of this lane's own existing concept (\"The dorsal external arcuate fibres are afferents that enter the cerebellum through the inferior cerebellar peduncle\") — item 7 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q08",
+      "hold": "biochemistry, out of this lane's neuro subject scope — item 8 (\"vit b1 / Cannot utilize glucose dt oxidative decarboxylation\")"
+    },
+    {
+      "key": "paper1-2019-q09",
+      "hold": "biochemistry, out of this lane's neuro subject scope — item 9 (\"phenylketonurea and phenyalanine / Matching with each other correctly\")"
+    },
+    {
+      "key": "paper1-2019-q10",
+      "hold": "biochemistry, out of this lane's neuro subject scope — item 10 (\"THB / Coenzyme for aromatic Hydroxylases\")"
+    },
+    {
+      "key": "paper1-2019-q11",
+      "hold": "biochemistry, out of this lane's neuro subject scope — item 11 (\"Argininosuccinate / Needs ATP in urea cycle\")"
+    },
+    {
+      "key": "paper1-2019-q12",
+      "hold": "biochemistry, out of this lane's neuro subject scope — item 12 (\"homocystiene to methionine / Needs vit B12, folic acid\")"
+    },
+    {
+      "key": "paper1-2019-q13",
+      "hold": "too close to this lane's own existing hyperammonaemia concept (astrocytic glutamine synthesis contributing to cerebral oedema) — item 13 (\"decrease glutamate decrease gaba / Result for hyperammonemia\") is a different biochemical mechanism of the same overarching hyperammonaemia/CNS-effects topic, held rather than fragmenting one topic into near-duplicate concepts"
+    },
+    {
+      "key": "paper1-2019-q14",
+      "hold": "biochemistry, out of this lane's neuro subject scope — item 14 (\"ketonbodies in brain / During starvation... synthesis is in liver not utilization\")"
+    },
+    {
+      "key": "paper1-2019-q15",
+      "hold": "duplicate of this lane's own existing concept (\"The conus medullaris ends at L1/L2 in the adult, L3 in the neonate\") — item 15 (\"L1 / Level of S2 segment, Sacral and coccygeal segments at L1 vertebrae\") restates the same conus-medullaris vertebral-level mismatch fact"
+    },
+    {
+      "key": "paper1-2019-q16",
+      "hold": "duplicate of this lane's own existing concept (\"The first cervical (C1) spinal nerve is classically taught as predominantly motor\") — item 16 (\"c1 / Both rami are purely motor\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q17",
+      "hold": "duplicate of this lane's own existing concept (\"The cuneocerebellar tract carries unconscious proprioception from the upper limb to the cerebellum\") — item 17 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q18",
+      "hold": "duplicate of this lane's own existing concept (PICA occlusion/lateral medullary syndrome, contralateral pain and temperature loss) — item 18 restates the identical fact, including the source's own extended note distinguishing it from ASA occlusion"
+    },
+    {
+      "key": "paper1-2019-q19",
+      "hold": "duplicate of this lane's own existing concept (\"The great auricular nerve is a cutaneous branch of the cervical plexus supplying the skin over the angle of the mandible\") — item 19 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q21",
+      "hold": "duplicate of this lane's own existing concept (\"Broca's area, responsible for expressive language, occupies the inferior frontal gyrus\") — item 21 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q22",
+      "hold": "duplicate of this lane's own existing concept (\"The pyramid, carrying corticospinal fibres, is seen on the ventral surface of the medulla oblongata\") — item 22 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q23",
+      "hold": "duplicate of this lane's own existing concept (roof of the fourth ventricle, superior part formed by the superior cerebellar peduncles) — item 23 (\"SCP / Forms the Roof of the fourth ventricle\") restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q24",
+      "hold": "duplicate of this lane's own existing concept (\"The corticospinal tract is the one major descending motor tract not represented within the medial longitudinal fasciculus\") — item 24 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q25",
+      "hold": "duplicate of this lane's own existing concept (CSF leaves the fourth ventricle via the foramina of Luschka and Magendie) — item 25 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q26",
+      "hold": "duplicate of this lane's own existing concept (\"The cerebral aqueduct (of Sylvius) is the narrow midbrain channel connecting the third and fourth ventricles\") — item 26 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q27",
+      "hold": "duplicate of this lane's own existing concept (\"The motor nucleus of the trigeminal nerve belongs to the special visceral efferent (SVE) functional column\") — item 27 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q28",
+      "hold": "duplicate of this lane's own existing concept (\"The muscle spindle, not the Golgi tendon organ, is chiefly responsible for regulating muscle tone\") — item 28 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q29",
+      "hold": "duplicate of this lane's own existing concept (\"The superior cerebellar artery supplies the midbrain\") — item 29 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q30",
+      "hold": "duplicate of this lane's own existing concept (\"The lateral pterygoid plate forms the medial boundary of the infratemporal fossa\") — item 30 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q32",
+      "hold": "duplicate of this lane's own existing concept (\"The inferior petrosal sinus drains the cavernous sinus directly into the internal jugular vein\") — item 32 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q34",
+      "hold": "duplicate of this lane's own existing concept (\"The spinal root of the accessory nerve is the motor supply to sternocleidomastoid\") — item 34 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q35",
+      "hold": "ambiguous printed key — item 35 (\"touch receptor / Rapidly adapting\") does not name which specific touch receptor is intended (Meissner's, Pacinian and hair-follicle receptors are all rapidly adapting); too generic to construct a single, non-guessed correct answer, held for Omar/source verification"
+    },
+    {
+      "key": "paper1-2019-q36",
+      "hold": "duplicate of this lane's own existing concept (\"The gate control theory explains why rubbing a painful area relieves pain\") — item 36 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q37",
+      "hold": "duplicate of this lane's own existing concept (\"The nucleus raphe magnus is a serotonergic component of the descending pain-analgesic system\") — item 37 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q38",
+      "hold": "duplicate of this lane's own existing concept (\"The primary somatosensory cortex represents the contralateral face and body\") — item 38 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q39",
+      "hold": "duplicate of this lane's own existing concept (gamma motor neurons synapse on intrafusal muscle fibres in the muscle spindle) — item 39 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q40",
+      "hold": "duplicate of this lane's own existing concept (\"Nuclear bag intrafusal fibres are thick, short, and few, while nuclear chain fibres are thin, long, and more numerous\") — item 40 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q41",
+      "hold": "duplicate of this lane's own existing concept (ankle clonus driven by increased gamma motor neuron discharge) — item 41 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q42",
+      "hold": "duplicate of this lane's own existing concept (primary motor cortex converts motor plans into executed movement) — item 42 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q43",
+      "hold": "duplicate of this lane's own existing concept (primary motor cortex lesion causes contralateral hemiplegia with loss of fine skilled movement) — item 43 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q44",
+      "hold": "duplicate of this lane's own existing concept (syringomyelia's jacket-distribution dissociated sensory loss) — item 44 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q45",
+      "hold": "duplicate of this lane's own existing concept (\"A cerebellar lesion produces hypotonia\") — item 45 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q46",
+      "hold": "duplicate of this lane's own existing concept (climbing fibre input to the cerebellum required for motor learning) — item 46 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q47",
+      "hold": "duplicate of this lane's own existing concept (\"The putamen (motor) circuit of the basal ganglia stores learned motor programmes for skilled movement\") — item 47 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q50",
+      "hold": "duplicate of this lane's own existing concept (referred pain from the gallbladder to the tip of the right scapula) — item 50 restates the identical fact"
+    },
+    {
+      "key": "paper1-2019-q51",
+      "hold": "duplicate of this lane's own existing concept (tectospinal tract origin from the superior colliculus) — item 51 restates the identical fact"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "lane": "ASU-CNS-3",
+  "cluster": "paper1-2020",
+  "header": "ASU-CNS-3 · EOM - paper 1 cns 2020.pdf (cluster 8/author8) — 26-item embedded-answer compilation (the source's own printed header reads \"CNS PAPER 1 2022\", a filename/printed-date mismatch; the manifest's sourceId src_9bf95afe8820539ea286 is authoritative for file identity). 4 new mints survive after checking every item against all 222+10 existing ASU-CNS-3 concept labels (including this cluster's own paper1-2019 batch, authored first); 22 held (cross-paper duplicates, one biochemistry item, one duplicate-adjacent to an existing Wernicke concept, one ambiguous). Keys read as printed/stated; distractors authored by this lane.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y3"
+    ],
+    "module": "ASU-CNS-3",
+    "exam_weight_by_year": {
+      "ASU_Y3": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_9bf95afe8820539ea286"
+    ],
+    "source_citation": "Ain Shams Year 3 CNS EOM Paper 1 2020 (\"EOM - paper 1 cns 2020.pdf\"), item {page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "paper1-2020-q06",
+      "id": "QST-ASUCNS3P1-20-Q06",
+      "page": "1",
+      "title": "Which drug is first-line for essential tremor?",
+      "question": "An elderly patient with benign prostatic hyperplasia is found to have a fine, bilateral action tremor of the hands, diagnosed as essential tremor. Which drug is first-line pharmacological treatment?",
+      "options": {
+        "A": "Propranolol",
+        "B": "Levodopa",
+        "C": "Amantadine",
+        "D": "Diazepam"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Propranolol, a non-selective beta-adrenergic antagonist, is first-line pharmacological therapy for essential tremor: blocking peripheral beta-2 receptors in skeletal muscle reduces tremor amplitude, and it is used across age groups including elderly patients (with appropriate caution for comorbidities). Recognising this first-line choice is clinically important, since essential tremor is often mistaken for the resting tremor of Parkinson disease, which responds to different drugs.",
+        "B": "Incorrect. Levodopa is the mainstay treatment for the resting tremor of Parkinson disease, not the action/postural tremor of essential tremor, and is not first-line here.",
+        "C": "Incorrect. Amantadine is an antiparkinsonian agent, not a first-line treatment for essential tremor.",
+        "D": "Incorrect. Diazepam is not a first-line pharmacological treatment for essential tremor; propranolol is preferred."
+      },
+      "main_concept": "CON-NEU-A4AB4DBFFEDCF6",
+      "concept_ids": [
+        "CON-NEU-A4AB4DBFFEDCF6"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-20-PROPRANOLOL-IS-USED-TO-TREAT-ESSENTIAL-TREMOR-INCLUDING-IN"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Movement disorders",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that propranolol is used to treat essential tremor.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Movement disorder pharmacology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 6",
+        "asu": "EOM - paper 1 cns 2020.pdf, item 6 (\"propranolol / Case: BPH, old, Tremors\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2020-q10",
+      "id": "QST-ASUCNS3P1-20-Q10",
+      "page": "2",
+      "title": "What is the classic presentation of anterior spinal artery occlusion at the spinal cord level?",
+      "question": "Occlusion of the anterior spinal artery at the level of the spinal cord classically produces which pattern of deficit below the lesion?",
+      "options": {
+        "A": "Bilateral flaccid paraplegia with bilateral loss of pain and temperature, dorsal columns spared",
+        "B": "Ipsilateral tongue weakness with contralateral limb weakness",
+        "C": "Ipsilateral loss of proprioception with contralateral loss of pain and temperature",
+        "D": "Complete bilateral sensory and motor loss including proprioception"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The anterior spinal artery supplies the anterior two-thirds of the spinal cord; its occlusion at the spinal cord level causes bilateral paraplegia below the lesion with bilateral loss of pain and temperature sensation, while the dorsal columns (proprioception, vibration), supplied by the posterior spinal arteries, are classically spared. Recognising this pattern clinically distinguishes a spinal cord-level vascular syndrome from the different combination of deficits seen with a brainstem-level anterior spinal artery territory lesion.",
+        "B": "Incorrect. Ipsilateral tongue weakness with contralateral limb weakness describes medial medullary syndrome, from anterior spinal artery territory occlusion at the medulla, a different level with a different, more localised picture.",
+        "C": "Incorrect. This pattern describes Brown-Sequard syndrome (spinal cord hemisection), not bilateral anterior spinal artery occlusion.",
+        "D": "Incorrect. Anterior spinal artery occlusion classically spares the dorsal columns (posterior spinal artery territory), so proprioception is not lost."
+      },
+      "main_concept": "CON-NEU-725CFCD1D52BEA",
+      "concept_ids": [
+        "CON-NEU-725CFCD1D52BEA"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-20-ANTERIOR-SPINAL-ARTERY-OCCLUSION-AT-THE-SPINAL-CORD-LEVEL"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Cerebrovascular pathology",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that anterior spinal artery occlusion at the spinal cord level causes bilateral paraplegia with bilateral loss of pain and temperature, sparing the dorsal columns.",
+      "module_subject": "ASU-CNS-3 > Pathology > Cerebrovascular pathology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 10",
+        "asu": "EOM - paper 1 cns 2020.pdf, item 10 (\"Anterior spinal / Bilateral paraplegia And loss of pain and temp... Asa occlusion\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2020-q19",
+      "id": "QST-ASUCNS3P1-20-Q19",
+      "page": "3",
+      "title": "Which drug reverses fentanyl intoxication?",
+      "question": "A patient presents with respiratory depression and pinpoint pupils after suspected fentanyl overdose. Which drug is given to acutely reverse the intoxication?",
+      "options": {
+        "A": "Naloxone",
+        "B": "Naltrexone",
+        "C": "Flumazenil",
+        "D": "Buprenorphine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Naloxone, a short-acting competitive mu-opioid receptor antagonist, is given intravenously or intramuscularly to acutely reverse opioid (including fentanyl) intoxication, restoring respiratory drive and consciousness within minutes; repeated dosing may be needed since fentanyl can outlast naloxone's effect. Because fentanyl is a potent, long-acting opioid, patients reversed with naloxone must be monitored closely for re-sedation as the antagonist wears off before the opioid does.",
+        "B": "Incorrect. Naltrexone is a long-acting oral opioid antagonist used for relapse prevention after detoxification, not for acute overdose reversal.",
+        "C": "Incorrect. Flumazenil is a benzodiazepine receptor antagonist, used to reverse benzodiazepine (not opioid) overdose.",
+        "D": "Incorrect. Buprenorphine is a partial mu-opioid agonist used in analgesia and substitution therapy; it is not the acute reversal agent for opioid overdose and could itself precipitate withdrawal if given during acute intoxication."
+      },
+      "main_concept": "CON-NEU-ADE33D9DEAF8E7",
+      "concept_ids": [
+        "CON-NEU-ADE33D9DEAF8E7"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-20-NALOXONE-A-SHORT-ACTING-OPIOID-RECEPTOR-ANTAGONIST-IS-USED"
+      ],
+      "topic": "Neuropharmacology",
+      "subtopic": "Addiction pharmacology",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that naloxone is used to acutely reverse fentanyl (opioid) intoxication.",
+      "module_subject": "ASU-CNS-3 > Pharmacology > Addiction pharmacology",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 19",
+        "asu": "EOM - paper 1 cns 2020.pdf, item 19 (\"Naloxone / Fentanyl intoxication\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2020-q22",
+      "id": "QST-ASUCNS3P1-20-Q22",
+      "page": "3",
+      "title": "Which nucleus is the origin of the trapezoid body?",
+      "question": "The trapezoid body, a bundle of decussating auditory fibres in the ventral pons, arises from which nucleus?",
+      "options": {
+        "A": "The cochlear nucleus",
+        "B": "The superior olivary nucleus",
+        "C": "The inferior colliculus",
+        "D": "The medial geniculate body"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The trapezoid body arises from the (ventral) cochlear nucleus, the first central relay for auditory information; many of its fibres cross the midline within the trapezoid body to reach the contralateral superior olivary nucleus. This crossing at the trapezoid body is what gives the central auditory pathway its bilateral, partially crossed representation needed for sound localisation.",
+        "B": "Incorrect. The superior olivary nucleus is a destination the trapezoid body's fibres synapse upon after crossing, not its nucleus of origin.",
+        "C": "Incorrect. The inferior colliculus is further along the auditory pathway, receiving input after the superior olivary complex, not the origin of the trapezoid body.",
+        "D": "Incorrect. The medial geniculate body is the thalamic auditory relay, much further along the pathway, not the origin of the trapezoid body."
+      },
+      "main_concept": "CON-NEU-EFFD1F2F22CB53",
+      "concept_ids": [
+        "CON-NEU-EFFD1F2F22CB53"
+      ],
+      "library_ids": [
+        "ART-NEU-ASUCNS3P1-20-THE-COCHLEAR-NUCLEUS-IS-THE-ORIGIN-OF-THE-TRAPEZOID-BODY"
+      ],
+      "topic": "Neuroanatomy",
+      "subtopic": "Auditory pathway",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the cochlear nucleus is the origin of the trapezoid body.",
+      "module_subject": "ASU-CNS-3 > Anatomy > Auditory pathway",
+      "field_notes": {
+        "keySource": "printed embedded-answer, item 22",
+        "asu": "EOM - paper 1 cns 2020.pdf, item 22 (\"Cochlear nucleus / Origine of trapezoid\")"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "paper1-2020-q01",
+      "hold": "duplicate of this lane's own existing concept (\"Kinetic (intention) tremor results from a spinocerebellar lesion\") — item 1 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q02",
+      "hold": "duplicate-adjacent to this lane's own existing concept (\"The rubrospinal tract decussates at the ventral tegmental decussation (of Forel) in the midbrain\") — item 2 (\"rubrospinal tract / Decussation in superior level of midbrain\") restates the same midbrain decussation-level fact"
+    },
+    {
+      "key": "paper1-2020-q03",
+      "hold": "duplicate of this lane's own existing concept (\"The rubrospinal tract, from the red nucleus, is described as an alternative descending motor pathway to the corticospinal tract\") — item 3 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q04",
+      "hold": "biochemistry, out of this lane's neuro subject scope — item 4 (\"arginine / OTC deficiency case aa becomes essential\")"
+    },
+    {
+      "key": "paper1-2020-q05",
+      "hold": "too close to this lane's own existing concept (\"Wernicke-Korsakoff syndrome results from thiamine (vitamin B1) deficiency, classically in chronic alcoholics\") — item 5 (\"alpha keto glutarate dehydrogenase / Wernicke chronic alcoholic\") names the specific TPP-dependent enzyme behind the same clinical fact, held rather than minting a near-duplicate biochemistry-flavoured concept"
+    },
+    {
+      "key": "paper1-2020-q07",
+      "hold": "duplicate of this lane's own existing concept (tectospinal tract, head rotation to visual stimuli, crossing at the superior colliculus) — item 7 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q08",
+      "hold": "duplicate of this lane's own existing concept (\"The cuneocerebellar tract carries unconscious proprioception from the upper limb to the cerebellum\") — item 8 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q09",
+      "hold": "duplicate of this lane's own existing concept (spinal root of the accessory nerve, sternomastoid paralysis) — item 9 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q11",
+      "hold": "duplicate of this lane's own existing concept (superior ophthalmic vein as a valveless route to cavernous sinus thrombosis) — item 11 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q12",
+      "hold": "duplicate of this lane's own existing concept (inferior alveolar nerve as the motor division of the posterior division of the mandibular nerve) — item 12 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q13",
+      "hold": "duplicate of this lane's own existing concept (Brown-Sequard syndrome, ipsilateral dorsal column loss) — item 13 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q14",
+      "hold": "duplicate of this lane's own existing concept (\"The abducens nucleus lies in the floor of the fourth ventricle, so a fourth-ventricle tumour classically affects it first\") — item 14 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q15",
+      "hold": "duplicate of this lane's own existing concept (primary motor cortex, area 4, converts motor plans into executed movement) — item 15 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q16",
+      "hold": "duplicate of this lane's own existing concept (area 4 lesion causes crossed hemiplegia with loss of fine skilled movement) — item 16 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q17",
+      "hold": "duplicate of this lane's own existing concept (deficient central serotonin transmission associated with mood disorders) — item 17 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q18",
+      "hold": "duplicate of this lane's own existing concept (\"The muscle spindle, not the Golgi tendon organ, is chiefly responsible for regulating muscle tone\") — item 18 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q20",
+      "hold": "duplicate of this lane's own existing concept (\"The gate control theory explains why rubbing a painful area relieves pain\") — item 20 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q21",
+      "hold": "ambiguous/biochemistry printed key — item 21 (\"Catecholamines / Phenylketonuria, deficiency will happen to whom\") is a garbled biochemistry-pathway item out of this lane's neuro subject scope, held rather than guessed at"
+    },
+    {
+      "key": "paper1-2020-q23",
+      "hold": "duplicate of this lane's own existing concept (\"The zygomaticotemporal nerve carries postganglionic parasympathetic secretomotor fibres onward to the lacrimal gland\") — item 23 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q24",
+      "hold": "within-file duplicate of this same paper's own item 8 (cuneocerebellar tract, unconscious proprioception from the elbow) — item 24 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q25",
+      "hold": "duplicate of this lane's own existing concept (primary somatosensory cortex represents the contralateral face and body) — item 25 restates the identical fact"
+    },
+    {
+      "key": "paper1-2020-q26",
+      "hold": "duplicate of this lane's own existing concept (\"A migraine attack classically begins with a phase of cerebral vasoconstriction\") — item 26 restates the identical fact"
+    }
+  ]
+}
