@@ -5,6 +5,8 @@
  * (server/src/platformReports.js), and never writes either table.
  */
 
+import { pool } from './db.js'
+
 const DAY_MS = 86_400_000
 
 function dayIndex(ms) {
@@ -103,4 +105,15 @@ export function publicSubscriberCountPayload(doc, { realCountNow, now = Date.now
   if (!doc?.enabled) return { enabled: false }
   const { value, ratePerSecond } = computeSubscriberCount(doc, { realCountNow, now })
   return { enabled: true, value, ratePerSecond }
+}
+
+/** The stored document, or the defaults if the key has never been written. */
+export async function readSubscriberDisplay() {
+  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [SUBSCRIBER_DISPLAY_STATE_KEY])
+  if (!rows.length) return { ...DEFAULT_SUBSCRIBER_DISPLAY }
+  try {
+    return { ...DEFAULT_SUBSCRIBER_DISPLAY, ...JSON.parse(rows[0].v) }
+  } catch {
+    return { ...DEFAULT_SUBSCRIBER_DISPLAY }
+  }
 }
