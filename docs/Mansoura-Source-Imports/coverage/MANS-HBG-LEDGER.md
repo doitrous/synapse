@@ -44,6 +44,19 @@
 | histoprev2 | 50 | 0 | 0 | 50 |
 | histoprev3 | 44 | 16 | 0 | 60 |
 | histoprev4 | 31 | 19 | 0 | 50 |
+| histoprev5 | 17 | 23 | 0 | 40 |
+
+## Frontier note (2026-09-03, lane mans-hbg-author4)
+histoprev5 continues the SAME "Important MCQ Final" block as histoprev4's b4-q01..q30
+(Histo MCQ Formatives + Exams Final.pdf), picking up at p.8/Q31 straight after b4-q30
+on p.7, and running to p.15/Q70. Verified page-by-page render — no gap. **Next
+frontier: p.16, Q71** ("In Turner's syndrome, the karyotype is:-"), same block, same
+file. The pre-existing "## Remaining" section below (Q1::E::succinic dehydrogenase...
+through Q40::A::epidermis mitotic layer) does NOT match this block's actual p.16+
+content by page-render spot check — its origin/page range is unclear (possibly a
+stale/misplaced stub from an earlier triage pass over a different bank or a
+mis-ordered block). Left untouched pending a CoS ruling; do not treat it as this
+cluster's continuation point.
 
 ## Held
 - held-d61-q27 — cross-batch repeat — twin of histoprev1 q36 (Verhoeff's stain for elastic fibers, already authored/live via CON-FND-F0C32F89547AB1); دفعة 61 block, p25
@@ -81,6 +94,29 @@
 - b4-q25 — within-window repeat — condensed nucleus is deeply stained, authored here as d59-q43 (same question); Important MCQ Final Q25, p6
 - b4-q28 — cross-bank repeat — nucleolus prominent in protein-synthesis-active cells, already authored (histoprev3 q100); Important MCQ Final Q28, p7
 - b4-q30 — cross-bank repeat — lung alveoli lined with simple squamous epithelium, already authored (histoprev3 q110); Important MCQ Final Q30, p7
+- b4-q31 — cross-bank repeat — blood vascular endothelium = simple squamous, already authored (histoprev3 q105, same fact, options reshuffled); Important MCQ Final Q31, p8
+- b4-q34 — cross-bank repeat — stratified squamous keratinized epithelium has a protective function, already authored (histoprev4 d59-q39, identical); Important MCQ Final Q34, p8
+- b4-q35 — cross-bank repeat — goblet cell = unicellular gland, already authored (histoprev3 q118, identical); Important MCQ Final Q35, p8
+- b4-q37 — cross-bank repeat — neuroepithelium sensory cells have microvilli, already authored twice (histoprev3 q128, histoprev4 d59-q45, both identical); Important MCQ Final Q37, p9
+- b4-q38 — cross-bank repeat — centriole staining = iron hematoxylin, already authored (histoprev3 q109, identical); Important MCQ Final Q38, p9
+- b4-q39 — cross-bank repeat — pyknosis = nucleus smaller/darker/eccentric, already authored (histoprev2 q51, same fact, options reshuffled); Important MCQ Final Q39, p9
+- b4-q40 — cross-bank repeat — simple squamous epithelium site = lung alveoli, twin of this cluster's own b4-q30 fact and histoprev3 q110; Important MCQ Final Q40, p9
+- b4-q41 — cross-bank repeat — desmosomes fix cells strongly and prevent separation, already authored (histoprev4 d59-q40, identical); Important MCQ Final Q41, p10
+- b4-q46 — cross-bank repeat — free ribosomes synthesize protein used within the cell, already authored (histoprev2 q78, identical); Important MCQ Final Q46, p11
+- b4-q47 — cross-bank/within-window repeat — upper respiratory tract lined with pseudostratified columnar ciliated epithelium with goblet cells, already authored (histoprev2 q80, identical) and twin of this cluster's own b4-q33 (trachea/bronchi, authored); Important MCQ Final Q47, p11
+- b4-q48 — cross-bank repeat — Klinefelter karyotype = 47,XXY, already authored (histoprev3 q94, identical); Important MCQ Final Q48, p11
+- b4-q49 — cross-bank repeat — structure formed at end of prophase = kinetochore, already authored (histoprev3 q95, identical); Important MCQ Final Q49, p11
+- b4-q51 — cross-bank repeat — function of nucleolus = synthesis of rRNA, already authored (histoprev2 q89, identical); Important MCQ Final Q51, p12
+- b4-q52 — cross-bank repeat — full urinary bladder has 2 cell layers, already authored (histoprev2 q88, identical); Important MCQ Final Q52, p12
+- b4-q53 — cross-bank repeat — metaphase = chromosomes arranged at the equator, already authored (histoprev3 q92, identical); Important MCQ Final Q53, p12
+- b4-q54 — cross-bank repeat — Cri-du-chat = deletion of 5th chromosome, already authored (histoprev3 q93, identical); Important MCQ Final Q54, p12
+- b4-q57 — cross-bank repeat — microtubules transport organelles inside the cell, already authored (histoprev3 q99, identical); Important MCQ Final Q57, p13
+- b4-q58 — cross-bank repeat — epidermis epithelium = stratified squamous keratinized, already authored (histoprev3 q101, identical); Important MCQ Final Q58, p13
+- b4-q59 — cross-bank repeat — chromosomes in G1 stage = 46-s, already authored (histoprev1 q09, same fact, options reshuffled); Important MCQ Final Q59, p13
+- b4-q60 — cross-bank repeat — Trisomy 21 = Down's syndrome, already authored (histoprev3 q103, identical); Important MCQ Final Q60, p13
+- b4-q62 — cross-bank repeat — daughter cell of meiosis contains 23-s chromosomes, already authored (histoprev3 q121, identical); Important MCQ Final Q62, p14
+- b4-q64 — cross-bank repeat — nuclear membrane dissolves during prophase, already authored (histoprev4 d59-q35, identical incl. printed "Anaphase A" typo); Important MCQ Final Q64, p14
+- b4-q70 — cross-bank/within-window repeat — Down's syndrome = 21 trisomy, twin of histoprev3 q103 and of this cluster's own b4-q60; Important MCQ Final Q70, p15
 
 ## Remaining
 - Q1  :: E :: succinic dehydrogenase enzyme marker = mitochondria
