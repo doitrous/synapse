@@ -660,3 +660,6 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 
 ### 2026-09-03 — MANSOURA AEP lane 4 LANDED (53f11420 + 9e8fc4e8, 33783761) · GIT + Urinary
 - Resumed cleanly. GIT p.31-34 + Urinary p.53,55 (rest of p.30-56 is other lectures, logged). 28 authored (19 aepgit + 9 aepuri), 7 held (near/literal dups), 14 short-answer skipped. 15 mints + articles, 3 Assiut PMS-102 reuses. validate errors=[] ×2; simulate 8-file created=115 rejected=0. Fixed `SYS-GI`→`SYS-GIT`. Flagged pre-existing (lanes 1-4 shared): direct article validate reports missing TPL-CONCEPT sections on the freeform `###` style (reproduced on lane 3's landed file; simulate clean) — article-format cleanup is a separate task. Lane 5 dispatched on Lymphatic p.56-67 + Scalp&Face p.68-77 to finish the Full Exams file.
+
+### 2026-09-03 — ASSIUT CBF-103 lane 3 LANDED (84002fe3) · All quizzes CBF pp.31-90 + pp.1-30 tail
+- Resumed cleanly. OCR'd pp.31-90 (60 pp), 86 items 100% keyed + the 16 keyed-unauthored from pp.1-30. 46 authored, 55 out-of-format/held (T/F, fill-blank, matrix, Quiz21 12 multi-select), 1 OCR page-break truncation held. 2 mints, 44 reuses across 6 overlay clusters. validate errors=[] ×6; batch errors=0 ×6; 32-file simulate created=519 rejected=0. ≈3.9k B/q. Remaining: pp.91+. Lane 4 dispatched.
