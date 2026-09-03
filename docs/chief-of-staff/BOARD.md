@@ -666,3 +666,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 
 ### 2026-09-03 — 6 OCTOBER IPH-108 lane 3 LANDED (0e5c5048, 8b1cdbd3, 9c4b955b) · pharma bank pp.101-160
 - Worktree GC'd during the pause; rebuilt fresh from origin/main, nothing to salvage (no pre-pause commits). pp.101-160 OCR'd, 0 renders (checkmark/¥ heuristic held). 56 candidates, 44 keyed (79%) → 44 authored (`pharmabank2`), 12 held (5 illegible, 4 multi-blank, 1 ordering, 2 match-pairs). 18 mints + 3 articles, 4 reuses (Kasr 208-INT ×2, MPT-104 ×1, own ×1). validate items=44 errors=[]; batch items=44 errors=0; 11-file simulate created=374 rejected=0. ≈1.9k tok/q. Remaining: pp.161-223. Lane 4 dispatched (final range).
+
+### 2026-09-03 — ALEXANDRIA AU-102 histology lane 1 LANDED (066df3da) · Step-2, 43 questions
+- Fresh worktree (original GC'd, only research done pre-pause). 43 authored (34 histology + 9 physiology) in `AU-MED-102-histology-2-mcq.md`. ZERO new mints — reused a pre-existing unused concept-tagging pass (commit 1ac5ffff, 37 Kasr ids tagged +au) as the reuse map + 4 more Kasr concepts. 59 held (13 diagram, 20 dup-of-legacy, 24 unconfirmed wafdeen-1, 2 misc). validate items=43 errors=[]; batch items=43 errors=0; 18-file simulate created=536 rejected=0. ≈1.4k tok/q. Remaining: wafdeen-1 key-recovery render pass + 2 render items + terminology sub-module untouched.
+- Slot → Zagazig ZU-105 lane 5 (finish its ~60 deferred + امتحانات سابقه pp.5-13) — advancing a closer-to-completion university.
