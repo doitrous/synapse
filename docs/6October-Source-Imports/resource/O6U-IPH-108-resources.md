@@ -4,6 +4,8 @@
   extraction pipeline, following the same src_<first 20 hex of sha256> convention
   as O6U-IPA-107-resources.md. Second Item (src_412e8bcfca222fa1abf8, "pharma MCQs
   bank .pdf") added by lane 2 (o6u-iph108-author2) -- see coverage/O6U-IPH-108-triage.md.
+  Lane 3 (o6u-iph108-author3) reuses src_412e8bcfca222fa1abf8 unchanged for its own
+  "pharmabank2" cluster (pp.101-160 of the same PDF); no new resource row needed.
 -->
 
 # Item
@@ -129,6 +131,10 @@ autonomic (parasympathetic/cholinergic and antimuscarinic) pharmacology: choline
 inhibitors, direct-acting cholinomimetics, muscarinic receptor subtypes, and atropine/
 antimuscarinic pharmacology. Sampled pp.7-100 (Q1 begins at p7 after a cover/title
 sequence); 42 items authored, well above the 60% keyed floor -- see
-coverage/O6U-IPH-108-triage.md.
+coverage/O6U-IPH-108-triage.md. Lane 3 (o6u-iph108-author3) extended sampling to
+pp.101-160: pp.101-120 continue the atropine/antimuscarinic content, then a new
+adrenergic-physiology section begins at p121 and a sympathomimetics section at p139;
+44 further items authored (see coverage/O6U-IPH-108-triage.md, "Source 1 continued --
+lane 3"). Remaining pp.161-223 are untouched, reserved for a future pass.
 
 ---
