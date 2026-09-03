@@ -12,7 +12,7 @@ export const TRIAL_PATH = '/signup?plan=maristana&period=term'
  * animation/transition duration to ~0ms for `*`, so a reduced-motion reader
  * sees the final state almost immediately instead of a fade.
  */
-export function useRevealOnScroll<T extends HTMLElement>(): { ref: RefObject<T>; visible: boolean } {
+export function useRevealOnScroll<T extends HTMLElement>(): { ref: RefObject<T | null>; visible: boolean } {
   const ref = useRef<T>(null)
   const [visible, setVisible] = useState(false)
 
