@@ -1,0 +1,685 @@
+{
+  "lane": "ASU-ENDO-2",
+  "cluster": "eom-final-collection-histo",
+  "header": "ASU-ENDO-2 · Histology — follow-on MCQ-authoring pass on the same source as the Anatomy+Community and Pharma commits, from the Histo block (23 items) of \"EOM MCQs - Endocrine Final MCQ Collection.pdf\" (127+ items across 7 subject blocks; this cluster covers only the Histo block). Embedded-answer format (\"N-question?\\n<bare answer>\", no printed distractors) — this lane authors its own options and explanations from the stated answer/topic. Five items are held: item 11 (spongiocyte) on factual-accuracy grounds (contradicts standard histology teaching that spongiocytes, zona fasciculata cells, DO secrete glucocorticoids); item 12 as a duplicate of item 6; items 13 and 16 as duplicates of item 2; item 23 as a duplicate of item 22. Item 6 reuses this module's existing concept/article (CON-END-A11F28FA99B94D / ART-END-ASU-ENDO2-THYROID-CELLS-HORMONE-CYCLE) rather than minting fresh.",
+  "defaults": {
+    "subject": "endo",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y2"
+    ],
+    "module": "ASU-ENDO-2",
+    "module_subject": "ASU-ENDO-2 > Histology",
+    "exam_weight_by_year": {
+      "ASU_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_f3b44cd466398c8953b9"
+    ],
+    "source_citation": "Ain Shams Year 2 Endocrine System EOM MCQ Final Collection (\"EOM MCQs - Endocrine Final MCQ Collection.pdf\", 2018/19/20 combined sitting), Histo item {page}.",
+    "setting": "Academic",
+    "cognitive_effort": "Low",
+    "difficulty": "Moderate",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "histo-q01",
+      "id": "QST-ASUENDO2-HISTO-H01",
+      "page": 1,
+      "title": "Staining property of thyroid follicular colloid",
+      "question": "Which of the following is true about thyroid follicles?",
+      "options": {
+        "A": "The lumen colloid stains positively with PAS (periodic acid-Schiff)",
+        "B": "The follicular cell cytoplasm, not the colloid, stains positively with PAS",
+        "C": "The colloid is PAS-negative but stains positively with Congo red",
+        "D": "The follicular basement membrane is the only PAS-positive structure in the follicle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The colloid filling the lumen of a thyroid follicle is rich in the glycoprotein thyroglobulin, which reacts positively with the periodic acid-Schiff (PAS) stain. PAS positivity is a standard histological feature used to identify colloid on light microscopy. This is distinct from the amount of colloid present, which varies with the follicle's activity state.",
+        "B": "Incorrect. It is the colloid, not the follicular cell cytoplasm, that is characteristically PAS-positive because of its high glycoprotein content.",
+        "C": "Incorrect. Colloid is PAS-positive, not PAS-negative; Congo red staining is used to detect amyloid, not thyroid colloid.",
+        "D": "Incorrect. While basement membranes can be PAS-positive, colloid is also, and characteristically, PAS-positive — the basement membrane is not the only PAS-positive structure."
+      },
+      "main_concept": "CON-END-006E0F423E3BEF",
+      "concept_ids": [
+        "CON-END-006E0F423E3BEF"
+      ],
+      "topic": "Histology",
+      "subtopic": "Thyroid histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-THYROID-COLLOID-PAS-POSITIVE"
+      ],
+      "learning_objective": "State that thyroid follicular colloid is PAS-positive because of its glycoprotein (thyroglobulin) content.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 1",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 1"
+      }
+    },
+    {
+      "key": "histo-q02",
+      "id": "QST-ASUENDO2-HISTO-H02",
+      "page": 2,
+      "title": "Ultrastructural characteristic of steroid-secreting cells",
+      "question": "Which of the following is a characteristic of steroid-secreting cells?",
+      "options": {
+        "A": "Abundant smooth endoplasmic reticulum and cytoplasmic lipid droplets",
+        "B": "Abundant rough endoplasmic reticulum and dense secretory granules",
+        "C": "Numerous lysosomes with minimal endoplasmic reticulum",
+        "D": "Abundant rough endoplasmic reticulum and mucous-type granules"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Steroid hormone-secreting cells share a characteristic ultrastructure: abundant smooth endoplasmic reticulum (site of enzymatic cholesterol-to-steroid conversion), mitochondria with tubular/vesicular cristae, and cytoplasmic lipid droplets storing cholesterol precursor. This combination, rather than any single feature alone, identifies a cell as steroidogenic on electron microscopy.",
+        "B": "Incorrect. Abundant rough endoplasmic reticulum and dense secretory granules describe a peptide/protein-hormone-secreting cell profile, not a steroid-secreting cell.",
+        "C": "Incorrect. Steroid-secreting cells are not characterised by prominent lysosomes with minimal ER — the opposite is true, with abundant smooth ER being a defining feature.",
+        "D": "Incorrect. Rough ER and mucous granules describe a mucus-secreting cell profile, unrelated to steroidogenic ultrastructure."
+      },
+      "main_concept": "CON-END-5E62F256A1955D",
+      "concept_ids": [
+        "CON-END-5E62F256A1955D"
+      ],
+      "topic": "Histology",
+      "subtopic": "Adrenal cortex histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-STEROID-CELL-ULTRASTRUCTURE"
+      ],
+      "learning_objective": "State that steroid-secreting cells are ultrastructurally characterised by abundant smooth ER, mitochondria and lipid droplets.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 2",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 2"
+      }
+    },
+    {
+      "key": "histo-q03",
+      "id": "QST-ASUENDO2-HISTO-H03",
+      "page": 3,
+      "title": "Vascular connection between hypothalamus and adenohypophysis",
+      "question": "What is true concerning the connection between the hypothalamus and the pituitary gland?",
+      "options": {
+        "A": "The adenohypophysis is connected to the hypothalamus by the hypophyseal portal venous system",
+        "B": "The adenohypophysis is connected to the hypothalamus by a direct axonal (neural) tract",
+        "C": "The neurohypophysis is connected to the hypothalamus by a portal venous system",
+        "D": "Neither lobe of the pituitary has any vascular or neural connection to the hypothalamus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hypothalamic releasing/inhibiting hormones enter a primary capillary plexus in the median eminence, drain via the hypophyseal portal veins, and reach a secondary capillary plexus in the anterior pituitary (adenohypophysis) to act on its cells. This vascular route is the adenohypophysis's connection to the hypothalamus.",
+        "B": "Incorrect. A direct axonal (neural) tract describes the neurohypophysis's connection to the hypothalamus (the hypothalamo-hypophyseal tract), not the adenohypophysis's.",
+        "C": "Incorrect. The portal venous system connects the hypothalamus to the adenohypophysis, not the neurohypophysis, which has a direct neural connection instead.",
+        "D": "Incorrect. Both pituitary lobes are connected to the hypothalamus — the adenohypophysis vascularly (portal system) and the neurohypophysis neurally (direct axon tract)."
+      },
+      "main_concept": "CON-END-F9DEA52384ACE9",
+      "concept_ids": [
+        "CON-END-F9DEA52384ACE9"
+      ],
+      "topic": "Histology",
+      "subtopic": "Pituitary histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-HYPOPHYSEAL-PORTAL-SYSTEM"
+      ],
+      "learning_objective": "State that the adenohypophysis is connected to the hypothalamus by the hypophyseal portal venous system, in contrast with the neurohypophysis's direct neural connection.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 3",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 3"
+      }
+    },
+    {
+      "key": "histo-q04",
+      "id": "QST-ASUENDO2-HISTO-H04",
+      "page": 4,
+      "title": "Ultrastructural feature of parathyroid oxyphil cells",
+      "question": "What is a characteristic feature of parathyroid oxyphil cells?",
+      "options": {
+        "A": "Numerous mitochondria",
+        "B": "Abundant lipid and glycogen",
+        "C": "Numerous parathyroid hormone secretory granules",
+        "D": "Prominent rough endoplasmic reticulum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Oxyphil cells, the larger and less numerous of the two parathyroid parenchymal cell types, are packed with numerous mitochondria. This is what gives them their deeply acidophilic (eosinophilic) cytoplasmic staining on light microscopy.",
+        "B": "Incorrect. Abundant lipid and glycogen describe chief (principal) cells, the parathyroid's main and more numerous cell type, not oxyphil cells.",
+        "C": "Incorrect. Chief cells, not oxyphil cells, are the main source of PTH secretory granules; oxyphil cells' distinguishing feature is their mitochondrial content.",
+        "D": "Incorrect. Oxyphil cells are not characterised by prominent rough ER — their defining ultrastructural feature is abundant mitochondria."
+      },
+      "main_concept": "CON-END-701C4E29CC40BF",
+      "concept_ids": [
+        "CON-END-701C4E29CC40BF"
+      ],
+      "topic": "Histology",
+      "subtopic": "Parathyroid histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-OXYPHIL-CELL-MITOCHONDRIA-ACIDOPHILIA"
+      ],
+      "learning_objective": "State that parathyroid oxyphil cells are characterised by numerous mitochondria, which produce their deeply acidophilic staining.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 4",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 4"
+      }
+    },
+    {
+      "key": "histo-q05",
+      "id": "QST-ASUENDO2-HISTO-H05",
+      "page": 5,
+      "title": "Granule content of pituitary thyrotropes",
+      "question": "Which of the following is true regarding pituitary thyrotropes?",
+      "options": {
+        "A": "They have a sparse, small population of secretory granules",
+        "B": "They have large, numerous, electron-dense secretory granules",
+        "C": "They contain no secretory granules at all",
+        "D": "Their granule number and size are identical to somatotropes"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Thyrotropes, the TSH-secreting basophilic cells of the anterior pituitary, are characteristically small, angular cells. They have a relatively sparse (small) number of small secretory granules compared with other anterior pituitary cell types. This granule pattern is a recognised distinguishing feature on electron microscopy.",
+        "B": "Incorrect. Large, numerous, electron-dense granules describe somatotropes, not thyrotropes.",
+        "C": "Incorrect. Thyrotropes do contain secretory granules — they are simply sparse and small compared with other pituitary cell types, not absent.",
+        "D": "Incorrect. Thyrotrope granules are distinctly fewer and smaller than somatotrope granules; the two profiles are not identical."
+      },
+      "main_concept": "CON-END-34F3B9977FA28E",
+      "concept_ids": [
+        "CON-END-34F3B9977FA28E"
+      ],
+      "topic": "Histology",
+      "subtopic": "Pituitary histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-THYROTROPE-SPARSE-GRANULES"
+      ],
+      "learning_objective": "State that pituitary thyrotropes are characterised by a small, sparse population of secretory granules.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 5",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 5"
+      }
+    },
+    {
+      "key": "histo-q06",
+      "id": "QST-ASUENDO2-HISTO-H06",
+      "page": 6,
+      "title": "Mechanism of thyroid hormone release by follicular cells",
+      "question": "Which of the following is true regarding thyroid follicular cells?",
+      "options": {
+        "A": "They release T3 and T4 after lysosomal proteolytic degradation of thyroglobulin",
+        "B": "They release T3 and T4 directly, without any thyroglobulin involvement",
+        "C": "They store T3 and T4 permanently and never release them",
+        "D": "They release free iodide without ever forming thyroglobulin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Thyroid follicular cells synthesise thyroglobulin and iodinate it within the follicular colloid. Under TSH stimulation, they endocytose iodinated thyroglobulin back into the cell. Lysosomal proteolytic enzymes then degrade it, releasing free T3 and T4 into the circulation.",
+        "B": "Incorrect. Thyroglobulin is central to the pathway — T3 and T4 are generated from iodinated thyroglobulin, not released directly without it.",
+        "C": "Incorrect. Follicular cells do release stored hormone (as T3/T4) under TSH stimulation; they do not store it permanently without release.",
+        "D": "Incorrect. Iodide is actively taken up, oxidised, and organified onto thyroglobulin as part of hormone synthesis — thyroglobulin formation is a required step, not bypassed."
+      },
+      "main_concept": "CON-END-A11F28FA99B94D",
+      "concept_ids": [
+        "CON-END-A11F28FA99B94D"
+      ],
+      "topic": "Histology",
+      "subtopic": "Thyroid histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASU-ENDO2-THYROID-CELLS-HORMONE-CYCLE"
+      ],
+      "learning_objective": "State that follicular cells release T3 and T4 after lysosomal proteolytic degradation of endocytosed thyroglobulin.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 6",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 6",
+        "reuse": "main_concept and library_ids reuse this module's existing CON-END-A11F28FA99B94D / ART-END-ASU-ENDO2-THYROID-CELLS-HORMONE-CYCLE (histology-foundations pass) — exact same fact, already scoped to ASU-ENDO-2."
+      }
+    },
+    {
+      "key": "histo-q07",
+      "id": "QST-ASUENDO2-HISTO-H07",
+      "page": 7,
+      "title": "Cytoplasmic content of parathyroid chief cells",
+      "question": "What is a characteristic feature of chief cells in the parathyroid gland?",
+      "options": {
+        "A": "Lipid droplets and glycogen",
+        "B": "Numerous mitochondria",
+        "C": "Dense-core secretory granules of catecholamines",
+        "D": "Abundant smooth endoplasmic reticulum only, with no lipid content"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Chief (principal) cells are the main and most numerous parenchymal cell type of the parathyroid gland. They secrete parathyroid hormone. Their cytoplasm characteristically contains lipid droplets and glycogen granules.",
+        "B": "Incorrect. Numerous mitochondria characterise oxyphil cells, the parathyroid's other, less numerous cell type, not chief cells.",
+        "C": "Incorrect. Dense-core catecholamine granules describe adrenal medullary chromaffin cells, not parathyroid chief cells.",
+        "D": "Incorrect. Chief cells contain cytoplasmic lipid, not an absence of it; smooth ER alone does not capture their characteristic content."
+      },
+      "main_concept": "CON-END-8A7AB3F1F89F80",
+      "concept_ids": [
+        "CON-END-8A7AB3F1F89F80"
+      ],
+      "topic": "Histology",
+      "subtopic": "Parathyroid histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-CHIEF-CELL-LIPID-GLYCOGEN"
+      ],
+      "learning_objective": "State that parathyroid chief cells characteristically contain cytoplasmic lipid and glycogen.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 7",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 7"
+      }
+    },
+    {
+      "key": "histo-q08",
+      "id": "QST-ASUENDO2-HISTO-H08",
+      "page": 8,
+      "title": "Granule morphology of pituitary somatotropes",
+      "question": "Which of the following is true regarding pituitary somatotropes?",
+      "options": {
+        "A": "Large, numerous, electron-dense secretory granules",
+        "B": "Small, sparse secretory granules",
+        "C": "No secretory granules at all",
+        "D": "Secretory granules containing calcitonin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Somatotropes are the growth hormone-secreting acidophilic cells and the most numerous cell type of the anterior pituitary. They are characterised by large, numerous, electron-dense secretory granules. This distinguishes them ultrastructurally from other anterior pituitary cell types.",
+        "B": "Incorrect. Small, sparse secretory granules characterise thyrotropes, not somatotropes.",
+        "C": "Incorrect. Somatotropes are richly granulated, not devoid of secretory granules.",
+        "D": "Incorrect. Calcitonin is secreted by thyroid parafollicular (C) cells, not by pituitary somatotropes, whose granules contain growth hormone."
+      },
+      "main_concept": "CON-END-862F28F5405EBB",
+      "concept_ids": [
+        "CON-END-862F28F5405EBB"
+      ],
+      "topic": "Histology",
+      "subtopic": "Pituitary histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-SOMATOTROPE-LARGE-DENSE-GRANULES"
+      ],
+      "learning_objective": "State that pituitary somatotropes are characterised by large, electron-dense secretory granules.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 8",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 8"
+      }
+    },
+    {
+      "key": "histo-q09",
+      "id": "QST-ASUENDO2-HISTO-H09",
+      "page": 9,
+      "title": "Functional role of pituicytes",
+      "question": "Regarding pituicytes, which of the following is true?",
+      "options": {
+        "A": "They are supportive neuroglial cells",
+        "B": "They are the main hormone-secreting cells of the posterior pituitary",
+        "C": "They are oxytocin-secreting neurons",
+        "D": "They are the neurosecretory axon terminals that form Herring bodies"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Pituicytes are modified astrocyte-like glial cells of the neurohypophysis (posterior pituitary). They provide structural and metabolic support to the unmyelinated axons and axon terminals of the hypothalamo-hypophyseal tract. They are not themselves hormone-secreting cells.",
+        "B": "Incorrect. The posterior pituitary's hormones (oxytocin, vasopressin) are released from axon terminals originating in hypothalamic neurons, not secreted by pituicytes.",
+        "C": "Incorrect. Pituicytes are glial support cells, not neurons, and do not secrete oxytocin themselves.",
+        "D": "Incorrect. Herring bodies are the dilated axon terminals themselves (accumulating secretory granules), distinct from the pituicytes that surround and support them."
+      },
+      "main_concept": "CON-END-5F5BD3FA884009",
+      "concept_ids": [
+        "CON-END-5F5BD3FA884009"
+      ],
+      "topic": "Histology",
+      "subtopic": "Pituitary histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-PITUICYTE-SUPPORTIVE-GLIAL-CELL"
+      ],
+      "learning_objective": "State that pituicytes are supportive neuroglial cells of the posterior pituitary, not hormone-secreting cells.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 9",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 9"
+      }
+    },
+    {
+      "key": "histo-q10",
+      "id": "QST-ASUENDO2-HISTO-H10",
+      "page": 10,
+      "title": "Staining property of parathyroid oxyphil cells",
+      "question": "Which of the following is true regarding parathyroid oxyphil cells?",
+      "options": {
+        "A": "Deeply acidophilic (eosinophilic) staining",
+        "B": "Deeply basophilic staining",
+        "C": "PAS-positive staining",
+        "D": "A positive chromaffin (dichromate) reaction"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Oxyphil cells are packed with numerous mitochondria. This mitochondrial content is what gives them their characteristic deeply acidophilic (eosinophilic) cytoplasmic staining on light microscopy.",
+        "B": "Incorrect. Oxyphil cells stain acidophilic (eosinophilic), not basophilic.",
+        "C": "Incorrect. PAS-positive staining is a feature of glycoprotein-rich structures such as thyroid colloid, not the mitochondria-driven acidophilia of oxyphil cells.",
+        "D": "Incorrect. A positive chromaffin reaction identifies catecholamine-containing adrenal medullary chromaffin cells, not parathyroid oxyphil cells."
+      },
+      "main_concept": "CON-END-701C4E29CC40BF",
+      "concept_ids": [
+        "CON-END-701C4E29CC40BF"
+      ],
+      "topic": "Histology",
+      "subtopic": "Parathyroid histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-OXYPHIL-CELL-MITOCHONDRIA-ACIDOPHILIA"
+      ],
+      "learning_objective": "State that parathyroid oxyphil cells are characterised by numerous mitochondria, which produce their deeply acidophilic staining.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 10",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 10"
+      }
+    },
+    {
+      "key": "histo-q11",
+      "hold": "Factual-accuracy concern: source states \"Which cell doesn't have secretory function? Spongiocyte\", but spongiocytes are the lipid-laden clear cells of the adrenal zona fasciculata, which DO secrete glucocorticoids — this contradicts standard histology teaching and is not propagated as authored content."
+    },
+    {
+      "key": "histo-q12",
+      "hold": "Near-exact restatement of item 6 within this same source: same fact (thyroid hormone release order — T3/T4 released after degradation of thyroglobulin). Not re-authored as a distinct question."
+    },
+    {
+      "key": "histo-q13",
+      "hold": "Near-exact restatement of item 2 within this same source: same fact (steroid-secreting cell ultrastructure — zona fasciculata cells' large vacuole and numerous sER is the same feature set as item 2's SER+lipid). Not re-authored as a distinct question."
+    },
+    {
+      "key": "histo-q14",
+      "id": "QST-ASUENDO2-HISTO-H14",
+      "page": 14,
+      "title": "Histochemical identification of chromaffin cells",
+      "question": "Which of the following cells give a brown color when stained with potassium dichromate?",
+      "options": {
+        "A": "Chromaffin cells",
+        "B": "Pinealocytes",
+        "C": "Pituicytes",
+        "D": "Oxyphil cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Chromaffin cells of the adrenal medulla store catecholamines (epinephrine, norepinephrine) in cytoplasmic secretory granules. When fixed in potassium dichromate, these stored catecholamines are oxidised to a brown-black pigment — the classic \"chromaffin reaction\" used to identify chromaffin cells and paraganglia on light microscopy.",
+        "B": "Incorrect. Pinealocytes do not contain catecholamine granules of the type the dichromate reaction detects; they are not chromaffin-positive.",
+        "C": "Incorrect. Pituicytes are supportive glial cells of the posterior pituitary and do not give a chromaffin reaction.",
+        "D": "Incorrect. Oxyphil cells are identified by their mitochondria-driven acidophilic staining, not by a dichromate/chromaffin reaction."
+      },
+      "main_concept": "CON-END-E22841B7366E1C",
+      "concept_ids": [
+        "CON-END-E22841B7366E1C"
+      ],
+      "topic": "Histology",
+      "subtopic": "Adrenal medulla histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-CHROMAFFIN-CELL-GRANULES-DICHROMATE"
+      ],
+      "learning_objective": "State that adrenal chromaffin cells store catecholamines in secretory granules, which are the substrate for the brown-staining chromaffin (dichromate) reaction.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 14",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 14"
+      }
+    },
+    {
+      "key": "histo-q15",
+      "id": "QST-ASUENDO2-HISTO-H15",
+      "page": 15,
+      "title": "Composition of Herring bodies",
+      "question": "Which of the following is true regarding Herring bodies?",
+      "options": {
+        "A": "They are large aggregations of vasopressin and oxytocin secretory granules within posterior pituitary axon terminals",
+        "B": "They are clusters of glial cell nuclei within the posterior pituitary",
+        "C": "They are aggregates of TSH secretory granules within the anterior pituitary",
+        "D": "They are calcified deposits within the pineal gland"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Herring bodies are dilated, bulbous axon terminals of the hypothalamo-hypophyseal tract within the posterior pituitary. They are formed by large aggregations of neurosecretory granules containing oxytocin or vasopressin. These granules accumulate along the axon before release into the perivascular space.",
+        "B": "Incorrect. Herring bodies are axon terminal structures packed with secretory granules, not clusters of glial (pituicyte) nuclei.",
+        "C": "Incorrect. Herring bodies are a posterior pituitary (neurohypophysis) feature containing oxytocin/vasopressin granules, not an anterior pituitary TSH-granule structure.",
+        "D": "Incorrect. Calcified deposits in the pineal gland are corpora arenacea (\"brain sand\"), an unrelated structure."
+      },
+      "main_concept": "CON-END-608F039E17346B",
+      "concept_ids": [
+        "CON-END-608F039E17346B"
+      ],
+      "topic": "Histology",
+      "subtopic": "Pituitary histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-HERRING-BODIES"
+      ],
+      "learning_objective": "State that Herring bodies are accumulations of oxytocin/vasopressin secretory granules within posterior pituitary axon terminals.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 15",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 15"
+      }
+    },
+    {
+      "key": "histo-q16",
+      "hold": "Near-exact restatement of item 2 within this same source: same fact (steroid-secreting cell ultrastructural criteria — mitochondria and Golgi here vs SER and lipid in item 2, both describing the same recognised ultrastructural profile). Not re-authored as a distinct question."
+    },
+    {
+      "key": "histo-q17",
+      "id": "QST-ASUENDO2-HISTO-H17",
+      "page": 17,
+      "title": "Cytoarchitecture of pancreatic islets",
+      "question": "Which of the following is true about the pancreas?",
+      "options": {
+        "A": "Beta cells classically lie in the centre of the islets",
+        "B": "Alpha cells classically lie in the centre of the islets",
+        "C": "Delta cells classically lie in the centre of the islets",
+        "D": "All islet cell types are randomly distributed with no zonation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Within a pancreatic islet of Langerhans, insulin-secreting beta cells are the most numerous cell type. They are classically described as occupying the central (core) region of the islet, with alpha and other minor cell types arranged more peripherally. This is the standard cytoarchitectural description taught at this level.",
+        "B": "Incorrect. Alpha cells are classically described as peripheral, not central, within the islet.",
+        "C": "Incorrect. Delta cells are a minor, peripherally-distributed islet cell population, not the central cell type.",
+        "D": "Incorrect. The standard teaching describes a defined beta-cell-central, alpha-cell-peripheral zonation, not a random distribution."
+      },
+      "main_concept": "CON-END-507B07128EBE97",
+      "concept_ids": [
+        "CON-END-507B07128EBE97"
+      ],
+      "topic": "Histology",
+      "subtopic": "Pancreatic islet histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-BETA-CELL-CENTRAL-ISLET-LOCATION"
+      ],
+      "learning_objective": "State that pancreatic islet beta cells classically occupy the central region of the islet, with other endocrine cell types more peripheral.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 17",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 17"
+      }
+    },
+    {
+      "key": "histo-q18",
+      "id": "QST-ASUENDO2-HISTO-H18",
+      "page": 18,
+      "title": "Regulatory difference between parafollicular and follicular cells",
+      "question": "Parafollicular cells differ from follicular cells in that they:",
+      "options": {
+        "A": "Lack TSH receptors and are regulated by serum calcium instead",
+        "B": "Express TSH receptors, just like follicular cells",
+        "C": "Lack any hormone receptors at all",
+        "D": "Are regulated by ACTH rather than TSH"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Thyroid parafollicular (C) cells secrete calcitonin and are regulated by circulating calcium levels, not by the hypothalamic-pituitary-thyroid axis. Unlike follicular cells, which express TSH receptors and are stimulated by TSH to synthesise and release thyroid hormone, parafollicular cells lack TSH receptors, reflecting their distinct embryological origin.",
+        "B": "Incorrect. Expressing TSH receptors is a feature of follicular cells; parafollicular cells specifically lack them, which is the distinguishing difference the question asks about.",
+        "C": "Incorrect. Parafollicular cells do have receptors relevant to their regulation (they respond to serum calcium) — they are not receptor-free, only TSH-receptor-negative.",
+        "D": "Incorrect. Parafollicular cells are regulated by serum calcium, not by ACTH, which regulates the adrenal cortex."
+      },
+      "main_concept": "CON-END-9E0815C5924274",
+      "concept_ids": [
+        "CON-END-9E0815C5924274"
+      ],
+      "topic": "Histology",
+      "subtopic": "Thyroid histology",
+      "question_type": "Classification",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-PARAFOLLICULAR-CELL-LACKS-TSH-RECEPTOR"
+      ],
+      "learning_objective": "State that parafollicular (C) cells, unlike follicular cells, lack TSH receptors and are instead regulated by serum calcium.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 18",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 18"
+      }
+    },
+    {
+      "key": "histo-q19",
+      "id": "QST-ASUENDO2-HISTO-H19",
+      "page": 19,
+      "title": "Secretory granule content of chromaffin cells",
+      "question": "Which of the following statements about adrenal chromaffin cells is true?",
+      "options": {
+        "A": "They contain catecholamine-containing secretory granules",
+        "B": "They lack secretory granules and release hormone by simple diffusion",
+        "C": "Their granules contain PAS-positive glycoprotein colloid",
+        "D": "Their granules contain parathyroid hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Chromaffin cells of the adrenal medulla store catecholamines (epinephrine, norepinephrine) in membrane-bound cytoplasmic secretory granules. These granules are the substrate detected by the dichromate (chromaffin) reaction.",
+        "B": "Incorrect. Chromaffin cells store hormone in secretory granules for regulated release, not via unregulated simple diffusion.",
+        "C": "Incorrect. PAS-positive glycoprotein colloid is a feature of thyroid follicular colloid, not adrenal chromaffin cell granules.",
+        "D": "Incorrect. Chromaffin cell granules contain catecholamines, not parathyroid hormone, which is secreted by parathyroid chief cells."
+      },
+      "main_concept": "CON-END-E22841B7366E1C",
+      "concept_ids": [
+        "CON-END-E22841B7366E1C"
+      ],
+      "topic": "Histology",
+      "subtopic": "Adrenal medulla histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-CHROMAFFIN-CELL-GRANULES-DICHROMATE"
+      ],
+      "learning_objective": "State that adrenal chromaffin cells store catecholamines in secretory granules, which are the substrate for the brown-staining chromaffin (dichromate) reaction.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 19",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 19"
+      }
+    },
+    {
+      "key": "histo-q20",
+      "id": "QST-ASUENDO2-HISTO-H20",
+      "page": 20,
+      "title": "Morphology of pinealocytes",
+      "question": "Which of the following is true regarding pinealocytes?",
+      "options": {
+        "A": "They are large cells with long, branching cytoplasmic processes",
+        "B": "They are small, elongated cells with dark nuclei",
+        "C": "They entirely lack cytoplasmic processes",
+        "D": "They are ciliated columnar cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Pinealocytes, the main secretory (melatonin-producing) cells of the pineal gland, have round-to-oval, euchromatic nuclei and prominent nucleoli. They characteristically send out long, branching cytoplasmic processes. These processes end in bulbous expansions near the gland's fenestrated capillaries.",
+        "B": "Incorrect. Small, elongated cells with dark nuclei describe the pineal gland's interstitial (astrocyte-like glial) cells, not pinealocytes.",
+        "C": "Incorrect. Pinealocytes are notable precisely for their long, branching cytoplasmic processes, not an absence of them.",
+        "D": "Incorrect. Pinealocytes are not ciliated columnar epithelial cells; they are large secretory cells with branching processes, unrelated to a ciliated epithelium."
+      },
+      "main_concept": "CON-END-507D31B05C8C64",
+      "concept_ids": [
+        "CON-END-507D31B05C8C64"
+      ],
+      "topic": "Histology",
+      "subtopic": "Pineal gland histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-PINEALOCYTE-MORPHOLOGY"
+      ],
+      "learning_objective": "State that pinealocytes are large cells with long, branching cytoplasmic processes, distinguishing them from the pineal gland's interstitial glial cells.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 20",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 20"
+      }
+    },
+    {
+      "key": "histo-q21",
+      "id": "QST-ASUENDO2-HISTO-H21",
+      "page": 21,
+      "title": "Morphology of parathyroid chief (principal) cells",
+      "question": "Which of the following is a characteristic feature of the principal (chief) cells of the parathyroid gland?",
+      "options": {
+        "A": "Small, polygonal cells",
+        "B": "Large, oval cells packed with mitochondria",
+        "C": "Large cells with abundant lipid droplets exclusively",
+        "D": "Spindle-shaped cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Chief (principal) cells are the main parenchymal cell of the parathyroid gland. They are small, polygonal cells arranged in cords and clusters. This contrasts with the larger, less numerous oxyphil cells of the same gland.",
+        "B": "Incorrect. Large, oval, mitochondria-packed cells describe oxyphil cells, not chief cells.",
+        "C": "Incorrect. Chief cells do contain some lipid (alongside glycogen), but their defining feature relevant here is their small polygonal shape, not exclusively lipid content, and they are not described as \"large\" cells.",
+        "D": "Incorrect. Chief cells are polygonal, not spindle-shaped."
+      },
+      "main_concept": "CON-END-FF5A26F1340889",
+      "concept_ids": [
+        "CON-END-FF5A26F1340889"
+      ],
+      "topic": "Histology",
+      "subtopic": "Parathyroid histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-CHIEF-CELL-SMALL-POLYGONAL"
+      ],
+      "learning_objective": "State that parathyroid chief cells are characteristically small and polygonal in shape.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 21",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 21"
+      }
+    },
+    {
+      "key": "histo-q22",
+      "id": "QST-ASUENDO2-HISTO-H22",
+      "page": 22,
+      "title": "Intercellular junctions within pancreatic islets",
+      "question": "What is present between the main endocrine cells of the pancreatic islets?",
+      "options": {
+        "A": "Gap junctions",
+        "B": "Tight junctions only",
+        "C": "Desmosomes only",
+        "D": "No intercellular junctions"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The endocrine cells of the pancreatic islets of Langerhans (alpha, beta, delta and other cell types) are interconnected by gap junctions. These allow direct electrical and metabolic coupling between adjacent cells. This coordinates the islet's synchronised secretory response to changes in blood glucose.",
+        "B": "Incorrect. Tight junctions alone do not describe the direct electrical/metabolic coupling characteristic of islet endocrine cells; gap junctions are the relevant feature.",
+        "C": "Incorrect. Desmosomes provide mechanical adhesion, not the electrical/metabolic coupling gap junctions provide between islet cells.",
+        "D": "Incorrect. Islet endocrine cells are connected by gap junctions, not left without intercellular junctions."
+      },
+      "main_concept": "CON-END-A79E30FA16931A",
+      "concept_ids": [
+        "CON-END-A79E30FA16931A"
+      ],
+      "topic": "Histology",
+      "subtopic": "Pancreatic islet histology",
+      "question_type": "Recall",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-ISLET-CELL-GAP-JUNCTIONS"
+      ],
+      "learning_objective": "State that gap junctions couple the endocrine cells within a pancreatic islet, coordinating their secretory response.",
+      "field_notes": {
+        "keySource": "embedded answer before the stem, Histo item 22",
+        "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Histo item 22"
+      }
+    },
+    {
+      "key": "histo-q23",
+      "hold": "Near-exact restatement of item 22 within this same source: same fact (gap junctions between pancreatic islet endocrine cells). Not re-authored as a distinct question."
+    }
+  ]
+}
