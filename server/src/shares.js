@@ -200,7 +200,9 @@ async function approvedAssetsForRevision(conn, row) {
   return owned
 }
 
-async function notifyFollowers(conn, { shareId, revision, actorId, title }) {
+// Exported only for the query-count test below — every real caller reaches
+// this through updateShare.
+export async function notifyFollowers(conn, { shareId, revision, actorId, title }) {
   await conn.query(
     `INSERT INTO shared_document_events (id, share_id, revision, kind, actor_id, payload)
      VALUES (?, ?, ?, 'revision', ?, ?)`,
@@ -210,21 +212,16 @@ async function notifyFollowers(conn, { shareId, revision, actorId, title }) {
     'SELECT user_id FROM shared_document_follows WHERE share_id = ? AND user_id <> ?',
     [shareId, actorId],
   )
-  for (const follower of followers) {
-    await conn.query(
-      `INSERT INTO shared_document_notifications
-         (id, user_id, share_id, revision, actor_id, kind, message)
-       VALUES (?, ?, ?, ?, ?, 'shared_document_revision', ?)`,
-      [
-        randomUUID(),
-        follower.user_id,
-        shareId,
-        revision,
-        actorId,
-        `${readTitle(title)} has a new revision.`,
-      ],
-    )
-  }
+  if (!followers.length) return
+  const message = `${readTitle(title)} has a new revision.`
+  const placeholders = followers.map(() => '(?, ?, ?, ?, ?, \'shared_document_revision\', ?)').join(', ')
+  const params = followers.flatMap((follower) => [randomUUID(), follower.user_id, shareId, revision, actorId, message])
+  await conn.query(
+    `INSERT INTO shared_document_notifications
+       (id, user_id, share_id, revision, actor_id, kind, message)
+     VALUES ${placeholders}`,
+    params,
+  )
 }
 
 function shape(row, viewerId, extras = {}) {

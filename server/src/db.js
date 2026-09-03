@@ -5,21 +5,57 @@ import { runMigrations } from './migrations.js'
 /**
  * A single shared connection pool. Prefers DATABASE_URL; otherwise assembles the
  * connection from the discrete DB_* vars (matches .env.local).
+ *
+ * DATABASE_URL used to be handed to mysql2 as a raw string. mysql2 parses a
+ * string connection the same way either way, but passing it as a string
+ * meant the pool-sizing options below silently never applied to it — the
+ * live tunnel (DATABASE_URL) got mysql2's own hardcoded default forever,
+ * with no way to tune it short of a code change. Parsed into the same object
+ * shape as the discrete-var branch instead, so both take the same knobs.
  */
-export const pool = mysql.createPool(
-  process.env.DATABASE_URL
-    ? process.env.DATABASE_URL
-    : {
-        host: process.env.DB_HOST,
-        port: Number(process.env.DB_PORT) || 3306,
-        user: process.env.DB_USER,
-        password: process.env.DB_PASSWORD,
-        database: process.env.DB_NAME,
-        waitForConnections: true,
-        connectionLimit: 10,
-        charset: 'utf8mb4',
-      },
-)
+// Exported only for the test below — reads process.env fresh on every call,
+// so a test can flip env vars and re-call it without re-importing the module
+// (which would create a second real pool as a side effect).
+export function poolConfig() {
+  const shared = {
+    waitForConnections: true,
+    // Ops-tunable without a redeploy: how many connections this process may
+    // hold open against the database at once.
+    connectionLimit: Number(process.env.DB_POOL_SIZE) || 10,
+    // Requests beyond the pool queue rather than erroring immediately, up to
+    // this many waiting — past it, mysql2 fails fast instead of piling up an
+    // unbounded queue behind a stalled database.
+    queueLimit: 100,
+    charset: 'utf8mb4',
+    timezone: process.env.DB_TIMEZONE || 'local',
+  }
+  if (!process.env.DATABASE_URL) {
+    return {
+      host: process.env.DB_HOST,
+      port: Number(process.env.DB_PORT) || 3306,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASSWORD,
+      database: process.env.DB_NAME,
+      ...shared,
+    }
+  }
+  const url = new URL(process.env.DATABASE_URL)
+  return {
+    host: url.hostname,
+    port: Number(url.port) || 3306,
+    user: decodeURIComponent(url.username),
+    password: decodeURIComponent(url.password),
+    database: url.pathname.replace(/^\//, ''),
+    // Anything the URL carries as a query string (?ssl=..., etc.) still
+    // reaches mysql2 — just as object keys instead of a query string.
+    ...Object.fromEntries(url.searchParams),
+    ...shared,
+  }
+}
+
+const dbPoolConfig = poolConfig()
+console.log(`[db] pool ready: connectionLimit=${dbPoolConfig.connectionLimit} queueLimit=${dbPoolConfig.queueLimit}`)
+export const pool = mysql.createPool(dbPoolConfig)
 
 /**
  * Applies every not-yet-applied file in server/migrations (see migrations.js:

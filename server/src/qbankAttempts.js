@@ -150,25 +150,42 @@ export async function recordVerifiedAttempts(userId, input) {
       answeredAt,
     })
   }
-  for (const row of rows) {
-    await pool.query(
-      `INSERT INTO qbank_attempts
-       (id, user_id, student_id, session_id, question_id, university_id, year, term,
-        subject_id, topic, subtopic, concept_ids, answer_index, correct_index, correct,
-        seconds, session_duration_seconds, overtime_seconds, answered_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-       ON DUPLICATE KEY UPDATE
-        answer_index = VALUES(answer_index), correct_index = VALUES(correct_index),
-        correct = VALUES(correct), seconds = VALUES(seconds),
-        session_duration_seconds = VALUES(session_duration_seconds),
-        overtime_seconds = VALUES(overtime_seconds), answered_at = VALUES(answered_at),
-        verified_at = CURRENT_TIMESTAMP`,
-      [
-        row.id, userId, profile.id, row.sessionId, row.questionId, profile.universityId, profile.year, row.term,
-        row.subjectId, row.topic, row.subtopic, row.conceptIds, row.answerIndex, row.correctIndex, row.correct ? 1 : 0,
-        row.seconds, row.sessionDurationSeconds, row.overtimeSeconds, row.answeredAt,
-      ],
-    )
+  if (rows.length) {
+    // One round trip for the whole batch instead of one per attempt — a
+    // finished session can verify dozens of answers at once, and each used to
+    // be its own INSERT. Still one ON DUPLICATE KEY UPDATE per row, just sent
+    // together, wrapped in a transaction so a mid-batch failure verifies
+    // nothing rather than half a session.
+    const placeholders = rows.map(() => '(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)').join(', ')
+    const params = rows.flatMap((row) => [
+      row.id, userId, profile.id, row.sessionId, row.questionId, profile.universityId, profile.year, row.term,
+      row.subjectId, row.topic, row.subtopic, row.conceptIds, row.answerIndex, row.correctIndex, row.correct ? 1 : 0,
+      row.seconds, row.sessionDurationSeconds, row.overtimeSeconds, row.answeredAt,
+    ])
+    const conn = await pool.getConnection()
+    try {
+      await conn.beginTransaction()
+      await conn.query(
+        `INSERT INTO qbank_attempts
+         (id, user_id, student_id, session_id, question_id, university_id, year, term,
+          subject_id, topic, subtopic, concept_ids, answer_index, correct_index, correct,
+          seconds, session_duration_seconds, overtime_seconds, answered_at)
+         VALUES ${placeholders}
+         ON DUPLICATE KEY UPDATE
+          answer_index = VALUES(answer_index), correct_index = VALUES(correct_index),
+          correct = VALUES(correct), seconds = VALUES(seconds),
+          session_duration_seconds = VALUES(session_duration_seconds),
+          overtime_seconds = VALUES(overtime_seconds), answered_at = VALUES(answered_at),
+          verified_at = CURRENT_TIMESTAMP`,
+        params,
+      )
+      await conn.commit()
+    } catch (error) {
+      await conn.rollback()
+      throw error
+    } finally {
+      conn.release()
+    }
   }
   return { ok: true, recorded: rows.length, results: rows.map((row) => ({
     questionId: row.questionId,

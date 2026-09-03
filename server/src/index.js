@@ -62,7 +62,9 @@ import {
   setDiscoverable,
   setRole,
 } from './accounts.js'
-import { withinRateLimit } from './identity.js'
+import { rateLimited, clientIp } from './rateLimit.js'
+import { securityHeaders } from './securityHeaders.js'
+import { ApiError } from './apiError.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
 import { createPromotion, createPricingVoucher, listPricingDiscounts, pricingQuote } from './pricing.js'
@@ -261,6 +263,12 @@ const app = express()
 // One proxy in front (Coolify). Without this every rate limit is charged to the
 // proxy's address, which means one abusive client locks out everybody.
 app.set('trust proxy', 1)
+// __dirname is defined above (see LAUNCH_DATA_PATH). A separate constant from
+// the static-file PUBLIC_DIR below: this one only needs to exist early enough
+// to hash the built index.html's inline theme script for CSP, before the SPA
+// is ever wired up.
+const SECURITY_HEADERS_PUBLIC_DIR = process.env.PUBLIC_DIR || join(__dirname, '..', 'public')
+app.use(securityHeaders({ publicDir: SECURITY_HEADERS_PUBLIC_DIR }))
 /**
  * Compress responses.
  *
@@ -275,27 +283,47 @@ app.set('trust proxy', 1)
  * Placed before every route so it covers the SPA assets too.
  */
 app.use(compression())
-app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
+// Never `true` (reflects any Origin back) — an explicit allowlist, env-overridable
+// for staging. `credentials` stays unset: the API is bearer/cookie-gated by
+// apiAuthGate, not by browser-sent cookies read cross-origin.
+const CORS_ORIGIN = process.env.CORS_ORIGIN?.split(',') ?? ['https://nishany.com', 'https://connectadminacademy.nishany.com']
+app.use(cors({ origin: CORS_ORIGIN }))
 // The student site moved to nishany.com. Old links, bookmarks, and search
 // results still name synapse.doitrous.com, so its page requests are redirected
 // permanently. /api is exempt on purpose: the installed iOS and Android builds
 // have the old host compiled in as their API base and must keep working
 // without an app update — and only GETs move, so nothing mid-POST is dropped.
-// The Host header is read directly rather than via req.hostname because the
-// app runs behind Coolify's proxy without `trust proxy` set.
+// The Host header is read directly rather than via req.hostname because
+// `req.hostname` also strips the port, which this comparison does not need —
+// `trust proxy` above is what makes it trustworthy behind Coolify.
 const LEGACY_STUDENT_HOSTS = new Set(['synapse.doitrous.com', 'www.synapse.doitrous.com', 'www.nishany.com'])
 app.use((req, res, next) => {
   const host = String(req.headers.host || '').toLowerCase().split(':')[0]
   if (!LEGACY_STUDENT_HOSTS.has(host) || req.method !== 'GET' || req.path.startsWith('/api')) return next()
   res.redirect(301, `https://nishany.com${req.originalUrl}`)
 })
+app.use(apiAuthGate)
+/**
+ * A few routes save a whole shared document rather than one field. The
+ * question ledger alone is ~23 MB and growing, so 25 MB was one import away
+ * from rejecting every save with 413. `limit` is checked against the
+ * DECOMPRESSED body, so it must exceed the raw document size even though
+ * clients now gzip it on the wire (body-parser inflates gzip automatically).
+ * 64 MB is headroom. Mounted only on these paths, and BEFORE the 1 MB default
+ * below: body-parser marks a request's body as already parsed once one of
+ * these has run, so the smaller parser after it just passes through instead
+ * of re-enforcing 1 MB — mounting them in the other order would make this
+ * limit dead code.
+ */
+const LARGE_JSON_BODY = express.json({ limit: '64mb' })
+for (const path of ['/api/state/:key', '/api/user-state/:key', '/api/admin/academic/preview', '/api/admin/academic/publish']) {
+  app.use(path, LARGE_JSON_BODY)
+}
+// Everything else defaults to a small body. `apiAuthGate` above never reads
+// `req.body` (headers and path/method only), so parsing after it is safe and
+// means an unauthenticated caller can't run a 1 MB parse before being refused.
 app.use(express.json({
-  // The shared content documents are whole-document saves. The question ledger
-  // alone is ~23 MB and growing, so 25 MB was one import away from rejecting
-  // every save with 413. `limit` is checked against the DECOMPRESSED body, so it
-  // must exceed the raw document size even though clients now gzip it on the
-  // wire (body-parser inflates gzip requests automatically). 64 MB is headroom.
-  limit: '64mb',
+  limit: '1mb',
   verify: (req, _res, buffer) => {
     if (req.originalUrl === '/api/webhooks/resend/inbound') req.rawBody = buffer.toString('utf8')
   },
@@ -338,11 +366,19 @@ async function unsubscribeTokenFor(address, category) {
   return token
 }
 
-app.use(apiAuthGate)
+/** Logged server-side only — a stack trace is not something to hand a caller. */
+function logServerError(route, error) {
+  console.error(`[error] ${route}`, error?.stack || error)
+}
 
-const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((e) => {
-  console.error(e); res.status(500).json({ error: e.message || 'server error' })
+const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((error) => {
+  if (error instanceof ApiError) return res.status(error.status).json({ error: error.code, message: error.publicMessage })
+  logServerError(req.originalUrl, error)
+  res.status(500).json({ error: 'internal' })
 })
+
+/** Per-signed-in-caller rate-limit key. These routes all sit behind requireAuthenticated. */
+const byUser = (req) => req.identity?.id || clientIp(req)
 
 app.get('/api/health', (_req, res) => res.json({ ok: true }))
 
@@ -373,9 +409,7 @@ app.get('/api/rooms/voice', async (_req, res) => {
  * it is rate limited because it is the one route here that has to work before
  * anybody is authenticated.
  */
-app.post('/api/accounts/exists', wrap(async (req, res) => {
-  const caller = req.ip || req.socket?.remoteAddress || 'unknown'
-  if (!withinRateLimit(caller)) return res.status(429).json({ error: 'too many requests' })
+app.post('/api/accounts/exists', rateLimited('accounts_exists', clientIp, 20, 60_000), wrap(async (req, res) => {
   const { email, phone } = req.body ?? {}
   res.json(await identifierTaken({ email, phone }))
 }))
@@ -415,7 +449,7 @@ app.post('/api/auth/passkey/authenticate/options', wrap(async (req, res) => res.
 app.post('/api/auth/passkey/authenticate/verify', wrap(verifyAuthenticationRequest))
 
 // AI essay grading — advisory, display-only; charges the assistant AI quota.
-app.post('/api/essay/grade', requireAuthenticated, wrap(async (req, res) => {
+app.post('/api/essay/grade', requireAuthenticated, rateLimited('essay_grade', byUser, 30, 15 * 60_000), wrap(async (req, res) => {
   const result = await gradeEssay(req.identity, req.body ?? {})
   if (result.error) return res.status(result.status ?? 400).json(result)
   return res.json(result)
@@ -740,7 +774,7 @@ app.get('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
   res.json({ items: rows, usedBytes: allowance.usedBytes, quotaBytes: allowance.quotaBytes, plan: allowance.plan })
 }))
 
-app.post('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
+app.post('/api/my-documents', requireAuthenticated, rateLimited('my_documents_upload_start', byUser, 20, 60 * 60_000), wrap(async (req, res) => {
   const id = randomUUID()
   const upload = describeUpload(req.body)
   // Generated here, never accepted: a path is not something a client gets to say.
@@ -2346,7 +2380,7 @@ registerContentRoutes(app)
  * lock the console write path uses, so a report filed here and a review saved
  * there cannot lose one another.
  */
-app.post('/api/content-reports', requireAuthenticated, wrap(async (req, res) => {
+app.post('/api/content-reports', requireAuthenticated, rateLimited('content_reports', byUser, 10, 60 * 60_000), wrap(async (req, res) => {
   const body = req.body ?? {}
   const contentId = typeof body.contentId === 'string' ? body.contentId.trim() : ''
   const note = typeof body.note === 'string' ? body.note.trim() : ''
@@ -3783,7 +3817,7 @@ app.get('/api/assistant/status', requireAuthenticated, wrap(async (req, res) => 
   res.json(await assistantStatus(req.identity))
 }))
 
-app.post('/api/assistant/chat', requireAuthenticated, wrap(async (req, res) => {
+app.post('/api/assistant/chat', requireAuthenticated, rateLimited('assistant_chat', byUser, 30, 15 * 60_000), wrap(async (req, res) => {
   const result = await assistantChat(req.identity, {
     messages: req.body?.messages,
     lang: req.body?.lang === 'ar' ? 'ar' : 'en',
@@ -3880,6 +3914,28 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
   console.log('Serving SPA from', PUBLIC_DIR)
 }
 
+/**
+ * The terminal handler. Reached only when something upstream called
+ * `next(err)` instead of handling its own error — body-parser rejecting an
+ * oversized or malformed body being the main case, since every route itself
+ * goes through `wrap`, above, which never lets an error fall through to here.
+ * Same rule as `wrap`: never echo `err.message` to the caller.
+ */
+app.use((err, req, res, next) => {
+  if (res.headersSent) return next(err)
+  if (err?.type === 'entity.too.large' || err?.status === 413) {
+    return res.status(413).json({ error: 'payload_too_large' })
+  }
+  if (err instanceof SyntaxError && err.status === 400 && 'body' in err) {
+    return res.status(400).json({ error: 'bad_json' })
+  }
+  if (err instanceof ApiError) {
+    return res.status(err.status).json({ error: err.code, message: err.publicMessage })
+  }
+  logServerError(req.originalUrl, err)
+  res.status(500).json({ error: 'internal' })
+})
+
 const port = Number(process.env.PORT) || 8080
 migrate()
   .then(async () => {
@@ -3920,14 +3976,21 @@ migrate()
     setMailer(sendMail) // inject the email sender the reminder dispatcher uses
     startQotdReminderScheduler()
     // Recovery-point creation must never prevent the HTTP server from coming
-    // online. A backup failure is reported for operators but is non-fatal.
-    try {
-      const [recent] = await pool.query(
-        "SELECT id FROM data_snapshots WHERE created_at >= NOW() - INTERVAL 24 HOUR AND created_by = 'system:daily' LIMIT 1",
-      )
-      if (!recent.length) await createDataSnapshot(`Daily recovery point ${new Date().toISOString()}`, 'system:daily')
-    } catch (error) {
-      console.error('Daily recovery snapshot skipped:', error.message)
-    }
+    // online, or even delay it — this used to sit on the boot path, awaited
+    // inside the same chain that gates `app.listen`'s readiness. Deferred
+    // a minute past listen instead, and unref'd so it never holds the process
+    // open. A backup failure is reported for operators but is non-fatal.
+    setTimeout(() => {
+      void (async () => {
+        try {
+          const [recent] = await pool.query(
+            "SELECT id FROM data_snapshots WHERE created_at >= NOW() - INTERVAL 24 HOUR AND created_by = 'system:daily' LIMIT 1",
+          )
+          if (!recent.length) await createDataSnapshot(`Daily recovery point ${new Date().toISOString()}`, 'system:daily')
+        } catch (error) {
+          console.error('Daily recovery snapshot skipped:', error.message)
+        }
+      })()
+    }, 60_000).unref()
   })
   .catch((e) => { console.error('startup failed (DB unreachable?):', e.message); process.exit(1) })

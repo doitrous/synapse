@@ -122,6 +122,38 @@ test('saveOwnEnrolment returns on the happy path without a scope error', async (
   assert.equal(result.phoneConflict, false)
 })
 
+test('saveOwnEnrolment never lets the caller write their own subscription plan', async (t) => {
+  // A field a client is never asked for but is still free to include in the
+  // request body. If it reached the INSERT, "onboarding" would double as a
+  // way to grant yourself a paid tier for nothing.
+  const written = []
+  const conn = {
+    beginTransaction: async () => {},
+    commit: async () => {},
+    rollback: async () => {},
+    release: () => {},
+    query: async (sql, params) => {
+      if (/FOR UPDATE/.test(sql)) return [[{ id: 'stu-1', user_id: 'stu-1' }]]
+      if (/WHERE phone = /.test(sql)) return [[]]
+      if (/SELECT name, email, university_id/.test(sql)) return [[{ name: null, email: 'a@b.c', universityId: null, year: null, yearId: null, usernameNormalized: null }]]
+      if (/FROM subscriptions/.test(sql)) return [[]]
+      if (/INSERT INTO subscriptions/.test(sql) || /UPDATE students SET plan/.test(sql)) written.push({ sql, params })
+      return [{ affectedRows: 1 }]
+    },
+  }
+  t.mock.method(pool, 'getConnection', async () => conn)
+  t.mock.method(pool, 'query', async () => [[]])
+
+  const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1', plan: 'Adaptive' })
+  assert.equal(result.ok, true)
+  assert.equal(written.length, 2)
+  const subscriptionInsert = written.find((w) => /INSERT INTO subscriptions/.test(w.sql))
+  assert.ok(subscriptionInsert.sql.includes("'Free'"), 'plan is a literal in the SQL, not a bound parameter')
+  assert.ok(!subscriptionInsert.params.includes('Adaptive'))
+  const studentsUpdate = written.find((w) => /UPDATE students SET plan/.test(w.sql))
+  assert.deepEqual(studentsUpdate.params, ['Free', 'stu-1'])
+})
+
 test('saveOwnEnrolment reports phoneConflict when the number belongs to someone else', async (t) => {
   fakeEnrolmentPool(t, { phoneHeldByOther: true })
   const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1', phone: '+201001234567' })

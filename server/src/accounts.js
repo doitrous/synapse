@@ -851,7 +851,10 @@ export async function saveOwnEnrolment(userId, input) {
   const name = trimmed(input?.name, 255)
   const nationality = trimmed(input?.nationality, 64)
   const phone = normalisePhone(input?.phone)
-  const plan = trimmed(input?.plan, 64)
+  // `plan` is never taken from the caller — an onboarding request is a way to
+  // register where you study, not a way to write your own entitlement. Every
+  // trial seeded here starts on 'Free'; anything better than that is granted
+  // by an admin action or a real subscription, elsewhere.
   const username = trimmed(input?.username, 32)
   const profileIcon = normaliseProfileIcon(input?.profileIcon)
   const usernameNormalized = username ? normaliseUsername(username) : null
@@ -946,10 +949,12 @@ export async function saveOwnEnrolment(userId, input) {
       const now = new Date()
       await conn.query(
         `INSERT INTO subscriptions (id, student_id, plan, status, started_at, expires_at, source, granted_by, note)
-         VALUES (?, ?, ?, 'trialing', ?, ?, 'trial', ?, ?)`,
-        [randomUUID(), student.id, plan ?? 'Free', now, addDays(now, TRIAL_DAYS), userId, `${TRIAL_DAYS}-day trial on enrolment`],
+         VALUES (?, ?, 'Free', 'trialing', ?, ?, 'trial', ?, ?)`,
+        [randomUUID(), student.id, now, addDays(now, TRIAL_DAYS), userId, `${TRIAL_DAYS}-day trial on enrolment`],
       )
-      if (plan) await conn.query('UPDATE students SET plan = ? WHERE id = ?', [plan, student.id])
+      // Keeps `students.plan` (the denormalized column `listUsers`/`getUserByIdentity`
+      // read) in step with the subscription just written above.
+      await conn.query('UPDATE students SET plan = ? WHERE id = ?', ['Free', student.id])
     }
 
     await conn.commit()
