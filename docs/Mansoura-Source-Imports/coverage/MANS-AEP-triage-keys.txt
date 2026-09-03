@@ -260,3 +260,111 @@ Not MCQ (skipped, not counted above): 18 short-answer "enumerate"/"compare" item
 Scope note: p.23-77 was assigned; CNS/Nervous-System content confirmed confined to p.23-29 by
 reading the full range — p.30 onward is Lecture (6) "GIT" and further unrelated lectures, logged
 in resource/MANS-AEP-resources.md.
+
+# ============================================================
+# Lane 4 (mans-aep-author4) — Anatomy Lecture (6) "GIT" + Lecture (10) "Urinary System"
+# (p.31-34 GIT; p.53 and p.55 Urinary. p.30-51 assigned for GIT but confirmed
+# confined to p.31-34 -- p.35-50 is Lectures 7-9 "Muscle & Fascia"/
+# "Respiratory System"/"CVS", unrelated lectures, out of scope; continued into
+# the p.52-56 Urinary fallback per the task brief's own instruction since GIT
+# alone yielded only 19 authored items, short of the 40-item threshold.)
+# Format as above. [authored aepgit-qNN / aepuri-qNN] / [held, reason]
+# ============================================================
+
+## src_68a72cf039eada5508f3 — Lecture (6) "GIT", sitting "intro", p.31, printed keys
+G0-Q1 :: C :: termination of the duct of submandibular salivary gland (oral cavity proper) [authored aepgit-q01]
+G0-Q2 :: C :: 65yo male colon cancer, upper left abdominal cavity (left colic flexure) [authored aepgit-q02]
+
+## src_68a72cf039eada5508f3 — Lecture (6) "GIT", sitting A, p.32-33, printed keys
+GA-Q1 :: E :: length of esophagus (25 cm) [authored aepgit-q03]
+GA-Q2 :: E :: tumor obliterating large intestine on left side (descending colon) [authored aepgit-q04]
+GA-Q3 :: D :: tumor obliterating distal part of small intestine (ilium/ileum) [authored aepgit-q05]
+GA-Q4 :: B :: cancer head of pancreas affects (duodenum) [authored aepgit-q06]
+GA-Q5 :: D :: termination of the parotid gland duct (vestibule of the mouth) [authored aepgit-q07]
+GA-Q6 :: B :: where does the stomach present (upper left part of the abdomen) [authored aepgit-q08]
+GA-Q7 :: D :: largest gland in the body (liver) [authored aepgit-q09]
+GA-Q8 :: C :: narrowest part of the intestine (vermiform appendix) [authored aepgit-q10]
+GA-Q9 :: B :: structure responsible for production of bile (liver) [authored aepgit-q11]
+GA-Q10 :: B :: where does the duct carrying the bile terminate (duodenum) [authored aepgit-q12]
+GA-Q11 :: A :: alimentary canal part characterized by sacculations (descending colon) [authored aepgit-q13]
+GA-Q12 :: C :: common pathway for food and air (pharynx) [authored aepgit-q14]
+GA-Q13 :: E :: longest part of the small intestine (ilium/ileum) [authored aepgit-q15]
+GA-Q14 :: B :: proximal part of the small intestine (printed key: jejunum) [authored aepgit-q16, doubt — the duodenum is in fact the small intestine's most proximal segment overall; the printed key most plausibly intends the proximal part of the freely mobile bowel (jejunum vs ileum), but no other page of this source states duodenum-first explicitly, so authored as printed per the lane's rule (milder than the B5/B9 same-source-contradiction precedent), doubt recorded in the question's own author_notes]
+GA-Q15 :: D :: length of the duodenum (10 inches) [authored aepgit-q17]
+
+## src_68a72cf039eada5508f3 — Lecture (6) "GIT", sitting B, p.34, printed keys
+GB-Q1 :: A :: 60yo female colon cancer, lower right part of the abdominal cavity (cecum) [authored aepgit-q18]
+GB-Q2 :: E :: widest part of GIT (stomach) [authored aepgit-q19]
+GB-Q3 :: B :: alimentary canal part receiving the opening of the bile duct (duodenum) [held, literal duplicate of GA-Q10]
+GB-Q4 :: C :: receives the termination of the duct of submandibular salivary gland (oral cavity) [held, literal duplicate of G0-Q1]
+
+## Not MCQ (skipped, not counted above), Lecture (6) "GIT"
+2 short-answer "enumerate" items on p.33 (salivary gland duct terminations recap; alimentary-canal
+structures ~10 inches long) and 5 short-answer "enumerate/compare" items on p.33-34 (jejunum vs
+ileum differences; stomach/liver/caecum sites; small vs large intestine differences; pharynx
+origin/termination; small intestine total length and parts). These printed model answers were
+read and used to cross-check and write concept `definition` fields for facts also tested by the
+MCQs above, without themselves being authored as questions.
+
+## Totals, Lecture (6) "GIT"
+Raw MCQ items triaged: 2 sitting intro (p.31) + 15 sitting A (p.32-33) + 4 sitting B (p.34) = 21
+Keys recovered: 21/21 (100% — every item carries a printed answer-column key)
+Authored: 19
+Held: 2 (both literal duplicates of an earlier sitting's item)
+Not MCQ (skipped, not counted above): 7 short-answer "enumerate"/"compare" items on p.33-34
+Scope note: p.30-51 was assigned for this lecture; GIT content confirmed confined to p.31-34 by
+reading the full range (p.30 is a divider, p.35 begins a new divider) — p.36-40 is Lecture (7)
+"Muscle & Fascia", p.42-45 is Lecture (8) "Respiratory System", p.47-50 is Lecture (9) "CVS",
+three lectures unrelated to GIT falling inside the originally-estimated page range but outside
+this module's assigned scope, logged in resource/MANS-AEP-resources.md for a later lane.
+
+## src_68a72cf039eada5508f3 — Lecture (10) "Urinary System", sitting A, p.53, printed keys
+U-Q1 :: B :: the trigone is located in (base of urinary bladder) [authored aepuri-q01]
+U-Q2 :: C :: the functional unit of the kidney is the (nephron) [authored aepuri-q02]
+U-Q3 :: C :: the neck of the urinary bladder is surrounded by the (internal urethral sphincter) [authored aepuri-q03]
+U-Q4 :: C :: the longest part of male urethra is (penile) [authored aepuri-q04]
+U-Q5 :: A :: the renal pelvis is formed by the union of (major calyces) [authored aepuri-q05]
+U-Q6 :: C :: the length of the ureter is usually (25 cm) [authored aepuri-q06]
+U-Q7 :: D :: the inner surface of the base of urinary bladder is the (trigone) [held, near-duplicate of U-Q1]
+U-Q8 :: B :: the part of the urinary bladder which receives the opening of ureters is the (trigone) [authored aepuri-q07]
+U-Q9 :: B :: length of female urethra is (4 cm) [authored aepuri-q08]
+
+## Not MCQ (skipped, not counted above), Lecture (10) "Urinary System", p.52 and p.54
+p.52: "لا يوجد أي أسئلة" (no questions), a divider/blank sitting — not counted. p.54: 7
+short-answer "enumerate/compare" items (urinary system components; nephron components; kidney
+tubules; kidney functions; male urethra parts; male vs female urethra comparison table; internal
+vs external urethral sphincter comparison table). These printed model answers were read and used
+to cross-check and write concept `definition` fields for facts also tested by the MCQs above,
+without themselves being authored as questions.
+
+## src_68a72cf039eada5508f3 — Lecture (10) "Urinary System", sitting B, p.55, printed keys
+U2-Q1 :: D :: where is the trigone of the urinary bladder (inner aspect of the posterior surface) [held, near-duplicate of U-Q1]
+U2-Q2 :: B :: where is the termination of the female urethra (at the vestibule in front of the vagina) [authored aepuri-q09]
+U2-Q3 :: E :: the internal urethral sphincter surrounds which structure (neck of the urinary bladder) [held, near-duplicate of U-Q3]
+U2-Q4 :: E :: which structure is surrounded by the internal urethral sphincter (neck of the urinary bladder) [held, literal duplicate of U2-Q3]
+U2-Q5 :: D :: what is the normal length of the ureter (25 cm) [held, literal duplicate of U-Q6]
+
+## Totals, Lecture (10) "Urinary System"
+Raw MCQ items triaged: 9 sitting A (p.53) + 5 sitting B (p.55) = 14
+Keys recovered: 14/14 (100% — every item carries a printed answer-column key)
+Authored: 9
+Held: 5 (all near/literal duplicate of an earlier sitting's item)
+Not MCQ (skipped, not counted above): 7 short-answer "enumerate/compare" items on p.54; p.52
+states no questions and is not counted
+Scope note: p.52-56 was the Urinary fallback range; real content confirmed confined to p.53 and
+p.55 (p.51 is a divider, p.52 states no questions, p.54 is short-answer only, p.56 begins the
+Lecture (11) "Lymphatic System" divider) — Lecture (11) onward is untriaged, left for a later
+lane per the task brief's own instruction, logged in resource/MANS-AEP-resources.md.
+
+## Totals, lane 4 (Lecture 6 "GIT" + Lecture 10 "Urinary System")
+Raw MCQ items triaged: 21 (GIT) + 14 (Urinary) = 35
+Keys recovered: 35/35 (100%)
+Authored: 28 (19 GIT + 9 Urinary)
+Held: 7 (2 GIT + 5 Urinary, all near/literal duplicate)
+Not MCQ (skipped, not counted above): 14 (7 GIT + 7 Urinary)
+Scope note: the full assigned range (p.30-51 for GIT, continuing into the p.52-56 Urinary
+fallback since GIT alone yielded only 19 authored items) has now been read and exhausted; the
+28-item combined total falls short of the 45-55 target because both lectures' real content is
+genuinely this thin, not because pages were skipped. Stopped at the end of p.55 (end of Lecture
+10) without opening Lecture (11) "Lymphatic System" (p.57+), left for a later lane per the task
+brief's own designation of Lymphatic as "untriaged, for later lanes."

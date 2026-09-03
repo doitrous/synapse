@@ -230,3 +230,113 @@ Ain Shams `ASU-AE-embryo2-new-concepts.md`) — these are additional, previously
 dependency-class gaps in lane 1/2's own `MANS-AEP-vip-2-mcq.md` and
 `MANS-AEP-anatomy-terms-osteology-mcq.md` files (not this lane's own rows), and all three
 also cleared once their source files were added to the chain.
+
+## Lane 4 (mans-aep-author4) — Anatomy Lecture (6) "GIT" + Lecture (10) "Urinary System"
+
+**Scope correction, read first:** the task brief assigned pp.30-51 for Lecture (6) "GIT",
+with a fallback to continue into the Urinary lecture (pp.52-56) if GIT yielded fewer than 40
+distinct keyed items. Reading the entire p.30-51 range (`pagetext.mjs status` confirmed 0
+garbled pages; `pagetext.mjs show` read in full) found GIT content confined to **p.31-34 (4
+pages)** — p.30 is a divider page (Arabic "Lecture (6) ANATOMY" cover) and p.35 begins a new
+divider for Lecture (7) "Muscle & Fascia" (p.36-40), followed by Lecture (8) "Respiratory
+System" (p.42-45) and Lecture (9) "CVS" (p.47-50) — three lectures unrelated to GIT that fall
+inside the originally-estimated page range but are outside this module's assigned scope. This
+is the same pattern lane 3 documented for CNS (assigned p.23-77, actual content p.23-29), one
+lecture further into the source. GIT's 21 raw MCQ items (2 intro + 15 sitting A + 4 sitting B,
+p.31-34) fell well short of the 40-item threshold, so this lane continued into the Urinary
+fallback per the task brief's own instruction.
+
+Urinary content (Lecture (10) "Urinary System") was likewise thinner than the assigned p.52-56
+range suggested: p.51 is a divider, p.52 states outright "لا يوجد أي أسئلة" (no questions), real
+MCQ content is confined to **p.53 (9 items) and p.55 (5 items, mostly duplicates of p.53)**,
+p.54 is short-answer/enumerate only, and p.56 begins the Lecture (11) "Lymphatic System"
+divider. Urinary's 14 raw MCQ items brought the combined GIT+Urinary total to 35 raw items,
+28 of them authored — short of the 45-55 target, but this reflects the source's genuinely thin
+coverage of these two lectures, not skipped pages. The full assigned range (GIT p.30-51 plus
+the Urinary p.52-56 fallback) has now been read in its entirety; this lane stopped at the end
+of p.55 (end of Lecture 10) without opening Lecture (11) "Lymphatic System" (p.57+), left for a
+later lane per the task brief's own designation of Lymphatic, Great Vessels of the Neck and
+Scalp & Face as "untriaged, for later lanes." Lectures (7-9) "Muscle & Fascia"/"Respiratory
+System"/"CVS" (p.35-50) are logged in `resource/MANS-AEP-resources.md` for whichever session
+next tackles this module, alongside Lymphatic/Great Vessels/Scalp & Face.
+
+Search-before-mint ran broad searches per the brief's specific warning (`find-existing.mjs` on
+~19 short literal terms, plus `grep -ril` root-word searches for `esophagus`, `duodenum`,
+`trigone`, `nephron`, `ureter`, `urethra`, `vermiform appendix`, `salivary gland`, `descending
+colon`/`colic flexure`/`large intestine`, `pharynx`, `bile duct`, `largest gland`, `stomach`
+across every university's `concept/`, `pending-live/` and `import-ready/concept/` directories),
+confirming this lane's own prior pattern and lane 3's "basic classification framework absent,
+disease-specific/clinical instances present in bulk" finding: Kasr 102-INT, Zagazig
+ZU-MED-107-git and Alexandria AU-MED-102/203 hold plenty of Year-2/3 GIT physiology,
+biochemistry and clinical-vignette concepts, but none state the plain gross-anatomy facts this
+lecture tests (duct terminations, organ locations, segment lengths, classification facts).
+Three near-misses were read in full and rejected as merge candidates, logged on their
+`rejected_merge_candidate_ids`: Zagazig `CON-GIT-2DABACF50C7E47` (right colic flexure's
+relation to the liver's quadrate lobe — a different, surgical-relations fact from the
+quadrant-location classification tested here) and 6October `CON-GIT-656A82EE65513B` (the
+appendix's exclusion from the small intestine — a different fact from its narrow calibre).
+Two apparent "trigone" hits (Kasr 104-CPS-anatomy's cardiac fibrous trigones, Alexandria
+AU-MED-203's dural oculomotor trigone) were read and confirmed to be unrelated structures
+sharing only the word "trigone", not logged as rejected merge candidates. 12 new concepts
+were minted for GIT and 3 for Urinary (all `docs/Mansoura-Source-Imports/concept/MANS-AEP-
+concepts-4.md`), each with a matching article in `MANS-AEP-git-uri-articles.md`.
+
+Three Urinary questions reuse concepts from Assiut's unimported `AUN-PMS-102-concepts.md`
+(`CON-REN-3995B4987178E0` internal urethral sphincter/intramural urethra, `CON-REN-
+50D97BAC2FE0D6` male urethra's four parts, `CON-REN-C5A7E3203D2EA4` ureter/renal-pelvis
+continuity), all citing that record's own article `ART-REN-AUN-PMS102-URINARY-SYSTEM-ANATOMY`
+on `library_ids`; sparse tag-only overlay rows are in `pending-live/MANS-AEP-uri-reuse-
+concepts.md`, gated `--with` `AUN-PMS-102-concepts.md` and `AUN-PMS-102-articles.md`.
+
+**Checkpoint table**
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Reused | New | Held |
+|---|--:|--:|--:|--:|--:|--:|
+| MANS-AEP Lecture 6 "GIT" (p.31-34, full range) | 21 raw MCQ items | 21/21 (100%) | 12 (all new) | 0 | 12 | 2 |
+| MANS-AEP Lecture 10 "Urinary System" (p.53, p.55, full range) | 14 raw MCQ items | 14/14 (100%) | 6 (3 reused, 3 new) | 3 | 3 | 5 |
+| **Lane 4 total** | **35** | **35/35 (100%)** | **18** | **3** | **15** | **7** |
+
+**Held items (7 of 35 raw MCQ items)** — all with keys recovered, no unrecoverable keys:
+- 2 GIT items (`GB-Q3`, `GB-Q4`) are literal duplicates of an earlier sitting's item within the
+  same lecture.
+- 5 Urinary items (`U-Q7`, `U2-Q1`, `U2-Q3`, `U2-Q4`, `U2-Q5`) are near- or literal-duplicate
+  restatements of an earlier sitting's item. Full list with reasons in
+  `MANS-AEP-triage-keys.txt`.
+- One GIT item (`GA-Q14`, "proximal part of the small intestine") carries a milder doubt than
+  the lane's B5/B9 precedent — the printed key names the jejunum, though the duodenum is in
+  fact the small intestine's overall most-proximal segment — but was authored per the lane's
+  rule (no other page of this source states duodenum-first explicitly), with the doubt recorded
+  on the question's own `author_notes` rather than held.
+- 7 GIT and 7 Urinary short-answer "enumerate"/"compare" items (p.33-34 and p.54) are not MCQs
+  and were not triaged as questions — noted in `MANS-AEP-triage-keys.txt`'s totals lines, not
+  counted in the 35.
+
+**Gate results:** `validate-content-batch.mjs` on both question files (`MANS-AEP-git-mcq.md`
+19 items, `MANS-AEP-uri-mcq.md` 9 items) against their concept/article/resource siblings
+returned `errors: []` (only expected `needs_evidence` notes on Draft main concepts). The
+concept file (`MANS-AEP-concepts-4.md`) validated clean against its article/resource siblings
+once an initial `SYS-GI` placement typo was corrected to the canonical `SYS-GIT` node
+(discovered by this lane; `SYS-REN` for the Urinary concepts was already correct). The
+`pending-live` overlay validated clean (`errors: []`) against `AUN-PMS-102-concepts.md`/
+`-articles.md`. `gate.mjs batch` on both question files returned `errors=0`. An 8-file
+`gate.mjs simulate`, in apply order (Assiut `AUN-PMS-102-concepts.md`/`-articles.md`, this
+lane's own `concepts-4.md`/`git-uri-articles.md`/`resources.md`/`uri-reuse-concepts.md`, then
+both question files), returned `created=115 updated=3 rejected=0 errors=0` — the 3 `updated`
+rows are the sparse pending-live overlay's tag-only updates to the 3 reused Assiut concepts,
+and every question in both files carries a populated `library_ids`.
+
+**A pre-existing, not-lane-4-specific finding, flagged for the next cleanup pass rather than
+fixed here:** running `validate-content-batch.mjs` directly against the article file itself
+(rather than the question file, this lane's required gate target) surfaces 15 "missing required
+sections for TPL-CONCEPT: Definition, Mechanism, Key determinants, Clinical significance"
+errors — this lane's articles use lane 1-3's own established freeform `### <heading>` section
+style (e.g. lane 3's `### The three parts, bottom to top`) rather than those four canonical
+headings. Re-running the identical direct-article validate against lane 3's own already-landed
+`MANS-AEP-cns-articles.md` reproduces the same 15-per-batch pattern (24 total errors there, 8
+records), confirming this is a systemic gap shared by every article authored under this
+convention across all four lanes, not something this lane introduced — `module_subject`'s
+mismatched-prefix half of the same error (a "MANS-AEP (Anatomy/Embryology/Physiology)" parent
+segment against a bare "MANS-AEP" `module` field) was cheap to fix and has been corrected in
+this lane's own file, but the section-heading structural issue was left as-is to keep this
+lane's layout consistent with the three lanes that precede it, per the task brief's "copy the
+layout exactly" instruction.
