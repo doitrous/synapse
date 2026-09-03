@@ -59,3 +59,32 @@ column. One entry per authored question, grouped by the file it lives in.
 - **pending-arr-q01** (Broad-complex tachycardia — default assumption) — au: Practical CVS Qs Bank, ASM Minds (Telegram addendum), Spot 43.3
 - **pending-arr-q02** (Ventricular fibrillation — rate and output) — au: Practical CVS Qs Bank, ASM Minds (Telegram addendum), Spot 32.3
 
+### question/AU-MED-103-biochemistry-2-mcq.md (Step 2 lane 2, W1-103-BIOC bioc2)
+- **bioc2-q01** (Total body iron, haemosiderin overflow) — au: MCQs - Blood Agha MCQ, p.4, Q7; EOM - Blood End Egyptian 1, p.1, Q3
+- **bioc2-q02** (Transferrin's ferric iron, receptor distribution) — au: EOM - Blood Final Egyptian final, p.6, Q26-27
+- **bioc2-q03** (Iron in cytochromes) — au: MCQs - Blood Agha MCQ, p.13, Q65-66
+- **bioc2-q04** to **bioc2-q09** (Immunoglobulin cluster: IgG placenta, IgA secretory, IgM pentamer, IgE hypersensitivity, Ig domains, IgG plasma ranking) — au: MCQs - Blood Agha MCQ, p.5-8, Q22-33, Q45, Q64; EOM - Blood End Egyptian 1, p.3, Q13; EOM - Blood Final Egyptian final, p.6/7, Q28
+- **bioc2-q10** (Dicumarol/warfarin mechanism, HIT-LIVE) — au: MCQs - Blood Agha MCQ, p.6/7, Q26
+- **bioc2-q11** (Methotrexate/DHFR) — au: MCQs - Blood Agha MCQ, p.6, Q16
+- **bioc2-q12** (FIGLU vs methylmalonic acid) — au: MCQs - Blood Agha MCQ, p.6, Q18
+- **bioc2-q13** (Porphyrin Type III) — au: MCQs - Blood Agha MCQ, p.8/9, Q36
+- **bioc2-q14** (Sickle solubility/electrophoresis) — au: MCQs - Blood Agha MCQ, p.12, Q55-57
+- **bioc2-q15** (NADH-cytochrome b5 reductase) — au: MCQs - Blood Agha MCQ, p.13, Q59
+- **bioc2-q16** (Thalassaemia mutation exclusion) — au: MCQs - Blood Agha MCQ, p.3, Q2
+- **bioc2-q17** (HbA2 composition) — au: MCQs - Blood Agha MCQ, p.6/7, Q22-23
+- **bioc2-q18** (G6PD tissue vulnerability, HIT-LIVE) — au: MCQs - CHO Metabolism MCQs (1), p.16/19, Q73, Q95
+- **bioc2-q19** (PFK-1 allosteric regulation, NEW concept) — au: MCQs - CHO Metabolism MCQs (1), p.3/4, Q12
+- **bioc2-q20** (Haem vs non-haem iron bioavailability) — au: MCQs - Blood Agha MCQ, p.9, Q34-35
+
+### pending-live/AU-MED-103-biochemistry-2-kasr-questions.md (Step 2 lane 2, W1-103-BIOC bioc2)
+- **bioc2kasr-q01** to **bioc2kasr-q18** (Kasr 103-BMS carbohydrate/heme/lipid HIT-PENDING reuse: ATP yield, NAD+ regeneration, CAC cyclic mechanism, fed/fasted switch, glucose-dependent tissues, substrate-level phosphorylation, HMP non-oxidative phase, HbA1c glycation site, glycogen phosphorylase covalent modification, pyruvate kinase deficiency, glycogenolysis rate-limiting enzyme, CAC not-an-intermediate, B12 cobalt/enzymes, B12 dietary source, PDH oxidative decarboxylation, glutathione/NADPH, CAC CO2-releasing steps, heme oxygenase/bilirubin) — au: MCQs - CHO Metabolism MCQs (1) and MCQs - Blood Agha MCQ, various pages per each item's own `source_citation`; see that file directly for the full per-item page/Q# list.
+
+### pending-live/AU-MED-103-biochemistry-2-au102-questions.md (Step 2 lane 2, W1-103-BIOC bioc2)
+- **bioc2au102-q01** (Essential fructosuria vs HFI) — au: EOM - Blood End Egyptian 1, p.4, Q20; EOM - Blood end wafdeen final, p.10/11, Q38, Q40; MCQs - CHO Metabolism MCQs (1), p.24, Q101
+- **bioc2au102-q02** (Galactosaemia enzyme/cataract mechanism) — au: MCQs - CHO Metabolism MCQs (1), p.13/20, Q61, Q103
+- **bioc2au102-q03** (Malate shuttle) — au: MCQs - CHO Metabolism MCQs (1), p.4/5, Q17
+- **bioc2au102-q04** (ALA synthase reaction/cofactor) — au: MCQs - Blood Agha MCQ, p.4-7, Q8, Q10, Q24-25
+- **bioc2au102-q05** (Hematin/ALA synthase feedback) — au: MCQs - Blood Agha MCQ, p.12, Q49
+- **bioc2au102-q06** (Gluconeogenesis ATP cost) — au: MCQs - CHO Metabolism MCQs (1), p.5, Q20-21
+- **bioc2au102-q07** (Haem precursors except) — au: MCQs - Blood Agha MCQ, p.5, Q11
+

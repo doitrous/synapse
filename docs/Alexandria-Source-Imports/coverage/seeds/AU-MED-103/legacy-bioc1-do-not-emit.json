@@ -1,0 +1,15 @@
+{
+  "lane": "au103",
+  "cluster": "bioc1",
+  "header": "BOOKKEEPING ONLY -- never run emit-mcq.mjs on this file. Represents the 30 already-landed, hand-authored items in question/AU-MED-103-biochemistry-mcq.md (commit c4b3e557, Step 2 lane 1, W1-103-BIOC), which predates this repo's seed+emit-mcq convention and has no seed of its own. Exists solely so ledger.mjs's 'authored' count for the AU-MED-103 Biochemistry triage is honest instead of showing those 30 questions as still-remaining triage material.",
+  "questions": [
+    { "key": "bioc1-q01" }, { "key": "bioc1-q02" }, { "key": "bioc1-q03" }, { "key": "bioc1-q04" },
+    { "key": "bioc1-q05" }, { "key": "bioc1-q06" }, { "key": "bioc1-q07" }, { "key": "bioc1-q08" },
+    { "key": "bioc1-q09" }, { "key": "bioc1-q10" }, { "key": "bioc1-q11" }, { "key": "bioc1-q12" },
+    { "key": "bioc1-q13" }, { "key": "bioc1-q14" }, { "key": "bioc1-q15" }, { "key": "bioc1-q16" },
+    { "key": "bioc1-q17" }, { "key": "bioc1-q18" }, { "key": "bioc1-q19" }, { "key": "bioc1-q20" },
+    { "key": "bioc1-q21" }, { "key": "bioc1-q22" }, { "key": "bioc1-q23" }, { "key": "bioc1-q24" },
+    { "key": "bioc1-q25" }, { "key": "bioc1-q26" }, { "key": "bioc1-q27" }, { "key": "bioc1-q28" },
+    { "key": "bioc1-q29" }, { "key": "bioc1-q30" }
+  ]
+}

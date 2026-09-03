@@ -1,0 +1,16 @@
+{
+  "lane": "au103",
+  "cluster": "bioc1pending",
+  "header": "BOOKKEEPING ONLY -- never run emit-mcq.mjs on this file. Represents the 33 already-landed, hand-authored items in pending-live/AU-MED-103-biochemistry-questions.md (Step 2 lane 1, W1-103-BIOC), the 12 HIT-PENDING idea-group overlay against Kasr 103-BMS/102-INT, which predates this repo's seed+emit-mcq convention and has no seed of its own. Exists solely so ledger.mjs's 'authored' count for the AU-MED-103 Biochemistry triage is honest instead of showing those 33 questions as still-remaining triage material.",
+  "questions": [
+    { "key": "bioc1pending-q01" }, { "key": "bioc1pending-q02" }, { "key": "bioc1pending-q03" }, { "key": "bioc1pending-q04" },
+    { "key": "bioc1pending-q05" }, { "key": "bioc1pending-q06" }, { "key": "bioc1pending-q07" }, { "key": "bioc1pending-q08" },
+    { "key": "bioc1pending-q09" }, { "key": "bioc1pending-q10" }, { "key": "bioc1pending-q11" }, { "key": "bioc1pending-q12" },
+    { "key": "bioc1pending-q13" }, { "key": "bioc1pending-q14" }, { "key": "bioc1pending-q15" }, { "key": "bioc1pending-q16" },
+    { "key": "bioc1pending-q17" }, { "key": "bioc1pending-q18" }, { "key": "bioc1pending-q19" }, { "key": "bioc1pending-q20" },
+    { "key": "bioc1pending-q21" }, { "key": "bioc1pending-q22" }, { "key": "bioc1pending-q23" }, { "key": "bioc1pending-q24" },
+    { "key": "bioc1pending-q25" }, { "key": "bioc1pending-q26" }, { "key": "bioc1pending-q27" }, { "key": "bioc1pending-q28" },
+    { "key": "bioc1pending-q29" }, { "key": "bioc1pending-q30" }, { "key": "bioc1pending-q31" }, { "key": "bioc1pending-q32" },
+    { "key": "bioc1pending-q33" }
+  ]
+}
