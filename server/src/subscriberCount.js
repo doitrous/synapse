@@ -107,6 +107,40 @@ export function publicSubscriberCountPayload(doc, { realCountNow, now = Date.now
   return { enabled: true, value, ratePerSecond }
 }
 
+/**
+ * Validates a superadmin's patch and decides the document to store.
+ *
+ * `epoch`/`realCountAtEpoch` are re-captured — set to `now`/`realCountNow` —
+ * whenever `base` changes, or whenever the document has never been given an
+ * epoch (`current.epoch` falsy: the very first save). Left untouched
+ * otherwise, so toggling `enabled` or retuning `minPct`/`maxPct` does not
+ * reset the growth clock.
+ */
+export function nextSubscriberDisplayDoc(current, patch, { realCountNow, now = Date.now() }) {
+  const enabled = Boolean(patch?.enabled)
+  const base = Number(patch?.base)
+  const minPct = Number(patch?.minPct)
+  const maxPct = Number(patch?.maxPct)
+  if (!Number.isFinite(base) || base < 0) {
+    return { ok: false, error: 'base must be a non-negative number' }
+  }
+  if (!Number.isFinite(minPct) || !Number.isFinite(maxPct) || minPct < 0 || maxPct < minPct) {
+    return { ok: false, error: 'minPct/maxPct must be numbers with minPct <= maxPct' }
+  }
+  const needsEpoch = base !== current.base || !current.epoch
+  return {
+    ok: true,
+    doc: {
+      enabled,
+      base,
+      minPct,
+      maxPct,
+      epoch: needsEpoch ? now : current.epoch,
+      realCountAtEpoch: needsEpoch ? realCountNow : current.realCountAtEpoch,
+    },
+  }
+}
+
 /** The stored document, or the defaults if the key has never been written. */
 export async function readSubscriberDisplay() {
   const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [SUBSCRIBER_DISPLAY_STATE_KEY])

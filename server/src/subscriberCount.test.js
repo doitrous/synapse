@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { dailyMultiplierPercent, syntheticValueAt, computeSubscriberCount, publicSubscriberCountPayload, DEFAULT_SUBSCRIBER_DISPLAY, SUBSCRIBER_DISPLAY_STATE_KEY } from './subscriberCount.js'
+import { dailyMultiplierPercent, syntheticValueAt, computeSubscriberCount, publicSubscriberCountPayload, nextSubscriberDisplayDoc, DEFAULT_SUBSCRIBER_DISPLAY, SUBSCRIBER_DISPLAY_STATE_KEY } from './subscriberCount.js'
 
 test('the daily multiplier always lands within [minPct, maxPct]', () => {
   for (let day = 0; day < 2000; day++) {
@@ -93,4 +93,45 @@ test('the state key and default document match the spec defaults', () => {
   assert.equal(DEFAULT_SUBSCRIBER_DISPLAY.base, 790)
   assert.equal(DEFAULT_SUBSCRIBER_DISPLAY.minPct, 0.3)
   assert.equal(DEFAULT_SUBSCRIBER_DISPLAY.maxPct, 2.5)
+})
+
+test('changing base re-captures epoch and the real count at that moment', () => {
+  const current = { enabled: true, base: 790, epoch: 1000, realCountAtEpoch: 50, minPct: 0.3, maxPct: 2.5 }
+  const patch = { enabled: true, base: 900, minPct: 0.3, maxPct: 2.5 }
+  const result = nextSubscriberDisplayDoc(current, patch, { realCountNow: 77, now: 5000 })
+  assert.equal(result.ok, true)
+  assert.equal(result.doc.epoch, 5000)
+  assert.equal(result.doc.realCountAtEpoch, 77)
+  assert.equal(result.doc.base, 900)
+})
+
+test('leaving base unchanged keeps the existing epoch and real count', () => {
+  const current = { enabled: true, base: 790, epoch: 1000, realCountAtEpoch: 50, minPct: 0.3, maxPct: 2.5 }
+  const patch = { enabled: false, base: 790, minPct: 0.5, maxPct: 2 }
+  const result = nextSubscriberDisplayDoc(current, patch, { realCountNow: 77, now: 5000 })
+  assert.equal(result.ok, true)
+  assert.equal(result.doc.epoch, 1000)
+  assert.equal(result.doc.realCountAtEpoch, 50)
+  assert.equal(result.doc.enabled, false)
+  assert.equal(result.doc.minPct, 0.5)
+})
+
+test('the very first save captures an epoch even when base matches the default', () => {
+  const current = { ...DEFAULT_SUBSCRIBER_DISPLAY } // epoch: 0 → "never configured"
+  const result = nextSubscriberDisplayDoc(current, { enabled: true, base: 790, minPct: 0.3, maxPct: 2.5 }, { realCountNow: 12, now: 9000 })
+  assert.equal(result.ok, true)
+  assert.equal(result.doc.epoch, 9000)
+  assert.equal(result.doc.realCountAtEpoch, 12)
+})
+
+test('a negative base is refused', () => {
+  const current = { ...DEFAULT_SUBSCRIBER_DISPLAY, epoch: 1000 }
+  const result = nextSubscriberDisplayDoc(current, { enabled: true, base: -5, minPct: 0.3, maxPct: 2.5 }, { realCountNow: 0, now: 1000 })
+  assert.equal(result.ok, false)
+})
+
+test('minPct greater than maxPct is refused', () => {
+  const current = { ...DEFAULT_SUBSCRIBER_DISPLAY, epoch: 1000 }
+  const result = nextSubscriberDisplayDoc(current, { enabled: true, base: 790, minPct: 3, maxPct: 1 }, { realCountNow: 0, now: 1000 })
+  assert.equal(result.ok, false)
 })
