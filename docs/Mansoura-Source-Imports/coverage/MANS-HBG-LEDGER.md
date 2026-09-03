@@ -43,6 +43,7 @@
 | histoprev1 | 40 | 0 | 0 | 40 |
 | histoprev2 | 50 | 0 | 0 | 50 |
 | histoprev3 | 44 | 16 | 0 | 60 |
+| histoprev4 | 31 | 19 | 0 | 50 |
 
 ## Held
 - held-d61-q27 — cross-batch repeat — twin of histoprev1 q36 (Verhoeff's stain for elastic fibers, already authored/live via CON-FND-F0C32F89547AB1); دفعة 61 block, p25
@@ -61,6 +62,25 @@
 - held-d595857-q16 — cross-batch repeat — twin of histoprev2 q85 (hair colour pigment located in the hair cortex, already authored via CON-FND-4E1B8F3C6A2D75); دفعة 59/58/57 block, p33
 - held-d595857-q19 — cross-batch repeat — twin of this cluster's own q117/same-block Q2 (inner folds of mitochondria = cristae); دفعة 59/58/57 block, p33
 - held-d595857-q20 — cross-batch repeat — twin of this cluster's own q104/دفعة 60 Q1 (intracellular digestion = lysosomes); دفعة 59/58/57 block, p33
+- d59-q28 — cross-batch repeat — astrocytes important for nutrition of neurons, already authored as histoprev1 q26 (same fact, neuroglia astrocyte function); دفعة 59/58/57 block Q28, p35
+- d59-q37 — cross-batch repeat — mitochondria produce ATP/powerhouse of the cell, already authored as histoprev1 q30; دفعة 59/58/57 block Q37, p37
+- d59-q44 — cross-batch repeat — microtubules form the mitotic spindle, already authored (spindle protein = tubulin, histoprev2); دفعة 59/58/57 block Q44, p38
+- b4-q06 — cross-bank repeat — inner folds of mitochondria = cristae, already authored (histoprev3, cristae); Important MCQ Final Q6, p3
+- b4-q07 — cross-bank repeat — organelle that can divide/increase in number = mitochondria, already authored (histoprev2 q77); Important MCQ Final Q7, p3
+- b4-q08 — cross-bank repeat — organelle of cellular respiration = mitochondria, same fact as powerhouse concept already authored (histoprev1 q30); Important MCQ Final Q8, p3
+- b4-q09 — cross-bank repeat — function of mitochondria = produce ATP, twin of histoprev1 q30 and of this window's held d59-q37; Important MCQ Final Q9, p3
+- b4-q11 — cross-bank repeat — smooth ER helps muscle contraction (sarcoplasmic reticulum Ca), already authored as histoprev1 q3; Important MCQ Final Q11, p4
+- b4-q14 — within-window repeat — Golgi stained with silver, authored here as d59-q38 (same question); Important MCQ Final Q14, p4
+- b4-q15 — cross-bank repeat — intracellular digestion = lysosomes, already authored (CON-FND-C329703B4732F1, histoprev); Important MCQ Final Q15, p4
+- b4-q16 — cross-bank repeat — lysosomes demonstrated by acid phosphatase, already authored as histoprev1 q17 (same organelle/marker fact); Important MCQ Final Q16, p5
+- b4-q19 — cross-bank repeat — microtubules play role in mitotic spindle formation, twin of held d59-q44 and histoprev2 spindle concept; Important MCQ Final Q19, p5
+- b4-q21 — cross-bank/within-bank repeat — microtubules form the mitotic spindle, twin of q19 and histoprev2 spindle concept; Important MCQ Final Q21, p6
+- b4-q22 — cross-bank repeat — molecular structure of mitotic spindle = tubulin, already authored (histoprev2, spindle protein = tubulin); Important MCQ Final Q22, p6
+- b4-q23 — cross-bank repeat — endogenous pigment = melanin, already authored (histoprev3, same question and answer); Important MCQ Final Q23, p6
+- b4-q24 — cross-bank repeat — wear-and-tear (age) pigment = lipofuscin, already authored (histoprev2, lipofuscin as endogenous age pigment); Important MCQ Final Q24, p6
+- b4-q25 — within-window repeat — condensed nucleus is deeply stained, authored here as d59-q43 (same question); Important MCQ Final Q25, p6
+- b4-q28 — cross-bank repeat — nucleolus prominent in protein-synthesis-active cells, already authored (histoprev3 q100); Important MCQ Final Q28, p7
+- b4-q30 — cross-bank repeat — lung alveoli lined with simple squamous epithelium, already authored (histoprev3 q110); Important MCQ Final Q30, p7
 
 ## Remaining
 - Q1  :: E :: succinic dehydrogenase enzyme marker = mitochondria

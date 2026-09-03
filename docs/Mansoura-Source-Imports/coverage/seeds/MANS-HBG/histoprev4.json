@@ -1,0 +1,918 @@
+{
+  "lane": "MANS-HBG",
+  "cluster": "histoprev4",
+  "header": "MANS-HBG · Histology/Cell-biology — authored from two banks: Histo Previous MCQ Exams Final.pdf p.35-38 (Q26-45, the tail of the دفعة 59/58/57 Exams block, finishing that file) and Histo MCQ Formatives + Exams Final.pdf p.2-7 (Q1-30 of the Important MCQ Final block, opening that bank). Keys read from each page's printed answer-letter column by render. Cross-batch/cross-bank repeats held (see ledger).",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HBG",
+    "exam_weight_by_year": { "MANS_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_168d0f3dc020c263b89d"],
+    "source_citation": "Histo Previous MCQ Exams Final.pdf, p.{page}",
+    "topic": "Histology",
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "d59-q26", "page": 35,
+      "title": "L/M appearance of the plasma cell",
+      "question": "The L/M of plasma cells show:-",
+      "options": {
+        "A": "Negative golgi image",
+        "B": "Few r-ER",
+        "C": "Metachromatic granules",
+        "D": "Kidney shaped nucleus",
+        "E": "Numerous phagosomes"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The plasma cell is packed with rough endoplasmic reticulum for antibody synthesis, which makes its cytoplasm deeply basophilic, and its large Golgi apparatus sits as a pale, unstained area to one side of the nucleus. This clear juxtanuclear zone is described as the \"negative Golgi image\" because the Golgi excludes the basophilic ribosomes around it and so stains as a hole. Together with the eccentric clock-face (cartwheel) nucleus, this is the classic light-microscope signature of the plasma cell.",
+        "B": "Incorrect. Plasma cells are exceptionally rich in rough endoplasmic reticulum, not poor in it — the abundant rER is exactly what gives their cytoplasm its strong basophilia.",
+        "C": "Incorrect. Cytoplasmic metachromatic granules are the hallmark of the mast cell, whose heparin stains a different colour from the dye; the plasma cell has no such granules.",
+        "D": "Incorrect. A kidney- (or horseshoe-) shaped nucleus points to the monocyte; the plasma cell's nucleus is round and eccentric with a clock-face chromatin pattern.",
+        "E": "Incorrect. Numerous phagosomes belong to the actively phagocytic macrophage. The plasma cell is a secretory, not a phagocytic, cell."
+      },
+      "main_concept": "CON-FND-CC62175DBE7355",
+      "concept_ids": ["CON-FND-CC62175DBE7355"],
+      "subtopic": "Connective tissue — plasma cell",
+      "module_subject": "MANS-HBG > Histology > Connective Tissue > Plasma cell",
+      "library_ids": ["ART-MANS-HBG-PLASMA-CELL-MORPHOLOGY"],
+      "learning_objective": "Recognise the negative Golgi image as a light-microscope feature of the plasma cell.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q26, p35" }
+    },
+    {
+      "key": "d59-q27", "page": 35,
+      "title": "Functional property of the axon",
+      "question": "The axon of nerve fiber:-",
+      "options": {
+        "A": "Show decreased diameter gradually towards their end",
+        "B": "Show extensive branching along its length",
+        "C": "Has Nissel granules in its content for protein synthesis",
+        "D": "Responsible for nerve conduction away from cell body",
+        "E": "Short and thick"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The axon keeps a fairly uniform diameter along its length; it does not taper progressively towards its end the way a dendrite's branches do.",
+        "B": "Incorrect. The axon gives off only occasional collateral branches and branches mainly at its terminal; it is the dendrites that branch extensively and repeatedly.",
+        "C": "Incorrect. Nissl granules (rough ER) are confined to the cell body and dendrites and are absent from the axon and the axon hillock — the axon has no protein-synthetic machinery of its own.",
+        "D": "Correct. The axon is the single, long process that conducts the nerve impulse away from the neuron's cell body towards the next cell (efferent conduction). It arises from the axon hillock, lacks Nissl bodies, and keeps a constant diameter, distinguishing it from the multiple, tapering, Nissl-containing dendrites that carry impulses towards the cell body. This one-way, away-from-the-soma direction of conduction is the axon's defining functional property.",
+        "E": "Incorrect. The axon is characteristically long and slender, not short and thick; length is one of the features that separates it from the shorter dendrites."
+      },
+      "main_concept": "CON-NEU-870A2390839248",
+      "concept_ids": ["CON-NEU-870A2390839248"],
+      "subtopic": "Nervous tissue — neuron",
+      "module_subject": "MANS-HBG > Histology > Nervous Tissue > Neuron",
+      "library_ids": ["ART-MANS-HBG-AXON-POLARITY-IMPULSE-DIRECTION"],
+      "learning_objective": "State that the axon conducts the impulse away from the neuron cell body.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q27, p35" }
+    },
+    {
+      "key": "d59-q29", "page": 35,
+      "title": "Feature of the dorsal root ganglion",
+      "question": "As regard dorsal root ganglia:-",
+      "options": {
+        "A": "Cell bodies are mostly of the small uniform size",
+        "B": "They contain spinal motor neurons",
+        "C": "They are sympathetic motor neurons",
+        "D": "They have incomplete capsule of satellite cells",
+        "E": "They have poor blood supply"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Dorsal root ganglion cell bodies are large and of fairly uniform large size; it is the autonomic ganglion whose neurons are smaller and more varied in size.",
+        "B": "Incorrect. The dorsal root ganglion holds the pseudounipolar cell bodies of primary sensory neurons, not motor neurons — spinal motor neurons lie in the ventral horn of the cord.",
+        "C": "Incorrect. Its neurons are sensory, not sympathetic motor; sympathetic motor cell bodies sit in the paravertebral and prevertebral autonomic ganglia instead.",
+        "D": "Incorrect. Each sensory cell body is wrapped by a complete capsule of satellite cells; an incomplete satellite capsule is a feature of autonomic, not dorsal root, ganglia.",
+        "E": "Correct. Among the options offered, the poor (relatively sparse) blood supply is the true statement about the dorsal root ganglion. The other features listed all describe the autonomic ganglion instead — small, variably sized multipolar cell bodies with an incomplete satellite-cell capsule — whereas the dorsal root ganglion has large, uniform pseudounipolar sensory cell bodies with a complete capsule. Reading the ganglion by these paired contrasts is exactly what the question tests."
+      },
+      "main_concept": "CON-NEU-5521BED2DFC749",
+      "concept_ids": ["CON-NEU-5521BED2DFC749"],
+      "subtopic": "Nervous tissue — ganglia",
+      "module_subject": "MANS-HBG > Histology > Nervous Tissue > Ganglia",
+      "library_ids": ["ART-MANS-HBG-GANGLIA-SENSORY-VS-AUTONOMIC"],
+      "learning_objective": "Contrast the dorsal root (sensory) ganglion with the autonomic ganglion.",
+      "difficulty": "Moderate", "question_type": "Reasoning", "reasoning_level": 2,
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q29, p35" }
+    },
+    {
+      "key": "d59-q30", "page": 35,
+      "title": "Content of the granular layer of epidermis",
+      "question": "The cells of granular layer of epidermis contain:-",
+      "options": {
+        "A": "Melanin pigment",
+        "B": "Carotene pigment",
+        "C": "Eleidin granules",
+        "D": "Keratohyaline granules",
+        "E": "Trichohyaline granules"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Melanin is made by melanocytes and taken up mainly by the basal keratinocytes; it is not the defining content of the granular layer.",
+        "B": "Incorrect. Carotene is an exogenous dietary pigment deposited in the subcutaneous fat and horny layer, not a granule of the stratum granulosum.",
+        "C": "Incorrect. Eleidin is the refractile material of the stratum lucidum (clear layer) of thick skin, formed one layer more superficially, from the breakdown of keratohyalin.",
+        "D": "Correct. The stratum granulosum is named for the keratohyalin granules that fill its cells — intensely basophilic, irregular granules of profilaggrin and associated proteins. These granules mark the start of the keratinisation programme: their contents help aggregate the keratin filaments as the cell dies and flattens into the horny layer above. Keratohyalin is therefore the identifying content of the granular layer specifically.",
+        "E": "Incorrect. Trichohyaline granules belong to the inner root sheath of the hair follicle, not to the epidermal granular layer."
+      },
+      "main_concept": "CON-DER-2A56D2FE509FB3",
+      "concept_ids": ["CON-DER-2A56D2FE509FB3"],
+      "subtopic": "Integument — epidermis",
+      "module_subject": "MANS-HBG > Histology > Integumentary > Epidermis",
+      "library_ids": ["ART-MANS-HBG-EPIDERMIS-LAYERS-KERATINIZATION"],
+      "learning_objective": "Identify keratohyalin granules as the content of the granular layer.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q30, p35" }
+    },
+    {
+      "key": "d59-q31", "page": 36,
+      "title": "Function of the Langerhans cell",
+      "question": "The function of Langerhans cell in skin is:-",
+      "options": {
+        "A": "Give skin its color",
+        "B": "Unknown",
+        "C": "Antibody secretion",
+        "D": "Eleidin formation",
+        "E": "Antigen presenting cell (APC)"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Skin colour comes from melanin made by the melanocyte, a different dendritic cell of the epidermis; the Langerhans cell has no pigment role.",
+        "B": "Incorrect. The Langerhans cell's function is well established — this was once uncertain historically, but it is now firmly known to be immunological.",
+        "C": "Incorrect. Antibody secretion is the plasma cell's job; the Langerhans cell processes and presents antigen but does not itself secrete antibody.",
+        "D": "Incorrect. Eleidin is formed by keratinocytes of the clear layer, not by the Langerhans cell.",
+        "E": "Correct. The Langerhans cell is the resident antigen-presenting (dendritic) cell of the epidermis. It is a bone-marrow-derived cell scattered among the keratinocytes of the stratum spinosum, where it captures antigen entering through the skin, processes it, and migrates to the regional lymph node to present it to T lymphocytes. This makes it the sentinel of cutaneous immune surveillance, a member of the mononuclear phagocyte / dendritic-cell system."
+      },
+      "main_concept": "CON-HEM-D1628423BE0844",
+      "concept_ids": ["CON-HEM-D1628423BE0844"],
+      "subtopic": "Integument — epidermal cells",
+      "module_subject": "MANS-HBG > Histology > Integumentary > Epidermal cells",
+      "library_ids": ["ART-MANS-HBG-LANGERHANS-CELL-APC"],
+      "learning_objective": "State that the Langerhans cell is the antigen-presenting cell of the epidermis.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q31, p36" }
+    },
+    {
+      "key": "d59-q32", "page": 36,
+      "title": "Content of the papillary layer of the dermis",
+      "question": "The papillary layer of the skin contains:-",
+      "options": {
+        "A": "Meissner's corpuscle",
+        "B": "Krause end bulb",
+        "C": "Ruffini corpuscles",
+        "D": "Pacinian corpuscle",
+        "E": "Few cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The papillary layer is the thin, superficial layer of the dermis that raises the dermal papillae into the epidermis. Its papillae house Meissner's (tactile) corpuscles, the encapsulated touch receptors that sit just beneath the epidermis where fine touch is sampled. Being loose, cellular and highly vascular, and carrying these superficial touch receptors, is what defines the papillary layer against the deeper reticular layer.",
+        "B": "Incorrect. Krause end bulbs lie deeper in the dermis and in mucocutaneous junctions, not characteristically in the papillary layer.",
+        "C": "Incorrect. Ruffini corpuscles are stretch receptors of the deeper reticular dermis, not the papillary layer.",
+        "D": "Incorrect. The large, onion-layered Pacinian corpuscle sits deep in the reticular dermis and subcutaneous tissue, far below the papillary layer.",
+        "E": "Incorrect. The papillary layer is comparatively rich in cells; it is the deeper reticular layer that is dense and relatively cell-poor."
+      },
+      "main_concept": "CON-DER-56784AB396C13E",
+      "concept_ids": ["CON-DER-56784AB396C13E"],
+      "subtopic": "Integument — dermis",
+      "module_subject": "MANS-HBG > Histology > Integumentary > Dermis",
+      "library_ids": ["ART-MANS-HBG-DERMIS-PAPILLARY-RETICULAR"],
+      "learning_objective": "Locate Meissner's corpuscle in the papillary layer of the dermis.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q32, p36" }
+    },
+    {
+      "key": "d59-q33", "page": 36,
+      "title": "Layer absent from thin skin",
+      "question": "The epidermis of thin skin does NOT show:-",
+      "options": {
+        "A": "Basal layer",
+        "B": "Clear layer",
+        "C": "Granular layer",
+        "D": "Horny layer",
+        "E": "Spinous layer"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The basal layer (stratum basale) is present in all skin, thin and thick alike — it is the germinative layer that renews the epidermis.",
+        "B": "Correct. Thin (hairy) skin lacks the stratum lucidum, the clear layer, which is found only in the thick, hairless skin of the palms and soles. Thin skin keeps the other four layers — basal, spinous, a thin granular layer and a thin horny layer — but its granular and horny layers are much reduced and the clear layer is absent altogether. The presence of a clear layer is therefore a marker of thick skin, and its absence a marker of thin skin.",
+        "C": "Incorrect. A granular layer is present in thin skin, though it is thinner and sometimes discontinuous compared with thick skin.",
+        "D": "Incorrect. A horny layer (stratum corneum) is present in thin skin; it is simply much thinner than in thick skin.",
+        "E": "Incorrect. The spinous layer (stratum spinosum) is present in all epidermis; it is not a distinguishing feature between thin and thick skin."
+      },
+      "main_concept": "CON-DER-ACDEAF318B290B",
+      "concept_ids": ["CON-DER-ACDEAF318B290B"],
+      "subtopic": "Integument — thin vs thick skin",
+      "module_subject": "MANS-HBG > Histology > Integumentary > Thin vs thick skin",
+      "library_ids": ["ART-MANS-HBG-THIN-SKIN-VS-THICK"],
+      "learning_objective": "State that the clear layer (stratum lucidum) is absent from thin skin.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q33, p36" }
+    },
+    {
+      "key": "d59-q34", "page": 36,
+      "title": "Fibres of the autonomic ganglion",
+      "question": "Regarding the autonomic ganglia, their fibers:-",
+      "options": {
+        "A": "Are thick myelinated",
+        "B": "Synapse with the ganglion cells",
+        "C": "Are widely separated",
+        "D": "Are parallel to the capsule",
+        "E": "Have poor blood supply"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The preganglionic fibres reaching an autonomic ganglion are thin and lightly myelinated, and the postganglionic fibres leaving it are unmyelinated — not thick and heavily myelinated.",
+        "B": "Correct. The defining feature of an autonomic ganglion is that it is a synaptic relay: the incoming preganglionic axons enter and synapse on the cell bodies (multipolar neurons) of the ganglion, and new postganglionic axons then leave. This is unlike the dorsal root (sensory) ganglion, where the fibres merely pass through and no synapse occurs. The presence of synapses on the ganglion cells is exactly what marks a motor (autonomic) ganglion.",
+        "C": "Incorrect. The nerve fibres run among the closely arranged ganglion cells rather than being widely separated from them.",
+        "D": "Incorrect. The fibres weave among the cell bodies to reach their synapses; they are not simply laid parallel to the capsule.",
+        "E": "Incorrect. Blood supply is not the point being tested here, and it is not the feature that identifies the autonomic ganglion — the synaptic relay is."
+      },
+      "main_concept": "CON-NEU-5521BED2DFC749",
+      "concept_ids": ["CON-NEU-5521BED2DFC749"],
+      "subtopic": "Nervous tissue — ganglia",
+      "module_subject": "MANS-HBG > Histology > Nervous Tissue > Ganglia",
+      "library_ids": ["ART-MANS-HBG-GANGLIA-SENSORY-VS-AUTONOMIC"],
+      "learning_objective": "State that fibres synapse on the cell bodies in an autonomic ganglion.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q34, p36" }
+    },
+    {
+      "key": "d59-q35", "page": 36,
+      "title": "Mitotic stage of nuclear-envelope breakdown",
+      "question": "The nuclear membrane dissolves during which stage of mitosis:-",
+      "options": {
+        "A": "Prophase",
+        "B": "Metaphase",
+        "C": "Anaphase A",
+        "D": "Telophase",
+        "E": "Cytokinesis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The nuclear envelope breaks down at the end of prophase (the transition sometimes called prometaphase), allowing the forming spindle microtubules to reach and attach to the chromosomes. Prophase is also when the chromosomes condense, the nucleolus disappears and the centrosomes move to opposite poles. Envelope breakdown is thus the event that ends prophase and lets metaphase alignment begin.",
+        "B": "Incorrect. By metaphase the envelope has already gone; metaphase is defined by the chromosomes aligning on the equatorial plate, not by envelope breakdown.",
+        "C": "Incorrect. Anaphase is when sister chromatids separate and move to the poles; the envelope is absent throughout, having broken down two stages earlier.",
+        "D": "Incorrect. Telophase does the opposite — the nuclear envelope re-forms around each set of daughter chromosomes as they decondense.",
+        "E": "Incorrect. Cytokinesis is the division of the cytoplasm by the contractile ring; it does not involve the nuclear envelope, which has already reassembled in telophase."
+      },
+      "main_concept": "CON-FND-6DEB5A4F0F1675",
+      "concept_ids": ["CON-FND-6DEB5A4F0F1675"],
+      "subtopic": "Cell biology — mitosis",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Mitosis",
+      "library_ids": ["ART-MANS-HBG-MITOSIS-FOUR-STAGES"],
+      "learning_objective": "Assign nuclear-envelope breakdown to prophase of mitosis.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q35, p36" }
+    },
+    {
+      "key": "d59-q36", "page": 37,
+      "title": "Mitotic stage of chromosome alignment",
+      "question": "In which stage of mitosis chromosomes align in the center of the cell:-",
+      "options": {
+        "A": "Prophase",
+        "B": "Anaphase",
+        "C": "Anaphase 1",
+        "D": "Metaphase",
+        "E": "Telophase 1"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Prophase is condensation and spindle formation with envelope breakdown; the chromosomes are not yet aligned in the middle.",
+        "B": "Incorrect. In anaphase the aligned chromatids have already separated and are moving apart to the two poles, not sitting at the centre.",
+        "C": "Incorrect. Anaphase I is a meiotic, not a mitotic, stage; it also describes separation, not central alignment.",
+        "D": "Correct. Metaphase is the stage at which the chromosomes line up along the equator (the metaphase plate) in the centre of the cell, each held by spindle fibres from both poles. This balanced, central arrangement is what the metaphase checkpoint verifies before anaphase separation is allowed. Alignment of chromosomes at the cell's centre is therefore the defining event of metaphase.",
+        "E": "Incorrect. Telophase I is meiotic, and telophase in general is the reforming of nuclei at the poles, the opposite of central alignment."
+      },
+      "main_concept": "CON-FND-6DEB5A4F0F1675",
+      "concept_ids": ["CON-FND-6DEB5A4F0F1675"],
+      "subtopic": "Cell biology — mitosis",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Mitosis",
+      "library_ids": ["ART-MANS-HBG-MITOSIS-FOUR-STAGES"],
+      "learning_objective": "Assign equatorial alignment of chromosomes to metaphase.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q36, p37" }
+    },
+    {
+      "key": "d59-q38", "page": 37,
+      "title": "Staining of the Golgi apparatus",
+      "question": "How would you describe Golgi apparatus:-",
+      "options": {
+        "A": "Surrounds the nucleus of epithelial secretory cells",
+        "B": "Concerned with lipid metabolism",
+        "C": "Could be seen with iron Hx",
+        "D": "Is stained with silver",
+        "E": "Has a cis mature face"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. In a secretory epithelial cell the Golgi lies above the nucleus (supranuclear), between it and the apical surface; it does not encircle the nucleus.",
+        "B": "Incorrect. Lipid and steroid metabolism is the job of the smooth endoplasmic reticulum. The Golgi modifies, sorts and packages proteins and adds carbohydrate.",
+        "C": "Incorrect. Iron haematoxylin is the classic stain for the centriole, not the Golgi.",
+        "D": "Correct. The Golgi apparatus is not visible in routine H&E; it has to be demonstrated by heavy-metal impregnation, either silver or osmium, which is how Camillo Golgi first saw it. In H&E it may appear only as a pale (negative) juxtanuclear zone. Being invisible in H&E and needing a silver (or osmium) stain to be shown is the identifying histochemical fact about it.",
+        "E": "Incorrect. The Golgi has a cis (forming, immature) face where vesicles enter and a trans (maturing) face where they leave — so \"cis mature face\" reverses the polarity."
+      },
+      "main_concept": "CON-FND-56B72DE04F5FED",
+      "concept_ids": ["CON-FND-56B72DE04F5FED"],
+      "subtopic": "Cell biology — Golgi apparatus",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Golgi apparatus",
+      "library_ids": ["ART-MANS-HBG-GOLGI-SILVER-STAINING"],
+      "learning_objective": "State that the Golgi apparatus is demonstrated by silver (or osmium) impregnation, not H&E.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q38, p37" }
+    },
+    {
+      "key": "d59-q39", "page": 37,
+      "title": "Property of keratinised stratified squamous epithelium",
+      "question": "Regarding to the stratified squamous keratinized epithelium:-",
+      "options": {
+        "A": "Formed of 10 layers of cells",
+        "B": "The middle layer is responsible for renewal of other cells",
+        "C": "It has a protective function",
+        "D": "Lines wet surfaces of the body",
+        "E": "The top layer of cells is cubical in shape"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The number of cell layers varies with site and is not fixed at ten; it is described by named strata, not a set count.",
+        "B": "Incorrect. Renewal comes from the deepest (basal) layer, the germinative stratum, whose mitoses push cells upward — not from a middle layer.",
+        "C": "Correct. Stratified squamous keratinised epithelium is built for protection: its many cell layers and its surface of dead, keratin-filled, anucleate squames form a tough, waterproof, abrasion-resistant barrier, as on the skin surface. The keratin makes it resistant to friction and water loss, which is precisely why it covers exposed dry surfaces. Protection against mechanical, chemical and microbial insult is its defining function.",
+        "D": "Incorrect. The keratinised form lines dry surfaces such as the epidermis; it is the non-keratinised stratified squamous type that lines moist surfaces like the mouth and oesophagus.",
+        "E": "Incorrect. The surface cells are flattened, dead squames (scales), not cubical; the cuboidal cells lie at the base."
+      },
+      "main_concept": "CON-DER-2A56D2FE509FB3",
+      "concept_ids": ["CON-DER-2A56D2FE509FB3"],
+      "subtopic": "Epithelium — stratified squamous",
+      "module_subject": "MANS-HBG > Histology > Epithelium > Stratified squamous",
+      "library_ids": ["ART-MANS-HBG-EPIDERMIS-LAYERS-KERATINIZATION"],
+      "learning_objective": "State that keratinised stratified squamous epithelium is protective and covers dry surfaces.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q39, p37" }
+    },
+    {
+      "key": "d59-q40", "page": 37,
+      "title": "Function of the desmosome",
+      "question": "Desmosomes are found between the cells to:-",
+      "options": {
+        "A": "Form a seal between the luminal and intercellular fluids",
+        "B": "Fix the cells strongly and prevent their separation",
+        "C": "Communicate between the cells",
+        "D": "Transmit the nerve impulse rapidly",
+        "E": "Fix the base of the epithelial cells to the basement membrane"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Sealing the intercellular space off from the lumen is the tight junction's (zonula occludens') job, not the desmosome's.",
+        "B": "Correct. The desmosome (macula adherens) is a spot-weld between adjacent cells that anchors the intermediate-filament cytoskeleton of one cell to that of its neighbour. Because it ties the tough keratin/intermediate-filament networks together across the cell membranes, it is the strongest of the cell junctions and its role is mechanical: it holds cells firmly together and resists shearing forces that would pull them apart. This is why desmosomes are abundant in epithelia under mechanical stress, such as the epidermis.",
+        "C": "Incorrect. Direct cell-to-cell communication is the gap junction's function, allowing ions and small molecules to pass; the desmosome has no channel.",
+        "D": "Incorrect. Rapid impulse transmission occurs at synapses and, electrically, through gap junctions — not through desmosomes.",
+        "E": "Incorrect. Anchoring the base of the epithelial cell to the basement membrane is the job of the hemidesmosome, a related but distinct half-junction."
+      },
+      "main_concept": "CON-FND-59E3FDA20F54AD",
+      "concept_ids": ["CON-FND-59E3FDA20F54AD"],
+      "subtopic": "Epithelium — cell junctions",
+      "module_subject": "MANS-HBG > Histology > Epithelium > Cell junctions",
+      "library_ids": ["ART-MANS-HBG-DESMOSOME-MACULA-ADHERENS"],
+      "learning_objective": "State that the desmosome binds cells strongly and prevents their separation.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q40, p37" }
+    },
+    {
+      "key": "d59-q41", "page": 38,
+      "title": "The argyrophilic connective-tissue fibre",
+      "question": "Which of the following fibers is argyrophilic:-",
+      "options": {
+        "A": "White collagen fibers",
+        "B": "Elastic fibers",
+        "C": "Reticular fibers",
+        "D": "Oxytalan fibers",
+        "E": "Purkinje fibers"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Thick (white) collagen fibres are acidophilic and stain readily with H&E and Masson's trichrome; they are not blackened by silver.",
+        "B": "Incorrect. Elastic fibres need their own special stains — orcein, Verhoeff's or resorcin-fuchsin — and are not argyrophilic.",
+        "C": "Correct. Reticular fibres (type III collagen) are argyrophilic: they take up and are blackened by silver salts, which is why they are also called argyrophil fibres. They are fine, branching fibres that form the delicate supporting meshwork of glands, lymphoid organs and basement membranes, and are also PAS-positive because of their carbohydrate coat. This silver affinity is exactly what distinguishes them from the ordinary collagen fibres they are chemically related to.",
+        "D": "Incorrect. Oxytalan fibres are immature elastic fibres (bundles of microfibrils without elastin); they belong to the elastic system, not the argyrophil reticular one.",
+        "E": "Incorrect. Purkinje fibres are modified cardiac muscle cells of the conducting system, not a connective-tissue fibre at all."
+      },
+      "main_concept": "CON-FND-471B49C03F8BF8",
+      "concept_ids": ["CON-FND-471B49C03F8BF8"],
+      "subtopic": "Connective tissue — fibres",
+      "module_subject": "MANS-HBG > Histology > Connective Tissue > Fibres",
+      "library_ids": ["ART-MANS-HBG-RETICULAR-FIBERS-ARGYROPHILIC"],
+      "learning_objective": "Identify reticular fibres as the argyrophilic (silver-staining) connective-tissue fibre.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q41, p38" }
+    },
+    {
+      "key": "d59-q42", "page": 38,
+      "title": "Connective tissue of the vitreous body",
+      "question": "Which of the following types of CT proper present in vitreous body of eye:-",
+      "options": {
+        "A": "White fibrous",
+        "B": "Mucoid CT",
+        "C": "Yellow elastic CT",
+        "D": "Reticular CT",
+        "E": "Adipose CT"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Dense white fibrous tissue is found in tendons, ligaments and the sclera, not in the jelly-like vitreous.",
+        "B": "Correct. The vitreous body is a mucoid (gelatinous) connective tissue — a soft, transparent jelly whose ground substance is rich in hyaluronic acid with only sparse, fine collagen fibrils and few cells. Mucoid connective tissue is the type that fills such jelly-like spaces (also the umbilical cord's Wharton's jelly). Its hyaluronate-rich, watery matrix is exactly what gives the vitreous its clear, gel consistency.",
+        "C": "Incorrect. Yellow elastic connective tissue makes up structures like the ligamenta flava and the elastic arteries, not the vitreous.",
+        "D": "Incorrect. Reticular connective tissue forms the stroma of lymphoid and haemopoietic organs, not the vitreous body.",
+        "E": "Incorrect. Adipose tissue stores fat in the subcutis and around organs; it is not found in the vitreous."
+      },
+      "main_concept": "CON-FND-EA4034F1E87235",
+      "concept_ids": ["CON-FND-EA4034F1E87235"],
+      "subtopic": "Connective tissue — types",
+      "module_subject": "MANS-HBG > Histology > Connective Tissue > Types",
+      "library_ids": ["ART-MANS-HBG-MUCOID-CONNECTIVE-TISSUE"],
+      "learning_objective": "Classify the vitreous body as mucoid connective tissue.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q42, p38" }
+    },
+    {
+      "key": "d59-q43", "page": 38,
+      "title": "Feature of the condensed (heterochromatic) nucleus",
+      "question": "Condensed nucleus is characterized by:-",
+      "options": {
+        "A": "Contain large amount of nuclear sap",
+        "B": "Present in metabolic active cells",
+        "C": "Deeply stained",
+        "D": "Not surrounded by nuclear membrane",
+        "E": "Its details could be identified"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A condensed (heterochromatic) nucleus has little nuclear sap; abundant nuclear sap goes with the open, pale euchromatic nucleus.",
+        "B": "Incorrect. Condensation marks a relatively inactive cell — genes packed as heterochromatin are silenced. Metabolically active cells have pale, open euchromatic nuclei instead.",
+        "C": "Correct. A condensed nucleus is one whose chromatin is largely heterochromatin — tightly coiled, transcriptionally inactive DNA that binds basic dyes strongly and so stains deeply (dark and basophilic). Because the chromatin is packed rather than dispersed, the nucleus looks small, dense and uniformly dark. Deep staining is therefore the defining light-microscope feature of the condensed nucleus, in contrast to the pale, finely granular euchromatic nucleus of an active cell.",
+        "D": "Incorrect. A condensed nucleus is still bounded by an intact nuclear envelope; loss of the envelope is a feature of mitosis or of nuclear death (karyorrhexis), not of a merely condensed nucleus.",
+        "E": "Incorrect. Because the chromatin is dense and uniformly dark, internal detail is obscured, not clearly identifiable."
+      },
+      "main_concept": "CON-FND-CDD48AD3D28954",
+      "concept_ids": ["CON-FND-CDD48AD3D28954"],
+      "subtopic": "Cell biology — nucleus and chromatin",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Nucleus",
+      "library_ids": ["ART-MANS-HBG-EUCHROMATIN-HETEROCHROMATIN"],
+      "learning_objective": "State that a condensed (heterochromatic) nucleus stains deeply.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q43, p38" }
+    },
+    {
+      "key": "d59-q45", "page": 38,
+      "title": "Character of neuroepithelium",
+      "question": "Which of the following is a character of neuroepithelium:-",
+      "options": {
+        "A": "They are specialized in secretion",
+        "B": "Their sensory cells have microvilli",
+        "C": "They are formed of sensory and supporting cells only",
+        "D": "The supporting cells act as precursors for sensory cells",
+        "E": "They cover body surfaces"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Specialisation for secretion defines glandular epithelium; neuroepithelium is specialised for sensory reception, not secretion.",
+        "B": "Correct. Neuroepithelium is a specialised sensory epithelium in which modified epithelial cells act as receptor cells associated with nerve endings, as in the taste bud, olfactory mucosa and inner ear. Its sensory (receptor) cells characteristically bear apical microvilli or stereocilia that project into the sensed environment and transduce the stimulus. This receptor apparatus on the sensory cells is the identifying character of neuroepithelium.",
+        "C": "Incorrect. Besides sensory and supporting cells, neuroepithelium such as the taste bud also contains basal (stem) cells that renew it, so \"sensory and supporting cells only\" is wrong.",
+        "D": "Incorrect. It is the basal cells, not the supporting cells, that serve as precursors regenerating the sensory cells.",
+        "E": "Incorrect. Covering body surfaces is the role of covering (surface) epithelium; neuroepithelium is confined to the special sense organs."
+      },
+      "main_concept": "CON-FND-FBF032D6A83371",
+      "concept_ids": ["CON-FND-FBF032D6A83371"],
+      "subtopic": "Epithelium — neuroepithelium",
+      "module_subject": "MANS-HBG > Histology > Epithelium > Neuroepithelium",
+      "library_ids": ["ART-MANS-HBG-NEUROEPITHELIUM"],
+      "learning_objective": "State that the sensory cells of neuroepithelium carry microvilli/stereocilia.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "دفعة 59/58/57 block, Q45, p38" }
+    },
+
+    {
+      "key": "b4-q01", "page": 2,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "The non-membranous organelle",
+      "question": "Which of the following is NOT a membranous organelle:-",
+      "options": {
+        "A": "Lysosomes",
+        "B": "Centriole",
+        "C": "Golgi apparatus",
+        "D": "Mitochondria",
+        "E": "Endoplasmic reticulum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A lysosome is a single-membrane-bound vesicle of hydrolytic enzymes, so it is a membranous organelle.",
+        "B": "Correct. The centriole is a non-membranous organelle: it is built from a cylinder of nine triplet microtubules with no bounding membrane at all. This puts it, together with ribosomes and the filaments of the cytoskeleton, in the non-membranous class, as opposed to the membrane-bounded organelles (ER, Golgi, lysosomes, mitochondria, nucleus). Recognising the centriole as membraneless is exactly what the question tests.",
+        "C": "Incorrect. The Golgi apparatus is a stack of membrane-bounded cisternae, so it is membranous.",
+        "D": "Incorrect. The mitochondrion has two membranes, an outer and an inner (cristae) membrane, so it is clearly membranous.",
+        "E": "Incorrect. The endoplasmic reticulum is a continuous system of membrane-bounded tubules and cisternae, so it is membranous."
+      },
+      "main_concept": "CON-FND-2560DB7970AF40",
+      "concept_ids": ["CON-FND-2560DB7970AF40"],
+      "subtopic": "Cell biology — organelles",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Organelles",
+      "library_ids": ["ART-MANS-HBG-ORGANELLES-MEMBRANOUS-CLASSIFICATION"],
+      "learning_objective": "Classify the centriole as a non-membranous organelle.",
+      "question_type": "Classification",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q1, p2" }
+    },
+    {
+      "key": "b4-q02", "page": 2,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Biochemistry of the membrane's electron-dense layers",
+      "question": "The electron dense layer of cell membrane is biochemically identified as:-",
+      "options": {
+        "A": "Carbohydrate",
+        "B": "Glycolipid",
+        "C": "Interphase between lipid layers",
+        "D": "Phospholipid",
+        "E": "Cholesterol"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Carbohydrate lies in the cell coat (glycocalyx) on the outer surface, not in the two electron-dense lines of the unit membrane itself.",
+        "B": "Incorrect. Glycolipid is a minor component of the outer leaflet and contributes to the surface coat; it is not what the dense lines represent.",
+        "C": "Incorrect. The space \"between the lipid layers\" is the electron-lucent (pale) middle zone formed by the hydrophobic fatty-acid tails — the opposite of the dense layers.",
+        "D": "Correct. In the electron microscope the plasma membrane is a trilaminar \"unit membrane\": two electron-dense outer lines with an electron-lucent centre. The two dense lines correspond to the hydrophilic polar heads of the phospholipid molecules (with associated protein), while the pale centre is the hydrophobic tails. The electron density of those outer layers is therefore attributed to the phospholipid (phosphate) heads.",
+        "E": "Incorrect. Cholesterol is interspersed among the phospholipids within the bilayer to regulate fluidity; it does not form the dense outer lines."
+      },
+      "main_concept": "CON-FND-F4B7458F8B8265",
+      "concept_ids": ["CON-FND-F4B7458F8B8265"],
+      "subtopic": "Cell biology — plasma membrane",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Plasma membrane",
+      "library_ids": ["ART-MANS-HBG-PLASMA-MEMBRANE-UNIT-MEMBRANE"],
+      "learning_objective": "Relate the dense lines of the trilaminar unit membrane to the phospholipid polar heads.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q2, p2" }
+    },
+    {
+      "key": "b4-q03", "page": 2,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Composition of the cell coat",
+      "question": "The cell coat:-",
+      "options": {
+        "A": "Rich in cholesterol",
+        "B": "Formed of Glycolipid + Glycoprotein",
+        "C": "Stained with H&E",
+        "D": "Present on the cytoplasmic side of cell membrane",
+        "E": "Formed of integral proteins"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cholesterol sits within the lipid bilayer, not in the cell coat; the coat is carbohydrate, not lipid-rich.",
+        "B": "Correct. The cell coat (glycocalyx) is the carbohydrate layer on the outer surface of the plasma membrane, made of the sugar chains of glycoproteins and glycolipids (and adsorbed glycoproteins). These oligosaccharides project outward and carry out cell recognition, adhesion and receptor functions. Being built of glycoprotein plus glycolipid carbohydrate is exactly its defining composition.",
+        "C": "Incorrect. The glycocalyx is not shown by routine H&E; because it is carbohydrate it is demonstrated by the PAS reaction instead.",
+        "D": "Incorrect. The coat is on the external (extracellular) surface of the membrane only, not on the cytoplasmic side.",
+        "E": "Incorrect. It is formed of the carbohydrate moieties of glycolipids and glycoproteins, not of integral membrane proteins as such."
+      },
+      "main_concept": "CON-FND-F2237ED98E88F3",
+      "concept_ids": ["CON-FND-F2237ED98E88F3"],
+      "subtopic": "Cell biology — cell coat",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Cell coat",
+      "library_ids": ["ART-MANS-HBG-GLYCOCALYX-CELL-COAT"],
+      "learning_objective": "State that the cell coat is glycoprotein and glycolipid carbohydrate on the outer membrane surface.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q3, p2" }
+    },
+    {
+      "key": "b4-q04", "page": 2,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Lipids of the plasma membrane",
+      "question": "Lipids in the plasma membrane:-",
+      "options": {
+        "A": "Are phospholipid and cholesterol",
+        "B": "The phospholipid molecule consists of hydrophobic head",
+        "C": "The hydrophobic chains project outward",
+        "D": "Cholesterol is present in the outer half of the cell membrane",
+        "E": "The hydrophilic head is directed towards the center"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The membrane lipids are chiefly phospholipids together with cholesterol (and a small amount of glycolipid). The phospholipids form the bilayer and cholesterol is packed between them to control fluidity. Naming phospholipid and cholesterol as the membrane lipids is the accurate statement here.",
+        "B": "Incorrect. The phospholipid molecule has a hydrophilic (polar) head and hydrophobic (non-polar) fatty-acid tails — the head is hydrophilic, not hydrophobic.",
+        "C": "Incorrect. The hydrophobic chains point inward, towards the centre of the bilayer, away from the water on either side.",
+        "D": "Incorrect. Cholesterol is distributed in both halves (leaflets) of the bilayer, not just the outer half.",
+        "E": "Incorrect. The hydrophilic heads face outward towards the aqueous fluids on both membrane surfaces, not towards the centre."
+      },
+      "main_concept": "CON-FND-85CC08A33D0A88",
+      "concept_ids": ["CON-FND-85CC08A33D0A88"],
+      "subtopic": "Cell biology — plasma membrane",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Plasma membrane",
+      "library_ids": ["ART-MANS-HBG-PLASMA-MEMBRANE-FLUID-MOSAIC"],
+      "learning_objective": "State that membrane lipids are phospholipids and cholesterol arranged as a bilayer.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q4, p2" }
+    },
+    {
+      "key": "b4-q05", "page": 2,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Route of gland-cell secretion",
+      "question": "Many gland cell release their secretions through:-",
+      "options": {
+        "A": "Exocytosis",
+        "B": "Phagocytosis",
+        "C": "Receptor mediated endocytosis",
+        "D": "Fluid pinocytosis",
+        "E": "Endocytosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Gland cells discharge their product by exocytosis: the membrane-bound secretory vesicle moves to the apical surface, its membrane fuses with the plasma membrane, and the contents are released to the exterior. This is the outward, secretory arm of membrane trafficking, and it also recycles vesicle membrane back into the cell surface. Releasing secretion to the outside by vesicle fusion is exactly what exocytosis means.",
+        "B": "Incorrect. Phagocytosis is the uptake ('cell eating') of large solid particles into the cell, an inward process, not secretion.",
+        "C": "Incorrect. Receptor-mediated endocytosis brings specific ligands into the cell via coated pits; it is uptake, the opposite direction from secretion.",
+        "D": "Incorrect. Fluid pinocytosis ('cell drinking') is the inward uptake of extracellular fluid, not the release of a secretory product.",
+        "E": "Incorrect. Endocytosis in general is inward uptake of material; secretion is release, which is exocytosis."
+      },
+      "main_concept": "CON-FND-E66C68C0B80D16",
+      "concept_ids": ["CON-FND-E66C68C0B80D16"],
+      "subtopic": "Cell biology — membrane transport",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Membrane transport",
+      "library_ids": ["ART-MANS-HBG-ENDOCYTOSIS-EXOCYTOSIS"],
+      "learning_objective": "State that gland cells release secretion by exocytosis.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q5, p2" }
+    },
+    {
+      "key": "b4-q10", "page": 3,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Organelle for drug and toxin detoxification",
+      "question": "Which organelle protects the cell from damaging effect of medications and toxins:-",
+      "options": {
+        "A": "Ribosomes",
+        "B": "Microtubules",
+        "C": "Secretory vesicles",
+        "D": "Rough endoplasmic reticulum",
+        "E": "Smooth endoplasmic reticulum"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Ribosomes synthesise protein; they have no role in detoxifying drugs or toxins.",
+        "B": "Incorrect. Microtubules are cytoskeletal tracks for transport and the spindle; they do not metabolise toxins.",
+        "C": "Incorrect. Secretory vesicles store and export cell products; detoxification is not their function.",
+        "D": "Incorrect. Rough ER is studded with ribosomes and makes protein for export; the detoxifying enzymes sit on the smooth, not the rough, ER.",
+        "E": "Correct. The smooth endoplasmic reticulum carries the enzyme systems (including cytochrome P450) that detoxify drugs, toxins and other lipophilic substances by chemically modifying them for excretion. It is especially abundant in hepatocytes, which handle the body's chemical load, and it proliferates when the detox demand rises. Protecting the cell from medications and toxins is thus a defining function of the smooth ER, alongside its lipid and steroid synthesis."
+      },
+      "main_concept": "CON-FND-0B3CC0A79F9150",
+      "concept_ids": ["CON-FND-0B3CC0A79F9150"],
+      "subtopic": "Cell biology — smooth ER",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Smooth ER",
+      "library_ids": ["ART-MANS-HBG-SMOOTH-ER-DETOXIFICATION"],
+      "learning_objective": "State that the smooth ER detoxifies drugs and toxins.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q10, p3" }
+    },
+    {
+      "key": "b4-q12", "page": 4,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Consequence of smooth-ER loss in liver disease",
+      "question": "In a patient with liver disease, which functions will be affected because of smooth endoplasmic reticulum (sER) destruction:-",
+      "options": {
+        "A": "Digestion/breakdown of lipids, carbohydrates and proteins",
+        "B": "Receptor mediated endocytosis",
+        "C": "Synthesis of membrane lipids & detoxification of drugs",
+        "D": "Synthesis of proteins",
+        "E": "Synthesis of ribosomes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Digestion and breakdown of ingested material is carried out by lysosomes and, at the organ level, by the gut; it is not a smooth-ER function.",
+        "B": "Incorrect. Receptor-mediated endocytosis is a plasma-membrane process using coated pits, independent of the smooth ER.",
+        "C": "Correct. The smooth ER's two signature jobs are the synthesis of membrane lipids and steroids and the detoxification of drugs and toxins, so losing it in a hepatocyte impairs exactly these. In liver disease, damage to the abundant hepatocyte smooth ER therefore compromises lipid/steroid handling and drug detoxification, which is why such patients metabolise medications poorly. This is the applied, clinical form of the smooth ER's core functions.",
+        "D": "Incorrect. Protein synthesis depends on ribosomes and the rough ER, not the smooth ER, so it is not the function lost with smooth-ER destruction.",
+        "E": "Incorrect. Ribosomal subunits are assembled in the nucleolus, unrelated to the smooth ER."
+      },
+      "main_concept": "CON-FND-0B3CC0A79F9150",
+      "concept_ids": ["CON-FND-0B3CC0A79F9150"],
+      "subtopic": "Cell biology — smooth ER",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Smooth ER",
+      "library_ids": ["ART-MANS-HBG-SMOOTH-ER-DETOXIFICATION"],
+      "learning_objective": "Apply smooth-ER functions (lipid synthesis, detoxification) to a liver-disease vignette.",
+      "difficulty": "Moderate", "question_type": "Reasoning", "reasoning_level": 2, "setting": "Clinical", "clinical_relevance": 0.6,
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q12, p4" }
+    },
+    {
+      "key": "b4-q13", "page": 4,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Feature of rough endoplasmic reticulum",
+      "question": "r-ER:-",
+      "options": {
+        "A": "Appears as reticulum by L/M",
+        "B": "Imparts acidophilia in cytoplasm",
+        "C": "Its cisternae have smooth surface",
+        "D": "Well developed in plasma cells",
+        "E": "Its surface is rough due to attached glycogen granules"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Rough ER is not resolved as a reticulum by light microscopy; it is seen only as basophilic cytoplasmic areas (ergastoplasm), its network being an EM feature.",
+        "B": "Incorrect. Rough ER makes the cytoplasm basophilic, not acidophilic, because of the RNA of its ribosomes; acidophilia goes with the smooth ER and mitochondria.",
+        "C": "Incorrect. The cisternae of rough ER carry ribosomes and so have a rough (studded) surface; smooth-surfaced cisternae belong to the smooth ER.",
+        "D": "Correct. Rough ER is especially well developed in cells that synthesise large amounts of protein for export, and the plasma cell is the classic example: it is packed with rough ER to manufacture antibodies. This abundant rough ER is what makes the plasma cell's cytoplasm so strongly basophilic. Being highly developed in the antibody-secreting plasma cell is a defining, high-yield fact about rough ER.",
+        "E": "Incorrect. The roughness is due to attached ribosomes, not glycogen granules; glycogen is a stored cytoplasmic inclusion unrelated to the ER surface."
+      },
+      "main_concept": "CON-FND-60953640114635",
+      "concept_ids": ["CON-FND-60953640114635"],
+      "subtopic": "Cell biology — rough ER",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Rough ER",
+      "library_ids": ["ART-MANS-HBG-RIBOSOMES-ROUGH-ER"],
+      "learning_objective": "State that rough ER is well developed in the antibody-secreting plasma cell.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q13, p4" }
+    },
+    {
+      "key": "b4-q17", "page": 5,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Feature of the secondary lysosome",
+      "question": "Secondary lysosomes:-",
+      "options": {
+        "A": "Have homogenous electron dense core",
+        "B": "Contain D-amino acid oxidase",
+        "C": "Develop by budding from peroxisomes",
+        "D": "Contain undigested material called residual body",
+        "E": "Are non-membranous organelles"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A homogeneous, electron-dense core is the appearance of the primary lysosome; the secondary lysosome is heterogeneous because it also contains the material being digested.",
+        "B": "Incorrect. D-amino acid oxidase is a marker enzyme of the peroxisome, not the lysosome, whose marker is acid phosphatase.",
+        "C": "Incorrect. A secondary lysosome forms when a primary lysosome fuses with a phagosome or autophagosome, not by budding from a peroxisome.",
+        "D": "Correct. A secondary lysosome is a primary lysosome that has fused with material to be digested; once digestion is complete the indigestible remnant persists as a residual body. Residual bodies are the end-stage secondary lysosomes filled with undigested debris, and in long-lived cells they accumulate as lipofuscin (the age pigment). Containing undigested residue as a residual body is therefore a defining feature of the secondary lysosome.",
+        "E": "Incorrect. Lysosomes, primary and secondary alike, are membrane-bounded vesicles, i.e. membranous organelles."
+      },
+      "main_concept": "CON-FND-9D325B98FC59A0",
+      "concept_ids": ["CON-FND-9D325B98FC59A0"],
+      "subtopic": "Cell biology — lysosomes",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Lysosomes",
+      "library_ids": ["ART-MANS-HBG-SECONDARY-LYSOSOME-RESIDUAL-BODY"],
+      "learning_objective": "State that a secondary lysosome ends as a residual body of undigested material.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q17, p5" }
+    },
+    {
+      "key": "b4-q18", "page": 5,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Character of intermediate filaments",
+      "question": "Which of the followings is a character of intermediate filaments:-",
+      "options": {
+        "A": "Important for tumor identification",
+        "B": "Formed of myosin protein",
+        "C": "Contractile",
+        "D": "Form the basal body of the cilia",
+        "E": "6-7 nm in diameter"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Intermediate filaments are tissue-specific: epithelia contain cytokeratins, mesenchymal cells vimentin, muscle desmin, glia GFAP and neurons neurofilaments. Because each cell type keeps its own intermediate-filament protein, immunostaining for these proteins is used to identify the tissue of origin of a tumour, especially a poorly differentiated one. This diagnostic use in tumour identification is a defining, high-yield property of intermediate filaments.",
+        "B": "Incorrect. Myosin is the protein of the thick (contractile) filament, not of intermediate filaments, which are built from their own family of fibrous proteins.",
+        "C": "Incorrect. Intermediate filaments are structural and supportive, not contractile; contraction is the job of the actin–myosin (microfilament) system.",
+        "D": "Incorrect. The basal body of a cilium is made of microtubules (a centriole derivative), not intermediate filaments.",
+        "E": "Incorrect. Intermediate filaments are about 8–10 nm across — intermediate between the ~6-nm microfilaments and the ~25-nm microtubules, which is where their name comes from."
+      },
+      "main_concept": "CON-FND-6268E97A4A9F26",
+      "concept_ids": ["CON-FND-6268E97A4A9F26"],
+      "subtopic": "Cell biology — cytoskeleton",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Cytoskeleton",
+      "library_ids": ["ART-MANS-HBG-INTERMEDIATE-FILAMENTS"],
+      "learning_objective": "State that tissue-specific intermediate filaments are used to identify tumours.",
+      "question_type": "Classification",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q18, p5" }
+    },
+    {
+      "key": "b4-q20", "page": 5,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Location of microtubules",
+      "question": "Microtubules are present in the:-",
+      "options": {
+        "A": "Microvilli",
+        "B": "Flagella",
+        "C": "Cleavage furrow",
+        "D": "Sarcomere",
+        "E": "Nuclear envelop"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The core of a microvillus is a bundle of actin microfilaments, not microtubules.",
+        "B": "Correct. The flagellum (like the cilium) is built around an axoneme of microtubules arranged in the 9+2 pattern — nine peripheral doublets around a central pair — anchored by a basal body that is itself a microtubule cylinder. Microtubules are what generate the flagellar beat, sliding against one another by dynein. Their presence in the flagellar axoneme is the correct location among the options.",
+        "C": "Incorrect. The cleavage furrow is pinched by a contractile ring of actin and myosin microfilaments, not microtubules.",
+        "D": "Incorrect. The sarcomere is composed of actin (thin) and myosin (thick) filaments; microtubules are not part of it.",
+        "E": "Incorrect. The nuclear envelope is a double membrane with pores; it is not built of microtubules."
+      },
+      "main_concept": "CON-FND-73F10C624D4BE1",
+      "concept_ids": ["CON-FND-73F10C624D4BE1"],
+      "subtopic": "Cell biology — cytoskeleton",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Cytoskeleton",
+      "library_ids": ["ART-MANS-HBG-MICROTUBULES-STRUCTURE-LOCATION"],
+      "learning_objective": "State that microtubules form the axoneme of cilia and flagella.",
+      "question_type": "Classification",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q20, p5" }
+    },
+    {
+      "key": "b4-q26", "page": 7,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Property of euchromatin",
+      "question": "Euchromatin:-",
+      "options": {
+        "A": "Doesn't direct protein synthesis",
+        "B": "Has nuclear pores",
+        "C": "Represents the coiled parts of chromosomal threads",
+        "D": "Carries active genes",
+        "E": "Appears as basophilic chromatin granules"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Euchromatin is the transcriptionally active chromatin, so it does direct protein synthesis by being available for transcription.",
+        "B": "Incorrect. Nuclear pores are structures of the nuclear envelope, not of chromatin; they are not a property of euchromatin.",
+        "C": "Incorrect. The tightly coiled, condensed parts of the chromatin threads are heterochromatin; euchromatin is the extended, uncoiled form.",
+        "D": "Correct. Euchromatin is the loosely packed, extended form of chromatin in which the DNA is accessible to the transcription machinery, so it carries the cell's active (expressed) genes. Under the light microscope it appears as the pale, lightly stained part of the nucleus, in contrast with the dark, deeply staining, inactive heterochromatin. Being the site of the active genes is exactly what defines euchromatin.",
+        "E": "Incorrect. Deeply basophilic chromatin granules (clumps) are heterochromatin; euchromatin is pale and finely dispersed."
+      },
+      "main_concept": "CON-FND-CDD48AD3D28954",
+      "concept_ids": ["CON-FND-CDD48AD3D28954"],
+      "subtopic": "Cell biology — nucleus and chromatin",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Nucleus",
+      "library_ids": ["ART-MANS-HBG-EUCHROMATIN-HETEROCHROMATIN"],
+      "learning_objective": "State that euchromatin is the extended, active chromatin carrying expressed genes.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q26, p7" }
+    },
+    {
+      "key": "b4-q27", "page": 7,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Site of rRNA synthesis",
+      "question": "Which of the followings is responsible for synthesis of rRNA:-",
+      "options": {
+        "A": "Nuclear membrane",
+        "B": "Nucleolus",
+        "C": "Nuclear sap",
+        "D": "rER",
+        "E": "Peroxisomes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The nuclear membrane (envelope) controls nucleocytoplasmic transport through its pores; it does not make ribosomal RNA.",
+        "B": "Correct. The nucleolus is the site where ribosomal RNA is transcribed (from the nucleolar-organiser regions of certain chromosomes) and where the rRNA is assembled with proteins into the small and large ribosomal subunits. It is a dense, unbounded, strongly basophilic body within the nucleus, prominent in cells actively making protein. Synthesis of rRNA and assembly of ribosomal subunits is its defining function.",
+        "C": "Incorrect. The nuclear sap (nucleoplasm) is the fluid medium of the nucleus; rRNA synthesis is localised to the nucleolus within it.",
+        "D": "Incorrect. Rough ER is the site where ribosomes translate mRNA into protein, not where rRNA is synthesised.",
+        "E": "Incorrect. Peroxisomes carry out oxidative reactions such as detoxification of hydrogen peroxide; they have no role in rRNA synthesis."
+      },
+      "main_concept": "CON-FND-30573B6D0A9AFD",
+      "concept_ids": ["CON-FND-30573B6D0A9AFD"],
+      "subtopic": "Cell biology — nucleolus",
+      "module_subject": "MANS-HBG > Histology > Cell Biology > Nucleolus",
+      "library_ids": ["ART-MANS-HBG-NUCLEOLUS-RIBOSOME-SYNTHESIS"],
+      "learning_objective": "State that the nucleolus synthesises rRNA and assembles ribosomal subunits.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q27, p7" }
+    },
+    {
+      "key": "b4-q29", "page": 7,
+      "resource_ids": ["src_75e3a10915ca69686e11"],
+      "source_citation": "Histo MCQ Formatives + Exams Final.pdf, p.{page}",
+      "title": "Character of epithelial tissue",
+      "question": "Which of the followings is a character of epithelial tissue:-",
+      "options": {
+        "A": "Cells do not rest on basement membrane",
+        "B": "There is continuous degeneration and regeneration",
+        "C": "Widely separated cells with little intercellular substance",
+        "D": "There are blood vessels between cells",
+        "E": "Nerves can't enter between cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A defining feature of epithelium is that its cells do rest on a basement membrane separating them from the underlying connective tissue.",
+        "B": "Correct. Epithelium is a continuously renewing tissue: its cells are steadily lost from the surface and replaced by mitosis of the deeper (basal) cells, giving a constant turnover of degeneration and regeneration. This high renewal capacity, together with being avascular, resting on a basement membrane, and having closely packed cells with little intercellular substance, is what characterises epithelium. Continuous regeneration is the true statement among the options.",
+        "C": "Incorrect. Epithelial cells are closely packed with very little intercellular substance — 'widely separated' is the opposite of the truth and describes connective tissue instead.",
+        "D": "Incorrect. Epithelium is avascular; it has no blood vessels between its cells and is nourished by diffusion from the vessels of the underlying connective tissue.",
+        "E": "Incorrect. Epithelium is innervated — sensory nerve endings can and do penetrate between epithelial cells, as in the epidermis and cornea."
+      },
+      "main_concept": "CON-FND-DC1AEE3055760D",
+      "concept_ids": ["CON-FND-DC1AEE3055760D"],
+      "subtopic": "Epithelium — general characters",
+      "module_subject": "MANS-HBG > Histology > Epithelium > General characters",
+      "library_ids": ["ART-MANS-HBG-EPITHELIAL-TISSUE-GENERAL-CHARACTER"],
+      "learning_objective": "State that epithelium shows continuous degeneration and regeneration.",
+      "field_notes": { "keySource": "printed answer-key column, render", "mans": "Important MCQ Final block, Q29, p7" }
+    },
+
+    { "key": "d59-q28", "hold": "cross-batch repeat — astrocytes important for nutrition of neurons, already authored as histoprev1 q26 (same fact, neuroglia astrocyte function); دفعة 59/58/57 block Q28, p35" },
+    { "key": "d59-q37", "hold": "cross-batch repeat — mitochondria produce ATP/powerhouse of the cell, already authored as histoprev1 q30; دفعة 59/58/57 block Q37, p37" },
+    { "key": "d59-q44", "hold": "cross-batch repeat — microtubules form the mitotic spindle, already authored (spindle protein = tubulin, histoprev2); دفعة 59/58/57 block Q44, p38" },
+    { "key": "b4-q06", "hold": "cross-bank repeat — inner folds of mitochondria = cristae, already authored (histoprev3, cristae); Important MCQ Final Q6, p3" },
+    { "key": "b4-q07", "hold": "cross-bank repeat — organelle that can divide/increase in number = mitochondria, already authored (histoprev2 q77); Important MCQ Final Q7, p3" },
+    { "key": "b4-q08", "hold": "cross-bank repeat — organelle of cellular respiration = mitochondria, same fact as powerhouse concept already authored (histoprev1 q30); Important MCQ Final Q8, p3" },
+    { "key": "b4-q09", "hold": "cross-bank repeat — function of mitochondria = produce ATP, twin of histoprev1 q30 and of this window's held d59-q37; Important MCQ Final Q9, p3" },
+    { "key": "b4-q11", "hold": "cross-bank repeat — smooth ER helps muscle contraction (sarcoplasmic reticulum Ca), already authored as histoprev1 q3; Important MCQ Final Q11, p4" },
+    { "key": "b4-q14", "hold": "within-window repeat — Golgi stained with silver, authored here as d59-q38 (same question); Important MCQ Final Q14, p4" },
+    { "key": "b4-q15", "hold": "cross-bank repeat — intracellular digestion = lysosomes, already authored (CON-FND-C329703B4732F1, histoprev); Important MCQ Final Q15, p4" },
+    { "key": "b4-q16", "hold": "cross-bank repeat — lysosomes demonstrated by acid phosphatase, already authored as histoprev1 q17 (same organelle/marker fact); Important MCQ Final Q16, p5" },
+    { "key": "b4-q19", "hold": "cross-bank repeat — microtubules play role in mitotic spindle formation, twin of held d59-q44 and histoprev2 spindle concept; Important MCQ Final Q19, p5" },
+    { "key": "b4-q21", "hold": "cross-bank/within-bank repeat — microtubules form the mitotic spindle, twin of q19 and histoprev2 spindle concept; Important MCQ Final Q21, p6" },
+    { "key": "b4-q22", "hold": "cross-bank repeat — molecular structure of mitotic spindle = tubulin, already authored (histoprev2, spindle protein = tubulin); Important MCQ Final Q22, p6" },
+    { "key": "b4-q23", "hold": "cross-bank repeat — endogenous pigment = melanin, already authored (histoprev3, same question and answer); Important MCQ Final Q23, p6" },
+    { "key": "b4-q24", "hold": "cross-bank repeat — wear-and-tear (age) pigment = lipofuscin, already authored (histoprev2, lipofuscin as endogenous age pigment); Important MCQ Final Q24, p6" },
+    { "key": "b4-q25", "hold": "within-window repeat — condensed nucleus is deeply stained, authored here as d59-q43 (same question); Important MCQ Final Q25, p6" },
+    { "key": "b4-q28", "hold": "cross-bank repeat — nucleolus prominent in protein-synthesis-active cells, already authored (histoprev3 q100); Important MCQ Final Q28, p7" },
+    { "key": "b4-q30", "hold": "cross-bank repeat — lung alveoli lined with simple squamous epithelium, already authored (histoprev3 q110); Important MCQ Final Q30, p7" }
+  ]
+}
