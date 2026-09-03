@@ -60,7 +60,7 @@ import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
 import { createPromotion, createPricingVoucher, listPricingDiscounts, pricingQuote } from './pricing.js'
-import { publicSubscriberCountPayload, readSubscriberDisplay } from './subscriberCount.js'
+import { computeSubscriberCount, nextSubscriberDisplayDoc, publicSubscriberCountPayload, readSubscriberDisplay, writeSubscriberDisplay } from './subscriberCount.js'
 import {
   createEnrollmentChangeRequest, decideEnrollmentChangeRequest,
   listEnrollmentChangeRequests, myEnrollmentChangeRequests,
@@ -873,6 +873,22 @@ app.get('/api/public/subscriber-count', wrap(async (req, res) => {
   if (!doc.enabled) return res.json({ enabled: false })
   const realCountNow = await activeSubscriptionCount()
   res.json(publicSubscriberCountPayload(doc, { realCountNow, now: Date.now() }))
+}))
+
+/**
+ * Superadmin-only. `requireSuperAdmin`, not `requireConsole` — the generic
+ * `PUT /api/state/:key` must never write this key, because a base change
+ * has to re-capture the real subscription count in the same request as the
+ * write, and the generic route has no way to express that.
+ */
+app.post('/api/admin/subscriber-count', requireSuperAdmin, wrap(async (req, res) => {
+  const current = await readSubscriberDisplay()
+  const realCountNow = await activeSubscriptionCount()
+  const result = nextSubscriberDisplayDoc(current, req.body ?? {}, { realCountNow, now: Date.now() })
+  if (!result.ok) return res.status(400).json({ error: result.error })
+  await writeSubscriberDisplay(result.doc, req.identity.id)
+  const preview = computeSubscriberCount(result.doc, { realCountNow, now: Date.now() })
+  res.json({ ok: true, doc: result.doc, preview })
 }))
 
 app.post('/api/qbank/attempts', requireAuthenticated, wrap(async (req, res) => {
