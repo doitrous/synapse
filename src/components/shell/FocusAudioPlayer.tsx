@@ -1,33 +1,29 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
-import { CloudRain, Headphones, Music2, Pause, Play, Volume1, Volume2, VolumeX, Waves, Wind } from 'lucide-react'
+import { Pause, Play, Volume1, Volume2, VolumeX } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { useLocalJsonPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
+import { SOUND_ID_MIGRATIONS, SOUNDS, type SoundChoice, type SoundId } from '@/data/focusAudioTracks'
 
-type SoundId = 'lofi' | 'soft' | 'rain' | 'brown' | 'white'
-
-interface SoundChoice {
-  id: SoundId
-  label: string
-  description: string
-  icon: typeof Music2
-}
-
-const SOUNDS: SoundChoice[] = [
-  { id: 'lofi', label: 'Lo-fi study', description: 'Warm chords and soft tape texture', icon: Headphones },
-  { id: 'soft', label: 'Soft keys', description: 'Sparse, gentle instrumental notes', icon: Music2 },
-  { id: 'rain', label: 'Window rain', description: 'Steady rainfall with a distant hush', icon: CloudRain },
-  { id: 'brown', label: 'Brown noise', description: 'Deep, smooth focus noise', icon: Waves },
-  { id: 'white', label: 'White noise', description: 'Even broadband sound', icon: Wind },
-]
-
-interface AudioEngine {
+interface WebEngine {
+  kind: 'web'
   context: AudioContext
   master: GainNode
   nodes: AudioNode[]
   timers: number[]
 }
+
+/** HTMLAudioElement is simplest for a looping file — good enough here.
+ *  ponytail: `loop = true` is a hard cut at the file boundary, not gapless.
+ *  True seamless looping needs Web Audio buffer scheduling; upgrade if a
+ *  track's loop point is audible. */
+interface FileEngine {
+  kind: 'file'
+  audio: HTMLAudioElement
+}
+
+type AudioEngine = WebEngine | FileEngine
 
 function noiseBuffer(context: AudioContext, brown = false): AudioBuffer {
   const buffer = context.createBuffer(1, context.sampleRate * 3, context.sampleRate)
@@ -43,7 +39,7 @@ function noiseBuffer(context: AudioContext, brown = false): AudioBuffer {
   return buffer
 }
 
-function loopingNoise(engine: AudioEngine, gainValue: number, brown = false, filters: Array<[BiquadFilterType, number]> = []) {
+function loopingNoise(engine: WebEngine, gainValue: number, brown = false, filters: Array<[BiquadFilterType, number]> = []) {
   const source = engine.context.createBufferSource()
   source.buffer = noiseBuffer(engine.context, brown)
   source.loop = true
@@ -63,68 +59,63 @@ function loopingNoise(engine: AudioEngine, gainValue: number, brown = false, fil
   engine.nodes.push(source, gain)
 }
 
-const LOFI_CHORDS = [
-  [48, 55, 59, 64], [45, 52, 57, 60], [50, 57, 60, 64], [43, 50, 55, 59],
-]
-const SOFT_CHORDS = [
-  [60, 64, 67], [57, 60, 64], [62, 65, 69], [55, 59, 62],
-]
-
-function frequency(midi: number): number {
-  return 440 * 2 ** ((midi - 69) / 12)
+/**
+ * 14 Hz binaural beat: two oscillators a few Hz apart, panned hard left/right
+ * through a channel merger so each ear hears a different tone. The brain
+ * perceives the 14 Hz *difference* as a beat — only audible over headphones,
+ * which is why the UI labels/tooltips call that out.
+ */
+function binauralBeat(engine: WebEngine, gainValue = 0.05) {
+  const merger = engine.context.createChannelMerger(2)
+  const left = engine.context.createOscillator()
+  const right = engine.context.createOscillator()
+  left.frequency.value = 200
+  right.frequency.value = 214
+  const leftGain = engine.context.createGain()
+  const rightGain = engine.context.createGain()
+  leftGain.gain.value = gainValue
+  rightGain.gain.value = gainValue
+  left.connect(leftGain).connect(merger, 0, 0)
+  right.connect(rightGain).connect(merger, 0, 1)
+  merger.connect(engine.master)
+  left.start()
+  right.start()
+  engine.nodes.push(left, right, leftGain, rightGain, merger)
 }
 
-function playChord(engine: AudioEngine, notes: number[], soft: boolean) {
-  const now = engine.context.currentTime
-  notes.forEach((note, index) => {
-    const oscillator = engine.context.createOscillator()
-    const filter = engine.context.createBiquadFilter()
-    const gain = engine.context.createGain()
-    oscillator.type = soft ? 'sine' : 'triangle'
-    oscillator.frequency.value = frequency(note + (soft && index === notes.length - 1 ? 12 : 0))
-    filter.type = 'lowpass'
-    filter.frequency.value = soft ? 1_700 : 1_050
-    gain.gain.setValueAtTime(0.0001, now)
-    gain.gain.exponentialRampToValueAtTime(soft ? 0.035 : 0.026, now + 0.04 + index * 0.025)
-    gain.gain.exponentialRampToValueAtTime(0.0001, now + (soft ? 3.8 : 3.2))
-    oscillator.connect(filter).connect(gain).connect(engine.master)
-    oscillator.start(now + index * 0.025)
-    oscillator.stop(now + (soft ? 4 : 3.4))
-    // These nodes stop themselves after the envelope. Keeping every finished
-    // chord in the engine array would retain thousands of dead nodes during a
-    // long study day; closing the AudioContext still stops any live envelope.
-  })
-}
+function startSound(sound: SoundChoice, volume: number, onFileError: () => void): AudioEngine {
+  if (sound.kind === 'file') {
+    const audio = new Audio(sound.src)
+    audio.loop = true
+    audio.volume = volume
+    audio.addEventListener('error', onFileError)
+    void audio.play().catch(onFileError)
+    return { kind: 'file', audio }
+  }
 
-function startSound(id: SoundId, volume: number): AudioEngine {
   const context = new AudioContext()
   const master = context.createGain()
   master.gain.value = volume
   master.connect(context.destination)
-  const engine: AudioEngine = { context, master, nodes: [master], timers: [] }
+  const engine: WebEngine = { kind: 'web', context, master, nodes: [master], timers: [] }
 
-  if (id === 'white') loopingNoise(engine, 0.18, false, [['lowpass', 12_000]])
-  if (id === 'brown') loopingNoise(engine, 0.32, true, [['lowpass', 4_000]])
-  if (id === 'rain') {
+  if (sound.id === 'white') loopingNoise(engine, 0.18, false, [['lowpass', 12_000]])
+  if (sound.id === 'brown') loopingNoise(engine, 0.32, true, [['lowpass', 4_000]])
+  if (sound.id === 'rain') {
     loopingNoise(engine, 0.12, false, [['highpass', 1_700], ['lowpass', 9_500]])
     loopingNoise(engine, 0.075, true, [['lowpass', 1_100]])
   }
-  if (id === 'lofi' || id === 'soft') {
-    if (id === 'lofi') loopingNoise(engine, 0.018, false, [['highpass', 3_500], ['lowpass', 7_000]])
-    const chords = id === 'soft' ? SOFT_CHORDS : LOFI_CHORDS
-    let chord = 0
-    playChord(engine, chords[chord], id === 'soft')
-    const timer = window.setInterval(() => {
-      chord = (chord + 1) % chords.length
-      playChord(engine, chords[chord], id === 'soft')
-    }, id === 'soft' ? 5_200 : 4_000)
-    engine.timers.push(timer)
-  }
+  if (sound.id === 'beta') binauralBeat(engine)
   return engine
 }
 
 async function stopEngine(engine: AudioEngine | null) {
   if (!engine) return
+  if (engine.kind === 'file') {
+    engine.audio.pause()
+    engine.audio.src = ''
+    return
+  }
   engine.timers.forEach(window.clearInterval)
   engine.nodes.forEach((node) => {
     try { node.disconnect() } catch { /* already disconnected */ }
@@ -141,14 +132,25 @@ interface FocusAudioContextValue {
   setVolume: (volume: number) => void
   /** Silence and restore, remembering the level from before the mute. */
   toggleMute: () => void
+  /** File-backed tracks whose file 404s or fails to decode — the panel shows them disabled instead of throwing. */
+  unavailable: Partial<Record<SoundId, boolean>>
 }
 
 const FocusAudioContext = createContext<FocusAudioContextValue | null>(null)
 
 /** Keeps audio alive while the top bar temporarily disappears in focus mode. */
 export function FocusAudioProvider({ children }: { children: ReactNode }) {
-  const [preference, setPreference] = useLocalJsonPreference('nishany.focusAudio.v1', { sound: 'lofi' as SoundId, volume: 0.32 })
+  const [rawPreference, setPreference] = useLocalJsonPreference('nishany.focusAudio.v1', { sound: 'lofi' as SoundId, volume: 0.32 })
+  // A stored id from before this change ('soft') or any id that no longer
+  // exists is remapped on read, so an old pref degrades gracefully instead of
+  // pointing at nothing. The next `choose()` call persists the fixed id.
+  const resolvedSoundId = SOUNDS.some((sound) => sound.id === rawPreference.sound)
+    ? rawPreference.sound
+    : (SOUND_ID_MIGRATIONS[rawPreference.sound as string] ?? SOUNDS[0].id)
+  const preference = { sound: resolvedSoundId, volume: rawPreference.volume }
+
   const [playing, setPlaying] = useState(false)
+  const [unavailable, setUnavailable] = useState<Partial<Record<SoundId, boolean>>>({})
   const engine = useRef<AudioEngine | null>(null)
   // Remembers the level from before a mute so unmuting restores it, instead of
   // guessing one. It lives here rather than in the panel because the panel is
@@ -162,14 +164,36 @@ export function FocusAudioProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => () => { void stopEngine(engine.current) }, [])
 
+  // Probes each file-backed track once on mount so a missing file disables
+  // its row up front, rather than only failing when the user presses play.
   useEffect(() => {
-    if (engine.current) engine.current.master.gain.setTargetAtTime(preference.volume, engine.current.context.currentTime, 0.04)
+    const probes: HTMLAudioElement[] = []
+    for (const sound of SOUNDS) {
+      if (sound.kind !== 'file') continue
+      const probe = new Audio()
+      probe.preload = 'metadata'
+      probe.addEventListener('error', () => setUnavailable((current) => ({ ...current, [sound.id]: true })))
+      probe.src = sound.src
+      probes.push(probe)
+    }
+    return () => probes.forEach((probe) => { probe.src = '' })
+  }, [])
+
+  useEffect(() => {
+    const current = engine.current
+    if (!current) return
+    if (current.kind === 'file') current.audio.volume = preference.volume
+    else current.master.gain.setTargetAtTime(preference.volume, current.context.currentTime, 0.04)
   }, [preference.volume])
 
   const play = useCallback(async (id = preference.sound) => {
+    const sound = SOUNDS.find((candidate) => candidate.id === id) ?? SOUNDS[0]
     await stopEngine(engine.current)
-    engine.current = startSound(id, preference.volume)
-    await engine.current.context.resume()
+    engine.current = startSound(sound, preference.volume, () => {
+      setPlaying(false)
+      setUnavailable((current) => ({ ...current, [sound.id]: true }))
+    })
+    if (engine.current.kind === 'web') await engine.current.context.resume()
     setPlaying(true)
   }, [preference.sound, preference.volume])
 
@@ -193,7 +217,7 @@ export function FocusAudioProvider({ children }: { children: ReactNode }) {
   }, [setPreference])
 
   return (
-    <FocusAudioContext.Provider value={{ preference, playing, play, pause, choose, setVolume, toggleMute }}>
+    <FocusAudioContext.Provider value={{ preference, playing, play, pause, choose, setVolume, toggleMute, unavailable }}>
       {children}
     </FocusAudioContext.Provider>
   )
@@ -212,7 +236,7 @@ export function useFocusAudio(): FocusAudioContextValue {
 /** The sound picker, with no chrome of its own — the host frames it. */
 export function FocusAudioPanel() {
   const t = useT()
-  const { preference, playing, play, pause, choose, setVolume, toggleMute } = useFocusAudio()
+  const { preference, playing, play, pause, choose, setVolume, toggleMute, unavailable } = useFocusAudio()
   const selected = SOUNDS.find((sound) => sound.id === preference.sound) ?? SOUNDS[0]
   const muted = preference.volume <= 0
   const volumeIcon = muted ? VolumeX : preference.volume < 0.35 ? Volume1 : Volume2
@@ -220,19 +244,31 @@ export function FocusAudioPanel() {
   return (
     <>
       <div className="p-1.5">
-        {SOUNDS.map((sound) => (
-          <button
-            key={sound.id}
-            type="button"
-            aria-pressed={sound.id === selected.id}
-            onClick={() => void choose(sound.id)}
-            className={cn('flex min-h-12 w-full items-center gap-3 rounded-lg px-2.5 py-2 text-start transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-primary', sound.id === selected.id ? 'bg-primary-tint' : 'hover:bg-inset')}
-          >
-            <span className={cn('grid size-8 shrink-0 place-items-center rounded-md', sound.id === selected.id ? 'bg-primary text-on-primary' : 'bg-surface-2 text-ink-2')}><Icon icon={sound.icon} size={15} /></span>
-            <span className="min-w-0 flex-1"><span className="block text-[12.5px] font-semibold text-ink">{t(sound.label)}</span><span className="mt-0.5 block truncate text-[10.5px] text-ink-3">{t(sound.description)}</span></span>
-            {sound.id === selected.id && playing && <span className="flex h-4 items-end gap-0.5" aria-label={t('Playing')}><i className="h-2 w-0.5 animate-pulse rounded-full bg-primary motion-reduce:animate-none" /><i className="h-4 w-0.5 animate-pulse rounded-full bg-primary [animation-delay:120ms] motion-reduce:animate-none" /><i className="h-3 w-0.5 animate-pulse rounded-full bg-primary [animation-delay:240ms] motion-reduce:animate-none" /></span>}
-          </button>
-        ))}
+        {SOUNDS.map((sound) => {
+          const disabled = unavailable[sound.id] === true
+          return (
+            <button
+              key={sound.id}
+              type="button"
+              disabled={disabled}
+              aria-pressed={sound.id === selected.id}
+              aria-disabled={disabled}
+              title={sound.id === 'beta' ? t('Binaural beat — headphones required') : disabled ? t('Add the audio file to enable this track') : undefined}
+              onClick={() => { if (!disabled) void choose(sound.id) }}
+              className={cn(
+                'flex min-h-12 w-full items-center gap-3 rounded-lg px-2.5 py-2 text-start transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-primary',
+                disabled ? 'cursor-not-allowed opacity-45' : sound.id === selected.id ? 'bg-primary-tint' : 'hover:bg-inset',
+              )}
+            >
+              <span className={cn('grid size-8 shrink-0 place-items-center rounded-md', sound.id === selected.id && !disabled ? 'bg-primary text-on-primary' : 'bg-surface-2 text-ink-2')}><Icon icon={sound.icon} size={15} /></span>
+              <span className="min-w-0 flex-1">
+                <span className="block text-[12.5px] font-semibold text-ink">{t(sound.label)}</span>
+                <span className="mt-0.5 block truncate text-[10.5px] text-ink-3">{disabled ? t('Add the audio file to enable') : t(sound.description)}</span>
+              </span>
+              {sound.id === selected.id && playing && !disabled && <span className="flex h-4 items-end gap-0.5" aria-label={t('Playing')}><i className="h-2 w-0.5 animate-pulse rounded-full bg-primary motion-reduce:animate-none" /><i className="h-4 w-0.5 animate-pulse rounded-full bg-primary [animation-delay:120ms] motion-reduce:animate-none" /><i className="h-3 w-0.5 animate-pulse rounded-full bg-primary [animation-delay:240ms] motion-reduce:animate-none" /></span>}
+            </button>
+          )
+        })}
       </div>
 
       <div className="border-t border-line bg-surface-2/40 p-3">
