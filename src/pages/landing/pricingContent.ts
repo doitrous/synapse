@@ -12,7 +12,18 @@ import { formatNumber } from '../../lib/pricing.ts'
 /** The one shared last-resort constant on the frontend when the catalog document is empty. */
 export const SEED_MARISTANA_PRICES = { month: 400, term: 1000 }
 
-export interface PricingAmounts { month: number; term: number; savings: number; termMonthly: number }
+export interface PricingAmounts {
+  month: number
+  term: number
+  savings: number
+  termMonthly: number
+  /** Pre-promo list price, for the struck-through original. */
+  monthBase: number
+  termBase: number
+  /** Whole-percent discount currently applied, or 0 when no promo is active for that period. */
+  monthOff: number
+  termOff: number
+}
 
 /**
  * The Nishany price, promo included, that the whole pricing page shows.
@@ -24,11 +35,17 @@ export interface PricingAmounts { month: number; term: number; savings: number; 
  */
 export function offerAmounts(catalog: PlanCatalog): PricingAmounts {
   const plan = findPlan(catalog, MARISTANA_PLAN_ID)
+  const monthBase = plan?.prices.month ?? SEED_MARISTANA_PRICES.month
+  const termBase = plan?.prices.term ?? SEED_MARISTANA_PRICES.term
   const month = (plan ? promoPrice(plan, 'month') : null) ?? SEED_MARISTANA_PRICES.month
   const term = (plan ? promoPrice(plan, 'term') : null) ?? SEED_MARISTANA_PRICES.term
   const savings = Math.max(0, month * 3 - term)
   const termMonthly = Math.round(term / 3)
-  return { month, term, savings, termMonthly }
+  // Recompute the % from the two prices actually shown, so the label never
+  // disagrees with the struck/live figures (25% off 400→300 reads as −25%).
+  const monthOff = monthBase > 0 && month < monthBase ? Math.round((1 - month / monthBase) * 100) : 0
+  const termOff = termBase > 0 && term < termBase ? Math.round((1 - term / termBase) * 100) : 0
+  return { month, term, savings, termMonthly, monthBase, termBase, monthOff, termOff }
 }
 
 /** A copy field that is either fixed text or derived from the catalog's live price. */
@@ -77,10 +94,20 @@ export interface PricingContent {
     comingSoon: string
     currency: string
     save: string
+    firstTimeOffer: string
     equivalent: string
     fullAccess: string
     cta: string
     unavailable: string
+  }
+  voucher: {
+    label: string
+    apply: string
+    applied: string
+    notBeat: string
+    invalid: string
+    error: string
+    demo: string
   }
   includedTitle: string
   includedSub: string
@@ -145,10 +172,20 @@ export const EN_PRICING: PricingContent = {
     comingSoon: 'Coming soon',
     currency: 'EGP',
     save: 'Save',
+    firstTimeOffer: 'First-time offer',
     equivalent: 'monthly equivalent',
     fullAccess: 'Full Nishany access for the selected period',
     cta: 'Start studying',
     unavailable: 'Yearly access is coming soon',
+  },
+  voucher: {
+    label: 'Voucher code',
+    apply: 'Apply',
+    applied: 'Code applied.',
+    notBeat: 'That code does not beat the current price.',
+    invalid: 'That code is not valid.',
+    error: 'Could not check that code. Try again.',
+    demo: 'Connect the backend to check a code.',
   },
   includedTitle: 'Everything included',
   includedSub: 'One membership follows the whole study cycle—from your university schedule to the concepts you still need to master.',
@@ -288,10 +325,20 @@ export const AR_PRICING: PricingContent = {
     comingSoon: 'قريبًا',
     currency: 'ج.م',
     save: 'وفّر',
+    firstTimeOffer: 'عرض أول مرة',
     equivalent: 'ما يعادل شهريًا',
     fullAccess: 'وصول نيشاني الكامل طوال المدة المختارة',
     cta: 'ابدأ المذاكرة',
     unavailable: 'الوصول السنوي قريبًا',
+  },
+  voucher: {
+    label: 'كود القسيمة',
+    apply: 'تطبيق',
+    applied: 'تم تطبيق الكود.',
+    notBeat: 'هذا الكود لا يقدّم سعرًا أقل من الحالي.',
+    invalid: 'هذا الكود غير صالح.',
+    error: 'تعذّر التحقق من الكود. حاول مرة أخرى.',
+    demo: 'وصّل الخادم للتحقق من الكود.',
   },
   includedTitle: 'كل شيء مشمول',
   includedSub: 'عضوية واحدة تتابع دورة المذاكرة كاملة—من جدول جامعتك إلى المفاهيم التي ما زالت تحتاج إلى إتقانها.',

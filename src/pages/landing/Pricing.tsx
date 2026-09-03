@@ -36,7 +36,7 @@ export function Pricing({ c }: { c: LandingContent }) {
     const wanted = voucherCode.trim()
     if (!wanted || periodId === 'year') return
     if (!API_MODE) {
-      setVoucherMessage('Connect the backend to check a code.')
+      setVoucherMessage(p.voucher.demo)
       return
     }
     setCheckingVoucher(true)
@@ -46,14 +46,14 @@ export function Pricing({ c }: { c: LandingContent }) {
         `/pricing/quote?period=${periodId}&voucher=${encodeURIComponent(wanted)}`,
       )
       if (result.error) {
-        setVoucherMessage('That code is not valid.')
+        setVoucherMessage(p.voucher.invalid)
         setVoucherQuote(null)
         return
       }
       setVoucherQuote(result)
-      setVoucherMessage(result.appliedDiscount?.kind === 'voucher' ? 'Code applied.' : 'That code does not beat the current price.')
+      setVoucherMessage(result.appliedDiscount?.kind === 'voucher' ? p.voucher.applied : p.voucher.notBeat)
     } catch {
-      setVoucherMessage('Could not check that code. Try again.')
+      setVoucherMessage(p.voucher.error)
     } finally {
       setCheckingVoucher(false)
     }
@@ -65,6 +65,11 @@ export function Pricing({ c }: { c: LandingContent }) {
   const selectedAmount = voucherQuote && voucherQuote.period === periodId
     ? voucherQuote.totalAmount
     : periodId === 'month' ? amounts.month : periodId === 'term' ? amounts.term : null
+  const selectedPromo = periodId === 'month' ? amounts.month : periodId === 'term' ? amounts.term : null
+  const selectedBase = periodId === 'month' ? amounts.monthBase : periodId === 'term' ? amounts.termBase : null
+  const selectedOff = periodId === 'month' ? amounts.monthOff : periodId === 'term' ? amounts.termOff : 0
+  const voucherActive = voucherQuote != null && voucherQuote.period === periodId
+  const isPromo = !voucherActive && selectedPromo !== null && selectedBase !== null && selectedOff > 0 && selectedPromo < selectedBase
   const signupHref = periodId === 'year' ? null : `/signup?plan=maristana&period=${periodId}`
 
   const options: { id: PeriodId; label: string; detail: string }[] = [
@@ -121,6 +126,16 @@ export function Pricing({ c }: { c: LandingContent }) {
                 </>
               ) : (
                 <>
+                  {isPromo && selectedBase !== null && (
+                    <p className="mb-1 flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                      <span className="text-[15px] text-ink-3 line-through">
+                        {p.offer.currency} {formatNumber(selectedBase, lang)}
+                      </span>
+                      <span className="rounded-full border border-primary/30 bg-primary-tint px-2 py-0.5 text-[10.5px] font-bold uppercase tracking-[0.04em] text-primary-strong">
+                        {p.offer.firstTimeOffer} · −{formatNumber(selectedOff, lang)}%
+                      </span>
+                    </p>
+                  )}
                   <p className="flex flex-wrap items-baseline gap-x-2">
                     <span className="font-mono text-[13px] font-semibold text-ink-3">{p.offer.currency}</span>
                     <span className="tnum font-serif text-[46px] font-semibold leading-none tracking-[-0.035em] text-ink sm:text-[54px]">
@@ -143,8 +158,8 @@ export function Pricing({ c }: { c: LandingContent }) {
                     <TextInput
                       value={voucherCode}
                       onChange={(event) => setVoucherCode(event.target.value)}
-                      placeholder="Voucher code"
-                      aria-label="Voucher code"
+                      placeholder={p.voucher.label}
+                      aria-label={p.voucher.label}
                       className="h-9 w-40 text-[12.5px]"
                     />
                     <Button
@@ -155,7 +170,7 @@ export function Pricing({ c }: { c: LandingContent }) {
                       disabled={!voucherCode.trim() || periodId === 'year'}
                       onClick={() => void checkVoucher()}
                     >
-                      Apply
+                      {p.voucher.apply}
                     </Button>
                   </div>
                   {voucherMessage && <p role="status" className="mt-1.5 text-[12px] text-ink-2">{voucherMessage}</p>}

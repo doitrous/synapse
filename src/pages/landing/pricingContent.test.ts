@@ -2,6 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { offerAmounts, resolvePriced, SEED_MARISTANA_PRICES, EN_PRICING } from './pricingContent.ts'
 import { initialPlanCatalog } from '../../data/planCatalogSeed.ts'
+import { MARISTANA_PLAN_ID } from '../../data/planCatalog.ts'
 import type { PlanCatalog } from '@/data/planCatalog.ts'
 
 test('offerAmounts reads the promo-adjusted maristana price from the catalog', () => {
@@ -10,6 +11,25 @@ test('offerAmounts reads the promo-adjusted maristana price from the catalog', (
   assert.equal(amounts.term, 700) // 30% off 1000
   assert.equal(amounts.termMonthly, Math.round(700 / 3))
   assert.equal(amounts.savings, 300 * 3 - 700)
+  assert.equal(amounts.monthBase, 400)
+  assert.equal(amounts.termBase, 1000)
+  assert.equal(amounts.monthOff, 25)
+  assert.equal(amounts.termOff, 30)
+})
+
+test('offerAmounts shows no promo when the maristana promo is disabled', () => {
+  const catalog = initialPlanCatalog()
+  const plan = catalog.plans.find((candidate) => candidate.id === MARISTANA_PLAN_ID)!
+  plan.promo = {
+    month: { enabled: false, percentOff: 25 },
+    term: { enabled: false, percentOff: 30 },
+  }
+  const a = offerAmounts(catalog)
+  // promo off → base === price, off === 0
+  assert.equal(a.month, a.monthBase)
+  assert.equal(a.term, a.termBase)
+  assert.equal(a.monthOff, 0)
+  assert.equal(a.termOff, 0)
 })
 
 test('offerAmounts falls back to the seed constant when maristana is missing', () => {
