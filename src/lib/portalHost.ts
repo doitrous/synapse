@@ -1,27 +1,32 @@
 /**
  * Which portal an origin serves.
  *
- * The admin dashboard answers on adminsynapse.doitrous.com and the student app on
- * nishany.com, but both are the same build in the same container behind the same
+ * The admin dashboard answers on connectadminacademy.nishany.com and the student app
+ * on nishany.com, but both are the same build in the same container behind the same
  * /api — Coolify simply points the domains at it. So the split is decided here at
  * runtime rather than by a second deploy or a second bundle.
+ *
+ * The admin host is a subdomain of nishany.com, so the anchoring below is load-bearing:
+ * the student pattern only matches a hostname that *begins* with `nishany.`, which
+ * `connectadminacademy.nishany.com` does not — its leading label is the admin one.
  *
  * Matching is on the leading label only, so plain `localhost`, an IP, or a preview
  * URL belongs to neither portal and keeps every route mounted — `npm run dev` behaves
  * exactly as it did before, with no redirect to production mid-session. The flip side
- * is deliberate: `adminsynapse.localhost:5173` and `nishany.localhost:5173` resolve to
- * loopback and *do* match, which is how the split is exercised locally.
+ * is deliberate: `connectadminacademy.nishany.localhost:5173` and `nishany.localhost:5173`
+ * resolve to loopback and *do* match, which is how the split is exercised locally.
  *
  * `synapse.` stays in the student pattern: the pre-rebrand domain still resolves
  * (the server 301s its pages, and the installed mobile apps keep it as their API
  * host), and any page that does render there must behave as the student site.
  */
 
-export const ADMIN_ORIGIN = 'https://adminsynapse.doitrous.com'
+export const ADMIN_ORIGIN = 'https://connectadminacademy.nishany.com'
 export const STUDENT_ORIGIN = 'https://nishany.com'
 
-// Anchored, so "adminsynapse." can never satisfy the student pattern.
-const ADMIN_HOST = /^(?:www\.)?adminsynapse\./i
+// Anchored to the leading label, so the admin subdomain (connectadminacademy.nishany.com)
+// can never satisfy the student pattern even though it contains "nishany.".
+const ADMIN_HOST = /^(?:www\.)?connectadminacademy\.nishany\./i
 const STUDENT_HOST = /^(?:www\.)?(?:nishany\.|synapse\.)/i
 
 function currentHost(): string {

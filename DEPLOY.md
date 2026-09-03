@@ -31,22 +31,24 @@ Point the domain (`synapse.doitrous.com`, already in the meta tags) at the host.
 
 ### The admin domain
 
-The dashboard answers on `adminsynapse.doitrous.com`, which is the **same
+The dashboard answers on `connectadminacademy.nishany.com`, which is the **same
 deployment** — one build, one container, one `/api`. Both domains are attached to
 the same Coolify application; nothing separate is deployed for the admin.
 
 The split is decided in the browser by `src/lib/portalHost.ts`:
 
-- on `adminsynapse.*`, `/` lands on `/admin`, the marketing head is stripped, the
-  page is marked `noindex`, and the public site and `/app` are handed to the
-  student origin;
-- on `synapse.*`, `/admin/*` is handed to the admin origin;
+- on `connectadminacademy.nishany.com`, `/` lands on `/admin`, the marketing head is
+  stripped, the page is marked `noindex`, and the public site and `/app` are handed
+  to the student origin;
+- on `nishany.*` (and the legacy `synapse.*`), `/admin/*` is handed to the admin origin;
 - on `localhost` or an IP, neither rule applies and every route stays mounted, so
   development is unaffected. To exercise the split locally, use
-  `adminsynapse.localhost:5173` — `.localhost` subdomains resolve to loopback.
+  `connectadminacademy.nishany.localhost:5173` — `.localhost` subdomains resolve to loopback.
 
-Sessions are stored per-origin, so an admin signs in once on each domain, and
-`https://adminsynapse.doitrous.com` must be in Supabase's allowed redirect URLs.
+A cross-origin **session handoff** (`/api/auth/handoff` → `/redeem`) now carries the
+Supabase session when a redirect crosses between the two domains, so a user is not
+forced to sign in a second time on the other origin. `https://connectadminacademy.nishany.com`
+must still be in Supabase's allowed redirect URLs.
 
 ### The first admin
 

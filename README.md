@@ -53,7 +53,7 @@ Admin console:
 - `/admin/import/:kind` - bulk import page for supported content kinds.
 - `/admin/reports`, `/admin/users`, `/admin/students`, `/admin/notifications`, `/admin/vouchers`, `/admin/email`, `/admin/mailbox`, `/admin/payments`, `/admin/privacy`, `/admin/settings`, `/admin/audit`, `/admin/assistant`, `/admin/access`.
 
-Production host split is runtime-based in `src/lib/portalHost.ts`: `synapse.*` serves the student portal and hands `/admin` to `adminsynapse.*`; `adminsynapse.*` serves the admin portal and hands student/public routes back. Localhost and preview hosts keep both portals mounted.
+Production host split is runtime-based in `src/lib/portalHost.ts`: `nishany.*` (and legacy `synapse.*`) serves the student portal and hands `/admin` to `connectadminacademy.nishany.com`; that admin host serves the admin portal and hands student/public routes back. A cross-origin session handoff (`/api/auth/handoff`) carries the Supabase session across the two domains so no second sign-in is needed. Localhost and preview hosts keep both portals mounted.
 
 ## Local Setup
 
@@ -131,7 +131,7 @@ Configure Supabase URL allow-list and redirects for every deployed origin:
 
 - Site URL: the main student origin, for example `https://synapse.example.com`.
 - Additional redirect URLs: `https://synapse.example.com/app`, `https://synapse.example.com/auth/verify-email`, `https://synapse.example.com/auth/reset-password`, `https://synapse.example.com/auth/mfa`, plus the same paths on the admin origin if admins sign in there.
-- Local development redirects: `http://localhost:5173/app`, `http://localhost:5173/auth/verify-email`, `http://localhost:5173/auth/reset-password`, `http://localhost:5173/auth/mfa`, and any `adminsynapse.localhost`/`synapse.localhost` hostnames used to test the split.
+- Local development redirects: `http://localhost:5173/app`, `http://localhost:5173/auth/verify-email`, `http://localhost:5173/auth/reset-password`, `http://localhost:5173/auth/mfa`, and any `connectadminacademy.nishany.localhost`/`nishany.localhost` hostnames used to test the split.
 
 Google and Facebook buttons are present on the login and sign-up pages through `supabase.auth.signInWithOAuth`. They are disabled until `VITE_SUPABASE_URL` and a publishable key are configured. Login sends the user back to the current origin plus the requested `next` path; sign-up lands on `/app`, where the normal university, year, username, icon, and plan onboarding flow continues. Password reset lands on `/auth/reset-password`.
 

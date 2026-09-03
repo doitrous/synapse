@@ -7,11 +7,12 @@ function at(hostname: string) {
   ;(globalThis as { window?: unknown }).window = { location: { hostname, pathname: '/', search: '', hash: '' } }
 }
 
-test('the two production hosts are told apart, and "adminsynapse" is not "synapse"', () => {
-  at('adminsynapse.doitrous.com')
+test('the two production hosts are told apart, and the admin subdomain is not a student host', () => {
+  at('connectadminacademy.nishany.com')
   assert.equal(isAdminHost(), true)
-  // The whole split rests on this: an unanchored student pattern would match
-  // the admin host too, and the admin domain would hand itself away.
+  // The whole split rests on this: the admin host is a subdomain of nishany.com,
+  // so an unanchored student pattern would match it too and the admin domain would
+  // hand itself away. The leading-label anchor is what keeps them apart.
   assert.equal(isStudentHost(), false)
 
   at('nishany.com')
@@ -28,10 +29,10 @@ test('the two production hosts are told apart, and "adminsynapse" is not "synaps
 })
 
 test('home is a path this origin actually serves', () => {
-  // `/app` on the admin domain is a hand-over to synapse.doitrous.com. A
+  // `/app` on the admin domain is a hand-over to the student origin. A
   // fallback naming it — after sign-in, after MFA, on cancelling a sign-out —
   // ejects an admin from the domain they just asked for.
-  at('adminsynapse.doitrous.com')
+  at('connectadminacademy.nishany.com')
   assert.equal(portalHome(), '/admin')
 
   at('synapse.doitrous.com')
