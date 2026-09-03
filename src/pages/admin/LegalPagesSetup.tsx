@@ -29,7 +29,7 @@ import {
 } from '@/data/legalPages'
 
 /**
- * Edit the four public documents — Terms, Privacy, Refund Policy, Contact.
+ * Edit the five public documents — Terms, Privacy, Refund Policy, Contact, Accessibility.
  *
  * They ship as drafts: every company fact nobody has confirmed is left in
  * brackets (`[COMPANY LEGAL NAME]`) and its clause carries a "Needs legal
@@ -54,6 +54,7 @@ const BASE_BY_SLUG: Record<LegalSlug, LegalPageContent> = {
   privacy: LEGAL_PAGES.privacy,
   'refund-policy': LEGAL_PAGES.refund,
   contact: LEGAL_PAGES.contact,
+  accessibility: LEGAL_PAGES.accessibility,
 }
 
 const EMPTY_OVERRIDE: LegalPageOverride = { sections: {}, updatedAt: '' }
@@ -252,7 +253,7 @@ export function LegalPagesSetup() {
     <PageContainer>
       <PageHeader
         title="Legal pages"
-        description="Terms, Privacy, Refund Policy and Contact, as students read them. Each page ships as a draft with the unconfirmed company facts left in brackets; what you write here replaces those and is published to every reader the moment you save."
+        description="Terms, Privacy, Refund Policy, Contact and Accessibility, as students read them. Each page ships as a draft with the unconfirmed company facts left in brackets; what you write here replaces those and is published to every reader the moment you save."
         actions={
           <Button
             iconLeft={ExternalLink}

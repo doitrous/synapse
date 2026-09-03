@@ -432,6 +432,12 @@ export async function heldTabs(identity) {
   return tabsForRole(identity.role, await roleTabs())
 }
 
+/** One 403, logged the same way everywhere it happens — `need` is also the response's `error`. */
+function forbidden(req, res, need) {
+  console.warn('[security] forbidden', { route: req.originalUrl, userId: req.identity?.id ?? null, need })
+  return res.status(403).json({ error: need })
+}
+
 /**
  * A route belongs to a tab, and you must hold that tab.
  *
@@ -440,11 +446,11 @@ export async function heldTabs(identity) {
  */
 export function requireTab(...tabIds) {
   return async function guard(req, res, next) {
-    if (!hasConsoleAccess(req.identity?.role)) return res.status(403).json({ error: 'console access required' })
-    if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
+    if (!hasConsoleAccess(req.identity?.role)) return forbidden(req, res, 'console access required')
+    if (!mfaSatisfied(req.identity)) return forbidden(req, res, 'mfa_required')
     try {
       if (!holdsTab(await heldTabs(req.identity), tabIds)) {
-        return res.status(403).json({ error: 'that area is not part of your role' })
+        return forbidden(req, res, 'that area is not part of your role')
       }
     } catch (error) { return next(error) }
     return next()
@@ -453,14 +459,14 @@ export function requireTab(...tabIds) {
 
 /** Any console role at all. Not sufficient on its own — see `requireTab`. */
 export function requireConsole(req, res, next) {
-  if (!hasConsoleAccess(req.identity?.role)) return res.status(403).json({ error: 'console access required' })
-  if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
+  if (!hasConsoleAccess(req.identity?.role)) return forbidden(req, res, 'console access required')
+  if (!mfaSatisfied(req.identity)) return forbidden(req, res, 'mfa_required')
   return next()
 }
 
 export function requireSuperAdmin(req, res, next) {
-  if (req.identity?.role !== 'super_admin') return res.status(403).json({ error: 'super admin required' })
-  if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
+  if (req.identity?.role !== 'super_admin') return forbidden(req, res, 'super admin required')
+  if (!mfaSatisfied(req.identity)) return forbidden(req, res, 'mfa_required')
   return next()
 }
 

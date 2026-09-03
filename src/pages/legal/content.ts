@@ -49,7 +49,7 @@ export interface LegalPageContent {
   sections: LegalSection[]
 }
 
-export type LegalPageKey = 'terms' | 'privacy' | 'refund' | 'contact'
+export type LegalPageKey = 'terms' | 'privacy' | 'refund' | 'contact' | 'accessibility'
 
 /** The exact line the pricing page already shows, reused as the refund opener. */
 const REFUND_LINE = '14-day refund window, subject to the published refund policy and abuse controls.'
@@ -465,23 +465,13 @@ const CONTACT: LegalPageContent = {
   ],
 }
 
-export const LEGAL_PAGES: Record<LegalPageKey, LegalPageContent> = {
-  terms: TERMS,
-  privacy: PRIVACY,
-  refund: REFUND,
-  contact: CONTACT,
-}
-
 /**
  * The accessibility statement.
  *
- * Not part of `LEGAL_PAGES` / `LegalPageKey`: those four are the set the
- * admin's `/admin/legal` override editor knows how to patch (see
- * `src/data/legalPages.ts`), and wiring a fifth page into that editor is a
- * separate change. `LegalPage.tsx` merges an override only when
- * `legalSlugOf(page.slug)` resolves to a known slug, so rendering this one
- * with no matching override is exactly what it already does for any page it
- * does not recognise — it just shows the draft below, unedited.
+ * Part of `LEGAL_PAGES` / `LegalPageKey` like the other four: the admin's
+ * `/admin/legal` override editor patches it the same way, and `LegalPage.tsx`
+ * merges an override for it because `legalSlugOf('/accessibility')` resolves
+ * to the `accessibility` slug in `src/data/legalPages.ts`'s `LEGAL_SLUGS`.
  */
 export const ACCESSIBILITY: LegalPageContent = {
   slug: '/accessibility',
@@ -527,6 +517,14 @@ export const ACCESSIBILITY: LegalPageContent = {
       ],
     },
   ],
+}
+
+export const LEGAL_PAGES: Record<LegalPageKey, LegalPageContent> = {
+  terms: TERMS,
+  privacy: PRIVACY,
+  refund: REFUND,
+  contact: CONTACT,
+  accessibility: ACCESSIBILITY,
 }
 
 /**

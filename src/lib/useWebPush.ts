@@ -43,21 +43,17 @@ export function useWebPush(): UseWebPushState {
   )
   const [subscribed, setSubscribed] = useState(false)
 
-  // Register the service worker on mount — offline caching (public/sw.js)
-  // benefits every visitor, not only someone who opts into push, so this used
-  // to be the bug: registration lived inside subscribe() below and never ran
-  // until a student clicked "enable notifications". It also reflects an
-  // existing push subscription (e.g. granted in a previous session), so the
-  // control shows "subscribed" without the student having to click through
-  // the flow again.
+  // The registration itself now happens once, at app start (`src/main.tsx`) —
+  // this just reflects it: an existing push subscription (e.g. granted in a
+  // previous session), so the control shows "subscribed" without the student
+  // having to click through the flow again.
   useEffect(() => {
     if (!SUPPORTED) return
     let alive = true
-    navigator.serviceWorker
-      .register(`${import.meta.env.BASE_URL}sw.js`)
+    navigator.serviceWorker.ready
       .then((registration) => registration.pushManager.getSubscription())
       .then((subscription) => { if (alive) setSubscribed(Boolean(subscription)) })
-      .catch(() => { /* registration failed — stay unsubscribed, offline caching is best-effort */ })
+      .catch(() => { /* no active registration yet — stay unsubscribed, offline caching is best-effort */ })
     return () => { alive = false }
   }, [])
 
@@ -67,10 +63,9 @@ export function useWebPush(): UseWebPushState {
     if (!vapidKey) return false
 
     try {
-      // Registering again is safe — the mount effect above has usually already
-      // done it; the browser resolves with the existing registration when the
-      // script URL and scope match.
-      const registration = await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`)
+      // The app-start registration in `src/main.tsx` has usually already
+      // resolved by the time a student clicks "enable notifications".
+      const registration = await navigator.serviceWorker.ready
       const result = await Notification.requestPermission()
       setPermission(result)
       if (result !== 'granted') return false

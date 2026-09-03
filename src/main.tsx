@@ -36,6 +36,12 @@ if (isAdminHost()) {
   document.head.appendChild(robots)
 }
 
+// Registered once here so offline caching (public/sw.js) benefits every
+// visitor, not only whoever lands on the one page that used to mount
+// `useWebPush` — that hook now reuses this registration via
+// `serviceWorker.ready` instead of registering a second time.
+try { void navigator.serviceWorker?.register(`${import.meta.env.BASE_URL}sw.js`) } catch { /* best-effort */ }
+
 async function startApp() {
   // Keep the local showcase populated for review without putting fixture code
   // on the live startup path or sending fixture data to a configured backend.

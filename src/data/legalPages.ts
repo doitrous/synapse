@@ -27,10 +27,10 @@ import type { LegalPageContent, LegalSection } from '../pages/legal/content.ts'
 
 export const LEGAL_PAGES_STATE_KEY = 'nishany-legal-pages-v1'
 
-/** The four routes, named by their path without the leading slash. */
-export type LegalSlug = 'terms' | 'privacy' | 'refund-policy' | 'contact'
+/** The five routes, named by their path without the leading slash. */
+export type LegalSlug = 'terms' | 'privacy' | 'refund-policy' | 'contact' | 'accessibility'
 
-export const LEGAL_SLUGS: LegalSlug[] = ['terms', 'privacy', 'refund-policy', 'contact']
+export const LEGAL_SLUGS: LegalSlug[] = ['terms', 'privacy', 'refund-policy', 'contact', 'accessibility']
 
 /**
  * What an admin changed about one section.

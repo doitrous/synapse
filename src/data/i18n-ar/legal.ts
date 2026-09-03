@@ -1,5 +1,5 @@
 /**
- * Arabic for Terms, Privacy, Refund Policy, Contact (WP6).
+ * Arabic for Terms, Privacy, Refund Policy, Contact, Accessibility (WP6).
  *
  * Owned by that package alone — every package writes only its own file, so two
  * agents adding strings on the same day cannot collide in `i18n-ar.ts`.
@@ -20,6 +20,7 @@ export const AR_LEGAL: Record<string, string> = {
   'Privacy Policy': 'سياسة الخصوصية',
   'Refund Policy': 'سياسة الاسترداد',
   'Contact Us': 'تواصل معنا',
+  'Accessibility Statement': 'بيان إمكانية الوصول',
 
   // ---- Document chrome ------------------------------------------------------
   'Last updated': 'آخر تحديث',
@@ -30,8 +31,10 @@ export const AR_LEGAL: Record<string, string> = {
   'Your name': 'الاسم',
   'Your email address': 'بريدك الإلكتروني',
   'Your message': 'رسالتك',
-  'Open in my mail app': 'افتح في تطبيق البريد',
-  'Nothing is sent from this page — your mail app opens with the message ready.':
-    'لا تُرسل الصفحة أي شيء بنفسها — يفتح تطبيق البريد لديك والرسالة جاهزة.',
   'Support request': 'طلب دعم',
+  'Message sent — a person reads it. Thank you.': 'تم إرسال الرسالة — سيقرأها أحدنا. شكرًا لك.',
+  'That did not send. Try again, or write to': 'تعذّر الإرسال. حاول مرة أخرى، أو راسلنا على',
+  'directly.': 'مباشرة.',
+  'Send message': 'إرسال الرسالة',
+  'Goes straight to the support inbox.': 'تصل مباشرة إلى صندوق الدعم.',
 }

@@ -70,8 +70,10 @@ export const logout = () => call<void>('/auth/logout', 'POST')
  * and Signup.tsx reads that to send the person to sign in rather than leaving
  * them waiting for an email about a password they never set.
  */
-export const signup = (email: string, password: string, data?: Record<string, string>) =>
-  call<{ ok: boolean; alreadyRegistered: boolean; session: boolean }>('/auth/signup', 'POST', { email, password, data })
+export const signup = (email: string, password: string, data?: Record<string, string>, turnstileToken?: string) =>
+  call<{ ok: boolean; alreadyRegistered: boolean; session: boolean }>('/auth/signup', 'POST', {
+    email, password, data, turnstileToken: turnstileToken || undefined,
+  })
 
 export const recover = (email: string) => call<{ ok: boolean }>('/auth/recover', 'POST', { email })
 
