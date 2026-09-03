@@ -1,4 +1,4 @@
-# ZU-MED-105 (Professional Practice I) — pp1-cluster1 + pp1-cluster2 + pp1-cluster3 ledger
+# ZU-MED-105 (Professional Practice I) — pp1-cluster1 + pp1-cluster2 + pp1-cluster3 + pp1-cluster4 + pp1shamel3 ledger
 
 **Tool note (same wall as pp1-cluster1's own note, and ZU-MED-106's author1 pass):**
 `node scripts/content/ledger.mjs docs/Zagazig-Source-Imports/coverage/seeds/ZU-MED-105
@@ -10,14 +10,20 @@
 authored-keys set and the remaining-keys lookup never intersect. The tool also
 **rewrites the whole file** on every run rather than appending, so each pass's raw
 output must be re-curated by hand back into this same narrative form — this revision
-restores pp1-cluster1/2's own sections (from git history, commits 341ff01c/32f4d392)
-verbatim and adds pp1-cluster3 below. **Correctly reported by the tool this pass**:
-`pp1-cluster1 | 40 | 0 | 0 | 40`, `pp1-cluster2 | 22 | 21 | 0 | 43`, `pp1-cluster3 | 32
-| 0 | 0 | 32`, and `pp1-held | 0 | 2 | 0 | 2` (all seed-declared clusters, matching real
-`cluster` fields in the three seed JSON files). The ~90+ one-row-per-key "remaining"
-lines the raw tool output also produces are the known false-positive artefact
-described above — omitted from this hand-verified table; every one of them is
-actually accounted for as authored, held, or out-of-scope-non-SBA below.
+restores pp1-cluster1/2/3/4's own sections (from git history, commits
+341ff01c/32f4d392/147312c0 and pp1-cluster4's own landed commit) verbatim and adds
+pp1shamel3 below. **Correctly reported by the tool this pass**: `pp1-cluster1 | 40 | 0
+| 0 | 40`, `pp1-cluster2 | 22 | 21 | 0 | 43`, `pp1-cluster3 | 32 | 0 | 0 | 32`,
+`pp1-cluster4 | 47 | 0 | 0 | 47`, `pp1shamel3 | 24 | 0 | 0 | 24`, and `pp1-held | 0 | 2
+| 0 | 2` (all seed-declared clusters, matching real `cluster` fields in the five seed
+JSON files). Neither pp1-cluster4 nor pp1shamel3's own held/deferred items were
+entered into `ZU-MED-105-triage-keys.txt` as individual slugs (unlike pp1-cluster1/2's
+practice), since most are referenced only by page/item position in
+`coverage/ZU-MED-105-triage.md`'s own page-range breakdown — they are listed below
+under "Held" and "Not authored this pass" instead. The ~90+ one-row-per-key
+"remaining" lines the raw tool output also produces are the known false-positive
+artefact described above — omitted from this hand-verified table; every one of them
+is actually accounted for as authored, held, or out-of-scope-non-SBA below.
 
 ## Clusters
 
@@ -26,6 +32,8 @@ actually accounted for as authored, held, or out-of-scope-non-SBA below.
 | pp1-cluster1 | 40 | 0 | 0 | 40 |
 | pp1-cluster2 | 22 | 21 | 0 | 43 |
 | pp1-cluster3 | 32 | 0 | 0 | 32 |
+| pp1-cluster4 | 47 | 0 | 0 | 47 |
+| pp1shamel3 | 24 | 0 | 0 | 24 |
 | pp1-held | 0 | 2 | 0 | 2 |
 
 pp1-cluster1 (landed 341ff01c): 40 of 76 keyed SBA items across the three tier-1
@@ -52,6 +60,24 @@ against internal duplication within this same source. The bank's remaining secti
 vulnerability/dignity/pluralism/stigmatization, leadership/team-dynamics, health
 determinants) are triaged (keyed, method validated) but not authored this pass — see
 "Not authored this pass" below. Real remaining scope for a follow-up pass.
+
+pp1-cluster4 (landed): authored entirely from `mcq شامل.pdf` pages 12-40, the
+sections pp1-cluster3 triaged but deferred (bioethics-principles, consent/
+confidentiality/vulnerability, leadership/team-dynamics, health determinants).
+
+pp1shamel3 (this pass): authored entirely from `mcq شامل.pdf` pages 12-40, the third
+dispatch pass over this same tier-2 bank, picking up the ~60 items pp1-cluster4's own
+"Not authored this pass" list deferred: law/culture definitions, the bioethics
+three-main-questions and principles-guide-decision-making all-of-the-above items, a
+competent adult's right to decide about their own body, the p.15 equity/justice
+doubtful mark, the equity-in-healthcare-principles all-of-the-above item, care for
+vulnerable populations, present/future-generations bioethics, stigmatization as a
+social concept, a UNESCO-style culture definition, the p.29 pluralism/culture doubtful
+mark, performance indicators in education, the p.30 responsibility/accountability
+reversed-convention pair, the second leadership-skills list's all-of-the-above item,
+the performing stage, effective-team principles and challenges, the elements/stages-
+of-team-dynamics list, the importance of teamwork in healthcare, and the p.38
+Health/Wellness/Spectrum-of-health trio. See its own detail section below.
 
 ## Held — pp1-cluster1 (unchanged from its own landed pass)
 
@@ -267,3 +293,379 @@ title field-note fix), question 0 errors (32 items, 31 concepts tested, all
 explanations run 265-402+ characters, all ≥3 sentences, 0% under the 200-char/
 3-sentence floor). Parsed-row counts verified to equal `# Item` counts and unique ids
 for all three files (31/31, 3/3, 32/32).
+
+---
+
+## pp1-cluster4 — triage and authoring detail (this pass)
+
+### Scope: `mcq شامل.pdf` pages 12-40 (bioethics, consent/confidentiality/vulnerability, leadership/team-dynamics, health determinants)
+
+pp1-cluster3 triaged this whole 44-page bank at ~94% keyed (133/142 detected blocks)
+but authored only its Self-Directed-Learning section (pages 2-11). This pass opens
+the remaining four sections (pages 12-40) that pp1-cluster3 deferred, per the
+dispatch's page-range scope. The yellow fill-rectangle key convention and ad hoc
+PyMuPDF detection method are unchanged from pp1-cluster3 (`page.get_drawings()` for
+non-white filled rectangles matched to the option-line bounding box the fill's
+vertical centre falls inside); this pass extended the option-letter regex from
+`[a-h]` to `[a-n]` after discovering two questions on page 38 whose options continue
+past `h)` (the source's own lettering runs sequentially across adjacent questions
+rather than resetting to `a)` — see "script-merge artefacts" below).
+
+Detection over pages 12-40 found **106 question blocks**: 96 single-marked, 8
+zero-marked, 2 multi-marked. Two of the "zero-marked" blocks were not real questions:
+a page-16/17 and a page-35/36 question each split across a page boundary, with its
+single option-`a` mark already counted on the earlier page. Both multi-marked blocks
+were **script-merge artefacts, not genuine key conflicts**: this source's own option
+lettering sometimes continues sequentially into an adjacent question (e.g. page 19's
+beneficence question uses `a-d`, the next non-maleficence question continues `e-h`
+rather than resetting to `a-d`; page 36 and page 38 do the same) rather than the
+generic "new block starts at `a)`" boundary rule the detection script uses, so two
+independently-marked questions get read as one block with two marks. Manually
+re-splitting each by its embedded lettering resolved both cleanly into two
+single-marked sub-questions, with 0 real ambiguity. **6 blocks are genuinely
+unmarked** (`held-no-printed-key`): the "circumstances of consent (from whom)" and
+"given consent is invalid except" items (p.24), "persons without capacity to consent
+except" (p.25), "conditions of permissible breach of confidentiality except" and
+"principles of dignity in health care except" (p.26, both render-confirmed genuinely
+unmarked by pp1-cluster3's own page-26 render spot-check, since they sit on the same
+page pp1-cluster3 already rendered), and "physician responsibilities except" (p.30,
+render-confirmed this pass — see below). Net: **106 detected blocks resolve to
+~107 distinct question instances** (106 − 2 split-boundary artefacts + 2×2
+merge-artefact sub-questions), close to this dispatch's ~101-item estimate; 96 of
+these carry a single unambiguous mark.
+
+**Render used (this dispatch's only 1 of 14 module-wide renders):** page 30, to
+verify an apparently convention-reversed pair of marks (see below). `render --force`
+confirmed the detection script's fills exactly: 4/4 marks matched, 0 mismatches —
+consistent with pp1-cluster3's own 2-render, 0-mismatch track record on this same
+source. The two unconventional marks on that page are genuinely printed, not a
+detection error, and are deferred rather than authored (see "Not authored this pass").
+
+### Authoring: 47 of ~107 items, selected for topical balance and to avoid duplication
+
+This pass authors 47 questions across all four deferred sections (13 bioethics, 14
+consent/confidentiality/vulnerability, 14 leadership/team-dynamics, 6 health
+determinants), selected against two duplicate-review passes:
+
+**Against lanes 1-3's existing 94 concepts** (per-item review, as flagged by
+pp1-cluster3's own triage): three facts recur and are held rather than re-minted,
+named twin in each case —
+- "unequal treatment of unequal needs" = vertical equity (p.16, and its p.23
+  restatement) — held-duplicate — dup of `pp1-fakous24-q02-vertical-equity-definition`
+  (lane 1; already has two further within-source duplicates, `pp1-past-q61`/`q69`).
+- "double effect ... combined effect of beneficence and non-maleficence" (p.21) —
+  held-duplicate — dup of `pp1-past-q50-double-effect-beneficence-nonmaleficence`
+  (lane 2).
+- "effective negotiation involves understanding the interests of all involved" (p.32)
+  — held-duplicate — dup of
+  `pp1-fakous24-q06-leadership-negotiation-conflicting-interests` (lane 1).
+- "some rebellion against the assigned task" = storming (p.35, and its p.36
+  restatement) — held-duplicate — dup of
+  `pp1-zag24-q04-storming-stage-team-development` /
+  `pp1-fakous24-q07-storming-stage-team-development` (lane 1, already a documented
+  twin pair).
+- "the intellectual capacity to understand, analyze, and judge information" =
+  competence (p.14) — held-duplicate — dup of `pp1-past-q57-competence-definition`
+  (lane 2).
+
+Three further new concepts this pass instead **cross-link** to an existing lane
+concept via `related_concept_ids` rather than holding, because they test a distinct,
+complementary fact rather than restating the same one: `horizontalequity.definition-
+is-equal-treatment-of-equal-needs` (new) links to lane 1's vertical-equity concept;
+`unmodifiabledeterminants.biological-factors-except-behavioural-sociocultural` and
+`modifiabledeterminants.factors-except-gender-not-modifiable` (both new) link to lane
+2's `healthdeterminants.genetic-factors-are-non-modifiable`.
+
+**Against `mcq شامل.pdf`'s own internal near-duplication**: the bioethics-principles
+block (pages 12-16) is tested near-verbatim a second time (pages 16-23) within this
+same source; this pass authors from the clearer first pass plus a handful of facts
+genuinely unique to the second pass (autonomy-and-responsibility, beneficence and
+non-maleficence definitions, the "no autonomy without responsibility" aphorism, the
+consent-as-assault-except item), and holds every second-pass item that merely
+restates a first-pass fact. The team-dynamics stage material (forming/norming/
+storming/performing) is also stated twice within pages 34-38; this pass authors one
+clean instance of each stage tested and holds the repeats. The "team dynamics"
+definition itself is stated twice (p.34 and p.37); this pass authors the p.34 version
+and holds the p.37 restatement.
+
+**Not authored this pass** (triaged, keyed, method validated; real remaining scope
+for a follow-up pass, not held for any quality reason):
+- Bioethics: law/culture definitions, "three main questions", "principles guide
+  decision-making" (all-of-the-above list items), the autonomy-vs-justice-vs-equity
+  item marked "justice" for an equity-sounding stem (single mark, plausible but not
+  selected this pass to keep the section to a representative sample), "competent
+  adult right to decide about own body" (p.18), "equity in healthcare principles"
+  (all-of-the-above, p.23).
+- Consent/confidentiality/vulnerability: "care for vulnerable populations"
+  (all-of-the-above), "bioethical issues: present and future generations",
+  "stigmatization is a social rather than legal concept", the UNESCO-style culture
+  definition (p.29), a second culture/pluralism item (p.29) whose printed mark reads
+  as "Culture" for a stem that describes pluralism — flagged as an anomaly but not
+  render-checked (this dispatch's 1 render was spent on p.30 instead) and deferred
+  rather than authored on a doubtful mark, "performance indicators in education"
+  (all-of-the-above), and two responsibility/accountability items (p.30) whose
+  printed marks reverse the conventional self-initiated-vs-requested-by-another
+  distinction relative to this same page's own conventional first item — render-
+  confirmed as genuinely printed (see above), deferred for topical-balance/scope
+  reasons rather than doubt in the mark.
+- Leadership/team-dynamics: this module's second "leadership skills" list
+  (problem-solving list, all-of-the-above item), the performing-stage item, "effective
+  team principles" and "effective team challenges" (both all-of-the-above),
+  "elements/stages of team dynamics" (all-of-the-above), "importance of teamwork
+  improves care at the organization and patient level", and the Health/Wellness/
+  Spectrum-of-health mini-topic (p.38, 3 items) — a clean, self-contained trio judged
+  lower-priority than the module's professionalism/team content this pass, and left
+  for a follow-up pass.
+
+### Held (this pass) — unmarked, malformed, or duplicate, not authored
+
+- 6 genuinely unmarked items (`held-no-printed-key`): "circumstances of consent (from
+  whom)" and "given consent is invalid except" (p.24), "persons without capacity to
+  consent except" (p.25), "conditions of permissible breach of confidentiality
+  except" and "principles of dignity in health care except" (p.26, render-confirmed
+  by pp1-cluster3's own page-26 render), "physician responsibilities except" (p.30,
+  render-confirmed this pass).
+- 2 malformed-source items (`held-malformed-source`): "the following refer to" (p.15
+  — an empty/incomplete stem reusing the prior question's options with a different,
+  unverifiable mark); "importance of teamwork in health care except" (p.34 — three of
+  four options print with no visible text, an extraction/source defect).
+- Duplicate-of-lanes-1-3 items (`held-duplicate`, named twin above): competence
+  (p.14), vertical equity (p.16 and its p.23 restatement), double effect (p.21),
+  negotiation (p.32), storming/rebellion (p.35 and its p.36 restatement).
+- Internal duplicates within `mcq شامل.pdf` itself (`held-duplicate`): the bioethics-
+  principles block's second pass (pages 16-23) restates its own first pass (pages
+  12-16) — bioethical concepts, medical-ethics-as-a-branch, law/culture definitions,
+  "three main questions", four-principles-all-of-the-above, autonomy-self-
+  determination, and the equity/equality/justice trio (p.22) all restate their own
+  first-pass twin; "physician must act in best interest, promote health/wellbeing"
+  (p.19, merged block) restates this pass's own beneficence item (p.21); "first, do no
+  harm ... risk outweighed by benefit" (p.19, merged block) restates this pass's own
+  non-maleficence item (p.21); the p.36 merged-block forming/ambiguity and storming/
+  rebellion sub-questions restate p.35's forming item (authored) and the storming
+  duplicate (held) respectively; p.37's norming and performing items restate p.35's
+  norming item (authored) and performing item (not authored this pass) respectively;
+  p.37's team-dynamics-definition item restates p.34's team-dynamics item (authored).
+
+### Concept resolution for the 47 concepts backing pp1-cluster4's 47 authored questions
+
+Every concept this pass is a **fresh mint** except the three cross-links noted above.
+`find-existing.mjs` (literal queries: bioethics, beneficence, autonomy, non-
+maleficence, vulnerability, accountability, leadership styles, health determinants,
+pluralism, stigmatization, confidentiality, privacy, team dynamics, consent) plus
+`grep -ril` across `docs/Ain-Shams-Source-Imports`, `docs/Helwan-Source-Imports`,
+`docs/FOMSCU-Source-Imports` concept/pending-live directories for the same terms
+returned 0 cross-university hits in the bioethics/professionalism domain — the only
+matches were unrelated anatomical "vulnerability" (subendocardial ischaemia,
+liver-zonation, abducens-nucleus concepts) and unrelated immunological/oncological
+"autonomy" mentions, confirming this content is genuinely new territory outside this
+lane too, matching pp1-cluster3's own finding for self-directed learning. Every
+concept backs exactly 1 question (no shared concepts this pass).
+
+### Gate summary — pp1-cluster4 (this pass)
+
+```
+GATE batch concept/ZU-MED-105-pp1-cluster4-concepts.md: items=47 errors=0
+GATE batch article/ZU-MED-105-pp1-cluster4-articles.md (--with cluster4 concept): items=4 errors=0
+GATE batch question/ZU-MED-105-pp1-cluster4-mcq.md (--with cluster4 concept, --with cluster4 article): items=47 errors=0
+GATE simulate 12 file(s) (cluster1 concept/article/question, cluster2 concept/article/question, cluster3 concept/article/question, cluster4 concept/article/question, applied in order): batches=12 created=289 updated=0 rejected=0 skipped=0 errors=0
+```
+
+`validate-content-batch.mjs` run directly on all three pp1-cluster4 files confirms
+the same: concept 0 errors (47 items), article 0 errors (4 items, field_notes added
+for the LD-15 Arabic-title check, matching pp1-cluster3's own precedent), question 0
+errors (47 items, 47 concepts tested, all `needs_evidence` as expected for fresh
+mints; one warning noting the correct-answer explanations run 404+ characters median
+517, all ≥3 sentences, 0% under the 200-char/3-sentence floor). Parsed-row counts
+verified to equal `# Item` counts and unique ids for all three files (47/47, 4/4,
+47/47); question `library_ids` present and non-empty on all 47 items.
+
+Two items (`pp1shamel2-q20-vulnerable-populations-except-dm`,
+`pp1shamel2-q43-modifiable-determinants-except-gender`) print 5 options in the
+source; kept at 5 rather than trimmed, since every option is a genuine, distinct list
+member the source itself enumerates and this module's `>5 options trimmed and
+documented` rule applies to sources printing more than 5, not exactly 5.
+
+### Remaining scope after this pass
+
+~60 further keyed items remain across pages 12-40 (see "Not authored this pass"
+above), plus the Health/Wellness/Spectrum-of-health mini-topic (p.38, 3 clean items)
+and the second, unresolved bioethics equity/justice item (p.15). This remaining scope
+is picked up by pp1shamel3 below.
+
+---
+
+## pp1shamel3 — triage and authoring detail (this pass)
+
+### Scope: `mcq شامل.pdf` pages 12-40, the third dispatch pass over this bank
+
+This pass picks up pp1-cluster4's own "Not authored this pass" list in full, spot-
+checking the yellow fill-rectangle detection script (unchanged from pp1-cluster3/4:
+`page.get_drawings()` non-white filled rectangles matched to the option-line bounding
+box the fill's vertical centre falls inside) against its own page-2 validation run
+(4/4 marks matched exactly, b/a/d/d, 0 mismatches, confirming the script still
+functions correctly on this file before trusting new pages). 24 questions are
+authored across the same four sections pp1-cluster4 opened: 7 bioethics (pages 12-23),
+8 consent/confidentiality/vulnerability (pages 24-30), 6 leadership/team-dynamics
+(pages 33-37), and 3 health definitions (page 38).
+
+**Render used (3 of this dispatch's 14-render budget):** page 15 (render #1, to
+verify the p.15 equity/justice doubtful mark: 4/4 marks matched exactly, b→Beneficence
+p.12-item, d→justice, c→Equality, b→Equity, 0 mismatches); page 29 (render #2, to
+verify the p.29 pluralism/culture doubtful mark: both items genuinely marked
+"a) Culture", 0 mismatches); page 30 (render #3, to verify the responsibility/
+accountability reversed pair: 3/3 marks matched exactly — b) ACCOUNTABILITY,
+b) ACCOUNTABILITY, a) RESPONSIBILITY — 0 mismatches, and the page's 4th item,
+"Physician responsibilities except", confirmed genuinely unmarked). All three renders
+confirmed the detection script's output exactly; every doubtful or reversed mark this
+pass authors is render-confirmed as genuinely printed, not a detection artefact.
+
+### Search-before-mint caught one planned item as an existing duplicate
+
+The triage's page-19 "Justice: fairness with respect to distribution of medical
+resources" item (options Autonomy/Beneficence/Competence/Justice, keyed Justice) was
+planned for authoring but `find-existing.mjs "justice"` surfaced lane 1's existing
+concept `justiceprinciple.fair-distribution-of-healthcare-resources`
+(`CON-POP-BED479E0FA27CA`, question `pp1-zag24-q05-justice-fair-distribution-
+healthcare`, "A bioethical principle requires fair distribution of healthcare
+resources" → Justice) — the same underlying fact in reworded-stem form. Held rather
+than re-authored, named twin above.
+
+### Doubtful marks and a reversed-convention pair, authored with the doubt recorded
+
+Per this dispatch's explicit instruction and this lane's standing rule (printed keys
+stand, doubt in `author_notes`/`field_notes.uncertainty`, never silently corrected):
+- **p.15 equity/justice item** (`pp1shamel3-q06`): "fair and equitable treatment of
+  individuals within populations" is marked Justice, though it paraphrases this
+  module's own equity definition closely enough that Equity would read as the more
+  intuitive answer. Render-confirmed; this exact stem/mark pair recurs verbatim on
+  p.22 (held as an internal duplicate, not re-authored).
+- **p.29 pluralism/culture item** (`pp1shamel3-q12`): "the affirmation and acceptance
+  of diversity ... politics, science, medicine, religion, philosophy, and ethics" is
+  marked Culture, even though this module's own p.28 item marks an almost identical
+  description correctly as Pluralism. Render-confirmed.
+- **p.30 responsibility/accountability pair** (`pp1shamel3-q14`, `pp1shamel3-q15`): a
+  self-initiated decision is marked Accountability and a decision requested by
+  another person is marked Responsibility, reversing the more conventional pairing
+  this same page's own first item uses (Accountability = answerable to an authority).
+  Both marks render-confirmed.
+
+### Not authored this pass (out of the ~60-item deferred scope, real remaining territory)
+
+- Bioethics second-pass internal duplicates already flagged by pp1-cluster4 (pages
+  16-23 restating pages 12-16): the equity/justice/equality trio at p.22 (twin of the
+  p.15 item authored above), the six-option "principles of medical ethics" restatement
+  (p.18), the autonomy-self-determination restatement (p.19), and the beneficence/
+  non-maleficence restatements via merged e-h lettering (p.19, twins of p.21 items
+  already authored by pp1-cluster4).
+- The autonomy-vs-justice-vs-equity item (p.15 item 12, "the following refer to") —
+  held-malformed-source, an incomplete stem reusing the prior question's options,
+  keyed Beneficence (render-confirmed, unverifiable against the stem).
+- p.20 item 12 ("one's awareness of one's obligation to make decisions and act
+  appropriately... responsibility manifests autonomy", keyed Responsibility) — a
+  companion fact to pp1-cluster4's own `pp1shamel2-q12` ("no autonomy without
+  responsibility"), already narrated in that concept's own explanation; not
+  independently authored to avoid two near-identical concepts for one underlying
+  relationship.
+- Leadership/team-dynamics internal duplicates already flagged or newly confirmed:
+  negotiation (p.32, twin of `pp1-fakous24-q06`), storming/rebellion (p.35 item 8,
+  twin of `pp1-zag24-q04`/`pp1-fakous24-q07`), and the p.36-37 merged-block
+  restatements of forming, norming, team-dynamics-definition and performing (each a
+  twin of an already-authored item from pp1-cluster4 or this pass).
+- Two "leadership styles" and health-determinant items already fully covered by
+  pp1-cluster4 (autocratic/charismatic leadership, all four determinant-exception
+  items) — confirmed unchanged on re-read, not re-authored.
+
+### Held (this pass) — unmarked, malformed, or duplicate, not authored
+
+- `pp1shamel3-held-p19-justice-fair-distribution` — held-duplicate — dup of lane 1's
+  `justiceprinciple.fair-distribution-of-healthcare-resources`
+  (`CON-POP-BED479E0FA27CA`, question `pp1-zag24-q05`), p.19 item 10 of
+  `mcq شامل.pdf`, keyed Justice.
+- `pp1shamel3-held-p15-malformed-stem` — held-malformed-source — p.15 item 12, "the
+  following refer to" (incomplete stem reusing the prior question's options), keyed
+  Beneficence, render-confirmed but unverifiable against the stem.
+- `pp1shamel3-held-p20-autonomy-responsibility-companion` — held-duplicate-concept —
+  p.20 item 12 ("responsibility manifests autonomy"), already narrated inside
+  pp1-cluster4's `pp1shamel2-q12` explanation as a companion fact.
+- Internal duplicates (`held-duplicate`, named twins above): p.22 equity/justice/
+  equality trio (twin of p.15, this pass's own `pp1shamel3-q06`), p.18 six-option
+  medical-ethics-principles restatement (twin of `pp1shamel2-q04`), p.19 autonomy-
+  self-determination restatement (twin of `pp1shamel2-q05`), p.19 beneficence/non-
+  maleficence merged-block restatements (twins of `pp1shamel2-q10`/`q11`), p.32
+  negotiation (twin of `pp1-fakous24-q06`), p.35 storming/rebellion (twin of
+  `pp1-zag24-q04`/`pp1-fakous24-q07`), p.36-37 forming/norming/team-dynamics-
+  definition/performing merged-block restatements (twins of `pp1shamel2-q40`/`q41`/
+  `q35` and this pass's own `pp1shamel3-q17`).
+
+### Concept resolution for the 24 concepts backing pp1shamel3's 24 authored questions
+
+23 concepts are fresh mints; 0 are overlays. `find-existing.mjs` (short literal
+queries: law, culture, spectrum of health, wellness, team dynamics, effective team,
+vulnerable populations, pluralism, stigmatization, justice, performance indicators,
+decision making final word, autonomy right decide own body, bioethics three main
+questions, equity in healthcare principles, bioethical issues present future
+generations, care for vulnerable, responsibility accountability decision made by
+oneself, leadership skills, importance of teamwork) plus `grep -ril` across
+`docs/MUST-Source-Imports`, `docs/Zagazig-Source-Imports` concept/pending-live
+directories for "spectrum of health", "wellness", "performance indicator" returned 0
+dedicated cross-university or cross-module hits (only incidental one-off mentions
+inside unrelated paediatric-emergency and self-directed-learning prose), confirming
+this remaining bioethics/leadership/health-definitions territory is still genuinely
+new, matching pp1-cluster3/4's own findings. The one query that did return a hit
+("justice") surfaced the p.19 duplicate held above rather than a reusable match for
+any of this pass's own 24 authored items. Every concept backs exactly 1 question (no
+shared concepts this pass). 5 concepts cross-link via `related_concept_ids` /
+`contextual_concept_ids` to existing lane concepts they complement without restating
+(competent-adult-autonomy → autonomy-self-determination; the p.15 doubtful item →
+both the equity definition and lane 1's justice concept; the p.29 doubtful item →
+both the p.28 pluralism concept and this pass's own UNESCO-culture concept; the p.30
+pair cross-link to each other and to pp1-cluster4's responsibility/accountability
+definitions; the performing-stage and elements/stages items cross-link to
+pp1-cluster4's forming/norming concepts; importance-of-teamwork cross-links to
+pp1-cluster4's team-dynamics-definition concept).
+
+Two items print more options than the 5-option cap: `pp1shamel3-q13` (performance
+indicators in education, source prints 7 options: 6 individual items plus "all of the
+following") and `pp1shamel3-q16` (leadership skills second list, source prints 8
+options: 7 individual items plus "all of the following"). Both trimmed to 5 by
+dropping the weakest individual-item distractors while keeping the correct "all
+together" option's text and explanation listing every genuine source item, documented
+in each question's `field_notes.optionsTrimmed`, per this module's `>5 options
+trimmed and documented` rule.
+
+### Gate summary — pp1shamel3 (this pass)
+
+```
+GATE batch concept/ZU-MED-105-pp1shamel3-concepts.md: items=24 errors=0
+GATE batch article/ZU-MED-105-pp1shamel3-articles.md (--with pp1shamel3 concept): items=4 errors=0
+GATE batch question/ZU-MED-105-pp1shamel3-mcq.md (--with pp1shamel3 concept, --with pp1shamel3 article, --with pp1-concepts, --with pp1-cluster4-concepts): items=24 errors=0
+GATE simulate 15 file(s) (cluster1 concept/article/question, cluster2 concept/article/question, cluster3 concept/article/question, cluster4 concept/article/question, pp1shamel3 concept/article/question, applied in order): batches=15 created=341 updated=0 rejected=0 skipped=0 errors=0
+```
+
+`validate-content-batch.mjs` run directly on all three pp1shamel3 files confirms the
+same: concept 0 errors (24 items, 50 fields used), article 0 errors (4 items, 51
+fields used), question 0 errors (24 items, 24 concepts tested, all `needs_evidence`
+as expected for fresh mints; one warning noting the correct-answer explanations run
+415-548+ characters median 548, all ≥3 sentences, 0% under the 200-char/3-sentence
+floor). Parsed-row counts verified to equal `# Item` counts and unique ids for all
+three files (24/24, 4/4, 24/24); question `library_ids` present and non-empty on all
+24 items.
+
+### Remaining scope after this pass
+
+Roughly 30-35 further keyed items remain across `mcq شامل.pdf` pages 12-40, per the
+"Not authored this pass" list above: internal-duplicate restatements already
+identified but not individually itemised by page/position, plus items pp1-cluster4
+deferred that this pass did not select for topical balance (e.g. the second, remaining
+"leadership skills" list items beyond the all-of-the-above summary, further bioethics
+law/culture list items, and any pp1-cluster4-deferred item not named in this pass's
+own "Not authored this pass" section above). With this pass, `mcq شامل.pdf`'s four
+main sections (self-directed learning, bioethics, consent/leadership/health) have each
+received at least one authoring pass; a genuinely exhaustive sweep of every remaining
+keyed item is real scope for a future pass, but is no longer a first-priority gap.
+`امتحانات سابقه.pdf` (this module's other tier-1 bank) was already fully exhausted by
+pp1-cluster1/2 (see their own sections above) — **ZU-MED-105's two named tier-1/2
+keyed sources (`Zag P.P1 Final 2024.pdf`, `Fakous P.P1 Final 2024.pdf`,
+`امتحانات سابقه.pdf`) are fully exhausted; `mcq شامل.pdf` has had four authoring
+passes (self-directed learning, bioethics/consent/leadership/health ×2, this pass)
+and is not exhaustively drained but is no longer a first-priority source.**

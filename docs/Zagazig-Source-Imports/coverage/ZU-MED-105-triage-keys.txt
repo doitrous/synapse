@@ -150,8 +150,81 @@ pp1shamel-held-src-q24-develop-plan-steps-ambiguous  # held-indefensible-key · 
 pp1shamel-held-src-q27-uncover-gaps-diary-method  # held-question-quality · "keeping a diary of learning needs" keyed "Self-assessment" reads as a closer fit to a logbook/reflective-diary method
 pp1shamel-held-src-q29-colleagues-observe-feedback  # held-question-quality · "ask colleagues to observe... feedback" keyed "Observation" reads as a closer fit to 360-degree appraisal
 pp1shamel-held-src-q30-learning-needs-definition-dup  # held-duplicate · "Learning needs are..." restates pp1-cluster2's pp1-past-q48-learning-needs-definition in reverse MCQ orientation
-# mcq شامل.pdf pages 12-40 (bioethics principles, consent/confidentiality/vulnerability,
-# leadership/team-dynamics, health determinants) — triaged (~94% keyed overall across
-# the full 44-page bank), method validated, not opened for individual key transcription
-# this pass; real remaining scope for a follow-up pass, see coverage/ZU-MED-105-triage.md
-# for the page-range breakdown and each section's specific duplicate-risk notes.
+# === pp1-cluster4 (mcq شامل.pdf pp.12-40: bioethics principles, consent/confidentiality/
+# vulnerability, leadership/team-dynamics, health determinants — fourth pass) ===
+# Same yellow fill-rectangle key, ad hoc PyMuPDF detection as pp1-cluster3 (extended the
+# option-letter regex a-h to a-n after finding two questions whose lettering continues
+# past h). Render-confirmed page 30 this pass (1 render, 0 mismatches across 4 marks).
+# 106 detected blocks across pp.12-40 (~107 distinct questions after resolving 2 split-
+# boundary and 2 script-merge artefacts); 47 authored, rest held or deferred — see
+# coverage/ZU-MED-105-LEDGER.md's pp1-cluster4 section for the full per-item map.
+pp1shamel2-q01-bioethics-definition  # new · key: B) the study of ethical, social, and legal issues that arise in biomedicine and biomedical research
+pp1shamel2-q02-bioethical-concepts  # new · key: E) All of the above
+pp1shamel2-q03-medical-ethics-branch-of-bioethics  # new · key: A) medical ethics
+pp1shamel2-q04-four-principles-of-medical-ethics  # new · key: E) All of the above (source Q7)
+pp1shamel2-q05-autonomy-self-determination  # new · key: A) Autonomy (source Q8)
+pp1shamel2-q06-decision-making-final-word-patient  # new · key: C) the final word is with the patient (source Q9)
+pp1shamel2-q07-equality-definition  # new · key: C) Equality (source Q14)
+pp1shamel2-q08-equity-definition  # new · key: B) Equity (source Q15)
+pp1shamel2-q09-horizontal-equity  # new · key: D) horizontal equity (source Q16)
+pp1shamel2-q10-beneficence-definition  # new · key: B) Beneficence (2nd-pass source item, p.21, fuller wording)
+pp1shamel2-q11-nonmaleficence-primum-non-nocere  # new · key: C) The concept of non-maleficence (2nd-pass source item, p.21, primum non nocere wording)
+pp1shamel2-q12-no-autonomy-without-responsibility  # new · key: D) Responsibility (2nd-pass source item, p.20)
+pp1shamel2-q13-medical-consent-assault-exceptions  # new · key: A) Medical consent (source Q24-equivalent, p.23)
+pp1shamel2-q14-consent-invalid-no-medical-indication  # new · key: C) Operation without medical indication e.g., amputation of a finger to escape military service
+pp1shamel2-q15-privacy-definition  # new · key: B) Privacy
+pp1shamel2-q16-confidentiality-definition  # new · key: D) Confidentiality
+pp1shamel2-q17-privacy-confidentiality-reasons  # new · key: D) All of the following
+pp1shamel2-q18-vulnerable-groups-definition  # new · key: C) Vulnerable groups
+pp1shamel2-q19-vulnerability-definition  # new · key: B) Vulnerability
+pp1shamel2-q20-vulnerable-populations-except-dm  # new · key: E) People with DM (5-option item, kept at 5)
+pp1shamel2-q21-vulnerability-causes-except-genetics  # new · key: D) genetics
+pp1shamel2-q22-cultural-diversity-definition  # new · key: C) Cultural diversity
+pp1shamel2-q23-pluralism-definition  # new · key: D) Pluralism
+pp1shamel2-q24-non-discrimination-definition  # new · key: C) Non-discrimination
+pp1shamel2-q25-stigmatization-definition  # new · key: A) Stigmatization
+pp1shamel2-q26-responsibility-definition-charge-trust-duty  # new · key: A) RESPONSIBILITY
+pp1shamel2-q27-accountability-definition-answerable-to-authority  # new · key: B) ACCOUNTABILITY
+pp1shamel2-q28-leadership-styles-list  # new · key: E) All of the folowing (source's own spelling)
+pp1shamel2-q29-autocratic-leadership-authoritarian  # new · key: E) Autocratic Leadership
+pp1shamel2-q30-charismatic-leadership  # new · key: E) Charismatic Leadership
+pp1shamel2-q31-communication-definition  # new · key: A) Communication
+pp1shamel2-q32-leadership-skills-list1  # new · key: G) All of the following
+pp1shamel2-q33-reliability-trust-cornerstone  # new · key: D) Reliability and trust
+pp1shamel2-q34-problem-solving-definition  # new · key: A) Problem-solving
+pp1shamel2-q35-team-dynamics-definition  # new · key: B) Team dynamics (p.34 occurrence)
+pp1shamel2-q36-contingency-team-definition  # new · key: C) Contingency team
+pp1shamel2-q37-coordinating-team-definition  # new · key: A) Coordinating team
+pp1shamel2-q38-support-services-definition  # new · key: C) Support services
+pp1shamel2-q39-ancillary-team-cleaners  # new · key: B) Ancillary team
+pp1shamel2-q40-forming-stage-ambiguity  # new · key: B) Forming
+pp1shamel2-q41-norming-stage-open-communication  # new · key: D) Norming (p.35 occurrence)
+pp1shamel2-q42-unmodifiable-determinants-except-behavioural  # new · key: D) Behavioural and socio-cultural factors
+pp1shamel2-q43-modifiable-determinants-except-gender  # new · key: E) Gender (5-option item, kept at 5)
+pp1shamel2-q44-socioeconomic-factors-all-above  # new · key: D) all
+pp1shamel2-q45-physical-environment-definition  # new · key: B) Physical environment
+pp1shamel2-q46-health-services-determinant-definition  # new · key: A) Health services
+pp1shamel2-q47-lifestyle-definition  # new · key: D) Behavioural and socio-cultural factors (p.40 occurrence)
+# --- held: pp1-cluster4 (unmarked / malformed / duplicate — see LEDGER for full detail) ---
+pp1shamel2-held-consent-circumstances-unmarked  # held-no-printed-key (p.24)
+pp1shamel2-held-consent-invalid-except-unmarked  # held-no-printed-key (p.24)
+pp1shamel2-held-capacity-to-consent-except-unmarked  # held-no-printed-key (p.25)
+pp1shamel2-held-breach-confidentiality-except-unmarked  # held-no-printed-key (p.26, render-confirmed by pp1-cluster3)
+pp1shamel2-held-dignity-principles-except-unmarked  # held-no-printed-key (p.26, render-confirmed by pp1-cluster3)
+pp1shamel2-held-physician-responsibilities-except-unmarked  # held-no-printed-key (p.30, render-confirmed this pass)
+pp1shamel2-held-malformed-empty-stem  # held-malformed-source (p.15, "the following refer to")
+pp1shamel2-held-malformed-teamwork-importance-except  # held-malformed-source (p.34, 3 of 4 options print no text)
+pp1shamel2-held-competence-duplicate  # held-duplicate · dup of pp1-past-q57-competence-definition (p.14)
+pp1shamel2-held-vertical-equity-duplicate  # held-duplicate · dup of pp1-fakous24-q02-vertical-equity-definition (p.16, and its p.23 restatement)
+pp1shamel2-held-double-effect-duplicate  # held-duplicate · dup of pp1-past-q50-double-effect-beneficence-nonmaleficence (p.21)
+pp1shamel2-held-negotiation-duplicate  # held-duplicate · dup of pp1-fakous24-q06-leadership-negotiation-conflicting-interests (p.32)
+pp1shamel2-held-storming-duplicate  # held-duplicate · dup of pp1-zag24-q04/pp1-fakous24-q07-storming-stage-team-development (p.35, and its p.36 restatement)
+pp1shamel2-held-bioethics-2ndpass-restatements  # held-duplicate · pages 16-23 restate their own pages 12-16 first pass (bioethical concepts, medical-ethics-branch, law/culture defs, three-questions, four-principles, autonomy-self-determination, equity/equality/justice trio)
+pp1shamel2-held-beneficence-shortform-duplicate  # held-duplicate · p.19 merged-block beneficence restates this pass's own q10 (p.21)
+pp1shamel2-held-nonmaleficence-shortform-duplicate  # held-duplicate · p.19 merged-block non-maleficence restates this pass's own q11 (p.21)
+pp1shamel2-held-team-stage-p36-merge-duplicates  # held-duplicate · p.36 merged-block forming/storming sub-questions restate q40 (authored) and the storming duplicate (held) respectively
+pp1shamel2-held-team-p37-restatements  # held-duplicate · p.37 norming/performing/team-dynamics items restate q41, the deferred performing item, and q35 respectively
+# mcq شامل.pdf pages 12-40 — ~60 further keyed items remain (deferred, not held; see
+# LEDGER "Not authored this pass" for the section-by-section list), plus the p.15
+# equity/justice item (single mark, plausible, not selected) and the p.38 Health/
+# Wellness/Spectrum-of-health trio. Real remaining scope for a follow-up pass.

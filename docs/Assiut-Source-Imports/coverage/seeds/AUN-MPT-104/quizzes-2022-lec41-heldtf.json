@@ -1,0 +1,19 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank Lecture 41 (Neoplasia: Mechanisms of spread of malignant tumors) True/False-formatted rows (Quiz 41 Q7-Q9, q342-q344). Held as format-incompatible: the emit-mcq.mjs/validate-content-batch.mjs contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed -- same reasoning as this lane's earlier True/False and match-type holds (Quiz 33 q273-q277, Quiz 35 q298-q302, q046).",
+  "questions": [
+    {
+      "key": "quizzes-2022-q342",
+      "hold": "True/False-formatted question (Quiz 41 Q7, p171: 'Arteries are rarely invaded by malignant cells as their wall is rich in elastic tissue.' -- printed answer 'True'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong reasons the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q343",
+      "hold": "True/False-formatted question (Quiz 41 Q8, p171: 'Spread to the skin or mucous membranes results in a malignant ulcer.' -- printed answer 'True'). Held as format-incompatible, same reasoning as q342. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong outcomes the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q344",
+      "hold": "True/False-formatted question (Quiz 41 Q9, p171: 'Carcinomas spread early by blood while sarcomas spread early by lymphatics.' -- printed answer 'False', since the department teaching is the reverse: carcinomas spread early by lymphatics while sarcomas spread early by blood). Held as format-incompatible, same reasoning as q342. The underlying fact is already covered by this same lecture's authored Q2 (q337, carcinoma's early lymphatic spread, riding on the reused Kasr 208-INT sarcoma-vs-carcinoma concept) -- not a coverage gap."
+    }
+  ]
+}

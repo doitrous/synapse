@@ -31,12 +31,19 @@
   list columns (optionalList/importList): `+mans`, `+MANS-HBG` and `+1` add without
   disturbing kau/au/asu/scu or the existing module tags, or existing learner years.
 
-  Lane mans-hbg-author2, cluster histoprev2. Gate is `gate.mjs batch` with every
-  target file named via --with -- run once without --with (expect the "does not
-  exist" refusal) and once with (expect a clean pass); these `## id`s are not live,
-  so `gate.mjs simulate` cannot resolve them yet and is not the gate for this file
-  alone (it is exercised together with the question/concept/article files in the
-  full dependency-chain simulate run, see the lane report).
+  Lane mans-hbg-author2, cluster histoprev2. Extended by lane mans-hbg-author3,
+  cluster histoprev3 (2026-09-03): 13 of the original records got one more
+  field_notes sentence for a new q9x/q1xx test occurrence in histoprev3, and 7 new
+  sparse records were appended (kinetochore/telomere, goblet cell, reticular
+  fibres, collagen types, mucoid CT/hyaluronic acid, endocytosis/exocytosis, white
+  vs brown adipose) — all seven already covered by this file's existing
+  101-ISK-mcq-concepts.md --with target, so the --with list below is unchanged.
+  Gate is `gate.mjs batch` with every target file named via --with -- run once
+  without --with (expect the "does not exist" refusal) and once with (expect a
+  clean pass); these `## id`s are not live, so `gate.mjs simulate` cannot resolve
+  them yet and is not the gate for this file alone (it is exercised together with
+  the question/concept/article files in the full dependency-chain simulate run,
+  see the lane report).
 
   node scripts/content/gate.mjs batch "docs/Mansoura-Source-Imports/pending-live/MANS-HBG-histoprev2-overlay-concepts.md" \
     --with docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md \
@@ -75,7 +82,7 @@ Named syndromes follow from a specific extra chromosome, missing sex chromosome 
 +1
 
 ## field_notes
-mans: Tested four times in this cluster — as main concept in q43 (Down syndrome's extra chromosome number, p10) and q60 (Turner's syndrome karyotype 45,XO via a case vignette, p14), and as a contextual concept in q46 (reading a 47,XY+21 karyotype as Down syndrome, p11) and q61 (Wolf syndrome as a structural, not numerical, abnormality, p15) — all against this concept's own Down/Turner/Klinefelter/cri-du-chat facts.
+mans: Tested four times in this cluster — as main concept in q43 (Down syndrome's extra chromosome number, p10) and q60 (Turner's syndrome karyotype 45,XO via a case vignette, p14), and as a contextual concept in q46 (reading a 47,XY+21 karyotype as Down syndrome, p11) and q61 (Wolf syndrome as a structural, not numerical, abnormality, p15) — all against this concept's own Down/Turner/Klinefelter/cri-du-chat facts. In cluster histoprev3 this concept is tested three more times — q93 (Cri-du-chat as partial deletion of the 5th chromosome's arm, p23), q94 (Klinefelter's karyotype 47,XXY, p23) and q97 (naming Cri-du-chat as a chromosomal-deletion example, p24).
 
 ---
 
@@ -275,7 +282,7 @@ A mitochondrion is two membranes — a smooth outer one with porins and an inner
 +1
 
 ## field_notes
-mans: Tested as q55 (identifying the mitochondrion as the double-membranous organelle, p13) — reusing the same concept the ASU-HCB lane already tagged.
+mans: Tested as q55 (identifying the mitochondrion as the double-membranous organelle, p13) — reusing the same concept the ASU-HCB lane already tagged. In cluster histoprev3 this concept is tested again as q117 (the inner folds of the mitochondrion named as cristae, p30).
 
 ---
 
@@ -300,7 +307,7 @@ Smooth endoplasmic reticulum regulates intracellular calcium concentration
 +1
 
 ## field_notes
-mans: Tested as q56 (alcohol detoxification as an SER function, p13) — this concept's own definition names drug/toxin detoxification alongside calcium regulation among SER's cell-type-dependent jobs.
+mans: Tested as q56 (alcohol detoxification as an SER function, p13) — this concept's own definition names drug/toxin detoxification alongside calcium regulation among SER's cell-type-dependent jobs. In cluster histoprev3 this concept is tested again as q123 (smooth ER protecting the cell from the damaging effect of medications and toxins, p31).
 
 ---
 
@@ -325,7 +332,7 @@ Microtubules and microfilaments differ in diameter, in protein and in what they 
 +1
 
 ## field_notes
-mans: Tested as q58 (tubulin as the mitotic spindle's protein, p14).
+mans: Tested as q58 (tubulin as the mitotic spindle's protein, p14). In cluster histoprev3 this concept is tested twice more — q99 (microtubules as the organelle for intracellular organelle transport, p24) and q124 (microtubules as the structure flagella are built of, p32).
 
 ---
 
@@ -350,7 +357,7 @@ Mitosis is prophase, metaphase, anaphase and telophase, producing two geneticall
 +1
 
 ## field_notes
-mans: Tested as q59 (the nuclear envelope dissolves at prophase, p14).
+mans: Tested as q59 (the nuclear envelope dissolves at prophase, p14). In cluster histoprev3 this same four-stages fact is tested again as q92 (metaphase defined as chromosomes arranged at the cell's equator, p23).
 
 ---
 # Item
@@ -449,7 +456,7 @@ Organelles are living and essential, inclusions are not, and organelles divide i
 +1
 
 ## field_notes
-mans: Tested 3 times in this cluster - q67 (Identifying a cell inclusion, p16), q72 (The organelle without a limiting membrane, p18), q74 (Identifying an exogenous pigment, p18).
+mans: Tested 3 times in this cluster - q67 (Identifying a cell inclusion, p16), q72 (The organelle without a limiting membrane, p18), q74 (Identifying an exogenous pigment, p18). In cluster histoprev3 this concept is tested a 4th time as q131 (melanin as an endogenous pigment, p34).
 
 ---
 
@@ -524,7 +531,7 @@ The nucleolus is an unbounded basophilic mass whose three dark parts are the rRN
 +1
 
 ## field_notes
-mans: Tested as q89 (The function of the nucleolus, p22).
+mans: Tested as q89 (The function of the nucleolus, p22). In cluster histoprev3 this concept is tested again as q100 (nucleolus prominence in protein-synthesis-active cells, p24).
 
 ---
 
@@ -624,7 +631,7 @@ Free ribosomes make protein the cell keeps; attached ribosomes make protein it e
 +1
 
 ## field_notes
-mans: Tested as q78 (Which ribosomes make protein the cell keeps, p20).
+mans: Tested as q78 (Which ribosomes make protein the cell keeps, p20). In cluster histoprev3 this concept is tested again as q98 (attached ribosomes synthesising secretory protein, p24).
 
 ---
 
@@ -649,7 +656,7 @@ Intermediate filaments are supportive, 8-10 nm, and each tissue has its own prot
 +1
 
 ## field_notes
-mans: Tested as q73 (The diameter of intermediate filaments, p18).
+mans: Tested as q73 (The diameter of intermediate filaments, p18). In cluster histoprev3 this concept is tested again as q130 (intermediate filaments as important for tumour identification, p34).
 
 ---
 
@@ -699,7 +706,7 @@ The mast cell stores heparin and histamine and releases them when allergen binds
 +1
 
 ## field_notes
-mans: Tested as q82 (The connective tissue cell that secretes SRS-A, p21).
+mans: Tested as q82 (The connective tissue cell that secretes SRS-A, p21). In cluster histoprev3 this concept is tested twice more — q113 (heparin secretion by mast cells, p28) and q134 (mast cells secreting eosinophil chemotactic factor, p34).
 
 ---
 
@@ -724,7 +731,7 @@ The cell membrane is a phospholipid bilayer with cholesterol, peripheral and int
 +1
 
 ## field_notes
-mans: Tested as q66 (A true statement about cell membrane structure, p16).
+mans: Tested as q66 (A true statement about cell membrane structure, p16). In cluster histoprev3 this concept is tested again as q122 (the electron-dense layer of the cell membrane identified as phospholipid, p31).
 
 ---
 
@@ -824,7 +831,7 @@ The mononuclear phagocyte system is monocyte-derived phagocytes distributed unde
 +1
 
 ## field_notes
-mans: Tested as q41 (Skin macrophage of the epidermis, p10).
+mans: Tested as q41 (Skin macrophage of the epidermis, p10). In cluster histoprev3 this concept is tested again as q112 (macrophages as the connective tissue cell rich in lysosomes, p28).
 
 ---
 
@@ -902,3 +909,178 @@ The conducting portion's epithelium has five cell types: ciliated, goblet, brush
 mans: Tested as q80 (Epithelium lining the upper respiratory tract, p20).
 
 ---
+
+---
+
+# Item
+
+## id
+CON-FND-EB83F2B16C479F
+
+## canonical_key
+kinetochore-and-telomere-are-different-parts-of-a-chromosome
+
+## label
+The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends
+
+## universities
++mans
+
+## modules
++MANS-HBG
+
+## learner_years
++1
+
+## field_notes
+mans: Tested as q95 in cluster histoprev3 (the structure formed at the end of prophase, where the spindle will attach = kinetochore, p23).
+
+---
+
+# Item
+
+## id
+CON-FND-B22A5E7A56EC8F
+
+## canonical_key
+goblet-cell-the-unicellular-exocrine-gland
+
+## label
+The goblet cell is a unicellular exocrine gland: one flask-shaped mucous-secreting cell sitting within a surface epithelium
+
+## universities
++mans
+
+## modules
++MANS-HBG
+
+## learner_years
++1
+
+## field_notes
+mans: Tested as q118 in cluster histoprev3 (goblet cell as an example of a unicellular gland, p30).
+
+---
+
+# Item
+
+## id
+CON-FND-471B49C03F8BF8
+
+## canonical_key
+reticular-fibres-and-reticular-cells
+
+## label
+Reticular fibres are branching, argyrophilic and PAS-positive, invisible in H&E, and the reticular cells that make them are modified fibroblasts of the organ stroma
+
+## universities
++mans
+
+## modules
++MANS-HBG
+
+## learner_years
++1
+
+## field_notes
+mans: Tested as q125 in cluster histoprev3 (naming the argyrophilic connective tissue fibre = reticular fibres, p32).
+
+---
+
+# Item
+
+## id
+CON-FND-A635150A3F245D
+
+## canonical_key
+collagen-types-and-where-each-is-found
+
+## label
+The collagen types are told apart by the form they take and the site they take it in, not by any difference visible in one fibre
+
+## universities
++mans
+
+## modules
++MANS-HBG
+
+## learner_years
++1
+
+## field_notes
+mans: Tested as q132 in cluster histoprev3 (type IV collagen as the collagen present in the basal lamina of the basement membrane, p34).
+
+---
+
+# Item
+
+## id
+CON-FND-EA4034F1E87235
+
+## canonical_key
+mucoid-ct-is-jelly-rich-in-hyaluronic-acid
+
+## label
+Mucoid connective tissue is a soft jelly rich in hyaluronic acid, found in the umbilical cord, the vitreous and the dental pulp
+
+## universities
++mans
+
+## modules
++MANS-HBG
+
+## learner_years
++1
+
+## field_notes
+mans: Tested as q133 in cluster histoprev3 (Wharton's jelly of the umbilical cord as a site rich in hyaluronic acid, p34).
+
+---
+
+# Item
+
+## id
+CON-FND-E66C68C0B80D16
+
+## canonical_key
+endocytosis-three-types-and-exocytosis
+
+## label
+The membrane takes material in by phagocytosis, pinocytosis or receptor-mediated endocytosis, and puts it out by exocytosis
+
+## universities
++mans
+
+## modules
++MANS-HBG
+
+## learner_years
++1
+
+## field_notes
+mans: Tested as q129 in cluster histoprev3 (exocytosis as how many gland cells release their secretions, p33).
+
+---
+
+# Item
+
+## id
+CON-FND-86543DB2855310
+
+## canonical_key
+white-versus-brown-adipose-connective-tissue
+
+## label
+White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat
+
+## universities
++mans
+
+## modules
++MANS-HBG
+
+## learner_years
++1
+
+## field_notes
+mans: Tested twice in cluster histoprev3 — q106 (white adipose cells identified by their signet-ring appearance in H&E, p26) and q107 (brown adipose tissue as the connective tissue proper prominent in newborn infants, p26).

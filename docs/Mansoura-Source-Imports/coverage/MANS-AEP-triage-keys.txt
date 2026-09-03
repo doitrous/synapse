@@ -260,3 +260,380 @@ Not MCQ (skipped, not counted above): 18 short-answer "enumerate"/"compare" item
 Scope note: p.23-77 was assigned; CNS/Nervous-System content confirmed confined to p.23-29 by
 reading the full range — p.30 onward is Lecture (6) "GIT" and further unrelated lectures, logged
 in resource/MANS-AEP-resources.md.
+
+# ============================================================
+# Lane 4 (mans-aep-author4) — Anatomy Lecture (6) "GIT" + Lecture (10) "Urinary System"
+# (p.31-34 GIT; p.53 and p.55 Urinary. p.30-51 assigned for GIT but confirmed
+# confined to p.31-34 -- p.35-50 is Lectures 7-9 "Muscle & Fascia"/
+# "Respiratory System"/"CVS", unrelated lectures, out of scope; continued into
+# the p.52-56 Urinary fallback per the task brief's own instruction since GIT
+# alone yielded only 19 authored items, short of the 40-item threshold.)
+# Format as above. [authored aepgit-qNN / aepuri-qNN] / [held, reason]
+# ============================================================
+
+## src_68a72cf039eada5508f3 — Lecture (6) "GIT", sitting "intro", p.31, printed keys
+G0-Q1 :: C :: termination of the duct of submandibular salivary gland (oral cavity proper) [authored aepgit-q01]
+G0-Q2 :: C :: 65yo male colon cancer, upper left abdominal cavity (left colic flexure) [authored aepgit-q02]
+
+## src_68a72cf039eada5508f3 — Lecture (6) "GIT", sitting A, p.32-33, printed keys
+GA-Q1 :: E :: length of esophagus (25 cm) [authored aepgit-q03]
+GA-Q2 :: E :: tumor obliterating large intestine on left side (descending colon) [authored aepgit-q04]
+GA-Q3 :: D :: tumor obliterating distal part of small intestine (ilium/ileum) [authored aepgit-q05]
+GA-Q4 :: B :: cancer head of pancreas affects (duodenum) [authored aepgit-q06]
+GA-Q5 :: D :: termination of the parotid gland duct (vestibule of the mouth) [authored aepgit-q07]
+GA-Q6 :: B :: where does the stomach present (upper left part of the abdomen) [authored aepgit-q08]
+GA-Q7 :: D :: largest gland in the body (liver) [authored aepgit-q09]
+GA-Q8 :: C :: narrowest part of the intestine (vermiform appendix) [authored aepgit-q10]
+GA-Q9 :: B :: structure responsible for production of bile (liver) [authored aepgit-q11]
+GA-Q10 :: B :: where does the duct carrying the bile terminate (duodenum) [authored aepgit-q12]
+GA-Q11 :: A :: alimentary canal part characterized by sacculations (descending colon) [authored aepgit-q13]
+GA-Q12 :: C :: common pathway for food and air (pharynx) [authored aepgit-q14]
+GA-Q13 :: E :: longest part of the small intestine (ilium/ileum) [authored aepgit-q15]
+GA-Q14 :: B :: proximal part of the small intestine (printed key: jejunum) [authored aepgit-q16, doubt — the duodenum is in fact the small intestine's most proximal segment overall; the printed key most plausibly intends the proximal part of the freely mobile bowel (jejunum vs ileum), but no other page of this source states duodenum-first explicitly, so authored as printed per the lane's rule (milder than the B5/B9 same-source-contradiction precedent), doubt recorded in the question's own author_notes]
+GA-Q15 :: D :: length of the duodenum (10 inches) [authored aepgit-q17]
+
+## src_68a72cf039eada5508f3 — Lecture (6) "GIT", sitting B, p.34, printed keys
+GB-Q1 :: A :: 60yo female colon cancer, lower right part of the abdominal cavity (cecum) [authored aepgit-q18]
+GB-Q2 :: E :: widest part of GIT (stomach) [authored aepgit-q19]
+GB-Q3 :: B :: alimentary canal part receiving the opening of the bile duct (duodenum) [held, literal duplicate of GA-Q10]
+GB-Q4 :: C :: receives the termination of the duct of submandibular salivary gland (oral cavity) [held, literal duplicate of G0-Q1]
+
+## Not MCQ (skipped, not counted above), Lecture (6) "GIT"
+2 short-answer "enumerate" items on p.33 (salivary gland duct terminations recap; alimentary-canal
+structures ~10 inches long) and 5 short-answer "enumerate/compare" items on p.33-34 (jejunum vs
+ileum differences; stomach/liver/caecum sites; small vs large intestine differences; pharynx
+origin/termination; small intestine total length and parts). These printed model answers were
+read and used to cross-check and write concept `definition` fields for facts also tested by the
+MCQs above, without themselves being authored as questions.
+
+## Totals, Lecture (6) "GIT"
+Raw MCQ items triaged: 2 sitting intro (p.31) + 15 sitting A (p.32-33) + 4 sitting B (p.34) = 21
+Keys recovered: 21/21 (100% — every item carries a printed answer-column key)
+Authored: 19
+Held: 2 (both literal duplicates of an earlier sitting's item)
+Not MCQ (skipped, not counted above): 7 short-answer "enumerate"/"compare" items on p.33-34
+Scope note: p.30-51 was assigned for this lecture; GIT content confirmed confined to p.31-34 by
+reading the full range (p.30 is a divider, p.35 begins a new divider) — p.36-40 is Lecture (7)
+"Muscle & Fascia", p.42-45 is Lecture (8) "Respiratory System", p.47-50 is Lecture (9) "CVS",
+three lectures unrelated to GIT falling inside the originally-estimated page range but outside
+this module's assigned scope, logged in resource/MANS-AEP-resources.md for a later lane.
+
+## src_68a72cf039eada5508f3 — Lecture (10) "Urinary System", sitting A, p.53, printed keys
+U-Q1 :: B :: the trigone is located in (base of urinary bladder) [authored aepuri-q01]
+U-Q2 :: C :: the functional unit of the kidney is the (nephron) [authored aepuri-q02]
+U-Q3 :: C :: the neck of the urinary bladder is surrounded by the (internal urethral sphincter) [authored aepuri-q03]
+U-Q4 :: C :: the longest part of male urethra is (penile) [authored aepuri-q04]
+U-Q5 :: A :: the renal pelvis is formed by the union of (major calyces) [authored aepuri-q05]
+U-Q6 :: C :: the length of the ureter is usually (25 cm) [authored aepuri-q06]
+U-Q7 :: D :: the inner surface of the base of urinary bladder is the (trigone) [held, near-duplicate of U-Q1]
+U-Q8 :: B :: the part of the urinary bladder which receives the opening of ureters is the (trigone) [authored aepuri-q07]
+U-Q9 :: B :: length of female urethra is (4 cm) [authored aepuri-q08]
+
+## Not MCQ (skipped, not counted above), Lecture (10) "Urinary System", p.52 and p.54
+p.52: "لا يوجد أي أسئلة" (no questions), a divider/blank sitting — not counted. p.54: 7
+short-answer "enumerate/compare" items (urinary system components; nephron components; kidney
+tubules; kidney functions; male urethra parts; male vs female urethra comparison table; internal
+vs external urethral sphincter comparison table). These printed model answers were read and used
+to cross-check and write concept `definition` fields for facts also tested by the MCQs above,
+without themselves being authored as questions.
+
+## src_68a72cf039eada5508f3 — Lecture (10) "Urinary System", sitting B, p.55, printed keys
+U2-Q1 :: D :: where is the trigone of the urinary bladder (inner aspect of the posterior surface) [held, near-duplicate of U-Q1]
+U2-Q2 :: B :: where is the termination of the female urethra (at the vestibule in front of the vagina) [authored aepuri-q09]
+U2-Q3 :: E :: the internal urethral sphincter surrounds which structure (neck of the urinary bladder) [held, near-duplicate of U-Q3]
+U2-Q4 :: E :: which structure is surrounded by the internal urethral sphincter (neck of the urinary bladder) [held, literal duplicate of U2-Q3]
+U2-Q5 :: D :: what is the normal length of the ureter (25 cm) [held, literal duplicate of U-Q6]
+
+## Totals, Lecture (10) "Urinary System"
+Raw MCQ items triaged: 9 sitting A (p.53) + 5 sitting B (p.55) = 14
+Keys recovered: 14/14 (100% — every item carries a printed answer-column key)
+Authored: 9
+Held: 5 (all near/literal duplicate of an earlier sitting's item)
+Not MCQ (skipped, not counted above): 7 short-answer "enumerate/compare" items on p.54; p.52
+states no questions and is not counted
+Scope note: p.52-56 was the Urinary fallback range; real content confirmed confined to p.53 and
+p.55 (p.51 is a divider, p.52 states no questions, p.54 is short-answer only, p.56 begins the
+Lecture (11) "Lymphatic System" divider) — Lecture (11) onward is untriaged, left for a later
+lane per the task brief's own instruction, logged in resource/MANS-AEP-resources.md.
+
+## Totals, lane 4 (Lecture 6 "GIT" + Lecture 10 "Urinary System")
+Raw MCQ items triaged: 21 (GIT) + 14 (Urinary) = 35
+Keys recovered: 35/35 (100%)
+Authored: 28 (19 GIT + 9 Urinary)
+Held: 7 (2 GIT + 5 Urinary, all near/literal duplicate)
+Not MCQ (skipped, not counted above): 14 (7 GIT + 7 Urinary)
+Scope note: the full assigned range (p.30-51 for GIT, continuing into the p.52-56 Urinary
+fallback since GIT alone yielded only 19 authored items) has now been read and exhausted; the
+28-item combined total falls short of the 45-55 target because both lectures' real content is
+genuinely this thin, not because pages were skipped. Stopped at the end of p.55 (end of Lecture
+10) without opening Lecture (11) "Lymphatic System" (p.57+), left for a later lane per the task
+brief's own designation of Lymphatic as "untriaged, for later lanes."
+
+## src_68a72cf039eada5508f3 — Lecture (11) "Lymphatic System", sitting A, p.58, printed keys
+A1 :: E :: vessels with valves (lymphatic vessels and veins) [authored aeplymph-q01]
+A2 :: A :: area NOT having lymphatic vessels (teeth) [authored aeplymph-q02]
+A3 :: B :: differentiates tonsils from lymphoid organs (tonsils do not have a capsule) [authored aeplymph-q03]
+A4 :: B :: lymphoid organ decreasing in size with puberty (thymus) [authored aeplymph-q04]
+A5 :: A :: lymph capillaries join to form (lymph vessels) [authored aeplymph-q05]
+A6 :: D :: right upper limb lymph drainage (right lymph trunk) [authored aeplymph-q06]
+A7 :: C :: largest lymphatic vessel in the body (thoracic duct) [authored aeplymph-q07]
+A8 :: C :: lymphoid tissue not lymphoid organ (tonsils) [authored aeplymph-q08]
+A9 :: C :: pelvic lymphatics collected by which duct (thoracic duct) [authored aeplymph-q09]
+A10 :: C :: structure without lymphatic vessels (brain) [authored aeplymph-q10]
+
+## src_68a72cf039eada5508f3 — Lecture (11) "Lymphatic System", sitting B, p.60, printed key
+B1 :: B :: breast cancer, first lymph node group to examine (axillary) [authored aeplymph-q11]
+
+## Totals, Lecture (11) "Lymphatic System"
+Raw MCQ items triaged: 10 sitting A (p.58) + 1 sitting B (p.60) = 11
+Keys recovered: 11/11 (100% — every item carries a printed answer-column key)
+Authored: 11
+Held: 0
+Not MCQ (skipped, not counted above): 4 short-answer "enumerate/define" items on p.59 (lymph node
+groups; lymph node functions; lymphoid tissues; lymph vessel characters). These printed model
+answers were read and used to cross-check and write concept `definition` fields for facts also
+tested by the MCQs above, without themselves being authored as questions.
+Scope note: p.56-67 was the assigned range for this lecture; real content confirmed confined to
+p.58 and p.60 (p.56 is the lecture's own divider, p.57 states "لا يوجد أي أسئلة" — no questions —
+and is not counted, p.59 is short-answer/enumerate only, p.61 begins the Lecture (12) "Great
+Vessels of the Neck" divider). Since Lymphatic alone yielded only 11 authored items, continued
+into Lecture (12), still within this same p.56-67 assigned window, logged in
+resource/MANS-AEP-resources.md.
+
+## src_68a72cf039eada5508f3 — Lecture (12) "Great vessels of the neck", sitting A, p.62, printed keys
+GVA-1 :: C :: terminal branch of external carotid artery (superficial temporal artery) [authored aepvessels-q01]
+GVA-2 :: E :: terminal branch of external carotid artery, repeat (superficial temporal artery) [held, near-duplicate of GVA-1]
+GVA-3 :: C :: terminal branch of external carotid artery, repeat (superficial temporal artery) [held, literal duplicate of GVA-1]
+GVA-4 :: C :: internal jugular vein termination (brachiocephalic vein) [authored aepvessels-q06]
+GVA-5 :: B :: artery arising directly from aortic arch (brachiocephalic) [authored aepvessels-q04]
+GVA-6 :: D :: first branch of the external carotid artery (superior thyroid artery) [authored aepvessels-q03]
+GVA-7 :: C :: terminal branch of external carotid artery, distinct fact (maxillary artery) [authored aepvessels-q02]
+
+## src_68a72cf039eada5508f3 — Lecture (12) "Great vessels of the neck", sitting B, p.63, printed keys
+GVB-1 :: A :: facial artery is a branch of which artery (external carotid) [authored aepvessels-q08]
+GVB-2 :: B :: artery arising directly from aortic arch, repeat (brachiocephalic) [held, near-duplicate of GVA-5]
+GVB-3 :: C :: internal jugular vein termination, repeat (brachiocephalic vein) [held, near-duplicate of GVA-4]
+GVB-4 :: E :: external jugular vein termination (subclavian vein) [authored aepvessels-q07]
+GVB-5 :: E :: pulse felt in front of the ear (superficial temporal) [authored aepvessels-q09]
+GVB-6 :: C :: pulse felt in front of sternomastoid (common carotid) [authored aepvessels-q10]
+GVB-7 :: E :: pulse felt at the base of the mandible (facial) [authored aepvessels-q11]
+GVB-8 :: A :: internal jugular vein begins as continuation of (sigmoid sinus) [authored aepvessels-q12]
+GVB-9 :: B :: level of common carotid artery termination (disc between 3rd & 4th cervical vertebrae) [authored aepvessels-q13]
+
+## Totals, Lecture (12) "Great vessels of the neck", p.62-63
+Raw MCQ items triaged: 7 sitting A (p.62) + 9 sitting B (p.63) = 16
+Keys recovered: 16/16 (100% — every item carries a printed answer-column key)
+Authored: 12 (GVA-1, GVA-4, GVA-5, GVA-6, GVA-7, GVB-1, GVB-4, GVB-5, GVB-6, GVB-7, GVB-8, GVB-9)
+Held: 4 (GVA-2, GVA-3, GVB-2, GVB-3, all near/literal duplicate of an earlier item in this same
+range)
+Not MCQ (skipped, not counted above): none on p.62-63.
+
+## src_68a72cf039eada5508f3 — Lecture (12) "Great vessels of the neck", sitting C, p.65-66, printed keys
+GVC-1 :: C :: artery arising directly from aortic arch, distinct fact (left common carotid) [authored aepvessels-q05]
+GVC-2 :: A :: vein formed by union of internal jugular and subclavian veins (brachiocephalic vein) [held, near-duplicate of GVA-4/aepvessels-q06's internal-jugular-terminates-in-brachiocephalic-vein fact, stated from the opposite (formation) direction]
+GVC-3 :: B :: structure running inside the carotid sheath (internal jugular vein) [authored aepvessels-q14]
+GVC-4 :: A :: artery arising from the medial aspect of the external carotid artery (ascending pharyngeal) [authored aepvessels-q15]
+GVC-5 :: B :: retromandibular vein formed by union of superficial temporal vein with which vein (maxillary) [authored aepvessels-q16]
+GVC-6 :: A :: arterial supply of the upper lip (facial) [authored aepvessels-q17]
+GVC-7 :: C :: terminal branch of external carotid artery, repeat (maxillary artery) [held, near-duplicate of GVA-7]
+GVC-8 :: C :: structure sharing in formation of the external jugular vein (retromandibular vein) [authored aepvessels-q18]
+GVC-9 :: B :: artery arising directly from aortic arch, repeat (left common carotid) [held, near-duplicate of GVC-1]
+GVC-10 :: C :: level of origin of the maxillary artery (neck of mandible) [authored aepvessels-q19]
+GVC-11 :: D :: artery arising directly from aortic arch, repeat (left common carotid) [held, near-duplicate of GVC-1]
+GVC-12 :: B :: site of facial artery pulsation (lower border of mandible) [held, near-duplicate of GVB-7]
+GVC-13 :: D :: terminal branch of external carotid artery, repeat (superficial temporal artery) [held, near-duplicate of GVA-1]
+GVC-14 :: C :: artery arising directly from aortic arch, repeat (left common carotid) [held, near-duplicate of GVC-1]
+GVC-15 :: (Brachiocephalic) [held, not a valid MCQ — no lettered options printed for internal jugular vein termination, answer given directly]
+GVC-16 :: D :: terminal branch of external carotid artery, repeat (superficial temporal artery) [held, near-duplicate of GVA-1]
+
+## Totals, Lecture (12) "Great vessels of the neck", p.65-66
+Raw MCQ items triaged: 16 (numbered 1-16 continuing across p.65 into p.66)
+Keys recovered: 16/16 (100% — every item, including the malformed GVC-15, carries a printed or
+stated answer)
+Authored: 7 (GVC-1, GVC-3, GVC-4, GVC-5, GVC-6, GVC-8, GVC-10)
+Held: 9 (GVC-2, GVC-7, GVC-9, GVC-11, GVC-12, GVC-13, GVC-14, GVC-15, GVC-16, all near/literal
+duplicate or malformed)
+Not MCQ (skipped, not counted above): none on p.65-66 besides GVC-15's malformed item, already
+counted in Held.
+
+## Totals, lane 5 cluster aepvessels (Lecture 12 "Great vessels of the neck", p.62-63 and p.65-66)
+Raw MCQ items triaged: 7 (p.62) + 9 (p.63) + 16 (p.65-66) = 32
+Keys recovered: 32/32 (100%)
+Authored: 19
+Held: 13 (12 near/literal duplicate across sittings A-C, 1 malformed non-MCQ)
+Not MCQ (skipped, not counted above): 4 short-answer "enumerate" items on p.64 (branches of the
+aortic arch; branches of the external carotid artery; tributaries of the internal jugular vein).
+These printed model answers were read and used to cross-check and write concept `definition`
+fields for facts also tested by the MCQs above, without themselves being authored as questions.
+Scope note: p.61 is the lecture's own divider, p.64 is short-answer/enumerate only, p.67 begins
+the divider into "Lectures (13-14-15)" (Scalp & Face) — real Great Vessels content confirmed
+confined to p.62-63 and p.65-66. Combined with cluster aeplymph, this closes the p.56-67 window
+assigned to this lane, at 30 authored MCQs total (11 + 19), and the lane moved on to the p.68-77
+Scalp & Face window per the task's own two-window scope.
+
+## src_68a72cf039eada5508f3 — Lectures (13-14-15) "Scalp & Face", sitting A, p.68, printed keys
+SA-1 :: E :: NOT a muscle of facial expression (temporalis) [authored aepscalp-q01]
+SA-2 :: A :: veins uniting with the retromandibular vein's posterior division to form the external
+jugular vein (posterior auricular) [held, near-duplicate of the aepvessels cluster's own external
+jugular vein formation fact, aepvessels-q18]
+SA-3 :: E :: infection from the dangerous area of the face transmitted to which venous sinus
+(cavernous) [authored aepscalp-q02]
+SA-4 :: A :: NOT true regarding buccinator (it is a muscle of mastication, false) [authored aepscalp-q03]
+SA-5 :: B :: plane of movement of the scalp (epicranial aponeurosis and pericranium) [authored aepscalp-q04]
+SA-6 :: D :: the scalp is (supplied behind the auricle by the lesser occipital nerve from the
+ventral ramus of C2) [authored aepscalp-q05]
+SA-7 :: E :: correct statement re the scalp (infections can spread through emissary veins to
+cranial cavity) [authored aepscalp-q06]
+SA-8 :: D :: nerve supplying the vertex of the scalp (supraorbital) [authored aepscalp-q07, doubt
+— standard teaching more often treats the vertex as a boundary between three nerve territories
+rather than assigning it to one nerve; kept per printed key]
+SA-9 :: D :: orbicularis oculi innervation (facial nerve) [authored aepscalp-q08]
+
+## Totals, Lectures (13-14-15) "Scalp & Face", sitting A, p.68
+Raw MCQ items triaged: 9
+Keys recovered: 9/9 (100%)
+Authored: 8 (SA-1, SA-3, SA-4, SA-5, SA-6, SA-7, SA-8, SA-9)
+Held: 1 (SA-2, near-duplicate of a fact already authored in this lane's own aepvessels cluster)
+Not MCQ (skipped, not counted above): none on p.68.
+
+## src_68a72cf039eada5508f3 — Lectures (13-14-15) "Scalp & Face", sitting B, p.69-72 (item 32 on p.72), printed keys
+SB-1 :: B :: most important factor for gaping of facial wounds (cutaneous attachment of the
+facial muscles) [authored aepscalp-q09]
+SB-2 :: B :: paralysis of which muscle causes accumulation of food in the vestibule of the mouth
+(buccinator) [authored aepscalp-q10]
+SB-3 :: D :: muscles of facial expression, true statement (derived from the mesoderm of the
+pharyngeal arches) [authored aepscalp-q11]
+SB-4 :: B :: modiolus related to which muscle (buccinator) [authored aepscalp-q12]
+SB-5 :: C :: emissary veins in the scalp, content of which layer (loose areolar tissue)
+[authored aepscalp-q13]
+SB-6 :: C :: scalp extends laterally to (superior temporal line) [authored aepscalp-q14]
+SB-7 :: B :: paralysis of which muscle causes loss of forehead corrugation (occipitofrontalis)
+[authored aepscalp-q15]
+SB-8 :: C :: drainage of tears facilitated by which muscle (orbicularis oculi) [authored aepscalp-q16]
+SB-9 :: A :: corrugation of forehead skin (surprise expression) produced by (occipitofrontalis)
+[held, near-duplicate of SB-7]
+SB-10 :: A :: modiolus represents the site of (decussation of the middle fibers of buccinator)
+[authored aepscalp-q23]
+SB-11 :: E :: backward movement of the skin of the scalp, function of (occipitofrontalis)
+[authored aepscalp-q17]
+SB-12 :: D :: the buccinator muscle, true statement (attached to both maxilla and mandible)
+[authored aepscalp-q18]
+SB-13 :: E :: lacrimal part of orbicularis oculi responsible for (drainage of tears) [held,
+near-duplicate of SB-8's same fact from a more specific angle]
+SB-14 :: E :: bleeding in which layer of scalp can cause black eye (loose areolar tissue)
+[authored aepscalp-q19]
+SB-15 :: D :: inability to close the mouth mostly caused by loss of function of which muscle
+(orbicularis oris) [authored aepscalp-q20]
+SB-16 :: A :: muscle releasing atmospheric pressure of skin on neck veins (platysma) [authored
+aepscalp-q21]
+SB-17 :: A :: auriculotemporal nerve arises from (mandibular nerve) [authored aepscalp-q22]
+SB-18 :: A :: closest branch of the ophthalmic division of the trigeminal nerve to the midline
+(supratrochlear nerve) [authored aepscalp-q24, doubt — many standard references instead name the
+infratrochlear nerve; kept per printed key]
+SB-19 :: A :: external nasal nerve is a branch of (ophthalmic nerve) [authored aepscalp-q25,
+doubt — the more precise immediate parent is the anterior ethmoidal nerve; kept per printed key
+at the divisional level]
+SB-20 :: B :: palpebral branch of the infraorbital nerve supplies (lower lid) [authored aepscalp-q40]
+SB-21 :: B :: buccal branch of the mandibular nerve supplies (skin over buccinator) [authored aepscalp-q26]
+SB-22 :: A :: skin over the angle of the mandible sends sensations to (great auricular nerve)
+[authored aepscalp-q27]
+SB-23 :: A :: lower lip drains its lymph to (submental lymph nodes) [authored aepscalp-q28]
+SB-24 :: C :: temporal branch of the facial nerve supplies (orbicularis oculi muscle) [authored aepscalp-q29]
+SB-25 :: B :: anterior part of the scalp drains its lymph to (preauricular lymph nodes) [authored aepscalp-q30]
+SB-26 :: C :: most of the forehead drains its lymph to (preauricular lymph nodes) [held,
+near-duplicate of SB-25]
+SB-27 :: E :: most posterior part of the scalp drains its lymph to (occipital lymph nodes)
+[authored aepscalp-q31]
+SB-28 :: C :: cheek region drains its lymph to (preauricular lymph nodes) [authored aepscalp-q32]
+SB-29 :: C :: mandibular division of trigeminal nerve pathology affects which part of the scalp
+(the scalp in front of the ear) [authored aepscalp-q33]
+SB-30 :: D :: spinal nerve pathology affects which part of the scalp (the scalp behind the ear)
+[authored aepscalp-q34]
+SB-31 :: E :: source of arterial blood during hemorrhage from a wound just in front of the ear
+(superficial temporal) [held, near-duplicate of the aepvessels cluster's own pulse-in-front-of-
+the-ear fact, aepvessels-q09]
+SB-32 :: A :: anterior facial vein connected to the cavernous sinus through (ophthalmic vein)
+[authored aepscalp-q35]
+
+## Totals, Lectures (13-14-15) "Scalp & Face", sitting B, p.69-72
+Raw MCQ items triaged: 32 (numbered continuously 1-32 across p.69-72, item 32 falling on p.72)
+Keys recovered: 32/32 (100%)
+Authored: 28
+Held: 4 (SB-9, SB-13, SB-26, SB-31, near-duplicate of an already-authored fact)
+Not MCQ (skipped, not counted above): 10 short-answer "enumerate/describe/discuss" items on
+p.72-73 (layers of the scalp; muscles of the face; actions of orbicularis oculi; effect of
+buccinator lesion; characters of the facial muscles; anatomy of the loose areolar tissue; effect
+of facial muscle lesion; branches of the mandibular division in the face; branches of the facial
+nerve in the face; lymph node groups draining the face and scalp) and 2 short-answer
+"enumerate/name" items on p.73 (angles the facial artery crosses to reach the face; branches of
+the facial artery). These printed model answers were read and used to cross-check and write
+concept `definition` fields for facts also tested by the MCQs above, without themselves being
+authored as questions.
+
+## src_68a72cf039eada5508f3 — Lectures (13-14-15) "Scalp & Face", sitting C, p.74-75, printed keys
+SC-1 :: B :: bleeding in which layer of scalp can cause black eye, repeat (loose areolar tissue)
+[held, near-duplicate of SB-14]
+SC-2 :: A :: facial artery arises from which artery (external carotid) [held, near-duplicate of
+the aepvessels cluster's own facial-artery-origin fact, aepvessels-q08]
+SC-3 :: D :: orbicularis oculi innervation, repeat (facial nerve) [held, near-duplicate of SA-9]
+SC-4 :: B :: facial veins connect with the cavernous sinus through, repeat (superior ophthalmic
+veins) [held, literal duplicate of SB-32]
+SC-5 :: C :: nerve supplying the vertex of the scalp, repeat (supraorbital) [held, near-duplicate
+of SA-8]
+SC-6 :: C :: muscle of facial expression, which one IS one (frontalis) [held, near-duplicate of
+SA-1's same theme, distinguishing facial-expression from non-facial muscles]
+SC-7 :: D :: orbicularis oculi innervation, repeat (facial nerve) [held, near-duplicate of SA-9]
+SC-8 :: E :: patient unable to close right eye with drooping of right mouth angle, which nerve
+affected (facial nerve) [authored aepscalp-q36]
+SC-9 :: D :: orbicularis oculi innervation, repeat (facial nerve) [held, near-duplicate of SA-9]
+SC-10 :: D :: which layer of the scalp contains emissary veins, repeat (loose connective tissue)
+[held, near-duplicate of SB-5]
+SC-11 :: E :: supraorbital artery is a branch of which artery (ophthalmic artery) [authored aepscalp-q37]
+SC-12 :: C :: anterior boundary of the scalp (the eyebrows) [authored aepscalp-q38]
+SC-13 :: B :: muscle supplied by the cervical branch of the facial nerve (platysma) [authored aepscalp-q39]
+SC-14 :: A :: scalp extends anteriorly to, repeat (eyebrows) [held, literal duplicate of SC-12]
+SC-15 :: A :: lacrimal part of orbicularis oculi responsible for, repeat (drainage of tears)
+[held, literal duplicate of SB-13]
+
+## Totals, Lectures (13-14-15) "Scalp & Face", sitting C, p.74-75
+Raw MCQ items triaged: 15
+Keys recovered: 15/15 (100%)
+Authored: 4 (SC-8, SC-11, SC-12, SC-13)
+Held: 11 (SC-1, SC-2, SC-3, SC-4, SC-5, SC-6, SC-7, SC-9, SC-10, SC-14, SC-15, near/literal
+duplicate)
+Not MCQ (skipped, not counted above): none on p.74-75; p.76's structured-answer vignette
+questions (two case studies with lettered sub-parts, "[FINAL 62]" and "[SUMMER 62]") are essay/
+short-answer format, not lettered MCQs, and are not counted here.
+
+## Totals, lane 5 cluster aepscalp (Lectures 13-14-15 "Scalp & Face", p.68, p.69-72, p.74-75)
+Raw MCQ items triaged: 9 (p.68) + 32 (p.69-72) + 15 (p.74-75) = 56
+Keys recovered: 56/56 (100% — every item carries a printed answer-column key)
+Authored: 40
+Held: 16 (1 SA sitting, 4 SB sitting, 11 SC sitting; all near/literal duplicate within this
+cluster, or near-duplicate of a fact already authored in the aepvessels cluster within this same
+lane's dispatch)
+Not MCQ (skipped, not counted above): 12 short-answer "enumerate/describe/name" items on p.72-73,
+plus p.76's structured-answer clinical vignettes (essay format with lettered sub-parts, not
+lettered MCQs).
+Scope note: p.67 is the divider into "Lectures (13-14-15)," p.68-75 carries the three MCQ
+sittings, p.72-73 and p.76 are short-answer/structured-answer only, and p.77 begins the divider
+into the next lecture — outside this lane's assigned scope. This exhausts the full p.68-77 window
+assigned to this lane.
+
+## Totals, lane 5 (Lecture 11 "Lymphatic System" + Lecture 12 "Great Vessels of the Neck" + Lectures 13-15 "Scalp & Face")
+Raw MCQ items triaged: 11 (Lymphatic) + 32 (Great Vessels) + 56 (Scalp & Face) = 99
+Keys recovered: 99/99 (100% — every item carries a printed answer-column key, including the one
+malformed no-options item counted as held rather than skipped)
+Authored: 70 (11 aeplymph + 19 aepvessels + 40 aepscalp)
+Held: 29 (0 aeplymph + 13 aepvessels + 16 aepscalp; all near/literal duplicate, one malformed
+non-MCQ, or near-duplicate across this lane's own two clusters)
+Not MCQ (skipped, not counted above): 4 (Lecture 11 p.59) + 4 (Lecture 12 p.64) + 12 (Lecture
+13-15 p.72-73) + 2 structured-answer vignettes (p.76) = 22 short-answer/enumerate/structured items
+Scope note: this lane read both assigned windows (p.56-67 Lymphatic + Great Vessels fallback, and
+p.68-77 Scalp & Face) in full and confirmed real content is confined to p.58, p.60, p.62-63,
+p.65-66, p.68, p.69-72 and p.74-75; p.56-57, p.61, p.64, p.67, p.72-73 and p.76 are dividers,
+"no questions" pages, or short-answer/structured-answer only. This exhausts p.56-77, the whole of
+the AEP Full Exams (VIP).pdf file's remaining untriaged range from lane 4's stopping point, and
+closes this file: p.77 begins the divider into the next lecture (Lectures 16+), which was not
+opened, being outside this lane's assigned scope and a decision for whichever session next
+triages that section of this same file or moves to another AEP staging PDF.

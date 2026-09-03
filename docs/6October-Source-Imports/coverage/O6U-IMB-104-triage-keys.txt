@@ -1,0 +1,213 @@
+# O6U-IMB-104 -- distinct questions identified this triage pass
+# (sources: Bio questions.pdf [Ch1-5], CYTOGENETICS MCQ UNIT 1.pdf, MBI final exam.pdf)
+# One question per line; ledger.mjs strips everything after '#', so only the bare
+# key survives. Authored keys (bio104-qNN) match
+# coverage/seeds/O6U-IMB-104/bio104-mixed.json, cluster "bio104" -- verified against the
+# seed's own source_citation field, not hand-recomputed. Non-authored keys are prefixed
+# by chapter/source so they never collide with the authored cluster's own -qNN numbering.
+
+bio104-q01 # Nucleotides Q1 -- authored
+bio104-ch1-unselected-q02 # Nucleotides Q2 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q02 # Nucleotides Q3 -- authored
+bio104-ch1-unselected-q04 # Nucleotides Q4 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q05 # Nucleotides Q5 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q03 # Nucleotides Q6 -- authored
+bio104-ch1-unselected-q07 # Nucleotides Q7 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q08 # Nucleotides Q8 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q09 # Nucleotides Q9 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q04 # Nucleotides Q10 -- authored
+bio104-ch1-unselected-q11 # Nucleotides Q11 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q12 # Nucleotides Q12 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q05 # Nucleotides Q13 -- authored
+bio104-ch1-unselected-q14 # Nucleotides Q14 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q15 # Nucleotides Q15 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q16 # Nucleotides Q16 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q06 # Nucleotides Q17 -- authored
+bio104-ch1-unselected-q18 # Nucleotides Q18 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q19 # Nucleotides Q19 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q20 # Nucleotides Q20 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q21 # Nucleotides Q21 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q22 # Nucleotides Q22 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q23 # Nucleotides Q23 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q24 # Nucleotides Q24 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q25 # Nucleotides Q25 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q26 # Nucleotides Q26 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q27 # Nucleotides Q27 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q28 # Nucleotides Q28 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q07 # Nucleotides Q29 -- authored
+bio104-ch1-unselected-q30 # Nucleotides Q30 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q31 # Nucleotides Q31 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch1-unselected-q32 # Nucleotides Q32 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q08 # Nucleotides Q33 -- authored
+bio104-q09 # Nucleotides Q34 -- authored
+bio104-ch1-unselected-q35 # Nucleotides Q35 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q10 # Nucleotides Q36 -- authored
+
+bio104-q11 # Replication Q1 -- authored
+bio104-ch2-unselected-q02 # Replication Q2 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch2-unselected-q03 # Replication Q3 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q12 # Replication Q4 -- authored
+bio104-ch2-unselected-q05 # Replication Q5 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch2-unselected-q06 # Replication Q6 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch2-unselected-q07 # Replication Q7 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch2-unselected-q08 # Replication Q8 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q13 # Replication Q9 -- authored
+bio104-ch2-unselected-q10 # Replication Q10 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q14 # Replication Q11 -- authored
+bio104-q15 # Replication Q12 -- authored
+bio104-ch2-unselected-q13 # Replication Q13 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch2-unselected-q14 # Replication Q14 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch2-unselected-q15 # Replication Q15 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch2-unselected-q16 # Replication Q16 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch2-unselected-q17 # Replication Q17 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch2-unselected-q18 # Replication Q18 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q16 # Replication Q19 -- authored
+bio104-ch2-unselected-q20 # Replication Q20 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch2-unselected-q21 # Replication Q21 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q17 # Replication Q22 -- authored
+
+bio104-q18 # Transcription Q1 -- authored
+bio104-ch3-unselected-q02 # Transcription Q2 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q19 # Transcription Q3 -- authored
+bio104-ch3-unselected-q04 # Transcription Q4 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q20 # Transcription Q5 -- authored
+bio104-ch3-unselected-q06 # Transcription Q6 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q07 # Transcription Q7 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q21 # Transcription Q8 -- authored
+bio104-ch3-unselected-q09 # Transcription Q9 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q22 # Transcription Q10 -- authored
+bio104-ch3-unselected-q11 # Transcription Q11 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q12 # Transcription Q12 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q13 # Transcription Q13 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q14 # Transcription Q14 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q15 # Transcription Q15 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q23 # Transcription Q16 -- authored
+bio104-ch3-unselected-q17 # Transcription Q17 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q18 # Transcription Q18 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q19 # Transcription Q19 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q20 # Transcription Q20 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q21 # Transcription Q21 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q24 # Transcription Q22 -- authored
+bio104-ch3-unselected-q23 # Transcription Q23 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q24 # Transcription Q24 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q25 # Transcription Q25 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch3-unselected-q26 # Transcription Q26 -- keyed, not authored this pass (ample supply, scope-limited)
+
+bio104-q25 # Translation Q1 -- authored
+bio104-ch4-unselected-q02 # Translation Q2 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q26 # Translation Q3 -- authored
+bio104-q27 # Translation Q4 -- authored
+bio104-ch4-unselected-q05 # Translation Q5 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q06 # Translation Q6 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q28 # Translation Q7 -- authored
+bio104-ch4-unselected-q08 # Translation Q8 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q09 # Translation Q9 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q29 # Translation Q10 -- authored
+bio104-ch4-unselected-q11 # Translation Q11 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q30 # Translation Q12 -- authored
+bio104-ch4-unselected-q13 # Translation Q13 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q14 # Translation Q14 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q15 # Translation Q15 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q16 # Translation Q16 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q17 # Translation Q17 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q18 # Translation Q18 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q19 # Translation Q19 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q20 # Translation Q20 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q21 # Translation Q21 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q22 # Translation Q22 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q23 # Translation Q23 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q24 # Translation Q24 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q31 # Translation Q25 -- authored
+bio104-ch4-unselected-q26 # Translation Q26 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q27 # Translation Q27 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q28 # Translation Q28 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch4-unselected-q29 # Translation Q29 -- keyed, not authored this pass (ample supply, scope-limited)
+
+bio104-q32 # GeneRegulation Q1 -- authored
+bio104-ch5-unselected-q02 # GeneRegulation Q2 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch5-unselected-q03 # GeneRegulation Q3 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q33 # GeneRegulation Q4 -- authored
+bio104-ch5-unselected-q05 # GeneRegulation Q5 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch5-unselected-q06 # GeneRegulation Q6 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch5-unselected-q07 # GeneRegulation Q7 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-ch5-unselected-q08 # GeneRegulation Q8 -- keyed, not authored this pass (ample supply, scope-limited)
+bio104-q34 # GeneRegulation Q9 -- authored
+
+# CYTOGENETICS MCQ UNIT 1.pdf -- 50 questions, handwritten "Answers" key on p7 found and
+# cross-checked, but the source's own option lettering is internally inconsistent (e.g.
+# Q32/Q37 duplicate print two options both labelled "(b)"), plus 1 blank (Q38) and 1
+# ambiguous/scribbled-over answer (Q47) -- held from authoring this pass pending a
+# lettering-defect review; Bio questions.pdf alone already supplied ample clean material.
+cyto-mbi104-q01 # Cytogenetics Q1 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q02 # Cytogenetics Q2 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q03 # Cytogenetics Q3 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q04 # Cytogenetics Q4 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q05 # Cytogenetics Q5 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q06 # Cytogenetics Q6 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q07 # Cytogenetics Q7 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q08 # Cytogenetics Q8 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q09 # Cytogenetics Q9 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q10 # Cytogenetics Q10 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q11 # Cytogenetics Q11 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q12 # Cytogenetics Q12 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q13 # Cytogenetics Q13 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q14 # Cytogenetics Q14 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q15 # Cytogenetics Q15 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q16 # Cytogenetics Q16 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q17 # Cytogenetics Q17 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q18 # Cytogenetics Q18 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q19 # Cytogenetics Q19 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q20 # Cytogenetics Q20 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q21 # Cytogenetics Q21 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q22 # Cytogenetics Q22 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q23 # Cytogenetics Q23 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q24 # Cytogenetics Q24 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q25 # Cytogenetics Q25 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q26 # Cytogenetics Q26 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q27 # Cytogenetics Q27 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q28 # Cytogenetics Q28 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q29 # Cytogenetics Q29 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q30 # Cytogenetics Q30 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q31 # Cytogenetics Q31 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q32 # Cytogenetics Q32 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q33 # Cytogenetics Q33 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q34 # Cytogenetics Q34 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q35 # Cytogenetics Q35 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q36 # Cytogenetics Q36 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q37 # Cytogenetics Q37 -- held (duplicate of Q32)
+cyto-mbi104-q38 # Cytogenetics Q38 -- held (blank in key, no answer)
+cyto-mbi104-q39 # Cytogenetics Q39 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q40 # Cytogenetics Q40 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q41 # Cytogenetics Q41 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q42 # Cytogenetics Q42 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q43 # Cytogenetics Q43 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q44 # Cytogenetics Q44 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q45 # Cytogenetics Q45 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q46 # Cytogenetics Q46 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q47 # Cytogenetics Q47 -- held (ambiguous/scribbled correction in key)
+cyto-mbi104-q48 # Cytogenetics Q48 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q49 # Cytogenetics Q49 -- held (keyed but held: source option-lettering defect)
+cyto-mbi104-q50 # Cytogenetics Q50 -- held (keyed but held: source option-lettering defect)
+
+# MBI final exam.pdf -- 20 MCQs, blank/unmarked exam paper (no printed key, no student
+# marks); confirmed by rendering all 6 pages. Held per standing rule (unmarked items).
+mbi-final-q01 # MBI final exam Q1 -- held (unmarked, no key found)
+mbi-final-q02 # MBI final exam Q2 -- held (unmarked, no key found)
+mbi-final-q03 # MBI final exam Q3 -- held (unmarked, no key found)
+mbi-final-q04 # MBI final exam Q4 -- held (unmarked, no key found)
+mbi-final-q05 # MBI final exam Q5 -- held (unmarked, no key found)
+mbi-final-q06 # MBI final exam Q6 -- held (unmarked, no key found)
+mbi-final-q07 # MBI final exam Q7 -- held (unmarked, no key found)
+mbi-final-q08 # MBI final exam Q8 -- held (unmarked, no key found)
+mbi-final-q09 # MBI final exam Q9 -- held (unmarked, no key found)
+mbi-final-q10 # MBI final exam Q10 -- held (unmarked, no key found)
+mbi-final-q11 # MBI final exam Q11 -- held (unmarked, no key found)
+mbi-final-q12 # MBI final exam Q12 -- held (unmarked, no key found)
+mbi-final-q13 # MBI final exam Q13 -- held (unmarked, no key found)
+mbi-final-q14 # MBI final exam Q14 -- held (unmarked, no key found)
+mbi-final-q15 # MBI final exam Q15 -- held (unmarked, no key found)
+mbi-final-q16 # MBI final exam Q16 -- held (unmarked, no key found)
+mbi-final-q17 # MBI final exam Q17 -- held (unmarked, no key found)
+mbi-final-q18 # MBI final exam Q18 -- held (unmarked, no key found)
+mbi-final-q19 # MBI final exam Q19 -- held (unmarked, no key found)
+mbi-final-q20 # MBI final exam Q20 -- held (unmarked, no key found)

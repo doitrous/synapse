@@ -1,0 +1,165 @@
+# AU-MED-103 Biochemistry (lane W1-103-BIOC) -- triage keys for ledger.mjs
+# coverage/AU-MED-103-biochemistry-triage.md: 274 MCQ triaged (255 keyed, 19 unkeyed), 39
+# distinct concepts, 337 items including ~63 essay/written (not keyed by format, not
+# tracked here).
+#
+# bioc1 = Step 2 lane 1's already-landed main batch, question/AU-MED-103-biochemistry-mcq.md
+#   (commit c4b3e557, 30 items, hand-authored pre-dating the seed+emit-mcq convention).
+#   Seeded as already-authored via coverage/seeds/AU-MED-103/legacy-bioc1-do-not-emit.json.
+# bioc1pending = Step 2 lane 1's already-landed HIT-PENDING overlay,
+#   pending-live/AU-MED-103-biochemistry-questions.md (33 items, same convention gap).
+#   Seeded via coverage/seeds/AU-MED-103/legacy-bioc1pending-do-not-emit.json.
+# bioc2 = this lane's (Step 2 lane 2, bioc2) new main batch,
+#   question/AU-MED-103-biochemistry-2-mcq.md (20 items, real seed:
+#   coverage/seeds/AU-MED-103/bioc2.json).
+# bioc2kasr = this lane's new Kasr-pending overlay,
+#   pending-live/AU-MED-103-biochemistry-2-kasr-questions.md (18 items, real seed:
+#   coverage/seeds/AU-MED-103/bioc2-kasr-overlay.json).
+# bioc2au102 = this lane's new AU-MED-102-pending overlay,
+#   pending-live/AU-MED-103-biochemistry-2-au102-questions.md (7 items, real seed:
+#   coverage/seeds/AU-MED-103/bioc2-au102-overlay.json).
+# held = the 19 MCQ-unkeyed items the triage recorded (1 source-side blank -- EGYF Q13;
+#   4 lost-in-extraction -- AGHA-BLOOD Q3-6; 14 OCR-ambiguous "0" -- AGHA-CHO). No seed
+#   authors these keys, so ledger.mjs correctly reports them as remaining/held -- this
+#   lane could not run the render check the triage called for (source PDF tree not
+#   reachable from this environment; see LEDGER narrative).
+
+bioc1-q01
+bioc1-q02
+bioc1-q03
+bioc1-q04
+bioc1-q05
+bioc1-q06
+bioc1-q07
+bioc1-q08
+bioc1-q09
+bioc1-q10
+bioc1-q11
+bioc1-q12
+bioc1-q13
+bioc1-q14
+bioc1-q15
+bioc1-q16
+bioc1-q17
+bioc1-q18
+bioc1-q19
+bioc1-q20
+bioc1-q21
+bioc1-q22
+bioc1-q23
+bioc1-q24
+bioc1-q25
+bioc1-q26
+bioc1-q27
+bioc1-q28
+bioc1-q29
+bioc1-q30
+
+bioc1pending-q01
+bioc1pending-q02
+bioc1pending-q03
+bioc1pending-q04
+bioc1pending-q05
+bioc1pending-q06
+bioc1pending-q07
+bioc1pending-q08
+bioc1pending-q09
+bioc1pending-q10
+bioc1pending-q11
+bioc1pending-q12
+bioc1pending-q13
+bioc1pending-q14
+bioc1pending-q15
+bioc1pending-q16
+bioc1pending-q17
+bioc1pending-q18
+bioc1pending-q19
+bioc1pending-q20
+bioc1pending-q21
+bioc1pending-q22
+bioc1pending-q23
+bioc1pending-q24
+bioc1pending-q25
+bioc1pending-q26
+bioc1pending-q27
+bioc1pending-q28
+bioc1pending-q29
+bioc1pending-q30
+bioc1pending-q31
+bioc1pending-q32
+bioc1pending-q33
+
+bioc2-q01
+bioc2-q02
+bioc2-q03
+bioc2-q04
+bioc2-q05
+bioc2-q06
+bioc2-q07
+bioc2-q08
+bioc2-q09
+bioc2-q10
+bioc2-q11
+bioc2-q12
+bioc2-q13
+bioc2-q14
+bioc2-q15
+bioc2-q16
+bioc2-q17
+bioc2-q18
+bioc2-q19
+bioc2-q20
+
+bioc2kasr-q01
+bioc2kasr-q02
+bioc2kasr-q03
+bioc2kasr-q04
+bioc2kasr-q05
+bioc2kasr-q06
+bioc2kasr-q07
+bioc2kasr-q08
+bioc2kasr-q09
+bioc2kasr-q10
+bioc2kasr-q11
+bioc2kasr-q12
+bioc2kasr-q13
+bioc2kasr-q14
+bioc2kasr-q15
+bioc2kasr-q16
+bioc2kasr-q17
+bioc2kasr-q18
+
+bioc2au102-q01
+bioc2au102-q02
+bioc2au102-q03
+bioc2au102-q04
+bioc2au102-q05
+bioc2au102-q06
+bioc2au102-q07
+
+# held: EGYF Q13 (galactose, blank in the source's own key)
+held-q01
+# held: AGHA-BLOOD Q3 (sickle -- Val/Glu substitution effect, key lost)
+held-q02
+# held: AGHA-BLOOD Q4 (vitamin K deficiency effect, key lost)
+held-q03
+# held: AGHA-BLOOD Q5 (vitamin B12 deficiency causes, key lost)
+held-q04
+# held: AGHA-BLOOD Q6 (hepatic porphyria characterisation, key lost)
+held-q05
+# held: AGHA-CHO Q13, Q18, Q19, Q24, Q38, Q43, Q48, Q51, Q52, Q56, Q62, Q65, Q68, Q76
+#   (14 entries printing a bare "0" instead of an answer letter)
+held-q06
+held-q07
+held-q08
+held-q09
+held-q10
+held-q11
+held-q12
+held-q13
+held-q14
+held-q15
+held-q16
+held-q17
+held-q18
+held-q19

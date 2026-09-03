@@ -1,0 +1,49 @@
+# O6U-IMN-105 -- distinct questions identified this triage pass
+# (sources: Metabolism mid exam -_-20-21 #Diaa (O6U bot)(2).pdf, Collection of Final meta
+# Exams ( O6U).pdf)
+# One question per line; ledger.mjs strips everything after '#', so only the bare key
+# survives. Authored keys (imn105-qNN) match coverage/seeds/O6U-IMN-105/imn105-mid-exam.json,
+# cluster "imn105".
+
+imn105-q01 # Mid exam Q1: hypoglycemia dangerous -- brain glucose supply -- authored
+imn105-q02 # Mid exam Q2: Complex I does not include succinate dehydrogenase -- authored
+imn105-q03 # Mid exam Q4: glucosuria definition -- authored
+imn105-q04 # Mid exam Q5: hypoglycemia threshold <45 mg/dl -- authored
+imn105-q05 # Mid exam Q10: succinate dehydrogenase is TCA + ETC -- authored
+imn105-q06 # Mid exam Q11: parathormone is not anti-insulin -- authored
+
+# Mid exam's other 9 questions are true/false (2 options), all blue-circled and fact-checked
+# correct, held per the <4-option floor rather than any key-quality problem.
+imn105-tf-q03 # Mid exam Q3 (T/F): 50-120 mg/dl normal fasting range -- held (2-option T/F)
+imn105-tf-q06 # Mid exam Q6 (T/F): muscle glycogen cannot supply blood glucose directly -- held (2-option T/F)
+imn105-tf-q07 # Mid exam Q7 (T/F): G6PD-deficient patients affected by aspirin -- held (2-option T/F)
+imn105-tf-q08 # Mid exam Q8 (T/F): nucleus is not the site of glycolytic enzymes -- held (2-option T/F)
+imn105-tf-q09 # Mid exam Q9 (T/F): peptide bond is not a high-energy bond -- held (2-option T/F)
+imn105-tf-q12 # Mid exam Q12 (T/F): hereditary fructose intolerance causes hypoglycemia -- held (2-option T/F)
+imn105-tf-q13 # Mid exam Q13 (T/F): favism IS associated with hemolysis -- held (2-option T/F)
+imn105-tf-q14 # Mid exam Q14 (T/F): galactosemia may cause cataract -- held (2-option T/F)
+imn105-tf-q15 # Mid exam Q15 (T/F): favism is G6PD deficiency, not G6-phosphatase -- held (2-option T/F)
+
+# Collection of Final meta Exams ( O6U).pdf -- a 12-page compilation of ~5 different O6U
+# biochemistry final-exam papers (2007-2013), essay-heavy with two visible MCQ sections (p4:
+# 10 MCQs; p7: 9 MCQs, 19 total); no printed key found anywhere in the file (grepped for
+# "key"/"answer key"/"correct answer"/"model answer": 0 hits). Held in full.
+collection-p4-q01 # p4 MCQ1: VLDL triacylglycerol hydrolysed by -- held (no key found)
+collection-p4-q02 # p4 MCQ2: succinyl-CoA uses -- held (no key found)
+collection-p4-q03 # p4 MCQ3: TCA enzyme member of ETC -- held (no key found)
+collection-p4-q04 # p4 MCQ4: UDP-glucuronate importance -- held (no key found)
+collection-p4-q05 # p4 MCQ5: substrate-level phosphorylation example -- held (no key found)
+collection-p4-q06 # p4 MCQ6: sources of NADPH -- held (no key found)
+collection-p4-q07 # p4 MCQ7: de novo fatty acid synthesis requirements -- held (no key found)
+collection-p4-q08 # p4 MCQ8: eicosanoids except -- held (no key found)
+collection-p4-q09 # p4 MCQ9: lipogenesis activated by -- held (no key found)
+collection-p4-q10 # p4 MCQ10: von Gierke disease -- held (no key found)
+collection-p7-q01 # p7 MCQ1: amino acids needed for creatine synthesis -- held (no key found)
+collection-p7-q02 # p7 MCQ2: amino acids in glutathione -- held (no key found)
+collection-p7-q03 # p7 MCQ3: cysteine synthesis precursors -- held (no key found)
+collection-p7-q04 # p7 MCQ4: active form of methionine -- held (no key found)
+collection-p7-q05 # p7 MCQ5: arginine enters all except -- held (no key found)
+collection-p7-q06 # p7 MCQ6: amino acids in neurotransmitters except -- held (no key found)
+collection-p7-q07 # p7 MCQ7: specific deamination methods except -- held (no key found)
+collection-p7-q08 # p7 MCQ8: most important amino acid in deamination -- held (no key found)
+collection-p7-q09 # p7 MCQ9: amino acids with glucogenic fates except -- held (no key found)

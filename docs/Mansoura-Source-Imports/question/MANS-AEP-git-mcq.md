@@ -1,0 +1,2759 @@
+<!--
+  MANS-AEP · Anatomy Lecture (6) "GIT", authored from AEP Full Exams (VIP).pdf p.31-34 (three compiled sittings), printed answer-column keys.
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q01
+
+## title
+Termination of the submandibular duct
+
+## question
+Where is termination of the Duct of submandibular salivary gland?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Larynx
+
+## explanation_a
+Incorrect. The larynx is part of the respiratory tract, not a site any salivary gland duct opens into.
+
+## answer_b
+Pharynx
+
+## explanation_b
+Incorrect. The pharynx lies further back, downstream of where food and saliva mix, not a duct opening site.
+
+## answer_c
+Oral cavity proper
+
+## explanation_c
+Correct. The submandibular duct (Wharton's duct) opens onto the floor of the mouth proper, on either side of the lingual frenulum, rather than into the vestibule. This is distinct from the parotid duct, which opens into the vestibule of the mouth instead. The floor-of-mouth site is where saliva from both the submandibular and sublingual glands enters the oral cavity.
+
+## answer_d
+Stomach
+
+## explanation_d
+Incorrect. The stomach is far downstream in the alimentary canal and receives no salivary duct directly.
+
+## answer_e
+Vestibule of the mouth
+
+## explanation_e
+Incorrect. The vestibule of the mouth is where the parotid duct opens, not the submandibular duct.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-7A139C5E2D8B41
+
+## concept_ids
+CON-GIT-7A139C5E2D8B41
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-SALIVARY-DUCT-TERMINATIONS
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the submandibular duct opens onto the floor of the mouth proper, distinguishing it from the parotid duct's vestibule opening.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.31
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.31
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q02
+
+## title
+Colon cancer in the upper left abdominal cavity
+
+## question
+65-year-old male was diagnosed with cancer colon. Radiological investigation showed that the cancer present in the upper left part of the abdominal cavity. Which part of the colon was affected?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Sigmoid colon
+
+## explanation_a
+Incorrect. The sigmoid colon lies in the lower left of the abdomen, below the quadrant named in this vignette.
+
+## answer_b
+Ascending colon
+
+## explanation_b
+Incorrect. The ascending colon lies on the right side of the abdomen, the opposite side from the one described.
+
+## answer_c
+Left colic flexure
+
+## explanation_c
+Correct. The left colic (splenic) flexure, where the transverse colon turns downward into the descending colon, sits in the upper left part of the abdominal cavity. This is the point along the large intestine's course that matches the radiological finding described. A cancer here would present exactly as an upper-left abdominal mass, distinguishing it from the more general left-sided descending colon or the lower-left sigmoid colon.
+
+## answer_d
+Cecum
+
+## explanation_d
+Incorrect. The cecum lies in the lower right iliac fossa, both the wrong side and the wrong vertical level.
+
+## answer_e
+Rectum
+
+## explanation_e
+Incorrect. The rectum lies in the pelvis, well below the upper abdominal cavity described here.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-4F6D2A9B1E7C83
+
+## concept_ids
+CON-GIT-4F6D2A9B1E7C83
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-LARGE-INTESTINE-REGIONS
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+Localise the left colic (splenic) flexure to the upper left of the abdominal cavity and use it to interpret a quadrant-based vignette.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.31
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.31
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q03
+
+## title
+Length of the esophagus
+
+## question
+What is the length of esophagus?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+25 inches.
+
+## explanation_a
+Incorrect. 25 inches is far longer than the true length and confuses the unit — 25 is the correct number, but in centimetres, not inches.
+
+## answer_b
+15 cm
+
+## explanation_b
+Incorrect. 15 cm is shorter than the esophagus's true length.
+
+## answer_c
+15 inches.
+
+## explanation_c
+Incorrect. 15 inches is far longer than the true length, an incorrect unit conversion.
+
+## answer_d
+10 cm
+
+## explanation_d
+Incorrect. 10 cm is far shorter than the esophagus's true length.
+
+## answer_e
+25 cm
+
+## explanation_e
+Correct. The esophagus is approximately 25 cm long, running from the pharyngo-esophageal junction at the level of the cricoid cartilage down through the neck and thorax to join the stomach at the cardia. This is the standard teaching figure for its length. The other options either shorten this figure or swap centimetres for inches, both common distractor traps.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-1B7E4C9A2F5D63
+
+## concept_ids
+CON-GIT-1B7E4C9A2F5D63
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-ESOPHAGUS-LENGTH
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the esophagus is approximately 25 cm long.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.32
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.32
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q04
+
+## title
+Tumor of the large intestine on the left side
+
+## question
+A tumor obliterating the large intestine on the left side of a patient. Which of the following parts was likely most affected?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Ascending colon
+
+## explanation_a
+Incorrect. The ascending colon lies on the right side of the abdomen, the opposite side from the one described.
+
+## answer_b
+Cecum
+
+## explanation_b
+Incorrect. The cecum lies in the lower right iliac fossa, on the right side of the abdomen.
+
+## answer_c
+Appendix
+
+## explanation_c
+Incorrect. The vermiform appendix is a small structure off the cecum, also on the right side, not the left.
+
+## answer_d
+Ilium
+
+## explanation_d
+Incorrect. The ileum is part of the small intestine, not the large intestine described in the question.
+
+## answer_e
+Descending colon
+
+## explanation_e
+Correct. The descending colon runs down the left side of the abdomen, from the left colic (splenic) flexure to the sigmoid colon. A tumour obliterating the large intestine on the left side would most affect this segment. Its position distinguishes it from the right-sided ascending colon and cecum, and from the small-intestine ileum.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-4F6D2A9B1E7C83
+
+## concept_ids
+CON-GIT-4F6D2A9B1E7C83
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-LARGE-INTESTINE-REGIONS
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+Identify the descending colon as the left-sided segment of the large intestine.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.32
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.32
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q05
+
+## title
+Tumor of the distal small intestine
+
+## question
+A tumor obliterating the distal part of the small intestine. Which of the following parts is likely most affected?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Jejunum
+
+## explanation_a
+Incorrect. The jejunum is the proximal, not distal, part of the small intestine's mobile segment.
+
+## answer_b
+Cecum
+
+## explanation_b
+Incorrect. The cecum is the first part of the large intestine, not part of the small intestine at all.
+
+## answer_c
+Anal canal
+
+## explanation_c
+Incorrect. The anal canal is the terminal part of the alimentary canal, well beyond the small intestine.
+
+## answer_d
+Ilium
+
+## explanation_d
+Correct. The ileum is the most distal of the small intestine's three parts, following the duodenum and jejunum before joining the cecum. A tumour obliterating the distal small intestine would therefore most affect the ileum. Its distal position, and the fact that it makes up the latter roughly 3/5 of the mobile small bowel, distinguishes it from the more proximal jejunum.
+
+## answer_e
+Descending colon
+
+## explanation_e
+Incorrect. The descending colon is part of the large intestine, not the small intestine described here.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-9C3A6F1E8B2D47
+
+## concept_ids
+CON-GIT-9C3A6F1E8B2D47
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-SMALL-INTESTINE-PARTS
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+Identify the ileum as the most distal part of the small intestine.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.32
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.32
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q06
+
+## title
+Cancer of the head of the pancreas
+
+## question
+Cancer head of pancreas affects which part of the alimentary canal?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Jejunum
+
+## explanation_a
+Incorrect. The jejunum lies further along the small intestine, away from the pancreatic head's immediate relations.
+
+## answer_b
+Duodenum
+
+## explanation_b
+Correct. The head of the pancreas sits cradled within the C-shaped curve of the duodenum, with the bile duct also passing through or immediately behind it. A cancer in the pancreatic head therefore classically compresses or invades the duodenum, sometimes obstructing both it and the bile duct running through it. This close anatomical relationship is why duodenal and biliary obstruction are classic presentations of pancreatic head cancer.
+
+## answer_c
+Transverse colon
+
+## explanation_c
+Incorrect. The transverse colon lies well away from the pancreatic head's immediate anatomical relations.
+
+## answer_d
+Ilium
+
+## explanation_d
+Incorrect. The ileum is the distal small intestine, far from the pancreatic head.
+
+## answer_e
+Body of the stomach
+
+## explanation_e
+Incorrect. The body of the stomach lies superior and to the left, not in the pancreatic head's immediate relations.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-E4A28D7C1F9B35
+
+## concept_ids
+CON-GIT-E4A28D7C1F9B35
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-PANCREAS-DUODENUM-RELATION
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the pancreatic head lies within the duodenal C-loop, so pancreatic head disease characteristically affects the duodenum.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.32
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.32
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q07
+
+## title
+Termination of the parotid duct
+
+## question
+Where is termination of the parotid gland duct?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Oral cavity proper
+
+## explanation_a
+Incorrect. The oral cavity proper (floor of the mouth) is where the submandibular and sublingual ducts open, not the parotid duct.
+
+## answer_b
+Larynx
+
+## explanation_b
+Incorrect. The larynx is part of the respiratory tract, not a duct opening site.
+
+## answer_c
+Pharynx
+
+## explanation_c
+Incorrect. The pharynx lies further back, not where any salivary duct opens.
+
+## answer_d
+Vestibule of the mouth
+
+## explanation_d
+Correct. The parotid duct (Stensen's duct) crosses the cheek, pierces buccinator, and opens into the vestibule of the mouth, typically opposite the upper second molar tooth. This is distinct from the submandibular and sublingual ducts, which open onto the floor of the mouth instead. The vestibule is the space between the cheek and the teeth, the specific site this duct's opening is named for.
+
+## answer_e
+Stomach
+
+## explanation_e
+Incorrect. The stomach is far downstream and receives no salivary duct directly.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-7A139C5E2D8B41
+
+## concept_ids
+CON-GIT-7A139C5E2D8B41
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-SALIVARY-DUCT-TERMINATIONS
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the parotid duct opens into the vestibule of the mouth.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.32
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.32
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q08
+
+## title
+Location of the stomach
+
+## question
+Where does the stomach present?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Lower left part of the abdomen
+
+## explanation_a
+Incorrect. The lower left abdomen is where the sigmoid colon lies, not the stomach.
+
+## answer_b
+Upper left part of the abdomen
+
+## explanation_b
+Correct. The stomach occupies the upper left quadrant of the abdominal cavity, continuous above with the esophagus at the cardia and below with the duodenum at the pylorus. This upper-left position is its standard teaching location. It distinguishes the stomach from the liver (upper right) and the various lower-quadrant large-intestine segments.
+
+## answer_c
+Lower right part of the abdomen
+
+## explanation_c
+Incorrect. The lower right abdomen is where the cecum and appendix lie, not the stomach.
+
+## answer_d
+Upper right part of the abdomen
+
+## explanation_d
+Incorrect. The upper right abdomen is where the liver lies, not the stomach.
+
+## answer_e
+Middle part of the abdomen
+
+## explanation_e
+Incorrect. The stomach's bulk lies to the upper left, not centred in the middle of the abdomen.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-38F1C6A9D24E7B
+
+## concept_ids
+CON-GIT-38F1C6A9D24E7B
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-STOMACH-LOCATION-CALIBRE
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the stomach lies in the upper left part of the abdominal cavity.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.32
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.32
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q09
+
+## title
+Largest gland in the body
+
+## question
+What is the largest gland in the body?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Skin
+
+## explanation_a
+Incorrect. The skin is the body's largest organ by surface area, but it is not classified as a single gland.
+
+## answer_b
+Pancreas
+
+## explanation_b
+Incorrect. The pancreas is a substantial gland but far smaller than the liver.
+
+## answer_c
+Salivary glands
+
+## explanation_c
+Incorrect. The salivary glands are small paired structures, nowhere near the liver's mass.
+
+## answer_d
+Liver
+
+## explanation_d
+Correct. The liver is the largest gland in the body, occupying most of the right upper quadrant of the abdominal cavity and extending across the midline beneath the diaphragm. Among all the body's exocrine and endocrine glands, none approaches the liver's mass. This makes it the answer whenever a question asks for the single largest gland.
+
+## answer_e
+Thyroid gland
+
+## explanation_e
+Incorrect. The thyroid gland is a small structure in the neck, far smaller than the liver.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-B6D4E9F213A785
+
+## concept_ids
+CON-GIT-B6D4E9F213A785
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-LIVER-LARGEST-GLAND
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the liver is the largest gland in the body.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.32
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.32
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q10
+
+## title
+Narrowest part of the intestine
+
+## question
+Where is the narrowest part of the intestine?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Descending colon
+
+## explanation_a
+Incorrect. The descending colon is a wide segment of the large intestine, not the narrowest part.
+
+## answer_b
+Jejunum
+
+## explanation_b
+Incorrect. The jejunum has a wider lumen than the vermiform appendix.
+
+## answer_c
+Vermiform appendix
+
+## explanation_c
+Correct. The vermiform appendix is a narrow, blind-ended tube opening off the cecum's posteromedial wall, with a lumen distinctly narrower than any other named intestinal segment. This narrow calibre predisposes it to luminal obstruction, the usual trigger for acute appendicitis. It is this narrow calibre, not any other segment's width, that makes the appendix the narrowest part of the intestine.
+
+## answer_d
+Rectum
+
+## explanation_d
+Incorrect. The rectum is a relatively wide terminal segment, not the narrowest part.
+
+## answer_e
+Ilium
+
+## explanation_e
+Incorrect. The ileum, while narrower than the jejunum, still has a wider lumen than the vermiform appendix.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-5A9C1E7B3D24F6
+
+## concept_ids
+CON-GIT-5A9C1E7B3D24F6
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-APPENDIX-NARROWEST
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the vermiform appendix is the narrowest part of the intestine.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.32
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.32
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q11
+
+## title
+Organ producing bile
+
+## question
+Which of the following structures is responsible for production of bile?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Pancreas
+
+## explanation_a
+Incorrect. The pancreas produces digestive enzymes and hormones, not bile.
+
+## answer_b
+Liver
+
+## explanation_b
+Correct. Bile is produced continuously by hepatocytes in the liver. It is then concentrated and stored in the gallbladder between meals, before draining via the bile duct into the duodenum. Production is the liver's role specifically, distinct from the gallbladder's storage-and-concentration role.
+
+## answer_c
+Gall bladder
+
+## explanation_c
+Incorrect. The gallbladder stores and concentrates bile but does not produce it.
+
+## answer_d
+Salivary glands
+
+## explanation_d
+Incorrect. The salivary glands produce saliva, an entirely separate secretion from bile.
+
+## answer_e
+Stomach
+
+## explanation_e
+Incorrect. The stomach produces gastric acid and enzymes, not bile.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-C71E4A9D2F6B38
+
+## concept_ids
+CON-GIT-C71E4A9D2F6B38
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-BILE-PRODUCTION-DRAINAGE
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the liver produces bile, distinct from the gallbladder's storage role.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.32
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.32
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q12
+
+## title
+Termination of the bile duct
+
+## question
+Where does the duct carrying the bile terminate?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Stomach
+
+## explanation_a
+Incorrect. The stomach lies upstream of where the bile duct opens, not its termination site.
+
+## answer_b
+Duodenum
+
+## explanation_b
+Correct. The common bile duct carries bile from the liver and gallbladder down to join the main pancreatic duct, and the combined hepatopancreatic duct opens into the second part of the duodenum at the major duodenal papilla. This makes the duodenum, not any other segment, the site where the bile duct terminates. It is also where the duodenum receives pancreatic secretions delivered through the same opening.
+
+## answer_c
+Jejunum
+
+## explanation_c
+Incorrect. The jejunum lies further along the small intestine, past the duodenum where the bile duct actually opens.
+
+## answer_d
+Pancreas
+
+## explanation_d
+Incorrect. The pancreas is the organ whose duct joins the bile duct, not the site where the combined duct opens.
+
+## answer_e
+Liver
+
+## explanation_e
+Incorrect. The liver is the organ of origin for bile, not the site of the duct's termination.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-C71E4A9D2F6B38
+
+## concept_ids
+CON-GIT-C71E4A9D2F6B38
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-BILE-PRODUCTION-DRAINAGE
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the bile duct terminates in (drains into) the duodenum.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.32
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.32
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q13
+
+## title
+Alimentary canal part with sacculations
+
+## question
+Which of the following parts of the alimentary canal is characterized by the presence of sacculations?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Descending colon
+
+## explanation_a
+Correct. The large intestine's outer longitudinal muscle is gathered into three bands, the taeniae coli, which are shorter than the gut tube itself and so pucker the wall into pouches called sacculations or haustra. The descending colon, as part of the large intestine, shows this sacculated appearance. This feature distinguishes it from small-intestine segments, which lack taeniae coli entirely.
+
+## answer_b
+Jejunum
+
+## explanation_b
+Incorrect. The jejunum is part of the small intestine and lacks taeniae coli, so it has no sacculations.
+
+## answer_c
+Vermiform appendix
+
+## explanation_c
+Incorrect. The vermiform appendix also lacks taeniae coli and so lacks the sacculated appearance.
+
+## answer_d
+Rectum
+
+## explanation_d
+Incorrect. The rectum, distal to the sigmoid colon, also lacks taeniae coli and sacculations.
+
+## answer_e
+Ilium
+
+## explanation_e
+Incorrect. The ileum, like the rest of the small intestine, has no taeniae coli and so no sacculations.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-D82F51A3C69E07
+
+## concept_ids
+CON-GIT-D82F51A3C69E07
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-COLON-SACCULATIONS
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+Identify sacculations (haustra) as a feature of the large intestine, absent from the small intestine.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.33
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.33
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q14
+
+## title
+Common pathway for food and air
+
+## question
+Which of the following structures is a common pathway for food and air?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Larynx
+
+## explanation_a
+Incorrect. The larynx is dedicated to the respiratory route (air only), not a shared pathway with food.
+
+## answer_b
+Trachea
+
+## explanation_b
+Incorrect. The trachea carries only air, playing no part in the digestive route.
+
+## answer_c
+Pharynx
+
+## explanation_c
+Correct. The pharynx is a muscular tube extending from the skull base to the cricoid cartilage, through which both air (travelling from the nose or mouth to the larynx) and food (travelling from the mouth to the esophagus) pass. Because both routes cross through it, the pharynx is the one structure serving as a shared conduit for food and air. This distinguishes it from the larynx, trachea, esophagus and bronchi, each dedicated to only one function.
+
+## answer_d
+Esophagus
+
+## explanation_d
+Incorrect. The esophagus carries only food and drink, not air.
+
+## answer_e
+Bronchi
+
+## explanation_e
+Incorrect. The bronchi carry only air, downstream of the trachea, and play no part in the digestive route.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-2D8F5C1A9E4B67
+
+## concept_ids
+CON-GIT-2D8F5C1A9E4B67
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-PHARYNX-FOOD-AIR-PATHWAY
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the pharynx is the shared pathway for both food and air.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.33
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.33
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q15
+
+## title
+Longest part of the small intestine
+
+## question
+What is the longest part of the small intestine?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Duodenum
+
+## explanation_a
+Incorrect. The duodenum is the shortest of the small intestine's three parts, roughly 25 cm long.
+
+## answer_b
+Jejunum
+
+## explanation_b
+Incorrect. The jejunum forms only the proximal roughly 2/5 of the mobile small bowel, shorter than the ileum.
+
+## answer_c
+Vermiform appendix
+
+## explanation_c
+Incorrect. The vermiform appendix is a small structure off the cecum, not part of the small intestine's length at all.
+
+## answer_d
+Rectum
+
+## explanation_d
+Incorrect. The rectum is part of the large intestine, not the small intestine described here.
+
+## answer_e
+Ilium
+
+## explanation_e
+Correct. The ileum forms the distal roughly 3/5 of the small intestine's mobile segment (jejunum plus ileum), making it the longest of the small intestine's three parts. This length, together with its distal position, is why it is also the segment most affected by disease described as involving the small intestine's "distal part".
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-9C3A6F1E8B2D47
+
+## concept_ids
+CON-GIT-9C3A6F1E8B2D47
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-SMALL-INTESTINE-PARTS
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the ileum is the longest of the small intestine's three parts.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.33
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.33
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q16
+
+## title
+Proximal part of the small intestine
+
+## question
+What is the proximal part of the small intestine?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Duodenum
+
+## explanation_a
+Incorrect per the source's printed key. The duodenum is in fact the small intestine's overall most proximal, fixed segment; the printed key instead names the jejunum, most plausibly intending the proximal part of the freely mobile small bowel (jejunum and ileum) as distinct from the fixed duodenum, though the question does not state this explicitly.
+
+## answer_b
+Jejunum
+
+## explanation_b
+Correct per the source's printed key. The jejunum follows the duodenum and forms the proximal roughly 2/5 of the small intestine's freely mobile segment, continuing distally into the ileum. This is the answer the source's own right-margin key names for this item. The distinction between the duodenum (fixed, most proximal overall) and the jejunum (proximal part of the mobile bowel) is the likely source of this question's framing.
+
+## answer_c
+Vermiform appendix
+
+## explanation_c
+Incorrect. The vermiform appendix is not part of the small intestine at all.
+
+## answer_d
+Cecum
+
+## explanation_d
+Incorrect. The cecum is the first part of the large intestine, not the small intestine.
+
+## answer_e
+Ilium
+
+## explanation_e
+Incorrect. The ileum is the distal, not proximal, part of the small intestine's mobile segment.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-9C3A6F1E8B2D47
+
+## concept_ids
+CON-GIT-9C3A6F1E8B2D47
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-SMALL-INTESTINE-PARTS
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State the source's own answer for the small intestine's proximal part, while recognising the duodenum's true overall-proximal position.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.33
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.33
+Doubt: the printed key names the jejunum as the "proximal part of the small intestine," though the duodenum is in fact the small intestine's most proximal segment overall. No other page of this source states duodenum-first explicitly (unlike the lane's stricter B5/B9 same-source-contradiction precedent), so this is authored as printed per the lane's rule, similar in kind to the lane's L2B-Q06 precedent — the question most plausibly intends "proximal part of the freely mobile small bowel" (jejunum vs ileum, as distinct from the fixed duodenum) without saying so.
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q17
+
+## title
+Length of the duodenum
+
+## question
+What is the length of the duodenum?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+4 inches
+
+## explanation_a
+Incorrect. 4 inches is far shorter than the duodenum's true length.
+
+## answer_b
+6 inches
+
+## explanation_b
+Incorrect. 6 inches is shorter than the duodenum's true length.
+
+## answer_c
+8 inches
+
+## explanation_c
+Incorrect. 8 inches is close but still shorter than the duodenum's true length.
+
+## answer_d
+10 inches
+
+## explanation_d
+Correct. The duodenum, the fixed first part of the small intestine, curves in a C-shape around the head of the pancreas from the pylorus to the duodenojejunal flexure. It measures approximately 10 inches (about 25 cm) in length, the standard teaching figure. This makes it considerably shorter than the jejunum and ileum combined, which together run several metres.
+
+## answer_e
+12 inches
+
+## explanation_e
+Incorrect. 12 inches is longer than the duodenum's true length.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-A94E7B2D1F6C58
+
+## concept_ids
+CON-GIT-A94E7B2D1F6C58
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-DUODENUM-LENGTH
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the duodenum is approximately 10 inches (25 cm) long.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.33
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.33
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q18
+
+## title
+Colon cancer in the lower right abdominal cavity
+
+## question
+A-60-year-old female was diagnosed with colon cancer. The cancer is located in the lower right part of the abdominal cavity. Which part of the colon might be affected?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Cecum
+
+## explanation_a
+Correct. The cecum is the first part of the large intestine, sitting in the right iliac fossa, the lower right of the abdomen. A cancer localised to the lower right abdominal cavity would most likely affect the cecum. This lower-right position distinguishes the cecum from the ascending colon above it, the right colic flexure further up still, and the left-sided or midline segments.
+
+## answer_b
+Descending colon
+
+## explanation_b
+Incorrect. The descending colon lies on the left side of the abdomen, the opposite side from the one described.
+
+## answer_c
+Right colic flexure
+
+## explanation_c
+Incorrect. The right colic flexure lies in the upper right of the abdomen, not the lower right.
+
+## answer_d
+Sigmoid colon
+
+## explanation_d
+Incorrect. The sigmoid colon lies in the lower left of the abdomen, the opposite side from the one described.
+
+## answer_e
+Transverse colon
+
+## explanation_e
+Incorrect. The transverse colon crosses the upper abdomen, not the lower right.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-4F6D2A9B1E7C83
+
+## concept_ids
+CON-GIT-4F6D2A9B1E7C83
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-LARGE-INTESTINE-REGIONS
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+Localise the cecum to the lower right (right iliac fossa) of the abdomen and use it to interpret a quadrant-based vignette.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.34
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.34
+
+---
+
+# Item
+
+## id
+QST-MANSAEP-AEPGIT-Q19
+
+## title
+Widest part of the GIT
+
+## question
+Which one of the following is the widest part of GIT?
+
+## subject
+gi
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Colon
+
+## explanation_a
+Incorrect. The colon has a wide lumen but not the widest of all named GIT segments.
+
+## answer_b
+Duodenum
+
+## explanation_b
+Incorrect. The duodenum, at roughly 25 cm long, is a narrower-calibre segment than the stomach.
+
+## answer_c
+Jejunum
+
+## explanation_c
+Incorrect. The jejunum's calibre is narrower than the stomach's.
+
+## answer_d
+Rectum
+
+## explanation_d
+Incorrect. The rectum is wide but still narrower than the stomach's greatest calibre.
+
+## answer_e
+Stomach
+
+## explanation_e
+Correct. The stomach occupies the upper left abdomen, continuous with the esophagus above and the duodenum below, and has the largest diameter of any named part of the alimentary canal from the esophagus through to the rectum. This makes it the widest part of the GIT. Its calibre is greater than that of the narrower esophagus, duodenum or vermiform appendix.
+
+## topic
+Anatomy
+
+## subtopic
+GIT
+
+## main_concept
+CON-GIT-38F1C6A9D24E7B
+
+## concept_ids
+CON-GIT-38F1C6A9D24E7B
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-AEP
+
+## module_subject
+MANS-AEP > Anatomy > Basis of Anatomy > GIT
+
+## question_only_for
+
+## library_ids
+ART-MANS-AEP-STOMACH-LOCATION-CALIBRE
+
+## resource_ids
+src_68a72cf039eada5508f3
+
+## learning_objective
+State that the stomach is the widest part of the gastrointestinal tract.
+
+## source_citation
+AEP Full Exams (VIP).pdf, Lecture (6) "GIT", p.34
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer letter in right-margin column, p.34

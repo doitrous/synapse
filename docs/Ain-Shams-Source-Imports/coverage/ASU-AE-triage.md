@@ -407,6 +407,60 @@ the question file) both clean (errors=0/rejected=0), independently re-confirmed 
 `scripts/validate-content-batch.mjs` directly (0 errors; `needs_evidence` warnings on every question are
 expected at this draft stage, per house convention).
 
+## J — Embryo 3 Q56-104 completion pass (lane 12)
+
+`MCQs - Embryo 3.pdf` is now fully triaged: lane 11 authored Q1-55 (53 authored, 2 held), and this pass
+authors the remaining Q56-104, **49 authored, 0 held**, completing the paper at 102 authored questions
+(104 items minus the 2 within-file duplicates lane 11 already identified). Seed extended in
+`coverage/seeds/ASU-AE/embryo3.json`, batch re-emitted at `question/ASU-AE-embryo3-mcq.md`, triage-keys
+extended `embryo3-q56` … `embryo3-q104`.
+
+**Scope.** Q56-59 continue the "match the syndrome with the correct chromosomal formula" block lane 11's
+own Q55 opened (Turner/Down/superfemale/supermale, reusing that block's five-value option pool). Q60-64
+is a second, independent "match column I with column II" block introducing Patau's syndrome (trisomy 13)
+alongside supermale/Klinefelter/Turner/Down, each with a single keyed answer and five options — both
+blocks were authored as standalone single-best-answer items per the dispatch's own rule (author only if
+each row has a single keyed answer with ≥4 options), since neither block's rows failed that test. Q65-104
+is a straightforward run of derivative/EXCEPT questions across germ-layer derivatives, intraembryonic
+mesoderm, neurulation, fetal membranes and birth defects, the same style as lane 11's own Q1-55.
+
+**Answer-key recovery.** OCR on stem pages 9-16 remained badly garbled for two-column matching layouts
+(Q60-64 in particular came back with columns interleaved and mostly unreadable), so both matching blocks
+(p.9) and the full key-table run for rows 55-104 (pp.18-20) were re-rendered at 600dpi and read by eye.
+The 600dpi render corrected one OCR misread the first pass over p.18 produced (row 56 read as "e" by OCR,
+confirmed "c" — matching Turner's own 44+XO — on the clean render), underscoring the dispatch's own
+instruction to re-render rather than trust a single OCR pass on the torn/curved pages. All 49 rows were
+cross-checked against each stem's own option wording and, for the two matching blocks, against the
+block's own internal five-formula pool (self-consistent against standard karyotypes for every syndrome
+named, including the newly-introduced Patau/trisomy-13 and supermale/44+XYY facts).
+
+**Search-before-mint.** A four-query `find-existing.mjs` pass per concept cluster, plus broad `grep -ril`
+sweeps for terms with no direct hit, found this window's block still heavily pre-covered: **17 concepts
+reused** — 6 already-tagged concepts from lane 11's own Kasr 101-ISK/104-CPS overlays (gastrulation/
+absence-sites, somite sclerotome/dermatome fate, somite-count-by-day, notochord formation/fate, neural
+tube/neural crest split, notochord-induced neural plate — no new overlay rows needed since the +asu tags
+were already present), 5 already-minted ASU-AE concepts from lane 11's own new-concepts file (endoderm
+gut/respiratory lining, allantois, umbilical-cord vessel count, skin dual origin, neurenteric canal,
+adrenal cortex/medulla split), and 1 further Kasr 101-ISK concept found only in the general (non-MCQ)
+101-ISK-concepts.md file, folding's own cranio-caudal outcomes, reused via one new sparse overlay row
+(`pending-live/ASU-AE-embryo3-kasr101isk-general-overlay-concepts.md`) since it had no ASU tags yet.
+**8 concepts newly minted** after all four `find-existing.mjs` queries plus a broad grep came back empty
+for each: supermale syndrome (44+XYY), Patau syndrome (trisomy 13), lateral plate mesoderm's somatic/
+splanchnic split, enamel of teeth's ectodermal origin, the secondary/definitive yolk sac's endodermal
+lining and cord location, the amnion's fetal-movement-permitting function, true-vs-false umbilical cord
+knots, and the teratogenic-susceptibility window (embryonic period/first trimester) — all placed under
+the two article files lane 11 already minted, `ART-DEV-ASU-AE-EMBRYO3-GERM-LAYERS-MESODERM-BASICS` and
+`ART-DEV-ASU-AE-EMBRYO3-MEMBRANES-CORD-TIMING-BASICS`, by topical fit; no new article files were needed.
+One printed-key row (Q85) carries a remark ("Notochord is ectodermal in origin") that itself does not
+match standard teaching, but the key letter still correctly flags the false EXCEPT statement either way,
+so the letter is retained per house rule with the discrepancy logged in the question's own `author_notes`.
+`gate.mjs batch` (question + new concept/article files + all three overlays + the Kasr 101-ISK-mcq/
+101-ISK-general/104-CPS concept+article files the overlays target + the Alexandria AU-MED-102 concept+
+article files the one contextual reuse depends on) and `gate.mjs simulate` (15 files, apply order: Kasr
+concepts, Kasr articles, Alexandria concept, Alexandria article, all three overlays, the 2 ASU new files,
+the resource file, the question file) both clean (errors=0/rejected=0), independently re-confirmed via
+`scripts/validate-content-batch.mjs` directly (0 errors).
+
 ## Totals
 
 - **Papers read:** 6 MCQ/mixed sources, all triaged; 16 written (non-MCQ) prompts identified separately.

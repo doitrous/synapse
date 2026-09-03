@@ -4213,4 +4213,1082 @@ Block: body
 
 ### definition_of · CON-FND-A64FEC0DBC4146
 Quote: Ceftriaxone, a third-generation cephalosporin, is bactericidal via cell wall synthesis inhibition, given parenterally only
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## title
+Neoplasia: mechanisms of spread of malignant tumors -- ECM degradation, adhesion loss, nodal seeding, perineural spread and angiogenesis
+
+## arabic_title
+انتشار الأورام الخبيثة: تحلل المادة خارج الخلوية، فقدان الالتصاق، غزو العقد الليمفاوية، الانتشار حول الأعصاب وتكوّن الأوعية الدموية
+
+## aliases
+Neoplasia: Mechanisms of spread of malignant tumors
+Lecture 41
+
+## subject
+fnd
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+ECM degradation, cell adhesion molecules, nodal metastasis, perineural invasion, tumour angiogenesis
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 41 opens the Mechanisms of spread of malignant tumors block with the cellular and molecular steps that let a tumour invade and disseminate. Tumour cells secrete type IV collagenase to degrade the basement membrane's extracellular matrix, while normal cells are instead held together by cadherins, calcium-dependent adhesion molecules whose loss favours detachment and invasion. Once malignant cells reach a lymph node via afferent lymphatics, they are first trapped in the subcapsular sinus, immediately beneath the capsule. Perineural invasion, tracking along a nerve's Schwann cell sheath, characteristically produces pain, and tumour angiogenesis, the new vessel growth that supplies an expanding tumour, occurs under the influence of tumour-associated angiogenic factors the tumour itself secretes.
+
+## sections
+### Definition
+Lecture 41 covers the cellular and molecular mechanisms that let a malignant tumour degrade surrounding tissue, detach from its neighbours, seed a regional lymph node, spread along a nerve, and recruit the blood supply it needs to keep growing.
+
+### Mechanism
+Type IV collagenase, a matrix metalloproteinase secreted by tumour cells, degrades type IV collagen, the main structural protein of the basement membrane, letting the tumour breach this barrier and invade surrounding tissue. Cadherins are calcium-dependent transmembrane adhesion molecules that glue normal cells to each other and to their surroundings; loss of cadherin function is one of the changes that allows malignant cells to detach and invade. Afferent lymphatics draining a tumour empty first into a lymph node's subcapsular sinus, immediately beneath the capsule, so malignant cells travelling via lymph are expected to be trapped and first detectable there. Perineural invasion, malignant cells tracking along the perineural (Schwann cell sheath) space surrounding a nerve, irritates and compresses nerve fibres along the route of spread, producing pain. Tumour angiogenesis, the formation of new blood vessels that supply a growing tumour, occurs under the influence of tumour-associated angiogenic factors (such as VEGF) secreted by the tumour cells themselves, stimulating proliferation and sprouting of nearby endothelial cells.
+
+### Key determinants
+Type IV collagenase specifically targets the basement membrane's collagen, distinguishing it from a general digestive enzyme such as elastase, lipase or amylase. Cadherins, not a matrix glycoprotein (fibronectin, laminin) or a degradative enzyme, are the general cell-to-cell adhesion molecule. The subcapsular sinus, not the medullary sinuses, the follicles or the paracortex, is the first nodal structure afferent lymph reaches. Perineural invasion's hallmark symptom is pain, distinguishing it from haemorrhage, mass effect or ulceration. Tumour-associated angiogenic factors, not matrix-degrading enzymes, complement components or general inflammatory mediators such as TNF, drive tumour angiogenesis.
+
+### Clinical significance
+Recognising type IV collagenase activity and cadherin loss as invasion-enabling steps explains why some tumours infiltrate locally before ever reaching a lymph node or vessel. Knowing that the subcapsular sinus is a metastasis's first likely site guides how a pathologist examines a sentinel or regional lymph node for early micrometastasis. Pain out of proportion to a tumour's visible size can raise suspicion for perineural invasion, particularly in tumours such as pancreatic or head-and-neck carcinomas. Tumour angiogenesis is the biological rationale behind anti-angiogenic (anti-VEGF) cancer therapies.
+
+### Common misconceptions
+Assuming a general digestive enzyme (elastase, lipase, amylase) rather than type IV collagenase specifically degrades the basement membrane in tumour invasion. Confusing cadherins with a matrix glycoprotein or a degradative enzyme. Assuming malignant cells first appear in a lymph node's medullary sinuses, follicles or paracortex rather than the subcapsular sinus. Attributing perineural invasion's pain to haemorrhage, mass effect or ulceration instead. Attributing tumour angiogenesis to a matrix-degrading enzyme, complement or a general inflammatory mediator rather than tumour-associated angiogenic factors specifically.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Type IV collagenase degrades the basement membrane's type IV collagen, enabling tumour invasion.
+Cadherins glue normal cells together; their loss favours detachment and invasion.
+Malignant cells reaching a lymph node via afferent lymphatics are first trapped in the subcapsular sinus.
+Perineural invasion characteristically causes pain.
+Tumour-associated angiogenic factors (e.g. VEGF), secreted by the tumour, drive tumour angiogenesis.
+
+## lose_the_mark
+Naming a general digestive enzyme instead of type IV collagenase for basement-membrane degradation.
+Confusing cadherins with a matrix glycoprotein or a degradative enzyme.
+Naming the medullary sinuses, follicles or paracortex instead of the subcapsular sinus as the first metastatic site.
+Attributing perineural invasion's pain to another tumour behaviour.
+Naming a matrix-degrading enzyme, complement or TNF instead of tumour-associated angiogenic factors as the driver of tumour angiogenesis.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-AFBFED85C86B2C
+CON-FND-B8CF57D24CAAA0
+CON-FND-93098A5E0650BC
+CON-FND-506895F21F8431
+CON-FND-BFC4491084FD14
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 41 (Neoplasia: Mechanisms of spread of malignant tumors) -- no department slide deck exists in the corpus past Lecture 8, so all five new mints cite the quiz bank's own printed-answer text instead. Quiz 41 Q2 (q337) reuses a pending Kasr 208-INT concept (CON-FND-AE5841979FCFAE) instead of minting a twin; its question cites the existing Kasr article ART-FND-208INT-NEOPLASIA-BASICS instead of this one. This opens the lane's dispatched Quiz 41-47 range.
+
+## annotations
+### definition_of · CON-FND-AFBFED85C86B2C
+Quote: Type IV collagenase, a matrix metalloproteinase secreted by tumour cells, degrades type IV collagen, the main structural protein of the basement membrane
+Block: body
+
+### definition_of · CON-FND-B8CF57D24CAAA0
+Quote: Afferent lymphatics draining a tumour empty first into a lymph node's subcapsular sinus, immediately beneath the capsule, so malignant cells travelling via lymph are expected to be trapped and first detectable there
+Block: body
+
+### definition_of · CON-FND-93098A5E0650BC
+Quote: Cadherins are calcium-dependent transmembrane adhesion molecules that glue normal cells to each other and to their surroundings
+Block: body
+
+### definition_of · CON-FND-506895F21F8431
+Quote: Perineural invasion, malignant cells tracking along the perineural (Schwann cell sheath) space surrounding a nerve, irritates and compresses nerve fibres along the route of spread, producing pain
+Block: body
+
+### definition_of · CON-FND-BFC4491084FD14
+Quote: Tumour angiogenesis, the formation of new blood vessels that supply a growing tumour, occurs under the influence of tumour-associated angiogenic factors (such as VEGF) secreted by the tumour cells themselves
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## title
+Antimicrobial therapy 1: clindamycin, macrolide/vancomycin classification, aminoglycoside spectrum, pregnancy safety and combination antagonism
+
+## arabic_title
+العلاج المضاد للميكروبات 1: الكليندامايسين، تصنيف الماكروليدات والفانكومايسين، طيف الأمينوغليكوزيدات، السلامة في الحمل والتضاد الدوائي
+
+## aliases
+Antimicrobial therapy 1
+Lecture 42
+
+## subject
+pharm
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Clindamycin adverse effects, macrolide classification, aminoglycoside spectrum, macrolide mechanism, pregnancy antibiotic safety, combination antagonism
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+10
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 42 opens the antimicrobial therapy block's second track with clindamycin, macrolide and aminoglycoside pharmacology. Clindamycin carries a counselling-worthy risk of Clostridium difficile diarrhea. Vancomycin, a glycopeptide, is not a macrolide, while macrolides themselves are 50S-subunit-binding, bacteriostatic protein synthesis inhibitors, and clindamycin antagonises erythromycin by competing for that same 50S site. Aminoglycosides need oxygen-dependent uptake, so they are mainly effective against aerobic, not anaerobic, gram-negative bacteria. Erythromycin is a standard safe antibiotic choice in pregnancy, unlike doxycycline, moxifloxacin or gentamicin.
+
+## sections
+### Definition
+Lecture 42 covers a second cluster of antimicrobial therapy facts: a specific adverse-effect association, class-identification distinctions, a mechanism/effect pairing, a combination-antagonism rule, and pregnancy safety.
+
+### Mechanism
+Clindamycin carries a well-recognised risk of Clostridium difficile diarrhea, including its severe form, pseudomembranous colitis, because it disrupts normal gut flora and allows C. difficile to overgrow. Vancomycin is a glycopeptide antibiotic that inhibits bacterial cell wall synthesis, not a macrolide, unlike azithromycin, erythromycin and clarithromycin, the true macrolides, which bind the bacterial ribosome's 50S subunit, blocking translocation during protein synthesis with a bacteriostatic, not bactericidal, effect. Aminoglycosides require oxygen-dependent active transport to cross the bacterial cell membrane and reach their ribosomal target, so they are mainly effective against aerobic, not anaerobic, gram-negative bacteria. Erythromycin is generally considered safe for use in pregnancy, a standard alternative when a pregnant patient needs antimicrobial treatment but cannot receive drug classes carrying recognised fetal risk. Clindamycin and erythromycin both bind overlapping sites on the bacterial ribosome's 50S subunit, so combining them is antagonistic.
+
+### Key determinants
+Clostridium difficile diarrhea, not pseudotumor cerebri, hyperbilirubinemia or nephrotoxicity, is clindamycin's characteristic counselling-worthy risk. Vancomycin's glycopeptide, cell-wall-active identity, not any 50S-binding mechanism, is why it is excluded from the macrolides. Aminoglycosides' oxygen-dependent uptake, not a broader spectrum claim, is why they are aerobic-only. Erythromycin's pregnancy safety contrasts with doxycycline, moxifloxacin and gentamicin, each carrying a specific fetal risk. Clindamycin/erythromycin's shared 50S binding site, not a pharmacokinetic interaction, is the basis of their antagonism.
+
+### Clinical significance
+Counselling a patient starting a multi-week clindamycin course about C. difficile diarrhea risk allows earlier recognition if it develops. Correctly classifying vancomycin outside the macrolides, and macrolides as bacteriostatic 50S inhibitors, avoids mechanism-based prescribing errors. Recognising aminoglycosides' aerobic-only spectrum prevents their use against anaerobic infections. Choosing erythromycin over doxycycline, a fluoroquinolone or an aminoglycoside protects a pregnant patient from a recognised fetal risk. Avoiding the clindamycin/erythromycin combination prevents an antagonistic, less effective regimen.
+
+### Common misconceptions
+Assuming clindamycin's main risk is nephrotoxicity or hepatic rather than C. difficile diarrhea. Classifying vancomycin as a macrolide, or assuming macrolides are bactericidal 30S inhibitors rather than bacteriostatic 50S inhibitors. Assuming aminoglycosides are effective against anaerobic organisms. Assuming any antibiotic besides erythromycin is the safe pregnancy choice among the options. Assuming clindamycin and erythromycin can be safely combined despite their shared ribosomal binding site.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Clindamycin's characteristic, counselling-worthy adverse effect is Clostridium difficile diarrhea/pseudomembranous colitis.
+Vancomycin is a glycopeptide, not a macrolide; macrolides are 50S-subunit-binding, bacteriostatic protein synthesis inhibitors.
+Aminoglycosides need oxygen-dependent uptake, so they are mainly effective against aerobic, not anaerobic, gram-negative bacteria.
+Erythromycin is a safe antibiotic choice in pregnancy, unlike doxycycline, moxifloxacin or gentamicin.
+Clindamycin and erythromycin antagonise each other by competing for an overlapping 50S ribosomal binding site.
+
+## lose_the_mark
+Naming another adverse effect instead of C. difficile diarrhea for clindamycin.
+Classifying vancomycin as a macrolide, or macrolides as 30S/bactericidal instead of 50S/bacteriostatic.
+Assuming aminoglycosides cover anaerobic gram-negative organisms.
+Naming a fetal-risk antibiotic instead of erythromycin as safe in pregnancy.
+Assuming clindamycin and erythromycin combine safely.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-1EA6F246BFB893
+CON-FND-FB8DF4269600C2
+CON-FND-E80D82F5AB996F
+CON-FND-AC1BF871C1B2B5
+CON-FND-7DB1D6CF02F3C6
+CON-FND-DAFCB3028F7BE6
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 42 (Antimicrobial therapy 1) -- no department slide deck exists in the corpus past Lecture 8, so all six new mints cite the quiz bank's own printed-answer text instead. Quiz 42 Q7/Q8 (q351/q352) reuse two pending Assiut AUN-INI-105-ch5 concepts instead of minting twins; their questions cite the existing AUN-INI-105 article ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS instead of this one.
+
+## annotations
+### definition_of · CON-FND-1EA6F246BFB893
+Quote: Clindamycin carries a well-recognised risk of Clostridium difficile diarrhea, including its severe form, pseudomembranous colitis, because it disrupts normal gut flora and allows C. difficile to overgrow
+Block: body
+
+### definition_of · CON-FND-FB8DF4269600C2
+Quote: Vancomycin is a glycopeptide antibiotic that inhibits bacterial cell wall synthesis, not a macrolide
+Block: body
+
+### definition_of · CON-FND-E80D82F5AB996F
+Quote: Aminoglycosides require oxygen-dependent active transport to cross the bacterial cell membrane and reach their ribosomal target, so they are mainly effective against aerobic, not anaerobic, gram-negative bacteria
+Block: body
+
+### definition_of · CON-FND-AC1BF871C1B2B5
+Quote: azithromycin, erythromycin and clarithromycin, the true macrolides, which bind the bacterial ribosome's 50S subunit, blocking translocation during protein synthesis with a bacteriostatic, not bactericidal, effect
+Block: body
+
+### definition_of · CON-FND-7DB1D6CF02F3C6
+Quote: Erythromycin is generally considered safe for use in pregnancy, a standard alternative when a pregnant patient needs antimicrobial treatment but cannot receive drug classes carrying recognised fetal risk
+Block: body
+
+### definition_of · CON-FND-DAFCB3028F7BE6
+Quote: Clindamycin and erythromycin both bind overlapping sites on the bacterial ribosome's 50S subunit, so combining them is antagonistic
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-BONE-METASTASIS-PATTERN
+
+## title
+Neoplasia: routes of spread -- carcinoma in situ, locally malignant tumours, rare metastatic sites and prostatic bone metastasis
+
+## arabic_title
+طرق انتشار الأورام: السرطانة الموضعية، الأورام الخبيثة الموضعية، مواقع الانتشار النادرة والانتشار العظمي للبروستاتا
+
+## aliases
+Neoplasia: Routes of spread of malignant tumors
+Lecture 43
+
+## subject
+fnd
+
+## topic
+Neoplasia: Routes of spread of malignant tumors
+
+## subtopic
+Bone metastasis patterns
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 43 continues the neoplasia spread block with routes and destinations of metastatic disease. Four of this lecture's five other tested facts -- carcinoma in situ's intraepithelial, pre-invasive definition; basal cell carcinoma and osteoclastoma as named locally malignant (intermediate) tumours; and the spleen's status as a rare, not common, site of haematogenous metastasis -- ride on pending Kasr 208-INT concepts reused rather than re-minted. This lecture's one new mint is prostatic carcinoma's distinctive osteosclerotic bone metastasis pattern, contrasted with the osteolytic pattern of renal, thyroid and lung carcinoma.
+
+## sections
+### Definition
+Lecture 43 covers where and how malignant tumours are classified by their spread behaviour and their destination once they reach bone.
+
+### Mechanism
+Prostatic carcinoma characteristically produces osteosclerotic (osteoblastic) bone metastases, in which new bone formation dominates over resorption, giving a dense, radio-opaque appearance on imaging. This is a distinctive, tumour-specific teaching point, since renal cell carcinoma, thyroid carcinoma and bronchogenic carcinoma all produce classically osteolytic metastases instead, and breast carcinoma produces a mixed lytic/sclerotic pattern.
+
+### Key determinants
+The osteosclerotic pattern is specifically a prostatic-carcinoma association, not a general bone-metastasis rule; most other common bone-metastasising carcinomas (renal, thyroid, lung) are osteolytic instead.
+
+### Clinical significance
+Recognising a densely sclerotic bone lesion on imaging as characteristic of prostatic carcinoma, rather than a lytic pattern, helps direct the search for a primary tumour in a patient presenting with bone metastases of unknown origin.
+
+### Common misconceptions
+Assuming any tumour's bone metastases are osteosclerotic, or attributing the osteosclerotic pattern to renal, thyroid, lung or breast carcinoma instead of prostatic carcinoma specifically.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Prostatic carcinoma's bone metastases are characteristically osteosclerotic (osteoblastic), unlike the osteolytic pattern of renal, thyroid and lung carcinoma.
+
+## lose_the_mark
+Naming renal, thyroid, lung or breast carcinoma instead of prostatic carcinoma as the classic osteosclerotic bone metastasis.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-6798FF8F210C05
+
+## related_articles
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 43 (Neoplasia: Routes of spread of malignant tumors) -- no department slide deck exists in the corpus past Lecture 8, so this one new mint cites the quiz bank's own printed-answer text instead. Quiz 43 Q1-Q5 (q353-q357) all reuse pending Kasr 208-INT concepts (carcinoma in situ, locally malignant tumours, hematogenous spread/rare sites) instead of minting twins; their questions cite the existing Kasr article ART-FND-208INT-NEOPLASIA-BASICS instead of this one.
+
+## annotations
+### definition_of · CON-FND-6798FF8F210C05
+Quote: Prostatic carcinoma characteristically produces osteosclerotic (osteoblastic) bone metastases, in which new bone formation dominates over resorption, giving a dense, radio-opaque appearance on imaging
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2
+
+## title
+Antimicrobial therapy 2: sulfasalazine, crystalluria, pseudomembranous colitis treatment and fluoroquinolone tendonitis
+
+## arabic_title
+العلاج المضاد للميكروبات 2: السلفاسالازين، تبلور البول، علاج التهاب القولون الغشائي الكاذب والتهاب الأوتار بالفلوروكينولون
+
+## aliases
+Antimicrobial therapy 2
+Lecture 44
+
+## subject
+pharm
+
+## topic
+Antimicrobial therapy 2
+
+## subtopic
+Sulfasalazine indication, sulfonamide adverse effects, co-trimoxazole composition, pseudomembranous colitis treatment, fluoroquinolone adverse effects
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 44 continues the antimicrobial therapy block with drug-specific indications and adverse effects. Sulfasalazine treats inflammatory bowel disease, not an infectious diarrheal illness, while co-trimoxazole correctly combines trimethoprim with sulfamethoxazole (not clavulanic acid), and sulfamethoxazole itself can cause crystalluria. Pseudomembranous colitis may be treated with either oral vancomycin or metronidazole, and ciprofloxacin carries a characteristic tendonitis/tendon rupture risk distinct from tetracycline's teeth discolouration or aminoglycosides' ototoxicity.
+
+## sections
+### Definition
+Lecture 44 covers a second cluster of antimicrobial therapy facts: a non-infectious indication for an antimicrobial-adjacent drug, a sulfonamide adverse effect, a combination drug's true composition, a colitis treatment choice, and a fluoroquinolone-specific adverse effect.
+
+### Mechanism
+Sulfasalazine is a standard treatment for inflammatory bowel disease, particularly ulcerative colitis, since gut bacteria cleave it into 5-aminosalicylic acid, which acts locally in the colon to reduce mucosal inflammation. Co-trimoxazole is a combination of trimethoprim and sulfamethoxazole, which block two sequential steps of the same bacterial folate synthesis pathway, giving a synergistic effect; sulfamethoxazole itself can precipitate out in acidic urine to cause crystalluria. Pseudomembranous colitis, typically from Clostridioides difficile overgrowth, may be treated with either oral vancomycin or metronidazole. Tendonitis, and in more severe cases tendon rupture, is a recognised, characteristic adverse effect of ciprofloxacin and other fluoroquinolones, thought to relate to the drug class's effect on collagen and connective tissue.
+
+### Key determinants
+Sulfasalazine's indication is inflammatory bowel disease, not an infectious cause. Co-trimoxazole's second component is sulfamethoxazole, not clavulanic acid, which instead pairs with amoxicillin as co-amoxiclav. Crystalluria is a sulfonamide-class effect, not shared by penicillin, doxycycline or gentamicin. Vancomycin and metronidazole both genuinely treat pseudomembranous colitis, while clindamycin causes rather than treats it. Tendonitis is ciprofloxacin's characteristic risk, distinct from tetracycline's teeth discolouration or aminoglycosides' ototoxicity.
+
+### Clinical significance
+Recognising sulfasalazine as an IBD treatment, not an antibiotic for infectious diarrhea, avoids a diagnostic misreading of why a gastroenterology patient is on it. Naming co-trimoxazole's true components correctly matters for recognising cross-reactivity and adverse-effect risk. Anticipating crystalluria with sulfonamides supports adequate hydration counselling. Knowing both vancomycin and metronidazole are valid pseudomembranous colitis treatments broadens prescribing options by severity and availability. Counselling a patient starting ciprofloxacin, especially if older or on corticosteroids, about tendon pain enables early recognition before rupture.
+
+### Common misconceptions
+Assuming sulfasalazine treats an infectious cause of diarrhea rather than inflammatory bowel disease. Naming clavulanic acid instead of sulfamethoxazole as co-trimoxazole's second component. Attributing crystalluria to a non-sulfonamide antibiotic. Assuming clindamycin treats, rather than causes, pseudomembranous colitis. Attributing teeth discolouration or ototoxicity, rather than tendonitis, to ciprofloxacin.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Sulfasalazine treats inflammatory bowel disease.
+Co-trimoxazole combines trimethoprim with sulfamethoxazole, not clavulanic acid.
+Sulfamethoxazole can cause crystalluria.
+Pseudomembranous colitis may be treated with either oral vancomycin or metronidazole.
+Tendonitis/tendon rupture is a characteristic ciprofloxacin adverse effect.
+
+## lose_the_mark
+Naming an infectious indication instead of IBD for sulfasalazine.
+Naming clavulanic acid instead of sulfamethoxazole as co-trimoxazole's partner drug.
+Attributing crystalluria to a non-sulfonamide antibiotic.
+Assuming clindamycin treats pseudomembranous colitis rather than causing it.
+Naming teeth discolouration or ototoxicity instead of tendonitis for ciprofloxacin.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-F551D7B7A61AB9
+CON-FND-BD49F8DB0D8F05
+CON-FND-FB5065BAC15156
+CON-FND-F9417E8EE7E655
+
+## related_articles
+ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 44 (Antimicrobial therapy 2) -- no department slide deck exists in the corpus past Lecture 8, so all four new mints cite the quiz bank's own printed-answer text instead. Quiz 44 Q2 (q360) reuses a pending Assiut AUN-INI-105-ch5 concept instead of minting a twin; its question cites the existing AUN-INI-105 article ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS instead of this one.
+
+## annotations
+### definition_of · CON-FND-F551D7B7A61AB9
+Quote: Sulfasalazine is a standard treatment for inflammatory bowel disease, particularly ulcerative colitis, since gut bacteria cleave it into 5-aminosalicylic acid, which acts locally in the colon to reduce mucosal inflammation
+Block: body
+
+### definition_of · CON-FND-BD49F8DB0D8F05
+Quote: sulfamethoxazole itself can precipitate out in acidic urine to cause crystalluria
+Block: body
+
+### definition_of · CON-FND-FB5065BAC15156
+Quote: Pseudomembranous colitis, typically from Clostridioides difficile overgrowth, may be treated with either oral vancomycin or metronidazole
+Block: body
+
+### definition_of · CON-FND-F9417E8EE7E655
+Quote: Tendonitis, and in more severe cases tendon rupture, is a recognised, characteristic adverse effect of ciprofloxacin and other fluoroquinolones, thought to relate to the drug class's effect on collagen and connective tissue
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## title
+Etiology of cancers and laboratory diagnosis -- physical, chemical, bacterial and viral carcinogens, oncogenes and tumor suppressor genes
+
+## arabic_title
+مسببات السرطان والتشخيص المعملي: المسرطنات الفيزيائية والكيميائية والبكتيرية والفيروسية، الجينات المسرطنة والجينات الكابتة للورم
+
+## aliases
+Etiology of cancers and laboratory diagnosis
+Lecture 45
+
+## subject
+fnd
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Physical carcinogens, chemical carcinogens, bacterial carcinogenesis, viral carcinogenesis, oncogenes and tumor suppressor genes
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+11
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 45 surveys cancer etiology across physical, chemical, bacterial and viral carcinogens, plus the gene classes that drive or restrain malignant transformation. Chronic UV exposure is the leading skin cancer risk factor in fair-skinned individuals; corticosteroids are not a chemical carcinogen, unlike azo compounds, polycyclic hydrocarbons or asbestos. H. pylori is implicated in gastric lymphoma, HPV in cervical cancer, EBV in nasopharyngeal carcinoma and Burkitt's lymphoma, and aflatoxin (from Aspergillus flavus) in liver cancer -- while breast cancer stands out as not virus-related, and hepatitis C virus is taught as Egypt's most important carcinogenic virus. Tumor suppressor genes prevent, and oncogenes promote, malignant transformation.
+
+## sections
+### Definition
+Lecture 45 catalogues the major categories of cancer-causing agents (physical, chemical, bacterial, viral) and the two opposing gene classes -- tumor suppressor genes and oncogenes -- that determine whether a cell's growth stays controlled or becomes malignant.
+
+### Mechanism
+Chronic UV exposure is the most important risk factor for skin cancer, especially in fair-skinned individuals with less natural photoprotection. Corticosteroids are not classed among the chemical carcinogens, unlike azo compounds, polycyclic aromatic hydrocarbons and asbestos. Chronic H. pylori infection is implicated in gastric lymphoma (and gastric adenocarcinoma) through sustained antigenic stimulation. HPV, particularly high-risk strains, is strongly associated with cervical cancer via oncoprotein inactivation of tumour suppressor gene products, while EBV is linked to nasopharyngeal carcinoma and Burkitt's lymphoma; breast cancer, by contrast, is not classed as virus-related. Hepatitis C virus is taught as Egypt's most important carcinogenic virus given its historically high local prevalence and progression to hepatocellular carcinoma. Tumor suppressor genes such as RB and TP53 function to prevent malignant transformation, while oncogenes, arising from gain-of-function mutation of proto-oncogenes, promote autonomous cell growth in cancer cells.
+
+### Key determinants
+UV exposure's importance is amplified by fair skin's lower melanin photoprotection. Corticosteroids, azo compounds, polycyclic hydrocarbons and asbestos are not interchangeable on a chemical-carcinogen list -- only the latter three belong there. H. pylori's association is specifically with gastric lymphoma/adenocarcinoma, not brain, colon or generic metastasis. HPV's link is cervical cancer; EBV's is nasopharyngeal carcinoma and Burkitt's lymphoma; breast cancer has no established viral link. HCV's "most important in Egypt" status is a local-epidemiology fact, not a claim that it is the only carcinogenic virus overall. Tumor suppressor genes restrain growth; oncogenes drive it -- opposite roles that are frequently tested from both directions.
+
+### Clinical significance
+Recognising UV exposure as the dominant skin cancer risk factor in fair-skinned patients supports sun-protection counselling. Knowing H. pylori's gastric lymphoma link supports eradication therapy as cancer prevention. HPV vaccination and cervical screening target HPV's well-established cervical cancer link. HCV's outsized importance in Egypt underlies national hepatitis C screening and treatment programmes aimed at reducing hepatocellular carcinoma incidence. Distinguishing tumor suppressor genes from oncogenes underlies targeted cancer therapies aimed at restoring suppressor function or blocking oncogene products.
+
+### Common misconceptions
+Attributing a fair-skinned patient's skin cancer to an inherited mutation, asbestos or smoking instead of UV exposure. Including corticosteroids on a chemical-carcinogen list. Confusing H. pylori's gastric lymphoma association with brain or colon cancer. Assuming HPV, rather than EBV, causes nasopharyngeal carcinoma, or vice versa for cervical cancer. Assuming breast cancer has a viral cause. Naming a virus other than HCV as most important in Egypt. Confusing tumor suppressor genes (which restrain growth) with oncogenes (which promote it).
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Chronic UV exposure is the most important skin cancer risk factor in fair-skinned individuals.
+Corticosteroids are not a chemical carcinogen; azo compounds, polycyclic hydrocarbons and asbestos are.
+H. pylori is implicated in gastric lymphoma; HPV in cervical cancer; EBV in nasopharyngeal carcinoma/Burkitt's lymphoma; aflatoxin in liver cancer.
+Breast cancer is not virus-related; hepatitis C virus is Egypt's most important carcinogenic virus.
+Tumor suppressor genes prevent malignant transformation; oncogenes promote autonomous cell growth.
+
+## lose_the_mark
+Naming a non-UV risk factor as most important for a fair-skinned patient's skin cancer.
+Including corticosteroids among the chemical carcinogens.
+Swapping H. pylori, HPV and EBV's cancer associations.
+Assuming breast cancer or a virus other than HCV fits these Egypt/virus-specific facts.
+Confusing tumor suppressor genes with oncogenes.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-D3D567B1858979
+CON-FND-81533C95FE69F4
+CON-FND-0C1014ADF53736
+CON-FND-8B1A909A2138C4
+CON-FND-E7A5F2A0F170F0
+CON-FND-D429C114778FFB
+
+## related_articles
+ART-FND-208INT-NEOPLASIA-BASICS
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 45 (Etiology of cancers and laboratory diagnosis) -- no department slide deck exists in the corpus past Lecture 8, so all six new mints cite the quiz bank's own printed-answer text instead. Quiz 45 Q3/Q4/Q5/Q10 (q366-q368, q373) reuse pending Kasr 208-INT concepts (EBV, oncogene/tumor-suppressor classification, aflatoxin) instead of minting twins; their questions cite the existing Kasr article ART-FND-208INT-NEOPLASIA-BASICS instead of this one. Q11-Q19 (q374-q382), this quiz's True/False rows, are held as format-incompatible.
+
+## annotations
+### definition_of · CON-FND-D3D567B1858979
+Quote: Chronic UV exposure is the most important risk factor for skin cancer, especially in fair-skinned individuals with less natural photoprotection
+Block: body
+
+### definition_of · CON-FND-81533C95FE69F4
+Quote: Corticosteroids are not classed among the chemical carcinogens, unlike azo compounds, polycyclic aromatic hydrocarbons and asbestos
+Block: body
+
+### definition_of · CON-FND-0C1014ADF53736
+Quote: Chronic H. pylori infection is implicated in gastric lymphoma (and gastric adenocarcinoma) through sustained antigenic stimulation
+Block: body
+
+### definition_of · CON-FND-8B1A909A2138C4
+Quote: HPV, particularly high-risk strains, is strongly associated with cervical cancer via oncoprotein inactivation of tumour suppressor gene products
+Block: body
+
+### definition_of · CON-FND-E7A5F2A0F170F0
+Quote: breast cancer, by contrast, is not classed as virus-related
+Block: body
+
+### definition_of · CON-FND-D429C114778FFB
+Quote: Hepatitis C virus is taught as Egypt's most important carcinogenic virus given its historically high local prevalence and progression to hepatocellular carcinoma
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## title
+Antiviral, antihelminthic, antiprotozoal 1: amebiasis treatment tiers, praziquantel's hydatid exception, and antimalarial blood-stage-versus-hypnozoite pharmacology
+
+## arabic_title
+مضادات الفيروسات والديدان والأوليات 1: مستويات علاج الأميبيا، استثناء داء المشوكات من البرازيكوانتيل، وأدوية الملاريا بين الطور الدموي والكبدي الكامن
+
+## aliases
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+Lecture 46
+
+## subject
+pharm
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Amebiasis treatment tiers, praziquantel spectrum, antimalarial pharmacology, antimalarial prophylaxis
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+12
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 46 opens the antiparasitic block with a graded approach to amebiasis treatment and a first pass at antimalarial pharmacology. Mild-to-moderate intestinal amebiasis needs metronidazole plus diloxanide furoate together; asymptomatic cyst carriage needs diloxanide furoate alone; severe extraintestinal disease needs tinidazole plus diloxanide furoate. Praziquantel, broadly effective against trematodes and cestodes, notably fails against hydatid disease. Chloroquine and mefloquine both clear blood-stage malaria but leave P. vivax's liver hypnozoites untouched, so relapse can still occur despite treatment or prophylaxis; Malarone (atovaquone-proguanil) manages multidrug-resistant P. falciparum.
+
+## sections
+### Definition
+Lecture 46 covers a graded, severity-matched approach to amebiasis pharmacotherapy, one named exception to praziquantel's broad antihelminthic spectrum, and the blood-stage-versus-liver-hypnozoite distinction that runs through antimalarial pharmacology.
+
+### Mechanism
+Mild-to-moderate symptomatic intestinal amebiasis is treated with metronidazole (a tissue amebicide) plus diloxanide furoate (a luminal agent, eradicating residual cysts); diloxanide furoate alone treats the asymptomatic cyst-carrier state after acute infection resolves; severe extraintestinal disease (such as amebic liver abscess) is treated with tinidazole plus diloxanide furoate, the same tissue-plus-luminal pairing principle adapted for tissue-invasive disease. Praziquantel is broadly effective against trematode and cestode infections (paragonimiasis, pork tapeworm, schistosomiasis) but does not reliably treat hydatid disease (Echinococcus granulosus cysts), which needs albendazole instead. Chloroquine treats the acute blood-stage attack of P. vivax malaria but does not eradicate exoerythrocytic (liver hypnozoite) forms, requiring a follow-on course of primaquine to prevent relapse; mefloquine, effective prophylaxis in chloroquine-resistant P. falciparum regions, shares this same blood-stage-only limitation, so P. vivax can still relapse despite mefloquine prophylaxis. Malarone (atovaquone-proguanil) manages multidrug-resistant P. falciparum through a combined mitochondrial/antifolate mechanism.
+
+### Key determinants
+Amebiasis treatment tier tracks disease severity and location: mild-moderate intestinal needs a combination, asymptomatic carriage needs the luminal agent alone, and severe extraintestinal needs the tissue agent plus the luminal agent. Praziquantel's hydatid-disease exception is a standard, specifically testable fact against its otherwise broad spectrum. Chloroquine and mefloquine's shared blood-stage-only limitation, not any difference in potency, is why P. vivax relapse can occur despite either drug.
+
+### Clinical significance
+Matching amebiasis treatment tier to disease severity avoids under-treating tissue infection or leaving a luminal cyst reservoir behind. Recognising hydatid disease as a praziquantel-resistant condition directs clinicians to albendazole (and surgical/percutaneous options) instead. Anticipating P. vivax relapse despite chloroquine treatment or mefloquine prophylaxis (unless followed by primaquine) is essential for travellers and patients returning from endemic regions. Malarone is a key option for multidrug-resistant P. falciparum.
+
+### Common misconceptions
+Treating symptomatic intestinal amebiasis with a single agent instead of the tissue-plus-luminal combination. Assuming praziquantel's broad spectrum covers hydatid disease. Assuming chloroquine or mefloquine alone fully cures or prevents P. vivax malaria without addressing liver hypnozoites. Confusing Malarone's role (multidrug-resistant P. falciparum) with chloroquine, doxycycline or primaquine's roles.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Mild-to-moderate intestinal amebiasis: metronidazole plus diloxanide furoate. Asymptomatic carriage: diloxanide furoate alone. Severe extraintestinal disease: tinidazole plus diloxanide furoate.
+Hydatid disease does not respond to praziquantel; albendazole is used instead.
+Chloroquine and mefloquine clear blood-stage malaria but not P. vivax liver hypnozoites -- relapse needs primaquine to prevent.
+Malarone (atovaquone-proguanil) manages multidrug-resistant P. falciparum.
+
+## lose_the_mark
+Using a single-agent regimen for symptomatic intestinal or severe extraintestinal amebiasis.
+Assuming praziquantel treats hydatid disease.
+Assuming chloroquine or mefloquine alone prevents P. vivax relapse.
+Naming a drug other than Malarone for multidrug-resistant P. falciparum.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-7167065941596E
+CON-FND-9B0280F43F7BC7
+CON-FND-90BF44437DE710
+CON-FND-795A6173AED93F
+CON-FND-41B4A47B42B7E2
+CON-FND-757C35AF7B7008
+CON-FND-B745FB1C1BCD83
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 46 (Commonly used Antiviral, antihelmentics, antiprotozoal 1) -- no department slide deck exists in the corpus past Lecture 8, so all seven new mints cite the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-7167065941596E
+Quote: Mild-to-moderate symptomatic intestinal amebiasis is treated with metronidazole (a tissue amebicide) plus diloxanide furoate (a luminal agent, eradicating residual cysts)
+Block: body
+
+### definition_of · CON-FND-9B0280F43F7BC7
+Quote: Praziquantel is broadly effective against trematode and cestode infections (paragonimiasis, pork tapeworm, schistosomiasis) but does not reliably treat hydatid disease (Echinococcus granulosus cysts), which needs albendazole instead
+Block: body
+
+### definition_of · CON-FND-90BF44437DE710
+Quote: diloxanide furoate alone treats the asymptomatic cyst-carrier state after acute infection resolves
+Block: body
+
+### definition_of · CON-FND-795A6173AED93F
+Quote: Chloroquine treats the acute blood-stage attack of P. vivax malaria but does not eradicate exoerythrocytic (liver hypnozoite) forms, requiring a follow-on course of primaquine to prevent relapse
+Block: body
+
+### definition_of · CON-FND-41B4A47B42B7E2
+Quote: severe extraintestinal disease (such as amebic liver abscess) is treated with tinidazole plus diloxanide furoate, the same tissue-plus-luminal pairing principle adapted for tissue-invasive disease
+Block: body
+
+### definition_of · CON-FND-757C35AF7B7008
+Quote: Malarone (atovaquone-proguanil) manages multidrug-resistant P. falciparum through a combined mitochondrial/antifolate mechanism
+Block: body
+
+### definition_of · CON-FND-B745FB1C1BCD83
+Quote: mefloquine, effective prophylaxis in chloroquine-resistant P. falciparum regions, shares this same blood-stage-only limitation, so P. vivax can still relapse despite mefloquine prophylaxis
+Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-BENIGN-EPITHELIAL-TUMORS
+
+## title
+Benign epithelial tumors: papilloma versus adenoma classification
+
+## arabic_title
+الأورام الظهارية الحميدة: التمييز بين الورم الحليمي والورم الغدي
+
+## aliases
+Benign epithelial tumors classification and examples
+Lecture 47
+
+## subject
+fnd
+
+## topic
+Benign epithelial tumors classification and examples
+
+## subtopic
+Papilloma classification, adenoma classification
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 47 draws the basic classification line between the two named benign epithelial tumours: papilloma, arising from non-glandular surfaces and characteristically forming multiple finger-like (papillary) projections, and adenoma, arising from glandular epithelium and forming gland-like structures. This quiz repeats each classification question twice with reshuffled options, plus a third papilloma question testing its distinctive gross morphology, and several True/False and one unrecoverable blank-stem row that are held rather than authored.
+
+## sections
+### Definition
+Lecture 47 covers the basic two-way classification of benign epithelial tumours by their tissue of origin: non-glandular surface epithelium (papilloma) versus glandular epithelium (adenoma).
+
+### Mechanism
+Papilloma is the benign epithelial cell neoplasm derived from non-glandular surfaces, such as skin or mucosal squamous epithelium, characteristically growing as multiple finger-like (papillary) projections outward from the epithelial surface. Adenoma is the benign tumour of glandular epithelial origin, forming gland-like or duct-like structures resembling the tissue it arises from.
+
+### Key determinants
+Tissue of origin (non-glandular surface versus glandular) is the determining feature that separates papilloma from adenoma. Gross morphology (finger-like papillary projections) is papilloma's distinctive additional identifying feature. Neither term applies to a malignant tumour (carcinoma, sarcoma, lymphoma), a mesenchymal tumour (fibroma), a developmental malformation (hamartoma) or a specific metastatic entity (Krukenberg tumour).
+
+### Clinical significance
+Correctly naming a benign epithelial tumour by its tissue of origin (papilloma versus adenoma) is foundational vocabulary for describing benign neoplasms accurately in pathology reporting and clinical communication.
+
+### Common misconceptions
+Confusing papilloma (non-glandular origin) with adenoma (glandular origin), or misclassifying either as a malignant tumour, a mesenchymal tumour, a malformation or a specific metastatic entity such as a Krukenberg tumour.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Papilloma is the benign epithelial tumour of non-glandular surfaces, characteristically forming finger-like (papillary) projections.
+Adenoma is the benign tumour of glandular epithelial origin.
+
+## lose_the_mark
+Swapping papilloma and adenoma's tissue-of-origin association, or naming a malignant, mesenchymal or malformation term instead of either.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-323905D76583CF
+CON-FND-F9DB9176CB94DF
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 47 (Benign epithelial tumors classification and examples) -- no department slide deck exists in the corpus past Lecture 8, so both new mints cite the quiz bank's own printed-answer text instead. Q1/Q2 (q390/q391) and Q3/Q4 (q392/q393) are each literal duplicate questions (same stem, reshuffled options), collapsed onto one concept apiece but each authored as its own full question record. Q6-Q9 (q395-q398), this quiz's True/False rows and one unrecoverable blank-stem row, are held.
+
+## annotations
+### definition_of · CON-FND-323905D76583CF
+Quote: Papilloma is the benign epithelial cell neoplasm derived from non-glandular surfaces, such as skin or mucosal squamous epithelium, characteristically growing as multiple finger-like (papillary) projections outward from the epithelial surface
+Block: body
+
+### definition_of · CON-FND-F9DB9176CB94DF
+Quote: Adenoma is the benign tumour of glandular epithelial origin, forming gland-like or duct-like structures resembling the tissue it arises from
 Block: body

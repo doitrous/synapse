@@ -1,0 +1,1216 @@
+{
+  "lane": "MU-MED101",
+  "cluster": "f1supp43-embryo",
+  "header": "MU-MED101 (Foundation 1) lane-2 authored batch. Source: 'EOM Practice - Foundation 1 - Support 43 - With Answers.pdf' (mu_34ff78aabb8bfd729922), Embryology sub-block (p3-11, Q1-36: fertilization/implantation, placenta and fetal membranes, gametogenesis and the menstrual cycle, germ-layer derivatives, amnion and yolk sac). 35 authored, 1 held (q29, only 3 printed options). Key resolution: pagetext.mjs keys reported only 2/36 for this sub-block, matching the S3 triage finding that this sub-block colours BOTH the question stem and the correct option red, which the tool reads correctly wherever the source's own 'a-text' punctuation happens to include a space -- the near-universal '0/36' the triage doc describes is compounded by the same no-space-after-punctuation regex gap identified in the sibling biochemphys sub-block ('1-At which time', 'a-6th day', no space after the number/letter delimiter). Resolved for all 36 items by reading the PDF's own per-span colour data directly with a one-off diagnostic script using the same colour-distance-from-black threshold pagetext.mjs's own keys command uses, cross-checked against the triage doc's independently-confirmed sample (q01-q04: b/a/d/a) and against every item pagetext.mjs keys did auto-read (q22=C, q35=B), all of which agree exactly. Zero page renders spent this round. Search-before-mint: find-existing.mjs plus root-word greps across Kasr/Alexandria/Ain-Shams/Assiut/FOMSCU/Mansoura pending concept files found two exact-fact reuses in addition to the two lane-1 already overlaid for this module (see pending-live/MU-MED101-concepts-overlay.md): the existing CON-FND-5097CA5BAB2E51 ('named syndromes follow from a specific extra chromosome, missing sex chromosome or deleted arm') covers this sub-block's q02 (Turner monosomy X) and q26 (Down syndrome trisomy) directly, and CON-OBS-54773B9FA007C0 (Ain Shams, 'the placenta is formed of a fetal part (chorion frondosum) and a maternal part (decidua basalis)') covers q04, q07 and q31. 28 new concepts minted for the remaining 30 authored items (q01+q17 share one concept, both testing that the morula is the first stage to reach the uterine cavity around day 4; q14+q33 share one concept, both testing that cytotrophoblast gives rise to the amniotic membrane). Apply after concept/MU-MED101-concepts-2.md, article/MU-MED101-articles.md, evidence/MU-MED101-{resources,claims,citations}.md, pending-live/MU-MED101-concepts-overlay.md and docs/Ain-Shams-Source-Imports/concept/ASU-AE-embryo2-q11-69-new-concepts.md are live.",
+  "defaults": {
+    "subject": "dev",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED101",
+    "exam_weight_by_year": { "MU_Y1": "moderate" },
+    "question_only_for": "",
+    "resource_ids": ["src_34ff78aabb8bfd729922"],
+    "source_citation": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Support 43 Embryology sub-block p{page} (Menoufia MED101 Foundation 1 EOM exam)",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Moderate",
+    "reasoning_level": 2,
+    "exam_relevance": 5,
+    "module_subject": "MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 - With Answers > Embryology"
+  },
+  "questions": [
+    {
+      "key": "f1supp43-embryo-q01",
+      "id": "QST-MUMED101-EMBRYO-Q01",
+      "page": 3,
+      "title": "Timing of morula entry into the uterine cavity",
+      "question": "At which time after fertilization the morula enters the uterine cavity?",
+      "options": {
+        "A": "6th day",
+        "B": "4th day",
+        "C": "7th day",
+        "D": "1st day",
+        "E": "2weeks"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The 6th day is closer to the timing of implantation (blastocyst attachment to the endometrium), which happens after the morula has already entered the uterine cavity and transformed into a blastocyst.",
+        "B": "Correct. After fertilization in the ampulla of the uterine tube, the zygote undergoes cleavage while being transported along the tube, reaching the 16-cell morula stage by about day 3-4. The morula is the first embryonic stage to reach the uterine cavity, entering it around day 4 after fertilization, where it continues to develop, forming a fluid-filled cavity and becoming a blastocyst by about day 5.",
+        "C": "Incorrect. Day 7 is closer to when implantation is well underway, after the blastocyst has already been free in the uterine cavity for a couple of days.",
+        "D": "Incorrect. Day 1 is far too early; the zygote is still undergoing its first cleavage division in the uterine tube at that point, nowhere near the uterine cavity.",
+        "E": "Incorrect. Two weeks is well beyond the timing of the morula's arrival in the uterine cavity; by two weeks the embryo is already implanted and forming the bilaminar germ disc."
+      },
+      "topic": "Embryology",
+      "subtopic": "Fertilization and Implantation",
+      "main_concept": "CON-DEV-FD37F8117B3AE6",
+      "concept_ids": ["CON-DEV-FD37F8117B3AE6"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Timing of morula entry into the uterine cavity",
+      "library_ids": ["ART-MU101-FERTIMPLANT-8D855BD3"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p3; pagetext.mjs keys reports 0 marked for this sub-block because the source's 'a-text' option punctuation carries no space, breaking its option regex -- resolved by reading the PDF's own per-span colour data directly (matches the triage doc's independently-confirmed sample for this exact item, key=b).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p3"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q02",
+      "id": "QST-MUMED101-EMBRYO-Q02",
+      "page": 3,
+      "title": "Chromosomal formula of Turner syndrome",
+      "question": "In Turner syndrome the chromosomal formula is :",
+      "options": {
+        "A": "44+X",
+        "B": "46+X",
+        "C": "45+X",
+        "D": "46+XX",
+        "E": "46+XXY"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Turner syndrome is monosomy X: a total of 45 chromosomes, with only a single sex chromosome (X) and no Y. Using this paper's own autosome-plus-sex-chromosome notation (44 autosomes + 1 X = 45 chromosomes total), '44+X' is the correct way of writing the same 45,X karyotype that is more commonly notated simply as '45,X' -- it looks unusual at first glance only because of the notation convention, not because it names a different karyotype.",
+        "B": "Incorrect. '46+X' would total 47 chromosomes under this notation (44 autosomes + 2 sex chromosomes would be needed to reach 46, so '46+X' is an inconsistent/incorrect combination) and does not describe Turner syndrome's monosomy X.",
+        "C": "Incorrect. '45+X' would total 46 chromosomes under this same notation convention (44 autosomes are implied as the baseline, so an extra '45' here does not consistently represent the true 45-chromosome, single-X karyotype the way '44+X' does).",
+        "D": "Incorrect. '46+XX' describes the normal 46,XX female karyotype, not Turner syndrome, which has only one X chromosome, not two.",
+        "E": "Incorrect. '46+XXY' describes Klinefelter syndrome (47,XXY), a different sex-chromosome disorder in males with an extra X, not Turner syndrome."
+      },
+      "topic": "Embryology",
+      "subtopic": "Gametogenesis and the Menstrual Cycle",
+      "main_concept": "CON-FND-5097CA5BAB2E51",
+      "concept_ids": ["CON-FND-5097CA5BAB2E51"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Chromosomal formula of Turner syndrome",
+      "library_ids": ["ART-MU101-GAMETOMC-426DA802"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p3; pagetext.mjs keys reports 0 marked (same no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly, matching this exact item in the S3 triage's own confirmed render (key=a, '44+X', read via the paper's own autosome+sex-chromosome notation).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p3",
+        "reuse": "CON-FND-5097CA5BAB2E51 (Kasr docs/Kasr-Source-Imports/pending concept, already overlaid for this module by lane 1 in pending-live/MU-MED101-concepts-overlay.md for histo-q02/q22) already teaches this exact fact ('named syndromes follow from a specific extra chromosome, missing sex chromosome or deleted arm'), which covers Turner monosomy-X directly; sparse overlay already applied, no new mint and no new overlay row needed. Taught here via this lane's own article ART-MU101-GAMETOMC-426DA802."
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-embryo-q03",
+      "id": "QST-MUMED101-EMBRYO-Q03",
+      "page": 3,
+      "title": "Mesoderm-derived structure among the options",
+      "question": "Which one of the following structures is derived from the mesoderm?",
+      "options": {
+        "A": "Intestinal mucosa",
+        "B": "Brain",
+        "C": "Thymus gland",
+        "D": "Striated muscle",
+        "E": "Epidermis of the skin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The intestinal mucosa (epithelial lining of the gut) is derived from endoderm, not mesoderm.",
+        "B": "Incorrect. The brain, along with the rest of the central nervous system, is derived from ectoderm (specifically the neural tube), not mesoderm.",
+        "C": "Incorrect. The thymus gland develops from the epithelium of the third pharyngeal pouch, which is endodermal in origin, not mesodermal.",
+        "D": "Correct. Striated (skeletal) muscle is a mesodermal derivative, arising chiefly from the myotome of the somites (paraxial mesoderm), whose cells differentiate into myoblasts and fuse to form multinucleated skeletal muscle fibres. This is the classic example used to distinguish mesoderm-derived tissues (muscle, bone, connective tissue, blood vessels, kidneys) from ectoderm-derived tissues (nervous system, epidermis) and endoderm-derived tissues (gut lining and its glandular derivatives).",
+        "E": "Incorrect. The epidermis of the skin is derived from surface ectoderm, not mesoderm; only the underlying dermis is mesodermal."
+      },
+      "topic": "Embryology",
+      "subtopic": "Germ Layers and Derivatives",
+      "main_concept": "CON-DEV-7F44BF85B67373",
+      "concept_ids": ["CON-DEV-7F44BF85B67373"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Mesoderm-derived structure among the options",
+      "library_ids": ["ART-MU101-GERMLAYERS-FCAB4BA8"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p3; pagetext.mjs keys reports 0 marked (no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly, matching the triage doc's independently-confirmed sample for this exact item (key=d).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p3"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-embryo-q04",
+      "id": "QST-MUMED101-EMBRYO-Q04",
+      "page": 3,
+      "title": "Structure forming the maternal part of the placenta",
+      "question": "Which one of the followings shares in the formation of the maternal part of the placenta?",
+      "options": {
+        "A": "Decidua basalis",
+        "B": "Decidua capsularis",
+        "C": "Decidua parietalis",
+        "D": "Chorion frondosum",
+        "E": "Chorion leave"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The definitive placenta is a composite structure with a fetal part and a maternal part. Its maternal part is the decidua basalis, the region of endometrium directly underlying the implantation site; its fetal part is the chorion frondosum, the region of chorion bearing well-developed, branching villi. The decidua capsularis (overlying the implanted conceptus) and decidua parietalis (the rest of the uterine lining) are the other two decidual regions, but neither of them contributes to the placenta itself.",
+        "B": "Incorrect. The decidua capsularis is the thin layer of endometrium that comes to overlie the implanted conceptus on the side facing the uterine cavity; it thins out and eventually fuses with the decidua parietalis, but it does not form part of the placenta.",
+        "C": "Incorrect. The decidua parietalis is the remainder of the endometrium lining the rest of the uterine cavity, away from the implantation site; it does not contribute to the placenta.",
+        "D": "Incorrect. The chorion frondosum is the fetal, not the maternal, part of the placenta.",
+        "E": "Incorrect. The chorion leave (chorion laeve) is the smooth, villus-poor part of the chorion away from the implantation site; it does not form part of the definitive placenta at all."
+      },
+      "topic": "Embryology",
+      "subtopic": "Placenta and Fetal Membranes",
+      "main_concept": "CON-OBS-54773B9FA007C0",
+      "concept_ids": ["CON-OBS-54773B9FA007C0"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structure forming the maternal part of the placenta",
+      "library_ids": ["ART-MU101-PLACENTA-6CA76541"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p3-4; pagetext.mjs keys reports 0 marked (no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly, matching the triage doc's independently-confirmed sample for this exact item (key=a).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p3-4",
+        "reuse": "CON-OBS-54773B9FA007C0 (Ain Shams docs/Ain-Shams-Source-Imports/concept/ASU-AE-embryo2-q11-69-new-concepts.md, 'the placenta is formed of a fetal part (chorion frondosum) and a maternal part (decidua basalis)') already teaches this exact fact; sparse overlay, no new mint. First use in this cluster (also q07, q31). Taught here via this lane's own article ART-MU101-PLACENTA-6CA76541."
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-embryo-q05",
+      "id": "QST-MUMED101-EMBRYO-Q05",
+      "page": 4,
+      "title": "Name for implantation in the lower uterine segment near the internal os",
+      "question": "Implantation of the blastocyst in the lower part of the uterus near the internal os is known as :",
+      "options": {
+        "A": "Tubal pregnancy",
+        "B": "Placenta previa",
+        "C": "ovarian pregnancy",
+        "D": "Abdominal pregnancy",
+        "E": "None of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A tubal pregnancy is implantation within the uterine tube itself, a form of ectopic pregnancy, not implantation low in the uterine cavity near the internal os.",
+        "B": "Correct. When the blastocyst implants abnormally low in the uterus, close to or over the internal cervical os, the resulting placenta develops in that low position and is called placenta previa. Because the placenta then lies in the path the fetus must pass through during delivery, placenta previa is an important cause of painless antepartum haemorrhage and typically requires caesarean delivery.",
+        "C": "Incorrect. An ovarian pregnancy is a rare form of ectopic pregnancy in which the blastocyst implants on the ovary itself, not in the lower uterine segment.",
+        "D": "Incorrect. An abdominal pregnancy is implantation on peritoneal or abdominal organ surfaces outside the uterus entirely, not within the lower part of the uterine cavity.",
+        "E": "Incorrect. Placenta previa correctly and specifically names this presentation, so 'none of the above' does not apply."
+      },
+      "topic": "Embryology",
+      "subtopic": "Fertilization and Implantation",
+      "main_concept": "CON-DEV-8EF02511F3FBC0",
+      "concept_ids": ["CON-DEV-8EF02511F3FBC0"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name for implantation in the lower uterine segment near the internal os",
+      "library_ids": ["ART-MU101-FERTIMPLANT-8D855BD3"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p4; pagetext.mjs keys reports 0 marked (no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p4"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q06",
+      "id": "QST-MUMED101-EMBRYO-Q06",
+      "page": 4,
+      "title": "Structure at the cranial end of the primitive streak",
+      "question": "At the cranial end of the primitive streak, lies the primitive :",
+      "options": {
+        "A": "Spot",
+        "B": "Node",
+        "C": "Notochord",
+        "D": "Plate",
+        "E": "Groove"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. There is no structure named 'primitive spot' at the cranial end of the streak in standard embryology terminology.",
+        "B": "Correct. The primitive streak has a rounded thickening at its cranial end called the primitive node (Hensen's node), which surrounds a central depression, the primitive pit. The primitive node is a key signalling and organiser centre: cells ingressing through it give rise to the notochordal process (and eventually the notochord), and it directs the induction of the neural plate in the overlying ectoderm.",
+        "C": "Incorrect. The notochord is derived from cells that migrate through the primitive node, but the notochord itself is a later, rod-like midline structure, not the name of the cranial end of the streak.",
+        "D": "Incorrect. The 'plate' terminology applies to structures such as the neural plate or prechordal plate, not to the cranial end of the primitive streak itself.",
+        "E": "Incorrect. The primitive groove is the shallow midline depression running along the length of the primitive streak itself, not a structure specifically located at its cranial end."
+      },
+      "topic": "Embryology",
+      "subtopic": "Germ Layers and Derivatives",
+      "main_concept": "CON-DEV-EA33F77B49818A",
+      "concept_ids": ["CON-DEV-EA33F77B49818A"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structure at the cranial end of the primitive streak",
+      "library_ids": ["ART-MU101-GERMLAYERS-FCAB4BA8"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p4; pagetext.mjs keys reports 0 marked (no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p4"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-embryo-q07",
+      "id": "QST-MUMED101-EMBRYO-Q07",
+      "page": 4,
+      "title": "Structure forming the fetal part of the placenta",
+      "question": "The fetal part of the placenta is derived from :",
+      "options": {
+        "A": "Chorion leave",
+        "B": "Chorion frondosum",
+        "C": "Decidua capsularis",
+        "D": "Decidua basalis",
+        "E": "Decidua parietalis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The chorion leave (chorion laeve) is the smooth, villus-poor part of the chorion away from the implantation site; it regresses and does not form the definitive placenta.",
+        "B": "Correct. The fetal part of the placenta is the chorion frondosum, the region of chorion overlying the implantation site whose villi remain well developed and branching (unlike the regressing villi of the chorion leave elsewhere). Together with its maternal counterpart, the decidua basalis, the chorion frondosum makes up the definitive placenta.",
+        "C": "Incorrect. The decidua capsularis is maternal (endometrial) tissue, not fetal, and does not form part of the placenta at all.",
+        "D": "Incorrect. The decidua basalis is the maternal part of the placenta, not the fetal part.",
+        "E": "Incorrect. The decidua parietalis is maternal endometrium away from the implantation site and does not contribute to the placenta."
+      },
+      "topic": "Embryology",
+      "subtopic": "Placenta and Fetal Membranes",
+      "main_concept": "CON-OBS-54773B9FA007C0",
+      "concept_ids": ["CON-OBS-54773B9FA007C0"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structure forming the fetal part of the placenta",
+      "library_ids": ["ART-MU101-PLACENTA-6CA76541"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p4; pagetext.mjs keys reports 0 marked (no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p4",
+        "reuse": "CON-OBS-54773B9FA007C0 -- second use in this cluster (also q04, q31)."
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q08",
+      "id": "QST-MUMED101-EMBRYO-Q08",
+      "page": 4,
+      "title": "Mother cell of the sperm",
+      "question": "Mother cell of sperm is :",
+      "options": {
+        "A": "1ry spermatocyte",
+        "B": "Spermatid",
+        "C": "Spermatogonia",
+        "D": "2ry spermatocyte"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The primary spermatocyte is a later stage, arising from the spermatogonium's differentiation and mitotic proliferation, not the original 'mother' cell of the lineage.",
+        "B": "Incorrect. The spermatid is a near-final stage, produced after both meiotic divisions, that still must undergo spermiogenesis (a morphological remodelling, not a further division) to become a mature sperm; it is not the mother cell.",
+        "C": "Correct. Spermatogonia are the diploid stem cells lying against the basement membrane of the seminiferous tubule, present from before puberty, that give rise to the entire spermatogenic lineage. A spermatogonium undergoes mitosis to renew the stem-cell pool and to produce primary spermatocytes, which then undergo meiosis I and II via secondary spermatocytes to spermatids, and finally spermiogenesis to mature spermatozoa -- spermatogonia are therefore correctly termed the mother cell of sperm.",
+        "D": "Incorrect. The secondary spermatocyte is produced by meiosis I of the primary spermatocyte, two divisions downstream of the spermatogonium, not the original mother cell."
+      },
+      "topic": "Embryology",
+      "subtopic": "Gametogenesis and the Menstrual Cycle",
+      "main_concept": "CON-DEV-6A10B8CC932A0C",
+      "concept_ids": ["CON-DEV-6A10B8CC932A0C"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Mother cell of the sperm",
+      "library_ids": ["ART-MU101-GAMETOMC-426DA802"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p4; pagetext.mjs keys reports 0 marked (no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly. Only 4 options (a-d) are printed in the source for this item, meeting the 4-option floor.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p4"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-embryo-q09",
+      "id": "QST-MUMED101-EMBRYO-Q09",
+      "page": 5,
+      "title": "Timing of the start of oogenesis",
+      "question": "At which time the process of oogenesis starts to occur :",
+      "options": {
+        "A": "During intrauterine life",
+        "B": "At the age of 2 years",
+        "C": "At puberty",
+        "D": "None of the above",
+        "E": "Al the age of 30 years"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Oogenesis begins during intrauterine life: primordial germ cells colonise the developing ovary and proliferate by mitosis into oogonia, which enter meiosis I and arrest at prophase (as primary oocytes) before birth. This is a key contrast with spermatogenesis, which does not begin until puberty; a female is born with her full, non-renewing complement of primary oocytes already arrested in meiotic prophase.",
+        "B": "Incorrect. By the age of 2 years oogenesis has already begun (before birth); nothing new about its onset happens at this specific postnatal age.",
+        "C": "Incorrect. Puberty is when oogenesis resumes its interrupted meiotic progression cyclically (one oocyte per cycle completing meiosis I) and when ovulation begins, not when the process first starts.",
+        "D": "Incorrect. Option A ('during intrauterine life') is correct, so 'none of the above' does not apply.",
+        "E": "Incorrect. Age 30 has no specific significance to the onset of oogenesis, which began decades earlier, before the woman was even born."
+      },
+      "topic": "Embryology",
+      "subtopic": "Gametogenesis and the Menstrual Cycle",
+      "main_concept": "CON-DEV-036376331E51AF",
+      "concept_ids": ["CON-DEV-036376331E51AF"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Timing of the start of oogenesis",
+      "library_ids": ["ART-MU101-GAMETOMC-426DA802"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p5; pagetext.mjs keys reports 0 marked (no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p5"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q10",
+      "id": "QST-MUMED101-EMBRYO-Q10",
+      "page": 5,
+      "title": "The one non-ectodermal structure among ectoderm derivatives",
+      "question": "The following structures are ectodermal in origin except :",
+      "options": {
+        "A": "Hair",
+        "B": "CNS",
+        "C": "Nail",
+        "D": "Dermis",
+        "E": "Epidermis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this one is ectodermal, not the exception). Hair follicles develop from surface ectoderm.",
+        "B": "Incorrect (this one is ectodermal, not the exception). The central nervous system develops from the neuroectoderm (neural tube), a derivative of surface ectoderm.",
+        "C": "Incorrect (this one is ectodermal, not the exception). Nails, like hair, are keratinised derivatives of surface ectoderm.",
+        "D": "Correct. The dermis, the deeper connective-tissue layer of the skin, is derived from mesoderm (from the dermatome of the somites over most of the body, and from neural crest in the face), not from ectoderm. This makes it the exception among the listed structures: hair, nails, the CNS and the epidermis are all ectodermal, while only the dermis that lies beneath the epidermis is mesodermal.",
+        "E": "Incorrect (this one is ectodermal, not the exception). The epidermis, the superficial layer of the skin, is a direct derivative of surface ectoderm."
+      },
+      "topic": "Embryology",
+      "subtopic": "Germ Layers and Derivatives",
+      "main_concept": "CON-DEV-D1281FB0B48B26",
+      "concept_ids": ["CON-DEV-D1281FB0B48B26"],
+      "contextual_concept_ids": [],
+      "learning_objective": "The one non-ectodermal structure among ectoderm derivatives",
+      "library_ids": ["ART-MU101-GERMLAYERS-FCAB4BA8"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p5; pagetext.mjs keys reports 0 marked (no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p5"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q11",
+      "id": "QST-MUMED101-EMBRYO-Q11",
+      "page": 5,
+      "title": "The one structure that is not a layer of the chorion",
+      "question": "All of the following are layers of the chorion except :",
+      "options": {
+        "A": "Syncytiotrophoblast",
+        "B": "Cytotrophoblast",
+        "C": "Extraembryonic somatic mesoderm",
+        "D": "Intraembryonic splanchnic mesoderm",
+        "E": "None of above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this one is a chorion layer, not the exception). The syncytiotrophoblast is the outer, invasive, multinucleated layer of the chorion.",
+        "B": "Incorrect (this one is a chorion layer, not the exception). The cytotrophoblast is the inner, mononuclear, proliferative trophoblast layer of the chorion, lying just beneath the syncytiotrophoblast.",
+        "C": "Incorrect (this one is a chorion layer, not the exception). Extraembryonic somatic (parietal) mesoderm lines the inner surface of the cytotrophoblast, completing the chorionic wall.",
+        "D": "Correct. The chorion is composed of the syncytiotrophoblast, cytotrophoblast and the extraembryonic somatic (parietal) mesoderm that lines them -- three layers in total. Intraembryonic splanchnic mesoderm is a different tissue entirely, found within the embryo proper (contributing, for example, to the wall of the gut tube), not as a layer of the extraembryonic chorion, which is exactly why it is the correct exception here.",
+        "E": "Incorrect. Option D correctly names the true exception, so 'none of the above' does not apply."
+      },
+      "topic": "Embryology",
+      "subtopic": "Placenta and Fetal Membranes",
+      "main_concept": "CON-DEV-7B6FEDA3793E2F",
+      "concept_ids": ["CON-DEV-7B6FEDA3793E2F"],
+      "contextual_concept_ids": [],
+      "learning_objective": "The one structure that is not a layer of the chorion",
+      "library_ids": ["ART-MU101-PLACENTA-6CA76541"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p5; pagetext.mjs keys reports 0 marked (no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p5"
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-embryo-q12",
+      "id": "QST-MUMED101-EMBRYO-Q12",
+      "page": 5,
+      "title": "Duration of hormone secretion by the corpus luteum of pregnancy",
+      "question": "Corpus luteum of pregnancy keeps secreting hormones for :",
+      "options": {
+        "A": "Four months",
+        "B": "Three months",
+        "C": "Two months",
+        "D": "15 days"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Four months overstates how long the corpus luteum of pregnancy remains the dominant hormone source before the placenta takes over.",
+        "B": "Correct. If pregnancy occurs, human chorionic gonadotropin (hCG) from the syncytiotrophoblast rescues the corpus luteum from degeneration, converting it into the corpus luteum of pregnancy, which continues secreting progesterone (and some oestrogen) to maintain the endometrium. It remains the principal source of these hormones for about the first three months (the first trimester), after which the placenta itself becomes able to produce sufficient progesterone and the corpus luteum's function becomes non-essential and it regresses.",
+        "C": "Incorrect. Two months understates the roughly three-month (first-trimester) window during which the corpus luteum of pregnancy remains functionally important.",
+        "D": "Incorrect. Fifteen days is far too short; this is closer to the normal luteal-phase lifespan of the corpus luteum of menstruation (which regresses within about 14 days if pregnancy does not occur), not the corpus luteum of pregnancy, which is specifically rescued and prolonged."
+      },
+      "topic": "Embryology",
+      "subtopic": "Gametogenesis and the Menstrual Cycle",
+      "main_concept": "CON-DEV-F85B7F76DBDC79",
+      "concept_ids": ["CON-DEV-F85B7F76DBDC79"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Duration of hormone secretion by the corpus luteum of pregnancy",
+      "library_ids": ["ART-MU101-GAMETOMC-426DA802"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p5; pagetext.mjs keys reports 0 marked (no-space-punctuation tool gap) -- resolved by reading the PDF's own per-span colour data directly. Only 4 options (a-d) are printed in the source for this item, meeting the 4-option floor.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p5"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q13",
+      "id": "QST-MUMED101-EMBRYO-Q13",
+      "page": 6,
+      "title": "Normal anatomical site of fertilization",
+      "question": "Which one of the followings is the normal site of fertilization?",
+      "options": {
+        "A": "Cervical canal",
+        "B": "Upper part of posterior wall of uterus",
+        "C": "Ampulla of uterine tube",
+        "D": "Fimbriated end of uterine tube",
+        "E": "Anterior wall of uterus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The cervical canal is where sperm pass on their way toward the uterus; it is not where the oocyte and sperm normally meet.",
+        "B": "Incorrect. The posterior uterine wall is a site for later implantation of the blastocyst, not for fertilization, which precedes the embryo's arrival in the uterine cavity.",
+        "C": "Correct. Fertilization normally occurs in the ampulla of the uterine (fallopian) tube, the widest and longest segment of the tube, where the ovulated secondary oocyte, swept in by the fimbriae, meets ascending sperm. This is also why the ampulla is the single most common site for a tubal (ectopic) pregnancy, since the zygote is briefly retained here before being transported toward the uterus.",
+        "D": "Incorrect. The fimbriated end (infundibulum) is specialised for capturing the ovulated oocyte from the ovarian surface and sweeping it into the tube; fertilization itself occurs further along, in the ampulla.",
+        "E": "Incorrect. The anterior uterine wall, like the posterior wall, is a potential implantation site for the blastocyst, not the site of fertilization."
+      },
+      "topic": "Embryology",
+      "subtopic": "Fertilization and Implantation",
+      "main_concept": "CON-DEV-D66BAFF03A3C53",
+      "concept_ids": ["CON-DEV-D66BAFF03A3C53"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Normal anatomical site of fertilization",
+      "library_ids": ["ART-MU101-FERTIMPLANT-8D855BD3"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p6 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p6"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q14",
+      "id": "QST-MUMED101-EMBRYO-Q14",
+      "page": 6,
+      "title": "Structure formed from cytotrophoblast",
+      "question": "Which one of the followings is formed from cytotrophoblast?",
+      "options": {
+        "A": "Amniotic fluid",
+        "B": "Amniotic membrane",
+        "C": "Amniotic floor",
+        "D": "Amniotic cavity",
+        "E": "Yolk sac"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Amniotic fluid is a secreted/exchanged fluid, not a structure formed from cytotrophoblast.",
+        "B": "Correct. The amniotic membrane (amnion) is lined by amnioblasts that this exam's own convention traces back to the cytotrophoblast lineage; the amnion then expands during folding to surround the embryo and enclose the amniotic cavity. This is the same relationship tested from the opposite direction elsewhere in this cluster ('which of the following gives rise to the amniotic membrane? cytotrophoblast'), and both questions are read against the same underlying fact.",
+        "C": "Incorrect. 'Amniotic floor' is not a standard named embryological structure formed from cytotrophoblast.",
+        "D": "Incorrect. The amniotic cavity is the fluid-filled space enclosed by the amniotic membrane, not itself a structure formed directly from cytotrophoblast.",
+        "E": "Incorrect. The yolk sac forms from hypoblast-derived (primary, then definitive) endoderm, not from cytotrophoblast."
+      },
+      "topic": "Embryology",
+      "subtopic": "Amnion and Yolk Sac",
+      "main_concept": "CON-DEV-D36C2A370DF65D",
+      "concept_ids": ["CON-DEV-D36C2A370DF65D"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structure formed from cytotrophoblast",
+      "library_ids": ["ART-MU101-AMNIONYOLK-2197F9C7"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p6 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p6",
+        "sharedConcept": "Shares CON-DEV-D36C2A370DF65D with q33 -- both test the single distinction that cytotrophoblast gives rise to the amniotic membrane, asked from opposite directions."
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q15",
+      "id": "QST-MUMED101-EMBRYO-Q15",
+      "page": 6,
+      "title": "Main component of amniotic fluid",
+      "question": "Which one of the followings is the main component of the amniotic fluid?",
+      "options": {
+        "A": "Water",
+        "B": "Creatinine",
+        "C": "Phosphate",
+        "D": "Urea",
+        "E": "carotene"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Amniotic fluid is overwhelmingly water (roughly 98-99% by composition), with a small remainder of dissolved electrolytes, proteins, urea, creatinine and, later in pregnancy, fetal cells and vernix. Its volume and composition change across pregnancy (initially a transudate of maternal plasma/fetal skin, later dominated by fetal urine and lung fluid), but water remains its overwhelming majority component throughout.",
+        "B": "Incorrect. Creatinine is present in amniotic fluid (and its rising concentration is used clinically as a marker of fetal renal maturity), but only as a minor solute, not the main component.",
+        "C": "Incorrect. Phosphate is only a minor dissolved electrolyte in amniotic fluid, not its main component.",
+        "D": "Incorrect. Urea is present as a minor solute (derived from fetal urine later in pregnancy), not the main component.",
+        "E": "Incorrect. Carotene is not a recognised major or even routinely notable component of amniotic fluid."
+      },
+      "topic": "Embryology",
+      "subtopic": "Amnion and Yolk Sac",
+      "main_concept": "CON-DEV-5DDEC72B57CE54",
+      "concept_ids": ["CON-DEV-5DDEC72B57CE54"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Main component of amniotic fluid",
+      "library_ids": ["ART-MU101-AMNIONYOLK-2197F9C7"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p6 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p6. Source anomaly: a stray sixth line 'e-Prechordal plate' follows option E in the raw text, unrelated to amniotic fluid and carrying no red mark; read as extraneous noise and excluded, keeping the five lettered options a-e (water/creatinine/phosphate/urea/carotene) that the stem's own question calls for."
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-embryo-q16",
+      "id": "QST-MUMED101-EMBRYO-Q16",
+      "page": 6,
+      "title": "Name for marginal umbilical cord insertion at the placental edge",
+      "question": "Which one of the following refers to the attachment of the umbilical cord to the peripheral part of the placenta?",
+      "options": {
+        "A": "Zonary placenta",
+        "B": "Battledore placenta",
+        "C": "Placenta accreta",
+        "D": "Lobed placenta",
+        "E": "Velamentous insertion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A zonary placenta is a band-shaped placental configuration seen in some non-human mammals, not a term for cord-insertion site in humans.",
+        "B": "Correct. When the umbilical cord inserts at the periphery (margin) of the placental disc rather than centrally, this is called a battledore placenta (marginal cord insertion), named for its resemblance to the paddle-shaped battledore bat used in an old racquet sport. It is usually of little clinical consequence on its own, unlike velamentous insertion, in which the cord vessels run unprotected through the membranes before reaching the placental edge.",
+        "C": "Incorrect. Placenta accreta describes abnormal placental adherence to (or invasion into) the myometrium due to a defective decidua, not the site of umbilical cord attachment.",
+        "D": "Incorrect. A lobed (bilobed/succenturiate) placenta describes a placenta divided into two or more separate lobes connected by membranes and vessels, not the location of cord insertion.",
+        "E": "Incorrect. Velamentous insertion is when the cord inserts into the membranes away from the placental edge, with the vessels then running unprotected through the membranes to reach the placenta -- a more clinically significant variant than the simple peripheral (battledore) insertion being described here."
+      },
+      "topic": "Embryology",
+      "subtopic": "Placenta and Fetal Membranes",
+      "main_concept": "CON-DEV-25BF9A0373B675",
+      "concept_ids": ["CON-DEV-25BF9A0373B675"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Name for marginal umbilical cord insertion at the placental edge",
+      "library_ids": ["ART-MU101-PLACENTA-6CA76541"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p6-7 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p6-7"
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-embryo-q17",
+      "id": "QST-MUMED101-EMBRYO-Q17",
+      "page": 7,
+      "title": "First embryonic stage to reach the uterine lumen after fertilization",
+      "question": "Which one of the followings is the first stage to reach uterine lumen after fertilization?",
+      "options": {
+        "A": "Zygote",
+        "B": "Four cell stage",
+        "C": "Two cell stage",
+        "D": "Morula",
+        "E": "Blastocyst"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The zygote is the single-celled product of fertilization, formed and still cleaving within the uterine tube; it has not yet reached the uterine cavity.",
+        "B": "Incorrect. The four-cell stage is an early cleavage stage occurring within the uterine tube, before the embryo has travelled as far as the uterine lumen.",
+        "C": "Incorrect. The two-cell stage is the earliest cleavage stage, occurring within the uterine tube shortly after fertilization, well before the embryo reaches the uterus.",
+        "D": "Correct. Cleavage divisions occur while the embryo is transported along the uterine tube, and by the time it reaches the 16-cell morula stage, around day 3-4, it is the first embryonic stage to arrive in the uterine cavity/lumen. It continues developing there, forming a fluid-filled cavity to become a blastocyst only after it has already entered the uterus.",
+        "E": "Incorrect. The blastocyst stage is reached after the morula has already been in the uterine cavity for a day or so and develops a fluid-filled blastocystic cavity; it is not the first stage to arrive, the morula is."
+      },
+      "topic": "Embryology",
+      "subtopic": "Fertilization and Implantation",
+      "main_concept": "CON-DEV-FD37F8117B3AE6",
+      "concept_ids": ["CON-DEV-FD37F8117B3AE6"],
+      "contextual_concept_ids": [],
+      "learning_objective": "First embryonic stage to reach the uterine lumen after fertilization",
+      "library_ids": ["ART-MU101-FERTIMPLANT-8D855BD3"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p7 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p7",
+        "sharedConcept": "Shares CON-DEV-FD37F8117B3AE6 with q01 -- both test the single distinction that the morula is the first stage to reach the uterine cavity, around day 4."
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q18",
+      "id": "QST-MUMED101-EMBRYO-Q18",
+      "page": 7,
+      "title": "The one haploid cell among the options",
+      "question": "Which one of the following cells contains a haploid number of chromosomes?",
+      "options": {
+        "A": "Primary oocyte",
+        "B": "Primary spermatocyte",
+        "C": "Somatic skin cell",
+        "D": "Spermatid",
+        "E": "Zygote"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The primary oocyte is diploid (46 chromosomes), arrested in prophase of meiosis I before it has completed either meiotic division.",
+        "B": "Incorrect. The primary spermatocyte is diploid (46 chromosomes), having completed only DNA replication (S phase), not yet either meiotic division.",
+        "C": "Incorrect. A somatic skin cell, like all ordinary body cells, is diploid (46 chromosomes).",
+        "D": "Correct. The spermatid is produced after both meiotic divisions are complete (via the secondary spermatocyte), and is therefore haploid, carrying 23 chromosomes. It then undergoes spermiogenesis, a morphological remodelling rather than a further division, to become a mature spermatozoon, which remains haploid throughout.",
+        "E": "Incorrect. The zygote is diploid (46 chromosomes), formed by the fusion of a haploid sperm and a haploid oocyte, restoring the diploid number at fertilization."
+      },
+      "topic": "Embryology",
+      "subtopic": "Gametogenesis and the Menstrual Cycle",
+      "main_concept": "CON-DEV-9604D6EE7771D8",
+      "concept_ids": ["CON-DEV-9604D6EE7771D8"],
+      "contextual_concept_ids": [],
+      "learning_objective": "The one haploid cell among the options",
+      "library_ids": ["ART-MU101-GAMETOMC-426DA802"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p7 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p7"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q19",
+      "id": "QST-MUMED101-EMBRYO-Q19",
+      "page": 7,
+      "title": "Structure sharing in formation of the chorionic plate",
+      "question": "Which one of the following structure shares in the formation of the chorionic plate?",
+      "options": {
+        "A": "Endoderm",
+        "B": "Extraembryonic mesoderm",
+        "C": "Intraembryonic mesoderm",
+        "D": "Ectoderm",
+        "E": "Amnion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Endoderm does not contribute to the chorionic plate; it forms the gut tube lining and its glandular derivatives.",
+        "B": "Correct. The chorionic plate, the fetal surface of the placenta from which the villi and umbilical vessels arise, is formed by extraembryonic mesoderm together with the trophoblast layers (cytotrophoblast and syncytiotrophoblast). The extraembryonic mesoderm lines the inside of the chorion and gives the chorionic plate its connective-tissue and vascular component.",
+        "C": "Incorrect. Intraembryonic mesoderm is inside the embryo proper and contributes to somites, lateral plate derivatives and so on, not to the extraembryonic chorionic plate.",
+        "D": "Incorrect. Ectoderm does not contribute to the chorionic plate.",
+        "E": "Incorrect. The amnion is a separate fetal membrane, lining the amniotic cavity; it does not itself form the chorionic plate, though it comes to lie against the inner surface of the chorion later in development."
+      },
+      "topic": "Embryology",
+      "subtopic": "Placenta and Fetal Membranes",
+      "main_concept": "CON-DEV-E3665557EC3E81",
+      "concept_ids": ["CON-DEV-E3665557EC3E81"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structure sharing in formation of the chorionic plate",
+      "library_ids": ["ART-MU101-PLACENTA-6CA76541"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p7 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p7"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q20",
+      "id": "QST-MUMED101-EMBRYO-Q20",
+      "page": 7,
+      "title": "True statement about the allantois",
+      "question": "Regarding the allantois, which one of the following statements is true?",
+      "options": {
+        "A": "It is derived from the amniotic cavity",
+        "B": "Its proximal part is incorporated in the midgut",
+        "C": "It invades the connecting stalk",
+        "D": "The proximal part is obliterated",
+        "E": "The distal part gives rise to the apex of urinary bladder."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (not the true statement). The allantois is a small diverticulum that arises from the caudal wall of the yolk sac (specifically the hindgut endoderm region), not from the amniotic cavity.",
+        "B": "Incorrect (not the true statement). The allantois's proximal part lies within the embryo and becomes incorporated into the hindgut/developing bladder region, not the midgut.",
+        "C": "Correct. The allantois grows from the caudal yolk sac into the connecting stalk, the structure that will become the umbilical cord, and its vessels go on to become the umbilical arteries and vein. Its invasion of the connecting stalk is what links the allantois so closely to umbilical cord formation and to the vascular connection between embryo and placenta.",
+        "D": "Incorrect (not the true statement). It is the distal part of the allantois that becomes obliterated, forming the fibrous urachus (median umbilical ligament in the adult), while the proximal part remains connected to the developing bladder.",
+        "E": "Incorrect (not the true statement). This reverses the correct relationship: it is the proximal part of the allantois that is continuous with the apex of the developing urinary bladder, not the distal part, which instead becomes the obliterated urachus."
+      },
+      "topic": "Embryology",
+      "subtopic": "Placenta and Fetal Membranes",
+      "main_concept": "CON-DEV-3E745A8189D52D",
+      "concept_ids": ["CON-DEV-3E745A8189D52D"],
+      "contextual_concept_ids": [],
+      "learning_objective": "True statement about the allantois",
+      "library_ids": ["ART-MU101-PLACENTA-6CA76541"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p7-8 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p7-8"
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-embryo-q21",
+      "id": "QST-MUMED101-EMBRYO-Q21",
+      "page": 8,
+      "title": "Duration of the spermatogenic cycle in the seminiferous tubules",
+      "question": "Cycle of spermatogenesis takes about in the seminiferous tubules :",
+      "options": {
+        "A": "60 days",
+        "B": "6 weeks",
+        "C": "60 hours",
+        "D": "6 days",
+        "E": "None of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The complete cycle of spermatogenesis, from a spermatogonium's commitment to differentiation through both meiotic divisions and spermiogenesis to a mature spermatozoon, takes approximately 60-64 days in humans. This roughly two-month timescale is important clinically, since it means the effects of a toxic exposure or fever on sperm quality are typically seen about two months later, and it sets the minimum interval needed for spermatogenesis-targeted treatments to show effect.",
+        "B": "Incorrect. Six weeks (about 42 days) understates the full ~60-day duration of the spermatogenic cycle.",
+        "C": "Incorrect. Sixty hours (about 2.5 days) is far too short; this is not the timescale of spermatogenesis, which spans roughly two months.",
+        "D": "Incorrect. Six days is far too short for the full spermatogenic cycle.",
+        "E": "Incorrect. Option A (60 days) correctly states the standard figure, so 'none of the above' does not apply."
+      },
+      "topic": "Embryology",
+      "subtopic": "Gametogenesis and the Menstrual Cycle",
+      "main_concept": "CON-DEV-82DA2DB5B804BA",
+      "concept_ids": ["CON-DEV-82DA2DB5B804BA"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Duration of the spermatogenic cycle in the seminiferous tubules",
+      "library_ids": ["ART-MU101-GAMETOMC-426DA802"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p8 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p8"
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-embryo-q22",
+      "id": "QST-MUMED101-EMBRYO-Q22",
+      "page": 8,
+      "title": "The one incorrect statement about the secretory phase of the menstrual cycle",
+      "question": "Regarding the secretory phase of menstrual cycle, which of the following is not correct:",
+      "options": {
+        "A": "The glands of endometrium become tortuous",
+        "B": "It lasts for 14 days",
+        "C": "The glands of endometrium secrete a material poor in glycogen",
+        "D": "None of the above",
+        "E": "The spiral arteries become longer"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (not the false statement). This is true: under progesterone's influence, the endometrial glands become increasingly coiled/tortuous during the secretory phase.",
+        "B": "Incorrect (not the false statement). This is true: the secretory (luteal) phase has a relatively fixed length of about 14 days, in contrast to the more variable proliferative (follicular) phase.",
+        "C": "Correct -- this is the false statement. During the secretory phase, progesterone drives the endometrial glands to secrete a glycogen-rich material (glycogen-laden secretion that nourishes a potential early conceptus before placental circulation is established), not a material poor in glycogen. Describing the secretion as 'poor in glycogen' directly contradicts the defining feature of this phase, making it the incorrect statement the question asks for.",
+        "D": "Incorrect. Since option C is the true false statement, 'none of the above' does not correctly identify it.",
+        "E": "Incorrect (not the false statement). This is true: the spiral arteries elongate and become more coiled during the secretory phase, in step with the thickening, glycogen-secreting endometrium they supply."
+      },
+      "topic": "Embryology",
+      "subtopic": "Gametogenesis and the Menstrual Cycle",
+      "main_concept": "CON-DEV-476D9FB6F25672",
+      "concept_ids": ["CON-DEV-476D9FB6F25672"],
+      "contextual_concept_ids": [],
+      "learning_objective": "The one incorrect statement about the secretory phase of the menstrual cycle",
+      "library_ids": ["ART-MU101-GAMETOMC-426DA802"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p8 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p8"
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-embryo-q23",
+      "id": "QST-MUMED101-EMBRYO-Q23",
+      "page": 8,
+      "title": "The one non-ectodermal structure among ectoderm-derivative options",
+      "question": "All of the following are derivatives of ectoderm except :",
+      "options": {
+        "A": "Spinal cord",
+        "B": "Suprarenal cortex",
+        "C": "External auditory meatus",
+        "D": "lower part of anal canal"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this one is ectodermal, not the exception). The spinal cord, part of the CNS, develops from neuroectoderm.",
+        "B": "Correct. The suprarenal (adrenal) cortex develops from mesoderm (intermediate mesoderm/coelomic epithelium near the developing gonad and kidney), unlike the suprarenal medulla, which is derived from neural crest (itself an ectodermal derivative). Among the four listed structures, the suprarenal cortex is the only one that is mesodermal rather than ectodermal, making it the exception here.",
+        "C": "Incorrect (this one is ectodermal, not the exception). The external auditory meatus develops from the first pharyngeal cleft, lined by surface ectoderm.",
+        "D": "Incorrect (this one is ectodermal, not the exception). The lower part of the anal canal (below the pectinate line) develops from the proctodeum, an ectodermal invagination, unlike the upper part, which is endodermal (hindgut)."
+      },
+      "topic": "Embryology",
+      "subtopic": "Germ Layers and Derivatives",
+      "main_concept": "CON-DEV-6E2F31C213049A",
+      "concept_ids": ["CON-DEV-6E2F31C213049A"],
+      "contextual_concept_ids": [],
+      "learning_objective": "The one non-ectodermal structure among ectoderm-derivative options",
+      "library_ids": ["ART-MU101-GERMLAYERS-FCAB4BA8"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p8 (pagetext.mjs keys auto-read). Only 4 options (a-d) are printed in the source for this item, meeting the 4-option floor.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p8"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q24",
+      "id": "QST-MUMED101-EMBRYO-Q24",
+      "page": 8,
+      "title": "Chromosomal content of the secondary spermatocyte",
+      "question": "2ry spermatocyte contains chromosomes :",
+      "options": {
+        "A": "22+ XY",
+        "B": "22+XX",
+        "C": "22+Y",
+        "D": "44+XX"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. '22+XY' would describe a cell that is both haploid in autosome count and diploid in sex chromosomes at once, an internally inconsistent combination; the secondary spermatocyte, after meiosis I, carries only one sex chromosome, not both X and Y together.",
+        "B": "Incorrect. A secondary spermatocyte derives from a male primary spermatocyte (XY), so after meiosis I it carries either an X or a Y, never XX, which would only be possible from a female (XX) primary oocyte lineage.",
+        "C": "Correct. Meiosis I splits the primary spermatocyte's paired homologous chromosomes (44 autosomes + XY, diploid) into two secondary spermatocytes, each now haploid: 22 autosomes plus either one X or one Y sex chromosome. '22+Y' correctly represents the haploid, Y-bearing secondary spermatocyte that will go on (after meiosis II) to produce a Y-bearing spermatid and, ultimately, a male-determining sperm.",
+        "D": "Incorrect. '44+XX' describes a diploid, female-pattern chromosome set; the secondary spermatocyte is haploid (23 chromosomes total), not diploid with 46."
+      },
+      "topic": "Embryology",
+      "subtopic": "Gametogenesis and the Menstrual Cycle",
+      "main_concept": "CON-DEV-0ADC71836B6D09",
+      "concept_ids": ["CON-DEV-0ADC71836B6D09"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Chromosomal content of the secondary spermatocyte",
+      "library_ids": ["ART-MU101-GAMETOMC-426DA802"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p8-9 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p8-9"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q25",
+      "id": "QST-MUMED101-EMBRYO-Q25",
+      "page": 9,
+      "title": "Cell formed by fusion of the male and female pronuclei",
+      "question": "Fusion of the male, and female pronuclei results in the formation of a new cell known as :",
+      "options": {
+        "A": "Zygote",
+        "B": "Morula",
+        "C": "Primary oocyte",
+        "D": "Ovum",
+        "E": "Secondary oocyte"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. After sperm entry, the sperm and oocyte nuclei each form a pronucleus (male and female respectively), and syngamy -- the fusion of these two haploid pronuclei -- restores the diploid chromosome number and creates a genetically new, single-celled individual called the zygote. The zygote is the very first cell of the new organism and the starting point for all subsequent cleavage divisions.",
+        "B": "Incorrect. The morula is a later, multicellular stage (about 16 cells) reached after several rounds of cleavage division of the zygote, not the single cell formed directly by pronuclear fusion.",
+        "C": "Incorrect. The primary oocyte is the diploid cell arrested in meiosis I before ovulation, present well before fertilization and pronuclear fusion even occur.",
+        "D": "Incorrect. 'Ovum' strictly refers to the mature, fertilizable female gamete after completion of meiosis II (which in humans is only completed at fertilization); it is not the name for the cell created by pronuclear fusion, which is the zygote.",
+        "E": "Incorrect. The secondary oocyte is the haploid cell arrested in metaphase of meiosis II at ovulation, present before fertilization and pronuclear fusion."
+      },
+      "topic": "Embryology",
+      "subtopic": "Fertilization and Implantation",
+      "main_concept": "CON-DEV-34A4AFD08BD2C5",
+      "concept_ids": ["CON-DEV-34A4AFD08BD2C5"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Cell formed by fusion of the male and female pronuclei",
+      "library_ids": ["ART-MU101-FERTIMPLANT-8D855BD3"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p9 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p9"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q26",
+      "id": "QST-MUMED101-EMBRYO-Q26",
+      "page": 9,
+      "title": "Chromosome number in the Down syndrome zygote",
+      "question": "In Down syndrome, the zygote contains :",
+      "options": {
+        "A": "45 chromosomes",
+        "B": "46 chromosomes",
+        "C": "47 chromosomes",
+        "D": "48 chromosomes",
+        "E": "Non of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. 45 chromosomes describes a monosomy (such as Turner syndrome, 45,X), not Down syndrome, which has an extra, not a missing, chromosome.",
+        "B": "Incorrect. 46 chromosomes is the normal diploid number; Down syndrome specifically results from an extra chromosome, so the total is not normal.",
+        "C": "Correct. Down syndrome is caused, in the great majority of cases, by trisomy 21: nondisjunction during meiosis leaves the zygote with three copies of chromosome 21 instead of two, bringing the total chromosome count to 47 rather than the normal 46. This is the same underlying category of chromosomal error covered by the reused concept in this cluster -- named syndromes following from a specific extra chromosome, missing sex chromosome, or deleted arm -- applied here to an extra autosome rather than a missing sex chromosome.",
+        "D": "Incorrect. 48 chromosomes would represent two extra chromosomes (a double trisomy), not the single-chromosome trisomy 21 that defines standard Down syndrome.",
+        "E": "Incorrect. Option C (47 chromosomes) is correct, so 'none of the above' does not apply."
+      },
+      "topic": "Embryology",
+      "subtopic": "Gametogenesis and the Menstrual Cycle",
+      "main_concept": "CON-FND-5097CA5BAB2E51",
+      "concept_ids": ["CON-FND-5097CA5BAB2E51"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Chromosome number in the Down syndrome zygote",
+      "library_ids": ["ART-MU101-GAMETOMC-426DA802"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p9 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p9",
+        "reuse": "CON-FND-5097CA5BAB2E51 -- second use in this cluster (also q02); the same 'named syndromes follow from a specific extra chromosome...' concept covers Down syndrome's extra-chromosome mechanism directly."
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q27",
+      "id": "QST-MUMED101-EMBRYO-Q27",
+      "page": 9,
+      "title": "Composition of a secondary chorionic villus",
+      "question": "A secondary chorionic villus is formed of :",
+      "options": {
+        "A": "Cytotrophoblast",
+        "B": "Syncytiotrophoblast",
+        "C": "All of the above",
+        "D": "None of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect on its own -- a component, not the complete answer. Cytotrophoblast forms the core of the developing villus that extraembryonic mesoderm then invades.",
+        "B": "Incorrect on its own -- a component, not the complete answer. Syncytiotrophoblast forms the outer covering layer of the villus.",
+        "C": "Correct. A secondary chorionic villus develops when extraembryonic (mesenchymal) mesoderm invades the core of a primary villus, which itself is a cytotrophoblastic projection covered by syncytiotrophoblast. So a secondary villus is formed of all three components together -- a mesenchymal mesodermal core, surrounded by cytotrophoblast, in turn covered by syncytiotrophoblast -- making 'all of the above' (cytotrophoblast and syncytiotrophoblast, plus the mesodermal core) the complete and correct description among these options.",
+        "D": "Incorrect. Since both A and B are true components of the secondary villus, 'none of the above' does not apply."
+      },
+      "topic": "Embryology",
+      "subtopic": "Placenta and Fetal Membranes",
+      "main_concept": "CON-DEV-85A12BF990199E",
+      "concept_ids": ["CON-DEV-85A12BF990199E"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Composition of a secondary chorionic villus",
+      "library_ids": ["ART-MU101-PLACENTA-6CA76541"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p9 (pagetext.mjs keys auto-read). Only 4 options (a-d) are printed in the source for this item, meeting the 4-option floor.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p9"
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-embryo-q28",
+      "id": "QST-MUMED101-EMBRYO-Q28",
+      "page": 9,
+      "title": "Structures that are parts of the yolk sac",
+      "question": "Which of the followings are parts of yolk sac:",
+      "options": {
+        "A": "Foregut",
+        "B": "Midgut",
+        "C": "Hindgut",
+        "D": "Vitellointestinal duct",
+        "E": "All of the above"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect on its own -- a component, not the complete answer. The foregut is one of the three regions into which the incorporated yolk sac endoderm-derived gut tube divides during folding.",
+        "B": "Incorrect on its own -- a component, not the complete answer. The midgut, likewise, is one of the three gut regions continuous with the yolk sac, remaining connected to the extraembryonic yolk sac via the vitellointestinal (vitelline) duct until this connection is obliterated.",
+        "C": "Incorrect on its own -- a component, not the complete answer. The hindgut is the third gut region derived from the incorporated yolk sac roof.",
+        "D": "Incorrect on its own -- a component, not the complete answer. The vitellointestinal (yolk stalk/vitelline) duct is the narrowing connection between the midgut and the shrinking extraembryonic yolk sac; its persistence after birth produces a Meckel's diverticulum.",
+        "E": "Correct. As the embryo folds, the roof of the primary yolk sac is incorporated into the embryo as the primitive gut tube, which becomes continuous with the foregut, midgut and hindgut, with the midgut remaining connected to the shrinking extraembryonic yolk sac remnant via the vitellointestinal duct until this connection is normally obliterated. All four listed structures -- foregut, midgut, hindgut and the vitellointestinal duct -- are therefore correctly grouped together as parts/derivatives of the yolk sac system, making 'all of the above' the complete answer."
+      },
+      "topic": "Embryology",
+      "subtopic": "Amnion and Yolk Sac",
+      "main_concept": "CON-DEV-4B4FC0F9B53AEE",
+      "concept_ids": ["CON-DEV-4B4FC0F9B53AEE"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structures that are parts of the yolk sac",
+      "library_ids": ["ART-MU101-AMNIONYOLK-2197F9C7"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p9 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p9"
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-embryo-q29",
+      "hold": "<4 options -- the source prints only three options (a/b/c: Primitive streak and primitive node / Notochordal process / Prechordal plate) for this item, with no d/e visible on this or the following page; below the 4-option floor. Held per rule 2 (two-sided coverage)."
+    },
+    {
+      "key": "f1supp43-embryo-q30",
+      "id": "QST-MUMED101-EMBRYO-Q30",
+      "page": 10,
+      "title": "Structure derived from paraxial mesoderm",
+      "question": "Paraaxial mesoderm gives one structures which is the :",
+      "options": {
+        "A": "Kidney",
+        "B": "Suprarenal gland",
+        "C": "Muscles of viscera",
+        "D": "Dermis of skin",
+        "E": "Epidermis of skin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The kidney develops from intermediate mesoderm (the nephrogenic cord/metanephric blastema), not from paraxial mesoderm.",
+        "B": "Incorrect. The suprarenal (adrenal) gland's cortex develops from intermediate mesoderm/coelomic epithelium, and its medulla from neural crest; neither derives from paraxial mesoderm.",
+        "C": "Incorrect. The smooth muscle of the viscera develops from splanchnic (lateral plate) mesoderm surrounding the gut tube, not from paraxial mesoderm.",
+        "D": "Correct. Paraxial mesoderm organises into somites, each of which differentiates into a sclerotome (vertebrae/ribs), myotome (skeletal muscle) and dermatome. The dermatome contributes to the dermis of the skin over most of the trunk and limbs, making the dermis of skin the correct paraxial-mesoderm-derived structure among these options.",
+        "E": "Incorrect. The epidermis of the skin is ectodermal, not mesodermal, and so is not derived from paraxial mesoderm at all."
+      },
+      "topic": "Embryology",
+      "subtopic": "Germ Layers and Derivatives",
+      "main_concept": "CON-DEV-8153A275E4A623",
+      "concept_ids": ["CON-DEV-8153A275E4A623"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structure derived from paraxial mesoderm",
+      "library_ids": ["ART-MU101-GERMLAYERS-FCAB4BA8"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p10 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p10"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q31",
+      "id": "QST-MUMED101-EMBRYO-Q31",
+      "page": 10,
+      "title": "Structure forming the maternal part of the placenta (second phrasing)",
+      "question": "Maternal part of placenta is formed by :",
+      "options": {
+        "A": "Chorionic frondosum",
+        "B": "Decidua basalis",
+        "C": "Chorion leave",
+        "D": "Decidua capsularis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The chorion frondosum is the fetal, not maternal, part of the placenta.",
+        "B": "Correct. As with the earlier item in this cluster asking the same question from the other direction, the maternal part of the placenta is the decidua basalis, the endometrial tissue directly underlying the implantation site. Together with its fetal counterpart, the chorion frondosum, it forms the definitive placenta.",
+        "C": "Incorrect. The chorion leave is fetal (chorionic) tissue, not maternal, and in any case regresses rather than contributing to the placenta.",
+        "D": "Incorrect. The decidua capsularis is maternal tissue, but it is the layer overlying the conceptus toward the uterine cavity, not the layer forming the placenta itself, which is the decidua basalis."
+      },
+      "topic": "Embryology",
+      "subtopic": "Placenta and Fetal Membranes",
+      "main_concept": "CON-OBS-54773B9FA007C0",
+      "concept_ids": ["CON-OBS-54773B9FA007C0"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structure forming the maternal part of the placenta (second phrasing)",
+      "library_ids": ["ART-MU101-PLACENTA-6CA76541"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p10 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p10",
+        "reuse": "CON-OBS-54773B9FA007C0 -- third use in this cluster (also q04, q07); this item and q04 test the identical maternal-part/decidua-basalis fact from the same phrasing, both kept as distinct authored items since they are separate printed exam questions with independent keys, not collapsed."
+      },
+      "estimated_seconds": 45
+    },
+    {
+      "key": "f1supp43-embryo-q32",
+      "id": "QST-MUMED101-EMBRYO-Q32",
+      "page": 10,
+      "title": "Structure giving rise to Heuser's membrane",
+      "question": "Which one of the followings gives rise to the Heuser's membrane?",
+      "options": {
+        "A": "Hypoblast",
+        "B": "Epiblast",
+        "C": "Extraembryonic mesoderm",
+        "D": "Intraembryonic mesoderm",
+        "E": "Synctiotrophoblast"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Heuser's membrane (the exocoelomic membrane) is a thin layer of extraembryonic endoderm that spreads from the hypoblast to line the inside of the cytotrophoblast, together with the hypoblast enclosing the primary (exocoelomic) yolk sac cavity. Because it arises directly from hypoblast cells migrating to line this cavity, hypoblast is correctly identified as its origin.",
+        "B": "Incorrect. The epiblast gives rise to all three definitive germ layers (ectoderm, mesoderm and endoderm) later, during gastrulation, and to the amnion lining, but Heuser's membrane specifically arises from hypoblast, not epiblast.",
+        "C": "Incorrect. Extraembryonic mesoderm appears slightly later and comes to lie between Heuser's membrane and the cytotrophoblast, splitting into somatic and splanchnic layers; it is not itself the origin of Heuser's membrane.",
+        "D": "Incorrect. Intraembryonic mesoderm is inside the embryo proper, unrelated to the extraembryonic Heuser's membrane.",
+        "E": "Incorrect. Syncytiotrophoblast is the outer, invasive trophoblast layer; it is not the origin of Heuser's membrane, which is an endodermal derivative."
+      },
+      "topic": "Embryology",
+      "subtopic": "Germ Layers and Derivatives",
+      "main_concept": "CON-DEV-F147CCC2126226",
+      "concept_ids": ["CON-DEV-F147CCC2126226"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structure giving rise to Heuser's membrane",
+      "library_ids": ["ART-MU101-GERMLAYERS-FCAB4BA8"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p10 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p10"
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-embryo-q33",
+      "id": "QST-MUMED101-EMBRYO-Q33",
+      "page": 10,
+      "title": "Structure giving rise to the amniotic membrane",
+      "question": "Which one of the following gives rise to the amniotic membrane?",
+      "options": {
+        "A": "Cytotrophoblast",
+        "B": "Hypoblast",
+        "C": "Extraembryonic mesoderm",
+        "D": "Synctiotrophoblast"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This item tests the same fact as the earlier question in this cluster asking which structure is formed from cytotrophoblast. This exam's own convention traces the amnioblasts that line the amniotic membrane back to the cytotrophoblast lineage. The amnion these amnioblasts form then expands during folding to surround the embryo and enclose the amniotic cavity.",
+        "B": "Incorrect. Hypoblast gives rise to extraembryonic endoderm structures such as Heuser's membrane and the yolk sac lining, not the amniotic membrane.",
+        "C": "Incorrect. Extraembryonic somatic mesoderm comes to line the outer surface of the amnion later in development, but it is not the tissue this exam identifies as giving rise to the amniotic membrane itself.",
+        "D": "Incorrect. Syncytiotrophoblast is the outer, invasive trophoblast layer of the chorion, not the origin of the amniotic membrane."
+      },
+      "topic": "Embryology",
+      "subtopic": "Amnion and Yolk Sac",
+      "main_concept": "CON-DEV-D36C2A370DF65D",
+      "concept_ids": ["CON-DEV-D36C2A370DF65D"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Structure giving rise to the amniotic membrane",
+      "library_ids": ["ART-MU101-AMNIONYOLK-2197F9C7"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p10 (pagetext.mjs keys auto-read). Only 4 options (a-d) are printed in the source for this item, meeting the 4-option floor.",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p10",
+        "sharedConcept": "Shares CON-DEV-D36C2A370DF65D with q14 -- both test the single distinction that cytotrophoblast gives rise to the amniotic membrane, asked from opposite directions."
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q34",
+      "id": "QST-MUMED101-EMBRYO-Q34",
+      "page": 11,
+      "title": "Result of embryonic folding",
+      "question": "Which one of the followings is the result of folding?",
+      "options": {
+        "A": "Formation of midgut in head fold.",
+        "B": "Connecting stalk becomes dorsal in position.",
+        "C": "Septum transversum lies cranial to pericardium.",
+        "D": "Midgut is extruded outside fetus.",
+        "E": "Amniotic sac expands to surround fetus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The head fold produces the foregut, not the midgut, as the flat embryonic disc curves ventrally at its cranial end.",
+        "B": "Incorrect. Folding brings the connecting stalk to a ventral position (as it becomes continuous with the developing umbilical cord on the ventral body wall), not a dorsal one.",
+        "C": "Incorrect. Folding brings the septum transversum to lie caudal to the developing heart/pericardial cavity, not cranial to it, as the heart tube is carried ventrally and cranially relative to the septum transversum during head folding.",
+        "D": "Incorrect. It is the midgut that normally herniates (temporarily protrudes) into the proximal umbilical cord during the sixth week due to rapid elongation and limited abdominal space (physiological umbilical herniation), and it later returns to the abdomen; describing it simply as being 'extruded outside the fetus' without qualification misdescribes this transient, physiological process as a permanent expulsion.",
+        "E": "Correct. As lateral and longitudinal (head and tail) folding converts the flat trilaminar embryonic disc into a cylindrical body form, the amnion (initially a small dorsal sac) expands and comes to surround the entire embryo, so that the embryo appears to 'sink into' the amniotic cavity, with the amniotic fluid then surrounding it on all sides. This expansion of the amniotic sac to enclose the folding embryo is one of the direct, defining consequences of the folding process."
+      },
+      "topic": "Embryology",
+      "subtopic": "Germ Layers and Derivatives",
+      "main_concept": "CON-DEV-932C8363BAE4A8",
+      "concept_ids": ["CON-DEV-932C8363BAE4A8"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Result of embryonic folding",
+      "library_ids": ["ART-MU101-GERMLAYERS-FCAB4BA8"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p11 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p11"
+      },
+      "estimated_seconds": 55
+    },
+    {
+      "key": "f1supp43-embryo-q35",
+      "id": "QST-MUMED101-EMBRYO-Q35",
+      "page": 11,
+      "title": "Chromosomal formula concerned with the secondary spermatocyte",
+      "question": "Which one of the following chromosomal formula is concerned to the secondary spermatocyte?",
+      "options": {
+        "A": "22+YX",
+        "B": "22+ Y",
+        "C": "44+ XX",
+        "D": "44+XY",
+        "E": "22+XX"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. '22+YX' inconsistently combines a haploid autosome count with both sex chromosomes together; a secondary spermatocyte, being haploid after meiosis I, carries only one sex chromosome, not both.",
+        "B": "Correct. As with the earlier item in this cluster on the same topic, meiosis I splits the primary spermatocyte's diploid set (44 autosomes + XY) into two haploid secondary spermatocytes, each carrying 22 autosomes plus a single sex chromosome, either X or Y. '22+Y' represents the Y-bearing secondary spermatocyte, the formula being tested here.",
+        "C": "Incorrect. '44+XX' is a diploid, female-pattern formula (46 chromosomes total); the secondary spermatocyte is haploid (23 chromosomes), not diploid.",
+        "D": "Incorrect. '44+XY' is the diploid formula of the primary spermatocyte (before meiosis I), not the haploid secondary spermatocyte produced after it.",
+        "E": "Incorrect. '22+XX' would require two X chromosomes in a haploid cell, which is chromosomally impossible; a haploid cell carries only one sex chromosome."
+      },
+      "topic": "Embryology",
+      "subtopic": "Gametogenesis and the Menstrual Cycle",
+      "main_concept": "CON-DEV-B7634187C87A16",
+      "concept_ids": ["CON-DEV-B7634187C87A16"],
+      "contextual_concept_ids": [],
+      "learning_objective": "Chromosomal formula concerned with the secondary spermatocyte",
+      "library_ids": ["ART-MU101-GAMETOMC-426DA802"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p11 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p11"
+      },
+      "estimated_seconds": 50
+    },
+    {
+      "key": "f1supp43-embryo-q36",
+      "id": "QST-MUMED101-EMBRYO-Q36",
+      "page": 11,
+      "title": "The one structure that does not share in intraembryonic mesoderm formation",
+      "question": "Which of the following does not share in the formation of intraembryonic mesoderm :",
+      "options": {
+        "A": "Primitive streak",
+        "B": "Primitive node",
+        "C": "Notochord",
+        "D": "Prechordal plate",
+        "E": "None of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this one does share in mesoderm formation, not the exception). Cells migrating (ingressing) through the primitive streak give rise to the intraembryonic (intraembryonic lateral plate, paraxial and intermediate) mesoderm.",
+        "B": "Incorrect (this one does share in mesoderm formation, not the exception). Cells passing through the primitive node give rise to the notochordal process/prechordal mesoderm and, more broadly, contribute mesodermal cells to the midline.",
+        "C": "Incorrect (this one does share in mesoderm formation, not the exception). The notochord itself is a mesodermal derivative arising from cells that ingress through the primitive node.",
+        "D": "Correct. The prechordal plate is a small, specialised area of tightly adherent endoderm-and-overlying-ectoderm cells cranial to the notochord that acts chiefly as a signalling/organiser centre (helping induce the forebrain and forming the future site of the oropharyngeal membrane); it is not itself a source of intraembryonic mesoderm the way the primitive streak, primitive node and notochord are. This distinguishes its role from the streak/node/notochord axis, which is directly responsible for generating mesoderm.",
+        "E": "Incorrect. The prechordal plate correctly answers the question, so 'none of the above' does not apply."
+      },
+      "topic": "Embryology",
+      "subtopic": "Germ Layers and Derivatives",
+      "main_concept": "CON-DEV-C1C5C84B84AE89",
+      "concept_ids": ["CON-DEV-C1C5C84B84AE89"],
+      "contextual_concept_ids": [],
+      "learning_objective": "The one structure that does not share in intraembryonic mesoderm formation",
+      "library_ids": ["ART-MU101-GERMLAYERS-FCAB4BA8"],
+      "field_notes": {
+        "keySource": "red text on stem and correct option, p11 (pagetext.mjs keys auto-read).",
+        "mu": "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf, Embryology sub-block, Q from p11"
+      },
+      "estimated_seconds": 55
+    }
+  ]
+}

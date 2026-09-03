@@ -42,9 +42,25 @@
 | Q9  :: B :: chromosome number in G1 of interphase = 46-s | 0 | 0 | 1 | 1 |
 | histoprev1 | 40 | 0 | 0 | 40 |
 | histoprev2 | 50 | 0 | 0 | 50 |
+| histoprev3 | 44 | 16 | 0 | 60 |
 
 ## Held
-(none)
+- held-d61-q27 — cross-batch repeat — twin of histoprev1 q36 (Verhoeff's stain for elastic fibers, already authored/live via CON-FND-F0C32F89547AB1); دفعة 61 block, p25
+- held-d61-q29 — cross-batch repeat — twin of histoprev1 q09 (G1-stage chromosome number = 46-s, already authored via CON-FND-364ACA29FFDBF4); دفعة 61 block, p25
+- held-d60-q2 — cross-batch repeat — twin of histoprev2 q77 (organelle that divides and increases in number = mitochondria, already authored); دفعة 60 block, p26
+- held-d60-q3 — cross-batch repeat — twin of histoprev2 q58 (molecular structure of the mitotic spindle = tubulin, already authored via CON-FND-73F10C624D4BE1); دفعة 60 block, p26
+- held-d60-q4 — cross-batch repeat — twin of this cluster's own q100/دفعة 61 Q25 (nucleolus prominent in protein-synthesis-active cells); دفعة 60 block, p26
+- held-d60-q9 — cross-batch repeat — twin of histoprev2 q41 (skin macrophages = Langerhans cells, already authored via CON-HEM-D1628423BE0844); دفعة 60 block, p27
+- held-d60-q10 — cross-batch repeat — twin of histoprev2 q45 (longest stage of the cell cycle = interphase, already authored via CON-FND-9A2E5C41D0B7F3); دفعة 60 block, p27
+- held-d60-q12 — cross-batch repeat — twin of histoprev2 q51 (describing pyknosis, already authored via CON-FND-8DA30AD870AC1E); دفعة 60 block, p28
+- held-d60-q18 — cross-batch repeat — twin of histoprev1 q40 (epidermis layer showing mitotic figures = basal cell layer, already authored); دفعة 60 block, p29
+- held-d60-q20 — cross-batch repeat — twin of histoprev2 q62 (karyotyping arrests mitosis at metaphase, already authored via CON-DEV-E9C307421DE375); دفعة 60 block, p29
+- held-d595857-q5 — cross-batch repeat — twin of this cluster's own q110/دفعة 60 Q13 (lung alveoli lined with simple squamous epithelium); دفعة 59/58/57 block, p30
+- held-d595857-q7 — cross-batch repeat — twin of this cluster's own q115/دفعة 60 Q19 (DNA synthesized and chromosome doubled in S phase); دفعة 59/58/57 block, p31
+- held-d595857-q13 — cross-batch repeat — twin of histoprev1 q37 (CT cell that secretes antibodies = plasma cells, already authored); دفعة 59/58/57 block, p32
+- held-d595857-q16 — cross-batch repeat — twin of histoprev2 q85 (hair colour pigment located in the hair cortex, already authored via CON-FND-4E1B8F3C6A2D75); دفعة 59/58/57 block, p33
+- held-d595857-q19 — cross-batch repeat — twin of this cluster's own q117/same-block Q2 (inner folds of mitochondria = cristae); دفعة 59/58/57 block, p33
+- held-d595857-q20 — cross-batch repeat — twin of this cluster's own q104/دفعة 60 Q1 (intracellular digestion = lysosomes); دفعة 59/58/57 block, p33
 
 ## Remaining
 - Q1  :: E :: succinic dehydrogenase enzyme marker = mitochondria

@@ -20495,3 +20495,4436 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "ceftriaxone bactericidal" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-AFBFED85C86B2C
+
+## label
+Type IV collagenase degrades the ECM in tumour spread
+
+## canonical_key
+neoplasia.ecm-degradation.type-iv-collagenase
+
+## aliases
+Type IV collagenase
+ECM degradation by tumour cells
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Malignant tumour cells secrete type IV collagenase, a matrix metalloproteinase that degrades type IV collagen, the main structural protein of the basement membrane, as one of the key enzymatic steps that lets them breach the basement membrane and invade surrounding tissue -- distinct from elastase (which degrades elastin), lipase (which hydrolyses fat) or amylase (which digests starch), none of which targets this collagen type.
+
+## explicit_objective
+State that tumour cells secrete type IV collagenase to degrade the basement membrane's extracellular matrix, enabling invasion.
+
+## pitfalls
+Confusing type IV collagenase with a general digestive enzyme such as elastase, lipase or amylase -- the printed key specifically names type IV collagenase for basement-membrane degradation in tumour invasion.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+Extracellular matrix degradation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Degradation of the ECM occurs by proteolytic enzymes secreted by tumour cells as: ... type IV collagenase" (Quiz 41 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 41 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "type IV collagenase" -- 0 hits. A grep sweep for "collagenase" across every docs/*-Source-Imports concept dir hit only bacterial-collagenase concepts (Ain Shams ASU-INF, Assiut AUN-INI-105, MUST FHB-102-2, Kasr 208-INT/101-ISK) -- unrelated to tumour-cell type IV collagenase. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-B8CF57D24CAAA0
+
+## label
+Malignant cells first appear in a lymph node's subcapsular sinus
+
+## canonical_key
+neoplasia.lymph-node-metastasis.subcapsular-sinus-first-site
+
+## aliases
+Subcapsular sinus metastasis
+First site of nodal metastasis
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Afferent lymphatics draining a tumour empty first into the subcapsular (marginal) sinus immediately beneath a lymph node's capsule, so malignant cells travelling via lymph are expected to be trapped and first detectable there, ahead of the medullary sinuses, the lymphoid follicles, the efferent vessel or the paracortex.
+
+## explicit_objective
+State that malignant cells reaching a lymph node via afferent lymphatics are expected to appear first in the subcapsular sinus.
+
+## pitfalls
+Assuming malignant cells first appear in the medullary sinuses, the follicles or the paracortex -- these lie deeper within or serve a different function from the subcapsular sinus, which is the first structure afferent lymph (and any tumour cells it carries) reaches.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+Lymphatic spread and nodal metastasis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In examining a lymph node microscopically for suspicion of metastasis, the malignant cells are expected to appear first in: ... the sub-capsular lymph sinuses" (Quiz 41 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 41 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "subcapsular sinus metastasis" -- 0 hits. A grep sweep for "subcapsular" hit only a Kasr 104-CPS normal lymph-node histology concept (cortex/medulla/paracortex zones and cell distribution, CON-HEM-60C0AFCC9A1F88) -- a different grain (normal histology, not the pathology of where metastatic cells first localise). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-93098A5E0650BC
+
+## label
+Cadherins glue normal cells to each other
+
+## canonical_key
+neoplasia.cell-adhesion.cadherins-glue-normal-cells
+
+## aliases
+Cadherins
+Cell adhesion molecules
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cadherins are calcium-dependent transmembrane adhesion molecules that mediate cell-to-cell adhesion, holding normal cells together within a tissue and to their surroundings -- distinct from fibronectin and laminin (extracellular matrix glycoproteins) or type IV collagenase and cathepsin D (degradative enzymes), none of which is the general adhesion molecule the printed key names. Loss of cadherin function is one of the changes that allows malignant cells to detach and invade.
+
+## explicit_objective
+Identify cadherins as the adhesion molecules that glue normal cells to each other and to their surroundings.
+
+## pitfalls
+Confusing cadherins with a matrix glycoprotein (fibronectin, laminin) or a degradative enzyme (type IV collagenase, cathepsin D) -- the printed key specifically names cadherins as the general cell-to-cell adhesion molecule.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+Cell adhesion molecules
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Normal cells are glued to each other and to their surroundings by a variety of adhesion molecules as: ... cadherins." (Quiz 41 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 41 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "cadherins cell adhesion" -- 0 hits. A grep sweep for "cadherin" hit only a Helwan HU-GIT-301 concept about E-cadherin LOSS in diffuse gastric carcinoma -- a different grain (a specific cancer's cadherin loss, not this general normal-physiology adhesion fact). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-506895F21F8431
+
+## label
+Perineural invasion in malignant tumours causes pain
+
+## canonical_key
+neoplasia.perineural-invasion.pain
+
+## aliases
+Perineural invasion
+Perineural spread
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Perineural invasion, malignant cells tracking along the perineural (Schwann cell sheath) space surrounding a nerve, characteristically produces pain, since it irritates and compresses nerve fibres along the route of spread -- a distinct pattern of local extension from haemorrhage, mass formation or ulceration.
+
+## explicit_objective
+State that perineural invasion by a malignant tumour characteristically causes pain.
+
+## pitfalls
+Assuming perineural invasion characteristically produces haemorrhage, a mass effect or ulceration -- these are consequences of other tumour behaviours (bleeding, bulk, surface breach), not of nerve-sheath tracking specifically, whose hallmark symptom is pain.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+Perineural invasion
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Perineural invasion in malignant tumors cause: ... Pain" (Quiz 41 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 41 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "perineural invasion pain" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-BFC4491084FD14
+
+## label
+Tumour-associated angiogenic factors drive tumour angiogenesis
+
+## canonical_key
+neoplasia.tumour-angiogenesis.taf
+
+## aliases
+Tumour angiogenesis
+Tumour-associated angiogenic factors
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tumour angiogenesis, the formation of new blood vessels supplying a growing tumour, occurs under the influence of tumour-associated angiogenic factors (such as VEGF) secreted by the tumour cells themselves, which stimulate proliferation and sprouting of nearby endothelial cells -- distinct from matrix-degrading enzymes (collagenase, elastase), complement components or general inflammatory mediators such as TNF, none of which is the driver the printed key names.
+
+## explicit_objective
+State that tumour angiogenesis occurs under the influence of tumour-associated angiogenic factors secreted by the tumour.
+
+## pitfalls
+Attributing tumour angiogenesis to matrix-degrading enzymes, complement components or a general inflammatory mediator such as TNF -- the printed key specifically names tumour-associated angiogenic factors as the driver of new vessel formation around a tumour.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Mechanisms of spread of malignant tumors
+
+## subtopic
+Tumour angiogenesis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-SPREAD-MECHANISMS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Tumour angiogenesis occurs under the influence of: ... tumour associated angiogenic factors" (Quiz 41 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 41 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "tumour angiogenic factors" -- 0 hits. A grep sweep for "angiogenesis|angiogenic" hit Helwan chronic-inflammation, Ain Shams glioblastoma-histology and Kasr granulation-tissue concepts -- none is this tumour-specific angiogenic-driver fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-1EA6F246BFB893
+
+## label
+Clindamycin carries a C difficile diarrhea risk to counsel on discharge
+
+## canonical_key
+antimicrobial.clindamycin.c-diff-diarrhea
+
+## aliases
+Clindamycin adverse effects
+Clindamycin-associated C difficile
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Clindamycin carries a well-recognised risk of Clostridium difficile diarrhea, including its severe form, pseudomembranous colitis, because it disrupts normal gut flora and allows C. difficile to overgrow -- a risk significant enough that any patient discharged on a multi-week clindamycin course should be specifically counselled about it, distinct from pseudotumor cerebri, hyperbilirubinemia or nephrotoxicity, none of which is clindamycin's characteristic adverse effect.
+
+## explicit_objective
+State that Clostridium difficile diarrhea is a clindamycin adverse effect that should be discussed with a patient discharged on a multi-week course.
+
+## pitfalls
+Attributing pseudotumor cerebri, hyperbilirubinemia or nephrotoxicity to clindamycin -- its characteristic, counselling-worthy risk is Clostridium difficile diarrhea/pseudomembranous colitis from gut flora disruption.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Clindamycin adverse effects
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AUN_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient is being discharged from the hospital on a 3-week course of clindamycin. Which of the following potential adverse effects should be discussed with her? ... Clostridium difficile diarrhea." (Quiz 42 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "clindamycin C diff diarrhea" -- 0 hits. A grep sweep for "clindamycin" hit only Assiut AUN-INI-105-ch5 (a general C. difficile/antibiotic-associated-diarrhea concept, not this clindamycin-specific drug association) and MUST FHB-102-2 -- different grain, not the same concept. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-FB8DF4269600C2
+
+## label
+Vancomycin is not a macrolide
+
+## canonical_key
+antimicrobial.vancomycin.not-a-macrolide
+
+## aliases
+Macrolide classification
+Vancomycin classification
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vancomycin is a glycopeptide antibiotic that inhibits bacterial cell wall synthesis, not a macrolide -- azithromycin, erythromycin and clarithromycin are the true macrolides, sharing the class's characteristic 50S-ribosomal-subunit-binding mechanism, which vancomycin does not share.
+
+## explicit_objective
+Identify vancomycin as a glycopeptide, not a macrolide, distinguishing it from azithromycin, erythromycin and clarithromycin.
+
+## pitfalls
+Grouping vancomycin among the macrolides because it is another well-known antibiotic name -- vancomycin is a cell-wall-active glycopeptide, unrelated to the 50S-binding macrolide class.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Macrolide classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All of them belongs to macrolides EXCEPT: ... Vancomycin" (Quiz 42 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "vancomycin not a macrolide" -- 0 hits. A grep sweep for "erythromycin|vancomycin" hit a related but non-identical Assiut AUN-INI-105-ch5 concept classifying vancomycin among cell-wall-synthesis inhibitors generally (not this specific macrolide-exclusion framing). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-E80D82F5AB996F
+
+## label
+Aminoglycosides are mainly effective against aerobic, not anaerobic, gram-negative bacteria
+
+## canonical_key
+antimicrobial.aminoglycosides.aerobic-gram-negative-only
+
+## aliases
+Aminoglycoside spectrum
+Aminoglycoside oxygen-dependent uptake
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Aminoglycosides require oxygen-dependent active transport to cross the bacterial cell membrane and reach their ribosomal target, so they are mainly effective against aerobic, not anaerobic, gram-negative bacteria, since anaerobic organisms lack the oxidative transport process aminoglycoside uptake depends on -- alongside their other class features (concentration-dependent killing, synergism with beta-lactams, and renal dose adjustment by creatinine clearance).
+
+## explicit_objective
+State that aminoglycosides are mainly effective against aerobic, not anaerobic, gram-negative bacteria, because their uptake requires oxygen-dependent active transport.
+
+## pitfalls
+Assuming aminoglycosides are mainly effective against anaerobic gram-negative bacteria -- their oxygen-dependent uptake mechanism instead limits them to aerobic organisms.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Aminoglycoside spectrum and dosing
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Concerning Aminoglycosides, the following are true except: ... They are mainly effective in anaerobic gram negative bacteria" (Quiz 42 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "aminoglycosides aerobic gram negative" -- 0 hits. A grep sweep for "aminoglycoside" hit a related but distinct Assiut AUN-INI-105-ch5 mechanism concept (30S binding/mRNA misreading, reused separately for q352) -- this spectrum/oxygen-dependence fact is a different grain. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-AC1BF871C1B2B5
+
+## label
+Macrolides are 50S-subunit inhibitors that are bacteriostatic
+
+## canonical_key
+antimicrobial.macrolides.50s-bacteriostatic
+
+## aliases
+Macrolide mechanism
+Macrolide ribosomal target
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Macrolides (erythromycin, azithromycin, clarithromycin) bind the bacterial ribosome's 50S subunit, blocking translocation during protein synthesis, and this inhibition is bacteriostatic rather than bactericidal -- distinguishing macrolides from 30S-targeting classes (aminoglycosides, tetracyclines) and from bactericidal protein synthesis inhibitors.
+
+## explicit_objective
+State that macrolides are 50S-ribosomal-subunit-targeting, bacteriostatic protein synthesis inhibitors.
+
+## pitfalls
+Assuming macrolides target the 30S subunit or are bactericidal -- they bind the 50S subunit and are bacteriostatic, the opposite pairing from aminoglycosides (30S, bactericidal).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Macrolide mechanism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Macrolids are -------- ribosomal subunit inhibitors that are ---------. ... 50s; Bacteriostatic" (Quiz 42 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "macrolides 50S bacteriostatic" -- 0 hits. A grep sweep of Assiut AUN-INI-105-ch5 for "50S|macrolide" found only the chloramphenicol-50S concept (reused for q351) and a cephalosporin cell-wall-vs-protein-synthesis classification concept -- neither is this macrolide-specific mechanism/effect pairing. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-7DB1D6CF02F3C6
+
+## label
+Erythromycin is used safely in pregnancy
+
+## canonical_key
+antimicrobial.erythromycin.safe-in-pregnancy
+
+## aliases
+Antibiotic safety in pregnancy
+Erythromycin pregnancy safety
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Erythromycin is generally considered safe for use in pregnancy, a standard alternative when a pregnant patient needs antimicrobial treatment but cannot receive drug classes carrying recognised fetal risk -- unlike doxycycline (fetal teeth discolouration and bone growth disturbance), moxifloxacin (risk to developing cartilage) or gentamicin (fetal ototoxicity/nephrotoxicity).
+
+## explicit_objective
+Identify erythromycin as safe to use in pregnancy, unlike doxycycline, moxifloxacin or gentamicin.
+
+## pitfalls
+Assuming any broad-spectrum antibiotic is acceptable in pregnancy -- doxycycline, moxifloxacin and gentamicin each carry a specific recognised fetal risk that erythromycin does not share.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Antibiotic safety in pregnancy
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is used safely in pregnancy? ... Erythromycin" (Quiz 42 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "erythromycin safe in pregnancy" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-DAFCB3028F7BE6
+
+## label
+Clindamycin and erythromycin antagonise each other at a shared ribosomal site
+
+## canonical_key
+antimicrobial.clindamycin-erythromycin.same-site-antagonism
+
+## aliases
+Antibiotic combination antagonism
+Clindamycin-macrolide antagonism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Clindamycin and erythromycin both bind overlapping sites on the bacterial ribosome's 50S subunit, so combining them is antagonistic -- one drug can displace or block the other's binding, reducing the combination's net antibacterial effect compared with either drug given alone, unlike ciprofloxacin/amoxicillin, tigecycline/azithromycin or doxycycline/amoxicillin, none of which shares this same-site antagonism.
+
+## explicit_objective
+State that clindamycin and erythromycin are antagonistic when combined, since both bind an overlapping site on the bacterial 50S ribosomal subunit.
+
+## pitfalls
+Assuming any two protein-synthesis-inhibiting antibiotics are safely combined -- clindamycin and erythromycin specifically compete for an overlapping 50S binding site, making their combination antagonistic rather than additive.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 1
+
+## subtopic
+Antibiotic combination antagonism
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following antibiotic combinations is inappropriate based on antagonism at the same site of action? ... Clindamycin and erythromycin." (Quiz 42 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 42 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "clindamycin erythromycin antagonism" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-6798FF8F210C05
+
+## label
+Prostatic carcinoma produces osteosclerotic bone metastases
+
+## canonical_key
+neoplasia.bone-metastasis.osteosclerotic-prostate
+
+## aliases
+Osteosclerotic bone metastasis
+Prostatic carcinoma bone metastasis pattern
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Prostatic carcinoma characteristically produces osteosclerotic (osteoblastic) bone metastases, in which new bone formation dominates over resorption, giving a dense, radio-opaque appearance on imaging -- distinguishing it from the classically osteolytic bone metastasis pattern of renal cell carcinoma, thyroid carcinoma and bronchogenic (lung) carcinoma, and from breast carcinoma's typically mixed lytic/sclerotic pattern.
+
+## explicit_objective
+Identify prostatic carcinoma as the tumour whose bone metastases are characteristically osteosclerotic.
+
+## pitfalls
+Assuming all bone metastases are osteolytic, or attributing the osteosclerotic pattern to renal, thyroid, lung or breast carcinoma -- prostatic carcinoma is the tumour specifically associated with a predominantly osteosclerotic bone metastasis pattern.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: Routes of spread of malignant tumors
+
+## subtopic
+Bone metastasis patterns
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-BONE-METASTASIS-PATTERN
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which one of these tumours metastasizing in bone is osteosclerotic: ... prostatic carcinoma" (Quiz 43 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 43 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "osteosclerotic bone metastasis prostate" -- 0 hits. A grep sweep for "osteosclerotic|osteoblastic" hit only unrelated Alexandria (alkaline phosphatase/osteoblast histology) and Menoufia (vitamin D bone mineralization) concepts -- different grain, not this tumour-specific metastasis-pattern fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-F551D7B7A61AB9
+
+## label
+Sulfasalazine treats inflammatory bowel disease
+
+## canonical_key
+antimicrobial.sulfasalazine.ibd-indication
+
+## aliases
+Sulfasalazine indication
+Sulfasalazine for IBD
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sulfasalazine is a standard treatment for inflammatory bowel disease, particularly ulcerative colitis, since gut bacteria cleave it into 5-aminosalicylic acid, which acts locally in the colon to reduce mucosal inflammation -- distinct from its role in pseudomembranous colitis, H. pylori infection or E. coli diarrhea, none of which it is a standard treatment for.
+
+## explicit_objective
+State that sulfasalazine is used to treat inflammatory bowel disease, not pseudomembranous colitis, H. pylori infection or E. coli diarrhea.
+
+## pitfalls
+Assuming a gastroenterology patient on sulfasalazine is being treated for an infectious diarrheal illness -- sulfasalazine's standard indication is inflammatory bowel disease, not an infectious cause.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 2
+
+## subtopic
+Sulfasalazine indication
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient admitted to the gastroenterology service is being treated with sulfasalazine. What is the most likely purpose for this drug to be given? ... Inflammatory bowel disease" (Quiz 44 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 44 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "sulfasalazine inflammatory bowel disease" -- 0 hits. A grep sweep for "sulfasalazine" hit a Mansoura MANS-MSS-202 concept about sulfasalazine's prodrug mechanism/DMARD role in rheumatoid arthritis -- a different grain (mechanism, not this IBD-indication fact). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-BD49F8DB0D8F05
+
+## label
+Sulfamethoxazole can cause crystalluria
+
+## canonical_key
+antimicrobial.sulfamethoxazole.crystalluria
+
+## aliases
+Sulfonamide crystalluria
+Sulfamethoxazole adverse effects
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sulfamethoxazole and other sulfonamides can precipitate out in acidic urine to form crystals in the renal tubules, a recognised adverse effect called crystalluria, reducible by adequate hydration and urine alkalinisation -- distinct from penicillin, doxycycline or gentamicin, none of which characteristically causes this specific adverse effect.
+
+## explicit_objective
+State that sulfamethoxazole can cause crystalluria, unlike penicillin, doxycycline or gentamicin.
+
+## pitfalls
+Attributing crystalluria to penicillin, doxycycline or gentamicin -- sulfonamides such as sulfamethoxazole are the class specifically associated with this adverse effect.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 2
+
+## subtopic
+Sulfonamide adverse effects
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which antibiotic produces crystalluria? ... Sulfamethoxazole" (Quiz 44 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 44 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "sulfamethoxazole crystalluria" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-FB5065BAC15156
+
+## label
+Pseudomembranous colitis may be treated with either vancomycin or metronidazole
+
+## canonical_key
+antimicrobial.pseudomembranous-colitis.vancomycin-metronidazole-treatment
+
+## aliases
+Pseudomembranous colitis treatment
+C difficile colitis treatment
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pseudomembranous colitis, typically caused by Clostridioides difficile overgrowth after gut flora disruption, may be treated with either oral vancomycin or metronidazole, both standard options depending on severity and local practice -- unlike clindamycin, which is not a treatment for this condition but is instead one of the antibiotics classically implicated in causing it.
+
+## explicit_objective
+State that pseudomembranous colitis may be treated with either oral vancomycin or metronidazole, not clindamycin.
+
+## pitfalls
+Confusing clindamycin's role as a cause of pseudomembranous colitis with a treatment for it -- the standard treatments are oral vancomycin or metronidazole.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 2
+
+## subtopic
+Pseudomembranous colitis treatment
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pseudomembranous colitis may be treated with: ... Both Vancomycin and Metronidazole" (Quiz 44 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 44 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "pseudomembranous colitis vancomycin metronidazole treatment" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-F9417E8EE7E655
+
+## label
+Tendonitis is a side effect of ciprofloxacin
+
+## canonical_key
+antimicrobial.ciprofloxacin.tendonitis
+
+## aliases
+Fluoroquinolone tendonitis
+Ciprofloxacin adverse effects
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tendonitis, and in more severe cases tendon rupture (especially of the Achilles tendon), is a recognised, characteristic adverse effect of ciprofloxacin and other fluoroquinolones, thought to relate to the drug class's effect on collagen and connective tissue -- a risk heightened in older patients and those on concurrent corticosteroids, distinct from teeth discolouration (tetracyclines) or ototoxicity (aminoglycosides).
+
+## explicit_objective
+State that tendonitis is a characteristic ciprofloxacin adverse effect, unlike teeth discolouration or ototoxicity.
+
+## pitfalls
+Attributing teeth discolouration or ototoxicity to ciprofloxacin -- these belong to tetracyclines and aminoglycosides respectively; ciprofloxacin's characteristic risk is tendonitis/tendon rupture.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Antimicrobial therapy 2
+
+## subtopic
+Fluoroquinolone adverse effects
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMICROBIAL-THERAPY-2
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is a side effect of ciprofloxacin? ... Tendonitis" (Quiz 44 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 44 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "ciprofloxacin tendonitis" -- 0 hits. A grep sweep for "tendonitis" hit only an unrelated Zagazig orthopaedic Achilles-tendon-rupture concept -- different grain, not this fluoroquinolone drug-adverse-effect fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-D3D567B1858979
+
+## label
+Chronic UV exposure is the most important risk factor for this fair-skinned man's skin cancer
+
+## canonical_key
+carcinogen.physical.uv-exposure-skin-cancer
+
+## aliases
+UV exposure skin cancer
+Physical carcinogens
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic exposure to ultraviolet (UV) rays is the most important risk factor for skin cancer, especially in fair-skinned individuals whose lower melanin content gives less natural photoprotection, distinct from inherited Rb gene mutation (retinoblastoma/sarcoma risk), asbestos exposure (mesothelioma/lung cancer risk) or cigarette smoking (lung/bladder cancer risk), none of which is the most important risk factor for a fair-skinned patient's sun-exposed skin lesion.
+
+## explicit_objective
+Identify chronic UV exposure as the most important risk factor for skin cancer in a fair-skinned patient.
+
+## pitfalls
+Attributing a fair-skinned patient's sun-exposed skin cancer to inherited Rb mutation, asbestos or smoking -- chronic UV exposure is the risk factor the printed key names as most important.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Physical carcinogens
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 42 years old fair skin man has a skin nodule on the right hand... Which of the following risk factor is most important for development of this tumor? ... Chronic exposure to UV rays" (Quiz 45 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "UV exposure skin cancer" -- 0 hits. A grep sweep for "ultraviolet|UV ray|UV exposure|UV radiation" found no existing concept anywhere in docs/*-Source-Imports. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-81533C95FE69F4
+
+## label
+Corticosteroids are not a chemical carcinogen
+
+## canonical_key
+carcinogen.chemical.corticosteroids-not-a-chemical-carcinogen
+
+## aliases
+Chemical carcinogens list
+Corticosteroids not carcinogenic
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Corticosteroids are not classed among the chemical carcinogens -- they are anti-inflammatory/immunosuppressive hormonal agents -- unlike azo compounds, polycyclic aromatic hydrocarbons and asbestos, which are genuine named chemical carcinogens in the department's teaching.
+
+## explicit_objective
+State that corticosteroids are not a chemical carcinogen, unlike azo compounds, polycyclic hydrocarbons or asbestos.
+
+## pitfalls
+Assuming corticosteroids belong on a chemical-carcinogen list simply because they are a well-known drug class -- the department's named chemical carcinogens are azo compounds, polycyclic hydrocarbons, asbestos, vinyl chloride, arsenic and aflatoxins, not corticosteroids.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Chemical carcinogens
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Chemical carcinogens include all EXCEPT: ... Corticosteroids" (Quiz 45 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "chemical carcinogens corticosteroids" -- 0 hits. A grep sweep for "chemical carcinogen" hit only the reused Kasr aflatoxin concept (which lists the full named-carcinogen set but is framed around aflatoxin specifically, not this EXCEPT/corticosteroid-exclusion framing) and an Assiut AUN-INI-105-ch7 aflatoxin/mycotoxicosis concept -- different grain. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-0C1014ADF53736
+
+## label
+H pylori infection is involved in the development of gastric lymphoma
+
+## canonical_key
+carcinogen.bacterial.h-pylori-gastric-lymphoma
+
+## aliases
+H pylori carcinogenesis
+Gastric MALT lymphoma
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic Helicobacter pylori infection is implicated in the development of gastric lymphoma, particularly MALT (mucosa-associated lymphoid tissue) lymphoma, through sustained antigenic stimulation of gastric lymphoid tissue, as well as gastric adenocarcinoma via chronic gastritis -- distinct from brain tumours, metastasis in general or colon carcinoma, none of which H. pylori is characteristically linked to.
+
+## explicit_objective
+State that H. pylori infection is implicated in the development of gastric lymphoma.
+
+## pitfalls
+Attributing H. pylori's carcinogenic association to brain tumours or colon carcinoma -- its established link is to gastric lymphoma (and gastric adenocarcinoma).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Bacterial carcinogenesis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"H pylori infection is involved in development of: ... Gastric lymphoma" (Quiz 45 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "H pylori gastric lymphoma" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-8B1A909A2138C4
+
+## label
+Human papilloma virus is associated with cervical cancer
+
+## canonical_key
+carcinogen.viral.hpv-cervical-cancer
+
+## aliases
+HPV cervical cancer
+Viral carcinogenesis
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Human papilloma virus (HPV), particularly high-risk strains such as HPV-16 and HPV-18, is strongly associated with cervical cancer, through viral oncoprotein inactivation of tumour suppressor gene products -- one of the best-established virus-cancer associations, distinct from endometrial, colorectal or breast cancer, none of which HPV characteristically causes.
+
+## explicit_objective
+State that human papilloma virus is associated with cervical cancer.
+
+## pitfalls
+Attributing HPV's carcinogenic association to endometrial, colorectal or breast cancer -- its best-established link is to cervical cancer.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Viral carcinogenesis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Human papilloma virus is associated with: ... Cervical cancer" (Quiz 45 Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "HPV cervical cancer" -- 0 hits. A grep sweep for "human papilloma|HPV" filtered to files also mentioning "cervical" hit only the reused Kasr EBV/oncogenic-viruses concept (which mentions HPV/cervical carcinoma in passing while its explicit_objective is EBV-focused) -- a different grain, not this HPV-specific fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-E7A5F2A0F170F0
+
+## label
+Breast cancer is not related to virus infection
+
+## canonical_key
+carcinogen.viral.breast-cancer-not-virus-related
+
+## aliases
+Non-viral cancers
+Breast cancer etiology
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Breast cancer is not classed as a virus-related malignancy in standard teaching, unlike Burkitt's lymphoma and nasopharyngeal cancer (both EBV-associated) or cervical cancer (HPV-associated), making it the one cancer among these options without an established viral carcinogenesis link.
+
+## explicit_objective
+State that breast cancer, unlike Burkitt's lymphoma, nasopharyngeal cancer or cervical cancer, is not classed as virus-related.
+
+## pitfalls
+Assuming every cancer in a virus-carcinogenesis question set has a viral association -- breast cancer is the standard teaching exception among malignancies commonly listed alongside EBV- and HPV-associated cancers.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Viral carcinogenesis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following cancer is NOT related to virus Infection: ... Breast cancer" (Quiz 45 Q8).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "breast cancer not related to virus" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-D429C114778FFB
+
+## label
+Hepatitis C virus is the most important carcinogenic virus in Egypt
+
+## canonical_key
+carcinogen.viral.hcv-most-important-in-egypt
+
+## aliases
+HCV Egypt carcinogenesis
+Most important carcinogenic virus Egypt
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hepatitis C virus (HCV) is taught as the most important carcinogenic virus in Egypt, reflecting the country's historically very high HCV prevalence and its strong association with chronic liver disease progressing to hepatocellular carcinoma -- a local-epidemiology teaching point distinct from HPV, HIV or EBV, each carcinogenic in its own right but not named as most important for this population.
+
+## explicit_objective
+State that hepatitis C virus is taught as the most important carcinogenic virus in Egypt.
+
+## pitfalls
+Naming HPV, HIV or EBV instead of HCV for this Egypt-specific "most important carcinogenic virus" question -- each is carcinogenic in its own right, but HCV is the one the printed key names as most important in this population.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Etiology of cancers and laboratory diagnosis
+
+## subtopic
+Viral carcinogenesis in Egypt
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-CANCER-ETIOLOGY-DIAGNOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AUN_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The most important carcinogenic virus in Egypt is: ... Hepatitis C virus" (Quiz 45 Q9).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 45 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "most important carcinogenic virus Egypt" and "hepatitis C egypt" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-7167065941596E
+
+## label
+Mild-to-moderate intestinal amebiasis is treated with metronidazole plus diloxanide furoate
+
+## canonical_key
+antiparasitic.metronidazole-diloxanide-furoate.mild-moderate-intestinal-amebiasis
+
+## aliases
+Amebiasis treatment
+Metronidazole plus diloxanide furoate
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+For mild-to-moderate symptomatic intestinal amebiasis, the preferred treatment combines metronidazole, a tissue amebicide treating the invasive trophozoite infection causing symptoms, with diloxanide furoate, a luminal agent that eradicates any remaining intestinal cysts once the tissue infection is treated -- unlike either drug given alone, which leaves either the tissue infection or the luminal cyst reservoir untreated.
+
+## explicit_objective
+State that mild-to-moderate symptomatic intestinal amebiasis is treated with metronidazole plus diloxanide furoate together.
+
+## pitfalls
+Treating symptomatic intestinal amebiasis with a single agent (metronidazole alone or diloxanide furoate alone) -- the combination is needed to clear both the active tissue infection and the luminal cyst reservoir.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Amebiasis treatment
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AUN_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A male patient presents with lower abdominal discomfort, flatulence, and occasional diarrhea... The preferred treatment that he should have received for the initial symptoms (which were indicative of mild-to moderate disease) is ... Metronidazole plus diloxanide furoate" (Quiz 46 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "metronidazole diloxanide furoate mild amebiasis" -- 0 hits. A grep sweep for "amebiasis|amoebiasis|entamoeba|diloxanide" hit only lifecycle/diagnosis/transmission concepts (Helwan HU-GIT-301, 6 October O6U-IMP-106) -- none is this drug-treatment fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-9B0280F43F7BC7
+
+## label
+Hydatid disease does not respond to praziquantel
+
+## canonical_key
+antiparasitic.praziquantel.not-effective-hydatid-disease
+
+## aliases
+Praziquantel spectrum
+Hydatid disease treatment exception
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hydatid disease, caused by the larval (cyst) stage of Echinococcus granulosus, does not respond reliably to praziquantel -- albendazole (often with surgical or percutaneous cyst management) is the standard treatment instead, an important exception since praziquantel is broadly effective against most other trematode and cestode infections, including paragonimiasis, pork tapeworm (Taenia solium) infection and schistosomiasis.
+
+## explicit_objective
+State that hydatid disease does not respond to praziquantel, unlike paragonimiasis, pork tapeworm infection or schistosomiasis.
+
+## pitfalls
+Assuming praziquantel's broad anti-trematode/cestode spectrum extends to hydatid disease -- Echinococcus granulosus cyst disease is a standard teaching exception, treated with albendazole instead.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Praziquantel spectrum
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which helminthic infection does not respond to treatment with praziquantel? ... Hydatid disease" (Quiz 46 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "praziquantel hydatid" -- 0 hits. A grep sweep for "praziquantel|hydatid" hit Helwan HU-GIT-301 concepts about praziquantel treating OTHER organisms (Diphyllobothrium, Heterophyes) and its Fasciola exception, plus hydatid biology (host/site/transmission) concepts -- none states this specific hydatid-treatment-failure fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-90BF44437DE710
+
+## label
+Diloxanide furoate treats asymptomatic E histolytica cyst carriage
+
+## canonical_key
+antiparasitic.diloxanide-furoate.asymptomatic-amebiasis-carriage
+
+## aliases
+Asymptomatic amebiasis treatment
+Diloxanide furoate luminal role
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diloxanide furoate is a luminal amebicide used to treat the asymptomatic colonization (cyst-passer) state of Entamoeba histolytica after acute infection has resolved, clearing the intestinal lumen of cysts and preventing relapse or transmission -- distinct from metronidazole (a tissue amebicide for active invasive infection), chloroquine (an antimalarial) or primaquine (an antimalarial targeting liver hypnozoites).
+
+## explicit_objective
+State that diloxanide furoate is used to treat the asymptomatic luminal cyst-carriage state of E. histolytica after acute infection.
+
+## pitfalls
+Assuming metronidazole alone clears the luminal cyst-carriage state -- diloxanide furoate is the luminal agent specifically indicated for this asymptomatic colonization stage.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Amebiasis treatment
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"After the acute infection, which of the following medications is given to treat the asymptomatic colonization state of E. histolytica? ... Diloxanide furoate" (Quiz 46 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "diloxanide furoate asymptomatic amebiasis" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-795A6173AED93F
+
+## label
+Chloroquine treats acute P vivax attacks but does not eradicate exoerythrocytic forms
+
+## canonical_key
+antimalarial.chloroquine.blood-stage-not-exoerythrocytic
+
+## aliases
+Chloroquine antimalarial mechanism
+Chloroquine vs primaquine roles
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chloroquine is the standard oral treatment for the acute attack of P. vivax malaria, acting on blood-stage (erythrocytic) parasites to resolve the acute illness, but it does not eradicate exoerythrocytic (dormant liver hypnozoite) forms -- so chloroquine treatment for P. vivax must be followed by primaquine, which specifically targets hypnozoites, to prevent relapse.
+
+## explicit_objective
+State that chloroquine treats the acute blood-stage attack of P. vivax malaria but does not eradicate exoerythrocytic (liver hypnozoite) forms.
+
+## pitfalls
+Assuming chloroquine alone cures P. vivax malaria -- it clears blood-stage parasites but leaves liver hypnozoites intact, requiring primaquine to prevent relapse.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Antimalarial pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AUN_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which drug should be used for oral treatment of the acute attack of P vivax malaria but does not eradicate exoerythrocytic forms of the parasite? ... Chloroquine" (Quiz 46 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "chloroquine blood stage not exoerythrocytic" -- 0 hits. A grep sweep for "chloroquine|mefloquine|malarone|atovaquone" hit only unrelated pharmacokinetics (own lane's Vd concept, q109-area) and rheumatology/dermatology hits -- none is this antimalarial mechanism fact. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-41B4A47B42B7E2
+
+## label
+Severe extraintestinal amebiasis is treated with tinidazole plus diloxanide furoate
+
+## canonical_key
+antiparasitic.tinidazole-diloxanide-furoate.severe-extraintestinal-amebiasis
+
+## aliases
+Amebic liver abscess treatment
+Tinidazole plus diloxanide furoate
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Severe extraintestinal amebiasis (such as amebic liver abscess) is effectively treated with tinidazole, a tissue amebicide related to metronidazole, combined with diloxanide furoate to eradicate any residual luminal cysts once the tissue infection is controlled -- the same tissue-agent-plus-luminal-agent pairing principle used for intestinal disease, adapted here for tinidazole's efficacy against extraintestinal (tissue) infection.
+
+## explicit_objective
+State that severe extraintestinal amebiasis is effectively treated with tinidazole plus diloxanide furoate.
+
+## pitfalls
+Treating severe extraintestinal amebiasis with a luminal-agent-only regimen, or with chloroquine alone -- the effective regimen pairs a tissue amebicide (tinidazole) with a luminal agent (diloxanide furoate).
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Amebiasis treatment
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The drug regimen most likely to be effective in treating severe extraintestinal disease in this patient is: ... Tinidazole plus diloxanide furoate" (Quiz 46 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+This question's stem ('in this patient') implies a shared vignette with Q1 (q383) that the source PDF does not print in full -- the mild-to-moderate and severe-extraintestinal scenarios are treated here as two related but distinct teaching points rather than assumed to describe literally the same patient's disease progression.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "tinidazole diloxanide furoate severe extraintestinal amebiasis" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-757C35AF7B7008
+
+## label
+Malarone manages multidrug-resistant P falciparum in endemic areas
+
+## canonical_key
+antimalarial.malarone.multidrug-resistant-falciparum
+
+## aliases
+Atovaquone-proguanil
+Malarone for resistant falciparum
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Malarone (atovaquone-proguanil) is efficiently used in the management of multidrug-resistant P. falciparum malaria in endemic areas, combining atovaquone's action on the parasite's mitochondrial electron transport chain with proguanil's antifolate activity for a synergistic effect against resistant strains -- distinct from chloroquine (ineffective against resistant strains), doxycycline (an adjunct/prophylactic agent) or primaquine (targeting liver hypnozoites and gametocytes, not blood-stage resistant infection).
+
+## explicit_objective
+State that Malarone (atovaquone-proguanil) is efficiently used to manage multidrug-resistant P. falciparum in endemic areas.
+
+## pitfalls
+Naming chloroquine, doxycycline or primaquine instead of Malarone for managing multidrug-resistant P. falciparum -- Malarone's combined mitochondrial/antifolate mechanism is what the printed key specifically identifies here.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Antimalarial pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which ONE of the following drugs is efficiently used in management of multidrug-resistant plasmodium falciparum in endemic area? ... Malarone (Atovaquone-Proguanil)" (Quiz 46 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "malarone multidrug resistant falciparum" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-B745FB1C1BCD83
+
+## label
+Mefloquine prophylaxis can still fail against P vivax relapse
+
+## canonical_key
+antimalarial.mefloquine.prophylaxis-failure-p-vivax
+
+## aliases
+Mefloquine prophylaxis
+P vivax relapse despite prophylaxis
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mefloquine is an effective prophylactic choice in chloroquine-resistant P. falciparum regions, but like chloroquine it acts only on blood-stage parasites and does not eradicate P. vivax's dormant liver hypnozoites -- so a traveller on mefloquine prophylaxis can still develop a P. vivax attack from hypnozoite reactivation, since mefloquine provides no protection against this relapse mechanism.
+
+## explicit_objective
+State that mefloquine prophylaxis does not prevent P. vivax relapse from liver hypnozoite reactivation, since it acts only on blood-stage parasites.
+
+## pitfalls
+Assuming mefloquine prophylaxis fully protects against all malaria species -- it protects against blood-stage infection (including chloroquine-resistant P. falciparum) but not against P. vivax relapse from liver hypnozoites, which require primaquine to eradicate.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+pharm
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Commonly used Antiviral, antihelmentics, antiprotozoal 1
+
+## subtopic
+Antimalarial prophylaxis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIPARASITIC-ANTIMALARIAL-1
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+AUN_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.4
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A traveler in a geographical region where chloroquine-resistant P falciparum is endemic used a drug for prophylaxis but nevertheless developed a severe attack of P vivax malaria. The drug used for prophylaxis was probably: ... Mefloquine" (Quiz 46 Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 46 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "mefloquine prophylaxis failure P vivax" -- 0 hits. This same clinical fact is tested separately (unauthored) in this lane's final-exam source pool (a different PDF, out of this cluster's scope) -- no concept exists there yet either, so no cross-pool reuse applies. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-323905D76583CF
+
+## label
+Papilloma is the benign epithelial tumour of non-glandular surfaces
+
+## canonical_key
+neoplasia.papilloma.benign-non-glandular-epithelial-tumour
+
+## aliases
+Papilloma classification
+Papillary projections
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Papilloma is the benign epithelial cell neoplasm derived from non-glandular surfaces (such as skin or mucosal squamous epithelium), characteristically growing as multiple finger-like (papillary) projections outward from the epithelial surface -- distinguishing it from adenoma (the benign tumour of glandular epithelium), the malignant epithelial/mesenchymal options (squamous cell carcinoma, sarcoma, lymphoma), fibroma (a benign mesenchymal, not epithelial, tumour) and hamartoma (a developmental malformation rather than a true neoplasm).
+
+## explicit_objective
+Identify papilloma as the benign epithelial tumour arising from non-glandular surfaces, characterised grossly by multiple finger-like projections.
+
+## pitfalls
+Confusing papilloma with adenoma (glandular origin), a malignant epithelial or mesenchymal tumour, fibroma (mesenchymal) or hamartoma (a malformation, not a neoplasm) -- papilloma is specifically the benign, non-glandular, papillary-projection epithelial tumour.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Benign epithelial tumors classification and examples
+
+## subtopic
+Papilloma classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-BENIGN-EPITHELIAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A benign epithelial cell neoplasm derived from non-glandular surfaces is referred to as: ... Papilloma" (Quiz 47 Q1/Q2). "Which of the following is a benign tumor of the epithelium characterized by multiple finger like projections? ... Papilloma" (Quiz 47 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 47 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "papilloma non-glandular benign epithelial tumor" -- 0 hits. A grep sweep for "papilloma.*benign|adenoma.*benign|benign.*papilloma|benign.*adenoma" hit only this lane's own unrelated angioma-capsulation concept -- no duplicate. New concept, collapsing Q1/Q2 (literal duplicate, options reordered) and Q5 (same tumour type's morphology angle) onto one record.
+
+---
+
+# Item
+
+## id
+CON-FND-F9DB9176CB94DF
+
+## label
+Adenoma is the benign tumour of glandular epithelium
+
+## canonical_key
+neoplasia.adenoma.benign-glandular-tumour
+
+## aliases
+Adenoma classification
+Benign glandular tumour
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Adenoma is the term for a benign tumour of glandular epithelial origin, forming gland-like or duct-like structures resembling the tissue it arises from -- distinguishing it from papilloma (the benign tumour of non-glandular surfaces), carcinoma (a malignant epithelial tumour), a Krukenberg tumour (a specific metastatic, not primary benign, ovarian tumour) and the general behavioural descriptor "malignant."
+
+## explicit_objective
+Identify adenoma as the benign tumour of glandular epithelial origin.
+
+## pitfalls
+Confusing adenoma with papilloma (non-glandular origin), carcinoma (malignant), a Krukenberg tumour (a specific metastatic ovarian tumour) or the general term "malignant" -- adenoma is specifically the benign, glandular-origin epithelial tumour.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Benign epithelial tumors classification and examples
+
+## subtopic
+Adenoma classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-BENIGN-EPITHELIAL-TUMORS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"If a tumor is benign and glandular in origin, what is it called? ... Adenoma" (Quiz 47 Q3/Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 47 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "adenoma benign glandular tumor" -- 0 hits. New concept, collapsing Q3/Q4 (literal duplicate, options reordered) onto one record.

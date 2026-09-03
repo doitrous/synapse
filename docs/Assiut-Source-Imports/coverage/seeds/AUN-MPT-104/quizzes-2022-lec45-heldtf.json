@@ -1,0 +1,43 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank Lecture 45 (Etiology of cancers and laboratory diagnosis) True/False-formatted rows (Quiz 45 Q11-Q19, q374-q382). Held as format-incompatible: the emit-mcq.mjs/validate-content-batch.mjs contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed -- same reasoning as this lane's earlier True/False and match-type holds.",
+  "questions": [
+    {
+      "key": "quizzes-2022-q374",
+      "hold": "True/False-formatted question (Quiz 45 Q11, p183: 'Oncogenes are genes responsible for initiation and progression of cancer.' -- printed answer 'True'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed. The underlying fact is already covered by this same lecture's authored Q5 (q368, oncogenes promoting autonomous cell growth) -- not a coverage gap."
+    },
+    {
+      "key": "quizzes-2022-q375",
+      "hold": "True/False-formatted question (Quiz 45 Q12, p184: 'Tumour markers are proteins produced by the tumours and help in the diagnosis of cancer.' -- printed answer 'True'). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong definitions the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q376",
+      "hold": "True/False-formatted question (Quiz 45 Q13, p184: 'Histologic examination of the tumour is NOT the most definite method of cancer diagnosis.' -- printed answer 'False', since histologic examination IS the definitive/gold-standard method of cancer diagnosis). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong diagnostic-method claims the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q377",
+      "hold": "True/False-formatted question (Quiz 45 Q14, p184: 'breast cancer is one of hormone dependant tumors' -- printed answer 'True'). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong hormone-dependence claims the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q378",
+      "hold": "True/False-formatted question (Quiz 45 Q15, p184: 'Anticnacer treatment are implicated in development of other malignanci[es]' -- printed answer 'True', i.e. anticancer treatment can itself be carcinogenic, e.g. secondary leukaemia after chemotherapy). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong claims the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q379",
+      "hold": "True/False-formatted question (Quiz 45 Q16, p185: 'Tumour markers are antigens produced by the tumours in blood and help in the diagnosis of cancer.' -- printed answer 'True'). Held as format-incompatible, same reasoning as q374. This restates q375's tumour-marker idea from an 'antigens' rather than 'proteins' framing -- not a coverage gap, but equally untranslatable into a real 4-5-option MCQ without fabricating a distractor set."
+    },
+    {
+      "key": "quizzes-2022-q380",
+      "hold": "True/False-formatted question (Quiz 45 Q17, p185: 'Histologic examination of the tumour is NOT the most definite method of cancer diagnosis.' -- printed answer 'False'). Held as format-incompatible, same reasoning as q374. This is a verbatim repeat of q376 within the same quiz -- not a coverage gap."
+    },
+    {
+      "key": "quizzes-2022-q381",
+      "hold": "True/False-formatted question (Quiz 45 Q18, p185: 'Precancerous lesions are stage 1 of cancer' -- printed answer 'False', since a precancerous lesion is not itself a staged cancer). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong staging claims the source never tested -- not resolvable without fabricating content."
+    },
+    {
+      "key": "quizzes-2022-q382",
+      "hold": "True/False-formatted question (Quiz 45 Q19, p185: 'Some benign tumors are considered as precancerous lesions' -- printed answer 'True'). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong claims the source never tested -- not resolvable without fabricating content."
+    }
+  ]
+}

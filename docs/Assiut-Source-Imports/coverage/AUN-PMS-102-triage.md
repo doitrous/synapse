@@ -743,6 +743,174 @@ missing link, not a rewrite of someone else's record.
   centrioles, cell cycle S phase, cell death, stem cell division,
   progenitor cells) returned 0 hits -- safe to create, all minted new.
 
+## Cluster authored this pass (lane 5): pp.23-30 top-up ("pmsfront2"), QUIZ11&12 ("pmstail2" window 2) and the pp.201-217 render pool ("pmstail2" window 3)
+
+Three open windows carried forward from lane 4's own "REMAINING" notes above.
+**Window 1** clears pmsfront's own p23-30 top-up pool in full: 18 raw
+questions, 17 distinct facts after Quiz 9 Q25/Q26's duplicate-collapse
+(both print "deep fascia around the kidney = Capsule"). **Window 2** clears
+pmstail's own QUIZ11&12 top-up pool in full: 5 usable skeletal gross-anatomy
+items (clavicle, scapula, humerus, femur, fibula), all authored. **Window 3**
+renders 8 of the pp.201-217 pages lane 4 flagged as render-recoverable --
+p203, p205, p207, p209, p211, p212, p214, p215 (`pagetext.mjs mark-garbled`
++ `render`, one call per page, well under the 14-render cap) -- and authors
+every SBA whose stem and key are both legible there. Several further facts
+came free without any render, recovered from a sibling page's own
+fully-legible restatement of the same fact: p204's Quiz 31-32 Q11-15 (which
+duplicate p202's own blank-stem Q1-5), p213's Quiz 36-37 Q10-12 (which
+duplicate p211's own blank-stem Q3-5), and p216-217's Quiz 38-41 Q10-13 and
+Quiz 40 Q1-5 (which duplicate several of p214-215's own blank-stem items).
+
+**67 questions authored this pass** (17 pmsfront2 + 5 + 40 pmstail2 = 45):
+`coverage/seeds/AUN-PMS-102/pmsfront2.json` ->
+`question/AUN-PMS-102-pmsfront2-mcq.md`,
+`coverage/seeds/AUN-PMS-102/pmstail2.json` ->
+`question/AUN-PMS-102-pmstail2-mcq.md`. 23 newly-minted concepts (8
+pmsfront2: hip joint, epidermis, body-wall fascia envelopes, shoulder
+medial rotation, fusiform muscle, antagonist muscle, renal capsule,
+centrosome; 15 pmstail2: 5 limb-bone facts plus 10 spermatogenesis/
+oogenesis/fertilization/connective-tissue-and-blood facts) with 5 new
+articles (`article/AUN-PMS-102-pmsfront2-articles.md`: body wall coverings
+and fascia; `article/AUN-PMS-102-pmstail2-articles.md`: limb bones,
+spermatogenesis, fertilization/cleavage, connective-tissue ground
+substance). 21 questions reuse 21 existing concepts from
+`docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` and
+`101-ISK-concepts.md` (fibrous joint, pneumatic bone, axial skeleton, red
+bone marrow, gamete morphology, connective-tissue fibre types/stains,
+tendon/muscle-attachment, loose areolar CT, fibroblast, adipocyte,
+basophil, red corpuscle, neutrophil) via
+`pending-live/AUN-PMS-102-pmsfront2-overlay.md` and
+`pending-live/AUN-PMS-102-pmstail2-overlay.md`, plus one **live** concept
+(`CON-DEV-623698E111AA4B`, gametogenesis timing, reused directly across 4
+questions with no overlay row) and 2 **live** own-module concepts from
+lane 4 (patella's sesamoid-bone definition, humerus's long-bone/shaft
+definition). 4 further questions reuse 4 external concepts from
+`docs/Menoufia-Source-Imports/concept/MU-MED101-concepts.md` (elbow hinge
+joint), `docs/Alexandria-Source-Imports/concept/AU-MED-102-embryology-concepts.md`
+(sperm capacitation, reused across 2 questions) and
+`docs/Ain-Shams-Source-Imports/concept/ASU-AE-embryo1-new-concepts.md` /
+`ASU-AE-embryo2-q11-69-new-concepts.md` (corpus luteum duration, morula
+transit timing, fertilisation site reused across 2 questions, zona
+pellucida persistence).
+
+**Two article-field gaps fixed in the reused corpus, not this lane's own
+records**, following lane 4's own heterochromatin precedent (a sparse
+overlay row adds the missing/mismatched `article_ids` entry, since
+`conceptImport.ts` merges `article_ids` additively rather than
+overwriting): the reused fibrous-joint concept
+(`CON-MSK-17E2267FB4758F`) carried only `ART-101-ANA-SYNOVIAL-JOINTS` in
+its own `article_ids`, a mismatch for a fibrous-joint fact, when a
+dedicated `ART-101-ANA-FIBROUS-JOINTS` article exists in the same source
+file and states the fact directly -- the overlay adds it. The reused
+connective-tissue-fibre-types concept (`CON-FND-6F4EB91B19C122`) carried
+only `ART-101-HIS-CONNECTIVE-TISSUE-CELLS` and an unrelated placenta
+article, when a dedicated `ART-101-HIS-CONNECTIVE-TISSUE-FIBRES` article
+exists -- the overlay adds it. (An early draft of both overlay rows wrote
+the addition as `+ART-...`, matching the `+` convention used for
+tag-array fields like `universities`; `article_ids` is a plain merge with
+no `+` operator, per `validate-content-batch.mjs`'s own
+`foldInSiblings` -- corrected to a bare `ART-...` line, matching lane 4's
+own `ART-101-HIS-NUCLEUS` precedent, before the gates were run.)
+
+### Held items (this pass)
+
+- **Quiz 38-41 Q3** (p214, "the ovulated mammalian oocyte is arrested
+  at"): options C and D are both printed as "prophase of meiosis I" --
+  collapsing 4 printed options to 3 distinct ones. Held per LANE-CARD S2's
+  floor rule (lane-1 Quiz54-57 Q16/Q26 precedent); the same fact (meiosis
+  II arrest) is authored instead from pmstail2-q32's own clean printing
+  (p211 Q2).
+- **p215 Q9** ("increased glycogen and lipid deposits are part of the
+  [phase]"): only 3 options printed (proliferative/menstrual/secretory).
+  Held per LANE-CARD S2's floor rule.
+- **Quiz 38-41 Q11** (p216, "in the corpus luteum:"): only 3 options
+  printed (thecal-and-lutein / granulosa-and-lutein /
+  thecal-and-granulosa cells). Held per LANE-CARD S2's floor rule; the
+  related but distinct granulosa-progesterone fact is authored instead as
+  pmstail2-q45 from a different item (p215 Q10).
+- **Quiz 38-41 Q12** (p216, "ovulation is caused by"): only 3 options
+  printed (progesterone/FSH/LH surge). The same underlying LH-surge fact
+  is authored instead from pmstail2-q37's own clean 4-option printing
+  (p212 Q7); logged as duplicate-of, not held for a content defect.
+- **Quiz 38-41 Q13** (p216, "name the hormone"): an ovarian-cycle diagram
+  with no printed text options -- image-dependent, not authored.
+
+### Concept search notes (this pass)
+
+`find-existing.mjs` run for every distinct tested idea before minting (55+
+queries; key results below, full log also in this lane's own session
+commands):
+
+- **General gross anatomy (joints, gross skeletal facts) is only partly
+  saturated**: "fibrous joint" and "axial skeleton" and "pneumatic bone"
+  each returned an exact-fact 101-ISK concept, reused via overlay; "hip
+  joint ball and socket", "hematopoiesis red bone marrow" (the specific
+  site-fact framing), and all 5 of pmstail2's own named-bone facts
+  (clavicle, scapula, humerus, femur, fibula) returned 0 hits -- safe to
+  create, all minted new. "elbow joint" surfaced a same-fact concept in
+  `docs/Menoufia-Source-Imports/concept/MU-MED101-concepts.md`, the first
+  cross-university (non-Kasr) gross-anatomy reuse in this AUN-PMS-102
+  lane.
+- **Reproductive physiology (spermatogenesis process mechanics,
+  fertilization outcomes, ovarian-cycle hormones) is saturated for
+  *timing* facts but not for *process* facts**: the live
+  `CON-DEV-623698E111AA4B` (gametogenesis timing) concept alone covers 4
+  of this pass's own questions (spermatogenesis-after-puberty,
+  oogenesis-starts-intrauterine, oocyte-arrested-until-puberty,
+  ovulation-day-14) since its own definition states all four facts
+  directly. `docs/Ain-Shams-Source-Imports/concept/
+  ASU-AE-embryo2-q11-69-new-concepts.md` and
+  `docs/Alexandria-Source-Imports/concept/AU-MED-102-embryology-concepts.md`
+  each supplied an exact-fact match for fertilisation site, transit
+  timing, zona pellucida persistence and capacitation. But the granular
+  *process mechanics* facts (aspermia's definition, spermatogenesis's own
+  meiosis-plus-spermiogenesis composition, FSH's two Sertoli-cell
+  actions, the primary spermatocyte's mitotic origin, acrosome formation
+  from the Golgi, sperm/ovum viability windows, pronuclei, the cleavage
+  definition, granulosa-cell progesterone) each returned 0 hits -- safe
+  to create, all minted new.
+- **Connective tissue and blood are saturated for cell/fibre *identity*
+  facts, not for every specific sub-claim**: "fibroblast", "tendon dense
+  regular", "lamina propria loose", "myosin excluded fiber" and "elastic
+  orcein" each returned an exact-fact 101-ISK concept, reused via
+  overlay; the basophil, neutrophil and red-corpuscle concepts each
+  turned out to cover *two* of this pass's own questions apiece (basophil
+  count-and-function; neutrophil nucleus shape; red-corpuscle shape-and-
+  function), an efficiency this pass's own search notes had not
+  anticipated going in. "Mast cell secretes histamine" and "hyaluronic
+  acid most common GAG" both returned 0 hits despite the adjacent
+  saturation -- a targeted grep of every mast-cell and hyaluronic-acid
+  mention in the reused corpus confirmed neither fact is stated anywhere,
+  only named in passing inside other cells' or tissues' own records; both
+  minted new.
+- 15+ further queries (bipennate/fusiform muscle shape, antagonist
+  muscle, superficial/deep fascia as body envelopes, epidermis, renal
+  capsule, centrosome, spermatid chromosome content already covered by
+  gamete morphology) either returned 0 hits (safe to create) or
+  identified a live/pending record covering a *different* specific claim
+  than this pass's own (e.g. the reused pennate-muscle concept lists
+  parallel/unipennate/bipennate/multipennate but never names "fusiform",
+  a genuine gap rather than a duplicate).
+
+## Placement (this pass)
+
+The 8 newly-minted pmsfront2 concepts split by subject: `msk` (6: hip
+joint, body-wall fascia envelopes, medial rotation, fusiform muscle,
+antagonist muscle), `derm` (1: epidermis) and `renal` (1: renal capsule).
+The 15 newly-minted pmstail2 concepts split: `msk` (5: the named-bone
+facts), `androl` (4: aspermia, spermatogenesis process, FSH/LH
+regulation, spermiogenesis stages), `fnd` (2: hyaluronic acid, mast
+cell), `dev` (2: post-ovulation oocyte fate, fertilization/cleavage) and
+`gyn` (2: LH-triggers-ovulation, granulosa-progesterone) -- following
+00-START-HERE.md's 20-subject list and this lane's own established
+`androl`/`renal`/`derm` short-form-vs-full-string trap (the
+`mint-concept-id.mjs` ID prefix uses short system codes like `REN`/`DER`/
+`AND`, but the record's own `## subject` field must use the full
+`CURRICULUM_SUBJECTS` id -- `renal`, `derm`, `androl` -- not the short
+prefix; caught by `validate-content-batch.mjs` on the first run and fixed
+before the simulate gate, logged here so a future lane does not repeat
+it).
+
 ## Checkpoint table
 
 | Module | Questions triaged | Keys recovered | Held (conflict/corrupted) | Distinct concepts identified | Live-hit | Pending-hit | New |

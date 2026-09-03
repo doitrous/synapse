@@ -313,3 +313,379 @@ pass's cap alongside Q3/Q4 above.
   not yet authored).
 - pp.31-259 of `All quizzes CBF .pdf` (229 pages, the great majority of the
   source) are not yet OCR'd or triaged -- queued for a future lane.
+
+## S3 lane 3 addendum -- `All quizzes CBF .pdf`, completing pp.1-30 + OCR'd pp.31-90
+
+Lane 3 (`aun-cbf103-author3`) had two jobs per dispatch: (1) author the 16
+keyed-but-unauthored items lane 2 left on pp.1-30 (Quiz9-10 Q2-7, Quiz7&8
+Q35-44 -- the 6 lane-2 holds, Quiz3&6 Q3/Q4/Q7 and Quiz7&8 Q3/Q32-34, are
+untouched, per dispatch); (2) OCR and triage pp.31-90.
+
+**OCR.** pp.31-90 were 0-word-native (`pagetext.mjs status`), already
+correctly auto-flagged `garbled=yes` -- no `mark-garbled` needed (unlike the
+CamScanner false-negative case elsewhere in this corpus). `pagetext.mjs ocr
+--pages 31-60` then `--pages 61-90` produced 19-207 words/page throughout
+(one low outlier, p36 at 31 words, still legible), no re-OCR needed anywhere.
+One page-break truncation was found and could not be recovered by reading
+alone (QuizCarb-Q8 / QuizMetRate-Q8, p64-65 boundary, see below).
+
+**Format shift at p37.** The Moodle "Home > My courses" attempt-review
+export format (matching lane 2's pp.1-30 reads) continues through p56, then
+p57-59 (TCA quiz) still matches it, but p37-56 and p60-90 switch to a
+**phone-screenshot export** of the same Moodle quiz UI (status-bar clock,
+"Not Secure -- aunonline.aun.edu.eg" browser chrome, "Scanned with
+CamScanner" footer) -- still the same printed **"The correct answer is:
+..."** key format, still plain OCR text, no visual-marker reading needed,
+just a different physical capture of the same underlying quiz platform.
+
+**Quiz blocks found in pp.31-90:**
+
+| Block | Pages | Raw Qs | Topic | Format |
+|---|---|--:|---|---|
+| Quiz9-10 (cont.) | 31-32 | 6 (Q8-13) | Enzyme kinetics, isoenzymes | Moodle export |
+| Quiz11&12 | 34-35 | 4 (Q1-4) | Cell membrane transport, tonicity | Moodle export |
+| (untitled, "QuizCarb") | 37-56 | 22 (Q1-22) | Carbohydrate metabolism/glycolysis | Screenshot |
+| (untitled, "QuizTCA") | 57-59 | 5 (Q1-5) | Citric acid cycle | Moodle export |
+| (untitled, "QuizMetRate") | 60-65 | 10 (Q1-10) | Respiratory quotient, metabolic rate | Screenshot, mostly fill-in |
+| (untitled, "QuizDNARNA") | 66-71 | 6 (Q1-6) | Transcription, RNA processing | Screenshot |
+| (untitled, "QuizObesity") | 72-78 | 10 (Q1-10) | Obesity, leptin | Screenshot, partly fill-in |
+| Quiz21 | 79-86 | 12 (Q1-12) | Oxidative phosphorylation/RCH | Screenshot, multi-select |
+| Quiz22 | 87-90 | 11 (Q1-11) | Oxygen toxicity, free radicals | Screenshot |
+
+**Keys: every raw item read (86 across pp.31-90) carries a printed key**
+via "The correct answer is:" (or the True/False variant), same as lane 2's
+pp.1-30 pass -- **no key conflicts** anywhere in this range.
+
+**Out-of-format items, logged not authored (not held for a key defect --
+simply not SBA-shape):** Quiz11&12 Q1 (True/False), QuizCarb Q1-5 (True/
+False, Cori-cycle related), QuizMetRate Q1-5 (fill-in-the-blank, RQ
+definitions), QuizMetRate Q6 (a growth-hormone/fever/sleep/malnutrition
+table-matrix answer, not a clean single letter), QuizObesity Q1-5
+(fill-in-the-blank), Quiz21 Q1-12 (all 12 are "select all correct answers"
+multi-select, not single-best-answer -- this entire quiz is out of format),
+Quiz22 Q9-11 (True/False). 45 items total logged out-of-format.
+
+**Unrecoverable OCR (1 item, held):** a "concerning respiratory quotient,
+the following are true except" item's own options (c)-(e) and printed
+answer fall exactly across the p64/p65 page-break in the screenshot capture
+-- the OCR text on p64 ends mid-option and p65's OCR begins with the next
+question's stem instead of finishing this one. Logged as `QuizCarb-Q8` /
+`QuizMetRate-Q8` (page-adjacent, ambiguous which numbered quiz it belongs
+to) in `coverage/AUN-CBF-103-triage-keys.txt`, key=UNRECOVERABLE, held per
+the standing rule that unrecoverable OCR is a hold, not a guess.
+
+**Authored this pass: 46 (16 completing pp.1-30 + 30 from pp.31-90),
+against a target of 45-55.** Held for a future lane purely to stay in that
+target band, no defect: QuizCarb Q15/16/18-22 (6, PFK-1
+inhibitor/GLUT-1/hexokinase-glucokinase/GAPDH/PK-deficiency facts, all
+keyed and concept-searched, reuse candidates identified but not authored),
+QuizMetRate Q7/9/10 (3, BMR facts), QuizDNARNA Q1/4/5 (3, RNA-alkaline-
+hydrolysis/mRNA-protein-colinearity/RNA-polymerase-promoter facts -- concept
+search done, new mints identified but not authored), QuizObesity Q6-10 (5,
+leptin/NPY/body-fat facts, likely reuse of this lane's own obesity concepts
+from `cbf-bank-q099`-`q102`), Quiz22 Q5-8 (4, antioxidant-classification and
+phagocyte-oxidative-killing facts, concept search done, two new-mint
+concepts identified but not authored). All logged in
+`coverage/AUN-CBF-103-triage-keys.txt` with their printed key and a `(cap,
+keyed)` note -- no key conflict, no source defect, purely a budget cap.
+
+## Concept search notes (lane 3, `find-existing.mjs` + broad `grep -ril` against live state + every `docs/*-Source-Imports` root + `docs/import-ready`)
+
+- **Enzyme kinetics/inhibition/isoenzymes (Quiz9-10 Q2-13):** `find-existing.mjs`
+  itself returned 0 hits for "enzyme rate of reaction temperature optimum"
+  etc, but a broad `grep -ril "enzyme kinetics\|Km\|rate of reaction"`
+  surfaced `docs/Alexandria-Source-Imports/pending-live/AU-MED-102-biochem-
+  enzymology-overlays.md`, which pointed to a rich pending KAU 102-INT
+  enzymology cluster (`docs/import-ready/concept/102-INT-mcq-concepts.md`,
+  `102-INT-concepts.md`) -- four concepts reused: `CON-FND-F29934C070A94C`
+  (factors affecting enzyme rate: [S], enzyme/cofactor conc, temperature,
+  pH -- reused for Q5-Q11, Q17-Q20, ten questions off one concept, same
+  consolidation philosophy as lane 2's water-soluble-vitamins precedent),
+  `CON-FND-42EE1863F04920` (irreversible inhibition), `CON-FND-5846431203789F`
+  (active site lowers activation energy), `CON-FND-DD3EE5EC8C07D1` (LDH/CK
+  isoenzymes). Q3/Q4 reuse lane 2's own `CON-FND-D17966222A3693` (ASU-IBM
+  active site), extending its existing `cbfquiz-pending-asuibm` overlay.
+- **Cell membrane diffusion/tonicity (Quiz11&12 Q2-4):**
+  `find-existing.mjs "hypertonic solution red blood cells NaCl"` -- 0 hits;
+  Q2/Q3 (fat-soluble diffusion, protein-channel diffusion rate) matched the
+  same pending Kasr 103-BMS-physiology diffusion/osmosis concept
+  (`CON-NEU-1D5DC2D67A5291`) this lane's own `cbf-bank-q103`-`q125` block
+  already reused, per that concept's own field_notes cross-reference. Q4
+  (1.0% NaCl hypertonic) found no existing tonicity concept anywhere in the
+  corpus (broad grep for "hypotonic/hypertonic/isotonic/tonicity" returned
+  only unrelated CNS-tone hits) -- minted `CON-FND-08A3DBFA90D950`.
+- **Carbohydrate metabolism / glycolysis / TCA cycle (QuizCarb Q6-14,
+  QuizTCA Q1-5):** `find-existing.mjs` for GLUT-4/glucokinase/PET-tracer
+  terms returned 0 hits each, but `grep -rl "glucokinase\|hexokinase"`
+  surfaced `docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-
+  concepts.md` -- a 35-concept file covering this exact syllabus segment in
+  depth. Eleven of its concepts reused across 23 questions (GLUT-4/GLUT-2
+  transport, hexokinase/glucokinase kinetics, lactate/NAD+ regeneration,
+  glycolysis's committed step, substrate-level phosphorylation, fluoride/
+  enolase, TCA amphibolism, pyruvate carboxylase anaplerosis, PDH's five
+  coenzymes, oxaloacetate regeneration, succinate dehydrogenase's flavoprotein
+  exception) -- all extending lane 2's existing `cbfquiz-pending-103bms`
+  overlay (which already carried three concepts from this same Kasr
+  103-BMS lane), rather than opening a new overlay file, per that file's own
+  precedent of grouping every reused Kasr-103-BMS concept together
+  regardless of which specific sub-file mints it.
+- **Transcription/RNA processing (QuizDNARNA Q2, Q3, Q6):**
+  `find-existing.mjs` for alpha-amanitin/spliceosome/RNA-polymerase-
+  promoter terms -- 0 hits each; broad `grep -ril "RNA polymerase|
+  transcription"` surfaced `docs/Alexandria-Source-Imports/concept/AU-MED-
+  102-biochem-molecular-concepts.md`, a 43-concept molecular-biology file.
+  Three concepts reused: `CON-FND-412F3EDF118F44` (RNA polymerase
+  gene-class specificity, matches the alpha-amanitin/Pol-II vignette
+  exactly), `CON-FND-5FF8EB2DB4D662` (mRNA processing/splicing),
+  `CON-FND-D717E6E7EEA466` (coding-strand-vs-mRNA, verified by hand-deriving
+  the antiparallel complement of the given DNA template against the printed
+  key -- matches exactly).
+- **Free radicals / oxygen toxicity (Quiz22 Q1-4):** `find-existing.mjs`
+  for free-radical/ROS/antioxidant/PUFA terms -- 0 hits each; broad
+  `grep -ril "free radical|antioxidant|reactive oxygen species"` returned
+  only passing mentions inside unrelated pathology/shock records across many
+  other lanes' concept files, no dedicated concept anywhere in the corpus --
+  safe to mint. Consolidated all four Quiz22 Q1-4 stems (ROS identity,
+  radical-forming substrate classes, free-radical effects, PUFA
+  vulnerability) into one new concept, `CON-FND-CB46E0408C4FF2`, rather than
+  fragmenting, matching this lane's established consolidation pattern.
+
+## Needs Omar / open items (lane 3)
+
+- QuizCarb Q15/16/18-22, QuizMetRate Q7/9/10, QuizDNARNA Q1/4/5, QuizObesity
+  Q6-10 and Quiz22 Q5-8 (23 items total) are legible, keyed and (for all but
+  QuizDNARNA Q1/4/5 and Quiz22 Q5-8, where concept search only, not minting,
+  was done) concept-searched, held purely to keep this pass's authored
+  count in the 45-55 target band -- no key conflict, no source defect.
+  Queued for a future AUN-CBF-103 lane, listed with their printed key and a
+  `(cap, keyed)` note in `coverage/AUN-CBF-103-triage-keys.txt`.
+- `QuizCarb-Q8` / `QuizMetRate-Q8` (p64-65) -- the one item this pass could
+  not recover: its own options and printed key fall exactly across a
+  page-break in the screenshot-format capture. A second copy of this quiz
+  (if Omar has one) or a targeted re-render of pp.64-65 at higher DPI would
+  be worth trying before writing it off entirely.
+- pp.91-259 of `All quizzes CBF .pdf` (169 pages, most of the source) are
+  not yet OCR'd or triaged -- queued for a future lane.
+
+## S3 lane 4 addendum -- `All quizzes CBF .pdf`, OCR'd pp.91-210, authored pp.91-149
+
+Lane 4 (`aun-cbf103-author4`) picks up where lane 3 stopped: dispatch scope
+was pp.91+, the open window lane 3 left. **OCR.** pp.91-150 were already
+correctly auto-flagged `garbled=yes` (0-word-native) -- `pagetext.mjs ocr
+--pages 91-150` then `--pages 151-210` produced 67-216 words/page throughout
+(no low-quality outliers), no `mark-garbled` or re-OCR needed anywhere.
+pp.211-259 remain un-OCR'd, queued for a future lane. This pass authored
+pp.91-149 only (169 pages of OCR bought, 59 pages authored this pass,
+leaving pp.150-210 already OCR'd and ready for the next lane to read
+straight from cache).
+
+**Format.** Same Moodle attempt-review export pattern as lanes 2-3
+throughout pp.91-149: "The correct answer is: ..." printed directly as
+plain OCR text, no visual-marker reading needed. Two format variants
+recur (matching lane 3's earlier observation): the "Home > My courses"
+browser-chrome capture (pp.92-113) and the phone-screenshot capture with
+"Not Secure -- aunonline.aun.edu.eg" browser chrome and "Scanned with
+CamScanner" footer (pp.114-149), both still printing the same key line.
+
+**Quiz blocks found in pp.91-149:**
+
+| Block | Pages | Raw Qs | Topic |
+|---|---|--:|---|
+| Quiz23&24 handout | 92-94 | 4 | Nerve impulse / action potential |
+| Quiz28 | 96-99 | 7 | Glucose regulation, diabetes |
+| Quiz29&30 | 101-103 | 5 | Glycogen metabolism |
+| Quiz33-34 | 105-107 | 7 | Autonomic (sympathetic) effects |
+| Quiz58&59 | 109-112 | 10 | Thermoregulation |
+| Quiz26-27 | 114-116 | 3 | Nerve excitability (rheobase, monophasic AP) |
+| Quiz31&32 | 117-129 | 12 | Lipid biochemistry |
+| Quiz35&36 | 130-137 | 8 | Fatty acid oxidation/lipogenesis |
+| Quiz37&38 | 138-142 | 5 | Autonomic (parasympathetic) effects |
+| Quiz41&42 | 143-149 | 7 | Amino acid nitrogen, urea cycle |
+
+**Keys: all 68 raw items read this pass carry a printed key (100%)** via
+"The correct answer is:" (or the True/False variant) -- no key conflicts
+anywhere in pp.91-149, matching lanes 2-3's experience with this source.
+
+**Authored this pass: 55**, against the ~45-55 target band. **Held: 13**,
+all format/defect holds, no key conflicts:
+- Quiz23&24 Q2, Q4 (p93-94) -- HELD, diagram-dependent: both ask "at which
+  point" on an action-potential voltage-time graph whose point labels are
+  only meaningful from the image itself, not recoverable as clean text even
+  though the printed numeric answer survived OCR.
+- Quiz33-34 Q5-Q7 (p107) -- HELD, near-verbatim duplicates of Q1-Q3 from
+  the same Moodle pool (same stems, same printed keys, matching this
+  corpus's established repeated-pool-item pattern).
+- Quiz58&59 Q1-Q4 (p109-110) -- HELD, fill-in-the-blank, not SBA-shape.
+- Quiz58&59 Q10 (p112) -- HELD, table-matrix matching format, not a clean
+  single-letter SBA.
+- Quiz26-27 Q1 (p114) -- HELD, True/False, not SBA-shape.
+- Quiz26-27 Q2 (p115) -- HELD, degenerate options: the OCR'd option list
+  shows only two distinct answer texts each printed twice (options a/c
+  identical, b/d identical), leaving fewer than 4 genuinely distinct
+  options -- held per the <4-options rule rather than guessed at.
+- Quiz31&32 Q2 (p119) -- HELD, dual-answer: the printed key itself reads
+  "The correct answers are: Cholesterol, Long chain Alcohol" (plural),
+  with the option text annotated "Both cholesterol and long chain is
+  correct" -- not single-best-answer despite the "Select one:" label, held
+  rather than picking one of the two correct options arbitrarily.
+
+**Item count reconciliation:** 68 raw items read (4+7+5+7+10+3+12+8+5+7) =
+55 authored + 13 held, both fully accounted.
+
+## Concept search notes (lane 4, `find-existing.mjs` + broad `grep -ril`
+against live state + every `docs/*-Source-Imports` root + `docs/import-ready`)
+
+- **Nerve impulse general definition / repolarisation / monophasic
+  recording (Quiz23&24 Q1, Q3; Quiz26-27 Q3):** `find-existing.mjs` for
+  "nerve impulse electrochemical" -- 0 hits, minted `CON-NEU-0023C82A30A2CA`.
+  Broad `grep -n "repolariz|efflux|electrochemical"` against
+  `docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md`
+  surfaced two pending Kasr concepts already covering the remaining facts
+  exactly: `CON-NEU-DD9033DCA3AAF1` (repolarisation = Na+ inactivation +
+  delayed K+ efflux) for Q3, and `CON-NEU-8E195C4C7D9BFF` (monophasic vs
+  biphasic recording, already stating that damage between electrodes
+  produces a monophasic record) for Quiz26-27 Q3 -- a near-match reuse
+  (the source concept doesn't use the phrase "current of injury" but
+  states the identical mechanism), not a duplicate mint. Both overlaid in
+  a new file, `pending-live/AUN-CBF-103-cbftail-pending-103bmsnerve-*`
+  (this source file had no prior AUN-CBF-103 overlay).
+- **Glucose homeostasis organs (Quiz28 Q1-Q4):** `find-existing.mjs` for
+  "insulin beta cells pancreas secretion" -- 0 hits; broad grep for "beta
+  cells|pancreatic beta" returned only the unrelated Kasr 103-BMS
+  type-1-vs-type-2-diabetes concept (reused separately below) -- no
+  existing record states the basic islet-cell/kidney/thyroid/liver
+  glucose-homeostasis roles this four-question block tests. Consolidated
+  into one new concept (`CON-FND-43CE940A66A057`) rather than four,
+  matching lanes 2-3's established practice of grouping several small,
+  genuinely distinct facts one exam block tests together.
+- **OGTT diagnosis, C-peptide/type-1 diabetes, biotin/pyruvate carboxylase
+  (Quiz28 Q5-Q7):** `grep -rl "glycogen storage disease|von gierke"`-style
+  broad greps surfaced `docs/Kasr-Source-Imports/concept/
+  103-BMS-mcq-lipid-concepts.md` as a rich pending diabetes-and-lipoprotein
+  concept file -- `CON-END-AC5B11BA2F2BCA` (diabetes diagnostic
+  thresholds) reused for Q5, `CON-END-85750744126501` (type 1 vs type 2,
+  absolute vs relative insulin deficiency) reused for Q7. Q6 reuses
+  `CON-FND-CA0F9E019BC5BA` (pyruvate carboxylase/biotin), already
+  aun-overlaid by lane 2/3 -- no new overlay row needed, only the question.
+- **Glycogen synthesis/breakdown, glycogen storage diseases (Quiz29&30
+  Q1-Q5):** `find-existing.mjs` for "glycogenin" and "Cori disease
+  debranching enzyme" -- 0 hits each; broad grep for "Von Gierke|Cori's
+  disease|glycogenin" against the same Kasr carbohydrate-concepts file
+  (already twice-reused by lane 3) surfaced two more ready-made pending
+  concepts: `CON-FND-1BE461A57AB76D` (Von Gierke's) and
+  `CON-FND-3905E3B98C2EC4` (phosphorylase/glucose-1-phosphate), both
+  reused. Glycogenin and Cori's disease had no existing record anywhere in
+  the corpus -- minted `CON-FND-E4EF5D0C7E32ED` and `CON-FND-F3DBB1774F2BED`.
+- **Autonomic nervous system, sympathetic and parasympathetic (Quiz33-34
+  Q1-Q4; Quiz37&38 Q1-Q5):** initial narrow searches ("sympathetic
+  stimulation heart rate", "parasympathetic preganglionic cholinergic
+  erection") returned 0 hits, but a broad `grep -ril "parasympathetic|
+  sympathetic nervous system"` surfaced `docs/Kasr-Source-Imports/concept/
+  102-INT-mcq-concepts.md` and `102-INT-physiology-concepts.md` as a rich,
+  previously-untouched pending ANS concept bundle (matching four backing
+  articles already named in `102-INT-physiology.md` /
+  `102-INT-physiology-blood-ans.md`: sympathetic NS, parasympathetic NS,
+  autonomic ganglia, chemical transmission at autonomic junctions).
+  Six pending concepts reused: `CON-NEU-7200808D45CA8C` (sympathetic
+  head/neck/thorax effects, heart rate + pupil), `CON-NEU-7D2786E349DE45`
+  (sympathetic abdomen/pelvis effects, ejaculation), `CON-NEU-1DB903AAE3D02A`
+  (cholinergic/adrenergic fibre transmitters), `CON-NEU-6CC8F7E6DC2871`
+  (parasympathetic pelvic viscera, erection), `CON-NEU-5B28B080597460`
+  (nicotinic/muscarinic receptor locations) and `CON-NEU-D28EA156B57AB0`
+  (autonomic two-neuron vs somatic one-neuron pathway). None had any prior
+  AUN-CBF-103 overlay -- two new overlay files opened,
+  `pending-live/AUN-CBF-103-cbftail-pending-102intmcq-*` and
+  `-102intphys-*`. Quiz33-34 Q4 (sweating) reuses this module's own
+  lane-1 concept `CON-FND-15848C8393D66F` directly, no overlay needed.
+- **Thermoregulation (Quiz58&59 Q5-Q9):** three of five reuse this
+  module's own lane-1 thermoregulation concepts directly (no overlay
+  needed, already aun-tagged): `CON-FND-6AD2005CD2C5BE` (hyperpyrexia vs
+  controlled fever) for Q5, `CON-FND-15848C8393D66F` (eccrine sweat
+  glands, evaporation impaired by humidity) for Q7, `CON-FND-85B5F4379991F0`
+  (heat-loss mechanisms) for Q9. Brown fat (Q6) and heat acclimatization
+  (Q8) had no existing record anywhere in the corpus (`find-existing.mjs`
+  0 hits each) -- minted `CON-FND-A902B6A3287C5D` and `CON-FND-B1B0C0880006D2`.
+- **Lipid biochemistry (Quiz31&32 Q1, Q3-Q12):** HDL/chylomicron facts
+  (Q5, Q11, Q12) matched an existing pending Kasr lipoprotein-composition
+  concept (`CON-GIT-ECB3C2F56DC72D`) in `103-BMS-mcq-lipid-concepts.md`,
+  found via the lipoprotein-density-series passage a broad grep for
+  "chylomicron" surfaced -- reused, extending lane 2/3's existing
+  `cbfquiz-pending-103bms` overlay rather than opening a new file, per
+  that file's own established practice of grouping every reused Kasr
+  103-BMS-lipid concept together. Surfactant/RDS (Q1), glycerophospholipid
+  classification/phosphatidylinositol (Q3-Q4), essential-fatty-acid
+  classification (Q6, Q9), fatty-acid carbon-chain/double-bond nomenclature
+  (Q7, Q10) and the ganglioside/cholera-toxin receptor (Q8) all returned 0
+  hits on `find-existing.mjs` and targeted broad greps -- minted five new
+  concepts, consolidating each small cluster of 1-2 closely related
+  questions into one concept apiece rather than one-per-question.
+- **Fatty acid oxidation and lipolysis (Quiz35&36 Q1-Q8):** all eight
+  reuse pending Kasr `103-BMS-mcq-lipid-concepts.md` records, found via
+  the same lipoprotein/fatty-acid-oxidation search pass: carnitine
+  shuttle/FA-activation-site (`CON-FND-177A829022AC8F`, Q1+Q3), beta-
+  oxidation's 2-carbon-cycle/ATP-yield (`CON-FND-84BDACCA71AF45`, Q2+Q7),
+  oxidation-vs-synthesis redox cofactors (`CON-FND-4C05D459E80AEF`, Q8),
+  and lipolysis/lipogenesis hormonal control (`CON-FND-1C668119B3C0BB`,
+  Q4+Q5+Q6) -- all extending the `cbfquiz-pending-103bms` overlay. No new
+  mints needed for this block.
+- **Amino acid nitrogen / urea cycle (Quiz41&42 Q1-Q7):** transaminase
+  general reaction + GOT/AST-as-MI-marker (Q1-Q2) and OTC/citrulline +
+  urea-cycle-deficiency-hyperammonaemia (Q3, Q7) returned 0 hits on
+  `find-existing.mjs` and on a broad `grep -ril "urea cycle|ornithine|
+  citrulline"` scan of the Kasr nitrogen/protein/aminoacid concept files
+  (which cover the *donors* and *ammonia-transport* side of the pathway
+  but not a general transaminase-reaction definition, GOT/AST's clinical
+  marker use, or OTC's specific reaction) -- minted two new concepts,
+  `CON-FND-EF9977457D3792` and `CON-FND-9393EA8A25D95A`. Q4-Q5 (urea's
+  nitrogen donors, diet-driven urea synthesis) matched an existing pending
+  Kasr concept in `103-BMS-mcq-nitrogen-concepts.md`
+  (`CON-FND-3806EF570B0A1C`) found via that same scan -- reused via a new
+  overlay file, `pending-live/AUN-CBF-103-cbftail-pending-103bmsnitrogen-*`.
+  Q6 (brain ammonia disposal via glutamine) matched a pending Kasr concept
+  in `103-BMS-mcq-protein-concepts.md` (`CON-FND-880D165894A5EC`) -- reused
+  via `pending-live/AUN-CBF-103-cbftail-pending-103bmsprotein-*`.
+
+## Gates (lane 4)
+
+`validate-content-batch.mjs` and `gate.mjs batch`, run per file with the
+relevant concept/article `--with` chain: 0 real errors across all seven
+question batches (`AUN-CBF-103-cbftail-new-mcq.md` 26 items,
+`AUN-CBF-103-cbftail-pending-103bmsnerve-questions.md` 2,
+`AUN-CBF-103-cbftail-pending-102intmcq-questions.md` 7,
+`AUN-CBF-103-cbftail-pending-102intphys-questions.md` 1,
+`AUN-CBF-103-cbftail-pending-103bmsnitrogen-questions.md` 2,
+`AUN-CBF-103-cbftail-pending-103bmsprotein-questions.md` 1, and the
+extended `AUN-CBF-103-cbfquiz-pending-103bms-questions.md` 53 items total,
+37 pre-existing from lanes 2-3 + 16 new this pass) -- every error on every
+file is the known `resource_ids ... is not a resource that exists` /
+`library_ids ... is not an article that exists` noise from citing a
+not-yet-imported source PDF or a Kasr article file not passed to `--with`
+in that particular isolated run.
+
+`gate.mjs simulate`, the full explicit apply-order chain (8 Kasr concept
+files, 6 Kasr article files, this module's own lane-1 concept/article
+files, this lane's 2 new concept/article files, 6 pending-live overlay
+concept files, and 7 question batches, 32 files total): **rejected=0,
+errors=0**, `created=473 updated=79`. Every question in every seed carries
+a non-empty `library_ids` (verified separately, 92/92 rows across this
+lane's seven seed files, including the 37 pre-existing rows in the
+extended `cbfquiz-pending-103bms` seed).
+
+## Needs Omar / open items (lane 4)
+
+- Quiz23&24 Q2, Q4 (p93-94) -- diagram-dependent action-potential graph
+  questions; the printed numeric answer survived OCR but the point labels
+  it refers to are only meaningful from the image. A targeted render of
+  p93-94 (cap 14 render budget, per LANE-CARD S3) would recover these if
+  a future lane wants them; not attempted this pass since only two items
+  were affected and the target band was already comfortably met without
+  them.
+- Quiz26-27 Q2 (p115) -- degenerate options (only two distinct answer
+  texts across four labelled options); a second copy of this source, if
+  Omar has one, might resolve the OCR/print defect.
+- Quiz31&32 Q2 (p119) -- printed key itself states two correct answers
+  ("Cholesterol, Long chain Alcohol"); not single-best-answer as printed.
+- pp.150-210 of `All quizzes CBF .pdf` are OCR'd (this pass) but not yet
+  triaged or authored -- ready for the next lane to read straight from
+  cache, no further OCR budget needed for that range. pp.211-259 (49
+  pages) remain un-OCR'd.

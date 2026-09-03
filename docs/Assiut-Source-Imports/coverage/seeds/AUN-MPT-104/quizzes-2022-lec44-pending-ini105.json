@@ -1,0 +1,57 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank questions (Lecture 44: Antimicrobial therapy 2, Quiz 44 Q2, q360) whose tested idea -- co-trimoxazole is a sulfonamide-trimethoprim combination acting on two sequential steps of bacterial folate synthesis -- is an exact match for a pending Assiut AUN-INI-105-ch5 concept (docs/Assiut-Source-Imports/concept/AUN-INI-105-ch5-concepts.md, a sibling Assiut Year-1 lane's unimported batch), reused per the standing rule rather than re-minted. Omar applies this batch only after: 1) docs/Assiut-Source-Imports/concept/AUN-INI-105-ch5-concepts.md, 2) quizzes-2022-lec44-pending-ini105-concept.json's emitted overlay (the sparse +AUN-MPT-104 module overlay), then this question file.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "resource_ids": ["src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q360",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q360",
+      "page": 178,
+      "title": "Co-trimoxazole combines trimethoprim with sulfamethoxazole, not clavulanic acid",
+      "question": "All the following are true concerning co-trimoxazole EXCEPT:",
+      "options": {
+        "A": "It inhibits two sequential steps in the synthesis of tetrahydrofolic acid",
+        "B": "It is the treatment of choice for dugs caused by pneumocystis cranii",
+        "C": "It is a combination of Trimethoprim and clavulanic acid",
+        "D": "It can cause rashes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (as the EXCEPT) -- this statement is true. Sulfamethoxazole and trimethoprim block two sequential steps of the same bacterial folate synthesis pathway, giving co-trimoxazole its synergistic effect.",
+        "B": "Incorrect (as the EXCEPT) -- this statement is true. Co-trimoxazole is the treatment of choice for Pneumocystis jirovecii pneumonia.",
+        "C": "Correct (as the EXCEPT). Co-trimoxazole is a combination of trimethoprim and sulfamethoxazole, not clavulanic acid -- clavulanic acid is instead a beta-lactamase inhibitor paired with amoxicillin (co-amoxiclav), an entirely different combination drug. This is the false statement among the options, since sulfamethoxazole, not clavulanic acid, is co-trimoxazole's actual second component.",
+        "D": "Incorrect (as the EXCEPT) -- this statement is true. Skin rashes, including severe hypersensitivity reactions, are a recognised co-trimoxazole adverse effect."
+      },
+      "main_concept": "CON-INF-198D75A4CF7391",
+      "concept_ids": ["CON-INF-198D75A4CF7391"],
+      "contextual_concept_ids": [],
+      "topic": "Antimicrobial therapy 2",
+      "subtopic": "Co-trimoxazole composition and use",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that co-trimoxazole combines trimethoprim with sulfamethoxazole, not clavulanic acid.",
+      "media_recommendations": "",
+      "library_ids": ["ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS"],
+      "module_subject": "AUN-MPT-104 > Pharmacology > Antimicrobial therapy 2",
+      "field_notes": { "keySource": "printed \"The correct answer is: It is a combination of Trimethoprim and clavulanic acid\"", "pendingConcept": "CON-INF-198D75A4CF7391 pending in Assiut-Source-Imports/concept/AUN-INI-105-ch5-concepts.md (teaching.pharmacology.antimicrobials.sulfonamide-trimethoprim-synergism) -- this question and its +AUN-MPT-104 overlay apply only after Omar imports that AUN-INI-105 batch" },
+      "author_notes": ""
+    }
+  ]
+}
