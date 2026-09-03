@@ -1,0 +1,859 @@
+{
+  "lane": "ASU-ENDO-2",
+  "cluster": "eom-final-collection-bio",
+  "header": "ASU-ENDO-2 \u00b7 Biochemistry \u2014 follow-on MCQ-authoring pass on the same source as the Anatomy+Community, Pharma and Histo commits, from the Bio block (34 items) of \"EOM MCQs - Endocrine Final MCQ Collection.pdf\" (127+ items across 7 subject blocks; this cluster covers only the Bio block). Embedded-answer format (\"N-question?\\n<bare answer>\", no printed distractors) \u2014 this lane authors its own options and explanations from the stated answer/topic. Item 34 is held as unclear/unformulable per the source author's own annotation.",
+  "defaults": {
+    "subject": "endo",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y2"
+    ],
+    "module": "ASU-ENDO-2",
+    "module_subject": "ASU-ENDO-2 > Biochemistry",
+    "exam_weight_by_year": {
+      "ASU_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_f3b44cd466398c8953b9"
+    ],
+    "source_citation": "Ain Shams Year 2 Endocrine System EOM MCQ Final Collection (\"EOM MCQs - Endocrine Final MCQ Collection.pdf\", 2018/19/20 combined sitting), Bio item {page}.",
+    "setting": "Academic",
+    "cognitive_effort": "Low",
+    "difficulty": "Moderate",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "bio-q01",
+      "id": "QST-ASUENDO2-BIO-B01",
+      "page": 4,
+      "title": "Mechanism of lipophilic (steroid/thyroid) hormone action",
+      "question": "What is true about lipophilic hormones (steroid/thyroid hormones)?",
+      "options": {
+        "A": "They affect transcription after binding to an intracellular receptor",
+        "B": "They bind a cell-surface receptor and activate a G protein",
+        "C": "They act within seconds through a second-messenger cascade",
+        "D": "They require a membrane transporter and cannot cross the plasma membrane"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Lipophilic hormones (steroids, thyroid hormone) diffuse across the plasma membrane and bind intracellular (cytoplasmic or nuclear) receptors. The hormone-receptor complex acts as a transcription factor, altering gene expression over hours.",
+        "B": "Incorrect. Binding a cell-surface receptor and activating a G protein is the mechanism of hydrophilic peptide/amine hormones, not lipophilic steroid/thyroid hormones.",
+        "C": "Incorrect. Lipophilic hormones act slowly (hours) via transcriptional changes, not within seconds; rapid second-messenger signalling is characteristic of membrane-receptor hormones.",
+        "D": "Incorrect. Being lipid-soluble, these hormones diffuse directly across the plasma membrane and do not require a membrane transporter."
+      },
+      "main_concept": "CON-END-593CEAC85BF871",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-LIPOPHILIC-HORMONE-TRANSCRIPTION"
+      ],
+      "learning_objective": "State that lipophilic hormones act by diffusing into the cell and binding intracellular receptors that regulate gene transcription."
+    },
+    {
+      "key": "bio-q02",
+      "id": "QST-ASUENDO2-BIO-B02",
+      "page": 4,
+      "title": "Mechanism of cholera and pertussis toxin",
+      "question": "How does cholera toxin/pertussis toxin exert its effect on signal transduction?",
+      "options": {
+        "A": "By continuous activation of adenylyl cyclase",
+        "B": "By irreversibly inhibiting phospholipase C",
+        "C": "By blocking GTPase activity of Gq only",
+        "D": "By directly phosphorylating protein kinase A"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cholera toxin ADP-ribosylates the Gs alpha subunit, locking it in its GTP-bound (active) state so it cannot hydrolyse GTP, giving continuous, unregulated activation of adenylyl cyclase and persistently elevated cAMP (the mechanism behind cholera's massive secretory diarrhoea). Pertussis toxin similarly ADP-ribosylates Gi, preventing it from inhibiting adenylyl cyclase, which also raises cAMP.",
+        "B": "Incorrect. Neither toxin acts on phospholipase C; their target is the alpha subunit of the Gs/Gi heterotrimeric G proteins that regulate adenylyl cyclase.",
+        "C": "Incorrect. The toxins act by ADP-ribosylating G-alpha subunits (Gs for cholera, Gi for pertussis), not by directly blocking Gq's GTPase activity.",
+        "D": "Incorrect. The toxins act upstream, at the level of the G protein controlling adenylyl cyclase, not by directly phosphorylating protein kinase A."
+      },
+      "main_concept": "CON-END-6B4223ECBAF5DB",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-CHOLERA-PERTUSSIS-TOXIN-CAMP"
+      ],
+      "learning_objective": "State that cholera and pertussis toxins raise cAMP by ADP-ribosylating G-protein alpha subunits, disabling their normal GTPase-mediated inactivation."
+    },
+    {
+      "key": "bio-q03",
+      "id": "QST-ASUENDO2-BIO-B03",
+      "page": 4,
+      "title": "Growth hormone signals through the JAK-STAT pathway",
+      "question": "Which of the following hormones acts through the JAK (Janus kinase) pathway?",
+      "options": {
+        "A": "Growth hormone",
+        "B": "Cortisol",
+        "C": "Glucagon",
+        "D": "Thyroid hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Growth hormone (and other cytokine-receptor-family hormones such as prolactin) binds a receptor lacking intrinsic kinase activity that is constitutively associated with cytoplasmic Janus kinases (JAKs). Receptor dimerisation activates JAK, which phosphorylates STAT transcription factors that dimerise and translocate to the nucleus.",
+        "B": "Incorrect. Cortisol is a steroid hormone that acts through an intracellular nuclear receptor and direct transcriptional regulation, not JAK-STAT signalling.",
+        "C": "Incorrect. Glucagon acts through a Gs-protein-coupled receptor, adenylyl cyclase and cAMP/PKA signalling, not JAK-STAT.",
+        "D": "Incorrect. Thyroid hormone acts through an intracellular nuclear receptor, not a cell-surface JAK-STAT-linked receptor."
+      },
+      "main_concept": "CON-END-34C94BE3C658DD",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-GROWTH-HORMONE-JAK-STAT"
+      ],
+      "learning_objective": "State that growth hormone signals via receptor-associated JAK kinases that phosphorylate STAT transcription factors."
+    },
+    {
+      "key": "bio-q04",
+      "id": "QST-ASUENDO2-BIO-B04",
+      "page": 4,
+      "title": "Insulin receptor beta subunit has intrinsic tyrosine kinase activity",
+      "question": "What's true regarding insulin receptors?",
+      "options": {
+        "A": "The beta subunit has intrinsic tyrosine kinase activity",
+        "B": "The alpha subunit has intrinsic tyrosine kinase activity",
+        "C": "The receptor is a single-pass monomer with no kinase activity",
+        "D": "Ligand binding is required only for receptor synthesis, not for activation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The insulin receptor is a preformed tetramer of two extracellular alpha subunits and two transmembrane beta subunits linked by disulfide bonds. The intracellular portion of each beta subunit has intrinsic tyrosine kinase activity, which autophosphorylates and then phosphorylates substrates such as IRS-1 upon insulin binding to the alpha subunits.",
+        "B": "Incorrect. The alpha subunits are entirely extracellular and bind insulin; they have no kinase activity \u2014 the kinase domain resides in the beta subunits.",
+        "C": "Incorrect. The insulin receptor is a disulfide-linked alpha2-beta2 tetramer, not a single-pass monomer, and it does have intrinsic (beta-subunit) tyrosine kinase activity.",
+        "D": "Incorrect. Insulin binding to the extracellular alpha subunits is required to trigger the conformational change that activates the beta subunit's kinase activity \u2014 binding is the activating event, not merely a synthesis requirement."
+      },
+      "main_concept": "CON-END-7D77492BBB8326",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-INSULIN-RECEPTOR-BETA-TYROSINE-KINASE"
+      ],
+      "learning_objective": "State that the insulin receptor beta subunit has intrinsic tyrosine kinase activity that is activated by insulin binding to the alpha subunits."
+    },
+    {
+      "key": "bio-q05",
+      "id": "QST-ASUENDO2-BIO-B05",
+      "page": 4,
+      "title": "Sequence of glucagon's Gs-cAMP-PKA cascade",
+      "question": "Choose the correct order of glucagon's intracellular signalling cascade.",
+      "options": {
+        "A": "G protein \u2192 adenylyl cyclase \u2192 cAMP \u2192 protein kinase A \u2192 effect",
+        "B": "Adenylyl cyclase \u2192 G protein \u2192 protein kinase A \u2192 cAMP \u2192 effect",
+        "C": "cAMP \u2192 G protein \u2192 adenylyl cyclase \u2192 protein kinase A \u2192 effect",
+        "D": "G protein \u2192 protein kinase A \u2192 adenylyl cyclase \u2192 cAMP \u2192 effect"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Glucagon binds its Gs-protein-coupled receptor, activating Gs, which stimulates membrane-bound adenylyl cyclase to convert ATP to cAMP. CAMP then activates protein kinase A (PKA), which phosphorylates target enzymes to produce the cellular effect (e.g., glycogenolysis).",
+        "B": "Incorrect. This reverses the order \u2014 the G protein must be activated by the receptor first, and it activates adenylyl cyclase, not the other way around; PKA is activated by cAMP, not before it.",
+        "C": "Incorrect. cAMP is a downstream product of adenylyl cyclase activity, not an upstream activator of the G protein.",
+        "D": "Incorrect. Protein kinase A is activated by cAMP; it cannot act before adenylyl cyclase has generated cAMP."
+      },
+      "main_concept": "CON-END-C2CA3E41E48E44",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-GLUCAGON-GS-CAMP-PKA-CASCADE"
+      ],
+      "learning_objective": "State the correct sequence of glucagon's Gs-cAMP-PKA signalling cascade: G protein activates adenylyl cyclase, which generates cAMP, which activates PKA."
+    },
+    {
+      "key": "bio-q06",
+      "id": "QST-ASUENDO2-BIO-B06",
+      "page": 4,
+      "title": "Nitric oxide receptor is cytoplasmic guanylyl cyclase",
+      "question": "What is the receptor for nitric oxide (NO)?",
+      "options": {
+        "A": "Cytoplasmic (soluble) guanylyl cyclase",
+        "B": "A membrane-bound receptor tyrosine kinase",
+        "C": "A Gs-protein-coupled cell-surface receptor",
+        "D": "An intracellular nuclear hormone receptor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Nitric oxide is a gas that diffuses freely across the plasma membrane and binds the heme group of cytoplasmic (soluble) guanylyl cyclase, activating it to convert GTP to cyclic GMP (cGMP). This mediates smooth muscle relaxation and other effects.",
+        "B": "Incorrect. NO does not act through a receptor tyrosine kinase; it diffuses directly into the cell to activate soluble guanylyl cyclase.",
+        "C": "Incorrect. NO has no cell-surface receptor; because it is a small, uncharged gas it crosses the membrane directly rather than binding an extracellular receptor domain.",
+        "D": "Incorrect. NO does not act through a nuclear transcription-factor receptor; its receptor, soluble guanylyl cyclase, is a cytoplasmic enzyme, and its effects are rapid (seconds), not transcriptional."
+      },
+      "main_concept": "CON-END-B351E42E345450",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-NITRIC-OXIDE-GUANYLYL-CYCLASE"
+      ],
+      "learning_objective": "State that nitric oxide's receptor is cytoplasmic soluble guanylyl cyclase, generating cGMP."
+    },
+    {
+      "key": "bio-q07",
+      "id": "QST-ASUENDO2-BIO-B07",
+      "page": 4,
+      "title": "Phospholipase C forms DAG and IP3",
+      "question": "Which enzyme forms diacylglycerol (DAG) and inositol trisphosphate (IP3)?",
+      "options": {
+        "A": "Phospholipase C",
+        "B": "Adenylyl cyclase",
+        "C": "Phospholipase A2",
+        "D": "Guanylyl cyclase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Phospholipase C (activated via Gq-coupled receptors) hydrolyses the membrane phospholipid PIP2 (phosphatidylinositol 4,5-bisphosphate) into two second messengers: diacylglycerol (DAG). This remains in the membrane and activates protein kinase C, and inositol trisphosphate (IP3), which diffuses into the cytoplasm and triggers calcium release from the endoplasmic reticulum.",
+        "B": "Incorrect. Adenylyl cyclase generates cAMP from ATP; it does not act on membrane phospholipids and does not produce DAG or IP3.",
+        "C": "Incorrect. Phospholipase A2 releases arachidonic acid from membrane phospholipids (the first step of eicosanoid synthesis), not DAG and IP3.",
+        "D": "Incorrect. Guanylyl cyclase generates cGMP from GTP; it plays no role in producing DAG or IP3."
+      },
+      "main_concept": "CON-END-6A81100AF211D6",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-PHOSPHOLIPASE-C-DAG-IP3"
+      ],
+      "learning_objective": "State that phospholipase C cleaves PIP2 into DAG and IP3, the second messengers of the Gq signalling pathway."
+    },
+    {
+      "key": "bio-q08",
+      "id": "QST-ASUENDO2-BIO-B08",
+      "page": 4,
+      "title": "ANF (atrial natriuretic factor) utilises cGMP",
+      "question": "Which of the following hormones utilises cyclic GMP (cGMP) as its second messenger?",
+      "options": {
+        "A": "Atrial natriuretic factor (ANF)",
+        "B": "Glucagon",
+        "C": "Adrenaline acting on beta receptors",
+        "D": "Vasopressin acting on V2 receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Atrial natriuretic factor (ANF/ANP) binds a membrane-bound (particulate) guanylyl cyclase receptor, directly generating cGMP. This activates protein kinase G to promote natriuresis, diuresis and vascular smooth muscle relaxation.",
+        "B": "Incorrect. Glucagon acts through a Gs-coupled receptor and generates cAMP, not cGMP.",
+        "C": "Incorrect. Adrenaline acting on beta-adrenergic receptors is Gs-coupled and raises cAMP, not cGMP.",
+        "D": "Incorrect. Vasopressin acting on V2 receptors is Gs-coupled and raises cAMP (promoting aquaporin insertion in the collecting duct), not cGMP."
+      },
+      "main_concept": "CON-END-76FB58C72989C4",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-ANF-GUANYLYL-CYCLASE-CGMP"
+      ],
+      "learning_objective": "State that ANF signals through a membrane-bound guanylyl cyclase receptor, generating cGMP."
+    },
+    {
+      "key": "bio-q09",
+      "id": "QST-ASUENDO2-BIO-B09",
+      "page": 4,
+      "title": "Nitric oxide acts through cGMP",
+      "question": "Which of the following acts through cyclic GMP (cGMP)?",
+      "options": {
+        "A": "Nitric oxide",
+        "B": "Cortisol",
+        "C": "Adrenocorticotropic hormone (ACTH)",
+        "D": "Thyroid-stimulating hormone (TSH)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Nitric oxide diffuses into the cell and activates soluble guanylyl cyclase, generating cGMP as its second messenger. This activates protein kinase G to mediate effects such as vascular smooth muscle relaxation.",
+        "B": "Incorrect. Cortisol is a steroid hormone acting through an intracellular nuclear receptor and gene transcription, not through cGMP.",
+        "C": "Incorrect. ACTH acts through a Gs-coupled melanocortin-2 receptor and cAMP, not cGMP.",
+        "D": "Incorrect. TSH acts through a Gs-coupled receptor and cAMP (with some Gq/phospholipase C signalling at high concentrations), not cGMP."
+      },
+      "main_concept": "CON-END-1774C8923A5D4A",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-NITRIC-OXIDE-CGMP-SIGNALLING"
+      ],
+      "learning_objective": "Identify nitric oxide as the hormone/mediator that signals through cGMP, in contrast to hormones using cAMP or direct transcriptional mechanisms."
+    },
+    {
+      "key": "bio-q10",
+      "id": "QST-ASUENDO2-BIO-B10",
+      "page": 4,
+      "title": "G proteins have intrinsic GTPase activity",
+      "question": "What is true regarding heterotrimeric G-proteins?",
+      "options": {
+        "A": "They have intrinsic GTPase activity",
+        "B": "They are permanently active once bound to GTP, with no mechanism for inactivation",
+        "C": "They directly phosphorylate their downstream target enzymes",
+        "D": "They act only on nuclear receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The G-alpha subunit has intrinsic GTPase activity: it hydrolyses its own bound GTP to GDP. This switches the G protein off and terminates signalling \u2014 this self-limiting property is essential for normal, time-limited hormone signalling (and is the property that cholera/pertussis toxins disable).",
+        "B": "Incorrect. G proteins are not permanently active; their intrinsic GTPase activity provides a built-in 'off switch' by hydrolysing GTP to GDP, re-associating G-alpha with G-beta-gamma to end signalling.",
+        "C": "Incorrect. G proteins do not have kinase activity and do not phosphorylate anything; they act by modulating effector enzymes (adenylyl cyclase, phospholipase C) which then generate second messengers.",
+        "D": "Incorrect. Heterotrimeric G proteins couple cell-surface receptors to membrane effector enzymes; they do not act on nuclear receptors, which are activated by lipophilic hormones independently of G proteins."
+      },
+      "main_concept": "CON-END-ABFABA20C82976",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-G-PROTEIN-INTRINSIC-GTPASE"
+      ],
+      "learning_objective": "State that G-alpha subunits possess intrinsic GTPase activity that terminates their own signalling by hydrolysing GTP to GDP."
+    },
+    {
+      "key": "bio-q11",
+      "id": "QST-ASUENDO2-BIO-B11",
+      "page": 5,
+      "title": "Steroid hormones directly activate transcription",
+      "question": "Which of the following hormones has a direct activation of transcription as its mechanism?",
+      "options": {
+        "A": "Steroid hormones",
+        "B": "Glucagon",
+        "C": "Insulin",
+        "D": "Epinephrine acting on beta receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Steroid hormones are lipophilic, diffuse into the cell. It also bind intracellular receptors that act directly as transcription factors \u2014 no second-messenger cascade is required, distinguishing this mechanism from peptide/amine hormones.",
+        "B": "Incorrect. Glucagon acts through a cell-surface Gs-coupled receptor and the cAMP/PKA cascade, not by directly activating transcription.",
+        "C": "Incorrect. Insulin acts through a receptor tyrosine kinase and downstream phosphorylation cascades (PI3K-Akt, Ras-MAPK); it does not directly activate transcription as a first step.",
+        "D": "Incorrect. Epinephrine on beta receptors signals through Gs, adenylyl cyclase and cAMP/PKA, a second-messenger cascade, not direct transcriptional activation."
+      },
+      "main_concept": "CON-END-466653169C8673",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-STEROID-HORMONE-DIRECT-TRANSCRIPTION"
+      ],
+      "learning_objective": "State that steroid hormones act by directly activating transcription through intracellular receptors, unlike peptide/amine hormones that use second-messenger cascades."
+    },
+    {
+      "key": "bio-q12",
+      "id": "QST-ASUENDO2-BIO-B12",
+      "page": 5,
+      "title": "Sex hormones act through gene transcription",
+      "question": "Which of the following acts through gene transcription when it binds to its receptor?",
+      "options": {
+        "A": "Sex hormones",
+        "B": "Insulin",
+        "C": "Glucagon",
+        "D": "Growth hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Sex hormones (estrogen, progesterone, testosterone) are steroids that bind intracellular receptors. These receptors act as ligand-activated transcription factors. Binding directly regulates gene expression, without any intervening second-messenger cascade.",
+        "B": "Incorrect. Insulin signals through a cell-surface receptor tyrosine kinase and cytoplasmic phosphorylation cascades; any transcriptional effects are downstream and indirect, not the primary receptor mechanism.",
+        "C": "Incorrect. Glucagon signals through a Gs-coupled cell-surface receptor and the cAMP/PKA cascade, not directly through gene transcription.",
+        "D": "Incorrect. Growth hormone signals through a cell-surface cytokine receptor and the JAK-STAT pathway; STAT does regulate transcription but only after a cytoplasmic kinase cascade, unlike the direct receptor-as-transcription-factor mechanism of steroid sex hormones."
+      },
+      "main_concept": "CON-END-CC859D80866196",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-SEX-HORMONE-GENE-TRANSCRIPTION"
+      ],
+      "learning_objective": "State that sex hormones act by binding intracellular receptors that directly regulate gene transcription."
+    },
+    {
+      "key": "bio-q13",
+      "id": "QST-ASUENDO2-BIO-B13",
+      "page": 5,
+      "title": "GH and insulin synergise in protein synthesis and somatic growth",
+      "question": "Growth hormone (GH) and insulin act synergistically in which activity?",
+      "options": {
+        "A": "Protein synthesis and somatic growth",
+        "B": "Lipolysis in adipose tissue",
+        "C": "Hepatic ketogenesis",
+        "D": "Renal free-water clearance"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. GH (largely via IGF-1) and insulin both promote amino acid uptake and protein synthesis in muscle and other tissues. Acting synergistically, they drive somatic (linear and lean-mass) growth. This anabolic cooperation is especially important in childhood.",
+        "B": "Incorrect. GH promotes lipolysis (a diabetogenic, insulin-antagonistic effect), whereas insulin inhibits lipolysis \u2014 these two hormones act antagonistically, not synergistically, on adipose tissue lipid breakdown.",
+        "C": "Incorrect. Ketogenesis is promoted by low insulin and by GH's lipolytic, diabetogenic actions \u2014 again these are not the site of anabolic synergy between the two hormones.",
+        "D": "Incorrect. Neither GH nor insulin has a primary, direct synergistic role in renal free-water clearance; that function belongs mainly to ADH (vasopressin)."
+      },
+      "main_concept": "CON-END-0CBC5C11B4AD5A",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-GH-INSULIN-SYNERGY-GROWTH"
+      ],
+      "learning_objective": "State that GH and insulin act synergistically to promote protein synthesis and somatic growth, despite being antagonistic in glucose and lipid metabolism."
+    },
+    {
+      "key": "bio-q14",
+      "id": "QST-ASUENDO2-BIO-B14",
+      "page": 5,
+      "title": "Thyroid hormone acts through intracellular receptors",
+      "question": "Which of the following hormones acts through intracellular receptors?",
+      "options": {
+        "A": "Thyroid hormone",
+        "B": "Glucagon",
+        "C": "Growth hormone",
+        "D": "Insulin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Thyroid hormone (T3. It also to a lesser extent T4) is lipophilic and diffuses into the cell, binding intracellular (predominantly nuclear) thyroid hormone receptors that act as transcription factors regulating metabolic gene expression.",
+        "B": "Incorrect. Glucagon is a peptide hormone acting through a cell-surface Gs-coupled receptor and the cAMP/PKA cascade, not an intracellular receptor.",
+        "C": "Incorrect. Growth hormone is a peptide hormone acting through a cell-surface cytokine receptor and the JAK-STAT pathway, not an intracellular receptor.",
+        "D": "Incorrect. Insulin is a peptide hormone acting through a cell-surface receptor tyrosine kinase, not an intracellular receptor."
+      },
+      "main_concept": "CON-END-B798620047E4D6",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-THYROID-HORMONE-NUCLEAR-RECEPTOR"
+      ],
+      "learning_objective": "State that thyroid hormone acts through intracellular (nuclear) receptors that regulate gene transcription, unlike peptide hormones acting on cell-surface receptors."
+    },
+    {
+      "key": "bio-q15",
+      "id": "QST-ASUENDO2-BIO-B15",
+      "page": 5,
+      "title": "DAG activates protein kinase C",
+      "question": "What is the downstream effect (action) of diacylglycerol (DAG)?",
+      "options": {
+        "A": "Activate protein kinase C",
+        "B": "Activate protein kinase A",
+        "C": "Release calcium from the endoplasmic reticulum",
+        "D": "Directly activate adenylyl cyclase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Diacylglycerol (DAG), generated by phospholipase C cleavage of PIP2, remains in the plasma membrane and, together with calcium, activates protein kinase C (PKC). This phosphorylates numerous downstream target proteins.",
+        "B": "Incorrect. Protein kinase A is activated by cAMP, not DAG; these are two separate second-messenger pathways (cAMP/PKA versus DAG/IP3/PKC).",
+        "C": "Incorrect. It is IP3 (inositol trisphosphate), the other product of PIP2 cleavage by phospholipase C, that diffuses into the cytosol and releases calcium from the endoplasmic reticulum \u2014 not DAG, which stays membrane-bound.",
+        "D": "Incorrect. DAG does not act on adenylyl cyclase; that enzyme is regulated by Gs/Gi proteins, a separate pathway from the Gq-phospholipase C-DAG/IP3 pathway."
+      },
+      "main_concept": "CON-END-B5929982BD5007",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-DAG-PROTEIN-KINASE-C"
+      ],
+      "learning_objective": "State that DAG's downstream action is activation of protein kinase C."
+    },
+    {
+      "key": "bio-q16",
+      "id": "QST-ASUENDO2-BIO-B16",
+      "page": 5,
+      "title": "Gi inhibits adenylyl cyclase",
+      "question": "The Gi protein acts on which enzyme, and how?",
+      "options": {
+        "A": "Inhibits adenylyl cyclase",
+        "B": "Activates adenylyl cyclase",
+        "C": "Activates phospholipase C",
+        "D": "Inhibits guanylyl cyclase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Gi-alpha subunit, activated by receptors such as the alpha-2 adrenergic or M2 muscarinic receptor, inhibits adenylyl cyclase, lowering intracellular cAMP \u2014 the opposite effect of Gs. This stimulates adenylyl cyclase.",
+        "B": "Incorrect. Activating adenylyl cyclase is the action of Gs (stimulatory), not Gi (inhibitory) \u2014 this is precisely the distinction between the two G-protein subtypes.",
+        "C": "Incorrect. Activation of phospholipase C is characteristic of Gq-coupled receptors, not Gi.",
+        "D": "Incorrect. Gi does not act on guanylyl cyclase; its defined target is adenylyl cyclase, which it inhibits."
+      },
+      "main_concept": "CON-END-36D504B7DE5DA5",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-GI-PROTEIN-ADENYLYL-CYCLASE-INHIBITION"
+      ],
+      "learning_objective": "State that Gi protein signalling inhibits adenylyl cyclase, lowering cAMP, in contrast to Gs, which stimulates it."
+    },
+    {
+      "key": "bio-q17",
+      "id": "QST-ASUENDO2-BIO-B17",
+      "page": 5,
+      "title": "GH signals via JAK-STAT in acromegaly",
+      "question": "A patient was diagnosed with acromegaly. Growth hormone acts through which signalling pathway?",
+      "options": {
+        "A": "JAK-STAT",
+        "B": "cAMP-PKA",
+        "C": "DAG-IP3-PKC",
+        "D": "Direct nuclear receptor transcription"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Growth hormone, whether at normal or pathologically elevated levels as in acromegaly (usually from a GH-secreting pituitary adenoma), signals through its cytokine-family receptor via the JAK-STAT pathway. The excess GH-driven JAK-STAT signalling raises IGF-1, producing acromegaly's soft-tissue and skeletal overgrowth.",
+        "B": "Incorrect. cAMP-PKA is the pathway used by Gs-coupled hormones such as glucagon or ACTH, not by growth hormone.",
+        "C": "Incorrect. DAG-IP3-PKC is the pathway used by Gq-coupled receptors, not by growth hormone's cytokine receptor.",
+        "D": "Incorrect. Direct nuclear receptor transcription is the mechanism of lipophilic hormones (steroids, thyroid hormone), not of growth hormone, which is a peptide hormone using a cell-surface receptor."
+      },
+      "main_concept": "CON-END-B147882035F576",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-ACROMEGALY-GH-JAK-STAT-PATHWAY"
+      ],
+      "learning_objective": "State that growth hormone, including pathologically excessive GH in acromegaly, signals through the JAK-STAT pathway."
+    },
+    {
+      "key": "bio-q18",
+      "id": "QST-ASUENDO2-BIO-B18",
+      "page": 6,
+      "title": "Leucine and lysine are purely ketogenic, not gluconeogenic, amino acids",
+      "question": "Which of the following amino acids is NOT used for gluconeogenesis (i.e., is used only as a source for ketogenesis)?",
+      "options": {
+        "A": "Leucine and lysine",
+        "B": "Alanine",
+        "C": "Glutamine",
+        "D": "Aspartate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Leucine and lysine are the two purely ketogenic amino acids: their carbon skeletons are degraded exclusively to acetyl-CoA and/or acetoacetyl-CoA. This can form ketone bodies or fatty acids but cannot be converted to pyruvate or TCA-cycle intermediates, so they cannot contribute to gluconeogenesis.",
+        "B": "Incorrect. Alanine is a classic glucogenic amino acid \u2014 it is transaminated to pyruvate, a direct gluconeogenic precursor (the basis of the alanine-glucose cycle between muscle and liver).",
+        "C": "Incorrect. Glutamine is glucogenic; it is converted to glutamate and then alpha-ketoglutarate, a TCA-cycle intermediate that can be used for gluconeogenesis.",
+        "D": "Incorrect. Aspartate is glucogenic; it is transaminated to oxaloacetate, a direct TCA-cycle/gluconeogenic intermediate."
+      },
+      "main_concept": "CON-END-7BAC5EAD54B510",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-LEUCINE-LYSINE-KETOGENIC-AMINO-ACIDS"
+      ],
+      "learning_objective": "Identify leucine and lysine as the two amino acids that are exclusively ketogenic and cannot contribute to gluconeogenesis."
+    },
+    {
+      "key": "bio-q19",
+      "id": "QST-ASUENDO2-BIO-B19",
+      "page": 6,
+      "title": "Glucagon and epinephrine inhibit PFK2, stimulating F-2,6-bisphosphatase",
+      "question": "What is the action of glucagon/epinephrine on the PFK2/F-2,6-bisphosphatase bifunctional enzyme?",
+      "options": {
+        "A": "Inhibits PFK2 and stimulates fructose-2,6-bisphosphatase",
+        "B": "Stimulates PFK2 and inhibits fructose-2,6-bisphosphatase",
+        "C": "Stimulates both PFK2 and fructose-2,6-bisphosphatase equally",
+        "D": "Has no effect on the bifunctional enzyme, acting only on glycogen phosphorylase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Glucagon and epinephrine raise cAMP, activating PKA, which phosphorylates the bifunctional enzyme PFK2/FBPase2: phosphorylation inhibits its kinase (PFK2) activity and stimulates its phosphatase (FBPase2) activity, lowering fructose-2,6-bisphosphate. Since fructose-2,6-bisphosphate is glycolysis's most potent activator (of PFK1) and inhibits gluconeogenesis, its fall shuts down glycolysis and favours gluconeogenesis, appropriate for these counter-regulatory, glucose-raising hormones.",
+        "B": "Incorrect. This is the reverse of the actual effect; PKA phosphorylation inhibits PFK2 and stimulates FBPase2, not the other way around.",
+        "C": "Incorrect. PFK2 and FBPase2 activities are reciprocally, not equally, regulated by the same phosphorylation event \u2014 one is turned down while the other is turned up.",
+        "D": "Incorrect. While glucagon/epinephrine do also regulate glycogen phosphorylase (activating glycogenolysis), they separately and importantly regulate the PFK2/FBPase2 bifunctional enzyme to control the glycolysis/gluconeogenesis balance."
+      },
+      "main_concept": "CON-END-761BCA1657E26B",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-GLUCAGON-EPINEPHRINE-PFK2-FBPASE2"
+      ],
+      "learning_objective": "State that glucagon/epinephrine, via PKA phosphorylation, inhibit PFK2 and activate FBPase2, lowering fructose-2,6-bisphosphate to favour gluconeogenesis over glycolysis."
+    },
+    {
+      "key": "bio-q20",
+      "id": "QST-ASUENDO2-BIO-B20",
+      "page": 6,
+      "title": "Liver gluconeogenesis is the glucose source after 24 hours of fasting",
+      "question": "What is the source of blood glucose after 24 hours of fasting?",
+      "options": {
+        "A": "Liver gluconeogenesis",
+        "B": "Ongoing dietary glucose absorption",
+        "C": "Renal glycogenolysis",
+        "D": "Muscle glycogenolysis releasing glucose into the blood"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hepatic glycogen stores are largely depleted within about 12-24 hours of fasting, so from roughly this point onward the liver switches to gluconeogenesis (from lactate, glycerol. It also glucogenic amino acids) as the main source of blood glucose to maintain euglycaemia.",
+        "B": "Incorrect. By definition, fasting means no ongoing dietary intake, so dietary absorption cannot be a glucose source after 24 hours without food.",
+        "C": "Incorrect. The kidney does contribute some gluconeogenesis (increasingly important in prolonged starvation) but has negligible glycogen stores and is not the primary glucose source at 24 hours; hepatic gluconeogenesis dominates at this stage.",
+        "D": "Incorrect. Muscle lacks glucose-6-phosphatase, so muscle glycogenolysis produces glucose-6-phosphate that is used locally for muscle energy and cannot be released as free glucose into the blood."
+      },
+      "main_concept": "CON-END-76F104B83D4B69",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-LIVER-GLUCONEOGENESIS-24H-FAST"
+      ],
+      "learning_objective": "State that liver gluconeogenesis becomes the dominant source of blood glucose once hepatic glycogen stores are depleted, at approximately 24 hours of fasting."
+    },
+    {
+      "key": "bio-q21",
+      "id": "QST-ASUENDO2-BIO-B21",
+      "page": 6,
+      "title": "Thyroid hormone receptors (T3/T4) are nuclear receptors",
+      "question": "What's true regarding thyroid hormone receptors (T3/T4)?",
+      "options": {
+        "A": "They are nuclear receptors",
+        "B": "They are G-protein-coupled cell-surface receptors",
+        "C": "They are receptor tyrosine kinases",
+        "D": "They are ligand-gated ion channels"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Thyroid hormone receptors are members of the nuclear receptor superfamily, located predominantly in the nucleus (often already bound to DNA response elements as heterodimers with retinoid X receptor). It also act as ligand-activated transcription factors upon binding T3.",
+        "B": "Incorrect. Thyroid hormone receptors are not G-protein-coupled cell-surface receptors; that mechanism belongs to peptide/amine hormones such as glucagon and catecholamines.",
+        "C": "Incorrect. Thyroid hormone receptors are not receptor tyrosine kinases; that mechanism belongs to hormones such as insulin.",
+        "D": "Incorrect. Thyroid hormone receptors are not ligand-gated ion channels; they are intracellular transcription factors, not membrane channels."
+      },
+      "main_concept": "CON-END-D4E62AA30B752C",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-THYROID-HORMONE-RECEPTOR-NUCLEAR-FAMILY"
+      ],
+      "learning_objective": "State that thyroid hormone receptors belong to the nuclear receptor superfamily and act as ligand-activated transcription factors."
+    },
+    {
+      "key": "bio-q22",
+      "id": "QST-ASUENDO2-BIO-B22",
+      "page": 6,
+      "title": "Galactokinase deficiency: first step of galactose metabolism",
+      "question": "What is the first step in galactose metabolism, and which enzyme is deficient in this form of galactosemia?",
+      "options": {
+        "A": "Galactokinase, which phosphorylates galactose to galactose-1-phosphate",
+        "B": "Galactose-1-phosphate uridyltransferase (GALT)",
+        "C": "UDP-galactose-4-epimerase",
+        "D": "Aldose reductase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The first step of galactose metabolism is phosphorylation of galactose to galactose-1-phosphate by galactokinase. Deficiency of this enzyme causes galactokinase-deficiency galactosemia (galactosemia type 2), characterised chiefly by cataracts from galactitol accumulation in the lens, but without the severe hepatic/renal disease of classic (GALT-deficiency) galactosemia.",
+        "B": "Incorrect. GALT catalyses the second step (converting galactose-1-phosphate to glucose-1-phosphate); its deficiency causes classic galactosemia (type 1), a distinct and more severe disease, not the first step of the pathway.",
+        "C": "Incorrect. UDP-galactose-4-epimerase acts later in the pathway, interconverting UDP-galactose and UDP-glucose; it is not the first enzyme and its deficiency causes a rarer, distinct form of galactosemia (type 3).",
+        "D": "Incorrect. Aldose reductase converts galactose to galactitol via the alternative (minor) polyol pathway when galactokinase's normal pathway is overwhelmed or blocked; it is not the first, primary enzyme of galactose metabolism."
+      },
+      "main_concept": "CON-END-35B353F1956ABA",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-GALACTOKINASE-FIRST-STEP-GALACTOSE"
+      ],
+      "learning_objective": "State that galactokinase catalyses the first step of galactose metabolism and that its deficiency causes a cataract-predominant, non-hepatotoxic form of galactosemia."
+    },
+    {
+      "key": "bio-q23",
+      "id": "QST-ASUENDO2-BIO-B23",
+      "page": 6,
+      "title": "Phosphoglycerate kinase is a reversible kinase of glycolysis",
+      "question": "Which of the following is a reversible kinase (freely reversible glycolytic step)?",
+      "options": {
+        "A": "Phosphoglycerate kinase",
+        "B": "Hexokinase",
+        "C": "Phosphofructokinase-1",
+        "D": "Pyruvate kinase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Phosphoglycerate kinase catalyses a near-equilibrium, freely reversible reaction (1,3-bisphosphoglycerate + ADP to 3-phosphoglycerate + ATP), and runs equally in the reverse direction during gluconeogenesis. It is one of the few glycolytic 'kinase' steps that is not committed/irreversible.",
+        "B": "Incorrect. Hexokinase catalyses a large negative free-energy change (irreversible) step and is one of the three key regulated, irreversible enzymes of glycolysis, bypassed by glucose-6-phosphatase in gluconeogenesis.",
+        "C": "Incorrect. Phosphofructokinase-1 catalyses the committed, rate-limiting, irreversible step of glycolysis, bypassed by fructose-1,6-bisphosphatase in gluconeogenesis.",
+        "D": "Incorrect. Pyruvate kinase catalyses a highly exergonic, irreversible step of glycolysis, bypassed in gluconeogenesis by the pyruvate carboxylase/PEPCK shunt."
+      },
+      "main_concept": "CON-END-E10D53CE2FB9A7",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-PHOSPHOGLYCERATE-KINASE-REVERSIBLE-STEP"
+      ],
+      "learning_objective": "Identify phosphoglycerate kinase as a freely reversible glycolytic enzyme, distinct from the three irreversible, regulated glycolytic kinases."
+    },
+    {
+      "key": "bio-q24",
+      "id": "QST-ASUENDO2-BIO-B24",
+      "page": 6,
+      "title": "Ketone bodies fuel the brain after prolonged starvation",
+      "question": "What is the brain's main source of energy after about 3 weeks of starvation?",
+      "options": {
+        "A": "Ketone bodies",
+        "B": "Free fatty acids directly",
+        "C": "Muscle-derived glucose",
+        "D": "Dietary glucose"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. After roughly 2-3 weeks of prolonged starvation, hepatic ketogenesis rises sufficiently that ketone bodies (beta-hydroxybutyrate and acetoacetate) become the brain's major fuel. This spares glucose. It also reduces the need for muscle protein breakdown to supply gluconeogenic precursors.",
+        "B": "Incorrect. Free fatty acids cannot cross the blood-brain barrier in significant amounts and cannot be used directly by neurons; the liver must first convert them to ketone bodies, which the brain can use.",
+        "C": "Incorrect. While muscle-derived amino acids support hepatic gluconeogenesis, that route is reduced (not the main energy source) precisely because rising ketone body use spares glucose and protein in prolonged starvation.",
+        "D": "Incorrect. By definition, starvation means no dietary intake, so dietary glucose cannot be an energy source after weeks without food."
+      },
+      "main_concept": "CON-END-CA170ADF2A01AB",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-KETONE-BODIES-BRAIN-STARVATION-FUEL"
+      ],
+      "learning_objective": "State that ketone bodies become the brain's major energy source after approximately 2-3 weeks of prolonged starvation, sparing glucose and muscle protein."
+    },
+    {
+      "key": "bio-q25",
+      "id": "QST-ASUENDO2-BIO-B25",
+      "page": 6,
+      "title": "Glucagon/epinephrine/corticosteroid decrease peripheral glucose uptake",
+      "question": "What is a shared action of glucagon, epinephrine, and corticosteroids on peripheral tissue?",
+      "options": {
+        "A": "Decrease glucose uptake by peripheral tissues",
+        "B": "Increase GLUT4 translocation in muscle and fat",
+        "C": "Increase glycogen synthase activity in liver",
+        "D": "Increase peripheral insulin sensitivity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Glucagon, epinephrine and corticosteroids are all counter-regulatory (insulin-antagonistic) hormones. Among their shared, glucose-raising actions is decreasing glucose uptake by peripheral (especially muscle and fat) tissues, which \u2014 together with increased hepatic glucose output \u2014 raises blood glucose.",
+        "B": "Incorrect. Increased GLUT4 translocation is an insulin effect, which increases (not decreases) peripheral glucose uptake \u2014 the opposite of what these counter-regulatory hormones do.",
+        "C": "Incorrect. These hormones increase (not decrease) hepatic glycogen breakdown and inhibit glycogen synthase, opposing insulin's stimulation of glycogen synthesis.",
+        "D": "Incorrect. These hormones decrease, not increase, peripheral insulin sensitivity (they are diabetogenic/insulin-antagonistic), which is part of why they raise blood glucose."
+      },
+      "main_concept": "CON-END-D16B601C55261E",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-COUNTER-REGULATORY-HORMONES-PERIPHERAL-GLUCOSE"
+      ],
+      "learning_objective": "State that glucagon, epinephrine and corticosteroids share the action of decreasing peripheral tissue glucose uptake, contributing to their hyperglycaemic, insulin-antagonistic effect."
+    },
+    {
+      "key": "bio-q26",
+      "id": "QST-ASUENDO2-BIO-B26",
+      "page": 6,
+      "title": "Glucagon is the first hormone to respond to hypoglycaemia",
+      "question": "A female patient presents with hypoglycaemia. Which hormone responds first?",
+      "options": {
+        "A": "Glucagon",
+        "B": "Cortisol",
+        "C": "Growth hormone",
+        "D": "Epinephrine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Glucagon is the first and most important counter-regulatory hormone to respond to falling blood glucose. It rises within minutes of the glucose fall. This rapid rise stimulates hepatic glycogenolysis and gluconeogenesis, restoring euglycaemia.",
+        "B": "Incorrect. Cortisol is a slower-acting counter-regulatory hormone, becoming important only if hypoglycaemia is prolonged, well after glucagon and epinephrine have already responded.",
+        "C": "Incorrect. Growth hormone is also a delayed counter-regulatory hormone, contributing to glucose recovery over hours if hypoglycaemia persists, not the first responder.",
+        "D": "Incorrect. Epinephrine is an important, rapid second-line responder (particularly when glucagon secretion is impaired, e.g. long-standing type 1 diabetes) but glucagon is normally the first and primary defence against hypoglycaemia."
+      },
+      "main_concept": "CON-END-6DC41726E3C0EE",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-GLUCAGON-FIRST-RESPONSE-HYPOGLYCAEMIA"
+      ],
+      "learning_objective": "State that glucagon is the first hormone to respond to hypoglycaemia, ahead of epinephrine, cortisol, and growth hormone."
+    },
+    {
+      "key": "bio-q27",
+      "id": "QST-ASUENDO2-BIO-B27",
+      "page": 6,
+      "title": "Ketogenesis occurs with low insulin levels",
+      "question": "Which of the following occurs in states of low insulin levels?",
+      "options": {
+        "A": "Ketogenesis",
+        "B": "Increased glycogen synthesis",
+        "C": "Increased lipogenesis (fatty acid synthesis)",
+        "D": "Increased GLUT4 translocation in muscle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Low insulin (with relatively high glucagon) permits unrestrained adipose lipolysis, delivering free fatty acids to the liver. Low insulin also fails to inhibit hepatic carnitine palmitoyltransferase-1 (CPT1), so fatty acids enter mitochondria for beta-oxidation and ketogenesis, producing acetoacetate and beta-hydroxybutyrate.",
+        "B": "Incorrect. Glycogen synthesis is stimulated by insulin (via activation of glycogen synthase); low insulin instead favours glycogen breakdown, not synthesis.",
+        "C": "Incorrect. Lipogenesis (fatty acid synthesis) is an insulin-stimulated, fed-state process (via activation of acetyl-CoA carboxylase); low insulin instead favours lipolysis, the opposite process.",
+        "D": "Incorrect. GLUT4 translocation to the muscle/fat cell membrane is stimulated by insulin; low insulin reduces, not increases, peripheral glucose uptake via this transporter."
+      },
+      "main_concept": "CON-END-6551B0C9C7A660",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-LOW-INSULIN-KETOGENESIS"
+      ],
+      "learning_objective": "State that low insulin permits ketogenesis by allowing unrestrained lipolysis and hepatic fatty acid oxidation via disinhibited CPT1."
+    },
+    {
+      "key": "bio-q28",
+      "id": "QST-ASUENDO2-BIO-B28",
+      "page": 6,
+      "title": "Biotin is required for the pyruvate carboxylase reaction",
+      "question": "Which cofactor is required for the pyruvate carboxylase reaction?",
+      "options": {
+        "A": "Biotin",
+        "B": "Thiamine (vitamin B1)",
+        "C": "Pyridoxal phosphate (vitamin B6)",
+        "D": "Cobalamin (vitamin B12)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Pyruvate carboxylase is a biotin-dependent carboxylase. Biotin, covalently attached to the enzyme, carries an activated CO2 group as carboxybiotin. This group is transferred to pyruvate to form oxaloacetate, the first committed step of gluconeogenesis and also an anaplerotic TCA-cycle reaction.",
+        "B": "Incorrect. Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase (and alpha-ketoglutarate dehydrogenase, transketolase), not for pyruvate carboxylase.",
+        "C": "Incorrect. Pyridoxal phosphate is the cofactor for transaminases (e.g., ALT, AST) and other amino-acid-metabolising enzymes, not for pyruvate carboxylase.",
+        "D": "Incorrect. Cobalamin (B12) is a cofactor for methylmalonyl-CoA mutase and methionine synthase, not for pyruvate carboxylase."
+      },
+      "main_concept": "CON-END-526A27236AA505",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-BIOTIN-PYRUVATE-CARBOXYLASE-COFACTOR"
+      ],
+      "learning_objective": "State that biotin is the required cofactor for pyruvate carboxylase's carboxylation of pyruvate to oxaloacetate."
+    },
+    {
+      "key": "bio-q29",
+      "id": "QST-ASUENDO2-BIO-B29",
+      "page": 6,
+      "title": "Glucagon inhibits PFK2 to favour gluconeogenesis",
+      "question": "Glucagon's action favours gluconeogenesis by inhibiting which enzyme?",
+      "options": {
+        "A": "Phosphofructokinase-2 (PFK2)",
+        "B": "Fructose-1,6-bisphosphatase",
+        "C": "Glucose-6-phosphatase",
+        "D": "Pyruvate carboxylase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Glucagon, via PKA-mediated phosphorylation of the bifunctional PFK2/FBPase2 enzyme, inhibits its PFK2 (kinase) activity, lowering fructose-2,6-bisphosphate. Since fructose-2,6-bisphosphate normally activates glycolytic PFK1 and inhibits gluconeogenic FBPase1, this fall relieves inhibition of gluconeogenesis and removes glycolytic drive, favouring net gluconeogenic flux.",
+        "B": "Incorrect. Glucagon does not inhibit fructose-1,6-bisphosphatase \u2014 on the contrary, by lowering fructose-2,6-bisphosphate (its allosteric inhibitor), glucagon action effectively disinhibits/favours this gluconeogenic enzyme.",
+        "C": "Incorrect. Glucagon does not inhibit glucose-6-phosphatase; it increases the expression/activity supporting the final step of gluconeogenesis (and glycogenolysis) that releases free glucose.",
+        "D": "Incorrect. Glucagon does not inhibit pyruvate carboxylase; hepatic gluconeogenic flux through this enzyme is supported, not opposed, in the glucagon-dominant (fasting) state."
+      },
+      "main_concept": "CON-END-D471B0315C6A85",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-GLUCAGON-INHIBITS-PFK2-GLUCONEOGENESIS"
+      ],
+      "learning_objective": "State that glucagon favours gluconeogenesis specifically by inhibiting the PFK2 (kinase) activity of the bifunctional PFK2/FBPase2 enzyme."
+    },
+    {
+      "key": "bio-q30",
+      "id": "QST-ASUENDO2-BIO-B30",
+      "page": 6,
+      "title": "Galactokinase deficiency presenting with infantile cataracts and a false-negative glucose dipstick",
+      "question": "A 3-month-old infant presents with cataracts and reduced urine output. Urine testing shows a positive reducing-substance test but a negative glucose-specific dipstick, while blood glucose is normal. Which enzyme is deficient?",
+      "options": {
+        "A": "Galactokinase",
+        "B": "Galactose-1-phosphate uridyltransferase (GALT)",
+        "C": "Glucose-6-phosphatase",
+        "D": "Fructokinase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A urine reducing-substance-positive but glucose-dipstick-negative result indicates a non-glucose reducing sugar in the urine \u2014 here, galactose \u2014 consistent with galactosemia. The combination of infantile cataracts with normal blood glucose and (by exclusion) no hepatic/renal disease points to the milder galactokinase deficiency (galactosemia type 2), where galactitol accumulation in the lens causes cataracts but galactose-1-phosphate does not accumulate to cause systemic organ damage.",
+        "B": "Incorrect. GALT deficiency (classic galactosemia) would typically also cause hepatomegaly, jaundice, and renal tubular (Fanconi) dysfunction from toxic galactose-1-phosphate accumulation, features not described in this vignette, which suggests the milder galactokinase-deficiency form instead.",
+        "C": "Incorrect. Glucose-6-phosphatase deficiency (von Gierke disease, glycogen storage disease type I) causes fasting hypoglycaemia, hepatomegaly and lactic acidosis, not cataracts or a urine reducing-substance/glucose-dipstick discrepancy.",
+        "D": "Incorrect. Fructokinase deficiency (essential fructosuria) is a benign condition causing fructose (also a reducing sugar) in urine, but it does not cause cataracts, distinguishing it from this vignette."
+      },
+      "main_concept": "CON-END-BB0D0F94A05D15",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-GALACTOKINASE-DEFICIENCY-CLINICAL-VIGNETTE"
+      ],
+      "learning_objective": "Recognise the clinical vignette of infantile cataracts with reducing-substance-positive, glucose-dipstick-negative urine and normal blood glucose as galactokinase deficiency."
+    },
+    {
+      "key": "bio-q31",
+      "id": "QST-ASUENDO2-BIO-B31",
+      "page": 6,
+      "title": "SCOT deficiency: the liver cannot use ketone bodies",
+      "question": "Which enzyme, absent from the liver, prevents the liver from performing ketolysis (using ketone bodies as fuel)?",
+      "options": {
+        "A": "Succinyl-CoA:3-ketoacid CoA transferase (SCOT/thiophorase)",
+        "B": "HMG-CoA synthase",
+        "C": "HMG-CoA lyase",
+        "D": "Beta-hydroxybutyrate dehydrogenase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Succinyl-CoA:3-ketoacid CoA transferase (SCOT, also called thiophorase) catalyses the key activating step of ketolysis \u2014 transferring CoA from succinyl-CoA to acetoacetate to form acetoacetyl-CoA \u2014 but the liver lacks this enzyme. Consequently, the liver can produce ketone bodies but cannot itself use them as fuel, ensuring ketones are exported for use by extrahepatic tissues (brain, muscle, heart).",
+        "B": "Incorrect. HMG-CoA synthase is present in the liver and is required for ketone body synthesis (the rate-limiting, mitochondrial ketogenic enzyme); its absence is not what prevents hepatic ketolysis.",
+        "C": "Incorrect. HMG-CoA lyase is also present in the liver and is required for ketogenesis (cleaving HMG-CoA to acetoacetate); it is not the enzyme whose hepatic absence explains the liver's inability to use ketones.",
+        "D": "Incorrect. Beta-hydroxybutyrate dehydrogenase (interconverting beta-hydroxybutyrate and acetoacetate) is present in the liver; it is SCOT, not this enzyme, that the liver specifically lacks, blocking ketolysis."
+      },
+      "main_concept": "CON-END-DD5B3BABA54EB3",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-SCOT-ABSENCE-LIVER-KETOLYSIS"
+      ],
+      "learning_objective": "State that the liver physiologically lacks SCOT, so it can synthesise but not itself utilise ketone bodies, exporting them for extrahepatic use."
+    },
+    {
+      "key": "bio-q32",
+      "id": "QST-ASUENDO2-BIO-B32",
+      "page": 6,
+      "title": "Well-fed state: increased adipose TAG synthesis and hepatic amino acid degradation",
+      "question": "Which of the following occurs in the well-fed state?",
+      "options": {
+        "A": "Increased triacylglycerol (TAG) synthesis in adipose tissue and increased degradation of amino acids in the liver",
+        "B": "Increased lipolysis in adipose tissue",
+        "C": "Increased hepatic ketogenesis",
+        "D": "Increased muscle proteolysis to supply gluconeogenic substrate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In the well-fed (postprandial, high-insulin) state, adipose tissue takes up glucose and fatty acids to increase triacylglycerol synthesis, storing fat. At the same time, the liver faces a dietary amino acid surplus beyond its immediate protein-synthesis needs. It increases amino acid degradation by transamination/deamination, using some carbon skeletons for energy or fat synthesis and disposing of nitrogen via the urea cycle.",
+        "B": "Incorrect. Lipolysis is suppressed, not increased, in the well-fed state, since high insulin inhibits hormone-sensitive lipase; lipolysis is a fasting-state process.",
+        "C": "Incorrect. Ketogenesis is suppressed in the well-fed state (high insulin inhibits lipolysis and disinhibits malonyl-CoA-mediated CPT1 blockade); ketogenesis is characteristic of fasting/low-insulin states.",
+        "D": "Incorrect. Muscle proteolysis to supply gluconeogenic amino acids is a fasting-state response to low insulin; in the well-fed state, insulin promotes net protein synthesis rather than breakdown in muscle."
+      },
+      "main_concept": "CON-END-199A28854C0CE8",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-WELL-FED-STATE-TAG-SYNTHESIS-AMINO-ACID-DEGRADATION"
+      ],
+      "learning_objective": "State that the well-fed state features increased adipose triacylglycerol synthesis and increased hepatic amino acid degradation, in contrast to the catabolic pattern of fasting."
+    },
+    {
+      "key": "bio-q33",
+      "id": "QST-ASUENDO2-BIO-B33",
+      "page": 7,
+      "title": "Glycogenesis is insulin's primary action in the well-fed state",
+      "question": "In an insulin-stimulated, well-fed state, what is the primary action of insulin?",
+      "options": {
+        "A": "Glycogenesis",
+        "B": "Glycogenolysis",
+        "C": "Gluconeogenesis",
+        "D": "Ketogenesis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In the well-fed state, insulin's primary action is to promote glycogenesis. It does this by activating glycogen synthase, through inhibition of glycogen synthase kinase and activation of protein phosphatase-1. The net effect is to store the postprandial glucose surplus as glycogen in liver and muscle.",
+        "B": "Incorrect. Glycogenolysis (glycogen breakdown) is inhibited, not promoted, by insulin; it is stimulated instead by glucagon and epinephrine during fasting or stress.",
+        "C": "Incorrect. Gluconeogenesis is inhibited by insulin (which suppresses expression of gluconeogenic enzymes such as PEPCK and glucose-6-phosphatase); it is a fasting-state, glucagon-driven process, the opposite of the fed-state action of insulin.",
+        "D": "Incorrect. Ketogenesis is suppressed by insulin (via inhibition of lipolysis and disinhibition of malonyl-CoA-mediated CPT1 blockade); it is a fasting/low-insulin-state process."
+      },
+      "main_concept": "CON-END-7EBED797F741C0",
+      "library_ids": [
+        "ART-END-ASUENDO2EFC-INSULIN-GLYCOGENESIS-WELL-FED-STATE"
+      ],
+      "learning_objective": "State that insulin's primary action in the well-fed state is to promote glycogenesis (glycogen synthesis)."
+    }
+  ]
+}
