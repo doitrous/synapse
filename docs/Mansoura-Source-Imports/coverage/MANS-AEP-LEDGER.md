@@ -1,6 +1,10 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
+| "Muscle & Fascia", p.42-45 is Lecture (8) "Respiratory System", p.47-50 is Lecture (9) "CVS", | 0 | 0 | 1 | 1 |
+| 10) without opening Lecture (11) "Lymphatic System" (p.57+), left for a later lane per the task | 0 | 0 | 1 | 1 |
 | 18 short-answer "enumerate"/"compare" items on p.26-27 (compare axon/dendrites; enumerate neuron | 0 | 0 | 1 | 1 |
+| 2 short-answer "enumerate" items on p.33 (salivary gland duct terminations recap; alimentary-canal | 0 | 0 | 1 | 1 |
+| 28-item combined total falls short of the 45-55 target because both lectures' real content is | 0 | 0 | 1 | 1 |
 | A1 :: E :: formation of spinal cord (neurulation) [authored aepcns-q01] | 0 | 0 | 1 | 1 |
 | A10 :: C :: number of cervical nerves (8) [authored aepcns-q09] | 0 | 0 | 1 | 1 |
 | A11 :: D :: parasympathetic system arises from (S2, 3 & 4) [authored aepcns-q10] | 0 | 0 | 1 | 1 |
@@ -16,9 +20,12 @@
 | A7 :: D :: upper part of the brainstem (midbrain) [authored aepcns-q06] | 0 | 0 | 1 | 1 |
 | A8 :: A :: lateral ventricle is the cavity of (cerebral hemisphere) [authored aepcns-q07] | 0 | 0 | 1 | 1 |
 | A9 :: C :: spinal nerves formed by union of (ventral and dorsal roots) [authored aepcns-q08] | 0 | 0 | 1 | 1 |
+| Authored: 19 | 0 | 0 | 1 | 1 |
 | Authored: 28 | 0 | 0 | 1 | 1 |
+| Authored: 28 (19 GIT + 9 Urinary) | 0 | 0 | 1 | 1 |
 | Authored: 38 | 0 | 0 | 1 | 1 |
 | Authored: 40 (19 joints, 21 embryology) | 0 | 0 | 1 | 1 |
+| Authored: 9 | 0 | 0 | 1 | 1 |
 | B1 :: B :: part of NS for equilibrium and muscle tone, repeat concept of A14 (cerebellum) [held, near-duplicate of A14] | 0 | 0 | 1 | 1 |
 | B2 :: B :: cavities inside cerebrum filled with CSF (ventricles) [authored aepcns-q14] | 0 | 0 | 1 | 1 |
 | B3 :: B :: basic unit of the nervous system, repeat of A4 (neuron) [held, near-duplicate of A4] | 0 | 0 | 1 | 1 |
@@ -47,9 +54,36 @@
 | C7 :: C :: diseases of the cerebellum, repeat of A14 (loss of balance) [held, near-duplicate of A14] | 0 | 0 | 1 | 1 |
 | C8 :: D :: upper part of the brainstem, repeat of A7 (midbrain) [held, near-duplicate of A7] | 0 | 0 | 1 | 1 |
 | C9 :: C :: diseases of the cerebellum, repeat of A14/C7 (loss of balance) [held, literal duplicate of C7 within same sitting] | 0 | 0 | 1 | 1 |
+| G0-Q1 :: C :: termination of the duct of submandibular salivary gland (oral cavity proper) [authored aepgit-q01] | 0 | 0 | 1 | 1 |
+| G0-Q2 :: C :: 65yo male colon cancer, upper left abdominal cavity (left colic flexure) [authored aepgit-q02] | 0 | 0 | 1 | 1 |
+| GA-Q1 :: E :: length of esophagus (25 cm) [authored aepgit-q03] | 0 | 0 | 1 | 1 |
+| GA-Q10 :: B :: where does the duct carrying the bile terminate (duodenum) [authored aepgit-q12] | 0 | 0 | 1 | 1 |
+| GA-Q11 :: A :: alimentary canal part characterized by sacculations (descending colon) [authored aepgit-q13] | 0 | 0 | 1 | 1 |
+| GA-Q12 :: C :: common pathway for food and air (pharynx) [authored aepgit-q14] | 0 | 0 | 1 | 1 |
+| GA-Q13 :: E :: longest part of the small intestine (ilium/ileum) [authored aepgit-q15] | 0 | 0 | 1 | 1 |
+| GA-Q14 :: B :: proximal part of the small intestine (printed key: jejunum) [authored aepgit-q16, doubt — the duodenum is in fact the small intestine's most proximal segment overall; the printed key most plausibly intends the proximal part of the freely mobile bowel (jejunum vs ileum), but no other page of this source states duodenum-first explicitly, so authored as printed per the lane's rule (milder than the B5/B9 same-source-contradiction precedent), doubt recorded in the question's own author_notes] | 0 | 0 | 1 | 1 |
+| GA-Q15 :: D :: length of the duodenum (10 inches) [authored aepgit-q17] | 0 | 0 | 1 | 1 |
+| GA-Q2 :: E :: tumor obliterating large intestine on left side (descending colon) [authored aepgit-q04] | 0 | 0 | 1 | 1 |
+| GA-Q3 :: D :: tumor obliterating distal part of small intestine (ilium/ileum) [authored aepgit-q05] | 0 | 0 | 1 | 1 |
+| GA-Q4 :: B :: cancer head of pancreas affects (duodenum) [authored aepgit-q06] | 0 | 0 | 1 | 1 |
+| GA-Q5 :: D :: termination of the parotid gland duct (vestibule of the mouth) [authored aepgit-q07] | 0 | 0 | 1 | 1 |
+| GA-Q6 :: B :: where does the stomach present (upper left part of the abdomen) [authored aepgit-q08] | 0 | 0 | 1 | 1 |
+| GA-Q7 :: D :: largest gland in the body (liver) [authored aepgit-q09] | 0 | 0 | 1 | 1 |
+| GA-Q8 :: C :: narrowest part of the intestine (vermiform appendix) [authored aepgit-q10] | 0 | 0 | 1 | 1 |
+| GA-Q9 :: B :: structure responsible for production of bile (liver) [authored aepgit-q11] | 0 | 0 | 1 | 1 |
+| GB-Q1 :: A :: 60yo female colon cancer, lower right part of the abdominal cavity (cecum) [authored aepgit-q18] | 0 | 0 | 1 | 1 |
+| GB-Q2 :: E :: widest part of GIT (stomach) [authored aepgit-q19] | 0 | 0 | 1 | 1 |
+| GB-Q3 :: B :: alimentary canal part receiving the opening of the bile duct (duodenum) [held, literal duplicate of GA-Q10] | 0 | 0 | 1 | 1 |
+| GB-Q4 :: C :: receives the termination of the duct of submandibular salivary gland (oral cavity) [held, literal duplicate of G0-Q1] | 0 | 0 | 1 | 1 |
 | Held: 11 (5 near/literal duplicate in Lecture 1, 3 near/literal duplicate in Lecture 2 sitting A, 3 in sitting B: 1 near-duplicate + 2 no-matching-concept) | 0 | 0 | 1 | 1 |
 | Held: 15 (13 near/literal duplicate across the three sittings; 2 doubt — printed key contradicts | 0 | 0 | 1 | 1 |
+| Held: 2 (both literal duplicates of an earlier sitting's item) | 0 | 0 | 1 | 1 |
 | Held: 39 (14 p.14-15 Bones restating lane 1; 14 joints sitting A-C duplicate/near-duplicate/terminology-doubt; 10 embryology duplicate/near-duplicate/numeric/terminology-doubt; 1 embryology malformed non-MCQ) | 0 | 0 | 1 | 1 |
+| Held: 5 (all near/literal duplicate of an earlier sitting's item) | 0 | 0 | 1 | 1 |
+| Held: 7 (2 GIT + 5 Urinary, all near/literal duplicate) | 0 | 0 | 1 | 1 |
+| Keys recovered: 14/14 (100% — every item carries a printed answer-column key) | 0 | 0 | 1 | 1 |
+| Keys recovered: 21/21 (100% — every item carries a printed answer-column key) | 0 | 0 | 1 | 1 |
+| Keys recovered: 35/35 (100%) | 0 | 0 | 1 | 1 |
 | Keys recovered: 43/43 (100% — every item carries a printed answer-column key) | 0 | 0 | 1 | 1 |
 | Keys recovered: 49/49 (100% — every sampled item carries a printed answer-column key) | 0 | 0 | 1 | 1 |
 | Keys recovered: 79/79 (100% — every item, including the malformed p.102 Q15, carries a printed/stated answer) | 0 | 0 | 1 | 1 |
@@ -181,33 +215,83 @@
 | L5E-Q14 :: D :: structure responsible for adhesion and penetration to endometrium (trophoblast) [authored aepvip2-q40] | 0 | 0 | 1 | 1 |
 | L5E-Q15 :: (epiblast) [held, not a valid MCQ — no lettered options printed, answer given directly] | 0 | 0 | 1 | 1 |
 | L5E-Q16 :: D :: roof of the yolk sac, repeat (hypoblasts) [held, literal duplicate of aepvip2-q20] | 0 | 0 | 1 | 1 |
+| Lecture (11) "Lymphatic System" divider) — Lecture (11) onward is untriaged, left for a later | 0 | 0 | 1 | 1 |
+| MCQs above, without themselves being authored as questions. | 0 | 0 | 1 | 1 |
+| Not MCQ (skipped, not counted above): 14 (7 GIT + 7 Urinary) | 0 | 0 | 1 | 1 |
 | Not MCQ (skipped, not counted above): 18 short-answer "enumerate"/"compare" items on p.26-27 | 0 | 0 | 1 | 1 |
 | Not MCQ (skipped, not counted above): 2 short-answer "enumerate" items on p.7, 6 short-answer "enumerate/classify" items on p.13 | 0 | 0 | 1 | 1 |
 | Not MCQ (skipped, not counted above): 5 short-answer "enumerate" items on p.19, 2 short-answer items on p.102 | 0 | 0 | 1 | 1 |
+| Not MCQ (skipped, not counted above): 7 short-answer "enumerate"/"compare" items on p.33-34 | 0 | 0 | 1 | 1 |
+| Not MCQ (skipped, not counted above): 7 short-answer "enumerate/compare" items on p.54; p.52 | 0 | 0 | 1 | 1 |
 | Raw MCQ items triaged: 15 sitting A (p.23-24) + 9 sitting B (p.25) + 19 sitting C (p.28-29) = 43 | 0 | 0 | 1 | 1 |
+| Raw MCQ items triaged: 2 sitting intro (p.31) + 15 sitting A (p.32-33) + 4 sitting B (p.34) = 21 | 0 | 0 | 1 | 1 |
+| Raw MCQ items triaged: 21 (GIT) + 14 (Urinary) = 35 | 0 | 0 | 1 | 1 |
 | Raw MCQ items triaged: 47 joints (7 sitting A + 15 sitting B + 11 sitting C from Lecture 3 "Joints", plus 14 from the p.14-15 Lecture 2 "Bones" sitting C held as restating lane 1) + 32 embryology (4 p.98 + 10 p.99 + 2 p.100 + 8 p.101 + 8 p.102, of which 1 is not a valid MCQ) = 79 | 0 | 0 | 1 | 1 |
 | Raw MCQ items triaged: 49 (25 Lecture 1 "Terms", 11 Lecture 2 sitting A "Bones", 13 Lecture 2 sitting B "Skeletal system") | 0 | 0 | 1 | 1 |
+| Raw MCQ items triaged: 9 sitting A (p.53) + 5 sitting B (p.55) = 14 | 0 | 0 | 1 | 1 |
 | Scope note: p.23-77 was assigned; CNS/Nervous-System content confirmed confined to p.23-29 by | 0 | 0 | 1 | 1 |
+| Scope note: p.30-51 was assigned for this lecture; GIT content confirmed confined to p.31-34 by | 0 | 0 | 1 | 1 |
+| Scope note: p.52-56 was the Urinary fallback range; real content confirmed confined to p.53 and | 0 | 0 | 1 | 1 |
+| Scope note: the full assigned range (p.30-51 for GIT, continuing into the p.52-56 Urinary | 0 | 0 | 1 | 1 |
 | Several of these printed model answers (tract/bundle definitions, the sympathetic/ | 0 | 0 | 1 | 1 |
+| U-Q1 :: B :: the trigone is located in (base of urinary bladder) [authored aepuri-q01] | 0 | 0 | 1 | 1 |
+| U-Q2 :: C :: the functional unit of the kidney is the (nephron) [authored aepuri-q02] | 0 | 0 | 1 | 1 |
+| U-Q3 :: C :: the neck of the urinary bladder is surrounded by the (internal urethral sphincter) [authored aepuri-q03] | 0 | 0 | 1 | 1 |
+| U-Q4 :: C :: the longest part of male urethra is (penile) [authored aepuri-q04] | 0 | 0 | 1 | 1 |
+| U-Q5 :: A :: the renal pelvis is formed by the union of (major calyces) [authored aepuri-q05] | 0 | 0 | 1 | 1 |
+| U-Q6 :: C :: the length of the ureter is usually (25 cm) [authored aepuri-q06] | 0 | 0 | 1 | 1 |
+| U-Q7 :: D :: the inner surface of the base of urinary bladder is the (trigone) [held, near-duplicate of U-Q1] | 0 | 0 | 1 | 1 |
+| U-Q8 :: B :: the part of the urinary bladder which receives the opening of ureters is the (trigone) [authored aepuri-q07] | 0 | 0 | 1 | 1 |
+| U-Q9 :: B :: length of female urethra is (4 cm) [authored aepuri-q08] | 0 | 0 | 1 | 1 |
+| U2-Q1 :: D :: where is the trigone of the urinary bladder (inner aspect of the posterior surface) [held, near-duplicate of U-Q1] | 0 | 0 | 1 | 1 |
+| U2-Q2 :: B :: where is the termination of the female urethra (at the vestibule in front of the vagina) [authored aepuri-q09] | 0 | 0 | 1 | 1 |
+| U2-Q3 :: E :: the internal urethral sphincter surrounds which structure (neck of the urinary bladder) [held, near-duplicate of U-Q3] | 0 | 0 | 1 | 1 |
+| U2-Q4 :: E :: which structure is surrounded by the internal urethral sphincter (neck of the urinary bladder) [held, literal duplicate of U2-Q3] | 0 | 0 | 1 | 1 |
+| U2-Q5 :: D :: what is the normal length of the ureter (25 cm) [held, literal duplicate of U-Q6] | 0 | 0 | 1 | 1 |
 | aepcns | 28 | 0 | 0 | 28 |
+| aepgit | 19 | 0 | 0 | 19 |
+| aepuri | 9 | 0 | 0 | 9 |
 | anatomy-terms-and-osteology-basics | 38 | 0 | 0 | 38 |
+| brief's own designation of Lymphatic as "untriaged, for later lanes." | 0 | 0 | 1 | 1 |
 | factors, brain sulci, brain lobes, brain ventricles, brainstem components, spinal cord segments, | 0 | 0 | 1 | 1 |
 | facts also tested by the MCQs above, per the lane's standing "trust the source" rule, without | 0 | 0 | 1 | 1 |
+| fallback since GIT alone yielded only 19 authored items) has now been read and exhausted; the | 0 | 0 | 1 | 1 |
+| genuinely this thin, not because pages were skipped. Stopped at the end of p.55 (end of Lecture | 0 | 0 | 1 | 1 |
+| ileum differences; stomach/liver/caecum sites; small vs large intestine differences; pharynx | 0 | 0 | 1 | 1 |
 | in resource/MANS-AEP-resources.md. | 0 | 0 | 1 | 1 |
 | joints-and-2nd-week-embryology | 40 | 0 | 0 | 40 |
+| lane per the task brief's own instruction, logged in resource/MANS-AEP-resources.md. | 0 | 0 | 1 | 1 |
 | nucleus/ganglion/tract/bundle; compare sympathetic/parasympathetic; state cerebellum functions). | 0 | 0 | 1 | 1 |
+| origin/termination; small intestine total length and parts). These printed model answers were | 0 | 0 | 1 | 1 |
+| p.52: "لا يوجد أي أسئلة" (no questions), a divider/blank sitting — not counted. p.54: 7 | 0 | 0 | 1 | 1 |
+| p.55 (p.51 is a divider, p.52 states no questions, p.54 is short-answer only, p.56 begins the | 0 | 0 | 1 | 1 |
 | parasympathetic comparison table) were read and used to write concept `definition` fields for | 0 | 0 | 1 | 1 |
+| read and used to cross-check and write concept `definition` fields for facts also tested by the | 0 | 0 | 1 | 1 |
+| reading the full range (p.30 is a divider, p.35 begins a new divider) — p.36-40 is Lecture (7) | 0 | 0 | 1 | 1 |
 | reading the full range — p.30 onward is Lecture (6) "GIT" and further unrelated lectures, logged | 0 | 0 | 1 | 1 |
+| short-answer "enumerate/compare" items (urinary system components; nephron components; kidney | 0 | 0 | 1 | 1 |
 | spinal cord cross-section components; compare dorsal/ventral rami; enumerate ANS parts; define | 0 | 0 | 1 | 1 |
+| states no questions and is not counted | 0 | 0 | 1 | 1 |
+| structures ~10 inches long) and 5 short-answer "enumerate/compare" items on p.33-34 (jejunum vs | 0 | 0 | 1 | 1 |
 | themselves being authored as questions. | 0 | 0 | 1 | 1 |
+| this module's assigned scope, logged in resource/MANS-AEP-resources.md for a later lane. | 0 | 0 | 1 | 1 |
 | this same source's own p.27 definition (B5) or is biologically self-contradictory (B9)) | 0 | 0 | 1 | 1 |
+| three lectures unrelated to GIT falling inside the originally-estimated page range but outside | 0 | 0 | 1 | 1 |
+| to cross-check and write concept `definition` fields for facts also tested by the MCQs above, | 0 | 0 | 1 | 1 |
+| tubules; kidney functions; male urethra parts; male vs female urethra comparison table; internal | 0 | 0 | 1 | 1 |
 | types, central/peripheral neuroglia types+functions, synapse types, CNS parts, CNS-protecting | 0 | 0 | 1 | 1 |
+| vs external urethral sphincter comparison table). These printed model answers were read and used | 0 | 0 | 1 | 1 |
+| without themselves being authored as questions. | 0 | 0 | 1 | 1 |
 
 ## Held
 (none)
 
 ## Remaining
+- "Muscle & Fascia", p.42-45 is Lecture (8) "Respiratory System", p.47-50 is Lecture (9) "CVS",
+- 10) without opening Lecture (11) "Lymphatic System" (p.57+), left for a later lane per the task
 - 18 short-answer "enumerate"/"compare" items on p.26-27 (compare axon/dendrites; enumerate neuron
+- 2 short-answer "enumerate" items on p.33 (salivary gland duct terminations recap; alimentary-canal
+- 28-item combined total falls short of the 45-55 target because both lectures' real content is
 - A1 :: E :: formation of spinal cord (neurulation) [authored aepcns-q01]
 - A10 :: C :: number of cervical nerves (8) [authored aepcns-q09]
 - A11 :: D :: parasympathetic system arises from (S2, 3 & 4) [authored aepcns-q10]
@@ -223,9 +307,12 @@
 - A7 :: D :: upper part of the brainstem (midbrain) [authored aepcns-q06]
 - A8 :: A :: lateral ventricle is the cavity of (cerebral hemisphere) [authored aepcns-q07]
 - A9 :: C :: spinal nerves formed by union of (ventral and dorsal roots) [authored aepcns-q08]
+- Authored: 19
 - Authored: 28
+- Authored: 28 (19 GIT + 9 Urinary)
 - Authored: 38
 - Authored: 40 (19 joints, 21 embryology)
+- Authored: 9
 - B1 :: B :: part of NS for equilibrium and muscle tone, repeat concept of A14 (cerebellum) [held, near-duplicate of A14]
 - B2 :: B :: cavities inside cerebrum filled with CSF (ventricles) [authored aepcns-q14]
 - B3 :: B :: basic unit of the nervous system, repeat of A4 (neuron) [held, near-duplicate of A4]
@@ -254,9 +341,36 @@
 - C7 :: C :: diseases of the cerebellum, repeat of A14 (loss of balance) [held, near-duplicate of A14]
 - C8 :: D :: upper part of the brainstem, repeat of A7 (midbrain) [held, near-duplicate of A7]
 - C9 :: C :: diseases of the cerebellum, repeat of A14/C7 (loss of balance) [held, literal duplicate of C7 within same sitting]
+- G0-Q1 :: C :: termination of the duct of submandibular salivary gland (oral cavity proper) [authored aepgit-q01]
+- G0-Q2 :: C :: 65yo male colon cancer, upper left abdominal cavity (left colic flexure) [authored aepgit-q02]
+- GA-Q1 :: E :: length of esophagus (25 cm) [authored aepgit-q03]
+- GA-Q10 :: B :: where does the duct carrying the bile terminate (duodenum) [authored aepgit-q12]
+- GA-Q11 :: A :: alimentary canal part characterized by sacculations (descending colon) [authored aepgit-q13]
+- GA-Q12 :: C :: common pathway for food and air (pharynx) [authored aepgit-q14]
+- GA-Q13 :: E :: longest part of the small intestine (ilium/ileum) [authored aepgit-q15]
+- GA-Q14 :: B :: proximal part of the small intestine (printed key: jejunum) [authored aepgit-q16, doubt — the duodenum is in fact the small intestine's most proximal segment overall; the printed key most plausibly intends the proximal part of the freely mobile bowel (jejunum vs ileum), but no other page of this source states duodenum-first explicitly, so authored as printed per the lane's rule (milder than the B5/B9 same-source-contradiction precedent), doubt recorded in the question's own author_notes]
+- GA-Q15 :: D :: length of the duodenum (10 inches) [authored aepgit-q17]
+- GA-Q2 :: E :: tumor obliterating large intestine on left side (descending colon) [authored aepgit-q04]
+- GA-Q3 :: D :: tumor obliterating distal part of small intestine (ilium/ileum) [authored aepgit-q05]
+- GA-Q4 :: B :: cancer head of pancreas affects (duodenum) [authored aepgit-q06]
+- GA-Q5 :: D :: termination of the parotid gland duct (vestibule of the mouth) [authored aepgit-q07]
+- GA-Q6 :: B :: where does the stomach present (upper left part of the abdomen) [authored aepgit-q08]
+- GA-Q7 :: D :: largest gland in the body (liver) [authored aepgit-q09]
+- GA-Q8 :: C :: narrowest part of the intestine (vermiform appendix) [authored aepgit-q10]
+- GA-Q9 :: B :: structure responsible for production of bile (liver) [authored aepgit-q11]
+- GB-Q1 :: A :: 60yo female colon cancer, lower right part of the abdominal cavity (cecum) [authored aepgit-q18]
+- GB-Q2 :: E :: widest part of GIT (stomach) [authored aepgit-q19]
+- GB-Q3 :: B :: alimentary canal part receiving the opening of the bile duct (duodenum) [held, literal duplicate of GA-Q10]
+- GB-Q4 :: C :: receives the termination of the duct of submandibular salivary gland (oral cavity) [held, literal duplicate of G0-Q1]
 - Held: 11 (5 near/literal duplicate in Lecture 1, 3 near/literal duplicate in Lecture 2 sitting A, 3 in sitting B: 1 near-duplicate + 2 no-matching-concept)
 - Held: 15 (13 near/literal duplicate across the three sittings; 2 doubt — printed key contradicts
+- Held: 2 (both literal duplicates of an earlier sitting's item)
 - Held: 39 (14 p.14-15 Bones restating lane 1; 14 joints sitting A-C duplicate/near-duplicate/terminology-doubt; 10 embryology duplicate/near-duplicate/numeric/terminology-doubt; 1 embryology malformed non-MCQ)
+- Held: 5 (all near/literal duplicate of an earlier sitting's item)
+- Held: 7 (2 GIT + 5 Urinary, all near/literal duplicate)
+- Keys recovered: 14/14 (100% — every item carries a printed answer-column key)
+- Keys recovered: 21/21 (100% — every item carries a printed answer-column key)
+- Keys recovered: 35/35 (100%)
 - Keys recovered: 43/43 (100% — every item carries a printed answer-column key)
 - Keys recovered: 49/49 (100% — every sampled item carries a printed answer-column key)
 - Keys recovered: 79/79 (100% — every item, including the malformed p.102 Q15, carries a printed/stated answer)
@@ -388,21 +502,65 @@
 - L5E-Q14 :: D :: structure responsible for adhesion and penetration to endometrium (trophoblast) [authored aepvip2-q40]
 - L5E-Q15 :: (epiblast) [held, not a valid MCQ — no lettered options printed, answer given directly]
 - L5E-Q16 :: D :: roof of the yolk sac, repeat (hypoblasts) [held, literal duplicate of aepvip2-q20]
+- Lecture (11) "Lymphatic System" divider) — Lecture (11) onward is untriaged, left for a later
+- MCQs above, without themselves being authored as questions.
+- Not MCQ (skipped, not counted above): 14 (7 GIT + 7 Urinary)
 - Not MCQ (skipped, not counted above): 18 short-answer "enumerate"/"compare" items on p.26-27
 - Not MCQ (skipped, not counted above): 2 short-answer "enumerate" items on p.7, 6 short-answer "enumerate/classify" items on p.13
 - Not MCQ (skipped, not counted above): 5 short-answer "enumerate" items on p.19, 2 short-answer items on p.102
+- Not MCQ (skipped, not counted above): 7 short-answer "enumerate"/"compare" items on p.33-34
+- Not MCQ (skipped, not counted above): 7 short-answer "enumerate/compare" items on p.54; p.52
 - Raw MCQ items triaged: 15 sitting A (p.23-24) + 9 sitting B (p.25) + 19 sitting C (p.28-29) = 43
+- Raw MCQ items triaged: 2 sitting intro (p.31) + 15 sitting A (p.32-33) + 4 sitting B (p.34) = 21
+- Raw MCQ items triaged: 21 (GIT) + 14 (Urinary) = 35
 - Raw MCQ items triaged: 47 joints (7 sitting A + 15 sitting B + 11 sitting C from Lecture 3 "Joints", plus 14 from the p.14-15 Lecture 2 "Bones" sitting C held as restating lane 1) + 32 embryology (4 p.98 + 10 p.99 + 2 p.100 + 8 p.101 + 8 p.102, of which 1 is not a valid MCQ) = 79
 - Raw MCQ items triaged: 49 (25 Lecture 1 "Terms", 11 Lecture 2 sitting A "Bones", 13 Lecture 2 sitting B "Skeletal system")
+- Raw MCQ items triaged: 9 sitting A (p.53) + 5 sitting B (p.55) = 14
 - Scope note: p.23-77 was assigned; CNS/Nervous-System content confirmed confined to p.23-29 by
+- Scope note: p.30-51 was assigned for this lecture; GIT content confirmed confined to p.31-34 by
+- Scope note: p.52-56 was the Urinary fallback range; real content confirmed confined to p.53 and
+- Scope note: the full assigned range (p.30-51 for GIT, continuing into the p.52-56 Urinary
 - Several of these printed model answers (tract/bundle definitions, the sympathetic/
+- U-Q1 :: B :: the trigone is located in (base of urinary bladder) [authored aepuri-q01]
+- U-Q2 :: C :: the functional unit of the kidney is the (nephron) [authored aepuri-q02]
+- U-Q3 :: C :: the neck of the urinary bladder is surrounded by the (internal urethral sphincter) [authored aepuri-q03]
+- U-Q4 :: C :: the longest part of male urethra is (penile) [authored aepuri-q04]
+- U-Q5 :: A :: the renal pelvis is formed by the union of (major calyces) [authored aepuri-q05]
+- U-Q6 :: C :: the length of the ureter is usually (25 cm) [authored aepuri-q06]
+- U-Q7 :: D :: the inner surface of the base of urinary bladder is the (trigone) [held, near-duplicate of U-Q1]
+- U-Q8 :: B :: the part of the urinary bladder which receives the opening of ureters is the (trigone) [authored aepuri-q07]
+- U-Q9 :: B :: length of female urethra is (4 cm) [authored aepuri-q08]
+- U2-Q1 :: D :: where is the trigone of the urinary bladder (inner aspect of the posterior surface) [held, near-duplicate of U-Q1]
+- U2-Q2 :: B :: where is the termination of the female urethra (at the vestibule in front of the vagina) [authored aepuri-q09]
+- U2-Q3 :: E :: the internal urethral sphincter surrounds which structure (neck of the urinary bladder) [held, near-duplicate of U-Q3]
+- U2-Q4 :: E :: which structure is surrounded by the internal urethral sphincter (neck of the urinary bladder) [held, literal duplicate of U2-Q3]
+- U2-Q5 :: D :: what is the normal length of the ureter (25 cm) [held, literal duplicate of U-Q6]
+- brief's own designation of Lymphatic as "untriaged, for later lanes."
 - factors, brain sulci, brain lobes, brain ventricles, brainstem components, spinal cord segments,
 - facts also tested by the MCQs above, per the lane's standing "trust the source" rule, without
+- fallback since GIT alone yielded only 19 authored items) has now been read and exhausted; the
+- genuinely this thin, not because pages were skipped. Stopped at the end of p.55 (end of Lecture
+- ileum differences; stomach/liver/caecum sites; small vs large intestine differences; pharynx
 - in resource/MANS-AEP-resources.md.
+- lane per the task brief's own instruction, logged in resource/MANS-AEP-resources.md.
 - nucleus/ganglion/tract/bundle; compare sympathetic/parasympathetic; state cerebellum functions).
+- origin/termination; small intestine total length and parts). These printed model answers were
+- p.52: "لا يوجد أي أسئلة" (no questions), a divider/blank sitting — not counted. p.54: 7
+- p.55 (p.51 is a divider, p.52 states no questions, p.54 is short-answer only, p.56 begins the
 - parasympathetic comparison table) were read and used to write concept `definition` fields for
+- read and used to cross-check and write concept `definition` fields for facts also tested by the
+- reading the full range (p.30 is a divider, p.35 begins a new divider) — p.36-40 is Lecture (7)
 - reading the full range — p.30 onward is Lecture (6) "GIT" and further unrelated lectures, logged
+- short-answer "enumerate/compare" items (urinary system components; nephron components; kidney
 - spinal cord cross-section components; compare dorsal/ventral rami; enumerate ANS parts; define
+- states no questions and is not counted
+- structures ~10 inches long) and 5 short-answer "enumerate/compare" items on p.33-34 (jejunum vs
 - themselves being authored as questions.
+- this module's assigned scope, logged in resource/MANS-AEP-resources.md for a later lane.
 - this same source's own p.27 definition (B5) or is biologically self-contradictory (B9))
+- three lectures unrelated to GIT falling inside the originally-estimated page range but outside
+- to cross-check and write concept `definition` fields for facts also tested by the MCQs above,
+- tubules; kidney functions; male urethra parts; male vs female urethra comparison table; internal
 - types, central/peripheral neuroglia types+functions, synapse types, CNS parts, CNS-protecting
+- vs external urethral sphincter comparison table). These printed model answers were read and used
+- without themselves being authored as questions.
