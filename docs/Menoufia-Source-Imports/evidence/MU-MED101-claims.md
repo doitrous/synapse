@@ -3965,3 +3965,575 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Menoufia MED101 Foundation 1 EOM Support 43 exam paper
+
+---
+
+# Item
+
+## id
+CLM-MSK-15F4A73F4A88B4
+
+## concept_id
+CON-MSK-15F4A73F4A88B4
+
+## subject
+The median plane divides the body into equal right and left halves
+
+## predicate
+is described by
+
+## object
+The median (midsagittal) plane is the single vertical anteroposterior plane that passes through the midline of the body, dividing it into exactly equal right and left halves. A coronal (frontal) plane...
+
+## display_text
+The median (midsagittal) plane is the single vertical anteroposterior plane that passes through the midline of the body, dividing it into exactly equal right and left halves. A coronal (frontal) plane instead divides the body into anterior and posterior parts; a transverse (horizontal) plane divides it into upper and lower parts; a parasagittal plane is any plane parallel to, but offset from, the median plane, so it does not produce equal halves.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-MSK-BC359C9152AC2A
+
+## concept_id
+CON-MSK-BC359C9152AC2A
+
+## subject
+In the anatomical position, the radius lies lateral to the ulna
+
+## predicate
+is described by
+
+## object
+In the standard anatomical position (body erect, palms facing forward/anteriorly), the radius is the lateral forearm bone and the ulna is the medial forearm bone. "Lateral" and "medial" describe this ...
+
+## display_text
+In the standard anatomical position (body erect, palms facing forward/anteriorly), the radius is the lateral forearm bone and the ulna is the medial forearm bone. "Lateral" and "medial" describe this fixed side-to-side relationship regardless of forearm rotation; the terms "proximal" and "distal" instead describe position along the limb's long axis, and "anterior"/"posterior" describe front-to-back position, neither of which correctly names the radius-to-ulna relationship.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-MSK-0E6A1B6122E709
+
+## concept_id
+CON-MSK-0E6A1B6122E709
+
+## subject
+The face has no deep fascia
+
+## predicate
+is described by
+
+## object
+Deep fascia is the dense fibrous membrane that invests muscle groups in the limbs and trunk (thigh, arm, sole of the foot) beneath the superficial fascia, giving muscles a smooth compartment to contra...
+
+## display_text
+Deep fascia is the dense fibrous membrane that invests muscle groups in the limbs and trunk (thigh, arm, sole of the foot) beneath the superficial fascia, giving muscles a smooth compartment to contract within. The face is the classic exception: it has only superficial fascia, containing the muscles of facial expression directly, with no deep fascial layer separating them, which is exactly why facial muscles can act directly on the skin.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-MSK-59F66B0EC77685
+
+## concept_id
+CON-MSK-59F66B0EC77685
+
+## subject
+An aponeurosis is a muscle's flattened, sheet-like fibrous attachment
+
+## predicate
+is described by
+
+## object
+A muscle attaches to bone (or to other fascia) through one of several named fibrous connective-tissue forms. A tendon is a cord-like attachment; an aponeurosis is instead a thin, broad, flattened shee...
+
+## display_text
+A muscle attaches to bone (or to other fascia) through one of several named fibrous connective-tissue forms. A tendon is a cord-like attachment; an aponeurosis is instead a thin, broad, flattened sheet of dense fibrous tissue, typically found where a wide muscle (such as the external oblique or the epicranial muscles) needs a wide area of attachment rather than a concentrated point. A retinaculum is a band that retains tendons in place at a joint, and a raphe is a fibrous seam where two muscles meet in the midline; neither is itself the muscle's primary attachment.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-MSK-FF08BF94D51F80
+
+## concept_id
+CON-MSK-FF08BF94D51F80
+
+## subject
+The intercarpal joints are synovial (plane) joints
+
+## predicate
+is described by
+
+## object
+Among joints commonly listed together on an exam, the intercarpal joints (between adjacent carpal bones) are synovial plane joints, freely mobile and possessing a joint cavity and capsule. This contra...
+
+## display_text
+Among joints commonly listed together on an exam, the intercarpal joints (between adjacent carpal bones) are synovial plane joints, freely mobile and possessing a joint cavity and capsule. This contrasts with the intervertebral discs (secondary cartilaginous joints/symphyses), the epiphyseal plate (a primary cartilaginous joint/synchondrosis), and the middle radioulnar and inferior tibiofibular joints (fibrous syndesmoses, held by an interosseous membrane rather than a joint cavity) -- none of which are synovial.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-MSK-82CB25DF2E62F8
+
+## concept_id
+CON-MSK-82CB25DF2E62F8
+
+## subject
+A pivot joint is the joint type that allows rotation around a longitudinal axis
+
+## predicate
+is described by
+
+## object
+Of the named synovial joint types (plane, hinge, pivot, condyloid, saddle, ball-and-socket), the pivot joint is the one built specifically for rotation: one bone's ring or process rotates around a lon...
+
+## display_text
+Of the named synovial joint types (plane, hinge, pivot, condyloid, saddle, ball-and-socket), the pivot joint is the one built specifically for rotation: one bone's ring or process rotates around a longitudinal axis fixed by an osteoligamentous ring formed by the other bone plus an encircling ligament. The proximal and distal radioulnar joints (pronation/supination) and the atlantoaxial joint (head rotation) are the classic examples. Hinge joints, by contrast, are uniaxial for flexion-extension only; condyloid joints allow two axes (flexion-extension plus abduction-adduction) but no independent rotation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-DEV-36E62DB18CEFD1
+
+## concept_id
+CON-DEV-36E62DB18CEFD1
+
+## subject
+The normal implantation site is the endometrium of the upper part of the uterine body
+
+## predicate
+is described by
+
+## object
+After the blastocyst reaches the uterine cavity, it normally implants in the endometrium of the upper part of the body of the uterus, usually on the posterior wall -- the site richest in glandular, we...
+
+## display_text
+After the blastocyst reaches the uterine cavity, it normally implants in the endometrium of the upper part of the body of the uterus, usually on the posterior wall -- the site richest in glandular, well-vascularised endometrium at the secretory phase. Implantation in the lower uterine segment or near the internal cervical os instead produces placenta previa; implantation in the ampulla of the uterine tube, the ovary, or the peritoneal cavity are all forms of ectopic pregnancy.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-DEV-A62ED38D321E85
+
+## concept_id
+CON-DEV-A62ED38D321E85
+
+## subject
+The second week after fertilization is when the amniotic cavity and bilaminar germ disc form
+
+## predicate
+is described by
+
+## object
+Human development after fertilization proceeds through a fixed weekly sequence. The first week is cleavage and blastocyst formation; the second week ("the week of twos") is when the bilaminar germ dis...
+
+## display_text
+Human development after fertilization proceeds through a fixed weekly sequence. The first week is cleavage and blastocyst formation; the second week ("the week of twos") is when the bilaminar germ disc forms together with the amniotic cavity (from the epiblast) and the primary yolk sac (from the hypoblast). Gastrulation, forming the trilaminar disc and the notochord, does not begin until the third week; folding of the embryo, which converts the flat trilaminar disc into a three-dimensional body, happens in the fourth week.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-FND-96FFFC3C26A8D9
+
+## concept_id
+CON-FND-96FFFC3C26A8D9
+
+## subject
+The Golgi apparatus modifies and packages proteins for secretion
+
+## predicate
+is described by
+
+## object
+Once a protein destined for secretion is synthesised by ribosomes on the rough endoplasmic reticulum, it is transported to the Golgi apparatus, which further modifies it (glycosylation, sulfation and ...
+
+## display_text
+Once a protein destined for secretion is synthesised by ribosomes on the rough endoplasmic reticulum, it is transported to the Golgi apparatus, which further modifies it (glycosylation, sulfation and proteolytic processing among other steps), sorts it, and packages the finished product into membrane-bound secretory vesicles that bud from its trans face for release from the cell. Lysosomes store digestive enzymes rather than secretory product, the plasma membrane is the site of exocytosis rather than packaging, and peroxisomes handle oxidative detoxification, not secretory-protein processing.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-FND-AD5B097BFB3468
+
+## concept_id
+CON-FND-AD5B097BFB3468
+
+## subject
+Best's carmine is the histochemical stain that demonstrates glycogen
+
+## predicate
+is described by
+
+## object
+Best's carmine is a specific histochemical stain used to demonstrate glycogen in tissue sections, staining glycogen granules a distinct red colour. It is one of several named stains each used for a di...
+
+## display_text
+Best's carmine is a specific histochemical stain used to demonstrate glycogen in tissue sections, staining glycogen granules a distinct red colour. It is one of several named stains each used for a different substance: osmic acid and Sudan III demonstrate lipid, H&E is the general-purpose structural stain rather than a substance-specific one, and silver stains demonstrate reticular fibres or, in the nervous system, neurofibrils -- none of these substitutes for Best's carmine when the target is glycogen specifically.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-FND-7608A98CBA708C
+
+## concept_id
+CON-FND-7608A98CBA708C
+
+## subject
+An isochromosome forms when the centromere divides transversely instead of longitudinally
+
+## predicate
+is described by
+
+## object
+A centromere normally divides longitudinally (along the chromosome's long axis) during cell division, separating the two sister chromatids so each daughter cell receives one copy of each chromosome ar...
+
+## display_text
+A centromere normally divides longitudinally (along the chromosome's long axis) during cell division, separating the two sister chromatids so each daughter cell receives one copy of each chromosome arm. An isochromosome results when the centromere instead divides transversely (across the short axis), producing one chromosome with two copies of one arm and none of the other, and a second, reciprocal chromosome with two copies of the other arm. This is distinct from translocation (exchange of material between non-homologous chromosomes), deletion (loss of a segment), a ring chromosome (the two broken ends of one chromosome fusing into a circle), and inversion (a segment reversing orientation within the same chromosome).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-FND-39A613E199D3FB
+
+## concept_id
+CON-FND-39A613E199D3FB
+
+## subject
+Meiosis produces four haploid daughter cells from one diploid mother cell
+
+## predicate
+is described by
+
+## object
+Meiosis is the two-division process (meiosis I, reductional, then meiosis II, equational) by which one diploid germ-line mother cell produces four genetically distinct daughter cells, each with the ha...
+
+## display_text
+Meiosis is the two-division process (meiosis I, reductional, then meiosis II, equational) by which one diploid germ-line mother cell produces four genetically distinct daughter cells, each with the haploid chromosome number. This is unlike mitosis, which produces two diploid daughter cells identical to the parent cell from a single division. In spermatogenesis all four products mature into functional spermatids/sperm; in oogenesis the same four-cell outcome occurs cytologically, but unequal cytoplasmic division means only one becomes a functional mature ovum, the other three becoming polar bodies that degenerate.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper
+
+---
+
+# Item
+
+## id
+CLM-FND-D62EA340309B89
+
+## concept_id
+CON-FND-D62EA340309B89
+
+## subject
+Nerve cells are permanent cells that cannot divide
+
+## predicate
+is described by
+
+## object
+Cells are classified by renewal capacity into labile (continuously dividing, such as epithelial and blood-forming cells), stable/quiescent (normally non-dividing but capable of re-entering the cell cy...
+
+## display_text
+Cells are classified by renewal capacity into labile (continuously dividing, such as epithelial and blood-forming cells), stable/quiescent (normally non-dividing but capable of re-entering the cell cycle when needed, such as liver and endocrine gland cells), and permanent (having permanently exited the cell cycle after full differentiation, such as neurons and, functionally, cardiac and skeletal muscle cells). Mature nerve cells cannot divide because they are terminally differentiated permanent cells, unlike pancreatic, liver, endocrine gland and most epithelial cells, which retain some capacity to proliferate.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED101 Foundation 1 Answer-Labeled EOM exam paper

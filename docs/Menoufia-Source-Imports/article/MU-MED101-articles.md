@@ -269,25 +269,27 @@ CON-MSK-11D3738D214A8B
 CON-FND-8C984FDEDA5B93
 CON-FND-FF41417DBE6C38
 CON-MSK-FFA1DBDC9336D6
+CON-MSK-FF08BF94D51F80
+CON-MSK-82CB25DF2E62F8
 
 ## related_articles
 
 
 ## aliases
-The first carpometacarpal joint is a sad | The elbow is a uniaxial hinge joint movi | The knee is a modified hinge joint: main | The metacarpophalangeal joints are condy | Synchondrosis is a primary cartilaginous | The glenohumeral (shoulder) joint is a b | Synovial joints have a joint cavity and  | The endocrine system is the set of ductl | A portal circulation connects two capill | Shoulder circumduction runs flexion, the
+The first carpometacarpal joint is a sad | The elbow is a uniaxial hinge joint movi | The knee is a modified hinge joint: main | The metacarpophalangeal joints are condy | Synchondrosis is a primary cartilaginous | The glenohumeral (shoulder) joint is a b | Synovial joints have a joint cavity and  | The endocrine system is the set of ductl | A portal circulation connects two capill | Shoulder circumduction runs flexion, the | The intercarpal joints are synovial (pla | A pivot joint is the joint type that all
 
 ## reading_time
-8
+9
 
 ## summary
-The named joint type of the thumb CMC, elbow, knee, MCP and shoulder joints, the transverse axis of hinge joints, why synchondrosis is cartilaginous rather than fibrous, the defining features of a synovial joint, plus two physiology facts examined in the same sub-block: the endocrine system's ductless-gland definition and the two-capillary-bed portal circulation, and the four-movement sequence of shoulder circumduction.
+The named joint type of the thumb CMC, elbow, knee, MCP and shoulder joints, the transverse axis of hinge joints, why synchondrosis is cartilaginous rather than fibrous, the defining features of a synovial joint, plus two physiology facts examined in the same sub-block: the endocrine system's ductless-gland definition and the two-capillary-bed portal circulation, and the four-movement sequence of shoulder circumduction. Lane 3 adds two further joint-identification facts from the Answer-Labeled paper: the intercarpal joints as a worked example of a synovial joint, and the pivot joint as the specific joint type built for rotation.
 
 ## sections
 ### Definition
-Named joints are classified by the shape of their articulating surfaces and the movement that shape permits. The thumb's first carpometacarpal joint is a saddle joint (reciprocally curved surfaces), giving it enough biaxial movement plus rotation to produce opposition -- mobility no other (plane) carpometacarpal joint has. The elbow (humero-ulnar) joint is a uniaxial hinge joint, moving only in flexion-extension around a single transverse axis; pivot joints, by contrast, rotate around a longitudinal axis. The knee is a modified hinge joint: mainly flexion-extension, plus a small rotatory component and a screw-home mechanism that locks it in full extension. The metacarpophalangeal joints are condyloid joints (flexion-extension plus abduction-adduction). Synchondrosis is a primary cartilaginous joint (hyaline cartilage), not a fibrous one -- the true fibrous joints are sutures, gomphoses and syndesmoses. The glenohumeral (shoulder) joint is a ball-and-socket joint, the body's most mobile, trading stability for range of movement. A synovial joint in general has a joint cavity and a capsule, may contain an intra-articular disc, and is freely mobile; its bone ends are covered by hyaline articular cartilage, not by the synovial membrane, which instead lines the capsule and secretes synovial fluid. Two further facts recur in the same sub-block: the endocrine system is the set of ductless glands secreting hormones straight into the bloodstream, and a portal circulation (the hepatic portal system being the classic example) connects two capillary beds in series via a portal vein without an intervening pass through the heart. Shoulder circumduction, finally, is not an independent movement but a fixed sequence -- flexion, then abduction, then extension, then adduction -- run together as one continuous, cone-describing cycle.
+Named joints are classified by the shape of their articulating surfaces and the movement that shape permits. The thumb's first carpometacarpal joint is a saddle joint (reciprocally curved surfaces), giving it enough biaxial movement plus rotation to produce opposition -- mobility no other (plane) carpometacarpal joint has. The elbow (humero-ulnar) joint is a uniaxial hinge joint, moving only in flexion-extension around a single transverse axis; pivot joints, by contrast, rotate around a longitudinal axis. The knee is a modified hinge joint: mainly flexion-extension, plus a small rotatory component and a screw-home mechanism that locks it in full extension. The metacarpophalangeal joints are condyloid joints (flexion-extension plus abduction-adduction). Synchondrosis is a primary cartilaginous joint (hyaline cartilage), not a fibrous one -- the true fibrous joints are sutures, gomphoses and syndesmoses. The glenohumeral (shoulder) joint is a ball-and-socket joint, the body's most mobile, trading stability for range of movement. A synovial joint in general has a joint cavity and a capsule, may contain an intra-articular disc, and is freely mobile; its bone ends are covered by hyaline articular cartilage, not by the synovial membrane, which instead lines the capsule and secretes synovial fluid. The intercarpal joints are a worked example of this: small synovial plane joints, unlike the intervertebral discs (a cartilaginous symphysis), the epiphyseal plate (a cartilaginous synchondrosis) or the middle radioulnar/inferior tibiofibular joints (fibrous syndesmoses) that are commonly listed alongside them. The pivot joint, meanwhile, is the synovial joint type built specifically for rotation around a longitudinal axis -- the proximal/distal radioulnar joints (pronation-supination) and the atlantoaxial joint (head rotation) are its classic examples. Two further facts recur in the same sub-block: the endocrine system is the set of ductless glands secreting hormones straight into the bloodstream, and a portal circulation (the hepatic portal system being the classic example) connects two capillary beds in series via a portal vein without an intervening pass through the heart. Shoulder circumduction, finally, is not an independent movement but a fixed sequence -- flexion, then abduction, then extension, then adduction -- run together as one continuous, cone-describing cycle.
 
 ### Mechanism
-Classification by surface shape (saddle, hinge, condyloid, ball-and-socket, plane) predicts the joint's degrees of freedom directly: a uniaxial hinge or pivot has one axis of movement, a biaxial condyloid or saddle joint has two (plus some rotation for a saddle joint), and a multiaxial ball-and-socket joint has three plus full rotation -- more surface curvature and looser fit generally buys more mobility at the cost of stability.
+Classification by surface shape (saddle, hinge, condyloid, ball-and-socket, plane) predicts the joint's degrees of freedom directly: a uniaxial hinge or pivot has one axis of movement, a biaxial condyloid or saddle joint has two (plus some rotation for a saddle joint), and a multiaxial ball-and-socket joint has three plus full rotation -- more surface curvature and looser fit generally buys more mobility at the cost of stability. Identifying a specific joint (such as the intercarpal joints) as synovial is really an application of this same classification: the question is not whether two bones meet, but which of the three fundamental joint tissues (fibrous, cartilaginous, or a synovial cavity/capsule) connects them.
 
 ### Clinical significance
 The shoulder's mobility-for-stability trade-off is why it is the most commonly dislocated large joint and depends on the rotator cuff and glenoid labrum for what stability it has; synchondroses (such as the epiphyseal plate itself) are clinically important because they are sites where a fracture can silently disrupt future bone growth, unlike a fracture through already-fused bone.
@@ -361,22 +363,23 @@ CON-FND-00AB95D36059E4
 CON-FND-B00722B64F7A11
 CON-FND-F0D524E0B74132
 CON-FND-8DC1E6E867FDFA
+CON-FND-AD5B097BFB3468
 
 ## related_articles
 
 
 ## aliases
-Cell inclusions (pigment, glycogen, lipi | PAS stains carbohydrates (glycogen, glyc | Hemoglobin is the essential, life-sustai | Macrophages, as professional phagocytes 
+Cell inclusions (pigment, glycogen, lipi | PAS stains carbohydrates (glycogen, glyc | Hemoglobin is the essential, life-sustai | Macrophages, as professional phagocytes | Best's carmine is the histochemical sta
 
 ## reading_time
-8
+9
 
 ## summary
-What makes something a cell inclusion rather than an organelle, why PAS does not stain fat, why hemoglobin is the one truly essential body pigment, and why macrophages are the standard cell for studying lysosomes.
+What makes something a cell inclusion rather than an organelle, why PAS does not stain fat, why hemoglobin is the one truly essential body pigment, and why macrophages are the standard cell for studying lysosomes. Lane 3 adds a fifth histochemical stain from the Answer-Labeled paper: Best's carmine, used specifically to demonstrate glycogen.
 
 ## sections
 ### Definition
-A cell inclusion is a non-living, often transient or metabolically variable accumulation of material -- pigment (such as lipofuscin), stored glycogen, stored lipid, or secretory granules awaiting release -- as opposed to a permanent, living, functional structure such as a microtubule. Among histochemical fat stains, PAS is the odd one out: osmic acid, Sudan III and Sudan black all demonstrate lipid directly, while PAS instead demonstrates carbohydrate (glycogen, glycoproteins, basement membrane) by oxidising vicinal diols to aldehydes, so it does not stain neutral fat. Of the body's pigments, only hemoglobin is truly essential to life: it is what actually carries oxygen and carbon dioxide, whereas carotene, melanin, carbon particles and bilirubin are each dispensable, protective or purely diagnostic. Macrophages, as professional phagocytes, carry an unusually large and active population of lysosomes to digest whatever they engulf, which is why they are the standard cell type used to study lysosomal structure and function.
+A cell inclusion is a non-living, often transient or metabolically variable accumulation of material -- pigment (such as lipofuscin), stored glycogen, stored lipid, or secretory granules awaiting release -- as opposed to a permanent, living, functional structure such as a microtubule. Among histochemical fat stains, PAS is the odd one out: osmic acid, Sudan III and Sudan black all demonstrate lipid directly, while PAS instead demonstrates carbohydrate (glycogen, glycoproteins, basement membrane) by oxidising vicinal diols to aldehydes, so it does not stain neutral fat. Best's carmine is a further named stain, specific to glycogen rather than any lipid, staining glycogen granules red -- a different chemical mechanism from PAS, which also happens to stain glycogen along with other carbohydrates. Of the body's pigments, only hemoglobin is truly essential to life: it is what actually carries oxygen and carbon dioxide, whereas carotene, melanin, carbon particles and bilirubin are each dispensable, protective or purely diagnostic. Macrophages, as professional phagocytes, carry an unusually large and active population of lysosomes to digest whatever they engulf, which is why they are the standard cell type used to study lysosomal structure and function.
 
 ### Mechanism
 The inclusion/organelle distinction is really a living/non-living, permanent/variable distinction: an inclusion can be present in large amount in one cell and absent in an identical neighbouring cell depending on that cell's recent metabolic history, while an organelle such as a microtubule is a constant, functional feature of essentially every cell.
@@ -457,25 +460,32 @@ CON-FND-05007E925AB4D5
 CON-FND-C590C1C094E153
 CON-FND-887554F469D74B
 CON-FND-EBD0772A60AD54
+CON-FND-96FFFC3C26A8D9
+CON-FND-85CC08A33D0A88
+CON-FND-60953640114635
+CON-FND-9D325B98FC59A0
+CON-FND-6C5ABFD844D630
+CON-FND-D62EA340309B89
+CON-FND-69671A492023B8
 
 ## related_articles
 
 
 ## aliases
-Lysosome formation: rER synthesises acid | S phase is when DNA and centrioles dupli | The nucleolus is where ribosomal RNA is  | Janus green selectively stains mitochond | Smooth ER carries cytochrome P450 enzyme | Centrioles organise the mitotic spindle  | The Golgi apparatus has a cis (entry) fa | Cholesterol buffers membrane fluidity, r
+Lysosome formation: rER synthesises acid | S phase is when DNA and centrioles dupli | The nucleolus is where ribosomal RNA is  | Janus green selectively stains mitochond | Smooth ER carries cytochrome P450 enzyme | Centrioles organise the mitotic spindle  | The Golgi apparatus has a cis (entry) fa | Cholesterol buffers membrane fluidity, r | The Golgi apparatus modifies and package | The cell membrane is a phospholipid bila | Free ribosomes make protein the cell kee | A secondary lysosome is named by what th | Euchromatin is extended and active and m | Nerve cells are permanent cells that can | The Barr body is one X chromosome switch
 
 ## reading_time
-8
+12
 
 ## summary
-How lysosomes form from rER and Golgi cooperation, what happens in S phase and why meiosis II has none of its own, where ribosomes are assembled, how Janus green stains mitochondria, how smooth ER detoxifies drugs and proliferates with chronic exposure, how centrioles organise the mitotic spindle, the Golgi's cis/trans polarity, and how cholesterol buffers membrane fluidity.
+How lysosomes form from rER and Golgi cooperation, what happens in S phase and why meiosis II has none of its own, where ribosomes are assembled, how Janus green stains mitochondria, how smooth ER detoxifies drugs and proliferates with chronic exposure, how centrioles organise the mitotic spindle, the Golgi's cis/trans polarity, and how cholesterol buffers membrane fluidity. Lane 3 adds seven further Answer-Labeled facts on the same organelle/cell-cycle theme: the Golgi's general role packaging secretory protein, the cell membrane's phospholipid-bilayer composition, why ribosome-driven cytoplasmic basophilia is localised versus diffuse, the multivesicular body as a fluid-digesting secondary lysosome, euchromatin versus heterochromatin, the Barr body as an inactivated X chromosome, and the labile/stable/permanent cell-renewal classification that explains why nerve cells cannot divide.
 
 ## sections
 ### Definition
-Lysosomes form from a two-organelle partnership: rough ER (rER) ribosomes synthesise the acid hydrolase enzymes, and the Golgi apparatus then processes, tags and packages them into primary lysosomes budding from its trans face. The Golgi itself has a fixed polarity: incoming transport vesicles from rER fuse with its cis (entry/forming) face, and finished product leaves from its trans (exit/maturing) face, with the intervening stacked cisternae acting as separate compartments rather than one continuous space. The nucleolus is where ribosomal RNA is transcribed and assembled with imported proteins into the large and small ribosomal subunits, exported separately and joined only once in the cytoplasm. Centrioles, duplicated in S phase, organise the mitotic spindle that segregates chromosomes at division -- a role no intermediate filament (keratin, vimentin, glial, desmin) shares. S phase is specifically when DNA and centrioles are duplicated; because meiosis II reuses the single round of DNA replication that preceded meiosis I, it has no S phase of its own immediately before it, unlike mitosis, which always is preceded by one. Janus green B is a supravital dye that stays oxidised (blue-green) specifically in mitochondria, because their active respiratory chain keeps re-oxidising it faster than the surrounding cytoplasm can reduce it. Smooth ER (sER) carries the cytochrome P450 enzymes that detoxify lipid-soluble drugs, and hepatocyte sER proliferates adaptively with chronic drug or alcohol exposure to keep up with the sustained detoxification demand. Cholesterol, interspersed among membrane phospholipids, buffers fluidity in both directions -- restraining excess fluidity at higher temperature and excess rigidity at lower temperature.
+Lysosomes form from a two-organelle partnership: rough ER (rER) ribosomes synthesise the acid hydrolase enzymes, and the Golgi apparatus then processes, tags and packages them into primary lysosomes budding from its trans face. More generally, any protein destined for secretion (not only lysosomal enzymes) follows the same route: rER synthesis, then Golgi modification (glycosylation, sulfation, proteolytic processing), sorting and final packaging into a secretory vesicle -- the Golgi, not the rER, is the organelle that does the modifying and packaging. The Golgi itself has a fixed polarity: incoming transport vesicles from rER fuse with its cis (entry/forming) face, and finished product leaves from its trans (exit/maturing) face, with the intervening stacked cisternae acting as separate compartments rather than one continuous space. The nucleolus is where ribosomal RNA is transcribed and assembled with imported proteins into the large and small ribosomal subunits, exported separately and joined only once in the cytoplasm. Ribosomes -- whether free in the cytosol (making protein the cell keeps) or attached to rER (making protein it exports) -- are themselves what makes cytoplasm basophilic, because of the acidic phosphate groups of ribosomal RNA; a localised or focal patch of basophilia marks a site of rER specifically, while diffuse basophilia marks free ribosomes scattered through the cytosol. Chromatin itself is basophilic for the same reason (its nucleic acid's phosphate groups), and takes two forms: euchromatin is the extended, uncoiled, transcriptionally active form, predominating in metabolically active cells and giving a pale, vesicular nucleus; heterochromatin is the coiled, condensed, inactive form, predominating in quiescent cells such as the small lymphocyte and giving a dense, dark nucleus. The Barr body (sex chromatin) is a specific, permanent example of heterochromatin: one X chromosome, inactivated and condensed, seen as a dark plaque against the inner nuclear membrane -- because exactly one X stays active in every cell, the Barr body count always equals the number of X chromosomes minus one. Centrioles, duplicated in S phase, organise the mitotic spindle that segregates chromosomes at division -- a role no intermediate filament (keratin, vimentin, glial, desmin) shares. S phase is specifically when DNA and centrioles are duplicated; because meiosis II reuses the single round of DNA replication that preceded meiosis I, it has no S phase of its own immediately before it, unlike mitosis, which always is preceded by one. Janus green B is a supravital dye that stays oxidised (blue-green) specifically in mitochondria, because their active respiratory chain keeps re-oxidising it faster than the surrounding cytoplasm can reduce it. Smooth ER (sER) carries the cytochrome P450 enzymes that detoxify lipid-soluble drugs, and hepatocyte sER proliferates adaptively with chronic drug or alcohol exposure to keep up with the sustained detoxification demand. The cell membrane itself is a phospholipid bilayer, hydrophilic heads outward and hydrophobic tails inward, with cholesterol buffering fluidity in both directions (restraining excess fluidity at higher temperature and excess rigidity at lower temperature) and peripheral/integral proteins providing structural and channel/carrier functions respectively. A secondary lysosome is classified by what its primary lysosome fused with: a heterolysosome (a phagosome, digesting solid particles engulfed by phagocytosis), a multivesicular body (a pinocytic vesicle, digesting fluid material taken up by pinocytosis), or an autolysosome (the cell's own old organelles); all three end as a residual body. Finally, cells are classified by renewal capacity into labile (continuously dividing), stable/quiescent (normally quiescent but able to re-enter the cycle, such as liver and endocrine gland cells), and permanent cells (permanently exited the cell cycle after differentiation, such as neurons) -- which is why mature nerve cells specifically cannot divide.
 
 ### Mechanism
-Several of these facts share the same underlying logic of adaptive, demand-matched organelle activity: sER proliferates with detoxification demand just as a nucleolus enlarges with protein-synthetic demand, and in both cases the structural change (more membrane, a bigger nucleolus) is the visible consequence of a rising functional workload rather than a fixed, unchanging cell feature.
+Several of these facts share the same underlying logic of adaptive, demand-matched organelle activity: sER proliferates with detoxification demand just as a nucleolus enlarges with protein-synthetic demand, and in both cases the structural change (more membrane, a bigger nucleolus) is the visible consequence of a rising functional workload rather than a fixed, unchanging cell feature. The rER-to-Golgi secretory pathway, the free-versus-attached ribosome distinction, and the three named types of secondary lysosome are all instances of the same broader idea -- a cell's organelles form a connected assembly line, and where along that line a given structure sits (synthesis, modification/packaging, or digestion) determines both its named identity and what a stain or micrograph of it will show.
 
 ### Clinical significance
 The adaptive proliferation of hepatocyte sER with chronic alcohol or drug exposure is the structural basis of clinically important enzyme induction and drug tolerance; loss of centriole/spindle function halts mitosis outright, which is the mechanism exploited by several classes of anti-cancer drug that target microtubule dynamics.
@@ -547,25 +557,26 @@ DIS-HIS-T01
 ## related_concepts
 CON-FND-0FAE59E00B748E
 CON-FND-5097CA5BAB2E51
+CON-FND-7608A98CBA708C
 
 ## related_articles
 
 
 ## aliases
-Axoneme ultrastructure | Turner and Klinefelter syndromes | Down syndrome trisomy 21
+Axoneme ultrastructure | Turner and Klinefelter syndromes | Down syndrome trisomy 21 | An isochromosome forms when the centrom
 
 ## reading_time
-8
+9
 
 ## summary
-The 9+2, 20-microtubule axoneme of a motile cilium, and the chromosomal basis of Turner syndrome (45,X monosomy), Klinefelter syndrome (47,XXY trisomy) and Down syndrome (47, trisomy 21) -- taught here because this lane reuses two existing Kasr 101-ISK concepts (sparse overlay) for these facts and neither has a locally-available teaching article of its own to depend on. Lane 2 extends this summary and the Mechanism section below with Down syndrome so its own embryology-cluster reuse of the syndromes concept is fully taught, not only tested.
+The 9+2, 20-microtubule axoneme of a motile cilium, and the chromosomal basis of Turner syndrome (45,X monosomy), Klinefelter syndrome (47,XXY trisomy) and Down syndrome (47, trisomy 21) -- taught here because this lane reuses two existing Kasr 101-ISK concepts (sparse overlay) for these facts and neither has a locally-available teaching article of its own to depend on. Lane 2 extends this summary and the Mechanism section below with Down syndrome so its own embryology-cluster reuse of the syndromes concept is fully taught, not only tested. Lane 3 adds a structural (rather than numerical) chromosomal aberration from the Answer-Labeled paper: how an isochromosome forms from abnormal transverse centromere division.
 
 ## sections
 ### Definition
-A motile cilium's shaft has a '9+2' axoneme: nine peripheral doublet microtubules (18 microtubules) arranged around two central singlet microtubules (2 more), for 20 microtubules in total, linked by dynein arms that produce the beating action -- a constant, highly-tested numerical fact because it holds across essentially every motile cilium and flagellum. Turner syndrome and Klinefelter syndrome are the two sex-chromosome disorders most often tested against each other: Turner syndrome is monosomy of the X chromosome (45,X -- a single X and no second sex chromosome), affecting females, with underdeveloped genitalia and short stature; Klinefelter syndrome is the opposite kind of error, an extra X chromosome in a male (47,XXY), producing hypogonadism, poor musculature, underdeveloped genitalia and gynecomastia. Down syndrome is a third named chromosomal syndrome that follows the same extra-or-missing-chromosome logic, but affects an autosome rather than a sex chromosome: nondisjunction leaves the zygote with three copies of chromosome 21 (trisomy 21), bringing the total chromosome count to 47, the same total as Klinefelter syndrome but reached by an extra autosome instead of an extra sex chromosome.
+A motile cilium's shaft has a '9+2' axoneme: nine peripheral doublet microtubules (18 microtubules) arranged around two central singlet microtubules (2 more), for 20 microtubules in total, linked by dynein arms that produce the beating action -- a constant, highly-tested numerical fact because it holds across essentially every motile cilium and flagellum. Turner syndrome and Klinefelter syndrome are the two sex-chromosome disorders most often tested against each other: Turner syndrome is monosomy of the X chromosome (45,X -- a single X and no second sex chromosome), affecting females, with underdeveloped genitalia and short stature; Klinefelter syndrome is the opposite kind of error, an extra X chromosome in a male (47,XXY), producing hypogonadism, poor musculature, underdeveloped genitalia and gynecomastia. Down syndrome is a third named chromosomal syndrome that follows the same extra-or-missing-chromosome logic, but affects an autosome rather than a sex chromosome: nondisjunction leaves the zygote with three copies of chromosome 21 (trisomy 21), bringing the total chromosome count to 47, the same total as Klinefelter syndrome but reached by an extra autosome instead of an extra sex chromosome. A separate class of chromosomal aberration is structural rather than numerical: an isochromosome forms when the centromere divides transversely (across its short axis) instead of longitudinally, producing one chromosome with two copies of one arm and a reciprocal chromosome with two copies of the other -- distinct from translocation, deletion, a ring chromosome, or inversion, each of which has its own separate mechanical cause.
 
 ### Mechanism
-Turner and Klinefelter syndromes are easy to swap because both involve the X chromosome, but one is a missing chromosome (monosomy, 45 total) and the other is an extra chromosome (trisomy, 47 total) in the opposite sex -- the chromosome count itself (45 vs 47) is the fastest way to keep the two apart. Down syndrome shares Klinefelter's total count (47) but not its mechanism: grouping all three syndromes by "which chromosome, and extra or missing" (X missing = Turner; X extra = Klinefelter; autosome 21 extra = Down) is more reliable than grouping by chromosome count alone, since 47 alone does not distinguish Klinefelter from Down.
+Turner and Klinefelter syndromes are easy to swap because both involve the X chromosome, but one is a missing chromosome (monosomy, 45 total) and the other is an extra chromosome (trisomy, 47 total) in the opposite sex -- the chromosome count itself (45 vs 47) is the fastest way to keep the two apart. Down syndrome shares Klinefelter's total count (47) but not its mechanism: grouping all three syndromes by "which chromosome, and extra or missing" (X missing = Turner; X extra = Klinefelter; autosome 21 extra = Down) is more reliable than grouping by chromosome count alone, since 47 alone does not distinguish Klinefelter from Down. The numerical syndromes (Turner, Klinefelter, Down) and the structural aberrations (isochromosome, translocation, deletion, ring, inversion) are two separate families of chromosomal abnormality -- the first changes how many copies of a whole chromosome are present, the second changes the internal structure of one chromosome without necessarily changing the total count, and a question naming a specific mechanism (such as "transverse centromere division") is always pointing at the structural family.
 
 ### Clinical significance
 Klinefelter syndrome's clinical triad -- poor musculature, underdeveloped genitalia and gynecomastia in a phenotypic male -- follows directly from reduced testosterone caused by the extra X chromosome disrupting normal testicular development, and is usually confirmed exactly as tested here, by karyotyping.
@@ -1144,28 +1155,30 @@ CON-DEV-FD37F8117B3AE6
 CON-DEV-8EF02511F3FBC0
 CON-DEV-D66BAFF03A3C53
 CON-DEV-34A4AFD08BD2C5
+CON-DEV-36E62DB18CEFD1
+CON-DEV-642BA9E28AC8B6
 
 ## related_articles
 
 
 ## aliases
-Site of fertilization | Cleavage timeline | Zygote formation | Placenta previa
+Site of fertilization | Cleavage timeline | Zygote formation | Placenta previa | Normal implantation site | Zona reaction blocks polyspermy
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-6
+8
 
 ## summary
-The normal site and product of fertilization (the ampulla, forming the zygote by pronuclear fusion), the cleavage timeline by which the morula becomes the first embryonic stage to reach the uterine cavity (around day 4), and what happens when implantation occurs abnormally low in the uterus (placenta previa).
+The normal site and product of fertilization (the ampulla, forming the zygote by pronuclear fusion), the cleavage timeline by which the morula becomes the first embryonic stage to reach the uterine cavity (around day 4), and what happens when implantation occurs abnormally low in the uterus (placenta previa). Lane 3 adds two further Answer-Labeled facts on the same fertilization-to-implantation timeline: the normal implantation site itself (upper uterine body), and the zona reaction that blocks polyspermy immediately after fertilization.
 
 ## sections
 ### Definition
-Fertilization normally occurs in the ampulla of the uterine tube, where the ovulated secondary oocyte meets ascending sperm; fusion of the male and female pronuclei (syngamy) restores the diploid number and creates the zygote, the first cell of the new individual. Cleavage divisions occur as the embryo is transported along the tube, reaching the 16-cell morula stage by about day 3-4 -- the first embryonic stage to arrive in the uterine cavity -- before developing a fluid-filled cavity to become a blastocyst.
+Fertilization normally occurs in the ampulla of the uterine tube, where the ovulated secondary oocyte meets ascending sperm; fusion of the male and female pronuclei (syngamy) restores the diploid number and creates the zygote, the first cell of the new individual. As soon as the first sperm fuses with the oocyte membrane, cortical granule release triggers the zona reaction, a chemical change to the zona pellucida that blocks any further sperm from penetrating it (preventing polyspermy) and, before implantation, also keeps the dividing blastomeres from sticking to the tubal mucosa. Cleavage divisions occur as the embryo is transported along the tube, reaching the 16-cell morula stage by about day 3-4 -- the first embryonic stage to arrive in the uterine cavity -- before developing a fluid-filled cavity to become a blastocyst.
 
 ### Mechanism
-The blastocyst normally implants in the upper part of the uterine body; when it implants instead in the lower uterine segment, close to or over the internal cervical os, the resulting placenta develops in that low position and is called placenta previa.
+The blastocyst normally implants in the endometrium of the upper part of the uterine body, usually on the posterior wall; when it implants instead in the lower uterine segment, close to or over the internal cervical os, the resulting placenta develops in that low position and is called placenta previa. Implantation at a site outside the uterus altogether -- the ampulla of the uterine tube, the ovary, or the peritoneal cavity -- is a different category of abnormality, ectopic pregnancy, not placenta previa.
 
 ### Key determinants
 The position reached within the uterine tube (the ampulla specifically) determines the normal site of fertilization; the level at which the blastocyst implants within the uterus (the upper body versus the lower segment near the internal os) determines whether pregnancy proceeds with a normally sited placenta or as placenta previa.
@@ -1347,25 +1360,27 @@ CON-DEV-476D9FB6F25672
 CON-DEV-0ADC71836B6D09
 CON-DEV-B7634187C87A16
 CON-FND-5097CA5BAB2E51
+CON-DEV-874A4B94DBF067
+CON-FND-39A613E199D3FB
 
 ## related_articles
 
 
 ## aliases
-Spermatogenesis timeline | Oogenesis onset | Corpus luteum of pregnancy | Secretory phase | Chromosomal formulas
+Spermatogenesis timeline | Oogenesis onset | Corpus luteum of pregnancy | Secretory phase | Chromosomal formulas | Secondary spermatocyte to spermatid | Four haploid daughter cells
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-10
+11
 
 ## summary
-The mother cell of spermatogenesis (spermatogonia) and the ~60-day spermatogenic cycle, the intrauterine onset of oogenesis, the roughly three-month lifespan of the corpus luteum of pregnancy, the haploid chromosomal formulas produced at each stage of spermatogenesis, the secretory phase of the menstrual cycle, and the chromosomal basis of Turner and Down syndrome.
+The mother cell of spermatogenesis (spermatogonia) and the ~60-day spermatogenic cycle, the intrauterine onset of oogenesis, the roughly three-month lifespan of the corpus luteum of pregnancy, the haploid chromosomal formulas produced at each stage of spermatogenesis, the secretory phase of the menstrual cycle, and the chromosomal basis of Turner and Down syndrome. Lane 3 names two further meiosis facts directly: which specific division turns a secondary spermatocyte into a spermatid, and how many haploid daughter cells one diploid mother cell produces overall.
 
 ## sections
 ### Definition
-Spermatogonia are the diploid stem cells of the seminiferous tubule that give rise to the entire sperm lineage: spermatogonium -> primary spermatocyte (diploid, 44+XY) -> meiosis I -> secondary spermatocyte (haploid, 22+X or 22+Y) -> meiosis II -> spermatid (haploid) -> spermiogenesis -> spermatozoon. The full cycle takes about 60 days. Oogenesis, by contrast, begins during intrauterine life, with primary oocytes already arrested in meiotic prophase before birth.
+Spermatogonia are the diploid stem cells of the seminiferous tubule that give rise to the entire sperm lineage: spermatogonium -> primary spermatocyte (diploid, 44+XY) -> meiosis I -> secondary spermatocyte (haploid, 22+X or 22+Y) -> meiosis II -> spermatid (haploid) -> spermiogenesis -> spermatozoon. It is specifically the SECOND meiotic division that a secondary spermatocyte completes to become a spermatid -- separating sister chromatids rather than homologous chromosomes, with no further DNA replication beforehand, since the first division (which halved the chromosome number in the first place) is what created the secondary spermatocyte. The full cycle takes about 60 days. Oogenesis, by contrast, begins during intrauterine life, with primary oocytes already arrested in meiotic prophase before birth. Across both sexes, meiosis as a whole converts one diploid germ-line mother cell into four haploid daughter cells (unlike mitosis's two identical diploid daughters) -- in spermatogenesis all four mature into functional sperm, while in oogenesis only one becomes a functional ovum and the other three become non-functional polar bodies.
 
 ### Mechanism
 If pregnancy occurs, hCG rescues the corpus luteum, converting it to the corpus luteum of pregnancy, which secretes progesterone for about the first three months before the placenta takes over. The secretory (luteal) phase of the menstrual cycle lasts a fixed ~14 days, during which progesterone drives the endometrial glands to become tortuous and secrete a glycogen-rich (not glycogen-poor) material, while the spiral arteries elongate -- all in preparation for a possible early conceptus. Turner syndrome (45,X monosomy) and Down syndrome (47, trisomy 21) are both named chromosomal syndromes following the same extra-or-missing-chromosome logic covered in the article shared with the histology cluster.
@@ -1449,25 +1464,26 @@ CON-DEV-8153A275E4A623
 CON-DEV-F147CCC2126226
 CON-DEV-932C8363BAE4A8
 CON-DEV-C1C5C84B84AE89
+CON-DEV-A62ED38D321E85
 
 ## related_articles
 
 
 ## aliases
-Mesoderm derivatives | Primitive node | Ectoderm exceptions | Paraxial mesoderm | Heuser membrane | Embryonic folding
+Mesoderm derivatives | Primitive node | Ectoderm exceptions | Paraxial mesoderm | Heuser membrane | Embryonic folding | Second-week timeline
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-10
+11
 
 ## summary
-Which structures derive from mesoderm (striated muscle, dermis via the somite dermatome, suprarenal cortex) versus ectoderm (hair, nails, CNS, epidermis, most of the skin/nervous system), the primitive node's position and organiser role, hypoblast's origin of Heuser's membrane, the prechordal plate's signalling (not mesoderm-forming) role, and the direct consequence of embryonic folding on the amniotic sac.
+Which structures derive from mesoderm (striated muscle, dermis via the somite dermatome, suprarenal cortex) versus ectoderm (hair, nails, CNS, epidermis, most of the skin/nervous system), the primitive node's position and organiser role, hypoblast's origin of Heuser's membrane, the prechordal plate's signalling (not mesoderm-forming) role, and the direct consequence of embryonic folding on the amniotic sac. Lane 3 places these gastrulation-week events on the wider weekly timeline, naming what happens the week before (amniotic cavity formation).
 
 ## sections
 ### Definition
-Mesoderm gives rise to striated (skeletal) muscle (via the somite myotome), the dermis of the skin (via the somite dermatome) and the suprarenal cortex; ectoderm gives rise to the CNS, hair, nails, the epidermis, the external auditory meatus and the lower anal canal. Somites, formed from paraxial mesoderm, differentiate into sclerotome (vertebrae/ribs), myotome (muscle) and dermatome (dermis). The primitive node sits at the cranial end of the primitive streak and organises formation of the notochordal process and induction of the neural plate.
+Development after fertilization follows a fixed weekly sequence: cleavage and blastocyst formation in week 1; in week 2 ("the week of twos"), the bilaminar germ disc forms together with the amniotic cavity (from the epiblast) and the primary yolk sac (from the hypoblast); gastrulation -- forming the trilaminar disc, the primitive streak/node and the notochord, described below -- begins only in week 3; folding of the flat disc into a three-dimensional body happens in week 4. Mesoderm gives rise to striated (skeletal) muscle (via the somite myotome), the dermis of the skin (via the somite dermatome) and the suprarenal cortex; ectoderm gives rise to the CNS, hair, nails, the epidermis, the external auditory meatus and the lower anal canal. Somites, formed from paraxial mesoderm, differentiate into sclerotome (vertebrae/ribs), myotome (muscle) and dermatome (dermis). The primitive node sits at the cranial end of the primitive streak and organises formation of the notochordal process and induction of the neural plate.
 
 ### Mechanism
 Heuser's membrane, a thin extraembryonic endoderm layer lining the primary yolk sac cavity, arises from hypoblast (not epiblast, which instead gives rise to the definitive germ layers during gastrulation). The prechordal plate, cranial to the notochord, is a signalling/organiser centre inducing the forebrain, not itself a source of intraembryonic mesoderm the way the primitive streak, node and notochord are. As lateral and longitudinal folding converts the flat embryonic disc into a cylindrical body, the amnion expands to surround the entire embryo, enclosing it in amniotic fluid.
@@ -1574,3 +1590,97 @@ Which trophoblast or germ layer a fetal membrane derives from (cytotrophoblast f
 
 ### Clinical significance
 Persistence of the vitellointestinal duct after birth produces a Meckel's diverticulum, one of the most common congenital gastrointestinal anomalies. Rising amniotic-fluid creatinine is used clinically as a marker of fetal renal maturity, even though water remains its overwhelming majority component throughout pregnancy.
+
+---
+
+# Item
+
+## id
+ART-MU101-GENTERMS-C37B82A5
+
+## title
+General anatomical terminology, fascia and vascular/lymphatic basics
+
+## arabic_title
+
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Anatomy
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Answer-Labeled > Anatomy
+
+## primary_node_id
+DIS-ANA-T01
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-MSK-15F4A73F4A88B4
+CON-MSK-BC359C9152AC2A
+CON-MSK-0E6A1B6122E709
+CON-MSK-59F66B0EC77685
+CON-CVS-9D836D9C58CE6B
+CON-MSK-BF3670E27D6F12
+
+## related_articles
+
+
+## aliases
+The median plane divides the body into | In the anatomical position, the radius | The face has no deep fascia | An aponeurosis is a muscle's flattened | The pulmonary veins are the only veins | The right lymphatic duct drains one qu
+
+## reading_time
+7
+
+## summary
+The one anatomical plane (median) that splits the body into equal halves, the lateral/medial and other relational terms applied to the radius and ulna, the one named region (the face) with no deep fascia, the aponeurosis as the sheet-like form of muscle attachment, why the pulmonary veins alone carry oxygenated blood, and how the right lymphatic duct and thoracic duct divide the body's lymphatic drainage into one quadrant versus the other three.
+
+## sections
+### Definition
+The median (midsagittal) plane is the single anatomical plane that divides the body into equal right and left halves; a coronal plane instead divides it into anterior and posterior parts, a transverse plane into upper and lower parts, and a parasagittal plane is any plane parallel to, but offset from, the median plane. In the anatomical position, relational terms are applied by fixed convention: the radius is lateral and the ulna medial in the forearm, regardless of how far the forearm is pronated or supinated. Deep fascia invests the muscles of the limbs and trunk beneath the superficial fascia; the face is the one named exception, having only superficial fascia, which is exactly why the muscles of facial expression can insert directly into the skin. Among named forms of fibrous muscle attachment, an aponeurosis is a thin, broad sheet (as opposed to a tendon's cord-like form), used where a wide muscle needs a wide area of attachment. Every systemic vein carries deoxygenated blood except the four pulmonary veins, which alone carry newly oxygenated blood from the lungs to the left atrium. The body's lymph drains into two terminal ducts: the right lymphatic duct collects only the right side of the head/neck, the right upper limb and the right half of the thorax (one quadrant), while the thoracic duct collects everything else -- the other three quadrants, including the left upper limb and the whole body below the diaphragm.
+
+### Mechanism
+Several of these facts share the same logic of "the named exception among an otherwise uniform group": the face is the one body region without deep fascia among limb and trunk regions that all have it, and the pulmonary veins are the one set of veins carrying oxygenated blood among a circulation where every other vein carries deoxygenated blood -- each exception exists because of what that structure specifically connects to (skin directly, for facial muscles; the lung's own oxygenation, for the pulmonary veins) rather than being an arbitrary anatomical quirk.
+
+### Clinical significance
+Because facial muscles lack a deep fascial sheath and insert directly into skin, facial lacerations and infections spread differently (more superficially, along fascial planes of the scalp/face) than limb wounds deep to an intact deep fascia. The right-lymphatic-duct/thoracic-duct territory split matters clinically because a malignancy below the diaphragm (for example gastric cancer) can seed a left supraclavicular node (Virchow's node) by ascending the thoracic duct, while a right-sided head/neck or thoracic malignancy drains instead through the much smaller right lymphatic duct.

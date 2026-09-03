@@ -3604,3 +3604,523 @@ The Support 43 - With Answers exam paper states this directly as a keyed MCQ ite
 
 ## counts_as_claim_evidence
 no
+
+---
+
+# Item
+
+## id
+CIT-MSK-15F4A73F4A88B4
+
+## claim_id
+CLM-MSK-15F4A73F4A88B4
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which one of the following is the anatomical plane that divides the body into equal right and left halves? -> (B) Median
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Anatomical Planes and Terms, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-MSK-BC359C9152AC2A
+
+## claim_id
+CLM-MSK-BC359C9152AC2A
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which term of the followings describes the relationship of radius to the ulna? -> (D) Lateral
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Anatomical Planes and Terms, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-MSK-0E6A1B6122E709
+
+## claim_id
+CLM-MSK-0E6A1B6122E709
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following regions doesn't contain deep fascia? -> (C) Face
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Fascia and Muscle Attachment, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-MSK-59F66B0EC77685
+
+## claim_id
+CLM-MSK-59F66B0EC77685
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+When the attachment of the muscle is in the form of a thin sheet of fibrous tissue, it's called which one of the following? -> (B) Aponeurosis
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Fascia and Muscle Attachment, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-MSK-FF08BF94D51F80
+
+## claim_id
+CLM-MSK-FF08BF94D51F80
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following is a synovial joint? -> (B) Intercarpal joints
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Joint Classification, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-MSK-82CB25DF2E62F8
+
+## claim_id
+CLM-MSK-82CB25DF2E62F8
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following joints allow rotation? -> (C) Pivot joints
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Joint Classification, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-DEV-36E62DB18CEFD1
+
+## claim_id
+CLM-DEV-36E62DB18CEFD1
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which one of the followings is the normal site of implantation? -> (b) The endometrium of upper part of uterine body
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Fertilization and Implantation, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-DEV-A62ED38D321E85
+
+## claim_id
+CLM-DEV-A62ED38D321E85
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which one of the followings occurs during the second week after fertilization -> (C) Amniotic cavity Development
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Early Embryonic Timeline, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-96FFFC3C26A8D9
+
+## claim_id
+CLM-FND-96FFFC3C26A8D9
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which organelle is responsible for modification and packing of secr proteins? -> (A) Golgi apparatus
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Cytoplasmic Organelles, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-AD5B097BFB3468
+
+## claim_id
+CLM-FND-AD5B097BFB3468
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Glycogen can be demonstrated by which one of the following stains? -> (a) Best's carmine
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+Histochemical Stains, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-7608A98CBA708C
+
+## claim_id
+CLM-FND-7608A98CBA708C
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Abnormal transverse division of the centromere results in formation of? -> (e) Isochromosomes
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+Chromosomal Aberrations, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-39A613E199D3FB
+
+## claim_id
+CLM-FND-39A613E199D3FB
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+In meiosis the mother cell gives rise to which of the following? -> (C) 4 daughter cells with haploid number of chromosomes
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+Meiosis and Gametogenesis, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-FND-D62EA340309B89
+
+## claim_id
+CLM-FND-D62EA340309B89
+
+## resource_id
+src_191aaaeeff88f7bfd219
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following cells cannot divide? -> (D) Nerve cells
+
+## locator_type
+page
+
+## locator_page
+13
+
+## locator_section
+Cell Renewal, Answer-Labeled paper
+
+## locator_detail
+Native text extracted with pagetext.mjs show/grep (pdftotext-backed); key recovered by reading the PDF's own vector-drawing fill colour directly (yellow highlight rectangles overlapping the correct option's text span), since pagetext.mjs keys' red-text/underline heuristics do not detect a fill-only highlight on this document and are further confused by this document's red-coloured question stems (see coverage/MU-MED101-triage.md addendum).
+
+## context_note
+The Answer-Labeled exam paper states this directly as a keyed MCQ item; no separate department book was available in the local corpus for this module at time of authoring.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no

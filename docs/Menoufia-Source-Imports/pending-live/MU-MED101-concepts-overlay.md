@@ -1,6 +1,30 @@
 <!--
   MU-MED101 - pending-live sparse CONCEPT overlay. Lane 1 added the first two
   rows below (Turner, axoneme, Klinefelter, all in the histology cluster).
+  Lane 3 (this round) appends nine more rows at the end of this file for the
+  answerlabeled cluster's own exact-fact reuses, found the same way (a tenth
+  candidate reuse, the Kasr centriole/mitotic-spindle concept, was dropped in
+  favour of this lane's own already-mu-tagged CON-FND-C590C1C094E153, which
+  states the identical fact and is already taught in ART-MU101-ORGANELLES2 --
+  no foreign overlay needed for that item):
+    docs/6October-Source-Imports/concept/O6U-IBS-101-new-concepts.md --
+      CON-CVS-9D836D9C58CE6B (pulmonary veins carry oxygenated blood).
+    docs/import-ready/concept/101-ISK-mcq-concepts.md --
+      CON-MSK-BF3670E27D6F12 (thoracic/right lymphatic duct territories),
+      CON-FND-85CC08A33D0A88 (cell membrane phospholipid bilayer),
+      CON-FND-60953640114635 (ribosome basophilia, free vs attached),
+      CON-FND-9D325B98FC59A0 (secondary lysosome types incl. multivesicular
+      body), CON-FND-6C5ABFD844D630 (euchromatin vs heterochromatin),
+      CON-FND-69671A492023B8 (Barr body).
+    docs/FOMSCU-Source-Imports/concept/SCU-FBS102-s2-mint-concepts.md --
+      CON-DEV-874A4B94DBF067 (secondary spermatocyte -> spermatid via
+      meiosis II).
+    docs/import-ready/concept/AU-MED-102-embryology-concepts.md --
+      CON-DEV-642BA9E28AC8B6 (zona reaction blocks polyspermy).
+  All nine are taught by this lane's own article/MU-MED101-articles.md --
+  either the new ART-MU101-GENTERMS-C37B82A5 article or one of six existing
+  articles extended with these ids in their own ## related_concepts. See
+  concept/MU-MED101-concepts-3.md's header for the simulate command.
   Lane 2 extends CON-FND-5097CA5BAB2E51's field_notes with two more tested
   items (Turner and Down syndrome, in the embryology cluster) and adds five
   new rows for the biochemphys and embryo clusters' own exact-fact reuses,
@@ -201,3 +225,201 @@ The placenta is formed of a fetal part (chorion frondosum) and a maternal part (
 
 ## field_notes
 mu: Tested as f1supp43-embryo-q04 and q31 (maternal part -> decidua basalis) and q07 (fetal part -> chorion frondosum) in "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf" (mu_34ff78aabb8bfd729922), Embryology sub-block p3-4 and p10, red text on stem and option.
+
+---
+
+# Item
+
+## id
+CON-CVS-9D836D9C58CE6B
+
+## label
+The pulmonary veins are the only veins that carry oxygenated blood
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as answerlabeled-q11 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p4, yellow-highlight key.
+
+---
+
+# Item
+
+## id
+CON-MSK-BF3670E27D6F12
+
+## label
+The right lymphatic duct drains one quadrant of the body and the thoracic duct drains the other three
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as answerlabeled-q12 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p4, yellow-highlight key (right upper limb is part of the right lymphatic duct's one-quadrant territory, so it does not drain to the thoracic duct).
+
+---
+
+# Item
+
+## id
+CON-DEV-874A4B94DBF067
+
+## label
+A secondary spermatocyte completes the second meiotic division to form a haploid spermatid
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as answerlabeled-q16 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p6, yellow-highlight key. The identical stem/options repeat twice more (q17, q18) -- held as exact duplicates of q16, see the seed header.
+
+---
+
+# Item
+
+## id
+CON-DEV-642BA9E28AC8B6
+
+## label
+The zona pellucida blocks polyspermy and stops the blastomeres sticking to the tubal wall
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as answerlabeled-q19 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p7, yellow-highlight key.
+
+---
+
+# Item
+
+## id
+CON-FND-85CC08A33D0A88
+
+## label
+The cell membrane is a phospholipid bilayer with cholesterol, peripheral and integral proteins, and carbohydrate on its outer face
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as answerlabeled-q27 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p10, yellow-highlight key. The source itself mislabels the fifth option "a) Glycocalyx is its protein component" (repeating the first option's letter instead of "e") -- read as option E by position, not by its printed letter; field-noted, not silently corrected without record.
+
+---
+
+# Item
+
+## id
+CON-FND-60953640114635
+
+## label
+Free ribosomes make protein the cell keeps; attached ribosomes make protein it exports — and both together are why cytoplasm is basophilic
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested twice as answerlabeled-q28 (localized basophilia -> rough endoplasmic reticulum, p11) and answerlabeled-q30 (ribosomes are the basophilic organelle, p11) in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), yellow-highlight key both times.
+
+---
+
+# Item
+
+## id
+CON-FND-9D325B98FC59A0
+
+## label
+A secondary lysosome is named by what the primary lysosome fused with, and all end as residual bodies
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as answerlabeled-q29 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p11, yellow-highlight key (multivesicular bodies = a primary lysosome fused with a pinocytic vesicle, digesting fluid material).
+
+---
+
+# Item
+
+## id
+CON-FND-6C5ABFD844D630
+
+## label
+Euchromatin is extended and active and makes a nucleus vesicular; heterochromatin is coiled and inactive and makes it condensed
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as answerlabeled-q31 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p11, yellow-highlight key.
+
+---
+
+# Item
+
+## id
+CON-FND-69671A492023B8
+
+## label
+The Barr body is one X chromosome switched off, so a nucleus shows one fewer Barr body than it has X chromosomes
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as answerlabeled-q35 in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p12, yellow-highlight key.

@@ -140,3 +140,52 @@ authored + 7 held across anat/histo/biochemphys/embryo). Resume-first for the ne
 `mu_191aaaeeff88f7bfd219` (EOM Practice - Foundation 1 - Anatomy Embryology Histology -
 Answer-Labeled.pdf, 13pp, yellow-highlight key convention, confirmed keyed 4/4 on a 1-render
 sample — see the tier-1 inventory table above).
+
+## Lane-3 addendum (this round)
+
+The Answer-Labeled paper (`mu_191aaaeeff88f7bfd219`) is now fully authored: 27 authored, 11
+held out of 38 question-instances (37 raw Q-numbers, minus a genuine source-side gap at Q26,
+plus a genuine source-side reuse of question numbers 22 and 23 a second time on p9 for a
+different figure -- confirmed by the extracted text itself, not a text-layer artifact). Zero
+of the lane's remaining 5-render budget spent (14-render lane total still at 9 used).
+
+**Key convention correction**: the tier-1 inventory's "yellow highlight" note was right, but
+`pagetext.mjs keys`' 3/38 auto-read was not merely under-counting -- the 3 hits it did report
+(p2 Q3 underline-flag, p7 Q19/p8 Q21 red-text) were partly spurious. This document colours
+every question STEM red as a heading style, unrelated to the answer key; `keys`' red-text
+heuristic occasionally misattributes that stem colour to a nearby option line. The true and
+apparently sole key marker is a yellow-fill vector rectangle (PyMuPDF `page.get_drawings()`,
+fill ≈ (1,1,0)) drawn behind the correct option's text. Resolved for every item by reading the
+PDF's own per-drawing fill colour directly (a one-off script matching yellow rects to the
+option line they vertically/horizontally overlap, tracking the open question number the same
+way `pdf_visual_keys.py` does) -- confirmed against the triage-verified p2 Q1-4 sample (b/d/d/c)
+before trusting the method for the rest of the paper, and cross-checked against the `keys`
+tool's spurious hits (its Q19=E and Q21=E did not survive; both are correctly C by yellow fill,
+and both are held anyway as image-dependent so the discrepancy is moot for authoring).
+
+**Holds**: 3 single image-dependent items (q06 muscle-diagram, q13/q14 a numbered-structure
+figure), 2 exact duplicates of q16 (the source prints the identical spermatogenesis question
+three times verbatim, q16/q17/q18, same key each time), and 6 further image-dependent items
+across two "marked structure" figure groups (q20/q21, and the p8+p9 double occurrence of
+q22/q23 -- two different figures reusing the same two question numbers, both held).
+
+**One editorial fix, field-noted not silently corrected**: q27's fifth printed option is
+labelled "a) Glycocalyx is its protein component" (repeating option A's letter) rather than
+"e" -- confirmed in the PDF's own text spans, not an extraction artifact. Read as option E by
+position; noted in the question's field_notes and in its distractor explanation.
+
+**Search-before-mint**: every fact searched via find-existing.mjs against live state and every
+pending batch before minting. 9 exact-fact reuses found as sparse overlays (pending-live/
+MU-MED101-concepts-overlay.md) from 6October/Kasr-101-ISK/FOMSCU/Alexandria pending concept
+files; 3 further exact-fact reuses were already-mu-tagged concepts from this lane's own lane-1
+concepts.md (eversion, short-long-bone/phalanges, periosteum-width-growth), needing no overlay
+at all; 13 new mints (concept/MU-MED101-concepts-3.md). Teaching: one new article
+(ART-MU101-GENTERMS-C37B82A5, general anatomical terminology/fascia/vascular basics) plus six
+of this lane's existing articles (JOINTS, ORGANELLES1, ORGANELLES2, GENETICS, GAMETOMC,
+FERTIMPLANT, GERMLAYERS) extended with new related_concepts and teaching paragraphs.
+
+**Needs Omar / open items**: none -- no Telegram-only gap, no missing source. Both tier-1
+papers in this module's inventory are now fully authored. Resume-first for the next round:
+the Biochemistry First Module Exam 2019 paper, named in the lane-2 addendum above as "not yet
+opened this round" and still unopened -- confirm it is in-tree before triaging further, and
+re-survey the module folder for any tier-1 papers not yet in the manifest sample.

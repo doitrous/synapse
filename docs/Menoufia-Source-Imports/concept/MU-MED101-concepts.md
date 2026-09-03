@@ -5079,7 +5079,7 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch, plus a bulk grep index of Kasr 101-ISK/103-BMS concept files (540 records), before minting -- no match found for this specific fact.
-mu: Tested in "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf" (mu_34ff78aabb8bfd729922), Support 43 sub-block, p35, red-text key.
+mu: Tested in "EOM Practice - Foundation 1 - Support 43 - With Answers.pdf" (mu_34ff78aabb8bfd729922), Support 43 sub-block, p35, red-text key. Lane 3: also tested as answerlabeled-q32 ("Microtubules have important role in which of the following? -> Mitotic spindle formation") in "EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf" (mu_191aaaeeff88f7bfd219), p11, yellow-highlight key.
 
 ---
 
