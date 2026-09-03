@@ -639,10 +639,19 @@ export function QuestionBank() {
   const [scope, setScope] = useState<Scope>(() => new Set())
   const [mode, setMode] = useState<Mode>('tutor')
   const [source, setSource] = useState<Source>('all')
-  // Read-only for now: the composer renders the source cards inert until the
-  // next content release, and this stays wired so `available` and the chapter
-  // tree keep computing exactly as they did.
-  const [sourceSel] = useState<Set<SourceBucket>>(() => new Set())
+  // Empty set = all sources, the pre-feature behaviour — an untouched builder
+  // draws from everything, exactly as `questionsInSources` already treats it.
+  const [sourceSel, setSourceSel] = useState<Set<SourceBucket>>(() => new Set())
+  // Toggles one bucket in or out of the selection, immutably, like the topic
+  // scope toggles elsewhere in this file.
+  const toggleSource = useCallback((bucket: SourceBucket) => {
+    setSourceSel((current) => {
+      const next = new Set(current)
+      if (next.has(bucket)) next.delete(bucket)
+      else next.add(bucket)
+      return next
+    })
+  }, [])
   const [count, setCount] = useState(5)
 
   const [session, setSession] = useState<Question[]>([])
@@ -1722,6 +1731,7 @@ export function QuestionBank() {
                   setSource={setSource}
                   sourceCounts={sourceCounts}
                   sourceSel={sourceSel}
+                  onToggleSource={toggleSource}
                   sourceCards={sourceCards}
                   scope={scope}
                   setScope={setScope}
