@@ -72,7 +72,7 @@ import { ReportContentDialog, type ReportTarget } from '@/components/reports/Rep
 import { cn } from '@/lib/cn'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
-import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
+import { useScopedPublishedQuestions } from '@/lib/usePublishedQuestions'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
@@ -631,7 +631,7 @@ export function QuestionBank() {
   const t = useT()
   const subjectName = useSubjectName()
   const location = useLocation()
-  const questions = usePublishedQuestions()
+  const questions = useScopedPublishedQuestions()
   const availability = useCatalogueAvailability(questions.length)
   const [params, setParams] = useSearchParams()
   const articleFilter = params.get('article')
