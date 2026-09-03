@@ -19,6 +19,12 @@ export interface Voucher {
   name: string
   discountType: VoucherDiscountType
   amount: number
+  /**
+   * An absolute EGP target price per period, overriding the percent/fixed
+   * `amount` above when present. Exists because some offers — Ambassadors,
+   * month 250 / term 550 — are not a clean percentage of the base price.
+   */
+  periodPrices?: { month?: number; term?: number }
   /** What redeeming gives. Absent means `'Discount'`. */
   grant?: VoucherGrantKind
   /** Days of full access when `grant` is a trial. Ignored otherwise. */
@@ -56,6 +62,27 @@ export const initialVouchers: Voucher[] = [
     createdAt: new Date(2026, 6, 20, 11, 0).toISOString(),
     updatedAt: new Date(2026, 6, 20, 11, 0).toISOString(),
   },
+  {
+    id: 'voucher-ambassadors',
+    // Deliberately blank: the superadmin/admin sets the real code, the
+    // redemption cap, and switches it active from the Vouchers admin page.
+    // No code value is baked into the seed (decided with user 2026-09-03).
+    code: '',
+    name: 'Ambassadors',
+    discountType: 'Fixed amount',
+    amount: 0,
+    periodPrices: { month: 250, term: 550 },
+    active: false,
+    startsAt: new Date(2026, 8, 1, 0, 0).toISOString(),
+    expiresAt: new Date(2027, 7, 31, 23, 59).toISOString(),
+    maxRedemptions: 0,
+    redemptionCount: 0,
+    universityIds: [],
+    years: [],
+    groups: [],
+    createdAt: new Date(2026, 8, 3, 0, 0).toISOString(),
+    updatedAt: new Date(2026, 8, 3, 0, 0).toISOString(),
+  },
 ]
 
 export function isTrialVoucher(voucher: Voucher): boolean {
@@ -84,9 +111,18 @@ export function trialEndsAt(voucher: Voucher, from: Date): Date | null {
  * A trial takes nothing off: it opens the whole platform for a few days and
  * then ends. Returning its `amount` here would show a student a discount they
  * were never given.
+ *
+ * `periodPrices` is honored first when a period is given and the voucher
+ * names a target for it — the target IS the discount, worked out backwards
+ * from the price the caller is charging, and clamped so a target above the
+ * price never yields a negative discount.
  */
-export function voucherDiscount(voucher: Voucher, price: number) {
+export function voucherDiscount(voucher: Voucher, price: number, periodId?: string): number {
   if (isTrialVoucher(voucher)) return 0
+  const target = periodId === 'month' ? voucher.periodPrices?.month
+    : periodId === 'term' ? voucher.periodPrices?.term
+    : undefined
+  if (target !== undefined) return price - Math.max(0, Math.min(price, target))
   return voucher.discountType === 'Percentage'
     ? Math.min(price, price * (voucher.amount / 100))
     : Math.min(price, voucher.amount)

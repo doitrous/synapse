@@ -6,6 +6,87 @@ export const ALL_ACCESS_PRICES = {
   term: { period: 'term', label: 'One term all-access', currency: 'EGP', amount: 1000 },
 }
 
+export const CATALOG_STATE_KEY = 'nishany-plan-catalog-v1'
+export const VOUCHERS_STATE_KEY = 'nishany-vouchers-v1'
+const MARISTANA_PLAN_ID = 'maristana'
+
+// The one shared last-resort constant on this side of the app/server
+// boundary (the frontend cannot import this file, so it keeps its own —
+// see src/pages/landing/pricingContent.ts's SEED_MARISTANA_PRICES).
+// Derived from ALL_ACCESS_PRICES so this file still only has one 400 and
+// one 1000 literal, not two.
+const SEED_MARISTANA_PRICES = { month: ALL_ACCESS_PRICES.monthly.amount, term: ALL_ACCESS_PRICES.term.amount }
+// No promo in the fallback: a missing/malformed catalog doc must show the
+// plain base price, never a made-up discount.
+const SEED_MARISTANA_PROMO = {
+  month: { enabled: false, percentOff: 0 },
+  term: { enabled: false, percentOff: 0 },
+}
+
+export function normalisePeriodId(value) {
+  const period = String(value ?? '').trim().toLowerCase()
+  if (period === 'month' || period === 'monthly') return 'month'
+  return period === 'term' ? 'term' : null
+}
+
+/** Whole-EGP price after a percent-off promo. Mirrors src/data/planCatalog.ts's promoPrice(). */
+export function promoPrice(basePrice, promo) {
+  if (!promo?.enabled) return basePrice
+  const off = Math.min(100, Math.max(0, Number(promo.percentOff) || 0))
+  return Math.round(basePrice * (1 - off / 100))
+}
+
+/**
+ * The Nishany base prices and promo the public page is showing, read from
+ * the same document the admin console edits (PlanCatalogEditor). Falls back
+ * to the launch seed only when the document or the maristana plan inside it
+ * is missing — never silently on a single absent period, which would hide a
+ * real "not sold" state behind a made-up number.
+ */
+export async function catalogPricing() {
+  const [[row]] = await pool.query('SELECT v FROM app_state WHERE k = ?', [CATALOG_STATE_KEY])
+  let doc = null
+  try { doc = row?.v ? JSON.parse(row.v) : null } catch { doc = null }
+  const plan = doc?.plans?.find((candidate) => candidate?.id === MARISTANA_PLAN_ID)
+  if (!plan) return { prices: SEED_MARISTANA_PRICES, promo: SEED_MARISTANA_PROMO }
+  return {
+    prices: {
+      month: typeof plan.prices?.month === 'number' ? plan.prices.month : SEED_MARISTANA_PRICES.month,
+      term: typeof plan.prices?.term === 'number' ? plan.prices.term : SEED_MARISTANA_PRICES.term,
+    },
+    promo: plan.promo ?? SEED_MARISTANA_PROMO,
+  }
+}
+
+function voucherActiveNow(voucher, now) {
+  if (!voucher?.active) return false
+  if (new Date(voucher.startsAt).getTime() > now.getTime()) return false
+  if (new Date(voucher.expiresAt).getTime() < now.getTime()) return false
+  if (voucher.maxRedemptions > 0 && voucher.redemptionCount >= voucher.maxRedemptions) return false
+  return true
+}
+
+/** Money off, mirroring src/data/vouchers.ts's voucherDiscount() — periodPrices first. */
+function voucherAmountFor(voucher, periodId, baseAmount) {
+  if (voucher.grant === 'Full-access trial') return null
+  const fixed = periodId === 'month' ? voucher.periodPrices?.month : voucher.periodPrices?.term
+  if (typeof fixed === 'number') return Math.max(0, Math.min(baseAmount, fixed))
+  const discount = voucher.discountType === 'Percentage'
+    ? Math.min(baseAmount, baseAmount * (Number(voucher.amount) / 100))
+    : Math.min(baseAmount, Number(voucher.amount) || 0)
+  return Math.max(0, Math.round((baseAmount - discount) * 100) / 100)
+}
+
+async function findVoucherByCode(code) {
+  const wanted = String(code ?? '').trim().toLowerCase()
+  if (!wanted) return null
+  const [[row]] = await pool.query('SELECT v FROM app_state WHERE k = ?', [VOUCHERS_STATE_KEY])
+  let vouchers = []
+  try { vouchers = row?.v ? JSON.parse(row.v) : [] } catch { vouchers = [] }
+  if (!Array.isArray(vouchers)) return null
+  return vouchers.find((entry) => String(entry?.code ?? '').trim().toLowerCase() === wanted) ?? null
+}
+
 export function normalisePeriod(value) {
   const period = String(value ?? '').trim().toLowerCase()
   return period === 'monthly' || period === 'term' ? period : null
@@ -133,17 +214,38 @@ function cleanDiscountInput(body, { voucher = false } = {}) {
 }
 
 export async function pricingQuote({ period, voucherCode, now = new Date() }) {
-  const [promotions] = await pool.query(
-    `SELECT id, label, period, discount_type AS discountType, discount_value AS discountValue,
-            starts_at AS startsAt, ends_at AS endsAt, active
-       FROM pricing_promotions`,
-  )
-  const [vouchers] = await pool.query(
-    `SELECT id, code, label, period, discount_type AS discountType, discount_value AS discountValue,
-            starts_at AS startsAt, ends_at AS endsAt, active, max_redemptions AS maxRedemptions
-       FROM pricing_vouchers`,
-  )
-  return quoteAllAccess({ period, voucherCode, promotions, vouchers, now })
+  const periodId = normalisePeriodId(period)
+  if (!periodId) return { error: 'invalid_period' }
+
+  const { prices, promo } = await catalogPricing()
+  const baseAmount = prices[periodId]
+  const promoAmount = promoPrice(baseAmount, promo?.[periodId])
+
+  const candidates = [{ kind: null, amount: baseAmount }]
+  if (promoAmount < baseAmount) candidates.push({ kind: 'promo', amount: promoAmount })
+
+  if (voucherCode) {
+    const voucher = await findVoucherByCode(voucherCode)
+    if (voucher && voucherActiveNow(voucher, now)) {
+      const voucherAmount = voucherAmountFor(voucher, periodId, baseAmount)
+      if (voucherAmount !== null) candidates.push({ kind: 'voucher', amount: voucherAmount, code: voucher.code })
+    }
+  }
+
+  candidates.sort((a, b) => a.amount - b.amount)
+  const applied = candidates[0]
+  return {
+    period: periodId,
+    currency: 'EGP',
+    baseAmount,
+    totalAmount: applied.amount,
+    appliedDiscount: applied.kind ? { kind: applied.kind, code: applied.code ?? null, amount: applied.amount } : null,
+    alternatives: candidates.map((candidate) => ({
+      kind: candidate.kind,
+      code: candidate.code ?? null,
+      amount: candidate.amount,
+    })),
+  }
 }
 
 export async function listPricingDiscounts() {

@@ -29,6 +29,14 @@ test('the launch catalogue is versioned and carries the authoritative Nishany pr
   assert.equal(maristana.name.ar, 'NISHANY')
 })
 
+test('the maristana promo is 25% off the month and 30% off the term', () => {
+  const maristana = findPlan(initialPlanCatalog(), 'maristana')!
+  assert.deepEqual(maristana.promo, {
+    month: { enabled: true, percentOff: 25 },
+    term: { enabled: true, percentOff: 30 },
+  })
+})
+
 test('every plan carries both languages', () => {
   initialPlanCatalog().plans.forEach((plan) => {
     assert.ok(plan.name.en.trim(), `${plan.id} has no English name`)

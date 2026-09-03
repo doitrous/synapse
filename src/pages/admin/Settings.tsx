@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Building2, Users, Plug, Flag, IdCard, Hammer, Activity, Highlighter, RotateCcw, CircleCheck, TrendingDown, TrendingUp, BarChart3 } from 'lucide-react'
-import { API_MODE, apiGet } from '@/lib/api'
+import { API_MODE, apiGet, apiPost } from '@/lib/api'
 import { institution, roles, integrations, featureFlags } from '@/data/admin'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button, ButtonLink } from '@/components/ui/Button'
+import { LiveCount } from '@/components/marketing/LiveCount'
 import { Badge } from '@/components/ui/Badge'
 import { Toggle } from '@/components/ui/Toggle'
 import { Field, TextInput } from '@/components/ui/Field'
@@ -64,6 +65,15 @@ function dominantFocus(distribution: CohortActivity['highlightBehaviour']['focus
   return ranked[0][1] > 0 ? ranked[0][0] : 'none'
 }
 
+interface SubscriberCountForm {
+  enabled: boolean
+  base: number
+  minPct: number
+  maxPct: number
+}
+const SUBSCRIBER_DISPLAY_KEY = 'nishany-subscriber-display-v1'
+const DEFAULT_SUBSCRIBER_FORM: SubscriberCountForm = { enabled: false, base: 790, minPct: 0.3, maxPct: 2.5 }
+
 export function Settings() {
   const [profile, setProfile] = useState(institution)
   const [notice, setNotice] = useState('')
@@ -72,6 +82,36 @@ export function Settings() {
   const [studyTracking, setStudyTracking] = usePersistentState<StudyTrackingSettings>(STUDY_TRACKING_SETTINGS_KEY, DEFAULT_STUDY_TRACKING_SETTINGS)
   const [answerStats, setAnswerStats] = usePersistentState<AnswerStatsConfig>(ANSWER_STATS_CONFIG_KEY, DEFAULT_ANSWER_STATS_CONFIG)
   const answerStatsEnabled = normaliseAnswerStatsConfig(answerStats).enabled
+
+  const [subscriberForm, setSubscriberForm] = useState<SubscriberCountForm>(DEFAULT_SUBSCRIBER_FORM)
+  const [subscriberSaving, setSubscriberSaving] = useState(false)
+  const [subscriberError, setSubscriberError] = useState('')
+  const [subscriberPreviewKey, setSubscriberPreviewKey] = useState(0)
+
+  useEffect(() => {
+    if (!API_MODE) return
+    let active = true
+    apiGet<{ value: Partial<SubscriberCountForm> | null }>(`/state/${SUBSCRIBER_DISPLAY_KEY}`)
+      .then((res) => {
+        if (!active || !res.value) return
+        setSubscriberForm((current) => ({ ...current, ...res.value }))
+      })
+      .catch(() => {})
+    return () => { active = false }
+  }, [])
+
+  const saveSubscriberCount = async () => {
+    setSubscriberSaving(true)
+    setSubscriberError('')
+    try {
+      await apiPost('/admin/subscriber-count', subscriberForm)
+      setSubscriberPreviewKey((k) => k + 1) // remounts <LiveCount>, forcing a fresh fetch
+    } catch {
+      setSubscriberError('Could not save — check the values and try again.')
+    } finally {
+      setSubscriberSaving(false)
+    }
+  }
   const [connected, setConnected] = useState<Set<string>>(
     () => new Set(integrations.filter((i) => i.connected).map((i) => i.name)),
   )
@@ -416,6 +456,65 @@ export function Settings() {
             />
             {answerStatsEnabled ? 'Shown to students' : 'Hidden'}
           </label>
+        </div>
+      </Panel>
+
+      <Panel className="mb-4">
+        <PanelHeader title="Live subscriber count" icon={TrendingUp} hint="A marketing figure, secluded from real student/subscription data" />
+        <div className="border-b border-line p-5">
+          <p className="max-w-3xl text-[12.5px] leading-relaxed text-ink-2">
+            A synthetic baseline that grows a little every day, with real signups added on
+            top. This never reads or changes a student's record or a subscription — it only
+            ever counts how many are currently active, to add that growth on top of the
+            baseline below.
+          </p>
+        </div>
+        <div className="grid gap-4 p-5 sm:grid-cols-2 xl:grid-cols-4">
+          <Field label="Starting figure (base)">
+            <TextInput
+              type="number" min={0} step={1}
+              value={subscriberForm.base}
+              onChange={(event) => setSubscriberForm((current) => ({ ...current, base: Number(event.target.value) }))}
+              className="tnum font-mono"
+            />
+          </Field>
+          <Field label="Minimum daily growth %">
+            <TextInput
+              type="number" min={0} step={0.1}
+              value={subscriberForm.minPct}
+              onChange={(event) => setSubscriberForm((current) => ({ ...current, minPct: Number(event.target.value) }))}
+              className="tnum font-mono"
+            />
+          </Field>
+          <Field label="Maximum daily growth %">
+            <TextInput
+              type="number" min={0} step={0.1}
+              value={subscriberForm.maxPct}
+              onChange={(event) => setSubscriberForm((current) => ({ ...current, maxPct: Number(event.target.value) }))}
+              className="tnum font-mono"
+            />
+          </Field>
+          <label className="flex items-center gap-2 pt-5 text-[12.5px] text-ink-2">
+            <Toggle
+              checked={subscriberForm.enabled}
+              onChange={(enabled) => setSubscriberForm((current) => ({ ...current, enabled }))}
+              label="Show the live subscriber count"
+            />
+            {subscriberForm.enabled ? 'Shown to visitors' : 'Hidden'}
+          </label>
+        </div>
+        <div className="flex flex-wrap items-center justify-between gap-4 border-t border-line p-5">
+          <div>
+            <p className="mb-1 text-[12px] font-bold uppercase tracking-[0.06em] text-ink-3">Preview</p>
+            <LiveCount key={subscriberPreviewKey} variant="band" />
+            {!subscriberForm.enabled && <p className="text-[12.5px] text-ink-3">Off — no value is shown to visitors.</p>}
+          </div>
+          <div className="flex items-center gap-3">
+            {subscriberError && <p className="text-[12.5px] text-danger">{subscriberError}</p>}
+            <Button variant="primary" size="md" onClick={saveSubscriberCount} disabled={subscriberSaving}>
+              {subscriberSaving ? 'Saving…' : 'Save changes'}
+            </Button>
+          </div>
         </div>
       </Panel>
 

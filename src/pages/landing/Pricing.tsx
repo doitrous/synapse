@@ -2,12 +2,15 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, Check, ShieldCheck } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
+import { Button } from '@/components/ui/Button'
+import { TextInput } from '@/components/ui/Field'
 import { cn } from '@/lib/cn'
 import { formatNumber } from '@/lib/pricing'
+import { API_MODE, apiGet } from '@/lib/api'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
-import { findPlan, type Lang } from '@/data/planCatalog'
+import type { Lang } from '@/data/planCatalog'
 import type { LandingContent } from './content'
-import { pricingFor } from './pricingContent'
+import { offerAmounts, pricingFor } from './pricingContent'
 
 type PeriodId = 'month' | 'term' | 'year'
 
@@ -23,17 +26,50 @@ export function Pricing({ c }: { c: LandingContent }) {
   const lang = c.lang as Lang
   const [periodId, setPeriodId] = useState<PeriodId>('term')
 
-  const amounts = useMemo(() => {
-    const plan = findPlan(catalog, 'maristana')
-    return {
-      month: plan?.prices.month ?? 400,
-      term: plan?.prices.term ?? 1000,
-    }
-  }, [catalog])
+  interface VoucherQuote { period: PeriodId; totalAmount: number; appliedDiscount: { kind: string; code: string | null } | null }
+  const [voucherCode, setVoucherCode] = useState('')
+  const [voucherQuote, setVoucherQuote] = useState<VoucherQuote | null>(null)
+  const [voucherMessage, setVoucherMessage] = useState('')
+  const [checkingVoucher, setCheckingVoucher] = useState(false)
 
-  const savings = Math.max(0, (amounts.month * 3) - amounts.term)
-  const termMonthly = Math.round(amounts.term / 3)
-  const selectedAmount = periodId === 'month' ? amounts.month : periodId === 'term' ? amounts.term : null
+  async function checkVoucher() {
+    const wanted = voucherCode.trim()
+    if (!wanted || periodId === 'year') return
+    if (!API_MODE) {
+      setVoucherMessage(p.voucher.demo)
+      return
+    }
+    setCheckingVoucher(true)
+    setVoucherMessage('')
+    try {
+      const result = await apiGet<VoucherQuote & { error?: string }>(
+        `/pricing/quote?period=${periodId}&voucher=${encodeURIComponent(wanted)}`,
+      )
+      if (result.error) {
+        setVoucherMessage(p.voucher.invalid)
+        setVoucherQuote(null)
+        return
+      }
+      setVoucherQuote(result)
+      setVoucherMessage(result.appliedDiscount?.kind === 'voucher' ? p.voucher.applied : p.voucher.notBeat)
+    } catch {
+      setVoucherMessage(p.voucher.error)
+    } finally {
+      setCheckingVoucher(false)
+    }
+  }
+
+  const amounts = useMemo(() => offerAmounts(catalog), [catalog])
+  const savings = amounts.savings
+  const termMonthly = amounts.termMonthly
+  const selectedAmount = voucherQuote && voucherQuote.period === periodId
+    ? voucherQuote.totalAmount
+    : periodId === 'month' ? amounts.month : periodId === 'term' ? amounts.term : null
+  const selectedPromo = periodId === 'month' ? amounts.month : periodId === 'term' ? amounts.term : null
+  const selectedBase = periodId === 'month' ? amounts.monthBase : periodId === 'term' ? amounts.termBase : null
+  const selectedOff = periodId === 'month' ? amounts.monthOff : periodId === 'term' ? amounts.termOff : 0
+  const voucherActive = voucherQuote != null && voucherQuote.period === periodId
+  const isPromo = !voucherActive && selectedPromo !== null && selectedBase !== null && selectedOff > 0 && selectedPromo < selectedBase
   const signupHref = periodId === 'year' ? null : `/signup?plan=maristana&period=${periodId}`
 
   const options: { id: PeriodId; label: string; detail: string }[] = [
@@ -62,7 +98,7 @@ export function Pricing({ c }: { c: LandingContent }) {
                     type="button"
                     role="radio"
                     aria-checked={selected}
-                    onClick={() => setPeriodId(option.id)}
+                    onClick={() => { setPeriodId(option.id); setVoucherQuote(null); setVoucherMessage('') }}
                     className={cn(
                       'min-h-16 rounded-xl border px-3 py-3 text-start outline-none transition-[border-color,background-color] focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-surface',
                       selected ? 'border-primary bg-primary-tint' : 'border-line bg-surface hover:border-line-2 hover:bg-surface-2',
@@ -90,6 +126,16 @@ export function Pricing({ c }: { c: LandingContent }) {
                 </>
               ) : (
                 <>
+                  {isPromo && selectedBase !== null && (
+                    <p className="mb-1 flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                      <span className="text-[15px] text-ink-3 line-through">
+                        {p.offer.currency} {formatNumber(selectedBase, lang)}
+                      </span>
+                      <span className="rounded-full border border-primary/30 bg-primary-tint px-2 py-0.5 text-[10.5px] font-bold uppercase tracking-[0.04em] text-primary-strong">
+                        {p.offer.firstTimeOffer} · −{formatNumber(selectedOff, lang)}%
+                      </span>
+                    </p>
+                  )}
                   <p className="flex flex-wrap items-baseline gap-x-2">
                     <span className="font-mono text-[13px] font-semibold text-ink-3">{p.offer.currency}</span>
                     <span className="tnum font-serif text-[46px] font-semibold leading-none tracking-[-0.035em] text-ink sm:text-[54px]">
@@ -108,6 +154,26 @@ export function Pricing({ c }: { c: LandingContent }) {
                     <Icon icon={Check} size={15} className="text-success" />
                     {p.offer.fullAccess}
                   </p>
+                  <div className="mt-4 flex flex-wrap items-center gap-2">
+                    <TextInput
+                      value={voucherCode}
+                      onChange={(event) => setVoucherCode(event.target.value)}
+                      placeholder={p.voucher.label}
+                      aria-label={p.voucher.label}
+                      className="h-9 w-40 text-[12.5px]"
+                    />
+                    <Button
+                      type="button"
+                      variant="secondary"
+                      size="sm"
+                      loading={checkingVoucher}
+                      disabled={!voucherCode.trim() || periodId === 'year'}
+                      onClick={() => void checkVoucher()}
+                    >
+                      {p.voucher.apply}
+                    </Button>
+                  </div>
+                  {voucherMessage && <p role="status" className="mt-1.5 text-[12px] text-ink-2">{voucherMessage}</p>}
                 </>
               )}
 

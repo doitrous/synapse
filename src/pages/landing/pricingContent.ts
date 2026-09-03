@@ -6,31 +6,81 @@
  * for the Arabic route to lose a section when the English offer changes.
  */
 
+import { findPlan, promoPrice, MARISTANA_PLAN_ID, type PlanCatalog } from '../../data/planCatalog.ts'
+import { formatNumber } from '../../lib/pricing.ts'
+
+/** The one shared last-resort constant on the frontend when the catalog document is empty. */
+export const SEED_MARISTANA_PRICES = { month: 400, term: 1000 }
+
+export interface PricingAmounts {
+  month: number
+  term: number
+  savings: number
+  termMonthly: number
+  /** Pre-promo list price, for the struck-through original. */
+  monthBase: number
+  termBase: number
+  /** Whole-percent discount currently applied, or 0 when no promo is active for that period. */
+  monthOff: number
+  termOff: number
+}
+
+/**
+ * The Nishany price, promo included, that the whole pricing page shows.
+ *
+ * Reads the same catalog document the admin console edits, so a promo
+ * toggled on in PlanCatalogEditor changes what this returns without a
+ * second place to update. Falls back to the seed only when the catalog has
+ * no maristana plan or no price for that period at all.
+ */
+export function offerAmounts(catalog: PlanCatalog): PricingAmounts {
+  const plan = findPlan(catalog, MARISTANA_PLAN_ID)
+  const monthBase = plan?.prices.month ?? SEED_MARISTANA_PRICES.month
+  const termBase = plan?.prices.term ?? SEED_MARISTANA_PRICES.term
+  const month = (plan ? promoPrice(plan, 'month') : null) ?? SEED_MARISTANA_PRICES.month
+  const term = (plan ? promoPrice(plan, 'term') : null) ?? SEED_MARISTANA_PRICES.term
+  const savings = Math.max(0, month * 3 - term)
+  const termMonthly = Math.round(term / 3)
+  // Recompute the % from the two prices actually shown, so the label never
+  // disagrees with the struck/live figures (25% off 400→300 reads as −25%).
+  const monthOff = monthBase > 0 && month < monthBase ? Math.round((1 - month / monthBase) * 100) : 0
+  const termOff = termBase > 0 && term < termBase ? Math.round((1 - term / termBase) * 100) : 0
+  return { month, term, savings, termMonthly, monthBase, termBase, monthOff, termOff }
+}
+
+/** A copy field that is either fixed text or derived from the catalog's live price. */
+export type Priced<T> = T | ((amounts: PricingAmounts) => T)
+
+/** Resolve a `Priced<T>` field against the current amounts. */
+export function resolvePriced<T>(value: Priced<T>, amounts: PricingAmounts): T {
+  return typeof value === 'function' ? (value as (amounts: PricingAmounts) => T)(amounts) : value
+}
+
 export interface FaqItem {
   q: string
-  a: string
+  a: Priced<string>
 }
 
 export interface PricingContent {
   path: string
   otherPath: string
   documentTitle: string
-  metaDescription: string
+  metaDescription: Priced<string>
   breadcrumb: string
   navLabel: string
   teaser: {
     eyebrow: string
     title: string
-    sub: string
+    sub: Priced<string>
     termLabel: string
-    termDetail: string
+    termDetail: Priced<string>
     scholarship: string
     link: string
     cta: string
   }
   h1: string
   sub: string
-  assurances: string[]
+  assurances: Priced<string[]>
   offer: {
     eyebrow: string
     title: string
@@ -44,10 +94,20 @@ export interface PricingContent {
     comingSoon: string
     currency: string
     save: string
+    firstTimeOffer: string
     equivalent: string
     fullAccess: string
     cta: string
     unavailable: string
+  }
+  voucher: {
+    label: string
+    apply: string
+    applied: string
+    notBeat: string
+    invalid: string
+    error: string
+    demo: string
   }
   includedTitle: string
   includedSub: string
@@ -77,16 +137,16 @@ export const EN_PRICING: PricingContent = {
   path: '/pricing',
   otherPath: '/ar/pricing',
   documentTitle: 'Nishany pricing — One complete medical learning membership',
-  metaDescription:
-    'One all-access medical study workspace for EGP 400 monthly or EGP 1,000 per academic term. Trial access is available during onboarding without buying a separate tier.',
+  metaDescription: (a) =>
+    `One all-access medical study workspace for EGP ${formatNumber(a.month, 'en')} monthly or EGP ${formatNumber(a.term, 'en')} per academic term. Trial access is available during onboarding without buying a separate tier.`,
   breadcrumb: 'Home',
   navLabel: 'Pricing',
   teaser: {
     eyebrow: 'Simple by design',
     title: 'One Nishany. Choose your study window.',
-    sub: 'The whole platform is included for EGP 400 monthly or EGP 1,000 per term. Start in onboarding, then choose the time that fits your semester.',
+    sub: (a) => `The whole platform is included for EGP ${formatNumber(a.month, 'en')} monthly or EGP ${formatNumber(a.term, 'en')} per term. Start in onboarding, then choose the time that fits your semester.`,
     termLabel: 'Academic term · 3 months',
-    termDetail: 'EGP 1,000 · save EGP 200 · EGP 333/month equivalent',
+    termDetail: (a) => `EGP ${formatNumber(a.term, 'en')} · save EGP ${formatNumber(a.savings, 'en')} · EGP ${formatNumber(a.termMonthly, 'en')}/month equivalent`,
     scholarship: 'Private 100%-off scholarships are available through your year representative or Student Union.',
     link: 'See pricing and scholarships',
     cta: 'Start studying',
@@ -94,9 +154,9 @@ export const EN_PRICING: PricingContent = {
   h1: 'One Nishany. Choose your study window.',
   sub:
     'No feature gates and no plan comparison to decode. Your curriculum, Practice Suite, adaptive study, workspace, and study rooms are included together for one month or one academic term.',
-  assurances: [
-    'EGP 400 monthly',
-    'EGP 1,000 per term',
+  assurances: (a) => [
+    `EGP ${formatNumber(a.month, 'en')} monthly`,
+    `EGP ${formatNumber(a.term, 'en')} per term`,
     'Trial access is not a purchasable tier',
   ],
   offer: {
@@ -112,10 +172,20 @@ export const EN_PRICING: PricingContent = {
     comingSoon: 'Coming soon',
     currency: 'EGP',
     save: 'Save',
+    firstTimeOffer: 'First-time offer',
     equivalent: 'monthly equivalent',
     fullAccess: 'Full Nishany access for the selected period',
     cta: 'Start studying',
     unavailable: 'Yearly access is coming soon',
+  },
+  voucher: {
+    label: 'Voucher code',
+    apply: 'Apply',
+    applied: 'Code applied.',
+    notBeat: 'That code does not beat the current price.',
+    invalid: 'That code is not valid.',
+    error: 'Could not check that code. Try again.',
+    demo: 'Connect the backend to check a code.',
   },
   includedTitle: 'Everything included',
   includedSub: 'One membership follows the whole study cycle—from your university schedule to the concepts you still need to master.',
@@ -175,7 +245,7 @@ export const EN_PRICING: PricingContent = {
     },
     {
       q: 'How much does it cost?',
-      a: 'One month costs EGP 400. One academic term costs EGP 1,000 for 3 months, saving EGP 200 compared with three separate monthly windows.',
+      a: (a) => `One month costs EGP ${formatNumber(a.month, 'en')}. One academic term costs EGP ${formatNumber(a.term, 'en')} for 3 months, saving EGP ${formatNumber(a.savings, 'en')} compared with three separate monthly windows.`,
     },
     {
       q: 'Do promotions and vouchers stack?',
@@ -220,16 +290,16 @@ export const AR_PRICING: PricingContent = {
   path: '/ar/pricing',
   otherPath: '/pricing',
   documentTitle: 'أسعار نيشاني — عضوية واحدة متكاملة لتعلّم الطب',
-  metaDescription:
-    'مساحة مذاكرة طبية كاملة في نيشاني بسعر ٤٠٠ ج.م شهريًا أو ١٬٠٠٠ ج.م للفصل الدراسي. الوصول التجريبي حالة بدء وليس خطة منفصلة للشراء.',
+  metaDescription: (a) =>
+    `مساحة مذاكرة طبية كاملة في نيشاني بسعر ${formatNumber(a.month, 'ar')} ج.م شهريًا أو ${formatNumber(a.term, 'ar')} ج.م للفصل الدراسي. الوصول التجريبي حالة بدء وليس خطة منفصلة للشراء.`,
   breadcrumb: 'الرئيسية',
   navLabel: 'الأسعار',
   teaser: {
     eyebrow: 'بساطة مقصودة',
     title: 'نيشاني واحدة. اختر مدة مذاكرتك.',
-    sub: 'كل المنصة مشمولة مقابل ٤٠٠ ج.م شهريًا أو ١٬٠٠٠ ج.م للفصل. ابدأ من الإعداد، ثم اختر المدة التي تناسب فصلك الدراسي.',
+    sub: (a) => `كل المنصة مشمولة مقابل ${formatNumber(a.month, 'ar')} ج.م شهريًا أو ${formatNumber(a.term, 'ar')} ج.م للفصل. ابدأ من الإعداد، ثم اختر المدة التي تناسب فصلك الدراسي.`,
     termLabel: 'فصل دراسي · ٣ أشهر',
-    termDetail: '١٬٠٠٠ ج.م · وفّر ٢٠٠ ج.م · ما يعادل ٣٣٣ ج.م شهريًا',
+    termDetail: (a) => `${formatNumber(a.term, 'ar')} ج.م · وفّر ${formatNumber(a.savings, 'ar')} ج.م · ما يعادل ${formatNumber(a.termMonthly, 'ar')} ج.م شهريًا`,
     scholarship: 'تتوفر منح خاصة بخصم ١٠٠٪ من خلال ممثل دفعتك أو اتحاد الطلاب.',
     link: 'اطّلع على الأسعار والمنح',
     cta: 'ابدأ المذاكرة',
@@ -237,9 +307,9 @@ export const AR_PRICING: PricingContent = {
   h1: 'نيشاني واحدة. اختر مدة مذاكرتك.',
   sub:
     'لا خصائص محجوبة ولا جداول خطط تحتاج إلى فكّها. منهجك ومجموعة التدريب والمذاكرة التكيّفية ومساحة عملك وغرف الدراسة كلها مشمولة معًا لشهر واحد أو فصل دراسي.',
-  assurances: [
-    '٤٠٠ ج.م شهريًا',
-    '١٬٠٠٠ ج.م للفصل',
+  assurances: (a) => [
+    `${formatNumber(a.month, 'ar')} ج.م شهريًا`,
+    `${formatNumber(a.term, 'ar')} ج.م للفصل`,
     'التجربة ليست خطة تُشترى',
   ],
   offer: {
@@ -255,10 +325,20 @@ export const AR_PRICING: PricingContent = {
     comingSoon: 'قريبًا',
     currency: 'ج.م',
     save: 'وفّر',
+    firstTimeOffer: 'عرض أول مرة',
     equivalent: 'ما يعادل شهريًا',
     fullAccess: 'وصول نيشاني الكامل طوال المدة المختارة',
     cta: 'ابدأ المذاكرة',
     unavailable: 'الوصول السنوي قريبًا',
+  },
+  voucher: {
+    label: 'كود القسيمة',
+    apply: 'تطبيق',
+    applied: 'تم تطبيق الكود.',
+    notBeat: 'هذا الكود لا يقدّم سعرًا أقل من الحالي.',
+    invalid: 'هذا الكود غير صالح.',
+    error: 'تعذّر التحقق من الكود. حاول مرة أخرى.',
+    demo: 'وصّل الخادم للتحقق من الكود.',
   },
   includedTitle: 'كل شيء مشمول',
   includedSub: 'عضوية واحدة تتابع دورة المذاكرة كاملة—من جدول جامعتك إلى المفاهيم التي ما زالت تحتاج إلى إتقانها.',
@@ -318,7 +398,7 @@ export const AR_PRICING: PricingContent = {
     },
     {
       q: 'كم السعر؟',
-      a: 'الشهر الواحد ٤٠٠ ج.م. الفصل الدراسي ١٬٠٠٠ ج.م لمدة ٣ أشهر، أي يوفر ٢٠٠ ج.م مقارنة بثلاث مدد شهرية منفصلة.',
+      a: (a) => `الشهر الواحد ${formatNumber(a.month, 'ar')} ج.م. الفصل الدراسي ${formatNumber(a.term, 'ar')} ج.م لمدة ٣ أشهر، أي يوفر ${formatNumber(a.savings, 'ar')} ج.م مقارنة بثلاث مدد شهرية منفصلة.`,
     },
     {
       q: 'هل تتراكم العروض والقسائم؟',

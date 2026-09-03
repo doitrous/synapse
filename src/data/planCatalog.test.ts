@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  compareGroups, compareRows, findPlan, isPurchasable, monthlyEquivalent, monthlyPriceFor, offerSelectionFromSearch, perMonth, periodById, plansFor, priceAt, purchasableAt,
+  compareGroups, compareRows, findPlan, isPurchasable, monthlyEquivalent, monthlyPriceFor, offerSelectionFromSearch, perMonth, periodById, plansFor, priceAt, promoPrice, purchasableAt,
   savingPercent, say, signupPathForOffer, type BillingPeriodDef, type CatalogPlan, type PlanCatalog,
 } from './planCatalog.ts'
 import { initialPlanCatalog } from './planCatalogSeed.ts'
@@ -74,6 +74,25 @@ test('a period converts to what it works out to per month', () => {
 test('a period is found by its id, and an unknown id finds nothing', () => {
   assert.equal(periodById(catalog([]), 'term')?.months, 3)
   assert.equal(periodById(catalog([]), 'decade'), undefined)
+})
+
+test('promoPrice rounds a percent-off promo to the nearest whole EGP', () => {
+  const withPromo = plan({
+    prices: { month: 400, term: 1000 },
+    promo: { month: { enabled: true, percentOff: 25 }, term: { enabled: true, percentOff: 30 } },
+  })
+  assert.equal(promoPrice(withPromo, 'month'), 300)
+  assert.equal(promoPrice(withPromo, 'term'), 700)
+})
+
+test('a disabled or absent promo leaves the base price alone', () => {
+  assert.equal(promoPrice(plan({ prices: { month: 400 } }), 'month'), 400)
+  const disabled = plan({ prices: { month: 400 }, promo: { month: { enabled: false, percentOff: 25 } } })
+  assert.equal(promoPrice(disabled, 'month'), 400)
+})
+
+test('a period the plan has no price for has no promo price either', () => {
+  assert.equal(promoPrice(plan({ prices: {} }), 'month'), null)
 })
 
 /* ---- Saving -------------------------------------------------------------- */

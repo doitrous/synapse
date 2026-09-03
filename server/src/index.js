@@ -63,6 +63,7 @@ import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
 import { createPromotion, createPricingVoucher, listPricingDiscounts, pricingQuote } from './pricing.js'
+import { SUBSCRIBER_DISPLAY_STATE_KEY, computeSubscriberCount, nextSubscriberDisplayDoc, publicSubscriberCountPayload, readSubscriberDisplay, writeSubscriberDisplay } from './subscriberCount.js'
 import {
   createEnrollmentChangeRequest, decideEnrollmentChangeRequest,
   listEnrollmentChangeRequests, myEnrollmentChangeRequests,
@@ -75,7 +76,7 @@ import { setMailer } from './qotdReminderEmail.js'
 import { answerDistributionFor } from './answerDistribution.js'
 import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
 import { activityTrackingSummary } from './studyTrackingAdmin.js'
-import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
+import { acknowledgeStorageThreshold, activeSubscriptionCount, platformReport } from './platformReports.js'
 import {
   statusFor as assistantStatus,
   chat as assistantChat,
@@ -950,6 +951,34 @@ app.get('/api/pricing/quote', wrap(async (req, res) => {
   const result = await pricingQuote({ period: req.query?.period, voucherCode: req.query?.voucher })
   if (result.error) return res.status(400).json(result)
   res.json(result)
+}))
+
+/**
+ * The marketing subscriber count. No auth guard — it is read by anonymous
+ * landing-page visitors, the same way `/api/pricing/quote` is. Hidden
+ * entirely (`{ enabled: false }`) until a superadmin turns it on.
+ */
+app.get('/api/public/subscriber-count', wrap(async (req, res) => {
+  const doc = await readSubscriberDisplay()
+  if (!doc.enabled) return res.json({ enabled: false })
+  const realCountNow = await activeSubscriptionCount()
+  res.json(publicSubscriberCountPayload(doc, { realCountNow, now: Date.now() }))
+}))
+
+/**
+ * Superadmin-only. `requireSuperAdmin`, not `requireConsole` — the generic
+ * `PUT /api/state/:key` must never write this key, because a base change
+ * has to re-capture the real subscription count in the same request as the
+ * write, and the generic route has no way to express that.
+ */
+app.post('/api/admin/subscriber-count', requireSuperAdmin, wrap(async (req, res) => {
+  const current = await readSubscriberDisplay()
+  const realCountNow = await activeSubscriptionCount()
+  const result = nextSubscriberDisplayDoc(current, req.body ?? {}, { realCountNow, now: Date.now() })
+  if (!result.ok) return res.status(400).json({ error: result.error })
+  await writeSubscriberDisplay(result.doc, req.identity.id)
+  const preview = computeSubscriberCount(result.doc, { realCountNow, now: Date.now() })
+  res.json({ ok: true, doc: result.doc, preview })
 }))
 
 app.post('/api/qbank/attempts', requireAuthenticated, wrap(async (req, res) => {
@@ -2026,6 +2055,15 @@ async function enforceMediaSupply(conn, mergedLedger, storedLedger) {
  */
 app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
   const key = canonicalStateKey(req.params.key)
+
+  // The subscriber-display doc has a dedicated endpoint that re-captures the
+  // real subscription count in the same transaction as a base change; the
+  // generic route cannot express that, so it never writes this key — not even
+  // for a super admin, who could otherwise bypass the tab check below.
+  if (key === SUBSCRIBER_DISPLAY_STATE_KEY) {
+    return res.status(403).json({ error: 'use POST /api/admin/subscriber-count for this document' })
+  }
+
   const owners = tabsForStateKey(key)
   const held = await heldTabs(req.identity)
   const superAdmin = req.identity.role === 'super_admin'

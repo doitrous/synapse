@@ -67,6 +67,15 @@ export interface CatalogPlan {
   features: PlanFeature[]
   /** Period id → price. An absent period is not sold for this plan. */
   prices: Record<string, number>
+  /**
+   * A launch/first-time offer per period. Absent or `enabled: false` means the
+   * base price is what shows — a promo is never invented from thin air, only
+   * ever an explicit admin choice.
+   */
+  promo?: {
+    month?: { enabled: boolean; percentOff: number }
+    term?: { enabled: boolean; percentOff: number }
+  }
   /** Shown instead of a price where there is no list price — campus, cohort. */
   quoted?: Bilingual
   /** A fixed-scope offer whose period is the product, not a billing choice. */
@@ -143,6 +152,23 @@ export function priceAt(
 
   const any = sorted.find(has)
   return any ? { amount: plan.prices[any.id], period: any } : null
+}
+
+/**
+ * The whole-EGP price after a plan's promo for a period, or the base price
+ * when no promo is enabled there, or `null` when the plan is not sold at
+ * that period at all — the same "not sold" fact `priceAt` reports, rather
+ * than a promo inventing a price `priceAt` refuses to show.
+ *
+ * Rounded to the nearest whole EGP: 25% off 400 is 300, 30% off 1000 is 700.
+ */
+export function promoPrice(plan: CatalogPlan, periodId: string): number | null {
+  const base = plan.prices[periodId]
+  if (base === undefined) return null
+  const promo = periodId === 'month' ? plan.promo?.month : periodId === 'term' ? plan.promo?.term : undefined
+  if (!promo?.enabled) return base
+  const off = Math.min(100, Math.max(0, promo.percentOff))
+  return Math.round(base * (1 - off / 100))
 }
 
 /** What an amount at this period works out to per month. */
