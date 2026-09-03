@@ -6,7 +6,7 @@
 | quiz4 | 34 | 0 | 0 | 34 |
 | week1 | 145 | 4 | 0 | 149 |
 | week2 | 103 | 2 | 0 | 105 |
-| comp1 (Previous Years CNS MCQ compilation, Q1-126 of 383) | 86 | 39 | 257 | 383 |
+| comp1 (Previous Years CNS MCQ compilation, Q1-181 of 383) | 125 | 54 | 202 | 383 |
 
 ## Held
 - quiz1-q04 — HIT-PENDING concept (ciliary ganglion, Kasr 102-INT batch not yet imported) — authored now in pending-live/AU-MED-203-questions.md per LANE-BRIEF §21, not emitted into this batch.
@@ -35,6 +35,21 @@
 - comp1-q115 — near-duplicate of this same source's own comp1-q14 (pass 1): both test the cornea's dominance of the resting eye's refractive power (comp1-q14 the magnitude — about two-thirds; comp1-q115 the mechanism — the air-cornea refractive index difference); held rather than re-authored given how directly comp1-q14 already covers the cornea's refractive importance.
 - comp1-q122 — duplicate of already-landed content (anterior cerebral artery in the callosal sulcus) — dup of the existing "The anterior cerebral artery courses within the callosal sulcus" concept.
 - comp1-q126 — duplicate of already-landed content (UMNL increases muscle tone/hypertonia) — dup of the existing "Upper motor neuron lesion hypertonia results from unopposed pontine facilitatory descending drive" concept.
+- comp1-q127 — duplicate of a pending-live overlay-eligible concept — HIT-PENDING against ASU-CNS-3's near-identical "The medial geniculate body receives its main auditory input from which structure?" (CON-NEU-D8A896F1FF95EC, docs/Ain-Shams-Source-Imports/question/ASU-CNS-3-paper2-2018-mcq.md QST-ASUCNS3P2-18-Q25), which already tests the identical single fact (medial geniculate body connected to the inferior colliculus) with the same superior-colliculus distractor; held outright per the module's week1-q47 near-exact-duplicate precedent rather than re-authored as a second overlay on the same fact.
+- comp1-q135 — duplicate of already-landed content (QST-AUMED203-COMP1-Q24) — this pass's q135 is a verbatim repeat of this same source's own comp1-q24 (17-year-old girl, Accutane, unilateral cleft upper lip, failure of fusion of craniofacial processes), word-for-word identical vignette and stem, already authored in pass 1.
+- comp1-q146 — near-duplicate of the module's already-saturated muscle spindle question set — "nuclear bag fibers characterized by ... aggregated nuclei in the central expanded region" restates the existing "Nuclear bag fiber's non-contractile region" question (docs/Alexandria-Source-Imports/question/AU-MED-203-week1a-mcq.md, "All of the following characterize the nuclear bag fibers EXCEPT", correct_answer C: "Each has a central non-contractile region") — the same core fact under a different framing.
+- comp1-q147 — near-duplicate of the module's already-landed receptor/generator potential question — docs/Alexandria-Source-Imports/question/AU-MED-203-week1a-mcq.md QST-AUMED203-WEEK1-Q08 ("Receptor potential and the refractory period", concept CON-NEU-2FD9DE9D533B4C) already tests that the generator potential is graded (no all-or-none rule), has NO refractory period, and can be summated — the same core properties this pass's q147 tests.
+- comp1-q148 — near-duplicate of already-landed content (straight sinus at the falx-tentorium junction) — docs/Alexandria-Source-Imports/question/AU-MED-203-week1b-mcq.md's "The following venous sinuses are related to the Falx cerebri except" already tests, as its own answer_a (true relation, not the exception), that the straight sinus forms at the posterior junction of the falx cerebri with the tentorium cerebelli — the same anatomical fact this pass's clinical-vignette q148 tests via different dressing.
+- comp1-q152 — duplicate of already-landed content (QST-AUMED203-COMP1-Q34) — this pass's q152 ("Which of the following IS NOT a branch of vagus nerve?") restates this same source's own comp1-q34, already authored in pass 1.
+- comp1-q153 — near-duplicate of already-landed content — docs/Alexandria-Source-Imports/question/AU-MED-203-week1a-mcq.md's "Which of the following statements about the tentorium cerebelli is CORRECT?" already tests, as its correct answer_b, that the oculomotor nerve pierces the dura anterior to the trochlear nerve at the crossing of the tentorium's free and attached margins — the identical fact this pass's q153 tests.
+- comp1-q162 — duplicate of already-landed content (QST-AUMED203-COMP1-Q79) — this pass's q162 ("What do bipolar cells synapse with?") restates this same source's own comp1-q79, already authored in pass 1.
+- comp1-q166 — duplicate of already-landed content (QST-AUMED203-COMP1-Q41) — this pass's q166 ("The amygdala in the limbic system is concerned with:") is a verbatim repeat of this same source's own comp1-q41, already authored in pass 1.
+- comp1-q167 — near-duplicate of already-landed content (QST-AUMED203-WEEK1-Q151) — docs/Alexandria-Source-Imports/question/AU-MED-203-week1c-mcq.md's "Which muscle does the trochlear nerve control?" already tests the identical single fact (trochlear nerve supplies superior oblique) this pass's q167 tests.
+- comp1-q169 — duplicate of already-landed content (QST-AUMED203-COMP1-Q104) — this pass's q169 ("The bony labyrinth consists of the followings, EXCEPT:") is a verbatim repeat of this same source's own comp1-q104, already authored in pass 2.
+- comp1-q173 — duplicate of already-landed content (QST-AUMED203-COMP1-Q77) — this pass's q173 ("Which of the following descriptions is TRUE for crista ampullaris?") is a verbatim repeat of this same source's own comp1-q77, already authored in pass 1.
+- comp1-q178 — duplicate of already-landed content (QST-AUMED203-QUIZ1-QUIZ1-Q19) — docs/Alexandria-Source-Imports/question/AU-MED-203-quiz1-mcq.md's "Which of the following structures is maximally sensitive to linear head movement in the vertical plane?" is a verbatim repeat of this pass's q178.
+- comp1-q179 — duplicate of already-landed content (QST-AUMED203-COMP1-Q07) — this pass's q179 ("Which of the following thalamic nuclei plays a role in processing of emotions and memory:") is a verbatim repeat of this same source's own comp1-q07, already authored in pass 1.
+- comp1-q180 — duplicate of already-landed content (QST-AUMED203-COMP1-Q65) — this pass's q180 ("The common facial vein drains into the following vein:") is a verbatim repeat of this same source's own comp1-q65, already authored in pass 1.
 
 ## Week 2 EOM Final, Q61-120 — au-203-author9, 2026-09-03
 
@@ -159,8 +174,59 @@ no new resource or article). Full duplicate breakdown with twin ids in
 `coverage/AU-MED-203-triage.md`'s "Previous Years CNS MCQ with answers compilation, pass 2"
 section.
 
+## "Previous Years CNS MCQ with answers" compilation, pass 3 (Q127-181) — au-203-author12, 2026-09-03
+
+Continued directly from pass 2's stop point (Q1-126 done, Q127-383 remaining per this LEDGER's Remaining
+section). Read `pagetext.mjs status` → `show` 2-3 pages/call, pages 30-42. Loaded the full already-authored
+AU-MED-203 corpus (470 question stems, 674 concept labels across AU-MED-203 + ASU-CNS-3, via
+`grep -h "^## question$"`/`"^## label$"`) once, cross-checked every candidate against both that hand-grep and
+`find-existing.mjs` before authoring or minting, per pass 1/2's precedent.
+
+**Two numbering collisions** matched the source's own established pattern (2 total collisions at q37/q132
+noted in pass 1's opening survey): a second "132)" appears on p32 immediately after the first, a fresh past
+paper's numbering restarting mid-sequence rather than a gap — kept as `comp1-q132a`/`comp1-q132b`, mirroring
+the existing `comp1-q37a`/`comp1-q37b` split. **Two numbering gaps** (q133, q144) do not exist in the source
+(numbering jumps 132→134 and 143→145, no page break or essay-page intervening), matching the module's
+established numbering-gap precedent (Week 1/Week 2 EOM Finals); not counted as triaged, not held.
+
+54 numbered questions read (Q127-132b, Q134-143, Q145-181). **39 of 54 triaged as new** and authored into
+`question/AU-MED-203-comp1-mcq.md` (seed: `coverage/seeds/AU-MED-203/comp1.json`) — q128-132b, q134,
+q136-138, q139-143, q145, q149-151, q154-161, q163-165, q168, q170-172, q174-177, q181. 39 concepts minted
+(35 CON-NEU, 4 CON-AND, 1 CON-FND — figure includes department reclassifications), each canonical key checked
+via `find-existing.mjs` before minting, 0 collisions against the existing 13578 IDs checked. Each new concept's
+`article_ids`/`related_article_ids` route to whichever of the module's 3 dept articles (anatomy/physiology/
+histology) matches its subject, per pass 1/2's article-linkage pattern — the article's own `related_concepts`
+list is left untouched, matching prior passes' precedent that only the concept→article direction is needed for
+`foldInSiblings`'s coverage check.
+
+**15 of 54 triaged as duplicates**, logged in the `## Held` list above with twin ids: 1 HIT-PENDING against an
+ASU-CNS-3 pending concept/question pair not yet imported (q127, held outright rather than overlaid, since the
+existing pending question already covers the identical single fact with the same distractor set — the module's
+week1-q47 near-exact-duplicate precedent), and 14 external/near-duplicates of already-landed AU-MED-203
+content (q135, q146-148, q152-153, q162, q166-167, q169, q173, q178-180) — of which q135, q152, q162, q166,
+q173, q179 and q180 duplicate this same source's own pass 1, and q169 duplicates pass 2.
+
+**Two printed-key doubts recorded**, kept as printed per LANE-CARD rather than silently corrected, each with
+the conflict named on its own concept's `conflicts` field: q132a ("main origin of corticonuclear tract") credits
+the frontal eye field (area 8) rather than the more commonly taught primary motor cortex (area 4); q134
+("vestibular nucleus sends efferent to all EXCEPT") credits spinal cord as the non-projection, conflicting with
+the well-established vestibulospinal tract — basal ganglia would be the more physiologically expected exception.
+
+One option-format fix: q163's source options ("+120 mv, Nat", "+80mv, K+", …) were reworded to "Positive 120
+mV, Na+" / "Positive 80 mV, K+" etc. — `emit-mcq.mjs` refuses any option value starting with `+` (that
+character means "append" everywhere else in a batch cell), so the printed options were rephrased to avoid a
+leading `+` while preserving the exact same tested values and correct answer.
+
+`medical:batch` (`gate.mjs batch`) on the question file (with the module's 3 article files, the concept file
+and the resource file as `--with` siblings) and on the concept file standalone: `errors: []` for both (125
+items each; only expected `needs_evidence` per-concept warnings). `medical:simulate` (`gate.mjs simulate`)
+positional (3 article files + concept + resource + question files, the full chain): `errors: []`, `rejected: 0`,
+`skipped: 0`, `created: 260` across all 6 files, matching each file's own row count exactly (125 = 86 from
+pass 1/2 + 39 from this pass). Full duplicate breakdown with twin ids is in the `## Held` list above and in
+`coverage/AU-MED-203-triage.md`.
+
 ## Remaining
-Q127-383 of the "Previous Years CNS MCQ with answers" compilation (pages 31-87,
+Q182-383 of the "Previous Years CNS MCQ with answers" compilation (pages 43-87,
 `src_27a0ccf21cff0f58e6e3`) — the next resume point for this source. Beyond that, per
 `coverage/AU-Y2-priority-sources.md`: 2 further weekly EOM finals (week 3, week 4+5), the Mock
 2027 question+answer pair, and the two largest banks — `MCQs - CNS bank by MCQs team.pdf`
