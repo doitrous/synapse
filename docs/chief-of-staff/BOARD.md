@@ -777,3 +777,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - **Assiut (aun) LANDED via flush:** ledger 60.46→66.49MB (14444 items), +1519 aun questions (incl. CBF-103 l5 + MPT-104), source carried on import (total sourced Q 6847→7871). 8 held (INI-105 cross-uni). All 3 keys version==app_state.
 - **Mansoura (mans) flushing now** (88 files, 1392 created incl. HBG df0f321, 2 held).
 - NEXT after mans: reconciliation pass — re-vet every university incl. its previously-held cross-uni-dependency batches (now most base content is live, refs resolve) and flush the newly-clean ones.
+
+### 2026-09-03 — IMPORT WAVE COMPLETE: all 9 available universities live as Draft
+- **Mansoura (mans) flushed: +774 Q.** Final prod ledger 70.50MB, 15524 items, **13253 questions** (from 6161 baseline = +7092), 8581 sourced. version==app_state on all 3 keys.
+- Questions by university: kau 4023, asu 2030, au 1524, aun 1519, mans 774, scu 281, zu 236, o6u 203, mu 135; hu 2309 (retracted → In review). All scoped to own university+year; solve-by-source live for 8581.
+- **NEXT: reconciliation pass** — re-vet each university's previously-held cross-uni-dependency batches (deps now live), flush the newly-clean ones. Genuinely-broken holds (asu IMM phantom concept CON-IMM-A15EC6751FF401; aun INI-105 → MUST articles not imported) stay held for a lane fix. Then resume Year 1 authoring (Assiut/Mansoura have runway) → Years 2-3 → 4-5 per goal.
