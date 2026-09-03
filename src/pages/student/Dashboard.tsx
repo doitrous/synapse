@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
 import { PageContainer } from '@/components/shell/Page'
-import { TodaysTarget } from '@/components/dashboard/TodaysTarget'
+import { DailyFactsStrip, greetingKey } from '@/components/dashboard/TodaysTarget'
+import { TodaysTargetHero } from '@/components/dashboard/TodaysTargetHero'
+import { ResumeSessionCard } from '@/components/dashboard/ResumeSessionCard'
+import { DashboardNavGrid } from '@/components/dashboard/DashboardNavGrid'
 import { ExamCountdown } from '@/components/dashboard/ExamCountdown'
 import { ProgressRingStack } from '@/components/dashboard/ProgressTrio'
 import { StudyRhythmSection } from '@/components/dashboard/StudyRhythmSection'
@@ -12,23 +15,34 @@ import { useIdentity } from '@/lib/useIdentity'
 /**
  * The student's own dashboard, redrawn as one focused column.
  *
- * The hero at the top is today's own target — one ring, one line of status,
- * one action — because a student opening the app wants one answer, "what do
- * I do right now", not a page competing for the first look. Everything below
- * it is the quick-access layer: what's next on the calendar, the three
- * headline meters, and the study-rhythm band — the heatmap with today's single
- * question beside it — each one click away rather than pinned open whether it
- * is needed today or not.
+ * The hero at the top is today's own target — the Midnight Seed ring filling
+ * toward the daily mark, one line of status, one action — because a student
+ * opening the app wants one answer, "what do I do right now", not a page
+ * competing for the first look. Right under it, a paused sitting (if there is
+ * one) gets its own one-tap way back in, then the four doors into the rest of
+ * the product. Everything below that is the quick-access layer: the day's
+ * facts strip, what's next on the calendar, the three headline meters, and
+ * the study-rhythm band — the heatmap with today's single question beside it
+ * — each one click away rather than pinned open whether it is needed today or
+ * not.
  */
 export function Dashboard() {
-  const { t } = useI18n()
-  const { audienceUnknown } = useIdentity()
+  const { t, lang } = useI18n()
+  const { displayName, audienceUnknown } = useIdentity()
   const { count: dueCount, startHref: dueHref } = useDueReviewSummary()
+  const firstName = displayName?.trim().split(/\s+/)[0]
 
   return (
     <PageContainer>
       <div className="flex flex-col items-center gap-6 py-4 sm:py-8">
-        <TodaysTarget />
+        <div className="w-full max-w-[60rem] text-center sm:text-start">
+          <h1 className="font-serif text-[28px] font-bold leading-[1.15] tracking-[-0.02em] text-ink sm:text-[34px]">
+            {t(greetingKey())}{firstName ? `${lang === 'ar' ? '، ' : ', '}${firstName}` : ''}
+          </h1>
+        </div>
+
+        <TodaysTargetHero />
+        <ResumeSessionCard />
 
         {audienceUnknown && (
           <div className="w-full max-w-[60rem] rounded-lg border border-warning/30 bg-warning-tint px-4 py-3 text-[13px] leading-relaxed text-ink-2">
@@ -36,6 +50,12 @@ export function Dashboard() {
             <Link to="/app/account" className="font-semibold text-primary-strong hover:text-primary">{t('Add it in your account')}</Link>
           </div>
         )}
+
+        <DashboardNavGrid />
+
+        <div className="w-full max-w-[60rem] min-w-0">
+          <DailyFactsStrip />
+        </div>
 
         <div className="grid w-full max-w-[60rem] min-w-0 gap-4 lg:grid-cols-[minmax(0,1fr)_17rem]">
           <div className="min-w-0">
