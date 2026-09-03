@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  DEFAULT_TRIAL_DAYS, isTrialVoucher, trialEndsAt, voucherDiscount, voucherEligibility,
+  DEFAULT_TRIAL_DAYS, initialVouchers, isTrialVoucher, trialEndsAt, voucherDiscount, voucherEligibility,
   voucherTrialDays, type Voucher,
 } from './vouchers.ts'
 import type { University } from './universities.ts'
@@ -73,6 +73,22 @@ test('a trial takes nothing off the price — it opens the platform instead', ()
   assert.equal(voucherDiscount(voucher({ amount: 20 }), 500), 100)
 })
 
+test('a periodPrices target sets the discount so the final price lands exactly there', () => {
+  const ambassadors = voucher({ periodPrices: { month: 250, term: 550 } })
+  assert.equal(voucherDiscount(ambassadors, 400, 'month'), 150)
+  assert.equal(voucherDiscount(ambassadors, 1000, 'term'), 450)
+})
+
+test('without a period, periodPrices is ignored and the percent/fixed rule applies instead', () => {
+  const ambassadors = voucher({ discountType: 'Percentage', amount: 20, periodPrices: { month: 250 } })
+  assert.equal(voucherDiscount(ambassadors, 400), 80)
+})
+
+test('a periodPrices target above the price gives no discount, never a negative one', () => {
+  const generous = voucher({ periodPrices: { month: 500 } })
+  assert.equal(voucherDiscount(generous, 400, 'month'), 0)
+})
+
 /* ---- Eligibility --------------------------------------------------------- */
 
 test('without a catalogue, eligibility is the targeting rules alone', () => {
@@ -141,4 +157,11 @@ test('a private scholarship code can cover 100% once and remain scoped to one un
     voucherEligibility(scholarship, { ...student, year: 'Year 2' }, catalogue()) ?? '',
     /year/,
   )
+})
+
+test('the Ambassadors voucher seeds with fixed period prices, inactive and codeless until an admin claims it', () => {
+  const ambassadors = initialVouchers.find((entry) => entry.id === 'voucher-ambassadors')!
+  assert.deepEqual(ambassadors.periodPrices, { month: 250, term: 550 })
+  assert.equal(ambassadors.active, false)
+  assert.equal(ambassadors.code, '')
 })
