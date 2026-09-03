@@ -872,3 +872,291 @@ yes
 ## author_notes
 keySource: printed answer beside option, p.111, Q196
 New mint. contextual_concept_ids names the live albumin/oncotic-pressure concept as the mechanism this sign follows from, without claiming it as a second main_concept.
+
+---
+
+# Item
+
+## id
+QST-MANSHIS203-PLASMA-PROTEIN-LECTURE5-Q191
+
+## title
+What plasma proteins buffer blood with
+
+## question
+Plasma proteins contribute about 15% of blood's buffering power through their dissociable acidic and basic groups. The single most important contributor to this buffering capacity is:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The imidazole group of histidine residues
+
+## explanation_a
+Correct. Histidine's imidazole group has a pKa close to physiological blood pH, which lets it accept and donate protons readily across the pH range blood actually operates in. This is what makes it the single largest contributor to plasma protein buffering, ahead of the other ionisable acidic and basic groups also present on the protein.
+
+## answer_b
+The thiol group of cysteine residues
+
+## explanation_b
+Incorrect. Cysteine's thiol group is mainly involved in disulfide-bond formation for protein structure, not in blood buffering — its pKa is well above physiological pH, so it stays largely undissociated at blood pH.
+
+## answer_c
+The epsilon-amino group of lysine residues
+
+## explanation_c
+Incorrect. Lysine's epsilon-amino group is a basic group and does contribute some buffering capacity, but its pKa is well above physiological pH, so it is far less effective across the blood's actual pH range than histidine's imidazole group.
+
+## answer_d
+The carboxyl group of aspartate residues
+
+## explanation_d
+Incorrect. Aspartate's carboxyl group is acidic with a pKa well below physiological pH, so like lysine's amino group it is largely dissociated (not buffering) at blood pH — histidine's imidazole group, with its pKa close to blood pH, is the dominant contributor.
+
+## answer_e
+The guanidino group of arginine residues
+
+## explanation_e
+Incorrect. Arginine's guanidino group is strongly basic with a very high pKa, so it stays almost entirely protonated at blood pH and contributes little to buffering there — histidine's imidazole group is the dominant contributor.
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## main_concept
+CON-HEM-ACFD5A39EBBED6
+
+## concept_ids
+CON-HEM-ACFD5A39EBBED6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HIS-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## learning_objective
+State that plasma proteins provide about 15% of blood's buffering power, and identify histidine's imidazole group as the residue mainly responsible.
+
+## source_citation
+His Continuous Berlin Book 2026, p.111
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer beside option, p.111, Q191. New mint (CON-HEM-ACFD5A39EBBED6) — the previous pass in this lane (plasma-protein-lecture5 cluster) held this fact for a dedicated pass rather than authoring it thin; this addendum is that pass. B-E distractors are the other ionisable amino-acid side chains, written to test the pKa-proximity reasoning rather than bare recall.
+
+---
+
+# Item
+
+## id
+QST-MANSHIS203-PLASMA-PROTEIN-LECTURE5-Q198
+
+## title
+Haptoglobin's specific role in iron homeostasis
+
+## question
+Haptoglobin, transferrin and ferritin are all plasma proteins involved in iron homeostasis. Haptoglobin's own specific role is to:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Carry iron directly in the plasma
+
+## explanation_a
+Incorrect. Carrying iron directly in the plasma is transferrin's role, not haptoglobin's — haptoglobin instead binds free haemoglobin, not free iron itself.
+
+## answer_b
+Store iron intracellularly in tissues
+
+## explanation_b
+Incorrect. Intracellular iron storage is ferritin's (and apoferritin's) role, not haptoglobin's.
+
+## answer_c
+Bind free plasma haemoglobin released by haemolysis, conserving its iron for recycling
+
+## explanation_c
+Correct. Haptoglobin binds free haemoglobin released into the plasma when red cells haemolyse, forming a haemoglobin-haptoglobin complex that the liver clears rather than the kidneys excreting it. This conserves the iron in that haemoglobin for recycling, and is also why a fall in plasma haptoglobin is used clinically as a marker of intravascular haemolysis — the complex is consumed faster than the liver can replace free haptoglobin.
+
+## answer_d
+Transport vitamin B12 in the plasma
+
+## explanation_d
+Incorrect. Vitamin B12 transport in the plasma is transcobalamin's role, not haptoglobin's, and is unrelated to iron homeostasis.
+
+## answer_e
+Regulate intestinal iron absorption
+
+## explanation_e
+Incorrect. Intestinal iron absorption is regulated by mechanisms such as hepcidin, not by haptoglobin, which acts in the plasma after haemolysis rather than at the gut.
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## main_concept
+CON-HEM-7DA8C7139BBB7D
+
+## concept_ids
+CON-HEM-7DA8C7139BBB7D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+MANS_Y1=moderate
+
+## years
+MANS_Y1
+
+## universities
+mans
+
+## module
+MANS-HIS-203
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## learning_objective
+State that haptoglobin binds free plasma haemoglobin from haemolysis to conserve its iron, distinct from transferrin's plasma iron-carrying role and ferritin's intracellular iron-storage role.
+
+## source_citation
+His Continuous Berlin Book 2026, p.111
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed list, p.111, Q198 (haptoglobin/transferrin/ferritin, no lettered options in source — a genuine teaching MCQ was written around haptoglobin's distinguishing mechanism). New mint (CON-HEM-7DA8C7139BBB7D) — the previous pass in this lane held this fact ("multi-part, better suited to a dedicated haemolysis/haptoglobin pass") rather than authoring it thin; this addendum is that dedicated pass, testing haptoglobin's mechanism against the other two named proteins as distractors rather than as a bare list-recall item.

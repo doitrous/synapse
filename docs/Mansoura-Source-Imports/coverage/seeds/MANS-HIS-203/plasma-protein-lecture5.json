@@ -6,12 +6,20 @@
     "subject": "haem",
     "status": "Draft",
     "owner": "Claude",
-    "universities": ["mans"],
-    "years": ["MANS_Y1"],
+    "universities": [
+      "mans"
+    ],
+    "years": [
+      "MANS_Y1"
+    ],
     "module": "MANS-HIS-203",
-    "exam_weight_by_year": { "MANS_Y1": "moderate" },
+    "exam_weight_by_year": {
+      "MANS_Y1": "moderate"
+    },
     "question_only_for": "",
-    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "resource_ids": [
+      "src_c4ee1e63536c22ca52d4"
+    ],
     "source_citation": "His Continuous Berlin Book 2026, p.{page}",
     "setting": "Academic",
     "estimated_seconds": 60,
@@ -39,7 +47,9 @@
         "E": "Incorrect. Transferrin is present at a much lower concentration than albumin and is named for its iron-carrying role, not for being the dominant plasma protein by mass or the smallest by molecular weight."
       },
       "main_concept": "CON-HEM-B25D05070CEF7D",
-      "concept_ids": ["CON-HEM-B25D05070CEF7D"],
+      "concept_ids": [
+        "CON-HEM-B25D05070CEF7D"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — plasma proteins",
@@ -49,9 +59,13 @@
       "reasoning_level": 2,
       "learning_objective": "State that albumin is both the most concentrated and the lowest-molecular-weight plasma protein, and connect that concentration to its oncotic-pressure role.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer beside option, p.108, Q161" },
+      "field_notes": {
+        "keySource": "printed answer beside option, p.108, Q161"
+      },
       "author_notes": "Folds in Q163/Q164's restatement of the same 'albumin = dominant plasma protein' fact.",
-      "library_ids": ["ART-HEM-TOP-37142FFF1F"]
+      "library_ids": [
+        "ART-HEM-TOP-37142FFF1F"
+      ]
     },
     {
       "key": "q167",
@@ -74,7 +88,9 @@
         "E": "Incorrect as the exception. Alpha globulins are among the roughly half of the globulin fraction the liver does synthesise; only the gamma globulins fall outside hepatic production."
       },
       "main_concept": "CON-HEM-A00CEBAD4CB5F9",
-      "concept_ids": ["CON-HEM-A00CEBAD4CB5F9"],
+      "concept_ids": [
+        "CON-HEM-A00CEBAD4CB5F9"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — plasma proteins",
@@ -84,9 +100,13 @@
       "reasoning_level": 2,
       "learning_objective": "Identify gamma globulins as the plasma protein fraction synthesised by plasma cells rather than the liver, unlike albumin, fibrinogen, prothrombin and the other globulins.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer beside option, p.108, Q165/Q167 combined ('gamma globulins synthesised in lymphoid tissue' + 'plasma protein formed outside the liver = gamma globulin')" },
+      "field_notes": {
+        "keySource": "printed answer beside option, p.108, Q165/Q167 combined ('gamma globulins synthesised in lymphoid tissue' + 'plasma protein formed outside the liver = gamma globulin')"
+      },
       "author_notes": "Combines Q165/Q166/Q167/Q175's four restatements of the same liver-vs-plasma-cell synthesis-site fact into one 'except' question, reusing the live liver-synthesis concept as main_concept since that record already names albumin/fibrinogen/prothrombin/half-the-globulins as what the liver makes — the gamma-globulin exception follows directly from it.",
-      "library_ids": ["ART-HEM-TOP-37142FFF1F"]
+      "library_ids": [
+        "ART-HEM-TOP-37142FFF1F"
+      ]
     },
     {
       "key": "q184",
@@ -109,7 +129,9 @@
         "E": "Incorrect. Beta globulins include carrier and complement proteins, but the antibody-mediated defensive function specifically belongs to the gamma globulin (immunoglobulin) fraction."
       },
       "main_concept": "CON-HEM-163093720ACE8B",
-      "concept_ids": ["CON-HEM-163093720ACE8B"],
+      "concept_ids": [
+        "CON-HEM-163093720ACE8B"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — plasma proteins",
@@ -119,9 +141,13 @@
       "reasoning_level": 1,
       "learning_objective": "State that gamma globulins (immunoglobulins) are the plasma protein fraction that mediates humoral defence against microorganisms and toxins.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer beside option, p.110, Q184/Q185 combined" },
+      "field_notes": {
+        "keySource": "printed answer beside option, p.110, Q184/Q185 combined"
+      },
       "author_notes": "Combines Q184/Q185/Q168's three restatements of the same gamma-globulin-defence/immunoglobulin fact.",
-      "library_ids": ["ART-HEM-TOP-37142FFF1F"]
+      "library_ids": [
+        "ART-HEM-TOP-37142FFF1F"
+      ]
     },
     {
       "key": "q174",
@@ -144,7 +170,9 @@
         "E": "Incorrect. Spectrophotometry measures light absorbance, used for example to quantify total protein concentration, but it does not itself separate the proteins into fractions."
       },
       "main_concept": "CON-HEM-B23B13924E08CA",
-      "concept_ids": ["CON-HEM-B23B13924E08CA"],
+      "concept_ids": [
+        "CON-HEM-B23B13924E08CA"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — plasma proteins",
@@ -154,9 +182,13 @@
       "reasoning_level": 2,
       "learning_objective": "State that electrophoresis is the method used to separate plasma proteins into their albumin/alpha/beta/gamma fractions.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer beside option, p.109, Q174" },
+      "field_notes": {
+        "keySource": "printed answer beside option, p.109, Q174"
+      },
       "author_notes": "New mint — find-existing.mjs 'electrophoresis plasma' returned no rival record.",
-      "library_ids": ["ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"]
+      "library_ids": [
+        "ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"
+      ]
     },
     {
       "key": "q188",
@@ -179,7 +211,9 @@
         "E": "Incorrect. Alpha-1 antitrypsin's role is antiprotease activity; its deficiency causes emphysema, not a change in plasma viscosity."
       },
       "main_concept": "CON-HEM-8B9322B58C232D",
-      "concept_ids": ["CON-HEM-8B9322B58C232D"],
+      "concept_ids": [
+        "CON-HEM-8B9322B58C232D"
+      ],
       "contextual_concept_ids": [],
       "topic": "Physiology",
       "subtopic": "Blood — plasma proteins",
@@ -189,9 +223,13 @@
       "reasoning_level": 2,
       "learning_objective": "State that fibrinogen, not albumin, is the plasma protein mainly responsible for plasma's viscosity, distinct from the red cell mass's role in whole-blood viscosity.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer beside option, p.110, Q188/Q190 combined" },
+      "field_notes": {
+        "keySource": "printed answer beside option, p.110, Q188/Q190 combined"
+      },
       "author_notes": "New mint. This lane already has a live/pending fact that erythrocytes are the major part of WHOLE-BLOOD viscosity (erythrocyte-physbank cluster) — this question is deliberately about the PLASMA-phase viscosity fibrinogen sets, not the whole-blood fact, and the explanation calls out the distinction explicitly to avoid the two being read as contradictory.",
-      "library_ids": ["ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"]
+      "library_ids": [
+        "ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"
+      ]
     },
     {
       "key": "q196",
@@ -214,8 +252,12 @@
         "E": "Incorrect. Muscle wasting can accompany severe, prolonged protein malnutrition, but it is a later, structural consequence, not the first clinical sign that follows directly from the drop in oncotic pressure."
       },
       "main_concept": "CON-HEM-FD9869F6DAA9DC",
-      "concept_ids": ["CON-HEM-FD9869F6DAA9DC"],
-      "contextual_concept_ids": ["CON-HEM-B25D05070CEF7D"],
+      "concept_ids": [
+        "CON-HEM-FD9869F6DAA9DC"
+      ],
+      "contextual_concept_ids": [
+        "CON-HEM-B25D05070CEF7D"
+      ],
       "topic": "Physiology",
       "subtopic": "Blood — plasma proteins",
       "difficulty": "Moderate",
@@ -224,9 +266,13 @@
       "reasoning_level": 2,
       "learning_objective": "State that oedema, from the fall in plasma colloid osmotic pressure, is the earliest and most important clinical sign of hypoproteinemia.",
       "media_recommendations": "",
-      "field_notes": { "keySource": "printed answer beside option, p.111, Q196" },
+      "field_notes": {
+        "keySource": "printed answer beside option, p.111, Q196"
+      },
       "author_notes": "New mint. contextual_concept_ids names the live albumin/oncotic-pressure concept as the mechanism this sign follows from, without claiming it as a second main_concept.",
-      "library_ids": ["ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"]
+      "library_ids": [
+        "ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"
+      ]
     },
     {
       "key": "q158",
@@ -326,7 +372,44 @@
     },
     {
       "key": "q191",
-      "hold": "Buffering function of plasma proteins (15% of blood's buffering power, histidine imidazole groups) — dense multi-clause biochemistry fact; held pending a dedicated biochemistry-acid-base pass rather than authored from this physiology-lecture page alone, to avoid a shallow or inaccurate restatement of the buffer chemistry."
+      "page": 111,
+      "title": "What plasma proteins buffer blood with",
+      "question": "Plasma proteins contribute about 15% of blood's buffering power through their dissociable acidic and basic groups. The single most important contributor to this buffering capacity is:",
+      "options": {
+        "A": "The imidazole group of histidine residues",
+        "B": "The thiol group of cysteine residues",
+        "C": "The epsilon-amino group of lysine residues",
+        "D": "The carboxyl group of aspartate residues",
+        "E": "The guanidino group of arginine residues"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Histidine's imidazole group has a pKa close to physiological blood pH, which lets it accept and donate protons readily across the pH range blood actually operates in. This is what makes it the single largest contributor to plasma protein buffering, ahead of the other ionisable acidic and basic groups also present on the protein.",
+        "B": "Incorrect. Cysteine's thiol group is mainly involved in disulfide-bond formation for protein structure, not in blood buffering — its pKa is well above physiological pH, so it stays largely undissociated at blood pH.",
+        "C": "Incorrect. Lysine's epsilon-amino group is a basic group and does contribute some buffering capacity, but its pKa is well above physiological pH, so it is far less effective across the blood's actual pH range than histidine's imidazole group.",
+        "D": "Incorrect. Aspartate's carboxyl group is acidic with a pKa well below physiological pH, so like lysine's amino group it is largely dissociated (not buffering) at blood pH — histidine's imidazole group, with its pKa close to blood pH, is the dominant contributor.",
+        "E": "Incorrect. Arginine's guanidino group is strongly basic with a very high pKa, so it stays almost entirely protonated at blood pH and contributes little to buffering there — histidine's imidazole group is the dominant contributor."
+      },
+      "main_concept": "CON-HEM-ACFD5A39EBBED6",
+      "concept_ids": [
+        "CON-HEM-ACFD5A39EBBED6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Blood — plasma proteins",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that plasma proteins provide about 15% of blood's buffering power, and identify histidine's imidazole group as the residue mainly responsible.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer beside option, p.111, Q191"
+      },
+      "author_notes": "New mint (CON-HEM-ACFD5A39EBBED6) — the previous pass in this lane (plasma-protein-lecture5 cluster) held this fact for a dedicated pass rather than authoring it thin; this addendum is that pass. B-E distractors are the other ionisable amino-acid side chains, written to test the pKa-proximity reasoning rather than bare recall.",
+      "library_ids": [
+        "ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"
+      ]
     },
     {
       "key": "q192",
@@ -350,7 +433,44 @@
     },
     {
       "key": "q198",
-      "hold": "Plasma proteins in iron homeostasis (haptoglobin, transferrin, ferritin) — haptoglobin's specific hemoglobin-binding/iron-conservation role is a genuine new fact but multi-part and better suited to a dedicated haemolysis/haptoglobin pass than a bare list-recall item from this page alone; held rather than authored thin."
+      "page": 111,
+      "title": "Haptoglobin's specific role in iron homeostasis",
+      "question": "Haptoglobin, transferrin and ferritin are all plasma proteins involved in iron homeostasis. Haptoglobin's own specific role is to:",
+      "options": {
+        "A": "Carry iron directly in the plasma",
+        "B": "Store iron intracellularly in tissues",
+        "C": "Bind free plasma haemoglobin released by haemolysis, conserving its iron for recycling",
+        "D": "Transport vitamin B12 in the plasma",
+        "E": "Regulate intestinal iron absorption"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Carrying iron directly in the plasma is transferrin's role, not haptoglobin's — haptoglobin instead binds free haemoglobin, not free iron itself.",
+        "B": "Incorrect. Intracellular iron storage is ferritin's (and apoferritin's) role, not haptoglobin's.",
+        "C": "Correct. Haptoglobin binds free haemoglobin released into the plasma when red cells haemolyse, forming a haemoglobin-haptoglobin complex that the liver clears rather than the kidneys excreting it. This conserves the iron in that haemoglobin for recycling, and is also why a fall in plasma haptoglobin is used clinically as a marker of intravascular haemolysis — the complex is consumed faster than the liver can replace free haptoglobin.",
+        "D": "Incorrect. Vitamin B12 transport in the plasma is transcobalamin's role, not haptoglobin's, and is unrelated to iron homeostasis.",
+        "E": "Incorrect. Intestinal iron absorption is regulated by mechanisms such as hepcidin, not by haptoglobin, which acts in the plasma after haemolysis rather than at the gut."
+      },
+      "main_concept": "CON-HEM-7DA8C7139BBB7D",
+      "concept_ids": [
+        "CON-HEM-7DA8C7139BBB7D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Blood — plasma proteins",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that haptoglobin binds free plasma haemoglobin from haemolysis to conserve its iron, distinct from transferrin's plasma iron-carrying role and ferritin's intracellular iron-storage role.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed list, p.111, Q198 (haptoglobin/transferrin/ferritin, no lettered options in source — a genuine teaching MCQ was written around haptoglobin's distinguishing mechanism)"
+      },
+      "author_notes": "New mint (CON-HEM-7DA8C7139BBB7D) — the previous pass in this lane held this fact (\"multi-part, better suited to a dedicated haemolysis/haptoglobin pass\") rather than authoring it thin; this addendum is that dedicated pass, testing haptoglobin's mechanism against the other two named proteins as distractors rather than as a bare list-recall item.",
+      "library_ids": [
+        "ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS"
+      ]
     }
   ]
 }

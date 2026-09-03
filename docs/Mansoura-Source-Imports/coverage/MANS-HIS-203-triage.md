@@ -236,6 +236,21 @@ from the disease-specific hypersensitivity concepts already live/pending.
   (pages ~55-176 per its own table of contents) and ~100 remaining per-lecture HIS files
   are catalogued (manifest) but not yet triaged — next pass for this module once triage
   resumes past Phase-0.
+- RESOLVED 2026-09-03 by MANS-HIS-203-author5 (this pass): the plasma-protein-lecture5
+  cluster's two deferred holds — q191 (buffering function, 15% of blood's buffering power
+  via histidine's imidazole group) and q198 (haptoglobin's role in iron homeostasis,
+  distinct from transferrin/ferritin) — were each minted a dedicated concept
+  (`CON-HEM-ACFD5A39EBBED6`, `CON-HEM-7DA8C7139BBB7D`) and authored as full MCQs,
+  reusing the same `ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS` article (extended
+  with a new subsection). `find-existing.mjs` found only partial-overlap hits for both
+  (a generic AU-MED-102 amino-acid-buffering concept; an Assiut acute-phase-reactant
+  list mentioning haptoglobin) — neither covers the specific fact tested here, so both
+  were new mints, not reuses. Gate: `medical:batch --with` errors=[]; positional
+  `medical:simulate` against real live state — created 66/60/2/8, rejected 0, errors=[]
+  throughout. Ledger regenerated (plasma-protein-lecture5: 6→8 authored, 31→29 held).
+  Next open frontier for this module: the ~100 still-uncatalogued per-lecture HIS bank
+  files, and the Parasitology/Physiology-beyond-p.176/Biochemistry/Pharmacology sections
+  of the compiled book not yet covered by author2-4's passes.
 - Concept #13 (B/T lymphocyte function) RESOLVED 2026-09-02: matches AU-authored pending
   concept `CON-HEM-FDAC2D5F64032E` (`lymphocyte-types-t-b-and-nk-and-the-immunity-each-
   mediates`, in `Alexandria-Source-Imports/concept/AU-MED-103-histology-concepts.md`) —

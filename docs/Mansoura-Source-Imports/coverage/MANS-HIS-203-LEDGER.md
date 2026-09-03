@@ -456,7 +456,7 @@
 | pharmacology-iron-b12 | 3 | 0 | 0 | 3 |
 | physiology-erythropoiesis-extra | 4 | 0 | 0 | 4 |
 | physiology-refrange | 9 | 0 | 0 | 9 |
-| plasma-protein-lecture5 | 6 | 31 | 0 | 37 |
+| plasma-protein-lecture5 | 8 | 29 | 0 | 37 |
 | plasma-proteins-and-erythropoiesis-extra | 7 | 0 | 0 | 7 |
 | platelets | 8 | 0 | 0 | 8 |
 | reticulocyte | 3 | 0 | 0 | 3 |
@@ -532,13 +532,11 @@
 - q187 — Near-duplicate of q177/q161's albumin oncotic-pressure fact, folded into q161.
 - q189 — 'Carrier function of plasma protein = reservoir for the carried substance' — vague conceptual restatement with no new distinguishable fact beyond the already-authored named-carrier facts (transferrin, transcobalamin) elsewhere in this module.
 - q190 — Literal duplicate of q188's fibrinogen-viscosity fact, folded into q188.
-- q191 — Buffering function of plasma proteins (15% of blood's buffering power, histidine imidazole groups) — dense multi-clause biochemistry fact; held pending a dedicated biochemistry-acid-base pass rather than authored from this physiology-lecture page alone, to avoid a shallow or inaccurate restatement of the buffer chemistry.
 - q192 — Near-duplicate of q177/q161's albumin oncotic-pressure fact, folded into q161.
 - q193 — Colloidal osmotic pressure of plasma ~28 mmHg — a same-numeric-value concept already exists in the corpus in a pulmonary-capillary-fluid-balance context (Kasr 104-CPS-physiology-concepts.md); held rather than risk authoring a conflicting or redundant standalone plasma-only version this pass.
 - q194 — Iron carried by transferrin — literal duplicate of the already-authored 'Form in which plasma protein carries iron' question in plasma-proteins-and-erythropoiesis-extra-mcq.md.
 - q195 — Vitamin B12 carried by transcobalamin — literal duplicate of the already-authored 'Plasma protein that carries vitamin B12' question in plasma-proteins-and-erythropoiesis-extra-mcq.md.
 - q197 — Summary list of plasma protein functions (volume control, hormone transport, CO2 carriage) — a redundant roll-up of facts already covered individually (oncotic pressure, carrier roles); no new distinguishable teaching point.
-- q198 — Plasma proteins in iron homeostasis (haptoglobin, transferrin, ferritin) — haptoglobin's specific hemoglobin-binding/iron-conservation role is a genuine new fact but multi-part and better suited to a dedicated haemolysis/haptoglobin pass than a bare list-recall item from this page alone; held rather than authored thin.
 
 ## Remaining
 - (x2 questions), CON-HEM-121DCA556B6311, CON-HEM-A940AB960A5C0D — directly, no overlay);

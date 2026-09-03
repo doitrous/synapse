@@ -11682,3 +11682,366 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 
 ---
+# Item
+
+## label
+Plasma proteins provide about 15% of blood's buffering power, mainly through dissociation of the imidazole group on histidine residues
+
+## id
+CON-HEM-ACFD5A39EBBED6
+
+## canonical_key
+plasmaprotein.buffering.histidine-imidazole-mechanism
+
+## aliases
+Plasma protein buffering
+Histidine imidazole buffering
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Plasma proteins act as blood buffers because their free acidic (carboxyl, -COOH) and basic (amino, -NH2) groups can dissociate to form a proteinic-acid/sodium-proteinate pair, and together they account for about 15% of the blood's total buffering power (behind the bicarbonate and haemoglobin systems). The single most important contributor to this buffering capacity is the imidazole group of histidine residues within the protein, because its pKa sits close to physiological blood pH, letting it accept and donate protons readily across the pH range blood actually operates in.
+
+## explicit_objective
+State that plasma proteins contribute about 15% of blood's buffering power via their dissociable acidic/basic groups, and identify histidine's imidazole group as the specific residue mainly responsible for that buffering capacity.
+
+## pitfalls
+Attributing plasma protein buffering to a generic side chain (e.g. a carboxyl or amino group in isolation) rather than to histidine's imidazole group specifically — the imidazole group is singled out because its pKa is closest to physiological pH, which is what makes it the dominant contributor among the many ionisable groups present.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Plasma proteins
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p111 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+About the buffering function of plasma proteins: it is responsible for 15% of the buffering power of the blood... An important cause accounting for its buffering function is the dissociation of imidazole group of histidine residues in proteins.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology/biochemistry reference not yet cross-checked against this department-book framing; the 15% figure and the histidine-imidazole mechanism are standard textbook material.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found beyond the pending generic AU-MED-102 protein-buffering concept (protein.function.buffering-acidic-basic-groups), which covers amino-acid buffering in general rather than this plasma-specific, histidine-imidazole-focused fact — not merged, since the two teach distinguishable points.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: `mint-concept-id.mjs` and `find-existing.mjs "buffering"` / "histidine imidazole" run before minting; "buffering" hit the generic AU-MED-102 protein-buffering concept (not a duplicate of this plasma-specific, quantified fact) and "histidine imidazole" returned no rival record — safe to create.
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Haptoglobin binds free plasma haemoglobin released by haemolysis and routes the complex to the liver for degradation, conserving its iron — distinct from transferrin's role carrying iron and ferritin's role storing it
+
+## id
+CON-HEM-7DA8C7139BBB7D
+
+## canonical_key
+haptoglobin.iron-conservation-in-haemolysis
+
+## aliases
+Haptoglobin and iron homeostasis
+Haemoglobin-haptoglobin complex
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Haptoglobin is a plasma protein involved in iron homeostasis, alongside transferrin (which carries iron in the plasma) and ferritin (which stores iron intracellularly). Haptoglobin's own specific role is to bind free haemoglobin released into the plasma when red cells haemolyse, forming a haemoglobin-haptoglobin complex that is cleared by the liver (and reticuloendothelial system) rather than lost via the kidneys — this conserves the iron in that free haemoglobin for recycling instead of it being excreted, and a fall in plasma haptoglobin is a clinical marker of intravascular haemolysis because the complex is consumed faster than the liver can replace free haptoglobin.
+
+## explicit_objective
+Distinguish haptoglobin's role (binding free plasma haemoglobin from haemolysis to conserve its iron) from transferrin's role (carrying iron in the plasma) and ferritin's role (intracellular iron storage) among the plasma proteins involved in iron homeostasis.
+
+## pitfalls
+Confusing haptoglobin's haemoglobin-binding, iron-conservation role with transferrin's direct iron-carrying role — the two are both listed as iron-homeostasis plasma proteins but act on different molecules (haptoglobin binds free haemoglobin; transferrin binds free iron itself).
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Physiology
+
+## subtopic
+Blood — plasma proteins
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Plasma proteins
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p111 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-PLASMA-PROTEIN-SYNTHESIS-CARRIERS
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Plasma protein involved in iron homeostasis: Haptoglobin, Transferrin, Ferritin [list item, no lettered options]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology/biochemistry reference not yet cross-checked against this department-book framing; haptoglobin's haemoglobin-binding role and use as a haemolysis marker are standard textbook material.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; the one hit found (Assiut's AUN-CBF-103-concepts-2.md listing haptoglobin as an acute-phase reactant) covers a different fact (inflammation response, not iron-conservation mechanism) and is a different university's pending batch, not merged.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: `mint-concept-id.mjs` and `find-existing.mjs "haptoglobin"` run before minting; the one hit (Assiut acute-phase-reactant list) tests a different fact — safe to create.
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
