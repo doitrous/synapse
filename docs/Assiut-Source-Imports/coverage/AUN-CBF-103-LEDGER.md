@@ -1,5 +1,25 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
+| Quiz11&12-Q1 p34 key=b HELD (True/False, not SBA-shape) lipid-soluble molecules cannot diffuse through the plasma membrane (false) | 0 | 0 | 1 | 1 |
+| Quiz21-Q1 p79 key=multi-select HELD (select-all format, not single-best-answer) respiratory chain found in all cells / located in mitochondrion / enzymes in inner membrane | 0 | 0 | 1 | 1 |
+| Quiz21-Q10 p84 key=multi-select HELD (select-all format, not single-best-answer) oxidative phosphorylation needs proton gradient, catalysed by ATP synthase, interrupted by uncoupling proteins | 0 | 0 | 1 | 1 |
+| Quiz21-Q11 p84 key=multi-select HELD (select-all format, not single-best-answer) NADH+H+ oxidation yields more ATP than FADH2 via higher proton gradient and different complex entry | 0 | 0 | 1 | 1 |
+| Quiz21-Q12 p85 key=multi-select HELD (select-all format, not single-best-answer) RCH/ATP synthesis regulation: increased NADH/NAD+ increases pathway, decreased O2 decreases pathway | 0 | 0 | 1 | 1 |
+| Quiz21-Q2 p80 key=multi-select HELD (select-all format, not single-best-answer) respiratory chain belongs among oxidative pathways / needs oxygen | 0 | 0 | 1 | 1 |
+| Quiz21-Q3 p80 key=multi-select HELD (select-all format, not single-best-answer) RCH enzymes are oxidoreductases / transfer H or electrons / called complex I-IV | 0 | 0 | 1 | 1 |
+| Quiz21-Q4 p81 key=multi-select HELD (select-all format, not single-best-answer) function of RCH = regenerate NAD+/FAD, finish oxidation, conserve energy as ATP | 0 | 0 | 1 | 1 |
+| Quiz21-Q5 p81 key=multi-select HELD (select-all format, not single-best-answer) RCH reactions: O2 reduced to H2O, protons transferred to intermembrane space | 0 | 0 | 1 | 1 |
+| Quiz21-Q6 p82 key=multi-select HELD (select-all format, not single-best-answer) complex I transfers H+, CoQ accepts e- from complex I and II, complex IV transfers e- to O2 | 0 | 0 | 1 | 1 |
+| Quiz21-Q7 p82 key=multi-select HELD (select-all format, not single-best-answer) citrate cycle and RCH interconnected by NADH and succinate dehydrogenase | 0 | 0 | 1 | 1 |
+| Quiz21-Q8 p83 key=multi-select HELD (select-all format, not single-best-answer) ATP transported by ADP exchange and formed by addition of one phosphate to ADP | 0 | 0 | 1 | 1 |
+| Quiz21-Q9 p83 key=multi-select HELD (select-all format, not single-best-answer) oxidative/aerobic/substrate-level phosphorylation all mean ATP synthesis except plain \"phosphorylation\" | 0 | 0 | 1 | 1 |
+| Quiz22-Q10 p90 key=False HELD (True/False, not SBA-shape) free radicals are NOT completely hazardous with no beneficial effect (false) | 0 | 0 | 1 | 1 |
+| Quiz22-Q11 p90 key=True HELD (True/False, not SBA-shape) albumin is considered a secondary antioxidant | 0 | 0 | 1 | 1 |
+| Quiz22-Q5 p88 key=a HELD (cap, keyed) all of the following are preventive antioxidants EXCEPT vitamin C | 0 | 0 | 1 | 1 |
+| Quiz22-Q6 p89 key=d HELD (cap, keyed) WBC enzymes forming ROS to kill = NADPH oxidase and myeloperoxidase | 0 | 0 | 1 | 1 |
+| Quiz22-Q7 p89 key=b HELD (cap, keyed) tertiary antioxidant = DNA repair enzymes | 0 | 0 | 1 | 1 |
+| Quiz22-Q8 p89 key=a HELD (cap, keyed) malondialdehyde is a lipid-derived free radical | 0 | 0 | 1 | 1 |
+| Quiz22-Q9 p90 key=True HELD (True/False, not SBA-shape) iron is a transitional metal that increases formation of free radicals | 0 | 0 | 1 | 1 |
 | Quiz3&6-Q3 p2 key=e HELD (near-dup of Q4's classification axis, cap) only ketogenic amino acid = leucine | 0 | 0 | 1 | 1 |
 | Quiz3&6-Q4 p2 key=b HELD (cap) neutral amino acid with aliphatic side chain = leucine | 0 | 0 | 1 | 1 |
 | Quiz3&6-Q7 p4-5 key=a HELD (near-dup of Q4, same beta-sheet fact via a different vignette) amyloidosis fibrils = beta-pleated sheet | 0 | 0 | 1 | 1 |
@@ -9,22 +29,42 @@
 | Quiz7&8-Q32 p22 key=c HELD (near-verbatim dup of cbfquiz-q26/Q17, cap) PLP is required as coenzyme in transamination | 0 | 0 | 1 | 1 |
 | Quiz7&8-Q33 p23 key=b HELD (near-verbatim dup of cbfquiz-q29/Q20, cap) biotin required as coenzyme by carboxylases | 0 | 0 | 1 | 1 |
 | Quiz7&8-Q34 p23 key=a HELD (near-verbatim dup of cbfquiz-q36/Q27's B12 half, cap) methylcobalamin required to form methionine from homocysteine | 0 | 0 | 1 | 1 |
-| Quiz7&8-Q35 p23 key=a REMAINING (keyed, not authored this pass) B12 absorption requires intrinsic factor | 0 | 0 | 1 | 1 |
-| Quiz7&8-Q36 p23 key=d REMAINING intrinsic factor is chemically a glycoprotein | 0 | 0 | 1 | 1 |
-| Quiz7&8-Q37 p24 key=d REMAINING B12 deficiency causes: all of intestinal malabsorption/gastric atrophy/low intake | 0 | 0 | 1 | 1 |
-| Quiz7&8-Q38 p24 key=a REMAINING ascorbic acid required for synthesis of all listed EXCEPT bile pigments | 0 | 0 | 1 | 1 |
-| Quiz7&8-Q39 p24 key=c REMAINING vitamin C enhances intestinal iron absorption | 0 | 0 | 1 | 1 |
-| Quiz7&8-Q40 p25 key=c REMAINING vitamin B12 is the cyanide-containing form (cyanocobalamin) | 0 | 0 | 1 | 1 |
-| Quiz7&8-Q41 p25 key=b REMAINING pyridoxine deficiency convulsions attributed to reduced GABA synthesis | 0 | 0 | 1 | 1 |
-| Quiz7&8-Q42 p25 key=d REMAINING pellagra's classic triad = diarrhoea, dermatitis and dementia | 0 | 0 | 1 | 1 |
-| Quiz7&8-Q43 p26 key=a REMAINING thiamine is the sulphur-containing B vitamin | 0 | 0 | 1 | 1 |
-| Quiz7&8-Q44 p26 key=a REMAINING lemon is a rich source of vitamin C | 0 | 0 | 1 | 1 |
-| Quiz9-10-Q2 p29 key=c REMAINING (keyed, not authored this pass) irreversible inhibition unaffected by raising substrate concentration | 0 | 0 | 1 | 1 |
-| Quiz9-10-Q3 p29 key=d REMAINING enzymes do not themselves provide activation energy (false-statement item) | 0 | 0 | 1 | 1 |
-| Quiz9-10-Q4 p29 key=d REMAINING enzyme-substrate relationship = temporary association | 0 | 0 | 1 | 1 |
-| Quiz9-10-Q5 p30 key=b REMAINING active site differs from an antibody's binding site by catalysing a reaction | 0 | 0 | 1 | 1 |
-| Quiz9-10-Q6 p30 key=c REMAINING molecular weight does not affect rate of enzymatic reaction | 0 | 0 | 1 | 1 |
-| Quiz9-10-Q7 p30 key=c REMAINING enzyme concentration remains constant in a rate-vs-[S] plot | 0 | 0 | 1 | 1 |
+| QuizCarb-Q1 p37 key=True HELD (True/False, not SBA-shape) lactate/pyruvate may be reconverted to glucose via Cori cycle | 0 | 0 | 1 | 1 |
+| QuizCarb-Q15 p48-49 key=c HELD (cap, keyed) all of the following are inhibitors of phosphofructokinase EXCEPT cyclic AMP | 0 | 0 | 1 | 1 |
+| QuizCarb-Q16 p49-50 key=b HELD (cap, keyed) all of the following about glycolysis is true EXCEPT CO2 is produced | 0 | 0 | 1 | 1 |
+| QuizCarb-Q18 p51-52 key=d HELD (cap, keyed) comparison between hexokinase and glucokinase that is false = only glucokinase is present in the brain | 0 | 0 | 1 | 1 |
+| QuizCarb-Q19 p53 key=b HELD (cap, keyed) arsenate decreases ATP produced from glycolysis by two ATP | 0 | 0 | 1 | 1 |
+| QuizCarb-Q2 p37 key=True HELD (True/False, not SBA-shape) pyruvate may be converted from lactate if oxygen is available | 0 | 0 | 1 | 1 |
+| QuizCarb-Q20 p53-54 key=c HELD (cap, keyed) pyruvate kinase deficiency increases 2,3-DPG level in RBCs | 0 | 0 | 1 | 1 |
+| QuizCarb-Q21 p54-55 key=e HELD (cap, keyed) glyceraldehyde-3-phosphate dehydrogenase is the only enzyme that adds inorganic phosphate in glycolysis | 0 | 0 | 1 | 1 |
+| QuizCarb-Q22 p55-56 key=d HELD (cap, keyed) GLUT-1 characterized by all of the following EXCEPT low affinity | 0 | 0 | 1 | 1 |
+| QuizCarb-Q3 p38 key=False HELD (True/False, not SBA-shape) pyruvate-to-lactate is NOT catalysed by pyruvate dehydrogenase | 0 | 0 | 1 | 1 |
+| QuizCarb-Q4 p38 key=False HELD (True/False, not SBA-shape) lactic acidosis is not caused by decreased lactate level | 0 | 0 | 1 | 1 |
+| QuizCarb-Q5 p39 key=True HELD (True/False, not SBA-shape) lactate production regenerates oxidised NAD+ | 0 | 0 | 1 | 1 |
+| QuizCarb-Q8 p64-65 key=UNRECOVERABLE HELD (OCR page-break truncation: options c-e and the printed answer for the RQ-EXCEPT item fell across the p64/p65 boundary and were not captured) concerning respiratory quotient, the following are true except | 0 | 0 | 1 | 1 |
+| QuizDNARNA-Q1 p66 key=e HELD (cap, keyed) RNA distinguished from DNA by susceptibility to alkaline hydrolysis (2'-OH) | 0 | 0 | 1 | 1 |
+| QuizDNARNA-Q4 p68-69 key=e HELD (cap, keyed) colinearity of mature mRNA sequence and encoded protein's amino acid sequence | 0 | 0 | 1 | 1 |
+| QuizDNARNA-Q5 p70 key=c HELD (cap, keyed) RNA polymerase binds sequences upstream of the transcription start site | 0 | 0 | 1 | 1 |
+| QuizMetRate-Q1 p60 key=fill-in HELD (fill-in-the-blank, not SBA-shape) respiratory quotient = CO2 produced / O2 consumed | 0 | 0 | 1 | 1 |
+| QuizMetRate-Q10 p65 key=c HELD (cap, keyed) basal metabolic rate = largest component of daily energy expenditure in a sedentary individual | 0 | 0 | 1 | 1 |
+| QuizMetRate-Q2 p60 key=fill-in HELD (fill-in-the-blank, not SBA-shape) respiratory quotient for fat = 0.7 | 0 | 0 | 1 | 1 |
+| QuizMetRate-Q3 p61 key=fill-in HELD (fill-in-the-blank, not SBA-shape) gluconeogenesis produces respiratory quotient below 1 | 0 | 0 | 1 | 1 |
+| QuizMetRate-Q4 p61 key=fill-in HELD (fill-in-the-blank, not SBA-shape) excess RQ below unity indicates fat fuel source during exercise | 0 | 0 | 1 | 1 |
+| QuizMetRate-Q5 p62 key=fill-in HELD (fill-in-the-blank, not SBA-shape) excess RQ of unity indicates short-duration exercise | 0 | 0 | 1 | 1 |
+| QuizMetRate-Q6 p62-63 key=table HELD (table-matrix answer format, not clean single-letter SBA) growth hormone/fever/sleep/malnutrition effect on metabolic rate | 0 | 0 | 1 | 1 |
+| QuizMetRate-Q7 p64 key=b HELD (cap, keyed) oxygen consumption tends to decrease when metabolic rate falls | 0 | 0 | 1 | 1 |
+| QuizMetRate-Q8 p64-65 key=UNRECOVERABLE HELD (OCR page-break truncation: this item's own stem/options/answer fell across the p64/p65 boundary along with QuizCarb-Q8 above) concerning respiratory quotient, the following are true except | 0 | 0 | 1 | 1 |
+| QuizMetRate-Q9 p65 key=d HELD (cap, keyed) basal metabolic rate decreased by 40% in starvation | 0 | 0 | 1 | 1 |
+| QuizObesity-Q1 p72 key=fill-in HELD (fill-in-the-blank, not SBA-shape) leptin is released from fat cells | 0 | 0 | 1 | 1 |
+| QuizObesity-Q10 p78 key=a HELD (cap, keyed) neuropeptide Y injected into hypothalamus produces prolonged increase in food intake | 0 | 0 | 1 | 1 |
+| QuizObesity-Q2 p72 key=fill-in HELD (fill-in-the-blank, not SBA-shape) obesity diagnosed when BMI above 30 kg/m2 | 0 | 0 | 1 | 1 |
+| QuizObesity-Q3 p73 key=fill-in HELD (fill-in-the-blank, not SBA-shape) ventromedial nucleus = satiety centre, lateral nucleus = feeding centre | 0 | 0 | 1 | 1 |
+| QuizObesity-Q4 p73 key=fill-in HELD (fill-in-the-blank, not SBA-shape) types of obesity = hyperplastic, hypertrophic | 0 | 0 | 1 | 1 |
+| QuizObesity-Q5 p74 key=fill-in HELD (fill-in-the-blank, not SBA-shape) ghrelin is called the hunger hormone | 0 | 0 | 1 | 1 |
+| QuizObesity-Q6 p74 key=c HELD (cap, keyed) statement wrong about obesity = unlikely on a high-protein diet even if calorific value exceeds expenditure | 0 | 0 | 1 | 1 |
+| QuizObesity-Q7 p75 key=c HELD (cap, keyed) all true regarding obesity EXCEPT usually due to an endocrine disorder | 0 | 0 | 1 | 1 |
+| QuizObesity-Q8 p76 key=a HELD (cap, keyed) increased body fat increases all of the following EXCEPT specific gravity of the body | 0 | 0 | 1 | 1 |
+| QuizObesity-Q9 p76-77 key=b HELD (cap, keyed) leptin resistance = high leptin concentrations without reduction in energy intake | 0 | 0 | 1 | 1 |
 | cbf-bank-new | 18 | 0 | 0 | 18 |
 | cbf-bank-pending-102int | 7 | 0 | 0 | 7 |
 | cbf-bank-pending-102int-2 | 6 | 0 | 0 | 6 |
@@ -167,8 +207,8 @@
 | cbf-bank-q31-80-new | 23 | 0 | 0 | 23 |
 | cbf-bank-q81-132-new | 28 | 0 | 0 | 28 |
 | cbfquiz-new | 18 | 0 | 0 | 18 |
-| cbfquiz-pending-103bms | 21 | 0 | 0 | 21 |
-| cbfquiz-pending-asuibm | 1 | 0 | 0 | 1 |
+| cbfquiz-pending-103bms | 37 | 0 | 0 | 37 |
+| cbfquiz-pending-asuibm | 3 | 0 | 0 | 3 |
 | cbfquiz-q01 Quiz3&6 p1 key=a  essential amino acid under growth/surgical-recovery stress = arginine -- new CON-FND-0B3EDEDA3E7646 | 0 | 0 | 1 | 1 |
 | cbfquiz-q02 Quiz3&6 p2 key=d  alpha-helix H-bonds between carbonyl O and amide H of different peptide bonds -- new CON-FND-1F2201622F1E93 | 0 | 0 | 1 | 1 |
 | cbfquiz-q03 Quiz3&6 p3 key=d  sulphur-containing amino acid = methionine -- new CON-FND-E05A3006C73A8C | 0 | 0 | 1 | 1 |
@@ -209,11 +249,81 @@
 | cbfquiz-q38 Quiz7&8 p21 key=b  folate coenzyme transfers single-carbon moieties -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
 | cbfquiz-q39 Quiz7&8 p21 key=a  folate deficiency causes megaloblastic anaemia -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
 | cbfquiz-q40 Quiz7&8 p22 key=d  riboflavin deficiency causes angular stomatitis -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz2-new | 13 | 0 | 0 | 13 |
+| cbfquiz2-pending-102int | 10 | 0 | 0 | 10 |
+| cbfquiz2-pending-alexmolbio | 3 | 0 | 0 | 3 |
+| cbfquiz2-pending-kasrphysio | 2 | 0 | 0 | 2 |
+| cbfquiz2-q01 Quiz9-10 p29 key=c  irreversible inhibition unaffected by raising substrate concentration -- reused CON-FND-42EE1863F04920 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q02 Quiz9-10 p29 key=d  enzymes do not themselves provide activation energy (false-statement item) -- reused CON-FND-5846431203789F | 0 | 0 | 1 | 1 |
+| cbfquiz2-q03 Quiz9-10 p29 key=d  enzyme-substrate relationship = temporary association -- reused CON-FND-D17966222A3693 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q04 Quiz9-10 p30 key=b  active site differs from an antibody's binding site by catalysing a reaction -- reused CON-FND-D17966222A3693 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q05 Quiz9-10 p30 key=c  molecular weight does not affect rate of enzymatic reaction -- reused CON-FND-F29934C070A94C | 0 | 0 | 1 | 1 |
+| cbfquiz2-q06 Quiz9-10 p30 key=c  enzyme concentration remains constant in a rate-vs-[S] plot -- reused CON-FND-F29934C070A94C | 0 | 0 | 1 | 1 |
+| cbfquiz2-q07 Quiz7&8 p23 key=a  B12 absorption requires intrinsic factor -- reused CON-FND-E9418C0A160C8E | 0 | 0 | 1 | 1 |
+| cbfquiz2-q08 Quiz7&8 p23 key=d  intrinsic factor is chemically a glycoprotein -- reused CON-FND-E9418C0A160C8E | 0 | 0 | 1 | 1 |
+| cbfquiz2-q09 Quiz7&8 p24 key=d  B12 deficiency causes: all of intestinal malabsorption/gastric atrophy/low intake -- reused CON-FND-E9418C0A160C8E | 0 | 0 | 1 | 1 |
+| cbfquiz2-q10 Quiz7&8 p24 key=a  ascorbic acid required for synthesis of all listed EXCEPT bile pigments -- reused CON-FND-115161771B581B | 0 | 0 | 1 | 1 |
+| cbfquiz2-q11 Quiz7&8 p24 key=c  vitamin C enhances intestinal iron absorption -- reused CON-FND-115161771B581B | 0 | 0 | 1 | 1 |
+| cbfquiz2-q12 Quiz7&8 p25 key=c  vitamin B12 is the cyanide-containing form (cyanocobalamin) -- reused CON-FND-E9418C0A160C8E | 0 | 0 | 1 | 1 |
+| cbfquiz2-q13 Quiz7&8 p25 key=b  pyridoxine deficiency convulsions attributed to reduced GABA synthesis -- reused CON-FND-DBD5091832BBDE | 0 | 0 | 1 | 1 |
+| cbfquiz2-q14 Quiz7&8 p25 key=d  pellagra's classic triad = diarrhoea, dermatitis and dementia -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz2-q15 Quiz7&8 p26 key=a  thiamine is the sulphur-containing B vitamin -- reused CON-FND-C9E5128193029E | 0 | 0 | 1 | 1 |
+| cbfquiz2-q16 Quiz7&8 p26 key=a  lemon is a rich source of vitamin C -- reused CON-FND-115161771B581B | 0 | 0 | 1 | 1 |
+| cbfquiz2-q17 Quiz9-10 p31 key=d  factor giving a straight-line rate plot = enzyme concentration (printed \"Enzyme reaction\", read pedagogically) -- reused CON-FND-F29934C070A94C | 0 | 0 | 1 | 1 |
+| cbfquiz2-q18 Quiz9-10 p31 key=a  temperature increases rate till optimum then decreases -- reused CON-FND-F29934C070A94C | 0 | 0 | 1 | 1 |
+| cbfquiz2-q19 Quiz9-10 p31 key=a  activators increase rate of reaction -- reused CON-FND-F29934C070A94C | 0 | 0 | 1 | 1 |
+| cbfquiz2-q20 Quiz9-10 p32 key=b  inhibitors are always inversely proportional to rate -- reused CON-FND-F29934C070A94C | 0 | 0 | 1 | 1 |
+| cbfquiz2-q21 Quiz9-10 p32 key=b  raised LDH1 relative to LDH2 indicates myocardial infarction -- reused CON-FND-DD3EE5EC8C07D1 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q22 Quiz9-10 p32 key=a  multiple forms of the same enzyme = isoenzyme -- reused CON-FND-DD3EE5EC8C07D1 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q23 Quiz11&12 p34 key=c  fat-soluble molecules enter a cell by dissolving in the lipid layer, diffusion -- reused CON-NEU-1D5DC2D67A5291 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q24 Quiz11&12 p35 key=b  rate of diffusion increases if number of protein channels increases -- reused CON-NEU-1D5DC2D67A5291 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q25 Quiz11&12 p35 key=a  1.0% NaCl is hypertonic for red blood cells -- new CON-FND-08A3DBFA90D950 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q26 QuizCarb p39-40 key=e  GLUT-4 defect in insulin-resistant T2DM affects muscle -- reused CON-FND-E9C3C98FA0388C | 0 | 0 | 1 | 1 |
+| cbfquiz2-q27 QuizCarb p40-41 key=d  PET tracer trapped in cell by hexokinase phosphorylation -- reused CON-FND-EA1BA37ACB643B | 0 | 0 | 1 | 1 |
+| cbfquiz2-q28 QuizCarb p41-42 key=b  lactate forms when NADH/NAD+ ratio is high -- reused CON-FND-403D06D1FB129F | 0 | 0 | 1 | 1 |
+| cbfquiz2-q29 QuizCarb p43 key=b  glucokinase Km is above fasting blood glucose concentration -- reused CON-FND-EA1BA37ACB643B | 0 | 0 | 1 | 1 |
+| cbfquiz2-q30 QuizCarb p44 key=e  vigorous muscle contraction increases reduction of pyruvate to lactate -- reused CON-FND-403D06D1FB129F | 0 | 0 | 1 | 1 |
+| cbfquiz2-q31 QuizCarb p44-45 key=b  liver glucose uptake by facilitated diffusion via a transporter -- reused CON-FND-E9C3C98FA0388C | 0 | 0 | 1 | 1 |
+| cbfquiz2-q32 QuizCarb p45-46 key=b  substrate for aldolase = fructose 1,6-bisphosphate -- reused CON-FND-853096A349FFBD | 0 | 0 | 1 | 1 |
+| cbfquiz2-q33 QuizCarb p46-47 key=a  anaerobic-glycolysis ATP from 1,3-DPG to 3-PG conversion -- reused CON-FND-5253967A0E3786 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q34 QuizCarb p48 key=b  fluoride inhibits enolase in glycolysis -- reused CON-FND-0D6BFD870813B7 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q35 QuizTCA p57 key=a  amphibolic pathway = citric acid cycle -- reused CON-FND-8ADE222FBB57B2 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q36 QuizTCA p57 key=d  anaplerotic carboxylation of pyruvate maintains oxaloacetate -- reused CON-FND-CA0F9E019BC5BA | 0 | 0 | 1 | 1 |
+| cbfquiz2-q37 QuizTCA p58 key=b  PDH/alpha-KGDH require CoASH, TPP, NAD+, FAD, lipoate -- reused CON-FND-229C78C9EB0E78 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q38 QuizTCA p58-59 key=c  TCA cycle continuity requires regeneration of oxaloacetate -- reused CON-FND-8F8B3EF0763399 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q39 QuizTCA p59 key=d  succinate to fumarate dehydrogenation requires flavoprotein (FAD) -- reused CON-FND-BCCBDEC637795A | 0 | 0 | 1 | 1 |
+| cbfquiz2-q40 QuizDNARNA p67 key=c  alpha-amanitin inhibits RNA Pol II, blocking mRNA synthesis -- reused CON-FND-412F3EDF118F44 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q41 QuizDNARNA p68 key=d  intron removal from mRNA precursors carried out by spliceosomes -- reused CON-FND-5FF8EB2DB4D662 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q42 QuizDNARNA p70-71 key=d  DNA template strand sequence determines the RNA product sequence -- reused CON-FND-D717E6E7EEA466 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q43 Quiz22 p87 key=d  nitric oxide is NOT an oxygen-derived free radical (ROS) -- new CON-FND-CB46E0408C4FF2 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q44 Quiz22 p87 key=d  carbohydrates cannot form free radicals -- new CON-FND-CB46E0408C4FF2 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q45 Quiz22 p88 key=d  protein glycosylation is NOT an effect of free radicals -- new CON-FND-CB46E0408C4FF2 | 0 | 0 | 1 | 1 |
+| cbfquiz2-q46 Quiz22 p88 key=a  polyunsaturated fatty acids most affected by free radicals -- new CON-FND-CB46E0408C4FF2 | 0 | 0 | 1 | 1 |
 
 ## Held
 (none)
 
 ## Remaining
+- Quiz11&12-Q1 p34 key=b HELD (True/False, not SBA-shape) lipid-soluble molecules cannot diffuse through the plasma membrane (false)
+- Quiz21-Q1 p79 key=multi-select HELD (select-all format, not single-best-answer) respiratory chain found in all cells / located in mitochondrion / enzymes in inner membrane
+- Quiz21-Q10 p84 key=multi-select HELD (select-all format, not single-best-answer) oxidative phosphorylation needs proton gradient, catalysed by ATP synthase, interrupted by uncoupling proteins
+- Quiz21-Q11 p84 key=multi-select HELD (select-all format, not single-best-answer) NADH+H+ oxidation yields more ATP than FADH2 via higher proton gradient and different complex entry
+- Quiz21-Q12 p85 key=multi-select HELD (select-all format, not single-best-answer) RCH/ATP synthesis regulation: increased NADH/NAD+ increases pathway, decreased O2 decreases pathway
+- Quiz21-Q2 p80 key=multi-select HELD (select-all format, not single-best-answer) respiratory chain belongs among oxidative pathways / needs oxygen
+- Quiz21-Q3 p80 key=multi-select HELD (select-all format, not single-best-answer) RCH enzymes are oxidoreductases / transfer H or electrons / called complex I-IV
+- Quiz21-Q4 p81 key=multi-select HELD (select-all format, not single-best-answer) function of RCH = regenerate NAD+/FAD, finish oxidation, conserve energy as ATP
+- Quiz21-Q5 p81 key=multi-select HELD (select-all format, not single-best-answer) RCH reactions: O2 reduced to H2O, protons transferred to intermembrane space
+- Quiz21-Q6 p82 key=multi-select HELD (select-all format, not single-best-answer) complex I transfers H+, CoQ accepts e- from complex I and II, complex IV transfers e- to O2
+- Quiz21-Q7 p82 key=multi-select HELD (select-all format, not single-best-answer) citrate cycle and RCH interconnected by NADH and succinate dehydrogenase
+- Quiz21-Q8 p83 key=multi-select HELD (select-all format, not single-best-answer) ATP transported by ADP exchange and formed by addition of one phosphate to ADP
+- Quiz21-Q9 p83 key=multi-select HELD (select-all format, not single-best-answer) oxidative/aerobic/substrate-level phosphorylation all mean ATP synthesis except plain \"phosphorylation\"
+- Quiz22-Q10 p90 key=False HELD (True/False, not SBA-shape) free radicals are NOT completely hazardous with no beneficial effect (false)
+- Quiz22-Q11 p90 key=True HELD (True/False, not SBA-shape) albumin is considered a secondary antioxidant
+- Quiz22-Q5 p88 key=a HELD (cap, keyed) all of the following are preventive antioxidants EXCEPT vitamin C
+- Quiz22-Q6 p89 key=d HELD (cap, keyed) WBC enzymes forming ROS to kill = NADPH oxidase and myeloperoxidase
+- Quiz22-Q7 p89 key=b HELD (cap, keyed) tertiary antioxidant = DNA repair enzymes
+- Quiz22-Q8 p89 key=a HELD (cap, keyed) malondialdehyde is a lipid-derived free radical
+- Quiz22-Q9 p90 key=True HELD (True/False, not SBA-shape) iron is a transitional metal that increases formation of free radicals
 - Quiz3&6-Q3 p2 key=e HELD (near-dup of Q4's classification axis, cap) only ketogenic amino acid = leucine
 - Quiz3&6-Q4 p2 key=b HELD (cap) neutral amino acid with aliphatic side chain = leucine
 - Quiz3&6-Q7 p4-5 key=a HELD (near-dup of Q4, same beta-sheet fact via a different vignette) amyloidosis fibrils = beta-pleated sheet
@@ -223,22 +333,42 @@
 - Quiz7&8-Q32 p22 key=c HELD (near-verbatim dup of cbfquiz-q26/Q17, cap) PLP is required as coenzyme in transamination
 - Quiz7&8-Q33 p23 key=b HELD (near-verbatim dup of cbfquiz-q29/Q20, cap) biotin required as coenzyme by carboxylases
 - Quiz7&8-Q34 p23 key=a HELD (near-verbatim dup of cbfquiz-q36/Q27's B12 half, cap) methylcobalamin required to form methionine from homocysteine
-- Quiz7&8-Q35 p23 key=a REMAINING (keyed, not authored this pass) B12 absorption requires intrinsic factor
-- Quiz7&8-Q36 p23 key=d REMAINING intrinsic factor is chemically a glycoprotein
-- Quiz7&8-Q37 p24 key=d REMAINING B12 deficiency causes: all of intestinal malabsorption/gastric atrophy/low intake
-- Quiz7&8-Q38 p24 key=a REMAINING ascorbic acid required for synthesis of all listed EXCEPT bile pigments
-- Quiz7&8-Q39 p24 key=c REMAINING vitamin C enhances intestinal iron absorption
-- Quiz7&8-Q40 p25 key=c REMAINING vitamin B12 is the cyanide-containing form (cyanocobalamin)
-- Quiz7&8-Q41 p25 key=b REMAINING pyridoxine deficiency convulsions attributed to reduced GABA synthesis
-- Quiz7&8-Q42 p25 key=d REMAINING pellagra's classic triad = diarrhoea, dermatitis and dementia
-- Quiz7&8-Q43 p26 key=a REMAINING thiamine is the sulphur-containing B vitamin
-- Quiz7&8-Q44 p26 key=a REMAINING lemon is a rich source of vitamin C
-- Quiz9-10-Q2 p29 key=c REMAINING (keyed, not authored this pass) irreversible inhibition unaffected by raising substrate concentration
-- Quiz9-10-Q3 p29 key=d REMAINING enzymes do not themselves provide activation energy (false-statement item)
-- Quiz9-10-Q4 p29 key=d REMAINING enzyme-substrate relationship = temporary association
-- Quiz9-10-Q5 p30 key=b REMAINING active site differs from an antibody's binding site by catalysing a reaction
-- Quiz9-10-Q6 p30 key=c REMAINING molecular weight does not affect rate of enzymatic reaction
-- Quiz9-10-Q7 p30 key=c REMAINING enzyme concentration remains constant in a rate-vs-[S] plot
+- QuizCarb-Q1 p37 key=True HELD (True/False, not SBA-shape) lactate/pyruvate may be reconverted to glucose via Cori cycle
+- QuizCarb-Q15 p48-49 key=c HELD (cap, keyed) all of the following are inhibitors of phosphofructokinase EXCEPT cyclic AMP
+- QuizCarb-Q16 p49-50 key=b HELD (cap, keyed) all of the following about glycolysis is true EXCEPT CO2 is produced
+- QuizCarb-Q18 p51-52 key=d HELD (cap, keyed) comparison between hexokinase and glucokinase that is false = only glucokinase is present in the brain
+- QuizCarb-Q19 p53 key=b HELD (cap, keyed) arsenate decreases ATP produced from glycolysis by two ATP
+- QuizCarb-Q2 p37 key=True HELD (True/False, not SBA-shape) pyruvate may be converted from lactate if oxygen is available
+- QuizCarb-Q20 p53-54 key=c HELD (cap, keyed) pyruvate kinase deficiency increases 2,3-DPG level in RBCs
+- QuizCarb-Q21 p54-55 key=e HELD (cap, keyed) glyceraldehyde-3-phosphate dehydrogenase is the only enzyme that adds inorganic phosphate in glycolysis
+- QuizCarb-Q22 p55-56 key=d HELD (cap, keyed) GLUT-1 characterized by all of the following EXCEPT low affinity
+- QuizCarb-Q3 p38 key=False HELD (True/False, not SBA-shape) pyruvate-to-lactate is NOT catalysed by pyruvate dehydrogenase
+- QuizCarb-Q4 p38 key=False HELD (True/False, not SBA-shape) lactic acidosis is not caused by decreased lactate level
+- QuizCarb-Q5 p39 key=True HELD (True/False, not SBA-shape) lactate production regenerates oxidised NAD+
+- QuizCarb-Q8 p64-65 key=UNRECOVERABLE HELD (OCR page-break truncation: options c-e and the printed answer for the RQ-EXCEPT item fell across the p64/p65 boundary and were not captured) concerning respiratory quotient, the following are true except
+- QuizDNARNA-Q1 p66 key=e HELD (cap, keyed) RNA distinguished from DNA by susceptibility to alkaline hydrolysis (2'-OH)
+- QuizDNARNA-Q4 p68-69 key=e HELD (cap, keyed) colinearity of mature mRNA sequence and encoded protein's amino acid sequence
+- QuizDNARNA-Q5 p70 key=c HELD (cap, keyed) RNA polymerase binds sequences upstream of the transcription start site
+- QuizMetRate-Q1 p60 key=fill-in HELD (fill-in-the-blank, not SBA-shape) respiratory quotient = CO2 produced / O2 consumed
+- QuizMetRate-Q10 p65 key=c HELD (cap, keyed) basal metabolic rate = largest component of daily energy expenditure in a sedentary individual
+- QuizMetRate-Q2 p60 key=fill-in HELD (fill-in-the-blank, not SBA-shape) respiratory quotient for fat = 0.7
+- QuizMetRate-Q3 p61 key=fill-in HELD (fill-in-the-blank, not SBA-shape) gluconeogenesis produces respiratory quotient below 1
+- QuizMetRate-Q4 p61 key=fill-in HELD (fill-in-the-blank, not SBA-shape) excess RQ below unity indicates fat fuel source during exercise
+- QuizMetRate-Q5 p62 key=fill-in HELD (fill-in-the-blank, not SBA-shape) excess RQ of unity indicates short-duration exercise
+- QuizMetRate-Q6 p62-63 key=table HELD (table-matrix answer format, not clean single-letter SBA) growth hormone/fever/sleep/malnutrition effect on metabolic rate
+- QuizMetRate-Q7 p64 key=b HELD (cap, keyed) oxygen consumption tends to decrease when metabolic rate falls
+- QuizMetRate-Q8 p64-65 key=UNRECOVERABLE HELD (OCR page-break truncation: this item's own stem/options/answer fell across the p64/p65 boundary along with QuizCarb-Q8 above) concerning respiratory quotient, the following are true except
+- QuizMetRate-Q9 p65 key=d HELD (cap, keyed) basal metabolic rate decreased by 40% in starvation
+- QuizObesity-Q1 p72 key=fill-in HELD (fill-in-the-blank, not SBA-shape) leptin is released from fat cells
+- QuizObesity-Q10 p78 key=a HELD (cap, keyed) neuropeptide Y injected into hypothalamus produces prolonged increase in food intake
+- QuizObesity-Q2 p72 key=fill-in HELD (fill-in-the-blank, not SBA-shape) obesity diagnosed when BMI above 30 kg/m2
+- QuizObesity-Q3 p73 key=fill-in HELD (fill-in-the-blank, not SBA-shape) ventromedial nucleus = satiety centre, lateral nucleus = feeding centre
+- QuizObesity-Q4 p73 key=fill-in HELD (fill-in-the-blank, not SBA-shape) types of obesity = hyperplastic, hypertrophic
+- QuizObesity-Q5 p74 key=fill-in HELD (fill-in-the-blank, not SBA-shape) ghrelin is called the hunger hormone
+- QuizObesity-Q6 p74 key=c HELD (cap, keyed) statement wrong about obesity = unlikely on a high-protein diet even if calorific value exceeds expenditure
+- QuizObesity-Q7 p75 key=c HELD (cap, keyed) all true regarding obesity EXCEPT usually due to an endocrine disorder
+- QuizObesity-Q8 p76 key=a HELD (cap, keyed) increased body fat increases all of the following EXCEPT specific gravity of the body
+- QuizObesity-Q9 p76-77 key=b HELD (cap, keyed) leptin resistance = high leptin concentrations without reduction in energy intake
 - cbf-bank-q001 p1 key=b  total body water = 60% of adult body weight -- reused CON-HEM-428F8B432AF540
 - cbf-bank-q002 p1 key=a  total body water in 70kg adult = 42 L -- new
 - cbf-bank-q003 p1 key=c  ICF = 40% of adult body weight -- reused CON-HEM-428F8B432AF540
@@ -411,3 +541,49 @@
 - cbfquiz-q38 Quiz7&8 p21 key=b  folate coenzyme transfers single-carbon moieties -- reused CON-FND-C9E5128193029E
 - cbfquiz-q39 Quiz7&8 p21 key=a  folate deficiency causes megaloblastic anaemia -- reused CON-FND-C9E5128193029E
 - cbfquiz-q40 Quiz7&8 p22 key=d  riboflavin deficiency causes angular stomatitis -- reused CON-FND-C9E5128193029E
+- cbfquiz2-q01 Quiz9-10 p29 key=c  irreversible inhibition unaffected by raising substrate concentration -- reused CON-FND-42EE1863F04920
+- cbfquiz2-q02 Quiz9-10 p29 key=d  enzymes do not themselves provide activation energy (false-statement item) -- reused CON-FND-5846431203789F
+- cbfquiz2-q03 Quiz9-10 p29 key=d  enzyme-substrate relationship = temporary association -- reused CON-FND-D17966222A3693
+- cbfquiz2-q04 Quiz9-10 p30 key=b  active site differs from an antibody's binding site by catalysing a reaction -- reused CON-FND-D17966222A3693
+- cbfquiz2-q05 Quiz9-10 p30 key=c  molecular weight does not affect rate of enzymatic reaction -- reused CON-FND-F29934C070A94C
+- cbfquiz2-q06 Quiz9-10 p30 key=c  enzyme concentration remains constant in a rate-vs-[S] plot -- reused CON-FND-F29934C070A94C
+- cbfquiz2-q07 Quiz7&8 p23 key=a  B12 absorption requires intrinsic factor -- reused CON-FND-E9418C0A160C8E
+- cbfquiz2-q08 Quiz7&8 p23 key=d  intrinsic factor is chemically a glycoprotein -- reused CON-FND-E9418C0A160C8E
+- cbfquiz2-q09 Quiz7&8 p24 key=d  B12 deficiency causes: all of intestinal malabsorption/gastric atrophy/low intake -- reused CON-FND-E9418C0A160C8E
+- cbfquiz2-q10 Quiz7&8 p24 key=a  ascorbic acid required for synthesis of all listed EXCEPT bile pigments -- reused CON-FND-115161771B581B
+- cbfquiz2-q11 Quiz7&8 p24 key=c  vitamin C enhances intestinal iron absorption -- reused CON-FND-115161771B581B
+- cbfquiz2-q12 Quiz7&8 p25 key=c  vitamin B12 is the cyanide-containing form (cyanocobalamin) -- reused CON-FND-E9418C0A160C8E
+- cbfquiz2-q13 Quiz7&8 p25 key=b  pyridoxine deficiency convulsions attributed to reduced GABA synthesis -- reused CON-FND-DBD5091832BBDE
+- cbfquiz2-q14 Quiz7&8 p25 key=d  pellagra's classic triad = diarrhoea, dermatitis and dementia -- reused CON-FND-C9E5128193029E
+- cbfquiz2-q15 Quiz7&8 p26 key=a  thiamine is the sulphur-containing B vitamin -- reused CON-FND-C9E5128193029E
+- cbfquiz2-q16 Quiz7&8 p26 key=a  lemon is a rich source of vitamin C -- reused CON-FND-115161771B581B
+- cbfquiz2-q17 Quiz9-10 p31 key=d  factor giving a straight-line rate plot = enzyme concentration (printed \"Enzyme reaction\", read pedagogically) -- reused CON-FND-F29934C070A94C
+- cbfquiz2-q18 Quiz9-10 p31 key=a  temperature increases rate till optimum then decreases -- reused CON-FND-F29934C070A94C
+- cbfquiz2-q19 Quiz9-10 p31 key=a  activators increase rate of reaction -- reused CON-FND-F29934C070A94C
+- cbfquiz2-q20 Quiz9-10 p32 key=b  inhibitors are always inversely proportional to rate -- reused CON-FND-F29934C070A94C
+- cbfquiz2-q21 Quiz9-10 p32 key=b  raised LDH1 relative to LDH2 indicates myocardial infarction -- reused CON-FND-DD3EE5EC8C07D1
+- cbfquiz2-q22 Quiz9-10 p32 key=a  multiple forms of the same enzyme = isoenzyme -- reused CON-FND-DD3EE5EC8C07D1
+- cbfquiz2-q23 Quiz11&12 p34 key=c  fat-soluble molecules enter a cell by dissolving in the lipid layer, diffusion -- reused CON-NEU-1D5DC2D67A5291
+- cbfquiz2-q24 Quiz11&12 p35 key=b  rate of diffusion increases if number of protein channels increases -- reused CON-NEU-1D5DC2D67A5291
+- cbfquiz2-q25 Quiz11&12 p35 key=a  1.0% NaCl is hypertonic for red blood cells -- new CON-FND-08A3DBFA90D950
+- cbfquiz2-q26 QuizCarb p39-40 key=e  GLUT-4 defect in insulin-resistant T2DM affects muscle -- reused CON-FND-E9C3C98FA0388C
+- cbfquiz2-q27 QuizCarb p40-41 key=d  PET tracer trapped in cell by hexokinase phosphorylation -- reused CON-FND-EA1BA37ACB643B
+- cbfquiz2-q28 QuizCarb p41-42 key=b  lactate forms when NADH/NAD+ ratio is high -- reused CON-FND-403D06D1FB129F
+- cbfquiz2-q29 QuizCarb p43 key=b  glucokinase Km is above fasting blood glucose concentration -- reused CON-FND-EA1BA37ACB643B
+- cbfquiz2-q30 QuizCarb p44 key=e  vigorous muscle contraction increases reduction of pyruvate to lactate -- reused CON-FND-403D06D1FB129F
+- cbfquiz2-q31 QuizCarb p44-45 key=b  liver glucose uptake by facilitated diffusion via a transporter -- reused CON-FND-E9C3C98FA0388C
+- cbfquiz2-q32 QuizCarb p45-46 key=b  substrate for aldolase = fructose 1,6-bisphosphate -- reused CON-FND-853096A349FFBD
+- cbfquiz2-q33 QuizCarb p46-47 key=a  anaerobic-glycolysis ATP from 1,3-DPG to 3-PG conversion -- reused CON-FND-5253967A0E3786
+- cbfquiz2-q34 QuizCarb p48 key=b  fluoride inhibits enolase in glycolysis -- reused CON-FND-0D6BFD870813B7
+- cbfquiz2-q35 QuizTCA p57 key=a  amphibolic pathway = citric acid cycle -- reused CON-FND-8ADE222FBB57B2
+- cbfquiz2-q36 QuizTCA p57 key=d  anaplerotic carboxylation of pyruvate maintains oxaloacetate -- reused CON-FND-CA0F9E019BC5BA
+- cbfquiz2-q37 QuizTCA p58 key=b  PDH/alpha-KGDH require CoASH, TPP, NAD+, FAD, lipoate -- reused CON-FND-229C78C9EB0E78
+- cbfquiz2-q38 QuizTCA p58-59 key=c  TCA cycle continuity requires regeneration of oxaloacetate -- reused CON-FND-8F8B3EF0763399
+- cbfquiz2-q39 QuizTCA p59 key=d  succinate to fumarate dehydrogenation requires flavoprotein (FAD) -- reused CON-FND-BCCBDEC637795A
+- cbfquiz2-q40 QuizDNARNA p67 key=c  alpha-amanitin inhibits RNA Pol II, blocking mRNA synthesis -- reused CON-FND-412F3EDF118F44
+- cbfquiz2-q41 QuizDNARNA p68 key=d  intron removal from mRNA precursors carried out by spliceosomes -- reused CON-FND-5FF8EB2DB4D662
+- cbfquiz2-q42 QuizDNARNA p70-71 key=d  DNA template strand sequence determines the RNA product sequence -- reused CON-FND-D717E6E7EEA466
+- cbfquiz2-q43 Quiz22 p87 key=d  nitric oxide is NOT an oxygen-derived free radical (ROS) -- new CON-FND-CB46E0408C4FF2
+- cbfquiz2-q44 Quiz22 p87 key=d  carbohydrates cannot form free radicals -- new CON-FND-CB46E0408C4FF2
+- cbfquiz2-q45 Quiz22 p88 key=d  protein glycosylation is NOT an effect of free radicals -- new CON-FND-CB46E0408C4FF2
+- cbfquiz2-q46 Quiz22 p88 key=a  polyunsaturated fatty acids most affected by free radicals -- new CON-FND-CB46E0408C4FF2
