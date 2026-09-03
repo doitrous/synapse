@@ -382,3 +382,32 @@ concept + 2 article + Kasr 208-INT concept + 1 overlay + 2 question files).
 - Cluster 6: five items held as ambiguous/disputed printed keys, two of them explicitly flagged by
   the source's own students and one explicitly flagged as disputed — worth a source re-check by Omar
   (see `paper2-2018-q17`, `-q29`, `-q31`, `-q47`, `-q74`, `paper1-2019summer-q48` in the ledger).
+- Cluster 7: six items held as ambiguous/incoherent printed keys (`paper1-2018-q04`, `-q15`, `-q26`,
+  `-q31`, `-q45`, `-q50`) plus two (`-q40`, `-q41`) whose printed answer has no surviving clue text at
+  all — a pattern not seen in this lane's other clusters, worth a source re-check by Omar in case the
+  scan/OCR dropped lines rather than the source itself being incomplete.
+
+## Cluster 7 (author7): paper1-2018
+
+`EOM - paper 1 cns 2018.pdf` (6 pages, native text, `src_ba8a3c03085892748991`) is the exact file
+`LANE-CARD-Y2-3.md` §4 names as the worked example of this lane's embedded-answer/cross-file-recycling
+trap ("N-answer\ndescription." format, no printed distractors; the same facts recur near-verbatim
+across the Anatomy/Physio MCQ compilations and this dated paper). Every one of its 52 items was
+checked by grep against every existing ASU-CNS-3 concept `## label` (219 labels extracted from all 7
+concept files plus the pending-live overlays) before authoring, per the trap's own warning not to
+trust a zero-hit substring search blindly and not to skip the check either. Result: 3 new mints
+(pellagra/niacin, hyperammonaemia/glutamine, methadone substitution pharmacokinetics), 49 held — the
+large majority (34) as cross-paper duplicates of this lane's own clusters 1-6, confirmed individually
+against the existing concept corpus rather than assumed from the topic-file hit alone (2 of those
+are within-file duplicates of each other — items 21/46, both testing the oculomotor nucleus's
+superior-colliculus level); 6 as ambiguous or internally incoherent printed keys (items 4, 15, 26, 31,
+45, 50); 2 (items 40-41) as printed answers with no surviving clue/description line at all, unlike
+every other item in the compilation; 3 as pure biochemistry/microbiology out of this lane's neuro
+subject scope (items 33, 34, 38); 1 (item 11, generic "opioid receptors inhibit pain") held as too
+close to two existing cross-university pending concepts (Alexandria's enkephalin presynaptic-Ca2+
+mechanism, Mansoura's mu-receptor signal-transduction mechanism) to mint as a separate, non-overlapping
+fact; and 1 (item 37, tryptophan→serotonin) held because the precursor relationship is already stated
+inside this lane's own existing serotonin/mood-disorder concept's definition. `paper1-2018` cluster:
+3 authored / 49 held / 0 remaining / 52 total — see `coverage/ASU-CNS-3-LEDGER.md`.
+`coverage/ASU-CNS-3-triage-keys.txt` extended with `paper1-2018-q01`..`q52`. `gate.mjs simulate` clean
+(0 rejected, 0 errors) across the resource/concept/article/question quartet.
