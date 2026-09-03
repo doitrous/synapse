@@ -1,0 +1,127 @@
+{
+  "lanePrefix": "ASUCNS3-1STASS2020",
+  "module": "ASU-CNS-3",
+  "university": "asu",
+  "year_id": "ASU_Y3",
+  "learner_year": 3,
+  "conceptHeader": "<!--\n  ASU-CNS-3 cluster 10 (author10) · \"cns 1st ass 2020.pdf\" — 5 new concepts\n  surviving from a 32-item embedded-answer compilation, checked against every\n  existing ASU-CNS-3 concept label before minting.\n\n  Import: Admin › Bulk import → concept.\n-->",
+  "articleHeader": "<!--\n  ASU-CNS-3 cluster 10 (author10) · \"cns 1st ass 2020.pdf\" — 5 new articles\n  matching this cluster's concepts.\n\n  Import: Admin › Bulk import → article.\n-->",
+  "concepts": [
+    {
+      "key": "1stass2020-q02",
+      "label": "Complete spinal cord transection produces bilateral paraplegia with total loss of all sensory modalities below the lesion",
+      "canonical_key": "spinalcordtransection.complete.bilateral-paraplegia-total-sensory-loss",
+      "definition": "Complete transection of the spinal cord severs every ascending and descending pathway bilaterally at that level, so below the lesion there is total loss of all sensory modalities (touch, pain, temperature, proprioception, vibration) together with bilateral paraplegia (or tetraplegia, if cervical) from loss of all descending motor control. This distinguishes complete transection from partial cord syndromes such as Brown-Séquard syndrome (hemisection, dissociated ipsilateral/contralateral losses) or anterior cord syndrome (bilateral pain/temperature loss with dorsal columns spared), which selectively spare specific tracts because only part of the cord cross-section is damaged.",
+      "explicit_objective": "State that complete spinal cord transection causes bilateral paraplegia with total (all-modality) sensory loss below the lesion, unlike partial cord syndromes.",
+      "primary_node_id": "SYS-NEU-T01-S01-M04",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Physiology > Spinal cord transection syndromes",
+      "topic": "Physiology",
+      "subtopic": "Spinal cord transection syndromes",
+      "aliases": [
+        "Complete cord transection",
+        "Spinal cord transection below T8"
+      ],
+      "pitfalls": "Confusing complete transection (total bilateral loss of every modality) with partial syndromes like Brown-Séquard (dissociated ipsilateral/contralateral losses) or anterior cord syndrome (dorsal columns spared) — only complete transection abolishes every tract.",
+      "article_title": "Complete spinal cord transection",
+      "original_wording": "\"2.Complete section below T8 / Accident loss of all sensations in both lower limbs and paraplegia\"",
+      "clinical_significance": "Recognising the complete-transection pattern (no sparing of any modality) is the first step in localising and grading traumatic spinal cord injury.",
+      "evidence_basis": "Standard neurophysiology teaching on spinal cord transection syndromes, applied to this compilation's printed clinical vignette.",
+      "resource_id": "src_fb86d6e68fbedefbc1d7",
+      "asu_field_note": "cns 1st ass 2020.pdf, item 2 (\"Complete section below T8 / Accident loss of all sensations in both lower limbs and paraplegia\")."
+    },
+    {
+      "key": "1stass2020-q18",
+      "label": "The fourth ventricle is the cavity of the rhombencephalon (hindbrain)",
+      "canonical_key": "fourthventricle.embryology.rhombencephalon-derivation",
+      "definition": "Each embryonic brain vesicle encloses part of the ventricular system: the paired lateral ventricles are the cavities of the telencephalon, the third ventricle is the cavity of the diencephalon, the cerebral aqueduct is the cavity of the mesencephalon, and the fourth ventricle is the cavity of the rhombencephalon (hindbrain, comprising the developing pons/cerebellum and medulla). This embryological derivation is why the fourth ventricle lies between the pons/cerebellum and the medulla in the adult.",
+      "explicit_objective": "State that the fourth ventricle develops as the cavity of the rhombencephalon (hindbrain).",
+      "primary_node_id": "DIS-EMB-T03",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Embryology > Ventricular system development",
+      "topic": "Embryology",
+      "subtopic": "Ventricular system development",
+      "aliases": [
+        "Fourth ventricle embryology",
+        "Rhombencephalon cavity"
+      ],
+      "pitfalls": "Confusing the fourth ventricle's origin (rhombencephalon/hindbrain) with the third ventricle's origin (diencephalon/forebrain) or the cerebral aqueduct's origin (mesencephalon/midbrain) — each major ventricular cavity maps to a different embryonic vesicle.",
+      "article_title": "Fourth ventricle embryology",
+      "original_wording": "\"18.fourth ventricle / Rhombencephalon\"",
+      "clinical_significance": "Knowing the vesicle-to-cavity mapping helps localise posterior fossa developmental anomalies (e.g. Dandy-Walker malformation) to the rhombencephalon-derived fourth ventricle.",
+      "evidence_basis": "Standard neuroembryology teaching on the derivation of the ventricular system from the primary brain vesicles.",
+      "resource_id": "src_fb86d6e68fbedefbc1d7",
+      "asu_field_note": "cns 1st ass 2020.pdf, item 18 (\"fourth ventricle / Rhombencephalon\")."
+    },
+    {
+      "key": "1stass2020-q22",
+      "label": "The primary fissure divides the cerebellum into anterior and posterior lobes",
+      "canonical_key": "cerebellum.fissure.primary-divides-anterior-posterior-lobe",
+      "definition": "The cerebellum is divided by two principal fissures into three lobes: the primary fissure separates the anterior lobe from the posterior lobe, and the posterolateral fissure separates the posterior lobe from the flocculonodular lobe. The primary fissure is the deepest and most prominent fissure on the superior surface of the cerebellum.",
+      "explicit_objective": "Name the primary fissure as the landmark dividing the cerebellum into anterior and posterior lobes.",
+      "primary_node_id": "SYS-NEU-T01-S01-M03",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Anatomy > Cerebellar lobes and fissures",
+      "topic": "Anatomy",
+      "subtopic": "Cerebellar lobes and fissures",
+      "aliases": [
+        "Cerebellar primary fissure",
+        "Anterior/posterior lobe division"
+      ],
+      "pitfalls": "Confusing the primary fissure (anterior/posterior lobe boundary) with the posterolateral fissure (posterior/flocculonodular lobe boundary) — the two fissures mark different lobe boundaries.",
+      "article_title": "Cerebellar primary fissure",
+      "original_wording": "\"22.Ant & post lobe / fissure prima divide ..\"",
+      "clinical_significance": "The anterior/posterior lobe distinction underlies the spinocerebellum's functional territory, relevant to localising cerebellar lesions.",
+      "evidence_basis": "Standard neuroanatomy teaching on cerebellar lobar subdivision by the primary and posterolateral fissures.",
+      "resource_id": "src_fb86d6e68fbedefbc1d7",
+      "asu_field_note": "cns 1st ass 2020.pdf, item 22 (\"Ant & post lobe / fissure prima divide ..\")."
+    },
+    {
+      "key": "1stass2020-q28",
+      "label": "The lateral spinothalamic (spinal lemniscus) pathway continues as the neospinothalamic tract, carrying fast, discriminative pain",
+      "canonical_key": "spinallemniscus.continuation.neospinothalamic-tract",
+      "definition": "Second-order fibres of the lateral spinothalamic tract decussate near their level of entry and ascend as the spinal lemniscus, which continues rostrally as the neospinothalamic tract — a fast, few-synapse pathway carrying sharp, well-localised (fast) pain directly to the ventral posterolateral thalamic nucleus and on to the somatosensory cortex. This is distinct from the paleospinothalamic pathway, a slower, multisynaptic route through the reticular formation and intralaminar thalamic nuclei that carries poorly localised, dull (slow) pain.",
+      "explicit_objective": "Identify the neospinothalamic tract as the rostral continuation of the spinal lemniscus (lateral spinothalamic pathway), carrying fast pain.",
+      "primary_node_id": "SYS-NEU-T01-S02-M03",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Physiology > Pain pathways",
+      "topic": "Physiology",
+      "subtopic": "Pain pathways",
+      "aliases": [
+        "Spinal lemniscus",
+        "Neospinothalamic tract",
+        "Fast pain pathway"
+      ],
+      "pitfalls": "Confusing the neospinothalamic tract (fast, discriminative pain via the spinal lemniscus, few synapses, direct to VPL thalamus) with the paleospinothalamic tract (slow, poorly localised pain via the reticular formation and intralaminar thalamic nuclei, multisynaptic).",
+      "article_title": "Spinal lemniscus and the neospinothalamic tract",
+      "original_wording": "\"28.Spinal lemniscus / Neospinothalamic tract cont as\"",
+      "clinical_significance": "Distinguishing the fast (neospinothalamic) from the slow (paleospinothalamic) pain pathway explains the two-phase quality of acute pain (sharp then dull).",
+      "evidence_basis": "Standard neurophysiology teaching on the dual (fast/neospinothalamic vs slow/paleospinothalamic) pain pathways.",
+      "resource_id": "src_fb86d6e68fbedefbc1d7",
+      "asu_field_note": "cns 1st ass 2020.pdf, item 28 (\"Spinal lemniscus / Neospinothalamic tract cont as\")."
+    },
+    {
+      "key": "1stass2020-q32",
+      "label": "The common facial vein drains directly into the internal jugular vein",
+      "canonical_key": "commonfacialvein.drainage.internal-jugular-vein",
+      "definition": "The common facial vein is formed by the union of the (anterior) facial vein and the retromandibular vein's anterior division, in the upper part of the neck. It crosses superficial to the carotid sheath and drains directly into the internal jugular vein. This is distinct from other named tributaries (e.g. the occipital vein, which more commonly joins the internal jugular vein separately or via the posterior auricular vein), giving the internal jugular vein multiple, individually named venous inputs along its course.",
+      "explicit_objective": "State that the common facial vein drains directly into the internal jugular vein.",
+      "primary_node_id": "DIS-ANA-T06",
+      "secondary_node_ids": "",
+      "module_subject": "ASU-CNS-3 > Anatomy > Venous drainage of the head and neck",
+      "topic": "Anatomy",
+      "subtopic": "Venous drainage of the head and neck",
+      "aliases": [
+        "Common facial vein",
+        "Internal jugular vein tributaries"
+      ],
+      "pitfalls": "Confusing the common facial vein's termination (directly into the internal jugular vein) with that of other head-and-neck veins (e.g. the occipital vein), which have different, separately named drainage routes.",
+      "article_title": "Common facial vein drainage",
+      "original_wording": "\"32.IJV / Common facial vein drains into\"",
+      "clinical_significance": "The facial vein's valveless connections (via emissary and ophthalmic veins) to the cavernous sinus make facial infections along this drainage route a recognised risk for intracranial spread.",
+      "evidence_basis": "Standard head-and-neck anatomy teaching on the tributaries of the internal jugular vein.",
+      "resource_id": "src_fb86d6e68fbedefbc1d7",
+      "asu_field_note": "cns 1st ass 2020.pdf, item 32 (\"IJV / Common facial vein drains into\")."
+    }
+  ]
+}
