@@ -3,6 +3,7 @@
 | pppmbank | 30 | 0 | 0 | 30 |
 | pppmbank2 | 48 | 7 | 0 | 55 |
 | pppmbank3 | 41 | 8 | 0 | 49 |
+| pppmbank4 | 35 | 12 | 0 | 47 |
 
 ## Held
 - pppmbank2-q01 — Duplicate of lane 1's pppmbank-q21 (isoniazid hepatotoxicity: this bank's cohort-repeat asks the identical fact — printed key credits rapid acetylation reaction as the mechanism) — same source PDF, p.7 vs p.5-6, a cohort-repeat within the 4-cohort back-catalogue.
@@ -20,6 +21,18 @@
 - pppmbank3-q44 — Duplicate of lane 2's pppmbank2-q53 (cause of caseation necrosis: tuberculosis) — identical stem/options/key D, p.26 (this cluster) vs p.17 (lane 2's cluster), a cohort-repeat within the 4-cohort back-catalogue; lane 2's concept CON-FND-5B3B6BA12670C7 already covers this fact.
 - pppmbank3-q46 — Duplicate of pppmbank3-q21 (organelle responsible for the pathogenesis of cloudy swelling: mitochondria) — identical options and key C, near-identical stem restated ('occurs in tissues rich in which organelle' vs 'is responsible for the pathogenesis of'), p.26 vs p.21, a cohort-repeat within the 4-cohort back-catalogue.
 - pppmbank3-q49 — Duplicate of pppmbank3-q18 (Russell bodies commonly seen in: Rhinoscleroma) — identical underlying fact, options reordered, key letter differs by position only (D here vs B at p.21) but names the same correct answer text, p.27 vs p.21, a cohort-repeat within the 4-cohort back-catalogue. Last item of the Pathology section (Q54 of 54); Microbiology begins fresh-numbered at p.28.
+- pppmbank4-q11 — Repeat of pppmbank4-q07's exact stem (bacterial growth phase corresponding to period of symptoms and signs), p.30 vs p.29, a cohort-repeat within the 4-cohort back-catalogue -- but with a CONFLICTING printed key: this occurrence keys C (Stationary phase), Q07 keys B (Log phase). Both keys render-confirmed correct off their own pages (p.29 and p.30). Q07 authored as the first occurrence per lane convention; this repeat held rather than authored a second time with a contradictory answer for the identical stem. Flagged: Q11's key (Stationary = period of illness/fastigium) is arguably the more textbook-consistent mapping of the two -- see the doubt note on pppmbank4-q07.
+- pppmbank4-q14 — Duplicate of pppmbank4-q05 (structure present in Gram-negative but not Gram-positive bacteria: Lipid A) -- identical options and key (B), p.30 vs p.28, a cohort-repeat within the 4-cohort back-catalogue.
+- pppmbank4-q21 — Duplicate of pppmbank4-q02 (sporing bacterium: Bacillus group) -- same fact, options reordered, key still names Bacillus group (D here vs A at p.28), p.32 vs p.28, a cohort-repeat within the 4-cohort back-catalogue.
+- pppmbank4-q25 — Duplicate of pppmbank4-q10 (bacterial structure protecting against phagocytosis: capsule) -- identical stem/options/key (C), p.32 vs p.29, a cohort-repeat within the 4-cohort back-catalogue.
+- pppmbank4-q28 — Duplicate of pppmbank4-q06 (peritrichous flagella distributed over the entire bacterial cell) -- identical stem/options/key (C), p.33 vs p.29, a cohort-repeat within the 4-cohort back-catalogue.
+- pppmbank4-q29 — Duplicate of pppmbank4-q17 (bacterium characterized by exopigment formation: Pseudomonas) -- same fact, options reordered, key still names Pseudomonas (A here vs B at p.31), p.33 vs p.31, a cohort-repeat within the 4-cohort back-catalogue.
+- pppmbank4-q30 — Duplicate of pppmbank4-q13 (gene transfer mediated by bacteriophage: transduction) -- identical stem/options/key (C), p.33 vs p.30, a cohort-repeat within the 4-cohort back-catalogue.
+- pppmbank4-q39 — Duplicate of pppmbank4-q01 (basis of the Gram-positive/Gram-negative distinction: cell wall) -- same fact, options reordered, key still names cell wall (B here vs A at p.28), p.35 vs p.28, a cohort-repeat within the 4-cohort back-catalogue.
+- pppmbank4-q42 — Second duplicate of pppmbank4-q10 (bacterial structure protecting against phagocytosis: capsule) -- identical stem/options/key (C), p.35 vs p.29 (already duplicated once at p.32/Q25); this is a third printing of the same item within this 9-page window.
+- pppmbank4-q45 — Duplicate of pppmbank4-q36 (professional antigen-presenting cell: dendritic cells) -- same fact, options reordered, key still names dendritic cells (A here vs C at p.34), p.36 vs p.34, a cohort-repeat within the 4-cohort back-catalogue.
+- pppmbank4-q46 — Duplicate of pppmbank4-q40 (cell type maturing in the thymus: T cells) -- same fact, options reordered, key still names T cell (B here vs E at p.35), p.36 vs p.35, a cohort-repeat within the 4-cohort back-catalogue.
+- pppmbank4-q47 — Duplicate of pppmbank4-q34 (primary lymphoid organ: bone marrow) -- identical stem/options/key (A), p.36 vs p.34, a cohort-repeat within the 4-cohort back-catalogue. Last item of the Microbiology section (Q47 of 47); Parasitology begins fresh-numbered at p.37.
 
 ## Remaining
 (none)
