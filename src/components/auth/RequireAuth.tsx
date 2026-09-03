@@ -80,6 +80,20 @@ export function RequireAuth({ console: needsConsole, tab, student, children }: {
   // AdminHome to the first surface they hold, i.e. Media Requests.
   if (student && identity.role === 'reviewer') return <Navigate to="/admin" replace />
 
+  // A social sign-up never saw the phone form password sign-up collects
+  // (Signup.tsx): Google/Facebook OAuth hands back a name and an email and
+  // nothing else, so `identity.profileComplete` stays false until
+  // CompleteProfile.tsx runs. Gated on `!audienceUnknown` so this fires only
+  // after the onboarding overlay (AppShell → StudentOnboarding) has already
+  // settled where the student studies — that overlay is where university and
+  // year actually get collected, and asking here first would fight it for the
+  // same screen. `role === 'student'` keeps an admin or reviewer previewing
+  // the student app out of this: they hold no roster row to complete.
+  if (student && identity.role === 'student' && !identity.audienceUnknown && !identity.profileComplete) {
+    const next = `${location.pathname}${location.search}`
+    return <Navigate to={`/auth/complete-profile?next=${encodeURIComponent(next)}`} replace />
+  }
+
   if (needsMfaSetup) {
     return (
       <>

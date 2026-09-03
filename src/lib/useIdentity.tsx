@@ -44,11 +44,15 @@ export interface IdentityProfile {
   studentId: string | null
   name: string | null
   email: string | null
+  phone: string | null
+  nationality: string | null
   universityId: string | null
   year: string | null
   yearId?: string | null
   group: string | null
   status: string | null
+  /** Server-computed: phone and enrolment both on record. See `isProfileComplete` in accounts.js. */
+  profileComplete?: boolean
 }
 
 export interface Entitlement {
@@ -94,6 +98,15 @@ export interface Identity {
   profileMissing: boolean
   /** True when neither the roster nor the student has said where they study. */
   audienceUnknown: boolean
+  /**
+   * Phone and enrolment are both on record — the server's `isProfileComplete`.
+   *
+   * False for a social sign-up until CompleteProfile.tsx runs: Google/Facebook
+   * OAuth hands back a name and an email and never a phone, so this stays
+   * false even after the onboarding overlay has settled `audienceUnknown`.
+   * Nationality is deliberately not part of this — see the server-side note.
+   */
+  profileComplete: boolean
   profile: IdentityProfile
   audience: StudentAudience
   entitlement: Entitlement
@@ -105,7 +118,7 @@ export interface Identity {
    * Resolves once the server has stored it and the identity has been reread, so
    * a caller can navigate on the result and know the app already agrees.
    */
-  saveEnrolment: (next: EnrolmentInput) => Promise<void>
+  saveEnrolment: (next: EnrolmentInput) => Promise<{ phoneConflict: boolean }>
   /** True until `/api/me` has answered — nothing about the account is known yet. */
   loading: boolean
   /**
@@ -134,7 +147,8 @@ export interface EnrolmentInput {
 }
 
 const EMPTY_PROFILE: IdentityProfile = {
-  studentId: null, name: null, email: null, universityId: null, year: null, yearId: null, group: null, status: null,
+  studentId: null, name: null, email: null, phone: null, nationality: null,
+  universityId: null, year: null, yearId: null, group: null, status: null, profileComplete: false,
 }
 
 const EMPTY_AUDIENCE: StudentAudience = { universityId: '', year: '', yearId: '', group: '' }
@@ -146,7 +160,8 @@ const ANONYMOUS: Identity = {
   aal: null, emailVerified: false,
   displayName: 'Student', profileMissing: true, audienceUnknown: true, profile: EMPTY_PROFILE, audience: EMPTY_AUDIENCE,
   entitlement: NO_ENTITLEMENT, subscription: null, reload: () => undefined,
-  saveEnrolment: async () => undefined, loading: true, audienceSettled: false,
+  saveEnrolment: async () => ({ phoneConflict: false }), loading: true, audienceSettled: false,
+  profileComplete: false,
 }
 
 interface MeResponse {
@@ -343,13 +358,18 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
   const saveEnrolment = useCallback(async (next: EnrolmentInput) => {
     if (!API_MODE) {
       setStoredAudience({ universityId: next.universityId, year: next.year, group: next.group?.trim() ?? '' })
-      return
+      return { phoneConflict: false }
     }
-    const answer = await apiPut<{ profile: IdentityProfile | null }>('/me/enrolment', next)
+    const answer = await apiPut<{ profile: IdentityProfile | null; phoneConflict?: boolean }>('/me/enrolment', next)
     setState((s) => ({ ...s, profile: answer.profile ?? s.profile }))
     // The trial the server may have just granted lives on the same record, so
     // the entitlement has to be reread rather than assumed unchanged.
     reload()
+    // A phone that belongs to somebody else is dropped rather than refused
+    // (see the comment on `saveOwnEnrolment` in accounts.js) — reported here so
+    // CompleteProfile.tsx can say so, rather than claiming success over a
+    // number that was silently not stored.
+    return { phoneConflict: Boolean(answer.phoneConflict) }
   }, [reload, setStoredAudience])
 
   /**
@@ -403,6 +423,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       profileMissing: state.status === 'authenticated' && !state.profile,
       /** True when nobody has said where this account studies. */
       audienceUnknown: !universityId || !year,
+      profileComplete: Boolean(profile.profileComplete),
       profile,
       audience: {
         universityId,

@@ -87,6 +87,7 @@ const Placeholder = lazyNamed(() => import('@/pages/Placeholder'), 'Placeholder'
 const Login = lazyNamed(() => import('@/pages/auth/Login'), 'Login')
 const Signup = lazyNamed(() => import('@/pages/auth/Signup'), 'Signup')
 const VerifyEmail = lazyNamed(() => import('@/pages/auth/VerifyEmail'), 'VerifyEmail')
+const CompleteProfile = lazyNamed(() => import('@/pages/auth/CompleteProfile'), 'CompleteProfile')
 const MfaSetup = lazyNamed(() => import('@/pages/auth/MfaSetup'), 'MfaSetup')
 const ForgotPassword = lazyNamed(() => import('@/pages/auth/ForgotPassword'), 'ForgotPassword')
 const ResetPassword = lazyNamed(() => import('@/pages/auth/ResetPassword'), 'ResetPassword')
@@ -411,6 +412,12 @@ export const router = createBrowserRouter([
   // opens it may have no account, and the server decides what they may do.
   { path: '/s/:id', element: render(SharedDocument) },
   { path: '/auth/verify-email', element: render(VerifyEmail) },
+  // Not wrapped in RequireAuth — same as verify-email and mfa above, this
+  // handles its own signed-out/loading/already-complete cases (see
+  // CompleteProfile.tsx) rather than being gated by the auth it needs to sit
+  // outside of. `student` routes redirect here from RequireAuth once
+  // enrolment is settled but phone/nationality is still missing.
+  { path: '/auth/complete-profile', element: render(CompleteProfile) },
   { path: '/auth/mfa', element: render(MfaSetup) },
   { path: '/auth/forgot-password', element: render(ForgotPassword) },
   { path: '/auth/reset-password', element: render(ResetPassword) },

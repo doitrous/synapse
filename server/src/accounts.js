@@ -90,6 +90,7 @@ export function addDays(from, days) {
 const USER_COLUMNS = `
   COALESCE(s.id, a.user_id) AS id,
   s.name, COALESCE(s.email, a.email) AS email,
+  s.phone, s.nationality,
   s.university_id AS universityId, s.year, s.year_id AS yearId, s.study_group AS studyGroup, s.plan, s.status,
   s.username, s.username_normalized AS usernameNormalized, s.profile_icon AS profileIcon,
   s.discoverable, s.social_provider AS socialProvider, s.social_subject AS socialSubject,
@@ -133,6 +134,21 @@ const SELECT_USERS = `
    WHERE s.user_id IS NULL
 `
 
+/**
+ * Whether this account has the details a social sign-up never collects.
+ *
+ * Password sign-up gathers phone and nationality on the form itself
+ * (Signup.tsx); Google/Facebook OAuth hands back a name and an email only, so
+ * those two columns stay null forever unless something asks again — this is
+ * the flag CompleteProfile.tsx and RequireAuth read to decide whether to.
+ * Nationality is left out on purpose: Signup.tsx marks it optional, and a
+ * password-signup student who left it blank must not suddenly be judged
+ * "incomplete" by a rule stricter than the form they filled in.
+ */
+export function isProfileComplete({ phone, universityId }) {
+  return Boolean(phone && universityId)
+}
+
 function shape(row) {
   const entitlement = entitlementOf(
     row.subId ? { plan: row.subPlan, status: row.subStatus, expires_at: row.subExpiresAt } : null,
@@ -141,6 +157,9 @@ function shape(row) {
     id: row.id,
     name: row.name,
     email: row.email,
+    phone: row.phone,
+    nationality: row.nationality,
+    profileComplete: isProfileComplete({ phone: row.phone, universityId: row.universityId }),
     universityId: row.universityId,
     year: row.year,
     yearId: row.yearId,
@@ -841,10 +860,21 @@ export async function saveOwnEnrolment(userId, input) {
 
     // Only if it is free. The UNIQUE index would otherwise abort the whole
     // transaction and lose the enrolment along with it.
+    //
+    // `phoneConflict` is reported back rather than swallowed: the ordinary
+    // caller here is the onboarding overlay, carrying a phone across from
+    // sign-up metadata as a courtesy, and a collision there is not worth
+    // blocking enrolment over. But CompleteProfile.tsx calls this same
+    // function as the one screen whose entire purpose is capturing that
+    // number, so it needs to know the save silently kept the old (null)
+    // value rather than tell the student their number was saved when it
+    // was not.
     let storedPhone = null
+    let phoneConflict = false
     if (phone) {
       const [held] = await conn.query('SELECT id FROM students WHERE phone = ? AND id <> ? LIMIT 1', [phone, student.id])
-      if (!held.length) storedPhone = phone
+      if (held.length) phoneConflict = true
+      else storedPhone = phone
     }
 
     /**
@@ -922,5 +952,5 @@ export async function saveOwnEnrolment(userId, input) {
     conn.release()
   }
 
-  return { ok: true, profile: await getUserByIdentity(userId) }
+  return { ok: true, phoneConflict, profile: await getUserByIdentity(userId) }
 }

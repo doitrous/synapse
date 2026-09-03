@@ -437,6 +437,12 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
           studentId: user.id,
           name: user.name,
           email: user.email,
+          phone: user.phone,
+          nationality: user.nationality,
+          // True once phone and enrolment are both on record. False for a
+          // social sign-up until CompleteProfile.tsx runs — Google/Facebook
+          // hand back a name and an email and nothing else.
+          profileComplete: user.profileComplete,
           universityId: user.universityId,
           year: user.year,
           yearId: user.yearId,
@@ -468,7 +474,7 @@ app.put('/api/me/enrolment', requireAuthenticated, wrap(async (req, res) => {
     const status = result.error === 'no_identity' ? 404 : (result.error === 'enrollment_locked' || result.error === 'username_taken' ? 409 : 400)
     return res.status(status).json(result)
   }
-  res.json({ ok: true, profile: result.profile })
+  res.json({ ok: true, profile: result.profile, phoneConflict: result.phoneConflict })
 }))
 
 app.post('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async (req, res) => {

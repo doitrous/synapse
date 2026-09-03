@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { entitlementOf, extensionBase, addDays, readReason, stateFamily, normaliseUsername, usernameProblem } from './accounts.js'
+import { entitlementOf, extensionBase, addDays, readReason, stateFamily, normaliseUsername, usernameProblem, isProfileComplete } from './accounts.js'
 
 const NOW = new Date('2026-08-13T12:00:00Z')
 
@@ -76,4 +76,18 @@ test('usernames normalize case, accents and punctuation for cohort uniqueness', 
   assert.equal(normaliseUsername('  Omar Élite!!  '), 'omar-elite')
   assert.equal(usernameProblem('ab'), 'username_too_short')
   assert.equal(usernameProblem('omary98'), null)
+})
+
+test('a profile is complete only once both a phone and an enrolment are on record', () => {
+  // The gap this exists for: Google/Facebook OAuth hands back a name and an
+  // email and nothing else, so phone stays null after a social sign-up until
+  // CompleteProfile.tsx runs — even though onboarding has already filled in
+  // the university.
+  assert.equal(isProfileComplete({ phone: null, universityId: 'cairo' }), false, 'social sign-up before completing the form')
+  assert.equal(isProfileComplete({ phone: '+201001234567', universityId: null }), false, 'phone on file but onboarding not finished yet')
+  assert.equal(isProfileComplete({ phone: '+201001234567', universityId: 'cairo' }), true)
+  // Nationality is deliberately not part of this rule — Signup.tsx marks it
+  // optional, and a password-signup student who left it blank must not be
+  // judged "incomplete" by a stricter rule than the form they filled in.
+  assert.equal(isProfileComplete({ phone: '+201001234567', universityId: 'cairo', nationality: null }), true)
 })
