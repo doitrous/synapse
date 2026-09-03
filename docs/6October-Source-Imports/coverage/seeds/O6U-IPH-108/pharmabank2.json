@@ -1,0 +1,1789 @@
+{
+  "lane": "O6U-IPH",
+  "cluster": "pharmabank2",
+  "header": "O6U-IPH-108 · Autonomic/Adrenergic/Sympathomimetic Pharmacology -- authored from \"pharma MCQs bank .pdf\" (DRG folder, Telegram O6U Med Bot) pp.101-160, continuing lane 2's pharmabank cluster (pp.7-100). Same scanned Moodle quiz-preview/review export as lane 2, keyed via the same OCR heuristics: a trailing stray \"v\"/\"¥\" character immediately after the correct option's text, or an OCR-recovered highlighted-feedback paragraph appended after the correct option. pp.101-120 continue lane 2's atropine/antimuscarinic tail; a new section header (\"4. Adrenergic physiology\", p121) begins at p121, followed by a further section header (\"5. sympathomimetics\", p139) at p139 -- both new topic areas for this module. Every item in this cluster was keyed from one of these OCR-recoverable printed signals (never from a respondent's own separate mark); 0 of the lane's 14-render budget was needed, since the OCR heuristic resolved every authored item unambiguously.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "o6u"
+    ],
+    "years": [
+      "O6U_Y1"
+    ],
+    "module": "O6U-IPH-108",
+    "module_subject": "O6U-IPH-108 > Autonomic Pharmacology",
+    "exam_weight_by_year": {
+      "O6U_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_412e8bcfca222fa1abf8"
+    ],
+    "source_citation": "pharma MCQs bank .pdf, p{page}",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "cognitive_effort": "Moderate",
+    "reasoning_level": 2
+  },
+  "questions": [
+    {
+      "key": "pharmabank2-q01",
+      "page": 101,
+      "title": "Atropine treats mushroom poisoning",
+      "question": "Indicate a drug which is effective in the treatment of mushroom (muscarine) poisoning:",
+      "options": {
+        "A": "Atropine",
+        "B": "Pralidoxime",
+        "C": "Homatropine",
+        "D": "Diazepam",
+        "E": "Dicyclomine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Many poisonous mushrooms contain muscarine, a direct muscarinic agonist, and their toxicity produces a muscarinic-excess picture (salivation, lacrimation, GI cramping, bradycardia). Atropine, by competitively blocking the same muscarinic receptors, is the antidote of choice. It reverses the muscarinic-excess picture regardless of whether the excess acetylcholine-like stimulation comes from muscarine itself, a cholinesterase inhibitor, or a direct-acting cholinomimetic overdose.",
+        "B": "Incorrect. Pralidoxime reactivates acetylcholinesterase after organophosphate binding; it has no role in a direct muscarinic-agonist poisoning such as mushroom (muscarine) toxicity, where the enzyme itself is not inhibited.",
+        "C": "Incorrect. Homatropine is itself an antimuscarinic mydriatic used ophthalmically, not the systemic antidote used for mushroom poisoning.",
+        "D": "Incorrect. Diazepam is a benzodiazepine used for seizures or agitation; it does not antagonize the muscarinic-excess picture of mushroom poisoning.",
+        "E": "Incorrect. Dicyclomine is itself an antimuscarinic antispasmodic, not the systemic antidote used for this specific indication."
+      },
+      "main_concept": "CON-FND-BC1987AB0E5BA4",
+      "concept_ids": [
+        "CON-FND-BC1987AB0E5BA4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Atropine as Antidote",
+      "question_type": "Recall",
+      "learning_objective": "State that atropine is the antidote for muscarinic (mushroom) poisoning.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Atropine as Antidote > Mushroom poisoning",
+      "source_citation": "pharma MCQs bank .pdf, p101",
+      "field_notes": {
+        "keySource": "printed \"a. Atropine\" with OCR trailing checkmark, p101 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q02",
+      "page": 102,
+      "title": "Mydriatic antimuscarinics",
+      "question": "Indicate the antimuscarinic drug which is used as a mydriatic:",
+      "options": {
+        "A": "Tropicamide",
+        "B": "Cyclopentolate",
+        "C": "Homatropine",
+        "D": "Two of the above",
+        "E": "All of the above"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect as the single best answer. Tropicamide genuinely is an antimuscarinic mydriatic, but so are cyclopentolate and homatropine, making \"all of the above\" the more complete answer.",
+        "B": "Incorrect as the single best answer. Cyclopentolate genuinely is an antimuscarinic mydriatic, but so are tropicamide and homatropine, making \"all of the above\" the more complete answer.",
+        "C": "Incorrect as the single best answer. Homatropine genuinely is an antimuscarinic mydriatic, but so are tropicamide and cyclopentolate, making \"all of the above\" the more complete answer.",
+        "D": "Incorrect. All three listed drugs, not merely two, are antimuscarinic mydriatics.",
+        "E": "Correct. Tropicamide, cyclopentolate and homatropine are all antimuscarinic mydriatics used in ophthalmic practice. Each blocks the muscarinic receptors on the iris sphincter (pupillae constrictor) muscle, relaxing it and letting the dilator muscle's unopposed sympathetic tone widen the pupil. They differ mainly in onset and duration (tropicamide is shortest-acting, homatropine intermediate, and atropine itself longest), but all three share this same mydriatic mechanism."
+      },
+      "main_concept": "CON-FND-A66A12DA206DDD",
+      "concept_ids": [
+        "CON-FND-A66A12DA206DDD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Ocular Antimuscarinics",
+      "question_type": "Classification",
+      "learning_objective": "Identify tropicamide, cyclopentolate and homatropine as antimuscarinic mydriatics.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Ocular Antimuscarinics > Mydriatic drug identification",
+      "source_citation": "pharma MCQs bank .pdf, p102",
+      "field_notes": {
+        "keySource": "printed \"e. All of the above\" with OCR trailing checkmark, p102 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q03",
+      "page": 103,
+      "title": "Scopolamine's rapid, extensive CNS distribution",
+      "question": "Indicate the drug which is rapidly and fully distributed into the CNS and has a greater effect than most other antimuscarinic agents:",
+      "options": {
+        "A": "Ipratropium",
+        "B": "Oxybutynin",
+        "C": "Scopolamine",
+        "D": "Hyoscine butyl bromide",
+        "E": "Homatropine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ipratropium is a charged quaternary antimuscarinic, poorly absorbed systemically and essentially excluded from the CNS, the opposite profile from the one this question describes.",
+        "B": "Incorrect. Oxybutynin does cross into the CNS to some degree at systemic doses, but it is not the antimuscarinic classically taught as being most rapidly and fully CNS-distributed.",
+        "C": "Correct. Scopolamine (hyoscine) is a lipid-soluble tertiary amine that crosses into the CNS more readily and extensively than atropine or the other antimuscarinics listed, producing a more marked central effect (sedation, amnesia) at standard doses. This greater CNS penetration is exactly why scopolamine, rather than atropine, is preferred as a premedication for its calming, amnestic action and as a motion-sickness antiemetic.",
+        "D": "Incorrect. Hyoscine butyl bromide is the quaternary (charged) derivative of hyoscine, deliberately modified so that it does NOT cross into the CNS, restricting it to peripheral antispasmodic use.",
+        "E": "Incorrect. Homatropine is a peripherally- and ocularly-acting mydriatic; it is not characterised by the rapid, extensive CNS distribution this question tests."
+      },
+      "main_concept": "CON-FND-8047A5BFDEE7E3",
+      "concept_ids": [
+        "CON-FND-8047A5BFDEE7E3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Scopolamine Profile",
+      "question_type": "Recall",
+      "learning_objective": "State that scopolamine is more rapidly and fully distributed into the CNS than most other antimuscarinic agents.",
+      "library_ids": [
+        "ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Scopolamine Profile > CNS distribution",
+      "source_citation": "pharma MCQs bank .pdf, p103",
+      "field_notes": {
+        "keySource": "printed \"c. Scopolamine\" with OCR trailing checkmark, p103 of pharma MCQs bank .pdf"
+      },
+      "author_notes": "main_concept reused from Kasr 208-INT (pending-live overlay, CON-FND-8047A5BFDEE7E3) -- see pending-live/O6U-IPH-108-overlay-concepts.md."
+    },
+    {
+      "key": "pharmabank2-q04",
+      "page": 104,
+      "title": "Glycopyrrolate has the least effect on pupil size",
+      "question": "It is an anticholinergic drug used in pre-anesthetic medication and has the LEAST effect on pupil size:",
+      "options": {
+        "A": "Tropicamide",
+        "B": "Glycopyrrolate",
+        "C": "Homatropine",
+        "D": "Atropine",
+        "E": "Hyoscine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Tropicamide is itself a mydriatic; it produces, rather than spares, a pupil effect.",
+        "B": "Correct. Glycopyrrolate is a charged quaternary ammonium antimuscarinic, and this charge excludes it from crossing into the eye, so it produces the least effect on pupil size among the pre-anesthetic antimuscarinic options. This is exactly why glycopyrrolate is chosen when the prescriber wants to dry secretions before anesthesia without also causing troublesome mydriasis, unlike the lipid-soluble tertiary amines atropine, homatropine and hyoscine.",
+        "C": "Incorrect. Homatropine is itself a mydriatic; it produces, rather than spares, a pupil effect.",
+        "D": "Incorrect. Atropine, a lipid-soluble tertiary amine, does produce mydriasis at systemic pre-anesthetic doses.",
+        "E": "Incorrect. Hyoscine, also a lipid-soluble tertiary amine, likewise produces a pupil effect at systemic pre-anesthetic doses."
+      },
+      "main_concept": "CON-FND-A66A12DA206DDD",
+      "concept_ids": [
+        "CON-FND-A66A12DA206DDD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Ocular Antimuscarinics",
+      "question_type": "Classification",
+      "learning_objective": "State that glycopyrrolate, being a quaternary antimuscarinic, has the least pupil effect among pre-anesthetic antimuscarinics.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Ocular Antimuscarinics > Glycopyrrolate pupil-sparing effect",
+      "source_citation": "pharma MCQs bank .pdf, p104",
+      "field_notes": {
+        "keySource": "printed \"b. Glycopyrrolate\" with OCR trailing checkmark, p104 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q05",
+      "hold": "OCR-illegible fifth option: the printed correct answer is option a (\"Can elevate intraocular pressure in glaucoma\", with an explanatory highlight), but option e's own text OCR'd as the fragment \"Aandt\", too garbled to reconstruct a reliable fifth distractor even after re-checking the OCR output twice. Held for OCR legibility rather than re-authoring a four-option version and guessing at the missing option's intended content (p105 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q06",
+      "page": 106,
+      "title": "Atropine poisoning does not cause bradycardia",
+      "question": "Manifestations of atropine poisoning include all of the following symptoms EXCEPT:",
+      "options": {
+        "A": "Flushing",
+        "B": "Hyperthermia, dry mouth and hot skin",
+        "C": "Agitation and delirium",
+        "D": "Mydriasis, cycloplegia",
+        "E": "Bradycardia, orthostatic hypotension"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Cutaneous flushing genuinely is a feature of atropine poisoning, so it is not the exception.",
+        "B": "Incorrect. Hyperthermia with dry, hot skin from inhibited sweating genuinely is a feature of atropine poisoning, so it is not the exception.",
+        "C": "Incorrect. CNS excitation with agitation and delirium genuinely is a feature of atropine poisoning, so it is not the exception.",
+        "D": "Incorrect. Mydriasis and cycloplegia genuinely are ocular features of atropine poisoning, so this is not the exception.",
+        "E": "Correct. Atropine poisoning produces tachycardia, not bradycardia, because blocking vagal M2 tone on the SA node removes the parasympathetic brake on heart rate rather than slowing it. Orthostatic hypotension is likewise not a typical feature of atropine's own cardiovascular profile, since atropine's dominant cardiac action is chronotropic rather than a fall in blood pressure. Because this question asks for the exception, the false pairing of bradycardia and orthostatic hypotension is the one that does not belong among atropine poisoning's genuine manifestations."
+      },
+      "main_concept": "CON-FND-2A257283EA1ED7",
+      "concept_ids": [
+        "CON-FND-2A257283EA1ED7"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Atropine Overdose Toxidrome",
+      "question_type": "Classification",
+      "learning_objective": "State that atropine poisoning produces tachycardia, not bradycardia, among its manifestations.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Atropine Overdose Toxidrome > Manifestations",
+      "source_citation": "pharma MCQs bank .pdf, p106",
+      "field_notes": {
+        "keySource": "printed \"e. Bradicardia, orthostatic hypotension\" with OCR trailing checkmark, p106 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q07",
+      "page": 107,
+      "title": "Atropine's bronchodilator effect is not useful in acute pulmonary edema",
+      "question": "The bronchodilator effect of atropine or its substitutes is NOT useful in:",
+      "options": {
+        "A": "COPD",
+        "B": "Bronchial asthma",
+        "C": "Pre-anesthetic medication",
+        "D": "Acute pulmonary edema",
+        "E": "Reflex bronchospasm"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Antimuscarinic bronchodilation genuinely is useful in COPD, so this is not the exception.",
+        "B": "Incorrect. Antimuscarinic bronchodilation genuinely is useful in bronchial asthma, so this is not the exception.",
+        "C": "Incorrect. Atropine's antisecretory/bronchodilator action genuinely is used in pre-anesthetic medication, so this is not the exception.",
+        "D": "Correct. Acute pulmonary edema is a fluid-overload/cardiac problem, not a bronchospastic one, so an antimuscarinic bronchodilator does not address its underlying pathology. Management instead centers on diuretics, nitrates, and positive-pressure ventilation. Atropine's drying, tachycardia-inducing effects could even be counterproductive in this specific cardiac setting.",
+        "E": "Incorrect. Antimuscarinic bronchodilation genuinely is useful in reflex bronchospasm, so this is not the exception."
+      },
+      "main_concept": "CON-FND-22EF4414E8AEFD",
+      "concept_ids": [
+        "CON-FND-22EF4414E8AEFD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Atropine Mechanism and Bronchodilator Use",
+      "question_type": "Classification",
+      "learning_objective": "State that atropine's bronchodilator effect is not useful in acute pulmonary edema.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Atropine Mechanism and Bronchodilator Use > Bronchodilator indications",
+      "source_citation": "pharma MCQs bank .pdf, p107",
+      "field_notes": {
+        "keySource": "printed \"d. Acute pulmonary edema\" with OCR trailing checkmark, p107 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q08",
+      "page": 108,
+      "title": "Atropine competitively blocks muscarinic excess",
+      "question": "The excessive stimulation of muscarinic receptors by pilocarpine and choline esters is blocked competitively by:",
+      "options": {
+        "A": "Atropine",
+        "B": "Edrophonium",
+        "C": "Pralidoxime",
+        "D": "Echothiophate",
+        "E": "Diazepam"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Atropine competitively antagonises the muscarinic receptor, so it displaces and blocks excess stimulation from a direct muscarinic agonist such as pilocarpine or a choline ester, regardless of the specific agonist responsible. This same competitive antagonism is the basis for using atropine as the antidote across the whole family of muscarinic-excess states, from direct agonist overdose to cholinesterase-inhibitor poisoning. Its action is reversible, so the degree of blockade depends on the relative concentrations of atropine and the agonist at the receptor.",
+        "B": "Incorrect. Edrophonium is itself a cholinesterase inhibitor; it would increase, not block, muscarinic stimulation.",
+        "C": "Incorrect. Pralidoxime reactivates organophosphate-inhibited acetylcholinesterase; it has no direct antagonist action at the muscarinic receptor itself.",
+        "D": "Incorrect. Echothiophate is itself an irreversible cholinesterase inhibitor; it would increase, not block, muscarinic stimulation.",
+        "E": "Incorrect. Diazepam is a benzodiazepine with no muscarinic receptor antagonist activity."
+      },
+      "main_concept": "CON-FND-BC1987AB0E5BA4",
+      "concept_ids": [
+        "CON-FND-BC1987AB0E5BA4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Atropine as Antidote",
+      "question_type": "Recall",
+      "learning_objective": "State that atropine competitively blocks muscarinic-receptor overstimulation from direct agonists such as pilocarpine and choline esters.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Atropine as Antidote > Competitive antagonism of muscarinic agonists",
+      "source_citation": "pharma MCQs bank .pdf, p108",
+      "field_notes": {
+        "keySource": "printed \"a. Atropine\" with OCR trailing checkmark, p108 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q09",
+      "page": 109,
+      "title": "Scopolamine does not cause diaphoresis",
+      "question": "The following adverse effects would NOT be expected with scopolamine:",
+      "options": {
+        "A": "Diaphoresis",
+        "B": "Blurred vision",
+        "C": "Constipation",
+        "D": "Confusion",
+        "E": "Xerostomia (dry mouth)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Scopolamine, like every antimuscarinic, blocks the muscarinic receptors on eccrine sweat glands, so it decreases rather than increases sweating. Diaphoresis (excess sweating) is therefore not an expected antimuscarinic adverse effect; if anything, antimuscarinic overdose tends toward hot, dry skin from impaired sweating rather than diaphoresis.",
+        "B": "Incorrect. Blurred vision, from cycloplegia (paralysis of accommodation), genuinely is an expected scopolamine adverse effect.",
+        "C": "Incorrect. Constipation, from reduced GI motility, genuinely is an expected scopolamine adverse effect.",
+        "D": "Incorrect. Confusion, from scopolamine's prominent CNS penetration, genuinely is an expected adverse effect.",
+        "E": "Incorrect. Xerostomia (dry mouth), from blocked salivary gland secretion, genuinely is an expected antimuscarinic adverse effect."
+      },
+      "main_concept": "CON-FND-3D3B2FE9617FD8",
+      "concept_ids": [
+        "CON-FND-3D3B2FE9617FD8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Scopolamine Profile",
+      "question_type": "Classification",
+      "learning_objective": "State that diaphoresis is not an expected scopolamine adverse effect.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Scopolamine Profile > Adverse-effect exceptions",
+      "source_citation": "pharma MCQs bank .pdf, p109",
+      "field_notes": {
+        "keySource": "printed \"a. Diaphoresis\" with OCR trailing checkmark, p109 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q10",
+      "page": 110,
+      "title": "Atropine itself, not a substitute, is used for organophosphate poisoning and heart block",
+      "question": "Atropine itself (rather than one of its inhaled/topical antimuscarinic substitutes) is the drug used for all of the following EXCEPT:",
+      "options": {
+        "A": "Traveler's diarrhea",
+        "B": "Organophosphate poisoning",
+        "C": "Asthma and COPD",
+        "D": "Hyperactive carotid sinus / heart block",
+        "E": "Mushroom toxicity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Atropine's antispasmodic, antimuscarinic action genuinely is used for traveler's diarrhea, so this is not the exception.",
+        "B": "Incorrect. Atropine genuinely is used (together with pralidoxime) for organophosphate poisoning, so this is not the exception.",
+        "C": "Correct. Chronic bronchodilation in asthma or COPD relies on an inhaled antimuscarinic substitute such as ipratropium rather than on systemic atropine itself, since the systemic antimuscarinic side-effect burden atropine would carry is unacceptable for long-term respiratory maintenance therapy. Because this question asks which use belongs to atropine's substitutes rather than to atropine itself, asthma/COPD bronchodilation is the exception among this list of atropine's own antidotal and antivagal indications.",
+        "D": "Incorrect. Atropine genuinely is used for bradycardia from a hyperactive carotid sinus or heart block, so this is not the exception.",
+        "E": "Incorrect. Atropine genuinely is used for mushroom (muscarine) toxicity, so this is not the exception."
+      },
+      "main_concept": "CON-FND-BC1987AB0E5BA4",
+      "concept_ids": [
+        "CON-FND-BC1987AB0E5BA4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Atropine as Antidote",
+      "question_type": "Classification",
+      "learning_objective": "Distinguish atropine's own systemic antidotal/antivagal uses from the inhaled antimuscarinic substitute used for chronic COPD/asthma bronchodilation.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Atropine as Antidote > Atropine itself versus substitute drugs",
+      "source_citation": "pharma MCQs bank .pdf, p110",
+      "field_notes": {
+        "keySource": "printed \"c. Asthma & COPD\" with OCR trailing checkmark, p110 of pharma MCQs bank .pdf"
+      },
+      "author_notes": "Stem's atropine-vs-substitute contrast was reconstructed from heavily OCR-affected phrasing (\"The following are therapeutic uses of atropine rather than atropine substitutes except\"); read as testing that chronic COPD/asthma bronchodilation is the one use where a substitute (inhaled ipratropium/tiotropium), not atropine itself, is preferred -- consistent with standard teaching that systemic antimuscarinic side effects make atropine unsuitable for chronic respiratory maintenance therapy."
+    },
+    {
+      "key": "pharmabank2-q11",
+      "hold": "Ambiguous/unresolved key: no option carries a trailing-checkmark or highlighted-feedback signal in the OCR text; a highlighted-feedback paragraph appears to have garbled into the fragment \"a re\" with no attributable option, and only four options (a-d, no e) are legible. Held rather than guessed at (p111 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q12",
+      "page": 112,
+      "title": "Atropine's mechanism is competitive muscarinic blockade",
+      "question": "The mechanism of atropine's action is:",
+      "options": {
+        "A": "Competitive nicotinic receptor blockade",
+        "B": "Noncompetitive nicotinic receptor blockade",
+        "C": "Noncompetitive muscarinic receptor blockade",
+        "D": "Competitive neuromuscular blockade",
+        "E": "Competitive muscarinic receptor blockade"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Atropine blocks muscarinic, not nicotinic, receptors.",
+        "B": "Incorrect. Atropine blocks muscarinic, not nicotinic, receptors, and its blockade is competitive, not noncompetitive.",
+        "C": "Incorrect. Atropine's muscarinic receptor blockade is competitive, not noncompetitive; it can be displaced by a sufficiently high concentration of agonist.",
+        "D": "Incorrect. Atropine has no action at the nicotinic neuromuscular junction.",
+        "E": "Correct. Atropine's single unifying mechanism across every tissue is competitive, reversible blockade of the muscarinic acetylcholine receptor. Because the blockade is competitive, atropine's effect can be overcome by a sufficiently high local concentration of acetylcholine or another muscarinic agonist, which is part of why atropine dosing must be titrated against the severity of a muscarinic-excess poisoning. This same single mechanism explains atropine's entire effect profile, from bronchodilation to mydriasis to antisecretory action."
+      },
+      "main_concept": "CON-FND-22EF4414E8AEFD",
+      "concept_ids": [
+        "CON-FND-22EF4414E8AEFD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Atropine Mechanism and Bronchodilator Use",
+      "question_type": "Recall",
+      "learning_objective": "State that atropine acts by competitive muscarinic receptor blockade.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Atropine Mechanism and Bronchodilator Use > Mechanism of action",
+      "source_citation": "pharma MCQs bank .pdf, p112",
+      "field_notes": {
+        "keySource": "printed \"e. Competitive muscarinic receptors blockade\" with OCR trailing checkmark, p112 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q13",
+      "page": 113,
+      "title": "Scopolamine resembles atropine",
+      "question": "The pharmacologic actions of scopolamine most closely resemble those of:",
+      "options": {
+        "A": "Succinylcholine",
+        "B": "Physostigmine",
+        "C": "Hexamethonium",
+        "D": "Pilocarpine",
+        "E": "Atropine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Succinylcholine is a depolarising neuromuscular blocker acting at nicotinic receptors, an entirely different mechanism from scopolamine's muscarinic blockade.",
+        "B": "Incorrect. Physostigmine is a cholinesterase inhibitor that increases, rather than blocks, muscarinic stimulation, the opposite action from scopolamine's.",
+        "C": "Incorrect. Hexamethonium is a ganglionic nicotinic blocker, a different receptor and site of action from scopolamine's peripheral/central muscarinic blockade.",
+        "D": "Incorrect. Pilocarpine is a direct-acting muscarinic agonist, the opposite action from scopolamine's antagonism.",
+        "E": "Correct. Scopolamine and atropine are both naturally-occurring tropane belladonna alkaloids sharing the same competitive muscarinic-receptor-blocking mechanism, so their peripheral pharmacologic actions closely resemble one another. They differ mainly in their relative CNS penetration and resulting central effect profile, with scopolamine producing more prominent sedation, rather than in the fundamental mechanism itself."
+      },
+      "main_concept": "CON-FND-3D3B2FE9617FD8",
+      "concept_ids": [
+        "CON-FND-3D3B2FE9617FD8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Scopolamine Profile",
+      "question_type": "Classification",
+      "learning_objective": "State that scopolamine's pharmacologic actions closely resemble atropine's.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Scopolamine Profile > Resemblance to atropine",
+      "source_citation": "pharma MCQs bank .pdf, p113",
+      "field_notes": {
+        "keySource": "printed \"e. Atropine\" with OCR trailing checkmark, p113 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q14",
+      "page": 114,
+      "title": "Neostigmine is not used to treat atropine poisoning",
+      "question": "Treatment of atropine poisoning does not include:",
+      "options": {
+        "A": "Diazepam",
+        "B": "Gastric lavage",
+        "C": "Cooling blankets",
+        "D": "Neostigmine",
+        "E": "Physostigmine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Diazepam genuinely is used supportively to control agitation/delirium in atropine poisoning, so it is not the exception.",
+        "B": "Incorrect. Gastric lavage genuinely is a supportive measure to limit further absorption after oral atropine overdose, so it is not the exception.",
+        "C": "Incorrect. Cooling blankets genuinely are used supportively to manage atropine-poisoning hyperthermia, so they are not the exception.",
+        "D": "Correct. Neostigmine is a charged quaternary cholinesterase inhibitor that is excluded from the CNS, so it cannot reach and reverse the central component of the atropine-poisoning toxidrome. Physostigmine, a lipid-soluble tertiary amine cholinesterase inhibitor that does cross the blood-brain barrier, is used instead precisely because it can antagonise both the peripheral and central effects of atropine toxicity.",
+        "E": "Incorrect. Physostigmine, unlike neostigmine, genuinely is used to treat atropine poisoning because it crosses into the CNS, so it is not the exception."
+      },
+      "main_concept": "CON-FND-2A257283EA1ED7",
+      "concept_ids": [
+        "CON-FND-2A257283EA1ED7"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Atropine Overdose Toxidrome",
+      "question_type": "Classification",
+      "learning_objective": "State that neostigmine, unlike physostigmine, is not used to treat atropine poisoning because it cannot cross into the CNS.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Atropine Overdose Toxidrome > Treatment",
+      "source_citation": "pharma MCQs bank .pdf, p114",
+      "field_notes": {
+        "keySource": "printed \"d. Neostigmine\" with OCR trailing checkmark, p114 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q15",
+      "page": 115,
+      "title": "Vivid dreams are a famous scopolamine side effect",
+      "question": "Vivid dreams are a famous side effect of:",
+      "options": {
+        "A": "Atropine",
+        "B": "Glycopyrrolate",
+        "C": "Scopolamine",
+        "D": "Ipratropium",
+        "E": "Neostigmine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Atropine's CNS penetration and central effect are less prominent than scopolamine's, and vivid dreams are not the side effect atropine is classically known for.",
+        "B": "Incorrect. Glycopyrrolate is a charged quaternary compound excluded from the CNS, so it cannot produce a central effect such as vivid dreams.",
+        "C": "Correct. Scopolamine's greater lipid solubility gives it more prominent CNS penetration than atropine's, producing a more marked central effect profile overall. Vivid dreams are a characteristic, well-recognised scopolamine side effect within that central profile, alongside sedation and amnesia at standard doses. This central signature is exactly why scopolamine, rather than atropine, is favoured as a sedating premedication or motion-sickness antiemetic.",
+        "D": "Incorrect. Ipratropium is a charged quaternary compound excluded from the CNS, so it cannot produce a central effect such as vivid dreams.",
+        "E": "Incorrect. Neostigmine is a cholinesterase inhibitor, not an antimuscarinic, and its quaternary charge excludes it from the CNS regardless."
+      },
+      "main_concept": "CON-FND-3D3B2FE9617FD8",
+      "concept_ids": [
+        "CON-FND-3D3B2FE9617FD8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Scopolamine Profile",
+      "question_type": "Recall",
+      "learning_objective": "State that vivid dreams are a characteristic scopolamine side effect.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Scopolamine Profile > CNS effects",
+      "source_citation": "pharma MCQs bank .pdf, p115",
+      "field_notes": {
+        "keySource": "printed \"c. Scopolamine\" with OCR trailing checkmark, p115 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q16",
+      "page": 116,
+      "title": "Ipratropium bronchodilates via dry powder inhaler in COPD",
+      "question": "Which of the following agents is used to induce bronchodilation by a dry powder inhaler in COPD?",
+      "options": {
+        "A": "Ipratropium",
+        "B": "Lobeline",
+        "C": "Hyoscine",
+        "D": "Atropine",
+        "E": "Homatropine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Ipratropium is the inhaled antimuscarinic bronchodilator used in COPD, particularly when a beta-2 agonist alone is not sufficient. Its charged quaternary structure keeps it largely confined to the airway after inhalation, minimising the systemic antimuscarinic side effects that would limit chronic use of systemic atropine for the same purpose.",
+        "B": "Incorrect. Lobeline is a nicotinic-receptor-active alkaloid historically explored as a smoking-cessation aid, not an inhaled antimuscarinic bronchodilator.",
+        "C": "Incorrect. Hyoscine is used for its antisecretory/antiemetic/sedative effects, not delivered as a dry powder inhaler for COPD bronchodilation.",
+        "D": "Incorrect. Atropine itself is not used as an inhaled COPD bronchodilator because its systemic antimuscarinic side-effect burden is unacceptable for chronic respiratory maintenance therapy.",
+        "E": "Incorrect. Homatropine is an ophthalmic mydriatic, not an inhaled COPD bronchodilator."
+      },
+      "main_concept": "CON-FND-50FB4649C59276",
+      "concept_ids": [
+        "CON-FND-50FB4649C59276"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Atropine as Antidote",
+      "question_type": "Recall",
+      "learning_objective": "State that ipratropium, delivered by dry powder inhaler, is the antimuscarinic bronchodilator used in COPD.",
+      "library_ids": [
+        "ART-FND-AUN-MPT104-ANTIMUSCARINIC-PHARMACOLOGY"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Atropine as Antidote > Ipratropium in COPD",
+      "source_citation": "pharma MCQs bank .pdf, p116",
+      "field_notes": {
+        "keySource": "printed \"a. Ipratropium\" with OCR trailing checkmark, p116 of pharma MCQs bank .pdf"
+      },
+      "author_notes": "main_concept reused from Assiut AUN-MPT-104 (pending-live overlay, CON-FND-50FB4649C59276) -- see pending-live/O6U-IPH-108-overlay-concepts.md."
+    },
+    {
+      "key": "pharmabank2-q17",
+      "page": 117,
+      "title": "Pirenzepine is a selective M1 blocker",
+      "question": "Which of the following antimuscarinic drugs is a selective M1 blocker?",
+      "options": {
+        "A": "Dicyclomine",
+        "B": "Trihexyphenidyl",
+        "C": "Pirenzepine",
+        "D": "Two of the above",
+        "E": "All of the above"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect as the single best answer here. This source's own key groups dicyclomine among the M1-selective agents alongside pirenzepine and trihexyphenidyl, making \"all of the above\" the intended complete answer, though dicyclomine is more commonly taught elsewhere as a non-selective antimuscarinic antispasmodic.",
+        "B": "Incorrect as the single best answer here. This source's own key groups trihexyphenidyl among the M1-selective agents alongside pirenzepine and dicyclomine, making \"all of the above\" the intended complete answer, though trihexyphenidyl is more commonly taught elsewhere as a non-selective antiparkinsonian antimuscarinic.",
+        "C": "Incorrect as the single best answer here. Pirenzepine genuinely is the prototype M1-selective muscarinic antagonist, but this source's printed key groups it with two further drugs rather than naming it alone.",
+        "D": "Incorrect. All three listed drugs, per this source's printed key, are grouped as M1-selective, not merely two.",
+        "E": "Correct per this source. Pirenzepine is the prototype M1-selective muscarinic receptor antagonist, historically used for peptic ulcer disease because gastric parietal-cell acid secretion is predominantly M1-mediated, letting it spare the cardiac (M2) and glandular/smooth-muscle (M3) effects a non-selective antimuscarinic would carry. This source's printed key extends that M1-selective classification to dicyclomine and trihexyphenidyl as well; standard pharmacology references more commonly teach pirenzepine (and telenzepine) alone as the classic M1-selective examples, a discrepancy the field_notes/uncertainty on this question's concept records rather than silently resolving."
+      },
+      "main_concept": "CON-FND-F66E0EB81B403C",
+      "concept_ids": [
+        "CON-FND-F66E0EB81B403C"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "M1-Selective Antagonism",
+      "question_type": "Classification",
+      "learning_objective": "State that pirenzepine is the prototype M1-selective muscarinic antagonist.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > M1-Selective Antagonism > Pirenzepine",
+      "source_citation": "pharma MCQs bank .pdf, p117",
+      "field_notes": {
+        "keySource": "printed \"e. All of the above\" with OCR trailing checkmark, p117 of pharma MCQs bank .pdf"
+      },
+      "author_notes": "Printed key groups dicyclomine and trihexyphenidyl with pirenzepine as M1-selective, a broader classification than the more common single-drug (pirenzepine/telenzepine) teaching; followed per the standing rule that printed keys stand, with the discrepancy flagged in the concept's own uncertainty field rather than re-keyed by inference."
+    },
+    {
+      "key": "pharmabank2-q18",
+      "page": 118,
+      "title": "Bethanechol causes atropine-blockable vasodilation",
+      "question": "Which of the following drugs causes vasodilation that can be blocked by atropine?",
+      "options": {
+        "A": "Cyclopentolate",
+        "B": "Bethanechol",
+        "C": "Pralidoxime",
+        "D": "Nicotine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cyclopentolate is an antimuscarinic mydriatic; as a muscarinic antagonist, it does not itself trigger a muscarinic vasodilator response.",
+        "B": "Correct. Bethanechol is a direct-acting muscarinic agonist that stimulates M3 receptors on vascular endothelium, triggering nitric-oxide release and vasodilation, even though blood vessels themselves receive no direct parasympathetic innervation. Because this response is genuinely mediated through the muscarinic receptor, it is blocked by atropine, unlike a vasodilation produced through a non-muscarinic mechanism.",
+        "C": "Incorrect. Pralidoxime is a cholinesterase reactivator used in organophosphate poisoning; it has no direct vasodilator action of its own.",
+        "D": "Incorrect. Nicotine acts at nicotinic, not muscarinic, receptors, so any vasomotor effect it produces is not blocked by the muscarinic antagonist atropine."
+      },
+      "main_concept": "CON-FND-4D62F4DD51AA55",
+      "concept_ids": [
+        "CON-FND-4D62F4DD51AA55"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Receptor Distribution Quirks",
+      "question_type": "Recall",
+      "learning_objective": "State that bethanechol produces atropine-blockable vasodilation via endothelial M3 receptors, despite the absence of direct vascular parasympathetic innervation.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Receptor Distribution Quirks > Endothelial M3 vasodilation",
+      "source_citation": "pharma MCQs bank .pdf, p118",
+      "field_notes": {
+        "keySource": "printed \"b. Bethanecol\" with OCR trailing checkmark, p118 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q19",
+      "page": 119,
+      "title": "Benztropine is used for Parkinson's disease",
+      "question": "Which of the following drugs is useful in the treatment of Parkinson's disease?",
+      "options": {
+        "A": "Succinylcholine",
+        "B": "Edrophonium",
+        "C": "Oxybutynin",
+        "D": "Hexamethonium",
+        "E": "Benztropine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Succinylcholine is a depolarising neuromuscular blocker used for surgical/procedural paralysis, not a Parkinsonism treatment.",
+        "B": "Incorrect. Edrophonium is a short-acting cholinesterase inhibitor used diagnostically (historically for myasthenia gravis), not a Parkinsonism treatment.",
+        "C": "Incorrect. Oxybutynin is an antimuscarinic used for overactive bladder, not specifically indicated for Parkinsonism.",
+        "D": "Incorrect. Hexamethonium is a ganglionic blocker with no role in Parkinsonism treatment.",
+        "E": "Correct. Benztropine is a purpose-built centrally-acting antimuscarinic used specifically for Parkinsonism, restoring the dopaminergic/cholinergic balance in the striatum by blocking the relatively unopposed cholinergic activity that follows striatal dopamine loss. Atropine itself is not used for this indication, since a purpose-built antimuscarinic with a more favourable central selectivity profile, such as benztropine, is preferred."
+      },
+      "main_concept": "CON-FND-F1B2D20FAB6B8F",
+      "concept_ids": [
+        "CON-FND-F1B2D20FAB6B8F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Atropine Overdose Toxidrome",
+      "question_type": "Recall",
+      "learning_objective": "State that benztropine, a purpose-built antimuscarinic, is used to treat Parkinsonism.",
+      "library_ids": [
+        "ART-O6U-IPH-ATROPINE-ANTIMUSCARINIC-PHARMACOLOGY"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Antimuscarinic Drugs > Benztropine for Parkinsonism",
+      "source_citation": "pharma MCQs bank .pdf, p119",
+      "field_notes": {
+        "keySource": "printed \"e. Benztropine\" with OCR trailing checkmark, p119 of pharma MCQs bank .pdf"
+      },
+      "author_notes": "main_concept reused from this lane's own O6U-IPH-108 pharmabank cluster (CON-FND-F1B2D20FAB6B8F, docs/6October-Source-Imports/concept/O6U-IPH-108-pharmabank-concepts.md) -- same module, no overlay row needed."
+    },
+    {
+      "key": "pharmabank2-q20",
+      "page": 120,
+      "title": "Cyclopentolate is absorbed from the conjunctival sac",
+      "question": "Which of the following statements is correct?",
+      "options": {
+        "A": "Atropine is poorly absorbed after oral administration",
+        "B": "Ipratropium is well absorbed with a long systemic action",
+        "C": "Benztropine is a quaternary amine with poor CNS penetration",
+        "D": "Cyclopentolate is well absorbed from the conjunctival sac into the systemic circulation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Atropine, a lipid-soluble tertiary amine, is well (not poorly) absorbed after oral administration.",
+        "B": "Incorrect. Ipratropium is a charged quaternary compound that is poorly absorbed systemically and has a short duration, deliberately confining its action largely to the airway after inhalation.",
+        "C": "Incorrect. Benztropine must cross the blood-brain barrier to treat Parkinsonism, so it is a lipid-soluble tertiary amine with good, not poor, CNS penetration, not a quaternary compound.",
+        "D": "Correct. The conjunctival sac is a genuine absorptive surface, and cyclopentolate, like other topical antimuscarinic mydriatics, is well absorbed from it into the systemic circulation rather than staying confined to the eye. This systemic absorption is why topical ocular antimuscarinics can occasionally produce systemic antimuscarinic side effects, particularly in young children or when used repeatedly."
+      },
+      "main_concept": "CON-FND-A66A12DA206DDD",
+      "concept_ids": [
+        "CON-FND-A66A12DA206DDD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Ocular Antimuscarinics",
+      "question_type": "Recall",
+      "learning_objective": "State that cyclopentolate is well absorbed systemically from the conjunctival sac.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ANTIMUSCARINIC"
+      ],
+      "module_subject": "O6U-IPH-108 > Autonomic Pharmacology > Ocular Antimuscarinics > Systemic absorption from the conjunctival sac",
+      "source_citation": "pharma MCQs bank .pdf, p120",
+      "field_notes": {
+        "keySource": "printed \"d. Cyclopentolate is well absorbed from conjunctival sac into the eye\" with OCR trailing checkmark, p120 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q21",
+      "hold": "Compound multi-blank fill-in stem spanning two linked facts (rate-limiting step in NE synthesis inhibited by alpha-methyl-tyrosine; alpha-methyl-tyrosine's use in phaeochromocytoma) rather than a single-fact SBA shape; held per the standing rule against compound-stem items, consistent with lanes 1-2's own holds for this shape (p123 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q22",
+      "page": 124,
+      "title": "Beta-1 receptors are absent from smooth muscle",
+      "question": "All of the following adrenergic receptors are found in smooth muscle EXCEPT:",
+      "options": {
+        "A": "Alpha-2 receptors",
+        "B": "Beta-1 receptors",
+        "C": "Alpha-1 receptors",
+        "D": "Beta-2 receptors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Alpha-2 receptors genuinely are found on smooth muscle (e.g. mediating arterial contraction), so this is not the exception.",
+        "B": "Correct. Beta-1 adrenoceptors are essentially absent from smooth muscle; they are instead concentrated in cardiac tissue and the kidney's juxtaglomerular apparatus. Alpha-1, alpha-2 and beta-2 receptors, by contrast, are all genuinely present in various smooth-muscle beds, mediating contraction (alpha-1, alpha-2) or relaxation (beta-2) depending on the tissue.",
+        "C": "Incorrect. Alpha-1 receptors genuinely are found on smooth muscle (e.g. mediating vascular and genitourinary contraction), so this is not the exception.",
+        "D": "Incorrect. Beta-2 receptors genuinely are found on smooth muscle (e.g. mediating bronchial and uterine relaxation), so this is not the exception."
+      },
+      "main_concept": "CON-FND-4D62F4DD51AA55",
+      "concept_ids": [
+        "CON-FND-4D62F4DD51AA55"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Receptor Distribution Quirks",
+      "question_type": "Classification",
+      "learning_objective": "State that beta-1 receptors, unlike alpha-1, alpha-2 and beta-2, are absent from smooth muscle.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Receptor Distribution Quirks > Beta-1 receptor tissue distribution",
+      "source_citation": "pharma MCQs bank .pdf, p124",
+      "field_notes": {
+        "keySource": "printed \"b. Beta-1 receptors\" with OCR trailing checkmark, p124 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q23",
+      "page": 125,
+      "title": "Alpha-2 activation does not raise vagal tone",
+      "question": "Alpha-2 receptor activation can lead to all of the following effects EXCEPT:",
+      "options": {
+        "A": "Inhibits lipolysis",
+        "B": "Decreased sympathetic outflow",
+        "C": "Increased vagal tone",
+        "D": "Decreased insulin release",
+        "E": "Contraction of arterial smooth muscle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Alpha-2 receptor activation genuinely inhibits lipolysis, so this is not the exception.",
+        "B": "Incorrect. Alpha-2 receptor activation genuinely decreases sympathetic outflow via central and presynaptic autoinhibitory mechanisms, so this is not the exception.",
+        "C": "Correct. Vagal (parasympathetic) tone is a separate, cholinergic autonomic system, not a direct effect of the sympathetic alpha-2 receptor. Alpha-2 receptor activation's own effects are all sympathetic-side: inhibiting lipolysis, decreasing sympathetic outflow, decreasing insulin release, and contracting arterial smooth muscle. Because this question asks for the exception, raising vagal tone -- which alpha-2 activation does not do -- is the effect that does not belong on this list.",
+        "D": "Incorrect. Alpha-2 receptor activation genuinely decreases insulin release from the pancreatic beta cell, so this is not the exception.",
+        "E": "Incorrect. Alpha-2 receptor activation genuinely contracts arterial smooth muscle, so this is not the exception."
+      },
+      "main_concept": "CON-FND-BF8383BCB20AB4",
+      "concept_ids": [
+        "CON-FND-BF8383BCB20AB4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Alpha-2 and Beta-2 Peripheral Effects",
+      "question_type": "Classification",
+      "learning_objective": "State that alpha-2 receptor activation does not increase vagal tone, unlike its genuine effects on lipolysis, sympathetic outflow, insulin release and arterial smooth muscle.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Alpha-2 and Beta-2 Peripheral Effects > Alpha-2 peripheral effects",
+      "source_citation": "pharma MCQs bank .pdf, p125",
+      "field_notes": {
+        "keySource": "printed \"c. increased vagal tone\" with OCR trailing checkmark, p125 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q24",
+      "hold": "Compound multi-part comparison stem (alpha-methyldopa versus carbidopa, each in relation to central versus peripheral dopamine-synthesis inhibition and its effect on Parkinsonism) rather than a single-fact SBA shape; the printed checkmark itself also garbled to an unattributable stray mark (\"™\") rather than a clean single-option signal. Held per the standing rule against compound-stem items (p126 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q25",
+      "page": 127,
+      "title": "Beta-2 receptors facilitate both lipolysis and glycogenolysis",
+      "question": "Choose the correct statement about epinephrine's metabolic effects:",
+      "options": {
+        "A": "Beta-2 receptors increase blood glucose by inducing liver and muscle glycogenolysis",
+        "B": "Beta-2 receptors facilitate lipolysis and glycogenolysis",
+        "C": "Alpha-1 receptors are the main receptors that mediate glycogenolysis",
+        "D": "Alpha-2 receptors facilitate lipolysis and glycogenolysis",
+        "E": "Beta-1 receptors mediate lipolysis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect as the single best answer. This statement is true as far as it goes, but it captures only the glycogenolysis/blood-glucose part of beta-2's metabolic profile and omits the lipolysis effect this question also tests, making option B the more complete statement.",
+        "B": "Correct. Beta-2 receptor activation raises blood glucose by stimulating hepatic and skeletal-muscle glycogenolysis and separately facilitates lipolysis in adipose tissue, together producing the classic catecholamine metabolic signature of hyperglycemia and elevated free fatty acids. This is the more complete statement of beta-2's metabolic effects, covering both the carbohydrate and lipid sides of its action.",
+        "C": "Incorrect. Beta, not alpha-1, receptors are the main mediators of glycogenolysis; alpha-1 receptors instead primarily mediate smooth-muscle contraction and other Gq-coupled effects.",
+        "D": "Incorrect. Alpha-2 receptors inhibit, rather than facilitate, lipolysis, the opposite direction from this statement, consistent with alpha-2's Gi coupling.",
+        "E": "Incorrect as the single best answer. Beta-1 receptors are primarily cardiac and juxtaglomerular in distribution; beta-2, not beta-1, is the receptor classically credited with mediating adipose-tissue lipolysis in this metabolic context."
+      },
+      "main_concept": "CON-FND-BF8383BCB20AB4",
+      "concept_ids": [
+        "CON-FND-BF8383BCB20AB4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Alpha-2 and Beta-2 Peripheral Effects",
+      "question_type": "Recall",
+      "learning_objective": "State that beta-2 receptor activation facilitates both lipolysis and glycogenolysis.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Alpha-2 and Beta-2 Peripheral Effects > Beta-2 metabolic effects",
+      "source_citation": "pharma MCQs bank .pdf, p127",
+      "field_notes": {
+        "keySource": "printed \"b. B-2 receptors facilitate lipolysis and glycogenalysis\" with OCR trailing checkmark, p127 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q26",
+      "page": 128,
+      "title": "Dobutamine does not block norepinephrine uptake",
+      "question": "Drugs that block uptake of norepinephrine include all of the following EXCEPT:",
+      "options": {
+        "A": "Amphetamine",
+        "B": "Imipramine",
+        "C": "Maprotyline",
+        "D": "Cocaine",
+        "E": "Dobutamine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Amphetamine genuinely blocks norepinephrine reuptake (in addition to promoting its release), so it is not the exception.",
+        "B": "Incorrect. Imipramine, a tricyclic antidepressant, genuinely blocks norepinephrine reuptake, so it is not the exception.",
+        "C": "Incorrect. Maprotyline, a tetracyclic antidepressant, genuinely blocks norepinephrine reuptake, so it is not the exception.",
+        "D": "Incorrect. Cocaine genuinely blocks norepinephrine reuptake, part of its stimulant and local anesthetic pharmacology, so it is not the exception.",
+        "E": "Correct. Dobutamine is a direct-acting synthetic catecholamine that stimulates beta-1 adrenoceptors directly rather than acting through the norepinephrine transporter. Its inotropic effect comes from direct receptor agonism, not from potentiating endogenous norepinephrine, so unlike amphetamine, imipramine, maprotyline and cocaine, it does not block norepinephrine uptake."
+      },
+      "main_concept": "CON-FND-9CB076E696BA1C",
+      "concept_ids": [
+        "CON-FND-9CB076E696BA1C"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Norepinephrine Uptake Blockers",
+      "question_type": "Classification",
+      "learning_objective": "State that dobutamine, a direct-acting beta-1 agonist, does not block norepinephrine reuptake, unlike amphetamine, imipramine, maprotyline and cocaine.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Norepinephrine Uptake Blockers > Uptake blockade versus direct agonism",
+      "source_citation": "pharma MCQs bank .pdf, p128",
+      "field_notes": {
+        "keySource": "printed \"e. Dobutamine\" with OCR trailing checkmark, p128 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q27",
+      "hold": "No visible printed key: OCR recovered only the four option labels (Carbohydrate/Proteins/Minerals/Fat) with no trailing checkmark or highlighted-feedback text on any line. Held rather than keyed by fact-checking (p129 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q28",
+      "hold": "Compound two-blank fill-in stem (N-methylation versus O-methylation, each paired with synthesis-versus-metabolism and catechol-ring-versus-side-chain location) rather than a single-fact SBA shape; held per the standing rule against compound-stem items, consistent with lanes 1-2's own holds for this shape (p130 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q29",
+      "hold": "Compound two-blank fill-in stem (presynaptic receptor subtype inhibiting versus enhancing NE release) rather than a single-fact SBA shape; held per the standing rule against compound-stem items, consistent with lanes 1-2's own holds for this shape (p131 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q30",
+      "page": 132,
+      "title": "Norepinephrine's action ends mainly by presynaptic reuptake",
+      "question": "Termination of norepinephrine's effect is MAINLY due to:",
+      "options": {
+        "A": "Metabolism by COMT",
+        "B": "Reuptake into presynaptic nerve terminals",
+        "C": "Diffusion of norepinephrine away from receptors",
+        "D": "Metabolism by MAO",
+        "E": "Hydrolysis by plasma esterase enzyme"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect as the main mechanism. Catechol-O-methyltransferase does metabolise norepinephrine, but this is a secondary clearance pathway, not the main termination mechanism.",
+        "B": "Correct. Norepinephrine's synaptic action is terminated mainly by active reuptake into the presynaptic nerve terminal (uptake 1), the same transporter that drugs such as cocaine and tricyclic antidepressants block to potentiate noradrenergic transmission. Enzymatic metabolism by COMT and MAO acts as a secondary clearance mechanism rather than the dominant termination pathway.",
+        "C": "Incorrect. Passive diffusion away from the receptor is not the main termination mechanism for a synaptic transmitter with an active, high-affinity reuptake transporter available.",
+        "D": "Incorrect as the main mechanism. Monoamine oxidase does metabolise norepinephrine, but this is a secondary clearance pathway, not the main termination mechanism.",
+        "E": "Incorrect. Norepinephrine is not a substrate for plasma esterase hydrolysis; that clearance route is more relevant to ester-linked drugs such as succinylcholine or esmolol."
+      },
+      "main_concept": "CON-FND-2A607A49485401",
+      "concept_ids": [
+        "CON-FND-2A607A49485401"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Catecholamine Synthesis, Fate and Diagnosis",
+      "question_type": "Recall",
+      "learning_objective": "State that norepinephrine's synaptic action is terminated mainly by presynaptic reuptake, not enzymatic metabolism.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Catecholamine Synthesis, Fate and Diagnosis > Norepinephrine termination",
+      "source_citation": "pharma MCQs bank .pdf, p132",
+      "field_notes": {
+        "keySource": "printed \"b. Reuptake into presynaptic nerve terminals\" with OCR trailing checkmark, p132 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q31",
+      "page": 133,
+      "title": "Bronchial, ciliary and pupillary-constrictor muscle lack alpha receptors",
+      "question": "Which of the following smooth muscles do not contain alpha receptors?",
+      "options": {
+        "A": "Bronchial smooth muscle",
+        "B": "Ciliary muscle",
+        "C": "Constrictor pupillae (sphincter pupillae) muscle",
+        "D": "Two of the above",
+        "E": "All of the above"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect as the single best answer. Bronchial smooth muscle genuinely lacks alpha receptors, but so do the ciliary and constrictor pupillae muscles, making \"all of the above\" the more complete answer.",
+        "B": "Incorrect as the single best answer. The ciliary muscle genuinely lacks alpha receptors, but so do bronchial smooth muscle and the constrictor pupillae muscle, making \"all of the above\" the more complete answer.",
+        "C": "Incorrect as the single best answer. The constrictor pupillae muscle genuinely lacks alpha receptors, but so do bronchial smooth muscle and the ciliary muscle, making \"all of the above\" the more complete answer.",
+        "D": "Incorrect. All three listed smooth muscles, not merely two, lack alpha receptors.",
+        "E": "Correct. Bronchial smooth muscle, the ciliary muscle, and the constrictor pupillae (sphincter pupillae) muscle all lack alpha adrenoceptors. Their tone is instead governed by other receptor systems: beta-2 receptors relax bronchial smooth muscle, beta receptors relax the ciliary muscle to facilitate far vision, and muscarinic receptors, not adrenoceptors at all, contract the constrictor pupillae. Recognising which receptor system actually controls a given smooth muscle, rather than assuming alpha receptors are universal, is the point this question tests."
+      },
+      "main_concept": "CON-FND-4D62F4DD51AA55",
+      "concept_ids": [
+        "CON-FND-4D62F4DD51AA55"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Receptor Distribution Quirks",
+      "question_type": "Classification",
+      "learning_objective": "State that bronchial smooth muscle, the ciliary muscle and the constrictor pupillae muscle all lack alpha receptors.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Receptor Distribution Quirks > Alpha-receptor absence in specific smooth muscle",
+      "source_citation": "pharma MCQs bank .pdf, p133",
+      "field_notes": {
+        "keySource": "printed \"e. All of the above\" with OCR trailing checkmark, p133 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q32",
+      "page": 134,
+      "title": "Norepinephrine from sympathetic nerves, epinephrine from the adrenal medulla",
+      "question": "The most important catecholamine secreted by sympathetic nerves is ________, while that secreted by the adrenal medulla is ________:",
+      "options": {
+        "A": "Norepinephrine, dopamine",
+        "B": "Dopamine, epinephrine",
+        "C": "Norepinephrine, epinephrine",
+        "D": "Epinephrine, dopamine",
+        "E": "Epinephrine, norepinephrine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Norepinephrine genuinely is the main sympathetic-nerve catecholamine, but dopamine is not the main adrenal-medullary secretion.",
+        "B": "Incorrect. Dopamine is not the main sympathetic-nerve catecholamine; norepinephrine is.",
+        "C": "Correct. Norepinephrine is the principal transmitter released by postganglionic sympathetic nerve terminals, while epinephrine is instead the main catecholamine secreted by the adrenal medulla's chromaffin cells, which express the extra enzyme (phenylethanolamine N-methyltransferase) needed to N-methylate norepinephrine into epinephrine. This division -- norepinephrine for direct neural sympathetic transmission, epinephrine as the adrenal hormone -- is a foundational distinction in autonomic pharmacology.",
+        "D": "Incorrect. Epinephrine is not the main sympathetic-nerve catecholamine; norepinephrine is. Dopamine is likewise not the main adrenal-medullary secretion.",
+        "E": "Incorrect. This option reverses the correct pairing: norepinephrine, not epinephrine, is the main sympathetic-nerve catecholamine, and epinephrine, not norepinephrine, is the main adrenal-medullary secretion."
+      },
+      "main_concept": "CON-FND-2A607A49485401",
+      "concept_ids": [
+        "CON-FND-2A607A49485401"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Catecholamine Synthesis, Fate and Diagnosis",
+      "question_type": "Recall",
+      "learning_objective": "State that norepinephrine is the main sympathetic-nerve catecholamine while epinephrine is the main adrenal-medullary catecholamine.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Catecholamine Synthesis, Fate and Diagnosis > Sympathetic-nerve versus adrenal-medullary catecholamine",
+      "source_citation": "pharma MCQs bank .pdf, p134",
+      "field_notes": {
+        "keySource": "printed \"c. Norepinephrine, epinephrine\" with OCR trailing checkmark, p134 of pharma MCQs bank .pdf"
+      },
+      "author_notes": "Source printed six options (a-f); option f (\"Dopamine, norepinephrine\") trimmed to keep the item within the 4-5-option contract, since it duplicates the same two-catecholamine pairing pattern as the other distractors without adding a distinct teaching point."
+    },
+    {
+      "key": "pharmabank2-q33",
+      "page": 135,
+      "title": "VMA is the key marker for pheochromocytoma",
+      "question": "The most important marker for diagnosis of pheochromocytoma is:",
+      "options": {
+        "A": "Normetanephrine",
+        "B": "Vanillylmandelic acid (VMA)",
+        "C": "Metanephrine",
+        "D": "Chromogranin A",
+        "E": "5-hydroxyindoleacetic acid"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect as the single best answer. Normetanephrine is a genuine catecholamine metabolite of diagnostic use, but VMA is the classically taught principal urinary marker for pheochromocytoma.",
+        "B": "Correct. Vanillylmandelic acid (VMA) is the principal urinary metabolite of catecholamine breakdown. Its excretion reflects the tumour's excess catecholamine production and metabolism, which is why it is the most useful, classically taught marker for diagnosing pheochromocytoma. Elevated urinary VMA, together with metanephrines, remains a standard first-line biochemical screen when pheochromocytoma is suspected.",
+        "C": "Incorrect as the single best answer. Metanephrine is a genuine catecholamine metabolite of diagnostic use, but VMA is the classically taught principal urinary marker for pheochromocytoma.",
+        "D": "Incorrect. Chromogranin A is a general neuroendocrine tumour marker, not the specific catecholamine-metabolite marker classically taught for pheochromocytoma.",
+        "E": "Incorrect. 5-hydroxyindoleacetic acid (5-HIAA) is the metabolite marker for carcinoid tumours (serotonin metabolism), not for pheochromocytoma."
+      },
+      "main_concept": "CON-FND-2A607A49485401",
+      "concept_ids": [
+        "CON-FND-2A607A49485401"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Catecholamine Synthesis, Fate and Diagnosis",
+      "question_type": "Recall",
+      "learning_objective": "State that vanillylmandelic acid (VMA) is the most important urinary marker for diagnosing pheochromocytoma.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Catecholamine Synthesis, Fate and Diagnosis > Pheochromocytoma diagnosis",
+      "source_citation": "pharma MCQs bank .pdf, p135",
+      "field_notes": {
+        "keySource": "printed \"b. Vanilyl mandelic acid\" with OCR trailing checkmark, p135 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q34",
+      "page": 136,
+      "title": "Presynaptic alpha-2 autoreceptors are stimulated by norepinephrine",
+      "question": "The presynaptic receptor that is stimulated by norepinephrine is:",
+      "options": {
+        "A": "Beta-3 receptors",
+        "B": "Alpha-2 receptors",
+        "C": "Beta-2 receptors",
+        "D": "Beta-1 receptors",
+        "E": "Alpha-1 receptors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Beta-3 receptors are not the classic presynaptic autoreceptor stimulated by norepinephrine for negative-feedback inhibition.",
+        "B": "Correct. The presynaptic alpha-2 autoreceptor is stimulated by norepinephrine released into the synapse. This binding mediates a specific negative-feedback loop, in which norepinephrine acting back on its own presynaptic alpha-2 receptor inhibits further norepinephrine release. The result is a self-limiting brake on the duration and intensity of noradrenergic signalling at that synapse.",
+        "C": "Incorrect. Beta-2 receptors are not the classic presynaptic autoreceptor mediating norepinephrine's own negative-feedback inhibition of its release.",
+        "D": "Incorrect. Beta-1 receptors are predominantly postsynaptic (cardiac), not the presynaptic autoreceptor this question describes.",
+        "E": "Incorrect. Alpha-1 receptors are predominantly postsynaptic, not the presynaptic autoreceptor mediating norepinephrine's own negative feedback."
+      },
+      "main_concept": "CON-FND-BF8383BCB20AB4",
+      "concept_ids": [
+        "CON-FND-BF8383BCB20AB4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Alpha-2 and Beta-2 Peripheral Effects",
+      "question_type": "Recall",
+      "learning_objective": "State that the presynaptic alpha-2 autoreceptor mediates norepinephrine's own negative-feedback inhibition of further release.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Alpha-2 and Beta-2 Peripheral Effects > Presynaptic alpha-2 autoreceptor",
+      "source_citation": "pharma MCQs bank .pdf, p136",
+      "field_notes": {
+        "keySource": "printed \"b. Alpha-2 receptors\" with OCR trailing checkmark, p136 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q35",
+      "page": 137,
+      "title": "Tyrosine hydroxylase is rate-limiting for catecholamine synthesis",
+      "question": "The rate-limiting step in catecholamine biosynthesis is catalyzed by:",
+      "options": {
+        "A": "N-methyltransferase (PNMT)",
+        "B": "O-methyltransferase (COMT)",
+        "C": "Dopa decarboxylase",
+        "D": "Tyrosine hydroxylase",
+        "E": "Dopamine beta-hydroxylase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Phenylethanolamine N-methyltransferase catalyses the final step (norepinephrine to epinephrine) in the adrenal medulla, not the pathway's rate-limiting step.",
+        "B": "Incorrect. Catechol-O-methyltransferase is a catecholamine-metabolising (breakdown) enzyme, not a biosynthetic enzyme.",
+        "C": "Incorrect. Dopa decarboxylase converts L-DOPA to dopamine, a step downstream of the pathway's rate-limiting step.",
+        "D": "Correct. Tyrosine hydroxylase, which converts tyrosine to L-DOPA, catalyzes the rate-limiting step of catecholamine biosynthesis, upstream of dopamine, norepinephrine and epinephrine formation. Because it is rate-limiting, its activity (regulated by feedback inhibition from the pathway's own end-products) determines the overall rate of catecholamine production.",
+        "E": "Incorrect. Dopamine beta-hydroxylase converts dopamine to norepinephrine, a step downstream of the pathway's rate-limiting step."
+      },
+      "main_concept": "CON-FND-2A607A49485401",
+      "concept_ids": [
+        "CON-FND-2A607A49485401"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "Catecholamine Synthesis, Fate and Diagnosis",
+      "question_type": "Recall",
+      "learning_objective": "State that tyrosine hydroxylase catalyzes the rate-limiting step of catecholamine biosynthesis.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > Catecholamine Synthesis, Fate and Diagnosis > Rate-limiting biosynthetic enzyme",
+      "source_citation": "pharma MCQs bank .pdf, p137",
+      "field_notes": {
+        "keySource": "printed \"d. Tyrosine hydroxylase\" with OCR trailing checkmark, p137 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q36",
+      "page": 138,
+      "title": "MAO-A inhibitors treat depression, MAO-B inhibitors treat Parkinsonism",
+      "question": "Which of the following statements is true about MAO inhibitors?",
+      "options": {
+        "A": "Both types of MAO inhibitor are used for treatment of depression",
+        "B": "Selective MAO-B inhibitor is used for treatment of depression while selective MAO-A inhibitor is used for treatment of Parkinsonism",
+        "C": "Both types of MAO inhibitor are used for treatment of Parkinsonism",
+        "D": "Selective MAO-A inhibitor is used for treatment of depression while selective MAO-B inhibitor is used for treatment of Parkinsonism"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Selective MAO-B inhibitors are used for Parkinsonism, not depression, so it is not true that both types are used for depression.",
+        "B": "Incorrect. This option reverses the correct pairing: MAO-A, not MAO-B, inhibition is used for depression, and MAO-B, not MAO-A, inhibition is used for Parkinsonism.",
+        "C": "Incorrect. Selective MAO-A inhibitors are used for depression, not Parkinsonism, so it is not true that both types are used for Parkinsonism.",
+        "D": "Correct. Selective MAO-A inhibitors preferentially block the isoform that metabolizes serotonin and norepinephrine, and are used to treat depression. Selective MAO-B inhibitors, by contrast, preferentially block the isoform that metabolizes dopamine, sparing peripheral MAO-A activity, and are instead used to treat Parkinsonism by prolonging striatal dopamine's action."
+      },
+      "main_concept": "CON-FND-468781ED59332C",
+      "concept_ids": [
+        "CON-FND-468781ED59332C"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Adrenergic and Muscarinic Pharmacology",
+      "subtopic": "MAO Isoform Selectivity",
+      "question_type": "Classification",
+      "learning_objective": "State that selective MAO-A inhibitors treat depression while selective MAO-B inhibitors treat Parkinsonism.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-ADRENERGIC-RECEPTORS"
+      ],
+      "module_subject": "O6U-IPH-108 > Adrenergic and Muscarinic Pharmacology > MAO Isoform Selectivity > MAO-A versus MAO-B indications",
+      "source_citation": "pharma MCQs bank .pdf, p138",
+      "field_notes": {
+        "keySource": "printed \"d. Selective MAO-A inhibitor is used for treatment of depression while Selective MAO-B inhibitor is used for treatment of Parkinsonism\" with OCR trailing checkmark, p138 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q37",
+      "hold": "Ordering exercise (arrange salbutamol/ephedrine/epinephrine by speed of tolerance onset), not a single-`correct`-letter SBA shape; held per the standing rule, consistent with lanes 1-2's own holds for this shape (p141 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q38",
+      "hold": "\"Match the pairs\" table item (adrenoceptor agonists matched to the receptor subtypes each stimulates), not a single-`correct`-letter SBA shape; held per the standing rule, consistent with lanes 1-2's own holds for this shape (p142 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q39",
+      "hold": "\"Match the pairs\" table item (alpha-2 agonists matched to their clinical use), not a single-`correct`-letter SBA shape; held per the standing rule, consistent with lanes 1-2's own holds for this shape (p143 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q40",
+      "page": 144,
+      "title": "Methylphenidate is the amphetamine congener used for ADHD",
+      "question": "Which of the following is an amphetamine congener correctly matched to its indication?",
+      "options": {
+        "A": "Modafinil, narcolepsy",
+        "B": "Diethylpropion, attention deficit hyperkinetic disorder of childhood",
+        "C": "Methylphenidate, attention deficit hyperkinetic disorder of childhood",
+        "D": "Dextroamphetamine, short-term treatment of obesity",
+        "E": "Phentermine, nocturnal enuresis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect as the single best answer here. Modafinil genuinely is used for narcolepsy, but this question's printed key specifically credits methylphenidate with the ADHD pairing as the intended single best answer.",
+        "B": "Incorrect. Diethylpropion is an anorexiant used for short-term obesity treatment, not for ADHD.",
+        "C": "Correct. Methylphenidate is the amphetamine congener specifically indicated for attention deficit hyperkinetic disorder (ADHD) of childhood. It works through the same broad dopamine/norepinephrine-releasing and reuptake-inhibiting mechanism as amphetamine itself, but its clinical profile favours the chronic, lower-dose daily use ADHD management requires. This drug/indication pairing is the one this source's printed key credits as the correct match among the five listed options.",
+        "D": "Incorrect as the single best answer here. Dextroamphetamine can be used short-term for obesity, but its better-known primary indication pairing tested here is ADHD/narcolepsy control, and this question's printed key credits methylphenidate, not dextroamphetamine, with the correct pairing shown.",
+        "E": "Incorrect. Phentermine is an anorexiant used for short-term obesity treatment, not for nocturnal enuresis (which is instead classically treated with imipramine or desmopressin)."
+      },
+      "main_concept": "CON-FND-6CA52D9B5DA490",
+      "concept_ids": [
+        "CON-FND-6CA52D9B5DA490"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Amphetamine Congener Classification",
+      "question_type": "Classification",
+      "learning_objective": "State that methylphenidate is the amphetamine congener specifically indicated for ADHD.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Amphetamine Congener Classification > Methylphenidate for ADHD",
+      "source_citation": "pharma MCQs bank .pdf, p144",
+      "field_notes": {
+        "keySource": "printed \"c. Methylphenidate, Attention Deficit Hyperkinetic Disorders of Childhood\" with OCR trailing checkmark, p144 of pharma MCQs bank .pdf"
+      },
+      "author_notes": "Stem heavily OCR-garbled (\"wooo 15 ONE Of the amphetamine congeners used Inn .............\"); reconstructed as a drug/indication matching question consistent with the five printed drug-indication option pairs and the printed correct-answer mark on option c."
+    },
+    {
+      "key": "pharmabank2-q41",
+      "page": 145,
+      "title": "Epinephrine reversal occurs with phentolamine pretreatment",
+      "question": "\"Epinephrine reversal\" could occur if epinephrine is administered in the presence of:",
+      "options": {
+        "A": "Cocaine",
+        "B": "Propranolol",
+        "C": "Phentolamine",
+        "D": "Clonidine",
+        "E": "Reserpine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cocaine blocks norepinephrine reuptake, potentiating rather than reversing epinephrine's pressor effect.",
+        "B": "Incorrect. Propranolol is a nonselective beta-blocker; blocking beta-2 vasodilation while leaving alpha-1 vasoconstriction intact would leave epinephrine's pressor effect unopposed or even exaggerated, not reversed.",
+        "C": "Correct. Pretreating with an alpha-adrenergic blocker such as phentolamine produces the classic epinephrine-reversal phenomenon: with alpha-1 vasoconstriction blocked, epinephrine's unopposed beta-2 vasodilation dominates, so blood pressure falls instead of rising. This is the textbook demonstration that epinephrine's net pressor effect depends on which receptor's action is left unopposed.",
+        "D": "Incorrect. Clonidine is a centrally-acting alpha-2 agonist that lowers blood pressure through a different mechanism (reduced central sympathetic outflow), not through peripheral alpha-1 blockade, so it does not produce epinephrine reversal.",
+        "E": "Incorrect. Reserpine depletes presynaptic catecholamine stores; it does not block postsynaptic alpha-1 receptors, so it does not produce epinephrine reversal."
+      },
+      "main_concept": "CON-FND-AC98BAAAAC26B8",
+      "concept_ids": [
+        "CON-FND-AC98BAAAAC26B8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Epinephrine Clinical Pharmacology",
+      "question_type": "Recall",
+      "learning_objective": "State that alpha-blocker (phentolamine) pretreatment produces epinephrine reversal.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Epinephrine Clinical Pharmacology > Epinephrine reversal",
+      "source_citation": "pharma MCQs bank .pdf, p145",
+      "field_notes": {
+        "keySource": "printed \"c. Phentolamine\" with OCR trailing checkmark, p145 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q42",
+      "page": 146,
+      "title": "Diabetes mellitus is not an absolute contraindication to epinephrine",
+      "question": "Absolute contraindications of epinephrine do not include:",
+      "options": {
+        "A": "Hypertension",
+        "B": "Concurrent nonselective beta-blocker use",
+        "C": "Local anesthesia of the fingers",
+        "D": "Angina pectoris",
+        "E": "Diabetes mellitus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Uncontrolled hypertension genuinely is an absolute contraindication to epinephrine, so it is not the exception.",
+        "B": "Incorrect. Concurrent nonselective beta-blocker use genuinely is an absolute contraindication (risking unopposed alpha-1 pressor effect), so it is not the exception.",
+        "C": "Incorrect. Local anesthesia of an end-arterial site such as the fingers genuinely is an absolute contraindication to epinephrine-containing local anesthetic, so it is not the exception.",
+        "D": "Incorrect. Angina pectoris genuinely is an absolute contraindication, given epinephrine's potential to provoke cardiac ischemia, so it is not the exception.",
+        "E": "Correct. Diabetes mellitus is not among epinephrine's absolute contraindications. Epinephrine's hyperglycemic tendency is a manageable, monitorable adverse effect rather than a reason to withhold it in a genuine emergency such as anaphylaxis, unlike the absolute contraindications of uncontrolled hypertension, nonselective beta-blocker use, digital local anesthesia and angina pectoris."
+      },
+      "main_concept": "CON-FND-AC98BAAAAC26B8",
+      "concept_ids": [
+        "CON-FND-AC98BAAAAC26B8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Epinephrine Clinical Pharmacology",
+      "question_type": "Classification",
+      "learning_objective": "State that diabetes mellitus is not among epinephrine's absolute contraindications.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Epinephrine Clinical Pharmacology > Contraindications",
+      "source_citation": "pharma MCQs bank .pdf, p146",
+      "field_notes": {
+        "keySource": "printed \"e. Diabetes Mellitus\" with OCR trailing checkmark, p146 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q43",
+      "hold": "No visible printed key: OCR recovered only the five option labels (Hypotension/Atrophic rhinitis/Tachycardia/Lower IOP/Bronchospasm) with no trailing checkmark or highlighted-feedback text on any line. Held rather than keyed by fact-checking (p147 of pharma MCQs bank .pdf)."
+    },
+    {
+      "key": "pharmabank2-q44",
+      "page": 148,
+      "title": "Clonidine, unlike other topical alpha-2 agonists, is used systemically",
+      "question": "All of the following drugs are used topically to induce local vasoconstriction, while systemically they lower arterial blood pressure through selective alpha-2 agonism, with the exception of:",
+      "options": {
+        "A": "Oxymetazoline",
+        "B": "Apraclonidine",
+        "C": "Brimonidine",
+        "D": "Clonidine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Oxymetazoline genuinely is used topically as a nasal decongestant vasoconstrictor, so it is not the exception.",
+        "B": "Incorrect. Apraclonidine genuinely is used topically (ocularly) as a local vasoconstrictor/IOP-lowering agent, so it is not the exception.",
+        "C": "Incorrect. Brimonidine genuinely is used topically (ocularly) as a local vasoconstrictor/IOP-lowering agent, so it is not the exception.",
+        "D": "Correct. Clonidine can be applied topically, but its dominant clinical use is systemic: lowering arterial blood pressure through central alpha-2 agonism rather than producing a local vasoconstrictor effect. Oxymetazoline, apraclonidine and brimonidine, by contrast, are used clinically for their topical/local vasoconstrictor action (nasal decongestion, or lowering intraocular pressure). Because this question asks for the exception among drugs whose dominant use is topical vasoconstriction, clonidine's systemic antihypertensive role is what sets it apart."
+      },
+      "main_concept": "CON-FND-BCFA20165C46E9",
+      "concept_ids": [
+        "CON-FND-BCFA20165C46E9"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Alpha-2 Agonist Classification",
+      "question_type": "Classification",
+      "learning_objective": "State that clonidine, unlike other topical alpha-2 agonists, is primarily used systemically to lower blood pressure.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Alpha-2 Agonist Classification > Topical versus systemic alpha-2 agonist use",
+      "source_citation": "pharma MCQs bank .pdf, p148",
+      "field_notes": {
+        "keySource": "printed \"d. Clonidine\" with OCR trailing checkmark, p148 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q45",
+      "page": 149,
+      "title": "Alpha-methyldopa does not bind alpha-2 receptors directly",
+      "question": "All of the following bind selectively to alpha-2 receptors EXCEPT:",
+      "options": {
+        "A": "Yohimbine",
+        "B": "Clonidine",
+        "C": "Alpha-methyldopa",
+        "D": "Mianserin",
+        "E": "Alpha-methylnorepinephrine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Yohimbine genuinely binds alpha-2 receptors directly (as an antagonist), so it is not the exception.",
+        "B": "Incorrect. Clonidine genuinely binds alpha-2 receptors directly (as an agonist), so it is not the exception.",
+        "C": "Correct. Alpha-methyldopa is a prodrug, not an active alpha-2 ligand in its own right. It must first be metabolized to alpha-methylnorepinephrine, and only that active metabolite can then act at the alpha-2 receptor. Alpha-methyldopa itself therefore does not bind alpha-2 receptors directly, unlike yohimbine, clonidine, mianserin and alpha-methylnorepinephrine, which all do.",
+        "D": "Incorrect. Mianserin genuinely binds alpha-2 receptors directly (as an antagonist, part of its antidepressant pharmacology), so it is not the exception.",
+        "E": "Incorrect. Alpha-methylnorepinephrine, alpha-methyldopa's own active metabolite, genuinely binds alpha-2 receptors directly, so it is not the exception."
+      },
+      "main_concept": "CON-FND-BCFA20165C46E9",
+      "concept_ids": [
+        "CON-FND-BCFA20165C46E9"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Alpha-2 Agonist Classification",
+      "question_type": "Classification",
+      "learning_objective": "State that alpha-methyldopa, unlike yohimbine, clonidine, mianserin and alpha-methylnorepinephrine, does not bind alpha-2 receptors directly, requiring metabolic activation first.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Alpha-2 Agonist Classification > Alpha-methyldopa prodrug activation",
+      "source_citation": "pharma MCQs bank .pdf, p149",
+      "field_notes": {
+        "keySource": "printed \"c. Alpha Methyldopa\" with OCR trailing checkmark, p149 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q46",
+      "page": 150,
+      "title": "Amphetamine is not a direct adrenoceptor agonist",
+      "question": "Amphetamine induces all of the following effects EXCEPT:",
+      "options": {
+        "A": "Stimulates NE release",
+        "B": "Inhibits NE uptake",
+        "C": "Direct adrenoceptor agonist",
+        "D": "Anorexigenic",
+        "E": "Marked CNS stimulation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Amphetamine genuinely stimulates norepinephrine release, so this is not the exception.",
+        "B": "Incorrect. Amphetamine genuinely inhibits norepinephrine reuptake, so this is not the exception.",
+        "C": "Correct. Amphetamine is an indirect-acting sympathomimetic: it stimulates norepinephrine release and inhibits its reuptake, but it does not itself directly activate an adrenoceptor. Its adrenergic effects are entirely mediated through potentiating endogenous norepinephrine rather than through direct receptor agonism.",
+        "D": "Incorrect. Amphetamine genuinely produces an anorexigenic (appetite-suppressing) effect, so this is not the exception.",
+        "E": "Incorrect. Amphetamine genuinely produces marked CNS stimulation, so this is not the exception."
+      },
+      "main_concept": "CON-FND-674EB2314FC300",
+      "concept_ids": [
+        "CON-FND-674EB2314FC300"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Indirect and Mixed-Acting Sympathomimetics",
+      "question_type": "Classification",
+      "learning_objective": "State that amphetamine acts indirectly and is not itself a direct adrenoceptor agonist.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Indirect and Mixed-Acting Sympathomimetics > Amphetamine mechanism",
+      "source_citation": "pharma MCQs bank .pdf, p150",
+      "field_notes": {
+        "keySource": "printed \"c. Direct Adrenoceptor agonist\" with OCR trailing checkmark, p150 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q47",
+      "page": 151,
+      "title": "Atomoxetine lacks abuse potential",
+      "question": "Which amphetamine-related CNS stimulant lacks abuse potential?",
+      "options": {
+        "A": "Dextroamphetamine",
+        "B": "Methamphetamine",
+        "C": "Methylphenidate",
+        "D": "Atomoxetine",
+        "E": "Phentermine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Dextroamphetamine, a true amphetamine congener acting by releasing dopamine/norepinephrine, carries genuine abuse and dependence potential.",
+        "B": "Incorrect. Methamphetamine, a true amphetamine congener, carries genuine, well-known abuse and dependence potential.",
+        "C": "Incorrect. Methylphenidate, though widely used therapeutically for ADHD, still carries some abuse and dependence potential as a releasing-type stimulant.",
+        "D": "Correct. Atomoxetine is a selective norepinephrine reuptake inhibitor, not a releaser of dopamine and norepinephrine the way the true amphetamine congeners are. That different mechanism is exactly what spares it the abuse and dependence potential associated with releasing agents. This is why atomoxetine, unlike dextroamphetamine, methamphetamine and methylphenidate, is not a controlled/scheduled stimulant.",
+        "E": "Incorrect. Phentermine, a releasing-type sympathomimetic anorexiant, carries some abuse/dependence potential, unlike the reuptake-inhibitor mechanism that spares atomoxetine."
+      },
+      "main_concept": "CON-FND-6CA52D9B5DA490",
+      "concept_ids": [
+        "CON-FND-6CA52D9B5DA490"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Amphetamine Congener Classification",
+      "question_type": "Classification",
+      "learning_objective": "State that atomoxetine, unlike the true amphetamine congeners, lacks abuse potential because it inhibits norepinephrine reuptake rather than releasing catecholamines.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Amphetamine Congener Classification > Atomoxetine abuse potential",
+      "source_citation": "pharma MCQs bank .pdf, p151",
+      "field_notes": {
+        "keySource": "printed \"d. Atomoxetine\" with OCR trailing checkmark, p151 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q48",
+      "page": 152,
+      "title": "Anorexigens do not cause heart block",
+      "question": "Anorexigens are reported to induce all of the following adverse effects EXCEPT:",
+      "options": {
+        "A": "Myocardial infarction",
+        "B": "Stroke",
+        "C": "Pulmonary hypertension",
+        "D": "Valvular heart disease",
+        "E": "Heart block"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Myocardial infarction genuinely is a recognized anorexigen cardiotoxicity, so it is not the exception.",
+        "B": "Incorrect. Stroke genuinely is a recognized anorexigen cardiotoxicity, so it is not the exception.",
+        "C": "Incorrect. Pulmonary arterial hypertension genuinely is a recognized anorexigen cardiotoxicity, so it is not the exception.",
+        "D": "Incorrect. Valvular heart disease (a restrictive, carcinoid-like valvulopathy from serotonergic stimulation of valve fibroblasts) genuinely is a recognized anorexigen cardiotoxicity, so it is not the exception.",
+        "E": "Correct. Heart block is not a recognized anorexigen adverse effect. Anorexigen cardiotoxicity centers on ischemic (myocardial infarction, stroke), hypertensive (pulmonary hypertension) and valvular/structural pathways rather than on cardiac conduction, so a conduction abnormality such as heart block does not belong on this list."
+      },
+      "main_concept": "CON-FND-C4976C568427E9",
+      "concept_ids": [
+        "CON-FND-C4976C568427E9"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Anorexigen Cardiotoxicity",
+      "question_type": "Classification",
+      "learning_objective": "State that heart block is not a recognized anorexigen adverse effect, unlike myocardial infarction, stroke, pulmonary hypertension and valvular heart disease.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Anorexigen Cardiotoxicity > Recognized adverse effects",
+      "source_citation": "pharma MCQs bank .pdf, p152",
+      "field_notes": {
+        "keySource": "printed \"e. Heart block\" with OCR trailing checkmark, p152 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q49",
+      "page": 153,
+      "title": "Dobutamine is not preferred to isoprenaline in heart block",
+      "question": "Choose the incorrect statement about dobutamine:",
+      "options": {
+        "A": "Is a selective beta-1 agonist",
+        "B": "Is useful as short-term inotropic support",
+        "C": "Is given only by IV infusion",
+        "D": "May induce angina pain",
+        "E": "Is preferred to isoprenaline in heart block"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect as the answer -- this statement is true. Dobutamine genuinely is a selective beta-1 agonist, so it is not the false statement this question asks for.",
+        "B": "Incorrect as the answer -- this statement is true. Dobutamine genuinely is used as short-term inotropic support, so it is not the false statement this question asks for.",
+        "C": "Incorrect as the answer -- this statement is true. Dobutamine, as a catecholamine destroyed by first-pass metabolism, genuinely must be given by IV infusion, so it is not the false statement this question asks for.",
+        "D": "Incorrect as the answer -- this statement is true. Dobutamine's inotropic/chronotropic effect genuinely can increase myocardial oxygen demand and induce angina pain, so it is not the false statement this question asks for.",
+        "E": "Correct (this is the FALSE statement, and so the correct answer to an incorrect-statement question). Dobutamine's selective beta-1 agonism gives it a strong inotropic but only minimally chronotropic effect, unlike isoprenaline's strong, nonselective beta agonism, which produces the more pronounced chronotropic drive needed to raise heart rate in complete heart block. Isoprenaline, not dobutamine, is therefore preferred specifically for heart block, making the claim that dobutamine is preferred to isoprenaline in that setting the false statement."
+      },
+      "main_concept": "CON-FND-1F4B558BD69110",
+      "concept_ids": [
+        "CON-FND-1F4B558BD69110"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Catecholamine Inotrope Selection",
+      "question_type": "Classification",
+      "learning_objective": "State that isoprenaline, not dobutamine, is preferred for heart block, since dobutamine's beta-1 selectivity gives it only a minimal chronotropic effect.",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Catecholamine Inotrope Selection > Dobutamine versus isoprenaline in heart block",
+      "source_citation": "pharma MCQs bank .pdf, p153",
+      "field_notes": {
+        "keySource": "printed \"e. Is preferred to isoprenaline in heart block\" with OCR trailing checkmark, p153 of pharma MCQs bank .pdf"
+      },
+      "author_notes": "main_concept reused from Kasr 208-INT (pending-live overlay, CON-FND-1F4B558BD69110) -- see pending-live/O6U-IPH-108-overlay-concepts.md."
+    },
+    {
+      "key": "pharmabank2-q50",
+      "page": 154,
+      "title": "Dobutamine's catecholamine structure limits it to IV use",
+      "question": "Dobutamine is a catecholamine, so it is:",
+      "options": {
+        "A": "Short-acting",
+        "B": "Not useful orally",
+        "C": "Does not cross the blood-brain barrier",
+        "D": "Two of the above",
+        "E": "All of the above"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect as the single best answer. Dobutamine genuinely is short-acting, but it is also not useful orally and does not cross the blood-brain barrier, making \"all of the above\" the more complete answer.",
+        "B": "Incorrect as the single best answer. Dobutamine genuinely is not useful orally, but it is also short-acting and does not cross the blood-brain barrier, making \"all of the above\" the more complete answer.",
+        "C": "Incorrect as the single best answer. Dobutamine genuinely does not cross the blood-brain barrier, but it is also short-acting and not useful orally, making \"all of the above\" the more complete answer.",
+        "D": "Incorrect. All three listed properties, not merely two, are genuine consequences of dobutamine's catecholamine structure.",
+        "E": "Correct. As a synthetic catecholamine, dobutamine shares the pharmacokinetic limitations common to the whole catecholamine class: it is short-acting from rapid metabolism, not useful given orally because it is destroyed by first-pass gut and liver metabolism, and does not cross the blood-brain barrier. This combination is exactly why dobutamine must be given by continuous intravenous infusion for its inotropic effect."
+      },
+      "main_concept": "CON-FND-8A51C20EF93A32",
+      "concept_ids": [
+        "CON-FND-8A51C20EF93A32"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Catecholamine Inotrope Selection",
+      "question_type": "Recall",
+      "learning_objective": "State that dobutamine's catecholamine structure makes it short-acting, orally ineffective and CNS-excluded.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Catecholamine Inotrope Selection > Dobutamine pharmacokinetics",
+      "source_citation": "pharma MCQs bank .pdf, p154",
+      "field_notes": {
+        "keySource": "printed \"e. All of the above\" with OCR trailing checkmark, p154 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q51",
+      "page": 155,
+      "title": "Dopamine is preferred over dobutamine in renal impairment and over isoprenaline in heart block",
+      "question": "Dopamine is a second-line inotrope and vasopressor; however, it is preferred in the presence of:",
+      "options": {
+        "A": "It is preferred to dobutamine in the presence of renal impairment",
+        "B": "It is preferred to norepinephrine in the presence of hypotension",
+        "C": "It is preferred to isoprenaline in the presence of heart block",
+        "D": "Two of the above",
+        "E": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single best answer. This statement genuinely is true, but option C is also true, making \"two of the above\" the more complete answer.",
+        "B": "Incorrect. Dopamine is not preferred over norepinephrine for severe hypotension; norepinephrine's more potent, reliable alpha-1 vasopressor effect is favoured instead in that specific setting.",
+        "C": "Incorrect as the single best answer. This statement genuinely is true, but option A is also true, making \"two of the above\" the more complete answer.",
+        "D": "Correct. Dopamine is preferred over dobutamine specifically in the presence of renal impairment, through dopaminergic D1-receptor-mediated renal vasodilation at low doses, and preferred over isoprenaline specifically in the presence of heart block, through its added alpha/beta-mediated pressor support, which isoprenaline's pure beta-agonism lacks. Dopamine is not preferred over norepinephrine for severe hypotension, however, so only two of the three listed comparisons are genuinely true.",
+        "E": "Incorrect. Only two of the three listed comparisons are genuinely true; dopamine is not preferred over norepinephrine for severe hypotension."
+      },
+      "main_concept": "CON-FND-8A51C20EF93A32",
+      "concept_ids": [
+        "CON-FND-8A51C20EF93A32"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Catecholamine Inotrope Selection",
+      "question_type": "Classification",
+      "learning_objective": "State that dopamine is preferred over dobutamine in renal impairment and over isoprenaline in heart block, but not over norepinephrine in severe hypotension.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Catecholamine Inotrope Selection > Dopamine preference settings",
+      "source_citation": "pharma MCQs bank .pdf, p155",
+      "field_notes": {
+        "keySource": "printed \"d. Two of the above\" with OCR trailing checkmark, p155 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q52",
+      "page": 156,
+      "title": "Ephedrine does not significantly inhibit norepinephrine uptake",
+      "question": "Ephedrine induces all of the following effects EXCEPT:",
+      "options": {
+        "A": "Stimulates NE release",
+        "B": "Inhibits NE uptake",
+        "C": "Direct adrenoceptor agonist",
+        "D": "Moderate anorexigenic effect",
+        "E": "Moderate CNS stimulation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ephedrine genuinely stimulates norepinephrine release, so this is not the exception.",
+        "B": "Correct. Ephedrine, unlike amphetamine, does not significantly inhibit norepinephrine reuptake as part of its mechanism. Its sympathomimetic effect instead comes from stimulating norepinephrine release, together with weak direct adrenoceptor agonist activity, without the additional reuptake-blocking component amphetamine has.",
+        "C": "Incorrect. Ephedrine genuinely has weak direct adrenoceptor agonist activity (it is a mixed-acting sympathomimetic), so this is not the exception.",
+        "D": "Incorrect. Ephedrine genuinely produces a moderate anorexigenic effect, so this is not the exception.",
+        "E": "Incorrect. Ephedrine genuinely produces moderate CNS stimulation, so this is not the exception."
+      },
+      "main_concept": "CON-FND-674EB2314FC300",
+      "concept_ids": [
+        "CON-FND-674EB2314FC300"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Indirect and Mixed-Acting Sympathomimetics",
+      "question_type": "Classification",
+      "learning_objective": "State that ephedrine, unlike amphetamine, does not significantly inhibit norepinephrine reuptake.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Indirect and Mixed-Acting Sympathomimetics > Ephedrine mechanism",
+      "source_citation": "pharma MCQs bank .pdf, p156",
+      "field_notes": {
+        "keySource": "printed \"b. Inhibits NE uptake\" with OCR trailing checkmark, p156 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q53",
+      "page": 157,
+      "title": "Epinephrine is first-line for anaphylactic shock",
+      "question": "Epinephrine is the life-saving, first-line treatment in:",
+      "options": {
+        "A": "Anaphylactic shock",
+        "B": "Cardiac arrest",
+        "C": "Epistaxis",
+        "D": "Acute glaucoma",
+        "E": "Bronchial asthma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Epinephrine is the life-saving, first-line drug for anaphylactic shock. It acts through combined alpha-1 (vasoconstriction, reducing mucosal edema and hypotension), beta-1 (cardiac support) and beta-2 (bronchodilation) effects that together reverse the anaphylactic picture faster than any single-receptor alternative. No other drug matches this combined, rapid-onset receptor profile, which is why epinephrine, not an antihistamine or corticosteroid, is given first.",
+        "B": "Incorrect as the single best answer here. Epinephrine does have a role in cardiac arrest resuscitation protocols, but anaphylactic shock is the classic, most specific \"life-saving first-line\" indication this question tests.",
+        "C": "Incorrect. Epinephrine is not the first-line treatment for epistaxis, which is instead managed with local pressure, packing or topical vasoconstrictors as needed.",
+        "D": "Incorrect. Epinephrine is not used for acute (angle-closure) glaucoma; its mydriatic tendency could even worsen angle closure, and acute glaucoma is instead managed with agents that lower intraocular pressure and constrict the pupil.",
+        "E": "Incorrect as the single best answer here. A beta-2 agonist, not epinephrine, is the first-line bronchodilator for routine bronchial asthma; epinephrine's own first-line role is specifically in anaphylactic shock."
+      },
+      "main_concept": "CON-FND-AC98BAAAAC26B8",
+      "concept_ids": [
+        "CON-FND-AC98BAAAAC26B8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Epinephrine Clinical Pharmacology",
+      "question_type": "Recall",
+      "learning_objective": "State that epinephrine is the life-saving, first-line drug for anaphylactic shock.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Epinephrine Clinical Pharmacology > First-line anaphylaxis treatment",
+      "source_citation": "pharma MCQs bank .pdf, p157",
+      "field_notes": {
+        "keySource": "printed \"a. Anaphylactic shock\" with OCR trailing checkmark, p157 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q54",
+      "page": 158,
+      "title": "Sympathomimetic gynecological uses: premature labor and threatened abortion",
+      "question": "Gynecological uses of sympathomimetic drugs include:",
+      "options": {
+        "A": "Premature labor",
+        "B": "Threatened abortion",
+        "C": "Contraction ring",
+        "D": "Two of the above",
+        "E": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single best answer. Premature (preterm) labor genuinely is a sympathomimetic tocolytic indication, but so is threatened abortion, making \"two of the above\" the more complete answer.",
+        "B": "Incorrect as the single best answer. Threatened abortion genuinely is a sympathomimetic tocolytic indication, but so is premature labor, making \"two of the above\" the more complete answer.",
+        "C": "Incorrect. An established contraction ring is a mechanical labor complication that beta-2 agonist tocolytics do not address, so it is not a genuine sympathomimetic indication here.",
+        "D": "Correct. Beta-2 agonist sympathomimetics such as ritodrine and terbutaline are used in obstetric practice as tocolytics, relaxing uterine smooth muscle to manage both premature (preterm) labor and threatened abortion. They are not used for an established contraction ring, however, a mechanical complication these drugs do not address, so only two of the three listed uses are genuine.",
+        "E": "Incorrect. Only two of the three listed uses are genuine sympathomimetic gynecological indications; contraction ring is not among them."
+      },
+      "main_concept": "CON-FND-99640E0725FF3E",
+      "concept_ids": [
+        "CON-FND-99640E0725FF3E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Sympathomimetic Clinical Uses",
+      "question_type": "Classification",
+      "learning_objective": "State that premature labor and threatened abortion, but not an established contraction ring, are sympathomimetic gynecological indications.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Sympathomimetic Clinical Uses > Gynecological indications",
+      "source_citation": "pharma MCQs bank .pdf, p158",
+      "field_notes": {
+        "keySource": "printed \"d. Two of the above\" with OCR trailing checkmark, p158 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q55",
+      "page": 159,
+      "title": "Sympathomimetic ophthalmic uses: fundus exam, spring catarrh, simple glaucoma",
+      "question": "In ophthalmic clinics, sympathomimetic drugs may be used in:",
+      "options": {
+        "A": "Fundus examination",
+        "B": "Spring catarrh",
+        "C": "Simple glaucoma",
+        "D": "Two of the above",
+        "E": "All of the above"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect as the single best answer. Fundus examination genuinely is a sympathomimetic ophthalmic use (mydriasis via phenylephrine), but so are spring catarrh and simple glaucoma, making \"all of the above\" the more complete answer.",
+        "B": "Incorrect as the single best answer. Spring catarrh (vernal conjunctivitis) genuinely is a sympathomimetic ophthalmic use, but so are fundus examination and simple glaucoma, making \"all of the above\" the more complete answer.",
+        "C": "Incorrect as the single best answer. Simple (open-angle) glaucoma genuinely is a sympathomimetic ophthalmic use, but so are fundus examination and spring catarrh, making \"all of the above\" the more complete answer.",
+        "D": "Incorrect. All three listed uses, not merely two, are genuine sympathomimetic ophthalmic indications.",
+        "E": "Correct. Sympathomimetics serve several distinct roles in ophthalmology: mydriasis for fundus examination using an agent such as phenylephrine, decongestant and anti-allergic action in spring catarrh (vernal conjunctivitis), and lowering intraocular pressure in simple (open-angle) glaucoma. Each use reflects a different receptor-mediated action of the same broad drug class."
+      },
+      "main_concept": "CON-FND-99640E0725FF3E",
+      "concept_ids": [
+        "CON-FND-99640E0725FF3E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Sympathomimetic Pharmacology",
+      "subtopic": "Sympathomimetic Clinical Uses",
+      "question_type": "Classification",
+      "learning_objective": "State that fundus examination, spring catarrh and simple glaucoma are all sympathomimetic ophthalmic uses.",
+      "library_ids": [
+        "ART-O6U-IPH-PHARMABANK2-SYMPATHOMIMETICS"
+      ],
+      "module_subject": "O6U-IPH-108 > Sympathomimetic Pharmacology > Sympathomimetic Clinical Uses > Ophthalmic indications",
+      "source_citation": "pharma MCQs bank .pdf, p159",
+      "field_notes": {
+        "keySource": "printed \"e. All of the above\" with OCR trailing checkmark, p159 of pharma MCQs bank .pdf"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "pharmabank2-q56",
+      "hold": "No visible printed key: OCR recovered only four option labels (Bronchial asthma/Preterm labor/Reynaud's disease/Two of the above, with only 4 legible options and no 'e') with no trailing checkmark or highlighted-feedback text on any line. Held rather than keyed by fact-checking (p160 of pharma MCQs bank .pdf)."
+    }
+  ]
+}
