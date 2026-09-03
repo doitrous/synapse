@@ -72,7 +72,7 @@ import { ReportContentDialog, type ReportTarget } from '@/components/reports/Rep
 import { cn } from '@/lib/cn'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
-import { useScopedPublishedQuestions } from '@/lib/usePublishedQuestions'
+import { useScopedPublishedQuestions, useScopedPublishedQuestionSummaries } from '@/lib/usePublishedQuestions'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
@@ -631,7 +631,54 @@ export function QuestionBank() {
   const t = useT()
   const subjectName = useSubjectName()
   const location = useLocation()
-  const questions = useScopedPublishedQuestions()
+  /**
+   * The hub mount is cheap on purpose: counts, source cards and presets only
+   * need id/subject/topic/difficulty/vignette/stem/source/concept-and-library
+   * ids, which this lightweight projection gives without the per-question
+   * options/explanation/attachments build (`managedQuestionToSummary` in
+   * usePublishedQuestions.ts). `fullQuestions` is the same data, fully built —
+   * it stays empty until `needsFullQuestions` flips on, which only happens
+   * once a test is actually starting or resuming (`runWhenHydrated` below).
+   */
+  const questions = useScopedPublishedQuestionSummaries()
+  const [needsFullQuestions, setNeedsFullQuestions] = useState(false)
+  const fullQuestions = useScopedPublishedQuestions(needsFullQuestions)
+  /** A start or resume waiting on `fullQuestions` to land — see `runWhenHydrated`. */
+  const pendingHydrated = useRef<{ ids: string[]; run: (real: Question[]) => void } | null>(null)
+  useEffect(() => {
+    const pending = pendingHydrated.current
+    if (!pending || !fullQuestions.length) return
+    pendingHydrated.current = null
+    const byId = new Map(fullQuestions.map((question) => [question.id, question]))
+    pending.run(pending.ids.map((id) => byId.get(id)).filter((question): question is Question => Boolean(question)))
+  }, [fullQuestions])
+  /**
+   * Resolve `ids` against the real, fully-built questions before `run` sees
+   * them — immediately if `fullQuestions` already covers them (every start
+   * after the first), otherwise queued for the effect above once the heavy
+   * build lands. This is the one place `useScopedPublishedQuestions`'s heavy
+   * path is actually triggered.
+   * ponytail: a second start/resume racing the first overwrites the pending
+   * one — fine today, since the runner only ever offers one start action at a
+   * time; queue an array instead if that stops being true.
+   */
+  const runWhenHydrated = useCallback((ids: string[], run: (real: Question[]) => void) => {
+    if (needsFullQuestions && fullQuestions.length) {
+      const byId = new Map(fullQuestions.map((question) => [question.id, question]))
+      run(ids.map((id) => byId.get(id)).filter((question): question is Question => Boolean(question)))
+      return
+    }
+    pendingHydrated.current = { ids, run }
+    setNeedsFullQuestions(true)
+  }, [needsFullQuestions, fullQuestions])
+  /**
+   * For the couple of spots that read a question's real content (options,
+   * mainly) straight off a prop instead of going through `runWhenHydrated` —
+   * the Previous-tests answer review and the active mixed runner. Falls back
+   * to the lightweight summaries for the one render between `needsFullQuestions`
+   * flipping on and `fullQuestions` landing.
+   */
+  const realQuestions = needsFullQuestions && fullQuestions.length ? fullQuestions : questions
   const availability = useCatalogueAvailability(questions.length)
   const [params, setParams] = useSearchParams()
   const articleFilter = params.get('article')
@@ -841,6 +888,19 @@ export function QuestionBank() {
    * are rebuilt from the published bank, which is already cached.
    */
   const [saved, setSaved, savedStatus] = usePersistentState<LiveSession | null>(ACTIVE_SESSION_STORAGE_KEY, null)
+  /**
+   * The two places that read a question's real content straight off a prop —
+   * an active mixed sitting (`MixedRunner`), and the Previous-tests answer
+   * review (`SessionDetailPanel`, via `PreviousTests`) — rather than going
+   * through `runWhenHydrated`. Neither is the common "just landed on the hub"
+   * case, so triggering the heavy build here still leaves a plain visit cheap.
+   * A paused *plain* MCQ sitting needs no entry here: the restore effect below
+   * already reaches `runWhenHydrated` through `restoreFrom`.
+   */
+  useEffect(() => {
+    if (needsFullQuestions) return
+    if (hubTab === 'previous' || (mixed.session && !mixedFinished(mixed.session))) setNeedsFullQuestions(true)
+  }, [needsFullQuestions, hubTab, mixed.session])
   const restored = useRef(false)
   // Held in a ref, not read back from `saved`: the mirror effect below writes
   // `saved`, so depending on it there would make the write retrigger the effect
@@ -877,32 +937,37 @@ export function QuestionBank() {
    * dropped the student into whatever they had just looked at, read-only, with
    * their own paused sitting unreachable until a reload.
    */
-  const restoreFrom = useCallback((sitting: LiveSession) => {
-    const rebuilt = sitting.questionIds
-      .map((id) => questions.find((question) => question.id === id))
-      .filter((question): question is Question => Boolean(question))
-    startedAt.current = sitting.startedAt
-    mirroredSittingId.current = sitting.sessionId
-    setSession(rebuilt)
-    setIdx(Math.min(sitting.idx, rebuilt.length - 1))
-    setAnswers(sitting.answers)
-    setStruck(sitting.struck ?? {})
-    setChecked(sitting.checked)
-    setMode(sitting.mode)
-    setSessionId(sitting.sessionId)
-    setElapsed(sitting.elapsed)
-    timeSpent.current = sitting.questionSeconds ?? {}
-    timingId.current = null
-    questionStartedAt.current = sitting.elapsed
-    setVisited(new Set(sitting.visited))
-    // Not `sitting.reviewing`. The mirror below refuses to write while a review
-    // is on screen, so a stored sitting is never a review; reading the field
-    // back was the only way a stale `true` could outlive the review it belonged
-    // to. The field stays on `LiveSession` for documents already persisted.
-    setReviewing(false)
-    setSubmitted(sitting.submitted ?? false)
-    setSessionName(sitting.name)
-  }, [questions])
+  const restoreFrom = useCallback((sitting: LiveSession, after?: () => void) => {
+    // `runWhenHydrated` resolves the stored ids against the real, fully-built
+    // questions — never the lightweight `questions` above, which have no real
+    // options for the runner to show. `after` runs once that lands, so a
+    // caller that also changes `phase` (`resumeSaved`) does it in the same
+    // beat the questions actually arrive, not before.
+    runWhenHydrated(sitting.questionIds, (rebuilt) => {
+      startedAt.current = sitting.startedAt
+      mirroredSittingId.current = sitting.sessionId
+      setSession(rebuilt)
+      setIdx(Math.min(sitting.idx, rebuilt.length - 1))
+      setAnswers(sitting.answers)
+      setStruck(sitting.struck ?? {})
+      setChecked(sitting.checked)
+      setMode(sitting.mode)
+      setSessionId(sitting.sessionId)
+      setElapsed(sitting.elapsed)
+      timeSpent.current = sitting.questionSeconds ?? {}
+      timingId.current = null
+      questionStartedAt.current = sitting.elapsed
+      setVisited(new Set(sitting.visited))
+      // Not `sitting.reviewing`. The mirror below refuses to write while a review
+      // is on screen, so a stored sitting is never a review; reading the field
+      // back was the only way a stale `true` could outlive the review it belonged
+      // to. The field stays on `LiveSession` for documents already persisted.
+      setReviewing(false)
+      setSubmitted(sitting.submitted ?? false)
+      setSessionName(sitting.name)
+      after?.()
+    })
+  }, [runWhenHydrated])
 
   useEffect(() => {
     if (restored.current || !savedStatus.hydrated || !saved || !questions.length) return
@@ -1229,45 +1294,52 @@ export function QuestionBank() {
    */
   function beginSession(picked: Question[], name?: string) {
     if (!picked.length) return
-    // Three things hang off one id, and all three are minted here.
-    //
-    // The name, because callers used to write it against whatever `sessionId`
-    // happened to hold and then this replaced it — so every test a student
-    // named was filed under the previous id and read as "Untitled test".
-    //
-    // The manifest, because the other cure for that bug was to mint the id at
-    // the caller and pass it down, which each caller then had to get right.
-    // Minting once here is the same fix without the obligation, and the
-    // manifest has to travel with it: "omitted" is a sitting's served questions
-    // minus its attempt records, and those records are written against
-    // `sessionId`, so a manifest under any other id subtracts nothing and every
-    // question served looks omitted.
-    const id = newSessionId()
-    // Starting is also a decision about the stored sitting: it is superseded,
-    // so a read still in flight must not be allowed to land on top of this one.
-    restored.current = true
-    startedAt.current = new Date().toISOString()
-    timeSpent.current = {}
-    timingId.current = null
-    if (name?.trim()) setSavedNames((current) => ({ ...current, [id]: name.trim() }))
-    // Filed at the start, not at the end: a test abandoned halfway still served
-    // its questions, and the ones never reached are still omitted.
-    setSessionQuestions((current) => pruneManifests({ ...current, [id]: picked.map((question) => question.id) }))
-    mirroredSittingId.current = id
-    setSession(picked)
-    setSessionId(id)
-    setIdx(0)
-    setAnswers({})
-    setStruck({})
-    setChecked({})
-    setReviewing(false)
-    setReviewReturn('results')
-    setSubmitted(false)
-    setElapsed(0)
-    setVisibilityPaused(false)
-    questionStartedAt.current = 0
-    setVisited(new Set([0]))
-    setPhase('running')
+    // `picked` came off the lightweight `questions` above (or a stored
+    // sitting's ids) — never the real thing to hand the runner. `runWhenHydrated`
+    // resolves the same ids against the fully-built questions, triggering that
+    // build the first time any test starts.
+    runWhenHydrated(picked.map((question) => question.id), (real) => {
+      if (!real.length) return
+      // Three things hang off one id, and all three are minted here.
+      //
+      // The name, because callers used to write it against whatever `sessionId`
+      // happened to hold and then this replaced it — so every test a student
+      // named was filed under the previous id and read as "Untitled test".
+      //
+      // The manifest, because the other cure for that bug was to mint the id at
+      // the caller and pass it down, which each caller then had to get right.
+      // Minting once here is the same fix without the obligation, and the
+      // manifest has to travel with it: "omitted" is a sitting's served questions
+      // minus its attempt records, and those records are written against
+      // `sessionId`, so a manifest under any other id subtracts nothing and every
+      // question served looks omitted.
+      const id = newSessionId()
+      // Starting is also a decision about the stored sitting: it is superseded,
+      // so a read still in flight must not be allowed to land on top of this one.
+      restored.current = true
+      startedAt.current = new Date().toISOString()
+      timeSpent.current = {}
+      timingId.current = null
+      if (name?.trim()) setSavedNames((current) => ({ ...current, [id]: name.trim() }))
+      // Filed at the start, not at the end: a test abandoned halfway still served
+      // its questions, and the ones never reached are still omitted.
+      setSessionQuestions((current) => pruneManifests({ ...current, [id]: real.map((question) => question.id) }))
+      mirroredSittingId.current = id
+      setSession(real)
+      setSessionId(id)
+      setIdx(0)
+      setAnswers({})
+      setStruck({})
+      setChecked({})
+      setReviewing(false)
+      setReviewReturn('results')
+      setSubmitted(false)
+      setElapsed(0)
+      setVisibilityPaused(false)
+      questionStartedAt.current = 0
+      setVisited(new Set([0]))
+      setPhase('running')
+    })
   }
 
   /**
@@ -1382,32 +1454,38 @@ export function QuestionBank() {
 
   /** Put a finished sitting back on screen, read-only, with its answers. */
   function reviewSession(sessionId: string) {
-    const rebuilt = reviewableQuestions(sessionId)
-    if (!rebuilt.length) return
-    const answered: Record<string, number> = {}
-    const marked: Record<string, boolean> = {}
-    for (const record of history.records) {
-      if (record.sessionId !== sessionId || record.surface !== 'qbank') continue
-      marked[record.itemId] = true
-      const question = rebuilt.find((item) => item.id === record.itemId)
-      if (!question) continue
-      const correctIndex = question.options.findIndex((option) => option.correct)
-      if (typeof record.selectedIndex === 'number') answered[record.itemId] = record.selectedIndex
-      // Legacy attempts predate selected-option storage. A correct answer can
-      // still be reconstructed honestly; a wrong one remains unselected.
-      else if (record.correct === true && correctIndex >= 0) answered[record.itemId] = correctIndex
-    }
-    mirroredSittingId.current = null
-    setSession(rebuilt)
-    setAnswers(answered)
-    setChecked(marked)
-    setVisited(new Set(rebuilt.map((_, index) => index)))
-    setSessionId(sessionId)
-    setSessionName(savedNames[sessionId] ?? t('Untitled test'))
-    setIdx(0)
-    setReviewing(true)
-    setReviewReturn('results')
-    setPhase('running')
+    // `reviewableQuestions` reads the lightweight `questions` above — enough to
+    // know which ids still exist, not to read `.options` from below.
+    // `runWhenHydrated` resolves them against the real, fully-built questions.
+    const ids = reviewableQuestions(sessionId).map((question) => question.id)
+    if (!ids.length) return
+    runWhenHydrated(ids, (rebuilt) => {
+      if (!rebuilt.length) return
+      const answered: Record<string, number> = {}
+      const marked: Record<string, boolean> = {}
+      for (const record of history.records) {
+        if (record.sessionId !== sessionId || record.surface !== 'qbank') continue
+        marked[record.itemId] = true
+        const question = rebuilt.find((item) => item.id === record.itemId)
+        if (!question) continue
+        const correctIndex = question.options.findIndex((option) => option.correct)
+        if (typeof record.selectedIndex === 'number') answered[record.itemId] = record.selectedIndex
+        // Legacy attempts predate selected-option storage. A correct answer can
+        // still be reconstructed honestly; a wrong one remains unselected.
+        else if (record.correct === true && correctIndex >= 0) answered[record.itemId] = correctIndex
+      }
+      mirroredSittingId.current = null
+      setSession(rebuilt)
+      setAnswers(answered)
+      setChecked(marked)
+      setVisited(new Set(rebuilt.map((_, index) => index)))
+      setSessionId(sessionId)
+      setSessionName(savedNames[sessionId] ?? t('Untitled test'))
+      setIdx(0)
+      setReviewing(true)
+      setReviewReturn('results')
+      setPhase('running')
+    })
   }
 
   /**
@@ -1427,8 +1505,7 @@ export function QuestionBank() {
     // then wrote the shortened `questionIds` back over the stored sitting — the
     // full paper gone with no way back. See `restorableQuestions`.
     if (!restorableQuestions(saved, questions)) { setSaved(null); setPhase('setup'); return }
-    restoreFrom(saved)
-    setPhase(saved.phase)
+    restoreFrom(saved, () => setPhase(saved.phase))
   }
 
   /** The sitting is finished with — stop offering to resume it. */
@@ -1578,7 +1655,7 @@ export function QuestionBank() {
       <>
         <MixedRunner
           session={mixed.session}
-          questions={questions}
+          questions={realQuestions}
           onMark={mixed.mark}
           onNext={() => {
             if (mixed.session && mixed.session.cursor >= mixed.session.items.length - 1) setMixedEndedAt(Date.now())
@@ -1701,7 +1778,7 @@ export function QuestionBank() {
                   // test that was already finished.
                   liveSessionId={liveSittingId(saved)}
                   records={history.records}
-                  questions={questions}
+                  questions={realQuestions}
                   onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
                   onResume={resumeSaved}
                   onTerminate={discardSaved}
