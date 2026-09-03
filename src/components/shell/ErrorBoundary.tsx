@@ -39,7 +39,7 @@ export class ErrorBoundary extends Component<{ children: ReactNode }, State> {
       // Inline styles with literal fallbacks: this screen has to render even
       // when the stylesheet is the thing that failed, so it cannot rely on a
       // token resolving. The fallbacks are the light-theme values.
-      <div style={{ minHeight: '100dvh', display: 'grid', placeItems: 'center', padding: '2rem', background: 'var(--color-paper, #f5f7fb)', color: 'var(--color-ink, #161920)', fontFamily: 'Geist Variable, system-ui, sans-serif' }}>
+      <div style={{ minHeight: '100dvh', display: 'grid', placeItems: 'center', padding: '2rem', background: 'var(--color-paper, #f5f7fb)', color: 'var(--color-ink, #161920)', fontFamily: 'var(--font-sans, "Figtree Variable", "IBM Plex Sans Arabic", system-ui, sans-serif)' }}>
         <div style={{ maxWidth: 460, textAlign: 'center' }}>
           {/* A glyph in a hairline tile, never a large centred pictogram — and
               never an emoji, which this system does not use anywhere. */}
