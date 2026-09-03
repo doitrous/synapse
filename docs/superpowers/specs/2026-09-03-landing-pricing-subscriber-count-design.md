@@ -123,8 +123,11 @@ Consolidate on the app_state system (`nishany-vouchers-v1`, `src/data/vouchers.t
   This expresses Ambassador (month → 250, term → 550) which is not a clean percent.
   Existing percent/fixed and trial grants stay supported.
 - `voucherDiscount()` honors `periodPrices` first when present.
-- Seed the **Ambassadors** voucher (code TBD with user, default `AMBASSADOR`), `periodPrices:
-  { month: 250, term: 550 }`, no audience restriction, redemption cap TBD.
+- **Ambassadors** voucher: seed the record with `periodPrices: { month: 250, term: 550 }`
+  but `active: false` and an empty `code` — the superadmin/admin sets the real code + redemption
+  cap and activates it from the Vouchers admin page. No code value baked into the seed
+  (decided with user 2026-09-03). The `periodPrices` capability + admin editing for it is the
+  actual build work.
 - Wire `/api/pricing/quote` (`server/src/pricing.js` / index route) to accept a voucher code,
   validate via the shared voucher logic, and return the discounted total.
 - Pricing/signup page: a voucher-code field that calls the quote endpoint and shows the live
@@ -235,6 +238,12 @@ the existing content until the RTL pass.
 
 ## Open items to confirm during build
 
-- Ambassador voucher **code string** and **redemption cap**.
 - Whether to also show `<LiveCount>` on the pricing page (user chose hero + band on landing;
   pricing-page counter is optional).
+
+## Design mockups
+
+Approved direction shown on the design canvas (warm theme): hero + live counter, the fixed
+"one method, the whole road" timeline, a cohort product-panel recreation, the 790 trust band,
+and the new pricing page with a live month/term toggle. User approved the direction 2026-09-03
+and chose to proceed to implementation.
