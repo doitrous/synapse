@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from 'react'
-import { Banknote, TrendingUp, Users, Repeat, CircleDollarSign, GraduationCap, CalendarRange, Plus, RefreshCw } from 'lucide-react'
+import { useMemo } from 'react'
+import { Banknote, TrendingUp, Users, Repeat, CircleDollarSign, GraduationCap, CalendarRange } from 'lucide-react'
 import { finance, revenueByMonth, transactions } from '@/data/admin'
 import { adminStudents } from '@/data/students'
 import { YEARS } from '@/data/universities'
@@ -14,110 +14,12 @@ import { StatusBadge } from '@/components/ui/StatusBadge'
 import { BarList } from '@/components/charts/BarList'
 import { Meter } from '@/components/ui/Meter'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
-import { Button } from '@/components/ui/Button'
-import { Field, Select, TextInput } from '@/components/ui/Field'
-import { Badge } from '@/components/ui/Badge'
-import { API_MODE, apiGet, apiPost } from '@/lib/api'
 
 const egp = (n: number) => `EGP ${Math.round(n).toLocaleString()}`
-const localDateTime = (daysFromNow: number) => new Date(Date.now() + daysFromNow * 86_400_000).toISOString().slice(0, 16)
-
-interface PricingDiscount {
-  id: string
-  kind: 'promotion' | 'voucher'
-  code: string | null
-  label: string
-  period: 'monthly' | 'term' | 'both'
-  discountType: 'percent' | 'fixed'
-  discountValue: number
-  startsAt: string
-  endsAt: string
-  active: boolean
-  maxRedemptions?: number | null
-}
-
-interface PricingState {
-  plans: Array<{ period: 'monthly' | 'term'; label: string; currency: string; amount: number }>
-  promotions: PricingDiscount[]
-  vouchers: PricingDiscount[]
-}
-
-interface DiscountDraft {
-  kind: 'promotion' | 'voucher'
-  code: string
-  label: string
-  period: 'monthly' | 'term' | 'both'
-  discountType: 'percent' | 'fixed'
-  discountValue: number
-  startsAt: string
-  endsAt: string
-}
-
-const emptyDiscount = (kind: 'promotion' | 'voucher'): DiscountDraft => ({
-  kind,
-  code: '',
-  label: kind === 'promotion' ? 'Timed campaign' : 'Voucher code',
-  period: kind === 'voucher' ? 'monthly' : 'both',
-  discountType: 'percent',
-  discountValue: 10,
-  startsAt: localDateTime(0),
-  endsAt: localDateTime(14),
-})
 
 export function PaymentsFinance() {
   const [universities] = useUniversityCatalogue()
   const [catalog, setCatalog] = usePlanCatalog()
-  const [pricing, setPricing] = useState<PricingState | null>(null)
-  const [draft, setDraft] = useState<DiscountDraft>(() => emptyDiscount('promotion'))
-  const [pricingBusy, setPricingBusy] = useState(false)
-  const [pricingNotice, setPricingNotice] = useState('')
-
-  async function loadPricing() {
-    if (!API_MODE) return
-    setPricingBusy(true)
-    try {
-      setPricing(await apiGet<PricingState>('/admin/pricing'))
-      setPricingNotice('')
-    } catch {
-      setPricingNotice('Could not load live pricing.')
-    } finally {
-      setPricingBusy(false)
-    }
-  }
-
-  useEffect(() => { void loadPricing() }, [])
-
-  async function createDiscount() {
-    if (!draft.label.trim()) {
-      setPricingNotice('Give the discount a label.')
-      return
-    }
-    if (draft.kind === 'voucher' && !draft.code.trim()) {
-      setPricingNotice('Give the voucher a code.')
-      return
-    }
-    setPricingBusy(true)
-    try {
-      const body = {
-        code: draft.code,
-        label: draft.label,
-        period: draft.period,
-        discountType: draft.discountType,
-        discountValue: draft.discountValue,
-        startsAt: new Date(draft.startsAt).toISOString(),
-        endsAt: new Date(draft.endsAt).toISOString(),
-        active: true,
-      }
-      await apiPost(`/admin/pricing/${draft.kind === 'voucher' ? 'vouchers' : 'promotions'}`, body)
-      setDraft(emptyDiscount(draft.kind))
-      setPricingNotice('Discount saved.')
-      await loadPricing()
-    } catch (error) {
-      setPricingNotice(error instanceof Error ? error.message : 'The discount was refused.')
-    } finally {
-      setPricingBusy(false)
-    }
-  }
 
   const byUniversity = useMemo(() => universities.map((u) => {
     const students = adminStudents.filter((s) => s.universityId === u.id)
@@ -139,90 +41,6 @@ export function PaymentsFinance() {
   return (
     <PageContainer>
       <PageHeader title="Payments & Finance" description="Revenue and subscriptions, broken down by university and year — and the plan catalogue the landing page and Billing both read." />
-
-      <Panel className="mb-4 overflow-hidden">
-        <PanelHeader
-          title="All-access pricing"
-          hint={API_MODE ? 'Server-authoritative monthly/term pricing, promotions and vouchers' : 'Live backend required'}
-          action={<Button size="sm" variant="ghost" iconLeft={RefreshCw} loading={pricingBusy} onClick={() => void loadPricing()}>Refresh</Button>}
-        />
-        <div className="grid gap-4 p-5 xl:grid-cols-[minmax(0,1fr)_24rem]">
-          <div className="space-y-4">
-            <div className="grid gap-3 sm:grid-cols-2">
-              {(pricing?.plans ?? [
-                { period: 'monthly' as const, label: 'One month all-access', currency: 'EGP', amount: 400 },
-                { period: 'term' as const, label: 'One term all-access', currency: 'EGP', amount: 1000 },
-              ]).map((plan) => (
-                <Panel key={plan.period} className="px-4 py-3">
-                  <p className="text-[12px] text-ink-3">{plan.label}</p>
-                  <p className="tnum mt-1 font-mono text-[24px] font-semibold text-ink">{plan.currency} {plan.amount.toLocaleString()}</p>
-                  <Badge tone="success" className="mt-2">All access</Badge>
-                </Panel>
-              ))}
-            </div>
-            <Table>
-              <thead><tr><Th>Discount</Th><Th>Period</Th><Th>Value</Th><Th>Window</Th><Th>Status</Th></tr></thead>
-              <tbody>
-                {[...(pricing?.promotions ?? []), ...(pricing?.vouchers ?? [])].map((discount) => (
-                  <Tr key={`${discount.kind}-${discount.id}`}>
-                    <Td>
-                      <p className="font-medium text-ink">{discount.label}</p>
-                      <p className="text-[11.5px] text-ink-3">{discount.kind === 'voucher' ? `Voucher · ${discount.code}` : 'Timed promotion'}</p>
-                    </Td>
-                    <Td className="capitalize text-ink-2">{discount.period}</Td>
-                    <Td className="tnum font-mono text-ink-2">{discount.discountType === 'percent' ? `${discount.discountValue}%` : egp(discount.discountValue)}</Td>
-                    <Td className="text-[12px] text-ink-3">{new Date(discount.startsAt).toLocaleDateString()} → {new Date(discount.endsAt).toLocaleDateString()}</Td>
-                    <Td><Badge tone={discount.active ? 'success' : 'neutral'}>{discount.active ? 'Active' : 'Paused'}</Badge></Td>
-                  </Tr>
-                ))}
-                {pricing && pricing.promotions.length + pricing.vouchers.length === 0 && (
-                  <tr><td colSpan={5} className="px-4 py-8 text-center text-[13px] text-ink-3">No promotions or vouchers yet.</td></tr>
-                )}
-              </tbody>
-            </Table>
-          </div>
-
-          <div className="rounded-xl border border-line bg-surface-2 p-4">
-            <p className="mb-3 text-[13px] font-bold text-ink">Create discount</p>
-            <div className="grid gap-3">
-              <Field label="Kind">
-                <Select value={draft.kind} onChange={(event) => setDraft(emptyDiscount(event.target.value as 'promotion' | 'voucher'))}>
-                  <option value="promotion">Timed promotion</option>
-                  <option value="voucher">Voucher</option>
-                </Select>
-              </Field>
-              {draft.kind === 'voucher' && (
-                <Field label="Voucher code">
-                  <TextInput value={draft.code} onChange={(event) => setDraft({ ...draft, code: event.target.value.toUpperCase() })} placeholder="WELCOME20" />
-                </Field>
-              )}
-              <Field label="Label"><TextInput value={draft.label} onChange={(event) => setDraft({ ...draft, label: event.target.value })} /></Field>
-              <Field label="Period">
-                <Select value={draft.period} onChange={(event) => setDraft({ ...draft, period: event.target.value as DiscountDraft['period'] })}>
-                  {draft.kind === 'promotion' && <option value="both">Both periods</option>}
-                  <option value="monthly">Monthly</option>
-                  <option value="term">Term</option>
-                </Select>
-              </Field>
-              <div className="grid grid-cols-2 gap-2">
-                <Field label="Type">
-                  <Select value={draft.discountType} onChange={(event) => setDraft({ ...draft, discountType: event.target.value as DiscountDraft['discountType'] })}>
-                    <option value="percent">Percent</option>
-                    <option value="fixed">Fixed EGP</option>
-                  </Select>
-                </Field>
-                <Field label="Value">
-                  <TextInput type="number" min={1} value={draft.discountValue} onChange={(event) => setDraft({ ...draft, discountValue: Number(event.target.value) })} />
-                </Field>
-              </div>
-              <Field label="Starts"><TextInput type="datetime-local" value={draft.startsAt} onChange={(event) => setDraft({ ...draft, startsAt: event.target.value })} /></Field>
-              <Field label="Ends"><TextInput type="datetime-local" value={draft.endsAt} onChange={(event) => setDraft({ ...draft, endsAt: event.target.value })} /></Field>
-              {pricingNotice && <p role="status" className="text-[12.5px] text-ink-2">{pricingNotice}</p>}
-              <Button variant="primary" iconLeft={Plus} loading={pricingBusy} disabled={!API_MODE} onClick={() => void createDiscount()}>Save discount</Button>
-            </div>
-          </div>
-        </div>
-      </Panel>
 
       <div className="mb-4 grid grid-cols-2 gap-3 lg:grid-cols-5">
         <Stat label="MRR" value={`£${finance.mrr.toLocaleString()}`} delta="+3.3%" icon={Banknote} />
