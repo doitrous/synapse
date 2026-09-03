@@ -15,7 +15,8 @@ import kotlinx.coroutines.flow.asStateFlow
 enum class CortexThemeChoice(val wire: String) {
     LIGHT("light"),
     WARM("warm"),
-    DARK("dark");
+    DARK("dark"),
+    OLED("oled");
 
     companion object {
         /** Any string that is not one of [wire] -- unset, corrupt, or from a future client -- is [LIGHT], never a crash. */
@@ -38,8 +39,8 @@ enum class CortexThemeChoice(val wire: String) {
  *   restyle a desktop.
  * - **Defaults to [CortexThemeChoice.LIGHT], not the system setting.** That
  *   is the website's own default (`src/lib/useTheme.tsx:24`); no client has
- *   a fourth "System" option, and one can be added later as a fourth stored
- *   value without touching what is already on disk.
+ *   a "System" option, and one can be added later as a fifth stored value
+ *   without touching what is already on disk.
  */
 class ThemePreference(context: Context) {
 

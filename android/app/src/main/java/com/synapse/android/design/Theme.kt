@@ -85,6 +85,21 @@ val DarkCortexColors = CortexColors(
     danger = Color(0xFFFF6B6B), dangerTint = Color(0xFF331416), onDanger = Color(0xFF1A0708),
 )
 
+/**
+ * True-black OLED ground, ported field-for-field from
+ * `:root[data-theme='oled']` (`src/index.css:478-556`), which itself says
+ * "same fills as Dark" for every token not listed below -- primary, accent,
+ * the tints, the `on-*` pairs. A `copy` of [DarkCortexColors] keeps that true
+ * the same way [WarmCortexColors] keeps it true of [LightCortexColors]: a
+ * token added to dark arrives here as well, unless this list overrides it.
+ */
+val OledCortexColors = DarkCortexColors.copy(
+    paper = Color(0xFF000000), surface = Color(0xFF0A0A0C),
+    surface2 = Color(0xFF16171B), inset = Color(0xFF050506),
+    ink = Color(0xFFDFE2E8), ink2 = Color(0xFF9AA1AF), ink3 = Color(0xFF6B7280),
+    line = Color(0xFF1E1F24), line2 = Color(0xFF32333A),
+)
+
 object CortexRadius {
     val sm: Dp = 6.dp
     val md: Dp = 8.dp
@@ -232,8 +247,9 @@ fun CortexTheme(choice: CortexThemeChoice, content: @Composable () -> Unit) {
         CortexThemeChoice.LIGHT -> LightCortexColors
         CortexThemeChoice.WARM -> WarmCortexColors
         CortexThemeChoice.DARK -> DarkCortexColors
+        CortexThemeChoice.OLED -> OledCortexColors
     }
-    val dark = choice == CortexThemeChoice.DARK
+    val dark = choice == CortexThemeChoice.DARK || choice == CortexThemeChoice.OLED
     CompositionLocalProvider(LocalCortex provides colors) {
         MaterialTheme(
             colorScheme = colors.toMaterialScheme(dark),

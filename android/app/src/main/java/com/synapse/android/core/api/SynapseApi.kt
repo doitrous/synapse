@@ -7,6 +7,7 @@ import com.synapse.android.core.model.QotdLeaderboard
 import com.synapse.android.core.model.QotdToday
 import com.synapse.android.core.sync.StateOwnership
 import java.io.IOException
+import java.net.URLEncoder
 import java.time.Instant
 import java.time.format.DateTimeParseException
 import kotlin.coroutines.resume
@@ -48,7 +49,19 @@ data class Profile(
     val year: String?,
     val group: String?,
     val status: String?,
+    val username: String?,
+    val profileIcon: String?,
+    /** ≤140 plain text, editable from Settings. Null and "" both mean "no status set" — the server clears on an empty string rather than dropping the key. */
+    val statusMessage: String?,
+    /** Null until the student accepts the AI-use disclaimer; see the settings AI-consent gate. */
+    val aiConsentAt: Instant?,
 )
+
+/** `GET /api/me/username-available`'s answer. [reason] is only ever present when [available] is false. */
+data class UsernameAvailability(val available: Boolean, val reason: String?)
+
+/** One of the caller's own support messages, as `GET /api/me/support` lists them. */
+data class SupportTicket(val id: String?, val subject: String?, val message: String, val createdAt: Instant?, val status: String?)
 
 /** What the caller has paid for. Always present — the server substitutes a "none" default rather than omitting it. */
 data class Entitlement(
@@ -169,6 +182,100 @@ class SynapseApi(
     /** Today's results for the caller's friends. */
     suspend fun qotdFriends(): QotdFriends = decodeQotdFriends(requestObject("GET", "/api/qotd/friends"))
 
+    // --- Settings ---
+
+    /** Whether [handle] is free to take, compared the same case-insensitive way the server stores it. Debounce on the caller's side — this hits the network on every call. */
+    suspend fun usernameAvailable(handle: String): UsernameAvailability {
+        val encoded = URLEncoder.encode(handle, "UTF-8")
+        val root = requestObject("GET", "/api/me/username-available?handle=$encoded")
+        return UsernameAvailability(
+            available = root["available"].booleanOrMalformed("available"),
+            reason = root["reason"].stringOrNull(),
+        )
+    }
+
+    /**
+     * `PUT /api/me/enrolment`. [universityId] and [year] are the caller's own
+     * locked values, resent unchanged — `saveOwnEnrolment` on the server
+     * (server/src/accounts.js:848) still 400s without them even when only
+     * [statusMessage] is what actually changed, so a status-only edit is not
+     * a smaller request than a full one.
+     *
+     * [statusMessage] is sent whenever non-null, empty string included —
+     * that is how the caller clears it; a null here leaves it untouched
+     * rather than clearing it.
+     */
+    suspend fun updateEnrolment(
+        universityId: String?,
+        year: String?,
+        group: String? = null,
+        username: String? = null,
+        profileIcon: String? = null,
+        statusMessage: String? = null,
+    ): Profile {
+        val body = buildJsonObject {
+            universityId?.let { put("universityId", it) }
+            year?.let { put("year", it) }
+            group?.let { put("group", it) }
+            username?.let { put("username", it) }
+            profileIcon?.let { put("profileIcon", it) }
+            if (statusMessage != null) put("statusMessage", statusMessage)
+        }.toString()
+        val root = requestObject("PUT", "/api/me/enrolment", body)
+        return decodeProfile(root["profile"].asObjectOrMalformed("profile"))
+    }
+
+    /** `POST /api/me/enrollment-change-requests`. [field] is `"university"` or `"year"`; the server rejects any other value. */
+    suspend fun requestEnrollmentChange(field: String, requestedValue: String, reason: String) {
+        val body = buildJsonObject {
+            put("field", field)
+            put("requestedValue", requestedValue)
+            put("reason", reason)
+        }.toString()
+        request("POST", "/api/me/enrollment-change-requests", body)
+    }
+
+    /** `POST /api/me/support`. [subject] is optional; the server is free to default it. */
+    suspend fun submitSupport(subject: String?, message: String) {
+        val body = buildJsonObject {
+            subject?.let { put("subject", it) }
+            put("message", message)
+        }.toString()
+        request("POST", "/api/me/support", body)
+    }
+
+    /**
+     * `GET /api/me/support`. The list key isn't pinned by this task's brief
+     * yet, so every plausible name is tried in turn — the same defensive
+     * shape as `manifest()`'s null-tolerant reads, because a wrong guess here
+     * should degrade to an empty history, not break Settings' Help section.
+     */
+    suspend fun listSupport(): List<SupportTicket> {
+        val root = requestObject("GET", "/api/me/support")
+        val array = SUPPORT_LIST_KEYS.firstNotNullOfOrNull { root[it] as? JsonArray } ?: JsonArray(emptyList())
+        return array.mapNotNull { element ->
+            val obj = element as? JsonObject ?: return@mapNotNull null
+            SupportTicket(
+                id = obj["id"].stringOrNull(),
+                subject = obj["subject"].stringOrNull(),
+                message = obj["message"].stringOrNull() ?: "",
+                createdAt = obj["createdAt"]?.takeUnless { it is JsonNull }?.let { runCatching { parseInstant(it, "support.createdAt") }.getOrNull() },
+                status = obj["status"].stringOrNull(),
+            )
+        }
+    }
+
+    /** `POST /api/me/consent/ai`. Records that the student accepted the AI-use disclaimer; returns the timestamp the server stamped it with. */
+    suspend fun consentAi(): Instant {
+        val root = requestObject("POST", "/api/me/consent/ai")
+        return parseInstant(root["aiConsentAt"] ?: throw ApiError.Malformed("expected aiConsentAt"), "aiConsentAt")
+    }
+
+    /** `DELETE /api/account`. Hard-deletes the caller's own account, on the server, in one transaction — see `DeleteAccountDialog`'s doc for why nothing here is a soft delete. */
+    suspend fun deleteAccount() {
+        request("DELETE", "/api/account")
+    }
+
     private fun decodeRemoteState(root: JsonObject): RemoteState {
         val value = root["value"]?.takeUnless { it is JsonNull }
         val updatedAtElement = root["updatedAt"]
@@ -199,6 +306,10 @@ class SynapseApi(
         year = obj["year"].stringOrNull(),
         group = obj["group"].stringOrNull(),
         status = obj["status"].stringOrNull(),
+        username = obj["username"].stringOrNull(),
+        profileIcon = obj["profileIcon"].stringOrNull(),
+        statusMessage = obj["statusMessage"].stringOrNull(),
+        aiConsentAt = obj["aiConsentAt"]?.takeUnless { it is JsonNull }?.let { parseInstant(it, "profile.aiConsentAt") },
     )
 
     private fun decodeEntitlement(obj: JsonObject): Entitlement = Entitlement(
@@ -317,6 +428,7 @@ class SynapseApi(
             "GET" -> builder.get()
             "PUT" -> builder.put((body ?: "{}").toRequestBody(JSON_MEDIA_TYPE))
             "POST" -> builder.post((body ?: "{}").toRequestBody(JSON_MEDIA_TYPE))
+            "DELETE" -> builder.delete()
             else -> throw IllegalArgumentException("unsupported method $method")
         }
 
@@ -352,5 +464,8 @@ class SynapseApi(
 
     private companion object {
         val JSON_MEDIA_TYPE = "application/json; charset=utf-8".toMediaType()
+
+        /** Tried in this order against `GET /api/me/support`'s root object; see [listSupport]. */
+        val SUPPORT_LIST_KEYS = listOf("tickets", "requests", "items", "support")
     }
 }

@@ -250,4 +250,132 @@ class SynapseApiTest {
         assertNull(me.entitlement?.expiresAt)
         assertNull(me.entitlement?.daysLeft)
     }
+
+    // This task's brief: "GET /api/me returns profile incl. statusMessage
+    // (string|null) and aiConsentAt (ISO datetime|null)".
+    @Test fun `me decodes username, profileIcon, statusMessage and aiConsentAt`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """
+            {
+              "user": {"id":"u1","email":"student@example.com","role":"student","aal":"aal1","mfaRequired":false},
+              "profile": {"studentId":"u1","name":"Jordan Lee","email":"student@example.com","universityId":"uni-1","year":"Y3","group":"G2","status":"active","username":"jordan-lee","profileIcon":"heart","statusMessage":"on ward rotation","aiConsentAt":"2026-08-01T00:00:00.000Z"},
+              "subscription": null,
+              "entitlement": {"state":"none","plan":"Free","expiresAt":null,"daysLeft":null}
+            }
+            """.trimIndent()
+        ))
+        val me = api.me()
+
+        assertEquals("jordan-lee", me.profile?.username)
+        assertEquals("heart", me.profile?.profileIcon)
+        assertEquals("on ward rotation", me.profile?.statusMessage)
+        assertEquals(Instant.parse("2026-08-01T00:00:00Z"), me.profile?.aiConsentAt)
+    }
+
+    @Test fun `me tolerates a profile with no username, statusMessage or aiConsentAt yet`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """
+            {
+              "user": {"id":"u1","email":"student@example.com","role":"student","aal":"aal1","mfaRequired":false},
+              "profile": {"studentId":"u1","name":"Jordan Lee","email":"student@example.com","universityId":"uni-1","year":"Y3","group":"G2","status":"active"},
+              "subscription": null,
+              "entitlement": {"state":"none","plan":"Free","expiresAt":null,"daysLeft":null}
+            }
+            """.trimIndent()
+        ))
+        val me = api.me()
+
+        assertNull(me.profile?.username)
+        assertNull(me.profile?.profileIcon)
+        assertNull(me.profile?.statusMessage)
+        assertNull(me.profile?.aiConsentAt)
+    }
+
+    @Test fun `usernameAvailable encodes the handle and decodes availability`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"available":true}"""))
+        val result = api.usernameAvailable("jordan lee")
+        val request = server.takeRequest()
+        assertEquals("GET", request.method)
+        assertEquals("/api/me/username-available?handle=jordan+lee", request.path)
+        assertEquals(true, result.available)
+        assertNull(result.reason)
+    }
+
+    @Test fun `usernameAvailable surfaces the reason a handle is unavailable`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"available":false,"reason":"taken"}"""))
+        val result = api.usernameAvailable("amir")
+        assertEquals(false, result.available)
+        assertEquals("taken", result.reason)
+    }
+
+    @Test fun `updateEnrolment sends statusMessage even when empty, to clear it`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """{"ok":true,"profile":{"studentId":"u1","name":null,"email":null,"universityId":"uni-1","year":"Y3","group":null,"status":null}}"""
+        ))
+        api.updateEnrolment(universityId = "uni-1", year = "Y3", statusMessage = "")
+        val request = server.takeRequest()
+        assertEquals("PUT", request.method)
+        assertEquals("/api/me/enrolment", request.path)
+        assertEquals("""{"universityId":"uni-1","year":"Y3","statusMessage":""}""", request.body.readUtf8())
+    }
+
+    @Test fun `updateEnrolment omits a null statusMessage rather than clearing it`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """{"ok":true,"profile":{"studentId":"u1","name":null,"email":null,"universityId":"uni-1","year":"Y3","group":null,"status":null}}"""
+        ))
+        api.updateEnrolment(universityId = "uni-1", year = "Y3", username = "jordan-lee")
+        val request = server.takeRequest()
+        assertEquals("""{"universityId":"uni-1","year":"Y3","username":"jordan-lee"}""", request.body.readUtf8())
+    }
+
+    @Test fun `requestEnrollmentChange posts field, requestedValue and reason`() = runBlocking {
+        server.enqueue(MockResponse().setBody("{}"))
+        api.requestEnrollmentChange(field = "year", requestedValue = "Y4", reason = "Repeated the year officially")
+        val request = server.takeRequest()
+        assertEquals("POST", request.method)
+        assertEquals("/api/me/enrollment-change-requests", request.path)
+        assertEquals("""{"field":"year","requestedValue":"Y4","reason":"Repeated the year officially"}""", request.body.readUtf8())
+    }
+
+    @Test fun `submitSupport posts message and omits a null subject`() = runBlocking {
+        server.enqueue(MockResponse().setBody("{}"))
+        api.submitSupport(subject = null, message = "The QOTD screen won't load")
+        val request = server.takeRequest()
+        assertEquals("/api/me/support", request.path)
+        assertEquals("""{"message":"The QOTD screen won't load"}""", request.body.readUtf8())
+    }
+
+    @Test fun `listSupport reads the tickets array`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """{"tickets":[{"id":"t1","subject":"Bug","message":"It crashed","createdAt":"2026-08-01T00:00:00.000Z","status":"open"}]}"""
+        ))
+        val tickets = api.listSupport()
+        assertEquals(1, tickets.size)
+        assertEquals("t1", tickets.first().id)
+        assertEquals("Bug", tickets.first().subject)
+        assertEquals("open", tickets.first().status)
+    }
+
+    @Test fun `listSupport tolerates a shape it doesn't recognise rather than throwing`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"somethingElse":[1,2,3]}"""))
+        val tickets = api.listSupport()
+        assertTrue(tickets.isEmpty())
+    }
+
+    @Test fun `consentAi posts and decodes the stamped timestamp`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"aiConsentAt":"2026-08-01T00:00:00.000Z"}"""))
+        val at = api.consentAi()
+        val request = server.takeRequest()
+        assertEquals("POST", request.method)
+        assertEquals("/api/me/consent/ai", request.path)
+        assertEquals(Instant.parse("2026-08-01T00:00:00Z"), at)
+    }
+
+    @Test fun `deleteAccount issues a DELETE to api-account`() = runBlocking {
+        server.enqueue(MockResponse().setBody("{}"))
+        api.deleteAccount()
+        val request = server.takeRequest()
+        assertEquals("DELETE", request.method)
+        assertEquals("/api/account", request.path)
+    }
 }
