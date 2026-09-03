@@ -1,10 +1,19 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | 2024-eom-head-and-neck-anatomy | 26 | 2 | 0 | 28 |
+| eoy198-special-senses-nerve-histology | 14 | 0 | 0 | 14 |
 
 ## Held
 - 2024eom-q20 — Printed options are Lingual/Hypoglossal/Internal laryngeal/Glossopharyngeal for the nerve related to the superior thyroid artery; the source's own hand annotation crosses out the green-highlighted "Internal laryngeal" and corrects it in the margin to "External laryngeal" — the anatomically correct nerve (external laryngeal nerve is closely related to the superior thyroid artery, not internal laryngeal) — but "External laryngeal" is not one of the four printed options. No printed option is source-supported as correct after the correction; held per the book-is-the-source rule rather than authored against a key the source's own correction contradicts.
 - 2024eom-q23 — Two options carry conflicting highlight colours on the source render (p.4): option b ("Lies in the carotid sheath with the carotid artery and the sympathetic trunk", green) and option d ("Lies lateral to the carotid artery in the lower neck", orange/tan) are both marked, with no way to tell which is the intended single key. Both statements are independently defensible as true of the internal jugular vein anatomically, which is consistent with this being a genuine double-mark rather than a stray annotation. Held rather than guessed between two conflicting marks.
+- eoy198-section-c-matching — Section C's extended-matching item (match labelled structures in Figure C to a list of tracts) is image-dependent (the figure itself carries the information); out of scope for MCQ import, not authored.
 
 ## Remaining
-(none)
+205 NEU has 11 tier1-3 papers total; 2 clusters now authored (both from different source files). True remaining frontier, in priority order:
+- **EOM 197 (answers), Q29-115 + Section B matching** — same file as the 2024-eom-head-and-neck-anatomy cluster (`EOM - NEU 205 EOM 197 answers.pdf`, resource src_e3182cba35c85f7acea8); that cluster only covered Q1-28 (head-and-neck anatomy). Q29-Q108 are CNS anatomy + physiology (synapses, receptors, pain pathways, cerebellum, sleep/EEG, vision, hearing) — large, OCR-legible via the same green-highlight/missing-option signal, not yet triaged. Q109-115 and Section B are figure-dependent (two labelled diagrams + a matching table) and will need image attachment or hold.
+- **EOY - {NEU - 205} (198).pdf** — the unsolved twin of the paper just authored; same Section C content, no independent key value once 198-Solved is done (skip; both catalog duplicates already spent).
+- **EOY - ‎⁨205 بعد الشرح فاينال⁩.pdf** (74pp, ~222 questions) — has a real text layer (no OCR needed) but automated visual-key detection (`pagetext.mjs keys`) only resolved 8/222 marks cleanly (6 ambiguous "multiple", 208 unmarked) — the highlight/mark convention on this file is inconsistent or a different colour than the green/circle signal confirmed elsewhere. Needs a manual render-based triage pass (not yet started) or should be deprioritized in favour of the EOM 197 remainder above.
+- **EOY (NEU-205) {198 2nd} Solved.pdf (Baqoon)** — checked this pass: the paper is a 14-page short-essay/case-question exam with typed-in model answers (Sections 1-2, Anatomy/Physiology). Its own header promises a trailing "Histology (14 MCQ + 1 Match)" section, but the scan cuts off exactly at that heading on the last page — the MCQs themselves are not present in this file. Zero usable SBA content; do not re-triage without first locating a version of this paper with the Histology MCQ pages included.
+- **EOY (NEU-205) {198 2nd}.pdf (Baqoon, unsolved twin)** — same essay-only content, no key to check against; low priority.
+- **EOM NEU 204 (2019)** and **EOM - second 2021 204 NEU end of module (pair)** — untriaged, not opened this pass.
+- 3 department books (Anatomy 321pp, Physiology general 108pp, Physiology CNS 158pp) and 9 MCQ banks — all image-only, untriaged, concepts stay needs_evidence per standing rule.
