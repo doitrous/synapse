@@ -9,7 +9,7 @@ secrets — the browser never sees the Resend key or DB password.
 cd server
 cp .env.example .env          # fill DB_* + RESEND_API_KEY + SUPABASE_URL
 npm install
-npm start                     # applies schema.sql on boot, then listens on :8080
+npm start                     # applies server/migrations/*.sql on boot, then listens on :8080
 ```
 
 Health check: `GET /api/health` → `{ ok: true }`.

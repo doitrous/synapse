@@ -1,10 +1,6 @@
-import { readFile } from 'node:fs/promises'
-import { fileURLToPath } from 'node:url'
-import { dirname, join } from 'node:path'
 import mysql from 'mysql2/promise'
 import { findCatalogueYear, parseCatalogue, UNIVERSITY_KEY } from './academic.js'
-
-const __dirname = dirname(fileURLToPath(import.meta.url))
+import { runMigrations } from './migrations.js'
 
 /**
  * A single shared connection pool. Prefers DATABASE_URL; otherwise assembles the
@@ -25,28 +21,21 @@ export const pool = mysql.createPool(
       },
 )
 
-/** Run schema.sql once at boot so a fresh database is ready with no manual step. */
+/**
+ * Applies every not-yet-applied file in server/migrations (see migrations.js:
+ * runMigrations), which is now the fresh-install path too (0001_baseline.sql
+ * is today's schema.sql plus the back-compat ALTERs formerly run ad hoc
+ * below). Then runs the handful of one-time steps that cannot be expressed as
+ * plain, idempotent SQL: two ENUM widenings (MODIFY COLUMN has no "IF" form)
+ * and several one-off data repairs, each guarded by a marker row in the
+ * legacy `schema_migrations` table (id VARCHAR PRIMARY KEY — distinct from
+ * the file-tracking `schema_migration_files` table runMigrations uses).
+ */
 export async function migrate() {
-  const sql = await readFile(join(__dirname, '..', 'schema.sql'), 'utf8')
-  const statements = sql.split(/;\s*[\r\n]/).map((s) => s.trim()).filter(Boolean)
+  await runMigrations(pool)
+
   const conn = await pool.getConnection()
   try {
-    for (const statement of statements) await conn.query(statement)
-
-    // schema.sql only creates tables that do not exist yet, so a column added
-    // to an existing table needs its own statement. Guarded by a lookup rather
-    // than a migration marker: the check is exact, and a database restored from
-    // a dump that already has the column must not fail to boot.
-    const [mfaColumn] = await conn.query(
-      `SELECT 1 FROM information_schema.columns
-        WHERE table_schema = DATABASE() AND table_name = 'user_access' AND column_name = 'mfa_required'`,
-    )
-    if (!mfaColumn.length) {
-      await conn.query(
-        'ALTER TABLE user_access ADD COLUMN mfa_required BOOLEAN NOT NULL DEFAULT 0 AFTER status',
-      )
-    }
-
     // The console grew from two roles to four. The lookup is on the column type
     // rather than a marker, so a database restored from a dump that already has
     // the wider enum boots without repeating the ALTER, and one that does not
@@ -61,77 +50,6 @@ export async function migrate() {
            ENUM('student','reviewer','admin','editor') NOT NULL DEFAULT 'student'`,
       )
     }
-
-    // Which modules and years a reviewer may write. Added by lookup, like every
-    // column above, so a database that already has it still boots.
-    const [scopeColumn] = await conn.query(
-      `SELECT 1 FROM information_schema.columns
-        WHERE table_schema = DATABASE() AND table_name = 'user_access' AND column_name = 'content_scope'`,
-    )
-    if (!scopeColumn.length) {
-      await conn.query('ALTER TABLE user_access ADD COLUMN content_scope JSON NULL AFTER mfa_required')
-    }
-
-    // Sign-up now asks for a phone number and a nationality, and the number has
-    // to be unique or the same person can register twice under two emails.
-    // Added by lookup rather than a marker, so a database restored from a dump
-    // that already has them still boots.
-    for (const [column, definition] of [
-      ['phone', 'VARCHAR(32) NULL AFTER email'],
-      ['nationality', 'VARCHAR(64) NULL AFTER phone'],
-      ['year_id', 'VARCHAR(64) NULL AFTER year'],
-    ]) {
-      const [found] = await conn.query(
-        `SELECT 1 FROM information_schema.columns
-          WHERE table_schema = DATABASE() AND table_name = 'students' AND column_name = ?`,
-        [column],
-      )
-      if (!found.length) await conn.query(`ALTER TABLE students ADD COLUMN ${column} ${definition}`)
-    }
-
-    // A student's own uploads were PDFs only — the storage key ended `.pdf` and
-    // the download was served as one. A whiteboard can now carry any file, so
-    // what it was called and what it is have to be stored rather than assumed.
-    for (const [column, definition] of [
-      ['file_name', 'VARCHAR(255) NULL AFTER media_type'],
-      ['mime_type', 'VARCHAR(128) NULL AFTER file_name'],
-    ]) {
-      const [found] = await conn.query(
-        `SELECT 1 FROM information_schema.columns
-          WHERE table_schema = DATABASE() AND table_name = 'user_documents' AND column_name = ?`,
-        [column],
-      )
-      if (!found.length) await conn.query(`ALTER TABLE user_documents ADD COLUMN ${column} ${definition}`)
-    }
-
-    // The unique index is separate from the column: adding it can fail on a
-    // database that already holds duplicates, and that has to be a loud failure
-    // an operator resolves rather than a column quietly left unconstrained.
-    const [phoneIndex] = await conn.query(
-      `SELECT 1 FROM information_schema.statistics
-        WHERE table_schema = DATABASE() AND table_name = 'students' AND index_name = 'students_phone_unique'`,
-    )
-    if (!phoneIndex.length) {
-      await conn.query('CREATE UNIQUE INDEX students_phone_unique ON students (phone)')
-    }
-
-    const [yearIdIndex] = await conn.query(
-      `SELECT 1 FROM information_schema.statistics
-        WHERE table_schema = DATABASE() AND table_name = 'students' AND index_name = 'idx_students_university_year_id'`,
-    )
-    if (!yearIdIndex.length) {
-      await conn.query('CREATE INDEX idx_students_university_year_id ON students (university_id, year_id)')
-    }
-
-    await conn.query(
-      `CREATE TABLE IF NOT EXISTS academic_publish_requests (
-        idempotency_key VARCHAR(128) PRIMARY KEY,
-        actor_id        VARCHAR(64) NOT NULL,
-        response_json   LONGTEXT NOT NULL,
-        created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        INDEX idx_academic_publish_actor (actor_id, created_at)
-      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
-    )
 
     const backfillYearIds = '2026-08-26-backfill-student-year-ids'
     const [yearBackfillApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [backfillYearIds])
@@ -409,8 +327,12 @@ export async function migrate() {
       }
     }
 
-    // QotD reminders: device_tokens gains web-push subscription columns and a
-    // wider platform enum. Guarded by lookups so a DB that already has them boots.
+    // QotD reminders widened device_tokens.platform to include 'web'. Not
+    // expressible as idempotent SQL (MODIFY COLUMN has no "IF" form), so this
+    // stays a guarded JS step like the role widening above; the new web_* columns
+    // and the study-room seat columns/index it used to sit next to are now
+    // plain ADD COLUMN IF NOT EXISTS / CREATE INDEX IF NOT EXISTS statements in
+    // server/migrations/0001_baseline.sql.
     const [platformCol] = await conn.query(
       `SELECT COLUMN_TYPE AS type FROM information_schema.columns
         WHERE table_schema = DATABASE() AND table_name = 'device_tokens' AND column_name = 'platform'`,
@@ -418,56 +340,6 @@ export async function migrate() {
     if (platformCol.length && !platformCol[0].type.includes("'web'")) {
       await conn.query(
         "ALTER TABLE device_tokens MODIFY COLUMN platform ENUM('ios','android','web') NOT NULL DEFAULT 'ios'",
-      )
-    }
-    for (const [column, definition] of [
-      ['web_endpoint', 'TEXT NULL'],
-      ['web_p256dh', 'VARCHAR(255) NULL'],
-      ['web_auth', 'VARCHAR(255) NULL'],
-    ]) {
-      const [found] = await conn.query(
-        `SELECT 1 FROM information_schema.columns
-          WHERE table_schema = DATABASE() AND table_name = 'device_tokens' AND column_name = ?`,
-        [column],
-      )
-      if (!found.length) await conn.query(`ALTER TABLE device_tokens ADD COLUMN ${column} ${definition}`)
-    }
-
-    // A study room shows the room, not just you: where each member sits, what
-    // their desk looks like, and whether they are working right now. Added by
-    // lookup like every column above, so a database restored from a dump that
-    // already has them still boots.
-    for (const [column, definition] of [
-      ['seat_desk', 'VARCHAR(16) NULL'],
-      ['seat_device', 'VARCHAR(16) NULL'],
-      ['seat_chair', 'VARCHAR(16) NULL'],
-      ['seat_index', 'TINYINT NULL'],
-      ['last_active_at', 'DATETIME NULL'],
-      ['activity', 'VARCHAR(16) NULL'],
-    ]) {
-      const [found] = await conn.query(
-        `SELECT 1 FROM information_schema.columns
-          WHERE table_schema = DATABASE() AND table_name = 'study_party_members' AND column_name = ?`,
-        [column],
-      )
-      if (!found.length) await conn.query(`ALTER TABLE study_party_members ADD COLUMN ${column} ${definition}`)
-    }
-
-    // Two people cannot sit at one desk, and a read-then-write cannot promise
-    // that — the index can. MariaDB allows any number of NULLs in a unique
-    // index, so "in the room, nowhere in particular" stays available to
-    // everyone while a genuine race for desk 3 fails loudly as ER_DUP_ENTRY.
-    // Separate from the columns, as the `students_phone_unique` note explains:
-    // creating it can fail on data that already holds duplicates, and that has
-    // to be an operator's problem rather than a column quietly unconstrained.
-    const [seatIndexUnique] = await conn.query(
-      `SELECT 1 FROM information_schema.statistics
-        WHERE table_schema = DATABASE() AND table_name = 'study_party_members'
-          AND index_name = 'study_party_members_seat_unique'`,
-    )
-    if (!seatIndexUnique.length) {
-      await conn.query(
-        'CREATE UNIQUE INDEX study_party_members_seat_unique ON study_party_members (party_id, seat_index)',
       )
     }
   } finally {

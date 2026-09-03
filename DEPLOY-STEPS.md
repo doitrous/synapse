@@ -63,6 +63,18 @@ to work around with a bypass.
 
 ---
 
+## Database migrations
+
+Schema changes now live as files in `server/migrations/*.sql`, applied in
+filename order and tracked in `schema_migration_files` (see
+`server/migrations/README.md` for the naming/idempotency rules). `npm run
+migrate` (`server/src/migrate.js`) applies anything new and exits 0/1 — the
+app also runs this at boot, but once this is stable it should become the
+Coolify **pre-deploy command** instead, so the runtime DB user can lose DDL
+rights and only the deploy step needs schema-altering privileges.
+
+---
+
 ## STEP 3 — Close the public MariaDB port (8823)
 
 The app now uses the internal DB host, so the public port is unnecessary:
