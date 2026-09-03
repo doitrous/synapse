@@ -1,6 +1,6 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
-| ass1-ug-2020 | 0 | 0 | 26 | 26 |
+| ass1-ug-2020 | 17 | 9 | 0 | 26 |
 | assessment-1-mcq | 63 | 5 | 0 | 68 |
 | assessment-1-mcq-micro | 0 | 0 | 5 | 5 |
 | assessment-1-mcq-patho | 0 | 0 | 16 | 16 |
@@ -16,6 +16,15 @@
 | first-assessment-ug-2024 | 0 | 0 | 24 | 24 |
 
 ## Held
+- ass1-ug-2020-q03 — unrecoverable/ambiguous premise — item 3 ("Calcitriol" / "Fanconi $ low plasma levels ?" / "Other answers" / "GSH-Cl-") is a garbled fragment of the answer-then-stem compilation; it is not clear which token is the printed answer and which is the stem, nor what the intended distractor set ("Other answers") contained, and "GSH-Cl-" does not parse into a defensible option. No confident reconstruction of the examiner's intended question or key is possible from the source text; held rather than guessed at, flagged to chief-of-staff / Omar for a ruling with the source page re-checked.
+- ass1-ug-2020-q07 — duplicate — item 7 ("hyponatriemia" / "21 alpha Hydroxylase defects") re-asks the same 21-alpha-hydroxylase/salt-wasting fact already authored (from the reverse direction) as an assessment-2-mcq-1-bio concept ("masculine female genitalia, hyponatremia, hyperkalemia" -> 21-OH deficiency, authored as assessment-2-mcq-1-bio-q01) and previously held as a duplicate at assessment-2-mcq-1-patho-q09 per coverage/ASU-UG-LEDGER.md; collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- ass1-ug-2020-q10 — duplicate — item 10 ("Mesangil deposition" / "Berger Ds") re-asks the same IgA-nephropathy/mesangial-deposition fact already authored as an assessment-1-mcq concept ("Mesangial proliferation with mesangial IgA deposits is diagnostic of IgA nephropathy (Berger disease)"), confirmed via find-existing.mjs "berger disease"; collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- ass1-ug-2020-q12 — duplicate — item 12 ("Obesity" / "Modifiable RF in ESRD") re-asks the same fact already authored as an assessment-2-mcq-1 concept ("Obesity is a modifiable risk factor for end-stage renal disease (ESRD)", CON-POP-AADC470905FCD9) and previously held as a duplicate at eom-ug-final1-2024-q19 per coverage/ASU-UG-LEDGER.md; collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- ass1-ug-2020-q15 — duplicate — item 15 ("Metabolic acidosis and hyperkalemia" / "Chronic Renal Failure") re-asks the same fact already authored as an assessment-1-mcq concept ("Chronic renal failure characteristically produces the combination of metabolic acidosis and hyperkalemia") and previously held as a duplicate at eom-ug-final1-2024-q14 per coverage/ASU-UG-LEDGER.md; collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- ass1-ug-2020-q17 — duplicate — item 17 ("Pelviureteric junction" / "Stone at transpyloric plane") re-asks the same fact already authored as an assessment-1-mcq concept/article ("The pelviureteric junction, the first site of ureteric narrowing, lies at approximately the level of the transpyloric plane"), confirmed via find-existing.mjs "transpyloric plane"; collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- ass1-ug-2020-q21 — duplicate — item 21 ("inc PTC osmotic pressure" / "Inc GFR acc to Glomerulotubular Balance") re-asks the same fact already authored as an assessment-1-mcq concept/article ("A rise in glomerular filtration rate increases peritubular capillary oncotic pressure, driving glomerulotubular balance"), confirmed via find-existing.mjs "peritubular capillary oncotic pressure"; collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- ass1-ug-2020-q24 — duplicate — item 24 ("Psychic hyperventilation" / "Dec in excretion of titrable urine acidity") re-asks the same fact already authored as an assessment-1-mcq concept and previously held twice as a duplicate (assessment-1-mcq-q46 and eom-ug-final1-2024-q12) per coverage/ASU-UG-LEDGER.md; collapsed per LANE-CARD-Y2-3 cross-file recycling rule.
+- ass1-ug-2020-q25 — duplicate — item 25 ("Surface area of GBM" / "One of the factors affecting kF") re-asks the same fact already authored as an assessment-1-mcq concept and previously held as a duplicate at assessment-1-mcq-q47 ("surface area of capillary membrane" affects kF) per coverage/ASU-UG-LEDGER.md; collapsed per LANE-CARD-Y2-3 within-corpus duplicate rule.
 - assessment-1-mcq-q46 — duplicate — Physio Q46 ("Psychic hyperventilation? Decrease in excretion of titratable urine acidity") re-asks the same fact tested in Physio Q10 ("which condition is associated with a decrease in urinary titratable acid excretion? Psychic hyperventilation"), authored as assessment-1-mcq-q10; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - assessment-1-mcq-q47 — duplicate — Physio Q47 ("One of the factors affecting kF (filtration coefficient)? Surface area of GBM") re-asks the same fact tested in Physio Q28 ("Affects filtration coefficient kF? surface area of capillary membrane"), authored as assessment-1-mcq-q28; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - assessment-1-mcq-patho-q06 — duplicate — Patho Q6 ("Oliguria, hematuria, hypertension, and periorbital edema are characteristic clinical features for which type of glomerulonephritis? Poststreptococcal GN") re-asks the same nephritic-syndrome-to-post-infectious-GN fact tested in Patho Q1 ("Nephritic syndrome S/S: hematuria, HTN etc? Post infection GN"), authored as assessment-1-mcq-patho-q01; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
@@ -42,32 +51,6 @@
 - eom-ug-final2-collection-q112 — doubtful key — Patho Q16 asks which statement is true regarding prostatic carcinoma and keys "corpora amylacea in lumen"; standard prostate pathology teaching (reinforced by this same source's own Patho Q21, authored as eom-ug-final2-collection-q117, which correctly keys corpora amylacea as a normal, age-related finding in *benign* prostatic acini) holds that corpora amylacea are a feature of benign glands and are characteristically *absent* from malignant glands — their presence is used as one histologic clue *against* cancer. This reverses, rather than merely debates, an accepted diagnostic teaching point, so it is held rather than authored with a doubt note per the "printed keys stand unless unrecoverable" rule; flagged to chief-of-staff / Omar for a ruling.
 
 ## Remaining
-- ass1-ug-2020-q01
-- ass1-ug-2020-q02
-- ass1-ug-2020-q03
-- ass1-ug-2020-q04
-- ass1-ug-2020-q05
-- ass1-ug-2020-q06
-- ass1-ug-2020-q07
-- ass1-ug-2020-q08
-- ass1-ug-2020-q09
-- ass1-ug-2020-q10
-- ass1-ug-2020-q11
-- ass1-ug-2020-q12
-- ass1-ug-2020-q13
-- ass1-ug-2020-q14
-- ass1-ug-2020-q15
-- ass1-ug-2020-q16
-- ass1-ug-2020-q17
-- ass1-ug-2020-q18
-- ass1-ug-2020-q19
-- ass1-ug-2020-q20
-- ass1-ug-2020-q21
-- ass1-ug-2020-q22
-- ass1-ug-2020-q23
-- ass1-ug-2020-q24
-- ass1-ug-2020-q25
-- ass1-ug-2020-q26
 - assessment-1-mcq-micro-q01
 - assessment-1-mcq-micro-q02
 - assessment-1-mcq-micro-q03

@@ -1,0 +1,111 @@
+# Item
+
+## id
+src_c9736bedf450f264c714
+
+## title
+Ain Shams Year 3 Urogenital ASS 1 UG - 2020
+
+## subject
+renal
+
+## type
+Deck
+
+## source
+Ain Shams University — Faculty of Medicine (student-compiled assessment-1 exam bank)
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+
+## year
+
+
+## topics
+Renal and urinary anatomy
+Renal physiology
+Renal pathology
+Biochemistry
+Microbiology
+Pharmacology
+
+## chapter
+ASS 1 UG - 2020 ("Urogenital assessment 1 2020") — a 26-item, 3-page, by-subject exam paper. 17 of the 26 items authored; 9 held (8 cross-paper duplicates of facts already authored in sibling ASU-UG papers, 1 unrecoverable/ambiguous premise).
+
+## module_ids
+ASU-UG
+
+## module_subject
+ASU-UG > Anatomy, Physiology, Pathology, Biochemistry, Pharmacology, Microbiology
+
+## included_concepts
+CON-REN-68ED96217F2B8A
+CON-REN-6A81D021A7983D
+CON-REN-72364CAB4B7C05
+CON-REN-96C434681DF74B
+CON-REN-C0198087B5B073
+CON-REN-3194482AFC60FC
+CON-REN-30010B36B1AFA5
+CON-REN-C937377CCE9A5A
+CON-REN-EE379E70F4AEDB
+CON-REN-D000D44E2D27DF
+CON-REN-ADF5C3DB2EB90C
+CON-REN-A7B9E19CBCB2EB
+CON-REN-5F4388D723BCBF
+CON-REN-0E453545A8D4B1
+CON-REN-B6987FB82F1ED3
+CON-REN-278DB09CD694EA
+CON-REN-19DEDA31177094
+
+## included_articles
+ART-REN-ASU-UG-THE-GENITOFEMORAL-NERVE-IS-THE-STRUCTURE-MOST-AT-RISK-DURING-LIGATION-FOR-RADICAL-NEPHROURETERECTOMY
+ART-REN-ASU-UG-ACUTE-DRUG-HYPERSENSITIVITY-INTERSTITIAL-NEPHRITIS-PRESENTS-WITH-EOSINOPHILIA-AND-A-MACULOPAPULAR-RASH-WITHIN-DAYS-OF-THE-CULPRIT-DRUG
+ART-REN-ASU-UG-MACULA-DENSA-CELLS-CHARACTERISTICALLY-SHOW-A-BASALLY-LOCATED-GOLGI-APPARATUS-ON-ELECTRON-MICROSCOPY
+ART-REN-ASU-UG-TYPE-1-MEMBRANOPROLIFERATIVE-GLOMERULONEPHRITIS-SHOWS-TRAM-TRACK-SPLITTING-OF-THE-GBM-WITH-SUBENDOTHELIAL-DEPOSITS
+ART-REN-ASU-UG-AFFERENT-ARTERIOLAR-DILATATION-INCREASES-RENAL-BLOOD-FLOW
+ART-REN-ASU-UG-SODIUM-BICARBONATE-THERAPY-CAN-CAUSE-HYPOKALEMIA
+ART-REN-ASU-UG-CORRECTION-OF-SEVERE-HYPONATREMIA-IS-LIMITED-TO-ABOUT-8-10-MEQ-L-IN-THE-FIRST-24-HOURS
+ART-REN-ASU-UG-ANTI-GBM-DISEASE-SHOWS-SEGMENTAL-GLOMERULAR-NECROSIS-WITH-CRESCENT-FORMATION
+ART-REN-ASU-UG-ESCHERICHIA-COLI-CAUSES-ABOUT-90-OF-UNCOMPLICATED-URINARY-TRACT-INFECTIONS-IN-PATIENTS-WITH-A-NORMAL-URINARY-TRACT
+ART-REN-ASU-UG-SECONDARY-AA-AMYLOID-NEPHROPATHY-CAN-COMPLICATE-CHRONIC-SUPPURATIVE-LUNG-DISEASE-SUCH-AS-BRONCHIECTASIS-AND-PRESENT-AS-NEPHROTIC-SYNDROME
+ART-REN-ASU-UG-INCREASED-RENAL-SYMPATHETIC-NERVE-ACTIVITY-STIMULATES-RENIN-SECRETION
+ART-REN-ASU-UG-GLUTAMATE-DECARBOXYLASE-IS-NOT-ONE-OF-THE-ENZYMES-OF-THE-GAMMA-GLUTAMYL-CYCLE
+ART-REN-ASU-UG-FAILURE-OF-UNION-BETWEEN-THE-COLLECTING-TUBULES-AND-THE-EXCRETORY-NEPHROGENIC-TUBULES-IS-A-CAUSE-OF-CONGENITAL-POLYCYSTIC-KIDNEY-DISEASE
+ART-REN-ASU-UG-RENAL-FUNCTION-SHOULD-BE-CHECKED-BEFORE-STARTING-BISPHOSPHONATE-TREATMENT-FOR-SEVERE-HYPERCALCEMIA
+ART-REN-ASU-UG-MESANGIAL-CELLS-CONTRIBUTE-TO-TURNOVER-RECYCLING-OF-THE-GLOMERULAR-BASEMENT-MEMBRANE
+ART-REN-ASU-UG-ONLY-A-SMALL-FRACTION-ABOUT-4-5-OF-FILTERED-WATER-IS-REABSORBED-IN-THE-MEDULLARY-COLLECTING-DUCT
+ART-REN-ASU-UG-URIC-ACID-RENAL-STONES-ASSOCIATED-WITH-GOUT-ARE-CLASSICALLY-SMOOTH-AND-YELLOW-AND-CAN-FORM-A-STAGHORN-CONFIGURATION
+
+## concept_locations
+CON-REN-68ED96217F2B8A | page | item 1
+CON-REN-6A81D021A7983D | page | item 2
+CON-REN-72364CAB4B7C05 | page | item 4
+CON-REN-96C434681DF74B | page | item 5
+CON-REN-C0198087B5B073 | page | item 6
+CON-REN-3194482AFC60FC | page | item 8
+CON-REN-30010B36B1AFA5 | page | item 9
+CON-REN-C937377CCE9A5A | page | item 11
+CON-REN-EE379E70F4AEDB | page | item 13
+CON-REN-D000D44E2D27DF | page | item 14
+CON-REN-ADF5C3DB2EB90C | page | item 16
+CON-REN-A7B9E19CBCB2EB | page | item 18
+CON-REN-5F4388D723BCBF | page | item 19
+CON-REN-0E453545A8D4B1 | page | item 20
+CON-REN-B6987FB82F1ED3 | page | item 22
+CON-REN-278DB09CD694EA | page | item 23
+CON-REN-19DEDA31177094 | page | item 26
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## description
+Native-text, undated ASU Year 3 Urogenital "ASS 1 UG - 2020.pdf" ("Urogenital assessment 1 2020") compilation, 26 items across 3 pages. Item 1 prints real options with the correct one marked ✅✅; items 2-26 are in answer-then-stem format (answer stated before the description, no printed distractors). 17 items authored here across Anatomy, Physiology, Pathology, Biochemistry, Microbiology and Pharmacology. The remaining 9 (21-alpha-hydroxylase/hyponatremia, Berger disease/mesangial IgA, obesity/ESRD, CRF metabolic acidosis+hyperkalemia, PUJ/transpyloric plane, psychic hyperventilation/titratable acidity, GBM surface area/kF, and a Calcitriol/Fanconi fragment with an unrecoverable premise) are held — 8 as cross-paper duplicates of facts already authored in the sibling assessment-1-mcq, assessment-2-mcq-1 and eom-ug-final1-2024 papers, 1 as an unrecoverable/ambiguous premise — per coverage/ASU-UG-LEDGER.md ## Held. This batch authors its own distractors throughout (except item 1, which keeps the printed options and key). This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.
