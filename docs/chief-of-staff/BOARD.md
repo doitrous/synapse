@@ -721,3 +721,11 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 
 ### 2026-09-03 — PROD IMPORT #1 LANDED: 6 October (Draft) · +203 Q / +33 art / +111 concepts
 - `apply-content-import-to-db.mjs --commit` on 41 batches (docs/6October-Source-Imports/*). simulate rejected=0, applied=414 (all pure creates as Draft, no un-publish). live before→after: questions 6161→6364, articles 895→928, concepts 4750→4861, practicals 101. Backup `.import-backup-2026-09-03T01-17-18-526Z.json`. Version row written in same txn (publish-revert safe). Next safe universities to import as Draft: Ain-Shams(asu), Assiut, Zagazig, Menoufia, Mansoura (all pure creates). Kasr(kau)/Alexandria(au) need per-module care (have Published records). Helwan/MUST batch dirs NOT imported (content under review).
+
+### 2026-09-03 — LANDINGS: source picker + Assiut CBF-103 l4 + Mansoura AEP l5
+- **Source picker ACTIVATED (1ee9276f):** QuestionBank source cards are live selectable buttons (dept-mcq/dept-book/past-paper), wired to `effectiveSources` filter; "N selected" badge; deselect works. tsc clean, 2132/2132 tests. NOTE: needs questions tagged with a `source` bucket to actually narrow (authoring follow-up). EOM/EOY past-paper split still TODO.
+- **Assiut CBF-103 l4 (7f9fdb3c):** pp.91-149 of the Moodle quiz, 55 authored / 13 held, 13 concepts minted + 23 pending reuses. simulate rejected=0. resume-first: pp.150-210 (OCR'd, 9 quiz blocks untriaged); pp.211-259 need OCR.
+- **Mansoura AEP l5 (0eab6012):** AEP Full Exams (VIP) pp.56-77, 70 authored / 29 held, 61 concepts minted. **Full Exams file CLOSED.** FLAG: `gate.mjs simulate` shows 68 PRE-EXISTING rejections in MANS-AEP lanes 1-3's own files (reproduced without l5) — must fix before Mansoura AEP imports cleanly. resume-first: next AEP staging PDF.
+
+### 2026-09-03 — FLEET EMPTY; refilling Year 1 (closest-to-completion first) + imports in flight
+- 6 pure-create universities safe to import as Draft (no published questions to clobber; 60 published articles are all kau/au-prefixed ids): asu(1818 Q)/aun(1031)/scu(83)/mans(716)/mu(280)/zu(440). Ain-Shams dry-run running (ble4cf6lx). Kasr(kau)/Alexandria(au) deferred (per-module care). Helwan/MUST NOT imported (under review).
