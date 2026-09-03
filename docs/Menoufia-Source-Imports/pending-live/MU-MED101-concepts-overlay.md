@@ -110,6 +110,44 @@
   concept/MU-MED101-concepts-5.md's header for the full simulate command.
 
   Import: Admin > Concepts > Import.
+
+  Lane 6 (f1supp43final-block1 cluster, from a third distinct paper --
+  "EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf",
+  mu_8cacfd06664367bf5edf, pages 1-9) adds nine more rows at the end of this
+  file for its own exact-fact reuses, found the same way (find-existing.mjs
+  plus root-word greps across Kasr/Ain-Shams/Assiut pending concept files):
+    docs/import-ready/concept/101-ISK-mcq-concepts.md --
+      CON-MSK-F598AF39FBE297 (the four muscle-action roles: prime mover,
+      antagonist, fixator, synergist), CON-FND-0E38E21957DB05 (rough ER's
+      structure and continuity with the outer nuclear membrane),
+      CON-FND-4284C6B8667CD6 (a ribosome's two-unequal-subunit,
+      non-membranous structure), CON-FND-2560DB7970AF40 (the
+      organelle/inclusion split and the membranous/non-membranous
+      organelle classification), CON-FND-B6BD265FBD8B5F (neuro-epithelium,
+      with the taste bud as its example).
+    docs/Kasr-Source-Imports/concept/101-ISK-practical-concepts.md --
+      CON-FND-49D5829AC3DCA1 (reticular connective tissue as the
+      silver-stained stroma of spleen, lymph node and liver).
+    docs/Ain-Shams-Source-Imports/concept/ASU-AE-youssef-terminology-new-concepts.md --
+      CON-MSK-ASU-AE-CARPAL-BONE-COUNT (the carpus's eight bones in two
+      rows of four).
+    docs/Assiut-Source-Imports/concept/AUN-PMS-102-concepts.md --
+      CON-DEV-782538AF00F48E (placenta accreta as abnormally deep
+      chorionic villous invasion into the myometrium).
+    Live state (kau, already imported, no pending file to include in
+      simulate) -- CON-GYN-2F21CB6A9C5DCE (approximately 75% of breast
+      lymph drains to the axillary nodes).
+  All nine are taught by this lane's own article/MU-MED101-articles.md,
+  each extending an existing article's ## related_concepts (MOVEMENTS,
+  BONES, JOINTS, PLACENTA, ORGANELLES1, ORGANELLES2) or the new
+  ART-MU101-EPITHCT-54F3201A article created this round -- see
+  concept/MU-MED101-concepts-6.md's header and
+  coverage/seeds/MU-MED101/f1supp43final-block1.json's header for the full
+  simulate command. Two further exact-fact reuses this cluster found,
+  CON-FND-6C5ABFD844D630 (euchromatin) and CON-FND-69671A492023B8 (Barr
+  body), are already MU-tagged from Lane 3 above and already taught in
+  ART-MU101-ORGANELLES2-3DEE3A82 -- referenced directly with no new overlay
+  row needed.
 -->
 
 # Item
@@ -571,3 +609,201 @@ Denaturation ruptures the bonds holding secondary, tertiary and quaternary struc
 
 ## field_notes
 mu: Tested as varA-biophys-q58 ("Denaturation of protein:" -> None of the above, since the printed distractors each misstate the primary-structure/quaternary-structure/biological-activity facts this concept states correctly) in "EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A.pdf" (mu_f63b294e2eeab7da0ff8), p7, yellow-highlight key.
+
+---
+
+# Item
+
+## id
+CON-MSK-F598AF39FBE297
+
+## label
+A purposeful movement needs four kinds of muscle, and each is named for what it does to the movement rather than for where it lies
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as f1supp43final-block1-q03 ("Which term of the followings describes the muscles that contract to prevent the unwanted movements at the intermediate joints?" -> Synergist) in "EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf" (mu_8cacfd06664367bf5edf), p1, yellow-fill-highlight key.
+
+---
+
+# Item
+
+## id
+CON-MSK-ASU-AE-CARPAL-BONE-COUNT
+
+## label
+The wrist has eight carpal bones in two rows of four, not seven
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as f1supp43final-block1-q04 ("Which of the followings are eight (8) in number?" -> Carpal bones) in "EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf" (mu_8cacfd06664367bf5edf), p1-2, yellow-fill-highlight key.
+
+---
+
+# Item
+
+## id
+CON-GYN-2F21CB6A9C5DCE
+
+## label
+Axillary drainage of breast lymph
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as f1supp43final-block1-q08 ("A 31-year-old female patient had a breast abscess. A few days later, the lymph nodes in her armpit were enlarged. Which one of these groups of lymph nodes was affected?" -> Axillary) in "EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf" (mu_8cacfd06664367bf5edf), p3, yellow-fill-highlight key. Live concept (university kau, subject gyn) -- no pending file to include in simulate.
+
+---
+
+# Item
+
+## id
+CON-DEV-782538AF00F48E
+
+## label
+Placenta accreta is placenta that penetrates deeply, abnormally, into the uterine wall
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as f1supp43final-block1-q17 ("Placenta accreta is characterized by which one of the followings?" -> Invasion of chorionic villi into the myometrium) in "EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf" (mu_8cacfd06664367bf5edf), p6, yellow-fill-highlight key.
+
+---
+
+# Item
+
+## id
+CON-FND-0E38E21957DB05
+
+## label
+Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as f1supp43final-block1-q21 ("Which of the following is a character of the outer nuclear membrane?" -> Continues with RER) in "EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf" (mu_8cacfd06664367bf5edf), p7, yellow-fill-highlight key.
+
+---
+
+# Item
+
+## id
+CON-FND-2560DB7970AF40
+
+## label
+Organelles are living and essential, inclusions are not, and organelles divide into membranous and non-membranous
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as f1supp43final-block1-q23 ("Which of the following are non-membranous organelles?" -> Microfilaments) in "EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf" (mu_8cacfd06664367bf5edf), p7, yellow-fill-highlight key.
+
+---
+
+# Item
+
+## id
+CON-FND-4284C6B8667CD6
+
+## label
+A ribosome is a non-membranous particle of rRNA and protein, assembled as two unequal subunits in the nucleolus
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as f1supp43final-block1-q26 ("Which of the following features is true concerning ribosomes?" -> Formed of 2 subunits) in "EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf" (mu_8cacfd06664367bf5edf), p8, yellow-fill-highlight key.
+
+---
+
+# Item
+
+## id
+CON-FND-49D5829AC3DCA1
+
+## label
+Reticular connective tissue is the silver-stained network that forms the stroma of an organ
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as f1supp43final-block1-q29 ("Which one of the following has reticular connective tissue?" -> Spleen) in "EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf" (mu_8cacfd06664367bf5edf), p9, yellow-fill-highlight key.
+
+---
+
+# Item
+
+## id
+CON-FND-B6BD265FBD8B5F
+
+## label
+Neuro-epithelium is epithelium whose cells are modified to act as sensory receptors, as in the taste buds
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED101
+
+## field_notes
+mu: Tested as f1supp43final-block1-q30 ("Which of the following is the type of epithelium present in taste buds?" -> Neuroepithelium) in "EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf" (mu_8cacfd06664367bf5edf), p9 -- tool marked both B and E as candidates with no highlight reason recorded (a false-positive double mark, not a genuine printed conflict); keyed editorially to B (neuro-epithelium/taste bud is the standard, unambiguous histology fact) per standing rule, field-noted.

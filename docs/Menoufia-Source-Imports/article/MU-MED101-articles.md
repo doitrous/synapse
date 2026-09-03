@@ -79,31 +79,35 @@ CON-MSK-1DB39427FDAD0A
 CON-MSK-AC860554F97C5D
 CON-MSK-CD856A89D12EB5
 CON-MSK-387676EEB2B66E
+CON-MSK-F598AF39FBE297
 
 ## related_articles
 
 
 ## aliases
-Scapular protraction is the forward glid | Opposition of the thumb combines abducti | Supination is lateral rotation of the ra | Eversion turns the sole of the foot to f | Abduction is movement of a limb away fro | The wrist (radiocarpal) joint, a condylo
+Scapular protraction is the forward glid | Opposition of the thumb combines abducti | Supination is lateral rotation of the ra | Eversion turns the sole of the foot to f | Abduction is movement of a limb away fro | The wrist (radiocarpal) joint, a condylo | Prime mover, antagonist, fixator, synerg
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-8
+9
 
 ## summary
-Six named movements tested on the Support 43 paper: scapular protraction, thumb opposition, forearm supination, foot eversion, the midline-referenced definition of abduction, and the four movements available at the wrist joint.
+Six named movements tested on the Support 43 paper: scapular protraction, thumb opposition, forearm supination, foot eversion, the midline-referenced definition of abduction, and the four movements available at the wrist joint. This round adds the four functional roles a muscle can play in a purposeful movement, tested from a different past paper (Support 43 Final - Answered).
 
 ## sections
 ### Definition
-Protraction carries the shoulder girdle forward around the chest wall (serratus anterior, assisted by pectoralis minor); its opposite, retraction, pulls it back (rhomboids, middle trapezius). Opposition is the composite thumb movement -- abduction, flexion and medial rotation together at the saddle-shaped carpometacarpal joint -- that lets the thumb pulp meet each fingertip for precision grip, driven by opponens pollicis (median nerve); reposition is its named return. Supination is lateral rotation of the radius around the ulna, turning the palm anteriorly/upward (biceps brachii is the powerful supinator with the elbow flexed); pronation is the opposite, medial rotation. Eversion turns the sole of the foot laterally (peroneus longus and brevis); inversion is the opposite (tibialis anterior and posterior). Abduction is movement of a limb away from the body's midline; adduction is the return. The wrist (radiocarpal) joint is a condyloid joint, so it performs all four of flexion, extension, abduction (radial deviation) and adduction (ulnar deviation).
+Protraction carries the shoulder girdle forward around the chest wall (serratus anterior, assisted by pectoralis minor); its opposite, retraction, pulls it back (rhomboids, middle trapezius). Opposition is the composite thumb movement -- abduction, flexion and medial rotation together at the saddle-shaped carpometacarpal joint -- that lets the thumb pulp meet each fingertip for precision grip, driven by opponens pollicis (median nerve); reposition is its named return. Supination is lateral rotation of the radius around the ulna, turning the palm anteriorly/upward (biceps brachii is the powerful supinator with the elbow flexed); pronation is the opposite, medial rotation. Eversion turns the sole of the foot laterally (peroneus longus and brevis); inversion is the opposite (tibialis anterior and posterior). Abduction is movement of a limb away from the body's midline; adduction is the return. The wrist (radiocarpal) joint is a condyloid joint, so it performs all four of flexion, extension, abduction (radial deviation) and adduction (ulnar deviation). No purposeful movement is produced by one muscle alone: a group acts together, and by role there are four types of muscle action. The prime mover (agonist) initiates and maintains the movement; the antagonist opposes it; the fixator (stabiliser) fixes the prime mover's origin, or stabilises a joint it crosses, so its pull has something to work against; and the synergist contracts specifically to cancel out unwanted movements the prime mover would otherwise produce at the other joints it crosses, so that its action on the joint that matters becomes maximal.
 
 ### Mechanism
 Every one of these terms is midline- or joint-referenced by strict convention, never by an everyday sense of the word: 'abduction' always means away from the body's own midline (or, for a digit, away from the axis of the hand or foot), 'flexion/extension' always means a change in joint angle, and compound movements such as opposition or circumduction are named because they combine several of the simple movements at once rather than being a movement of their own.
 
 ### Key determinants
-What tells these movements apart is the reference frame each is defined against and the plane it occurs in: abduction and adduction are referenced to the body's (or the digit's) own midline, supination-pronation and the pivot rotations to a longitudinal axis, protraction-retraction to horizontal gliding around the chest wall, and eversion-inversion to the subtalar joint. The compound movements (opposition, circumduction) are distinguished by combining several of these simple movements at once rather than being movements of their own, and each simple movement is further pinned to a specific prime mover and nerve -- which is exactly what a loss-of-movement question is testing.
+Which named movement a question is asking about follows from the joint/axis involved (scapular protraction/retraction, forearm supination/pronation, foot eversion/inversion, limb abduction/adduction) and, for a compound movement such as opposition, from which simple movements combine to produce it. For the four muscle-action roles, which role a muscle is playing follows from what job it is doing in that specific movement -- producing it (prime mover), opposing it (antagonist), stabilising the joint it depends on (fixator), or cancelling its unwanted side-effects at another joint (synergist) -- rather than from the muscle's location or size.
 
 ### Clinical significance
 Losing one of these movements points directly at its named prime mover or nerve: loss of protraction with a winged scapula points to long thoracic nerve palsy (serratus anterior); loss of opposition points to a low median nerve lesion (opponens pollicis); loss of supination with the elbow extended still leaves some supination available from supinator even if biceps (musculocutaneous nerve) is lost, because the two muscles have different nerve supplies.
@@ -177,31 +181,35 @@ CON-MSK-BDB90615924999
 CON-MSK-BF43527FC90940
 CON-MSK-36E5F5233582E4
 CON-MSK-4D6EF83A9A2C7F
+CON-MSK-ASU-AE-CARPAL-BONE-COUNT
 
 ## related_articles
 
 
 ## aliases
-Skull vault bones ossify intramembranous | A long bone lengthens at its epiphyseal  | The tarsal bones are short bones — a thi | Long bones are classed by epiphysis coun
+Skull vault bones ossify intramembranous | A long bone lengthens at its epiphyseal  | The tarsal bones are short bones — a thi | Long bones are classed by epiphysis coun | The wrist has eight carpal bones
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-8
+9
 
 ## summary
-How the skull vault ossifies (intramembranous), how a long bone grows in length versus width, and how long bones are classed as typical, miniature or modified by their epiphysis count.
+How the skull vault ossifies (intramembranous), how a long bone grows in length versus width, and how long bones are classed as typical, miniature or modified by their epiphysis count. This round adds the carpus's own bone count, tested from a different past paper (Support 43 Final - Answered).
 
 ## sections
 ### Definition
-The skull vault ossifies intramembranously: mesenchyme condenses directly into osteoblasts within a fibrous membrane, with no cartilage model, which is why the fontanelles (unossified membrane) are present at birth and allow rapid vault growth. Almost every limb bone instead ossifies endochondrally, from a cartilage model. A long bone lengthens at its epiphyseal (growth) plate of hyaline cartilage and widens by appositional new bone from the deep, osteogenic layer of the periosteum (with endosteal resorption enlarging the medullary cavity); the epiphyseal plate that closes later marks that bone's growing end, and both plates fuse permanently at the end of puberty. Long bones are classed by how many epiphyses they have: a typical long bone (femur, humerus, radius, ulna, tibia, fibula) has one at each end; a miniature (short) long bone (metacarpals, metatarsals, phalanges) has only one, at one end; the clavicle is a modified long bone for other reasons (no medullary cavity, partly intramembranous). The tarsal bones (talus, calcaneus, navicular, cuboid, three cuneiforms) are short bones -- a thin compact shell around cancellous bone, suited to load transmission.
+The skull vault ossifies intramembranously: mesenchyme condenses directly into osteoblasts within a fibrous membrane, with no cartilage model, which is why the fontanelles (unossified membrane) are present at birth and allow rapid vault growth. Almost every limb bone instead ossifies endochondrally, from a cartilage model. A long bone lengthens at its epiphyseal (growth) plate of hyaline cartilage and widens by appositional new bone from the deep, osteogenic layer of the periosteum (with endosteal resorption enlarging the medullary cavity); the epiphyseal plate that closes later marks that bone's growing end, and both plates fuse permanently at the end of puberty. Long bones are classed by how many epiphyses they have: a typical long bone (femur, humerus, radius, ulna, tibia, fibula) has one at each end; a miniature (short) long bone (metacarpals, metatarsals, phalanges) has only one, at one end; the clavicle is a modified long bone for other reasons (no medullary cavity, partly intramembranous). The tarsal bones (talus, calcaneus, navicular, cuboid, three cuneiforms) are short bones -- a thin compact shell around cancellous bone, suited to load transmission. The carpus (wrist), the short-bone group at the other end of the limb, is built of eight carpal bones in two rows of four: proximally the scaphoid, lunate, triquetrum and pisiform (the last a sesamoid within flexor carpi ulnaris's tendon), and distally the trapezium, trapezoid, capitate and hamate -- a hand skeleton listing only seven is short one bone, the commonest distractor against this count.
 
 ### Mechanism
 Width growth (periosteum) and length growth (epiphyseal plate) are two independent mechanisms running in parallel, not two names for the same process, which is why a fracture through the epiphyseal plate can stunt a bone's eventual length even while its width continues to increase normally from the intact periosteum.
 
 ### Key determinants
-Three independent variables classify and distinguish these bones: the mode of ossification (intramembranous for the skull vault versus endochondral for almost every limb bone), the mechanism of growth (the epiphyseal plate for length versus the periosteum for width, running in parallel), and the number of epiphyses (one at each end = a typical long bone, one at a single end = a miniature long bone, and the clavicle a modified long bone for separate reasons). Which of these variables a question turns on decides the answer -- a growth-arrest question is about the epiphyseal plate, a classification question about epiphysis count, and a fontanelle question about intramembranous ossification.
+Whether a bone's ossification is intramembranous (skull vault) or endochondral (almost every limb bone) determines how it grows and why the vault alone has fontanelles; whether a long bone is typical, miniature or modified follows directly from counting how many separately-ossifying epiphyses it has. The carpus's eight-bone, two-row count is a separate, fixed anatomical fact rather than a classification rule, which is exactly why it is tested as a simple recall item alongside the classification questions.
 
 ### Clinical significance
 Premature fusion of an epiphyseal plate (from trauma, infection or endocrine disease) stunts length growth on that side while periosteal width growth is unaffected, producing a bone that is normal in girth but short; conversely, delayed epiphyseal fusion (as in some endocrine disorders) prolongs the growth period and can produce excessive height.
@@ -283,21 +291,29 @@ CON-FND-FF41417DBE6C38
 CON-MSK-FFA1DBDC9336D6
 CON-MSK-FF08BF94D51F80
 CON-MSK-82CB25DF2E62F8
+CON-MSK-B96C71A410A851
+CON-MSK-653B012C055B5A
+CON-FND-6C6B1566BE4A7F
+CON-FND-B2AADF9AD08075
+CON-GYN-2F21CB6A9C5DCE
 
 ## related_articles
 
 
 ## aliases
-The first carpometacarpal joint is a sad | The elbow is a uniaxial hinge joint movi | The knee is a modified hinge joint: main | The metacarpophalangeal joints are condy | Synchondrosis is a primary cartilaginous | The glenohumeral (shoulder) joint is a b | Synovial joints have a joint cavity and  | The endocrine system is the set of ductl | A portal circulation connects two capill | Shoulder circumduction runs flexion, the | The intercarpal joints are synovial (pla | A pivot joint is the joint type that all
+The first carpometacarpal joint is a sad | The elbow is a uniaxial hinge joint movi | The knee is a modified hinge joint: main | The metacarpophalangeal joints are condy | Synchondrosis is a primary cartilaginous | The glenohumeral (shoulder) joint is a b | Synovial joints have a joint cavity and  | The endocrine system is the set of ductl | A portal circulation connects two capill | Shoulder circumduction runs flexion, the | The intercarpal joints are synovial (pla | A pivot joint is the joint type that all | Superior/inferior is the craniocaudal ax | A labrum is a fibrocartilaginous rim tha | Blood sinusoids are numerous in the sple | Only III, VII, IX and X carry parasympat
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-9
+11
 
 ## summary
-The named joint type of the thumb CMC, elbow, knee, MCP and shoulder joints, the transverse axis of hinge joints, why synchondrosis is cartilaginous rather than fibrous, the defining features of a synovial joint, plus two physiology facts examined in the same sub-block: the endocrine system's ductless-gland definition and the two-capillary-bed portal circulation, and the four-movement sequence of shoulder circumduction. Lane 3 adds two further joint-identification facts from the Answer-Labeled paper: the intercarpal joints as a worked example of a synovial joint, and the pivot joint as the specific joint type built for rotation.
+The named joint type of the thumb CMC, elbow, knee, MCP and shoulder joints, the transverse axis of hinge joints, why synchondrosis is cartilaginous rather than fibrous, the defining features of a synovial joint, plus two physiology facts examined in the same sub-block: the endocrine system's ductless-gland definition and the two-capillary-bed portal circulation, and the four-movement sequence of shoulder circumduction. Lane 3 adds two further joint-identification facts from the Answer-Labeled paper: the intercarpal joints as a worked example of a synovial joint, and the pivot joint as the specific joint type built for rotation. This round adds four further loose Anatomy-block facts from the Support 43 Final - Answered paper, which this article's broad "misc anatomy" scope already accommodates: the superior/inferior craniocaudal axis applied to the vertebral column, the labrum as a general fibrocartilaginous socket-deepening structure, blood sinusoids as the wide, leaky capillary type numerous in the spleen, and the four cranial nerves (III, VII, IX, X) that carry parasympathetic fibres.
 
 ## sections
 ### Definition
@@ -307,10 +323,13 @@ Named joints are classified by the shape of their articulating surfaces and the 
 Classification by surface shape (saddle, hinge, condyloid, ball-and-socket, plane) predicts the joint's degrees of freedom directly: a uniaxial hinge or pivot has one axis of movement, a biaxial condyloid or saddle joint has two (plus some rotation for a saddle joint), and a multiaxial ball-and-socket joint has three plus full rotation -- more surface curvature and looser fit generally buys more mobility at the cost of stability. Identifying a specific joint (such as the intercarpal joints) as synovial is really an application of this same classification: the question is not whether two bones meet, but which of the three fundamental joint tissues (fibrous, cartilaginous, or a synovial cavity/capsule) connects them.
 
 ### Key determinants
-Two determinants separate these joints: the fundamental connecting tissue (fibrous, cartilaginous, or a synovial cavity and capsule) and, for synovial joints, the shape of the articulating surfaces, which fixes the degrees of freedom -- one axis for a hinge or pivot, two for a condyloid or saddle joint, three plus rotation for a ball-and-socket. Naming a joint therefore means asking first which tissue connects it and then, if synovial, which surface geometry it has; the endocrine and portal-circulation items sit in the same sub-block but are distinguished simply as physiology rather than joint anatomy, and circumduction as a fixed sequence of four simple movements rather than a movement in its own right.
+Which joint type a question is naming follows from the shape of its articulating surfaces (saddle, hinge, condyloid, ball-and-socket, plane) and the resulting number of movement axes; which fibrous-vs-cartilaginous-vs-synovial category a named joint belongs to follows from what actually connects the two bones (fibrous tissue, cartilage, or a synovial cavity/capsule), not from how much the joint happens to move. For the four loose anatomy facts below, the determinant is simply which of three independent axes/definitions is being asked about -- craniocaudal position, socket-deepening structure, capillary subtype, or cranial-nerve parasympathetic outflow -- each answered from its own fixed anatomical fact rather than from joint mechanics.
+
+### Loose anatomy-block facts
+Four further facts recur in the same paper's Anatomy block without a closer topical home. Superior and inferior describe position along the body's craniocaudal (head-to-foot) axis, not the mediolateral or anteroposterior axes: applied to the vertebral column, the cervical vertebrae are the most superior segment and the lumbar vertebrae lie inferior to them. A labrum, in general, is a fibrocartilaginous rim attached to a shallow joint socket's bony margin, deepening the socket and increasing contact area with the opposing bone -- the glenoid labrum (shoulder) and acetabular labrum (hip) are its two named examples, distinct from a meniscus, which improves fit between two flatter surfaces instead. Blood sinusoids are a wide-bore, discontinuous-endothelium capillary type that allows free passage of cells and large particles, and they are numerous specifically in the spleen, liver and bone marrow. Finally, of the twelve cranial nerves, only four -- III (oculomotor), VII (facial), IX (glossopharyngeal) and X (vagus) -- carry parasympathetic fibres; the facial nerve's parasympathetic supply reaches the lacrimal, submandibular and sublingual glands via the nervus intermedius. A fifth loose fact belongs with these: approximately 75% of breast lymph drains to the axillary lymph nodes, especially the pectoral group, which is why a breast infection or malignancy classically presents with palpable, enlarged axillary (not cervical, inguinal, supraclavicular or mediastinal) lymph nodes.
 
 ### Clinical significance
-The shoulder's mobility-for-stability trade-off is why it is the most commonly dislocated large joint and depends on the rotator cuff and glenoid labrum for what stability it has; synchondroses (such as the epiphyseal plate itself) are clinically important because they are sites where a fracture can silently disrupt future bone growth, unlike a fracture through already-fused bone.
+The shoulder's mobility-for-stability trade-off is why it is the most commonly dislocated large joint and depends on the rotator cuff and glenoid labrum for what stability it has; synchondroses (such as the epiphyseal plate itself) are clinically important because they are sites where a fracture can silently disrupt future bone growth, unlike a fracture through already-fused bone. Facial nerve (Bell's) palsy, depending on the lesion's level, can additionally knock out these parasympathetic functions -- reduced lacrimation and salivation -- alongside the more familiar facial-muscle weakness.
 
 ---
 
@@ -382,31 +401,35 @@ CON-FND-B00722B64F7A11
 CON-FND-F0D524E0B74132
 CON-FND-8DC1E6E867FDFA
 CON-FND-AD5B097BFB3468
+CON-FND-2560DB7970AF40
 
 ## related_articles
 
 
 ## aliases
-Cell inclusions (pigment, glycogen, lipi | PAS stains carbohydrates (glycogen, glyc | Hemoglobin is the essential, life-sustai | Macrophages, as professional phagocytes | Best's carmine is the histochemical sta
+Cell inclusions (pigment, glycogen, lipi | PAS stains carbohydrates (glycogen, glyc | Hemoglobin is the essential, life-sustai | Macrophages, as professional phagocytes | Best's carmine is the histochemical sta | Non-membranous organelles
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-9
+10
 
 ## summary
-What makes something a cell inclusion rather than an organelle, why PAS does not stain fat, why hemoglobin is the one truly essential body pigment, and why macrophages are the standard cell for studying lysosomes. Lane 3 adds a fifth histochemical stain from the Answer-Labeled paper: Best's carmine, used specifically to demonstrate glycogen.
+What makes something a cell inclusion rather than an organelle, why PAS does not stain fat, why hemoglobin is the one truly essential body pigment, and why macrophages are the standard cell for studying lysosomes. Lane 3 adds a fifth histochemical stain from the Answer-Labeled paper: Best's carmine, used specifically to demonstrate glycogen. This round adds the organelle side of the same inclusion/organelle distinction: which organelles are non-membranous.
 
 ## sections
 ### Definition
-A cell inclusion is a non-living, often transient or metabolically variable accumulation of material -- pigment (such as lipofuscin), stored glycogen, stored lipid, or secretory granules awaiting release -- as opposed to a permanent, living, functional structure such as a microtubule. Among histochemical fat stains, PAS is the odd one out: osmic acid, Sudan III and Sudan black all demonstrate lipid directly, while PAS instead demonstrates carbohydrate (glycogen, glycoproteins, basement membrane) by oxidising vicinal diols to aldehydes, so it does not stain neutral fat. Best's carmine is a further named stain, specific to glycogen rather than any lipid, staining glycogen granules red -- a different chemical mechanism from PAS, which also happens to stain glycogen along with other carbohydrates. Of the body's pigments, only hemoglobin is truly essential to life: it is what actually carries oxygen and carbon dioxide, whereas carotene, melanin, carbon particles and bilirubin are each dispensable, protective or purely diagnostic. Macrophages, as professional phagocytes, carry an unusually large and active population of lysosomes to digest whatever they engulf, which is why they are the standard cell type used to study lysosomal structure and function.
+A cell inclusion is a non-living, often transient or metabolically variable accumulation of material -- pigment (such as lipofuscin), stored glycogen, stored lipid, or secretory granules awaiting release -- as opposed to a permanent, living, functional structure such as a microtubule. Organelles themselves further divide by whether they have a limiting membrane: the membranous organelles are the plasma membrane, mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes and peroxisomes, while the non-membranous organelles are the ribosomes and the cytoskeleton -- microfilaments, microtubules and intermediate filaments -- together with the centrioles, cilia and flagella the microtubules build; microfilaments are therefore a non-membranous organelle, alongside ribosomes, glycogen granules (an inclusion, not an organelle at all) and crystals (also an inclusion), while mitochondria and lysosomes are membranous. Among histochemical fat stains, PAS is the odd one out: osmic acid, Sudan III and Sudan black all demonstrate lipid directly, while PAS instead demonstrates carbohydrate (glycogen, glycoproteins, basement membrane) by oxidising vicinal diols to aldehydes, so it does not stain neutral fat. Best's carmine is a further named stain, specific to glycogen rather than any lipid, staining glycogen granules red -- a different chemical mechanism from PAS, which also happens to stain glycogen along with other carbohydrates. Of the body's pigments, only hemoglobin is truly essential to life: it is what actually carries oxygen and carbon dioxide, whereas carotene, melanin, carbon particles and bilirubin are each dispensable, protective or purely diagnostic. Macrophages, as professional phagocytes, carry an unusually large and active population of lysosomes to digest whatever they engulf, which is why they are the standard cell type used to study lysosomal structure and function.
 
 ### Mechanism
 The inclusion/organelle distinction is really a living/non-living, permanent/variable distinction: an inclusion can be present in large amount in one cell and absent in an identical neighbouring cell depending on that cell's recent metabolic history, while an organelle such as a microtubule is a constant, functional feature of essentially every cell.
 
 ### Key determinants
-The distinguishing axis running through these facts is living-and-permanent versus non-living-and-variable: an organelle is a constant functional structure, whereas an inclusion is a metabolically dependent accumulation that can be abundant in one cell and absent in an identical neighbour. The histochemical stains are told apart by their target chemistry -- the lipid stains (osmic acid, Sudan III, Sudan black) for fat versus the carbohydrate stains (PAS, Best's carmine) for glycogen -- and the essential-pigment question turns on function, hemoglobin alone being indispensable because it actually carries the respiratory gases while carotene, melanin, carbon and bilirubin are dispensable.
+Whether a structure is an organelle or an inclusion follows from the living/permanent/functional versus non-living/variable/inert distinction above; among organelles, whether it is membranous or non-membranous follows from a simple, memorisable list (ribosomes and the cytoskeleton are the only non-membranous ones) rather than from size or abundance. Which histochemical stain is appropriate follows from what the target actually is (lipid versus carbohydrate versus a specific pigment), since more than one stain can appear to work but only one is chemically specific.
 
 ### Clinical significance
 Excess lipofuscin pigment accumulation is a marker of cell ageing seen across many tissues; excess glycogen or lipid inclusion, by contrast, usually reflects a metabolic or storage disease rather than normal ageing, which is why histochemical stains such as PAS (for glycogen) and the lipid stains (for fat) are used diagnostically to tell these processes apart in a biopsy.
@@ -491,31 +514,37 @@ CON-FND-9D325B98FC59A0
 CON-FND-6C5ABFD844D630
 CON-FND-D62EA340309B89
 CON-FND-69671A492023B8
+CON-FND-0E38E21957DB05
+CON-FND-4284C6B8667CD6
+CON-FND-5CF66C0A999E21
 
 ## related_articles
 
 
 ## aliases
-Lysosome formation: rER synthesises acid | S phase is when DNA and centrioles dupli | The nucleolus is where ribosomal RNA is  | Janus green selectively stains mitochond | Smooth ER carries cytochrome P450 enzyme | Centrioles organise the mitotic spindle  | The Golgi apparatus has a cis (entry) fa | Cholesterol buffers membrane fluidity, r | The Golgi apparatus modifies and package | The cell membrane is a phospholipid bila | Free ribosomes make protein the cell kee | A secondary lysosome is named by what th | Euchromatin is extended and active and m | Nerve cells are permanent cells that can | The Barr body is one X chromosome switch
+Lysosome formation: rER synthesises acid | S phase is when DNA and centrioles dupli | The nucleolus is where ribosomal RNA is  | Janus green selectively stains mitochond | Smooth ER carries cytochrome P450 enzyme | Centrioles organise the mitotic spindle  | The Golgi apparatus has a cis (entry) fa | Cholesterol buffers membrane fluidity, r | The Golgi apparatus modifies and package | The cell membrane is a phospholipid bila | Free ribosomes make protein the cell kee | A secondary lysosome is named by what th | Euchromatin is extended and active and m | Nerve cells are permanent cells that can | The Barr body is one X chromosome switch | The outer nuclear membrane continues wit | A ribosome is two unequal subunits assem | Golgi is the secretory apparatus of the
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-12
+14
 
 ## summary
-How lysosomes form from rER and Golgi cooperation, what happens in S phase and why meiosis II has none of its own, where ribosomes are assembled, how Janus green stains mitochondria, how smooth ER detoxifies drugs and proliferates with chronic exposure, how centrioles organise the mitotic spindle, the Golgi's cis/trans polarity, and how cholesterol buffers membrane fluidity. Lane 3 adds seven further Answer-Labeled facts on the same organelle/cell-cycle theme: the Golgi's general role packaging secretory protein, the cell membrane's phospholipid-bilayer composition, why ribosome-driven cytoplasmic basophilia is localised versus diffuse, the multivesicular body as a fluid-digesting secondary lysosome, euchromatin versus heterochromatin, the Barr body as an inactivated X chromosome, and the labile/stable/permanent cell-renewal classification that explains why nerve cells cannot divide.
+How lysosomes form from rER and Golgi cooperation, what happens in S phase and why meiosis II has none of its own, where ribosomes are assembled, how Janus green stains mitochondria, how smooth ER detoxifies drugs and proliferates with chronic exposure, how centrioles organise the mitotic spindle, the Golgi's cis/trans polarity, and how cholesterol buffers membrane fluidity. Lane 3 adds seven further Answer-Labeled facts on the same organelle/cell-cycle theme: the Golgi's general role packaging secretory protein, the cell membrane's phospholipid-bilayer composition, why ribosome-driven cytoplasmic basophilia is localised versus diffuse, the multivesicular body as a fluid-digesting secondary lysosome, euchromatin versus heterochromatin, the Barr body as an inactivated X chromosome, and the labile/stable/permanent cell-renewal classification that explains why nerve cells cannot divide. This round adds three further Support-43-Final facts: the outer nuclear membrane's structural continuity with rough endoplasmic reticulum, the ribosome's own two-unequal-subunit, non-membranous structure, and the Golgi apparatus's identity as the cell's secretory apparatus.
 
 ## sections
 ### Definition
-Lysosomes form from a two-organelle partnership: rough ER (rER) ribosomes synthesise the acid hydrolase enzymes, and the Golgi apparatus then processes, tags and packages them into primary lysosomes budding from its trans face. More generally, any protein destined for secretion (not only lysosomal enzymes) follows the same route: rER synthesis, then Golgi modification (glycosylation, sulfation, proteolytic processing), sorting and final packaging into a secretory vesicle -- the Golgi, not the rER, is the organelle that does the modifying and packaging. The Golgi itself has a fixed polarity: incoming transport vesicles from rER fuse with its cis (entry/forming) face, and finished product leaves from its trans (exit/maturing) face, with the intervening stacked cisternae acting as separate compartments rather than one continuous space. The nucleolus is where ribosomal RNA is transcribed and assembled with imported proteins into the large and small ribosomal subunits, exported separately and joined only once in the cytoplasm. Ribosomes -- whether free in the cytosol (making protein the cell keeps) or attached to rER (making protein it exports) -- are themselves what makes cytoplasm basophilic, because of the acidic phosphate groups of ribosomal RNA; a localised or focal patch of basophilia marks a site of rER specifically, while diffuse basophilia marks free ribosomes scattered through the cytosol. Chromatin itself is basophilic for the same reason (its nucleic acid's phosphate groups), and takes two forms: euchromatin is the extended, uncoiled, transcriptionally active form, predominating in metabolically active cells and giving a pale, vesicular nucleus; heterochromatin is the coiled, condensed, inactive form, predominating in quiescent cells such as the small lymphocyte and giving a dense, dark nucleus. The Barr body (sex chromatin) is a specific, permanent example of heterochromatin: one X chromosome, inactivated and condensed, seen as a dark plaque against the inner nuclear membrane -- because exactly one X stays active in every cell, the Barr body count always equals the number of X chromosomes minus one. Centrioles, duplicated in S phase, organise the mitotic spindle that segregates chromosomes at division -- a role no intermediate filament (keratin, vimentin, glial, desmin) shares. S phase is specifically when DNA and centrioles are duplicated; because meiosis II reuses the single round of DNA replication that preceded meiosis I, it has no S phase of its own immediately before it, unlike mitosis, which always is preceded by one. Janus green B is a supravital dye that stays oxidised (blue-green) specifically in mitochondria, because their active respiratory chain keeps re-oxidising it faster than the surrounding cytoplasm can reduce it. Smooth ER (sER) carries the cytochrome P450 enzymes that detoxify lipid-soluble drugs, and hepatocyte sER proliferates adaptively with chronic drug or alcohol exposure to keep up with the sustained detoxification demand. The cell membrane itself is a phospholipid bilayer, hydrophilic heads outward and hydrophobic tails inward, with cholesterol buffering fluidity in both directions (restraining excess fluidity at higher temperature and excess rigidity at lower temperature) and peripheral/integral proteins providing structural and channel/carrier functions respectively. A secondary lysosome is classified by what its primary lysosome fused with: a heterolysosome (a phagosome, digesting solid particles engulfed by phagocytosis), a multivesicular body (a pinocytic vesicle, digesting fluid material taken up by pinocytosis), or an autolysosome (the cell's own old organelles); all three end as a residual body. Finally, cells are classified by renewal capacity into labile (continuously dividing), stable/quiescent (normally quiescent but able to re-enter the cycle, such as liver and endocrine gland cells), and permanent cells (permanently exited the cell cycle after differentiation, such as neurons) -- which is why mature nerve cells specifically cannot divide.
+Lysosomes form from a two-organelle partnership: rough ER (rER) ribosomes synthesise the acid hydrolase enzymes, and the Golgi apparatus then processes, tags and packages them into primary lysosomes budding from its trans face. More generally, any protein destined for secretion (not only lysosomal enzymes) follows the same route: rER synthesis, then Golgi modification (glycosylation, sulfation, proteolytic processing), sorting and final packaging into a secretory vesicle -- the Golgi, not the rER, is the organelle that does the modifying and packaging. The Golgi itself has a fixed polarity: incoming transport vesicles from rER fuse with its cis (entry/forming) face, and finished product leaves from its trans (exit/maturing) face, with the intervening stacked cisternae acting as separate compartments rather than one continuous space. The nucleolus is where ribosomal RNA is transcribed and assembled with imported proteins into the large and small ribosomal subunits, exported separately and joined only once in the cytoplasm. Ribosomes -- whether free in the cytosol (making protein the cell keeps) or attached to rER (making protein it exports) -- are themselves what makes cytoplasm basophilic, because of the acidic phosphate groups of ribosomal RNA; a localised or focal patch of basophilia marks a site of rER specifically, while diffuse basophilia marks free ribosomes scattered through the cytosol. Chromatin itself is basophilic for the same reason (its nucleic acid's phosphate groups), and takes two forms: euchromatin is the extended, uncoiled, transcriptionally active form, predominating in metabolically active cells and giving a pale, vesicular nucleus; heterochromatin is the coiled, condensed, inactive form, predominating in quiescent cells such as the small lymphocyte and giving a dense, dark nucleus. The Barr body (sex chromatin) is a specific, permanent example of heterochromatin: one X chromosome, inactivated and condensed, seen as a dark plaque against the inner nuclear membrane -- because exactly one X stays active in every cell, the Barr body count always equals the number of X chromosomes minus one. Centrioles, duplicated in S phase, organise the mitotic spindle that segregates chromosomes at division -- a role no intermediate filament (keratin, vimentin, glial, desmin) shares. S phase is specifically when DNA and centrioles are duplicated; because meiosis II reuses the single round of DNA replication that preceded meiosis I, it has no S phase of its own immediately before it, unlike mitosis, which always is preceded by one. Janus green B is a supravital dye that stays oxidised (blue-green) specifically in mitochondria, because their active respiratory chain keeps re-oxidising it faster than the surrounding cytoplasm can reduce it. Smooth ER (sER) carries the cytochrome P450 enzymes that detoxify lipid-soluble drugs, and hepatocyte sER proliferates adaptively with chronic drug or alcohol exposure to keep up with the sustained detoxification demand. The cell membrane itself is a phospholipid bilayer, hydrophilic heads outward and hydrophobic tails inward, with cholesterol buffering fluidity in both directions (restraining excess fluidity at higher temperature and excess rigidity at lower temperature) and peripheral/integral proteins providing structural and channel/carrier functions respectively. A secondary lysosome is classified by what its primary lysosome fused with: a heterolysosome (a phagosome, digesting solid particles engulfed by phagocytosis), a multivesicular body (a pinocytic vesicle, digesting fluid material taken up by pinocytosis), or an autolysosome (the cell's own old organelles); all three end as a residual body. Finally, cells are classified by renewal capacity into labile (continuously dividing), stable/quiescent (normally quiescent but able to re-enter the cycle, such as liver and endocrine gland cells), and permanent cells (permanently exited the cell cycle after differentiation, such as neurons) -- which is why mature nerve cells specifically cannot divide. Two further structural facts anchor the rER/ribosome/Golgi assembly line described above. First, rough ER's own outer, cytoplasm-facing membrane is directly continuous with the outer membrane of the nuclear envelope, and both surfaces carry bound ribosomes for the same reason -- rER is, structurally, an extension of the nucleus's own outer membrane out into the cytoplasm, not a separate, unconnected compartment. Second, a ribosome itself is a non-membranous particle of ribosomal RNA and protein, assembled in the nucleolus as a large and a small subunit of unequal size; the two subunits return to the cytoplasm separately and join one another, held together by the threading messenger RNA, only during active protein synthesis -- making the ribosome, together with the cytoskeleton, one of only two classes of non-membranous organelle.
 
 ### Mechanism
 Several of these facts share the same underlying logic of adaptive, demand-matched organelle activity: sER proliferates with detoxification demand just as a nucleolus enlarges with protein-synthetic demand, and in both cases the structural change (more membrane, a bigger nucleolus) is the visible consequence of a rising functional workload rather than a fixed, unchanging cell feature. The rER-to-Golgi secretory pathway, the free-versus-attached ribosome distinction, and the three named types of secondary lysosome are all instances of the same broader idea -- a cell's organelles form a connected assembly line, and where along that line a given structure sits (synthesis, modification/packaging, or digestion) determines both its named identity and what a stain or micrograph of it will show.
 
 ### Key determinants
-What distinguishes these structures is where each sits on the cell's assembly line and whether it is fixed or demand-adaptive: synthesis (rER, free ribosomes, nucleolus) versus modification and packaging (the Golgi's cis-to-trans flow) versus digestion (the three named secondary lysosomes), with sER volume and nucleolar size scaling to functional workload rather than being constant. The cell-cycle facts are separated by phase (S phase specifically for DNA and centriole duplication, and meiosis II lacking one of its own), the chromatin and Barr-body facts by activity state (extended active euchromatin versus condensed inactive heterochromatin), and cells by renewal capacity into labile, stable and permanent -- which is why neurons cannot divide.
+Where a structure sits along the synthesis-to-secretion assembly line (nucleus/nucleolus, rER, Golgi cis face, Golgi trans face) determines what it is doing at that moment -- transcribing/assembling ribosomal subunits, synthesising and segregating protein, modifying and packaging it, or dispatching the finished product -- and this same logic extends outward to the outer nuclear membrane's continuity with rER and to which organelles count as membranous versus non-membranous. Whether a cell can still divide follows from its labile/stable/permanent classification, not from its organelle content as such.
 
 ### Clinical significance
 The adaptive proliferation of hepatocyte sER with chronic alcohol or drug exposure is the structural basis of clinically important enzyme induction and drug tolerance; loss of centriole/spindle function halts mitosis outright, which is the mechanism exploited by several classes of anti-cancer drug that target microtubule dynamics.
@@ -1313,21 +1342,24 @@ CON-DEV-25BF9A0373B675
 CON-DEV-E3665557EC3E81
 CON-DEV-3E745A8189D52D
 CON-DEV-85A12BF990199E
+CON-DEV-B7F52FE4F72BCC
+CON-DEV-7E276F4F7E0BC2
+CON-DEV-782538AF00F48E
 
 ## related_articles
 
 
 ## aliases
-Chorion frondosum and decidua basalis | Chorion layers | Chorionic plate | Allantois | Chorionic villus
+Chorion frondosum and decidua basalis | Chorion layers | Chorionic plate | Allantois | Chorionic villus | Chorion contributes to placenta | hCG from syncytiotrophoblast | Placenta accreta
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-8
+10
 
 ## summary
-The two-part composition of the definitive placenta (fetal chorion frondosum, maternal decidua basalis), the three layers of the chorion and how the chorionic plate is formed, the allantois's invasion of the connecting stalk, the structure of a secondary chorionic villus, and the naming of marginal (battledore) umbilical cord insertion.
+The two-part composition of the definitive placenta (fetal chorion frondosum, maternal decidua basalis), the three layers of the chorion and how the chorionic plate is formed, the allantois's invasion of the connecting stalk, the structure of a secondary chorionic villus, and the naming of marginal (battledore) umbilical cord insertion. This round adds three further Support-43-Final facts: the chorion, generally, as the fetal contribution to placenta formation (as opposed to the amnion, yolk sac and allantois); hCG as a syncytiotrophoblast secretion; and placenta accreta as abnormal, deep chorionic villous invasion into the myometrium.
 
 ## sections
 ### Definition
@@ -1339,8 +1371,11 @@ A primary chorionic villus (cytotrophoblast covered by syncytiotrophoblast) beco
 ### Key determinants
 Which tissue is fetal in origin (the chorion frondosum, the chorionic plate, the villi) versus maternal in origin (the decidua basalis) determines the placenta's two-part structure. Which structure a villus, the chorion, or the allantois arises from or invades determines its later fate and vascular connections.
 
+### Placenta accreta and hCG
+Of the extraembryonic membranes, only the chorion is a direct structural component of the placenta -- the amnion instead forms the fluid-filled sac, the yolk sac contributes to the primitive gut and germ cells, and the allantois contributes to the urachus and umbilical vessels, so a question asking which membrane "contributes to placenta formation" is asking for the chorion specifically. Within the chorion's outer syncytiotrophoblast layer, the multinucleated, duct-free tissue in direct contact with maternal blood, human chorionic gonadotrophin (hCG) is secreted; hCG maintains the corpus luteum through early pregnancy and is the hormone urine/serum pregnancy tests detect, while the inner cytotrophoblast divides and supplies new cells but does not itself secrete hCG. Placenta accreta is an abnormality of this same fetal-maternal interface: because the decidua basalis is deficient or absent at the implantation site, chorionic villi attach directly to, or invade into, the myometrium rather than remaining confined to a normal decidual plane -- a depth-of-invasion abnormality, distinct from a positional variant such as placenta praevia or a structural variant such as a membranous or bilobed placenta.
+
 ### Clinical significance
-Recognising the fetal-vs-maternal placental components, and the chorion's three layers, underpins understanding of placental pathology (accreta, previa, abruption) taught in later obstetric modules.
+Recognising the fetal-vs-maternal placental components, and the chorion's three layers, underpins understanding of placental pathology (accreta, previa, abruption) taught in later obstetric modules. Placenta accreta (and its deeper variants, increta and percreta) carries a high risk of massive postpartum haemorrhage because the placenta cannot separate normally from the uterine wall at delivery, and it is a leading indication for peripartum hysterectomy.
 
 ---
 
@@ -1418,25 +1453,26 @@ CON-DEV-B7634187C87A16
 CON-FND-5097CA5BAB2E51
 CON-DEV-874A4B94DBF067
 CON-FND-39A613E199D3FB
+CON-DEV-36A4C79042DAAA
 
 ## related_articles
 
 
 ## aliases
-Spermatogenesis timeline | Oogenesis onset | Corpus luteum of pregnancy | Secretory phase | Chromosomal formulas | Secondary spermatocyte to spermatid | Four haploid daughter cells
+Spermatogenesis timeline | Oogenesis onset | Corpus luteum of pregnancy | Secretory phase | Chromosomal formulas | Secondary spermatocyte to spermatid | Four haploid daughter cells | Ovum maturation completes at fertilization
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-11
+12
 
 ## summary
 The mother cell of spermatogenesis (spermatogonia) and the ~60-day spermatogenic cycle, the intrauterine onset of oogenesis, the roughly three-month lifespan of the corpus luteum of pregnancy, the haploid chromosomal formulas produced at each stage of spermatogenesis, the secretory phase of the menstrual cycle, and the chromosomal basis of Turner and Down syndrome. Lane 3 names two further meiosis facts directly: which specific division turns a secondary spermatocyte into a spermatid, and how many haploid daughter cells one diploid mother cell produces overall.
 
 ## sections
 ### Definition
-Spermatogonia are the diploid stem cells of the seminiferous tubule that give rise to the entire sperm lineage: spermatogonium -> primary spermatocyte (diploid, 44+XY) -> meiosis I -> secondary spermatocyte (haploid, 22+X or 22+Y) -> meiosis II -> spermatid (haploid) -> spermiogenesis -> spermatozoon. It is specifically the SECOND meiotic division that a secondary spermatocyte completes to become a spermatid -- separating sister chromatids rather than homologous chromosomes, with no further DNA replication beforehand, since the first division (which halved the chromosome number in the first place) is what created the secondary spermatocyte. The full cycle takes about 60 days. Oogenesis, by contrast, begins during intrauterine life, with primary oocytes already arrested in meiotic prophase before birth. Across both sexes, meiosis as a whole converts one diploid germ-line mother cell into four haploid daughter cells (unlike mitosis's two identical diploid daughters) -- in spermatogenesis all four mature into functional sperm, while in oogenesis only one becomes a functional ovum and the other three become non-functional polar bodies.
+Spermatogonia are the diploid stem cells of the seminiferous tubule that give rise to the entire sperm lineage: spermatogonium -> primary spermatocyte (diploid, 44+XY) -> meiosis I -> secondary spermatocyte (haploid, 22+X or 22+Y) -> meiosis II -> spermatid (haploid) -> spermiogenesis -> spermatozoon. It is specifically the SECOND meiotic division that a secondary spermatocyte completes to become a spermatid -- separating sister chromatids rather than homologous chromosomes, with no further DNA replication beforehand, since the first division (which halved the chromosome number in the first place) is what created the secondary spermatocyte. The full cycle takes about 60 days. Oogenesis, by contrast, begins during intrauterine life, with primary oocytes already arrested in meiotic prophase before birth. Across both sexes, meiosis as a whole converts one diploid germ-line mother cell into four haploid daughter cells (unlike mitosis's two identical diploid daughters) -- in spermatogenesis all four mature into functional sperm, while in oogenesis only one becomes a functional ovum and the other three become non-functional polar bodies. Oogenesis arrests twice on its way to that one functional ovum: the primary oocyte stays in prophase of meiosis I from before birth until ovulation, and the secondary oocyte produced at ovulation arrests again, in metaphase II, remaining in this state at the moment of ovulation and penetration by a sperm -- meiosis II, and so true ovum maturation, completes only if and when fertilization actually occurs, not at ovulation itself.
 
 ### Mechanism
 If pregnancy occurs, hCG rescues the corpus luteum, converting it to the corpus luteum of pregnancy, which secretes progesterone for about the first three months before the placenta takes over. The secretory (luteal) phase of the menstrual cycle lasts a fixed ~14 days, during which progesterone drives the endometrial glands to become tortuous and secrete a glycogen-rich (not glycogen-poor) material, while the spiral arteries elongate -- all in preparation for a possible early conceptus. Turner syndrome (45,X monosomy) and Down syndrome (47, trisomy 21) are both named chromosomal syndromes following the same extra-or-missing-chromosome logic covered in the article shared with the histology cluster.
@@ -1521,25 +1557,26 @@ CON-DEV-F147CCC2126226
 CON-DEV-932C8363BAE4A8
 CON-DEV-C1C5C84B84AE89
 CON-DEV-A62ED38D321E85
+CON-DEV-BD4C331280892B
 
 ## related_articles
 
 
 ## aliases
-Mesoderm derivatives | Primitive node | Ectoderm exceptions | Paraxial mesoderm | Heuser membrane | Embryonic folding | Second-week timeline
+Mesoderm derivatives | Primitive node | Ectoderm exceptions | Paraxial mesoderm | Heuser membrane | Embryonic folding | Second-week timeline | Primitive node appears week 3
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-11
+12
 
 ## summary
 Which structures derive from mesoderm (striated muscle, dermis via the somite dermatome, suprarenal cortex) versus ectoderm (hair, nails, CNS, epidermis, most of the skin/nervous system), the primitive node's position and organiser role, hypoblast's origin of Heuser's membrane, the prechordal plate's signalling (not mesoderm-forming) role, and the direct consequence of embryonic folding on the amniotic sac. Lane 3 places these gastrulation-week events on the wider weekly timeline, naming what happens the week before (amniotic cavity formation).
 
 ## sections
 ### Definition
-Development after fertilization follows a fixed weekly sequence: cleavage and blastocyst formation in week 1; in week 2 ("the week of twos"), the bilaminar germ disc forms together with the amniotic cavity (from the epiblast) and the primary yolk sac (from the hypoblast); gastrulation -- forming the trilaminar disc, the primitive streak/node and the notochord, described below -- begins only in week 3; folding of the flat disc into a three-dimensional body happens in week 4. Mesoderm gives rise to striated (skeletal) muscle (via the somite myotome), the dermis of the skin (via the somite dermatome) and the suprarenal cortex; ectoderm gives rise to the CNS, hair, nails, the epidermis, the external auditory meatus and the lower anal canal. Somites, formed from paraxial mesoderm, differentiate into sclerotome (vertebrae/ribs), myotome (muscle) and dermatome (dermis). The primitive node sits at the cranial end of the primitive streak and organises formation of the notochordal process and induction of the neural plate.
+Development after fertilization follows a fixed weekly sequence: cleavage and blastocyst formation in week 1; in week 2 ("the week of twos"), the bilaminar germ disc forms together with the amniotic cavity (from the epiblast) and the primary yolk sac (from the hypoblast); gastrulation -- forming the trilaminar disc, the primitive streak/node and the notochord, described below -- begins only in week 3; folding of the flat disc into a three-dimensional body happens in week 4. Mesoderm gives rise to striated (skeletal) muscle (via the somite myotome), the dermis of the skin (via the somite dermatome) and the suprarenal cortex; ectoderm gives rise to the CNS, hair, nails, the epidermis, the external auditory meatus and the lower anal canal. Somites, formed from paraxial mesoderm, differentiate into sclerotome (vertebrae/ribs), myotome (muscle) and dermatome (dermis). The primitive node sits at the cranial end of the primitive streak and organises formation of the notochordal process and induction of the neural plate; because gastrulation itself begins only in week 3, the primitive node -- like the primitive streak and notochord it forms alongside -- first appears in week 3, after the one-layer week 1 and two-layer ("bilaminar") week 2, and before the folding of week 4.
 
 ### Mechanism
 Heuser's membrane, a thin extraembryonic endoderm layer lining the primary yolk sac cavity, arises from hypoblast (not epiblast, which instead gives rise to the definitive germ layers during gastrulation). The prechordal plate, cranial to the notochord, is a signalling/organiser centre inducing the forebrain, not itself a source of intraembryonic mesoderm the way the primitive streak, node and notochord are. As lateral and longitudinal folding converts the flat embryonic disc into a cylindrical body, the amnion expands to surround the entire embryo, enclosing it in amniotic fluid.
@@ -1618,21 +1655,22 @@ DIS-EMB-T02
 CON-DEV-D36C2A370DF65D
 CON-DEV-5DDEC72B57CE54
 CON-DEV-4B4FC0F9B53AEE
+CON-DEV-CDA99FD91554BE
 
 ## related_articles
 
 
 ## aliases
-Amniotic membrane origin | Amniotic fluid composition | Yolk sac and gut incorporation
+Amniotic membrane origin | Amniotic fluid composition | Yolk sac and gut incorporation | Primitive gut develops from the yolk sac
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 
 ## reading_time
-6
+7
 
 ## summary
-The cytotrophoblast origin of the amniotic membrane, the overwhelmingly water composition of amniotic fluid, and how the yolk sac's roof is incorporated into the primitive gut tube (foregut, midgut, hindgut) via the vitellointestinal duct during embryonic folding.
+The cytotrophoblast origin of the amniotic membrane, the overwhelmingly water composition of amniotic fluid, and how the yolk sac's roof is incorporated into the primitive gut tube (foregut, midgut, hindgut) via the vitellointestinal duct during embryonic folding -- the fact tested directly, from a different past paper, as "the primitive gut is developed from the yolk sac."
 
 ## sections
 ### Definition
@@ -2046,3 +2084,101 @@ Whether a transport process needs energy, and whether that energy is used direct
 
 ### Clinical significance
 Loss of the Na+/K+-ATPase-driven sodium gradient (e.g. in ischaemia, when ATP runs out) collapses every secondary active transport process that depends on it, including glucose and amino acid reabsorption in the kidney and gut; the osmotic gradient set up by solute transport across cell membranes is the basis of water reabsorption throughout the nephron and gut.
+
+---
+
+# Item
+
+## id
+ART-MU101-EPITHCT-54F3201A
+
+## title
+Epithelium classification and connective tissue cell secretions
+
+## arabic_title
+
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Histology
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## universities
+mu
+
+## years
+MU_Y1
+
+## module
+MU-MED101
+
+## module_subject
+MU-MED101 > 00 Module-wide > 06 EOM Exams > Support 43 Final - Answered > Histology
+
+## primary_node_id
+DIS-HIS-T01
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-FND-A4E9AE6DC20711
+CON-FND-D52D0ACDA3AE0C
+CON-FND-49D5829AC3DCA1
+CON-FND-B6BD265FBD8B5F
+
+## related_articles
+
+
+## aliases
+Epidermis is keratinized stratified squa | Mast cells secrete histamine and heparin | Reticular connective tissue is the stroma | Neuro-epithelium is epithelium modified
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
+## reading_time
+8
+
+## summary
+Four Support-43-Final facts on epithelium and connective tissue: the epidermis as keratinized stratified squamous epithelium (and how that differs from the non-keratinized stratified squamous epithelium of the oesophagus, vagina and cornea); the mast cell's degranulation products, histamine and heparin, and its role in type I hypersensitivity; reticular connective tissue as the silver-stained stromal framework of the spleen, lymph node and liver; and neuro-epithelium, epithelium modified for a sensory role, with the taste bud as its standard example.
+
+## sections
+### Definition
+Epithelium is classified in part by whether its free surface is protected by keratin. Keratinized stratified squamous epithelium -- many cell layers thick, flattened at the surface, and filled at the surface with dead, keratin-packed, nucleus-free cells -- covers the epidermis of the skin, an exposed surface that must resist abrasion and water loss. Non-keratinized stratified squamous epithelium has the same many-layered, flattened-surface structure but its surface cells stay alive and nucleated, because it lines moist internal surfaces subject to friction but not to drying -- the oesophagus, vagina and cornea. Reticular connective tissue is a distinct, delicate connective tissue type in which reticular cells and fine, silver-stainable type III collagen (reticular) fibres form a supporting meshwork rather than a free-standing tissue of their own; it forms the stroma -- the supporting framework around the functional cells -- of the spleen, lymph node and liver. Neuro-epithelium is one of the four classes of epithelial tissue (alongside surface, glandular and myo-epithelium): epithelial cells modified to act as sensory receptors, the taste bud of the tongue being the standard example.
+
+### Mechanism
+The mast cell, a resident connective-tissue cell packed with metachromatic granules, responds to IgE cross-linking (classically by an allergen) by degranulating -- releasing histamine, which raises vascular permeability and contracts smooth muscle, and heparin, an anticoagulant that also accounts for the granules' staining behaviour -- the basis of the immediate (type I) hypersensitivity reaction. This sits alongside, but is mechanistically separate from, the structural classifications above: keratinization is a surface-protection adaptation of an epithelium, reticular tissue is a stromal-support adaptation of connective tissue, and neuro-epithelium is a sensory-receptor adaptation of epithelium -- three different tissues, each modified for a different job.
+
+### Key determinants
+Whether an epithelium keratinizes follows from whether its free surface is exposed to air (skin) or stays moist (oesophagus, vagina, cornea), not from how many layers it has, since both keratinized and non-keratinized stratified squamous epithelium are equally multilayered. Which connective-tissue cell secretes a given product follows from that cell's own specific identity -- histamine and heparin mark the mast cell, antibodies the plasma cell, collagen the fibroblast -- and cannot be inferred from the general category "connective tissue cell" alone. Whether a given connective tissue counts as reticular, and whether a given epithelium counts as neuro-epithelium, both follow from the same principle: a tissue's classification tracks the specific adaptation it has been modified for (stromal support; sensory reception), not its superficial resemblance to a more familiar tissue.
+
+### Clinical significance
+Type I hypersensitivity reactions driven by mast-cell degranulation range from localised urticaria and allergic rhinitis to systemic anaphylaxis, and antihistamines act by blocking the histamine receptor this pathway releases its mediator onto; loss of the epidermis's keratinized barrier (as in a burn) removes the body's main defence against water loss and infection, which is why extensive burns are managed as much as a barrier-failure emergency as a thermal one.
