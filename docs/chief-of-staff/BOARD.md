@@ -663,3 +663,6 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 
 ### 2026-09-03 — ASSIUT CBF-103 lane 3 LANDED (84002fe3) · All quizzes CBF pp.31-90 + pp.1-30 tail
 - Resumed cleanly. OCR'd pp.31-90 (60 pp), 86 items 100% keyed + the 16 keyed-unauthored from pp.1-30. 46 authored, 55 out-of-format/held (T/F, fill-blank, matrix, Quiz21 12 multi-select), 1 OCR page-break truncation held. 2 mints, 44 reuses across 6 overlay clusters. validate errors=[] ×6; batch errors=0 ×6; 32-file simulate created=519 rejected=0. ≈3.9k B/q. Remaining: pp.91+. Lane 4 dispatched.
+
+### 2026-09-03 — 6 OCTOBER IPH-108 lane 3 LANDED (0e5c5048, 8b1cdbd3, 9c4b955b) · pharma bank pp.101-160
+- Worktree GC'd during the pause; rebuilt fresh from origin/main, nothing to salvage (no pre-pause commits). pp.101-160 OCR'd, 0 renders (checkmark/¥ heuristic held). 56 candidates, 44 keyed (79%) → 44 authored (`pharmabank2`), 12 held (5 illegible, 4 multi-blank, 1 ordering, 2 match-pairs). 18 mints + 3 articles, 4 reuses (Kasr 208-INT ×2, MPT-104 ×1, own ×1). validate items=44 errors=[]; batch items=44 errors=0; 11-file simulate created=374 rejected=0. ≈1.9k tok/q. Remaining: pp.161-223. Lane 4 dispatched (final range).
