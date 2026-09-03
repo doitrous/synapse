@@ -72,6 +72,9 @@ struct MeResponse: Decodable, Equatable {
     /// The row behind the entitlement, carrying whatever note the person who
     /// granted it wrote at the time.
     let subscription: Subscription?
+    /// When this student accepted the "the app can use AI" disclaimer. `nil`
+    /// until they have — which is what gates the first-launch sheet.
+    let aiConsentAt: String?
 
     struct Profile: Decodable, Equatable {
         let name: String?
@@ -79,6 +82,11 @@ struct MeResponse: Decodable, Equatable {
         let year: String?
         let group: String?
         let status: String?
+        let username: String?
+        let profileIcon: String?
+        /// A short line the student sets about themselves, e.g. "revising for
+        /// finals". Plain text, ≤140 characters; an empty value clears it.
+        let statusMessage: String?
     }
 
     struct Entitlement: Decodable, Equatable {
@@ -236,6 +244,110 @@ struct SynapseAPI {
     /// token is being presented, which is what makes it safe to expose.
     func deleteAccount() async throws {
         _ = try await send(["account"], method: "DELETE", body: Optional<Int>.none)
+    }
+
+    /// Whether a handle is free, checked live as the student types it.
+    ///
+    /// `handle` goes over as typed — normalising it is the server's job, the
+    /// same rule `saveProfile` leans on so the two never disagree about what
+    /// counts as taken.
+    struct UsernameAvailability: Decodable, Sendable {
+        let available: Bool
+        let reason: String?
+    }
+
+    func usernameAvailable(handle: String) async throws -> UsernameAvailability {
+        try await get(UsernameAvailability.self, ["me", "username-available"], query: [URLQueryItem(name: "handle", value: handle)])
+    }
+
+    /// Save the student-owned half of the profile — username, study icon and
+    /// status line — through the same endpoint onboarding and the cohort
+    /// picker use.
+    ///
+    /// `universityId`, `year` and `group` are carried along even though this
+    /// call is not changing them: the server writes `group` as a plain
+    /// assignment rather than "keep what's there if I say nothing", so a save
+    /// that omitted it would silently blank it out.
+    struct EnrolmentSaveResult: Decodable, Sendable {
+        let ok: Bool
+        let profile: MeResponse.Profile?
+    }
+
+    func saveProfile(
+        universityId: String, year: String, group: String,
+        username: String?, profileIcon: String?, statusMessage: String
+    ) async throws -> EnrolmentSaveResult {
+        struct Body: Encodable {
+            let universityId: String
+            let year: String
+            let group: String
+            let username: String?
+            let profileIcon: String?
+            let statusMessage: String
+        }
+        let data = try await send(
+            ["me", "enrolment"], method: "PUT",
+            body: Body(universityId: universityId, year: year, group: group,
+                       username: username, profileIcon: profileIcon, statusMessage: statusMessage)
+        )
+        do {
+            return try Self.decoder.decode(EnrolmentSaveResult.self, from: data)
+        } catch {
+            throw APIError.malformed("me/enrolment: \(error)")
+        }
+    }
+
+    /// A request to move to another university or year, waiting on admin review.
+    struct EnrollmentChangeRequest: Decodable, Equatable, Identifiable, Sendable {
+        let id: String
+        let field: String
+        let currentValue: String?
+        let requestedValue: String
+        let reason: String
+        let status: String
+    }
+
+    func requestEnrollmentChange(field: String, requestedValue: String, reason: String) async throws {
+        struct Body: Encodable { let field: String; let requestedValue: String; let reason: String }
+        _ = try await send(
+            ["me", "enrollment-change-requests"], method: "POST",
+            body: Body(field: field, requestedValue: requestedValue, reason: reason)
+        )
+    }
+
+    func myEnrollmentChangeRequests() async throws -> [EnrollmentChangeRequest] {
+        struct Envelope: Decodable { let requests: [EnrollmentChangeRequest] }
+        return try await get(Envelope.self, ["me", "enrollment-change-requests"]).requests
+    }
+
+    /// A message sent to the Nishany team from inside the app — the in-app
+    /// pipe App Review looks for, alongside (not instead of) the support
+    /// email shown beside it.
+    struct SupportRequest: Decodable, Equatable, Identifiable, Sendable {
+        let id: String
+        let subject: String?
+        let message: String
+        let status: String
+        let createdAt: Date
+    }
+
+    func postSupport(subject: String?, message: String) async throws {
+        struct Body: Encodable { let subject: String?; let message: String }
+        _ = try await send(["me", "support"], method: "POST", body: Body(subject: subject, message: message))
+    }
+
+    func mySupportRequests() async throws -> [SupportRequest] {
+        struct Envelope: Decodable { let requests: [SupportRequest] }
+        return try await get(Envelope.self, ["me", "support"]).requests
+    }
+
+    /// Record that the student has seen and accepted the "this app can use
+    /// AI" disclaimer. Returns the timestamp the server stamped it with, so
+    /// the caller does not need a second round trip to know the gate is clear.
+    func setAIConsent() async throws -> String? {
+        struct Result: Decodable { let aiConsentAt: String? }
+        let data = try await send(["me", "consent", "ai"], method: "POST", body: Optional<Int>.none)
+        return (try? Self.decoder.decode(Result.self, from: data))?.aiConsentAt
     }
 
     // MARK: - Study assistant
@@ -463,8 +575,8 @@ struct SynapseAPI {
 
     // MARK: - Transport
 
-    private func get<T: Decodable>(_ type: T.Type, _ components: [String]) async throws -> T {
-        let data = try await send(components, method: "GET", body: Optional<Int>.none)
+    private func get<T: Decodable>(_ type: T.Type, _ components: [String], query: [URLQueryItem] = []) async throws -> T {
+        let data = try await send(components, method: "GET", body: Optional<Int>.none, query: query)
         do {
             return try Self.decoder.decode(T.self, from: data)
         } catch {
@@ -480,14 +592,21 @@ struct SynapseAPI {
     /// again on the way in, and a key like `synapse-admin-content-ledger-v4`
     /// arrived as `synapse%252Dadmin…`. The server then failed to match it
     /// against the readable set and refused it, so every catalogue 403'd.
-    private func url(_ components: [String]) -> URL {
-        components.reduce(baseURL) { $0.appendingPathComponent($1) }
+    private func url(_ components: [String], query: [URLQueryItem] = []) -> URL {
+        let pathURL = components.reduce(baseURL) { $0.appendingPathComponent($1) }
+        guard !query.isEmpty, var parts = URLComponents(url: pathURL, resolvingAgainstBaseURL: false) else {
+            return pathURL
+        }
+        parts.queryItems = query
+        return parts.url ?? pathURL
     }
 
     @discardableResult
-    private func send<Body: Encodable>(_ components: [String], method: String, body: Body?) async throws -> Data {
+    private func send<Body: Encodable>(
+        _ components: [String], method: String, body: Body?, query: [URLQueryItem] = []
+    ) async throws -> Data {
         let path = components.joined(separator: "/")
-        var request = URLRequest(url: url(components))
+        var request = URLRequest(url: url(components, query: query))
         request.httpMethod = method
 
         if let accessToken = try await token() {

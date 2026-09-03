@@ -43,6 +43,13 @@ final class PushRegistrar {
     /// and consumed once a screen is ready to look at it.
     private(set) var pendingRoute: String?
 
+    /// Whether the student has said yes to the visible reminder prompt.
+    ///
+    /// `nil` until the first check completes — reading it needs an async round
+    /// trip to Notification Center, so this starts unknown rather than
+    /// guessing "not granted" and flashing an enable row that then disappears.
+    private(set) var reminderAuthorization: UNAuthorizationStatus?
+
     private var api: SynapseAPI?
 
     /// Which APNs environment this build's token belongs to.
@@ -63,14 +70,32 @@ final class PushRegistrar {
 
     /// Begin, once there is an account to attach the device to.
     ///
-    /// Asks for notification permission first — the one prompt this app
-    /// shows, and only reached because a student has already signed in, not
-    /// on cold launch. Declining costs nothing beyond the reminder itself:
-    /// `registerForRemoteNotifications` is called regardless, because the
-    /// silent sync nudge needs a device token and does not need the alert
-    /// permission this call is for.
+    /// Registers for the silent sync nudge only. That needs a device token but
+    /// no permission at all — `registerForRemoteNotifications` shows no system
+    /// UI on its own — so this runs unconditionally on every sign-in. The
+    /// *visible* reminder is a separate, user-facing permission and is asked
+    /// for by `requestReminderPermission()` instead, only when a student taps
+    /// a row that says why: iOS shows that dialog exactly once, and asking
+    /// here, on a path nobody chose, is how you teach someone to decline it.
     func start(api: SynapseAPI) async {
         self.api = api
+        UIApplication.shared.registerForRemoteNotifications()
+        // A token can arrive before sign-in finishes. If it already has, it
+        // still needs sending — the callback will not fire twice.
+        if deviceToken != nil { Task { await send() } }
+        await refreshReminderAuthorization()
+    }
+
+    /// What the system currently says about the visible-reminder permission,
+    /// without asking for anything.
+    func refreshReminderAuthorization() async {
+        reminderAuthorization = await UNUserNotificationCenter.current()
+            .notificationSettings().authorizationStatus
+    }
+
+    /// The one system prompt this app shows — triggered only by an explicit
+    /// tap on a row that has already explained what it is for.
+    func requestReminderPermission() async {
         do {
             _ = try await UNUserNotificationCenter.current()
                 .requestAuthorization(options: [.alert, .sound, .badge])
@@ -78,10 +103,7 @@ final class PushRegistrar {
             // A student who never sees the system prompt (Screen Time
             // restrictions, an unusual MDM profile) still gets sync.
         }
-        UIApplication.shared.registerForRemoteNotifications()
-        // A token can arrive before sign-in finishes. If it already has, it
-        // still needs sending — the callback will not fire twice.
-        if deviceToken != nil { Task { await send() } }
+        await refreshReminderAuthorization()
     }
 
     /// The token, as APNs hands it over.
