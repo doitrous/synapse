@@ -106,19 +106,23 @@ export function Login() {
     await afterSignedIn()
   }
 
+  const aside = (
+    <div>
+      <h2 className="text-[25px] text-[#2b211c]">Learn medicine the way you&rsquo;ll practise it.</h2>
+      <p className="mt-3 text-[14px] leading-relaxed text-[#6e6157]">Your question bank, spaced-repetition cards, and progress — one account, on every device.</p>
+      <p dir="rtl" lang="ar" className="mt-5 text-[14px] font-medium text-[#a81d40]">هدفك الأول للتفوّق في الطب.</p>
+    </div>
+  )
+
   return (
     <AuthLayout
       step="account"
       title="Welcome back"
       description="Sign in to continue your study plan."
-      compact
       showProgress={false}
+      aside={aside}
     >
-      <form className="mx-auto max-w-md space-y-5" onSubmit={submit}>
-        <div>
-          <h2 className="text-[24px] text-ink">Sign in to your account</h2>
-          <p className="mt-1.5 text-[13px] text-ink-2">Use the email address you verified at signup.</p>
-        </div>
+      <form className="space-y-5" onSubmit={submit}>
         {!isSupabaseConfigured && (
           <div className="rounded-lg border border-warning/30 bg-warning-tint px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
             Sign-in is unavailable: this deployment is not connected to its account service yet.

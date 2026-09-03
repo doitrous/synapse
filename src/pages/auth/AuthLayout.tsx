@@ -156,7 +156,10 @@ export function AuthLayout({
                   color: WARM.ink,
                 }}
               >
-                <HeroRingGraphic size={340} className="pointer-events-none absolute -bottom-16 -end-16" />
+                {/* Only in the two-column layout: stacked below the form on
+                    narrow screens the panel is too short for a 340px ring, and
+                    it would sit over the copy. */}
+                <HeroRingGraphic size={340} className="pointer-events-none absolute -bottom-16 -end-16 hidden lg:block" />
                 <div className="relative flex items-center gap-2">
                   <WordmarkRingIcon />
                   <span className="flex min-w-0 flex-col justify-center leading-none">
