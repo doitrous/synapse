@@ -212,7 +212,21 @@ function Reader({ mail, onBack }: { mail: MailFull; onBack: () => void }) {
         </div>
       )}
       <div className="p-5">
-        {mail.html ? <div className="prose-mail text-[13.5px] leading-relaxed text-ink" dangerouslySetInnerHTML={{ __html: mail.html }} /> : <pre className="whitespace-pre-wrap font-sans text-[13.5px] leading-relaxed text-ink">{mail.text || '(empty message)'}</pre>}
+        {mail.html ? (
+          // Inbound HTML is attacker-controllable (it's whatever the sender's
+          // mail client emitted), so it never touches innerHTML. A sandboxed
+          // iframe with neither allow-scripts nor allow-same-origin renders it
+          // in an opaque, scriptless origin that can't reach the parent page —
+          // stronger than sanitizing, and needs no dependency.
+          <iframe
+            title="Message body"
+            sandbox=""
+            srcDoc={mail.html}
+            className="h-[70vh] min-h-[320px] w-full rounded-md border border-line bg-white"
+          />
+        ) : (
+          <pre className="whitespace-pre-wrap font-sans text-[13.5px] leading-relaxed text-ink">{mail.text || '(empty message)'}</pre>
+        )}
       </div>
     </Panel>
   )
