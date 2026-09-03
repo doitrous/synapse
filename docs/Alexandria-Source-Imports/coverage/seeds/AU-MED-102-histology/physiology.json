@@ -1,0 +1,485 @@
+{
+  "lane": "au-102-hist",
+  "cluster": "phys",
+  "header": "AU-MED-102 · Histology + Physiology fold, Step 2 (lane W1-102-HIST author1), authored from coverage/AU-MED-102-histology-triage.md against the module's 5 Exams sources (src_8d6ddf874f8984be8217 / src_7d031a45baeadc973a00 = same 56-question bank, two sittings; src_3bf4527b51de57464e14 / src_413115a28d7dc9914c91 = same 112-question bank, two sittings; src_29f02a5a4d6a273dea76 = wafdeen-1, unconfirmed key throughout, not used). Authors new items alongside the 13 legacy histology + 13 legacy physiology items already in question/AU-MED-102-histology-mcq.md and question/AU-MED-102-physiology-mcq.md; does not touch those files. Most concepts here were already reuse-tagged for AU-MED-102 in pending-live/AU-MED-102-histology.md and pending-live/AU-MED-102-physiology.md by an earlier concept-tagging pass (commit 1ac5ffff) that had no matching questions -- this batch supplies those questions and adds a few more overlay rows (pending-live/AU-MED-102-histology-2-overlay-add.md) for concepts that pass missed.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Alexandria content lane (W1-102-HIST author1)",
+    "universities": [
+      "au"
+    ],
+    "years": [
+      "AU_Y1"
+    ],
+    "module": "AU-MED-102",
+    "exam_weight_by_year": {
+      "AU_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "phys-q01",
+      "id": "QST-AUMED102-PHYS-Q01",
+      "title": "Effects of vagus nerve stimulation on thoracic and abdominal viscera",
+      "question": "Stimulation of the vagus nerve produces which combination of effects?",
+      "options": {
+        "A": "Slowed atrial rate, bronchial constriction and increased gut motility",
+        "B": "Accelerated atrial rate, bronchial dilation and decreased gut motility",
+        "C": "No effect on the heart, bronchial dilation only",
+        "D": "Slowed atrial rate but decreased gut motility"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The vagus nerve carries essentially the whole parasympathetic supply of the thoracic and abdominal viscera. Its stimulation slows the heart by acting on the atria (via the SA and AV nodes), constricts the bronchi, and drives gut motility and secretion forward - the coordinated \"rest and digest\" pattern of parasympathetic action on these organs. This combination of a slowed heart, constricted airways and an actively moving gut is the signature vagal effect tested repeatedly across this exam's autonomic questions.",
+        "B": "Incorrect. This describes roughly the opposite, sympathetic-type pattern (tachycardia, bronchodilation, reduced gut motility), not the parasympathetic vagal effect.",
+        "C": "Incorrect. The vagus does affect the heart (slowing it) and does not dilate the bronchi; it constricts them.",
+        "D": "Incorrect. The heart-slowing half is right, but the vagus increases, not decreases, gut motility - the opposite of what this option states."
+      },
+      "main_concept": "CON-NEU-C3D7B209FB3260",
+      "concept_ids": [
+        "CON-NEU-C3D7B209FB3260"
+      ],
+      "topic": "Autonomic nervous system",
+      "subtopic": "Parasympathetic effects",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State the vagus nerve's parasympathetic effects on the heart, bronchi and gut: slowing the atria, constricting bronchi and driving gut motility.",
+      "library_ids": [
+        "ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM"
+      ],
+      "resource_ids": [
+        "src_8d6ddf874f8984be8217",
+        "src_7d031a45baeadc973a00"
+      ],
+      "source_citation": "AU-MED-102 EOM - End foundation 2030.pdf p6 (same bank cited as EOM - end foundation مصريين 222 1.pdf p5), keyed (b).",
+      "author_notes": "REUSE: CON-NEU-C3D7B209FB3260, already tagged +au/+AU-MED-102 in pending-live/AU-MED-102-physiology.md; id given directly in coverage/AU-MED-102-histology-triage.md idea 4 (Physiology fold, HIT-PENDING)."
+    },
+    {
+      "key": "phys-q02",
+      "id": "QST-AUMED102-PHYS-Q02",
+      "title": "Autonomic fibre type serving sweat glands",
+      "question": "A student under exam stress notices dry mouth and a racing heart, both cholinergic-receptor effects at their respective effector organs. Which of the following is the one sympathetic postganglionic fibre type that is also cholinergic, unlike the rest of the sympathetic postganglionic outflow?",
+      "options": {
+        "A": "Fibres to the sweat glands",
+        "B": "Fibres to the heart",
+        "C": "Fibres to the blood vessels of skeletal muscle",
+        "D": "Fibres to the adrenal medulla"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Autonomic fibres are named for the transmitter they release, and cholinergic fibres are every preganglionic fibre (sympathetic or parasympathetic) plus every postganglionic parasympathetic fibre. The sympathetic division's postganglionic fibres are otherwise adrenergic (releasing noradrenaline) - except for the postganglionic sympathetic fibres to sweat glands, which are the one recognised cholinergic exception in the sympathetic outflow. This is why a sympathetically driven stress response can still produce a cholinergic-type effect (sweating) alongside adrenergic ones (tachycardia).",
+        "B": "Incorrect. Postganglionic sympathetic fibres to the heart are adrenergic, releasing noradrenaline to accelerate heart rate; they are not the cholinergic exception.",
+        "C": "Incorrect. Postganglionic sympathetic fibres to skeletal muscle blood vessels are adrenergic in most textbook accounts of this level; they are not the named cholinergic exception.",
+        "D": "Incorrect. The adrenal medulla is functionally a modified sympathetic ganglion innervated directly by preganglionic (cholinergic) fibres, but it is not itself a postganglionic fibre and is not the sweat-gland exception being tested here."
+      },
+      "main_concept": "CON-NEU-1DB903AAE3D02A",
+      "concept_ids": [
+        "CON-NEU-1DB903AAE3D02A"
+      ],
+      "topic": "Autonomic nervous system",
+      "subtopic": "Autonomic neurotransmitters",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that postganglionic sympathetic fibres to sweat glands are cholinergic, the one exception to the otherwise adrenergic sympathetic postganglionic outflow.",
+      "library_ids": [
+        "ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS"
+      ],
+      "resource_ids": [
+        "src_8d6ddf874f8984be8217"
+      ],
+      "source_citation": "AU-MED-102 EOM - End foundation 2030.pdf p6, keyed (c), exam-stress vignette (dry mouth, tachycardia, cholinergic receptor type at sweat/salivary glands).",
+      "author_notes": "REUSE: CON-NEU-1DB903AAE3D02A, already tagged +au/+AU-MED-102 in pending-live/AU-MED-102-physiology.md; id given directly in coverage/AU-MED-102-histology-triage.md idea 5 (Physiology fold, HIT-PENDING). Rewritten as a discrimination item on the sweat-gland exception specifically, since the source's own vignette (dry mouth + tachycardia) tests a mixed sympathetic/parasympathetic picture the triage paraphrase does not fully specify; shares this concept with phys-q06 (preganglionic CNS cell body angle), a distinct exam stem, per the near-duplicate-angle convention."
+    },
+    {
+      "key": "phys-q03",
+      "id": "QST-AUMED102-PHYS-Q03",
+      "title": "Types of autonomic ganglion",
+      "question": "Which of the following is NOT one of the four recognised types of autonomic ganglion?",
+      "options": {
+        "A": "Paravertebral (sympathetic chain) ganglion",
+        "B": "Terminal ganglion",
+        "C": "Dorsal root ganglion",
+        "D": "Collateral ganglion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect as the answer to \"NOT one of the four\" - the paravertebral sympathetic chain ganglion is one of the four recognised autonomic ganglion types.",
+        "B": "Incorrect as the answer - the terminal ganglion, where preganglionic parasympathetic fibres typically relay (often within or near the target organ), is one of the four recognised types.",
+        "C": "Correct. There are four types of autonomic ganglion: the paravertebral sympathetic chain, the collateral (prevertebral) ganglia, the terminal ganglia, and the adrenal medulla (a modified sympathetic ganglion). The dorsal root ganglion, by contrast, holds the cell bodies of somatic sensory (not autonomic motor) neurons and is not one of the four autonomic ganglion types - it is part of the sensory, not the autonomic efferent, pathway.",
+        "D": "Incorrect as the answer - the collateral (prevertebral) ganglion is one of the four recognised autonomic ganglion types."
+      },
+      "main_concept": "CON-NEU-FCFD384A1011F8",
+      "concept_ids": [
+        "CON-NEU-FCFD384A1011F8"
+      ],
+      "topic": "Autonomic nervous system",
+      "subtopic": "Autonomic ganglia",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Name the four types of autonomic ganglion (paravertebral chain, collateral, terminal, adrenal medulla), and distinguish them from the sensory dorsal root ganglion.",
+      "library_ids": [
+        "ART-102-PHY-AUTONOMIC-GANGLIA"
+      ],
+      "resource_ids": [
+        "src_3bf4527b51de57464e14",
+        "src_413115a28d7dc9914c91"
+      ],
+      "source_citation": "AU-MED-102 EOM - Final foundation 2030.pdf p15 (same bank cited as EOM - Foundation Final Egyptian.pdf p15), keyed (d, function of the autonomic ganglia).",
+      "author_notes": "REUSE: CON-NEU-FCFD384A1011F8, already tagged +au/+AU-MED-102 in pending-live/AU-MED-102-physiology.md; id given directly in coverage/AU-MED-102-histology-triage.md idea 13 (Physiology fold, HIT-PENDING)."
+    },
+    {
+      "key": "phys-q04",
+      "id": "QST-AUMED102-PHYS-Q04",
+      "title": "Relay site of preganglionic parasympathetic fibres",
+      "question": "Preganglionic parasympathetic fibres typically relay in which type of ganglion?",
+      "options": {
+        "A": "Paravertebral (sympathetic chain) ganglion",
+        "B": "Terminal ganglion",
+        "C": "Collateral (prevertebral) ganglion",
+        "D": "Dorsal root ganglion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The paravertebral sympathetic chain ganglion is where preganglionic sympathetic, not parasympathetic, fibres commonly relay.",
+        "B": "Correct. Of the four autonomic ganglion types - paravertebral sympathetic chain, collateral, terminal, and adrenal medulla - the terminal ganglion is where preganglionic parasympathetic fibres relay onto their postganglionic neuron. Terminal ganglia sit within or very close to the wall of the target organ itself, which is why parasympathetic postganglionic fibres are characteristically very short compared with the long preganglionic parasympathetic fibre that reaches them. This short postganglionic length is a direct consequence of the terminal ganglion's location right next to (or inside) the effector organ.",
+        "C": "Incorrect. Collateral (prevertebral) ganglia, such as the coeliac and mesenteric ganglia, relay preganglionic sympathetic fibres supplying abdominal viscera, not parasympathetic fibres.",
+        "D": "Incorrect. The dorsal root ganglion holds somatic sensory neuron cell bodies; it plays no role in relaying autonomic motor (parasympathetic or sympathetic) fibres."
+      },
+      "main_concept": "CON-NEU-FCFD384A1011F8",
+      "concept_ids": [
+        "CON-NEU-FCFD384A1011F8"
+      ],
+      "topic": "Autonomic nervous system",
+      "subtopic": "Autonomic ganglia",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that preganglionic parasympathetic fibres relay in the terminal ganglion, located within or near the target organ, giving parasympathetic postganglionic fibres their characteristic short length.",
+      "library_ids": [
+        "ART-102-PHY-AUTONOMIC-GANGLIA"
+      ],
+      "resource_ids": [
+        "src_3bf4527b51de57464e14",
+        "src_413115a28d7dc9914c91"
+      ],
+      "source_citation": "AU-MED-102 EOM - Final foundation 2030.pdf p15 (same bank cited as EOM - Foundation Final Egyptian.pdf p15), keyed (b, where preganglionic parasympathetic fibres usually relay).",
+      "author_notes": "REUSE: CON-NEU-FCFD384A1011F8, second angle of phys-q03's concept (its own definition names the terminal ganglion as one of the four types, and the triage explicitly notes this concept \"also covers the where do preganglionic parasympathetic fibres relay item (terminal ganglia)\"). coverage/AU-MED-102-histology-triage.md idea 13."
+    },
+    {
+      "key": "phys-q05",
+      "id": "QST-AUMED102-PHYS-Q05",
+      "title": "Preferred adrenergic subtype for treating bronchial asthma",
+      "question": "Which adrenoceptor subtype is the preferred pharmacological target for relieving bronchospasm in bronchial asthma?",
+      "options": {
+        "A": "Alpha-1",
+        "B": "Alpha-2",
+        "C": "Beta-1",
+        "D": "Beta-2"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Alpha-1 receptors mediate smooth muscle contraction (e.g. vasoconstriction, and internal urethral sphincter contraction); stimulating them would not relax bronchial smooth muscle.",
+        "B": "Incorrect. Alpha-2 receptors act chiefly as presynaptic autoreceptors inhibiting further noradrenaline release; they are not the target for bronchodilation.",
+        "C": "Incorrect. Beta-1 receptors are concentrated in the heart, where their stimulation increases rate and force of contraction; selectively targeting them would not be the preferred route to bronchodilation and risks unwanted cardiac stimulation.",
+        "D": "Correct. Adrenergic receptors sit both on the effector organ and on the nerve ending that released the transmitter, and are classified into two alpha and three beta subtypes, distinguished by which second messenger system they engage. Beta-2 receptors are the subtype that relaxes bronchial smooth muscle, which is why beta-2-selective agonists (such as salbutamol) are the preferred bronchodilator treatment for bronchial asthma, avoiding the cardiac stimulation that a non-selective beta agonist (acting on cardiac beta-1 receptors too) would cause."
+      },
+      "main_concept": "CON-NEU-F16D60268905BC",
+      "concept_ids": [
+        "CON-NEU-F16D60268905BC"
+      ],
+      "topic": "Autonomic nervous system",
+      "subtopic": "Adrenoceptor subtypes",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that beta-2 adrenoceptors are the preferred pharmacological target for bronchodilation in asthma, distinct from cardiac beta-1 and vascular alpha receptors.",
+      "library_ids": [
+        "ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS"
+      ],
+      "resource_ids": [
+        "src_3bf4527b51de57464e14",
+        "src_413115a28d7dc9914c91"
+      ],
+      "source_citation": "AU-MED-102 EOM - Final foundation 2030.pdf p19 (same bank cited as EOM - Foundation Final Egyptian.pdf p19), keyed (d, better treatment for bronchial asthma).",
+      "author_notes": "REUSE: CON-NEU-F16D60268905BC, already tagged +au/+AU-MED-102 in pending-live/AU-MED-102-physiology.md; id given directly in coverage/AU-MED-102-histology-triage.md idea 18 (Physiology fold, HIT-PENDING). Shares this concept with phys-q05b (sympathomimetic/urine retention angle), a distinct exam stem, per the near-duplicate-angle convention."
+    },
+    {
+      "key": "phys-q05b",
+      "id": "QST-AUMED102-PHYS-Q05B",
+      "title": "Effect of a sympathomimetic drug on bladder function",
+      "question": "A sympathomimetic drug is most likely to cause which of the following adverse effects, related to its adrenoceptor action?",
+      "options": {
+        "A": "Urinary retention",
+        "B": "Increased salivation",
+        "C": "Bronchoconstriction",
+        "D": "Bradycardia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Adrenergic receptors are split into alpha and beta subtypes sitting on their respective effector organs. At the bladder neck and internal urethral sphincter, alpha-1 receptor stimulation causes smooth muscle contraction, which opposes voiding; a sympathomimetic drug stimulating these receptors can therefore precipitate or worsen urinary retention, a recognised adverse effect particularly relevant in patients (such as older men) whose bladder outflow is already partly obstructed. This is the same adrenoceptor-subtype logic that, at a different effector organ (the bronchial tree), instead produces the beta-2-mediated bronchodilation exploited therapeutically in asthma.",
+        "B": "Incorrect. Increased salivation is a cholinergic (parasympathetic), not adrenergic, effect; a sympathomimetic drug would tend to reduce, not increase, salivary flow.",
+        "C": "Incorrect. Adrenergic stimulation (beta-2) causes bronchodilation, not bronchoconstriction; this option describes roughly the opposite effect.",
+        "D": "Incorrect. Adrenergic (particularly beta-1) stimulation increases, not decreases, heart rate; a sympathomimetic would tend to cause tachycardia, not bradycardia."
+      },
+      "main_concept": "CON-NEU-F16D60268905BC",
+      "concept_ids": [
+        "CON-NEU-F16D60268905BC"
+      ],
+      "topic": "Autonomic nervous system",
+      "subtopic": "Adrenoceptor subtypes",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that alpha-1 adrenoceptor stimulation at the bladder neck/internal urethral sphincter can cause urinary retention, a recognised adverse effect of sympathomimetic drugs.",
+      "library_ids": [
+        "ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS"
+      ],
+      "resource_ids": [
+        "src_8d6ddf874f8984be8217",
+        "src_7d031a45baeadc973a00"
+      ],
+      "source_citation": "AU-MED-102 EOM - End foundation 2030.pdf p6 (same bank cited as EOM - end foundation مصريين 222 1.pdf p6), keyed (a, sympathomimetic drug - associated effect, urine retention).",
+      "author_notes": "REUSE: CON-NEU-F16D60268905BC, second angle of phys-q05's concept; this table row is not separately numbered in coverage/AU-MED-102-histology-triage.md's 21-idea ordered list, authored directly from the keyed triage table row under Part 2 Autonomic nervous system and mapped to the adrenoceptor-subtype concept as the closest existing reuse target."
+    },
+    {
+      "key": "phys-q06",
+      "id": "QST-AUMED102-PHYS-Q06",
+      "title": "Cell body location of a preganglionic autonomic neuron",
+      "question": "Which statement is true of a preganglionic autonomic neuron, whether sympathetic or parasympathetic?",
+      "options": {
+        "A": "Its cell body lies within the target organ",
+        "B": "Its cell body lies in the CNS (brainstem or spinal cord)",
+        "C": "It is always adrenergic",
+        "D": "It has no myelin sheath"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A cell body within the target organ describes the postganglionic parasympathetic neuron (relaying in a terminal ganglion at or in the organ), not the preganglionic neuron.",
+        "B": "Correct. Every preganglionic autonomic neuron - sympathetic or parasympathetic - has its cell body within the central nervous system, in the brainstem or spinal cord, with its axon then leaving the CNS to synapse on a postganglionic neuron in a peripheral autonomic ganglion. This CNS origin is a defining, universal feature of the preganglionic neuron regardless of division, distinguishing it from the postganglionic neuron, whose own cell body sits in the peripheral ganglion itself.",
+        "C": "Incorrect. Every preganglionic autonomic fibre, sympathetic or parasympathetic, is cholinergic (releasing acetylcholine) at its ganglionic synapse, not adrenergic; adrenergic transmission belongs to most postganglionic sympathetic fibres instead.",
+        "D": "Incorrect. Preganglionic autonomic fibres are typically myelinated (B fibres), not unmyelinated, which is part of why they conduct relatively quickly to reach their ganglion."
+      },
+      "main_concept": "CON-NEU-1DB903AAE3D02A",
+      "concept_ids": [
+        "CON-NEU-1DB903AAE3D02A"
+      ],
+      "topic": "Autonomic nervous system",
+      "subtopic": "Autonomic neurotransmitters",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that every preganglionic autonomic neuron, sympathetic or parasympathetic, has its cell body in the CNS and is cholinergic at its ganglionic synapse.",
+      "library_ids": [
+        "ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS"
+      ],
+      "resource_ids": [
+        "src_3bf4527b51de57464e14",
+        "src_413115a28d7dc9914c91"
+      ],
+      "source_citation": "AU-MED-102 EOM - Final foundation 2030.pdf p21 (same bank cited as EOM - Foundation Final Egyptian.pdf p21), keyed (b, true statement about preganglionic nerves).",
+      "author_notes": "REUSE: CON-NEU-1DB903AAE3D02A, same record as phys-q02 per coverage/AU-MED-102-histology-triage.md's own note (\"same CON-NEU-1DB903AAE3D02A as idea 5\"), a distinct exam stem (idea 19)."
+    },
+    {
+      "key": "phys-q07",
+      "id": "QST-AUMED102-PHYS-Q07",
+      "title": "Classification of the Na+-K+ pump as a transport mechanism",
+      "question": "The Na+-K+ ATPase pump, which moves three sodium ions out of the cell for every two potassium ions moved in, is classified as:",
+      "options": {
+        "A": "Facilitated diffusion",
+        "B": "Secondary active transport",
+        "C": "Primary active transport",
+        "D": "Simple diffusion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Facilitated diffusion moves a substance down its concentration gradient via a carrier protein without using ATP directly; the Na+-K+ pump moves both ions against their gradients and consumes ATP directly, which facilitated diffusion does not.",
+        "B": "Incorrect. Secondary active transport uses the electrochemical gradient built by a primary active transporter (such as the Na+-K+ pump itself) to move a different solute, often via a cotransporter; it does not directly hydrolyse ATP the way the pump itself does.",
+        "C": "Correct. The Na+-K+ pump is ATP-driven primary active transport, directly hydrolysing ATP to move three sodium ions out of the cell for every two potassium ions moved in, against both ions' concentration gradients. Because it moves unequal charge (3 positive charges out for 2 in), the pump is also electrogenic, contributing directly to the resting membrane potential in addition to maintaining the ionic gradients themselves. This direct ATP-hydrolysis, against-the-gradient, electrogenic transport is what defines it as primary, not secondary or facilitated, active transport.",
+        "D": "Incorrect. Simple diffusion is passive, unassisted movement down a concentration gradient with no protein and no energy expenditure; the Na+-K+ pump is the opposite - active, protein-mediated, and moving both ions against their gradients."
+      },
+      "main_concept": "CON-NEU-1E66BE533E894C",
+      "concept_ids": [
+        "CON-NEU-1E66BE533E894C"
+      ],
+      "topic": "Cell membrane transport",
+      "subtopic": "Active transport",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the Na+-K+ pump is ATP-driven primary active transport, electrogenic because it moves three sodium out for every two potassium in.",
+      "library_ids": [
+        "ART-103-PHY-NERVE-FIBRE-AND-CONDUCTION"
+      ],
+      "resource_ids": [
+        "src_3bf4527b51de57464e14",
+        "src_413115a28d7dc9914c91"
+      ],
+      "source_citation": "AU-MED-102 EOM - Final foundation 2030.pdf p14 (same bank cited as EOM - Foundation Final Egyptian.pdf p14), keyed (c).",
+      "author_notes": "REUSE: CON-NEU-1E66BE533E894C, already tagged +au/+AU-MED-102 in pending-live/AU-MED-102-physiology.md; id given directly in coverage/AU-MED-102-histology-triage.md idea 9 (Physiology fold, HIT-PENDING)."
+    },
+    {
+      "key": "phys-q08",
+      "id": "QST-AUMED102-PHYS-Q08",
+      "title": "Why an anticholinesterase relieves myasthenia gravis",
+      "question": "Myasthenia gravis is caused by autoantibodies directed against the nicotinic acetylcholine receptor at the neuromuscular junction. Why does an anticholinesterase drug relieve its muscle weakness?",
+      "options": {
+        "A": "It regenerates destroyed acetylcholine receptors",
+        "B": "It blocks the autoantibodies directly",
+        "C": "It prolongs acetylcholine's action at the remaining receptors by slowing its breakdown",
+        "D": "It replaces acetylcholine with a longer-acting analogue"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. An anticholinesterase does not repair or regenerate receptors that autoantibodies have destroyed or blocked; the receptor loss itself is not reversed by this drug class.",
+        "B": "Incorrect. Anticholinesterases do not act on the autoantibodies at all; they act purely on the enzyme that normally breaks down acetylcholine, leaving the autoimmune process itself untouched.",
+        "C": "Correct. Myasthenia gravis is caused by autoantibodies against the nicotinic acetylcholine receptor, reducing the number of functional receptors available at the neuromuscular junction and so weakening neuromuscular transmission. An anticholinesterase drug inhibits acetylcholinesterase, the enzyme that normally breaks down acetylcholine in the synaptic cleft, which prolongs acetylcholine's presence and action there. With more time to act on the fewer remaining receptors, this compensates - functionally, not by fixing the underlying autoimmune receptor loss - for the reduced receptor number, which is exactly why an anticholinesterase relieves the disease's muscle weakness.",
+        "D": "Incorrect. Anticholinesterases do not supply any acetylcholine analogue; they act only by slowing the breakdown of the acetylcholine already being released."
+      },
+      "main_concept": "CON-MSK-5C2B5DD83C1805",
+      "concept_ids": [
+        "CON-MSK-5C2B5DD83C1805"
+      ],
+      "topic": "Autonomic and neuromuscular physiology",
+      "subtopic": "Myasthenia gravis",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Explain why an anticholinesterase relieves myasthenia gravis: by prolonging acetylcholine's action on the reduced number of remaining nicotinic receptors, not by reversing the underlying antibody-mediated receptor loss.",
+      "library_ids": [
+        "ART-103-PHY-NEUROMUSCULAR-TRANSMISSION"
+      ],
+      "resource_ids": [
+        "src_7d031a45baeadc973a00"
+      ],
+      "source_citation": "AU-MED-102 EOM - end foundation مصريين 222 1.pdf p6, myasthenia gravis vignette (this sitting places the item under Physiology/ANS; the other sitting, src_8d6ddf874f8984be8217, places the same underlying fact under Biochemistry).",
+      "author_notes": "REUSE: CON-MSK-5C2B5DD83C1805 (\"myasthenia gravis is antibodies against the acetylcholine receptor, which is why an anticholinesterase relieves it\"), already tagged +au/+AU-MED-102 in pending-live/AU-MED-102-physiology.md by the earlier concept-tagging pass, but not yet used by any question -- the legacy physiology batch's myasthenia gravis item (question/AU-MED-102-physiology-mcq.md) uses a different concept, CON-NEU-22613E658C5DB1 (nicotinic receptor distribution/ligand-gated channel nature), for the same vignette. This item tests the distinct anticholinesterase-mechanism angle instead, so it does not duplicate the legacy question. Per the triage's OWED note, this same underlying vignette also appears keyed under Biochemistry in the other sitting (src_8d6ddf874f8984be8217) -- flagged here so the Biochemistry lane does not also independently claim it."
+    },
+    {
+      "key": "phys-q10",
+      "id": "QST-AUMED102-PHYS-HOLD-10",
+      "hold": "Best description of osmosis, p14 — unkeyed, examiner's own unresolved mark (printed key = XXX)"
+    },
+    {
+      "key": "phys-q11",
+      "id": "QST-AUMED102-PHYS-HOLD-11",
+      "hold": "Definition of osmosis, different option set — wafdeen p1, unconfirmed key"
+    },
+    {
+      "key": "phys-q12",
+      "id": "QST-AUMED102-PHYS-HOLD-12",
+      "hold": "Ionic basis of the membrane potential, p5 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q13",
+      "id": "QST-AUMED102-PHYS-HOLD-13",
+      "hold": "Which ion is higher in ECF than ICF (calcium), p5 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q14",
+      "id": "QST-AUMED102-PHYS-HOLD-14",
+      "hold": "Statement best describing ECF, p15 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q15",
+      "id": "QST-AUMED102-PHYS-HOLD-15",
+      "hold": "Components of a negative-feedback loop, p5 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q16",
+      "id": "QST-AUMED102-PHYS-HOLD-16",
+      "hold": "Statement best describing homeostasis, p14 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q17",
+      "id": "QST-AUMED102-PHYS-HOLD-17",
+      "hold": "Smallest body-fluid compartment (transcellular), p14 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q18",
+      "id": "QST-AUMED102-PHYS-HOLD-18",
+      "hold": "Example of a positive-feedback mechanism (suckling reflex), p15 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q19",
+      "id": "QST-AUMED102-PHYS-HOLD-19",
+      "hold": "Nicotinic receptor location (motor end plate), p16 — duplicate: the already-landed legacy myasthenia-gravis item uses this same concept (CON-NEU-22613E658C5DB1) as its main_concept"
+    },
+    {
+      "key": "phys-q20",
+      "id": "QST-AUMED102-PHYS-HOLD-20",
+      "hold": "Effect of anterior hypothalamus stimulation, p6 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q21",
+      "id": "QST-AUMED102-PHYS-HOLD-21",
+      "hold": "Consequence of sacral spinal-cord destruction (loss of erection), p15 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q22",
+      "id": "QST-AUMED102-PHYS-HOLD-22",
+      "hold": "Consequence of cervical sympathetic ganglion injury (Horner's-type), p16 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q23",
+      "id": "QST-AUMED102-PHYS-HOLD-23",
+      "hold": "Location of the sympathetic centre in the CNS, p23 — duplicate of the already-landed legacy physiology item"
+    },
+    {
+      "key": "phys-q24",
+      "id": "QST-AUMED102-PHYS-HOLD-24",
+      "hold": "Function of the autonomic ganglia, second phrasing — wafdeen p10, unconfirmed key; superseded by phys-q03/phys-q04 authored from the keyed sitting"
+    },
+    {
+      "key": "phys-q25",
+      "id": "QST-AUMED102-PHYS-HOLD-25",
+      "hold": "Effect of epinephrine on bronchial smooth muscle — wafdeen p7, unconfirmed key"
+    },
+    {
+      "key": "phys-q26",
+      "id": "QST-AUMED102-PHYS-HOLD-26",
+      "hold": "Effect of a beta-blocker — wafdeen p10, unconfirmed key"
+    },
+    {
+      "key": "phys-q27",
+      "id": "QST-AUMED102-PHYS-HOLD-27",
+      "hold": "Control-system type illustrated by vagal slowing of the SA node — wafdeen p5, unconfirmed key"
+    },
+    {
+      "key": "phys-q28",
+      "id": "QST-AUMED102-PHYS-HOLD-28",
+      "hold": "What characterises autonomic neurons (involuntary control) — wafdeen p5, unconfirmed key; also duplicates the already-landed legacy item's underlying idea"
+    },
+    {
+      "key": "phys-q29",
+      "id": "QST-AUMED102-PHYS-HOLD-29",
+      "hold": "Main relay site of preganglionic sympathetic fibres — wafdeen p5, unconfirmed key"
+    },
+    {
+      "key": "phys-q30",
+      "id": "QST-AUMED102-PHYS-HOLD-30",
+      "hold": "Significance of parasympathetic tone (resting heart rate) — wafdeen p7, unconfirmed key"
+    },
+    {
+      "key": "phys-q31",
+      "id": "QST-AUMED102-PHYS-HOLD-31",
+      "hold": "Sympathetic mass discharge (pupil, heart, bronchi, bladder together) — HIT-PENDING concept CON-NEU-DCDACCB179C2A5 tagged +au/+AU-MED-102 in pending-live/AU-MED-102-physiology.md, but no distinct keyed exam row for this idea was found in coverage/AU-MED-102-histology-triage.md's tables to author a faithful question from"
+    }
+  ]
+}
