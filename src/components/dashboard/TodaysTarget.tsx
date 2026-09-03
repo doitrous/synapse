@@ -1,21 +1,20 @@
 import { useMemo, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
-import { CalendarDays } from 'lucide-react'
 import { Panel } from '@/components/ui/Panel'
-import { Icon } from '@/components/ui/Icon'
 import { StreakDots, type DayStatus } from '@/components/ui/StreakDots'
 import { useDueReviewSummary } from '@/components/dashboard/DueReviews'
 import { EXAM_KIND_LABEL, daysUntil } from '@/data/examProgramme'
-import { formatLongDate } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
-import { useIdentity } from '@/lib/useIdentity'
 import { useUpcoming } from '@/lib/useUpcoming'
 import { itemsOn } from '@/lib/upcoming'
 import { useQotd } from '@/lib/useQotd'
 import { useNextExam } from '@/lib/useExamProgramme'
 import { cn } from '@/lib/cn'
 
-function greetingKey(): string {
+/** Time-of-day greeting key — also used standalone by the dashboard's own
+ * big serif "Good evening, {name}" heading, so the two never disagree about
+ * what time of day it is. */
+export function greetingKey(): string {
   const h = new Date().getHours()
   if (h < 12) return 'Good morning'
   if (h < 18) return 'Good afternoon'
@@ -94,19 +93,20 @@ function Fact({
 }
 
 /**
- * The dashboard's day strip: who is here, what day it is, and the four facts
- * nothing else on the page reports.
+ * The dashboard's day strip: the four facts nothing else on the page reports.
  *
- * It used to be a target ring against an invented forty-question goal, which
- * said the same thing as the progress panel further down and asked for the
- * same click as the card below it. So it stopped counting questions: the strip
- * reports the streak, what the review queue is holding, how much of today's
- * own plan is ticked off, and how long there is until the next paper — each
- * one a quiet link to the page that owns it, none of them a button.
+ * It used to carry a target ring against an invented forty-question goal,
+ * which said the same thing as the progress panel further down and asked for
+ * the same click as the card below it. The ring is back — as `TargetSeed`, on
+ * a real "answered today" count, in its own hero card above this strip — so
+ * this component kept only what it always did well: the streak, what the
+ * review queue is holding, how much of today's own plan is ticked off, and
+ * how long there is until the next paper — each one a quiet link to the page
+ * that owns it, none of them a button. The greeting that used to open this
+ * panel moved out too, into the dashboard's own big serif heading.
  */
-export function TodaysTarget() {
+export function DailyFactsStrip() {
   const { t, lang } = useI18n()
-  const { displayName, audience } = useIdentity()
   const { items } = useUpcoming()
   const qotd = useQotd()
   const due = useDueReviewSummary()
@@ -188,19 +188,8 @@ export function TodaysTarget() {
 
   return (
     <div className="w-full max-w-[60rem]">
-      <Panel className="flex flex-col gap-3.5 px-4 py-4 shadow-pop sm:flex-row sm:items-center sm:gap-7 sm:px-6 sm:py-[18px]">
-        <div className="min-w-0 flex-1">
-          <h1 className="font-serif text-[20px] font-semibold leading-[1.18] tracking-[-0.02em] text-ink sm:text-[22px]">
-            {t(greetingKey())}{displayName?.trim() ? `${lang === 'ar' ? '، ' : ', '}${displayName.trim()}` : ''}
-          </h1>
-          <p className="mt-[3px] flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-[12.5px] text-ink-3">
-            <Icon icon={CalendarDays} size={13} className="text-ink-3" />
-            <span>{formatLongDate(now)}</span>
-            {audience.year && <span>&middot; {audience.year}</span>}
-          </p>
-        </div>
-
-        <div className="grid grid-cols-2 gap-2 sm:flex sm:shrink-0 sm:items-stretch sm:gap-0">
+      <Panel className="flex px-4 py-3.5 shadow-panel sm:px-6">
+        <div className="grid w-full grid-cols-2 gap-2 sm:flex sm:items-stretch sm:gap-0">
           {facts}
         </div>
       </Panel>

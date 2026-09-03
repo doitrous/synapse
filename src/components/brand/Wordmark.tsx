@@ -10,15 +10,15 @@ type MarkProps = {
  * Nishany's Noon mark — the letter ن.
  *
  * Two concentric arcs open from the top-right (crimson outer, rose inner) with
- * a crimson dot resting in that opening, so the mark reads as a tilted ن. The
- * crimson/rose values are the fixed brand colours (they match the favicon and
- * `public/brand/nishany-mark.svg`); `monochrome` collapses all three to
- * `currentColor` for use on a coloured or dark surface.
+ * a midnight-blue dot resting in that opening, so the mark reads as a tilted ن.
+ * The crimson/rose/navy values are the fixed brand colours (they match the
+ * favicon and `public/brand/nishany-mark.svg`); `monochrome` collapses all
+ * three to `currentColor` for use on a coloured or dark surface.
  */
 export function NishanyMark({ size = 28, className, monochrome = false }: MarkProps) {
   const outer = monochrome ? 'currentColor' : '#a81d40'
   const inner = monochrome ? 'currentColor' : '#e0859b'
-  const dot = monochrome ? 'currentColor' : '#a81d40'
+  const dot = monochrome ? 'currentColor' : '#1b2b55'
 
   return (
     <svg
