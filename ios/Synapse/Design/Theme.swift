@@ -8,7 +8,7 @@ import SwiftUI
 /// separate reading of the same tokens. `system` follows the phone, choosing
 /// light or dark.
 enum AppTheme: String, CaseIterable, Sendable {
-    case system, light, warm, dark
+    case system, light, warm, dark, oled
 
     var label: String {
         switch self {
@@ -16,6 +16,7 @@ enum AppTheme: String, CaseIterable, Sendable {
         case .light: "Light"
         case .warm: "Warm"
         case .dark: "Dark"
+        case .oled: "OLED / Black"
         }
     }
 
@@ -91,32 +92,35 @@ enum Theme {
 
     // MARK: - Surfaces
 
-    /// The page behind everything. Carries a hint of the brand blue.
-    static var paper: Color { token(light: 0xF5F7FB, warm: 0xF7F2EA, dark: 0x0D1117) }
+    /// The page behind everything. Carries a hint of the brand blue — except
+    /// OLED, which drops that tint on purpose so the panel actually turns
+    /// those pixels off.
+    static var paper: Color { token(light: 0xF5F7FB, warm: 0xF7F2EA, dark: 0x0D1117, oled: 0x000000) }
     /// Cards, sheets, and panels sitting on the page.
-    static var surface: Color { token(light: 0xFFFFFF, warm: 0xFFFDF9, dark: 0x151B24) }
+    static var surface: Color { token(light: 0xFFFFFF, warm: 0xFFFDF9, dark: 0x151B24, oled: 0x0A0A0C) }
     /// A secondary panel, or a resting row.
-    static var surface2: Color { token(light: 0xEEF1F7, warm: 0xF1EBE1, dark: 0x1D2531) }
+    static var surface2: Color { token(light: 0xEEF1F7, warm: 0xF1EBE1, dark: 0x1D2531, oled: 0x16171B) }
     /// Wells, inputs and meter beds — recessed rather than raised. In dark it
     /// goes *below* the page rather than above it, which is how a recess reads
-    /// when there is no shadow to be had.
-    static var inset: Color { token(light: 0xE4E9F2, warm: 0xE9E1D4, dark: 0x0A0E14) }
+    /// when there is no shadow to be had. OLED goes lower still: paper is
+    /// already the floor, so this is the dimmest lift above it there is.
+    static var inset: Color { token(light: 0xE4E9F2, warm: 0xE9E1D4, dark: 0x0A0E14, oled: 0x050506) }
 
     // MARK: - Text
 
     /// Body and headings. Near-black and faintly cool — and in dark never pure
     /// white, which at two in the morning is only glare.
-    static var ink: Color { token(light: 0x161920, warm: 0x1F1B16, dark: 0xE8ECF3) }
+    static var ink: Color { token(light: 0x161920, warm: 0x1F1B16, dark: 0xE8ECF3, oled: 0xDFE2E8) }
     /// Secondary text. Holds at least 4.5:1 on `paper` in every theme.
-    static var ink2: Color { token(light: 0x5D636F, warm: 0x675E51, dark: 0xA2ABBB) }
+    static var ink2: Color { token(light: 0x5D636F, warm: 0x675E51, dark: 0xA2ABBB, oled: 0x9AA1AF) }
     /// Faint — large or decorative only. Less faint in dark, so labels stay
     /// legible against a ground that gives them less help.
-    static var ink3: Color { token(light: 0x949AA8, warm: 0x9B9284, dark: 0x7D8798) }
+    static var ink3: Color { token(light: 0x949AA8, warm: 0x9B9284, dark: 0x7D8798, oled: 0x6B7280) }
 
     // MARK: - Lines
 
-    static var line: Color { token(light: 0xE3E7EF, warm: 0xE9E0D2, dark: 0x232B37) }
-    static var line2: Color { token(light: 0xCCD3E0, warm: 0xD7CCB9, dark: 0x38424F) }
+    static var line: Color { token(light: 0xE3E7EF, warm: 0xE9E0D2, dark: 0x232B37, oled: 0x1E1F24) }
+    static var line2: Color { token(light: 0xCCD3E0, warm: 0xD7CCB9, dark: 0x38424F, oled: 0x32333A) }
 
     // MARK: - Primary — cortex crimson, the action colour
 
@@ -169,19 +173,23 @@ enum Theme {
 
     // MARK: - Charts
 
-    static var grid: Color { token(light: 0xE8ECF4, warm: 0xECE4D6, dark: 0x1B2330) }
-    static var gridMajor: Color { token(light: 0xDBE1EC, warm: 0xE2D9C9, dark: 0x232C39) }
+    static var grid: Color { token(light: 0xE8ECF4, warm: 0xECE4D6, dark: 0x1B2330, oled: 0x131317) }
+    static var gridMajor: Color { token(light: 0xDBE1EC, warm: 0xE2D9C9, dark: 0x232C39, oled: 0x1C1D22) }
 
     /// The heatmap ramp, ground → crimson.
     ///
     /// In dark it ascends in brightness instead: on a dark ground "more" has to
-    /// mean lighter, or a full heatmap reads as an empty one.
+    /// mean lighter, or a full heatmap reads as an empty one. OLED shares every
+    /// step with dark except the empty one, which drops dark's blue cast so an
+    /// empty cell reads as neutral charcoal on a hueless black stage rather
+    /// than as a stray tinted colour.
     static func scale(_ step: Int) -> Color {
         let light: [UInt32] = [0xE8ECF4, 0xF8D7E0, 0xEFA9BF, 0xE0789A, 0xC94E77, 0xA82449]
         let warm: [UInt32] = [0xECE4D6, 0xF6D9DF, 0xEDABBD, 0xDE7A98, 0xC75075, 0xA82449]
         let dark: [UInt32] = [0x1A212B, 0x3B1D29, 0x5F2739, 0x8D3253, 0xBB416B, 0xE8759A]
+        let oled: [UInt32] = [0x17181C, 0x3B1D29, 0x5F2739, 0x8D3253, 0xBB416B, 0xE8759A]
         let index = min(max(step, 0), 5)
-        return token(light: light[index], warm: warm[index], dark: dark[index])
+        return token(light: light[index], warm: warm[index], dark: dark[index], oled: oled[index])
     }
 
     // MARK: - Shape
@@ -251,14 +259,17 @@ enum Theme {
 
     /// One token, in whichever theme is in force.
     ///
-    /// `system` is the only one that consults the trait: the other three are a
+    /// `system` is the only one that consults the trait: the other four are a
     /// deliberate choice and must not change under the student when the sun
-    /// goes down.
-    private static func token(light: UInt32, warm: UInt32, dark: UInt32) -> Color {
+    /// goes down. `oled` defaults to whatever `dark` is: most tokens (brand and
+    /// signal colours) are identical between the two on the web, and are only
+    /// worth stating twice where they actually differ — the neutral ramp.
+    private static func token(light: UInt32, warm: UInt32, dark: UInt32, oled: UInt32? = nil) -> Color {
         switch appearance {
         case .light: Color(UIColor(rgb: light))
         case .warm: Color(UIColor(rgb: warm))
         case .dark: Color(UIColor(rgb: dark))
+        case .oled: Color(UIColor(rgb: oled ?? dark))
         case .system:
             Color(UIColor { traits in
                 UIColor(rgb: traits.userInterfaceStyle == .dark ? dark : light)
