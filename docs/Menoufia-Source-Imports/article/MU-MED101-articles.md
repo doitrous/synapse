@@ -86,6 +86,9 @@ CON-MSK-387676EEB2B66E
 ## aliases
 Scapular protraction is the forward glid | Opposition of the thumb combines abducti | Supination is lateral rotation of the ra | Eversion turns the sole of the foot to f | Abduction is movement of a limb away fro | The wrist (radiocarpal) joint, a condylo
 
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
 ## reading_time
 8
 
@@ -98,6 +101,9 @@ Protraction carries the shoulder girdle forward around the chest wall (serratus 
 
 ### Mechanism
 Every one of these terms is midline- or joint-referenced by strict convention, never by an everyday sense of the word: 'abduction' always means away from the body's own midline (or, for a digit, away from the axis of the hand or foot), 'flexion/extension' always means a change in joint angle, and compound movements such as opposition or circumduction are named because they combine several of the simple movements at once rather than being a movement of their own.
+
+### Key determinants
+What tells these movements apart is the reference frame each is defined against and the plane it occurs in: abduction and adduction are referenced to the body's (or the digit's) own midline, supination-pronation and the pivot rotations to a longitudinal axis, protraction-retraction to horizontal gliding around the chest wall, and eversion-inversion to the subtalar joint. The compound movements (opposition, circumduction) are distinguished by combining several of these simple movements at once rather than being movements of their own, and each simple movement is further pinned to a specific prime mover and nerve -- which is exactly what a loss-of-movement question is testing.
 
 ### Clinical significance
 Losing one of these movements points directly at its named prime mover or nerve: loss of protraction with a winged scapula points to long thoracic nerve palsy (serratus anterior); loss of opposition points to a low median nerve lesion (opponens pollicis); loss of supination with the elbow extended still leaves some supination available from supinator even if biceps (musculocutaneous nerve) is lost, because the two muscles have different nerve supplies.
@@ -178,6 +184,9 @@ CON-MSK-4D6EF83A9A2C7F
 ## aliases
 Skull vault bones ossify intramembranous | A long bone lengthens at its epiphyseal  | The tarsal bones are short bones — a thi | Long bones are classed by epiphysis coun
 
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
 ## reading_time
 8
 
@@ -190,6 +199,9 @@ The skull vault ossifies intramembranously: mesenchyme condenses directly into o
 
 ### Mechanism
 Width growth (periosteum) and length growth (epiphyseal plate) are two independent mechanisms running in parallel, not two names for the same process, which is why a fracture through the epiphyseal plate can stunt a bone's eventual length even while its width continues to increase normally from the intact periosteum.
+
+### Key determinants
+Three independent variables classify and distinguish these bones: the mode of ossification (intramembranous for the skull vault versus endochondral for almost every limb bone), the mechanism of growth (the epiphyseal plate for length versus the periosteum for width, running in parallel), and the number of epiphyses (one at each end = a typical long bone, one at a single end = a miniature long bone, and the clavicle a modified long bone for separate reasons). Which of these variables a question turns on decides the answer -- a growth-arrest question is about the epiphyseal plate, a classification question about epiphysis count, and a fontanelle question about intramembranous ossification.
 
 ### Clinical significance
 Premature fusion of an epiphyseal plate (from trauma, infection or endocrine disease) stunts length growth on that side while periosteal width growth is unaffected, producing a bone that is normal in girth but short; conversely, delayed epiphyseal fusion (as in some endocrine disorders) prolongs the growth period and can produce excessive height.
@@ -278,6 +290,9 @@ CON-MSK-82CB25DF2E62F8
 ## aliases
 The first carpometacarpal joint is a sad | The elbow is a uniaxial hinge joint movi | The knee is a modified hinge joint: main | The metacarpophalangeal joints are condy | Synchondrosis is a primary cartilaginous | The glenohumeral (shoulder) joint is a b | Synovial joints have a joint cavity and  | The endocrine system is the set of ductl | A portal circulation connects two capill | Shoulder circumduction runs flexion, the | The intercarpal joints are synovial (pla | A pivot joint is the joint type that all
 
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
 ## reading_time
 9
 
@@ -290,6 +305,9 @@ Named joints are classified by the shape of their articulating surfaces and the 
 
 ### Mechanism
 Classification by surface shape (saddle, hinge, condyloid, ball-and-socket, plane) predicts the joint's degrees of freedom directly: a uniaxial hinge or pivot has one axis of movement, a biaxial condyloid or saddle joint has two (plus some rotation for a saddle joint), and a multiaxial ball-and-socket joint has three plus full rotation -- more surface curvature and looser fit generally buys more mobility at the cost of stability. Identifying a specific joint (such as the intercarpal joints) as synovial is really an application of this same classification: the question is not whether two bones meet, but which of the three fundamental joint tissues (fibrous, cartilaginous, or a synovial cavity/capsule) connects them.
+
+### Key determinants
+Two determinants separate these joints: the fundamental connecting tissue (fibrous, cartilaginous, or a synovial cavity and capsule) and, for synovial joints, the shape of the articulating surfaces, which fixes the degrees of freedom -- one axis for a hinge or pivot, two for a condyloid or saddle joint, three plus rotation for a ball-and-socket. Naming a joint therefore means asking first which tissue connects it and then, if synovial, which surface geometry it has; the endocrine and portal-circulation items sit in the same sub-block but are distinguished simply as physiology rather than joint anatomy, and circumduction as a fixed sequence of four simple movements rather than a movement in its own right.
 
 ### Clinical significance
 The shoulder's mobility-for-stability trade-off is why it is the most commonly dislocated large joint and depends on the rotator cuff and glenoid labrum for what stability it has; synchondroses (such as the epiphyseal plate itself) are clinically important because they are sites where a fracture can silently disrupt future bone growth, unlike a fracture through already-fused bone.
@@ -371,6 +389,9 @@ CON-FND-AD5B097BFB3468
 ## aliases
 Cell inclusions (pigment, glycogen, lipi | PAS stains carbohydrates (glycogen, glyc | Hemoglobin is the essential, life-sustai | Macrophages, as professional phagocytes | Best's carmine is the histochemical sta
 
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
 ## reading_time
 9
 
@@ -383,6 +404,9 @@ A cell inclusion is a non-living, often transient or metabolically variable accu
 
 ### Mechanism
 The inclusion/organelle distinction is really a living/non-living, permanent/variable distinction: an inclusion can be present in large amount in one cell and absent in an identical neighbouring cell depending on that cell's recent metabolic history, while an organelle such as a microtubule is a constant, functional feature of essentially every cell.
+
+### Key determinants
+The distinguishing axis running through these facts is living-and-permanent versus non-living-and-variable: an organelle is a constant functional structure, whereas an inclusion is a metabolically dependent accumulation that can be abundant in one cell and absent in an identical neighbour. The histochemical stains are told apart by their target chemistry -- the lipid stains (osmic acid, Sudan III, Sudan black) for fat versus the carbohydrate stains (PAS, Best's carmine) for glycogen -- and the essential-pigment question turns on function, hemoglobin alone being indispensable because it actually carries the respiratory gases while carotene, melanin, carbon and bilirubin are dispensable.
 
 ### Clinical significance
 Excess lipofuscin pigment accumulation is a marker of cell ageing seen across many tissues; excess glycogen or lipid inclusion, by contrast, usually reflects a metabolic or storage disease rather than normal ageing, which is why histochemical stains such as PAS (for glycogen) and the lipid stains (for fat) are used diagnostically to tell these processes apart in a biopsy.
@@ -474,6 +498,9 @@ CON-FND-69671A492023B8
 ## aliases
 Lysosome formation: rER synthesises acid | S phase is when DNA and centrioles dupli | The nucleolus is where ribosomal RNA is  | Janus green selectively stains mitochond | Smooth ER carries cytochrome P450 enzyme | Centrioles organise the mitotic spindle  | The Golgi apparatus has a cis (entry) fa | Cholesterol buffers membrane fluidity, r | The Golgi apparatus modifies and package | The cell membrane is a phospholipid bila | Free ribosomes make protein the cell kee | A secondary lysosome is named by what th | Euchromatin is extended and active and m | Nerve cells are permanent cells that can | The Barr body is one X chromosome switch
 
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
 ## reading_time
 12
 
@@ -486,6 +513,9 @@ Lysosomes form from a two-organelle partnership: rough ER (rER) ribosomes synthe
 
 ### Mechanism
 Several of these facts share the same underlying logic of adaptive, demand-matched organelle activity: sER proliferates with detoxification demand just as a nucleolus enlarges with protein-synthetic demand, and in both cases the structural change (more membrane, a bigger nucleolus) is the visible consequence of a rising functional workload rather than a fixed, unchanging cell feature. The rER-to-Golgi secretory pathway, the free-versus-attached ribosome distinction, and the three named types of secondary lysosome are all instances of the same broader idea -- a cell's organelles form a connected assembly line, and where along that line a given structure sits (synthesis, modification/packaging, or digestion) determines both its named identity and what a stain or micrograph of it will show.
+
+### Key determinants
+What distinguishes these structures is where each sits on the cell's assembly line and whether it is fixed or demand-adaptive: synthesis (rER, free ribosomes, nucleolus) versus modification and packaging (the Golgi's cis-to-trans flow) versus digestion (the three named secondary lysosomes), with sER volume and nucleolar size scaling to functional workload rather than being constant. The cell-cycle facts are separated by phase (S phase specifically for DNA and centriole duplication, and meiosis II lacking one of its own), the chromatin and Barr-body facts by activity state (extended active euchromatin versus condensed inactive heterochromatin), and cells by renewal capacity into labile, stable and permanent -- which is why neurons cannot divide.
 
 ### Clinical significance
 The adaptive proliferation of hepatocyte sER with chronic alcohol or drug exposure is the structural basis of clinically important enzyme induction and drug tolerance; loss of centriole/spindle function halts mitosis outright, which is the mechanism exploited by several classes of anti-cancer drug that target microtubule dynamics.
@@ -565,6 +595,9 @@ CON-FND-7608A98CBA708C
 ## aliases
 Axoneme ultrastructure | Turner and Klinefelter syndromes | Down syndrome trisomy 21 | An isochromosome forms when the centrom
 
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
 ## reading_time
 9
 
@@ -577,6 +610,9 @@ A motile cilium's shaft has a '9+2' axoneme: nine peripheral doublet microtubule
 
 ### Mechanism
 Turner and Klinefelter syndromes are easy to swap because both involve the X chromosome, but one is a missing chromosome (monosomy, 45 total) and the other is an extra chromosome (trisomy, 47 total) in the opposite sex -- the chromosome count itself (45 vs 47) is the fastest way to keep the two apart. Down syndrome shares Klinefelter's total count (47) but not its mechanism: grouping all three syndromes by "which chromosome, and extra or missing" (X missing = Turner; X extra = Klinefelter; autosome 21 extra = Down) is more reliable than grouping by chromosome count alone, since 47 alone does not distinguish Klinefelter from Down. The numerical syndromes (Turner, Klinefelter, Down) and the structural aberrations (isochromosome, translocation, deletion, ring, inversion) are two separate families of chromosomal abnormality -- the first changes how many copies of a whole chromosome are present, the second changes the internal structure of one chromosome without necessarily changing the total count, and a question naming a specific mechanism (such as "transverse centromere division") is always pointing at the structural family.
+
+### Key determinants
+These abnormalities are distinguished on two axes: numerical versus structural, and, within the numerical group, which chromosome is affected and whether it is extra or missing (X missing = Turner, 45 total; X extra = Klinefelter, 47 total; autosome 21 extra = Down, 47 total). Chromosome count alone does not separate Klinefelter from Down, so the reliable discriminator is which chromosome plus the direction of the error; a question naming a specific structural mechanism such as transverse centromere division is instead pointing at the structural family (isochromosome), and the 9+2, 20-microtubule axoneme is a fixed constant rather than a variable to be told apart.
 
 ### Clinical significance
 Klinefelter syndrome's clinical triad -- poor musculature, underdeveloped genitalia and gynecomastia in a phenotypic male -- follows directly from reduced testosterone caused by the extra X chromosome disrupting normal testicular development, and is usually confirmed exactly as tested here, by karyotyping.
@@ -1689,6 +1725,9 @@ CON-MSK-BF3670E27D6F12
 ## aliases
 The median plane divides the body into | In the anatomical position, the radius | The face has no deep fascia | An aponeurosis is a muscle's flattened | The pulmonary veins are the only veins | The right lymphatic duct drains one qu
 
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+
 ## reading_time
 7
 
@@ -1701,6 +1740,9 @@ The median (midsagittal) plane is the single anatomical plane that divides the b
 
 ### Mechanism
 Several of these facts share the same logic of "the named exception among an otherwise uniform group": the face is the one body region without deep fascia among limb and trunk regions that all have it, and the pulmonary veins are the one set of veins carrying oxygenated blood among a circulation where every other vein carries deoxygenated blood -- each exception exists because of what that structure specifically connects to (skin directly, for facial muscles; the lung's own oxygenation, for the pulmonary veins) rather than being an arbitrary anatomical quirk.
+
+### Key determinants
+These facts are held apart by fixed convention and by the "named exception" pattern: each plane is defined by the pair of parts it separates (median = equal right/left halves, coronal = anterior/posterior, transverse = upper/lower), relational terms are assigned in the anatomical position regardless of limb rotation (radius always lateral, ulna always medial), and several items are the single exception within an otherwise uniform group -- the face as the one region without deep fascia, the pulmonary veins as the only veins carrying oxygenated blood. The lymphatic drainage is determined purely by territory: the right lymphatic duct for one quadrant, the thoracic duct for the other three.
 
 ### Clinical significance
 Because facial muscles lack a deep fascial sheath and insert directly into skin, facial lacerations and infections spread differently (more superficially, along fascial planes of the scalp/face) than limb wounds deep to an intact deep fascia. The right-lymphatic-duct/thoracic-duct territory split matters clinically because a malignancy below the diaphragm (for example gastric cancer) can seed a left supraclavicular node (Virchow's node) by ascending the thoracic duct, while a right-sided head/neck or thoracic malignancy drains instead through the much smaller right lymphatic duct.
