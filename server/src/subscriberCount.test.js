@@ -1,6 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { dailyMultiplierPercent, syntheticValueAt, computeSubscriberCount, publicSubscriberCountPayload, nextSubscriberDisplayDoc, DEFAULT_SUBSCRIBER_DISPLAY, SUBSCRIBER_DISPLAY_STATE_KEY } from './subscriberCount.js'
+import { requireSuperAdmin } from './auth.js'
 
 test('the daily multiplier always lands within [minPct, maxPct]', () => {
   for (let day = 0; day < 2000; day++) {
@@ -134,4 +135,22 @@ test('minPct greater than maxPct is refused', () => {
   const current = { ...DEFAULT_SUBSCRIBER_DISPLAY, epoch: 1000 }
   const result = nextSubscriberDisplayDoc(current, { enabled: true, base: 790, minPct: 3, maxPct: 1 }, { realCountNow: 0, now: 1000 })
   assert.equal(result.ok, false)
+})
+
+test('requireSuperAdmin refuses anyone who is not a super admin', () => {
+  let statusCode = null
+  let body = null
+  const res = { status(code) { statusCode = code; return this }, json(payload) { body = payload; return this } }
+  let nextCalled = false
+  requireSuperAdmin({ identity: { role: 'admin', aal: 'aal2' } }, res, () => { nextCalled = true })
+  assert.equal(nextCalled, false)
+  assert.equal(statusCode, 403)
+  assert.deepEqual(body, { error: 'super admin required' })
+})
+
+test('requireSuperAdmin admits a super admin who has satisfied MFA', () => {
+  let nextCalled = false
+  const res = { status() { return this }, json() { return this } }
+  requireSuperAdmin({ identity: { role: 'super_admin', aal: 'aal2', mfaRequired: true } }, res, () => { nextCalled = true })
+  assert.equal(nextCalled, true)
 })
