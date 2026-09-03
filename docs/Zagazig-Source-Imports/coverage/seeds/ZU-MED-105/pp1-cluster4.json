@@ -1,0 +1,1774 @@
+{
+  "lane": "ZU-MED-105",
+  "cluster": "pp1-cluster4",
+  "header": "ZU-MED-105 · Professional Practice I, 47 single-best-answer questions authored from mcq شامل.pdf pages 12-40 (the second dispatch pass over this tier-2 bank, following pp1-cluster3's self-directed-learning pass over pages 2-11), spanning its bioethics-principles (pp.12-23), consent/confidentiality/vulnerability (pp.24-30), leadership/team-dynamics (pp.31-38) and health-determinants (pp.39-40) sections. Keys recovered via the same yellow fill-rectangle highlight and ad hoc PyMuPDF detection method lane 3 validated for this source, render-confirmed again this pass on page 30 (this dispatch's 1 available render; 0 mismatches across all 4 marks on that page, including 2 that print a responsibility/accountability definition reversed from conventional teaching -- render-confirmed as genuinely printed rather than a detection error, but held rather than authored this pass, deferred with the rest of page 30's non-selected items for topical-balance/scope reasons, not doubt in the mark itself). Of the roughly 106 detected question blocks across pages 12-40 (96 single-marked, 8 unmarked, 2 script-merge artefacts each resolved into two clean single-marked sub-items), this pass authors 47, selected for topical balance across all four sections and to avoid this source's own internal near-duplication (the bioethics-principles block is tested near-verbatim twice, pages 12-16 then 16-23) and duplication against lanes 1-3's existing 94 concepts (vertical equity, double effect, and genetic-factors-are-non-modifiable each recur here and are held rather than re-minted, named twin in each case). Two items (vulnerable-populations-except and modifiable-determinants-except) print 5 options in the source; kept at 5 rather than trimmed, since every option is a genuine, distinct list member and the module's >5-trimmed rule does not require reducing a clean 5-option set. See coverage/ZU-MED-105-triage.md and coverage/ZU-MED-105-triage-keys.txt for the full method and the per-question map, and coverage/ZU-MED-105-LEDGER.md for this pass's held/deferred item list.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "zu"
+    ],
+    "years": [
+      "ZU_Y1"
+    ],
+    "module": "ZU-MED-105",
+    "subject": "pop",
+    "exam_weight_by_year": {
+      "ZU_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [],
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true,
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "question_type": "Recall",
+    "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.{page}"
+  },
+  "questions": [
+    {
+      "key": "pp1shamel2-q01-bioethics-definition",
+      "page": 12,
+      "title": "Definition of bioethics",
+      "question": "Bioethics: is",
+      "options": {
+        "A": "the research of ethical, social, and legal issues.",
+        "B": "the study of ethical, social, and legal issues that arise in biomedicine and biomedical research.",
+        "C": "the study of ethical, social, and legal issues that arise in life.",
+        "D": "the study of science issues that arise in biomedicine and biomedical research."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. \"Research\" names an activity bioethics may draw on, not the definition of the field itself, and it drops the biomedicine-specific scope the source marks as essential.",
+        "B": "Correct. Bioethics is defined here as the study of ethical, social and legal issues that specifically arise in biomedicine and biomedical research. This scopes the field to medicine and medical research rather than to life or society in general, which is exactly the distinction the source draws against the other options. It is this biomedicine-specific framing that makes this option, and not the broader or narrower alternatives, the one the source marks correct.",
+        "C": "Incorrect. \"Issues that arise in life\" broadens the definition beyond biomedicine and biomedical research, which is the scope the source specifically names.",
+        "D": "Incorrect. This option drops \"ethical\" and \"social\" from the scope, narrowing bioethics to only science issues, which does not match the source's three-part definition."
+      },
+      "main_concept": "CON-POP-CD3A0E6B217F14",
+      "concept_ids": [
+        "CON-POP-CD3A0E6B217F14"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that bioethics is the study of ethical, social, and legal issues that arise in biomedicine and biomedical research.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.12",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.12",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q02-bioethical-concepts",
+      "page": 12,
+      "title": "Bioethical concepts",
+      "question": "Bioethical concepts are",
+      "options": {
+        "A": "Autonomy and decision making.",
+        "B": "Persons without the capacity to consent.",
+        "C": "Non-discrimination and non-stigmatization.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Autonomy and decision-making is one genuine bioethical concept this source lists, but it is only one of several the source groups together as the correct answer.",
+        "B": "Incorrect. Persons without the capacity to consent is a genuine bioethics topic this source lists, but on its own it omits the other listed concepts.",
+        "C": "Incorrect. Non-discrimination and non-stigmatization is a genuine bioethical concept this source lists, but on its own it omits the other listed concepts.",
+        "D": "Correct. This source treats autonomy and decision-making, persons without the capacity to consent, non-discrimination and non-stigmatization, and respect for human vulnerability and integrity together as its own umbrella list of core bioethical concepts. None of the individual items alone captures the full list the source marks as correct, so the comprehensive option is the one keyed. This all-of-the-above framing recurs throughout this source whenever it introduces a multi-item list rather than a single fact."
+      },
+      "main_concept": "CON-POP-E9B4C6D3A05F82",
+      "concept_ids": [
+        "CON-POP-E9B4C6D3A05F82"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that bioethical concepts include autonomy and decision making, capacity to consent, non-discrimination and non-stigmatization, and respect for human vulnerability and integrity, together.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.12",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.12",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q03-medical-ethics-branch-of-bioethics",
+      "page": 12,
+      "title": "Medical ethics as a branch of bioethics",
+      "question": "A branch of bioethics, are simply some key ethical principles that professionals can refer to in the case of any confusion or conflict regarding medical practice. Refer to",
+      "options": {
+        "A": "Medical ethics",
+        "B": "Medicine",
+        "C": "Science",
+        "D": "Love"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This source names medical ethics as the branch of bioethics that supplies the key ethical principles professionals refer to when medical practice raises confusion or conflict. Medical ethics narrows bioethics' broader ethical, social and legal scope down to the specific principles that guide day-to-day clinical decisions. It is this practical, principle-supplying role that distinguishes medical ethics from bioethics as a whole and from the other options offered.",
+        "B": "Incorrect. Medicine is the clinical practice itself, not the branch of bioethics that supplies its guiding ethical principles.",
+        "C": "Incorrect. Science is a broader category than the specific branch of bioethics the stem describes, and it carries no inherent ethical-principle content.",
+        "D": "Incorrect. Love is not a defined branch of bioethics or a source of the professional principles the stem describes."
+      },
+      "main_concept": "CON-POP-8A17D0FE9C2B36",
+      "concept_ids": [
+        "CON-POP-8A17D0FE9C2B36"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that medical ethics is the branch of bioethics that supplies key principles for resolving confusion or conflict in medical practice.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.12",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.12",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q04-four-principles-of-medical-ethics",
+      "page": 13,
+      "title": "The four principles of medical ethics",
+      "question": "Principles of medical ethics:",
+      "options": {
+        "A": "Autonomy, beneficence, non-maleficence, and justice, together.",
+        "B": "Autonomy alone.",
+        "C": "Beneficence alone.",
+        "D": "None of the above."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This source lists autonomy, beneficence, non-maleficence and justice together as the principles of medical ethics, matching the classical four-principle framework used throughout medical-ethics teaching. Each principle covers a distinct dimension of ethical practice: respecting patient self-determination, acting for the patient's benefit, avoiding harm, and distributing resources fairly. Because the source lists all four together rather than naming any single one as \"the\" principle, the comprehensive option is the one it keys as correct.",
+        "B": "Incorrect. Autonomy is one of the four principles, but it alone omits beneficence, non-maleficence and justice, which the source lists together.",
+        "C": "Incorrect. Beneficence is one of the four principles, but it alone omits autonomy, non-maleficence and justice, which the source lists together.",
+        "D": "Incorrect. The source does name genuine principles of medical ethics, so \"none of the above\" contradicts the source's own listed content."
+      },
+      "main_concept": "CON-POP-3F94A1C87D0E52",
+      "concept_ids": [
+        "CON-POP-3F94A1C87D0E52"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that the principles of medical ethics are autonomy, beneficence, non-maleficence, and justice.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.13",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.13",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q05-autonomy-self-determination",
+      "page": 13,
+      "title": "Autonomy as self-determination",
+      "question": "Individual capacity for self-determination, independent decisions, actions, and evaluations. Refer to",
+      "options": {
+        "A": "Autonomy",
+        "B": "Beneficence",
+        "C": "Non-maleficence",
+        "D": "Justice"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Autonomy is defined here as the individual's capacity for self-determination: making independent decisions, taking independent actions, and forming independent evaluations. This capacity-based definition is distinct from beneficence (acting for another's benefit), non-maleficence (avoiding harm), and justice (fair distribution), each of which describes an obligation toward others rather than a capacity of the individual. It is this self-directed capacity that the stem is naming, which is why autonomy, and not one of the other three principles, is the answer.",
+        "B": "Incorrect. Beneficence concerns acting in another person's best interest, not the individual's own capacity for self-determination.",
+        "C": "Incorrect. Non-maleficence concerns avoiding harm to others, not the individual's own capacity for independent decision-making.",
+        "D": "Incorrect. Justice concerns the fair distribution of resources, not an individual's capacity for self-determination."
+      },
+      "main_concept": "CON-POP-B60D5A9F218C74",
+      "concept_ids": [
+        "CON-POP-B60D5A9F218C74"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that autonomy is the individual capacity for self-determination, independent decisions, actions, and evaluations.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.13",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.13",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q06-decision-making-final-word-patient",
+      "page": 14,
+      "title": "Final word in medical decision making",
+      "question": "Medical decision making It should be a rational process based on a consideration of the facts, but in the end, the final word is with",
+      "options": {
+        "A": "the doctor.",
+        "B": "the nurse.",
+        "C": "the patient.",
+        "D": "the family."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. This source marks the patient, not the doctor, as holding the final word once the facts have been rationally considered, reflecting the principle of patient autonomy.",
+        "B": "Incorrect. The nurse contributes to a patient's care but is not the party this source marks as holding the final decision-making word.",
+        "C": "Correct. Even though medical decision-making should be a rational process grounded in a consideration of the facts, this source marks the patient as the one who holds the final word. This reflects the principle of patient autonomy: the physician and care team supply expertise and facts, but the patient's own decision governs what ultimately happens to them. This is consistent with the broader theme, tested elsewhere in this same source, that patients have a right to refuse treatment even when providers disagree.",
+        "D": "Incorrect. The family may be involved in some circumstances, but this source marks the patient, not the family, as holding the final word."
+      },
+      "main_concept": "CON-POP-1C7E4B8D9A03F6",
+      "concept_ids": [
+        "CON-POP-1C7E4B8D9A03F6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that in medical decision making, the final word rests with the patient.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.14",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.14",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q07-equality-definition",
+      "page": 15,
+      "title": "Definition of equality",
+      "question": "Is state of being equal: having the same rights and social status and aims to ensure that everyone gets the same things to enjoy full, healthy lives. Refer to",
+      "options": {
+        "A": "Autonomy",
+        "B": "Equity",
+        "C": "Equality",
+        "D": "Justice"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Autonomy concerns individual self-determination, not a state of having the same rights and social status as others.",
+        "B": "Incorrect. Equity, tested separately in this same source, means identifying and giving people what they specifically need, which differs from equality's same-things-for-everyone framing.",
+        "C": "Correct. Equality is defined here as the state of being equal, having the same rights and social status, and aiming to ensure everyone gets the same things to enjoy full, healthy lives. This \"same things for everyone\" framing is what distinguishes equality from equity, which this source instead defines as giving people what they individually need. The stem's emphasis on sameness of treatment, rather than sameness of outcome through differentiated need, is the key marker of equality specifically.",
+        "D": "Incorrect. Justice, tested separately in this source, concerns fairness in the distribution of resources, not a general state of having the same rights and social status."
+      },
+      "main_concept": "CON-POP-5A0E9C3D6B71F8",
+      "concept_ids": [
+        "CON-POP-5A0E9C3D6B71F8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that equality is the state of being equal, having the same rights and social status, so that everyone gets the same things to enjoy full, healthy lives.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.15",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.15",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q08-equity-definition",
+      "page": 15,
+      "title": "Definition of equity",
+      "question": "Trying to identify and give people what they need to enjoy full, healthy lives. Refer to",
+      "options": {
+        "A": "Autonomy",
+        "B": "Equity",
+        "C": "Equality",
+        "D": "Justice"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Autonomy concerns individual self-determination, not identifying and giving people what they need.",
+        "B": "Correct. Equity is defined here as trying to identify and give people what they specifically need in order to enjoy full, healthy lives. This need-based, differentiated approach is what distinguishes equity from equality, which this source instead defines as giving everyone the same things regardless of individual need. This distinction is the same one that later underlies vertical and horizontal equity within this same source: treating unequal needs unequally is precisely this need-based idea in practice.",
+        "C": "Incorrect. Equality, tested separately in this source, means giving everyone the same things and the same rights and social status, which differs from equity's need-based framing.",
+        "D": "Incorrect. Justice, tested separately in this source, concerns fairness in the distribution of resources broadly, not specifically identifying and meeting individual need."
+      },
+      "main_concept": "CON-POP-D82C0A5E1B9F47",
+      "concept_ids": [
+        "CON-POP-D82C0A5E1B9F47"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that equity is trying to identify and give people what they need to enjoy full, healthy lives.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.15",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.15",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q09-horizontal-equity",
+      "page": 16,
+      "title": "Horizontal equity",
+      "question": "The equal treatment of equal needs. Refer to",
+      "options": {
+        "A": "Autonomy",
+        "B": "Vertical equity",
+        "C": "Horizontal equality",
+        "D": "Horizontal equity"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Autonomy concerns individual self-determination, not the equal or unequal treatment of health needs across a population.",
+        "B": "Incorrect. Vertical equity, tested elsewhere in this module, is the unequal treatment of unequal needs, the opposite pairing from the equal-treatment-of-equal-needs the stem describes.",
+        "C": "Incorrect. This option's label mixes \"horizontal\" with \"equality\" rather than \"equity\"; the source prints a distinct option using the term \"equity\" specifically, which is the one it marks correct.",
+        "D": "Correct. Horizontal equity is the equal treatment of equal needs: people with the same health needs receive the same care. This is the direct counterpart to vertical equity, which instead calls for unequal (differentiated) treatment of unequal needs, since different social groups have different health needs. Together, horizontal and vertical equity describe the two complementary applications of the equity principle to healthcare need."
+      },
+      "main_concept": "CON-POP-70E9B4A1D8C523",
+      "concept_ids": [
+        "CON-POP-70E9B4A1D8C523"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that horizontal equity is the equal treatment of equal needs.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.16",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.16",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q10-beneficence-definition",
+      "page": 21,
+      "title": "Definition of beneficence",
+      "question": "Actions that promote the wellbeing of others. In the medical context, this means taking actions that serve the best interests of patients. A practitioner should act in the best interest of the patient. The following refer to",
+      "options": {
+        "A": "Autonomy",
+        "B": "Beneficence",
+        "C": "Competence",
+        "D": "Justice"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Autonomy concerns the patient's own capacity for self-determination, not the practitioner's obligation to promote the patient's wellbeing.",
+        "B": "Correct. Beneficence is defined here as taking actions that promote the wellbeing of others, which in the medical context means the practitioner acting in the best interest of the patient and serving their wellbeing. This obligation to actively promote benefit is what distinguishes beneficence from non-maleficence, which is the narrower obligation to avoid causing harm. Both principles are commonly taught as a balanced pair, since a treatment's benefit (beneficence) must be weighed against its risk of harm (non-maleficence).",
+        "C": "Incorrect. Competence concerns the intellectual capacity to understand, analyse and judge information, not the obligation to act in a patient's best interest.",
+        "D": "Incorrect. Justice concerns the fair distribution of resources, not the practitioner's obligation to promote an individual patient's wellbeing."
+      },
+      "main_concept": "CON-POP-FA5C2E8D07B369",
+      "concept_ids": [
+        "CON-POP-FA5C2E8D07B369"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that beneficence is taking actions that promote the wellbeing of others, meaning a practitioner should act in the best interest of the patient.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.21",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.21",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q11-nonmaleficence-primum-non-nocere",
+      "page": 21,
+      "title": "Non-maleficence as \"first, do no harm\"",
+      "question": "\"First, do no harm,\" or the Latin, primum non nocere. Many consider that the main or primary consideration should be that: it is more important not to harm your patients than to do them good. Refer to…..",
+      "options": {
+        "A": "Autonomy",
+        "B": "Beneficence",
+        "C": "The concept of non-maleficence",
+        "D": "Justice"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Autonomy concerns the patient's capacity for self-determination, not the obligation to avoid causing harm.",
+        "B": "Incorrect. Beneficence, tested separately in this source, is the obligation to actively promote a patient's wellbeing, the positive counterpart to avoiding harm rather than the avoiding-harm principle itself.",
+        "C": "Correct. This is the classic statement of non-maleficence: primum non nocere, \"first, do no harm,\" the view that avoiding harm to a patient takes priority over doing them good. Non-maleficence is often taught alongside beneficence as a balanced pair, since any treatment's risk of harm must be weighed against its potential benefit, but the two remain distinct obligations. The Latin phrasing this stem quotes is the standard citation used across medical-ethics teaching for exactly this principle.",
+        "D": "Incorrect. Justice concerns the fair distribution of healthcare resources, not the priority of avoiding harm over doing good."
+      },
+      "main_concept": "CON-POP-9B3D6C0F14A852",
+      "concept_ids": [
+        "CON-POP-9B3D6C0F14A852"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that non-maleficence is the principle of \"first, do no harm\" (primum non nocere): avoiding harm takes priority over doing good.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.21",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.21",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q12-no-autonomy-without-responsibility",
+      "page": 20,
+      "title": "Autonomy requires responsibility",
+      "question": "There is no autonomy without responsibility.",
+      "options": {
+        "A": "Autonomy",
+        "B": "Beneficence",
+        "C": "Non-maleficence",
+        "D": "Responsibility"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Autonomy is the subject of the aphorism, not the answer it names; the stem is asserting that autonomy depends on this other, separate principle.",
+        "B": "Incorrect. Beneficence concerns acting for a patient's benefit, unrelated to the aphorism linking autonomy and self-accountability.",
+        "C": "Incorrect. Non-maleficence concerns avoiding harm, unrelated to the aphorism linking autonomy and self-accountability.",
+        "D": "Correct. This source keys \"there is no autonomy without responsibility\" to responsibility itself, the aphorism's point being that the freedom to make independent decisions (autonomy) is inseparable from being answerable for those decisions (responsibility). This mirrors the same source's companion fact that one's awareness of the obligation to decide and act appropriately manifests autonomy. Together these two facts frame autonomy and responsibility as mutually dependent rather than as separate, unrelated principles."
+      },
+      "main_concept": "CON-POP-2E7A9F1D5B0C48",
+      "concept_ids": [
+        "CON-POP-2E7A9F1D5B0C48"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that there is no autonomy without responsibility.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.20",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.20",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q13-medical-consent-assault-exceptions",
+      "page": 23,
+      "title": "Examination without consent as assault",
+      "question": "Any physical examination or even blood test without permission or consent from patient is considered an assault except in some cases.",
+      "options": {
+        "A": "Medical consent",
+        "B": "Beneficence",
+        "C": "Non-maleficence",
+        "D": "Responsibility"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This source keys this statement to medical consent: performing a physical examination or even a blood test without the patient's permission is treated as an assault, with only limited exceptions (such as emergency lifesaving situations, tested elsewhere in this module). This frames consent as the normal legal and ethical precondition for any physical contact in medical care, not an optional courtesy. The \"except in some cases\" clause signals that the exceptions themselves are narrow and specifically defined, not a general licence to proceed without consent.",
+        "B": "Incorrect. Beneficence concerns acting in a patient's best interest, not the legal requirement of consent before physical examination.",
+        "C": "Incorrect. Non-maleficence concerns avoiding harm, not the specific legal requirement of consent before physical contact.",
+        "D": "Incorrect. Responsibility concerns being answerable for one's own decisions and actions, not the specific legal requirement of consent before physical examination."
+      },
+      "main_concept": "CON-POP-C186B0D4A9E735",
+      "concept_ids": [
+        "CON-POP-C186B0D4A9E735"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that medical consent means that a physical examination or blood test performed without permission is considered an assault, except in some defined cases.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.23",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.23",
+      "library_ids": [
+        "ART-POP-ZU105-BIOETHICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q14-consent-invalid-no-medical-indication",
+      "page": 24,
+      "title": "Invalid consent: operation without medical indication",
+      "question": "Given consent is considered invalid in the following",
+      "options": {
+        "A": "The patient should be sane, above the age of 18, conscious.",
+        "B": "The patient should understand the nature, purpose, and possible complications of treatment.",
+        "C": "Operation without medical indication e.g., amputation of a finger to escape military service.",
+        "D": "Really and freely given."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A sane, adult, conscious patient describes a valid precondition for consent, not a circumstance that invalidates it.",
+        "B": "Incorrect. Understanding the nature, purpose and possible complications of treatment describes informed consent, a hallmark of valid, not invalid, consent.",
+        "C": "Correct. Consent is considered invalid when the operation itself has no medical indication, such as amputating a finger to escape military service. Here the patient may otherwise meet every formal requirement for consent, but the underlying request is not a legitimate medical intervention, which is what invalidates it regardless of the patient's wishes. This example illustrates that valid consent requires a genuine medical purpose behind the procedure, not just the patient's formal agreement to it.",
+        "D": "Incorrect. Being really and freely given describes a hallmark of valid consent, not a circumstance that invalidates it."
+      },
+      "main_concept": "CON-POP-4F8B21E7C6A093",
+      "concept_ids": [
+        "CON-POP-4F8B21E7C6A093"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that consent is invalid when it is given for an operation without medical indication, such as amputating a finger to escape military service.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.24",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.24",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q15-privacy-definition",
+      "page": 25,
+      "title": "Definition of privacy",
+      "question": "It is the right of an individual or a group to be free from intrusion from others, and includes the right to determine which information about them should be disclosed to others.",
+      "options": {
+        "A": "Children.",
+        "B": "Privacy.",
+        "C": "Patients with total impairment of intellectual capacity.",
+        "D": "Confidentiality."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. \"Children\" is one of the categories of persons without capacity to consent, tested elsewhere in this source, not a definition of the right described here.",
+        "B": "Correct. Privacy is defined here as the right of an individual or group to be free from intrusion by others, including the right to determine which information about them should be disclosed. This is a broader right than confidentiality, which specifically concerns an attribute of already-shared personal information not being disclosed further without sufficient reason. Privacy is the individual's own right to control intrusion and disclosure in the first place, before information has necessarily been shared.",
+        "C": "Incorrect. \"Patients with total impairment of intellectual capacity\" is one of the categories of persons without capacity to consent, not a definition of the right described here.",
+        "D": "Incorrect. Confidentiality, tested separately in this source, is the narrower attribute of already-disclosed personal information not being shared further, not the individual's general right to be free from intrusion."
+      },
+      "main_concept": "CON-POP-0D5A7E3B18C942",
+      "concept_ids": [
+        "CON-POP-0D5A7E3B18C942"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that privacy is the right of an individual or group to be free from intrusion by others, including the right to determine which information about them should be disclosed.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.25",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.25",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q16-confidentiality-definition",
+      "page": 25,
+      "title": "Definition of confidentiality",
+      "question": "An attribute of personal information requiring that it not be disclosed to others without sufficient reason.",
+      "options": {
+        "A": "Children.",
+        "B": "Privacy.",
+        "C": "Patients with total impairment of intellectual capacity.",
+        "D": "Confidentiality."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. \"Children\" is one of the categories of persons without capacity to consent, unrelated to this definition of an attribute of personal information.",
+        "B": "Incorrect. Privacy, tested separately in this source, is the individual's broader right to be free from intrusion and to control disclosure, distinct from confidentiality's narrower focus on information already shared.",
+        "C": "Incorrect. \"Patients with total impairment of intellectual capacity\" is one of the categories of persons without capacity to consent, unrelated to this definition.",
+        "D": "Correct. Confidentiality is defined here as an attribute of personal information: that it should not be disclosed to others without sufficient reason. This is narrower than privacy, which is the individual's general right to be free from intrusion and to control disclosure in the first place. Confidentiality specifically governs what happens to information once it has been shared with a professional, such as a physician, in the course of care."
+      },
+      "main_concept": "CON-POP-E3B6D0A29F1745",
+      "concept_ids": [
+        "CON-POP-E3B6D0A29F1745"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that confidentiality is an attribute of personal information requiring that it not be disclosed to others without sufficient reason.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.25",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.25",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q17-privacy-confidentiality-reasons",
+      "page": 25,
+      "title": "Reasons for respecting privacy and confidentiality",
+      "question": "Reasons for respecting privacy and confidentiality",
+      "options": {
+        "A": "Individuals ‘own’ their information: it is essential to their personal integrity.",
+        "B": "For many people privacy is an essential aspect of their dignity; invading their privacy against their will is a violation of their dignity.",
+        "C": "Respect for others requires protecting their privacy and the confidentiality of information about them.",
+        "D": "All of the following."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Individuals owning their information as essential to personal integrity is one genuine reason this source lists, but on its own it omits the other reasons listed together.",
+        "B": "Incorrect. Privacy as essential to dignity is one genuine reason this source lists, but on its own it omits the other reasons listed together.",
+        "C": "Incorrect. Respect for others requiring protection of privacy and confidentiality is one genuine reason this source lists, but on its own it omits the other reasons listed together.",
+        "D": "Correct. This source lists all three reasons together as grounds for respecting privacy and confidentiality: individuals own their information as part of their personal integrity, privacy is essential to personal dignity, and respect for others requires protecting both their privacy and the confidentiality of information about them. None of the three reasons alone captures the complete answer the source marks as correct. This all-of-the-above framing recurs whenever this source introduces a multi-part justification rather than a single fact."
+      },
+      "main_concept": "CON-POP-B9C2E5A0D71834",
+      "concept_ids": [
+        "CON-POP-B9C2E5A0D71834"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that reasons for respecting privacy and confidentiality include personal integrity, dignity, and respect for others, together.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.25",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.25",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q18-vulnerable-groups-definition",
+      "page": 26,
+      "title": "Definition of vulnerable groups",
+      "question": "Defined as those at greater risk for poor health status and healthcare access, experience significant disparities in access to and use of healthcare services. They are more likely to develop health problems as a result of exposure to risk.",
+      "options": {
+        "A": "Integrity.",
+        "B": "Vulnerability.",
+        "C": "Vulnerable groups.",
+        "D": "Habits."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Integrity is not the term this source keys to this description of groups facing poor health status and access disparities.",
+        "B": "Incorrect. Vulnerability, tested separately in this source, is the underlying susceptibility to stressors, the trait, rather than the specific groups who experience the resulting health-access disparities described here.",
+        "C": "Correct. Vulnerable groups are defined here as those at greater risk for poor health status and healthcare access, who experience significant disparities in access to and use of healthcare services, and who are more likely to develop health problems from exposure to risk. This is the population-level, group-focused counterpart to vulnerability, which this source defines as the underlying susceptibility itself. Vulnerable groups are the people; vulnerability is the trait that puts them at risk.",
+        "D": "Incorrect. \"Habits\" is not the term this source keys to this description of a population facing health-access disparities."
+      },
+      "main_concept": "CON-POP-6A4F9E1B0D3C87",
+      "concept_ids": [
+        "CON-POP-6A4F9E1B0D3C87"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that vulnerable groups are those at greater risk for poor health status and healthcare access, experiencing significant disparities and more likely to develop health problems from exposure to risk.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.26",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.26",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q19-vulnerability-definition",
+      "page": 26,
+      "title": "Definition of vulnerability",
+      "question": "Is susceptibility to actual or potential stressors that may lead to adverse effects.",
+      "options": {
+        "A": "Integrity.",
+        "B": "Vulnerability.",
+        "C": "Vulnerable groups.",
+        "D": "Habits."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Integrity is not the term this source keys to this definition of susceptibility to stressors.",
+        "B": "Correct. Vulnerability is defined here as susceptibility to actual or potential stressors that may lead to adverse effects. This is the underlying trait or state, distinct from vulnerable groups, which this source defines as the specific populations who experience poor health status and access disparities as a result of that susceptibility. Understanding vulnerability as a susceptibility, rather than as the population itself, is what lets this source separately test the causes of vulnerability (biological, environmental, social) as a distinct fact.",
+        "C": "Incorrect. Vulnerable groups, tested separately in this source, are the specific populations affected by vulnerability, not the susceptibility itself that this stem describes.",
+        "D": "Incorrect. \"Habits\" is not the term this source keys to this definition of susceptibility to stressors."
+      },
+      "main_concept": "CON-POP-D01B7C3A94E256",
+      "concept_ids": [
+        "CON-POP-D01B7C3A94E256"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that vulnerability is susceptibility to actual or potential stressors that may lead to adverse effects.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.26",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.26",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q20-vulnerable-populations-except-dm",
+      "page": 27,
+      "title": "Vulnerable populations (exception)",
+      "question": "Vulnerable populations include except……",
+      "options": {
+        "A": "The chronically ill and disabled.",
+        "B": "The elderly, racial and ethnic minorities.",
+        "C": "The unemployed, uninsured and children of low-income families.",
+        "D": "People with HIV.",
+        "E": "People with diabetes mellitus."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The chronically ill and disabled are a genuine vulnerable population this source lists, so this option is not the exception being asked for.",
+        "B": "Incorrect. The elderly and racial and ethnic minorities are a genuine vulnerable population this source lists, so this option is not the exception being asked for.",
+        "C": "Incorrect. The unemployed, uninsured, and children of low-income families are a genuine vulnerable population this source lists, so this option is not the exception being asked for.",
+        "D": "Incorrect. People with HIV are a genuine vulnerable population this source lists, so this option is not the exception being asked for.",
+        "E": "Correct. This source lists the chronically ill and disabled, the elderly and racial and ethnic minorities, the unemployed and uninsured and children of low-income families, and people with HIV together as its named vulnerable populations, and marks people with diabetes mellitus as the exception not included in this particular list. This is a source-specific list rather than an exhaustive clinical classification, so the exclusion of diabetes mellitus here reflects this source's own enumeration, not a claim that people with diabetes face no health vulnerability in general. Recognising which specific groups a source enumerates, and which it leaves out, is the skill this \"except\" framing is testing."
+      },
+      "main_concept": "CON-POP-7E5C1A9F3B0D62",
+      "concept_ids": [
+        "CON-POP-7E5C1A9F3B0D62"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that this source's list of vulnerable populations (chronically ill/disabled, elderly and minorities, unemployed/uninsured/low-income children, people with HIV) excludes people with diabetes mellitus.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.27",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.27",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q21-vulnerability-causes-except-genetics",
+      "page": 27,
+      "title": "Causes of human vulnerability (exception)",
+      "question": "Causes of human vulnerability: except……",
+      "options": {
+        "A": "Biological: ageing & infectious diseases.",
+        "B": "Environmental: earthquake, hurricanes, pollution and environmental disasters.",
+        "C": "Social: from war and crime, and discrimination.",
+        "D": "Genetics."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Biological causes such as ageing and infectious disease are a genuine category this source lists among the causes of human vulnerability.",
+        "B": "Incorrect. Environmental causes such as earthquakes, hurricanes, pollution and environmental disasters are a genuine category this source lists.",
+        "C": "Incorrect. Social causes such as war, crime and discrimination are a genuine category this source lists.",
+        "D": "Correct. This source organises the causes of human vulnerability into three categories: biological (ageing and infectious disease), environmental (natural and man-made disasters, pollution) and social (war, crime, discrimination), and marks genetics as the exception not included in this taxonomy. This is a notable distinction from health-determinants teaching elsewhere in this module, where genetic factors are specifically classified as an unmodifiable biological determinant; here the source is instead organising vulnerability by a different, three-category framework that does not name genetics on its own. Recognising that a source can classify the same underlying idea differently depending on which framework it is applying is the point being tested."
+      },
+      "main_concept": "CON-POP-A3F0D68215BC79",
+      "concept_ids": [
+        "CON-POP-A3F0D68215BC79"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that this source's three-category taxonomy of causes of human vulnerability (biological, environmental, social) excludes genetics as a named category.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.27",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.27",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q22-cultural-diversity-definition",
+      "page": 27,
+      "title": "Definition of cultural diversity",
+      "question": "Refers to the existence of more than one culture in a society or country. In other words, it means the existence of more than one race, languages, traditions, religions, etc.",
+      "options": {
+        "A": "Integrity.",
+        "B": "Vulnerable groups.",
+        "C": "Cultural diversity.",
+        "D": "Pluralism."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Integrity is not the term this source keys to this description of more than one culture, race, language, tradition or religion coexisting.",
+        "B": "Incorrect. Vulnerable groups, tested separately in this source, describes populations at greater health risk, unrelated to the coexistence of multiple cultures.",
+        "C": "Correct. Cultural diversity is defined here as the existence of more than one culture in a society or country, meaning more than one race, language, tradition and religion coexisting. This is distinguished from pluralism, which this source defines instead as the affirmation and acceptance of that diversity, an active value or stance rather than the fact of diversity's existence. Cultural diversity describes what exists; pluralism describes how it is regarded and responded to.",
+        "D": "Incorrect. Pluralism, tested separately in this source, is the affirmation and acceptance of diversity, not the existence of multiple cultures itself, which this stem describes."
+      },
+      "main_concept": "CON-POP-1B9E4A2D0F7C63",
+      "concept_ids": [
+        "CON-POP-1B9E4A2D0F7C63"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that cultural diversity refers to the existence of more than one culture, race, language, tradition, or religion in a society or country.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.27",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.27",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q23-pluralism-definition",
+      "page": 28,
+      "title": "Definition of pluralism (equal-citizenship framing)",
+      "question": "Refers to the treatment of people as equal citizens irrespective of any difference. The difference can be cultural, ethnic, or religious.",
+      "options": {
+        "A": "Integrity.",
+        "B": "Vulnerable groups.",
+        "C": "Cultural diversity.",
+        "D": "Pluralism."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Integrity is not the term this source keys to this description of treating people as equal citizens irrespective of difference.",
+        "B": "Incorrect. Vulnerable groups describes populations at greater health risk, unrelated to the equal-citizenship treatment this stem describes.",
+        "C": "Incorrect. Cultural diversity, tested separately in this source, is the existence of more than one culture, race, language or religion, not the practice of treating people as equal citizens despite that diversity.",
+        "D": "Correct. Pluralism is defined here as the treatment of people as equal citizens irrespective of any difference, whether cultural, ethnic, or religious. This is one of two related pluralism facts this source tests: the equal-citizenship treatment named here, and elsewhere the affirmation and acceptance of diversity across politics, science, medicine, religion and philosophy. Both facets describe pluralism as an active value or practice, in contrast to cultural diversity, which names the underlying fact of difference itself."
+      },
+      "main_concept": "CON-POP-8C7A5D1E9B0342",
+      "concept_ids": [
+        "CON-POP-8C7A5D1E9B0342"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Moderate",
+      "learning_objective": "State that pluralism refers to the treatment of people as equal citizens irrespective of any cultural, ethnic, or religious difference.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.28",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.28",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q24-non-discrimination-definition",
+      "page": 28,
+      "title": "Definition of non-discrimination",
+      "question": "The concept that requires equal treatment of an individual or group irrespective of their characteristics.",
+      "options": {
+        "A": "Stigmatization.",
+        "B": "Discrimination.",
+        "C": "Non-discrimination.",
+        "D": "Pluralism."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Stigmatization, tested separately in this source, is a distinguishing mark or characteristic attached to a person or group, not the requirement of equal treatment this stem describes.",
+        "B": "Incorrect. Discrimination is the opposite of the concept this stem describes, unequal rather than equal treatment based on characteristics.",
+        "C": "Correct. Non-discrimination is defined here as the concept that requires equal treatment of an individual or group irrespective of their characteristics. This is the direct opposite of discrimination, unequal treatment based on characteristics, and it is closely related to but distinct from pluralism, which this source frames instead as equal citizenship treatment specifically across cultural, ethnic or religious difference. Non-discrimination is the broader principle of equal treatment regardless of any characteristic, not only cultural or ethnic ones.",
+        "D": "Incorrect. Pluralism, tested separately in this source, specifically concerns equal citizenship treatment across cultural, ethnic or religious difference, a narrower framing than the general equal-treatment principle this stem describes."
+      },
+      "main_concept": "CON-POP-F60A3D1B9C2E75",
+      "concept_ids": [
+        "CON-POP-F60A3D1B9C2E75"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that non-discrimination is the concept that requires equal treatment of an individual or group irrespective of their characteristics.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.28",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.28",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q25-stigmatization-definition",
+      "page": 28,
+      "title": "Definition of stigmatization",
+      "question": "Distinguishing mark or characteristic.",
+      "options": {
+        "A": "Stigmatization.",
+        "B": "Discrimination.",
+        "C": "Non-discrimination.",
+        "D": "Pluralism."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Stigmatization is defined here, in its most basic sense, as a distinguishing mark or characteristic attached to a person or group. This is the root of the term: stigmatization arises when such a distinguishing mark becomes a basis for negative treatment or exclusion, and this source separately tests that stigmatization is a social rather than a legal concept. Understanding this basic mark-or-characteristic sense is the foundation for the broader idea of stigma as a social process.",
+        "B": "Incorrect. Discrimination is unequal treatment based on a characteristic, a further consequence that can follow from stigmatization rather than the basic definition of a distinguishing mark itself.",
+        "C": "Incorrect. Non-discrimination, tested separately in this source, is the principle requiring equal treatment irrespective of characteristics, not the basic definition of a distinguishing mark.",
+        "D": "Incorrect. Pluralism, tested separately in this source, concerns equal citizenship treatment or the acceptance of diversity, not the basic definition of a distinguishing mark or characteristic."
+      },
+      "main_concept": "CON-POP-5D9F2A6C1E7B03",
+      "concept_ids": [
+        "CON-POP-5D9F2A6C1E7B03"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that stigmatization, in its basic sense, is a distinguishing mark or characteristic.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.28",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.28",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q26-responsibility-definition-charge-trust-duty",
+      "page": 29,
+      "title": "Definition of responsibility",
+      "question": "A charge, trust or duty for which one is responsible",
+      "options": {
+        "A": "Responsibility.",
+        "B": "Accountability.",
+        "C": "Teacher satisfaction.",
+        "D": "Attendance rates."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Responsibility is defined here, in its basic dictionary sense, as a charge, trust or duty for which one is responsible. This general definition sits alongside this source's companion definition of accountability as the obligation of being answerable for one's own judgments and actions to an appropriate authority. Together the two terms frame responsibility as the duty itself and accountability as the answerability attached to carrying it out, though this source elsewhere applies the two terms in a source-specific way that is flagged separately.",
+        "B": "Incorrect. Accountability, tested separately in this source, is the obligation of being answerable to an appropriate authority, a related but distinct sense from the basic charge-or-duty definition this stem describes.",
+        "C": "Incorrect. \"Teacher satisfaction\" is an unrelated performance-indicator term from a different question in this same source, not a definition of a charge, trust or duty.",
+        "D": "Incorrect. \"Attendance rates\" is an unrelated performance-indicator term from a different question in this same source, not a definition of a charge, trust or duty."
+      },
+      "main_concept": "CON-POP-2A8C4F0D96B715",
+      "concept_ids": [
+        "CON-POP-2A8C4F0D96B715"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that responsibility is, in its basic sense, a charge, trust or duty for which one is responsible.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.29",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.29",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q27-accountability-definition-answerable-to-authority",
+      "page": 30,
+      "title": "Definition of accountability",
+      "question": "The obligation of being answerable for one’s own judgments and actions to an appropriate person or authority recognized as having the right to demand information and explanation,",
+      "options": {
+        "A": "Responsibility.",
+        "B": "Accountability.",
+        "C": "Teacher satisfaction.",
+        "D": "Attendance rates."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Responsibility, in this source's own basic definition, is a charge, trust or duty, which differs from the specific answerable-to-an-authority sense this stem describes.",
+        "B": "Correct. Accountability is defined here as the obligation of being answerable for one's own judgments and actions to an appropriate person or authority who has the recognised right to demand information and explanation. This is the conventional sense of accountability used throughout professionalism teaching: being answerable to an external authority. Note that this same source goes on to apply \"responsibility\" and \"accountability\" in a source-specific, non-conventional way to the two companion statements about decisions made by oneself versus decisions requested by another, which is flagged separately as an uncertainty.",
+        "C": "Incorrect. \"Teacher satisfaction\" is an unrelated performance-indicator term from a different question in this same source, not a definition of answerability to authority.",
+        "D": "Incorrect. \"Attendance rates\" is an unrelated performance-indicator term from a different question in this same source, not a definition of answerability to authority."
+      },
+      "main_concept": "CON-POP-9E3B7C1A5D0F42",
+      "concept_ids": [
+        "CON-POP-9E3B7C1A5D0F42"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Ethics, law and professionalism",
+      "subtopic": "Ethical practice",
+      "difficulty": "Easy",
+      "learning_objective": "State that accountability is the obligation of being answerable for one’s own judgments and actions to an appropriate person or authority.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Ethical practice",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.30",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.30",
+      "library_ids": [
+        "ART-POP-ZU105-CONSENT-CONFIDENTIALITY-VULNERABILITY"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q28-leadership-styles-list",
+      "page": 31,
+      "title": "Leadership styles (list)",
+      "question": "Leadership styles include",
+      "options": {
+        "A": "Laissez-Faire leadership alone.",
+        "B": "Servant leadership alone.",
+        "C": "Transactional leadership alone.",
+        "D": "Laissez-Faire, Servant, Transactional, and Transformational leadership, together."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Laissez-Faire leadership is one genuine style this source lists, but alone it omits the other styles the source groups together as the correct answer.",
+        "B": "Incorrect. Servant leadership is one genuine style this source lists, but alone it omits the other styles the source groups together.",
+        "C": "Incorrect. Transactional leadership is one genuine style this source lists, but alone it omits the other styles the source groups together.",
+        "D": "Correct. This source lists Laissez-Faire, Servant, Transactional and Transformational leadership together as its named leadership styles. This module's other leadership-related items each test one of these named styles individually, such as autocratic leadership being the authoritarian style and charismatic leadership being defined by a strong sense of purpose that inspires a common goal, both introduced as further specific styles in this same source. Recognising the full list, rather than any single style alone, is what this particular item tests."
+      },
+      "main_concept": "CON-POP-0C6A1F5D9E2B87",
+      "concept_ids": [
+        "CON-POP-0C6A1F5D9E2B87"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State that leadership styles include Laissez-Faire, Servant, Transactional, and Transformational leadership, together.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.31",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.31",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q29-autocratic-leadership-authoritarian",
+      "page": 31,
+      "title": "Autocratic leadership as the authoritarian style",
+      "question": "This style is also known as the \"authoritarian style of leadership\"",
+      "options": {
+        "A": "Laissez-Faire leadership.",
+        "B": "Servant leadership.",
+        "C": "Transactional leadership.",
+        "D": "Autocratic leadership."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Laissez-Faire leadership is a hands-off style, the near-opposite of the authoritarian control this stem describes.",
+        "B": "Incorrect. Servant leadership prioritises serving the team's needs, not the top-down control the authoritarian style describes.",
+        "C": "Incorrect. Transactional leadership is based on structured exchanges and rewards, not specifically defined by the authoritarian label this stem asks for.",
+        "D": "Correct. Autocratic leadership is the style this source identifies as also known as the \"authoritarian style of leadership.\" Introduced alongside the four core leadership styles (Laissez-Faire, Servant, Transactional, Transformational) as a further named style, autocratic leadership is characterised by centralised, top-down control and decision-making by the leader alone. It is one of two additional named styles this source introduces this way, the other being charismatic leadership, defined by inspiring a team toward a common goal."
+      },
+      "main_concept": "CON-POP-B4D9E7A0F1C563",
+      "concept_ids": [
+        "CON-POP-B4D9E7A0F1C563"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State that autocratic leadership is also known as the \"authoritarian style of leadership\".",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.31",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.31",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q30-charismatic-leadership",
+      "page": 31,
+      "title": "Charismatic leadership",
+      "question": "They have a strong sense of purpose and can inspire their team members to work towards a common goal.",
+      "options": {
+        "A": "Laissez-Faire leadership.",
+        "B": "Servant leadership.",
+        "C": "Transactional leadership.",
+        "D": "Charismatic leadership."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Laissez-Faire leadership is a hands-off style that does not centre on the leader's strong sense of purpose or inspiring a common goal.",
+        "B": "Incorrect. Servant leadership centres on serving the team's needs, a different emphasis from the strong sense of purpose and inspiration this stem describes.",
+        "C": "Incorrect. Transactional leadership is based on structured exchanges and rewards, not specifically defined by a strong sense of purpose that inspires a common goal.",
+        "D": "Correct. Charismatic leadership is the style this source defines by a strong sense of purpose and the ability to inspire team members to work towards a common goal. Introduced alongside autocratic leadership as a further named style beyond the core four, charismatic leadership emphasises the leader's personal ability to motivate and unite a team around a shared vision. This personal, purpose-driven inspiration is what distinguishes it from the more procedural styles such as transactional leadership."
+      },
+      "main_concept": "CON-POP-7A5C9F0D2E4B16",
+      "concept_ids": [
+        "CON-POP-7A5C9F0D2E4B16"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State that charismatic leadership has a strong sense of purpose and can inspire team members to work towards a common goal.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.31",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.31",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q31-communication-definition",
+      "page": 32,
+      "title": "Communication as a leadership skill",
+      "question": "Clearly explain everything from expectations to goals and task",
+      "options": {
+        "A": "Communication.",
+        "B": "Negotiation.",
+        "C": "Conflict resolution.",
+        "D": "Adaptability."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Communication is defined here, among this source's named leadership skills, as clearly explaining everything from expectations to goals and tasks. This is distinguished from negotiation, this source's separate skill of understanding the interests of all parties involved, and from conflict resolution, which addresses disagreement once it arises rather than the clear up-front explanation of expectations. Communication is the foundational skill of transmitting information clearly, which the other listed skills, negotiation, conflict resolution, adaptability, critical thinking and decision-making, build on.",
+        "B": "Incorrect. Negotiation, tested separately in this source, is understanding the interests of all parties involved, not the clear explanation of expectations, goals and tasks this stem describes.",
+        "C": "Incorrect. Conflict resolution addresses disagreement once it has arisen, not the clear up-front explanation of expectations this stem describes.",
+        "D": "Incorrect. Adaptability concerns adjusting to changing circumstances, not the clear explanation of expectations, goals and tasks this stem describes."
+      },
+      "main_concept": "CON-POP-E0F4B9A3D6C817",
+      "concept_ids": [
+        "CON-POP-E0F4B9A3D6C817"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State that communication is clearly explaining everything from expectations to goals and tasks.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.32",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.32",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q32-leadership-skills-list1",
+      "page": 32,
+      "title": "Leadership skills (first list)",
+      "question": "Leadership skills: include",
+      "options": {
+        "A": "Communication alone.",
+        "B": "Negotiation alone.",
+        "C": "Conflict resolution alone.",
+        "D": "Communication, negotiation, conflict resolution, adaptability, critical thinking, and decision-making, together."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Communication is one genuine leadership skill this source lists, but alone it omits the other skills this source groups together as the correct answer.",
+        "B": "Incorrect. Negotiation is one genuine leadership skill this source lists, but alone it omits the other skills this source groups together.",
+        "C": "Incorrect. Conflict resolution is one genuine leadership skill this source lists, but alone it omits the other skills this source groups together.",
+        "D": "Correct. This source lists communication, negotiation, conflict resolution, adaptability, critical thinking and decision-making together as one set of leadership skills. This module separately tests a second, distinct set of leadership skills (problem-solving, relationship building, time management, reliability and trust, creativity, and self-awareness), so this source treats leadership skills as spanning two separate named lists rather than one single list. Recognising which specific list a given question is drawing from is part of what distinguishes this item from its companion \"leadership skills\" item elsewhere in this module."
+      },
+      "main_concept": "CON-POP-C7D1A5E9F0B342",
+      "concept_ids": [
+        "CON-POP-C7D1A5E9F0B342"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State that leadership skills include communication, negotiation, conflict resolution, adaptability, critical thinking, and decision-making, together.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.32",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.32",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q33-reliability-trust-cornerstone",
+      "page": 33,
+      "title": "Reliability and trust as the cornerstone of an organization",
+      "question": "The cornerstone of a successful organization.",
+      "options": {
+        "A": "Problem-solving.",
+        "B": "Relationship building.",
+        "C": "Time management.",
+        "D": "Reliability and trust."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Problem-solving, tested separately in this source, is the ability to foresee issues and develop a remedy plan, not the description of a foundational cornerstone this stem describes.",
+        "B": "Incorrect. Relationship building is a genuine leadership skill this source lists, but it is not the one marked as the cornerstone of a successful organization.",
+        "C": "Incorrect. Time management is a genuine leadership skill this source lists, but it is not the one marked as the cornerstone of a successful organization.",
+        "D": "Correct. Reliability and trust is the skill this source marks as the cornerstone of a successful organization, from this module's second list of leadership skills (alongside problem-solving, relationship building, time management, creativity, strategic approach and self-awareness). Being singled out as the \"cornerstone\" distinguishes reliability and trust from the other skills in this same list, which are presented as a group rather than individually ranked. This framing signals that, of this particular list, reliability and trust is treated as foundational to the others."
+      },
+      "main_concept": "CON-POP-3B0F6E2A9C4D71",
+      "concept_ids": [
+        "CON-POP-3B0F6E2A9C4D71"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Moderate",
+      "learning_objective": "State that reliability and trust is the cornerstone of a successful organization.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.33",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.33",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q34-problem-solving-definition",
+      "page": 33,
+      "title": "Definition of problem-solving",
+      "question": "The ability to foresee issues in the workplace, define the problem, identify their causes, develop a plan to remedy the problem, and learn from the problem to avoid future issues",
+      "options": {
+        "A": "Problem-solving.",
+        "B": "Relationship building.",
+        "C": "Time management.",
+        "D": "Reliability and trust."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Problem-solving is defined here as the ability to foresee workplace issues, define the problem, identify its causes, develop a remedy plan, and learn from the problem to avoid future issues. This multi-step process, from foresight through to learning for the future, is what distinguishes problem-solving from the other listed skills in this same source, such as reliability and trust, which this source separately marks as the cornerstone of a successful organization rather than a problem-remediation process. Problem-solving heads this source's second list of leadership skills, alongside relationship building, time management, reliability and trust, creativity, strategic approach and self-awareness.",
+        "B": "Incorrect. Relationship building is a genuine leadership skill this source lists, but it is not defined by this multi-step foresee-define-remedy-learn process.",
+        "C": "Incorrect. Time management is a genuine leadership skill this source lists, but it is not defined by this multi-step foresee-define-remedy-learn process.",
+        "D": "Incorrect. Reliability and trust, tested separately in this source, is marked as the cornerstone of a successful organization, not defined by this multi-step problem-remediation process."
+      },
+      "main_concept": "CON-POP-D9E3A7F0B15C64",
+      "concept_ids": [
+        "CON-POP-D9E3A7F0B15C64"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Moderate",
+      "learning_objective": "State that problem-solving is the ability to foresee issues, define the problem, identify its causes, develop a remedy plan, and learn from the problem to avoid future issues.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.33",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.33",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q35-team-dynamics-definition",
+      "page": 34,
+      "title": "Definition of team dynamics",
+      "question": "The relationships & interaction between team members that can affect productivity & performance is",
+      "options": {
+        "A": "Team.",
+        "B": "Team dynamics.",
+        "C": "Team-based health care.",
+        "D": "None of the above."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. \"Team\" names the group of people itself, not specifically the relationships and interactions between its members that affect productivity and performance.",
+        "B": "Correct. Team dynamics is defined here as the relationships and interactions between team members that can affect productivity and performance. This module elsewhere applies this same definition to explain why effective teams can improve care at both the organizational and patient level, since it is precisely these relationships and interactions that determine how well a team performs. Team dynamics is the process between members, distinct from the team as a group or from team-based health care as a model of care delivery.",
+        "C": "Incorrect. Team-based health care describes a model of care delivery organised around teams, not specifically the relationships and interactions between members that this stem describes.",
+        "D": "Incorrect. This source does name a specific correct term for this definition, so \"none of the above\" contradicts the source's own keyed content."
+      },
+      "main_concept": "CON-POP-6F1B4D8A2E9C03",
+      "concept_ids": [
+        "CON-POP-6F1B4D8A2E9C03"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State that team dynamics is the relationships and interactions between team members that can affect productivity and performance.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.34",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.34",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q36-contingency-team-definition",
+      "page": 34,
+      "title": "Contingency team",
+      "question": "Team who deal with emergencies & specific events e.g. cardiac-arrest team is",
+      "options": {
+        "A": "Coordinating team.",
+        "B": "Ancillary team.",
+        "C": "Contingency team.",
+        "D": "None of the above."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A coordinating team, tested separately in this source, handles operational management and resource coordination, not specifically emergencies and specific events.",
+        "B": "Incorrect. An ancillary team, tested separately in this source, provides indirect, task-specific services such as domestic and cleaning support, not the direct emergency response this stem describes.",
+        "C": "Correct. A contingency team is the team type this source defines as dealing with emergencies and specific events, giving a cardiac-arrest team as its example. This is one of several named team types in this module's team-work section, alongside the core team (directly caring for patients), the coordinating team (operational management), the ancillary team (indirect task-specific services) and support services (further indirect services such as cleaning and domestic staff). The emergency, event-driven nature of its work is what distinguishes the contingency team from these other roles.",
+        "D": "Incorrect. This source does name a specific correct team type for this definition, so \"none of the above\" contradicts the source's own keyed content."
+      },
+      "main_concept": "CON-POP-A0D5F2B9C7E164",
+      "concept_ids": [
+        "CON-POP-A0D5F2B9C7E164"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State that a contingency team deals with emergencies and specific events, e.g. a cardiac-arrest team.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.34",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.34",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q37-coordinating-team-definition",
+      "page": 34,
+      "title": "Coordinating team",
+      "question": "Team who is responsible for operational management, coordinating functions & resources management of care team is",
+      "options": {
+        "A": "Coordinating team.",
+        "B": "Ancillary team.",
+        "C": "Contingency team.",
+        "D": "None of the above."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A coordinating team is the team type this source defines as responsible for operational management, coordinating functions, and resource management of the care team. This administrative, organizing role distinguishes it from the contingency team's emergency-response role and from the ancillary team's indirect, task-specific service role. The coordinating team keeps the wider care team's operations and resources running smoothly, rather than delivering direct patient care or emergency response itself.",
+        "B": "Incorrect. An ancillary team, tested separately in this source, provides indirect, task-specific services such as domestic and cleaning support, not operational management and resource coordination.",
+        "C": "Incorrect. A contingency team, tested separately in this source, deals with emergencies and specific events, not general operational management and resource coordination.",
+        "D": "Incorrect. This source does name a specific correct team type for this definition, so \"none of the above\" contradicts the source's own keyed content."
+      },
+      "main_concept": "CON-POP-1E7C3A9B0D5F42",
+      "concept_ids": [
+        "CON-POP-1E7C3A9B0D5F42"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State that a coordinating team is responsible for operational management, coordinating functions, and resource management of the care team.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.34",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.34",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q38-support-services-definition",
+      "page": 34,
+      "title": "Support services",
+      "question": "Team who provide indirect task-specific services in health care facility is",
+      "options": {
+        "A": "Core team.",
+        "B": "Ancillary team.",
+        "C": "Support services.",
+        "D": "Contingency team."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The core team, tested in lane 1 of this module, is formed of members directly involved in caring for patients, the opposite of the indirect service role this stem describes.",
+        "B": "Incorrect. An ancillary team, tested separately in this same source with the specific example of cleaners and domestic staff, provides indirect services too, but this stem's general definition is the one this source keys specifically to \"support services.\"",
+        "C": "Correct. Support services is the term this source defines as the team providing indirect, task-specific services in a health care facility. This sits alongside the ancillary team, this source's own named example of cleaners and domestic staff performing exactly this kind of indirect support, distinguishing both from the core team, which directly cares for patients, and the contingency and coordinating teams, which handle emergencies and operational management respectively.",
+        "D": "Incorrect. A contingency team, tested separately in this source, deals with emergencies and specific events, not general indirect task-specific services."
+      },
+      "main_concept": "CON-POP-5B0A9E3D1C7642",
+      "concept_ids": [
+        "CON-POP-5B0A9E3D1C7642"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State that support services provide indirect, task-specific services in a health care facility.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.34",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.34",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q39-ancillary-team-cleaners",
+      "page": 35,
+      "title": "Ancillary team example: cleaners and domestic staff",
+      "question": "Cleaners & domestic staff are considered",
+      "options": {
+        "A": "Care team.",
+        "B": "Ancillary team.",
+        "C": "Support services.",
+        "D": "Contingency team."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The core (care) team is formed of members directly involved in caring for patients, not the indirect domestic support this stem describes.",
+        "B": "Correct. This source classifies cleaners and domestic staff specifically as the ancillary team. This is the named example the source gives for the ancillary team type, which this module elsewhere defines in general terms as support services providing indirect, task-specific services in a health care facility. Cleaners and domestic staff support the facility's operation without directly delivering patient care, which is exactly the ancillary role.",
+        "C": "Incorrect. \"Support services\" is this source's general term for indirect task-specific services, but the specific option this source keys for cleaners and domestic staff by name is \"ancillary team.\"",
+        "D": "Incorrect. A contingency team deals with emergencies and specific events such as a cardiac arrest, not the routine domestic support cleaners and domestic staff provide."
+      },
+      "main_concept": "CON-POP-C3D6F0A9E2B715",
+      "concept_ids": [
+        "CON-POP-C3D6F0A9E2B715"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Easy",
+      "learning_objective": "State that cleaners and domestic staff are considered the ancillary team.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.35",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.35",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q40-forming-stage-ambiguity",
+      "page": 35,
+      "title": "Forming stage: ambiguity and confusion",
+      "question": "Stage of team dynamic which is characterized by ambiguity & confusion is",
+      "options": {
+        "A": "Storming.",
+        "B": "Forming.",
+        "C": "Performing.",
+        "D": "Norming."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Storming is characterised by conflict and rebellion against assigned tasks once roles are already somewhat clear, not the initial ambiguity and confusion this stem describes.",
+        "B": "Correct. Forming is the stage of team development this source characterises by ambiguity and confusion, as team members are still unclear about their tasks. This is the first stage of the classic team-development sequence, before storming's conflict, norming's open communication and task engagement, and performing's full focus on achieving goals. Recognising forming as the ambiguity-and-confusion stage, rather than storming's conflict, is the specific distinction this item tests.",
+        "C": "Incorrect. Performing is the stage where the team focuses all its attention on achieving goals, the most resolved stage, not the initial ambiguity this stem describes.",
+        "D": "Incorrect. Norming is the stage of open communication where the team starts to confront the task at hand, a later, more resolved stage than the initial ambiguity this stem describes."
+      },
+      "main_concept": "CON-POP-9A0F5E1D3C7B62",
+      "concept_ids": [
+        "CON-POP-9A0F5E1D3C7B62"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Moderate",
+      "learning_objective": "State that forming is the stage of team dynamics characterized by ambiguity and confusion.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.35",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.35",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q41-norming-stage-open-communication",
+      "page": 35,
+      "title": "Norming stage: open communication",
+      "question": "In which stage of team dynamic, team members has open communication & starts to confront the task at hand",
+      "options": {
+        "A": "Storming.",
+        "B": "Forming.",
+        "C": "Performing.",
+        "D": "Norming."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Storming is characterised by conflict and rebellion against assigned tasks, not the open communication and task-confronting this stem describes.",
+        "B": "Incorrect. Forming is characterised by ambiguity and confusion about tasks, the opposite of the open communication this stem describes.",
+        "C": "Incorrect. Performing is the stage where the team focuses all its attention on achieving goals, a further stage beyond the open communication this stem describes.",
+        "D": "Correct. Norming is the stage of team dynamics this source defines by open communication between team members, who start to confront the task at hand as procedures become accepted and communication patterns are established. This follows storming's conflict and precedes performing's full focus on goal achievement, marking the point where the team moves from disagreement toward functional collaboration."
+      },
+      "main_concept": "CON-POP-0E4B7D9A2F1C56",
+      "concept_ids": [
+        "CON-POP-0E4B7D9A2F1C56"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Team dynamics and leadership",
+      "difficulty": "Moderate",
+      "learning_objective": "State that norming is the stage of team dynamics with open communication, where team members start to confront the task at hand.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Team dynamics and leadership",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.35",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.35",
+      "library_ids": [
+        "ART-POP-ZU105-LEADERSHIP-TEAM-DYNAMICS-PP4"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q42-unmodifiable-determinants-except-behavioural",
+      "page": 39,
+      "title": "Unmodifiable determinants (exception)",
+      "question": "Un-modifiable determinants: (Biological factors): except",
+      "options": {
+        "A": "Genetic factors.",
+        "B": "Gender.",
+        "C": "Age & ageing of population.",
+        "D": "Behavioural and socio-cultural factors."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Genetic factors are a genuine unmodifiable biological determinant this source lists, so this option is not the exception being asked for.",
+        "B": "Incorrect. Gender is a genuine unmodifiable biological determinant this source lists, so this option is not the exception being asked for.",
+        "C": "Incorrect. Age and ageing of the population is a genuine unmodifiable biological determinant this source lists, so this option is not the exception being asked for.",
+        "D": "Correct. This source lists genetic factors, gender, and age and ageing of the population together as unmodifiable biological determinants of health, and marks behavioural and socio-cultural factors as the exception, since these are modifiable rather than fixed. This pairs directly with this source's companion list of modifiable determinants, which instead names health services, physical environment, social support networks and political system as modifiable, with gender marked there as its own exception since it does not change. Recognising which determinants a source treats as fixed versus changeable is the point of this \"except\" framing."
+      },
+      "main_concept": "CON-POP-F3C7A1D0E9B542",
+      "concept_ids": [
+        "CON-POP-F3C7A1D0E9B542"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Determinants of health",
+      "difficulty": "Moderate",
+      "learning_objective": "State that genetic factors, gender, and age and ageing of the population are unmodifiable biological determinants of health; behavioural and socio-cultural factors are the exception.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Determinants of health",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.39",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.39",
+      "library_ids": [
+        "ART-POP-ZU105-HEALTH-DETERMINANTS"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q43-modifiable-determinants-except-gender",
+      "page": 39,
+      "title": "Modifiable determinants (exception)",
+      "question": "Modifiable determinants: (Biological factors): except",
+      "options": {
+        "A": "Health services.",
+        "B": "Physical environment.",
+        "C": "Social support networks.",
+        "D": "Political system.",
+        "E": "Gender."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Health services are a genuine modifiable determinant this source lists, so this option is not the exception being asked for.",
+        "B": "Incorrect. Physical environment is a genuine modifiable determinant this source lists, so this option is not the exception being asked for.",
+        "C": "Incorrect. Social support networks are a genuine modifiable determinant this source lists, so this option is not the exception being asked for.",
+        "D": "Incorrect. Political system is a genuine modifiable determinant this source lists, so this option is not the exception being asked for.",
+        "E": "Correct. This source lists health services, physical environment, social support networks and political system together as modifiable determinants of health, and marks gender as the exception, since gender does not change and is instead classified, in this source's companion list, as an unmodifiable biological determinant. This pairing across the two \"except\" items shows the same source consistently applying its own modifiable/unmodifiable framework: gender appears as the excluded fixed factor in the modifiable list, and behavioural/socio-cultural factors appear as the excluded changeable factor in the unmodifiable list."
+      },
+      "main_concept": "CON-POP-B0D9A5E3F1C726",
+      "concept_ids": [
+        "CON-POP-B0D9A5E3F1C726"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Determinants of health",
+      "difficulty": "Moderate",
+      "learning_objective": "State that health services, physical environment, social support networks, and political system are modifiable determinants of health; gender is the exception.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Determinants of health",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.39",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.39",
+      "library_ids": [
+        "ART-POP-ZU105-HEALTH-DETERMINANTS"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q44-socioeconomic-factors-all-above",
+      "page": 39,
+      "title": "Socio-economic factors",
+      "question": "Socio-economic factors: like:",
+      "options": {
+        "A": "Income and social class alone.",
+        "B": "Education alone.",
+        "C": "Occupation alone.",
+        "D": "Income and social class, education, and occupation, all together."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Income and social class is one genuine socio-economic factor this source lists, but alone it omits the other factors the source groups together as the correct answer.",
+        "B": "Incorrect. Education is one genuine socio-economic factor this source lists, but alone it omits the other factors the source groups together.",
+        "C": "Incorrect. Occupation is one genuine socio-economic factor this source lists, but alone it omits the other factors the source groups together.",
+        "D": "Correct. This source lists income and social class, education, and occupation together as its named socio-economic factors affecting health. These sit within the broader modifiable-determinants framework this source tests elsewhere, since socio-economic circumstances can change over a lifetime, unlike the fixed biological factors such as genetics, gender and age. None of the three factors alone captures the complete socio-economic category the source marks as correct."
+      },
+      "main_concept": "CON-POP-D6A0F2E9B7C143",
+      "concept_ids": [
+        "CON-POP-D6A0F2E9B7C143"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Determinants of health",
+      "difficulty": "Easy",
+      "learning_objective": "State that socio-economic factors include income and social class, education, and occupation, together.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Determinants of health",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.39",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.39",
+      "library_ids": [
+        "ART-POP-ZU105-HEALTH-DETERMINANTS"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q45-physical-environment-definition",
+      "page": 39,
+      "title": "Physical environment as a health determinant",
+      "question": "Safe water and clean air, healthy workplaces, safe houses, communities, and roads all contribute to good health.",
+      "options": {
+        "A": "Health services.",
+        "B": "Physical environment.",
+        "C": "Social support networks.",
+        "D": "Political system."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Health services, tested separately in this source, concern access to and use of preventive and treatment services, not the physical surroundings this stem describes.",
+        "B": "Correct. Physical environment is the determinant this source defines through the examples of safe water and clean air, healthy workplaces, safe houses, communities and roads, all of which contribute to good health. This is one of the modifiable determinants of health this source lists, alongside health services, social support networks and political system, distinguished from the unmodifiable biological factors such as genetics, gender and age.",
+        "C": "Incorrect. Social support networks concern relationships and community connection, not the physical surroundings such as water, air, housing and roads this stem describes.",
+        "D": "Incorrect. Political system concerns governance and policy structures, not the physical surroundings such as water, air, housing and roads this stem describes."
+      },
+      "main_concept": "CON-POP-2A9E5D0F1B7C63",
+      "concept_ids": [
+        "CON-POP-2A9E5D0F1B7C63"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Determinants of health",
+      "difficulty": "Easy",
+      "learning_objective": "State that physical environment, e.g. safe water and clean air, healthy workplaces, safe houses, communities, and roads, contributes to good health.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Determinants of health",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.39",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.39",
+      "library_ids": [
+        "ART-POP-ZU105-HEALTH-DETERMINANTS"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q46-health-services-determinant-definition",
+      "page": 40,
+      "title": "Health services as a health determinant",
+      "question": "Access and use of services that prevent and treat diseases influence health",
+      "options": {
+        "A": "Health services.",
+        "B": "Physical environment.",
+        "C": "Social support networks.",
+        "D": "Political system."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Health services is the determinant this source defines as the access to and use of services that prevent and treat disease, which in turn influences health. This is one of the modifiable determinants of health this source lists, alongside physical environment, social support networks and political system, distinguished from the fixed biological factors such as genetics, gender and age tested elsewhere in this module.",
+        "B": "Incorrect. Physical environment, tested separately in this source, concerns surroundings such as safe water, air, housing and roads, not access to and use of preventive and treatment services.",
+        "C": "Incorrect. Social support networks concern relationships and community connection, not access to and use of preventive and treatment services.",
+        "D": "Incorrect. Political system concerns governance and policy structures, not access to and use of preventive and treatment services."
+      },
+      "main_concept": "CON-POP-7C1B9A5D0E3F24",
+      "concept_ids": [
+        "CON-POP-7C1B9A5D0E3F24"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Determinants of health",
+      "difficulty": "Easy",
+      "learning_objective": "State that health services, meaning access to and use of services that prevent and treat diseases, influence health.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Determinants of health",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.40",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.40",
+      "library_ids": [
+        "ART-POP-ZU105-HEALTH-DETERMINANTS"
+      ]
+    },
+    {
+      "key": "pp1shamel2-q47-lifestyle-definition",
+      "page": 40,
+      "title": "Definition of lifestyle",
+      "question": "Lifestyle is composed of cultural, behavioural pattern and lifelong personal habits developed through socialization.",
+      "options": {
+        "A": "Health services.",
+        "B": "Physical environment.",
+        "C": "Social support networks.",
+        "D": "Behavioural and socio-cultural factors."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Health services concern access to and use of preventive and treatment services, not the cultural and behavioural pattern this stem describes.",
+        "B": "Incorrect. Physical environment concerns surroundings such as safe water, air, housing and roads, not the cultural and behavioural pattern this stem describes.",
+        "C": "Incorrect. Social support networks concern relationships and community connection, not the cultural and behavioural pattern this stem describes.",
+        "D": "Correct. Lifestyle is defined here as being composed of cultural, behavioural pattern and lifelong personal habits developed through socialization, and this source keys it to behavioural and socio-cultural factors. This is the same category this source elsewhere marks as the exception to the fixed, unmodifiable biological determinants (genetic factors, gender, age), since lifestyle habits, unlike genetics or age, can change over a lifetime through socialization and personal choice."
+      },
+      "main_concept": "CON-POP-0D3F7A1B9E5C62",
+      "concept_ids": [
+        "CON-POP-0D3F7A1B9E5C62"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Professional skills and self-management",
+      "subtopic": "Determinants of health",
+      "difficulty": "Easy",
+      "learning_objective": "State that lifestyle is composed of cultural, behavioural pattern and lifelong personal habits developed through socialization, classified as a behavioural and socio-cultural factor.",
+      "module_subject": "ZU-MED-105 > Professional Practice I > Determinants of health",
+      "field_notes": {
+        "keySource": "yellow fill-rectangle over the correct option, ad hoc PyMuPDF detection, mcq شامل.pdf p.40",
+        "sourceProvenance": "Fakous campus"
+      },
+      "source_citation": "mcq شامل.pdf (Zagazig University, Fakous campus, Faculty of Medicine, professional-practice MCQ bank), p.40",
+      "library_ids": [
+        "ART-POP-ZU105-HEALTH-DETERMINANTS"
+      ]
+    }
+  ]
+}
