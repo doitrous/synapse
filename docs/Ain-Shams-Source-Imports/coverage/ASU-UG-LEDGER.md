@@ -9,7 +9,7 @@
 | assessment-2-mcq-1-community | 0 | 0 | 4 | 4 |
 | assessment-2-mcq-1-patho | 0 | 0 | 6 | 6 |
 | assessment-2-mcq-1-patho-q19b | 0 | 0 | 1 | 1 |
-| eom-final-ug1-2020 | 0 | 0 | 19 | 19 |
+| eom-final-ug1-2020 | 11 | 8 | 0 | 19 |
 | eom-ug-final1-2024 | 14 | 5 | 0 | 19 |
 | eom-ug-final2-2024 | 0 | 0 | 23 | 23 |
 | eom-ug-final2-collection | 120 | 5 | 0 | 125 |
@@ -22,6 +22,14 @@
 - assessment-1-mcq-patho-q15 — duplicate — Patho Q15 ("a diabetic patient with high WBCS count, casts, costovertebral loin pain? Acute pyelonephritis") re-asks the same casts-plus-costovertebral-tenderness-diagnoses-pyelonephritis fact tested in Patho Q3 ("sexually active female, high wbcs count, casts, costovertebral loin pain? Pyelonephritis"), authored as assessment-1-mcq-patho-q03; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
 - assessment-1-mcq-micro-q05 — duplicate — Micro Q5 ("Vaginal candidiasis? Germ tube test") re-asks the same fact already covered by the germ-tube-test/Candida-albicans concept minted in the eom-ug-final2-collection cluster (Micro block, ASU-UG-eom-ug-final2-collection-concepts.md), a genuine cross-paper duplicate (LANE-CARD-Y2-3 §4 cross-file recycling trap) confirmed via find-existing.mjs "germ tube" and grep of docs/Ain-Shams-Source-Imports/concept/. Held rather than re-minted a twin.
 - assessment-2-mcq-1-patho-q09 — within-file duplicate — Patho item 9 ("21 alpha Hydroxylase defects leads to? hyponatremia") re-asks the same 21-alpha-hydroxylase/salt-wasting fact tested more fully in Bio item 1 ("masculine female genitalia, hyponatremia, hyperkalemia"), authored as assessment-2-mcq-1-bio-q01; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
+- eom-final-ug1-2020-q01 — duplicate — item 1 ("Chronic cystitis" / "Culture negative transurethral resection of BPH catheter fibrosis and lymphocyte predominance") re-asks the same fact already authored as an assessment-2-mcq-1 concept ("Culture-negative chronic cystitis after transurethral resection of the prostate is characterized by catheter-related fibrosis and lymphocyte-predominant inflammation", CON-AND-... in ASU-UG-assessment-2-mcq-1-concepts.md); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed by grep of docs/Ain-Shams-Source-Imports/concept/.
+- eom-final-ug1-2020-q02 — duplicate — item 2 ("Hepatitis" / "Not feature of RCC", source itself flags this "س مكرر" = "repeated question" in Arabic) re-asks the same fact already authored as an assessment-2-mcq-1 concept ("Renal cell carcinoma with clear cell histology does not characteristically present with hepatitis as an associated (paraneoplastic) finding"); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed by grep.
+- eom-final-ug1-2020-q05 — duplicate — item 5 (ABG case: pH 7.04, Cl=120, HCO3=13, Na=141, diarrhea) re-asks the same normal-anion-gap/hyperchloremic metabolic acidosis from diarrhea fact already authored as an assessment-1-mcq concept ("Diarrhea causes hyperchloremic (normal anion gap) metabolic acidosis through gastrointestinal bicarbonate loss", CON-REN-DFF352F789A971); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed by grep.
+- eom-final-ug1-2020-q07 — duplicate — item 7 ("furcocercus cerceria penetration" / "Swimming itch") re-asks the same fact already authored as an eom-ug-final2-collection concept ("'Swimmer's itch' (cercarial dermatitis) is caused by penetration of the skin by furcocercous (fork-tailed) schistosome cercariae"); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed by grep.
+- eom-final-ug1-2020-q08 — duplicate — item 8 ("Control Htn" / "Primary prevention of Renal ds") re-asks the same fact already authored as an assessment-2-mcq-1 concept ("Control of hypertension is a primary method of preventing renal disease", CON-POP-EA2F8AA112B80F); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed by grep.
+- eom-final-ug1-2020-q14 — duplicate — item 14 ("ascending Vasa recta" / "Water reabsorption from medullary interstitium") re-asks the same fact already authored as an assessment-1-mcq concept ("The ascending limb of the vasa recta removes water from the renal medullary interstitium"); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed by grep.
+- eom-final-ug1-2020-q18 — duplicate — item 18 ("glutaminase function? Neutralize acid in kidney") re-asks the same renal ammoniagenesis fact already authored as an eom-ug-final1-2024 concept ("Renal glutaminase drives ammoniagenesis for acid-base balance", CON-REN-066B9B7A95C7E3); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed by grep.
+- eom-final-ug1-2020-q19 — duplicate — item 19 ("Increase ANP secretion" / "Case of patient ttt with IV saline infusions till became overhydrated") re-asks the identical IV-saline-overhydration/ANP vignette already authored as an eom-ug-final1-2024 concept ("Atrial natriuretic peptide mediates compensation for IV-saline-induced hypervolemia", CON-REN-521E987E8B9E8F); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed by grep. Item 20 (21-alpha-hydroxylase case, cut off at EOF) is excluded per coverage/ASU-UG-triage.md ("Items usable 19" of 20 nominal), not counted among this paper's 19.
 - eom-ug-final1-2024-q12 — duplicate — Physio Q3 ("Which of the following conditions is associated with a decrease in urinary titratable acid? Psychic hyperventilation") re-asks the same fact already authored as assessment-1-mcq-q10 ("which condition is associated with a decrease in urinary titratable acid excretion? Psychic hyperventilation"); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed via find-existing.mjs "titratable acid".
 - eom-ug-final1-2024-q14 — duplicate — Physio Q5 ("Which is true in CRF? metabolic acidosis and hyperkalemia") re-asks the same fact already authored as an assessment-1-mcq concept ("Chronic renal failure characteristically produces the combination of metabolic acidosis and hyperkalemia"); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed via find-existing.mjs "chronic renal failure".
 - eom-ug-final1-2024-q17 — duplicate — Patho Q2 ("Case patient in car injury? ATN") re-asks the same crush-injury/myoglobin-induced acute tubular necrosis fact already authored as an assessment-1-mcq concept ("Crush injury classically causes reversible acute tubular necrosis via myoglobin-induced tubular toxicity and obstruction"); collapsed per LANE-CARD-Y2-3 cross-file recycling rule, confirmed via find-existing.mjs "acute tubular necrosis".
@@ -93,25 +101,6 @@
 - assessment-2-mcq-1-patho-q15
 - assessment-2-mcq-1-patho-q19
 - assessment-2-mcq-1-patho-q19b
-- eom-final-ug1-2020-q01
-- eom-final-ug1-2020-q02
-- eom-final-ug1-2020-q03
-- eom-final-ug1-2020-q04
-- eom-final-ug1-2020-q05
-- eom-final-ug1-2020-q06
-- eom-final-ug1-2020-q07
-- eom-final-ug1-2020-q08
-- eom-final-ug1-2020-q09
-- eom-final-ug1-2020-q10
-- eom-final-ug1-2020-q11
-- eom-final-ug1-2020-q12
-- eom-final-ug1-2020-q13
-- eom-final-ug1-2020-q14
-- eom-final-ug1-2020-q15
-- eom-final-ug1-2020-q16
-- eom-final-ug1-2020-q17
-- eom-final-ug1-2020-q18
-- eom-final-ug1-2020-q19
 - eom-ug-final2-2024-q01
 - eom-ug-final2-2024-q02
 - eom-ug-final2-2024-q03
