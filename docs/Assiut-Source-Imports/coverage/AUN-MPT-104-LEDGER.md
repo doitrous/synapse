@@ -49,7 +49,7 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 316 | 19 | 106 | 441 |
+| quizzes-2022 | 363 | 35 | 43 | 441 |
 
 ## Held
 - quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
@@ -70,6 +70,22 @@
 - quizzes-2022-q302 — True/False-formatted question (Quiz 35 Q19, p146: 'Gangrene of the lower limbs is of the dry type due to evaporation of fluid' -- printed answer 'True'). Held as format-incompatible, same reasoning as q298. This dry-gangrene-mechanism fact is not restated by another authored row in this lecture (this lecture's own authored Q14/q297 covers the opposite case, moist gangrene from volvulus), so it is a genuinely new idea, but converting it to a real MCQ would require inventing three wrong mechanisms the source never tested.
 - quizzes-2022-q303 — Match-type question (Quiz 35 Q20, p146: match Moist gangrene / Dry gangrene / Haemorrhage / Fat embolism to intussusception / atheroma / aneurysm / bone fracture respectively). Held as format-incompatible: not translatable to this platform's single-answer 4-5-option MCQ format without inventing wrong pairings the source never tested, the same reasoning as the q046 match-type hold in an earlier cluster. The four underlying facts are scattered examples (intussusception causing moist gangrene, atheroma causing dry gangrene, aneurysm causing haemorrhage, bone fracture causing fat embolism), none of which duplicate this lecture's own authored rows.
 - quizzes-2022-q304 — Match-type question (Quiz 35 Q21, p147: match Thrombus / Haemorrhage / Venous congestion / Edema to infarction / melena / varices / ascites respectively). Held as format-incompatible, same reasoning as q303. The four underlying facts are scattered examples (thrombus causing infarction, haemorrhage presenting as melena, venous congestion causing varices, oedema causing ascites); the ascites/oedema pairing is related to, but not identical to, this lecture's authored Q1/Q8 (q284/q291, hepatic and cardiac oedema and ascites), so this is not a coverage gap for that specific fact, but the other three pairings are genuinely new and equally untranslatable without fabricating a distractor set.
+- quizzes-2022-q342 — True/False-formatted question (Quiz 41 Q7, p171: 'Arteries are rarely invaded by malignant cells as their wall is rich in elastic tissue.' -- printed answer 'True'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong reasons the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q343 — True/False-formatted question (Quiz 41 Q8, p171: 'Spread to the skin or mucous membranes results in a malignant ulcer.' -- printed answer 'True'). Held as format-incompatible, same reasoning as q342. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong outcomes the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q344 — True/False-formatted question (Quiz 41 Q9, p171: 'Carcinomas spread early by blood while sarcomas spread early by lymphatics.' -- printed answer 'False', since the department teaching is the reverse: carcinomas spread early by lymphatics while sarcomas spread early by blood). Held as format-incompatible, same reasoning as q342. The underlying fact is already covered by this same lecture's authored Q2 (q337, carcinoma's early lymphatic spread, riding on the reused Kasr 208-INT sarcoma-vs-carcinoma concept) -- not a coverage gap.
+- quizzes-2022-q374 — True/False-formatted question (Quiz 45 Q11, p183: 'Oncogenes are genes responsible for initiation and progression of cancer.' -- printed answer 'True'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed. The underlying fact is already covered by this same lecture's authored Q5 (q368, oncogenes promoting autonomous cell growth) -- not a coverage gap.
+- quizzes-2022-q375 — True/False-formatted question (Quiz 45 Q12, p184: 'Tumour markers are proteins produced by the tumours and help in the diagnosis of cancer.' -- printed answer 'True'). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong definitions the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q376 — True/False-formatted question (Quiz 45 Q13, p184: 'Histologic examination of the tumour is NOT the most definite method of cancer diagnosis.' -- printed answer 'False', since histologic examination IS the definitive/gold-standard method of cancer diagnosis). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong diagnostic-method claims the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q377 — True/False-formatted question (Quiz 45 Q14, p184: 'breast cancer is one of hormone dependant tumors' -- printed answer 'True'). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong hormone-dependence claims the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q378 — True/False-formatted question (Quiz 45 Q15, p184: 'Anticnacer treatment are implicated in development of other malignanci[es]' -- printed answer 'True', i.e. anticancer treatment can itself be carcinogenic, e.g. secondary leukaemia after chemotherapy). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong claims the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q379 — True/False-formatted question (Quiz 45 Q16, p185: 'Tumour markers are antigens produced by the tumours in blood and help in the diagnosis of cancer.' -- printed answer 'True'). Held as format-incompatible, same reasoning as q374. This restates q375's tumour-marker idea from an 'antigens' rather than 'proteins' framing -- not a coverage gap, but equally untranslatable into a real 4-5-option MCQ without fabricating a distractor set.
+- quizzes-2022-q380 — True/False-formatted question (Quiz 45 Q17, p185: 'Histologic examination of the tumour is NOT the most definite method of cancer diagnosis.' -- printed answer 'False'). Held as format-incompatible, same reasoning as q374. This is a verbatim repeat of q376 within the same quiz -- not a coverage gap.
+- quizzes-2022-q381 — True/False-formatted question (Quiz 45 Q18, p185: 'Precancerous lesions are stage 1 of cancer' -- printed answer 'False', since a precancerous lesion is not itself a staged cancer). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong staging claims the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q382 — True/False-formatted question (Quiz 45 Q19, p185: 'Some benign tumors are considered as precancerous lesions' -- printed answer 'True'). Held as format-incompatible, same reasoning as q374. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong claims the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q395 — True/False-formatted question (Quiz 47 Q6, p191: 'Fibroadenoma is a benign tumor of the breast.' -- printed answer 'True'). Held as format-incompatible: this platform's MCQ contract requires 4-5 lettered options with a per-option explanation, which a bare True/False stem cannot supply without inventing a distractor set the source never printed. This is a genuinely new idea not duplicated elsewhere in this lecture's authored rows, but converting it to a real 4-5-option MCQ would require inventing three additional wrong classifications the source never tested -- not resolvable without fabricating content.
+- quizzes-2022-q396 — Unrecoverable stem (Quiz 47 Q7, p191): the source PDF prints only a row of dashes ('-------------------------------') where the question text should be, with a printed answer of 'False'. No question text survives in the extracted layer to author against -- held as content-unrecoverable, not resolved by inference, since fabricating a stem to match an isolated 'False' key would not reflect the source.
+- quizzes-2022-q397 — True/False-formatted question (Quiz 47 Q8, p191: 'Adenomas are benign tumors of surface epithelium.' -- printed answer 'False', since adenomas arise from glandular, not surface, epithelium). Held as format-incompatible, same reasoning as q395. The underlying fact is already covered by this same lecture's authored Q3/Q4 (q392/q393, adenoma as the benign tumour of glandular origin) -- not a coverage gap.
+- quizzes-2022-q398 — True/False-formatted question (Quiz 47 Q9, p191: 'Duct papilloma is a benign tumor arise from the breast and Pleomorphic adenoma ia a tumor of salivary gland' -- printed answer 'True'). Held as format-incompatible, same reasoning as q395. This combines two distinct facts (duct papilloma/breast, pleomorphic adenoma/salivary gland) in one True/False stem; converting it to a real 4-5-option MCQ would require inventing three additional wrong site pairings the source never tested -- not resolvable without fabricating content.
 - quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
@@ -118,69 +134,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q336
-- quizzes-2022-q337
-- quizzes-2022-q338
-- quizzes-2022-q339
-- quizzes-2022-q340
-- quizzes-2022-q341
-- quizzes-2022-q342
-- quizzes-2022-q343
-- quizzes-2022-q344
-- quizzes-2022-q345
-- quizzes-2022-q346
-- quizzes-2022-q347
-- quizzes-2022-q348
-- quizzes-2022-q349
-- quizzes-2022-q350
-- quizzes-2022-q351
-- quizzes-2022-q352
-- quizzes-2022-q353
-- quizzes-2022-q354
-- quizzes-2022-q355
-- quizzes-2022-q356
-- quizzes-2022-q357
-- quizzes-2022-q358
-- quizzes-2022-q359
-- quizzes-2022-q360
-- quizzes-2022-q361
-- quizzes-2022-q362
-- quizzes-2022-q363
-- quizzes-2022-q364
-- quizzes-2022-q365
-- quizzes-2022-q366
-- quizzes-2022-q367
-- quizzes-2022-q368
-- quizzes-2022-q369
-- quizzes-2022-q370
-- quizzes-2022-q371
-- quizzes-2022-q372
-- quizzes-2022-q373
-- quizzes-2022-q374
-- quizzes-2022-q375
-- quizzes-2022-q376
-- quizzes-2022-q377
-- quizzes-2022-q378
-- quizzes-2022-q379
-- quizzes-2022-q380
-- quizzes-2022-q381
-- quizzes-2022-q382
-- quizzes-2022-q383
-- quizzes-2022-q384
-- quizzes-2022-q385
-- quizzes-2022-q386
-- quizzes-2022-q387
-- quizzes-2022-q388
-- quizzes-2022-q389
-- quizzes-2022-q390
-- quizzes-2022-q391
-- quizzes-2022-q392
-- quizzes-2022-q393
-- quizzes-2022-q394
-- quizzes-2022-q395
-- quizzes-2022-q396
-- quizzes-2022-q397
-- quizzes-2022-q398
 - quizzes-2022-q399
 - quizzes-2022-q400
 - quizzes-2022-q401
