@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import { API_MODE, apiGet, apiPost } from './api'
 
 /**
@@ -125,17 +125,80 @@ export const CHALLENGE_REFUSALS: Record<string, string> = {
   question_gone: 'That question is no longer available.',
 }
 
+export type Updater<T> = T | ((previous: T) => T)
+
+/**
+ * Two small broadcast caches: the "mine" list `useMyChallenges` shows, and one
+ * challenge at a time keyed by id for `useChallenge`.
+ *
+ * `useChallengeActions`'s `respond`/`finish` are called from wherever the
+ * button lives — a different hook instance than the one holding the list or
+ * the single record. Routing both through a cache instead of per-instance
+ * `useState` is what lets those actions apply instantly to whatever is on
+ * screen, and roll back into the same place if the request fails.
+ */
+function createKeyedStore<T>() {
+  const values = new Map<string, T>()
+  const listeners = new Map<string, Set<() => void>>()
+  return {
+    ensure(key: string, initial: T): T {
+      if (!values.has(key)) values.set(key, initial)
+      return values.get(key) as T
+    },
+    set(key: string, value: T): void {
+      values.set(key, value)
+      for (const listener of listeners.get(key) ?? []) listener()
+    },
+    subscribe(key: string, listener: () => void): () => void {
+      let bucket = listeners.get(key)
+      if (!bucket) { bucket = new Set(); listeners.set(key, bucket) }
+      bucket.add(listener)
+      return () => bucket!.delete(listener)
+    },
+  }
+}
+
+const challengeListStore = createKeyedStore<ChallengeSummary[]>()
+/** The single key `useMyChallenges` reads/writes — one list, not one per id. */
+const MINE_KEY = 'mine'
+
+const challengeStore = createKeyedStore<Challenge | null>()
+
+/**
+ * Only undo `challengeId`'s optimistic value if nothing newer — the next
+ * poll, or a second action — has already replaced it. A blind restore here
+ * could clobber fresher data; leaving it alone instead means a stale flag at
+ * worst self-corrects at the next four-second poll.
+ */
+function rollbackChallenge(challengeId: string, optimistic: Challenge | null, before: Challenge | null): void {
+  if (challengeStore.ensure(challengeId, null) === optimistic) challengeStore.set(challengeId, before)
+}
+
+/** Patch one row of the "mine" list by id; returns the row as it was before, or null if not cached. */
+function patchChallengeSummary(challengeId: string, patch: (item: ChallengeSummary) => ChallengeSummary): ChallengeSummary | null {
+  const list = challengeListStore.ensure(MINE_KEY, [])
+  const index = list.findIndex((entry) => entry.id === challengeId)
+  if (index === -1) return null
+  const before = list[index]
+  const next = list.slice()
+  next[index] = patch(before)
+  challengeListStore.set(MINE_KEY, next)
+  return before
+}
+
 export function useMyChallenges() {
-  const [challenges, setChallenges] = useState<ChallengeSummary[]>([])
+  const getSnapshot = useCallback(() => challengeListStore.ensure(MINE_KEY, []), [])
+  const subscribe = useCallback((listener: () => void) => challengeListStore.subscribe(MINE_KEY, listener), [])
+  const challenges = useSyncExternalStore(subscribe, getSnapshot)
   const [loading, setLoading] = useState(API_MODE)
 
   const reload = useCallback(async () => {
     if (!API_MODE) return
     try {
       const result = await apiGet<{ challenges: RawChallengeSummary[] }>('/challenges/mine')
-      setChallenges(result.challenges.map(toSummary))
+      challengeListStore.set(MINE_KEY, result.challenges.map(toSummary))
     } catch {
-      setChallenges([])
+      challengeListStore.set(MINE_KEY, [])
     } finally {
       setLoading(false)
     }
@@ -153,7 +216,14 @@ export function useMyChallenges() {
  * running every four seconds.
  */
 export function useChallenge(challengeId: string | null) {
-  const [challenge, setChallenge] = useState<Challenge | null>(null)
+  const key = challengeId ?? ''
+  const getSnapshot = useCallback(() => challengeStore.ensure(key, null), [key])
+  const subscribe = useCallback((listener: () => void) => challengeStore.subscribe(key, listener), [key])
+  const challenge = useSyncExternalStore(subscribe, getSnapshot)
+  const setChallenge = useCallback((next: Updater<Challenge | null>) => {
+    const current = challengeStore.ensure(key, null)
+    challengeStore.set(key, typeof next === 'function' ? (next as (previous: Challenge | null) => Challenge | null)(current) : next)
+  }, [key])
   const [error, setError] = useState('')
   const statusRef = useRef<ChallengeStatus | null>(null)
 
@@ -162,7 +232,7 @@ export function useChallenge(challengeId: string | null) {
     try {
       const result = await apiGet<{ challenge: RawChallenge }>(`/challenges/${encodeURIComponent(challengeId)}`)
       const mapped = toChallenge(result.challenge)
-      setChallenge(mapped)
+      challengeStore.set(challengeId, mapped)
       statusRef.current = mapped.status
       setError('')
     } catch {
@@ -184,6 +254,11 @@ export function useChallenge(challengeId: string | null) {
 }
 
 export function useChallengeActions() {
+  // create stays request-then-render: it mints the challenge's own id and
+  // freezes its question set server-side, and `not_friends`/`no_questions`
+  // are common enough refusals (not_friends especially — this UI does not
+  // recheck friendship before offering Challenge) that success is not
+  // near-certain here.
   const create = useCallback(
     async (input: { opponentId: string; questionIds: string[]; scopeLabel: string }) => {
       const result = await apiPost<{ ok: boolean; reason?: string; challenge?: RawChallenge }>('/challenges', input)
@@ -193,14 +268,32 @@ export function useChallengeActions() {
   )
   const respond = useCallback(
     async (challengeId: string, accept: boolean) => {
-      const result = await apiPost<{ ok: boolean; reason?: string; challenge?: RawChallenge }>(
-        `/challenges/${encodeURIComponent(challengeId)}/respond`,
-        { accept },
-      )
-      return { ...result, challenge: result.challenge ? toChallenge(result.challenge) : undefined }
+      const targetStatus: ChallengeStatus = accept ? 'running' : 'declined'
+      const before = patchChallengeSummary(challengeId, (item) => ({ ...item, status: targetStatus }))
+      try {
+        const result = await apiPost<{ ok: boolean; reason?: string; challenge?: RawChallenge }>(
+          `/challenges/${encodeURIComponent(challengeId)}/respond`,
+          { accept },
+        )
+        if (result.challenge) {
+          patchChallengeSummary(challengeId, (item) => (item.status === targetStatus ? { ...item, status: result.challenge!.status } : item))
+        } else if (!result.ok && before) {
+          // Same compare-and-restore guard as the room/share stores: only
+          // undo if a second response to this same challenge has not already
+          // moved the status on.
+          patchChallengeSummary(challengeId, (item) => (item.status === targetStatus ? before : item))
+        }
+        return { ...result, challenge: result.challenge ? toChallenge(result.challenge) : undefined }
+      } catch (error) {
+        if (before) patchChallengeSummary(challengeId, (item) => (item.status === targetStatus ? before : item))
+        throw error
+      }
     },
     [],
   )
+  // answer never goes optimistic: the server is the sole grader (see the file
+  // docstring above) — showing a verdict before it answers would be inventing
+  // one, and the opponent sees the same score.
   const answer = useCallback(
     (challengeId: string, input: { questionId: string; chosenIndex: number; seconds: number | null }) =>
       apiPost<{ ok: boolean; reason?: string; correct?: boolean; correctIndex?: number }>(
@@ -211,10 +304,21 @@ export function useChallengeActions() {
   )
   const finish = useCallback(
     async (challengeId: string) => {
-      const result = await apiPost<{ ok: boolean; reason?: string; challenge?: RawChallenge }>(
-        `/challenges/${encodeURIComponent(challengeId)}/finish`,
-      )
-      return { ...result, challenge: result.challenge ? toChallenge(result.challenge) : undefined }
+      const before = challengeStore.ensure(challengeId, null)
+      const optimistic = before ? { ...before, myFinished: true } : null
+      if (optimistic) challengeStore.set(challengeId, optimistic)
+      try {
+        const result = await apiPost<{ ok: boolean; reason?: string; challenge?: RawChallenge }>(
+          `/challenges/${encodeURIComponent(challengeId)}/finish`,
+        )
+        const challenge = result.challenge ? toChallenge(result.challenge) : undefined
+        if (challenge) challengeStore.set(challengeId, challenge)
+        else if (!result.ok) rollbackChallenge(challengeId, optimistic, before)
+        return { ...result, challenge }
+      } catch (error) {
+        rollbackChallenge(challengeId, optimistic, before)
+        throw error
+      }
     },
     [],
   )

@@ -51,22 +51,76 @@ export function useFriends() {
 
   useEffect(() => { void reload() }, [reload])
 
+  // The POST has already decided `ok`/`reason` by the time it resolves — the
+  // reload after it is only picking up a graph a second device might also
+  // have changed, so it no longer holds the caller up. `respond`/`remove`
+  // below skip it more or less entirely: they already know the shape of their
+  // own change and apply it straight to `friends`/`incoming`/`outgoing`.
   const request = useCallback(async (userId: string) => {
     const result = await apiPost<{ ok: boolean; reason?: string }>('/friends/request', { userId })
-    await reload()
+    void reload()
     return result
   }, [reload])
 
   const respond = useCallback(async (userId: string, accept: boolean) => {
-    const result = await apiPost<{ ok: boolean; reason?: string }>('/friends/respond', { userId, accept })
-    await reload()
-    return result
+    // Captured from inside the updater rather than read off `incoming` in
+    // this closure, so `respond`'s identity stays stable across renders (it
+    // is threaded down as a prop) and a concurrent request answered
+    // elsewhere is never read stale.
+    let person: FriendProfile | null = null
+    setIncoming((current) => {
+      const match = current.find((entry) => entry.userId === userId) ?? null
+      person = match
+      return match ? current.filter((entry) => entry.userId !== userId) : current
+    })
+    if (accept && person) {
+      const added = person
+      setFriends((current) => (current.some((entry) => entry.userId === userId) ? current : [...current, added]))
+    }
+    // Undoes only this call's own effect — a second, unrelated request
+    // answered in between must not be put back or clobbered by this restore.
+    const undo = () => {
+      if (person) {
+        const restored = person
+        setIncoming((current) => (current.some((entry) => entry.userId === userId) ? current : [...current, restored]))
+      }
+      if (accept) setFriends((current) => current.filter((entry) => entry.userId !== userId))
+    }
+    try {
+      const result = await apiPost<{ ok: boolean; reason?: string }>('/friends/respond', { userId, accept })
+      if (!result.ok) undo()
+      else void reload()
+      return result
+    } catch (error) {
+      undo()
+      throw error
+    }
   }, [reload])
 
   const remove = useCallback(async (userId: string) => {
-    const result = await apiPost<{ ok: boolean }>('/friends/remove', { userId })
-    await reload()
-    return result
+    let removed: FriendProfile | null = null
+    setFriends((current) => {
+      const match = current.find((entry) => entry.userId === userId) ?? null
+      removed = match
+      return match ? current.filter((entry) => entry.userId !== userId) : current
+    })
+    // ponytail: rollback re-appends rather than restoring the exact original
+    // position; a failed remove is rare, and the next reload fixes ordering.
+    const undo = () => {
+      if (removed) {
+        const restored = removed
+        setFriends((current) => (current.some((entry) => entry.userId === userId) ? current : [...current, restored]))
+      }
+    }
+    try {
+      const result = await apiPost<{ ok: boolean }>('/friends/remove', { userId })
+      if (!result.ok) undo()
+      else void reload()
+      return result
+    } catch (error) {
+      undo()
+      throw error
+    }
   }, [reload])
 
   // Minting needs no reload: nothing about the viewer's own friend graph
@@ -77,7 +131,7 @@ export function useFriends() {
 
   const redeemInvite = useCallback(async (token: string) => {
     const result = await apiPost<{ ok: boolean; reason?: string; userId?: string }>('/friends/invite/redeem', { token })
-    await reload()
+    void reload()
     return result
   }, [reload])
 

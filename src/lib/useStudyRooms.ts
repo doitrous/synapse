@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import { API_MODE, apiGet, apiPost } from './api'
 
 /**
@@ -88,6 +88,51 @@ export function useMyRooms() {
   return { rooms, loading, reload }
 }
 
+export type Updater<T> = T | ((previous: T) => T)
+
+/**
+ * One small broadcast cache, keyed by room id, shared by every mounted
+ * `useRoom(roomId)`.
+ *
+ * `start`/`finish` (on `useStudyRoomActions`) are called from wherever the
+ * "Start"/"Finish" button lives — a different hook instance than the one
+ * holding `room`. Routing the room through this cache instead of per-instance
+ * `useState` is what lets those two actions apply instantly to whatever is on
+ * screen, and roll back into the same place if the request fails.
+ */
+function createKeyedStore<T>() {
+  const values = new Map<string, T>()
+  const listeners = new Map<string, Set<() => void>>()
+  return {
+    ensure(key: string, initial: T): T {
+      if (!values.has(key)) values.set(key, initial)
+      return values.get(key) as T
+    },
+    set(key: string, value: T): void {
+      values.set(key, value)
+      for (const listener of listeners.get(key) ?? []) listener()
+    },
+    subscribe(key: string, listener: () => void): () => void {
+      let bucket = listeners.get(key)
+      if (!bucket) { bucket = new Set(); listeners.set(key, bucket) }
+      bucket.add(listener)
+      return () => bucket!.delete(listener)
+    },
+  }
+}
+
+const roomStore = createKeyedStore<StudyRoom | null>()
+
+/**
+ * Only undo `roomId`'s optimistic value if nothing newer — the next poll, or
+ * a second action — has already replaced it. A blind restore here could
+ * clobber fresher data; leaving it alone instead means a stale flag at worst
+ * self-corrects at the next four-second poll.
+ */
+function rollbackRoom(roomId: string, optimistic: StudyRoom | null, before: StudyRoom | null): void {
+  if (roomStore.ensure(roomId, null) === optimistic) roomStore.set(roomId, before)
+}
+
 /**
  * One room, re-read while it is still open.
  *
@@ -95,7 +140,14 @@ export function useMyRooms() {
  * finished test should not keep a request running every four seconds.
  */
 export function useRoom(roomId: string | null) {
-  const [room, setRoom] = useState<StudyRoom | null>(null)
+  const key = roomId ?? ''
+  const getSnapshot = useCallback(() => roomStore.ensure(key, null), [key])
+  const subscribe = useCallback((listener: () => void) => roomStore.subscribe(key, listener), [key])
+  const room = useSyncExternalStore(subscribe, getSnapshot)
+  const setRoom = useCallback((next: Updater<StudyRoom | null>) => {
+    const current = roomStore.ensure(key, null)
+    roomStore.set(key, typeof next === 'function' ? (next as (previous: StudyRoom | null) => StudyRoom | null)(current) : next)
+  }, [key])
   const [error, setError] = useState('')
   const statusRef = useRef<StudyRoom['status'] | null>(null)
 
@@ -103,7 +155,7 @@ export function useRoom(roomId: string | null) {
     if (!roomId || !API_MODE) return
     try {
       const result = await apiGet<{ room: StudyRoom }>(`/study-rooms/${encodeURIComponent(roomId)}`)
-      setRoom(result.room)
+      roomStore.set(roomId, result.room)
       statusRef.current = result.room.status
       setError('')
     } catch {
@@ -125,6 +177,11 @@ export function useRoom(roomId: string | null) {
 }
 
 export function useStudyRoomActions() {
+  // create/join stay request-then-render: the server mints the room's id and
+  // join code (this file's own point, above — the old page invented a code
+  // with `Math.random()` and registered it nowhere, which is exactly the bug
+  // an optimistic guess here would bring back), and their common refusals
+  // (no_questions, code_collision, not_found) are not rare edge cases.
   const create = useCallback(
     (input: {
       name: string
@@ -140,18 +197,41 @@ export function useStudyRoomActions() {
     (code: string) => apiPost<{ ok: boolean; reason?: string; room?: StudyRoom }>('/study-rooms/join', { code }),
     [],
   )
-  const start = useCallback(
-    (roomId: string) => apiPost<{ ok: boolean; reason?: string; room?: StudyRoom }>(`/study-rooms/${encodeURIComponent(roomId)}/start`),
-    [],
-  )
+  const start = useCallback(async (roomId: string) => {
+    const before = roomStore.ensure(roomId, null)
+    const optimistic = before ? { ...before, status: 'running' as const } : null
+    if (optimistic) roomStore.set(roomId, optimistic)
+    try {
+      const result = await apiPost<{ ok: boolean; reason?: string; room?: StudyRoom }>(`/study-rooms/${encodeURIComponent(roomId)}/start`)
+      if (result.room) roomStore.set(roomId, result.room)
+      else if (!result.ok) rollbackRoom(roomId, optimistic, before)
+      return result
+    } catch (error) {
+      rollbackRoom(roomId, optimistic, before)
+      throw error
+    }
+  }, [])
+  // answer never goes optimistic: the server is the sole grader (see the file
+  // docstring above) — showing a verdict before it answers would be inventing
+  // one, and other members see the same score.
   const answer = useCallback(
     (roomId: string, input: { questionId: string; chosenIndex: number; seconds: number | null }) =>
       apiPost<{ ok: boolean; reason?: string; correct?: boolean; correctIndex?: number }>(`/study-rooms/${encodeURIComponent(roomId)}/answers`, input),
     [],
   )
-  const finish = useCallback(
-    (roomId: string) => apiPost<{ ok: boolean; room?: StudyRoom }>(`/study-rooms/${encodeURIComponent(roomId)}/finish`),
-    [],
-  )
+  const finish = useCallback(async (roomId: string) => {
+    const before = roomStore.ensure(roomId, null)
+    const optimistic = before ? { ...before, myFinished: true } : null
+    if (optimistic) roomStore.set(roomId, optimistic)
+    try {
+      const result = await apiPost<{ ok: boolean; room?: StudyRoom }>(`/study-rooms/${encodeURIComponent(roomId)}/finish`)
+      if (result.room) roomStore.set(roomId, result.room)
+      else if (!result.ok) rollbackRoom(roomId, optimistic, before)
+      return result
+    } catch (error) {
+      rollbackRoom(roomId, optimistic, before)
+      throw error
+    }
+  }, [])
   return { create, join, start, answer, finish }
 }
