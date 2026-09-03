@@ -11,16 +11,37 @@
   blanks the live concept's real label on merge -- conceptFromRow defaults label to
   '' rather than undefined). `## canonical_key` is written too, as the discriminator.
 
-  Unlike the Alexandria precedent, this lane's own brief (2026-09-02) instructs
-  `module_subject` to be RESTATED IN FULL rather than dropped, because Mansoura's
-  overlay should not erase the Kasr/AU placement any more than it should erase the
-  label -- so every row below that had a readable module_subject on its target file
-  restates that value verbatim on its own line, with MANS-HIS-203's own path added
-  as a second line (module_subject is not an append-safe column: parseModuleSubjectPaths
-  replaces wholesale when the row states it at all). Two target rows (the two AU-
-  authored ids, CON-HEM-2D18E46BA15483 and CON-HEM-A4B2A60B89E976) carry no
-  module_subject on their own target file, so nothing existing needs restating and
-  `## module_subject` is written fresh with only MANS-HIS-203's own path.
+  CORRECTED 2026-09-03 (mans-hbg-author3 side repair): the paragraph below described
+  this lane's original 2026-09-02 ruling -- restate module_subject in full on every
+  row with a readable target value -- and that ruling was wrong in a way that only
+  shows up at the gate. `validate-content-batch.mjs`'s `catalogueErrors` requires
+  `module_subject`'s FIRST segment to be a module named in the row's own `## modules`,
+  and an append row's `## modules` is just `+MANS-HIS-203` (the delta, not the base
+  module too) -- so a restated base-first path (e.g. `101 ISK > ...` before the
+  `MANS-HIS-203 > ...` line) always reads as declaring a module the row does not
+  carry. Confirmed by `validate-content-batch.mjs` against this file's own --with
+  chain below: 11 of the 15 rows failed on exactly this check. The fix, matching the
+  later MANS-HBG lane's own precedent (`pending-live/MANS-HBG-histoprev2-overlay-
+  concepts.md`): those 11 offending rows had `## module_subject` dropped entirely,
+  leaving the target's real (base-module) placement untouched -- the row's own
+  reused-concept discovery path lives on the *question* records instead, which
+  already carry their own full `module_subject`. The 4 rows below that never
+  restated a base path (CON-HEM-2D18E46BA15483, CON-HEM-A4B2A60B89E976,
+  CON-HEM-FDAC2D5F64032E, CON-HEM-BC9F1F59205EC7 -- single-line MANS-HIS-203-only
+  `module_subject`, already gate-clean) were left as-is, unbroken and untouched.
+
+  Original paragraph, kept for its per-row provenance notes: this lane's own brief
+  (2026-09-02) had instructed `module_subject` to be RESTATED IN FULL rather than
+  dropped, because Mansoura's overlay should not erase the Kasr/AU placement any
+  more than it should erase the label -- so every row that had a readable
+  module_subject on its target file restated that value verbatim on its own line,
+  with MANS-HIS-203's own path added as a second line (module_subject is not an
+  append-safe column: parseModuleSubjectPaths replaces wholesale when the row
+  states it at all). Two target rows (the two AU-authored ids, CON-HEM-2D18E46BA15483
+  and CON-HEM-A4B2A60B89E976) carried no module_subject on their own target file, so
+  nothing existing needed restating and `## module_subject` was written fresh with
+  only MANS-HIS-203's own path -- those two rows were gate-clean from the start and
+  are unaffected by the 2026-09-03 fix above.
 
   `## universities`, `## modules` and `## learner_years` are genuine append-safe
   list columns (optionalList/importList): `+mans`, `+MANS-HIS-203`, `+1` add without
@@ -85,10 +106,6 @@ The site of erythropoiesis shifts with age - liver and spleen in the fetus, all 
 ## modules
 +MANS-HIS-203
 
-## module_subject
-102 INT > Physiology > Blood > Erythropoiesis
-MANS-HIS-203 > Physiology > Blood > Erythropoiesis
-
 ## learner_years
 +1
 
@@ -113,10 +130,6 @@ Polycythemia is an increased RBC count up to 6-8 million/mm3, either primary (po
 
 ## modules
 +MANS-HIS-203
-
-## module_subject
-102 INT > Physiology > Blood > Anaemia
-MANS-HIS-203 > Physiology > Blood > Anaemia and polycythemia terminology
 
 ## learner_years
 +1
@@ -143,10 +156,6 @@ The neutrophil carries two granule populations and is the first line of non-spec
 ## modules
 +MANS-HIS-203
 
-## module_subject
-101 ISK > Histology > Blood > Granular leukocytes
-MANS-HIS-203 > Histology > Blood > Granular leukocytes
-
 ## learner_years
 +1
 
@@ -171,10 +180,6 @@ Red bone marrow is active haemopoietic tissue; yellow bone marrow is its inactiv
 
 ## modules
 +MANS-HIS-203
-
-## module_subject
-101 ISK > Histology > Blood > Haemopoiesis
-MANS-HIS-203 > Histology > Blood > Haemopoiesis
 
 ## learner_years
 +1
@@ -229,10 +234,6 @@ The lymph node's cortex holds B-cell-dominant follicles and macrophage-lined sin
 ## modules
 +MANS-HIS-203
 
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
-MANS-HIS-203 > Histology > Lymphoid organs > Lymph node
-
 ## learner_years
 +1
 
@@ -257,10 +258,6 @@ The medulla is cords of B lymphocytes, plasma cells and macrophages between sinu
 
 ## modules
 +MANS-HIS-203
-
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
-MANS-HIS-203 > Histology > Lymphoid organs > Lymph node
 
 ## learner_years
 +1
@@ -287,10 +284,6 @@ Red pulp is Billroth cords and stave-cell sinusoids whose intercellular gaps let
 ## modules
 +MANS-HIS-203
 
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Spleen
-MANS-HIS-203 > Histology > Lymphoid organs > Spleen
-
 ## learner_years
 +1
 
@@ -316,10 +309,6 @@ A Hassall's corpuscle is a concentric epithelial body with a degenerating acidop
 ## modules
 +MANS-HIS-203
 
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Thymus
-MANS-HIS-203 > Histology > Lymphoid organs > Thymus
-
 ## learner_years
 +1
 
@@ -344,10 +333,6 @@ Erythroblastosis fetalis follows maternal anti-D sensitisation by a first Rh-pos
 
 ## modules
 +MANS-HIS-203
-
-## module_subject
-102 INT > Physiology > Blood > Blood groups and blood transfusion
-MANS-HIS-203 > Microbiology > Immunology > Hypersensitivity reactions
 
 ## learner_years
 +1
@@ -403,10 +388,6 @@ Vitamin B12 is absorbed only after intrinsic factor from the gastric parietal ce
 ## modules
 +MANS-HIS-203
 
-## module_subject
-102 INT > Physiology > Blood > Vitamin B12 and folic acid
-MANS-HIS-203 > Physiology > Blood > Leukocyte and gut physiology
-
 ## learner_years
 +1
 
@@ -431,10 +412,6 @@ Hemoglobinopathies are disorders caused either by structurally abnormal globin c
 
 ## modules
 +MANS-HIS-203
-
-## module_subject
-102 INT > Biochemistry > Chemistry of Hemoproteins
-MANS-HIS-203 > Biochemistry > Hemoglobin structure
 
 ## learner_years
 +1
