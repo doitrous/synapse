@@ -2381,3 +2381,1128 @@ polarity: affirmative
 scope: Menoufia MED102 Microbiology Past Exams compilation
 
 ---
+
+---
+
+# Item
+
+## id
+CLM-INF-3CFED66B45A9BF
+
+## concept_id
+CON-INF-3CFED66B45A9BF
+
+## subject
+Cyclodevelopmental transmission
+
+## predicate
+is defined as
+
+## object
+a change in form without multiplication of the parasite inside the vector
+
+## display_text
+Cyclodevelopmental transmission is a change in the parasite's form inside the vector without any multiplication in number.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-172FA93BDEDACD
+
+## concept_id
+CON-INF-172FA93BDEDACD
+
+## subject
+Parasitology
+
+## predicate
+do not shed
+
+## object
+discrete gravid proglottids, releasing eggs instead through a uterine pore
+
+## display_text
+Pseudophyllidean cestodes do not shed discrete gravid proglottids; they release eggs continuously through a uterine pore.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-50D80179EC5358
+
+## concept_id
+CON-INF-50D80179EC5358
+
+## subject
+Parasitology
+
+## predicate
+is the vector of
+
+## object
+yellow fever
+
+## display_text
+Aedes mosquitoes are the vector of yellow fever.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-3CE26786A948DC
+
+## concept_id
+CON-INF-3CE26786A948DC
+
+## subject
+Nematode digestive system
+
+## predicate
+has a mouth bearing
+
+## object
+lips, teeth or plates and sensory papillae, as part of a complete digestive tube
+
+## display_text
+The nematode digestive system is a complete tube whose anterior mouth bears lips, teeth or plates plus sensory papillae.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-53329B3104D544
+
+## concept_id
+CON-INF-53329B3104D544
+
+## subject
+Nematode oesophagus
+
+## predicate
+has an oesophagus that is
+
+## object
+muscular in shape and structure
+
+## display_text
+The nematode oesophagus is muscular in shape and structure.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-5B6AB1F15D4973
+
+## concept_id
+CON-INF-5B6AB1F15D4973
+
+## subject
+Trematode mouth
+
+## predicate
+has a mouth surrounded by
+
+## object
+an oral sucker
+
+## display_text
+The trematode mouth is surrounded by an oral sucker.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-84B9B441DDB90B
+
+## concept_id
+CON-INF-84B9B441DDB90B
+
+## subject
+Parasitology
+
+## predicate
+chemical adult-stage control includes
+
+## object
+skin-applied repellents such as citronella oil
+
+## display_text
+Chemical control of adult mosquitoes includes skin-applied repellents such as citronella oil.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-1DBC9145781EB2
+
+## concept_id
+CON-INF-1DBC9145781EB2
+
+## subject
+Conjugation in protozoa
+
+## predicate
+is defined as
+
+## object
+the exchange of nuclear material between two organisms
+
+## display_text
+Conjugation in protozoa is the exchange of nuclear material between two organisms.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-2EDF6DAB5B3A31
+
+## concept_id
+CON-INF-2EDF6DAB5B3A31
+
+## subject
+Parasitology
+
+## predicate
+develops a procercoid-type larva in
+
+## object
+the first intermediate host
+
+## display_text
+Cyclophyllidean cestodes develop a procercoid-type larval stage within the first intermediate host.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-768AEAC5AE25F6
+
+## concept_id
+CON-INF-768AEAC5AE25F6
+
+## subject
+Relapsing fever
+
+## predicate
+is transmitted by
+
+## object
+an arthropod vector (louse or soft tick)
+
+## display_text
+Relapsing fever is the spirochetal disease transmitted by an arthropod vector, the louse or soft tick.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-F2D178AB887530
+
+## concept_id
+CON-INF-F2D178AB887530
+
+## subject
+Parasitology
+
+## predicate
+moves by
+
+## object
+gliding motility
+
+## display_text
+Sporozoa move by gliding motility, unlike amoebae, flagellates or ciliates.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-4A4178411BC79C
+
+## concept_id
+CON-INF-4A4178411BC79C
+
+## subject
+Parasitology
+
+## predicate
+is defined by
+
+## object
+paired, jointed (articulated) appendages
+
+## display_text
+Arthropods are defined by paired, jointed (articulated) appendages.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-A800464762DA96
+
+## concept_id
+CON-INF-A800464762DA96
+
+## subject
+Parasitology
+
+## predicate
+can be transmitted by
+
+## object
+autoinfection through perianal scratching
+
+## display_text
+Enterobius vermicularis can be transmitted by autoinfection through perianal scratching and hand-to-mouth transfer of eggs.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-927B0F320E9129
+
+## concept_id
+CON-INF-927B0F320E9129
+
+## subject
+The flea
+
+## predicate
+uses as its intermediate host and vector
+
+## object
+the flea (dog or cat flea)
+
+## display_text
+Dipylidium caninum uses the larval flea as its intermediate host and the route by which humans become infected.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-248EE3163BB098
+
+## concept_id
+CON-INF-248EE3163BB098
+
+## subject
+Parasitology
+
+## predicate
+can cause acute appendicitis by
+
+## object
+mechanically obstructing the appendiceal lumen
+
+## display_text
+Ascaris lumbricoides can cause acute appendicitis by mechanically obstructing the appendiceal lumen.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-FDB8D023058A73
+
+## concept_id
+CON-INF-FDB8D023058A73
+
+## subject
+Parasitology
+
+## predicate
+can ectopically embolise eggs to
+
+## object
+the heart or brain, causing cardiac or neurological symptoms
+
+## display_text
+Heterophyes heterophyes eggs can ectopically embolise to the heart or brain and cause cardiac or neurological symptoms.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-9EDAD9EDF18E23
+
+## concept_id
+CON-INF-9EDAD9EDF18E23
+
+## subject
+Parasitology
+
+## predicate
+is used to quantify
+
+## object
+heavy helminth egg output, such as that of Ascaris lumbricoides
+
+## display_text
+Stoll's dilution egg-counting technique quantifies heavy helminth egg output such as Ascaris lumbricoides.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-7CD4E349E7FBBD
+
+## concept_id
+CON-INF-7CD4E349E7FBBD
+
+## subject
+Nitazoxanide
+
+## predicate
+is effective against
+
+## object
+Ascaris lumbricoides, as a broad-spectrum antiparasitic agent
+
+## display_text
+Nitazoxanide is a broad-spectrum antiparasitic effective against Ascaris lumbricoides.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-7F71E04B423304
+
+## concept_id
+CON-INF-7F71E04B423304
+
+## subject
+Trichomonas vaginalis vaginitis classically presents with fr
+
+## predicate
+classically presents with
+
+## object
+frothy, malodorous, yellow-green discharge and is treated with metronidazole
+
+## display_text
+Trichomonas vaginalis vaginitis classically presents with frothy, malodorous, yellow-green discharge and is treated with metronidazole.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-060A6A2C245739
+
+## concept_id
+CON-INF-060A6A2C245739
+
+## subject
+Trichomoniasis
+
+## predicate
+is classified as
+
+## object
+a sexually transmitted disease caused by a protozoan
+
+## display_text
+Trichomoniasis is a sexually transmitted disease caused by a protozoan.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-8CDA04361321A1
+
+## concept_id
+CON-INF-8CDA04361321A1
+
+## subject
+Parasitology
+
+## predicate
+can be transmitted by
+
+## object
+fomites such as contaminated towels, having no cyst stage
+
+## display_text
+Trichomonas vaginalis has no cyst stage and can be transmitted by fomites such as contaminated towels.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-7EB4D0962FEFB5
+
+## concept_id
+CON-INF-7EB4D0962FEFB5
+
+## subject
+The burrow
+
+## predicate
+is the most characteristic lesion of
+
+## object
+scabies
+
+## display_text
+The burrow is the most characteristic skin lesion of scabies.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-445D9FFE93AA10
+
+## concept_id
+CON-INF-445D9FFE93AA10
+
+## subject
+Parasitology
+
+## predicate
+can confirm the diagnosis of
+
+## object
+scabies, by visualising the mite and its burrow
+
+## display_text
+Dermoscopy can confirm the diagnosis of scabies by visualising the mite and its burrow.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-3A24FA64478498
+
+## concept_id
+CON-INF-3A24FA64478498
+
+## subject
+Parasitology
+
+## predicate
+is a major inhalant allergen that can cause
+
+## object
+allergic dyspnea and asthma
+
+## display_text
+House dust mites are a major inhalant allergen that can cause allergic dyspnea and asthma.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+
+
+---
+
+# Item
+
+## id
+CLM-INF-5DEF7DC5808AFF
+
+## concept_id
+CON-INF-5DEF7DC5808AFF
+
+## subject
+Mebendazole
+
+## predicate
+is a first-line drug for treating
+
+## object
+ascariasis
+
+## display_text
+Mebendazole is a first-line drug for treating ascariasis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: Menoufia MED102 Parasitology Past Exams
+

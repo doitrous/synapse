@@ -651,3 +651,47 @@ An exotoxin is a secreted polypeptide/protein, unlike structural endotoxin
 mu: Tested as micro-eom-q26, "Botulinum toxin is an example of which ONE of the following" (answer: Exotoxin), Microbiology Past Exams - Answers - Telegram 9662.pdf, red-text/underline key on p15.
 
 ---
+
+# Item
+
+## id
+CON-INF-66A57CFB78A21F
+
+## label
+Pseudoparasites, coprozoic organisms and spurious parasites are non-infecting artefacts of stool or specimen examination, not true infections: a pseudoparasite is any object or organism mistaken for a parasite; a coprozoic organism is a free-living species passing through the alimentary tract undigested; and a spurious finding is another species' parasite stage, ingested (e.g. in undercooked meat), passed unchanged in stool without ever having infected the examined host
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested as para-past-q03, "Foreign organism that passes through the human intestine without causing any disease, is a/an...... parasite" (answer: coprozoic), Parasitology Past Exams - MCQ Answers - Telegram 9673.pdf, highlight-fill-red key on p1. Found via find-existing.mjs, exact-grain match (coprozoic organism definition already recorded on this pending Assiut concept).
+
+---
+
+# Item
+
+## id
+CON-INF-0B4BAFFD525FDF
+
+## label
+Host-microbe relationships are classified as parasitism, commensalism or mutualism
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED102
+
+## field_notes
+mu: Tested twice — para-past-q09, "it is a relationship between two living organisms where one benefits, while the other (host) is not harmed" (answer: Commensalism), End 39 sitting p1; and para-past-q22, "Which of the following is a relationship between two living organisms From which one benefits and the other is not harmed?" (answer: Commensalism), Final 40 sitting p9. Both from Parasitology Past Exams - MCQ Answers - Telegram 9673.pdf, highlight-fill-red key. Found via find-existing.mjs, exact-grain match (host-microbe relationship classification already covers the parasitism/commensalism/mutualism distinction tested here, applied to parasitology rather than bacteriology).
+
+---

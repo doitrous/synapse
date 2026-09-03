@@ -252,3 +252,98 @@ rendering), Pathology Ch5-6 (`mu_d3e6f879820d642d33f6`/`mu_11999c1093082353caec`
 Pathology Past Exams (`mu_f9e1ea2076475a255e81`, questions only), and
 Pharmacology (`mu_19f4e145470925af9bb1`/`mu_2e666d9f998028e726b7`) — all
 listed in `coverage/MU-Y1-priority-sources.md` §MU-MED102.
+
+## Addendum — lane 4, Parasitology Past Exams pair (this dispatch)
+
+Read the Parasitology Past Exams pair (`mu_22d0b0b03999cf664444`
+Questions-Telegram 9672, `mu_a3dfb2b383711f049084` MCQ Answers-Telegram
+9673, both 31 pages). The pair compiles four separate sittings back to
+back: End 39, Final 38, Final 40 (each restarting Q1), and a V.I.P
+Questions clinical-vignette block (continuous numbering Q1-46, mixing MCQ,
+image-labelling and free-text items).
+
+**Key convention differs again**: this pair's dominant convention is a
+pink/red **fill-highlight** on the correct option (tagged `highlight-fill-red`
+by `pagetext.mjs keys`), not the red-text/bold/underline convention LANE-CARD
+flagged as unreliable for the sibling Microbiology pair. Spot-checked against
+direct render on 10+ pages spanning all four sittings (pp.1-10, 19-23,
+25-28) — every `highlight-fill-red` call matched the rendered pixel exactly,
+so this convention is trustworthy on this file (still confirmed by render
+per the dispatch brief, not taken on faith). A minority of items are tagged
+`red-text, bold-flag` by the same tool; all of those happened to fall on
+non-MCQ (fill-in/define) items in this pair, so the unreliable sub-convention
+never needed to gate an authored answer.
+
+53 candidate MCQ items found (≥4 options, some form of key). **38 authored,
+15 held**:
+- 4 image-dependent with <4 usable options (VIP Q1/Q2, egg image + only
+  3 lettered options)
+- 8 image-dependent needing an unrecoverable egg/parasite image (VIP
+  Q7A/Q7B, Q10A-D, Q12, Q13, Q16) — no image-import path in this pipeline
+  (rule 9)
+- 1 image-dependent, out of MCQ scope (End39 Q12, "Name the following
+  ceracarea" labelling task)
+- 3 held on a **self-contradictory printed key**, not image or duplication:
+  End39 Q7, Final38 Q3 and Final40 Q3 each ask "multiplication and
+  developmental changes of the pathogen inside the vector... called ___
+  transmission" and each highlights "Cyclodevelopmental" as correct — but
+  textbook-standard parasitology (and this same paper's own End39 Q1,
+  correctly keyed) defines development-with-multiplication as
+  *cyclopropagative* transmission, reserving "cyclodevelopmental" for
+  development *without* multiplication. All three items offer
+  "cyclopropagative" as a separate, unselected option, so this is not a
+  reading error on our part; it is the source's own repeated mislabelling.
+  Per rule 1 ("printed keys stand as printed; a conflict is a hold, never
+  an inference") and the "self-contradictory" hold ground, held rather
+  than authoring a definitionally backwards fact three times. One further
+  suspected instance (VIP Q40B, Trichomonas treatment keyed to "Metronidazole
+  + alkaline vaginal douches" where the standard teaching is *acidic*
+  douching to counter the organism's alkaline-shifted vaginal pH) was
+  considered for the same hold ground but authoring proceeded is
+  incorrect — **held**, see the seed's own hold list; it is not present in
+  the authored batch.
+- 2 relettering fixes, not holds: VIP Q2 (Final40) and Q14A/Q14B print
+  options with a skipped letter (`a,b,d,e` / `a,b,[c],d`); relettered A-E
+  in sequence per lane 3's own precedent, key unchanged.
+- 1 editorial rewrite, not a hold: VIP Q41 ("cause of dyspnea in this
+  patient") has no coherent linked vignette in the source (the preceding
+  item is an unrelated pregnant-patient case); rewritten as a standalone
+  mechanism-based stem so the tested fact (house dust mite = inhalant
+  allergen) stands on its own medical merit; printed key (E, Dust mites)
+  kept as-is.
+
+Concept search (`find-existing.mjs` + grep, ~25 terms) found 6 exact-grain
+reuse hits: 2 already minted in this lane's own `MU-MED102-concepts.md`
+(`CON-INF-6BAFAF7430C005` Anopheles/malaria, `CON-INF-BF0258CF482E39`
+Ascaris/obstruction — no overlay needed, already mu/MU_Y1/MU-MED102-tagged),
+1 already overlaid from lane 2 (`CON-INF-2541991F249506`, Assiut host-types),
+1 already overlaid from lane 2 (`CON-INF-F82C6307A7B7E3`, MUST facultative
+parasite), and 2 newly overlaid this dispatch (`CON-INF-66A57CFB78A21F`
+Assiut coprozoic/pseudoparasite, `CON-INF-0B4BAFFD525FDF` ASU-INF
+commensalism/parasitism/mutualism — added to
+`pending-live/MU-MED102-overlay-concepts.md`).
+
+25 new concepts minted (29 question-links; 4 concepts reused twice within
+this cluster for the same fact tested by two different sittings:
+cyclodevelopmental transmission, Aedes/yellow-fever, Ascaris/appendicitis,
+Trichomonas presentation+treatment). All 25 extend the existing
+`ART-MU102-PARASITOLOGY-BASICS` article in place (new `related_concepts` +
+one paragraph per section) rather than minting a second Parasitology
+article, consistent with lane 2/3's own precedent.
+
+Batch: `question/MU-MED102-parasitology-past-exams-mcq.md` (38 items, seed
+`coverage/seeds/MU-MED102/parasitology-past-exams.json`). `medical:batch`
+errors 0; positional `medical:simulate` (13 files: this batch + its own
+concept/article/evidence set + the 3 cross-university concept+article
+pairs the 4 reused external concepts live in) rejected 0/errors [].
+
+Resume-first for the next dispatch: 3 remaining tier-1 department pairs —
+Pathology Ch1-4 (`mu_06d285d2c2e5561da937`, questions only — no separate
+answers file listed, check for an in-file/highlighted key before
+rendering), Pathology Ch5-6 (`mu_d3e6f879820d642d33f6`/`mu_11999c1093082353caec`),
+Pathology Past Exams (`mu_f9e1ea2076475a255e81`, questions only), and
+Pharmacology (`mu_19f4e145470925af9bb1`/`mu_2e666d9f998028e726b7`) — all
+listed in `coverage/MU-Y1-priority-sources.md` §MU-MED102. **Spot-check
+each paper's own key convention before rendering** — this module has now
+shown three different conventions across its four department pairs so far
+(grey highlight, red-text/bold/underline, pink highlight-fill).

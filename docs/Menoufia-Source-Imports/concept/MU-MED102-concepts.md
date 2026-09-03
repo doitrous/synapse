@@ -8923,3 +8923,4128 @@ needs_evidence
 drafted_not_reviewed
 
 ---
+
+---
+
+# Item
+
+## label
+Cyclodevelopmental transmission is morphological change in the vector without multiplication
+
+## id
+CON-INF-3CFED66B45A9BF
+
+## canonical_key
+parasitology.transmission.cyclodevelopmental
+
+## aliases
+Cyclodevelopmental transmission
+Development without multiplication in a vector
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Cyclodevelopmental transmission is a pattern of vector-borne transmission in which the parasite undergoes a morphological or developmental change inside the arthropod vector but does not multiply in number there — one ingested stage develops into one infective stage. This is distinct from propagative transmission, where the organism multiplies in the vector without any change in form, and from cyclopropagative transmission, where the organism both multiplies and changes form inside the vector.
+
+## explicit_objective
+Identify cyclodevelopmental transmission as vector-borne transmission with a change in form but no multiplication of the parasite inside the vector.
+
+## pitfalls
+Confusing cyclodevelopmental transmission (development only) with cyclopropagative transmission (development and multiplication together), or with propagative transmission (multiplication only, no change in form).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Modes of parasite transmission
+
+## microtopic
+Cyclodevelopmental transmission
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Modes of transmission
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-3CFED66B45A9BF
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q1: The organism undergoes cyclical changes but does not multiply inside the arthropod, this is called ___ transmission. / cyclo-developmental.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p1 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Pseudophyllidean cestodes lack the discrete gravid proglottids seen in cyclophyllidean tapeworms
+
+## id
+CON-INF-172FA93BDEDACD
+
+## canonical_key
+cestodes.pseudophyllidea.gravid-segments-absent
+
+## aliases
+Pseudophyllidea gravid segments
+Diphyllobothrium latum proglottid shedding
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Pseudophyllidean cestodes, such as Diphyllobothrium latum, do not shed discrete gravid proglottids the way cyclophyllidean tapeworms (Taenia, Hymenolepis) do; instead their uterus opens directly onto the segment surface through a uterine pore, releasing operculated eggs continuously into the intestinal lumen and then the stool, rather than releasing whole detached gravid segments. This means the classic diagnostic finding for pseudophyllidean infection is unembryonated operculated eggs in stool, not passed proglottids.
+
+## explicit_objective
+State that pseudophyllidean tapeworms release eggs continuously through a uterine pore rather than shedding discrete gravid proglottids, unlike cyclophyllidean tapeworms.
+
+## pitfalls
+Assuming all tapeworms shed visible gravid proglottids in stool the way Taenia species do — pseudophyllidean cestodes instead release eggs directly through a uterine pore, so gravid segments are not a feature to look for.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Cestode general characters
+
+## microtopic
+Pseudophyllidea vs Cyclophyllidea
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Cestode general characters
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-172FA93BDEDACD
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q2: Regarding the gravid segments of pseudophyllidea, which of the following is true? / They are absent.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p1 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Aedes mosquitoes are the vector of yellow fever
+
+## id
+CON-INF-50D80179EC5358
+
+## canonical_key
+aedes.yellow-fever-vector
+
+## aliases
+Aedes yellow fever vector
+Yellow fever transmission
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Aedes mosquitoes, particularly Aedes aegypti, are the vector of yellow fever, a viral haemorrhagic disease. The same genus also transmits dengue fever, chikungunya and Zika virus, distinguishing it from Anopheles (malaria vector) and Culex (vector of diseases such as bird/avian malaria, Japanese encephalitis and Rift Valley fever alongside Aedes).
+
+## explicit_objective
+Identify Aedes as the mosquito vector of yellow fever, distinguishing it from Anopheles (malaria) and Culex.
+
+## pitfalls
+Confusing Aedes with Anopheles (the malaria vector) or Culex — each mosquito genus is tied to a distinct set of transmitted diseases and the pairing is commonly tested.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Medical entomology and vector control
+
+## microtopic
+Mosquito-borne disease vectors
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Medical entomology and vector control
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-50D80179EC5358
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q4: Yellow fever virus is transmitted by / b- Aedes.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p2 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Nematode digestive system is a complete tube with an anterior mouth bearing lips, teeth or plates and sensory papillae
+
+## id
+CON-INF-3CE26786A948DC
+
+## canonical_key
+nematoda.digestive-system.mouth-structures
+
+## aliases
+Nematode mouth structures
+Nematode digestive tract
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Nematodes (roundworms) possess a complete digestive tract running from an anterior mouth to a posterior anus. The mouth opening is provided with accessory structures — lips, teeth or cutting plates depending on the species — together with sensory papillae used to detect food and environmental cues, unlike trematodes and cestodes, which either use oral suckers or lack a mouth/gut altogether.
+
+## explicit_objective
+Describe the nematode mouth as bearing lips, teeth or plates plus sensory papillae, as part of a complete digestive tube.
+
+## pitfalls
+Assuming all helminths share the same mouth anatomy — trematodes have a mouth surrounded by an oral sucker and cestodes have no digestive tract at all, so the lips/teeth/plates/papillae description is specific to nematodes.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Nematode general characters
+
+## microtopic
+Nematode digestive system
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Nematode general characters
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-3CE26786A948DC
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Q8: Regarding the digestive system of nematoda, which of the following is true? / Mouth provided with the lips, teeth, plates and sensory papillae.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p3 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Nematode oesophagus is muscular in shape and structure
+
+## id
+CON-INF-53329B3104D544
+
+## canonical_key
+nematoda.oesophagus.muscular-structure
+
+## aliases
+Nematode oesophagus
+Roundworm pharynx structure
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The nematode oesophagus (pharynx) is a muscular tube that pumps ingested material into the intestine; its shape and structure are muscular throughout, in contrast to the variable, often non-muscular pharyngeal arrangements described for other helminth groups. This muscular oesophagus is one of several features (alongside a complete gut, separate sexes and lack of segmentation) used to characterise nematode general anatomy.
+
+## explicit_objective
+State that the nematode oesophagus is muscular in shape and structure.
+
+## pitfalls
+Assuming oesophageal structure is uniform and unimportant across helminth groups — it is one of the specific general characters used to identify nematodes on an exam.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Nematode general characters
+
+## microtopic
+Nematode oesophagus
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Nematode general characters
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-53329B3104D544
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Final38 Q1: Regarding the nematoda, which of the following is true? / Oesophagus is in the muscular shape and structure.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p5 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Trematode mouth is surrounded by an oral sucker
+
+## id
+CON-INF-5B6AB1F15D4973
+
+## canonical_key
+trematoda.general-characters.oral-sucker
+
+## aliases
+Trematode oral sucker
+Fluke mouth structure
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Trematodes (flukes) have a mouth surrounded by an oral sucker, which is used for attachment and feeding; most also carry a second, ventral (acetabulum) sucker further along the body. This contrasts with nematodes, whose mouth bears lips, teeth or plates rather than a sucker, and with cestodes, which have no mouth or gut at all.
+
+## explicit_objective
+Identify an oral sucker surrounding the mouth as a general character of trematodes.
+
+## pitfalls
+Confusing the trematode mouth (surrounded by a sucker) with the nematode mouth (bearing lips/teeth/plates) — the two helminth groups are distinguished on an exam by exactly this kind of general-character detail.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Trematode general characters
+
+## microtopic
+Trematode mouth and suckers
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Trematode general characters
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-5B6AB1F15D4973
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Final38 Q2: Regarding general characters of the trematodes, choose the correct answer / Mouth is surrounded by sucker.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p5 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Chemical control of adult mosquitoes includes skin-applied repellents such as citronella oil
+
+## id
+CON-INF-84B9B441DDB90B
+
+## canonical_key
+mosquito-control.chemical.adult-repellents
+
+## aliases
+Citronella mosquito repellent
+Chemical control of adult mosquitoes
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Chemical control aimed at the adult (flying) stage of mosquitoes includes repellents such as citronella oil applied directly to the skin, which deters adult mosquitoes from biting. This is distinct from chemical measures directed at the aquatic larval stage (such as larvicidal oils or Paris green spread on the water surface) and from physical/mechanical measures such as wire screening, which exclude adults without any chemical action.
+
+## explicit_objective
+Identify skin-applied chemical repellents such as citronella oil as a chemical method aimed at the adult mosquito stage.
+
+## pitfalls
+Confusing a chemical method aimed at the water-breeding larval stage (such as Paris green on the water surface) with one aimed at the flying adult stage, or confusing a chemical repellent with a purely physical/mechanical barrier such as wire screening.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Medical entomology and vector control
+
+## microtopic
+Mosquito control methods
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Medical entomology and vector control
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-84B9B441DDB90B
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Final38 Q4: Chemical methods used for control of mosquitoes adult stages including / Citronella oil repellants applied on the skin.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p6 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Conjugation in protozoa is exchange of nuclear material between two organisms
+
+## id
+CON-INF-1DBC9145781EB2
+
+## canonical_key
+protozoa.reproduction.conjugation
+
+## aliases
+Protozoal conjugation
+Ciliate conjugation reproduction
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Conjugation in protozoa is a form of sexual reproduction in which two organisms temporarily join and exchange nuclear (genetic) material before separating, each then continuing to reproduce asexually. This differs from binary fission (simple division of nucleus and cytoplasm into two daughter cells), from gamete formation (fusion of separate male and female sex cells), and from schizogony (multiple fission producing several daughter cells at once).
+
+## explicit_objective
+Define conjugation in protozoa as the exchange of nuclear material between two organisms.
+
+## pitfalls
+Confusing conjugation (exchange of nuclear material between two organisms) with binary fission (simple division into two) or with gamete formation (fusion of male and female sex cells) — each is a distinct reproductive mode tested separately.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Protozoal biology
+
+## microtopic
+Modes of protozoal reproduction
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Protozoal biology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-1DBC9145781EB2
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Final38 Q5: Regarding the conjugation reproduction of the protozoa, choose the right statement / Occur by exchange of nuclear material between two organisms.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p6 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Cyclophyllidean cestodes develop a procercoid larval stage in the first intermediate host
+
+## id
+CON-INF-2EDF6DAB5B3A31
+
+## canonical_key
+cestodes.cyclophyllidea.procercoid-first-intermediate-host
+
+## aliases
+Cyclophyllidea procercoid stage
+Cestode larval development sequence
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+In cyclophyllidean cestodes with an indirect life cycle, the oncosphere released from an ingested egg develops into a procercoid-type larval stage within the first intermediate host, which subsequently develops further (for example into a cysticercoid or cysticercus) in a second intermediate host or the same host, depending on species. Cyclophyllidean tapeworms are additionally characterised by an armed or unarmed scolex with (in many genera) a rostellum, four suckers, and eggs that are non-operculated and already contain a mature oncosphere (hexacanth embryo) when passed, unlike the non-operculated, immature eggs of pseudophyllideans, which require water for the miracidium... (see distinguishing concept for pseudophyllidea).
+
+## explicit_objective
+State that cyclophyllidean cestodes develop a procercoid-type larval stage within the first intermediate host.
+
+## pitfalls
+Confusing which larval stage (procercoid, cysticercoid, cysticercus) belongs in which intermediate host and for which cestode order — cyclophyllidean life cycles are commonly tested by asking where a specific larval stage develops.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Cestode general characters
+
+## microtopic
+Cyclophyllidea life cycle
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Cestode general characters
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-2EDF6DAB5B3A31
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Final38 Q8: Regarding Cyclophyllidea, choose the right statement / Larva stage of procercoid present in the 1st intermediate host.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p7 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Relapsing fever is a spirochetal disease transmitted by an arthropod vector
+
+## id
+CON-INF-768AEAC5AE25F6
+
+## canonical_key
+spirochetes.relapsing-fever.arthropod-transmission
+
+## aliases
+Relapsing fever transmission
+Borrelia arthropod vector
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Relapsing fever, caused by Borrelia species, is transmitted by an arthropod vector — the human body louse (epidemic/louse-borne relapsing fever) or soft ticks of the genus Ornithodoros (endemic/tick-borne relapsing fever). This distinguishes it from other spirochetal diseases such as syphilis (sexual/congenital transmission), pinta and yaws (direct skin contact), and leptospirosis (contact with water or soil contaminated by infected animal urine), none of which require an arthropod vector.
+
+## explicit_objective
+Identify relapsing fever as the spirochetal disease among common exam options that is transmitted by an arthropod vector (louse or soft tick).
+
+## pitfalls
+Assuming all spirochetal diseases share the same transmission route — syphilis, pinta, yaws and leptospirosis are each transmitted without an arthropod vector, while relapsing fever specifically requires one.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Medical entomology and vector control
+
+## microtopic
+Arthropod-borne spirochetal disease
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Medical entomology and vector control
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-768AEAC5AE25F6
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Final40 Q1: Which ONE of the following Spirochetal diseases is transmitted by an arthropod? / Relapsing fever.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p8 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Sporozoa move by gliding motility
+
+## id
+CON-INF-F2D178AB887530
+
+## canonical_key
+protozoa.sporozoa.gliding-movement
+
+## aliases
+Sporozoa gliding motility
+Apicomplexan movement
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Sporozoa (apicomplexan protozoa such as Plasmodium and Toxoplasma) lack the flagella, cilia or pseudopodia used by other protozoal groups and instead move by gliding motility, a distinctive substrate-dependent locomotion powered by an internal actin-myosin motor beneath the cell membrane. This differs from amoebae (pseudopodial/amoeboid movement), flagellates (flagellar movement) and ciliates such as Balantidium coli (ciliary movement).
+
+## explicit_objective
+Identify gliding as the characteristic mode of movement of sporozoa (apicomplexan protozoa).
+
+## pitfalls
+Assuming all protozoa move the same way — amoebae use pseudopodia, flagellates use flagella, ciliates use cilia, and sporozoa alone use gliding motility, a detail exams test directly.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Protozoal biology
+
+## microtopic
+Protozoal movement
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Protozoal biology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-F2D178AB887530
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Final40 Q2: Which of the following parasites move by gliding? / Sporozoa.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p8 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Arthropods are defined by jointed (articulated) appendages
+
+## id
+CON-INF-4A4178411BC79C
+
+## canonical_key
+arthropoda.general-characters.jointed-appendages
+
+## aliases
+Arthropod jointed appendages
+Articulated appendages
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Arthropods (insects, arachnids, crustaceans) are characterised by paired, jointed (articulated) appendages attached to a segmented body with an external chitinous exoskeleton. This jointed-appendage feature is not shared by amoebae, flagellates, nematodes or cestodes, none of which have limbs of this kind, making it a defining structural feature used to identify the phylum.
+
+## explicit_objective
+Identify jointed (articulated) appendages as the defining structural feature of arthropods.
+
+## pitfalls
+Assuming any motile or segmented-looking organism qualifies as an arthropod — jointed, paired appendages specifically (not just a segmented body) are the defining feature that separates arthropods from nematodes or cestodes, which can also appear segmented or elongated.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Medical entomology and vector control
+
+## microtopic
+Arthropod general characters
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Medical entomology and vector control
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-4A4178411BC79C
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Final40 Q4: Which of the following have articulated appendages? / Arthropodes.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p9 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Enterobius vermicularis can be transmitted by autoinfection through perianal scratching
+
+## id
+CON-INF-A800464762DA96
+
+## canonical_key
+enterobius-vermicularis.transmission.autoinfection
+
+## aliases
+Enterobius autoinfection
+Pinworm retroinfection
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Enterobius vermicularis (the pinworm) is classically transmitted by autoinfection: the gravid female migrates out of the anus at night to lay eggs on the perianal skin, causing itching; scratching contaminates the fingers with infective eggs, which are then transferred back to the mouth (or, less commonly, the eggs hatch on the perianal skin and larvae migrate back through the anus, called retroinfection), re-establishing infection in the same host without leaving the body. Among common intestinal nematodes this direct person-to-person/self-to-self faecal-oral route via perianal eggs is distinctive to Enterobius, rather than requiring soil maturation as with Ascaris, Ancylostoma or Trichuris.
+
+## explicit_objective
+Identify Enterobius vermicularis as the intestinal nematode classically transmitted by autoinfection via perianal egg contamination.
+
+## pitfalls
+Assuming all intestinal nematodes share the same transmission route — Ascaris, Trichuris and hookworm eggs/larvae require a period of soil maturation before they become infective, while Enterobius eggs are infective almost immediately after being laid on perianal skin, enabling autoinfection.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Nematode life cycles
+
+## microtopic
+Enterobius vermicularis transmission
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Nematode life cycles
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-A800464762DA96
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+Final40 Q8: Which of the following parasites can be transmitted by autoinfection? / Entrobius vermicularis.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p10 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+The flea is the intermediate host and vector of Dipylidium caninum
+
+## id
+CON-INF-927B0F320E9129
+
+## canonical_key
+dipylidium-caninum.life-cycle.flea-intermediate-host
+
+## aliases
+Dipylidium caninum flea vector
+Dog tapeworm intermediate host
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Dipylidium caninum, the double-pored dog tapeworm, uses the larval flea (dog or cat flea) as its intermediate host: the flea larva ingests Dipylidium eggs released from gravid proglottids (which resemble cucumber seeds and are shed intact in the faeces or perianal region of dogs and cats), and the parasite develops into a cysticercoid within the flea as it matures into an adult. Humans, most often young children in close contact with infested pets, become infected by accidentally swallowing an infected adult flea.
+
+## explicit_objective
+Identify the flea as both the intermediate host and vector required to complete the Dipylidium caninum life cycle.
+
+## pitfalls
+Assuming Dipylidium caninum is transmitted the way most other cestodes are (ingesting meat containing a cysticercus) — its unique flea-intermediate-host and accidental-flea-ingestion route, tied to dog/cat contact, is what distinguishes it on an exam.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Cestode life cycles
+
+## microtopic
+Dipylidium caninum
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Cestode life cycles
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-927B0F320E9129
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q15 (image-linked to Q11 dog-tapeworm vignette): Which of the following insects is responsible for infection with the shown parasite? / Flea.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p20 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Ascaris lumbricoides can cause acute appendicitis by obstructing the appendiceal lumen
+
+## id
+CON-INF-248EE3163BB098
+
+## canonical_key
+ascaris-lumbricoides.appendicitis
+
+## aliases
+Ascaris appendicitis
+Roundworm appendiceal obstruction
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+A migrating adult Ascaris lumbricoides worm can enter and mechanically obstruct the lumen of the vermiform appendix, precipitating acute appendicitis; this is a recognised surgical complication of ascariasis alongside — and sharing the same worm-bulk mechanism as — mechanical obstruction of the small intestine when a heavy worm burden forms a tangled bolus. Both complications reflect the size and motility of the adult worm rather than any toxin or invasive tissue damage.
+
+## explicit_objective
+Identify Ascaris lumbricoides as a recognised parasitic cause of acute appendicitis, alongside its better-known bowel-obstruction complication.
+
+## pitfalls
+Assuming appendicitis from a parasite must involve tissue invasion or inflammation from the organism itself — with Ascaris the mechanism is purely mechanical, a worm physically entering and obstructing the narrow appendiceal lumen.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Nematode clinical complications
+
+## microtopic
+Ascaris lumbricoides complications
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Nematode clinical complications
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-248EE3163BB098
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q17: Acute appendicitis may occur as a complication of infection with which one of the following parasites? / Ascaris lumbricoides. VIP Q21: Which one of the following parasite cause appendicitis and intestitial obstruction / Ascaris lumbercoide.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p21 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Heterophyes heterophyes eggs can ectopically embolise to the heart or brain and cause cardiac or neurological symptoms
+
+## id
+CON-INF-FDB8D023058A73
+
+## canonical_key
+heterophyes-heterophyes.ectopic-egg-embolisation
+
+## aliases
+Heterophyes ectopic embolism
+Heterophyiasis cardiac complication
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Heterophyes heterophyes normally lives as a small intestinal fluke acquired by eating raw or undercooked brackish-water fish; occasionally its eggs penetrate the intestinal mucosa, enter the mesenteric venules, and are carried by the bloodstream to ectopic sites such as the heart (valves, myocardium) or brain, where they provoke a granulomatous reaction that can produce cardiac valvular disease or focal neurological deficits mimicking a stroke. This ectopic embolisation is a well-recognised, if uncommon, complication of heterophyiasis, particularly relevant in fish-eating populations along the Nile delta and similar endemic regions.
+
+## explicit_objective
+Recognise ectopic egg embolisation to the heart or brain as an uncommon but recognised complication of Heterophyes heterophyes infection in patients with a history of eating raw or undercooked brackish-water fish.
+
+## pitfalls
+Overlooking parasitic causes of stroke-like or cardiac presentations in patients with a fish-eating occupational or dietary history — Heterophyes heterophyes eggs reaching the heart or brain via the bloodstream is an atypical but tested cause.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Trematode clinical complications
+
+## microtopic
+Heterophyes heterophyes
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Trematode clinical complications
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-FDB8D023058A73
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q18: A 65-year-old fisherman...weakness and inability to move his left arm and leg. Which of the following parasites is expected to cause this condition? / Heterophys heterophys.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p21 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Stoll's dilution egg-counting technique quantifies heavy helminth egg output such as Ascaris lumbricoides
+
+## id
+CON-INF-9EDAD9EDF18E23
+
+## canonical_key
+diagnostics.stolls-technique.egg-count
+
+## aliases
+Stoll's egg count technique
+Quantitative stool egg counting
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Stoll's dilution egg-counting technique is a quantitative stool examination method that dilutes a weighed stool sample in measured volumes of dilute sodium hydroxide, then counts eggs in a small aliquot to calculate eggs per gram of stool. It is used to estimate the intensity of infection with helminths that shed large numbers of eggs, such as Ascaris lumbricoides, rather than for organisms with low or intermittent egg output, for which a concentration technique is preferred instead.
+
+## explicit_objective
+Identify Stoll's dilution egg-counting technique as a quantitative method used to estimate the intensity of infection with heavy-egg-output helminths such as Ascaris lumbricoides.
+
+## pitfalls
+Assuming any stool examination method works equally well for every helminth — quantitative dilution counting such as Stoll's technique is suited to heavy, reliably high egg-output species like Ascaris, not to organisms with scanty or intermittent egg shedding.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Diagnostic techniques
+
+## microtopic
+Quantitative stool examination
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Diagnostic techniques
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-9EDAD9EDF18E23
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q19: Stoll's technique can be used in the diagnosis of infection by which of the following parasites? / Ascaris lumbricoides.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p22 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Nitazoxanide is a broad-spectrum antiparasitic effective against Ascaris lumbricoides
+
+## id
+CON-INF-7CD4E349E7FBBD
+
+## canonical_key
+pharmacology.nitazoxanide.broad-spectrum-antiparasitic
+
+## aliases
+Nitazoxanide antihelminthic activity
+Broad-spectrum antiparasitic drug
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Nitazoxanide is a broad-spectrum antiparasitic (thiazolide) agent that interferes with the pyruvate:ferredoxin oxidoreductase enzyme pathway essential to anaerobic energy metabolism in a wide range of protozoa and helminths, including documented efficacy against Ascaris lumbricoides as well as against Giardia lamblia and Cryptosporidium. This broad coverage distinguishes it from narrower-spectrum drugs such as triclabendazole (Fasciola-specific) or praziquantel (cestodes and trematodes), and makes it a useful option when broad antiparasitic coverage is clinically desired.
+
+## explicit_objective
+Identify nitazoxanide as a broad-spectrum antiparasitic agent with documented efficacy against Ascaris lumbricoides.
+
+## pitfalls
+Assuming nitazoxanide's role is limited to protozoal infections such as giardiasis or cryptosporidiosis — it also has documented activity against helminths, including Ascaris lumbricoides.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Antiparasitic pharmacology
+
+## microtopic
+Broad-spectrum antiparasitic agents
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Antiparasitic pharmacology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-7CD4E349E7FBBD
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q22: Which one of the following is the best treatment of this parasite / nitazoxanide.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p23 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Trichomonas vaginalis vaginitis classically presents with frothy, malodorous, yellow-green discharge and is treated with metronidazole
+
+## id
+CON-INF-7F71E04B423304
+
+## canonical_key
+trichomonas-vaginalis.presentation-and-treatment
+
+## aliases
+Trichomoniasis presentation
+Metronidazole for trichomoniasis
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Trichomonas vaginalis infection classically presents with a frothy, malodorous, yellow-green (or yellowish) vaginal discharge accompanied by vulvar itching, burning and dysuria; the diagnosis is a common cause of vaginal discharge in sexually active women, including in pregnancy. First-line treatment is metronidazole (a 5-nitroimidazole), which is active against Trichomonas trophozoites, distinguishing it from antihelminthics such as praziquantel or bithionol, which have no activity against this protozoan.
+
+## explicit_objective
+Recognise the classic frothy, malodorous, yellow-green discharge of trichomoniasis and identify metronidazole as its first-line treatment.
+
+## pitfalls
+Reaching for an antihelminthic drug (praziquantel, bithionol) for a vaginal-discharge vignette — Trichomonas vaginalis is a protozoan, not a helminth, and requires an antiprotozoal agent such as metronidazole.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Protozoal STIs
+
+## microtopic
+Trichomonas vaginalis
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Protozoal STIs
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-7F71E04B423304
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q36: 27-year-old married female...offensive frothy yellowish vaginal discharge...Which one of the following drugs is suitable for treatment? / Metronidazole. VIP Q40A: probable diagnosis of frothy yellowish-green vaginal discharge / Trichomoniasis.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p25 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Trichomoniasis is a sexually transmitted disease caused by a protozoan
+
+## id
+CON-INF-060A6A2C245739
+
+## canonical_key
+trichomonas-vaginalis.classification.std-protozoan
+
+## aliases
+Trichomoniasis is an STD
+Trichomonas vaginalis classification
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Trichomoniasis is a curable sexually transmitted disease caused by the flagellated protozoan Trichomonas vaginalis, which exists only as a trophozoite (it has no cyst stage). Both men and women can be infected and both can be symptomatic, though infection is frequently asymptomatic or under-recognised in men, and diagnosis relies on identifying trophozoites in vaginal/urethral secretions rather than on stool examination, since the organism does not inhabit the gastrointestinal tract.
+
+## explicit_objective
+Classify trichomoniasis as a curable, sexually transmitted protozoal infection with no cyst stage.
+
+## pitfalls
+Assuming trichomoniasis is incurable, that it is caused by a cyst form, that only women show symptoms, or that stool examination aids its diagnosis — all are common false statements the exam distractors are built from; the correct summary is that it is a curable STD caused by a trophozoite-only protozoan.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Protozoal STIs
+
+## microtopic
+Trichomonas vaginalis classification
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Protozoal STIs
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-060A6A2C245739
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q37: Which of the following statements is TRUE about trichomoniasis? / It is sexually transmitted disease caused by protozoon.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p26 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Trichomonas vaginalis has no cyst stage and can spread by fomites such as shared contaminated towels
+
+## id
+CON-INF-8CDA04361321A1
+
+## canonical_key
+trichomonas-vaginalis.transmission.fomite-route
+
+## aliases
+Trichomonas fomite transmission
+Trichomonas towel transmission
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Trichomonas vaginalis exists only as a trophozoite, with no resistant cyst stage; while its principal route of transmission is sexual contact, the trophozoite can survive briefly outside the body in a moist, warm environment, allowing transmission by fomites such as shared damp towels or contaminated bathing articles. This distinguishes it from cyst-forming protozoa such as Giardia or Entamoeba histolytica, whose environmentally resistant cysts (not fomite contact by a fragile trophozoite) are the infective form.
+
+## explicit_objective
+State that Trichomonas vaginalis, lacking a cyst stage, can be transmitted non-sexually by fomites such as contaminated towels.
+
+## pitfalls
+Assuming Trichomonas vaginalis is transmitted by ingesting a mature cyst, oocyst or trophozoite the way Giardia, Toxoplasma or Entamoeba are — Trichomonas has no cyst stage at all, and its non-sexual route is direct fomite contact, not ingestion.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Protozoal STIs
+
+## microtopic
+Trichomonas vaginalis transmission
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Protozoal STIs
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-8CDA04361321A1
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q40C: What is the mode of infection of this parasite? / using of contaminated towels.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p28 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+The burrow is the most characteristic skin lesion of scabies
+
+## id
+CON-INF-7EB4D0962FEFB5
+
+## canonical_key
+scabies.clinical-features.burrow
+
+## aliases
+Scabies burrow lesion
+Sarcoptes scabiei burrow
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The burrow — a thin, greyish, thread-like tunnel a few millimetres to a centimetre long, produced by the female Sarcoptes scabiei mite as it tunnels through the epidermis to lay eggs — is the most characteristic and specific skin lesion of scabies, typically found in the finger web spaces, wrists and other thin-skinned sites. Other findings such as papules, vesicles or secondary excoriation/impetiginisation can accompany scabies but are non-specific and seen in many other dermatoses.
+
+## explicit_objective
+Identify the burrow as the pathognomonic, most characteristic lesion of scabies.
+
+## pitfalls
+Treating any itchy papule or vesicle as diagnostic of scabies — these are non-specific findings seen in many skin conditions; the burrow is the one lesion that is specific to scabies.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Ectoparasites
+
+## microtopic
+Scabies clinical features
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Ectoparasites
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-7EB4D0962FEFB5
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q38: Which of the following is the most characteristic lesion of scabies? / Burrow.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p26 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Dermoscopy can confirm the diagnosis of scabies by visualising the mite and its burrow
+
+## id
+CON-INF-445D9FFE93AA10
+
+## canonical_key
+scabies.diagnosis.dermoscopy
+
+## aliases
+Scabies dermoscopy diagnosis
+Non-invasive scabies confirmation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Dermoscopy is a non-invasive method that can confirm a clinical diagnosis of scabies by directly visualising the mite (classically described as a small triangular structure, the 'delta-wing jet' sign, at the end of a burrow) and the burrow itself, without needing to physically extract the mite. It is increasingly used alongside, or in place of, traditional skin scraping and light microscopy, which remains the classic definitive test but requires successfully sampling a mite from a burrow.
+
+## explicit_objective
+Identify dermoscopy as a method that can confirm scabies diagnosis by directly visualising the mite and burrow.
+
+## pitfalls
+Assuming diagnosis of an interdigital/wrist itching-with-burrows presentation requires blood, serological, stool or intradermal testing — none of these detect an ectoparasite living in the epidermis; dermoscopy (or skin scraping) directly visualises the mite instead.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Ectoparasites
+
+## microtopic
+Scabies diagnosis
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Ectoparasites
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-445D9FFE93AA10
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q39: ...interdigital tortuous grayish tunnels...Which of the following methods is the most likely to confirm the diagnosis? / Dermoscopy.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p27 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+House dust mites are a major inhalant allergen that can cause allergic dyspnea and asthma
+
+## id
+CON-INF-3A24FA64478498
+
+## canonical_key
+house-dust-mite.allergy.dyspnea
+
+## aliases
+House dust mite allergy
+Dust mite asthma
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+House dust mites (Dermatophagoides species) are microscopic arachnids that live in household dust, feeding on shed human skin cells; their faecal particles and body fragments are one of the most important perennial inhalant allergens worldwide, triggering IgE-mediated allergic reactions in sensitised individuals that present as allergic rhinitis, allergic asthma with dyspnea and wheeze, and atopic dermatitis. This distinguishes house dust mites, an allergenic (not infective) exposure, from the tissue-invasive helminths and flukes that cause dyspnea through a different, migratory-larval or space-occupying mechanism.
+
+## explicit_objective
+Identify house dust mites as a major inhalant allergen that can cause allergic dyspnea/asthma.
+
+## pitfalls
+Assuming dyspnea in a differential of parasites must come from an invasive helminth's pulmonary migration — house dust mite exposure causes dyspnea through an entirely different, IgE-mediated allergic mechanism rather than tissue invasion.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Ectoparasites and arthropod allergens
+
+## microtopic
+House dust mite allergy
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Ectoparasites and arthropod allergens
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-3A24FA64478498
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q41: Which of the following could be a cause of dyspnea in this patient? / Dust mites.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p28 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+---
+
+# Item
+
+## label
+Mebendazole is a first-line drug for treating ascariasis
+
+## id
+CON-INF-5DEF7DC5808AFF
+
+## canonical_key
+pharmacology.mebendazole.ascariasis-treatment
+
+## aliases
+Mebendazole for Ascaris
+Ascariasis first-line drug
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Mebendazole, a benzimidazole antihelminthic, is a standard first-line drug for treating ascariasis; it acts by binding parasite beta-tubulin, blocking microtubule polymerisation and glucose uptake in the worm, which kills the adult Ascaris lumbricoides. It is also effective against several other soil-transmitted helminths (Trichuris trichiura, hookworm species), distinguishing it from niclosamide and praziquantel, which are directed at cestodes, and from metronidazole, an antiprotozoal with no activity against roundworms.
+
+## explicit_objective
+Identify mebendazole as a first-line benzimidazole antihelminthic for treating ascariasis.
+
+## pitfalls
+Reaching for niclosamide, praziquantel or metronidazole to treat ascariasis — niclosamide and praziquantel target cestodes and metronidazole targets protozoa, none of which are effective against Ascaris lumbricoides.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+
+
+## topic
+Parasitology
+
+## subtopic
+Antiparasitic pharmacology
+
+## microtopic
+Ascariasis treatment
+
+## nanotopic
+
+
+## modules
+MU-MED102
+
+## module_subject
+MU-MED102 > 00 Module-wide > 06 EOM Exams > Parasitology Past Exams > Antiparasitic pharmacology
+
+## article_ids
+ART-MU102-PARASITOLOGY-BASICS
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_a3dfb2b383711f049084
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-INF-5DEF7DC5808AFF
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+
+## original_wording
+VIP Q14B: Which of the following is the best drug for her treatment? / Mebendazole.
+
+## exam_signal
+mu_a3dfb2b383711f049084 | paper | | p20 | MU-MED102
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for the concept's own key terms against live state and every pending batch — no candidate record exists; see coverage/MU-MED102-triage.md's Parasitology Past Exams addendum for the full search log.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed

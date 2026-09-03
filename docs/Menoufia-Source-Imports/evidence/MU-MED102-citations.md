@@ -2061,3 +2061,1003 @@ Microbiology Past Exams compilation, department-keyed answers copy
 Direct-render confirmation of the red-text/bold/underline key convention (not detected by pagetext.mjs keys for every item on this page); text cross-checked against pagetext.mjs show native extraction.
 
 ---
+
+---
+
+# Item
+
+## id
+CIT-INF-3CFED66B45A9BF
+
+## claim_id
+CLM-INF-3CFED66B45A9BF
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+1. The organism undergoes cyclical changes, but it does not multiply inside the arthropod, This is called...... transmission. c- cyclo-developmental [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+1
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-172FA93BDEDACD
+
+## claim_id
+CLM-INF-172FA93BDEDACD
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+2- Regarding the gravid segments of pseudophyllidea, which of the following is true? a- They are absent. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+1
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-50D80179EC5358
+
+## claim_id
+CLM-INF-50D80179EC5358
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+4- Yellow fever virus is transmitted by: b- Aedes. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-3CE26786A948DC
+
+## claim_id
+CLM-INF-3CE26786A948DC
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+8- Regarding The digestive system of nematoda, which of the following is true? b- Mouth provided with the lips, teeth, plates and sensory papillae. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-53329B3104D544
+
+## claim_id
+CLM-INF-53329B3104D544
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+1- Regarding the nematoda, which of the following is true? c) Oesophagus is in the muscular shape and structure. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-5B6AB1F15D4973
+
+## claim_id
+CLM-INF-5B6AB1F15D4973
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+2- Regarding general characters of the trematodes, choose the correct answer: b) Mouth is surrounded by sucker. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-84B9B441DDB90B
+
+## claim_id
+CLM-INF-84B9B441DDB90B
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+4- Chemical methods used for control of mosquitoes adult stages including: c) Citronella oil repellants applied on the skin. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-1DBC9145781EB2
+
+## claim_id
+CLM-INF-1DBC9145781EB2
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+5- Regarding the conjugation reproduction of the protozoa, choose the right statement: c) Occur by exchange of nuclear material between two organisms. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-2EDF6DAB5B3A31
+
+## claim_id
+CLM-INF-2EDF6DAB5B3A31
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+8- Regarding Cyclophyllidea, choose the right statement: d) Larva stage of procercoid present in the 1st intermediate host. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-768AEAC5AE25F6
+
+## claim_id
+CLM-INF-768AEAC5AE25F6
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+1. Which ONE of the following Spirochetal diseases is transmitted by an arthropod? c. Relapsing fever. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-F2D178AB887530
+
+## claim_id
+CLM-INF-F2D178AB887530
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+2- Which of the following parasites move by gliding? d- Sporozoa [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-4A4178411BC79C
+
+## claim_id
+CLM-INF-4A4178411BC79C
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+4- Which of the following have articulated appendages? c- Arthropodes [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-A800464762DA96
+
+## claim_id
+CLM-INF-A800464762DA96
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+8- Which of the following parasites can be transmitted by autoinfection? d- Entrobius vermicularis [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-927B0F320E9129
+
+## claim_id
+CLM-INF-927B0F320E9129
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+15. Which of the following insects is responsible for infection with the shown parasite? b. Flea. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+20
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-248EE3163BB098
+
+## claim_id
+CLM-INF-248EE3163BB098
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+17. Acute appendicitis may occur as a complication of infection with which one of the following parasites? d. Ascaris lumbricoides. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+21
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-FDB8D023058A73
+
+## claim_id
+CLM-INF-FDB8D023058A73
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+18. A 65-year-old fisherman was referred...weakness and inability to move his left arm and leg. b. Heterophys heterophys. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+21
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-9EDAD9EDF18E23
+
+## claim_id
+CLM-INF-9EDAD9EDF18E23
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+19. Stoll's technique can be used in the diagnosis of infection by which of the following parasites? a. Ascaris lumbricoides. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+22
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-7CD4E349E7FBBD
+
+## claim_id
+CLM-INF-7CD4E349E7FBBD
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+22. Which one of the following is the best treatment of this parasite A. nitazoxanide [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+23
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-7F71E04B423304
+
+## claim_id
+CLM-INF-7F71E04B423304
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+36. ...offensive frothy yellowish vaginal discharge...Which one of the following drugs is suitable for treatment? d. Metronidazole [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+25
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-060A6A2C245739
+
+## claim_id
+CLM-INF-060A6A2C245739
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+37. Which of the following statements is TURE about trichomoniasis? It is sexually transmitted disease caused by protozoon [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+26
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-8CDA04361321A1
+
+## claim_id
+CLM-INF-8CDA04361321A1
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+C) What is the mode of infection of this parasite? d. using of contaminated towels [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+28
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-7EB4D0962FEFB5
+
+## claim_id
+CLM-INF-7EB4D0962FEFB5
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+38. Which of the following is the most characteristic lesion of scabies? b. Burrow [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+26
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-445D9FFE93AA10
+
+## claim_id
+CLM-INF-445D9FFE93AA10
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+39- ...interdigital tortu grayish tunnels...Which of the following methods is the most likely to confirm the diagnosis? b. Dermoscopy [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+27
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-3A24FA64478498
+
+## claim_id
+CLM-INF-3A24FA64478498
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+41-Which of the following could be a cause of dyspnea in this patient? (E) Dust mites. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+28
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-INF-5DEF7DC5808AFF
+
+## claim_id
+CLM-INF-5DEF7DC5808AFF
+
+## resource_id
+src_a3dfb2b383711f049084
+
+## evidence_role
+local_curriculum
+
+## support_span
+B. Which of the following is the best drug for her treatment? a. Mebendazole. [highlight-fill-red key]
+
+## locator_type
+page
+
+## locator_page
+20
+
+## locator_section
+Parasitology Past Exams, department-keyed answers copy (End 39 / Final 38 / Final 40 / V.I.P Questions sittings)
+
+## locator_detail
+Native text extracted with pagetext.mjs show (pdftotext-backed) from the exam PDF; highlight-fill-red key confirmed by direct render of every page cited here, not by pagetext.mjs keys alone (spot-checked reliable on this file's own convention, per coverage/MU-MED102-triage.md).
+
+## context_note
+MU-MED102 has no confirmed department book source for this fact; the exam's own printed key states the option quoted above, and the surrounding teaching definition on this concept fills in standard curriculum knowledge around that terse key, consistent with this claim's own confidence.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no

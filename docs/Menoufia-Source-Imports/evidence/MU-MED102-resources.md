@@ -99,3 +99,49 @@ Local university teaching file; no republication rights asserted.
 
 
 ---
+# Item
+
+## id
+src_a3dfb2b383711f049084
+
+## title
+Parasitology Past Exams - MCQ Answers (MFM Support 43) — compiled department-keyed EOM past-paper sittings (End 39, Final 38, Final 40, V.I.P Questions clinical vignettes), Parasitology, Foundation 2 module
+
+## institution
+Faculty of Medicine, Menoufia University
+
+## collection_id
+mu-y1-med102-foundation-2
+
+## source_relative_path
+Semester 1/MED 102 - Foundation 2/Parasitology/06 EOM Exams/Parasitology Past Exams - MCQ Answers - Telegram 9673.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+
+
+## page_count
+31
+
+## sha256
+a3dfb2b383711f0490842bcf95af2f1c9ca99445ff6a7a3322ebd79f4756b092
+
+## processing_status
+pending
+
+## rights
+Local university teaching file; no republication rights asserted.
+
+
+---
