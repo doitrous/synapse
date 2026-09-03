@@ -751,3 +751,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-03 — PROD IMPORT #7 IN FLIGHT: Kasr (kau, status-preserving) · biggest
 - kau had 2843 live Published questions. Transform flipped 2576 items. vet CLEAN in 1 round: 116 safe files, 2373 created + 8224 updated, 0 held, 0 errors. delta +53 art, +330 concepts. Committing now. NOTE: kau has extra content types (practical, written, relations, glossary, taxonomy, subjects) the core import path does NOT cover — this import is questions/articles/concepts/evidence/resources only; practical/written/relations deferred to a separate pass (glossary never via this path).
 - After kau lands: import aun + mans (once their authoring lanes land), then reconciliation of all held cross-uni-dep batches once every base university is live.
+
+### 2026-09-03 — PROD IMPORT #7 LANDED: Kasr (kau) · +1126 Q · IMPORT WAVE (7 universities) COMPLETE
+- kau: 116 safe files, questions 9834→10960 (+1126), +53 art, +305 concepts. 2843 live Published Q preserved (0 downgrades). Batches restored via git checkout.
+- **TOTAL IMPORT WAVE: questions 6161→10960 (+4799 Draft), articles 895→1618 (+723), concepts 4750→7186 (+2436).** 7 universities staged as Draft under their own university+year: 6Oct +203, asu +1706, zu +236, mu +135, scu +281, au +1112, kau +1126. au+kau's existing live content untouched.
+- REMAINING: aun (Assiut) + mans (Mansoura) pending their Year-1 authoring lanes; then RECONCILIATION pass re-imports all held cross-uni-dependency batches (ZU/MU/SCU/ASU/AU held ~25 batches citing articles from a uni not-yet-live — now most base unis ARE live). Kasr practical/written/relations/glossary deferred (core path doesn't model them).
