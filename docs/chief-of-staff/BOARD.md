@@ -729,3 +729,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 
 ### 2026-09-03 — FLEET EMPTY; refilling Year 1 (closest-to-completion first) + imports in flight
 - 6 pure-create universities safe to import as Draft (no published questions to clobber; 60 published articles are all kau/au-prefixed ids): asu(1818 Q)/aun(1031)/scu(83)/mans(716)/mu(280)/zu(440). Ain-Shams dry-run running (ble4cf6lx). Kasr(kau)/Alexandria(au) deferred (per-module care). Helwan/MUST NOT imported (under review).
+
+### 2026-09-03 — PROD IMPORT #2 LANDED: Ain-Shams (asu, Draft) · +1706 Q / +475 art / +862 concepts
+- vet-import.mjs auto-derived 331 safe files (4 rounds). live before→after: questions 6364→8070, articles 928→1403, concepts 4861→5723. Published invariant held (articles 60→60, questions 2971→2971 — nothing un-published). Backup `.import-backup-2026-09-03T01-38-56-001Z.json`.
+- **HELD 5 asu batches (reconcile later):** ASU-IMM-immunology-{claims,citations,spans}.md (phantom concept CON-IMM-A15EC6751FF401 — lane never authored its full-def batch, only referenced+overlaid); ASU-CNS-3-physio-mcq.md (cites Alexandria au article ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY, not live until au imports); ASU-BLS-history-taking-articles.md (would downgrade 2 live Published articles Draft).
+- **Import protocol locked (memory live-db-import-path):** apply script refuses on ANY skip/error; run scratchpad/vet-import.mjs first (holds dangling-ref batches + Published-downgrade batches, excludes INDEX.md, orders pending-live before evidence). Import serially with a fresh snapshot after each. Next: zu/mu/scu (no active authoring lane). aun/mans deferred until their live authoring lanes land (CBF-103 l5, MPT-104, HBG running).
