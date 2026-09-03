@@ -3,7 +3,7 @@ import { ChevronRight, Plus, Trash2, Tags } from 'lucide-react'
 import type { University } from '@/data/universities'
 import { YEARS } from '@/data/universities'
 import {
-  isPurchasable, monthlyEquivalent, priceAt, say,
+  isPurchasable, monthlyEquivalent, priceAt, promoPrice, say,
   type Bilingual, type BillingPeriodDef, type CatalogPlan, type PlanCatalog, type PlanFeature,
 } from '@/data/planCatalog'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -114,6 +114,11 @@ function PlanEditor({ plan, periods, universities, onChange, onRemove }: {
     patch({ prices: next })
   }
 
+  const setPromo = (periodId: 'month' | 'term', fields: Partial<{ enabled: boolean; percentOff: number }>) => {
+    const current = plan.promo?.[periodId] ?? { enabled: false, percentOff: 0 }
+    patch({ promo: { ...plan.promo, [periodId]: { ...current, ...fields } } })
+  }
+
   return (
     <div className="space-y-3.5 border-t border-line bg-surface-2/30 p-4">
       <div className="grid gap-3.5 lg:grid-cols-2">
@@ -142,12 +147,49 @@ function PlanEditor({ plan, periods, universities, onChange, onRemove }: {
                 className="tnum h-8 w-28 font-mono"
               />
               {period.comingSoon && <span className="text-[10.5px] font-semibold uppercase text-warning">soon</span>}
+              {(() => {
+                const promoPeriodId: 'month' | 'term' | null =
+                  period.id === 'month' || period.id === 'term' ? period.id : null
+                if (!promoPeriodId) return null
+                return (
+                  <span className="ms-1 inline-flex items-center gap-1.5 border-s border-line ps-2">
+                    <Toggle
+                      checked={plan.promo?.[promoPeriodId]?.enabled === true}
+                      onChange={(enabled) => setPromo(promoPeriodId, { enabled })}
+                      label={`${say(period.label, 'en')} promo`}
+                    />
+                    <TextInput
+                      type="number"
+                      min={0}
+                      max={100}
+                      value={plan.promo?.[promoPeriodId]?.percentOff ?? 0}
+                      onChange={(event) => setPromo(promoPeriodId, { percentOff: Math.max(0, Math.min(100, Number(event.target.value) || 0)) })}
+                      aria-label={`Promo percent off ${say(period.label, 'en')}`}
+                      className="tnum h-8 w-16 font-mono text-[12px]"
+                    />
+                    <span className="text-[11px] text-ink-3">% off</span>
+                  </span>
+                )
+              })()}
             </label>
           ))}
         </div>
         <p className="mt-1 text-[11.5px] text-ink-3">
           Leave a box empty where the plan is not sold that way. Worth{' '}
           <span className="tnum font-mono">EGP {Math.round(monthlyEquivalent(plan, periods))}</span> a month for reporting.
+          {(plan.promo?.month?.enabled || plan.promo?.term?.enabled) && (
+            <>
+              {' '}Promo price:{' '}
+              {plan.promo?.month?.enabled && (
+                <span className="tnum font-mono">month EGP {promoPrice(plan, 'month')}</span>
+              )}
+              {plan.promo?.month?.enabled && plan.promo?.term?.enabled && ' · '}
+              {plan.promo?.term?.enabled && (
+                <span className="tnum font-mono">term EGP {promoPrice(plan, 'term')}</span>
+              )}
+              .
+            </>
+          )}
         </p>
       </div>
 
