@@ -1,0 +1,2013 @@
+{
+  "lane": "KASR-208INT",
+  "cluster": "2024-eom-pharmacology-tail-continuation",
+  "header": "Kasr Al Ainy 208 INT \u00b7 autonomic, cardiovascular, lipid and anticoagulant pharmacology -- continuation of the 208 INT EOM 2024 exam paper (lane 4b, resuming after lane 4's first 38 items), covering the previously-gapped pharmacology tail (Q61-70, 73, 75-120 minus 2023-EOM duplicates), keys read from highlight-annotated markings via pagetext.mjs keys, cross-checked against the lane's hand-transcribed key table.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "kau"
+    ],
+    "years": [
+      "KAU_Y2"
+    ],
+    "module": "208 INT",
+    "exam_weight_by_year": {
+      "KAU_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_9fa6c2788e36af56304e"
+    ],
+    "source_citation": "Kasr Al Ainy 208 INT EOM 2024 exam paper, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pharmacology",
+    "subtopic": "Autonomic nervous system pharmacology"
+  },
+  "questions": [
+    {
+      "key": "2024eom-q62",
+      "id": "QST-KASR208INT-2024EOM2-62",
+      "page": 13,
+      "title": "Cholinergic agonist for paralytic ileus",
+      "question": "Which of the following is a therapeutic use of cholinergic agonists?",
+      "options": {
+        "A": "Bronchial asthma",
+        "B": "Myocardial infarction",
+        "C": "Paralytic ileus",
+        "D": "Peptic ulcer"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A muscarinic agonist would contract bronchial smooth muscle and increase secretions, worsening rather than treating bronchial asthma.",
+        "B": "Incorrect. Cholinergic agonists have no established therapeutic role in myocardial infarction; if anything, unopposed vagal/muscarinic stimulation (bradycardia) is a risk to manage, not a treatment goal, after MI.",
+        "C": "Correct. Bethanechol and carbachol are direct-acting choline esters resistant to cholinesterase breakdown, giving them a long enough duration for clinical use; both are used, orally or subcutaneously, for post-operative urinary retention and paralytic ileus, stimulating M3 receptors on gut and detrusor smooth muscle to restore contraction and motility. This is why it is bethanechol/carbachol, not a bronchodilator-worsening or acid-secretion-raising agent, that appears on the paralytic-ileus/urinary-retention indication list.",
+        "D": "Incorrect. Cholinergic stimulation increases gastric acid secretion via M3 receptors on parietal cells, which would worsen rather than treat peptic ulcer disease."
+      },
+      "main_concept": "CON-FND-077909C46A60D9",
+      "concept_ids": [
+        "CON-FND-077909C46A60D9"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify bethanechol/carbachol's clinical use as post-operative urinary retention and paralytic ileus, ruling out bronchial asthma and peptic ulcer as indications for a muscarinic agonist.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases",
+      "library_ids": [
+        "ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q64",
+      "id": "QST-KASR208INT-2024EOM2-64",
+      "page": 13,
+      "title": "Pilocarpine BBB penetration and miotic use",
+      "question": "Which of the following parasympathomimetic has the greatest lipid solubility, passes the blood brain barrier, and is suitable for use as a miotic?",
+      "options": {
+        "A": "Acetylcholine",
+        "B": "Methacholine",
+        "C": "Neostigmine",
+        "D": "Pilocarpine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Acetylcholine is a charged, unstable quaternary choline ester, poorly lipid-soluble and not clinically used as a miotic; it is also hydrolysed almost instantly by cholinesterase.",
+        "B": "Incorrect. Methacholine is likewise a charged choline ester with poor BBB penetration; its clinical role is diagnostic (bronchial hyperreactivity challenge testing), not as a miotic.",
+        "C": "Incorrect. Neostigmine is a charged, quaternary-amine anticholinesterase that does not cross the blood-brain barrier appreciably; it is used for myasthenia gravis and post-operative atony, not as a miotic.",
+        "D": "Correct. Pilocarpine is a natural tertiary-amine cholinomimetic alkaloid, and being lipid-soluble it crosses the blood-brain barrier, unlike the charged choline esters and neostigmine. It is a pure muscarinic agonist and a first-line miotic for glaucoma, contracting ciliary/iris muscle to open the trabecular drainage angle and lower intraocular pressure."
+      },
+      "main_concept": "CON-FND-F9071F6AAFABBD",
+      "concept_ids": [
+        "CON-FND-F9071F6AAFABBD"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify pilocarpine, among acetylcholine/methacholine/neostigmine/pilocarpine, as the lipid-soluble, BBB-crossing parasympathomimetic used as a first-line glaucoma miotic.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases",
+      "library_ids": [
+        "ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q65",
+      "id": "QST-KASR208INT-2024EOM2-65",
+      "page": 14,
+      "title": "Post-operative urinary retention management",
+      "question": "A 35-year-old lady is recovering from abdominal surgery. She fails to pass urine. Which of the following is the best strategy?",
+      "options": {
+        "A": "Give her an infusion of acetyl choline because it has a very short half-life",
+        "B": "Give her neostigmine because it will not have CNS side effects",
+        "C": "Give her bethanechol because it is selective to the urinary tract",
+        "D": "Make sure she does not have urinary tract obstruction before giving any medication"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Acetylcholine is hydrolysed by acetylcholinesterase almost instantly at the synapse; it has no useful systemic half-life as an infused drug and is not used this way clinically, regardless of any CNS consideration.",
+        "B": "Incorrect. While neostigmine's lack of CNS side effects is true, offering a reason to give a cholinergic drug does not address the more urgent, prior clinical question of whether the bladder can safely be stimulated at all.",
+        "C": "Incorrect. Bethanechol's own clinical-use listing is post-operative urinary retention AND paralytic ileus -- it is not selective to the urinary tract, since it stimulates M3 receptors on gut smooth muscle just as it does on the detrusor.",
+        "D": "Correct. Before treating post-operative urinary retention with any cholinergic agonist or anticholinesterase, the safest strategy is to first exclude a mechanical bladder-outlet obstruction: stimulating a detrusor that cannot empty against a fixed obstruction will not relieve retention and can dangerously raise intravesical pressure. Only once obstruction is excluded does it become safe to try a cholinergic strategy such as bethanechol or neostigmine."
+      },
+      "main_concept": "CON-FND-FFC45BECF1DB5E",
+      "concept_ids": [
+        "CON-FND-FFC45BECF1DB5E"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that post-operative urinary retention must be checked for mechanical obstruction before cholinergic-agonist treatment, and that neither bethanechol nor acetylcholine infusion is a substitute for that first step.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases",
+      "library_ids": [
+        "ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q66",
+      "id": "QST-KASR208INT-2024EOM2-66",
+      "page": 14,
+      "title": "Atropine's advantage in organophosphorus poisoning",
+      "question": "In which of the following situations will it be better to use atropine rather than one of its substitutes?",
+      "options": {
+        "A": "Bronchial asthma",
+        "B": "Eye fundus examination",
+        "C": "Treatment of organophosphorus poisoning",
+        "D": "Treatment of urinary incontinence"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ipratropium and tiotropium are the preferred inhaled antimuscarinic substitutes for bronchial asthma/COPD, minimising systemic effects compared with atropine.",
+        "B": "Incorrect. Tropicamide and cyclopentolate are preferred over atropine for fundus examination, being short-acting with a shorter cycloplegic effect.",
+        "C": "Correct. Organophosphorus poisoning is the one setting where atropine itself remains the drug of choice: its competitive muscarinic blockade directly and titratably reverses the life-threatening muscarinic excess (bradycardia, bronchospasm, secretions) of the poisoning, an emergency role no listed substitute is established for. In every other listed setting, atropine has been superseded by a better-tolerated, more selective substitute.",
+        "D": "Incorrect. M3-selective antimuscarinics such as oxybutynin, tolterodine and solifenacin are preferred over atropine for urinary incontinence/overactive bladder, reducing systemic antimuscarinic side effects."
+      },
+      "main_concept": "CON-FND-DBB43C17FAA675",
+      "concept_ids": [
+        "CON-FND-DBB43C17FAA675"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify organophosphorus poisoning, not fundus exam, asthma or urinary incontinence, as the setting where atropine itself (not one of its substitutes) is preferred.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases",
+      "library_ids": [
+        "ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q68",
+      "id": "QST-KASR208INT-2024EOM2-68",
+      "page": 14,
+      "title": "Atropine and the nicotinic effects of organophosphorus poisoning",
+      "question": "A farmer exposed to insecticides (irreversible cholinesterase inhibitors) was given atropine. Which of the following effects of the cholinesterase inhibitor will NOT be blocked by the atropine?",
+      "options": {
+        "A": "Bronchoconstriction/bronchospasm",
+        "B": "Increased bowel motility (i.e., diarrhea)",
+        "C": "Increased secretions of lacrimal fluid, saliva, mucus",
+        "D": "Skeletal muscle overstimulation, eventually leading to skeletal muscle paralysis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS blocked). Bronchoconstriction is a muscarinic effect of organophosphate poisoning, and atropine's competitive muscarinic blockade reverses it.",
+        "B": "Incorrect (this IS blocked). Increased bowel motility/diarrhea is a muscarinic (SLUDGE) sign of the poisoning, blocked by atropine's antimuscarinic action.",
+        "C": "Incorrect (this IS blocked). Increased lacrimal, salivary and mucus secretion are classic muscarinic signs, reversed by atropine's competitive blockade at muscarinic receptors.",
+        "D": "Correct. Skeletal muscle overstimulation progressing to paralysis is a NICOTINIC effect, from nicotinic receptor overstimulation at the neuromuscular junction. Atropine acts by muscarinic blockade only, with no nicotinic receptor action, so it reverses the muscarinic picture but leaves this nicotinic, neuromuscular effect untouched -- managing it instead requires an oxime (pralidoxime) to reactivate acetylcholinesterase before the phosphorylated enzyme 'ages.'"
+      },
+      "main_concept": "CON-FND-94222C01365240",
+      "concept_ids": [
+        "CON-FND-94222C01365240"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify skeletal-muscle overstimulation/paralysis as the nicotinic effect of organophosphorus poisoning that atropine's purely muscarinic blockade will not reverse.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases",
+      "library_ids": [
+        "ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q69",
+      "id": "QST-KASR208INT-2024EOM2-69",
+      "page": 15,
+      "title": "Preventing neostigmine's muscarinic side effects in myasthenia gravis",
+      "question": "The following drug is used with neostigmine to decrease the unwanted muscarinic effects in myasthenia gravis:",
+      "options": {
+        "A": "Ephedrine",
+        "B": "Caffeine",
+        "C": "Azathioprine",
+        "D": "Atropine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Ephedrine is a sympathomimetic CNS/cardiovascular stimulant with no antimuscarinic action, and has no established role in preventing neostigmine's muscarinic side effects.",
+        "B": "Incorrect. Caffeine is a CNS stimulant (methylxanthine) with no antimuscarinic action relevant to blocking neostigmine's cholinergic side effects.",
+        "C": "Incorrect. Azathioprine is an immunosuppressant sometimes used as disease-modifying maintenance therapy in myasthenia gravis, not an acute antidote to neostigmine's muscarinic side effects -- it solves a different, longer-term problem.",
+        "D": "Correct. Neostigmine, used to raise acetylcholine at the neuromuscular junction in myasthenia gravis, inevitably also raises acetylcholine at muscarinic sites (heart, glands), risking bradycardia and excess secretions. An antimuscarinic such as atropine or glycopyrrolate is co-administered specifically to block these unwanted muscarinic effects while leaving neostigmine's therapeutic nicotinic action untouched."
+      },
+      "main_concept": "CON-FND-DD80D77ABE34AA",
+      "concept_ids": [
+        "CON-FND-DD80D77ABE34AA"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify atropine as the antimuscarinic co-administered with neostigmine in myasthenia gravis to prevent bradycardia and other unwanted muscarinic effects.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases",
+      "library_ids": [
+        "ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q73",
+      "id": "QST-KASR208INT-2024EOM2-73",
+      "page": 15,
+      "title": "Oral nasal decongestant",
+      "question": "Which of the following nasal decongestants is given orally?",
+      "options": {
+        "A": "Adrenaline",
+        "B": "Tetrahydrozoline",
+        "C": "Xylometazoline",
+        "D": "Pseudoephedrine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Adrenaline, a catecholamine, is ineffective given orally because of poor, unreliable oral bioavailability from extensive first-pass metabolism and gut-mucosa vasoconstriction; when used as a decongestant it is topical.",
+        "B": "Incorrect. Tetrahydrozoline is an imidazoline-derivative decongestant formulated as a long-acting (8-12 hour) topical nasal/ophthalmic drop, not an oral agent.",
+        "C": "Incorrect. Xylometazoline is likewise an imidazoline-derivative decongestant formulated as a topical nasal spray, not given orally.",
+        "D": "Correct. Pseudoephedrine is a non-catecholamine sympathomimetic with good oral bioavailability, formulated specifically as an oral nasal decongestant -- unlike the topical imidazolines (tetrahydrozoline, xylometazoline) or adrenaline, which is not orally viable at all. Systemic absorption of an oral decongestant like pseudoephedrine is also why oral decongestants carry systemic side effects such as hypertension and infant CNS depression, and long-term use of any of these causes rebound congestion (rhinitis medicamentosa)."
+      },
+      "main_concept": "CON-FND-322EC8020160DC",
+      "concept_ids": [
+        "CON-FND-322EC8020160DC"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify pseudoephedrine as the nasal decongestant given orally, distinguishing it from the topical imidazoline agents (tetrahydrozoline, xylometazoline) and from adrenaline, which is not given orally at all.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Autacoids",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q75",
+      "id": "QST-KASR208INT-2024EOM2-75",
+      "page": 16,
+      "title": "Prazosin for hypertension with BPH",
+      "question": "A 60-year-old man with moderate hypertension was admitted to the urosurgical clinic with difficulty in urination. He was diagnosed as a case of benign prostatic hyperplasia. Which of the following drugs would be beneficial for this patient's urinary problem as well as for his hypertension?",
+      "options": {
+        "A": "Prazosin",
+        "B": "Atenolol",
+        "C": "Alpha methyl dopa",
+        "D": "Yohimbine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Selective alpha-1 blockers such as prazosin are used to treat hypertension, and selective alpha-1 blockers are also first-line treatment for benign prostatic hyperplasia -- the same alpha-1 blockade relaxes vascular smooth muscle (lowering blood pressure) and prostate/bladder-neck smooth muscle (relieving outflow obstruction), making prazosin a rational single-drug choice for a patient with both conditions. No other listed drug shares this dual alpha-1-mediated benefit across both organ systems.",
+        "B": "Incorrect. Atenolol, a beta-1 blocker, treats hypertension but has no effect on alpha-1-mediated prostatic smooth-muscle tone, so it does not relieve BPH-related obstruction.",
+        "C": "Incorrect. Alpha-methyldopa is a central antihypertensive (converted to a false neurotransmitter reducing sympathetic outflow) with no direct alpha-1-blocking action on the prostate/bladder neck.",
+        "D": "Incorrect. Yohimbine is an alpha-2 receptor antagonist used for erectile dysfunction, not an antihypertensive and not a treatment for BPH obstruction."
+      },
+      "main_concept": "CON-FND-4255074CA8DE95",
+      "concept_ids": [
+        "CON-FND-4255074CA8DE95"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify prazosin as the drug whose alpha-1 blockade treats both hypertension and BPH-related urinary obstruction in the same patient, unlike atenolol, alpha-methyldopa or yohimbine.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Antagonists",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q77",
+      "id": "QST-KASR208INT-2024EOM2-77",
+      "page": 16,
+      "title": "Propranolol for anxiety",
+      "question": "Which of the following beta blockers would be most suitable for the treatment of anxiety?",
+      "options": {
+        "A": "Propranolol",
+        "B": "Atenolol",
+        "C": "Bisoprolol",
+        "D": "Labetalol"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Propranolol helps in situational anxiety by blunting somatic sympathetic symptoms (tremor, palpitations, sweating), a use that relies on propranolol being lipophilic and well distributed to the central nervous system. This CNS-mediated route is what sets propranolol apart from the other listed beta-blockers for this specific indication.",
+        "B": "Incorrect. Atenolol is hydrophilic, excreted largely unchanged by the kidney, and shows no significant CNS effects, so it lacks the CNS penetration this anxiolytic-adjunct use depends on.",
+        "C": "Incorrect. Bisoprolol, a cardioselective beta-1 blocker used mainly for hypertension and heart failure, has no established role in anxiety treatment.",
+        "D": "Incorrect. Labetalol's added property is alpha-1-blockade-based vasodilation for hypertension, not a CNS anxiolytic-adjunct use."
+      },
+      "main_concept": "CON-FND-49F53A6A10F276",
+      "concept_ids": [
+        "CON-FND-49F53A6A10F276"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify propranolol, among the listed beta-blockers, as the one used for anxiety, because its lipophilicity lets it blunt CNS-mediated somatic sympathetic symptoms.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Antagonists",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q78",
+      "id": "QST-KASR208INT-2024EOM2-78",
+      "page": 16,
+      "title": "Beta blockers and hyperkalemia",
+      "question": "Beta blockers are most likely to increase the serum level of which of the following electrolytes?",
+      "options": {
+        "A": "Na+",
+        "B": "K+",
+        "C": "Ca2+",
+        "D": "Cl-"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Beta blockers do not characteristically raise serum sodium.",
+        "B": "Correct. Beta-2 receptor stimulation normally drives potassium into skeletal muscle and liver cells; blocking beta-2 receptors inhibits this cellular potassium uptake, so more potassium stays extracellular, raising serum potassium. This hyperkalemic tendency is one reason beta blockers are used cautiously alongside other potassium-raising drugs.",
+        "C": "Incorrect. Beta blockers do not characteristically raise serum calcium.",
+        "D": "Incorrect. Beta blockers do not characteristically raise serum chloride."
+      },
+      "main_concept": "CON-FND-381DF5276A9A76",
+      "concept_ids": [
+        "CON-FND-381DF5276A9A76"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that beta blockers raise serum potassium by blocking beta-2-mediated cellular potassium uptake, not sodium, calcium or chloride.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Antagonists",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q79",
+      "id": "QST-KASR208INT-2024EOM2-79",
+      "page": 17,
+      "title": "Labetalol's vasodilatory mechanism",
+      "question": "The additional vasodilatory property of the beta blocker, labetalol is attributed to:",
+      "options": {
+        "A": "alpha blocking activity",
+        "B": "Nitric Oxide (NO) release",
+        "C": "Antioxidant activity",
+        "D": "B1 partial agonist activity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Labetalol and carvedilol combine beta-blockade with alpha-1-receptor blockade, and this added alpha-1 blocking activity is what gives them a vasodilatory property most beta blockers lack. This distinguishes labetalol's mechanism from nitrate-type nitric-oxide donors and from partial-agonist beta-blockers.",
+        "B": "Incorrect. Nitric oxide release is not labetalol's mechanism; that describes agents such as nicorandil or the organic nitrates.",
+        "C": "Incorrect. Antioxidant activity is not an established mechanism for labetalol's vasodilatory property.",
+        "D": "Incorrect. Partial agonist (intrinsic sympathomimetic) activity is a property of agents such as pindolol and acebutolol, which reduces bradycardia rather than causing vasodilation, and is not labetalol's mechanism."
+      },
+      "main_concept": "CON-FND-83B323EE6F4DEA",
+      "concept_ids": [
+        "CON-FND-83B323EE6F4DEA"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Attribute labetalol's added vasodilatory property specifically to alpha-1 receptor blockade, not nitric oxide release, antioxidant activity or partial agonism.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Antagonists",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q80",
+      "id": "QST-KASR208INT-2024EOM2-80",
+      "page": 17,
+      "title": "Clonidine and atenolol -- shared withdrawal risk",
+      "question": "Which of the following is a similarity between clonidine and atenolol?",
+      "options": {
+        "A": "Either of them can be used in migraine prophylaxis.",
+        "B": "Neither of them should be stopped suddenly.",
+        "C": "They are both receptor blockers.",
+        "D": "They both have anti-arrhythmic properties."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Migraine prophylaxis among beta-blockers belongs to propranolol; clonidine and atenolol are not typically used this way.",
+        "B": "Correct. Clonidine causes severe rebound hypertension if stopped without gradual tapering, and beta-blockers such as atenolol have their own withdrawal syndrome of rebound hypertension on abrupt cessation -- so neither should be stopped suddenly, which is the genuine shared property between them. Because of this shared risk, both drugs are always tapered gradually rather than stopped at once.",
+        "C": "Incorrect. Clonidine is a central alpha-2/imidazoline receptor AGONIST, not a receptor blocker; atenolol is a beta-1 blocker. They are not both receptor blockers.",
+        "D": "Incorrect. Neither clonidine nor atenolol is characteristically used as an anti-arrhythmic in the way class-specific antiarrhythmics are."
+      },
+      "main_concept": "CON-FND-018B5D7DA42298",
+      "concept_ids": [
+        "CON-FND-018B5D7DA42298"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify 'neither should be stopped suddenly, because of rebound hypertension' as the genuine shared property of clonidine and atenolol, not a shared receptor class or indication.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Antagonists",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q81",
+      "id": "QST-KASR208INT-2024EOM2-81",
+      "page": 17,
+      "title": "Beta blockers reduce aqueous humor production in glaucoma",
+      "question": "Regarding the treatment of glaucoma, which one of the following groups of drugs reduces aqueous production?",
+      "options": {
+        "A": "Beta-blockers",
+        "B": "Miotics",
+        "C": "Prostaglandin analogues",
+        "D": "Hyperosmotic agents"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Timolol, betaxolol and levobunolol are beta-adrenergic blockers used as first-line topical therapy for open-angle glaucoma, blocking beta-2 receptors on the ciliary epithelium to decrease aqueous humor production. This production-lowering mechanism is why they are contraindicated in patients with asthma or bradycardia.",
+        "B": "Incorrect. Miotics such as pilocarpine instead increase aqueous OUTFLOW, opening the trabecular meshwork, rather than reducing production.",
+        "C": "Incorrect. Prostaglandin analogues increase uveoscleral OUTFLOW, not reduce production.",
+        "D": "Incorrect. Hyperosmotic agents such as mannitol act by osmotically shrinking vitreous volume in an acute angle-closure attack, not by reducing aqueous production."
+      },
+      "main_concept": "CON-FND-3B3F8B446DD8F6",
+      "concept_ids": [
+        "CON-FND-3B3F8B446DD8F6"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify beta blockers as the glaucoma drug class that reduces aqueous humor production (ciliary epithelium, beta-2 blockade), distinct from outflow-increasing miotics/prostaglandin analogues and osmotic-mechanism hyperosmotic agents.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Ocular and Skeletal Muscle Relaxants",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q82",
+      "id": "QST-KASR208INT-2024EOM2-82",
+      "page": 17,
+      "title": "Apraclonidine mechanism in glaucoma",
+      "question": "Apraclonidine is a drug used for treatment of glaucoma, which of the following describes its mechanism of action?",
+      "options": {
+        "A": "Selective stimulation of a2 receptors",
+        "B": "Non-selective block of beta receptors",
+        "C": "Selective stimulation of muscarinic receptors",
+        "D": "Agonistic action on prostaglandin receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Brimonidine and apraclonidine are alpha-2 adrenergic agonists used for glaucoma; alpha-2 agonists decrease aqueous production and increase uveoscleral outflow, and apraclonidine specifically is used for prophylaxis of pressure spikes during laser surgery. This dual production-lowering, outflow-raising profile is distinct from single-mechanism glaucoma drugs.",
+        "B": "Incorrect. Non-selective beta-receptor block describes timolol's mechanism, not apraclonidine's.",
+        "C": "Incorrect. Selective muscarinic stimulation describes pilocarpine's mechanism (a miotic acting on outflow), not apraclonidine's alpha-2-agonist action.",
+        "D": "Incorrect. Agonism at prostaglandin receptors describes latanoprost's mechanism (increasing uveoscleral outflow via a different receptor pathway), not apraclonidine's."
+      },
+      "main_concept": "CON-FND-753E931175CEC4",
+      "concept_ids": [
+        "CON-FND-753E931175CEC4"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify apraclonidine's mechanism as selective alpha-2 adrenergic receptor stimulation, distinct from beta-blockade, muscarinic stimulation or prostaglandin-receptor agonism.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Ocular and Skeletal Muscle Relaxants",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q83",
+      "id": "QST-KASR208INT-2024EOM2-83",
+      "page": 17,
+      "title": "Botulinum toxin mechanism",
+      "question": "Botulinum toxin blocks neuromuscular transmission by which of the following mechanism?",
+      "options": {
+        "A": "Interfering with the release of acetylcholine from the vesicles in the synapse",
+        "B": "Closure of Na+ channels at the postsynaptic membrane",
+        "C": "Opening of K+ channels at the presynaptic membrane",
+        "D": "Opening of Cl- channels at the postsynaptic membrane"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Botulinum toxin acts pre-synaptically at the neuromuscular junction, cleaving SNARE proteins to irreversibly inhibit acetylcholine vesicle fusion and release, preventing acetylcholine from ever reaching the synaptic cleft. This presynaptic, irreversible action is what gives botulinum toxin its prolonged clinical duration.",
+        "B": "Incorrect. Botulinum toxin's action is presynaptic (blocking release), not a postsynaptic sodium-channel effect.",
+        "C": "Incorrect. Botulinum toxin does not act by opening presynaptic potassium channels; its site is the SNARE-mediated vesicle-fusion machinery.",
+        "D": "Incorrect. Botulinum toxin's action is presynaptic (blocking release), not a postsynaptic chloride-channel effect."
+      },
+      "main_concept": "CON-FND-B52817D03D9191",
+      "concept_ids": [
+        "CON-FND-B52817D03D9191"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that botulinum toxin blocks neuromuscular transmission by cleaving SNARE proteins presynaptically, preventing acetylcholine vesicle fusion and release -- not by any postsynaptic channel effect.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Ocular and Skeletal Muscle Relaxants",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q84",
+      "id": "QST-KASR208INT-2024EOM2-84",
+      "page": 18,
+      "title": "Reversal of a competitive nicotinic blocker",
+      "question": "A person undergoing abdominal surgery was given a muscle relaxant that competitively blocks nicotinic receptors. Which of the following drugs is used for reversal of muscle relaxation caused by this agent after surgery?",
+      "options": {
+        "A": "Neostigmine",
+        "B": "Carbachol",
+        "C": "Succinylcholine",
+        "D": "Physostigmine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Neostigmine is an anticholinesterase that inhibits acetylcholinesterase, letting acetylcholine accumulate at nicotinic receptors of the neuromuscular junction; this accumulated acetylcholine competes with and displaces a non-depolarizing (competitive) neuromuscular blocker from the receptor, relieving the block. As a quaternary amine it also does not cross the blood-brain barrier appreciably, keeping its action peripheral.",
+        "B": "Incorrect. Carbachol is a direct-acting muscarinic agonist used for glaucoma and post-operative urinary retention/ileus, not a reversal agent for nondepolarizing neuromuscular blockade.",
+        "C": "Incorrect. Succinylcholine is itself a depolarizing neuromuscular blocker, not a reversal agent -- giving it would add to, not reverse, neuromuscular blockade.",
+        "D": "Incorrect. Physostigmine is a tertiary-amine anticholinesterase that crosses the blood-brain barrier, used for glaucoma and as an antidote for atropine/anticholinergic poisoning, not as the standard reversal agent for surgical nondepolarizing blockade."
+      },
+      "main_concept": "CON-FND-960CB57A05C308",
+      "concept_ids": [
+        "CON-FND-960CB57A05C308"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain neostigmine's reversal of a competitive (nondepolarizing) neuromuscular blocker as anticholinesterase-driven acetylcholine accumulation outcompeting the blocker at nicotinic receptors, identified here as a drug-choice question rather than a mechanism-explanation one.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Cholinergic Agonists and Anticholinesterases",
+      "library_ids": [
+        "ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q87",
+      "id": "QST-KASR208INT-2024EOM2-87",
+      "page": 18,
+      "title": "Epoprostenol for pulmonary hypertension",
+      "question": "Epoprostenol, an analog of PGI2 sometimes used by IV infusion. Which of the following is the main use for this drug?",
+      "options": {
+        "A": "Treatment of postpartum hemorrhage",
+        "B": "Treatment of open angle glaucoma",
+        "C": "Treatment of pulmonary hypertension",
+        "D": "Treatment of acute migraine headache"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Postpartum hemorrhage is instead treated with a uterotonic PGF2-alpha or PGE2 analogue, causing uterine contraction -- the opposite smooth-muscle effect from prostacyclin's vasodilation.",
+        "B": "Incorrect. Open-angle glaucoma is treated with the PGF2-alpha analogue latanoprost (increasing uveoscleral outflow), not a PGI2 analogue.",
+        "C": "Correct. Epoprostenol is a PGI2 (prostacyclin) analogue used via IV infusion for pulmonary arterial hypertension, exploiting prostacyclin's IP-receptor-mediated vasodilation on the pulmonary vasculature. Its route (IV infusion) and site of action (pulmonary vasculature) both fit this specific indication.",
+        "D": "Incorrect. Acute migraine is treated with triptans or NSAIDs, not a prostacyclin analogue."
+      },
+      "main_concept": "CON-FND-F8E8716E8373F1",
+      "concept_ids": [
+        "CON-FND-F8E8716E8373F1"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify pulmonary arterial hypertension as epoprostenol's main indication as an IV PGI2 analogue, distinguishing it from PGF2-alpha/PGE2 uses (postpartum hemorrhage, glaucoma) and migraine therapy.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autacoids",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q88",
+      "id": "QST-KASR208INT-2024EOM2-88",
+      "page": 18,
+      "title": "Alprostadil to maintain ductus arteriosus",
+      "question": "A newly born infant is being prepared for surgical repair of a congenital heart disease. Which of the following agents might be administered pre-operatively?",
+      "options": {
+        "A": "Alprostadil",
+        "B": "Ergotamine",
+        "C": "Misoprostol",
+        "D": "Zafirlukast"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Alprostadil is a PGE1 analogue used for maintaining patent ductus arteriosus in neonates; in a newborn awaiting surgical repair of a ductal-dependent congenital heart disease, keeping the ductus open preserves blood flow until surgery can be performed. Stopping alprostadil before a ductal-dependent lesion is repaired would let the ductus close and cut off the infant's compensatory blood flow.",
+        "B": "Incorrect. Ergotamine is an ergot alkaloid used for acute migraine, unrelated to neonatal ductal physiology.",
+        "C": "Incorrect. Misoprostol is a PGE1 analogue, but its clinical use is preventing NSAID-induced gastric ulcers, not maintaining ductal patency.",
+        "D": "Incorrect. Zafirlukast is a leukotriene-receptor antagonist used in asthma, unrelated to prostaglandin-mediated ductal tone."
+      },
+      "main_concept": "CON-FND-22715BD2E4382B",
+      "concept_ids": [
+        "CON-FND-22715BD2E4382B"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify alprostadil as the PGE1 analogue given pre-operatively to keep the ductus arteriosus open in a neonate awaiting congenital heart disease repair.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autacoids",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q91",
+      "id": "QST-KASR208INT-2024EOM2-91",
+      "page": 19,
+      "title": "Corticosteroids block all eicosanoid synthesis",
+      "question": "Which of the following would inhibit the synthesis of all the members of the eicosanoids family?",
+      "options": {
+        "A": "Dazoxiben",
+        "B": "Glucocorticoids",
+        "C": "Montelukast",
+        "D": "Non-steroidal anti-inflammatory drugs"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Dazoxiben blocks only thromboxane synthase, a single downstream enzyme, not the whole eicosanoid family.",
+        "B": "Correct. Corticosteroids such as prednisone and dexamethasone decrease phospholipase A2 activity, cutting off arachidonic acid release at its source, so they reduce synthesis of ALL eicosanoids -- prostaglandins, thromboxane and leukotrienes alike. This pan-eicosanoid effect is why corticosteroids are more broadly anti-inflammatory than any single-pathway inhibitor.",
+        "C": "Incorrect. Montelukast blocks only leukotriene receptors, not synthesis of the whole eicosanoid family.",
+        "D": "Incorrect. NSAIDs inhibit only the cyclooxygenase (COX) branch, leaving the lipoxygenase/leukotriene pathway untouched -- and can even increase leukotriene synthesis by diverting substrate."
+      },
+      "main_concept": "CON-FND-4F6841F3100819",
+      "concept_ids": [
+        "CON-FND-4F6841F3100819"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify corticosteroids, via phospholipase A2 inhibition, as the drug class that blocks synthesis of the entire eicosanoid family, unlike NSAIDs (COX-only), montelukast (leukotriene-receptor-only) or dazoxiben (thromboxane-synthase-only).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autacoids",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q92",
+      "id": "QST-KASR208INT-2024EOM2-92",
+      "page": 19,
+      "title": "Beta blockers in angina: decreased cardiac work",
+      "question": "Which of the following is a benefit of B-blockers in the treatment of angina?",
+      "options": {
+        "A": "Coronary vasodilatation",
+        "B": "Decreased cardiac work",
+        "C": "Decreased incidence of atherosclerosis",
+        "D": "Inhibition of platelet aggregation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Beta blockers do not produce coronary vasodilation; non-selective agents can even cause unopposed alpha-mediated coronary constriction.",
+        "B": "Correct. Beta blockers decrease cardiac output and myocardial oxygen demand, and this decreased cardiac work -- via reduced heart rate and contractility -- is the core mechanism of their antianginal benefit. This is why beta-blockers are used as prophylactic, not acute-attack, antianginal therapy.",
+        "C": "Incorrect. Beta blockers have no established role in decreasing the incidence of atherosclerosis itself.",
+        "D": "Incorrect. Inhibition of platelet aggregation is a property of antiplatelet drugs such as aspirin, not beta blockers."
+      },
+      "main_concept": "CON-FND-962747C2F4E57A",
+      "concept_ids": [
+        "CON-FND-962747C2F4E57A"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify decreased cardiac work/myocardial oxygen demand, not coronary vasodilation, reduced atherosclerosis or antiplatelet action, as the mechanism of beta blockers' antianginal benefit.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Antianginal Drugs",
+      "library_ids": [
+        "ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q93",
+      "id": "QST-KASR208INT-2024EOM2-93",
+      "page": 19,
+      "title": "Propranolol contraindicated in vasospastic angina",
+      "question": "Propranolol is contraindicated in vasospastic angina as it may precipitate",
+      "options": {
+        "A": "Coronary atherosclerosis",
+        "B": "Coronary vasoconstriction",
+        "C": "Hypertension",
+        "D": "Salt and water retention"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Propranolol's contraindication in vasospastic angina is not through worsening atherosclerosis.",
+        "B": "Correct. Non-selective beta blockers such as propranolol severely worsen vasospastic (Prinzmetal) angina because blocking beta-2-mediated coronary vasodilation leaves alpha-receptor-mediated coronary vasoconstriction unopposed, precipitating or worsening the coronary vasospasm that defines this angina subtype. Calcium channel blockers or nitrates, not beta-blockers, are the preferred prophylactic choice for this angina subtype.",
+        "C": "Incorrect. Propranolol lowers, rather than raises, blood pressure; hypertension is not the mechanism of harm here.",
+        "D": "Incorrect. Salt and water retention is not the mechanism by which propranolol worsens vasospastic angina."
+      },
+      "main_concept": "CON-FND-EE32D3DC0D0445",
+      "concept_ids": [
+        "CON-FND-EE32D3DC0D0445"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain that propranolol is contraindicated in vasospastic angina because non-selective beta-blockade leaves coronary alpha-vasoconstriction unopposed, precipitating vasospasm.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Antianginal Drugs",
+      "library_ids": [
+        "ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q94",
+      "id": "QST-KASR208INT-2024EOM2-94",
+      "page": 20,
+      "title": "Mechanism of nitrate tolerance",
+      "question": "Which of the following is the most likely mechanism of tolerance to the anti-anginal effects of organic nitrates?",
+      "options": {
+        "A": "Activation of enzymes responsible for nitrate metabolism",
+        "B": "Compensatory increase in intracellular calcium with prolonged nitrate use",
+        "C": "Depletion of endogenous SH groups required for nitrate activation",
+        "D": "Internalization of receptors responsible for nitrate action"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Tolerance is not from activation of nitrate-metabolising enzymes; it is from depletion of the -SH groups those enzymes consume during denitration.",
+        "B": "Incorrect. Tolerance is not attributed to a compensatory rise in intracellular calcium.",
+        "C": "Correct. Organic nitrates are de-nitrated in the body by an enzyme that consumes -SH (sulfhydryl) groups to release nitric oxide; with prolonged/continuous use these -SH groups are depleted faster than regenerated, blunting further NO release -- which is why a nitrate-free interval, or co-administration of an -SH donor such as cysteine or captopril, prevents tolerance. This is why a nitrate-free interval or an -SH-donor such as cysteine or captopril prevents tolerance from developing.",
+        "D": "Incorrect. There is no classical nitrate surface receptor to internalise -- nitrates act via an intracellular enzymatic denitration step, not receptor binding."
+      },
+      "main_concept": "CON-FND-56C194095F9443",
+      "concept_ids": [
+        "CON-FND-56C194095F9443"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify depletion of endogenous sulfhydryl (-SH) groups needed for nitrate denitration/NO release as the mechanism of nitrate tolerance, and the nitrate-free-interval strategy that prevents it.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Antianginal Drugs",
+      "library_ids": [
+        "ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q95",
+      "id": "QST-KASR208INT-2024EOM2-95",
+      "page": 20,
+      "title": "Sequence of nitrate-induced smooth muscle relaxation",
+      "question": "Which of the following accurately describes the sequence of events for the organic nitrates-induced smooth muscle relaxation?",
+      "options": {
+        "A": "De-nitration -> increase in cGMP -> de-phosphorylation of myosin light chain kinase",
+        "B": "De-phosphorylation of myosin light chain kinase -> De-nitration -> increase in cGMP",
+        "C": "Increase in cGMP -> De-nitration -> de-phosphorylation of myosin light chain kinase",
+        "D": "Increase in cGMP -> de-phosphorylation of myosin light chain kinase -> De-nitration"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Organic nitrates are first de-nitrated, releasing nitric oxide, which activates guanylyl cyclase to raise cGMP; elevated cGMP then causes dephosphorylation of myosin light chain kinase, reducing its activity and producing vascular smooth-muscle relaxation. Denitration must come first (it is the source of the NO that raises cGMP), and cGMP's rise must precede the MLCK dephosphorylation it causes -- only this option has all three steps in the correct causal order.",
+        "B": "Incorrect. This reverses the causal order -- MLCK dephosphorylation is the DOWNSTREAM consequence of the cGMP rise, not a step preceding denitration and cGMP formation.",
+        "C": "Incorrect. cGMP cannot rise before denitration, since denitration is what releases the nitric oxide that activates guanylyl cyclase to form cGMP in the first place.",
+        "D": "Incorrect. Denitration, the initiating step that releases NO, cannot come last -- it must precede both the cGMP rise and the MLCK dephosphorylation it causes."
+      },
+      "main_concept": "CON-FND-417376B8A4CAA7",
+      "concept_ids": [
+        "CON-FND-417376B8A4CAA7"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Trace organic nitrates' molecular mechanism in the correct causal order -- denitration/NO release, then guanylyl cyclase activation and cGMP formation, then MLCK dephosphorylation -- as the basis for their antianginal, preload-reducing venodilation.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Antianginal Drugs",
+      "library_ids": [
+        "ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q96",
+      "id": "QST-KASR208INT-2024EOM2-96",
+      "page": 20,
+      "title": "Low oral bioavailability of nitrates and slow-release formulations",
+      "question": "Organic nitrates have an oral bioavailability of around 10%. Which of the following is the most likely to be an application of this property?",
+      "options": {
+        "A": "Combining nitrates with beta blockers is a favorable combination.",
+        "B": "Nitrates are given by IV infusion, and not IV bolus, in myocardial infarction.",
+        "C": "Nitrates are given sublingually during acute attacks of angina.",
+        "D": "Slow-release preparations of nitrates are available."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The favourable nitrate/beta-blocker combination is a pharmacodynamic fact (nitrates cause reflex tachycardia that beta-blockers blunt), not a consequence of oral bioavailability.",
+        "B": "Incorrect. Giving nitrates by IV infusion rather than bolus in MI relates to titratable dosing and avoiding a hypotensive spike, not to the oral bioavailability figure.",
+        "C": "Incorrect. Sublingual dosing for acute attacks exists specifically to bypass first-pass metabolism (achieving direct systemic absorption), rather than being an application of the low oral figure itself.",
+        "D": "Correct. GTN and isosorbide dinitrate undergo extensive first-pass hepatic metabolism, giving oral bioavailability of only around 10% -- too low and unpredictable for a standard oral tablet. This is exactly why slow-release (sustained-release) oral and transdermal preparations exist: giving a much larger dose accepts that only a small, relatively steady fraction survives first-pass metabolism, achieving a therapeutic long-acting prophylactic level."
+      },
+      "main_concept": "CON-FND-F00D7E8EB69B91",
+      "concept_ids": [
+        "CON-FND-F00D7E8EB69B91"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain that organic nitrates' ~10% oral bioavailability (from extensive first-pass metabolism) is the pharmacokinetic reason slow-release oral/transdermal preparations are used for prophylaxis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Antianginal Drugs",
+      "library_ids": [
+        "ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q97",
+      "id": "QST-KASR208INT-2024EOM2-97",
+      "page": 20,
+      "title": "Verapamil's antianginal heart-rate effect",
+      "question": "Which of the following describes the anti-anginal effects of verapamil?",
+      "options": {
+        "A": "It can be safely combined with beta blockers.",
+        "B": "It has no vasodilator properties.",
+        "C": "It reduces the heart rate.",
+        "D": "It reduces cardiac work but also reduces coronary perfusion time."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Verapamil cannot safely be combined with beta blockers -- both are cardiac depressants, and the combination risks severe bradycardia, heart block or asystole.",
+        "B": "Incorrect. Verapamil does have vasodilator (coronary) properties, though with less reflex tachycardia than the dihydropyridine nifedipine.",
+        "C": "Correct. Verapamil is a non-dihydropyridine calcium channel blocker that is a powerful cardiac depressant with negative chronotropic effects (inhibiting the SA node), reducing heart rate as part of its antianginal mechanism -- unlike the dihydropyridines, which are weak myocardial depressants that do not inhibit the SA/AV node. This heart-rate-reducing action is part of why verapamil cannot safely be combined with a beta-blocker or digoxin.",
+        "D": "Incorrect. By slowing heart rate, verapamil increases (not reduces) diastolic coronary perfusion time, the opposite of this option's claim."
+      },
+      "main_concept": "CON-FND-33FE01904626C8",
+      "concept_ids": [
+        "CON-FND-33FE01904626C8"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that verapamil's antianginal mechanism includes reducing heart rate via negative chronotropy (SA-node inhibition), unlike the dihydropyridine calcium channel blockers.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Antianginal Drugs",
+      "library_ids": [
+        "ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q98",
+      "id": "QST-KASR208INT-2024EOM2-98",
+      "page": 21,
+      "title": "ACEI vs ARB: bradykinin difference",
+      "question": "Which of the following is a difference between the effects of Angiotensin Converting Enzyme Inhibitors (ACEIs) and those of Angiotensin Receptor Blockers (ARBs)?",
+      "options": {
+        "A": "ARBs do not increase plasma potassium.",
+        "B": "ARBs do not increase the level of bradykinin.",
+        "C": "ARBs do not decrease the level of aldosterone.",
+        "D": "ARBs do not produce vasodilatation."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Both ACE inhibitors and ARBs raise serum potassium by blocking angiotensin II's effects; this is not a difference between them.",
+        "B": "Correct. ARBs do not inhibit kininase II (identical to ACE) and so do not increase bradykinin levels, whereas ACE inhibitors do, by blocking the same enzyme that normally degrades bradykinin -- this is exactly why ARBs lack the dry cough and carry a much lower angioedema incidence than ACE inhibitors. This bradykinin difference is the single mechanistic distinction underlying every downstream difference in side-effect profile between the two classes.",
+        "C": "Incorrect. Both classes decrease aldosterone by blocking angiotensin II action; this is not a difference between them.",
+        "D": "Incorrect. Both classes produce vasodilatation by blocking angiotensin II's vasoconstrictor effect; this is not a difference between them."
+      },
+      "main_concept": "CON-FND-A53DADE4F02024",
+      "concept_ids": [
+        "CON-FND-A53DADE4F02024"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify 'ARBs do not increase bradykinin' as the genuine mechanistic difference from ACE inhibitors, explaining ARBs' lower cough/angioedema incidence, and rule out potassium, aldosterone and vasodilatation as false differences.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs",
+      "library_ids": [
+        "ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q100",
+      "id": "QST-KASR208INT-2024EOM2-100",
+      "page": 21,
+      "title": "ACE inhibitor causing fetal oligohydramnios",
+      "question": "A hypertensive lady got pregnant. She continued to take her antihypertensive treatment. In her third trimester she performed sonography that showed oligohydramnios. She was told that her anti-hypertensive medication was the cause and that her baby got renal failure. Which of the following could most likely be the drug she used?",
+      "options": {
+        "A": "Alpha methyldopa",
+        "B": "Captopril",
+        "C": "Hydralazine",
+        "D": "Verapamil"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Alpha-methyldopa is the primary drug used for hypertension during pregnancy precisely because it lacks fetotoxicity of this kind.",
+        "B": "Correct. ACE inhibitors are contraindicated in the 2nd/3rd trimester because fetal exposure can cause fetal hypotension, anuria and oligohydramnios, reflecting fetal renal impairment from blocking the fetal renin-angiotensin system the fetal kidney depends on for perfusion in utero. Captopril, an ACE inhibitor, is the drug most likely to have caused this picture.",
+        "C": "Incorrect. Hydralazine is used for hypertensive emergencies in pregnancy and has no particular association with oligohydramnios/fetal renal failure.",
+        "D": "Incorrect. Verapamil has no particular association with oligohydramnios or fetal renal failure."
+      },
+      "main_concept": "CON-FND-9311CCEFDE8202",
+      "concept_ids": [
+        "CON-FND-9311CCEFDE8202"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify an ACE inhibitor (captopril) as the drug most likely to cause fetal oligohydramnios and renal failure when continued into the second/third trimester of pregnancy.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs",
+      "library_ids": [
+        "ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q101",
+      "id": "QST-KASR208INT-2024EOM2-101",
+      "page": 21,
+      "title": "Beta blocker added to hydralazine for reflex tachycardia",
+      "question": "A hypertensive patient was put on hydralazine with a beta blocker in combination. Which of the following could be the most likely reason for putting the beta blocker?",
+      "options": {
+        "A": "To decrease the incidence of lupus-like manifestations of hydralazine",
+        "B": "To decrease the reflex tachycardia caused by hydralazine's vasodilatation",
+        "C": "To enhance the vasodilatation produced by hydralazine",
+        "D": "To reduce hydralazine's tendency to cause salt and water retention"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hydralazine's lupus-like-syndrome risk depends on acetylator status and dose, and is managed by dose limitation, not by adding a beta blocker.",
+        "B": "Correct. Hydralazine causes reflex activation of the sympathetic nervous system (tachycardia, increased cardiac output) from its potent arteriolar vasodilatation, and a beta blocker is added specifically to blunt this reflex tachycardia. The diuretic added alongside handles the separate fluid-retention problem hydralazine also causes.",
+        "C": "Incorrect. The beta blocker if anything opposes the compensatory tachycardic response, not the vasodilation itself, and does not enhance hydralazine's vasodilator effect.",
+        "D": "Incorrect. Countering hydralazine's fluid retention is the job of the diuretic in this three-drug strategy, not the beta blocker."
+      },
+      "main_concept": "CON-FND-56EF84DE219625",
+      "concept_ids": [
+        "CON-FND-56EF84DE219625"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify blunting hydralazine's reflex tachycardia, not reducing lupus risk, enhancing vasodilatation, or reducing fluid retention, as the reason a beta blocker is combined with it.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs",
+      "library_ids": [
+        "ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q102",
+      "id": "QST-KASR208INT-2024EOM2-102",
+      "page": 22,
+      "title": "Sodium nitroprusside cyanide toxicity",
+      "question": "A patient with emergency hypertension was receiving an antihypertensive drug by IV infusion. After two days of continuous therapy with this drug it was noticed that the patient developed arrhythmia and acidosis. Which of the following is the most likely to be the drug causing this toxicity?",
+      "options": {
+        "A": "Minoxidil",
+        "B": "Sodium nitroprusside",
+        "C": "Hydralazine",
+        "D": "Diazoxide"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Minoxidil is an oral, not IV-infused, direct arteriolar vasodilator with no cyanide-release mechanism.",
+        "B": "Correct. Sodium nitroprusside is a potent nitric oxide donor used by IV infusion for hypertensive emergencies, but its chemical breakdown releases cyanide ions; prolonged infusion can cause cyanide/thiocyanate poisoning, presenting with metabolic acidosis, tachycardia/arrhythmia, confusion and coma -- exactly this picture after two days of continuous infusion. Sodium thiosulfate and hydroxocobalamin are the specific antidotes for this cyanide-mediated toxicity.",
+        "C": "Incorrect. Hydralazine is a direct arteriolar vasodilator without a cyanide-release mechanism; its characteristic adverse effect is a lupus-like syndrome, not arrhythmia/acidosis.",
+        "D": "Incorrect. Diazoxide is a potassium-channel opener that instead causes hyperglycaemia by inhibiting insulin release, not cyanide toxicity."
+      },
+      "main_concept": "CON-FND-AF019794F1B8E6",
+      "concept_ids": [
+        "CON-FND-AF019794F1B8E6"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify sodium nitroprusside as the IV antihypertensive whose prolonged infusion causes cyanide/thiocyanate toxicity, presenting with arrhythmia and metabolic acidosis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs",
+      "library_ids": [
+        "ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q103",
+      "id": "QST-KASR208INT-2024EOM2-103",
+      "page": 22,
+      "title": "Beta-blocker therapy in HFrEF",
+      "question": "A beta blocker shall be prescribed for a 55-year-old lady with heart failure with reduced ejection fraction (HFrEF). Which of the following describes therapy with this class of drugs for this patient?",
+      "options": {
+        "A": "Propranolol and sotalol are the most preferred agents for this type of patient.",
+        "B": "The beta blocker dose shall be fixed from the start to the end of therapy.",
+        "C": "Therapy aims to control sympathetic overactivation, so heart rate should be monitored.",
+        "D": "Therapy should be continued even if not tolerated by the patient and the heart failure becomes severe."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Only bisoprolol, carvedilol and metoprolol succinate carry the mortality-benefit evidence in HFrEF -- not propranolol or sotalol.",
+        "B": "Incorrect. Beta-blocker dosing in HFrEF must be initiated at very low doses, only once euvolemic, and up-titrated gradually -- not fixed from the start.",
+        "C": "Correct. The therapeutic goal of beta blockers in HFrEF is to protect the heart from the cardiotoxic effects of chronic sympathetic overactivation, so heart rate (and clinical tolerance) is monitored through careful up-titration. This cautious titration approach is what lets a drug class that can worsen decompensated heart failure acutely still deliver long-term mortality benefit.",
+        "D": "Incorrect. Beta blockers can precipitate cardiogenic shock in decompensated heart failure and must be reduced or stopped, not forced through, if not tolerated."
+      },
+      "main_concept": "CON-FND-15F2515F007F1F",
+      "concept_ids": [
+        "CON-FND-15F2515F007F1F"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Describe HFrEF beta-blocker therapy correctly: started at very low doses once euvolemic, titrated with heart-rate/tolerance monitoring, stopped if not tolerated -- not fixed-dose or forced through intolerance.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Heart Failure Drugs",
+      "library_ids": [
+        "ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q104",
+      "id": "QST-KASR208INT-2024EOM2-104",
+      "page": 22,
+      "title": "ACE inhibitor effect in HFrEF",
+      "question": "Which of the following is an effect of angiotensin converting enzyme inhibitors in a patient with heart failure with reduced ejection fraction (HFrEF)?",
+      "options": {
+        "A": "Cardiac preload and afterload and cardiac output are all decreased.",
+        "B": "Benefit is expected only in symptomatic patients",
+        "C": "Benefit is expected only in early stages of heart failure.",
+        "D": "Angiotensin II and aldosterone will be reduced."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Preload and afterload fall (beneficial vasodilation), but cardiac output is maintained or improved, not decreased, because unloading a failing heart lets it work more effectively -- not all three fall together.",
+        "B": "Incorrect. ACE-inhibitor benefit in HFrEF is not restricted to symptomatic patients; they are indicated across the spectrum, symptomatic or not.",
+        "C": "Incorrect. ACE-inhibitor benefit is not restricted to early-stage heart failure; they are first-line across the spectrum of HFrEF severity.",
+        "D": "Correct. ACE inhibitors are first-line therapy in HFrEF, reducing afterload and adverse cardiac remodeling; their core pharmacological effect is reducing angiotensin II formation and, consequently, aldosterone secretion. This is exactly why ACE inhibitors help rather than further depress a failing heart."
+      },
+      "main_concept": "CON-FND-DEEB159043E8B9",
+      "concept_ids": [
+        "CON-FND-DEEB159043E8B9"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that ACE inhibitors in HFrEF work by reducing angiotensin II and aldosterone, and correctly distinguish this from the false claims that CO falls together with preload/afterload or that benefit is stage/symptom-restricted.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Heart Failure Drugs",
+      "library_ids": [
+        "ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q105",
+      "id": "QST-KASR208INT-2024EOM2-105",
+      "page": 22,
+      "title": "Sacubitril increases angiotensin II",
+      "question": "Sacubitril is an inhibitor of the enzyme neprilysin. It is used in the therapy of heart failure with reduced ejection fraction (HFrEF). Sacubitril use is expected to increase which of the following?",
+      "options": {
+        "A": "Angiotensin II",
+        "B": "Blood pressure",
+        "C": "Blood volume",
+        "D": "Sympathetic tone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Neprilysin normally degrades not only natriuretic peptides but also angiotensin-pathway peptides, so inhibiting it with sacubitril raises angiotensin II levels alongside the beneficial natriuretic peptides -- exactly why sacubitril cannot be used alone and is instead combined with valsartan (an ARB) as an ARNI, so the AT1 receptor blocks the angiotensin II increase sacubitril itself causes. This is precisely why sacubitril must always be paired with an ARB rather than used, or combined with an ACE inhibitor, alone.",
+        "B": "Incorrect. Sacubitril's net effect (as part of the ARNI) is vasodilation, natriuresis and diuresis -- it lowers, not raises, blood pressure.",
+        "C": "Incorrect. Sacubitril increases natriuresis and diuresis, which lowers, not raises, blood volume.",
+        "D": "Incorrect. Sacubitril/valsartan reduces the neurohormonal (including sympathetic) overactivation of heart failure rather than increasing sympathetic tone."
+      },
+      "main_concept": "CON-FND-F3CB6195CC2DD4",
+      "concept_ids": [
+        "CON-FND-F3CB6195CC2DD4"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Explain that sacubitril's neprilysin inhibition raises angiotensin II alongside beneficial natriuretic peptides, which is why it is always paired with an ARB (valsartan) as an ARNI rather than used alone.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Heart Failure Drugs",
+      "library_ids": [
+        "ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q107",
+      "id": "QST-KASR208INT-2024EOM2-107",
+      "page": 23,
+      "title": "Digitalis toxicity and hypercalcemia",
+      "question": "Digitalis toxicity may be increased by which of the following?",
+      "options": {
+        "A": "Hypercalcemia",
+        "B": "Hyperkalemia",
+        "C": "Hypermagnesemia",
+        "D": "Hyperthyroidism"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Digoxin toxicity risk factors include renal impairment, hypokalemia, hypomagnesemia AND hypercalcemia -- higher intracellular calcium compounds digoxin's own calcium-raising, arrhythmogenic action at the myocyte, increasing toxicity risk. This is why a patient's calcium level is checked alongside potassium and magnesium before adjusting a digoxin dose.",
+        "B": "Incorrect. It is HYPOkalemia, not hyperkalemia, that increases digitalis toxicity: digoxin and potassium compete for the same Na+/K+ ATPase binding site, so low potassium lets more digoxin bind and inhibit the pump.",
+        "C": "Incorrect. It is hypOmagnesemia, not hypermagnesemia, that is a recognised digitalis-toxicity risk factor.",
+        "D": "Incorrect. Hyperthyroidism is not among the recognised digitalis-toxicity risk factors (renal impairment, hypokalemia, hypomagnesemia, hypercalcemia)."
+      },
+      "main_concept": "CON-FND-B929F5B301F1E1",
+      "concept_ids": [
+        "CON-FND-B929F5B301F1E1"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Name hypercalcemia (alongside renal impairment, hypokalemia and hypomagnesemia) as a digitalis-toxicity risk factor, distinguishing it from the listed distractors hyperkalemia, hypermagnesemia and hyperthyroidism.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Heart Failure Drugs",
+      "library_ids": [
+        "ART-FND-208INT-HEART-FAILURE-ARRHYTHMIA-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q108",
+      "id": "QST-KASR208INT-2024EOM2-108",
+      "page": 23,
+      "title": "Captopril raises hyperkalemia risk with a K-sparing diuretic",
+      "question": "Which of the following medications is most likely to increase the risk of hyperkalemia if given with a potassium-sparing diuretic?",
+      "options": {
+        "A": "Furosemide",
+        "B": "Hydrochlorothiazide",
+        "C": "Captopril",
+        "D": "Verapamil"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Furosemide is a potassium-WASTING loop diuretic, which would tend to offset rather than compound a potassium-sparing diuretic's hyperkalemia risk.",
+        "B": "Incorrect. Hydrochlorothiazide is likewise a potassium-wasting (thiazide) diuretic, working in the opposite direction on potassium.",
+        "C": "Correct. Potassium-retaining diuretics such as spironolactone already carry a hyperkalemia risk on their own, and this risk is specifically increased with concurrent ACE inhibitors, ARBs, beta-blockers or NSAIDs -- because ACE inhibitors independently reduce aldosterone secretion, compounding the diuretic's potassium-retaining action. Captopril, an ACE inhibitor, is the listed drug that raises this risk.",
+        "D": "Incorrect. Verapamil has no particular potassium-retaining interaction with a potassium-sparing diuretic."
+      },
+      "main_concept": "CON-FND-29DB8E0D8A6D9F",
+      "concept_ids": [
+        "CON-FND-29DB8E0D8A6D9F"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify captopril (an ACE inhibitor) as the drug that increases hyperkalemia risk when combined with a potassium-sparing diuretic, unlike the potassium-wasting furosemide/hydrochlorothiazide.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Diuretics",
+      "library_ids": [
+        "ART-FND-208INT-DIURETIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q110",
+      "id": "QST-KASR208INT-2024EOM2-110",
+      "page": 23,
+      "title": "Chronic loop diuretic causing hypocalcemia",
+      "question": "Which of the following is an important side effect of chronic therapy with loop diuretics?",
+      "options": {
+        "A": "Renal failure",
+        "B": "Hepatotoxicity",
+        "C": "Metabolic acidosis",
+        "D": "Hypocalcemia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Renal failure is not the characteristic chronic loop-diuretic side effect being tested here.",
+        "B": "Incorrect. Loop diuretics are not characteristically hepatotoxic.",
+        "C": "Incorrect. Loop diuretics tend to cause metabolic ALKALOSIS (from volume contraction and hydrogen-ion loss), not acidosis.",
+        "D": "Correct. Furosemide decreases the lumen-positive potential generated in the thick ascending limb, which normally drives passive calcium (and magnesium) reabsorption there -- so loop diuretics decrease calcium reabsorption, causing hypocalcemia with chronic use. This is the opposite of thiazide diuretics, which enhance calcium reabsorption and are used therapeutically for hypercalciuria."
+      },
+      "main_concept": "CON-FND-74A7508BF3D4B5",
+      "concept_ids": [
+        "CON-FND-74A7508BF3D4B5"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain that chronic loop-diuretic therapy causes hypocalcemia by decreasing the lumen-positive-potential-driven calcium reabsorption in the thick ascending limb, opposite to the calcium-retaining thiazides.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Diuretics",
+      "library_ids": [
+        "ART-FND-208INT-DIURETIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q111",
+      "id": "QST-KASR208INT-2024EOM2-111",
+      "page": 24,
+      "title": "Spironolactone causing gynecomastia",
+      "question": "A male patient is placed on a new medication and notes that his breasts have become enlarged and tender to the touch. This was diagnosed as gynecomastia. Which medication is he most likely taking?",
+      "options": {
+        "A": "Chlorthalidone.",
+        "B": "Furosemide.",
+        "C": "Hydrochlorothiazide.",
+        "D": "Spironolactone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Chlorthalidone is a thiazide-like diuretic with no aldosterone-receptor or anti-androgenic activity to explain gynecomastia.",
+        "B": "Incorrect. Furosemide is a loop diuretic with no anti-androgenic mechanism.",
+        "C": "Incorrect. Hydrochlorothiazide is a thiazide diuretic with no anti-androgenic mechanism.",
+        "D": "Correct. Spironolactone causes endocrinal side effects including gynecomastia and impotence in males, because as a steroidal aldosterone-receptor antagonist it also has anti-androgenic activity at other steroid receptors -- the same anti-androgenic effect exploited therapeutically for hirsutism in polycystic ovary syndrome. This distinguishes it from the non-steroidal potassium-sparing diuretics (triamterene, amiloride) and from eplerenone, which is engineered to lack these anti-androgenic effects."
+      },
+      "main_concept": "CON-FND-73EDAF45C00CE7",
+      "concept_ids": [
+        "CON-FND-73EDAF45C00CE7"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify spironolactone as the potassium-sparing diuretic that causes gynecomastia and impotence in males, from anti-androgenic activity at steroid receptors beyond the aldosterone receptor.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Diuretics",
+      "library_ids": [
+        "ART-FND-208INT-DIURETIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Cardiovascular pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q113",
+      "id": "QST-KASR208INT-2024EOM2-113",
+      "page": 24,
+      "title": "Statin myopathy presenting as rhabdomyolysis",
+      "question": "A 46-year-old male patient has been recently given atorvastatin for the treatment of hypercholesterolemia. Three weeks after therapy initiation he complained of dark, red colored urine, accompanied by an increase in plasma creatine kinase. This picture was probably caused by the effect of statins on which of the following?",
+      "options": {
+        "A": "Red blood cells",
+        "B": "Skeletal muscle fibers",
+        "C": "The liver",
+        "D": "Triglycerides"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Statins are not classically hemolytic; a red-blood-cell effect would not explain elevated creatine kinase.",
+        "B": "Correct. Statin adverse effects on muscle range from mild myalgia to life-threatening rhabdomyolysis -- muscle breakdown presenting with dark, myoglobin-containing urine and markedly elevated creatine kinase, exactly this patient's picture three weeks after starting atorvastatin. Renal impairment, hypothyroidism and CYP3A4-inhibitor drug interactions all further raise this myopathy risk.",
+        "C": "Incorrect. Statins do cause asymptomatic transaminase elevation, but a hepatic effect would not explain dark urine or elevated creatine kinase specifically.",
+        "D": "Incorrect. Statins lower, not raise, triglycerides, and a triglyceride change would not cause this clinical picture."
+      },
+      "main_concept": "CON-FND-8C656E3228A020",
+      "concept_ids": [
+        "CON-FND-8C656E3228A020"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify skeletal muscle fibers, via the statin myopathy-to-rhabdomyolysis spectrum, as the tissue explaining dark urine and elevated creatine kinase after statin therapy, not red cells, liver or triglycerides.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Lipid-Lowering Drugs",
+      "library_ids": [
+        "ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Lipid-lowering pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q114",
+      "id": "QST-KASR208INT-2024EOM2-114",
+      "page": 24,
+      "title": "Statins raise HDL",
+      "question": "Statins are most likely to increase which of the following?",
+      "options": {
+        "A": "Hepatic intra-cellular cholesterol",
+        "B": "Plasma HDL",
+        "C": "Plasma triglycerides",
+        "D": "Vascular inflammation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Statins DEPLETE hepatic intracellular cholesterol -- that depletion is exactly what upregulates hepatic LDL-receptor expression and clears plasma LDL.",
+        "B": "Correct. Beyond their primary LDL-lowering mechanism, statins modestly increase HDL (and decrease triglycerides) as an additional lipid effect. This modest HDL-raising, triglyceride-lowering profile is an additional benefit layered on top of statins' primary LDL-lowering action.",
+        "C": "Incorrect. Statins lower, not raise, plasma triglycerides.",
+        "D": "Incorrect. Statins' pleiotropic effects include reduced, not increased, vascular inflammation, alongside improved endothelial function and plaque stabilisation."
+      },
+      "main_concept": "CON-FND-CC92C2E72244AD",
+      "concept_ids": [
+        "CON-FND-CC92C2E72244AD"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that statins modestly raise plasma HDL (and lower triglycerides) as an additional effect beyond LDL-lowering, ruling out increased hepatic cholesterol, increased triglycerides or increased vascular inflammation.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Lipid-Lowering Drugs",
+      "library_ids": [
+        "ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Lipid-lowering pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q115",
+      "id": "QST-KASR208INT-2024EOM2-115",
+      "page": 25,
+      "title": "Bempedoic acid mechanism",
+      "question": "Inhibition of ATP citrate lyase, decreased endogenous cholesterol synthesis, indirectly increase in the expression of LDL receptors is the mechanism of action of which of the following?",
+      "options": {
+        "A": "Bempedoic acid",
+        "B": "Ezetimibe",
+        "C": "Fibrates",
+        "D": "Niacin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Bempedoic acid inhibits ATP-citrate lyase, an enzyme upstream of HMG-CoA reductase in hepatic cholesterol synthesis; blocking it decreases cholesterol synthesis, indirectly increasing hepatic LDL-receptor expression, the same compensatory upregulation statins rely on. It is activated in the liver and used as an oral statin adjunct.",
+        "B": "Incorrect. Ezetimibe blocks intestinal cholesterol absorption via the NPC1L1 transporter, not hepatic ATP-citrate lyase.",
+        "C": "Incorrect. Fibrates are PPAR-alpha agonists mainly lowering triglycerides via lipoprotein lipase, not ATP-citrate lyase inhibitors.",
+        "D": "Incorrect. Niacin inhibits adipose lipolysis via the GPR109A receptor, a different mechanism from ATP-citrate lyase inhibition."
+      },
+      "main_concept": "CON-FND-FB03A2CE756ABE",
+      "concept_ids": [
+        "CON-FND-FB03A2CE756ABE"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify bempedoic acid as the lipid-lowering drug whose mechanism is ATP-citrate lyase inhibition upstream of HMG-CoA reductase, distinct from ezetimibe, fibrates and niacin.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Lipid-Lowering Drugs",
+      "library_ids": [
+        "ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Lipid-lowering pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q116",
+      "id": "QST-KASR208INT-2024EOM2-116",
+      "page": 25,
+      "title": "Clopidogrel indication",
+      "question": "Which of the following is an indication of clopidogrel?",
+      "options": {
+        "A": "Prophylaxis of deep venous thrombosis",
+        "B": "Prophylaxis of transient ischemic attacks and ischemic stroke",
+        "C": "Treatment of pulmonary embolism",
+        "D": "Treatment of heparin-induced thrombocytopenia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Deep venous thrombosis prophylaxis is an anticoagulant indication (e.g. heparin, a DOAC), not an antiplatelet indication.",
+        "B": "Correct. Clopidogrel is an irreversible P2Y12 ADP-receptor antagonist on platelets (a prodrug requiring hepatic CYP2C19 bioactivation), and its established indication is secondary prophylaxis of ischemic events such as TIA and ischemic stroke, by preventing ADP-driven platelet aggregation. This arterial, antiplatelet role is distinct from the venous, anticoagulant indications the other options describe.",
+        "C": "Incorrect. Treatment of an established pulmonary embolism is an anticoagulant/thrombolytic indication, not an antiplatelet one.",
+        "D": "Incorrect. Heparin-induced thrombocytopenia is managed with a direct thrombin inhibitor such as argatroban, not an antiplatelet drug."
+      },
+      "main_concept": "CON-FND-97051F2F6511F7",
+      "concept_ids": [
+        "CON-FND-97051F2F6511F7"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify prophylaxis of TIA and ischemic stroke as clopidogrel's antiplatelet indication, distinguishing it from anticoagulant indications (DVT prophylaxis, PE treatment) and from HIT management.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Anticoagulants and Antiplatelets",
+      "library_ids": [
+        "ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Anticoagulant and antiplatelet pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q117",
+      "id": "QST-KASR208INT-2024EOM2-117",
+      "page": 25,
+      "title": "Heparin monitoring by aPTT",
+      "question": "Heparin therapy is monitored by:",
+      "options": {
+        "A": "Sedimentation rate",
+        "B": "Level of a-2 antiplasmin",
+        "C": "Activated partial thromboplastin time",
+        "D": "Prothrombin time"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Sedimentation rate does not reflect heparin's anticoagulant effect.",
+        "B": "Incorrect. Alpha-2 antiplasmin level is not used to monitor heparin therapy.",
+        "C": "Correct. Heparin therapy is controlled by maintaining aPTT at roughly twice the normal value, reflecting heparin's inhibition of thrombin and factors IXa, Xa, XIa and XIIa via antithrombin III, which prolongs this intrinsic-pathway-based assay. This intrinsic-pathway-based test is specific to heparin and is not used to monitor warfarin.",
+        "D": "Incorrect. Prothrombin time (standardised as INR) is how WARFARIN, not heparin, is monitored."
+      },
+      "main_concept": "CON-FND-DF53A51AA8CDB0",
+      "concept_ids": [
+        "CON-FND-DF53A51AA8CDB0"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that heparin therapy is monitored by aPTT (around twice normal), distinguishing this from warfarin's PT/INR monitoring and from unrelated tests (ESR, alpha-2-antiplasmin).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Anticoagulants and Antiplatelets",
+      "library_ids": [
+        "ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Anticoagulant and antiplatelet pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q118",
+      "id": "QST-KASR208INT-2024EOM2-118",
+      "page": 25,
+      "title": "Warfarin monitoring by INR",
+      "question": "Warfarin therapy is monitored by:",
+      "options": {
+        "A": "Bleeding time",
+        "B": "INR (international normalized ratio)",
+        "C": "Partial thromboplastin time",
+        "D": "Plasma fibrinogen concentration"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Bleeding time reflects platelet/vessel-wall function, not the coagulation-factor mechanism warfarin acts on.",
+        "B": "Correct. Warfarin therapy is controlled by PT (target about twice normal) standardised as the INR, typically targeted 2-3, reflecting warfarin's inhibition of vitamin K epoxide reductase and reduction of the vitamin-K-dependent factors II, VII, IX and X and proteins C and S. This standardisation is what makes INR comparable across different laboratories and PT reagents, unlike a raw PT value.",
+        "C": "Incorrect. Partial thromboplastin time (aPTT) is how HEPARIN, not warfarin, is monitored.",
+        "D": "Incorrect. Plasma fibrinogen concentration is not the standard warfarin-monitoring test."
+      },
+      "main_concept": "CON-FND-E834D851789E9D",
+      "concept_ids": [
+        "CON-FND-E834D851789E9D"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that warfarin therapy is monitored by INR (a standardized PT), distinguishing this from heparin's aPTT, platelet-function bleeding time, or fibrinogen concentration.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Anticoagulants and Antiplatelets",
+      "library_ids": [
+        "ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Anticoagulant and antiplatelet pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q119",
+      "id": "QST-KASR208INT-2024EOM2-119",
+      "page": 25,
+      "title": "Warfarin's in-vivo-only mechanism",
+      "question": "Which of the following statements is correct regarding anticoagulant therapy?",
+      "options": {
+        "A": "Heparin has delayed onset",
+        "B": "Heparin is effective orally.",
+        "C": "Warfarin is effective in vivo only",
+        "D": "Warfarin is antagonized by protamine sulfate."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Heparin has a RAPID onset after IV administration (delayed 20-60 minutes only after SC dosing), not a delayed onset.",
+        "B": "Incorrect. Heparin is a large, charged molecule not absorbed from the gut, so it is NOT effective orally -- it must be given IV or SC.",
+        "C": "Correct. Warfarin inhibits vitamin K epoxide reductase in the liver, preventing regeneration of active vitamin K needed to activate clotting factors -- a hepatic, cellular process occurring only in a living system, so warfarin has no anticoagulant effect if simply added to blood in a test tube, unlike heparin's direct antithrombin-mediated action, which works both in vivo and in vitro. This in-vivo dependency is a direct consequence of warfarin needing living hepatocyte machinery to exert its effect.",
+        "D": "Incorrect. Protamine sulfate is the antidote for HEPARIN, not warfarin -- warfarin's antidote is vitamin K1 (with PCC/FFP for serious bleeding)."
+      },
+      "main_concept": "CON-FND-ED6F922D728F1B",
+      "concept_ids": [
+        "CON-FND-ED6F922D728F1B"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify 'warfarin is effective in vivo only' as the correct statement, because its mechanism requires hepatic vitamin-K-cycle inhibition, unlike heparin's direct in-vitro-and-in-vivo antithrombin action.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Anticoagulants and Antiplatelets",
+      "library_ids": [
+        "ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Anticoagulant and antiplatelet pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q120",
+      "id": "QST-KASR208INT-2024EOM2-120",
+      "page": 25,
+      "title": "Abciximab mechanism",
+      "question": "Which of the following is the mechanism of action of abciximab?",
+      "options": {
+        "A": "Activate antithrombin III.",
+        "B": "Inhibition of vitamin K epoxide reductase enzyme.",
+        "C": "Block of platelet glycoprotein IIb/IIIa receptors.",
+        "D": "Block irreversibly platelet ADP receptors."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Activating antithrombin III is heparin's mechanism, not abciximab's.",
+        "B": "Incorrect. Inhibiting vitamin K epoxide reductase is warfarin's mechanism, not abciximab's.",
+        "C": "Correct. Abciximab, eptifibatide and tirofiban are GP IIb/IIIa antagonists, given IV only, that block the glycoprotein IIb/IIIa receptor on platelets -- the final common pathway of platelet aggregation, through which fibrinogen cross-links adjacent platelets regardless of which upstream agonist activated them. This final-pathway blockade is why GP IIb/IIIa antagonists are effective regardless of which upstream platelet agonist is driving aggregation.",
+        "D": "Incorrect. Irreversibly blocking platelet ADP (P2Y12) receptors is clopidogrel/prasugrel's mechanism, a more upstream, single-receptor action distinct from abciximab's final-pathway blockade."
+      },
+      "main_concept": "CON-FND-6F103282570DB3",
+      "concept_ids": [
+        "CON-FND-6F103282570DB3"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify GP IIb/IIIa receptor blockade -- the final common pathway of platelet aggregation -- as abciximab's mechanism, distinguishing it from antithrombin activation, vitamin K epoxide reductase inhibition, or ADP-receptor blockade.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), cross-checked against the lane's hand-transcribed key table (208-INT-triage-keys.txt) -- full agreement, Q61-120."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Anticoagulants and Antiplatelets",
+      "library_ids": [
+        "ART-FND-208INT-LIPID-ANTICOAGULANT-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Anticoagulant and antiplatelet pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q61",
+      "hold": "Same-cluster twin of the already-held 2023eom-q61 (\"pediatric dosing factors\" -- more body water, more fat, lower plasma protein, more permeable BBB). Neither the [1st priority] department book (Moussa/Khazbak, both garbled) nor the readable [2nd priority] Pharma In Points notes cover general pediatric/geriatric pharmacokinetic dosing-factor content; the 2023 EOM paper itself independently tests the same fact (as its own Q61 EXCEPT-item), but an exam paper's own key is not a citable source for a book-grounded explanation. Held per the book-is-the-source rule, same gap as 2023eom-q61."
+    },
+    {
+      "key": "2024eom-q63",
+      "hold": "No readable source in this pass grounds the specific comparative fact tested (which cholinergic effect -- here, hypotension -- appears only with anticholinesterase exposure and not with direct parasympathetic nerve stimulation, because most blood vessels lack parasympathetic innervation while still bearing M3 receptors responsive to circulating ACh). Pharma In Points states endothelial M3-mediated vasodilation generally but does not draw this direct-nerve-stimulation-vs-anticholinesterase contrast. Held rather than authored from pharmacological reasoning alone; a render of the garbled department book or a more specific autonomic-pharmacology source is needed."
+    },
+    {
+      "key": "2024eom-q67",
+      "hold": "Hyoscine (scopolamine) is not covered anywhere in the readable [2nd priority] Pharma In Points source (0 hits for hyoscine/scopolamine), and the [1st priority] department book/bank remain garbled. Held per the book-is-the-source rule; a render of the garbled book, or a different readable pharmacology source covering hyoscine, is needed before this item can be authored."
+    },
+    {
+      "key": "2024eom-q70",
+      "hold": "Alpha-1-receptor-mediated bladder-sphincter contraction is basic autonomic physiology not covered in the readable [2nd priority] Pharma In Points pharmacology notes (which ground this lane's other autonomic items) or in this lane's already-authored 208 INT material. Held per the book-is-the-source rule rather than authored from physiology reasoning alone; the Year-1 102/108 INT autonomic-physiology material (not checked in this pass) may ground it."
+    },
+    {
+      "key": "2024eom-q76",
+      "hold": "Propranolol's short duration of action from extensive hepatic first-pass metabolism is not explicitly stated in the readable [2nd priority] Pharma In Points source (which covers propranolol's lipophilicity/CNS penetration and many clinical uses, but not this specific pharmacokinetic duration-of-action fact). Held per the book-is-the-source rule; a render of the garbled [1st priority] department book is needed."
+    },
+    {
+      "key": "2024eom-q89",
+      "hold": "Bromocriptine as an ergot-derivative lactation suppressant is not covered in the readable [2nd priority] Pharma In Points source (0 hits for bromocriptine/ergometrine/ketanserin). Held per the book-is-the-source rule; the [1st priority] department book/bank remain garbled and were not rendered in this pass."
+    },
+    {
+      "key": "2024eom-q90",
+      "hold": "Itopride as a serotonin-receptor-agonist prokinetic is not covered in the readable [2nd priority] Pharma In Points source (0 hits for itopride). Held per the book-is-the-source rule; the [1st priority] department book/bank remain garbled and were not rendered in this pass."
+    },
+    {
+      "key": "2024eom-q99",
+      "hold": "Near-literal duplicate of 2023eom-q107 (\"ACE inhibitor excreted in bile only, no renal-impairment dose adjustment -- fosinopril\", concept CON-FND matching \"Fosinopril excretion\") -- same fact, same correct drug, near-identical framing (this paper's \"no dose adjustment needed in renal impairment\" vs 2023's \"used in renal impairment as excreted in bile only\"). Held rather than authored as a second near-duplicate of the same already-minted concept."
+    },
+    {
+      "key": "2024eom-q106",
+      "hold": "Literal duplicate of 2023eom-q110 (\"Digitalis is used in cases of atrial fibrillation because... it decreases A-V conduction\", correct answer identical in substance to this item's \"delaying atrioventricular conduction\"). Held rather than re-authored."
+    },
+    {
+      "key": "2024eom-q109",
+      "hold": "Spironolactone's use in resistant/refractory hypertension specifically is not stated in the readable [2nd priority] Pharma In Points source (which covers spironolactone's use in ascites, PCOS-hirsutism and heart-failure remodeling, but not resistant hypertension by name). Held per the book-is-the-source rule; a render of the garbled [1st priority] department book is needed."
+    },
+    {
+      "key": "2024eom-q112",
+      "hold": "Amiodarone's specific adverse-effect profile tested here (grey/blue-grey skin discoloration, thyroid dysfunction from its iodine content) is not covered in the readable [2nd priority] Pharma In Points source, which lists only amiodarone's cardiac adverse effects (bradycardia, heart block, proarrhythmia) and broad-spectrum classification -- not its extracardiac (skin/thyroid) toxicities. Held per the book-is-the-source rule rather than authored from general pharmacology knowledge; a render of the garbled [1st priority] department book is needed."
+    }
+  ]
+}
