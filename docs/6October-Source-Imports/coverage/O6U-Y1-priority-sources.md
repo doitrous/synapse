@@ -62,19 +62,19 @@ pool sitting behind these files on Desktop.
 
 | Tier | Source | Readability |
 |--:|---|---|
-| 3 | `Bio questions.pdf` | 25p / 75 words, 0 garbled -- very low native word count for 25 pages despite "not garbled"; likely image-heavy MCQ layout, needs a visual check before trusting the "clean" reading. |
-| 3 | `CYTOGENETICS MCQ UNIT 1.pdf` | 7p, fully garbled -- needs OCR. |
-| 1 | `MBI final exam.pdf` | 6p / 18 words, 0 garbled -- same image-heavy caveat as `Bio questions.pdf`. |
-| 4 | `Strange terms and important notes in MBI module.pdf` | 6p / 412 words, 0 garbled -- small notes set. |
+| 3 | `Bio questions.pdf` | 25p / 75 words, 0 garbled -- the visual check found it genuinely clean, not image-heavy: the low word count was an artifact of the pre-OCR extraction. Triaged and authored 2026-09-03: five chapters, 122 MCQ, every chapter ending in its own printed "MCQ Answers" table -- 100% keyed, independently cross-checked with no contradictions. 34/122 authored (breadth pick across all 5 chapters), 88 keyed-but-not-yet-authored (scope, not quality). See `coverage/O6U-IMB-104-triage.md`. |
+| 3 | `CYTOGENETICS MCQ UNIT 1.pdf` | 7p, fully garbled -- OCR'd and triaged 2026-09-03: 50 questions, genuine handwritten "Answers" key on p7 (same author), but the source's own option lettering is internally defective (duplicate "(b)" labels on a repeated question, 1 blank key entry, 1 illegible corrected entry, 1 spot-check disagreement) -- held from authoring pending a lettering-defect review. |
+| 1 | `MBI final exam.pdf` | 6p / 18 words, 0 garbled -- the visual check found it is a blank, unmarked exam paper (20 MCQ + essay sections, no printed key, no student marks of any kind). Triaged 2026-09-03: 0% keyed, all 20 held. |
+| 4 | `Strange terms and important notes in MBI module.pdf` | 6p / 412 words, 0 garbled -- small notes set, not opened this pass. |
 
 ## O6U-IMN-105 (`MEN-IMN` folder)
 
 | Tier | Source | Readability |
 |--:|---|---|
-| 1 | `Collection of Final meta Exams ( O6U).pdf` | 12p, fully garbled -- needs OCR. |
-| 1 | `Metabolism mid exam -_-20-21 #Diaa (O6U bot)(2).pdf` | 15p / 122 words, 0 garbled -- mostly sparse text, needs a closer read to see if it is genuinely native or another image-heavy layout. |
-| 3 | `Metabolism MCQ+20-21 #Diaa (O6U).pdf` | 10p, fully garbled -- needs OCR. |
-| 4 | `Metabolism cases ++ Ro Tele.pdf` | 3p, fully garbled -- needs OCR. |
+| 1 | `Collection of Final meta Exams ( O6U).pdf` | 12p, fully garbled -- OCR'd and triaged 2026-09-03: a 12-page compilation of ~5 different 2007-2013 final-exam papers, mostly essay-format with two MCQ sections (19 MCQ items total); zero printed keys found anywhere in the file. All 19 held. |
+| 1 | `Metabolism mid exam -_-20-21 #Diaa (O6U bot)(2).pdf` | 15p / 122 words, 0 garbled -- the closer read found it genuinely native: a 15-question Google Forms results export, one question per page, each with a hand-drawn blue circle around the correct answer (distinct from a same-page teal "respondent selected" highlight, which disagreed and was wrong on one question). Triaged and authored 2026-09-03: 100% keyed; 6/15 (the four-option single-best-answer questions) authored, 9/15 true/false held per the <4-option floor. See `coverage/O6U-IMN-105-triage.md`. |
+| 3 | `Metabolism MCQ+20-21 #Diaa (O6U).pdf` | 10p, fully garbled -- needs OCR, not opened this pass. |
+| 4 | `Metabolism cases ++ Ro Tele.pdf` | 3p, fully garbled -- needs OCR, not opened this pass. |
 
 ## Recommended next-triage order
 
@@ -91,4 +91,7 @@ pool sitting behind these files on Desktop.
 4. `Bio questions.pdf` / `MBI final exam.pdf` (IMB-104) and `Metabolism mid exam
    (2).pdf` (IMN-105) need a visual page check (not just the word-count heuristic)
    before they can be trusted as "clean" -- their word counts are too low for their
-   page counts to be ordinary printed text.
+   page counts to be ordinary printed text. **Done 2026-09-03**: `Bio questions.pdf`
+   and `Metabolism mid exam (2).pdf` were both genuinely clean and fully keyed;
+   `MBI final exam.pdf` turned out to be a blank, unmarked exam paper (0% keyed). See
+   `coverage/O6U-IMB-104-triage.md` and `coverage/O6U-IMN-105-triage.md`.
