@@ -51,6 +51,18 @@ FURNITURE_MIN_PAGE_FRACTION = 0.5  # a line repeating (same text, same y) on thi
 FURNITURE_Y_BUCKET = 4.0  # pt: y tolerance when matching repeated lines across pages
 FURNITURE_SCAN_MAX_PAGES = 40  # cap on pages read to find repeats (requested pages always included)
 
+# Word/PowerPoint-exported "highlighter" marks (grey and yellow are the two
+# conventions authoring lanes report) are usually NOT real PDF Highlight
+# annotations — they're a plain filled rectangle drawn into the page content
+# behind (or over) the option's text, sized to roughly one text line. These
+# bounds are relative to the page's own median line height so they hold
+# across font sizes, rather than a fixed point size tuned to one fixture.
+HIGHLIGHT_FILL_MIN_HEIGHT_FACTOR = 0.5  # × median line height
+HIGHLIGHT_FILL_MAX_HEIGHT_FACTOR = 2.5  # × median line height
+HIGHLIGHT_FILL_MIN_OVERLAP_FRACTION = 0.5  # of the span's own area that must sit under the fill
+HIGHLIGHT_FILL_NEAR_WHITE = 0.92  # skip page-background fills (white boxes, table shading)
+HIGHLIGHT_FILL_NEAR_BLACK = 0.15  # skip vector-drawn glyph fills (bold text rendered as paths)
+
 ANNOT_REASON = {
     "Highlight": "highlight-annot",
     "Underline": "underline-annot",
@@ -73,6 +85,67 @@ def rects_overlap(a, b):
     ax0, ay0, ax1, ay1 = a
     bx0, by0, bx1, by1 = b
     return ax0 < bx1 and bx0 < ax1 and ay0 < by1 and by0 < ay1
+
+
+def rect_overlap_fraction(rect, span_bbox):
+    """Share of span_bbox's own area that rect covers — used (instead of the
+    boolean rects_overlap above) so a page-wide table-shading rect that only
+    grazes a span's corner does not count as a highlight."""
+    ax0, ay0, ax1, ay1 = rect
+    bx0, by0, bx1, by1 = span_bbox
+    iw = max(0.0, min(ax1, bx1) - max(ax0, bx0))
+    ih = max(0.0, min(ay1, by1) - max(ay0, by0))
+    area = max(1e-6, (bx1 - bx0) * (by1 - by0))
+    return (iw * ih) / area
+
+
+def classify_fill_color(rgb):
+    """Best-effort colour name for a highlight fill, for provenance — not
+    exact colour science, just enough for a lane to tell grey from yellow
+    from 'something else was used here'."""
+    r, g, b = rgb
+    if max(abs(r - g), abs(g - b), abs(r - b)) < 0.08:
+        return "grey"
+    if r > 0.7 and g > 0.7 and b < 0.55:
+        return "yellow"
+    if g >= r and g >= b and g > 0.55:
+        return "green"
+    if b >= r and b >= g and b > 0.55:
+        return "blue"
+    if r >= g and r >= b and r > 0.55:
+        return "red"
+    return "other"
+
+
+def collect_highlight_fills(page, min_height, max_height, exclude_rects=()):
+    """Filled vector rectangles shaped and sized like a one-line highlighter
+    mark: not a real PDF annotation, just a coloured rect drawn into the page
+    content (the shape a Word/PowerPoint "Save as PDF" export produces for a
+    highlighted run, as opposed to a highlight applied by a PDF editor).
+    exclude_rects skips anything already covered by a real annotation, whose
+    own appearance stream can itself contain a matching filled quad."""
+    fills = []
+    try:
+        drawings = page.get_drawings()
+    except Exception:
+        drawings = []
+    for d in drawings:
+        fill = d.get("fill")
+        rect = d.get("rect")
+        if fill is None or rect is None:
+            continue
+        r, g, b = fill
+        if min(r, g, b) > HIGHLIGHT_FILL_NEAR_WHITE or max(r, g, b) < HIGHLIGHT_FILL_NEAR_BLACK:
+            continue
+        x0, y0, x1, y1 = rect
+        height = y1 - y0
+        width = x1 - x0
+        if width <= 2 or not (min_height <= height <= max_height):
+            continue
+        if any(rect_overlap_fraction(er, (x0, y0, x1, y1)) >= HIGHLIGHT_FILL_MIN_OVERLAP_FRACTION for er in exclude_rects):
+            continue
+        fills.append(((x0, y0, x1, y1), (r, g, b)))
+    return fills
 
 
 def collect_lines(page):
@@ -148,7 +221,7 @@ def collect_underline_drawings(page):
     return rules
 
 
-def span_reasons(span, page_dominant_bold, underline_rules, annots_by_type):
+def span_reasons(span, page_dominant_bold, underline_rules, annots_by_type, highlight_fills):
     reasons = []
     color_int = span.get("color", 0)
     if color_distance_from_black(color_int) > COLOR_DIST_THRESHOLD:
@@ -171,6 +244,9 @@ def span_reasons(span, page_dominant_bold, underline_rules, annots_by_type):
             continue
         if any(rects_overlap(span_rect, r) for r in rects):
             reasons.append(reason)
+    for fill_rect, color in highlight_fills:
+        if rect_overlap_fraction(fill_rect, span_rect) >= HIGHLIGHT_FILL_MIN_OVERLAP_FRACTION:
+            reasons.append(f"highlight-fill-{classify_fill_color(color)}")
     # de-dup while keeping order
     seen = set()
     out = []
@@ -187,6 +263,10 @@ def analyze_page(page, furniture=frozenset()):
     all_words = sum(len(l["text"].split()) for l in lines)
     if all_words == 0:
         result["noTextLayer"] = True
+        # Scanned-image page: no text layer means no annotation, colour, or
+        # fill data to read either — a highlighted key here is only
+        # recoverable by rendering the page, not from this text-layer pass.
+        result["reason"] = "highlight-not-recoverable-from-text-layer"
         return result
     lines = [l for l in lines if furniture_key(l) not in furniture]
     median_line_height = statistics.median(l["bbox"][3] - l["bbox"][1] for l in lines)
@@ -220,6 +300,18 @@ def analyze_page(page, furniture=frozenset()):
         if type_name not in ANNOT_REASON:
             continue
         annots_by_type.setdefault(type_name, []).append(tuple(a.rect))
+
+    # A real annotation's own appearance stream can itself contain a filled
+    # quad that get_drawings() picks up — exclude anything already explained
+    # by an annotation so a genuine Highlight annot doesn't also come back
+    # as a redundant "highlight-fill-*" reason for the same mark.
+    annot_rects = [r for rects in annots_by_type.values() for r in rects]
+    highlight_fills = collect_highlight_fills(
+        page,
+        HIGHLIGHT_FILL_MIN_HEIGHT_FACTOR * median_line_height,
+        HIGHLIGHT_FILL_MAX_HEIGHT_FACTOR * median_line_height,
+        exclude_rects=annot_rects,
+    )
 
     # Walk lines top-to-bottom, tracking the current question and option so
     # every line (including wrapped continuation lines) is attributed to the
@@ -272,7 +364,7 @@ def analyze_page(page, furniture=frozenset()):
                     if not span.get("text", "").strip():
                         continue
                     reasons_for_opt.extend(
-                        span_reasons(span, page_dominant_bold, underline_rules, annots_by_type)
+                        span_reasons(span, page_dominant_bold, underline_rules, annots_by_type, highlight_fills)
                     )
             if reasons_for_opt:
                 seen = set()

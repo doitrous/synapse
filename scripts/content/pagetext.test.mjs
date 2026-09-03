@@ -11,6 +11,7 @@ const SCAN_PDF = 'scripts/content/fixtures/pagetext/scanned-page.pdf';
 const KEYS_PDF = 'scripts/content/fixtures/pagetext/visual-keys.pdf';
 const FOOTER_PDF = 'scripts/content/fixtures/pagetext/footer-furniture.pdf';
 const FOOTER_1P_PDF = 'scripts/content/fixtures/pagetext/footer-single-page.pdf';
+const HL_FILL_PDF = 'scripts/content/fixtures/pagetext/highlight-fill-keys.pdf';
 const cacheDir = mkdtempSync(path.join(tmpdir(), 'pagetext-'));
 const run = (...args) => spawnSync('node', ['scripts/content/pagetext.mjs', ...args], { encoding: 'utf8', env: { ...process.env, NISHANY_PAGETEXT_CACHE: cacheDir } });
 
@@ -69,6 +70,46 @@ p.insert_text((72, y), "B) Two", fontsize=12); y += 20
 p.insert_text((72, y), "C) Three", fontsize=12); y += 20
 p.insert_text((72, y), "D) Four", fontsize=12)
 d.save(${JSON.stringify(KEYS_PDF)})`;
+    const r = spawnSync('python3', ['-c', py], { encoding: 'utf8' });
+    assert.equal(r.status, 0, r.stderr);
+  }
+  if (!existsSync(HL_FILL_PDF)) {
+    // A Word/PowerPoint "Save as PDF" export of a highlighter mark is not a
+    // real PDF Highlight annotation — it's a plain filled rectangle drawn
+    // into the page content behind the option's text. Q1 has a grey fill,
+    // Q2 a yellow fill (the two conventions authoring lanes reported), Q3
+    // has two options each fill-marked in a different colour (must read as
+    // ambiguous, not a guess), and Q4 has no mark of any kind.
+    const py = `import pymupdf as fitz, os
+os.makedirs(${JSON.stringify(path.dirname(HL_FILL_PDF))}, exist_ok=True)
+d = fitz.open()
+p = d.new_page()
+y = 72
+p.insert_text((72, y), "Q1) Which pigment carries oxygen in blood?", fontsize=12); y += 20
+p.insert_text((72, y), "a) Melanin", fontsize=12); y += 20
+p.draw_rect(fitz.Rect(68, y - 10, 200, y + 4), color=None, fill=(0.66, 0.66, 0.66))
+p.insert_text((72, y), "b) Haemoglobin", fontsize=12); y += 20
+p.insert_text((72, y), "c) Bilirubin", fontsize=12); y += 20
+p.insert_text((72, y), "d) Keratin", fontsize=12); y += 30
+p.insert_text((72, y), "Q2) Which vessel type has the thinnest wall?", fontsize=12); y += 20
+p.insert_text((72, y), "a) Artery", fontsize=12); y += 20
+p.insert_text((72, y), "b) Vein", fontsize=12); y += 20
+p.draw_rect(fitz.Rect(68, y - 10, 200, y + 4), color=None, fill=(1.0, 1.0, 0.0))
+p.insert_text((72, y), "c) Capillary", fontsize=12); y += 20
+p.insert_text((72, y), "d) Lymphatic", fontsize=12); y += 30
+p.insert_text((72, y), "Q3) Two fills on one question must read as ambiguous", fontsize=12); y += 20
+p.draw_rect(fitz.Rect(68, y - 10, 200, y + 4), color=None, fill=(0.66, 0.66, 0.66))
+p.insert_text((72, y), "a) Wrong one", fontsize=12); y += 20
+p.draw_rect(fitz.Rect(68, y - 10, 200, y + 4), color=None, fill=(1.0, 1.0, 0.0))
+p.insert_text((72, y), "b) Wrong two", fontsize=12); y += 20
+p.insert_text((72, y), "c) Wrong three", fontsize=12); y += 20
+p.insert_text((72, y), "d) Wrong four", fontsize=12); y += 30
+p.insert_text((72, y), "Q4) Unmarked question with no highlight of any kind", fontsize=12); y += 20
+p.insert_text((72, y), "a) One", fontsize=12); y += 20
+p.insert_text((72, y), "b) Two", fontsize=12); y += 20
+p.insert_text((72, y), "c) Three", fontsize=12); y += 20
+p.insert_text((72, y), "d) Four", fontsize=12)
+d.save(${JSON.stringify(HL_FILL_PDF)})`;
     const r = spawnSync('python3', ['-c', py], { encoding: 'utf8' });
     assert.equal(r.status, 0, r.stderr);
   }
@@ -258,4 +299,33 @@ test('keys closes the last option at a large vertical gap so a single-page foote
   assert.equal(r.status, 0, r.stderr);
   assert.match(r.stdout, /^p1 Q1: \? {2}\(0 marked\)$/m);
   assert.match(r.stdout, /^0 keyed \/ 0 ambiguous \/ 1 unmarked across 1 page\(s\)$/m);
+});
+
+test('keys reads a grey or yellow highlighter fill (not a real annotation) as the key, and a double fill as ambiguous', () => {
+  const r = run('keys', HL_FILL_PDF);
+  assert.equal(r.status, 0, r.stderr);
+  assert.match(r.stdout, /^p1 Q1: B {2}\(highlight-fill-grey\)$/m);
+  assert.match(r.stdout, /^p1 Q2: C {2}\(highlight-fill-yellow\)$/m);
+  assert.match(r.stdout, /^p1 Q3: \? {2}\(multiple: A,B\)$/m);
+  assert.match(r.stdout, /^p1 Q4: \? {2}\(0 marked\)$/m);
+  assert.match(r.stdout, /^2 keyed \/ 1 ambiguous \/ 1 unmarked across 1 page\(s\)$/m);
+});
+
+test('keys --json labels a highlighter-fill key with its colour and never confuses it with a real highlight-annot mark', () => {
+  const r = run('keys', HL_FILL_PDF, '--json');
+  assert.equal(r.status, 0, r.stderr);
+  const rows = JSON.parse(r.stdout.trim());
+  assert.deepEqual(rows[0], { page: 1, question: '1', letter: 'B', reasons: ['highlight-fill-grey'], markedOptions: ['B'] });
+  assert.deepEqual(rows[1], { page: 1, question: '2', letter: 'C', reasons: ['highlight-fill-yellow'], markedOptions: ['C'] });
+  assert.equal(rows[2].letter, null);
+  assert.deepEqual(rows[2].markedOptions.sort(), ['A', 'B']);
+});
+
+test('keys on a real highlight annotation is unaffected by the fill-detection addition (no double-counted reason)', () => {
+  // Regression guard: PyMuPDF's own Highlight-annotation appearance stream
+  // can surface as a page drawing too — this must stay a single
+  // "highlight-annot" reason, not also pick up "highlight-fill-*".
+  const r = run('keys', KEYS_PDF, '--json');
+  const rows = JSON.parse(r.stdout.trim());
+  assert.deepEqual(rows[1], { page: 1, question: '2', letter: 'B', reasons: ['highlight-annot'], markedOptions: ['B'] });
 });
