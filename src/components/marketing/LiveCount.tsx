@@ -67,17 +67,22 @@ export function LiveCount({ variant = 'chip', className }: { variant?: 'chip' | 
   }, [data, displayed])
 
   if (!data) return null
-  const shown = Math.round(displayed ?? 0)
 
+  // The pulsing dot keeps this span in the DOM with real layout size so the
+  // IntersectionObserver has something to watch — but the number itself stays
+  // absent until the count-up begins (`displayed !== null`), so a visitor never
+  // sees a static placeholder "0" sitting before the reveal.
   return (
     <span ref={rootRef} className={cn('inline-flex items-center gap-2', className)}>
       <span className="relative flex size-2 shrink-0">
         <span className="absolute inline-flex h-full w-full animate-pulse rounded-full bg-success motion-reduce:animate-none" />
         <span className="relative inline-flex size-2 rounded-full bg-success" />
       </span>
-      <span className={cn('tnum font-mono font-semibold', variant === 'band' ? 'text-2xl' : 'text-sm')}>
-        {shown.toLocaleString('en-US')}
-      </span>
+      {displayed !== null && (
+        <span className={cn('tnum font-mono font-semibold', variant === 'band' ? 'text-2xl' : 'text-sm')}>
+          {Math.round(displayed).toLocaleString('en-US')}
+        </span>
+      )}
     </span>
   )
 }

@@ -60,7 +60,7 @@ import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
 import { createPromotion, createPricingVoucher, listPricingDiscounts, pricingQuote } from './pricing.js'
-import { computeSubscriberCount, nextSubscriberDisplayDoc, publicSubscriberCountPayload, readSubscriberDisplay, writeSubscriberDisplay } from './subscriberCount.js'
+import { SUBSCRIBER_DISPLAY_STATE_KEY, computeSubscriberCount, nextSubscriberDisplayDoc, publicSubscriberCountPayload, readSubscriberDisplay, writeSubscriberDisplay } from './subscriberCount.js'
 import {
   createEnrollmentChangeRequest, decideEnrollmentChangeRequest,
   listEnrollmentChangeRequests, myEnrollmentChangeRequests,
@@ -1965,6 +1965,15 @@ async function enforceMediaSupply(conn, mergedLedger, storedLedger) {
  */
 app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
   const key = canonicalStateKey(req.params.key)
+
+  // The subscriber-display doc has a dedicated endpoint that re-captures the
+  // real subscription count in the same transaction as a base change; the
+  // generic route cannot express that, so it never writes this key — not even
+  // for a super admin, who could otherwise bypass the tab check below.
+  if (key === SUBSCRIBER_DISPLAY_STATE_KEY) {
+    return res.status(403).json({ error: 'use POST /api/admin/subscriber-count for this document' })
+  }
+
   const owners = tabsForStateKey(key)
   const held = await heldTabs(req.identity)
   const superAdmin = req.identity.role === 'super_admin'
