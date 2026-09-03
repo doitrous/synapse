@@ -7,17 +7,18 @@ type MarkProps = {
 }
 
 /**
- * Nishany's Noon Dot.
+ * Nishany's Noon mark — the letter ن.
  *
- * The bowl of the letter ن drawn as one thick stroke, its dot come to rest at
- * the bullseye, inside a faint aiming ring. Colours intentionally read from
- * the design-system tokens so the same vector belongs in light, warm and
- * dark themes without component-level theme branching.
+ * Two concentric arcs open from the top-right (crimson outer, rose inner) with
+ * a crimson dot resting in that opening, so the mark reads as a tilted ن. The
+ * crimson/rose values are the fixed brand colours (they match the favicon and
+ * `public/brand/nishany-mark.svg`); `monochrome` collapses all three to
+ * `currentColor` for use on a coloured or dark surface.
  */
 export function NishanyMark({ size = 28, className, monochrome = false }: MarkProps) {
-  const ring = monochrome ? 'currentColor' : 'var(--color-accent-line)'
-  const bowl = monochrome ? 'currentColor' : 'var(--brand-blue)'
-  const dot = monochrome ? 'currentColor' : 'var(--brand-rose)'
+  const outer = monochrome ? 'currentColor' : '#a81d40'
+  const inner = monochrome ? 'currentColor' : '#e0859b'
+  const dot = monochrome ? 'currentColor' : '#a81d40'
 
   return (
     <svg
@@ -25,17 +26,12 @@ export function NishanyMark({ size = 28, className, monochrome = false }: MarkPr
       className={cn('shrink-0', className)}
       fill="none"
       height={size}
-      viewBox="0 0 64 64"
+      viewBox="0 0 100 100"
       width={size}
     >
-      <circle cx="32" cy="32" opacity="0.35" r="29" stroke={ring} strokeWidth="2" />
-      <path
-        d="M18.6 21.75 A17.5 17.5 0 1 0 45.4 21.75"
-        stroke={bowl}
-        strokeLinecap="round"
-        strokeWidth="9"
-      />
-      <circle cx="32" cy="28.5" fill={dot} r="6" />
+      <circle cx="50" cy="50" r="34" fill="none" stroke={outer} strokeWidth="8" strokeLinecap="round" strokeDasharray="163.2 50.4" />
+      <circle cx="50" cy="50" r="20" fill="none" stroke={inner} strokeWidth="7" strokeLinecap="round" strokeDasharray="96 29.7" />
+      <circle cx="72" cy="28" r="5" fill={dot} />
     </svg>
   )
 }
