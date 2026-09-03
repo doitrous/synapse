@@ -1,5 +1,7 @@
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
+import { sendMail } from './mail.js'
+import { supportInboxAddress } from './mailFrom.js'
 
 const NAME_MAX = 200
 const TOPIC_MAX = 120
@@ -26,19 +28,36 @@ export function validateContactMessage(body) {
 }
 
 /**
- * File a support message and store it.
+ * File a support message, store it, and tell the support inbox.
  *
- * `sendMail` lives inside index.js and is not importable from here (see the
- * same note in assistant.js) — so this only ever saves the row and reports
- * `emailed: false`. Wiring an actual send back in is a follow-up once
- * `sendMail` is factored out of index.js for every caller that needs it.
+ * The row is the record — the send is best-effort on top of it, so a mail
+ * outage loses nothing and is reported honestly as `emailed: false`. Only a
+ * genuine 'Sent' counts: with no Resend key configured `sendMail` records a
+ * 'Queued' row and posts nothing, which is not an email anybody received.
  */
 export async function submitContactMessage(body, { ip } = {}) {
   const validated = validateContactMessage(body)
   if (validated.error) return validated
 
   const id = `support-${randomUUID()}`
-  const emailed = false
+  let emailed = false
+  try {
+    const sent = await sendMail({
+      to: supportInboxAddress(),
+      subject: `[Contact] ${validated.topic ?? 'General'} — ${validated.name}`,
+      text: [
+        `From: ${validated.name} <${validated.email}>`,
+        `Topic: ${validated.topic ?? '—'}`,
+        `IP: ${ip || 'unknown'}`,
+        '',
+        validated.message,
+      ].join('\n'),
+      category: 'contact',
+    })
+    emailed = sent.status === 'Sent'
+  } catch (error) {
+    console.error('[contact] support email failed', error?.message ?? error)
+  }
   await pool.query(
     'INSERT INTO support_messages (id, name, email, topic, message, emailed, ip) VALUES (?,?,?,?,?,?,?)',
     [id, validated.name, validated.email, validated.topic, validated.message, emailed ? 1 : 0, ip || null],

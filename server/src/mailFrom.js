@@ -73,6 +73,11 @@ export function unsubscribeMailtoAddress(category) {
   return addressPart(isMarketingCategory(category) ? newsFrom() : transactionalFrom())
 }
 
+/** The human support inbox, as a bare address — where contact-form mail lands. */
+export function supportInboxAddress() {
+  return addressPart(supportFrom())
+}
+
 /** Reply-To for transactional mail, so replies to a no-reply@ address still reach the inbox. */
 export function replyToForCategory(category) {
   return bucketFor(category) === 'transactional' ? addressPart(supportFrom()) : null

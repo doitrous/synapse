@@ -1,6 +1,8 @@
 import { createCipheriv, createDecipheriv, randomBytes, scryptSync } from 'node:crypto'
 import { pool } from './db.js'
 import { entitlementOf } from './accounts.js'
+import { sendMail } from './mail.js'
+import { parseSuperAdminEmails } from './roles.js'
 import {
   PROVIDER_IDS, providerDef, resolveBaseUrl, envKeyFor,
   buildChatRequest, parseChatResponse, buildModelsRequest, parseModelsResponse,
@@ -742,10 +744,11 @@ let spendCapHitToday = null
  * nothing. Only queried when a cap is actually set — an install with no cap
  * pays no extra round trip for the feature.
  *
- * ponytail: no email. `sendMail` lives inside index.js and is not importable,
- * and there is no exported mail helper or alert listener in this codebase, so
- * the alert is a log line plus `spendCapHit` in the admin GET, which the setup
- * screen renders as a banner. Wire it to mail when one is extracted.
+ * The alert is a log line, `spendCapHit` in the admin GET (which the setup
+ * screen renders as a banner), and one email to the super admins. Once a day,
+ * not once a request: the day stamp is claimed before the send, so a second
+ * request that arrives mid-send does not raise a second email. Transactional
+ * category — an operational alert is not something to unsubscribe from.
  */
 export async function overSpendCap(settings) {
   if (!settings.dailyTokenCap) return false
@@ -757,6 +760,19 @@ export async function overSpendCap(settings) {
   if (spendCapHitToday !== today()) {
     spendCapHitToday = today()
     console.error(`[assistant] SPEND CAP HIT — ${total} tokens today, cap ${settings.dailyTokenCap}. The assistant is paused until tomorrow.`)
+    const to = parseSuperAdminEmails(process.env.SUPER_ADMIN_EMAILS)
+    // Never awaited: a student is waiting on the refusal this returns, and a
+    // mail failure must not turn a paused assistant into a broken one.
+    if (to.length) {
+      void sendMail({
+        to,
+        subject: 'Nishany: the study assistant has hit its daily spend cap',
+        text: `${total} tokens have been spent today against a cap of ${settings.dailyTokenCap}.\n`
+          + 'The assistant is paused for every student until tomorrow. Raise or clear the cap\n'
+          + 'in Settings → Assistant if that is not what you want.',
+        category: 'Billing & subscription',
+      }).catch((error) => console.error('[assistant] spend-cap email failed', error?.message ?? error))
+    }
   }
   return true
 }
