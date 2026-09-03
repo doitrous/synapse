@@ -16,14 +16,17 @@ const MARISTANA_PLAN_ID = 'maristana'
 // Derived from ALL_ACCESS_PRICES so this file still only has one 400 and
 // one 1000 literal, not two.
 const SEED_MARISTANA_PRICES = { month: ALL_ACCESS_PRICES.monthly.amount, term: ALL_ACCESS_PRICES.term.amount }
+// No promo in the fallback: a missing/malformed catalog doc must show the
+// plain base price, never a made-up discount.
 const SEED_MARISTANA_PROMO = {
-  month: { enabled: true, percentOff: 25 },
-  term: { enabled: true, percentOff: 30 },
+  month: { enabled: false, percentOff: 0 },
+  term: { enabled: false, percentOff: 0 },
 }
 
 export function normalisePeriodId(value) {
   const period = String(value ?? '').trim().toLowerCase()
-  return period === 'month' || period === 'term' ? period : null
+  if (period === 'month' || period === 'monthly') return 'month'
+  return period === 'term' ? 'term' : null
 }
 
 /** Whole-EGP price after a percent-off promo. Mirrors src/data/planCatalog.ts's promoPrice(). */
@@ -200,6 +203,11 @@ export async function pricingQuote({ period, voucherCode, now = new Date() }) {
     baseAmount,
     totalAmount: applied.amount,
     appliedDiscount: applied.kind ? { kind: applied.kind, code: applied.code ?? null, amount: applied.amount } : null,
+    alternatives: candidates.map((candidate) => ({
+      kind: candidate.kind,
+      code: candidate.code ?? null,
+      amount: candidate.amount,
+    })),
   }
 }
 

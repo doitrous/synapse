@@ -127,3 +127,46 @@ test('an invalid period is refused', async () => {
   const result = await pricingQuote({ period: 'annual' })
   assert.equal(result.error, 'invalid_period')
 })
+
+test('the fallback quote is the plain base price, no promo, when the catalog doc is missing', async () => {
+  await withAppState({ catalog: null }, async () => {
+    const monthly = await pricingQuote({ period: 'month' })
+    assert.equal(monthly.totalAmount, 400)
+    assert.equal(monthly.appliedDiscount, null)
+
+    const term = await pricingQuote({ period: 'term' })
+    assert.equal(term.totalAmount, 1000)
+    assert.equal(term.appliedDiscount, null)
+  })
+})
+
+test('"monthly" is accepted as a synonym for "month" (legacy caller compatibility)', async () => {
+  const catalogDoc = {
+    plans: [{
+      id: 'maristana',
+      prices: { month: 400, term: 1000 },
+      promo: { month: { enabled: true, percentOff: 25 }, term: { enabled: true, percentOff: 30 } },
+    }],
+  }
+  await withAppState({ catalog: catalogDoc }, async () => {
+    const legacy = await pricingQuote({ period: 'monthly' })
+    const current = await pricingQuote({ period: 'month' })
+    assert.deepEqual(legacy, current)
+    assert.equal(legacy.period, 'month')
+  })
+})
+
+test('catalogPricing falls back without throwing when the stored doc is unparseable JSON', async () => {
+  const original = pool.query
+  pool.query = async (sql, params) => {
+    if (sql.includes('FROM app_state') && params?.[0] === CATALOG_STATE_KEY) return [[{ v: '{not json' }]]
+    throw new Error(`unexpected query: ${sql}`)
+  }
+  try {
+    const result = await catalogPricing()
+    assert.deepEqual(result.prices, { month: 400, term: 1000 })
+    assert.equal(result.promo.month.enabled, false)
+  } finally {
+    pool.query = original
+  }
+})
