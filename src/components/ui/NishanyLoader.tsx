@@ -8,10 +8,10 @@ import { loaderRings, ringCircumference } from './NishanyLoader.geometry'
  *
  * The app's own instrument, not a borrowed spinner: two concentric rings — an
  * outer blue ring and an inner crimson ring, each an arc that fills and then
- * empties around its track while rotating a full turn. The two rings turn in
- * opposite directions at slightly different speeds, so the gap between them
- * opens and closes — they read as catching up to each other rather than as
- * one rigid object.
+ * empties around its track while rotating a full turn. Both rings turn the
+ * same way; the inner ring runs at 0.8× the outer ring's duration, so lap
+ * over lap it visibly catches up and overtakes — they read as chasing each
+ * other rather than as one rigid object.
  *
  * A spinner says "something is happening"; this says *which product* is
  * happening. That matters most on the screens where it is the only thing on
@@ -27,13 +27,10 @@ const ARC_COLORS = [
   'var(--color-primary)',
 ] as const
 
-/** Rotation direction per ring — opposite ways, so the two arcs visibly chase
- *  each other instead of turning as one. */
-const ARC_DIRECTION = [1, -1] as const
-
-/** Duration multiplier per ring: the inner ring runs slightly faster than the
- *  outer one, so their gap keeps opening and closing instead of staying put. */
-const ARC_SPEED = [1, 0.82] as const
+/** Duration multiplier per ring: the inner ring runs at 0.8× the outer ring's
+ *  duration, so it visibly catches up to and overtakes the outer ring each
+ *  loop instead of the pair staying in lockstep. */
+const ARC_SPEED = [1, 0.8] as const
 
 /** Where each arc is held when the reader has asked for no motion: a quarter
  *  and three quarters — the pair, standing still. */
@@ -100,31 +97,35 @@ export function NishanyLoader({
         ))}
         {drawn.map((ring, index) => {
           const circumference = ringCircumference(ring.r)
+          const vars = {
+            '--phase': `${index * 120}ms`,
+            // Only meaningful with two-plus rings; `mini` draws a single ring
+            // and never overrides the keyframe's speed:1 default.
+            '--speed': `${ARC_SPEED[index]}`,
+          } as CSSProperties
           return (
-            <circle
-              key={`arc-${ring.r}`}
-              className="nishany-loader-arc"
-              cx={center}
-              cy={center}
-              r={ring.r}
-              fill="none"
-              stroke={mini ? 'currentColor' : ARC_COLORS[index]}
-              strokeWidth={ring.width}
-              strokeLinecap="round"
-              strokeDasharray={circumference}
-              // The held offset is an inline style so it is what shows when
-              // the keyframe is switched off; while the animation runs, the
-              // animation owns the property and this is never seen.
-              strokeDashoffset={circumference * HELD_FRACTION[index]}
-              style={{
-                '--c': `${circumference}`,
-                '--phase': `${index * 120}ms`,
-                // Only meaningful with two-plus rings; `mini` draws a single
-                // ring and never overrides the keyframe's dir:1/speed:1 default.
-                '--dir': `${ARC_DIRECTION[index]}`,
-                '--speed': `${ARC_SPEED[index]}`,
-              } as CSSProperties}
-            />
+            // The `<g>` owns the rotation (transform only, compositor-
+            // friendly); the `<circle>` owns the fill/unfill sweep
+            // (stroke-dashoffset). Kept on separate elements so the spin
+            // never forces the sweep's paint work, or vice versa.
+            <g key={`ring-${ring.r}`} className="nishany-loader-ring" style={vars}>
+              <circle
+                className="nishany-loader-arc"
+                cx={center}
+                cy={center}
+                r={ring.r}
+                fill="none"
+                stroke={mini ? 'currentColor' : ARC_COLORS[index]}
+                strokeWidth={ring.width}
+                strokeLinecap="round"
+                strokeDasharray={circumference}
+                // The held offset is an inline style so it is what shows when
+                // the keyframe is switched off; while the animation runs, the
+                // animation owns the property and this is never seen.
+                strokeDashoffset={circumference * HELD_FRACTION[index]}
+                style={{ '--c': `${circumference}`, ...vars } as CSSProperties}
+              />
+            </g>
           )
         })}
       </svg>

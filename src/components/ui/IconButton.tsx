@@ -1,7 +1,6 @@
 import type { ButtonHTMLAttributes } from 'react'
 import type { LucideIcon } from 'lucide-react'
 import { Icon } from './Icon'
-import { Tooltip } from './Tooltip'
 import { cn } from '@/lib/cn'
 
 type Variant = 'ghost' | 'surface' | 'primary'
@@ -18,7 +17,6 @@ export function IconButton({
   variant = 'ghost',
   size = 'md',
   active = false,
-  tooltipPlacement = 'top',
   className,
   ...props
 }: ButtonHTMLAttributes<HTMLButtonElement> & {
@@ -27,9 +25,8 @@ export function IconButton({
   variant?: Variant
   size?: 'sm' | 'md'
   active?: boolean
-  tooltipPlacement?: 'top' | 'bottom'
 }) {
-  const button = (
+  return (
     <button
       type="button"
       aria-label={label}
@@ -44,6 +41,4 @@ export function IconButton({
       <Icon icon={icon} size={size === 'sm' ? 16 : 18} strokeWidth={2.1} />
     </button>
   )
-
-  return <Tooltip content={label} placement={tooltipPlacement}>{button}</Tooltip>
 }

@@ -2,7 +2,6 @@ import {
   cloneElement,
   isValidElement,
   useId,
-  useRef,
   useState,
   type FocusEvent,
   type KeyboardEvent,
@@ -35,7 +34,6 @@ export function Tooltip({
 }) {
   const id = useId()
   const [open, setOpen] = useState(false)
-  const touchOpened = useRef(false)
   const tooltip = content ?? label
   if (!tooltip || !isValidElement(children) || disabled) return children
 
@@ -54,13 +52,6 @@ export function Tooltip({
           call(props.onPointerLeave, event)
           if (event.pointerType !== 'touch') setOpen(false)
         },
-        onPointerDown: (event: PointerEvent) => {
-          call(props.onPointerDown, event)
-          if (event.pointerType === 'touch') {
-            touchOpened.current = true
-            setOpen((current) => !current)
-          }
-        },
         onFocus: (event: FocusEvent) => {
           call(props.onFocus, event)
           setOpen(true)
@@ -68,14 +59,10 @@ export function Tooltip({
         onBlur: (event: FocusEvent) => {
           call(props.onBlur, event)
           setOpen(false)
-          touchOpened.current = false
         },
         onKeyDown: (event: KeyboardEvent) => {
           call(props.onKeyDown, event)
-          if (event.key === 'Escape') {
-            setOpen(false)
-            touchOpened.current = false
-          }
+          if (event.key === 'Escape') setOpen(false)
         },
       })}
       {open && (

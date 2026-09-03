@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ArrowLeft, CheckCircle2, ChevronDown, Circle, Eye, FastForward, PenLine, Sparkles } from 'lucide-react'
+import { ArrowLeft, CheckCircle2, ChevronDown, Circle, ClipboardCheck, Eye, FastForward, PenLine } from 'lucide-react'
 import { coveredCount, initialStage, type EssayQuestion } from '@/data/essay'
 import { useEssayAnswers } from '@/lib/useEssayAnswers'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
@@ -144,7 +144,7 @@ export function EssayRunner({
   const analyzeButton = (
     <Button
       variant="ghost"
-      iconLeft={Sparkles}
+      iconLeft={PenLine}
       loading={grading.pending}
       disabled={!text.trim() || grading.pending}
       onClick={() => grading.analyze(essay, text)}
@@ -213,7 +213,7 @@ export function EssayRunner({
             <Panel className="p-5">
               <div className="flex items-center justify-between gap-3">
                 <p className="flex items-center gap-1.5 text-[13px] font-semibold text-ink">
-                  <Icon icon={Sparkles} size={14} className="text-primary" />
+                  <Icon icon={ClipboardCheck} size={14} className="text-primary" />
                   {t('AI analysis')}
                 </p>
                 {grading.feedback && (
