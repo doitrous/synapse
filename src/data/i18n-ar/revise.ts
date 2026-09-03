@@ -732,4 +732,9 @@ export const AR_REVISE: Record<string, string> = {
     'سجل مراجعتك وتوقّعها يومًا بيوم، وأرقامهما تحتهما.',
   'It will show every day you studied, what is due next, and the streaks and averages that come out of both. The calendar and the figures already work on your real history — they are being checked against it before this becomes part of the page.':
     'سيعرض كل يوم ذاكرت فيه، وما يستحق بعده، والمتتاليات والمتوسطات الناتجة عنهما. ويعمل التقويم والأرقام بالفعل على سجلك الحقيقي — وتجري مطابقتهما عليه قبل أن يصبح هذا جزءًا من الصفحة.',
+  'Flashcard statistics': 'إحصاءات البطاقات',
+  'Retention, workload and accuracy over time, across every deck.':
+    'الاستبقاء وحِمل المذاكرة والدقة عبر الزمن، في كل مجموعة.',
+  'It will chart your retention, your daily workload and your accuracy over time across every deck. The figures already run on your real history — they are being checked against it before this becomes part of the page.':
+    'سيرسم استبقاءك وحِملك اليومي ودقتك عبر الزمن في كل مجموعة. وتعمل الأرقام بالفعل على سجلك الحقيقي — وتجري مطابقتها عليه قبل أن يصبح هذا جزءًا من الصفحة.',
 }

@@ -280,4 +280,6 @@ export const AR_ADAPTIVE: Record<string, string> = {
   // 'Weekly' is already `revise.ts`'s, with the same meaning — not restated here.
   'Exam simulation and highest-impact gaps': 'محاكاة الامتحان والفجوات الأشدّ أثرًا',
   'Baseline and 1–2 final mocks': 'قياس أساس ومحاكاة أو محاكاتان ختاميتان',
+  'Adaptive Study will pick your next best action, revisit what you are most likely to forget, and keep your practice aligned with your exam blueprint. Every tab here already runs on your real history and blueprint — they are being checked against it before this becomes part of your day.':
+    'ستختار المذاكرة التكيفية أفضل خطوة تالية لك، وتعيد زيارة ما يُرجَّح أن تنساه، وتُبقي تدريبك متوافقًا مع مخطّط امتحانك. وكل تبويب هنا يعمل بالفعل على سجلك ومخطّطك الحقيقيين — وتجري مطابقتها عليه قبل أن يصبح هذا جزءًا من يومك.',
 }

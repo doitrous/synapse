@@ -18,6 +18,7 @@ import {
   Braces, CalendarRange, ClipboardCheck, Compass, PlayCircle, ScrollText,
 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
+import { ComingSoonBanner } from '@/components/hub'
 import { Panel } from '@/components/ui/Panel'
 import { Tabs } from '@/components/ui/Tabs'
 import { Badge } from '@/components/ui/Badge'
@@ -66,6 +67,14 @@ export function AdaptiveStudy() {
             )}
           </div>
         }
+      />
+
+      {/* Omar: the whole Adaptive Study tab is coming soon. Every tab below is a
+          working preview against real data, with the banner saying so up front —
+          the same contract Histology and Performance use. */}
+      <ComingSoonBanner
+        icon={Compass}
+        body="Adaptive Study will pick your next best action, revisit what you are most likely to forget, and keep your practice aligned with your exam blueprint. Every tab here already runs on your real history and blueprint — they are being checked against it before this becomes part of your day."
       />
 
       <Tabs items={tabs} value={tab} onChange={setTab} className="mb-5" />

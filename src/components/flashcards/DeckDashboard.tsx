@@ -1,5 +1,5 @@
 import { useMemo, useState, type ReactNode } from 'react'
-import { ArrowLeft, CalendarDays, Layers, Play, Plus, Pencil, Trash2, Settings2, Undo2, FileUp, Download } from 'lucide-react'
+import { ArrowLeft, ChartColumn, Layers, Play, Plus, Pencil, Trash2, Settings2, Undo2, FileUp, Download } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { IconButton } from '@/components/ui/IconButton'
@@ -98,9 +98,7 @@ export function DeckDashboard({
   return (
     <div className="space-y-5">
       {rhythm.settings.showOnMain && (
-        <StudyRhythmGate>
-          <StudyRhythm api={api} scope={ALL_SCOPE} settingsApi={rhythm} />
-        </StudyRhythmGate>
+        <StudyRhythm api={api} scope={ALL_SCOPE} settingsApi={rhythm} />
       )}
       <Panel>
         <PanelHeader
@@ -156,7 +154,7 @@ export function DeckDashboard({
  * whole surface is the control and whose preview is a route, not a panel that
  * lives on this page.
  */
-export function StudyRhythmGate({ children }: { children: ReactNode }) {
+export function FlashcardsStatsGate({ children }: { children: ReactNode }) {
   const t = useT()
   const [explaining, setExplaining] = useState(false)
   const [previewing, setPreviewing] = useState(false)
@@ -185,15 +183,15 @@ export function StudyRhythmGate({ children }: { children: ReactNode }) {
           className="flex min-w-0 flex-1 items-center gap-3 text-start max-sm:min-h-11"
         >
           <span className="grid size-10 shrink-0 place-items-center rounded-lg border border-line bg-surface-2 text-ink-3">
-            <Icon icon={CalendarDays} size={18} />
+            <Icon icon={ChartColumn} size={18} />
           </span>
           <span className="min-w-0">
             <span className="flex flex-wrap items-center gap-2">
-              <span className="text-[14px] font-medium text-ink">{t('Study rhythm')}</span>
+              <span className="text-[14px] font-medium text-ink">{t('Flashcard statistics')}</span>
               <Badge tone="outline">{t('Coming soon')}</Badge>
             </span>
             <span className="mt-0.5 block text-[12.5px] text-ink-3">
-              {t('Your review history and forecast, day by day, with the figures underneath.')}
+              {t('Retention, workload and accuracy over time, across every deck.')}
             </span>
           </span>
         </button>
@@ -201,9 +199,9 @@ export function StudyRhythmGate({ children }: { children: ReactNode }) {
       </Panel>
       {explaining && (
         <ComingSoonDialog
-          title="Study rhythm"
-          body="It will show every day you studied, what is due next, and the streaks and averages that come out of both. The calendar and the figures already work on your real history — they are being checked against it before this becomes part of the page."
-          icon={CalendarDays}
+          title="Flashcard statistics"
+          body="It will chart your retention, your daily workload and your accuracy over time across every deck. The figures already run on your real history — they are being checked against it before this becomes part of the page."
+          icon={ChartColumn}
           onClose={() => setExplaining(false)}
         />
       )}
@@ -324,9 +322,7 @@ function DeckDetail({
       </Panel>
 
       {rhythm.settings.showOnDeck && (
-        <StudyRhythmGate>
-          <StudyRhythm api={api} scope={deckScope} settingsApi={rhythm} />
-        </StudyRhythmGate>
+        <StudyRhythm api={api} scope={deckScope} settingsApi={rhythm} />
       )}
 
       <Panel>
