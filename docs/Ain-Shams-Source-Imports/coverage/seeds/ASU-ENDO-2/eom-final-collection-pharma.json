@@ -1,0 +1,618 @@
+{
+  "lane": "ASU-ENDO-2",
+  "cluster": "eom-final-collection-pharma",
+  "header": "ASU-ENDO-2 · Pharmacology — follow-on MCQ-authoring pass on the same source as the Anatomy+Community commit, from the Pharma block (22 items) of \"EOM MCQs - Endocrine Final MCQ Collection.pdf\" (127+ items across 7 subject blocks; this cluster covers only the Pharma block). Embedded-answer format (\"N-question?\\n<bare answer>\", no printed distractors) — this lane authors its own options and explanations from the stated answer/topic. Item 15 (vasopressin preparation / intranasal desmopressin for diabetes insipidus) is held as a near-exact restatement of item 13 within this same source.",
+  "defaults": {
+    "subject": "endo",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["asu"],
+    "years": ["ASU_Y2"],
+    "module": "ASU-ENDO-2",
+    "module_subject": "ASU-ENDO-2 > Pharmacology",
+    "exam_weight_by_year": { "ASU_Y2": "moderate" },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": ["src_f3b44cd466398c8953b9"],
+    "source_citation": "Ain Shams Year 2 Endocrine System EOM MCQ Final Collection (\"EOM MCQs - Endocrine Final MCQ Collection.pdf\", 2018/19/20 combined sitting), Pharma item {page}.",
+    "setting": "Academic",
+    "cognitive_effort": "Low",
+    "difficulty": "Moderate",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "pharma-q01",
+      "id": "QST-ASUENDO2-PHARMA-P01",
+      "page": 1,
+      "title": "Mechanism of action of denosumab",
+      "question": "What is the mechanism of action of denosumab?",
+      "options": {
+        "A": "RANKL inhibitor",
+        "B": "Binds hydroxyapatite and induces osteoclast apoptosis",
+        "C": "Calcitonin receptor agonist",
+        "D": "Estrogen receptor agonist"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Denosumab is a human monoclonal antibody that binds RANKL (receptor activator of nuclear factor kappa-B ligand), preventing it from activating RANK on osteoclast precursors. By blocking RANKL, denosumab inhibits osteoclast formation, function and survival, reducing bone resorption. It is given by subcutaneous injection and used in osteoporosis and bone metastases.",
+        "B": "Incorrect. Binding hydroxyapatite and inducing osteoclast apoptosis is the mechanism of bisphosphonates, not denosumab — denosumab acts as an antibody against RANKL, not by binding bone mineral directly.",
+        "C": "Incorrect. Calcitonin, not denosumab, acts as a calcitonin receptor agonist; calcitonin also reduces bone resorption but through a different receptor pathway on osteoclasts.",
+        "D": "Incorrect. Estrogen receptor agonists (e.g., raloxifene as a selective modulator) reduce bone turnover through the estrogen receptor pathway, unrelated to denosumab's RANKL-antibody mechanism."
+      },
+      "main_concept": "CON-END-D695BFC3B85ADB",
+      "concept_ids": ["CON-END-D695BFC3B85ADB"],
+      "topic": "Pharmacology",
+      "subtopic": "Bone and calcium metabolism drugs",
+      "question_type": "Recall",
+      "learning_objective": "State that denosumab acts by inhibiting RANKL, thereby blocking osteoclast-mediated bone resorption.",
+      "library_ids": ["ART-END-ASUENDO2EFC-DENOSUMAB-RANKL-INHIBITOR"],
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 1", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 1" }
+    },
+    {
+      "key": "pharma-q02",
+      "id": "QST-ASUENDO2-PHARMA-P02",
+      "page": 2,
+      "title": "Beta blockers in hyperthyroidism treatment",
+      "question": "Which of the following is true about beta blockers in the treatment of hyperthyroidism?",
+      "options": {
+        "A": "They inhibit thyroid hormone synthesis by blocking peroxidase",
+        "B": "They block sympathetic overactivity and are cardioprotective",
+        "C": "They deplete iodine stores in the gland",
+        "D": "They are curative for hyperthyroidism"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Inhibiting thyroid peroxidase and blocking hormone synthesis is the mechanism of thionamides such as methimazole and PTU, not beta blockers, which have no direct effect on thyroid hormone synthesis.",
+        "B": "Correct. Beta-adrenergic blockers, typically propranolol, are used as adjunct symptomatic therapy in hyperthyroidism: they block the peripheral sympathetic manifestations of excess thyroid hormone (tremor, tachycardia, palpitations, anxiety, heat intolerance) and are cardioprotective by reducing heart rate and myocardial oxygen demand, lowering the risk of tachyarrhythmia. They do not reduce thyroid hormone synthesis and are not curative on their own.",
+        "C": "Incorrect. Beta blockers have no iodine-depleting action; iodine handling is unaffected by adrenergic blockade.",
+        "D": "Incorrect. Beta blockers are purely symptomatic and cardioprotective adjuncts; definitive therapy requires thionamides, radioiodine, or surgery."
+      },
+      "main_concept": "CON-END-0C9013D06AC434",
+      "concept_ids": ["CON-END-0C9013D06AC434"],
+      "topic": "Pharmacology",
+      "subtopic": "Thyroid drugs",
+      "question_type": "Recall",
+      "learning_objective": "State that beta blockers in hyperthyroidism act by blocking sympathetic overactivity symptoms and providing cardioprotection, without reducing thyroid hormone synthesis.",
+      "library_ids": ["ART-END-ASUENDO2EFC-BETA-BLOCKERS-HYPERTHYROIDISM"],
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 2", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 2" }
+    },
+    {
+      "key": "pharma-q03",
+      "id": "QST-ASUENDO2-PHARMA-P03",
+      "page": 3,
+      "title": "Correct clinical use of Lugol's iodine",
+      "question": "What is the correct clinical use of Lugol's iodine?",
+      "options": {
+        "A": "Long-term definitive treatment of chronic hyperthyroidism",
+        "B": "Given for 7-10 days before subtotal thyroidectomy to reduce gland size and vascularity",
+        "C": "Prevention of endemic iodine-deficiency goitre",
+        "D": "Given postoperatively to prevent hypocalcaemia after thyroidectomy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Lugol's iodine is not used as chronic definitive therapy — its antithyroid effect is transient, and prolonged dosing leads to escape from the inhibitory effect, so it is unsuitable for long-term hyperthyroidism management.",
+        "B": "Correct. Lugol's iodine (strong iodine solution) is given for 7-10 days immediately before subtotal/near-total thyroidectomy in hyperthyroid patients. High-dose iodine transiently inhibits thyroid hormone release and reduces the size and vascularity of the hyperplastic gland, making surgery technically easier and reducing intraoperative blood loss.",
+        "C": "Incorrect. Prevention of endemic iodine-deficiency goitre is achieved through dietary iodisation programmes (e.g., iodised salt), not short-course pharmacologic Lugol's iodine.",
+        "D": "Incorrect. Postoperative hypocalcaemia after thyroidectomy (from parathyroid injury) is managed with calcium and vitamin D supplementation, not iodine."
+      },
+      "main_concept": "CON-END-19D8D0697959D6",
+      "concept_ids": ["CON-END-19D8D0697959D6"],
+      "topic": "Pharmacology",
+      "subtopic": "Thyroid drugs",
+      "question_type": "Recall",
+      "learning_objective": "State that Lugol's iodine's correct clinical use is short-term preoperative preparation before thyroidectomy to reduce gland size and vascularity.",
+      "library_ids": ["ART-END-ASUENDO2EFC-LUGOLS-IODINE-PREOP-THYROIDECTOMY"],
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 3", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 3" }
+    },
+    {
+      "key": "pharma-q04",
+      "id": "QST-ASUENDO2-PHARMA-P04",
+      "page": 4,
+      "title": "False statement about methimazole in pregnancy",
+      "question": "Which of the following statements about methimazole is NOT true?",
+      "options": {
+        "A": "It is contraindicated in all stages of pregnancy",
+        "B": "It is generally avoided in the first trimester in favour of propylthiouracil (PTU)",
+        "C": "It is generally preferred over PTU from the second trimester onward",
+        "D": "It inhibits thyroid peroxidase, reducing new thyroid hormone synthesis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct — this is the FALSE statement. Methimazole is avoided in the first trimester because of an association with rare embryopathy (aplasia cutis, choanal/oesophageal atresia), so PTU is preferred instead despite its own hepatotoxicity risk; but from the second trimester onward, methimazole is generally preferred over PTU because of PTU's greater hepatotoxicity risk. Because its use is trimester-dependent rather than avoided throughout pregnancy, the statement that it is \"contraindicated in all stages of pregnancy\" is not true.",
+        "B": "Incorrect as an answer to this question — this statement is TRUE. Methimazole is indeed avoided in the first trimester because of its embryopathy association, with PTU preferred instead.",
+        "C": "Incorrect as an answer to this question — this statement is TRUE. From the second trimester onward, methimazole is generally the preferred thionamide over PTU because of PTU's greater hepatotoxicity risk.",
+        "D": "Incorrect as an answer to this question — this statement is TRUE. Methimazole's mechanism of action is inhibition of thyroid peroxidase, which reduces new thyroid hormone synthesis."
+      },
+      "main_concept": "CON-END-5C85EE4EB52DE0",
+      "concept_ids": ["CON-END-5C85EE4EB52DE0", "CON-END-4ACC5BF62E8252"],
+      "topic": "Pharmacology",
+      "subtopic": "Thyroid drugs",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "learning_objective": "State that methimazole's pregnancy safety is trimester-dependent (avoided in the first trimester in favour of PTU, preferred from the second trimester onward) rather than contraindicated throughout pregnancy.",
+      "library_ids": ["ART-END-ASUENDO2EFC-METHIMAZOLE-PREGNANCY-TRIMESTER"],
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 4", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 4" }
+    },
+    {
+      "key": "pharma-q05",
+      "id": "QST-ASUENDO2-PHARMA-P05",
+      "page": 5,
+      "title": "Classifying bromocriptine",
+      "question": "Which of the following best describes bromocriptine?",
+      "options": {
+        "A": "An orally active dopamine agonist",
+        "B": "An injectable somatostatin analogue",
+        "C": "A gonadotropin-releasing hormone (GnRH) agonist",
+        "D": "A dopamine receptor antagonist"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Bromocriptine is an ergot-derived dopamine D2 receptor agonist that is orally active. By activating dopamine receptors on lactotroph cells, it mimics the tonic inhibitory action of hypothalamic dopamine on prolactin secretion, making it a first-line drug for hyperprolactinaemia (e.g., prolactinoma).",
+        "B": "Incorrect. Injectable somatostatin analogues (e.g., octreotide) are used for acromegaly and carcinoid symptom control, not hyperprolactinaemia, and are given by injection rather than orally like bromocriptine.",
+        "C": "Incorrect. GnRH agonists (e.g., leuprolide) act on the hypothalamic-pituitary-gonadal axis and are unrelated to bromocriptine's dopaminergic mechanism.",
+        "D": "Incorrect. A dopamine receptor antagonist (e.g., metoclopramide) would raise, not lower, prolactin — the opposite effect of bromocriptine."
+      },
+      "main_concept": "CON-END-45998037152143",
+      "concept_ids": ["CON-END-45998037152143"],
+      "topic": "Pharmacology",
+      "subtopic": "Pituitary hormone drugs",
+      "question_type": "Recall",
+      "learning_objective": "State that bromocriptine is an orally active dopamine agonist used to suppress prolactin secretion.",
+      "library_ids": ["ART-END-ASUENDO2EFC-BROMOCRIPTINE-DOPAMINE-AGONIST"],
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 5", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 5" }
+    },
+    {
+      "key": "pharma-q06",
+      "id": "QST-ASUENDO2-PHARMA-P06",
+      "page": 6,
+      "title": "Route of administration of conivaptan",
+      "question": "Which of the following is true about conivaptan, a vasopressin receptor antagonist?",
+      "options": {
+        "A": "It is available as an oral tablet",
+        "B": "It is administered only by intravenous infusion",
+        "C": "It is a V2-receptor-selective antagonist",
+        "D": "It is used to treat hypovolaemic hyponatraemia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Oral administration is the route for tolvaptan, another vaptan; conivaptan itself is not formulated for oral use.",
+        "B": "Correct. Conivaptan is a non-selective vasopressin V1a/V2 receptor antagonist used to treat euvolaemic and hypervolaemic hyponatraemia (e.g., in SIADH). Unlike tolvaptan, which is taken orally, conivaptan is formulated and administered only by intravenous infusion, which limits it to short-term inpatient use.",
+        "C": "Incorrect. Conivaptan is non-selective, blocking both V1a and V2 receptors; tolvaptan is the V2-selective vaptan.",
+        "D": "Incorrect. Vaptans, including conivaptan, are contraindicated in hypovolaemic hyponatraemia — they are used for euvolaemic and hypervolaemic hyponatraemia, and would worsen volume depletion if given in a hypovolaemic patient."
+      },
+      "main_concept": "CON-END-DAA857855249C4",
+      "concept_ids": ["CON-END-DAA857855249C4"],
+      "topic": "Pharmacology",
+      "subtopic": "Antidiuretic hormone analogues and antagonists",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-CONIVAPTAN-IV-ROUTE"],
+      "learning_objective": "State that conivaptan, unlike the oral vaptan tolvaptan, is administered intravenously.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 6", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 6" }
+    },
+    {
+      "key": "pharma-q07",
+      "id": "QST-ASUENDO2-PHARMA-P07",
+      "page": 7,
+      "title": "False statement about bisphosphonates and renal function",
+      "question": "Which of the following statements about bisphosphonates is NOT true?",
+      "options": {
+        "A": "They can be safely given regardless of renal function",
+        "B": "They require caution and dose adjustment in significant renal impairment",
+        "C": "They are contraindicated in active peptic ulcer disease",
+        "D": "Oral formulations should be taken with a full glass of water while remaining upright"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct — this is the FALSE statement. Bisphosphonates are renally cleared and are not safely given in patients with significant renal impairment (commonly around a creatinine clearance below approximately 30-35 mL/min, drug-specific), because reduced clearance raises nephrotoxicity risk and compounds hypocalcaemia risk. Dose adjustment or avoidance is required, so the claim that they can be given \"regardless of renal function\" is not true.",
+        "B": "Incorrect as an answer to this question — this statement is TRUE. Significant renal impairment does require caution and dose adjustment with bisphosphonate therapy.",
+        "C": "Incorrect as an answer to this question — this statement is TRUE. Active peptic ulcer disease is a recognised contraindication because oral bisphosphonates are directly irritant to the upper GI mucosa.",
+        "D": "Incorrect as an answer to this question — this statement is TRUE. Patients are instructed to take oral bisphosphonates with a full glass of water, on an empty stomach, and to remain upright for 30-60 minutes to reduce oesophageal irritation."
+      },
+      "main_concept": "CON-END-BD62923FBCF865",
+      "concept_ids": ["CON-END-BD62923FBCF865", "CON-END-90F73C83C9396B"],
+      "topic": "Pharmacology",
+      "subtopic": "Bone and calcium metabolism drugs",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "library_ids": ["ART-END-ASUENDO2EFC-BISPHOSPHONATES-RENAL-CAUTION"],
+      "learning_objective": "State that bisphosphonates require caution/dose adjustment, rather than being simply \"safe\", in patients with significant renal impairment.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 7", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 7" }
+    },
+    {
+      "key": "pharma-q08",
+      "id": "QST-ASUENDO2-PHARMA-P08",
+      "page": 8,
+      "title": "Bisphosphonate contraindication: peptic ulcer disease",
+      "question": "Which of the following is a contraindication to oral bisphosphonate therapy?",
+      "options": {
+        "A": "Active peptic ulcer disease",
+        "B": "Well-controlled hypertension",
+        "C": "Mild osteoarthritis",
+        "D": "Postmenopausal status"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Oral bisphosphonates are directly irritant to the upper gastrointestinal mucosa and are contraindicated in active peptic ulcer disease, because they can cause or worsen mucosal ulceration and erosion. This is why patients are instructed to take oral bisphosphonates with a full glass of water, on an empty stomach, and remain upright afterwards.",
+        "B": "Incorrect. Well-controlled hypertension is not a contraindication to bisphosphonate therapy; bisphosphonates have no direct interaction with blood pressure control.",
+        "C": "Incorrect. Mild osteoarthritis is unrelated to bisphosphonate safety and is not a contraindication.",
+        "D": "Incorrect. Postmenopausal status is, if anything, an indication for bisphosphonate therapy (postmenopausal osteoporosis), not a contraindication."
+      },
+      "main_concept": "CON-END-90F73C83C9396B",
+      "concept_ids": ["CON-END-90F73C83C9396B"],
+      "topic": "Pharmacology",
+      "subtopic": "Bone and calcium metabolism drugs",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-BISPHOSPHONATES-GI-CONTRAINDICATIONS"],
+      "learning_objective": "State that active peptic ulcer disease is a contraindication to oral bisphosphonate therapy because of direct mucosal irritation.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 8", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 8" }
+    },
+    {
+      "key": "pharma-q09",
+      "id": "QST-ASUENDO2-PHARMA-P09",
+      "page": 9,
+      "title": "Adverse effect of octreotide in carcinoid tumour treatment",
+      "question": "A patient is treated with octreotide for symptom control of a carcinoid tumour. Which of the following is a recognised adverse effect of long-term octreotide therapy?",
+      "options": {
+        "A": "Gallstones",
+        "B": "Weight gain",
+        "C": "Peptic ulcer perforation",
+        "D": "Hypertrichosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Octreotide inhibits gallbladder contractility and biliary/pancreatic secretion. With prolonged use this promotes bile stasis and cholesterol supersaturation, predisposing to gallstone (cholelithiasis) formation. This is one of octreotide's most characteristic adverse effects, and patients on long-term therapy are typically monitored for it.",
+        "B": "Incorrect. Octreotide is not characteristically associated with weight gain; its gastrointestinal effects more typically include malabsorption and steatorrhoea rather than weight gain.",
+        "C": "Incorrect. Octreotide is not known to cause peptic ulcer perforation; its GI adverse effects centre on gallbladder motility and pancreatic exocrine suppression, not gastric ulceration.",
+        "D": "Incorrect. Hypertrichosis (excess hair growth) is not a recognised octreotide adverse effect; it is more classically associated with drugs such as minoxidil or ciclosporin."
+      },
+      "main_concept": "CON-END-2A38B7A0752835",
+      "concept_ids": ["CON-END-2A38B7A0752835"],
+      "topic": "Pharmacology",
+      "subtopic": "Somatostatin analogues",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-OCTREOTIDE-GALLSTONES"],
+      "learning_objective": "State that gallstone formation is a characteristic adverse effect of octreotide, caused by reduced gallbladder motility.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 9", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 9" }
+    },
+    {
+      "key": "pharma-q10",
+      "id": "QST-ASUENDO2-PHARMA-P10",
+      "page": 10,
+      "title": "Felypressin as a vasoconstrictor in cardiac patients",
+      "question": "Which of the following is true regarding felypressin as a vasoconstrictor additive in local anaesthetic?",
+      "options": {
+        "A": "It acts on cardiac beta-adrenergic receptors, like epinephrine",
+        "B": "It prolongs local anaesthesia and is preferred over epinephrine in cardiac patients",
+        "C": "It is contraindicated in all local anaesthetic use",
+        "D": "It has no vasoconstrictor activity"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Felypressin acts on vascular V1 receptors, not cardiac beta-adrenergic receptors — this is precisely why it lacks epinephrine's cardiac stimulant effects.",
+        "B": "Correct. Felypressin is a synthetic vasopressin analogue used as the vasoconstrictor additive in local (particularly dental) anaesthetic solutions. Because it acts on vascular V1 receptors rather than adrenergic receptors, it lacks epinephrine's cardiac beta-adrenergic stimulant effects (tachycardia, arrhythmia risk), and its local vasoconstriction prolongs the duration of anaesthesia by slowing systemic absorption, making it the preferred vasoconstrictor for patients with cardiac disease.",
+        "C": "Incorrect. Felypressin is not contraindicated in all local anaesthetic use — it is a standard vasoconstrictor option, preferred specifically in cardiac patients, though high doses still warrant caution in severe ischaemic heart disease.",
+        "D": "Incorrect. Felypressin does have vasoconstrictor activity via vascular V1 receptors — that vasoconstriction is exactly what prolongs local anaesthetic action."
+      },
+      "main_concept": "CON-END-B367ADE7C3FFF6",
+      "concept_ids": ["CON-END-B367ADE7C3FFF6"],
+      "topic": "Pharmacology",
+      "subtopic": "Antidiuretic hormone analogues and antagonists",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-FELYPRESSIN-CARDIAC-PATIENT"],
+      "learning_objective": "State that felypressin, by acting on vascular V1 receptors rather than adrenergic receptors, is used as a cardiac-safer vasoconstrictor that prolongs local anaesthesia in cardiac patients.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 10", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 10" }
+    },
+    {
+      "key": "pharma-q11",
+      "id": "QST-ASUENDO2-PHARMA-P11",
+      "page": 11,
+      "title": "Drug inhibiting thyroid hormone synthesis via peroxidase inhibition",
+      "question": "Which of the following drugs inhibits the synthesis of thyroid hormone by inhibiting thyroid peroxidase activity?",
+      "options": {
+        "A": "Methimazole",
+        "B": "Levothyroxine",
+        "C": "Radioactive iodine (I-131)",
+        "D": "Lugol's iodine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Methimazole is a thionamide antithyroid drug that inhibits the enzyme thyroid peroxidase (TPO). This blocks the oxidation of iodide to its active form, its organification onto thyroglobulin tyrosine residues, and the coupling of iodotyrosines into T3 and T4. By inhibiting these steps, methimazole reduces new thyroid hormone synthesis.",
+        "B": "Incorrect. Levothyroxine is exogenous thyroid hormone replacement; it does not inhibit any enzyme in hormone synthesis and instead supplies T4 directly.",
+        "C": "Incorrect. Radioactive iodine (I-131) is concentrated by the thyroid and destroys thyroid tissue through beta radiation, not through peroxidase inhibition.",
+        "D": "Incorrect. Lugol's iodine acts by a different, transient mechanism — high-dose iodine inhibits hormone release and reduces gland vascularity — rather than by inhibiting thyroid peroxidase."
+      },
+      "main_concept": "CON-END-4ACC5BF62E8252",
+      "concept_ids": ["CON-END-4ACC5BF62E8252"],
+      "topic": "Pharmacology",
+      "subtopic": "Thyroid drugs",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-METHIMAZOLE-PEROXIDASE-INHIBITION"],
+      "learning_objective": "State that methimazole's mechanism of action is inhibition of thyroid peroxidase, blocking iodide oxidation/organification and thyroid hormone synthesis.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 11", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 11" }
+    },
+    {
+      "key": "pharma-q12",
+      "id": "QST-ASUENDO2-PHARMA-P12",
+      "page": 12,
+      "title": "Drug contraindicated in oesophageal disorders",
+      "question": "A patient has a significant oesophageal disorder (e.g., stricture or delayed oesophageal emptying). Which of the following drug classes is contraindicated?",
+      "options": {
+        "A": "Bisphosphonates",
+        "B": "Calcium carbonate supplements",
+        "C": "Vitamin D supplements",
+        "D": "Denosumab"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Oral bisphosphonates are directly irritant to the upper gastrointestinal mucosa. They are contraindicated in oesophageal disorders (stricture, achalasia, or any condition that delays oesophageal emptying, and in patients unable to sit or stand upright for 30-60 minutes after dosing), because they can cause or worsen oesophagitis, oesophageal ulceration and erosion. This is why patients are instructed to take oral bisphosphonates with a full glass of water and remain upright afterwards.",
+        "B": "Incorrect. Calcium carbonate supplements are not directly irritant to the oesophageal mucosa in the way oral bisphosphonates are, and are not contraindicated by oesophageal disorders.",
+        "C": "Incorrect. Vitamin D supplements have no direct oesophageal mucosal irritant effect and are not contraindicated by oesophageal disorders.",
+        "D": "Incorrect. Denosumab is given by subcutaneous injection, not orally, so it has no oesophageal contact and is not contraindicated by oesophageal disorders."
+      },
+      "main_concept": "CON-END-90F73C83C9396B",
+      "concept_ids": ["CON-END-90F73C83C9396B"],
+      "topic": "Pharmacology",
+      "subtopic": "Bone and calcium metabolism drugs",
+      "question_type": "Application",
+      "library_ids": ["ART-END-ASUENDO2EFC-BISPHOSPHONATES-GI-CONTRAINDICATIONS"],
+      "learning_objective": "State that oesophageal disorders are a contraindication to oral bisphosphonate therapy because of direct mucosal irritation.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 12", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 12" }
+    },
+    {
+      "key": "pharma-q13",
+      "id": "QST-ASUENDO2-PHARMA-P13",
+      "page": 13,
+      "title": "True statement about vasopressin preparations",
+      "question": "Which of the following statements about vasopressin preparations is true?",
+      "options": {
+        "A": "Desmopressin is used to treat central diabetes insipidus",
+        "B": "Desmopressin is effective in nephrogenic diabetes insipidus",
+        "C": "Desmopressin is a non-selective V1/V2 agonist with a strong pressor effect",
+        "D": "Desmopressin is contraindicated in diabetes insipidus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Desmopressin (DDAVP) is a synthetic vasopressin analogue selective for the V2 receptor, given orally, intranasally, or parenterally. It is the treatment of choice for central (cranial) diabetes insipidus, where it replaces deficient endogenous ADH to restore renal water reabsorption in the collecting duct, reducing polyuria and correcting polydipsia.",
+        "B": "Incorrect. Desmopressin is not effective in nephrogenic diabetes insipidus, where the renal V2 receptor response itself is defective and replacing ADH does not overcome the receptor-level defect.",
+        "C": "Incorrect. Desmopressin is V2-selective with minimal V1/pressor activity — this selectivity is what limits its pressor (blood pressure-raising) effect compared with non-selective vasopressin preparations.",
+        "D": "Incorrect. Desmopressin is not contraindicated in diabetes insipidus — it is the standard treatment for the central form of the condition."
+      },
+      "main_concept": "CON-END-135FD0F7E869D1",
+      "concept_ids": ["CON-END-135FD0F7E869D1"],
+      "topic": "Pharmacology",
+      "subtopic": "Antidiuretic hormone analogues and antagonists",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-DESMOPRESSIN-CENTRAL-DI"],
+      "learning_objective": "State that desmopressin is the treatment of choice for central diabetes insipidus, replacing deficient endogenous ADH.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 13", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 13" }
+    },
+    {
+      "key": "pharma-q14",
+      "id": "QST-ASUENDO2-PHARMA-P14",
+      "page": 14,
+      "title": "Adverse effect of octreotide: vitamin B12 deficiency",
+      "question": "Long-term octreotide therapy is associated with which of the following adverse effects?",
+      "options": {
+        "A": "Vitamin B12 deficiency",
+        "B": "Hyperthyroidism",
+        "C": "Osteoporosis",
+        "D": "Hyperkalaemia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Octreotide inhibits pancreatic exocrine secretion and gastrointestinal motility as part of its broad somatostatin-analogue action. With prolonged use this reduces the pancreatic and gastric secretions needed for normal cobalamin (vitamin B12) release from dietary protein and its binding to intrinsic factor, resulting in vitamin B12 deficiency as a recognised adverse effect of long-term therapy.",
+        "B": "Incorrect. Octreotide does not cause hyperthyroidism; it has no direct effect on thyroid hormone synthesis or release.",
+        "C": "Incorrect. Osteoporosis is not a characteristic direct adverse effect of octreotide therapy.",
+        "D": "Incorrect. Octreotide is not associated with hyperkalaemia; its recognised adverse effects centre on the biliary system, pancreatic exocrine function, and glucose regulation."
+      },
+      "main_concept": "CON-END-91FAFE54D16548",
+      "concept_ids": ["CON-END-91FAFE54D16548"],
+      "topic": "Pharmacology",
+      "subtopic": "Somatostatin analogues",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-OCTREOTIDE-B12-DEFICIENCY"],
+      "learning_objective": "State that vitamin B12 deficiency is a recognised adverse effect of long-term octreotide therapy, related to its suppression of pancreatic exocrine function.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 14", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 14" }
+    },
+    { "key": "pharma-q15", "hold": "Near-exact restatement of item 13 within this same source: same question type (\"true about vasopressin preparation(s)\"), same drug (desmopressin), same indication (diabetes insipidus), differing only by specifying the intranasal route. Not re-authored as a distinct concept/question." },
+    {
+      "key": "pharma-q16",
+      "id": "QST-ASUENDO2-PHARMA-P16",
+      "page": 16,
+      "title": "Insulin therapy for diabetic ketoacidosis",
+      "question": "Which of the following is the appropriate insulin therapy for controlling diabetic ketoacidosis (DKA)?",
+      "options": {
+        "A": "Regular insulin as a continuous IV infusion",
+        "B": "Insulin glargine given subcutaneously",
+        "C": "NPH insulin given subcutaneously",
+        "D": "An oral sulfonylurea"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Diabetic ketoacidosis is managed with a continuous intravenous infusion of regular (short-acting, soluble) insulin, alongside fluid resuscitation and potassium replacement. The IV route gives a rapid, titratable, predictable onset of action, unlike subcutaneous insulins, whose absorption is slow and unreliable in a dehydrated, acidotic patient.",
+        "B": "Incorrect. Subcutaneous long-acting insulin glargine has slow, variable absorption that is unpredictable in a dehydrated, hypoperfused DKA patient, making it unsuitable for acute management.",
+        "C": "Incorrect. Subcutaneous NPH insulin similarly has unpredictable absorption in the acute, dehydrated DKA state and is not used for acute control.",
+        "D": "Incorrect. Oral sulfonylureas require functioning endogenous insulin secretion and reliable gut absorption, neither of which is appropriate or reliable for acute DKA management, which is an insulin-deficient emergency requiring exogenous IV insulin."
+      },
+      "main_concept": "CON-END-FEB69730AAB783",
+      "concept_ids": ["CON-END-FEB69730AAB783"],
+      "topic": "Pharmacology",
+      "subtopic": "Diabetes drugs",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "library_ids": ["ART-END-ASUENDO2EFC-REGULAR-INSULIN-IV-DKA"],
+      "learning_objective": "State that continuous intravenous regular insulin infusion, not subcutaneous or long-acting insulin, is the mainstay of diabetic ketoacidosis management.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 16", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 16" }
+    },
+    {
+      "key": "pharma-q17",
+      "id": "QST-ASUENDO2-PHARMA-P17",
+      "page": 17,
+      "title": "Identifying an SGLT2 inhibitor",
+      "question": "Which of the following antidiabetic drugs is an SGLT2 inhibitor?",
+      "options": {
+        "A": "Canagliflozin",
+        "B": "Sitagliptin",
+        "C": "Liraglutide",
+        "D": "Glimepiride"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Canagliflozin belongs to the sodium-glucose cotransporter-2 (SGLT2) inhibitor class of oral antidiabetic drugs. These drugs act in the proximal renal tubule to block SGLT2-mediated glucose reabsorption, causing glucosuria and lowering blood glucose independent of insulin secretion or action. The class also has recognised cardiovascular and renal-protective benefits in type 2 diabetes.",
+        "B": "Incorrect. Sitagliptin is a DPP-4 inhibitor, which prolongs the action of endogenous incretin hormones rather than acting on renal glucose reabsorption.",
+        "C": "Incorrect. Liraglutide is a GLP-1 receptor agonist, an injectable incretin-based drug, not an SGLT2 inhibitor.",
+        "D": "Incorrect. Glimepiride is a sulfonylurea that stimulates pancreatic insulin secretion, an entirely different mechanism from SGLT2 inhibition."
+      },
+      "main_concept": "CON-END-37937A813E8DC4",
+      "concept_ids": ["CON-END-37937A813E8DC4"],
+      "topic": "Pharmacology",
+      "subtopic": "Diabetes drugs",
+      "question_type": "Classification",
+      "library_ids": ["ART-END-ASUENDO2EFC-CANAGLIFLOZIN-SGLT2-INHIBITOR"],
+      "learning_objective": "Classify canagliflozin as an SGLT2 inhibitor that lowers blood glucose by blocking renal tubular glucose reabsorption.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 17", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 17" }
+    },
+    {
+      "key": "pharma-q18",
+      "id": "QST-ASUENDO2-PHARMA-P18",
+      "page": 18,
+      "title": "Anti-inflammatory action of corticosteroids",
+      "question": "Which of the following describes an anti-inflammatory action of corticosteroids?",
+      "options": {
+        "A": "They reduce production of proinflammatory cytokines",
+        "B": "They increase prostaglandin synthesis via COX-2 induction",
+        "C": "They stimulate histamine release from mast cells",
+        "D": "They directly disrupt bacterial cell walls"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Glucocorticoids exert their anti-inflammatory action largely by binding intracellular glucocorticoid receptors and modulating gene transcription. They induce anti-inflammatory proteins such as annexin-1/lipocortin-1, which inhibits phospholipase A2, and they inhibit the transcription factors NF-kB and AP-1. This reduces production of proinflammatory cytokines such as IL-1, IL-2, IL-6 and TNF-alpha.",
+        "B": "Incorrect. Corticosteroids suppress, rather than induce, COX-2 and downstream prostaglandin synthesis — this is part of their anti-inflammatory action, the opposite of what this option states.",
+        "C": "Incorrect. Corticosteroids stabilise mast cell membranes and reduce histamine release; they do not stimulate it.",
+        "D": "Incorrect. Corticosteroids have no antibacterial action; they do not act on bacterial cell walls, unlike antibiotics such as beta-lactams."
+      },
+      "main_concept": "CON-END-9F2B8569A41D4E",
+      "concept_ids": ["CON-END-9F2B8569A41D4E"],
+      "topic": "Pharmacology",
+      "subtopic": "Corticosteroid pharmacology",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-CORTICOSTEROIDS-CYTOKINE-SUPPRESSION"],
+      "learning_objective": "State that corticosteroids act, in part, by reducing the transcription of proinflammatory cytokines via inhibition of NF-kB/AP-1.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 18", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 18" }
+    },
+    {
+      "key": "pharma-q19",
+      "id": "QST-ASUENDO2-PHARMA-P19",
+      "page": 19,
+      "title": "Action of methimazole on iodine handling",
+      "question": "Which of the following describes the action of methimazole?",
+      "options": {
+        "A": "Inhibition of iodine oxidation (organification)",
+        "B": "Stimulation of the TSH receptor",
+        "C": "Inhibition of iodine uptake by the sodium-iodide symporter",
+        "D": "Stimulation of thyroglobulin proteolysis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Methimazole inhibits thyroid peroxidase (TPO). This blocks the oxidation of iodide to its active form and its organification onto thyroglobulin tyrosine residues, and it blocks the coupling of iodotyrosines into T3 and T4. Inhibiting these steps reduces new thyroid hormone synthesis.",
+        "B": "Incorrect. Methimazole does not stimulate the TSH receptor; TSH-receptor stimulation is the mechanism of TSH itself or of stimulating antibodies such as those in Graves disease, not of methimazole.",
+        "C": "Incorrect. Inhibiting iodine uptake at the sodium-iodide symporter is the mechanism of competitive inhibitors such as perchlorate, not methimazole, which acts downstream at the peroxidase-mediated oxidation/organification step.",
+        "D": "Incorrect. Methimazole does not stimulate thyroglobulin proteolysis — that step (release of T3/T4 from thyroglobulin) is instead promoted physiologically by TSH and is unrelated to methimazole's peroxidase-inhibiting action."
+      },
+      "main_concept": "CON-END-4ACC5BF62E8252",
+      "concept_ids": ["CON-END-4ACC5BF62E8252"],
+      "topic": "Pharmacology",
+      "subtopic": "Thyroid drugs",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-METHIMAZOLE-PEROXIDASE-INHIBITION"],
+      "learning_objective": "State that methimazole's mechanism of action is inhibition of thyroid peroxidase, blocking iodide oxidation/organification and thyroid hormone synthesis.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 19", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 19" }
+    },
+    {
+      "key": "pharma-q20",
+      "id": "QST-ASUENDO2-PHARMA-P20",
+      "page": 20,
+      "title": "Drug for antenatal fetal lung maturation",
+      "question": "A pregnant woman is at risk of preterm delivery. Which of the following drugs is given to accelerate fetal lung maturation?",
+      "options": {
+        "A": "Dexamethasone",
+        "B": "Indomethacin",
+        "C": "Nifedipine",
+        "D": "Magnesium sulfate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Dexamethasone (with betamethasone, the other antenatal corticosteroid in clinical use) is given intramuscularly to pregnant women at risk of preterm delivery to accelerate fetal lung maturation, by inducing type II pneumocyte surfactant production, which reduces the incidence and severity of neonatal respiratory distress syndrome. Dexamethasone crosses the placenta relatively unmetabolised, which is what allows it to reach and act on the fetus.",
+        "B": "Incorrect. Indomethacin is a tocolytic (used to delay preterm labour via prostaglandin synthesis inhibition); it does not accelerate fetal lung maturation.",
+        "C": "Incorrect. Nifedipine is also used as a tocolytic to delay labour, not to mature the fetal lungs.",
+        "D": "Incorrect. Magnesium sulfate is used for fetal neuroprotection and as a tocolytic/anticonvulsant in preeclampsia, not for fetal lung maturation."
+      },
+      "main_concept": "CON-END-F31C0E317C654C",
+      "concept_ids": ["CON-END-F31C0E317C654C"],
+      "topic": "Pharmacology",
+      "subtopic": "Corticosteroid pharmacology",
+      "question_type": "Application",
+      "library_ids": ["ART-END-ASUENDO2EFC-ANTENATAL-DEXAMETHASONE-FETAL-LUNG"],
+      "learning_objective": "State that antenatal dexamethasone is given before anticipated preterm delivery to accelerate fetal lung (surfactant) maturation.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 20", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 20" }
+    },
+    {
+      "key": "pharma-q21",
+      "id": "QST-ASUENDO2-PHARMA-P21",
+      "page": 21,
+      "title": "Insulin preparation for once-daily dosing",
+      "question": "Which of the following insulin preparations can be used with once-daily dosing as basal insulin?",
+      "options": {
+        "A": "Insulin glargine",
+        "B": "Regular insulin",
+        "C": "NPH insulin",
+        "D": "Insulin lispro"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Insulin glargine is a recombinant long-acting insulin analogue engineered to be released slowly and continuously from the subcutaneous injection site, producing a relatively flat, peakless plasma insulin profile lasting approximately 20-24 hours. This pharmacokinetic profile is what allows once-daily dosing as basal insulin replacement.",
+        "B": "Incorrect. Regular (short-acting) insulin has a much shorter duration of action and requires multiple daily doses, not once-daily dosing.",
+        "C": "Incorrect. NPH is an intermediate-acting insulin with a more pronounced peak and a shorter duration than glargine, typically requiring twice-daily dosing.",
+        "D": "Incorrect. Insulin lispro is a rapid-acting mealtime insulin with a short duration of action, used for prandial coverage rather than once-daily basal dosing."
+      },
+      "main_concept": "CON-END-CD0EA12A23CA75",
+      "concept_ids": ["CON-END-CD0EA12A23CA75"],
+      "topic": "Pharmacology",
+      "subtopic": "Diabetes drugs",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-INSULIN-GLARGINE-ONCE-DAILY"],
+      "learning_objective": "State that insulin glargine's prolonged, relatively peakless absorption profile is what allows once-daily basal dosing.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 21", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 21" }
+    },
+    {
+      "key": "pharma-q22",
+      "id": "QST-ASUENDO2-PHARMA-P22",
+      "page": 22,
+      "title": "Primary action of metformin",
+      "question": "Which of the following is true about the primary action of metformin?",
+      "options": {
+        "A": "It decreases hepatic glucose production",
+        "B": "It stimulates pancreatic insulin secretion",
+        "C": "It increases renal glucose excretion",
+        "D": "It delays carbohydrate absorption in the gut"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Metformin, a biguanide, lowers blood glucose primarily by activating AMP-activated protein kinase (AMPK) in hepatocytes, which suppresses gluconeogenesis and glycogenolysis and thereby decreases hepatic glucose output. This insulin-independent mechanism is why metformin does not cause hypoglycaemia as monotherapy.",
+        "B": "Incorrect. Stimulating pancreatic insulin secretion is the mechanism of sulfonylureas, not metformin, which does not act as an insulin secretagogue.",
+        "C": "Incorrect. Increasing renal glucose excretion is the mechanism of SGLT2 inhibitors such as canagliflozin, not metformin.",
+        "D": "Incorrect. Delaying carbohydrate absorption in the gut is the mechanism of alpha-glucosidase inhibitors such as acarbose, not metformin's primary action."
+      },
+      "main_concept": "CON-END-EA04C7FA344ACF",
+      "concept_ids": ["CON-END-EA04C7FA344ACF"],
+      "topic": "Pharmacology",
+      "subtopic": "Diabetes drugs",
+      "question_type": "Recall",
+      "library_ids": ["ART-END-ASUENDO2EFC-METFORMIN-HEPATIC-GLUCOSE"],
+      "learning_objective": "State that metformin's dominant glucose-lowering mechanism is decreasing hepatic glucose production via AMPK-mediated suppression of gluconeogenesis.",
+      "field_notes": { "keySource": "embedded answer before the stem, Pharma item 22", "asu": "EOM MCQs - Endocrine Final MCQ Collection.pdf, Pharma item 22" }
+    }
+  ]
+}

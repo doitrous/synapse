@@ -1,7 +1,9 @@
 <!--
   Rights-deferred catalogue resource for the source PDF used by
-  ../question/ASU-ENDO-2-eom-final-collection-mcq.md and its companion
-  concept/article files (same commit set).
+  ../question/ASU-ENDO-2-eom-final-collection-mcq.md,
+  ../question/ASU-ENDO-2-eom-final-collection-pharma-mcq.md, and their
+  companion concept/article files (Anatomy+Community commit, then this
+  follow-on Pharma commit).
 
   Learner-facing deep links and approved file-resource links are intentionally
   omitted because republication/open-file rights are not cleared.
@@ -39,10 +41,12 @@ Admin team
 Endocrine anatomy
 Endocrine embryology
 Endocrine community medicine
+Endocrine pharmacology
 
 ## chapter
 Anatomy
 Community
+Pharma
 
 ## module_ids
 ASU-ENDO-2
@@ -69,6 +73,25 @@ CON-END-BA41062BB9C475
 CON-END-DD0FF423A1134B
 CON-END-87CA5C0E17D790
 CON-END-76B785A732EBFB
+CON-END-D695BFC3B85ADB
+CON-END-0C9013D06AC434
+CON-END-19D8D0697959D6
+CON-END-5C85EE4EB52DE0
+CON-END-45998037152143
+CON-END-DAA857855249C4
+CON-END-BD62923FBCF865
+CON-END-90F73C83C9396B
+CON-END-2A38B7A0752835
+CON-END-B367ADE7C3FFF6
+CON-END-4ACC5BF62E8252
+CON-END-135FD0F7E869D1
+CON-END-91FAFE54D16548
+CON-END-FEB69730AAB783
+CON-END-37937A813E8DC4
+CON-END-9F2B8569A41D4E
+CON-END-F31C0E317C654C
+CON-END-CD0EA12A23CA75
+CON-END-EA04C7FA344ACF
 
 ## included_articles
 ART-END-ASUENDO2EFC-EXTERNAL-LARYNGEAL-NERVE-SUPERIOR-THYROID-ARTERY
@@ -89,6 +112,25 @@ ART-END-ASUENDO2EFC-SMOKING-THYROID-DISEASE-RISK
 ART-END-ASUENDO2EFC-FAMILY-HISTORY-TYPE2-DIABETES-RISK
 ART-END-ASUENDO2EFC-TERTIARY-PREVENTION-DIABETES-HYPERTENSION
 ART-END-ASUENDO2EFC-PRIMARY-PREVENTION-THYROID-HEALTH-EDUCATION
+ART-END-ASUENDO2EFC-DENOSUMAB-RANKL-INHIBITOR
+ART-END-ASUENDO2EFC-BETA-BLOCKERS-HYPERTHYROIDISM
+ART-END-ASUENDO2EFC-LUGOLS-IODINE-PREOP-THYROIDECTOMY
+ART-END-ASUENDO2EFC-METHIMAZOLE-PREGNANCY-TRIMESTER
+ART-END-ASUENDO2EFC-BROMOCRIPTINE-DOPAMINE-AGONIST
+ART-END-ASUENDO2EFC-CONIVAPTAN-IV-ROUTE
+ART-END-ASUENDO2EFC-BISPHOSPHONATES-RENAL-CAUTION
+ART-END-ASUENDO2EFC-BISPHOSPHONATES-GI-CONTRAINDICATIONS
+ART-END-ASUENDO2EFC-OCTREOTIDE-GALLSTONES
+ART-END-ASUENDO2EFC-FELYPRESSIN-CARDIAC-PATIENT
+ART-END-ASUENDO2EFC-METHIMAZOLE-PEROXIDASE-INHIBITION
+ART-END-ASUENDO2EFC-DESMOPRESSIN-CENTRAL-DI
+ART-END-ASUENDO2EFC-OCTREOTIDE-B12-DEFICIENCY
+ART-END-ASUENDO2EFC-REGULAR-INSULIN-IV-DKA
+ART-END-ASUENDO2EFC-CANAGLIFLOZIN-SGLT2-INHIBITOR
+ART-END-ASUENDO2EFC-CORTICOSTEROIDS-CYTOKINE-SUPPRESSION
+ART-END-ASUENDO2EFC-ANTENATAL-DEXAMETHASONE-FETAL-LUNG
+ART-END-ASUENDO2EFC-INSULIN-GLARGINE-ONCE-DAILY
+ART-END-ASUENDO2EFC-METFORMIN-HEPATIC-GLUCOSE
 
 ## concept_locations
 CON-END-2EE25A7B08EAAD | page | 1
@@ -109,6 +151,25 @@ CON-END-BA41062BB9C475 | page | 17
 CON-END-DD0FF423A1134B | page | 17
 CON-END-87CA5C0E17D790 | page | 17
 CON-END-76B785A732EBFB | page | 17
+CON-END-D695BFC3B85ADB | page | 2
+CON-END-0C9013D06AC434 | page | 2
+CON-END-19D8D0697959D6 | page | 2
+CON-END-5C85EE4EB52DE0 | page | 2
+CON-END-45998037152143 | page | 2
+CON-END-DAA857855249C4 | page | 2
+CON-END-BD62923FBCF865 | page | 3
+CON-END-90F73C83C9396B | page | 3
+CON-END-2A38B7A0752835 | page | 3
+CON-END-B367ADE7C3FFF6 | page | 3
+CON-END-4ACC5BF62E8252 | page | 3
+CON-END-135FD0F7E869D1 | page | 3
+CON-END-91FAFE54D16548 | page | 3
+CON-END-FEB69730AAB783 | page | 3
+CON-END-37937A813E8DC4 | page | 3
+CON-END-9F2B8569A41D4E | page | 3
+CON-END-F31C0E317C654C | page | 3
+CON-END-CD0EA12A23CA75 | page | 3
+CON-END-EA04C7FA344ACF | page | 3
 
 ## universities
 asu
@@ -117,4 +178,4 @@ asu
 ASU_Y2
 
 ## description
-Native-text, 17-page ASU Year 2 Endocrine System EOM MCQ Final Collection (2018/19/20 combined sitting), used here only for local curriculum alignment. Embedded-answer format (bare answer/topic before the stem, no printed distractors); this lane authored its own options and explanations. This pass covers the Anatomy and Community subject blocks only (18 of 127+ items); the remaining blocks are held for a follow-on session. Student-facing file approval and deep links are deferred pending rights review.
+Native-text, 17-page ASU Year 2 Endocrine System EOM MCQ Final Collection (2018/19/20 combined sitting), used here only for local curriculum alignment. Embedded-answer format (bare answer/topic before the stem, no printed distractors); this lane authored its own options and explanations. The Anatomy+Community pass covered 18 items; this follow-on pass adds the Pharma block (21 of 22 items; item 15 held as a near-duplicate of item 13). The remaining blocks (Bio, Histo, Physio, Patho — roughly 145 items) are held for further follow-on sessions. Student-facing file approval and deep links are deferred pending rights review.
