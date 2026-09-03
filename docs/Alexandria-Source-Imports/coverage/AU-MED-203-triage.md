@@ -347,12 +347,78 @@ resolves as `updated: 1` against the live record (not a stub create), and every 
 `created`/`updated` count matches its authored item count exactly. This closes out AU-MED-203's
 Week 2 EOM Final paper (Q1-120) in full: 103 authored, 2 held, 0 remaining across both passes.
 
+## "Previous Years CNS MCQ with answers" compilation, pass 1 — au-203-author10, 2026-09-03
+
+The module's largest single keyed source: 87 native-text pages (`src_27a0ccf21cff0f58e6e3`,
+`EOM MCQs - Previous Years CNS MCQ with answers.pdf`, `Nervous System/General/Questions/Exams/`),
+383 sequentially-numbered questions (two numbering collisions at q37 and q132 — a fresh past
+paper restarting mid-sequence within the compilation, not a gap), each keyed by an inline
+single-letter answer line directly under its own options, same reliable format as the Workshop
+Quizzes. As a compilation of many past exam sittings, it carries a heavy duplicate rate against
+the module's own already-authored Quiz1-4/Week1/Week2 EOM Final papers and against ASU-CNS-3.
+
+This pass read and triaged the first 63 numbered questions (pages 2-15). Before authoring
+anything, all already-authored AU-MED-203 question stems (384 records) and concept labels (533
+records, AU-MED-203 + ASU-CNS-3) were loaded once via `grep -h "^## question$"`/`"^## label$"`
+across every `question/AU-MED-203-*.md`, `pending-live/AU-MED-203-*.md` and
+`concept/AU-MED-203-*.md`/`ASU-CNS-3-*.md` file, then every one of the 63 candidates was
+checked against that corpus plus `find-existing.mjs` (which also covers live state) before a
+verdict — matching lane 9's "hand-grep the concept files, `find-existing.mjs` truncates its
+own output" precedent.
+
+**23 of 63 triaged as duplicates**, logged here rather than re-authored:
+- External duplicates of already-landed AU-MED-203/ASU-CNS-3 content (18): q1 (trochlear→superior
+  oblique, dup of week1-Q151), q5 (CSF chloride/meningitis, dup of quiz2-Q34), q6 (abducent
+  vulnerable in cavernous sinus, dup of quiz4-Q04/ASUCNS3-ANATOMY-Q49), q10 (receptor adaptation
+  definition, dup of concept `CON-NEU-2F41EBE598F2DE`), q17 (trochlear pierces dura at tentorium
+  crossing, dup of week1-Q39), q20 (dopamine deficiency in Parkinson, dup of quiz1-Q18), q23
+  (thyrohyoid excepted from ansa cervicalis supply, dup of week2-Q044), q25 (general true
+  statement about sensory tracts, dup of week1-Q110), q28 (medial geniculate body as auditory
+  thalamic relay, near-dup of the ASUCNS3P2-18-Q25 family), q35 (Broca's area location, dup of
+  ASUCNS3-ANATOMY-Q14), q36 (primary hyperalgesia in injured vs healthy skin, dup of
+  quiz4-Q32/`CON-NEU-0DA03F843C21EA`), q38 (Meissner's corpuscle location, dup of quiz1-Q16), q42
+  (nucleus ambiguus shared by IX/X/XI, dup of concept `CON-NEU-EEACEE00B963D2`), q45 (basis of
+  locality discrimination, dup of week1-Q10), q46 (static tremor/basal ganglia mechanism, dup of
+  ASUCNS3-PHYSIO-Q45), q48 (gate theory definition, dup of quiz2-Q25/week2-Q096), q51
+  (thermoreceptor Aδ/C fibre innervation, dup of week1-Q107/Q119), q53 (facial furuncle→cavernous
+  sinus via superior ophthalmic vein, dup of week1-Q58/`CON-NEU-FDD7E02151EE57`), q58
+  (jugulo-digastric node group, near-duplicate MCQ pattern of week2-Q055's jugulo-omohyoid-node
+  question — same "which lymph-node-group chain" answer-choice set, different named node).
+- Internal duplicates within this same source (2, verbatim repeats, not re-authored): q26
+  repeats q19's spinal-shock question with reordered options; q50 repeats q7's thalamic
+  emotion/memory question verbatim. q19 and q7 were each authored once.
+
+**40 of 63 triaged as new** and authored into `question/AU-MED-203-comp1-mcq.md` (seed:
+`coverage/seeds/AU-MED-203/comp1.json`) — q2, q3, q4, q7, q8, q9, q11, q12, q14, q15, q16, q18,
+q19, q21, q24, q27, q29, q30, q31, q32, q33, q34, q37 (both "Betz cells" and "fovea centralis" —
+the source's own q37 numbering collision, both genuinely new facts, authored as `comp1-q37a`/
+`comp1-q37b`), q39, q40, q41, q44, q47, q49, q52, q54, q55, q56, q57, q59, q60, q61, q62, q63. 40
+concepts minted (35 `CON-NEU`, 2 `CON-FND` for the two embryology facts — unilateral cleft lip
+mechanism, fourth-ventricle-from-hindbrain-cavity), each canonical key checked via
+`find-existing.mjs` before minting, 0 collisions against the 13578 existing IDs the mint tool
+checked against. No HIT-PENDING or HIT-LIVE reuse candidates surfaced in this range — every new
+concept is a genuinely new fact not already covered by a live or pending AU-MED-203/ASU-CNS-3
+record. 0 held for malformed sources (<4 options, unreadable key) in this range.
+
+`medical:batch` (question + concept + resource files, run with each other and with the
+module's three article files as `--with` siblings): `errors: []` for all three files
+(0 errors, only the expected `needs_evidence` per-concept warnings every Draft-status AU-MED-203
+concept carries, plus a single explanation-length summary warning). `medical:simulate`
+(positional: the module's 3 article files + this pass's concept/resource/question files):
+`errors: []`, `rejected: 0`, `created` matches each file's own row count exactly (3 articles, 40
+concepts, 7 catalogue-resource rows including the new compilation source record, 40 questions).
+A new `src_27a0ccf21cff0f58e6e3` catalogue-resource row was appended to
+`resource/AU-MED-203-resources.md` (this source had no existing resource record).
+
+Q64-383 of this compilation remain untriaged for a future pass (see
+`coverage/AU-MED-203-LEDGER.md`'s Remaining section for the exact resume point).
+
 ## Not triaged this module (queued, see priority-sources doc for the full list)
 
 - 2 stream-specific EOM finals (`Final CNS مصريين 2027`, `Final CS وافدين 2027`)
 - Mock 2027 question+answer pair (43pg each)
-- `EOM MCQs - Previous Years CNS MCQ with answers.pdf` (87pg — largest single keyed source
-  in the module)
+- `EOM MCQs - Previous Years CNS MCQ with answers.pdf` (87pg) — Q1-63 (pages 2-15) triaged
+  above; Q64-383 (pages 16-87) remain
 - 2 further weekly EOM finals (`CNS- week 3/4+5 Final`, page counts not yet checked this pass)
 - 5 further Mock variants (`CNS mock`, `MOCK 1 CNS`, `cns mock exam`, `Mock CNS answers`,
   `mock CNS with answers`)

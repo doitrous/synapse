@@ -6,6 +6,7 @@
 | quiz4 | 34 | 0 | 0 | 34 |
 | week1 | 145 | 4 | 0 | 149 |
 | week2 | 103 | 2 | 0 | 105 |
+| comp1 (Previous Years CNS MCQ compilation, Q1-63 of 383) | 40 | 23 | 320 | 383 |
 
 ## Held
 - quiz1-q04 — HIT-PENDING concept (ciliary ganglion, Kasr 102-INT batch not yet imported) — authored now in pending-live/AU-MED-203-questions.md per LANE-BRIEF §21, not emitted into this batch.
@@ -70,9 +71,33 @@ record, not a stub create) / `updated: 5` and `1` (the two ASU-CNS-3 overlay con
 This closes out AU-MED-203's Week 2 EOM Final paper (Q1-120) in full: 103 authored, 2 held, 0
 remaining (accounting for the 15-question Q76-90 numbering gap).
 
+## "Previous Years CNS MCQ with answers" compilation, Q1-63 of 383 — au-203-author10, 2026-09-03
+
+Started the module's largest single keyed source (87 native-text pages, `src_27a0ccf21cff0f58e6e3`,
+383 sequentially-numbered questions with 2 numbering collisions at q37/q132 from a fresh past
+paper restarting mid-sequence, not a gap). Read and triaged Q1-63 (pages 2-15) against the full
+already-authored AU-MED-203 corpus (384 question stems + 533 concept labels, AU-MED-203 +
+ASU-CNS-3, loaded once via grep) plus `find-existing.mjs`. 23 of 63 triaged as duplicates (18
+external duplicates of already-landed AU-MED-203/ASU-CNS-3 content, 2 internal verbatim repeats
+within this same source — q26 repeats q19, q50 repeats q7 — held, not re-authored; the module's
+established near-duplicate-angle precedent also applied to q58, a repeat of week2-Q055's
+lymph-node-group MCQ pattern for a different named node). 40 of 63 authored into
+`question/AU-MED-203-comp1-mcq.md` (seed `coverage/seeds/AU-MED-203/comp1.json`), 0 held for
+malformed sources in this range. 40 concepts minted (35 CON-NEU, 2 CON-FND), each checked via
+`find-existing.mjs` before minting, 0 collisions against the 13578 existing IDs checked. No
+HIT-PENDING or HIT-LIVE reuse in this range — every new concept is genuinely new. `medical:batch`
+on question + concept + resource files (run with each other and the module's article files as
+`--with` siblings): `errors: []` across all three (only expected `needs_evidence` warnings).
+`medical:simulate` positional (3 article files + this pass's concept/resource/question files):
+`errors: []`, `rejected: 0`, `created` matches each file's row count exactly. Appended a new
+`src_27a0ccf21cff0f58e6e3` catalogue-resource row to `resource/AU-MED-203-resources.md` (no
+prior record existed for this source). Full duplicate breakdown with twin ids in
+`coverage/AU-MED-203-triage.md`'s "Previous Years CNS MCQ with answers compilation, pass 1"
+section.
+
 ## Remaining
-(none — every source triaged so far in `coverage/AU-MED-203-triage.md` is fully authored or
-held. Next untriaged frontier per `coverage/AU-Y2-priority-sources.md`: the 87-page "Previous
-Years CNS MCQ with answers" compilation, 2 further weekly EOM finals (week 3, week 4+5), the
-Mock 2027 question+answer pair, and the two largest banks — `MCQs - CNS bank by MCQs team.pdf`
-(280pg) and `MCQs - CNS MCQs.pdf` (182pg).)
+Q64-383 of the "Previous Years CNS MCQ with answers" compilation (pages 16-87,
+`src_27a0ccf21cff0f58e6e3`) — the next resume point for this source. Beyond that, per
+`coverage/AU-Y2-priority-sources.md`: 2 further weekly EOM finals (week 3, week 4+5), the Mock
+2027 question+answer pair, and the two largest banks — `MCQs - CNS bank by MCQs team.pdf`
+(280pg) and `MCQs - CNS MCQs.pdf` (182pg).

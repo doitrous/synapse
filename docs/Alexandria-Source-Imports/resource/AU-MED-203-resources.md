@@ -522,3 +522,108 @@ AU_Y2
 
 ## description
 Native-text, fully-keyed 120-question Week 2 EOM Final PDF (27 pages, Alpha Team), each page self-contained with 5 MCQs and its own inline answer line (no single end-of-file table). This lane read and authored the first 60 numbered MCQs (Q1-30 cranial nerve/pain physiology dated "Mon 12th Feb", Q31-60 cranial nerve lesion localisation and pharyngeal arch embryology dated "Tue 18th Feb"; 6 short-answer/discuss items on p8 are not MCQs and were excluded). Q40 (palatine tonsil germ layer) was held — only 3 answer options present, below the 4-5 option contract. Q5 (trochlear nerve contralateral nucleus) was held from this batch — HIT-PENDING against an ASU-CNS-3 concept not yet imported, authored instead as a sparse pending-live overlay question. Q61-120 remain untriaged for a future pass. This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.
+
+---
+
+# Item
+
+## id
+src_27a0ccf21cff0f58e6e3
+
+## title
+Alexandria MED 203 Nervous System — "Previous Years CNS MCQ with answers" compilation (383 MCQs, 87 pages, first 63 keyed)
+
+## subject
+neuro
+
+## type
+Deck
+
+## source
+Alexandria University — Faculty of Medicine, "Simplified Explanation" study group ("EOM MCQs - Previous Years CNS MCQ with answers.pdf")
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+
+## year
+
+
+## topics
+Cranial nerve anatomy, brainstem nuclei and vascular territories
+General and special sensory receptor physiology and vestibular/cochlear histology
+Basal ganglia, cerebellum, hypothalamus and limbic system anatomy and physiology
+Head and neck vascular and triangle anatomy; face and ventricular system embryology
+
+## chapter
+Nervous System/General/Questions — 87-page native-text compilation aggregating many past exam sittings, each page self-contained with 3-6 MCQs and its own inline answer key letter (no single end-of-file table). This is the module's largest single keyed source, and it duplicates a large share of content already authored from the module's Quiz1-4 and Week1-2 EOM Final papers.
+
+## module_ids
+AU-MED-203
+
+## module_subject
+AU-MED-203 > Nervous System > Previous Years CNS MCQ compilation
+
+## included_concepts
+CON-FND-4FA204727104EB
+CON-FND-7602CDE0FF0632
+CON-NEU-0E984C962D6513
+CON-NEU-110589537BC6C0
+CON-NEU-138F33804B1E30
+CON-NEU-16FD491D0FD371
+CON-NEU-1A9C20FE7E4575
+CON-NEU-2100197F4BF70A
+CON-NEU-3EAFC3924CD153
+CON-NEU-4A15E47A476A20
+CON-NEU-4A995422A92889
+CON-NEU-4EA5872F5CE302
+CON-NEU-536196A34E7966
+CON-NEU-54D3211A36271C
+CON-NEU-560394DA6EBE32
+CON-NEU-63A085D18C0E9A
+CON-NEU-6C66C7A9941709
+CON-NEU-7057F43372D93C
+CON-NEU-79FFD837EFCA65
+CON-NEU-815C00BF788641
+CON-NEU-81FB852F568E04
+CON-NEU-8573B7146A58C5
+CON-NEU-86E4A77B496E9F
+CON-NEU-87CB18F65BAF45
+CON-NEU-90460E733F4EBC
+CON-NEU-A9BA2DDBAAA10A
+CON-NEU-AA621897598B60
+CON-NEU-AD1CE5E574BD57
+CON-NEU-B74B01E1CC0BC9
+CON-NEU-BBFC945C40F2CE
+CON-NEU-C541EF9FCF5CF4
+CON-NEU-D72B35E12462AB
+CON-NEU-E3F41DC6D4B5A5
+CON-NEU-E62C6A5A40EB60
+CON-NEU-E698018A0AF277
+CON-NEU-E7BE6F1F77A147
+CON-NEU-F12F9A014A1F83
+CON-NEU-F285418BE7B987
+CON-NEU-FE11408FE89F6F
+CON-NEU-FF239BF68E2428
+
+## included_articles
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## concept_locations
+
+
+## universities
+au
+
+## years
+AU_Y2
+
+## description
+Native-text, fully-keyed 87-page "Previous Years CNS MCQ with answers" compilation, aggregating many past exam sittings into 383 sequentially-numbered MCQs (two numbering collisions at q37 and q132 — a fresh paper restarting mid-sequence — not otherwise a numbering gap). This is the module's largest single keyed source and carries a heavy duplicate rate against the module's own already-landed Quiz1-4/Week1/Week2 EOM Final papers and against ASU-CNS-3. This lane read and triaged the first 63 numbered MCQs (pages 2-15): 23 duplicates of already-authored content logged in coverage/AU-MED-203-LEDGER.md with each duplicate's twin id (18 external duplicates of existing AU-MED-203/ASU-CNS-3 questions or concepts, plus q26 and q50 held as verbatim internal repeats of q19 and q7 within this same source), 40 confirmed-new questions authored into question/AU-MED-203-comp1-mcq.md. Q64-383 remain untriaged for a future pass. This catalogue row is rights-deferred and does not approve learner-facing file access or deep links.
