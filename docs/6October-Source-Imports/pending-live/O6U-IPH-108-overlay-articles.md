@@ -337,3 +337,146 @@ metabolism) -- this article's own `related_concepts` lists CON-FND-CF40F32A8A74A
 arabicTitle: No verification pass run this session; the source record (108-INT-pharmacology.md) carries none either.
 
 ---
+
+<!--
+  Lane 4 (o6u-iph108-author4, cluster "pharmabank3") additions below --
+  siblings of the three CONCEPT overlay rows lane 4 added to
+  overlay-concepts.md. Apply each block ONLY after
+  docs/Kasr-Source-Imports/article/208-INT-articles.md is live.
+
+  Source file:
+    H. docs/Kasr-Source-Imports/article/208-INT-articles.md -- university kau, module 208 INT (Year 2)
+
+  Simulate together with the source file:
+  npm run medical:simulate -- docs/6October-Source-Imports/pending-live/O6U-IPH-108-overlay-articles.md \
+    --with docs/Kasr-Source-Imports/article/208-INT-articles.md \
+    --emit /tmp/sim-O6U-IPH-108-pending-articles-208int.json
+-->
+
+# Item
+
+## id
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+
+## title
+Adrenergic pharmacology: sympathomimetic agonists, beta-blockers, alpha-blockers, and autacoid antiemetics/antihistamines
+
+## subject
+pharm
+
+## topic
+Pharmacology
+
+## summary
+Sympathomimetic agonists, beta-blockers and alpha-blockers, grouped by receptor selectivity and dose-dependent action.
+
+## sections
+
+## universities
++o6u
+
+## years
++O6U_Y1
+
+## module
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Adrenergic Agonist Pharmacology > Dopamine Dose-Dependent Receptor Selectivity
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Adrenergic Agonists
+
+## university_notes
+o6u: Reused for the pharmabank3 cluster's Q1 (p161, low-dose dopamine's D1-mediated renal
+vasodilation) -- this article's own related concept CON-FND-EA0D1633BF0130 states this exact
+fact. From "pharma MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+## field_notes
+arabicTitle: No verification pass run this session; the source record (208-INT-articles.md) carries none either.
+
+---
+
+# Item
+
+## id
+ART-FND-208INT-ANTIHYPERTENSIVE-PHARMACOLOGY
+
+## title
+Antihypertensive pharmacology: central alpha2 agonists, direct arteriolar/mixed vasodilators, pregnancy safety, and ACE inhibitor adverse effects/excretion
+
+## subject
+pharm
+
+## topic
+Pharmacology
+
+## summary
+Central alpha2 agonists (clonidine) and their withdrawal-rebound-hypertension risk, alongside direct vasodilators and pregnancy-safe antihypertensive choices.
+
+## sections
+
+## universities
++o6u
+
+## years
++O6U_Y1
+
+## module
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Adrenergic Agonist Pharmacology > Clonidine Withdrawal Syndrome
+208 INT > Chapter 10 Pharmacology > Antihypertensive Drugs
+
+## university_notes
+o6u: Reused for the pharmabank3 cluster's Q6 (p166, sudden clonidine cessation causing
+hypertensive crisis) -- this article's own related concept CON-FND-B6D3C1F469AC58 states
+this exact fact. From "pharma MCQs bank .pdf" (coverage/O6U-IPH-108-triage.md).
+
+## field_notes
+arabicTitle: No verification pass run this session; the source record (208-INT-articles.md) carries none either.
+
+---
+
+# Item
+
+## id
+ART-FND-208INT-ANTIANGINAL-PHARMACOLOGY
+
+## title
+Antianginal pharmacology: organic nitrates, calcium-channel blockers, nicorandil and ivabradine
+
+## subject
+pharm
+
+## topic
+Pharmacology
+
+## summary
+Organic nitrates, calcium-channel blockers (including verapamil's role in vasospastic angina prophylaxis), nicorandil and ivabradine.
+
+## sections
+
+## universities
++o6u
+
+## years
++O6U_Y1
+
+## module
++O6U-IPH-108
+
+## module_subject
+O6U-IPH-108 > Beta-Blocker Pharmacology > Beta Blockers Contraindicated in Vasospastic Angina
+208 INT > Chapter 10 Pharmacology > Antianginal Drugs > Calcium Channel Blockers
+
+## university_notes
+o6u: Reused for the pharmabank3 cluster's Q50 (p213, beta blockers not useful in vasospastic
+angina, converted from the source's own fill-in-the-blank format) -- this article's own
+related concept CON-FND-0356010F3C10AD states that verapamil, not a beta blocker, is the
+calcium-channel blocker of choice for vasospastic angina prophylaxis. From "pharma MCQs bank
+.pdf" (coverage/O6U-IPH-108-triage.md).
+
+## field_notes
+arabicTitle: No verification pass run this session; the source record (208-INT-articles.md) carries none either.
+
+---
