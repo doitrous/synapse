@@ -1,6 +1,6 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
-| finalw1 | 20 | 0 | 0 | 20 |
+| finalw1 | 43 | 13 | 48 | 104 |
 | mock1 | 26 | 0 | 0 | 26 |
 
 ## Held
@@ -125,6 +125,71 @@ across 4 sections) and this pass's own paper's remaining ~81 items (Physiology Q
 Biochem/Anatomy/Histology sections) are the two largest ungated sources; ~127 bank files
 (Physiology 66, Anatomy/Embryology 21, plus Dr Gawad's 155pg "All EGU questions with
 answers" bank and others) remain completely untriaged.
+
+## AU-201 module, third pass — au201-author3, 2026-09-03
+
+Third authoring pass, resuming from au201-author2's HANDOFF frontier: the FINAL -27- (wafdeen)
+paper's own remaining Physiology items (Q23-Q38, Q40 — 17 usable, Q39 already held) plus its
+Biochemistry, Anatomy and Histology sections (untriaged coming in). This pass triaged and
+authored the Physiology and Biochemistry sections in full, and triaged (but did not author)
+Anatomy and Histology — see next frontier below.
+
+- **Physiology (Q23-Q40)**: 17 of the remaining 18 items usable (Q39 already held); all 17
+  authored, finishing the section (37 authored total across all three passes, 3 held — Q13,
+  Q21, Q39). 17 new concepts minted (11 endo, 5 renal, 1 gyn) after a per-item find-existing.mjs
+  search; no genuine live or pending match for any of the 17, including a specific check
+  against Q25's near-miss (the Mock exam's own DKA concept, CON-REN-25DD9CCD2FC30A, pH 7.35) —
+  ruled not a genuine merge since that concept's own definition explicitly hinges on a
+  low-normal, not frankly abnormal, pH, which Q25's own pH-7.2 vignette would contradict if
+  merged; minted a new concept instead. Q25's key (pH 7.2 still labelled "compensated") and
+  Q38's stem (GH credited as the DM-linked hormone among PTH/androgen/aldosterone/GH — an
+  atypically indirect way to test that fact) are both kept per LANE-CARD's printed-key
+  convention, flagged on each concept's own `conflicts` field. Same physiology department
+  article extended (not a new article).
+- **Biochemistry (Q1-Q7)**: 6 of 7 items usable (Q7 has only 2 printed options — "increase
+  absorption of calcium and phosphate from intestine" and two others, no fourth — held, below
+  this lane's 4-option floor). All 6 authored: 6 new concepts (1 gi, 1 renal, 4 endo), no
+  genuine live/pending match for any. Q5's key (Gs bound to GDP, the resting/pre-stimulation
+  state, credited as "true regarding glucagon action" over the more commonly emphasised
+  GTP-bound active state) kept per printed-key convention, flagged on that concept's own
+  `conflicts` field. First biochemistry content for AU-MED-201: **new** department article
+  `ART-END-AU-MED-201-BIOCHEMISTRY` and **new** concept file
+  `concept/AU-MED-201-biochemistry-concepts.md` minted (no biochem article/concept file existed
+  for this module before this pass).
+- **Anatomy (Q1-Q29) — triaged, not authored**: 23 usable, 6 held for below-floor option counts
+  (Q5, Q6, Q16, Q18, Q25, Q26 — each has only 2-3 printed options in the source PDF, confirmed
+  not a page-break extraction artifact by checking the full page text around each). Taxonomy
+  note: the existing anatomy article/concepts (from au201-author1's Mock-exam pass) are placed
+  under `DIS-ANA-T06` ("Head and neck"), which is the correct node only for that batch's own
+  thyroid/pituitary-adjacent facts — none of which are pelvic. This paper's Anatomy section is
+  overwhelmingly pelvic/GU (renal, reproductive, urethral anatomy: `DIS-ANA-T05`, "Abdomen and
+  pelvis"), with 4 items (inferior thyroid artery, pituitary-in-sphenoid, trachea-thyroid
+  relation, thyroid posterior relation) genuinely head-and-neck. A follow-up authoring pass
+  should place new pelvic/GU anatomy concepts under `DIS-ANA-T05` (the correct node for that
+  content) rather than copying the existing `DIS-ANA-T06` placement forward — not a gate
+  failure (both nodes exist and validate), but a semantic-fit correction worth making going
+  forward, similar to au201-author1's own `DIS-HIS-T06`→`DIS-HIS-T03` correction.
+- **Histology (Q1-Q28) — triaged, not authored**: 25 usable, 3 held — Q6 and Q8 for below-floor
+  option counts (3 options each), Q27 for image-dependency (a labelled 1-7 numbered diagram of
+  testis histology, "which cells are responsible," not present anywhere in this repository —
+  held per this module's own precedent for unavailable-figure SBA items, not authored with a
+  blank `labeling_image`).
+
+Gate: `medical:batch` on the question file `--with` both concept files, both article files, the
+resource file and the evidence-source file — 0 errors (only the pre-existing/expected
+`needs_evidence` pending-import notes, matching every prior pass in this module).
+`medical:simulate` (resource → evidence → concept → article → question, dependency order,
+against this worktree's local dev snapshot, which — same as au201-author2's own note — does
+not yet carry any of this module's earlier batches either): created 51 physiology concepts + 6
+biochemistry concepts + 2 articles + 1 resource + 43 questions, updated 0, rejected 0, errors
+0.
+
+Next frontier: this paper's own Anatomy (23 usable, 6 held) and Histology (25 usable, 3 held)
+sections are triaged above and are the immediate next authoring target — resume with Anatomy's
+`DIS-ANA-T05` placement note above in mind. After that: the مصريين twin
+(`EOM MCQs - EGU FINAl -27-(مصريين).pdf`, ~90+ usable items across 4 sections, own printed
+keys, likely heavy dedup vs this paper) and ~127 untriaged bank files (Physiology 66,
+Anatomy/Embryology 21, Dr Gawad's 155pg bank, others).
 
 ## NEEDS-OMAR
 

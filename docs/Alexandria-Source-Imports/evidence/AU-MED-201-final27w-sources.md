@@ -53,7 +53,7 @@ pending
 University teaching material held for internal extraction only. Not redistributable; no page image or long verbatim passage is published from it.
 
 ## qualification
-Native-text Alexandria University MED 201 (EGU) FINAL -27- (wafdeen) end-of-module final, the international-stream sitting. Organised into four sections (Physiology, Biochemistry, Anatomy, Histology), each with its own printed per-question answer table at the end of the section. This pass authors 20 of the Physiology section's 37 usable items; a minority of items across the paper carry only 2-3 printed options (below this lane's 4-option floor) and are held. Authoritative for local curriculum scope only, not independent clinical verification.
+Native-text Alexandria University MED 201 (EGU) FINAL -27- (wafdeen) end-of-module final, the international-stream sitting. Organised into four sections (Physiology, Biochemistry, Anatomy, Histology), each with its own printed per-question answer table at the end of the section. As of the third authoring pass (2026-09-03), the Physiology section is fully authored (37 items; Q13/Q21/Q39 held, below-floor option counts) and the Biochemistry section is authored in full bar one item (6 of 7; Q7 held, below-floor). The Anatomy (29 items) and Histology (28 items) sections remain untriaged for this lane. A minority of items across the paper carry only 2-3 printed options (below this lane's 4-option floor) and are held. Authoritative for local curriculum scope only, not independent clinical verification.
 
 ## confidence
 0.85

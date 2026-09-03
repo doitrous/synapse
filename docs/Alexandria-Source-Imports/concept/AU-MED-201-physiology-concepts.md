@@ -5818,3 +5818,2876 @@ reviewDue: Set when the first review completes.
 sourceCandidateIds: Searched via find-existing.mjs for "HCG" and "pregnancy hormone"; no genuine match found.
 relationships: Cross-linked to the LH-surge-ovulation concept (same batch, reproductive endocrinology cluster) via related_concept_ids.
 au: EGU FINAL -27- (wafdeen), p4 q22
+
+---
+
+# Item
+
+## id
+CON-END-9FFB74F21B2921
+
+## label
+Thyroid hormone (T4) is normally mildly anabolic for protein at physiological levels, but in large/excess doses (as in thyrotoxicosis) it becomes net catabolic, increasing protein breakdown and driving the muscle wasting seen in hyperthyroidism.
+
+## canonical_key
+endo.thyroxine.protein-catabolism-large-doses
+
+## definition
+Thyroid hormone (T4) is normally mildly anabolic for protein at physiological levels, but in large/excess doses (as in thyrotoxicosis) it becomes net catabolic, increasing protein breakdown and driving the muscle wasting seen in hyperthyroidism.
+
+## explicit_objective
+State that thyroxine becomes protein-catabolic when taken in large/excess doses, unlike growth hormone and insulin, which remain anabolic.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Thyroid Hormone Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Growth hormone is anabolic for protein — it increases amino acid uptake and protein synthesis, the opposite of a catabolic effect. PTH's principal target is bone and renal calcium/phosphate handling, not systemic protein metabolism. Insulin is anabolic — it increases cellular amino acid uptake and protein synthesis, the opposite of a catabolic effect.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Thyroid Hormone Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p4 q23 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+Which hormone catabolizes proteins if taken in large doses? A- Growth hormone B- Parathyroid hormone C- Insulin D- Thyroxine. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p4 q23 q23
+
+---
+
+# Item
+
+## id
+CON-REN-85DEDE700E9742
+
+## label
+Erythropoietin is synthesized and secreted by peritubular interstitial fibroblast-like cells of the renal cortex in response to tissue hypoxia, stimulating red cell production in the bone marrow.
+
+## canonical_key
+renal.erythropoietin.secreted-by-kidney
+
+## definition
+Erythropoietin is synthesized and secreted by peritubular interstitial fibroblast-like cells of the renal cortex in response to tissue hypoxia, stimulating red cell production in the bone marrow.
+
+## explicit_objective
+Identify erythropoietin as the kidney's own secreted hormone among angiotensin, angiotensinogen and ANP.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Renal Endocrine Function
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Angiotensin I is generated in plasma by renin (a kidney-secreted enzyme) acting on angiotensinogen — angiotensin itself is not a kidney secretion product. ANP is secreted by atrial cardiac myocytes in response to atrial stretch, not by the kidney. Angiotensinogen is synthesized and secreted by the liver; the kidney contributes renin, the enzyme that acts on it, not angiotensinogen itself.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Renal Endocrine Function
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p4 q24 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+Which hormone is secreted by the kidney? A- Angiotensin B- Erythropoietin C- Atrial natriuretic peptide D- Angiotensinogen. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p4 q24 q24
+
+---
+
+# Item
+
+## id
+CON-REN-4BCF86E8BB9B2F
+
+## label
+The low HCO3- (18 mEq/L) marks the primary disturbance as metabolic acidosis; the markedly low PaCO2 (20 mmHg, well below the expected ~30-35 mmHg for this HCO3-) reflects vigorous respiratory (Kussmaul) compensation attempting to defend the pH, matching this source's classification of the pattern as compensated metabolic acidosis even though the pH remains frankly low.
+
+## canonical_key
+renal.acid-base.severe-dka-pattern-labeled-compensated
+
+## definition
+The low HCO3- (18 mEq/L) marks the primary disturbance as metabolic acidosis; the markedly low PaCO2 (20 mmHg, well below the expected ~30-35 mmHg for this HCO3-) reflects vigorous respiratory (Kussmaul) compensation attempting to defend the pH, matching this source's classification of the pattern as compensated metabolic acidosis even though the pH remains frankly low.
+
+## explicit_objective
+Classify a diabetic-coma blood gas with low HCO3-, markedly low PaCO2 and a persistently low pH as compensated metabolic acidosis, per this source's own key.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Acid-Base Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+The low PaCO2 (20 mmHg) shows an active respiratory response in the expected direction for a metabolic acid-base disturbance, so a respiratory compensatory mechanism is already engaged — not absent, as "uncompensated" would require. Respiratory acidosis requires an elevated, not markedly reduced, PaCO2 as the primary disturbance; this patient's PaCO2 is low, not high. This option again requires a primary rise in PaCO2, which is not present — the primary abnormality here is the low HCO3-, not an elevated PaCO2.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+this source's key labels the pattern "compensated" even though pH (7.2) remains frankly acidotic, not merely low-normal; many texts would instead call an acidosis this severe "partially compensated," reserving "compensated" for a pH pulled back into (or close to) the normal range. Kept as printed per LANE-CARD convention; not merged with the sibling Mock-exam DKA concept (pH 7.35), whose own definition explicitly distinguishes on a low-normal, not frankly abnormal, pH.
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Acid-Base Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p5 q25 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+A type II diabetic patient was admitted to the hospital in a coma. Tests revealed his PH: 7.2, PCO2: 20, HCO3: 18. What's your diagnosis? A- Uncompensated metabolic acidosis B- Compensated metabolic acidosis C- Uncompensated respiratory acidosis D- Compensated respiratory acidosis. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p5 q25 q25
+
+---
+
+# Item
+
+## id
+CON-REN-C2433855E262E0
+
+## label
+Renal failure impairs both fixed-acid (H+) excretion and bicarbonate regeneration, allowing acid to accumulate — the classic cause of a high-anion-gap metabolic (uremic) acidosis.
+
+## canonical_key
+renal.metabolic-acidosis.renal-failure-cause
+
+## definition
+Renal failure impairs both fixed-acid (H+) excretion and bicarbonate regeneration, allowing acid to accumulate — the classic cause of a high-anion-gap metabolic (uremic) acidosis.
+
+## explicit_objective
+Identify renal failure, not vomiting, high altitude or hyperaldosteronism, as a cause of metabolic acidosis.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Acid-Base Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Vomiting loses gastric HCl, producing metabolic alkalosis, not acidosis. High altitude hypoxia drives hyperventilation, producing respiratory alkalosis, not a metabolic acidosis. Aldosterone excess drives renal H+ and K+ secretion, producing metabolic alkalosis and hypokalemia, not acidosis.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Acid-Base Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p5 q26 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+Which of the following could be a cause of metabolic acidosis? A- Vomiting B- High altitude C- Renal failure D- Hyperaldosteronism. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p5 q26 q26
+
+---
+
+# Item
+
+## id
+CON-END-570F8B003A0CD8
+
+## label
+Excess growth hormone antagonizes insulin action at peripheral tissues (reducing glucose uptake) and promotes hepatic gluconeogenesis, producing insulin resistance and hyperglycemia — secondary ("acromegalic") diabetes is a recognised complication.
+
+## canonical_key
+endo.acromegaly.hyperglycemia-manifestation
+
+## definition
+Excess growth hormone antagonizes insulin action at peripheral tissues (reducing glucose uptake) and promotes hepatic gluconeogenesis, producing insulin resistance and hyperglycemia — secondary ("acromegalic") diabetes is a recognised complication.
+
+## explicit_objective
+Associate acromegaly (GH excess) with insulin-resistant hyperglycemia rather than hypoglycemia, mental retardation or pigmentation.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Growth Hormone and Pituitary Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Acromegaly (adult-onset GH excess, after epiphyseal fusion) causes no cognitive impairment; that picture instead belongs to childhood-onset hypothyroidism (cretinism). Growth hormone is a counter-regulatory, insulin-antagonist hormone, so its excess raises, not lowers, blood glucose. Increased skin pigmentation is a feature of primary adrenal insufficiency (Addison's disease, from elevated ACTH/MSH), not of GH excess.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Growth Hormone and Pituitary Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p5 q27 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+A male patient admitted to the hospital. Physical examination shows he has enlarged hands and feet, along with enlarged facial features and coarse skin. What other manifestations could be found? A- Mental retardation B- Hypoglycemia C- Hyperglycemia D- Pigmentation. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p5 q27 q27
+
+---
+
+# Item
+
+## id
+CON-END-7612B4242FDB61
+
+## label
+Vagal (parasympathetic) stimulation of pancreatic beta cells, acting via acetylcholine on M3 receptors, is a recognised physiological stimulus of insulin secretion — part of the cephalic-phase response to a meal.
+
+## canonical_key
+endo.insulin-secretion.parasympathetic-stimulation
+
+## definition
+Vagal (parasympathetic) stimulation of pancreatic beta cells, acting via acetylcholine on M3 receptors, is a recognised physiological stimulus of insulin secretion — part of the cephalic-phase response to a meal.
+
+## explicit_objective
+Identify parasympathetic (vagal) stimulation as a stimulus of insulin secretion, distinguishing it from hypoglycemia and falling amino acids, which suppress it.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Insulin and Glucose Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Rising, not falling, plasma amino acids stimulate insulin secretion; a decrease would not. Hypoglycemia suppresses insulin secretion and triggers counter-regulatory hormones instead; it is hyperglycemia that stimulates insulin release. Hyperkalemia is the classic stimulus for aldosterone secretion, not the principal physiological trigger for insulin release being tested here.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Insulin and Glucose Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p5 q28 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+Which of the following stimulates insulin? A- Parasympathetic stimulation B- Decreased amino acids in blood C- Hypoglycemia D- Hyperkalemia. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p5 q28 q28
+
+---
+
+# Item
+
+## id
+CON-REN-93A8BE3D2F0664
+
+## label
+The respiratory system compensates for a primary metabolic acidosis by hyperventilating, blowing off CO2 and lowering PaCO2, which pulls the pH back toward normal within minutes to hours.
+
+## canonical_key
+renal.metabolic-acidosis.respiratory-compensation-hyperventilation
+
+## definition
+The respiratory system compensates for a primary metabolic acidosis by hyperventilating, blowing off CO2 and lowering PaCO2, which pulls the pH back toward normal within minutes to hours.
+
+## explicit_objective
+State that hyperventilation is the respiratory compensation for metabolic acidosis.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Acid-Base Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Hypoventilation would raise PaCO2 and worsen, not correct, the acidosis. Excreting more bicarbonate would lower plasma HCO3- further, worsening rather than compensating for a metabolic acidosis. Increased renal H+ excretion is the kidney's own slow (day-to-scale) correction of the underlying acid load, not the rapid respiratory compensation this item is testing.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Acid-Base Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p5 q29 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+How can metabolic acidosis be compensated? A- Hyperventilation B- Hypoventilation C- Excretion of HCO3 in urine D- Excretion of H in urine. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p5 q29 q29
+
+---
+
+# Item
+
+## id
+CON-REN-0BF1F94D1317F5
+
+## label
+Strong sympathetic stimulation constricts both afferent and efferent arterioles (afferent effect predominating), reducing renal blood flow and glomerular hydrostatic pressure, and so decreases GFR.
+
+## canonical_key
+renal.gfr.sympathetic-stimulation-decreases
+
+## definition
+Strong sympathetic stimulation constricts both afferent and efferent arterioles (afferent effect predominating), reducing renal blood flow and glomerular hydrostatic pressure, and so decreases GFR.
+
+## explicit_objective
+Identify strong sympathetic stimulation as a cause of decreased GFR, distinguishing it from mild efferent constriction, afferent dilation and hypoproteinemia, which all increase GFR.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Glomerular Filtration Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Mild efferent arteriolar constriction raises glomerular hydrostatic pressure and so increases, not decreases, GFR — only marked efferent constriction (with a falling renal plasma flow) eventually lowers it. Afferent arteriolar dilation raises glomerular capillary pressure and increases, not decreases, GFR. Low plasma protein lowers capillary oncotic pressure, which reduces the opposing force to filtration and so increases, not decreases, GFR.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Glomerular Filtration Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p6 q30 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+Which of the following decrease GFR? A- Mild constriction of the efferent arteriole B- Sympathetic stimulation C- Dilatation of the afferent arteriole D- Hypoproteinemia. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p6 q30 q30
+
+---
+
+# Item
+
+## id
+CON-GYN-F618825ECB3FE7
+
+## label
+hCG, secreted by the syncytiotrophoblast from shortly after implantation, is structurally similar to LH and binds the same receptor on the corpus luteum, rescuing it from its normal involution and sustaining progesterone secretion until the placenta takes over steroidogenesis.
+
+## canonical_key
+gyn.corpus-luteum.hcg-prevents-involution-pregnancy
+
+## definition
+hCG, secreted by the syncytiotrophoblast from shortly after implantation, is structurally similar to LH and binds the same receptor on the corpus luteum, rescuing it from its normal involution and sustaining progesterone secretion until the placenta takes over steroidogenesis.
+
+## explicit_objective
+Identify hCG as the hormone that rescues the corpus luteum from involution after fertilization.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+gyn
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Reproductive Endocrinology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Relaxin, produced later by the corpus luteum of pregnancy and placenta, softens the cervix and pelvic ligaments; it does not rescue the corpus luteum from involution. LH's own luteotropic support of the corpus luteum is limited to roughly the normal luteal-phase lifespan; without fertilization, falling LH lets the corpus luteum involute regardless. FSH drives follicular development earlier in the cycle and is not the signal that rescues an already-formed corpus luteum after fertilization.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Reproductive Endocrinology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p6 q31 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+Which hormone prevents corpus luteum from involution if fertilization occurred? A- Relaxin B- Luteinizing hormone C- Follicle-stimulating hormone D- Human chorionic gonadotropin. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p6 q31 q31
+
+---
+
+# Item
+
+## id
+CON-END-6F425357E939AB
+
+## label
+The thyroid gland typically lies opposite the C5 to T1 vertebral levels, spanning from the lower third of the thyroid cartilage down to about the fourth or fifth tracheal ring.
+
+## canonical_key
+endo.thyroid-gland.vertebral-level-c5-t1
+
+## definition
+The thyroid gland typically lies opposite the C5 to T1 vertebral levels, spanning from the lower third of the thyroid cartilage down to about the fourth or fifth tracheal ring.
+
+## explicit_objective
+State that the thyroid gland lies opposite vertebral levels C5-T1, in the context of a Graves' disease vignette.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Thyroid Gland Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+The thyroid's inferior extent is conventionally described at T1, not as low as T2. The thyroid's superior pole sits at C5, not as high as C4. Both bounds are shifted from the conventionally taught C5-T1 span.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Thyroid Gland Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p6 q32 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+A patient came to the hospital complaining of swollen neck, weight loss and exophthalmos. The doctor ordered T3, T4 and TSH tests. He was diagnosed Graves' disease. What are the vertebrae that are related to the affected organ? A- C5 - T1 B- C5 - T2 C- C4 - T1 D- C4 - T2. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p6 q32 q32
+
+---
+
+# Item
+
+## id
+CON-END-4DE31C5B00165D
+
+## label
+Excess thyroid hormone raises overall metabolic rate and sympathetic tone in the gut, increasing GI motility and often causing hyperdefecation or diarrhea — a recognised manifestation of hyperthyroidism/Graves' disease.
+
+## canonical_key
+endo.hyperthyroidism.increased-git-motility
+
+## definition
+Excess thyroid hormone raises overall metabolic rate and sympathetic tone in the gut, increasing GI motility and often causing hyperdefecation or diarrhea — a recognised manifestation of hyperthyroidism/Graves' disease.
+
+## explicit_objective
+Identify increased GI motility, not constipation, weight gain or hypercholesterolemia, as a manifestation of hyperthyroidism.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Thyroid Hormone Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Constipation, from a slowed metabolic rate, is a feature of hypothyroidism, not the hyperthyroidism this vignette describes. Weight gain reflects a reduced, not increased, metabolic rate — the opposite of hyperthyroidism's typical weight loss. Elevated cholesterol results from reduced hepatic LDL-receptor activity in hypothyroidism; hyperthyroidism instead tends to lower cholesterol.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Thyroid Hormone Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p6 q33 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+What is another manifestation caused by the increased hormone? A- Constipation B- Weight gain C- Increased cholesterol D- Increased motility of GIT. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p6 q33 q33
+
+---
+
+# Item
+
+## id
+CON-END-73064D04EA93C0
+
+## label
+In primary hyperthyroidism (Graves' disease), the thyroid gland autonomously overproduces T3/T4; the resulting negative feedback on the anterior pituitary suppresses TSH, giving the classic elevated-T3/T4-with-suppressed-TSH pattern.
+
+## canonical_key
+endo.primary-hyperthyroidism.t3-t4-elevated-tsh-suppressed
+
+## definition
+In primary hyperthyroidism (Graves' disease), the thyroid gland autonomously overproduces T3/T4; the resulting negative feedback on the anterior pituitary suppresses TSH, giving the classic elevated-T3/T4-with-suppressed-TSH pattern.
+
+## explicit_objective
+State the elevated-T3/T4, suppressed-TSH pattern of primary hyperthyroidism (Graves' disease).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Thyroid Hormone Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+A TSH-secreting pituitary tumour would show this pattern, but that is not this vignette's primary thyroid-gland disease (Graves'). This is the pattern of primary hypothyroidism, the opposite of this vignette's diagnosis. This pattern instead suggests central (secondary) hypothyroidism from pituitary or hypothalamic failure, not Graves' disease.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Thyroid Hormone Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p6 q34 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+Which of the three hormones is elevated in blood? A- T3, T4 elevated, TSH elevated B- T3, T4 elevated, TSH reduced C- T3, T4 reduced, TSH elevated D- T3, T4 reduced, TSH reduced. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p6 q34 q34
+
+---
+
+# Item
+
+## id
+CON-END-DE240B6530E54C
+
+## label
+Excess thyroid hormone raises basal metabolic rate, driving weight loss despite a normal or increased appetite — the classic endocrine cause of unexplained weight loss tested here.
+
+## canonical_key
+endo.hyperthyroidism.weight-loss-diagnosis
+
+## definition
+Excess thyroid hormone raises basal metabolic rate, driving weight loss despite a normal or increased appetite — the classic endocrine cause of unexplained weight loss tested here.
+
+## explicit_objective
+Identify hyperthyroidism as the classic endocrine cause of unexplained weight loss.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Thyroid Hormone Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Hypothyroidism lowers metabolic rate and classically causes weight gain, not loss. Aldosterone excess drives sodium/water retention and hypertension, not weight loss. Hyperparathyroidism's classic features are hypercalcemia-related (bone pain, renal stones, abdominal complaints); weight loss is not its hallmark presentation.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Thyroid Hormone Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p7 q35 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+A female patient is suffering from weight loss, what's the diagnosis? A- Hyperthyroidism B- Hypothyroidism C- Hyperaldosteronism D- Hyperparathyroidism. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p7 q35 q35
+
+---
+
+# Item
+
+## id
+CON-END-6CD126ACAE4B79
+
+## label
+Cortisol excess suppresses osteoblast activity and collagen synthesis while promoting osteoclast-mediated bone resorption (and reduces intestinal calcium absorption), together producing the osteoporosis characteristic of chronic glucocorticoid excess.
+
+## canonical_key
+endo.cortisol.increases-bone-resorption
+
+## definition
+Cortisol excess suppresses osteoblast activity and collagen synthesis while promoting osteoclast-mediated bone resorption (and reduces intestinal calcium absorption), together producing the osteoporosis characteristic of chronic glucocorticoid excess.
+
+## explicit_objective
+State that cortisol increases bone resorption and suppresses osteoblast activity, producing net bone loss.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Adrenal Cortex Hormones
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Cortisol suppresses, not increases, osteoblast-driven bone formation. Cortisol is broadly catabolic and antiproliferative; it does not stimulate cellular replication. Cortisol inhibits, rather than activates, osteoblast function.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Adrenal Cortex Hormones
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p7 q36 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+What's the effect of cortisol on the bone? A- Increase bone formation B- Stimulate cellular replication C- Increase bone resorption D- Activate osteoblast. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p7 q36 q36
+
+---
+
+# Item
+
+## id
+CON-END-9C2E4611D24880
+
+## label
+Somatostatin, secreted by pancreatic islet delta cells, acts locally to inhibit both insulin and glucagon secretion, functioning as a broad paracrine "off switch" on islet hormone release.
+
+## canonical_key
+endo.somatostatin.inhibits-insulin-glucagon
+
+## definition
+Somatostatin, secreted by pancreatic islet delta cells, acts locally to inhibit both insulin and glucagon secretion, functioning as a broad paracrine "off switch" on islet hormone release.
+
+## explicit_objective
+State that somatostatin inhibits both insulin and glucagon secretion from pancreatic islets.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Pancreatic Islet Hormones
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Somatostatin is a broad inhibitor of gastrointestinal hormone secretion (gastrin, secretin, CCK and others), not a stimulator. Because somatostatin inhibits both insulin and glucagon together, it does not produce a simple, consistent fall in blood glucose. Somatostatin inhibits, rather than increases, gastric motility and secretion.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Pancreatic Islet Hormones
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p7 q37 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+What's the effect of somatostatin? A- Increase GIT hormones B- Inhibit insulin and glucagon secretion C- Decrease blood glucose level D- Increase the motility of the stomach. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p7 q37 q37
+
+---
+
+# Item
+
+## id
+CON-END-72C010178E3605
+
+## label
+Growth hormone is a counter-regulatory, insulin-antagonist hormone — its excess (as in acromegaly) is a recognised cause of secondary diabetes mellitus, making it, among these four, the hormone with a genuine diabetogenic/diagnostic link to DM.
+
+## canonical_key
+endo.growth-hormone.diabetogenic-hormone-among-options
+
+## definition
+Growth hormone is a counter-regulatory, insulin-antagonist hormone — its excess (as in acromegaly) is a recognised cause of secondary diabetes mellitus, making it, among these four, the hormone with a genuine diabetogenic/diagnostic link to DM.
+
+## explicit_objective
+Identify growth hormone, among PTH, androgen and aldosterone, as the hormone with a recognised diabetogenic link to diabetes mellitus, per this source's key.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Growth Hormone and Pituitary Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Parathyroid hormone regulates calcium and phosphate handling and has no direct diagnostic link to diabetes mellitus. Androgens are not a recognised diabetogenic hormone and are not used to detect diabetes mellitus. Aldosterone regulates sodium/potassium/volume status and is not linked to diabetes mellitus detection.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+the stem itself is atypically phrased (a standard DM work-up centres on glucose/insulin, not GH); this source's key is kept as printed because among the four listed hormones only GH excess has a genuine causal link to secondary diabetes, but the item is flagged as an unusually indirect way to test that fact.
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Growth Hormone and Pituitary Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p7 q38 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+A female has DM, analyzation of which hormone helps to detect the DM? A- PTH B- Androgen C- Aldosterone D- GH. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p7 q38 q38
+
+---
+
+# Item
+
+## id
+CON-END-CE1567D211A3C3
+
+## label
+Premature growth of facial/body hair in a child reflects excess androgen exposure (virilism/precocious pseudopuberty), from an adrenal or gonadal androgen-secreting source.
+
+## canonical_key
+endo.virilism.precocious-beard-growth-child
+
+## definition
+Premature growth of facial/body hair in a child reflects excess androgen exposure (virilism/precocious pseudopuberty), from an adrenal or gonadal androgen-secreting source.
+
+## explicit_objective
+Identify virilism (androgen excess) as the cause of precocious beard growth in a child.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+endo
+
+## primary_node_id
+DIS-PHY-T06
+
+## secondary_node_ids
+
+
+## topic
+Physiology
+
+## subtopic
+Adrenal Androgen and Virilization Physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Acromegaly is adult-onset GH excess producing acral/soft-tissue overgrowth, not a cause of precocious androgen-driven hair growth in a child. Graves' disease is hyperthyroidism; it does not cause precocious virilizing hair growth. Cretinism (congenital hypothyroidism) causes growth failure and developmental delay, not early virilization.
+
+## article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_article_ids
+ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y2=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-201 > Physiology > Adrenal Androgen and Virilization Physiology
+
+## exam_signal
+src_de3dfe0928d063fd37f4 | department_question_bank | undated | p7 q40 | AU-MED-201
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_ids
+src_de3dfe0928d063fd37f4
+
+## original_wording
+A child with early growth of beard, this is due to? A- Acromegaly B- Graves C- Cretinism D- Virilism. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the source material distinguishes.
+moduleIds: No verified live AU-MED-201 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" before minting; no genuine live or pending match found.
+au: EGU FINAL -27- (wafdeen), p7 q40 q40

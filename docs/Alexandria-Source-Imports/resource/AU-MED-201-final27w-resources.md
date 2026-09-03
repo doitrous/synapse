@@ -69,9 +69,33 @@ CON-REN-6F11A6D8DE63FA
 CON-GYN-55E3B5F3A33704
 CON-END-23C50164AD3F84
 CON-GYN-2C117B27F10ECB
+CON-END-9FFB74F21B2921
+CON-REN-85DEDE700E9742
+CON-REN-4BCF86E8BB9B2F
+CON-REN-C2433855E262E0
+CON-END-570F8B003A0CD8
+CON-END-7612B4242FDB61
+CON-REN-93A8BE3D2F0664
+CON-REN-0BF1F94D1317F5
+CON-GYN-F618825ECB3FE7
+CON-END-6F425357E939AB
+CON-END-4DE31C5B00165D
+CON-END-73064D04EA93C0
+CON-END-DE240B6530E54C
+CON-END-6CD126ACAE4B79
+CON-END-9C2E4611D24880
+CON-END-72C010178E3605
+CON-END-CE1567D211A3C3
+CON-GI-C339AE905C725E
+CON-REN-248FE9FF80A9D8
+CON-END-3D4C2E71D3D62E
+CON-END-78F28F989AD277
+CON-END-8A94FC201D1C49
+CON-END-CB54E2B615A252
 
 ## included_articles
 ART-END-AU-MED-201-MOCK-PHYSIOLOGY
+ART-END-AU-MED-201-BIOCHEMISTRY
 
 ## concept_locations
 CON-REN-BF229B77020A8E | page | 1
@@ -90,6 +114,29 @@ CON-REN-6F11A6D8DE63FA | page | 3
 CON-GYN-55E3B5F3A33704 | page | 3
 CON-END-23C50164AD3F84 | page | 4
 CON-GYN-2C117B27F10ECB | page | 4
+CON-END-9FFB74F21B2921 | page | 4
+CON-REN-85DEDE700E9742 | page | 4
+CON-REN-4BCF86E8BB9B2F | page | 5
+CON-REN-C2433855E262E0 | page | 5
+CON-END-570F8B003A0CD8 | page | 5
+CON-END-7612B4242FDB61 | page | 5
+CON-REN-93A8BE3D2F0664 | page | 5
+CON-REN-0BF1F94D1317F5 | page | 6
+CON-GYN-F618825ECB3FE7 | page | 6
+CON-END-6F425357E939AB | page | 6
+CON-END-4DE31C5B00165D | page | 6
+CON-END-73064D04EA93C0 | page | 6
+CON-END-DE240B6530E54C | page | 7
+CON-END-6CD126ACAE4B79 | page | 7
+CON-END-9C2E4611D24880 | page | 7
+CON-END-72C010178E3605 | page | 7
+CON-END-CE1567D211A3C3 | page | 7
+CON-GI-C339AE905C725E | page | 9
+CON-REN-248FE9FF80A9D8 | page | 9
+CON-END-3D4C2E71D3D62E | page | 9
+CON-END-78F28F989AD277 | page | 9
+CON-END-8A94FC201D1C49 | page | 9
+CON-END-CB54E2B615A252 | page | 9
 
 ## universities
 au
@@ -98,4 +145,4 @@ au
 AU_Y2
 
 ## description
-Native-text, 20-page Alexandria MED 201 (EGU) FINAL -27- (wafdeen) end-of-module final, the international-stream sitting of this exam. This pass authors 20 of the Physiology section's 37 usable items (Q1-Q12, Q14-Q20, Q22), each keyed against the section's own printed per-question answer table (p8); Q13, Q21 and Q39 are held for carrying only 2-3 printed options (below this lane's 4-option floor). Four items (Q3, Q5, Q6, Q19) reuse an existing physiology concept minted from the sibling Mock exam batch rather than duplicating it. This section's remaining items (Q23-Q38, Q40) and the paper's Biochemistry, Anatomy and Histology sections are frontier for a follow-up pass. Student-facing file approval and deep links are deferred pending rights review.
+Native-text, 20-page Alexandria MED 201 (EGU) FINAL -27- (wafdeen) end-of-module final, the international-stream sitting of this exam. Third pass (2026-09-03) finishes the paper's Physiology section (17 more items, Q23-Q38, Q40; Q39 held) and authors its Biochemistry section in full (6 of 7 items; Q7 held) — the Physiology section is now complete: 37 authored, 3 held (Q13, Q21, Q39, all below-floor option counts). Four Physiology items (Q3, Q5, Q6, Q19) reuse an existing physiology concept minted from the sibling Mock exam batch; the rest of this pass's 23 items mint new concepts. This paper's Anatomy (29 items, 6 below-floor) and Histology (28 items, 2 below-floor plus 1 image-dependent) sections remain frontier for a follow-up pass. Student-facing file approval and deep links are deferred pending rights review.
