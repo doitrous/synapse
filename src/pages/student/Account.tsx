@@ -1,22 +1,26 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Bell, Check, Download, KeyRound, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, Trash2, Upload, UserRound } from 'lucide-react'
+import {
+  Bell, BookOpen, Bot, Check, Download, FileText, KeyRound, LockKeyhole,
+  LogOut, Palette, ShieldCheck, Trash2, Upload, UserRound,
+} from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button, ButtonAnchor } from '@/components/ui/Button'
-import { Field, Select, TextInput } from '@/components/ui/Field'
+import { Button } from '@/components/ui/Button'
+import { Field, Select, TextInput, Textarea } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
 import { Avatar } from '@/components/ui/Avatar'
 import { MfaControl } from '@/components/auth/MfaControl'
 import { PasskeyControl } from '@/components/auth/PasskeyControl'
 import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
+import { LanguageSwitch } from '@/components/shell/LanguageSwitch'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
 import { useAvatar } from '@/lib/useAvatar'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { universities as seededUniversities, YEARS } from '@/data/universities'
-import { API_MODE, apiGet, apiPost, apiPut } from '@/lib/api'
+import { API_MODE, ApiError, apiGet, apiPost, apiPut } from '@/lib/api'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 import { ProfileIconGlyph } from '@/components/ui/ProfileIconGlyph'
@@ -24,6 +28,9 @@ import { DEFAULT_PROFILE_ICON, PROFILE_ICONS, normaliseUsername, usernameProblem
 import { AccountTabs } from '@/components/account/AccountTabs'
 import { useAccountTab, type AccountTab } from '@/components/account/useAccountTab'
 import { BillingPanels } from '@/components/account/BillingPanels'
+import { SupportContactPanel } from '@/components/account/SupportContactPanel'
+import { AiDisclaimerDialog } from '@/components/account/AiDisclaimerDialog'
+import { DeleteAccountDialog } from '@/components/account/DeleteAccountDialog'
 
 /**
  * Preferences the student owns.
@@ -47,8 +54,6 @@ const DEFAULTS: AccountPrefs = {
 
 const ACCOUNT_PREFS_STORAGE_KEY = 'nishany.account.prefs.v1'
 const PROFILE_STORAGE_KEY = 'nishany.account.profile.v1'
-
-const SUPPORT_ADDRESS = 'help@nishany.com'
 
 interface StudentProfilePrefs {
   username: string
@@ -98,6 +103,7 @@ function StudyContext() {
   const [configured] = useUniversityCatalogue()
 
   const [group, setGroup] = useState(audience.group)
+  const [statusMessage, setStatusMessage] = useState(profile.statusMessage ?? '')
   const [targetUniversityId, setTargetUniversityId] = useState(audience.universityId)
   const [targetYear, setTargetYear] = useState(audience.year)
   const [reason, setReason] = useState('')
@@ -115,7 +121,7 @@ function StudyContext() {
   const targetYears = selectedTargetUniversity
     ? [...new Set([...selectedTargetUniversity.years.map((entry) => entry.year), ...YEARS])]
     : [...new Set([...YEARS, audience.year, profile.year].filter((value): value is string => Boolean(value)))]
-  const dirty = group !== audience.group
+  const dirty = group !== audience.group || statusMessage !== (profile.statusMessage ?? '')
   const requestDirty = targetUniversityId !== audience.universityId || targetYear !== audience.year
   const canRequest = requestDirty && reason.trim().length >= 12
 
@@ -124,7 +130,7 @@ function StudyContext() {
     setError('')
     setSaving(true)
     try {
-      await saveEnrolment({ universityId: audience.universityId, year: audience.year, group: group.trim() })
+      await saveEnrolment({ universityId: audience.universityId, year: audience.year, group: group.trim(), statusMessage })
       setJustSaved(true)
     } catch {
       setError(t('That could not be saved. Check your connection and try again.'))
@@ -187,22 +193,35 @@ function StudyContext() {
         {profile.year && profile.year !== audience.year && <RosterNote recorded={profile.year} />}
       </div>
 
-      <form className="grid gap-4 sm:col-span-2 sm:grid-cols-[minmax(0,1fr)_auto]" onSubmit={(event) => void saveGroup(event)}>
-        <Field label={t('Group')} htmlFor="account-group" hint={t('Used for targeted vouchers and notices')}>
-          <TextInput
-            id="account-group"
-            value={group}
-            maxLength={40}
-            placeholder={t('e.g. Group 4')}
-            onChange={(event) => { setGroup(event.target.value); setJustSaved(false) }}
+      <form className="grid gap-4 sm:col-span-2" onSubmit={(event) => void saveGroup(event)}>
+        <Field label={t('Status message')} htmlFor="account-status-message" hint={t('Shown under your name. Optional.')}>
+          <Textarea
+            id="account-status-message"
+            value={statusMessage}
+            maxLength={140}
+            className="min-h-16"
+            placeholder={t('e.g. Studying for finals')}
+            onChange={(event) => { setStatusMessage(event.target.value); setJustSaved(false) }}
           />
+          <p className="tnum mt-1 text-end font-mono text-[11px] text-ink-3">{140 - statusMessage.length}</p>
         </Field>
-        <div className="flex items-end">
-          <Button type="submit" variant="primary" loading={saving} disabled={!dirty || saving} iconLeft={justSaved && !dirty ? Check : undefined}>
-            {justSaved && !dirty ? t('Saved') : t('Save group')}
-          </Button>
+        <div className="grid gap-4 sm:grid-cols-[minmax(0,1fr)_auto]">
+          <Field label={t('Group')} htmlFor="account-group" hint={t('Used for targeted vouchers and notices')}>
+            <TextInput
+              id="account-group"
+              value={group}
+              maxLength={40}
+              placeholder={t('e.g. Group 4')}
+              onChange={(event) => { setGroup(event.target.value); setJustSaved(false) }}
+            />
+          </Field>
+          <div className="flex items-end">
+            <Button type="submit" variant="primary" loading={saving} disabled={!dirty || saving} iconLeft={justSaved && !dirty ? Check : undefined}>
+              {justSaved && !dirty ? t('Saved') : t('Save')}
+            </Button>
+          </div>
         </div>
-        {error && <p role="alert" className="text-[12.5px] text-danger sm:col-span-2">{error}</p>}
+        {error && <p role="alert" className="text-[12.5px] text-danger">{error}</p>}
       </form>
 
       <div className="sm:col-span-2 rounded-xl border border-line bg-surface-2/50 p-4">
@@ -292,6 +311,8 @@ function AvatarControl() {
   )
 }
 
+type UsernameAvailability = 'idle' | 'checking' | 'available' | 'taken'
+
 function ProfileIdentity() {
   const t = useT()
   const [profile, setProfile] = usePersistentState<StudentProfilePrefs>(PROFILE_STORAGE_KEY, { username: '', iconId: DEFAULT_PROFILE_ICON })
@@ -300,12 +321,33 @@ function ProfileIdentity() {
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
   const [error, setError] = useState('')
+  const [availability, setAvailability] = useState<UsernameAvailability>('idle')
   const cleanUsername = normaliseUsername(username)
   const problem = usernameProblem(username)
   const dirty = cleanUsername !== profile.username || iconId !== profile.iconId
+  const currentClean = normaliseUsername(profile.username)
+
+  // A live pre-check against the server, debounced so a student typing a name
+  // does not fire a request per keystroke. `usernameProblem` is the cheap,
+  // client-side shape check; this is the one that actually knows what is
+  // taken in this university. The save-path 409 stays the backstop for the
+  // race between this check and the click.
+  useEffect(() => {
+    if (!API_MODE || problem || cleanUsername === currentClean) {
+      setAvailability('idle')
+      return
+    }
+    setAvailability('checking')
+    const timer = window.setTimeout(() => {
+      apiGet<{ available: boolean; reason?: string }>(`/me/username-available?handle=${encodeURIComponent(cleanUsername)}`)
+        .then((result) => setAvailability(result.available ? 'available' : 'taken'))
+        .catch(() => setAvailability('idle'))
+    }, 400)
+    return () => window.clearTimeout(timer)
+  }, [cleanUsername, currentClean, problem])
 
   async function save() {
-    if (problem) return
+    if (problem || availability === 'taken') return
     setError('')
     setSaving(true)
     const payload = { username: cleanUsername, iconId }
@@ -313,8 +355,13 @@ function ProfileIdentity() {
       if (API_MODE) await apiPut('/me/profile', payload)
       setProfile(payload)
       setSaved(true)
-    } catch {
-      setError(t('That profile could not be saved. The server may have refused the username or be temporarily unavailable.'))
+    } catch (saveError) {
+      if (saveError instanceof ApiError && saveError.status === 409) {
+        setAvailability('taken')
+        setError(t('That username is taken. Choose another.'))
+      } else {
+        setError(t('That profile could not be saved. The server may have refused the username or be temporarily unavailable.'))
+      }
     } finally {
       setSaving(false)
     }
@@ -327,16 +374,19 @@ function ProfileIdentity() {
           <TextInput id="account-username" value={username} onChange={(event) => { setUsername(event.target.value); setSaved(false) }} maxLength={24} autoComplete="username" />
         </Field>
         <div className="flex items-end">
-          <Button type="button" variant="secondary" loading={saving} disabled={!dirty || Boolean(problem) || saving} iconLeft={saved && !dirty ? Check : undefined} onClick={() => void save()}>
+          <Button type="button" variant="secondary" loading={saving} disabled={!dirty || Boolean(problem) || availability === 'taken' || saving} iconLeft={saved && !dirty ? Check : undefined} onClick={() => void save()}>
             {saved && !dirty ? t('Saved') : t('Save profile')}
           </Button>
         </div>
       </div>
       <p className="mt-2 text-[12px] text-ink-3">{t('Preview')}: <span className="font-mono font-semibold text-ink">@{cleanUsername || t('username')}</span></p>
       {problem && <p role="alert" className="mt-1 text-[12px] text-danger">{t(problem)}</p>}
+      {!problem && availability === 'checking' && <p className="mt-1 text-[12px] text-ink-3">{t('Checking availability…')}</p>}
+      {!problem && availability === 'available' && <p className="mt-1 flex items-center gap-1 text-[12px] text-success"><Check size={12} />{t('Available')}</p>}
+      {!problem && availability === 'taken' && <p role="alert" className="mt-1 text-[12px] text-danger">{t('That username is taken in your university.')}</p>}
 
       <div className="mt-4">
-        <p className="text-[12px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Profile icon')}</p>
+        <p className="text-[12px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Study icon')}</p>
         <ul className="mt-2 grid grid-cols-3 gap-2 sm:grid-cols-6">
           {PROFILE_ICONS.map((entry) => (
             <li key={entry.id}>
@@ -380,9 +430,10 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
   const [exportError, setExportError] = useState('')
   // New and existing students are private until they explicitly opt in.
   const [discoverable, setDiscoverableState] = useState(false)
+  const [aboutAiOpen, setAboutAiOpen] = useState(false)
+  const [deleteOpen, setDeleteOpen] = useState(false)
 
   const patch = (next: Partial<AccountPrefs>) => setPrefs((current) => ({ ...current, ...next }))
-  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Maristana profile change request')}`
 
   useEffect(() => {
     if (!API_MODE) return
@@ -490,19 +541,26 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                   product updates — were read by nothing at all. They return when
                   email delivery actually consults a preference. */}
               <p className="border-t border-line px-5 py-3 text-[11.5px] leading-relaxed text-ink-3">
-                {t('Email preferences are not configurable yet. Maristana only emails you about your account.')}
+                {t('Email preferences are not configurable yet. Nishany only emails you about your account.')}
               </p>
             </Panel>
 
             <div className="space-y-4">
               <Panel>
                 <PanelHeader title={t('Appearance')} icon={Palette} />
-                <div className="flex flex-wrap items-center justify-between gap-3 p-4">
+                <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line p-4">
                   <div className="min-w-0">
                     <p className="text-[13px] font-medium text-ink">{t('Theme')}</p>
-                    <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Light, warm, or dark. Kept on this device.')}</p>
+                    <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Light, Warm, Dark or Black. Kept on this device.')}</p>
                   </div>
                   <ThemeSwitch />
+                </div>
+                <div className="flex flex-wrap items-center justify-between gap-3 p-4">
+                  <div className="min-w-0">
+                    <p className="text-[13px] font-medium text-ink">{t('Language')}</p>
+                    <p className="mt-0.5 text-[11.5px] text-ink-3">{t('English or Arabic. Kept on this device.')}</p>
+                  </div>
+                  <LanguageSwitch />
                 </div>
               </Panel>
 
@@ -578,16 +636,64 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                 </div>
               </Panel>
 
+              <SupportContactPanel />
+
               <Panel>
-                <PanelHeader title={t('Support')} icon={LifeBuoy} />
-                <div className="p-4">
-                  <ButtonAnchor href={supportLink} className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Maristana team')}</ButtonAnchor>
+                <PanelHeader title={t('Help')} icon={BookOpen} />
+                <div className="space-y-2 p-4">
+                  <Link to="/app/tutorial" className="flex min-h-11 items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-[13px] font-semibold text-ink hover:bg-inset">
+                    <BookOpen size={15} />{t('App tutorials')}
+                  </Link>
+                  <button
+                    type="button"
+                    onClick={() => setAboutAiOpen(true)}
+                    className="flex min-h-11 w-full items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-start text-[13px] font-semibold text-ink hover:bg-inset"
+                  >
+                    <Bot size={15} />{t('About AI in Nishany')}
+                  </button>
+                </div>
+              </Panel>
+
+              <Panel>
+                <PanelHeader title={t('Legal and about')} icon={FileText} />
+                <div className="space-y-1 p-2">
+                  {([
+                    ['Terms and Conditions', '/terms'],
+                    ['Privacy Policy', '/privacy'],
+                    ['Accessibility statement', '/accessibility'],
+                  ] as const).map(([label, href]) => (
+                    <Link key={href} to={href} target="_blank" rel="noopener noreferrer" className="flex min-h-11 items-center justify-between rounded-lg px-3 text-[13px] font-medium text-ink-2 hover:bg-inset hover:text-ink">
+                      {t(label)}
+                    </Link>
+                  ))}
+                  <p className="flex min-h-11 items-center justify-between px-3 text-[12px] text-ink-3">
+                    {t('App version')}
+                    <span className="tnum font-mono">{(import.meta.env.VITE_APP_VERSION as string | undefined) ?? '—'}</span>
+                  </p>
                 </div>
               </Panel>
             </div>
           </div>
         )}
+
+        {tab === 'security' && (
+          <Panel className="mt-4 border-danger/30">
+            <PanelHeader title={t('Danger zone')} icon={Trash2} />
+            <div className="flex flex-wrap items-center justify-between gap-3 p-4">
+              <div className="min-w-0">
+                <p className="text-[13px] font-medium text-ink">{t('Delete your account')}</p>
+                <p className="mt-0.5 max-w-md text-[11.5px] leading-relaxed text-ink-3">
+                  {t('Permanently deletes your Nishany account and everything in it. This also removes your access on the app. This cannot be undone.')}
+                </p>
+              </div>
+              <Button type="button" variant="danger" iconLeft={Trash2} onClick={() => setDeleteOpen(true)}>{t('Delete account')}</Button>
+            </div>
+          </Panel>
+        )}
       </div>
+
+      {aboutAiOpen && <AiDisclaimerDialog onClose={() => setAboutAiOpen(false)} />}
+      {deleteOpen && <DeleteAccountDialog onClose={() => setDeleteOpen(false)} />}
     </PageContainer>
   )
 }
