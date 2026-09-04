@@ -38,20 +38,27 @@ struct AdaptiveStudyView: View {
         // stack, and nesting one inside another gives the screen two navigation
         // bars — the outer one keeping whatever chrome it was built with.
         Group {
-            if model.isLoading {
-                ProgressView().tint(Theme.primary)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-            } else if model.scopeUnknown {
+            if model.scopeUnknown {
                 // Every figure here is scoped to a university and year.
                 // Rendering it without one would show a blueprint that belongs
-                // to nobody.
+                // to nobody. Checked ahead of loading/error: this is a fact
+                // about the student's account, not about the network.
                 EmptyStateView(
                     symbol: "location.slash",
                     title: "Your university and year are not set",
                     detail: "Adaptive Study works against your own exam blueprint, so it needs to know which programme you are on. Set it in your account and this page will fill in."
                 )
             } else {
-                content
+                // Nothing here has a local cache behind it — config,
+                // blueprint and evidence are all read straight from the
+                // server — so unlike the rest of the app this surface
+                // genuinely cannot work with no connection.
+                StateSurface(
+                    isLoading: model.isLoading, error: model.loadError,
+                    retry: { Task { await model.load(audience: audience) } }
+                ) {
+                    content
+                }
             }
         }
         .background(Theme.paper)

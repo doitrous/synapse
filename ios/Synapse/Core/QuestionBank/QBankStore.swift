@@ -38,6 +38,13 @@ final class QBankStore {
     /// never know why. The reader is the same lesson bookmarks taught.
     private(set) var isLoaded = false
 
+    /// Set when this read could not be a genuine "nothing saved yet" — the
+    /// device was offline at the time. Flags, notes, session names and a
+    /// sitting in progress all live only on the server, so failing quietly
+    /// here would make real flags disappear rather than merely being unknown
+    /// for a moment. Cleared on the next successful load.
+    private(set) var loadError: String?
+
     private let api: SynapseAPI
     private let sync: SyncEngine
     private var savedCue: Task<Void, Never>?
@@ -58,6 +65,9 @@ final class QBankStore {
         names = (await remoteNames)?.value ?? [:]
         live = (await remoteLive)?.value
         isLoaded = true
+        loadError = Connectivity.shared.isOnline
+            ? nil
+            : "You're offline, so flagged questions, notes and a sitting in progress may not show."
     }
 
     // MARK: - Flagging

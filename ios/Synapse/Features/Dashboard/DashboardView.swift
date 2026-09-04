@@ -42,6 +42,10 @@ struct DashboardView: View {
     @State private var conceptLabels: [String: String] = [:]
     @State private var upcoming: [UpcomingItem] = []
     @State private var recent: [RecentResource] = []
+    /// Set once the first `refresh()` + `mastery.load()` pass has finished, so
+    /// the screen shows a spinner rather than a dashboard flashing zeros while
+    /// the local record is still being read.
+    @State private var hasLoadedOnce = false
     private let api: SynapseAPI
 
     /// No per-student daily target exists in settings yet. Forty questions is
@@ -135,6 +139,27 @@ struct DashboardView: View {
         return lead + count + tail
     }
 
+    /// Only during the very first load, and only when there is genuinely
+    /// nothing local to fall back on — this device has never synced and has
+    /// no connection to do it now. Once anything has loaded once, the cache is
+    /// readable and stays readable; a later hiccup on the network-only widgets
+    /// (mastery, the resume card, recent resources) degrades those quietly
+    /// rather than blocking the whole dashboard, the same as `SyncEngine`
+    /// leaves a stale-but-readable cache after a failed sync.
+    private var firstLoadError: String? {
+        guard !hasLoadedOnce, !Connectivity.shared.isOnline, questionCount == 0, resourceCount == 0
+        else { return nil }
+        return "You're offline, and nothing has synced to this device yet. Connect once and the rest of the app works offline from there."
+    }
+
+    private func retryFirstLoad() {
+        Task {
+            await mastery.load()
+            await refresh()
+            hasLoadedOnce = true
+        }
+    }
+
     /// Open the Question of the Day if a reminder tap asked for it, and consume
     /// the pending route so it fires once.
     private func openQotdIfRequested() {
@@ -145,27 +170,29 @@ struct DashboardView: View {
 
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 18) {
-                    header
-                    Text(greeting)
-                        .font(Theme.display(22))
-                        .foregroundStyle(Theme.ink)
-                    targetHero
-                    if let liveSession {
-                        resumeCard(liveSession)
+            StateSurface(isLoading: !hasLoadedOnce, error: firstLoadError, retry: retryFirstLoad) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 18) {
+                        header
+                        Text(greeting)
+                            .font(Theme.display(22))
+                            .foregroundStyle(Theme.ink)
+                        targetHero
+                        if let liveSession {
+                            resumeCard(liveSession)
+                        }
+                        todayGrid
+                        QotdCard { showingQotd = true }
+                        nextOnSchedule
+                        dueReviews
+                        lastUsed
                     }
-                    todayGrid
-                    QotdCard { showingQotd = true }
-                    nextOnSchedule
-                    dueReviews
-                    lastUsed
+                    .padding(16)
+                    .frame(maxWidth: 680)
+                    .frame(maxWidth: .infinity)
                 }
-                .padding(16)
-                .frame(maxWidth: 680)
-                .frame(maxWidth: .infinity)
+                .background(Theme.paper)
             }
-            .background(Theme.paper)
             // The header row above draws the wordmark and the account
             // avatar itself, so the system bar this screen would otherwise
             // get — a plain title and two toolbar buttons — is redundant.
@@ -194,6 +221,7 @@ struct DashboardView: View {
         .task {
             await mastery.load()
             await refresh()
+            hasLoadedOnce = true
             openQotdIfRequested()
         }
         .onChange(of: sync.status) { _, status in
@@ -388,6 +416,7 @@ struct DashboardView: View {
             Image(systemName: symbol)
                 .font(.system(size: 22))
                 .foregroundStyle(Theme.accentStrong)
+                .accessibilityHidden(true)
             Text(strings(title))
                 .font(Theme.ui(13.5, weight: 600))
                 .foregroundStyle(Theme.ink)
@@ -549,6 +578,7 @@ struct DashboardView: View {
                             .frame(width: 28, height: 28)
                             .background(Theme.surface2)
                             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.md))
+                            .accessibilityHidden(true)
 
                         VStack(alignment: .leading, spacing: 1) {
                             Text(item.title)
@@ -660,6 +690,7 @@ struct DashboardView: View {
             HStack(spacing: 10) {
                 Image(systemName: "checkmark.circle")
                     .foregroundStyle(Theme.success)
+                    .accessibilityHidden(true)
                 VStack(alignment: .leading, spacing: 2) {
                     Text(strings("Nothing due today"))
                         .font(Theme.ui(14, weight: 600))

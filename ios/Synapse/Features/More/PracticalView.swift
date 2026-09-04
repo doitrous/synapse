@@ -25,6 +25,23 @@ struct PracticalView: View {
                 )
             } else {
                 List {
+                    // The list itself is cache-backed; only how far a student
+                    // has gotten on each item lives on the server alone.
+                    if let loadError = model?.loadError {
+                        Section {
+                            HStack(spacing: 10) {
+                                Text(loadError)
+                                    .font(Theme.ui(12.5))
+                                    .foregroundStyle(Theme.ink2)
+                                Spacer(minLength: 8)
+                                Button(strings("Retry")) { Task { await model?.load() } }
+                                    .font(Theme.ui(13, weight: 600))
+                                    .tint(Theme.primary)
+                            }
+                        }
+                        .listRowBackground(Theme.warningTint)
+                    }
+
                     ForEach(groups, id: \.type) { group in
                         Section {
                             ForEach(group.items) { item in

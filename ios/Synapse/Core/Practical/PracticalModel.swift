@@ -19,6 +19,12 @@ final class PracticalModel {
     /// term's practice with whatever this device happened to know.
     private(set) var isLoaded = false
 
+    /// Set when this device could not tell the difference between "nothing
+    /// recorded" and "offline" — the progress ledger lives only on the
+    /// server, so failing quietly here would read as every station never
+    /// having been attempted.
+    private(set) var loadError: String?
+
     private let api: SynapseAPI
     private let sync: SyncEngine
 
@@ -31,6 +37,9 @@ final class PracticalModel {
         let remote = try? await api.userState(PracticalProgress.self, key: PracticalProgress.key)
         progress = remote?.value ?? PracticalProgress()
         isLoaded = true
+        loadError = Connectivity.shared.isOnline
+            ? nil
+            : "You're offline, so past progress on these may not show."
     }
 
     private func save() async {

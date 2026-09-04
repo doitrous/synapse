@@ -20,6 +20,10 @@ final class AdaptiveStudyModel {
     private(set) var debt = CoverageDebt.empty
     private(set) var readiness: ReadinessResult?
     private(set) var isLoading = true
+    /// Set when the config, blueprint and evidence — every one of them a
+    /// direct server read with no local cache behind it — could not be a
+    /// genuine "nothing recorded yet".
+    private(set) var loadError: String?
 
     /// Days until the next exam, when the student's year has one published.
     ///
@@ -236,6 +240,9 @@ final class AdaptiveStudyModel {
         boosts = (await remoteBoosts)?.value ?? [:]
         debt = (await remoteDebt)?.value ?? .empty
         readiness = (await remoteReadiness)?.value
+        loadError = Connectivity.shared.isOnline
+            ? nil
+            : "You're offline, so Adaptive Study can't be measured right now."
 
         rebuild()
     }

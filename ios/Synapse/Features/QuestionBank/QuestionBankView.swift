@@ -118,6 +118,26 @@ private struct SessionBuilder: View {
 
     private var setup: some View {
         List {
+            // The bank itself is cache-backed and works with no signal — this
+            // is only about the account-scoped extras (flags, notes, a saved
+            // sitting) that live on the server alone, so a genuine offline
+            // read failure is said plainly rather than pretending nothing was
+            // ever flagged.
+            if let loadError = store.loadError {
+                Section {
+                    HStack(spacing: 10) {
+                        Text(loadError)
+                            .font(Theme.ui(12.5))
+                            .foregroundStyle(Theme.ink2)
+                        Spacer(minLength: 8)
+                        Button(strings("Retry")) { Task { await store.load() } }
+                            .font(Theme.ui(13, weight: 600))
+                            .tint(Theme.primary)
+                    }
+                }
+                .listRowBackground(Theme.warningTint)
+            }
+
             // Offered before anything else: a student who left a sitting
             // half-done came back for it, not to start another.
             if let saved = store.live, saved.phase == "running" {
@@ -356,6 +376,7 @@ private struct Runner: View {
             }
             .disabled(model.index == 0)
             .opacity(model.index == 0 ? 0.4 : 1)
+            .accessibilityLabel(strings("Previous"))
 
             primaryAction
         }
