@@ -30,7 +30,7 @@ export function inlineScriptHashes(html) {
 const BASE_CSP_DIRECTIVES = {
   'default-src': ["'self'"],
   // Turnstile, plus the Facebook JS SDK the friends finder loads on demand.
-  'script-src': ["'self'", 'https://challenges.cloudflare.com', 'https://connect.facebook.net'],
+  'script-src': ["'self'", 'https://challenges.cloudflare.com', 'https://connect.facebook.net', 'https://static.cloudflareinsights.com'],
   // Turnstile's widget, admin-pasted tutorial videos (YouTube/Vimeo embeds),
   // and the Facebook SDK's login/status frames.
   'frame-src': [
@@ -38,7 +38,7 @@ const BASE_CSP_DIRECTIVES = {
     'https://www.youtube.com', 'https://www.youtube-nocookie.com', 'https://player.vimeo.com',
     'https://www.facebook.com', 'https://web.facebook.com',
   ],
-  'connect-src': ["'self'", 'https://*.supabase.co', 'wss:', 'https://challenges.cloudflare.com', 'https://graph.facebook.com', 'https://www.facebook.com'],
+  'connect-src': ["'self'", 'https://*.supabase.co', 'wss:', 'https://challenges.cloudflare.com', 'https://graph.facebook.com', 'https://www.facebook.com', 'https://cloudflareinsights.com'],
   'img-src': ["'self'", 'data:', 'blob:', 'https:'],
   'media-src': ["'self'", 'blob:', 'https:'],
   'style-src': ["'self'", "'unsafe-inline'"],
