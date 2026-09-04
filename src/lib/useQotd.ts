@@ -144,7 +144,7 @@ export function useQotd(enabled = true): QotdState {
   // means library/resource ref titles degrade to their raw id (see
   // `managedQuestionToStudentQuestion`), which is fine here — the QotD card
   // never renders those refs.
-  const [liveItem] = useContentItem(API_MODE && enabled ? questionId : null)
+  const [liveItem, liveItemStatus] = useContentItem(API_MODE && enabled ? questionId : null)
   const liveQuestion = useMemo(
     () => (liveItem ? managedQuestionToStudentQuestion(liveItem, []) : null),
     [liveItem],
@@ -156,7 +156,9 @@ export function useQotd(enabled = true): QotdState {
   const current = API_MODE ? live?.current ?? 0 : demoStreak.current
   const longest = API_MODE ? live?.longest ?? 0 : demoStreak.longest
   const history = API_MODE ? live?.history ?? EMPTY_HISTORY : demoDates
-  const loading = API_MODE && liveLoading
+  // Still loading while the named question's body is in flight, so the hub's
+  // dot and the page's empty state don't flash between the two requests.
+  const loading = API_MODE && (liveLoading || (!liveItemStatus.hydrated && !liveItemStatus.error))
 
   const answer = useCallback(async (index: number) => {
     // A second submit is a no-op in both modes — the day's answer is
