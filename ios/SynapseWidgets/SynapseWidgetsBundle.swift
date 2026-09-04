@@ -12,5 +12,6 @@ import WidgetKit
 struct SynapseWidgetsBundle: WidgetBundle {
     var body: some Widget {
         PlaceholderWidget()
+        FocusActivityWidget()
     }
 }

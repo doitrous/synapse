@@ -22,10 +22,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1A0000000000000000000004 /* Synapse */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Synapse; sourceTree = "<group>"; };
+		1A0000000000000000000004 /* Synapse */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (1A000000000000000000004D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Synapse; sourceTree = "<group>"; };
 		1A0000000000000000000032 /* SynapseTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SynapseTests; sourceTree = "<group>"; };
 		1A0000000000000000000041 /* SynapseWidgets */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SynapseWidgets; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1A000000000000000000004D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Features/Focus/FocusActivityAttributes.swift,
+			);
+			target = 1A0000000000000000000042 /* SynapseWidgets */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1A000000000000000000000E /* Frameworks */ = {
