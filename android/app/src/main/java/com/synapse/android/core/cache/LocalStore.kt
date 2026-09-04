@@ -72,6 +72,28 @@ class LocalStore(private val database: CortexDatabase) {
 
     suspend fun document(key: String): StoredDocument? = documentDao.get(key)?.toDomain()
 
+    /**
+     * One-time on-device rename of legacy `synapse…` document keys to their
+     * current `nishany…` spelling, for the platform rebrand.
+     *
+     * Copies each old row to the new key preserving its stamps — the copy keeps
+     * the original `savedAt`, so sync precedence is unchanged and a migrated doc
+     * cannot masquerade as a fresh local edit that clobbers newer server data —
+     * then drops the old row. A pair whose new key already holds a document is
+     * left untouched, so this never overwrites newer data and is safe to run on
+     * every refresh: once the old rows are gone it matches nothing.
+     */
+    suspend fun renameLegacyDocumentKeys(renames: List<Pair<String, String>>) {
+        database.withTransaction {
+            for ((old, new) in renames) {
+                val existing = documentDao.get(old) ?: continue
+                if (documentDao.get(new) != null) continue
+                documentDao.upsert(existing.copy(key = new))
+                documentDao.deleteByKey(old)
+            }
+        }
+    }
+
     fun documentFlow(key: String): Flow<StoredDocument?> =
         documentDao.flow(key).map { it?.toDomain() }.distinctUntilChanged()
 

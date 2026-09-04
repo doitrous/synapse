@@ -74,6 +74,10 @@ class SyncEngine(
         if (!refreshMutex.tryLock()) return
         try {
             _status.value = SyncStatus.Syncing
+            // Carry any pre-rebrand `synapse…` cache forward before the first
+            // read touches the store. Idempotent and self-limiting: once the
+            // old rows are renamed there is nothing left for it to match.
+            store.renameLegacyDocumentKeys(LEGACY_KEY_RENAMES)
             var changed = 0
             changed += syncCatalogue()
             changed += syncUserState()
@@ -304,18 +308,34 @@ class SyncEngine(
          * library, whiteboard, reader, bookmarks, annotations) is
          * deliberately out of scope for this milestone.
          *
-         * The last two are spelled `nishany…`, current post-rebrand — see
-         * [StateOwnership]'s own note on why the *older* entries above them
-         * still say `synapse…`.
+         * All entries are spelled `nishany…`, matching the web app post-rebrand.
+         * Installs from before the rename still hold these documents under their
+         * old `synapse…` keys in [LocalStore]; [LEGACY_KEY_RENAMES] carries that
+         * cached work forward on upgrade.
          */
         private val USER_STATE_KEYS: List<String> = listOf(
-            "synapse.qbank.activeSession.v1", // src/pages/student/QuestionBank.tsx:232
-            "synapse.qbank.marked.v1", // src/pages/student/QuestionBank.tsx:100
-            "synapse.qbank.questionNotes.v1", // src/components/qbank/StudyRail.tsx:19
-            "synapse.qbank.sessionNames.v1", // src/pages/student/QuestionBank.tsx:233
-            "synapse.practical.progress.v1", // src/data/practicalProgress.ts:17
+            "nishany.qbank.activeSession.v1", // src/pages/student/QuestionBank.tsx:232
+            "nishany.qbank.marked.v1", // src/pages/student/QuestionBank.tsx:100
+            "nishany.qbank.questionNotes.v1", // src/components/qbank/StudyRail.tsx:19
+            "nishany.qbank.sessionNames.v1", // src/pages/student/QuestionBank.tsx:233
+            "nishany.practical.progress.v1", // src/data/practicalProgress.ts:17
             "nishany.notebook.notes", // src/pages/student/Notebook.tsx:62
             "nishany.calendar.tasks.v1", // src/data/tasks.ts:13
+        )
+
+        /**
+         * The rebrand renamed these five synced documents from `synapse…` to
+         * `nishany…` (see [USER_STATE_KEYS]). An install from before the rename
+         * still holds each one in [LocalStore] under its old key; this maps old
+         * → new so a one-time on-device rename can carry that cached work
+         * forward on upgrade, instead of stranding it under a key nothing reads.
+         */
+        private val LEGACY_KEY_RENAMES: List<Pair<String, String>> = listOf(
+            "synapse.qbank.activeSession.v1" to "nishany.qbank.activeSession.v1",
+            "synapse.qbank.marked.v1" to "nishany.qbank.marked.v1",
+            "synapse.qbank.questionNotes.v1" to "nishany.qbank.questionNotes.v1",
+            "synapse.qbank.sessionNames.v1" to "nishany.qbank.sessionNames.v1",
+            "synapse.practical.progress.v1" to "nishany.practical.progress.v1",
         )
     }
 }

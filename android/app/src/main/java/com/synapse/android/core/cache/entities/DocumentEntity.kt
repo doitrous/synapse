@@ -36,4 +36,7 @@ interface DocumentDao {
 
     @Query("SELECT * FROM documents WHERE `key` = :key")
     fun flow(key: String): Flow<DocumentEntity?>
+
+    @Query("DELETE FROM documents WHERE `key` = :key")
+    suspend fun deleteByKey(key: String)
 }

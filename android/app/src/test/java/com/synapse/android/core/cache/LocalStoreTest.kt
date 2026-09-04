@@ -223,6 +223,42 @@ class LocalStoreTest {
         assertEquals(listOf("key-2"), remaining.map { it.key })
     }
 
+    // -- Legacy key rename (rebrand) --------------------------------------
+
+    @Test fun `a legacy synapse document is carried forward to its nishany key`() = runBlocking {
+        val stamp = Instant.parse("2026-03-01T12:00:00Z")
+        store.putDocument("synapse.qbank.marked.v1", """["q1","q2"]""", stamp)
+
+        store.renameLegacyDocumentKeys(listOf("synapse.qbank.marked.v1" to "nishany.qbank.marked.v1"))
+
+        val migrated = store.document("nishany.qbank.marked.v1")
+        assertEquals("""["q1","q2"]""", migrated?.json)
+        // The server stamp is preserved, so precedence still reasons correctly.
+        assertEquals(stamp, migrated?.serverUpdatedAt)
+        // The old row is gone, so nothing reads it and it cannot be migrated twice.
+        assertEquals(null, store.document("synapse.qbank.marked.v1"))
+    }
+
+    @Test fun `the rename never clobbers a document already under the new key`() = runBlocking {
+        store.putDocument("nishany.qbank.marked.v1", """["new"]""", Instant.parse("2026-05-01T00:00:00Z"))
+        store.putDocument("synapse.qbank.marked.v1", """["old"]""", Instant.parse("2026-01-01T00:00:00Z"))
+
+        store.renameLegacyDocumentKeys(listOf("synapse.qbank.marked.v1" to "nishany.qbank.marked.v1"))
+
+        assertEquals("""["new"]""", store.document("nishany.qbank.marked.v1")?.json)
+    }
+
+    @Test fun `the rename is idempotent and safe to run when nothing matches`() = runBlocking {
+        store.putDocument("nishany.qbank.marked.v1", """["q1"]""", null)
+        val renames = listOf("synapse.qbank.marked.v1" to "nishany.qbank.marked.v1")
+
+        store.renameLegacyDocumentKeys(renames)
+        store.renameLegacyDocumentKeys(renames)
+
+        assertEquals("""["q1"]""", store.document("nishany.qbank.marked.v1")?.json)
+        assertEquals(null, store.document("synapse.qbank.marked.v1"))
+    }
+
     // -- Multi-document writes --------------------------------------------
 
     @Test fun `several documents and their outbox entries land together`() = runBlocking {
