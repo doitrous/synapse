@@ -245,29 +245,3 @@ private struct ResourceRow: View {
         .padding(.vertical, 4)
     }
 }
-
-/// Shared empty state, so every surface explains itself the same way.
-struct EmptyStateView: View {
-    @Environment(\.strings) private var strings
-    let symbol: String
-    let title: LocalizedStringKey
-    let detail: String
-
-    var body: some View {
-        VStack(spacing: 10) {
-            Image(systemName: symbol)
-                .font(.system(size: 32))
-                .foregroundStyle(Theme.ink3)
-            Text(title)
-                .font(Theme.display(20))
-                .foregroundStyle(Theme.ink)
-            Text(detail)
-                .font(Theme.ui(14))
-                .foregroundStyle(Theme.ink2)
-                .multilineTextAlignment(.center)
-        }
-        .padding(32)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Theme.paper)
-    }
-}

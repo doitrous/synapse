@@ -15,6 +15,12 @@ final class StudyRoomModel {
     private(set) var room: StudyRoom?
     private(set) var isLoading = false
     private(set) var message: String?
+    /// Set only by a failed `loadRooms()`, and only while there is nothing
+    /// else on screen yet — unlike `message` (which also carries transient
+    /// notices from join/create/answer that the lobby shows inline while
+    /// still letting the student try again), this is the one case where the
+    /// whole surface has nothing to show but the failure.
+    private(set) var loadError: String?
 
     /// The questions in the current room, in the room's order.
     private(set) var questions: [Question] = []
@@ -53,8 +59,10 @@ final class StudyRoomModel {
         do {
             rooms = try await api.myRooms()
             message = nil
+            loadError = nil
         } catch {
             message = "Could not reach Nishany. A shared test needs a connection."
+            loadError = message
         }
     }
 

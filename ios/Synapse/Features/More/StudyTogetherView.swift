@@ -14,15 +14,15 @@ struct StudyTogetherView: View {
 
     var body: some View {
         Group {
-            if let model {
-                if let room = model.room {
-                    RoomView(model: model, room: room)
-                } else {
-                    lobby(model)
-                }
+            if let model, let room = model.room {
+                RoomView(model: model, room: room)
             } else {
-                ProgressView().tint(Theme.primary)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                // This surface cannot work offline at all — join, create and
+                // list all need the API — so offline replaces the lobby
+                // outright rather than being a banner on top of it.
+                StateSurface(isLoading: model?.isLoading ?? true, error: surfaceError, retry: retry) {
+                    if let model { lobby(model) }
+                }
             }
         }
         .background(Theme.paper)
@@ -35,6 +35,20 @@ struct StudyTogetherView: View {
                 await created.loadRooms()
             }
         }
+    }
+
+    // ponytail: M5.1 proves StateSurface + Connectivity on this one screen.
+    // M5.2 migrates the rest: DashboardView loading, Assistant, Billing,
+    // QuestionBank, Adaptive, Performance, Practical, Notebook, Library.
+    private var surfaceError: String? {
+        if !Connectivity.shared.isOnline {
+            return "You're offline. Study together needs a connection."
+        }
+        return model?.loadError
+    }
+
+    private func retry() {
+        Task { await model?.loadRooms() }
     }
 
     private func lobby(_ model: StudyRoomModel) -> some View {
