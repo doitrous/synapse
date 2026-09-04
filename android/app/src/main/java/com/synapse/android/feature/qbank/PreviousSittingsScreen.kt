@@ -17,6 +17,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.synapse.android.core.ui.StateHost
 import kotlin.math.roundToInt
 
 /**
@@ -25,7 +26,7 @@ import kotlin.math.roundToInt
  */
 @Composable
 fun PreviousSittingsScreen(viewModel: PreviousSittingsViewModel, onBack: () -> Unit) {
-    val sittings by viewModel.sittings.collectAsState()
+    val uiState by viewModel.uiState.collectAsState()
 
     Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
         Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
@@ -33,23 +34,20 @@ fun PreviousSittingsScreen(viewModel: PreviousSittingsViewModel, onBack: () -> U
             TextButton(onClick = onBack) { Text("Back") }
         }
 
-        if (sittings.isEmpty()) {
-            Text("No sittings yet.", modifier = Modifier.padding(top = 12.dp))
-            return@Column
-        }
-
-        LazyColumn(
-            modifier = Modifier.padding(top = 12.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
-        ) {
-            items(sittings, key = { it.sessionId }) { sitting ->
-                Column {
-                    Text(sitting.name, style = MaterialTheme.typography.titleMedium)
-                    val accuracyText = sitting.accuracy?.let { "${(it * 100).roundToInt()}%" } ?: "--"
-                    Text(
-                        "${sitting.date} · ${sitting.answered} answered · $accuracyText",
-                        style = MaterialTheme.typography.bodyMedium,
-                    )
+        StateHost(state = uiState, modifier = Modifier.weight(1f)) { sittings ->
+            LazyColumn(
+                modifier = Modifier.fillMaxSize().padding(top = 12.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                items(sittings, key = { it.sessionId }) { sitting ->
+                    Column {
+                        Text(sitting.name, style = MaterialTheme.typography.titleMedium)
+                        val accuracyText = sitting.accuracy?.let { "${(it * 100).roundToInt()}%" } ?: "--"
+                        Text(
+                            "${sitting.date} · ${sitting.answered} answered · $accuracyText",
+                            style = MaterialTheme.typography.bodyMedium,
+                        )
+                    }
                 }
             }
         }

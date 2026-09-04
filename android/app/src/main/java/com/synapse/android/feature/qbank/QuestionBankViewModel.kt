@@ -3,6 +3,7 @@ package com.synapse.android.feature.qbank
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.synapse.android.core.ConnectivityMonitor
 import com.synapse.android.core.CortexJson
 import com.synapse.android.core.backgroundWorkScope
 import com.synapse.android.core.cache.LocalStore
@@ -18,6 +19,9 @@ import com.synapse.android.core.qbank.LiveSession
 import com.synapse.android.core.qbank.QBankScope
 import com.synapse.android.core.qbank.SittingMode
 import com.synapse.android.core.sync.SyncEngine
+import com.synapse.android.core.sync.SyncStatus
+import com.synapse.android.core.ui.EmptyConfig
+import com.synapse.android.core.ui.UiState
 import java.time.Instant
 import java.time.LocalDate
 import java.util.UUID
@@ -29,6 +33,7 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -140,12 +145,28 @@ class QuestionBankViewModel(
     private val store: LocalStore,
     private val sync: SyncEngine,
     private val random: Random = Random.Default,
+    connectivity: ConnectivityMonitor? = null,
 ) : ViewModel() {
     private val backgroundScope = backgroundWorkScope("QuestionBankViewModel")
 
     private val pool: StateFlow<List<Question>> = store.ledgerItems(ContentKind.QUESTION)
         .map { items -> items.filter { it.isStudentVisible }.mapNotNull(QuestionProjection::project) }
         .stateIn(backgroundScope, SharingStarted.Eagerly, emptyList())
+
+    /**
+     * [pool] wrapped as a [UiState], for [TopicChooserScreen] and
+     * [SessionBuilderScreen] to render through
+     * [com.synapse.android.core.ui.StateHost] -- M5.2's application of the
+     * fold [com.synapse.android.feature.practical.practicalUiState] pioneered.
+     * Both screens share this one instance rather than each deriving its own,
+     * since both are reading the same pool through the same
+     * [QuestionBankViewModel] the caller already builds once per visit to the
+     * qbank tab (see `RootScreen.QuestionBankRoute`).
+     */
+    val uiState: StateFlow<UiState<List<Question>>> =
+        combine(pool, sync.status, connectivity?.isOnline ?: flowOf(true)) { currentPool, status, online ->
+            qbankUiState(currentPool, status, online, retry = ::retrySync)
+        }.stateIn(backgroundScope, SharingStarted.Eagerly, UiState.Loading)
 
     /**
      * Milestone 1 ships no Library (see `QBankScope.chooserTopics`), so the
@@ -261,6 +282,11 @@ class QuestionBankViewModel(
             ?.let { CortexJson.decodeFromString(NAMES_SERIALIZER, it) }
             .orEmpty()
 
+    /** What [uiState]'s Retry button runs -- see [com.synapse.android.feature.practical.PracticalViewModel.retrySync]. */
+    private fun retrySync() {
+        backgroundScope.launch { sync.refresh() }
+    }
+
     override fun onCleared() {
         backgroundScope.cancel()
     }
@@ -274,8 +300,40 @@ class QuestionBankViewModel(
 
         private val NAMES_SERIALIZER = MapSerializer(String.serializer(), String.serializer())
 
-        fun factory(store: LocalStore, sync: SyncEngine) = viewModelFactory {
-            initializer { QuestionBankViewModel(store, sync) }
+        fun factory(store: LocalStore, sync: SyncEngine, connectivity: ConnectivityMonitor) = viewModelFactory {
+            initializer { QuestionBankViewModel(store, sync, connectivity = connectivity) }
         }
     }
+}
+
+/**
+ * The pure pool-plus-sync-status-plus-connectivity -> [UiState] fold behind
+ * [QuestionBankViewModel.uiState]. Mirrors
+ * [com.synapse.android.feature.practical.practicalUiState] token for token --
+ * same branch order, same messaging -- so a student sees one consistent
+ * vocabulary for "still loading" / "offline" / "nothing published" across
+ * every tab, not a different wording per screen.
+ */
+internal fun qbankUiState(
+    items: List<Question>,
+    syncStatus: SyncStatus,
+    isOnline: Boolean,
+    retry: () -> Unit,
+): UiState<List<Question>> = when {
+    items.isNotEmpty() -> UiState.Content(items)
+    syncStatus is SyncStatus.Failed -> UiState.Error(
+        message = if (isOnline) {
+            "Couldn't reach Nishany. Check your connection and try again."
+        } else {
+            "You're offline. Connect and try again."
+        },
+        retry = retry,
+    )
+    syncStatus is SyncStatus.Done -> UiState.Empty(
+        EmptyConfig(
+            title = "Nothing here yet",
+            description = "Questions appear here once your course publishes them.",
+        ),
+    )
+    else -> UiState.Loading
 }

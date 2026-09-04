@@ -15,6 +15,7 @@ import com.synapse.android.core.qbank.LiveSession
 import com.synapse.android.core.qbank.QuestionState
 import com.synapse.android.core.qbank.SittingMode
 import com.synapse.android.core.sync.SyncEngine
+import com.synapse.android.core.ui.UiState
 import java.time.Instant
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -24,8 +25,11 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.flow.updateAndGet
 
@@ -102,6 +106,20 @@ class RunnerViewModel(
 
     private val _session = MutableStateFlow(initialSession)
     val session: StateFlow<LiveSession> = _session.asStateFlow()
+
+    /**
+     * [session] resolved to the one [Question] [QuestionRunnerScreen] should
+     * be drawing right now, wrapped as a [UiState] -- see [runnerUiState]'s
+     * own doc for what each branch means here. Nothing about this class ever
+     * reads the ledger or the network, so unlike
+     * [QuestionBankViewModel.uiState] there is no [SyncEngine] or
+     * [com.synapse.android.core.ConnectivityMonitor] in this combine -- the
+     * fold is a pure function of [session] and the [questions] this instance
+     * was built with.
+     */
+    val uiState: StateFlow<UiState<Question>> = session
+        .map { runnerUiState(it, questions) }
+        .stateIn(backgroundScope, SharingStarted.Eagerly, UiState.Loading)
 
     /**
      * Advances [LiveSession.elapsed] once a second while the sitting is
@@ -322,5 +340,31 @@ class RunnerViewModel(
             viewModelFactory {
                 initializer { RunnerViewModel(session, questions, store, sync) }
             }
+    }
+}
+
+/**
+ * The pure session-plus-resolved-questions -> [UiState] fold behind
+ * [RunnerViewModel.uiState]. No network state feeds this one -- [session] is
+ * an already-built, already-local sitting, so there is nothing left to
+ * arrive later the way a ledger sync would deliver more items.
+ *
+ * [UiState.Loading] covers only the degenerate case of a sitting with no
+ * questions at all ([LiveSession.questionIds] empty) -- [SessionBuilderScreen]
+ * never builds one (the Start button is disabled at `availableCount == 0`),
+ * so this is a defensive branch, not one a student is expected to see.
+ * [UiState.Error] is the one a data problem can actually produce: the
+ * session names a question id [questions] does not resolve, the same
+ * condition [choose] and [commit] already log via `warnUnresolved` --
+ * this is what shows the student something instead of a blank screen.
+ */
+internal fun runnerUiState(session: LiveSession, questions: List<Question>): UiState<Question> {
+    if (session.questionIds.isEmpty()) return UiState.Loading
+    val questionId = session.questionIds.getOrNull(session.idx)
+    val question = questionId?.let { id -> questions.firstOrNull { it.id == id } }
+    return if (question != null) {
+        UiState.Content(question)
+    } else {
+        UiState.Error("This question could not be loaded. It may have been removed from the bank.")
     }
 }

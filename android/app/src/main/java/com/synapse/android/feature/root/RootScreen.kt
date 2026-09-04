@@ -372,7 +372,9 @@ private fun QuestionBankRoute(graph: AppGraph) {
         QbankStep.Loading -> RestoringScreen()
 
         QbankStep.Chooser -> {
-            val viewModel: QuestionBankViewModel = viewModel(factory = QuestionBankViewModel.factory(graph.store, graph.sync))
+            val viewModel: QuestionBankViewModel = viewModel(
+                factory = QuestionBankViewModel.factory(graph.store, graph.sync, graph.connectivity),
+            )
             TopicChooserScreen(
                 viewModel = viewModel,
                 onContinue = { step = QbankStep.Builder },
@@ -381,7 +383,9 @@ private fun QuestionBankRoute(graph: AppGraph) {
         }
 
         QbankStep.Builder -> {
-            val viewModel: QuestionBankViewModel = viewModel(factory = QuestionBankViewModel.factory(graph.store, graph.sync))
+            val viewModel: QuestionBankViewModel = viewModel(
+                factory = QuestionBankViewModel.factory(graph.store, graph.sync, graph.connectivity),
+            )
             SessionBuilderScreen(
                 viewModel = viewModel,
                 onBuilt = { session -> step = QbankStep.Running(session, viewModel.questionsFor(session.questionIds)) },
@@ -395,7 +399,6 @@ private fun QuestionBankRoute(graph: AppGraph) {
             )
             QuestionRunnerScreen(
                 viewModel = runnerViewModel,
-                questions = current.questions,
                 onFinished = { step = QbankStep.Results(runnerViewModel.session.value, current.questions) },
             )
         }

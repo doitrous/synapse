@@ -25,6 +25,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.synapse.android.core.qbank.ChooserTopic
 import com.synapse.android.core.qbank.QBankScope
+import com.synapse.android.core.ui.StateHost
 import com.synapse.android.design.LocalCortex
 import kotlin.math.roundToInt
 
@@ -118,6 +119,7 @@ private fun QBankStatsPanel(stats: QBankStats) {
  */
 @Composable
 fun TopicChooserScreen(viewModel: QuestionBankViewModel, onContinue: () -> Unit, onPreviousSittings: () -> Unit) {
+    val uiState by viewModel.uiState.collectAsState()
     val topics by viewModel.topics.collectAsState()
     val scope by viewModel.scope.collectAsState()
     val availableCount by viewModel.availableCount.collectAsState()
@@ -129,36 +131,44 @@ fun TopicChooserScreen(viewModel: QuestionBankViewModel, onContinue: () -> Unit,
             TextButton(onClick = onPreviousSittings) { Text("Previous sittings") }
         }
 
-        QBankStatsPanel(stats)
+        // The pool itself (still loading, sync failed, or nothing published)
+        // -- see QuestionBankViewModel.uiState's own doc. Everything below
+        // reads topics/scope/stats independently, already reactive; this
+        // only gates whether there is a pool to choose from at all.
+        StateHost(state = uiState, modifier = Modifier.weight(1f)) {
+            Column(modifier = Modifier.fillMaxSize()) {
+                QBankStatsPanel(stats)
 
-        Text(
-            if (scope.isEmpty()) "Every chapter · $availableCount questions" else "$availableCount questions selected",
-            style = MaterialTheme.typography.bodyMedium,
-            modifier = Modifier.padding(top = 12.dp),
-        )
+                Text(
+                    if (scope.isEmpty()) "Every chapter · $availableCount questions" else "$availableCount questions selected",
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.padding(top = 12.dp),
+                )
 
-        LazyColumn(
-            modifier = Modifier.weight(1f).padding(top = 12.dp),
-            verticalArrangement = Arrangement.spacedBy(4.dp),
-        ) {
-            items(topics, key = ChooserTopic::id) { topic ->
-                val key = QBankScope.topicKey(topic.id)
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    verticalAlignment = Alignment.CenterVertically,
+                LazyColumn(
+                    modifier = Modifier.weight(1f).padding(top = 12.dp),
+                    verticalArrangement = Arrangement.spacedBy(4.dp),
                 ) {
-                    Checkbox(checked = key in scope, onCheckedChange = { viewModel.toggle(key) })
-                    Text(topic.title)
+                    items(topics, key = ChooserTopic::id) { topic ->
+                        val key = QBankScope.topicKey(topic.id)
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Checkbox(checked = key in scope, onCheckedChange = { viewModel.toggle(key) })
+                            Text(topic.title)
+                        }
+                    }
+                }
+
+                Button(
+                    onClick = onContinue,
+                    enabled = availableCount > 0,
+                    modifier = Modifier.fillMaxWidth(),
+                ) {
+                    Text("Continue")
                 }
             }
-        }
-
-        Button(
-            onClick = onContinue,
-            enabled = availableCount > 0,
-            modifier = Modifier.fillMaxWidth(),
-        ) {
-            Text("Continue")
         }
     }
 }

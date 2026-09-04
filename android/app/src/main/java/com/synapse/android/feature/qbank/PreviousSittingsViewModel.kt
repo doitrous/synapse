@@ -9,12 +9,16 @@ import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.progress.AttemptLedger
 import com.synapse.android.core.progress.AttemptStats
 import com.synapse.android.core.qbank.LiveSession
+import com.synapse.android.core.ui.EmptyConfig
+import com.synapse.android.core.ui.UiState
 import java.time.Instant
 import java.time.ZoneId
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
@@ -43,8 +47,20 @@ data class PreviousSitting(
 class PreviousSittingsViewModel(store: LocalStore) : ViewModel() {
     private val backgroundScope = backgroundWorkScope("PreviousSittingsViewModel")
 
-    private val _sittings = MutableStateFlow<List<PreviousSitting>>(emptyList())
-    val sittings: StateFlow<List<PreviousSitting>> = _sittings.asStateFlow()
+    /** `null` until the init block's one-shot ledger read lands -- see [uiState]. */
+    private val _sittings = MutableStateFlow<List<PreviousSitting>?>(null)
+    val sittings: StateFlow<List<PreviousSitting>> =
+        _sittings.map { it.orEmpty() }.stateIn(backgroundScope, SharingStarted.Eagerly, emptyList())
+
+    /**
+     * [sittings] wrapped as a [UiState] for [PreviousSittingsScreen] to
+     * render through [com.synapse.android.core.ui.StateHost]. There is no
+     * [com.synapse.android.core.sync.SyncEngine] in this fold -- see
+     * [previousSittingsUiState]'s own doc for why `null` (not-yet-loaded) is
+     * the only thing that distinguishes Loading from Empty here.
+     */
+    val uiState: StateFlow<UiState<List<PreviousSitting>>> =
+        _sittings.map(::previousSittingsUiState).stateIn(backgroundScope, SharingStarted.Eagerly, UiState.Loading)
 
     init {
         backgroundScope.launch {
@@ -80,4 +96,24 @@ class PreviousSittingsViewModel(store: LocalStore) : ViewModel() {
             initializer { PreviousSittingsViewModel(store) }
         }
     }
+}
+
+/**
+ * The pure fold behind [PreviousSittingsViewModel.uiState].
+ *
+ * [sittings] is `null` only in the window between this ViewModel's
+ * construction and its init block's one-shot [AttemptLedger] read landing --
+ * the exact window [PreviousSittingsScreen] used to render "No sittings yet."
+ * for, indistinguishable from a student who genuinely has none. An empty,
+ * *non-null* list is what a completed read with nothing to show looks like.
+ */
+internal fun previousSittingsUiState(sittings: List<PreviousSitting>?): UiState<List<PreviousSitting>> = when {
+    sittings == null -> UiState.Loading
+    sittings.isNotEmpty() -> UiState.Content(sittings)
+    else -> UiState.Empty(
+        EmptyConfig(
+            title = "No sittings yet",
+            description = "Sittings appear here once you finish a question bank session.",
+        ),
+    )
 }

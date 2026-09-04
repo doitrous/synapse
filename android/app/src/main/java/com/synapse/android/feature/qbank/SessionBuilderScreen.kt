@@ -23,6 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.synapse.android.core.qbank.LiveSession
 import com.synapse.android.core.qbank.SittingMode
+import com.synapse.android.core.ui.StateHost
 import kotlinx.coroutines.launch
 
 /** `MAX_QUESTIONS` in `src/pages/student/QuestionBank.tsx` -- the longest sitting a student can build in one go. */
@@ -41,6 +42,7 @@ private const val DEFAULT_QUESTIONS = 10
  */
 @Composable
 fun SessionBuilderScreen(viewModel: QuestionBankViewModel, onBuilt: (LiveSession) -> Unit) {
+    val uiState by viewModel.uiState.collectAsState()
     val availableCount by viewModel.availableCount.collectAsState()
     var mode by remember { mutableStateOf(SittingMode.TUTOR) }
     // Seeded once, then clamped on read. `availableCount` arrives after the
@@ -54,35 +56,42 @@ fun SessionBuilderScreen(viewModel: QuestionBankViewModel, onBuilt: (LiveSession
     val count = chosenCount.coerceIn(1, maxCount)
     val coroutineScope = rememberCoroutineScope()
 
-    Column(
-        modifier = Modifier.fillMaxWidth().padding(24.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-    ) {
-        Text("Build your sitting", style = MaterialTheme.typography.headlineSmall)
-        Text("$availableCount questions available")
-
-        Text("Mode")
-        SittingMode.entries.forEach { candidate ->
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                RadioButton(selected = mode == candidate, onClick = { mode = candidate })
-                Text(if (candidate == SittingMode.TUTOR) "Tutor -- explained as you go" else "Timed -- explained at the end")
-            }
-        }
-
-        Text("$count questions")
-        Slider(
-            value = count.toFloat(),
-            onValueChange = { chosenCount = it.toInt() },
-            valueRange = 1f..maxCount.toFloat(),
-            steps = maxOf(0, maxCount - 2),
-        )
-
-        Button(
-            onClick = { coroutineScope.launch { onBuilt(viewModel.build(mode, count)) } },
-            enabled = availableCount > 0,
-            modifier = Modifier.fillMaxWidth(),
+    // Gated on the pool, not on availableCount: an empty pool (nothing
+    // published) is a genuine UiState.Empty, but a scope the student picked
+    // that happens to match nothing is a normal interactive state -- the
+    // Start button being disabled already says that, and a full-screen Empty
+    // surface here would trap them with no way back to widen the scope.
+    StateHost(state = uiState, modifier = Modifier.fillMaxWidth()) {
+        Column(
+            modifier = Modifier.fillMaxWidth().padding(24.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            Text("Start")
+            Text("Build your sitting", style = MaterialTheme.typography.headlineSmall)
+            Text("$availableCount questions available")
+
+            Text("Mode")
+            SittingMode.entries.forEach { candidate ->
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    RadioButton(selected = mode == candidate, onClick = { mode = candidate })
+                    Text(if (candidate == SittingMode.TUTOR) "Tutor -- explained as you go" else "Timed -- explained at the end")
+                }
+            }
+
+            Text("$count questions")
+            Slider(
+                value = count.toFloat(),
+                onValueChange = { chosenCount = it.toInt() },
+                valueRange = 1f..maxCount.toFloat(),
+                steps = maxOf(0, maxCount - 2),
+            )
+
+            Button(
+                onClick = { coroutineScope.launch { onBuilt(viewModel.build(mode, count)) } },
+                enabled = availableCount > 0,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text("Start")
+            }
         }
     }
 }
