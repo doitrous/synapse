@@ -182,6 +182,22 @@ class SynapseApi(
     /** Today's results for the caller's friends. */
     suspend fun qotdFriends(): QotdFriends = decodeQotdFriends(requestObject("GET", "/api/qotd/friends"))
 
+    /**
+     * `POST /api/maristanas/study-heartbeat` -- the one path that credits
+     * study minutes, shared by every study surface (web's `StudyActivityTracker`
+     * included). [bucket] must be computed fresh at send time: the server
+     * rejects a bucket more than 2 minutes off its own clock.
+     */
+    suspend fun studyHeartbeat(bucket: Long, sessionId: String, surface: String): Boolean {
+        val body = buildJsonObject {
+            put("bucket", bucket)
+            put("sessionId", sessionId)
+            put("surface", surface)
+        }.toString()
+        val root = requestObject("POST", "/api/maristanas/study-heartbeat", body)
+        return root["accepted"].booleanOrMalformed("maristanas.study-heartbeat.accepted")
+    }
+
     // --- Settings ---
 
     /** Whether [handle] is free to take, compared the same case-insensitive way the server stores it. Debounce on the caller's side — this hits the network on every call. */

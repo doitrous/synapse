@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.NavigationBarItemDefaults
@@ -49,6 +50,7 @@ import com.synapse.android.design.QuestionBankGlyph
 import com.synapse.android.feature.settings.SettingsScreen
 import com.synapse.android.feature.settings.SettingsViewModel
 import com.synapse.android.feature.auth.SignInScreen
+import com.synapse.android.feature.focus.FocusTimerRoute
 import com.synapse.android.feature.home.HomeRoute
 import com.synapse.android.feature.practical.PracticalListScreen
 import com.synapse.android.feature.qotd.QotdRoute
@@ -184,14 +186,28 @@ private fun RestoringScreen() {
     }
 }
 
-/** The signed-in shell. `qbank` and `practical` each hold their own local step inside one destination -- see [QuestionBankRoute] and [PracticalRoute]. */
+/**
+ * The signed-in shell. `qbank` and `practical` each hold their own local
+ * step inside one destination -- see [QuestionBankRoute] and
+ * [PracticalRoute]. The Focus Timer FAB and its full-screen overlay are
+ * hoisted here rather than into any one tab's route, for the same reason
+ * the web keeps its trigger in the shell (`TopbarTools.tsx`) rather than on
+ * a page: a running block has to survive switching tabs underneath it.
+ */
 @Composable
 private fun SignedInNavHost(graph: AppGraph) {
     val navController = rememberNavController()
 
     val cortex = LocalCortex.current
+    var focusTimerOpen by rememberSaveable { mutableStateOf(false) }
 
+    Box(modifier = Modifier.fillMaxSize()) {
     Scaffold(
+        floatingActionButton = {
+            FloatingActionButton(onClick = { focusTimerOpen = true }, containerColor = cortex.primary, contentColor = cortex.onPrimary) {
+                Text("⏱")
+            }
+        },
         bottomBar = {
             val backStackEntry by navController.currentBackStackEntryAsState()
             val currentRoute = backStackEntry?.destination?.route
@@ -270,6 +286,15 @@ private fun SignedInNavHost(graph: AppGraph) {
                 SettingsScreen(viewModel = viewModel, sync = graph.sync, store = graph.store)
             }
         }
+    }
+
+    // Drawn as a sibling of the Scaffold, not inside any one route, so it
+    // covers the bottom nav too -- the same full-bleed overlay the web's
+    // FocusTimerPanel is (`fixed inset-0 z-[90]`), regardless of which tab
+    // was open underneath it.
+    if (focusTimerOpen) {
+        FocusTimerRoute(graph = graph, onClose = { focusTimerOpen = false })
+    }
     }
 }
 
