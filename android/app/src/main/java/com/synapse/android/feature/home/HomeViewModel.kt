@@ -3,6 +3,7 @@ package com.synapse.android.feature.home
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.synapse.android.core.ConnectivityMonitor
 import com.synapse.android.core.CortexJson
 import com.synapse.android.core.auth.AuthModel
 import com.synapse.android.core.auth.AuthState
@@ -17,6 +18,10 @@ import com.synapse.android.core.progress.AttemptLedger
 import com.synapse.android.core.progress.AttemptRecord
 import com.synapse.android.core.progress.AttemptStats
 import com.synapse.android.core.qbank.LiveSession
+import com.synapse.android.core.sync.SyncEngine
+import com.synapse.android.core.sync.SyncStatus
+import com.synapse.android.core.ui.EmptyConfig
+import com.synapse.android.core.ui.UiState
 import java.time.LocalDate
 import java.time.LocalTime
 import kotlinx.coroutines.cancel
@@ -24,6 +29,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -82,6 +88,8 @@ data class HomeUi(
 class HomeViewModel(
     private val auth: AuthModel,
     private val store: LocalStore,
+    private val sync: SyncEngine,
+    connectivity: ConnectivityMonitor? = null,
 ) : ViewModel() {
     private val backgroundScope = backgroundWorkScope("HomeViewModel")
 
@@ -133,6 +141,33 @@ class HomeViewModel(
         )
     }.stateIn(backgroundScope, SharingStarted.Eagerly, HomeUi.EMPTY)
 
+    /**
+     * [ui] wrapped as a [UiState] for [HomeScreen] to render through
+     * [com.synapse.android.core.ui.StateHost] -- the M5.2 application of the
+     * fold [com.synapse.android.feature.practical.practicalUiState] pioneered.
+     *
+     * [hasContent] -- not [ui] itself -- decides Content vs. Loading/Empty:
+     * [ui] always has *a* value (seeded at [HomeUi.EMPTY], never null), so a
+     * fold keyed on it directly could never tell "the ledger has not warmed
+     * yet" from "it warmed and published nothing", both of which show as
+     * `questionCount = 0, practicalCount = 0`. [questionPool] and
+     * [practicalPool] are the two pools that actually decide whether there is
+     * anything for this dashboard to point a student at.
+     */
+    val uiState: StateFlow<UiState<HomeUi>> = combine(
+        ui,
+        combine(questionPool, practicalPool) { questions, practicals -> questions.isNotEmpty() || practicals.isNotEmpty() },
+        sync.status,
+        connectivity?.isOnline ?: flowOf(true),
+    ) { currentUi, hasContent, status, online ->
+        homeUiState(currentUi, hasContent, status, online, retry = ::retrySync)
+    }.stateIn(backgroundScope, SharingStarted.Eagerly, UiState.Loading)
+
+    /** What [uiState]'s Retry button runs -- see `PracticalViewModel.retrySync`. */
+    private fun retrySync() {
+        backgroundScope.launch { sync.refresh() }
+    }
+
     override fun onCleared() {
         backgroundScope.cancel()
     }
@@ -145,8 +180,39 @@ class HomeViewModel(
         /** `"running"` -- the other clients' spelling; see `LiveSession.phase`. */
         private const val PHASE_RUNNING = "running"
 
-        fun factory(auth: AuthModel, store: LocalStore) = viewModelFactory {
-            initializer { HomeViewModel(auth, store) }
+        fun factory(auth: AuthModel, store: LocalStore, sync: SyncEngine, connectivity: ConnectivityMonitor) = viewModelFactory {
+            initializer { HomeViewModel(auth, store, sync, connectivity) }
         }
     }
+}
+
+/**
+ * The pure fold behind [HomeViewModel.uiState]. Mirrors
+ * [com.synapse.android.feature.practical.practicalUiState]'s branch order and
+ * messaging, keyed on [hasContent] rather than a bare item list -- see
+ * [HomeViewModel.uiState]'s own doc for why.
+ */
+internal fun homeUiState(
+    ui: HomeUi,
+    hasContent: Boolean,
+    syncStatus: SyncStatus,
+    isOnline: Boolean,
+    retry: () -> Unit,
+): UiState<HomeUi> = when {
+    hasContent -> UiState.Content(ui)
+    syncStatus is SyncStatus.Failed -> UiState.Error(
+        message = if (isOnline) {
+            "Couldn't reach Nishany. Check your connection and try again."
+        } else {
+            "You're offline. Connect and try again."
+        },
+        retry = retry,
+    )
+    syncStatus is SyncStatus.Done -> UiState.Empty(
+        EmptyConfig(
+            title = "Nothing here yet",
+            description = "Your course hasn't published any content yet.",
+        ),
+    )
+    else -> UiState.Loading
 }

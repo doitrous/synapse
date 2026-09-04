@@ -25,6 +25,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.material3.minimumInteractiveComponentSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -54,6 +55,8 @@ import com.synapse.android.design.PracticalGlyph
 import com.synapse.android.design.QuestionBankGlyph
 import com.synapse.android.design.ResourcesGlyph
 import com.synapse.android.design.Wordmark
+import com.synapse.android.core.ui.StateHost
+import com.synapse.android.core.ui.UiState
 
 /**
  * The signed-in shell's landing tab -- built from [AppGraph] and wired to
@@ -70,10 +73,12 @@ fun HomeRoute(
     onOpenDaily: () -> Unit,
     onOpenAccount: () -> Unit,
 ) {
-    val viewModel: HomeViewModel = viewModel(factory = HomeViewModel.factory(graph.auth, graph.store))
-    val ui by viewModel.ui.collectAsState()
+    val viewModel: HomeViewModel = viewModel(
+        factory = HomeViewModel.factory(graph.auth, graph.store, graph.sync, graph.connectivity),
+    )
+    val uiState by viewModel.uiState.collectAsState()
     HomeScreen(
-        ui = ui,
+        uiState = uiState,
         onOpenQuestionBank = onOpenQuestionBank,
         onOpenPractical = onOpenPractical,
         onOpenDaily = onOpenDaily,
@@ -103,7 +108,7 @@ fun HomeRoute(
  */
 @Composable
 fun HomeScreen(
-    ui: HomeUi,
+    uiState: UiState<HomeUi>,
     onOpenQuestionBank: () -> Unit,
     onOpenPractical: () -> Unit,
     onOpenDaily: () -> Unit,
@@ -112,36 +117,40 @@ fun HomeScreen(
     val cortex = LocalCortex.current
     var comingSoon by remember { mutableStateOf<String?>(null) }
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(cortex.paper)
-            .verticalScroll(rememberScrollState())
-            .padding(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 28.dp),
-        verticalArrangement = Arrangement.spacedBy(18.dp),
-    ) {
-        HomeHeader(avatarInitial = ui.avatarInitial, onAvatarClick = onOpenAccount)
+    // Blank (a spinner) while the ledger is still warming, rather than a
+    // dashboard promising "0 questions" and "0 stations" for a beat before
+    // the real counts land -- see HomeViewModel.uiState's own doc.
+    StateHost(state = uiState, modifier = Modifier.fillMaxSize().background(cortex.paper)) { ui ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .verticalScroll(rememberScrollState())
+                .padding(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 28.dp),
+            verticalArrangement = Arrangement.spacedBy(18.dp),
+        ) {
+            HomeHeader(avatarInitial = ui.avatarInitial, onAvatarClick = onOpenAccount)
 
-        Text(ui.greeting, style = MaterialTheme.typography.headlineLarge, color = cortex.ink)
+            Text(ui.greeting, style = MaterialTheme.typography.headlineLarge, color = cortex.ink)
 
-        HeroTargetCard(ui = ui, onContinue = onOpenQuestionBank)
+            HeroTargetCard(ui = ui, onContinue = onOpenQuestionBank)
 
-        ui.resume?.let { resume ->
-            ResumeCard(resume = resume, onResume = onOpenQuestionBank)
+            ui.resume?.let { resume ->
+                ResumeCard(resume = resume, onResume = onOpenQuestionBank)
+            }
+
+            DashboardNavGrid(
+                ui = ui,
+                onOpenQuestionBank = onOpenQuestionBank,
+                onShowComingSoon = { comingSoon = it },
+            )
+
+            MoreGrid(
+                ui = ui,
+                onOpenPractical = onOpenPractical,
+                onOpenDaily = onOpenDaily,
+                onOpenPreviousSittings = onOpenQuestionBank,
+            )
         }
-
-        DashboardNavGrid(
-            ui = ui,
-            onOpenQuestionBank = onOpenQuestionBank,
-            onShowComingSoon = { comingSoon = it },
-        )
-
-        MoreGrid(
-            ui = ui,
-            onOpenPractical = onOpenPractical,
-            onOpenDaily = onOpenDaily,
-            onOpenPreviousSittings = onOpenQuestionBank,
-        )
     }
 
     comingSoon?.let { title ->
@@ -156,7 +165,13 @@ private fun HomeHeader(avatarInitial: String, onAvatarClick: () -> Unit) {
         Wordmark(height = 26.dp)
         Spacer(modifier = Modifier.weight(1f))
         Box(
+            // minimumInteractiveComponentSize(), before the visual .size(34.dp),
+            // is the same trick IconButton's own default relies on
+            // (FocusTimerScreen.kt's 44dp Reset button) -- it pads the
+            // clickable bounds out to the 48dp WCAG 2.5.5 floor without
+            // touching the 34dp circle actually drawn.
             modifier = Modifier
+                .minimumInteractiveComponentSize()
                 .size(34.dp)
                 .clip(CircleShape)
                 .background(cortex.accentTint)
