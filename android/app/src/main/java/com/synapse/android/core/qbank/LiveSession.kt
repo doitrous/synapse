@@ -52,7 +52,7 @@ data class LiveSession(
     val startedAt: String,
 ) {
     companion object {
-        const val KEY = "synapse.qbank.activeSession.v1"
+        const val KEY = "nishany.qbank.activeSession.v1"
 
         /**
          * `sessionId -> the name a student's sitting was given`, ported from
@@ -61,7 +61,7 @@ data class LiveSession(
          * past the sitting that earned it, long after [KEY] has moved on to
          * describe a different one.
          */
-        const val SESSION_NAMES_KEY = "synapse.qbank.sessionNames.v1"
+        const val SESSION_NAMES_KEY = "nishany.qbank.sessionNames.v1"
     }
 }
 

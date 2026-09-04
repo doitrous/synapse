@@ -5,7 +5,7 @@ package com.synapse.android.core.practical
  * checklist and the Oral question bank.
  *
  * Ported verbatim, ids included, from `src/data/practical.ts`'s `skills` and
- * `oralQuestions` arrays -- the ids are what `synapse.practical.progress.v1`
+ * `oralQuestions` arrays -- the ids are what `nishany.practical.progress.v1`
  * keys a student's skill status under (see [PracticalProgress]), so an id
  * invented here would record a status no other client will ever read back.
  *

@@ -191,7 +191,7 @@ class PracticalViewModelTest {
 
     @Test
     fun `a tick is stored under the practical progress key`() = runBlocking {
-        assertEquals("synapse.practical.progress.v1", PRACTICAL_PROGRESS_KEY)
+        assertEquals("nishany.practical.progress.v1", PRACTICAL_PROGRESS_KEY)
 
         seed(practicalJson("os-1", "OSCE station", markSections = """[{"id":"sec1","title":"Section","items":["m1"]}]"""))
         val viewModel = PracticalViewModel(store, sync)

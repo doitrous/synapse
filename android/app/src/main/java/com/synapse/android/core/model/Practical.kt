@@ -48,7 +48,7 @@ data class Practical(
      * One tickable point on the mark scheme.
      *
      * [id] is the *authored* id, and it has to be: the shared
-     * `synapse.practical.progress.v1` document stores a station's
+     * `nishany.practical.progress.v1` document stores a station's
      * `checkedItems` as authored item ids, and the web restores a run with
      * `checked.has(item.id)` (`PracticalRunner.tsx:227`, `:230`). A tick
      * written under a positional key restores nothing on the web, and the

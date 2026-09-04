@@ -6,7 +6,7 @@ import kotlinx.serialization.Serializable
  * What a student has done on the practical surfaces.
  *
  * A port of `src/data/practicalProgress.ts`, function for function. This is
- * the whole `synapse.practical.progress.v1` document -- web, iOS and Android
+ * the whole `nishany.practical.progress.v1` document -- web, iOS and Android
  * all read and write it, so a field spelled differently here does not throw,
  * it silently stops counting on the other clients.
  *
@@ -16,7 +16,7 @@ import kotlinx.serialization.Serializable
  * in this product yet -- so nothing here has a `signedOffBy` field, and no
  * screen may imply one exists.
  */
-const val PRACTICAL_PROGRESS_KEY = "synapse.practical.progress.v1"
+const val PRACTICAL_PROGRESS_KEY = "nishany.practical.progress.v1"
 
 @Serializable
 data class StationProgress(

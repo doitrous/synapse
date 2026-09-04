@@ -7,7 +7,9 @@ import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.cache.PendingDocument
 import com.synapse.android.core.model.LedgerDecoder
+import com.synapse.android.core.practical.PRACTICAL_PROGRESS_KEY
 import com.synapse.android.core.progress.AttemptStore
+import com.synapse.android.core.qbank.LiveSession
 import java.time.Duration
 import java.time.Instant
 import java.time.YearMonth
@@ -309,16 +311,18 @@ class SyncEngine(
          * deliberately out of scope for this milestone.
          *
          * All entries are spelled `nishany…`, matching the web app post-rebrand.
-         * Installs from before the rename still hold these documents under their
-         * old `synapse…` keys in [LocalStore]; [LEGACY_KEY_RENAMES] carries that
-         * cached work forward on upgrade.
+         * The three that have a named constant (the write path uses it) are
+         * referenced rather than re-spelled, so the pull list cannot drift from
+         * what the feature code writes. Installs from before the rename still
+         * hold these documents under their old `synapse…` keys in [LocalStore];
+         * [LEGACY_KEY_RENAMES] carries that cached work forward on upgrade.
          */
         private val USER_STATE_KEYS: List<String> = listOf(
-            "nishany.qbank.activeSession.v1", // src/pages/student/QuestionBank.tsx:232
+            LiveSession.KEY, // nishany.qbank.activeSession.v1 — src/pages/student/QuestionBank.tsx:232
             "nishany.qbank.marked.v1", // src/pages/student/QuestionBank.tsx:100
             "nishany.qbank.questionNotes.v1", // src/components/qbank/StudyRail.tsx:19
-            "nishany.qbank.sessionNames.v1", // src/pages/student/QuestionBank.tsx:233
-            "nishany.practical.progress.v1", // src/data/practicalProgress.ts:17
+            LiveSession.SESSION_NAMES_KEY, // nishany.qbank.sessionNames.v1 — src/pages/student/QuestionBank.tsx:233
+            PRACTICAL_PROGRESS_KEY, // nishany.practical.progress.v1 — src/data/practicalProgress.ts:17
             "nishany.notebook.notes", // src/pages/student/Notebook.tsx:62
             "nishany.calendar.tasks.v1", // src/data/tasks.ts:13
         )
