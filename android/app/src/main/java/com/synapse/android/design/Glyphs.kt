@@ -320,3 +320,30 @@ fun TerminologyGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Col
         drawLine(color, Offset(w * 0.84f, h * 0.72f), Offset(spineX, bottomY), stroke, StrokeCap.Round)
     }
 }
+
+/** A speech bubble with a small tail, and three dots inside it -- the Study assistant: a conversation, mid-reply. */
+@Composable
+fun AssistantGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color = LocalContentColor.current) {
+    Canvas(modifier = modifier.size(size)) {
+        val stroke = strokeWidthFor(this.size.minDimension)
+        val w = this.size.width
+        val h = this.size.height
+        val corner = androidx.compose.ui.geometry.CornerRadius(stroke * 1.4f, stroke * 1.4f)
+        drawRoundRect(
+            color = color,
+            topLeft = Offset(w * 0.12f, h * 0.14f),
+            size = Size(w * 0.76f, h * 0.58f),
+            cornerRadius = corner,
+            style = Stroke(width = stroke),
+        )
+        // The tail, pointing down-left from the bubble's bottom edge.
+        drawLine(color, Offset(w * 0.28f, h * 0.72f), Offset(w * 0.22f, h * 0.86f), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.22f, h * 0.86f), Offset(w * 0.40f, h * 0.72f), stroke, StrokeCap.Round)
+        // Three dots, mid-reply.
+        val dotY = h * 0.43f
+        val dotXs = floatArrayOf(w * 0.36f, w * 0.5f, w * 0.64f)
+        for (x in dotXs) {
+            drawCircle(color = color, radius = stroke * 0.75f, center = Offset(x, dotY))
+        }
+    }
+}

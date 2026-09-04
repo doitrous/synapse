@@ -81,6 +81,29 @@ data class MeResponse(
 /** The envelope both document routes share: the stored value, and when it was last written. Both null when the key has never been written. */
 data class RemoteState(val value: JsonElement?, val updatedAt: Instant?)
 
+/** `GET /api/assistant/status`'s answer -- enough for a client to decide whether to draw a launcher at all, never more (see `assistant.js:statusFor`'s own doc). */
+data class AssistantStatus(
+    val available: Boolean,
+    /** Why not, when [available] is false: `"disabled"`, `"unconfigured"`, or `"not_on_plan"`. Null when it is. */
+    val reason: String?,
+    val plan: String,
+    val dailyMessages: Int,
+    val used: Int,
+    val remaining: Int,
+)
+
+/** One turn of `POST /api/assistant/chat`'s `messages` array. [role] is `"user"` or `"assistant"`, the server's own wire values. */
+data class AssistantMessage(val role: String, val content: String)
+
+/** `POST /api/assistant/chat`'s success shape. [reply] is null when the model returned nothing -- see `assistant.js:616`; the caller treats that as a failed turn, not an empty one. */
+data class AssistantChatResult(
+    val reply: String?,
+    val plan: String,
+    val dailyMessages: Int,
+    val used: Int,
+    val remaining: Int,
+)
+
 /**
  * The only thing in this app that speaks HTTP.
  *
@@ -291,6 +314,49 @@ class SynapseApi(
     suspend fun deleteAccount() {
         request("DELETE", "/api/account")
     }
+
+    // --- Study assistant ---
+
+    /** `GET /api/assistant/status`. Always 200 for a signed-in caller (`assistant.js:354`) — a launcher checks [AssistantStatus.available] before drawing itself, rather than treating a load failure and "switched off" as different things. */
+    suspend fun assistantStatus(): AssistantStatus = decodeAssistantStatus(requestObject("GET", "/api/assistant/status"))
+
+    /**
+     * `POST /api/assistant/chat`. [messages] is the whole turn history the
+     * caller wants answered, oldest first — the server trims to its own
+     * window (`assistant.js`'s `MAX_TURNS`), so nothing here has to.
+     *
+     * A refusal (quota exhausted, not on plan, assistant disabled, upstream
+     * failure) comes back as a non-2xx status with no typed body on this
+     * path — [request] turns it into the matching [ApiError] (403 =
+     * [ApiError.Forbidden] for "not on plan", 429/503/502 =
+     * [ApiError.Transient]) the same way every other write in this class
+     * does. Only the 2xx body is decoded here.
+     */
+    suspend fun assistantChat(messages: List<AssistantMessage>, lang: String, context: JsonElement? = null): AssistantChatResult {
+        val body = buildJsonObject {
+            put("messages", JsonArray(messages.map { buildJsonObject { put("role", it.role); put("content", it.content) } }))
+            put("lang", lang)
+            context?.let { put("context", it) }
+        }.toString()
+        return decodeAssistantChatResult(requestObject("POST", "/api/assistant/chat", body))
+    }
+
+    private fun decodeAssistantStatus(obj: JsonObject): AssistantStatus = AssistantStatus(
+        available = obj["available"].booleanOrMalformed("assistant.status.available"),
+        reason = obj["reason"].stringOrNull(),
+        plan = obj["plan"].stringOrMalformed("assistant.status.plan"),
+        dailyMessages = obj["dailyMessages"].intOrMalformed("assistant.status.dailyMessages"),
+        used = obj["used"].intOrMalformed("assistant.status.used"),
+        remaining = obj["remaining"].intOrMalformed("assistant.status.remaining"),
+    )
+
+    private fun decodeAssistantChatResult(obj: JsonObject): AssistantChatResult = AssistantChatResult(
+        reply = obj["reply"].stringOrNull(),
+        plan = obj["plan"].stringOrMalformed("assistant.chat.plan"),
+        dailyMessages = obj["dailyMessages"].intOrMalformed("assistant.chat.dailyMessages"),
+        used = obj["used"].intOrMalformed("assistant.chat.used"),
+        remaining = obj["remaining"].intOrMalformed("assistant.chat.remaining"),
+    )
 
     private fun decodeRemoteState(root: JsonObject): RemoteState {
         val value = root["value"]?.takeUnless { it is JsonNull }

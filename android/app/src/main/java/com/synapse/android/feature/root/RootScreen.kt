@@ -49,6 +49,8 @@ import com.synapse.android.design.PracticalGlyph
 import com.synapse.android.design.QuestionBankGlyph
 import com.synapse.android.feature.settings.SettingsScreen
 import com.synapse.android.feature.settings.SettingsViewModel
+import com.synapse.android.feature.assistant.AssistantScreen
+import com.synapse.android.feature.assistant.AssistantViewModel
 import com.synapse.android.feature.auth.SignInScreen
 import com.synapse.android.feature.calendar.CalendarScreen
 import com.synapse.android.feature.calendar.CalendarViewModel
@@ -85,6 +87,7 @@ private const val ROUTE_PERFORMANCE = "performance"
 private const val ROUTE_NOTEBOOK = "notebook"
 private const val ROUTE_CALENDAR = "calendar"
 private const val ROUTE_TERMINOLOGY = "terminology"
+private const val ROUTE_ASSISTANT = "assistant"
 
 /**
  * Collects [AppGraph.auth]'s state and shows exactly one thing per
@@ -309,6 +312,7 @@ private fun SignedInNavHost(
                     onOpenNotebook = { navController.navigate(ROUTE_NOTEBOOK) },
                     onOpenCalendar = { navController.navigate(ROUTE_CALENDAR) },
                     onOpenTerminology = { navController.navigate(ROUTE_TERMINOLOGY) },
+                    onOpenAssistant = { navController.navigate(ROUTE_ASSISTANT) },
                 )
             }
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
@@ -335,6 +339,17 @@ private fun SignedInNavHost(
             composable(ROUTE_TERMINOLOGY) {
                 val viewModel: TerminologyViewModel = viewModel(factory = TerminologyViewModel.factory(graph.store))
                 TerminologyScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
+            }
+            // Same shape as ROUTE_PERFORMANCE above -- pushed from Home's
+            // "MORE" grid, never a bottom-nav tab. The transcript is held by
+            // this route's own ViewModel, not [graph], so leaving the screen
+            // (a plain nav-graph destination, freshly created on each visit)
+            // drops it -- see AssistantViewModel's class doc for why that
+            // matches every other client.
+            composable(ROUTE_ASSISTANT) {
+                val viewModel: AssistantViewModel = viewModel(factory = AssistantViewModel.factory(graph.api, graph.connectivity))
+                val language by graph.languagePreference.language.collectAsState()
+                AssistantScreen(viewModel = viewModel, lang = language.wire, onBack = { navController.popBackStack() })
             }
             composable(ROUTE_ACCOUNT) {
                 val viewModel: SettingsViewModel = viewModel(

@@ -44,6 +44,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.synapse.android.AppGraph
+import com.synapse.android.design.AssistantGlyph
 import com.synapse.android.design.CalendarGlyph
 import com.synapse.android.design.CortexColors
 import com.synapse.android.design.CortexRadius
@@ -80,6 +81,7 @@ fun HomeRoute(
     onOpenNotebook: () -> Unit,
     onOpenCalendar: () -> Unit,
     onOpenTerminology: () -> Unit,
+    onOpenAssistant: () -> Unit,
 ) {
     val viewModel: HomeViewModel = viewModel(
         factory = HomeViewModel.factory(graph.auth, graph.store, graph.sync, graph.connectivity),
@@ -95,6 +97,7 @@ fun HomeRoute(
         onOpenNotebook = onOpenNotebook,
         onOpenCalendar = onOpenCalendar,
         onOpenTerminology = onOpenTerminology,
+        onOpenAssistant = onOpenAssistant,
     )
 }
 
@@ -129,6 +132,7 @@ fun HomeScreen(
     onOpenNotebook: () -> Unit,
     onOpenCalendar: () -> Unit,
     onOpenTerminology: () -> Unit,
+    onOpenAssistant: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     var comingSoon by remember { mutableStateOf<String?>(null) }
@@ -169,6 +173,7 @@ fun HomeScreen(
                 onOpenNotebook = onOpenNotebook,
                 onOpenCalendar = onOpenCalendar,
                 onOpenTerminology = onOpenTerminology,
+                onOpenAssistant = onOpenAssistant,
             )
         }
     }
@@ -369,6 +374,7 @@ private fun MoreGrid(
     onOpenNotebook: () -> Unit,
     onOpenCalendar: () -> Unit,
     onOpenTerminology: () -> Unit,
+    onOpenAssistant: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -433,7 +439,13 @@ private fun MoreGrid(
                 onClick = onOpenTerminology,
                 modifier = Modifier.weight(1f),
             )
-            Box(modifier = Modifier.weight(1f))
+            GridCard(
+                icon = { AssistantGlyph(color = cortex.accentStrong) },
+                label = "Study assistant",
+                sublabel = "Ask a question",
+                onClick = onOpenAssistant,
+                modifier = Modifier.weight(1f),
+            )
         }
     }
 }
