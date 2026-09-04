@@ -52,6 +52,8 @@ import com.synapse.android.feature.settings.SettingsViewModel
 import com.synapse.android.feature.auth.SignInScreen
 import com.synapse.android.feature.focus.FocusTimerRoute
 import com.synapse.android.feature.home.HomeRoute
+import com.synapse.android.feature.notebook.NotebookScreen
+import com.synapse.android.feature.notebook.NotebookViewModel
 import com.synapse.android.feature.performance.PerformanceScreen
 import com.synapse.android.feature.performance.PerformanceViewModel
 import com.synapse.android.feature.practical.PracticalListScreen
@@ -76,6 +78,7 @@ private const val ROUTE_PRACTICAL = "practical"
 private const val ROUTE_QOTD = "qotd"
 private const val ROUTE_ACCOUNT = "account"
 private const val ROUTE_PERFORMANCE = "performance"
+private const val ROUTE_NOTEBOOK = "notebook"
 
 /**
  * Collects [AppGraph.auth]'s state and shows exactly one thing per
@@ -297,6 +300,7 @@ private fun SignedInNavHost(
                     onOpenDaily = { navController.navigateToTab(ROUTE_QOTD) },
                     onOpenAccount = { navController.navigateToTab(ROUTE_ACCOUNT) },
                     onOpenPerformance = { navController.navigate(ROUTE_PERFORMANCE) },
+                    onOpenNotebook = { navController.navigate(ROUTE_NOTEBOOK) },
                 )
             }
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
@@ -309,6 +313,12 @@ private fun SignedInNavHost(
             composable(ROUTE_PERFORMANCE) {
                 val viewModel: PerformanceViewModel = viewModel(factory = PerformanceViewModel.factory(graph.store))
                 PerformanceScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
+            }
+            // Same shape as ROUTE_PERFORMANCE above -- pushed from Home's
+            // "MORE" grid, never a bottom-nav tab.
+            composable(ROUTE_NOTEBOOK) {
+                val viewModel: NotebookViewModel = viewModel(factory = NotebookViewModel.factory(graph.store, graph.sync, graph.connectivity))
+                NotebookScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
             }
             composable(ROUTE_ACCOUNT) {
                 val viewModel: SettingsViewModel = viewModel(

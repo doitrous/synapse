@@ -51,6 +51,7 @@ import com.synapse.android.design.FlashcardsGlyph
 import com.synapse.android.design.HistoryGlyph
 import com.synapse.android.design.LibraryGlyph
 import com.synapse.android.design.LocalCortex
+import com.synapse.android.design.NotebookGlyph
 import com.synapse.android.design.PerformanceGlyph
 import com.synapse.android.design.PracticalGlyph
 import com.synapse.android.design.QuestionBankGlyph
@@ -74,6 +75,7 @@ fun HomeRoute(
     onOpenDaily: () -> Unit,
     onOpenAccount: () -> Unit,
     onOpenPerformance: () -> Unit,
+    onOpenNotebook: () -> Unit,
 ) {
     val viewModel: HomeViewModel = viewModel(
         factory = HomeViewModel.factory(graph.auth, graph.store, graph.sync, graph.connectivity),
@@ -86,6 +88,7 @@ fun HomeRoute(
         onOpenDaily = onOpenDaily,
         onOpenAccount = onOpenAccount,
         onOpenPerformance = onOpenPerformance,
+        onOpenNotebook = onOpenNotebook,
     )
 }
 
@@ -117,6 +120,7 @@ fun HomeScreen(
     onOpenDaily: () -> Unit,
     onOpenAccount: () -> Unit,
     onOpenPerformance: () -> Unit,
+    onOpenNotebook: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     var comingSoon by remember { mutableStateOf<String?>(null) }
@@ -154,6 +158,7 @@ fun HomeScreen(
                 onOpenDaily = onOpenDaily,
                 onOpenPreviousSittings = onOpenQuestionBank,
                 onOpenPerformance = onOpenPerformance,
+                onOpenNotebook = onOpenNotebook,
             )
         }
     }
@@ -351,6 +356,7 @@ private fun MoreGrid(
     onOpenDaily: () -> Unit,
     onOpenPreviousSittings: () -> Unit,
     onOpenPerformance: () -> Unit,
+    onOpenNotebook: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -390,6 +396,16 @@ private fun MoreGrid(
                 onClick = onOpenPerformance,
                 modifier = Modifier.weight(1f),
             )
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            GridCard(
+                icon = { NotebookGlyph(color = cortex.accentStrong) },
+                label = "Notebook",
+                sublabel = "Your notes",
+                onClick = onOpenNotebook,
+                modifier = Modifier.weight(1f),
+            )
+            Box(modifier = Modifier.weight(1f))
         }
     }
 }

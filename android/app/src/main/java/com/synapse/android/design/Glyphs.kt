@@ -248,3 +248,29 @@ fun PerformanceGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Col
         drawLine(color, Offset(w * 0.72f, h * 0.18f), Offset(w * 0.72f, baseline), stroke, StrokeCap.Round)
     }
 }
+
+/** A bound notebook: a spine of short rungs beside a page of ruled lines -- the Notebook. */
+@Composable
+fun NotebookGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color = LocalContentColor.current) {
+    Canvas(modifier = modifier.size(size)) {
+        val stroke = strokeWidthFor(this.size.minDimension)
+        val w = this.size.width
+        val h = this.size.height
+        val corner = androidx.compose.ui.geometry.CornerRadius(stroke, stroke)
+        drawRoundRect(
+            color = color,
+            topLeft = Offset(w * 0.22f, h * 0.14f),
+            size = Size(w * 0.64f, h * 0.72f),
+            cornerRadius = corner,
+            style = Stroke(width = stroke),
+        )
+        // The spine's rungs, down the left edge of the cover.
+        val rungYs = floatArrayOf(h * 0.28f, h * 0.46f, h * 0.64f, h * 0.82f)
+        for (y in rungYs) {
+            drawLine(color, Offset(w * 0.10f, y), Offset(w * 0.22f, y), stroke, StrokeCap.Round)
+        }
+        // Two ruled lines on the page itself.
+        drawLine(color, Offset(w * 0.34f, h * 0.42f), Offset(w * 0.74f, h * 0.42f), stroke * 0.8f, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.34f, h * 0.58f), Offset(w * 0.62f, h * 0.58f), stroke * 0.8f, StrokeCap.Round)
+    }
+}
