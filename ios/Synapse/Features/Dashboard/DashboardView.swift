@@ -10,6 +10,8 @@ struct DashboardView: View {
     @Environment(\.strings) private var strings
     @State private var model: PerformanceModel
     @State private var mastery: MasteryModel
+    @State private var focusStore: FocusSessionStore
+    @State private var focusTasks = FocusTasksStore()
     let sync: SyncEngine
     let library: LocalStore
     let user: SessionUser
@@ -25,6 +27,7 @@ struct DashboardView: View {
     @State private var showingAccount = false
     @State private var showingQotd = false
     @State private var showingFlashcardsComingSoon = false
+    @State private var showingFocusTimer = false
     /// The sitting still in progress, if there is one — read straight from
     /// `LiveSession.key` rather than through `QBankStore`, so the resume card
     /// does not have to stand up the whole question-bank stack just to ask
@@ -54,6 +57,7 @@ struct DashboardView: View {
     ) {
         _model = State(wrappedValue: PerformanceModel(store: store))
         _mastery = State(wrappedValue: MasteryModel(api: auth.api, sync: sync))
+        _focusStore = State(wrappedValue: FocusSessionStore(api: auth.api))
         self.sync = sync
         self.library = store
         self.user = user
@@ -181,6 +185,11 @@ struct DashboardView: View {
                 )
                 .presentationDetents([.medium])
             }
+            .sheet(isPresented: $showingFocusTimer) {
+                FocusTimerView(store: focusStore, tasks: focusTasks)
+                    .presentationDetents([.large])
+                    .localisedSheet()
+            }
         }
         .task {
             await mastery.load()
@@ -206,6 +215,16 @@ struct DashboardView: View {
         HStack(spacing: 10) {
             Wordmark(height: 30)
             Spacer(minLength: 8)
+            Button { showingFocusTimer = true } label: {
+                Image(systemName: "timer")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundStyle(Theme.ink2)
+                    .frame(width: 34, height: 34)
+                    .background(Theme.surface2)
+                    .clipShape(Circle())
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(strings("Focus timer"))
             AssistantButton(surface: "Dashboard")
             Button { showingAccount = true } label: {
                 Text(avatarInitial)

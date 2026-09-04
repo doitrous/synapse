@@ -573,6 +573,24 @@ struct SynapseAPI {
         try await get(QotdFriends.self, ["qotd", "friends"])
     }
 
+    // MARK: - Focus Timer
+
+    struct StudyHeartbeatResult: Decodable, Sendable { let accepted: Bool }
+
+    /// Credit a minute of focused study. The same endpoint every other study
+    /// surface already posts to (`StudyActivityTracker` on the web) — one
+    /// currency, not two. The server rejects a bucket more than two minutes
+    /// off its own clock, so `bucket` must be computed fresh at send time,
+    /// never cached or reused across calls.
+    func studyHeartbeat(bucket: Int, sessionId: String, surface: String) async throws -> StudyHeartbeatResult {
+        struct Body: Encodable { let bucket: Int; let sessionId: String; let surface: String }
+        let data = try await send(
+            ["maristanas", "study-heartbeat"], method: "POST",
+            body: Body(bucket: bucket, sessionId: sessionId, surface: surface)
+        )
+        return try Self.decoder.decode(StudyHeartbeatResult.self, from: data)
+    }
+
     // MARK: - Transport
 
     private func get<T: Decodable>(_ type: T.Type, _ components: [String], query: [URLQueryItem] = []) async throws -> T {
