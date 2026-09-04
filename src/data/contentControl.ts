@@ -1,4 +1,5 @@
 import type { Status } from './admin.ts'
+import { yearScopeMatches } from './universities.ts'
 import type { ConceptAnnotation } from './conceptGraph.ts'
 import type { Difficulty } from './qbank.ts'
 import type { QuestionSource } from './questionSource.ts'
@@ -811,7 +812,7 @@ export function itemScope(item: ManagedContentItem): { universityIds: string[]; 
 export function itemInScope(item: ManagedContentItem, universityId?: string, yearId?: string): boolean {
   const scope = itemScope(item)
   if (universityId && scope.universityIds.length > 0 && !scope.universityIds.includes(universityId)) return false
-  if (yearId && scope.yearIds.length > 0 && !scope.yearIds.includes(yearId)) return false
+  if (!yearScopeMatches(scope.yearIds, yearId)) return false
   return true
 }
 
