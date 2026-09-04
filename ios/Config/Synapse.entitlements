@@ -19,5 +19,15 @@
 	-->
 	<key>aps-environment</key>
 	<string>development</string>
+
+	<!--
+	  Shared container the Focus Timer writes its task list and session into so
+	  the SynapseWidgets extension (home-screen widgets + Live Activity) can
+	  read them. The extension's own entitlements declare the same group.
+	-->
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.nishany.app</string>
+	</array>
 </dict>
 </plist>

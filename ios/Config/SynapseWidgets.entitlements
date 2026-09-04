@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  The one channel the widgets and Live Activity share with the app: a
+	  common App Group container. The extension runs in its own sandbox, so it
+	  cannot read the app's standard UserDefaults — the Focus Timer's task list
+	  and session are written to `group.com.nishany.app` so the widget can read
+	  them. The app's own entitlements declare the same group.
+
+	  On the simulator this needs no provisioning profile; a real device needs
+	  the App Group capability registered on the App ID, like Push already is.
+	-->
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.nishany.app</string>
+	</array>
+</dict>
+</plist>
