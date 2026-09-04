@@ -82,6 +82,7 @@ fun HomeRoute(
     onOpenCalendar: () -> Unit,
     onOpenTerminology: () -> Unit,
     onOpenAssistant: () -> Unit,
+    onOpenLibrary: () -> Unit,
 ) {
     val viewModel: HomeViewModel = viewModel(
         factory = HomeViewModel.factory(graph.auth, graph.store, graph.sync, graph.connectivity),
@@ -98,6 +99,7 @@ fun HomeRoute(
         onOpenCalendar = onOpenCalendar,
         onOpenTerminology = onOpenTerminology,
         onOpenAssistant = onOpenAssistant,
+        onOpenLibrary = onOpenLibrary,
     )
 }
 
@@ -133,6 +135,7 @@ fun HomeScreen(
     onOpenCalendar: () -> Unit,
     onOpenTerminology: () -> Unit,
     onOpenAssistant: () -> Unit,
+    onOpenLibrary: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     var comingSoon by remember { mutableStateOf<String?>(null) }
@@ -161,6 +164,7 @@ fun HomeScreen(
             DashboardNavGrid(
                 ui = ui,
                 onOpenQuestionBank = onOpenQuestionBank,
+                onOpenLibrary = onOpenLibrary,
                 onShowComingSoon = { comingSoon = it },
             )
 
@@ -307,16 +311,17 @@ private fun ResumeCard(resume: ResumeInfo, onResume: () -> Unit) {
 
 /**
  * Practice, Flashcards, Library, Resources -- the four doors the redesigned
- * web dashboard leads with (`DashboardNavGrid.tsx`). Practice is the one tile
- * with a real Android screen behind it today ([HomeUi.questionCount], the
- * same pool the Question Bank tab itself reads); the other three route to
- * [onShowComingSoon] instead of a screen this milestone was told not to
- * fabricate.
+ * web dashboard leads with (`DashboardNavGrid.tsx`). Practice opens the
+ * Question Bank ([HomeUi.questionCount], the same pool that tab reads); Library
+ * and Resources both open the M6 Library screen (its two halves) via
+ * [onOpenLibrary]. Flashcards is the one tile with no Android screen yet, so it
+ * routes to [onShowComingSoon] rather than a fabricated one.
  */
 @Composable
 private fun DashboardNavGrid(
     ui: HomeUi,
     onOpenQuestionBank: () -> Unit,
+    onOpenLibrary: () -> Unit,
     onShowComingSoon: (String) -> Unit,
 ) {
     val cortex = LocalCortex.current
@@ -341,15 +346,15 @@ private fun DashboardNavGrid(
             GridCard(
                 icon = { LibraryGlyph(color = cortex.accentStrong) },
                 label = "Library",
-                sublabel = "Coming soon",
-                onClick = { onShowComingSoon("Library") },
+                sublabel = "Articles & atlas",
+                onClick = onOpenLibrary,
                 modifier = Modifier.weight(1f),
             )
             GridCard(
                 icon = { ResourcesGlyph(color = cortex.accentStrong) },
                 label = "Resources",
-                sublabel = "Coming soon",
-                onClick = { onShowComingSoon("Resources") },
+                sublabel = "Evidence & files",
+                onClick = onOpenLibrary,
                 modifier = Modifier.weight(1f),
             )
         }

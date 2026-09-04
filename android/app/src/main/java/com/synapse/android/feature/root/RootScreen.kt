@@ -58,6 +58,7 @@ import com.synapse.android.feature.calendar.CalendarScreen
 import com.synapse.android.feature.calendar.CalendarViewModel
 import com.synapse.android.feature.focus.FocusTimerRoute
 import com.synapse.android.feature.home.HomeRoute
+import com.synapse.android.feature.library.LibraryRoute
 import com.synapse.android.feature.notebook.NotebookScreen
 import com.synapse.android.feature.notebook.NotebookViewModel
 import com.synapse.android.feature.performance.PerformanceScreen
@@ -91,6 +92,9 @@ private const val ROUTE_CALENDAR = "calendar"
 private const val ROUTE_TERMINOLOGY = "terminology"
 private const val ROUTE_ASSISTANT = "assistant"
 private const val ROUTE_BILLING = "billing"
+// A pushed detail destination, not a bottom-bar tab -- reached from Home,
+// the same shape as ROUTE_PERFORMANCE and friends below.
+private const val ROUTE_LIBRARY = "library"
 
 /**
  * Collects [AppGraph.auth]'s state and shows exactly one thing per
@@ -316,6 +320,7 @@ private fun SignedInNavHost(
                     onOpenCalendar = { navController.navigate(ROUTE_CALENDAR) },
                     onOpenTerminology = { navController.navigate(ROUTE_TERMINOLOGY) },
                     onOpenAssistant = { navController.navigate(ROUTE_ASSISTANT) },
+                    onOpenLibrary = { navController.navigate(ROUTE_LIBRARY) },
                 )
             }
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
@@ -353,6 +358,11 @@ private fun SignedInNavHost(
                 val viewModel: AssistantViewModel = viewModel(factory = AssistantViewModel.factory(graph.api, graph.connectivity))
                 val language by graph.languagePreference.language.collectAsState()
                 AssistantScreen(viewModel = viewModel, lang = language.wire, onBack = { navController.popBackStack() })
+            }
+            // Same shape as ROUTE_PERFORMANCE above -- pushed from Home's grid,
+            // never a bottom-nav tab. LibraryRoute holds its own ViewModel.
+            composable(ROUTE_LIBRARY) {
+                LibraryRoute(graph = graph, onBack = { navController.popBackStack() })
             }
             // Reached from Settings' Billing row, not the "MORE" grid --
             // matching iOS and the web, which both put Billing under Account.
