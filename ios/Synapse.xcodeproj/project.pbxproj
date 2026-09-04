@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A0000000000000000000012 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1A0000000000000000000011 /* Supabase */; };
 		1A0000000000000000000022 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 1A0000000000000000000021 /* GRDB */; };
+		1A0000000000000000000052 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 1A0000000000000000000051 /* WebRTC */; };
 		1A000000000000000000004A /* SynapseWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000040 /* SynapseWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 			files = (
 				1A0000000000000000000012 /* Supabase in Frameworks */,
 				1A0000000000000000000022 /* GRDB in Frameworks */,
+				1A0000000000000000000052 /* WebRTC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +107,7 @@
 			packageProductDependencies = (
 				1A0000000000000000000011 /* Supabase */,
 				1A0000000000000000000021 /* GRDB */,
+				1A0000000000000000000051 /* WebRTC */,
 			);
 			productName = Synapse;
 			productReference = 1A0000000000000000000006 /* Synapse.app */;
@@ -183,6 +186,7 @@
 			packageReferences = (
 				1A0000000000000000000010 /* XCRemoteSwiftPackageReference "supabase-swift" */,
 				1A0000000000000000000020 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+				1A0000000000000000000050 /* XCRemoteSwiftPackageReference "WebRTC" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1A0000000000000000000003 /* Products */;
@@ -519,6 +523,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		1A0000000000000000000050 /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stasel/WebRTC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 152.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -531,6 +543,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1A0000000000000000000020 /* XCRemoteSwiftPackageReference "GRDB.swift" */;
 			productName = GRDB;
+		};
+		1A0000000000000000000051 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A0000000000000000000050 /* XCRemoteSwiftPackageReference "WebRTC" */;
+			productName = WebRTC;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -51,10 +51,23 @@
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
+		<!--
+		  So a study-room voice call keeps running when the phone locks or the
+		  student switches away mid-conversation, rather than being cut the moment
+		  the app leaves the foreground.
+		-->
+		<string>audio</string>
 	</array>
 
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
+
+	<!--
+	  Study-room voice. The microphone is opened only when a student taps
+	  "Join voice"; this string is what iOS shows in that one system prompt.
+	-->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Nishany uses your microphone so you can talk to the others in a study room. It is only on while you are in a room's voice.</string>
 
 	<!--
 	  Lets the app start a Focus Timer Live Activity (lock screen + Dynamic
