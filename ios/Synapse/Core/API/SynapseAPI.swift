@@ -156,6 +156,18 @@ struct SynapseAPI {
         self.token = token
     }
 
+    /// The API base, for building the study-room voice WebSocket URL.
+    /// `RoomVoiceProtocol.socketURL` strips the trailing `/api` this ends with.
+    var roomVoiceBaseURL: URL { baseURL }
+
+    /// A closure that yields a fresh access token for the voice socket, read on
+    /// every reconnect. Reuses the same provider `Authorization` headers use, so
+    /// the socket can never present a token the API would refuse.
+    var accessTokenProvider: @Sendable () async -> String? {
+        let token = self.token
+        return { (try? await token()) ?? nil }
+    }
+
     // MARK: - Endpoints
 
     func session() async throws -> SessionUser? {

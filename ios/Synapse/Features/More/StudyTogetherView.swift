@@ -15,7 +15,7 @@ struct StudyTogetherView: View {
     var body: some View {
         Group {
             if let model, let room = model.room {
-                RoomView(model: model, room: room)
+                RoomView(api: api, model: model, room: room)
             } else {
                 // This surface cannot work offline at all — join, create and
                 // list all need the API — so offline replaces the lobby
@@ -210,6 +210,7 @@ private struct TestBuilder: View {
 /// One room: the lobby, the sitting, then the results.
 private struct RoomView: View {
     @Environment(\.strings) private var strings
+    let api: SynapseAPI
     let model: StudyRoomModel
     let room: StudyRoom
 
@@ -255,6 +256,8 @@ private struct RoomView: View {
             }
 
             members
+
+            RoomVoiceSection(api: api, code: room.code)
 
             if room.isHost {
                 Button {
@@ -395,6 +398,8 @@ private struct RoomView: View {
                         .foregroundStyle(Theme.ink3)
                         .multilineTextAlignment(.center)
                 }
+
+                RoomVoiceSection(api: api, code: room.code)
 
                 members
             }
