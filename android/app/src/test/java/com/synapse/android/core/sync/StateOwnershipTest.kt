@@ -27,6 +27,10 @@ class StateOwnershipTest {
         "synapse.bookmarks.v1",
         "synapse.progress.attemptIndex.v1",
         "synapse.progress.attempts.2026-08",
+        // Post-rebrand keys this app actually writes -- see StateOwnership's
+        // own note on why both prefixes are matched.
+        "nishany.notebook.notes",
+        "nishany.calendar.tasks.v1",
     )
 
     private val catalogue = listOf(
@@ -67,5 +71,16 @@ class StateOwnershipTest {
             StateOwnership.pathFor("synapse.qbank.activeSession.v1"))
         assertEquals("/api/state/synapse-plans-v1",
             StateOwnership.pathFor("synapse-plans-v1"))
+    }
+
+    @Test
+    fun `notebook and calendar tasks route to user-state, not the shared catalogue`() {
+        // Without the `nishany…` half of these patterns, a note or task
+        // written on Android would hit /api/state (the admin-write-only
+        // catalogue) and be silently refused -- see StateOwnership's own doc.
+        assertEquals("/api/user-state/nishany.notebook.notes",
+            StateOwnership.pathFor("nishany.notebook.notes"))
+        assertEquals("/api/user-state/nishany.calendar.tasks.v1",
+            StateOwnership.pathFor("nishany.calendar.tasks.v1"))
     }
 }

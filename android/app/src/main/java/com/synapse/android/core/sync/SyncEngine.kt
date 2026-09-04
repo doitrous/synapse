@@ -298,11 +298,15 @@ class SyncEngine(
         private const val LEDGER_KEY = "synapse-admin-content-ledger-v4"
 
         /**
-         * The per-student documents the qbank and practical surfaces read.
-         * Enumerated for the same reason [CATALOGUE_KEYS] is — Milestone 1
-         * reads exactly these, and a key outside this list (mastery,
-         * adaptive, library, notebook, whiteboard, reader, bookmarks,
-         * annotations) is deliberately out of scope.
+         * The per-student documents the qbank, practical, notebook and
+         * calendar surfaces read. Enumerated for the same reason
+         * [CATALOGUE_KEYS] is. A key outside this list (mastery, adaptive,
+         * library, whiteboard, reader, bookmarks, annotations) is
+         * deliberately out of scope for this milestone.
+         *
+         * The last two are spelled `nishany…`, current post-rebrand — see
+         * [StateOwnership]'s own note on why the *older* entries above them
+         * still say `synapse…`.
          */
         private val USER_STATE_KEYS: List<String> = listOf(
             "synapse.qbank.activeSession.v1", // src/pages/student/QuestionBank.tsx:232
@@ -310,6 +314,8 @@ class SyncEngine(
             "synapse.qbank.questionNotes.v1", // src/components/qbank/StudyRail.tsx:19
             "synapse.qbank.sessionNames.v1", // src/pages/student/QuestionBank.tsx:233
             "synapse.practical.progress.v1", // src/data/practicalProgress.ts:17
+            "nishany.notebook.notes", // src/pages/student/Notebook.tsx:62
+            "nishany.calendar.tasks.v1", // src/data/tasks.ts:13
         )
     }
 }
