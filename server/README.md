@@ -133,4 +133,5 @@ Full protocol, migration SQL and a two-browser verification script:
 
 ## Content Security Policy
 
+- `MIGRATE_DATABASE_URL` — optional; when set, `npm run migrate` (the pre-deployment step) connects with it instead of `DATABASE_URL`. Lets the app run as a DML-only user while migrations run as one that may `CREATE`/`ALTER`.
 - `CSP_ENFORCE` — the Content-Security-Policy is **enforced by default**; set `0` to ship it as `Content-Security-Policy-Report-Only` while a new third party is being allow-listed in `src/securityHeaders.js`.
