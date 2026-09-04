@@ -222,47 +222,54 @@ enum Theme {
         static let mono = "Geist Mono"
     }
 
-    /// A bundled variable font at an exact weight.
+    /// A bundled variable font at an exact weight, scaled for Dynamic Type.
     ///
     /// `Font.custom(...).weight(...)` can only ask for one of the nine named
     /// weights, and the site's headings are set at 560 — between semibold and
     /// medium, and not expressible that way. Setting the `wght` axis directly
     /// gives the same face the website renders rather than the nearest one.
-    static func variable(_ family: String, size: CGFloat, weight: CGFloat) -> Font {
+    ///
+    /// `size` stays the fixed point size the design calls for; `style` only
+    /// picks which system text style's *growth curve* the result follows as
+    /// the user's text-size setting changes, via `UIFontMetrics`. This is the
+    /// one place all ~120 call sites route through, so wiring it here is what
+    /// makes Dynamic Type (WCAG 1.4.4) work app-wide in one change.
+    static func variable(_ family: String, size: CGFloat, weight: CGFloat, style: UIFont.TextStyle) -> Font {
         // 'wght' as a four-character code.
         let axis = 0x77676874
         let descriptor = UIFontDescriptor(fontAttributes: [
             .family: family,
             kCTFontVariationAttribute as UIFontDescriptor.AttributeName: [axis: weight],
         ])
-        return Font(UIFont(descriptor: descriptor, size: size))
+        let font = UIFont(descriptor: descriptor, size: size)
+        return Font(UIFontMetrics(forTextStyle: style).scaledFont(for: font))
     }
 
     /// Page titles and headings: Source Serif 4 at 560, as the site sets it.
     static func display(_ size: CGFloat) -> Font {
-        variable(Family.serif, size: size, weight: 560)
+        variable(Family.serif, size: size, weight: 560, style: .largeTitle)
     }
 
     /// Long-form reading. The article body is the reason the serif is bundled.
     static func serifBody(_ size: CGFloat, weight: CGFloat = 400) -> Font {
-        variable(Family.serif, size: size, weight: weight)
+        variable(Family.serif, size: size, weight: weight, style: .body)
     }
 
     /// Interface text.
     static func ui(_ size: CGFloat, weight: CGFloat = 400) -> Font {
-        variable(Family.sans, size: size, weight: weight)
+        variable(Family.sans, size: size, weight: weight, style: .body)
     }
 
     /// Panel titles — sans, small, semibold. The counterpart to `display`, and
     /// the pairing that gives Synapse its hierarchy: *panel titles are sans,
     /// page titles are serif*.
     static func panelTitle(_ size: CGFloat = 13) -> Font {
-        variable(Family.sans, size: size, weight: 600)
+        variable(Family.sans, size: size, weight: 600, style: .title2)
     }
 
     /// Figures in tables and meters, where digits must line up between rows.
     static func numeric(_ size: CGFloat, weight: CGFloat = 400) -> Font {
-        variable(Family.mono, size: size, weight: weight)
+        variable(Family.mono, size: size, weight: weight, style: .body)
     }
 
     // MARK: - Building blocks
