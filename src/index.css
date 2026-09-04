@@ -734,6 +734,10 @@
   from { transform: translateX(100%); }
   to { transform: none; }
 }
+@keyframes nishany-slide-up {
+  from { transform: translateY(100%); }
+  to { transform: none; }
+}
 
 @utility animate-fade {
   animation: nishany-fade var(--dur-fast) var(--ease-out-quint) backwards;
@@ -746,6 +750,10 @@
 }
 @utility animate-slide-x {
   animation: nishany-slide-x 0.24s var(--ease-out-quint) backwards;
+}
+/* The Focus Timer panel filling the screen from the bottom. */
+@utility animate-slide-up {
+  animation: nishany-slide-up 0.28s var(--ease-out-quint) backwards;
 }
 
 /* The mobile drawer anchors to the inline-start edge; in RTL it enters from the right. */
