@@ -1,4 +1,4 @@
-import { useEffect, useState, type CSSProperties, type MouseEvent as ReactMouseEvent } from 'react'
+import { useEffect, useState, type CSSProperties, type KeyboardEvent as ReactKeyboardEvent, type MouseEvent as ReactMouseEvent } from 'react'
 import { ImagePlus, MapPin, Microscope, Plus, Trash2, TriangleAlert, X } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import { CONTENT_FIELDS, type ManagedContentItem } from '@/data/contentControl'
@@ -305,16 +305,30 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
    * proportions and places a pin at `left: x * 100%` of that box, so the same
    * fraction lands on the same speck of tissue at any rendered size.
    */
-  function placePin(event: ReactMouseEvent<HTMLDivElement>) {
+  function placePinAt(point: { x: number; y: number }) {
     if (!selectedStructureId) return
-    const rect = event.currentTarget.getBoundingClientRect()
-    const point = clampPin({ x: (event.clientX - rect.left) / rect.width, y: (event.clientY - rect.top) / rect.height })
+    const clamped = clampPin(point)
     updateData((current) => ({
       ...current,
       structures: current.structures.map((structure) =>
-        structure.id === selectedStructureId ? { ...structure, at: { ...structure.at, [pinObjective]: point } } : structure,
+        structure.id === selectedStructureId ? { ...structure, at: { ...structure.at, [pinObjective]: clamped } } : structure,
       ),
     }))
+  }
+
+  function placePin(event: ReactMouseEvent<HTMLDivElement>) {
+    const rect = event.currentTarget.getBoundingClientRect()
+    placePinAt({ x: (event.clientX - rect.left) / rect.width, y: (event.clientY - rect.top) / rect.height })
+  }
+
+  // ponytail: keyboard operability here is a fixed center-point drop, not a
+  // full arrow-key pin editor — enough to satisfy 2.1.1 without building a
+  // second placement UI. Upgrade to arrow-key nudging if admins ask for
+  // finer keyboard control.
+  function placePinAtCenter(event: ReactKeyboardEvent<HTMLDivElement>) {
+    if (event.key !== 'Enter' && event.key !== ' ') return
+    event.preventDefault()
+    placePinAt({ x: 0.5, y: 0.5 })
   }
 
   return overlayPortal(
@@ -563,7 +577,18 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
                       {/* No border or padding on the clickable box itself: its
                           rect has to be the image's rect for the fraction to
                           match what the viewer draws. */}
-                      <div className={cn('relative', selectedStructure ? 'cursor-crosshair' : 'cursor-not-allowed')} onClick={placePin} role="presentation">
+                      <div
+                        className={cn(
+                          'relative',
+                          selectedStructure ? 'cursor-crosshair focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]' : 'cursor-not-allowed',
+                        )}
+                        onClick={placePin}
+                        onKeyDown={placePinAtCenter}
+                        role="button"
+                        tabIndex={selectedStructure ? 0 : -1}
+                        aria-disabled={!selectedStructure}
+                        aria-label={selectedStructure ? `Place the pin for ${selectedStructure.label || 'this structure'} at the field centre` : 'Choose a structure before placing a pin'}
+                      >
                         <img src={activeUrl} alt="" draggable={false} className="block w-full select-none" />
                         {data.structures.map((structure) => {
                           const point = structure.at[pinObjective]
