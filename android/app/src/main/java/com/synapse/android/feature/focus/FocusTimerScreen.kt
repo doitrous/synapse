@@ -46,6 +46,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -67,8 +68,10 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.glance.appwidget.updateAll
 import com.synapse.android.AppGraph
 import com.synapse.android.design.LocalCortex
+import kotlinx.coroutines.launch
 
 /**
  * Wires [FocusViewModel] to [FocusTimerScreen] -- the entry point
@@ -80,7 +83,12 @@ import com.synapse.android.design.LocalCortex
 fun FocusTimerRoute(graph: AppGraph, onClose: () -> Unit) {
     val appContext = LocalContext.current.applicationContext
     val viewModel: FocusViewModel = viewModel(
-        factory = FocusViewModel.factory(graph.api, FocusSessionStore(appContext), FocusTasksStore(appContext)),
+        factory = FocusViewModel.factory(
+            graph.api,
+            FocusSessionStore(appContext),
+            FocusTasksStore(appContext),
+            FocusNotifier(appContext),
+        ),
     )
     FocusTimerScreen(viewModel = viewModel, onClose = onClose)
 }
@@ -101,6 +109,7 @@ fun FocusTimerScreen(viewModel: FocusViewModel, onClose: () -> Unit) {
     val tasks by viewModel.tasks.tasks.collectAsState()
     val strictBlocking = state.strictArmed && state.running
     val context = LocalContext.current
+    val scope = rememberCoroutineScope()
 
     var isFullscreen by rememberSaveable { mutableStateOf(false) }
     var showLeaveConfirm by rememberSaveable { mutableStateOf(false) }
@@ -122,7 +131,10 @@ fun FocusTimerScreen(viewModel: FocusViewModel, onClose: () -> Unit) {
         val observer = LifecycleEventObserver { _, event ->
             when (event) {
                 Lifecycle.Event.ON_STOP -> viewModel.armStrictGrace()
-                Lifecycle.Event.ON_START -> viewModel.clearStrictGrace()
+                Lifecycle.Event.ON_START -> {
+                    viewModel.clearStrictGrace()
+                    viewModel.resync()
+                }
                 else -> Unit
             }
         }
@@ -216,7 +228,12 @@ fun FocusTimerScreen(viewModel: FocusViewModel, onClose: () -> Unit) {
                         tasks = tasks,
                         selectedTaskId = state.selectedTaskId,
                         onSelect = viewModel::selectTask,
-                        onAdd = { title -> viewModel.selectTask(viewModel.tasks.add(title)) },
+                        onAdd = { title ->
+                            viewModel.selectTask(viewModel.tasks.add(title))
+                            // Keeps the home-screen to-do widget from waiting on the
+                            // OS's own update cadence for a task added just now.
+                            scope.launch { FocusTasksWidget().updateAll(context) }
+                        },
                     )
 
                     Spacer(Modifier.height(20.dp))

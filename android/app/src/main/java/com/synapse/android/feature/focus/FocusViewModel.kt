@@ -78,6 +78,7 @@ class FocusViewModel(
     private val api: SynapseApi,
     private val store: FocusSessionStore,
     val tasks: FocusTasksStore,
+    private val notifier: FocusNotifier,
 ) : ViewModel() {
     private val backgroundScope = backgroundWorkScope("FocusViewModel")
 
@@ -112,6 +113,28 @@ class FocusViewModel(
 
     fun accruedSeconds(): Int = accruedSeconds(_state.value)
 
+    /**
+     * Reloads from [store] -- the ongoing notification's Pause/Resume and Stop
+     * actions (and, eventually, a widget) mutate [store] directly through
+     * [FocusNotificationReceiver] rather than through this ViewModel, since
+     * either can run in a fresh process with no live instance to call. A live
+     * instance would otherwise never see that write. Called by
+     * [FocusTimerScreen] on `Lifecycle.Event.ON_START`, the same spot
+     * [clearStrictGrace] already runs from.
+     */
+    fun resync() {
+        val before = _state.value
+        val after = tick(store.load())
+        _state.value = after
+        if (before.running && !after.running) {
+            stopHeartbeat()
+        } else if (!before.running && after.running) {
+            sessionId = newSessionId()
+            startHeartbeat()
+        }
+        syncNotification(after)
+    }
+
     /** Called by [FocusTimerScreen] on `Lifecycle.Event.ON_STOP` while a strict block is running. */
     fun armStrictGrace() {
         if (!_state.value.strictArmed || !_state.value.running) return
@@ -131,7 +154,14 @@ class FocusViewModel(
         if (after === before) return
         _state.value = after
         store.save(after)
-        if (before.running && !after.running) stopHeartbeat()
+        // A countdown reaching zero on its own is the one running->idle
+        // transition that never passes through mutate() -- catch it here so
+        // the notification clears the moment the block completes, not on
+        // the next heartbeat or app open.
+        if (before.running && !after.running) {
+            stopHeartbeat()
+            syncNotification(after)
+        }
     }
 
     private fun checkStrictDeadline() {
@@ -157,7 +187,16 @@ class FocusViewModel(
         } else if (before.running && !after.running) {
             stopHeartbeat()
         }
+        syncNotification(after)
     }
+
+    /** Shows/updates the ongoing notification while running; clears it the moment the block is not (paused, completed, or discarded). */
+    private fun syncNotification(state: FocusSessionState) {
+        if (state.running) notifier.update(state, currentTaskTitle(state)) else notifier.clear()
+    }
+
+    private fun currentTaskTitle(state: FocusSessionState): String? =
+        state.selectedTaskId?.let { id -> tasks.tasks.value.firstOrNull { it.id == id }?.title }
 
     private fun startHeartbeat() {
         heartbeatJob?.cancel()
@@ -175,6 +214,11 @@ class FocusViewModel(
     }
 
     private suspend fun beat() {
+        // Drives the notification's on-the-minute refresh -- see this task's
+        // brief for why per-second is not required. Also the path that
+        // repaints it after this process was restarted just to run the
+        // heartbeat, with no `mutate()` call in between.
+        syncNotification(_state.value)
         val bucket = System.currentTimeMillis() / 60_000
         runCatching { api.studyHeartbeat(bucket, sessionId, HEARTBEAT_SURFACE) }
             .onFailure { Log.w(TAG, "study-heartbeat failed; this beat is simply lost", it) }
@@ -187,8 +231,8 @@ class FocusViewModel(
     companion object {
         private const val TAG = "FocusViewModel"
 
-        fun factory(api: SynapseApi, store: FocusSessionStore, tasks: FocusTasksStore) = viewModelFactory {
-            initializer { FocusViewModel(api, store, tasks) }
+        fun factory(api: SynapseApi, store: FocusSessionStore, tasks: FocusTasksStore, notifier: FocusNotifier) = viewModelFactory {
+            initializer { FocusViewModel(api, store, tasks, notifier) }
         }
     }
 }

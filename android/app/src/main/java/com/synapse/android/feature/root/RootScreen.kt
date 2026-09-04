@@ -105,7 +105,11 @@ private const val ROUTE_ACCOUNT = "account"
 private val FOREGROUND_REFRESH_INTERVAL: Duration = Duration.ofMinutes(2)
 
 @Composable
-fun RootScreen(graph: AppGraph) {
+fun RootScreen(
+    graph: AppGraph,
+    openFocusTimerRequest: Boolean = false,
+    onFocusTimerRequestConsumed: () -> Unit = {},
+) {
     if (!graph.config.isConfigured) {
         NotConfiguredScreen(missing = graph.config.missing)
         return
@@ -173,7 +177,9 @@ fun RootScreen(graph: AppGraph) {
             // Held behind the AI-use disclaimer exactly once per sign-in --
             // see AiConsentGate's own doc for why this is not on the
             // foreground-refresh path above.
-            AiConsentGate(graph) { SignedInNavHost(graph) }
+            AiConsentGate(graph) {
+                SignedInNavHost(graph, openFocusTimerRequest, onFocusTimerRequestConsumed)
+            }
         }
     }
 }
@@ -195,11 +201,24 @@ private fun RestoringScreen() {
  * a page: a running block has to survive switching tabs underneath it.
  */
 @Composable
-private fun SignedInNavHost(graph: AppGraph) {
+private fun SignedInNavHost(
+    graph: AppGraph,
+    openFocusTimerRequest: Boolean = false,
+    onFocusTimerRequestConsumed: () -> Unit = {},
+) {
     val navController = rememberNavController()
 
     val cortex = LocalCortex.current
     var focusTimerOpen by rememberSaveable { mutableStateOf(false) }
+
+    // A tap on the ongoing notification (or a future deep link) asking for
+    // the timer specifically, rather than just the app's last tab.
+    LaunchedEffect(openFocusTimerRequest) {
+        if (openFocusTimerRequest) {
+            focusTimerOpen = true
+            onFocusTimerRequestConsumed()
+        }
+    }
 
     Box(modifier = Modifier.fillMaxSize()) {
     Scaffold(

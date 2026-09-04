@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shown for the instant between a widget being placed and Glance's first
+     RemoteViews render replacing it: required by AppWidgetProviderInfo,
+     intentionally empty otherwise. Shared by every Glance widget in this app. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

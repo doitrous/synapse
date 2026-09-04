@@ -16,11 +16,44 @@
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- The ongoing focus-timer notification's Pause/Resume and Stop
+             actions: see FocusNotifier/FocusNotificationReceiver. Only ever
+             invoked through this app's own PendingIntents. -->
+        <receiver
+            android:name=".feature.focus.FocusNotificationReceiver"
+            android:exported="false" />
+
+        <!-- To-do home-screen widget: lists FocusTasksStore's items. -->
+        <receiver
+            android:name=".feature.focus.FocusTasksWidgetReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/focus_tasks_widget_info" />
+        </receiver>
+
+        <!-- Calendar/timetable home-screen widget: shell only; see
+             FocusCalendarWidget's class doc for why. -->
+        <receiver
+            android:name=".feature.focus.FocusCalendarWidgetReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/focus_calendar_widget_info" />
+        </receiver>
     </application>
 </manifest>
