@@ -235,8 +235,9 @@ struct FocusTimerView: View {
                 .textFieldStyle(.roundedBorder)
                 .accessibilityLabel(strings("New task"))
             Button(strings("Add")) {
+                let title = newTaskTitle.trimmingCharacters(in: .whitespacesAndNewlines)
                 guard let id = tasks.add(title: newTaskTitle) else { return }
-                store.selectTask(id)
+                store.selectTask(id, title: title)
                 newTaskTitle = ""
             }
             .disabled(newTaskTitle.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
@@ -244,7 +245,10 @@ struct FocusTimerView: View {
     }
 
     private var taskBinding: Binding<String?> {
-        Binding(get: { state.selectedTaskId }, set: { store.selectTask($0) })
+        Binding(
+            get: { state.selectedTaskId },
+            set: { id in store.selectTask(id, title: id.flatMap { i in tasks.tasks.first { $0.id == i }?.title }) }
+        )
     }
 
     // MARK: - Strict mode

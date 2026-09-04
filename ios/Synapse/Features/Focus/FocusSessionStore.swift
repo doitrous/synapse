@@ -1,3 +1,4 @@
+import ActivityKit
 import Foundation
 import Observation
 
@@ -41,6 +42,16 @@ final class FocusSessionStore {
     /// minted fresh only when a block actually starts.
     private var sessionId = UUID().uuidString
 
+    /// The Focus Timer's Live Activity, if one is currently showing on the
+    /// lock screen / Dynamic Island. Started when a block starts running,
+    /// updated on pause/resume/task-change, ended on stop/complete/discard —
+    /// see `mutate` and `startTicking`'s auto-complete path.
+    private var activity: Activity<FocusActivityAttributes>?
+    /// The selected task's title, kept alongside `state.selectedTaskId`
+    /// purely for the Live Activity — `FocusSessionState` only stores the id,
+    /// and the Activity's `ContentState` wants text to show.
+    private var selectedTaskTitle: String?
+
     init(api: SynapseAPI, defaults: UserDefaults = .standard) {
         self.api = api
         self.defaults = defaults
@@ -51,7 +62,16 @@ final class FocusSessionStore {
             state = FocusSession.initial()
         }
         save()
-        if state.running { resumeTicking() }
+        if state.running {
+            resumeTicking()
+            // Our own `activity` reference only ever lives in memory — if the
+            // app was relaunched (not just backgrounded) while a block was
+            // running, reattach to whatever ActivityKit itself kept alive.
+            activity = Activity<FocusActivityAttributes>.activities.first
+            if activity != nil {
+                Task { [weak self] in await self?.updateActivity() }
+            }
+        }
     }
 
     // MARK: - Actions
@@ -60,7 +80,13 @@ final class FocusSessionStore {
     func setDurationMinutes(_ minutes: Double) { mutate { FocusSession.setDurationMinutes($0, minutes) } }
     func reset() { mutate { FocusSession.reset($0) } }
     func discard() { mutate { FocusSession.discard($0) } }
-    func selectTask(_ taskId: String?) { mutate { FocusSession.selectTask($0, taskId) } }
+
+    /// `title` is only used to refresh the Live Activity's display — the
+    /// persisted state keeps just `taskId`, same as before.
+    func selectTask(_ taskId: String?, title: String? = nil) {
+        selectedTaskTitle = title
+        mutate { FocusSession.selectTask($0, taskId) }
+    }
 
     func setStrictArmed(_ armed: Bool) {
         mutate { FocusSession.setStrictArmed($0, armed) }
@@ -69,7 +95,9 @@ final class FocusSessionStore {
 
     func toggleRunning() {
         if state.running {
-            mutate { FocusSession.pause($0) }
+            // Pausing keeps the Live Activity alive (showing a frozen clock)
+            // rather than ending it — only stop/complete/discard end it.
+            mutate(endsActivityOnStop: false) { FocusSession.pause($0) }
         } else {
             sessionId = UUID().uuidString
             mutate { FocusSession.start($0) }
@@ -124,14 +152,37 @@ final class FocusSessionStore {
 
     // MARK: - Ticking, heartbeat, persistence
 
-    private func mutate(_ fn: (FocusSessionState) -> FocusSessionState) {
+    private enum ActivitySync { case start, update, end, none }
+
+    /// `endsActivityOnStop` distinguishes pause (Live Activity stays, shows
+    /// paused) from reset/discard (Live Activity ends) when a mutation turns
+    /// running off — `toggleRunning`'s pause branch is the one call site that
+    /// passes `false`. When running doesn't change at all (e.g. `selectTask`
+    /// while paused), an existing Activity is still refreshed so its title
+    /// doesn't go stale.
+    private func mutate(endsActivityOnStop: Bool = true, _ fn: (FocusSessionState) -> FocusSessionState) {
         let wasRunning = state.running
         state = fn(FocusSession.tick(state))
         save()
+
+        let sync: ActivitySync
         if state.running {
             if !wasRunning { resumeTicking() }
+            sync = activity == nil ? .start : .update
         } else {
             stopTicking()
+            if wasRunning {
+                sync = endsActivityOnStop ? .end : .update
+            } else {
+                sync = activity == nil ? .none : .update
+            }
+        }
+
+        switch sync {
+        case .start: Task { [weak self] in await self?.startActivity() }
+        case .update: Task { [weak self] in await self?.updateActivity() }
+        case .end: Task { [weak self] in await self?.endActivity() }
+        case .none: break
         }
     }
 
@@ -148,7 +199,14 @@ final class FocusSessionStore {
                 guard let self, !Task.isCancelled else { return }
                 self.state = FocusSession.tick(self.state)
                 self.save()
-                if !self.state.running { self.stopTicking(); return }
+                if !self.state.running {
+                    // Reaching zero on its own, not a user pause — the block
+                    // is complete, so the Live Activity ends rather than
+                    // freezing on "0:00".
+                    self.stopTicking()
+                    await self.endActivity()
+                    return
+                }
             }
         }
     }
@@ -180,4 +238,41 @@ final class FocusSessionStore {
 
     private static let encoder = JSONEncoder()
     private static let decoder = JSONDecoder()
+
+    // MARK: - Live Activity
+
+    /// No-op if Live Activities are unavailable or the student has turned
+    /// them off — a block still runs perfectly well device-locally without
+    /// one, so this never blocks or throws into the caller.
+    private func startActivity() async {
+        guard activity == nil, ActivityAuthorizationInfo().areActivitiesEnabled else { return }
+        let attributes = FocusActivityAttributes(startedAt: Date())
+        let content = ActivityContent(state: makeContentState(), staleDate: nil)
+        activity = try? Activity.request(attributes: attributes, content: content)
+    }
+
+    private func updateActivity() async {
+        guard let activity else { return }
+        await activity.update(ActivityContent(state: makeContentState(), staleDate: nil))
+    }
+
+    private func endActivity() async {
+        guard let activity else { return }
+        await activity.end(ActivityContent(state: makeContentState(), staleDate: nil), dismissalPolicy: .immediate)
+        self.activity = nil
+    }
+
+    private func makeContentState() -> FocusActivityAttributes.ContentState {
+        let isCountdown = state.mode == .countdown
+        return FocusActivityAttributes.ContentState(
+            isCountdown: isCountdown,
+            running: state.running,
+            endDate: state.running && isCountdown
+                ? Date().addingTimeInterval(TimeInterval(state.remainingSeconds)) : nil,
+            startDate: state.running && !isCountdown
+                ? Date().addingTimeInterval(-TimeInterval(state.elapsedSeconds)) : nil,
+            taskTitle: selectedTaskTitle,
+            displaySeconds: isCountdown ? state.remainingSeconds : state.elapsedSeconds
+        )
+    }
 }

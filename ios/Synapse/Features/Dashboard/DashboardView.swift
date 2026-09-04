@@ -427,6 +427,9 @@ struct DashboardView: View {
         )
         let blocks = (try? await api.userState([StudyBlock].self, key: StudyBlock.storageKey))?.value ?? []
         upcoming = Upcoming.merge(sessions: sessions, blocks: blocks)
+        // The home-screen calendar widget can't read this app's local store —
+        // publish what it needs to the App Group so it has something to show.
+        WidgetSnapshot.publish(upcoming)
         recent = (try? await api.userState([RecentResource].self, key: RecentResource.key))?.value ?? []
 
         // The same catalogue document the reader uses to match terms, read here

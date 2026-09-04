@@ -1,5 +1,6 @@
 import Foundation
 import Observation
+import WidgetKit
 
 /// One thing a student can focus a block on.
 ///
@@ -15,15 +16,30 @@ struct FocusTask: Codable, Identifiable, Equatable, Sendable {
 @Observable
 final class FocusTasksStore {
     private static let key = "nishany.focusTimer.tasks.v1"
+    /// `TasksWidget`'s `kind`, matched in `ios/SynapseWidgets/TasksWidget.swift`.
+    private static let widgetKind = "TasksWidget"
 
     private(set) var tasks: [FocusTask]
     private let defaults: UserDefaults
 
-    init(defaults: UserDefaults = .standard) {
+    /// Reads/writes the App Group suite by default — `TasksWidget` runs in
+    /// the SynapseWidgets extension, a separate sandbox that cannot see the
+    /// app's standard UserDefaults at all.
+    init(defaults: UserDefaults = AppGroup.defaults) {
         self.defaults = defaults
         if let data = defaults.data(forKey: Self.key),
            let decoded = try? JSONDecoder().decode([FocusTask].self, from: data) {
             tasks = decoded
+        } else if let legacyData = UserDefaults.standard.data(forKey: Self.key),
+                  let legacy = try? JSONDecoder().decode([FocusTask].self, from: legacyData) {
+            // One-time migration: earlier builds (before the widget extension
+            // existed) wrote this to the standard suite, which the extension
+            // can't read. Move it once, then stop looking.
+            tasks = legacy
+            UserDefaults.standard.removeObject(forKey: Self.key)
+            if let data = try? JSONEncoder().encode(legacy) {
+                defaults.set(data, forKey: Self.key)
+            }
         } else {
             tasks = []
         }
@@ -51,5 +67,6 @@ final class FocusTasksStore {
     private func save() {
         guard let data = try? JSONEncoder().encode(tasks) else { return }
         defaults.set(data, forKey: Self.key)
+        WidgetCenter.shared.reloadTimelines(ofKind: Self.widgetKind)
     }
 }

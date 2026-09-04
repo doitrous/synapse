@@ -24,6 +24,13 @@ struct FocusActivityAttributes: ActivityAttributes {
         var startDate: Date?
         /// The selected task's title, or nil for an untitled block.
         var taskTitle: String?
+        /// Remaining (countdown) or elapsed (count-up) seconds, frozen at the
+        /// moment this state was pushed. The self-updating clock uses
+        /// `endDate`/`startDate` while `running`; those are wall-clock
+        /// intervals, so while paused they'd keep visibly ticking against a
+        /// clock the app has actually stopped — this is what the widget shows
+        /// instead when `running` is false.
+        var displaySeconds: Int
     }
 
     /// Stable for the life of the Activity — nothing block-specific yet, but a
