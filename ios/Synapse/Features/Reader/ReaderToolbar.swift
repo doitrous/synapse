@@ -200,8 +200,15 @@ private struct ToolSettingsSheet: View {
                                                 lineWidth: settings.color == hex ? 2 : 1
                                             )
                                         )
+                                        // The circle stays its designed size;
+                                        // only the tappable area grows to the
+                                        // 44pt WCAG 2.5.5 floor.
+                                        .frame(minWidth: 44, minHeight: 44)
+                                        .contentShape(Rectangle())
                                 }
                                 .buttonStyle(.plain)
+                                .accessibilityLabel(ReaderPalette.inkName(hex))
+                                .accessibilityAddTraits(settings.color == hex ? .isSelected : [])
                             }
                         }
                         .padding(.vertical, 4)
@@ -286,8 +293,15 @@ private struct ToolSettingsSheet: View {
                                                 lineWidth: settings.tone == tone ? 2 : 1
                                             )
                                         )
+                                        // The swatch stays its designed size;
+                                        // only the tappable area grows to the
+                                        // 44pt WCAG 2.5.5 floor.
+                                        .frame(minWidth: 44, minHeight: 44)
+                                        .contentShape(Rectangle())
                                 }
                                 .buttonStyle(.plain)
+                                .accessibilityLabel(tone.rawValue.capitalized)
+                                .accessibilityAddTraits(settings.tone == tone ? .isSelected : [])
                             }
                         }
                         .padding(.vertical, 4)

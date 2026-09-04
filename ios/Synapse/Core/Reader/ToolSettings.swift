@@ -145,6 +145,18 @@ enum ReaderPalette {
         "#241d16", "#6b6053", "#b0512b", "#c2691c", "#a5732a", "#4f8f3a",
         "#2f7d6b", "#3b6bb0", "#7a4fb0", "#b03a76", "#b23a3a", "#5b6570",
     ]
+
+    /// A plain name for each entry in `ink`, same order — these are colour
+    /// swatches with no other label, so VoiceOver needs a word for each one
+    /// rather than reading a hex string (WCAG 4.1.2).
+    static let inkNames = [
+        "Charcoal", "Taupe", "Rust", "Amber", "Ochre", "Green",
+        "Teal", "Blue", "Purple", "Magenta", "Red", "Slate",
+    ]
+
+    static func inkName(_ hex: String) -> String {
+        ink.firstIndex(of: hex).map { inkNames[$0] } ?? hex
+    }
 }
 
 /// Reader preferences that belong to the device, not the account.
