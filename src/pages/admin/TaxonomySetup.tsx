@@ -272,7 +272,7 @@ export function TaxonomySetup() {
           return (
             <Panel key={sys.id} className="overflow-hidden">
               <div className="flex items-center gap-2 border-b border-line bg-surface-2/50 px-3 py-2.5">
-                <button onClick={() => toggle(sk)} className="grid size-6 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={15} className="chevron-turn" open={(open[sk] ?? true)} /></button>
+                <button onClick={() => toggle(sk)} aria-expanded={open[sk] ?? true} aria-label={(open[sk] ?? true) ? `Collapse ${sys.name}` : `Expand ${sys.name}`} className="grid size-6 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={15} className="chevron-turn" open={(open[sk] ?? true)} /></button>
                 <SystemColorControl systemId={sys.id} short={sys.short} />
                 <Editable value={sys.name} onSave={(v) => renameSystem(sys.id, v)} className="text-[14px] font-semibold text-ink" />
                 <Id value={sys.sysId} />
@@ -286,7 +286,7 @@ export function TaxonomySetup() {
                     return (
                       <div key={top.id} className="rounded-lg border border-line">
                         <div className="flex items-center gap-2 px-3 py-2">
-                          <button onClick={() => toggle(tk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={14} className="chevron-turn" open={open[tk]} /></button>
+                          <button onClick={() => toggle(tk)} aria-expanded={Boolean(open[tk])} aria-label={open[tk] ? `Collapse ${top.title}` : `Expand ${top.title}`} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={14} className="chevron-turn" open={open[tk]} /></button>
                           <Editable value={top.title} onSave={(v) => renameTopic(sys.id, top.id, v)} className="text-[13.5px] font-medium text-ink" />
                           <Id value={top.tpcId} />
                           <span className="tnum ms-auto font-mono text-[10.5px] text-ink-3">{top.subs.length}</span>
@@ -299,7 +299,7 @@ export function TaxonomySetup() {
                               return (
                                 <div key={sub.id} className="ms-4">
                                   <div className="flex items-center gap-2 py-1">
-                                    <button onClick={() => toggle(suk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={13} className="chevron-turn" open={open[suk]} /></button>
+                                    <button onClick={() => toggle(suk)} aria-expanded={Boolean(open[suk])} aria-label={open[suk] ? `Collapse ${sub.title}` : `Expand ${sub.title}`} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={13} className="chevron-turn" open={open[suk]} /></button>
                                     <Editable value={sub.title} onSave={(v) => renameSub(sys.id, top.id, sub.id, v)} className="text-[12.5px] text-ink-2" />
                                     <Id value={sub.subId} />
                                     <button onClick={() => removeSub(sys.id, top.id, sub.id)} className="ms-auto grid size-7 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label="Remove subtopic"><Icon icon={Trash2} size={13} /></button>
@@ -311,7 +311,7 @@ export function TaxonomySetup() {
                                         return (
                                           <div key={mic.id}>
                                             <div className="flex items-center gap-2 py-0.5">
-                                              <button onClick={() => toggle(mk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={12} className="chevron-turn" open={open[mk]} /></button>
+                                              <button onClick={() => toggle(mk)} aria-expanded={Boolean(open[mk])} aria-label={open[mk] ? `Collapse ${mic.title}` : `Expand ${mic.title}`} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={12} className="chevron-turn" open={open[mk]} /></button>
                                               <Editable value={mic.title} onSave={(v) => renameMicro(sys.id, top.id, sub.id, mic.id, v)} className="text-[12px] text-ink-3" />
                                               <Id value={mic.micId} />
                                               {mic.nanos.length > 0 && <span className="tnum font-mono text-[10px] text-ink-3">{mic.nanos.length}</span>}
