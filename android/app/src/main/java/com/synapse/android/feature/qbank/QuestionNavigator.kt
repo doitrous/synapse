@@ -12,6 +12,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.minimumInteractiveComponentSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -47,6 +48,11 @@ fun QuestionNavigator(
             val here = index == current
             Box(
                 modifier = Modifier
+                    // minimumInteractiveComponentSize() pads the clickable
+                    // bounds out to the WCAG 2.5.5 48dp floor -- the same
+                    // mechanism IconButton's own default uses -- without
+                    // touching the 40dp swatch actually drawn below.
+                    .minimumInteractiveComponentSize()
                     // 40dp outside, 36dp of swatch inside: the 2dp gap is the
                     // web's `ring-2 ring-primary/30`, which sits outside the
                     // border rather than replacing it.
