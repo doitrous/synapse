@@ -52,6 +52,8 @@ import com.synapse.android.feature.settings.SettingsViewModel
 import com.synapse.android.feature.assistant.AssistantScreen
 import com.synapse.android.feature.assistant.AssistantViewModel
 import com.synapse.android.feature.auth.SignInScreen
+import com.synapse.android.feature.billing.BillingScreen
+import com.synapse.android.feature.billing.BillingViewModel
 import com.synapse.android.feature.calendar.CalendarScreen
 import com.synapse.android.feature.calendar.CalendarViewModel
 import com.synapse.android.feature.focus.FocusTimerRoute
@@ -88,6 +90,7 @@ private const val ROUTE_NOTEBOOK = "notebook"
 private const val ROUTE_CALENDAR = "calendar"
 private const val ROUTE_TERMINOLOGY = "terminology"
 private const val ROUTE_ASSISTANT = "assistant"
+private const val ROUTE_BILLING = "billing"
 
 /**
  * Collects [AppGraph.auth]'s state and shows exactly one thing per
@@ -351,11 +354,22 @@ private fun SignedInNavHost(
                 val language by graph.languagePreference.language.collectAsState()
                 AssistantScreen(viewModel = viewModel, lang = language.wire, onBack = { navController.popBackStack() })
             }
+            // Reached from Settings' Billing row, not the "MORE" grid --
+            // matching iOS and the web, which both put Billing under Account.
+            composable(ROUTE_BILLING) {
+                val viewModel: BillingViewModel = viewModel(factory = BillingViewModel.factory(graph.api, graph.connectivity))
+                BillingScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
+            }
             composable(ROUTE_ACCOUNT) {
                 val viewModel: SettingsViewModel = viewModel(
                     factory = SettingsViewModel.factory(graph.auth, graph.api, graph.themePreference, graph.languagePreference),
                 )
-                SettingsScreen(viewModel = viewModel, sync = graph.sync, store = graph.store)
+                SettingsScreen(
+                    viewModel = viewModel,
+                    sync = graph.sync,
+                    store = graph.store,
+                    onOpenBilling = { navController.navigate(ROUTE_BILLING) },
+                )
             }
         }
     }

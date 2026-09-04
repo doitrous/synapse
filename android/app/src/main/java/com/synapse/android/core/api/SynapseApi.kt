@@ -21,6 +21,7 @@ import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.booleanOrNull
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.contentOrNull
+import kotlinx.serialization.json.doubleOrNull
 import kotlinx.serialization.json.intOrNull
 import kotlinx.serialization.json.put
 import okhttp3.Call
@@ -102,6 +103,34 @@ data class AssistantChatResult(
     val dailyMessages: Int,
     val used: Int,
     val remaining: Int,
+)
+
+/** One voucher, as the shared catalogue stores it and [SynapseApi.redeemVoucher] echoes it back. Admin-only fields (eligibility windows, redemption counts) are left off -- this app never edits a voucher, only applies one. */
+data class Voucher(
+    val id: String,
+    val code: String,
+    val name: String?,
+    val discountType: String?,
+    val amount: Double?,
+    val grant: String?,
+    val trialDays: Int?,
+)
+
+/** `POST /api/vouchers/redeem`'s answer. Always a 200 -- a refusal is [ok] == false with a server-worded [message], not an [ApiError]; see `vouchers.js`'s own doc for why. */
+data class VoucherRedeemResult(val ok: Boolean, val reason: String?, val message: String?, val voucher: Voucher?)
+
+/** The voucher this student currently has applied, or null -- `GET /api/vouchers/mine`'s `redemption`. */
+data class VoucherRedemption(val voucherId: String, val code: String, val redeemedAt: Instant?)
+
+/** `GET /api/pricing/quote`'s answer for one billing period (`"month"` or `"term"`). */
+data class PricingQuote(
+    val period: String,
+    val currency: String,
+    val baseAmount: Double,
+    val totalAmount: Double,
+    /** `"promo"` or `"voucher"`, when [totalAmount] is discounted off [baseAmount]. Null at the plain base price. */
+    val discountKind: String?,
+    val discountCode: String?,
 )
 
 /**
@@ -341,6 +370,54 @@ class SynapseApi(
         return decodeAssistantChatResult(requestObject("POST", "/api/assistant/chat", body))
     }
 
+    // --- Vouchers & pricing ---
+
+    /** `POST /api/vouchers/redeem`. See [VoucherRedeemResult]'s doc — a refused code is a normal answer, not a thrown [ApiError]. */
+    suspend fun redeemVoucher(code: String): VoucherRedeemResult {
+        val body = buildJsonObject { put("code", code) }.toString()
+        val root = requestObject("POST", "/api/vouchers/redeem", body)
+        return VoucherRedeemResult(
+            ok = root["ok"].booleanOrMalformed("vouchers.redeem.ok"),
+            reason = root["reason"].stringOrNull(),
+            message = root["message"].stringOrNull(),
+            voucher = (root["voucher"] as? JsonObject)?.let(::decodeVoucher),
+        )
+    }
+
+    /** `DELETE /api/vouchers/redemption`. Releasing when nothing is applied is not an error — the server answers `{ ok: true, released: null }` either way, so there is nothing here worth returning to the caller. */
+    suspend fun releaseVoucher() {
+        request("DELETE", "/api/vouchers/redemption")
+    }
+
+    /** `GET /api/vouchers/mine`. Null when nothing is currently applied. */
+    suspend fun myVoucher(): VoucherRedemption? {
+        val root = requestObject("GET", "/api/vouchers/mine")
+        val redemption = root["redemption"]
+        if (redemption == null || redemption is JsonNull) return null
+        val obj = redemption.asObjectOrMalformed("vouchers.mine.redemption")
+        return VoucherRedemption(
+            voucherId = obj["voucherId"].stringOrMalformed("vouchers.mine.redemption.voucherId"),
+            code = obj["code"].stringOrMalformed("vouchers.mine.redemption.code"),
+            redeemedAt = obj["redeemedAt"]?.takeUnless { it is JsonNull }?.let { parseInstant(it, "vouchers.mine.redemption.redeemedAt") },
+        )
+    }
+
+    /** `GET /api/pricing/quote?period=&voucher=`. [period] is `"month"` or `"term"` — the server's own two period ids (`pricing.js:normalisePeriodId`). */
+    suspend fun pricingQuote(period: String, voucherCode: String? = null): PricingQuote {
+        val encodedPeriod = URLEncoder.encode(period, "UTF-8")
+        val voucherParam = voucherCode?.takeIf { it.isNotBlank() }?.let { "&voucher=${URLEncoder.encode(it, "UTF-8")}" }.orEmpty()
+        val root = requestObject("GET", "/api/pricing/quote?period=$encodedPeriod$voucherParam")
+        val discount = root["appliedDiscount"] as? JsonObject
+        return PricingQuote(
+            period = root["period"].stringOrMalformed("pricing.quote.period"),
+            currency = root["currency"].stringOrMalformed("pricing.quote.currency"),
+            baseAmount = root["baseAmount"].doubleOrMalformed("pricing.quote.baseAmount"),
+            totalAmount = root["totalAmount"].doubleOrMalformed("pricing.quote.totalAmount"),
+            discountKind = discount?.get("kind").stringOrNull(),
+            discountCode = discount?.get("code").stringOrNull(),
+        )
+    }
+
     private fun decodeAssistantStatus(obj: JsonObject): AssistantStatus = AssistantStatus(
         available = obj["available"].booleanOrMalformed("assistant.status.available"),
         reason = obj["reason"].stringOrNull(),
@@ -356,6 +433,16 @@ class SynapseApi(
         dailyMessages = obj["dailyMessages"].intOrMalformed("assistant.chat.dailyMessages"),
         used = obj["used"].intOrMalformed("assistant.chat.used"),
         remaining = obj["remaining"].intOrMalformed("assistant.chat.remaining"),
+    )
+
+    private fun decodeVoucher(obj: JsonObject): Voucher = Voucher(
+        id = obj["id"].stringOrMalformed("voucher.id"),
+        code = obj["code"].stringOrMalformed("voucher.code"),
+        name = obj["name"].stringOrNull(),
+        discountType = obj["discountType"].stringOrNull(),
+        amount = (obj["amount"] as? JsonPrimitive)?.doubleOrNull,
+        grant = obj["grant"].stringOrNull(),
+        trialDays = (obj["trialDays"] as? JsonPrimitive)?.intOrNull,
     )
 
     private fun decodeRemoteState(root: JsonObject): RemoteState {
@@ -429,6 +516,9 @@ class SynapseApi(
 
     private fun JsonElement?.intOrMalformed(field: String): Int =
         (this as? JsonPrimitive)?.intOrNull ?: throw ApiError.Malformed("expected an int at $field")
+
+    private fun JsonElement?.doubleOrMalformed(field: String): Double =
+        (this as? JsonPrimitive)?.doubleOrNull ?: throw ApiError.Malformed("expected a number at $field")
 
     private fun decodeQotdToday(obj: JsonObject): QotdToday = QotdToday(
         date = obj["date"].stringOrMalformed("qotd.today.date"),

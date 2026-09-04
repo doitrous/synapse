@@ -74,7 +74,7 @@ private sealed interface SettingsSubScreen {
  * model would only add a second copy of state [AppGraph] already holds once.
  */
 @Composable
-fun SettingsScreen(viewModel: SettingsViewModel, sync: SyncEngine, store: LocalStore) {
+fun SettingsScreen(viewModel: SettingsViewModel, sync: SyncEngine, store: LocalStore, onOpenBilling: () -> Unit) {
     val context = LocalContext.current
     val state by viewModel.state.collectAsState()
     val supportTickets by viewModel.supportTickets.collectAsState()
@@ -139,6 +139,7 @@ fun SettingsScreen(viewModel: SettingsViewModel, sync: SyncEngine, store: LocalS
                         language = language,
                         onLanguageSelect = viewModel::setLanguage,
                     )
+                    BillingSection(onOpenBilling = onOpenBilling)
                     AboutSection(
                         onOpenTerms = { openUrl(context, TERMS_URL) },
                         onOpenPrivacy = { openUrl(context, PRIVACY_URL) },
@@ -168,6 +169,8 @@ fun SettingsScreen(viewModel: SettingsViewModel, sync: SyncEngine, store: LocalS
                     )
                     HorizontalDivider()
                     AccountSection(profile = s.profile, viewModel = viewModel)
+                    HorizontalDivider()
+                    BillingSection(onOpenBilling = onOpenBilling)
                     HorizontalDivider()
                     HelpSection(tickets = supportTickets, viewModel = viewModel)
                     HorizontalDivider()
@@ -571,6 +574,19 @@ private fun SupportTicketRow(ticket: SupportTicket) {
         Text(ticket.subject?.takeIf { it.isNotBlank() } ?: "(no subject)", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
         Text(ticket.message, style = MaterialTheme.typography.bodySmall)
         ticket.status?.let { Text(it, style = MaterialTheme.typography.labelSmall) }
+    }
+}
+
+// --- 4b. Billing (parity item G6) ---------------------------------------------
+
+/** A single row into [com.synapse.android.feature.billing.BillingScreen] -- plan status, pricing, and vouchers live on that pushed screen, not inline here, matching iOS's own "More -> Billing" link. */
+@Composable
+private fun BillingSection(onOpenBilling: () -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        SectionTitle("Billing")
+        OutlinedButton(onClick = onOpenBilling, modifier = Modifier.fillMaxWidth()) {
+            Text("Your plan & vouchers")
+        }
     }
 }
 
