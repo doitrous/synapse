@@ -1,8 +1,13 @@
 package com.synapse.android
 
 import android.content.Context
+import androidx.glance.appwidget.updateAll
 import com.synapse.android.core.ConnectivityMonitor
 import com.synapse.android.core.api.SynapseApi
+import com.synapse.android.core.backgroundWorkScope
+import com.synapse.android.core.calendar.CALENDAR_TASKS_KEY
+import com.synapse.android.core.calendar.MODULE_SCHEDULES_KEY
+import com.synapse.android.core.calendar.buildAgendaSnapshot
 import com.synapse.android.core.auth.AuthBackend
 import com.synapse.android.core.auth.AuthModel
 import com.synapse.android.core.auth.EncryptedSessionStore
@@ -13,6 +18,11 @@ import com.synapse.android.core.config.AppConfig
 import com.synapse.android.core.sync.SyncEngine
 import com.synapse.android.design.LanguagePreference
 import com.synapse.android.design.ThemePreference
+import com.synapse.android.feature.focus.CalendarWidgetStore
+import com.synapse.android.feature.focus.FocusCalendarWidget
+import java.time.LocalDate
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.launch
 import okhttp3.OkHttpClient
 
 /**
@@ -72,4 +82,34 @@ class AppGraph(context: Context, val config: AppConfig) {
     val database: CortexDatabase = CortexDatabase.build(context)
     val store = LocalStore(database)
     val sync: SyncEngine by lazy { SyncEngine(api, store) }
+
+    // Keeps the home-screen calendar widget's [CalendarWidgetStore] snapshot
+    // current. The widget's own process must not open Room (see that store's
+    // doc), so the app -- the one place that already holds the single database
+    // instance -- precomputes the agenda here and hands it over. Observing the
+    // two source documents covers both triggers the brief asks for at once: a
+    // SyncEngine refresh writes them, and the calendar screen's own task edits
+    // write CALENDAR_TASKS_KEY, and either emission rebuilds and re-pushes.
+    // Local-only work (no network), so unlike the lazy fields above it is safe
+    // eagerly -- but still gated on isConfigured so an unconfigured build (and
+    // the Robolectric graph tests, which construct exactly that) never spins it
+    // up against a database they tear down.
+    private val widgetSnapshotScope = backgroundWorkScope("CalendarWidgetSnapshot")
+
+    init {
+        if (config.isConfigured) {
+            val appContext = context.applicationContext
+            val widgetStore = CalendarWidgetStore(appContext)
+            widgetSnapshotScope.launch {
+                combine(
+                    store.documentFlow(MODULE_SCHEDULES_KEY),
+                    store.documentFlow(CALENDAR_TASKS_KEY),
+                ) { schedule, tasks -> schedule?.json to tasks?.json }
+                    .collect { (scheduleJson, tasksJson) ->
+                        widgetStore.write(buildAgendaSnapshot(scheduleJson, tasksJson, LocalDate.now()))
+                        FocusCalendarWidget().updateAll(appContext)
+                    }
+            }
+        }
+    }
 }

@@ -11,6 +11,8 @@ import androidx.glance.action.actionStartActivity
 import androidx.glance.action.clickable
 import androidx.glance.appwidget.GlanceAppWidget
 import androidx.glance.appwidget.GlanceAppWidgetReceiver
+import androidx.glance.appwidget.lazy.LazyColumn
+import androidx.glance.appwidget.lazy.items
 import androidx.glance.appwidget.provideContent
 import androidx.glance.background
 import androidx.glance.layout.Column
@@ -22,26 +24,27 @@ import androidx.glance.text.FontWeight
 import androidx.glance.text.Text
 import androidx.glance.text.TextStyle
 import com.synapse.android.MainActivity
+import com.synapse.android.core.calendar.AgendaSnapshotItem
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 private val DATE_FORMAT = DateTimeFormatter.ofPattern("EEEE, MMM d")
 
 /**
- * The home-screen calendar/timetable widget -- a shell only.
+ * The home-screen calendar/timetable widget.
  *
- * ponytail: Android has no schedule/timetable data source yet (it lands
- * with the schedule feature port, M5/M6 per this task's brief), so this
- * shows today's date and an honest empty state rather than fabricating
- * lectures. Upgrade path: once a local schedule store exists (mirroring
- * [FocusTasksStore]'s pattern), read today's entries here the same way
- * [FocusTasksWidget] reads [FocusTasksStore].
+ * Reads its agenda from [CalendarWidgetStore] -- the app precomputes it (see
+ * [com.synapse.android.AppGraph]'s snapshot collector) so `provideGlance`
+ * never has to open Room, which it must not do from the widget's process: see
+ * [CalendarWidgetStore]'s doc. The exact sibling of how [FocusTasksWidget]
+ * reads [FocusTasksStore], for the same reason.
  */
 class FocusCalendarWidget : GlanceAppWidget() {
     override suspend fun provideGlance(context: Context, id: GlanceId) {
+        val items = CalendarWidgetStore(context).items()
         provideContent {
             GlanceTheme(colors = GlanceCortexColors) {
-                CalendarWidgetContent()
+                CalendarWidgetContent(items)
             }
         }
     }
@@ -52,7 +55,7 @@ class FocusCalendarWidgetReceiver : GlanceAppWidgetReceiver() {
 }
 
 @Composable
-private fun CalendarWidgetContent() {
+private fun CalendarWidgetContent(items: List<AgendaSnapshotItem>) {
     Column(
         modifier = GlanceModifier
             .fillMaxSize()
@@ -65,9 +68,25 @@ private fun CalendarWidgetContent() {
             LocalDate.now().format(DATE_FORMAT),
             style = TextStyle(color = GlanceTheme.colors.onSurface, fontWeight = FontWeight.Bold, fontSize = 14.sp),
         )
-        Text(
-            "Your timetable will appear here",
-            style = TextStyle(color = GlanceTheme.colors.onSurfaceVariant, fontSize = 12.sp),
-        )
+        if (items.isEmpty()) {
+            Text(
+                "Your timetable will appear here",
+                style = TextStyle(color = GlanceTheme.colors.onSurfaceVariant, fontSize = 12.sp),
+            )
+        } else {
+            LazyColumn {
+                items(items, itemId = { it.hashCode().toLong() }) { item ->
+                    Text(
+                        "${item.whenLabel} — ${item.title}",
+                        maxLines = 1,
+                        style = TextStyle(
+                            color = GlanceTheme.colors.onSurface,
+                            fontSize = 13.sp,
+                            fontWeight = if (item.isExam) FontWeight.Bold else FontWeight.Normal,
+                        ),
+                    )
+                }
+            }
+        }
     }
 }
