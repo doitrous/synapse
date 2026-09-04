@@ -39,5 +39,7 @@ RUN node -e "import('mediasoup').then((m) => console.log('mediasoup', m.version,
 COPY server/ .
 COPY --from=web /web/dist ./public
 ENV PORT=8080
+# Production mode: Secure session cookies, no dev key fallback, express caching.
+ENV NODE_ENV=production
 EXPOSE 8080
 CMD ["node", "src/index.js"]
