@@ -124,7 +124,14 @@ function SpotterRoundView({
         )}
         {!imageLoading && !imageError && image && (
           <div className="relative">
-            <img src={imageUrl} alt="" draggable={false} className="block w-full" />
+            <img
+              src={imageUrl}
+              alt={t('{title}, {objective}× objective')
+                .replace('{title}', round.slideTitle)
+                .replace('{objective}', String(round.objective))}
+              draggable={false}
+              className="block w-full"
+            />
             <span
               role="img"
               aria-label={t('The structure to identify')}
