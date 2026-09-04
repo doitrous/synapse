@@ -1,5 +1,6 @@
 package com.synapse.android.feature.root
 
+import android.net.Uri
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -28,10 +29,12 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
 import com.synapse.android.AppGraph
 import com.synapse.android.core.CortexJson
 import com.synapse.android.core.auth.AuthState
@@ -78,6 +81,7 @@ import com.synapse.android.feature.qbank.ResultsViewModel
 import com.synapse.android.feature.qbank.RunnerViewModel
 import com.synapse.android.feature.qbank.SessionBuilderScreen
 import com.synapse.android.feature.qbank.TopicChooserScreen
+import com.synapse.android.feature.reader.ArticleReaderRoute
 import java.time.Duration
 import kotlinx.coroutines.flow.first
 
@@ -95,6 +99,11 @@ private const val ROUTE_BILLING = "billing"
 // A pushed detail destination, not a bottom-bar tab -- reached from Home,
 // the same shape as ROUTE_PERFORMANCE and friends below.
 private const val ROUTE_LIBRARY = "library"
+// The article Reader, pushed from the Library with the article's id. A real
+// nav destination (not the Library's internal detail state) so system back
+// returns to the Library and a "read next" link can push another Reader on top.
+private const val ROUTE_READER = "reader"
+private const val ARG_ARTICLE_ID = "articleId"
 
 /**
  * Collects [AppGraph.auth]'s state and shows exactly one thing per
@@ -362,7 +371,27 @@ private fun SignedInNavHost(
             // Same shape as ROUTE_PERFORMANCE above -- pushed from Home's grid,
             // never a bottom-nav tab. LibraryRoute holds its own ViewModel.
             composable(ROUTE_LIBRARY) {
-                LibraryRoute(graph = graph, onBack = { navController.popBackStack() })
+                LibraryRoute(
+                    graph = graph,
+                    onBack = { navController.popBackStack() },
+                    onOpenReader = { articleId -> navController.navigate("$ROUTE_READER/${Uri.encode(articleId)}") },
+                )
+            }
+            // The article Reader, carrying the article id in the route the same
+            // way arg-bearing destinations do. A "read next" link pushes a
+            // fresh Reader on top, so back walks the reading trail then returns
+            // to the Library.
+            composable(
+                route = "$ROUTE_READER/{$ARG_ARTICLE_ID}",
+                arguments = listOf(navArgument(ARG_ARTICLE_ID) { type = NavType.StringType }),
+            ) { backStackEntry ->
+                val articleId = backStackEntry.arguments?.getString(ARG_ARTICLE_ID).orEmpty()
+                ArticleReaderRoute(
+                    graph = graph,
+                    articleId = articleId,
+                    onBack = { navController.popBackStack() },
+                    onOpenArticle = { id -> navController.navigate("$ROUTE_READER/${Uri.encode(id)}") },
+                )
             }
             // Reached from Settings' Billing row, not the "MORE" grid --
             // matching iOS and the web, which both put Billing under Account.

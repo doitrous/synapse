@@ -63,7 +63,7 @@ import com.synapse.android.design.LocalCortex
  * iOS `LibraryView`/`ResourcesView` handle it.
  */
 @Composable
-fun LibraryRoute(graph: AppGraph, onBack: () -> Unit) {
+fun LibraryRoute(graph: AppGraph, onBack: () -> Unit, onOpenReader: (String) -> Unit) {
     val viewModel: LibraryViewModel = viewModel(factory = LibraryViewModel.factory(graph.store, graph.sync))
     val state by viewModel.state.collectAsState()
     val syncStatus by graph.sync.status.collectAsState()
@@ -74,7 +74,7 @@ fun LibraryRoute(graph: AppGraph, onBack: () -> Unit) {
         if (syncStatus is SyncStatus.Done) viewModel.load()
     }
 
-    LibraryScreen(viewModel = viewModel, state = state, onBack = onBack)
+    LibraryScreen(viewModel = viewModel, state = state, onBack = onBack, onOpenReader = onOpenReader)
 }
 
 /** Which detail card, if any, is open on top of the shelf. */
@@ -88,6 +88,7 @@ fun LibraryScreen(
     viewModel: LibraryViewModel,
     state: LibraryUiState,
     onBack: () -> Unit,
+    onOpenReader: (String) -> Unit,
 ) {
     val cortex = LocalCortex.current
     Column(
@@ -106,7 +107,7 @@ fun LibraryScreen(
                 CenteredMessage { Text(state.message, color = cortex.ink2) }
             }
 
-            is LibraryUiState.Loaded -> LoadedLibrary(viewModel = viewModel, state = state, onBack = onBack)
+            is LibraryUiState.Loaded -> LoadedLibrary(viewModel = viewModel, state = state, onBack = onBack, onOpenReader = onOpenReader)
         }
     }
 }
@@ -116,6 +117,7 @@ private fun LoadedLibrary(
     viewModel: LibraryViewModel,
     state: LibraryUiState.Loaded,
     onBack: () -> Unit,
+    onOpenReader: (String) -> Unit,
 ) {
     var detail by remember { mutableStateOf<LibraryDetail?>(null) }
     // 0 = Resources shelf, 1 = Library taxonomy.
@@ -144,7 +146,7 @@ private fun LoadedLibrary(
         }
         is LibraryDetail.Article -> {
             val article = state.articlesById[open.id]
-            ArticleDetailCard(article = article, onBack = { detail = null })
+            ArticleDetailCard(article = article, onBack = { detail = null }, onOpenReader = onOpenReader)
             return
         }
         null -> Unit
@@ -427,9 +429,12 @@ private fun ResourceDetailCard(resource: LibraryResource?, onBack: () -> Unit) {
         if (resource.meta.isNotEmpty()) MetaRow("Location", resource.meta)
 
         Spacer(Modifier.size(8.dp))
-        // TODO(M6 Reader): wire this to the in-document reader once
-        // ResourceReader is ported (ios/Synapse/Features/Library/ResourceReaderView.swift).
-        // Until then opening a resource goes nowhere.
+        // The article Reader is wired (see ArticleDetailCard). The *resource*
+        // reader is the PDF + ink-annotation surface
+        // (ios/Synapse/Features/Library/ResourceReaderView.swift): it needs a
+        // native PDF engine (continuous render + text search/outline) plus a
+        // resource file-download store, neither of which Android has yet.
+        // Deferred pending that decision -- see the M6 report.
         Button(
             onClick = { /* TODO: open reader */ },
             enabled = false,
@@ -441,7 +446,7 @@ private fun ResourceDetailCard(resource: LibraryResource?, onBack: () -> Unit) {
 }
 
 @Composable
-private fun ArticleDetailCard(article: ArticleCard?, onBack: () -> Unit) {
+private fun ArticleDetailCard(article: ArticleCard?, onBack: () -> Unit, onOpenReader: (String) -> Unit) {
     val cortex = LocalCortex.current
     Header(title = "Article", onBack = onBack)
     if (article == null) {
@@ -461,14 +466,12 @@ private fun ArticleDetailCard(article: ArticleCard?, onBack: () -> Unit) {
             Text(article.summary, fontSize = 14.sp, color = cortex.ink2)
         }
         Spacer(Modifier.size(8.dp))
-        // TODO(M6 Reader): the article Reader (ios .../ArticleReaderView.swift) is a
-        // separate later port. This card shows metadata only for now.
         Button(
-            onClick = { /* TODO: open reader */ },
-            enabled = false,
+            onClick = { onOpenReader(article.id) },
+            modifier = Modifier.semantics { contentDescription = "Read ${article.title}" },
             colors = ButtonDefaults.buttonColors(containerColor = cortex.primary, contentColor = cortex.onPrimary),
         ) {
-            Text("Read (coming soon)")
+            Text("Read")
         }
     }
 }
