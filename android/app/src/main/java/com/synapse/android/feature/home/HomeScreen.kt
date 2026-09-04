@@ -44,6 +44,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.synapse.android.AppGraph
+import com.synapse.android.design.CalendarGlyph
 import com.synapse.android.design.CortexColors
 import com.synapse.android.design.CortexRadius
 import com.synapse.android.design.DailyGlyph
@@ -76,6 +77,7 @@ fun HomeRoute(
     onOpenAccount: () -> Unit,
     onOpenPerformance: () -> Unit,
     onOpenNotebook: () -> Unit,
+    onOpenCalendar: () -> Unit,
 ) {
     val viewModel: HomeViewModel = viewModel(
         factory = HomeViewModel.factory(graph.auth, graph.store, graph.sync, graph.connectivity),
@@ -89,6 +91,7 @@ fun HomeRoute(
         onOpenAccount = onOpenAccount,
         onOpenPerformance = onOpenPerformance,
         onOpenNotebook = onOpenNotebook,
+        onOpenCalendar = onOpenCalendar,
     )
 }
 
@@ -121,6 +124,7 @@ fun HomeScreen(
     onOpenAccount: () -> Unit,
     onOpenPerformance: () -> Unit,
     onOpenNotebook: () -> Unit,
+    onOpenCalendar: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     var comingSoon by remember { mutableStateOf<String?>(null) }
@@ -159,6 +163,7 @@ fun HomeScreen(
                 onOpenPreviousSittings = onOpenQuestionBank,
                 onOpenPerformance = onOpenPerformance,
                 onOpenNotebook = onOpenNotebook,
+                onOpenCalendar = onOpenCalendar,
             )
         }
     }
@@ -357,6 +362,7 @@ private fun MoreGrid(
     onOpenPreviousSittings: () -> Unit,
     onOpenPerformance: () -> Unit,
     onOpenNotebook: () -> Unit,
+    onOpenCalendar: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -405,7 +411,13 @@ private fun MoreGrid(
                 onClick = onOpenNotebook,
                 modifier = Modifier.weight(1f),
             )
-            Box(modifier = Modifier.weight(1f))
+            GridCard(
+                icon = { CalendarGlyph(color = cortex.accentStrong) },
+                label = "Calendar",
+                sublabel = "Your timetable",
+                onClick = onOpenCalendar,
+                modifier = Modifier.weight(1f),
+            )
         }
     }
 }

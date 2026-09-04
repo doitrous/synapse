@@ -50,6 +50,8 @@ import com.synapse.android.design.QuestionBankGlyph
 import com.synapse.android.feature.settings.SettingsScreen
 import com.synapse.android.feature.settings.SettingsViewModel
 import com.synapse.android.feature.auth.SignInScreen
+import com.synapse.android.feature.calendar.CalendarScreen
+import com.synapse.android.feature.calendar.CalendarViewModel
 import com.synapse.android.feature.focus.FocusTimerRoute
 import com.synapse.android.feature.home.HomeRoute
 import com.synapse.android.feature.notebook.NotebookScreen
@@ -79,6 +81,7 @@ private const val ROUTE_QOTD = "qotd"
 private const val ROUTE_ACCOUNT = "account"
 private const val ROUTE_PERFORMANCE = "performance"
 private const val ROUTE_NOTEBOOK = "notebook"
+private const val ROUTE_CALENDAR = "calendar"
 
 /**
  * Collects [AppGraph.auth]'s state and shows exactly one thing per
@@ -301,6 +304,7 @@ private fun SignedInNavHost(
                     onOpenAccount = { navController.navigateToTab(ROUTE_ACCOUNT) },
                     onOpenPerformance = { navController.navigate(ROUTE_PERFORMANCE) },
                     onOpenNotebook = { navController.navigate(ROUTE_NOTEBOOK) },
+                    onOpenCalendar = { navController.navigate(ROUTE_CALENDAR) },
                 )
             }
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
@@ -319,6 +323,10 @@ private fun SignedInNavHost(
             composable(ROUTE_NOTEBOOK) {
                 val viewModel: NotebookViewModel = viewModel(factory = NotebookViewModel.factory(graph.store, graph.sync, graph.connectivity))
                 NotebookScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
+            }
+            composable(ROUTE_CALENDAR) {
+                val viewModel: CalendarViewModel = viewModel(factory = CalendarViewModel.factory(graph.store, graph.sync, graph.connectivity))
+                CalendarScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
             }
             composable(ROUTE_ACCOUNT) {
                 val viewModel: SettingsViewModel = viewModel(

@@ -274,3 +274,28 @@ fun NotebookGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color 
         drawLine(color, Offset(w * 0.34f, h * 0.58f), Offset(w * 0.62f, h * 0.58f), stroke * 0.8f, StrokeCap.Round)
     }
 }
+
+/** A calendar page: a frame, a header band, and one date dot -- the Calendar. */
+@Composable
+fun CalendarGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color = LocalContentColor.current) {
+    Canvas(modifier = modifier.size(size)) {
+        val stroke = strokeWidthFor(this.size.minDimension)
+        val w = this.size.width
+        val h = this.size.height
+        val corner = androidx.compose.ui.geometry.CornerRadius(stroke, stroke)
+        drawRoundRect(
+            color = color,
+            topLeft = Offset(w * 0.14f, h * 0.20f),
+            size = Size(w * 0.72f, h * 0.66f),
+            cornerRadius = corner,
+            style = Stroke(width = stroke),
+        )
+        // The header band separating the month label from the grid.
+        drawLine(color, Offset(w * 0.14f, h * 0.38f), Offset(w * 0.86f, h * 0.38f), stroke, StrokeCap.Round)
+        // The two hangers at the top, like a wall calendar's rings.
+        drawLine(color, Offset(w * 0.34f, h * 0.14f), Offset(w * 0.34f, h * 0.28f), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.66f, h * 0.14f), Offset(w * 0.66f, h * 0.28f), stroke, StrokeCap.Round)
+        // Today's date, marked.
+        drawCircle(color = color, radius = stroke * 0.9f, center = Offset(w * 0.50f, h * 0.62f))
+    }
+}
