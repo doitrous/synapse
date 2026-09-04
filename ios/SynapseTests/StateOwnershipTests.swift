@@ -12,6 +12,11 @@ struct StateOwnershipTests {
     @Test("a student's own work is routed to their private store", arguments: [
         "synapse.qbank.marked.v1",
         "synapse.qbank.activeSession.v1",
+        // The rebrand renamed the qbank and practical families; both spellings
+        // must route to the private store during the transition.
+        "nishany.qbank.marked.v1",
+        "nishany.qbank.activeSession.v1",
+        "nishany.practical.progress.v1",
         "synapse.progress.attempts.2026-08",
         "synapse.progress.mastery.v1",
         "synapse.notebook.notes",

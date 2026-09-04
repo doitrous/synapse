@@ -9,10 +9,17 @@ import Foundation
 /// never reads, and their work would simply not be there when they opened a
 /// laptop. Neither side would report an error.
 ///
-/// The convention the patterns encode: a dotted prefix (`synapse.qbank.…`)
+/// The convention the patterns encode: a dotted prefix (`nishany.qbank.…`)
 /// means the document belongs to one student.
 enum StateOwnership {
 
+    // `src/lib/stateOwnership.ts` was rebranded to `nishany…` patterns. The
+    // qbank and practical families were renamed on this platform too, so they
+    // are matched under `nishany…`; the entries still spelled `synapse…` are
+    // for the surfaces this task did not rename, whose keys stay old until they
+    // are migrated in turn. Both prefixes are matched rather than replaced,
+    // because this regex runs against the raw key to pick the endpoint, before
+    // the server canonicalises `synapse…` to `nishany…` on the wire.
     private static let userOwnedPatterns: [NSRegularExpression] = {
         let sources = [
             "^synapse-lang$",
@@ -24,8 +31,10 @@ enum StateOwnership {
             "^synapse-notification-read-v1-",
             "^synapse-applied-voucher-v1$",
             "^synapse\\.qbank\\.",
+            "^nishany\\.qbank\\.",
             "^synapse\\.flashcards\\.",
             "^synapse\\.practical\\.",
+            "^nishany\\.practical\\.",
             "^synapse\\.essay\\.",
             "^synapse\\.highlights\\.",
             "^synapse\\.annotations\\.",

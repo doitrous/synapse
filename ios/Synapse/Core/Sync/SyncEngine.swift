@@ -63,6 +63,19 @@ final class SyncEngine {
         case failed(String)
     }
 
+    /// The rebrand renamed these five synced documents from `synapse…` to
+    /// `nishany…` (see `QBankStore`, `LiveSession` and `PracticalProgress`). An
+    /// install from before the rename may hold a queued offline write under the
+    /// old key; this maps old → new so a one-time on-device rename carries it
+    /// forward to the document the web app now reads.
+    static let legacyKeyRenames: [(old: String, new: String)] = [
+        ("synapse.qbank.activeSession.v1", LiveSession.key),
+        ("synapse.qbank.marked.v1", QBankStore.markedKey),
+        ("synapse.qbank.questionNotes.v1", QBankStore.notesKey),
+        ("synapse.qbank.sessionNames.v1", QBankStore.namesKey),
+        ("synapse.practical.progress.v1", PracticalProgress.key),
+    ]
+
     private(set) var status: Status = .idle
     private(set) var pendingUploads = 0
 
@@ -88,6 +101,10 @@ final class SyncEngine {
         inFlight = true
         status = .syncing
         defer { inFlight = false }
+
+        // Carry any pre-rebrand `synapse…` queued write forward before the
+        // drain sends it. Idempotent and self-limiting once the old keys are gone.
+        try? await store.renameLegacyUserStateKeys(Self.legacyKeyRenames)
 
         do {
             let changed = try await pullCatalogues()

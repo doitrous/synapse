@@ -217,6 +217,49 @@ struct LocalStoreTests {
         }
     }
 
+    @Suite("The rebrand key rename")
+    struct LegacyKeyRename {
+
+        private func makeStore() throws -> LocalStore { try LocalStore(path: nil) }
+
+        @Test("a write queued under the old key is carried to the new one")
+        func carriesForward() async throws {
+            let store = try makeStore()
+            try await store.enqueue(key: "synapse.qbank.marked.v1", payload: Data("[]".utf8))
+
+            try await store.renameLegacyUserStateKeys([("synapse.qbank.marked.v1", "nishany.qbank.marked.v1")])
+
+            let keys = try await store.pendingWrites().map(\.key)
+            #expect(keys == ["nishany.qbank.marked.v1"])
+        }
+
+        @Test("a write already queued under the new key is not clobbered")
+        func keepsNewer() async throws {
+            let store = try makeStore()
+            try await store.enqueue(key: "nishany.qbank.marked.v1", payload: Data("new".utf8), at: Date(timeIntervalSince1970: 2))
+            try await store.enqueue(key: "synapse.qbank.marked.v1", payload: Data("old".utf8), at: Date(timeIntervalSince1970: 1))
+
+            try await store.renameLegacyUserStateKeys([("synapse.qbank.marked.v1", "nishany.qbank.marked.v1")])
+
+            let rows = try await store.pendingWrites()
+            #expect(rows.map(\.key) == ["nishany.qbank.marked.v1"])
+            #expect(rows.first?.payload == Data("new".utf8))
+        }
+
+        @Test("running it again, or with nothing to move, is a no-op")
+        func idempotent() async throws {
+            let store = try makeStore()
+            try await store.enqueue(key: "nishany.qbank.marked.v1", payload: Data("v".utf8))
+            let renames = [("synapse.qbank.marked.v1", "nishany.qbank.marked.v1")]
+
+            try await store.renameLegacyUserStateKeys(renames)
+            try await store.renameLegacyUserStateKeys(renames)
+
+            let keys = try await store.pendingWrites().map(\.key)
+            #expect(keys == ["nishany.qbank.marked.v1"])
+        }
+    }
+
     @Test("signing out leaves nothing of the previous student behind")
     func clearAll() async throws {
         let store = try makeStore()

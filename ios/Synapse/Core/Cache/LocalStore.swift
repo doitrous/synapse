@@ -356,6 +356,30 @@ actor LocalStore {
         }
     }
 
+    /// One-time on-device rename of the rebrand's synced keys from their old
+    /// `synapse…` spelling to `nishany…`.
+    ///
+    /// These documents are never cached for reading on iOS — they are fetched
+    /// from the server each time — so the only local copy that could be stranded
+    /// by the rename is a write queued while offline before the upgrade. This
+    /// re-keys such a write so it reaches the document the web app now reads,
+    /// rather than leaning on the server's transitional key-forwarding shim.
+    ///
+    /// Idempotent: a key already renamed matches nothing, and an old entry whose
+    /// new twin is already queued is dropped in favour of the newer one rather
+    /// than colliding on the primary key.
+    func renameLegacyUserStateKeys(_ renames: [(old: String, new: String)]) throws {
+        try dbQueue.write { db in
+            for (old, new) in renames {
+                try db.execute(
+                    sql: "DELETE FROM outboxEntry WHERE key = ? AND EXISTS (SELECT 1 FROM outboxEntry WHERE key = ?)",
+                    arguments: [old, new]
+                )
+                try db.execute(sql: "UPDATE outboxEntry SET key = ? WHERE key = ?", arguments: [new, old])
+            }
+        }
+    }
+
     func pendingWrites() throws -> [(key: String, payload: Data, queuedAt: Date, attempts: Int)] {
         try dbQueue.read { db in
             try Row.fetchAll(db, sql: "SELECT * FROM outboxEntry ORDER BY queuedAt")
