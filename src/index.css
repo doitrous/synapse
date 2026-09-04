@@ -34,7 +34,7 @@
 
   --color-ink: #161920;        /* near-black, faintly cool */
   --color-ink-2: #5d636f;      /* body-safe muted, ≥4.5:1 on paper */
-  --color-ink-3: #949aa8;      /* faint — large or decorative only */
+  --color-ink-3: #686e7a;      /* muted, ~4.77:1 on paper — safe for small text too, not decorative-only */
 
   --color-line: #e3e7ef;       /* hairline */
   --color-line-2: #ccd3e0;     /* stronger rule / control border */
@@ -242,7 +242,7 @@
 
   --color-ink: #1f1b16;
   --color-ink-2: #675e51;
-  --color-ink-3: #9b9284;
+  --color-ink-3: #746b5e;      /* muted, ~4.70:1 on paper */
 
   --color-line: #e9e0d2;
   --color-line-2: #d7ccb9;
@@ -500,7 +500,7 @@
 
   --color-ink: #dfe2e8;        /* ~16.2:1 on paper, ~15.2:1 on surface — legible without glaring */
   --color-ink-2: #9aa1af;      /* ~8.1:1 on paper, ~7.6:1 on surface */
-  --color-ink-3: #6b7280;      /* faint, decorative-only — ~4.3:1 on paper */
+  --color-ink-3: #747b89;      /* muted, ~4.94:1 on paper */
 
   --color-line: #1e1f24;
   --color-line-2: #32333a;
