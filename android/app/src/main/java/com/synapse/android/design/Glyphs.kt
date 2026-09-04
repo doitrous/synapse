@@ -299,3 +299,24 @@ fun CalendarGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color 
         drawCircle(color = color, radius = stroke * 0.9f, center = Offset(w * 0.50f, h * 0.62f))
     }
 }
+
+/** An open book beside "文/A" -- Terminology & taxonomy: a dictionary of terms. */
+@Composable
+fun TerminologyGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color = LocalContentColor.current) {
+    Canvas(modifier = modifier.size(size)) {
+        val stroke = strokeWidthFor(this.size.minDimension)
+        val w = this.size.width
+        val h = this.size.height
+        // The book's two pages, meeting at a centre spine, like an open cover.
+        val spineX = w * 0.5f
+        val topY = h * 0.24f
+        val bottomY = h * 0.78f
+        drawLine(color, Offset(spineX, topY), Offset(spineX, bottomY), stroke, StrokeCap.Round)
+        drawLine(color, Offset(spineX, topY), Offset(w * 0.16f, h * 0.30f), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.16f, h * 0.30f), Offset(w * 0.16f, h * 0.72f), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.16f, h * 0.72f), Offset(spineX, bottomY), stroke, StrokeCap.Round)
+        drawLine(color, Offset(spineX, topY), Offset(w * 0.84f, h * 0.30f), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.84f, h * 0.30f), Offset(w * 0.84f, h * 0.72f), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.84f, h * 0.72f), Offset(spineX, bottomY), stroke, StrokeCap.Round)
+    }
+}

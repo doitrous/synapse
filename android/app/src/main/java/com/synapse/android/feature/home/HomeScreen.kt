@@ -57,6 +57,7 @@ import com.synapse.android.design.PerformanceGlyph
 import com.synapse.android.design.PracticalGlyph
 import com.synapse.android.design.QuestionBankGlyph
 import com.synapse.android.design.ResourcesGlyph
+import com.synapse.android.design.TerminologyGlyph
 import com.synapse.android.design.Wordmark
 import com.synapse.android.core.ui.StateHost
 import com.synapse.android.core.ui.UiState
@@ -78,6 +79,7 @@ fun HomeRoute(
     onOpenPerformance: () -> Unit,
     onOpenNotebook: () -> Unit,
     onOpenCalendar: () -> Unit,
+    onOpenTerminology: () -> Unit,
 ) {
     val viewModel: HomeViewModel = viewModel(
         factory = HomeViewModel.factory(graph.auth, graph.store, graph.sync, graph.connectivity),
@@ -92,6 +94,7 @@ fun HomeRoute(
         onOpenPerformance = onOpenPerformance,
         onOpenNotebook = onOpenNotebook,
         onOpenCalendar = onOpenCalendar,
+        onOpenTerminology = onOpenTerminology,
     )
 }
 
@@ -125,6 +128,7 @@ fun HomeScreen(
     onOpenPerformance: () -> Unit,
     onOpenNotebook: () -> Unit,
     onOpenCalendar: () -> Unit,
+    onOpenTerminology: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     var comingSoon by remember { mutableStateOf<String?>(null) }
@@ -164,6 +168,7 @@ fun HomeScreen(
                 onOpenPerformance = onOpenPerformance,
                 onOpenNotebook = onOpenNotebook,
                 onOpenCalendar = onOpenCalendar,
+                onOpenTerminology = onOpenTerminology,
             )
         }
     }
@@ -363,6 +368,7 @@ private fun MoreGrid(
     onOpenPerformance: () -> Unit,
     onOpenNotebook: () -> Unit,
     onOpenCalendar: () -> Unit,
+    onOpenTerminology: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -418,6 +424,16 @@ private fun MoreGrid(
                 onClick = onOpenCalendar,
                 modifier = Modifier.weight(1f),
             )
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            GridCard(
+                icon = { TerminologyGlyph(color = cortex.accentStrong) },
+                label = "Terminology",
+                sublabel = "Glossary & taxonomy",
+                onClick = onOpenTerminology,
+                modifier = Modifier.weight(1f),
+            )
+            Box(modifier = Modifier.weight(1f))
         }
     }
 }

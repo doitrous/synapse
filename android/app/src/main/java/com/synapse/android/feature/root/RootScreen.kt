@@ -58,6 +58,8 @@ import com.synapse.android.feature.notebook.NotebookScreen
 import com.synapse.android.feature.notebook.NotebookViewModel
 import com.synapse.android.feature.performance.PerformanceScreen
 import com.synapse.android.feature.performance.PerformanceViewModel
+import com.synapse.android.feature.taxonomy.TerminologyScreen
+import com.synapse.android.feature.taxonomy.TerminologyViewModel
 import com.synapse.android.feature.practical.PracticalListScreen
 import com.synapse.android.feature.qotd.QotdRoute
 import com.synapse.android.feature.practical.PracticalReaderScreen
@@ -82,6 +84,7 @@ private const val ROUTE_ACCOUNT = "account"
 private const val ROUTE_PERFORMANCE = "performance"
 private const val ROUTE_NOTEBOOK = "notebook"
 private const val ROUTE_CALENDAR = "calendar"
+private const val ROUTE_TERMINOLOGY = "terminology"
 
 /**
  * Collects [AppGraph.auth]'s state and shows exactly one thing per
@@ -305,6 +308,7 @@ private fun SignedInNavHost(
                     onOpenPerformance = { navController.navigate(ROUTE_PERFORMANCE) },
                     onOpenNotebook = { navController.navigate(ROUTE_NOTEBOOK) },
                     onOpenCalendar = { navController.navigate(ROUTE_CALENDAR) },
+                    onOpenTerminology = { navController.navigate(ROUTE_TERMINOLOGY) },
                 )
             }
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
@@ -327,6 +331,10 @@ private fun SignedInNavHost(
             composable(ROUTE_CALENDAR) {
                 val viewModel: CalendarViewModel = viewModel(factory = CalendarViewModel.factory(graph.store, graph.sync, graph.connectivity))
                 CalendarScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
+            }
+            composable(ROUTE_TERMINOLOGY) {
+                val viewModel: TerminologyViewModel = viewModel(factory = TerminologyViewModel.factory(graph.store))
+                TerminologyScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
             }
             composable(ROUTE_ACCOUNT) {
                 val viewModel: SettingsViewModel = viewModel(
