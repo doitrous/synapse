@@ -233,3 +233,18 @@ fun ResourcesGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color
         drawLine(color, Offset(w * 0.66f, h * 0.20f), Offset(w * 0.76f, h * 0.30f), stroke, StrokeCap.Round)
     }
 }
+
+/** Three ascending bars on a baseline -- Performance. */
+@Composable
+fun PerformanceGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color = LocalContentColor.current) {
+    Canvas(modifier = modifier.size(size)) {
+        val stroke = strokeWidthFor(this.size.minDimension)
+        val w = this.size.width
+        val h = this.size.height
+        val baseline = h * 0.82f
+        drawLine(color, Offset(w * 0.08f, baseline), Offset(w * 0.92f, baseline), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.28f, h * 0.56f), Offset(w * 0.28f, baseline), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.50f, h * 0.36f), Offset(w * 0.50f, baseline), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.72f, h * 0.18f), Offset(w * 0.72f, baseline), stroke, StrokeCap.Round)
+    }
+}

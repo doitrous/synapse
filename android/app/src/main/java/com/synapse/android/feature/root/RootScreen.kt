@@ -52,6 +52,8 @@ import com.synapse.android.feature.settings.SettingsViewModel
 import com.synapse.android.feature.auth.SignInScreen
 import com.synapse.android.feature.focus.FocusTimerRoute
 import com.synapse.android.feature.home.HomeRoute
+import com.synapse.android.feature.performance.PerformanceScreen
+import com.synapse.android.feature.performance.PerformanceViewModel
 import com.synapse.android.feature.practical.PracticalListScreen
 import com.synapse.android.feature.qotd.QotdRoute
 import com.synapse.android.feature.practical.PracticalReaderScreen
@@ -73,6 +75,7 @@ private const val ROUTE_QBANK = "qbank"
 private const val ROUTE_PRACTICAL = "practical"
 private const val ROUTE_QOTD = "qotd"
 private const val ROUTE_ACCOUNT = "account"
+private const val ROUTE_PERFORMANCE = "performance"
 
 /**
  * Collects [AppGraph.auth]'s state and shows exactly one thing per
@@ -293,11 +296,20 @@ private fun SignedInNavHost(
                     onOpenPractical = { navController.navigateToTab(ROUTE_PRACTICAL) },
                     onOpenDaily = { navController.navigateToTab(ROUTE_QOTD) },
                     onOpenAccount = { navController.navigateToTab(ROUTE_ACCOUNT) },
+                    onOpenPerformance = { navController.navigate(ROUTE_PERFORMANCE) },
                 )
             }
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
             composable(ROUTE_PRACTICAL) { PracticalRoute(graph) }
             composable(ROUTE_QOTD) { QotdRoute(graph) }
+            // A plain pushed destination, not a bottom-nav tab -- reached only
+            // from Home's "MORE" grid, with a real back-stack entry so the
+            // system back gesture and PerformanceScreen's own Back button both
+            // return to Home, unlike navigateToTab's saved/restored tab state.
+            composable(ROUTE_PERFORMANCE) {
+                val viewModel: PerformanceViewModel = viewModel(factory = PerformanceViewModel.factory(graph.store))
+                PerformanceScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
+            }
             composable(ROUTE_ACCOUNT) {
                 val viewModel: SettingsViewModel = viewModel(
                     factory = SettingsViewModel.factory(graph.auth, graph.api, graph.themePreference, graph.languagePreference),

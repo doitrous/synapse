@@ -51,6 +51,7 @@ import com.synapse.android.design.FlashcardsGlyph
 import com.synapse.android.design.HistoryGlyph
 import com.synapse.android.design.LibraryGlyph
 import com.synapse.android.design.LocalCortex
+import com.synapse.android.design.PerformanceGlyph
 import com.synapse.android.design.PracticalGlyph
 import com.synapse.android.design.QuestionBankGlyph
 import com.synapse.android.design.ResourcesGlyph
@@ -72,6 +73,7 @@ fun HomeRoute(
     onOpenPractical: () -> Unit,
     onOpenDaily: () -> Unit,
     onOpenAccount: () -> Unit,
+    onOpenPerformance: () -> Unit,
 ) {
     val viewModel: HomeViewModel = viewModel(
         factory = HomeViewModel.factory(graph.auth, graph.store, graph.sync, graph.connectivity),
@@ -83,6 +85,7 @@ fun HomeRoute(
         onOpenPractical = onOpenPractical,
         onOpenDaily = onOpenDaily,
         onOpenAccount = onOpenAccount,
+        onOpenPerformance = onOpenPerformance,
     )
 }
 
@@ -113,6 +116,7 @@ fun HomeScreen(
     onOpenPractical: () -> Unit,
     onOpenDaily: () -> Unit,
     onOpenAccount: () -> Unit,
+    onOpenPerformance: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     var comingSoon by remember { mutableStateOf<String?>(null) }
@@ -149,6 +153,7 @@ fun HomeScreen(
                 onOpenPractical = onOpenPractical,
                 onOpenDaily = onOpenDaily,
                 onOpenPreviousSittings = onOpenQuestionBank,
+                onOpenPerformance = onOpenPerformance,
             )
         }
     }
@@ -345,6 +350,7 @@ private fun MoreGrid(
     onOpenPractical: () -> Unit,
     onOpenDaily: () -> Unit,
     onOpenPreviousSittings: () -> Unit,
+    onOpenPerformance: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -377,7 +383,13 @@ private fun MoreGrid(
                 onClick = onOpenPreviousSittings,
                 modifier = Modifier.weight(1f),
             )
-            Spacer(modifier = Modifier.weight(1f))
+            GridCard(
+                icon = { PerformanceGlyph(color = cortex.accentStrong) },
+                label = "Performance",
+                sublabel = "Your progress",
+                onClick = onOpenPerformance,
+                modifier = Modifier.weight(1f),
+            )
         }
     }
 }
