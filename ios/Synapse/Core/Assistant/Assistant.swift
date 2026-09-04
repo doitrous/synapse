@@ -41,7 +41,7 @@ struct AssistantContext: Encodable, Equatable, Sendable {
 
 /// Failures worth phrasing differently, because the student's next move differs.
 enum AssistantFailure: Equatable, Sendable {
-    case quota, notOnPlan, unavailable, error
+    case quota, notOnPlan, unavailable, error, offline
 
     var message: String {
         switch self {
@@ -49,6 +49,7 @@ enum AssistantFailure: Equatable, Sendable {
         case .notOnPlan: "The assistant is not included on your plan."
         case .unavailable: "The assistant is unavailable right now."
         case .error: "That did not go through. Your message is back in the box — try again."
+        case .offline: "You're offline. Your message is back in the box — connect and try again."
         }
     }
 }
@@ -151,6 +152,11 @@ final class AssistantModel {
     }
 
     func clearFailure() { failure = nil }
+
+    /// Told to a message that never got sent because there was plainly no
+    /// connection to send it over — cheaper and more honest than letting the
+    /// request go out just to fail with the generic message.
+    func markOffline() { failure = .offline }
 
     /// Consumed once, so re-opening the panel does not resurrect old text.
     func takeReturned() -> String {

@@ -51,6 +51,11 @@ struct NoteResourceRef: Codable, Identifiable, Equatable, Sendable {
 final class NotebookModel {
     private(set) var notes: [Note] = []
     private(set) var isLoading = true
+    /// Set when the read failed and could not be a genuine "written nothing
+    /// yet" — the whole notebook lives on the server alone, so failing
+    /// quietly here would show a student's real notes as if they did not
+    /// exist.
+    private(set) var loadError: String?
 
     private let api: SynapseAPI
     private let sync: SyncEngine
@@ -65,6 +70,11 @@ final class NotebookModel {
         defer { isLoading = false }
         if let remote = try? await api.userState([Note].self, key: Note.storageKey) {
             notes = (remote.value ?? []).sorted { $0.updatedAt > $1.updatedAt }
+            loadError = nil
+        } else {
+            loadError = Connectivity.shared.isOnline
+                ? "Your notes could not be opened on this device."
+                : "You're offline, so your notes can't be shown right now."
         }
     }
 
@@ -126,35 +136,32 @@ struct NotebookView: View {
     }
 
     private func content(_ model: NotebookModel) -> some View {
-        Group {
-            if model.notes.isEmpty {
-                EmptyStateView(
-                    symbol: "note.text",
-                    title: "No notes yet",
-                    detail: "Anything you write here syncs to the website too."
-                )
-            } else {
-                List {
-                    ForEach(filtered(model.notes)) { note in
-                        Button {
-                            editing = note
-                        } label: {
-                            NoteRow(note: note)
-                        }
-                        .buttonStyle(.plain)
-                        .listRowBackground(Theme.surface)
-                        .swipeActions {
-                            Button(strings("Delete"), role: .destructive) {
-                                Task { await model.delete(note) }
-                            }
+        StateSurface(
+            isLoading: model.isLoading, isEmpty: model.notes.isEmpty, error: model.loadError,
+            retry: { Task { await model.load() } },
+            empty: .init(symbol: "note.text", title: "No notes yet",
+                         detail: "Anything you write here syncs to the website too.")
+        ) {
+            List {
+                ForEach(filtered(model.notes)) { note in
+                    Button {
+                        editing = note
+                    } label: {
+                        NoteRow(note: note)
+                    }
+                    .buttonStyle(.plain)
+                    .listRowBackground(Theme.surface)
+                    .swipeActions {
+                        Button(strings("Delete"), role: .destructive) {
+                            Task { await model.delete(note) }
                         }
                     }
                 }
-                .listStyle(.insetGrouped)
-                .scrollContentBackground(.hidden)
-                .background(Theme.paper)
-                .searchable(text: $query, prompt: "Search notes")
             }
+            .listStyle(.insetGrouped)
+            .scrollContentBackground(.hidden)
+            .background(Theme.paper)
+            .searchable(text: $query, prompt: "Search notes")
         }
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {

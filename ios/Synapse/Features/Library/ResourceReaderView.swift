@@ -62,7 +62,7 @@ struct ResourceReaderView: View {
             case .downloading(let fraction):
                 downloading(fraction)
             case .failed(let message):
-                EmptyStateView(symbol: "exclamationmark.triangle", title: "Could not open it", detail: message)
+                failed(message)
             case .notDownloaded:
                 notDownloaded
             }
@@ -477,6 +477,29 @@ struct ResourceReaderView: View {
                 .tint(Theme.primary)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+
+    /// A download that did not make it, with a way to try it again — the same
+    /// error+retry shape `StateSurface` gives every other network-only read,
+    /// applied here since a download is driven by a state machine of its own
+    /// rather than a plain loading flag.
+    private func failed(_ message: String) -> some View {
+        EmptyStateView(symbol: "exclamationmark.triangle", title: "Could not open it", detail: message)
+            .safeAreaInset(edge: .bottom) {
+                Button {
+                    files.download(resource.id)
+                } label: {
+                    Text(strings("Retry"))
+                        .font(Theme.ui(15, weight: 600))
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 44)
+                        .background(Theme.primary)
+                        .foregroundStyle(Theme.onPrimary)
+                        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+                }
+                .padding(.horizontal, 32)
+                .padding(.bottom, 20)
+            }
     }
 
     private var notDownloaded: some View {

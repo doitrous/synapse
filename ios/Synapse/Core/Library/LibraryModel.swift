@@ -23,6 +23,10 @@ final class LibraryModel {
     /// Set when the catalogue is empty, explaining which of the several
     /// reasons applies — a blank screen tells a student nothing.
     private(set) var emptyReason: String?
+    /// Set when the read itself failed — a local decode error, not "nothing
+    /// published". Kept apart from `emptyReason`: an empty catalogue asks a
+    /// student to wait for content, a broken read asks them to retry.
+    private(set) var loadError: String?
 
     /// Every readable article, by ID, for the taxonomy views.
     private(set) var articlesById: [String: Article] = [:]
@@ -101,6 +105,7 @@ final class LibraryModel {
 
     func load() async {
         isLoading = true
+        loadError = nil
         defer { isLoading = false }
 
         do {
@@ -158,7 +163,7 @@ final class LibraryModel {
             emptyReason = chapters.isEmpty ? await describeEmptiness(articleCount: items.count) : nil
         } catch {
             chapters = []
-            emptyReason = "The library could not be opened on this device."
+            loadError = "The library could not be opened on this device."
         }
     }
 

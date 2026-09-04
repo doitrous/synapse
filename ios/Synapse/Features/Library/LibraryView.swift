@@ -46,22 +46,19 @@ struct LibraryView: View {
 
     var body: some View {
         NavigationStack {
-            Group {
-                if model.isLoading {
-                    ProgressView().tint(Theme.primary)
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                } else if let reason = model.emptyReason {
-                    EmptyStateView(symbol: "books.vertical", title: "Nothing to read yet", detail: reason)
-                } else {
-                    // Pinned with safeAreaInset rather than stacked above the
-                    // content: a plain VStack row above a List ends up
-                    // competing with the navigation bar's own layout, and the
-                    // row silently loses.
-                    content
-                        .safeAreaInset(edge: .top, spacing: 0) {
-                            ViewTabs(selection: $view)
-                        }
-                }
+            StateSurface(
+                isLoading: model.isLoading, isEmpty: model.emptyReason != nil, error: model.loadError,
+                retry: { Task { await model.load() } },
+                empty: model.emptyReason.map { .init(symbol: "books.vertical", title: "Nothing to read yet", detail: $0) }
+            ) {
+                // Pinned with safeAreaInset rather than stacked above the
+                // content: a plain VStack row above a List ends up
+                // competing with the navigation bar's own layout, and the
+                // row silently loses.
+                content
+                    .safeAreaInset(edge: .top, spacing: 0) {
+                        ViewTabs(selection: $view)
+                    }
             }
             .background(Theme.paper)
             .navigationTitle(strings("Library"))

@@ -210,6 +210,12 @@ struct StudyAssistantView: View {
     private func ask(_ text: String) {
         let message = text.trimmed
         guard !message.isEmpty, !model.pending, !model.isExhausted else { return }
+        guard Connectivity.shared.isOnline else {
+            // Caught before a message is even appended, so there is nothing to
+            // roll back — the draft simply stays put.
+            model.markOffline()
+            return
+        }
         draft = ""
         model.clearFailure()
 

@@ -71,6 +71,9 @@ final class ResourceModel {
     }
     private(set) var isLoading = true
     private(set) var emptyReason: String?
+    /// A local decode error, distinguished from `emptyReason`'s "nothing
+    /// published" — a student should retry one and simply wait for the other.
+    private(set) var loadError: String?
     /// Which resources this student has saved. Kept per-student on the server
     /// under the same key the web app uses.
     private(set) var bookmarks: Set<String> = []
@@ -101,6 +104,7 @@ final class ResourceModel {
 
     func load() async {
         isLoading = true
+        loadError = nil
         defer { isLoading = false }
 
         do {
@@ -119,7 +123,7 @@ final class ResourceModel {
             emptyReason = folders.isEmpty ? await describeEmptiness() : nil
         } catch {
             folders = []
-            emptyReason = "The resource catalogue could not be opened on this device."
+            loadError = "The resource catalogue could not be opened on this device."
         }
 
         await loadBookmarks()

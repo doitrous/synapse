@@ -23,15 +23,12 @@ struct ResourcesView: View {
 
     var body: some View {
         NavigationStack {
-            Group {
-                if model.isLoading {
-                    ProgressView().tint(Theme.primary)
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                } else if let reason = model.emptyReason {
-                    EmptyStateView(symbol: "folder", title: "No resources yet", detail: reason)
-                } else {
-                    folderList
-                }
+            StateSurface(
+                isLoading: model.isLoading, isEmpty: model.emptyReason != nil, error: model.loadError,
+                retry: { Task { await model.load() } },
+                empty: model.emptyReason.map { .init(symbol: "folder", title: "No resources yet", detail: $0) }
+            ) {
+                folderList
             }
             .background(Theme.paper)
             .navigationTitle(strings("Resources"))
@@ -64,6 +61,14 @@ struct ResourcesView: View {
         List {
             Section {
                 filters
+                // Saving was already computed and refused rather than
+                // silently accepted; say why, since the bookmark button
+                // otherwise just looks like it does nothing.
+                if let problem = model.bookmarkProblem {
+                    Text(problem)
+                        .font(Theme.ui(12))
+                        .foregroundStyle(Theme.warning)
+                }
             }
             .listRowBackground(Theme.surface)
 

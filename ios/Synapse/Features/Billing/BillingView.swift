@@ -24,22 +24,22 @@ struct BillingView: View {
     }
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
-                if model.isLoading {
-                    ProgressView().tint(Theme.primary)
-                        .frame(maxWidth: .infinity, alignment: .center)
-                        .padding(.top, 40)
-                } else {
+        // Everything on this screen — the entitlement most of all — is a
+        // direct server read with no local cache behind it, so unlike most of
+        // the app it genuinely cannot work with no connection.
+        StateSurface(isLoading: model.isLoading, error: model.loadError, retry: { Task { await model.load() } }) {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 16) {
                     yourPlan
                     payments
                     voucher
                     if model.offer.enabled { studentId }
                 }
+                .padding(16)
+                .frame(maxWidth: 680)
+                .frame(maxWidth: .infinity)
             }
-            .padding(16)
-            .frame(maxWidth: 680)
-            .frame(maxWidth: .infinity)
+            .background(Theme.paper)
         }
         .background(Theme.paper)
         .navigationTitle(strings("Billing"))

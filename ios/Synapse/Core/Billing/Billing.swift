@@ -141,6 +141,11 @@ final class BillingModel {
     private(set) var isBusy = false
     /// What the last redemption attempt said, in the words the server used.
     private(set) var message = ""
+    /// Set when the plan itself — everything above, entitlement included —
+    /// could not be read. There is no local cache to fall back on, and
+    /// showing "No subscription" to a student who could not be reached is
+    /// worse than saying the read failed.
+    private(set) var loadError: String?
 
     private let api: SynapseAPI?
     private let sync: SyncEngine?
@@ -184,8 +189,20 @@ final class BillingModel {
         // the whole list; an empty one only costs the applied voucher's name.
         vouchers = (await remoteVouchers)?.value ?? []
         submission = (await remoteSubmission)?.value
-        entitlement = (await me)?.entitlement
-        subscription = (await me)?.subscription
+
+        // `me` is the one read this screen cannot do without: it is where the
+        // entitlement and subscription come from, and defaulting it to "no
+        // subscription" on a failed read would tell a paying student they
+        // have nothing.
+        if let resolved = await me {
+            entitlement = resolved.entitlement
+            subscription = resolved.subscription
+            loadError = nil
+        } else {
+            loadError = Connectivity.shared.isOnline
+                ? "Your plan could not be read. Try again."
+                : "You're offline, so your plan can't be shown right now."
+        }
         redemption = await mine
     }
 
@@ -197,6 +214,10 @@ final class BillingModel {
     func redeem(_ code: String, strings: Localisation) async {
         let wanted = code.trimmed
         guard !wanted.isEmpty, !isBusy, let api else { return }
+        guard Connectivity.shared.isOnline else {
+            message = strings("You're offline. Connect and try again.")
+            return
+        }
         isBusy = true
         message = ""
         defer { isBusy = false }

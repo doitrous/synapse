@@ -14,6 +14,11 @@ struct WhiteboardView: View {
 
     @State private var board = BoardState.empty
     @State private var isLoading = true
+    /// Set when the board could not be a genuine "nothing drawn yet" — it
+    /// lives on the server alone, so failing quietly here would show an
+    /// empty board in place of one the student has actually built, and the
+    /// next edit would save that emptiness over their real one.
+    @State private var loadError: String?
 
     @State private var offset = CGSize.zero
     @State private var scale: CGFloat = 1
@@ -27,12 +32,8 @@ struct WhiteboardView: View {
 
     var body: some View {
         GeometryReader { geometry in
-            ZStack {
-                if isLoading {
-                    ProgressView().tint(Theme.primary)
-                } else {
-                    canvas(geometry.size)
-                }
+            StateSurface(isLoading: isLoading, error: loadError, retry: { Task { await load() } }) {
+                canvas(geometry.size)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Theme.inset)
@@ -297,6 +298,11 @@ struct WhiteboardView: View {
         defer { isLoading = false }
         if let remote = try? await api.userState(BoardState.self, key: BoardState.storageKey) {
             board = remote.value ?? .empty
+            loadError = nil
+        } else {
+            loadError = Connectivity.shared.isOnline
+                ? "Your board could not be opened on this device."
+                : "You're offline, so your board can't be shown right now."
         }
     }
 
