@@ -52,13 +52,21 @@ export function useFocusSession() {
   }, [current.running])
 
   // A countdown reaching zero is a real transition (running flips, completedAt
-  // is stamped) and has to be written back, not just displayed.
+  // is stamped) and has to be written back, not just displayed — and so does
+  // every tick's progress, in *either* mode, or a refresh mid count-up block
+  // would resume from whatever was last written (often 0) instead of where the
+  // student actually was.
   useEffect(() => {
-    if (current.running !== stored.running || current.completedAt !== stored.completedAt || current.remainingSeconds !== stored.remainingSeconds) {
+    if (
+      current.running !== stored.running
+      || current.completedAt !== stored.completedAt
+      || current.remainingSeconds !== stored.remainingSeconds
+      || current.elapsedSeconds !== stored.elapsedSeconds
+    ) {
       setStored(current)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [current.running, current.completedAt, current.remainingSeconds])
+  }, [current.running, current.completedAt, current.remainingSeconds, current.elapsedSeconds])
 
   const mutate = useCallback((fn: (state: FocusSessionState) => FocusSessionState) => setStored((s) => fn(tick(s))), [setStored])
 
