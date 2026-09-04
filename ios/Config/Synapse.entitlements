@@ -29,5 +29,19 @@
 	<array>
 		<string>group.com.nishany.app</string>
 	</array>
+
+	<!--
+	  Family Controls — the Focus Timer's strict mode uses this to shield the
+	  student's chosen apps for the duration of a strict block (see
+	  `Core/ScreenTime/AppBlocker.swift`). This is Apple's most tightly-gated
+	  entitlement: it needs a dedicated request approved by Apple, distinct
+	  from ordinary capability toggles. That approval is in place for this
+	  app; blocking works on a real device provisioned against it. It stays
+	  inert — `AuthorizationCenter.shared.requestAuthorization` simply fails —
+	  in the simulator, which never grants Screen Time authorization; every
+	  `AppBlocker` method no-ops safely in that case.
+	-->
+	<key>com.apple.developer.family-controls</key>
+	<true/>
 </dict>
 </plist>

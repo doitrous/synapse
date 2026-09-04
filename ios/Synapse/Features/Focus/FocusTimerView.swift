@@ -1,4 +1,5 @@
 import CoreMotion
+import FamilyControls
 import Foundation
 import Observation
 import SwiftUI
@@ -24,6 +25,8 @@ struct FocusTimerView: View {
     @State private var showingCloseConfirm = false
     @State private var immersive = false
     @State private var faceDown = FaceDownMonitor()
+    @State private var showingAppPicker = false
+    private let appBlocker = AppBlocker.shared
 
     private var state: FocusSessionState { store.state }
     private var strictBlocking: Bool { state.strictArmed && state.running }
@@ -102,7 +105,15 @@ struct FocusTimerView: View {
             .presentationDetents([.medium])
         }
         .onChange(of: scenePhase) { _, phase in
-            if phase == .active { store.appDidEnterForeground() } else { store.appDidLeaveForeground() }
+            if phase == .active {
+                store.appDidEnterForeground()
+                // Screen Time permission can change in Settings while this
+                // app is backgrounded — re-read it rather than trust a
+                // possibly-stale snapshot.
+                appBlocker.refreshAuthorizationStatus()
+            } else {
+                store.appDidLeaveForeground()
+            }
         }
         .onChange(of: strictBlocking) { _, blocking in blocking ? faceDown.start() : faceDown.stop() }
         .onDisappear { faceDown.stop() }
@@ -273,14 +284,81 @@ struct FocusTimerView: View {
                     .font(Theme.ui(11.5, weight: 600))
                     .foregroundStyle(Theme.success)
             }
+
+            Divider()
+            blockedAppsControl
         }
         .padding(14)
         .background(Theme.surface2)
         .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+        .familyActivityPicker(isPresented: $showingAppPicker, selection: blockedAppsBinding)
     }
 
     private var strictBinding: Binding<Bool> {
         Binding(get: { state.strictArmed }, set: { store.setStrictArmed($0) })
+    }
+
+    // MARK: - App blocking (Screen Time)
+
+    /// Strict mode's OS-level half: while a strict block runs, the student's
+    /// chosen apps are shielded on top of M4.1's discard-on-leave penalty.
+    /// Needs Apple's Family Controls entitlement (approved for this app, see
+    /// `Config/Synapse.entitlements`); it only takes effect on a real device,
+    /// since the simulator never grants Screen Time authorization — so there
+    /// this control still lets the student pick apps, it just has nothing to
+    /// shield with.
+    @ViewBuilder private var blockedAppsControl: some View {
+        if appBlocker.isAuthorized {
+            Button { showingAppPicker = true } label: {
+                HStack(spacing: 12) {
+                    Image(systemName: "hand.raised.fill")
+                        .font(.system(size: 16))
+                        .foregroundStyle(Theme.primary)
+                        .frame(width: 22)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(strings("Choose apps to block"))
+                            .font(Theme.ui(13, weight: 600))
+                            .foregroundStyle(Theme.ink)
+                        Text(blockedAppsSummary)
+                            .font(Theme.ui(11.5))
+                            .foregroundStyle(Theme.ink2)
+                    }
+                    Spacer(minLength: 8)
+                    Image(systemName: "chevron.right")
+                        .font(.system(size: 12))
+                        .foregroundStyle(Theme.ink3)
+                        .flipsForRightToLeftLayoutDirection(true)
+                }
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(strings("Choose apps to block"))
+        } else {
+            VStack(alignment: .leading, spacing: 4) {
+                PermissionPrimerRow(
+                    symbol: "hand.raised.fill",
+                    title: "Block distracting apps",
+                    rationale: "Needs Screen Time permission. Shields your chosen apps while a strict block runs — real device only, not this simulator.",
+                    isGranted: false
+                ) {
+                    await appBlocker.requestAuthorization()
+                }
+                Text(strings("Skip this and strict mode still works — leaving the app discards the block."))
+                    .font(Theme.ui(10.5))
+                    .foregroundStyle(Theme.ink3)
+            }
+        }
+    }
+
+    private var blockedAppsSummary: String {
+        let count = appBlocker.selection.applicationTokens.count + appBlocker.selection.categoryTokens.count
+        return count == 0
+            ? strings("No apps chosen yet — tap to pick")
+            : strings("{n} selected").replacingOccurrences(of: "{n}", with: String(count))
+    }
+
+    private var blockedAppsBinding: Binding<FamilyActivitySelection> {
+        Binding(get: { appBlocker.selection }, set: { appBlocker.selection = $0 })
     }
 
     // MARK: - Controls

@@ -72,6 +72,21 @@ final class FocusSessionStore {
                 Task { [weak self] in await self?.updateActivity() }
             }
         }
+
+        // Self-limiting safety net. A ManagedSettings shield lives at the
+        // system level and survives a force-quit, so a strict block killed
+        // mid-run would otherwise leave the student's apps shielded with no
+        // session left to lift them. Reconcile against the real state on every
+        // launch: re-assert the shield only if a strict block genuinely
+        // resumed, and lift anything a killed session left stuck on otherwise.
+        // Blocking is thus bounded to a session that is actually running — it
+        // can never outlive the block that started it. (No-ops entirely when
+        // the Family Controls entitlement isn't authorized.)
+        if state.running && state.strictArmed {
+            AppBlocker.shared.apply(AppBlocker.shared.selection)
+        } else {
+            AppBlocker.shared.clear()
+        }
     }
 
     // MARK: - Actions
@@ -162,8 +177,24 @@ final class FocusSessionStore {
     /// doesn't go stale.
     private func mutate(endsActivityOnStop: Bool = true, _ fn: (FocusSessionState) -> FocusSessionState) {
         let wasRunning = state.running
+        let wasBlocking = wasRunning && state.strictArmed
         state = fn(FocusSession.tick(state))
         save()
+
+        // App blocking tracks "running and strict", not just "running" —
+        // unlike the Live Activity, a deliberate pause lifts the shield too
+        // (pausing to answer a message shouldn't fight the student), and
+        // arming/disarming strict mid-run applies or lifts it immediately.
+        // `AppBlocker` itself no-ops when unauthorized, so this is safe to
+        // call unconditionally on every transition.
+        let isBlocking = state.running && state.strictArmed
+        if isBlocking != wasBlocking {
+            if isBlocking {
+                AppBlocker.shared.apply(AppBlocker.shared.selection)
+            } else {
+                AppBlocker.shared.clear()
+            }
+        }
 
         let sync: ActivitySync
         if state.running {
@@ -202,9 +233,10 @@ final class FocusSessionStore {
                 if !self.state.running {
                     // Reaching zero on its own, not a user pause — the block
                     // is complete, so the Live Activity ends rather than
-                    // freezing on "0:00".
+                    // freezing on "0:00", and any shield lifts with it.
                     self.stopTicking()
                     await self.endActivity()
+                    AppBlocker.shared.clear()
                     return
                 }
             }
