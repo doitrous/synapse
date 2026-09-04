@@ -36,6 +36,9 @@ import com.synapse.android.core.practical.SKILL_READY
 import com.synapse.android.core.practical.PracticalProgress
 import com.synapse.android.core.practical.Skill
 import com.synapse.android.core.practical.summariseSkills
+import com.synapse.android.core.ui.EmptyConfig
+import com.synapse.android.core.ui.StateHost
+import com.synapse.android.core.ui.UiState
 import kotlin.math.roundToInt
 
 /** The five tabs, in the exact order and copy of `Practical.tsx:530-541`. */
@@ -63,18 +66,32 @@ private val STATUS_LABEL = mapOf(
  * The five practical formats, on five tabs.
  *
  * OSCE stations, clinical cases and lab/imaging sets are published content,
- * read straight from [PracticalViewModel.items] and routed by [practicalTab].
- * Skills and Oral are not: they are the bundled catalogues in
+ * read from [PracticalViewModel.uiState] (a [com.synapse.android.core.ui.UiState]
+ * wrapping [PracticalViewModel.items]) and routed by [practicalTab]. Skills
+ * and Oral are not: they are the bundled catalogues in
  * `core/practical/PracticalCatalogue.kt` -- a second copy of the web's own
  * lists, frozen at whatever this app last shipped with. There is no sync
  * mechanism keeping the two in step.
+ */
+/**
+ * M5.1's one reference adoption of [StateHost]/[UiState] -- see
+ * [PracticalViewModel.uiState]'s own doc. Two nested [StateHost]s, each
+ * answering a different question: the outer one, keyed on [PracticalViewModel.uiState],
+ * is network-level (still loading the ledger, sync failed, or the synced list
+ * is empty across every live format); the inner one, built fresh per tab in
+ * [PracticalTabBody], is tab-level (this particular format has nothing in an
+ * otherwise-non-empty list). Neither alone can answer both questions.
+ *
+ * `HomeScreen` and qbank's `SessionBuilderScreen`, `TopicChooserScreen`,
+ * `QuestionRunnerScreen` and `PreviousSittingsScreen` still read their lists
+ * unwrapped, exactly as this screen did before -- M5.2 migrates those.
  */
 @Composable
 fun PracticalListScreen(
     viewModel: PracticalViewModel,
     onOpenPractical: (Practical) -> Unit,
 ) {
-    val items by viewModel.items.collectAsState()
+    val uiState by viewModel.uiState.collectAsState()
     val progress by viewModel.progress.collectAsState()
     val revealed by viewModel.revealed.collectAsState()
     var tab by remember { mutableStateOf(ListTab.OSCE) }
@@ -91,43 +108,74 @@ fun PracticalListScreen(
         }
 
         when (tab) {
-            ListTab.OSCE -> {
-                val stations = items.filter { practicalTab(it.type) == PracticalTab.OSCE }
-                LazyColumn(modifier = Modifier.weight(1f).padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    items(stations, key = Practical::id) { station ->
-                        val run = progress.stations[station.id]
-                        val bestPct = if (run != null && run.outOf != 0) ((run.bestMarks.toDouble() / run.outOf) * 100).roundToInt() else null
-                        StationRow(station, bestPct, run?.attempts, onClick = { onOpenPractical(station) })
-                    }
+            ListTab.OSCE -> StateHost(state = uiState, modifier = Modifier.weight(1f)) { allPracticals ->
+                PracticalTabBody(
+                    items = allPracticals.filter { practicalTab(it.type) == PracticalTab.OSCE },
+                    emptyTitle = "No OSCE stations yet",
+                    emptyDescription = "Stations appear here once your course publishes them.",
+                ) { station ->
+                    val run = progress.stations[station.id]
+                    val bestPct = if (run != null && run.outOf != 0) ((run.bestMarks.toDouble() / run.outOf) * 100).roundToInt() else null
+                    StationRow(station, bestPct, run?.attempts, onClick = { onOpenPractical(station) })
                 }
             }
 
-            ListTab.CASES -> {
-                val cases = items.filter { practicalTab(it.type) == PracticalTab.CASES }
-                LazyColumn(modifier = Modifier.weight(1f).padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    items(cases, key = Practical::id) { case ->
-                        val status = progress.cases[case.id]?.status ?: "not-started"
-                        CaseRow(case, status, onClick = { onOpenPractical(case) })
-                    }
+            ListTab.CASES -> StateHost(state = uiState, modifier = Modifier.weight(1f)) { allPracticals ->
+                PracticalTabBody(
+                    items = allPracticals.filter { practicalTab(it.type) == PracticalTab.CASES },
+                    emptyTitle = "No clinical cases yet",
+                    emptyDescription = "Cases appear here once your course publishes them.",
+                ) { case ->
+                    val status = progress.cases[case.id]?.status ?: "not-started"
+                    CaseRow(case, status, onClick = { onOpenPractical(case) })
                 }
             }
 
-            ListTab.LAB -> {
-                val labs = items.filter { practicalTab(it.type) == PracticalTab.LAB }
-                LazyColumn(modifier = Modifier.weight(1f).padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    items(labs, key = Practical::id) { lab ->
-                        val done = progress.labs[lab.id]?.done
-                        LabRow(lab, done, onClick = { onOpenPractical(lab) })
-                    }
+            ListTab.LAB -> StateHost(state = uiState, modifier = Modifier.weight(1f)) { allPracticals ->
+                PracticalTabBody(
+                    items = allPracticals.filter { practicalTab(it.type) == PracticalTab.LAB },
+                    emptyTitle = "No lab or imaging sets yet",
+                    emptyDescription = "Sets appear here once your course publishes them.",
+                ) { lab ->
+                    val done = progress.labs[lab.id]?.done
+                    LabRow(lab, done, onClick = { onOpenPractical(lab) })
                 }
             }
 
+            // Bundled catalogues, not ledger content -- see the class doc --
+            // so neither reads through a StateHost: there is nothing here
+            // that is ever loading, failed, or empty.
             ListTab.SKILLS -> SkillsTab(
                 progress = progress,
                 onCycle = { skillId, current -> viewModel.markSkill(skillId, NEXT_STATUS.getValue(current)) },
             )
 
             ListTab.ORAL -> OralTab(revealed = revealed, onReveal = viewModel::revealOral)
+        }
+    }
+}
+
+/**
+ * One live tab's body: empty (this format has nothing, even though the
+ * overall ledger is not empty) or the list, in a [LazyColumn] -- the same
+ * `weight(1f).padding(16.dp)` layout every tab used before this, now behind
+ * [StateHost] instead of an unconditional [LazyColumn].
+ */
+@Composable
+private fun PracticalTabBody(
+    items: List<Practical>,
+    emptyTitle: String,
+    emptyDescription: String,
+    row: @Composable (Practical) -> Unit,
+) {
+    val tabState = if (items.isEmpty()) {
+        UiState.Empty(EmptyConfig(title = emptyTitle, description = emptyDescription))
+    } else {
+        UiState.Content(items)
+    }
+    StateHost(state = tabState, modifier = Modifier.fillMaxSize()) { list ->
+        LazyColumn(modifier = Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            items(list, key = Practical::id) { practical -> row(practical) }
         }
     }
 }

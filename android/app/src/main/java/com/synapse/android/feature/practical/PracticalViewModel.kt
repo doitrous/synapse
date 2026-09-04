@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.synapse.android.core.BACKGROUND_WORK_TAG
+import com.synapse.android.core.ConnectivityMonitor
 import com.synapse.android.core.CortexJson
 import com.synapse.android.core.backgroundWorkScope
 import com.synapse.android.core.cache.LocalStore
@@ -21,6 +22,9 @@ import com.synapse.android.core.progress.AttemptRecord
 import com.synapse.android.core.progress.AttemptStore
 import com.synapse.android.core.progress.writeAttempt
 import com.synapse.android.core.sync.SyncEngine
+import com.synapse.android.core.sync.SyncStatus
+import com.synapse.android.core.ui.EmptyConfig
+import com.synapse.android.core.ui.UiState
 import java.time.Instant
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
@@ -31,6 +35,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
@@ -107,6 +113,7 @@ fun practicalTab(type: String): PracticalTab? = when (type) {
 class PracticalViewModel(
     private val store: LocalStore,
     private val sync: SyncEngine,
+    connectivity: ConnectivityMonitor? = null,
 ) : ViewModel() {
     private val backgroundScope = backgroundWorkScope("PracticalViewModel")
 
@@ -116,6 +123,24 @@ class PracticalViewModel(
     val items: StateFlow<List<Practical>> = store.ledgerItems(ContentKind.PRACTICAL)
         .map { entries -> entries.filter { it.isStudentVisible }.mapNotNull(PracticalProjection::project) }
         .stateIn(backgroundScope, SharingStarted.Eagerly, emptyList())
+
+    /**
+     * [items] wrapped as a [UiState] for [PracticalListScreen] to render
+     * through [com.synapse.android.core.ui.StateHost] -- M5.1's reference
+     * adoption of that primitive (see [practicalUiState]'s own doc). Every
+     * other content screen (`HomeScreen`, qbank's `SessionBuilderScreen`,
+     * `TopicChooserScreen`, `QuestionRunnerScreen`, `PreviousSittingsScreen`)
+     * still exposes a bare list -- M5.2 migrates those.
+     *
+     * [connectivity] is optional so every existing `PracticalViewModel(store, sync)`
+     * call -- test and production alike -- keeps compiling; a caller with
+     * nothing to report is treated as always online, which only affects the
+     * wording of [UiState.Error.message], never which branch is chosen.
+     */
+    val uiState: StateFlow<UiState<List<Practical>>> =
+        combine(items, sync.status, connectivity?.isOnline ?: flowOf(true)) { currentItems, status, online ->
+            practicalUiState(currentItems, status, online, retry = ::retrySync)
+        }.stateIn(backgroundScope, SharingStarted.Eagerly, UiState.Loading)
 
     /** Display only -- see the class doc. */
     val progress: StateFlow<PracticalProgress> = store.documentFlow(PRACTICAL_PROGRESS_KEY)
@@ -391,6 +416,11 @@ class PracticalViewModel(
         _saveFailed.value = false
     }
 
+    /** What [uiState]'s Retry button runs -- a fresh [SyncEngine.refresh], the same pass `RootScreen` triggers on foregrounding. */
+    private fun retrySync() {
+        backgroundScope.launch { sync.refresh() }
+    }
+
     /**
      * A direct one-shot read, bypassing [progress] -- see the class doc.
      *
@@ -483,8 +513,45 @@ class PracticalViewModel(
         /** `target.minutes ?? 8` in `PracticalRunner.tsx`. */
         private const val DEFAULT_STATION_MINUTES = 8
 
-        fun factory(store: LocalStore, sync: SyncEngine) = viewModelFactory {
-            initializer { PracticalViewModel(store, sync) }
+        fun factory(store: LocalStore, sync: SyncEngine, connectivity: ConnectivityMonitor) = viewModelFactory {
+            initializer { PracticalViewModel(store, sync, connectivity) }
         }
     }
+}
+
+/**
+ * The pure list-plus-sync-status-plus-connectivity -> [UiState] fold behind
+ * [PracticalViewModel.uiState]. Pulled out as a plain function (not a method)
+ * so it is testable with a plain JUnit test and no Robolectric, no coroutine
+ * dispatcher, no [SyncEngine] -- see `PracticalUiStateTest`.
+ *
+ * [SyncStatus.Idle] and [SyncStatus.Syncing] both fall through to
+ * [UiState.Loading] on an empty list: nothing has come back from the ledger
+ * yet, and there is no way to tell "warming up" from "still syncing" apart
+ * that a spinner would say differently. Only [SyncStatus.Done] with an empty
+ * list is a genuine [UiState.Empty] -- a completed pass that found nothing to
+ * show, as opposed to one that has not run yet.
+ */
+internal fun practicalUiState(
+    items: List<Practical>,
+    syncStatus: SyncStatus,
+    isOnline: Boolean,
+    retry: () -> Unit,
+): UiState<List<Practical>> = when {
+    items.isNotEmpty() -> UiState.Content(items)
+    syncStatus is SyncStatus.Failed -> UiState.Error(
+        message = if (isOnline) {
+            "Couldn't reach Nishany. Check your connection and try again."
+        } else {
+            "You're offline. Connect and try again."
+        },
+        retry = retry,
+    )
+    syncStatus is SyncStatus.Done -> UiState.Empty(
+        EmptyConfig(
+            title = "Nothing here yet",
+            description = "Practicals appear here once your course publishes them.",
+        ),
+    )
+    else -> UiState.Loading
 }

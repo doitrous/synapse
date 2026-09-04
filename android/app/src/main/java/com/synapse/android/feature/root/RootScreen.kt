@@ -441,7 +441,7 @@ private fun QuestionBankRoute(graph: AppGraph) {
  */
 @Composable
 private fun PracticalRoute(graph: AppGraph) {
-    val viewModel: PracticalViewModel = viewModel(factory = PracticalViewModel.factory(graph.store, graph.sync))
+    val viewModel: PracticalViewModel = viewModel(factory = PracticalViewModel.factory(graph.store, graph.sync, graph.connectivity))
     var openId by rememberSaveable { mutableStateOf<String?>(null) }
     val items by viewModel.items.collectAsState()
     val open = openId?.let { id -> items.firstOrNull { it.id == id } }

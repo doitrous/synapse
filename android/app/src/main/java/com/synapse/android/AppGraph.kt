@@ -1,6 +1,7 @@
 package com.synapse.android
 
 import android.content.Context
+import com.synapse.android.core.ConnectivityMonitor
 import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.auth.AuthBackend
 import com.synapse.android.core.auth.AuthModel
@@ -47,6 +48,11 @@ class AppGraph(context: Context, val config: AppConfig) {
 
     // Same reasoning, same eagerness -- see LanguagePreference's own class doc.
     val languagePreference = LanguagePreference(context.applicationContext)
+
+    // Touches only ConnectivityManager.getSystemService, never the network or
+    // the Keystore, so -- like themePreference and languagePreference above --
+    // there is nothing an unconfigured build needs to avoid here.
+    val connectivity = ConnectivityMonitor(context.applicationContext)
 
     // Typed as the concrete class, not as SessionStore, because it backs two
     // separate things out of the one encrypted file: the Supabase session
