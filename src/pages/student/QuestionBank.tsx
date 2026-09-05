@@ -582,12 +582,21 @@ export function QuestionBank() {
     }
     return cards
   }, [sourceOpts])
-  // Drop any selected bucket no longer present under the current scope/pool, so a
-  // stale selection can't silently empty the pool.
-  const effectiveSources = useMemo(() => {
-    const present = new Set(sourceOpts.map((o) => o.bucket))
-    return new Set([...sourceSel].filter((b) => present.has(b)))
-  }, [sourceSel, sourceOpts])
+  // Prune only buckets that exist nowhere in the whole bank (e.g. a source that
+  // was relabelled away), so a stale selection self-heals. Do NOT prune a bucket
+  // merely because the current topic scope has none of it: pruning to empty made
+  // `questionsInSources` fall through to its "empty = all sources" case, so
+  // picking one source under a scope with zero of it silently showed every other
+  // source. Basing presence on the full bank keeps the selection strict — an
+  // unmatched scope now honestly yields zero, not everything.
+  const knownSourceBuckets = useMemo(
+    () => new Set(sourceOptions(articleQuestions).map((o) => o.bucket)),
+    [articleQuestions],
+  )
+  const effectiveSources = useMemo(
+    () => new Set([...sourceSel].filter((b) => knownSourceBuckets.has(b))),
+    [sourceSel, knownSourceBuckets],
+  )
   // An empty selection means "all sources", so the unfiltered case is unchanged.
   const available = useMemo(
     () => questionsInSources(scoped, effectiveSources),
