@@ -38636,3 +38636,4507 @@ Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-393
+## title
+DNA replication occurs in ......... of cell cycle
+## question
+DNA replication occurs in ......... of cell cycle
+## vignette
+This item asks the student to place DNA replication specifically in the S (synthesis) phase of the cell cycle.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Gl phase
+## explanation_a
+G1 is a growth phase in which the cell increases in size before committing to divide; DNA is not yet being copied.
+## answer_b
+S phase
+## explanation_b
+Correct. S stands for synthesis of DNA — during S phase all of the cell's genetic material is duplicated.
+
+Why this is right:
+- The cell cycle is divided into the mitotic phase (M) and interphase, which is further divided into G1, S and G2.
+## answer_c
+M phase
+## explanation_c
+M phase is mitosis, separating the already-duplicated genetic material into two daughter cells — no new DNA synthesis happens here.
+## answer_d
+G2 phase
+## explanation_d
+G2 is a further growth phase that prepares the cell for mitosis, after DNA has already been duplicated in S phase.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-32A72B4F49EC2B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Place DNA replication specifically in the S (synthesis) phase of the cell cycle.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p77 q1. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-394
+## title
+Quiescent phase of the cell cycle refers to:
+## question
+Quiescent phase of the cell cycle refers to:
+## vignette
+This item asks the student to name G0 as the quiescent, non-dividing resting phase a cell can enter after G1.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Gl phase
+## explanation_a
+G1 is still part of the active cycle — the cell is growing and preparing to divide, not resting outside the cycle.
+## answer_b
+S phase
+## explanation_b
+S phase is when DNA is actively being copied, the opposite of a resting quiescent state.
+## answer_c
+M phase
+## explanation_c
+M phase is active mitosis, the most dynamic part of the cycle, not a resting state.
+## answer_d
+GO phase
+## explanation_d
+Correct. G0 is the quiescent phase a cell enters after G1 if it stops dividing; the cell rests, performing its function without dividing, and for some cells (like most adult neurons) this is permanent.
+
+Why this is right:
+- The cell cycle is divided into the mitotic phase (M) and interphase, which is further divided into G1, S and G2.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-32A72B4F49EC2B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name G0 as the quiescent, non-dividing resting phase a cell can enter after G1.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p77 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-395
+## title
+Two daughter cells are formed in ......... of the cell cycle
+## question
+Two daughter cells are formed in ......... of the cell cycle
+## vignette
+This item asks the student to state that mitosis (M phase) is when the cell physically divides into two daughter cells.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+G1 phase
+## explanation_a
+G1 phase is a growth stage before division, not the stage where the cell actually splits into two.
+## answer_b
+S phase
+## explanation_b
+S phase duplicates the genetic material but does not itself produce two separate cells.
+## answer_c
+M phase
+## explanation_c
+Correct. M phase is mitosis, the stage where the cell separates the two copies of its genetic material into two identical daughter cells.
+
+Why this is right:
+- The cell cycle is divided into the mitotic phase (M) and interphase, which is further divided into G1, S and G2.
+## answer_d
+G2 phase
+## explanation_d
+G2 phase is a further growth and preparation stage that precedes mitosis, not the division itself.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-32A72B4F49EC2B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that mitosis (M phase) is when the cell physically divides into two daughter cells.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p77 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key was recovered (correctSource: none). The book states directly (p107): 'M phase: the stage of mitosis where the cell separates the two copies of the genetic material into two identical daughter cells.'
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-396
+## title
+Cell cycle initiation occurs by binding of the cell to:
+## question
+Cell cycle initiation occurs by binding of the cell to:
+## vignette
+This item asks the student to state that binding of a growth factor to its receptor is what initiates the cell cycle.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Enzyme
+## explanation_a
+An enzyme in general is too vague and is not what is named as the initiating signal — the specific trigger is a growth factor binding its receptor.
+## answer_b
+Growth factor
+## explanation_b
+Correct. The cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane, which triggers an intracellular signalling cascade that induces cyclin genes.
+
+Why this is right:
+- The cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane of the cell.
+## answer_c
+Hormone
+## explanation_c
+A hormone is a different kind of signalling molecule from the growth factor specifically named as the cycle's initiating ligand.
+## answer_d
+Transcription factor
+## explanation_d
+A transcription factor acts downstream, inside the nucleus, once the signalling cascade is already running — it is not itself the initiating binding event at the membrane.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-FF40DB9ED068F9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that binding of a growth factor to its receptor is what initiates the cell cycle.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p77 q4. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-397
+## title
+CDK4 forms complex with:
+## question
+CDK4 forms complex with:
+## vignette
+This item asks the student to pair CDK4 with cyclin D as the complex that drives progression past the G1/S restriction point.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Cyclin A
+## explanation_a
+Cyclin A pairs with CDK1 (G2/M transition) or CDK2 (S phase initiation) in the table, not with CDK4.
+## answer_b
+Cyclin B
+## explanation_b
+Cyclin B pairs with CDK1 for the G2-to-M transition, not with CDK4.
+## answer_c
+Cyclin D
+## explanation_c
+Correct. The table pairs CDK4 (and CDK6) with cyclin D for progression past the restriction point at the G1/S boundary.
+
+Why this is right:
+- The cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane of the cell.
+## answer_d
+Cyclin E
+## explanation_d
+Cyclin E pairs with CDK2 for initiation of DNA synthesis in early S phase, not with CDK4.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-FF40DB9ED068F9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Pair CDK4 with cyclin D as the complex that drives progression past the G1/S restriction point.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p77 q5. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-398
+## title
+Spindle assembly check point of the cell cycle:
+## question
+Spindle assembly check point of the cell cycle:
+## vignette
+This item asks the student to state that the spindle assembly checkpoint verifies proper chromosome-to-spindle attachment before the cell divides.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Check for proper attachment of chromosomes to spindle
+## explanation_a
+Correct. The spindle assembly checkpoint checks for proper attachment of chromosomes to the spindle.
+
+Why this is right:
+- There are three checkpoints that ensure DNA and chromosomal structure are intact before the cell cycle is completed.
+## answer_b
+Check for cell size
+## explanation_b
+Checking cell size belongs to the G1 and G2 checkpoints, not to the spindle assembly checkpoint.
+## answer_c
+Check for DNA damage
+## explanation_c
+Checking for DNA damage belongs to the G1 and G2 checkpoints; the spindle checkpoint's job is specifically about chromosome-spindle attachment.
+## answer_d
+Check for growth factors uaz Cell Cycle and Apoptosis Se
+## explanation_d
+Checking for growth factors is part of the G1 checkpoint, which also verifies nutrients and cell size — not a job assigned to the spindle assembly checkpoint.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-F5627F4531F391
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the spindle assembly checkpoint verifies proper chromosome-to-spindle attachment before the cell divides.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p77 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-399
+## title
+Restriction point of the cell cycle is:
+## question
+Restriction point of the cell cycle is:
+## vignette
+This item asks the student to define the restriction point as the late-G1 point beyond which a cell commits to completing the cycle independently of growth factors.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+To check for DNA Damage
+## explanation_a
+Checking for DNA damage is the job of the G1 and G2 checkpoints, a separate mechanism from the restriction point.
+## answer_b
+To ensure normal cell size
+## explanation_b
+Ensuring normal cell size is part of what the G1 (and G2) checkpoints verify, not what defines the restriction point itself.
+## answer_c
+Point beyond which cell become committed to enter the S phase
+## explanation_c
+Correct. The restriction point (R), located in late G1, is the point beyond which cells that pass through will enter S phase and complete the entire cycle independently of the presence of growth factors.
+
+Why this is right:
+- The cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane of the cell.
+## answer_d
+For DNA replication
+## explanation_d
+DNA replication happens afterward, in S phase — the restriction point is the commitment point that precedes and permits entry into S phase, not replication itself.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-FF40DB9ED068F9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Define the restriction point as the late-G1 point beyond which a cell commits to completing the cycle independently of growth factors.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p78 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-400
+## title
+Genetically programmed cell death is termed:
+## question
+Genetically programmed cell death is termed:
+## vignette
+This item asks the student to define apoptosis as genetically programmed cell death, distinct from necrosis or mutation.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Necrosis
+## explanation_a
+Necrosis is unplanned cell death caused by injury, not the genetically directed process the question describes.
+## answer_b
+Mutation
+## explanation_b
+A mutation is a change in DNA sequence, not a description of a cell-death process at all.
+## answer_c
+Apoptosis
+## explanation_c
+Correct. Apoptosis is 'a programmed genetically directed cell death (physiological cell suicide program).'
+
+Why this is right:
+- Apoptosis is a programmed genetically directed cell death, a physiological cell-suicide program.
+## answer_d
+Transversion
+## explanation_d
+A transversion is a specific type of point mutation (purine-for-pyrimidine substitution), unrelated to programmed cell death.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-B66BA480F8FD19
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Define apoptosis as genetically programmed cell death, distinct from necrosis or mutation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p78 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key was recovered (correctSource: none). The book states directly (p109): 'Apoptosis is a programmed genetically directed cell death (physiological cell suicide program).'
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-401
+## title
+Caspases belong to the class of:
+## question
+Caspases belong to the class of:
+## vignette
+This item asks the student to identify caspases as a class of cysteine proteases activated during apoptosis.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Serine proteases
+## explanation_a
+Serine proteases are a different enzyme class (e.g., trypsin, chymotrypsin) from the one assigned to caspases.
+## answer_b
+Cystine proteases
+## explanation_b
+Correct. Allowing for a spelling variant ('cystine' rather than 'cysteine'), caspases are intracellular cysteine proteases.
+
+Why this is right:
+- There are two main pathways for apoptosis.
+## answer_c
+Aspartate proteases
+## explanation_c
+Aspartate proteases are a different enzyme class (e.g., pepsin) from the one assigned to caspases.
+## answer_d
+Hydrolases
+## explanation_d
+Hydrolases is too broad a category — proteases are a subclass of hydrolases, but the question asks for the specific class, which is given as cysteine proteases.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-70E5BD77E8FE49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify caspases as a class of cysteine proteases activated during apoptosis.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p78 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-402
+## title
+Which cellular organelles are involved in the initiation of the intrinsic pathway of ap…
+## question
+Which cellular organelles are involved in the initiation of the intrinsic pathway of apoptosis?
+## vignette
+This item asks the student to name mitochondria as the organelle whose cytochrome c release initiates the intrinsic apoptotic pathway.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Nucleus
+## explanation_a
+The nucleus houses the DNA whose damage can trigger apoptosis, but the intrinsic pathway itself is initiated by mitochondria releasing cytochrome c, not by the nucleus directly.
+## answer_b
+Mitochondria
+## explanation_b
+Correct. Named the intrinsic (mitochondrial) pathway for cellular stress that promotes release of cytochrome c from mitochondria into the cytosol, activating caspases.
+
+Why this is right:
+- There are two main pathways for apoptosis.
+## answer_c
+Endoplasmic reticulum
+## explanation_c
+The endoplasmic reticulum is not the organelle named for initiating the intrinsic apoptotic pathway.
+## answer_d
+Lysosomes
+## explanation_d
+Lysosomes are not the organelle named for initiating the intrinsic apoptotic pathway.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-70E5BD77E8FE49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name mitochondria as the organelle whose cytochrome c release initiates the intrinsic apoptotic pathway.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p78 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-403
+## title
+Release of cytochrome ¢ from the mitochondria during apoptosis occurs in response to:
+## question
+Release of cytochrome ¢ from the mitochondria during apoptosis occurs in response to:
+## vignette
+This item asks the student to state that cellular stress, including DNA damage, is what triggers mitochondrial cytochrome c release in the intrinsic pathway.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Stress as DNA damage
+## explanation_a
+Correct. The intrinsic pathway is used extensively in response to different forms of cellular stress, and stressors — including DNA damage — promote the release of cytochrome c from mitochondria into the cytosol.
+
+Why this is right:
+- There are two main pathways for apoptosis.
+## answer_b
+Caspase 8
+## explanation_b
+Caspase 8 acts downstream of the extrinsic pathway's receptor activation, not as the trigger for cytochrome c release.
+## answer_c
+Caspase 9
+## explanation_c
+Caspase 9 is activated after cytochrome c is released, as part of the intrinsic pathway's downstream cascade — it is a consequence, not the trigger, of the release.
+## answer_d
+Caspase activated DNase
+## explanation_d
+Caspase-activated DNase acts even further downstream, cutting genomic DNA after caspases are already active — it does not trigger the initial cytochrome c release.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-70E5BD77E8FE49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that cellular stress, including DNA damage, is what triggers mitochondrial cytochrome c release in the intrinsic pathway.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p78 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-404
+## title
+One of these is anti-apoptotic gene:
+## question
+One of these is anti-apoptotic gene:
+## vignette
+This item asks the student to identify Bcl-2 as the anti-apoptotic member among the named Bcl-2 family genes.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Bax
+## explanation_a
+Bax is one of the pro-apoptotic members of the Bcl-2 family, controlling cytochrome c release — the opposite of anti-apoptotic.
+## answer_b
+Bok
+## explanation_b
+Bok, like Bax, is a pro-apoptotic member of the Bcl-2 family, not the anti-apoptotic one.
+## answer_c
+Bak
+## explanation_c
+Bak is also a pro-apoptotic member of the Bcl-2 family.
+## answer_d
+Bel-2
+## explanation_d
+Correct. Bcl-2 is the anti-apoptotic member of the family named after it — under physiological conditions it balances the pro-apoptotic Bax, Bak and Bok.
+
+Why this is right:
+- The cell cycle is controlled by a group of regulatory proteins, the cyclins and the cyclin-dependent kinases: a cyclin complexes with and activates a particular CDK, and that complex produces the regulatory effects the cell needs in order to pass from one phase into the next.
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## main_concept
+CON-FND-1F66060A9C2625
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify Bcl-2 as the anti-apoptotic member among the named Bcl-2 family genes.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p79 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-405
+## title
+The heme ring is present in the hydrophobic pocket between:
+## question
+The heme ring is present in the hydrophobic pocket between:
+## vignette
+This item asks the student to locate the heme-binding pocket between the E and F helices of the globin fold.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Eand F helices
+## explanation_a
+Correct. Placed the heme ring inside the hydrophobic core of the chain, in a pocket between the E and F helices, where it is held by hydrophobic bonds to nonpolar side chains and by iron's bond to the proximal histidine F8.
+
+Why this is right:
+- Heme is a ferrous (Fe2+) protoporphyrin IX: a porphin ring of four pyrrole rings linked through methenyl bridges, carrying four nonpolar methyl groups, two nonpolar vinyl groups and two polar propionate groups.
+## answer_b
+A and B helices
+## explanation_b
+The helix labelling runs A through H starting from the N-terminal end; A and B are near the start of the chain, not where the heme pocket is located.
+## answer_c
+Cand D helices
+## explanation_c
+C and D helices are not where the heme pocket is placed; the proximal and distal histidines that interact with the heme iron are named for the E and F helices, not C/D.
+## answer_d
+Gand H helices
+## explanation_d
+G and H are the last two helices in the A-to-H labelling, not the E/F pocket where the heme ring sits.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-9D7110C869FBDF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Locate the heme-binding pocket between the E and F helices of the globin fold.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p41 q4. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-406
+## title
+Importance of apomyoglobin and the globin of hemoglobin:
+## question
+Importance of apomyoglobin and the globin of hemoglobin:
+## vignette
+This item asks the student to state the four protective functions the globin chain performs for its heme group, and recognise that this question asks for the true one among three reversed statements.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Facilitates the formation of heme-O2-heme complex
+## explanation_a
+The opposite is true. Globin's nonpolar heme pocket prevents the heme-O2-heme complex from forming, it does not facilitate it.
+## answer_b
+Prevents diffusion of heme to the plasma
+## explanation_b
+Correct. This is one of the four jobs the globin chain does for heme: because of its large size, the globin chain prevents heme from diffusing out of the cell into the plasma.
+
+Why this is right:
+- The protein part of haemoglobin is not inert packaging. It makes haem soluble, because the polar amino acids sit on the surface of the folded chain. It prevents the oxidation of haem into haematin, and the formation of a haem-O2-haem complex, because the haem pocket is lined by nonpolar amino acids. It prevents haem diffusing into the plasma, because of its large size. And it reduces the affinity of haem for carbon monoxide: carbon monoxide binds isolated haem with iron, carbon and oxygen all perpendicular to the plane of the ring, but in myoglobin and haemoglobin the distal histidine sterically hinders that orientation, and binding at a less favoured angle reduces the strength of the haem-CO bond.
+## answer_c
+Makes heme less soluble
+## explanation_c
+The opposite is true. Globin makes heme more soluble, not less — its surface polar amino acids are what let the heme-globin complex dissolve.
+## answer_d
+Increase the affinity of heme to bind carbon monoxide (CO)
+## explanation_d
+The opposite is true. Globin reduces heme's affinity for carbon monoxide — the distal histidine sterically hinders CO's preferred binding angle — rather than increasing it.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-0E5FE994670D4A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the four protective functions the globin chain performs for its heme group, and recognise that this question asks for the true one among three reversed statements.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p41 q5. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-407
+## title
+The main function of myoglobin is:
+## question
+The main function of myoglobin is:
+## vignette
+This item asks the student to state myoglobin's main function as an oxygen reservoir in cardiac and skeletal muscle.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Acting as a reservoir for oxygen in cardiac and skeletal muscles
+## explanation_a
+Correct. Myoglobin functions in cardiac and skeletal muscle as a reservoir for oxygen and as a carrier that speeds oxygen release during severe muscular exercise.
+
+Why this is right:
+- Myoglobin is present in cardiac and skeletal muscles, where it functions as a reservoir for oxygen and as an oxygen carrier that increases the rate of oxygen release within the muscle cell during severe muscular exercise, when the partial pressure of oxygen (pO2) falls to 5 mmHg.
+## answer_b
+Acting as a buffer in RBCs
+## explanation_b
+The oxy-Hb/Hb buffer role belongs to hemoglobin in red blood cells, not to myoglobin in muscle.
+## answer_c
+Oxygen transport in blood
+## explanation_c
+Oxygen transport in blood is hemoglobin's job in the table; myoglobin's job is oxygen storage/release inside muscle, not transport in blood.
+## answer_d
+Degradation of H202
+## explanation_d
+Degradation of hydrogen peroxide is the job assigned to catalase and peroxidases, not to myoglobin.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-0C20B87FDE8B31
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State myoglobin's main function as an oxygen reservoir in cardiac and skeletal muscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p41 q6. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-408
+## title
+When the partial pressure of oxygen (pO2) is 20 mmHg (low partial pressure of oxygen):
+## question
+When the partial pressure of oxygen (pO2) is 20 mmHg (low partial pressure of oxygen):
+## vignette
+This item asks the student to recall the specific saturation figure for myoglobin (90%) at a pO2 of 20 mmHg.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Myoglobin is 50% saturated
+## explanation_a
+Fifty percent saturation is not the figure given for myoglobin at pO2 20 mmHg; myoglobin's high oxygen affinity keeps it far more saturated than that at this pO2.
+## answer_b
+Myoglobin is 20% saturated
+## explanation_b
+Twenty percent saturation would suggest myoglobin releases oxygen about as readily as it is presented, which understates the affinity described — myoglobin stays 90% saturated at this pO2.
+## answer_c
+Myoglobin is 30% saturated
+## explanation_c
+Thirty percent saturation is too low for the affinity attributed to myoglobin at pO2 20 mmHg, which it states as 90%.
+## answer_d
+Myoglobin is 90% saturated
+## explanation_d
+Correct. Myoglobin is 90% saturated at a pO2 of 20 mmHg, reflecting its greater affinity for oxygen than hemoglobin.
+
+Why this is right:
+- Myoglobin is present in cardiac and skeletal muscles, where it functions as a reservoir for oxygen and as an oxygen carrier that increases the rate of oxygen release within the muscle cell during severe muscular exercise, when the partial pressure of oxygen (pO2) falls to 5 mmHg.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-0C20B87FDE8B31
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recall the specific saturation figure for myoglobin (90%) at a pO2 of 20 mmHg.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p41 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-409
+## title
+Which of the following is a hemoprotein?
+## question
+Which of the following is a hemoprotein?
+## vignette
+This item asks the student to identify cytochromes as a hemoprotein from the example table, and non-heme proteins as not.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Collagen
+## explanation_a
+Collagen is a structural protein of the extracellular matrix, not a hemoprotein — it carries no heme prosthetic group in the classification.
+## answer_b
+Transferrin
+## explanation_b
+Transferrin is an iron-transport protein, but it binds iron directly rather than via a heme prosthetic group, so it is not listed as a hemoprotein.
+## answer_c
+Cytochromes
+## explanation_c
+Correct. The table of hemoproteins lists cytochromes, with the function of electron transportation in the respiratory chain.
+
+Why this is right:
+- Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group.
+## answer_d
+Elastin
+## explanation_d
+Elastin, like collagen, is a structural extracellular-matrix protein; it does not appear in the table of hemoproteins.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-208821E5E203D5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify cytochromes as a hemoprotein from the example table, and non-heme proteins as not.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p42 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-410
+## title
+Which of the following is false?
+## question
+Which of the following is false?
+## vignette
+This item asks the student to spot that heme's iron is ferrous (Fe2+), not ferric (Fe3+), among otherwise true statements about heme structure.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Heme consists of a complex organic ring structure, protoporphyrin
+## explanation_a
+True, so not the answer. Described heme as built on protoporphyrin, a complex ring structure — the porphin ring of four pyrrole rings linked by methenyl bridges.
+## answer_b
+Protoporphyrin is bound to a single iron atom in its fe3* state
+## explanation_b
+Correct. This is the false statement, and so the answer. Heme is a ferrous, Fe2+, protoporphyrin IX — not ferric, Fe3+. Iron only becomes ferric when heme is oxidised into hematin, which the globin chain normally prevents.
+
+Why this is right:
+- Heme is a ferrous (Fe2+) protoporphyrin IX: a porphin ring of four pyrrole rings linked through methenyl bridges, carrying four nonpolar methyl groups, two nonpolar vinyl groups and two polar propionate groups.
+## answer_c
+Iron atom has 6 coordination bonds
+## explanation_c
+True, so not the answer. Iron in the ferrous state forms six coordination bonds: four to the ring's nitrogens, a fifth to the proximal histidine, a sixth for oxygen.
+## answer_d
+Heme is found in a number of oxygen-transporting proteins
+## explanation_d
+True, so not the answer. The table lists several oxygen-transporting/handling hemoproteins — haemoglobin and myoglobin among them — so heme is indeed found in more than one such protein.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-9D7110C869FBDF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Spot that heme's iron is ferrous (Fe2+), not ferric (Fe3+), among otherwise true statements about heme structure.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p42 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-411
+## title
+Myoglobin is present in:
+## question
+Myoglobin is present in:
+## vignette
+This item asks the student to locate myoglobin in cardiac and skeletal muscle.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Nerves
+## explanation_a
+Nerves are not where myoglobin is located; its stated site is cardiac and skeletal muscle.
+## answer_b
+Blood cells
+## explanation_b
+Blood cells are where hemoglobin works, not myoglobin — kept the two proteins and their sites distinct.
+## answer_c
+Muscles
+## explanation_c
+Correct. Placed myoglobin specifically in cardiac and skeletal muscles.
+
+Why this is right:
+- Myoglobin is present in cardiac and skeletal muscles, where it functions as a reservoir for oxygen and as an oxygen carrier that increases the rate of oxygen release within the muscle cell during severe muscular exercise, when the partial pressure of oxygen (pO2) falls to 5 mmHg.
+## answer_d
+Skin
+## explanation_d
+Skin is not a site given for myoglobin; it names only cardiac and skeletal muscle.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-0C20B87FDE8B31
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Locate myoglobin in cardiac and skeletal muscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p42 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-412
+## title
+Myoglobin and the subunits of hemoglobin have:
+## question
+Myoglobin and the subunits of hemoglobin have:
+## vignette
+This item asks the student to recognise that myoglobin and hemoglobin subunits share the same tertiary fold but differ in primary structure, and that myoglobin has no quaternary structure to compare.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Different primary structure
+## explanation_a
+Correct. Given apomyoglobin 153 amino acids and 8 helices, the α chain 141 amino acids and 7 helices, and the β chain 146 amino acids and 8 helices — different chain lengths mean different amino-acid sequences, i.e. different primary structures.
+
+Why this is right:
+- Myoglobin is formed of one heme group attached to one polypeptide chain (apomyoglobin, 153 amino acids, 8 α-helices), while hemoglobin is formed of four heme groups attached to four polypeptide chains.
+## answer_b
+Different tertiary structure
+## explanation_b
+Described myoglobin's and hemoglobin's tertiary folding in the same words — a globular structure with polar amino acids at the surface and nonpolar amino acids inside — so their tertiary structure is shared, not different.
+## answer_c
+Similar primary structure
+## explanation_c
+The different residue counts (153 vs 141 vs 146) rule this out; a different number and sequence of amino acids is a different primary structure by definition.
+## answer_d
+Similar quaternary structure
+## explanation_d
+Myoglobin, a single chain, has no quaternary structure at all in the account; only hemoglobin's four chains are organised into the two-dimer quaternary structure, so there is nothing for it to be 'similar' to.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-B9017F150AF212
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise that myoglobin and hemoglobin subunits share the same tertiary fold but differ in primary structure, and that myoglobin has no quaternary structure to compare.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p42 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-413
+## title
+Hemoglobin S:
+## question
+Hemoglobin S:
+## vignette
+This item asks the student to identify HbS's origin as a point mutation rather than an insertion, and be cautious about unsupported claims (lethality, electrophoretic mobility).
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Results from insertion of a nucleotide
+## explanation_a
+Specifically called this a point mutation (a nucleotide alteration/substitution), not an insertion of a nucleotide, which would be a different kind of mutation altogether.
+## answer_b
+Results from point mutation
+## explanation_b
+Correct. Described HbS as caused by a single nucleotide alteration — a point mutation — in the β-globin gene, not an insertion.
+
+Why this is right:
+- Sickle cell anaemia is caused by a single nucleotide alteration — a point mutation — in the β-globin gene, which replaces the polar glutamate normally at position six of the β chain with a nonpolar valine.
+## answer_c
+Is incompatible with life
+## explanation_c
+Described sickle cell disease as a chronic condition producing pain and localised infarction from vaso-occlusion, not as incompatible with life; it does not state a lethality claim.
+## answer_d
+Runs faster than the normal HbA in electrophoresis
+## explanation_d
+HbS's electrophoretic mobility relative to HbA is not described, so this claim is not supported either way.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-BEF9577989EAF4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify HbS's origin as a point mutation rather than an insertion, and be cautious about unsupported claims (lethality, electrophoretic mobility).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p42 q14. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-414
+## title
+In HbS, the 6" amino acid of the B chain is replaced by:
+## question
+In HbS, the 6" amino acid of the B chain is replaced by:
+## vignette
+This item asks the student to name valine as the amino acid substituted for glutamate at position six of the β chain in HbS.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Tyrosine
+## explanation_a
+Tyrosine is not the residue named; the substituting amino acid is valine.
+## answer_b
+Valine
+## explanation_b
+Correct. The point mutation replaces the polar glutamate at position six of the β chain with a nonpolar valine.
+
+Why this is right:
+- Sickle cell anaemia is caused by a single nucleotide alteration — a point mutation — in the β-globin gene, which replaces the polar glutamate normally at position six of the β chain with a nonpolar valine.
+## answer_c
+Glycine
+## explanation_c
+Glycine is not the residue named for this substitution; specified valine replacing glutamate.
+## answer_d
+Serine
+## explanation_d
+Serine is not the residue named here; serine is instead the amino acid that combines with phosphatidic acid to form phosphatidylserine in an unrelated lipid concept, not the HbS substitution.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-BEF9577989EAF4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name valine as the amino acid substituted for glutamate at position six of the β chain in HbS.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p43 q16. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-415
+## title
+Hemoglobin A2 contains:
+## question
+Hemoglobin A2 contains:
+## vignette
+This item asks the student to state HbA2's chain composition (α2δ2) and distinguish it from HbA1 (α2β2) and HbF (α2γ2).
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+a2, B2
+## explanation_a
+α2β2 is adult HbA1, the major adult haemoglobin (98%), not HbA2.
+## answer_b
+a2 62
+## explanation_b
+Correct. Adult HbA2 consists of two alpha and two delta chains (α2δ2) and forms about 2% of total adult haemoglobin.
+
+Why this is right:
+- Hemoglobin structure differs across embryonic, fetal and adult life; all are tetramers of different polypeptide chains encoded by different genes.
+## answer_c
+a2 y2
+## explanation_c
+α2γ2 is fetal haemoglobin, HbF, not HbA2 — distinguished the fetal γ chain from the adult δ chain.
+## answer_d
+82, 62
+## explanation_d
+Paired every haemoglobin's chains with alpha; β2δ2, with no alpha chain at all, does not match any haemoglobin type it describes.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-E172B2F684099D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State HbA2's chain composition (α2δ2) and distinguish it from HbA1 (α2β2) and HbF (α2γ2).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p43 q18. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-416
+## title
+What is the nitrogenous base present in the RNA molecule?
+## question
+What is the nitrogenous base present in the RNA molecule?
+## vignette
+This item asks the student to identify uracil as the nitrogenous base unique to RNA in place of DNA's thymine.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Thymine
+## explanation_a
+Thymine is DNA's base; the comparison table gives RNA uracil in its place (thymine appears in RNA only as a minor base within tRNA).
+## answer_b
+Uracil
+## explanation_b
+Correct. RNA's nitrogenous base is uracil in place of DNA's thymine, per the DNA/RNA comparison.
+
+Why this is right:
+- DNA and RNA share the purine bases adenine and guanine and the pyrimidine cytosine.
+## answer_c
+Xanthine
+## explanation_c
+Xanthine is not one of the four bases listed for either DNA or RNA — it plays no part in this classification.
+## answer_d
+Hypoxanthine
+## explanation_d
+Hypoxanthine, like xanthine, is not among the bases assigned to DNA or RNA.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-CB55EE69768E2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify uracil as the nitrogenous base unique to RNA in place of DNA's thymine.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p53 q1. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-417
+## title
+In tRNA molecule D arm is named for the presence of the base:
+## question
+In tRNA molecule D arm is named for the presence of the base:
+## vignette
+This item asks the student to name dihydrouracil as the unusual base that gives the tRNA D-arm its name.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Uridine
+## explanation_a
+Uridine is a normal RNA nucleoside, not the unusual base that distinguishes the D-arm.
+## answer_b
+Pseudo-Uridine
+## explanation_b
+Pseudo-uridine is the unusual base found in the TψC arm, not the D-arm.
+## answer_c
+Dihydrouracil
+## explanation_c
+Correct. The D-arm contains the unusual base dihydrouracil, which is important for the arm's recognition by aminoacyl-tRNA synthetase.
+
+Why this is right:
+- tRNA is a single strand folded into a cloverleaf shape, stabilized by hydrogen bonds, with four main arms and one extra arm.
+## answer_d
+Thymidine
+## explanation_d
+Thymidine is the unusual base found in the TψC arm alongside pseudouridine, not in the D-arm.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-4DCC3E30FD4C86
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name dihydrouracil as the unusual base that gives the tRNA D-arm its name.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p53 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key was recovered (correctSource: none). The book states directly (p77): 'D-arm contains an unusual base dihydrouracil.'
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-418
+## title
+The T y C arm in the tRNA molecule possesses the sequence:
+## question
+The T y C arm in the tRNA molecule possesses the sequence:
+## vignette
+This item asks the student to state that the TψC arm's name comes from its thymine, pseudouridine and cytosine sequence.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+T, pseudo-uridine, and C
+## explanation_a
+Correct. The TψC arm contains the unusual specific sequence of thymine and pseudouridine bases, alongside cytosine, giving the arm its name.
+
+Why this is right:
+- tRNA is a single strand folded into a cloverleaf shape, stabilized by hydrogen bonds, with four main arms and one extra arm.
+## answer_b
+T, uridine, and C
+## explanation_b
+Uridine, the ordinary nucleoside, is not the unusual modified base named for this arm — pseudouridine is.
+## answer_c
+T, dihydrouridine, and C
+## explanation_c
+Dihydrouridine is the unusual base of the D-arm, not the TψC arm — this swaps the two arms' distinguishing bases.
+## answer_d
+T, adenine, and C
+## explanation_d
+Adenine is not the unusual base named for this arm at all; the sequence for this arm is thymine, pseudouridine and cytosine.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-4DCC3E30FD4C86
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the TψC arm's name comes from its thymine, pseudouridine and cytosine sequence.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p53 q5. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-419
+## title
+The most stabilizing force for the nucleic acids is :
+## question
+The most stabilizing force for the nucleic acids is :
+## vignette
+This item asks the student to distinguish the base-stacking (Van der Waals) forces credited with stabilizing the helix from the hydrogen bonds that hold each base pair together.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Hydrogen bonds
+## explanation_a
+Hydrogen bonds hold each base pair together (two for A-T, three for G-C) and give the pairing its specificity, but credited the Van der Waals stacking forces between neighbouring base pairs with providing the helix's overall stability.
+## answer_b
+Electrostatic bond
+## explanation_b
+Electrostatic bonds are not a force named as a source of nucleic acid stability.
+## answer_c
+Van der Waal forces
+## explanation_c
+Correct. The stacked base pairs are held together by Van der Waals forces and hydrophobic interactions, and that 'these forces provide the stability of the double helix.'
+
+Why this is right:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three.
+## answer_d
+Phosphodiester bonds
+## explanation_d
+Phosphodiester bonds are the covalent bonds within each backbone; they hold one strand's own nucleotides together, not the two strands to each other, and them is not credited with the helix's stability.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-5BAF472E54A764
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Distinguish the base-stacking (Van der Waals) forces credited with stabilizing the helix from the hydrogen bonds that hold each base pair together.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p53 q6. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-420
+## title
+Purine base found in RNA is:
+## question
+Purine base found in RNA is:
+## vignette
+This item asks the student to identify guanine as a purine base present in RNA, distinguishing it from the pyrimidines cytosine, thymine and uracil.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Cytosine
+## explanation_a
+Cytosine is a pyrimidine, not a purine — it does not answer the question as asked.
+## answer_b
+Thymine
+## explanation_b
+Thymine is a pyrimidine, and in RNA it appears only as a minor base within tRNA — not the purine the question is asking for.
+## answer_c
+Guanine
+## explanation_c
+Correct. The comparison table lists adenine and guanine as the purines shared by both DNA and RNA; guanine is the purine among these four options.
+
+Why this is right:
+- DNA and RNA share the purine bases adenine and guanine and the pyrimidine cytosine.
+## answer_d
+Uracil we Chemistry of Nucleic Acids 50
+## explanation_d
+Uracil is a pyrimidine — RNA's substitute for DNA's thymine — not a purine.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-CB55EE69768E2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify guanine as a purine base present in RNA, distinguishing it from the pyrimidines cytosine, thymine and uracil.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p53 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key was recovered (correctSource: none). The book's comparison table (p79) lists 'Adenine & Guanine' as the purines present in both DNA and RNA; the other three options (cytosine, thymine, uracil) are all pyrimidines by the same table, so guanine is the only purine among the four options.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-421
+## title
+What are the building blocks of nucleic acids?
+## question
+What are the building blocks of nucleic acids?
+## vignette
+This item asks the student to state that nucleotides are the building-block monomers nucleic acids are polymers of.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Nucleotides
+## explanation_a
+Correct. Nucleic acids are polymers of nucleotides.
+## answer_b
+Nucleosides
+## explanation_b
+Nucleosides are a base plus a sugar, missing the phosphate group that makes a nucleotide — the actual repeating unit needs that phosphate to form the phosphodiester backbone.
+## answer_c
+Amino acids
+## explanation_c
+Amino acids are the building blocks of proteins, an entirely different class of biomolecule.
+## answer_d
+Histones
+## explanation_d
+Histones are proteins that package finished DNA into nucleosomes — they are not part of the nucleic acid polymer itself.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-C5D9467CA2A949
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that nucleotides are the building-block monomers nucleic acids are polymers of.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p54 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-422
+## title
+On which of the following molecules would you find a codon ?
+## question
+On which of the following molecules would you find a codon ?
+## vignette
+This item asks the student to identify mRNA as the RNA type whose coding region is organized into codons.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Messenger RNA
+## explanation_a
+Correct. The coding region of mRNA carries genetic information as the template for protein synthesis, with each three-base codon designating an amino acid.
+
+Why this is right:
+- Three major RNA types participate in protein synthesis.
+## answer_b
+Ribosomal RNA
+## explanation_b
+Ribosomal RNA forms the ribosome's structure and catalytic core; it does not carry a codon sequence itself.
+## answer_c
+Transfer RNA
+## explanation_c
+Transfer RNA reads a codon via its complementary anticodon, but the codon itself is on the mRNA being translated, not on the tRNA.
+## answer_d
+DNA
+## explanation_d
+DNA carries the gene the mRNA is transcribed from, but the codon — the triplet that designates an amino acid during translation — is a feature of the mRNA's coding region, not of DNA.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-BDF683EF5CD960
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify mRNA as the RNA type whose coding region is organized into codons.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p54 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-423
+## title
+The two strands in DNA double helix are joined by:
+## question
+The two strands in DNA double helix are joined by:
+## vignette
+This item asks the student to state that hydrogen bonds, not covalent bonds, hold the two strands of the DNA double helix together.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Covalent bond
+## explanation_a
+Covalent bonds hold each strand's own backbone together (the phosphodiester bonds), not the two strands to each other.
+## answer_b
+Hydrogen bond
+## explanation_b
+Correct. The two strands are held together by complementary base pairing through hydrogen bonds — two between A and T, three between G and C.
+
+Why this is right:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three.
+## answer_c
+Ionic bond
+## explanation_c
+Ionic bonds are not the force named for holding the two strands together.
+## answer_d
+Phosphodiester bond Bs @eeeveeseeoaeeoeceoone —— Chemistry of Nucleic Acids 51 tom
+## explanation_d
+Phosphodiester bonds are the covalent bonds within a single strand's backbone; they do not join the two strands to each other, which is done only by hydrogen bonds.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-5BAF472E54A764
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that hydrogen bonds, not covalent bonds, hold the two strands of the DNA double helix together.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p54 q14. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-424
+## title
+Histones are rich in:
+## question
+Histones are rich in:
+## vignette
+This item asks the student to state that histones are basic proteins rich in lysine and arginine, which lets them bind acidic DNA electrostatically.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Arginine and Lysine
+## explanation_a
+Correct. Histones are basic proteins rich in lysine and arginine, which are positively charged and so bind the negatively charged, phosphate-rich DNA.
+
+Why this is right:
+- Each chromosome contains DNA plus histone proteins.
+## answer_b
+Argine and Leucine
+## explanation_b
+Leucine is a neutral, non-basic amino acid — swapping it in for lysine loses the positive charge that lets histones bind DNA.
+## answer_c
+Histidine and leucine
+## explanation_c
+Histidine and leucine are not the residue pair credited with histones' basic, DNA-binding character; arginine and lysine are.
+## answer_d
+Glutamate and aspartate
+## explanation_d
+Glutamate and aspartate are acidic amino acids, which would make a protein negatively charged like DNA itself, not able to bind it electrostatically the way histones do.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-3660CDEFA054C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that histones are basic proteins rich in lysine and arginine, which lets them bind acidic DNA electrostatically.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p55 q19. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-425
+## title
+Bigeding time is prolonged in:
+## question
+Bigeding time is prolonged in:
+## vignette
+This item asks the student to attribute a prolonged bleeding time to large-dose aspirin.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Deficiency of factor VIII
+## explanation_a
+Factor VIII deficiency (haemophilia A) prolongs *coagulation* time, not bleeding time — it is a clotting-factor defect, not a platelet-function one.
+## answer_b
+Malabsorption of vitamin K
+## explanation_b
+Vitamin K malabsorption prolongs coagulation time (fewer prothrombin-group factors), not bleeding time.
+## answer_c
+Liver disease
+## explanation_c
+Liver disease prolongs coagulation time through reduced clotting-factor synthesis, not bleeding time specifically.
+## answer_d
+Intake of large quantities of aspirin
+## explanation_d
+Correct. Large quantities of aspirin inhibit cyclooxygenase in platelets, suppressing thromboxane A2 and impairing platelet aggregation, which prolongs bleeding time — the platelet-dependent measure, distinct from coagulation time.
+
+Why this is right:
+- Aspirin inhibits cyclooxygenase, reducing both thromboxane A2 and prostacyclin production.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-603D2DB3DED602
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Attribute a prolonged bleeding time to large-dose aspirin.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p13 q37. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-426
+## title
+Thromboxane Ao:
+## question
+Thromboxane Ao:
+## vignette
+This item asks the student to state that thromboxane A2 causes platelet aggregation.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Causes plaisiet aggregation
+## explanation_a
+Correct. Thromboxane A2 is a powerful stimulant of platelet aggregation, alongside being a vasoconstrictor and a stimulator of the platelet release reaction.
+
+Why this is right:
+- Thromboxane A2 is produced from arachidonic acid in the membrane of active platelets by cyclooxygenase; it is a vasoconstrictor, a stimulator of the platelet release reaction and a powerful stimulant of platelet aggregation. Prostacyclin is produced from arachidonic acid in the endothelium of blood vessels by the same cyclooxygenase; it is a powerful vasodilator and an inhibitor of both platelet release and platelet aggregation. Since its actions are the opposite of those of thromboxane A2, prostacyclin keeps the platelet plug localised to the site of injury.
+## answer_b
+Is metabolized to prostacyclin
+## explanation_b
+Backwards. Thromboxane A2 and prostacyclin are two separate products of the same substrate and enzyme (arachidonic acid via cyclooxygenase) made in different cell types — thromboxane A2 is not metabolised into prostacyclin.
+## answer_c
+Is directly inactivated by binding to aspirin
+## explanation_c
+Backwards. Aspirin inhibits the cyclooxygenase enzyme that makes thromboxane A2, reducing its production — it does not bind and inactivate thromboxane A2 directly once formed.
+## answer_d
+Converts prothrombin to thrombin
+## explanation_d
+Converting prothrombin to thrombin is a coagulation-cascade common-pathway step (via active factor X), not something thromboxane A2, a platelet-derived eicosanoid, does.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-543C749CEB67BF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that thromboxane A2 causes platelet aggregation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p13 q38. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-427
+## title
+Platelets assist in arresting bleeding by the following, EXCEPT:
+## question
+Platelets assist in arresting bleeding by the following, EXCEPT:
+## vignette
+This item asks the student to recognise that platelets do not themselves supply high concentrations of calcium to the plasma.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Releasing factors promoting blood cloiting
+## explanation_a
+Releasing clotting-promoting factors (fibrinogen, factor V, von Willebrand factor, factor XIII from alpha granules) is a genuine way platelets help arrest bleeding, so it is not the exception.
+## answer_b
+Adhering together to form plugs when exposed to collagen
+## explanation_b
+Adhering together to form a plug when exposed to collagen is the adhesion step of platelet-plug formation, a genuine mechanism, so it is not the exception.
+## answer_c
+Liberating high concentrations of calcium
+## explanation_c
+Correct. The exception. Platelets release calcium from their dense granules, but this reinforces further platelet activation and release locally, not a systemic liberation of "high concentrations" of calcium into the plasma — this option overstates what the release reaction achieves.
+
+Why this is right:
+- Formation of the temporary haemostatic plug (primary haemostasis) proceeds in steps.
+## answer_d
+Releasing factors causing vasoconstriction
+## explanation_d
+Releasing factors that cause vasoconstriction (serotonin, thromboxane A2) is a genuine platelet mechanism for arresting bleeding, so it is not the exception.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-C62DE76BB2BDCD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Recognise that platelets do not themselves supply high concentrations of calcium to the plasma.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p13 q39. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-428
+## title
+Obstruction of common bile duct by a stone will increase bleeding tendency due to:
+## question
+Obstruction of common bile duct by a stone will increase bleeding tendency due to:
+## vignette
+This item asks the student to attribute bile-duct-obstruction bleeding tendency to decreased hepatic prothrombin synthesis via vitamin K malabsorption.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Decreased formation of factor XII in the liver
+## explanation_a
+Factor XII is part of the contact group, activated by surface contact and not vitamin-K-dependent — bile duct obstruction does not act through factor XII.
+## answer_b
+Decreased platelet count
+## explanation_b
+Bile duct obstruction is not described as reducing the platelet count; its bleeding mechanism runs through vitamin K malabsorption and factor synthesis, not platelet numbers.
+## answer_c
+Decreased synthesis of vitamin k in the liver
+## explanation_c
+Vitamin K is *absorbed* using bile, not *synthesised* in the liver — the liver only uses the vitamin, once absorbed, to make the clotting factors. This option mislocates where vitamin K comes from.
+## answer_d
+Decreased synthesis of prothrombin
+## explanation_d
+Correct. Bile duct obstruction removes the bile needed to absorb the fat-soluble vitamin K, and the liver needs vitamin K to synthesise prothrombin (and the other vitamin-K-dependent factors) — so obstruction lowers prothrombin synthesis and raises bleeding tendency.
+
+Why this is right:
+- Vitamin K is a fat-soluble vitamin synthesised by the intestinal bacterial flora, needed for the hepatic formation of factors II, VII, IX and X and proteins C and S.
+- Its deficiency decreases formation of these coagulation factors and prolongs coagulation time.
+- Deficiency can follow absence of intestinal bacterial flora (as in newborn infants), prolonged treatment with antibiotics, or obstruction of the bile ducts (absence of bile needed for absorption of the fat-soluble vitamin K).
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-BC9F1F59205EC7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Attribute bile-duct-obstruction bleeding tendency to decreased hepatic prothrombin synthesis via vitamin K malabsorption.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p13 q40. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-429
+## title
+How does aspirin influence platelets function:
+## question
+How does aspirin influence platelets function:
+## vignette
+This item asks the student to state that aspirin impairs platelet aggregation.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Impairs process of their aggregation
+## explanation_a
+Correct. Aspirin inhibits cyclooxygenase, suppressing platelet thromboxane A2 and so impairing the aggregation step of platelet-plug formation.
+
+Why this is right:
+- Aspirin inhibits cyclooxygenase, reducing both thromboxane A2 and prostacyclin production.
+## answer_b
+Decreases their content
+## explanation_b
+Aspirin does not reduce platelet *count* — it impairs the function (aggregation) of the platelets that are present, which is a different kind of effect.
+## answer_c
+Reduces bleeding time
+## explanation_c
+Backwards. Aspirin *prolongs* bleeding time (by impairing aggregation), it does not reduce it.
+## answer_d
+Reduces their life span
+## explanation_d
+Aspirin does not shorten platelet lifespan — its effect (suppressed thromboxane A2, lasting the platelet's whole lifespan because platelets cannot resynthesise cyclooxygenase) is functional, not a change in how long platelets survive.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-603D2DB3DED602
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that aspirin impairs platelet aggregation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p13 q42. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-430
+## title
+Which of the following conditions is associated with a depression .of the coagulation p…
+## question
+Which of the following conditions is associated with a depression .of the coagulation process and excessive bleeding after surgery?
+## vignette
+This item asks the student to attribute post-surgical excessive bleeding to depressed hepatic synthesis of clotting factors in liver disease.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Gastrointestinal disease
+## explanation_a
+Gastrointestinal disease is not described as directly depressing coagulation-factor synthesis the way liver disease is — its bleeding risk, where it exists, runs through malabsorption of fat-soluble vitamin K rather than a synthesis defect itself.
+## answer_b
+Heart disease
+## explanation_b
+Heart disease is not connected to depressed coagulation or excessive surgical bleeding.
+## answer_c
+Kidney disease
+## explanation_c
+Kidney disease is connected to a *lowered* albumin/globulin ratio (protein lost in urine), not to depressed coagulation-factor synthesis.
+## answer_d
+Liver disease
+## explanation_d
+Correct. The liver is the main site of synthesis of fibrinogen and the coagulation factors; liver disease depresses that synthesis directly, causing excessive bleeding after surgery.
+
+Why this is right:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-005D132395BF2F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Attribute post-surgical excessive bleeding to depressed hepatic synthesis of clotting factors in liver disease.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p14 q43. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-431
+## title
+Anii thrombin Ill activity is increased by:
+## question
+Anii thrombin Ill activity is increased by:
+## vignette
+This item asks the student to name heparin as increasing antithrombin III activity.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Aspirin
+## explanation_a
+Aspirin's mechanism is cyclooxygenase inhibition, suppressing thromboxane A2 and prostacyclin — it is not connected to antithrombin III at all.
+## answer_b
+Citrate
+## explanation_b
+Citrate's anticoagulant action is chelating calcium, an entirely different mechanism from antithrombin III potentiation, and used only as an in vitro anticoagulant for stored blood.
+## answer_c
+Coumarin
+## explanation_c
+Coumarin (warfarin) works by competitively inhibiting vitamin K in the liver, blocking synthesis of the vitamin-K-dependent factors — a different mechanism from antithrombin III, which acts on already-formed active factors rather than blocking new synthesis.
+## answer_d
+Heparin
+## explanation_d
+Correct. Heparin combines with antithrombin III to inactivate factors IXa, Xa, XIa and XIIa — the comparison table describes this explicitly as heparin "facilitating" antithrombin III's action, i.e. increasing its activity.
+
+Why this is right:
+- Blood normally circulates in a fluid state because several physiological mechanisms limit clotting: a healthy endothelium, which keeps blood off subendothelial collagen and carries antiplatelet and anticoagulant surface products; the small amount of heparin in blood, which combines with antithrombin III to inactivate factors IX, X, XI and XII; the liver, which inactivates any activated coagulation factor; a continuous normal flow rate, since stasis allows intravascular clotting; the balance between thromboxane A2 and prostacyclin, which confines a clot to the site of injury; and the fibrinolytic system.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-87280E690F877F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name heparin as increasing antithrombin III activity.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p15 q49. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes disagreed between options A (aspirin) and D (heparin), but the module book directly names heparin's mechanism as combining with antithrombin III to inactivate factors IX, X, XI and XII (physical p140) — which is described as facilitating, i.e. increasing, antithrombin III's activity (also stated explicitly in the heparin-vs-dicumarol comparison table, physical p142: "Facilitates action of Antithrombin III"). Aspirin's mechanism (cyclooxygenase inhibition, affecting thromboxane A2 and prostacyclin) has no stated connection to antithrombin III anywhere in the book, so D is the only option the book supports.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-432
+## title
+The phase of coagulation that begins with exposed endothelial collagen is the:
+## question
+The phase of coagulation that begins with exposed endothelial collagen is the:
+## vignette
+This item asks the student to identify exposed endothelial collagen as the trigger for the intrinsic pathway.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Extrinsic pathway
+## explanation_a
+The extrinsic pathway begins with tissue thromboplastin release from damaged tissue, not with exposed endothelial collagen.
+## answer_b
+Intrinsic pathway
+## explanation_b
+Correct. The intrinsic pathway begins when blood contacts exposed subendothelial collagen (activating factor XII), which is why it is described as beginning "inside" the vessel wall itself rather than from outside tissue damage.
+
+Why this is right:
+- Coagulation runs as two initiating cascades that converge.
+## answer_c
+Common pathway
+## explanation_c
+The common pathway begins downstream, at active factor X forming the prothrombin activator — not at the point collagen is first exposed.
+## answer_d
+Fibrin stabilization phase
+## explanation_d
+Fibrin stabilisation is the final step of the common pathway (factor XIII cross-linking fibrin), a different, later phase from where the cascade begins.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-8EC1CD48F9DB41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Identify exposed endothelial collagen as the trigger for the intrinsic pathway.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p15 q50. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-433
+## title
+Anticlotting mechanism includes the following limiting reaction:
+## question
+Anticlotting mechanism includes the following limiting reaction:
+## vignette
+This item asks the student to name the thromboxane A2–prostacyclin balance as an anticlotting limiting reaction.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Inactivation of factor XII.
+## explanation_a
+Inactivation of factor XII is not a mechanism named among its physiological limiting reactions — the named contact-group inactivation route runs through the liver clearing activated factors generally, not a specific factor-XII inactivation step.
+## answer_b
+Removal of activated clotting factors by the kidney. |
+## explanation_b
+The kidney is not described as removing activated clotting factors — that is the liver's named role among the limiting reactions.
+## answer_c
+Binding of antithrombin Ill with active clotting factor VII, IX and X .
+## explanation_c
+Antithrombin III is binding factors IX, X, XI and XII, not VII — this option lists the wrong set of factors for antithrombin III's action.
+## answer_d
+The interaction between thromboxane A2 and prostacyclin limits clotting to the site of injury
+## explanation_d
+Correct. The balance between thromboxane A2 (a platelet-derived vasoconstrictor and aggregation stimulant) and prostacyclin (an endothelial vasodilator and aggregation inhibitor) is one of the mechanisms that limits the clot to the site of injury.
+
+Why this is right:
+- Thromboxane A2 is produced from arachidonic acid in the membrane of active platelets by cyclooxygenase; it is a vasoconstrictor, a stimulator of the platelet release reaction and a powerful stimulant of platelet aggregation. Prostacyclin is produced from arachidonic acid in the endothelium of blood vessels by the same cyclooxygenase; it is a powerful vasodilator and an inhibitor of both platelet release and platelet aggregation. Since its actions are the opposite of those of thromboxane A2, prostacyclin keeps the platelet plug localised to the site of injury.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-543C749CEB67BF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name the thromboxane A2–prostacyclin balance as an anticlotting limiting reaction.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p15 q52. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-434
+## title
+The importance of active coagulation factor X is related to it’s ability for
+## question
+The importance of active coagulation factor X is related to it’s ability for
+## vignette
+This item asks the student to state that active factor X converts prothrombin to thrombin.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Activation of platelets
+## explanation_a
+Platelet activation is triggered earlier, by adhesion to collagen and von Willebrand factor — it is not what makes factor X important in the coagulation cascade.
+## answer_b
+Vasoconstriction of injured vessel
+## explanation_b
+Vasoconstriction of the injured vessel is an earlier, separate haemostasis step (driven by local myogenic contraction, nervous reflexes and platelet-released factors), not a function of active factor X.
+## answer_c
+Conversion of prothrombin into thrombin
+## explanation_c
+Correct. Active factor X, together with phospholipid, Ca2+ and factor Va, forms the prothrombin activator that converts prothrombin to thrombin — the step at which the intrinsic and extrinsic pathways converge on the common pathway.
+
+Why this is right:
+- Coagulation runs as two initiating cascades that converge.
+## answer_d
+Activation of coagulation factor XI
+## explanation_d
+Backwards. Factor XI sits upstream of factor X in the intrinsic pathway (XII activates XI, which activates IX, which with VIIIa activates X) — factor X does not activate factor XI.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-8EC1CD48F9DB41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that active factor X converts prothrombin to thrombin.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p16 q59. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-435
+## title
+Blood coagulates occurs when putting blood sample ina glass test tube due to
+## question
+Blood coagulates occurs when putting blood sample ina glass test tube due to
+## vignette
+This item asks the student to state that glass activates factor XII in vitro, initiating the intrinsic pathway.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Tissue factor activates coagulation factor 7
+## explanation_a
+Tissue factor (thromboplastin) activating factor VII describes the extrinsic pathway, which is stated occurs only in vivo — a glass tube outside the body cannot supply tissue thromboplastin.
+## answer_b
+Prevention of formation of fibrin
+## explanation_b
+Blood clotting in a glass tube is *promotion* of fibrin formation, not prevention — this option states the opposite of what is observed.
+## answer_c
+Silica activates coagulation factor 12
+## explanation_c
+Correct. Factor XII can be activated in vitro by exposure to electronegatively-charged wettable surfaces such as glass — silica activating factor XII is exactly this mechanism, and it is why the intrinsic pathway (unlike the extrinsic) occurs both in vivo and in vitro.
+
+Why this is right:
+- Coagulation runs as two initiating cascades that converge.
+## answer_d
+Inactivation of vitamin K
+## explanation_d
+Glass-tube clotting is not connected to vitamin K — vitamin K governs hepatic synthesis of certain factors over days, an entirely different timescale and mechanism from the immediate contact-activation seen in a test tube.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-8EC1CD48F9DB41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that glass activates factor XII in vitro, initiating the intrinsic pathway.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p16 q60. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-436
+## title
+Aspirin can cause bleeding tendency secondary to
+## question
+Aspirin can cause bleeding tendency secondary to
+## vignette
+This item asks the student to state that aspirin causes bleeding tendency through cyclooxygenase inhibition.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Inhibition of cyclooxygenase
+## explanation_a
+Correct. Aspirin inhibits cyclooxygenase, suppressing platelet thromboxane A2 production and so impairing platelet aggregation, which is the mechanism behind its bleeding-tendency side effect.
+
+Why this is right:
+- Aspirin inhibits cyclooxygenase, reducing both thromboxane A2 and prostacyclin production.
+## answer_b
+Inhibition of plasmin
+## explanation_b
+Aspirin does not act on plasmin — the fibrinolytic system's own regulation runs through tissue plasminogen activator and its inhibitors, a separate pathway from aspirin's cyclooxygenase target.
+## answer_c
+Inhibition of heparin
+## explanation_c
+Aspirin does not inhibit heparin — the two act on entirely separate systems (cyclooxygenase/platelets vs antithrombin III/coagulation factors).
+## answer_d
+Inhibition of fibrinolysins
+## explanation_d
+Aspirin does not inhibit fibrinolysins (plasmin and related enzymes) — inhibiting fibrinolysis would if anything reduce bleeding tendency by preserving clots, the opposite direction from aspirin's actual effect.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-603D2DB3DED602
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that aspirin causes bleeding tendency through cyclooxygenase inhibition.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p17 q62. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-437
+## title
+Order tne steps of platelets reactions
+## question
+Order tne steps of platelets reactions
+## vignette
+This item asks the student to order the steps of platelet-plug formation: adhesion, activation, release, aggregation, fusion.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Release, fusion, aggregation, Adhesion, activation
+## explanation_a
+This order starts with release and ends with adhesion and activation — the reverse of the true sequence, since a platelet cannot release granule contents before it has adhered and been activated.
+## answer_b
+Fusion, aggregation, Adhesion, activation, release
+## explanation_b
+This order starts with fusion, which is the *final* step, not the first — fusion can only happen after platelets have already aggregated together.
+## answer_c
+Activation, release, fusion, activation, aggregation
+## explanation_c
+This order repeats "activation" twice and omits adhesion, which must come first (a platelet has nothing to activate against until it has adhered to exposed collagen or von Willebrand factor).
+## answer_d
+Adhesion, activation, release, aggregation, fusion
+## explanation_d
+Correct. The sequence is: adhesion (to collagen/von Willebrand factor) → activation (shape change, pseudopodia) → release reaction (granule contents) → aggregation (fibrinogen bridges) → fusion (irreversible).
+
+Why this is right:
+- Formation of the temporary haemostatic plug (primary haemostasis) proceeds in steps.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-C62DE76BB2BDCD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Order the steps of platelet-plug formation: adhesion, activation, release, aggregation, fusion.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p17 q64. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
