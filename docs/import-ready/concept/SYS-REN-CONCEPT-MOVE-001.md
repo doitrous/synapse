@@ -2,13 +2,13 @@
 ## id
 CON-REN-29ED086AF129A6
 ## label
-Adrenal capsule is thick dense fibrous connective tissue covered by adipose tissue
+Adrenal capsule: structure
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenal capsule is thick dense fibrous connective tissue covered by adipose tissue.
+The adrenal **capsule** is __thick, dense fibrous connective tissue__, covered on the outside by **adipose tissue**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal capsule is thick dense fibrous connective tissue covered by adipose tissue.
 ## article_ids
@@ -25,13 +25,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-E96E5D3613BF68
 ## label
-Adrenal chromaffin cells are modified sympathetic neurons that lost processes and became secretory
+Chromaffin cells as modified sympathetic neurons
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenal chromaffin cells are modified sympathetic neurons that lost processes and became secretory.
+Adrenal **chromaffin cells** are __modified sympathetic neurons__ that have lost their processes and become secretory.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal chromaffin cells are modified sympathetic neurons that lost processes and became secretory.
 ## article_ids
@@ -48,13 +48,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-79B3F941F1FA97
 ## label
-Adrenal cortex comprises zona glomerulosa, fasciculata, and reticularis
+Three zones of the adrenal cortex
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenal cortex comprises zona glomerulosa, fasciculata, and reticularis.
+The adrenal cortex is made of three zones: **zona glomerulosa**, **zona fasciculata** and **zona reticularis**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal cortex comprises zona glomerulosa, fasciculata, and reticularis.
 ## article_ids
@@ -71,13 +71,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-3706A589FEDA42
 ## label
-Adrenal cortex has three zones whereas medulla has chromaffin and nerve cells
+Cortex zones vs medullary cell types
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenal cortex has three zones whereas medulla has chromaffin and nerve cells.
+The **cortex** is arranged in __three zones__, whereas the **medulla** contains **chromaffin cells** and nerve cells.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal cortex has three zones whereas medulla has chromaffin and nerve cells.
 ## article_ids
@@ -94,13 +94,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-5135E0550312A3
 ## label
-Adrenal cortex is chromaffin-negative whereas medulla is chromaffin-positive
+Chromaffin reaction: cortex vs medulla
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenal cortex is chromaffin-negative whereas medulla is chromaffin-positive.
+The adrenal **cortex is chromaffin-negative**, whereas the **medulla is chromaffin-positive**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal cortex is chromaffin-negative whereas medulla is chromaffin-positive.
 ## article_ids
@@ -123,7 +123,7 @@ endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Loss of adrenal-cortical function is life-threatening, whereas the adrenal medulla is less essential for survival.
+__Loss of adrenal-cortical function is life-threatening__, whereas the adrenal **medulla** is less essential for survival.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal cortex is described as essential to life and medulla as less essential.
 ## article_ids
@@ -140,13 +140,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-D14434FB35A811
 ## label
-Adrenal cortex is mesodermal whereas medulla is ectodermal
+Embryonic origin: cortex vs medulla
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenal cortex is mesodermal whereas medulla is ectodermal.
+The adrenal **cortex is mesodermal** in origin, whereas the **medulla is ectodermal**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal cortex is mesodermal whereas medulla is ectodermal.
 ## article_ids
@@ -163,13 +163,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-42009C41CA53DB
 ## label
-Adrenal cortex receives arterial blood while medulla receives arterial and venous blood
+Blood supply: cortex vs medulla
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenal cortex receives arterial blood while medulla receives arterial and venous blood.
+The **cortex** receives **arterial blood**, while the **medulla** receives __both arterial and venous blood__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal cortex receives arterial blood while medulla receives arterial and venous blood.
 ## article_ids
@@ -186,13 +186,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-1CF1475C5DD060
 ## label
-Adrenal cortex secretes corticosteroid and sex hormones while medulla secretes catecholamines and enkephalins
+Secretions: cortex vs medulla
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenal cortex secretes corticosteroid and sex hormones while medulla secretes catecholamines and enkephalins.
+The **cortex** secretes **corticosteroids** and sex hormones, while the **medulla** secretes **catecholamines** and enkephalins.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal cortex secretes corticosteroid and sex hormones while medulla secretes catecholamines and enkephalins.
 ## article_ids
@@ -209,13 +209,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-CCABBC368078FA
 ## label
-Adrenal medulla continuously secretes small hormone amounts during normal activity
+Basal secretion by the adrenal medulla
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenal medulla continuously secretes small hormone amounts during normal activity.
+During normal activity the adrenal **medulla** continuously secretes __small amounts of hormone__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal medulla continuously secretes small hormone amounts during normal activity.
 ## article_ids
@@ -232,13 +232,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-5D60B4B43BCCC3
 ## label
-Adrenal medulla secretes epinephrine and norepinephrine during fight-flight-fright stress response
+Medullary catecholamines in the stress response
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenal medulla secretes epinephrine and norepinephrine during fight-flight-fright stress response.
+In the __fight-flight-fright stress response__ the adrenal medulla secretes **epinephrine** and **norepinephrine**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenal medulla secretes epinephrine and norepinephrine during fight-flight-fright stress response.
 ## article_ids
@@ -255,13 +255,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-6E40972A62BEB3
 ## label
-Adrenaline-secreting chromaffin cells have less-dense homogeneous filled granules
+Granules of adrenaline-secreting chromaffin cells
 ## subject
 endo
 ## topic
 Adrenal physiology and disease
 ## definition
-Adrenaline-secreting chromaffin cells have less-dense homogeneous filled granules.
+Chromaffin cells that secrete **adrenaline** contain __less-dense, homogeneous, filled granules__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenaline-secreting chromaffin cells have less-dense homogeneous filled granules.
 ## article_ids
@@ -278,13 +278,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-E6070C296322CB
 ## label
-5-Fluorouracil is converted to 5-FdUMP, which inhibits thymidylate synthase
+5-Fluorouracil: mechanism of action
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-5-Fluorouracil is converted to 5-FdUMP, which inhibits thymidylate synthase.
+**5-Fluorouracil** is converted to **5-FdUMP**, which __inhibits thymidylate synthase__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: 5-Fluorouracil is converted to 5-FdUMP, which inhibits thymidylate synthase.
 ## article_ids
@@ -301,13 +301,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-90F0EB9115E7CA
 ## label
-Absorbed dietary purines are largely oxidized in liver to uric acid and excreted in urine
+Fate of absorbed dietary purines
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Absorbed dietary purines are largely oxidized in liver to uric acid and excreted in urine.
+Absorbed **dietary purines** are largely oxidized in the **liver** to __uric acid__, and excreted in the urine.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Absorbed dietary purines are largely oxidized in liver to uric acid and excreted in urine.
 ## article_ids
@@ -324,13 +324,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-7A52C1FD960B35
 ## label
-Acute gout presents with rapid joint pain, warmth, swelling, redness, and marked tenderness
+Presentation of acute gout
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Acute gout presents with rapid joint pain, warmth, swelling, redness, and marked tenderness.
+**Acute gout** presents with __rapid-onset joint pain__, warmth, swelling, redness and marked tenderness.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Acute gout presents with rapid joint pain, warmth, swelling, redness, and marked tenderness.
 ## article_ids
@@ -347,13 +347,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-B3AEE6F22A046A
 ## label
-Allopurinol has structural similarity to hypoxanthine
+Allopurinol resembles hypoxanthine
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Allopurinol has structural similarity to hypoxanthine.
+**Allopurinol** is a __structural analogue of hypoxanthine__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Allopurinol has structural similarity to hypoxanthine.
 ## article_ids
@@ -370,13 +370,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-E5BAEF03791C8F
 ## label
-Allopurinol lowers uric acid by blocking purine conversion to uric acid and is used cautiously with impaired kidney function
+Allopurinol: action and renal caution
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Allopurinol lowers uric acid by blocking purine conversion to uric acid and is used cautiously with impaired kidney function.
+**Allopurinol** lowers uric acid by __blocking the conversion of purines to uric acid__.
+
+It is used **cautiously in impaired kidney function**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Allopurinol lowers uric acid by blocking purine conversion to uric acid and is used cautiously with impaired kidney function.
 ## article_ids
@@ -393,13 +395,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-42ED4D5025FB7B
 ## label
-Allopurinol reaction with PRPP decreases the PRPP pool and de-novo purine synthesis
+Allopurinol and the PRPP pool
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Allopurinol reaction with PRPP decreases the PRPP pool and de-novo purine synthesis.
+By reacting with **PRPP**, allopurinol __depletes the PRPP pool__ and so reduces **de-novo purine synthesis**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Allopurinol reaction with PRPP decreases the PRPP pool and de-novo purine synthesis.
 ## article_ids
@@ -416,13 +418,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-091F22B55D3081
 ## label
-ATP drives GMP formation and GTP drives AMP formation, cross-regulating balanced purine synthesis
+Cross-regulation of purine synthesis
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-ATP drives GMP formation and GTP drives AMP formation, cross-regulating balanced purine synthesis.
+**ATP** drives **GMP** formation and **GTP** drives **AMP** formation — a __cross-regulation that keeps purine synthesis balanced__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: ATP drives GMP formation and GTP drives AMP formation, cross-regulating balanced purine synthesis.
 ## article_ids
@@ -439,13 +441,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-FA00DC78CFAD63
 ## label
-Base-specific nucleoside-monophosphate kinases use ATP to convert NMPs to NDPs without discriminating ribose from deoxyribose
+Nucleoside-monophosphate kinases: NMP to NDP
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Base-specific nucleoside-monophosphate kinases use ATP to convert NMPs to NDPs without discriminating ribose from deoxyribose.
+Base-specific **nucleoside-monophosphate kinases** use **ATP** to convert **NMPs to NDPs**, __without discriminating ribose from deoxyribose__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Base-specific nucleoside-monophosphate kinases use ATP to convert NMPs to NDPs without discriminating ribose from deoxyribose.
 ## article_ids
@@ -462,13 +464,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-B9E0531973510E
 ## label
-Cancer, leukemia, and psoriasis can cause secondary metabolic gout through increased purine catabolism
+Causes of secondary metabolic gout
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Cancer, leukemia, and psoriasis can cause secondary metabolic gout through increased purine catabolism.
+**Cancer, leukemia and psoriasis** can cause **secondary metabolic gout** through __increased purine catabolism__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Cancer, leukemia, and psoriasis can cause secondary metabolic gout through increased purine catabolism.
 ## article_ids
@@ -485,13 +487,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-C4606D65B74F2E
 ## label
-Carbamoyl-phosphate synthetase II is inhibited by UTP and activated by PRPP and ATP
+Regulation of carbamoyl-phosphate synthetase II
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Carbamoyl-phosphate synthetase II is inhibited by UTP and activated by PRPP and ATP.
+**Carbamoyl-phosphate synthetase II** is __inhibited by UTP__ and __activated by PRPP and ATP__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Carbamoyl-phosphate synthetase II is inhibited by UTP and activated by PRPP and ATP.
 ## article_ids
@@ -508,13 +510,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-31708150F8B722
 ## label
-Chronic gout deposits urate tophi in soft tissues and joints and can cause urinary urate stones
+Chronic gout: tophi and urate stones
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Chronic gout deposits urate tophi in soft tissues and joints and can cause urinary urate stones.
+**Chronic gout** deposits **urate tophi** in soft tissues and joints, and can cause __urinary urate stones__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Chronic gout deposits urate tophi in soft tissues and joints and can cause urinary urate stones.
 ## article_ids
@@ -531,13 +533,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-691A0268DB4342
 ## label
-Colchicine, NSAIDs, and corticosteroids reduce gout inflammation and pain
+Anti-inflammatory drugs for gout
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Colchicine, NSAIDs, and corticosteroids reduce gout inflammation and pain.
+**Colchicine, NSAIDs and corticosteroids** reduce the __inflammation and pain of gout__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Colchicine, NSAIDs, and corticosteroids reduce gout inflammation and pain.
 ## article_ids
@@ -554,13 +556,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-13DF1A71B18999
 ## label
-Dietary nucleic acids and nucleotides are nonessential because human tissues synthesize them, and little dietary base enters tissue nucleic acids
+Why dietary nucleotides are nonessential
 ## subject
 pharm
 ## topic
 Inflammation, immunity and cancer pharmacology
 ## definition
-Dietary nucleic acids and nucleotides are nonessential because human tissues synthesize them, and little dietary base enters tissue nucleic acids.
+**Dietary nucleic acids and nucleotides are nonessential**, because human tissues synthesize their own.
+
+__Little dietary base is incorporated into tissue nucleic acids.__
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Dietary nucleic acids and nucleotides are nonessential because human tissues synthesize them, and little dietary base enters tissue nucleic acids.
 ## article_ids
@@ -577,13 +581,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-4CF248F99F1F87
 ## label
-Adrenaline adverse effects include hypertension, hemorrhage, ischemic gangrene, tachyarrhythmia, and CNS stimulation
+Adverse effects of adrenaline
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Adrenaline adverse effects include hypertension, hemorrhage, ischemic gangrene, tachyarrhythmia, and CNS stimulation.
+Adverse effects of **adrenaline** include __hypertension__, hemorrhage, ischemic gangrene, tachyarrhythmia and CNS stimulation.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenaline adverse effects include hypertension, hemorrhage, ischemic gangrene, tachyarrhythmia, and CNS stimulation.
 ## article_ids
@@ -600,13 +604,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-EC021DCE205941
 ## label
-Adrenaline combines beta-2 bronchodilation with alpha-mediated mucosal vasoconstriction
+Adrenaline in the airway: two actions
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Adrenaline combines beta-2 bronchodilation with alpha-mediated mucosal vasoconstriction.
+**Adrenaline** combines **beta-2 bronchodilation** with __alpha-mediated mucosal vasoconstriction__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenaline combines beta-2 bronchodilation with alpha-mediated mucosal vasoconstriction.
 ## article_ids
@@ -623,13 +627,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-25D5D0C2107B9D
 ## label
-Adrenaline constricts skin and mucosal vessels while dilating coronary and skeletal-muscle vessels
+Adrenaline: regional vascular effects
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Adrenaline constricts skin and mucosal vessels while dilating coronary and skeletal-muscle vessels.
+**Adrenaline** constricts **skin and mucosal** vessels, while __dilating coronary and skeletal-muscle__ vessels.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenaline constricts skin and mucosal vessels while dilating coronary and skeletal-muscle vessels.
 ## article_ids
@@ -646,13 +650,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-3F808243D3CF49
 ## label
-Adrenaline increases glycogenolysis, glucose, lactate, free fatty acids, calorigenesis, coagulation, and intracellular potassium uptake
+Metabolic effects of adrenaline
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Adrenaline increases glycogenolysis, glucose, lactate, free fatty acids, calorigenesis, coagulation, and intracellular potassium uptake.
+**Adrenaline** increases __glycogenolysis__, glucose, lactate, free fatty acids, calorigenesis, coagulation, and intracellular potassium uptake.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenaline increases glycogenolysis, glucose, lactate, free fatty acids, calorigenesis, coagulation, and intracellular potassium uptake.
 ## article_ids
@@ -669,13 +673,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-F0E1C5811243DA
 ## label
-Adrenaline is contraindicated or cautioned in hypertension, ischemia, arrhythmia, digitalis or halothane exposure, and end-artery local anesthesia
+Contraindications and cautions for adrenaline
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Adrenaline is contraindicated or cautioned in hypertension, ischemia, arrhythmia, digitalis or halothane exposure, and end-artery local anesthesia.
+**Adrenaline** is contraindicated or used with caution in __hypertension, ischemia and arrhythmia__, with **digitalis or halothane** exposure, and in **end-artery local anesthesia**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenaline is contraindicated or cautioned in hypertension, ischemia, arrhythmia, digitalis or halothane exposure, and end-artery local anesthesia.
 ## article_ids
@@ -692,13 +696,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-56CB82125AB641
 ## label
-Adrenaline is orally ineffective, slowly absorbed subcutaneously through vasoconstriction, and does not cross BBB
+Pharmacokinetics of adrenaline
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Adrenaline is orally ineffective, slowly absorbed subcutaneously through vasoconstriction, and does not cross BBB.
+**Adrenaline** is __orally ineffective__; it is slowly absorbed after subcutaneous injection because of local vasoconstriction, and it **does not cross the blood-brain barrier**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenaline is orally ineffective, slowly absorbed subcutaneously through vasoconstriction, and does not cross BBB.
 ## article_ids
@@ -715,13 +719,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-613F9151E4D17D
 ## label
-Adrenaline physiologically antagonizes histamine by bronchodilation and blood-pressure elevation
+Adrenaline as a physiological histamine antagonist
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Adrenaline physiologically antagonizes histamine by bronchodilation and blood-pressure elevation.
+**Adrenaline** is a __physiological antagonist of histamine__, opposing it through **bronchodilation** and **blood-pressure elevation**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenaline physiologically antagonizes histamine by bronchodilation and blood-pressure elevation.
 ## article_ids
@@ -738,13 +742,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-754AD98D67E114
 ## label
-Adrenaline raises systolic pressure and pulse pressure, with little or reduced diastolic pressure
+Adrenaline: effect on blood pressure
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Adrenaline raises systolic pressure and pulse pressure, with little or reduced diastolic pressure.
+**Adrenaline** raises **systolic** and **pulse pressure**, while __diastolic pressure changes little or falls__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenaline raises systolic pressure and pulse pressure, with little or reduced diastolic pressure.
 ## article_ids
@@ -761,13 +765,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-55F2C6FC41F59E
 ## label
-Adrenaline relaxes gastrointestinal and bladder walls while contracting sphincters
+Adrenaline on gut and bladder
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Adrenaline relaxes gastrointestinal and bladder walls while contracting sphincters.
+**Adrenaline** __relaxes the gastrointestinal and bladder walls__, while **contracting their sphincters**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Adrenaline relaxes gastrointestinal and bladder walls while contracting sphincters.
 ## article_ids
@@ -784,13 +788,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-C5AE06E7A77A50
 ## label
-Alpha blockade reverses adrenaline's pressor response
+Adrenaline reversal by alpha blockade
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Alpha blockade reverses adrenaline's pressor response.
+**Alpha blockade** __reverses the pressor response__ to adrenaline.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Alpha blockade reverses adrenaline's pressor response.
 ## article_ids
@@ -807,13 +811,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-E518604E062D82
 ## label
-Beta-1 stimulation by adrenaline increases contractility, rate, conduction, and excitability
+Cardiac beta-1 effects of adrenaline
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Beta-1 stimulation by adrenaline increases contractility, rate, conduction, and excitability.
+Through **beta-1 stimulation**, adrenaline increases cardiac __contractility, rate, conduction and excitability__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Beta-1 stimulation by adrenaline increases contractility, rate, conduction, and excitability.
 ## article_ids
@@ -830,13 +834,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-35CDE4B8A1A693
 ## label
-Local adrenaline produces alpha-mediated vasoconstriction in skin and mucous membranes
+Local adrenaline: vasoconstriction
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Local adrenaline produces alpha-mediated vasoconstriction in skin and mucous membranes.
+Applied locally, **adrenaline** produces __alpha-mediated vasoconstriction__ in skin and mucous membranes.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Local adrenaline produces alpha-mediated vasoconstriction in skin and mucous membranes.
 ## article_ids
@@ -853,13 +857,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-16DB42731765A0
 ## label
-Local adrenaline prolongs local anesthesia, controls epistaxis, decongests mucosa, lowers IOP, and treats acute bronchospasm
+Local uses of adrenaline
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Local adrenaline prolongs local anesthesia, controls epistaxis, decongests mucosa, lowers IOP, and treats acute bronchospasm.
+Locally, **adrenaline** prolongs **local anesthesia**, controls **epistaxis**, decongests mucosa, lowers **intra-ocular pressure**, and treats __acute bronchospasm__.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Local adrenaline prolongs local anesthesia, controls epistaxis, decongests mucosa, lowers IOP, and treats acute bronchospasm.
 ## article_ids
@@ -876,13 +880,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-295382C3A2AB49
 ## label
-Systemic adrenaline is used in cardiac arrest, bronchial asthma, hypoglycemic coma, and anaphylaxis
+Systemic uses of adrenaline
 ## subject
 pharm
 ## topic
 Autonomic pharmacology
 ## definition
-Systemic adrenaline is used in cardiac arrest, bronchial asthma, hypoglycemic coma, and anaphylaxis.
+Given systemically, **adrenaline** is used in __cardiac arrest__, bronchial asthma, hypoglycemic coma and **anaphylaxis**.
 ## explicit_objective
 Explain the concept, its stated qualifiers, and its evidence limits: Systemic adrenaline is used in cardiac arrest, bronchial asthma, hypoglycemic coma, and anaphylaxis.
 ## article_ids
