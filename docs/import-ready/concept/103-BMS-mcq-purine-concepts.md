@@ -62,7 +62,7 @@
 # Item
 
 ## label
-The purine ring is assembled from five sources, and only three of them — glutamine, aspartate and glycine — donate nitrogen
+De novo purine synthesis: the five atom sources
 
 ## id
 CON-FND-265D369FD41B85
@@ -86,7 +86,11 @@ Committed step of purine synthesis
 واهبات النيتروجين في حلقة البيورين
 
 ## definition
-De novo synthesis builds the purine ring atom by atom onto a ribose phosphate. The hexose monophosphate pathway supplies ribose-5-phosphate, PRPP synthetase converts it to PRPP, and glutamine:PRPP amidotransferase then donates the amide nitrogen of glutamine to give 5-phosphoribosylamine — the step the book calls the key step of de novo purine nucleotide synthesis. The ring is completed to inosine monophosphate, and the book's figure names five sources for its nine atoms: the amide group of glutamine, aspartate, glycine, respiratory CO2 and N10-formyl-THF. Only the first three carry nitrogen. Glycine enters as an intact unit contributing carbon as well as nitrogen, and folate supplies two carbons — which is why folate antagonists such as methotrexate block purine and nucleic acid synthesis and so inhibit cell division.
+De novo synthesis builds the purine ring atom by atom onto a ribose phosphate. The hexose monophosphate pathway supplies ribose-5-phosphate, PRPP synthetase converts it to **PRPP**, and **glutamine:PRPP amidotransferase** then donates the amide nitrogen of glutamine to give 5-phosphoribosylamine — __the key step of de novo purine nucleotide synthesis__.
+
+The ring is completed to inosine monophosphate, and the book's figure names **five sources** for its nine atoms: the amide group of glutamine, aspartate, glycine, respiratory CO2 and N10-formyl-THF. __Only the first three — glutamine, aspartate and glycine — carry nitrogen__; glycine enters as an intact unit contributing carbon as well.
+
+Folate supplies two carbons — which is why folate antagonists such as **methotrexate** block purine and nucleic acid synthesis and so inhibit cell division.
 
 ## explicit_objective
 Name the five sources of the purine ring atoms, pick out the three that donate nitrogen, and distinguish the amide nitrogen of glutamine from the α-amino nitrogen of glutamate.
@@ -254,7 +258,7 @@ uricosuricDrugs: Not applicable to this record; it touches no treatment. The cla
 # Item
 
 ## label
-Salvage returns a free purine base to the nucleotide pool in one step, and it is the major route in brain and red cell precursors
+Purine salvage and the tissues that depend on it
 
 ## id
 CON-FND-DB8B4EFEB287DA
@@ -280,7 +284,11 @@ Salvage of purine nucleosides
 إنزيم هيبوكسانثين-جوانين فوسفوريبوزيل ترانسفيراز
 
 ## definition
-The salvage system rebuilds a purine nucleotide from a base that has already been made, and the book gives its significance as supplying purine nucleotides to tissues where de novo synthesis is not active — naming the brain and the precursors of red blood cells. It has two arms. Free bases are salvaged in a single step by transfer of the ribose phosphate of PRPP: adenine phosphoribosyl transferase makes AMP from adenine, and hypoxanthine-guanine phosphoribosyl transferase makes IMP from hypoxanthine and GMP from guanine, releasing pyrophosphate each time. Nucleosides are salvaged separately by adenosine kinase, which phosphorylates adenosine to AMP and deoxyadenosine to dAMP using ATP. Three bases, two transferases, one shared substrate.
+The **salvage system** rebuilds a purine nucleotide from a base that has already been made, and its significance is supplying purine nucleotides to tissues where de novo synthesis is not active — __the brain and the precursors of red blood cells__.
+
+It has two arms. **Free bases** are salvaged in a single step by transfer of the ribose phosphate of PRPP: **adenine phosphoribosyl transferase** makes AMP from adenine, and **hypoxanthine-guanine phosphoribosyl transferase** makes IMP from hypoxanthine and GMP from guanine, releasing pyrophosphate each time.
+
+**Nucleosides** are salvaged separately by adenosine kinase, which phosphorylates adenosine to AMP and deoxyadenosine to dAMP using ATP. Three bases, two transferases, one shared substrate.
 
 ## explicit_objective
 Name the two tissues that depend on salvage, list the three salvageable free bases with their enzymes and products, and separate the free-base arm from the nucleoside arm by enzyme and phosphate donor.
@@ -446,7 +454,7 @@ uricosuricDrugs: Not applicable to this record; it touches no treatment.
 # Item
 
 ## label
-Purine synthesis is braked at two shared sites by five nucleotides — IMP, AMP, ADP, GMP and GDP — and GTP is not one of them
+Feedback inhibition of purine synthesis at two sites
 
 ## id
 CON-FND-71EF720F840CA4
@@ -469,7 +477,11 @@ Substrate availability in purine synthesis
 تنظيم إنزيم جلوتامين-بي آر بي بي أميدوترانسفيراز
 
 ## definition
-De novo purine synthesis is the book's example of multiple-loops feedback inhibition. A high concentration of IMP, AMP, ADP, GMP or GDP inhibits the conversion of ribose-5-phosphate to IMP at two sites: PRPP synthetase and glutamine:PRPP amidotransferase. Five nucleotides, two enzymes, and the list is exact — GTP is absent from it. The pathway's second control is substrate availability: the rate of the glutamine:PRPP amidotransferase reaction is set by the intracellular concentrations of PRPP and glutamine. Both branch products therefore report back to the shared beginning, which is what keeps one branch from running away with the common precursor.
+De novo purine synthesis is the book's example of **multiple-loops feedback inhibition**. A high concentration of __IMP, AMP, ADP, GMP or GDP__ inhibits the conversion of ribose-5-phosphate to IMP at two sites: **PRPP synthetase** and **glutamine:PRPP amidotransferase**.
+
+Five nucleotides, two enzymes, and the list is exact — **GTP is absent from it**.
+
+The pathway's second control is **substrate availability**: the rate of the glutamine:PRPP amidotransferase reaction is set by the intracellular concentrations of PRPP and glutamine. Both branch products therefore report back to the shared beginning, which is what keeps one branch from running away with the common precursor.
 
 ## explicit_objective
 Recall the five nucleotides that feedback-inhibit purine synthesis and the two enzymes they act on, and state the second control the book gives — the intracellular availability of PRPP and glutamine.
@@ -636,7 +648,7 @@ uricosuricDrugs: Not applicable to this record; it touches no treatment.
 # Item
 
 ## label
-Fasting plasma urate is 4–7 mg/dL in men and 3–6 mg/dL in women, and how much of it stays dissolved depends on the pH of the urine
+Plasma urate: reference range and urine pH
 
 ## id
 CON-REN-4AAF042ABFB67E
@@ -660,7 +672,11 @@ Alkalinisation of urine
 تأثير درجة حموضة البول على ذوبان حمض البوليك
 
 ## definition
-Uric acid is the main end product of purine catabolism in the human liver, and the book gives its fasting plasma level as 4–7 mg/dL in males and 3–6 mg/dL in females. A normal adult excretes about 400–600 mg of it a day. Urate salts are more soluble than uric acid itself, so urine pH governs how much stays in solution: urine at pH 5 dissolves only about one tenth as much as urine at pH 7, and alkalinisation therefore increases the solubility of uric acid markedly. The three figures belong together — the reference range says when urate is high, and the solubility behaviour says what happens to it once it is.
+Uric acid is the main end product of purine catabolism in the human liver, and the book gives its fasting plasma level as __4–7 mg/dL in males and 3–6 mg/dL in females__. A normal adult excretes about 400–600 mg of it a day.
+
+Urate salts are more soluble than uric acid itself, so **urine pH** governs how much stays in solution: urine at pH 5 dissolves only about one tenth as much as urine at pH 7, and __alkalinisation therefore increases the solubility of uric acid markedly__.
+
+The three figures belong together — the reference range says when urate is high, and the solubility behaviour says what happens to it once it is.
 
 ## explicit_objective
 State the male and female fasting plasma urate ranges and the normal daily urinary excretion, and predict the effect of lowering or raising urine pH on the solubility of uric acid.
@@ -827,7 +843,7 @@ uricosuricDrugs: This record states the book's alkalinisation-of-urine rule but 
 # Item
 
 ## label
-Every cause of gout either makes more urate or excretes less of it, so a block at xanthine oxidase — which makes less — cannot be one
+Gout: overproduction versus underexcretion of urate
 
 ## id
 CON-REN-D940C9B3140A40
@@ -852,7 +868,13 @@ Partial HGPRT deficiency
 النقرس الكلوي
 
 ## definition
-The book splits hyperuricaemia, and with it gout, into exactly two mechanisms. Overproduction covers a diet rich in nucleoprotein such as meat, liver and kidney; primary metabolic gout from genetic disorders — defects of PRPP synthetase that leave the enzyme superactive or resistant to feedback inhibition, partial deficiency of HGPRT, Lesch-Nyhan syndrome from complete HGPRT deficiency, and Von Gierke's disease, in which glucose-6-phosphatase deficiency enhances purine synthesis and degradation while decreasing uric acid excretion; and secondary metabolic gout from diseases that raise purine catabolism, such as cancer, leukaemia and psoriasis. Decreased excretion — renal gout — covers primary or congenital renal disease, acquired renal disease, and alcohol. Because uric acid is made by xanthine oxidase, a deficiency of that enzyme moves urate in the opposite direction and cannot be a cause of gout; it is the exception that shows the classification is about the direction urate moves.
+The book splits hyperuricaemia, and with it **gout**, into exactly two mechanisms.
+
+**Overproduction** covers a diet rich in nucleoprotein such as meat, liver and kidney; **primary metabolic gout** from genetic disorders — defects of PRPP synthetase that leave the enzyme superactive or resistant to feedback inhibition, partial deficiency of HGPRT, Lesch-Nyhan syndrome from complete HGPRT deficiency, and Von Gierke's disease, in which glucose-6-phosphatase deficiency enhances purine synthesis and degradation while decreasing uric acid excretion; and **secondary metabolic gout** from diseases that raise purine catabolism, such as cancer, leukaemia and psoriasis.
+
+**Decreased excretion** — renal gout — covers primary or congenital renal disease, acquired renal disease, and alcohol.
+
+Because uric acid is made by **xanthine oxidase**, a deficiency of that enzyme moves urate in the opposite direction and __cannot be a cause of gout__; it is the exception that shows the classification is about the direction urate moves.
 
 ## explicit_objective
 Sort a named disorder into overproduction or decreased excretion of urate, and explain why xanthine oxidase deficiency belongs to neither.
@@ -1018,7 +1040,7 @@ uricosuricDrugs: This record touches treatment only through allopurinol's mechan
 # Item
 
 ## label
-Hypouricaemia is a block in purine catabolism, and the department's textbook and its question book name different enzymes for it
+Hypouricaemia: catabolic enzyme blocks
 
 ## id
 CON-REN-BE40BFF23F3E76
@@ -1041,7 +1063,11 @@ Xanthinuria
 نقص إنزيم نازعة أمين الأدينوزين
 
 ## definition
-Hypouricaemia is a plasma urate below the fasting reference range, and every cause in this chapter is a block in the catabolic route before uric acid is formed. The department textbook gives one cause: adenosine deaminase deficiency, which stops adenosine becoming inosine, raises dATP and produces severe combined immunodeficiency. The department question book's printed key gives another: xanthine oxidase deficiency, which removes the two final oxidations — hypoxanthine to xanthine and xanthine to uric acid — so uric acid cannot be formed and the more soluble precursors are excreted instead. Both are genuine, and the direction is what matters: a block upstream of uric acid lowers urate, while every cause of gout raises it.
+**Hypouricaemia** is a plasma urate below the fasting reference range, and every cause in this chapter is a __block in the catabolic route before uric acid is formed__.
+
+The department textbook gives one cause: **adenosine deaminase deficiency**, which stops adenosine becoming inosine, raises dATP and produces severe combined immunodeficiency. The department question book's printed key gives another: **xanthine oxidase deficiency**, which removes the two final oxidations — hypoxanthine to xanthine and xanthine to uric acid — so uric acid cannot be formed and the more soluble precursors are excreted instead.
+
+Both are genuine, and the direction is what matters: a block upstream of uric acid lowers urate, while every cause of gout raises it.
 
 ## explicit_objective
 Name the catabolic enzyme blocks that lower plasma urate, explain in each case why urate falls, and separate them from the causes of gout by the direction urate moves.
@@ -1208,7 +1234,7 @@ uricosuricDrugs: The record names allopurinol only as the deliberate counterpart
 # Item
 
 ## label
-Adenosine deaminase deficiency raises dATP, which shuts down ribonucleotide reductase and leaves lymphocytes unable to divide — severe combined immunodeficiency
+Adenosine deaminase deficiency and SCID
 
 ## id
 CON-IMM-10470076F1AF95
@@ -1232,7 +1258,11 @@ Purine enzyme immunodeficiency
 العوز المناعي المشترك الشديد
 
 ## definition
-Adenosine deaminase converts adenosine to inosine at the start of purine catabolism. When it is deficient the substrate accumulates and is phosphorylated onward, and the resulting high levels of dATP inhibit ribonucleotide reductase — the enzyme complex that makes deoxyribonucleotides and is active only during DNA synthesis. DNA synthesis then fails, so white blood cells cannot proliferate, T-cell and B-cell function is impaired, and the condition is associated with severe combined immunodeficiency. Plasma urate falls at the same time, because catabolism is blocked before uric acid can be formed: this is a purine defect whose damage is immunological rather than articular.
+**Adenosine deaminase** converts adenosine to inosine at the start of purine catabolism. When it is deficient the substrate accumulates and is phosphorylated onward, and the resulting high levels of **dATP** inhibit **ribonucleotide reductase** — the enzyme complex that makes deoxyribonucleotides and is active only during DNA synthesis.
+
+DNA synthesis then fails, so white blood cells cannot proliferate, T-cell and B-cell function is impaired, and the condition is associated with __severe combined immunodeficiency__.
+
+Plasma urate falls at the same time, because catabolism is blocked before uric acid can be formed: this is a purine defect whose damage is immunological rather than articular.
 
 ## explicit_objective
 Trace the chain from adenosine deaminase deficiency through dATP and ribonucleotide reductase to failed lymphocyte proliferation, and say why plasma urate falls rather than rises.
