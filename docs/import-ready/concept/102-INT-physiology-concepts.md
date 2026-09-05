@@ -2248,7 +2248,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Anaemia is classified by red cell size and haemoglobin content into normocytic normochromic, microcytic hypochromic (MCV under 80fL, MCH under 25pg), and macrocytic (MCV over 95fL)
+Anaemia classification by MCV and MCH
 
 ## id
 CON-HEM-D99354F69912CD
@@ -2266,7 +2266,13 @@ anaemia-classification-by-mcv-and-mch
 [clear]
 
 ## definition
-Anaemia is a decrease in the oxygen-carrying capacity of the blood, from a decreased number or dysfunction of RBCs; the numeric thresholds are an RBC count under 4.5 million/µL in adult males or under 3.9 million/µL in adult females, and an Hb content under 13.5 g/dL in males or under 11.5 g/dL in females, with symptoms of shortness of breath, fatigue, tachycardia, palpitation, exercise intolerance and dizziness. Anaemia is classified by RBC size and Hb content into three groups: normocytic normochromic anaemia (decreased RBC mass and Hb content, but MCH and MCV within normal values — causes include bone marrow depression, acute blood loss, and haemolytic anaemia); microcytic hypochromic anaemia, i.e. iron-deficiency anaemia (MCV under 80 μ3 and MCH under 25 pg); and macrocytic (megaloblastic) anaemia (MCV over 95 μ3, from folic acid or vitamin B12 deficiency).
+**Anaemia** is a decrease in the blood's oxygen-carrying capacity, from a __reduced number or dysfunction of RBCs__. The thresholds are an RBC count under **4.5 million/µL** (males) or **3.9 million/µL** (females), and Hb under **13.5 g/dL** (males) or **11.5 g/dL** (females).
+
+Its symptoms are **shortness of breath, fatigue, tachycardia, palpitation, exercise intolerance and dizziness**.
+
+Anaemia is classified by **RBC size and Hb content** into three groups. __Normocytic normochromic__ anaemia has reduced RBC mass and Hb but normal MCV and MCH (from bone marrow depression, acute blood loss, or haemolytic anaemia).
+
+__Microcytic hypochromic__ anaemia — iron-deficiency anaemia — has **MCV under 80 μ3 and MCH under 25 pg**. __Macrocytic (megaloblastic)__ anaemia has **MCV over 95 μ3**, from folic acid or vitamin B12 deficiency.
 
 ## explicit_objective
 State the MCV/MCH criteria that separate microcytic, normocytic and macrocytic anaemia, and name one cause for each class.
@@ -2425,7 +2431,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Polycythemia is an increased RBC count up to 6-8 million/mm3, either primary (polycythemia vera) from the marrow itself or secondary to tissue hypoxia
+Polycythemia: primary and secondary
 
 ## id
 CON-HEM-3FDA659AB5822B
@@ -2443,7 +2449,11 @@ polycythemia-primary-and-secondary
 [clear]
 
 ## definition
-Polycythemia means an increased number of RBCs, which may reach 6-8 million/mm3. There are two types: primary polycythemia (polycythemia vera), due to a condition in the RBC-forming organs themselves and usually accompanied by increased production of WBCs and platelets too; and secondary polycythemia, which occurs when the tissues become hypoxic, as in obstructive lung disease and in people living at high altitude.
+**Polycythemia** is an increased number of RBCs, which may reach __6-8 million/mm3__.
+
+**Primary polycythemia (polycythemia vera)** arises from a disorder in the __RBC-forming organs themselves__, usually with increased WBCs and platelets too.
+
+**Secondary polycythemia** is a response to __tissue hypoxia__, as in obstructive lung disease and life at high altitude.
 
 ## explicit_objective
 Distinguish primary from secondary polycythemia by cause and by which other cell lines are affected.
@@ -2602,7 +2612,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Thrombocytopenic purpura follows a platelet count below 50,000/mm3 or defective platelet function, and is characterised by petechiae and a prolonged bleeding time
+Thrombocytopenic purpura
 
 ## id
 CON-HEM-E55B5F7BA5CD04
@@ -2620,7 +2630,9 @@ thrombocytopenic-purpura
 [clear]
 
 ## definition
-Thrombocytopenic purpura is due to a decrease of platelet number below 50,000/mm3, or to defective platelet function (thrombasthenia). It is characterised by petechiae (the presence of many subcutaneous haemorrhages) and prolongation of bleeding time — the time needed for bleeding to stop without clotting of the blood, normally 1-3 minutes, depending on platelet count and function.
+**Thrombocytopenic purpura** is due to a platelet count __below 50,000/mm3__, or to defective platelet function (**thrombasthenia**).
+
+It is characterised by **petechiae** (many subcutaneous haemorrhages) and a __prolonged bleeding time__ — the time for bleeding to stop without clotting, normally **1-3 minutes**, depending on platelet count and function.
 
 ## explicit_objective
 State the platelet-count threshold and the two clinical features of thrombocytopenic purpura, and define bleeding time and its normal range.
@@ -2779,7 +2791,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Vitamin K deficiency lowers hepatic formation of factors II, VII, IX, X and proteins C and S, prolonging coagulation time
+Vitamin K deficiency and bleeding
 
 ## id
 CON-HEM-BC9F1F59205EC7
@@ -2797,7 +2809,11 @@ vitamin-k-deficiency-bleeding-disorder
 [clear]
 
 ## definition
-Vitamin K is a fat-soluble vitamin synthesised by the intestinal bacterial flora, needed for the hepatic formation of factors II, VII, IX and X and proteins C and S. Its deficiency decreases formation of these coagulation factors and prolongs coagulation time. Deficiency can follow absence of intestinal bacterial flora (as in newborn infants), prolonged treatment with antibiotics, or obstruction of the bile ducts (absence of bile needed for absorption of the fat-soluble vitamin K).
+**Vitamin K** is a fat-soluble vitamin made by the __intestinal bacterial flora__, needed for hepatic formation of **factors II, VII, IX and X and proteins C and S**.
+
+Its deficiency reduces these coagulation factors and __prolongs coagulation time__.
+
+Deficiency can follow **absence of intestinal flora** (as in newborn infants), prolonged antibiotic treatment, or **bile-duct obstruction** (no bile to absorb the fat-soluble vitamin).
 
 ## explicit_objective
 Name the four coagulation factors and two proteins vitamin K deficiency reduces, and the three causes of the deficiency.
@@ -2957,7 +2973,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Haemophilia is a sex-linked recessive bleeding disorder carried by females and manifested in males, with three types distinguished by which factor is missing
+Haemophilia: types A, B and C
 
 ## id
 CON-HEM-54B08B015D5498
@@ -2975,7 +2991,9 @@ hemophilia-types-a-b-c
 [clear]
 
 ## definition
-Haemophilia is a sex-linked recessive disease, carried by females and manifested almost always in males, characterised by episodes of haemorrhage into joints or internal organs after minor trauma, and causing prolongation of the whole blood coagulation time. There are three types: haemophilia A (classic haemophilia), from deficiency of factor VIII, representing 85% of cases of haemophilia; haemophilia B, from the absence of factor IX; and haemophilia C, from the absence of factor XI.
+**Haemophilia** is a __sex-linked recessive disease, carried by females and manifested almost always in males__. It causes haemorrhage into joints or internal organs after minor trauma and __prolongs the whole-blood coagulation time__.
+
+There are three types. **Haemophilia A** (classic), from deficiency of __factor VIII__, is **85% of cases**. **Haemophilia B** is from absence of __factor IX__, and **Haemophilia C** from absence of __factor XI__.
 
 ## explicit_objective
 Name the three types of haemophilia, the factor missing in each, and which type is commonest.
@@ -3134,7 +3152,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Disseminated intravascular coagulation combines widespread clotting with bleeding, because the clotting consumes the platelets and coagulation factors it depends on
+Disseminated intravascular coagulation (DIC)
 
 ## id
 CON-HEM-33CFB175D5114C
@@ -3152,7 +3170,11 @@ disseminated-intravascular-coagulation
 [clear]
 
 ## definition
-DIC is characterised by widespread clotting, which over-utilises platelets and coagulation factors, dramatically dropping their plasma level and causing bleeding from that consumption. DIC is elicited by massive thromboplastin production from necrotic tissue, in conditions including shock, tissue necrosis, septicaemia, and retention of a dead fetus in the uterus for weeks. Thromboembolic conditions — excessive intravascular clotting from slow blood flow (e.g. leg veins after prolonged bed rest following operations) or atherosclerosis (roughness of the vascular endothelium) — are the pure-clotting counterpart to DIC's combined bleeding-and-clotting picture.
+**DIC** combines __widespread clotting with bleeding__: the clotting over-uses platelets and coagulation factors, dropping their plasma level so much that bleeding follows from that consumption.
+
+It is triggered by **massive thromboplastin release from necrotic tissue**, in __shock, tissue necrosis, septicaemia, or a dead fetus retained in the uterus for weeks__.
+
+Its pure-clotting counterpart is **thromboembolic disease** — excessive intravascular clotting from __slow blood flow__ (e.g. leg veins after prolonged bed rest following operations) or **atherosclerosis** (a roughened vascular endothelium).
 
 ## explicit_objective
 Explain why DIC produces bleeding despite being triggered by excessive clotting, and name two conditions that elicit it.
@@ -3312,7 +3334,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Coagulation time, prothrombin time and APTT test different parts of the clotting pathway, and each is prolonged by a different disorder
+Coagulation screening tests
 
 ## id
 CON-HEM-C15EB1D9B62C8B
@@ -3330,7 +3352,11 @@ coagulation-screening-tests
 [clear]
 
 ## definition
-Coagulation time is the time needed for blood to clot, normally 3-10 minutes, prolonged in both extrinsic- and intrinsic-system disorders such as vitamin K deficiency, haemophilia and liver disease. Prothrombin time tests the extrinsic system (factor VII), normal value 15 seconds, prolonged in vitamin K deficiency. The activated partial thromboplastin time (APTT) tests the intrinsic system (factors XII, XI, IX, VIII), normally 30-40 seconds, prolonged in haemophilia.
+**Coagulation time** is the time for blood to clot, normally __3-10 minutes__, prolonged in both extrinsic and intrinsic disorders — **vitamin K deficiency, haemophilia and liver disease**.
+
+**Prothrombin time** tests the __extrinsic system (factor VII)__, normal **15 seconds**, prolonged in vitamin K deficiency.
+
+The **activated partial thromboplastin time (APTT)** tests the __intrinsic system (factors XII, XI, IX, VIII)__, normally **30-40 seconds**, prolonged in haemophilia.
 
 ## explicit_objective
 State which coagulation pathway each of coagulation time, prothrombin time and APTT tests, and its normal value.
