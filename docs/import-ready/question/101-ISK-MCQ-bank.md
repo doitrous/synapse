@@ -137625,3 +137625,1819 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book, which gives flexion of the shoulder to the clavicular head of pectoralis major, the anterior fibres of deltoid and coracobrachialis, assisted by the long head of biceps. Pectoralis major is the only one of the four options on that list: latissimus dorsi extends, subscapularis rotates medially and infraspinatus rotates laterally.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1362
+## title
+Upward rotation of the scapula in raising the arm above head, due to contraction of; ma…
+## question
+Upward rotation of the scapula in raising the arm above head, due to contraction of; mark the correct answer:
+## vignette
+This item asks the student to name the pair of muscles that rotates the glenoid cavity upwards to let the arm be raised overhead.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Trapezius and latissimus dorsi muscles
+## explanation_a
+Latissimus dorsi pulls the arm and the inferior angle of the scapula downwards; it opposes this movement rather than producing it. Students pick it because it is the other large back muscle and because it does attach to the scapula.
+## answer_b
+Serratus anterior and rhomboid muscles
+## explanation_b
+Serratus anterior is half right, which is what makes this the strongest distractor. The rhomboids are the wrong partner — they rotate the glenoid cavity downwards, so they would undo exactly what serratus anterior is doing.
+## answer_c
+Trapezius and serratus anterior muscles
+## explanation_c
+Correct. Trapezius, pulling the acromion up and behind, and serratus anterior, pulling the inferior angle forwards and laterally, form a couple that swings the glenoid cavity upwards.
+
+Why this is right:
+- Serratus anterior is also the powerful protractor of the scapula and fixes it against the chest wall, so its paralysis wings the scapula.
+## answer_d
+Trapezius and teres minor muscles
+## explanation_d
+Teres minor is a rotator cuff muscle acting on the humerus at the shoulder joint, not on the scapula. Nothing that inserts into the humerus can rotate the scapula it arises from.
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-04D3ACA71DC025
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Movements
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name the pair of muscles that rotates the glenoid cavity upwards to let the arm be raised overhead.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p2 q7; Upper MCQ Dr.jalal (1).pdf p3 q7; Anatomy Question [Upper Limb] (1).pdf p25 q141. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Upward rotation of the scapula is produced by the upper and lower fibres of trapezius acting with the lower digitations of serratus anterior, so C is the only pairing that can raise the arm above the head.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1363
+## title
+Paralysis of the following muscle leads to shoulder drop:
+## question
+Paralysis of the following muscle leads to shoulder drop:
+## vignette
+This item asks the student to attribute a dropped shoulder to loss of the muscle that suspends the shoulder girdle.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pectoralis major
+## explanation_a
+Pectoralis major runs from the chest wall to the humerus and never reaches the scapula or the clavicle in a way that supports them. Losing it weakens adduction and medial rotation of the arm, not the height of the shoulder.
+## answer_b
+Latissimus dorsi
+## explanation_b
+Latissimus dorsi pulls the shoulder down when it acts. Its paralysis would if anything raise the shoulder slightly, which is the opposite of what the question describes.
+## answer_c
+trapezius
+## explanation_c
+Correct. Trapezius holds the whole girdle up from the occiput and the vertebral spines; when the spinal accessory nerve is cut in the posterior triangle the shoulder drops.
+
+Why this is right:
+- Trapezius is a flat triangular muscle of the back arising from the external occipital protuberance, the medial third of the superior nuchal line, the ligamentum nuchae and the spines of the seventh cervical and all the thoracic vertebrae with their supraspinous ligaments.
+## answer_d
+deltoid
+## explanation_d
+Deltoid hangs from the girdle rather than supporting it. Its paralysis flattens the rounded contour of the shoulder — a different sign, and the one these books ask about immediately alongside this question.
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-49E1E587FB6ED6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Attribute a dropped shoulder to loss of the muscle that suspends the shoulder girdle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p30 q5; Upper MCQ Dr.jalal (1).pdf p53 q5. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Trapezius suspends the shoulder girdle from the skull and the vertebral spines, so it is the only one of the four whose paralysis lets the shoulder sag.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1364
+## title
+The following muscle is attached to lateral border of scapula:
+## question
+The following muscle is attached to lateral border of scapula:
+## vignette
+This item asks the student to assign each named scapular muscle to the medial or the lateral border.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The serratus anterior muscle
+## explanation_a
+Serratus anterior runs laterally round the chest, which is why students place it on the lateral border. Its attachment is along the costal surface of the medial border, and that grip is what holds the medial border flat against the ribs.
+## answer_b
+The teres major muscle
+## explanation_b
+Correct. Teres major arises from the lower third of the dorsal surface of the lateral border and from the inferior angle.
+
+Why this is right:
+- The medial border of the scapula receives levator scapulae above the root of the spine, rhomboideus minor at the root of the spine and rhomboideus major below it on the dorsal aspect, and serratus anterior along the whole length of its costal aspect.
+## answer_c
+The levator scapulae muscle
+## explanation_c
+Levator scapulae attaches to the medial border above the root of the spine — the top of the medial border, not the lateral one.
+## answer_d
+The rhomboid major muscle
+## explanation_d
+Rhomboideus major attaches to the medial border below the root of the spine, immediately beneath rhomboideus minor.
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-59453A6F6ACC2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Assign each named scapular muscle to the medial or the lateral border.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p2 q8; Upper MCQ Dr.jalal (1).pdf p3 q8. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Teres major arises from the lower third of the lateral border and the inferior angle; the other three all take the medial border, so B is the only possible answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1365
+## title
+The following muscle is attached to the lateral border of the scapula:
+## question
+The following muscle is attached to the lateral border of the scapula:
+## vignette
+This item asks the student to assign each named scapular muscle to the medial or the lateral border.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The serratus anterior muscle
+## explanation_a
+Serratus anterior is a medial-border muscle despite running laterally round the chest. It attaches along the costal surface of the medial border.
+## answer_b
+The teres major muscle
+## explanation_b
+Correct. The key. Teres major arises from the lower third of the lateral border and the inferior angle of the scapula.
+
+Why this is right:
+- The medial border of the scapula receives levator scapulae above the root of the spine, rhomboideus minor at the root of the spine and rhomboideus major below it on the dorsal aspect, and serratus anterior along the whole length of its costal aspect.
+## answer_c
+The levator scapulae muscle
+## explanation_c
+Levator scapulae takes the upper part of the medial border, above the root of the spine.
+## answer_d
+The rhomboid major muscle
+## explanation_d
+Rhomboideus major takes the medial border below the root of the spine.
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-59453A6F6ACC2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Assign each named scapular muscle to the medial or the lateral border.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p8 q41; Anatomy MCQ Book [2025] [first priority].pdf p26 q41. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1366
+## title
+A physical sign known as winged scapula tests loss of function to which of the followin…
+## question
+A physical sign known as winged scapula tests loss of function to which of the following muscles: Vi y ad Ac a- Rhomboid major
+## vignette
+This item asks the student to name the muscle whose paralysis wings the scapula and say what it normally does.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Rhomboid major.
+## explanation_a
+Rhomboid major does hold the medial border towards the vertebral column, so its loss can produce a slight winging — but the classical, examinable winged scapula is serratus anterior, and the two are told apart by the movement lost: rhomboid weakness costs retraction, serratus weakness costs abduction above the shoulder.
+## answer_b
+Levator scapulae.
+## explanation_b
+Levator scapulae elevates the scapula and rotates the glenoid cavity downwards. Its loss weakens shrugging, not the flat contact of the medial border with the chest.
+## answer_c
+Latissimus dorsi.
+## explanation_c
+Latissimus dorsi attaches to the inferior angle only in passing on its way to the humerus, and its paralysis costs extension and adduction of the arm.
+## answer_d
+Serratus anterior.
+## explanation_d
+Correct. The key. Serratus anterior holds the medial border of the scapula against the chest wall; when the long thoracic nerve is injured the border lifts away like a wing, most obviously when the patient pushes against a wall.
+
+Why this is right:
+- The long thoracic nerve (C5, C6, C7) runs on the surface of serratus anterior on the medial wall of the axilla, where it is exposed during axillary clearance.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-24E318F2E3F18E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the muscle whose paralysis wings the scapula and say what it normally does.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p21 q23. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1367
+## title
+AII of the following muscles attach to medial border of scapula except:
+## question
+AII of the following muscles attach to medial border of scapula except:
+## vignette
+This item asks the student to identify the one muscle among four that takes the lateral border of the scapula rather than the medial.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Levator scapulae.
+## explanation_a
+True, so not the exception. Levator scapulae attaches to the medial border above the root of the spine.
+## answer_b
+Rhomboideus major.
+## explanation_b
+True, so not the exception. Rhomboideus major attaches to the medial border below the root of the spine.
+## answer_c
+Teres major.
+## explanation_c
+Correct. The exception, and the answer. Teres major arises from the lower third of the lateral border and the inferior angle, and runs forwards to the humerus.
+
+Why this is right:
+- The medial border of the scapula receives levator scapulae above the root of the spine, rhomboideus minor at the root of the spine and rhomboideus major below it on the dorsal aspect, and serratus anterior along the whole length of its costal aspect.
+## answer_d
+Serratus anterior.
+## explanation_d
+True, so not the exception, and the option most often mistaken for the answer because the muscle is named for the ribs rather than the scapula. Serratus anterior attaches along the whole costal surface of the medial border.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-59453A6F6ACC2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Identify the one muscle among four that takes the lateral border of the scapula rather than the medial.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p29 q33. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Levator scapulae, rhomboideus major and serratus anterior all attach to the medial border; teres major arises from the lateral border and the inferior angle, so it is the exception.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1368
+## title
+Mark one true origin of latissimus dorsi muscle: (2019)
+## question
+Mark one true origin of latissimus dorsi muscle: (2019)
+## vignette
+This item asks the student to give a true bony origin of latissimus dorsi and separate it from the origins of trapezius.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Spine of all lumbar vertebrae
+## explanation_a
+Half true and therefore the hardest distractor. Latissimus dorsi reaches the lumbar spines through the thoracolumbar fascia rather than directly, and its own vertebral origin is the spines of the lower six thoracic vertebrae — not the lumbar spines as a direct attachment, and not all of them.
+## answer_b
+Middle four ribs. P
+## explanation_b
+The wrong ribs. The muscle arises from the lower three or four ribs, interdigitating there with external oblique; the middle four ribs belong to serratus anterior territory.
+## answer_c
+Nuchal ligament
+## explanation_c
+The answer the bank carries, and the reason for the override. The ligamentum nuchae is an origin of trapezius, the muscle that overlies latissimus dorsi on the upper back — which is precisely why the two get exchanged.
+## answer_d
+Outer lip of iliac crest
+## explanation_d
+Correct. Latissimus dorsi arises directly from the posterior third of the outer lip of the iliac crest, the lowest and most lateral of its bony origins.
+
+Why this is right:
+- Latissimus dorsi arises from the spines of the lower six thoracic vertebrae, from the thoracolumbar fascia and through it from the lumbar and sacral spines, from the posterior third of the outer lip of the iliac crest, from the lower three or four ribs and from the inferior angle of the scapula.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-84E91B4CD6B6DF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give a true bony origin of latissimus dorsi and separate it from the origins of trapezius.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q12. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, and C is trapezius's origin, not this muscle's: latissimus dorsi has no attachment to the ligamentum nuchae and does not reach above the sixth thoracic spine. The posterior third of the outer lip of the iliac crest is a direct, standard origin of latissimus dorsi, so D is the true statement.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1369
+## title
+Most muscles acting on shoulder girdle & upper limb joints are supplied by Vi P y branc…
+## question
+Most muscles acting on shoulder girdle & upper limb joints are supplied by Vi P y branches of brachial plexus except: Ac em
+## vignette
+This item asks the student to identify the one shoulder-girdle muscle supplied from outside the brachial plexus.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Trapezius
+## explanation_a
+Correct. The exception, and the answer. Trapezius takes its motor supply from the spinal root of the accessory nerve, the eleventh cranial nerve, which reaches it through the posterior triangle of the neck; C3 and C4 add only sensation.
+
+Why this is right:
+- Trapezius is supplied motor by the spinal root of the accessory nerve, the eleventh cranial nerve, with C3 and C4 carrying sensation — the one muscle acting on the shoulder girdle that is not supplied from the brachial plexus.
+## answer_b
+Teres minor
+## explanation_b
+Teres minor is supplied by the axillary nerve from the posterior cord — a brachial plexus branch, so not the exception.
+## answer_c
+Latissimus dorsi
+## explanation_c
+Latissimus dorsi is supplied by the thoracodorsal nerve, also from the posterior cord, so not the exception.
+## answer_d
+Rhomboid major. y
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Rhomboid major takes the dorsal scapular nerve, which arises from the C5 root of the brachial plexus itself — students mark it because a nerve named for the scapula sounds unlike the named cords and trunks they have memorised.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-C89FCDA03E8C99
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Identify the one shoulder-girdle muscle supplied from outside the brachial plexus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p36 q14. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but rhomboid major takes the dorsal scapular nerve, which is a branch of the C5 root of the brachial plexus. Trapezius alone among the four is supplied by a cranial nerve — the spinal root of the accessory — so A is the exception the stem asks for.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1370
+## title
+One of the following actions is done by the latissimus dorsi muscle: (2021) Ac ad Ac ad…
+## question
+One of the following actions is done by the latissimus dorsi muscle: (2021) Ac ad Ac ad ad ad
+## vignette
+This item asks the student to pick the action latissimus dorsi actually performs from among its three opposites.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Flexes the arm.
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Latissimus dorsi is an extensor: its bulk lies behind the shoulder joint and it drags the humerus backwards and down.
+## answer_b
+Abducts the arm.
+## explanation_b
+Abduction belongs to supraspinatus and deltoid. Latissimus dorsi does the reverse and adducts the arm forcibly against the trunk.
+## answer_c
+Laterally rotates the arm.
+## explanation_c
+Lateral rotation belongs to infraspinatus and teres minor. The twist in the latissimus tendon makes it a medial rotator instead.
+## answer_d
+Extend the arm.
+## explanation_d
+Correct. Extension of the arm is one of the three actions of latissimus dorsi, alongside adduction and medial rotation.
+
+Why this is right:
+- Latissimus dorsi arises from the spines of the lower six thoracic vertebrae, from the thoracolumbar fascia and through it from the lumbar and sacral spines, from the posterior third of the outer lip of the iliac crest, from the lower three or four ribs and from the inferior angle of the scapula.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-84E91B4CD6B6DF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Movements
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the action latissimus dorsi actually performs from among its three opposites.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q9; EOM ISK 101 195 Answers.pdf p11 q116. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, which is one of the three actions latissimus dorsi cannot perform. It extends, adducts and medially rotates the arm, so D is the only true statement offered.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1371
+## title
+One of the following is not attached to the medial border of the scapula: (2021) ad
+## question
+One of the following is not attached to the medial border of the scapula: (2021) ad
+## vignette
+This item asks the student to separate the medial-border muscles of the scapula from the lateral-border ones.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Levator scapulae.
+## explanation_a
+Attached to the medial border, above the root of the spine, so not the answer.
+## answer_b
+Teres minor.
+## explanation_b
+Correct. Teres minor arises from the upper two thirds of the dorsal surface of the lateral border and runs to the greater tuberosity of the humerus — a lateral-border muscle throughout.
+
+Why this is right:
+- The medial border of the scapula receives levator scapulae above the root of the spine, rhomboideus minor at the root of the spine and rhomboideus major below it on the dorsal aspect, and serratus anterior along the whole length of its costal aspect.
+## answer_c
+Serratus anterior.
+## explanation_c
+Attached to the medial border along the whole of its costal surface, so not the answer, even though the muscle itself lies on the side of the chest.
+## answer_d
+Rhomboideus major.
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Rhomboideus major is attached to the medial border below the root of the spine; it is one of the four muscles the stem is testing, not the exception to them.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-59453A6F6ACC2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the medial-border muscles of the scapula from the lateral-border ones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q14. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but rhomboideus major is one of the classic medial-border attachments, below the root of the spine. Teres minor arises from the upper two thirds of the dorsal surface of the lateral border, so B is the muscle that is not attached to the medial border.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1372
+## title
+One of the following muscles elevates the shoulder at the shoulder girdle: (2019) em em…
+## question
+One of the following muscles elevates the shoulder at the shoulder girdle: (2019) em em em em em
+## vignette
+This item asks the student to name the fibres of trapezius that elevate the shoulder girdle and distinguish them from those that retract it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Latissimus dorsi
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Latissimus dorsi pulls the shoulder downwards and backwards; it is a depressor, not an elevator.
+## answer_b
+Upper ﬁber of trapezius
+## explanation_b
+Correct. The upper fibres of trapezius run downwards and laterally from the skull and the upper spines to the clavicle and acromion, so their pull lifts the whole girdle — the shrug.
+
+Why this is right:
+- Protraction is by serratus anterior, the main and powerful protractor, assisted by pectoralis minor.
+## answer_c
+Rhomboid minor
+## explanation_c
+Rhomboid minor retracts the scapula and rotates the glenoid cavity downwards. It runs almost horizontally, so it cannot lift.
+## answer_d
+Middle ﬁber of trapezius
+## explanation_d
+The middle fibres of trapezius run horizontally from the spines to the acromion and spine of the scapula and therefore retract rather than elevate. This is the sharpest distractor in the item, because it is the same muscle with a different fibre direction.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-1CA86BE843A07C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Movements
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the fibres of trapezius that elevate the shoulder girdle and distinguish them from those that retract it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q10. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but latissimus dorsi depresses the shoulder rather than elevating it. Elevation of the shoulder girdle is by the upper fibres of trapezius with levator scapulae, so B is the answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1373
+## title
+Paralysis of the following muscle leads to ﬂat shoulder: em
+## question
+Paralysis of the following muscle leads to ﬂat shoulder: em
+## vignette
+This item asks the student to attribute a flattened shoulder contour to wasting of the muscle that makes that contour.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pectoralis major
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. Pectoralis major forms the anterior axillary fold; losing it hollows the front of the chest and the armpit, not the top of the shoulder.
+## answer_b
+Latissimus dorsi
+## explanation_b
+Latissimus dorsi forms the posterior axillary fold. Its paralysis costs extension and adduction of the arm and leaves the shoulder contour untouched.
+## answer_c
+Trapezius. P
+## explanation_c
+Trapezius paralysis drops the shoulder — the shoulder sits lower but keeps its rounded outline. These books ask both signs in adjacent questions and the pair is exactly what the item tests.
+## answer_d
+Deltoid. Vi Acad
+## explanation_d
+Correct. Deltoid caps the shoulder and is what makes it round; when the axillary nerve is injured the muscle wastes, the acromion becomes prominent and the shoulder looks flat, even square.
+
+Why this is right:
+- It supplies deltoid and teres minor.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-EE022A2043C10F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Attribute a flattened shoulder contour to wasting of the muscle that makes that contour.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p28 q28. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, taken from this copy's margin. Deltoid is the muscle that gives the shoulder its rounded contour, so it is the only one whose paralysis flattens it; pectoralis major lies on the front of the chest and its loss changes the axillary fold, not the shoulder's outline.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1374
+## title
+Paralysis of the following muscle leads to flat shoulder:
+## question
+Paralysis of the following muscle leads to flat shoulder:
+## vignette
+This item asks the student to attribute a flattened shoulder contour to wasting of the muscle that makes that contour.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pectoralis major
+## explanation_a
+Pectoralis major forms the anterior axillary fold at the front of the chest, not the cap of the shoulder.
+## answer_b
+Latissimus dorsi
+## explanation_b
+Latissimus dorsi forms the posterior axillary fold; its loss is felt in extension and adduction of the arm.
+## answer_c
+Trapezius
+## explanation_c
+Trapezius paralysis drops the whole shoulder without changing its shape — the neighbouring sign, asked in the neighbouring question.
+## answer_d
+Deltoid
+## explanation_d
+Correct. Deltoid is the rounded contour of the shoulder, and once it wastes the underlying acromion stands out and the shoulder looks flat.
+
+Why this is right:
+- It supplies deltoid and teres minor.
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-EE022A2043C10F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Attribute a flattened shoulder contour to wasting of the muscle that makes that contour.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p32 q3. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Deltoid gives the shoulder its rounded contour, so its wasting after an axillary nerve injury is what flattens it; none of the other three contributes to that outline.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1375
+## title
+Patient was unable to retract his scapula because of paralysis of trapezius and .....: …
+## question
+Patient was unable to retract his scapula because of paralysis of trapezius and .....: (2024)
+## vignette
+This item asks the student to name the muscles that retract the scapula alongside the middle fibres of trapezius.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Infraspinatus
+## explanation_a
+Infraspinatus is a rotator cuff muscle running from the scapula to the humerus. It laterally rotates the arm and moves the scapula not at all.
+## answer_b
+Levator scapula
+## explanation_b
+Levator scapulae elevates the scapula and rotates the glenoid cavity downwards. It runs too vertically to draw the scapula backwards.
+## answer_c
+Rhomboids
+## explanation_c
+Correct. The rhomboids run downwards and laterally from the vertebral spines to the medial border, so their pull draws the scapula backwards and medially — retraction, with the middle fibres of trapezius.
+
+Why this is right:
+- Protraction is by serratus anterior, the main and powerful protractor, assisted by pectoralis minor.
+## answer_d
+Serratus posterior superior
+## explanation_d
+Serratus posterior superior is a muscle of respiration attached to the ribs, not to the scapula. It is offered because its name contains "serratus" and because it lies in this region.
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-1CA86BE843A07C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Name the muscles that retract the scapula alongside the middle fibres of trapezius.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p26 q1. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Retraction of the scapula is by the middle fibres of trapezius with the rhomboids; the stem names trapezius and asks for its partner, which can only be C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1376
+## title
+Patient was unable to retract his scapula because of paralysis of trapezius and …….. (2…
+## question
+Patient was unable to retract his scapula because of paralysis of trapezius and …….. (2024)Ac ad Ac ad ad ad
+## vignette
+This item asks the student to name the muscles that retract the scapula alongside the middle fibres of trapezius.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Infraspinatus.
+## explanation_a
+Infraspinatus acts on the humerus, laterally rotating the arm; it does not move the scapula.
+## answer_b
+Levator scapula.
+## explanation_b
+Levator scapulae elevates the scapula and rotates the glenoid downwards, and its line of pull is nearly vertical.
+## answer_c
+Rhomboids.
+## explanation_c
+Correct. The key. The rhomboids draw the medial border of the scapula backwards and medially with the middle fibres of trapezius.
+
+Why this is right:
+- Protraction is by serratus anterior, the main and powerful protractor, assisted by pectoralis minor.
+## answer_d
+Serratus posterior superior.
+## explanation_d
+Serratus posterior superior attaches to the ribs and belongs to respiration. It is offered for its name and its position, not for anything it does to the scapula.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-1CA86BE843A07C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the muscles that retract the scapula alongside the middle fibres of trapezius.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p23 q3. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1377
+## title
+Rotation of the scapula in raising the arm above head upward due to contraction of; P m…
+## question
+Rotation of the scapula in raising the arm above head upward due to contraction of; P mark the correct answer: Vi
+## vignette
+This item asks the student to name the pair of muscles that rotates the glenoid cavity upwards to let the arm be raised overhead.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Trapezius and latissimus dorsi muscles.
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. Latissimus dorsi drags the inferior angle of the scapula downwards and the arm with it — the reverse of the movement in the stem.
+## answer_b
+Serratus anterior and rhomboid muscles.
+## explanation_b
+Serratus anterior is the right half of the pair, which makes this the strongest distractor. The rhomboids rotate the glenoid cavity downwards, so they cancel rather than assist it.
+## answer_c
+Trapezius and serratus anterior muscles.
+## explanation_c
+Correct. Trapezius lifting the acromion and serratus anterior pulling the inferior angle forwards form the couple that turns the glenoid cavity upwards.
+
+Why this is right:
+- Serratus anterior is also the powerful protractor of the scapula and fixes it against the chest wall, so its paralysis wings the scapula.
+## answer_d
+Trapezius and teres minor muscles.
+## explanation_d
+Teres minor inserts into the humerus and acts at the shoulder joint. It cannot rotate the bone it arises from.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-04D3ACA71DC025
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Movements
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the pair of muscles that rotates the glenoid cavity upwards to let the arm be raised overhead.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p23 q6. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, read off this copy's margin, and latissimus dorsi opposes upward rotation rather than producing it. The identical question at `upward-rotation-of-the-scapula-in-raising-the-arm-above-head-d361147f`, asked three times, printed no key; the anatomy gives C, trapezius with serratus anterior.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1378
+## title
+The trapezius and latissimus dorsi muscles share in the boundaries of: (2018)
+## question
+The trapezius and latissimus dorsi muscles share in the boundaries of: (2018)
+## vignette
+This item asks the student to name the space on the back bounded by trapezius, latissimus dorsi and the medial border of the scapula.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Upper triangular space.
+## explanation_a
+The upper triangular space is in the axilla, bounded by teres minor, teres major and the long head of triceps, and it transmits the circumflex scapular vessels. Neither named muscle reaches it.
+## answer_b
+Auscultation triangle.
+## explanation_b
+Correct. Trapezius forms its medial boundary, latissimus dorsi its lower one and the medial border of the scapula its lateral one, with rhomboideus major and the sixth and seventh ribs in the floor.
+
+Why this is right:
+- The triangle of auscultation lies on the back below and medial to the scapula.
+- It is bounded medially by the lateral border of trapezius, below by the upper border of latissimus dorsi and laterally by the medial border of the scapula.
+## answer_c
+Lumbar triangle.
+## explanation_c
+The lumbar triangle does have latissimus dorsi as a boundary, which is what makes this the strongest distractor. Its other boundaries are external oblique and the iliac crest — far below anything trapezius reaches.
+## answer_d
+Lower triangular space.
+## explanation_d
+The lower triangular space is also in the axilla, bounded by teres major, the long head of triceps and the humerus, and it transmits the radial nerve and profunda brachii vessels.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-2BCDBB34965818
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the space on the back bounded by trapezius, latissimus dorsi and the medial border of the scapula.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p22 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The triangle of auscultation is the only one of the four bounded by both named muscles: trapezius medially, latissimus dorsi below and the medial border of the scapula laterally.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1379
+## title
+Thoracodorsal nerve supply the following muscle: (2019)
+## question
+Thoracodorsal nerve supply the following muscle: (2019)
+## vignette
+This item asks the student to match the thoracodorsal nerve to the one muscle it supplies.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Teres major.
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Teres major is supplied by the lower subscapular nerve. The confusion is understandable: all three nerves — upper subscapular, thoracodorsal and lower subscapular — arise in that order from the posterior cord and run within centimetres of each other on the posterior axillary wall.
+## answer_b
+Trapezius.
+## explanation_b
+Trapezius takes the spinal root of the accessory nerve, from outside the brachial plexus altogether.
+## answer_c
+Latissimus dorsi.
+## explanation_c
+Correct. The thoracodorsal nerve, C6 to C8 from the posterior cord, is the nerve to latissimus dorsi and is the structure at risk when the posterior axillary wall is cleared in a mastectomy.
+
+Why this is right:
+- Trapezius is supplied motor by the spinal root of the accessory nerve, the eleventh cranial nerve, with C3 and C4 carrying sensation — the one muscle acting on the shoulder girdle that is not supplied from the brachial plexus.
+## answer_d
+Rhomboid minor.
+## explanation_d
+Rhomboid minor takes the dorsal scapular nerve from the C5 root.
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## main_concept
+CON-MSK-C89FCDA03E8C99
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Match the thoracodorsal nerve to the one muscle it supplies.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q11. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but teres major is supplied by the lower subscapular nerve. The thoracodorsal nerve is the nerve to latissimus dorsi — it is named for that muscle's position on the back — so C is the answer.
