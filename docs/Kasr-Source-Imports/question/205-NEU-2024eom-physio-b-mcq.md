@@ -1,5 +1,5 @@
 <!--
-  Kasr Al Ainy 205 NEU · CNS physiology II (cerebellum, motor-neuron lesions, spinal cord, sleep/EEG, vision, hearing and vestibular physiology, plus CNS histology) — authored from the 205 NEU EOM 2024 exam paper (batch code 197, printed date 28/11/2024), continuing the same paper past the first physiology cluster (2024-eom-physiology, Q53-75). This cluster is Q76-108. Keys read from green-highlight answer markings, confirmed by rendering pages 11-15 at 170dpi and reading every highlight by eye (pp.14-15 rendered with --force; not sidecar-garbled). Department books for this module (Physiology CNS/general and Histology, image-only, no text layer) were not OCR'd; explanations are grounded in standard neurophysiology/histology consistent with the paper's own render-confirmed key. Q96 and Q107 excluded (held): on both, the green (confirmed-key) highlight sits on an option that the exam's own hand annotation strikes through, while an off-colour (orange) highlight marks a different, anatomically correct option — the same contradiction rule as the module's Q20 hold. Q104 reuses the existing Golgi-tendon-organ histology concept; all other main concepts newly minted this pass.
+  Kasr Al Ainy 205 NEU · CNS physiology II (cerebellum, motor-neuron lesions, spinal cord, sleep/EEG, vision, hearing and vestibular physiology, plus CNS histology) — authored from the 205 NEU EOM 2024 exam paper (batch code 197, printed date 28/11/2024), continuing the same paper past the first physiology cluster (2024-eom-physiology, Q53-75). This cluster is Q76-111 (histology tail Q109-111 = eye histology: cornea, corneal epithelium, iris; keys render-confirmed green highlight p.15). Q112-113 are held (Figure (A) spinal-cord cross-section). Keys read from green-highlight answer markings, confirmed by rendering pages 11-15 at 170dpi and reading every highlight by eye (pp.14-15 rendered with --force; not sidecar-garbled). Department books for this module (Physiology CNS/general and Histology, image-only, no text layer) were not OCR'd; explanations are grounded in standard neurophysiology/histology consistent with the paper's own render-confirmed key. Q96 and Q107 excluded (held): on both, the green (confirmed-key) highlight sits on an option that the exam's own hand annotation strikes through, while an off-colour (orange) highlight marks a different, anatomically correct option — the same contradiction rule as the module's Q20 hold. Q104 reuses the existing Golgi-tendon-organ histology concept; all other main concepts newly minted this pass.
 
   Import: Admin › Bulk import → question.
 -->
@@ -4300,6 +4300,423 @@ src_e3182cba35c85f7acea8
 
 ## learning_objective
 Describe continuous shedding of rod outer-segment discs and their phagocytosis by the pigment epithelium.
+
+## source_citation
+Kasr Al Ainy 205 NEU EOM 2024 exam paper, p.15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: render-confirmed green highlight, p.15
+
+---
+
+# Item
+
+## id
+QST-KASR205NEU-2024EOM-109
+
+## title
+Why a corneal graft is not rejected
+
+## question
+After corneal transplantation, which structural feature best explains why the corneal graft is not rejected by the recipient?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Basal cells of the corneal epithelium are able to regenerate
+
+## explanation_a
+Incorrect. The regenerative capacity of the basal epithelial cells explains rapid re-epithelialisation and healing, not immune tolerance of the graft.
+
+## answer_b
+The Bowman membrane protects against the spread of infections
+
+## explanation_b
+Incorrect. Bowman's membrane is an acellular barrier layer; it plays no role in preventing graft rejection, which is an immunological event.
+
+## answer_c
+Collagen fibres are regularly packed
+
+## explanation_c
+Incorrect. The regular, uniform packing of stromal collagen lamellae explains corneal transparency, not immune privilege.
+
+## answer_d
+The cornea is avascular and lacks lymphatic drainage
+
+## explanation_d
+Correct. The cornea is avascular and has no lymphatic drainage, so donor antigens cannot be efficiently carried to regional lymph nodes (afferent arm) and host effector cells and antibodies cannot readily reach the graft (efferent arm). This anatomical isolation is the basis of corneal immune privilege, which is why corneal allografts are accepted far more often than vascularised-tissue grafts.
+
+## topic
+Histology
+
+## subtopic
+Corneal histology
+
+## main_concept
+CON-NEU-13AEC7D34B407D
+
+## concept_ids
+CON-NEU-13AEC7D34B407D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Reasoning
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+205 NEU
+
+## module_subject
+205 NEU > Histology > Eye > Cornea
+
+## question_only_for
+
+## library_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+
+## resource_ids
+src_e3182cba35c85f7acea8
+
+## learning_objective
+Explain corneal graft acceptance by the cornea's avascularity and lack of lymphatic drainage.
+
+## source_citation
+Kasr Al Ainy 205 NEU EOM 2024 exam paper, p.15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: render-confirmed green highlight, p.15
+
+---
+
+# Item
+
+## id
+QST-KASR205NEU-2024EOM-110
+
+## title
+Histology of the corneal epithelium
+
+## question
+Microscopic examination of the corneal epithelium reveals that:
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The superficial layer has microvilli
+
+## explanation_a
+Correct. The corneal epithelium is a non-keratinized stratified squamous epithelium whose superficial squamous cells bear surface microvilli (and microplicae). These project into the tear film and help anchor and stabilise it over the avascular cornea.
+
+## answer_b
+It is a keratinized stratified squamous epithelium
+
+## explanation_b
+Incorrect. The corneal epithelium is NON-keratinized; a keratinized surface would be opaque and is not found on the normal cornea.
+
+## answer_c
+It contains many myelinated nerve fibres
+
+## explanation_c
+Incorrect. The cornea is richly innervated, but by free, NON-myelinated sensory nerve endings; myelinated fibres lose their myelin on entering the cornea.
+
+## answer_d
+It shows few mitotic figures
+
+## explanation_d
+Incorrect. The epithelium is highly mitotically active with frequent basal-layer mitoses, giving it rapid turnover and strong regenerative capacity — not few mitotic figures.
+
+## topic
+Histology
+
+## subtopic
+Corneal histology
+
+## main_concept
+CON-NEU-42FB9F700A1CE8
+
+## concept_ids
+CON-NEU-42FB9F700A1CE8
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+205 NEU
+
+## module_subject
+205 NEU > Histology > Eye > Cornea
+
+## question_only_for
+
+## library_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+
+## resource_ids
+src_e3182cba35c85f7acea8
+
+## learning_objective
+Recognise surface microvilli on the non-keratinized corneal epithelium.
+
+## source_citation
+Kasr Al Ainy 205 NEU EOM 2024 exam paper, p.15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: render-confirmed green highlight, p.15
+
+---
+
+# Item
+
+## id
+QST-KASR205NEU-2024EOM-111
+
+## title
+Histology of the iris
+
+## question
+Concerning the iris, which of the following is correct?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Its stroma is formed of loose vascular pigmented connective tissue
+
+## explanation_a
+Correct. The iris stroma is loose, vascular, pigmented connective tissue containing melanocytes, fibroblasts, blood vessels and the sphincter and dilator pupillae smooth muscles. Its melanocyte content is what determines eye colour.
+
+## answer_b
+Fibroblasts and melanocytes cover its posterior surface
+
+## explanation_b
+Incorrect. It is the ANTERIOR surface of the iris that is covered by a discontinuous layer of fibroblasts and melanocytes; the posterior surface carries pigmented epithelium.
+
+## answer_c
+Pigmented epithelium covers its anterior surface
+
+## explanation_c
+Incorrect. The pigmented (two-layered) epithelium covers the POSTERIOR surface of the iris, not the anterior surface.
+
+## answer_d
+It is the posterior part of the vascular coat
+
+## explanation_d
+Incorrect. The iris is the most ANTERIOR part of the vascular (uveal) coat; the choroid is its posterior part.
+
+## topic
+Histology
+
+## subtopic
+Iris histology
+
+## main_concept
+CON-NEU-07BE8698B15F40
+
+## concept_ids
+CON-NEU-07BE8698B15F40
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+205 NEU
+
+## module_subject
+205 NEU > Histology > Eye > Iris
+
+## question_only_for
+
+## library_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+
+## resource_ids
+src_e3182cba35c85f7acea8
+
+## learning_objective
+State that the iris stroma is loose vascular pigmented CT and place the iris as the anterior uveal coat.
 
 ## source_citation
 Kasr Al Ainy 205 NEU EOM 2024 exam paper, p.15

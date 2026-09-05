@@ -1,7 +1,7 @@
 {
   "lane": "KASR-205NEU",
   "cluster": "2024-eom-physiology-b",
-  "header": "Kasr Al Ainy 205 NEU · CNS physiology II (cerebellum, motor-neuron lesions, spinal cord, sleep/EEG, vision, hearing and vestibular physiology, plus CNS histology) — authored from the 205 NEU EOM 2024 exam paper (batch code 197, printed date 28/11/2024), continuing the same paper past the first physiology cluster (2024-eom-physiology, Q53-75). This cluster is Q76-108. Keys read from green-highlight answer markings, confirmed by rendering pages 11-15 at 170dpi and reading every highlight by eye (pp.14-15 rendered with --force; not sidecar-garbled). Department books for this module (Physiology CNS/general and Histology, image-only, no text layer) were not OCR'd; explanations are grounded in standard neurophysiology/histology consistent with the paper's own render-confirmed key. Q96 and Q107 excluded (held): on both, the green (confirmed-key) highlight sits on an option that the exam's own hand annotation strikes through, while an off-colour (orange) highlight marks a different, anatomically correct option — the same contradiction rule as the module's Q20 hold. Q104 reuses the existing Golgi-tendon-organ histology concept; all other main concepts newly minted this pass.",
+  "header": "Kasr Al Ainy 205 NEU · CNS physiology II (cerebellum, motor-neuron lesions, spinal cord, sleep/EEG, vision, hearing and vestibular physiology, plus CNS histology) — authored from the 205 NEU EOM 2024 exam paper (batch code 197, printed date 28/11/2024), continuing the same paper past the first physiology cluster (2024-eom-physiology, Q53-75). This cluster is Q76-111 (histology tail Q109-111 = eye histology: cornea, corneal epithelium, iris; keys render-confirmed green highlight p.15). Q112-113 are held (Figure (A) spinal-cord cross-section). Keys read from green-highlight answer markings, confirmed by rendering pages 11-15 at 170dpi and reading every highlight by eye (pp.14-15 rendered with --force; not sidecar-garbled). Department books for this module (Physiology CNS/general and Histology, image-only, no text layer) were not OCR'd; explanations are grounded in standard neurophysiology/histology consistent with the paper's own render-confirmed key. Q96 and Q107 excluded (held): on both, the green (confirmed-key) highlight sits on an option that the exam's own hand annotation strikes through, while an off-colour (orange) highlight marks a different, anatomically correct option — the same contradiction rule as the module's Q20 hold. Q104 reuses the existing Golgi-tendon-organ histology concept; all other main concepts newly minted this pass.",
   "defaults": {
     "subject": "neuro",
     "status": "Draft",
@@ -773,6 +773,83 @@
       "field_notes": { "keySource": "render-confirmed green highlight, p.15" }
     },
     { "key": "2024eom-q96", "hold": "Contradictory marks: the green (confirmed-key) highlight sits on option d 'Parallel light rays converge in front of the retina' (which is the definition of MYOPIA, wrong for hypermetropia), and that option is struck through by the exam's own hand; an off-colour orange highlight with a circled 'A' marks option a 'The eye is often shorter than the emmetropic eye', the anatomically correct fact. Green key contradicted by the source's own strikethrough with only an off-colour mark on the correct option — same rule as the module's Q20 hold. Correct answer is a; needs Omar to confirm." },
-    { "key": "2024eom-q107", "hold": "Contradictory marks: the green (confirmed-key) highlight sits on option d 'Border cells support the outer edge of organ of Corti' (dubious — border cells lie at the inner edge) and is struck through by hand; an off-colour orange highlight with a circled 'B' marks option b 'Inner phalangeal cells surround inner hair cells completely', the anatomically sound statement. Struck-out green key with an off-colour correction — same rule as Q96/Q20. Correct answer is b; needs Omar to confirm." }
+    { "key": "2024eom-q107", "hold": "Contradictory marks: the green (confirmed-key) highlight sits on option d 'Border cells support the outer edge of organ of Corti' (dubious — border cells lie at the inner edge) and is struck through by hand; an off-colour orange highlight with a circled 'B' marks option b 'Inner phalangeal cells surround inner hair cells completely', the anatomically sound statement. Struck-out green key with an off-colour correction — same rule as Q96/Q20. Correct answer is b; needs Omar to confirm." },
+    {
+      "key": "2024eom-q109", "page": 15, "id": "QST-KASR205NEU-2024EOM-109",
+      "title": "Why a corneal graft is not rejected",
+      "question": "After corneal transplantation, which structural feature best explains why the corneal graft is not rejected by the recipient?",
+      "options": {
+        "A": "Basal cells of the corneal epithelium are able to regenerate",
+        "B": "The Bowman membrane protects against the spread of infections",
+        "C": "Collagen fibres are regularly packed",
+        "D": "The cornea is avascular and lacks lymphatic drainage"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The regenerative capacity of the basal epithelial cells explains rapid re-epithelialisation and healing, not immune tolerance of the graft.",
+        "B": "Incorrect. Bowman's membrane is an acellular barrier layer; it plays no role in preventing graft rejection, which is an immunological event.",
+        "C": "Incorrect. The regular, uniform packing of stromal collagen lamellae explains corneal transparency, not immune privilege.",
+        "D": "Correct. The cornea is avascular and has no lymphatic drainage, so donor antigens cannot be efficiently carried to regional lymph nodes (afferent arm) and host effector cells and antibodies cannot readily reach the graft (efferent arm). This anatomical isolation is the basis of corneal immune privilege, which is why corneal allografts are accepted far more often than vascularised-tissue grafts."
+      },
+      "main_concept": "CON-NEU-13AEC7D34B407D", "concept_ids": ["CON-NEU-13AEC7D34B407D"], "contextual_concept_ids": [],
+      "difficulty": "Moderate", "question_type": "Reasoning", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Explain corneal graft acceptance by the cornea's avascularity and lack of lymphatic drainage.",
+      "module_subject": "205 NEU > Histology > Eye > Cornea",
+      "subtopic": "Corneal histology",
+      "topic": "Histology",
+      "field_notes": { "keySource": "render-confirmed green highlight, p.15" }
+    },
+    {
+      "key": "2024eom-q110", "page": 15, "id": "QST-KASR205NEU-2024EOM-110",
+      "title": "Histology of the corneal epithelium",
+      "question": "Microscopic examination of the corneal epithelium reveals that:",
+      "options": {
+        "A": "The superficial layer has microvilli",
+        "B": "It is a keratinized stratified squamous epithelium",
+        "C": "It contains many myelinated nerve fibres",
+        "D": "It shows few mitotic figures"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The corneal epithelium is a non-keratinized stratified squamous epithelium whose superficial squamous cells bear surface microvilli (and microplicae). These project into the tear film and help anchor and stabilise it over the avascular cornea.",
+        "B": "Incorrect. The corneal epithelium is NON-keratinized; a keratinized surface would be opaque and is not found on the normal cornea.",
+        "C": "Incorrect. The cornea is richly innervated, but by free, NON-myelinated sensory nerve endings; myelinated fibres lose their myelin on entering the cornea.",
+        "D": "Incorrect. The epithelium is highly mitotically active with frequent basal-layer mitoses, giving it rapid turnover and strong regenerative capacity — not few mitotic figures."
+      },
+      "main_concept": "CON-NEU-42FB9F700A1CE8", "concept_ids": ["CON-NEU-42FB9F700A1CE8"], "contextual_concept_ids": [],
+      "difficulty": "Easy", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Recognise surface microvilli on the non-keratinized corneal epithelium.",
+      "module_subject": "205 NEU > Histology > Eye > Cornea",
+      "subtopic": "Corneal histology",
+      "topic": "Histology",
+      "field_notes": { "keySource": "render-confirmed green highlight, p.15" }
+    },
+    {
+      "key": "2024eom-q111", "page": 15, "id": "QST-KASR205NEU-2024EOM-111",
+      "title": "Histology of the iris",
+      "question": "Concerning the iris, which of the following is correct?",
+      "options": {
+        "A": "Its stroma is formed of loose vascular pigmented connective tissue",
+        "B": "Fibroblasts and melanocytes cover its posterior surface",
+        "C": "Pigmented epithelium covers its anterior surface",
+        "D": "It is the posterior part of the vascular coat"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The iris stroma is loose, vascular, pigmented connective tissue containing melanocytes, fibroblasts, blood vessels and the sphincter and dilator pupillae smooth muscles. Its melanocyte content is what determines eye colour.",
+        "B": "Incorrect. It is the ANTERIOR surface of the iris that is covered by a discontinuous layer of fibroblasts and melanocytes; the posterior surface carries pigmented epithelium.",
+        "C": "Incorrect. The pigmented (two-layered) epithelium covers the POSTERIOR surface of the iris, not the anterior surface.",
+        "D": "Incorrect. The iris is the most ANTERIOR part of the vascular (uveal) coat; the choroid is its posterior part."
+      },
+      "main_concept": "CON-NEU-07BE8698B15F40", "concept_ids": ["CON-NEU-07BE8698B15F40"], "contextual_concept_ids": [],
+      "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that the iris stroma is loose vascular pigmented CT and place the iris as the anterior uveal coat.",
+      "module_subject": "205 NEU > Histology > Eye > Iris",
+      "subtopic": "Iris histology",
+      "topic": "Histology",
+      "field_notes": { "keySource": "render-confirmed green highlight, p.15" }
+    },
+    { "key": "2024eom-q112", "hold": "Figure-dependent: references the labelled 'Figure (A)' spinal-cord cross-section (structure pointed by number 1). Held for image attachment. Render-confirmed green key is b (union of lateral & ventral spinothalamic tracts)." },
+    { "key": "2024eom-q113", "hold": "Figure-dependent: references the labelled 'Figure (A)' spinal-cord cross-section (structure pointed by number 2). Held for image attachment. Render-confirmed green key is d (originates from lower 1/3 of motor area 4 in cerebral cortex)." }
   ]
 }

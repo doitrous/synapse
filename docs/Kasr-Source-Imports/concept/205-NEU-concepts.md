@@ -12544,3 +12544,333 @@ authored_needs_independent_evidence
 keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
 
 ---
+
+# Item
+## id
+CON-NEU-13AEC7D34B407D
+## label
+The cornea's immune privilege (graft acceptance) is due to its avascularity and lack of lymphatic drainage
+## canonical_key
+cornea.immune-privilege.avascular-alymphatic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A corneal graft is rarely rejected because the cornea is avascular and has NO lymphatic drainage: donor antigens are not efficiently carried to regional lymph nodes (the afferent arm), and host effector cells and antibodies cannot readily reach the graft (the efferent arm). This anatomical isolation is the basis of corneal immune privilege. It is distinct from the basal epithelium's regenerative capacity, Bowman's membrane acting as an infection barrier, or the regular packing of stromal collagen (which explains corneal transparency, not immune privilege).
+## explicit_objective
+Explain corneal graft acceptance by the cornea's avascularity and absence of lymphatic drainage.
+## pitfalls
+Attributing graft acceptance to epithelial regeneration, Bowman's-membrane barrier function, or regular collagen packing -- these explain healing/transparency, not immune privilege; the privilege is vascular/lymphatic isolation.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Cornea
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Eye > Cornea
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"After the corneal transplantation, the following structural feature provides the best explanation for why corneal graft is not rejected by recipient: a. Basal cells of the corneal epithelium are able to regenerate. b. The Bowman membrane protects against the spread of infections. c. Collagen fibers are regularly packed. d. Cornea is avascular and lacks lymphatic drainage." ANSWER: d (205 NEU EOM 2024, Q109)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Histology, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), page 15 rendered at 200dpi and read by eye. sourceCandidateIds: ran find-existing.mjs -- no hit; dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 15618 existing IDs and the module concept file; new concept. Sixth cluster tail for 205 NEU (2024-eom-physiology-b Q109-111: eye histology -- cornea, corneal epithelium, iris).
+
+---
+
+# Item
+## id
+CON-NEU-42FB9F700A1CE8
+## label
+Superficial cells of the corneal epithelium bear microvilli
+## canonical_key
+cornea.epithelium.superficial-microvilli
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The corneal epithelium is a NON-keratinized stratified squamous epithelium (about 5-6 layers). Its superficial squamous cells carry surface microvilli (and microplicae) that anchor and stabilise the overlying tear film. The epithelium is highly mitotically active, with frequent basal-layer mitoses (NOT few mitotic figures), and is richly supplied by free, NON-myelinated sensory nerve endings -- myelinated nerve fibres are not a feature of it. Because it is non-keratinized, it is not a keratinized stratified squamous epithelium.
+## explicit_objective
+Identify surface microvilli on the superficial cells of the non-keratinized corneal epithelium.
+## pitfalls
+Calling the corneal epithelium keratinized, describing few mitotic figures (it is highly proliferative), or expecting many myelinated nerve fibres (its rich innervation is by free non-myelinated endings).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Cornea
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Eye > Cornea
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Microscopic examination of corneal epithelium revealed the following: a. The superficial layer has microvilli. b. Keratinized stratified squamous epithelium. c. Many myelinated nerve fibres. d. Few mitotic figures." ANSWER: a (205 NEU EOM 2024, Q110)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Histology, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), page 15 rendered at 200dpi and read by eye. sourceCandidateIds: ran find-existing.mjs -- no hit; dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 15618 existing IDs and the module concept file; new concept. Sixth cluster tail for 205 NEU (2024-eom-physiology-b Q109-111: eye histology -- cornea, corneal epithelium, iris).
+
+---
+
+# Item
+## id
+CON-NEU-07BE8698B15F40
+## label
+The iris stroma is loose vascular pigmented connective tissue
+## canonical_key
+iris.stroma.loose-vascular-pigmented-ct
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The iris is the most ANTERIOR part of the vascular (uveal) coat, not its posterior part. Its stroma is loose, vascular, pigmented connective tissue containing melanocytes, fibroblasts, vessels and the smooth sphincter and dilator pupillae muscles. Its ANTERIOR surface is a discontinuous layer of fibroblasts and melanocytes (not a covering epithelium), while its POSTERIOR surface is covered by a two-layered, heavily pigmented epithelium. Thus the correct statement is that the stroma is loose vascular pigmented connective tissue.
+## explicit_objective
+State that the iris stroma is loose vascular pigmented connective tissue, and place the iris as the anterior part of the uveal coat.
+## pitfalls
+Swapping the iris surfaces (fibroblast/melanocyte layer is anterior, pigmented epithelium is posterior -- not the reverse) or calling the iris the posterior part of the vascular coat (it is the most anterior).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Iris
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Eye > Iris
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Concerning the iris, the following is correct: a. Stroma is formed of loose vascular pigmented C.T. b. Fibroblasts and melanocytes cover the posterior surface. c. Pigmented epithelium covers the anterior surface. d. It is the posterior part of the vascular coat." ANSWER: a (205 NEU EOM 2024, Q111)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Histology, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), page 15 rendered at 200dpi and read by eye. sourceCandidateIds: ran find-existing.mjs -- no hit; dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 15618 existing IDs and the module concept file; new concept. Sixth cluster tail for 205 NEU (2024-eom-physiology-b Q109-111: eye histology -- cornea, corneal epithelium, iris).
+
+---
