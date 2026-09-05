@@ -33,7 +33,7 @@
 # Item
 
 ## label
-The depolarisation phase of the nerve action potential is a regenerative sodium influx
+Depolarisation phase: regenerative sodium influx
 
 ## id
 CON-NEU-7A30FECF042995
@@ -56,7 +56,11 @@ Positive feedback depolarization
 التدفق الذاتي التعزيز لأيونات الصوديوم
 
 ## definition
-Depolarisation happens in two steps. A stimulus first drives the membrane slowly from −90 mV to the firing level of −65 mV, opening some sodium activation gates; the sodium that enters depolarises the membrane further and opens more gates, so the process feeds itself. At the firing level all voltage-gated sodium channels open and rapid depolarisation carries the potential through zero to an overshoot of +35 mV, giving a spike amplitude of 125 mV, after which the sodium channels rapidly inactivate.
+Depolarisation happens in **two steps**. A stimulus first drives the membrane slowly from **−90 mV** to the **firing level of −65 mV**, opening some sodium activation gates.
+
+The sodium that enters depolarises the membrane further and opens more gates, so __the process feeds itself__.
+
+At the firing level **all voltage-gated sodium channels open**, and rapid depolarisation carries the potential through zero to an **overshoot of +35 mV**, giving a __spike amplitude of 125 mV__, after which the sodium channels rapidly inactivate.
 
 ## explicit_objective
 Describe the ionic basis of the depolarisation phase of the nerve action potential, separating the slow phase from the rapid phase and naming the voltage values that bound each.
@@ -209,7 +213,7 @@ relationships: Walked the 66 concepts under DIS-PHY-T07 and the 8 under DIS-PHY-
 # Item
 
 ## label
-The voltage-gated sodium channel has two gates, which give it three states
+Sodium channel: two gates, three states
 
 ## id
 CON-NEU-157E05FAF3B100
@@ -232,7 +236,11 @@ Na channel inactivation gate
 الحالات الثلاث لقناة الصوديوم
 
 ## definition
-The voltage-gated sodium channel carries an activation gate near the outer surface and an inactivation gate on the inner surface. At the resting membrane potential the activation gate is closed and the inactivation gate is open, so the channel is resting; opening the outer gate makes it activated; closing the inner gate makes it inactivated. The voltage-gated potassium channel has only one gate, on its inner surface, and no inactivation gate at all.
+The **voltage-gated sodium channel** has an **activation gate** near the outer surface and an **inactivation gate** on the inner surface.
+
+At the resting potential the activation gate is closed and the inactivation gate is open, so the channel is **resting**; opening the outer gate makes it **activated**; closing the inner gate makes it **inactivated**. __Two gates therefore give it three states.__
+
+The **voltage-gated potassium channel** has only **one gate**, on its inner surface, and no inactivation gate at all.
 
 ## explicit_objective
 Name the two gates of the voltage-gated sodium channel, state the position of each at rest, and explain why an inactivated channel is not the same thing as a closed one.
@@ -385,7 +393,7 @@ relationships: Walked the concepts under DIS-PHY-T07 and DIS-PHY-T01, and search
 # Item
 
 ## label
-The absolute refractory period is when no stimulus of any strength can fire a second action potential
+Absolute refractory period
 
 ## id
 CON-NEU-2235199E9F4373
@@ -407,7 +415,9 @@ Zero excitability period
 فترة عدم الاستجابة المطلقة
 
 ## definition
-The absolute refractory period is the time during which another action potential cannot be produced whatever the strength of the stimulus. It runs from the firing level to the early part of repolarisation, and it exists because all the voltage-gated sodium channels have opened and then been rapidly inactivated by their inner gate, leaving none available to carry a second upstroke.
+During the **absolute refractory period** another action potential __cannot be produced whatever the strength of the stimulus__. It runs from the firing level to the early part of repolarisation.
+
+It exists because all the voltage-gated sodium channels have opened and then been **rapidly inactivated** by their inner gate, leaving __none available to carry a second upstroke__.
 
 ## explicit_objective
 Define the absolute refractory period, state the part of the action potential it occupies, and explain it from the state of the sodium channels.
@@ -560,7 +570,7 @@ relationships: Walked the 66 concepts under DIS-PHY-T07. No live concept covers 
 # Item
 
 ## label
-The relative refractory period is when only a stronger-than-threshold stimulus can fire a second action potential
+Relative refractory period
 
 ## id
 CON-NEU-F119674A8DFD8D
@@ -582,7 +592,9 @@ Period of reduced excitability
 فترة عدم الاستجابة النسبية
 
 ## definition
-The relative refractory period is the time during which another action potential can still be produced, but only by a stimulus stronger than threshold. It begins at the end of the absolute refractory period and ends when the membrane potential returns to its resting level. Two things make it costly: only some sodium channels have returned to the resting state and are available, and the potassium channels opened during repolarisation are carrying potassium outwards, which opposes the inward sodium current.
+During the **relative refractory period** another action potential can still be produced, but __only by a stimulus stronger than threshold__. It begins at the end of the absolute refractory period and ends when the membrane potential returns to its resting level.
+
+Two things make it costly: only **some sodium channels** have returned to the resting state and are available, and the **potassium channels** opened during repolarisation are carrying potassium outwards, which __opposes the inward sodium current__.
 
 ## explicit_objective
 Define the relative refractory period, state where it begins and ends on the action potential, and give both ionic reasons why a larger stimulus is needed.
@@ -735,7 +747,7 @@ relationships: Walked the 66 concepts under DIS-PHY-T07. No live concept covers 
 # Item
 
 ## label
-Tension in skeletal muscle is generated by the four-step cycling of the cross-bridges
+Cross-bridge cycle generates muscle tension
 
 ## id
 CON-MSK-B2B106C1D81C30
@@ -758,7 +770,11 @@ Sliding filament cross-bridge cycle
 خطوات توليد الشد في العضلة الهيكلية
 
 ## definition
-Tension is the force a muscle develops when it contracts, and it is produced by cross-bridges cycling through four steps: actin and myosin bind spontaneously once calcium has bound troponin C and tropomyosin has moved off the active site; the cross-bridge bends and slides the actin filament across the myosin, using energy from ATP hydrolysis; the cross-bridge detaches when ADP and inorganic phosphate leave and a new ATP takes their place; and it returns to its upright position to cycle again. Cycling continues while calcium remains on troponin C and ATP is available, and the force passes through actin to the Z disc, the sarcolemma and the tendon.
+**Tension** is the force a muscle develops when it contracts, produced by cross-bridges cycling through **four steps**.
+
+Actin and myosin bind spontaneously once **calcium has bound troponin C** and tropomyosin has moved off the active site; the cross-bridge bends and **slides the actin filament** across the myosin, using energy from **ATP hydrolysis**; the cross-bridge detaches when ADP and inorganic phosphate leave and a **new ATP** takes their place; and it returns to its upright position to cycle again.
+
+Cycling continues __while calcium remains on troponin C and ATP is available__, and the force passes through actin to the Z disc, the sarcolemma and the tendon.
 
 ## explicit_objective
 Explain the four steps by which cross-bridge cycling generates tension in a skeletal muscle fibre, and state what keeps the cycle running.
@@ -911,7 +927,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08, the muscle concepts on 
 # Item
 
 ## label
-A cross-bridge cannot detach without a fresh ATP, and without ATP the muscle goes into contracture
+No ATP, no detachment: contracture
 
 ## id
 CON-MSK-AC42FE7AB41DF2
@@ -934,7 +950,9 @@ Detachment of the cross-bridge
 الحاجة إلى ATP لفصل الأكتين عن الميوسين
 
 ## definition
-Detaching a cross-bridge from actin requires that ADP and inorganic phosphate leave the head and a new ATP molecule take their place; the new ATP is what lowers the head's affinity for the active site. If no ATP is available the thick and thin filaments cannot be separated, and the muscle is held in contracture — the same loss of ATP that puts every muscle of the body into the rigidity of rigor mortis after death.
+Detaching a cross-bridge from actin requires that **ADP and inorganic phosphate leave** the head and a **new ATP** take their place; the new ATP is what __lowers the head's affinity for the active site__.
+
+If no ATP is available the thick and thin filaments cannot be separated, and the muscle is held in **contracture** — the same loss of ATP that puts every muscle of the body into the **rigidity of rigor mortis** after death.
 
 ## explicit_objective
 Explain why ATP is needed to end a cross-bridge cycle rather than to start it, and predict what happens to a muscle when ATP runs out.
@@ -1087,7 +1105,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08 and the muscle set on DI
 # Item
 
 ## label
-Five groups of factors modify smooth muscle contraction
+Five factors modify smooth muscle contraction
 
 ## id
 CON-MSK-A22F7D478A747E
@@ -1109,7 +1127,11 @@ Stimulatory factors acting on smooth muscle
 العوامل المنظمة لانقباض العضلات الملساء
 
 ## definition
-Smooth muscle contraction is modified by five groups of factors. Stretch makes visceral smooth muscle contract, so a distended hollow organ empties itself. Local factors act in both directions — acids, excess carbon dioxide and lack of oxygen relax it; alkalis and excess potassium contract it. Cold increases contraction. Humoral factors act through membrane receptors, excitatory ones raising cytoplasmic calcium and inhibitory ones lowering it. The autonomic nerve supply is the fifth, and it modifies activity rather than starting it.
+Smooth muscle contraction is modified by **five groups of factors**.
+
+**Stretch** makes visceral smooth muscle contract, so a distended hollow organ empties itself. **Local factors** act in both directions — acids, excess carbon dioxide and lack of oxygen relax it; alkalis and excess potassium contract it. **Cold** increases contraction.
+
+**Humoral factors** act through membrane receptors, excitatory ones raising cytoplasmic calcium and inhibitory ones lowering it. The **autonomic nerve supply** is the fifth, and it __modifies activity rather than starting it__.
 
 ## explicit_objective
 Summarise the five groups of factors that affect smooth muscle contraction, and give the direction of effect for each.
@@ -1262,7 +1284,7 @@ relationships: Walked the concepts under DIS-PHY-T01, DIS-PHY-T05 and DIS-HIS-T0
 # Item
 
 ## label
-Smooth muscle contracts spontaneously without any nerve supply, and the autonomic nerves only modify it
+Smooth muscle contracts without nerve supply
 
 ## id
 CON-MSK-D97EA196E6719C
@@ -1285,7 +1307,9 @@ Dual autonomic supply to smooth muscle
 التوتر العضلي الملساء
 
 ## definition
-Smooth muscle tends to contract on its own, either rhythmically or as a maintained partial contraction called muscle tone, and it does this even when isolated with no nerve supply at all. Its dual supply from the two divisions of the autonomic nervous system does not initiate that activity; it modifies it, by altering the spontaneous activity itself and by altering the muscle's sensitivity to chemical agents.
+Smooth muscle tends to contract **on its own**, either rhythmically or as a maintained partial contraction called **muscle tone**, and it does this __even when isolated with no nerve supply at all__.
+
+Its dual supply from the two divisions of the autonomic nervous system does not initiate that activity; it **modifies** it, by altering the spontaneous activity itself and by altering the muscle's sensitivity to chemical agents.
 
 ## explicit_objective
 State that smooth muscle activity is intrinsic, and explain what the autonomic supply does to it instead of starting it.
@@ -1438,7 +1462,7 @@ relationships: Walked the concepts under DIS-PHY-T01, DIS-PHY-T05 and DIS-HIS-T0
 # Item
 
 ## label
-Diffusion across the cell membrane happens simply, in facilitated form through a carrier, or as the osmosis of water
+Diffusion: simple, facilitated, and osmosis
 
 ## id
 CON-NEU-1D5DC2D67A5291
@@ -1463,7 +1487,15 @@ Tonicity
 التوتر الأسموزي
 
 ## definition
-Diffusion is the continual movement of molecules from a region of higher concentration to a region of lower concentration. Simple diffusion moves a substance passively, down its concentration gradient and without binding a carrier protein, either through the lipid bilayer itself (lipid-soluble molecules such as oxygen and nitrogen, water, and small uncharged lipid-insoluble molecules such as urea) or through protein channels, which may be non-gated (always open) or gated by a voltage change (e.g. Na+ channels) or by a ligand (e.g. acetylcholine). Facilitated diffusion is also passive and follows the concentration gradient, but it depends on a specific carrier protein that binds a large molecule such as glucose or an amino acid on one side and releases it, after a conformational change, on the other; it is specific, competitive between similar substrates, saturable at a maximum rate, and more temperature-sensitive than simple diffusion. Osmosis is the diffusion of water, from a region of high water concentration to a region of low water concentration, across a membrane permeable to water but not to the solute. Osmotic pressure is the pressure needed to stop osmosis; it is set by the number of particles per unit volume, not their mass, and in the body the osmolarity of intracellular and extracellular fluid is each about 300 mOsm/L. Tonicity describes a solution's osmolality relative to plasma: isotonic solutions match plasma (300 mOsm/L, e.g. 0.9% NaCl or 5% glucose), hypertonic solutions exceed it, and hypotonic solutions fall short of it.
+**Diffusion** is the continual movement of molecules from a region of higher concentration to a region of lower concentration.
+
+**Simple diffusion** moves a substance passively, down its concentration gradient and without a carrier, either through the **lipid bilayer** itself (lipid-soluble molecules such as oxygen and nitrogen, water, and small uncharged lipid-insoluble molecules such as urea) or through **protein channels**, which may be non-gated (always open) or gated by a voltage change (e.g. Na+ channels) or by a ligand (e.g. acetylcholine).
+
+**Facilitated diffusion** is also passive and follows the gradient, but it depends on a **specific carrier protein** that binds a large molecule such as glucose or an amino acid on one side and releases it, after a conformational change, on the other; it is __specific, competitive between similar substrates, saturable at a maximum rate__, and more temperature-sensitive than simple diffusion.
+
+**Osmosis** is the diffusion of **water**, from high to low water concentration, across a membrane permeable to water but not to the solute. **Osmotic pressure** is the pressure needed to stop osmosis; it is set by the __number of particles per unit volume, not their mass__, and intracellular and extracellular fluid are each about **300 mOsm/L**.
+
+**Tonicity** compares a solution's osmolality with plasma: **isotonic** solutions match plasma (300 mOsm/L, e.g. 0.9% NaCl or 5% glucose), **hypertonic** solutions exceed it, and **hypotonic** solutions fall short of it.
 
 ## explicit_objective
 Define simple diffusion, facilitated diffusion and osmosis, list the features that distinguish facilitated diffusion from simple diffusion, and classify a solution as isotonic, hypertonic or hypotonic relative to plasma.
@@ -1627,7 +1659,7 @@ relationships: Walked the concepts under DIS-PHY-T01 and the SYS-FND-T01-S01 mem
 # Item
 
 ## label
-Active transport moves a substance against its gradient using ATP, primary through the Na+-K+ pump and secondary through a coupled carrier
+Active transport: primary and secondary
 
 ## id
 CON-NEU-75498C01CA1857
@@ -1651,7 +1683,13 @@ Sodium-potassium pump
 مضخة الصوديوم-البوتاسيوم
 
 ## definition
-Active transport moves a substance across the cell membrane against its electrochemical gradient. It depends on a specific carrier protein and on energy derived from ATP, which the carrier hydrolyses through its own ATPase activity. By direction, a uniport carries one substance one way (e.g. the Ca++ pump); a symport (cotransport) carries two substances the same way at once (e.g. glucose and Na+ from the intestinal lumen); an antiport (counter-transport) carries one substance one way and another the opposite way (e.g. the Na+-K+ pump). Primary active transport uses ATP directly: the Na+-K+ pump is built of an alpha subunit, which carries the Na+ and K+ binding sites (three Na+ sites on the inner surface, two K+ sites on the outer surface) and an ATP binding site, and a beta subunit, which supplies the ATPase activity that splits ATP into ADP, phosphate and energy; it pumps three Na+ out for every two K+ it pumps in, is electrogenic, maintains the high extracellular Na+ and high intracellular K+ that excitable cells depend on, and helps prevent the cell rupturing by controlling cell volume. Secondary active transport spends no ATP of its own; it rides the gradient a primary pump has already built, as when Na+ pumped out of the cell creates the gradient that then carries glucose in alongside it on the same carrier.
+**Active transport** moves a substance across the cell membrane __against its electrochemical gradient__. It depends on a specific carrier protein and on energy from **ATP**, which the carrier hydrolyses through its own ATPase activity.
+
+By direction, a **uniport** carries one substance one way (e.g. the Ca++ pump); a **symport (cotransport)** carries two substances the same way at once (e.g. glucose and Na+ from the intestinal lumen); an **antiport (counter-transport)** carries one substance one way and another the opposite way (e.g. the Na+-K+ pump).
+
+**Primary active transport** uses ATP directly: the **Na+-K+ pump** has an alpha subunit carrying the Na+ and K+ binding sites (three Na+ sites on the inner surface, two K+ sites on the outer) and an ATP site, and a beta subunit supplying the ATPase that splits ATP into ADP, phosphate and energy. It pumps __three Na+ out for every two K+ in__, is electrogenic, maintains the high extracellular Na+ and high intracellular K+ that excitable cells depend on, and helps control cell volume.
+
+**Secondary active transport** spends no ATP of its own; it __rides a gradient a primary pump has already built__, as when Na+ pumped out of the cell creates the gradient that then carries glucose in alongside it on the same carrier.
 
 ## explicit_objective
 Define active transport, distinguish primary from secondary active transport with the Na+-K+ pump and secondary glucose transport as the book's own examples, and state the pump's stoichiometry and its three stated functions.
@@ -1812,7 +1850,7 @@ relationships: CON-NEU-1E66BE533E894C, a live record from the sibling MCQ batch,
 # Item
 
 ## label
-Cells signal each other directly through gap junctions, or at a distance through neural and hormonal communication
+Cell communication: gap, neural, hormonal
 
 ## id
 CON-NEU-42BB9566BBF6CF
@@ -1835,7 +1873,15 @@ Connexon
 الوصلة الفجوية
 
 ## definition
-Cells communicate with each other through chemical messengers by three main routes. Gap junctions let a chemical substance pass directly from one cell to the next: hexagonal arrangements of protein units form a connexon on each membrane, and two connexons in line across the intercellular space form a channel that allows rapid passage of ions and substances up to about 1000 molecular weight without ever entering the extracellular fluid, which lets electrical activity propagate rapidly from one cell to another; the channel's diameter is regulated by intracellular Ca++, pH, hormones and drugs. Neural communication releases a neurotransmitter from one neuron across the synaptic cleft to a contiguous cell. Hormonal communication has three forms: endocrine, where a cell secretes a hormone that reaches distant cells by the bloodstream; paracrine, where the hormone reaches neighbouring cells by diffusion through the interstitial fluid; and autocrine, where the hormone acts back on the cell that produced it. Whichever route is used, the chemical messenger binds a specific receptor on the cell membrane, in the cytoplasm or in the nucleus, and exerts its intracellular effect by opening a channel, raising cyclic AMP, or raising free cytoplasmic Ca++.
+Cells communicate through chemical messengers by **three main routes**.
+
+**Gap junctions** let a chemical pass directly from one cell to the next: hexagonal protein units form a **connexon** on each membrane, and two aligned connexons form a channel that allows rapid passage of ions and substances up to about **1000 molecular weight** without ever entering the extracellular fluid, so __electrical activity propagates rapidly between cells__; the channel's diameter is regulated by intracellular Ca++, pH, hormones and drugs.
+
+**Neural communication** releases a neurotransmitter across the synaptic cleft to a contiguous cell.
+
+**Hormonal communication** has three forms: **endocrine**, where a hormone reaches distant cells by the bloodstream; **paracrine**, where it reaches neighbours by diffusion through interstitial fluid; and **autocrine**, where it acts back on the cell that produced it.
+
+Whichever route is used, the messenger __binds a specific receptor__ on the membrane, in the cytoplasm or in the nucleus, and acts by opening a channel, raising cyclic AMP, or raising free cytoplasmic Ca++.
 
 ## explicit_objective
 Name the three routes of intercellular communication, state what a gap junction channel allows through and up to what size, and distinguish endocrine, paracrine and autocrine hormonal signalling.
@@ -1995,7 +2041,7 @@ relationships: Walked the concepts under DIS-PHY-T01. No live concept states the
 # Item
 
 ## label
-A neuron is built of a soma, dendrites and an axon, and it signals across a synapse to the next cell
+Neuron structure: soma, dendrites, axon
 
 ## id
 CON-NEU-72BF46A68C48A6
@@ -2017,7 +2063,11 @@ Synaptic knob
 النهاية المشبكية
 
 ## definition
-The nervous system is a network of neurons specialised for the rapid transfer and integration of information; an activated neuron generates and conducts electrical signals that affect other neurons, muscles or glands. The typical spinal motor neuron has three major parts. The soma is the cell body and acts as the processing centre. Dendrites project out from the soma and receive signals from other neurons. The axon, or nerve fibre, originates from the axon hillock and ends in a number of synaptic knobs that contact other cells — muscle, gland or another neuron — at a site called the synapse; the knobs store synaptic transmitter in granules or vesicles. The neuron whose axon synapses onto another is the presynaptic neuron, and the one it contacts is the postsynaptic neuron. An axon may be only a few millimetres long if it ends on a nearby cell, as it often does within the central nervous system, or many centimetres long if it ends on a distant cell, as it does on a skeletal muscle fibre.
+The nervous system is a network of **neurons** specialised for the rapid transfer and integration of information; an activated neuron generates and conducts electrical signals that affect other neurons, muscles or glands.
+
+The typical spinal motor neuron has three major parts. The **soma** is the cell body and processing centre. **Dendrites** project from the soma and receive signals from other neurons. The **axon** originates from the axon hillock and ends in **synaptic knobs** that contact other cells — muscle, gland or another neuron — at a site called the **synapse**; the knobs store transmitter in granules or vesicles.
+
+The neuron whose axon synapses onto another is the **presynaptic** neuron, and the one it contacts is the **postsynaptic** neuron. An axon may be __only a few millimetres long__ if it ends on a nearby cell, as often within the CNS, or __many centimetres long__ if it ends on a distant cell, as on a skeletal muscle fibre.
 
 ## explicit_objective
 Name the three major parts of a typical spinal motor neuron, state what each does, and define presynaptic and postsynaptic in terms of which neuron's axon forms the synapse.
@@ -2179,7 +2229,7 @@ relationships: Walked the 66 concepts under DIS-PHY-T07. No live concept states 
 # Item
 
 ## label
-Excitability is a living cell's ability to respond to a stimulus, and an effective electrical stimulus needs enough strength, duration and rate of rise
+Excitability and the effective stimulus
 
 ## id
 CON-NEU-1857961B72D49A
@@ -2201,7 +2251,11 @@ Rate of rise of stimulus
 معدل ارتفاع شدة المنبه
 
 ## definition
-Membrane potential is the electrical potential difference between the inner and outer surfaces of the cell membrane of every cell in the body, and it underlies excitability, the ability of a living cell to respond to a change in its environment. A stimulus is the change or event that excites the cell and produces a response; stimuli can be electrical, mechanical, chemical or thermal, but the electrical stimulus is preferred experimentally because it resembles the body's own natural stimuli, can be controlled, can be measured accurately, and leaves the tissue undamaged. Nerve and muscle cells are the most excitable cells in the body. Three factors determine whether an electrical stimulus is effective: its strength (intensity) must reach a certain value to produce a response; its duration must be maintained long enough; and its rate of rise matters independently of strength and duration — a rapidly rising stimulus that reaches threshold gives an active response, while a slowly rising stimulus to the same threshold value gives no response at all, a phenomenon called nerve accommodation.
+**Membrane potential** is the electrical potential difference between the inner and outer surfaces of every cell's membrane, and it underlies **excitability** — the ability of a living cell to respond to a change in its environment. **Nerve and muscle** cells are the most excitable in the body.
+
+A **stimulus** is the change that excites the cell; stimuli may be electrical, mechanical, chemical or thermal, but the **electrical stimulus** is preferred experimentally because it resembles the body's natural stimuli, can be controlled, can be measured accurately, and __leaves the tissue undamaged__.
+
+Three factors determine whether an electrical stimulus is effective: its **strength** must reach a certain value; its **duration** must be maintained long enough; and its **rate of rise** matters on its own — a rapidly rising stimulus to threshold fires, while a slowly rising one to the same value gives no response, a phenomenon called **nerve accommodation**.
 
 ## explicit_objective
 Define membrane potential and excitability, list the four kinds of stimulus, explain why the electrical stimulus is preferred experimentally, and name the three factors that make an electrical stimulus effective.
@@ -2360,7 +2414,7 @@ relationships: Walked the 66 concepts under DIS-PHY-T07. No live concept states 
 # Item
 
 ## label
-The strength-duration curve is the inverse relationship between a stimulus's intensity and the duration needed to excite the nerve, with rheobase and chronaxie as its two landmarks
+Strength-duration curve: rheobase and chronaxie
 
 ## id
 CON-NEU-BC5C6F99B13676
@@ -2382,7 +2436,11 @@ Subthreshold stimulus
 زمن استخدام الريوباز
 
 ## definition
-The strength-duration curve shows the inverse relationship between a stimulus's intensity and the duration it must be applied to an excitable membrane to produce an active response. Within limits, a stronger stimulus needs a shorter duration to excite the nerve, but an extremely short-duration stimulus will not excite the nerve no matter how intense it is. Rheobase is the threshold stimulus: the minimum intensity that can excite the nerve, however long it is applied. A stimulus below rheobase (subthreshold) produces only a local response or local excitatory state, not a propagated impulse. Utilization time is the duration needed for a stimulus at exactly rheobase intensity to produce a response. Chronaxie is the duration needed for a stimulus at twice rheobase intensity to produce a response, and it is used as an index of excitability.
+The **strength-duration curve** shows the __inverse relationship between a stimulus's intensity and the duration__ it must be applied to excite a membrane. Within limits a stronger stimulus needs a shorter duration, but an extremely short stimulus will not excite however intense it is.
+
+**Rheobase** is the threshold stimulus: the minimum intensity that can excite the nerve, however long it is applied. A **subthreshold** stimulus produces only a local response, not a propagated impulse. **Utilization time** is the duration a stimulus at exactly rheobase intensity needs.
+
+**Chronaxie** is the duration a stimulus at **twice rheobase intensity** needs to produce a response, and it is used as an __index of excitability__.
 
 ## explicit_objective
 Describe the shape of the strength-duration curve, define rheobase and utilization time in relation to it, and state what chronaxie measures and why it is used as an excitability index.
@@ -2543,7 +2601,7 @@ relationships: CON-NEU-105A7842809DC1, a live record, already states the chronax
 # Item
 
 ## label
-The resting membrane potential is the polarised, un-stimulated potential difference across the membrane, largest in big nerve and skeletal muscle fibres
+Resting membrane potential and its magnitude
 
 ## id
 CON-NEU-8319D639D05322
@@ -2564,7 +2622,11 @@ RMP magnitude by cell type
 مقدار جهد الراحة
 
 ## definition
-The resting membrane potential (RMP) is the difference in electrical potential, measured in millivolts, between the inner and outer surfaces of the cell membrane under resting, un-stimulated conditions — the polarised state. Its magnitude varies by cell type: about −90 mV in large nerve fibres and in large skeletal muscle fibres, about −70 mV in medium-sized neurons, and only −20 to −40 mV in less excitable cells such as red blood cells and epithelial cells. The negative sign means the inside of the membrane is negative relative to the outside. Membrane potential in a nerve fibre can take several forms depending on conditions: at rest it is the resting membrane potential; on stimulation by an adequate stimulus it is an action potential; on stimulation by an inadequate, subthreshold stimulus, only a localized potential is recorded.
+The **resting membrane potential (RMP)** is the potential difference, in millivolts, between the inner and outer membrane surfaces under resting, un-stimulated conditions — the **polarised state**. The negative sign means __the inside is negative relative to the outside__.
+
+Its magnitude varies by cell type: about **−90 mV** in large nerve and large skeletal muscle fibres, about **−70 mV** in medium-sized neurons, and only **−20 to −40 mV** in less excitable cells such as red blood cells and epithelial cells.
+
+A nerve fibre's membrane potential takes several forms: at rest it is the RMP; on an adequate stimulus it is an **action potential**; on an inadequate, subthreshold stimulus, only a **localized potential** is recorded.
 
 ## explicit_objective
 Define the resting membrane potential, state its typical magnitude in large nerve/muscle fibres, medium neurons and less-excitable cells, and explain what the negative sign means.
@@ -2723,7 +2785,7 @@ relationships: CON-NEU-A6D30CFB5F997B (sign convention) and CON-NEU-763D2F7A1571
 # Item
 
 ## label
-Selective ion permeability accounts for about 95 percent of the resting membrane potential, and the Na+-K+ pump contributes the remaining −4 mV
+What sets the resting potential
 
 ## id
 CON-NEU-8CC845C16CE133
@@ -2745,7 +2807,11 @@ Relative contributions to RMP
 معادلة غولدمان
 
 ## definition
-The Nernst equation gives the equilibrium potential of a single ion at 37°C. If K+ alone could cross the membrane, its equilibrium potential would be −61 mV × log([K+]in/[K+]out) = −61 × log(35) ≈ −94 mV — close to the real resting potential. If Na+ alone could cross, its equilibrium potential would be −61 mV × log([Na+]in/[Na+]out) = −61 × log(0.1) ≈ +61 mV — far from it. The Goldman equation gives a more accurate prediction by weighing Na+, K+ and Cl− together according to both their concentrations and their relative membrane permeabilities; applied to nerve, it predicts about −86 mV, roughly 95 percent of the resting membrane potential, because the membrane's permeability to K+ is so much higher than to Na+ at rest that the resting potential sits close to the K+ equilibrium potential. The Na+-K+ pump supplies the rest: it is electrogenic and contributes about −4 mV on its own, over and above the potential set by selective permeability.
+The **Nernst equation** gives the equilibrium potential of a single ion at 37°C. If **K+** alone could cross, its equilibrium potential would be −61 mV × log([K+]in/[K+]out) = −61 × log(35) ≈ **−94 mV** — close to the real resting potential. If **Na+** alone could cross, it would be −61 × log(0.1) ≈ **+61 mV** — far from it.
+
+The **Goldman equation** weighs Na+, K+ and Cl− together by both concentration and permeability; applied to nerve it predicts about **−86 mV**, __roughly 95 percent of the resting potential__, because the membrane is so much more permeable to K+ than Na+ at rest that the potential sits close to the K+ equilibrium.
+
+The **Na+-K+ pump** supplies the rest: being electrogenic, it contributes about **−4 mV** over and above the potential set by selective permeability.
 
 ## explicit_objective
 State what the Nernst equation calculates and give the equilibrium potentials it predicts for K+ alone and Na+ alone, then state what the Goldman equation adds and how the selective-permeability and pump contributions to RMP divide numerically.
@@ -2905,7 +2971,7 @@ relationships: Walked the 66 concepts under DIS-PHY-T07; the live leak-direction
 # Item
 
 ## label
-The nerve action potential is a three-phase wave recorded after a latent period, and excitability rises then falls across it
+Action potential phases and excitability
 
 ## id
 CON-NEU-751C4921A154CC
@@ -2928,7 +2994,13 @@ Excitability changes during the action potential
 طور فرط الاستقطاب
 
 ## definition
-An action potential is a series of rapid changes in membrane potential that follow stimulation of a nerve fibre by an adequate stimulus, recorded with two microelectrodes. It is preceded by a latent period — the interval between applying the stimulus and the start of the response, corresponding to the time the impulse takes to travel from the stimulating electrode to the recording electrode; if the distance between the electrodes is known, the latent period gives the conduction velocity directly (a 2 msec latent period over 4 cm gives a conduction velocity of 20 m/sec). The wave has three phases: depolarisation, which carries the potential from −90 mV through the −65 mV firing level to an overshoot of +35 mV; repolarisation, rapid for its first 70 percent and slow for the remaining 30 percent, which returns the potential to the resting level; and hyperpolarisation, which carries the potential slightly past the resting level before it settles back. The spike — the sharp rise and rapid fall together — lasts about 2 msec, while the hyperpolarisation lasts 35 to 40 msec. Excitability itself changes across this sequence: during the initial depolarisation up to the firing level it is increased, and through the rest of the action potential the fibre is refractory, which protects the nerve from extremely rapid repetitive stimulation and ensures the impulse propagates one way only, since the segment it has just left cannot be re-excited by it.
+An **action potential** is a series of rapid changes in membrane potential following stimulation of a nerve fibre by an adequate stimulus, recorded with two microelectrodes.
+
+It is preceded by a **latent period** — the interval between the stimulus and the response, the time the impulse takes to travel between the electrodes; if the distance is known, the latent period gives **conduction velocity** directly (a 2 msec latent period over 4 cm gives 20 m/sec).
+
+The wave has **three phases**: **depolarisation**, carrying the potential from −90 mV through the −65 mV firing level to a +35 mV overshoot; **repolarisation**, rapid for its first 70 percent and slow for the last 30 percent; and **hyperpolarisation**, slightly past the resting level before it settles. The **spike** lasts about **2 msec**, the hyperpolarisation **35 to 40 msec**.
+
+**Excitability** changes across the sequence: __increased during the initial depolarisation up to the firing level__, then refractory through the rest — which protects the nerve from extremely rapid repetitive stimulation and ensures __one-way propagation__, since the segment just left cannot be re-excited.
 
 ## explicit_objective
 Define the action potential and the latent period, use the latent period to calculate conduction velocity, name the three phases of the wave with their approximate durations, and state how excitability changes across the wave and why that matters functionally.
@@ -3090,7 +3162,7 @@ relationships: This concept supplies the definition, latent period and phase-tim
 # Item
 
 ## label
-The nerve action potential obeys the all-or-none law: once triggered it propagates with the same amplitude, duration and shape regardless of stimulus strength
+Action potential: the all-or-none law
 
 ## id
 CON-NEU-2DFEA8FD9919EA
@@ -3110,7 +3182,9 @@ Threshold and supra-threshold stimulus response
 المنبه العتبي وفوق العتبي
 
 ## definition
-The nerve action potential obeys the all-or-none law: once an action potential is generated, it propagates with the same amplitude, duration and shape regardless of whether the triggering stimulus was exactly threshold or far above threshold, as long as the experimental conditions stay constant. A stimulus below threshold produces no propagated action potential at all, only a local, non-propagated response; a stimulus at or above threshold produces the full, fixed-size wave.
+The nerve action potential obeys the **all-or-none law**: once generated, it propagates with the __same amplitude, duration and shape__ regardless of whether the triggering stimulus was exactly threshold or far above it, as long as experimental conditions stay constant.
+
+A stimulus **below threshold** produces no propagated action potential at all, only a local, non-propagated response; a stimulus **at or above threshold** produces the full, fixed-size wave.
 
 ## explicit_objective
 State the all-or-none law for the nerve action potential and explain what changing a supra-threshold stimulus's strength does and does not change about the resulting wave.
@@ -3267,7 +3341,7 @@ relationships: Walked the 66 concepts under DIS-PHY-T07 and the muscle set; no l
 # Item
 
 ## label
-An unmyelinated axon conducts an action potential by a local circuit of current flowing to the next resting patch of membrane
+Unmyelinated conduction by local circuits
 
 ## id
 CON-NEU-76D490DA0BA0E6
@@ -3288,7 +3362,11 @@ Speed of conduction and fibre diameter
 سرعة التوصيل والجذر التربيعي لقطر المحور
 
 ## definition
-In an unmyelinated axon, the action potential generated at one location acts as the stimulus for an action potential at the adjacent region. During the reversal of polarity, an electrical potential difference forms between the depolarised area and the adjacent resting area, and a local circuit of current flows between them — positive charges move passively toward the area of negativity on both the outer and inner surfaces of the membrane. The adjacent area depolarises, and once it reaches threshold, a new action potential is generated there, while the first, active segment returns to its resting level; the depolarisation from the new action potential then spreads passively and the whole process repeats down the length of the axon. If the fibre is stimulated in the middle, the impulse travels in both directions from that point, and its amplitude does not change as it is conducted along the axon. The speed of this propagation is proportional to the square root of the fibre's diameter.
+In an unmyelinated axon, the action potential at one location __acts as the stimulus for the adjacent region__. During the reversal of polarity, a **local circuit** of current flows between the depolarised area and the adjacent resting area — positive charges move passively toward the negativity on both membrane surfaces.
+
+The adjacent area depolarises, and once it reaches threshold a **new action potential** is generated there, while the first segment returns to its resting level; the depolarisation then spreads passively and the process repeats down the axon.
+
+If the fibre is stimulated in the middle, the impulse travels in **both directions**, and its amplitude does not change as it is conducted. The speed of propagation is __proportional to the square root of the fibre's diameter__.
 
 ## explicit_objective
 Describe the local-circuit mechanism by which an action potential propagates along an unmyelinated axon, and state how conduction speed relates to fibre diameter in this mode.
@@ -3448,7 +3526,7 @@ relationships: CON-NEU-A0C8307D2825A6 (saltatory conduction, live) states the my
 # Item
 
 ## label
-An axon conducts in either direction from its point of stimulation, but only orthodromic conduction — forward, from receptor to termination — normally survives past the first synapse
+Orthodromic vs antidromic conduction
 
 ## id
 CON-NEU-788EA161C3F6FD
@@ -3469,7 +3547,11 @@ Bidirectional axonal conduction
 التوصيل الخلفي العكسي
 
 ## definition
-An axon can conduct an impulse in either direction: if an action potential is initiated in the middle of an axon, two impulses set off travelling in opposite directions. In living animals, impulses normally travel in one direction only — from synaptic junctions or receptors along the axon to its termination — and this is called orthodromic conduction. Conduction in the opposite direction is antidromic. Because synapses, unlike axons, permit conduction in one direction only, any antidromic impulse that is produced fails to pass the first synapse it meets and dies out there.
+An axon can conduct in **either direction**: an action potential started in the middle of an axon sends two impulses off in opposite directions.
+
+In living animals, impulses normally travel **one way only** — from synapses or receptors along the axon to its termination — which is called **orthodromic** conduction. Conduction in the opposite direction is **antidromic**.
+
+Because synapses, unlike axons, conduct one way only, __any antidromic impulse fails to pass the first synapse it meets and dies out there__.
 
 ## explicit_objective
 Define orthodromic and antidromic conduction, and explain why an antidromic impulse dies out at the first synapse it reaches instead of continuing to propagate.
@@ -3628,7 +3710,7 @@ relationships: Walked the 66 concepts under DIS-PHY-T07; no live concept states 
 # Item
 
 ## label
-Accommodation is the failure of a slowly rising subthreshold stimulus to excite the nerve, because slow sodium activation is matched by inactivation and potassium opening
+Accommodation to a slow-rising stimulus
 
 ## id
 CON-NEU-FEC3C15273EB2F
@@ -3647,7 +3729,9 @@ Slow-rising stimulus failure to excite
 عدم استثارة العصب بالمنبه البطيء التصاعد
 
 ## definition
-Accommodation of the nerve fibre is what happens when a subthreshold stimulus's intensity is increased gradually, slowly, up to what would otherwise be threshold level: no response is produced, and the nerve is said to be accommodated. The mechanism is a race between two slow processes started by the same slow rise in current: the slow activation (opening) of Na+ channels, which lets Na+ enter slowly, is balanced by the inactivation (closure) of those same Na+ channels together with the opening of K+ channels, so the depolarising drive never gets ahead of the processes that oppose it, and the firing level is never reached.
+**Accommodation** is what happens when a subthreshold stimulus's intensity is increased **gradually, slowly**, up to what would otherwise be threshold: __no response is produced__, and the nerve is said to be accommodated.
+
+The mechanism is a **race between two slow processes** started by the same slow rise in current: the slow **activation** of Na+ channels, letting Na+ enter slowly, is balanced by their **inactivation** together with the **opening of K+ channels**, so __the depolarising drive never gets ahead__ of the processes opposing it and the firing level is never reached.
 
 ## explicit_objective
 Define accommodation and explain, from the balance of Na+ activation, Na+ inactivation and K+ channel opening, why a slowly rising stimulus fails to excite the nerve even when it eventually reaches what would be threshold intensity.
@@ -3804,7 +3888,7 @@ relationships: Walked the 66 concepts under DIS-PHY-T07; no live concept states 
 # Item
 
 ## label
-Nerve fibres are classified into A, B and C types by diameter and conduction velocity, and each class differs in its sensitivity to anaesthesia, pressure and hypoxia
+Nerve fibre types: A, B and C
 
 ## id
 CON-NEU-3F92C1DEAFFF01
@@ -3826,7 +3910,9 @@ Differential nerve fibre sensitivity
 الألياف من نوع C
 
 ## definition
-Nerve fibres are classified into three types by thickness and conduction velocity. A-fibres are 2 to 20 micrometres in diameter, conduct at 20 to 120 m/sec, have a 0.5 msec spike duration, and are exemplified by somatic motor fibres, which further subdivide into alpha, beta, gamma and delta fibres. B-fibres are 1 to 5 micrometres, conduct at 5 to 15 m/sec, have a 1.0 msec spike, and are exemplified by preganglionic autonomic fibres. C-fibres are under 1 micrometre, conduct at 0.5 to 2 m/sec, have a 2.0 msec spike, and are exemplified by postganglionic autonomic fibres. Beyond conduction speed, the classes differ in their sensitivity to environmental factors: local anaesthetics depress transmission in C fibres before they affect A fibres; pressure on a nerve can abolish conduction in A fibres while C fibres stay relatively intact; and B fibres are the most susceptible to hypoxia, while C fibres are the least affected.
+Nerve fibres are classified into **three types** by thickness and conduction velocity. **A-fibres** are 2–20 µm, conduct at 20–120 m/sec, have a 0.5 msec spike, and are exemplified by somatic motor fibres (subdividing into alpha, beta, gamma and delta). **B-fibres** are 1–5 µm, 5–15 m/sec, 1.0 msec spike, e.g. preganglionic autonomic fibres. **C-fibres** are under 1 µm, 0.5–2 m/sec, 2.0 msec spike, e.g. postganglionic autonomic fibres.
+
+Beyond speed, the classes differ in sensitivity to insult: **local anaesthetics** depress C fibres before A fibres; **pressure** can abolish conduction in A fibres while C fibres stay intact; and **B fibres are the most susceptible to hypoxia**, while __C fibres are the least affected__.
 
 ## explicit_objective
 Reproduce the diameter, conduction velocity and spike-duration values for A, B and C fibres with their tissue examples, and state which fibre class is most and least affected by local anaesthesia, pressure and hypoxia respectively.
@@ -3986,7 +4072,7 @@ relationships: CON-NEU-5664D7AB68AD8D (live, myelination) states the structural 
 # Item
 
 ## label
-Neurotrophins are proteins, secreted by glia, muscle or other innervated targets, that are retrogradely transported to support neuronal development, growth and survival
+Neurotrophins
 
 ## id
 CON-NEU-47AD27F1B2D234
@@ -4005,7 +4091,9 @@ Retrograde axonal transport of trophic factors
 النقل المحوري الرجعي للعوامل العصبية
 
 ## definition
-Neurotrophins are certain proteins necessary for neuronal development, growth and survival. They are secreted by glial cells, by muscles, or by other structures that the neuron innervates. Once released near the axon terminal, they are internalized and then carried by retrograde transport back along the axon to the neuronal cell body.
+**Neurotrophins** are proteins necessary for __neuronal development, growth and survival__. They are secreted by glial cells, by muscles, or by other structures the neuron innervates.
+
+Once released near the axon terminal, they are internalized and then carried by **retrograde transport** back along the axon to the neuronal cell body.
 
 ## explicit_objective
 Define a neurotrophin, name the cell types the book gives as its sources, and state the direction it travels along the axon to reach the cell body.
@@ -4163,7 +4251,7 @@ relationships: Walked the 66 concepts under DIS-PHY-T07; no live concept states 
 # Item
 
 ## label
-Each skeletal muscle fibre receives one axon terminal at a motor end plate, separated from it by a synaptic cleft rich in acetylcholinesterase
+The neuromuscular junction: anatomy
 
 ## id
 CON-NEU-273E2C22C11A97
@@ -4185,7 +4273,11 @@ Junctional folds
 الشق التشابكي
 
 ## definition
-Neuromuscular transmission is the transmission of nerve impulses from an alpha motor neuron to skeletal muscle fibres. The alpha motor neuron's axon divides into terminals, or end feet, each supplying several muscle fibres, but each individual muscle fibre receives only one axon terminal, which is packed with acetylcholine-containing vesicles. The nerve ending fits into a depression in the muscle membrane, and the extracellular space between them is the synaptic cleft, where acetylcholinesterase is bound to the basal lamina. The muscle membrane at this site is thickened and folded into junctional folds, forming the motor end plate, which is rich in acetylcholine receptors.
+**Neuromuscular transmission** carries nerve impulses from an **alpha motor neuron** to skeletal muscle fibres. The axon divides into terminals, each supplying several fibres, but __each muscle fibre receives only one axon terminal__, which is packed with acetylcholine vesicles.
+
+The nerve ending fits into a depression in the muscle membrane, and the space between them is the **synaptic cleft**, where **acetylcholinesterase** is bound to the basal lamina.
+
+The muscle membrane here is thickened and folded into **junctional folds**, forming the **motor end plate**, which is rich in acetylcholine receptors.
 
 ## explicit_objective
 Describe the physiologic anatomy of the neuromuscular junction from the axon terminal to the motor end plate, naming the synaptic cleft's enzyme and the motor end plate's receptor.
@@ -4344,7 +4436,7 @@ relationships: CON-MSK-77D955AAB4D0FA (live, sibling MCQ batch) already states t
 # Item
 
 ## label
-Neuromuscular transmission is one-directional, carries a fixed synaptic delay, fatigues with repeated use, and is shaped by Ca2+/Mg2+ and by three classes of drug
+Neuromuscular transmission: properties and drugs
 
 ## id
 CON-NEU-64B329335E9489
@@ -4366,7 +4458,9 @@ Magnesium competition with calcium at the NMJ
 عقاقير حاصرة للانتقال العصبي العضلي
 
 ## definition
-Neuromuscular transmission has four defining properties. It is unidirectional, occurring only from nerve to muscle. It carries a delay of about 0.5 msec, the time needed for acetylcholine release, the change in muscle membrane permeability, Na+ inflow and depolarisation to the firing level. It fatigues easily with repeated stimulation, as acetylcholine vesicles are exhausted. And it is sensitive to ions: Ca++ entry into the nerve terminal causes vesicle rupture and acetylcholine release, while excess Mg++ competes with Ca++ and greatly decreases that release. Three classes of drug act on it. Drugs with an acetylcholine-like action, such as methacholine, carbachol and nicotine in small doses, are not destroyed by cholinesterase and so their effect persists for minutes to hours. Drugs that inactivate cholinesterase, such as neostigmine, physostigmine and di-isopropyl fluorophosphate, let acetylcholine accumulate to the point of repetitively stimulating the muscle fibre. And curariform drugs, such as curare, block transmission by competing with acetylcholine for the receptor sites on the end plate.
+Neuromuscular transmission has **four defining properties**. It is **unidirectional** (nerve to muscle only). It carries a **delay of about 0.5 msec** — the time for acetylcholine release, the permeability change, Na+ inflow and depolarisation to the firing level. It **fatigues** easily with repeated stimulation as acetylcholine vesicles are exhausted. And it is **ion-sensitive**: Ca++ entry triggers vesicle rupture and acetylcholine release, while __excess Mg++ competes with Ca++ and greatly decreases that release__.
+
+**Three classes of drug** act on it. **Acetylcholine-like drugs** (methacholine, carbachol, small-dose nicotine) are not destroyed by cholinesterase, so their effect persists for minutes to hours. **Anticholinesterases** (neostigmine, physostigmine, di-isopropyl fluorophosphate) let acetylcholine accumulate to the point of repetitively stimulating the fibre. **Curariform drugs** (curare) block transmission by __competing with acetylcholine for the end-plate receptors__.
 
 ## explicit_objective
 List the four properties of neuromuscular transmission, and classify a named drug into one of the three drug-action groups the book gives, stating what each group does to transmission.
@@ -4530,7 +4624,7 @@ relationships: CON-MSK-5C2B5DD83C1805 (live, myasthenia gravis) is the clinical 
 # Item
 
 ## label
-A miniature end-plate potential is the small, spontaneous depolarisation produced when a single acetylcholine vesicle ruptures at rest
+Miniature end-plate potential
 
 ## id
 CON-NEU-B1F2748F1E9357
@@ -4550,7 +4644,9 @@ Quantal release at rest
 الإفراز التلقائي لحويصلات الأستيل كولين
 
 ## definition
-At rest, a few acetylcholine-containing vesicles rupture spontaneously and release their contents even without a nerve impulse. This produces a minute depolarisation at the motor end plate, called a miniature end-plate potential.
+At rest, a few acetylcholine-containing vesicles **rupture spontaneously** and release their contents even without a nerve impulse.
+
+This produces a minute depolarisation at the motor end plate, called a **miniature end-plate potential**.
 
 ## explicit_objective
 Define the miniature end-plate potential and state what triggers it in the absence of a nerve impulse.
@@ -4707,7 +4803,7 @@ relationships: Walked the concepts under DIS-PHY-T07; no live concept states the
 # Item
 
 ## label
-Skeletal muscle is over four hundred voluntary muscles attached to bone, and contraction that depends on nerve supply serves four functions
+Skeletal muscle: overview and functions
 
 ## id
 CON-MSK-43CD79301071ED
@@ -4727,7 +4823,9 @@ Voluntary muscle and nerve dependence
 الوظائف الأربع للعضلة الهيكلية
 
 ## definition
-Skeletal muscles are attached to the bones, and the human body contains over four hundred voluntary skeletal muscles whose contraction depends on their nerve supply. Skeletal muscle performs four major functions: force production for locomotion and breathing; force production for maintaining posture and stabilising joints; heat production; and helping venous drainage.
+**Skeletal muscles** are attached to the bones, and the body contains over **four hundred** voluntary skeletal muscles whose __contraction depends on their nerve supply__.
+
+Skeletal muscle performs **four functions**: force production for **locomotion and breathing**; force production for **posture and stabilising joints**; **heat production**; and helping **venous drainage**.
 
 ## explicit_objective
 State how many voluntary skeletal muscles the body contains, that their contraction depends on nerve supply, and list the four major functions the book gives for skeletal muscle.
@@ -4885,7 +4983,7 @@ microtopicId: Morphology and the sarcomere, the two headings immediately below "
 # Item
 
 ## label
-Myosin has two heavy chains forming flexible cross-bridge heads, and actin's active site is covered at rest by tropomyosin held in place by the three troponin subunits
+Muscle proteins: myosin, actin, troponin
 
 ## id
 CON-MSK-287D88DF2F6B8C
@@ -4907,7 +5005,11 @@ Cross-bridge heads
 تروبونين C وI وT
 
 ## definition
-The myosin molecule is built of two heavy chains and four light chains. The two heavy chains form a helix; their terminal portions, together with the four light chains, form two arms ending in globular heads, the cross-bridges. Each head carries an actin-binding site, an ATP-binding site and an ATPase site, and the cross-bridge is flexible at two hinges, one between arm and body and one between arm and head. The actin molecule is two chains coiled as a helix, and it carries a specific site for myosin, the active site. At rest, tropomyosin molecules cover this active site. Troponin, a small globular protein, attaches tropomyosin to actin and is built of three subunits: troponin I, which has a strong affinity for actin and binds it; troponin T, which has a strong affinity for tropomyosin and binds it; and troponin C, which has a strong affinity for Ca2+, and whose binding to Ca2+ initiates the contraction process.
+The **myosin** molecule is built of two heavy chains and four light chains. The heavy chains form a helix; their terminal portions, with the four light chains, form two arms ending in globular **heads (cross-bridges)**. Each head carries an actin-binding site, an ATP-binding site and an ATPase site, and is flexible at two hinges.
+
+The **actin** molecule is two chains coiled as a helix, carrying the **active site** for myosin. At rest, **tropomyosin** covers this active site.
+
+**Troponin** attaches tropomyosin to actin and has three subunits: **troponin I**, which binds actin; **troponin T**, which binds tropomyosin; and **troponin C**, which binds **Ca2+**, whose binding __initiates the contraction process__.
 
 ## explicit_objective
 Describe the structure of the myosin cross-bridge and the actin filament, and name the three troponin subunits with the one binding partner each is defined by.
@@ -5068,7 +5170,7 @@ relationships: CON-MSK-B2B106C1D81C30 (sibling batch) and CON-MSK-3013AA61E917B7
 # Item
 
 ## label
-Skeletal muscle's own action potential resembles the nerve's but finishes before contraction starts, which is why the fibre can be tetanised
+Muscle action potential precedes contraction
 
 ## id
 CON-MSK-3B9143FBE075E4
@@ -5089,7 +5191,9 @@ Why skeletal muscle can be tetanised
 سبب إمكانية تكزز العضلة الهيكلية
 
 ## definition
-The electrical events in skeletal muscle and the ionic fluxes behind them resemble those in nerve, with some differences: the resting membrane potential of skeletal muscle is about −90 mV, its action potential lasts 2 to 4 msec, it is conducted along the muscle fibre at about 5 m/sec, and it precedes the contraction by about 2 msec. During its own action potential, a skeletal muscle fibre is refractory to restimulation, exactly as a nerve fibre is. But because the action potential precedes the mechanical contraction, by the time the fibre actually begins to contract it has already regained its excitability and can respond to a second stimulus — which is why skeletal muscle can be tetanised, unlike cardiac muscle, whose action potential and contraction overlap.
+Skeletal muscle's electrical events resemble the nerve's, with some differences: the **resting potential is about −90 mV**, the action potential lasts **2 to 4 msec**, it is conducted along the fibre at about **5 m/sec**, and it __precedes contraction by about 2 msec__.
+
+During its own action potential the fibre is **refractory** to restimulation, exactly as a nerve is. But because the action potential precedes the mechanical contraction, __by the time the fibre begins to contract it has regained its excitability__ — which is why skeletal muscle can be **tetanised**, unlike cardiac muscle, whose action potential and contraction overlap.
 
 ## explicit_objective
 State the resting potential, action-potential duration and conduction velocity of skeletal muscle, and explain from the timing of the action potential relative to contraction why skeletal muscle, but not cardiac muscle, can be tetanised.
@@ -5247,7 +5351,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08 and the muscle set on DI
 # Item
 
 ## label
-A single skeletal muscle fibre obeys the all-or-none law: it contracts maximally or not at all, and a threshold stimulus already produces the maximal single-fibre contraction
+Single muscle fibre: all-or-none law
 
 ## id
 CON-MSK-AF4E727C85510D
@@ -5266,7 +5370,9 @@ Threshold stimulus and maximal single-fibre contraction
 الاستجابة القصوى لليفة العضلية عند العتبة
 
 ## definition
-A single skeletal muscle fibre obeys the all-or-none law: it contracts maximally, or it does not contract at all. A threshold stimulus already produces a maximal contraction in that fibre, provided the experimental conditions stay the same — a supra-threshold stimulus to one fibre produces no bigger a contraction than a threshold one.
+A single skeletal muscle fibre obeys the **all-or-none law**: it contracts __maximally, or it does not contract at all__.
+
+A **threshold** stimulus already produces a maximal contraction in that fibre, provided conditions stay the same — a supra-threshold stimulus to one fibre produces __no bigger a contraction__ than a threshold one.
 
 ## explicit_objective
 State the all-or-none law as it applies to a single skeletal muscle fibre, and explain why increasing stimulus strength above threshold does not increase that one fibre's contraction.
@@ -5423,7 +5529,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08 and the muscle set on DI
 # Item
 
 ## label
-A muscle twitch is a single, brief contraction and relaxation cycle produced by one action potential, starting about 2 msec after depolarisation
+The muscle twitch
 
 ## id
 CON-MSK-242998842BE25C
@@ -5442,7 +5548,9 @@ Single twitch timing
 استجابة العضلة لجهد فعل واحد
 
 ## definition
-The muscle twitch is a brief contraction followed by relaxation, produced by a single action potential. The twitch begins about 2 msec after the membrane depolarises — the same delay by which the book states the action potential precedes contraction.
+The **muscle twitch** is a brief contraction followed by relaxation, produced by a **single action potential**.
+
+It begins __about 2 msec after the membrane depolarises__ — the same delay by which the action potential precedes contraction.
 
 ## explicit_objective
 Define the muscle twitch and state how long after membrane depolarisation it begins.
@@ -5599,7 +5707,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08 and the muscle set on DI
 # Item
 
 ## label
-In isometric contraction the muscle's length is held fixed while tension rises; in isotonic contraction tension is held fixed once threshold is reached and the muscle shortens
+Isometric vs isotonic contraction
 
 ## id
 CON-MSK-87D5C5A48AB5D9
@@ -5620,7 +5728,13 @@ Series elastic component
 الانقباض متساوي التوتر
 
 ## definition
-Skeletal muscle contains, besides its contractile element, elastic and viscous elements arranged in series with it, mainly in the tendons — the series elastic component. In an isometric contraction, an isolated muscle is fixed at one end, a heavy load stretches it at the other end to a set degree, and a support is placed to prevent further stretch. When stimulated, the muscle cannot shorten because the load is too heavy, but the sarcomeres inside the myocytes do shorten, stretching the series elastic elements; tension inside the muscle rises to a maximum while the whole muscle's length stays constant. In an isotonic contraction, a smaller load is used and stretched the same degree before being supported. On stimulation, contraction begins isometrically and tension rises until it reaches a level that can lift the load; from that point, the muscle shortens while tension stays constant. With a heavier load, the isometric phase before shortening starts lasts longer, and the rate and extent of the subsequent isotonic shortening are both less; if the load is too large, the maximum tension the muscle can develop in the isometric phase is never enough to lift it at all.
+Besides its contractile element, skeletal muscle has **elastic and viscous elements in series** with it, mainly in the tendons — the **series elastic component**.
+
+In an **isometric contraction**, the muscle is fixed at one end and a heavy load stretches it, with a support preventing further stretch. On stimulation the muscle cannot shorten, but the sarcomeres inside do shorten and stretch the series elastic elements; __tension rises to a maximum while the whole muscle's length stays constant__.
+
+In an **isotonic contraction**, a smaller load is used. Contraction begins isometrically until tension reaches a level that can lift the load; from that point the __muscle shortens while tension stays constant__.
+
+With a **heavier load**, the isometric phase before shortening lasts longer, and the rate and extent of shortening are both less; if the load is too large, __the muscle never develops enough tension to lift it at all__.
 
 ## explicit_objective
 Describe the experimental setup that defines isometric and isotonic contraction, explain the role of the series elastic component in each, and state the two effects of a heavier load on the isotonic sequence.
@@ -5781,7 +5895,7 @@ relationships: CON-MSK-9EA962E7584693 and CON-MSK-D5976D2FF54887 (both live) alr
 # Item
 
 ## label
-Isometric and isotonic contraction differ in tension, length, sliding, duration, energy use, external work and mechanical efficiency
+Isometric vs isotonic: seven differences
 
 ## id
 CON-MSK-8CD0C1C03D5333
@@ -5800,7 +5914,11 @@ Mechanical efficiency of isotonic contraction
 الكفاءة الميكانيكية للانقباض متساوي التوتر
 
 ## definition
-The book compares isometric and isotonic contraction across seven properties. Tension increases in isometric contraction but stays constant in isotonic. Length stays constant in isometric but shortens in isotonic. Sliding of the myofibrils along each other is less in isometric and more in isotonic. Duration is shorter for isometric and longer for isotonic. Energy need is less for isometric, since the load is not moved, and greater for isotonic, since the load is moved a distance. Work done is zero in isometric, since no load moves, and positive in isotonic, since the load moves a distance. Mechanical efficiency — the percentage of energy input converted into work — is zero for isometric contraction and 20 to 25 percent for isotonic. The book's own examples: isometric contraction is tensing the quadriceps to keep the knee stiff while standing; isotonic contraction, starting isometric and finishing isotonic, is lifting a heavy weight with the biceps; and running mixes both, isometric when a leg hits the ground and isotonic to move the limbs.
+The book compares isometric and isotonic contraction across **seven properties**. **Tension** rises in isometric but stays constant in isotonic. **Length** stays constant in isometric but shortens in isotonic. **Sliding** of the myofibrils is less in isometric and more in isotonic. **Duration** is shorter for isometric and longer for isotonic.
+
+**Energy** need is less for isometric, since the load is not moved, and greater for isotonic. **Work done** is zero in isometric, since no load moves, and positive in isotonic. **Mechanical efficiency** is __zero for isometric and 20 to 25 percent for isotonic__.
+
+The book's examples: **isometric** is tensing the quadriceps to keep the knee stiff while standing; **isotonic** (starting isometric, finishing isotonic) is lifting a heavy weight with the biceps; and **running** mixes both, isometric when a leg hits the ground and isotonic to move the limbs.
 
 ## explicit_objective
 Reproduce the seven-row comparison the book gives between isometric and isotonic contraction, including the numeric mechanical efficiency figure, and match each contraction type to the book's own worked example.
@@ -5964,7 +6082,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08 and the muscle set on DI
 # Item
 
 ## label
-The whole muscle's contraction is graded by recruiting more motor units and by raising stimulation frequency toward tetanus, and Treppe raises twitch tension over the first few stimuli of a rested muscle
+Grading whole-muscle contraction
 
 ## id
 CON-MSK-C14F65CD68F720
@@ -5987,7 +6105,13 @@ Clonus
 ظاهرة الدرج (تريبيه)
 
 ## definition
-A motor unit is one spinal motor neuron together with all the muscle fibres its branching axon supplies; small units of 3 to 6 fibres serve fine, precise movements such as the hand and eye muscles, while large units of 100 to 200 fibres serve gross movements such as the leg and back muscles. The whole muscle's contraction is graded by two independent mechanisms. First, the strength of the stimulus sets recruitment: increasing stimulus strength activates more motor units, so the whole-muscle response rises gradually until a maximal stimulus activates every motor unit, after which a supramaximal stimulus adds nothing further, since each fibre already responds maximally under the all-or-none law. Second, the frequency of stimulation sets summation: raising it releases more Ca2+ from the sarcoplasmic reticulum with each stimulus, so contractions with incomplete relaxation between them (incomplete tetanus, or clonus) fuse at a high enough rate into complete tetanus, with no relaxation at all, and complete tetanus develops about four times the tension of an individual twitch because free Ca2+ accumulates in the myofibrils and the cross-bridges cycle continuously. Treppe, the staircase phenomenon, is the progressive rise in the size of separate twitch contractions to a plateau during repetitive stimulation of a previously rested muscle, explained by the same persistent rise in free cytoplasmic Ca2+.
+A **motor unit** is one spinal motor neuron plus all the fibres its branching axon supplies; **small units** of 3–6 fibres serve fine movements such as the hand and eye, while **large units** of 100–200 fibres serve gross movements such as the leg and back.
+
+The whole muscle's contraction is graded by **two mechanisms**. First, **recruitment**: increasing stimulus strength activates more motor units, so the response rises until a maximal stimulus activates every unit, after which a supramaximal stimulus __adds nothing further__, since each fibre already obeys the all-or-none law.
+
+Second, **summation by frequency**: raising the stimulation frequency releases more Ca2+ per stimulus, so contractions with incomplete relaxation (**incomplete tetanus, or clonus**) fuse at high enough rates into **complete tetanus**, which develops __about four times the tension of a single twitch__ as free Ca2+ accumulates and cross-bridges cycle continuously.
+
+**Treppe (the staircase phenomenon)** is the progressive rise in the size of separate twitch contractions to a plateau during repetitive stimulation of a **previously rested** muscle, explained by the same __persistent rise in free cytoplasmic Ca2+__.
 
 ## explicit_objective
 Define a motor unit and give its typical fibre count in fine versus gross muscles, distinguish recruitment from frequency summation as the two mechanisms of grading, and define Treppe and its cause.
@@ -6147,7 +6271,7 @@ relationships: CON-MSK-3E5F54D8D58E9C (live, red slow/pale fast fibres) covers s
 # Item
 
 ## label
-Skeletal muscle develops maximal isometric tension at a sarcomere length of about 2.2 micrometres, where thick and thin filament overlap is optimal
+Length-tension: the optimal sarcomere length
 
 ## id
 CON-MSK-01E9132FDDF9F2
@@ -6167,7 +6291,11 @@ Optimal filament overlap
 التداخل الأمثل للخيوط السميكة والرقيقة
 
 ## definition
-The length-tension relationship plots the increasing initial (preload) muscle fibre length on the x-axis against the maximal active tension developed by isometric contraction on the y-axis. At minimal fibre length, with no passive stretch, isometric tension is zero. As initial length increases (more stretch), isometric tension rises up to a limit, beyond which further stretch decreases it. The mechanism is the overlap between thick and thin filaments: maximal force is developed at a sarcomere length of about 2.2 micrometres, the muscle's own resting length inside the body, where every cross-bridge on the thick filament has an actin filament opposite it. Stretching the sarcomere beyond 2.2 micrometres reduces the overlap, so some cross-bridges have no actin to bind, and force falls. Shortening the sarcomere below 2.2 micrometres also reduces force, because the two actin filaments now overlap each other as well as the myosin filament, which makes it harder for the muscle to develop tension.
+The **length-tension relationship** plots increasing initial (preload) fibre length against the maximal active tension developed by isometric contraction. At minimal length, isometric tension is **zero**; as initial length increases, tension rises to a limit, beyond which further stretch decreases it.
+
+The mechanism is the **overlap between thick and thin filaments**: maximal force is developed at a sarcomere length of about **2.2 µm**, the muscle's resting length in the body, where __every cross-bridge has an actin filament opposite it__.
+
+**Stretching** the sarcomere beyond 2.2 µm reduces overlap, so some cross-bridges have no actin to bind and force falls. **Shortening** below 2.2 µm also reduces force, because the two actin filaments now overlap each other as well as the myosin.
 
 ## explicit_objective
 Describe the shape of the length-tension curve, state the sarcomere length at which tension is maximal, and explain from filament overlap why tension falls on either side of that optimum.
@@ -6328,7 +6456,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08; no live concept states 
 # Item
 
 ## label
-As afterload increases, an isotonic muscle shortens more slowly and less, and the theoretical maximal shortening velocity occurs only at zero load
+Afterload, shortening velocity and Vmax
 
 ## id
 CON-MSK-B7A8FEB348BC9E
@@ -6349,7 +6477,11 @@ Maximal velocity of shortening (Vmax)
 السرعة القصوى للتقصر
 
 ## definition
-For a muscle to shorten during isotonic contraction, it must lift a weight called the afterload — the load the muscle encounters only after it has already started to contract. Increasing the afterload has two effects: the velocity of shortening decreases, because each cross-bridge cycle takes longer under a heavier load, and the amount of shortening decreases as well. The maximal velocity of shortening, V-max, occurs when there is no external load at all, but the book notes this is theoretical only, since a real load can never actually be zero.
+To shorten during isotonic contraction, a muscle must lift the **afterload** — the load it encounters __only after it has already started to contract__.
+
+Increasing the afterload has two effects: the **velocity of shortening decreases**, because each cross-bridge cycle takes longer under a heavier load, and the **amount of shortening decreases** as well.
+
+The maximal velocity of shortening, **V-max**, occurs at **zero load** — but the book notes this is __theoretical only__, since a real load can never actually be zero.
 
 ## explicit_objective
 Define afterload, state the two effects of increasing afterload on isotonic shortening, and explain why V-max is described as theoretical.
@@ -6507,7 +6639,7 @@ relationships: CON-MSK-D5976D2FF54887 (live) already states that heavier loads r
 # Item
 
 ## label
-Muscle fatigue weakens and prolongs contraction and leaves relaxation incomplete, from lactic acid, ATP/glycogen/creatine phosphate depletion, impaired neuromuscular transmission and interrupted blood flow
+Causes of muscle fatigue
 
 ## id
 CON-MSK-2E4061334D52EA
@@ -6527,7 +6659,9 @@ Contracture from fatigue
 التقفع الناتج عن الإجهاد
 
 ## definition
-Prolonged, strong contraction of a muscle leads to muscle fatigue, which decreases the strength of contraction, prolongs its duration, and leaves relaxation incomplete — a contracture. Four things cause it: accumulation of metabolites such as lactic acid, which raises intracellular acidity; depletion of muscle ATP, glycogen and creatine phosphate; diminished transmission at the neuromuscular junction; and interruption of blood flow through the contracting muscle, with loss of nutrient and especially oxygen supply.
+Prolonged, strong contraction leads to **muscle fatigue**, which __decreases the strength of contraction, prolongs its duration, and leaves relaxation incomplete__ (a contracture).
+
+Four things cause it: accumulation of metabolites such as **lactic acid**, which raises intracellular acidity; depletion of **ATP, glycogen and creatine phosphate**; diminished **neuromuscular transmission**; and interruption of **blood flow** through the muscle, with loss of nutrient and especially oxygen supply.
 
 ## explicit_objective
 Define muscle fatigue by its three functional effects on contraction, and list the four causes the book gives.
@@ -6684,7 +6818,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08; no live concept states 
 # Item
 
 ## label
-Muscle ATP is regenerated by three systems in sequence — phosphagen, glycogen-lactic acid, and aerobic — and the extra oxygen consumed afterward to restore them is the oxygen debt
+Muscle energy systems and oxygen debt
 
 ## id
 CON-MSK-9A2D57D133DB52
@@ -6708,7 +6842,13 @@ Oxygen debt
 دَين الأكسجين
 
 ## definition
-At rest, skeletal muscle spends energy maintaining the resting membrane potential, synthesising substances such as glycogen, and producing muscle tone. During contraction, energy consumption rises sharply; ATP is the only immediate energy source, hydrolysed anaerobically by the myosin ATPase into ADP and inorganic phosphate, and the ATP already inside the muscle can support maximal contraction for only 5 to 6 seconds. Three systems reform it. The phosphagen system transfers energy from phosphocreatine to ADP almost instantly; muscle cells hold two to three times as much phosphocreatine as ATP, and together the phosphagen system can power maximal activity for 10 to 15 seconds, enough for a 100-metre run; phosphocreatine is restored later, during relaxation, by the reverse reaction. The glycogen-lactic acid system adds a further 30 to 40 seconds of activity by anaerobic glycolysis, producing lactic acid, which itself limits the system by causing extreme fatigue; the lactic acid is later partly oxidised to pyruvic acid, partly reconverted by the liver into glucose to replenish muscle glycogen, and partly used as fuel by the heart. The aerobic system oxidises glucose, fatty acids and amino acids in the mitochondria and can, in principle, sustain activity indefinitely as long as nutrients and oxygen are available; free fatty acids are the main substrate for resting muscle and for recovery. During recovery, ventilation and oxygen consumption stay elevated above resting levels to remove excess lactate and replenish ATP, creatine phosphate and myoglobin-bound oxygen — this extra post-exercise oxygen consumption is the oxygen debt, measured by subtracting the basal oxygen consumption from the total consumed until a constant basal level is reached again.
+At rest, skeletal muscle spends energy maintaining the resting potential, synthesising substances such as glycogen, and producing tone. During contraction, energy use rises sharply; **ATP** is the only immediate source, hydrolysed anaerobically by myosin ATPase, and the ATP already inside supports maximal contraction for __only 5 to 6 seconds__.
+
+The **phosphagen system** transfers energy from **phosphocreatine** to ADP almost instantly; muscle holds two to three times as much phosphocreatine as ATP, together powering maximal activity for **10 to 15 seconds** (enough for a 100-metre run); phosphocreatine is restored later, during relaxation.
+
+The **glycogen-lactic acid system** adds a further **30 to 40 seconds** by anaerobic glycolysis, producing **lactic acid**, which itself limits it by causing extreme fatigue; the lactic acid is later partly oxidised to pyruvate, partly reconverted by the liver into glucose, and partly used as fuel by the heart.
+
+The **aerobic system** oxidises glucose, fatty acids and amino acids in the mitochondria and can __sustain activity indefinitely__ while nutrients and oxygen last; free fatty acids fuel resting muscle and recovery. During recovery, ventilation and oxygen consumption stay elevated to remove lactate and replenish ATP, creatine phosphate and myoglobin-bound oxygen — this extra post-exercise consumption is the **oxygen debt**, measured by subtracting basal oxygen consumption from the total consumed until a constant basal level returns.
 
 ## explicit_objective
 Name the three ATP-regeneration systems in the order the muscle draws on them, state each one's endurance time and its immediate fuel, and define oxygen debt and how it is measured.
@@ -6869,7 +7009,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08; no live concept states 
 # Item
 
 ## label
-Electromyography records a muscle's electrical activity through surface or needle electrodes on an oscilloscope
+Electromyography
 
 ## id
 CON-MSK-2A62AFCCE09E9F
@@ -6888,7 +7028,9 @@ Surface and needle EMG electrodes
 أقطاب سطحية وأقطاب إبرية لتخطيط العضل
 
 ## definition
-Electromyography is a record of a muscle's electrical activity using a cathode ray oscilloscope. The electrical activity is picked up either by a metal disc electrode placed on the skin overlying the muscle, or by a hypodermic needle electrode inserted into the muscle itself.
+**Electromyography** is a record of a muscle's electrical activity using a **cathode ray oscilloscope**.
+
+The activity is picked up either by a **metal disc electrode** on the skin overlying the muscle, or by a **needle electrode** inserted into the muscle itself.
 
 ## explicit_objective
 Define electromyography and name its two electrode techniques.
@@ -7045,7 +7187,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08; no live concept states 
 # Item
 
 ## label
-Muscular hypertrophy is an increase in muscle-fibre size from forceful activity, with no change in fibre number
+Muscular hypertrophy
 
 ## id
 CON-MSK-7253D390093A21
@@ -7064,7 +7206,9 @@ Fibre thickening without fibre number change
 زيادة عدد الميوفيبريلات
 
 ## definition
-Muscular hypertrophy is an increase in the size of a muscle as a result of forceful muscular activity. The number of muscle fibres in the muscle does not change; instead, the existing fibres increase in thickness, in their total number of myofibrils, and in their content of ATP, creatine phosphate and glycogen.
+**Muscular hypertrophy** is an increase in the size of a muscle from **forceful muscular activity**. The __number of muscle fibres does not change__.
+
+Instead, the existing fibres increase in **thickness**, in their total number of **myofibrils**, and in their content of **ATP, creatine phosphate and glycogen**.
 
 ## explicit_objective
 Define muscular hypertrophy and state which structural feature of a muscle fibre changes and which does not.
@@ -7221,7 +7365,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08; no live concept states 
 # Item
 
 ## label
-Denervated muscle passes through atrophy, then visible fasciculation from the dying nerve, then fibrillation from the muscle's own denervation hypersensitivity to acetylcholine
+Denervation: atrophy, fasciculation, fibrillation
 
 ## id
 CON-MSK-1030B9F3A5996A
@@ -7244,7 +7388,13 @@ Denervation hypersensitivity
 إصابة العصبون الحركي السفلي
 
 ## definition
-If the nerve supply to a muscle is injured, the muscle is paralysed — a lower motor neuron lesion — and passes through three changes. Muscle atrophy is a decrease in muscle size as the fibres are gradually replaced by fibrous tissue. Muscle fasciculation is spontaneous contraction of whole motor units, strong enough to be seen under the skin, occurring in the first few days after nerve damage as the degenerating nerve fibres discharge spontaneous impulses; it can be picked up on EMG by metal disc electrodes on the skin. Muscle fibrillation is spontaneous contraction of separate individual muscle fibres, occurring after the motor nerve fibres have completely degenerated; it is caused by denervation hypersensitivity — the denervated muscle becomes more sensitive to circulating acetylcholine and discharges spontaneously — and, because it cannot be seen under the skin, it can only be picked up on EMG by needle electrodes inserted into the muscle.
+If the nerve supply to a muscle is injured, the muscle is paralysed — a **lower motor neuron lesion** — and passes through **three changes**.
+
+**Muscle atrophy** is a decrease in muscle size as the fibres are gradually replaced by fibrous tissue.
+
+**Muscle fasciculation** is spontaneous contraction of whole motor units, __strong enough to be seen under the skin__, in the first few days as the degenerating nerve fibres discharge; it is picked up on EMG by disc electrodes on the skin.
+
+**Muscle fibrillation** is spontaneous contraction of separate individual fibres after the motor nerve has completely degenerated; it is caused by **denervation hypersensitivity** — the muscle becomes more sensitive to circulating acetylcholine — and, because it __cannot be seen under the skin__, it is picked up only by needle electrodes.
 
 ## explicit_objective
 Sequence the three consequences of denervation, distinguish fasciculation from fibrillation by their cause, visibility and required EMG electrode, and name the mechanism behind fibrillation.
@@ -7403,7 +7553,7 @@ relationships: Walked the 15 concepts under DIS-PHY-T08; no live concept states 
 # Item
 
 ## label
-Rigor mortis is the total, permanent contracture of every muscle after death from loss of the ATP needed to separate actin and myosin, and it is used to help estimate time of death
+Rigor mortis: mechanism and time of death
 
 ## id
 CON-MSK-6087C9C091ED85
@@ -7423,7 +7573,11 @@ Bacterial putrefaction and rigor resolution
 تحلل بروتينات العضلة بالبكتيريا
 
 ## definition
-Several hours after death, all the muscles of the body go into a state of contracture and become rigid even without any action potentials — rigor mortis. It is caused by the loss of ATP, which is needed to separate the actin and myosin filaments during relaxation; without it, the cross-bridges cannot detach and the filaments stay locked together. The muscles remain in rigor until the muscle proteins themselves are destroyed by bacterial putrefaction, 15 to 25 hours later. Rigor mortis has medicolegal importance because it helps in estimating the time of death.
+Several hours after death, all the muscles of the body go into **contracture** and become rigid __even without any action potentials__ — **rigor mortis**.
+
+It is caused by the **loss of ATP**, which is needed to separate the actin and myosin filaments during relaxation; without it the cross-bridges cannot detach and the filaments stay locked together.
+
+The muscles remain in rigor until the proteins are destroyed by **bacterial putrefaction, 15 to 25 hours later**. Rigor mortis has **medicolegal** importance because it __helps in estimating the time of death__.
 
 ## explicit_objective
 State the mechanism of rigor mortis in terms of the ATP-dependent cross-bridge detachment step, give the time window before it resolves by putrefaction, and state its medicolegal use.
@@ -7582,7 +7736,7 @@ relationships: CON-MSK-AC42FE7AB41DF2 (sibling batch) already covers the general
 # Item
 
 ## label
-Smooth muscle's membrane potential is unstable and rides on slow waves; single-unit smooth muscle fires action potentials as a syncytium once a wave reaches about −35 mV
+Smooth muscle: types and slow waves
 
 ## id
 CON-MSK-62FCA91F4981B2
@@ -7604,7 +7758,11 @@ Single-unit versus multi-unit smooth muscle
 جهد الناظم
 
 ## definition
-Smooth muscle divides into two types. Visceral (single-unit) smooth muscle occurs in large sheets joined by gap junctions, so an action potential spreads easily from one fibre to the next and the whole sheet behaves as one unit obeying the all-or-none law; it is only superficially innervated, is spontaneously active, and is controlled by hormones, chemicals and neurotransmitters, and it is found mainly in hollow viscera such as the gut, ureters and many blood vessels. Multi-unit smooth muscle is made of individual fibres without interconnecting bridges, so an action potential cannot spread from one fibre to the next; the muscle behaves as separate motor units, each single fibre obeying the all-or-none law on its own, and it is densely innervated with contraction under neural control, found in the ciliary muscle, the iris, the vas deferens and the erector pili muscles of the skin. In relative rest, smooth muscle's membrane potential is unstable, averaging about −50 to −60 mV, with slow waves — such as the slow waves of the gut — superimposed on it; these waves are not themselves action potentials and cannot cause contraction on their own, but once a wave reaches about −35 mV, an action potential is triggered and spreads over the muscle.
+**Visceral (single-unit)** smooth muscle occurs in large sheets joined by **gap junctions**, so an action potential spreads from fibre to fibre and the whole sheet behaves as __one unit obeying the all-or-none law__; it is only superficially innervated, is spontaneously active, is controlled by hormones, chemicals and neurotransmitters, and is found mainly in hollow viscera such as the gut, ureters and many blood vessels.
+
+**Multi-unit** smooth muscle is individual fibres without interconnecting bridges, so an action potential cannot spread; each fibre behaves as a separate motor unit under **neural control**, found in the ciliary muscle, the iris, the vas deferens and the erector pili muscles.
+
+At relative rest, smooth muscle's membrane potential is **unstable**, averaging about **−50 to −60 mV**, with **slow waves** superimposed; these are not themselves action potentials and cannot cause contraction alone, but __once a wave reaches about −35 mV an action potential is triggered__ and spreads over the muscle.
 
 ## explicit_objective
 Distinguish single-unit from multi-unit smooth muscle by their gap junctions, innervation and all-or-none behaviour, and describe the relationship between the resting membrane potential, slow waves and the threshold at which they trigger an action potential.
@@ -7763,7 +7921,7 @@ relationships: Walked the concepts under DIS-PHY-T01, DIS-PHY-T05 and DIS-HIS-T0
 # Item
 
 ## label
-Smooth muscle action potentials occur as brief spikes or as plateaus, and their slow rise reflects voltage-gated calcium rather than sodium channels
+Smooth muscle spikes and plateaus
 
 ## id
 CON-MSK-A10AC6BAF27F00
@@ -7784,7 +7942,9 @@ Calcium channel basis of smooth muscle action potential
 جهد الفعل ذو الهضبة
 
 ## definition
-Smooth muscle action potentials take two forms. Spike potentials resemble the skeletal-muscle spike, or ride on top of slow waves, or recur rhythmically as pacemaker potentials, and last about 50 msec. Action potentials with a plateau depolarise similarly to the spike but their repolarisation is delayed for several hundred to several thousand milliseconds; the plateau underlies prolonged contraction in some smooth muscle types. The cell membrane of smooth muscle carries many voltage-gated calcium channels but very few voltage-gated sodium channels, so it is the inward flow of Ca2+, not Na+, that is mainly responsible for the action potential; Ca2+ channels also open many times more slowly than Na+ channels do, which is why smooth muscle action potentials are slow compared with nerve or skeletal muscle.
+Smooth muscle action potentials take **two forms**. **Spike potentials** resemble the skeletal-muscle spike, or ride on slow waves, or recur rhythmically as pacemaker potentials, and last about **50 msec**. **Plateau** action potentials depolarise similarly but their repolarisation is delayed for several hundred to several thousand msec, underlying __prolonged contraction__ in some smooth muscle.
+
+The membrane carries many **voltage-gated calcium channels** but very few sodium channels, so __the action potential is carried by inward Ca2+, not Na+__. Ca2+ channels also open many times **more slowly** than Na+ channels, which is why smooth muscle action potentials are slow compared with nerve or skeletal muscle.
 
 ## explicit_objective
 Distinguish the spike and plateau forms of the smooth muscle action potential, and explain from the channel types present why smooth muscle action potentials are slower than nerve or skeletal muscle ones.
@@ -7943,7 +8103,7 @@ relationships: Walked the concepts under DIS-PHY-T01, DIS-PHY-T05 and DIS-HIS-T0
 # Item
 
 ## label
-Smooth muscle contraction is triggered by calcium binding calmodulin to activate myosin light-chain kinase, and cross-bridges that stay attached without cycling — latch bridges — hold tone cheaply
+Smooth muscle coupling: calmodulin and MLCK
 
 ## id
 CON-MSK-CF9EFE4EA3C90B
@@ -7965,7 +8125,13 @@ Latch bridges
 فوسفاتيز السلسلة الخفيفة للميوسين
 
 ## definition
-Depolarisation of the smooth muscle membrane opens voltage-gated Ca2+ channels, and Ca2+ flows into the cell down its electrochemical gradient; that entering Ca2+ may itself trigger further Ca2+ release from the sarcoplasmic reticulum through Ca2+-gated Ca2+ channels. Hormones and neurotransmitters can also open a ligand-gated Ca2+ channel on the membrane, or release Ca2+ from the sarcoplasmic reticulum through IP3-gated channels, so a contraction can begin without any action potential at all. Once intracellular Ca2+ rises, it binds calmodulin, and the calcium-calmodulin complex activates myosin light-chain kinase (MLCK), which phosphorylates the regulatory light chain on the myosin head; this triggers ATP hydrolysis and cross-bridge cycling. The phosphorylated cross-bridges keep cycling until myosin light-chain phosphatase dephosphorylates them, so the amount of active myosin at any moment depends on the relative activity of the kinase and the phosphatase. Relaxation follows a fall in intracellular Ca2+, driven by a pump moving Ca2+ into the extracellular fluid and a pump moving it into the sarcoplasmic reticulum, both slower than skeletal muscle's fast sarcoplasmic reticulum pump, which is why a smooth muscle contraction lasts longer than a skeletal one. Dephosphorylated cross-bridges do not all detach: those that remain attached to actin are latch bridges, which cycle not at all or very slowly and so use very little ATP, letting smooth muscle hold tone for a long time cheaply and making it fatigue-resistant compared with skeletal muscle.
+Depolarisation opens **voltage-gated Ca2+ channels**, and Ca2+ flows into the cell down its gradient; that entering Ca2+ may itself trigger further **Ca2+ release from the sarcoplasmic reticulum**. Hormones and neurotransmitters can also open a ligand-gated Ca2+ channel or release Ca2+ through IP3-gated channels, so __a contraction can begin without any action potential at all__.
+
+Once intracellular Ca2+ rises, it binds **calmodulin**, and the calcium-calmodulin complex activates **myosin light-chain kinase (MLCK)**, which phosphorylates the regulatory light chain on the myosin head; this triggers ATP hydrolysis and **cross-bridge cycling**.
+
+The phosphorylated cross-bridges keep cycling until **myosin light-chain phosphatase** dephosphorylates them, so the active myosin at any moment depends on the __balance of kinase and phosphatase__. Relaxation follows a fall in Ca2+, driven by pumps into the extracellular fluid and into the sarcoplasmic reticulum, both slower than skeletal muscle's fast pump — which is why __a smooth muscle contraction lasts longer__.
+
+Dephosphorylated cross-bridges do not all detach: those that stay attached are **latch bridges**, which cycle very slowly and use very little ATP, letting smooth muscle __hold tone for a long time cheaply__ and resist fatigue.
 
 ## explicit_objective
 Trace excitation-contraction coupling in smooth muscle from Ca2+ entry through calmodulin and myosin light-chain kinase to cross-bridge cycling, and explain what a latch bridge is and why it makes smooth muscle fatigue-resistant.
@@ -8126,7 +8292,7 @@ relationships: Walked the concepts under DIS-PHY-T01, DIS-PHY-T05 and DIS-HIS-T0
 # Item
 
 ## label
-Smooth muscle is plastic: stretched quickly it first develops more tension, but held stretched its tension falls again as the cross-bridges readjust position
+Smooth muscle plasticity
 
 ## id
 CON-MSK-18743CBD569602
@@ -8146,7 +8312,9 @@ Bladder filling and intravesical pressure
 استرخاء الإجهاد في المثانة
 
 ## definition
-Smooth muscle is plastic: if it is stretched, it first exerts increased tension, but if it is held stretched, the tension gradually decreases again. This results from the myosin cross-bridges readjusting their position on the thin filaments. Because of this property, urine can accumulate in the urinary bladder without much rise in intravesical pressure — the same organ both contracts when stretched quickly and accommodates when stretched slowly and held.
+Smooth muscle is **plastic**: if it is stretched, it first exerts increased tension, but if it is __held stretched, the tension gradually decreases again__. This results from the myosin cross-bridges readjusting their position on the thin filaments.
+
+Because of this property, urine can accumulate in the bladder __without much rise in intravesical pressure__ — the same organ both contracts when stretched quickly and accommodates when stretched slowly and held.
 
 ## explicit_objective
 Define plasticity in smooth muscle, explain its cross-bridge basis, and state the clinical example the book gives.
