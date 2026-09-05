@@ -4757,8 +4757,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-092F6F14307DB9
 
 ## label
-Bone forms by one of two methods, intramembranous or intracartilaginous ossification, and its remodelling is hormonally balanced
-
+The two methods of bone formation
 ## canonical_key
 bone.ossification.two-methods-overview
 
@@ -4775,8 +4774,11 @@ Intracartilaginous ossification overview
 تكوين العظم
 
 ## definition
-Bones of the body are formed by one of two methods: intramembranous ossification, which occurs in flat bones from a mesenchymal connective tissue membrane, or intracartilaginous (endochondral) ossification, which replaces a cartilage model with bone and occurs in long, short and irregular bones. A balance between osteoblast and osteoclast activity is necessary for a stable blood calcium level: osteoclast activity is stimulated by parathyroid hormone and inhibited by calcitonin from the C-cells of the thyroid, and calcitonin is used in treating osteoporosis.
+Bones of the body are formed by one of two methods. **Intramembranous ossification** occurs in flat bones, from a mesenchymal connective tissue membrane.
 
+**Intracartilaginous (endochondral) ossification** replaces a cartilage model with bone and occurs in long, short and irregular bones.
+
+A __balance between osteoblast and osteoclast activity__ is necessary for a stable blood calcium level: osteoclast activity is stimulated by **parathyroid hormone** and inhibited by **calcitonin** from the C-cells of the thyroid, and calcitonin is used in treating osteoporosis.
 ## explicit_objective
 Name the two methods of ossification and which bones use each, and state how parathyroid hormone and calcitonin oppose each other in regulating osteoclast activity.
 
@@ -4936,8 +4938,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-C2EFE3D04B945A
 
 ## label
-Intramembranous ossification condenses mesenchyme into ossification centres, lays down trabecular bone, and forms periosteum at its margins
-
+Intramembranous ossification
 ## canonical_key
 bone.ossification.intramembranous.steps
 
@@ -4953,8 +4954,13 @@ Membrane bone
 التعظم داخل الغشاء
 
 ## definition
-Intramembranous ossification occurs in flat bones, starting from a mesenchymal connective tissue membrane formed of undifferentiated mesenchymal cells, fibres and blood vessels. These cells condense at areas rich in blood vessels, called ossification centres, and differentiate through osteogenic cells into osteoblasts. The osteoblasts lay down osteoid, which calcifies; some osteoblasts become imprisoned in lacunae as osteocytes. Osteoblasts on the trabecular bone surfaces continue producing bony matrix, so trabeculae thicken, branch and anastomose to form spongy bone, and the spaces between trabeculae become occupied by bone marrow cells arriving with blood vessels. At either side of the central spongy bone, remodelling replaces spongy bone with compact bone, and at either side of the compact bone a specialised connective tissue invests the developing bone to become the periosteum.
+**Intramembranous ossification** occurs in flat bones, starting from a mesenchymal connective tissue membrane of undifferentiated mesenchymal cells, fibres and blood vessels.
 
+These cells condense at areas rich in blood vessels, called **ossification centres**, and differentiate through osteogenic cells into **osteoblasts**. The osteoblasts lay down **osteoid**, which calcifies; some osteoblasts become imprisoned in lacunae as **osteocytes**.
+
+Osteoblasts on the trabecular bone surfaces continue producing matrix, so trabeculae thicken, branch and anastomose to form **spongy bone**, and the spaces between them become occupied by bone marrow cells arriving with blood vessels.
+
+At either side of the central spongy bone, __remodelling replaces spongy bone with compact bone__, and beyond the compact bone a specialised connective tissue invests the developing bone to become the **periosteum**.
 ## explicit_objective
 Describe, in order, the steps of intramembranous ossification from mesenchymal membrane to periosteum-covered bone.
 
@@ -5114,8 +5120,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-745C364E5BDA5D
 
 ## label
-The primary ossification centre forms a periosteal bone collar around the diaphysis, then invades the dying cartilage to lay down spongy and compact bone
-
+The primary ossification centre
 ## canonical_key
 bone.ossification.intracartilaginous.primary-center
 
@@ -5132,8 +5137,15 @@ Endochondral ossification
 التعظم الغضروفي
 
 ## definition
-Intracartilaginous (endochondral) ossification replaces a cartilage model with compact or spongy bone, in long, short and irregular bones; a long bone is formed of a shaft, the diaphysis, and two ends, the epiphyses. The primary ossification centre occurs in the middle of the diaphysis of the cartilage model. Increased vascularity of the perichondrium turns chondrogenic cells into osteogenic cells that differentiate into osteoblasts, so the perichondrium becomes periosteum, and osteoblasts form a periosteal bone collar of bone around the cartilage model under the new periosteum. The bone collar blocks diffusion of oxygen and nutrients to the underlying cartilage, so the chondrocytes at the centre of the model enlarge and deposit calcium; calcification of the cartilage matrix kills these chondrocytes, leaving irregular cavities. Osteoclasts open holes in the bone collar, letting a vascular core of undifferentiated mesenchymal cells and blood vessels invade the cavities; the mesenchymal cells around the vessels become osteogenic cells, then osteoblasts, which deposit bone matrix as irregular trabeculae of spongy bone, with the spaces between them occupied by bone marrow. Osteoclasts then merge the irregular marrow cavities into one regular cavity, and the bony lamellae become regularly, concentrically arranged into Haversian systems, forming compact bone.
+**Intracartilaginous (endochondral) ossification** replaces a cartilage model with compact or spongy bone, in long, short and irregular bones; a long bone has a shaft (**diaphysis**) and two ends (**epiphyses**).
 
+The **primary ossification centre** appears in the middle of the diaphysis. Increased vascularity of the perichondrium turns chondrogenic cells into osteogenic cells that differentiate into osteoblasts, so the __perichondrium becomes periosteum__, and osteoblasts form a **periosteal bone collar** of bone around the cartilage model.
+
+The bone collar blocks diffusion of oxygen and nutrients to the underlying cartilage, so the central chondrocytes enlarge and deposit calcium; __calcification of the cartilage matrix kills these chondrocytes__, leaving irregular cavities.
+
+**Osteoclasts** open holes in the bone collar, letting a vascular core of undifferentiated mesenchymal cells and blood vessels invade the cavities; the mesenchymal cells become osteogenic cells, then osteoblasts, which deposit bone matrix as irregular trabeculae of spongy bone, the spaces between them occupied by bone marrow.
+
+Osteoclasts then merge the irregular marrow cavities into one regular cavity, and the bony lamellae become regularly, concentrically arranged into **Haversian systems**, forming compact bone.
 ## explicit_objective
 Describe, in order, the steps of the primary ossification centre from bone collar formation to compact-bone Haversian system, and explain why the bone collar causes chondrocyte death at the model's centre.
 
@@ -5293,8 +5305,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-EBA37D8401180C
 
 ## label
-The secondary ossification centre in the epiphysis leaves an epiphyseal plate of six zones and articular cartilage as the only cartilage not replaced by bone
-
+The secondary ossification centre and epiphyseal plate
 ## canonical_key
 bone.ossification.secondary-center-and-epiphyseal-zones
 
@@ -5313,8 +5324,13 @@ Zone of resting cartilage
 الصفيحة المشاشية
 
 ## definition
-The secondary ossification centre occurs in the epiphysis and follows steps like the primary centre until the cartilage is replaced by spongy bone. Once ossification is complete, the entire cartilage model is replaced by bone except for two structures: a plate of cartilage between the epiphysis and diaphysis, the epiphyseal plate, and the articular cartilage at the bony ends. The epiphyseal plate itself passes through zones: a zone of resting hyaline cartilage; a proliferative zone where cartilage cells increase in number and line up in parallel rows; a zone of hypertrophy where cells enlarge as glycogen and alkaline phosphatase accumulate; a zone of calcification where chondrocytes deposit calcium in the surrounding matrix and die, leaving empty spaces; a zone of invasion where an avascular bud of blood capillaries and mesenchymal cells enters through holes the osteoclasts have made in the periosteal collar; and a zone of ossification where the mesenchymal cells and pericytes become osteogenic cells, then osteoblasts, depositing matrix as irregular spongy trabeculae. A remodelling stage follows, in which osteoclasts resorb bone from some areas while osteoblasts deposit new bone in others, producing a single marrow cavity, and a final stage of compact bone formation develops the Haversian system with one central marrow cavity.
+The **secondary ossification centre** appears in the **epiphysis** and follows steps like the primary centre until the cartilage is replaced by spongy bone.
 
+Once ossification is complete, the entire cartilage model is replaced by bone except for two structures: the **epiphyseal plate** of cartilage between epiphysis and diaphysis, and the **articular cartilage** at the bony ends.
+
+The **epiphyseal plate** passes through zones: a zone of __resting__ hyaline cartilage; a __proliferative__ zone where cells increase in number and line up in parallel rows; a zone of __hypertrophy__ where cells enlarge as glycogen and alkaline phosphatase accumulate; a zone of __calcification__ where chondrocytes deposit calcium and die, leaving empty spaces; a zone of __invasion__ where an avascular bud of capillaries and mesenchymal cells enters through holes the osteoclasts have made; and a zone of __ossification__ where mesenchymal cells and pericytes become osteogenic cells, then osteoblasts, depositing matrix as irregular spongy trabeculae.
+
+A **remodelling stage** follows, in which osteoclasts resorb bone from some areas while osteoblasts deposit new bone in others, producing a single marrow cavity, and a final **compact bone** stage develops the Haversian system with one central marrow cavity.
 ## explicit_objective
 List the six zones of the epiphyseal cartilage in order from resting cartilage to ossification, and name the two structures that remain cartilage even after ossification is otherwise complete.
 
@@ -5474,8 +5490,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-507DCD2CD12E15
 
 ## label
-Skeletal muscle fibres are held together by three nested connective-tissue coats: epimysium, perimysium and endomysium
-
+The connective-tissue coats of skeletal muscle
 ## canonical_key
 skeletal-muscle.organisation.epimysium-perimysium-endomysium
 
@@ -5495,8 +5510,13 @@ Muscle connective tissue coverings
 غلاف الليفة العضلية
 
 ## definition
-Skeletal muscles are attached to the skeleton, except for the muscles of the face and tongue, the pharynx and upper third of the oesophagus, the diaphragm, and the cremasteric muscles. Skeletal muscle consists of muscle fibres held together and supported by connective tissue organised into three layers. The epimysium is dense connective tissue surrounding the whole muscle, penetrated by its major vessels and nerves. The perimysium is less dense connective tissue descending from the epimysium that surrounds a group of fibres to form a bundle or fascicle, carrying large vessels and nerves. The endomysium is a layer of reticular fibres surrounding each individual muscle fibre, carrying small vessels and fine nerves. This connective tissue transmits force and connects fibres together, and its vessels nourish the muscle cells by diffusion.
+Skeletal muscles are attached to the skeleton, except for the muscles of the face and tongue, the pharynx and upper third of the oesophagus, the diaphragm, and the cremasteric muscles.
 
+Skeletal muscle consists of muscle fibres held together and supported by connective tissue organised into **three nested layers**.
+
+The **epimysium** is dense connective tissue surrounding the whole muscle, penetrated by its major vessels and nerves. The **perimysium** is less dense connective tissue descending from the epimysium that surrounds a group of fibres to form a **bundle (fascicle)**, carrying large vessels and nerves. The **endomysium** is a layer of reticular fibres surrounding each individual fibre, carrying small vessels and fine nerves.
+
+This connective tissue __transmits force and connects the fibres together__, and its vessels nourish the muscle cells by diffusion.
 ## explicit_objective
 Name the four exceptions to skeletal muscle being bone-attached, and describe the three connective-tissue layers of a skeletal muscle from whole muscle down to single fibre.
 
@@ -5657,8 +5677,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-2493DDAE4798CE
 
 ## label
-A skeletal muscle fibre is a long, multinucleated, striated cell whose sarcoplasm holds myofibrils, sarcoplasmic reticulum and myoglobin
-
+The skeletal muscle fibre
 ## canonical_key
 skeletal-muscle.fibre.lm-picture-and-sarcoplasm-contents
 
@@ -5678,8 +5697,13 @@ Myoglobin
 الساركوبلازم
 
 ## definition
-Each skeletal muscle fibre is a long cell, 10 to 100 micrometres in diameter and markedly variable in length, cylindrical and non-branched except in the face and tongue. Its sarcolemma (cell membrane) is thick from fusion with the surrounding basal lamina and endomysium. Each fibre has multiple, oval, peripheral nuclei, one for every mononucleated myoblast that fused to form it. Its sarcoplasm is acidophilic with uniformly placed transverse striations, clearest in longitudinal section, and contains myofibrils running the fibre's full length; a well-developed sarcoplasmic reticulum, a tubular network around the myofibrils specialised for calcium storage and pump; numerous mitochondria mainly arranged in rows between myofibrils; myoglobin, an oxygen-binding pigment; and glycogen and lipid granules between the myofibrils for energy. Muscle tissue is mesodermal, arising as undifferentiated mesenchymal cells differentiate into myoblasts, embryonic progenitors that differentiate into myocytes, which can form any of the three muscle types.
+Each **skeletal muscle fibre** is a long cell, 10 to 100 micrometres in diameter and markedly variable in length, cylindrical and non-branched except in the face and tongue. Its **sarcolemma** is thick from fusion with the surrounding basal lamina and endomysium.
 
+Each fibre has __multiple, oval, peripheral nuclei__, one for every mononucleated myoblast that fused to form it. Its sarcoplasm is acidophilic with uniformly placed transverse striations, clearest in longitudinal section.
+
+The sarcoplasm contains **myofibrils** running the fibre's full length; a well-developed **sarcoplasmic reticulum**, a tubular network around the myofibrils specialised for calcium storage and pumping; numerous mitochondria arranged in rows between myofibrils; **myoglobin**, an oxygen-binding pigment; and glycogen and lipid granules between the myofibrils for energy.
+
+Muscle tissue is __mesodermal__: undifferentiated mesenchymal cells differentiate into **myoblasts**, embryonic progenitors that differentiate into myocytes, which can form any of the three muscle types.
 ## explicit_objective
 State the size, shape, sarcolemma, nuclear pattern and sarcoplasmic contents of a skeletal muscle fibre by light microscopy, and trace muscle tissue's mesodermal origin from mesenchymal cell to myocyte.
 
@@ -5839,8 +5863,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-0824FE988ADA00
 
 ## label
-The sarcomere, the segment between two Z lines, is the functional contractile unit of striated muscle
-
+The sarcomere: the contractile unit
 ## canonical_key
 skeletal-muscle.sarcomere.definition-z-line-to-z-line
 
@@ -5859,8 +5882,13 @@ Contractile unit
 الخط Z
 
 ## definition
-The sarcomere is the portion of a myofibril between two adjacent Z lines. It includes one dark (A) band and the two halves of the light (I) bands on either side of it, and it is the basic contractile unit of striated muscle, considered the functional unit of contraction. Within the sarcomere, thick myosin filaments are restricted to the A band; thin actin filaments attach to the Z line, pass through the I band, and extend into the A band as far as the start of the H zone. The A band appears dark because it holds both myosin and actin; the H zone, its central paler region, holds only myosin; the M line, which bisects the H zone, is produced by interconnections of adjacent myosin filaments; the I band appears light because it holds only actin; and the Z line is dense with condensed actin filaments and accessory proteins that keep the thick and thin filaments precisely aligned. On contraction, the I bands shorten and the H zone is abolished while the A band's length stays constant, because the filaments overlap further rather than shortening themselves.
+The **sarcomere** is the portion of a myofibril between two adjacent **Z lines**. It includes one dark (**A**) band and the two halves of the light (**I**) bands on either side, and it is the __basic functional unit of contraction__ in striated muscle.
 
+Within it, thick **myosin** filaments are restricted to the A band; thin **actin** filaments attach to the Z line, pass through the I band, and extend into the A band as far as the start of the H zone.
+
+The **A band** appears dark because it holds both myosin and actin; its central paler **H zone** holds only myosin; the **M line** that bisects the H zone is produced by interconnections of adjacent myosin filaments; the **I band** appears light because it holds only actin; and the **Z line** is dense with condensed actin filaments and accessory proteins that keep the thick and thin filaments precisely aligned.
+
+On contraction, __the I bands shorten and the H zone is abolished while the A band's length stays constant__, because the filaments overlap further rather than shortening themselves.
 ## explicit_objective
 Define the sarcomere by its Z-line boundaries, name its component bands and lines, state which filament occupies each, and explain why the A band does not change length on contraction while the I band does.
 
@@ -6023,8 +6051,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-3FC22F6080FD06
 
 ## label
-Skeletal muscle fibres are classified as red, white or intermediate, and biopsy typing has diagnostic value in muscle disease
-
+Red, white and intermediate muscle fibres
 ## canonical_key
 skeletal-muscle.fibre-types.red-white-intermediate
 
@@ -6043,8 +6070,9 @@ Muscle fibre types
 الألياف المتوسطة
 
 ## definition
-Skeletal muscle fibres are classified into three types: red fibres, white fibres, and intermediate fibres. Classification of fibre types in a muscle biopsy has clinical value for diagnosing muscle diseases, including those due to mitochondrial disorders.
+Skeletal muscle fibres are classified into three types: **red fibres**, **white fibres**, and **intermediate fibres**.
 
+__Classifying fibre types in a muscle biopsy has clinical value__ for diagnosing muscle diseases, including those due to mitochondrial disorders.
 ## explicit_objective
 Name the three skeletal muscle fibre types, and state why fibre typing on a muscle biopsy is clinically useful.
 
@@ -6203,8 +6231,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-9D01E2358A65E2
 
 ## label
-Skeletal muscle hypertrophy enlarges existing fibres, muscular dystrophy is satellite-cell failure from dystrophin loss, and cramps follow reduced blood flow or low potassium
-
+Muscle hypertrophy, dystrophy and cramps
 ## canonical_key
 skeletal-muscle.clinical.hypertrophy-dystrophy-cramps
 
@@ -6222,8 +6249,11 @@ Dystrophin
 تشنج العضلات
 
 ## definition
-Skeletal muscle hypertrophy takes place by enlargement of existing muscle fibres, as in exercise. Muscular dystrophy is a progressive degeneration of skeletal muscle fibres in which a lack of dystrophin in satellite cells means they fail to replace the degenerated fibres, resulting in decreased muscle function. Muscle cramps are sudden, painful contractions caused by lowered blood flow to the muscle, lowered blood potassium, or vigorous exercise without proper warm-up (stretching); they usually involve the muscles of the lower leg.
+**Skeletal muscle hypertrophy** takes place by __enlargement of existing muscle fibres__, as in exercise.
 
+**Muscular dystrophy** is a progressive degeneration of skeletal muscle fibres in which a __lack of dystrophin in satellite cells__ means they fail to replace the degenerated fibres, resulting in decreased muscle function.
+
+**Muscle cramps** are sudden, painful contractions caused by lowered blood flow to the muscle, lowered blood potassium, or vigorous exercise without proper warm-up (stretching); they usually involve the muscles of the lower leg.
 ## explicit_objective
 Distinguish muscle hypertrophy from muscular dystrophy by their cellular basis, and list the three causes of muscle cramps the book gives.
 
@@ -6384,8 +6414,7 @@ reviewDue: Set when the first review completes.
 CON-DER-17748598BF7ECE
 
 ## label
-Skin is the largest organ, formed of epidermis and dermis, and the hypodermis beneath it is not part of the skin
-
+Skin: the body's largest organ
 ## canonical_key
 skin.general.definition-layers-hypodermis-exclusion
 
@@ -6403,8 +6432,11 @@ Layers of the skin
 الطبقة تحت الجلدية
 
 ## definition
-Skin is a protective covering of the whole body, and the largest and heaviest organ, accounting for 15 to 20% of body weight. It is formed of two layers, the outer epidermis and the inner dermis. The hypodermis is not part of the skin: it is a deep layer of adipose connective tissue beneath the skin, corresponding to the superficial fascia, that binds the skin loosely to underlying tissues and allows the skin to move freely. Skin is classified as thick or thin according to the thickness of its epidermis.
+**Skin** is a protective covering of the whole body, and the __largest and heaviest organ__, accounting for 15 to 20% of body weight. It is formed of two layers, the outer **epidermis** and the inner **dermis**.
 
+The **hypodermis is not part of the skin**: it is a deep layer of adipose connective tissue beneath the skin, corresponding to the superficial fascia, that binds the skin loosely to underlying tissues and allows the skin to move freely.
+
+Skin is classified as **thick** or **thin** according to the thickness of its epidermis.
 ## explicit_objective
 State the two layers of skin, explain why the hypodermis is excluded from the skin proper, and name the basis on which skin is classified as thick or thin.
 
@@ -6564,8 +6596,7 @@ reviewDue: Set when the first review completes.
 CON-DER-B60DAF01451E85
 
 ## label
-The epidermis is an avascular, ectoderm-derived keratinised stratified squamous epithelium formed of keratinocytes and non-keratinocytes
-
+The epidermis
 ## canonical_key
 epidermis.general.definition-derivation-cell-types
 
@@ -6581,8 +6612,11 @@ Non-keratinocytes
 طبقة البشرة
 
 ## definition
-The epidermis is the outer epithelial layer of the skin, a keratinised stratified squamous epithelium derived from ectoderm. It is thicker over the soles than the palms, is avascular, receiving its nutrition by diffusion, and is rich in free nerve endings. The epidermis is formed of keratinocytes, which represent 85% of its cells, and non-keratinocytes. Deeper keratinocytes continuously divide, differentiate and accumulate keratin filaments while progressing upwards, and superficial keratinocytes are continuously shed.
+The **epidermis** is the outer epithelial layer of the skin, a **keratinised stratified squamous epithelium** derived from ectoderm.
 
+It is thicker over the soles than the palms, is __avascular__ (receiving its nutrition by diffusion), and is rich in free nerve endings.
+
+The epidermis is formed of **keratinocytes**, which represent 85% of its cells, and **non-keratinocytes**. Deeper keratinocytes continuously divide, differentiate and accumulate keratin filaments while progressing upwards, and superficial keratinocytes are continuously shed.
 ## explicit_objective
 State the epidermis's tissue type, germ layer origin, vascularity and two cell categories, and describe the general direction of keratinocyte maturation.
 
@@ -6742,8 +6776,7 @@ reviewDue: Set when the first review completes.
 CON-DER-743AA0CD69B8A4
 
 ## label
-The stratum basale is the single deepest, mitotically active keratinocyte layer that renews the epidermis every 2 to 4 weeks
-
+The stratum basale
 ## canonical_key
 epidermis.stratum-basale.lm-em
 
@@ -6759,8 +6792,11 @@ Malpighian layer
 الطبقة الجرثومية
 
 ## definition
-The stratum basale (basal cell layer) is the deepest single layer of low columnar cells, resting on a clear wavy basement membrane. By light microscopy its cells have basophilic cytoplasm with a large basal oval nucleus and show intense mitotic figures, responsible for renewal; the epidermis is regenerated every 2 to 4 weeks. Melanocytes and Merkel's cells are found in this layer. By electron microscopy its cells are attached to each other and to the prickle cell layer above by desmosomes, and to the basement membrane by hemidesmosomes; they are rich in free ribosomes and polysomes, and show keratin intermediate filaments about 10 nanometres in diameter, arranged singly or in bundles, ending in desmosomes.
+The **stratum basale (basal cell layer)** is the deepest single layer of low columnar cells, resting on a clear wavy basement membrane.
 
+By **light microscopy** its cells have basophilic cytoplasm with a large basal oval nucleus and show intense mitotic figures, __responsible for renewal — the epidermis is regenerated every 2 to 4 weeks__. **Melanocytes** and **Merkel's cells** are found in this layer.
+
+By **electron microscopy** its cells are attached to each other and to the prickle cell layer above by **desmosomes**, and to the basement membrane by **hemidesmosomes**; they are rich in free ribosomes and polysomes, and show keratin intermediate filaments about 10 nanometres in diameter, arranged singly or in bundles, ending in desmosomes.
 ## explicit_objective
 Describe the light- and electron-microscopic features of the stratum basale, state which two non-keratinocyte cell types are found in it, and give the epidermal renewal time.
 
@@ -6920,8 +6956,7 @@ reviewDue: Set when the first review completes.
 CON-DER-1138A6D64D53B3
 
 ## label
-The stratum spinosum is a multilayered prickle cell layer joined by desmosomes, and together with the stratum basale it forms the mitotic Malpighian layer
-
+The stratum spinosum and the Malpighian layer
 ## canonical_key
 epidermis.stratum-spinosum.lm-em-and-malpighian-layer
 
@@ -6938,8 +6973,13 @@ Langerhans cells site
 طبقة الخلايا الشائكة
 
 ## definition
-The stratum spinosum (prickle cell layer) is 4 to 8 layers of polyhedral cells above the basal cell layer, with less basophilic cytoplasm than the stratum basale and central rounded nuclei. Cell borders appear separated by small spaces crossed by fine spine-like processes, giving the prickly appearance; the processes mark where cells are joined by desmosomes, and the spaces are shrinkage artefacts. Langerhans cells are present in this layer. The soles of the feet have a thicker stratum spinosum, with more desmosomes. Mitotic figures are confined to the Malpighian layer, which consists of both the stratum basale and the stratum spinosum together. By electron microscopy the cytoplasm is filled with bundles of intermediate filaments (tonofilaments) ending in the dense plaques of numerous desmosomes along highly interdigitating cell boundaries.
+The **stratum spinosum (prickle cell layer)** is 4 to 8 layers of polyhedral cells above the basal cell layer, with less basophilic cytoplasm than the stratum basale and central rounded nuclei.
 
+Cell borders appear separated by small spaces crossed by fine spine-like processes, giving the prickly appearance; the processes mark where cells are __joined by desmosomes__, and the spaces are shrinkage artefacts. **Langerhans cells** are present in this layer, and the soles of the feet have a thicker stratum spinosum with more desmosomes.
+
+**Mitotic figures are confined to the Malpighian layer**, which consists of both the stratum basale and the stratum spinosum together.
+
+By **electron microscopy** the cytoplasm is filled with bundles of intermediate filaments (**tonofilaments**) ending in the dense plaques of numerous desmosomes along highly interdigitating cell boundaries.
 ## explicit_objective
 Describe the stratum spinosum's light- and electron-microscopic features, name the non-keratinocyte cell it contains, and define the Malpighian layer.
 
