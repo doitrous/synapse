@@ -8211,3 +8211,1414 @@ yes
 Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-087
+## title
+Free cholesterol contains:
+## question
+Free cholesterol contains:
+## vignette
+This item asks the student to state that free cholesterol contains 27 carbon atoms.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+24 carbon atoms
+## explanation_a
+24 carbon atoms is the threshold for a 'very long chain' fatty acid, not cholesterol's own carbon count.
+## answer_b
+25 carbon atoms
+## explanation_b
+25 carbon atoms is not the figure for cholesterol, which contains 27.
+## answer_c
+26 carbon atoms
+## explanation_c
+26 carbon atoms is not the figure for cholesterol, which contains 27.
+## answer_d
+27 carbon atoms
+## explanation_d
+Correct. Free cholesterol contains 27 carbon atoms.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E77FD4A4D78884
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that free cholesterol contains 27 carbon atoms.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p22 q38. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-088
+## title
+Phosphatidic acid is present in:
+## question
+Phosphatidic acid is present in:
+## vignette
+This item asks the student to identify lecithin and cephalin as phosphatidic acid derivatives, distinct from the ceramide-based glycolipids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Lecithin and cephalin
+## explanation_a
+Correct. Both lecithin (phosphatidic acid plus choline) and cephalin (phosphatidic acid plus ethanolamine) are built directly on phosphatidic acid, so it is present in both.
+## answer_b
+Lecithin and cerebrosides
+## explanation_b
+Cerebrosides are glycolipids, built from ceramide and a carbohydrate, not from phosphatidic acid at all.
+## answer_c
+Gangliosides and cephalin
+## explanation_c
+Gangliosides are glycolipids, built from ceramide and a carbohydrate radical, not from phosphatidic acid.
+## answer_d
+Lecithin and gangliosides
+## explanation_d
+Gangliosides are glycolipids built from ceramide, not phosphatidic acid, so this pairing is wrong on the gangliosides half even though lecithin is correctly a phosphatidic acid derivative.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D5D15A190D88AE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify lecithin and cephalin as phosphatidic acid derivatives, distinct from the ceramide-based glycolipids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q21. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-089
+## title
+Which of the following is considered glycolipid?
+## question
+Which of the following is considered glycolipid?
+## vignette
+This item asks the student to name cerebrosides as one of the glycolipid examples.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Sphingomyelin
+## explanation_a
+Sphingomyelin is classed as a phospholipid (ceramide plus phosphocholine), not a glycolipid.
+## answer_b
+Lecithin
+## explanation_b
+Lecithin is a glycerophospholipid (phosphatidic acid plus choline), not a glycolipid.
+## answer_c
+Plasmalogens
+## explanation_c
+Plasmalogens are glycerophospholipids with a fatty-alcohol substitution, not glycolipids.
+## answer_d
+Cerebrosides
+## explanation_d
+Correct. Cerebrosides are listed directly among the glycolipid examples, alongside sulfolipids and gangliosides.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-5C3202473D16EA
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name cerebrosides as one of the glycolipid examples.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p21 q34. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-090
+## title
+Hydrolysis of phosphatidic acid yields:
+## question
+Hydrolysis of phosphatidic acid yields:
+## vignette
+This item asks the student to derive phosphatidic acid's hydrolysis products (1,2-diacylglycerol and phosphoric acid) from its stated substituent positions on glycerol.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+1, 2-diacylglycerol and phosphoric acid
+## explanation_a
+Correct. Phosphoric acid sits at position 3 of phosphatidic acid's glycerol backbone, with the two fatty acids at positions 1 and 2; hydrolysing off that phosphate leaves 1,2-diacylglycerol and phosphoric acid.
+## answer_b
+1, 3-diacylglycerol and phosphoric acid
+## explanation_b
+A 1,3-diacylglycerol would require the phosphate to sit at position 2, contradicting the standard numbering, which places phosphoric acid at position 3 and the two fatty acids at positions 1 and 2.
+## answer_c
+1, 4-diacylglycerol and phosphoric acid
+## explanation_c
+Glycerol has only three carbons, so a '4' position does not exist on it — this option is not consistent with the glycerol-based structure of phosphatidic acid.
+## answer_d
+1, 5-diacylglycerol and phosphoric acid
+## explanation_d
+Glycerol has only three carbons, so a '5' position does not exist on it — this option is not consistent with the glycerol-based structure of phosphatidic acid.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D5D15A190D88AE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Derive phosphatidic acid's hydrolysis products (1,2-diacylglycerol and phosphoric acid) from its stated substituent positions on glycerol.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-091
+## title
+Which of the following is a simple lipid?
+## question
+Which of the following is a simple lipid?
+## vignette
+This item asks the student to identify triacylglycerol as the simple lipid example.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Lecithin
+## explanation_a
+Lecithin is a compound lipid — a phospholipid, since it contains fatty acid, alcohol and a phosphate group.
+## answer_b
+Fatty acid
+## explanation_b
+Fatty acid on its own is a derived lipid, a hydrolysis product, not a simple lipid (an ester).
+## answer_c
+Triacylglycerol
+## explanation_c
+Correct. Triacylglycerol (neutral fat) is the example of a simple lipid — an ester of fatty acids with the alcohol glycerol, nothing more added.
+## answer_d
+Steroids BS =
+## explanation_d
+Steroids are derived lipids, not esters of fatty acid with alcohol at all.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-30D2E317144DDF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify triacylglycerol as the simple lipid example.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q14. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-092
+## title
+Lung surfactant is formed mainly of:
+## question
+Lung surfactant is formed mainly of:
+## vignette
+This item asks the student to name dipalmitoyl-lecithin as the main constituent of lung surfactant.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Dipalmitoyl-lecithin
+## explanation_a
+Correct. Lung surfactant is formed mainly of dipalmitoyl-lecithin, secreted naturally by pneumocytes.
+## answer_b
+Phosphatidylethanolamine
+## explanation_b
+Phosphatidylethanolamine (cephalin) is not the surfactant lipid; its own role is increasing thrombin formation for blood clotting.
+## answer_c
+Ceramide
+## explanation_c
+Ceramide is a sphingolipid building block, not the lipid credited with forming lung surfactant.
+## answer_d
+Phosphatidylinositol
+## explanation_d
+Phosphatidylinositol's role is as a second messenger, not as the main constituent of lung surfactant.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-CEDE8978E2DE3A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name dipalmitoyl-lecithin as the main constituent of lung surfactant.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p20 q24. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-093
+## title
+Cholesteryl esters are examples of:
+## question
+Cholesteryl esters are examples of:
+## vignette
+This item asks the student to identify cholesteryl esters as one of the wax examples.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Waxes
+## explanation_a
+Correct. Cholesteryl esters are listed directly among the wax examples, alongside ceramide and the vitamin A/D esters.
+## answer_b
+Neutral fats
+## explanation_b
+Neutral fats are the triacylglycerol subtype of simple lipid — three fatty acids on glycerol — not cholesteryl esters.
+## answer_c
+Compound lipids
+## explanation_c
+Compound lipids add a phosphate or carbohydrate group beyond fatty acid and alcohol; cholesteryl esters, a wax, are a simple lipid.
+## answer_d
+Derived lipids
+## explanation_d
+Derived lipids are hydrolysis products such as free fatty acids and steroids; the ester form, cholesteryl esters, is specifically filed under waxes rather than derived lipids.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E618B54C3E216C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify cholesteryl esters as one of the wax examples.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q18. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-094
+## title
+How many carbon atoms do eicosanoids have?
+## question
+How many carbon atoms do eicosanoids have?
+## vignette
+This item asks the student to state that eicosanoids are C20 compounds, matching their arachidonic acid precursor.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+18
+## explanation_a
+18 carbons describes fatty acids like stearic, oleic or linoleic acid, not the C20 backbone of eicosanoids.
+## answer_b
+20
+## explanation_b
+Correct. Eicosanoids are physiologically active compounds formed from C20 polyunsaturated fatty acids such as arachidonic acid.
+## answer_c
+22
+## explanation_c
+22 carbons is not the carbon count of eicosanoids; they are C20 specifically, matching arachidonic acid.
+## answer_d
+24
+## explanation_d
+24 carbons describes a very-long-chain fatty acid by chain-length classification, not the C20 eicosanoids.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-588CA87354B099
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that eicosanoids are C20 compounds, matching their arachidonic acid precursor.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-095
+## title
+What is the other name of triglycerides?
+## question
+What is the other name of triglycerides?
+## vignette
+This item asks the student to name 'neutral fats' as the other term for triacylglycerol/triglycerides.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Sphingolipid
+## explanation_a
+Sphingolipid is a different lipid family entirely, built on sphingosine rather than glycerol; it is not another name for triglyceride.
+## answer_b
+Lecithin
+## explanation_b
+Lecithin is a specific phospholipid (phosphatidylcholine), a compound lipid, not another name for triglyceride.
+## answer_c
+Neutral fats
+## explanation_c
+Correct. 'Neutral fats' is the other name for triacylglycerol (TAG), the simple-lipid subtype built from three fatty acids on glycerol.
+## answer_d
+Waxes
+## explanation_d
+Waxes are the simple lipid's other subtype — one fatty acid on a monohydroxy alcohol higher than glycerol — not another name for the three-fatty-acid triglyceride.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E618B54C3E216C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name 'neutral fats' as the other term for triacylglycerol/triglycerides.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-096
+## title
+If a fatty acid is esterified with long chain monohydroxy alcohol higher than glycerol …
+## question
+If a fatty acid is esterified with long chain monohydroxy alcohol higher than glycerol the result is:
+## vignette
+This item asks the student to define waxes as esters of one fatty acid with a long-chain monohydroxy alcohol higher than glycerol.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Neutral fats
+## explanation_a
+Neutral fats (TAG) use glycerol, not a longer-chain monohydroxy alcohol, and use three fatty acids, not one.
+## answer_b
+Waxes
+## explanation_b
+Correct. Waxes are defined exactly this way: esters of one fatty acid with a long chain monohydroxy alcohol higher than glycerol.
+## answer_c
+Sphingolipids
+## explanation_c
+Sphingolipids are built on sphingosine joined to fatty acid by an amide bond, not an ester of fatty acid with a higher monohydroxy alcohol.
+## answer_d
+Phospholipids
+## explanation_d
+Phospholipids add a phosphate group to a fatty-acid/alcohol ester; they are not defined by the alcohol being 'higher than glycerol'.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E618B54C3E216C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Define waxes as esters of one fatty acid with a long-chain monohydroxy alcohol higher than glycerol.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q16. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-097
+## title
+Linoleic acid is an example for:
+## question
+Linoleic acid is an example for:
+## vignette
+This item asks the student to name linoleic acid as the ω6 PUFA example.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Omega-3 fatty acid
+## explanation_a
+Omega-3 is the family assigned to linolenic acid, not linoleic acid.
+## answer_b
+Omega-6 fatty acid
+## explanation_b
+Correct. Linoleic acid is listed under the ω6 PUFA family, alongside arachidonic acid.
+## answer_c
+Monoenoic fatty acid
+## explanation_c
+Monoenoic means one double bond; linoleic acid, a PUFA, carries more than one, so it is polyenoic, not monoenoic.
+## answer_d
+Saturated fatty acid
+## explanation_d
+Linoleic acid is unsaturated (polyunsaturated, specifically), not saturated — it belongs among the cis/PUFA fatty acids, not the saturated ones.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-1DFF2BB6521B64
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name linoleic acid as the ω6 PUFA example.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p17 q6. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-098
+## title
+Steroids are examples of which type of lipid?
+## question
+Steroids are examples of which type of lipid?
+## vignette
+This item asks the student to classify steroids as derived lipids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Neutral fats
+## explanation_a
+Neutral fats are the simple-lipid (triacylglycerol) subtype, not where steroids belong.
+## answer_b
+Waxes
+## explanation_b
+Waxes are the other simple-lipid subtype, not where steroids belong.
+## answer_c
+Derived lipids
+## explanation_c
+Correct. Steroids are one of the derived lipid types, alongside fatty acids, alcohols, fat-soluble vitamins and carotenoids.
+## answer_d
+Compound lipids
+## explanation_d
+Compound lipids add a phosphate or carbohydrate group to fatty acid and alcohol; steroids are instead filed under derived lipids.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-30D2E317144DDF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify steroids as derived lipids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p21 q36. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-099
+## title
+The main dietary source for trans fatty acids is:
+## question
+The main dietary source for trans fatty acids is:
+## vignette
+This item asks the student to name margarine (partially hydrogenated vegetable oil) as the main dietary source of trans fatty acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Vegetables
+## explanation_a
+Vegetables themselves are not named as a trans fat source; only small amounts of trans fat occur naturally (in butter), and the main dietary source is processed — partially hydrogenated vegetable oil.
+## answer_b
+Margarine
+## explanation_b
+Correct. The main source of trans fatty acids in the human diet is partially hydrogenated vegetable oils, with margarine as an example.
+## answer_c
+Ground nuts
+## explanation_c
+Ground nuts are a source of cis unsaturated fatty acids, not the main dietary source of trans fat.
+## answer_d
+Fruits
+## explanation_d
+Fruits are not a named source of trans fatty acids.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-F5D38D496B7D0D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name margarine (partially hydrogenated vegetable oil) as the main dietary source of trans fatty acids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p17 q4. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-100
+## title
+Stearic acid is considered as:
+## question
+Stearic acid is considered as:
+## vignette
+This item asks the student to classify stearic acid as both saturated and non-essential.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Saturated and non-essential fatty acid
+## explanation_a
+Correct. Stearic acid is listed among the saturated fatty acids, and non-essential fatty acids are defined as all fatty acids other than α-linolenic, linoleic (and conditionally arachidonic) acid — stearic acid is one of these, made in the body mainly from carbohydrates.
+## answer_b
+Monounsaturated and non-essential fatty acid
+## explanation_b
+Stearic acid has no double bonds, so "monounsaturated" is wrong regardless of the essential/non-essential half of the option.
+## answer_c
+Saturated and essential fatty acid
+## explanation_c
+The named essential fatty acids are α-linolenic and linoleic acid (and conditionally arachidonic); stearic acid is not among them.
+## answer_d
+Polyunsaturated and non-essential fatty acid
+## explanation_d
+Stearic acid has no double bonds, so "polyunsaturated" is wrong regardless of the essential/non-essential half of the option.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D0969A4C2C03CE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify stearic acid as both saturated and non-essential.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-101
+## title
+The number of double bonds in arachidonic acid is:
+## question
+The number of double bonds in arachidonic acid is:
+## vignette
+This item asks the student to count arachidonic acid's double bonds (four) from its structural formula.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+|
+## explanation_a
+This option's text did not survive the scan intact ('|'); read as a plausible original value it most likely intended '1', which is far below the four double bonds the structural formula for arachidonic acid shows.
+## answer_b
+2
+## explanation_b
+Two double bonds undercounts the four (CH=CH.CH2) repeats shown in the structural formula for arachidonic acid.
+## answer_c
+3
+## explanation_c
+Three double bonds undercounts the four (CH=CH.CH2) repeats shown in the structural formula for arachidonic acid.
+## answer_d
+4
+## explanation_d
+Correct. The structural formula for arachidonic acid, CH3.(CH2)4.(CH=CH.CH2)4.(CH2)2.COOH, contains four (CH=CH.CH2) repeats — four double bonds — consistent with its ω6 polyunsaturated classification.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-1DFF2BB6521B64
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Count arachidonic acid's double bonds (four) from its structural formula.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
