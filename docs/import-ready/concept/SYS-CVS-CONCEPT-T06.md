@@ -1,6 +1,6 @@
 # Item
 ## label
-Stenosis loads a chamber with pressure; regurgitation loads it with volume
+Stenosis is pressure load, regurgitation is volume load
 ## id
 CON-CVS-05207022423B56
 ## canonical_key
@@ -12,7 +12,11 @@ Pressure overload and volume overload | Valve lesion loading
 ## arabic_aliases
 حمل الضغط وحمل الحجم
 ## definition
-A stenotic valve fails to open, so the chamber upstream must generate a higher pressure to move the same volume. A regurgitant valve fails to close, so the chamber handles the forward stroke volume plus the volume that leaked back. Each loading pattern produces its own remodelling response.
+A **stenotic valve** fails to open, so the chamber upstream must generate __higher pressure__ to move the same volume.
+
+A **regurgitant valve** fails to close, so the chamber handles the forward stroke volume __plus the volume that leaked back__.
+
+Each loading pattern produces its own remodelling response.
 ## explicit_objective
 Classify any valve lesion by which kind of load it imposes and predict the remodelling that follows.
 ## pitfalls
@@ -76,7 +80,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Symptom onset in aortic stenosis marks a change in prognosis, not just in comfort
+The symptom threshold in aortic stenosis
 ## id
 CON-CVS-C143FB905EFB4C
 ## canonical_key
@@ -88,7 +92,9 @@ Angina, syncope and breathlessness in aortic stenosis | Symptomatic aortic steno
 ## arabic_aliases
 عتبة الأعراض في تضيق الأبهر
 ## definition
-Aortic stenosis is tolerated silently for years while the hypertrophied ventricle compensates. The appearance of angina, exertional syncope or heart failure signals that compensation has failed, and survival without intervention falls sharply from that point.
+Aortic stenosis is tolerated silently for years while the hypertrophied ventricle compensates.
+
+The appearance of **angina, exertional syncope or heart failure** signals that compensation has failed, and __survival without intervention falls sharply from that point__.
 ## explicit_objective
 Explain why the onset of symptoms rather than the severity of the gradient drives the decision to intervene.
 ## pitfalls
@@ -152,7 +158,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A fixed obstruction cannot increase output, so the ventricle fails on exertion
+Why aortic stenosis fails on exertion
 ## id
 CON-CVS-0E7757A0BE93A4
 ## canonical_key
@@ -164,7 +170,9 @@ Exertional syncope in aortic stenosis | Fixed cardiac output
 ## arabic_aliases
 النتاج القلبي الثابت
 ## definition
-Exercise demands a rise in cardiac output and produces peripheral vasodilatation. Where the outflow valve is fixed and narrow, output cannot rise to match the fall in resistance, so blood pressure drops and cerebral perfusion falls — which is why syncope in aortic stenosis is characteristically exertional.
+Exercise demands a rise in cardiac output and produces peripheral vasodilatation.
+
+Where the outflow valve is **fixed and narrow**, output cannot rise to match the fall in resistance, so blood pressure drops and cerebral perfusion falls — __which is why syncope in aortic stenosis is characteristically exertional__.
 ## explicit_objective
 Derive exertional syncope from a fixed obstruction meeting exercise vasodilatation.
 ## pitfalls
@@ -228,7 +236,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Chronic regurgitation is tolerated because the chamber has time to dilate; acute regurgitation is not
+Acute vs chronic regurgitation
 ## id
 CON-CVS-0B38FB058B8A4D
 ## canonical_key
@@ -240,7 +248,9 @@ Acute valvular regurgitation | Compliance adaptation
 ## arabic_aliases
 القلس الحاد مقابل المزمن
 ## definition
-A chamber exposed to regurgitation over months dilates and becomes more compliant, accommodating the extra volume at little cost in pressure. The same regurgitant volume arriving suddenly enters a normal-sized, non-compliant chamber, so pressure rises steeply and the patient decompensates at once.
+A chamber exposed to regurgitation over months **dilates and becomes more compliant**, accommodating the extra volume at little cost in pressure.
+
+The same regurgitant volume arriving suddenly enters a __normal-sized, non-compliant chamber__, so pressure rises steeply and the patient decompensates at once.
 ## explicit_objective
 Explain why acute and chronic regurgitation of similar severity present entirely differently.
 ## pitfalls
@@ -304,7 +314,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Aortic regurgitation widens the pulse pressure
+Aortic regurgitation and the wide pulse pressure
 ## id
 CON-CVS-F5D5599EDFC9BC
 ## canonical_key
@@ -316,7 +326,9 @@ Collapsing pulse | Water-hammer pulse | Wide pulse pressure
 ## arabic_aliases
 النبض القافز
 ## definition
-The regurgitant volume returns to the ventricle during diastole, so aortic diastolic pressure falls; the enlarged total stroke volume then raises systolic pressure. The gap between them widens, producing the collapsing pulse and the many named peripheral signs of chronic aortic regurgitation.
+The regurgitant volume returns to the ventricle during diastole, so **aortic diastolic pressure falls**; the enlarged total stroke volume then **raises systolic pressure**.
+
+The gap between them widens, producing the __collapsing pulse__ and the many named peripheral signs of chronic aortic regurgitation.
 ## explicit_objective
 Derive the wide pulse pressure and the peripheral signs from where the regurgitant volume goes and when.
 ## pitfalls
@@ -380,7 +392,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Rheumatic fever is the dominant cause of mitral stenosis
+Rheumatic fever causes mitral stenosis
 ## id
 CON-CVS-75BE1A604789F8
 ## canonical_key
@@ -392,7 +404,9 @@ Rheumatic heart disease | Rheumatic mitral valve disease
 ## arabic_aliases
 الداء الرثوي القلبي
 ## definition
-Rheumatic carditis following group A streptococcal pharyngitis scars the mitral valve over years, fusing the commissures, thickening the leaflets and shortening the chordae. Almost all mitral stenosis is rheumatic in origin, and the interval between the infection and the valve lesion is often decades.
+Rheumatic carditis after group A streptococcal pharyngitis scars the mitral valve over years — **fusing the commissures, thickening the leaflets and shortening the chordae**.
+
+Almost all mitral stenosis is rheumatic, and the interval between infection and valve lesion is __often decades__.
 ## explicit_objective
 Attribute mitral stenosis to rheumatic disease and describe the mechanism and timescale of the valve injury.
 ## pitfalls
@@ -456,7 +470,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Mitral stenosis loads the left atrium, and everything downstream follows from that
+Mitral stenosis loads the left atrium
 ## id
 CON-CVS-402CAE35A0B61D
 ## canonical_key
@@ -468,7 +482,11 @@ Left atrial hypertension | Consequences of mitral stenosis
 ## arabic_aliases
 ارتفاع ضغط الأذين الأيسر
 ## definition
-An obstructed mitral valve raises left atrial pressure. The atrium dilates, producing atrial fibrillation and stasis with thromboembolism; the pressure is transmitted to the pulmonary veins, producing breathlessness and haemoptysis, and eventually to the pulmonary arteries and the right heart.
+An obstructed mitral valve raises **left atrial pressure**.
+
+The atrium dilates, producing __atrial fibrillation and stasis with thromboembolism__.
+
+The pressure is transmitted to the pulmonary veins — breathlessness and haemoptysis — and eventually to the pulmonary arteries and the right heart.
 ## explicit_objective
 Derive the complications of mitral stenosis from a single raised chamber pressure.
 ## pitfalls
@@ -532,7 +550,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Mitral regurgitation may be a disease of the leaflets or of the ventricle that holds them
+Primary vs secondary mitral regurgitation
 ## id
 CON-CVS-12EC0D049FEF8F
 ## canonical_key
@@ -544,7 +562,11 @@ Primary mitral regurgitation | Functional mitral regurgitation
 ## arabic_aliases
 القلس التاجي الأولي والثانوي
 ## definition
-Primary mitral regurgitation arises from disease of the valve apparatus itself — leaflets, chordae or papillary muscles. Secondary or functional regurgitation arises from a normal valve stretched or tethered by a dilated, remodelled ventricle. The valve is the problem in one and the symptom in the other.
+**Primary** mitral regurgitation arises from disease of the valve apparatus itself — leaflets, chordae or papillary muscles.
+
+**Secondary (functional)** regurgitation arises from a normal valve stretched or tethered by a dilated, remodelled ventricle.
+
+__The valve is the problem in one and the symptom in the other.__
 ## explicit_objective
 Distinguish primary from secondary mitral regurgitation and explain why the treatment target differs.
 ## pitfalls
@@ -608,7 +630,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A regurgitant valve flatters the ejection fraction
+Regurgitation flatters the ejection fraction
 ## id
 CON-CVS-2D0ED2220BECB4
 ## canonical_key
@@ -620,7 +642,9 @@ Ejection fraction in mitral regurgitation | Hidden ventricular dysfunction
 ## arabic_aliases
 الكسر القذفي المضلل في القلس
 ## definition
-In mitral regurgitation the ventricle empties partly into a low-pressure atrium, so it faces a reduced afterload and ejects easily. The measured ejection fraction therefore overstates contractile function, and a fraction that has fallen to the low end of normal already indicates significant myocardial impairment.
+In mitral regurgitation the ventricle empties partly into a low-pressure atrium, so it faces **reduced afterload** and ejects easily.
+
+The measured ejection fraction therefore __overstates contractile function__ — a fraction fallen to the low end of normal already indicates significant myocardial impairment.
 ## explicit_objective
 Explain why a normal-appearing ejection fraction in significant mitral regurgitation is not reassuring.
 ## pitfalls
@@ -684,7 +708,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Tricuspid regurgitation is usually the consequence of a dilated right ventricle
+Functional tricuspid regurgitation
 ## id
 CON-CVS-89D2E3C2454268
 ## canonical_key
@@ -696,7 +720,9 @@ Functional tricuspid regurgitation | Secondary tricuspid regurgitation
 ## arabic_aliases
 القلس الوظيفي لمثلث الشرف
 ## definition
-Most tricuspid regurgitation is functional: right ventricular dilatation from pressure or volume overload stretches the tricuspid annulus until the leaflets no longer meet. The valve itself is structurally normal, and the lesion is a marker of right ventricular disease.
+Most tricuspid regurgitation is **functional**: right ventricular dilatation from pressure or volume overload stretches the annulus until the leaflets no longer meet.
+
+The valve itself is structurally normal — the lesion is a __marker of right ventricular disease__.
 ## explicit_objective
 Identify functional tricuspid regurgitation as a consequence of right ventricular dilatation rather than a primary valve disease.
 ## pitfalls
@@ -760,7 +786,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Right-sided murmurs increase on inspiration
+Right-sided murmurs rise on inspiration
 ## id
 CON-CVS-C3C0B5FCDEC9F1
 ## canonical_key
@@ -772,7 +798,9 @@ Carvallo sign | Inspiratory augmentation
 ## arabic_aliases
 علامة كارفالو
 ## definition
-Inspiration lowers intrathoracic pressure and increases venous return to the right heart, so flow across right-sided valves increases and the murmur they generate becomes louder. Left-sided murmurs do not behave this way, because pulmonary venous return to the left heart falls slightly at the same moment.
+Inspiration lowers intrathoracic pressure and increases **venous return to the right heart**, so flow across right-sided valves increases and their murmur becomes __louder__.
+
+Left-sided murmurs do not, because pulmonary venous return to the left heart falls slightly at the same moment.
 ## explicit_objective
 Use inspiratory augmentation to identify a murmur as right-sided, and explain the mechanism from venous return.
 ## pitfalls
@@ -836,7 +864,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Pulmonary valve disease is predominantly congenital
+Pulmonary valve disease is mostly congenital
 ## id
 CON-CVS-B0648189463ED3
 ## canonical_key
@@ -848,7 +876,9 @@ Pulmonary stenosis | Congenital pulmonary valve disease
 ## arabic_aliases
 تضيق الصمام الرئوي الخلقي
 ## definition
-Unlike the other three valves, the pulmonary valve is rarely affected by acquired disease. Most pulmonary stenosis is congenital and often isolated, and significant pulmonary regurgitation is most often iatrogenic — following repair of congenital disease.
+Unlike the other three valves, the pulmonary valve is **rarely affected by acquired disease**.
+
+Most pulmonary stenosis is __congenital and often isolated__, and significant pulmonary regurgitation is most often iatrogenic — following repair of congenital disease.
 ## explicit_objective
 State the predominantly congenital aetiology of pulmonary valve disease and contrast it with the other valves.
 ## pitfalls
@@ -912,7 +942,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Pericarditis produces widespread ECG change, not territorial change
+Pericarditis gives widespread ECG change
 ## id
 CON-CVS-F1188F77F384FF
 ## canonical_key
@@ -924,7 +954,9 @@ Pericarditis ECG | Saddle-shaped ST elevation
 ## arabic_aliases
 تغيرات التخطيط في التهاب التامور
 ## definition
-The pericardium surrounds the whole heart, so its inflammation affects the subepicardium diffusely. ST elevation therefore appears across leads that do not correspond to any single coronary territory, is typically concave upwards, and is accompanied by PR segment depression.
+The pericardium surrounds the whole heart, so its inflammation affects the subepicardium **diffusely**.
+
+ST elevation therefore appears across leads that __match no single coronary territory__, is typically concave upwards, and is accompanied by **PR segment depression**.
 ## explicit_objective
 Distinguish pericarditis from infarction on the ECG by distribution and morphology rather than by the presence of ST elevation.
 ## pitfalls
@@ -988,7 +1020,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-In pericardial effusion the rate of accumulation matters more than the volume
+In effusion, rate beats volume
 ## id
 CON-CVS-11B274665378CB
 ## canonical_key
@@ -1000,7 +1032,11 @@ Pericardial compliance | Rate of accumulation
 ## arabic_aliases
 معدل تجمع الانصباب
 ## definition
-The pericardium stretches slowly. Fluid accumulating over weeks allows the sac to accommodate a large volume at low pressure, while a small volume arriving within minutes raises pressure sharply. The physiological consequence depends on the rate, not on the amount reported.
+The pericardium stretches slowly.
+
+Fluid accumulating over weeks lets the sac hold a **large volume at low pressure**, while a small volume arriving within minutes raises pressure sharply.
+
+__The consequence depends on the rate, not on the amount reported.__
 ## explicit_objective
 Explain why a small rapid effusion can cause tamponade while a large chronic one may not.
 ## pitfalls
@@ -1064,7 +1100,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Tamponade is a diagnosis of impaired filling, made clinically
+Tamponade is a clinical diagnosis
 ## id
 CON-CVS-ABE9CE4B64FEF8
 ## canonical_key
@@ -1076,7 +1112,9 @@ Cardiac tamponade | Beck triad
 ## arabic_aliases
 اندحاس القلب
 ## definition
-Cardiac tamponade is present when pericardial pressure rises enough to impair ventricular filling and reduce cardiac output. It is diagnosed from the patient — hypotension, raised venous pressure and muffled heart sounds, with pulsus paradoxus — and echocardiography supports rather than establishes it.
+Cardiac tamponade is present when pericardial pressure rises enough to **impair ventricular filling and reduce output**.
+
+It is diagnosed from the patient — __hypotension, raised venous pressure and muffled heart sounds, with pulsus paradoxus__ — and echocardiography supports rather than establishes it.
 ## explicit_objective
 Define tamponade physiologically and state that the diagnosis is clinical rather than echocardiographic.
 ## pitfalls
@@ -1140,7 +1178,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Pulsus paradoxus is an exaggeration of a normal phenomenon
+Pulsus paradoxus
 ## id
 CON-CVS-30018CA741B7DA
 ## canonical_key
@@ -1152,7 +1190,9 @@ Pulsus paradoxus | Inspiratory fall in systolic pressure
 ## arabic_aliases
 النبض المتناقض
 ## definition
-Systolic pressure normally falls slightly on inspiration. When the heart is confined by a tense pericardium, the increased right-sided filling during inspiration can only be accommodated by pushing the septum leftwards, which reduces left ventricular filling and exaggerates that fall.
+Systolic pressure normally falls slightly on inspiration.
+
+When the heart is confined by a tense pericardium, the increased right-sided filling on inspiration can only be accommodated by __pushing the septum leftwards__, which reduces left ventricular filling and **exaggerates that fall**.
 ## explicit_objective
 Explain pulsus paradoxus through ventricular interdependence inside a fixed pericardial volume.
 ## pitfalls
@@ -1216,7 +1256,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A rigid pericardium makes the ventricles compete for a fixed volume
+Ventricular interdependence in constriction
 ## id
 CON-CVS-268E5C530580B6
 ## canonical_key
@@ -1228,7 +1268,9 @@ Ventricular interdependence | Constrictive pericarditis physiology
 ## arabic_aliases
 الترابط بين البطينين
 ## definition
-When a thickened, non-compliant pericardium fixes the total cardiac volume, filling of one ventricle can only occur at the expense of the other. Respiratory variation in filling therefore becomes exaggerated and reciprocal, and this interdependence is the feature that distinguishes constriction from restrictive myocardial disease.
+When a thickened, non-compliant pericardium fixes the total cardiac volume, **filling of one ventricle can only occur at the expense of the other**.
+
+Respiratory variation in filling becomes exaggerated and reciprocal — the interdependence that __distinguishes constriction from restrictive myocardial disease__.
 ## explicit_objective
 Explain ventricular interdependence and use it to separate constriction from restriction.
 ## pitfalls
@@ -1292,7 +1334,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Tuberculosis is a leading cause of constrictive pericarditis where it is endemic
+Tuberculous constrictive pericarditis
 ## id
 CON-CVS-E1FE73100F1688
 ## canonical_key
@@ -1304,7 +1346,9 @@ Tuberculous pericarditis | Constrictive pericarditis aetiology
 ## arabic_aliases
 التهاب التامور السلي
 ## definition
-Tuberculous pericarditis progresses from effusion through organisation to dense fibrosis and calcification, and is a leading cause of constrictive pericarditis in regions where tuberculosis is common. In high-income settings the commoner causes are prior cardiac surgery, radiotherapy and idiopathic disease.
+Tuberculous pericarditis progresses from effusion through organisation to **dense fibrosis and calcification**, and is a leading cause of constrictive pericarditis where tuberculosis is common.
+
+In high-income settings the commoner causes are __prior cardiac surgery, radiotherapy and idiopathic disease__.
 ## explicit_objective
 Name tuberculosis as a major regional cause of constriction and contrast the aetiological profile with that of high-income settings.
 ## pitfalls
