@@ -211,6 +211,15 @@
      follows the theme without the component knowing which theme it is in. */
   --brand-blue: var(--color-accent);
   --brand-rose: var(--color-primary);
+
+  /* The Noon mark (ن) — crimson outer arc, rose inner arc, midnight-blue dot.
+     Literals on light/warm grounds (the chosen brand look); Dark and OLED
+     override --mark-outer and --mark-dot below, because #a81d40 goes muddy and
+     the #1b2b55 dot all but vanishes on a dark ground. `NishanyMark` reads
+     these, so the logotype follows the theme without branching. */
+  --mark-outer: #a81d40;
+  --mark-inner: #e0859b;
+  --mark-dot: #1b2b55;
 }
 
 /* =========================================================================
@@ -461,6 +470,12 @@
      fill: #d13a63 on #151b24 is 3.7:1 and fails. The blue half needs no
      override — it already points at --color-accent, which lifts above. */
   --brand-rose: var(--color-primary-strong);
+
+  /* Mark on a dark ground: lift the muddy #a81d40 outer to the brighter crimson
+     the UI already uses, and swap the near-invisible midnight-blue dot for the
+     accent periwinkle so it reads. Inner rose (#e0859b) stays legible as-is. */
+  --mark-outer: #d13a63;
+  --mark-dot: #6fa5ff;
 }
 
 /* OLED / Black — a fourth mode, not "Dark taken further". Dark's ground
@@ -551,6 +566,10 @@
   --shadow-action-hover: 0 2px 6px rgba(0, 0, 0, 0.55);
 
   --brand-rose: var(--color-primary-strong);
+
+  /* Same lift as Dark — the mark's crimson and dot both need it on true black. */
+  --mark-outer: #d13a63;
+  --mark-dot: #6fa5ff;
 }
 
 @layer base {
