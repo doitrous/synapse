@@ -8231,7 +8231,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Bacillus and Clostridium can form dormant highly resistant non-replicating endospores
+Bacillus and Clostridium form resistant endospores
 
 ## id
 CON-INF-3E6590C8AC2166
@@ -8258,7 +8258,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Lancefield classification divides streptococci by group-specific carbohydrate antigen
+Lancefield classification of streptococci
 
 ## id
 CON-INF-6B7D8A0C6A464E
@@ -8285,7 +8285,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Staphylococcus saprophyticus is differentiated from other coagulase-negative staphylococci by novobiocin resistance
+S. saprophyticus: novobiocin resistance
 
 ## id
 CON-INF-C0123F8DDE0DAA
@@ -8294,7 +8294,9 @@ CON-INF-C0123F8DDE0DAA
 staph-saprophyticus.identification.novobiocin-resistance
 
 ## definition
-Staphylococcus saprophyticus is distinguished from other coagulase-negative staphylococci, such as S. epidermidis, by its resistance to the antibiotic novobiocin -- a laboratory test used specifically for species-level identification within the coagulase-negative staphylococci.
+**Staphylococcus saprophyticus** is distinguished from other coagulase-negative staphylococci, such as *S. epidermidis*, by its __resistance to novobiocin__.
+
+The novobiocin test is used specifically for species-level identification within the coagulase-negative staphylococci.
 
 ## explicit_objective
 State that novobiocin resistance is the laboratory feature that differentiates S. saprophyticus from other coagulase-negative staphylococci.
@@ -8453,7 +8455,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-M. tuberculosis has a thick, mycolic-acid-rich cell wall responsible for its acid-fastness
+M. tuberculosis: mycolic acid and acid-fastness
 
 ## id
 CON-INF-AF38B9D7F0419D
@@ -8462,7 +8464,9 @@ CON-INF-AF38B9D7F0419D
 mycobacterium-tuberculosis.cell-wall.mycolic-acid-acid-fastness
 
 ## definition
-Mycobacterium tuberculosis has an unusually thick cell wall with a high mycolic acid (long-chain fatty acid) content, which confers acid-fastness -- resistance to decolorization by acid-alcohol after carbol-fuchsin staining -- rather than a standard Gram-stain reaction.
+**Mycobacterium tuberculosis** has an unusually thick cell wall with a high **mycolic acid** (long-chain fatty acid) content.
+
+This confers __acid-fastness__ — resistance to decolorization by acid-alcohol after carbol-fuchsin staining — rather than a standard Gram-stain reaction.
 
 ## explicit_objective
 State that M. tuberculosis's thick, mycolic-acid-rich cell wall is responsible for its acid-fast staining property, distinct from Gram staining.
@@ -8621,7 +8625,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Pseudomonas aeruginosa is a major cause of hospital-acquired infection
+P. aeruginosa: a major nosocomial pathogen
 
 ## id
 CON-INF-64580A942346CB
@@ -8630,7 +8634,9 @@ CON-INF-64580A942346CB
 pseudomonas-aeruginosa.nosocomial-pathogen
 
 ## definition
-Among common Gram-negative organisms, Pseudomonas aeruginosa is a leading cause of hospital-acquired (nosocomial) infection, particularly affecting ventilated, burned, or immunocompromised patients.
+Among common Gram-negative organisms, **Pseudomonas aeruginosa** is a __leading cause of hospital-acquired (nosocomial) infection__.
+
+It particularly affects ventilated, burned, or immunocompromised patients.
 
 ## explicit_objective
 Identify Pseudomonas aeruginosa as a major cause of hospital-acquired infection.
@@ -8789,7 +8795,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Helicobacter pylori is not a member of the family Enterobacteriaceae
+Helicobacter pylori is not an Enterobacteriaceae
 
 ## id
 CON-INF-1A6688E780A1B1
@@ -8798,7 +8804,9 @@ CON-INF-1A6688E780A1B1
 enterobacteriaceae.family-membership
 
 ## definition
-Klebsiella, Proteus and Salmonella typhi are members of the family Enterobacteriaceae (Gram-negative, facultatively anaerobic rods of the GI tract), whereas Helicobacter pylori is a separate genus of curved/spiral Gram-negative organism found in the gastric mucosa and is not a member of this family.
+**Klebsiella**, **Proteus** and **Salmonella typhi** are members of the family **Enterobacteriaceae** — Gram-negative, facultatively anaerobic rods of the GI tract.
+
+**Helicobacter pylori** is a separate genus of curved/spiral Gram-negative organism found in the gastric mucosa and __is not a member of this family__.
 
 ## explicit_objective
 Identify Helicobacter pylori as not belonging to the family Enterobacteriaceae, distinguishing it from Klebsiella, Proteus and Salmonella.
@@ -8957,7 +8965,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Mycobacteria, Mycoplasma and Chlamydia are not reliably visualized by Gram stain, unlike Neisseria and Streptococcus viridans
+Organisms outside standard Gram staining
 
 ## id
 CON-INF-512AD3B7479C2A
@@ -8966,7 +8974,9 @@ CON-INF-512AD3B7479C2A
 gram-stain.staining-limitations-mycobacteria-mycoplasma-chlamydia
 
 ## definition
-Certain organisms -- Mycobacteria (acid-fast, not Gram-typed), Mycoplasma (lack a cell wall, so cannot Gram-stain), and Chlamydia (obligate intracellular, does not reliably Gram-stain) -- fall outside standard Gram-stain classification, whereas Neisseria (Gram-negative diplococci) and Streptococcus viridans (Gram-positive cocci) are correctly and reliably visualized by the Gram stain.
+Some organisms fall outside standard Gram-stain classification: **Mycobacteria** (acid-fast, not Gram-typed), **Mycoplasma** (no cell wall, so cannot Gram-stain), and **Chlamydia** (obligate intracellular, does not reliably Gram-stain).
+
+By contrast, **Neisseria** (Gram-negative diplococci) and **Streptococcus viridans** (Gram-positive cocci) __are reliably visualized by the Gram stain__.
 
 ## explicit_objective
 Recognize that Mycobacteria, Mycoplasma and Chlamydia are not reliably classified by Gram stain, while Neisseria and Streptococcus viridans are.
@@ -9125,7 +9135,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-The genus Staphylococcus is characterized as Gram-positive, catalase-positive cocci
+Staphylococcus: Gram-positive, catalase-positive cocci
 
 ## id
 CON-INF-101CF957AD4D69
@@ -9134,7 +9144,9 @@ CON-INF-101CF957AD4D69
 staphylococcus.genus-identification.catalase-coagulase
 
 ## definition
-All members of the genus Staphylococcus share the identifying features of being Gram-positive cocci and catalase-positive, which together distinguish the genus from Streptococcus (catalase-negative); coagulase-positivity, by contrast, is a species-level feature that further distinguishes S. aureus specifically from the other, coagulase-negative, staphylococci.
+All members of the genus **Staphylococcus** are **Gram-positive cocci** and **catalase-positive**, which distinguishes the genus from *Streptococcus* (catalase-negative).
+
+__Coagulase-positivity is a species-level feature__ that further sets *S. aureus* apart from the other, coagulase-negative, staphylococci.
 
 ## explicit_objective
 State that Gram-positive cocci plus catalase-positivity are the genus-defining features of Staphylococcus, distinguishing it from Streptococcus.
@@ -9293,7 +9305,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-S. aureus is Gram-positive, catalase- and coagulase-positive; it does not rely on endotoxin
+S. aureus identification; no endotoxin
 
 ## id
 CON-INF-B8524FF8069C8E
@@ -9302,7 +9314,9 @@ CON-INF-B8524FF8069C8E
 staph-aureus.identification-and-virulence
 
 ## definition
-Staphylococcus aureus is correctly described as Gram-positive cocci in clusters, catalase-positive and coagulase-positive; because it is a Gram-positive organism lacking an outer membrane, it has no lipopolysaccharide/endotoxin, so describing endotoxin as "an important virulence factor" of S. aureus is incorrect -- its virulence instead relies on exotoxins, superantigens and antiphagocytic surface proteins.
+**Staphylococcus aureus** is **Gram-positive cocci in clusters**, **catalase-positive** and **coagulase-positive**.
+
+Because it is Gram-positive and lacks an outer membrane, it has __no lipopolysaccharide/endotoxin__ — so calling endotoxin a virulence factor of *S. aureus* is incorrect. Its virulence instead relies on **exotoxins, superantigens and antiphagocytic surface proteins**.
 
 ## explicit_objective
 State that S. aureus's identifying features are Gram-positive cocci, catalase-positive and coagulase-positive, and that endotoxin is NOT one of its virulence factors, since it is a Gram-positive organism.
@@ -9461,7 +9475,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Streptococcus pneumoniae is an alpha-hemolytic Gram-positive coccus causing lobar pneumonia
+S. pneumoniae: alpha-hemolytic cause of lobar pneumonia
 
 ## id
 CON-INF-9A9A3DB5DB40FE
@@ -9470,7 +9484,9 @@ CON-INF-9A9A3DB5DB40FE
 streptococcus-pneumoniae.identification.alpha-hemolysis
 
 ## definition
-Streptococcus pneumoniae characteristically produces alpha-hemolysis (partial, greenish hemolysis) on blood agar and appears as Gram-positive cocci, consistent with a presentation of chest pain, cough and bloody sputum in an older adult -- the classic clinical picture of pneumococcal (lobar) pneumonia.
+**Streptococcus pneumoniae** produces **alpha-hemolysis** (partial, greenish hemolysis) on blood agar and appears as **Gram-positive cocci**.
+
+This fits the classic picture of **pneumococcal (lobar) pneumonia** — chest pain, cough and bloody sputum in an older adult.
 
 ## explicit_objective
 Identify Streptococcus pneumoniae as the alpha-hemolytic, Gram-positive coccus responsible for a classic lobar-pneumonia presentation with bloody sputum.
@@ -9629,7 +9645,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-All members of Enterobacteriaceae are facultative anaerobes
+All Enterobacteriaceae are facultative anaerobes
 
 ## id
 CON-INF-819743D002A2DD
@@ -9638,7 +9654,9 @@ CON-INF-819743D002A2DD
 enterobacteriaceae.shared-biochemical-features
 
 ## definition
-A biochemical feature shared by every member of the family Enterobacteriaceae is that they are facultative anaerobes, able to grow with or without oxygen; other listed features such as universal oxidase-positivity, lactose fermentation, catalase-negativity, or "all being true pathogens" are NOT shared by every member of the family.
+The biochemical feature shared by __every__ member of the family **Enterobacteriaceae** is that they are **facultative anaerobes**, able to grow with or without oxygen.
+
+Other features — universal oxidase-positivity, lactose fermentation, catalase-negativity, or all being true pathogens — are __not__ shared by every member.
 
 ## explicit_objective
 State that being facultative anaerobes is the biochemical feature common to all members of Enterobacteriaceae, unlike lactose fermentation or oxidase reaction, which vary by genus.
@@ -9797,7 +9815,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Proteus causes urinary tract infection associated with struvite (staghorn) stones
+Proteus: urease and struvite (staghorn) stones
 
 ## id
 CON-INF-D07212E157CC7A
@@ -9806,7 +9824,9 @@ CON-INF-D07212E157CC7A
 proteus.uti-struvite-stones
 
 ## definition
-Proteus species produce the enzyme urease, which hydrolyzes urea to ammonia and alkalinizes the urine, promoting formation of struvite (magnesium ammonium phosphate) stones -- making Proteus the classic organism associated with a urinary tract infection complicated by urinary stones.
+**Proteus** species produce the enzyme **urease**, which hydrolyzes urea to ammonia and __alkalinizes the urine__.
+
+This promotes formation of **struvite (magnesium ammonium phosphate) stones**, making Proteus the classic organism behind a UTI complicated by urinary stones.
 
 ## explicit_objective
 State that Proteus, via urease production and urine alkalinization, is the organism classically associated with UTI and struvite stone formation.
@@ -9965,7 +9985,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Clostridioides difficile causes antibiotic-associated pseudomembranous colitis
+C. difficile: antibiotic-associated pseudomembranous colitis
 
 ## id
 CON-INF-74228C21F2257C
@@ -9974,7 +9994,9 @@ CON-INF-74228C21F2257C
 clostridioides-difficile.pseudomembranous-colitis
 
 ## definition
-Clostridioides (Clostridium) difficile is the classic cause of pseudomembranous colitis presenting with bloody diarrhea after a course of antibiotics, resulting from antibiotic-driven disruption of normal colonic flora that allows C. difficile overgrowth and toxin-mediated colonic damage.
+**Clostridioides (Clostridium) difficile** is the classic cause of **pseudomembranous colitis**, presenting with bloody diarrhea __after a course of antibiotics__.
+
+Antibiotics disrupt the normal colonic flora, allowing *C. difficile* overgrowth and toxin-mediated colonic damage.
 
 ## explicit_objective
 Identify Clostridioides difficile as the causative organism of post-antibiotic pseudomembranous colitis.
@@ -10133,7 +10155,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Legionella pneumophila causes atypical pneumonia after contaminated-water exposure
+Legionella: atypical pneumonia from contaminated water
 
 ## id
 CON-INF-1AA1761EA50627
@@ -10142,7 +10164,9 @@ CON-INF-1AA1761EA50627
 legionella-pneumophila.atypical-pneumonia-water-exposure
 
 ## definition
-Legionella pneumophila is an atypical-pneumonia-causing organism classically linked to inhalation of aerosolized contaminated water, such as from showers, cooling towers or air-conditioning systems, presenting with chest pain and dry cough after such an exposure.
+**Legionella pneumophila** causes **atypical pneumonia** classically linked to __inhalation of aerosolized contaminated water__ — from showers, cooling towers or air-conditioning systems.
+
+It presents with chest pain and dry cough after such an exposure.
 
 ## explicit_objective
 Identify Legionella pneumophila as the organism causing atypical pneumonia after aerosolized contaminated-water exposure.
@@ -10301,7 +10325,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Pseudomonas aeruginosa is oxidase-positive and produces a green pigment on culture
+P. aeruginosa: oxidase-positive, green pigment
 
 ## id
 CON-INF-110935663CD77A
@@ -10310,7 +10334,9 @@ CON-INF-110935663CD77A
 pseudomonas-aeruginosa.identification.oxidase-pigment
 
 ## definition
-Pseudomonas aeruginosa is identified in culture by being oxidase-positive and producing a green pigment (pyocyanin) on agar -- as seen in a ventilated patient with greenish sputum growing Gram-negative bacilli -- which, together with differences in sugar fermentation and oxygen requirement, distinguishes it from Enterobacteriaceae such as E. coli.
+**Pseudomonas aeruginosa** is identified in culture by being **oxidase-positive** and producing a **green pigment (pyocyanin)** on agar — as seen in a ventilated patient with greenish sputum growing Gram-negative bacilli.
+
+These features, with differences in sugar fermentation and oxygen requirement, __distinguish it from Enterobacteriaceae such as E. coli__.
 
 ## explicit_objective
 Identify Pseudomonas aeruginosa by its oxidase-positive, green-pigment-producing culture characteristics, and distinguish it from E. coli by sugar fermentation, oxidase reaction and oxygen requirement.
@@ -10469,7 +10495,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Pasteurella multocida, a Gram-negative coccobacillus from cat saliva, causes osteomyelitis after a cat bite
+Pasteurella multocida: osteomyelitis after a cat bite
 
 ## id
 CON-INF-191AE17C2BC242
@@ -10478,7 +10504,9 @@ CON-INF-191AE17C2BC242
 pasteurella-multocida.cat-bite-osteomyelitis
 
 ## definition
-Pasteurella multocida is a Gram-negative coccobacillus that is part of normal cat (and dog) oral flora, and is the classic causative organism of osteomyelitis or soft-tissue infection following a cat bite.
+**Pasteurella multocida** is a **Gram-negative coccobacillus** that is part of normal cat (and dog) oral flora.
+
+It is the classic cause of __osteomyelitis or soft-tissue infection following a cat bite__.
 
 ## explicit_objective
 Identify Pasteurella multocida, a Gram-negative coccobacillus from cat saliva flora, as the causative organism of cat-bite-associated osteomyelitis.
@@ -10637,7 +10665,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Bacillus anthracis is transmitted by inhalation of spores
+Bacillus anthracis: transmission by spore inhalation
 
 ## id
 CON-INF-8C58253847111C
@@ -10646,7 +10674,9 @@ CON-INF-8C58253847111C
 bacillus-anthracis.transmission.spore-inhalation
 
 ## definition
-Bacillus anthracis, a spore-forming Gram-positive bacillus, is classically transmitted to humans via inhalation of its highly resistant endospores, causing inhalational anthrax -- in contrast to organisms in this comparison transmitted mainly by vector-borne or fecal-oral routes.
+**Bacillus anthracis**, a spore-forming Gram-positive bacillus, is classically transmitted to humans by __inhalation of its highly resistant endospores__, causing inhalational anthrax.
+
+This contrasts with organisms transmitted mainly by vector-borne or fecal-oral routes.
 
 ## explicit_objective
 Identify Bacillus anthracis as the organism transmitted via inhalation of spores, among vector-borne and fecal-oral alternatives.
@@ -10805,7 +10835,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Streptococcus viridans, part of normal oral flora, causes infective endocarditis after dental procedures
+S. viridans: endocarditis after a dental procedure
 
 ## id
 CON-INF-2E4D9F498F4B12
@@ -10814,7 +10844,9 @@ CON-INF-2E4D9F498F4B12
 streptococcus-viridans.infective-endocarditis-dental-procedure
 
 ## definition
-Streptococcus viridans, part of the normal oral flora, is the classic cause of subacute infective endocarditis following a dental procedure such as tooth extraction, when transient bacteremia allows the organism to seed a susceptible heart valve.
+**Streptococcus viridans**, part of the normal oral flora, is the classic cause of **subacute infective endocarditis** __following a dental procedure__ such as tooth extraction.
+
+The transient bacteremia lets the organism seed a susceptible heart valve.
 
 ## explicit_objective
 Identify Streptococcus viridans, part of normal oral flora, as the classic cause of infective endocarditis following a dental procedure.
@@ -10976,7 +11008,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Antibiotic eradication of susceptible normal flora can permit resistant organisms to cause superinfection
+Superinfection when antibiotics clear susceptible flora
 
 ## id
 CON-INF-86D082D1785D7A
@@ -11003,7 +11035,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Alteration of the ribosomal 30S subunit confers resistance to aminoglycosides
+Target alteration (30S) resists aminoglycosides
 
 ## id
 CON-INF-D12D329489668C
@@ -11012,7 +11044,9 @@ CON-INF-D12D329489668C
 antibiotic-resistance.mechanism.target-alteration-30s
 
 ## definition
-One mechanism of antibiotic resistance is target-site alteration: a mutation changing the structure of the bacterial ribosomal 30S subunit prevents an aminoglycoside from binding its target, conferring resistance specifically to that drug class.
+One mechanism of antibiotic resistance is **target-site alteration**.
+
+A mutation changing the structure of the bacterial ribosomal **30S subunit** __prevents an aminoglycoside from binding__, conferring resistance specifically to that drug class.
 
 ## explicit_objective
 State that alteration of the ribosomal 30S subunit is a resistance mechanism specific to aminoglycosides.
@@ -11171,7 +11205,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Altered drug permeability confers resistance to tetracycline and amikacin
+Altered permeability resists tetracycline and amikacin
 
 ## id
 CON-INF-DFC3D949513ED2
@@ -11180,7 +11214,7 @@ CON-INF-DFC3D949513ED2
 antibiotic-resistance.mechanism.altered-permeability
 
 ## definition
-A change in bacterial membrane permeability that reduces antibiotic entry into the cell is the resistance mechanism specifically linked to tetracycline and amikacin among the drug pairs tested in this module.
+A change in **bacterial membrane permeability** that reduces antibiotic entry into the cell is the resistance mechanism __specifically linked to tetracycline and amikacin__ among the drug pairs tested in this module.
 
 ## explicit_objective
 State that altered drug permeability is the resistance mechanism specific to tetracycline and amikacin.
@@ -11339,7 +11373,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Development of an alternative metabolic pathway confers resistance to sulfonamides
+Alternative metabolic pathway resists sulfonamides
 
 ## id
 CON-INF-39978E6864743D
@@ -11348,7 +11382,7 @@ CON-INF-39978E6864743D
 antibiotic-resistance.mechanism.alternative-metabolic-pathway
 
 ## definition
-Bypassing the drug-targeted metabolic step by developing an alternative metabolic pathway is the resistance mechanism specifically linked to sulfonamides among the drugs tested in this module.
+Bypassing the drug-targeted metabolic step by developing an **alternative metabolic pathway** is the resistance mechanism __specifically linked to sulfonamides__ among the drugs tested in this module.
 
 ## explicit_objective
 State that development of an alternative metabolic pathway is the resistance mechanism specific to sulfonamides.
@@ -11507,7 +11541,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Penicillin resistance by S. aureus is acquired genetic resistance; Mycoplasma resistance to cell-wall antibiotics is intrinsic
+Acquired vs intrinsic genetic resistance
 
 ## id
 CON-INF-DCD82D2A1D396C
@@ -11516,7 +11550,9 @@ CON-INF-DCD82D2A1D396C
 antibiotic-resistance.acquired-vs-intrinsic-genetic
 
 ## definition
-Acquired genetic resistance -- exemplified by penicillin resistance in Staphylococcus aureus, gained through a new resistance gene (e.g. beta-lactamase) -- is distinguished from intrinsic (inherent) genetic resistance, exemplified by Mycoplasma's natural resistance to cell-wall-active antibiotics because it has no cell wall to target in the first place.
+**Acquired genetic resistance** is gained through a new resistance gene — for example **penicillin resistance in Staphylococcus aureus** via **beta-lactamase**.
+
+**Intrinsic (inherent) resistance** is exemplified by **Mycoplasma**, naturally resistant to cell-wall-active antibiotics because it has __no cell wall to target__ in the first place.
 
 ## explicit_objective
 Distinguish acquired genetic resistance (e.g. S. aureus penicillin resistance via a gained gene) from intrinsic/inherent genetic resistance (e.g. Mycoplasma's natural resistance to cell-wall antibiotics).
@@ -11675,7 +11711,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-R-plasmids carry genes for bacterial antibiotic resistance
+R-plasmids carry antibiotic-resistance genes
 
 ## id
 CON-INF-134BE2C9B827D5
@@ -11684,7 +11720,9 @@ CON-INF-134BE2C9B827D5
 antibiotic-resistance.mobile-genetic-elements.r-plasmid
 
 ## definition
-Among mobile genetic elements, the R-plasmid (resistance plasmid) is the vehicle specifically identified as carrying genes for bacterial antibiotic resistance, distinct from a temperate phage, a lytic phage, or a virulence plasmid.
+Among mobile genetic elements, the **R-plasmid (resistance plasmid)** is the vehicle that __carries genes for bacterial antibiotic resistance__.
+
+This is distinct from a temperate phage, a lytic phage, or a virulence plasmid.
 
 ## explicit_objective
 Identify the R-plasmid as the mobile genetic element that carries genes for bacterial antibiotic resistance.
@@ -11843,7 +11881,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Beta-lactamase causes antibiotic resistance by inactivating the beta-lactam drug
+Beta-lactamase inactivates the drug
 
 ## id
 CON-INF-64A7823DCEC6E5
@@ -11852,7 +11890,9 @@ CON-INF-64A7823DCEC6E5
 antibiotic-resistance.mechanism.beta-lactamase-inactivation
 
 ## definition
-Beta-lactamase confers resistance by directly hydrolyzing and inactivating the beta-lactam antibiotic, a distinct mechanism from altering drug permeability, actively pumping the drug out of the cell, or preventing beta-lactam entry in the first place.
+**Beta-lactamase** confers resistance by __directly hydrolyzing and inactivating the beta-lactam antibiotic__.
+
+This is distinct from altering drug permeability, pumping the drug out of the cell, or preventing beta-lactam entry.
 
 ## explicit_objective
 State that beta-lactamase causes resistance specifically by inactivating (hydrolyzing) the beta-lactam drug, not by altering permeability or blocking entry.
