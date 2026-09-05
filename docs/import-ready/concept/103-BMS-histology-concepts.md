@@ -101,8 +101,7 @@
 CON-DER-56784AB396C13E
 
 ## label
-The papillary layer of the dermis is thin, loose, cellular and vascular; the reticular layer is thick, dense and less vascular
-
+The papillary and reticular layers of the dermis
 ## canonical_key
 dermis.layers.papillary-reticular
 
@@ -122,8 +121,11 @@ Stratum papillare and stratum reticulare
 الأدمة الحليمية والأدمة الشبكية
 
 ## definition
-The dermis is formed of two layers. The papillary layer is the thinner superficial layer and forms the dermal papillae; it is loose connective tissue, more cellular, carries fine type III collagen and elastic fibres, is more vascular because it nourishes the avascular epidermis, and contains Meissner's corpuscles. The reticular layer is the thicker deep layer of dense connective tissue, less cellular, carries type I collagen in bundles with elastic fibres, is less vascular, and contains Pacinian corpuscles, Ruffini's end organs and Krause's end bulbs.
+The **dermis** is formed of two layers: a superficial __papillary layer__ and a deep __reticular layer__.
 
+The **papillary layer** is the thinner, superficial layer and forms the dermal papillae. It is loose connective tissue, more cellular, and carries fine **type III collagen** and elastic fibres. It is __more vascular because it nourishes the avascular epidermis__, and it contains **Meissner's corpuscles**.
+
+The **reticular layer** is the thicker, deep layer of dense connective tissue. It is less cellular, carries **type I collagen** in bundles with elastic fibres, and is __less vascular__. It contains **Pacinian corpuscles**, Ruffini's end organs and Krause's end bulbs.
 ## explicit_objective
 Distinguish the papillary layer of the dermis from the reticular layer on thickness and position, connective-tissue density, cellularity, fibre type, vascularity and the encapsulated receptors each contains.
 
@@ -281,8 +283,7 @@ relationships: Walked the CON-DER-* concepts on DIS-HIS-T03 and the CON-MSK-* co
 CON-MSK-D137ADEEC56243
 
 ## label
-The osteoblast arises from osteogenic cells, lines the bone surface, and has the ultrastructure of a protein-secreting cell
-
+The osteoblast: the bone-forming cell
 ## canonical_key
 osteoblast.structure.origin-site-lm-em
 
@@ -302,8 +303,11 @@ Osteoid-secreting cell
 أوستيوبلاست
 
 ## definition
-The osteoblast is the bone-forming cell. It arises from osteogenic (osteoprogenitor) cells and lies immediately under the periosteum as a continuous single layer covering the bone surface, and under the endosteum. By light microscopy it is an oval cell with a few minute processes and an eccentric nucleus, its cytoplasm darkly basophilic with a negative Golgi image beside the nucleus, and it is rich in alkaline phosphatase. By electron microscopy it shows the characters of a protein-forming cell: abundant rough endoplasmic reticulum, mitochondria and a well-developed Golgi apparatus.
+The **osteoblast** is the __bone-forming cell__. It arises from **osteogenic (osteoprogenitor) cells** and lies as a continuous single layer immediately under the periosteum, covering the bone surface, and under the endosteum.
 
+By **light microscopy** it is an oval cell with a few minute processes and an eccentric nucleus. Its cytoplasm is darkly basophilic with a negative Golgi image beside the nucleus, and it is __rich in alkaline phosphatase__.
+
+By **electron microscopy** it shows the characters of a **protein-forming cell**: abundant rough endoplasmic reticulum, mitochondria and a well-developed Golgi apparatus.
 ## explicit_objective
 State the origin, site, light-microscopic and electron-microscopic features of the osteoblast, and explain why its ultrastructure is that of a protein-secreting cell.
 
@@ -460,8 +464,7 @@ relationships: Walked the CON-MSK-* concepts on DIS-HIS-T02 and DIS-HIS-T03 and 
 CON-MSK-76CE11C6DCDC37
 
 ## label
-The osteoclast is a multinucleated cell formed by fusion of haemopoietic progenitors that resorbs bone from Howship's lacuna
-
+The osteoclast: the bone-resorbing cell
 ## canonical_key
 osteoclast.structure.origin-site-lm-em
 
@@ -481,8 +484,11 @@ Ruffled border
 أوستيوكلاست
 
 ## definition
-The osteoclast is the bone-destroying cell. It is formed by fusion of mononuclear haemopoietic progenitor cells, and lies on the bone surface near the bone marrow inside an excavation called Howship's lacuna. By light microscopy it is a large irregular cell with 6 to 12 nuclei and foamy acidophilic cytoplasm, showing a brush border against the nearby bony surface. By electron microscopy that brush border is a ruffled surface bearing microvilli, and the cytoplasm is rich in lysosomes, mitochondria and Golgi apparatus and shows multiple vesicles.
+The **osteoclast** is the __bone-destroying cell__. It is formed by **fusion of mononuclear haemopoietic progenitor cells** and lies on the bone surface near the bone marrow, inside an excavation called **Howship's lacuna**.
 
+By **light microscopy** it is a large irregular cell with __6 to 12 nuclei__ and foamy acidophilic cytoplasm, showing a brush border against the nearby bony surface.
+
+By **electron microscopy** that brush border is a __ruffled surface bearing microvilli__, and the cytoplasm is rich in lysosomes, mitochondria and Golgi apparatus and shows multiple vesicles.
 ## explicit_objective
 State the origin, site, light-microscopic and electron-microscopic features of the osteoclast, and explain why a bone-resorbing cell is multinucleated, ruffled and lysosome-rich.
 
@@ -639,8 +645,7 @@ relationships: Walked the same node set as CON-MSK-D137ADEEC56243. A contrasts_w
 CON-MSK-0DEAF126DF8F2E
 
 ## label
-The intercalated disc has a transverse component carrying desmosomes and fascia adherens and a lateral component carrying gap junctions
-
+The intercalated disc: transverse and lateral parts
 ## canonical_key
 cardiac.intercalated-disc.lm-em
 
@@ -660,8 +665,11 @@ Cardiac cell junction
 إنترکاليتد ديسك
 
 ## definition
-Intercalated discs are the junctions between the sarcolemmas of adjacent cardiac muscle cells within a cardiac muscle fibre. By light microscopy they are clear lines that cross the fibre transversely at intervals along its length. By electron microscopy each disc has two regions. The transverse component crosses the fibre; desmosomes and adherent junctions (fascia adherens) sit here and bind the cells firmly together so they do not separate during repetitive contraction. The lateral component lies parallel to the fibre; gap junctions sit here and let contraction signals pass from cell to cell, and their lateral position shelters them from the contraction forces.
+**Intercalated discs** are the junctions between the sarcolemmas of adjacent cardiac muscle cells within a fibre. By **light microscopy** they are clear lines that cross the fibre transversely at intervals along its length.
 
+By **electron microscopy** each disc has two regions. The __transverse component__ crosses the fibre; **desmosomes** and adherent junctions (**fascia adherens**) sit here and bind the cells firmly so they do not separate during repetitive contraction.
+
+The __lateral component__ lies parallel to the fibre; **gap junctions** sit here and let contraction signals pass from cell to cell, and their lateral position shelters them from the contraction forces.
 ## explicit_objective
 Describe the intercalated disc as it appears by light microscopy and by electron microscopy, and say which junction lies in which component and what each one does.
 
@@ -818,8 +826,7 @@ relationships: Walked the live CON-MSK-* muscle concepts, of which CON-MSK-E3693
 CON-MSK-2E451ACE10A724
 
 ## label
-A cardiac muscle fibre is many linked myocytes with a thin sarcolemma, one central nucleus, few myofibrils, numerous large mitochondria, a diad tubular system, and glycogen, lipofuscin and atrial granules in its sarcoplasm
-
+The cardiac muscle fibre and its myocytes
 ## canonical_key
 cardiac-muscle.fibre.lm-em-structure
 
@@ -841,8 +848,13 @@ Brown atrophy of the heart
 حبيبات الليبوفسين
 
 ## definition
-Each cardiac muscle fibre is made up of many separate cardiac myocytes linked to each other. By light microscopy a cardiac myocyte is a cylindrical cell about 80 micrometres in length and 15 micrometres in diameter that branches and joins to adjacent cells; its sarcolemma is a thin cell membrane, its nucleus is single (occasionally two), oval and central, and its sarcoplasm is acidophilic, showing non-clear (less distinct than skeletal muscle) transverse striations and intercalated discs. By electron microscopy the sarcoplasm holds fewer myofibrils than skeletal muscle; numerous large mitochondria with closely packed cristae; and a sarcoplasmic reticulum that is less developed than in skeletal muscle and forms, with the T-tubule, a diad (not a triad) tubular system at the level of the Z line. Its inclusions are glycogen granules; lipofuscin granules, which accumulate with age to form brown atrophy of the heart; and, in atrial muscle cells only, atrial granules containing atrial natriuretic hormones that affect urinary sodium and water excretion — giving atrial muscle cells an endocrine function as well as a contractile one.
+Each **cardiac muscle fibre** is made up of many separate cardiac myocytes linked to each other.
 
+By **light microscopy** a cardiac myocyte is a cylindrical cell about **80 micrometres long and 15 micrometres in diameter** that branches and joins adjacent cells. Its sarcolemma is a thin cell membrane; its nucleus is __single (occasionally two), oval and central__; and its acidophilic sarcoplasm shows non-clear transverse striations (less distinct than skeletal muscle) and intercalated discs.
+
+By **electron microscopy** the sarcoplasm holds __fewer myofibrils than skeletal muscle__; numerous large mitochondria with closely packed cristae; and a sarcoplasmic reticulum less developed than in skeletal muscle that forms, with the T-tubule, a **diad (not a triad) tubular system** at the level of the Z line.
+
+Its inclusions are **glycogen granules**; **lipofuscin granules**, which accumulate with age to form brown atrophy of the heart; and, in atrial muscle cells only, **atrial granules** containing atrial natriuretic hormones that affect urinary sodium and water excretion — __giving atrial muscle cells an endocrine function as well as a contractile one__.
 ## explicit_objective
 State the light-microscopic size, shape, sarcolemma and nucleus of a cardiac myocyte, and its electron-microscopic organelles (myofibrils, mitochondria, diad tubular system) and inclusions (glycogen, lipofuscin, atrial granules), including the endocrine role of atrial granules.
 
@@ -1002,8 +1014,7 @@ relationships: This is the general LM/EM structure of a cardiac myocyte, distinc
 CON-MSK-5EA95D36121EF8
 
 ## label
-Purkinje fibres are larger, pale and vacuolated cardiac muscle fibres in the moderator band that conduct via gap junctions without intercalated discs
-
+Purkinje fibres of the conducting system
 ## canonical_key
 cardiac-muscle.purkinje-fibres.histological-characteristics
 
@@ -1023,8 +1034,11 @@ Conducting fibres of the heart
 ألياف بوركنجى
 
 ## definition
-Purkinje muscle fibres are highly specialised cardiac muscle fibres that constitute the atrioventricular (A-V) bundle and its branches; the moderator band, located in the right ventricle, contains Purkinje fibres. They rapidly transmit the contractile impulse to various parts of the ventricular cardiac muscle via gap junctions, faster than ordinary myocardium, and are grouped into bundles surrounded by a connective-tissue sheath. Histologically they are larger in diameter than ordinary cardiac muscle fibres; their nucleus is usually eccentric in position; their sarcoplasm is pale and vacuolated from excess glycogen; they show no striations because they have few myofibrils, which lie peripherally, parallel to the sarcolemma; and they carry no intercalated discs.
+**Purkinje muscle fibres** are highly specialised cardiac muscle fibres that constitute the **atrioventricular (A-V) bundle** and its branches; the **moderator band** in the right ventricle contains Purkinje fibres.
 
+They __rapidly transmit the contractile impulse__ to the ventricular muscle via **gap junctions**, faster than ordinary myocardium, and are grouped into bundles surrounded by a connective-tissue sheath.
+
+Histologically they are __larger in diameter__ than ordinary cardiac fibres, with a usually eccentric nucleus and pale, vacuolated sarcoplasm from excess glycogen. They show **no striations** because their few myofibrils lie peripherally, parallel to the sarcolemma, and they carry **no intercalated discs**.
 ## explicit_objective
 Define Purkinje muscle fibres by site and function (the moderator band, the A-V bundle and its branches, and rapid gap-junction conduction faster than ordinary myocardium), and list the five histological features — diameter, nucleus position, sarcoplasm, striations, intercalated discs — that distinguish them from an ordinary cardiac myocyte.
 
@@ -1184,8 +1198,7 @@ relationships: Cross-linked to CON-MSK-0DEAF126DF8F2E (intercalated disc — the
 CON-MSK-B080975D6171CF
 
 ## label
-Skeletal, cardiac and smooth muscle differ across site, size, fibre composition, shape, branching, sarcolemma, striation, nuclei, sarcomeres, tubular system, cell junctions, regeneration, action and innervation
-
+Skeletal, cardiac and smooth muscle compared
 ## canonical_key
 muscle-tissue.three-types.comparison-table
 
@@ -1204,8 +1217,19 @@ Three types of muscle fibers table
 جدول الفروق بين أنواع الأنسجة العضلية
 
 ## definition
-The department book's own summary table sets the three muscle types side by side across fourteen features. Site: skeletal muscle attaches to bone, cardiac muscle forms the heart wall, smooth muscle lies in the wall of the viscera. Size: skeletal fibres are largest, cardiac fibres medium-sized, smooth fibres smallest. Single fibre: a skeletal fibre is a single cell and a smooth fibre is a single cell, while a cardiac fibre is made of several linked cells (myocytes). Shape: skeletal and cardiac fibres are cylindrical, smooth fibres are spindle-shaped. Branching: skeletal fibres rarely branch, cardiac fibres branch, smooth fibres do not branch. Sarcolemma: thick in skeletal muscle, very thin in cardiac muscle, thin in smooth muscle. Striation: skeletal muscle is striated, cardiac muscle shows non-clear striation, smooth muscle is non-striated. Nuclei: skeletal fibres have multiple, peripheral nuclei, cardiac and smooth fibres each have one central nucleus. Sarcomeres: regular in skeletal muscle, irregular in cardiac muscle, absent in smooth muscle. Tubular system: skeletal muscle has a triad system at the A-I junction, cardiac muscle has a diad system at the level of the Z line, smooth muscle has no tubular system (caveolae instead). Cell junctions: skeletal muscle has none, cardiac muscle has the intercalated disc (fascia adherens, desmosomes and gap junctions), smooth muscle has gap junctions alone. Regeneration: skeletal muscle regenerates from satellite cells, cardiac muscle cannot regenerate in normal conditions, smooth muscle regenerates by mitosis or from pericytes. Action: skeletal muscle is voluntary; cardiac and smooth muscle are involuntary. Innervation: skeletal muscle has motor innervation; cardiac and smooth muscle have autonomic innervation. The table's own final row also names each type's distinguishing modification where one exists: the muscle spindle for skeletal muscle and Purkinje fibres for cardiac muscle, with no entry printed for smooth muscle.
+The department book's summary table sets the **three muscle types** side by side across fourteen features.
 
+**Site:** skeletal muscle attaches to bone, cardiac muscle forms the heart wall, smooth muscle lies in the wall of the viscera. **Size:** skeletal fibres are largest, cardiac medium, smooth smallest. **Single fibre:** a skeletal fibre is one cell and a smooth fibre is one cell, while a cardiac fibre is made of several linked cells (myocytes).
+
+**Shape:** skeletal and cardiac fibres are cylindrical, smooth fibres spindle-shaped. **Branching:** skeletal fibres rarely branch, cardiac fibres branch, smooth fibres do not. **Sarcolemma:** thick in skeletal, very thin in cardiac, thin in smooth.
+
+**Striation:** skeletal is striated, cardiac shows non-clear striation, smooth is non-striated. **Nuclei:** skeletal fibres have multiple peripheral nuclei, cardiac and smooth each have one central nucleus. **Sarcomeres:** regular in skeletal, irregular in cardiac, absent in smooth.
+
+**Tubular system:** skeletal has a triad at the A-I junction, cardiac a diad at the Z line, smooth none (caveolae instead). **Cell junctions:** skeletal none, cardiac the intercalated disc (fascia adherens, desmosomes and gap junctions), smooth gap junctions alone.
+
+**Regeneration:** skeletal regenerates from satellite cells, cardiac cannot regenerate in normal conditions, smooth regenerates by mitosis or from pericytes. **Action:** skeletal is __voluntary__; cardiac and smooth are __involuntary__. **Innervation:** skeletal has motor innervation; cardiac and smooth have autonomic innervation.
+
+The table's final row also names each type's distinguishing modification where one exists: the **muscle spindle** for skeletal muscle and **Purkinje fibres** for cardiac muscle, with no entry printed for smooth muscle.
 ## explicit_objective
 Reproduce, feature by feature, the department book's own table comparing skeletal, cardiac and smooth muscle across site, size, single-fibre composition, shape, branching, sarcolemma thickness, striation, nuclei, sarcomeres, tubular system, cell junctions, regeneration, action and innervation.
 
@@ -1366,8 +1390,7 @@ relationships: Cross-linked to the three muscle-type records this table draws it
 CON-MSK-888DFA3AA4E974
 
 ## label
-Smooth muscle has caveolae instead of T-tubules and dense bodies instead of Z lines, and its irregular myofilaments leave it unstriated
-
+Ultrastructure of the smooth muscle cell
 ## canonical_key
 smooth.muscle-ultrastructure.em-picture
 
@@ -1387,8 +1410,13 @@ Smooth muscle fibre
 الكهيفات
 
 ## definition
-On electron microscopy the smooth muscle cell has a thin sarcolemma surrounded by a basal lamina, with no T-tubules and no tubular system; instead the surface is invaginated into caveolae, which control calcium release and contraction. The single oval central nucleus takes a corkscrew shape during contraction. The acidophilic sarcoplasm holds numerous mitochondria, sarcoplasmic reticulum, free ribosomes, a small Golgi apparatus and glycogen granules, mainly around the nucleus. Thick myosin and thin actin filaments are irregularly arranged, so no striations appear. Actin inserts into sarcoplasmic and sarcolemma-associated dense bodies, which correspond to the Z line of striated muscle, and abundant intermediate desmin filaments insert there too; those attachments transmit contractile force to adjacent cells. There is no troponin — calmodulin takes its place.
+On **electron microscopy** the smooth muscle cell has a thin sarcolemma surrounded by a basal lamina, with __no T-tubules and no tubular system__; instead the surface is invaginated into **caveolae**, which control calcium release and contraction.
 
+The single oval central nucleus takes a **corkscrew shape** during contraction. The acidophilic sarcoplasm holds numerous mitochondria, sarcoplasmic reticulum, free ribosomes, a small Golgi apparatus and glycogen granules, mainly around the nucleus.
+
+Thick **myosin** and thin **actin** filaments are __irregularly arranged, so no striations appear__. Actin inserts into sarcoplasmic and sarcolemma-associated **dense bodies**, which correspond to the Z line of striated muscle; abundant intermediate **desmin** filaments insert there too, and these attachments transmit contractile force to adjacent cells.
+
+There is **no troponin** — __calmodulin takes its place__.
 ## explicit_objective
 Describe the electron-microscopic picture of a smooth muscle cell, and name the striated-muscle structure that each smooth-muscle feature replaces.
 
@@ -1545,8 +1573,7 @@ relationships: Walked the live CON-MSK-* and CON-RES-* smooth-muscle concepts an
 CON-MSK-967E873EEEACE0
 
 ## label
-Bone cells include osteogenic cells, osteoblasts, osteocytes, and osteoclasts
-
+The four cell types of bone
 ## canonical_key
 bone.cells.four-types
 
@@ -1562,8 +1589,11 @@ teaching.bone.cells (legacy canonical key)
 خلايا العظم
 
 ## definition
-Bone contains four cell types. Three are one lineage: the osteogenic (osteoprogenitor) cell, arising from undifferentiated mesenchymal cells and pericytes, divides and gives rise to the osteoblast, the bone-forming cell; the osteoblast, once surrounded by the calcified matrix it has deposited, becomes an imprisoned mature bone cell, the osteocyte. The fourth, the osteoclast, is not part of that sequence: it is a multinucleated bone-destroying cell formed instead by fusion of mononuclear haemopoietic progenitor cells.
+Bone contains **four cell types**. Three belong to one lineage; the fourth stands apart.
 
+The **osteogenic (osteoprogenitor) cell** arises from undifferentiated mesenchymal cells and pericytes, divides, and gives rise to the **osteoblast**, the bone-forming cell. The osteoblast, once surrounded by the calcified matrix it has deposited, becomes an imprisoned mature bone cell, the **osteocyte**.
+
+The fourth cell, the **osteoclast**, is __not part of that sequence__: it is a multinucleated bone-destroying cell formed instead by fusion of mononuclear haemopoietic progenitor cells.
 ## explicit_objective
 Name the four bone cell types, state which three form one differentiation lineage and which one does not, and explain the origin of each.
 
@@ -1637,8 +1667,7 @@ canonicalKey: This block previously carried two `## canonical_key` headings (`te
 CON-MSK-E36936D62038BF
 
 ## label
-Alternating anisotropic dark A bands and isotropic light I bands create striations
-
+A bands and I bands make the striations
 ## canonical_key
 skeletal.myofibril.a-and-i-bands
 
@@ -1654,8 +1683,9 @@ teaching.a-i-bands (legacy canonical key)
 الحزم الداكنة والفاتحة المكوّنة للتخطيط العرضي
 
 ## definition
-Each myofibril of striated muscle shows alternating dark and light bands, and the dark bands of adjacent myofibrils line up at the same level, producing the appearance of transverse striations. Under the polarising microscope the light band does not alter the plane of polarised light and is therefore isotropic, so it is called the I band; the dark band alters polarised light in two planes and is therefore anisotropic, so it is called the A band.
+Each myofibril of striated muscle shows alternating dark and light bands, and the dark bands of adjacent myofibrils line up at the same level, producing the appearance of **transverse striations**.
 
+Under the polarising microscope the __light band is isotropic__ — it does not alter the plane of polarised light — so it is called the **I band**. The __dark band is anisotropic__ — it alters polarised light in two planes — so it is called the **A band**.
 ## explicit_objective
 Explain why the A band is called anisotropic and the I band isotropic, based on their behaviour under polarised light, and state how their alternation produces the appearance of transverse striation.
 
@@ -1727,8 +1757,7 @@ canonicalKey: This block previously carried two `## canonical_key` headings (`te
 CON-DER-A4BD56E5027310
 
 ## label
-Arrector pili is a smooth-muscle bundle extending from mid hair follicle to papillary dermis
-
+The arrector pili muscle
 ## canonical_key
 hair-follicle.arrector-pili.structure-attachment
 
@@ -1746,8 +1775,9 @@ teaching.arrector.structure (legacy canonical key)
 العضلة الناصبة للشعرة
 
 ## definition
-The arrector pili muscle is a bundle of smooth muscle fibres that extends from the mid shaft of the hair follicle to the papillary layer of the dermis. In fear and cold, sympathetic stimulation contracts the arrector pili, erecting the hair, depressing the skin over the muscle, and elevating the skin around the hair — the "goose skin" response.
+The **arrector pili muscle** is a bundle of smooth muscle fibres that extends from the mid shaft of the hair follicle to the **papillary layer of the dermis**.
 
+In fear and cold, __sympathetic stimulation contracts the arrector pili__, erecting the hair, depressing the skin over the muscle and elevating the skin around the hair — the **"goose skin"** response.
 ## explicit_objective
 State the attachments of the arrector pili muscle and explain the goose-skin response as a sympathetically driven smooth-muscle contraction.
 
@@ -1815,8 +1845,7 @@ canonicalKey: This block previously carried two `## canonical_key` headings (`te
 CON-MSK-842FCAD0B94A8F
 
 ## label
-Cartilage is an avascular connective tissue with a rubbery matrix that bears mechanical stress
-
+Cartilage: an avascular supporting tissue
 ## canonical_key
 cartilage.general.characteristics-composition
 
@@ -1834,8 +1863,11 @@ Cartilage matrix composition
 مصفوفة الغضروف
 
 ## definition
-Cartilage is a specialised type of connective tissue in which the matrix is rubbery yet flexible, so that it bears mechanical stress. Like connective tissue proper, its cells (chondroblasts and chondrocytes) are widely separated by a considerable amount of matrix, formed of collagen and elastic fibres embedded in ground substance. It arises from undifferentiated mesenchymal cells, is avascular and has no lymph vessels or nerves, and is nourished only by diffusion of oxygen and nutrients from the surrounding connective tissue or, at a joint, from synovial fluid.
+**Cartilage** is a specialised connective tissue whose matrix is __rubbery yet flexible, so it bears mechanical stress__.
 
+Like connective tissue proper, its cells (**chondroblasts** and **chondrocytes**) are widely separated by a considerable amount of matrix, formed of collagen and elastic fibres embedded in ground substance.
+
+It arises from undifferentiated mesenchymal cells and is **avascular**, with no lymph vessels or nerves. It is __nourished only by diffusion__ of oxygen and nutrients from the surrounding connective tissue or, at a joint, from synovial fluid.
 ## explicit_objective
 State the general characteristics, composition and functions of cartilage, and explain why it is avascular, has no lymphatics or nerves, and is classified into three types on the basis of its matrix.
 
@@ -1995,8 +2027,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-E198B099DCA0C0
 
 ## label
-The chondroblast arises from mesenchymal cells, sits on the cartilage surface, and secretes matrix for appositional growth
-
+The chondroblast and appositional growth
 ## canonical_key
 cartilage.chondroblast.structure-origin-site-lm-em-function
 
@@ -2012,8 +2043,13 @@ Cartilage-forming cell
 كوندروبلاست
 
 ## definition
-The chondroblast arises from undifferentiated mesenchymal cells, which withdraw their processes, proliferate and transform into chondroblasts that start to secrete matrix. It always lies on the surface of the cartilage, at the inner aspect of the perichondrium. By light microscopy it is flat to oval or spindle-shaped, with deeply basophilic cytoplasm and a flat, oval, pale-stained nucleus with a prominent nucleolus, and it can divide. By electron microscopy it shows the features of a protein-forming cell: a euchromatic nucleus, abundant ribosomes and rough endoplasmic reticulum, a large Golgi apparatus and many mitochondria. It forms cartilage collagen (type II) and cartilage matrix, and changes into a chondrocyte once matrix surrounds it, producing appositional growth of cartilage from outside.
+The **chondroblast** arises from undifferentiated mesenchymal cells, which withdraw their processes, proliferate and transform into chondroblasts that start to secrete matrix. It always lies on the __surface of the cartilage__, at the inner aspect of the perichondrium.
 
+By **light microscopy** it is flat to oval or spindle-shaped, with deeply basophilic cytoplasm and a flat, oval, pale-stained nucleus with a prominent nucleolus, and it can divide.
+
+By **electron microscopy** it shows the features of a **protein-forming cell**: a euchromatic nucleus, abundant ribosomes and rough endoplasmic reticulum, a large Golgi apparatus and many mitochondria.
+
+It forms cartilage collagen (**type II**) and cartilage matrix, and changes into a **chondrocyte** once matrix surrounds it, producing __appositional growth of cartilage from outside__.
 ## explicit_objective
 State the origin, site, light- and electron-microscopic features of the chondroblast, and explain its role in appositional cartilage growth.
 
