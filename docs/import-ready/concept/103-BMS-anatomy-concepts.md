@@ -48,8 +48,7 @@
 CON-MSK-59755B64721E3D
 
 ## label
-The adductor canal is a triangular tunnel with three walls that carries four structures from the femoral triangle to the popliteal fossa
-
+The adductor canal
 ## canonical_key
 femur.adductor-canal.boundaries-contents
 
@@ -68,8 +67,11 @@ Boundaries and contents of the adductor canal
 قناة المقربات في الفخذ
 
 ## definition
-The adductor canal is an intermuscular tunnel on the medial side of the middle third of the thigh, under cover of sartorius. It runs from the apex of the femoral triangle to the adductor hiatus in adductor magnus. It is triangular in cross section: the antero-medial wall is a fibrous roof between vastus medialis and adductor magnus covered by sartorius, the posterior wall or floor is adductor longus above and adductor magnus below, and the antero-lateral wall is vastus medialis. It contains the femoral artery, the femoral vein, the saphenous nerve and the nerve to vastus medialis.
+The **adductor canal** is an intermuscular tunnel on the medial side of the middle third of the thigh, under cover of sartorius. It runs from the apex of the femoral triangle to the **adductor hiatus** in adductor magnus.
 
+It is triangular in cross section. The **antero-medial wall** is a fibrous roof between vastus medialis and adductor magnus, covered by sartorius; the **posterior wall (floor)** is adductor longus above and adductor magnus below; and the **antero-lateral wall** is vastus medialis.
+
+It contains four structures: the **femoral artery**, the **femoral vein**, the **saphenous nerve** and the **nerve to vastus medialis**.
 ## explicit_objective
 Enumerate the three walls of the adductor canal, naming the muscle that forms each, and list its four contents.
 
@@ -227,8 +229,7 @@ relationships: Walked the 41 live concepts on DIS-ANA-T03 and the nine new sibli
 CON-MSK-32B5B7A5CD2A27
 
 ## label
-Peroneus longus everts and plantar-flexes the foot and is supplied by the superficial peroneal nerve
-
+Peroneus longus
 ## canonical_key
 peroneus.longus.attachments-action-nerve
 
@@ -246,8 +247,11 @@ Nerve supply of peroneus longus
 عضلة الشظية الطويلة
 
 ## definition
-Peroneus longus arises from the upper two thirds of the lateral surface of the shaft of the fibula. Its tendon crosses the sole transversely from lateral to medial, in the fourth layer, to insert into the lateral aspect of the medial cuneiform and the lateral aspect of the base of the first metatarsal. It is supplied by the musculo-cutaneous (superficial peroneal) nerve. It everts the foot at the subtalar joint and plantar-flexes it at the ankle joint, and supports the lateral longitudinal and transverse arches.
+**Peroneus longus** arises from the upper two-thirds of the lateral surface of the shaft of the fibula. Its tendon crosses the sole transversely from lateral to medial, in the fourth layer, to insert into the lateral aspect of the medial cuneiform and the base of the first metatarsal.
 
+It is supplied by the **musculo-cutaneous (superficial peroneal) nerve**.
+
+It __everts the foot at the subtalar joint and plantar-flexes it at the ankle joint__, and supports the lateral longitudinal and transverse arches.
 ## explicit_objective
 State the origin, insertion, nerve supply and two actions of peroneus longus, and say which joint each action occurs at.
 
@@ -405,8 +409,7 @@ relationships: Walked the 41 live concepts on DIS-ANA-T03 and the nine new sibli
 CON-MSK-D30F43945FC3C2
 
 ## label
-Every hip movement has one prime mover with named assistants, and lateral rotation is the work of the six small rotators
-
+Muscles that move the hip joint
 ## canonical_key
 hip.movements.muscles-acting
 
@@ -424,8 +427,15 @@ Flexors and extensors of the hip
 حركات الورك
 
 ## definition
-The hip is a polyaxial ball-and-socket synovial joint, so it moves in three planes. Flexion is mainly iliopsoas, assisted by sartorius and rectus femoris. Extension is mainly gluteus maximus, assisted by the hamstrings and the ischial part of adductor magnus. Abduction is mainly gluteus medius and minimus, assisted by tensor fasciae latae. Adduction is mainly the adductors, assisted by gracilis and pectineus. Medial rotation is gluteus medius and minimus, anterior fibres only. Lateral rotation is the small lateral rotators — obturator internus and externus, the two gemelli, quadratus femoris and piriformis — assisted by gluteus maximus and sartorius. Circumduction is a combination of flexion, abduction, extension and finally adduction.
+The hip is a **polyaxial ball-and-socket synovial joint**, so it moves in three planes.
 
+**Flexion** is mainly iliopsoas, assisted by sartorius and rectus femoris. **Extension** is mainly gluteus maximus, assisted by the hamstrings and the ischial part of adductor magnus.
+
+**Abduction** is mainly gluteus medius and minimus, assisted by tensor fasciae latae. **Adduction** is mainly the adductors, assisted by gracilis and pectineus.
+
+**Medial rotation** is gluteus medius and minimus, anterior fibres only. **Lateral rotation** is the __six small lateral rotators__ — obturator internus and externus, the two gemelli, quadratus femoris and piriformis — assisted by gluteus maximus and sartorius.
+
+**Circumduction** is a combination of flexion, abduction, extension and finally adduction.
 ## explicit_objective
 List the seven movements of the hip joint and name, for each, the prime mover and its assisting muscles.
 
@@ -583,8 +593,7 @@ relationships: Walked the 41 live concepts on DIS-ANA-T03 and the nine new sibli
 CON-MSK-0696B3F764DABC
 
 ## label
-The posterior tibial artery gives seven branches, of which the peroneal is the largest and the main supply of the leg
-
+The posterior tibial artery and its branches
 ## canonical_key
 artery.posterior-tibial.branches
 
@@ -602,8 +611,11 @@ Fibular artery
 الشريان الشظوي
 
 ## definition
-The posterior tibial artery begins as the larger of the two terminal branches of the popliteal artery at the lower border of popliteus, and ends under the flexor retinaculum by dividing into the medial and lateral plantar arteries. Along the way it gives the circumflex fibular artery, the peroneal artery, muscular branches to the back of the leg, a nutrient artery to the tibia, a medial malleolar branch and a medial calcanean branch. The peroneal artery is the largest branch and the main supply of the leg, and itself gives muscular branches, a nutrient artery to the fibula, a lateral malleolar branch, a perforating branch and a lateral calcanean branch.
+The **posterior tibial artery** begins as the larger of the two terminal branches of the popliteal artery at the lower border of popliteus, and ends under the flexor retinaculum by dividing into the **medial and lateral plantar arteries**.
 
+Along the way it gives seven branches: the circumflex fibular artery, the peroneal artery, muscular branches to the back of the leg, a nutrient artery to the tibia, a medial malleolar branch and a medial calcanean branch.
+
+The **peroneal artery** is the __largest branch and the main supply of the leg__. It gives muscular branches, a nutrient artery to the fibula, a lateral malleolar branch, a perforating branch and a lateral calcanean branch.
 ## explicit_objective
 Summarise the branches of the posterior tibial artery, naming the terminal branches and the branches of the peroneal artery separately.
 
@@ -761,8 +773,7 @@ relationships: Walked the 41 live concepts on DIS-ANA-T03 and the nine new sibli
 CON-MSK-D622CBF981F879
 
 ## label
-The sciatic nerve leaves the pelvis below piriformis and divides a little below the middle of the thigh
-
+The sciatic nerve: origin and course
 ## canonical_key
 sciatic.course.pelvis-to-lower-thigh
 
@@ -780,8 +791,11 @@ Nervus ischiadicus
 العصب النسوي
 
 ## definition
-The sciatic nerve is the thickest nerve in the body. It arises from the sacral plexus from the anterior and posterior divisions of L4, L5, S1, S2 and S3 inside the pelvis, and leaves the pelvis through the greater sciatic foramen below piriformis to enter the gluteal region. It descends on the back of the ischium and enters the back of the thigh midway between the greater trochanter and the ischial tuberosity, and it ends a little below the middle of the thigh by dividing into its two terminal branches, the common peroneal and the tibial nerve.
+The **sciatic nerve** is the __thickest nerve in the body__. It arises from the sacral plexus, from the anterior and posterior divisions of L4, L5, S1, S2 and S3 inside the pelvis.
 
+It leaves the pelvis through the **greater sciatic foramen below piriformis** to enter the gluteal region, descends on the back of the ischium, and enters the back of the thigh midway between the greater trochanter and the ischial tuberosity.
+
+It ends __a little below the middle of the thigh__ by dividing into its two terminal branches, the **common peroneal** and the **tibial** nerve.
 ## explicit_objective
 Trace the sciatic nerve from the sacral plexus to its division, naming the foramen it uses, its relation to piriformis, and the level at which it divides.
 
@@ -939,8 +953,7 @@ relationships: Walked the 41 live concepts on DIS-ANA-T03 and the nine new sibli
 CON-MSK-51EC648BDAF36B
 
 ## label
-The sciatic nerve gives two terminal divisions, muscular branches split between its tibial and common peroneal parts, and an articular branch to the hip
-
+Branches of the sciatic nerve
 ## canonical_key
 sciatic.branches.terminal-muscular-articular
 
@@ -957,8 +970,11 @@ Muscular branches of the sciatic nerve
 الفرع الظنبوبي والفرع الشظوي المشترك
 
 ## definition
-The sciatic nerve's branches are the tibial (medial popliteal) nerve, the larger terminal division which leaves the thigh and enters the popliteal fossa; the common peroneal (lateral popliteal) nerve, the smaller terminal division which enters the fossa lateral to the tibial nerve; muscular branches, which come from the tibial part to the long head of biceps femoris, semitendinosus, semimembranosus and the ischial part of adductor magnus, and from the common peroneal part to the short head of biceps femoris alone; and articular branches to the hip joint.
+The sciatic nerve has two terminal divisions. The **tibial (medial popliteal) nerve** is the larger, leaving the thigh to enter the popliteal fossa; the **common peroneal (lateral popliteal) nerve** is the smaller, entering the fossa lateral to the tibial nerve.
 
+Its **muscular branches** come from the __tibial part__ to the long head of biceps femoris, semitendinosus, semimembranosus and the ischial part of adductor magnus, and from the __common peroneal part__ to the short head of biceps femoris alone.
+
+It also gives **articular branches** to the hip joint.
 ## explicit_objective
 List the branches of the sciatic nerve and state which of the two parts supplies each hamstring, distinguishing the short head of biceps femoris from the rest.
 
@@ -1116,8 +1132,7 @@ relationships: Kept separate from CON-MSK-D622CBF981F879 because the paper asks 
 CON-MSK-AB5318A9255811
 
 ## label
-A fracture of the neck of the fibula injures the common peroneal nerve, because the nerve is wrapped around that neck
-
+Why a fibular neck fracture injures the common peroneal nerve
 ## canonical_key
 fibula.neck-fracture.common-peroneal-injury
 
@@ -1135,8 +1150,9 @@ Causes of common peroneal nerve injury
 العصب المأبضي الوحشي
 
 ## definition
-The common peroneal nerve leaves the popliteal fossa, curves behind the head of the fibula and then lies against the lateral aspect of its neck, covered only by skin and fascia, before it pierces peroneus longus. That superficial course against bone is why a fracture of the head or neck of the fibula — or pressure from a cast or splint at that point — is the classic cause of common peroneal nerve injury.
+The **common peroneal nerve** leaves the popliteal fossa, curves behind the head of the fibula, and then lies against the lateral aspect of its **neck**, __covered only by skin and fascia__, before it pierces peroneus longus.
 
+That superficial course against bone is why a __fracture of the head or neck of the fibula__ — or pressure from a cast or splint at that point — is the classic cause of common peroneal nerve injury.
 ## explicit_objective
 Given a fracture of the neck of the fibula, name the nerve at risk and justify the answer from the nerve's course.
 
@@ -1294,8 +1310,7 @@ relationships: Walked the 41 live concepts on DIS-ANA-T03 and the nine new sibli
 CON-MSK-C7BC26EBAF066B
 
 ## label
-Common peroneal palsy abolishes dorsiflexion and eversion because it denervates both the anterior and the lateral compartment of the leg
-
+Common peroneal palsy: lost dorsiflexion and eversion
 ## canonical_key
 peroneal.common.motor-loss-dorsiflexion-eversion
 
@@ -1313,8 +1328,11 @@ Paralysis of the peroneal muscles
 هبوط القدم
 
 ## definition
-The common peroneal nerve divides inside peroneus longus into the superficial and deep peroneal nerves. The deep peroneal nerve supplies the extensor muscles of the front of the leg, which dorsiflex the foot; the superficial peroneal nerve supplies the three peroneal muscles, which evert it. A lesion of the parent nerve therefore denervates both compartments at once: dorsiflexion is lost, giving foot drop, and eversion is lost with it.
+The common peroneal nerve divides inside peroneus longus into the **superficial** and **deep peroneal nerves**.
 
+The **deep peroneal nerve** supplies the extensor muscles of the front of the leg, which __dorsiflex__ the foot; the **superficial peroneal nerve** supplies the three peroneal muscles, which __evert__ it.
+
+A lesion of the parent nerve therefore denervates both compartments at once: dorsiflexion is lost, giving **foot drop**, and eversion is lost with it.
 ## explicit_objective
 Explain why a common peroneal lesion abolishes both dorsiflexion and eversion, naming the terminal nerve and the muscle group responsible for each movement.
 
@@ -1471,8 +1489,7 @@ relationships: Kept separate from CON-MSK-AB5318A9255811 because a student can n
 CON-MSK-0351AAD4CAB1EE
 
 ## label
-The cutaneous branches the common peroneal nerve gives in the popliteal fossa are the sural communicating nerve and the lateral cutaneous nerve of the calf
-
+Cutaneous branches of the common peroneal nerve in the fossa
 ## canonical_key
 peroneal.common.cutaneous-branches
 
@@ -1490,8 +1507,11 @@ Peroneal communicating branch
 العصب الرابط الربلي
 
 ## definition
-While it is still in the popliteal fossa the common peroneal nerve gives two cutaneous branches. The sural communicating nerve arises in the upper part of the fossa and runs inferomedially to join the sural nerve. The lateral cutaneous nerve of the calf arises on the lateral head of gastrocnemius and supplies the upper third of the anterolateral side of the leg. The nerve's other cutaneous territory — the front of the lower leg and the dorsum of the foot — is reached later, through its terminal superficial and deep peroneal branches.
+While it is still in the popliteal fossa the common peroneal nerve gives two cutaneous branches.
 
+The **sural communicating nerve** arises in the upper part of the fossa and runs inferomedially to join the sural nerve. The **lateral cutaneous nerve of the calf** arises on the lateral head of gastrocnemius and supplies the upper third of the anterolateral leg.
+
+The nerve's other cutaneous territory — the front of the lower leg and the dorsum of the foot — is reached later, through its terminal superficial and deep peroneal branches.
 ## explicit_objective
 Name the two cutaneous branches the common peroneal nerve gives in the popliteal fossa and state the skin each supplies.
 
@@ -1648,8 +1668,7 @@ relationships: Walked the 41 live concepts on DIS-ANA-T03 and the nine new sibli
 CON-MSK-016DE81C5919CE
 
 ## label
-The deformity of common peroneal palsy is talipes equinovarus, and its mirror image, talipes calcaneo-valgus, belongs to the tibial nerve
-
+Talipes equinovarus versus calcaneo-valgus
 ## canonical_key
 peroneal.common.talipes-equinovarus
 
@@ -1668,8 +1687,9 @@ Deformity of common peroneal nerve injury
 حنف القدم
 
 ## definition
-When the common peroneal nerve is injured the foot hangs plantar-flexed because the anterior compartment no longer dorsiflexes it, and it is drawn into inversion because the peroneal muscles no longer evert it against the intact invertors. That combination — foot drop with inversion — is talipes equinovarus. Injury of the tibial nerve produces the opposite picture, dorsiflexion and eversion of the foot, which is talipes calcaneo-valgus.
+When the **common peroneal nerve** is injured the foot hangs plantar-flexed because the anterior compartment no longer dorsiflexes it, and it is drawn into inversion because the peroneal muscles no longer evert it against the intact invertors. That combination — __foot drop with inversion__ — is **talipes equinovarus**.
 
+Injury of the **tibial nerve** produces the opposite picture, dorsiflexion and eversion of the foot, which is **talipes calcaneo-valgus**.
 ## explicit_objective
 Name the deformity that follows a common peroneal nerve injury and distinguish it from the deformity of a tibial nerve injury.
 
@@ -1833,8 +1853,9 @@ Anterior relations in adductor canal
 femur.adductor-canal.anterior-relations
 
 ## definition
-Inside the adductor canal, the femoral artery has two structures anterior to it: the fibrous antero-medial roof of the canal itself, and sartorius, which lies on top of that roof. The book states this as the first of the canal's four relations, opposite the posterior relations of adductor longus and adductor magnus.
+Inside the adductor canal, the femoral artery has two structures anterior to it: the fibrous **antero-medial roof** of the canal itself, and **sartorius**, which lies on top of that roof.
 
+The book states this as the first of the canal's four relations, opposite the posterior relations of adductor longus and adductor magnus.
 ## explicit_objective
 State what lies anterior to the femoral artery inside the adductor canal, distinguishing the fibrous roof from the muscle that merely covers it.
 
@@ -1881,9 +1902,9 @@ Adductor longus behind femoral artery
 femur.adductor-canal.posterior-relation-adductor-longus
 
 ## definition
-Inside the adductor canal, adductor longus lies posterior to the femoral artery in the upper part of the canal, above adductor magnus. The book notes that adductor longus is also what separates the femoral artery from the profunda femoris vessels at this level, so the same muscle both forms a posterior relation of the artery and keeps it apart from the deep vessels of the thigh.
-Adductor magnus lies posterior to adductor longus, forming the lower part of the same posterior relation before the femoral vessels reach the adductor hiatus.
+Inside the adductor canal, **adductor longus** lies __posterior to the femoral artery__ in the upper part of the canal, above adductor magnus.
 
+Adductor longus is also what separates the femoral artery from the **profunda femoris vessels** at this level, so the same muscle both forms a posterior relation of the artery and keeps it apart from the deep vessels of the thigh.
 ## explicit_objective
 Name the two muscles that lie posterior to the femoral artery in the adductor canal, in order from above downwards, and state what adductor longus separates the artery from.
 
@@ -1930,8 +1951,11 @@ Adductor magnus behind femoral artery
 femur.adductor-canal.posterior-relation-adductor-magnus
 
 ## definition
-Adductor magnus is the second of the two muscles posterior to the femoral artery inside the adductor canal, lying below adductor longus. The femoral vein is also posterior to the artery, but only in the upper part of the canal, where it still lies alongside it before crossing to the medial side lower down. Adductor magnus itself is pierced lower still, at the adductor hiatus, which is where the femoral vessels leave the canal to become the popliteal vessels.
+**Adductor magnus** is the second of the two muscles __posterior to the femoral artery__ inside the adductor canal, lying below adductor longus.
 
+The **femoral vein** is also posterior to the artery, but only in the upper part of the canal, where it still lies alongside it before crossing to the medial side lower down.
+
+Adductor magnus itself is pierced lower still, at the **adductor hiatus**, which is where the femoral vessels leave the canal to become the popliteal vessels.
 ## explicit_objective
 State which muscle lies immediately behind adductor longus as a posterior relation of the femoral artery in the adductor canal, and say what opening in that same muscle marks the end of the canal.
 
@@ -1978,8 +2002,11 @@ Acetabular hip articular surface
 hip.acetabulum.articular-surface
 
 ## definition
-The acetabulum of the hip bone is the cup-like socket of the hip joint, articulating with the head of the femur. Its own articular surface is not the whole cup: a smooth, horseshoe-shaped area, the lunate articular surface, runs around the outer rim, while the centre of the socket is a rough, non-articular acetabular fossa. The horseshoe is open at its lower margin, the acetabular notch, which the transverse acetabular ligament bridges to form the acetabular foramen for the vessels and nerves entering the joint.
+The **acetabulum** of the hip bone is the cup-like socket of the hip joint, articulating with the head of the femur.
 
+Its own articular surface is not the whole cup: a smooth, horseshoe-shaped **lunate articular surface** runs around the outer rim, while the centre of the socket is a rough, non-articular **acetabular fossa**.
+
+The horseshoe is open at its lower margin, the **acetabular notch**, which the **transverse acetabular ligament** bridges to form the acetabular foramen for the vessels and nerves entering the joint.
 ## explicit_objective
 Distinguish the articular from the non-articular parts of the acetabulum, name the horseshoe-shaped articular surface and the depression it surrounds, and state what interrupts the horseshoe inferiorly.
 
@@ -2024,8 +2051,11 @@ Acetabular branch of medial circumflex
 hip.acetabulum.acetabular-branch-medial-circumflex
 
 ## definition
-The medial circumflex femoral artery, a branch of the profunda femoris arising from its postero-medial aspect, gives an acetabular branch that reaches the hip joint through the acetabular foramen — the foramen formed when the transverse acetabular ligament bridges the acetabular notch. The same medial circumflex artery also gives an ascending branch, which shares in the trochanteric anastomosis, and a transverse branch, which winds around the femur near the lesser trochanter to share in the cruciate anastomosis; the acetabular branch is the one of the three that enters the joint itself rather than contributing to the peri-trochanteric anastomoses.
+The **medial circumflex femoral artery**, a branch of the profunda femoris arising from its postero-medial aspect, gives an **acetabular branch** that reaches the hip joint through the acetabular foramen — formed when the transverse acetabular ligament bridges the acetabular notch.
 
+The same artery also gives an **ascending branch**, which shares in the trochanteric anastomosis, and a **transverse branch**, which winds around the femur near the lesser trochanter to share in the cruciate anastomosis.
+
+Of the three, the __acetabular branch is the one that enters the joint itself__ rather than contributing to the peri-trochanteric anastomoses.
 ## explicit_objective
 Name the parent artery of the acetabular branch, state the route by which the branch reaches the hip joint, and distinguish it from the medial circumflex artery's other two named branches.
 
