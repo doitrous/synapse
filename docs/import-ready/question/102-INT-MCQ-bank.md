@@ -2172,3 +2172,1696 @@ yes
 Department book MCQ, transcribed rather than derived.
 ## author_notes
 Verbatim from page 71. Collagen is tagged as a contextual concept, not an assessed one: the stem uses collagen as the setting, and what is actually tested is which modification acts on prolyl and lysyl residues. Every distractor is one of the other four modification types and each explanation names the residues and the example that belong to it, so the whole five-item list is recoverable from the item.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-023
+## title
+Enzymes can recognize and react with a special chemical substance called:
+## question
+Enzymes can recognize and react with a special chemical substance called:
+## vignette
+Every enzyme is specific for the molecule it acts on. This item asks for the name of that molecule.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Cofactor
+## explanation_a
+A cofactor is a non-protein helper — a metal ion or an organic coenzyme — that some enzymes need in order to work. It assists catalysis; it is not the molecule the enzyme recognises and converts. Picking it confuses a helper of the enzyme with the target of the enzyme.
+## answer_b
+Activator
+## explanation_b
+An activator raises an enzyme’s activity, but it is not what the enzyme acts on. The stem asks for the molecule the enzyme recognises and reacts with, which is the substrate; the activator only modulates the rate at which that reaction runs.
+## answer_c
+Substrate
+## explanation_c
+Correct. The substrate is the specific molecule an enzyme binds at its active site and converts to product. Enzyme specificity is defined against the substrate — the active site is shaped to fit it — which is exactly the recognise-and-react relationship the stem describes.
+## answer_d
+Product
+## explanation_d
+The product is what the reaction yields, not what the enzyme starts from. It appears at the end, after the substrate has been converted; a student who picks it has read the reaction backwards.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-BA7E60E9E6800B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name the molecule an enzyme acts on and distinguish it from the cofactor, activator and product.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 1, page 45; printed answer key = c.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. Tests the substrate half of the concept definition, which lists specificity for the substrate as a defining feature of enzymes.
+---
+# Item
+## id
+QST-102-INT-MCQ-024
+## title
+Enzymes belong to which group of biomolecules?
+## question
+Enzymes belong to which group of biomolecules?
+## vignette
+The concept defines enzymes by their chemical class before anything else. This item asks for that class.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Lipids
+## explanation_a
+Lipids are hydrophobic molecules built mainly from fatty acids; they store energy and build membranes, and they are not catalysts of metabolic reactions in the way enzymes are. Almost all enzymes are proteins, so lipid is the wrong class.
+## answer_b
+Carbohydrates
+## explanation_b
+Carbohydrates are the substrates and energy stores of metabolism, not its catalysts. A student who picks this may be thinking of what enzymes act on rather than what enzymes are made of.
+## answer_c
+Phospholipids
+## explanation_c
+Phospholipids are the amphipathic building blocks of membranes, not catalysts. This distractor pairs the membrane role with the enzyme question; the two are unrelated.
+## answer_d
+Proteins
+## explanation_d
+Correct. Enzymes are proteins — polymers of amino acids folded into a shape that carries the active site. (The rare catalytic RNAs, ribozymes, are the sole exception and are not what a departmental “enzymes are…” item is asking.) The concept opens by defining enzymes as protein biocatalysts.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-BA7E60E9E6800B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the chemical class of enzymes and reject the other three macromolecule classes.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 2, page 45; printed answer key = d.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. The protein-nature claim is the first clause of the concept definition.
+---
+# Item
+## id
+QST-102-INT-MCQ-025
+## title
+Common features of the enzymes include:
+## question
+Common features of the enzymes include:
+## vignette
+Four statements are offered about enzymes; only one is a genuine property. The other three are the classic misconceptions the definition exists to correct.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Produced by living cells
+## explanation_a
+Correct. Enzymes are synthesised by living cells — this is part of their definition as biological catalysts. The other three options are each a property enzymes specifically do NOT have, which is why this is the only defensible choice.
+## answer_b
+Affection of the reaction equilibrium
+## explanation_b
+A catalyst speeds a reaction toward equilibrium but never moves the equilibrium position itself; it accelerates the forward and reverse rates equally. Believing an enzyme shifts equilibrium is the single most common enzyme misconception, and the concept names it explicitly as false.
+## answer_c
+Chemically changed at the end of the reaction
+## explanation_c
+A catalyst emerges from the reaction unchanged and is free to act again — that is what makes tiny amounts sufficient. “Chemically changed at the end” describes a reactant, not a catalyst.
+## answer_d
+Needed in large amount
+## explanation_d
+Because they are regenerated, enzymes are needed only in trace amounts; one enzyme molecule turns over many substrate molecules. “Large amount” contradicts the catalytic definition.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-BA7E60E9E6800B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Select a true property of enzymes and reject the three standard false claims (they shift equilibrium, are consumed, or are needed in bulk).
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 3, page 45; printed answer key = a.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. Each distractor is a negation of a clause in the concept definition (unchanged by the reaction, needed in tiny amounts, does not affect equilibrium).
+---
+# Item
+## id
+QST-102-INT-MCQ-026
+## title
+The enzymes are polymers of:
+## question
+The enzymes are polymers of:
+## vignette
+Following on from the class of enzymes, this item asks for their monomer.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Fatty acids
+## explanation_a
+Fatty acids are the building blocks of lipids, not proteins. This is the distractor for a student who has not connected “enzymes are proteins” to “proteins are chains of amino acids”.
+## answer_b
+Amino acids
+## explanation_b
+Correct. Enzymes are proteins, and proteins are polymers of amino acids joined by peptide bonds. The chain folds so that particular side chains come together to form the active site.
+## answer_c
+Hexose sugars
+## explanation_c
+Hexose sugars are the monomers of polysaccharides such as glycogen and starch, not of proteins. Picking this confuses the carbohydrate polymer with the protein polymer.
+## answer_d
+Inorganic phosphate
+## explanation_d
+Inorganic phosphate is a small ion, not a monomer of any macromolecule chain; it is a backbone linker in nucleic acids but is never the repeating unit of a protein.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-BA7E60E9E6800B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify the monomer of an enzyme as the amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 4, page 45; printed answer key = b.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. Direct corollary of the protein-nature clause in the concept definition.
+---
+# Item
+## id
+QST-102-INT-MCQ-027
+## title
+The active site of an enzyme:
+## question
+The active site of an enzyme:
+## vignette
+The active site is the pocket where catalysis happens. Three of these statements misdescribe it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is remote from the site of substrate attachment
+## explanation_a
+The active site IS the site of substrate attachment — substrate binding and catalysis happen in the same pocket. A site remote from where the substrate binds describes an allosteric site, not the active site.
+## answer_b
+Is converted to product
+## explanation_b
+The substrate is converted to product; the active site is not consumed. Confusing the site with the substrate it holds is the error here — the enzyme, active site included, is regenerated.
+## answer_c
+Catalyses the reaction
+## explanation_c
+Correct. The active site binds the substrate and catalyses its conversion, chiefly by lowering the activation energy of the reaction. This is the defining function named in the concept.
+## answer_d
+Increases the energy of reaction
+## explanation_d
+An enzyme LOWERS the activation energy — that is the whole mechanism of catalysis. “Increases the energy of reaction” inverts it, and is the trap for a student who has the direction of the energy barrier reversed.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-5846431203789F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State what the active site does — bind substrate and catalyse the reaction — and reject claims that it is remote, is consumed, or raises the reaction’s energy.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 5, page 45; printed answer key = c.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. Distractor D is the exact inverse of the mechanism clause, deliberately paired with the correct statement.
+---
+# Item
+## id
+QST-102-INT-MCQ-028
+## title
+In any reaction catalyzed by an enzyme, the reacting molecule is called the:
+## question
+In any reaction catalyzed by an enzyme, the reacting molecule is called the:
+## vignette
+A second phrasing of the substrate definition, this time against a different set of distractors.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Substrate
+## explanation_a
+Correct. The reacting molecule the enzyme binds and converts is the substrate. Everything else listed is either a helper of the enzyme or a variant of the enzyme, not the molecule being reacted on.
+## answer_b
+Cofactor
+## explanation_b
+A cofactor is a non-protein helper the enzyme may need; it is not the reacting molecule. It assists the conversion of the substrate rather than being converted itself.
+## answer_c
+Coenzyme
+## explanation_c
+A coenzyme is an organic cofactor (often vitamin-derived) that ferries chemical groups. It participates in catalysis but is not the substrate whose fate the reaction describes.
+## answer_d
+Isozyme
+## explanation_d
+Isozymes are different protein forms of the same enzyme activity. This option names a kind of enzyme, not the molecule the enzyme acts on.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-BA7E60E9E6800B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name the reacting molecule as the substrate and separate it from cofactor, coenzyme and isozyme.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 6, page 45; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. Same substrate claim as item 23, kept because the department asks it against a distinct distractor set (cofactor/coenzyme/isozyme).
+---
+# Item
+## id
+QST-102-INT-MCQ-029
+## title
+The general mechanism in enzyme action is by:
+## question
+The general mechanism in enzyme action is by:
+## vignette
+This item asks for the single sentence that captures how any enzyme accelerates a reaction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Reducing activation energy
+## explanation_a
+Correct. An enzyme provides an alternative reaction path with a lower activation energy, so more substrate molecules can cross the barrier per unit time. This is the universal mechanism of enzyme catalysis stated in the concept.
+## answer_b
+Increasing activation energy
+## explanation_b
+Increasing the activation energy would SLOW the reaction — the opposite of catalysis. This is the sign-flip trap: the barrier is lowered, never raised.
+## answer_c
+Decreasing pH value
+## explanation_c
+Enzymes do not work by changing the pH of the medium; rather, each enzyme has an optimum pH at which it works best. Confusing “pH affects enzymes” with “enzymes act by changing pH” reverses cause and effect.
+## answer_d
+Increasing pH value
+## explanation_d
+As with option C, altering pH is not how an enzyme catalyses. pH is a condition that affects the enzyme, not a lever the enzyme pulls on the reaction.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-5846431203789F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that enzymes work by lowering activation energy, not by changing pH.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 7, page 45; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+OCR fragment “me Enzymes 42” trailing option D on the page was a running header, not part of the option, and was dropped. Verbatim otherwise from page 45.
+---
+# Item
+## id
+QST-102-INT-MCQ-030
+## title
+Factors affecting enzyme activity include:
+## question
+Factors affecting enzyme activity include:
+## vignette
+Three genuine factors are listed separately, then together. The best answer is the one that is complete.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Temperature
+## explanation_a
+Temperature does affect enzyme activity, but it is not the only factor, so on its own it is an incomplete answer to a stem that lists all three separately and then together.
+## answer_b
+Concentration of substrate
+## explanation_b
+Substrate concentration is a real factor, but choosing it alone ignores temperature and pH, which the stem also offers. The combined option is more complete.
+## answer_c
+pH
+## explanation_c
+pH is a genuine factor — each enzyme has an optimum pH — but selecting it alone is incomplete for the same reason as A and B.
+## answer_d
+Temperature, concentration and pH
+## explanation_d
+Correct. Temperature, substrate concentration and pH all set the rate of an enzyme-catalysed reaction, and the concept lists exactly these (with enzyme and cofactor concentration) as the determinants. When a stem offers each true factor separately and then all together, the all-together option is the intended answer.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-F29934C070A94C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Reasoning
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise temperature, substrate concentration and pH as jointly the factors that set enzyme rate.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 10, page 46; printed answer key = d.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 46. Classic “all of the above” structure; the concept enumerates these determinants explicitly.
+---
+# Item
+## id
+QST-102-INT-MCQ-031
+## title
+In enzyme kinetics, Km implies:
+## question
+In enzyme kinetics, Km implies:
+## vignette
+The Michaelis constant has one precise definition and several near-miss paraphrases. This item separates them.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The substrate concentration that gives one half Vmax
+## explanation_a
+Correct. Km is the substrate concentration at which the reaction runs at half of its maximal velocity (Vmax). This is the operational definition, and a smaller Km means the enzyme reaches half-maximal speed at lower substrate — i.e. higher affinity.
+## answer_b
+The dissociation constant for the enzyme substrate complex
+## explanation_b
+Km equals the dissociation constant of the ES complex only under the special assumption that the complex is at true equilibrium (k2 much smaller than the off-rate). As a general definition of Km this is an approximation, not the primary meaning, so it is not the best answer.
+## answer_c
+Concentration of enzyme
+## explanation_c
+Km is a substrate concentration, not an enzyme concentration, and it is independent of how much enzyme is present. This option confuses the two concentrations.
+## answer_d
+Half of the substrate concentration required to achieve Vmax
+## explanation_d
+This is the deliberate corruption: Km is not “half the substrate needed for Vmax”. Vmax is approached only at saturating (effectively infinite) substrate, so “half the substrate for Vmax” has no defined value. Km is defined the other way round — the substrate that gives half the VELOCITY.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-028C50A610B2A2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that Km is the substrate concentration giving half Vmax and reject the corrupted paraphrase.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 13, page 46; printed answer key = a.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 46. Distractors B and D are the two standard Km misstatements; the concept fixes Km as the substrate concentration for half Vmax.
+---
+# Item
+## id
+QST-102-INT-MCQ-032
+## title
+The catalytic efficiency of two different enzymes can be compared by the:
+## question
+The catalytic efficiency of two different enzymes can be compared by the:
+## vignette
+To rank two enzymes for how readily they act on their substrate, one parameter is the standard yardstick.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Formation of the product
+## explanation_a
+That both enzymes make product tells you nothing about which does so more readily; every working enzyme forms product. It is not a comparative measure of affinity or efficiency.
+## answer_b
+Km value
+## explanation_b
+Correct. Km compares the substrate affinity of two enzymes: the enzyme with the lower Km reaches half-maximal velocity at lower substrate and so binds its substrate more effectively. That is why Km is the standard comparator, as the concept states.
+## answer_c
+Molecular size of the enzymes
+## explanation_c
+Molecular size does not track catalytic efficiency — small and large enzymes can be equally or unequally efficient. Size is irrelevant to the comparison.
+## answer_d
+pH of optimum value
+## explanation_d
+Optimum pH tells you the conditions each enzyme prefers, not how efficiently it handles its substrate. Two enzymes could share an optimum pH yet differ widely in Km.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-028C50A610B2A2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Use Km as the comparator of substrate affinity between enzymes and reject size, pH and product formation.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 14, page 46; printed answer key = b.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 46. Leans on the affinity clause of the Km concept (lower Km = higher affinity).
+---
+# Item
+## id
+QST-102-INT-MCQ-033
+## title
+Blocking the enzyme action by occupying its active site is called:
+## question
+Blocking the enzyme action by occupying its active site is called:
+## vignette
+Inhibitors are named by where and how they act. This item asks for the term when the block is at the active site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Non-competitive inhibition
+## explanation_a
+A non-competitive inhibitor binds a site OTHER than the active site, so it is not defeated by adding substrate. The stem specifies the active site, which points to competitive inhibition instead.
+## answer_b
+Allosteric inhibition
+## explanation_b
+Allosteric inhibition also acts away from the active site, at a regulatory site, changing the enzyme’s shape. It is not the active-site block the stem describes.
+## answer_c
+Competitive inhibition
+## explanation_c
+Correct. When the inhibitor occupies the active site itself — because it resembles the substrate — it is a competitive inhibitor. The concept ties competitive inhibition to active-site occupancy by a substrate look-alike.
+## answer_d
+Feedback inhibition
+## explanation_d
+Feedback inhibition names WHERE in a pathway an inhibitor acts (an end product switching off an earlier step), not the active-site mechanism. That end product is usually an allosteric, not active-site, inhibitor.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-CB8584ED2F3C49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name active-site occupancy by a substrate-like molecule as competitive inhibition.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 17, page 47; printed answer key = c.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 47. The active-site occupancy clause is central to the competitive-inhibition concept.
+---
+# Item
+## id
+QST-102-INT-MCQ-034
+## title
+Enzyme inhibition caused by a substance resembling the substrate molecule is called:
+## question
+Enzyme inhibition caused by a substance resembling the substrate molecule is called:
+## vignette
+Structural resemblance to the substrate is the signature of one class of inhibitor.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Allosteric inhibition
+## explanation_a
+Allosteric inhibitors need not resemble the substrate at all; they bind a separate regulatory site by their own shape. Resemblance to the substrate is not their defining feature.
+## answer_b
+Competitive inhibition
+## explanation_b
+Correct. A molecule that resembles the substrate closely enough to fit the active site competes with the substrate for that site — competitive inhibition. Substrate mimicry is exactly the clause the concept uses to define it.
+## answer_c
+Feedback inhibition
+## explanation_c
+Feedback inhibition describes a pathway end product shutting down an upstream enzyme; the inhibitor there resembles the end product, not the substrate of the enzyme it blocks.
+## answer_d
+Non-competitive inhibition
+## explanation_d
+A non-competitive inhibitor binds away from the active site and does not resemble the substrate. Structural mimicry is the hallmark of the competitive type instead.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-CB8584ED2F3C49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Link substrate resemblance to competitive inhibition.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 18, page 47; printed answer key = b.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 47. Same concept as item 33, asked from the substrate-resemblance side; kept because the two phrasings catch different errors.
+---
+# Item
+## id
+QST-102-INT-MCQ-035
+## title
+A competitive inhibitor:
+## question
+A competitive inhibitor:
+## vignette
+Competitive inhibition has a precise kinetic fingerprint on Km and Vmax. This item tests that fingerprint.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Increases the Km of the enzyme
+## explanation_a
+Correct. A competitive inhibitor raises the apparent Km — more substrate is now needed to reach half-maximal velocity because inhibitor and substrate compete for the active site. Vmax is unchanged, since enough substrate still out-competes the inhibitor. The concept states exactly this: higher apparent Km, untouched Vmax.
+## answer_b
+Decreases the Vmax of the enzyme
+## explanation_b
+Lowering Vmax is the fingerprint of a NON-competitive inhibitor, which removes functional enzyme regardless of substrate. A competitive inhibitor leaves Vmax intact because saturating substrate overcomes it.
+## answer_c
+Increases the Vmax of the enzyme
+## explanation_c
+No inhibitor increases Vmax — inhibition can only reduce or leave activity unchanged. This option confuses inhibition with activation.
+## answer_d
+Decreases the Km of the enzyme
+## explanation_d
+A competitive inhibitor raises, not lowers, Km. Decreasing Km would mean tighter substrate binding, the opposite of what competition for the active site produces.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-CB8584ED2F3C49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.55
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a competitive inhibitor raises apparent Km while leaving Vmax unchanged.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 19, page 47; printed answer key = a.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 47 (trailing OCR fragment “mum Enzymes 44” on option D was a running footer, dropped). The Km-up / Vmax-unchanged signature is the crux of the concept.
+---
+# Item
+## id
+QST-102-INT-MCQ-036
+## title
+An allosteric effector influences enzyme activity by:
+## question
+An allosteric effector influences enzyme activity by:
+## vignette
+Allosteric regulation is defined by where the effector binds and what that binding does to the protein.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Covalently modifying the enzyme
+## explanation_a
+Covalent modification (such as phosphorylation) is a separate regulatory mechanism. An allosteric effector binds non-covalently and reversibly; it does not form a covalent bond with the enzyme.
+## answer_b
+Binding to the substrate and altering its conformation
+## explanation_b
+An allosteric effector binds the ENZYME, not the substrate. Altering the substrate’s conformation is not the mechanism; changing the enzyme’s conformation is.
+## answer_c
+Competing for the catalytic site with substrate
+## explanation_c
+Competing for the catalytic site describes a competitive inhibitor. The defining feature of an allosteric effector is that it acts at a DIFFERENT site, not the active site.
+## answer_d
+Binding to a site on the enzyme distinct from the catalytic site
+## explanation_d
+Correct. An allosteric effector binds a regulatory site distinct from the active site and changes activity by inducing a conformational change in the protein. That distinct-site, conformational mechanism is precisely the concept’s definition.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-6BBAC69900B22F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Describe allosteric action as binding a site distinct from the active site to produce a conformational change.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 20, page 48; printed answer key = d.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 48. Distractor C is the deliberate competitive-inhibition confusion the allosteric concept is meant to separate.
+---
+# Item
+## id
+QST-102-INT-MCQ-037
+## title
+Which of the following represents irreversible enzyme inhibition?
+## question
+Which of the following represents irreversible enzyme inhibition?
+## vignette
+Some inhibitors bind and let go; others disable the enzyme for good. This item asks for an example of the permanent kind.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Statins
+## explanation_a
+Statins reversibly inhibit HMG-CoA reductase; they are competitive, substrate-like inhibitors that bind and release, not permanent poisons. So they are not an example of irreversible inhibition.
+## answer_b
+Allopurinol
+## explanation_b
+Allopurinol inhibits xanthine oxidase; it acts reversibly (its oxidised product binds tightly but the classic teaching contrasts it with true irreversible poisons). It is not the intended answer for permanent inhibition.
+## answer_c
+Mercury
+## explanation_c
+Correct. Mercury and other heavy-metal salts inhibit irreversibly by combining with free sulfhydryl (–SH) groups on the enzyme, permanently disabling it. The concept names heavy-metal binding to sulfhydryl groups as the model of irreversible inhibition.
+## answer_d
+Sulfonamides
+## explanation_d
+Sulfonamides are competitive, reversible inhibitors — they mimic PABA and block bacterial folate synthesis, releasing when PABA rises. Reversible, not irreversible.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-42EE1863F04920
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify a heavy-metal poison as an irreversible inhibitor and separate it from reversible drug inhibitors.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 21, page 48; printed answer key = c.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 48. The mercury/sulfhydryl mechanism is stated in the irreversible-inhibition concept; the three drug distractors are all reversible inhibitors.
+---
+# Item
+## id
+QST-102-INT-MCQ-038
+## title
+A zymogen or proenzyme is:
+## question
+A zymogen or proenzyme is:
+## vignette
+Some enzymes are made in an off state and switched on later. This item asks what that off form is.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+A hormone
+## explanation_a
+A hormone is a signalling molecule, not an inactive enzyme. A zymogen may be activated in response to signals, but it is itself an enzyme-in-waiting, not the signal.
+## answer_b
+A vitamin
+## explanation_b
+A vitamin is a micronutrient, often the source of a coenzyme. It is unrelated to the definition of a zymogen as an inactive enzyme form.
+## answer_c
+An enzyme precursor
+## explanation_c
+Correct. A zymogen (proenzyme) is an inactive precursor of an enzyme, switched on by proteolytic removal of the part of the chain that masks its active site. That precursor definition is exactly the concept.
+## answer_d
+A modulator
+## explanation_d
+A modulator adjusts an enzyme’s activity (as an allosteric effector does). A zymogen is not a modulator; it is the enzyme itself before activation.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-F6E154FA6FF42A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Define a zymogen as an inactive enzyme precursor.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 23, page 48; printed answer key = c.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 48. Straight statement of the zymogen concept’s core definition.
+---
+# Item
+## id
+QST-102-INT-MCQ-039
+## title
+An example of a pro-enzyme is:
+## question
+An example of a pro-enzyme is:
+## vignette
+Having defined a zymogen, this item asks which of four names is one.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pepsinogen
+## explanation_a
+Correct. Pepsinogen is the inactive precursor secreted by gastric chief cells; acid and autocatalysis cleave it to active pepsin. The “-ogen” suffix flags the zymogen, and pepsinogen is the concept’s worked example.
+## answer_b
+Trypsin
+## explanation_b
+Trypsin is the ACTIVE enzyme; its zymogen is trypsinogen. Picking trypsin selects the product of activation rather than the precursor the stem asks for.
+## answer_c
+Chymotrypsin
+## explanation_c
+Chymotrypsin is likewise the active form; its precursor is chymotrypsinogen. Same error as trypsin — the active enzyme, not the proenzyme.
+## answer_d
+Lysine
+## explanation_d
+Lysine is an amino acid, not an enzyme at all, let alone a proenzyme. It is the odd-one-out distractor.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-F6E154FA6FF42A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise pepsinogen as a zymogen and distinguish it from the active enzymes and the amino acid distractor.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 24, page 48; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 48. Pepsinogen→pepsin is the example named in the zymogen concept; trypsin/chymotrypsin are the active-form traps.
+---
+# Item
+## id
+QST-102-INT-MCQ-040
+## title
+Phosphorylation / dephosphorylation of enzymes:
+## question
+Phosphorylation / dephosphorylation of enzymes:
+## vignette
+Reversible covalent modification is a major on/off switch in metabolism. This item tests its specifics.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Occurs on specific serine and threonine residues
+## explanation_a
+Correct. A protein kinase attaches phosphate to specific serine, threonine (and sometimes tyrosine) residues; a phosphatase removes it. The concept identifies these hydroxyl-bearing residues as the sites of the modification.
+## answer_b
+Is a non-covalent type of modification
+## explanation_b
+Phosphorylation forms a covalent phosphoester bond to the residue’s hydroxyl group — it is a covalent modification, not a non-covalent interaction. This option contradicts the mechanism.
+## answer_c
+Is an irreversible type of modification
+## explanation_c
+It is reversible: kinase adds the phosphate, phosphatase takes it off, which is what makes it usable as a rapid on/off switch. “Irreversible” is the trap that confuses it with proteolytic activation.
+## answer_d
+Does not affect the enzyme’s catalytic activity
+## explanation_d
+The whole point of the modification is that it changes activity — switching an enzyme on or off depending on which enzyme it is. Saying it has no effect denies its regulatory role.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-6A58FA1680290F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that enzyme phosphorylation is a reversible covalent modification on serine and threonine residues that changes activity.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 25, page 48; printed answer key = a.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 48. The serine/threonine, covalent, reversible clauses are all in the covalent-modification concept.
