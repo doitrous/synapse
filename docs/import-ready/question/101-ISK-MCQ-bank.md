@@ -55621,3 +55621,11331 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the second of the three forms of pseudostratified columnar epithelium is the ciliated form with goblet cells, known as the respiratory epithelium of the nose, trachea and bronchi.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-551
+## title
+Branches of ulnar artery in the forearm, choose the correct answer:
+## question
+Branches of ulnar artery in the forearm, choose the correct answer:
+## vignette
+This item asks the student to separate the ulnar artery’s forearm branches from the brachial artery’s and the radial artery’s.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Anterior ulnar recurrent
+## explanation_a
+Correct. The ulnar artery gives the anterior and posterior ulnar recurrent arteries near its beginning, and both ascend to the anastomosis round the elbow.
+
+Why this is right:
+- The ulnar artery begins in the cubital fossa below the elbow joint as the larger terminal branch of the brachial artery.
+- It runs obliquely downwards and medially in the upper third of the forearm, then vertically along the medial side of its front, and at the wrist descends superficial to the flexor retinaculum, lateral to the ulnar nerve and the pisiform and medial to the hook of the hamate, ending in the hand as the superficial palmar arch.
+- In the forearm it gives muscular branches to the ulnar-side muscles, and at the wrist the anterior and posterior carpal arteries that form the two carpal arches.
+## answer_b
+Ulnar collateral artery
+## explanation_b
+The superior and inferior ulnar collateral arteries are branches of the brachial artery in the arm. They meet the ulnar recurrents at the elbow, which is why the two names are so easily exchanged: collaterals come down from above, recurrents come up from below.
+## answer_c
+Superficial palmar branch
+## explanation_c
+The superficial palmar branch belongs to the radial artery. The ulnar artery does not branch into the superficial arch — it becomes it, and the radial branch completes it.
+## answer_d
+Nutrient branch to humerus
+## explanation_d
+The nutrient artery of the humerus comes from the brachial artery in the arm; the question asks about the forearm.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-25C6698A72A982
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Separate the ulnar artery’s forearm branches from the brachial artery’s and the radial artery’s.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p36 q13; Upper MCQ Dr.jalal (1).pdf p57 q13; Anatomy Question [Upper Limb] (1).pdf p28 q159; Anatomy MCQ Book [2025] [first priority].pdf p48 q159. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling `branches-of-ulnar-artery-in-the-forearm-choose-the-correct-a-5bbc137c` gives C, the superficial palmar branch, which is a branch of the radial artery — the ulnar artery does not give it, it becomes the superficial arch that branch completes. The anterior ulnar recurrent is a genuine ulnar branch given just below the elbow.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-552
+## title
+Concerning with pronation and supination:
+## question
+Concerning with pronation and supination:
+## vignette
+This item asks the student to state which of the two bones moves in pronation, which movement is stronger, and what brachioradialis actually does.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pronation is more powerful than supination
+## explanation_a
+Backwards. Supination is the more powerful movement because biceps, a large muscle, is added to supinator; that is why a right-handed screw thread is cut to be driven by supination.
+## answer_b
+Biceps when the elbow is extended
+## explanation_b
+Biceps is the powerful supinator with the elbow flexed, not extended — flexion is what gives its tendon the leverage to unwind the radial tuberosity. The option is a fragment in this copy, but the error is in the word "extended".
+## answer_c
+Brachioradialis puts the forearm in mid-prone position
+## explanation_c
+Correct. Brachioradialis is a mid-prone muscle: from full pronation it supinates to the mid position and from full supination it pronates to it, and no further either way.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## answer_d
+The radius is fixed, the ulna is the movable bone
+## explanation_d
+The wrong way round. The ulna is fixed and the radius rotates about it, carrying the hand — which is exactly why the head of the radius has to be free to spin inside the anular ligament.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+State which of the two bones moves in pronation, which movement is stronger, and what brachioradialis actually does.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p27 q51; Upper MCQ Dr.jalal (1).pdf p38 q51; Anatomy Question [Upper Limb] (1).pdf p30 q172; Anatomy MCQ Book [2025] [first priority].pdf p50 q172. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the two keyed copies disagree with each other and with the anatomy — one gives A and one gives B. Supination is the stronger movement, because biceps is added to supinator; the ulna is the fixed bone and the radius the one that rotates; and biceps supinates best with the elbow flexed, not extended. Brachioradialis, which is neither a pronator nor a supinator in the full sense, brings the forearm to mid-prone from either extreme, which leaves C as the only true statement.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-553
+## title
+Pronator quadratus, choose the correct answer:
+## question
+Pronator quadratus, choose the correct answer:
+## vignette
+This item asks the student to give the attachments, action and nerve of pronator quadratus in the right direction.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Arises from anterior surface of the distal fourth of the radius
+## explanation_a
+Reversed. It arises from the lower quarter of the anterior surface of the ulna; every pronator must pull the radius across the ulna, so the ulna is where a pronator takes hold.
+## answer_b
+Inserted into anterior surface of the distal fourth of the ulna
+## explanation_b
+Reversed in the same way. Its insertion is the lower quarter of the anterior surface of the radius.
+## answer_c
+Pronates the forearm at radioulnar joints
+## explanation_c
+Correct. Pronation happens at the superior and inferior radio-ulnar joints, and pronator quadratus is the muscle placed exactly across the inferior one.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_d
+Is innervated by posterior interosseous nerve
+## explanation_d
+The posterior interosseous nerve supplies the extensor compartment. Pronator quadratus is the deepest anterior muscle and takes the anterior interosseous branch of the median nerve.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the attachments, action and nerve of pronator quadratus in the right direction.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p10 q15; Upper MCQ Dr.jalal (1).pdf p15 q15; Anatomy Question [Upper Limb] (1).pdf p34 q196; Anatomy MCQ Book [2025] [first priority].pdf p54 q196. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. Pronator quadratus arises from the ulna and inserts into the radius, so options A and B state the attachments the wrong way round, and its nerve is the anterior interosseous branch of the median, not the posterior interosseous — which leaves C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-554
+## title
+The following muscle is innervated by the radial nerve:
+## question
+The following muscle is innervated by the radial nerve:
+## vignette
+This item asks the student to separate the three muscles the radial nerve supplies itself from the rest of the extensor compartment.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Supinator
+## explanation_a
+Supinator is supplied by the posterior interosseous nerve, which pierces it. It is radial at one remove, and the item is asking which muscle the radial nerve supplies directly.
+## answer_b
+Abductor pollicis longus
+## explanation_b
+Abductor pollicis longus is a deep extensor and therefore posterior interosseous.
+## answer_c
+Extensor pollicis longus
+## explanation_c
+Extensor pollicis longus is likewise deep and posterior interosseous.
+## answer_d
+Extensor carpi radialis longus
+## explanation_d
+Correct. Extensor carpi radialis longus is supplied by the radial nerve itself, before the division into terminal branches — which is why the wrist still extends when the posterior interosseous nerve alone is cut.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Separate the three muscles the radial nerve supplies itself from the rest of the extensor compartment.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p19 q10; Upper MCQ Dr.jalal (1).pdf p31 q10; Anatomy Question [Upper Limb] (1).pdf p1 q1; Anatomy MCQ Book [2025] [first priority].pdf p19 q1. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-555
+## title
+The median nerve supplies, one of the following muscle:
+## question
+The median nerve supplies, one of the following muscle:
+## vignette
+This item asks the student to pick the median muscle out of a list of ulnar ones.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Flexor carpi ulnaris muscle
+## explanation_a
+Flexor carpi ulnaris is one of the only two muscles in the anterior compartment of the forearm that are not median — the other being the medial half of flexor digitorum profundus.
+## answer_b
+Dorsal interossei
+## explanation_b
+The dorsal interossei are supplied by the deep branch of the ulnar nerve.
+## answer_c
+Opponens pollicis
+## explanation_c
+Correct. Opponens pollicis is a thenar muscle, supplied by the recurrent branch of the median nerve.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## answer_d
+Adductor pollicis muscle
+## explanation_d
+Adductor pollicis is a thumb muscle and ulnar, which is exactly the pairing this item is testing — abductor and opponens are median, adductor is not.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Pick the median muscle out of a list of ulnar ones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p12 q22; Upper MCQ Dr.jalal (1).pdf p16 q22; Anatomy Question [Upper Limb] (1).pdf p10 q57; Anatomy MCQ Book [2025] [first priority].pdf p28 q57. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-556
+## title
+The radius is fixed (tethered) to the ulna by:
+## question
+The radius is fixed (tethered) to the ulna by:
+## vignette
+This item asks the student to name the structure that holds the two forearm bones at a fixed distance.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Articular disc of the wrist joint
+## explanation_a
+The articular disc of the wrist joint binds the lower end of the ulna to the radius at one point, but it does not tether the shafts; it is part of the inferior radio-ulnar joint.
+## answer_b
+Interosseous membrane
+## explanation_b
+Correct. The interosseous membrane runs between the interosseous borders of the two bones for most of their length, holding them apart and transmitting weight from the radius to the ulna.
+
+Why this is right:
+- The interosseous membrane is a strong fibrous sheet stretched between the interosseous borders of the radius and the ulna, tethering the two bones together and holding them at their proper distance through pronation and supination.
+## answer_c
+Radial collateral ligament
+## explanation_c
+The radial collateral ligament runs from the lateral epicondyle to the anular ligament and belongs to the elbow.
+## answer_d
+Ulnar collateral ligament
+## explanation_d
+The ulnar collateral ligament runs from the medial epicondyle to the ulna and never reaches the radius.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4CFF00B2741E50
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name the structure that holds the two forearm bones at a fixed distance.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p26 q47; Upper MCQ Dr.jalal (1).pdf p37 q47; Anatomy Question [Upper Limb] (1).pdf p24 q136; Anatomy MCQ Book [2025] [first priority].pdf p42 q136. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed copy `the-radius-is-xed-tethered-to-the-ulna-by-dep-book-ac-p-a-ar-eb71997e` gives D, the ulnar collateral ligament, which belongs to the elbow joint and connects the humerus to the ulna — it touches the radius nowhere. The structure joining the two forearm bones along their length is the interosseous membrane.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-557
+## title
+Which of the following muscle may be paralyzed as a result of fracture of the medial ep…
+## question
+Which of the following muscle may be paralyzed as a result of fracture of the medial epicondyle of the humerus?
+## vignette
+This item asks the student to work from a fracture of the medial epicondyle to the nerve behind it and then to a muscle that nerve supplies.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+First lumbrical
+## explanation_a
+The first lumbrical is one of the lateral two, and those are median. It is the medial two that are ulnar.
+## answer_b
+Extensor digiti minimi
+## explanation_b
+Extensor digiti minimi is a posterior compartment muscle supplied by the posterior interosseous nerve; nothing at the medial epicondyle reaches it.
+## answer_c
+Adductor pollicis
+## explanation_c
+Correct. The fracture injures the ulnar nerve in its groove behind the epicondyle, and adductor pollicis is the muscle in which that nerve’s deep branch terminates.
+
+Why this is right:
+- The ulnar nerve is the largest branch of the medial cord of the brachial plexus, root value C8 and T1.
+## answer_d
+Flexor carpi radialis
+## explanation_d
+Flexor carpi radialis arises from the medial epicondyle but is supplied by the median nerve, which passes in front of the joint. Arising from the broken bone is not the same as being supplied by the nerve behind it — which is the whole point of the item.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Work from a fracture of the medial epicondyle to the nerve behind it and then to a muscle that nerve supplies.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p14 q33; Upper MCQ Dr.jalal (1).pdf p18 q33; Anatomy Question [Upper Limb] (1).pdf p8 q43; Anatomy MCQ Book [2025] [first priority].pdf p26 q43. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-558
+## title
+Flexion adduction of the wrist can be done by:
+## question
+Flexion adduction of the wrist can be done by:
+## vignette
+This item asks the student to read a compound wrist movement off the name of the muscle that produces it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Flexor pollicis longus
+## explanation_a
+Flexor pollicis longus flexes the thumb; it crosses the wrist and can help flex it, but it lies laterally and cannot adduct.
+## answer_b
+Flexor digitorum profundus
+## explanation_b
+Flexor digitorum profundus flexes the fingers and helps flex the wrist, but its four tendons straddle the midline and produce no deviation.
+## answer_c
+Flexor carpi radialis
+## explanation_c
+Flexor carpi radialis gives flexion with abduction — the mirror movement, and the one distractor that works by reversing a single word.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+Correct. Flexor carpi ulnaris flexes and adducts, which is exactly what its two names say: a flexor, on the ulnar side.
+
+Why this is right:
+- The wrist moves by pairs of muscles acting together while each cancels the other’s second action.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Read a compound wrist movement off the name of the muscle that produces it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p27 q56; Upper MCQ Dr.jalal (1).pdf p39 q56; Anatomy MCQ Book [2025] [first priority].pdf p36 q100. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The keyed copies disagree — one gives D and one gives A, flexor pollicis longus, which acts on the thumb and produces no ulnar deviation. Flexion combined with adduction is by definition flexor carpi ulnaris.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-559
+## title
+Mid-prone position of the forearm is achieved by, mark the most appropriate answer:
+## question
+Mid-prone position of the forearm is achieved by, mark the most appropriate answer:
+## vignette
+This item asks the student to name the muscle that brings the forearm to mid-prone from either extreme.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pronator teres
+## explanation_a
+Pronator teres pronates fully, and it is the quicker of the two pronators.
+## answer_b
+Pronator quadratus
+## explanation_b
+Pronator quadratus is the prime pronator and also carries the movement through its full range.
+## answer_c
+Brachioradialis
+## explanation_c
+Correct. Brachioradialis inserts on the lower end of the radius and its pull is strongest when the forearm is mid-prone, so it supinates a pronated forearm to that point and pronates a supinated one to it.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## answer_d
+Biceps brachii
+## explanation_d
+Biceps is the powerful supinator and takes the forearm to full supination.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name the muscle that brings the forearm to mid-prone from either extreme.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p18 q2; Upper MCQ Dr.jalal (1).pdf p30 q2; Anatomy Question [Upper Limb] (1).pdf p24 q134. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on either copy. Pronator teres and pronator quadratus carry the forearm into full pronation and biceps into full supination; brachioradialis is the one muscle whose line of pull brings it to the mid-prone position from either end and no further.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-560
+## title
+Regarding muscle actions of the upper limb:
+## question
+Regarding muscle actions of the upper limb:
+## vignette
+This item asks the student to check four muscle statements against their attachments and nerves in one pass.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Flexor digitorum superficialis flexes distal phalanges
+## explanation_a
+Flexor digitorum superficialis inserts into the sides of the middle phalanges and so flexes the middle, not the distal, phalanges. The distal phalanges belong to flexor digitorum profundus, which is what "profundus" reaches past it to do.
+## answer_b
+Biceps brachii is a powerful supinator
+## explanation_b
+Correct. Biceps is the powerful supinator of the flexed forearm, supinator itself being the weaker of the two.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_c
+Flexor carpi ulnaris is flexor and abductor of the wrist
+## explanation_c
+Flexor carpi ulnaris adducts the wrist. It is flexor and adductor, and the option has swapped in the opposite deviation.
+## answer_d
+Pronators muscles are supplied by ulnar nerve
+## explanation_d
+The pronators are median — pronator teres by a direct branch and pronator quadratus through the anterior interosseous nerve. The ulnar nerve has only two muscles in the whole forearm and neither pronates.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Check four muscle statements against their attachments and nerves in one pass.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p9 q9; Anatomy Question [Upper Limb] (1).pdf p12 q68; Anatomy MCQ Book [2025] [first priority].pdf p30 q68. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-561
+## title
+Regarding the ulnar artery, choose the correct answer:
+## question
+Regarding the ulnar artery, choose the correct answer:
+## vignette
+This item asks the student to give the beginning, ending and largest branch of the ulnar artery.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+It begins opposite the head of radius
+## explanation_a
+The brachial artery divides at the level of the neck of the radius, not the head, and the ulnar artery therefore begins a little below the head. The distinction is small and the books ask it, which is why it is offered.
+## answer_b
+It ends by forming the deep palmar arch
+## explanation_b
+It ends as the superficial palmar arch. The deep arch is the radial artery’s termination, and swapping the two arches is the standard error of this pair of vessels.
+## answer_c
+Its pulsation can be felt lateral to the flexor carpi ulnaris
+## explanation_c
+The artery does lie lateral to the tendon of flexor carpi ulnaris at the wrist, so the relation is right — but the pulse taken at the wrist is the radial, felt lateral to flexor carpi radialis, and it is that clinical fact the option is imitating. This option needs a faculty eye before students sit it.
+## answer_d
+It gives the common interosseous artery
+## explanation_d
+Correct. The common interosseous artery is a short trunk arising about an inch below the ulnar artery’s beginning and dividing at once into anterior and posterior interosseous arteries.
+
+Why this is right:
+- The ulnar artery begins in the cubital fossa below the elbow joint as the larger terminal branch of the brachial artery.
+- It runs obliquely downwards and medially in the upper third of the forearm, then vertically along the medial side of its front, and at the wrist descends superficial to the flexor retinaculum, lateral to the ulnar nerve and the pisiform and medial to the hook of the hamate, ending in the hand as the superficial palmar arch.
+- In the forearm it gives muscular branches to the ulnar-side muscles, and at the wrist the anterior and posterior carpal arteries that form the two carpal arches.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-25C6698A72A982
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the beginning, ending and largest branch of the ulnar artery.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p34 q2; Upper MCQ Dr.jalal (1).pdf p56 q2; Anatomy Question [Upper Limb] (1).pdf p3 q16. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-562
+## title
+Supination of the radioulnar joints is done mainly by:
+## question
+Supination of the radioulnar joints is done mainly by:
+## vignette
+This item asks the student to name the chief supinator.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pronator teres
+## explanation_a
+Pronator teres pronates. It is the printed answer on the other copy of this question and it names the antagonist.
+## answer_b
+Pronator quadratus
+## explanation_b
+Pronator quadratus is the prime pronator, the deepest muscle of the front of the forearm.
+## answer_c
+Brachioradialis
+## explanation_c
+Brachioradialis only brings the forearm to the mid-prone position and cannot carry supination beyond it.
+## answer_d
+Biceps brachii
+## explanation_d
+Correct. Biceps supinates powerfully with the elbow flexed, and supinator does the rest; between them supination is stronger than pronation.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name the chief supinator.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p26 q50; Anatomy Question [Upper Limb] (1).pdf p30 q171; Anatomy MCQ Book [2025] [first priority].pdf p50 q171. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, pronator teres, which performs the opposite movement. Supination is by supinator and biceps, and biceps is the powerful one — the word "mainly" points to it.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-563
+## title
+Supinator muscle; choose the correct answer:
+## question
+Supinator muscle; choose the correct answer:
+## vignette
+This item asks the student to give the insertion and nerve of supinator precisely.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Inserted into the upper one third of ulna
+## explanation_a
+Supinator arises partly from the ulna and inserts into the radius. Every supinator and pronator must move the radius, so the radius is where they insert.
+## answer_b
+Surrounds the posterior interosseous artery
+## explanation_b
+What supinator surrounds is the upper third of the shaft of the radius, and what pierces it is the posterior interosseous nerve; the posterior interosseous artery reaches the back of the forearm above the upper border of the interosseous membrane, not through this muscle.
+## answer_c
+Is innervated by radial nerve itself
+## explanation_c
+The radial nerve itself supplies only brachioradialis, extensor carpi radialis longus and anconeus in this region. Naming the parent trunk where the branch is meant is the mistake, and it is the printed answer.
+## answer_d
+Is innervated by posterior interosseous nerve
+## explanation_d
+Correct. The posterior interosseous nerve supplies supinator and then continues through it to the rest of the deep extensor group.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the insertion and nerve of supinator precisely.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p18 q3; Upper MCQ Dr.jalal (1).pdf p30 q3; Anatomy MCQ Book [2025] [first priority].pdf p40 q125. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives C, "innervated by the radial nerve itself", which is the near miss the item exists to catch: supinator is supplied by the posterior interosseous nerve, the deep terminal branch, which pierces the muscle between its two layers.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-564
+## title
+The flexor digitorum profundus, choose correct answer:
+## question
+The flexor digitorum profundus, choose correct answer:
+## vignette
+This item asks the student to recognise flexor digitorum profundus as the one muscle of the limb with two nerves.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Receives double nerve supply
+## explanation_a
+Correct. The lateral half, to the index and middle fingers, is anterior interosseous; the medial half, to the ring and little fingers, is ulnar. That split is why an ulnar lesion above the elbow claws the hand less than one at the wrist.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_b
+Inserted into the front of middle phalanx
+## explanation_b
+The middle phalanx is where flexor digitorum superficialis inserts. Profundus passes through the split superficialis tendon to reach the base of the distal phalanx, which is what lets it flex the terminal joint.
+## answer_c
+Flexes the lateral four fingers
+## explanation_c
+The four fingers it flexes are conventionally called the medial four, the thumb being excluded. "Medial four fingers" is the term used throughout, and "lateral" here is the error.
+## answer_d
+Arises from radius, ulna and interosseous membrane
+## explanation_d
+It arises from the ulna and the interosseous membrane only. Flexor pollicis longus is the deep flexor that takes origin from the radius, and confusing the two origins is the usual slip.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Recognise flexor digitorum profundus as the one muscle of the limb with two nerves.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p10 q11; Anatomy Question [Upper Limb] (1).pdf p20 q115; Anatomy MCQ Book [2025] [first priority].pdf p38 q115. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives B, insertion into the middle phalanx, which belongs to flexor digitorum superficialis — profundus reaches past it to the distal phalanx. Its lateral half is supplied by the anterior interosseous branch of the median nerve and its medial half by the ulnar, which is what makes A true.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-565
+## title
+The interosseous membrane, choose the correct answer:
+## question
+The interosseous membrane, choose the correct answer:
+## vignette
+This item asks the student to give the attachments of the interosseous membrane and what arises from each of its surfaces.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is attached to the anterior borders of radius and ulna
+## explanation_a
+The interosseous borders, not the anterior borders. The interosseous borders face each other across the gap the membrane fills; the anterior borders face forwards.
+## answer_b
+Gives origin to abductor polices brevis
+## explanation_b
+Abductor pollicis brevis is a thenar muscle inside the hand. Abductor pollicis longus is the deep extensor that arises from the back of the membrane, and the two names differ by one word.
+## answer_c
+Gives origin to the deep flexors of the hand
+## explanation_c
+Correct. The anterior surface gives origin to flexor pollicis longus and flexor digitorum profundus, the deep flexors that reach into the hand.
+
+Why this is right:
+- The interosseous membrane is a strong fibrous sheet stretched between the interosseous borders of the radius and the ulna, tethering the two bones together and holding them at their proper distance through pronation and supination.
+## answer_d
+Pierced by posterior interosseous vessels
+## explanation_d
+The posterior interosseous vessels reach the back of the forearm by passing over the upper border of the membrane, between it and the oblique cord. It is the anterior interosseous artery that pierces the membrane, and low down.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4CFF00B2741E50
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the attachments of the interosseous membrane and what arises from each of its surfaces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p26 q46; Anatomy Question [Upper Limb] (1).pdf p30 q170; Anatomy MCQ Book [2025] [first priority].pdf p50 q170. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the two keyed copies both give C, and C is correct. The membrane is attached to the interosseous borders rather than the anterior borders, it gives origin to abductor pollicis longus rather than abductor pollicis brevis, and it is the anterior interosseous artery that pierces it — the posterior interosseous vessels pass above its upper border.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-566
+## title
+Mark muscle which receives innervation from 2 different nerves:
+## question
+Mark muscle which receives innervation from 2 different nerves:
+## vignette
+This item asks the student to name the forearm muscle with a double nerve supply.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Biceps brachii
+## explanation_a
+Biceps brachii is wholly musculocutaneous, both heads.
+## answer_b
+Pronator teres
+## explanation_b
+Pronator teres is wholly median, although it has two heads of origin — which is what makes it a tempting answer to a question about "two".
+## answer_c
+Flexor digitorum profundus
+## explanation_c
+Correct. The lateral half of flexor digitorum profundus is median through the anterior interosseous nerve and the medial half is ulnar.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_d
+Flexor digitorum superficialis
+## explanation_d
+Flexor digitorum superficialis is wholly median, despite also having two heads. Two heads and two nerves are different things, and this item asks for the second.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name the forearm muscle with a double nerve supply.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p10 q12; Upper MCQ Dr.jalal (1).pdf p14 q12. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the intact keyed sibling `mark-the-muscle-which-receives-innervation-fron-two-differen-ba4b7297` gives C. Flexor digitorum profundus is split between the anterior interosseous branch of the median nerve laterally and the ulnar nerve medially.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-567
+## title
+Median vein of the forearm, choose the correct answer:
+## question
+Median vein of the forearm, choose the correct answer:
+## vignette
+This item asks the student to place the median vein of the forearm on the front of the limb and name what it divides into.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+One of the deep veins of the upper limb
+## explanation_a
+It is a superficial vein. The deep veins of the forearm are the paired venae comitantes of the radial and ulnar arteries, which lie against the vessels.
+## answer_b
+Starts by union of small veins of the dorsum of the hand
+## explanation_b
+The dorsum of the hand drains into the dorsal venous arch, which gives the cephalic and basilic veins. This vein comes from the palmar side.
+## answer_c
+Continues with the lateral end of the dorsal venous arch
+## explanation_c
+The lateral end of the dorsal venous arch continues as the cephalic vein — that is the cephalic vein’s definition, not this one’s.
+## answer_d
+Gives the median basilic vein
+## explanation_d
+Correct. In front of the elbow the median vein of the forearm commonly divides into a median cephalic and a median basilic vein, joining the two great superficial channels of the limb.
+
+Why this is right:
+- The deep veins of the limb accompany their arteries in pairs as venae comitantes as far as the brachial artery; the axillary artery has a single axillary vein and no venae comitantes.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Place the median vein of the forearm on the front of the limb and name what it divides into.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p31 q181; Anatomy MCQ Book [2025] [first priority].pdf p51 q181. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, "one of the deep veins", which is false — the median vein of the forearm is superficial, in the superficial fascia. It begins from the palmar venous network on the front of the wrist, not from the dorsal arch, and it ends by dividing into the median cephalic and median basilic veins.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-568
+## title
+Regarding muscles of the forearm, choose the correct answer:
+## question
+Regarding muscles of the forearm, choose the correct answer:
+## vignette
+This item asks the student to check four forearm muscle statements against origin, action and nerve.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The flexor digitorum profundus arises from three bones
+## explanation_a
+Flexor digitorum profundus arises from the ulna and the interosseous membrane — one bone and a membrane. Three bones would be flexor digitorum superficialis, which has humeral, ulnar and radial heads.
+## answer_b
+The flexor carpi ulnaris abducts the wrist
+## explanation_b
+Flexor carpi ulnaris adducts the wrist. The abductors are flexor carpi radialis and the two radial extensors, on the other side.
+## answer_c
+The brachioradialis is innervated by the median nerve
+## explanation_c
+Brachioradialis is in the extensor compartment and is supplied by the radial nerve. It flexes the elbow, which is what makes students file it with the median flexors.
+## answer_d
+The supinator is innervated by the posterior interosseous nerve
+## explanation_d
+Correct. Supinator lies in the deep extensor group and is pierced and supplied by the posterior interosseous nerve.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Check four forearm muscle statements against origin, action and nerve.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p18 q1; Upper MCQ Dr.jalal (1).pdf p30 q1. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the identically worded `regarding-the-muscles-of-the-forearm-choose-the-correct-answ-b01b8b70` is keyed D and D is correct. Flexor digitorum profundus arises from two bones at most, flexor carpi ulnaris adducts, and brachioradialis is radial.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-569
+## title
+Regarding the muscles of the forearm, choose the correct answer:
+## question
+Regarding the muscles of the forearm, choose the correct answer:
+## vignette
+This item asks the student to check four forearm muscle statements against origin, action and nerve.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The flexor digitorum profundus arises from three bones
+## explanation_a
+Two, not three: the ulna and the interosseous membrane. Three bones of origin belongs to flexor digitorum superficialis.
+## answer_b
+The flexor carpi ulnaris abducts the wrist
+## explanation_b
+It adducts. Its name gives the side and its group gives the movement.
+## answer_c
+The brachioradialis is innervated by the median nerve
+## explanation_c
+Brachioradialis is radial. It is a flexor of the elbow lying in the extensor compartment, and it is the standing exception to the rule that nerve follows compartment.
+## answer_d
+The supinator is innervated by the posterior interosseous nerve
+## explanation_d
+Correct. Supinator is a deep extensor supplied by the posterior interosseous nerve, which pierces it.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Check four forearm muscle statements against origin, action and nerve.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p16 q89; Anatomy MCQ Book [2025] [first priority].pdf p34 q89. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-570
+## title
+Regarding the radial artery, one is correct:
+## question
+Regarding the radial artery, one is correct:
+## vignette
+This item asks the student to say exactly where the radial pulse is taken and what the artery becomes.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Its pulsations can be felt between the tendons of the flexor carpi radialis and
+## explanation_a
+Correct. In the lower third of the forearm the artery lies between the tendons of flexor carpi radialis medially and brachioradialis laterally, on the front of the lower end of the radius with only skin and fascia over it. This copy has cut the option short after "and"; the intact copy names brachioradialis.
+
+Why this is right:
+- The radial artery is the smaller terminal branch of the brachial artery, beginning in the cubital fossa at the level of the neck of the radius.
+## answer_b
+It continues in the palm as the superficial palmar arch
+## explanation_b
+It continues as the deep palmar arch, not the superficial. The superficial arch is the ulnar artery’s termination.
+## answer_c
+It begins at the level of the head of the radius
+## explanation_c
+It begins at the level of the neck of the radius, where the brachial artery divides — a small distinction the books ask about repeatedly.
+## answer_d
+In the forearm, the superficial radial nerve lies medial to the artery
+## explanation_d
+The superficial branch of the radial nerve lies on the lateral side of the artery in the middle third of the forearm, not the medial. Reversing that relation is the whole of this distractor.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-9FF8A29E36480B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Say exactly where the radial pulse is taken and what the artery becomes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p7 q37; Anatomy MCQ Book [2025] [first priority].pdf p25 q37. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-571
+## title
+Regarding the ulnar artery, one is correct:
+## question
+Regarding the ulnar artery, one is correct:
+## vignette
+This item asks the student to give the ulnar artery’s relation to the ulnar nerve, to the flexor retinaculum and to the thumb.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It descends vertically on the medial side of the forearm lateral to the ulnar
+## explanation_a
+The artery lies lateral to the ulnar nerve, so the option has the two the wrong way round: it is the nerve that is medial.
+## answer_b
+It enters the hand by passing deep to the flexor retinaculum
+## explanation_b
+It passes superficial to the flexor retinaculum, in the canal of Guyon, alongside the ulnar nerve. Only the median nerve and the long flexor tendons go under it.
+## answer_c
+It continues in the hand as the superficial palmar arch
+## explanation_c
+Correct. The ulnar artery becomes the superficial palmar arch as it enters the palm.
+
+Why this is right:
+- The ulnar artery begins in the cubital fossa below the elbow joint as the larger terminal branch of the brachial artery.
+- It runs obliquely downwards and medially in the upper third of the forearm, then vertically along the medial side of its front, and at the wrist descends superficial to the flexor retinaculum, lateral to the ulnar nerve and the pisiform and medial to the hook of the hamate, ending in the hand as the superficial palmar arch.
+- In the forearm it gives muscular branches to the ulnar-side muscles, and at the wrist the anterior and posterior carpal arteries that form the two carpal arches.
+## answer_d
+It supplies the thumb
+## explanation_d
+The thumb is supplied by the arteria princeps pollicis, a branch of the radial artery in the palm. Neither side of the thumb is ulnar.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-25C6698A72A982
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Give the ulnar artery’s relation to the ulnar nerve, to the flexor retinaculum and to the thumb.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p8 q46; Anatomy MCQ Book [2025] [first priority].pdf p26 q46. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-572
+## title
+The following artery is a branch of radial artery:
+## question
+The following artery is a branch of radial artery:
+## vignette
+This item asks the student to sort the named branches around the elbow and hand between the radial and ulnar arteries.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Anterior ulnar recurrent artery
+## explanation_a
+The anterior ulnar recurrent artery is an ulnar branch, given just below the elbow.
+## answer_b
+Posterior ulnar recurrent artery
+## explanation_b
+The posterior ulnar recurrent artery is likewise ulnar. The recurrent arteries divide by name — radial recurrent from the radial, both ulnar recurrents from the ulnar.
+## answer_c
+Radialis indicis artery
+## explanation_c
+Correct. The radialis indicis runs along the radial side of the index finger and comes from the radial artery in the palm, with the princeps pollicis.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_d
+Common interosseous artery
+## explanation_d
+The common interosseous artery is the ulnar artery’s largest branch and the parent of both interosseous arteries.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Sort the named branches around the elbow and hand between the radial and ulnar arteries.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p35 q7; Anatomy MCQ Book [2025] [first priority].pdf p26 q44. Manifest src_0f1171705349e98b44e6, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives B, the posterior ulnar recurrent artery, which its own name assigns to the ulnar artery. The radialis indicis is a radial branch, given in the palm alongside the princeps pollicis.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-573
+## title
+The following structure passes superficial to flexor reticulum:
+## question
+The following structure passes superficial to flexor reticulum:
+## vignette
+This item asks the student to name what crosses over the flexor retinaculum.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Flexor digitorum superficialis
+## explanation_a
+The tendons of flexor digitorum superficialis run in the carpal tunnel, deep to the retinaculum, in the common synovial sheath.
+## answer_b
+Palmar carpal vessels
+## explanation_b
+The palmar carpal vessels form an arch deep to the flexor tendons, on the front of the carpal bones — deeper still than the tunnel’s contents.
+## answer_c
+Flexor pollicis longus
+## explanation_c
+Flexor pollicis longus is in the tunnel too, in its own synovial sheath.
+## answer_d
+Ulnar nerve
+## explanation_d
+Correct. The ulnar nerve, with the ulnar vessels, crosses superficial to the retinaculum in the canal of Guyon — which is why dividing the retinaculum for carpal tunnel syndrome leaves it untouched.
+
+Why this is right:
+- The flexor retinaculum is a thick fibrous band bridging the concavity of the carpus, attached medially to the pisiform and the hook of the hamate and laterally to the tubercle of the scaphoid and the crest of the trapezium, and converting the carpal groove into the carpal tunnel.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-10423E16E36186
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name what crosses over the flexor retinaculum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p15 q40; Anatomy Question [Upper Limb] (1).pdf p3 q12. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-574
+## title
+The radial artery as it continues forming the deep palmar arch, it passes between the h…
+## question
+The radial artery as it continues forming the deep palmar arch, it passes between the heads of, choose the correct statement:
+## vignette
+This item asks the student to trace the radial artery from the back of the hand into the palm through two muscles.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Lumbrical muscle
+## explanation_a
+A lumbrical arises from a tendon by a single head and lies far in front of the artery’s route.
+## answer_b
+Adductor pollicis
+## explanation_b
+Correct. Adductor pollicis has an oblique and a transverse head, and the radial artery passes between them just before it forms the deep arch.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_c
+Second dorsal interosseous
+## explanation_c
+It is the first dorsal interosseous the artery pierces, not the second — and that is the earlier of the two passages, on the back of the hand.
+## answer_d
+Opponemic pollicis
+## explanation_d
+Opponens pollicis is a single-headed thenar muscle lying superficial to the artery’s course, not across it.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Trace the radial artery from the back of the hand into the palm through two muscles.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p22 q123; Anatomy MCQ Book [2025] [first priority].pdf p40 q123. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed sibling `the-radial-artery-as-it-continues-forming-the-deep-palmar-ar-8b80998a` gives B. The artery enters the palm between the two heads of the first dorsal interosseous and then passes between the two heads of adductor pollicis to become the deep arch — and of the options offered, only adductor pollicis is a two-headed muscle on that route.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-575
+## title
+The synovial sheath of digital flexors encloses, mark the correct statement:
+## question
+The synovial sheath of digital flexors encloses, mark the correct statement:
+## vignette
+This item asks the student to name the tendons wrapped in the common flexor synovial sheath.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Flexor digitorum brevis
+## explanation_a
+Flexor digitorum brevis is a muscle of the sole of the foot. It has no representation in the upper limb at all, and the option works only on the similarity of the name.
+## answer_b
+Flexor digitorum profundus
+## explanation_b
+Correct. All four tendons of flexor digitorum profundus lie with the four of superficialis in the common synovial sheath, the ulnar bursa.
+
+Why this is right:
+- The tendon of flexor carpi radialis has a small sheath in its own compartment in the lateral attachment of the retinaculum.
+## answer_c
+Flexor pollicis brevis
+## explanation_c
+Flexor pollicis brevis is a short thenar muscle within the hand; it never crosses the wrist and so has no sheath there. It is flexor pollicis longus, one word away, that has its own sheath.
+## answer_d
+Flexor carpi radialis
+## explanation_d
+Flexor carpi radialis has a small sheath of its own, in its own compartment within the lateral attachment of the retinaculum, and is not in the digital flexors’ sheath.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-132E72A335B25F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Name the tendons wrapped in the common flexor synovial sheath.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p21 q121; Anatomy MCQ Book [2025] [first priority].pdf p39 q121. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on any of the four copies of this question. The common synovial sheath under the flexor retinaculum encloses the tendons of flexor digitorum superficialis and flexor digitorum profundus; of the options offered only flexor digitorum profundus is one of them.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-576
+## title
+The tendon of the following muscle passes superficial to the flexor retinaculum at wrist:
+## question
+The tendon of the following muscle passes superficial to the flexor retinaculum at wrist:
+## vignette
+This item asks the student to pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Flexor digitorum superficialis tendons
+## explanation_a
+The superficialis tendons are in the carpal tunnel.
+## answer_b
+Flexor digitorum profundus tendons
+## explanation_b
+The profundus tendons are in the carpal tunnel with them.
+## answer_c
+Palmaris longus tendon
+## explanation_c
+Correct. Palmaris longus is the most superficial structure at the front of the wrist, resting on the retinaculum and blending with it and with the palmar aponeurosis — which is what makes it the landmark for the median nerve beneath.
+
+Why this is right:
+- The flexor retinaculum is a thick fibrous band bridging the concavity of the carpus, attached medially to the pisiform and the hook of the hamate and laterally to the tubercle of the scaphoid and the crest of the trapezium, and converting the carpal groove into the carpal tunnel.
+## answer_d
+Flexor carpi radialis tendon
+## explanation_d
+Flexor carpi radialis is the exception to both categories: its tendon runs neither over nor under the retinaculum but through a split in its lateral attachment. Calling that "superficial" is the error, and it is the answer one copy prints.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-10423E16E36186
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p15 q39; Anatomy MCQ Book [2025] [first priority].pdf p19 q2. Manifest src_0f1171705349e98b44e6, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The keyed copies disagree: one gives C and one gives D, the flexor carpi radialis tendon, which passes through a compartment within the retinaculum’s lateral attachment rather than over it. Palmaris longus lies on the retinaculum and is partly inserted into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-577
+## title
+A 15-year-old girl was brought to the emergency department with a tear of the em tendon…
+## question
+A 15-year-old girl was brought to the emergency department with a tear of the em tendons in the ﬁrst dorsal compartment of the extensor retinaculum from a severe bite by a pit bulldog. The injured tendons would include which of the following ad muscles? (2018). Vi P ad Ac a- Extensor carpi radialis longus and brevis. y Ac em
+## vignette
+This item asks the student to name the contents of the first compartment of the extensor retinaculum.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Extensor carpi radialis longus and brevis.
+## explanation_a
+Extensor carpi radialis longus and brevis occupy the second compartment, immediately lateral to Lister’s tubercle.
+## answer_b
+Extensor digitorum and extensor digiti minimi.
+## explanation_b
+Extensor digitorum shares the fourth compartment with extensor indicis; extensor digiti minimi has the fifth to itself.
+## answer_c
+Abductor pollicis longus and extensor pollicis brevis.
+## explanation_c
+Correct. The first compartment, the most lateral, carries abductor pollicis longus and extensor pollicis brevis — the two tendons that form the anterior border of the anatomical snuff box.
+
+Why this is right:
+- The extensor retinaculum is a thick band of the deep fascia of the forearm lying obliquely across the back of the wrist, attached laterally to the anterior border of the lower end of the radius and medially to the pisiform and the triquetral.
+## answer_d
+Extensor pollicis longus and brevis.
+## explanation_d
+Extensor pollicis longus runs alone in the third compartment, medial to Lister’s tubercle, and extensor pollicis brevis is in the first — so the pairing named here spans two compartments and exists in neither.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-44234D1863CE8E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the contents of the first compartment of the extensor retinaculum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-578
+## title
+A 15-year-old girl was brought to the emergency department with a tear of the tendons i…
+## question
+A 15-year-old girl was brought to the emergency department with a tear of the tendons in the first dorsal compartment of the extensor retinaculum from a severe bite by a pit bulldog. The injured tendons would include which of the following muscles? (2018)
+## vignette
+This item asks the student to name the contents of the first compartment of the extensor retinaculum.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Extensor carpi radialis longus and brevis
+## explanation_a
+These two are the second compartment.
+## answer_b
+Extensor digitorum and extensor digiti minimi
+## explanation_b
+Extensor digitorum is the fourth compartment and extensor digiti minimi the fifth.
+## answer_c
+Abductor pollicis longus and extensor pollicis brevis
+## explanation_c
+Correct. Abductor pollicis longus and extensor pollicis brevis share the first compartment and go on to bound the snuff box in front.
+
+Why this is right:
+- The extensor retinaculum is a thick band of the deep fascia of the forearm lying obliquely across the back of the wrist, attached laterally to the anterior border of the lower end of the radius and medially to the pisiform and the triquetral.
+## answer_d
+Extensor pollicis longus and brevis
+## explanation_d
+Extensor pollicis longus is alone in the third compartment; the two thumb extensors are not in the same tunnel.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-44234D1863CE8E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Name the contents of the first compartment of the extensor retinaculum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p114 q1. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the identically worded sibling is keyed C. The first, most lateral compartment holds abductor pollicis longus and extensor pollicis brevis.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-579
+## title
+A 21-year-old man is stabbed in the cubital fossa. At operation the surgeon dissects do…
+## question
+A 21-year-old man is stabbed in the cubital fossa. At operation the surgeon dissects down onto the brachial artery. A nerve is identified medially, which nerve is it likely to be? (2022)
+## vignette
+This item asks the student to name the structure immediately medial to the brachial artery in the cubital fossa.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Radial
+## explanation_a
+The radial nerve is the most lateral content, at the far side of the fossa.
+## answer_b
+Anterior interosseous
+## explanation_b
+The anterior interosseous nerve arises from the median nerve below the fossa, in the forearm, and lies deep on the interosseous membrane.
+## answer_c
+Ulnar
+## explanation_c
+The ulnar nerve is behind the medial epicondyle and never enters the fossa — which is exactly why it survives an anterior stab wound.
+## answer_d
+Median
+## explanation_d
+Correct. The median nerve lies immediately medial to the brachial artery, on the brachialis part of the floor.
+
+Why this is right:
+- The cubital fossa is an inverted triangular hollow in front of the elbow joint, occupying the upper third of the front of the forearm.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-74BFAB9385B955
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Name the structure immediately medial to the brachial artery in the cubital fossa.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p70 q3; EOM ISK 101 195 Answers.pdf p8 q80. Manifest src_b7301bfcd7d002317e40, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The contents of the fossa run, from medial to lateral, median nerve, brachial artery, biceps tendon, radial nerve — so the nerve found medial to the artery is the median.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-580
+## title
+A 30-year-old male was admitted to the hospital in an unconscious state. The P Vi ad nu…
+## question
+A 30-year-old male was admitted to the hospital in an unconscious state. The P Vi ad nurse took the radial pulse to determine the heart rate of the patient. This pulse is felt Vi P lateral to which tendon? y em
+## vignette
+This item asks the student to name the tendon the radial pulse is taken lateral to.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Palmaris longus
+## explanation_a
+Palmaris longus lies in the midline of the front of the wrist and is the landmark for the median nerve, not for the radial artery.
+## answer_b
+Flexor pollicis longus
+## explanation_b
+Flexor pollicis longus is deep, in the carpal tunnel, and cannot be felt.
+## answer_c
+Flexor digitorum profundus. P
+## explanation_c
+Flexor digitorum profundus is deeper still and has no surface tendon at the wrist to be lateral to.
+## answer_d
+Flexor carpi radialis. Vi Acad
+## explanation_d
+Correct. Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis is on its lateral side, and the artery lies in the groove between them.
+
+Why this is right:
+- The radial artery is the smaller terminal branch of the brachial artery, beginning in the cubital fossa at the level of the neck of the radius.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-9FF8A29E36480B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the tendon the radial pulse is taken lateral to.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q31. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The radial artery at the wrist lies immediately lateral to the tendon of flexor carpi radialis, on the front of the lower end of the radius, and that is where the pulse is felt.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-581
+## title
+A 45-year-old man arrived at the emergency department with injuries to his left elbow a…
+## question
+A 45-year-old man arrived at the emergency department with injuries to his left elbow after he fell in a bicycle race. Plain radiographic and magnetic resonance imaging (MRI) examinations show a fracture of the medial epicondyle and an injured ulnar nerve. Which of the following muscles will most likely be paralyzed?
+## vignette
+This item asks the student to name the forearm muscle paralysed by an ulnar nerve injury at the elbow.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+flexor digitorum superficialis
+## explanation_a
+Flexor digitorum superficialis is entirely median, despite arising alongside flexor carpi ulnaris from the same epicondyle.
+## answer_b
+biceps brachii
+## explanation_b
+Biceps is supplied by the musculocutaneous nerve in the arm. It is the printed key and it is impossible.
+## answer_c
+brachioradialis
+## explanation_c
+Brachioradialis is a radial muscle in the extensor compartment.
+## answer_d
+flexor carpi ulnaris
+## explanation_d
+Correct. Flexor carpi ulnaris is one of the ulnar nerve’s two forearm muscles, and the nerve enters the forearm between its two heads.
+
+Why this is right:
+- The ulnar nerve is the largest branch of the medial cord of the brachial plexus, root value C8 and T1.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the forearm muscle paralysed by an ulnar nerve injury at the elbow.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q26; EOM ISK EOM exam 2024.pdf p8 q85. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, biceps brachii, which is musculocutaneous and lies in the arm — nothing at the medial epicondyle can reach it. The ulnar nerve supplies only two muscles in the forearm, flexor carpi ulnaris and the medial half of flexor digitorum profundus, and only the first is offered.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-582
+## title
+All the following are among the structures deep to the radial artery in forearm except:…
+## question
+All the following are among the structures deep to the radial artery in forearm except: (2022) y y
+## vignette
+This item asks the student to list the bed the radial artery lies on from the elbow to the wrist.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pronator teres.
+## explanation_a
+True, so not the exception. The artery crosses pronator teres in the upper part of its course.
+## answer_b
+Biceps.
+## explanation_b
+True, so not the exception. It begins on the tendon of biceps in the cubital fossa.
+## answer_c
+Lower end of ulna.
+## explanation_c
+Correct. The exception, and the answer. The artery lies on the lower end of the radius, not the ulna — it is on the radial side of the forearm throughout, which is what its name records.
+
+Why this is right:
+- The radial artery is the smaller terminal branch of the brachial artery, beginning in the cubital fossa at the level of the neck of the radius.
+## answer_d
+Pronator quadratus.
+## explanation_d
+True, so not the exception. Pronator quadratus is the last muscle in its bed before the bone.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-9FF8A29E36480B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+List the bed the radial artery lies on from the elbow to the wrist.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q27; EOM ISK 101 195 Answers.pdf p7 q74; EOM ISK 101 - 2023.pdf p10 q106. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-583
+## title
+All the following are contents of anterior compartment of forearm except: (IPKA)
+## question
+All the following are contents of anterior compartment of forearm except: (IPKA)
+## vignette
+This item asks the student to place brachioradialis in the extensor compartment despite its action.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Flexer digitorum superﬁcialis
+## explanation_a
+A content of the anterior compartment, so not the exception — it is the deepest of the superficial flexor group.
+## answer_b
+Pronator teres. P
+## explanation_b
+A content, so not the exception. Pronator teres is the most lateral of the superficial flexors.
+## answer_c
+Pronator quadratus
+## explanation_c
+A content, so not the exception. Pronator quadratus is the deepest anterior muscle of all.
+## answer_d
+Brachioradialis
+## explanation_d
+Correct. The exception, and the answer. Brachioradialis lies in the extensor compartment and takes the radial nerve, even though it flexes the elbow — the single muscle in the limb where action and compartment disagree.
+
+Why this is right:
+- The upper limb below the shoulder is divided into a flexor and an extensor compartment, and the division is also a division of nerves.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-44131E0EDEACA2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place brachioradialis in the extensor compartment despite its action.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p51 q7. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, flexor digitorum superficialis, which is the middle muscle of the superficial flexor group and plainly anterior. Brachioradialis is the exception: it flexes the elbow but lies in the posterior compartment and is supplied by the radial nerve.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-584
+## title
+All the followings are contents of anterior compartment of forearm except:
+## question
+All the followings are contents of anterior compartment of forearm except:
+## vignette
+This item asks the student to place brachioradialis in the extensor compartment despite its action.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Flexor digitorium superficialis
+## explanation_a
+Anterior, so not the exception.
+## answer_b
+Pronator teres
+## explanation_b
+Anterior, so not the exception.
+## answer_c
+Pronator quadratus
+## explanation_c
+Anterior, so not the exception — and the deepest of them.
+## answer_d
+Brachioradialis
+## explanation_d
+Correct. The exception, and the answer. Brachioradialis is an elbow flexor sitting in the extensor compartment on the radial nerve.
+
+Why this is right:
+- The upper limb below the shoulder is divided into a flexor and an extensor compartment, and the division is also a division of nerves.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-44131E0EDEACA2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_a2bf7a9dca4e7cf4015d
+## learning_objective
+Place brachioradialis in the extensor compartment despite its action.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Forearm) (3).pdf p1 q5. Manifest src_a2bf7a9dca4e7cf4015d.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, flexor digitorum superficialis, which is an anterior compartment muscle. The exception is brachioradialis, which lies posteriorly and is radial.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-585
+## title
+Anterior aspect of interosseous membrane gives attachment to:
+## question
+Anterior aspect of interosseous membrane gives attachment to:
+## vignette
+This item asks the student to name what arises from the front of the interosseous membrane.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Flexor pollicis longus and flexor digitorum profundus
+## explanation_a
+Correct. The deep flexor group takes the membrane and the bones on either side of it — which is why it has no attachment to the humerus and survives a common flexor origin injury.
+
+Why this is right:
+- The interosseous membrane is a strong fibrous sheet stretched between the interosseous borders of the radius and the ulna, tethering the two bones together and holding them at their proper distance through pronation and supination.
+## answer_b
+Flexor digitorum superficialis
+## explanation_b
+Flexor digitorum superficialis is a superficial muscle arising from the medial epicondyle, the ulna and the oblique line of the radius. It touches the membrane nowhere.
+## answer_c
+Pronator teres
+## explanation_c
+Pronator teres arises from the medial epicondyle and the coronoid process.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+Flexor carpi ulnaris arises from the medial epicondyle and the olecranon and posterior border of the ulna.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4CFF00B2741E50
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name what arises from the front of the interosseous membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p10 q13. Manifest src_0f1171705349e98b44e6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy or on its two siblings. The anterior surface of the membrane gives origin to the two deep flexors, flexor pollicis longus laterally and flexor digitorum profundus medially; the other three options are superficial muscles that arise from the medial epicondyle.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-586
+## title
+Anterior aspect of interosseous membrane glves attachment to:
+## question
+Anterior aspect of interosseous membrane glves attachment to:
+## vignette
+This item asks the student to name what arises from the front of the interosseous membrane.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Flexor pollicis longus and flexor digitorum profundus
+## explanation_a
+Correct. Both deep flexors arise from the anterior surface of the membrane and the adjacent bone.
+
+Why this is right:
+- The interosseous membrane is a strong fibrous sheet stretched between the interosseous borders of the radius and the ulna, tethering the two bones together and holding them at their proper distance through pronation and supination.
+## answer_b
+Flexor digitorum superficlalls
+## explanation_b
+Flexor digitorum superficialis is a superficial flexor from the medial epicondyle and the radius.
+## answer_c
+Pronator teres
+## explanation_c
+Pronator teres is a superficial flexor from the medial epicondyle.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+Flexor carpi ulnaris is a superficial flexor from the medial epicondyle and the ulna.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4CFF00B2741E50
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Name what arises from the front of the interosseous membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p14 q13. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The front of the membrane gives origin to flexor pollicis longus and flexor digitorum profundus, the two deep flexors.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-587
+## title
+Anterior interosseous nerve supplies the following muscle:
+## question
+Anterior interosseous nerve supplies the following muscle:
+## vignette
+This item asks the student to name a muscle of the anterior interosseous nerve.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Extensor carpi radialis longus
+## explanation_a
+Extensor carpi radialis longus is posterior and supplied by the radial nerve itself.
+## answer_b
+Extensor carpi radialis brevis. P
+## explanation_b
+Extensor carpi radialis brevis is posterior and supplied by the posterior interosseous nerve — the anterior interosseous nerve’s opposite number, and the source of the confusion this item exploits.
+## answer_c
+Brachioradialis
+## explanation_c
+Brachioradialis is posterior and radial.
+## answer_d
+Pronator quadratus
+## explanation_d
+Correct. Pronator quadratus is the deepest anterior muscle and the last one the anterior interosseous nerve supplies.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name a muscle of the anterior interosseous nerve.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q68. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The anterior interosseous nerve is a branch of the median in the anterior compartment and supplies flexor pollicis longus, the lateral half of flexor digitorum profundus, and pronator quadratus; the other three options are all posterior compartment muscles on the radial nerve.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-588
+## title
+Branches of ulnar artery in the forearm, choose the correct answer: Ac ad Ac ad ad ad
+## question
+Branches of ulnar artery in the forearm, choose the correct answer: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to separate the ulnar artery’s forearm branches from the brachial artery’s and the radial artery’s.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Anterior ulnar recurrent.
+## explanation_a
+Correct. The anterior ulnar recurrent arises just below the elbow and ascends in front of the medial epicondyle to the anastomosis.
+
+Why this is right:
+- The ulnar artery begins in the cubital fossa below the elbow joint as the larger terminal branch of the brachial artery.
+- It runs obliquely downwards and medially in the upper third of the forearm, then vertically along the medial side of its front, and at the wrist descends superficial to the flexor retinaculum, lateral to the ulnar nerve and the pisiform and medial to the hook of the hamate, ending in the hand as the superficial palmar arch.
+- In the forearm it gives muscular branches to the ulnar-side muscles, and at the wrist the anterior and posterior carpal arteries that form the two carpal arches.
+## answer_b
+Ulnar collateral artery.
+## explanation_b
+The ulnar collateral arteries, superior and inferior, are brachial branches given in the arm.
+## answer_c
+Superﬁcial palmar branch.
+## explanation_c
+The superficial palmar branch is radial. It is the printed key here and it is wrong, and the error is easy to make because the branch and the arch share a name.
+## answer_d
+Nutrient branch to humerus.
+## explanation_d
+The nutrient artery of the humerus is a brachial branch, and the humerus is not in the forearm.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-25C6698A72A982
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the ulnar artery’s forearm branches from the brachial artery’s and the radial artery’s.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p78 q18. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, the superficial palmar branch, which is a branch of the radial artery. The ulnar artery does not give a superficial palmar branch — it becomes the superficial palmar arch, which that radial branch completes. The anterior ulnar recurrent artery is a true ulnar branch in the forearm.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-589
+## title
+Concerning pronation and supination: em em em em em
+## question
+Concerning pronation and supination: em em em em em
+## vignette
+This item asks the student to state which of the two bones moves, which movement is stronger, and what brachioradialis does.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pronation is more powerful than supination
+## explanation_a
+Supination is the stronger movement. It is the printed key here and it is backwards — and the practical test of it is that screws and taps are cut to be tightened by supination of the right hand.
+## answer_b
+Biceps when the elbow Is extended
+## explanation_b
+Biceps supinates powerfully when the elbow is flexed, not extended.
+## answer_c
+Brachioradialis puts the forearm in mid-prone position
+## explanation_c
+Correct. Brachioradialis carries the forearm to the mid-prone position from either extreme and no further.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## answer_d
+The radius is ﬁxed; the ulna is the movable bone. Ac ad
+## explanation_d
+The ulna is the fixed bone and the radius the moving one; the option reverses them.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+State which of the two bones moves, which movement is stronger, and what brachioradialis does.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p102 q8. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, that pronation is more powerful than supination, and it is the reverse of the truth: supination adds biceps to supinator and is the stronger of the two. Brachioradialis bringing the forearm to mid-prone is the only true statement in the set.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-590
+## title
+Concerning the contents of cubital fossa, one is wrong: Ac ad Ac ad ad ad
+## question
+Concerning the contents of cubital fossa, one is wrong: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to distinguish the artery that ends in the cubital fossa from the ones that begin there.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Median nerve.
+## explanation_a
+A true content, so not the wrong one. The median nerve lies medial to the brachial artery in the fossa.
+## answer_b
+Termination of the radial artery.
+## explanation_b
+Correct. The wrong statement, and the answer. The fossa contains the termination of the brachial artery and the beginnings of the radial and ulnar arteries; the radial artery ends at the far end of the limb, in the palm.
+
+Why this is right:
+- The cubital fossa is an inverted triangular hollow in front of the elbow joint, occupying the upper third of the front of the forearm.
+## answer_c
+Ulnar artery.
+## explanation_c
+A true content, so not the wrong one — its beginning, as the larger terminal branch of the brachial.
+## answer_d
+Radial nerve.
+## explanation_d
+A true content, so not the wrong one. The radial nerve is the most lateral structure in the fossa.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-74BFAB9385B955
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Distinguish the artery that ends in the cubital fossa from the ones that begin there.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q10. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the median nerve, which is a genuine content — the most medial one. The wrong statement is B: the radial artery begins in the cubital fossa as a terminal branch of the brachial, it does not end there. What ends there is the brachial artery.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-591
+## title
+Concerning the contents of the cubital fossa, one is wrong:
+## question
+Concerning the contents of the cubital fossa, one is wrong:
+## vignette
+This item asks the student to distinguish the artery that ends in the cubital fossa from the ones that begin there.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Median nerve
+## explanation_a
+A true content, so not the wrong one.
+## answer_b
+Termination of the radial artery
+## explanation_b
+Correct. The wrong statement, and the answer. The brachial artery terminates in the fossa; the radial artery starts there.
+
+Why this is right:
+- The cubital fossa is an inverted triangular hollow in front of the elbow joint, occupying the upper third of the front of the forearm.
+## answer_c
+Ulnar artery. : :
+## explanation_c
+A true content, so not the wrong one.
+## answer_d
+Radial nerve. 9
+## explanation_d
+A true content, so not the wrong one.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-74BFAB9385B955
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Distinguish the artery that ends in the cubital fossa from the ones that begin there.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p54 q12. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The radial artery begins in the fossa rather than ending there, which makes B the wrong statement; the other three are all genuine contents.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-592
+## title
+Concerning with pronation and supination: em Ac P Vi a- Pronation is more powerful than…
+## question
+Concerning with pronation and supination: em Ac P Vi a- Pronation is more powerful than supination
+## vignette
+This item asks the student to state which of the two bones moves, which movement is stronger, and what brachioradialis does.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pronation is more powerful than supination.
+## explanation_a
+Supination is the stronger movement, not pronation.
+## answer_b
+Biceps when the elbow Is extended.
+## explanation_b
+Biceps supinates best with the elbow flexed. It is the printed key here and the word "extended" is the error.
+## answer_c
+Brachioradialis puts the forearm in mid-prone position.
+## explanation_c
+Correct. Brachioradialis is the mid-prone muscle.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## answer_d
+The radius is ﬁxed; the ulna is the movable bone.
+## explanation_d
+The ulna is fixed and the radius moves.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+State which of the two bones moves, which movement is stronger, and what brachioradialis does.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q21. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, "biceps when the elbow is extended", which reverses the condition — biceps is the powerful supinator with the elbow flexed. Only brachioradialis bringing the forearm to mid-prone is true.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-593
+## title
+Extensor pollicis brevis: (IPKA) ad P
+## question
+Extensor pollicis brevis: (IPKA) ad P
+## vignette
+This item asks the student to give the origin, position at the snuff box and nerve of extensor pollicis brevis.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Takes origin from radius and interosseous membrane
+## explanation_a
+Correct. Extensor pollicis brevis is a deep extensor arising from the posterior surface of the radius and the interosseous membrane, below abductor pollicis longus.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## answer_b
+Lies on ulnar side of snuffbox. y
+## explanation_b
+It lies on the radial side of the snuff box, forming its anterior border with abductor pollicis longus. The ulnar border of the box is extensor pollicis longus.
+## answer_c
+Extensor carpi ulnaris
+## explanation_c
+This option has been overwritten in extraction by the words "Extensor carpi ulnaris", carried over from elsewhere on the page; it is not a statement about extensor pollicis brevis and cannot be evaluated as one. It is recorded here rather than silently ignored, and a rescan would recover the option the page printed.
+## answer_d
+Nerve supply is from ulnar nerve. em Ac
+## explanation_d
+The nerve is the posterior interosseous branch of the radial nerve. Every extensor of the forearm is radial in origin, and the ulnar nerve supplies none of them.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the origin, position at the snuff box and nerve of extensor pollicis brevis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p82 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-594
+## title
+Fiexion adduction of the wrist can be done by:
+## question
+Fiexion adduction of the wrist can be done by:
+## vignette
+This item asks the student to read a compound wrist movement off the name of the muscle that produces it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Flexor pollicis longus
+## explanation_a
+Flexor pollicis longus acts on the thumb and lies laterally; it cannot adduct the wrist.
+## answer_b
+Flexor digitorum profundus
+## explanation_b
+Flexor digitorum profundus flexes the fingers and the wrist without deviating it.
+## answer_c
+Flexor carpi radialis
+## explanation_c
+Flexor carpi radialis flexes and abducts — the mirror image.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+Correct. Flexor carpi ulnaris flexes and adducts the wrist, and with extensor carpi ulnaris it produces pure adduction.
+
+Why this is right:
+- The wrist moves by pairs of muscles acting together while each cancels the other’s second action.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Read a compound wrist movement off the name of the muscle that produces it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p18 q100. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-595
+## title
+Flexion adduction of the wrist can be done by: y y
+## question
+Flexion adduction of the wrist can be done by: y y
+## vignette
+This item asks the student to read a compound wrist movement off the name of the muscle that produces it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Flexor pollicis longus.
+## explanation_a
+A thumb flexor lying laterally. It is the printed key and it is wrong on both halves of the movement.
+## answer_b
+Flexor digitorum profundus.
+## explanation_b
+Flexes the fingers and helps flex the wrist, but deviates it neither way.
+## answer_c
+Flexor carpi radialis.
+## explanation_c
+Flexes and abducts — the opposite deviation.
+## answer_d
+Flexor carpi ulnaris.
+## explanation_d
+Correct. Flexor carpi ulnaris is the flexor on the adducting side.
+
+Why this is right:
+- The wrist moves by pairs of muscles acting together while each cancels the other’s second action.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Read a compound wrist movement off the name of the muscle that produces it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p103 q6. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, flexor pollicis longus, which is a thumb muscle on the lateral side of the forearm and produces no adduction of the wrist. Flexion with adduction is flexor carpi ulnaris, which is what the clean copy of this question is keyed to.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-596
+## title
+If the median nerve was injured above the elbow, which of the following muscles Ac ad A…
+## question
+If the median nerve was injured above the elbow, which of the following muscles Ac ad Ac ad ad ad would retain function? (2024)
+## vignette
+This item asks the student to name the forearm muscle that survives a high median lesion.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pronators.
+## explanation_a
+Both pronators are median, so pronation is lost. It is the printed key and it names the very muscles the lesion takes.
+## answer_b
+Opponens pollicis.
+## explanation_b
+Opponens pollicis is a thenar muscle on the recurrent branch of the median nerve — lost, and it is the loss that gives the ape hand.
+## answer_c
+Palmaris longus.
+## explanation_c
+Palmaris longus is median and lost.
+## answer_d
+Flexor carpi ulnaris.
+## explanation_d
+Correct. Flexor carpi ulnaris is one of the only two muscles in the anterior compartment that are ulnar, and it is what makes the paralysed wrist deviate medially when it is flexed.
+
+Why this is right:
+- A median nerve injury above the elbow — a supracondylar fracture, a wound in the cubital fossa, or an elbow dislocation — paralyses everything the nerve supplies.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-B119CC808D3E81
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the forearm muscle that survives a high median lesion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p65 q20. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the pronators, which is exactly backwards: pronator teres and pronator quadratus are both median, and abolished pronation is the first sign of a high median lesion. Flexor carpi ulnaris is ulnar and is the only muscle in the list that keeps working.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-597
+## title
+In the 4th compartment deep to extensor retinaculum one of the following structures is …
+## question
+In the 4th compartment deep to extensor retinaculum one of the following structures is not passing: (2021)
+## vignette
+This item asks the student to name the nerve and artery that share the fourth compartment with the extensor tendons.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Extensor digitorum
+## explanation_a
+Extensor digitorum is the main occupant of the fourth compartment. It is the printed key here and it is the one thing everybody knows is in it.
+## answer_b
+Anterior interosseous artery
+## explanation_b
+The anterior interosseous artery does reach the fourth compartment: it pierces the lower part of the interosseous membrane, passes to the back and continues under the retinaculum.
+## answer_c
+Anterior interosseous nerve
+## explanation_c
+Correct. This is the answer. The anterior interosseous nerve stays in front, ending on the deep surface of pronator quadratus; only its companion artery crosses to the back.
+
+Why this is right:
+- The extensor retinaculum is a thick band of the deep fascia of the forearm lying obliquely across the back of the wrist, attached laterally to the anterior border of the lower end of the radius and medially to the pisiform and the triquetral.
+## answer_d
+Posterior interosseous nerve
+## explanation_d
+The posterior interosseous nerve ends in the fourth compartment as a small swelling that supplies the wrist joint.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-44234D1863CE8E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the nerve and artery that share the fourth compartment with the extensor tendons.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p87 q10; EOM ISK 101 195 Answers.pdf p9 q93. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, extensor digitorum, which is the compartment’s principal content. The fourth compartment carries extensor digitorum and extensor indicis with the posterior interosseous nerve and the anterior interosseous artery — an odd pairing, and the one the item is built on. The structure that does not pass is the anterior interosseous nerve, which ends in the forearm on the front of the interosseous membrane at pronator quadratus.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-598
+## title
+In the cubital fossa, select the true answer: em Ac P Vi a- Median nerve lies lateral t…
+## question
+In the cubital fossa, select the true answer: em Ac P Vi a- Median nerve lies lateral to the biceps tendon. ad
+## vignette
+This item asks the student to trace each content out of the cubital fossa by the route it takes.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Median nerve lies lateral to the biceps tendon.
+## explanation_a
+The median nerve is medial to the biceps tendon, with the brachial artery between them. The stem of this copy carries an echo of this option, which is an extraction artefact and not a key.
+## answer_b
+Radial nerve and interosseous branch lie deep to the brachialis muscle.
+## explanation_b
+The radial nerve and its deep branch lie between brachialis and brachioradialis, on the lateral side — in front of the lateral part of the floor rather than deep to brachialis.
+## answer_c
+Radial artery passes between the two heads of the pronator teres.
+## explanation_c
+It is the median nerve that leaves the fossa between the two heads of pronator teres; the radial artery runs down superficially beneath brachioradialis.
+## answer_d
+Radial nerve leaves the fossa between the heads of the supinator muscle.
+## explanation_d
+Correct. The deep terminal branch of the radial nerve leaves the fossa by piercing supinator between its superficial and deep layers, and emerges on the back of the forearm as the posterior interosseous nerve.
+
+Why this is right:
+- The cubital fossa is an inverted triangular hollow in front of the elbow joint, occupying the upper third of the front of the forearm.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-74BFAB9385B955
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Trace each content out of the cubital fossa by the route it takes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q14. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-599
+## title
+In the cubital fossa, select the true statement: (2021)
+## question
+In the cubital fossa, select the true statement: (2021)
+## vignette
+This item asks the student to give the floor and the two boundaries of the cubital fossa.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The ﬂoor is formed only by the supinator.
+## explanation_a
+The floor is brachialis medially and supinator laterally — two muscles, not one.
+## answer_b
+The medial boundary is formed by pronator teres.
+## explanation_b
+Correct. Pronator teres forms the medial boundary of the triangle and brachioradialis the lateral.
+
+Why this is right:
+- The cubital fossa is an inverted triangular hollow in front of the elbow joint, occupying the upper third of the front of the forearm.
+## answer_c
+The ulnar nerve lies lateral to the brachial artery.
+## explanation_c
+The ulnar nerve is not in the fossa at all; it lies behind the medial epicondyle.
+## answer_d
+The radial nerve lies medial to the biceps tendon.
+## explanation_d
+The radial nerve lies lateral to the biceps tendon, not medial. Every relation in this fossa is easier to keep if the contents are listed from medial to lateral: median nerve, artery, tendon, radial nerve.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-74BFAB9385B955
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the floor and the two boundaries of the cubital fossa.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q13; EOM ISK 101 195 Answers.pdf p10 q102. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-600
+## title
+Lateral intermuscular septum, choose the correct answer:
+## question
+Lateral intermuscular septum, choose the correct answer:
+## vignette
+This item asks the student to give the extent, attachments and piercing structures of the lateral intermuscular septum.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Extends between lesser tuberosity and lateral epicondyle
+## explanation_a
+The lesser tuberosity is on the front of the upper end of the humerus and takes subscapularis. The septum begins far lower, at the deltoid insertion, and runs along the lateral supracondylar ridge.
+## answer_b
+Gives origin to brachioradialis
+## explanation_b
+Correct. Brachioradialis arises from the upper two-thirds of the lateral supracondylar ridge and from the front of this septum — one of the two muscles that make it a muscular attachment as well as a partition.
+
+Why this is right:
+- The medial septum is pierced by the ulnar nerve and the superior ulnar collateral artery, which is how the ulnar nerve leaves the front of the arm for the back.
+## answer_c
+Gives origin to extensor carpi radialis brevis
+## explanation_c
+Extensor carpi radialis brevis arises from the common extensor origin on the lateral epicondyle. It is the longus, not the brevis, that arises from the ridge and the septum, and the two are one word apart.
+## answer_d
+Is pierced by radial nerve and branch of the posterior interosseous artery
+## explanation_d
+The radial nerve does pierce this septum, but with the radial collateral branch of the profunda brachii artery. The posterior interosseous artery is a branch of the common interosseous in the forearm and never reaches the arm.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-BAB2A859A2575C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Give the extent, attachments and piercing structures of the lateral intermuscular septum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p25 q140. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, which places the septum between the lesser tuberosity and the lateral epicondyle — the lesser tuberosity is at the top of the humerus on its front and belongs to subscapularis. The septum runs from the insertion of deltoid down the lateral supracondylar ridge to the lateral epicondyle, and it gives origin in front to brachioradialis and extensor carpi radialis longus. Option D is false as printed because the artery accompanying the radial nerve through this septum is the radial collateral branch of the profunda brachii, not the posterior interosseous, which is a forearm vessel.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-601
+## title
+Mark the muscle which receives innervation fron two different nerves:
+## question
+Mark the muscle which receives innervation fron two different nerves:
+## vignette
+This item asks the student to name the forearm muscle with a double nerve supply.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Biceps brachii
+## explanation_a
+Biceps is wholly musculocutaneous.
+## answer_b
+Pronator teres
+## explanation_b
+Pronator teres is wholly median. Two heads of origin are not two nerves, and that is the substitution the option invites.
+## answer_c
+Flexor digitorum profundus
+## explanation_c
+Correct. Flexor digitorum profundus is median laterally, through the anterior interosseous nerve, and ulnar medially.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_d
+Flexor digitorum superficialis
+## explanation_d
+Flexor digitorum superficialis is wholly median despite its two heads.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Name the forearm muscle with a double nerve supply.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p19 q104. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-602
+## title
+Median vein of the forearm, choose the correct answer: Ac ad Ac ad ad ad
+## question
+Median vein of the forearm, choose the correct answer: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to place the median vein of the forearm on the front of the limb and name what it divides into.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+One of the deep veins of the upper limb.
+## explanation_a
+It is superficial. It is the printed key and it is wrong; a deep vein by definition accompanies an artery, and this one accompanies none.
+## answer_b
+Starts by union of small veins of the dorsum of the hand.
+## explanation_b
+It begins from the palmar venous network on the front of the wrist. The dorsum drains into the dorsal venous arch.
+## answer_c
+Continues with the lateral end of the dorsal venous arch.
+## explanation_c
+The lateral end of the dorsal venous arch becomes the cephalic vein.
+## answer_d
+Gives the median basilic vein.
+## explanation_d
+Correct. In front of the elbow it commonly divides into median cephalic and median basilic veins.
+
+Why this is right:
+- The deep veins of the limb accompany their arteries in pairs as venae comitantes as far as the brachial artery; the axillary artery has a single axillary vein and no venae comitantes.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place the median vein of the forearm on the front of the limb and name what it divides into.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p93 q6. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, that it is one of the deep veins of the upper limb, which is false: it lies in the superficial fascia on the front of the forearm. The deep veins are the venae comitantes of the radial, ulnar and brachial arteries. The true statement is that it gives the median basilic vein.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-603
+## title
+Mid-prone position of the forearm is achieved by……. mark the most appropriate Ac ad Ac …
+## question
+Mid-prone position of the forearm is achieved by……. mark the most appropriate Ac ad Ac ad ad ad answer:
+## vignette
+This item asks the student to name the muscle that brings the forearm to mid-prone from either extreme.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pronator teres.
+## explanation_a
+Pronator teres carries pronation through its full range.
+## answer_b
+Pronator quadratus.
+## explanation_b
+Pronator quadratus is the prime pronator.
+## answer_c
+Brachioradialis.
+## explanation_c
+Correct. Brachioradialis stops at mid-prone, which is the position of greatest mechanical advantage for it.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## answer_d
+Biceps brachii.
+## explanation_d
+Biceps carries supination through its full range.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the muscle that brings the forearm to mid-prone from either extreme.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q17. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Brachioradialis is the mid-prone muscle: it supinates a pronated forearm and pronates a supinated one, each only as far as the mid position.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-604
+## title
+Name the nerve which innervates the flexor policis longus:
+## question
+Name the nerve which innervates the flexor policis longus:
+## vignette
+This item asks the student to name the branch of the median nerve that actually enters flexor pollicis longus.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Anterior Interosseous
+## explanation_a
+Correct. Flexor pollicis longus is one of the three muscles of the anterior interosseous nerve.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_b
+Median
+## explanation_b
+The parent trunk. True at one remove, and not what the item is asking when the branch itself is offered.
+## answer_c
+Ulnar
+## explanation_c
+The ulnar nerve has two forearm muscles and neither is a thumb flexor.
+## answer_d
+Radial
+## explanation_d
+The radial nerve serves the extensor compartment.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_6c62090ee8d9969a8c5b
+## learning_objective
+Name the branch of the median nerve that actually enters flexor pollicis longus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q1; EOM ISK 101 195 Answers.pdf p6 q65. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The anterior interosseous nerve is the branch that supplies flexor pollicis longus, and where a branch and its parent trunk are both offered this faculty keys the branch.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-605
+## title
+One of the following is a branch of the ulnar artery: (2017) Ac ad Ac ad ad ad
+## question
+One of the following is a branch of the ulnar artery: (2017) Ac ad Ac ad ad ad
+## vignette
+This item asks the student to name the ulnar artery’s largest branch.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Radial recurrent artery.
+## explanation_a
+The radial recurrent artery ascends from the radial artery to the elbow anastomosis.
+## answer_b
+Common interosseous artery.
+## explanation_b
+Correct. The common interosseous artery arises about an inch below the ulnar artery’s beginning and at once divides into anterior and posterior interosseous arteries.
+
+Why this is right:
+- The ulnar artery begins in the cubital fossa below the elbow joint as the larger terminal branch of the brachial artery.
+- It runs obliquely downwards and medially in the upper third of the forearm, then vertically along the medial side of its front, and at the wrist descends superficial to the flexor retinaculum, lateral to the ulnar nerve and the pisiform and medial to the hook of the hamate, ending in the hand as the superficial palmar arch.
+- In the forearm it gives muscular branches to the ulnar-side muscles, and at the wrist the anterior and posterior carpal arteries that form the two carpal arches.
+## answer_c
+Inferior ulnar collateral artery.
+## explanation_c
+The inferior ulnar collateral artery comes off the brachial artery in the arm and descends to meet the ulnar recurrents. The word "ulnar" in its name refers to the side of the limb, not to the artery it comes from.
+## answer_d
+Radialis indicis artery.
+## explanation_d
+The radialis indicis is a radial branch in the palm.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-25C6698A72A982
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the ulnar artery’s largest branch.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p76 q4. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The common interosseous artery is the ulnar artery’s largest branch; the radial recurrent is radial, the inferior ulnar collateral is brachial and the radialis indicis is radial.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-606
+## title
+One of the following is not a branch of the radial artery: (2022) em em em em em
+## question
+One of the following is not a branch of the radial artery: (2022) em em em em em
+## vignette
+This item asks the student to separate the radial artery’s branches from the ulnar artery’s.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Radial recurrent artery
+## explanation_a
+A radial branch, so not the answer. The radial recurrent artery ascends in front of the lateral epicondyle to the elbow anastomosis.
+## answer_b
+Common interosseous artery
+## explanation_b
+Correct. This is the answer. The common interosseous artery is the ulnar artery’s branch and the parent of both interosseous vessels.
+
+Why this is right:
+- The radial artery is the smaller terminal branch of the brachial artery, beginning in the cubital fossa at the level of the neck of the radius.
+## answer_c
+Palmar (anterior) carpal
+## explanation_c
+A radial branch, so not the answer. The palmar carpal branch joins its ulnar fellow to form the anterior carpal arch.
+## answer_d
+Dorsal (posterior) carpal
+## explanation_d
+A radial branch, so not the answer. The dorsal carpal branch forms the dorsal carpal arch in the snuff box.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-9FF8A29E36480B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the radial artery’s branches from the ulnar artery’s.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q26; EOM ISK 101 - 2023.pdf p10 q103. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-607
+## title
+One of the following is not a content of the cubital fossa: em em em em em
+## question
+One of the following is not a content of the cubital fossa: em em em em em
+## vignette
+This item asks the student to name the nerve that passes behind the elbow rather than through the fossa.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Brachial artery
+## explanation_a
+A content. The brachial artery ends in the fossa by dividing, and it is the printed key here.
+## answer_b
+Radial artery
+## explanation_b
+A content. The radial artery begins in the fossa.
+## answer_c
+Ulnar nerve
+## explanation_c
+Correct. This is the answer. The ulnar nerve pierces the medial intermuscular septum in the arm and passes behind the medial epicondyle, outside the fossa.
+
+Why this is right:
+- The cubital fossa is an inverted triangular hollow in front of the elbow joint, occupying the upper third of the front of the forearm.
+## answer_d
+Median nerve
+## explanation_d
+A content, and the most medial of them.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-74BFAB9385B955
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the nerve that passes behind the elbow rather than through the fossa.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q11. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the brachial artery, which is a content — the fossa holds its termination. The structure that is not a content is the ulnar nerve, which passes behind the medial epicondyle.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-608
+## title
+One of the following muscles cannot perform ﬂexion of the wrist (2022)
+## question
+One of the following muscles cannot perform ﬂexion of the wrist (2022)
+## vignette
+This item asks the student to recognise that a forearm muscle can only move a joint it crosses.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pronator quadratus.
+## explanation_a
+Correct. Pronator quadratus lies entirely proximal to the wrist joint, spanning from ulna to radius; a muscle that does not cross a joint cannot move it.
+
+Why this is right:
+- The wrist moves by pairs of muscles acting together while each cancels the other’s second action.
+## answer_b
+Flexor pollicis longus.
+## explanation_b
+Flexor pollicis longus crosses the front of the wrist to reach the thumb and assists flexion there. It is the printed key and it is wrong.
+## answer_c
+Flexor digitorum profundus.
+## explanation_c
+Flexor digitorum profundus crosses the wrist on its way to the distal phalanges and helps flex it.
+## answer_d
+Flexer carpi ulnaris.
+## explanation_d
+Flexor carpi ulnaris is a prime flexor of the wrist.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Recognise that a forearm muscle can only move a joint it crosses.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p53 q21. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, flexor pollicis longus, whose tendon crosses the front of the wrist in the carpal tunnel and does help flex it. Pronator quadratus runs between the lower ends of the ulna and the radius and crosses no joint but the inferior radio-ulnar, so it cannot flex the wrist at all.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-609
+## title
+One of the following muscles is not innervated by median nerve or its branches: (2022) Ac
+## question
+One of the following muscles is not innervated by median nerve or its branches: (2022) Ac
+## vignette
+This item asks the student to pick the one thumb muscle that is ulnar out of a median list.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pronator teres.
+## explanation_a
+Median, so not the answer — pronator teres is supplied by a direct branch in the cubital fossa.
+## answer_b
+Flexor pollicis longus.
+## explanation_b
+Median, so not the answer — through the anterior interosseous nerve.
+## answer_c
+Opponens pollicis.
+## explanation_c
+Median, so not the answer — through the recurrent branch to the thenar eminence.
+## answer_d
+Adductor pollicis.
+## explanation_d
+Correct. This is the answer. Adductor pollicis lies in the adductor compartment and is the muscle in which the deep branch of the ulnar nerve ends; it is the one thumb muscle that is not median, and its loss gives Froment’s sign.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the one thumb muscle that is ulnar out of a median list.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q71; EOM ISK 101 - 2023.pdf p6 q68. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pronator teres is median, flexor pollicis longus is median through the anterior interosseous nerve and opponens pollicis is median through the recurrent branch; adductor pollicis is supplied by the deep branch of the ulnar nerve.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-610
+## title
+Pronator quadrates muscle Is supplied by: (IPKA)
+## question
+Pronator quadrates muscle Is supplied by: (IPKA)
+## vignette
+This item asks the student to name the nerve of pronator quadratus precisely.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Ulnar nerve
+## explanation_a
+The ulnar nerve has two forearm muscles and neither pronates. It is the printed key and it is wrong.
+## answer_b
+Posterior interosseous nerve. P
+## explanation_b
+The posterior interosseous nerve is the exact counterpart in the extensor compartment — the same word with the compartment reversed, which is what makes it the standing distractor here.
+## answer_c
+Radial nerve
+## explanation_c
+The radial nerve supplies the extensor side.
+## answer_d
+Anterior interosseous nerve
+## explanation_d
+Correct. Pronator quadratus lies deepest in the front of the forearm, and the anterior interosseous nerve ends on its deep surface.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the nerve of pronator quadratus precisely.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p82 q7. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the ulnar nerve, which supplies only flexor carpi ulnaris and the medial half of flexor digitorum profundus in the forearm. Pronator quadratus is the last muscle supplied by the anterior interosseous branch of the median nerve.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-611
+## title
+Pronator quadrates muscle Is supplied by: (IPKA) P
+## question
+Pronator quadrates muscle Is supplied by: (IPKA) P
+## vignette
+This item asks the student to name the nerve of pronator quadratus precisely.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Ulnar nerve
+## explanation_a
+The ulnar nerve supplies no pronator.
+## answer_b
+Posterior interosseous nerve
+## explanation_b
+The posterior interosseous nerve serves the extensor compartment.
+## answer_c
+Ulnar
+## explanation_c
+The same distractor as A, printed a second time by the extraction as the single word "Ulnar". Two copies of one wrong answer are still one wrong answer.
+## answer_d
+Anterior interosseous nerve
+## explanation_d
+Correct. The anterior interosseous nerve ends in pronator quadratus.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the nerve of pronator quadratus precisely.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q35. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. Pronator quadratus is supplied by the anterior interosseous branch of the median nerve. Note that options A and C both name the ulnar nerve in this copy — the extraction has duplicated a distractor — but the correct option is unique and the item remains answerable.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-612
+## title
+Regarding ﬂexor Carpi radialis muscle, all of the following are true except: (IPKA) em …
+## question
+Regarding ﬂexor Carpi radialis muscle, all of the following are true except: (IPKA) em em em
+## vignette
+This item asks the student to place flexor carpi radialis in the order of the superficial flexor group.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Lateral muscle in the superﬁcial layer of ﬂexor compartment of forearm
+## explanation_a
+Correct. The exception, and the answer. The most lateral muscle of the superficial flexor group is pronator teres; flexor carpi radialis lies next to it, medially. The name makes it sound like the radial-most muscle, and it is second.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_b
+Take origin from the common ﬂexor origin
+## explanation_b
+True, so not the exception. It arises from the common flexor origin on the medial epicondyle.
+## answer_c
+Flexor and abductor of the wrist
+## explanation_c
+True, so not the exception. It flexes and abducts the wrist, and is the flexor half of the abducting pair.
+## answer_d
+Innervated by the median nerve. Ac ad
+## explanation_d
+True, so not the exception. Every superficial flexor except flexor carpi ulnaris is median.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place flexor carpi radialis in the order of the superficial flexor group.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p51 q5. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-613
+## title
+Regarding muscle actions of the upper limb: 1
+## question
+Regarding muscle actions of the upper limb: 1
+## vignette
+This item asks the student to check four muscle statements against their attachments and nerves in one pass.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Flexor digitorum superficialis flexes distal phalanges
+## explanation_a
+Superficialis inserts into the middle phalanx; the distal phalanx belongs to profundus.
+## answer_b
+Biceps brachii is a powerful supinator
+## explanation_b
+Correct. Biceps is the powerful supinator, supinator itself being the weaker.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_c
+Flexor carpi ulnaris is flexor and abductor of the wrist
+## explanation_c
+Flexor carpi ulnaris adducts the wrist, not abducts it.
+## answer_d
+Pronators muscles are supplied by ulnar nerve. 7
+## explanation_d
+The pronators are median — teres directly and quadratus through the anterior interosseous nerve.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Check four muscle statements against their attachments and nerves in one pass.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p14 q9. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed sibling `regarding-muscle-actions-of-the-upper-limb-dep-book-em-em-em-1ebde679` gives B and B is correct. Flexor digitorum superficialis reaches only the middle phalanx, flexor carpi ulnaris adducts, and the pronators are median.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-614
+## title
+Regarding muscle actions of the upper limb: em em em em em
+## question
+Regarding muscle actions of the upper limb: em em em em em
+## vignette
+This item asks the student to check four muscle statements against their attachments and nerves in one pass.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Flexor digitorum superﬁcialis ﬂexes distal phalanges
+## explanation_a
+Superficialis flexes the middle phalanges; the distal ones are profundus.
+## answer_b
+Biceps brachii is a powerful supinator
+## explanation_b
+Correct. Biceps supinates powerfully with the elbow flexed.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_c
+Flexor carpi ulnaris is ﬂexor and abductor of the wrist
+## explanation_c
+Flexor carpi ulnaris flexes and adducts.
+## answer_d
+Pronators muscles are supplied by ulnar nerve. Ac ad
+## explanation_d
+The pronators are median. The ulnar nerve has only two muscles in the forearm and neither of them pronates.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Check four muscle statements against their attachments and nerves in one pass.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p45 q19. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-615
+## title
+Regarding muscles of the forearm, choose the correct answer: Ac P a- The ﬂexor digitoru…
+## question
+Regarding muscles of the forearm, choose the correct answer: Ac P a- The ﬂexor digitorum profundus arises from three bones. P Vi b- The ﬂexor carpi ulnaris abducts the wrist. y ad
+## vignette
+This item asks the student to check four forearm muscle statements against origin, action and nerve.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The ﬂexor digitorum profundus arises from three bones.
+## explanation_a
+Flexor digitorum profundus arises from the ulna and the interosseous membrane, not from three bones.
+## answer_b
+The ﬂexor carpi ulnaris abducts the wrist.
+## explanation_b
+Flexor carpi ulnaris adducts.
+## answer_c
+The brachioradialis is innervated by the median nerve.
+## explanation_c
+Brachioradialis is radial, not median. It is a flexor of the elbow lying in the extensor compartment.
+## answer_d
+The supinator is innervated by the posterior interosseous nerve.
+## explanation_d
+Correct. Supinator is a deep extensor pierced and supplied by the posterior interosseous nerve.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Check four forearm muscle statements against origin, action and nerve.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p83 q16. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy — only a stray echo of options a and b in the stem, which is an extraction artefact. The keyed copy of this question gives D, and supinator being supplied by the posterior interosseous nerve is the only true statement in the set.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-616
+## title
+Regarding the carrying angle, choose the correct statement: (2017) P
+## question
+Regarding the carrying angle, choose the correct statement: (2017) P
+## vignette
+This item asks the student to give the bony cause of the carrying angle and the positions in which it is present.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It disappears in supination of the extended forearm
+## explanation_a
+It is present in supination of the extended forearm — that is the position in which it is defined and measured. What abolishes it is flexion of the elbow, and pronation of the extended forearm.
+## answer_b
+It appears in pronation of the forearm. y ad
+## explanation_b
+It disappears in pronation, rather than appearing. The option reverses the behaviour it is describing.
+## answer_c
+It is due to downward projection of the medial end of trochlea more than its lateral end
+## explanation_c
+Correct. The medial part of the trochlea projects further down than the lateral part, so the trochlear notch of the ulna sits on it obliquely and the forearm is carried laterally.
+
+Why this is right:
+- With the elbow extended and the forearm supinated, the forearm is not in line with the arm but is carried laterally at about fifteen degrees in men and rather more in women — the carrying angle.
+## answer_d
+It is larger in males than in females
+## explanation_d
+It is larger in females. The conventional figure of about fifteen degrees is the male one, and the difference is attributed to the wider female pelvis.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-BA4B2D326C9F8A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the bony cause of the carrying angle and the positions in which it is present.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p99 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-617
+## title
+Regarding the cutaneous supply of the upper limb, select the incorrect statement: (2022…
+## question
+Regarding the cutaneous supply of the upper limb, select the incorrect statement: (2022) ad Vi
+## vignette
+This item asks the student to trace each strip of skin on the limb back to the cord or nerve that supplies it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The skin of the medial side of the forearm is supplied by a branch from the medial cord of the ad
+## explanation_a
+True, so not the incorrect statement. The medial cutaneous nerve of the forearm comes off the medial cord. This copy has cut the option short after "of the", but the cord named is right.
+## answer_b
+The skin of the lateral side of the arm is supplied by branches from the lateral cord of the
+## explanation_b
+Correct. The incorrect statement, and the answer. The lateral cord reaches skin only through the musculocutaneous nerve, and that nerve covers the lateral forearm; the lateral arm is axillary above and radial below.
+
+Why this is right:
+- The back of the arm is supplied by the posterior cutaneous nerve of the arm from the radial nerve.
+- The lateral side is supplied over the upper half of the deltoid by the lateral supraclavicular nerve from C3 and C4, over the lower half of the deltoid by the upper lateral cutaneous nerve of the arm from the posterior branch of the axillary nerve, and over the lower lateral arm by the lower lateral cutaneous nerve of the arm from the radial nerve in the spiral groove.
+## answer_c
+The skin of the dorsum of hand is supplied by branches of radial. median and ulnar nerves
+## explanation_c
+True, so not the incorrect statement. The back of the hand takes the superficial radial nerve laterally, the dorsal branch of the ulnar medially, and the median over the terminal phalanges of the lateral fingers.
+## answer_d
+The skin of the dorsal surface of medial 1 ½ ﬁngers is supplied by branches of ulnar nerve
+## explanation_d
+True, so not the incorrect statement. The dorsal branch of the ulnar nerve supplies the backs of the medial one and a half fingers.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-F4FC0C323C654E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Trace each strip of skin on the limb back to the cord or nerve that supplies it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p91 q5; EOM ISK 101 - 2023.pdf p7 q82. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, which is true and therefore not the incorrect statement: the medial cutaneous nerve of the forearm is a branch of the medial cord. The incorrect statement is B — the skin of the lateral side of the arm is supplied by the axillary and radial nerves, both posterior cord branches, and by the supraclavicular nerves above them, not by the lateral cord, whose only cutaneous territory is the lateral forearm.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-618
+## title
+Regarding the extensor digitorum muscle, choose the correct answer: (2019)
+## question
+Regarding the extensor digitorum muscle, choose the correct answer: (2019)
+## vignette
+This item asks the student to say what the extensor expansion receives and what supplies extensor digitorum.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Form expansion on the dorsal surface of the medial two ﬁngers
+## explanation_a
+The expansions are formed over all four medial fingers, not only two.
+## answer_b
+Form expansion that is formed of ﬁve slips around the ﬁnger
+## explanation_b
+The expansion has a central slip and two collateral slips — three, and they insert into the middle and distal phalanges.
+## answer_c
+Form expansion that receives insertion of opponens pollicis muscle
+## explanation_c
+Opponens pollicis rolls the first metacarpal and stops there. What the expansion receives is the lumbrical and the interossei of that finger. It is the printed key and it is anatomically impossible.
+## answer_d
+It is supplied by posterior interosseous nerve. Ac
+## explanation_d
+Correct. Extensor digitorum lies in the superficial extensor group and is supplied by the posterior interosseous nerve, which reaches it after piercing supinator.
+
+Why this is right:
+- On the back of each of the medial four fingers the tendon of extensor digitorum flattens over the proximal phalanx into a triangular extensor (dorsal digital) expansion.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-2AA14F317F45C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Say what the extensor expansion receives and what supplies extensor digitorum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q27. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, that the expansion receives the insertion of opponens pollicis — a thenar muscle that inserts into the first metacarpal and never approaches a finger. The true statement is D: extensor digitorum, like the whole superficial extensor group except the two named exceptions, is supplied by the posterior interosseous nerve.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-619
+## title
+Regarding the radial artery in the hand, choose the correct answer: y Ac em
+## question
+Regarding the radial artery in the hand, choose the correct answer: y Ac em
+## vignette
+This item asks the student to trace the radial artery from the back of the hand into the palm.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Passes between the two heads of the 1st dorsal interosseous muscle.
+## explanation_a
+Correct. The first dorsal interosseous has two heads with a gap between them, and the artery uses that gap to cross from the dorsum to the palm.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_b
+Passes between the 1st and 2nd lumbrical muscles.
+## explanation_b
+The lumbricals lie well in front of the artery’s route, in the palm, and it does not pass among them.
+## answer_c
+Passes between the ﬂexor digitorum superﬁcialis and profundus.
+## explanation_c
+The plane between flexor digitorum superficialis and profundus is in the forearm and carries the median nerve.
+## answer_d
+Continues as the superﬁcial palmar arch.
+## explanation_d
+The radial artery ends as the deep palmar arch. The superficial arch is the ulnar artery’s, and this is the swap the books ask about most often.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Trace the radial artery from the back of the hand into the palm.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p78 q23. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The radial artery reaches the palm from the back of the hand by passing forwards between the two heads of the first dorsal interosseous muscle; it then crosses adductor pollicis to form the deep arch.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-620
+## title
+Regarding the radial artery, one is correct: em em em em em
+## question
+Regarding the radial artery, one is correct: em em em em em
+## vignette
+This item asks the student to say exactly where the radial pulse is taken and what the artery becomes.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Its pulsations can be felt between tendons of ﬂexor carpi radialis & brachioradialis
+## explanation_a
+Correct. In the lower third of the forearm the artery lies in the groove between flexor carpi radialis medially and brachioradialis laterally, on the front of the radius with nothing but skin and fascia over it.
+
+Why this is right:
+- The radial artery is the smaller terminal branch of the brachial artery, beginning in the cubital fossa at the level of the neck of the radius.
+## answer_b
+It continues in the palm as the superﬁcial palmar arch
+## explanation_b
+It becomes the deep palmar arch, not the superficial.
+## answer_c
+It begins at the level of the head of the radius
+## explanation_c
+The neck of the radius, not the head. It is the printed key and it misses by one landmark.
+## answer_d
+In the forearm, the superﬁcial radial nerve lies medial to the artery. Ac ad
+## explanation_d
+The superficial branch of the radial nerve lies lateral to the artery in the middle third, not medial.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-9FF8A29E36480B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Say exactly where the radial pulse is taken and what the artery becomes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p77 q12. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, that the artery begins at the level of the head of the radius; the brachial artery divides at the level of the neck of the radius, one landmark lower, and this faculty asks that distinction on its own elsewhere in the leaf. The true statement is A, the position of the pulse between the tendons of flexor carpi radialis and brachioradialis.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-621
+## title
+Regarding the ulnar artery, choose the correct answer: Vi em
+## question
+Regarding the ulnar artery, choose the correct answer: Vi em
+## vignette
+This item asks the student to give the beginning, ending and largest branch of the ulnar artery.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+It begins opposite the head of radius
+## explanation_a
+The neck of the radius, not the head. It is the printed key here and it misses by a landmark.
+## answer_b
+It ends by forming the deep palmar arch
+## explanation_b
+It ends as the superficial palmar arch; the deep arch is radial.
+## answer_c
+Its pulsation can be felt lateral to the ﬂexor carpi ulnaris
+## explanation_c
+The artery does lie lateral to the tendon of flexor carpi ulnaris at the wrist, but the pulse taken there in practice is the radial, felt lateral to flexor carpi radialis, and it is that fact the option imitates. The option needs a faculty eye.
+## answer_d
+It gives the common interosseous artery. Acad
+## explanation_d
+Correct. The common interosseous artery is the ulnar artery’s largest branch and divides at once into the two interosseous arteries.
+
+Why this is right:
+- The ulnar artery begins in the cubital fossa below the elbow joint as the larger terminal branch of the brachial artery.
+- It runs obliquely downwards and medially in the upper third of the forearm, then vertically along the medial side of its front, and at the wrist descends superficial to the flexor retinaculum, lateral to the ulnar nerve and the pisiform and medial to the hook of the hamate, ending in the hand as the superficial palmar arch.
+- In the forearm it gives muscular branches to the ulnar-side muscles, and at the wrist the anterior and posterior carpal arteries that form the two carpal arches.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-25C6698A72A982
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the beginning, ending and largest branch of the ulnar artery.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p76 q10. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, that the artery begins opposite the head of the radius; the brachial artery divides at the level of the neck of the radius, and the ulnar artery therefore begins below the head. The copy of this question asked three times is keyed D, and the common interosseous artery is unambiguously an ulnar branch.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-622
+## title
+Regarding the ulnar nerve: - a- It is a branch of lateral cord of brachial plexus
+## question
+Regarding the ulnar nerve: - a- It is a branch of lateral cord of brachial plexus
+## vignette
+This item asks the student to give the ulnar nerve’s cord of origin, its forearm branches and its relation to the medial epicondyle.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is a branch of lateral cord of brachial plexus.
+## explanation_a
+The medial cord, not the lateral. The lateral cord gives the musculocutaneous nerve and the lateral root of the median.
+## answer_b
+It gives no branches In forearm.
+## explanation_b
+It gives no branches in the arm, which is what the option is half-remembering. In the forearm it supplies two muscles and gives palmar and dorsal cutaneous branches.
+## answer_c
+It passes behind medial epicondyle of humerus. — -
+## explanation_c
+Correct. The nerve grooves the back of the medial epicondyle against bare bone, which is where it is palpable and where it is injured.
+
+Why this is right:
+- The ulnar nerve is the largest branch of the medial cord of the brachial plexus, root value C8 and T1.
+## answer_d
+It supplies extensor carpi ulnaris.
+## explanation_d
+Extensor carpi ulnaris is named for the ulna but lies in the extensor compartment and is supplied by the posterior interosseous nerve. Every extensor in the forearm is radial.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Give the ulnar nerve’s cord of origin, its forearm branches and its relation to the medial epicondyle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p17 q30. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve is the largest branch of the medial cord, it does give branches in the forearm to flexor carpi ulnaris and the medial half of flexor digitorum profundus, and extensor carpi ulnaris is radial despite its name — leaving the relation to the medial epicondyle as the only true statement.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-623
+## title
+Supination of the radioulnar joints is done mainly by: Ac ad Ac ad ad ad
+## question
+Supination of the radioulnar joints is done mainly by: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to name the chief supinator.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pronator teres.
+## explanation_a
+Pronator teres pronates. It is the printed key here and it names the antagonist.
+## answer_b
+Pronator quadratus.
+## explanation_b
+Pronator quadratus is the prime pronator.
+## answer_c
+Brachioradialis.
+## explanation_c
+Brachioradialis stops at the mid-prone position.
+## answer_d
+Biceps brachii.
+## explanation_d
+Correct. Biceps is the powerful supinator, which is why supination is stronger than pronation.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the chief supinator.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p102 q7. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, pronator teres, which performs the opposite movement. Supination is by supinator and biceps, and biceps is the powerful one.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-624
+## title
+Synovial sheath of digital ﬂexors encloses, mark correct statement: Ac ad Ac ad ad ad
+## question
+Synovial sheath of digital ﬂexors encloses, mark correct statement: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to name the tendons wrapped in the common flexor synovial sheath.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Flexor digitorum brevis.
+## explanation_a
+Flexor digitorum brevis is a muscle of the sole of the foot and has no counterpart here.
+## answer_b
+Flexor digitorum profundus.
+## explanation_b
+Correct. All four profundus tendons lie in the common sheath with the four superficialis tendons.
+
+Why this is right:
+- The tendon of flexor carpi radialis has a small sheath in its own compartment in the lateral attachment of the retinaculum.
+## answer_c
+Flexor pollicis brevis.
+## explanation_c
+Flexor pollicis brevis is a short thenar muscle within the hand and crosses no retinaculum; it is flexor pollicis longus that has a sheath, and its own one.
+## answer_d
+Flexor carpi radialis.
+## explanation_d
+Flexor carpi radialis has a separate small sheath in its own compartment in the retinaculum.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-132E72A335B25F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the tendons wrapped in the common flexor synovial sheath.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p59 q14. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The common synovial sheath beneath the flexor retinaculum encloses the eight tendons of flexor digitorum superficialis and profundus; only profundus is offered.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-625
+## title
+Synovial sheath of digital fiexors encloses, mark correct statement:
+## question
+Synovial sheath of digital fiexors encloses, mark correct statement:
+## vignette
+This item asks the student to name the tendons wrapped in the common flexor synovial sheath.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Flexor digitorum brevis
+## explanation_a
+A muscle of the foot, not the hand.
+## answer_b
+Flexor digitorum profundus. ;
+## explanation_b
+Correct. Flexor digitorum profundus lies in the common synovial sheath.
+
+Why this is right:
+- The tendon of flexor carpi radialis has a small sheath in its own compartment in the lateral attachment of the retinaculum.
+## answer_c
+Flexor pollicis brevis
+## explanation_c
+A short thenar muscle with no sheath at the wrist.
+## answer_d
+Flexor carpi radialis. foe ae 7 3 7 1
+## explanation_d
+Has a sheath of its own within the retinaculum.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-132E72A335B25F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Name the tendons wrapped in the common flexor synovial sheath.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p20 q46. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The digital flexors in the common sheath are flexor digitorum superficialis and flexor digitorum profundus.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-626
+## title
+Synovial sheath of digital flexors encloses, mark correct statement:
+## question
+Synovial sheath of digital flexors encloses, mark correct statement:
+## vignette
+This item asks the student to name the tendons wrapped in the common flexor synovial sheath.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Flexor digitorum brevis
+## explanation_a
+A muscle of the sole of the foot.
+## answer_b
+Flexor digitorum profundus
+## explanation_b
+Correct. The eight digital flexor tendons share one sheath under the retinaculum.
+
+Why this is right:
+- The tendon of flexor carpi radialis has a small sheath in its own compartment in the lateral attachment of the retinaculum.
+## answer_c
+Flexor pollicis brevis
+## explanation_c
+An intrinsic muscle of the hand; it never crosses the wrist.
+## answer_d
+Flexor carpi radialis
+## explanation_d
+Runs in its own compartment within the retinaculum, in a sheath of its own.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-132E72A335B25F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name the tendons wrapped in the common flexor synovial sheath.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p16 q46. Manifest src_0f1171705349e98b44e6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on any of the four copies of this question. The common sheath encloses the tendons of flexor digitorum superficialis and profundus, and of the options offered only profundus is one of them.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-627
+## title
+The anterior aspect of the interosseous membrane gives attachment to, mark the suitable…
+## question
+The anterior aspect of the interosseous membrane gives attachment to, mark the suitable answer:
+## vignette
+This item asks the student to name what arises from the front of the interosseous membrane.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Flexor pollicis longus and flexor digitorum profundus
+## explanation_a
+Correct. The two deep flexors take the front of the membrane, which is why they have no humeral attachment.
+
+Why this is right:
+- The interosseous membrane is a strong fibrous sheet stretched between the interosseous borders of the radius and the ulna, tethering the two bones together and holding them at their proper distance through pronation and supination.
+## answer_b
+Flexor digitorum superficialis
+## explanation_b
+A superficial flexor from the medial epicondyle, the ulna and the radius.
+## answer_c
+Pronator teres
+## explanation_c
+A superficial flexor from the medial epicondyle and the coronoid process.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+A superficial flexor from the medial epicondyle and the ulna.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4CFF00B2741E50
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Name what arises from the front of the interosseous membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p40 q124. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The anterior surface of the membrane gives origin to flexor pollicis longus and flexor digitorum profundus; the other three options are superficial flexors arising from the medial epicondyle.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-628
+## title
+The brachioradialis muscle receives its nerve supply from: (2018) Vi P y
+## question
+The brachioradialis muscle receives its nerve supply from: (2018) Vi P y
+## vignette
+This item asks the student to assign brachioradialis to the radial nerve itself rather than to its deep branch.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The radial nerve
+## explanation_a
+Correct. The radial nerve supplies brachioradialis in the arm, above the level at which it divides into superficial and deep branches.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## answer_b
+The anterior interosseous nerve
+## explanation_b
+The anterior interosseous nerve is a median branch in the flexor compartment.
+## answer_c
+The posterior interosseous nerve
+## explanation_c
+The posterior interosseous nerve supplies everything else in the extensor compartment, which is what makes it the natural guess. It is the printed key here and it is wrong, and the distinction matters: it is why the wrist still extends after a posterior interosseous lesion.
+## answer_d
+The median nerve
+## explanation_d
+The median nerve supplies no muscle in the posterior compartment.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Assign brachioradialis to the radial nerve itself rather than to its deep branch.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q3. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, the posterior interosseous nerve, which supplies the rest of the extensor compartment but not this muscle. Brachioradialis is one of the three muscles the radial nerve supplies directly, before it divides — the others being extensor carpi radialis longus and anconeus — and the identically worded copy `the-brachioradialis-muscle-receives-its-nerve-supply-from-20-fde9f211` is keyed A.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-629
+## title
+The brachioradialis muscle receives its nerve supply from: (2018) Ac ad Ac ad ad ad
+## question
+The brachioradialis muscle receives its nerve supply from: (2018) Ac ad Ac ad ad ad
+## vignette
+This item asks the student to assign brachioradialis to the radial nerve itself rather than to its deep branch.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The radial nerve.
+## explanation_a
+Correct. Brachioradialis takes a branch from the radial nerve trunk in the lower arm.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## answer_b
+The anterior interosseous nerve.
+## explanation_b
+A median branch in the flexor compartment.
+## answer_c
+The posterior interosseous nerve.
+## explanation_c
+The nerve of the rest of the extensor group, and the standing distractor here.
+## answer_d
+The median nerve.
+## explanation_d
+The median nerve reaches nothing in the extensor compartment.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Assign brachioradialis to the radial nerve itself rather than to its deep branch.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p49 q6. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-630
+## title
+The brachioradialis muscle, select the true statement: (2021) y y
+## question
+The brachioradialis muscle, select the true statement: (2021) y y
+## vignette
+This item asks the student to give the side, action and nerve of brachioradialis.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Is an extensor of the elbow joint.
+## explanation_a
+It flexes the elbow. Lying in the extensor compartment does not make it an extensor, which is the whole oddity of this muscle.
+## answer_b
+Present on the medial side of the forearm.
+## explanation_b
+It is on the lateral, radial side — the name says so, and it forms the lateral boundary of the cubital fossa.
+## answer_c
+Is supplied by posterior interosseous nerve.
+## explanation_c
+It is supplied by the radial nerve directly, not by the posterior interosseous nerve.
+## answer_d
+Put the forearm in mid-prone position.
+## explanation_d
+Correct. Brachioradialis brings the forearm to the mid-prone position from full pronation or full supination.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the side, action and nerve of brachioradialis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q26; EOM ISK 101 195 Answers.pdf p11 q111. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Brachioradialis flexes the elbow rather than extending it, lies on the lateral side of the forearm, and is supplied by the radial nerve itself rather than by the posterior interosseous branch — leaving the mid-prone action as the only true statement.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-631
+## title
+The continuation of musculocutaneous nerve is:
+## question
+The continuation of musculocutaneous nerve is:
+## vignette
+This item asks the student to name what the musculocutaneous nerve becomes below the elbow.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Posterior cutaneous nerve of forearm
+## explanation_a
+The posterior cutaneous nerve of the forearm is a radial branch, given in the spiral groove.
+## answer_b
+Medial cutaneous nerve of forearm
+## explanation_b
+The medial cutaneous nerve of the forearm arises from the medial cord and is an independent nerve, not a continuation of anything.
+## answer_c
+Lateral cutaneous nerve of forearm
+## explanation_c
+Correct. The name records the change: the nerve is muscular in the arm and cutaneous below it.
+
+Why this is right:
+- The musculocutaneous nerve arises in the axilla from the lateral cord of the brachial plexus, root value C5, C6, C7.
+## answer_d
+Medial cutaneous nerve of arm
+## explanation_d
+The medial cutaneous nerve of the arm is another medial cord branch, and it supplies the arm rather than the forearm.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-F125616F7ED37A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name what the musculocutaneous nerve becomes below the elbow.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p31 q10. Manifest src_0f1171705349e98b44e6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The musculocutaneous nerve pierces the deep fascia about an inch above the elbow at the lateral border of the biceps tendon and continues as the lateral cutaneous nerve of the forearm.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-632
+## title
+The deep muscles of back of forearm include: (2024) em em em em em
+## question
+The deep muscles of back of forearm include: (2024) em em em em em
+## vignette
+This item asks the student to separate the deep extensor group from the superficial.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Extensor carpi radialis longus
+## explanation_a
+Extensor carpi radialis longus is superficial, from the lateral supracondylar ridge. It is the printed key and it is in the wrong group.
+## answer_b
+Extensor carpi radialis brevis
+## explanation_b
+Extensor carpi radialis brevis is superficial, from the common extensor origin.
+## answer_c
+Supinator
+## explanation_c
+Correct. Supinator is the highest of the deep extensor group, wrapped round the upper third of the radius.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## answer_d
+Extensor carpi ulnaris
+## explanation_d
+Extensor carpi ulnaris is superficial, from the common extensor origin.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the deep extensor group from the superficial.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p82 q5. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, extensor carpi radialis longus, which arises from the lateral supracondylar ridge and lies in the superficial group. The deep group of the back of the forearm is supinator, abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus and extensor indicis, and of the options only supinator is among them.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-633
+## title
+The ﬂexor digitorum profundus, choose correct answer: P Vi a- Receives double nerve sup…
+## question
+The ﬂexor digitorum profundus, choose correct answer: P Vi a- Receives double nerve supply. Vi P
+## vignette
+This item asks the student to recognise flexor digitorum profundus as the one muscle of the limb with two nerves.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Receives double nerve supply.
+## explanation_a
+Correct. Lateral half median through the anterior interosseous nerve, medial half ulnar — the one muscle in the limb divided between two nerves.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_b
+Inserted into the front of middle phalanx.
+## explanation_b
+The middle phalanx belongs to superficialis. It is the printed key here and it swaps the two digital flexors.
+## answer_c
+Flexes the lateral four ﬁngers.
+## explanation_c
+The four fingers it flexes are conventionally the medial four, the thumb excluded.
+## answer_d
+Arises from radius, ulna and interosseous membrane.
+## explanation_d
+It arises from the ulna and the interosseous membrane; flexor pollicis longus is the deep flexor with a radial origin.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Recognise flexor digitorum profundus as the one muscle of the limb with two nerves.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p52 q13. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, insertion into the front of the middle phalanx, which is flexor digitorum superficialis — profundus passes through the split superficialis tendon to reach the distal phalanx. Its double nerve supply, anterior interosseous laterally and ulnar medially, is the true statement.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-634
+## title
+The following muscle is innervated by the posterior interosseous nerve: (2017) Ac ad Ac…
+## question
+The following muscle is innervated by the posterior interosseous nerve: (2017) Ac ad Ac ad ad ad
+## vignette
+This item asks the student to separate extensor carpi radialis brevis from longus by their nerves.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Extensor carpi radialis brevis.
+## explanation_a
+Correct. Extensor carpi radialis brevis is posterior interosseous.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## answer_b
+Adductor pollicis.
+## explanation_b
+Adductor pollicis is ulnar.
+## answer_c
+Abductor pollicis brevis.
+## explanation_c
+Abductor pollicis brevis is median.
+## answer_d
+Extensor carpi radial is longus.
+## explanation_d
+Extensor carpi radialis longus is supplied by the radial nerve itself, which is why the wrist still extends after a posterior interosseous lesion.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate extensor carpi radialis brevis from longus by their nerves.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p82 q4. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives extensor carpi radialis longus, which the radial nerve supplies directly. The brevis is the one on the posterior interosseous nerve.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-635
+## title
+The following muscle Is innervated by the radial nerve: Vi ad
+## question
+The following muscle Is innervated by the radial nerve: Vi ad
+## vignette
+This item asks the student to separate the three muscles the radial nerve supplies itself from the rest of the extensor compartment.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Supinator.
+## explanation_a
+Supinator is posterior interosseous. It is the printed key here and it names the muscle the branch passes through.
+## answer_b
+Abductor pollicis longus.
+## explanation_b
+Abductor pollicis longus is a deep extensor and posterior interosseous.
+## answer_c
+Extensor pollicis longus.
+## explanation_c
+Extensor pollicis longus is likewise deep and posterior interosseous.
+## answer_d
+Extensor carpi radialis longus.
+## explanation_d
+Correct. Extensor carpi radialis longus, with brachioradialis and anconeus, takes the radial nerve directly.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the three muscles the radial nerve supplies itself from the rest of the extensor compartment.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q6. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, supinator, which is supplied by the posterior interosseous nerve that pierces it. The copy asked four times is keyed D, and extensor carpi radialis longus is one of only three muscles the radial nerve trunk supplies directly.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-636
+## title
+The interosseous membrane, choose the correct answer: y
+## question
+The interosseous membrane, choose the correct answer: y
+## vignette
+This item asks the student to give the attachments of the interosseous membrane and what arises from each of its surfaces.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is attached to the anterior borders of radius and ulna
+## explanation_a
+The membrane joins the interosseous borders of the two bones.
+## answer_b
+Gives origin to abductor polices brevis. Ac
+## explanation_b
+Abductor pollicis longus, not brevis, and from the posterior surface.
+## answer_c
+Gives origin to the deep ﬂexors of the hand
+## explanation_c
+Correct. Flexor pollicis longus and flexor digitorum profundus take origin from the anterior surface.
+
+Why this is right:
+- The interosseous membrane is a strong fibrous sheet stretched between the interosseous borders of the radius and the ulna, tethering the two bones together and holding them at their proper distance through pronation and supination.
+## answer_d
+Pierced by posterior interosseous vessels
+## explanation_d
+It is the anterior interosseous artery that pierces the membrane; the posterior interosseous vessels pass above it.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4CFF00B2741E50
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the attachments of the interosseous membrane and what arises from each of its surfaces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p52 q17. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-637
+## title
+The Lateral half of the ﬂexor digitorum profundus is supplied by: (IPKA)
+## question
+The Lateral half of the ﬂexor digitorum profundus is supplied by: (IPKA)
+## vignette
+This item asks the student to assign each half of flexor digitorum profundus to its nerve.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Ulnar nerve.
+## explanation_a
+The ulnar nerve takes the medial half. It is the printed key here and it names the other side of the same muscle.
+## answer_b
+Anterior interosseus nerve.
+## explanation_b
+Correct. The anterior interosseous nerve supplies the lateral half along with flexor pollicis longus and pronator quadratus.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_c
+Both ulnar and median nerves.
+## explanation_c
+The muscle as a whole has both nerves, but each half has only one; the question asks about one half.
+## answer_d
+Posterior interosseous nerve.
+## explanation_d
+The posterior interosseous nerve is in the extensor compartment.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Assign each half of flexor digitorum profundus to its nerve.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p51 q6. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the ulnar nerve, which supplies the medial half. The lateral half, to the index and middle fingers, is supplied by the anterior interosseous branch of the median nerve — which is why a high median lesion leaves the index unable to flex while the ring and little fingers still can.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-638
+## title
+The median nerve innervates the following muscle: (2019) ad Ac a- Extensor carpi ulnari…
+## question
+The median nerve innervates the following muscle: (2019) ad Ac a- Extensor carpi ulnaris. y Ac
+## vignette
+This item asks the student to pick the median muscle out of a list of ulnar and radial ones.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Extensor carpi ulnaris.
+## explanation_a
+Extensor carpi ulnaris is a posterior compartment muscle on the posterior interosseous nerve.
+## answer_b
+Abductor pollicis brevis.
+## explanation_b
+Correct. Abductor pollicis brevis is one of the three thenar muscles supplied by the recurrent branch of the median nerve.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## answer_c
+Medial two lumbricals.
+## explanation_c
+The medial two lumbricals are ulnar; the lateral two are median. It is the printed key here and it takes the wrong half.
+## answer_d
+Adductor pollicis.
+## explanation_d
+Adductor pollicis is ulnar.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the median muscle out of a list of ulnar and radial ones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, the medial two lumbricals, which are supplied by the deep branch of the ulnar nerve — it is the lateral two that are median. Abductor pollicis brevis is a thenar muscle and unambiguously median.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-639
+## title
+The median nerve supplies, one of the following muscles: Vi ad
+## question
+The median nerve supplies, one of the following muscles: Vi ad
+## vignette
+This item asks the student to pick the median muscle out of a list of ulnar ones.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Flexor carpi ulnaris muscle.
+## explanation_a
+Flexor carpi ulnaris is one of the two forearm flexors that are ulnar.
+## answer_b
+Dorsal interossei.
+## explanation_b
+The dorsal interossei are ulnar, through the deep branch.
+## answer_c
+Opponens pollicis.
+## explanation_c
+Correct. Opponens pollicis is median, and opposition is the movement a median lesion costs.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## answer_d
+Adductor pollicis muscle.
+## explanation_d
+Adductor pollicis is ulnar — the one thumb muscle that is.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the median muscle out of a list of ulnar ones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p68 q43. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the identically worded copy asked four times is keyed C. Opponens pollicis is a thenar muscle on the recurrent branch of the median nerve, while the other three options are all ulnar.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-640
+## title
+The muscle attached to the front of the interosseous membrane between radius Ac ad Ac a…
+## question
+The muscle attached to the front of the interosseous membrane between radius Ac ad Ac ad ad ad and ulna is: (2019)
+## vignette
+This item asks the student to name a muscle arising from the front of the interosseous membrane.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pronator teres.
+## explanation_a
+Pronator teres arises from the medial epicondyle and the coronoid process of the ulna.
+## answer_b
+Flexor carpi radialis.
+## explanation_b
+Flexor carpi radialis arises from the common flexor origin.
+## answer_c
+Flexor pollicis longus.
+## explanation_c
+Correct. Flexor pollicis longus arises from the anterior surface of the radius and the adjoining interosseous membrane.
+
+Why this is right:
+- The interosseous membrane is a strong fibrous sheet stretched between the interosseous borders of the radius and the ulna, tethering the two bones together and holding them at their proper distance through pronation and supination.
+## answer_d
+Flexor carpi ulnaris.
+## explanation_d
+Flexor carpi ulnaris arises from the medial epicondyle and the ulna, behind the membrane’s plane rather than on it.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4CFF00B2741E50
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name a muscle arising from the front of the interosseous membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p54 q25. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The muscles attached to the front of the membrane are flexor pollicis longus and flexor digitorum profundus, and only the first is offered; the other three options are superficial flexors from the medial epicondyle.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-641
+## title
+The Muscle takes origin from the radius is: (2022)
+## question
+The Muscle takes origin from the radius is: (2022)
+## vignette
+This item asks the student to distinguish a muscle that arises from the radius from ones that insert into it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Biceps
+## explanation_a
+Biceps inserts into the radial tuberosity; it arises from the scapula.
+## answer_b
+Supinator
+## explanation_b
+Supinator arises from the ulna and the lateral epicondyle and inserts into the radius. Arising from a bone and wrapping round it are different things, and this is the option that trades on the difference.
+## answer_c
+Pronator quadratus
+## explanation_c
+Pronator quadratus arises from the ulna and inserts into the radius.
+## answer_d
+Flexor pollicis longus
+## explanation_d
+Correct. Flexor pollicis longus takes origin from the anterior surface of the shaft of the radius.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Distinguish a muscle that arises from the radius from ones that insert into it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p66 q2; EOM ISK 101 - 2023.pdf p6 q69. Manifest src_b7301bfcd7d002317e40, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Flexor pollicis longus arises from the anterior surface of the radius and the interosseous membrane; the other three all act on the radius rather than arising from it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-642
+## title
+The muscles supplied by posterior interosseous nerve in forearm include:
+## question
+The muscles supplied by posterior interosseous nerve in forearm include:
+## vignette
+This item asks the student to name a muscle of the posterior interosseous nerve and exclude the muscles of the radial trunk.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Anconeus
+## explanation_a
+Anconeus is supplied by the radial nerve in the arm, by the branch that also serves the medial head of triceps.
+## answer_b
+Extensor carpi radialis longus
+## explanation_b
+Extensor carpi radialis longus is one of the three muscles the radial nerve supplies directly.
+## answer_c
+Extensor indicis
+## explanation_c
+Correct. Extensor indicis is the lowest of the deep extensor group and takes the posterior interosseous nerve, sharing the fourth compartment of the retinaculum with extensor digitorum.
+
+Why this is right:
+- The posterior (extensor) compartment of the forearm holds twelve muscles in two groups.
+## answer_d
+Brachialis
+## explanation_d
+Brachialis is a flexor of the arm, supplied by the musculocutaneous nerve with a small radial twig.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Name a muscle of the posterior interosseous nerve and exclude the muscles of the radial trunk.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q3; EOM ISK EOM exam 2024.pdf p5 q50. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Extensor indicis is a deep extensor and posterior interosseous; anconeus and extensor carpi radialis longus are supplied by the radial nerve itself, and brachialis is musculocutaneous.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-643
+## title
+The palmar arterial arches, choose the correct answer: Ac P Vi a- The superﬁcial palmar…
+## question
+The palmar arterial arches, choose the correct answer: Ac P Vi a- The superﬁcial palmar arch is the continuation of radial artery. ad
+## vignette
+This item asks the student to give the level and the plane of each palmar arch.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The superﬁcial palmar arch is the continuation of radial artery.
+## explanation_a
+The superficial arch is mainly the ulnar artery, completed by the superficial palmar branch of the radial. This option gives it to the wrong parent.
+## answer_b
+The deep palmar arch is the continuation of ulnar artery.
+## explanation_b
+The deep arch is mainly the radial artery, completed by the deep branch of the ulnar — again reversed.
+## answer_c
+The superﬁcial palmar arch passes between the tendons ﬂexor digitorum.
+## explanation_c
+The superficial arch lies in front of the flexor tendons, immediately deep to the palmar aponeurosis, rather than passing between them.
+## answer_d
+The deep palmar arch passes between tendons of ﬂexor digitorum profundus and bases of the medial four metacarpal bones.
+## explanation_d
+Correct. The deep arch runs across the bases of the medial four metacarpal bones, behind the long flexor tendons and behind adductor pollicis — which is what makes it the deeper and the more proximal of the two.
+
+Why this is right:
+- The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons, crossing the palm at the level of the midshaft of the metacarpals; it is mainly the ulnar artery, completed by the superficial palmar branch of the radial, and gives four palmar digital arteries.
+- The deep palmar arch lies deep to the flexor tendons, immediately distal to the bases of the metacarpals and so proximal to the superficial arch; it is formed mainly by the radial artery, completed by the deep branch of the ulnar, and gives three palmar metacarpal arteries, three perforating branches passing dorsally, and recurrent branches to the anterior carpal arch.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-BC95DAE3531583
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the level and the plane of each palmar arch.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p78 q22. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — only a stray echo of option a in the stem. The first two options reverse the two arches, and the third puts the superficial arch in the wrong plane; the deep arch does lie on the bases of the medial four metacarpals, deep to the long flexor tendons, which makes D the only true statement.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-644
+## title
+The posterior aspect of the interosseous membrane gives attachment to, mark Ac ad Ac ad…
+## question
+The posterior aspect of the interosseous membrane gives attachment to, mark Ac ad Ac ad ad ad the suitable answer: (2022)
+## vignette
+This item asks the student to name what arises from the back of the interosseous membrane.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Flexer pollicis longus and ﬂexor digitorum profundus.
+## explanation_a
+These two are the deep flexors and arise from the front of the membrane. The option is the right answer to the mirror-image question, which is asked separately in this leaf.
+## answer_b
+Extensor indicis.
+## explanation_b
+Correct. Extensor indicis is one of the deep extensors — with abductor pollicis longus, extensor pollicis brevis and extensor pollicis longus — arising from the back of the membrane and the adjacent bone.
+
+Why this is right:
+- The interosseous membrane is a strong fibrous sheet stretched between the interosseous borders of the radius and the ulna, tethering the two bones together and holding them at their proper distance through pronation and supination.
+## answer_c
+Pronator quadratus.
+## explanation_c
+Pronator quadratus arises from the front of the ulna, not from the membrane at all.
+## answer_d
+Pronator teres.
+## explanation_d
+Pronator teres arises from the medial epicondyle and the coronoid process.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4CFF00B2741E50
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name what arises from the back of the interosseous membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q24; EOM ISK 101 - 2023.pdf p8 q89. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-645
+## title
+The radial artery as it continues forming the deep palmar arch, it passes between the h…
+## question
+The radial artery as it continues forming the deep palmar arch, it passes between the heads of:
+## vignette
+This item asks the student to trace the radial artery from the back of the hand into the palm through two muscles.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Lumbrical muscle.
+## explanation_a
+A lumbrical arises by one head from a flexor tendon and lies in front of the artery’s route.
+## answer_b
+Adductor pollicis.
+## explanation_b
+Correct. Adductor pollicis has an oblique and a transverse head, and the artery passes between them to become the deep arch.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_c
+Second dorsal interosseous.
+## explanation_c
+It is the first dorsal interosseous the artery passes through, and that is the earlier passage, from the dorsum into the palm.
+## answer_d
+Opponens pollicis.
+## explanation_d
+Opponens pollicis is single-headed and superficial to the artery.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Trace the radial artery from the back of the hand into the palm through two muscles.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p78 q21. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-646
+## title
+The radius Is ﬁxed (tethered) to the ulna by: Ac P a- Articular disc of the wrist joint…
+## question
+The radius Is ﬁxed (tethered) to the ulna by: Ac P a- Articular disc of the wrist joint. P Vi b- Interosseous membrane. y
+## vignette
+This item asks the student to name the structure that holds the two forearm bones at a fixed distance.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Articular disc of the wrist joint.
+## explanation_a
+The articular disc binds the two bones at their lower ends only, as part of the inferior radio-ulnar joint.
+## answer_b
+Interosseous membrane.
+## explanation_b
+Correct. The interosseous membrane runs between the interosseous borders of the radius and the ulna for most of their length.
+
+Why this is right:
+- The interosseous membrane is a strong fibrous sheet stretched between the interosseous borders of the radius and the ulna, tethering the two bones together and holding them at their proper distance through pronation and supination.
+## answer_c
+Radial collateral ligament.
+## explanation_c
+The radial collateral ligament is an elbow ligament, from the lateral epicondyle to the anular ligament.
+## answer_d
+Ulnar collateral ligament.
+## explanation_d
+The ulnar collateral ligament belongs to the elbow and connects humerus to ulna. It is the printed key here and it involves the wrong two bones.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4CFF00B2741E50
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the structure that holds the two forearm bones at a fixed distance.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p101 q4. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, the ulnar collateral ligament, which runs from the medial epicondyle of the humerus to the ulna and never touches the radius. The interosseous membrane is the structure that binds the two forearm bones together along their shafts.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-647
+## title
+The structures passing deep to ﬂexor retinaculum include: (2024) Ac em
+## question
+The structures passing deep to ﬂexor retinaculum include: (2024) Ac em
+## vignette
+This item asks the student to name what lies inside the carpal tunnel.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Tendon of ﬂexor digitorum profundus
+## explanation_a
+Correct. The four tendons of flexor digitorum profundus pass through the carpal tunnel in the common synovial sheath with the four of superficialis.
+
+Why this is right:
+- The flexor retinaculum is a thick fibrous band bridging the concavity of the carpus, attached medially to the pisiform and the hook of the hamate and laterally to the tubercle of the scaphoid and the crest of the trapezium, and converting the carpal groove into the carpal tunnel.
+## answer_b
+Ulnar artery
+## explanation_b
+The ulnar artery crosses superficial to the retinaculum with the ulnar nerve.
+## answer_c
+Radial artery
+## explanation_c
+The radial artery leaves the front of the wrist laterally and crosses the anatomical snuff box on the back of the hand.
+## answer_d
+Ulnar nerve
+## explanation_d
+The ulnar nerve passes superficial to the retinaculum in the canal of Guyon — the single most useful fact about this band, because it is why carpal tunnel syndrome spares the little finger.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-10423E16E36186
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name what lies inside the carpal tunnel.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p80 q5. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-648
+## title
+The superﬁcial muscles of front of forearm include (2024)
+## question
+The superﬁcial muscles of front of forearm include (2024)
+## vignette
+This item asks the student to separate the superficial flexor group from the deep.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Pronator quadratus.
+## explanation_a
+Pronator quadratus is the deepest muscle of the front of the forearm.
+## answer_b
+Flexor carpi radialis.
+## explanation_b
+Correct. Flexor carpi radialis arises from the common flexor origin and lies in the superficial group, second from the lateral side.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_c
+Flexor pollicis longus.
+## explanation_c
+Flexor pollicis longus is deep, arising from the radius and the interosseous membrane. It is the printed key here and it is in the wrong group.
+## answer_d
+Supinator.
+## explanation_d
+Supinator is not in the anterior compartment at all — it is a deep extensor.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the superficial flexor group from the deep.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q2. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, flexor pollicis longus, which is one of the three deep flexors arising from the radius and the interosseous membrane. The superficial group is pronator teres, flexor carpi radialis, palmaris longus, flexor digitorum superficialis and flexor carpi ulnaris, and only flexor carpi radialis is offered.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-649
+## title
+The superﬁcial radial nerve, select the true statement: (2022)
+## question
+The superﬁcial radial nerve, select the true statement: (2022)
+## vignette
+This item asks the student to state that the superficial branch of the radial nerve is purely sensory and give its relation to the radial artery.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pierces the medial intermuscular septum of the arm.
+## explanation_a
+It is the radial nerve trunk, in the arm, that pierces the lateral intermuscular septum, and the septum is lateral rather than medial. The superficial branch begins below that, at the elbow.
+## answer_b
+Supplies the extensor carpi ulnaris muscle.
+## explanation_b
+The superficial branch carries no motor fibres. It is the printed key here and it is the whole point of the item: cutting this branch numbs the back of the hand and weakens nothing.
+## answer_c
+Lies on the lateral side of the radial artery in the forearm.
+## explanation_c
+Correct. In the middle third of the forearm the superficial radial nerve lies on the lateral side of the radial artery, under cover of brachioradialis.
+
+Why this is right:
+- At the level of the lateral epicondyle the radial nerve divides into two terminal branches with entirely separate jobs.
+## answer_d
+Lies medially in the cubital fossa.
+## explanation_d
+It runs laterally, under brachioradialis; medial is the median nerve’s side of the fossa.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-1FC89E36FFD98E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+State that the superficial branch of the radial nerve is purely sensory and give its relation to the radial artery.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q13; EOM ISK 101 195 Answers.pdf p6 q63. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, that the superficial radial nerve supplies extensor carpi ulnaris, which is false: the superficial branch is wholly cutaneous and supplies no muscle at all — extensor carpi ulnaris takes the deep branch, the posterior interosseous nerve. The true statement is C, its relation to the radial artery in the forearm.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-650
+## title
+The tendon of the following muscle pass superﬁcial to the ﬂexor retinaculum at the wris…
+## question
+The tendon of the following muscle pass superﬁcial to the ﬂexor retinaculum at the wrist: ad Ac y Ac
+## vignette
+This item asks the student to pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Flexor digitorum superﬁcialis.
+## explanation_a
+The superficialis tendons are in the carpal tunnel.
+## answer_b
+Flexor digitorum profundus.
+## explanation_b
+The profundus tendons are with them.
+## answer_c
+Palmaris longus.
+## explanation_c
+Correct. Palmaris longus lies on the retinaculum and blends with it and with the palmar aponeurosis beyond.
+
+Why this is right:
+- The flexor retinaculum is a thick fibrous band bridging the concavity of the carpus, attached medially to the pisiform and the hook of the hamate and laterally to the tubercle of the scaphoid and the crest of the trapezium, and converting the carpal groove into the carpal tunnel.
+## answer_d
+Flexor carpi radialis.
+## explanation_d
+Flexor carpi radialis passes through the retinaculum rather than over it — the one structure at the wrist that belongs to neither group. It is the printed key here and it is the near miss the item is built around.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-10423E16E36186
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p80 q4. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, flexor carpi radialis, whose tendon runs through a compartment made by a split in the lateral attachment of the retinaculum rather than over the band. The tendon that lies superficial to it is palmaris longus, which is partly inserted into it, and the clean copy of this question is keyed C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-651
+## title
+The tendon of the following muscle passes superﬁcial to the ﬂexor retinaculum at the wr…
+## question
+The tendon of the following muscle passes superﬁcial to the ﬂexor retinaculum at the wrist: (2017)
+## vignette
+This item asks the student to pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Flexor digitorum superﬁcialis.
+## explanation_a
+In the carpal tunnel.
+## answer_b
+Flexor digitorum profundus.
+## explanation_b
+In the carpal tunnel.
+## answer_c
+Palmaris longus.
+## explanation_c
+Correct. Palmaris longus is the most superficial structure at the front of the wrist.
+
+Why this is right:
+- The flexor retinaculum is a thick fibrous band bridging the concavity of the carpus, attached medially to the pisiform and the hook of the hamate and laterally to the tubercle of the scaphoid and the crest of the trapezium, and converting the carpal groove into the carpal tunnel.
+## answer_d
+Flexor carpi radialis.
+## explanation_d
+Within the retinaculum, not over it.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-10423E16E36186
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. Palmaris longus is the tendon superficial to the retinaculum; flexor carpi radialis runs through a split in its lateral attachment, and the two digital flexors run under it in the carpal tunnel.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-652
+## title
+The tendon of the following muscle passes superficial to the flexor retinaculum at wris…
+## question
+The tendon of the following muscle passes superficial to the flexor retinaculum at wrist: 0
+## vignette
+This item asks the student to pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Flexor digitorum superficialis tendons
+## explanation_a
+The superficialis tendons are inside the tunnel.
+## answer_b
+Flexor digitorum profundus tendons
+## explanation_b
+The profundus tendons are inside the tunnel.
+## answer_c
+Palmaris longus tendon
+## explanation_c
+Correct. Palmaris longus is superficial to the retinaculum, which is why it is visible and palpable when the wrist is flexed against resistance.
+
+Why this is right:
+- The flexor retinaculum is a thick fibrous band bridging the concavity of the carpus, attached medially to the pisiform and the hook of the hamate and laterally to the tubercle of the scaphoid and the crest of the trapezium, and converting the carpal groove into the carpal tunnel.
+## answer_d
+Flexor carpi radialis tendon
+## explanation_d
+Flexor carpi radialis runs in its own compartment within the retinaculum.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-10423E16E36186
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p19 q39. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed sibling `the-tendon-of-the-following-muscle-passes-superlicial-to-the-bc8d97ab` gives C. Palmaris longus lies on the retinaculum and is partly inserted into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-653
+## title
+The tendon of the following muscle passes superlicial to the flexor retinaculum at wrist:
+## question
+The tendon of the following muscle passes superlicial to the flexor retinaculum at wrist:
+## vignette
+This item asks the student to pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Flexor digitorum superficialis tendons
+## explanation_a
+The superficialis tendons run in the carpal tunnel under the retinaculum.
+## answer_b
+Flexor digitorum profundus tendons
+## explanation_b
+The profundus tendons run with them.
+## answer_c
+Palmaris longus tendon
+## explanation_c
+Correct. Palmaris longus is the only one of the four that lies on the retinaculum, and it is partly inserted into it.
+
+Why this is right:
+- The flexor retinaculum is a thick fibrous band bridging the concavity of the carpus, attached medially to the pisiform and the hook of the hamate and laterally to the tubercle of the scaphoid and the crest of the trapezium, and converting the carpal groove into the carpal tunnel.
+## answer_d
+Flexor carpi radialis tendon
+## explanation_d
+Flexor carpi radialis has its own compartment inside the lateral attachment of the retinaculum, so it passes through rather than over.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-10423E16E36186
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p1 q2. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-654
+## title
+Ulnar nerve enter the forearm between the two heads of the following muscle: (2022) Ac …
+## question
+Ulnar nerve enter the forearm between the two heads of the following muscle: (2022) Ac P Vi a- Flexor carpi ulnaris
+## vignette
+This item asks the student to name the muscle whose two heads the ulnar nerve passes between.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Flexor carpi ulnaris.
+## explanation_a
+Correct. The two heads arise from the medial epicondyle and from the olecranon and posterior border of the ulna, and the nerve passes under the fibrous arch between them.
+
+Why this is right:
+- The ulnar nerve is the largest branch of the medial cord of the brachial plexus, root value C8 and T1.
+## answer_b
+Flexor carpi radialis.
+## explanation_b
+Flexor carpi radialis has one head and lies on the other side of the forearm.
+## answer_c
+Pronator teres.
+## explanation_c
+The two heads of pronator teres are what the median nerve passes between — the same arrangement one nerve over, and the reason this distractor works.
+## answer_d
+Flexor digitorum superﬁcialis.
+## explanation_d
+The median nerve passes deep to the fibrous arch of flexor digitorum superficialis after leaving pronator teres.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the muscle whose two heads the ulnar nerve passes between.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q76; EOM ISK End 101 — 2022.pdf p10 q104; EOM ISK 101 - 2023.pdf p10 q404. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — only a stray echo of option a in the stem, which is an extraction artefact. The ulnar nerve enters the forearm by passing between the humeral and ulnar heads of flexor carpi ulnaris, an arch that lies just distal to the medial epicondyle.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-655
+## title
+Which of the following is NOT a branch of the radial nerve? (2022 - 2021) Ac ad Ac ad a…
+## question
+Which of the following is NOT a branch of the radial nerve? (2022 - 2021) Ac ad Ac ad ad ad
+## vignette
+This item asks the student to separate the radial nerve’s three cutaneous branches from the axillary nerve’s.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Posterior cutaneous nerve of the arm.
+## explanation_a
+A radial branch, given in the axilla, so not the answer.
+## answer_b
+Posterior cutaneous nerve of the forearm.
+## explanation_b
+A radial branch, given in the spiral groove. It is the printed key and it is one of the three the nerve does give.
+## answer_c
+Lower lateral cutaneous nerve of the arm.
+## explanation_c
+A radial branch, also given in the spiral groove, supplying the lower lateral part of the arm.
+## answer_d
+Upper lateral cutaneous nerve of the arm.
+## explanation_d
+Correct. This is the answer. The upper lateral cutaneous nerve of the arm is axillary, and it is the patch of skin tested after a shoulder dislocation. The word "upper" is the whole distinction from option C.
+
+Why this is right:
+- The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-A49B57B03A3610
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the radial nerve’s three cutaneous branches from the axillary nerve’s.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q13; EOM ISK 101 195 Answers.pdf p8 q88; EOM ISK End 101 — 2022.pdf p10 q109. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6, src_a54bbf7a625ba2b172fc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, the posterior cutaneous nerve of the forearm, which is a genuine radial branch given in the spiral groove. The one in the list that is not radial is the upper lateral cutaneous nerve of the arm, which comes from the posterior branch of the axillary nerve and supplies the skin over the lower half of deltoid.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-656
+## title
+Which of the following IS NOT true about the flexor carpi ulnaris?
+## question
+Which of the following IS NOT true about the flexor carpi ulnaris?
+## vignette
+This item asks the student to give the insertion, position and action of flexor carpi ulnaris.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+acts as a synergist during wrist extension
+## explanation_a
+Correct. Not true, and therefore the answer. Flexor carpi ulnaris opposes extension of the wrist. It does act as a synergist, but in a different movement: it stabilises the pisiform for abductor digiti minimi, and it pairs with extensor carpi ulnaris to adduct.
+
+Why this is right:
+- The wrist moves by pairs of muscles acting together while each cancels the other’s second action.
+## answer_b
+inserts into base of fifth metacarpal
+## explanation_b
+True, so not the answer — through the pisiform, by the pisohamate and pisometacarpal ligaments.
+## answer_c
+most medial muscles arising from the common flexor origin
+## explanation_c
+True, so not the answer. It is the last muscle on the medial side of the superficial group.
+## answer_d
+ulnar nerve passes between its two heads
+## explanation_d
+True, so not the answer. The humeral and ulnar heads form the arch through which the ulnar nerve enters the forearm.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_a2bf7a9dca4e7cf4015d
+## learning_objective
+Give the insertion, position and action of flexor carpi ulnaris.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Forearm) (3).pdf p2 q8. Manifest src_a2bf7a9dca4e7cf4015d.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Flexor carpi ulnaris does insert into the pisiform and through it into the hook of the hamate and the base of the fifth metacarpal, it is the most medial muscle of the common flexor origin, and the ulnar nerve does pass between its two heads. What is not true is the first statement: a wrist flexor is the antagonist of wrist extension, not its synergist — the synergists of finger flexion are the wrist extensors, and the option has that relationship inverted.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-657
+## title
+Which of the following is true about flexor digitorum superficialis?
+## question
+Which of the following is true about flexor digitorum superficialis?
+## vignette
+This item asks the student to give the arrangement of the superficialis tendons and the nerve that passes through the muscle.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+all four tendons lie on the same plane under flexor retinaculum
+## explanation_a
+They lie in two planes: the tendons to the middle and ring fingers in front, those to the index and little fingers behind. That arrangement is why the middle and ring fingers are the first to be involved in a tenosynovitis of the common sheath.
+## answer_b
+is innervated by median and ulnar nerves
+## explanation_b
+Flexor digitorum superficialis is wholly median. It is flexor digitorum profundus that has two nerves, and the two muscles are constantly swapped.
+## answer_c
+tendon to index finger separates before other three tendons high in forearm
+## explanation_c
+The tendons that separate first and lie superficial are those to the middle and ring fingers, not the index.
+## answer_d
+median nerve passes between its two heads
+## explanation_d
+Correct. The median nerve enters the forearm between the two heads of pronator teres and then passes between the humero-ulnar and radial heads of flexor digitorum superficialis, descending on the deep surface of the muscle.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_a2bf7a9dca4e7cf4015d
+## learning_objective
+Give the arrangement of the superficialis tendons and the nerve that passes through the muscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Forearm) (3).pdf p1 q6. Manifest src_a2bf7a9dca4e7cf4015d.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The four superficialis tendons lie in two planes under the retinaculum rather than one; the muscle is entirely median, not median and ulnar — that is profundus; and it is the tendons to the middle and ring fingers that separate first, lying superficial, with the index and little finger tendons deep. The median nerve does pass between the two heads of the muscle, which makes D the true statement.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-658
+## title
+Which of the following is true in respect to the supinator muscle? (2021)
+## question
+Which of the following is true in respect to the supinator muscle? (2021)
+## vignette
+This item asks the student to give the origin of supinator and correct the floor of the cubital fossa.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+It is innervated by the ulnar nerve
+## explanation_a
+Supinator takes the posterior interosseous nerve.
+## answer_b
+It supinates the forearm by rotating the ulna
+## explanation_b
+It rotates the radius; the ulna is fixed.
+## answer_c
+It forms the ﬂoor of the cubital fossa along with the brachioradialis. Ac ad
+## explanation_c
+Brachialis is the muscle that shares the floor with supinator. It is the printed key and it names the lateral boundary instead.
+## answer_d
+It arises from annular and lateral collateral ligament
+## explanation_d
+Correct. Supinator arises from four places — the lateral epicondyle, the radial collateral ligament, the anular ligament and the supinator crest and fossa of the ulna — which is what lets it wrap right round the upper radius.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the origin of supinator and correct the floor of the cubital fossa.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q25; EOM ISK 101 195 Answers.pdf p6 q66. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, supinator forming the floor of the cubital fossa "along with the brachioradialis"; the floor is brachialis and supinator, brachioradialis being the lateral boundary. This copy replaces the fifth option of its siblings with a statement about the muscle’s origin, and that statement is true: supinator arises from the anular and the lateral collateral ligaments as well as from the lateral epicondyle and the supinator crest of the ulna.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-659
+## title
+Which of the following muscles arises from interosseous membrane between ad radius & ul…
+## question
+Which of the following muscles arises from interosseous membrane between ad radius & ulna: Vi P ad
+## vignette
+This item asks the student to name a muscle arising from the interosseous membrane.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pronator teres.
+## explanation_a
+Pronator teres arises from the humerus and the ulna, above the membrane. It is the printed key and it is wrong.
+## answer_b
+Palmaris longus.
+## explanation_b
+Palmaris longus arises from the common flexor origin on the medial epicondyle.
+## answer_c
+Abductor pollicis longus.
+## explanation_c
+Correct. Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane between them.
+
+Why this is right:
+- The interosseous membrane is a strong fibrous sheet stretched between the interosseous borders of the radius and the ulna, tethering the two bones together and holding them at their proper distance through pronation and supination.
+## answer_d
+Extensor digitorum.
+## explanation_d
+Extensor digitorum arises from the common extensor origin on the lateral epicondyle.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4CFF00B2741E50
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name a muscle arising from the interosseous membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q22. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, pronator teres, which arises from the medial epicondyle and the coronoid process and reaches the membrane nowhere. Abductor pollicis longus is one of the deep extensors arising from the posterior surface of the membrane.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-660
+## title
+Which of the following muscles arises, in part, from the radial collateral ligament of …
+## question
+Which of the following muscles arises, in part, from the radial collateral ligament of the elbow joint?
+## vignette
+This item asks the student to name the muscle that takes origin from a ligament of the elbow.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+extensor carpi radialis brevis
+## explanation_a
+Extensor carpi radialis brevis arises from the common extensor origin on the lateral epicondyle only.
+## answer_b
+supinator
+## explanation_b
+Correct. Supinator’s origin from the radial collateral and anular ligaments is what lets it wrap round the upper third of the radius and rotate it.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## answer_c
+extensor carpi ulnaris
+## explanation_c
+Extensor carpi ulnaris arises from the common extensor origin and the posterior border of the ulna.
+## answer_d
+extensor digitorum
+## explanation_d
+Extensor digitorum arises from the common extensor origin.
+## topic
+Upper Limb
+## subtopic
+Forearm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_a2bf7a9dca4e7cf4015d
+## learning_objective
+Name the muscle that takes origin from a ligament of the elbow.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Forearm) (3).pdf p2 q10. Manifest src_a2bf7a9dca4e7cf4015d.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Supinator is the one muscle of the forearm with a ligamentous origin: it arises from the lateral epicondyle, the radial collateral ligament of the elbow, the anular ligament and the supinator crest of the ulna.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-661
+## title
+Which of the following muscles does not extend wrist:
+## question
+Which of the following muscles does not extend wrist:
+## vignette
+This item asks the student to recognise brachioradialis as an extensor compartment muscle that does not extend anything.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Extensor carpi radialis longus
+## explanation_a
+Extensor carpi radialis longus extends and abducts the wrist.
+## answer_b
+Extensor carpi ulnaris
+## explanation_b
+Extensor carpi ulnaris extends and adducts it.
+## answer_c
+Extensor digitorum
+## explanation_c
+Extensor digitorum extends the fingers and, continuing past the wrist, helps extend it too.
+## answer_d
+Brachioradialis. P
+## explanation_d
+Correct. Brachioradialis inserts on the lower end of the radius, above the wrist joint, and never crosses it; it flexes the elbow and rotates the forearm to mid-prone, and is the one muscle in the extensor compartment that extends nothing.
+
+Why this is right:
+- The wrist moves by pairs of muscles acting together while each cancels the other’s second action.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Recognise brachioradialis as an extensor compartment muscle that does not extend anything.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q23; EOM ISK 101 195 Answers.pdf p11 q119. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-662
+## title
+One of the following muscles cannot perform flexion shah
+## question
+One of the following muscles cannot perform flexion shah
+## vignette
+This item asks the student to identify the one muscle of the flexor compartment of the forearm that flexes nothing.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pronator quadratus.
+## explanation_a
+Correct. Pronator quadratus lies in the flexor compartment and is supplied by the anterior interosseous branch of the median nerve like the rest of the deep group, but its fibres run transversely from ulna to radius. A transverse pull can only rotate; it cannot bend a joint, and pronator quadratus crosses none.
+
+Why this is right:
+- Every muscle in the compartment is supplied by the median nerve or its anterior interosseous branch except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar — which makes flexor digitorum profundus the one muscle of the limb with two nerves.
+## answer_b
+Flexor pollicis longus.
+## explanation_b
+Flexor pollicis longus flexes the interphalangeal and metacarpophalangeal joints of the thumb and assists at the wrist. Students who have learnt "pollicis longus" as a thumb muscle sometimes forget it is a flexor at all.
+## answer_c
+Flexor digitorum profundus.
+## explanation_c
+Flexor digitorum profundus flexes the distal interphalangeal joints of the medial four fingers, and through them the more proximal joints and the wrist — it is the only muscle that can bend the last joint of a finger.
+## answer_d
+Flexor carpi ulnaris.
+## explanation_d
+Flexor carpi ulnaris flexes and adducts the hand at the wrist. It is the odd one of the superficial group for its nerve, being ulnar rather than median, and a student who remembers it as the exception may reach for it as the exception here too — but the question is about action, not nerve.
+## topic
+Forearm
+## subtopic
+Forearm
+## main_concept
+CON-MSK-46C40109E7D957
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## resource_ids
+src_ce4292e31edea7517e7b
+## learning_objective
+Identify the one muscle of the flexor compartment of the forearm that flexes nothing.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p8 q83. Manifest src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book puts pronator quadratus in the deep flexor group but gives it only pronation: it runs horizontally across the front of the lower radius and ulna, crosses no joint that can flex, and does not appear in the book’s list of the muscles that flex the wrist. Flexor pollicis longus, flexor digitorum profundus and flexor carpi ulnaris are all on that list.
