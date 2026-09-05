@@ -1,7 +1,7 @@
 # Item
 
 ## label
-The bacterial cytoplasmic membrane lacks sterols found in eukaryotic membranes
+Bacterial membrane lacks sterols
 
 ## id
 CON-INF-F8912B54FCA3A5
@@ -10,7 +10,9 @@ CON-INF-F8912B54FCA3A5
 bacteria.cytoplasmic-membrane.lacks-sterol-vs-eukaryotic
 
 ## definition
-Unlike a eukaryotic cell membrane, the prokaryotic (bacterial) cytoplasmic membrane is a phospholipid bilayer studded with membrane proteins but, with the sole exception of Mycoplasma, contains no sterols such as cholesterol.
+Unlike a eukaryotic cell membrane, the prokaryotic (**bacterial**) cytoplasmic membrane is a phospholipid bilayer studded with membrane proteins but __contains no sterols such as cholesterol__.
+
+The **sole exception is Mycoplasma**, whose membrane does contain sterol.
 
 ## explicit_objective
 State the feature that distinguishes the bacterial cytoplasmic membrane from a eukaryotic membrane, and name Mycoplasma as the one bacterial exception.
@@ -176,7 +178,7 @@ relationships: Walked the two other concepts sharing this article (70S ribosome,
 # Item
 
 ## label
-Bacterial ribosomes are 70S and carry out protein synthesis
+Bacterial ribosomes are 70S
 
 ## id
 CON-INF-29351FD540E214
@@ -185,7 +187,9 @@ CON-INF-29351FD540E214
 bacteria.ribosome.70s-protein-synthesis
 
 ## definition
-Prokaryotic bacterial cells use 70S ribosomes (a 30S and a 50S subunit) as the site of protein synthesis, unlike the 80S ribosomes of eukaryotic cytoplasm; this size difference underlies the selective toxicity of several antibiotic classes (aminoglycosides, macrolides, tetracyclines) for bacteria over the human host.
+Prokaryotic bacterial cells use **70S ribosomes** (a **30S** and a **50S** subunit) as the __site of protein synthesis__, unlike the **80S** ribosomes of eukaryotic cytoplasm.
+
+This size difference underlies the **selective toxicity** of several antibiotic classes — aminoglycosides, macrolides and tetracyclines — for bacteria over the human host.
 
 ## explicit_objective
 State that bacterial ribosomes are 70S and are the site of protein synthesis, as the correct statement about prokaryotic cells among distractors describing eukaryotic features.
@@ -351,7 +355,7 @@ relationships: Same-article siblings (membrane sterol, membrane functions) place
 # Item
 
 ## label
-Mycoplasma is the one bacterial genus whose cell membrane contains cholesterol
+Mycoplasma membrane contains cholesterol
 
 ## id
 CON-INF-7CCB09F434AF06
@@ -360,7 +364,9 @@ CON-INF-7CCB09F434AF06
 mycoplasma.cell-membrane.contains-sterol
 
 ## definition
-Mycoplasma differs from every other prokaryote in that its cytoplasmic membrane contains cholesterol, a sterol scavenged from the host cell, which stabilises the membrane in the permanent absence of a peptidoglycan cell wall. It remains a prokaryote in every other respect: no mitochondria, and still 70S ribosomes.
+**Mycoplasma** differs from every other prokaryote in that its cytoplasmic membrane __contains cholesterol__, a sterol scavenged from the host cell.
+
+This sterol stabilises the membrane in the **permanent absence of a peptidoglycan cell wall**. Mycoplasma remains a prokaryote in every other respect: no mitochondria, and still **70S ribosomes**.
 
 ## explicit_objective
 Identify cholesterol in the cell membrane as the feature that sets Mycoplasma apart from the rest of the prokaryotic cells.
@@ -525,7 +531,7 @@ relationships: Same-article siblings (Mycoplasma vs L-forms, cell-wall-deficient
 # Item
 
 ## label
-The Gram-negative cell wall has a thin peptidoglycan layer, an outer LPS membrane and periplasmic proteins, but no teichoic acid
+Gram-negative cell wall composition
 
 ## id
 CON-INF-0DD46C0FD80938
@@ -534,7 +540,11 @@ CON-INF-0DD46C0FD80938
 bacteria.gram-negative-cell-wall.composition
 
 ## definition
-The Gram-negative cell wall is a thin peptidoglycan layer sandwiched between the cytoplasmic membrane and an outer membrane that carries lipopolysaccharide (LPS); the periplasmic space between the two membranes holds transport and hydrolytic proteins. Teichoic acid is not a Gram-negative wall component — it belongs to the Gram-positive wall.
+The **Gram-negative cell wall** is a __thin peptidoglycan layer__ sandwiched between the cytoplasmic membrane and an **outer membrane** that carries **lipopolysaccharide (LPS)**.
+
+The **periplasmic space** between the two membranes holds transport and hydrolytic proteins.
+
+**Teichoic acid** is not a Gram-negative wall component — it belongs to the Gram-positive wall.
 
 ## explicit_objective
 List the genuine components of the Gram-negative cell wall (thin peptidoglycan, outer LPS membrane, periplasmic proteins) and exclude teichoic acid as the false statement among them.
@@ -700,7 +710,7 @@ relationships: Same-article siblings (peptidoglycan rigidity, gram +/- component
 # Item
 
 ## label
-Mycoplasma permanently lacks a cell wall by genotype, unlike L-forms which lose it under an inducing agent
+Mycoplasma vs L-forms: permanent vs induced wall loss
 
 ## id
 CON-INF-271E9930B4B73A
@@ -709,7 +719,9 @@ CON-INF-271E9930B4B73A
 mycoplasma.vs-l-forms.genetic-vs-induced-wall-loss
 
 ## definition
-Mycoplasma is genetically incapable of synthesising peptidoglycan and so permanently lacks a cell wall. L-forms are cell-wall-deficient variants of otherwise wall-forming bacteria, produced when a chemical reagent, antibiotic (for example a beta-lactam) or lysozyme removes the wall; unlike Mycoplasma's permanent state, an L-form's wall loss is induced and the underlying species retains the genes to make one.
+**Mycoplasma** is genetically incapable of synthesising peptidoglycan and so __permanently lacks a cell wall__.
+
+**L-forms** are cell-wall-deficient variants of otherwise wall-forming bacteria, produced when a chemical reagent, antibiotic (for example a beta-lactam) or **lysozyme** removes the wall. Unlike Mycoplasma's permanent state, __an L-form's wall loss is induced__ and the underlying species retains the genes to make one.
 
 ## explicit_objective
 Distinguish Mycoplasma's permanent, genetically determined absence of a cell wall from an L-form's reagent- or enzyme-induced wall loss.
@@ -874,7 +886,7 @@ relationships: contrasts_with is the clearest typed relation to the Mycoplasma-s
 # Item
 
 ## label
-Mesosomes are cytoplasmic-membrane invaginations classically taught as the site of respiratory enzymes in bacteria
+Mesosomes: membrane infoldings for respiratory enzymes
 
 ## id
 CON-INF-E4012E20B5A13D
@@ -883,7 +895,9 @@ CON-INF-E4012E20B5A13D
 bacteria.mesosome.structure-and-role
 
 ## definition
-Mesosomes are invaginations of the bacterial cytoplasmic membrane, classically described as an essential prokaryotic structure that houses cytochrome (respiratory chain) enzymes; being membrane-derived, they contain no sterol. Mesosomes are a bacterial (prokaryotic) feature and are not present in eukaryotic cells such as fungi.
+**Mesosomes** are invaginations of the bacterial cytoplasmic membrane, classically described as housing the **cytochrome (respiratory chain) enzymes**. Being membrane-derived, they contain __no sterol__.
+
+Mesosomes are a **bacterial (prokaryotic) feature** and are not present in eukaryotic cells such as fungi.
 
 ## explicit_objective
 Identify mesosomes as cytoplasmic-membrane invaginations that carry respiratory enzymes, state that they differentiate prokaryotic from eukaryotic cells, and exclude both sterol content and any presence in fungi.
@@ -1049,7 +1063,7 @@ relationships: Same-article siblings (flagellin motility, capsule function, pili
 # Item
 
 ## label
-Bacterial flagella are motility organelles built from the protein flagellin
+Flagella: motility organelles made of flagellin
 
 ## id
 CON-INF-83707B09F53803
@@ -1058,7 +1072,9 @@ CON-INF-83707B09F53803
 bacteria.flagellum.flagellin-motility
 
 ## definition
-The bacterial flagellum, the structure responsible for motility, is a helical filament built from repeating subunits of the protein flagellin, rotated by a basal-body motor to drive the cell through liquid.
+The bacterial **flagellum** is the structure responsible for __motility__.
+
+It is a helical filament built from repeating subunits of the protein **flagellin**, rotated by a **basal-body motor** to drive the cell through liquid.
 
 ## explicit_objective
 Name flagellin as the protein subunit of the motility-conferring bacterial flagellum.
@@ -1223,7 +1239,7 @@ relationships: Same-article siblings (mesosome, capsule, pili) placed in related
 # Item
 
 ## label
-The bacterial capsule is a major virulence factor used in organism identification and vaccine preparation
+The capsule: virulence, identification and vaccines
 
 ## id
 CON-INF-25846A77987558
@@ -1232,7 +1248,9 @@ CON-INF-25846A77987558
 bacteria.capsule.function-virulence-identification-vaccine
 
 ## definition
-The polysaccharide (or, in Bacillus anthracis, polypeptide) capsule surrounding many bacteria is a major virulence factor because it resists phagocytosis; its antigenic specificity is also used to identify and serotype organisms and to prepare capsular-polysaccharide vaccines, such as the pneumococcal, meningococcal and Haemophilus influenzae type b vaccines.
+The polysaccharide (or, in **Bacillus anthracis**, polypeptide) **capsule** surrounding many bacteria is a __major virulence factor because it resists phagocytosis__.
+
+Its antigenic specificity is also used to **identify and serotype** organisms and to prepare **capsular-polysaccharide vaccines** — such as the pneumococcal, meningococcal and Haemophilus influenzae type b vaccines.
 
 ## explicit_objective
 State that the capsule functions simultaneously as a virulence factor, an organism-identification tool and a vaccine antigen.
@@ -1397,7 +1415,7 @@ relationships: Same-article siblings (mesosome, flagellin) placed in related_con
 # Item
 
 ## label
-Peptidoglycan gives the bacterial cell wall its structural rigidity
+Peptidoglycan gives the cell wall its rigidity
 
 ## id
 CON-INF-3FBC905C4F778F
@@ -1406,7 +1424,9 @@ CON-INF-3FBC905C4F778F
 bacteria.cell-wall.peptidoglycan-rigidity
 
 ## definition
-Peptidoglycan (murein) — alternating N-acetylglucosamine and N-acetylmuramic acid chains cross-linked by short peptides — forms a mesh-like sacculus that gives the bacterial cell wall its rigidity and shape, and lets it resist osmotic lysis.
+**Peptidoglycan (murein)** — alternating N-acetylglucosamine and N-acetylmuramic acid chains cross-linked by short peptides — forms a mesh-like **sacculus**.
+
+This mesh __gives the bacterial cell wall its rigidity and shape__ and lets it resist osmotic lysis.
 
 ## explicit_objective
 Identify peptidoglycan as the component responsible for the rigidity of the bacterial cell wall.
@@ -1572,7 +1592,7 @@ relationships: Same-article siblings (Gram-negative wall composition, Gram +/- c
 # Item
 
 ## label
-Teichoic acid and lipoteichoic acid are Gram-positive wall components absent from Gram-negative bacteria
+Teichoic acid: a Gram-positive wall component
 
 ## id
 CON-INF-7E3B831D71A008
@@ -1581,7 +1601,9 @@ CON-INF-7E3B831D71A008
 bacteria.cell-wall.gram-positive-vs-negative-components
 
 ## definition
-The thick peptidoglycan wall of Gram-positive bacteria is threaded with wall-bound teichoic acid and membrane-anchored lipoteichoic acid, which contribute to wall charge, adhesion and immune activation. Gram-negative bacteria lack both; they instead have an outer membrane, a periplasmic space and lipopolysaccharide, none of which Gram-positive bacteria possess.
+The thick peptidoglycan wall of **Gram-positive** bacteria is threaded with wall-bound **teichoic acid** and membrane-anchored **lipoteichoic acid**, which contribute to wall charge, adhesion and immune activation.
+
+__Gram-negative bacteria lack both.__ They instead have an outer membrane, a periplasmic space and lipopolysaccharide — none of which Gram-positive bacteria possess.
 
 ## explicit_objective
 Name teichoic acid and lipoteichoic acid as components present in Gram-positive but not Gram-negative bacteria, and state the reciprocal outer-membrane/periplasmic-space/LPS components unique to Gram-negative organisms.
@@ -1747,7 +1769,7 @@ relationships: contrasts_with the Gram-negative wall composition concept in the 
 # Item
 
 ## label
-The Gram-negative outer membrane carries toxic lipid A and porins that admit only small solutes, not amino acids
+Gram-negative outer membrane: lipid A and porins
 
 ## id
 CON-INF-BF26D7E563FB78
@@ -1756,7 +1778,9 @@ CON-INF-BF26D7E563FB78
 bacteria.outer-membrane.lps-porins-function
 
 ## definition
-The outer membrane of Gram-negative bacteria contains lipopolysaccharide, whose lipid A component is the toxic moiety (endotoxin). Porin proteins span the outer membrane and allow passage of small hydrophilic solutes, but not large molecules such as amino acids or proteins; the outer membrane occurs only in Gram-negative bacteria, not in Gram-positive ones.
+The **outer membrane** of Gram-negative bacteria contains **lipopolysaccharide**, whose **lipid A** component is the __toxic moiety (endotoxin)__.
+
+**Porin** proteins span the outer membrane and admit small hydrophilic solutes, but __not large molecules such as amino acids or proteins__. The outer membrane occurs only in Gram-negative bacteria, not in Gram-positive ones.
 
 ## explicit_objective
 State that lipid A is toxic, that porins restrict passage to small solutes (excluding amino acids), and that the outer membrane is present only in Gram-negative bacteria.
@@ -1921,7 +1945,7 @@ relationships: Same-article siblings (Gram-negative wall composition, Gram +/- c
 # Item
 
 ## label
-L-forms and Mycoplasma are cell-wall-deficient bacteria that can still replicate
+L-forms and Mycoplasma replicate without a cell wall
 
 ## id
 CON-INF-D2C104EA01CE30
@@ -1930,7 +1954,9 @@ CON-INF-D2C104EA01CE30
 bacteria.cell-wall-deficient-forms.replication-capable
 
 ## definition
-Both L-forms (induced cell-wall-deficient variants of normally wall-forming bacteria) and Mycoplasma (a genus that never forms a cell wall) are capable of ongoing replication despite the absence of peptidoglycan. A true protoplast, by contrast, is an artificially wall-stripped cell that is typically osmotically fragile and is not treated as a stable, self-replicating clinical form here.
+Both **L-forms** (induced cell-wall-deficient variants of normally wall-forming bacteria) and **Mycoplasma** (a genus that never forms a cell wall) __can still replicate despite the absence of peptidoglycan__.
+
+A true **protoplast**, by contrast, is an artificially wall-stripped cell that is typically osmotically fragile — not a stable, self-replicating clinical form.
 
 ## explicit_objective
 Identify L-forms and Mycoplasma, not protoplasts, as the cell-wall-deficient bacterial forms able to replicate.
@@ -2095,7 +2121,7 @@ relationships: Same-article siblings (Mycoplasma sterol, Mycoplasma vs L-forms) 
 # Item
 
 ## label
-The bacterial cytoplasmic membrane lies inside the cell wall and has a role in toxin excretion
+Cytoplasmic membrane: location and toxin excretion
 
 ## id
 CON-INF-16D6694E224671
@@ -2104,7 +2130,9 @@ CON-INF-16D6694E224671
 bacteria.cytoplasmic-membrane.functions
 
 ## definition
-The bacterial cytoplasmic membrane sits inside, not outside, the cell wall, and besides transport and energy generation it plays a role in toxin excretion — many exotoxins are exported across it. It lacks sterol in every bacterial genus except Mycoplasma, and it is not, on its own, generally described as osmotically resistant.
+The bacterial cytoplasmic membrane sits __inside, not outside, the cell wall__. Besides transport and energy generation, it plays a role in **toxin excretion** — many exotoxins are exported across it.
+
+It lacks sterol in every bacterial genus **except Mycoplasma**, and it is not, on its own, generally described as osmotically resistant.
 
 ## explicit_objective
 State that the cytoplasmic membrane is internal to the cell wall, lacks sterol except in Mycoplasma, and participates in toxin excretion.
@@ -2269,7 +2297,7 @@ relationships: Same-article siblings (membrane sterol, 70S ribosome) placed in r
 # Item
 
 ## label
-Ordinary pili mediate adhesion, while sex pili mediate conjugative gene transfer
+Ordinary pili adhere; sex pili conjugate
 
 ## id
 CON-INF-BC446C9816D9CE
@@ -2278,7 +2306,9 @@ CON-INF-BC446C9816D9CE
 bacteria.pili.ordinary-vs-sex-pili-function
 
 ## definition
-Ordinary (common) pili are short, hair-like appendages whose main function is adhesion of the bacterium to host cells or surfaces. Sex pili are a distinct, longer type used specifically for conjugation, the transfer of DNA between bacteria — not for motility or protection from phagocytosis.
+**Ordinary (common) pili** are short, hair-like appendages whose main function is __adhesion__ of the bacterium to host cells or surfaces.
+
+**Sex pili** are a distinct, longer type used specifically for **conjugation** — the transfer of DNA between bacteria — not for motility or protection from phagocytosis.
 
 ## explicit_objective
 State that the main function of ordinary pili is adhesion, and distinguish this from the gene-transfer role of sex pili.
@@ -2443,7 +2473,7 @@ relationships: often_confused_with the flagellin/motility concept in the same ar
 # Item
 
 ## label
-Most pathogenic bacteria are heterotrophic, facultatively anaerobic, mesophilic and require about 0.03% CO2
+Growth profile of pathogenic bacteria
 
 ## id
 CON-INF-3528D1EAF3F9B4
@@ -2452,7 +2482,9 @@ CON-INF-3528D1EAF3F9B4
 bacteria.growth-requirements.pathogen-profile
 
 ## definition
-The typical growth profile of pathogenic bacteria is heterotrophic (using organic carbon sources), facultatively anaerobic (able to grow with or without oxygen), mesophilic (optimal growth around body temperature) and undemanding for CO2, requiring only about the 0.03% concentration present in ordinary air rather than an enriched atmosphere.
+Most pathogenic bacteria are **heterotrophic** (using organic carbon sources), **facultatively anaerobic** (growing with or without oxygen) and **mesophilic** (optimal growth around body temperature).
+
+They are __undemanding for CO2__, needing only the ~**0.03%** present in ordinary air rather than an enriched atmosphere.
 
 ## explicit_objective
 State the combined heterotrophic / facultative anaerobic / mesophilic / ~0.03% CO2 profile that describes most pathogenic bacteria.
@@ -2618,7 +2650,7 @@ relationships: Same-article siblings (exacting/fastidious nutrition, environment
 # Item
 
 ## label
-Exacting (fastidious) bacteria are heterotrophs that require an organic source of both carbon and nitrogen
+Exacting (fastidious) bacteria need organic C and N
 
 ## id
 CON-INF-9386E80307EC94
@@ -2627,7 +2659,9 @@ CON-INF-9386E80307EC94
 bacteria.nutrition.exacting-fastidious-requirements
 
 ## definition
-Exacting (fastidious) bacteria are heterotrophic organisms with more demanding nutritional needs: they require an organic source for both carbon and nitrogen, rather than being able to fix carbon from CO2 or use an inorganic nitrogen source, which is why they typically need enriched media to grow.
+**Exacting (fastidious)** bacteria are heterotrophs with more demanding nutritional needs: they require an __organic source for both carbon and nitrogen__.
+
+Because they cannot fix carbon from CO2 or use an inorganic nitrogen source, they typically need **enriched media** to grow.
 
 ## explicit_objective
 State that exacting/fastidious bacteria are heterotrophs requiring an organic source for both carbon and nitrogen.
@@ -2792,7 +2826,7 @@ relationships: contrasts_with the autotrophic/heterotrophic concept in the same 
 # Item
 
 ## label
-Bacteria are classified by environmental tolerance as halophilic, capnophilic, thermophilic or microaerophilic
+Environmental classes: halophilic, capnophilic, thermophilic, microaerophilic
 
 ## id
 CON-INF-3D845DC6B07880
@@ -2801,7 +2835,9 @@ CON-INF-3D845DC6B07880
 bacteria.environmental-classification.halophilic-capnophilic-thermophilic-microaerophilic
 
 ## definition
-Bacteria that tolerate high NaCl concentrations are called halophilic; those requiring increased CO2 are capnophilic; those preferring high growth temperatures are thermophilic; and those preferring only a small amount of oxygen are microaerophilic. Each term names a distinct environmental tolerance, not an interchangeable synonym for the others.
+Bacteria are grouped by environmental tolerance: **halophilic** tolerate high NaCl; **capnophilic** require increased CO2; **thermophilic** prefer high growth temperatures; and **microaerophilic** prefer only a small amount of oxygen.
+
+__Each term names a distinct tolerance__, not an interchangeable synonym for the others.
 
 ## explicit_objective
 Match each environmental-tolerance term (halophilic, capnophilic, thermophilic, microaerophilic) to the condition it names, starting with high-NaCl tolerance as halophilic.
@@ -2968,7 +3004,7 @@ relationships: Same-article siblings (pathogen growth profile, oxygen requiremen
 # Item
 
 ## label
-Aerobic bacterial respiration requires catalase or superoxide dismutase to detoxify reactive oxygen species, and obligate anaerobes lack them
+Catalase and SOD detoxify oxygen; obligate anaerobes lack them
 
 ## id
 CON-INF-2E9D6F833A7D5E
@@ -2977,7 +3013,9 @@ CON-INF-2E9D6F833A7D5E
 bacteria.oxygen-detox-enzymes.catalase-sod
 
 ## definition
-Bacteria that use aerobic respiration generate toxic reactive oxygen species — superoxide and hydrogen peroxide — and require catalase and/or superoxide dismutase (SOD) to detoxify them. Obligate anaerobes are, by definition, the one group that lacks these ROS-degrading enzymes, which is why oxygen is toxic to them; aerobes, facultative anaerobes and microaerophiles all retain at least one of catalase or SOD.
+Bacteria using **aerobic respiration** generate toxic **reactive oxygen species** — superoxide and hydrogen peroxide — and need **catalase** and/or **superoxide dismutase (SOD)** to detoxify them.
+
+__Obligate anaerobes are the one group that lacks these enzymes__, which is why oxygen is toxic to them. Aerobes, facultative anaerobes and microaerophiles all retain at least one of catalase or SOD.
 
 ## explicit_objective
 State that catalase and/or superoxide dismutase are required for aerobic respiration, and identify obligate anaerobes as the group that lacks ROS-degrading enzymes.
@@ -3141,7 +3179,7 @@ relationships: contrasts_with the oxygen-requirement-classes concept in the same
 # Item
 
 ## label
-Treponema pallidum cannot be grown on artificial culture media
+Treponema pallidum cannot be grown on artificial media
 
 ## id
 CON-INF-F73611037EBC24
@@ -3150,7 +3188,9 @@ CON-INF-F73611037EBC24
 bacteria.non-cultivable-species.treponema-pallidum
 
 ## definition
-Treponema pallidum, the spirochaete that causes syphilis, cannot be isolated or grown on artificial culture media in the clinical laboratory — unlike Mycobacterium tuberculosis, Bacillus anthracis or Corynebacterium diphtheriae, which are all culturable. Diagnosis instead relies on dark-field microscopy and serology.
+**Treponema pallidum**, the spirochaete that causes **syphilis**, __cannot be isolated or grown on artificial culture media__ in the clinical laboratory.
+
+This sets it apart from Mycobacterium tuberculosis, Bacillus anthracis and Corynebacterium diphtheriae, which are all culturable. Diagnosis instead relies on **dark-field microscopy and serology**.
 
 ## explicit_objective
 Identify Treponema pallidum as an organism that cannot be isolated on culture media, in contrast to M. tuberculosis, B. anthracis and C. diphtheriae, which can.
@@ -3315,7 +3355,7 @@ relationships: Same-article siblings (pathogen growth profile, exacting/fastidio
 # Item
 
 ## label
-In the bacterial growth curve, the lag phase is defined by adaptation with no cell division, unlike the balanced stationary phase
+Bacterial growth curve: the four phases
 
 ## id
 CON-INF-6D56F46B5F1EF4
@@ -3324,7 +3364,9 @@ CON-INF-6D56F46B5F1EF4
 bacteria.growth-curve.phase-definitions
 
 ## definition
-The bacterial growth curve has four phases: lag (adaptation to the new environment, no net cell division), exponential/log (maximal division rate), stationary (the number of new cells equals the number dying, so the population plateaus) and decline/death (dying cells exceed those formed). Although both lag and stationary phases appear as horizontal lines on the curve, lag differs because no cell division occurs at all, whereas the stationary phase reflects dividing and dying cells in balance.
+The bacterial growth curve has four phases: **lag** (adaptation, no net cell division), **exponential/log** (maximal division rate), **stationary** (new cells equal dying cells, so the population plateaus) and **decline/death** (dying cells exceed those formed).
+
+Both lag and stationary appear as horizontal lines, but they differ: __in lag no cell division occurs at all__, whereas the stationary phase reflects dividing and dying cells in balance.
 
 ## explicit_objective
 Explain why the lag phase differs from the stationary phase despite both appearing as plateaus on the growth curve: no division at all, versus balanced division and death.
@@ -3489,7 +3531,7 @@ relationships: prerequisite_of the antibiotic-sensitivity-phase concept in the s
 # Item
 
 ## label
-Autotrophic bacteria use CO2 as their carbon source, while heterotrophic bacteria — including all pathogens — use organic carbon
+Autotrophic vs heterotrophic bacteria
 
 ## id
 CON-INF-841FAB7F11BA18
@@ -3498,7 +3540,9 @@ CON-INF-841FAB7F11BA18
 bacteria.nutrition.autotrophic-vs-heterotrophic
 
 ## definition
-Autotrophic bacteria synthesise organic molecules using CO2 as their carbon source and do not cause human disease. Heterotrophic bacteria require preformed organic carbon compounds and include the parasitic, pathogenic and normal-flora (commensal) organisms that matter clinically — every medically relevant bacterium is heterotrophic.
+**Autotrophic** bacteria synthesise organic molecules using **CO2** as their carbon source and __do not cause human disease__.
+
+**Heterotrophic** bacteria require preformed organic carbon and include the parasitic, pathogenic and normal-flora (commensal) organisms that matter clinically — __every medically relevant bacterium is heterotrophic__.
 
 ## explicit_objective
 State that autotrophs use CO2 as a carbon source and are not pathogens, while heterotrophic bacteria (parasitic, pathogenic and flora) are the clinically relevant group.
@@ -3663,7 +3707,7 @@ relationships: contrasts_with the exacting/fastidious nutrition concept in the s
 # Item
 
 ## label
-Bacteria are most sensitive to antibiotics during the exponential (log) phase of growth
+Bacteria are most antibiotic-sensitive in log phase
 
 ## id
 CON-INF-2E629B81136A05
@@ -3672,7 +3716,9 @@ CON-INF-2E629B81136A05
 bacteria.growth-curve.phase-antibiotic-sensitivity
 
 ## definition
-Antibiotics that target actively growing or dividing cells, such as beta-lactams acting on cell-wall synthesis, are most effective when bacteria are in the exponential (log) phase, when division and metabolic activity are maximal. Bacteria in the lag, stationary or decline phase are relatively less susceptible.
+Antibiotics that target actively growing or dividing cells — such as **beta-lactams** acting on cell-wall synthesis — are __most effective during the exponential (log) phase__, when division and metabolic activity peak.
+
+Bacteria in the lag, stationary or decline phase are relatively less susceptible.
 
 ## explicit_objective
 State that maximal antibiotic sensitivity occurs in the exponential growth phase.
@@ -3837,7 +3883,7 @@ relationships: mechanism_step_before is the clearest typed candidate, since susc
 # Item
 
 ## label
-Facultative anaerobes grow with or without oxygen; microaerophiles grow best with only traces of it
+Oxygen requirement classes of bacteria
 
 ## id
 CON-INF-D31966C6CEF85C
@@ -3846,7 +3892,9 @@ CON-INF-D31966C6CEF85C
 bacteria.oxygen-requirement-classes
 
 ## definition
-Facultative anaerobes can grow in the presence or absence of oxygen, switching their metabolism accordingly. Obligate aerobes require oxygen, obligate anaerobes are killed or fail to grow in its presence, and microaerophiles grow best with only small (trace) amounts of oxygen rather than the full atmospheric concentration.
+**Facultative anaerobes** grow with or without oxygen, switching their metabolism accordingly.
+
+**Obligate aerobes** require oxygen, **obligate anaerobes** are killed or fail to grow in its presence, and **microaerophiles** grow best with only __trace amounts of oxygen__ rather than the full atmospheric concentration.
 
 ## explicit_objective
 Distinguish facultative anaerobes (grow with or without O2) from microaerophiles (need only traces of O2), obligate aerobes and obligate anaerobes.
@@ -4011,7 +4059,7 @@ relationships: contrasts_with the catalase/SOD concept in the same article is th
 # Item
 
 ## label
-The length of the lag period is determined by the type of organism and the type of media, not incubation temperature alone
+What determines the length of the lag phase
 
 ## id
 CON-INF-73C7354E3479CD
@@ -4020,7 +4068,9 @@ CON-INF-73C7354E3479CD
 bacteria.growth-curve.lag-period-determinants
 
 ## definition
-How long a bacterial population spends in the lag phase before beginning exponential growth depends on the type of organism being inoculated and the type of media (and prior conditions) it is inoculated into — for example, an organism moved from a rich medium to a poor one, or transferred from a different growth phase, shows a longer lag. Incubation temperature affects growth rate throughout the curve rather than being the specific determinant named for lag duration here.
+The length of the **lag phase** depends on the __type of organism__ and the __type of media__ (and prior conditions) it is inoculated into — for example, an organism moved from a rich medium to a poor one, or transferred from a different growth phase, shows a longer lag.
+
+**Incubation temperature** affects growth rate throughout the curve rather than being the specific determinant of lag duration here.
 
 ## explicit_objective
 State that lag-period length is determined by organism type and media type together.
@@ -4183,7 +4233,7 @@ relationships: part_of the growth-curve phase-definitions concept in the same ar
 ---
 # Item
 ## label
-A glycocalyx is a loose meshwork of polysaccharide fibrils extending from the cell
+Glycocalyx: a loose meshwork of polysaccharide fibrils
 
 ## id
 CON-INF-8E477AF19762BE
