@@ -131314,3 +131314,2361 @@ Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1300
+## title
+Appendicular skeleton is formed of:
+## question
+Appendicular skeleton is formed of:
+## vignette
+This item asks the student to state what the appendicular skeleton is made of.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Skull and mandible
+## explanation_a
+The skull and mandible are the top of the axial skeleton — the central axis, not the appendages hung from it.
+## answer_b
+Bones of the upper and lower limbs
+## explanation_b
+Correct. Appendicular means the appendages: the bones of the upper and lower limbs, girdles included.
+
+Why this is right:
+- By position the skeleton divides in two.
+- The axial skeleton is the skull, the mandible, the hyoid bone, the sternum, the ribs and the vertebral column — the central axis of the body.
+## answer_c
+Ribs and stemum
+## explanation_c
+Ribs and sternum are axial. They form the thoracic cage around the axis; the fact that the upper limb attaches to the sternum through the clavicle does not make the sternum a limb bone.
+## answer_d
+Vertebral column
+## explanation_d
+The vertebral column is the axis itself, and the option a student picks by reading "appendicular" as "attached to".
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-9A22BB8909AF29
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+State what the appendicular skeleton is made of.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p4 q16. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its three-option twin `appendicular-skeleton-includes-dep-book-ac-ad-ac-ad-ad-ad-99ec3dc9` is keyed to the same statement, "Bones of the limbs", and the appendicular (peripheral) skeleton is defined as the bones of the upper and lower limbs.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1301
+## title
+Which of the following bones forms part of the axial skeleton? (2024). Ac P a- Clavicle…
+## question
+Which of the following bones forms part of the axial skeleton? (2024). Ac P a- Clavicle. P Vi b- Ulna
+## vignette
+This item asks the student to pick the axial bone from a list of three pectoral girdle and limb bones.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Clavicle.
+## explanation_a
+The clavicle is the anterior bar of the pectoral girdle and belongs to the upper limb, however much of it lies across the front of the chest.
+## answer_b
+Ulna.
+## explanation_b
+The ulna is a forearm bone, appendicular beyond argument.
+## answer_c
+Sternum.
+## explanation_c
+Correct. The sternum is one of the six components of the axial skeleton, with the skull, mandible, hyoid, ribs and vertebral column.
+
+Why this is right:
+- By position the skeleton divides in two.
+- The axial skeleton is the skull, the mandible, the hyoid bone, the sternum, the ribs and the vertebral column — the central axis of the body.
+## answer_d
+Scapula.
+## explanation_d
+The scapula is the posterior half of the pectoral girdle. It lies on the thoracic cage without joining it, which is exactly why it moves with the limb and not with the axis.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-9A22BB8909AF29
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the axial bone from a list of three pectoral girdle and limb bones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q27. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1302
+## title
+The patella is a:
+## question
+The patella is a:
+## vignette
+This item asks the student to classify the patella by shape.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Short bone
+## explanation_a
+Short bones are the carpals and tarsals — spongy bone in a thin compact shell, filling a region rather than sitting in a tendon. The patella is picked as short by students going on its size.
+## answer_b
+Long bone
+## explanation_b
+A long bone has two epiphyses and a shaft. The patella has neither.
+## answer_c
+Flat bone
+## explanation_c
+A flat bone is two compact plates with spongy bone between; the scapula and ribs are the examples. The patella is flattened in profile, which is the whole of the resemblance.
+## answer_d
+Seasamoid bone
+## explanation_d
+Correct. The patella is a nodule of bone embedded in the tendon of quadriceps femoris in front of the knee — the largest sesamoid bone in the body — and its job is to reduce friction between that tendon and the bone beneath.
+
+Why this is right:
+- A long bone has two expanded ends and a shaft.
+- A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone.
+- A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe.
+## topic
+Basis
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-00B4A0D32A6420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Classify the patella by shape.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q25; Anatomy MCQ Book [2025] [first priority].pdf p5 q25. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1303
+## title
+The scapula is a:
+## question
+The scapula is a:
+## vignette
+This item asks the student to classify the scapula by shape.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Short bone
+## explanation_a
+Short bones are cuboidal and packed together in the wrist and ankle. The scapula is a broad plate.
+## answer_b
+Long bone
+## explanation_b
+A long bone has a shaft and two ends. The scapula has processes — spine, acromion, coracoid — but no shaft.
+## answer_c
+Flat bone
+## explanation_c
+Correct. The scapula is one of the three examples of a flat bone, with the skull cap and the ribs: two thin plates of compact bone with a spongy layer between.
+
+Why this is right:
+- A long bone has two expanded ends and a shaft.
+- A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone.
+- A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe.
+## answer_d
+Seasamoid bone
+## explanation_d
+A sesamoid bone lies inside a tendon. The scapula gives tendons their origin instead of being carried in one.
+## topic
+Basis
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-00B4A0D32A6420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Classify the scapula by shape.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q22; Anatomy MCQ Book [2025] [first priority].pdf p5 q22. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1304
+## title
+The ribs are:
+## question
+The ribs are:
+## vignette
+This item asks the student to classify the ribs by shape.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Short bone
+## explanation_a
+A short bone is roughly cubical. A rib is a long curved strip, and nothing about it is short except its thickness.
+## answer_b
+Long bone
+## explanation_b
+The commonest error here, because a rib is manifestly long. Length is not what defines a long bone: a long bone has two expanded epiphyses and a marrow-filled shaft, and a rib has neither.
+## answer_c
+Flat bone
+## explanation_c
+Correct. The ribs are flat bones — two thin plates of compact bone with spongy bone between, which is also why the sternum and the ribs hold red marrow in adult life.
+
+Why this is right:
+- A long bone has two expanded ends and a shaft.
+- A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone.
+- A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe.
+## answer_d
+Seasamoid bone
+## explanation_d
+A sesamoid bone is embedded in a tendon. The ribs are joined to the vertebrae behind and the costal cartilages in front.
+## topic
+Basis
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-00B4A0D32A6420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Classify the ribs by shape.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q23; Anatomy MCQ Book [2025] [first priority].pdf p5 q23. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1305
+## title
+Which of the following bones is a flat bone:
+## question
+Which of the following bones is a flat bone:
+## vignette
+This item asks the student to pick the flat bone from four bones of the upper limb and its girdle.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Humerus
+## explanation_a
+The humerus is the type example of a long bone — two epiphyses and a shaft with a medullary cavity.
+## answer_b
+Scapula
+## explanation_b
+Correct. The scapula is a flat bone: two thin plates of compact bone with a spongy layer between them.
+
+Why this is right:
+- A long bone has two expanded ends and a shaft.
+- A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone.
+- A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe.
+## answer_c
+Ulna
+## explanation_c
+The ulna is a long bone of the forearm.
+## answer_d
+Clavicle
+## explanation_d
+The clavicle is the trap. It is the one bone that ossifies in membrane like a flat bone of the skull, yet it is classed by shape as a long bone; membrane ossification and flat shape are two different classifications and this option asks for the second.
+## topic
+Upper Limb
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-00B4A0D32A6420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Pick the flat bone from four bones of the upper limb and its girdle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p30 q1; Upper MCQ Dr.jalal (1).pdf p53 q1. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Asked twice and keyed on neither page. The scapula is one of the three examples of a flat bone, and none of the other three options is flat: the humerus and ulna are long bones and the clavicle, though it ossifies in membrane, is classed as a long bone.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1306
+## title
+One of the following is a ﬂat bone:
+## question
+One of the following is a ﬂat bone:
+## vignette
+This item asks the student to pick the flat bone from an irregular, a long and a short bone.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Vertebra.
+## explanation_a
+The vertebra is an example of an irregular bone — irregular in shape with projecting processes, and built inside like a short bone.
+## answer_b
+Cap of skull.
+## explanation_b
+Correct. The cap of the skull is a flat bone: outer and inner tables of compact bone with the diploe between them.
+
+Why this is right:
+- A long bone has two expanded ends and a shaft.
+- A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone.
+- A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe.
+## answer_c
+Humerus.
+## explanation_c
+The humerus is a long bone.
+## answer_d
+Scaphoid.
+## explanation_d
+The scaphoid is a carpal bone, and the carpals are an example of short bones.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-00B4A0D32A6420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the flat bone from an irregular, a long and a short bone.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q18. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2017 source printed no key. The skull cap is one of the three flat bones, and the other three options file elsewhere: the vertebra under irregular bones, the humerus under long, the scaphoid under short.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1307
+## title
+One of the following is an irregular bone:
+## question
+One of the following is an irregular bone:
+## vignette
+This item asks the student to pick the irregular bone from a long, a flat and a group of long bones.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Clavicle
+## explanation_a
+The clavicle is classed as a long bone, and is the bone this leaf keeps using to separate ossification from shape.
+## answer_b
+Scapula. P
+## explanation_b
+The scapula is flat. It has an awkward outline, which is what makes students read "irregular" into it — but irregularity of outline is not the class; projecting processes on a solid, short-bone-like body are.
+## answer_c
+Metacarpus
+## explanation_c
+The metacarpals are miniature long bones, each with a base, a shaft and a head.
+## answer_d
+Vertebra
+## explanation_d
+Correct. The vertebra is the worked example of an irregular bone.
+
+Why this is right:
+- A long bone has two expanded ends and a shaft.
+- A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone.
+- A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-00B4A0D32A6420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the irregular bone from a long, a flat and a group of long bones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q17. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1308
+## title
+Which of the following bones is a sesamoid bone? (2024)
+## question
+Which of the following bones is a sesamoid bone? (2024)
+## vignette
+This item asks the student to recognise a sesamoid bone among the carpal bones.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pisiform
+## explanation_a
+Correct. The pisiform sits in the tendon of flexor carpi ulnaris, which is what a sesamoid bone is — a nodule of bone within a tendon. It is the one carpal bone that qualifies.
+
+Why this is right:
+- A long bone has two expanded ends and a shaft.
+- A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone.
+- A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe.
+## answer_b
+Scaphoid. P
+## explanation_b
+The scaphoid is a true carpal bone in the proximal row, articulating with the radius. Its being small and rounded is the whole of its resemblance to a sesamoid.
+## answer_c
+Triquetral
+## explanation_c
+The triquetral is a proximal-row carpal bone, articulating with the articular disc.
+## answer_d
+Hamate
+## explanation_d
+The hamate is a distal-row carpal bone. Its hook gives attachment to the flexor retinaculum, which is a tendon-related fact that makes it a tempting misread — but the bone lies in the carpus, not in a tendon.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-00B4A0D32A6420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Recognise a sesamoid bone among the carpal bones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q24. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1309
+## title
+The sinuses are:
+## question
+The sinuses are:
+## vignette
+This item asks the student to name the class of bone that contains the paranasal sinuses.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Short bone
+## explanation_a
+Short bones are the carpals and tarsals, and hold no air.
+## answer_b
+Long bone
+## explanation_b
+Long bones have a marrow cavity, not an air cavity, and none of them is pneumatic.
+## answer_c
+Flat bone
+## explanation_c
+The flat bones of the skull cap are the nearest true answer, and the reason this distractor works: the skull has both, but its air-filled bones surround the nose rather than roofing the brain.
+## answer_d
+Pneumatic bones
+## explanation_d
+Correct. A bone containing air is a pneumatic bone, and the air cavities of the skull bones around the nose are the paranasal sinuses.
+
+Why this is right:
+- A long bone has two expanded ends and a shaft.
+- A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone.
+- A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe.
+## topic
+Basis
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-00B4A0D32A6420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Name the class of bone that contains the paranasal sinuses.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q24. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1310
+## title
+One of the following is not a function of pneumatic bone: (2022). em em em em em
+## question
+One of the following is not a function of pneumatic bone: (2022). em em em em em
+## vignette
+This item asks the student to give what the air cavity of a pneumatic bone does, and identify the property it costs.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Warming of inspired air
+## explanation_a
+A genuine function. The sinus is lined by a highly vascular mucosa, and inspired air passing the nose is warmed by it.
+## answer_b
+Withstand forces and stresses
+## explanation_b
+Correct. The exception, and the answer. Hollowing a bone cannot make it stronger; the air is bought at the cost of substance, which is why a blow to the face fractures the maxilla and the orbital floor so readily.
+
+Why this is right:
+- A pneumatic bone contains air.
+- The bones concerned are mainly the skull bones surrounding the nose — the maxilla, the frontal — so their air cavities are called the paranasal sinuses.
+- A bone may hold one large cavity, as the maxillary sinus does, or many small air cells, as the mastoid does.
+## answer_c
+Resonance of voice
+## explanation_c
+A genuine function. The air cavities resonate, and this is why the voice changes when a sinus fills during a cold.
+## answer_d
+Lighting the weight of skull
+## explanation_d
+A genuine function, and the one most often given first: the cavities decrease the weight of the skull that the neck has to balance.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-6DCABD3AE947F5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give what the air cavity of a pneumatic bone does, and identify the property it costs.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q22; EOM ISK End 101 — 2022.pdf p4 q46. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1311
+## title
+The expanded upper and lower ends of the long bone are called:
+## question
+The expanded upper and lower ends of the long bone are called:
+## vignette
+This item asks the student to name the expanded ends of a long bone.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Epiphysis
+## explanation_a
+Correct. The epiphyses are the expanded upper and lower ends, used for articulation and covered with hyaline cartilage.
+
+Why this is right:
+- The epiphyses are the expanded upper and lower ends of a long bone; they carry the articular surfaces and are covered with hyaline cartilage.
+- The diaphysis is the shaft — a tube of compact bone with a central medullary cavity, lined by endosteum, filled with bone marrow and covered by the periosteum.
+- In a growing bone the two are separated by a disc of hyaline cartilage, the epiphyseal cartilage.
+## answer_b
+Epiphyseal plate
+## explanation_b
+The epiphyseal plate is the disc of hyaline cartilage *between* epiphysis and diaphysis in a growing bone, not the end itself. One letter of Greek separates them and the plate is inside the bone.
+## answer_c
+Diaphysis
+## explanation_c
+The diaphysis is the shaft between the two ends.
+## answer_d
+Metaphysis
+## explanation_d
+The metaphysis is the zone of the shaft immediately under the epiphyseal cartilage — close to the end, which is what makes it the strongest distractor, but not the end.
+## topic
+Basis
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-EFD497A9922A4D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Name the expanded ends of a long bone.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q19; Anatomy MCQ Book [2025] [first priority].pdf p4 q19. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1312
+## title
+The compact bone with a central medullary cavity is called:
+## question
+The compact bone with a central medullary cavity is called:
+## vignette
+This item asks the student to name the region of a long bone that is a tube of compact bone around a medullary cavity.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Epiphysis
+## explanation_a
+The epiphysis is the expanded end. It is spongy bone under a shell, with no medullary cavity.
+## answer_b
+Epiphyseal plate
+## explanation_b
+The epiphyseal plate is cartilage, not bone at all.
+## answer_c
+Diaphysis
+## explanation_c
+Correct. The override. The diaphysis is the shaft: a tube of compact bone around a central medullary cavity lined with endosteum and filled with marrow.
+
+Why this is right:
+- The epiphyses are the expanded upper and lower ends of a long bone; they carry the articular surfaces and are covered with hyaline cartilage.
+- The diaphysis is the shaft — a tube of compact bone with a central medullary cavity, lined by endosteum, filled with bone marrow and covered by the periosteum.
+- In a growing bone the two are separated by a disc of hyaline cartilage, the epiphyseal cartilage.
+## answer_d
+Metaphysis
+## explanation_d
+The answer printed in both copies of this question, and the reason for the override. The metaphysis is the short, highly active segment just under the epiphyseal cartilage; it is part of the shaft, but it is not the description in the stem.
+## topic
+Basis
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-EFD497A9922A4D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Name the region of a long bone that is a tube of compact bone around a medullary cavity.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q20. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, "Metaphysis", and so does the second copy of this question — and both conflict with the definition of the diaphysis, which is word for word the stem of this question: "a tube of compact bone with a central medullary cavity lined with endosteum and filled with bone marrow". The metaphysis is defined separately as the part just beneath the epiphyseal cartilage. A key repeated on two pages is still one wrong key, and the conflict is recorded rather than absorbed.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1313
+## title
+The part which is responsible for the growth of long bones in length is called:
+## question
+The part which is responsible for the growth of long bones in length is called:
+## vignette
+This item asks the student to name the part of a long bone that lengthens it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Epiphysis
+## explanation_a
+The epiphysis is the end that the plate pushes away; it is carried along by the growth rather than producing it.
+## answer_b
+Epiphyseal plate
+## explanation_b
+Correct. The bone increases in length from the epiphysial plates of cartilage, by proliferation of their cells.
+
+Why this is right:
+- The epiphyseal plate at one end ossifies earlier than the other; the end whose plate ossifies later goes on growing longer and is called the growing end.
+- The nutrient artery enters the shaft obliquely and runs away from the growing end.
+- Fusion of epiphysis with diaphysis is under hormonal control and happens in females about two years earlier than in males.
+## answer_c
+Diaphysis
+## explanation_c
+The diaphysis is what the growth adds to. It lengthens, but it does not do the lengthening.
+## answer_d
+Metaphysis
+## explanation_d
+The metaphysis is called the most active part of the long bone, which is exactly why it is chosen. Its activity is turning newly made cartilage into bone; the cell division that adds length happens in the plate above it.
+## topic
+Basis
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-C30E73A5353ABB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Name the part of a long bone that lengthens it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q21. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1314
+## title
+Longitudinal growth in a growing bone passes through which of the following?
+## question
+Longitudinal growth in a growing bone passes through which of the following?
+## vignette
+This item asks the student to name the structure through which a growing bone lengthens, and separate it from the scar it leaves.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+metaphysic
+## explanation_a
+The metaphysis is where the new cartilage is replaced by bone, and it is the most active part of the long bone — which is why it draws the answer. Growth passes *out of* it; it does not begin there.
+## answer_b
+diaphysis
+## explanation_b
+The diaphysis is the shaft. It gains length at its ends and gains width from the periosteum, but it generates neither.
+## answer_c
+epiphyseal plate
+## explanation_c
+Correct. The epiphyseal plate of hyaline cartilage divides and is replaced from below, and that is the whole mechanism of growth in length.
+
+Why this is right:
+- The epiphyseal plate at one end ossifies earlier than the other; the end whose plate ossifies later goes on growing longer and is called the growing end.
+- The nutrient artery enters the shaft obliquely and runs away from the growing end.
+- Fusion of epiphysis with diaphysis is under hormonal control and happens in females about two years earlier than in males.
+## answer_d
+epiphyseal line
+## explanation_d
+The epiphyseal line is the plate after it has ossified — the mark left when growth has finished. Choosing it is choosing the end of the process rather than the process.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-C30E73A5353ABB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the structure through which a growing bone lengthens, and separate it from the scar it leaves.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q23; EOM ISK EOM exam 2024.pdf p9 q95. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2024 source printed no key. Long bones increase in length from the epiphysial plates of cartilage by proliferation of their cells, which makes C the answer; D names what is left after that plate has ossified and growth has stopped.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1315
+## title
+Intra-cartilagenous ossification occurs in:
+## question
+Intra-cartilagenous ossification occurs in:
+## vignette
+This item asks the student to name a bone that ossifies by replacing a cartilage model.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Roof of the skull
+## explanation_a
+The roof of the skull ossifies in membrane, directly from mesenchyme, with no cartilage model. It is printed twice in this question, as A and again as C.
+## answer_b
+Clavicle
+## explanation_b
+The clavicle is another example of membranous ossification, and the classic trap: it looks like a long bone and long bones are cartilaginous, but the clavicle is not.
+## answer_c
+Skull cap
+## explanation_c
+The skull cap is the same structure as option A under another name. Two identical options cannot both be the answer, which is a way to eliminate the pair.
+## answer_d
+Vertebrae
+## explanation_d
+Correct. The vertebrae belong with the long bones on the intra-cartilaginous list, the ribs and the base of the skull: mesenchyme first becomes a cartilage model, and the model is then replaced by bone.
+
+Why this is right:
+- Bones form by one of two processes.
+- In intra-cartilaginous (endochondral) ossification the mesenchyme first becomes a cartilage model, which is then changed into bone; the long bones, the vertebrae, the ribs and the base of the skull form this way.
+## topic
+Basis
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-2C78EFB16CA67F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Name a bone that ossifies by replacing a cartilage model.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q18; Anatomy MCQ Book [2025] [first priority].pdf p4 q18. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1316
+## title
+One of the following bones undergoes membranous ossiﬁcation:
+## question
+One of the following bones undergoes membranous ossiﬁcation:
+## vignette
+This item asks the student to name the bone of the upper limb that ossifies in membrane.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Clavicle.
+## explanation_a
+Correct. The clavicle is one of the two examples of intra-membranous ossification, with the skull cap — and the only limb bone that forms this way.
+
+Why this is right:
+- Bones form by one of two processes.
+- In intra-cartilaginous (endochondral) ossification the mesenchyme first becomes a cartilage model, which is then changed into bone; the long bones, the vertebrae, the ribs and the base of the skull form this way.
+## answer_b
+Radius.
+## explanation_b
+The radius is a long bone and ossifies in cartilage, like every other bone of the limbs except the clavicle.
+## answer_c
+Humerus.
+## explanation_c
+The humerus ossifies in cartilage.
+## answer_d
+Ulna.
+## explanation_d
+The ulna ossifies in cartilage. A, B, C and D are all bones of the upper limb, which is what makes this question a test of the exception rather than of the rule.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-2C78EFB16CA67F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the bone of the upper limb that ossifies in membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p19 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1317
+## title
+Hyaline cartilage is present in:
+## question
+Hyaline cartilage is present in:
+## vignette
+This item asks the student to name a site of hyaline cartilage among sites of the other two types.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Epiglottis
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage — the standing exception to "the larynx is hyaline", and the reason this option is printed first.
+## answer_b
+Aurice of the ear
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage, which is what lets it be folded and spring back.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Correct. The articular cartilage covering the surfaces of a synovial joint is hyaline, as are the epiphyseal plates, the costal cartilages and the developing bones of the fetus.
+
+Why this is right:
+- Cartilage is a rubbery, tough and resilient connective tissue with no blood vessels, nerves or lymphatics, nourished by diffusion from the vessels of the perichondrium.
+- White fibrocartilage has an opaque matrix rich in collagen bundles and few cells, and is found in the intervertebral discs.
+- Yellow elastic fibrocartilage has a yellow matrix rich in elastic fibres and abundant cells, and is found in the tip of the nose, the auricle of the ear and the epiglottis.
+## answer_d
+Intervertebral disc
+## explanation_d
+The intervertebral disc is white fibrocartilage — an opaque matrix packed with collagen bundles, built to take compression rather than to glide.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-AEB62E99182AEE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Name a site of hyaline cartilage among sites of the other two types.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p4 q15. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The articular cartilage of joints is one of the sites of hyaline cartilage; the other three options file elsewhere: the epiglottis and the auricle under yellow elastic fibrocartilage, the intervertebral disc under white fibrocartilage.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1318
+## title
+White fibrocartilage is present in:
+## question
+White fibrocartilage is present in:
+## vignette
+This item asks the student to name the site of white fibrocartilage among sites of the other two types.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Epiglottis
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage.
+## answer_b
+Auricle of the ear
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Articular cartilage is hyaline. It is the most tempting wrong answer here because a joint surface takes load, and load is what fibrocartilage is for — but the surface has to be smooth, and collagen bundles are not.
+## answer_d
+Intervertebral disc
+## explanation_d
+Correct. The intervertebral disc is the one named site of white fibrocartilage, and unlike hyaline it does not ossify in old age.
+
+Why this is right:
+- Cartilage is a rubbery, tough and resilient connective tissue with no blood vessels, nerves or lymphatics, nourished by diffusion from the vessels of the perichondrium.
+- White fibrocartilage has an opaque matrix rich in collagen bundles and few cells, and is found in the intervertebral discs.
+- Yellow elastic fibrocartilage has a yellow matrix rich in elastic fibres and abundant cells, and is found in the tip of the nose, the auricle of the ear and the epiglottis.
+## topic
+Basis
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-AEB62E99182AEE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Name the site of white fibrocartilage among sites of the other two types.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q14. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1319
+## title
+White ﬁbrocartilage is present in one of the following: (2019). Ac P a- Epiglottis. P V…
+## question
+White ﬁbrocartilage is present in one of the following: (2019). Ac P a- Epiglottis. P Vi b- Auricle of ear. y
+## vignette
+This item asks the student to name the site of white fibrocartilage when a hyaline site of the thoracic wall is offered alongside.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Epiglottis.
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage.
+## answer_b
+Auricle of ear.
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage.
+## answer_c
+Intervertebral disc of cartilage.
+## explanation_c
+Correct. The intervertebral disc is the named site of white fibrocartilage.
+
+Why this is right:
+- Cartilage is a rubbery, tough and resilient connective tissue with no blood vessels, nerves or lymphatics, nourished by diffusion from the vessels of the perichondrium.
+- White fibrocartilage has an opaque matrix rich in collagen bundles and few cells, and is found in the intervertebral discs.
+- Yellow elastic fibrocartilage has a yellow matrix rich in elastic fibres and abundant cells, and is found in the tip of the nose, the auricle of the ear and the epiglottis.
+## answer_d
+Costal cartilage.
+## explanation_d
+Costal cartilage is hyaline, and it is the distractor that separates this printing from the others: a student who has learnt only "fibrocartilage takes load" will reach for the cartilage that carries the ribcage.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-AEB62E99182AEE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the site of white fibrocartilage when a hyaline site of the thoracic wall is offered alongside.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q20. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1320
+## title
+Yellow elastic fibrocartilage is present in:
+## question
+Yellow elastic fibrocartilage is present in:
+## vignette
+This item asks the student to name the site of yellow elastic fibrocartilage among sites of the other two types.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Developing bone of the fetus
+## explanation_a
+Developing bone in the fetus is a hyaline cartilage model, waiting to be replaced.
+## answer_b
+Auricle of the ear
+## explanation_b
+Correct. The auricle of the ear is yellow elastic fibrocartilage, with the tip of the nose and the epiglottis.
+
+Why this is right:
+- Cartilage is a rubbery, tough and resilient connective tissue with no blood vessels, nerves or lymphatics, nourished by diffusion from the vessels of the perichondrium.
+- White fibrocartilage has an opaque matrix rich in collagen bundles and few cells, and is found in the intervertebral discs.
+- Yellow elastic fibrocartilage has a yellow matrix rich in elastic fibres and abundant cells, and is found in the tip of the nose, the auricle of the ear and the epiglottis.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Articular cartilage is hyaline.
+## answer_d
+Symphysis pubis
+## explanation_d
+The symphysis pubis is fibrous rather than elastic, and is offered here because "yellow elastic fibrocartilage" contains the word fibrocartilage — the classic misreading of the name.
+## topic
+Basis
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-AEB62E99182AEE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Name the site of yellow elastic fibrocartilage among sites of the other two types.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q13. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1321
+## title
+The type of cartilage in the tip of the nose is: em em em em em
+## question
+The type of cartilage in the tip of the nose is: em em em em em
+## vignette
+This item asks the student to name the type of cartilage at the tip of the nose.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Hyaline cartilage
+## explanation_a
+Hyaline cartilage is in the developing bones, the epiphyseal plates, the joint surfaces, the costal cartilages and the larynx below the epiglottis — never in the nasal tip.
+## answer_b
+White ﬁbrocartilage
+## explanation_b
+White fibrocartilage is the intervertebral disc. It is built to resist compression, and a nose tip that resisted compression would not spring back.
+## answer_c
+Yellow elastic ﬁbrocartilage
+## explanation_c
+Correct. The tip of the nose is yellow elastic fibrocartilage, with the auricle of the ear and the epiglottis — the three places that have to bend and recoil.
+
+Why this is right:
+- Cartilage is a rubbery, tough and resilient connective tissue with no blood vessels, nerves or lymphatics, nourished by diffusion from the vessels of the perichondrium.
+- White fibrocartilage has an opaque matrix rich in collagen bundles and few cells, and is found in the intervertebral discs.
+- Yellow elastic fibrocartilage has a yellow matrix rich in elastic fibres and abundant cells, and is found in the tip of the nose, the auricle of the ear and the epiglottis.
+## answer_d
+No cartilage at all
+## explanation_d
+The tip of the nose is cartilage, which is exactly why it has no bony landmark and why it moves when pressed. Chosen by students who confuse the soft, mobile tip with the absence of a skeleton.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-AEB62E99182AEE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the type of cartilage at the tip of the nose.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q15. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1322
+## title
+The following artery supplies the inner part of the shaft of long bone:
+## question
+The following artery supplies the inner part of the shaft of long bone:
+## vignette
+This item asks the student to assign each part of a long bone to the artery that supplies it, and divide the shaft between the nutrient and the periosteal arteries.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Epiphyseal artery.
+## explanation_a
+The epiphyseal arteries supply the expanded ends of the bone, and only after the epiphyseal plate has ossified do they anastomose with the metaphyseal arteries. Before that they are shut off from the shaft entirely, which is the anatomical reason a growing bone and an adult bone behave differently.
+## answer_b
+Periosteai arteries.
+## explanation_b
+The periosteal arteries are the other half of this question and the commonest wrong answer, because they are the vessels of the shaft a student pictures first. They supply the outer third; the stem asks for the inner part.
+## answer_c
+Diaphyseal artery.
+## explanation_c
+Correct. The nutrient, or diaphyseal, artery enters through the oblique nutrient foramen at the middle of the shaft, runs away from the growing end, and supplies the inner two-thirds of the shaft.
+
+Why this is right:
+- The nutrient (diaphyseal) artery enters the middle of the shaft through an oblique nutrient foramen, runs away from the growing end, and supplies the inner two-thirds of the shaft.
+- The periosteal arteries enter from the periosteum and supply the outer third of the shaft.
+- The metaphyseal arteries enter through minute foramina and supply the metaphyses.
+## answer_d
+Metaphyseal artery.
+## explanation_d
+The metaphyseal arteries enter through minute foramina to supply the metaphysis, the narrow, highly active zone just under the epiphyseal cartilage. That is a region of the bone, not a part of the shaft’s interior.
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## main_concept
+CON-MSK-40012FE18569EC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Assign each part of a long bone to the artery that supplies it, and divide the shaft between the nutrient and the periosteal arteries.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p5 q35. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is: the nutrient artery enters the middle of the shaft and supplies the inner two-thirds of it, while the periosteal arteries supply the outer third. The paper calls that vessel the diaphyseal artery, also known as the nutrient artery; the two names are the same vessel — the artery of the diaphysis — and no other option names anything in the interior of the shaft.
