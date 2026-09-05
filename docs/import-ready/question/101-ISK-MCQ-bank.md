@@ -113418,3 +113418,4677 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a red cell disease. The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer given here is: sickle cell anaemia is the condition in which an abnormal rigid haemoglobin, HbS, distorts the corpuscle into a sickle.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1123
+## title
+Simple branched tubular glands:
+## question
+Simple branched tubular glands:
+## vignette
+This item asks the student to attribute "branched" in a gland's name to the secretory part, not the duct.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Have branched ducts
+## explanation_a
+The commonest wrong answer, and the one the name invites. A branching duct is what "compound" means, and this gland has already been called simple, which settles the duct as unbranched.
+## answer_b
+Are endocrine gland
+## explanation_b
+An endocrine gland is ductless, so it cannot be described by duct branching at all. Every term in this name presupposes a duct.
+## answer_c
+Have alveolar secretory unit
+## explanation_c
+Tubular and alveolar are alternatives, not companions: the secretory unit here is a tube, which is what the word tubular states.
+## answer_d
+Have branched secretory part
+## explanation_d
+Correct. Simple fixes the duct as unbranched and tubular fixes the secretory unit as a tube, so the only structure left for "branched" to describe is the secretory portion.
+
+Why this is right:
+- An exocrine gland consists of a secretory part and a duct, and each is classified separately.
+- By branching of the duct a gland is simple, meaning its duct does not branch, or compound, meaning the duct branches like a tree with each branch carrying a secretory part; a simple gland whose secretory portion alone branches is called simple branched.
+- By the shape of the secretory part a gland is tubular, when the secretory unit is a tube, alveolar or acinar, when it is rounded, or tubulo-alveolar, when it is flask-shaped.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-30381062FF7E61
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Attribute "branched" in a gland's name to the secretory part, not the duct.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q42; Dpt Book MCQ histo 101 .NEW (1).pdf p13 q36; Epithelium | Module 101 questions.pdf.pdf p15 q42. Manifest src_510c935c09a7e7cbff32, src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1124
+## title
+Exocrine glands:
+## question
+Exocrine glands:
+## vignette
+This item asks the student to define an exocrine gland by its duct.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Are only unicellular glands
+## explanation_a
+Unicellular glands such as the goblet cell are exocrine, but so are the multicellular ones. This option mistakes one subdivision of exocrine glands for the whole class.
+## answer_b
+Discharge secretory product by diffusion into the blood
+## explanation_b
+Diffusion into the blood is what an endocrine gland does, and it is precisely what having a duct makes unnecessary.
+## answer_c
+Discharge their secretion via ducts
+## explanation_c
+Correct. An exocrine gland has a secretory portion that makes the secretion and an excretory portion — the ducts — that carries it outside the gland.
+
+Why this is right:
+- Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion.
+- Glands are classified by the presence or absence of a duct.
+- An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland.
+## answer_d
+Secretes hormones
+## explanation_d
+Hormones are the endocrine product. An exocrine secretion is delivered to a surface or a lumen, not to the bloodstream.
+## topic
+Histology-general
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-0A988681FF1ABF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Define an exocrine gland by its duct.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q32; Epithelium | Module 101 questions.pdf.pdf p14 q32. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1125
+## title
+Myo-epithelial cells are:
+## question
+Myo-epithelial cells are:
+## vignette
+This item asks the student to work out which glands can have myo-epithelial cells by asking whether the gland has a duct to squeeze secretion into.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Present around acini of salivary glands
+## explanation_a
+Correct. The salivary gland is exocrine, so it has ducts, and its acini are wrapped by myo-epithelial cells whose contraction drives the secretion into them. The mammary and sweat glands are two more examples.
+
+Why this is right:
+- Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion.
+- Glands are classified by the presence or absence of a duct.
+- An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland.
+## answer_b
+Found in thyroid gland
+## explanation_b
+The thyroid is a ductless endocrine gland. Its follicular cells release their hormone into blood capillaries, so there is no duct to squeeze anything into and no myo-epithelial cell to do it.
+## answer_c
+Found in pancreas
+## explanation_c
+The pancreas is the trap, because it is a mixed gland and its exocrine half really does have acini and ducts. The stated sites are the salivary, mammary and sweat glands, and it does not extend them to the pancreas.
+## answer_d
+Modified type of epithelium which act as a receptor
+## explanation_d
+Acting as a receptor is neuro-epithelium, the class next door. Myo-epithelium is modified to contract, which is a different one of the four modifications.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-0A988681FF1ABF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Work out which glands can have myo-epithelial cells by asking whether the gland has a duct to squeeze secretion into.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q48; Epithelium | Module 101 questions.pdf.pdf p16 q48. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1126
+## title
+Sebaceous gland is considered as:
+## question
+Sebaceous gland is considered as:
+## vignette
+This item asks the student to place the sebaceous gland in the combined classification.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Compound tubular gland
+## explanation_a
+Compound needs a branching duct. The sebaceous gland empties by a single short duct into a hair follicle, and its secretory units are rounded rather than tubular.
+## answer_b
+Simple branched alveolar gland
+## explanation_b
+Correct. A single unbranched duct makes it simple, several rounded secretory units off that one duct make it branched, and the rounded shape makes it alveolar.
+
+Why this is right:
+- The combined classification has nine or ten named forms: simple tubular, simple branched tubular, simple coiled tubular and compound tubular; simple alveolar, simple branched alveolar and compound alveolar; and simple, simple branched and compound tubulo-alveolar.
+## answer_c
+Branched tubular
+## explanation_c
+Right on the branching, wrong on the shape. The sebaceous secretory unit is a rounded sac, not a tube — this is the answer of a student who remembered "branched" and stopped there.
+## answer_d
+Compound tubule- alveolar gland
+## explanation_d
+Compound tubulo-alveolar is the salivary gland. Two of the three terms are wrong here.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-677595D34287F6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Place the sebaceous gland in the combined classification.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q44; Epithelium | Module 101 questions.pdf.pdf p16 q44. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1127
+## title
+The compound tubulo-alveolar glands are present in:
+## question
+The compound tubulo-alveolar glands are present in:
+## vignette
+This item asks the student to name the gland that is compound tubulo-alveolar.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Sweat glands
+## explanation_a
+The sweat gland is simple coiled tubular: one unbranched duct and a tube coiled up in the dermis.
+## answer_b
+Intestinal crypts
+## explanation_b
+Intestinal crypts are simple tubular — straight unbranched tubes opening on the surface, with no duct tree at all.
+## answer_c
+Salivary glands
+## explanation_c
+Correct. The salivary glands have a duct system that branches like a tree, and flask-shaped secretory units, which is what tubulo-alveolar names.
+
+Why this is right:
+- The combined classification has nine or ten named forms: simple tubular, simple branched tubular, simple coiled tubular and compound tubular; simple alveolar, simple branched alveolar and compound alveolar; and simple, simple branched and compound tubulo-alveolar.
+## answer_d
+Fundus of stomach
+## explanation_d
+The fundic glands of the stomach are simple branched tubular: the duct does not branch, the secretory part does.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-677595D34287F6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Name the gland that is compound tubulo-alveolar.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q41; Epithelium | Module 101 questions.pdf.pdf p15 q41. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1128
+## title
+According to the mode of secretion the exocrine glands classified into:
+## question
+According to the mode of secretion the exocrine glands classified into:
+## vignette
+This item asks the student to match a classifying criterion to the set of categories it produces.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Apocrine, holocrine and merocrine glands
+## explanation_a
+Correct. Mode of secretion asks how much of the cell goes with the product, and the three answers are apocrine, holocrine and merocrine.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_b
+Mucous, serous and mucoserous glands
+## explanation_b
+Mucous, serous and mucoserous is the classification by the *nature* of the secretion — what it is made of, rather than how it leaves.
+## answer_c
+Simple, branched, and compound glands
+## explanation_c
+Simple, branched and compound classify the duct, which is a question about the gland's architecture rather than its secretory mechanism.
+## answer_d
+Alveolar, tubular and tubuloalveolar glands
+## explanation_d
+Alveolar, tubular and tubuloalveolar classify the shape of the secretory part. There are five criteria and this question names one of them; picking the wrong list is the standard error.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Match a classifying criterion to the set of categories it produces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q51. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1129
+## title
+According to their function, there are two major types of epithelial tissue, these are
+## question
+According to their function, there are two major types of epithelial tissue, these are
+## vignette
+This item asks the student to separate epithelium that covers from epithelium that secretes.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+epithelial tissue and cartilage
+## explanation_a
+Cartilage is connective tissue, not epithelium. This option does not answer the question it was asked.
+## answer_b
+holocrine and apocrine glands
+## explanation_b
+Holocrine and apocrine are modes of secretion within one class of epithelium, not two classes of epithelial tissue.
+## answer_c
+transitional and pseudostratified epithelium
+## explanation_c
+Transitional and pseudostratified are two types of *surface* epithelium, so both sit inside one of the answer's two categories.
+## answer_d
+covering and secretory epithelium
+## explanation_d
+Correct. Covering epithelium and secretory epithelium. Four classes are recognised overall, adding neuro-epithelium and myo-epithelium to these two; a question offering only two is using the coarser split.
+
+Why this is right:
+- Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion.
+- Glands are classified by the presence or absence of a duct.
+- An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-0A988681FF1ABF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Separate epithelium that covers from epithelium that secretes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q51. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1130
+## title
+All are true about goblet cell Except:
+## question
+All are true about goblet cell Except:
+## vignette
+This item asks the student to recognise that the goblet cell is a gland of exactly one cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Secret mucous
+## explanation_a
+True, so not the exception. Mucus is the goblet cell's product, which is why it is classed as a mucous gland.
+## answer_b
+Flask in shape
+## explanation_b
+True, so not the exception. The name describes the shape — a narrow base and a swollen mucus-filled apex.
+## answer_c
+Multicellular gland
+## explanation_c
+Correct. The exception, and the answer. Picked by students who count the cells around it rather than the cells doing the secreting. A goblet cell is an example of a unicellular gland.
+
+Why this is right:
+- By number of cells an exocrine gland is unicellular, formed of a single cell, or multicellular.
+## answer_d
+Present in the respiratory tract
+## explanation_d
+True, so not the exception. Goblet cells are scattered through the pseudostratified columnar ciliated epithelium of the airway, and through the simple columnar epithelium of the intestine.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-B22A5E7A56EC8F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Recognise that the goblet cell is a gland of exactly one cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q60. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1131
+## title
+Apocrine gland is :
+## question
+Apocrine gland is :
+## vignette
+This item asks the student to name the gland that loses the apex of its cells with its secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Goblet cell
+## explanation_a
+The goblet cell discharges mucus by exocytosis and stays intact, which is merocrine.
+## answer_b
+Salivary gland
+## explanation_b
+The salivary gland is the standard merocrine example — its cells lose nothing at all.
+## answer_c
+Sebaceous gland
+## explanation_c
+The sebaceous gland is holocrine: the whole cell disintegrates and becomes the secretion. This is one rung too far along the ladder.
+## answer_d
+Lactating mammary gland
+## explanation_d
+Correct. The lactating mammary gland releases its lipid droplets wrapped in a piece of the apical cytoplasm, which is what apocrine means.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the gland that loses the apex of its cells with its secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q63. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1132
+## title
+Compound tubular glands are present in:
+## question
+Compound tubular glands are present in:
+## vignette
+This item asks the student to name a compound tubular gland, where both terms have to be right at once.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pancreas
+## explanation_a
+The pancreas has a branching duct system, so it is compound, but its secretory units are rounded acini — it is compound alveolar, not tubular.
+## answer_b
+Parotid
+## explanation_b
+The parotid is a salivary gland, compound tubulo-alveolar. The duct term is right and the shape term is not.
+## answer_c
+Prostate
+## explanation_c
+The prostate is compound tubulo-alveolar as well. It is chosen by students who know it is compound and stop there.
+## answer_d
+Kidney
+## explanation_d
+Correct. The kidney is a compound tubular example: a branching duct tree whose secretory units are tubes rather than rounded acini.
+
+Why this is right:
+- The combined classification has nine or ten named forms: simple tubular, simple branched tubular, simple coiled tubular and compound tubular; simple alveolar, simple branched alveolar and compound alveolar; and simple, simple branched and compound tubulo-alveolar.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-677595D34287F6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Classification
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name a compound tubular gland, where both terms have to be right at once.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p15 q39. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1133
+## title
+Concerning the classification of the exocrine glands the term”simple” refers that:
+## question
+Concerning the classification of the exocrine glands the term”simple” refers that:
+## vignette
+This item asks the student to attribute the word "simple" to the duct.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Its duct is not branching
+## explanation_a
+Correct. Simple means the duct does not branch. It says nothing about how many secretory units hang off it — a simple branched gland has several.
+
+Why this is right:
+- An exocrine gland consists of a secretory part and a duct, and each is classified separately.
+- By branching of the duct a gland is simple, meaning its duct does not branch, or compound, meaning the duct branches like a tree with each branch carrying a secretory part; a simple gland whose secretory portion alone branches is called simple branched.
+- By the shape of the secretory part a gland is tubular, when the secretory unit is a tube, alveolar or acinar, when it is rounded, or tubulo-alveolar, when it is flask-shaped.
+## answer_b
+Its secretory part is one unit
+## explanation_b
+This describes an unbranched *secretory* part, which is what "simple" is routinely mistaken for. A simple branched gland is the counter-example: simple duct, several secretory units.
+## answer_c
+Its secretory part is tubular
+## explanation_c
+Tubular describes the shape of the secretory part, and is chosen from an adjacent list rather than from the one the question asked about.
+## answer_d
+Its secretory part is alveolar
+## explanation_d
+Alveolar likewise describes shape. Neither shape term has anything to say about the duct.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-30381062FF7E61
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Attribute the word "simple" to the duct.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q52. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1134
+## title
+Concerning the exocrine glands the term “compound” refers to:
+## question
+Concerning the exocrine glands the term “compound” refers to:
+## vignette
+This item asks the student to attribute the word "compound" to the duct alone.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Its duct is branching
+## explanation_a
+Correct. Compound means the duct branches like a tree, with each branch carrying its own secretory part.
+
+Why this is right:
+- An exocrine gland consists of a secretory part and a duct, and each is classified separately.
+- By branching of the duct a gland is simple, meaning its duct does not branch, or compound, meaning the duct branches like a tree with each branch carrying a secretory part; a simple gland whose secretory portion alone branches is called simple branched.
+- By the shape of the secretory part a gland is tubular, when the secretory unit is a tube, alveolar or acinar, when it is rounded, or tubulo-alveolar, when it is flask-shaped.
+## answer_b
+Its secretory part is branching
+## explanation_b
+A branching secretory part is what "branched" names, and it can occur under a simple duct — a simple branched gland is exactly that.
+## answer_c
+A and B
+## explanation_c
+The tempting hedge. It is true that a compound gland has many secretory parts, but the word compound is defined on the duct, and choosing both makes the term unable to distinguish anything.
+## answer_d
+Its secretory part is alveolar
+## explanation_d
+Alveolar is a shape term from a different criterion, and a compound gland may be tubular, alveolar or tubulo-alveolar.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-30381062FF7E61
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Attribute the word "compound" to the duct alone.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q54. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1135
+## title
+Concerning the exocrine glands the term “tubular” refers to:
+## question
+Concerning the exocrine glands the term “tubular” refers to:
+## vignette
+This item asks the student to attribute the word "tubular" to the shape of the secretory part.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Its duct is not branching
+## explanation_a
+An unbranching duct is "simple". This is the answer to the neighbouring question in the same series, and the two are routinely swapped.
+## answer_b
+Its secretory part is one unit
+## explanation_b
+The number of secretory units is not what tubular describes; a gland can have one tube or many.
+## answer_c
+Its secretory part is tubular
+## explanation_c
+Correct. Tubular means the secretory unit is a tube, as against rounded (alveolar) or flask-shaped (tubulo-alveolar).
+
+Why this is right:
+- An exocrine gland consists of a secretory part and a duct, and each is classified separately.
+- By branching of the duct a gland is simple, meaning its duct does not branch, or compound, meaning the duct branches like a tree with each branch carrying a secretory part; a simple gland whose secretory portion alone branches is called simple branched.
+- By the shape of the secretory part a gland is tubular, when the secretory unit is a tube, alveolar or acinar, when it is rounded, or tubulo-alveolar, when it is flask-shaped.
+## answer_d
+Its secretory part is alveolar
+## explanation_d
+Alveolar is the alternative to tubular, not a synonym for it — the secretory unit is rounded rather than tube-like.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-30381062FF7E61
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Attribute the word "tubular" to the shape of the secretory part.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q53. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1136
+## title
+Concerning the myoepithelial cells all the statements are true EXCEPT:
+## question
+Concerning the myoepithelial cells all the statements are true EXCEPT:
+## vignette
+This item asks the student to reason from the duct: a gland with no duct has nothing for a myo-epithelial cell to expel secretion into.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+They are spindle shaped cells
+## explanation_a
+Treat as true, so not the exception. The question books describe myo-epithelial cells as spindle-shaped and basket-like around the acinus; no shape is specified in the core text, so this claim is not fully sourced.
+## answer_b
+They contain actin and myosin
+## explanation_b
+Treat as true, so not the exception. Contractile proteins are what let the cell squeeze, though the core text states only that the cell contracts, without naming actin and myosin.
+## answer_c
+They can contract
+## explanation_c
+True, so not the exception, and it is the one point stated outright — myo-epithelium is epithelium modified to contract.
+## answer_d
+They are related to the endocrine glands
+## explanation_d
+Correct. The exception, and the answer. An endocrine gland is ductless: its secretion leaves through the blood capillaries beside it, so there is no duct to squeeze it into and no work for a myo-epithelial cell to do. They belong to exocrine glands — salivary, mammary and sweat.
+
+Why this is right:
+- Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion.
+- Glands are classified by the presence or absence of a duct.
+- An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-0A988681FF1ABF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Reason from the duct: a gland with no duct has nothing for a myo-epithelial cell to expel secretion into.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p9 q71. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1137
+## title
+Fundic glands of the stomach are considered as:
+## question
+Fundic glands of the stomach are considered as:
+## vignette
+This item asks the student to distinguish the fundic gland from the intestinal crypt by whether the secretory part branches.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Simple tubular glands
+## explanation_a
+Simple tubular is the intestinal crypt: a straight unbranched tube. The trap is that both organs are in the gut and both have tubular glands.
+## answer_b
+Simple alveolar glands
+## explanation_b
+Alveolar means a rounded secretory unit. The fundic gland is a tube running down through the mucosa.
+## answer_c
+Simple branched tubular glands
+## explanation_c
+Correct. The duct does not branch, so it is simple; the secretory portion divides at its base into several tubes, so it is branched; and the units are tubes, so it is tubular.
+
+Why this is right:
+- The combined classification has nine or ten named forms: simple tubular, simple branched tubular, simple coiled tubular and compound tubular; simple alveolar, simple branched alveolar and compound alveolar; and simple, simple branched and compound tubulo-alveolar.
+## answer_d
+Compound tubular glands
+## explanation_d
+Compound requires a branching duct tree, which the fundic gland does not have — it opens directly into a gastric pit.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-677595D34287F6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Distinguish the fundic gland from the intestinal crypt by whether the secretory part branches.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p16 q45. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1138
+## title
+Glands are classified according to the presence or absence of ducts into:
+## question
+Glands are classified according to the presence or absence of ducts into:
+## vignette
+This item asks the student to match the duct criterion to the three classes it produces.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+exocrine, endocrine or mixed glands
+## explanation_a
+Correct. A duct makes a gland exocrine, no duct makes it endocrine, and having both parts makes it mixed.
+
+Why this is right:
+- Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion.
+- Glands are classified by the presence or absence of a duct.
+- An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland.
+## answer_b
+serous and mucous glands
+## explanation_b
+Serous and mucous classify the nature of the secretion, which is a different one of the five criteria.
+## answer_c
+unicellular and multi-cellular glands
+## explanation_c
+Unicellular and multicellular classify exocrine glands by the number of secretory cells, and presuppose that the duct question has already been answered.
+## answer_d
+none of the above
+## explanation_d
+A hedge that is wrong because option A is exactly right. It is chosen when the three-way answer is misremembered as two-way, exocrine and endocrine only.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-0A988681FF1ABF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Match the duct criterion to the three classes it produces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q59. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1139
+## title
+glands that lose their upper portion of cytoplasm during secretion:
+## question
+glands that lose their upper portion of cytoplasm during secretion:
+## vignette
+This item asks the student to match the loss of the cell apex to apocrine secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+apocrine
+## explanation_a
+Correct. Apocrine secretion is released together with the apex of the cell, so a piece of apical cytoplasm goes with the product.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_b
+merocrine
+## explanation_b
+Merocrine costs the cell nothing — the product leaves by exocytosis and the cell is unchanged.
+## answer_c
+holocrine
+## explanation_c
+Holocrine costs the cell everything. Losing the upper portion is the middle rung, not the last one.
+## answer_d
+autocrine
+## explanation_d
+Autocrine describes a cell that acts on itself, which is a signalling term and not one of the three modes of secretion.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Match the loss of the cell apex to apocrine secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q66. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1140
+## title
+Glands whose ducts have many branches are called
+## question
+Glands whose ducts have many branches are called
+## vignette
+This item asks the student to name the gland whose duct branches.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+simple
+## explanation_a
+Simple is the opposite: a duct that does not branch.
+## answer_b
+compound
+## explanation_b
+Correct. A branching duct tree is what compound means.
+
+Why this is right:
+- An exocrine gland consists of a secretory part and a duct, and each is classified separately.
+- By branching of the duct a gland is simple, meaning its duct does not branch, or compound, meaning the duct branches like a tree with each branch carrying a secretory part; a simple gland whose secretory portion alone branches is called simple branched.
+- By the shape of the secretory part a gland is tubular, when the secretory unit is a tube, alveolar or acinar, when it is rounded, or tubulo-alveolar, when it is flask-shaped.
+## answer_c
+branched
+## explanation_c
+"Branched" is reserved for a branching secretory portion, and it is the word this question is designed to make you reach for wrongly.
+## answer_d
+alveolar
+## explanation_d
+Alveolar describes the shape of the secretory unit and says nothing about the duct.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-30381062FF7E61
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the gland whose duct branches.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q49. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1141
+## title
+Glandular epithelium is classified according to mode of secretion into:
+## question
+Glandular epithelium is classified according to mode of secretion into:
+## vignette
+This item asks the student to pair each mode of secretion with the right amount of cell loss.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Apocrine where no change occurs in the secretory cells
+## explanation_a
+The description belongs to merocrine, not apocrine. In apocrine secretion the cell does change — it loses its apex.
+## answer_b
+Merocrine where the apex of the cell is destroyed during secretion
+## explanation_b
+Backwards. Losing the apex of the cell is apocrine; merocrine leaves the cell untouched.
+## answer_c
+Merocrine where all the cell is destroyed during secretion
+## explanation_c
+Destruction of the whole cell is holocrine. This is the same swap as B, one rung further along.
+## answer_d
+Holocrine where all the cell is destroyed during secretion
+## explanation_d
+Correct. Holocrine secretion accumulates in the cell until the swollen cell ruptures and the whole cell is lost with the product.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## topic
+Histology-general
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Pair each mode of secretion with the right amount of cell loss.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q34. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Each option pairs a mode with a description, and only D pairs them correctly: holocrine is the mode in which the whole cell is destroyed. A gives merocrine's description to apocrine, B gives apocrine's to merocrine, and C gives holocrine's to merocrine.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1142
+## title
+Goblet cell is an example of all of the followings Except:
+## question
+Goblet cell is an example of all of the followings Except:
+## vignette
+This item asks the student to separate what the goblet cell is from the epithelium it sits in.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+unicellular gland
+## explanation_a
+True, so not the exception. One cell doing the secreting is exactly what unicellular means.
+## answer_b
+mucous gland
+## explanation_b
+True, so not the exception. Its product is mucus, which makes it a mucous gland.
+## answer_c
+Simple columnar secretory epithelium
+## explanation_c
+Correct. The exception, and the answer, and a fine trap: goblet cells really do sit within simple columnar epithelium in the intestine. But "simple columnar secretory epithelium" names the surface epithelium around the cell, not the cell itself, and the goblet cell is also found in pseudostratified columnar ciliated epithelium, where that description would be wrong outright.
+
+Why this is right:
+- By number of cells an exocrine gland is unicellular, formed of a single cell, or multicellular.
+## answer_d
+exocrine gland
+## explanation_d
+True, so not the exception. Its secretion reaches a free surface rather than the blood, which makes it exocrine.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-B22A5E7A56EC8F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Classification
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Separate what the goblet cell is from the epithelium it sits in.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q58. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1143
+## title
+Holocrine gland is :
+## question
+Holocrine gland is :
+## vignette
+This item asks the student to name the gland that loses whole cells with its secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Goblet cell
+## explanation_a
+The goblet cell secretes by exocytosis and survives it, which is merocrine.
+## answer_b
+Salivary gland
+## explanation_b
+The salivary gland is merocrine — the standard example of the mode that costs the cell nothing.
+## answer_c
+Sebaceous gland
+## explanation_c
+Correct. Sebum is disintegrated sebaceous cells: the cell fills with lipid, swells, ruptures and becomes the secretion.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_d
+Lactating mammary gland
+## explanation_d
+The lactating mammary gland is apocrine, losing only the apex. Chosen by students who know it loses something and do not check how much.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the gland that loses whole cells with its secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q64. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1144
+## title
+Holocrine secretion:
+## question
+Holocrine secretion:
+## vignette
+This item asks the student to state how much of the cell holocrine secretion destroys.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Occurs in endocrine gland
+## explanation_a
+Modes of secretion are a classification of *exocrine* glands. An endocrine gland is ductless and releases hormone into blood; it has no holocrine form.
+## answer_b
+Destruction of the whole cell
+## explanation_b
+Correct. The product accumulates, the swollen cell ruptures, and the whole cell is lost with the secretion.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_c
+Destruction of apical parts of cell
+## explanation_c
+Destruction of the apical part is apocrine — one rung short.
+## answer_d
+No change in secretory cells
+## explanation_d
+No change in the secretory cell is merocrine, the commonest mode and the opposite extreme from this one.
+## topic
+Histology-general
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+State how much of the cell holocrine secretion destroys.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q35. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Holocrine secretion is defined as the whole cell being lost with the product, which is option B; A is false because holocrine is a mode of exocrine secretion, and C and D are the definitions of apocrine and merocrine.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1145
+## title
+if part of the apical cytoplasm is released with secretion of a gland, the gland is:
+## question
+if part of the apical cytoplasm is released with secretion of a gland, the gland is:
+## vignette
+This item asks the student to match the loss of apical cytoplasm to apocrine secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+merocrinic gland
+## explanation_a
+Merocrine secretion leaves the cell intact; nothing of the cytoplasm goes with the product.
+## answer_b
+apocrine gland
+## explanation_b
+Correct. Apocrine means the apex goes with the secretion, which is exactly what the stem describes.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_c
+holocrine gland
+## explanation_c
+Holocrine loses the entire cell, not part of it.
+## answer_d
+endocrine gland
+## explanation_d
+Endocrine is a classification by duct, not by mode. It answers a different criterion altogether, and is chosen when the "-crine" ending is read as if all four words belonged to one list.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match the loss of apical cytoplasm to apocrine secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q10. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1146
+## title
+Ina gland, entire cells break down to form the secretion
+## question
+Ina gland, entire cells break down to form the secretion
+## vignette
+This item asks the student to match whole-cell destruction to holocrine secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+exocrine
+## explanation_a
+Exocrine is the class of gland, not the mode. All three modes below are exocrine, so this cannot distinguish anything.
+## answer_b
+merocrine
+## explanation_b
+Merocrine costs the cell nothing at all — the far end of the ladder from this stem.
+## answer_c
+holocrine
+## explanation_c
+Correct. Entire cells breaking down to become the product is the definition of holocrine secretion.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_d
+autocrine
+## explanation_d
+Autocrine is a signalling term for a cell acting on itself and is not one of the three modes.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Match whole-cell destruction to holocrine secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q50. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1147
+## title
+Intestinal glands are considered as:
+## question
+Intestinal glands are considered as:
+## vignette
+This item asks the student to place the intestinal crypt in the combined classification.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Simple tubular glands
+## explanation_a
+Correct. The intestinal crypt is a straight unbranched tube opening on the surface — simple duct, tubular secretory part, no branching.
+
+Why this is right:
+- The combined classification has nine or ten named forms: simple tubular, simple branched tubular, simple coiled tubular and compound tubular; simple alveolar, simple branched alveolar and compound alveolar; and simple, simple branched and compound tubulo-alveolar.
+## answer_b
+Simple branched tubular
+## explanation_b
+Simple branched tubular is the fundic gland of the stomach. The two are the classic pair, and the whole difference is whether the secretory part divides at its base.
+## answer_c
+Compound tubular
+## explanation_c
+Compound requires a branching duct tree, which the intestine's crypts do not have.
+## answer_d
+Simple coiled tubular
+## explanation_d
+Simple coiled tubular is the sweat gland, whose tube is coiled up in the dermis. The intestinal crypt is straight.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-677595D34287F6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Place the intestinal crypt in the combined classification.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p15 q35. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1148
+## title
+Merocrine gland is :
+## question
+Merocrine gland is :
+## vignette
+This item asks the student to name the gland whose cells lose nothing when they secrete.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Goblet cell
+## explanation_a
+The goblet cell is in fact merocrine as well, which makes this option arguable rather than plainly wrong. The salivary gland is the intended example, and the one that appears in the answer key.
+## answer_b
+Salivary gland
+## explanation_b
+Correct. The salivary gland discharges its secretion by exocytosis with no change in the secretory cell, which is merocrine and the commonest mode.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_c
+Sebaceous gland
+## explanation_c
+The sebaceous gland is holocrine: the cell is the secretion.
+## answer_d
+Lactating mammary gland
+## explanation_d
+The lactating mammary gland is apocrine, losing the apex of each cell with the milk fat.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the gland whose cells lose nothing when they secrete.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q125. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1149
+## title
+Mixed gland is a mixture of:
+## question
+Mixed gland is a mixture of:
+## vignette
+This item asks the student to define a mixed gland by the two secretory arrangements it contains.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Endocrine and exocrine glands
+## explanation_a
+Correct. A mixed gland has an exocrine part with a duct system and an endocrine part without, the pancreas being the example.
+
+Why this is right:
+- Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion.
+- Glands are classified by the presence or absence of a duct.
+- An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland.
+## answer_b
+Simple and compound glands
+## explanation_b
+Simple and compound are two forms of exocrine duct. A gland is one or the other, and no gland is called mixed for having both.
+## answer_c
+Unicellular and multicellular glands
+## explanation_c
+Unicellular and multicellular is another exocrine subdivision, and again not what "mixed" refers to.
+## answer_d
+Stroma and parenchyma
+## explanation_d
+Stroma and parenchyma are the supporting and working tissue of any organ, so every gland is a mixture of them. The word tells you nothing, which is what makes it a plausible-sounding distractor.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-0A988681FF1ABF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Define a mixed gland by the two secretory arrangements it contains.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q55. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1150
+## title
+modify to give secretion:
+## question
+modify to give secretion:
+## vignette
+This item asks the student to identify the class of epithelium that is modified to secrete.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+surface
+## explanation_a
+Surface epithelium covers surfaces and lines cavities. Some of its cells secrete — the goblet cell does — but the class is defined by covering.
+## answer_b
+glandular
+## explanation_b
+Correct. Glandular epithelium is by definition epithelium modified to act as a gland and produce secretion.
+
+Why this is right:
+- Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion.
+- Glands are classified by the presence or absence of a duct.
+- An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland.
+## answer_c
+neuro-epithelium
+## explanation_c
+Neuro-epithelium is modified to receive a stimulus, not to make a product.
+## answer_d
+myo-epithelium
+## explanation_d
+Myo-epithelium is modified to contract, and it acts on secretion made by somebody else.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-0A988681FF1ABF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Identify the class of epithelium that is modified to secrete.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q1. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1151
+## title
+most common mechanism, secretion discharged with no change in cell:
+## question
+most common mechanism, secretion discharged with no change in cell:
+## vignette
+This item asks the student to name the commonest mode of secretion and state what it costs the cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+apocrine
+## explanation_a
+Apocrine costs the cell its apex, so there is a change in the secretory cell — and it is much the rarer arrangement.
+## answer_b
+merocrine
+## explanation_b
+Correct. Merocrine secretion is discharged by exocytosis with no change in the cell, and it is the most common mode.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_c
+holocrine
+## explanation_c
+Holocrine destroys the cell entirely, which is the largest change of the three.
+## answer_d
+none of the above
+## explanation_d
+A hedge with no reason to be chosen: merocrine answers the stem exactly.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the commonest mode of secretion and state what it costs the cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q3. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1152
+## title
+One of the following glands is considered as apocrine gland:
+## question
+One of the following glands is considered as apocrine gland:
+## vignette
+This item asks the student to name the apocrine gland among four named glands.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Sebaceous glands
+## explanation_a
+Sebaceous glands are holocrine — the whole cell becomes sebum.
+## answer_b
+Mammary gland
+## explanation_b
+Correct. The mammary gland releases milk fat wrapped in the apex of the cell, which is apocrine.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_c
+Salivary gland
+## explanation_c
+Salivary glands are merocrine, losing nothing.
+## answer_d
+Pancreas
+## explanation_d
+The exocrine pancreas is merocrine too; it is chosen when a student is looking for something unusual and picks the gland that is unusual for a different reason — it is the mixed gland.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the apocrine gland among four named glands.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p15 q38. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1153
+## title
+Parotid gland is considered:
+## question
+Parotid gland is considered:
+## vignette
+This item asks the student to classify the parotid by the nature of its secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Mucous secreting gland
+## explanation_a
+Mucous is the sublingual gland's predominant character, not the parotid's. A mucous secretion is viscid and carries no enzymes.
+## answer_b
+Serous secreting gland
+## explanation_b
+Correct. The parotid is purely serous — a watery secretion containing enzymes, which is what serous means in this classification.
+
+Why this is right:
+- By the nature of its secretion an exocrine gland is watery, serous — a watery secretion containing enzymes — or mucous.
+## answer_c
+Mucoserous secreting gland
+## explanation_c
+Mucoserous is the submandibular gland, which has both cell types. Chosen by students who know the three salivary glands differ and cannot recall which is which.
+## answer_d
+Unicellular secreting gland
+## explanation_d
+Unicellular is a classification by cell number and would make the parotid a single cell. The only unicellular gland here is the goblet cell.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-BD4F040EFC8693
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Classify the parotid by the nature of its secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p14 q34. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1154
+## title
+Salivary glands are considered as:
+## question
+Salivary glands are considered as:
+## vignette
+This item asks the student to classify the salivary gland by mode of secretion when a shape term is also on offer.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Merocrine glands
+## explanation_a
+Correct. Salivary secretion leaves by exocytosis with no change in the secretory cell, which is merocrine — and merocrine is the commonest mode.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_b
+Holocrine glands
+## explanation_b
+Holocrine is the sebaceous gland, where the whole cell is lost.
+## answer_c
+Apocrine glands
+## explanation_c
+Apocrine is the lactating mammary gland, which loses the apex of its cells.
+## answer_d
+Compound alveolar
+## explanation_d
+The interesting distractor, because it is not false — the salivary gland *is* compound tubulo-alveolar. It answers a different criterion, though: this option classifies by architecture where the other three classify by mode, and a question whose other options are all modes is asking about mode.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Classify the salivary gland by mode of secretion when a shape term is also on offer.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p16 q43. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1155
+## title
+Salivary glands is an example of:
+## question
+Salivary glands is an example of:
+## vignette
+This item asks the student to recognise that one gland is classified under several criteria at once.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+exocrine gland
+## explanation_a
+True, but not the whole answer. The salivary gland has ducts, so it is exocrine.
+## answer_b
+endocrine gland
+## explanation_b
+False. An endocrine gland is ductless and sends its product into the blood; salivary secretion goes down a duct into the mouth.
+## answer_c
+Merocrine gland
+## explanation_c
+True, but not the whole answer. It secretes by exocytosis without losing any of the cell, so it is merocrine.
+## answer_d
+Both a & c
+## explanation_d
+Correct. The criteria are independent, and the same gland is exocrine under one and merocrine under another. A student who stops at the first true option has answered half the question.
+
+Why this is right:
+- Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion.
+- Glands are classified by the presence or absence of a duct.
+- An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-0A988681FF1ABF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Recognise that one gland is classified under several criteria at once.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q61. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1156
+## title
+secretion is come out with all cell:
+## question
+secretion is come out with all cell:
+## vignette
+This item asks the student to match whole-cell loss to holocrine secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+apocrine
+## explanation_a
+Apocrine loses the apex only, which is the middle of the three.
+## answer_b
+merocrine
+## explanation_b
+Merocrine loses nothing; the cell is unchanged by secreting.
+## answer_c
+holocrine
+## explanation_c
+Correct. In holocrine secretion the swollen cell ruptures and the whole cell goes out with the product.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_d
+none of the above
+## explanation_d
+There is a mode that fits the stem exactly, so a hedge cannot be right here.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match whole-cell loss to holocrine secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q5. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1157
+## title
+secretion is come out with apex of cell:
+## question
+secretion is come out with apex of cell:
+## vignette
+This item asks the student to match loss of the cell apex to apocrine secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+apocrine
+## explanation_a
+Correct. Apocrine secretion is released together with the apex of the cell.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_b
+merocrine
+## explanation_b
+Merocrine costs the cell nothing — exocytosis leaves the membrane and cytoplasm intact.
+## answer_c
+holocrine
+## explanation_c
+Holocrine costs the whole cell, not just its apex.
+## answer_d
+none of the above
+## explanation_d
+Apocrine answers the stem exactly, so the hedge is not needed.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match loss of the cell apex to apocrine secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q4. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1158
+## title
+single duct with non-branching secretory cell:
+## question
+single duct with non-branching secretory cell:
+## vignette
+This item asks the student to name the gland in which neither the duct nor the secretory part branches.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+simple non branched
+## explanation_a
+Correct. One unbranched duct makes it simple, and a secretory part that does not divide makes it non-branched.
+
+Why this is right:
+- An exocrine gland consists of a secretory part and a duct, and each is classified separately.
+- By branching of the duct a gland is simple, meaning its duct does not branch, or compound, meaning the duct branches like a tree with each branch carrying a secretory part; a simple gland whose secretory portion alone branches is called simple branched.
+- By the shape of the secretory part a gland is tubular, when the secretory unit is a tube, alveolar or acinar, when it is rounded, or tubulo-alveolar, when it is flask-shaped.
+## answer_b
+compound
+## explanation_b
+Compound requires the duct to branch, which the stem has ruled out.
+## answer_c
+tubular
+## explanation_c
+Tubular is a shape term from the other criterion, and the stem says nothing about shape.
+## answer_d
+all the above
+## explanation_d
+A hedge that cannot hold, since compound directly contradicts the single unbranched duct in the stem.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-30381062FF7E61
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the gland in which neither the duct nor the secretory part branches.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q6. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1159
+## title
+the gland which releases its secretion by exocytosis without change is classified as:
+## question
+the gland which releases its secretion by exocytosis without change is classified as:
+## vignette
+This item asks the student to name the mode in which the cell is unchanged by secreting.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+merocrine gland
+## explanation_a
+Correct. Merocrine secretion is discharged by exocytosis with no change in the secretory cell.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_b
+apocrine gland
+## explanation_b
+Apocrine loses the apex of the cell with the product, so the cell is changed.
+## answer_c
+holocrine gland
+## explanation_c
+Holocrine loses the whole cell.
+## answer_d
+eccrine gland
+## explanation_d
+Eccrine is not one of the three recognised modes. Where a question book uses it, it means merocrine — which is why this option is the hardest of the four to dismiss, and why it is worth knowing the recognised list is three long.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the mode in which the cell is unchanged by secreting.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q3. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1160
+## title
+The most common type of secretion of exocrine cells is:
+## question
+The most common type of secretion of exocrine cells is:
+## vignette
+This item asks the student to state which mode of secretion is the commonest.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+All possible types of secretion are roughly equally
+## explanation_a
+One mode predominates, so an even split is not the answer. It is chosen when the fact was never learnt and the option sounds cautious.
+## answer_b
+Merocrine secretion
+## explanation_b
+Correct. Merocrine is stated to be the most common mode, which fits: it is the only one that costs the cell nothing and can therefore be repeated indefinitely.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_c
+Holocrine secretion
+## explanation_c
+Holocrine destroys a cell per secretion and is confined to a few glands such as the sebaceous.
+## answer_d
+Apocrine secretion
+## explanation_d
+Apocrine is likewise uncommon, and the lactating mammary gland is its one everyday example.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+State which mode of secretion is the commonest.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p7 q35. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1161
+## title
+The secretions of endocrine glands are released directly
+## question
+The secretions of endocrine glands are released directly
+## vignette
+This item asks the student to state where an endocrine gland delivers its secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+onto the skin surface
+## explanation_a
+Delivery onto a surface is exocrine, and the skin is where several exocrine glands empty — sweat and sebaceous among them.
+## answer_b
+into the bloodstream
+## explanation_b
+Correct. An endocrine gland is ductless; its hormone passes into the blood capillaries beside the secretory cells and is carried to distant parts of the body.
+
+Why this is right:
+- Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion.
+- Glands are classified by the presence or absence of a duct.
+- An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland.
+## answer_c
+into a gland duct
+## explanation_c
+A gland duct is precisely what an endocrine gland does not have. This is the definition of the class it is being distinguished from.
+## answer_d
+into the brain tissue
+## explanation_d
+Release into brain tissue would make the gland a neurosecretory structure with a local target. The defining feature of an endocrine gland is that the blood carries its product *away*.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-0A988681FF1ABF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+State where an endocrine gland delivers its secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p10 q52. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1162
+## title
+The type of secretion in which cells lose part of their cytoplasm is called:
+## question
+The type of secretion in which cells lose part of their cytoplasm is called:
+## vignette
+This item asks the student to match partial loss of cytoplasm to apocrine secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Merocrine
+## explanation_a
+Merocrine cells lose no cytoplasm at all.
+## answer_b
+Apocrine
+## explanation_b
+Correct. Losing part of the cytoplasm — the apex — with the product is apocrine.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_c
+Holocrine
+## explanation_c
+Holocrine cells lose all of their cytoplasm, along with everything else.
+## answer_d
+Cytocrine
+## explanation_d
+Cytocrine is not one of the three modes. It is a real term for pigment transfer from melanocyte to keratinocyte, and here it functions purely as a plausible-sounding fourth "-crine".
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Match partial loss of cytoplasm to apocrine secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q5. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1163
+## title
+When the cell is expelled as a secretory product, which term applies:
+## question
+When the cell is expelled as a secretory product, which term applies:
+## vignette
+This item asks the student to match expulsion of the whole cell to holocrine secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Merocrine
+## explanation_a
+Merocrine expels only the product; the cell stays where it is.
+## answer_b
+Apocrine
+## explanation_b
+Apocrine expels the apex of the cell along with the product, which is part of the cell rather than the cell.
+## answer_c
+Holocrine
+## explanation_c
+Correct. When the cell itself is the secretory product, the mode is holocrine.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_d
+Cytocrine
+## explanation_d
+Cytocrine is not one of the three modes, despite the "cyto-" making it sound like the one that involves whole cells. That resemblance is the trap.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Match expulsion of the whole cell to holocrine secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q6. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1164
+## title
+Which of the following glands eliminates its complete cells as a secretory product
+## question
+Which of the following glands eliminates its complete cells as a secretory product
+## vignette
+This item asks the student to match elimination of complete cells to holocrine secretion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Merocrine
+## explanation_a
+Merocrine eliminates no cells; that is what makes it repeatable and the commonest mode.
+## answer_b
+Apocrine
+## explanation_b
+Apocrine eliminates the apical part of a cell, not the complete cell.
+## answer_c
+Holocrine
+## explanation_c
+Correct. Holocrine glands lose the entire cell with the secretion, and replace it from a basal reserve.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_d
+Endocrine
+## explanation_d
+Endocrine answers a different criterion — presence of a duct — and no endocrine gland is described by any of the three modes.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Match elimination of complete cells to holocrine secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q1. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1165
+## title
+which of the following is an example of mixed gland:
+## question
+which of the following is an example of mixed gland:
+## vignette
+This item asks the student to name the gland that has both an exocrine and an endocrine part.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Thyroid gland
+## explanation_a
+The thyroid is purely endocrine. Its follicles look like secretory units with a lumen, which is what makes it tempting, but nothing leaves them by a duct.
+## answer_b
+Salivary gland
+## explanation_b
+The salivary gland is purely exocrine, and "mixed" is being read here in its other sense — a mucoserous secretion. That double meaning is the trap the question is built on.
+## answer_c
+Pancreas
+## explanation_c
+Correct. The pancreas has exocrine acini draining through a duct system and endocrine islets releasing insulin and glucagon into the blood, which is the definition of a mixed gland.
+
+Why this is right:
+- Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion.
+- Glands are classified by the presence or absence of a duct.
+- An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland.
+## answer_d
+None of the above
+## explanation_d
+A hedge that is wrong because the pancreas is exactly the example the classification was written for.
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-0A988681FF1ABF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the gland that has both an exocrine and an endocrine part.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q50. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1166
+## title
+Apocrine secretion refers to:
+## question
+Apocrine secretion refers to:
+## vignette
+This item asks the student to define apocrine secretion by what the cell loses with its product.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+The most common mode of secretion.
+## explanation_a
+The most common mode is merocrine, which is how most glands work most of the time. Apocrine costs the cell part of itself and is therefore the less usual arrangement.
+## answer_b
+No changes occur in secretory cell.
+## explanation_b
+No change in the secretory cell is merocrine, where the product leaves by exocytosis and the membrane is restored. Apocrine takes the apex away with the secretion, so there is a change by definition.
+## answer_c
+Secretion comes out with apex of the cell.
+## explanation_c
+Correct. In apocrine secretion the apical part of the cytoplasm is pinched off and leaves with the product — the prefix apo-, meaning off or away, is the whole definition.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## answer_d
+The whole cell is lost with secretion.
+## explanation_d
+Losing the whole cell is holocrine, as in the sebaceous gland. The three modes form a ladder of how much of the cell is spent, and this option is one rung past the answer.
+## topic
+Glandular Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Define apocrine secretion by what the cell loses with its product.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p3 q23. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, which defines the three modes in one line each: merocrine discharges by exocytosis with no change in the cell, apocrine releases the secretion with the apex of the cell, and holocrine loses the whole cell.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1167
+## title
+Simple branched gland explains that the:
+## question
+Simple branched gland explains that the:
+## vignette
+This item asks the student to say which part of a simple branched gland is branched.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Duct is branched and secretory part is not branched.
+## explanation_a
+This inverts the naming. A branched duct makes the gland compound, and the word simple would then be wrong — the two halves of the name cannot both refer to the duct.
+## answer_b
+Duct is not branched but secretory part is branched.
+## explanation_b
+Correct. "Simple" fixes the duct as unbranched and "branched" then has only the secretory portion left to describe.
+
+Why this is right:
+- An exocrine gland consists of a secretory part and a duct, and each is classified separately.
+- By branching of the duct a gland is simple, meaning its duct does not branch, or compound, meaning the duct branches like a tree with each branch carrying a secretory part; a simple gland whose secretory portion alone branches is called simple branched.
+- By the shape of the secretory part a gland is tubular, when the secretory unit is a tube, alveolar or acinar, when it is rounded, or tubulo-alveolar, when it is flask-shaped.
+## answer_c
+Duct and secretory part are not branched.
+## explanation_c
+Neither part branching is a plain simple gland — simple tubular or simple alveolar — with no second word at all. Adding "branched" to the name has to mean something.
+## answer_d
+Duct and secretory part are branched.
+## explanation_d
+Both branching is a compound gland, and a compound gland is never called simple. This is the option for a student reading "branched" as a property of the whole gland.
+## topic
+Glandular Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-30381062FF7E61
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Say which part of a simple branched gland is branched.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q29. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for it, so the answer is worked from the department book: a simple gland is one with a single non-branching duct, and it is called simple branched when only the secretory portion branches. Simple always describes the duct, and branched always describes the secretory part.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1168
+## title
+Regarding merocrine secretion:
+## question
+Regarding merocrine secretion:
+## vignette
+This item asks the student to define merocrine secretion and say how common it is.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The whole cell come out with secretion.
+## explanation_a
+The whole cell coming out with the secretion is holocrine — the sebaceous gland, where the swollen cell ruptures and is lost entirely.
+## answer_b
+The least common mode of secretion.
+## explanation_b
+Merocrine is the most common mode, not the least. Only one word separates this option from a true statement, and it is the word the examiner changed.
+## answer_c
+The apical part of the cell come out with the secretion.
+## explanation_c
+The apical part leaving with the secretion is apocrine. The three modes are one question asked three ways in these papers, and each mode appears as a distractor in the others.
+## answer_d
+No change occurs in the secretory cell.
+## explanation_d
+Correct. In merocrine secretion the product leaves by exocytosis, the vesicle membrane fuses with the cell membrane and is recovered, and the cell is unchanged — which is why it can secrete indefinitely.
+
+Why this is right:
+- Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example.
+- In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## topic
+Glandular Epithelium
+## subtopic
+Glandular Epithelium
+## main_concept
+CON-FND-D9E83D81037173
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Define merocrine secretion and say how common it is.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q30. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book, which gives merocrine as the most common mode, discharged by exocytosis with no change in the secretory cell. Option b is the same sentence with "least" substituted for "most", which is what makes it the item's trap.
