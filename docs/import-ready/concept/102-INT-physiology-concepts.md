@@ -3516,7 +3516,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-The ABO system's four blood groups are defined by which RBC antigen is present and which reciprocal plasma antibody is absent, with group O the universal donor and AB the universal recipient
+The ABO blood group system
 
 ## id
 CON-HEM-9160359ACB982D
@@ -3534,7 +3534,13 @@ abo-blood-group-system
 [clear]
 
 ## definition
-Blood groups are genetically determined antigens on RBC membranes, detected by reaction with corresponding plasma antibodies. In the ABO system, the RBC membrane carries A antigen, B antigen, both, or neither, and the plasma correspondingly contains anti-B, anti-A, neither, or both antibodies — a person never carries the antibody against their own antigen. The antigen-antibody reaction causes agglutination, so the antigens are agglutinogens and the antibodies agglutinins. Four groups result: A (genotype AA/AO, anti-B antibody, 40% frequency), B (genotype BB/BO, anti-A antibody, 10%), AB (both antigens, no antibody, 5%), and O (neither antigen, both antibodies, 45%). Blood group O is the universal donor and AB the universal recipient. Before transfusion a cross-matching test — adding donor blood to recipient serum — is required, because donor-into-recipient agglutination is the clinically important reaction (the reverse rarely occurs, since the donor's own antibodies are diluted in the recipient's much larger plasma volume). The ABO system can be used to exclude, but never to prove, paternity, since many people share a blood group.
+**Blood groups** are genetically determined __antigens on RBC membranes__, detected by reaction with matching plasma antibodies. In the ABO system the RBC carries A, B, both, or neither antigen, and the plasma holds the __reciprocal antibody__ — a person never carries the antibody against their own antigen.
+
+The antigen-antibody reaction causes **agglutination**, so the antigens are __agglutinogens__ and the antibodies __agglutinins__.
+
+Four groups result: **A** (genotype AA/AO, anti-B antibody, 40%), **B** (genotype BB/BO, anti-A antibody, 10%), **AB** (both antigens, no antibody, 5%), and **O** (neither antigen, both antibodies, 45%). __Group O is the universal donor and AB the universal recipient.__
+
+Before transfusion a **cross-matching test** (donor blood added to recipient serum) is required, because __donor-into-recipient agglutination is the important reaction__; the reverse rarely occurs, since the donor's antibodies are diluted in the recipient's much larger plasma volume. The ABO system can **exclude but never prove paternity**, since many people share a blood group.
 
 ## explicit_objective
 Given a blood group, state its RBC antigen(s), its plasma antibody(ies), and its population frequency, and explain why group O is the universal donor.
@@ -3698,7 +3704,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-An Rh-negative person forms anti-D antibodies only after exposure to Rh-positive blood, and only then reacts to a further Rh-positive transfusion or pregnancy
+Rh factor and sensitisation
 
 ## id
 CON-HEM-190088073C5F5E
@@ -3716,7 +3722,11 @@ rh-factor-and-maternal-sensitization
 [clear]
 
 ## definition
-The D antigen (Rh factor) is present on the RBC membrane of 85% of the population (Rh-positive); the remaining 15% lack it (Rh-negative). Neither Rh-positive nor Rh-negative people normally carry anti-D antibodies in their plasma. If an Rh-negative person is transfused with Rh-positive blood, anti-D antibodies form and the person becomes sensitised to the Rh factor; a second exposure to Rh-positive blood then causes agglutination and haemolysis of RBCs. An Rh-positive person never forms anti-D antibodies, regardless of whether they receive Rh-positive or Rh-negative blood.
+The **D antigen (Rh factor)** is on the RBCs of __85% of people (Rh-positive)__; the other 15% lack it (**Rh-negative**). Normally __neither group carries anti-D antibodies__.
+
+If an **Rh-negative person receives Rh-positive blood**, __anti-D antibodies form and the person becomes sensitised__. A second exposure to Rh-positive blood then causes **agglutination and haemolysis** of RBCs.
+
+An **Rh-positive person never forms anti-D antibodies**, whether given Rh-positive or Rh-negative blood.
 
 ## explicit_objective
 Explain why a first Rh-mismatched transfusion is usually silent while a second one is dangerous.
@@ -3877,7 +3887,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Erythroblastosis fetalis follows maternal anti-D sensitisation by a first Rh-positive fetus and haemolyses a subsequent Rh-positive fetus's cells, and anti-D immunoglobulin given after delivery prevents that sensitisation
+Erythroblastosis fetalis and anti-D prophylaxis
 
 ## id
 CON-HEM-6C81E4B3EB30DE
@@ -3895,7 +3905,13 @@ erythroblastosis-fetalis-and-anti-d-prophylaxis
 [clear]
 
 ## definition
-When an Rh-positive male and an Rh-negative female conceive an Rh-positive fetus, fetal Rh-positive RBCs enter the maternal circulation at delivery and the sensitised mother forms IgG anti-D antibodies. In a subsequent pregnancy with another Rh-positive fetus, those IgG antibodies cross the placenta and cause agglutination and haemolysis of fetal RBCs; the first baby usually escapes the damage, and later babies are affected (though the first baby may be affected if the mother was already sensitised by a prior Rh-positive transfusion). The affected baby is born severely anaemic and jaundiced from excessive bilirubin formation; because the fetal blood-brain barrier is not well developed, bilirubin can reach the brain and cause damage (kernicterus), and in more severe conditions the baby is born dead. The ABO system produces no equivalent fetal complication, because ABO antibodies are of the IgM type and cannot cross the placenta. Prophylaxis: Rh-negative females should never receive Rh-positive blood transfusion; anti-D immunoglobulin should be given to non-sensitised Rh-negative females married to Rh-positive males after delivery of an Rh-positive baby (within 72 hours), at abortion, antepartum haemorrhage or amniocentesis, and is now also recommended routinely at 28 weeks of pregnancy; anti-D prophylaxis is contraindicated in already-sensitised women (positive indirect Coombs test, or a previously affected baby).
+When an **Rh-positive father and Rh-negative mother** conceive an Rh-positive fetus, fetal Rh-positive RBCs enter the maternal circulation at delivery and the mother forms __IgG anti-D antibodies__.
+
+In a **later pregnancy** with another Rh-positive fetus, those IgG antibodies __cross the placenta and haemolyse fetal RBCs__. The **first baby usually escapes**; later babies are affected (unless the mother was already sensitised by a prior Rh-positive transfusion).
+
+The affected baby is born **severely anaemic and jaundiced** from excess bilirubin. Because the fetal blood-brain barrier is immature, bilirubin can reach the brain and cause __kernicterus__; in severe cases the baby is **stillborn**. The __ABO system causes no such fetal disease__, because ABO antibodies are IgM and cannot cross the placenta.
+
+**Prophylaxis**: Rh-negative females should never receive Rh-positive blood. **Anti-D immunoglobulin** is given to non-sensitised Rh-negative mothers of Rh-positive babies __within 72 hours of delivery__, and at abortion, antepartum haemorrhage or amniocentesis; it is now also routine at **28 weeks**. It is __contraindicated in already-sensitised women__ (positive indirect Coombs test, or a previously affected baby).
 
 ## explicit_objective
 Explain why the ABO system causes no fetal disease while the Rh system does, and state when anti-D immunoglobulin is given.
@@ -4057,7 +4073,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Incompatible blood transfusion causes RBC agglutination and haemolysis, producing shock, hyperkalaemia, haemolytic jaundice and renal tubular blockage
+Blood transfusion: precautions and hazards
 
 ## id
 CON-HEM-1AFD5256338BA6
@@ -4075,7 +4091,13 @@ blood-transfusion-precautions-and-hazards
 [clear]
 
 ## definition
-Blood transfusion restores whole blood in haemorrhage, restores one deficient element (RBCs, WBCs, platelets, plasma proteins, clotting factors), or treats erythroblastosis fetalis. Precautions before transfusion: blood must be compatible, with a cross-matching test done; an Rh-negative person must be transfused with Rh-negative blood; blood must be free from disease or contamination; and the transfused blood must be fresh, not stored for more than 21 days at 4°C, with a high Hb%. Incompatible transfusion causes agglutination of donor RBCs by recipient antibodies, then haemolysis, which blocks capillaries with clumped RBCs (causing backache, joint pain, and anginal pain if a coronary vessel is occluded) and produces the hazards of intravascular haemolysis: shock (from histamine and other vasodilators dropping arterial blood pressure), hyperkalaemia (K+ released from RBCs causing cardiac arrhythmia), haemolytic jaundice (bilirubin from haemolysed RBCs colouring skin and mucous membrane), and blockage of renal tubules (filtered haemoglobin forms acid haematin that blocks the renal tubules, which may lead to renal failure).
+**Blood transfusion** is used to restore whole blood in haemorrhage, to replace one deficient element (__RBCs, WBCs, platelets, plasma proteins, or clotting factors__), or to treat erythroblastosis fetalis.
+
+**Precautions**: blood must be __compatible and cross-matched__; an Rh-negative person must get Rh-negative blood; blood must be free from disease and contamination; and it must be **fresh** — stored __no more than 21 days at 4°C__, with a high Hb%.
+
+**Incompatible transfusion** causes __agglutination of donor RBCs by recipient antibodies__, then haemolysis. Clumped RBCs block capillaries, causing **backache, joint pain, and anginal pain** if a coronary vessel is occluded.
+
+The hazards of intravascular haemolysis are **shock** (histamine and other vasodilators drop arterial blood pressure), **hyperkalaemia** (K+ released from RBCs causing __cardiac arrhythmia__), **haemolytic jaundice** (bilirubin colouring skin and mucous membrane), and **blockage of renal tubules** (filtered haemoglobin forms acid haematin that may lead to __renal failure__).
 
 ## explicit_objective
 List the four precautions taken before blood transfusion and the four hazards of intravascular haemolysis from an incompatible transfusion.
@@ -4235,7 +4257,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-The nervous system divides anatomically into the CNS and PNS, and the PNS divides physiologically into sensory (somatic and visceral) and motor (somatic and autonomic) divisions
+Divisions of the nervous system
 
 ## id
 CON-NEU-1F023F6441DF6A
@@ -4253,7 +4275,13 @@ nervous-system-anatomical-and-functional-divisions
 [clear]
 
 ## definition
-The nervous system, alongside the endocrine system, is one of the body's two major regulatory systems; it receives sensory information every minute and integrates it to determine a rapid, precise response. Anatomically it divides into the central nervous system, CNS (brain and spinal cord), and the peripheral nervous system, PNS (peripheral ganglia and peripheral nerves). The PNS divides physiologically into a sensory division — somatic sensory (from skin, muscles, joints and the special senses) and visceral sensory (from the viscera) — and a motor division operating through two parallel systems, the somatic nervous system (controlling skeletal muscle throughout the body) and the autonomic nervous system (controlling smooth muscle, glands and cardiac muscle). Sensory information processing (the integrative function) occurs at three CNS levels: the spinal cord level, the lower brain/subcortical level, and the higher brain/cortical level. The neuron is the nervous system's structural unit, formed of a cell body (with nucleus and organelles), dendrites (which receive incoming impulses) and an axon/nerve fibre (which carries impulses from the cell body, myelinated or non-myelinated); neurons interconnect at synapses, where the synaptic cleft is the space chemical transmitters are released into, since there is no direct communication between neurons.
+The **nervous system**, with the endocrine system, is one of the body's __two major regulatory systems__, receiving sensory information every minute and integrating it into a rapid, precise response. **Anatomically** it divides into the **central nervous system (CNS)** — brain and spinal cord — and the **peripheral nervous system (PNS)** — peripheral ganglia and nerves.
+
+The PNS divides **physiologically** into a __sensory division__ — somatic sensory (skin, muscles, joints, special senses) and visceral sensory (viscera) — and a __motor division__ of two parallel systems: the **somatic** nervous system (skeletal muscle) and the **autonomic** nervous system (smooth muscle, glands, cardiac muscle).
+
+Sensory processing (the **integrative function**) occurs at __three CNS levels__: the spinal cord, the lower brain/subcortical level, and the higher brain/cortical level.
+
+The **neuron** is the structural unit — a __cell body__ (nucleus and organelles), __dendrites__ (which receive impulses) and an __axon/nerve fibre__ (which carries impulses away, myelinated or non-myelinated). Neurons connect at **synapses**, where transmitters are released into the __synaptic cleft__, since neurons have no direct communication.
 
 ## explicit_objective
 State the anatomical and the physiological divisions of the nervous system, and name the three parts of a neuron.
@@ -4415,7 +4443,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-The reflex arc - sensory organ, afferent neuron, central synapse(s), efferent neuron, effector organ - is the nervous system's functional unit, and is monosynaptic or polysynaptic depending on the number of central synapses
+The reflex arc and its types
 
 ## id
 CON-NEU-449C26E1F64F74
@@ -4433,7 +4461,13 @@ reflex-arc-components-and-types
 [clear]
 
 ## definition
-Peripheral nerves are functionally afferent (sensory) fibres, which carry impulses from peripheral receptors to the CNS — about the external world (light, sound, temperature or pressure) and about the internal state of the body (muscle tension or visceral distension) — and enter the spinal cord through the posterior root; or efferent (motor) fibres, which carry impulses from the CNS to muscles, glands and other organs and leave the spinal cord through the anterior root. The functional unit of the nervous system is the reflex arc, whose components are a sensory organ, an afferent neuron, one or more synapses in the CNS, an efferent neuron, and an effector organ. A monosynaptic reflex — the simplest reflex arc — has a single synapse between the afferent and efferent neurons; a polysynaptic reflex has one or more interneurons interposed between them.
+**Peripheral nerves** are functionally either afferent or efferent. **Afferent (sensory) fibres** carry impulses from peripheral receptors to the CNS — about the __external world (light, sound, temperature, pressure)__ and the __internal body (muscle tension, visceral distension)__ — entering the cord through the **posterior root**.
+
+**Efferent (motor) fibres** carry impulses from the CNS to muscles, glands and organs, leaving the cord through the **anterior root**.
+
+The **functional unit** of the nervous system is the **reflex arc**: a __sensory organ, afferent neuron, one or more CNS synapses, efferent neuron, and effector organ__.
+
+A **monosynaptic reflex** — the simplest — has a __single synapse__ between the afferent and efferent neurons. A **polysynaptic reflex** has __one or more interneurons__ between them.
 
 ## explicit_objective
 Name the five components of a reflex arc and distinguish a monosynaptic from a polysynaptic reflex.
@@ -4593,7 +4627,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-The autonomic efferent pathway to the viscera is a two-neuron chain - preganglionic then postganglionic - unlike the single-neuron somatic motor pathway to skeletal muscle
+The autonomic two-neuron pathway
 
 ## id
 CON-NEU-D28EA156B57AB0
@@ -4611,7 +4645,11 @@ autonomic-two-neuron-pathway
 [clear]
 
 ## definition
-The autonomic nervous system controls visceral functions — arterial blood pressure, gastrointestinal motility and secretion, urinary bladder emptying, sweating, body temperature, and more — through visceral reflexes: impulses from visceral receptors are relayed by afferent fibres to CNS centres located in the spinal cord, brainstem, hypothalamus and parts of the cerebral cortex, then transmitted by efferent pathways — divided into the sympathetic and the parasympathetic nervous system — to visceral effectors (plain muscle, heart and glands). These efferent pathways differ from the somatic motor pathway: each somatic pathway from the cord to a skeletal muscle is composed of a single fibre (one-neuron system), while each autonomic, involuntary pathway is composed of two fibres, the preganglionic and the postganglionic neurons (two-neuron system).
+The **autonomic nervous system** controls visceral functions — __arterial blood pressure, gastrointestinal motility and secretion, bladder emptying, sweating and body temperature__ — through **visceral reflexes**.
+
+Impulses from visceral receptors travel by afferent fibres to **CNS centres** in the __spinal cord, brainstem, hypothalamus and cerebral cortex__, then out by efferent pathways — the **sympathetic and parasympathetic** systems — to visceral effectors (**plain muscle, heart and glands**).
+
+These efferent pathways differ from the somatic motor pathway. Each **somatic** pathway from the cord to a skeletal muscle is a __single fibre (one-neuron system)__, while each **autonomic**, involuntary pathway is __two fibres — the preganglionic and postganglionic neurons (two-neuron system)__.
 
 ## explicit_objective
 State how many neurons compose the somatic motor pathway and the autonomic efferent pathway respectively, and name the two autonomic subdivisions.
@@ -4770,7 +4808,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Somatic and autonomic reflexes differ in their afferent relay site, their efferent origin and neuron count, their myelination, and their chemical transmitter
+Somatic vs autonomic reflexes
 
 ## id
 CON-NEU-A78CC0816E3824
@@ -4788,7 +4826,13 @@ somatic-vs-autonomic-reflex-differences
 [clear]
 
 ## definition
-Somatic and autonomic reflexes differ across five rows. Afferent fibres relay at dorsal horn cells or cranial nuclei (somatic) versus lateral horn cells or cranial nuclei (autonomic). Efferent fibres originate from anterior horn cells of the spinal cord (somatic) versus cranial nuclei or lateral horn cells (autonomic). Efferent fibres form a one-neuron system (somatic) versus a two-neuron system (autonomic). Myelination is mostly myelinated (somatic) versus preganglionic myelinated B fibre with postganglionic unmyelinated C fibre (autonomic). The chemical transmitter is one type only, acetylcholine (somatic), versus two types, acetylcholine and noradrenaline (autonomic).
+**Somatic and autonomic reflexes** differ across __five features__: afferent relay site, efferent origin, neuron count, myelination, and chemical transmitter.
+
+**Afferent fibres** relay at __dorsal horn cells or cranial nuclei (somatic)__ versus __lateral horn cells or cranial nuclei (autonomic)__. **Efferent fibres** arise from __anterior horn cells (somatic)__ versus __cranial nuclei or lateral horn cells (autonomic)__.
+
+**Neuron count** is __one-neuron (somatic)__ versus __two-neuron (autonomic)__. **Myelination** is mostly myelinated (somatic) versus a __myelinated preganglionic B fibre plus an unmyelinated postganglionic C fibre__ (autonomic).
+
+The **chemical transmitter** is __one type, acetylcholine (somatic)__, versus __two types, acetylcholine and noradrenaline (autonomic)__.
 
 ## explicit_objective
 Reproduce the five-row comparison between somatic and autonomic reflexes.
