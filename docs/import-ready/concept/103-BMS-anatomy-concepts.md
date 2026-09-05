@@ -4723,8 +4723,7 @@ relationships: Walked the live concepts under `DIS-EMB-T03`/`T04` and this file'
 CON-MSK-BBFDC0AC14A819
 
 ## label
-The femoral triangle holds the femoral sheath with its three compartments, the femoral nerve outside the sheath, the lateral cutaneous nerve of the thigh, and the deep inguinal lymph nodes
-
+Contents of the femoral triangle
 ## canonical_key
 triangle.femoral.contents
 
@@ -4740,8 +4739,11 @@ Enumerate content of femoral triangle
 محتويات مثلث الفخذ
 
 ## definition
-The femoral triangle is bounded laterally by the medial border of sartorius, medially by the medial border of adductor longus, and above by the inguinal ligament; its floor is adductor longus, pectineus, psoas major and iliacus, and its roof is skin and fasciae. Its contents are: the femoral sheath, a funnel-shaped tube of fascia surrounding the upper 3-4 cm of the femoral vessels and divided by two antero-posterior septa into three compartments — a lateral compartment holding the femoral artery and the femoral branch of the genitofemoral nerve, an intermediate compartment holding the femoral vein, and a medial compartment, the femoral canal, holding a lymph node; the femoral nerve with its branches, lying outside the femoral sheath; the lateral cutaneous nerve of the thigh; and the deep inguinal lymph nodes.
+The **femoral triangle** is bounded laterally by the medial border of sartorius, medially by the medial border of adductor longus, and above by the inguinal ligament. Its floor is adductor longus, pectineus, psoas major and iliacus, and its roof is skin and fasciae.
 
+Its main content is the **femoral sheath**, a funnel-shaped tube of fascia around the upper 3-4 cm of the femoral vessels, divided by two septa into three compartments — a **lateral** compartment (femoral artery and the femoral branch of the genitofemoral nerve), an **intermediate** compartment (femoral vein), and a **medial** compartment, the femoral canal (a lymph node).
+
+It also contains the **femoral nerve** and its branches, lying __outside the femoral sheath__; the **lateral cutaneous nerve of the thigh**; and the **deep inguinal lymph nodes**.
 ## explicit_objective
 Enumerate the contents of the femoral triangle, and for the femoral sheath, name its three compartments and what each one holds.
 
@@ -4901,8 +4903,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's siblings.
 CON-MSK-FD892596698D24
 
 ## label
-The hip joint's capsule is reinforced by three named extracapsular ligaments and strengthened inside the joint by the ligamentum teres, the transverse acetabular ligament and the acetabular labrum
-
+Ligaments of the hip joint
 ## canonical_key
 hip.ligaments.capsule-and-labrum
 
@@ -4925,8 +4926,11 @@ Labrum acetabulare
 الرباط الإسكي الفخذي
 
 ## definition
-Three extracapsular ligaments reinforce the hip capsule. The iliofemoral ligament is an inverted-Y band whose stem attaches to the anterior inferior iliac spine and whose two limbs attach to the two ends of the intertrochanteric line; it is the strongest ligament of the joint, reinforces the capsule anteriorly, and limits over-extension. The pubofemoral ligament is a triangular band from the superior pubic ramus and the ilio-pubic eminence, blended with the medial part of the capsule, and limits over-abduction. The ischiofemoral ligament attaches to the body of the ischium below the acetabulum, blends with the back of the capsule, supports it posteriorly, and limits excessive medial rotation. Inside the joint, the ligamentum teres is a weak triangular band from the fovea on the femoral head to both sides of the acetabular notch and the transverse acetabular ligament, and its function is to carry an artery to the femoral head; the transverse acetabular ligament bridges the two ends of the acetabular notch, converting it into a foramen for vessels and nerves; and the labrum acetabulare is a fibrocartilaginous rim on the acetabular margin that blends with the transverse ligament and deepens the socket.
+**Three extracapsular ligaments** reinforce the hip capsule. The **iliofemoral ligament** is an inverted-Y band whose stem attaches to the anterior inferior iliac spine and whose limbs attach to the two ends of the intertrochanteric line; it is the __strongest ligament of the joint__, reinforces the capsule anteriorly, and limits over-extension.
 
+The **pubofemoral ligament** is a triangular band from the superior pubic ramus and the ilio-pubic eminence, blended with the medial capsule, that limits over-abduction. The **ischiofemoral ligament** attaches to the body of the ischium below the acetabulum, blends with the back of the capsule, and limits excessive medial rotation.
+
+Inside the joint, the **ligamentum teres** runs from the fovea on the femoral head to the acetabular notch and transverse ligament, and its function is to __carry an artery to the femoral head__; the **transverse acetabular ligament** bridges the acetabular notch into a foramen for vessels and nerves; and the **labrum acetabulare** is a fibrocartilaginous rim that deepens the socket.
 ## explicit_objective
 Name the three extracapsular ligaments of the hip joint with their attachments and the movement each one limits, and name the two further structures inside the joint (ligamentum teres, transverse acetabular ligament) and the labrum, with what each does.
 
@@ -5085,8 +5089,7 @@ relationships: Content already lives in ART-103-ANA-HIP-JOINT-STRUCTURE's "Struc
 CON-MSK-12FC6A14AE2740
 
 ## label
-Gluteus maximus is the largest muscle in the body, the main hip extensor, and is supplied by the inferior gluteal nerve
-
+Gluteus maximus
 ## canonical_key
 gluteus.maximus.attachments-action-nerve
 
@@ -5103,8 +5106,13 @@ Action of gluteus maximus
 العضلة الألوية الكبرى (جلوتيوس ماكسيموس)
 
 ## definition
-Gluteus maximus, the largest muscle in the body, arises from the outer gluteal surface of the ilium behind the posterior gluteal line, the posterior surface of the sacrum and coccyx, and the back of the sacrotuberous ligament. Its fibres pass downwards and laterally: the superficial three-quarters insert into the posterior border of the upper part of the iliotibial tract, and the deep one-quarter inserts into the floor of the gluteal tuberosity. It is supplied by the inferior gluteal nerve. It is the main extensor of the hip joint, as in rising from sitting; it is a lateral rotator and abductor of the hip; and it tightens the iliotibial tract to help keep the knee extended in standing. Its thickness makes it a preferred site for intramuscular injection, given in the upper outer quadrant of the buttock to avoid the underlying sciatic nerve.
+**Gluteus maximus**, the __largest muscle in the body__, arises from the outer gluteal surface of the ilium behind the posterior gluteal line, the posterior surface of the sacrum and coccyx, and the back of the sacrotuberous ligament.
 
+Its fibres pass downwards and laterally: the superficial three-quarters insert into the posterior border of the upper iliotibial tract, and the deep one-quarter into the floor of the gluteal tuberosity. It is supplied by the **inferior gluteal nerve**.
+
+It is the **main extensor of the hip** (as in rising from sitting), a lateral rotator and abductor of the hip, and it tightens the iliotibial tract to help keep the knee extended in standing.
+
+Its thickness makes it a preferred site for **intramuscular injection**, given in the __upper outer quadrant of the buttock to avoid the underlying sciatic nerve__.
 ## explicit_objective
 State the origin, insertion, nerve supply and action of gluteus maximus, and give the clinical reason its intramuscular injections are placed in the upper outer quadrant of the buttock.
 
@@ -5266,8 +5274,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's siblings.
 CON-MSK-8E782A7460730E
 
 ## label
-The popliteal artery is the continuation of the femoral artery through the popliteal fossa, ending at the lower border of popliteus by dividing into the anterior and posterior tibial arteries
-
+The popliteal artery
 ## canonical_key
 artery.popliteal.origin-course-branches
 
@@ -5283,8 +5290,11 @@ Beginning, end and branches of the popliteal artery
 منشأ ومسار وفروع الشريان المأبضي
 
 ## definition
-The popliteal artery is the continuation of the femoral artery at the opening in adductor magnus, at the junction of the middle and lower thirds of the thigh. It enters the popliteal fossa, lying on its floor as the deepest structure there, and ends below at the lower border of popliteus by dividing into the anterior and posterior tibial arteries. Its branches are muscular branches to the hamstring and calf muscles, and five articular branches — the superior and inferior medial genicular, the superior and inferior lateral genicular, and the middle genicular arteries — which contribute to the anastomosis around the knee, together with its two terminal branches, the anterior and posterior tibial arteries.
+The **popliteal artery** is the continuation of the femoral artery at the opening in adductor magnus, at the junction of the middle and lower thirds of the thigh.
 
+It enters the popliteal fossa as the __deepest structure__ on its floor, and ends at the lower border of popliteus by dividing into the **anterior and posterior tibial arteries**.
+
+Its branches are muscular branches to the hamstring and calf muscles, and **five articular branches** — the superior and inferior medial genicular, the superior and inferior lateral genicular, and the middle genicular — which contribute to the anastomosis around the knee together with its two terminal branches.
 ## explicit_objective
 State the origin, course and termination of the popliteal artery, and enumerate its muscular, five articular and two terminal branches.
 
@@ -5444,8 +5454,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's siblings.
 CON-MSK-6614EA58CFAF9C
 
 ## label
-The obturator nerve arises from the lumbar plexus (L2-4), passes through the obturator canal, and divides into anterior and posterior divisions supplying the medial compartment of the thigh
-
+The obturator nerve
 ## canonical_key
 obturator.nerve.origin-course-branches
 
@@ -5462,8 +5471,13 @@ Posterior division of the obturator nerve
 منشأ وفروع العصب السدادي
 
 ## definition
-The obturator nerve is a branch of the lumbar plexus in the abdomen, arising from the ventral divisions of the anterior primary rami of the second, third and fourth lumbar nerves. It appears at the medial side of psoas major, descends on the side of the pelvis with the obturator vessels, and passes through the obturator canal to reach the medial compartment of the thigh, where it divides into an anterior division, passing in front of adductor brevis between it and adductor longus, and a posterior division, passing behind adductor brevis between it and adductor magnus. The anterior division gives muscular branches to adductor longus, adductor brevis and gracilis (and sometimes pectineus), an articular branch to the hip joint, and a cutaneous branch to a limited part of the skin of the medial thigh. The posterior division gives muscular branches to obturator externus, adductor brevis and the pubic part of adductor magnus, and an articular branch to the knee joint.
+The **obturator nerve** is a branch of the lumbar plexus, arising from the ventral divisions of the anterior primary rami of **L2, L3 and L4**.
 
+It appears at the medial side of psoas major, descends on the side of the pelvis with the obturator vessels, and passes through the **obturator canal** to reach the medial compartment of the thigh, where it divides into an **anterior division** (in front of adductor brevis) and a **posterior division** (behind adductor brevis).
+
+The **anterior division** gives muscular branches to adductor longus, adductor brevis and gracilis (and sometimes pectineus), an articular branch to the hip joint, and a cutaneous branch to a limited part of the medial thigh.
+
+The **posterior division** gives muscular branches to obturator externus, adductor brevis and the pubic part of adductor magnus, and an articular branch to the knee joint.
 ## explicit_objective
 State the origin and course of the obturator nerve to the obturator canal, and give the muscular, articular and cutaneous branches of its anterior and posterior divisions separately.
 
@@ -5623,8 +5637,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's siblings.
 CON-MSK-9D013840078D50
 
 ## label
-The femoral sheath is a funnel-shaped fascial tube around the upper femoral vessels, divided into a lateral, an intermediate and a medial compartment, the last being the femoral canal
-
+The femoral sheath and femoral canal
 ## canonical_key
 femoral.sheath.structure-compartments
 
@@ -5641,8 +5654,11 @@ Compartments of the femoral sheath
 موقع وشكل وتكوين الغمد الفخذي
 
 ## definition
-The femoral sheath is a funnel-shaped extension of the deep fascia of the abdomen, surrounding the upper 3-4 cm of the femoral vessels below the inguinal ligament. Its anterior wall is an extension of the fascia transversalis and its posterior wall is an extension of the fascia iliaca. It is divided by two antero-posterior septa into three compartments: a lateral compartment containing the femoral artery and the femoral branch of the genitofemoral nerve; an intermediate compartment containing the femoral vein; and a medial compartment, shorter than the other two and called the femoral canal, containing a lymph node, lymph vessels and fat. The femoral canal provides a dead space for distension of the femoral vein during muscular exercise, is a pathway for lymph vessels from the lower limb to the abdomen, and is the pathway through which a femoral hernia protrudes.
+The **femoral sheath** is a funnel-shaped extension of the deep fascia of the abdomen, surrounding the upper 3-4 cm of the femoral vessels below the inguinal ligament. Its anterior wall extends from the fascia transversalis and its posterior wall from the fascia iliaca.
 
+It is divided by two antero-posterior septa into three compartments: a **lateral** compartment containing the femoral artery and the femoral branch of the genitofemoral nerve; an **intermediate** compartment containing the femoral vein; and a **medial** compartment, the shortest, called the **femoral canal**, containing a lymph node, lymph vessels and fat.
+
+The **femoral canal** provides a dead space for distension of the femoral vein during muscular exercise, is a pathway for lymph vessels from the lower limb to the abdomen, and is the __route through which a femoral hernia protrudes__.
 ## explicit_objective
 Describe the site, shape and formation of the femoral sheath, name its three compartments and what each contains, and give the three clinical points that follow from the medial compartment being the femoral canal.
 
@@ -5801,8 +5817,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's siblings.
 CON-MSK-5566B15D2C577E
 
 ## label
-The femoral artery has different relations on all four aspects in the femoral triangle than in the adductor canal, because the vessel changes from superficial to deep along its course
-
+Relations of the femoral artery
 ## canonical_key
 artery.femoral.relations-triangle-and-canal
 
@@ -5817,8 +5832,11 @@ Relations of the femoral artery in the femoral triangle and adductor canal
 [clear]
 
 ## definition
-The femoral artery begins behind the inguinal ligament at the mid-inguinal point as the continuation of the external iliac artery; its upper half is superficial, in the femoral triangle, and its lower half is deep, in the adductor canal, ending at the adductor hiatus to become the popliteal artery. In the femoral triangle its relations are: anteriorly, skin, fascia and the femoral sheath; posteriorly, iliopsoas, pectineus and adductor longus; laterally, the femoral nerve, the femoral branch of the genitofemoral nerve and the saphenous nerve; medially, the femoral vein, in the upper part of the triangle. In the adductor canal its relations are: anteriorly, the fibrous roof of the canal and sartorius; posteriorly, adductor longus, then adductor magnus, and the femoral vein in the upper part of the canal; laterally, vastus medialis and its nerve, and the saphenous nerve in the upper part of the canal; medially, the saphenous nerve, in the lower part of the canal.
+The **femoral artery** begins behind the inguinal ligament at the mid-inguinal point as the continuation of the external iliac artery. Its __upper half is superficial__, in the femoral triangle, and its __lower half is deep__, in the adductor canal, ending at the adductor hiatus to become the popliteal artery.
 
+In the **femoral triangle** its relations are: anteriorly, skin, fascia and the femoral sheath; posteriorly, iliopsoas, pectineus and adductor longus; laterally, the femoral nerve, the femoral branch of the genitofemoral nerve and the saphenous nerve; medially, the femoral vein in the upper part of the triangle.
+
+In the **adductor canal** its relations are: anteriorly, the fibrous roof of the canal and sartorius; posteriorly, adductor longus then adductor magnus, and the femoral vein in the upper part; laterally, vastus medialis and its nerve, and the saphenous nerve in the upper part; medially, the saphenous nerve in the lower part.
 ## explicit_objective
 Give the four-aspect relations of the femoral artery separately for the femoral triangle and for the adductor canal, naming what changes between the two.
 
@@ -5978,8 +5996,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's siblings.
 CON-MSK-278D880DE7C3B0
 
 ## label
-Fracture of the neck of the femur is common in elderly people, especially women, because osteoporosis weakens that part of the bone
-
+Fracture of the neck of the femur
 ## canonical_key
 femur.neck-fracture.elderly-osteoporosis
 
@@ -5995,8 +6012,11 @@ Common fracture site of the femur in elderly people
 كسر عنق الفخذ عند كبار السن
 
 ## definition
-The neck of the femur is the common fracture site of the femur in elderly people; the book records it as very common in old age, especially in females, because of osteoporosis. A classic presentation is a fall in which the limb becomes laterally rotated and shortened, and the patient cannot lift the limb off the ground. The shortening results from the upward pull of the muscles connecting the femur to the hip bone on the proximal fragment. The commonly associated complications are nonunion and avascular necrosis of the head of the femur, because of its poor blood supply — the retinacular vessels running up the neck in the capsule's own fibres, which a fracture can tear, are the head's chief supply in the adult, and whether they are disrupted depends on where along the neck the fracture occurs relative to the capsule's posterior attachment (intracapsular fractures threaten this supply more than extracapsular ones).
+The **neck of the femur** is the common fracture site of the femur in elderly people — very common in old age, __especially in females, because of osteoporosis__.
 
+A classic presentation is a fall in which the limb becomes **laterally rotated and shortened**, and the patient cannot lift the limb off the ground; the shortening results from the upward pull of the muscles connecting the femur to the hip bone on the proximal fragment.
+
+The common complications are **nonunion** and **avascular necrosis of the head**, because of its poor blood supply — the __retinacular vessels running up the neck__ in the capsule's fibres are the head's chief supply in the adult, and a fracture can tear them. Whether they are disrupted depends on where the fracture lies relative to the capsule's posterior attachment: intracapsular fractures threaten this supply more than extracapsular ones.
 ## explicit_objective
 Given a description of a fall in an elderly patient with a laterally rotated, shortened limb, identify the neck of the femur as the fracture site, explain why the bone is fragile there, explain the shortening, and name the fracture's common complications and why they occur.
 
@@ -6156,8 +6176,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's siblings.
 CON-MSK-D50900A41BC52B
 
 ## label
-Quadriceps femoris has four heads that unite into one tendon inserting via the patella and patellar ligament onto the tibial tuberosity, and it is the only extensor of the knee
-
+Quadriceps femoris
 ## canonical_key
 quadriceps.femoris.attachments-action-nerve
 
@@ -6177,8 +6196,13 @@ Articularis genus
 عضلة الفخذ الرباعية الرؤوس
 
 ## definition
-Quadriceps femoris has four heads. Rectus femoris arises by a straight head from the anterior inferior iliac spine and a reflected head from a depression just above the acetabulum. Vastus lateralis arises from the upper part of the intertrochanteric line, the root of the greater trochanter, the lateral lip of the gluteal tuberosity and the upper half of the lateral lip of the linea aspera. Vastus medialis arises from the lower part of the intertrochanteric line, the spiral line, the medial lip of the linea aspera and the upper half of the medial supracondylar line. Vastus intermedius arises from the upper two-thirds of the anterior and lateral surfaces of the femur; its deep lower fibres form a small slender muscle, articularis genus, inserting into the upper part of the synovial membrane of the knee joint. The tendons of the four heads unite into a single strong tendon inserting into the base of the patella and, through the ligamentum patellae, the tibial tuberosity. It is supplied by the femoral nerve, whose branch to vastus intermedius also supplies articularis genus. It is a powerful extensor of the knee joint, flexes the hip joint through rectus femoris, and its lower vastus medialis fibres stabilise the patella against the lateral pull of the iliotibial tract; articularis genus pulls the synovial membrane upward during extension.
+**Quadriceps femoris** has four heads. **Rectus femoris** arises by a straight head from the anterior inferior iliac spine and a reflected head from a depression just above the acetabulum.
 
+**Vastus lateralis** arises from the upper intertrochanteric line, the root of the greater trochanter, the lateral lip of the gluteal tuberosity and the upper half of the lateral lip of the linea aspera. **Vastus medialis** arises from the lower intertrochanteric line, the spiral line, the medial lip of the linea aspera and the upper half of the medial supracondylar line. **Vastus intermedius** arises from the upper two-thirds of the anterior and lateral surfaces of the femur; its deep lower fibres form **articularis genus**, inserting into the upper synovial membrane of the knee.
+
+The four tendons unite into a single strong tendon inserting into the base of the patella and, through the **ligamentum patellae**, the tibial tuberosity. It is supplied by the **femoral nerve**, whose branch to vastus intermedius also supplies articularis genus.
+
+It is a __powerful extensor of the knee__, flexes the hip through rectus femoris, and its lower vastus medialis fibres stabilise the patella against the lateral pull of the iliotibial tract; articularis genus pulls the synovial membrane upward during extension.
 ## explicit_objective
 Name the four heads of quadriceps femoris with their origins, state the muscle's single insertion, its nerve supply, and its four actions.
 
@@ -6338,8 +6362,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's siblings.
 CON-MSK-7375F8CEDEBEC1
 
 ## label
-The femoral nerve arises from the lumbar plexus, enters the thigh lateral to the femoral sheath, and gives muscular, cutaneous and articular branches before its injury paralyses the quadriceps and abolishes knee extension
-
+The femoral nerve
 ## canonical_key
 femoral.nerve.origin-course-branches
 
@@ -6355,8 +6378,13 @@ Effects of injury of the femoral nerve
 منشأ ومسار وفروع العصب الفخذي
 
 ## definition
-The femoral nerve arises from the lumbar plexus in the abdomen, from the dorsal divisions of the anterior primary rami of the second, third and fourth lumbar nerves. It appears at the lateral margin of psoas major, between it and iliacus, a short distance above the inguinal ligament, enters the thigh deep to the inguinal ligament and lateral to the femoral sheath, and ends about 2 cm below the ligament by dividing into its branches. Its muscular branches supply iliacus, pectineus, sartorius and quadriceps femoris. Its cutaneous branches are the saphenous nerve, to the skin of the medial side of the knee, leg and foot; the medial cutaneous nerve of the thigh, to the skin of the medial thigh down to the knee; and the intermediate cutaneous nerve of the thigh, to the skin of the intermediate area of the front of the thigh down to the knee. Its articular branches reach the hip joint from the nerve to rectus femoris and the knee joint from the nerves to the three vasti. Injury paralyses quadriceps femoris, abolishing active knee extension (though the limb can still be extended passively with the help of the iliotibial tract), and causes loss of sensation on the front and medial sides of the thigh and the medial sides of the leg and foot.
+The **femoral nerve** arises from the lumbar plexus in the abdomen, from the dorsal divisions of the anterior primary rami of **L2, L3 and L4**.
 
+It appears at the lateral margin of psoas major, between it and iliacus, a short distance above the inguinal ligament, enters the thigh __deep to the inguinal ligament and lateral to the femoral sheath__, and ends about 2 cm below the ligament by dividing into its branches.
+
+Its **muscular branches** supply iliacus, pectineus, sartorius and quadriceps femoris. Its **cutaneous branches** are the **saphenous nerve** (medial side of the knee, leg and foot), the **medial cutaneous nerve of the thigh**, and the **intermediate cutaneous nerve of the thigh**. Its **articular branches** reach the hip joint (from the nerve to rectus femoris) and the knee joint (from the nerves to the three vasti).
+
+**Injury** paralyses quadriceps femoris, __abolishing active knee extension__ (though the limb can still be extended passively with help from the iliotibial tract), and causes loss of sensation on the front and medial sides of the thigh and the medial sides of the leg and foot.
 ## explicit_objective
 State the origin, course and branches of the femoral nerve, and give the motor and sensory effects of its injury.
 
@@ -6516,8 +6544,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's siblings.
 CON-MSK-EE2928A0211198
 
 ## label
-A femoral hernia is the abnormal protrusion of a peritoneal pouch through the femoral canal, more common in females because their femoral canal and ring are wider, and it commonly strangulates
-
+Femoral hernia
 ## canonical_key
 femoral.hernia.canal-and-ring
 
@@ -6534,8 +6561,13 @@ Strangulated femoral hernia
 حلقة القناة الفخذية
 
 ## definition
-A femoral hernia is the abnormal protrusion of a peritoneal pouch through the femoral canal — the medial, and shortest, of the femoral sheath's three compartments. The femoral ring is the opening of the femoral canal into the abdomen. The condition is more common in females than males because their femoral canal and ring are wider, due to the greater breadth of the female pelvis. A globular swelling appears in the groin, characteristically reducing (becoming smaller) on lying down; strangulation of the hernia is a common and dangerous complication, because the canal's narrow, rigid boundaries can compress the trapped bowel's blood supply. The abnormal obturator artery, present in about 30% of people and replacing the usual obturator artery, lies medial to the femoral ring and is at risk of injury when operating on a strangulated femoral hernia.
+A **femoral hernia** is the abnormal protrusion of a peritoneal pouch through the **femoral canal** — the medial, and shortest, of the femoral sheath's three compartments. The **femoral ring** is the opening of the femoral canal into the abdomen.
 
+It is __more common in females__ because their femoral canal and ring are wider, due to the greater breadth of the female pelvis. A globular swelling appears in the groin, characteristically reducing on lying down.
+
+**Strangulation** is a common and dangerous complication, because the canal's narrow, rigid boundaries can compress the trapped bowel's blood supply.
+
+The **abnormal obturator artery**, present in about 30% of people and replacing the usual obturator artery, lies medial to the femoral ring and is __at risk of injury when operating on a strangulated femoral hernia__.
 ## explicit_objective
 Given a groin swelling that reduces on lying down, diagnose a femoral hernia; define the femoral ring and the femoral canal; explain why the condition is more common in females; and name its common complication.
 
