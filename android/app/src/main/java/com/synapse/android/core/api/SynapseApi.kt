@@ -2,6 +2,8 @@ package com.synapse.android.core.api
 
 import com.synapse.android.core.CortexJson
 import com.synapse.android.core.model.QotdAnswerResult
+import com.synapse.android.core.rooms.RoomMember
+import com.synapse.android.core.rooms.RoomProtocol
 import com.synapse.android.core.model.QotdFriends
 import com.synapse.android.core.model.QotdLeaderboard
 import com.synapse.android.core.model.QotdToday
@@ -132,6 +134,17 @@ data class PricingQuote(
     val discountKind: String?,
     val discountCode: String?,
 )
+
+/** A study party (a study room) as `POST /api/parties/join` returns it. Members carry the same shape `presence` broadcasts. */
+data class JoinedParty(
+    val id: String,
+    val code: String,
+    val name: String?,
+    val members: List<RoomMember>,
+)
+
+/** `POST /api/parties/join`'s answer. A wrong code or wrong-cohort join is [ok] == false with a server [reason], not an [ApiError]. */
+data class JoinPartyResult(val ok: Boolean, val reason: String?, val party: JoinedParty?)
 
 /**
  * The only thing in this app that speaks HTTP.
@@ -368,6 +381,35 @@ class SynapseApi(
             context?.let { put("context", it) }
         }.toString()
         return decodeAssistantChatResult(requestObject("POST", "/api/assistant/chat", body))
+    }
+
+    // --- Study rooms ---
+
+    /**
+     * `POST /api/parties/join`. Joins the party for [code] (idempotent — already
+     * a member is fine) and returns it so the caller can open the room socket.
+     * A wrong code, or a party in another cohort, is a normal `{ ok: false,
+     * reason }` answer (the two look the same from outside, by design), not a
+     * thrown [ApiError].
+     */
+    suspend fun joinParty(code: String): JoinPartyResult {
+        val body = buildJsonObject { put("code", code.trim().uppercase()) }.toString()
+        val root = requestObject("POST", "/api/parties/join", body)
+        val ok = (root["ok"] as? JsonPrimitive)?.booleanOrNull ?: false
+        val party = (root["party"] as? JsonObject)?.let(::decodeJoinedParty)
+        return JoinPartyResult(ok = ok, reason = root["reason"].stringOrNull(), party = party)
+    }
+
+    private fun decodeJoinedParty(obj: JsonObject): JoinedParty {
+        val members = (obj["members"] as? JsonArray).orEmpty().mapNotNull { element ->
+            (element as? JsonObject)?.let(RoomProtocol::memberFromJson)
+        }
+        return JoinedParty(
+            id = obj["id"].stringOrMalformed("party.id"),
+            code = obj["code"].stringOrMalformed("party.code"),
+            name = obj["name"].stringOrNull(),
+            members = members,
+        )
     }
 
     // --- Vouchers & pricing ---

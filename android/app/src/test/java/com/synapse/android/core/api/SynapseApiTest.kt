@@ -8,6 +8,7 @@ import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
 import org.junit.After
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Before
@@ -377,5 +378,32 @@ class SynapseApiTest {
         val request = server.takeRequest()
         assertEquals("DELETE", request.method)
         assertEquals("/api/account", request.path)
+    }
+
+    @Test fun `joinParty posts the upper-cased code and decodes the party with members`() = runBlocking {
+        server.enqueue(
+            MockResponse().setBody(
+                """{"ok":true,"party":{"id":"p1","code":"ABC123","name":"Anatomy crew","members":[
+                    {"userId":"u1","displayName":"Sara","role":"host","activity":"studying"},
+                    {"userId":"u2","displayName":"Omar","role":"member","activity":"idle"}]}}""",
+            ),
+        )
+        val result = api.joinParty("abc123")
+        val request = server.takeRequest()
+        assertEquals("POST", request.method)
+        assertEquals("/api/parties/join", request.path)
+        assertTrue(request.body.readUtf8().contains("\"ABC123\""))
+        assertTrue(result.ok)
+        assertEquals("Anatomy crew", result.party?.name)
+        assertEquals(2, result.party?.members?.size)
+        assertEquals("Sara", result.party?.members?.first()?.displayName)
+    }
+
+    @Test fun `joinParty surfaces a refusal as ok false with a reason`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"ok":false,"reason":"wrong_cohort"}"""))
+        val result = api.joinParty("ZZZZZZ")
+        assertFalse(result.ok)
+        assertEquals("wrong_cohort", result.reason)
+        assertNull(result.party)
     }
 }
